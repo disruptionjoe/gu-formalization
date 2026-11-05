@@ -7,6 +7,12 @@ updated_at: "2026-08-23"
 
 ## Latest conditional constructions (2026-11-05)
 
+- [K2570 report](k2570-detector-recovery.json).
+- [K2571 report](k2571-stopping-resource-price.json).
+
+
+## Latest conditional constructions (2026-11-05)
+
 - [K2568 report](k2568-cauchy-preparation-bandwidth.json).
 - [K2569 report](k2569-stopping-maximizing-sequences.json).
 

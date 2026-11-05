@@ -6,6 +6,18 @@ updated_at: "2026-10-26"
 canon_sweep_at: "2026-07-25"
 ---
 
+## K2570--K2571: Detector recovery and priced stopping (2026-11-05)
+
+K2570 derives the exact weighted continuity criterion and deterministic-noise minimax error for a specified compact conserved detector on the actual annular homogeneous response. An actual smooth detector family has sharp support/analytic-bandwidth threshold including equality; a realized two-mode observation has an explicit optimal linear estimator. K2571 proves positive expected-trial prices restore finite attained stopping optimizers with explicit stage caps. In the certified nonattainment range every finite expected-trial budget is attained by at most two finite schedules; its low-budget segment is exactly M/2. Released follow-through gives an exact nonlinear finite-resource frontier segment and a global one-stage price transformation. At lambda1.9/price0.1 it certifies the optimal action and value, eliminating a proposed three-stage search; a small-price witness still beats all one-stage mixtures. These are conditional mathematical results, not physical observation selection, a computed unpriced intermediate optimum or a native GU verdict; source polarity, ledger0.263 and canon remain unchanged.
+
+- [K2570](explorations/conditional-build/k2570-detector-recovery-2026-11-05.md).
+- [K2571](explorations/conditional-build/k2571-stopping-resource-price-2026-11-05.md).
+
+Independent construction specialists cross-reviewed the other result, and a distinct integrated hostile reviewer checked both final proofs and probes. No substantive mathematical findings remain. Universal weighted-duality, compact-detector, minimax, upper-semicontinuity and budget-attainment proofs are distinct from finite exact fixtures and inherited/reporting checks; no external-expert, proof-assistant, empirical or remote CI certification.
+
+Earlier sections preserve historical snapshots.
+
+
 ## K2568--K2569: Cauchy preparation and stopping resource bounds (2026-11-05)
 
 K2568 proves exact exponential growth of the actual localized homogeneous response under zero-normal-derivative annular Cauchy preparation, a sharp analytic bandwidth/noise tradeoff and a fixed conserved detector witnessing instability. A different supplied scalar Dirichlet preparation removes that growth with an explicit order-one nonlocal normal trace. K2569 proves resource-preserving reduction of arbitrary adaptive stopping policies to completed-schedule mixtures, strictly increasing finite-stage maxima, and necessary divergence of expected positive-score trials near the optimum. An executed hybrid conversion supplies a sufficient O(1/error) finite-policy resource bound. These are conditional mathematical results; no physical boundary selection, exact intermediate stopping value, native GU verdict, source polarity, ledger0.263 or canon change.

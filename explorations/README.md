@@ -7,6 +7,12 @@ updated_at: "2026-08-21"
 
 ## Latest conditional constructions (2026-11-05)
 
+- [K2570 detector recovery](conditional-build/k2570-detector-recovery-2026-11-05.md).
+- [K2571 priced stopping](conditional-build/k2571-stopping-resource-price-2026-11-05.md).
+
+
+## Latest conditional constructions (2026-11-05)
+
 - [K2568 Cauchy preparation and bandwidth](conditional-build/k2568-cauchy-preparation-bandwidth-2026-11-05.md).
 - [K2569 maximizing-sequence resources](conditional-build/k2569-stopping-maximizing-sequences-2026-11-05.md).
 

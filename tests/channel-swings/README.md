@@ -2,6 +2,12 @@
 
 ## Latest conditional constructions (2026-11-05)
 
+- [K2570 preparation probe](k2570_detector_recovery_probe.py).
+- [K2571 resource probe](k2571_stopping_resource_price_probe.py).
+
+
+## Latest conditional constructions (2026-11-05)
+
 - [K2568 preparation probe](k2568_cauchy_preparation_bandwidth_probe.py).
 - [K2569 resource probe](k2569_stopping_maximizing_sequences_probe.py).
 

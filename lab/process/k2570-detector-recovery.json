@@ -1,0 +1,116 @@
+{
+  "result": "K2570",
+  "evidence_kind": "exact actual-constant/harmonic identities, finite conserved-detector normalization and optimization certificate, separate sequence-tail support; universal proofs in note",
+  "checks": {
+    "actual_positive_homogeneous_potential": true,
+    "nonzero_original_gauge_invariant_field": true,
+    "actual_S3_harmonic_0": true,
+    "actual_S3_harmonic_1": true,
+    "actual_S3_harmonic_2": true,
+    "actual_S3_harmonic_3": true,
+    "actual_S3_harmonic_4": true,
+    "first_two_harmonic_norms": true,
+    "first_two_harmonic_weighted_cross_integral": true,
+    "actual_detector_normalization": true,
+    "finite_truth_noise_constraint": true,
+    "finite_truth_preparation_constraint": true,
+    "dual_normal_alignment": true,
+    "exact_primal_readout": true,
+    "exact_dual_sum": true,
+    "matching_dual_certificate": true,
+    "indistinguishable_opposite_truths": true,
+    "minimax_lower_separation": true,
+    "linear_estimator_bias_relation": true,
+    "linear_estimator_noise_squared": true,
+    "linear_estimator_bias_squared": true,
+    "linear_estimator_exact_worst_error": true,
+    "higher_modes_have_zero_selected_readout": true,
+    "dual_vector_identity": true,
+    "weighted_dual_squared_norm": true,
+    "flat_cutoff_Laplace_moment_0": true,
+    "flat_cutoff_Laplace_moment_1": true,
+    "flat_cutoff_Laplace_moment_2": true,
+    "flat_cutoff_Laplace_moment_3": true,
+    "inverse_fourth_tail_integral": true,
+    "critical_prior_unit_2": true,
+    "scalar_critical_response_2": true,
+    "same_critical_full_field_response_2": true,
+    "critical_prior_unit_4": true,
+    "scalar_critical_response_4": true,
+    "same_critical_full_field_response_4": true,
+    "critical_prior_unit_8": true,
+    "scalar_critical_response_8": true,
+    "same_critical_full_field_response_8": true,
+    "critical_prior_unit_16": true,
+    "scalar_critical_response_16": true,
+    "same_critical_full_field_response_16": true,
+    "unit_preparation_counterfixture_4": true,
+    "weighted_entry_supremum_4": true,
+    "unit_preparation_counterfixture_16": true,
+    "weighted_entry_supremum_16": true,
+    "unit_preparation_counterfixture_64": true,
+    "weighted_entry_supremum_64": true
+  },
+  "contrary_controls": {
+    "unseen_modes_still_consume_preparation": true,
+    "dropping_preparation_inflates_radius": true,
+    "dropping_noise_inflates_radius": true,
+    "endpoint_estimate_is_not_minimax_center": true,
+    "normalization_omission_positive_integral_counterfixture": true,
+    "full_field_nondecay_does_not_imply_scalar_nondecay": true,
+    "weighted_supremum_is_not_scalar_dual_norm": true
+  },
+  "provenance": {
+    "explorations/conditional-build/k2568-cauchy-preparation-bandwidth-2026-11-05.md": "ba379771ece19cf306c3fbf9c41eb729d6d81bf248419485dea400622ded8f13",
+    "explorations/conditional-build/k2566-finite-observation-preparation-2026-11-05.md": "d8b0ce5e7cdd4ed80f3cf2fd8b3f627d2c7e36138ee2aca7d4e613b871ca792d"
+  },
+  "finite_actual_detector": {
+    "weights": [
+      "2",
+      "4"
+    ],
+    "truth": [
+      "3/10",
+      "2/5"
+    ],
+    "q": [
+      "3/2",
+      "34/5"
+    ],
+    "noise_squared": "1/4",
+    "prior_squared": "73/25",
+    "exact_minimax_error": "317/100",
+    "optimal_linear_estimator": [
+      "3/10",
+      "2/5"
+    ]
+  },
+  "supporting_sequence_fixture": [
+    {
+      "n": 2,
+      "noise": "4/9",
+      "scalar_response": "1/4",
+      "full_envelope_response": "1"
+    },
+    {
+      "n": 4,
+      "noise": "16/81",
+      "scalar_response": "1/16",
+      "full_envelope_response": "1"
+    },
+    {
+      "n": 8,
+      "noise": "256/6561",
+      "scalar_response": "1/64",
+      "full_envelope_response": "1"
+    },
+    {
+      "n": 16,
+      "noise": "65536/43046721",
+      "scalar_response": "1/256",
+      "full_envelope_response": "1"
+    }
+  ],
+  "tail_bound": "sum_(n>N) n^-4 <= 1/(3N^3); sequence fixture only",
+  "ceiling": "specified conserved scalar readout of the selected homogeneous family; no full-field existence on the extended prior, physical selection or GU verdict"
+}

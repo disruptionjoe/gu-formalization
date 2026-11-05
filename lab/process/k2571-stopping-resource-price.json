@@ -1,0 +1,131 @@
+{
+  "result": "K2571",
+  "checks": {
+    "fresh_trial_recurrence_derives_penalized_stage": true,
+    "fresh_trial_recurrence_derives_geometric_resource": true,
+    "two_stage_probability": true,
+    "two_stage_resource": true,
+    "two_stage_prefixes": true,
+    "padding_omission_preserves_actual_resource": true,
+    "vanishing_stage_preserves_probability_limit": true,
+    "vanishing_stage_loses_two_positive_trials": true,
+    "penalized_boundary_jump_direction": true,
+    "actual_vanishing_stage_sequence_0": true,
+    "actual_vanishing_stage_sequence_1": true,
+    "actual_vanishing_stage_sequence_2": true,
+    "rigorous_exponential_upper_below_five_thirds": true,
+    "all_multiplier_three_stage_cap": true,
+    "four_stages_strictly_inferior_to_free_witness": true,
+    "free_stage_actual_probability_and_trials": true,
+    "budget_one_initial_mixture": true,
+    "budget_one_exact_value": true,
+    "half_price_abort_and_free_tie": true,
+    "above_half_price_free_stage_is_strictly_negative": true,
+    "inherited_witness_score_and_positive_controls": true,
+    "inherited_witness_new_resource_below_82": true,
+    "positive_price_witness_beats_global_one_stage_upper": true,
+    "coarse_82_trial_bound_already_suffices": true,
+    "effective_multiplier_enters_global_one_stage_region": true,
+    "small_price_witness_outside_sufficient_one_stage_region": true,
+    "price_transform_gap_is_actual_excess_trials": true,
+    "unique_original_root_left_sign": true,
+    "unique_original_root_right_sign": true,
+    "one_stage_global_value_rational_enclosure": true,
+    "one_stage_supported_resource_rational_enclosure": true,
+    "supported_budget_exceeds_free_stage_segment": true,
+    "nonlinear_budget_frontier_derivative_is_support_price": true,
+    "nonlinear_budget_frontier_second_derivative": true,
+    "nonlinear_frontier_joins_free_resource_value": true,
+    "nonlinear_frontier_joins_initial_half_slope": true,
+    "support_mixture_probability": true,
+    "support_mixture_preserves_exact_resource": true,
+    "support_mixture_attains_support_line": true,
+    "finite_budget_strict_gap_rearrangement": true,
+    "attained_high_lambda_regime_is_disjoint": true
+  },
+  "contrary_controls": {
+    "one_price_per_stage_omits_failure_and_pass_trials": true,
+    "use_only_leakage_omits_test_path_cost": true,
+    "unweighted_trial_count_is_not_original_resource": true,
+    "success_conditioned_trial_count_is_not_original_resource": true,
+    "resource_continuity_at_zero_stage_is_false": true,
+    "charging_initial_abort_as_a_trial_changes_budget": true,
+    "finite_witness_is_not_resource_free": true,
+    "multistage_excess_trials_prevents_transform_equality": true,
+    "rounding_supported_resource_changes_exact_budget": true,
+    "equal_weights_do_not_preserve_arbitrary_budget": true
+  },
+  "reporting_checks": {
+    "original_witness_probability_matches_saved_certificate": true,
+    "original_logarithmic_lower_bound_reused": true
+  },
+  "evidence_kinds": {
+    "exact": "actual-law recurrence, original survival-prefix resources, padding jump, finite price/budget consumers and rational exponential enclosure",
+    "supporting": "abstract affine support-mixture fixture and resource-gap rearrangement; neither proves universal compactness or duality",
+    "reused": "K2569 resource reduction and positive gaps; K2567 nonattainment; K2565 original 41-stage logarithmic bound; K2561 global one-stage upper; K2559 contrary attained regime",
+    "universal": "positive-price cap, upper-semicontinuous attainment, supporting-price positivity, optimizer compactness and two-schedule attained frontier in accompanying note",
+    "not_claimed": "computed unpriced intermediate optimum, rate for vanishing price, physical controller price, external-expert or proof-assistant certification"
+  },
+  "executed_consumers": {
+    "global_one_stage_priced_consumer": {
+      "lambda": "19/10",
+      "kappa": "1/10",
+      "S": "1/2",
+      "effective_lambda": "19/8",
+      "a_bracket": [
+        "383330117/1073741824",
+        "766660235/2147483648"
+      ],
+      "Q_outer": [
+        "5604579098/10000000000",
+        "5604579104/10000000000"
+      ],
+      "R_outer": [
+        "14738350158/10000000000",
+        "14738350164/10000000000"
+      ],
+      "supported_budget": "exact R*=2/(1+a*), not a rounded decimal"
+    },
+    "nonlinear_resource_frontier": {
+      "lambda": "0<lambda<4/sqrt(3)",
+      "range": "2/(1+S)<=m<=2/(1+a_critical(S))",
+      "value": "m/2-lambda*m*w(2/m-1,S)",
+      "support_price": "(1-lambda*Mfun(2/m-1,S))/2",
+      "scope": "original expected-positive-trial budget, not leakage budget"
+    },
+    "finite_search": {
+      "S": "1/2",
+      "kappa": "1/10",
+      "lambda": "all positive",
+      "max_positive_stages": 3
+    },
+    "exact_small_resource": {
+      "S": "1/2",
+      "M": "1",
+      "free_stage_probability": "3/4",
+      "J": "1/2",
+      "C": "0",
+      "R": "1"
+    },
+    "positive_price_intermediate_witness": {
+      "S": "1/2",
+      "lambda": "19/10",
+      "kappa": "1/100000",
+      "stages": 41,
+      "exact_expected_positive_trials": "11628385572254499511653781252762444567685404013440593045338770299097142150522281494594118702756261347930304432502113130125893550401917907659781658428090251485193630079274138666274715451965486217502866726927017093453000204988563447218337900639786783073930340958335112040591437341040793044966914576066529060226713524392003793588728115170248741735548413300000/173879203591118227611963299563488337470628110304186239493759494641025550637456244941980418290736646016639325833477490207379921171136847215210418788278383820420217765066002457255384205460370113997274343445751065546355879475240924528054503119826863798666283465522718089650760156684355136370761654737069321416965644084939246664861787722472097274674578631469",
+      "reused_unpriced_lower": "711079567311/1000000000000",
+      "coarse_priced_lower": "710259567311/1000000000000",
+      "one_stage_upper": "71/100",
+      "margin_more_than": "1/5000"
+    }
+  },
+  "dependencies": {
+    "explorations/conditional-build/k2571-stopping-resource-price-2026-11-05.md": "87162b0b74de5fa69161e81490c62e7d89ae5adbf25b5a6656ef5b85e902ea13",
+    "explorations/conditional-build/k2569-stopping-maximizing-sequences-2026-11-05.md": "86320b42a82c0001f5500dd779b90b0f53980f98b936985ba9d736a4584e868e",
+    "explorations/conditional-build/k2567-stopping-family-structure-2026-11-05.md": "ecc77f65e047bad2fb0083fe163ca79971afb32bf6942e162a0cb19e0f9df147",
+    "explorations/conditional-build/k2561-higher-budget-stopping-2026-11-05.md": "adce2808277a9206b573a88c0a71a3bf78dff1e32306780107efb2eeb5c0a698",
+    "explorations/conditional-build/k2559-parametric-stopping-concavity-2026-11-05.md": "70f71e851feb0d8a59aa8bab26237754765cee412bc8bd86c7725ae07f82eb97",
+    "lab/process/k2565-bellman-supersolution.json": "2bf226426a6e882519381a1b04714f3ae6a03369478d482c15029bcf5b717691",
+    "lab/process/k2561-higher-budget-stopping.json": "bd524569f5247ae64ebf1af07d957d6d9b7e7ab6631659369c4c6772b703cdb3"
+  }
+}

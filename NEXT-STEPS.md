@@ -5,7 +5,10 @@ doc_type: roadmap
 updated_at: "2026-10-26"
 ---
 
-> **2026-11-05: CAUCHY PREPARATION AND STOPPING RESOURCES.**
+> **2026-11-05: DETECTOR RECOVERY AND PRICED STOPPING.**
+> Reuse K2570 exact detector sequence criterion, compact-cutoff critical threshold and minimax/tail certificate. A named detector, preparation bound and noise model, or an observation map on a larger solution family, is needed for a new physical consumer; scalar extension does not construct the whole field. Reuse K2571 positive-price finite cap and two-schedule finite-budget attainment at0<lambda<=98/51. Reuse the exact nonlinear resource segment up to the critical control and the sufficient one-stage region lambda/(1-2price)>=4/sqrt3. At lambda1.9/price0.1 the global one-stage optimum is certified: do not requeue a three-stage search there. Next determine a useful supported finite policy outside that sufficient region or the actual one-stage transition, preserving geometric trial-count tails and original leakage. Vanishing-price optimizers have divergent resources in the nonattainment range; no rate or efficient solver is proved. K2565 value bracket, K2559 attained regime, actual-source existence and native quotient/empirical calibration debts remain.
+
+> **Historical predecessor: 2026-11-05: CAUCHY PREPARATION AND STOPPING RESOURCES.**
 > Reuse K2568 exact annular bandwidth d and sharp noisy-data exponent1-d/rho for rho>d; critical analytic radius lacks uniform noisy recovery. The constructed correlated scalar Dirichlet boundary family is stable but supplied, with Hs-to-H(s-1) normal trace: next test a source/observation-selected restriction or a specified empirical detector, without transferring this to physical time or all global domains. Reuse K2569 all-adaptive resource reduction and strict finite-stage gap modulus: bounded expected positive-trial maximizing sequences are excluded at0<lambda<=98/51. Its original-policy upper bound D_(3N+1)>=V-lambda*S²/N gives a search tolerance, not an efficient global solver or matching lower rate. Next certify useful D_n gaps or limiting-hybrid structure; preserve K2565 numerical bracket and K2559 attained regime. Native quotient and empirical cosmology/common-carrier debts remain open.
 
 > **Historical predecessor: 2026-11-05: FINITE OBSERVATION AND ADAPTIVE NONATTAINMENT.**

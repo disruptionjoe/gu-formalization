@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 339aaf4d2a185fb17332723cf6b37035910a72ac
+revision_basis: 00112db4dcec841fbf4a7c6b7e480f6ed799ead4
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -118,6 +118,20 @@ reviewed_prediction_interfaces_2026_10_27:
 current_result:
   status: conditional_research_front
   summary: >-
+    K2570 derives the exact weighted continuity criterion and deterministic-noise minimax error
+    for a specified compact conserved detector on the actual annular homogeneous response. An
+    actual smooth detector family has sharp support/analytic-bandwidth threshold including
+    equality; a realized two-mode observation has an explicit optimal linear estimator. K2571
+    proves positive expected-trial prices restore finite attained stopping optimizers with
+    explicit stage caps. In the certified nonattainment range every finite expected-trial budget
+    is attained by at most two finite schedules; its low-budget segment is exactly M/2. Released
+    follow-through gives an exact nonlinear finite-resource frontier segment and a global
+    one-stage price transformation. At lambda1.9/price0.1 it certifies the optimal action and
+    value, eliminating a proposed three-stage search; a small-price witness still beats all
+    one-stage mixtures. These are conditional mathematical results, not physical observation
+    selection, a computed unpriced intermediate optimum or a native GU verdict; source polarity,
+    ledger0.263 and canon remain unchanged.
+    Historical predecessor (not live):
     K2568 proves exact exponential growth of the actual localized homogeneous response under
     zero-normal-derivative annular Cauchy preparation, a sharp analytic bandwidth/noise tradeoff
     and a fixed conserved detector witnessing instability. A different supplied scalar Dirichlet
@@ -18532,6 +18546,10 @@ current_result:
     coefficientwise A,C packet, global domain, BFV and positive
     cohomology/superposition now route to K129.
   evidence:
+  - explorations/conditional-build/k2570-detector-recovery-2026-11-05.md
+  - explorations/conditional-build/k2571-stopping-resource-price-2026-11-05.md
+  - lab/process/k2570-detector-recovery.json
+  - lab/process/k2571-stopping-resource-price.json
   - explorations/conditional-build/k2568-cauchy-preparation-bandwidth-2026-11-05.md
   - explorations/conditional-build/k2569-stopping-maximizing-sequences-2026-11-05.md
   - lab/process/k2568-cauchy-preparation-bandwidth.json
@@ -21125,6 +21143,9 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  Which independently justified observation extends beyond the selected response family, and
+  which finite resource-priced stopping schedules realize a useful operational budget?
+  Historical predecessor (not live):
   Which independently justified observation or boundary condition selects a stable localized
   response, and what certified finite-stage gaps sharpen the stopping resource tradeoff?
   Historical predecessor (not live):
@@ -25595,6 +25616,20 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  Reuse K2570 exact detector sequence criterion, compact-cutoff critical threshold and
+  minimax/tail certificate. A named detector, preparation bound and noise model, or an
+  observation map on a larger solution family, is needed for a new physical consumer; scalar
+  extension does not construct the whole field. Reuse K2571 positive-price finite cap and
+  two-schedule finite-budget attainment at0<lambda<=98/51. Reuse the exact nonlinear resource
+  segment up to the critical control and the sufficient one-stage region
+  lambda/(1-2price)>=4/sqrt3. At lambda1.9/price0.1 the global one-stage optimum is certified:
+  do not requeue a three-stage search there. Next determine a useful supported finite policy
+  outside that sufficient region or the actual one-stage transition, preserving geometric
+  trial-count tails and original leakage. Vanishing-price optimizers have divergent resources in
+  the nonattainment range; no rate or efficient solver is proved. K2565 value bracket, K2559
+  attained regime, actual-source existence and native quotient/empirical calibration debts
+  remain.
+  Historical predecessor (not live):
   Reuse K2568 exact annular bandwidth d and sharp noisy-data exponent1-d/rho for rho>d; critical
   analytic radius lacks uniform noisy recovery. The constructed correlated scalar Dirichlet
   boundary family is stable but supplied, with Hs-to-H(s-1) normal trace: next test a
