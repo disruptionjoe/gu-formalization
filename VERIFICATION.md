@@ -5,6 +5,18 @@ doc_type: verification-map
 updated_at: "2026-10-27"
 ---
 
+## K2562--K2563: Uniform radial response and global hybrid approximation (2026-11-05)
+
+K2562 constructs uniformly bounded radial inverses for every complex parameter by switching between two fixed separated boundary spectra. It solves all actual compact-source factors, supplies polynomial derivative bounds and a sufficient moment86 condition for unbounded supplied B eigenfamilies, preserving synchronized overlap away from two poles. B point-source representation and physical boundary selection remain open. K2563 proves a global finite-atom hybrid approximation to the full original adaptive stopping law with explicit dual and constrained-budget errors, relaxed mixture attainment an exact Bellman recursion and a certified global grid error. A small exact interval DP fixture passes; the stated fine-grid burden shows why practical pruning is still needed. Source polarities, ledger0.263, canon and native GU judgments remain unchanged; no numerical intermediate optimum is claimed.
+
+- [K2562](explorations/conditional-build/k2562-parameter-dependent-response-2026-11-05.md).
+- [K2563](explorations/conditional-build/k2563-global-hybrid-reduction-2026-11-05.md).
+
+Independent geometry/PDE and probability specialists plus a distinct integrated hostile review found no substantive mathematical defects after exact-control and evidence-label repairs. Universal spectral, compression, expectation and grid-error proofs, exact algebra and finite supporting fixtures remain distinct; no external-expert, proof-assistant or remote CI certification.
+
+Earlier sections preserve historical snapshots.
+
+
 ## K2560--K2561: Compact radial response and high-budget stopping (2026-11-05)
 
 K2560 constructs full selected-system responses through the actual compact radial pressure cutoff for supplied bounded B eigenfamilies, with explicit regular-center bounds, continuous test observations and synchronized splitter descent away from two poles. Its center-zero scalar inverse grows exponentially at negative spectral parameters; a Dirichlet alternative repairs that end but has an exact positive-source resonance and resolvent pole. These are scoped inverse limits, not full-system nonexistence. K2561 proves the high-budget adaptive stopping supremum for 0<lambda<=4/5, nonattainment, sharp adaptive trial complexity and saturation sensitivity. An exact 21-stage rational hybrid at score1/2 and multiplier19/10 beats both the global one-stage optimum and the named fluid candidate, and beats every one-stage mixture at its exact budget by more than1/1000. The full intermediate frontier, compact-profile B point source and physical preparation remain open; source polarities, ledger0.263, canon and native GU verdicts are unchanged.

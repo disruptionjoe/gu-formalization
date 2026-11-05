@@ -7,6 +7,12 @@ updated_at: "2026-08-21"
 
 ## Latest conditional constructions (2026-11-05)
 
+- [K2562 uniform parameter response](conditional-build/k2562-parameter-dependent-response-2026-11-05.md).
+- [K2563 global hybrid hierarchy](conditional-build/k2563-global-hybrid-reduction-2026-11-05.md).
+
+
+## Latest conditional constructions (2026-11-05)
+
 - [K2560 compact radial response](conditional-build/k2560-compact-source-response-2026-11-05.md).
 - [K2561 high-budget adaptive supremum](conditional-build/k2561-higher-budget-stopping-2026-11-05.md).
 

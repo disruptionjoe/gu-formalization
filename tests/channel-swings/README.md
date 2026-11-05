@@ -2,6 +2,12 @@
 
 ## Latest conditional constructions (2026-11-05)
 
+- [K2562 two-boundary inverse probe](k2562_parameter_dependent_response_probe.py).
+- [K2563 global hybrid error probe](k2563_global_hybrid_reduction_probe.py).
+
+
+## Latest conditional constructions (2026-11-05)
+
 - [K2560 regular-center response probe](k2560_compact_source_response_probe.py).
 - [K2561 high-budget generator certificate](k2561_higher_budget_stopping_probe.py).
 

@@ -5,7 +5,10 @@ doc_type: roadmap
 updated_at: "2026-10-26"
 ---
 
-> **2026-11-05: COMPACT RADIAL RESPONSE AND HIGH-BUDGET STOPPING.**
+> **2026-11-05: UNIFORM RESPONSE AND GLOBAL HYBRID APPROXIMATION.**
+> Reuse K2562 all-complex two-boundary inverses and the sufficient moment86 consumer. Radial resonance/growth no longer prevents supplied-family synthesis, but an actual B point-source representation and physical preparation remain unconstructed. Reuse K2563 largest-atom hierarchy and exact adaptive budget transfer; do not repeat stage ordering, one-atom-tail optimization or endpoint phases. The hierarchy now includes a certified mesh modulus and rational interval flow evaluator. The explicit fine-grid recipe requires over10^2700 ratio assignments in literal enumeration; use certified adaptive pruning or structural reduction before a serious numerical bank. A small exhaustive grid is algorithm coverage, not a close optimum. Empirical cosmology/common-carrier inputs, native quotient and observation debts remain live; no GU verdict change.
+
+> **Historical predecessor: 2026-11-05: COMPACT RADIAL RESPONSE AND HIGH-BUDGET STOPPING.**
 > Reuse K2560 full radial-cutoff and bounded-family construction. The center-zero scalar inverse has exponential negative-parameter growth; the regular Dirichlet alternative repairs that end but has a positive ground-state pole. A mixed or parameter-dependent preparation is a concrete successor, requiring uniform bounds for all four response equations and synchronized overlap, or a controlled full-response cancellation/direct-domain construction. Neither tested failure proves all-domain nonexistence. K2561 closes the high-budget diffuse supremum and its adaptive complexity; the exact21-stage witness atS=1/2,lambda=19/10 proves an intermediate hybrid can beat both named candidates and all one-stage mixtures at its exact budget. Next derive a genuine hybrid Bellman upper bound/order rule, not another unconstrained grid or extrapolation of either sign certificate. Keep K2559 low-budget atoms, full point-source and physical-boundary debts, and independently specified cosmology/common-carrier alternatives; no GU verdict changes.
 
 > **Historical predecessor: 2026-11-05: DISTRIBUTIONAL DESCENT AND GLOBAL STOPPING FRONTIER.**

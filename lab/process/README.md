@@ -7,6 +7,12 @@ updated_at: "2026-08-23"
 
 ## Latest conditional constructions (2026-11-05)
 
+- [K2562 report](k2562-parameter-dependent-response.json).
+- [K2563 report](k2563-global-hybrid-reduction.json).
+
+
+## Latest conditional constructions (2026-11-05)
+
 - [K2560 report](k2560-compact-source-response.json).
 - [K2561 report](k2561-higher-budget-stopping.json).
 
