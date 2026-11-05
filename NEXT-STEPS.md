@@ -5,7 +5,11 @@ doc_type: roadmap
 updated_at: "2026-10-26"
 ---
 
-> **2026-11-04: PERTURBATION CLOSURE AND LOCALIZED SCALAR OBSERVATION.**
+> **2026-11-04: CONSTRAINED TENSOR RESPONSE AND CRITICAL STOPPING.**
+> Reuse K2544 exact curved TT sector, original two-pole readout and scalar-blind tensor observation. The actual radial-pressure source is outside this sector; an unrestricted ordinary product-slice Cauchy prescription fails, while a curved restricted domain or different justified observed reduction remains to be constructed. Preserve analytic versus distributional existence and flat-donor versus curved-domain distinctions. K2545 closes arbitrary-stage critical cubic behavior and the sharp moving-multiplier cubic comparison; next determine fourth-order satellite scaling or a genuine finite-score original-law certificate. Keep mixture concentration in expectation and do not infer exact finite-score optimality. K2542 prepared cosmology closure, physical calibration, native Met(X) and quotient debts retain their prior ceilings.
+
+
+> **Historical predecessor: 2026-11-04: PERTURBATION CLOSURE AND LOCALIZED SCALAR OBSERVATION.**
 > Reuse K2542 prepared finite-band scalar/dust/tensor closure: another prepared finite-band growth fit does not uniformly separate the unbounded family. Next compare independently selected primordial/scalar data, nonlinear or local-gravity constraints, or a specified frequency/parameter restriction. K2543 supplies the exact original curvature-displacement/source identity and conserved full-thickness source, not a constraint-preserving inverse or unique metric-only observation. Construct that response with explicit boundary/homogeneous data and a fixed finite detector; retain its twelve-dimensional majorant and profile costs. Native Met(X), physical quotient, finite-score/common-carrier calibration and other portfolio debts retain their prior ceilings.
 
 

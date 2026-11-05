@@ -5,6 +5,18 @@ doc_type: verification-map
 updated_at: "2026-10-27"
 ---
 
+## K2544--K2545: Constrained tensor response and critical stopping aggregation (2026-11-04)
+
+K2544 constructs a nonzero curved TT source sector preserving the full selected-action equations, local distributional response and analytically specified germs. Original metric response retains both poles; a finite tensor probe detects scalar-blind homogeneous modes. The actual scalar sector fails the specified unrestricted product-slice Cauchy criterion; nonlocal and other boundary alternatives remain open. K2545 proves uniform all-stage critical cubic aggregation, score concentration and a sharp moving-multiplier cubic boundary with an exact two-stage advantage below it. No exact finite-score optimum, arbitrary localized-source inverse, physical domain or native GU claim. Source polarities and ledger0.263 unchanged.
+
+- [K2544](explorations/conditional-build/k2544-constrained-tensor-response-2026-11-04.md).
+- [K2545](explorations/conditional-build/k2545-critical-stopping-aggregation-2026-11-04.md).
+
+Independent geometry/PDE and probability specialists plus a separate integrated review found no substantive defects in the final arguments. Review clarified theorem-section attribution and evidence labels. Universal curved/uniform proofs, primary theorem applications, exact finite algebra and report consistency remain distinct; no external-expert or proof-assistant certification.
+
+Earlier sections preserve historical snapshots.
+
+
 ## K2542--K2543: Perturbation closure and localized scalar observation (2026-11-04)
 
 K2542 proves prepared fixed-band rolling scalar-dust and tensor responses converge uniformly to the Einstein reference, including common Jordan density, lensing and slip. Independent scalar preparation, finite parameter bounds or other applicability data are still needed for discrimination; no empirical or native GU claim. K2543 derives the full original curvature-displacement contact identity for arbitrary localized conserved sources, constructs finite diffeomorphism-invariant probes and proves a joint zero-width divergence with explicit metric-only homogeneous ambiguity. A pressure-preserving full-thickness source repair is conserved but adds majorant/profile data and supplies no full inverse. Source polarities and ledger0.263 unchanged.

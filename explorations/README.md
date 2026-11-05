@@ -7,6 +7,12 @@ updated_at: "2026-08-21"
 
 ## Latest conditional constructions (2026-11-04)
 
+- [K2544: constrained curved source, original metric and data domain](conditional-build/k2544-constrained-tensor-response-2026-11-04.md).
+- [K2545: all-stage critical aggregation and sharp moving-multiplier boundary](conditional-build/k2545-critical-stopping-aggregation-2026-11-04.md).
+
+
+## Latest conditional constructions (2026-11-04)
+
 - [K2542: prepared rolling perturbation Einstein limit](conditional-build/k2542-rolling-perturbation-limit-2026-11-04.md).
 - [K2543: localized scalar observation and conserved thickness](conditional-build/k2543-localized-source-readout-2026-11-04.md).
 

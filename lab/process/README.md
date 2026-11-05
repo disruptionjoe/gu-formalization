@@ -7,6 +7,12 @@ updated_at: "2026-08-23"
 
 ## Latest conditional constructions (2026-11-04)
 
+- [K2544 report](k2544-constrained-tensor-response.json).
+- [K2545 report](k2545-critical-stopping-aggregation.json).
+
+
+## Latest conditional constructions (2026-11-04)
+
 - [K2542 report](k2542-rolling-perturbation-limit.json).
 - [K2543 report](k2543-localized-source-readout.json).
 

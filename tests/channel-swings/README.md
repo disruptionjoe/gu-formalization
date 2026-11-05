@@ -1,6 +1,12 @@
 
 ## Latest conditional constructions (2026-11-04)
 
+- [K2544 exact original-field and curved-sector controls](k2544_constrained_tensor_response_probe.py).
+- [K2545 exact prefix-law and critical/near-critical controls](k2545_critical_stopping_aggregation_probe.py).
+
+
+## Latest conditional constructions (2026-11-04)
+
 - [K2542 exact rolling/energy/tensor controls](k2542_rolling_perturbation_limit_probe.py).
 - [K2543 exact original-source/contact controls](k2543_localized_source_readout_probe.py).
 
