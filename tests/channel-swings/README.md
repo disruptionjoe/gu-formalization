@@ -2,6 +2,12 @@
 
 ## Latest conditional constructions (2026-11-05)
 
+- [K2586 point-response probe](k2586_fixed_annulus_point_response_probe.py).
+- [K2587 countwise-support probe](k2587_countwise_stopping_support_probe.py).
+
+
+## Latest conditional constructions (2026-11-05)
+
 - [K2584 scalar inverse probe](k2584_scalar_spectral_boundary_inverse_probe.py).
 - [K2585 eventual tail probe](k2585_eventual_stopping_tail_probe.py).
 

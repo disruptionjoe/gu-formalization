@@ -5,7 +5,10 @@ doc_type: roadmap
 updated_at: "2026-10-26"
 ---
 
-> **2026-11-05: SCALAR COMPLEMENT AND EVENTUAL STOPPING TAIL.**
+> **2026-11-05: FIXED-ANNULUS POINT RESPONSE AND SHARP STOPPING THRESHOLDS.**
+> Reuse K2586 fixed-annulus point response, H^-43 bound and O(epsilon) weak regularization; do not requeue point-source admission on this preparation as absent. Physical real boundary/readout selection, pointwise singularity and causal propagation remain separate. Preserve exact synchronized splitter equality and distinct component bases. Reuse K2587 sharp per-chord lambda_n and exact eventual onset below2/(3+S); failure above threshold has actual feasible policies but not a replacement optimizer. Next compare a constructive positive-action support calculation against independently justified real preparation/readout data. K2561 unrestricted continuum result and K2565lambda1.9 bracket remain; native displacement/action and physical quotient debts are unchanged.
+
+> **Historical predecessor: 2026-11-05: SCALAR COMPLEMENT AND EVENTUAL STOPPING TAIL.**
 > Reuse K2584 fixed spectral scalar cofactor inverse and actual compact-source compatibility; do not requeue the general scalar complement on this annulus as absent. The prescription is complexified and nonlocal in mode space; physical selection, sharp finite-order tensor norms and B point-source admission remain separate. Preserve K2582 exact-field splitter matching with distinct component domains. Reuse K2585 eventual exact tail, sufficient onset and finite certified price window above Lambda; do not infer sharp onset or all lower budgets from its certificate. Next test global score-sensitive positive-action support or independently calibrated real boundary/readout selection. K2565lambda1.9 bracket and native source/action/displacement debts remain.
 
 > **Historical predecessor: 2026-11-05: AFFINE BOUNDARY REPAIR AND COMPLETE STOPPING FRONTIER.**

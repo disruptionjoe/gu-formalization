@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 1dbf218f67f678a6c4f3eadf380ce2280ed1e35e
+revision_basis: 8e53924debf2edd4f236670e94b3e7f06772ff99
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -118,6 +118,20 @@ reviewed_prediction_interfaces_2026_10_27:
 current_result:
   status: conditional_research_front
   summary: >-
+    K2586 extends the fixed-annulus scalar/TT preparation to the actual invariant B point
+    source, retaining the compact conserved radial pressure and every selected coupled equation.
+    A measure resolvent identity and full angular synthesis give a conservative local H^-43
+    field bound; moving or smoothing the point gives O(epsilon) error in H^-44 and compact
+    conserved readouts. This is a new fixed-preparation and regularization result, not first
+    point-source existence, pointwise fields or physical selection. K2587 proves SHARP
+    thresholds lambda_n for every zero-action expected-resource chord, closing the
+    sufficient-versus-failure gap by an all-action convex majorant. The exact eventual onset
+    exists iff lambda<2/(3+S). At S.5/lambda.56 it starts at budget10 instead of the old
+    sufficient16; atlambda.57 it starts at72 beyond the old criterion range. Exact opposite-side
+    policies and full price-interval consumers are executed. Positive-action optimal values
+    remain open; K2561 already owns the unrestricted continuum value. Source, ledger0.263 and
+    canon unchanged.
+    Historical predecessor (not live):
     K2584 confines all five roots of the actual mixed scalar determinant and constructs uniform
     complex factor inverses with sign-adapted impedance. Ten explicit intermediate traces give a
     fixed spectral cofactor right inverse on the existing annulus. The actual compact
@@ -18643,6 +18657,10 @@ current_result:
     coefficientwise A,C packet, global domain, BFV and positive
     cohomology/superposition now route to K129.
   evidence:
+  - explorations/conditional-build/k2586-fixed-annulus-point-response-2026-11-05.md
+  - explorations/conditional-build/k2587-countwise-stopping-support-2026-11-05.md
+  - lab/process/k2586-fixed-annulus-point-response.json
+  - lab/process/k2587-countwise-stopping-support.json
   - explorations/conditional-build/k2584-scalar-spectral-boundary-inverse-2026-11-05.md
   - explorations/conditional-build/k2585-eventual-stopping-tail-2026-11-05.md
   - lab/process/k2584-scalar-spectral-boundary-inverse.json
@@ -21268,6 +21286,10 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  Which independently justified real preparation and conserved observation selects the
+  distributional response, and what positive-action optimizer replaces the zero-action stopping
+  chords above their now sharp thresholds?
+  Historical predecessor (not live):
   Which independently justified real preparation and conserved observation selects the
   constructed coupled response, and can score-dependent positive-action support close the
   remaining above-transition finite-budget stopping frontier?
@@ -25769,6 +25791,16 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  Reuse K2586 fixed-annulus point response, H^-43 bound and O(epsilon) weak regularization; do
+  not requeue point-source admission on this preparation as absent. Physical real
+  boundary/readout selection, pointwise singularity and causal propagation remain separate.
+  Preserve exact synchronized splitter equality and distinct component bases. Reuse K2587 sharp
+  per-chord lambda_n and exact eventual onset below2/(3+S); failure above threshold has actual
+  feasible policies but not a replacement optimizer. Next compare a constructive positive-action
+  support calculation against independently justified real preparation/readout data. K2561
+  unrestricted continuum result and K2565lambda1.9 bracket remain; native displacement/action
+  and physical quotient debts are unchanged.
+  Historical predecessor (not live):
   Reuse K2584 fixed spectral scalar cofactor inverse and actual compact-source compatibility; do
   not requeue the general scalar complement on this annulus as absent. The prescription is
   complexified and nonlocal in mode space; physical selection, sharp finite-order tensor norms

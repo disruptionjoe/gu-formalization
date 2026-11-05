@@ -5,6 +5,18 @@ doc_type: verification-map
 updated_at: "2026-10-27"
 ---
 
+## K2586--K2587: Fixed-annulus point response and sharp stopping thresholds (2026-11-05)
+
+K2586 extends the fixed-annulus scalar/TT preparation to the actual invariant B point source, retaining the compact conserved radial pressure and every selected coupled equation. A measure resolvent identity and full angular synthesis give a conservative local H^-43 field bound; moving or smoothing the point gives O(epsilon) error in H^-44 and compact conserved readouts. This is a new fixed-preparation and regularization result, not first point-source existence, pointwise fields or physical selection. K2587 proves SHARP thresholds lambda_n for every zero-action expected-resource chord, closing the sufficient-versus-failure gap by an all-action convex majorant. The exact eventual onset exists iff lambda<2/(3+S). At S.5/lambda.56 it starts at budget10 instead of the old sufficient16; atlambda.57 it starts at72 beyond the old criterion range. Exact opposite-side policies and full price-interval consumers are executed. Positive-action optimal values remain open; K2561 already owns the unrestricted continuum value. Source, ledger0.263 and canon unchanged.
+
+- [K2586](explorations/conditional-build/k2586-fixed-annulus-point-response-2026-11-05.md).
+- [K2587](explorations/conditional-build/k2587-countwise-stopping-support-2026-11-05.md).
+
+Independent field specialists reviewed the concrete constructions and a distinct integrated hostile reviewer returned no remaining findings. Final exact probes and affected native checks passed. Universal distributional and all-policy proofs are distinct from finite identities, consumers and reporting checks. No external-expert, proof-assistant, remote-CI or physical certification.
+
+Earlier sections preserve historical snapshots.
+
+
 ## K2584--K2585: Scalar spectral inverse and eventual stopping tail (2026-11-05)
 
 K2584 confines all five roots of the actual mixed scalar determinant and constructs uniform complex factor inverses with sign-adapted impedance. Ten explicit intermediate traces give a fixed spectral cofactor right inverse on the existing annulus. The actual compact radial-pressure source satisfies every TT Dirichlet compatibility condition after trace lifting, completing the selected coupled response on this preparation; different scalar/TT bases and two real quadratures remain explicit. No physical preparation, point-source theorem or native GU recovery. K2585 proves the exact eventual stopping tail ABOVE Lambda(S) whenever lambda<=B_N(S), with explicit sufficient onset and certificate asymptotic. At lambda.55,S.5 every budget>=6 is solved, budget7 has an exact optimal mixture, while an actual budget3 positive-action mixture beats the old chord. An executed finite search certifies the full sufficient small-price window; a quarter-score consumer also passes. Onset and price thresholds are sufficient, not individually sharp; low budgets and larger multipliers remain open. Source polarities, ledger0.263 and canon unchanged.

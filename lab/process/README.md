@@ -7,6 +7,12 @@ updated_at: "2026-08-23"
 
 ## Latest conditional constructions (2026-11-05)
 
+- [K2586 report](k2586-fixed-annulus-point-response.json).
+- [K2587 report](k2587-countwise-stopping-support.json).
+
+
+## Latest conditional constructions (2026-11-05)
+
 - [K2584 report](k2584-scalar-spectral-boundary-inverse.json).
 - [K2585 report](k2585-eventual-stopping-tail.json).
 
