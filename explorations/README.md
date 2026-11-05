@@ -7,6 +7,12 @@ updated_at: "2026-08-21"
 
 ## Latest conditional constructions (2026-11-05)
 
+- [K2564 localized distributional response](conditional-build/k2564-localized-spectral-response-2026-11-05.md).
+- [K2565 global stopping certificate](conditional-build/k2565-bellman-supersolution-2026-11-05.md).
+
+
+## Latest conditional constructions (2026-11-05)
+
 - [K2562 uniform parameter response](conditional-build/k2562-parameter-dependent-response-2026-11-05.md).
 - [K2563 global hybrid hierarchy](conditional-build/k2563-global-hybrid-reduction-2026-11-05.md).
 

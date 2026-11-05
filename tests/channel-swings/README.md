@@ -2,6 +2,12 @@
 
 ## Latest conditional constructions (2026-11-05)
 
+- [K2564 elliptic companion probe](k2564_localized_spectral_response_probe.py).
+- [K2565 Bernstein certificate probe](k2565_bellman_supersolution_probe.py).
+
+
+## Latest conditional constructions (2026-11-05)
+
 - [K2562 two-boundary inverse probe](k2562_parameter_dependent_response_probe.py).
 - [K2563 global hybrid error probe](k2563_global_hybrid_reduction_probe.py).
 

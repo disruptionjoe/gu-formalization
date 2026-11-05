@@ -5,6 +5,18 @@ doc_type: verification-map
 updated_at: "2026-10-27"
 ---
 
+## K2564--K2565: Localized distributional response and global stopping certificate (2026-11-05)
+
+K2564 constructs a positive elliptic companion on an explicit completion of the actual curved B factor, admitting compact distributions and the original B point source through orthogonal spectral synthesis. The full compact radial source now has all selected response fields; local synchronized splitter changes preserve compact conserved observations, while homogeneous freedom still prevents a unique readout without preparation data. K2565 certifies the full original adaptive stopping value at S=1/2 and multiplier 19/10 between 0.711079567311 and 0.711321968356 using 120 exact Bernstein leaves and a new rational 41-stage lower witness, bypassing the enormous hybrid grid. Exact-budget and witness-relative terminal-loss bounds follow; a nonexhaustive two-atom scout finds no improvement but supplies no structural classification. Source polarities, ledger 0.263, canon and native GU judgments remain unchanged.
+
+- [K2564](explorations/conditional-build/k2564-localized-spectral-response-2026-11-05.md).
+- [K2565](explorations/conditional-build/k2565-bellman-supersolution-2026-11-05.md).
+
+Independent geometry/PDE and probability specialists plus a distinct integrated hostile reviewer found no substantive mathematical defects. Universal functional-analytic and adaptive-law proofs, the whole-domain rational Bernstein certificate, supporting finite geometry checks and reporting checks remain distinct; no external-expert, proof-assistant or remote CI certification.
+
+Earlier sections preserve historical snapshots.
+
+
 ## K2562--K2563: Uniform radial response and global hybrid approximation (2026-11-05)
 
 K2562 constructs uniformly bounded radial inverses for every complex parameter by switching between two fixed separated boundary spectra. It solves all actual compact-source factors, supplies polynomial derivative bounds and a sufficient moment86 condition for unbounded supplied B eigenfamilies, preserving synchronized overlap away from two poles. B point-source representation and physical boundary selection remain open. K2563 proves a global finite-atom hybrid approximation to the full original adaptive stopping law with explicit dual and constrained-budget errors, relaxed mixture attainment an exact Bellman recursion and a certified global grid error. A small exact interval DP fixture passes; the stated fine-grid burden shows why practical pruning is still needed. Source polarities, ledger0.263, canon and native GU judgments remain unchanged; no numerical intermediate optimum is claimed.

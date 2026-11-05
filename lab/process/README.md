@@ -7,6 +7,12 @@ updated_at: "2026-08-23"
 
 ## Latest conditional constructions (2026-11-05)
 
+- [K2564 report](k2564-localized-spectral-response.json).
+- [K2565 report](k2565-bellman-supersolution.json).
+
+
+## Latest conditional constructions (2026-11-05)
+
 - [K2562 report](k2562-parameter-dependent-response.json).
 - [K2563 report](k2563-global-hybrid-reduction.json).
 

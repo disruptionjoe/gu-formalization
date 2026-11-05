@@ -5,7 +5,10 @@ doc_type: roadmap
 updated_at: "2026-10-26"
 ---
 
-> **2026-11-05: UNIFORM RESPONSE AND GLOBAL HYBRID APPROXIMATION.**
+> **2026-11-05: LOCALIZED RESPONSE AND GLOBAL STOPPING CERTIFICATE.**
+> Reuse K2564 actual compact-radial times point-source existence, its explicit supplied completion and local splitter consistency. Do not repeat eigenfamily synthesis or mistake a self-adjoint mathematical preparation for physical selection: the same source permits different conserved source-disjoint readings until homogeneous data are constrained. K2565 closes the prior 1/2500 global stopping precision target by a direct all-policy certificate and supplies exact-budget and occupation consequences. Retain the 120-leaf certificate and improved 41-stage finite lower witness; the additional-atom scout is nonexhaustive, so next prove or refute structural one-atom/optimal-tail versus additional-atom improvement or a useful multiplier family, without claiming exact attainment. Empirical cosmology/common-carrier inputs, native quotient, observation and physical-preparation debts remain separate; no GU verdict change.
+
+> **Historical predecessor: 2026-11-05: UNIFORM RESPONSE AND GLOBAL HYBRID APPROXIMATION.**
 > Reuse K2562 all-complex two-boundary inverses and the sufficient moment86 consumer. Radial resonance/growth no longer prevents supplied-family synthesis, but an actual B point-source representation and physical preparation remain unconstructed. Reuse K2563 largest-atom hierarchy and exact adaptive budget transfer; do not repeat stage ordering, one-atom-tail optimization or endpoint phases. The hierarchy now includes a certified mesh modulus and rational interval flow evaluator. The explicit fine-grid recipe requires over10^2700 ratio assignments in literal enumeration; use certified adaptive pruning or structural reduction before a serious numerical bank. A small exhaustive grid is algorithm coverage, not a close optimum. Empirical cosmology/common-carrier inputs, native quotient and observation debts remain live; no GU verdict change.
 
 > **Historical predecessor: 2026-11-05: COMPACT RADIAL RESPONSE AND HIGH-BUDGET STOPPING.**

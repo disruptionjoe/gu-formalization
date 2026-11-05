@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 0b583da923285a48d30d1fff2638e6094ccab1d1
+revision_basis: 894b4a2ff57d875a7c03b9081b2626824b0ce093
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -118,6 +118,18 @@ reviewed_prediction_interfaces_2026_10_27:
 current_result:
   status: conditional_research_front
   summary: >-
+    K2564 constructs a positive elliptic companion on an explicit completion of the actual
+    curved B factor, admitting compact distributions and the original B point source through
+    orthogonal spectral synthesis. The full compact radial source now has all selected response
+    fields; local synchronized splitter changes preserve compact conserved observations, while
+    homogeneous freedom still prevents a unique readout without preparation data. K2565
+    certifies the full original adaptive stopping value at S=1/2 and multiplier 19/10 between
+    0.711079567311 and 0.711321968356 using 120 exact Bernstein leaves and a new rational
+    41-stage lower witness, bypassing the enormous hybrid grid. Exact-budget and
+    witness-relative terminal-loss bounds follow; a nonexhaustive two-atom scout finds no
+    improvement but supplies no structural classification. Source polarities, ledger 0.263,
+    canon and native GU judgments remain unchanged.
+    Historical predecessor (not live):
     K2562 constructs uniformly bounded radial inverses for every complex parameter by switching
     between two fixed separated boundary spectra. It solves all actual compact-source factors,
     supplies polynomial derivative bounds and a sufficient moment86 condition for unbounded
@@ -18498,6 +18510,10 @@ current_result:
     coefficientwise A,C packet, global domain, BFV and positive
     cohomology/superposition now route to K129.
   evidence:
+  - explorations/conditional-build/k2564-localized-spectral-response-2026-11-05.md
+  - explorations/conditional-build/k2565-bellman-supersolution-2026-11-05.md
+  - lab/process/k2564-localized-spectral-response.json
+  - lab/process/k2565-bellman-supersolution.json
   - explorations/conditional-build/k2562-parameter-dependent-response-2026-11-05.md
   - explorations/conditional-build/k2563-global-hybrid-reduction-2026-11-05.md
   - lab/process/k2562-parameter-dependent-response.json
@@ -21079,6 +21095,10 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  Which independently justified preparation can constrain the newly constructed localized
+  response, and is one finite atom plus its optimized continuum tail globally optimal in the
+  intermediate stopping regime?
+  Historical predecessor (not live):
   Can an actual localized B distribution be represented in a domain compatible with the new
   polynomial response bounds, and can the hybrid Bellman hierarchy be solved with a practical
   certified global error?
@@ -25538,6 +25558,18 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  Reuse K2564 actual compact-radial times point-source existence, its explicit supplied
+  completion and local splitter consistency. Do not repeat eigenfamily synthesis or mistake a
+  self-adjoint mathematical preparation for physical selection: the same source permits
+  different conserved source-disjoint readings until homogeneous data are constrained. K2565
+  closes the prior 1/2500 global stopping precision target by a direct all-policy certificate
+  and supplies exact-budget and occupation consequences. Retain the 120-leaf certificate and
+  improved 41-stage finite lower witness; the additional-atom scout is nonexhaustive, so next
+  prove or refute structural one-atom/optimal-tail versus additional-atom improvement or a
+  useful multiplier family, without claiming exact attainment. Empirical
+  cosmology/common-carrier inputs, native quotient, observation and physical-preparation debts
+  remain separate; no GU verdict change.
+  Historical predecessor (not live):
   Reuse K2562 all-complex two-boundary inverses and the sufficient moment86 consumer. Radial
   resonance/growth no longer prevents supplied-family synthesis, but an actual B point-source
   representation and physical preparation remain unconstructed. Reuse K2563 largest-atom
