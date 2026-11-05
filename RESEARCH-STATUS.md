@@ -6,6 +6,18 @@ updated_at: "2026-10-26"
 canon_sweep_at: "2026-07-25"
 ---
 
+## K2556--K2557: Distributional response and adaptive rigidity (2026-11-05)
+
+K2556 constructs local distributional responses, including a B point source, for every finite radial-polynomial conserved pressure source in the selected curved completion. All four scalar equations and original metric are retained; a nontrivial positive pressure example, TT degree reduction and fixed-mode smoothing limit follow. A compact-source core can match locally, but cutoff-region response, uniform radial synthesis and physical boundary selection remain open. The actual mixed determinant produces exponential frequency-to-the-one-third growth in an auxiliary frozen one-time scalar pencil; no full curved or physical instability follows. K2557 proves quantitative stability and exact nonidle-action rigidity for the full original adaptive stopping class at the critical multiplier, including clipping, abandonment and nonabsorption losses. Two exact parameter-ribbon failures prevent unmodified certificate extension; the remaining multiplier interval and other-budget frontier remain open. No source, ledger0.263, canon or native GU verdict changes.
+
+- [K2556](explorations/conditional-build/k2556-distributional-source-response-2026-11-05.md).
+- [K2557](explorations/conditional-build/k2557-parametric-stopping-support-2026-11-05.md).
+
+Independent geometry/PDE and probability specialists plus a distinct integrated hostile review found no substantive mathematical defects after parameter-endpoint and probe-evidence repairs. Local distributional existence is a theorem application with checked hypotheses; exact algebra, finite fixtures and bookkeeping are distinguished. No external-expert or proof-assistant certification.
+
+Earlier sections preserve historical snapshots.
+
+
 ## K2554--K2555: Analytic response and stopping stability (2026-11-05)
 
 K2554 constructs regular-center local analytic responses to the prescribed radial-pressure source with all seven B variables retained. The full determinant has a nonzero order-ten B symbol but a nonzero mixed correction; the total-Laplacian-only shortcut is false. Coordinated analytic inverses make splitter changes pure metric gauge, so compact conserved metric tests agree. This does not admit a B delta or supply a global physical domain. K2555 proves stage-count-uniform concentration, ordering and action stability for finite completed stopping schedules and their initial mixtures at the critical multiplier. Constructive one-stage collapse has explicit cost slack and an exact-budget mixture repair. No arbitrary adaptive rigidity, remaining multiplier interval, full budget frontier, native GU or empirical claim. Source polarities and ledger0.263 unchanged.

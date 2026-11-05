@@ -7,6 +7,12 @@ updated_at: "2026-08-21"
 
 ## Latest conditional constructions (2026-11-05)
 
+- [K2556 distributional source response](conditional-build/k2556-distributional-source-response-2026-11-05.md).
+- [K2557 adaptive stopping rigidity](conditional-build/k2557-parametric-stopping-support-2026-11-05.md).
+
+
+## Latest conditional constructions (2026-11-05)
+
 - [K2554 analytic source response](conditional-build/k2554-analytic-source-response-2026-11-05.md).
 - [K2555 global stopping stability](conditional-build/k2555-global-stopping-stability-2026-11-05.md).
 

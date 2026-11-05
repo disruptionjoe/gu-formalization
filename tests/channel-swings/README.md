@@ -2,6 +2,12 @@
 
 ## Latest conditional constructions (2026-11-05)
 
+- [K2556 finite-mode response and dispersion probe](k2556_distributional_source_response_probe.py).
+- [K2557 adaptive stability and parameter probe](k2557_parametric_stopping_support_probe.py).
+
+
+## Latest conditional constructions (2026-11-05)
+
 - [K2554 analytic-response algebra probe](k2554_analytic_source_response_probe.py).
 - [K2555 stability and compression probe](k2555_global_stopping_stability_probe.py).
 

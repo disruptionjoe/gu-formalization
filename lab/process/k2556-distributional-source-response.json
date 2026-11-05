@@ -1,0 +1,109 @@
+{
+  "result": "K2556",
+  "checks": {
+    "TT_kinetic_coefficient": true,
+    "TT_full_mass_coefficient": true,
+    "TT_Einstein_curvature_shift": true,
+    "TT_displacement_curvature_shift": true,
+    "full_Einstein_source_row_0": true,
+    "full_Einstein_source_row_1": true,
+    "full_Einstein_source_row_2": true,
+    "full_Einstein_source_row_3": true,
+    "full_Einstein_source_row_4": true,
+    "scalar_source_divergence_A": true,
+    "scalar_source_divergence_B": true,
+    "scalar_source_trace": true,
+    "actual_mixed_determinant": true,
+    "mixed_polynomials_coprime": true,
+    "positive_instability_ratio": true,
+    "every_fixed_X_retains_degree_five": true,
+    "full_matrix_bareiss_0": true,
+    "full_matrix_bareiss_1": true,
+    "X_monomial_formula": true,
+    "D5_monomial_formula": true,
+    "splitter_derivative_formula": true,
+    "splitter_diagonal_factor": true,
+    "spectrum_difference_X": true,
+    "spectrum_difference_D5": true,
+    "example_pressure_and_trace": true,
+    "example_splitter": true,
+    "example_TT_nonzero": true,
+    "example_scalar_eigenmode": true,
+    "example_scalar_decomposition": true,
+    "example_TT_eigenmode": true,
+    "arbitrary_pressure_conservation": true,
+    "TT_top_degree_cancellation": true,
+    "outer_splitter_polynomial": true,
+    "finite_X_spectrum_0": true,
+    "finite_D5_spectrum_0": true,
+    "finite_splitter_invertible_0": true,
+    "finite_X_spectrum_1": true,
+    "finite_D5_spectrum_1": true,
+    "finite_splitter_invertible_1": true,
+    "finite_X_spectrum_2": true,
+    "finite_D5_spectrum_2": true,
+    "finite_splitter_invertible_2": true,
+    "finite_X_spectrum_4": true,
+    "finite_D5_spectrum_4": true,
+    "finite_splitter_invertible_4": true,
+    "actual_dispersion_top_degree": true,
+    "actual_dispersion_limit": true,
+    "complex_cubic_root": true,
+    "complex_cubic_root_simple": true,
+    "simple_root_derivative_reduction": true,
+    "root_growth_positive": true,
+    "factor_associativity_bookkeeping": true
+  },
+  "contrary_controls": {
+    "missing_source_half_breaks_TT_cancellation": true,
+    "flat_radial_operator_changes_eigenvalue": true,
+    "Dirichlet_splitter_not_imposed": true,
+    "discarding_mixed_term_changes_limit": true,
+    "pure_sum_does_not_retain_cubic_pair": true,
+    "inverse_commutation_not_assumed": true
+  },
+  "radial_example": {
+    "P": "C^2",
+    "A": "3 C^2/2",
+    "chi": "C**2/(12*K) - 5/(42*K)",
+    "TT_amplitude": "-1/21",
+    "X_eigenvalues": [
+      "0",
+      "-16K"
+    ],
+    "D5_eigenvalues": [
+      "0"
+    ]
+  },
+  "dispersion": {
+    "P_coefficients": [
+      "-2605746313310516251459584/22521658027326625",
+      "2873734909236738340243736/22521658027326625",
+      "-43620245861679708532735567/16386284240513856000",
+      "-39899630175498371926200235636313/225670752965946292656537600",
+      "-4088703611874454441502550048382619/2461195321280339060551219937280",
+      "-8051601064527887918824634287658165/12353477676102405846624738231189504"
+    ],
+    "Q_coefficients": [
+      "-4248943925994768/160894724947221409",
+      "-23902946142285665/41189049586488680704",
+      "425557062921636685109/260973818179992280940544"
+    ],
+    "q2_over_L": "6125/26834819055616",
+    "scaled_limit": "-2605746313310516251459584*z**5/22521658027326625 + 4248943925994768*z**2/160894724947221409",
+    "growth_constant": "5*sqrt(3)*4306939**(2/3)/866310016",
+    "scope": "frozen scalar one-time determinant only"
+  },
+  "evidence_kinds": {
+    "exact": "full determinant, generic radial identities, finite spectra/example and dispersion scaling; factor associativity is bookkeeping only",
+    "universal": "finite-dimensional diagonalization, real-principal-type theorem hypotheses, Holmgren kernel argument, factor composition and Sobolev smoothing in note",
+    "not_claimed": "compact radial source or uniform N limit, imposed Cauchy/physical boundary, physical instability, gauge independence or native GU"
+  },
+  "dependencies": {
+    "explorations/conditional-build/k2556-distributional-source-response-2026-11-05.md": "925f8a61b49ec5c77c75f87359f8e20cff3fa0ff4de3e7ee6b30b1c298959781",
+    "tests/channel-swings/k2556_distributional_source_response_probe.py": "5928fc32d4141bc994afeacc860181c14ff93162dc13ef92b687f7e58aa1ce93",
+    "explorations/conditional-build/k2552-localized-source-domain-2026-11-04.md": "f45ce693d63d8e438af1564575edf4898764130efe2210beb6cb1dd0ed638cc3",
+    "explorations/conditional-build/k2554-analytic-source-response-2026-11-05.md": "63d79eb9399f7dcdf28b0d442e88c0e2b421d4de10fb44c50b4f362706bec37f",
+    "tests/channel-swings/k2554_analytic_source_response_probe.py": "abae8bb8f4588976e5fefa70d7e03b7e3000e823583a500f2e28c5534bc1f873"
+  }
+}

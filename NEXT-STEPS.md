@@ -5,7 +5,10 @@ doc_type: roadmap
 updated_at: "2026-10-26"
 ---
 
-> **2026-11-05: ANALYTIC RESPONSE AND STOPPING STABILITY.**
+> **2026-11-05: DISTRIBUTIONAL RESPONSE AND ADAPTIVE RIGIDITY.**
+> Reuse K2556 finite radial-polynomial B-point-source existence and its fixed-mode smoothing limit; preserve the actual mixed determinant, chosen splitter and original metric. The compact radial cutoff and arbitrary-splitter boundary matching require a new norm-controlled synthesis or direct domain argument, not finite-polynomial density alone. The frozen one-time instability rejects a naive Cauchy repair only. Reuse K2557 full-adaptive quantitative stability and exact nonidle-action classification at the critical multiplier; do not requeue finite-mixture transfer. Parameter extension needs new residual and one-stage root ribbons: both the old upper residual hazard and lower quadratic ribbon fail at lambda=8/3. Compare that whole-domain construction against a boundary-explicit gauge-invariant source response or independently grounded cosmology/common-carrier inputs. No physical measurement or native GU acceptance is supplied.
+
+> **Historical predecessor: 2026-11-05: ANALYTIC RESPONSE AND STOPPING STABILITY.**
 > Reuse K2554 local analytic-germ existence and gauge-compatible overlap; the actual B delta and smooth/global response remain open. Retain the exact mixed determinant correction rather than factoring a polynomial of the total Laplacian alone. Test a local distributional or justified smooth-source right inverse with explicit data, boundaries and original-metric observation. Reuse K2555 uniform finite-schedule and initial-mixture stability, constructive collapse and budget repair; next compare quantitative adaptive transfer with a new parameter-dependent global certificate over the remaining multiplier interval. Do not infer either from fixed-multiplier support or componentwise mixture budgets. Prepared cosmology, common-carrier calibration and native action/quotient debts remain.
 
 > **Historical predecessor: 2026-11-04: ACTUAL-SOURCE REDUCTION AND GLOBAL STOPPING SUPPORT.**

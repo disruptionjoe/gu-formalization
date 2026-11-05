@@ -7,6 +7,12 @@ updated_at: "2026-08-23"
 
 ## Latest conditional constructions (2026-11-05)
 
+- [K2556 report](k2556-distributional-source-response.json).
+- [K2557 report](k2557-parametric-stopping-support.json).
+
+
+## Latest conditional constructions (2026-11-05)
+
 - [K2554 report](k2554-analytic-source-response.json).
 - [K2555 report](k2555-global-stopping-stability.json).
 

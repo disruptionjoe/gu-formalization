@@ -1,0 +1,65 @@
+{
+  "result": "K2557",
+  "checks": {
+    "original_trial_clipped_defect": true,
+    "fair_use_occupation_factor": true,
+    "action_occupation_factor": true,
+    "tail_probability_constant": true,
+    "clipping_action_constant": true,
+    "concentration_constant": true,
+    "prefix_constant": true,
+    "adaptive_tree_unconditional_telescope": true,
+    "tree_probability_normalization": true,
+    "adaptive_tree_occupation_identity": true,
+    "original_idle_has_zero_local_slack": true,
+    "parameter_zero_root": true,
+    "parameter_first_root_coefficient": true,
+    "parameter_second_root_coefficient": true,
+    "parameter_lower_endpoint": true,
+    "parameter_upper_endpoint": true,
+    "parameter_monotonic": true,
+    "true_upper_quadratic_coefficient": true,
+    "lower_ribbon_sign_exact": true,
+    "quadratic_interior_parameter_fixture": true,
+    "old_ribbon_exact_hazard": true,
+    "nonidle_absorption_balance": true,
+    "nonidle_success_balance": true,
+    "nonidle_original_cost": true,
+    "idle_law_telescope": true,
+    "idle_mean_harmonic_tail": true,
+    "adaptive_contact_deficit": true
+  },
+  "contrary_controls": {
+    "dropping_abort_corrupts_telescope": true,
+    "dropping_live_corrupts_telescope": true,
+    "wrong_half_weight_rejected": true,
+    "failure_cost_cannot_be_removed": true,
+    "zero_local_slack_not_zero_deficit": true,
+    "asymptotic_threshold_not_finite_hit": true,
+    "old_lower_ribbon_above_actual_root": true,
+    "old_ribbon_cannot_be_reused": true,
+    "arbitrary_idling_precludes_unique_implementation": true
+  },
+  "parameter_attempt": {
+    "lambda": "2*(r + 1)**2/((1 - r)*(r + 3))",
+    "ratio_linear": "(1 - r)*(3*r + 5)*(r**2 + 6*r + 1)/32",
+    "ratio_quadratic": "(r - 1)*(45*r**7 + 597*r**6 + 2609*r**5 + 4905*r**4 + 3175*r**3 - 1217*r**2 - 1669*r - 253)/(2048*r + 2048)",
+    "old_upper_hazard": "3/4 > 2/3",
+    "global_interval_certificate": false
+  },
+  "evidence_kinds": {
+    "exact": "original trial identity, adaptive-tree telescope, root coefficients and numerical-free constants",
+    "finite_controls": "finite geometric prefixes and idle harmonic partial sum illustrate separately proved infinite statements",
+    "universal": "nonnegative occupation limits, hit-path moments and equality proof in note; independently reviewed",
+    "not_claimed": "remaining multiplier interval, full budget frontier, finite expected physical time or GU"
+  },
+  "dependencies": {
+    "explorations/conditional-build/k2557-parametric-stopping-support-2026-11-05.md": "4b5c9552397b3f109fb7019ade40be794e608eab6865ab8abcd7ae3bbef97c63",
+    "tests/channel-swings/k2557_parametric_stopping_support_probe.py": "53463883b0f69d09fab881c11d687c89deae317aa9cbb39b8fe90aab71e4b3a3",
+    "explorations/conditional-build/k2553-global-stopping-certificate-2026-11-04.md": "7c6798a4d61c614b194559aa5891b20d4f992907387189bd4272f3280bd7e520",
+    "explorations/conditional-build/k2555-global-stopping-stability-2026-11-05.md": "cc2c0a449fcd7afe782bdc6c2ff6463be7cc80934981b936fbba2913798f3890",
+    "explorations/conditional-build/k2483-adaptive-stopping-bellman-2026-11-01.md": "87bc25db2dfdbb3d77a4b985d2d82e99b8b78f0fb2d3a06d881f326aea223f0c",
+    "lab/process/k2553-global-stopping-certificate.json": "e581825e645be32c5a9306869aeb4ec6922a84de474825aa5fc016fab06e261f",
+    "lab/process/k2555-global-stopping-stability.json": "3ed4ba1fa32a1f2b553c8a388341817baa0b553cc1ff623610a1366f08be8b0c"
+  }
+}

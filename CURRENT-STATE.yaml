@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 17321f1fedc4b598154b575d3dea814c85c4d33f
+revision_basis: c0208aed28c5d50f6853932f7e2b6b498699d1da
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -118,6 +118,20 @@ reviewed_prediction_interfaces_2026_10_27:
 current_result:
   status: conditional_research_front
   summary: >-
+    K2556 constructs local distributional responses, including a B point source, for every
+    finite radial-polynomial conserved pressure source in the selected curved completion. All
+    four scalar equations and original metric are retained; a nontrivial positive pressure
+    example, TT degree reduction and fixed-mode smoothing limit follow. A compact-source core
+    can match locally, but cutoff-region response, uniform radial synthesis and physical
+    boundary selection remain open. The actual mixed determinant produces exponential
+    frequency-to-the-one-third growth in an auxiliary frozen one-time scalar pencil; no full
+    curved or physical instability follows. K2557 proves quantitative stability and exact
+    nonidle-action rigidity for the full original adaptive stopping class at the critical
+    multiplier, including clipping, abandonment and nonabsorption losses. Two exact
+    parameter-ribbon failures prevent unmodified certificate extension; the remaining multiplier
+    interval and other-budget frontier remain open. No source, ledger0.263, canon or native GU
+    verdict changes.
+    Historical predecessor (not live):
     K2554 constructs regular-center local analytic responses to the prescribed radial-pressure
     source with all seven B variables retained. The full determinant has a nonzero order-ten B
     symbol but a nonzero mixed correction; the total-Laplacian-only shortcut is false.
@@ -18447,6 +18461,10 @@ current_result:
     coefficientwise A,C packet, global domain, BFV and positive
     cohomology/superposition now route to K129.
   evidence:
+  - explorations/conditional-build/k2556-distributional-source-response-2026-11-05.md
+  - explorations/conditional-build/k2557-parametric-stopping-support-2026-11-05.md
+  - lab/process/k2556-distributional-source-response.json
+  - lab/process/k2557-parametric-stopping-support.json
   - explorations/conditional-build/k2554-analytic-source-response-2026-11-05.md
   - explorations/conditional-build/k2555-global-stopping-stability-2026-11-05.md
   - lab/process/k2554-analytic-source-response.json
@@ -21012,6 +21030,10 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  Can the finite-mode B-distributional response be extended through the radial cutoff with
+  uniform bounds, or can new parameter-dependent stopping certificates close the remaining
+  multiplier interval?
+  Historical predecessor (not live):
   Can a distributional common response admit the actual B point source while preserving
   regular-center and metric-gauge overlap, or can the remaining stopping multiplier interval and
   quantitative adaptive transfer be certified?
@@ -25455,6 +25477,18 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  Reuse K2556 finite radial-polynomial B-point-source existence and its fixed-mode smoothing
+  limit; preserve the actual mixed determinant, chosen splitter and original metric. The compact
+  radial cutoff and arbitrary-splitter boundary matching require a new norm-controlled synthesis
+  or direct domain argument, not finite-polynomial density alone. The frozen one-time
+  instability rejects a naive Cauchy repair only. Reuse K2557 full-adaptive quantitative
+  stability and exact nonidle-action classification at the critical multiplier; do not requeue
+  finite-mixture transfer. Parameter extension needs new residual and one-stage root ribbons:
+  both the old upper residual hazard and lower quadratic ribbon fail at lambda=8/3. Compare that
+  whole-domain construction against a boundary-explicit gauge-invariant source response or
+  independently grounded cosmology/common-carrier inputs. No physical measurement or native GU
+  acceptance is supplied.
+  Historical predecessor (not live):
   Reuse K2554 local analytic-germ existence and gauge-compatible overlap; the actual B delta and
   smooth/global response remain open. Retain the exact mixed determinant correction rather than
   factoring a polynomial of the total Laplacian alone. Test a local distributional or justified
