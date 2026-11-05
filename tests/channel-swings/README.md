@@ -2,6 +2,12 @@
 
 ## Latest conditional constructions (2026-11-05)
 
+- [K2574 cone probe](k2574_angular_cone_domains_probe.py).
+- [K2575 constructive probe](k2575_constructive_priced_optimization_probe.py).
+
+
+## Latest conditional constructions (2026-11-05)
+
 - [K2572 robustness probe](k2572_boundary_preparation_robustness_probe.py).
 - [K2573 attainment probe](k2573_universal_resource_attainment_probe.py).
 

@@ -7,6 +7,12 @@ updated_at: "2026-08-23"
 
 ## Latest conditional constructions (2026-11-05)
 
+- [K2574 report](k2574-angular-cone-domains.json).
+- [K2575 report](k2575-constructive-priced-optimization.json).
+
+
+## Latest conditional constructions (2026-11-05)
+
 - [K2572 report](k2572-boundary-preparation-robustness.json).
 - [K2573 report](k2573-universal-resource-attainment.json).
 

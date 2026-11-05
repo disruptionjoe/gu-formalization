@@ -1,0 +1,120 @@
+{
+  "result": "K2575",
+  "evidence_kind": "exact derivative/exchange identities, rational logarithm witnesses and grid arithmetic; universal merge/rounding arguments in note, numerical scout not proof",
+  "checks": [
+    "actual_cost_b_derivative",
+    "actual_cost_a_derivative",
+    "a_lipschitz_polynomial_margin",
+    "cost_b_zero_control",
+    "priced_adjacent_exchange",
+    "exchange_control_actual_B_cost",
+    "unpriced_actual_A_first",
+    "deletion_gain_identity",
+    "new_wedge_threshold",
+    "outside_old_high_multiplier_region",
+    "one_stage_strict_decrease",
+    "original_success_resource",
+    "original_leakage_log",
+    "optimal_price_positive",
+    "M_endpoint_exact",
+    "M_derivative_identity",
+    "log_endpoint_rational_upper",
+    "whole_segment_uniform_margin",
+    "frontier_slope_is_support",
+    "frontier_free_endpoint",
+    "frontier_resource_two_endpoint",
+    "rounding_exact_score",
+    "rounding_admissible",
+    "rounding_coordinate_errors",
+    "rounding_grid_coordinates",
+    "old_cap_six_suffices",
+    "grid_error_coefficient",
+    "grid_size_consumer",
+    "two_score",
+    "three_score",
+    "two_stage_beats_inherited_global_one_bound",
+    "three_stage_lower",
+    "three_strictly_improves_named_two"
+  ],
+  "contrary_controls": [
+    "cost_derivative_not_zero",
+    "priced_actual_B_first",
+    "pathwise_two_trial_cap_false",
+    "charging_zero_padding_is_not_actual",
+    "one_smaller_mesh_count_not_sufficient",
+    "incorrect_unweighted_resource",
+    "incorrect_single_trial_cost"
+  ],
+  "new_wedge_optimizer": {
+    "p": "1",
+    "R": "2",
+    "C_bracket": [
+      "154150679827/500000000000",
+      "61660271931/200000000000"
+    ],
+    "J_bracket": [
+      "434584932017/500000000000",
+      "173833972807/200000000000"
+    ]
+  },
+  "two_stage_witness": {
+    "stages": [
+      [
+        "7251/31250",
+        "76617/200000"
+      ],
+      [
+        "52201/1000000",
+        "23383/200000"
+      ]
+    ],
+    "p": "31250000000/40510790701",
+    "R": "128262562500/40510790701",
+    "C_bracket": [
+      "31994412963/1000000000000",
+      "7998603241/250000000000"
+    ],
+    "J_bracket": [
+      "710293410921/1000000000000",
+      "355146705461/500000000000"
+    ]
+  },
+  "three_stage_witness": {
+    "stages": [
+      [
+        "52699/250000",
+        "88291/250000"
+      ],
+      [
+        "35947/1000000",
+        "40291/500000"
+      ],
+      [
+        "28097/1000000",
+        "33127/500000"
+      ]
+    ],
+    "p": "250000000000000000/322390781611416441",
+    "R": "1546575501429500000/322390781611416441",
+    "C_bracket": [
+      "17014421911/500000000000",
+      "34028843823/1000000000000"
+    ],
+    "J_bracket": [
+      "355160945897/500000000000",
+      "142064378359/200000000000"
+    ]
+  },
+  "grid": {
+    "N": 6,
+    "m": 30451,
+    "error": "609/609020",
+    "enumerated": false
+  },
+  "ceiling": "new sufficient one-stage region and low-multiplier budget segment; no general intermediate global optimum or efficient enumeration",
+  "provenance": {
+    "explorations/conditional-build/k2571-stopping-resource-price-2026-11-05.md": "87162b0b74de5fa69161e81490c62e7d89ae5adbf25b5a6656ef5b85e902ea13",
+    "explorations/conditional-build/k2573-universal-resource-attainment-2026-11-05.md": "12981892c445483db775dbbeb81f97b84a1efc0cacf8b8bfd4475530a861236c",
+    "explorations/conditional-build/k2569-stopping-maximizing-sequences-2026-11-05.md": "86320b42a82c0001f5500dd779b90b0f53980f98b936985ba9d736a4584e868e"
+  }
+}

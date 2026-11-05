@@ -6,6 +6,18 @@ updated_at: "2026-10-26"
 canon_sweep_at: "2026-07-25"
 ---
 
+## K2574--K2575: Angular cone domains and constructive priced optimization (2026-11-05)
+
+K2574 constructs stable preparations on two disjoint infinite angular cones of the actual fixed annular response: positive modes admit two-boundary contraction and interior smoothing, oscillatory modes admit bounded real Cauchy-jet propagation. A common spectral solution space, conserved detector bound and explicitly complex impedance repair are executed. Further follow-through constructs full-angular homogeneous preparation, including turning modes, for supplied analytic impedance data with a conservative uniform radius. A general Sobolev inverse remains open. K2575 quantifies positive-stage size and proves a new global one-stage merge region. It solves a supported resource point and extends the exact nonlinear resource frontier through the entire interval from4/3 to2 for every multiplier0<lambda<=2/5. An explicit finite rational-grid error and certified short two/three-stage contrary witnesses provide constructive follow-through. The grid was not enumerated, the general optimizer remains open, and no general Sobolev or inhomogeneous inverse, physical preparation selection or native GU recovery follows. Source polarity, ledger0.263 and canon remain unchanged.
+
+- [K2574](explorations/conditional-build/k2574-angular-cone-domains-2026-11-05.md).
+- [K2575](explorations/conditional-build/k2575-constructive-priced-optimization-2026-11-05.md).
+
+Independent read-only PDE and probability specialists and a distinct integrated hostile reviewer reviewed the concrete results. Final substantive findings are empty after corrections to the general stage cap, rounding/pruning boundary, exact contrary control and nonexhaustive cone wording. Universal comparison, energy, flux, merging and rounding proofs are separate from exact identities and finite supporting fixtures. No external-expert, proof-assistant, remote-CI or physical certification is claimed.
+
+Earlier sections preserve historical snapshots.
+
+
 ## K2572--K2573: Preparation robustness and universal resource attainment (2026-11-05)
 
 K2572 proves the exact exponential robustness requirement for the actual annular stable boundary preparation, extending to both Cauchy jets and arbitrary linear mixing of selected omega harmonics. Small smooth or rank-one preparation errors can fail; exact known stable priors are not defeated by derivative measurement noise alone. Direct two-boundary data give contraction and smooth interior fields; a finite-band tolerance consumer and the full filtered-error factorization are executed. Further actual-operator follow-through admits theta degree200 and proves a resonant annulus with zero scalar boundary data and nonzero invariant response: the stable theta-zero result cannot be generalized to every angular sector/domain. K2573 removes the multiplier restriction from finite expected-trial budget attainment: every positive multiplier admits an optimizer using at most two finite schedules. Joint leakage/resource budgets attain maximum success using at most three schedules. Executed successors give a uniform finite-mixture truncation bound and the entire zero-leakage joint frontier. These are conditional mathematics, not physical preparation selection, a computed intermediate optimizer, a sharp unpriced transition or native GU recovery. Source polarity, ledger0.263 and canon remain unchanged.

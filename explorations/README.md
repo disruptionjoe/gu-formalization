@@ -7,6 +7,12 @@ updated_at: "2026-08-21"
 
 ## Latest conditional constructions (2026-11-05)
 
+- [K2574 angular cone domains](conditional-build/k2574-angular-cone-domains-2026-11-05.md).
+- [K2575 constructive optimization](conditional-build/k2575-constructive-priced-optimization-2026-11-05.md).
+
+
+## Latest conditional constructions (2026-11-05)
+
 - [K2572 boundary robustness](conditional-build/k2572-boundary-preparation-robustness-2026-11-05.md).
 - [K2573 universal attainment](conditional-build/k2573-universal-resource-attainment-2026-11-05.md).
 

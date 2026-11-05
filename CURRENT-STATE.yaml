@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 3bffc09dea2c8e7ded1674b3e25764221acb71f7
+revision_basis: 2fc94eeb6c2eead8832ede3d008277449f30f598
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -118,6 +118,21 @@ reviewed_prediction_interfaces_2026_10_27:
 current_result:
   status: conditional_research_front
   summary: >-
+    K2574 constructs stable preparations on two disjoint infinite angular cones of the actual
+    fixed annular response: positive modes admit two-boundary contraction and interior
+    smoothing, oscillatory modes admit bounded real Cauchy-jet propagation. A common spectral
+    solution space, conserved detector bound and explicitly complex impedance repair are
+    executed. Further follow-through constructs full-angular homogeneous preparation, including
+    turning modes, for supplied analytic impedance data with a conservative uniform radius. A
+    general Sobolev inverse remains open. K2575 quantifies positive-stage size and proves a new
+    global one-stage merge region. It solves a supported resource point and extends the exact
+    nonlinear resource frontier through the entire interval from4/3 to2 for every
+    multiplier0<lambda<=2/5. An explicit finite rational-grid error and certified short
+    two/three-stage contrary witnesses provide constructive follow-through. The grid was not
+    enumerated, the general optimizer remains open, and no general Sobolev or inhomogeneous
+    inverse, physical preparation selection or native GU recovery follows. Source polarity,
+    ledger0.263 and canon remain unchanged.
+    Historical predecessor (not live):
     K2572 proves the exact exponential robustness requirement for the actual annular stable
     boundary preparation, extending to both Cauchy jets and arbitrary linear mixing of selected
     omega harmonics. Small smooth or rank-one preparation errors can fail; exact known stable
@@ -18562,6 +18577,10 @@ current_result:
     coefficientwise A,C packet, global domain, BFV and positive
     cohomology/superposition now route to K129.
   evidence:
+  - explorations/conditional-build/k2574-angular-cone-domains-2026-11-05.md
+  - explorations/conditional-build/k2575-constructive-priced-optimization-2026-11-05.md
+  - lab/process/k2574-angular-cone-domains.json
+  - lab/process/k2575-constructive-priced-optimization.json
   - explorations/conditional-build/k2572-boundary-preparation-robustness-2026-11-05.md
   - explorations/conditional-build/k2573-universal-resource-attainment-2026-11-05.md
   - lab/process/k2572-boundary-preparation-robustness.json
@@ -21163,6 +21182,10 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  Which justified preparation or quantitative turning-band boundary estimate completes the
+  actual angular response, and which efficient certified optimization resolves stopping support
+  beyond the new exact resource segment?
+  Historical predecessor (not live):
   Which justified boundary-control or observation mechanism meets the actual preparation
   robustness criterion, and what low-dimensional structure makes the attained joint
   stopping-budget optimum computable?
@@ -25640,6 +25663,20 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  Reuse K2574 disjoint and nonexhaustive positive and oscillatory cone estimates, all
+  multiplicities, common homogeneous control space and compact detector continuity. Complex
+  impedance means two real quadratures; a full-angular analytic homogeneous preparation is now
+  constructed at sufficient radius d/2 with fixed prefactor exp(sqrt(D)d/2). Sharper or polynomial turning-band estimates
+  and the complete inhomogeneous coupled inverse remain open. Supplied spectral preparation is
+  not physical selection. Reuse K2575 adjacent merge margin, new sufficient one-stage wedge,
+  full nonlinear resource interval4/3..2 for0<lambda<=2/5, and finite-grid error. Do not repeat
+  an abstract attainment proof or treat the enormous unenumerated grid as an efficient solver.
+  The exact rational two-stage witness beats every one-stage policy atlambda1.9/price.0001; its
+  three-stage successor beats that named witness only. Next examine post-resource2 support or a
+  genuinely adaptive certified optimization outside both one-stage regions. Preserve original
+  law, expected-versus-pathwise trials, K2565 unpriced bracket, source/observation/quotient and
+  empirical calibration debts.
+  Historical predecessor (not live):
   Reuse K2572 exact defect criterion and angular-mixing factorization E=D^-1 K on the selected
   harmonic family. Preparation errors concern actual fields; noisy derivative measurements may
   be ignored under an exact stable prior. Direct two-boundary control is stable and produces
