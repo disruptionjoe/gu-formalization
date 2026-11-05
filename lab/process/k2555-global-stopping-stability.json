@@ -1,0 +1,84 @@
+{
+  "result": "K2555",
+  "checks": {
+    "inverse_basis_0": true,
+    "inverse_basis_1": true,
+    "curvature_numerator_nonnegative": true,
+    "curvature_denominator_positive": true,
+    "inverse_basis_4": true,
+    "inverse_basis_5": true,
+    "collapse_derivative_upper_whole_domain": true,
+    "collapse_derivative_lower_factor": true,
+    "satellite_cost_bound": true,
+    "collapse_cost_decomposition": true,
+    "stronger_D_bound_factorization": true,
+    "stronger_D_remaining_factor": true,
+    "original_log_curvature_identity": true,
+    "adjacent_exchange": true,
+    "global_concentration_factor": true,
+    "global_concentration_lower": true,
+    "exact_finite_moment_and_order_fixtures": true,
+    "original_prefix_deficit_identity": true,
+    "contact_deficit_identity": true,
+    "dominant_action_upper_identity": true,
+    "mixture_deficit_linearity": true,
+    "exact_budget_repair_cost": true,
+    "exact_budget_repair_loss": true,
+    "illustrative_contact_mixture_budget": true
+  },
+  "contrary_controls": {
+    "corrupt_curvature_bound_rejected": true,
+    "order_cannot_be_discarded": true,
+    "unit_constant_concentration_false": true,
+    "unweighted_cost_is_different": true,
+    "zero_budget_repair_needs_case": true,
+    "expected_budget_not_component_budget": true
+  },
+  "curvature_certificate": {
+    "numerator_degree": [
+      8,
+      4
+    ],
+    "denominator_degree": [
+      8,
+      4
+    ],
+    "numerator_min": "0",
+    "denominator_min": "441/4",
+    "coefficient_digest": "40a544adc4aec3864c79f73def49fde9658aa47e564c2a1354fa1c38feb59330",
+    "inverse_Bernstein_reconstruction": true
+  },
+  "compression_certificate": {
+    "numerator_degree": [
+      4,
+      2
+    ],
+    "denominator_degree": [
+      4,
+      2
+    ],
+    "numerator_min": "5/4",
+    "denominator_min": "21/2",
+    "coefficient_digest": "c7efe3842ca513441bdbf3762ba78371450d113ebe2c5acfe784ca8ece1047bb",
+    "inverse_Bernstein_reconstruction": true
+  },
+  "finite_fixture_count": 120,
+  "illustrative_not_certified": {
+    "a_star": "0.352986833397496138932613799306281059181504536033233635482932",
+    "contact_cost": "0.0162375575835194604176465290046871606886279761651673116975933",
+    "overspending_component_weight": "0.0526678104881383403675271755073956387258121405763973225084476"
+  },
+  "evidence_kinds": {
+    "exact": "original derivative, Bernstein and moment/exchange/prefix identities and finite rational fixtures",
+    "universal": "stage-count-uniform stability, equality and mixture arguments in note",
+    "numerical": "contact mixture illustration only",
+    "not_claimed": "quantitative adaptive/infinite-policy transfer, multiplier interval, full frontier or GU"
+  },
+  "dependencies": {
+    "explorations/conditional-build/k2555-global-stopping-stability-2026-11-05.md": "cc2c0a449fcd7afe782bdc6c2ff6463be7cc80934981b936fbba2913798f3890",
+    "tests/channel-swings/k2555_global_stopping_stability_probe.py": "20d71db37a44cbc32d014ee35de0af66dbc474405575e21a06195b9c590d9d28",
+    "explorations/conditional-build/k2553-global-stopping-certificate-2026-11-04.md": "7c6798a4d61c614b194559aa5891b20d4f992907387189bd4272f3280bd7e520",
+    "lab/process/k2553-global-stopping-certificate.json": "e581825e645be32c5a9306869aeb4ec6922a84de474825aa5fc016fab06e261f",
+    "explorations/conditional-build/k2509-stopping-atom-certificate-2026-11-02.md": "cc81bb19995406be32f722591cd5cb09845887849e3c17ebd08716e750f5c170"
+  }
+}

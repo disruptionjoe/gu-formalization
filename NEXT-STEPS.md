@@ -5,7 +5,10 @@ doc_type: roadmap
 updated_at: "2026-10-26"
 ---
 
-> **2026-11-04: ACTUAL-SOURCE REDUCTION AND GLOBAL STOPPING SUPPORT.**
+> **2026-11-05: ANALYTIC RESPONSE AND STOPPING STABILITY.**
+> Reuse K2554 local analytic-germ existence and gauge-compatible overlap; the actual B delta and smooth/global response remain open. Retain the exact mixed determinant correction rather than factoring a polynomial of the total Laplacian alone. Test a local distributional or justified smooth-source right inverse with explicit data, boundaries and original-metric observation. Reuse K2555 uniform finite-schedule and initial-mixture stability, constructive collapse and budget repair; next compare quantitative adaptive transfer with a new parameter-dependent global certificate over the remaining multiplier interval. Do not infer either from fixed-multiplier support or componentwise mixture budgets. Prepared cosmology, common-carrier calibration and native action/quotient debts remain.
+
+> **Historical predecessor: 2026-11-04: ACTUAL-SOURCE REDUCTION AND GLOBAL STOPPING SUPPORT.**
 > Reuse K2552 exact source-preserving four-scalar reduction and solved auxiliary splitter; construct response inverses accepting the actual B source, cancelling radial tails and regular-center extension, with matching original-metric response on the scalar/TT overlap. Do not replace that source by a Codazzi eigenmode or infer an inverse from a determinant. K2553 settles the critical-multiplier global support and constrained contact point for all scores through one half; next compare a parameter-uniform Bellman certificate or a fixed-score onset support value, preserving the unproved interval to multiplier8/3 and the full-budget boundary. K2517 lower-multiplier obstruction is reused. Prepared cosmology, empirical common-carrier calibration, native Met(X) and interacting quotient debts remain.
 
 > **Historical predecessor: 2026-11-04: COMMON DOMAIN AND UNIFORM LOCAL ONSET.**

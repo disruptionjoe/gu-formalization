@@ -5,6 +5,12 @@ doc_type: overview
 updated_at: "2026-08-23"
 ---
 
+## Latest conditional constructions (2026-11-05)
+
+- [K2554 report](k2554-analytic-source-response.json).
+- [K2555 report](k2555-global-stopping-stability.json).
+
+
 ## Latest conditional constructions (2026-11-04)
 
 - [K2552 report](k2552-localized-source-domain.json).

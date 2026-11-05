@@ -1,0 +1,78 @@
+{
+  "result": "K2554",
+  "checks": {
+    "TT_kinetic_coefficient": true,
+    "TT_full_mass_coefficient": true,
+    "TT_Einstein_curvature_shift": true,
+    "TT_displacement_curvature_shift": true,
+    "full_Einstein_source_row_0": true,
+    "full_Einstein_source_row_1": true,
+    "full_Einstein_source_row_2": true,
+    "full_Einstein_source_row_3": true,
+    "full_Einstein_source_row_4": true,
+    "scalar_source_divergence_A": true,
+    "scalar_source_divergence_B": true,
+    "scalar_source_trace": true,
+    "full_determinant_total_degree_five": true,
+    "actual_top_symbol": true,
+    "actual_kappa_scaling": true,
+    "mixed_correction_shape": true,
+    "mixed_correction_nonzero": true,
+    "independent_bareiss_det_0": true,
+    "independent_bareiss_det_1": true,
+    "independent_bareiss_det_2": true,
+    "full_overlap_eigenline": true,
+    "overlap_divisibility": true,
+    "independent_overlap_cofactor_0": true,
+    "independent_overlap_cofactor_1": true,
+    "independent_overlap_cofactor_2": true,
+    "nonnull_B_CK_coefficient": true,
+    "regular_q3_constant": true,
+    "regular_q5_constant": true,
+    "analytic_even_lift_coefficients": true,
+    "regular_splitter_recurrence": true,
+    "recurrence_nonzero": true,
+    "Cartesian_radial_lift_3": true,
+    "Cartesian_radial_lift_5": true,
+    "metric_overlap_AA_Lie": true,
+    "metric_overlap_AB_Lie": true
+  },
+  "contrary_controls": {
+    "sum_only_determinant_rejected": true,
+    "wrong_overlap_shift_rejected": true,
+    "null_hypersurface_not_CK": true,
+    "literal_metric_equality_false": true,
+    "wrong_Lie_cross_factor_rejected": true,
+    "missing_ninth_jet_unfixed_first_derivative": true
+  },
+  "determinant": {
+    "total_degree": 5,
+    "top_coefficient": "-2605746313310516251459584/22521658027326625",
+    "P_coefficients_descending": [
+      "-2605746313310516251459584/22521658027326625",
+      "2873734909236738340243736/22521658027326625",
+      "-43620245861679708532735567/16386284240513856000",
+      "-39899630175498371926200235636313/225670752965946292656537600",
+      "-4088703611874454441502550048382619/2461195321280339060551219937280",
+      "-8051601064527887918824634287658165/12353477676102405846624738231189504"
+    ],
+    "Q_coefficients_descending": [
+      "-4248943925994768/160894724947221409",
+      "-23902946142285665/41189049586488680704",
+      "425557062921636685109/260973818179992280940544"
+    ],
+    "overlap_quotient_degree": 4
+  },
+  "evidence_kinds": {
+    "exact": "full matrix determinant/scaling/mixed correction, overlap eigenline/divisibility, independent cofactor and radial-lift fixtures",
+    "universal": "analytic CK, regularity, reconstruction and gauge-test descent arguments in note",
+    "not_claimed": "delta source, global domain, smooth wellposedness, physical measurement or GU"
+  },
+  "dependencies": {
+    "explorations/conditional-build/k2554-analytic-source-response-2026-11-05.md": "63d79eb9399f7dcdf28b0d442e88c0e2b421d4de10fb44c50b4f362706bec37f",
+    "tests/channel-swings/k2554_analytic_source_response_probe.py": "abae8bb8f4588976e5fefa70d7e03b7e3000e823583a500f2e28c5534bc1f873",
+    "explorations/conditional-build/k2552-localized-source-domain-2026-11-04.md": "f45ce693d63d8e438af1564575edf4898764130efe2210beb6cb1dd0ed638cc3",
+    "tests/channel-swings/k2552_localized_source_domain_probe.py": "abc6f3b5d44b823a4f64fd5ca6873b795d3232c3c48ab84a3bf05078f6cf2ddd",
+    "lab/process/k2552-localized-source-domain.json": "228394b572d356c12c966e0366543b63207752b7052ca61e206dae16b5fc1343"
+  }
+}

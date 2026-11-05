@@ -1,4 +1,10 @@
 
+
+## Latest conditional constructions (2026-11-05)
+
+- [K2554 analytic-response algebra probe](k2554_analytic_source_response_probe.py).
+- [K2555 stability and compression probe](k2555_global_stopping_stability_probe.py).
+
 ## Latest conditional constructions (2026-11-04)
 
 - [K2552 exact source reduction probe](k2552_localized_source_domain_probe.py).

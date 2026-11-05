@@ -6,6 +6,18 @@ updated_at: "2026-10-26"
 canon_sweep_at: "2026-07-25"
 ---
 
+## K2554--K2555: Analytic response and stopping stability (2026-11-05)
+
+K2554 constructs regular-center local analytic responses to the prescribed radial-pressure source with all seven B variables retained. The full determinant has a nonzero order-ten B symbol but a nonzero mixed correction; the total-Laplacian-only shortcut is false. Coordinated analytic inverses make splitter changes pure metric gauge, so compact conserved metric tests agree. This does not admit a B delta or supply a global physical domain. K2555 proves stage-count-uniform concentration, ordering and action stability for finite completed stopping schedules and their initial mixtures at the critical multiplier. Constructive one-stage collapse has explicit cost slack and an exact-budget mixture repair. No arbitrary adaptive rigidity, remaining multiplier interval, full budget frontier, native GU or empirical claim. Source polarities and ledger0.263 unchanged.
+
+- [K2554](explorations/conditional-build/k2554-analytic-source-response-2026-11-05.md).
+- [K2555](explorations/conditional-build/k2555-global-stopping-stability-2026-11-05.md).
+
+Independent geometry/PDE and probability specialists plus a distinct integrated hostile review found no substantive defects in the analytic-germ and gauge-overlap construction, or the finite-schedule/initial-mixture stability theorem. The compression and exact-budget repair received follow-up review. Exact computation, universal theorem applications, finite fixtures and numerical illustrations remain distinct; no external-expert or proof-assistant certification.
+
+Earlier sections preserve historical snapshots.
+
+
 ## K2552--K2553: Actual-source reduction and global stopping support (2026-11-04)
 
 K2552 reduces the actual conserved radial-pressure source to four explicit scalar response problems, retaining all B dependence and the original metric shift. A positive radial inverse constructs the source splitter; its scalar and TT tails cancel, and overlap matching plus regular-center extension are necessary domain conditions. The remaining four response inverses are not supplied. K2553 proves global original-law one-stage support at lambda=4/sqrt(3) for every score through one half, using seven whole-domain certificates and Hermite interpolation despite failed concavity. It gives an exact constrained contact point, global affine budget bound and remote-stage gap; K2517 supplies the lower-multiplier minimality obstruction. No full budget frontier, physical source domain, native GU or empirical claim. Source polarities and ledger0.263 unchanged.

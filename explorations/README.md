@@ -5,6 +5,12 @@ doc_type: overview
 updated_at: "2026-08-21"
 ---
 
+## Latest conditional constructions (2026-11-05)
+
+- [K2554 analytic source response](conditional-build/k2554-analytic-source-response-2026-11-05.md).
+- [K2555 global stopping stability](conditional-build/k2555-global-stopping-stability-2026-11-05.md).
+
+
 ## Latest conditional constructions (2026-11-04)
 
 - K2552: actual-source scalar reduction. Result: `conditional-build/k2552-localized-source-domain-2026-11-04.md`.
