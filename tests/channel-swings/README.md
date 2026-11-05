@@ -2,6 +2,12 @@
 
 ## Latest conditional constructions (2026-11-05)
 
+- [K2580 radial source probe](k2580_radial_angular_source_domain_probe.py).
+- [K2581 transition probe](k2581_score_sensitive_tail_transition_probe.py).
+
+
+## Latest conditional constructions (2026-11-05)
+
 - [K2578 polynomial probe](k2578_coupled_forcing_adapter_probe.py).
 - [K2579 resource probe](k2579_resource_tail_breakdown_probe.py).
 

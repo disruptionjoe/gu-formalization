@@ -5,7 +5,10 @@ doc_type: roadmap
 updated_at: "2026-10-26"
 ---
 
-> **2026-11-05: COUPLED TT FORCING AND STOPPING TRANSITION.**
+> **2026-11-05: FIXED RADIAL DOMAIN AND SHARP STOPPING TRANSITION.**
+> Reuse K2580 fixed radial/annular TT common-domain estimate and nonconstant-source observation; preserve auxiliary spectral versus physical tensor regularity, endpoint compatibility and amplitude versus full tensor Dirichlet distinctions. K2562/64 already supply full compact-source responses under different preparations. Next test the actual scalar cofactor complement under this same fixed domain, or independently justified physical control/observation. Reuse K2581 exact general-score Lambda(S), including equality, criticalM2 differentiability and ordered sufficient count thresholds. The former narrow full-tail bracket is closed; do not requeue it. Exact middle budgets above the prior proven range and globally certified positive-action policies above Lambda remain open; preserve K2565lambda1.9 bracket and expected-versus-pathwise trials.
+
+> **Historical predecessor: 2026-11-05: COUPLED TT FORCING AND STOPPING TRANSITION.**
 > Reuse K2578 paired Q/E inverses and forced original-metric observation on the fixed R(1) TT source sector; do not call it the original compact radial-pressure source or arbitrary coupled inverse. General radial D5+Y and scalar cofactor domains, physical control/observation and useful constants remain open. Reuse K2579 exact post2 tail forlambda<=lambda_safe≈0.535190, transition bracket[lambda_safe,lambda1≈0.536354], feasible-budget perturbation and exactlambda3/5 witness. The middle-resource range is not extended; no exact intermediate optimizer or sharp transition is proved. Retain K2565lambda1.9 bracket, source/ledger ceilings and expected-versus-pathwise distinction. Next test score-dependent action exclusion or a stronger multistage perturbation, alongside a source-specific common-domain construction.
 
 > **Historical predecessor: 2026-11-05: POLYNOMIAL SCALAR INVERSE AND EXACT RESOURCE FRONTIER.**

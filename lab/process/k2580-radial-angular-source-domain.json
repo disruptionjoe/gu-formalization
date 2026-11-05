@@ -1,0 +1,49 @@
+{
+  "result": "K2580",
+  "evidence_kind": "exact gap and operator identities, actual nonconstant source fixture; universal spectral proof in note",
+  "checks": [
+    "actual_Q_coefficient",
+    "weight_lower_bound",
+    "Q_radial_gap_margin",
+    "E_radial_gap_margin",
+    "radial_Poincare_integral",
+    "Q_monotonicity_identity",
+    "E_monotonicity_identity",
+    "uniform_potential_constant",
+    "nonconstant_radial_Q_row",
+    "nonconstant_radial_E_row",
+    "operator_commutation",
+    "Dirichlet_u_and_v",
+    "source_in_form_domain",
+    "source_nonconstant",
+    "source_TT_trace",
+    "source_TT_divergence",
+    "source_regular_center",
+    "Q_TT_trace",
+    "Q_TT_divergence",
+    "Q_regular_center",
+    "E_TT_trace",
+    "E_TT_divergence",
+    "E_regular_center",
+    "original_metric_observation",
+    "nonzero_readout"
+  ],
+  "contrary_controls": [
+    "wrong_radial_sign_loses_monotonicity",
+    "fixed_R1_not_globally_monotone",
+    "drop_E_breaks_source",
+    "shifted_metric_readout_wrong",
+    "omit_source_term_wrong",
+    "smooth_not_zero_trace",
+    "amplitude_not_full_tensor_Dirichlet"
+  ],
+  "weight_lower": "988381/988416",
+  "uniform_k_squared": "1+n^2+L+4sigma/K+30",
+  "fixture": "W=(S(r)^2-S(R)^2)^5",
+  "ceiling": "fixed amplitude-Dirichlet/annular complex-impedance TT domain only",
+  "provenance": {
+    "explorations/conditional-build/k2552-localized-source-domain-2026-11-04.md": "f45ce693d63d8e438af1564575edf4898764130efe2210beb6cb1dd0ed638cc3",
+    "explorations/conditional-build/k2576-polynomial-impedance-control-2026-11-05.md": "997caba70853e484d9fb41ce46b0be4672561c3d2486d64c950b0e928787691a",
+    "explorations/conditional-build/k2578-coupled-forcing-adapter-2026-11-05.md": "840fe3195338e7eaa2db1ca72a9fe807b905fe583b703242ae15355defae461d"
+  }
+}

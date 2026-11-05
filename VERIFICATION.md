@@ -5,6 +5,18 @@ doc_type: verification-map
 updated_at: "2026-10-27"
 ---
 
+## K2580--K2581: Fixed radial source domain and sharp stopping transition (2026-11-05)
+
+K2580 constructs one fixed regular-center radial-amplitude Dirichlet and B-annular complex-impedance TT response domain. A radial spectral gap makes both actual potentials monotone for every radial/angular mode, giving common polynomial bounds without the old finite-exception exponential constant. Compatible spectral-smooth data reconstruct every selected TT equation; an explicit nonconstant radial source and compact Einstein-image observation execute the construction. This is not the scalar complement or physical preparation; K2562/64 full-source constructions under other domains remain valid. K2581 closes the full equal-stage stopping-tail transition exactly for every0<S<=1/2: Lambda(S)=1/[2c(S)+4H1-2H2], including equality. AtS.5 it is about.5363538617. Joint convexity, score-sensitive exclusion and exchange prove the global post2 formula; actual budget3 consumers lie on both sides. Critical M2 tangent contact and strictly ordered count-specific failure thresholds are proved. No full middle-budget extension or intermediate optimizer, native GU recovery or physical credit. Source polarities, ledger0.263 and canon unchanged.
+
+- [K2580](explorations/conditional-build/k2580-radial-angular-source-domain-2026-11-05.md).
+- [K2581](explorations/conditional-build/k2581-score-sensitive-tail-transition-2026-11-05.md).
+
+Two read-only field specialists cross-reviewed both constructions; a distinct integrated hostile reviewer found no substantive defects. K2580 passes25 exact/supporting checks and7 contrary controls; K2581 passes21 and6, including actual budget3 consumers at two total scores and on both sides of the half-score transition. Universal spectral-domain and all-policy proofs remain distinct from finite checks. No external-expert, proof-assistant, remote-CI or physical certification.
+
+Earlier sections preserve historical snapshots.
+
+
 ## K2578--K2579: Coupled TT forcing and the stopping tail transition (2026-11-05)
 
 K2578 constructs a paired polynomial scalar inverse for the full selected linear response on the fixed R(1) radial TT source module, including the Einstein, Schur, skew, mixed and auxiliary rows and original metric. Nonzero source and compact conserved observation consumers retain the direct source term; E-channel homogeneous preparation drops out only for compact Einstein-image tests. K2579 extends the exact post2 expected-trial frontier through lambda_safe about0.535190 and brackets its full-tail transition above by about0.536354, width below0.001164. A resource-preserving perturbation defeats every finite equal-stage chord atlambda4/7; an exact budget3 mixture atlambda3/5 improves the old chord by more0.00049. These are conditional mathematics: no arbitrary coupled source inverse, physical boundary selection, middle-resource extension, exact transition or native GU recovery. Source polarities, ledger0.263 and canon remain unchanged.

@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 295c8364a996f497ffc197e128a2bbc32a48fb71
+revision_basis: 37fd59ac1529ad24e72c8ec304abc9dc4f47c41f
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -118,6 +118,21 @@ reviewed_prediction_interfaces_2026_10_27:
 current_result:
   status: conditional_research_front
   summary: >-
+    K2580 constructs one fixed regular-center radial-amplitude Dirichlet and B-annular
+    complex-impedance TT response domain. A radial spectral gap makes both actual potentials
+    monotone for every radial/angular mode, giving common polynomial bounds without the old
+    finite-exception exponential constant. Compatible spectral-smooth data reconstruct every
+    selected TT equation; an explicit nonconstant radial source and compact Einstein-image
+    observation execute the construction. This is not the scalar complement or physical
+    preparation; K2562/64 full-source constructions under other domains remain valid. K2581
+    closes the full equal-stage stopping-tail transition exactly for every0<S<=1/2:
+    Lambda(S)=1/[2c(S)+4H1-2H2], including equality. AtS.5 it is about.5363538617. Joint
+    convexity, score-sensitive exclusion and exchange prove the global post2 formula; actual
+    budget3 consumers lie on both sides. Critical M2 tangent contact and strictly ordered
+    count-specific failure thresholds are proved. No full middle-budget extension or
+    intermediate optimizer, native GU recovery or physical credit. Source polarities,
+    ledger0.263 and canon unchanged.
+    Historical predecessor (not live):
     K2578 constructs a paired polynomial scalar inverse for the full selected linear response on
     the fixed R(1) radial TT source module, including the Einstein, Schur, skew, mixed and
     auxiliary rows and original metric. Nonzero source and compact conserved observation
@@ -18601,6 +18616,10 @@ current_result:
     coefficientwise A,C packet, global domain, BFV and positive
     cohomology/superposition now route to K129.
   evidence:
+  - explorations/conditional-build/k2580-radial-angular-source-domain-2026-11-05.md
+  - explorations/conditional-build/k2581-score-sensitive-tail-transition-2026-11-05.md
+  - lab/process/k2580-radial-angular-source-domain.json
+  - lab/process/k2581-score-sensitive-tail-transition.json
   - explorations/conditional-build/k2578-coupled-forcing-adapter-2026-11-05.md
   - explorations/conditional-build/k2579-resource-tail-breakdown-2026-11-05.md
   - lab/process/k2578-coupled-forcing-adapter.json
@@ -21214,6 +21233,10 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  Can the scalar cofactor complement share the fixed radial/annular TT preparation and preserve
+  source-split overlap, and what global positive-action or middle-resource frontier replaces the
+  solved equal-stage tail beyond its sharp transition?
+  Historical predecessor (not live):
   Can a common all-angular domain extend the paired TT source response to radial-dependent and
   scalar source modules, and can score-sensitive global support close the narrow equal-stage
   stopping tail transition bracket?
@@ -25703,6 +25726,17 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  Reuse K2580 fixed radial/annular TT common-domain estimate and nonconstant-source observation;
+  preserve auxiliary spectral versus physical tensor regularity, endpoint compatibility and
+  amplitude versus full tensor Dirichlet distinctions. K2562/64 already supply full
+  compact-source responses under different preparations. Next test the actual scalar cofactor
+  complement under this same fixed domain, or independently justified physical
+  control/observation. Reuse K2581 exact general-score Lambda(S), including equality, criticalM2
+  differentiability and ordered sufficient count thresholds. The former narrow full-tail bracket
+  is closed; do not requeue it. Exact middle budgets above the prior proven range and globally
+  certified positive-action policies above Lambda remain open; preserve K2565lambda1.9 bracket
+  and expected-versus-pathwise trials.
+  Historical predecessor (not live):
   Reuse K2578 paired Q/E inverses and forced original-metric observation on the fixed R(1) TT
   source sector; do not call it the original compact radial-pressure source or arbitrary coupled
   inverse. General radial D5+Y and scalar cofactor domains, physical control/observation and

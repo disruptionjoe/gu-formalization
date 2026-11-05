@@ -7,6 +7,12 @@ updated_at: "2026-08-21"
 
 ## Latest conditional constructions (2026-11-05)
 
+- [K2580 fixed radial source domain](conditional-build/k2580-radial-angular-source-domain-2026-11-05.md).
+- [K2581 sharp stopping transition](conditional-build/k2581-score-sensitive-tail-transition-2026-11-05.md).
+
+
+## Latest conditional constructions (2026-11-05)
+
 - [K2578 coupled TT forcing](conditional-build/k2578-coupled-forcing-adapter-2026-11-05.md).
 - [K2579 stopping transition](conditional-build/k2579-resource-tail-breakdown-2026-11-05.md).
 

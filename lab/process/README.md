@@ -7,6 +7,12 @@ updated_at: "2026-08-23"
 
 ## Latest conditional constructions (2026-11-05)
 
+- [K2580 report](k2580-radial-angular-source-domain.json).
+- [K2581 report](k2581-score-sensitive-tail-transition.json).
+
+
+## Latest conditional constructions (2026-11-05)
+
 - [K2578 report](k2578-coupled-forcing-adapter.json).
 - [K2579 report](k2579-resource-tail-breakdown.json).
 
