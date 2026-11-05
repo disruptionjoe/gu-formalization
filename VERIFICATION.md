@@ -5,6 +5,18 @@ doc_type: verification-map
 updated_at: "2026-10-27"
 ---
 
+## K2542--K2543: Perturbation closure and localized scalar observation (2026-11-04)
+
+K2542 proves prepared fixed-band rolling scalar-dust and tensor responses converge uniformly to the Einstein reference, including common Jordan density, lensing and slip. Independent scalar preparation, finite parameter bounds or other applicability data are still needed for discrimination; no empirical or native GU claim. K2543 derives the full original curvature-displacement contact identity for arbitrary localized conserved sources, constructs finite diffeomorphism-invariant probes and proves a joint zero-width divergence with explicit metric-only homogeneous ambiguity. A pressure-preserving full-thickness source repair is conserved but adds majorant/profile data and supplies no full inverse. Source polarities and ledger0.263 unchanged.
+
+- [K2542](explorations/conditional-build/k2542-rolling-perturbation-limit-2026-11-04.md).
+- [K2543](explorations/conditional-build/k2543-localized-source-readout-2026-11-04.md).
+
+Independent cosmology and geometry specialists and a separate integrated review found no substantive defects in the final energy, original-equation, distributional and source constructions. Review clarified complex energy, the sourced tensor row, linearized diffeomorphism scope, detector normalization and auxiliary norm. Universal proofs, exact algebra/finite controls and report consistency are separate evidence kinds; no empirical, external-expert or proof-assistant certification.
+
+Earlier sections preserve historical snapshots.
+
+
 ## K2540--K2541: Initialization repair and prescribed-source response (2026-11-04)
 
 K2540 repairs observer snap exactly within the sourced quadratic action family by shifting initial velocity, constant action coefficient rho and source normalization, and proves compact-interval C3 convergence with a nonzero fourth-jet limit. This is not a fixed coefficient-complete action or empirical test. K2541 solves the full local distributional equations for prescribed conserved A-homogeneous order-zero sources, including a B-point delta, through a curved three-scalar reduction. Its original metric coefficient necessarily fails local L2 at the delta source; observer-localized tension, global boundary selection and physical readout remain open. Source polarities and ledger0.263 unchanged.

@@ -1,0 +1,52 @@
+{
+  "coefficients": {
+    "curvature_displacement": "41511*k/1735888",
+    "curvature_source": "-34606/(29589*k)",
+    "displacement_contact": "6090656/(124533*k**2)",
+    "homogeneous_trace_numerator": "7*(50749214854358592*D + 780598945419515*k**2)/634885265963520",
+    "pressure_fixture": "(2*c - 1)**3*(2*c + 1)**3*(12*c**2 + 1)/(1536*c**4)"
+  },
+  "contrary_controls": {
+    "discarded_tensor_equation_not_identity": true,
+    "missing_half_changes_contact": true,
+    "omitted_adjoint_curvature_detected": true,
+    "omitted_pressure_detected": true,
+    "shifted_metric_would_lose_contact_identity": true,
+    "wrong_pressure_sign_detected": true,
+    "wrong_trace_Einstein_sign_changes_identity": true
+  },
+  "dependencies": {
+    "explorations/conditional-build/k2531-partial-thickness-source-2026-11-04.md": "c47c752a175b8863e7675996833af1c9a3174a5773ed68315977f927b8f64995",
+    "tests/channel-swings/k2537_reduced_action_decoupling_probe.py": "6e910cfe95f2c5d0ec03d8e784d725ae711d3cc0d1987245fb83ee0b10958640",
+    "tests/channel-swings/k2541_prescribed_product_source_response_probe.py": "2828c4f11f99e1e276074e5944d85cdf7b13e8433c683950f9c87cf1528eaaad",
+    "tests/channel-swings/k2543_localized_source_readout_probe.py": "a7cb61d6a8ee0897faa26dc1c924040504f9e5f614b9d8fcf91ac5ab42d4f4f6"
+  },
+  "exact_checks": {
+    "B_profile_derivative_has_no_divergence_receiver": true,
+    "contact_displacement_coefficient": true,
+    "curved_scalar_adjoint_conserved": true,
+    "full_forced_original_identity": true,
+    "homogeneous_curvature_not_zero_mode": true,
+    "homogeneous_identity_nontrivial_multiple": true,
+    "homogeneous_original_curvature_identity": true,
+    "homogeneous_real_root_existence": true,
+    "homogeneous_trace_polynomial": true,
+    "independent_full_adjugate": true,
+    "nonzero_original_trace_denominator": true,
+    "original_full_trace_elimination": true,
+    "original_rows_recover_full_shifted_trace": true,
+    "partial_contact_detector_scaling": true,
+    "positive_curvature_pressure_original_divergence": true,
+    "positive_pressure_center": true,
+    "positive_trace_source_center": true,
+    "pressure_boundary_support": true,
+    "pressure_relative_L2_scale": true,
+    "product_smoothing_preserves_conservation": true,
+    "regularity_ceilings": true,
+    "source_covector_trace_normalization": true,
+    "thick_source_L2_squared_scaling": true,
+    "thin_contact_detector_scaling": true
+  },
+  "result": "K2543",
+  "scope": "universal original scalar identity for full solutions; source-dependent joint observation, metric-only homogeneous ambiguity and supplied conserved full thickness; no full localized inverse/native GU inference"
+}

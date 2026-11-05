@@ -7,6 +7,12 @@ updated_at: "2026-08-21"
 
 ## Latest conditional constructions (2026-11-04)
 
+- [K2542: prepared rolling perturbation Einstein limit](conditional-build/k2542-rolling-perturbation-limit-2026-11-04.md).
+- [K2543: localized scalar observation and conserved thickness](conditional-build/k2543-localized-source-readout-2026-11-04.md).
+
+
+## Latest conditional constructions (2026-11-04)
+
 - [K2540: initialization and rho repair; uniform C3 closure](conditional-build/k2540-prepared-cosmology-source-data-2026-11-04.md).
 - [K2541: prescribed product-source response and singular original readout](conditional-build/k2541-prescribed-product-source-response-2026-11-04.md).
 

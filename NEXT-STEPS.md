@@ -5,7 +5,11 @@ doc_type: roadmap
 updated_at: "2026-10-26"
 ---
 
-> **2026-11-04: INITIALIZATION REPAIR AND PRESCRIBED SOURCE.**
+> **2026-11-04: PERTURBATION CLOSURE AND LOCALIZED SCALAR OBSERVATION.**
+> Reuse K2542 prepared finite-band scalar/dust/tensor closure: another prepared finite-band growth fit does not uniformly separate the unbounded family. Next compare independently selected primordial/scalar data, nonlinear or local-gravity constraints, or a specified frequency/parameter restriction. K2543 supplies the exact original curvature-displacement/source identity and conserved full-thickness source, not a constraint-preserving inverse or unique metric-only observation. Construct that response with explicit boundary/homogeneous data and a fixed finite detector; retain its twelve-dimensional majorant and profile costs. Native Met(X), physical quotient, finite-score/common-carrier calibration and other portfolio debts retain their prior ceilings.
+
+
+> **Historical predecessor: 2026-11-04: INITIALIZATION REPAIR AND PRESCRIBED SOURCE.**
 > Reuse K2540 initialization/rho repair and C3 theorem: derivative discrimination needs independently justified action/source/initial restrictions or perturbation data; the next derivative is not automatically a family exclusion. K2541 supplies local prescribed A-homogeneous source solutions and a necessary singular original-readout bound, not the observer-localized K2531 source or a global selected Green operator. Next construct its A-normal/tensor response and a justified observation smearing or boundary realization; use K2541 as a full-equation control. Native Met(X), physical quotient, finite-score/joint-calibration and other portfolio debts retain exact prior ceilings.
 
 

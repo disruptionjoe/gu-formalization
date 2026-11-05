@@ -1,0 +1,43 @@
+{
+  "contrary_controls": {
+    "bounded_energy_velocity_loses_prepared_rate": true,
+    "omitted_F0_dust_normalization_detected": true,
+    "omitted_dust_scalar_force_breaks_constraint": true,
+    "omitted_forcing_in_energy_fails": true,
+    "scalar_initial_amplitude_changes_slip": true,
+    "wrong_tensor_friction_sign_detected": true
+  },
+  "dependencies": {
+    "explorations/conditional-build/k2367-sourced-fit-dust-transfer-2026-10-31.md": "382ebe9859737216d6e1558bc7ffb1bd59f5c02f3b3275a3b8a140dbc064eabd",
+    "explorations/conditional-build/k2540-prepared-cosmology-source-data-2026-11-04.md": "8dd2c9c2f0e48e673b756c34aa92caddb63774efbf6ae5a349e3a1764500447e",
+    "tests/channel-swings/k2308_inhomogeneous_constrained_dust_transfer_probe.py": "080b968df924ef2910e53e3da1e712560dbd8b646538c62485c6fa5ed9620c07",
+    "tests/channel-swings/k2542_rolling_perturbation_limit_probe.py": "d7887d579e89a766ff0842cfe9d6ed407369455e6d3a4f2d4806f328035206d9"
+  },
+  "exact_checks": {
+    "Einstein_slow_matrix": true,
+    "common_Jordan_density_seed": true,
+    "common_Jordan_velocity_seed": true,
+    "energy_completed_square": true,
+    "energy_slow_block_positive": true,
+    "fast_mode_equation": true,
+    "fast_mode_initial_data": true,
+    "fast_mode_nonzero_quarter_period": true,
+    "frequency_derivative_bounded_limit": true,
+    "frozen_static_separate_control": true,
+    "full_modulated_energy_cancellation": true,
+    "full_scalar_matrix_reconstruction": true,
+    "full_slow_matrix_reconstruction": true,
+    "full_sourced_TT_row_time_change": true,
+    "full_trace_preserves_Liouville": true,
+    "normalized_dust_identity": true,
+    "normalized_dust_limit": true,
+    "reference_constraint_limit": true,
+    "scalar_force_cancellation": true,
+    "scalar_frequency_derivative": true,
+    "scalar_frequency_leading": true,
+    "unreduced_Hamiltonian_propagation": true,
+    "unreduced_constraint_to_actual_matrix": true
+  },
+  "result": "K2542",
+  "scope": "prepared finite-band compact-interval full rolling scalar/dust and tensor transfer closure; universal energy proof in note; no arbitrary scalar data, all-k, nonlinear, empirical or native GU inference"
+}

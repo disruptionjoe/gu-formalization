@@ -7,6 +7,12 @@ updated_at: "2026-08-23"
 
 ## Latest conditional constructions (2026-11-04)
 
+- [K2542 report](k2542-rolling-perturbation-limit.json).
+- [K2543 report](k2543-localized-source-readout.json).
+
+
+## Latest conditional constructions (2026-11-04)
+
 - [K2540 report](k2540-prepared-cosmology-source-data.json).
 - [K2541 report](k2541-prescribed-product-source-response.json).
 

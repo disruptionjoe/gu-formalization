@@ -1,6 +1,12 @@
 
 ## Latest conditional constructions (2026-11-04)
 
+- [K2542 exact rolling/energy/tensor controls](k2542_rolling_perturbation_limit_probe.py).
+- [K2543 exact original-source/contact controls](k2543_localized_source_readout_probe.py).
+
+
+## Latest conditional constructions (2026-11-04)
+
 - [K2540 exact original-equation/preparation controls](k2540_prepared_cosmology_source_data_probe.py).
 - [K2541 exact curved-source/readout controls](k2541_prescribed_product_source_response_probe.py).
 
