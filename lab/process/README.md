@@ -7,6 +7,12 @@ updated_at: "2026-08-23"
 
 ## Latest conditional constructions (2026-11-04)
 
+- [K2546 report](k2546-source-determined-metric-detectors.json).
+- [K2547 report](k2547-nearcritical-satellite-instability.json).
+
+
+## Latest conditional constructions (2026-11-04)
+
 - [K2544 report](k2544-constrained-tensor-response.json).
 - [K2545 report](k2545-critical-stopping-aggregation.json).
 

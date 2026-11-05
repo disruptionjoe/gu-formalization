@@ -1,0 +1,76 @@
+{
+  "result": "K2547",
+  "exact_algebra": {
+    "original_log_argument": true,
+    "original_weighted_coefficient_1": true,
+    "original_weighted_coefficient_2": true,
+    "original_weighted_coefficient_3": true,
+    "original_weighted_coefficient_4": true,
+    "exact_fixed_action_score_derivative": true,
+    "exact_fixed_score_action_derivative": true,
+    "original_fixed_action_numerator_mod_stationarity_0": true,
+    "original_fixed_action_numerator_mod_stationarity_1": true,
+    "original_fixed_action_numerator_mod_stationarity_2": true,
+    "original_fixed_action_numerator_mod_stationarity_3": true,
+    "original_insertion_stationarity_reduction_constant": true,
+    "original_insertion_stationarity_reduction_1": true,
+    "original_insertion_stationarity_reduction_2": true,
+    "original_insertion_stationarity_reduction_3": true,
+    "leading_insertion_minus_twice_H": true,
+    "stationary_curve": true,
+    "critical_L2": true,
+    "critical_L2_lambda_derivative": true,
+    "critical_L3": true,
+    "critical_Hprime": true,
+    "critical_Hsecond": true,
+    "cubic_boundary_cancellation": true,
+    "fifth_order_insertion_gamma": true,
+    "exact_gamma_positive": true,
+    "local_insertion_phase_second_coefficient": true,
+    "cloud_limit_curvature": true,
+    "cloud_curvature_positive": true,
+    "c1_negative": true,
+    "independent_ordered_cloud_quadratic": true,
+    "cloud_square_rewrite": true,
+    "two_satellites_improve_coefficient": true
+  },
+  "contrary_controls": {
+    "one_satellite_not_cloud_optimum": true,
+    "wrong_lambda_derivative_order_detected": true,
+    "omitted_ratio_reoptimization_detected": true,
+    "omitted_moving_multiplier_terms_detected": true
+  },
+  "supplemental_numerical_original_law": [
+    {
+      "S": "0.001",
+      "policy_gains_over_S5": {
+        "1": "0.00429487442256290096289500998812",
+        "2": "0.0052160365240837660192106382388"
+      },
+      "two_satellites_better": true
+    },
+    {
+      "S": "0.0005",
+      "policy_gains_over_S5": {
+        "1": "0.00429505579871667073284754596429",
+        "2": "0.0052164188881379475733216167667"
+      },
+      "two_satellites_better": true
+    }
+  ],
+  "coefficients": {
+    "gamma": "202353685/371712 - 116818417*sqrt(3)/371712",
+    "nu0": "24165709/3066624 - 3364513*sqrt(3)/766656",
+    "Kinf": "-5949/32 + 10309*sqrt(3)/96",
+    "K1": "-431/2 + 249*sqrt(3)/2",
+    "K2": "-12845/64 + 22261*sqrt(3)/192",
+    "gain1": "-11490715541983589/33437094248448 + 6634250630519059*sqrt(3)/33437094248448",
+    "gain2": "-100915597707631825/273483152949248 + 524380240904311331*sqrt(3)/2461348376543232"
+  },
+  "scope": "fixed finite satellite clouds and ordered-limit lower bound; no all-policy upper bound or explicit certified finite-score interval",
+  "dependencies": {
+    "explorations/conditional-build/k2547-nearcritical-satellite-instability-2026-11-04.md": "f3962091af53880dfd945ffcd6d4d9f7f528dc940528a90790e59ab582a636b6",
+    "tests/channel-swings/k2547_nearcritical_satellite_instability_probe.py": "e595df4cf98369300b1319b4ab8935f872fff5f63fb05a2517b462d0636675ab",
+    "explorations/conditional-build/k2545-critical-stopping-aggregation-2026-11-04.md": "4925b934a823c4e18018db5f6b6a950ac3f54b0c24f9cbec2e96229ee20083eb"
+  }
+}

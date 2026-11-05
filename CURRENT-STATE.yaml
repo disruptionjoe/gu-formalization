@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 23b3f85ba37b5c10effe96d727c9361335f69495
+revision_basis: ed73e9241b2825fcba007bb79be97fe88d08abaa
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -118,6 +118,15 @@ reviewed_prediction_interfaces_2026_10_27:
 current_result:
   status: conditional_research_front
   summary: >-
+    K2546 constructs finite gauge-invariant metric contact detectors in the curved TT sector,
+    with minimal pole filtering and inverse-free reconstruction. Full-source trace elimination
+    retains a Weyl-displacement channel; no nonzero compact scalar test annihilates that channel
+    on the actual product. K2547 proves a positive fifth-order terminal-satellite improvement at
+    the sharp cubic boundary, derives a local insertion curve, and follows through to stronger
+    finite-cloud witnesses and an ordered-limit all-policy lower bound. No general radial-source
+    inverse, physical measurement, global stopping optimum or native GU claim. Source polarities
+    and ledger0.263 unchanged.
+    Historical predecessor (not live):
     K2544 constructs a nonzero curved TT source sector preserving the full selected-action
     equations, local distributional response and analytically specified germs. Original metric
     response retains both poles; a finite tensor probe detects scalar-blind homogeneous modes.
@@ -18395,6 +18404,12 @@ current_result:
     coefficientwise A,C packet, global domain, BFV and positive
     cohomology/superposition now route to K129.
   evidence:
+  - explorations/conditional-build/k2546-source-determined-metric-detectors-2026-11-04.md
+  - explorations/conditional-build/k2547-nearcritical-satellite-instability-2026-11-04.md
+  - lab/process/k2546-source-determined-metric-detectors.json
+  - lab/process/k2547-nearcritical-satellite-instability.json
+  - tests/channel-swings/k2546_source_determined_metric_detectors_probe.py
+  - tests/channel-swings/k2547_nearcritical_satellite_instability_probe.py
   - explorations/conditional-build/k2544-constrained-tensor-response-2026-11-04.md
   - explorations/conditional-build/k2545-critical-stopping-aggregation-2026-11-04.md
   - lab/process/k2544-constrained-tensor-response.json
@@ -20934,6 +20949,10 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  Can a full coupled adjoint or physically specified boundary domain supply a source-disjoint
+  metric response, and can an all-stage fifth-order upper bound match the new nearcritical
+  satellite-cloud lower bound?
+  Historical predecessor (not live):
   Can a source-compatible curved domain or justified observed reduction provide the original
   metric response to the actual localized source, and what fourth-order satellite behavior
   controls the sharp near-critical stopping boundary?
@@ -25357,6 +25376,16 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  Reuse K2546 compact TT metric contact detector and its full-source Weyl-channel obstruction:
+  scalar filtering alone cannot create a source-disjoint prediction. Construct the actual
+  compact coupled adjoint cancellation or a justified physical boundary/readout domain,
+  retaining radial-source and Met(X) distinctions. K2547 shows the former cubic boundary is
+  unstable at fifth order; finite terminal clouds improve the one-satellite coefficient. Next
+  requires uniform stage-count localization and a fifth-order upper bound or finite-score
+  Bellman certificate, not another fixed-m insertion calculation. The insertion curve is local;
+  the cloud result is an ordered-limit lower bound, not a global optimum. Preserve prepared
+  cosmology closure, empirical/common-carrier calibration and all source/ledger ceilings.
+  Historical predecessor (not live):
   Reuse K2544 exact curved TT sector, original two-pole readout and scalar-blind tensor
   observation. The actual radial-pressure source is outside this sector; an unrestricted
   ordinary product-slice Cauchy prescription fails, while a curved restricted domain or

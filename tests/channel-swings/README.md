@@ -1,6 +1,12 @@
 
 ## Latest conditional constructions (2026-11-04)
 
+- [K2546 exact filter, trace, Weyl and reconstruction controls](k2546_source_determined_metric_detectors_probe.py).
+- [K2547 exact insertion/cloud coefficients and original-law controls](k2547_nearcritical_satellite_instability_probe.py).
+
+
+## Latest conditional constructions (2026-11-04)
+
 - [K2544 exact original-field and curved-sector controls](k2544_constrained_tensor_response_probe.py).
 - [K2545 exact prefix-law and critical/near-critical controls](k2545_critical_stopping_aggregation_probe.py).
 

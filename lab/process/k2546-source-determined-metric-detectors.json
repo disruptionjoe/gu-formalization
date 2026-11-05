@@ -1,0 +1,57 @@
+{
+  "result": "K2546",
+  "exact_algebra": {
+    "numerator_from_both_original_factors": true,
+    "nonzero_pole_difference": true,
+    "nonzero_residue_Einstein": true,
+    "nonzero_residue_tensor": true,
+    "reconstruction_original_h": true,
+    "Einstein_reconstruction_residual": true,
+    "tensor_reconstruction_residual": true,
+    "nonempty_constant_source_contact": true,
+    "explicit_constant_Einstein_response": true,
+    "explicit_constant_tensor_response": true,
+    "explicit_constant_filtered_signal": true,
+    "original_curvature_trace": true,
+    "original_displacement_trace": true,
+    "full_retained_Weyl_elimination": true,
+    "curved_volume_countercontrol": true,
+    "Weyl_eigenvalue_total": true,
+    "Weyl_eigenvalue_relative": true,
+    "Weyl_eigenvalue_block_tf": true,
+    "Weyl_eigenvalue_mixed": true,
+    "full_symmetric_dimension": true,
+    "Weyl_kernel_only_total_metric": true,
+    "Hessian_divergence_constraint": true,
+    "full_adjoint_shift_cancellation": true,
+    "metric_filter_sign": true,
+    "L2_scaling_order_4": true,
+    "L2_scaling_order_2": true
+  },
+  "contrary_controls": {
+    "single_factor_retains_Einstein": true,
+    "single_factor_retains_tensor": true,
+    "shifted_metric_not_original_numerator": true,
+    "deleting_Weyl_changes_equation": true,
+    "curved_volume_Weyl_not_zero": true,
+    "flat_Weyl_substitution_changes_kernel": true,
+    "omitted_Ricci_loses_scalar_filter_obstruction": true,
+    "unfiltered_noise_exponent_is_different": true
+  },
+  "coefficients": {
+    "f": "127052525/309793516032",
+    "g": "5082101/2234087856",
+    "hW": "1618929/17615318",
+    "e": "175*k**2/3624192",
+    "mu": "611557655*k**2/39953092608",
+    "N": "429*D/(106*k) - 70547*k/60632"
+  },
+  "scope": "conditional compact contact probes and scalar Weyl-annihilation obstruction; analytic proofs in note, no arbitrary-source inverse",
+  "dependencies": {
+    "explorations/conditional-build/k2546-source-determined-metric-detectors-2026-11-04.md": "d92ad83cb88a08cef2a2f8ecdbfc39bc4124242e940d1010b97a5e2cffc5801b",
+    "tests/channel-swings/k2546_source_determined_metric_detectors_probe.py": "1cdaa7f5010ee13d3b1446936979d8465af96fea67595d0f62fd388cb2e41c61",
+    "explorations/conditional-build/k2539-covariant-tensor-constraints-2026-11-04.md": "d8f1bfb2edcd9522fec266fa408116a8399b3d4fc3d0d24cf492215973a69b5a",
+    "explorations/conditional-build/k2543-localized-source-readout-2026-11-04.md": "8abb62b11b74891f4c89be5ff581c1730a750e591efa7b7875c55abe0393cf43",
+    "explorations/conditional-build/k2544-constrained-tensor-response-2026-11-04.md": "d89c6d0a254d3461dbdd8573af4ab93327131ae105713f523ab288ddb781ad42"
+  }
+}

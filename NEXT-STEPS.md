@@ -5,7 +5,11 @@ doc_type: roadmap
 updated_at: "2026-10-26"
 ---
 
-> **2026-11-04: CONSTRAINED TENSOR RESPONSE AND CRITICAL STOPPING.**
+> **2026-11-04: METRIC CONTACT FILTERS AND SATELLITE INSTABILITY.**
+> Reuse K2546 compact TT metric contact detector and its full-source Weyl-channel obstruction: scalar filtering alone cannot create a source-disjoint prediction. Construct the actual compact coupled adjoint cancellation or a justified physical boundary/readout domain, retaining radial-source and Met(X) distinctions. K2547 shows the former cubic boundary is unstable at fifth order; finite terminal clouds improve the one-satellite coefficient. Next requires uniform stage-count localization and a fifth-order upper bound or finite-score Bellman certificate, not another fixed-m insertion calculation. The insertion curve is local; the cloud result is an ordered-limit lower bound, not a global optimum. Preserve prepared cosmology closure, empirical/common-carrier calibration and all source/ledger ceilings.
+
+
+> **Historical predecessor: 2026-11-04: CONSTRAINED TENSOR RESPONSE AND CRITICAL STOPPING.**
 > Reuse K2544 exact curved TT sector, original two-pole readout and scalar-blind tensor observation. The actual radial-pressure source is outside this sector; an unrestricted ordinary product-slice Cauchy prescription fails, while a curved restricted domain or different justified observed reduction remains to be constructed. Preserve analytic versus distributional existence and flat-donor versus curved-domain distinctions. K2545 closes arbitrary-stage critical cubic behavior and the sharp moving-multiplier cubic comparison; next determine fourth-order satellite scaling or a genuine finite-score original-law certificate. Keep mixture concentration in expectation and do not infer exact finite-score optimality. K2542 prepared cosmology closure, physical calibration, native Met(X) and quotient debts retain their prior ceilings.
 
 

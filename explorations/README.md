@@ -7,6 +7,12 @@ updated_at: "2026-08-21"
 
 ## Latest conditional constructions (2026-11-04)
 
+- [K2546: gauge-invariant contact filters and compact Weyl-channel obstruction](conditional-build/k2546-source-determined-metric-detectors-2026-11-04.md).
+- [K2547: fifth-order satellite instability and finite-cloud lower bound](conditional-build/k2547-nearcritical-satellite-instability-2026-11-04.md).
+
+
+## Latest conditional constructions (2026-11-04)
+
 - [K2544: constrained curved source, original metric and data domain](conditional-build/k2544-constrained-tensor-response-2026-11-04.md).
 - [K2545: all-stage critical aggregation and sharp moving-multiplier boundary](conditional-build/k2545-critical-stopping-aggregation-2026-11-04.md).
 

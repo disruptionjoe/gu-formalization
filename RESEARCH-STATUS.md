@@ -6,6 +6,18 @@ updated_at: "2026-10-26"
 canon_sweep_at: "2026-07-25"
 ---
 
+## K2546--K2547: Metric contact filters and nearcritical satellite instability (2026-11-04)
+
+K2546 constructs finite gauge-invariant metric contact detectors in the curved TT sector, with minimal pole filtering and inverse-free reconstruction. Full-source trace elimination retains a Weyl-displacement channel; no nonzero compact scalar test annihilates that channel on the actual product. K2547 proves a positive fifth-order terminal-satellite improvement at the sharp cubic boundary, derives a local insertion curve, and follows through to stronger finite-cloud witnesses and an ordered-limit all-policy lower bound. No general radial-source inverse, physical measurement, global stopping optimum or native GU claim. Source polarities and ledger0.263 unchanged.
+
+- [K2546](explorations/conditional-build/k2546-source-determined-metric-detectors-2026-11-04.md).
+- [K2547](explorations/conditional-build/k2547-nearcritical-satellite-instability-2026-11-04.md).
+
+Independent geometry/PDE and probability specialists plus a separate integrated review found no substantive mathematical defects after correcting the support example, adding the original fixed-action numerator check, and refining adjoint sufficiency and evidence labels. Exact algebra, supplemental original-law numerics, analytic proofs and reporting consistency remain distinct. No external-expert or proof-assistant certification.
+
+Earlier sections preserve historical snapshots.
+
+
 ## K2544--K2545: Constrained tensor response and critical stopping aggregation (2026-11-04)
 
 K2544 constructs a nonzero curved TT source sector preserving the full selected-action equations, local distributional response and analytically specified germs. Original metric response retains both poles; a finite tensor probe detects scalar-blind homogeneous modes. The actual scalar sector fails the specified unrestricted product-slice Cauchy criterion; nonlocal and other boundary alternatives remain open. K2545 proves uniform all-stage critical cubic aggregation, score concentration and a sharp moving-multiplier cubic boundary with an exact two-stage advantage below it. No exact finite-score optimum, arbitrary localized-source inverse, physical domain or native GU claim. Source polarities and ledger0.263 unchanged.
