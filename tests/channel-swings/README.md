@@ -2,6 +2,12 @@
 
 ## Latest conditional constructions (2026-11-05)
 
+- [K2588 real-preparation probe](k2588_real_boundary_response_probe.py).
+- [K2589 positive-action probe](k2589_positive_action_support_probe.py).
+
+
+## Latest conditional constructions (2026-11-05)
+
 - [K2586 point-response probe](k2586_fixed_annulus_point_response_probe.py).
 - [K2587 countwise-support probe](k2587_countwise_stopping_support_probe.py).
 

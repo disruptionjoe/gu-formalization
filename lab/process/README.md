@@ -7,6 +7,12 @@ updated_at: "2026-08-23"
 
 ## Latest conditional constructions (2026-11-05)
 
+- [K2588 report](k2588-real-boundary-response.json).
+- [K2589 report](k2589-positive-action-support.json).
+
+
+## Latest conditional constructions (2026-11-05)
+
 - [K2586 report](k2586-fixed-annulus-point-response.json).
 - [K2587 report](k2587-countwise-stopping-support.json).
 

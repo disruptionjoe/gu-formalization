@@ -6,6 +6,18 @@ updated_at: "2026-10-26"
 canon_sweep_at: "2026-07-25"
 ---
 
+## K2588--K2589: Real symmetric preparation and positive-action stopping support (2026-11-05)
+
+K2588 constructs a real symmetric fixed-annulus cofactor inverse by averaging root orders and conjugate impedances. Its inverse on its range is a closed self-adjoint scalar realization per mode; full coupled real point response and weak regularization survive synchronized averaging. Scalar reciprocity is proved, not full tensor self-adjointness or physical selection. K2589 proves global one-stage-or-abort optimality for every positive multiplier when trial price k>=lambda Delta1(S), with sharp multiplier-uniform price coefficient. It solves a new positive-action budget segment beyond Lambda, executes half/quarter-score consumers and a certified endpoint, then bounds the unresolved lambda.55 budget3 value between approximately.839374194 and.839424227 with an actual improved policy. Failed post2 exact optima remain open. Source, ledger0.263 and canon unchanged.
+
+- [K2588](explorations/conditional-build/k2588-real-boundary-response-2026-11-05.md).
+- [K2589](explorations/conditional-build/k2589-positive-action-support-2026-11-05.md).
+
+Independent read-only field specialists and a distinct integrated hostile reviewer found no remaining substantive defects after endpoint, sign and evidence-wording corrections. K2588 passes23 exact/supporting checks and8 contrary controls; K2589 passes34 and8 including the released post2 bracket. Universal ODE/domain and all-policy proofs remain separate from finite interval, matrix and reporting checks. No external-expert, proof-assistant, remote-CI or physical certification.
+
+Earlier sections preserve historical snapshots.
+
+
 ## K2586--K2587: Fixed-annulus point response and sharp stopping thresholds (2026-11-05)
 
 K2586 extends the fixed-annulus scalar/TT preparation to the actual invariant B point source, retaining the compact conserved radial pressure and every selected coupled equation. A measure resolvent identity and full angular synthesis give a conservative local H^-43 field bound; moving or smoothing the point gives O(epsilon) error in H^-44 and compact conserved readouts. This is a new fixed-preparation and regularization result, not first point-source existence, pointwise fields or physical selection. K2587 proves SHARP thresholds lambda_n for every zero-action expected-resource chord, closing the sufficient-versus-failure gap by an all-action convex majorant. The exact eventual onset exists iff lambda<2/(3+S). At S.5/lambda.56 it starts at budget10 instead of the old sufficient16; atlambda.57 it starts at72 beyond the old criterion range. Exact opposite-side policies and full price-interval consumers are executed. Positive-action optimal values remain open; K2561 already owns the unrestricted continuum value. Source, ledger0.263 and canon unchanged.

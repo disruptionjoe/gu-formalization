@@ -7,6 +7,12 @@ updated_at: "2026-08-21"
 
 ## Latest conditional constructions (2026-11-05)
 
+- [K2588 real symmetric preparation](conditional-build/k2588-real-boundary-response-2026-11-05.md).
+- [K2589 positive-action support](conditional-build/k2589-positive-action-support-2026-11-05.md).
+
+
+## Latest conditional constructions (2026-11-05)
+
 - [K2586 fixed-annulus point response](conditional-build/k2586-fixed-annulus-point-response-2026-11-05.md).
 - [K2587 sharp stopping thresholds](conditional-build/k2587-countwise-stopping-support-2026-11-05.md).
 

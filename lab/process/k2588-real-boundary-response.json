@@ -1,0 +1,56 @@
+{
+  "result": "K2588",
+  "checks": [
+    "invariant_kernel_conversion",
+    "weighted_kernel_transpose",
+    "constant_complex_equation",
+    "constant_complex_left",
+    "constant_complex_right",
+    "constant_real_equation",
+    "constant_real_value_trace",
+    "constant_real_derivative_trace",
+    "linear_complex_equation",
+    "linear_complex_left",
+    "linear_complex_right",
+    "linear_real_equation",
+    "linear_real_value_trace",
+    "linear_real_derivative_trace",
+    "reciprocal_actual_sources",
+    "constant_response",
+    "real_domain_unique",
+    "symmetric_factors",
+    "all_orders_symmetric",
+    "conjugate_average_real",
+    "five_factor_order_and_conjugate_closure",
+    "measure_chain_exponent",
+    "average_preserves_uniform_bound"
+  ],
+  "contrary_controls": [
+    "real_source_not_real_complex_solution",
+    "real_part_not_old_robin",
+    "wrong_sign_real_trace",
+    "inverse_order_noncommutes",
+    "one_order_not_symmetric",
+    "order_average_without_sign_not_real",
+    "conjugate_only_not_symmetric",
+    "density_omission_changes_kernel"
+  ],
+  "evidence_kind": "exact invariant-density algebra, actual interval BVP and matrix analogues; analytic domain proof in note",
+  "consumers": [
+    {
+      "forcing": "1",
+      "complex_response": "x**2/2 - x/2 - I/2",
+      "real_response": "x*(x - 1)/2"
+    },
+    {
+      "forcing": "x",
+      "complex_response": "x**3/6 - 7*x/30 - I*x/30 + 1/30 - 7*I/30",
+      "real_response": "x**3/6 - 7*x/30 + 1/30"
+    }
+  ],
+  "ceiling": "per-mode real self-adjoint scalar realization; not full tensor self-adjointness or physical selection",
+  "provenance": {
+    "explorations/conditional-build/k2584-scalar-spectral-boundary-inverse-2026-11-05.md": "820f3d03ff18813f7c0e921aa3911bd69aa2add40ae66024c092f19aebfcfdbe",
+    "explorations/conditional-build/k2586-fixed-annulus-point-response-2026-11-05.md": "d0a8f09d630c5c5d961acddd2a8a3bcd61a8923c96ba8330326c79f9869f5d27"
+  }
+}
