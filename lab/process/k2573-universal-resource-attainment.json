@@ -1,0 +1,99 @@
+{
+  "result": "K2573",
+  "evidence_kind": "exact original-law finite identities, budget witnesses, rational truncation consumer and finite mixture reduction; universal tightness and support proofs separate",
+  "checks": [
+    "original_probability",
+    "original_leakage",
+    "original_positive_trial_resource",
+    "vanishing_stage_success_continuity",
+    "vanishing_stage_cost_continuity",
+    "vanishing_stage_resource_drop",
+    "two_free_stages_probability",
+    "two_free_stages_cost",
+    "two_free_stages_resource",
+    "joint_resource_feasible_0",
+    "joint_zero_leakage_0",
+    "joint_value_0",
+    "joint_resource_feasible_1/2",
+    "joint_zero_leakage_1/2",
+    "joint_value_1/2",
+    "joint_resource_feasible_1",
+    "joint_zero_leakage_1",
+    "joint_value_1",
+    "joint_resource_feasible_4/3",
+    "joint_zero_leakage_4/3",
+    "joint_value_4/3",
+    "joint_resource_feasible_2",
+    "joint_zero_leakage_2",
+    "joint_value_2",
+    "free_product_excess",
+    "exp_half_bound",
+    "finite_mixture_error_bound",
+    "rare_long_policy_resource",
+    "rare_long_policy_positive_mass",
+    "four_weight_budget_null_direction",
+    "null_direction_has_both_signs",
+    "vertex_step_preserves_budgets",
+    "vertex_step_nonnegative_weights",
+    "vertex_step_at_most_three",
+    "vertex_step_not_worse"
+  ],
+  "contrary_controls": [
+    "resource_continuity_false",
+    "free_cost_not_free_survival",
+    "unweighted_trial_count_false",
+    "conditional_success_resource_false",
+    "one_less_cap_does_not_meet_same_rational_bound",
+    "budget_is_not_per_path_stage_cap",
+    "normalization_only_mixture_cannot_prove_joint_budget"
+  ],
+  "provenance": {
+    "explorations/conditional-build/k2569-stopping-maximizing-sequences-2026-11-05.md": "86320b42a82c0001f5500dd779b90b0f53980f98b936985ba9d736a4584e868e",
+    "explorations/conditional-build/k2571-stopping-resource-price-2026-11-05.md": "87162b0b74de5fa69161e81490c62e7d89ae5adbf25b5a6656ef5b85e902ea13"
+  },
+  "joint_zero_leakage_fixtures": [
+    {
+      "M": "0",
+      "execute_probability": "0",
+      "success": "0",
+      "resource": "0",
+      "leakage": "0"
+    },
+    {
+      "M": "1/2",
+      "execute_probability": "3/8",
+      "success": "1/4",
+      "resource": "1/2",
+      "leakage": "0"
+    },
+    {
+      "M": "1",
+      "execute_probability": "3/4",
+      "success": "1/2",
+      "resource": "1",
+      "leakage": "0"
+    },
+    {
+      "M": "4/3",
+      "execute_probability": "1",
+      "success": "2/3",
+      "resource": "4/3",
+      "leakage": "0"
+    },
+    {
+      "M": "2",
+      "execute_probability": "1",
+      "success": "2/3",
+      "resource": "4/3",
+      "leakage": "0"
+    }
+  ],
+  "finite_truncation": {
+    "S": "1/2",
+    "M": "2",
+    "N": 1666,
+    "error_upper": "5/5001",
+    "exp_half_upper": "103218747370927/62605334937600"
+  },
+  "ceiling": "finite expected-resource attained mixtures for supplied fair law; no computed intermediate optimizer, efficient solver or physical/native GU claim"
+}

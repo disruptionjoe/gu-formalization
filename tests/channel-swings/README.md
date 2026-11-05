@@ -2,6 +2,12 @@
 
 ## Latest conditional constructions (2026-11-05)
 
+- [K2572 robustness probe](k2572_boundary_preparation_robustness_probe.py).
+- [K2573 attainment probe](k2573_universal_resource_attainment_probe.py).
+
+
+## Latest conditional constructions (2026-11-05)
+
 - [K2570 preparation probe](k2570_detector_recovery_probe.py).
 - [K2571 resource probe](k2571_stopping_resource_price_probe.py).
 

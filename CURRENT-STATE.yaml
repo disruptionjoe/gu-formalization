@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 00112db4dcec841fbf4a7c6b7e480f6ed799ead4
+revision_basis: 3bffc09dea2c8e7ded1674b3e25764221acb71f7
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -118,6 +118,22 @@ reviewed_prediction_interfaces_2026_10_27:
 current_result:
   status: conditional_research_front
   summary: >-
+    K2572 proves the exact exponential robustness requirement for the actual annular stable
+    boundary preparation, extending to both Cauchy jets and arbitrary linear mixing of selected
+    omega harmonics. Small smooth or rank-one preparation errors can fail; exact known stable
+    priors are not defeated by derivative measurement noise alone. Direct two-boundary data give
+    contraction and smooth interior fields; a finite-band tolerance consumer and the full
+    filtered-error factorization are executed. Further actual-operator follow-through admits
+    theta degree200 and proves a resonant annulus with zero scalar boundary data and nonzero
+    invariant response: the stable theta-zero result cannot be generalized to every angular
+    sector/domain. K2573 removes the multiplier restriction from finite expected-trial budget
+    attainment: every positive multiplier admits an optimizer using at most two finite
+    schedules. Joint leakage/resource budgets attain maximum success using at most three
+    schedules. Executed successors give a uniform finite-mixture truncation bound and the entire
+    zero-leakage joint frontier. These are conditional mathematics, not physical preparation
+    selection, a computed intermediate optimizer, a sharp unpriced transition or native GU
+    recovery. Source polarity, ledger0.263 and canon remain unchanged.
+    Historical predecessor (not live):
     K2570 derives the exact weighted continuity criterion and deterministic-noise minimax error
     for a specified compact conserved detector on the actual annular homogeneous response. An
     actual smooth detector family has sharp support/analytic-bandwidth threshold including
@@ -18546,6 +18562,10 @@ current_result:
     coefficientwise A,C packet, global domain, BFV and positive
     cohomology/superposition now route to K129.
   evidence:
+  - explorations/conditional-build/k2572-boundary-preparation-robustness-2026-11-05.md
+  - explorations/conditional-build/k2573-universal-resource-attainment-2026-11-05.md
+  - lab/process/k2572-boundary-preparation-robustness.json
+  - lab/process/k2573-universal-resource-attainment.json
   - explorations/conditional-build/k2570-detector-recovery-2026-11-05.md
   - explorations/conditional-build/k2571-stopping-resource-price-2026-11-05.md
   - lab/process/k2570-detector-recovery.json
@@ -21143,6 +21163,10 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  Which justified boundary-control or observation mechanism meets the actual preparation
+  robustness criterion, and what low-dimensional structure makes the attained joint
+  stopping-budget optimum computable?
+  Historical predecessor (not live):
   Which independently justified observation extends beyond the selected response family, and
   which finite resource-priced stopping schedules realize a useful operational budget?
   Historical predecessor (not live):
@@ -25616,6 +25640,20 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  Reuse K2572 exact defect criterion and angular-mixing factorization E=D^-1 K on the selected
+  harmonic family. Preparation errors concern actual fields; noisy derivative measurements may
+  be ignored under an exact stable prior. Direct two-boundary control is stable and produces
+  smooth interior fields but remains supplied, not physically selected. The actual theta200
+  resonant-annulus counterexample rules out an unrestricted all-sector/all-annulus uniqueness
+  extension; it does not settle any arbitrary fixed domain. Independently justified full-angular
+  boundary conditions and coupling/control remain open. Reuse K2573 all-multiplier two-schedule
+  attainment, joint-budget three-schedule attainment, finite-mixture truncation error and exact
+  zero-leakage frontier. The unclassified unpriced multiplier transition and a useful supported
+  optimizer outside the sufficient one-stage price region still need structural or globally
+  certified optimization; no brute-force stage-grid efficiency is claimed. Preserve K2571
+  nonlinear resource segment, K2565 value bracket, source existence, scalar/full-field
+  distinction and native observation/quotient/empirical calibration debts.
+  Historical predecessor (not live):
   Reuse K2570 exact detector sequence criterion, compact-cutoff critical threshold and
   minimax/tail certificate. A named detector, preparation bound and noise model, or an
   observation map on a larger solution family, is needed for a new physical consumer; scalar

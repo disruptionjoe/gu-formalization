@@ -6,6 +6,18 @@ updated_at: "2026-10-26"
 canon_sweep_at: "2026-07-25"
 ---
 
+## K2572--K2573: Preparation robustness and universal resource attainment (2026-11-05)
+
+K2572 proves the exact exponential robustness requirement for the actual annular stable boundary preparation, extending to both Cauchy jets and arbitrary linear mixing of selected omega harmonics. Small smooth or rank-one preparation errors can fail; exact known stable priors are not defeated by derivative measurement noise alone. Direct two-boundary data give contraction and smooth interior fields; a finite-band tolerance consumer and the full filtered-error factorization are executed. Further actual-operator follow-through admits theta degree200 and proves a resonant annulus with zero scalar boundary data and nonzero invariant response: the stable theta-zero result cannot be generalized to every angular sector/domain. K2573 removes the multiplier restriction from finite expected-trial budget attainment: every positive multiplier admits an optimizer using at most two finite schedules. Joint leakage/resource budgets attain maximum success using at most three schedules. Executed successors give a uniform finite-mixture truncation bound and the entire zero-leakage joint frontier. These are conditional mathematics, not physical preparation selection, a computed intermediate optimizer, a sharp unpriced transition or native GU recovery. Source polarity, ledger0.263 and canon remain unchanged.
+
+- [K2572](explorations/conditional-build/k2572-boundary-preparation-robustness-2026-11-05.md).
+- [K2573](explorations/conditional-build/k2573-universal-resource-attainment-2026-11-05.md).
+
+Independent read-only PDE and probability specialists and a distinct integrated hostile reviewer checked the final arguments, including angular mixing, the actual theta-sector resonance and the endpoint repair. No substantive findings remain. Detector coordinate typing and measure-theoretic wording were corrected before acceptance. K2572 has44 exact/supporting groups and9 contrary controls; K2573 has35 and7. Those finite checks support the written comparison, compactness and finite-support proofs; no external-expert, proof-assistant, remote-CI or physical certification is claimed.
+
+Earlier sections preserve historical snapshots.
+
+
 ## K2570--K2571: Detector recovery and priced stopping (2026-11-05)
 
 K2570 derives the exact weighted continuity criterion and deterministic-noise minimax error for a specified compact conserved detector on the actual annular homogeneous response. An actual smooth detector family has sharp support/analytic-bandwidth threshold including equality; a realized two-mode observation has an explicit optimal linear estimator. K2571 proves positive expected-trial prices restore finite attained stopping optimizers with explicit stage caps. In the certified nonattainment range every finite expected-trial budget is attained by at most two finite schedules; its low-budget segment is exactly M/2. Released follow-through gives an exact nonlinear finite-resource frontier segment and a global one-stage price transformation. At lambda1.9/price0.1 it certifies the optimal action and value, eliminating a proposed three-stage search; a small-price witness still beats all one-stage mixtures. These are conditional mathematical results, not physical observation selection, a computed unpriced intermediate optimum or a native GU verdict; source polarity, ledger0.263 and canon remain unchanged.

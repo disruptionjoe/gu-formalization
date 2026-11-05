@@ -7,6 +7,12 @@ updated_at: "2026-08-21"
 
 ## Latest conditional constructions (2026-11-05)
 
+- [K2572 boundary robustness](conditional-build/k2572-boundary-preparation-robustness-2026-11-05.md).
+- [K2573 universal attainment](conditional-build/k2573-universal-resource-attainment-2026-11-05.md).
+
+
+## Latest conditional constructions (2026-11-05)
+
 - [K2570 detector recovery](conditional-build/k2570-detector-recovery-2026-11-05.md).
 - [K2571 priced stopping](conditional-build/k2571-stopping-resource-price-2026-11-05.md).
 

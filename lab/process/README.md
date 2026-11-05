@@ -7,6 +7,12 @@ updated_at: "2026-08-23"
 
 ## Latest conditional constructions (2026-11-05)
 
+- [K2572 report](k2572-boundary-preparation-robustness.json).
+- [K2573 report](k2573-universal-resource-attainment.json).
+
+
+## Latest conditional constructions (2026-11-05)
+
 - [K2570 report](k2570-detector-recovery.json).
 - [K2571 report](k2571-stopping-resource-price.json).
 
