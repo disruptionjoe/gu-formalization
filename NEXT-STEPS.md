@@ -5,7 +5,11 @@ doc_type: roadmap
 updated_at: "2026-10-26"
 ---
 
-> **2026-11-04: METRIC CONTACT FILTERS AND SATELLITE INSTABILITY.**
+> **2026-11-04: FULL COUPLED CONTACT AND UNIFORM STOPPING.**
+> Reuse K2548 full coupled compact adjoint cancellation and actual-source contact sensitivity; further contact filters cannot supply source-disjoint propagation. Next construct a justified common Einstein/tensor domain with original readout, or a physical coupling/observation bridge, retaining the conditional product versus native Met(X) distinction. K2549 closes the all-stage fifth-order and shrinking-tube phase questions, including growing satellite counts; the finite-stage compression bound supplies a horizon error rate but still needs explicit constants, a validity radius and continuous-control discretization for a numerical certificate, not another fixed-stage Taylor coefficient. No infinite-policy attainment or arbitrary-score global phase follows. Prepared cosmology closure, empirical/common-carrier calibration and all source/ledger debts remain.
+
+
+> **Historical predecessor: 2026-11-04: METRIC CONTACT FILTERS AND SATELLITE INSTABILITY.**
 > Reuse K2546 compact TT metric contact detector and its full-source Weyl-channel obstruction: scalar filtering alone cannot create a source-disjoint prediction. Construct the actual compact coupled adjoint cancellation or a justified physical boundary/readout domain, retaining radial-source and Met(X) distinctions. K2547 shows the former cubic boundary is unstable at fifth order; finite terminal clouds improve the one-satellite coefficient. Next requires uniform stage-count localization and a fifth-order upper bound or finite-score Bellman certificate, not another fixed-m insertion calculation. The insertion curve is local; the cloud result is an ordered-limit lower bound, not a global optimum. Preserve prepared cosmology closure, empirical/common-carrier calibration and all source/ledger ceilings.
 
 

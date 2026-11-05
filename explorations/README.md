@@ -7,6 +7,12 @@ updated_at: "2026-08-21"
 
 ## Latest conditional constructions (2026-11-04)
 
+- [K2548: compact full coupled metric contact detectors](conditional-build/k2548-compact-coupled-metric-detectors-2026-11-04.md).
+- [K2549: uniform nearcritical value, phase and satellite count](conditional-build/k2549-uniform-nearcritical-stopping-bound-2026-11-04.md).
+
+
+## Latest conditional constructions (2026-11-04)
+
 - [K2546: gauge-invariant contact filters and compact Weyl-channel obstruction](conditional-build/k2546-source-determined-metric-detectors-2026-11-04.md).
 - [K2547: fifth-order satellite instability and finite-cloud lower bound](conditional-build/k2547-nearcritical-satellite-instability-2026-11-04.md).
 

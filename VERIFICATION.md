@@ -5,6 +5,16 @@ doc_type: verification-map
 updated_at: "2026-10-27"
 ---
 
+## K2548--K2549: Full coupled contact observations and uniform stopping value (2026-11-04)
+
+K2548 constructs compact full coupled metric-only contact detectors through an exact curved six-potential module and polynomial adjugate, valid for arbitrary full solutions. It proves nonzero contact sensitivity to the actual conserved partial-width source and small smooth thickenings, without proving response existence or choosing homogeneous data. K2549 proves the uniform all-stage fifth-order stopping value, a growing finite satellite witness, the exact all-policy phase boundary inside a shrinking nearcritical tube, necessary satellite-count scaling for near-optimal accuracy, and a uniform finite-stage compression rate. No source-disjoint gravity prediction, finite-score global stopping frontier, physical measurement or native GU claim. Source polarities and ledger0.263 unchanged.
+
+- [K2548](explorations/conditional-build/k2548-compact-coupled-metric-detectors-2026-11-04.md).
+- [K2549](explorations/conditional-build/k2549-uniform-nearcritical-stopping-bound-2026-11-04.md).
+
+Independent specialist and integrated review checked the curved-module, adjoint and uniform analytic arguments. Exact algebra and reporting controls remain distinct from universal proofs; no external-expert or proof-assistant certification. Earlier sections preserve historical snapshots.
+
+
 ## K2546--K2547: Metric contact filters and nearcritical satellite instability (2026-11-04)
 
 K2546 constructs finite gauge-invariant metric contact detectors in the curved TT sector, with minimal pole filtering and inverse-free reconstruction. Full-source trace elimination retains a Weyl-displacement channel; no nonzero compact scalar test annihilates that channel on the actual product. K2547 proves a positive fifth-order terminal-satellite improvement at the sharp cubic boundary, derives a local insertion curve, and follows through to stronger finite-cloud witnesses and an ordered-limit all-policy lower bound. No general radial-source inverse, physical measurement, global stopping optimum or native GU claim. Source polarities and ledger0.263 unchanged.

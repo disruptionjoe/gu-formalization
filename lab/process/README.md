@@ -7,6 +7,12 @@ updated_at: "2026-08-23"
 
 ## Latest conditional constructions (2026-11-04)
 
+- [K2548 report](k2548-compact-coupled-metric-detectors.json).
+- [K2549 report](k2549-uniform-nearcritical-stopping-bound.json).
+
+
+## Latest conditional constructions (2026-11-04)
+
 - [K2546 report](k2546-source-determined-metric-detectors.json).
 - [K2547 report](k2547-nearcritical-satellite-instability.json).
 

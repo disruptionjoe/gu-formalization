@@ -1,6 +1,12 @@
 
 ## Latest conditional constructions (2026-11-04)
 
+- [K2548 exact algebra and contrary controls](k2548_compact_coupled_metric_detectors_probe.py).
+- [K2549 exact algebra and contrary controls](k2549_uniform_nearcritical_stopping_bound_probe.py).
+
+
+## Latest conditional constructions (2026-11-04)
+
 - [K2546 exact filter, trace, Weyl and reconstruction controls](k2546_source_determined_metric_detectors_probe.py).
 - [K2547 exact insertion/cloud coefficients and original-law controls](k2547_nearcritical_satellite_instability_probe.py).
 
