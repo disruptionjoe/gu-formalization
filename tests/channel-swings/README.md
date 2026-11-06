@@ -2,6 +2,12 @@
 
 ## Latest conditional constructions (2026-11-06)
 
+- [K2600 full-metric compact-contact probe](k2600_full_metric_contact_regularity_probe.py).
+- [K2601 critical-resource and finite-bound probe](k2601_critical_stopping_resource_limit_probe.py).
+
+
+## Latest conditional constructions (2026-11-06)
+
 - [K2598 full-source and tensor projection probe](k2598_full_source_singularity_probe.py).
 - [K2599 corner and global support probe](k2599_joint_stopping_corner_probe.py).
 

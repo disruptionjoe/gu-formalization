@@ -7,6 +7,12 @@ updated_at: "2026-08-23"
 
 ## Latest conditional constructions (2026-11-06)
 
+- [K2600 report](k2600-full-metric-contact-regularity.json).
+- [K2601 report](k2601-critical-stopping-resource-limit.json).
+
+
+## Latest conditional constructions (2026-11-06)
+
 - [K2598 report](k2598-full-source-singularity.json).
 - [K2599 report](k2599-joint-stopping-corner.json).
 

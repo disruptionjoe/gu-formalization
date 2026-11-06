@@ -1,0 +1,66 @@
+{
+  "result": "K2600",
+  "checks": [
+    "actual_determinant_matches_saved_bank",
+    "actual_universal_adjoint_column",
+    "determinant_Y_degree_five",
+    "source_contact_Y_degree_five",
+    "source_lead_constant_in_A",
+    "actual_leading_contact_ratio",
+    "actual_adjoint_volume_lead",
+    "matrix_kappa_scaling",
+    "Einstein_column_kappa_scaling",
+    "general_kappa_ratio_exponent",
+    "full_metric_detector_B_order_twelve",
+    "detector_AA_principal_nonzero",
+    "detector_BB_principal_nonzero",
+    "conservation_A",
+    "conservation_B",
+    "annihilates_A_gradient",
+    "annihilates_B_gradient",
+    "noncharacteristic_source_witness",
+    "Lp_norm_lower_power",
+    "Lp_threshold",
+    "sup_lower_power",
+    "L2_lower_power",
+    "dual_H_three_halves_bounded",
+    "normalized_L2_signal_power",
+    "general_Sobolev_normalized_signal",
+    "critical_normalized_signal_power",
+    "fixed_detector_even_mollifier_second_order"
+  ],
+  "contrary_controls": [
+    "dropping_original_metric_shift_changes_signal",
+    "opposite_adjoint_sign_changes_signal",
+    "scalar_source_and_full_pressure_coefficients_distinct",
+    "characteristic_witness_fails",
+    "codimension_seven_not_total_fourteen",
+    "fixed_and_shrinking_test_not_same_limit",
+    "auxiliary_positive_norm_not_indefinite_contraction"
+  ],
+  "determinant_Y5_k1": "-2605746313310516251459584/22521658027326625",
+  "F_Y5_k1": "7412316633293468946137088/22521658027326625",
+  "contact_ratio": "-424853/(149354*kappa)",
+  "source_detector_B_orders": [
+    10,
+    12
+  ],
+  "scope": "Every full selected curved-product solution for nonzero compact conserved A pressure times interior B atom; local auxiliary component norms, no physical detector or native GU verdict",
+  "necessary_limits": "not local component Lp(A_fixed x B) for p>=7/5; not L2_A H^(-3/2)_B or ordinary H^(-3/2)_loc near a nonzero tested pressure trace",
+  "regularization_lower_bounds": {
+    "sup": "epsilon^-5",
+    "L2": "epsilon^-3/2",
+    "Lp": "epsilon^(7/p-5)"
+  },
+  "normalized_detector": "compact conserved L2-unit detector sequence has atomic signal of order epsilon^-3/2, annihilating every homogeneous full-system response and infinitesimal diffeomorphism",
+  "Sobolev_normalized_detector": "H^s-unit family has signal of order epsilon^(s-3/2), fixed s>=0; no physical noise or sensor assertion",
+  "critical_fixed_patch": "Smooth-source L^(7/5), H^(-3/2) and L2_A H^(-3/2)_B cutoff norms diverge by weak compactness and atomic contact obstruction; no rate",
+  "fixed_detector": "smooth centered B mollification changes each fixed source-contact observation by O(epsilon^2); general mollifier O(epsilon), constants detector-dependent",
+  "evidence_kind": "Actual six-row polynomial determinant/cofactor/conservation identities and exact scaling controls; universal duality, shrinking-test, weak Sobolev and mollifier proofs in note",
+  "provenance": {
+    "explorations/conditional-build/k2548-compact-coupled-metric-detectors-2026-11-04.md": "99bba231bf1c046e600674f62578cc16dcbeea5644ba323a02eb66bb69c5ac8c",
+    "lab/process/k2554-analytic-source-response.json": "6baae61e9e3deb87efa3d29db60994378d7278fb44194e20387710737500a8fa",
+    "explorations/conditional-build/k2598-full-source-singularity-2026-11-06.md": "4525e587573963730d67a480f5453927b6098d8c0e305ae5fbf82909e15d30cd",
+    "explorations/conditional-build/k2594-reciprocal-distributional-response-2026-11-06.md": "0c56fa58e69dc7c6d2b57403fa45978c487535c9764cfa4d56bc5ecf7878c3b3"
+  }
+}

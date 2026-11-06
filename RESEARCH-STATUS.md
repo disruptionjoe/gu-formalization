@@ -6,6 +6,18 @@ updated_at: "2026-10-26"
 canon_sweep_at: "2026-07-25"
 ---
 
+## K2600--K2601: Full metric contact bounds and sharp critical resource limit (2026-11-06)
+
+K2600 computes the universal full-metric compact-contact coefficient -424853/(149354 kappa), eliminating TT and preparation cancellation for the actual conserved compact-pressure source. Every full response to a B atom fails local component Lp for p>=7/5 and H^-3/2, with smooth-source strong-norm blowup and divergent fixed-patch critical norms. Hs-unit conserved detector signals scale as epsilon^(s-3/2); centered smoothing converges at O(epsilon^2) for each fixed detector. K2601 proves the sharp all-policy critical stopping resource law: at lambda=2/(3+S), the gap is 3lambda S^2/(8M)+O(M^-3/2). It also proves sharp eta^(2/3) success stability and executes universal finite lower/feasible upper bounds at two scores and three resources, plus an actual resource-five positive-action counterexample to finite chord optimality. No sufficient metric regularity, physical detector, exact finite stopping optimizer or native GU recovery. Source, ledger0.263 and canon unchanged.
+
+- [K2600](explorations/conditional-build/k2600-full-metric-contact-regularity-2026-11-06.md).
+- [K2601](explorations/conditional-build/k2601-critical-stopping-resource-limit-2026-11-06.md).
+
+Independent read-only field specialists and a distinct integrated hostile reviewer returned final substantive findings[]. K2600 passes27 exact/supporting checks and7 contrary controls; K2601 passes45 and5. Actual cofactor/conservation identities, exact residual factors and rational finite consumers are distinct from the written compactness, Sobolev, occupation and asymptotic proofs. Review repaired the dual-norm convention and replaced two trivial controls with an actual policy/resource counterexample. No external-expert, proof-assistant or physical certification.
+
+Earlier sections preserve historical snapshots.
+
+
 ## K2598--K2599: Full-B singular response and joint stopping corner (2026-11-06)
 
 K2598 proves necessary full-seven-dimensional atomic-source limits: the reconstructed scalar coefficient is not locally Lp for p>=7/5 or H^-3/2, and smoothing forces sup and L2 blowup at least epsilon^-5 and epsilon^-3/2. Actual six-cofactor computation finds a fixed-mode mixed metric jump, removed by an explicit distributional A-gradient representative; a two-component scalar-source tensor projection preserves the full-B obstruction. Full compact-pressure TT and physical gauge/readout remain separate. K2599 resolves the uniform joint score/multiplier corner, exact second-activation curve and its C1/non-C2 value transition, plus the joint moving endpoint. A structural global support proof establishes zero/one-active/both-active topology throughout S=.49 lambda[.5385,.5395]; exact policies at.5390/.5391 enclose budget3 and whole candidate budget intervals below1e-50. No all-score/count or physical-probability claim. Source, ledger0.263 and canon unchanged.

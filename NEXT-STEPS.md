@@ -7,6 +7,11 @@ updated_at: "2026-10-26"
 
 ## Current follow-through — 2026-11-06
 
+Reuse K2600 full-solution contact regularity, fixed-patch critical divergence and Hs-normalized detector conditioning; the general compact-pressure TT cancellation loophole is closed for these necessary bounds. Quantitative critical divergence rates need cross-scale detector control, and source-disjoint or physical readout still needs an independently justified observation/domain bridge. Reuse K2601 sharp critical resource coefficient, convergence rate, success stability and finite bounds. A simultaneous multiplier/resource limit above critical needs new uniform positive-action/path concentration and global-support control; fixed-count bifurcations do not supply it. Compare those constructions with actual native displacement or empirical calibration; retain old-preparation boundary defects as a distinct alternative. No source/ledger/canon change.
+
+
+## Current follow-through — 2026-11-06
+
 Reuse K2598 full-B scalar necessary Lp/Sobolev ceilings, quantitative smoothing lower bounds, mixed representative repair and explicit scalar-source tensor projection. A general compact-pressure TT sum, physical gauge/domain and actual detector remain independent: do not infer pointwise physical metric or an all-mode sufficient regularity theorem. Reuse K2599 uniform joint corner, exact second activation, moving endpoint, explicit S=.49 multiplier topology and certified whole candidate-budget intervals. Large-count uniform estimates and arbitrary-score global topology need genuinely new control, not another fixed-corner slice. Compare specified smooth conserved detector sensitivity/native displacement with that uniform-count problem; old-preparation boundary defect and empirical calibration remain alternatives. No source/ledger/canon change.
 
 

@@ -7,6 +7,12 @@ updated_at: "2026-08-21"
 
 ## Latest conditional constructions (2026-11-06)
 
+- [K2600 full metric regularity and detector conditioning](conditional-build/k2600-full-metric-contact-regularity-2026-11-06.md).
+- [K2601 critical resource limit and success stability](conditional-build/k2601-critical-stopping-resource-limit-2026-11-06.md).
+
+
+## Latest conditional constructions (2026-11-06)
+
 - [K2598 full-source bounds and tensor projection](conditional-build/k2598-full-source-singularity-2026-11-06.md).
 - [K2599 joint stopping corner and finite topology](conditional-build/k2599-joint-stopping-corner-2026-11-06.md).
 
