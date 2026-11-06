@@ -2,6 +2,12 @@
 
 ## Latest conditional constructions (2026-11-06)
 
+- [K2596 full-coefficient and cusp probe](k2596_radial_response_singularity_probe.py).
+- [K2597 bifurcation and exact consumer probe](k2597_stopping_threshold_bifurcation_probe.py).
+
+
+## Latest conditional constructions (2026-11-06)
+
 - [K2594 kernel and measure probe](k2594_reciprocal_distributional_response_probe.py).
 - [K2595 parameter-stability probe](k2595_stopping_parameter_stability_probe.py).
 

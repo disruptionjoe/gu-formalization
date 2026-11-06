@@ -7,6 +7,12 @@ updated_at: "2026-08-21"
 
 ## Latest conditional constructions (2026-11-06)
 
+- [K2596 radial cusp and finite-mode measure pairing](conditional-build/k2596-radial-response-singularity-2026-11-06.md).
+- [K2597 local stopping bifurcation](conditional-build/k2597-stopping-threshold-bifurcation-2026-11-06.md).
+
+
+## Latest conditional constructions (2026-11-06)
+
 - [K2594 reciprocal measure response](conditional-build/k2594-reciprocal-distributional-response-2026-11-06.md).
 - [K2595 uniform stopping topology](conditional-build/k2595-stopping-parameter-stability-2026-11-06.md).
 

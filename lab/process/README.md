@@ -7,6 +7,12 @@ updated_at: "2026-08-23"
 
 ## Latest conditional constructions (2026-11-06)
 
+- [K2596 report](k2596-radial-response-singularity.json).
+- [K2597 report](k2597-stopping-threshold-bifurcation.json).
+
+
+## Latest conditional constructions (2026-11-06)
+
 - [K2594 report](k2594-reciprocal-distributional-response.json).
 - [K2595 report](k2595-stopping-parameter-stability.json).
 

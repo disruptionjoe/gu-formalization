@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: c9bcd2edbb1fe3671f4530294b626354cf5e1d4b
+revision_basis: 20fc3665c6690b68544b0b8a26fec29295416384
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -118,6 +118,18 @@ reviewed_prediction_interfaces_2026_10_27:
 current_result:
   status: conditional_research_front
   summary: >-
+    K2596 derives the nonzero preparation-invariant radial cusp of the full scalar
+    pressure-readable metric coefficient at each fixed scalar and finite angular mode. It proves
+    sharp local H^s regularity exactly for s<3/2, reciprocal two-finite-radial-measure pairing
+    on the repaired preparation, and nonzero first-order diagonal smoothing errors. This is not
+    full tensor or all-angular point regularity. K2597 resolves the count-two stopping
+    bifurcation for each fixed score0<S<=1/2: globally supported positive first action and
+    unequal scores emerge linearly; price shift and fixed-budget value gain are quadratic; the
+    value is C1 but not C2 at the threshold. A separately certified S=.5/lambda.54997/budget5
+    consumer improves the old chord by more4.62e-12 with enclosure below1e-50. No uniform
+    score-neighborhood, physical probability or native GU recovery. Source, ledger0.263 and
+    canon unchanged.
+    Historical predecessor (not live):
     K2594 quantifies the new reciprocal pressure preparation for finite interior B measures:
     conservative full-field H^-61 bounds, point/mollifier and transport H^-62 bounds, and H64
     conserved detector control. Source-variable kernel derivatives handle the differentiated
@@ -18705,6 +18717,10 @@ current_result:
     coefficientwise A,C packet, global domain, BFV and positive
     cohomology/superposition now route to K129.
   evidence:
+  - explorations/conditional-build/k2596-radial-response-singularity-2026-11-06.md
+  - explorations/conditional-build/k2597-stopping-threshold-bifurcation-2026-11-06.md
+  - lab/process/k2596-radial-response-singularity.json
+  - lab/process/k2597-stopping-threshold-bifurcation.json
   - explorations/conditional-build/k2594-reciprocal-distributional-response-2026-11-06.md
   - explorations/conditional-build/k2595-stopping-parameter-stability-2026-11-06.md
   - lab/process/k2594-reciprocal-distributional-response.json
@@ -21350,6 +21366,9 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  Which all-mode or full-field singularity and boundary-readout condition survives beyond the
+  modal cusp, and does the released local stopping bifurcation extend to higher counts?
+  Historical predecessor (not live):
   Which independently justified boundary/readout or sharper singularity test constrains the
   reciprocal measure response, and how does the stopping optimum approach the neighboring count
   threshold?
@@ -25871,6 +25890,14 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  Reuse K2596 exact full scalar coefficient, invariant radial jump, sharp modal Hs threshold,
+  two-measure form and diagonal smoothing errors; full tensor/all-angular singularity and
+  old-preparation boundary defect remain independent. Reuse K2597 score-general local count-two
+  optimizer, price/value expansions and separately certified .54997 consumer. Compare the
+  released higher-count generalization with physical boundary/readout and native displacement
+  input construction; do not requeue completed modal or count-two results. Source/ledger/canon
+  debts persist.
+  Historical predecessor (not live):
   Reuse K2594 finite-measure extension, quantified differentiated-source kernel estimate,
   H^-61/H^-62 fields, H64 detector transport and smooth-versus-measure reciprocity on the new
   preparation. Sharp local singularities, two-singular-source pairings, actual old-domain defect

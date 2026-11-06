@@ -5,6 +5,18 @@ doc_type: verification-map
 updated_at: "2026-10-27"
 ---
 
+## K2596--K2597: Radial response cusp and stopping threshold bifurcation (2026-11-06)
+
+K2596 derives the nonzero preparation-invariant radial cusp of the full scalar pressure-readable metric coefficient at each fixed scalar and finite angular mode. It proves sharp local H^s regularity exactly for s<3/2, reciprocal two-finite-radial-measure pairing on the repaired preparation, and nonzero first-order diagonal smoothing errors. This is not full tensor or all-angular point regularity. K2597 resolves the count-two stopping bifurcation for each fixed score0<S<=1/2: globally supported positive first action and unequal scores emerge linearly; price shift and fixed-budget value gain are quadratic; the value is C1 but not C2 at the threshold. A separately certified S=.5/lambda.54997/budget5 consumer improves the old chord by more4.62e-12 with enclosure below1e-50. No uniform score-neighborhood, physical probability or native GU recovery. Source, ledger0.263 and canon unchanged.
+
+- [K2596](explorations/conditional-build/k2596-radial-response-singularity-2026-11-06.md).
+- [K2597](explorations/conditional-build/k2597-stopping-threshold-bifurcation-2026-11-06.md).
+
+Independent field specialists and a distinct integrated hostile reviewer returned final substantive findings[]. K2596 passes19 supporting checks and7 contrary controls; K2597 passes43 and7. Actual matrix, density, moment, Hessian and rational support calculations are distinguished from written regular-ODE/Fourier and compactness/implicit-function proofs. Fixed rational policies remove runtime optimizer dependence. No external-expert, proof-assistant or physical certification.
+
+Earlier sections preserve historical snapshots.
+
+
 ## K2594--K2595: Reciprocal measure response and uniform stopping topology (2026-11-06)
 
 K2594 quantifies the new reciprocal pressure preparation for finite interior B measures: conservative full-field H^-61 bounds, point/mollifier and transport H^-62 bounds, and H64 conserved detector control. Source-variable kernel derivatives handle the differentiated point input without misusing measure estimates; full equations and smooth-versus-measure reciprocity pass through the limit. No two-distribution pairing or physical boundary selection is inferred. K2595 extends the complete S=1/2 stopping frontier uniformly to lambda in [0.54999,0.55001], with unique smooth crossings, exact leakage sensitivity, an affine pure budget399/100 consumer enclosed below1e-40 and actual budget5 transport bounds. Arbitrary score/multiplier topology and physical probability remain open. Source, ledger0.263 and canon unchanged.

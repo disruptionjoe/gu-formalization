@@ -1,0 +1,48 @@
+{
+  "result": "K2596",
+  "checks": [
+    "actual_P_Y_degree",
+    "actual_P_total_degree",
+    "actual_d_Y_degree",
+    "actual_d_leading_coefficient_constant",
+    "actual_cofactor_leading_ratio",
+    "actual_full_metric_coefficient",
+    "all_nonzero_kappa_scaling",
+    "unique_cancellation_location",
+    "cancellation_below_actual_gap",
+    "tenth_order_density_jump",
+    "cofactor_cusp_jump",
+    "actual_density_conversion",
+    "uniform_symmetric_mollifier_self_error",
+    "double_regularized_diagonal_error",
+    "double_cusp_regularization_limit",
+    "flat_cusp_uniform_error",
+    "flat_cusp_L2_error_squared",
+    "flat_cusp_derivative_L2_error_squared",
+    "critical_sobolev_shell"
+  ],
+  "contrary_controls": [
+    "cofactor_alone_wrong_coefficient",
+    "full_response_not_zero",
+    "first_derivative_continuity_false",
+    "density_omission_changes_source",
+    "uniform_source_density_not_bare_coordinate",
+    "symmetric_mollifier_not_second_order",
+    "single_and_double_regularization_distinct"
+  ],
+  "cofactor_leading_ratio_k1": "-5*(4059182926656*X + 197338925)/2889753917546496",
+  "full_scalar_transfer_1_over_Y": "-13*(1385486784*X + 73745*k**2)/(6624148608*k)",
+  "cancellation_scaled_sigma": "73745/1385486784",
+  "actual_spectral_floor": 3,
+  "jump": "C_kappa(-sigma)/(rho(x0)*a2(x0)) = -C_kappa(-sigma)*K^(5/2)/J(x0)^2",
+  "sharp_fixed_mode_Hs": "s<3/2, not s=3/2",
+  "single_mollifier_leading": "j epsilon/4",
+  "double_mollifier_leading": "j epsilon/3",
+  "evidence_kind": "actual exact six-row cofactor and full metric cancellation computation; exact density/jump and independent mollifier fixtures; regular ODE/Fourier/kernel proof in note",
+  "ceiling": "one scalar A mode and finite B angular modes, interior B radial atoms and scalar pressure-readable f kernel only; not full point metric, all-mode two-distribution pairing or physical boundary selection",
+  "provenance": {
+    "lab/process/k2554-analytic-source-response.json": "6baae61e9e3deb87efa3d29db60994378d7278fb44194e20387710737500a8fa",
+    "lab/process/k2592-scalar-tensor-boundary-pairing.json": "a66db4355f6dfb33ef85e66c1418bb71b5112c6240b13743e939cb8addac8921",
+    "explorations/conditional-build/k2594-reciprocal-distributional-response-2026-11-06.md": "0c56fa58e69dc7c6d2b57403fa45978c487535c9764cfa4d56bc5ecf7878c3b3"
+  }
+}
