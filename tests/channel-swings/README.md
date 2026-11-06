@@ -1,5 +1,11 @@
 
 
+## Latest conditional constructions (2026-11-06)
+
+- [K2590 tensor-adjoint probe](k2590_boundary_aware_response_adjoint_probe.py).
+- [K2591 mixed-optimizer probe](k2591_multistage_stopping_support_probe.py).
+
+
 ## Latest conditional constructions (2026-11-05)
 
 - [K2588 real-preparation probe](k2588_real_boundary_response_probe.py).

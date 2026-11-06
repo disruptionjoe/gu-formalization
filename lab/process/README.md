@@ -5,6 +5,12 @@ doc_type: overview
 updated_at: "2026-08-23"
 ---
 
+## Latest conditional constructions (2026-11-06)
+
+- [K2590 report](k2590-boundary-aware-response-adjoint.json).
+- [K2591 report](k2591-multistage-stopping-support.json).
+
+
 ## Latest conditional constructions (2026-11-05)
 
 - [K2588 report](k2588-real-boundary-response.json).

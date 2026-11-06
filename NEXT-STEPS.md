@@ -5,7 +5,10 @@ doc_type: roadmap
 updated_at: "2026-10-26"
 ---
 
-> **2026-11-05: REAL PREPARATION AND POSITIVE-ACTION SUPPORT.**
+> **2026-11-06: TENSOR RECIPROCITY AND EXACT MIXED OPTIMIZER.**
+> Reuse K2590 actual tensor Gram and full TT reciprocity, plus the complete compact-detector adjoint and original-pressure sensitivities. Next test scalar/TT cross-boundary pairing in the same full preparation, or impose an independently justified physical boundary/readout; scalar symmetry alone remains insufficient. Reuse K2591 exact implicit mixed one/two-stage frontier at S=.5 lambda=.55, the unique price crossing and rigorous budget5/2,3,7/2 values. Next compare parameter-uniform transition support or next count-transition construction with the full source-response boundary test. Do not requeue budget3 optimum, TT reciprocity or scalar trace-adjoint construction as missing. Native displacement, physical positivity and calibrated observation remain separate.
+
+> **Historical predecessor: 2026-11-05: REAL PREPARATION AND POSITIVE-ACTION SUPPORT.**
 > Reuse K2588 real symmetric scalar preparation, closed per-mode domain and real coupled point-response averaging; mathematical real preparation is no longer absent. Physical selection, full tensor reciprocity, causality and native displacement remain separate. Reuse K2589 all-multiplier high-price one-stage theorem and sharp uniform Delta1 coefficient, exact supported budget segment and certified lambda.55 budget3 bracket. Next compare low-price multistage support on the failed chords against a source-specific physical preparation/readout constraint. Do not call the bracket an exact post2 optimizer or the scalar domain a physical positive-energy realization; preserve K2587 sharp zero-action thresholds and K2561 continuum value.
 
 > **Historical predecessor: 2026-11-05: FIXED-ANNULUS POINT RESPONSE AND SHARP STOPPING THRESHOLDS.**

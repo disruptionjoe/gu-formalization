@@ -1,0 +1,69 @@
+{
+  "result": "K2590",
+  "checks": [
+    "curved_derivative_Gram_coefficient",
+    "curved_cross_Gram_coefficient",
+    "curved_zeroth_Gram_coefficient",
+    "radial_density_derivative",
+    "actual_Gram_weight",
+    "curved_Gram_potential",
+    "TT_radial_divergence_weight",
+    "actual_tube_positive_cross_coefficient",
+    "weighted_green_identity",
+    "general_compact_detector_transpose",
+    "regular_center_detector_cancellation",
+    "regular_center_source_adjoint",
+    "trace_E_forcing",
+    "trace_Q_forcing",
+    "trace_original_metric",
+    "trace_nonzero_leading_coefficient",
+    "Schur_ratio",
+    "zero_trace_E_manufactured_source",
+    "zero_trace_Q_manufactured_source",
+    "flat_control_Dirichlet_inverse",
+    "flat_control_homogeneous_radial_traces",
+    "flat_control_trace_lifted_equation",
+    "flat_control_full_transpose",
+    "original_A_sensitivity",
+    "original_P_sensitivity",
+    "trace_elimination_sign",
+    "full_first_order_adjoint_identity"
+  ],
+  "contrary_controls": [
+    "Gram_not_identity",
+    "omit_tensor_multiplicities",
+    "omit_cross_boundary_term",
+    "flat_potential_not_curved",
+    "detector_wrong_radial_density",
+    "omit_E_channel_fails_forcing",
+    "wrong_original_metric_sign",
+    "confuse_overlap_Q_root",
+    "omit_trace_functional_changes_pairing",
+    "scalar_L2_overlap_not_orthogonal",
+    "drop_source_half_factors",
+    "weight_conversion_is_not_one"
+  ],
+  "evidence_kind": "actual curved tensor Gram and symbolic differential identities; actual polynomial source consumers; separately labeled flat-interval transpose control",
+  "Gram": {
+    "derivative": "3*C**2*S**2/4",
+    "cross": "7*C*S*(-3*K*S**2 + 1)/4",
+    "zeroth": "147*K**2*S**4/4 - 49*K*S**2/2 + 21/4",
+    "potential": "63*K*C^2*S^2/4",
+    "operator": "3/4*(-D5+21K)"
+  },
+  "trace_response": {
+    "rE_over_c": "-893/848",
+    "leading_h": "429/(106*kappa)"
+  },
+  "flat_control": {
+    "actual_pairing": "-2/pi",
+    "bulk_only": "-2/(pi*(1 + pi**2))",
+    "endpoint_correction": "-2*pi/(1 + pi**2)"
+  },
+  "ceiling": "TT full-response reciprocity in reduced actual tensor pairing; full compact-detector adjoint, not full source-module reciprocity or physical selection",
+  "provenance": {
+    "explorations/conditional-build/k2588-real-boundary-response-2026-11-05.md": "55a1747739a4ef11bcda9e3812e5df39d1d21f66e439416421d5ebc4d7bbb8f9",
+    "explorations/conditional-build/k2582-affine-radial-boundary-response-2026-11-05.md": "39951ec5ca450aca30129137ec793893749e959808472c35bb302cf5609d41e0",
+    "explorations/conditional-build/k2552-localized-source-domain-2026-11-04.md": "f45ce693d63d8e438af1564575edf4898764130efe2210beb6cb1dd0ed638cc3"
+  }
+}

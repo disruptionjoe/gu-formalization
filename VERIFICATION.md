@@ -5,6 +5,18 @@ doc_type: verification-map
 updated_at: "2026-10-27"
 ---
 
+## K2590--K2591: Tensor reciprocity and exact mixed stopping frontier (2026-11-06)
+
+K2590 computes the actual radial-TT tensor Gram, proves orthogonality of the tagged trace split in that tensor pairing, and establishes full original-metric TT response reciprocity on the real preparation. It executes nonzero trace/zero-trace source consumers and derives the complete compact-detector adjoint with contact, cofactor, density and endpoint terms, then eliminates the splitter to give original-pressure sensitivities. Full scalar-plus-TT reciprocity and physical selection remain open. K2591 solves the failed post2 mixed segment at S=1/2 and lambda=11/20: all counts beyond two are excluded in a proved price window; the unique optimal two-stage policy has one positive action and unequal scores. A unique crossing with the one-stage optimizer gives the exact resource frontier between their resources, including budgets5/2,3,7/2. Exact convex support and feasible mixtures enclose budget3 near0.83939516168723973943494 to width below1e-24. General multipliers and further transitions remain open. Source, ledger0.263 and canon unchanged.
+
+- [K2590](explorations/conditional-build/k2590-boundary-aware-response-adjoint-2026-11-06.md).
+- [K2591](explorations/conditional-build/k2591-multistage-stopping-support-2026-11-06.md).
+
+Independent read-only field specialists and a distinct integrated hostile reviewer found no remaining substantive defects after proof and control repairs. K2590 passes27 exact supporting checks and12 contrary controls; K2591 passes34 and7. Universal domain/adjoint and all-policy arguments remain distinct from symbolic identities, rational support certificates and finite consumers. No external-expert, proof-assistant, remote-CI or physical certification.
+
+Earlier sections preserve historical snapshots.
+
+
 ## K2588--K2589: Real symmetric preparation and positive-action stopping support (2026-11-05)
 
 K2588 constructs a real symmetric fixed-annulus cofactor inverse by averaging root orders and conjugate impedances. Its inverse on its range is a closed self-adjoint scalar realization per mode; full coupled real point response and weak regularization survive synchronized averaging. Scalar reciprocity is proved, not full tensor self-adjointness or physical selection. K2589 proves global one-stage-or-abort optimality for every positive multiplier when trial price k>=lambda Delta1(S), with sharp multiplier-uniform price coefficient. It solves a new positive-action budget segment beyond Lambda, executes half/quarter-score consumers and a certified endpoint, then bounds the unresolved lambda.55 budget3 value between approximately.839374194 and.839424227 with an actual improved policy. Failed post2 exact optima remain open. Source, ledger0.263 and canon unchanged.

@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: d83427c25c6deaecb33563b4dde4a55d7d1266d1
+revision_basis: 8078beeeed2ab722dc5aafa81e27b4be060a75f3
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -118,6 +118,19 @@ reviewed_prediction_interfaces_2026_10_27:
 current_result:
   status: conditional_research_front
   summary: >-
+    K2590 computes the actual radial-TT tensor Gram, proves orthogonality of the tagged trace
+    split in that tensor pairing, and establishes full original-metric TT response reciprocity
+    on the real preparation. It executes nonzero trace/zero-trace source consumers and derives
+    the complete compact-detector adjoint with contact, cofactor, density and endpoint terms,
+    then eliminates the splitter to give original-pressure sensitivities. Full scalar-plus-TT
+    reciprocity and physical selection remain open. K2591 solves the failed post2 mixed segment
+    at S=1/2 and lambda=11/20: all counts beyond two are excluded in a proved price window; the
+    unique optimal two-stage policy has one positive action and unequal scores. A unique
+    crossing with the one-stage optimizer gives the exact resource frontier between their
+    resources, including budgets5/2,3,7/2. Exact convex support and feasible mixtures enclose
+    budget3 near0.83939516168723973943494 to width below1e-24. General multipliers and further
+    transitions remain open. Source, ledger0.263 and canon unchanged.
+    Historical predecessor (not live):
     K2588 constructs a real symmetric fixed-annulus cofactor inverse by averaging root orders
     and conjugate impedances. Its inverse on its range is a closed self-adjoint scalar
     realization per mode; full coupled real point response and weak regularization survive
@@ -18668,6 +18681,10 @@ current_result:
     coefficientwise A,C packet, global domain, BFV and positive
     cohomology/superposition now route to K129.
   evidence:
+  - explorations/conditional-build/k2590-boundary-aware-response-adjoint-2026-11-06.md
+  - explorations/conditional-build/k2591-multistage-stopping-support-2026-11-06.md
+  - lab/process/k2590-boundary-aware-response-adjoint.json
+  - lab/process/k2591-multistage-stopping-support.json
   - explorations/conditional-build/k2588-real-boundary-response-2026-11-05.md
   - explorations/conditional-build/k2589-positive-action-support-2026-11-05.md
   - lab/process/k2588-real-boundary-response.json
@@ -21301,6 +21318,10 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  Which matched boundary prescription yields reciprocity for the complete pressure-source
+  module, and how does the now-exact positive-action mixed stopping segment extend across
+  multiplier and count transitions?
+  Historical predecessor (not live):
   Which physically justified boundary and conserved observation selects among the now-real
   mathematical preparations, and which low-price multistage optimizer closes the certified post2
   stopping gap?
@@ -25810,6 +25831,16 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  Reuse K2590 actual tensor Gram and full TT reciprocity, plus the complete compact-detector
+  adjoint and original-pressure sensitivities. Next test scalar/TT cross-boundary pairing in the
+  same full preparation, or impose an independently justified physical boundary/readout; scalar
+  symmetry alone remains insufficient. Reuse K2591 exact implicit mixed one/two-stage frontier
+  at S=.5 lambda=.55, the unique price crossing and rigorous budget5/2,3,7/2 values. Next
+  compare parameter-uniform transition support or next count-transition construction with the
+  full source-response boundary test. Do not requeue budget3 optimum, TT reciprocity or scalar
+  trace-adjoint construction as missing. Native displacement, physical positivity and calibrated
+  observation remain separate.
+  Historical predecessor (not live):
   Reuse K2588 real symmetric scalar preparation, closed per-mode domain and real coupled
   point-response averaging; mathematical real preparation is no longer absent. Physical
   selection, full tensor reciprocity, causality and native displacement remain separate. Reuse

@@ -5,6 +5,12 @@ doc_type: overview
 updated_at: "2026-08-21"
 ---
 
+## Latest conditional constructions (2026-11-06)
+
+- [K2590 tensor reciprocity and source adjoint](conditional-build/k2590-boundary-aware-response-adjoint-2026-11-06.md).
+- [K2591 exact mixed stopping frontier](conditional-build/k2591-multistage-stopping-support-2026-11-06.md).
+
+
 ## Latest conditional constructions (2026-11-05)
 
 - [K2588 real symmetric preparation](conditional-build/k2588-real-boundary-response-2026-11-05.md).
