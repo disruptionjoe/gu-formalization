@@ -2,6 +2,12 @@
 
 ## Latest conditional constructions (2026-11-06)
 
+- [K2592 boundary-repair probe](k2592_scalar_tensor_boundary_pairing_probe.py).
+- [K2593 all-budget frontier probe](k2593_countwise_convex_stopping_probe.py).
+
+
+## Latest conditional constructions (2026-11-06)
+
 - [K2590 tensor-adjoint probe](k2590_boundary_aware_response_adjoint_probe.py).
 - [K2591 mixed-optimizer probe](k2591_multistage_stopping_support_probe.py).
 

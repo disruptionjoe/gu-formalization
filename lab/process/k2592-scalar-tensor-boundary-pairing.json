@@ -1,0 +1,147 @@
+{
+  "result": "K2592",
+  "checks": [
+    "full_matrix_homogeneous_scaling",
+    "source_column_scaling",
+    "actual_numerator_Y_degree",
+    "actual_numerator_total_degree",
+    "actual_determinant_Y_degree",
+    "actual_determinant_leading_constant",
+    "whole_polynomial_determinant_-3",
+    "whole_polynomial_Cramer_-3",
+    "full_six_row_source_(-3, 0)",
+    "f_cofactor_entry_(-3, 0)",
+    "full_six_row_source_(-3, 2)",
+    "f_cofactor_entry_(-3, 2)",
+    "whole_polynomial_determinant_-4",
+    "whole_polynomial_Cramer_-4",
+    "full_six_row_source_(-4, 0)",
+    "f_cofactor_entry_(-4, 0)",
+    "full_six_row_source_(-4, 2)",
+    "f_cofactor_entry_(-4, 2)",
+    "actual_TT_trace",
+    "actual_TT_divergence",
+    "cross_Gram_is_total_derivative",
+    "pressure_trace_half_factors",
+    "pressure_conservation_from_integral",
+    "weighted_Green_flux_orientation",
+    "Liouville_flux_conversion",
+    "actual_Bezoutian_is_polynomial",
+    "endpoint_order_bound",
+    "Bezoutian_symmetry",
+    "actual_Bezoutian_factorization",
+    "flat_control_actual_boundary_defect",
+    "manufactured_E_scalar_equation",
+    "manufactured_d_scalar_equation",
+    "manufactured_nonzero_trace_leading_jet",
+    "resultant_nonzero",
+    "linear_resultant_root_above_radial_range_0",
+    "linear_resultant_root_above_radial_range_1",
+    "linear_resultant_root_above_radial_range_2",
+    "cubic_derivative_positive_on_negative_axis_3",
+    "first_cubic_no_radial_root",
+    "cubic_derivative_positive_on_negative_axis_4",
+    "second_cubic_root_between_minus28_and_minus27",
+    "actual_radial_weight_comparison",
+    "first_actual_eigenvalue_below10",
+    "second_actual_eigenvalue_above35",
+    "actual_Bezout_repair_-9",
+    "repair_residue_half_cancellation_-9",
+    "repair_all_six_homogeneous_rows_-9",
+    "actual_Bezout_repair_-40",
+    "repair_residue_half_cancellation_-40",
+    "repair_all_six_homogeneous_rows_-40"
+  ],
+  "contrary_controls": [
+    "drop_tensor_multiplicities_breaks_cross_Gram",
+    "cross_boundary_not_identically_zero",
+    "wrong_pressure_integral_sign",
+    "omit_source_halves_changes_trace",
+    "actual_Bezoutian_not_zero",
+    "scalar_symmetry_does_not_imply_commutation",
+    "flat_control_omit_endpoint_fails",
+    "omit_half_does_not_symmetrize_-9",
+    "omit_half_does_not_symmetrize_-40"
+  ],
+  "evidence_kind": "actual curved cross Gram, full scalar matrix/Cramer polynomials, universal Bezoutian identity and pressure reconstruction; flat boundary example explicitly a control",
+  "cofactor_Y_degree": 4,
+  "determinant_Y_degree": 5,
+  "endpoint_jet_order": 9,
+  "fixed_mode_trace_dimension_bound": 20,
+  "homogeneous_defect_rank_bound": 10,
+  "cofactor_fixtures": [
+    {
+      "X": -3,
+      "f_coefficients": [
+        "-10980550430510402785472/4504331605465325",
+        "50707319712589200914628329/1585524725123794400",
+        "-272972527973497786947464764320342447883/1746541180787780340966496665600",
+        "305527113218850273549151309997123951049416322379/905161482236672690956791076139669913600",
+        "-16914611410393243379527805999622477121019626986289/62182465230429070069570282360515487334400"
+      ]
+    },
+    {
+      "X": -4,
+      "f_coefficients": [
+        "-14640793222106748821696/4504331605465325",
+        "17644854078310421310343043/317104945024758880",
+        "-621454713114400886590038321737837090251/1746541180787780340966496665600",
+        "912189921720664050832836707595096261891932384971/905161482236672690956791076139669913600",
+        "-6635036950918506768102451781205487330289051899111/6218246523042907006957028236051548733440"
+      ]
+    }
+  ],
+  "resultant_factorization": "-55850450929*X**3*(3624192*X + 245)**4*(39953092608*X + 611557655)*(115477741462089913860096*X**3 - 129177230786889901634304*X**2 + 4695605310234060958593*X + 103146450706524329110)*(825758752855751423013542710880363536738659980290377646080000*X**3 - 217011059852567633631058836487116937474282161932248045589332070400*X**2 + 14250307278499597489862324093863788455810295354642811227775748230672688*X + 391738308802982309734173497966067973893941259445873366944953540838991043)**2/246175057213768900672848840397602765530975227954556685997490330340658678951204451337415744419717979842241844720448416923655889905554524805642478869147145781984414960961949938671943680000000000",
+  "resultant_root_exclusions": [
+    {
+      "degree": 1,
+      "root": "-611557655/39953092608",
+      "multiplicity": 1
+    },
+    {
+      "degree": 1,
+      "root": "0",
+      "multiplicity": 3
+    },
+    {
+      "degree": 1,
+      "root": "-245/3624192",
+      "multiplicity": 4
+    },
+    {
+      "degree": 3,
+      "radial_range": "none below -3",
+      "multiplicity": 1
+    },
+    {
+      "degree": 3,
+      "negative_root_interval": [
+        "-28",
+        "-27"
+      ],
+      "multiplicity": 2
+    }
+  ],
+  "repair_fixtures": [
+    {
+      "X": -9,
+      "A_degree": 4,
+      "B_degree": 3,
+      "Bezout_identity": "A*P+B*d=1"
+    },
+    {
+      "X": -40,
+      "A_degree": 4,
+      "B_degree": 3,
+      "Bezout_identity": "A*P+B*d=1"
+    }
+  ],
+  "flat_control_defect": "-271",
+  "ceiling": "exact old-preparation boundary criterion and reciprocal compact-range sources; new preparation gives full smooth pressure reciprocity; old general reciprocity, measure estimates and physical selection remain open",
+  "provenance": {
+    "explorations/conditional-build/k2590-boundary-aware-response-adjoint-2026-11-06.md": "10ece8dd6f2ef8b09346ba97ccca27952690d4ed508d275ff700346110be6805",
+    "explorations/conditional-build/k2588-real-boundary-response-2026-11-05.md": "55a1747739a4ef11bcda9e3812e5df39d1d21f66e439416421d5ebc4d7bbb8f9",
+    "explorations/conditional-build/k2552-localized-source-domain-2026-11-04.md": "f45ce693d63d8e438af1564575edf4898764130efe2210beb6cb1dd0ed638cc3",
+    "lab/process/k2554-analytic-source-response.json": "6baae61e9e3deb87efa3d29db60994378d7278fb44194e20387710737500a8fa"
+  }
+}

@@ -7,6 +7,12 @@ updated_at: "2026-08-23"
 
 ## Latest conditional constructions (2026-11-06)
 
+- [K2592 report](k2592-scalar-tensor-boundary-pairing.json).
+- [K2593 report](k2593-countwise-convex-stopping.json).
+
+
+## Latest conditional constructions (2026-11-06)
+
 - [K2590 report](k2590-boundary-aware-response-adjoint.json).
 - [K2591 report](k2591-multistage-stopping-support.json).
 

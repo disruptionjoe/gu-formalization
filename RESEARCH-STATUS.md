@@ -6,6 +6,18 @@ updated_at: "2026-10-26"
 canon_sweep_at: "2026-07-25"
 ---
 
+## K2592--K2593: Reciprocal smooth preparation and complete fixed-multiplier frontier (2026-11-06)
+
+K2592 derives the actual scalar/TT cross tensor pairing and reduces the old full pressure-response reciprocity defect to endpoint jets with rank at most ten per radial/angular mode. A nonzero infinite-dimensional compact differential-range pressure-source family is reciprocal on the same preparation. The actual cofactor resultant and radial spectral gap then enable a new equation-preserving real preparation with full smooth pressure reciprocity and all-mode synthesis. Old-domain general reciprocity, new point-source bounds and physical selection remain open. K2593 completes the entire finite expected-resource stopping frontier at S=1/2 and lambda=11/20: broad all-count inequalities connect the pure two-stage branch, a unique second mixed transition and the existing one-stage/mixed/tail regions. Exact feasible policies and convex supports certify budgets4,5,11/2 and the interior budget399/100 below1e-40 width. Other multipliers remain open. Source, ledger0.263 and canon unchanged.
+
+- [K2592](explorations/conditional-build/k2592-scalar-tensor-boundary-pairing-2026-11-06.md).
+- [K2593](explorations/conditional-build/k2593-countwise-convex-stopping-2026-11-06.md).
+
+Independent read-only field specialists and a distinct integrated hostile reviewer found no remaining substantive findings after scope and probe repairs. K2592 passes50 exact supporting checks and9 contrary controls; K2593 passes41 and6. Universal boundary, spectral-synthesis, convexity and all-policy proofs remain separate from algebraic fixtures, interval certificates and actual finite consumers. No external-expert, proof-assistant, remote-CI or physical certification.
+
+Earlier sections preserve historical snapshots.
+
+
 ## K2590--K2591: Tensor reciprocity and exact mixed stopping frontier (2026-11-06)
 
 K2590 computes the actual radial-TT tensor Gram, proves orthogonality of the tagged trace split in that tensor pairing, and establishes full original-metric TT response reciprocity on the real preparation. It executes nonzero trace/zero-trace source consumers and derives the complete compact-detector adjoint with contact, cofactor, density and endpoint terms, then eliminates the splitter to give original-pressure sensitivities. Full scalar-plus-TT reciprocity and physical selection remain open. K2591 solves the failed post2 mixed segment at S=1/2 and lambda=11/20: all counts beyond two are excluded in a proved price window; the unique optimal two-stage policy has one positive action and unequal scores. A unique crossing with the one-stage optimizer gives the exact resource frontier between their resources, including budgets5/2,3,7/2. Exact convex support and feasible mixtures enclose budget3 near0.83939516168723973943494 to width below1e-24. General multipliers and further transitions remain open. Source, ledger0.263 and canon unchanged.

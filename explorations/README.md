@@ -7,6 +7,12 @@ updated_at: "2026-08-21"
 
 ## Latest conditional constructions (2026-11-06)
 
+- [K2592 scalar/TT boundary pairing and reciprocal repair](conditional-build/k2592-scalar-tensor-boundary-pairing-2026-11-06.md).
+- [K2593 complete fixed-multiplier stopping frontier](conditional-build/k2593-countwise-convex-stopping-2026-11-06.md).
+
+
+## Latest conditional constructions (2026-11-06)
+
 - [K2590 tensor reciprocity and source adjoint](conditional-build/k2590-boundary-aware-response-adjoint-2026-11-06.md).
 - [K2591 exact mixed stopping frontier](conditional-build/k2591-multistage-stopping-support-2026-11-06.md).
 

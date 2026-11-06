@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 8078beeeed2ab722dc5aafa81e27b4be060a75f3
+revision_basis: 32f758713a9b56846bc174481f9a44e9c344c633
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -118,6 +118,19 @@ reviewed_prediction_interfaces_2026_10_27:
 current_result:
   status: conditional_research_front
   summary: >-
+    K2592 derives the actual scalar/TT cross tensor pairing and reduces the old full
+    pressure-response reciprocity defect to endpoint jets with rank at most ten per
+    radial/angular mode. A nonzero infinite-dimensional compact differential-range
+    pressure-source family is reciprocal on the same preparation. The actual cofactor resultant
+    and radial spectral gap then enable a new equation-preserving real preparation with full
+    smooth pressure reciprocity and all-mode synthesis. Old-domain general reciprocity, new
+    point-source bounds and physical selection remain open. K2593 completes the entire finite
+    expected-resource stopping frontier at S=1/2 and lambda=11/20: broad all-count inequalities
+    connect the pure two-stage branch, a unique second mixed transition and the existing
+    one-stage/mixed/tail regions. Exact feasible policies and convex supports certify
+    budgets4,5,11/2 and the interior budget399/100 below1e-40 width. Other multipliers remain
+    open. Source, ledger0.263 and canon unchanged.
+    Historical predecessor (not live):
     K2590 computes the actual radial-TT tensor Gram, proves orthogonality of the tagged trace
     split in that tensor pairing, and establishes full original-metric TT response reciprocity
     on the real preparation. It executes nonzero trace/zero-trace source consumers and derives
@@ -18681,6 +18694,10 @@ current_result:
     coefficientwise A,C packet, global domain, BFV and positive
     cohomology/superposition now route to K129.
   evidence:
+  - explorations/conditional-build/k2592-scalar-tensor-boundary-pairing-2026-11-06.md
+  - explorations/conditional-build/k2593-countwise-convex-stopping-2026-11-06.md
+  - lab/process/k2592-scalar-tensor-boundary-pairing.json
+  - lab/process/k2593-countwise-convex-stopping.json
   - explorations/conditional-build/k2590-boundary-aware-response-adjoint-2026-11-06.md
   - explorations/conditional-build/k2591-multistage-stopping-support-2026-11-06.md
   - lab/process/k2590-boundary-aware-response-adjoint.json
@@ -21318,6 +21335,10 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  Which distributional source estimates and physically justified boundary/readout survive the
+  new reciprocal pressure preparation, and how stable is the complete stopping frontier under
+  changing score and multiplier?
+  Historical predecessor (not live):
   Which matched boundary prescription yields reciprocity for the complete pressure-source
   module, and how does the now-exact positive-action mixed stopping segment extend across
   multiplier and count transitions?
@@ -25831,6 +25852,16 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  Reuse K2592 exact cross pairing, rank-ten modal boundary defect, reciprocal compact-range
+  source family, actual spectral resultant exclusion and repaired full smooth pressure
+  reciprocity. Quantify the new preparation for measure/point sources or test the old boundary
+  form; do not inherit its former Sobolev exponents or treat mathematical reciprocity as
+  physical selection. Reuse K2593 complete all-budget frontier at S=.5 lambda=.55, both
+  crossings, pure two-stage branch and exact-budget consumers. Next compare parameter-uniform
+  transition stability with physically justified response/readout and native displacement
+  construction. No fixed-pair budget gap, smooth repaired reciprocity or cofactor resonance
+  remains uncomputed. Source/ledger/canon ceilings and independent calibration debts persist.
+  Historical predecessor (not live):
   Reuse K2590 actual tensor Gram and full TT reciprocity, plus the complete compact-detector
   adjoint and original-pressure sensitivities. Next test scalar/TT cross-boundary pairing in the
   same full preparation, or impose an independently justified physical boundary/readout; scalar
