@@ -2,6 +2,12 @@
 
 ## Latest conditional constructions (2026-11-06)
 
+- [K2594 kernel and measure probe](k2594_reciprocal_distributional_response_probe.py).
+- [K2595 parameter-stability probe](k2595_stopping_parameter_stability_probe.py).
+
+
+## Latest conditional constructions (2026-11-06)
+
 - [K2592 boundary-repair probe](k2592_scalar_tensor_boundary_pairing_probe.py).
 - [K2593 all-budget frontier probe](k2593_countwise_convex_stopping_probe.py).
 

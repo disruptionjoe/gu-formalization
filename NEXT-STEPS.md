@@ -5,7 +5,10 @@ doc_type: roadmap
 updated_at: "2026-10-26"
 ---
 
-> **2026-11-06: TENSOR RECIPROCITY AND EXACT MIXED OPTIMIZER.**
+> **2026-11-06: RECIPROCAL MEASURES AND UNIFORM STOPPING TOPOLOGY.**
+> Reuse K2594 finite-measure extension, quantified differentiated-source kernel estimate, H^-61/H^-62 fields, H64 detector transport and smooth-versus-measure reciprocity on the new preparation. Sharp local singularities, two-singular-source pairings, actual old-domain defect and physical boundary/readout remain distinct. Reuse K2595 uniform full frontier on S=.5 lambda[.54999,.55001], crossing derivatives and affine budget3.99; Reuse the exact neighboring count-two threshold and zero-action budget5 consumer; investigate near-threshold asymptotics or a score-varying region, not another fixed-pair gap. Compare these with independently calibrated response/readout and native displacement inputs. Source, ledger and canon debts persist.
+
+> **Historical predecessor: 2026-11-06: TENSOR RECIPROCITY AND EXACT MIXED OPTIMIZER.**
 > Reuse K2592 exact cross pairing, rank-ten modal boundary defect, reciprocal compact-range source family, actual spectral resultant exclusion and repaired full smooth pressure reciprocity. Quantify the new preparation for measure/point sources or test the old boundary form; do not inherit its former Sobolev exponents or treat mathematical reciprocity as physical selection. Reuse K2593 complete all-budget frontier at S=.5 lambda=.55, both crossings, pure two-stage branch and exact-budget consumers. Next compare parameter-uniform transition stability with physically justified response/readout and native displacement construction. No fixed-pair budget gap, smooth repaired reciprocity or cofactor resonance remains uncomputed. Source/ledger/canon ceilings and independent calibration debts persist.
 
 > **Historical predecessor: 2026-11-06: TENSOR RECIPROCITY AND EXACT MIXED OPTIMIZER.**

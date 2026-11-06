@@ -7,6 +7,12 @@ updated_at: "2026-08-23"
 
 ## Latest conditional constructions (2026-11-06)
 
+- [K2594 report](k2594-reciprocal-distributional-response.json).
+- [K2595 report](k2595-stopping-parameter-stability.json).
+
+
+## Latest conditional constructions (2026-11-06)
+
 - [K2592 report](k2592-scalar-tensor-boundary-pairing.json).
 - [K2593 report](k2593-countwise-convex-stopping.json).
 

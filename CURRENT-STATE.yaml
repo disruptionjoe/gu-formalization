@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 32f758713a9b56846bc174481f9a44e9c344c633
+revision_basis: c9bcd2edbb1fe3671f4530294b626354cf5e1d4b
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -118,6 +118,17 @@ reviewed_prediction_interfaces_2026_10_27:
 current_result:
   status: conditional_research_front
   summary: >-
+    K2594 quantifies the new reciprocal pressure preparation for finite interior B measures:
+    conservative full-field H^-61 bounds, point/mollifier and transport H^-62 bounds, and H64
+    conserved detector control. Source-variable kernel derivatives handle the differentiated
+    point input without misusing measure estimates; full equations and smooth-versus-measure
+    reciprocity pass through the limit. No two-distribution pairing or physical boundary
+    selection is inferred. K2595 extends the complete S=1/2 stopping frontier uniformly to
+    lambda in [0.54999,0.55001], with unique smooth crossings, exact leakage sensitivity, an
+    affine pure budget399/100 consumer enclosed below1e-40 and actual budget5 transport bounds.
+    Arbitrary score/multiplier topology and physical probability remain open. Source,
+    ledger0.263 and canon unchanged.
+    Historical predecessor (not live):
     K2592 derives the actual scalar/TT cross tensor pairing and reduces the old full
     pressure-response reciprocity defect to endpoint jets with rank at most ten per
     radial/angular mode. A nonzero infinite-dimensional compact differential-range
@@ -18694,6 +18705,10 @@ current_result:
     coefficientwise A,C packet, global domain, BFV and positive
     cohomology/superposition now route to K129.
   evidence:
+  - explorations/conditional-build/k2594-reciprocal-distributional-response-2026-11-06.md
+  - explorations/conditional-build/k2595-stopping-parameter-stability-2026-11-06.md
+  - lab/process/k2594-reciprocal-distributional-response.json
+  - lab/process/k2595-stopping-parameter-stability.json
   - explorations/conditional-build/k2592-scalar-tensor-boundary-pairing-2026-11-06.md
   - explorations/conditional-build/k2593-countwise-convex-stopping-2026-11-06.md
   - lab/process/k2592-scalar-tensor-boundary-pairing.json
@@ -21335,6 +21350,10 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  Which independently justified boundary/readout or sharper singularity test constrains the
+  reciprocal measure response, and how does the stopping optimum approach the neighboring count
+  threshold?
+  Historical predecessor (not live):
   Which distributional source estimates and physically justified boundary/readout survive the
   new reciprocal pressure preparation, and how stable is the complete stopping frontier under
   changing score and multiplier?
@@ -25852,6 +25871,16 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  Reuse K2594 finite-measure extension, quantified differentiated-source kernel estimate,
+  H^-61/H^-62 fields, H64 detector transport and smooth-versus-measure reciprocity on the new
+  preparation. Sharp local singularities, two-singular-source pairings, actual old-domain defect
+  and physical boundary/readout remain distinct. Reuse K2595 uniform full frontier on S=.5
+  lambda[.54999,.55001], crossing derivatives and affine budget3.99; Reuse the exact neighboring
+  count-two threshold and zero-action budget5 consumer; investigate near-threshold asymptotics
+  or a score-varying region, not another fixed-pair gap. Compare these with independently
+  calibrated response/readout and native displacement inputs. Source, ledger and canon debts
+  persist.
+  Historical predecessor (not live):
   Reuse K2592 exact cross pairing, rank-ten modal boundary defect, reciprocal compact-range
   source family, actual spectral resultant exclusion and repaired full smooth pressure
   reciprocity. Quantify the new preparation for measure/point sources or test the old boundary

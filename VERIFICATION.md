@@ -5,6 +5,18 @@ doc_type: verification-map
 updated_at: "2026-10-27"
 ---
 
+## K2594--K2595: Reciprocal measure response and uniform stopping topology (2026-11-06)
+
+K2594 quantifies the new reciprocal pressure preparation for finite interior B measures: conservative full-field H^-61 bounds, point/mollifier and transport H^-62 bounds, and H64 conserved detector control. Source-variable kernel derivatives handle the differentiated point input without misusing measure estimates; full equations and smooth-versus-measure reciprocity pass through the limit. No two-distribution pairing or physical boundary selection is inferred. K2595 extends the complete S=1/2 stopping frontier uniformly to lambda in [0.54999,0.55001], with unique smooth crossings, exact leakage sensitivity, an affine pure budget399/100 consumer enclosed below1e-40 and actual budget5 transport bounds. Arbitrary score/multiplier topology and physical probability remain open. Source, ledger0.263 and canon unchanged.
+
+- [K2594](explorations/conditional-build/k2594-reciprocal-distributional-response-2026-11-06.md).
+- [K2595](explorations/conditional-build/k2595-stopping-parameter-stability-2026-11-06.md).
+
+Independent read-only field specialists and a distinct integrated hostile reviewer inspected the mathematical transfers and final candidates. K2594 passes38 supporting checks and7 contrary controls; K2595 passes62 and8. Exact polynomial/jump/interval calculations, reused predecessor certificates and exponent bookkeeping are distinguished from the written continuum kernel, synthesis, convexity and sensitivity proofs. No external-expert, proof-assistant or physical certification is claimed.
+
+Earlier sections preserve historical snapshots.
+
+
 ## K2592--K2593: Reciprocal smooth preparation and complete fixed-multiplier frontier (2026-11-06)
 
 K2592 derives the actual scalar/TT cross tensor pairing and reduces the old full pressure-response reciprocity defect to endpoint jets with rank at most ten per radial/angular mode. A nonzero infinite-dimensional compact differential-range pressure-source family is reciprocal on the same preparation. The actual cofactor resultant and radial spectral gap then enable a new equation-preserving real preparation with full smooth pressure reciprocity and all-mode synthesis. Old-domain general reciprocity, new point-source bounds and physical selection remain open. K2593 completes the entire finite expected-resource stopping frontier at S=1/2 and lambda=11/20: broad all-count inequalities connect the pure two-stage branch, a unique second mixed transition and the existing one-stage/mixed/tail regions. Exact feasible policies and convex supports certify budgets4,5,11/2 and the interior budget399/100 below1e-40 width. Other multipliers remain open. Source, ledger0.263 and canon unchanged.

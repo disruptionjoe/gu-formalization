@@ -7,6 +7,12 @@ updated_at: "2026-08-21"
 
 ## Latest conditional constructions (2026-11-06)
 
+- [K2594 reciprocal measure response](conditional-build/k2594-reciprocal-distributional-response-2026-11-06.md).
+- [K2595 uniform stopping topology](conditional-build/k2595-stopping-parameter-stability-2026-11-06.md).
+
+
+## Latest conditional constructions (2026-11-06)
+
 - [K2592 scalar/TT boundary pairing and reciprocal repair](conditional-build/k2592-scalar-tensor-boundary-pairing-2026-11-06.md).
 - [K2593 complete fixed-multiplier stopping frontier](conditional-build/k2593-countwise-convex-stopping-2026-11-06.md).
 
