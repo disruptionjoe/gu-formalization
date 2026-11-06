@@ -6,6 +6,18 @@ updated_at: "2026-10-26"
 canon_sweep_at: "2026-07-25"
 ---
 
+## K2611--K2612: Prepared pressure ambiguity and enlarged stopping phase (2026-11-06)
+
+K2611 proves that the fixed reciprocal preparation selects the synchronized compact pressure response, including exact cancellation of its cofactor commutator repair and the distinct TT modes. Exterior observation has an infinite-dimensional smooth correlated-pressure kernel. An explicit conserved background yields two distinct globally nonnegative A,P amplitude sources with identical exterior readings; finite linear moments/calibrations and upper transverse norm bounds do not generally restore injectivity. No positive energy, fixed-profile counterexample or arbitrary-jet domain extension is claimed. K2612 extends the all-policy diffuse stopping phase to lambda<=1/H_S(16119/17381), with half-score endpoint0.8604375545379493, exact constrained frontier, inverse leakage-budget interpretation and sharp inverse-error trial complexity. Three rational finite policies and interval endpoints are executed. The boundary is sufficient, not sharp; higher resource correctors retain their prior domains. Source, ledger0.263 and canon unchanged.
+
+- [K2611](explorations/conditional-build/k2611-fixed-preparation-invisible-pressure-2026-11-06.md).
+- [K2612](explorations/conditional-build/k2612-extended-diffuse-stopping-phase-2026-11-06.md).
+
+Read-only field specialists and a distinct integrated hostile reviewer checked minimal-domain inversion, the cofactor repair, scalar/TT synthesis, nonnegative conserved backgrounds, finite-calibration nullspace, original output-root barrier and adaptive/constrained transfers. Review corrected clipping wording and aligned the exact moment/positivity fixture to the same pair. Final substantive findings were empty after repairs. K2611 producer/replay22 supporting checks and6 contrary controls; K2612 producer/replay24 checks and4 controls with two certified phase endpoints and three rational finite policies. The existing bivariate generator certificate is reused by exact dependency hashes. Universal curved selection and all-policy arguments remain analytic; no external-expert, proof-assistant, remote-CI or physical certification.
+
+Earlier sections preserve historical snapshots.
+
+
 ## K2609--K2610: Contact pressure jets and terminal stopping counts (2026-11-06)
 
 K2609 establishes finite-order existence of original isotropic-normal-pressure B jets with nonzero full metric responses supported at the same B point, by synchronized scalar/TT right-denominator clearing. The actual operator coefficients and numerical minimum/upper jet order remain uncomputed; K2607 excludes orders zero and one. An explicit order12 scalar-source control fails pressure isotropy and is kept separate. Smooth seed regularization gives compact B-off-source invisible pairs; fixed reciprocal preparation, positive matter and physical coupling are not supplied. K2610 proves the terminal scaling S=e x, lambda=2/3+e mu, k=e²: a bounded integer-count maximum gives the value through e³ with O(e4) remainder, actual action activation and shifted count thresholds. Independent exact small-multiplier tails give fractional-budget M^-3 and integer-rounding e³ coefficients, demonstrating that a single constant third coefficient is false. Source, ledger0.263 and canon unchanged.

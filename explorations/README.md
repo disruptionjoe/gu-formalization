@@ -7,6 +7,12 @@ updated_at: "2026-08-21"
 
 ## Latest conditional constructions (2026-11-06)
 
+- [K2611 fixed-preparation pressure ambiguity](conditional-build/k2611-fixed-preparation-invisible-pressure-2026-11-06.md).
+- [K2612 extended diffuse stopping phase](conditional-build/k2612-extended-diffuse-stopping-phase-2026-11-06.md).
+
+
+## Latest conditional constructions (2026-11-06)
+
 - [K2609 pressure-jet contact boundary](conditional-build/k2609-pressure-jet-contact-boundary-2026-11-06.md).
 - [K2610 terminal stopping and discrete rounding](conditional-build/k2610-terminal-stopping-count-layer-2026-11-06.md).
 

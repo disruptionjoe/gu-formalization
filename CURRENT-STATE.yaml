@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 010d696769035d4e28f0b2e6c015c87fcf8a7115
+revision_basis: d3615c741610e26d1fa9f1b0885f821d633a0386
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -118,6 +118,19 @@ reviewed_prediction_interfaces_2026_10_27:
 current_result:
   status: conditional_research_front
   summary: >-
+    K2611 proves that the fixed reciprocal preparation selects the synchronized compact pressure
+    response, including exact cancellation of its cofactor commutator repair and the distinct TT
+    modes. Exterior observation has an infinite-dimensional smooth correlated-pressure kernel.
+    An explicit conserved background yields two distinct globally nonnegative A,P amplitude
+    sources with identical exterior readings; finite linear moments/calibrations and upper
+    transverse norm bounds do not generally restore injectivity. No positive energy,
+    fixed-profile counterexample or arbitrary-jet domain extension is claimed. K2612 extends the
+    all-policy diffuse stopping phase to lambda<=1/H_S(16119/17381), with half-score
+    endpoint0.8604375545379493, exact constrained frontier, inverse leakage-budget
+    interpretation and sharp inverse-error trial complexity. Three rational finite policies and
+    interval endpoints are executed. The boundary is sufficient, not sharp; higher resource
+    correctors retain their prior domains. Source, ledger0.263 and canon unchanged.
+    Historical predecessor (not live):
     K2609 establishes finite-order existence of original isotropic-normal-pressure B jets with
     nonzero full metric responses supported at the same B point, by synchronized scalar/TT
     right-denominator clearing. The actual operator coefficients and numerical minimum/upper jet
@@ -18829,6 +18842,10 @@ current_result:
     coefficientwise A,C packet, global domain, BFV and positive
     cohomology/superposition now route to K129.
   evidence:
+  - explorations/conditional-build/k2611-fixed-preparation-invisible-pressure-2026-11-06.md
+  - explorations/conditional-build/k2612-extended-diffuse-stopping-phase-2026-11-06.md
+  - lab/process/k2611-fixed-preparation-invisible-pressure.json
+  - lab/process/k2612-extended-diffuse-stopping-phase.json
   - explorations/conditional-build/k2609-pressure-jet-contact-boundary-2026-11-06.md
   - explorations/conditional-build/k2610-terminal-stopping-count-layer-2026-11-06.md
   - lab/process/k2609-pressure-jet-contact-boundary.json
@@ -21504,6 +21521,9 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  Which actual source restriction or interior observation removes the prepared pressure
+  ambiguity, versus a sharp fluid/atomic stopping junction beyond the newly certified phase?
+  Historical predecessor (not live):
   Which explicit synchronized pressure-jet operator and justified preparation can turn the new
   existence boundary into a usable source/readout test, versus fourth-order terminal ties and
   positive-action stopping rounding?
@@ -26061,6 +26081,16 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  Reuse K2611 prepared smooth kernel and explicit nonnegative-amplitude equal-moment pairs; do
+  not treat reciprocal boundary selection, finite linear calibration or upper norms alone as
+  injectivity repairs. An actual common radial-profile restriction, nonlinear physical
+  admissibility condition or interior receiver needs its own calculation; actual synchronized
+  Ore coefficients/order remain uncomputed. Reuse K2612 enlarged sufficient phase and
+  all-policy/constrained/inverse-budget/complexity results. Next sharp fluid/atomic junction,
+  positive-action discrete rounding or fourth-order terminal ties; no automatic transfer of
+  later corrector bounds. Native displacement and independently justified common empirical
+  calibration remain alternatives.
+  Historical predecessor (not live):
   Reuse K2609 finite-order original-pressure contact existence and explicit anisotropic order12
   control; compute actual Ore coefficients and B jet order, or test a physically justified fixed
   preparation/source regularity restriction. No arbitrary-jet injectivity, positive-matter or

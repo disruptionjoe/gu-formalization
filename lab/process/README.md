@@ -7,6 +7,12 @@ updated_at: "2026-08-23"
 
 ## Latest conditional constructions (2026-11-06)
 
+- [K2611 report](k2611-fixed-preparation-invisible-pressure.json).
+- [K2612 report](k2612-extended-diffuse-stopping-phase.json).
+
+
+## Latest conditional constructions (2026-11-06)
+
 - [K2609 report](k2609-pressure-jet-contact-boundary.json).
 - [K2610 report](k2610-terminal-stopping-count-layer.json).
 

@@ -7,6 +7,11 @@ updated_at: "2026-10-26"
 
 ## Current follow-through — 2026-11-06
 
+Reuse K2611 prepared smooth kernel and explicit nonnegative-amplitude equal-moment pairs; do not treat reciprocal boundary selection, finite linear calibration or upper norms alone as injectivity repairs. An actual common radial-profile restriction, nonlinear physical admissibility condition or interior receiver needs its own calculation; actual synchronized Ore coefficients/order remain uncomputed. Reuse K2612 enlarged sufficient phase and all-policy/constrained/inverse-budget/complexity results. Next sharp fluid/atomic junction, positive-action discrete rounding or fourth-order terminal ties; no automatic transfer of later corrector bounds. Native displacement and independently justified common empirical calibration remain alternatives.
+
+
+## Current follow-through — 2026-11-06
+
 Reuse K2609 finite-order original-pressure contact existence and explicit anisotropic order12 control; compute actual Ore coefficients and B jet order, or test a physically justified fixed preparation/source regularity restriction. No arbitrary-jet injectivity, positive-matter or fixed-K2594 invisibility is inferred. Reuse K2610 terminal integer-count/cubic law, activation and first count shifts, and exact-tail oscillatory third coefficients. Next fourth-order endpoint tie/activation or positive-action rounding, beyond4/5 generator comparison, with native displacement and shared empirical calibration retained as independent physics alternatives.
 
 

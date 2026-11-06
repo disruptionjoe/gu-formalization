@@ -2,6 +2,12 @@
 
 ## Latest conditional constructions (2026-11-06)
 
+- [K2611 domain and source-prior controls](k2611_fixed_preparation_invisible_pressure_probe.py).
+- [K2612 output barrier and policy consumers](k2612_extended_diffuse_stopping_phase_probe.py).
+
+
+## Latest conditional constructions (2026-11-06)
+
 - [K2609 full-system and denominator controls](k2609_pressure_jet_contact_boundary_probe.py).
 - [K2610 endpoint and rounding probe](k2610_terminal_stopping_count_layer_probe.py).
 

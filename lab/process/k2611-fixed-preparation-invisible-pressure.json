@@ -1,0 +1,46 @@
+{
+  "result": "K2611",
+  "checks": [
+    "Dirichlet_two_sided_preimage",
+    "cofactor_preimage_has_zero_endpoint_values",
+    "compact_compatible_commutator_vanishes",
+    "repair_preserves_compact_preimage",
+    "Bezout_identity",
+    "repair_is_homogeneous",
+    "repair_preserves_equation",
+    "repair_symmetrizes_scalar_transfer",
+    "actual_modal_dC_commutes_-3",
+    "actual_modal_orders_-3",
+    "actual_modal_dC_commutes_-4",
+    "actual_modal_orders_-4",
+    "original_pressure_conservation",
+    "original_trace_formula",
+    "tagged_trace_vanishes_for_compact_b",
+    "plateau_transition_sign",
+    "plateau_transition_endpoints",
+    "negative_alpha_pressure_sign",
+    "fixture_source_nonzero",
+    "actual_tube_alpha_sign_domain",
+    "finite_moment_null_combination",
+    "distinct_positive_sources_same_calibrations"
+  ],
+  "contrary_controls": [
+    "equation_and_Dirichlet_alone_insufficient",
+    "old_boundary_not_retained_by_repair",
+    "arbitrary_preimage_not_selected",
+    "wrong_alpha_sign_breaks_positivity",
+    "norm_upper_bound_not_injectivity",
+    "nonlinear_constraint_not_automatically_preserved"
+  ],
+  "boundary_fixture_defect": "-2",
+  "evidence_kind": "exact actual coefficient commutation and pressure identities; independent Dirichlet boundary fixture; universal curved selection and smooth kernel proofs in note",
+  "ceiling": "signed correlated smooth-source fixed-preparation kernel; constructed nonnegative-amplitude pair ambiguity; no physical energy, general higher-jet Sobolev extension or computed Ore coefficients",
+  "provenance": {
+    "explorations/conditional-build/k2609-pressure-jet-contact-boundary-2026-11-06.md": "f7bb64657b51f3d3ccbc5ee643296a74b734fedc4f6b39a72da6596ffcb8ef10",
+    "explorations/conditional-build/k2588-real-boundary-response-2026-11-05.md": "55a1747739a4ef11bcda9e3812e5df39d1d21f66e439416421d5ebc4d7bbb8f9",
+    "explorations/conditional-build/k2592-scalar-tensor-boundary-pairing-2026-11-06.md": "887c44fd25000b352e8ec7e2218e52746993727c9f72f019e44a5b382a71eb95",
+    "explorations/conditional-build/k2594-reciprocal-distributional-response-2026-11-06.md": "0c56fa58e69dc7c6d2b57403fa45978c487535c9764cfa4d56bc5ecf7878c3b3",
+    "lab/process/k2592-scalar-tensor-boundary-pairing.json": "a66db4355f6dfb33ef85e66c1418bb71b5112c6240b13743e939cb8addac8921",
+    "lab/process/k2554-analytic-source-response.json": "6baae61e9e3deb87efa3d29db60994378d7278fb44194e20387710737500a8fa"
+  }
+}
