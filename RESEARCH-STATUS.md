@@ -6,6 +6,18 @@ updated_at: "2026-10-26"
 canon_sweep_at: "2026-07-25"
 ---
 
+## K2615--K2616: Randomized recovery and fixed-score diffuse instability (2026-11-06)
+
+K2615 determines exact randomized adaptive scalar linear-query recovery risks on every known finite Hilbert ball in the prepared smooth pressure kernel: squared risk R²(1-m/d) and the mean-norm beta-moment constant. Finite random-coordinate sensing attains squared risk; Haar sensing attains both. Source classes containing the ball inherit lower bounds, including a specified noisy adaptive linear model; physical receiver achievability and a dimension-uniform radius remain unproved. K2616 gives the fixed-score necessary diffuse boundary lambda_loc=1/H_S(sqrt(3)/4), approximately1.667813868610253 at half score. Beyond it a finite initial atom and finite tail strictly improve the fluid candidate. Critical equality is locally stable at cubic order. An explicit cubic gain lower bound, local neutral-input shift, two certified finite neutral brackets and four rational finite policies follow. No sharp global phase or true-optimum onset asymptotic. Source, ledger0.263 and canon unchanged.
+
+- [K2615](explorations/conditional-build/k2615-randomized-linear-pressure-recovery-2026-11-06.md).
+- [K2616](explorations/conditional-build/k2616-diffuse-stopping-instability-2026-11-06.md).
+
+Two independent field specialists and a distinct integrated hostile reviewer checked the source-ball transfer, adaptive sphere conditioning, randomized quantifiers, noisy-linear simulation, original-log optimization, fixed-score transfer, critical sign and finite-tail construction. Review narrowed the source-class ceiling to classes containing the ball, separated oracle access from physical receivers, repaired copied typed fields and made each-fixed-input expansion scope explicit. Final substantive findings empty. K2615 producer/replay27 exact supporting checks and5 contrary controls; K2616 producer/replay37 checks and6 controls, four rational finite policies and two neutral-input brackets. Universal results are the written proofs, not inference from check counts. No external-expert, proof-assistant, remote-CI or physical certification.
+
+Earlier sections preserve historical snapshots.
+
+
 ## K2613--K2614: Finite information limits and quartic terminal stopping (2026-11-06)
 
 K2613 proves noninjectivity of finitely many continuous nonlinear source measurements on the prepared smooth pressure class. Deterministic adaptive linear readings retain baseline ambiguity; an explicitly imported adaptive-continuous theorem covers arbitrary deterministic nonlinear sensor selection. Positive-amplitude kernel balls with finite linear normalizations have exact minimax source-error radius; no physical energy, randomized-sensing theorem or arbitrary prescribed nonlinear-data ambiguity follows. K2614 derives the uniform quartic terminal stopping value and score correction, resolves active/inactive second count shifts, and constructs a genuine local inactive count-tie curve. The exact one-stage activation threshold yields a finer nonzero e-cubed action at the formerly undecided corner. Exact original-law identities and interval consumers support the analytic theorems. Fixed compact terminal scaling only; no global fluid/atomic diagram or infinite-count uniformity. Source, ledger0.263 and canon unchanged.

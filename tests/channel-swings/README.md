@@ -2,6 +2,12 @@
 
 ## Latest conditional constructions (2026-11-06)
 
+- [K2615 randomized sensing controls](k2615_randomized_linear_pressure_recovery_probe.py).
+- [K2616 finite atom and phase consumers](k2616_diffuse_stopping_instability_probe.py).
+
+
+## Latest conditional constructions (2026-11-06)
+
 - [K2613 information and recovery controls](k2613_finite_observation_pressure_ambiguity_probe.py).
 - [K2614 original-law quartic and transition consumers](k2614_quartic_terminal_stopping_probe.py).
 

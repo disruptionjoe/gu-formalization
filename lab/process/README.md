@@ -7,6 +7,12 @@ updated_at: "2026-08-23"
 
 ## Latest conditional constructions (2026-11-06)
 
+- [K2615 report](k2615-randomized-linear-pressure-recovery.json).
+- [K2616 report](k2616-diffuse-stopping-instability.json).
+
+
+## Latest conditional constructions (2026-11-06)
+
 - [K2613 report](k2613-finite-observation-pressure-ambiguity.json).
 - [K2614 report](k2614-quartic-terminal-stopping.json).
 

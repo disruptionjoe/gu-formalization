@@ -7,6 +7,11 @@ updated_at: "2026-10-26"
 
 ## Current follow-through — 2026-11-06
 
+Reuse K2615 exact randomized linear risks only on known finite Hilbert balls with a pathwise scalar-query cap; physical detector families inherit lower bounds unless coordinate access is established. No fixed hard pair across seeds, arbitrary nonlinear-noise or average-budget extension. Test a common radial-profile or physical nonlinear source restriction, or an actual interior receiver/domain. Reuse K2616 fixed-score necessary phase curve, cubic local stability at equality, finite atom opening and neutral brackets. The half-score sufficient-to-necessary phase gap remains approximately0.86044 to1.66781; a global original-law comparison, not another local order or numerical scan, is required. Positive-action large-count rounding and native displacement/shared empirical calibration remain independent contenders.
+
+
+## Current follow-through — 2026-11-06
+
 Reuse K2613 finite continuous nonlinear and deterministic adaptive calibration limits with their dimension and source-class qualifications; finite calibration is no longer an untested generic repair. Test a common radial-profile or physically derived nonlinear source restriction, or an actual infinite-dimensional interior observation; explicit synchronized Ore coefficients/order remain open. Reuse K2614 quartic terminal count/value/profile, exact inactive tie and finer one-stage activation; do not requeue cubic or quartic endpoint decisions as absent. Sharp fluid/atomic junction and positive-action large-count rounding remain stronger stopping alternatives than routine fifth-order refinement. Native displacement and independently justified empirical common calibration remain separate contenders.
 
 
