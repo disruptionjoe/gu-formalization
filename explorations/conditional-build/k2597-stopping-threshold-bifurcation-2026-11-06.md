@@ -1,11 +1,11 @@
 ---
-title: "K2597 Score-general local stopping bifurcation and quadratic value gain"
+title: "K2597 All finite-count local stopping bifurcations and quadratic value gain"
 status: active_research
 doc_type: exploration
 created: "2026-11-06"
 classification: CONVENTIONAL_COMPARATOR
 target_claim: NONE-NOT-A-KILL
-claim_ceiling: local threshold neighborhood for each fixed score; separate exact half-score consumer, no arbitrary multiplier topology or physical probability
+claim_ceiling: local threshold neighborhood for each fixed n>=2 and score; separate exact half-score consumer, no arbitrary multiplier topology or physical probability
 scripts:
   - tests/channel-swings/k2597_stopping_threshold_bifurcation_probe.py
 ---
@@ -23,7 +23,7 @@ Classification: `CONVENTIONAL_COMPARATOR`.
 
 ```gu-typed-objects
 result: K2597
-carrier: original fair stopping model for each fixed 0<S<=1/2 near its count-two threshold LAYER=toy CHIRALITY=N/A
+carrier: original fair stopping model for each fixed n>=2 and 0<S<=1/2 near its count-n threshold LAYER=toy CHIRALITY=N/A
 pairing: unconditional success minus leakage with expected positive-trial budget ON=declared_carrier
 real_structure: real controls and private randomization
 grading: score, first action, stage count and expected trials distinguished
@@ -34,6 +34,8 @@ target: global local optimizer bifurcation, price and value asymptotics, certifi
 # Resolve the sharp count-two threshold
 
 ## Result and scope
+
+**General-count extension:** Section6 proves the same local bifurcation for EVERY fixed finite count n>=2, with a neighborhood depending on n and S. It executes exact coefficient consumers for n=3,5,10 at two scores, and identifies a double-critical n=1 half-score corner where this one-critical-direction proof cannot be reused. Sections1–5 retain the count-two derivation and its independently certified finite-offset consumer.
 
 For EACH fixed total score 0<S<=1/2, the exact count-two threshold of K2587 has a locally unique positive-action two/three-stage transition above it. The first action and score asymmetry emerge linearly; the transition price falls below the old chord price quadratically. For any fixed budget4<=M<6, the optimal value is C1 but not C2 in the leakage multiplier at the threshold. This is a local existence theorem with a score-dependent neighborhood, not a claimed explicit uniform radius or complete arbitrary-multiplier phase diagram.
 
@@ -126,10 +128,52 @@ The new rectangle does NOT assert a positive first action everywhere. The thresh
 
 At lambda=.54997, a high-precision root only proposes rational controls. The saved rational a,b,k are independently certified by interval logs, the convex tangent bound on2lambda W+Q(1+a)+4k-1, and the explicit feasible mixture(8) at M=5. The resulting global upper bound is max(Q2_upper,J3_upper)+5k. The lower bound is the actual original-law mixture value, not a nominal resource-four shortcut. Their difference is below1e-50, and the lower bound exceeds the old chord by more4.62e-12. The report stores exact rational inputs, bounds, and dependency hashes. No explicit Taylor validity radius is inferred from this separate finite consumer.
 
+## 6. Execute the released general-count theorem
+
+Fix an integer n>=2 and0<S<=1/2. Put t=S/n, Delta_n=H_n-H_(n+1), T_n=(n+1)H_n-nH_(n+1), and lambda_n=1/[2(c(t)+T_n)]. K2587 isolates exactly the equal-score zero-action n and n+1 schedules at their threshold price k_n=lambda_n Delta_n. The large-count cutoff and charged-zero compactness in section2 apply with this fixed positive k_n.
+
+Equation(4) holds for EVERY stage j and count m; the new probe derives it directly from the original law with only a_j perturbed. At the threshold, the first action of count n is critical, every suffix action is strictly unfavorable, and every action of count n+1 is strictly unfavorable since c(S/(n+1))<c(S/n) for n>=2. These signs persist nearby. With suffix actions zero, their survival weights coincide, so strict Jensen forces their n-1 scores to equal(S-b)/(n-1). The exact reduced cost is therefore
+
+    g_n(a)=min_b [w(a,b)+(n-1)w0((S-b)/(n-1))].          (11)
+
+Its positive supporting Hessian yields a unique local optimizer. Define
+
+    rho_n=(n-1)c'(t)/(n w0''(t)),
+    h_n=w_aa(0,t)-c'(t)²/([n/(n-1)]w0''(t))>0.        (12)
+
+Positivity follows from the positive definite Hessian of W_n: w has positive semidefinite Hessian and positive aa entry, and the strictly convex suffix term adds a positive bb entry. At a=0, b=t, g_n=H_n, g_n'=-c(t), b'=rho_n, and each suffix score has derivative-rho_n/(n-1).
+
+The unique n/n+1 crossing has
+
+    E_n=(n+1)g_n-(1+(n+1)a)g_n'-nH_(n+1)=1/(2lambda),
+    E_n'=-(1+(n+1)a)g_n''<0,
+    kd=lambda[g_n-a g_n'-H_(n+1)].                    (13)
+
+The all-count reduction and implicit-function proof give a positive action for lambda just above lambda_n. For delta=lambda-lambda_n,
+
+    a=delta/(2lambda_n²h_n)+O(delta²),
+    kd=lambda Delta_n-delta²/(8lambda_n³h_n)+O(delta³),
+    R_n=2n/(1+a)=2n-n delta/(lambda_n²h_n)+O(delta²).   (14)
+
+For fixed2n<=M<2n+2, mix the optimizing count-n schedule with zero-(n+1), using theta=[2(n+1)-M]/[2(n+1)-2n/(1+a)]. This is an actual original-law policy at exact expected resource M. Its global optimum satisfies the EXACT gain identity
+
+    F-Fold=[2(n+1)-M] * (lambda Delta_n-kd),              (15)
+    Fold=1-lambda[(2n+2-M)H_n+(M-2n)H_(n+1)].
+
+It has quadratic right gain[2(n+1)-M]delta²/(8lambda_n³h_n)+O(delta³), zero left gain, and hence is C1 but not C2 at lambda_n. The right second derivative is[2(n+1)-M]/(4lambda_n³h_n)>0; at M=2n+2 the gain is zero. This closes the local transition class without computing each count separately.
+
+### Higher-count consumers and the exact extension boundary
+
+The probe symbolically checks(13), the original stage derivative, exact resource and gain identities for symbolic n, and recovers the n=2 constants. It evaluates exact Schur curvatures and first-score slopes at n=3,5,10 for S=1/2 and1/4; rational log intervals enclose their thresholds, positive action slopes and gain coefficients. These are executed asymptotic-coefficient consumers, NOT finite-offset global optimizer certificates. The separate n=2 consumer in section5 remains the only such new certificate here.
+
+There is a concrete obstruction to blindly extending this single-critical-direction proof to every n>=1: c(1/2)=c(1/4)=16/21. At n=1,S=1/2 and lambda_1, BOTH count-one and count-two first-action derivatives vanish at their common support. Section2's strict inactivity premise for the upper count fails. This does not disprove a bifurcation theorem there; it requires a coupled two-active-branch analysis. The probe verifies this exact equality.
+
+The neighborhood depends on BOTH S and n. As n grows the positive threshold price tends to zero, so the finite-count cutoff used here is not uniform. No interchange of n->infinity with lambda->2/(3+S), uniform Taylor radius or whole-multiplier phase diagram is proved. Those require new estimates, not substitution into(14).
+
 ## Verification and next condition
 
 The exact probe computes the true Hessian, score Schur complement, crossing elimination, all-policy rectangle inequalities and original-policy global enclosure. Written compactness/strict-gap and implicit-function arguments carry the score-general local theorem. Contrary controls reject fixed-score curvature, frozen equal scores, reversed price shift, rounded mixture resource and strict improvement at budget6. Independent field-specialist and distinct integrated hostile reviews returned final substantive findings[].
 
-Next compare a higher-count transition or interacting transition degeneracy with the response preparation/readout problem. The count-two local transition, quadratic gain, value regularity and new half-score consumer are no longer missing. No claim of a full all-score global frontier is made.
+Next compare the n=1 half-score double-critical transition or uniform large-count transition estimates with the response preparation/readout problem. All fixed finite n>=2 local transitions, quadratic gain and value regularity are now covered, together with the separately certified count-two half-score consumer. No claim of a full all-score global frontier is made.
 
 [K2587](k2587-countwise-stopping-support-2026-11-05.md), [K2593](k2593-countwise-convex-stopping-2026-11-06.md), [K2595](k2595-stopping-parameter-stability-2026-11-06.md), [probe](../../tests/channel-swings/k2597_stopping_threshold_bifurcation_probe.py), [report](../../lab/process/k2597-stopping-threshold-bifurcation.json).

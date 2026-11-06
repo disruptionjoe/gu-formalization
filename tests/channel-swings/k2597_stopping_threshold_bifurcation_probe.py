@@ -99,7 +99,45 @@ ct('zero_action_policy_suboptimal_above',lower>old[1])
 ct('wrong_mixture_resource',theta*4+(1-theta)*6!=M)
 ct('budget6_has_no_gain',(6-F(6))*coefG[0]==0)
 ct('reversed_price_shift_wrong',k<lam*deltaH[0])
-report={'result':'K2597','checks':checks,'contrary_controls':controls,'evidence_kind':'exact actual Hessian, rational continuum-corner support inequalities and feasible-policy/convex-tangent enclosure; local analytic theorem in note','rectangle':rows,'lambda0':[str(v) for v in lambda0],'k0':[str(v) for v in k0],'curvature':str(h),'score_slope':str(bp),'action_linear_coefficient':[str(v) for v in coefA],'gain_quadratic_coefficient_per_6_minus_M':[str(v) for v in coefG],'consumer':{'lambda':str(lam),'budget':str(M),'action':str(aa),'score':str(bb),'price':str(k),'weight':str(theta),'value_bounds':[str(lower),str(upper)],'gain_bounds':[str(lower-old[1]),str(upper-old[0])]},'general_curvature':str(ht),'ceiling':'local bifurcation for each fixed 0<S<=1/2; explicit separate consumer; no asserted explicit Taylor validity radius or full varying-score topology'}
+
+# General fixed-count successor: exact algebra, not a uniform-in-count theorem.
+n=s.symbols('n',integer=True,positive=True);gg=s.Function('gg')(x);hnext=s.symbols('Hnext')
+en=(n+1)*gg-(1+(n+1)*x)*s.diff(gg,x)-n*hnext
+ck('all_count_crossing_derivative',s.simplify(s.diff(en,x)+(1+(n+1)*x)*s.diff(gg,x,2))==0)
+G,Gp=s.symbols('G Gp');En=(n+1)*G-(1+(n+1)*x)*Gp-n*hnext
+kn=(2*L*En-2*L*hnext+2*L*Gp)/(2*(n+1))
+ck('all_count_price_elimination',s.simplify(kn-L*(G-x*Gp-hnext))==0)
+R=2*n/(1+x);budget=s.symbols('budget');mix=(2*(n+1)-budget)/(2*(n+1)-R)
+ck('all_count_exact_budget',s.simplify(mix*R+(1-mix)*2*(n+1)-budget)==0)
+Hn=s.symbols('Hn');kv=s.symbols('kv');fv=1-2*L*hnext+(budget-2*(n+1))*kv
+oldv=1-L*((2*(n+1)-budget)*Hn+(budget-2*n)*hnext)
+ck('all_count_exact_gain',s.simplify(fv-oldv-(2*(n+1)-budget)*(L*(Hn-hnext)-kv))==0)
+# Original law with only action j perturbed: earlier stages survive unchanged.
+m,jj=s.symbols('m jj',integer=True,positive=True);lm,kk=s.symbols('lm kk',positive=True)
+w0t=s.log((4-t)/(4-2*t));we=w.subs(b,t)
+Cstage=2*((jj-1)*w0t+(we+(m-jj)*w0t)/(1+a));Rstage=2*((jj-1)+(m-jj+1)/(1+a))
+Jstage=1/(1+a)-lm*Cstage-kk*Rstage
+ct_expr=2*(3-2*t)/((2-t)*(4-t));Jm=1-2*lm*m*w0t-2*kk*m
+ck('all_stage_action_derivative_from_original_law',s.simplify(s.diff(Jstage,a).subs(a,0)-(2*lm*ct_expr-Jm-2*(jj-1)*(lm*w0t+kk)))==0)
+Hbbn=n*hbb_t/(2*(n-1));hn=s.factor(haa_t-hab_t**2/Hbbn);rhon=s.factor(-hab_t/Hbbn)
+ck('n2_curvature_recovered',s.simplify(hn.subs(n,2)-ht)==0)
+ck('n2_score_slope_recovered',s.simplify(rhon.subs({n:2,t:s.Rational(1,4)})-s.Rational(5,88))==0)
+coefficient_consumers=[]
+for score in [F(1,2),F(1,4)]:
+ for count in [3,5,10]:
+  tt=s.Rational(score.numerator,score.denominator)/count
+  hv=s.factor(hn.subs({n:count,t:tt}));rv=s.factor(rhon.subs({n:count,t:tt}))
+  ck('positive_higher_count_Schur_'+str((score,count)),hv>0 and rv>0)
+  cn=c(score/count);hm=mul(count,W(0,score/count));hp=mul(count+1,W(0,score/(count+1)))
+  tn=sub(mul(count+1,hm),mul(count,hp));den=mul(2,add(exact(cn),tn));ln=(1/den[1],1/den[0]);hf1=F(hv)
+  ac=(1/(2*ln[1]**2*hf1),1/(2*ln[0]**2*hf1));gc=(1/(8*ln[1]**3*hf1),1/(8*ln[0]**3*hf1))
+  ck('higher_count_positive_value_curvature_'+str((score,count)),gc[0]>0)
+  coefficient_consumers.append({'score':str(score),'count':count,'h':str(hv),'first_score_slope':str(rv),'lambda_threshold':[str(q) for q in ln],'action_slope':[str(q) for q in ac],'gain_coefficient_per_upper_budget_distance':[str(q) for q in gc]})
+# The excluded n=1/S=1/2 corner has TWO critical first actions, not one.
+ck('n1_halfscore_double_criticality',c(F(1,2))==c(F(1,4)))
+ct('blind_n1_extension_rejected',c(F(1,2))-c(F(1,4))==0)
+ct('equal_suffix_score_derivative_not_zero',rhon.subs({n:3,t:s.Rational(1,6)})!=0)
+report={'result':'K2597','checks':checks,'contrary_controls':controls,'evidence_kind':'exact actual Hessian, rational continuum-corner support inequalities and feasible-policy/convex-tangent enclosure; local analytic theorem in note','rectangle':rows,'lambda0':[str(v) for v in lambda0],'k0':[str(v) for v in k0],'curvature':str(h),'score_slope':str(bp),'action_linear_coefficient':[str(v) for v in coefA],'gain_quadratic_coefficient_per_6_minus_M':[str(v) for v in coefG],'consumer':{'lambda':str(lam),'budget':str(M),'action':str(aa),'score':str(bb),'price':str(k),'weight':str(theta),'value_bounds':[str(lower),str(upper)],'gain_bounds':[str(lower-old[1]),str(upper-old[0])]},'general_curvature':str(ht),'higher_count_coefficient_consumers':coefficient_consumers,'general_count_curvature':str(hn),'ceiling':'local bifurcation for each fixed n>=2 and0<S<=1/2; separate n2 finite consumer; no uniform radius, infinite-count interchange or n1 halfscore extension'}
 refs=['lab/process/k2595-stopping-parameter-stability.json','explorations/conditional-build/k2587-countwise-stopping-support-2026-11-05.md','explorations/conditional-build/k2593-countwise-convex-stopping-2026-11-06.md']
 report['provenance']={f:hashlib.sha256((root/f).read_bytes()).hexdigest() for f in refs}
 out=root/'lab/process/k2597-stopping-threshold-bifurcation.json'

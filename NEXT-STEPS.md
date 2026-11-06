@@ -5,6 +5,11 @@ doc_type: roadmap
 updated_at: "2026-10-26"
 ---
 
+## Current general-count follow-through — 2026-11-06
+
+Do not requeue any fixed n>=2 local threshold bifurcation. The next stopping candidates are the explicitly double-critical n1/S=.5 corner and uniform n-to-infinity scaling; both need new coupled-support or uniform-gap estimates. K2596 remains a modal scalar result; full tensor/all-angular singularity and old-preparation boundary defect require their own operator analysis. Compare these with independently calibrated readout/native displacement; no GU or physical credit follows from the conditional mathematics.
+
+
 ## Current follow-through — 2026-11-06
 
 Reuse K2596 exact full scalar coefficient, invariant radial jump, sharp modal Hs threshold, two-measure form and diagonal smoothing errors; full tensor/all-angular singularity and old-preparation boundary defect remain independent. Reuse K2597 score-general local count-two optimizer, price/value expansions and separately certified .54997 consumer. Compare the released higher-count generalization with physical boundary/readout and native displacement input construction; do not requeue completed modal or count-two results. Source/ledger/canon debts persist.

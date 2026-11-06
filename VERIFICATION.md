@@ -5,6 +5,17 @@ doc_type: verification-map
 updated_at: "2026-10-27"
 ---
 
+## K2597 extension: Every fixed finite-count threshold (2026-11-06)
+
+K2597 now proves the local stopping threshold bifurcation for EVERY fixed finite count n>=2 and score0<S<=1/2. Exact suffix-action signs and Jensen reduction give unequal first/suffix scores; the optimal action grows linearly, transition price and budget-value gain quadratically, and each half-open count budget chord is C1 but not C2 at its threshold. Symbolic general-count identities and exact coefficient consumers at n3/5/10 for two scores are executed; the separately certified n2/.54997/budget5 consumer is retained. The n1/S=.5 corner has two critical action directions and is explicitly outside this proof; no uniform large-count neighborhood or infinite-limit interchange is claimed. K2596 fixed-mode radial cusp, sharp Hs, reciprocal two-measure pairing and smoothing consequences remain valid. Source, ledger0.263 and canon unchanged.
+
+- [General theorem and retained exact consumer](explorations/conditional-build/k2597-stopping-threshold-bifurcation-2026-11-06.md).
+
+Independent specialist and distinct integrated hostile reviews returned final findings[] on the general-count extension. Final probe:63 supporting checks and9 contrary controls. Exact symbolic stage derivatives, crossing/budget/gain identities and coefficient consumers support the written global local-support proof; no explicit uniform neighborhood or new higher-count finite-offset optimizer is claimed.
+
+Earlier sections preserve historical scopes.
+
+
 ## K2596--K2597: Radial response cusp and stopping threshold bifurcation (2026-11-06)
 
 K2596 derives the nonzero preparation-invariant radial cusp of the full scalar pressure-readable metric coefficient at each fixed scalar and finite angular mode. It proves sharp local H^s regularity exactly for s<3/2, reciprocal two-finite-radial-measure pairing on the repaired preparation, and nonzero first-order diagonal smoothing errors. This is not full tensor or all-angular point regularity. K2597 resolves the count-two stopping bifurcation for each fixed score0<S<=1/2: globally supported positive first action and unequal scores emerge linearly; price shift and fixed-budget value gain are quadratic; the value is C1 but not C2 at the threshold. A separately certified S=.5/lambda.54997/budget5 consumer improves the old chord by more4.62e-12 with enclosure below1e-50. No uniform score-neighborhood, physical probability or native GU recovery. Source, ledger0.263 and canon unchanged.
