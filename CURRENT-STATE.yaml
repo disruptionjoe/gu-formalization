@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 5c8d30e2ebd25fe3d7800334198790d5f4babc49
+revision_basis: ac7052326abff3366e61781f87efb5e7b1c8ff00
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -118,6 +118,17 @@ reviewed_prediction_interfaces_2026_10_27:
 current_result:
   status: conditional_research_front
   summary: >-
+    K2597 completes the local stopping-transition class for every fixed finite n>=1 and
+    score0<S<=1/2. Count one below half score has a single critical action; at half score both
+    competing first actions activate, with an exact coupled price shift and different
+    fixed-budget quadratic gain. A globally supported pure-two branch closes the moving upper
+    resource endpoint, yielding a piecewise quadratic/constant boundary-layer profile with
+    matched value and slope and exactly zero gain at budget4. Earlier n>=2 all-count results and
+    the certified n2/.54997/budget5 consumer remain valid. K2596 modal radial cusp, sharp Hs
+    regularity, two-measure reciprocity and smoothing errors remain valid. Uniform
+    infinite-count and joint score/multiplier limits, full tensor/all-angular point behavior and
+    physical calibration are not established. Source, ledger0.263 and canon unchanged.
+    Historical predecessor (not live):
     K2597 now proves the local stopping threshold bifurcation for EVERY fixed finite count n>=2
     and score0<S<=1/2. Exact suffix-action signs and Jensen reduction give unequal first/suffix
     scores; the optimal action grows linearly, transition price and budget-value gain
@@ -21377,6 +21388,10 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  Which uniform large-count or joint score/multiplier scaling can be justified beyond the
+  completed fixed-parameter local class, versus full-field singularity and independently
+  calibrated readout?
+  Historical predecessor (not live):
   Can the n1 half-score double-critical transition or uniform large-count scaling be resolved
   without assuming the single-critical-direction proof, and which full-field boundary/readout
   constraints remain independent?
@@ -25905,6 +25920,14 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  Reuse all fixed finite-count local stopping bifurcations, including count-one half-score
+  coupled support and its moving-endpoint boundary layer. Do not infer a uniform radius in count
+  or score: positive-price count cutoff collapses as n grows and the score-gap degenerates as S
+  approaches1/2. The remaining limits need uniform remainder/global-support estimates. Compare
+  this harder scaling problem with actual full-field/all-angular response singularity,
+  old-preparation boundary reciprocity and physically justified readout/native displacement
+  inputs. No current result supplies physical or GU recovery.
+  Historical predecessor (not live):
   Do not requeue any fixed n>=2 local threshold bifurcation. The next stopping candidates are
   the explicitly double-critical n1/S=.5 corner and uniform n-to-infinity scaling; both need new
   coupled-support or uniform-gap estimates. K2596 remains a modal scalar result; full

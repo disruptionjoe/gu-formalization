@@ -3,7 +3,7 @@
 ## Latest conditional constructions (2026-11-06)
 
 - [K2596 full-coefficient and cusp probe](k2596_radial_response_singularity_probe.py).
-- [K2597 general-count identities and exact consumer probe](k2597_stopping_threshold_bifurcation_probe.py).
+- [K2597 finite-count and endpoint identities with exact consumer](k2597_stopping_threshold_bifurcation_probe.py).
 
 
 ## Latest conditional constructions (2026-11-06)

@@ -63,7 +63,21 @@
     "higher_count_positive_value_curvature_(Fraction(1, 4), 5)",
     "positive_higher_count_Schur_(Fraction(1, 4), 10)",
     "higher_count_positive_value_curvature_(Fraction(1, 4), 10)",
-    "n1_halfscore_double_criticality"
+    "n1_halfscore_double_criticality",
+    "count_one_score_gap",
+    "actual_count_one_halfscore_curvature",
+    "distinct_positive_critical_curvatures",
+    "double_critical_support_expansion_1",
+    "double_critical_support_expansion_2",
+    "coupled_tie_price_shift",
+    "coupled_fixed_budget_gain",
+    "pure_two_price_derivative",
+    "pure_two_zero_action_endpoint",
+    "moving_endpoint_layer",
+    "layer_value_matches_mixture",
+    "layer_first_derivative_matches",
+    "exact_budget_four_no_gain",
+    "coupled_price_shift_negative_interval"
   ],
   "contrary_controls": [
     "frozen_equal_score_wrong",
@@ -74,7 +88,10 @@
     "budget6_has_no_gain",
     "reversed_price_shift_wrong",
     "blind_n1_extension_rejected",
-    "equal_suffix_score_derivative_not_zero"
+    "equal_suffix_score_derivative_not_zero",
+    "single_critical_halfscore_price_wrong",
+    "fixed_budget_expansion_not_uniform_to_four",
+    "pure_layer_not_constant"
   ],
   "evidence_kind": "exact actual Hessian, rational continuum-corner support inequalities and feasible-policy/convex-tangent enclosure; local analytic theorem in note",
   "rectangle": [
@@ -260,8 +277,25 @@
       ]
     }
   ],
+  "count_one_extension": {
+    "lambda1": [
+      "525000000000000000000000000000000000000000000000000000000000000000/978831397514644390920856927611752861952532677424382078227161856373",
+      "525000000000000000000000000000000000000000000000000000000000000000/978831397514644390920856927611752861952532677424382078227161856331"
+    ],
+    "h1": "1312/441",
+    "h2": "171736/24255",
+    "coupled_price_quadratic_coefficient": [
+      "-3891052669869078034554954414748738256636035762629748706644663905074408419329337591174133671269861969041000971820783901800284960162230025251622364326398683867092636335535730245331678163170061527367368433/24644116000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "-3891052669869078034554954414748738256636035762629748706644663904573532949204086713975190850242130516582259376353977223408266491353803987439819452836803407679215031764259688373465142407285009240437754959/24644116000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+    ],
+    "layer_threshold_s": [
+      "10539219952365189640625530403778776253306701462075148079881943548562624580445538339387670179827348054038104396387546786685204732597171/10733500000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "10539219952365189640625530403778776253306701462075148079881943549467064791749069756598541980940607698482244590327675826967102287866419/10733500000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+    ],
+    "scope": "local halfscore; fixed budget2<=M<4 and moving M=4-s delta with fixed bounded s; no finite-offset optimizer certificate"
+  },
   "general_count_curvature": "4*(n*t**5 - 14*n*t**4 + 74*n*t**3 - 184*n*t**2 + 216*n*t - 96*n - t**5 + 6*t**4 - 11*t**3 + 6*t**2 - t)/(n*t*(t - 4)**2*(t - 3)*(t - 2)**2)",
-  "ceiling": "local bifurcation for each fixed n>=2 and0<S<=1/2; separate n2 finite consumer; no uniform radius, infinite-count interchange or n1 halfscore extension",
+  "ceiling": "all fixed finite n>=1 local bifurcations; n1 halfscore coupled branch and moving endpoint treated separately; no uniform large-count or two-parameter radius; separate n2 finite consumer",
   "provenance": {
     "lab/process/k2595-stopping-parameter-stability.json": "2ad3bf9f1d580be997b8927266ea91f50c35dd916d94c10d4b43ebe357005677",
     "explorations/conditional-build/k2587-countwise-stopping-support-2026-11-05.md": "9fd78e7f4053b92135841a5063b9f0c5b764e49fbbcc1d574b88423346a03710",

@@ -137,7 +137,48 @@ for score in [F(1,2),F(1,4)]:
 ck('n1_halfscore_double_criticality',c(F(1,2))==c(F(1,4)))
 ct('blind_n1_extension_rejected',c(F(1,2))-c(F(1,4))==0)
 ct('equal_suffix_score_derivative_not_zero',rhon.subs({n:3,t:s.Rational(1,6)})!=0)
-report={'result':'K2597','checks':checks,'contrary_controls':controls,'evidence_kind':'exact actual Hessian, rational continuum-corner support inequalities and feasible-policy/convex-tangent enclosure; local analytic theorem in note','rectangle':rows,'lambda0':[str(v) for v in lambda0],'k0':[str(v) for v in k0],'curvature':str(h),'score_slope':str(bp),'action_linear_coefficient':[str(v) for v in coefA],'gain_quadratic_coefficient_per_6_minus_M':[str(v) for v in coefG],'consumer':{'lambda':str(lam),'budget':str(M),'action':str(aa),'score':str(bb),'price':str(k),'weight':str(theta),'value_bounds':[str(lower),str(upper)],'gain_bounds':[str(lower-old[1]),str(upper-old[0])]},'general_curvature':str(ht),'higher_count_coefficient_consumers':coefficient_consumers,'general_count_curvature':str(hn),'ceiling':'local bifurcation for each fixed n>=2 and0<S<=1/2; separate n2 finite consumer; no uniform radius, infinite-count interchange or n1 halfscore extension'}
+
+# Count-one extension and the actual double-critical half-score corner.
+SS=s.symbols('SS',positive=True)
+cs=lambda z:2*(3-2*z)/((2-z)*(4-z))
+cdiff=s.factor(cs(SS)-cs(SS/2))
+ck('count_one_score_gap',s.simplify(cdiff-2*SS*(1-2*SS)/((2-SS)*(4-SS)*(8-SS)))==0)
+h1=s.factor(s.diff(w,a,2).subs({a:0,b:s.Rational(1,2)}));h2=s.Rational(171736,24255)
+ck('actual_count_one_halfscore_curvature',h1==s.Rational(1312,441));ck('distinct_positive_critical_curvatures',0<h1<h2)
+d,Lzero,hh1,hh2,Bcorr,qcoef=s.symbols('d Lzero hh1 hh2 Bcorr qcoef',nonzero=True)
+HH1,HH2=s.symbols('HH1 HH2');TT1=2*HH1-HH2;cc=1/(2*Lzero)-TT1;lamx=Lzero+d;kx=lamx*(HH1-HH2)+qcoef*d*d
+support_coeff=[]
+for mm,hh,HH in [(1,hh1,HH1),(2,hh2,HH2)]:
+ ax=d/(2*Lzero**2*hh)+Bcorr*d*d;gx=HH-cc*ax+hh*ax*ax/2
+ priced=(1-2*lamx*gx-2*mm*kx)/(1+ax);Qbase=1-2*lamx*TT1
+ coeff=s.expand(s.series(priced-Qbase,d,0,3).removeO()).coeff(d,2)
+ ck('double_critical_support_expansion_'+str(mm),s.simplify(coeff-(-2*mm*qcoef+1/(4*Lzero**3*hh)))==0);support_coeff.append(coeff)
+qc=(1/hh2-1/hh1)/(8*Lzero**3)
+ck('coupled_tie_price_shift',s.simplify((support_coeff[0]-support_coeff[1]).subs(qcoef,qc))==0)
+mb=s.symbols('mb',real=True);gainfixed=(support_coeff[0]+mb*qcoef).subs(qcoef,qc)
+ck('coupled_fixed_budget_gain',s.simplify(gainfixed-((4-mb)/hh1+(mb-2)/hh2)/(8*Lzero**3))==0)
+# Global pure branch stationarity derivative, then exact small-layer expansion.
+kfun=(1-2*L*(gg-(1+x)*s.diff(gg,x)))/4
+ck('pure_two_price_derivative',s.simplify(s.diff(kfun,x)-L*(1+x)*s.diff(gg,x,2)/2)==0)
+endprice=(1-2*lamx*(HH2+cc))/4
+ck('pure_two_zero_action_endpoint',s.simplify(endprice-(lamx*(HH1-HH2)-d/(4*Lzero)))==0)
+ss=s.symbols('ss',nonnegative=True);Mlayer=4-ss*d;alayer=4/Mlayer-1;glayer=HH2-cc*alayer+hh2*alayer**2/2
+Fpure=Mlayer/4-lamx*Mlayer*glayer/2;Fold=1-lamx*((4-Mlayer)*HH1+(Mlayer-2)*HH2)
+layercoeff=s.expand(s.series(Fpure-Fold,d,0,3).removeO()).coeff(d,2);expect=ss/(4*Lzero)-Lzero*hh2*ss**2/16
+ck('moving_endpoint_layer',s.simplify(layercoeff-expect)==0)
+sc=2/(Lzero**2*hh2);cap=1/(4*Lzero**3*hh2)
+ck('layer_value_matches_mixture',s.simplify(expect.subs(ss,sc)-cap)==0)
+ck('layer_first_derivative_matches',s.simplify(s.diff(expect,ss).subs(ss,sc))==0)
+ck('exact_budget_four_no_gain',s.simplify((Fpure-Fold).subs(ss,0))==0)
+ct('single_critical_halfscore_price_wrong',s.simplify(qc+1/(8*Lzero**3*hh1))!=0)
+ct('fixed_budget_expansion_not_uniform_to_four',s.simplify(gainfixed.subs(mb,4)-cap)==0 and cap!=0)
+ct('pure_layer_not_constant',s.diff(expect,ss)!=0)
+# Exact log intervals enclose the half-score lambda1 coefficients.
+T1=sub(mul(2,H(1)),H(2));den1=mul(2,add(exact(c(S)),T1));lone=(1/den1[1],1/den1[0]);h1f=F(h1);h2f=F(h2)
+qraw=1/h2f-1/h1f;qs=(qraw/(8*lone[0]**3),qraw/(8*lone[1]**3))
+ck('coupled_price_shift_negative_interval',qs[0]<qs[1]<0)
+count_one={'lambda1':[str(v) for v in lone],'h1':str(h1),'h2':str(h2),'coupled_price_quadratic_coefficient':[str(v) for v in qs],'layer_threshold_s':[str(2/(v*v*h2f)) for v in (lone[1],lone[0])],'scope':'local halfscore; fixed budget2<=M<4 and moving M=4-s delta with fixed bounded s; no finite-offset optimizer certificate'}
+report={'result':'K2597','checks':checks,'contrary_controls':controls,'evidence_kind':'exact actual Hessian, rational continuum-corner support inequalities and feasible-policy/convex-tangent enclosure; local analytic theorem in note','rectangle':rows,'lambda0':[str(v) for v in lambda0],'k0':[str(v) for v in k0],'curvature':str(h),'score_slope':str(bp),'action_linear_coefficient':[str(v) for v in coefA],'gain_quadratic_coefficient_per_6_minus_M':[str(v) for v in coefG],'consumer':{'lambda':str(lam),'budget':str(M),'action':str(aa),'score':str(bb),'price':str(k),'weight':str(theta),'value_bounds':[str(lower),str(upper)],'gain_bounds':[str(lower-old[1]),str(upper-old[0])]},'general_curvature':str(ht),'higher_count_coefficient_consumers':coefficient_consumers,'count_one_extension':count_one,'general_count_curvature':str(hn),'ceiling':'all fixed finite n>=1 local bifurcations; n1 halfscore coupled branch and moving endpoint treated separately; no uniform large-count or two-parameter radius; separate n2 finite consumer'}
 refs=['lab/process/k2595-stopping-parameter-stability.json','explorations/conditional-build/k2587-countwise-stopping-support-2026-11-05.md','explorations/conditional-build/k2593-countwise-convex-stopping-2026-11-06.md']
 report['provenance']={f:hashlib.sha256((root/f).read_bytes()).hexdigest() for f in refs}
 out=root/'lab/process/k2597-stopping-threshold-bifurcation.json'

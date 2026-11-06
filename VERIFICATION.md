@@ -5,6 +5,17 @@ doc_type: verification-map
 updated_at: "2026-10-27"
 ---
 
+## K2597 extension: Finite-count class and coupled endpoint completion (2026-11-06)
+
+K2597 completes the local stopping-transition class for every fixed finite n>=1 and score0<S<=1/2. Count one below half score has a single critical action; at half score both competing first actions activate, with an exact coupled price shift and different fixed-budget quadratic gain. A globally supported pure-two branch closes the moving upper resource endpoint, yielding a piecewise quadratic/constant boundary-layer profile with matched value and slope and exactly zero gain at budget4. Earlier n>=2 all-count results and the certified n2/.54997/budget5 consumer remain valid. K2596 modal radial cusp, sharp Hs regularity, two-measure reciprocity and smoothing errors remain valid. Uniform infinite-count and joint score/multiplier limits, full tensor/all-angular point behavior and physical calibration are not established. Source, ledger0.263 and canon unchanged.
+
+- [General theorem and retained exact consumer](explorations/conditional-build/k2597-stopping-threshold-bifurcation-2026-11-06.md).
+
+Independent specialist and distinct integrated hostile reviews returned final findings[] on the count-one and coupled-endpoint extension. Final probe:77 supporting checks and12 contrary controls. Exact symbolic stage derivatives, crossing/budget/gain identities and coefficient consumers support the written global local-support proof; no explicit uniform neighborhood or new higher-count finite-offset optimizer is claimed.
+
+Earlier sections preserve historical scopes.
+
+
 ## K2597 extension: Every fixed finite-count threshold (2026-11-06)
 
 K2597 now proves the local stopping threshold bifurcation for EVERY fixed finite count n>=2 and score0<S<=1/2. Exact suffix-action signs and Jensen reduction give unequal first/suffix scores; the optimal action grows linearly, transition price and budget-value gain quadratically, and each half-open count budget chord is C1 but not C2 at its threshold. Symbolic general-count identities and exact coefficient consumers at n3/5/10 for two scores are executed; the separately certified n2/.54997/budget5 consumer is retained. The n1/S=.5 corner has two critical action directions and is explicitly outside this proof; no uniform large-count neighborhood or infinite-limit interchange is claimed. K2596 fixed-mode radial cusp, sharp Hs, reciprocal two-measure pairing and smoothing consequences remain valid. Source, ledger0.263 and canon unchanged.

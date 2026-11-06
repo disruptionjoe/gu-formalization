@@ -5,7 +5,7 @@ doc_type: exploration
 created: "2026-11-06"
 classification: CONVENTIONAL_COMPARATOR
 target_claim: NONE-NOT-A-KILL
-claim_ceiling: local threshold neighborhood for each fixed n>=2 and score; separate exact half-score consumer, no arbitrary multiplier topology or physical probability
+claim_ceiling: local threshold neighborhood for each fixed n>=1 and score, separate half-score count-one coupled branch; separate exact half-score consumer, no arbitrary multiplier topology or physical probability
 scripts:
   - tests/channel-swings/k2597_stopping_threshold_bifurcation_probe.py
 ---
@@ -23,7 +23,7 @@ Classification: `CONVENTIONAL_COMPARATOR`.
 
 ```gu-typed-objects
 result: K2597
-carrier: original fair stopping model for each fixed n>=2 and 0<S<=1/2 near its count-n threshold LAYER=toy CHIRALITY=N/A
+carrier: original fair stopping model for each fixed n>=1 and 0<S<=1/2 near its count-n threshold LAYER=toy CHIRALITY=N/A
 pairing: unconditional success minus leakage with expected positive-trial budget ON=declared_carrier
 real_structure: real controls and private randomization
 grading: score, first action, stage count and expected trials distinguished
@@ -34,6 +34,8 @@ target: global local optimizer bifurcation, price and value asymptotics, certifi
 # Resolve the sharp count-two threshold
 
 ## Result and scope
+
+**Finite-count class completed:** Section7 adds n=1 for0<S<1/2 and solves the double-critical n=1,S=1/2 corner with both positive-action branches and its moving budget endpoint. The result is local for each fixed count/score; no uniform n limit or joint score/multiplier neighborhood is inferred.
 
 **General-count extension:** Section6 proves the same local bifurcation for EVERY fixed finite count n>=2, with a neighborhood depending on n and S. It executes exact coefficient consumers for n=3,5,10 at two scores, and identifies a double-critical n=1 half-score corner where this one-critical-direction proof cannot be reused. Sections1–5 retain the count-two derivation and its independently certified finite-offset consumer.
 
@@ -170,10 +172,72 @@ There is a concrete obstruction to blindly extending this single-critical-direct
 
 The neighborhood depends on BOTH S and n. As n grows the positive threshold price tends to zero, so the finite-count cutoff used here is not uniform. No interchange of n->infinity with lambda->2/(3+S), uniform Taylor radius or whole-multiplier phase diagram is proved. Those require new estimates, not substitution into(14).
 
+## 7. Count one and its double-critical half-score corner
+
+For0<S<1/2,
+
+    c(S)-c(S/2)=2S(1-2S)/[(2-S)(4-S)(8-S)]>0.           (16)
+
+Thus at lambda1 the upper count-two schedule has strictly negative first-action derivative, and all its suffix directions are also negative. The earlier compactness and single-critical proof applies with g1(a)=w(a,S), h1=w_aa(0,S)>0, without a score-minimization variable. Equations(13)–(15) hold with n=1 for every fixed2<=M<4. At M=4 the upper zero-two policy remains exact. This completes the nondegenerate finite-count class; the radius still depends on the fixed score.
+
+### Both active branches at S=1/2
+
+At this corner c(1/2)=c(1/4)=16/21. Let lambda*=lambda1(1/2), Delta1=H1-H2, delta=lambda-lambda*, and
+
+    g1(a)=w(a,1/2), h1=g1''(0)=1312/441,
+    g2(a)=min_b[w(a,b)+w0(1/2-b)], h2=171736/24255.      (17)
+
+Only counts one and two can compete locally: K2587's equality classification, positive-price count cutoff and charged-zero compactness still apply. Count-two suffix action is strictly unfavorable; its first score is the unique b(a) of section1. Both first actions are critical at delta=0. Analytically extend the two reduced stationary equations to signed actions near zero. Their support functions have Hessians2lambda* h_i>0. The remaining tie derivative is R2-R1=2 at the base. The implicit-function theorem therefore gives a unique joint stationary/tie branch; its leading actions below show both become admissibly positive for delta>0.
+
+At k=lambda Delta1+q delta², direct expansion of the original priced objective gives
+
+    a_i=delta/(2lambda*² h_i)+O(delta²),
+    Q_i=Q0(lambda)-2i q delta²+delta²/(4lambda*³h_i)+O(delta³),
+    Q0(lambda)=1-2lambda(2H1-H2), i=1,2.               (18)
+
+Equality determines
+
+    kc=lambda Delta1+q* delta²+O(delta³),
+    q*=(1/h2-1/h1)/(8lambda*³)<0,
+    R1c=2-delta/(lambda*²h1)+O(delta²),
+    R2c=4-2delta/(lambda*²h2)+O(delta²).               (19)
+
+The gap between resources persists, so Q1-Q2 is strictly increasing in price. These stationary maxima and their tie are globally supported within the local all-count reduction. For every fixed2<=M<4, mix the actual policies with theta=(R2c-M)/(R2c-R1c). Exact budget restoration and support give
+
+    F-Fold=delta²[(4-M)/h1+(M-2)/h2]/(8lambda*³)+O(delta³),
+    Fold=1-lambda[(4-M)H1+(M-2)H2].                   (20)
+
+The coefficient is positive. Below threshold the old chord is exact, so its value is again C1 but not C2. This is NOT the single-active-branch coefficient: the count-two gain contributes. Formula(20) is for fixed M<4; extending it uniformly to M=4 would be false.
+
+### Execute the moving endpoint, not a false M=4 gain
+
+Define
+
+    k_end=(1-2lambda(H2+c))/4
+         =lambda Delta1-delta/(4lambda*), c=16/21,
+    k2(a,lambda)=[1-2lambda(g2-(1+a)g2')]/4,
+    partial_a k2=lambda(1+a)g2''/2>0.                 (21)
+
+At a=0 this is k_end; at the mixed tie it is kc. Thus0<=a<=a2c parametrizes globally supported pure-two resources R2c<=M<=4. Below kc, Q2 dominates Q1 by the strict resource gap, and all other counts remain excluded locally. The exact pure value is
+
+    F=M/4-(lambda M/2)g2(4/M-1).                      (22)
+
+This proves the consuming branch before expanding it. At M=4 the gain is EXACTLY zero, also independently implied by K2587's next threshold lambda2>lambda1.
+
+For M=4-s delta with fixed bounded s>=0, let s_c=2/(lambda*²h2). Equations(19) and(22) yield the actual boundary layer
+
+    F-Fold = delta² L(s)+O(delta³),
+    L(s)=s/(4lambda*)-lambda* h2 s²/16, 0<=s<=s_c,
+    L(s)=1/(4lambda*³h2),                   s>=s_c.   (23)
+
+The two pieces meet with matching value AND first derivative. The exact switching s differs from s_c by O(delta), which only changes(23) at the stated remainder order; no fixed-budget expansion is illicitly interchanged with the endpoint limit. For bounded s away from zero, the mixed or pure branch is determined as above; at s=0, gain is identically zero. This closes the moving upper-resource endpoint omitted by(20).
+
+The probe derives(16), both actual curvatures, joint support and tie expansions with arbitrary second-order action corrections, pure-branch derivative, endpoint price, exact layer polynomial and matching. Rational log bounds also enclose lambda* and its negative coupled price coefficient. These are symbolic/asymptotic consumers, not a newly claimed finite-offset global numerical optimizer. Independent specialist and distinct integrated hostile reviews returned findings[] on the global branch bridge and final extension. The earlier separately certified n=2 finite consumer remains unchanged.
+
 ## Verification and next condition
 
 The exact probe computes the true Hessian, score Schur complement, crossing elimination, all-policy rectangle inequalities and original-policy global enclosure. Written compactness/strict-gap and implicit-function arguments carry the score-general local theorem. Contrary controls reject fixed-score curvature, frozen equal scores, reversed price shift, rounded mixture resource and strict improvement at budget6. Independent field-specialist and distinct integrated hostile reviews returned final substantive findings[].
 
-Next compare the n=1 half-score double-critical transition or uniform large-count transition estimates with the response preparation/readout problem. All fixed finite n>=2 local transitions, quadratic gain and value regularity are now covered, together with the separately certified count-two half-score consumer. No claim of a full all-score global frontier is made.
+Next compare uniform large-count or joint score-to-half-score transition estimates with the independent full-field response and readout problem. All fixed finite n>=1 local transitions are now covered, including the half-score coupled corner and its moving endpoint, together with the separately certified count-two finite consumer. No claim of a full all-score global frontier is made.
 
 [K2587](k2587-countwise-stopping-support-2026-11-05.md), [K2593](k2593-countwise-convex-stopping-2026-11-06.md), [K2595](k2595-stopping-parameter-stability-2026-11-06.md), [probe](../../tests/channel-swings/k2597_stopping_threshold_bifurcation_probe.py), [report](../../lab/process/k2597-stopping-threshold-bifurcation.json).

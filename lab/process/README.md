@@ -8,7 +8,7 @@ updated_at: "2026-08-23"
 ## Latest conditional constructions (2026-11-06)
 
 - [K2596 report](k2596-radial-response-singularity.json).
-- [K2597 all finite-count bifurcation report](k2597-stopping-threshold-bifurcation.json).
+- [K2597 finite-count and coupled-endpoint report](k2597-stopping-threshold-bifurcation.json).
 
 
 ## Latest conditional constructions (2026-11-06)

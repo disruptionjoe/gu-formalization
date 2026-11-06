@@ -5,6 +5,11 @@ doc_type: roadmap
 updated_at: "2026-10-26"
 ---
 
+## Current completed finite-count class — 2026-11-06
+
+Reuse all fixed finite-count local stopping bifurcations, including count-one half-score coupled support and its moving-endpoint boundary layer. Do not infer a uniform radius in count or score: positive-price count cutoff collapses as n grows and the score-gap degenerates as S approaches1/2. The remaining limits need uniform remainder/global-support estimates. Compare this harder scaling problem with actual full-field/all-angular response singularity, old-preparation boundary reciprocity and physically justified readout/native displacement inputs. No current result supplies physical or GU recovery.
+
+
 ## Current general-count follow-through — 2026-11-06
 
 Do not requeue any fixed n>=2 local threshold bifurcation. The next stopping candidates are the explicitly double-critical n1/S=.5 corner and uniform n-to-infinity scaling; both need new coupled-support or uniform-gap estimates. K2596 remains a modal scalar result; full tensor/all-angular singularity and old-preparation boundary defect require their own operator analysis. Compare these with independently calibrated readout/native displacement; no GU or physical credit follows from the conditional mathematics.
