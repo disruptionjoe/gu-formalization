@@ -1,0 +1,122 @@
+{
+  "result": "K2614",
+  "checks": [
+    "original_log_coefficient_1",
+    "original_log_coefficient_2",
+    "original_log_coefficient_3",
+    "original_log_coefficient_4",
+    "actual_prefix_cubic_1",
+    "actual_prefix_quartic_1",
+    "actual_prefix_cubic_2",
+    "actual_prefix_quartic_2",
+    "actual_prefix_cubic_3",
+    "actual_prefix_quartic_3",
+    "constrained_action_square",
+    "activation_value_matches",
+    "activation_first_derivative_matches",
+    "active_B1",
+    "active_D1",
+    "active_D2",
+    "active_count2_score_correction",
+    "unit_active_D1",
+    "active_first_shift",
+    "active_second_shift",
+    "inactive_first_shift",
+    "inactive_second_shift",
+    "exact_activation_numerator",
+    "derivative_numerator_monotone",
+    "exact_threshold_series",
+    "unit_finer_activation",
+    "rational_active_feasible_100",
+    "rational_active_residual_bounded_100",
+    "rational_active_feasible_200",
+    "rational_active_residual_bounded_200",
+    "rational_active_feasible_400",
+    "rational_active_residual_bounded_400",
+    "finer_corner_bracket_signs",
+    "finer_corner_exact_activation",
+    "inactive_tie_initial_bracket",
+    "inactive_tie_certified_bracket",
+    "inactive_branch_action_margin_1",
+    "inactive_branch_action_margin_2"
+  ],
+  "contrary_controls": [
+    "discarding_prefix_price_is_wrong",
+    "activation_is_not_C2",
+    "equal_score_quartic_misses_gain",
+    "zero_cubic_action_not_exact_zero",
+    "wrong_no_price_threshold"
+  ],
+  "coefficients_2w": [
+    "be/2",
+    "-3*al/2 + 3*be**2/16",
+    "2*al**2/be - al*be/8 + 7*be**3/96",
+    "-2*al**3/be**2 - 13*al**2/16 + 3*al*be**2/32 + 15*be**4/512"
+  ],
+  "active_D1": "x*(-4860*mu**3 + 4536*mu**2*x + 1981*mu*x**2 + 13824*mu + 105*x**3 + 3840*x)/12288",
+  "active_D2": "x*(-19440*mu**3 + 11016*mu**2*x + 4309*mu*x**2 + 82944*mu + 354*x**3 + 17664*x)/49152",
+  "active_count2_score_correction": [
+    "x**2/64",
+    "-x**2/64"
+  ],
+  "count_shifts": [
+    {
+      "branch": "active",
+      "xi": "-65/12",
+      "zeta": "20837*sqrt(2)/2304"
+    },
+    {
+      "branch": "inactive",
+      "xi": "-28/3 + 6*sqrt(2)",
+      "zeta": "-28 + 209*sqrt(2)/9"
+    }
+  ],
+  "exact_inactive_tie": {
+    "e": "1/1000",
+    "lambda": "997/1500",
+    "score_bracket": [
+      "3941664410434313607611461502925018720729351/696898287454081973172991196020261297061888000",
+      "7883328820868627215222923005850037441458703/1393796574908163946345982392040522594123776000"
+    ],
+    "left_residual_Arb": "[-1.823331840762901309407766880e-49 +/- 4.17e-77]",
+    "right_residual_Arb": "[7.17861111528042844443785338e-50 +/- 6.62e-77]",
+    "ceiling": "exact two-branch tie; no explicit numerical global-validity radius"
+  },
+  "finite_policy_consumers": [
+    {
+      "e": "1/100",
+      "a": "1/64000",
+      "value_Arb": "[0.996454153816653332865704172031067654499426724417529656426278977983408160262 +/- 5.28e-76]",
+      "scaled_e5_residual_illustration": "[-0.01434774773184716857821234389462164471359232462609910905480728627 +/- 4.38e-66]"
+    },
+    {
+      "e": "1/200",
+      "a": "1/256000",
+      "value_Arb": "[0.998280206526563981058976561238667814060783166571160579157648500112933906881 +/- 1.27e-76]",
+      "scaled_e5_residual_illustration": "[-0.0140659916830559591818550561049422527841702251080355194167053536 +/- 7.75e-65]"
+    },
+    {
+      "e": "1/400",
+      "a": "1/1024000",
+      "value_Arb": "[0.999153385178283815020498610318342776773500707668858432070583652084085147353 +/- 3.31e-76]",
+      "scaled_e5_residual_illustration": "[-0.01392516231645256239218806157497569311187781944562488119031332 +/- 5.65e-63]"
+    }
+  ],
+  "activation_consumer": {
+    "e": "1/1000",
+    "lambda": "2399/3600",
+    "action_bracket": [
+      "7/10000000000",
+      "9/12500000000"
+    ],
+    "left_derivative_Arb": "[2.3725618773674023660138233780581105844024008911414787299736541776e-8 +/- 6.30e-73]",
+    "right_derivative_Arb": "[-2.9563710466628441457470158827931461569432508186556796227187187398e-8 +/- 6.94e-73]",
+    "lambda_c_Arb": "[0.666387630177327595327479982840841161278585138898133890126447082290548453 +/- 4.05e-73]"
+  },
+  "evidence_kind": "exact symbolic original log/prefix and optimization identities; outward Arb finite-policy and action-root signs; uniform all-policy theorem in note using predecessor localization",
+  "ceiling": "fixed compact terminal scaling, no infinite-count uniformity, exact tie from truncation or physical probability",
+  "provenance": {
+    "explorations/conditional-build/k2610-terminal-stopping-count-layer-2026-11-06.md": "1450d8175c9964b70cb6295110abf3ef9a3bad8ffbaaf162d61ea38aaa44d3d1",
+    "lab/process/k2610-terminal-stopping-count-layer.json": "220f0250ea6fc17065cd306e7e132845b933c07a97b97ceb8aec69aec1406dc1"
+  }
+}

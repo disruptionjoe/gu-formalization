@@ -1,0 +1,62 @@
+{
+  "result": "K2613",
+  "checks": [
+    "three_constraints_leave_nonzero_direction",
+    "nonzero_distinct_pair",
+    "prescribed_moment_unchanged",
+    "adaptive_same_baseline_transcript",
+    "positive_amplitude_fixture",
+    "norm_separation",
+    "nonlinear_antipodal_equal",
+    "squared_norm_antipodes",
+    "adaptive_nonlinear_fixture",
+    "adaptive_nonlinear_dimension_threshold",
+    "linear_nullity_1",
+    "linear_nullity_2",
+    "linear_nullity_3",
+    "linear_nullity_5",
+    "measured_line_recoverable",
+    "squared_risk_pair_average",
+    "constant_center_attains_radius",
+    "random_decoder_expected_risk"
+  ],
+  "contrary_controls": [
+    "nonlinear_pair_is_not_baseline",
+    "zero_squared_norm_is_singleton",
+    "classical_dimension_not_adaptive_general_threshold",
+    "restriction_removes_sphere_dimension",
+    "sensor_randomization_requires_new_argument"
+  ],
+  "finite_fixture": {
+    "direction": [
+      "-1/10",
+      "0",
+      "1/10",
+      "0"
+    ],
+    "moment": "4",
+    "transcript": [
+      "2",
+      "3"
+    ],
+    "nonlinear_common": [
+      "1/100",
+      "0"
+    ],
+    "nonlinear_baseline": [
+      "0",
+      "0"
+    ],
+    "expected_decoder_risks": [
+      "11/40",
+      "3/8"
+    ]
+  },
+  "evidence_kind": "exact finite linear/nonlinear/adaptive and risk fixtures; universal proof in note; adaptive-continuous result imported from Ullrich Theorem1",
+  "imported_reference": "https://arxiv.org/html/2610.33781v1",
+  "ceiling": "conditional smooth source class; no physical energy, explicit curved coefficients, randomized sensing or dimension-uniform error floor",
+  "provenance": {
+    "explorations/conditional-build/k2611-fixed-preparation-invisible-pressure-2026-11-06.md": "d3683b4412ad9bd903584b6b7592da6d0012268c114b5f99d14bdd838f54fcd7",
+    "lab/process/k2611-fixed-preparation-invisible-pressure.json": "6841e4cd71eb6bd5862b528ae4c5eaeb62f3e2ef2e98e7640061976afbe64bfe"
+  }
+}

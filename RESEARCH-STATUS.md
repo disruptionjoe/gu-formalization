@@ -6,6 +6,18 @@ updated_at: "2026-10-26"
 canon_sweep_at: "2026-07-25"
 ---
 
+## K2613--K2614: Finite information limits and quartic terminal stopping (2026-11-06)
+
+K2613 proves noninjectivity of finitely many continuous nonlinear source measurements on the prepared smooth pressure class. Deterministic adaptive linear readings retain baseline ambiguity; an explicitly imported adaptive-continuous theorem covers arbitrary deterministic nonlinear sensor selection. Positive-amplitude kernel balls with finite linear normalizations have exact minimax source-error radius; no physical energy, randomized-sensing theorem or arbitrary prescribed nonlinear-data ambiguity follows. K2614 derives the uniform quartic terminal stopping value and score correction, resolves active/inactive second count shifts, and constructs a genuine local inactive count-tie curve. The exact one-stage activation threshold yields a finer nonzero e-cubed action at the formerly undecided corner. Exact original-law identities and interval consumers support the analytic theorems. Fixed compact terminal scaling only; no global fluid/atomic diagram or infinite-count uniformity. Source, ledger0.263 and canon unchanged.
+
+- [K2613](explorations/conditional-build/k2613-finite-observation-pressure-ambiguity-2026-11-06.md).
+- [K2614](explorations/conditional-build/k2614-quartic-terminal-stopping-2026-11-06.md).
+
+Independent read-only specialists and a distinct integrated hostile reviewer checked finite-source information, topology transfer, source-norm error, original-log/prefix expansion, constrained uniformity, count shifts and exact activation. Review tightened post-transcript noise versus adaptive noise feedback and repaired a mutable-score capture corrupting serialized activation derivatives; tie margins now enclose the full interval bracket. Final substantive findings were empty after clarification. K2613 producer/replay18 exact supporting checks and5 contrary controls; K2614 producer/replay38 checks and5 controls, with three rational finite policies, an exact action-root bracket and an inactive two-branch tie bracket. Topological generality uses the cited classical and adaptive-continuous theorems; universal optimization uses the analytic argument and prior localization. No external-expert, proof-assistant, remote-CI or physical certification.
+
+Earlier sections preserve historical snapshots.
+
+
 ## K2611--K2612: Prepared pressure ambiguity and enlarged stopping phase (2026-11-06)
 
 K2611 proves that the fixed reciprocal preparation selects the synchronized compact pressure response, including exact cancellation of its cofactor commutator repair and the distinct TT modes. Exterior observation has an infinite-dimensional smooth correlated-pressure kernel. An explicit conserved background yields two distinct globally nonnegative A,P amplitude sources with identical exterior readings; finite linear moments/calibrations and upper transverse norm bounds do not generally restore injectivity. No positive energy, fixed-profile counterexample or arbitrary-jet domain extension is claimed. K2612 extends the all-policy diffuse stopping phase to lambda<=1/H_S(16119/17381), with half-score endpoint0.8604375545379493, exact constrained frontier, inverse leakage-budget interpretation and sharp inverse-error trial complexity. Three rational finite policies and interval endpoints are executed. The boundary is sufficient, not sharp; higher resource correctors retain their prior domains. Source, ledger0.263 and canon unchanged.

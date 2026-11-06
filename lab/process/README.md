@@ -7,6 +7,12 @@ updated_at: "2026-08-23"
 
 ## Latest conditional constructions (2026-11-06)
 
+- [K2613 report](k2613-finite-observation-pressure-ambiguity.json).
+- [K2614 report](k2614-quartic-terminal-stopping.json).
+
+
+## Latest conditional constructions (2026-11-06)
+
 - [K2611 report](k2611-fixed-preparation-invisible-pressure.json).
 - [K2612 report](k2612-extended-diffuse-stopping-phase.json).
 

@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: d3615c741610e26d1fa9f1b0885f821d633a0386
+revision_basis: 2efba53803392701e5685df1cc190aab987f6b3b
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -118,6 +118,19 @@ reviewed_prediction_interfaces_2026_10_27:
 current_result:
   status: conditional_research_front
   summary: >-
+    K2613 proves noninjectivity of finitely many continuous nonlinear source measurements on the
+    prepared smooth pressure class. Deterministic adaptive linear readings retain baseline
+    ambiguity; an explicitly imported adaptive-continuous theorem covers arbitrary deterministic
+    nonlinear sensor selection. Positive-amplitude kernel balls with finite linear
+    normalizations have exact minimax source-error radius; no physical energy,
+    randomized-sensing theorem or arbitrary prescribed nonlinear-data ambiguity follows. K2614
+    derives the uniform quartic terminal stopping value and score correction, resolves
+    active/inactive second count shifts, and constructs a genuine local inactive count-tie
+    curve. The exact one-stage activation threshold yields a finer nonzero e-cubed action at the
+    formerly undecided corner. Exact original-law identities and interval consumers support the
+    analytic theorems. Fixed compact terminal scaling only; no global fluid/atomic diagram or
+    infinite-count uniformity. Source, ledger0.263 and canon unchanged.
+    Historical predecessor (not live):
     K2611 proves that the fixed reciprocal preparation selects the synchronized compact pressure
     response, including exact cancellation of its cofactor commutator repair and the distinct TT
     modes. Exterior observation has an infinite-dimensional smooth correlated-pressure kernel.
@@ -18842,6 +18855,10 @@ current_result:
     coefficientwise A,C packet, global domain, BFV and positive
     cohomology/superposition now route to K129.
   evidence:
+  - explorations/conditional-build/k2613-finite-observation-pressure-ambiguity-2026-11-06.md
+  - explorations/conditional-build/k2614-quartic-terminal-stopping-2026-11-06.md
+  - lab/process/k2613-finite-observation-pressure-ambiguity.json
+  - lab/process/k2614-quartic-terminal-stopping.json
   - explorations/conditional-build/k2611-fixed-preparation-invisible-pressure-2026-11-06.md
   - explorations/conditional-build/k2612-extended-diffuse-stopping-phase-2026-11-06.md
   - lab/process/k2611-fixed-preparation-invisible-pressure.json
@@ -21521,6 +21538,10 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  Which actual source restriction removes the smooth affine kernel freedom, versus a sharp
+  fluid/atomic stopping junction or positive-action large-count rounding beyond the resolved
+  terminal layer?
+  Historical predecessor (not live):
   Which actual source restriction or interior observation removes the prepared pressure
   ambiguity, versus a sharp fluid/atomic stopping junction beyond the newly certified phase?
   Historical predecessor (not live):
@@ -26081,6 +26102,16 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  Reuse K2613 finite continuous nonlinear and deterministic adaptive calibration limits with
+  their dimension and source-class qualifications; finite calibration is no longer an untested
+  generic repair. Test a common radial-profile or physically derived nonlinear source
+  restriction, or an actual infinite-dimensional interior observation; explicit synchronized Ore
+  coefficients/order remain open. Reuse K2614 quartic terminal count/value/profile, exact
+  inactive tie and finer one-stage activation; do not requeue cubic or quartic endpoint
+  decisions as absent. Sharp fluid/atomic junction and positive-action large-count rounding
+  remain stronger stopping alternatives than routine fifth-order refinement. Native displacement
+  and independently justified empirical common calibration remain separate contenders.
+  Historical predecessor (not live):
   Reuse K2611 prepared smooth kernel and explicit nonnegative-amplitude equal-moment pairs; do
   not treat reciprocal boundary selection, finite linear calibration or upper norms alone as
   injectivity repairs. An actual common radial-profile restriction, nonlinear physical

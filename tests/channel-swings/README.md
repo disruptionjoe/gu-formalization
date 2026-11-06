@@ -2,6 +2,12 @@
 
 ## Latest conditional constructions (2026-11-06)
 
+- [K2613 information and recovery controls](k2613_finite_observation_pressure_ambiguity_probe.py).
+- [K2614 original-law quartic and transition consumers](k2614_quartic_terminal_stopping_probe.py).
+
+
+## Latest conditional constructions (2026-11-06)
+
 - [K2611 domain and source-prior controls](k2611_fixed_preparation_invisible_pressure_probe.py).
 - [K2612 output barrier and policy consumers](k2612_extended_diffuse_stopping_phase_probe.py).
 

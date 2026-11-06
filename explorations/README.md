@@ -7,6 +7,12 @@ updated_at: "2026-08-21"
 
 ## Latest conditional constructions (2026-11-06)
 
+- [K2613 finite pressure-information limits](conditional-build/k2613-finite-observation-pressure-ambiguity-2026-11-06.md).
+- [K2614 quartic terminal stopping](conditional-build/k2614-quartic-terminal-stopping-2026-11-06.md).
+
+
+## Latest conditional constructions (2026-11-06)
+
 - [K2611 fixed-preparation pressure ambiguity](conditional-build/k2611-fixed-preparation-invisible-pressure-2026-11-06.md).
 - [K2612 extended diffuse stopping phase](conditional-build/k2612-extended-diffuse-stopping-phase-2026-11-06.md).
 

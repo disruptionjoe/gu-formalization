@@ -7,6 +7,11 @@ updated_at: "2026-10-26"
 
 ## Current follow-through — 2026-11-06
 
+Reuse K2613 finite continuous nonlinear and deterministic adaptive calibration limits with their dimension and source-class qualifications; finite calibration is no longer an untested generic repair. Test a common radial-profile or physically derived nonlinear source restriction, or an actual infinite-dimensional interior observation; explicit synchronized Ore coefficients/order remain open. Reuse K2614 quartic terminal count/value/profile, exact inactive tie and finer one-stage activation; do not requeue cubic or quartic endpoint decisions as absent. Sharp fluid/atomic junction and positive-action large-count rounding remain stronger stopping alternatives than routine fifth-order refinement. Native displacement and independently justified empirical common calibration remain separate contenders.
+
+
+## Current follow-through — 2026-11-06
+
 Reuse K2611 prepared smooth kernel and explicit nonnegative-amplitude equal-moment pairs; do not treat reciprocal boundary selection, finite linear calibration or upper norms alone as injectivity repairs. An actual common radial-profile restriction, nonlinear physical admissibility condition or interior receiver needs its own calculation; actual synchronized Ore coefficients/order remain uncomputed. Reuse K2612 enlarged sufficient phase and all-policy/constrained/inverse-budget/complexity results. Next sharp fluid/atomic junction, positive-action discrete rounding or fourth-order terminal ties; no automatic transfer of later corrector bounds. Native displacement and independently justified common empirical calibration remain alternatives.
 
 
