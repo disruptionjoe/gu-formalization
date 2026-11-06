@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 0affc9870784fe062be11014d8f44938b3e9bb8e
+revision_basis: 56e286d75fb130c7900e6f8a5b2504dd975108a0
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -118,6 +118,18 @@ reviewed_prediction_interfaces_2026_10_27:
 current_result:
   status: conditional_research_front
   summary: >-
+    K2603 quantifies the full selected metric critical smoothing divergence: fixed-patch L^(7/5)
+    grows at least log(1/epsilon)^(5/7), and ordinary or anisotropic H^(-3/2) at least
+    sqrt(log(1/epsilon)). Actual curved conserved multiscale detectors prove the bounds for
+    mass-one uniformly TV-bounded localized sources and any homogeneous preparation, and give
+    aggregate observation and necessary resolution-budget consequences. K2604 sharpens the full
+    certified stopping law to C/M+O(M^-2), uniformly on compact positive score/multiplier
+    rectangles up to lambda=4/5. A priced Bellman barrier handles every adaptive policy;
+    explicit finite-mesh slack gives feasible bounds and six actual rational budget consumers.
+    Priced value, inverse resource C/eta+O(1), optimizer resource and deterministic stage-count
+    laws follow. No sufficient metric regularity, physical apparatus, second asymptotic
+    coefficient or native GU recovery. Source, ledger0.263 and canon unchanged.
+    Historical predecessor (not live):
     K2602 extends the sharp stopping resource law across the full certified continuum
     regime0<lambda<=4/5: the all-policy gap is2lambda I^2/M+O(M^-3/2), with I integrating
     survival-weighted square-root local loss. Quantitative occupation and action concentration
@@ -18776,6 +18788,10 @@ current_result:
     coefficientwise A,C packet, global domain, BFV and positive
     cohomology/superposition now route to K129.
   evidence:
+  - explorations/conditional-build/k2603-critical-metric-divergence-rates-2026-11-06.md
+  - explorations/conditional-build/k2604-second-order-stopping-resource-bound-2026-11-06.md
+  - lab/process/k2603-critical-metric-divergence-rates.json
+  - lab/process/k2604-second-order-stopping-resource-bound.json
   - explorations/conditional-build/k2602-continuum-stopping-resource-law-2026-11-06.md
   - lab/process/k2602-continuum-stopping-resource-law.json
   - explorations/conditional-build/k2600-full-metric-contact-regularity-2026-11-06.md
@@ -21435,6 +21451,10 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  Which independently specified physical readout or full-system sufficient regularity can
+  consume the quantitative contact bounds, versus the next coefficient and activation structure
+  beyond the uniform M^-2 stopping error?
+  Historical predecessor (not live):
   Which independently specified physical observation can consume the full-metric contact bounds,
   versus next-order structure beyond the now-uniform continuum stopping resource law?
   Historical predecessor (not live):
@@ -25977,6 +25997,16 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  Reuse K2603 full-metric logarithmic critical lower rates and multiscale detector/resolution
+  consequences; a matching upper rate requires actual characteristic and preparation control,
+  not the flat Newton fixture. Physical or source-disjoint response still needs an independently
+  justified coupling/domain. Reuse K2604 all-policy C/M+O(M^-2), priced value, bounded additive
+  inverse-resource error and optimizer count scaling. A second coefficient or scaled activation
+  profile needs a second corrector plus optimal finite-mesh/count rounding; beyond4/5 the global
+  generator comparison remains unproved. Compare native displacement on the actual non-Einstein
+  metric and empirical shared calibration; do not requeue critical lower rates, leading resource
+  or its sharpened uniform remainder as absent. Source/ledger/canon unchanged.
+  Historical predecessor (not live):
   Reuse K2600 full-solution contact regularity and critical smoothing divergence;
   physical/source-disjoint readout still needs an independently justified detector coupling or
   boundary/domain bridge. Reuse K2602 all-policy continuum resource coefficient,

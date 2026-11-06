@@ -1,0 +1,87 @@
+{
+  "result": "K2603",
+  "checks": [
+    "actual_contact_coefficient",
+    "actual_source_and_detector_orders",
+    "polynomial_core_source_signal",
+    "actual_rescaled_profile_power",
+    "Fourier_profile_power",
+    "Sobolev_cross_scale_factor",
+    "critical_shell_integral",
+    "dual_Lebesgue_exponent",
+    "Newton_fixture_same_critical_integrand",
+    "Gaussian_cross_scale_integral",
+    "Gaussian_normalized_diagonal",
+    "Gaussian_ratio_decay",
+    "Gram_row_sum_bound",
+    "dyadic_Gram_bound_1",
+    "dyadic_Gram_bound_2",
+    "dyadic_Gram_bound_4",
+    "dyadic_Gram_bound_8",
+    "dyadic_Gram_bound_16",
+    "dyadic_Gram_bound_32",
+    "dyadic_Gram_bound_64",
+    "Sobolev_budget_inverse_power",
+    "Lebesgue_budget_inverse_power",
+    "signed_mass_one_core_signal",
+    "unbounded_TV_witness_mass_one"
+  ],
+  "contrary_controls": [
+    "zero_mass_pair_cancels_contact",
+    "characteristic_covector_cancels",
+    "total_fourteen_dimension_wrong",
+    "identical_scales_have_no_gain",
+    "single_scale_does_not_diverge",
+    "zero_A_trace_cancels_contact",
+    "unbounded_TV_defeats_smooth_convergence"
+  ],
+  "critical_rates": {
+    "L7_5": "at least c log(r0/epsilon)^(5/7)",
+    "Hminus3_2": "at least c sqrt(log(r0/epsilon)); ordinary and L2_A Hminus3_2_B"
+  },
+  "scope": "full selected metric, mass-one uniformly TV-bounded B sources supported O(epsilon), fixed nonzero compact conserved A pressure; necessary bounds only",
+  "dyadic_consumers": [
+    {
+      "scales": 1,
+      "Gram_majorant": "1",
+      "squared_signal_over_majorant": "1"
+    },
+    {
+      "scales": 2,
+      "Gram_majorant": "33/16",
+      "squared_signal_over_majorant": "64/33"
+    },
+    {
+      "scales": 4,
+      "Gram_majorant": "68673/16384",
+      "squared_signal_over_majorant": "262144/68673"
+    },
+    {
+      "scales": 8,
+      "Gram_majorant": "145161849921/17179869184",
+      "squared_signal_over_majorant": "1099511627776/145161849921"
+    },
+    {
+      "scales": 16,
+      "Gram_majorant": "320472271120527348862017/18889465931478580854784",
+      "squared_signal_over_majorant": "4835703278458516698824704/320472271120527348862017"
+    },
+    {
+      "scales": 32,
+      "Gram_majorant": "776375219414595150617045897088098315852605164609/22835963083295358096932575511191922182123945984",
+      "squared_signal_over_majorant": "23384026197294446691258957323460528314494920687616/776375219414595150617045897088098315852605164609"
+    },
+    {
+      "scales": 64,
+      "Gram_majorant": "2271569979928376799383675529349929512095696172579083382815688369609061976844760293572806714723393/33374797436264220037422214158899251790667258161822699530422525122222183215322508594108782608384",
+      "squared_signal_over_majorant": "136703170298938245273281389194851335334573089430825777276610662900622062449960995201469573563940864/2271569979928376799383675529349929512095696172579083382815688369609061976844760293572806714723393"
+    }
+  ],
+  "Gaussian_fixture": "exact Fourier scaling surrogate, noncompact and not the actual conserved detector",
+  "evidence_kind": "reused actual cofactor coefficient; exact core, shell, Fourier-model and Gram computations; variable-coefficient uniform-profile proof and norm duality in note",
+  "next": "matching sufficient regularity and independently specified physical readout remain open",
+  "provenance": {
+    "explorations/conditional-build/k2600-full-metric-contact-regularity-2026-11-06.md": "af19b31c64e1e3a721b60036a57a5a71a2fc776af121ba79abf3bf9fc7e9c89c",
+    "lab/process/k2600-full-metric-contact-regularity.json": "acae4a30622641352e40594f5a02fd8e4629158c8bb99a68f4c6af816f0ac675"
+  }
+}

@@ -7,6 +7,12 @@ updated_at: "2026-08-23"
 
 ## Latest conditional constructions (2026-11-06)
 
+- [K2603 report](k2603-critical-metric-divergence-rates.json).
+- [K2604 report](k2604-second-order-stopping-resource-bound.json).
+
+
+## Latest conditional constructions (2026-11-06)
+
 - [K2602 report](k2602-continuum-stopping-resource-law.json).
 
 

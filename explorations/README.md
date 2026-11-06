@@ -7,6 +7,12 @@ updated_at: "2026-08-21"
 
 ## Latest conditional constructions (2026-11-06)
 
+- [K2603 critical metric rates and multiscale observations](conditional-build/k2603-critical-metric-divergence-rates-2026-11-06.md).
+- [K2604 second-order stopping bound and priced complexity](conditional-build/k2604-second-order-stopping-resource-bound-2026-11-06.md).
+
+
+## Latest conditional constructions (2026-11-06)
+
 - [K2602 continuum resource coefficient and optimal allocation](conditional-build/k2602-continuum-stopping-resource-law-2026-11-06.md).
 
 

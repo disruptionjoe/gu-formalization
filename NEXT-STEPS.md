@@ -7,6 +7,11 @@ updated_at: "2026-10-26"
 
 ## Current follow-through — 2026-11-06
 
+Reuse K2603 full-metric logarithmic critical lower rates and multiscale detector/resolution consequences; a matching upper rate requires actual characteristic and preparation control, not the flat Newton fixture. Physical or source-disjoint response still needs an independently justified coupling/domain. Reuse K2604 all-policy C/M+O(M^-2), priced value, bounded additive inverse-resource error and optimizer count scaling. A second coefficient or scaled activation profile needs a second corrector plus optimal finite-mesh/count rounding; beyond4/5 the global generator comparison remains unproved. Compare native displacement on the actual non-Einstein metric and empirical shared calibration; do not requeue critical lower rates, leading resource or its sharpened uniform remainder as absent. Source/ledger/canon unchanged.
+
+
+## Current follow-through — 2026-11-06
+
 Reuse K2600 full-solution contact regularity and critical smoothing divergence; physical/source-disjoint readout still needs an independently justified detector coupling or boundary/domain bridge. Reuse K2602 all-policy continuum resource coefficient, compact-parameter uniformity, optimal variable-mesh construction and necessary averaged mesh allocation across0<lambda<=4/5. The leading simultaneous nearcritical/resource limit is no longer missing. A next-order coefficient or scaled activation profile needs third-order residual and second-order occupation/rounding control; beyond4/5 the global generator comparison itself is unproved. Quantitative critical metric divergence needs cross-scale detector Gram estimates. Compare those exact proof burdens with native displacement and actual calibrated observation; no further fixed-count or single-corner repetition. Source/ledger/canon unchanged.
 
 

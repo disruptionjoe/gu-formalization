@@ -5,6 +5,18 @@ doc_type: verification-map
 updated_at: "2026-10-27"
 ---
 
+## K2603--K2604: Critical metric rates and second-order stopping bound (2026-11-06)
+
+K2603 quantifies the full selected metric critical smoothing divergence: fixed-patch L^(7/5) grows at least log(1/epsilon)^(5/7), and ordinary or anisotropic H^(-3/2) at least sqrt(log(1/epsilon)). Actual curved conserved multiscale detectors prove the bounds for mass-one uniformly TV-bounded localized sources and any homogeneous preparation, and give aggregate observation and necessary resolution-budget consequences. K2604 sharpens the full certified stopping law to C/M+O(M^-2), uniformly on compact positive score/multiplier rectangles up to lambda=4/5. A priced Bellman barrier handles every adaptive policy; explicit finite-mesh slack gives feasible bounds and six actual rational budget consumers. Priced value, inverse resource C/eta+O(1), optimizer resource and deterministic stage-count laws follow. No sufficient metric regularity, physical apparatus, second asymptotic coefficient or native GU recovery. Source, ledger0.263 and canon unchanged.
+
+- [K2603](explorations/conditional-build/k2603-critical-metric-divergence-rates-2026-11-06.md).
+- [K2604](explorations/conditional-build/k2604-second-order-stopping-resource-bound-2026-11-06.md).
+
+Independent read-only harmonic-analysis and probability specialists plus a distinct integrated hostile reviewer returned final substantive findings[]. K2603 producer/replay passes24 exact/supporting checks and7 contrary controls; K2604 passes67 and11 with six actual rational finite policies. Exact coefficients, full-interval rational sign certificates, model Gram/shell calculations and concrete policies are distinct from the written analytic proofs. Review replaced a weak TV control by an actual mass-one counterexample and added exact secant-error and convex-tie controls. No external-expert, proof-assistant or physical certification.
+
+Earlier sections preserve historical snapshots.
+
+
 ## K2602: Full continuum stopping resource law and necessary mesh allocation (2026-11-06)
 
 K2602 extends the sharp stopping resource law across the full certified continuum regime0<lambda<=4/5: the all-policy gap is2lambda I^2/M+O(M^-3/2), with I integrating survival-weighted square-root local loss. Quantitative occupation and action concentration justify the transfer for arbitrary adaptive histories. A variable score mesh attains the coefficient; equal-score allocation is strictly worse above critical, and every asymptotically optimal policy must exhaust the budget and approach the same mesh in mean square over trials. Constants are uniform on compact positive score/multiplier rectangles. Three rigorous interval coefficient consumers and four complete rational variable-mesh policies execute the construction. K2600 full-metric necessary regularity, critical smoothing divergence and detector conditioning remain established. No exact finite optimizer, next-order transition, physical apparatus or native GU recovery. Source, ledger0.263 and canon unchanged.
