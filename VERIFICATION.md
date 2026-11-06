@@ -5,6 +5,18 @@ doc_type: verification-map
 updated_at: "2026-10-27"
 ---
 
+## K2617--K2618: Interior contact recovery and larger diffuse phase (2026-11-06)
+
+K2617 proves complete interior conserved observations identify compact correlated pressures in the actual analytic selected system, even across homogeneous preparations. The actual tenth-order radial coefficient enables Holmgren uniqueness. Explicit contact receivers yield a positive scalar Gram matrix and exact finite-model coefficient recovery independent of preparation; disjoint-shell smooth sources give diagonal Gram matrices. Exterior invisibility, common-profile exterior uniqueness and physical apparatus remain separate. K2618 composes the retained K2567 ribbon with the input flow, raising the half-score sufficient diffuse boundary from0.86044 to1.418533974875107, with exact constrained contacts and inverse budget. A checked hypothesis transfer extends the leading adaptive resource law C/M+O(M^-3/2) and finite variable-mesh construction. Six rational policies and two interval endpoints are executed. Necessary boundary1.66781 and higher correctors remain open. Source, ledger0.263 and canon unchanged.
+
+- [K2617](explorations/conditional-build/k2617-interior-pressure-identifiability-2026-11-06.md).
+- [K2618](explorations/conditional-build/k2618-ribbon-diffuse-stopping-phase-2026-11-06.md).
+
+Two field specialists and a distinct integrated hostile reviewer checked the joint-pressure adjoint, analytic uniqueness and explicit Gram construction, retained output-to-input flow, adaptive finite-hit transfer and leading-resource hypotheses. Final substantive findings empty after clarifying retained certificate replay attribution. K2617 producer/replay21 supporting checks6 contrary controls; K2618 producer/replay31 checks4 controls, six rational finite policies and two phase endpoints. The unchanged K2567 producer independently replayed22checks3controls and exact coefficient digest. Universal uniqueness uses the cited Holmgren theorem; universal adaptive conclusions use the written proofs. No external-expert, proof-assistant, remote-CI or physical certification.
+
+Earlier sections preserve historical snapshots.
+
+
 ## K2615--K2616: Randomized recovery and fixed-score diffuse instability (2026-11-06)
 
 K2615 determines exact randomized adaptive scalar linear-query recovery risks on every known finite Hilbert ball in the prepared smooth pressure kernel: squared risk R²(1-m/d) and the mean-norm beta-moment constant. Finite random-coordinate sensing attains squared risk; Haar sensing attains both. Source classes containing the ball inherit lower bounds, including a specified noisy adaptive linear model; physical receiver achievability and a dimension-uniform radius remain unproved. K2616 gives the fixed-score necessary diffuse boundary lambda_loc=1/H_S(sqrt(3)/4), approximately1.667813868610253 at half score. Beyond it a finite initial atom and finite tail strictly improve the fluid candidate. Critical equality is locally stable at cubic order. An explicit cubic gain lower bound, local neutral-input shift, two certified finite neutral brackets and four rational finite policies follow. No sharp global phase or true-optimum onset asymptotic. Source, ledger0.263 and canon unchanged.

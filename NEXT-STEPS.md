@@ -7,6 +7,11 @@ updated_at: "2026-10-26"
 
 ## Current follow-through — 2026-11-06
 
+Reuse K2617 analytic compact-source interior uniqueness and explicit preparation-independent contact Gram receivers; do not requeue complete interior identification as missing. Physical contact access, actual calibrated curved Gram norms, common-profile exterior uniqueness and source-native coupling remain independent. Reuse K2618 sufficient phase lambda<=1/H_S(51/98), exact constrained/inverse-budget contacts and the audited leading resource extension. At half score the remaining sufficient-to-necessary gap is approximately1.41853 to1.66781. A direct finite-action clock comparison below51/98 or a counterpolicy is needed; the same ribbon cannot simply lower its floor. Higher resource Z/activation/rounding claims retain old domains. Native displacement and shared empirical calibration remain source-facing alternatives; no physics verdict or sharp transition was obtained.
+
+
+## Current follow-through — 2026-11-06
+
 Reuse K2615 exact randomized linear risks only on known finite Hilbert balls with a pathwise scalar-query cap; physical detector families inherit lower bounds unless coordinate access is established. No fixed hard pair across seeds, arbitrary nonlinear-noise or average-budget extension. Test a common radial-profile or physical nonlinear source restriction, or an actual interior receiver/domain. Reuse K2616 fixed-score necessary phase curve, cubic local stability at equality, finite atom opening and neutral brackets. The half-score sufficient-to-necessary phase gap remains approximately0.86044 to1.66781; a global original-law comparison, not another local order or numerical scan, is required. Positive-action large-count rounding and native displacement/shared empirical calibration remain independent contenders.
 
 

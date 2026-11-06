@@ -1,0 +1,83 @@
+{
+  "result": "K2617",
+  "checks": [
+    "actual_contact_total_degree",
+    "actual_principal_factorization",
+    "actual_radial_coefficient",
+    "independent_original_six_row_radial_polynomial",
+    "general_kappa_radial_scaling",
+    "original_matrix_scaling",
+    "conservation_A",
+    "conservation_B",
+    "formal_A_gradient_annihilation",
+    "formal_B_gradient_annihilation",
+    "actual_pressure_conservation",
+    "actual_trace_map",
+    "tracezero_integrating_factor",
+    "actual_weighted_radial_coefficient",
+    "radial_normal_noncharacteristic",
+    "fixture_Gram_positive_definite",
+    "fixture_exact_coefficient_recovery",
+    "fixture_whitened_contact_response",
+    "fixture_actual_noise_response",
+    "fixture_noise_bound",
+    "two_readings_leave_three_coefficient_direction"
+  ],
+  "contrary_controls": [
+    "outer_support_cannot_be_dropped",
+    "characteristic_directions_survive",
+    "dropping_radial_principal_term_breaks_argument",
+    "inverse_cannot_be_replaced_by_transpose",
+    "dependent_sources_destroy_Gram",
+    "post_differentiation_cutoff_changes_receiver"
+  ],
+  "principal_polynomial_k1": "178206391145200484352*(X + Y)**4*(31425*X + 41594*Y)/22521658027326625",
+  "radial_X5_k1": "224005433669517008830464/900866321093065",
+  "B_Y5_k1": "7412316633293468946137088/22521658027326625",
+  "radial_scaling": "kappa^-5",
+  "Gram_fixture": [
+    [
+      "2",
+      "0",
+      "8/3"
+    ],
+    [
+      "0",
+      "2/3",
+      "0"
+    ],
+    [
+      "8/3",
+      "0",
+      "56/15"
+    ]
+  ],
+  "fixture_coefficients": [
+    "2",
+    "-3",
+    "5"
+  ],
+  "fixture_readings": [
+    "-52/3",
+    "2",
+    "-24"
+  ],
+  "fixture_error": [
+    "-2/25",
+    "3/400",
+    "9/160"
+  ],
+  "provenance": {
+    "lab/process/k2554-analytic-source-response.json": "6baae61e9e3deb87efa3d29db60994378d7278fb44194e20387710737500a8fa",
+    "lab/process/k2605-source-disjoint-pressure-response.json": "7d1b742e5cbc3875b3c6843df788c29fa99600ed0f3ba43cda602f8bd0f49807",
+    "explorations/conditional-build/k2548-compact-coupled-metric-detectors-2026-11-04.md": "99bba231bf1c046e600674f62578cc16dcbeea5644ba323a02eb66bb69c5ac8c"
+  },
+  "imported_theorem": {
+    "name": "Holmgren distribution uniqueness",
+    "source": "https://laurentca.perso.math.cnrs.fr/papiers/UCPApplications.pdf",
+    "locator": "Theorem1.2.4 printed page12",
+    "hypotheses": "analytic actual operator, radial noncharacteristic surface, zero outward side, compact reduced support; no analytic-source assumption"
+  },
+  "evidence_kind": "exact actual contact polynomial and independent six-row radial specialization; exact conservation and labeled finite Gram fixtures; universal uniqueness and receiver construction are written proofs",
+  "ceiling": "complete interior/contact mathematical observations; no exterior uniqueness, arbitrary-data solvability, uniform stability or physical apparatus"
+}

@@ -7,6 +7,12 @@ updated_at: "2026-08-23"
 
 ## Latest conditional constructions (2026-11-06)
 
+- [K2617 report](k2617-interior-pressure-identifiability.json).
+- [K2618 report](k2618-ribbon-diffuse-stopping-phase.json).
+
+
+## Latest conditional constructions (2026-11-06)
+
 - [K2615 report](k2615-randomized-linear-pressure-recovery.json).
 - [K2616 report](k2616-diffuse-stopping-instability.json).
 

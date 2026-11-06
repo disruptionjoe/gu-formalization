@@ -7,6 +7,12 @@ updated_at: "2026-08-21"
 
 ## Latest conditional constructions (2026-11-06)
 
+- [K2617 interior contact recovery](conditional-build/k2617-interior-pressure-identifiability-2026-11-06.md).
+- [K2618 larger diffuse stopping phase](conditional-build/k2618-ribbon-diffuse-stopping-phase-2026-11-06.md).
+
+
+## Latest conditional constructions (2026-11-06)
+
 - [K2615 randomized pressure recovery](conditional-build/k2615-randomized-linear-pressure-recovery-2026-11-06.md).
 - [K2616 diffuse stopping instability](conditional-build/k2616-diffuse-stopping-instability-2026-11-06.md).
 

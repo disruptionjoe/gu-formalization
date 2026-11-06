@@ -2,6 +2,12 @@
 
 ## Latest conditional constructions (2026-11-06)
 
+- [K2617 principal symbol and Gram controls](k2617_interior_pressure_identifiability_probe.py).
+- [K2618 retained ribbon and phase consumers](k2618_ribbon_diffuse_stopping_phase_probe.py).
+
+
+## Latest conditional constructions (2026-11-06)
+
 - [K2615 randomized sensing controls](k2615_randomized_linear_pressure_recovery_probe.py).
 - [K2616 finite atom and phase consumers](k2616_diffuse_stopping_instability_probe.py).
 
