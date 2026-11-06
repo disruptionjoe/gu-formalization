@@ -7,6 +7,11 @@ updated_at: "2026-08-21"
 
 ## Latest conditional constructions (2026-11-06)
 
+- [K2602 continuum resource coefficient and optimal allocation](conditional-build/k2602-continuum-stopping-resource-law-2026-11-06.md).
+
+
+## Latest conditional constructions (2026-11-06)
+
 - [K2600 full metric regularity and detector conditioning](conditional-build/k2600-full-metric-contact-regularity-2026-11-06.md).
 - [K2601 critical resource limit and success stability](conditional-build/k2601-critical-stopping-resource-limit-2026-11-06.md).
 

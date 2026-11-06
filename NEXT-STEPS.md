@@ -7,6 +7,11 @@ updated_at: "2026-10-26"
 
 ## Current follow-through — 2026-11-06
 
+Reuse K2600 full-solution contact regularity and critical smoothing divergence; physical/source-disjoint readout still needs an independently justified detector coupling or boundary/domain bridge. Reuse K2602 all-policy continuum resource coefficient, compact-parameter uniformity, optimal variable-mesh construction and necessary averaged mesh allocation across0<lambda<=4/5. The leading simultaneous nearcritical/resource limit is no longer missing. A next-order coefficient or scaled activation profile needs third-order residual and second-order occupation/rounding control; beyond4/5 the global generator comparison itself is unproved. Quantitative critical metric divergence needs cross-scale detector Gram estimates. Compare those exact proof burdens with native displacement and actual calibrated observation; no further fixed-count or single-corner repetition. Source/ledger/canon unchanged.
+
+
+## Current follow-through — 2026-11-06
+
 Reuse K2600 full-solution contact regularity, fixed-patch critical divergence and Hs-normalized detector conditioning; the general compact-pressure TT cancellation loophole is closed for these necessary bounds. Quantitative critical divergence rates need cross-scale detector control, and source-disjoint or physical readout still needs an independently justified observation/domain bridge. Reuse K2601 sharp critical resource coefficient, convergence rate, success stability and finite bounds. A simultaneous multiplier/resource limit above critical needs new uniform positive-action/path concentration and global-support control; fixed-count bifurcations do not supply it. Compare those constructions with actual native displacement or empirical calibration; retain old-preparation boundary defects as a distinct alternative. No source/ledger/canon change.
 
 

@@ -6,6 +6,17 @@ updated_at: "2026-10-26"
 canon_sweep_at: "2026-07-25"
 ---
 
+## K2602: Full continuum stopping resource law and necessary mesh allocation (2026-11-06)
+
+K2602 extends the sharp stopping resource law across the full certified continuum regime0<lambda<=4/5: the all-policy gap is2lambda I^2/M+O(M^-3/2), with I integrating survival-weighted square-root local loss. Quantitative occupation and action concentration justify the transfer for arbitrary adaptive histories. A variable score mesh attains the coefficient; equal-score allocation is strictly worse above critical, and every asymptotically optimal policy must exhaust the budget and approach the same mesh in mean square over trials. Constants are uniform on compact positive score/multiplier rectangles. Three rigorous interval coefficient consumers and four complete rational variable-mesh policies execute the construction. K2600 full-metric necessary regularity, critical smoothing divergence and detector conditioning remain established. No exact finite optimizer, next-order transition, physical apparatus or native GU recovery. Source, ledger0.263 and canon unchanged.
+
+- [K2602](explorations/conditional-build/k2602-continuum-stopping-resource-law-2026-11-06.md).
+
+Independent read-only probability specialist and distinct integrated hostile reviewer returned final substantive findings[]. K2602 passes38 exact/supporting checks and9 contrary controls. Exact algebra, full-interval coefficient enclosures and original-law finite policies are separated from written occupation, uniform-integrability and asymptotic proofs. Review made root signs fail closed, aligned compact-parameter scope and corrected trial-branch wording; the necessary optimal-allocation corollary was executed. No external-expert, proof-assistant or physical certification.
+
+Earlier sections preserve historical snapshots.
+
+
 ## K2600--K2601: Full metric contact bounds and sharp critical resource limit (2026-11-06)
 
 K2600 computes the universal full-metric compact-contact coefficient -424853/(149354 kappa), eliminating TT and preparation cancellation for the actual conserved compact-pressure source. Every full response to a B atom fails local component Lp for p>=7/5 and H^-3/2, with smooth-source strong-norm blowup and divergent fixed-patch critical norms. Hs-unit conserved detector signals scale as epsilon^(s-3/2); centered smoothing converges at O(epsilon^2) for each fixed detector. K2601 proves the sharp all-policy critical stopping resource law: at lambda=2/(3+S), the gap is 3lambda S^2/(8M)+O(M^-3/2). It also proves sharp eta^(2/3) success stability and executes universal finite lower/feasible upper bounds at two scores and three resources, plus an actual resource-five positive-action counterexample to finite chord optimality. No sufficient metric regularity, physical detector, exact finite stopping optimizer or native GU recovery. Source, ledger0.263 and canon unchanged.

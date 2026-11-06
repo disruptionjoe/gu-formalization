@@ -2,6 +2,11 @@
 
 ## Latest conditional constructions (2026-11-06)
 
+- [K2602 continuum resource law probe](k2602_continuum_stopping_resource_law_probe.py).
+
+
+## Latest conditional constructions (2026-11-06)
+
 - [K2600 full-metric compact-contact probe](k2600_full_metric_contact_regularity_probe.py).
 - [K2601 critical-resource and finite-bound probe](k2601_critical_stopping_resource_limit_probe.py).
 

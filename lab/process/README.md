@@ -7,6 +7,11 @@ updated_at: "2026-08-23"
 
 ## Latest conditional constructions (2026-11-06)
 
+- [K2602 report](k2602-continuum-stopping-resource-law.json).
+
+
+## Latest conditional constructions (2026-11-06)
+
 - [K2600 report](k2600-full-metric-contact-regularity.json).
 - [K2601 report](k2601-critical-stopping-resource-limit.json).
 
