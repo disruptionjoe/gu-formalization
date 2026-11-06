@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 56e286d75fb130c7900e6f8a5b2504dd975108a0
+revision_basis: 99e03021e9755076770d34b1bd27ac518544493a
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -118,6 +118,20 @@ reviewed_prediction_interfaces_2026_10_27:
 current_result:
   status: conditional_research_front
   summary: >-
+    K2605 proves every full selected-system response to nonzero compact conserved radial
+    pressure at a B atom has a nonzero compact conserved observation away from the source in
+    every B neighborhood. A nonzero cofactor remainder and positive radial eigenvalue
+    contradiction retain all TT/homogeneous additions. Complete exterior observations
+    distinguish arbitrary finite atomic configurations; finite profile spaces admit stable
+    finite receiver matrices, while no fixed finite array distinguishes the entire signed
+    pressure class. K2606 identifies the second stopping coefficient on compact 2/3<lambda<=4/5
+    rectangles: Q(k)=V-2sqrt(Ck)+Zk+O(k^(3/2)), gap=C/M-CZ/M²+O(M^-3), inverse resource
+    C/eta-Z+O(eta). A global all-policy barrier and equal-clock finite mesh control endpoint
+    rounding; six actual rational policies illustrate the construction. Exact whole-interval
+    inequalities prove Z<0, so the second gap coefficient and additive inverse-resource overhead
+    are strictly positive. No physical receiver, native GU bridge, uniform all-source
+    conditioning or switch-uniform stopping expansion. Source, ledger0.263 and canon unchanged.
+    Historical predecessor (not live):
     K2603 quantifies the full selected metric critical smoothing divergence: fixed-patch L^(7/5)
     grows at least log(1/epsilon)^(5/7), and ordinary or anisotropic H^(-3/2) at least
     sqrt(log(1/epsilon)). Actual curved conserved multiscale detectors prove the bounds for
@@ -18788,6 +18802,10 @@ current_result:
     coefficientwise A,C packet, global domain, BFV and positive
     cohomology/superposition now route to K129.
   evidence:
+  - explorations/conditional-build/k2605-source-disjoint-pressure-response-2026-11-06.md
+  - explorations/conditional-build/k2606-interior-stopping-second-corrector-2026-11-06.md
+  - lab/process/k2605-source-disjoint-pressure-response.json
+  - lab/process/k2606-interior-stopping-second-corrector.json
   - explorations/conditional-build/k2603-critical-metric-divergence-rates-2026-11-06.md
   - explorations/conditional-build/k2604-second-order-stopping-resource-bound-2026-11-06.md
   - lab/process/k2603-critical-metric-divergence-rates.json
@@ -21451,6 +21469,9 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  Which explicit physically justified source-disjoint receivers and preparation can consume the
+  new observability theorem, versus a constrained stopping corrector through the action switch?
+  Historical predecessor (not live):
   Which independently specified physical readout or full-system sufficient regularity can
   consume the quantitative contact bounds, versus the next coefficient and activation structure
   beyond the uniform M^-2 stopping error?
@@ -25997,6 +26018,17 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  Reuse K2605 actual full-pressure off-source observation existence and finite-dimensional
+  receiver stability; construct explicit detector functions/response conditioning under
+  justified preparation and coupling, or sufficient full-system regularity with characteristic
+  control. Do not call source-disjoint response absent: physical selection and explicit
+  calibrated implementation remain open. Reuse K2606 interior second coefficient, inverse offset
+  and bounded optimizer-resource error; next treat the constrained corrector near r=0, switching
+  curves, or genuine count-rounding third order. Beyond4/5 still requires global generator
+  comparison. Native displacement on the actual non-Einstein metric and empirical shared
+  calibration remain alternatives. Preserve critical lower rates, source/ledger/canon and
+  distinction between mathematical observation and physical apparatus.
+  Historical predecessor (not live):
   Reuse K2603 full-metric logarithmic critical lower rates and multiscale detector/resolution
   consequences; a matching upper rate requires actual characteristic and preparation control,
   not the flat Newton fixture. Physical or source-disjoint response still needs an independently

@@ -2,6 +2,12 @@
 
 ## Latest conditional constructions (2026-11-06)
 
+- [K2605 full-pressure off-source probe](k2605_source_disjoint_pressure_response_probe.py).
+- [K2606 second-corrector and finite-policy probe](k2606_interior_stopping_second_corrector_probe.py).
+
+
+## Latest conditional constructions (2026-11-06)
+
 - [K2603 critical metric rate probe](k2603_critical_metric_divergence_rates_probe.py).
 - [K2604 priced barrier and finite-budget probe](k2604_second_order_stopping_resource_bound_probe.py).
 

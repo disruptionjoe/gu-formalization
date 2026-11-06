@@ -5,6 +5,18 @@ doc_type: verification-map
 updated_at: "2026-10-27"
 ---
 
+## K2605--K2606: Off-source observations and stopping second coefficient (2026-11-06)
+
+K2605 proves every full selected-system response to nonzero compact conserved radial pressure at a B atom has a nonzero compact conserved observation away from the source in every B neighborhood. A nonzero cofactor remainder and positive radial eigenvalue contradiction retain all TT/homogeneous additions. Complete exterior observations distinguish arbitrary finite atomic configurations; finite profile spaces admit stable finite receiver matrices, while no fixed finite array distinguishes the entire signed pressure class. K2606 identifies the second stopping coefficient on compact 2/3<lambda<=4/5 rectangles: Q(k)=V-2sqrt(Ck)+Zk+O(k^(3/2)), gap=C/M-CZ/M²+O(M^-3), inverse resource C/eta-Z+O(eta). A global all-policy barrier and equal-clock finite mesh control endpoint rounding; six actual rational policies illustrate the construction. Exact whole-interval inequalities prove Z<0, so the second gap coefficient and additive inverse-resource overhead are strictly positive. No physical receiver, native GU bridge, uniform all-source conditioning or switch-uniform stopping expansion. Source, ledger0.263 and canon unchanged.
+
+- [K2605](explorations/conditional-build/k2605-source-disjoint-pressure-response-2026-11-06.md).
+- [K2606](explorations/conditional-build/k2606-interior-stopping-second-corrector-2026-11-06.md).
+
+Read-only field specialists and a distinct integrated hostile reviewer checked the actual proofs. Review repaired observer cutoffs by applying E to the complete compact potential, replaced a tautological control by an actual noncompact conserved trace-zero pressure, and kept finite-dimensional conditioning distinct from uniform reconstruction. K2605 exact determinant/cofactor, conservation, radial obstruction and matrix fixtures; K2606 exact residual/dual identities and original rational policies with Arb costs. Numerical ODE/clock values are illustrations, not proof of the universal expansion. No external-expert or proof-assistant certification.
+
+Earlier sections preserve historical snapshots.
+
+
 ## K2603--K2604: Critical metric rates and second-order stopping bound (2026-11-06)
 
 K2603 quantifies the full selected metric critical smoothing divergence: fixed-patch L^(7/5) grows at least log(1/epsilon)^(5/7), and ordinary or anisotropic H^(-3/2) at least sqrt(log(1/epsilon)). Actual curved conserved multiscale detectors prove the bounds for mass-one uniformly TV-bounded localized sources and any homogeneous preparation, and give aggregate observation and necessary resolution-budget consequences. K2604 sharpens the full certified stopping law to C/M+O(M^-2), uniformly on compact positive score/multiplier rectangles up to lambda=4/5. A priced Bellman barrier handles every adaptive policy; explicit finite-mesh slack gives feasible bounds and six actual rational budget consumers. Priced value, inverse resource C/eta+O(1), optimizer resource and deterministic stage-count laws follow. No sufficient metric regularity, physical apparatus, second asymptotic coefficient or native GU recovery. Source, ledger0.263 and canon unchanged.

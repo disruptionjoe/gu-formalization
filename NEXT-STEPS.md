@@ -7,6 +7,11 @@ updated_at: "2026-10-26"
 
 ## Current follow-through — 2026-11-06
 
+Reuse K2605 actual full-pressure off-source observation existence and finite-dimensional receiver stability; construct explicit detector functions/response conditioning under justified preparation and coupling, or sufficient full-system regularity with characteristic control. Do not call source-disjoint response absent: physical selection and explicit calibrated implementation remain open. Reuse K2606 interior second coefficient, inverse offset and bounded optimizer-resource error; next treat the constrained corrector near r=0, switching curves, or genuine count-rounding third order. Beyond4/5 still requires global generator comparison. Native displacement on the actual non-Einstein metric and empirical shared calibration remain alternatives. Preserve critical lower rates, source/ledger/canon and distinction between mathematical observation and physical apparatus.
+
+
+## Current follow-through — 2026-11-06
+
 Reuse K2603 full-metric logarithmic critical lower rates and multiscale detector/resolution consequences; a matching upper rate requires actual characteristic and preparation control, not the flat Newton fixture. Physical or source-disjoint response still needs an independently justified coupling/domain. Reuse K2604 all-policy C/M+O(M^-2), priced value, bounded additive inverse-resource error and optimizer count scaling. A second coefficient or scaled activation profile needs a second corrector plus optimal finite-mesh/count rounding; beyond4/5 the global generator comparison remains unproved. Compare native displacement on the actual non-Einstein metric and empirical shared calibration; do not requeue critical lower rates, leading resource or its sharpened uniform remainder as absent. Source/ledger/canon unchanged.
 
 
