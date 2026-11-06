@@ -6,6 +6,18 @@ updated_at: "2026-10-26"
 canon_sweep_at: "2026-07-25"
 ---
 
+## K2598--K2599: Full-B singular response and joint stopping corner (2026-11-06)
+
+K2598 proves necessary full-seven-dimensional atomic-source limits: the reconstructed scalar coefficient is not locally Lp for p>=7/5 or H^-3/2, and smoothing forces sup and L2 blowup at least epsilon^-5 and epsilon^-3/2. Actual six-cofactor computation finds a fixed-mode mixed metric jump, removed by an explicit distributional A-gradient representative; a two-component scalar-source tensor projection preserves the full-B obstruction. Full compact-pressure TT and physical gauge/readout remain separate. K2599 resolves the uniform joint score/multiplier corner, exact second-activation curve and its C1/non-C2 value transition, plus the joint moving endpoint. A structural global support proof establishes zero/one-active/both-active topology throughout S=.49 lambda[.5385,.5395]; exact policies at.5390/.5391 enclose budget3 and whole candidate budget intervals below1e-50. No all-score/count or physical-probability claim. Source, ledger0.263 and canon unchanged.
+
+- [K2598](explorations/conditional-build/k2598-full-source-singularity-2026-11-06.md).
+- [K2599](explorations/conditional-build/k2599-joint-stopping-corner-2026-11-06.md).
+
+Independent read-only field specialists and a distinct integrated hostile reviewer returned final substantive findings[]. K2598 passes28 supporting checks and9 contrary controls; K2599 passes49 and8. Actual matrix/cofactor, tensor projection, exact identities and rational global-support consumers are separated from written distributional, Sobolev, compactness and KKT proofs. No external-expert, proof-assistant or physical certification.
+
+Earlier sections preserve historical snapshots.
+
+
 ## K2597 extension: Finite-count class and coupled endpoint completion (2026-11-06)
 
 K2597 completes the local stopping-transition class for every fixed finite n>=1 and score0<S<=1/2. Count one below half score has a single critical action; at half score both competing first actions activate, with an exact coupled price shift and different fixed-budget quadratic gain. A globally supported pure-two branch closes the moving upper resource endpoint, yielding a piecewise quadratic/constant boundary-layer profile with matched value and slope and exactly zero gain at budget4. Earlier n>=2 all-count results and the certified n2/.54997/budget5 consumer remain valid. K2596 modal radial cusp, sharp Hs regularity, two-measure reciprocity and smoothing errors remain valid. Uniform infinite-count and joint score/multiplier limits, full tensor/all-angular point behavior and physical calibration are not established. Source, ledger0.263 and canon unchanged.

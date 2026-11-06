@@ -7,6 +7,12 @@ updated_at: "2026-08-23"
 
 ## Latest conditional constructions (2026-11-06)
 
+- [K2598 report](k2598-full-source-singularity.json).
+- [K2599 report](k2599-joint-stopping-corner.json).
+
+
+## Latest conditional constructions (2026-11-06)
+
 - [K2596 report](k2596-radial-response-singularity.json).
 - [K2597 finite-count and coupled-endpoint report](k2597-stopping-threshold-bifurcation.json).
 

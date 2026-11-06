@@ -7,6 +7,12 @@ updated_at: "2026-08-21"
 
 ## Latest conditional constructions (2026-11-06)
 
+- [K2598 full-source bounds and tensor projection](conditional-build/k2598-full-source-singularity-2026-11-06.md).
+- [K2599 joint stopping corner and finite topology](conditional-build/k2599-joint-stopping-corner-2026-11-06.md).
+
+
+## Latest conditional constructions (2026-11-06)
+
 - [K2596 radial cusp and finite-mode measure pairing](conditional-build/k2596-radial-response-singularity-2026-11-06.md).
 - [K2597 finite-count bifurcations and coupled endpoint](conditional-build/k2597-stopping-threshold-bifurcation-2026-11-06.md).
 

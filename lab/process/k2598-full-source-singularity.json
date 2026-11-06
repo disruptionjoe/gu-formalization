@@ -1,0 +1,89 @@
+{
+  "result": "K2598",
+  "checks": [
+    "six_actual_cofactor_degrees",
+    "actual_all_six_Cramer_equations",
+    "actual_kappa_matrix_scaling",
+    "actual_kappa_source_scaling",
+    "full_q_no_inverse_Y_term",
+    "full_mixed_inverse_Y_term",
+    "full_scalar_cancellation_retained",
+    "q_exact_inverse_Y_squared_term",
+    "full_source_operator_degree_six",
+    "full_source_numerator_degree_five",
+    "actual_leading_source_coefficient",
+    "nonzero_on_actual_radial_spectrum",
+    "mixed_first_derivative_jump",
+    "fourth_order_q_third_jump",
+    "Hessian_q_value_continuous",
+    "source_principal_witness",
+    "normalized_mollifier_witness",
+    "general_Lp_lower_exponent",
+    "seven_dimensional_sup_blowup",
+    "seven_dimensional_L2_blowup",
+    "critical_Lp_exponent",
+    "critical_H_dual_test_scale",
+    "actual_A_gradient_Einstein_null_column",
+    "mixed_inverse_Y_removed_by_A_column",
+    "repair_keeps_q_contact_absent",
+    "actual_two_component_scalar_projection",
+    "A_gradient_repair_cancels_in_projection",
+    "warped_projection_denominator_nonzero"
+  ],
+  "contrary_controls": [
+    "mixed_continuity_false",
+    "spurious_q_contact_rejected",
+    "cofactor_only_misses_mixed_jump",
+    "one_dimensional_ceiling_not_seven_dimensional",
+    "Lp_critical_not_two",
+    "Einstein_term_changes_full_source_lead",
+    "characteristic_covector_cannot_be_witness",
+    "smooth_gauge_cannot_cancel_nonzero_step",
+    "one_slot_cannot_isolate_scalar_coefficient"
+  ],
+  "cofactor_Y_degrees": [
+    4,
+    4,
+    4,
+    3,
+    3,
+    2
+  ],
+  "cofactor_leads_k1": {
+    "f": "-5*(4059182926656*X + 197338925)/2889753917546496",
+    "g": "10818905*(3624192*X + 245)/5779507835092992",
+    "p": "13395/970112",
+    "q": "-7576459305*(3624192*X + 245)/4407837975564255232",
+    "r": "-7576459305*(3624192*X + 245)/4407837975564255232",
+    "z": "-156275*(3624192*X + 245)/386127142947127296"
+  },
+  "full_metric_inverse_Y_coefficients_k1": {
+    "f": "-13*(1385486784*X + 73745)/6624148608",
+    "g": "4855*(3624192*X + 245)/13248297216",
+    "p": "127699/1590",
+    "q": "0",
+    "r": "572/15"
+  },
+  "representative_repair": "A-gradient Einstein null column (p,r)=(2 chi,chi), chi=rE w/2; all fixed-mode metric components continuous; not an admitted physical gauge/domain",
+  "full_mixed_coefficient": "572/(15*k)",
+  "full_source_operator_degrees": [
+    6,
+    5
+  ],
+  "sharp_fixed_mode_representative": "mixed component jump, Hs iff s<1/2 where the A-mode gradient is nonzero; no radial delta",
+  "actual_tensor_transfer": "fixed scalar-source observer/angular AA projection recovers f when psi nonzero; excludes TT addition and arbitrary physical gauge",
+  "full_B_necessary_limits": "f not locally Lp for p>=7/5 and not H^(-3/2)_loc; no sufficiency claim",
+  "mollifier_lower_bounds": {
+    "Lp": "epsilon^(7/p-5)",
+    "sup": "epsilon^-5",
+    "L2": "epsilon^-3/2"
+  },
+  "evidence_kind": "actual exact six-row matrix/Cramer identities and principal-coefficient computations; independent flat jump/scaling controls; variable-coefficient distribution and Sobolev arguments proved in note",
+  "ceiling": "fixed scalar A mode and conditional curved-product response; full-B statement is scalar f coefficient, modal tensor regularity is representation-dependent; no physical observation or all-mode sufficiency",
+  "provenance": {
+    "tests/channel-swings/k2596_radial_response_singularity_probe.py": "93e5e8da24d193ff4efa65e85f0706effe7353099d57759b1b2a142dc0ff7e8c",
+    "lab/process/k2554-analytic-source-response.json": "6baae61e9e3deb87efa3d29db60994378d7278fb44194e20387710737500a8fa",
+    "explorations/conditional-build/k2592-scalar-tensor-boundary-pairing-2026-11-06.md": "887c44fd25000b352e8ec7e2218e52746993727c9f72f019e44a5b382a71eb95",
+    "explorations/conditional-build/k2594-reciprocal-distributional-response-2026-11-06.md": "0c56fa58e69dc7c6d2b57403fa45978c487535c9764cfa4d56bc5ecf7878c3b3"
+  }
+}

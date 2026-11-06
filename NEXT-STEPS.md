@@ -5,6 +5,11 @@ doc_type: roadmap
 updated_at: "2026-10-26"
 ---
 
+## Current follow-through — 2026-11-06
+
+Reuse K2598 full-B scalar necessary Lp/Sobolev ceilings, quantitative smoothing lower bounds, mixed representative repair and explicit scalar-source tensor projection. A general compact-pressure TT sum, physical gauge/domain and actual detector remain independent: do not infer pointwise physical metric or an all-mode sufficient regularity theorem. Reuse K2599 uniform joint corner, exact second activation, moving endpoint, explicit S=.49 multiplier topology and certified whole candidate-budget intervals. Large-count uniform estimates and arbitrary-score global topology need genuinely new control, not another fixed-corner slice. Compare specified smooth conserved detector sensitivity/native displacement with that uniform-count problem; old-preparation boundary defect and empirical calibration remain alternatives. No source/ledger/canon change.
+
+
 ## Current completed finite-count class — 2026-11-06
 
 Reuse all fixed finite-count local stopping bifurcations, including count-one half-score coupled support and its moving-endpoint boundary layer. Do not infer a uniform radius in count or score: positive-price count cutoff collapses as n grows and the score-gap degenerates as S approaches1/2. The remaining limits need uniform remainder/global-support estimates. Compare this harder scaling problem with actual full-field/all-angular response singularity, old-preparation boundary reciprocity and physically justified readout/native displacement inputs. No current result supplies physical or GU recovery.

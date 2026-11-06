@@ -2,6 +2,12 @@
 
 ## Latest conditional constructions (2026-11-06)
 
+- [K2598 full-source and tensor projection probe](k2598_full_source_singularity_probe.py).
+- [K2599 corner and global support probe](k2599_joint_stopping_corner_probe.py).
+
+
+## Latest conditional constructions (2026-11-06)
+
 - [K2596 full-coefficient and cusp probe](k2596_radial_response_singularity_probe.py).
 - [K2597 finite-count and endpoint identities with exact consumer](k2597_stopping_threshold_bifurcation_probe.py).
 
