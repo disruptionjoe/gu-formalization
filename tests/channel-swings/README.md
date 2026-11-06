@@ -2,6 +2,12 @@
 
 ## Latest conditional constructions (2026-11-06)
 
+- [K2609 full-system and denominator controls](k2609_pressure_jet_contact_boundary_probe.py).
+- [K2610 endpoint and rounding probe](k2610_terminal_stopping_count_layer_probe.py).
+
+
+## Latest conditional constructions (2026-11-06)
+
 - [K2607 first-jet and local-recovery probe](k2607_local_pressure_source_recovery_probe.py).
 - [K2608 transition-band and finite-policy probe](k2608_switching_stopping_second_corrector_probe.py).
 

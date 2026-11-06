@@ -1,0 +1,83 @@
+{
+  "result": "K2609",
+  "checks": [
+    "actual_Einstein_scalar_source_column",
+    "actual_scalar_source_conservation_A",
+    "actual_scalar_source_conservation_B",
+    "actual_determinant_rebuilt",
+    "constant_nonzero_Y5_coefficient",
+    "contact_seed_degree_six",
+    "full_six_source_rows_(0, 0)",
+    "Einstein_source_rows_(0, 0)",
+    "original_metric_rows_(0, 0)",
+    "full_six_source_rows_(1, 2)",
+    "Einstein_source_rows_(1, 2)",
+    "original_metric_rows_(1, 2)",
+    "actual_nonzero_metric_fixture",
+    "full_six_source_rows_(-2, 3)",
+    "Einstein_source_rows_(-2, 3)",
+    "original_metric_rows_(-2, 3)",
+    "full_six_source_rows_(1/3, -2/5)",
+    "Einstein_source_rows_(1/3, -2/5)",
+    "original_metric_rows_(1/3, -2/5)",
+    "normal_isotropy_exact_condition",
+    "actual_source_divergence",
+    "indefinite_nonzero_order_twelve_symbol",
+    "linear_contact_superposition",
+    "twelfth_derivative_density_scaling",
+    "common_RIGHT_denominator_first",
+    "common_RIGHT_denominator_second",
+    "right_denominator_clear_derivative_0",
+    "right_denominator_clear_derivative_1",
+    "right_denominator_clear_derivative_2",
+    "right_denominator_clear_derivative_3",
+    "original_isotropic_pressure_conservation",
+    "original_pressure_trace"
+  ],
+  "contrary_controls": [
+    "omitting_skew_breaks_full_equation",
+    "shifted_metric_is_not_original",
+    "conservation_does_not_force_isotropy",
+    "compact_fixture_has_nonzero_anisotropy",
+    "characteristic_value_does_not_annihilate_operator",
+    "scalar_identity_alone_does_not_check_skew",
+    "reversing_noncommutative_factors_fails",
+    "one_power_does_not_clear_all_derivatives",
+    "omit_pressure_derivative_breaks_conservation"
+  ],
+  "fixtures": [
+    {
+      "X": "0",
+      "Y": "0",
+      "det": "-8051601064527887918824634287658165/12353477676102405846624738231189504"
+    },
+    {
+      "X": "1",
+      "Y": "2",
+      "det": "-9847391064291461147234747496859321887755176105787/551582778237972421051794562022611353600"
+    },
+    {
+      "X": "-2",
+      "Y": "3",
+      "det": "4996615534221313059262365928600426969570529467/551582778237972421051794562022611353600"
+    },
+    {
+      "X": "1/3",
+      "Y": "-2/5",
+      "det": "8003325777683887190901002248474589252225297953/2872826969989439692978096677201100800000000"
+    }
+  ],
+  "explicit_scalar_control_B_normal_order": 12,
+  "original_pressure_B_order": "finite, at least2; numerical upper and minimum not computed",
+  "source_class": "original compact isotropic-pressure finite jets via common right denominator; explicit order12 scalar control separately anisotropic",
+  "original_isotropic_pressure_contact_existence": true,
+  "fixed_K2594_preparation_invisibility": false,
+  "evidence_kind": "actual exact module coefficients and rational full-row fixtures; universal cofactor/support/ODE proofs in note",
+  "ceiling": "finite-order existence, not computed actual Ore coefficients/minimum jet order, positive matter, arbitrary preparation or native GU; receiver support avoids B point",
+  "provenance": {
+    "tests/channel-swings/k2605_source_disjoint_pressure_response_probe.py": "7c3595b74c0f7df619a1957e694af1fc9b5f2bfad09b085ad02bd3c54dfe7cf3",
+    "lab/process/k2554-analytic-source-response.json": "6baae61e9e3deb87efa3d29db60994378d7278fb44194e20387710737500a8fa",
+    "explorations/conditional-build/k2552-localized-source-domain-2026-11-04.md": "f45ce693d63d8e438af1564575edf4898764130efe2210beb6cb1dd0ed638cc3",
+    "explorations/conditional-build/k2548-compact-coupled-metric-detectors-2026-11-04.md": "99bba231bf1c046e600674f62578cc16dcbeea5644ba323a02eb66bb69c5ac8c"
+  }
+}

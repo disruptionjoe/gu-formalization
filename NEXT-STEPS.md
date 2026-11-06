@@ -7,6 +7,11 @@ updated_at: "2026-10-26"
 
 ## Current follow-through — 2026-11-06
 
+Reuse K2609 finite-order original-pressure contact existence and explicit anisotropic order12 control; compute actual Ore coefficients and B jet order, or test a physically justified fixed preparation/source regularity restriction. No arbitrary-jet injectivity, positive-matter or fixed-K2594 invisibility is inferred. Reuse K2610 terminal integer-count/cubic law, activation and first count shifts, and exact-tail oscillatory third coefficients. Next fourth-order endpoint tie/activation or positive-action rounding, beyond4/5 generator comparison, with native displacement and shared empirical calibration retained as independent physics alternatives.
+
+
+## Current follow-through — 2026-11-06
+
 Reuse K2607 first-jet observability and local finite unknown-location recovery, preparation C2 and smoothing/noise criteria; construct and certify an actual receiver matrix with physical coupling or characteristic sufficient regularity. Finite mathematical receiver existence is not hardware or numerical calibration. No arbitrary-higher-multipole or uniform collision claim. Reuse K2608 switch-uniform second coefficient, global positive inverse overhead and fixed-interior-switch activation profile; next endpoint activation or actual third-order count rounding, or independent global generator comparison beyond4/5. Native displacement and empirical shared calibration remain stronger physics alternatives when their distinct inputs are constructed. Preserve all source/ledger/canon ceilings and earlier exact results.
 
 

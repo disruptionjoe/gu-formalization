@@ -7,6 +7,12 @@ updated_at: "2026-08-23"
 
 ## Latest conditional constructions (2026-11-06)
 
+- [K2609 report](k2609-pressure-jet-contact-boundary.json).
+- [K2610 report](k2610-terminal-stopping-count-layer.json).
+
+
+## Latest conditional constructions (2026-11-06)
+
 - [K2607 report](k2607-local-pressure-source-recovery.json).
 - [K2608 report](k2608-switching-stopping-second-corrector.json).
 

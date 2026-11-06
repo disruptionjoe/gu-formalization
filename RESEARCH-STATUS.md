@@ -6,6 +6,18 @@ updated_at: "2026-10-26"
 canon_sweep_at: "2026-07-25"
 ---
 
+## K2609--K2610: Contact pressure jets and terminal stopping counts (2026-11-06)
+
+K2609 establishes finite-order existence of original isotropic-normal-pressure B jets with nonzero full metric responses supported at the same B point, by synchronized scalar/TT right-denominator clearing. The actual operator coefficients and numerical minimum/upper jet order remain uncomputed; K2607 excludes orders zero and one. An explicit order12 scalar-source control fails pressure isotropy and is kept separate. Smooth seed regularization gives compact B-off-source invisible pairs; fixed reciprocal preparation, positive matter and physical coupling are not supplied. K2610 proves the terminal scaling S=e x, lambda=2/3+e mu, k=e²: a bounded integer-count maximum gives the value through e³ with O(e4) remainder, actual action activation and shifted count thresholds. Independent exact small-multiplier tails give fractional-budget M^-3 and integer-rounding e³ coefficients, demonstrating that a single constant third coefficient is false. Source, ledger0.263 and canon unchanged.
+
+- [K2609](explorations/conditional-build/k2609-pressure-jet-contact-boundary-2026-11-06.md).
+- [K2610](explorations/conditional-build/k2610-terminal-stopping-count-layer-2026-11-06.md).
+
+Read-only field specialists and a distinct integrated hostile reviewer checked actual scalar/TT composition, common right denominators, source-class preservation, support and nonvanishing, bounded-count localization, original survival cubic and discrete rounding. Review narrowed the support claim to B-off-source receivers, distinguished reduced maximizing counts from arbitrary randomized implementations, and added a convexity-backed interior-winner check to tail fixtures. Final findings were empty after these repairs. K2609 producer/replay32 exact supporting checks and9 contrary controls; K2610 producer/replay35 checks and5 controls,12 rational endpoint policies and4 tail-rounding consumers with Arb enclosures. Universal Ore existence and asymptotic proofs remain analytic; no computed actual Ore elimination, external-expert or proof-assistant certification.
+
+Earlier sections preserve historical snapshots.
+
+
 ## K2607--K2608: Local source recovery and switch-uniform stopping coefficient (2026-11-06)
 
 K2607 extends the full selected-system observation identity to first positional source jets and proves local joint recovery of compact pressure coefficients and unknown separated B locations from N=m(n+7) conserved off-source receivers on the fixed preparation. Actual kernel differentiability gives C2 point response; conditioning, smoothing and feasible-fit noise bounds are explicit in the receiver Jacobian. Fixed-array conditioning fails near zero amplitudes/collisions, with quadratic unresolved source-splitting bounds. K2608 extends the second stopping coefficient uniformly across action switches for compact positive S and0<lambda<=4/5: Q(k)=V-2sqrt(Ck)+Zk+O(k^1.5), gap=C/M-CZ/M²+O(M^-3), inverse C/eta-Z+O(eta). A continuous piecewise corrector with genuine derivative jump and enlarged transition-band barrier gives -7S/9<=Z<=-583S/76800; the actual fixed-interior-switch first-action activation profile is derived. No computed calibrated curved receiver matrix, physical apparatus, global finite-array reconstruction, endpoint-uniform activation or third coefficient. Source, ledger0.263 and canon unchanged.

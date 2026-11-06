@@ -1,0 +1,290 @@
+{
+  "result": "K2610",
+  "checks": [
+    "original_log_cubic_exact",
+    "actual_two_stage_prefix_cubic",
+    "actual_two_stage_leading",
+    "constrained_square_identity",
+    "adjacent_count_difference",
+    "count_threshold",
+    "one_stage_endpoint_coefficient",
+    "one_stage_action_profile",
+    "one_stage_endpoint_cubic",
+    "inactive_shift_exact",
+    "original_inactive_count_tie_shift",
+    "interpolation_linear_deviation_cancels",
+    "actual_third_resource_coefficient",
+    "priced_rounding_square",
+    "exact_count_center_shift",
+    "feasible_endpoint_(Fraction(1, 1), Fraction(0, 1), 100)",
+    "feasible_endpoint_(Fraction(1, 1), Fraction(0, 1), 200)",
+    "feasible_endpoint_(Fraction(1, 1), Fraction(0, 1), 400)",
+    "feasible_endpoint_(Fraction(5, 1), Fraction(0, 1), 100)",
+    "feasible_endpoint_(Fraction(5, 1), Fraction(0, 1), 200)",
+    "feasible_endpoint_(Fraction(5, 1), Fraction(0, 1), 400)",
+    "feasible_endpoint_(Fraction(7, 1), Fraction(-2, 1), 100)",
+    "feasible_endpoint_(Fraction(7, 1), Fraction(-2, 1), 200)",
+    "feasible_endpoint_(Fraction(7, 1), Fraction(-2, 1), 400)",
+    "feasible_endpoint_(Fraction(10, 1), Fraction(1, 1), 100)",
+    "feasible_endpoint_(Fraction(10, 1), Fraction(1, 1), 200)",
+    "feasible_endpoint_(Fraction(10, 1), Fraction(1, 1), 400)",
+    "tail_interval_separated_(Fraction(0, 1), 20)",
+    "tail_winner_interior_for_global_convexity_(Fraction(0, 1), 20)",
+    "tail_interval_separated_(Fraction(0, 1), 40)",
+    "tail_winner_interior_for_global_convexity_(Fraction(0, 1), 40)",
+    "tail_interval_separated_(Fraction(1, 2), 20)",
+    "tail_winner_interior_for_global_convexity_(Fraction(1, 2), 20)",
+    "tail_interval_separated_(Fraction(1, 2), 40)",
+    "tail_winner_interior_for_global_convexity_(Fraction(1, 2), 40)"
+  ],
+  "contrary_controls": [
+    "omitting_survival_prefix_changes_cubic",
+    "negative_linear_term_needs_zero_constraint",
+    "continuum_endpoint_coefficient_false",
+    "constant_third_resource_coefficient_false",
+    "half_integer_price_phase_changes_cubic"
+  ],
+  "terminal_consumers": [
+    {
+      "x": "1",
+      "mu": "0",
+      "e": "1/100",
+      "n": 1,
+      "a": [
+        "1/64000"
+      ],
+      "b": [
+        "1/100"
+      ],
+      "expected_trials": "128000/64001",
+      "priced_value_Arb": "[0.99645415381665333286570417203106765449942672441752965643 +/- 4.59e-57]",
+      "residual_over_e4_illustration": "[0.320901444397681528314217876561053783552864076754 +/- 3.63e-49]"
+    },
+    {
+      "x": "1",
+      "mu": "0",
+      "e": "1/200",
+      "n": 1,
+      "a": [
+        "1/256000"
+      ],
+      "b": [
+        "1/200"
+      ],
+      "expected_trials": "512000/256001",
+      "priced_value_Arb": "[0.99828020652656398105897656123866781406078316657116057916 +/- 3.31e-57]",
+      "residual_over_e4_illustration": "[0.32097459191658472020409072471947528873607914887 +/- 6.19e-48]"
+    },
+    {
+      "x": "1",
+      "mu": "0",
+      "e": "1/400",
+      "n": 1,
+      "a": [
+        "1/1024000"
+      ],
+      "b": [
+        "1/400"
+      ],
+      "expected_trials": "2048000/1024001",
+      "priced_value_Arb": "[0.99915338517828381502049861031834277677350070766885843207 +/- 1.71e-57]",
+      "residual_over_e4_illustration": "[0.3210101089692088685940195298460625607672203055 +/- 6.96e-47]"
+    },
+    {
+      "x": "5",
+      "mu": "0",
+      "e": "1/100",
+      "n": 1,
+      "a": [
+        "1/2560"
+      ],
+      "b": [
+        "1/20"
+      ],
+      "expected_trials": "5120/2561",
+      "priced_value_Arb": "[0.982818953028405976099692323385262642335249061442237614255 +/- 9.53e-58]",
+      "residual_over_e4_illustration": "[12.707354486498858121227415153122413795033112650314 +/- 4.66e-49]"
+    },
+    {
+      "x": "5",
+      "mu": "0",
+      "e": "1/200",
+      "n": 1,
+      "a": [
+        "1/10240"
+      ],
+      "b": [
+        "1/40"
+      ],
+      "expected_trials": "20480/10241",
+      "priced_value_Arb": "[0.99153829882809673956299836477099743985577751802363705077 +/- 1.08e-57]",
+      "residual_over_e4_illustration": "[12.93398256107857516141137368154702180661559705901 +/- 2.11e-48]"
+    },
+    {
+      "x": "5",
+      "mu": "0",
+      "e": "1/400",
+      "n": 1,
+      "a": [
+        "1/40960"
+      ],
+      "b": [
+        "1/80"
+      ],
+      "expected_trials": "81920/40961",
+      "priced_value_Arb": "[0.99580127122759396022349652055656505813760812847247140645 +/- 4.40e-57]",
+      "residual_over_e4_illustration": "[13.0444609372770664818036210438783236444508235606 +/- 3.69e-47]"
+    },
+    {
+      "x": "7",
+      "mu": "-2",
+      "e": "1/100",
+      "n": 2,
+      "a": [
+        "0",
+        "0"
+      ],
+      "b": [
+        "7/200",
+        "7/200"
+      ],
+      "expected_trials": "4",
+      "priced_value_Arb": "[0.97666550312140747560617087952670925404973994323374392934 +/- 1.60e-57]",
+      "residual_over_e4_illustration": "[6.735751858671728199063782036516085105434485504045 +/- 2.10e-49]"
+    },
+    {
+      "x": "7",
+      "mu": "-2",
+      "e": "1/200",
+      "n": 2,
+      "a": [
+        "0",
+        "0"
+      ],
+      "b": [
+        "7/400",
+        "7/400"
+      ],
+      "expected_trials": "4",
+      "priced_value_Arb": "[0.98833240240126292767738064861975374259405837069860064141 +/- 3.20e-57]",
+      "residual_over_e4_illustration": "[6.68924290650603126001382821037271561533998324848 +/- 3.69e-48]"
+    },
+    {
+      "x": "7",
+      "mu": "-2",
+      "e": "1/400",
+      "n": 2,
+      "a": [
+        "0",
+        "0"
+      ],
+      "b": [
+        "7/800",
+        "7/800"
+      ],
+      "expected_trials": "4",
+      "priced_value_Arb": "[0.99416635472546061037291247893874900117492045098735008516 +/- 2.14e-57]",
+      "residual_over_e4_illustration": "[6.6662360699910039052764188745224079897206066246 +/- 6.69e-47]"
+    },
+    {
+      "x": "10",
+      "mu": "1",
+      "e": "1/100",
+      "n": 3,
+      "a": [
+        "23/36000",
+        "1/2000",
+        "13/36000"
+      ],
+      "b": [
+        "1/30",
+        "1/30",
+        "1/30"
+      ],
+      "expected_trials": "225483144000/37621592671",
+      "priced_value_Arb": "[0.96517179748121077505003647319325746921780145942175286498 +/- 5.19e-57]",
+      "residual_over_e4_illustration": "[190.550590213307472783121794882724249281744644422300 +/- 3.38e-49]"
+    },
+    {
+      "x": "10",
+      "mu": "1",
+      "e": "1/200",
+      "n": 3,
+      "a": [
+        "23/144000",
+        "1/8000",
+        "13/144000"
+      ],
+      "b": [
+        "1/60",
+        "1/60",
+        "1/60"
+      ],
+      "expected_trials": "110603264416000/18438912841811",
+      "priced_value_Arb": "[0.98295677321762211462111780446561401149974784872699559043 +/- 2.30e-57]",
+      "residual_over_e4_illustration": "[192.08646698833206009208325402333786816290146454963 +/- 7.57e-48]"
+    },
+    {
+      "x": "10",
+      "mu": "1",
+      "e": "1/400",
+      "n": 3,
+      "a": [
+        "23/576000",
+        "1/32000",
+        "13/576000"
+      ],
+      "b": [
+        "1/120",
+        "1/120",
+        "1/120"
+      ],
+      "expected_trials": "21234204676992000/3539275786101433",
+      "priced_value_Arb": "[0.99157219334446119369119795571346071434152434821600001527 +/- 5.97e-57]",
+      "residual_over_e4_illustration": "[192.8280831017045442094744708303528998575394769342 +/- 7.93e-47]"
+    }
+  ],
+  "price_rounding_consumers": [
+    {
+      "phase": "0",
+      "e": "9/2852",
+      "optimal_count_fixture": 20,
+      "priced_value_Arb": "[0.95754053933775409288969194611007113893442556966258942186 +/- 4.97e-57]",
+      "cubic_loss": "13/324",
+      "residual_over_e4_illustration": "[0.0051359301580764130473023782787331086421964450 +/- 4.30e-47]"
+    },
+    {
+      "phase": "0",
+      "e": "9/5732",
+      "optimal_count_fixture": 40,
+      "priced_value_Arb": "[0.95793984129667348191063143482210578836638829143761212444 +/- 5.35e-57]",
+      "cubic_loss": "13/324",
+      "residual_over_e4_illustration": "[0.00517444401949273766591098578982057575797526 +/- 1.21e-45]"
+    },
+    {
+      "phase": "1/2",
+      "e": "9/2924",
+      "optimal_count_fixture": 21,
+      "priced_value_Arb": "[0.95755992641702492923221363622751200668529673423555139494 +/- 4.39e-57]",
+      "cubic_loss": "2605/324",
+      "residual_over_e4_illustration": "[63.3840284486322627323627051798109748922346739211 +/- 3.61e-47]"
+    },
+    {
+      "phase": "1/2",
+      "e": "9/5804",
+      "optimal_count_fixture": 41,
+      "priced_value_Arb": "[0.95794470495067645722432086169408864413132497056371816807 +/- 8.42e-57]",
+      "cubic_loss": "2605/324",
+      "residual_over_e4_illustration": "[64.16027572634468869324672252409241629062917691 +/- 4.03e-45]"
+    }
+  ],
+  "endpoint_scope": "S=e x, lambda=2/3+e mu, compact positive x and bounded mu; O(e4) value",
+  "tail_scope": "fixed positive S<=1/2, 0<lambda<=2/5; resource O(M^-4) and price O(e4)",
+  "evidence_kind": "exact original-law symbolic identities, Arb enclosures of rational finite policies; universal asymptotic/count arguments in note; residual illustrations do not certify uniform bounds",
+  "ceiling": "no exact finite-price tie at cubic equality, general positive-action third coefficient, pathwise resource cap or physical probability",
+  "provenance": {
+    "explorations/conditional-build/k2608-switching-stopping-second-corrector-2026-11-06.md": "a9c4fd498d4cb2f3b8ab5ddd39a6cf302ca8ea8c56156be223ee034caac1e1b2",
+    "explorations/conditional-build/k2577-exact-resource-tail-2026-11-05.md": "b82d552fbdbb5955f390c5ed964dfacd52af5422a8fc15146ea383f0b2c2842d",
+    "explorations/conditional-build/k2571-stopping-resource-price-2026-11-05.md": "87162b0b74de5fa69161e81490c62e7d89ae5adbf25b5a6656ef5b85e902ea13"
+  }
+}

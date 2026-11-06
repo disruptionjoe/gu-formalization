@@ -7,6 +7,12 @@ updated_at: "2026-08-21"
 
 ## Latest conditional constructions (2026-11-06)
 
+- [K2609 pressure-jet contact boundary](conditional-build/k2609-pressure-jet-contact-boundary-2026-11-06.md).
+- [K2610 terminal stopping and discrete rounding](conditional-build/k2610-terminal-stopping-count-layer-2026-11-06.md).
+
+
+## Latest conditional constructions (2026-11-06)
+
 - [K2607 local source-position recovery](conditional-build/k2607-local-pressure-source-recovery-2026-11-06.md).
 - [K2608 switch-uniform stopping coefficient](conditional-build/k2608-switching-stopping-second-corrector-2026-11-06.md).
 
