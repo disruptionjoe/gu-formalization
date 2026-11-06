@@ -2,6 +2,12 @@
 
 ## Latest conditional constructions (2026-11-06)
 
+- [K2607 first-jet and local-recovery probe](k2607_local_pressure_source_recovery_probe.py).
+- [K2608 transition-band and finite-policy probe](k2608_switching_stopping_second_corrector_probe.py).
+
+
+## Latest conditional constructions (2026-11-06)
+
 - [K2605 full-pressure off-source probe](k2605_source_disjoint_pressure_response_probe.py).
 - [K2606 second-corrector and finite-policy probe](k2606_interior_stopping_second_corrector_probe.py).
 

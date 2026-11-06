@@ -5,6 +5,18 @@ doc_type: verification-map
 updated_at: "2026-10-27"
 ---
 
+## K2607--K2608: Local source recovery and switch-uniform stopping coefficient (2026-11-06)
+
+K2607 extends the full selected-system observation identity to first positional source jets and proves local joint recovery of compact pressure coefficients and unknown separated B locations from N=m(n+7) conserved off-source receivers on the fixed preparation. Actual kernel differentiability gives C2 point response; conditioning, smoothing and feasible-fit noise bounds are explicit in the receiver Jacobian. Fixed-array conditioning fails near zero amplitudes/collisions, with quadratic unresolved source-splitting bounds. K2608 extends the second stopping coefficient uniformly across action switches for compact positive S and0<lambda<=4/5: Q(k)=V-2sqrt(Ck)+Zk+O(k^1.5), gap=C/M-CZ/M²+O(M^-3), inverse C/eta-Z+O(eta). A continuous piecewise corrector with genuine derivative jump and enlarged transition-band barrier gives -7S/9<=Z<=-583S/76800; the actual fixed-interior-switch first-action activation profile is derived. No computed calibrated curved receiver matrix, physical apparatus, global finite-array reconstruction, endpoint-uniform activation or third coefficient. Source, ledger0.263 and canon unchanged.
+
+- [K2607](explorations/conditional-build/k2607-local-pressure-source-recovery-2026-11-06.md).
+- [K2608](explorations/conditional-build/k2608-switching-stopping-second-corrector-2026-11-06.md).
+
+Read-only field specialists and a distinct integrated hostile reviewer checked the distributional derivative transfer, source jet order argument, local inverse bounds, constrained corrector, enlarged-band crossing repair and actual Bellman activation law. Review repaired the positive-score activation bridge, exact rational endpoint multipliers, square locally invertible counterexample and nontrivial band-increment control. Exact probes and rational finite original-law policies are separate from universal analytic proofs; ODE illustrations are not interval certification of the theorem. No external-expert or proof-assistant certification.
+
+Earlier sections preserve historical snapshots.
+
+
 ## K2605--K2606: Off-source observations and stopping second coefficient (2026-11-06)
 
 K2605 proves every full selected-system response to nonzero compact conserved radial pressure at a B atom has a nonzero compact conserved observation away from the source in every B neighborhood. A nonzero cofactor remainder and positive radial eigenvalue contradiction retain all TT/homogeneous additions. Complete exterior observations distinguish arbitrary finite atomic configurations; finite profile spaces admit stable finite receiver matrices, while no fixed finite array distinguishes the entire signed pressure class. K2606 identifies the second stopping coefficient on compact 2/3<lambda<=4/5 rectangles: Q(k)=V-2sqrt(Ck)+Zk+O(k^(3/2)), gap=C/M-CZ/M²+O(M^-3), inverse resource C/eta-Z+O(eta). A global all-policy barrier and equal-clock finite mesh control endpoint rounding; six actual rational policies illustrate the construction. Exact whole-interval inequalities prove Z<0, so the second gap coefficient and additive inverse-resource overhead are strictly positive. No physical receiver, native GU bridge, uniform all-source conditioning or switch-uniform stopping expansion. Source, ledger0.263 and canon unchanged.

@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 99e03021e9755076770d34b1bd27ac518544493a
+revision_basis: bebc4c2435d297622100c74b4bbeea121c9a4f1d
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -118,6 +118,20 @@ reviewed_prediction_interfaces_2026_10_27:
 current_result:
   status: conditional_research_front
   summary: >-
+    K2607 extends the full selected-system observation identity to first positional source jets
+    and proves local joint recovery of compact pressure coefficients and unknown separated B
+    locations from N=m(n+7) conserved off-source receivers on the fixed preparation. Actual
+    kernel differentiability gives C2 point response; conditioning, smoothing and feasible-fit
+    noise bounds are explicit in the receiver Jacobian. Fixed-array conditioning fails near zero
+    amplitudes/collisions, with quadratic unresolved source-splitting bounds. K2608 extends the
+    second stopping coefficient uniformly across action switches for compact positive S
+    and0<lambda<=4/5: Q(k)=V-2sqrt(Ck)+Zk+O(k^1.5), gap=C/M-CZ/M²+O(M^-3), inverse
+    C/eta-Z+O(eta). A continuous piecewise corrector with genuine derivative jump and enlarged
+    transition-band barrier gives -7S/9<=Z<=-583S/76800; the actual fixed-interior-switch
+    first-action activation profile is derived. No computed calibrated curved receiver matrix,
+    physical apparatus, global finite-array reconstruction, endpoint-uniform activation or third
+    coefficient. Source, ledger0.263 and canon unchanged.
+    Historical predecessor (not live):
     K2605 proves every full selected-system response to nonzero compact conserved radial
     pressure at a B atom has a nonzero compact conserved observation away from the source in
     every B neighborhood. A nonzero cofactor remainder and positive radial eigenvalue
@@ -18802,6 +18816,10 @@ current_result:
     coefficientwise A,C packet, global domain, BFV and positive
     cohomology/superposition now route to K129.
   evidence:
+  - explorations/conditional-build/k2607-local-pressure-source-recovery-2026-11-06.md
+  - explorations/conditional-build/k2608-switching-stopping-second-corrector-2026-11-06.md
+  - lab/process/k2607-local-pressure-source-recovery.json
+  - lab/process/k2608-switching-stopping-second-corrector.json
   - explorations/conditional-build/k2605-source-disjoint-pressure-response-2026-11-06.md
   - explorations/conditional-build/k2606-interior-stopping-second-corrector-2026-11-06.md
   - lab/process/k2605-source-disjoint-pressure-response.json
@@ -21469,6 +21487,10 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  Which physically justified and computationally certified receiver/preparation can consume
+  local source localization, versus the endpoint activation and third-order count effects beyond
+  the switch-uniform stopping coefficient?
+  Historical predecessor (not live):
   Which explicit physically justified source-disjoint receivers and preparation can consume the
   new observability theorem, versus a constrained stopping corrector through the action switch?
   Historical predecessor (not live):
@@ -26018,6 +26040,16 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  Reuse K2607 first-jet observability and local finite unknown-location recovery, preparation C2
+  and smoothing/noise criteria; construct and certify an actual receiver matrix with physical
+  coupling or characteristic sufficient regularity. Finite mathematical receiver existence is
+  not hardware or numerical calibration. No arbitrary-higher-multipole or uniform collision
+  claim. Reuse K2608 switch-uniform second coefficient, global positive inverse overhead and
+  fixed-interior-switch activation profile; next endpoint activation or actual third-order count
+  rounding, or independent global generator comparison beyond4/5. Native displacement and
+  empirical shared calibration remain stronger physics alternatives when their distinct inputs
+  are constructed. Preserve all source/ledger/canon ceilings and earlier exact results.
+  Historical predecessor (not live):
   Reuse K2605 actual full-pressure off-source observation existence and finite-dimensional
   receiver stability; construct explicit detector functions/response conditioning under
   justified preparation and coupling, or sufficient full-system regularity with characteristic

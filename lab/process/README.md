@@ -7,6 +7,12 @@ updated_at: "2026-08-23"
 
 ## Latest conditional constructions (2026-11-06)
 
+- [K2607 report](k2607-local-pressure-source-recovery.json).
+- [K2608 report](k2608-switching-stopping-second-corrector.json).
+
+
+## Latest conditional constructions (2026-11-06)
+
 - [K2605 report](k2605-source-disjoint-pressure-response.json).
 - [K2606 report](k2606-interior-stopping-second-corrector.json).
 

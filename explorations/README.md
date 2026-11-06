@@ -7,6 +7,12 @@ updated_at: "2026-08-21"
 
 ## Latest conditional constructions (2026-11-06)
 
+- [K2607 local source-position recovery](conditional-build/k2607-local-pressure-source-recovery-2026-11-06.md).
+- [K2608 switch-uniform stopping coefficient](conditional-build/k2608-switching-stopping-second-corrector-2026-11-06.md).
+
+
+## Latest conditional constructions (2026-11-06)
+
 - [K2605 source-disjoint conserved observations](conditional-build/k2605-source-disjoint-pressure-response-2026-11-06.md).
 - [K2606 interior stopping second coefficient](conditional-build/k2606-interior-stopping-second-corrector-2026-11-06.md).
 
