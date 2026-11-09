@@ -30,7 +30,9 @@ source records, papers, and branch-relative current state.
    carry the routing notice required by that method and be registered in
    `lab/process/source-native-comparator-routing-registry.json`.
 3. Read `CURRENT-STATE.yaml` for the branch-relative result, evidence, exact
-   next condition, contribution path, and `what_needs_joe`.
+   next condition, contribution path, and `what_needs_joe`. Start from
+   `python scripts/research_context.py` or the top-level keys you need; the
+   file is large and most of it is dated history, not steering.
 4. Read `lab/specifications/six-axis/six-axis-template.md`; Layer 0 semantic
    alignment precedes L1--L7.
 5. Follow `RESEARCH-POSTURE.md`, `VERIFICATION.md`, and `CONTRIBUTING.md`.
