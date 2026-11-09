@@ -40,6 +40,7 @@ program_focus:
     - one line of actual_delta, or "none"
     - increment constraint_matrix.program_run_counter.count
     - append to the matrix shrinkage_log when a cell or intersection moved
+    - "new dated sections in VERIFICATION.md, RESEARCH-STATUS.md and NEXT-STEPS.md go directly BELOW the pinned program_focus section, never above it (program_focus_audit.py fails otherwise)"
   kitem_frontmatter: >-
     Every new explorations/conditional-build/*-YYYY-MM-DD.md result dated
     2026-11-09 or later carries program_target (matrix cell such as P3xglobal_index,
