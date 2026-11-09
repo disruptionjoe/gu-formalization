@@ -171,7 +171,8 @@
     "ref": "lab/process/action-constraint-matrix.json",
     "action_class_ref": "lab/process/action-class.json",
     "stage": "candidate_action_requirements",
-    "eligibility": "A matrix cell is a stage-5 arc with demand lineage. It defines requirements on actions and does not select or presuppose an action, so an empty action root does not make it ineligible."
+    "eligibility": "A matrix cell is a stage-5 arc with demand lineage. It defines requirements on actions and does not select or presuppose an action, so an empty action root does not make it ineligible.",
+    "structure_not_specifics": "Matrix work holds for all of class C or a structurally defined subfamily; it never writes down, enumerates or fits a specific action, and never builds a gated cell's missing object."
   },
   "lane_c_discovery_bets": {
     "ref": "lab/process/discovery-bets.json",

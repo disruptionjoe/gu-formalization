@@ -12,7 +12,8 @@
     "selection_within_lane": "the active bet with the most remaining time box",
     "winner_rule": "A bet that moves a ledger row or a matrix cell (after lane-B re-derivation) receives the next freed time box.",
     "kill_rule": "A bet whose kill criterion is met, or whose time box runs out without a delta, is closed and recorded; it is never silently extended.",
-    "reroute_rule": "Three consecutive zero-delta runs reroute the lane to the next active bet within the same Big Wave."
+    "reroute_rule": "Three consecutive zero-delta runs reroute the lane to the next active bet within the same Big Wave.",
+    "guess_budget": "At most 3 guessed action variants per lane-C run, each chosen as a structural ansatz (a symmetry or representation family), never by tuning coefficients. A bet that needs more variants to make progress is killed by its time box, not extended."
   },
   "bets": [
     {

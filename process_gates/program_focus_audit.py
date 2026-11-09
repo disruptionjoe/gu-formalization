@@ -48,6 +48,7 @@ LANES = {"LB-MATRIX", "LB-CLASS", "LB-LADDER"}
 FOCUS_KEYS = {
     "version", "authority", "read_first", "goal", "files", "split", "run_selection",
     "preflight_required", "postflight_required", "zero_delta_reroute", "review_tiers", "forbidden",
+    "structure_not_specifics",
 }
 RESET_DATE = "2026-11-09"
 KITEM_DIR = Path("explorations/conditional-build")
@@ -82,6 +83,10 @@ def audit(root: Path) -> list[str]:
     forbidden = " ".join(str(item) for item in focus.get("forbidden", []))
     if "external review" not in forbidden:
         errors.append("program_focus.forbidden no longer excludes external review")
+    if "specific action" not in forbidden or "gated cell" not in forbidden or "guessed action variants" not in forbidden:
+        errors.append("program_focus.forbidden no longer blocks specific-action search, gate-object building, or unbounded lane-C guessing")
+    if "every action in class C" not in str(focus.get("structure_not_specifics", "")):
+        errors.append("program_focus lost the structure-not-specifics rule")
     if "never zero work" not in str(focus.get("zero_delta_reroute", "")):
         errors.append("program_focus reroute rule no longer excludes zero work")
     for field, needle in (("current_question", "class C"), ("next_condition", "program_focus")):
@@ -148,6 +153,11 @@ def audit(root: Path) -> list[str]:
             path = str(ref).split(" ", 1)[0]
             if "/" in path and not (root / path).exists():
                 errors.append(f"matrix cell {where} cites missing evidence {path}")
+    for cell in matrix.get("cells", []):
+        if cell.get("status") == "gated" and not cell.get("structural_route"):
+            errors.append(f"gated matrix cell {cell.get('row')}x{cell.get('column')} has no structural_route")
+    if "structure level" not in matrix.get("working_rule", ""):
+        errors.append("constraint matrix lost its structure-level working rule")
     if set(matrix.get("lane_state", {})) != LANES:
         errors.append("constraint matrix lane_state lost a lane-B sub-lane counter")
     counter = matrix.get("program_run_counter", {})
@@ -158,6 +168,8 @@ def audit(root: Path) -> list[str]:
 
     bets = load_json(root, "bets")
     rules = bets.get("lane_rules", {})
+    if "At most 3" not in rules.get("guess_budget", ""):
+        errors.append("discovery-bets lost the per-run guess budget")
     if rules.get("time_box_runs") != 24 or "re-derivation" not in rules.get("speculative_actions", ""):
         errors.append("discovery-bets lane rules lost the 24-run box or the re-derivation rule")
     for bet in bets.get("bets", []):
@@ -245,6 +257,9 @@ def selftest() -> int:
         ("matrix cell moves without evidence", lambda r: set_json(r, "matrix", lambda d: d["cells"][0].__setitem__("evidence", []))),
         ("matrix row loses SM anchor", lambda r: set_json(r, "matrix", lambda d: d["rows"][0].__setitem__("anchor", "EXT-QM-SPACELIKE-BELL-NOSIGNAL"))),
         ("kill wording loses scope", lambda r: set_json(r, "action_class", lambda d: d["verdict_wording"].__setitem__("empty_intersection", "GU is falsified."))),
+        ("structure-not-specifics rule removed", lambda r: replace_text(r, "current", "every action in class C, or for a subfamily", "some action, or for a subfamily")),
+        ("gated cell loses its structural route", lambda r: set_json(r, "matrix", lambda d: [c.pop("structural_route", None) for c in d["cells"] if c.get("status") == "gated"])),
+        ("lane-C guess budget removed", lambda r: set_json(r, "bets", lambda d: d["lane_rules"].pop("guess_budget"))),
         ("bet runs past its time box", lambda r: set_json(r, "bets", lambda d: d["bets"][0].__setitem__("runs_used", 30))),
         ("new K-item without a target", plant_kitem),
         ("VERIFICATION first section reverts to a K-item", lambda r: replace_text(r, "verification", "## Verification standard under program_focus (pinned 2026-11-09)", "## K9999: stopping corrector")),

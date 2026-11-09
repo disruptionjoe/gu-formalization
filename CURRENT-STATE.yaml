@@ -24,6 +24,16 @@ program_focus:
   split:
     lane_B_constraint_matrix: 0.75  # sub-lanes LB-MATRIX, LB-CLASS, LB-LADDER
     lane_C_discovery_bets: 0.25  # lane LC-BETS
+  structure_not_specifics: >-
+    Work at the level of structure, never of a specific action. A lane-B result
+    must hold for every action in class C, or for a subfamily of C defined by a
+    structural property (a symmetry, a representation, an index or anomaly class,
+    a topological type, a grading). Never write down, enumerate, fit or search for
+    a specific action, coefficient set or Lagrangian in lane B. A gated cell is
+    never worked by building the object it waits on; restate it through
+    LB-LADDER (index theory, cobordism/anomaly classification, branching rules,
+    KO/K-theory, Z/24 torsion arithmetic, representation categories, path-integral
+    or anomaly-inflow arguments) or move to another cell.
   run_selection:
     - "1. If a Tier-1 item is open (started, not yet validated), finish it."
     - "2. Lane LC-BETS runs when constraint_matrix.program_run_counter.count % 4 == 3: advance the active bet in discovery_bets with the most time box left."
@@ -61,6 +71,9 @@ program_focus:
     - guessed actions outside lane C, or lane-C output entering the matrix without lane-B re-derivation
     - writing steering text into NEXT-STEPS.md, RESEARCH-STATUS.md or RESEARCH-AGENDA.json latest_result keys
     - the phrase "a narrower route failed" for a matrix kill
+    - writing down, enumerating, fitting or searching for a specific action, coefficient set or Lagrangian outside lane C
+    - building a gated cell's missing object (source action, stabilized RS action, K3-fibered family, boundary connection) as a way to unblock it
+    - more than 3 guessed action variants in one lane-C run, or tuning a guessed action's coefficients
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while

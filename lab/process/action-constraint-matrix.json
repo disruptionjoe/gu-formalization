@@ -59,7 +59,7 @@
   "columns": [
     {
       "id": "fields",
-      "meaning": "field content and carrier"
+      "meaning": "field content and carrier, as types and representations (not explicit field equations)"
     },
     {
       "id": "symmetry",
@@ -67,19 +67,19 @@
     },
     {
       "id": "order_locality",
-      "meaning": "derivative order and locality"
+      "meaning": "derivative order and locality, as structural bounds"
     },
     {
       "id": "domain_boundary",
-      "meaning": "domain, noncompact end, boundary data"
+      "meaning": "domain, noncompact end, boundary data, as topological and spectral types"
     },
     {
       "id": "variational",
-      "meaning": "Euler-Lagrange, Noether, BV structure"
+      "meaning": "existence of Euler-Lagrange, Noether and BV structure of a given type (not a specific Lagrangian)"
     },
     {
       "id": "global_index",
-      "meaning": "families index / topological data the action must expose"
+      "meaning": "families index, anomaly and topological data the class must expose"
     }
   ],
   "cells": [
@@ -113,7 +113,9 @@
       "evidence": [
         "canon/source-action-family-index-interface-SPEC.md",
         "tests/rs-function-space/family_generation_arena_probe.py"
-      ]
+      ],
+      "gate_policy": "Do not build the gate objects. Work the structural route instead.",
+      "structural_route": "Ask which structural property of class C forces the families index N to be 0 mod 3 or lets it avoid that: e.g. whether every admissible fibre family's index lands in the 2-primary arena of pi_3^s = Z/24 (as the boundary eta does), or whether an order-3 class can arise from the fibre GL(4,R)/O(3,1) topology at all. A proof either way decides the cell for C without any specific action."
     },
     {
       "row": "P3",
@@ -137,7 +139,9 @@
       "gate": "stabilized RS-sector action",
       "evidence": [
         "CANON.md (three-generation count entry)"
-      ]
+      ],
+      "gate_policy": "Do not attempt to stabilize the RS-sector action. Work the structural route instead.",
+      "structural_route": "Classify, for the gauge structure of class C, whether any gauge-fixed RS complex compatible with the gamma-trace constraint exists (a cohomological obstruction question), rather than constructing one."
     },
     {
       "row": "P1",
@@ -284,5 +288,6 @@
     "since": "2026-11-09",
     "count": 0,
     "rule": "Every hourly run increments this in its postflight, whatever its lane. Lane C runs when count % 4 == 3 before the increment."
-  }
+  },
+  "working_rule": "Cells are worked at the structure level: a requirement must hold for every action in class C or for a structurally defined subfamily. No cell is worked by writing down a specific action, and no gated cell is worked by building its gate object. See CURRENT-STATE.yaml program_focus.structure_not_specifics."
 }
