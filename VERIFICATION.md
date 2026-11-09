@@ -5,6 +5,18 @@ doc_type: verification-map
 updated_at: "2026-10-27"
 ---
 
+## Verification standard under program_focus (pinned 2026-11-09)
+
+Acceptance depth follows the review tiers in `CURRENT-STATE.yaml` `program_focus.review_tiers`.
+
+- **Tier 1** results (a constraint-matrix cell decided for class C or found empty, a moved ledger row, a change to class C, or any kill) need two specialist reviewers, one hostile reviewer and a Lean check. Without the Lean check a Tier-1 result stays provisional and cannot move the matrix to `decided_for_C` or `empty`.
+- **Tier 2** results (lane-C bet outcomes, newly `constrained` cells) need one specialist reviewer plus their exact probes.
+- **Tier 3** work (scaffolding, probes, bookkeeping) needs its exact probes and the relevant process gates only.
+
+External review is not a pathway in this program. The honesty label stays: internal agent review and Lean checks are not external-expert certification, and results say so. Matrix kills use the wording in `lab/process/action-class.json` `verdict_wording`.
+
+Sections below are historical snapshots in file order.
+
 ## K2617--K2618: Interior contact recovery and larger diffuse phase (2026-11-06)
 
 K2617 proves complete interior conserved observations identify compact correlated pressures in the actual analytic selected system, even across homogeneous preparations. The actual tenth-order radial coefficient enables Holmgren uniqueness. Explicit contact receivers yield a positive scalar Gram matrix and exact finite-model coefficient recovery independent of preparation; disjoint-shell smooth sources give diagonal Gram matrices. Exterior invisibility, common-profile exterior uniqueness and physical apparatus remain separate. K2618 composes the retained K2567 ribbon with the input flow, raising the half-score sufficient diffuse boundary from0.86044 to1.418533974875107, with exact constrained contacts and inverse budget. A checked hypothesis transfer extends the leading adaptive resource law C/M+O(M^-3/2) and finite variable-mesh construction. Six rational policies and two interval endpoints are executed. Necessary boundary1.66781 and higher correctors remain open. Source, ledger0.263 and canon unchanged.

@@ -50,6 +50,7 @@ def render_context(state, verification):
     if not isinstance(result, dict):
         raise ValueError("CURRENT-STATE.yaml needs a current_result mapping")
     entry = {
+        "program_focus": state.get("program_focus"),
         "revision_basis": state.get("revision_basis"),
         "purpose": state["purpose"],
         "result_status": result.get("status"),

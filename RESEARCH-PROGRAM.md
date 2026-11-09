@@ -113,6 +113,11 @@ create a second workstream, reopen its currently empty B2 action-root candidate 
 grade. The program succeeds only through scoped constructions, recovery theorems, exact obstructions, or
 finite discriminators; a coherent geometric story by itself is not a result.
 
+Since 2026-11-09, research priority within this agenda item is set by `program_focus` in `CURRENT-STATE.yaml`:
+the SM chirality anchors come first, and their stage-5 cells in `lab/process/action-constraint-matrix.json`
+define requirements on the declared action class C (`lab/process/action-class.json`). Matrix cells carry demand
+lineage and do not select an action, so they neither reopen the empty action-root candidate set nor wait for it.
+
 The machine-readable method contract at
 `lab/process/reverse-scaffold-method-contract.json` and theory passport at
 `lab/specifications/theory-passport/gu-geometry-first-v0.1.yaml` make both

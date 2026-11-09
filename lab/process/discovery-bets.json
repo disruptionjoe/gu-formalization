@@ -1,0 +1,54 @@
+{
+  "schema_version": "1.0",
+  "artifact": "DISCOVERY_BETS_REGISTER",
+  "updated_at": "2026-11-09",
+  "authorized_by": "Joe direct chat, 2026-11-09 (program_focus reset)",
+  "claim_effect": "none",
+  "lane": "C",
+  "lane_rules": {
+    "share_of_runs": "every 4th hourly run",
+    "time_box_runs": 24,
+    "speculative_actions": "Guessed actions are allowed in lane C only and are labeled SPECULATIVE. They are exempt from the reverse-scaffold ban on unconstrained source-action recovery, but no lane-C result enters the constraint matrix or any ledger without re-derivation through lane B.",
+    "selection_within_lane": "the active bet with the most remaining time box",
+    "winner_rule": "A bet that moves a ledger row or a matrix cell (after lane-B re-derivation) receives the next freed time box.",
+    "kill_rule": "A bet whose kill criterion is met, or whose time box runs out without a delta, is closed and recorded; it is never silently extended.",
+    "reroute_rule": "Three consecutive zero-delta runs reroute the lane to the next active bet within the same Big Wave."
+  },
+  "bets": [
+    {
+      "id": "BET-2PLUS1",
+      "question": "Does the source-native 2+1 construction (two true-family sectors plus an imposter/remainder sector, observation pullback) yield a realized chiral count of three for some guessed action?",
+      "target_row": "P3",
+      "start_pointer": "lab/active-research/joe-directed/high-energy-two-plus-one/he1-imposter-separation-invariant-2026-08-14.md",
+      "routing_note": "Ordinary index and net-chirality calculations are controls only for this mechanism (GEOMETER-VS-PHYSICS-OBJECTS.md, generation/chirality row).",
+      "kill_criterion": "Within the time box, no invariant separates the imposter sector from the true families, or the observation/quotient map from sectors to a realized count cannot be typed for any guessed action tried.",
+      "status": "active",
+      "runs_used": 0,
+      "zero_delta_streak": 0,
+      "result": null
+    },
+    {
+      "id": "BET-MASS-GAP",
+      "question": "Does the curvature-square sector of the chimeric connection, after observation pullback, produce a gapped gauge sector (for example through the ad-valued one-form a) for some guessed action?",
+      "target_row": "candidate new row: EXT-YM-MASS-GAP (lattice-observed gap; no proof exists)",
+      "external_context": "OpenAI announced an AI-generated existence proof for 4D pure Yang-Mills and QCD on 2026-10-26; it does not claim the mass gap and is unverified. Track it; do not build on it until it is public and checks out.",
+      "kill_criterion": "Within the time box, the reduced quadratic operator has massless gauge modes for every guessed action tried, with the reduction typed (contraction, not projection).",
+      "status": "active",
+      "runs_used": 0,
+      "zero_delta_streak": 0,
+      "result": null
+    },
+    {
+      "id": "BET-COSMOLOGY",
+      "question": "Is there a guessed action variant of the theta-field dark-energy sector that is CMB-consistently calibrated and not an LCDM mimic?",
+      "target_row": "candidate new row: EXT-COSMO-DESI-BAO",
+      "start_pointer": "CANON.md, theta-field-flrw-dark-energy-eos.md row (corrections DARK-ENERGY-02 to -06)",
+      "kill_criterion": "Within the time box, every variant tried is either excluded at theta-star calibration (delta chi^2 >= +10 against DESI DR2 BAO) or has |w0 + 1| < 0.1 everywhere it is allowed.",
+      "status": "active",
+      "runs_used": 0,
+      "zero_delta_streak": 0,
+      "result": null
+    }
+  ],
+  "closed_bets": []
+}

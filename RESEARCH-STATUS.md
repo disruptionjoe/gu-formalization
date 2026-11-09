@@ -6,6 +6,16 @@ updated_at: "2026-10-26"
 canon_sweep_at: "2026-07-25"
 ---
 
+## Program focus reset (pinned 2026-11-09)
+
+Status at reset: the forward direction remains blocked at the action root; source, ledger and canon are unchanged.
+Research priority moved to `program_focus` in `CURRENT-STATE.yaml`. Lane B works the constraint matrix
+(`lab/process/action-constraint-matrix.json`) over the declared action class C (`lab/process/action-class.json`),
+whose rows P1, P2 and P3 descend from the observed SM chirality anchors. Lane C (every 4th run) advances one
+discovery bet (`lab/process/discovery-bets.json`). The K25xx--K2618 detector, pressure-recovery and stopping-phase
+results below are retained as conditional mathematics; that lane is no longer the default target. Sections
+below are dated results, newest first, and are not steering.
+
 ## K2617--K2618: Interior contact recovery and larger diffuse phase (2026-11-06)
 
 K2617 proves complete interior conserved observations identify compact correlated pressures in the actual analytic selected system, even across homogeneous preparations. The actual tenth-order radial coefficient enables Holmgren uniqueness. Explicit contact receivers yield a positive scalar Gram matrix and exact finite-model coefficient recovery independent of preparation; disjoint-shell smooth sources give diagonal Gram matrices. Exterior invisibility, common-profile exterior uniqueness and physical apparatus remain separate. K2618 composes the retained K2567 ribbon with the input flow, raising the half-score sufficient diffuse boundary from0.86044 to1.418533974875107, with exact constrained contacts and inverse budget. A checked hypothesis transfer extends the leading adaptive resource law C/M+O(M^-3/2) and finite variable-mesh construction. Six rational policies and two interval endpoints are executed. Necessary boundary1.66781 and higher correctors remain open. Source, ledger0.263 and canon unchanged.

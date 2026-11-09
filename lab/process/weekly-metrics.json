@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.0",
+  "artifact": "WEEKLY_PROGRAM_METRICS",
+  "authorized_by": "Joe direct chat, 2026-11-09 (program_focus reset)",
+  "claim_effect": "none",
+  "purpose": "Measure progress by decisions, not volume. Appended once a week; commit counts and K-numbers are not progress metrics.",
+  "entry_schema": {
+    "week_ending": "YYYY-MM-DD",
+    "runs": "hourly runs in the week, split by lane (B1, B2, B3, C)",
+    "matrix_cells_changed": "cells whose status moved (open -> constrained -> decided_for_C or empty)",
+    "intersections_changed": "intersection entries whose status moved",
+    "ledger_rows_moved": "P-rows or other ledger rows whose verdict changed",
+    "kills": "bets closed by kill criterion plus matrix cells found empty",
+    "class_widenings": "entries added to action-class.json degeneration_log",
+    "zero_delta_runs": "runs whose actual_delta was none",
+    "reroutes": "lanes rerouted by the three-zero-delta rule",
+    "tier1_results": "count, and how many have a Lean check",
+    "summary_for_joe": "one screen: what moved, what died, what is next"
+  },
+  "entries": []
+}

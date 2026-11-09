@@ -634,7 +634,8 @@ same ceiling as the scripts themselves:
 | `needs_provides_composition_audit.py` | Joins declared NEEDS with claimed SUPPLY, ratchets unadjudicated candidates, and preserves disavowal fences; a hit is a composition candidate and never an automatic physics verdict. |
 | `needs_provides_typed_join_audit.py` | Adds domain/codomain and registered-homonym sense typing to NEEDS/SUPPLY joins so token matches can be verified, rejected, or left explicitly untyped without guessing. |
 | `probe_authorship_lint.py` | Ratchets four recurrent probe-authoring defects: crash-not-detection, stale global pins, negation-satisfiable predicates, and raw wrapped-prose searches; it does not certify the probes' scientific claims. |
-| `reverse_scaffold_direction_audit.py` | Keeps observed-to-native search separate from native-to-observed certification across all active front doors, simulates an empty-action-root Big-Wave selection, and hostile-tests stop, scale-down, source-first, maintenance, and calibration-credit regressions; it changes no scientific claim. |
+| `reverse_scaffold_direction_audit.py` | Keeps observed-to-native search separate from native-to-observed certification across all active front doors, simulates an empty-action-root Big-Wave selection with SM-chirality-first anchor priority and lineage-bearing stage-5 matrix cells, and hostile-tests stop, scale-down, source-first, maintenance, calibration-credit, anchor-priority and lane-C-exemption regressions; it changes no scientific claim. |
+| `program_focus_audit.py` | Keeps the 2026-11-09 `program_focus` steering where agents read it first (CURRENT-STATE top, entry view, AGENTS step 0, first VERIFICATION section, pinned NEXT-STEPS/RESEARCH-STATUS sections), validates the constraint matrix, action class, discovery bets and weekly metrics, blocks regrowth of the follow-through chain, and requires target/tier/delta frontmatter on new conditional-build results; it changes no scientific claim. |
 | `typed_carrier_declaration_audit.py` | Requires result-bearing dated artifacts in its derived scope to declare carrier, pairing, real structure, grading, action owner and target, while preserving explicit `UNTYPED` and audited prose-only outcomes. |
 | `upgrade_program_register_audit.py` | Enforces that the upgrade-program register remains uniquely keyed, owned, status-typed and date-routed; reports overdue nonterminal rows at an explicit `--as-of` date (default UTC today) as review signals only, without judging, activating or reprioritizing the registered ideas. |
 
@@ -760,6 +761,7 @@ same ceiling as the scripts themselves:
 - `queue_review_freshness_audit.py`
 - `register_writeback_audit.py`
 - `reverse_scaffold_direction_audit.py`
+- `program_focus_audit.py`
 - `selected_cubic_augmented_torsion_d3_owner_scope_audit.py`
 - `selected_cubic_gauge_rotated_lc_ward_owner_scope_audit.py`
 - `selected_cubic_intrinsic_homogeneous_ward_closure_scope_audit.py`

@@ -36,6 +36,16 @@ ANCHORS = {
     "EXT-QM-MASSIVE-MATTER-INTERFERENCE",
     "EXT-QM-SPACELIKE-BELL-NOSIGNAL",
 }
+SM_ANCHORS = {
+    "EXT-SM-WEAK-CHIRALITY",
+    "EXT-SM-THREE-CHIRAL-GENERATIONS",
+}
+PRIORITY = [
+    "EXT-SM-WEAK-CHIRALITY",
+    "EXT-SM-THREE-CHIRAL-GENERATIONS",
+    "EXT-QM-MASSIVE-MATTER-INTERFERENCE",
+    "EXT-QM-SPACELIKE-BELL-NOSIGNAL",
+]
 FILES = {
     "contract": Path("lab/process/reverse-scaffold-method-contract.json"),
     "passport": Path("lab/specifications/theory-passport/gu-geometry-first-v0.1.yaml"),
@@ -47,6 +57,9 @@ FILES = {
     "contributing": Path("CONTRIBUTING.md"),
     "readme": Path("README.md"),
     "protocol": Path("lab/process/construction-space-exploration-protocol.md"),
+    "matrix": Path("lab/process/action-constraint-matrix.json"),
+    "action_class": Path("lab/process/action-class.json"),
+    "bets": Path("lab/process/discovery-bets.json"),
 }
 
 
@@ -74,8 +87,15 @@ def compact(text: str) -> str:
     return " ".join(text.replace(">", " ").split())
 
 
-def select_reverse_wave(action_root_empty: bool, arcs: list[dict]) -> list[str]:
-    """Model the contract's work selector, not its certification checker."""
+def select_reverse_wave(action_root_empty: bool, arcs: list[dict], priority: list[str] | None = None) -> list[str]:
+    """Model the contract's work selector, not its certification checker.
+
+    Since 2026-11-09 (program_focus), stage-5 arcs that carry demand lineage are
+    constraint-matrix cells: they define requirements on the declared action
+    class and do not select an action, so an empty action root leaves them
+    eligible.  Arcs are ranked first by anchor priority, then by information
+    gain.
+    """
     eligible = [
         arc
         for arc in arcs
@@ -84,10 +104,16 @@ def select_reverse_wave(action_root_empty: bool, arcs: list[dict]) -> list[str]:
         and not arc.get("collision")
         and not (arc.get("stage") == "candidate_action_requirements" and not arc.get("demand_lineage"))
     ]
-    # An empty action root intentionally has no effect on stages before R1.
-    if action_root_empty:
-        eligible = [arc for arc in eligible if arc.get("stage") != "candidate_action_requirements"]
-    eligible.sort(key=lambda arc: (-int(arc.get("information_gain", 0)), arc["id"]))
+    # An empty action root has no effect on stages before R1, and stage-5 arcs
+    # already need demand lineage above; lineage-bearing stage-5 arcs are
+    # requirement cells, not action selection, so they stay eligible.
+    order = priority or []
+
+    def rank(arc: dict) -> int:
+        anchor = arc.get("anchor")
+        return order.index(anchor) if anchor in order else len(order)
+
+    eligible.sort(key=lambda arc: (rank(arc), -int(arc.get("information_gain", 0)), arc["id"]))
     return [arc["id"] for arc in eligible]
 
 
@@ -134,6 +160,24 @@ def audit(root: Path) -> list[str]:
     for anchor in anchors:
         if anchor.get("confirmation_credit") != "none":
             errors.append(f"calibration anchor {anchor.get('id')} receives confirmation credit")
+
+    sm_anchors = contract.get("sm_calibration_anchors", [])
+    if {anchor.get("id") for anchor in sm_anchors} != SM_ANCHORS:
+        errors.append("contract SM calibration anchor set changed")
+    for anchor in sm_anchors:
+        if anchor.get("confirmation_credit") != "none":
+            errors.append(f"calibration anchor {anchor.get('id')} receives confirmation credit")
+    priority = contract.get("anchor_priority", {}).get("order", [])
+    if priority != PRIORITY:
+        errors.append("contract anchor priority no longer puts SM chirality anchors first")
+    matrix = contract.get("constraint_matrix", {})
+    if matrix.get("stage") != "candidate_action_requirements" or not (root / str(matrix.get("ref", ""))).is_file():
+        errors.append("contract constraint matrix missing or not typed as stage-5 requirements")
+    lane_c = contract.get("lane_c_discovery_bets", {})
+    if "lane-B re-derivation" not in lane_c.get("exemption", "") or lane_c.get("confirmation_credit") != "none":
+        errors.append("lane-C exemption no longer requires lane-B re-derivation")
+    if "never zero work" not in contract.get("zero_delta_reroute", ""):
+        errors.append("zero-delta reroute no longer excludes zero work")
 
     if "critical_path" in passport:
         errors.append("passport restored a single critical_path")
@@ -190,6 +234,10 @@ def audit(root: Path) -> list[str]:
         "Execute one largest honest compatible Big Wave",
         "never authorizes zero work",
         "Conditional physical-state interface research is open now",
+        "program_focus:",
+        "EXT-SM-WEAK-CHIRALITY",
+        "EXT-SM-THREE-CHIRAL-GENERATIONS",
+        "A reroute is never zero work or scale reduction.",
     )
     for phrase in current_required:
         if compact(phrase) not in compact(current):
@@ -217,15 +265,18 @@ def audit(root: Path) -> list[str]:
                 errors.append(f"{FILES[key]} lacks {phrase!r}")
 
     fixture = [
-        {"id": "R6-matter", "direction": "observed_to_native", "stage": REVERSE[0], "ready": True, "information_gain": 9},
-        {"id": "R5-bell", "direction": "observed_to_native", "stage": REVERSE[1], "ready": True, "information_gain": 8},
-        {"id": "R4-common-state", "direction": "observed_to_native", "stage": REVERSE[2], "ready": True, "information_gain": 7},
-        {"id": "R1-action", "direction": "observed_to_native", "stage": REVERSE[4], "ready": True, "demand_lineage": False, "information_gain": 10},
+        {"id": "R6-matter", "direction": "observed_to_native", "stage": REVERSE[0], "ready": True, "anchor": "EXT-QM-MASSIVE-MATTER-INTERFERENCE", "information_gain": 9},
+        {"id": "R5-bell", "direction": "observed_to_native", "stage": REVERSE[1], "ready": True, "anchor": "EXT-QM-SPACELIKE-BELL-NOSIGNAL", "information_gain": 8},
+        {"id": "R4-common-state", "direction": "observed_to_native", "stage": REVERSE[2], "ready": True, "anchor": "EXT-QM-SPACELIKE-BELL-NOSIGNAL", "information_gain": 7},
+        {"id": "R6-sm-chirality", "direction": "observed_to_native", "stage": REVERSE[0], "ready": True, "anchor": "EXT-SM-WEAK-CHIRALITY", "information_gain": 6},
+        {"id": "P3-matrix-cell", "direction": "observed_to_native", "stage": REVERSE[4], "ready": True, "demand_lineage": True, "anchor": "EXT-SM-THREE-CHIRAL-GENERATIONS", "information_gain": 5},
+        {"id": "R1-action", "direction": "observed_to_native", "stage": REVERSE[4], "ready": True, "demand_lineage": False, "anchor": "EXT-SM-WEAK-CHIRALITY", "information_gain": 10},
+        {"id": "lane-c-guessed-action", "direction": "speculative_bet", "stage": REVERSE[4], "ready": True, "information_gain": 50},
         {"id": "source-action-retrieval", "direction": "native_to_observed", "stage": FORWARD[0], "ready": True, "information_gain": 99},
     ]
-    selected = select_reverse_wave(action_root_empty=True, arcs=fixture)
-    if selected != ["R6-matter", "R5-bell", "R4-common-state"]:
-        errors.append(f"empty-action selector failed Big-Wave reverse reroute: {selected}")
+    selected = select_reverse_wave(action_root_empty=True, arcs=fixture, priority=priority)
+    if selected != ["R6-sm-chirality", "P3-matrix-cell", "R6-matter", "R5-bell", "R4-common-state"]:
+        errors.append(f"empty-action selector failed SM-first Big-Wave reverse reroute: {selected}")
 
     return errors
 
@@ -279,10 +330,38 @@ def selftest() -> int:
             lambda root: set_json(root, "contract", lambda data: data["quantum_calibration_anchors"][0].__setitem__("confirmation_credit", "positive")),
         ),
         (
+            "SM chirality anchors dropped from contract",
+            lambda root: set_json(root, "contract", lambda data: data.__setitem__("sm_calibration_anchors", [])),
+        ),
+        (
+            "anchor priority demotes SM anchors below quantum anchors",
+            lambda root: set_json(root, "contract", lambda data: data["anchor_priority"].__setitem__("order", list(reversed(data["anchor_priority"]["order"])))),
+        ),
+        (
+            "lane-C exemption stops requiring lane-B re-derivation",
+            lambda root: set_json(root, "contract", lambda data: data["lane_c_discovery_bets"].__setitem__("exemption", "Guessed actions may enter the matrix directly.")),
+        ),
+        (
+            "current state drops program_focus",
+            lambda root: replace_text(root, "current", "program_focus:\n", "retired_focus:\n"),
+        ),
+        (
             "contributor front door loses no-stop rule",
             lambda root: replace_text(root, "contributing", "not a reason to stop", "a reason to stop"),
         ),
     ]
+
+    with tempfile.TemporaryDirectory(prefix="gu_reverse_scaffold_") as temp:
+        fixture = Path(temp)
+        for rel in FILES.values():
+            (fixture / rel).parent.mkdir(parents=True, exist_ok=True)
+            shutil.copy2(ROOT / rel, fixture / rel)
+        clean = audit(fixture)
+        if clean:
+            print("[FAIL] unmutated fixture is not green; selftest would be vacuous")
+            for error in clean:
+                print(f"  - {error}")
+            return 1
 
     caught = 0
     for label, plant in plants:
@@ -314,7 +393,7 @@ def main() -> int:
         for error in errors:
             print(f"[FAIL] {error}")
         return 1
-    print("[PASS] reverse-scaffold direction, Big-Wave liveness, and quantum calibration controls agree")
+    print("[PASS] reverse-scaffold direction, Big-Wave liveness, SM-first anchor priority, and calibration controls agree")
     return 0
 
 

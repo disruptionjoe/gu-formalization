@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.0",
+  "artifact": "ACTION_CLASS_DECLARATION",
+  "class_id": "GU-ACTION-CLASS-C",
+  "version": "v1",
+  "status": "active_v1_declared_pending_first_LB-CLASS_witness_check",
+  "authorized_by": "Joe direct chat, 2026-11-09 (program_focus reset)",
+  "claim_effect": "none",
+  "purpose": "Fix the class of candidate actions over which the constraint matrix (lab/process/action-constraint-matrix.json) is intersected. A statement 'no action in C hosts P1, P2 and P3 together' is only meaningful relative to this declaration.",
+  "declaration": {
+    "base": "Oriented smooth four-manifold X^4 carrying Lorentzian (3,1) metrics.",
+    "total_space": "Y^14 = Met(X^4) with the gimmel/DeWitt fibre metric (trace-reversed Frobenius fibre, see GEOMETER-VS-PHYSICS-OBJECTS.md 'The metric'). Base and fibre metrics stay typed separately.",
+    "fields": [
+      "observation section g: X^4 -> Y^14 (metric field)",
+      "connection on the chimeric spinor bundle over Y^14, structure group fixed by the declared Clifford signature",
+      "gamma-traceless Rarita-Schwinger carrier (ker Gamma) and its spin-1/2 companions",
+      "optional ad-valued one-form a in Omega^1(ad) (curvature-induced, not a separate Higgs scalar)"
+    ],
+    "open_typed_parameters": {
+      "clifford_signature": "admitted fork {(7,7), (9,5)}; each value is a separate subclass and a matrix verdict names the subclass",
+      "fibre_model": "metric fibre GL(4,R)/O(3,1); K3-fibered family realization OPEN (canon/source-action-family-index-interface-SPEC.md)"
+    },
+    "symmetry": "Natural (diffeomorphism-covariant) on X^4 and covariant under the gauge group of the declared chimeric bundle, including its inhomogeneous extension where the action uses it.",
+    "locality_and_order": "Local, polynomial in field jets; bosonic principal order <= 2 (curvature-square / Shiab-contracted curvature terms); fermionic principal order <= 1 (Dirac / Rarita-Schwinger type).",
+    "coefficients": "Real coefficients; no explicitly inserted integer generation multiplicity.",
+    "domain_and_boundary": "Smooth on Y^14 with APS-type boundary data on the noncompact end; an a-priori Y^14 boundary connection is admitted as part of the action data.",
+    "variational_structure": "Euler-Lagrange system with Noether identities; BV-extendable gauge structure.",
+    "external_data_admitted": "P1, P2 and P3 may enter as typed external background or boundary data. Whether they can enter jointly is exactly what the matrix tests."
+  },
+  "exclusions": [
+    "importing chi(K3)=24, the /8 normalization, Ahat=3 or 'contractible fibre => 1' (absorbed/gu-source-action/DEAD-ENDS.md automatic fails)",
+    "nonlocal actions",
+    "actions that insert a generation integer by hand",
+    "conventional comparator actions used as evidence against source-native mechanisms (lab/methods/source-native-comparator-routing.md)"
+  ],
+  "width_test": {
+    "rule": "C is admissible only if it is neither a strawman nor vacuous.",
+    "inclusion_witness": {
+      "requirement": "At least one known action satisfying P1 lies in C or in a declared comparator extension of C.",
+      "candidate": "The external-by-structure index mechanism: a vectorlike interior plus a net-self-dual chiral background whose flux/instanton number sets the chiral index (canon/external-by-structure-synthesis-RESULTS.md). Used as a control only.",
+      "status": "proposed; first LB-CLASS run certifies or replaces it"
+    },
+    "exclusion_witness": {
+      "requirement": "At least one action family in C is decided by an existing row.",
+      "candidate": "Interior covariant operators that would force an odd chiral count are excluded by the structural law (linear leg theorem-grade; antilinear leg finite hunt, evidence only).",
+      "status": "proposed; first LB-CLASS run certifies or replaces it"
+    }
+  },
+  "verdict_wording": {
+    "empty_intersection": "GU falsified within action class C vN: the declared class, tested against rows P1-P3, has empty joint intersection. Falsification-shaped for the declared class only, not a global GU verdict (same reading as lab/process/construction-space-preregistered-endings-2026-07-19.md).",
+    "nonempty_intersection": "Candidate action family within class C vN, with typed imports; forwarded to forward certification stage action_causal_closure.",
+    "forbidden_for_matrix_kills": "a narrower route failed",
+    "handoff": "An empty intersection goes to Joe before any canon movement or public framing change."
+  },
+  "widening_policy": "Widening C after any kill requires a new version, a written reason and a degeneration_log entry before the next run uses it.",
+  "degeneration_log": [],
+  "predecessor": "CONSTRUCTION-SPACE-EXPLORATION (lab/process/construction-space-map.json, July 2026). Its R0/R1/R2 rungs and preregistered endings are reused; this class declaration narrows that program to the external-datum rows."
+}

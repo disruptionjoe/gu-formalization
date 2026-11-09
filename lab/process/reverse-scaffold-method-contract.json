@@ -1,8 +1,10 @@
 {
   "schema_version": "1.0",
-  "contract_id": "GU-REVERSE-SCAFFOLD-METHOD-V1",
+  "contract_id": "GU-REVERSE-SCAFFOLD-METHOD-V2",
   "status": "active",
   "authorized_by": "Joe direct chat, 2026-08-31",
+  "amended_by": "Joe direct chat, 2026-11-09: program_focus reset (SM chirality anchors first, constraint matrix at stage 5, lane-C discovery bets)",
+  "program_focus_ref": "CURRENT-STATE.yaml#program_focus",
   "purpose": "Keep conditional GU construction moving backward from admitted physical phenomena while reserving action-first order for native certification.",
   "claim_effect": "none",
   "work_posture": {
@@ -17,14 +19,34 @@
       "governs": "research_work_eligibility_and_candidate_generation",
       "action_required_to_open": false,
       "stages": [
-        {"order": 1, "id": "empirical_benchmark_descent", "output": "frozen calibration constraints and a distinct held-out family"},
-        {"order": 2, "id": "operational_constraint_extraction", "output": "preparation, intervention, detector, record, probability and no-signalling demands"},
-        {"order": 3, "id": "state_observable_interface", "output": "conditional state composition, event, pairing, quotient and observable interfaces"},
-        {"order": 4, "id": "causal_dynamical_demand", "output": "locality, causal-domain, coherence, decoherence and state-preserving-dynamics requirements"},
-        {"order": 5, "id": "candidate_action_requirements", "output": "demand-derived field, coefficient, symmetry, domain and variational constraints on candidate actions"}
+        {
+          "order": 1,
+          "id": "empirical_benchmark_descent",
+          "output": "frozen calibration constraints and a distinct held-out family"
+        },
+        {
+          "order": 2,
+          "id": "operational_constraint_extraction",
+          "output": "preparation, intervention, detector, record, probability and no-signalling demands"
+        },
+        {
+          "order": 3,
+          "id": "state_observable_interface",
+          "output": "conditional state composition, event, pairing, quotient and observable interfaces"
+        },
+        {
+          "order": 4,
+          "id": "causal_dynamical_demand",
+          "output": "locality, causal-domain, coherence, decoherence and state-preserving-dynamics requirements"
+        },
+        {
+          "order": 5,
+          "id": "candidate_action_requirements",
+          "output": "demand-derived field, coefficient, symmetry, domain and variational constraints on candidate actions"
+        }
       ],
       "empty_action_root_policy": "stages_1_through_4_remain_open_and_stage_5_may_define_action_requirements",
-      "selection_rule": "Select a Big Wave of the strongest compatible unclosed backward edges with the greatest cross-benchmark information gain; never replace it with unconstrained source-action recovery.",
+      "selection_rule": "Select a Big Wave of the strongest compatible unclosed backward edges, ranked first by anchor_priority (SM chirality anchors and their constraint-matrix cells), then by cross-benchmark information gain; never replace it with unconstrained source-action recovery outside the lane-C exemption.",
       "action_candidate_admission": "A candidate action must cite the frozen downstream demands that require its fields, coefficients, symmetries, domain and variational structure.",
       "source_authentication": "Source evidence may authenticate, correct or reject attribution. It is not a prerequisite for owner-native conditional candidate construction, and a repository construction never becomes source-owned by resemblance."
     },
@@ -32,10 +54,31 @@
       "direction": "native_to_observed",
       "governs": "native_derivation_credit_scientific_promotion_and_export",
       "stages": [
-        {"order": 1, "id": "action_causal_closure"},
-        {"order": 2, "id": "physical_state_space", "certification_depends_on": ["action_causal_closure"]},
-        {"order": 3, "id": "observable_export", "certification_depends_on": ["physical_state_space"]},
-        {"order": 4, "id": "held_out_confrontation", "certification_depends_on": ["observable_export"]}
+        {
+          "order": 1,
+          "id": "action_causal_closure"
+        },
+        {
+          "order": 2,
+          "id": "physical_state_space",
+          "certification_depends_on": [
+            "action_causal_closure"
+          ]
+        },
+        {
+          "order": 3,
+          "id": "observable_export",
+          "certification_depends_on": [
+            "physical_state_space"
+          ]
+        },
+        {
+          "order": 4,
+          "id": "held_out_confrontation",
+          "certification_depends_on": [
+            "observable_export"
+          ]
+        }
       ],
       "promotion_rule": "Only the forward chain can earn GU-native derivation, prediction, confirmation or export credit. Reverse-only success earns explicitly assumption-capped compatibility or hosting credit."
     }
@@ -49,18 +92,94 @@
         "Fein et al., Nature Physics 15, 1242-1245 (2019), doi:10.1038/s41567-019-0663-9",
         "Pedalino et al., Nature 649, 866-870 (2026), doi:10.1038/s41586-025-09917-9"
       ],
-      "required_reverse_outputs": ["coherent_alternative_composition", "phase_sensitive_recombination", "composite_centre_of_mass_state", "environmental_decoherence_interface"],
+      "required_reverse_outputs": [
+        "coherent_alternative_composition",
+        "phase_sensitive_recombination",
+        "composite_centre_of_mass_state",
+        "environmental_decoherence_interface"
+      ],
       "confirmation_credit": "none"
     },
     {
       "id": "EXT-QM-SPACELIKE-BELL-NOSIGNAL",
       "status": "admitted_reverse_scaffold_calibration",
       "observed_constraint": "Spacelike-separated measurements on distributed entangled photon pairs violate a Bell inequality while preserving operational no-signalling.",
-      "primary_examples": ["Yin et al., Science 356, 1140-1144 (2017), doi:10.1126/science.aan3211"],
-      "required_reverse_outputs": ["nonfactorizable_joint_state", "contextual_joint_probability_structure", "local_marginal_invariance", "causal_record_comparison"],
+      "primary_examples": [
+        "Yin et al., Science 356, 1140-1144 (2017), doi:10.1126/science.aan3211"
+      ],
+      "required_reverse_outputs": [
+        "nonfactorizable_joint_state",
+        "contextual_joint_probability_structure",
+        "local_marginal_invariance",
+        "causal_record_comparison"
+      ],
       "confirmation_credit": "none"
     }
   ],
+  "sm_calibration_anchors": [
+    {
+      "id": "EXT-SM-WEAK-CHIRALITY",
+      "status": "admitted_reverse_scaffold_calibration",
+      "priority": 1,
+      "observed_constraint": "Charged-current weak interactions couple only to left-handed fermions and right-handed antifermions; parity is maximally violated.",
+      "primary_examples": [
+        "Wu et al., Phys. Rev. 105, 1413 (1957), doi:10.1103/PhysRev.105.1413",
+        "Goldhaber, Grodzins and Sunyar, Phys. Rev. 109, 1015 (1958), doi:10.1103/PhysRev.109.1015"
+      ],
+      "required_reverse_outputs": [
+        "chiral_projector_on_observed_carrier",
+        "orientation_datum_P1",
+        "x_sector_symbol_phase_P2"
+      ],
+      "matrix_rows": [
+        "P1",
+        "P2"
+      ],
+      "routing_note": "Conventional chiral-index computations are controls for this anchor, not evidence against source-native mechanisms (lab/methods/source-native-comparator-routing.md).",
+      "confirmation_credit": "none"
+    },
+    {
+      "id": "EXT-SM-THREE-CHIRAL-GENERATIONS",
+      "status": "admitted_reverse_scaffold_calibration",
+      "priority": 1,
+      "observed_constraint": "Exactly three generations of light chiral fermions: the Z-boson invisible width gives N_nu = 2.9963 +/- 0.0074, and three complete families are observed.",
+      "primary_examples": [
+        "ALEPH, DELPHI, L3, OPAL, SLD Collaborations, Phys. Rept. 427, 257 (2006), doi:10.1016/j.physrep.2005.12.006",
+        "Janot and Jadach, Phys. Lett. B 803, 135319 (2020), doi:10.1016/j.physletb.2020.135319"
+      ],
+      "required_reverse_outputs": [
+        "realized_chiral_index_P3",
+        "family_resolved_chiral_spectrum"
+      ],
+      "matrix_rows": [
+        "P3"
+      ],
+      "routing_note": "The source-native 2+1 mechanism is not adjudicated by an ordinary index count (GEOMETER-VS-PHYSICS-OBJECTS.md).",
+      "confirmation_credit": "none"
+    }
+  ],
+  "anchor_priority": {
+    "order": [
+      "EXT-SM-WEAK-CHIRALITY",
+      "EXT-SM-THREE-CHIRAL-GENERATIONS",
+      "EXT-QM-MASSIVE-MATTER-INTERFERENCE",
+      "EXT-QM-SPACELIKE-BELL-NOSIGNAL"
+    ],
+    "rule": "Arcs descending from the SM chirality anchors, including stage-5 constraint-matrix cells with demand lineage, are selected before arcs descending only from the quantum anchors. The quantum anchors stay admitted and keep their outputs."
+  },
+  "constraint_matrix": {
+    "ref": "lab/process/action-constraint-matrix.json",
+    "action_class_ref": "lab/process/action-class.json",
+    "stage": "candidate_action_requirements",
+    "eligibility": "A matrix cell is a stage-5 arc with demand lineage. It defines requirements on actions and does not select or presuppose an action, so an empty action root does not make it ineligible."
+  },
+  "lane_c_discovery_bets": {
+    "ref": "lab/process/discovery-bets.json",
+    "share": "every 4th hourly run",
+    "exemption": "Lane C alone may use guessed actions, labeled SPECULATIVE, without backward demand lineage. This exempts lane C from 'never replace it with unconstrained source-action recovery'. No lane-C output enters the matrix, a ledger or canon without lane-B re-derivation.",
+    "confirmation_credit": "none"
+  },
+  "zero_delta_reroute": "Three consecutive runs in one lane whose actual_delta is none reroute that lane within the same Big Wave to the next eligible arc. This is a reroute, never zero work or scale reduction; reopening a rerouted lane needs Joe.",
   "calibration_holdout_firewall": {
     "calibration_use": "The admitted anchors may constrain candidate construction and kill incompatible interfaces.",
     "forbidden_credit": "Reproducing a calibration anchor used to build the candidate is not a prediction or confirmation.",

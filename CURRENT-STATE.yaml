@@ -1,7 +1,65 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 7bd214aee03ca6ff36ba0b62ead39ca0d295f4b0
+revision_basis: 731dd47bb67a5b72c6f3eae497ff0e48fdc52e63
+program_focus:
+  version: 2026-11-09-v1
+  authority: joe_direct_chat_2026_11_09
+  read_first: >-
+    This block steers research priority. Read it before any other part of this
+    file. Older steering text below (next_condition history, the archived section of NEXT-STEPS,
+    superseded agenda swings) is history, not instruction.
+  goal: >-
+    Decide whether any action in the declared class C
+    (lab/process/action-class.json) hosts ledger rows P1, P2 and P3 together.
+    Empty joint intersection = "GU falsified within action class C vN" (scoped to
+    the declared class; not a global GU verdict). Non-empty = candidate action
+    family, forwarded to forward certification stage action_causal_closure.
+  files:
+    action_class: lab/process/action-class.json
+    constraint_matrix: lab/process/action-constraint-matrix.json
+    discovery_bets: lab/process/discovery-bets.json
+    weekly_metrics: lab/process/weekly-metrics.json
+    method_contract: lab/process/reverse-scaffold-method-contract.json
+  split:
+    lane_B_constraint_matrix: 0.75  # sub-lanes LB-MATRIX, LB-CLASS, LB-LADDER
+    lane_C_discovery_bets: 0.25  # lane LC-BETS
+  run_selection:
+    - "1. If a Tier-1 item is open (started, not yet validated), finish it."
+    - "2. Lane LC-BETS runs when constraint_matrix.program_run_counter.count % 4 == 3: advance the active bet in discovery_bets with the most time box left."
+    - "3. Otherwise lane LB-MATRIX: pick the constraint-matrix cell or intersection with the highest expected shrinkage; prefer intersecting two rows; SM-anchor rows outrank everything else."
+    - "4. If that cell needs a specific action, restate it as a statement about every action in C (lane LB-LADDER: index theory, cobordism/anomaly classification, branching rules, KO/K-theory, Z/24 torsion arithmetic, representation categories)."
+    - "5. If no cell is eligible, do lane LB-CLASS: propose a new row, tighten class C, or certify a width-test witness."
+  preflight_required:
+    - target (matrix cell id, intersection id, bet id, or LB-CLASS task)
+    - tier (T1, T2 or T3)
+    - expected_delta (which status should move, and to what)
+    - kill_condition (what result would close the target)
+  postflight_required:
+    - update the matrix or bet file (status, evidence, lane_state counters)
+    - one line of actual_delta, or "none"
+    - increment constraint_matrix.program_run_counter.count
+    - append to the matrix shrinkage_log when a cell or intersection moved
+  kitem_frontmatter: >-
+    Every new explorations/conditional-build/*-YYYY-MM-DD.md result dated
+    2026-11-09 or later carries program_target (matrix cell such as P3xglobal_index,
+    intersection such as X-P1-P2, bet id, or LB-CLASS task), tier (T1, T2 or T3),
+    expected_delta and actual_delta in its frontmatter.
+    process_gates/program_focus_audit.py enforces this.
+  zero_delta_reroute: >-
+    Three consecutive runs in one lane with actual_delta none reroute that lane
+    within the same Big Wave to the next eligible target. A reroute is never
+    zero work or scale reduction. Reopening a rerouted lane needs Joe.
+  review_tiers:
+    T1: moves a matrix cell to decided_for_C or empty, moves a ledger row, changes class C, or is a kill. Two specialist reviewers, one hostile reviewer, and a Lean check before acceptance.
+    T2: lane-C bet results and new constrained cells. One specialist reviewer.
+    T3: scaffolding, probes, bookkeeping. Exact probes and gates only.
+  forbidden:
+    - proposing, planning for, or waiting on external review (it is not a pathway in this program)
+    - conditional constructions not attached to a matrix cell, intersection, or bet
+    - guessed actions outside lane C, or lane-C output entering the matrix without lane-B re-derivation
+    - writing steering text into NEXT-STEPS.md, RESEARCH-STATUS.md or RESEARCH-AGENDA.json latest_result keys
+    - the phrase "a narrower route failed" for a matrix kill
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -29,8 +87,12 @@ research_method_control:
     zero_work_authority: none
     maintenance_substitution_when_reverse_arc_exists: forbidden
   active_calibration_anchor_ids:
+    - EXT-SM-WEAK-CHIRALITY
+    - EXT-SM-THREE-CHIRAL-GENERATIONS
     - EXT-QM-MASSIVE-MATTER-INTERFERENCE
     - EXT-QM-SPACELIKE-BELL-NOSIGNAL
+  anchor_priority: SM chirality anchors first, then quantum anchors (program_focus 2026-11-09)
+  program_focus_ref: CURRENT-STATE.yaml#program_focus
   scientific_claim_effect: none
 reviewed_research_2026_10_26:
   status: internally_reviewed_conditional_mathematics
@@ -21572,6 +21634,10 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  Does any action in the declared class C (lab/process/action-class.json) host
+  ledger rows P1, P2 and P3 together? (program_focus, 2026-11-09)
+
+  Historical predecessor (not live):
   Can physically justified contact access or a common-profile exterior restriction resolve
   source observation, and can a direct global comparison close the remaining stopping phase gap?
   Historical predecessor (not live):
@@ -26143,6 +26209,11 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  Follow program_focus.run_selection at the top of this file. The first
+  lane-B targets are the open P1/P2 cells and the X-P1-P2 weld intersection in
+  lab/process/action-constraint-matrix.json; lane C runs every 4th hour.
+
+  Historical predecessor (not live):
   Reuse K2617 analytic compact-source interior uniqueness and explicit preparation-independent
   contact Gram receivers; do not requeue complete interior identification as missing. Physical
   contact access, actual calibrated curved Gram norms, common-profile exterior uniqueness and

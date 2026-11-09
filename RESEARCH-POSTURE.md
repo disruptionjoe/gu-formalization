@@ -38,6 +38,13 @@ We do not optimize to prove GU, to disprove GU, or to adjudicate anyone.
 We optimize to find what is true, using GU as the engine that generates the questions.
 ```
 
+**Operational priority (2026-11-09).** Truth is the north star; decisive tests are the engine.
+Prefer work that can end in a kill or a candidate over work that can only add conditional structure.
+The current decisive test is the constraint matrix in `CURRENT-STATE.yaml` `program_focus`: does any
+action in the declared class C host the external data P1, P2 and P3 together? An empty intersection is
+a scoped, falsification-shaped result for that class, not a global verdict on GU; a non-empty one is a
+candidate action family. Both are wins for this posture.
+
 ## Two products, of equal standing
 
 1. **True structure.** Whatever mathematical or physical structure survives the falsification drive,

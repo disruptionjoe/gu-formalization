@@ -28,10 +28,15 @@
         "candidate_action_requirements"
       ],
       "active_calibration_anchor_ids": [
+        "EXT-SM-WEAK-CHIRALITY",
+        "EXT-SM-THREE-CHIRAL-GENERATIONS",
         "EXT-QM-MASSIVE-MATTER-INTERFERENCE",
         "EXT-QM-SPACELIKE-BELL-NOSIGNAL"
       ],
-      "scale_policy": "big_wave_reroute_never_stop"
+      "scale_policy": "big_wave_reroute_never_stop",
+      "anchor_priority": "SM chirality anchors first (program_focus 2026-11-09); quantum anchors stay admitted",
+      "constraint_matrix_ref": "lab/process/action-constraint-matrix.json",
+      "action_class_ref": "lab/process/action-class.json"
     },
     "forward_certification": {
       "direction": "native_to_observed",
@@ -62,7 +67,9 @@
           "order": 2,
           "id": "physical_state_space",
           "status": "blocked_for_native_certification_open_for_conditional_search",
-          "certification_depends_on": ["action_causal_closure"],
+          "certification_depends_on": [
+            "action_causal_closure"
+          ],
           "required_objects": [
             "coupled_gauge_bv_bfv_complex",
             "common_closed_domain",
@@ -77,7 +84,9 @@
           "order": 3,
           "id": "observable_export",
           "status": "blocked_for_native_certification_open_for_conditional_search",
-          "certification_depends_on": ["physical_state_space"],
+          "certification_depends_on": [
+            "physical_state_space"
+          ],
           "required_objects": [
             "normal_mode_reduction",
             "controlled_memory_kernel_or_process",
@@ -93,7 +102,9 @@
           "order": 4,
           "id": "held_out_confrontation",
           "status": "blocked_for_scoring_open_for_holdout_design",
-          "certification_depends_on": ["observable_export"],
+          "certification_depends_on": [
+            "observable_export"
+          ],
           "required_objects": [
             "frozen_parameters",
             "distinct_held_out_consequence",
@@ -111,7 +122,9 @@
     "source_authentication_is_separate_from_candidate_construction": true,
     "calibration_cannot_receive_prediction_credit": true,
     "wrong_direction_reroutes_same_big_wave": true,
-    "wrong_direction_never_authorizes_zero_work_or_scale_down": true
+    "wrong_direction_never_authorizes_zero_work_or_scale_down": true,
+    "stage5_matrix_cells_with_demand_lineage_eligible_under_empty_action_root": true,
+    "lane_c_speculative_output_requires_lane_b_rederivation": true
   },
   "freeze_wall": {
     "timing": "before_held_out_scoring",

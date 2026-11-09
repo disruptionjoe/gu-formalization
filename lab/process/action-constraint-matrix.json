@@ -1,0 +1,288 @@
+{
+  "schema_version": "1.0",
+  "artifact": "ACTION_CONSTRAINT_MATRIX",
+  "version": "v1-seed",
+  "updated_at": "2026-11-09",
+  "authorized_by": "Joe direct chat, 2026-11-09 (program_focus reset)",
+  "claim_effect": "none",
+  "action_class_ref": "lab/process/action-class.json",
+  "predecessor": "lab/process/construction-space-map.json (R0/R1/R2 rungs and boundary data are reused, not duplicated)",
+  "purpose": "Each row is a typed external datum the observed anchors require. Each column is a property of a candidate action. Each cell states what an action in class C must satisfy for that row to hold, with demand lineage from an observed anchor. Intersecting rows shrinks the region of admissible actions toward empty (falsification within C) or a candidate family (discovery).",
+  "cell_status_values": {
+    "open": "no requirement derived yet",
+    "constrained": "a requirement is derived; cites evidence",
+    "decided_for_C": "the cell is settled for every action in C (theorem or certified computation)",
+    "gated": "blocked on a named object; the gate is part of the cell",
+    "empty": "no action in C satisfies the cell"
+  },
+  "rows": [
+    {
+      "id": "P1",
+      "name": "orientation datum",
+      "anchor": "EXT-SM-WEAK-CHIRALITY",
+      "ledger_ref": "explorations/external-datum-ledger-and-the-2plus1-product-rule-2026-07-29.md",
+      "lineage": [
+        "empirical_benchmark_descent: weak interactions couple to one chirality",
+        "operational_constraint_extraction: parity-violating observable",
+        "state_observable_interface: chiral projector on the observed carrier",
+        "causal_dynamical_demand: chirality preserved by propagation",
+        "candidate_action_requirements: an orientation-dependent term or orientation as external datum"
+      ]
+    },
+    {
+      "id": "P2",
+      "name": "X-sector datum (phase/orientation of the canonical vertical projected RS symbol on X)",
+      "anchor": "EXT-SM-WEAK-CHIRALITY",
+      "ledger_ref": "explorations/external-datum-ledger-and-the-2plus1-product-rule-2026-07-29.md",
+      "lineage": [
+        "empirical_benchmark_descent: weak chirality",
+        "operational_constraint_extraction: chirality fixed relative to spacetime orientation",
+        "state_observable_interface: projected RS symbol on X",
+        "causal_dynamical_demand: symbol phase stable under evolution",
+        "candidate_action_requirements: action fixes or admits the symbol phase"
+      ]
+    },
+    {
+      "id": "P3",
+      "name": "integer-valued realized chiral index / count datum",
+      "anchor": "EXT-SM-THREE-CHIRAL-GENERATIONS",
+      "ledger_ref": "explorations/external-datum-ledger-and-the-2plus1-product-rule-2026-07-29.md",
+      "lineage": [
+        "empirical_benchmark_descent: three observed chiral families",
+        "operational_constraint_extraction: family-resolved chiral spectrum",
+        "state_observable_interface: realized index on the observed carrier",
+        "causal_dynamical_demand: index stable under deformation",
+        "candidate_action_requirements: an index source compatible with an odd count"
+      ]
+    }
+  ],
+  "columns": [
+    {
+      "id": "fields",
+      "meaning": "field content and carrier"
+    },
+    {
+      "id": "symmetry",
+      "meaning": "covariance and gauge structure"
+    },
+    {
+      "id": "order_locality",
+      "meaning": "derivative order and locality"
+    },
+    {
+      "id": "domain_boundary",
+      "meaning": "domain, noncompact end, boundary data"
+    },
+    {
+      "id": "variational",
+      "meaning": "Euler-Lagrange, Noether, BV structure"
+    },
+    {
+      "id": "global_index",
+      "meaning": "families index / topological data the action must expose"
+    }
+  ],
+  "cells": [
+    {
+      "row": "P3",
+      "column": "fields",
+      "status": "constrained",
+      "requirement": "No covariant interior operator of the Clifford-RS sector forces an odd chiral count, so P3 must enter as external background or boundary data rather than from the interior carrier.",
+      "grade": "linear leg theorem-grade; antilinear leg finite adversarial hunt (evidence, not proof)",
+      "evidence": [
+        "canon/frame-triviality-structural-or-evadable-GU-independent-RESULTS.md",
+        "canon/external-by-structure-synthesis-RESULTS.md"
+      ]
+    },
+    {
+      "row": "P3",
+      "column": "domain_boundary",
+      "status": "constrained",
+      "requirement": "The RS boundary eta on RP^3 is 2-primary, so the boundary term does not source an order-3 count.",
+      "grade": "exact",
+      "evidence": [
+        "canon/rs-boundary-eta-2primary-RESULTS.md"
+      ]
+    },
+    {
+      "row": "P3",
+      "column": "global_index",
+      "status": "gated",
+      "requirement": "A families-pushforward index N over the metric fibre GL(4,R)/O(3,1) with N != 0 mod 3, without chi-import. Every honest value computed so far (-42, -672, -5376, 0) is 0 mod 3.",
+      "gate": "the K3-fibered vertical bundle with clutching, the a-priori Y14 boundary connection and the RS family symbol (interface items 1-4)",
+      "evidence": [
+        "canon/source-action-family-index-interface-SPEC.md",
+        "tests/rs-function-space/family_generation_arena_probe.py"
+      ]
+    },
+    {
+      "row": "P3",
+      "column": "symmetry",
+      "status": "open",
+      "requirement": "",
+      "evidence": []
+    },
+    {
+      "row": "P3",
+      "column": "order_locality",
+      "status": "open",
+      "requirement": "",
+      "evidence": []
+    },
+    {
+      "row": "P3",
+      "column": "variational",
+      "status": "gated",
+      "requirement": "The physical gauge-fixed RS complex needs a stabilized RS-sector action; the gamma-trace constraint and the gauge orbit are incompatible as a naive quotient.",
+      "gate": "stabilized RS-sector action",
+      "evidence": [
+        "CANON.md (three-generation count entry)"
+      ]
+    },
+    {
+      "row": "P1",
+      "column": "fields",
+      "status": "open",
+      "requirement": "",
+      "evidence": []
+    },
+    {
+      "row": "P1",
+      "column": "symmetry",
+      "status": "open",
+      "requirement": "",
+      "evidence": []
+    },
+    {
+      "row": "P1",
+      "column": "order_locality",
+      "status": "open",
+      "requirement": "",
+      "evidence": []
+    },
+    {
+      "row": "P1",
+      "column": "domain_boundary",
+      "status": "open",
+      "requirement": "",
+      "evidence": []
+    },
+    {
+      "row": "P1",
+      "column": "variational",
+      "status": "open",
+      "requirement": "",
+      "evidence": []
+    },
+    {
+      "row": "P1",
+      "column": "global_index",
+      "status": "open",
+      "requirement": "",
+      "evidence": []
+    },
+    {
+      "row": "P2",
+      "column": "fields",
+      "status": "constrained",
+      "requirement": "P2 is typed at algebraic-candidate grade as the phase/orientation of the canonical vertical projected RS symbol on X; the action must fix it or admit it as data.",
+      "grade": "algebraic-candidate",
+      "evidence": [
+        "explorations/external-datum-ledger-and-the-2plus1-product-rule-2026-07-29.md"
+      ]
+    },
+    {
+      "row": "P2",
+      "column": "symmetry",
+      "status": "open",
+      "requirement": "",
+      "evidence": []
+    },
+    {
+      "row": "P2",
+      "column": "order_locality",
+      "status": "open",
+      "requirement": "",
+      "evidence": []
+    },
+    {
+      "row": "P2",
+      "column": "domain_boundary",
+      "status": "open",
+      "requirement": "",
+      "evidence": []
+    },
+    {
+      "row": "P2",
+      "column": "variational",
+      "status": "open",
+      "requirement": "",
+      "evidence": []
+    },
+    {
+      "row": "P2",
+      "column": "global_index",
+      "status": "open",
+      "requirement": "",
+      "evidence": []
+    }
+  ],
+  "intersections": [
+    {
+      "id": "X-P1-P2",
+      "rows": [
+        "P1",
+        "P2"
+      ],
+      "question": "Are P1 and P2 one datum (the proposed P1/P2 weld)? A proof would shrink the ledger from three pieces to two.",
+      "status": "open",
+      "evidence": [
+        "explorations/external-datum-ledger-and-the-2plus1-product-rule-2026-07-29.md"
+      ]
+    },
+    {
+      "id": "X-P2-P3",
+      "rows": [
+        "P2",
+        "P3"
+      ],
+      "question": "Does fixing the symbol phase P2 constrain the realized index P3 mod 3?",
+      "status": "open",
+      "evidence": []
+    },
+    {
+      "id": "X-P1-P2-P3",
+      "rows": [
+        "P1",
+        "P2",
+        "P3"
+      ],
+      "question": "Does any action in class C host P1, P2 and P3 together?",
+      "status": "open",
+      "evidence": []
+    }
+  ],
+  "lane_state": {
+    "LB-MATRIX": {
+      "zero_delta_streak": 0,
+      "runs": 0,
+      "status": "open"
+    },
+    "LB-CLASS": {
+      "zero_delta_streak": 0,
+      "runs": 0,
+      "status": "open"
+    },
+    "LB-LADDER": {
+      "zero_delta_streak": 0,
+      "runs": 0,
+      "status": "open"
+    }
+  },
+  "shrinkage_log": [],
+  "program_run_counter": {
+    "since": "2026-11-09",
+    "count": 0,
+    "rule": "Every hourly run increments this in its postflight, whatever its lane. Lane C runs when count % 4 == 3 before the increment."
+  }
+}
