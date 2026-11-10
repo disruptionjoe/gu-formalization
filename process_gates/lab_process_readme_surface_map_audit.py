@@ -30,6 +30,7 @@ EXPECTED_PROCESS_DIRS = {
     "queue-reviews",
     "syntheses",
     "templates",
+    "work-packets",
 }
 
 REQUIRED_CURRENT_FILES = {

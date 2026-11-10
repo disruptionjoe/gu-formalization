@@ -2,7 +2,7 @@
   "schema_version": "1.0",
   "artifact": "ACTION_CONSTRAINT_MATRIX",
   "version": "v1-seed",
-  "updated_at": "2026-11-09",
+  "updated_at": "2026-11-10",
   "authorized_by": "Joe direct chat, 2026-11-09 (program_focus reset)",
   "claim_effect": "none",
   "action_class_ref": "lab/process/action-class.json",
@@ -238,11 +238,33 @@
         "P1",
         "P2"
       ],
-      "question": "Are P1 and P2 one datum (the proposed P1/P2 weld)? A proof would shrink the ledger from three pieces to two.",
-      "status": "open",
+      "question": "Are P1 and P2 one datum for every action in class C?",
+      "status": "constrained",
       "evidence": [
-        "explorations/external-datum-ledger-and-the-2plus1-product-rule-2026-07-29.md"
-      ]
+        "explorations/full20-dewitt-loop-transport-wave-2026-07-30.md",
+        "tests/channel-swings/full20_dewitt_loop_transport_probe.py",
+        "explorations/dc-h1-orbit-signs-monodromy-check-2026-08-04.md",
+        "tests/shiab_b5_observer_symbol_multiplicity_matrix.py"
+      ],
+      "known": "Closed at exact finite associated-bundle grade for the written reconstructed first-order differential: DeWitt-loop transport returns C_perp with uniform -1 on all 20 slots (2026-07-30). Open: the lift to every covariant principal symbol in class C, and the formal-adjoint pairing seam.",
+      "packet": "lab/process/work-packets/two-datum-theorem-2026-11-10.md",
+      "next_run": "Part A of the packet"
+    },
+    {
+      "id": "X-D1-P3",
+      "rows": [
+        "P1",
+        "P2",
+        "P3"
+      ],
+      "question": "Can the orientation datum D1 (P1/P2 welded) and the count datum P3 merge? Floor of the external ledger.",
+      "status": "open",
+      "structural_route": "3-local transfer: the metric fibre retracts to RP^3, which is 3-locally S^3; the time-orientation Z/2 is invisible to Z_(3)-valued additive invariants.",
+      "evidence": [
+        "tests/program-focus/x_d1_p3_three_local_floor_probe.py"
+      ],
+      "packet": "lab/process/work-packets/two-datum-theorem-2026-11-10.md",
+      "next_run": "Part B of the packet (run first)"
     },
     {
       "id": "X-P2-P3",

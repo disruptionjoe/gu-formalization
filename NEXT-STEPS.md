@@ -11,6 +11,7 @@ Research priority is set by `program_focus` at the top of `CURRENT-STATE.yaml`; 
 Lane B (about 75% of runs) works the constraint matrix (`lab/process/action-constraint-matrix.json`) over the
 declared action class C (`lab/process/action-class.json`): rows P1, P2 and P3 descend from the observed SM
 chirality anchors. Lane C (every 4th run) advances one discovery bet (`lab/process/discovery-bets.json`).
+First ready work: `lab/process/work-packets/two-datum-theorem-2026-11-10.md` (Part B, then Part A).
 Do not add "Current follow-through" sections or "Historical predecessor" stacks here; record results in the
 matrix or bet file. The retired follow-through chain and banner stack are kept at the end of this file under
 "Archived steering history".

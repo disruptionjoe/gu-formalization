@@ -158,6 +158,10 @@ def audit(root: Path) -> list[str]:
             errors.append(f"gated matrix cell {cell.get('row')}x{cell.get('column')} has no structural_route")
     if "structure level" not in matrix.get("working_rule", ""):
         errors.append("constraint matrix lost its structure-level working rule")
+    for item in matrix.get("cells", []) + matrix.get("intersections", []):
+        packet = item.get("packet")
+        if packet and not (root / packet).is_file():
+            errors.append(f"matrix item {item.get('id') or item.get('row')} names a missing packet {packet}")
     if set(matrix.get("lane_state", {})) != LANES:
         errors.append("constraint matrix lane_state lost a lane-B sub-lane counter")
     counter = matrix.get("program_run_counter", {})
@@ -218,7 +222,12 @@ def copy_fixture(fixture: Path) -> None:
         (fixture / rel).parent.mkdir(parents=True, exist_ok=True)
         shutil.copy2(ROOT / rel, fixture / rel)
     matrix = json.loads((ROOT / FILES["matrix"]).read_text(encoding="utf-8"))
-    for cell in matrix.get("cells", []):
+    for item in matrix.get("cells", []) + matrix.get("intersections", []):
+        packet = item.get("packet")
+        if packet and (ROOT / packet).exists():
+            (fixture / packet).parent.mkdir(parents=True, exist_ok=True)
+            shutil.copy2(ROOT / packet, fixture / packet)
+    for cell in matrix.get("cells", []) + matrix.get("intersections", []):
         for ref in cell.get("evidence", []):
             path = str(ref).split(" ", 1)[0]
             if "/" in path and (ROOT / path).exists():
@@ -260,6 +269,7 @@ def selftest() -> int:
         ("structure-not-specifics rule removed", lambda r: replace_text(r, "current", "every action in class C, or for a subfamily", "some action, or for a subfamily")),
         ("gated cell loses its structural route", lambda r: set_json(r, "matrix", lambda d: [c.pop("structural_route", None) for c in d["cells"] if c.get("status") == "gated"])),
         ("lane-C guess budget removed", lambda r: set_json(r, "bets", lambda d: d["lane_rules"].pop("guess_budget"))),
+        ("matrix points at a missing packet", lambda r: set_json(r, "matrix", lambda d: d["intersections"][0].__setitem__("packet", "lab/process/work-packets/missing.md"))),
         ("bet runs past its time box", lambda r: set_json(r, "bets", lambda d: d["bets"][0].__setitem__("runs_used", 30))),
         ("new K-item without a target", plant_kitem),
         ("VERIFICATION first section reverts to a K-item", lambda r: replace_text(r, "verification", "## Verification standard under program_focus (pinned 2026-11-09)", "## K9999: stopping corrector")),

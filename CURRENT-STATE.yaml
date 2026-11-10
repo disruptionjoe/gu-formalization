@@ -37,6 +37,7 @@ program_focus:
   run_selection:
     - "1. If a Tier-1 item is open (started, not yet validated), finish it."
     - "2. Lane LC-BETS runs when constraint_matrix.program_run_counter.count % 4 == 3: advance the active bet in discovery_bets with the most time box left."
+    - "3a. If a matrix cell or intersection has a packet field, take the earliest-listed ready packet step first."
     - "3. Otherwise lane LB-MATRIX: pick the constraint-matrix cell or intersection with the highest expected shrinkage; prefer intersecting two rows; SM-anchor rows outrank everything else."
     - "4. If that cell needs a specific action, restate it as a statement about every action in C (lane LB-LADDER: index theory, cobordism/anomaly classification, branching rules, KO/K-theory, Z/24 torsion arithmetic, representation categories)."
     - "5. If no cell is eligible, do lane LB-CLASS: propose a new row, tighten class C, or certify a width-test witness."
@@ -26224,8 +26225,8 @@ contribution_path:
   - NEXT-STEPS.md
 next_condition: >-
   Follow program_focus.run_selection at the top of this file. The first
-  lane-B targets are the open P1/P2 cells and the X-P1-P2 weld intersection in
-  lab/process/action-constraint-matrix.json; lane C runs every 4th hour.
+  lane-B targets are ready: lab/process/work-packets/two-datum-theorem-2026-11-10.md
+  (Part B, X-D1-P3, first; then Part A, X-P1-P2 lift); lane C runs every 4th hour.
 
   Historical predecessor (not live):
   Reuse K2617 analytic compact-source interior uniqueness and explicit preparation-independent

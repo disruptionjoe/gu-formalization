@@ -2335,6 +2335,7 @@ consistency workflow.
 - `queue-reviews/` - periodic reviews of the QUEUE (not of individual waves); freshness-gated by `process_gates/queue_review_freshness_audit.py`.
 - `syntheses/` - synthesis history and consolidation notes.
 - `templates/` - reusable local templates.
+- `work-packets/` - ready-to-run packets for `program_focus` matrix targets (statement, inputs, steps, preregistered outcomes, kill condition, budget); process navigation only.
 
 ## Direct Process Files
 
