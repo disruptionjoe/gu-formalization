@@ -1,0 +1,263 @@
+{
+  "schema_version": "1.0",
+  "artifact": "p3-essential-end-domain",
+  "checks": [
+    {
+      "name": "actual raised symbol square delta2",
+      "kind": "exact_supporting"
+    },
+    {
+      "name": "integral null raised tangent",
+      "kind": "exact_supporting"
+    },
+    {
+      "name": "actual Fourier phase y4-minus-y9 raises to e4-plus-e9",
+      "kind": "exact_supporting"
+    },
+    {
+      "name": "plant wrong lowering changes raised normal symbol",
+      "kind": "exact_contrary"
+    },
+    {
+      "name": "native gamma trace identically zero",
+      "kind": "exact_supporting"
+    },
+    {
+      "name": "native Noether divergence identically zero",
+      "kind": "exact_supporting"
+    },
+    {
+      "name": "ALL15 native fold rows satisfy polynomial identity",
+      "kind": "exact_supporting"
+    },
+    {
+      "name": "wrong scalar sign is detected",
+      "kind": "exact_contrary"
+    },
+    {
+      "name": "ghost and field0 exactly absent",
+      "kind": "exact_supporting"
+    },
+    {
+      "name": "pure gauge has zero transverse slots1and2",
+      "kind": "exact_supporting"
+    },
+    {
+      "name": "transverse field is not the zero Clifford map",
+      "kind": "exact_supporting"
+    },
+    {
+      "name": "constant radial compatible connection ALL15 rows polynomial identity",
+      "kind": "exact_supporting"
+    },
+    {
+      "name": "radial connection residual independent of high frequency",
+      "kind": "exact_supporting"
+    },
+    {
+      "name": "radial connection is non-scalar",
+      "kind": "exact_contrary"
+    },
+    {
+      "name": "radial connection residual sign plant detected",
+      "kind": "exact_contrary"
+    },
+    {
+      "name": "variable radial extra derivative independent of high frequency",
+      "kind": "exact_supporting"
+    },
+    {
+      "name": "variable radial derivative correction is not silently dropped",
+      "kind": "exact_contrary"
+    },
+    {
+      "name": "whole smooth radial diagonal bound tends to zero",
+      "kind": "exact_supporting"
+    },
+    {
+      "name": "fixed native spinor has nonzero null-Clifford image",
+      "kind": "exact_supporting"
+    },
+    {
+      "name": "native norm leading coefficient positive exact integer",
+      "kind": "exact_supporting"
+    },
+    {
+      "name": "native exact norm polynomial d0m0N1",
+      "kind": "exact_supporting"
+    },
+    {
+      "name": "native exact norm polynomial d0m0N2",
+      "kind": "exact_supporting"
+    },
+    {
+      "name": "native exact norm polynomial d0m0N7",
+      "kind": "exact_supporting"
+    },
+    {
+      "name": "native exact norm polynomial d0m0N16",
+      "kind": "exact_supporting"
+    },
+    {
+      "name": "native exact norm polynomial d1m0N1",
+      "kind": "exact_supporting"
+    },
+    {
+      "name": "native exact norm polynomial d1m0N2",
+      "kind": "exact_supporting"
+    },
+    {
+      "name": "native exact norm polynomial d1m0N7",
+      "kind": "exact_supporting"
+    },
+    {
+      "name": "native exact norm polynomial d1m0N16",
+      "kind": "exact_supporting"
+    },
+    {
+      "name": "native exact norm polynomial d2m3N1",
+      "kind": "exact_supporting"
+    },
+    {
+      "name": "native exact norm polynomial d2m3N2",
+      "kind": "exact_supporting"
+    },
+    {
+      "name": "native exact norm polynomial d2m3N7",
+      "kind": "exact_supporting"
+    },
+    {
+      "name": "native exact norm polynomial d2m3N16",
+      "kind": "exact_supporting"
+    },
+    {
+      "name": "native exact norm polynomial d2m1jN1",
+      "kind": "exact_supporting"
+    },
+    {
+      "name": "native exact norm polynomial d2m1jN2",
+      "kind": "exact_supporting"
+    },
+    {
+      "name": "native exact norm polynomial d2m1jN7",
+      "kind": "exact_supporting"
+    },
+    {
+      "name": "native exact norm polynomial d2m1jN16",
+      "kind": "exact_supporting"
+    },
+    {
+      "name": "native exact norm polynomial d0m4N1",
+      "kind": "exact_supporting"
+    },
+    {
+      "name": "native exact norm polynomial d0m4N2",
+      "kind": "exact_supporting"
+    },
+    {
+      "name": "native exact norm polynomial d0m4N7",
+      "kind": "exact_supporting"
+    },
+    {
+      "name": "native exact norm polynomial d0m4N16",
+      "kind": "exact_supporting"
+    },
+    {
+      "name": "weighted K A identity",
+      "kind": "exact_supporting"
+    },
+    {
+      "name": "weighted Avee K identity",
+      "kind": "exact_supporting"
+    },
+    {
+      "name": "scalar shift does not preserve original gauge complex",
+      "kind": "exact_contrary"
+    },
+    {
+      "name": "H1 compact cutoff normalization nonzero",
+      "kind": "exact_supporting"
+    },
+    {
+      "name": "normalized cutoff derivative decays1overL",
+      "kind": "exact_supporting"
+    },
+    {
+      "name": "asymptotic coefficient error times derivative tends zero",
+      "kind": "exact_supporting"
+    },
+    {
+      "name": "scalar mass repair solves actual differential equation",
+      "kind": "exact_supporting"
+    },
+    {
+      "name": "scalar mass repair has Dirichlet boundary",
+      "kind": "exact_supporting"
+    },
+    {
+      "name": "scalar Volterra L1 kernel bound",
+      "kind": "exact_supporting"
+    },
+    {
+      "name": "weight is not same-Hilbert bounded equivalence",
+      "kind": "exact_contrary"
+    }
+  ],
+  "native_norm_polynomials": [
+    {
+      "delta": 0,
+      "mu": "0",
+      "norm_squared_coefficients": [
+        4,
+        0,
+        0
+      ]
+    },
+    {
+      "delta": 1,
+      "mu": "0",
+      "norm_squared_coefficients": [
+        4,
+        0,
+        2
+      ]
+    },
+    {
+      "delta": 2,
+      "mu": "3",
+      "norm_squared_coefficients": [
+        4,
+        0,
+        26
+      ]
+    },
+    {
+      "delta": 2,
+      "mu": "1j",
+      "norm_squared_coefficients": [
+        4,
+        0,
+        10
+      ]
+    },
+    {
+      "delta": 0,
+      "mu": "4",
+      "norm_squared_coefficients": [
+        4,
+        0,
+        32
+      ]
+    }
+  ],
+  "hashes": {
+    "explorations/conditional-build/p3-essential-end-domain-2026-11-11.md": "8ec1d5e4517ceaa0f233b9727e980c965424724b9ae5a4301b1cc97867c7d2d6",
+    "explorations/conditional-build/x-p1-p2-projector-connection-2026-11-11.md": "db80f92d9f6bffb180a59c16ef47695c6bf89a84ce5890feedc37132712fcab1",
+    "tests/program-focus/p3_essential_end_domain_probe.py": "c8c5f23ec4ad130676a3d15381a13189e56e72a096b24e2333b7671215cf31d2",
+    "tests/channel-swings/b5_native_rs_bv_hessian_lift_probe.py": "c936853ac8497849a5c2b62c5dd6e90ff47b58c4b14fe52f6bfc6db383e5f528",
+    "tests/channel-swings/b5_strict_massless_extension_dependence_probe.py": "ed99c9c3fd384bb6e7623cade4fcadfeb3bb794dfbde4a00d6756d81b333338a",
+    "tests/channel-swings/actual_sym2_c14_orbit_probe.py": "8efb7edfbef3259098c6e384d9b35f71d5176dc90262b81fb49b0597db07b33d"
+  },
+  "proof_scope": "Universal polynomial Clifford identity plus exact finite native norm and analytic scaling controls. Infinite-domain Fredholm and quotient arguments are written proofs independently reviewed, not numerical spectrum or Lean.",
+  "claim_effect": "none"
+}

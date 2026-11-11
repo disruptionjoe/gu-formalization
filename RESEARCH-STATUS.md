@@ -16,6 +16,22 @@ discovery bet (`lab/process/discovery-bets.json`). The K25xx--K2618 detector, pr
 results below are retained as conditional mathematics; that lane is no longer the default target. Sections
 below are dated results, newest first, and are not steering.
 
+## Native connection and essential-end constraints (2026-11-11)
+
+The complete K95 projector-compatible connection category retains a real
+volume one-form. Named Gamma/j use opposite quotient connections, and adding
+parallel insertion makes that freedom vanish. Curvature and real periods
+separate local from global calibration; covariance alone does not require it.
+The actual B5 half-cylinder has escaping high-null sequences in every closed
+full-core realization, including scalar weights/shifts and the entire smooth
+radial compatible-connection category. Its massless gauge quotient retains
+the sequence. This supplies exact conditional requirements, not a class-C
+inhabitant, source verdict, physical spectrum or family-count result.
+
+[Connection proof](explorations/conditional-build/x-p1-p2-projector-connection-2026-11-11.md) ·
+[End-domain proof](explorations/conditional-build/p3-essential-end-domain-2026-11-11.md).
+Current program_focus remains the work-selection authority.
+
 ## Boundary symbol and gauge-domain constraints (2026-11-11)
 
 The positive elliptic geometric RS/Weyl category has a necessary signed Bott

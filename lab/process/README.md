@@ -6,6 +6,11 @@ updated_at: "2026-08-23"
 ---
 
 
+## Connection and essential-end results (2026-11-11)
+
+- [Connection report](x-p1-p2-projector-connection.json): native and symbolic connection checks, period and coflip controls.
+- [End report](p3-essential-end-domain.json): universal polynomial identity, exact native norm growth and scaling/contrary controls.
+
 ## Boundary-symbol and gauge-domain results (2026-11-11)
 
 - [Local symbol report](p3-local-boundary-symbol.json): actual Clifford/RS normal-root and grading controls.

@@ -98,17 +98,20 @@
       "row": "P3",
       "column": "domain_boundary",
       "status": "constrained",
-      "requirement": "The RS boundary eta on RP^3 is 2-primary, so the boundary term does not source an order-3 count. In the separately declared positive elliptic RS/Weyl structural category, classical complex-linear local boundary data require vanishing signed incoming-symbol Bott coefficient. Nonlocal APS boundary rules remain allowed; local bulk action does not imply local boundary data. With a compact coefficient symmetry fixing the tangential sphere, cancellation is required in R(H), not just dimension.",
+      "requirement": "The RS boundary eta on RP^3 is 2-primary, so the boundary term does not source an order-3 count. In the separately declared positive elliptic RS/Weyl structural category, classical complex-linear local boundary data require vanishing signed incoming-symbol Bott coefficient. Nonlocal APS boundary rules remain allowed; local bulk action does not imply local boundary data. With a compact coefficient symmetry fixing the tangential sphere, cancellation is required in R(H), not just dimension. The existing B5 periodic flat end has normalized high-null compact-core sequences for every fixed exponential weight and scalar shift, and for every smooth radial volume connection. Thus no closed realization containing that core is Fredholm. Asymptotic B5 coefficient convergence and the exact massless gauge quotient retain the stated obstruction; actual Y14 end transfer remains unproved.",
       "grade": "conditional elliptic structural theorem; no native indefinite or physical-count transfer",
       "evidence": [
         "canon/rs-boundary-eta-2primary-RESULTS.md",
         "explorations/conditional-build/p3-local-boundary-symbol-2026-11-11.md",
         "tests/program-focus/p3_local_boundary_symbol_probe.py",
-        "lab/process/p3-local-boundary-symbol.json"
+        "lab/process/p3-local-boundary-symbol.json",
+        "explorations/conditional-build/p3-essential-end-domain-2026-11-11.md",
+        "tests/program-focus/p3_essential_end_domain_probe.py",
+        "lab/process/p3-essential-end-domain.json"
       ],
       "prior_requirement": "The RS boundary eta on RP^3 is 2-primary, so the boundary term does not source an order-3 count.",
-      "actual_delta": "P3xdomain_boundary refined: geometric raw RS has incoming coefficient n+1 per twist rank; lower-order connection changes cannot repair nonzero local obstruction. Opposite grading cancels the stable obstruction but the explicit local doubled-Dirac repair mixes chirality. The full coefficient-symmetry condition is representation-valued; equal dimensions can fail.",
-      "next_run": "Determine the actual native analytic category and complete graded-domain/observation bridge. Do not repeat local Bott balance or assume APS makes the bulk action nonlocal."
+      "actual_delta": "P3xdomain_boundary refined: closed/polarized B5 domains cannot supply a Fredholm index in the full-core category; exact high-null sequences survive weights, scalar shifts, asymptotic coefficients and all smooth radial projector-compatible connections, even unbounded. Fixed-domain Fredholm essential spectrum is all C; no physical-spectrum claim.",
+      "next_run": "Actual nonradial/asymptotic structure or a justified constrained physical carrier must be typed before further index transfer; do not repeat closed-boundary, scalar-weight or radial-connection repairs."
     },
     {
       "row": "P3",
@@ -253,15 +256,18 @@
       "row": "P2",
       "column": "symmetry",
       "status": "constrained",
-      "requirement": "Preserving the RS projector is insufficient for the same Gamma/j diagram in the declared K95 structural category. Fixed-vector natural quaternionic coflips and reflected-vector coflips must retain their distinct quotient action and square conditions.",
+      "requirement": "Preserving the RS projector is insufficient for the same Gamma/j diagram in the declared K95 structural category. Fixed-vector natural quaternionic coflips and reflected-vector coflips must retain their distinct quotient action and square conditions. Differential compatibility must retain actual source/target connections: same-spinor Gamma/j and insertion parallelism removes the residual volume one-form; a parallel inert quaternionic structure alone does not remove it.",
       "evidence": [
         "explorations/conditional-build/x-p1-p2-real-clifford-transfer-2026-11-11.md",
         "tests/program-focus/x_p1_p2_real_clifford_transfer_probe.py",
-        "lab/process/x-p1-p2-real-clifford-transfer.json"
+        "lab/process/x-p1-p2-real-clifford-transfer.json",
+        "explorations/conditional-build/x-p1-p2-projector-connection-2026-11-11.md",
+        "tests/program-focus/x_p1_p2_projector_connection_probe.py",
+        "lab/process/x-p1-p2-projector-connection.json"
       ],
-      "actual_delta": "P2xsymmetry constrained: in the declared K95 quaternionic identical-slot category, the same-spinor Gamma/j diagram stabilizer is only plus/minus identity. Inert-vector and reflected-vector coflips have different same-square constraints; no universal class-C weld follows.",
+      "actual_delta": "P2xsymmetry refined: the full named parallel diagram forces the residual volume connection to vanish, while projector/J/K compatibility alone allows arbitrary real one-forms; reflected-coflip global calibration needs exactness and its specified parallel vector.",
       "grade": "conditional structural theorem; no full class-C decision",
-      "next_run": "Determine the actual complete natural/gauge fermion diagram, allowed symbol support and pairing morphisms in a structural C subfamily; do not repeat native projector/plane controls."
+      "next_run": "Test the actual source-ingredient diagram without presuming its arrows are parallel; source/action and observation bridges remain separate."
     },
     {
       "row": "P2",
@@ -318,16 +324,19 @@
         "lab/process/x-p1-p2-moving-gauge-naturality.json",
         "explorations/conditional-build/x-p1-p2-real-clifford-transfer-2026-11-11.md",
         "tests/program-focus/x_p1_p2_real_clifford_transfer_probe.py",
-        "lab/process/x-p1-p2-real-clifford-transfer.json"
+        "lab/process/x-p1-p2-real-clifford-transfer.json",
+        "explorations/conditional-build/x-p1-p2-projector-connection-2026-11-11.md",
+        "tests/program-focus/x_p1_p2_projector_connection_probe.py",
+        "lab/process/x-p1-p2-projector-connection.json"
       ],
-      "known": "X-P1-P2 refined: the actual K95 quaternionic fixed-vector kernel stabilizer is a real hyperbolic chiral family. It preserves the RS projector while moving Gamma/j and the Clifford plane; plane and fixed-slot projector stabilizers are incomparable. Same-square coflip freedom depends on the specified vector map.",
-      "next_run": "Determine the actual complete natural/gauge fermion diagram, allowed symbol support and pairing morphisms in a structural C subfamily; do not repeat native projector/plane controls.",
+      "known": "X-P1-P2 refined: complete native K95 projector-compatible connection category and differential full-diagram rigidity proved; real curvature/period data govern residual calibration. Parallelism is an additional structural hypothesis, not implied by class-C covariance.",
+      "next_run": "Use actual native nonparallel/covariant symbol and observed-domain transfer; do not repeat projector-compatible connection or flat holonomy controls.",
       "structural_route": "Specify actual background orbit, isotropy and the complete diagram. Covariant bundle maps are isotropy intertwiners; same-diagram coflip ratios alone obey the fixed-arrow commutant theorem. Inhomogeneous connection translations are not automatically gauge redundancy.",
       "packet_step_status": "completed_constrained",
-      "actual_delta": "X-P1-P2 refined: the actual K95 quaternionic fixed-vector kernel stabilizer is a real hyperbolic chiral family. It preserves the RS projector while moving Gamma/j and the Clifford plane; plane and fixed-slot projector stabilizers are incomparable. Same-square coflip freedom depends on the specified vector map.",
+      "actual_delta": "X-P1-P2 refined: complete native K95 projector-compatible connection category and differential full-diagram rigidity proved; real curvature/period data govern residual calibration. Parallelism is an additional structural hypothesis, not implied by class-C covariance.",
       "completed_packet": "lab/process/work-packets/two-datum-theorem-2026-11-10.md",
       "grade": "conditional structural theorem; no full class-C decision",
-      "requirement": "For actual K95 quaternionic identical-slot transformations, distinguish kernel/projector from named Gamma/j and full Clifford-plane covariance. State the vector map, target action and coflip square before transferring the fixed-arrow weld."
+      "requirement": "For actual K95 quaternionic identical-slot transformations, distinguish kernel/projector from named Gamma/j and full Clifford-plane covariance. State the vector map, target action and coflip square before transferring the fixed-arrow weld. In the fixed K95 spin/LC category, all K,J-compatible RS-projector-parallel connections are nabla0+beta Omega. Named Gamma/j use opposite quotient connections; adding insertion parallelism forces beta=0. Local/global residual calibration requires closed/exact beta respectively, not projector covariance alone."
     },
     {
       "id": "X-D1-P3",
@@ -375,13 +384,16 @@
         "lab/process/p3-equivariant-spectral-sections.json",
         "explorations/conditional-build/p3-gauge-domain-stabilizer-2026-11-11.md",
         "tests/program-focus/p3_gauge_domain_stabilizer_probe.py",
-        "lab/process/p3-gauge-domain-stabilizer.json"
+        "lab/process/p3-gauge-domain-stabilizer.json",
+        "explorations/conditional-build/p3-essential-end-domain-2026-11-11.md",
+        "tests/program-focus/p3_essential_end_domain_probe.py",
+        "lab/process/p3-essential-end-domain.json"
       ],
-      "known": "X-P2-P3 refined: complete offset-domain stabilizer and operator/connection distinctions proved; on RP3 x S6 an explicit determinant-one coefficient map has nonzero Toeplitz pairing and cannot extend over RP3 x D7. Such a boundary map is not a bulk gauge redundancy. In the untwisted product-spin coefficient category, minimum integer-detecting coefficient rank5 and an explicit rank3 unstable zero-index nonextension separate stable from fixed-rank data. Same-base real/quaternionic coefficient symmetry forces the mixed integer to vanish; base-covering involutions need a different equation.",
-      "requirement": "Keep whole-operator phase, closed Fredholm domain and parameter bundle fixed. Pointwise index equality is insufficient for a global family class; control mixed fibre/base twisting and continuous Fredholm-family transport. Boundary-bundle variation alone can carry a nontrivial family class even with fixed differential expression and every numerical index zero. A fixed local symbol does not fix global symmetry-compatible spectral domains. The exact Fourier-family obstruction is representation-valued; repair must preserve the demanded grading and Green data. Fixed-domain multiplier stabilizers and extendible bulk gauge transformations must be checked separately: all offset Fourier cuts have D_k U(r) D_k^-1 stabilizer, while the actual auxiliary metric-fibre end has a mixed odd-K obstruction to stable bulk extension invisible to determinant. In the untwisted product-spin category, mixed integer detection has minimum coefficient rank5; below that, the explicit rank3 characteristic map has zero stable class yet no bulk extension. A commuting same-base real/quaternionic coefficient structure forces b=0; nontrivial bundles and base-covering coflips require separate transfer.",
+      "known": "X-P2-P3 refined: the massless B5 gauge quotient retains the end singular sequence; this forces infinite kernel or nonclosed range, without computing cohomology or a count. Arbitrary scalar shifts and the radial-connection family concern the full fold only, not an unproved deformed gauge complex.",
+      "requirement": "Keep whole-operator phase, closed Fredholm domain and parameter bundle fixed. Pointwise index equality is insufficient for a global family class; control mixed fibre/base twisting and continuous Fredholm-family transport. Boundary-bundle variation alone can carry a nontrivial family class even with fixed differential expression and every numerical index zero. A fixed local symbol does not fix global symmetry-compatible spectral domains. The exact Fourier-family obstruction is representation-valued; repair must preserve the demanded grading and Green data. Fixed-domain multiplier stabilizers and extendible bulk gauge transformations must be checked separately: all offset Fourier cuts have D_k U(r) D_k^-1 stabilizer, while the actual auxiliary metric-fibre end has a mixed odd-K obstruction to stable bulk extension invisible to determinant. In the untwisted product-spin category, mixed integer detection has minimum coefficient rank5; below that, the explicit rank3 characteristic map has zero stable class yet no bulk extension. A commuting same-base real/quaternionic coefficient structure forces b=0; nontrivial bundles and base-covering coflips require separate transfer. Local symbol phase and closed boundary polarization do not establish Fredholmness: the actual B5 massless quotient by the closed full gauge range retains a separated compact-core singular sequence.",
       "structural_route": "For the structurally defined subfamily admitting a fixed closed graded Fredholm realization and whole-operator invertible scalar rescaling, the index is unchanged. Commensurable domains change index by their relative dimension; noncompact fixed-symbol lower-order changes need separate Fredholm control.",
-      "next_run": "Test actual native gauge/real-structure and complete fermion diagram on a structurally specified graded domain. Stable U coefficient maps are not intrinsic spinor gauge maps. Do not repeat Hardy/Fourier, local Bott or mixed-end extension classifications.",
-      "actual_delta": "X-P2-P3 refined: complete offset-domain stabilizer and operator/connection distinctions proved; on RP3 x S6 an explicit determinant-one coefficient map has nonzero Toeplitz pairing and cannot extend over RP3 x D7. Such a boundary map is not a bulk gauge redundancy. In the untwisted product-spin coefficient category, minimum integer-detecting coefficient rank5 and an explicit rank3 unstable zero-index nonextension separate stable from fixed-rank data. Same-base real/quaternionic coefficient symmetry forces the mixed integer to vanish; base-covering involutions need a different equation.",
+      "next_run": "Identify a source-appropriate asymptotic/domain mechanism or actual observation quotient removing the exhibited transverse channels; no complete physical index follows from symbol phase alone.",
+      "actual_delta": "X-P2-P3 refined: the massless B5 gauge quotient retains the end singular sequence; this forces infinite kernel or nonclosed range, without computing cohomology or a count. Arbitrary scalar shifts and the radial-connection family concern the full fold only, not an unproved deformed gauge complex.",
       "grade": "conditional structural automorphism and domain theorem; no class-C decision"
     },
     {
@@ -410,7 +422,7 @@
   "lane_state": {
     "LB-MATRIX": {
       "zero_delta_streak": 0,
-      "runs": 8,
+      "runs": 9,
       "status": "open"
     },
     "LB-CLASS": {
@@ -763,11 +775,67 @@
       ],
       "claim_effect": "none; structural constraints only, no source/ledger/class decision",
       "review": "Independent field specialist and distinct hostile review; universal proofs separate from exact controls and arithmetic accounting."
+    },
+    {
+      "date": "2026-11-11",
+      "target": "X-P1-P2",
+      "previous_status": "constrained",
+      "status": "constrained",
+      "actual_delta": "X-P1-P2 refined: complete native K95 projector-compatible connection category and differential full-diagram rigidity proved; real curvature/period data govern residual calibration. Parallelism is an additional structural hypothesis, not implied by class-C covariance.",
+      "evidence": [
+        "explorations/conditional-build/x-p1-p2-projector-connection-2026-11-11.md",
+        "tests/program-focus/x_p1_p2_projector_connection_probe.py",
+        "lab/process/x-p1-p2-projector-connection.json"
+      ],
+      "claim_effect": "none; conditional structural constraints, no class/source/ledger verdict",
+      "review": "Independent field specialists and distinct hostile review; universal proofs separated from polynomial identities and exact supporting/contrary controls."
+    },
+    {
+      "date": "2026-11-11",
+      "target": "P2xsymmetry",
+      "previous_status": "constrained",
+      "status": "constrained",
+      "actual_delta": "P2xsymmetry refined: the full named parallel diagram forces the residual volume connection to vanish, while projector/J/K compatibility alone allows arbitrary real one-forms; reflected-coflip global calibration needs exactness and its specified parallel vector.",
+      "evidence": [
+        "explorations/conditional-build/x-p1-p2-projector-connection-2026-11-11.md",
+        "tests/program-focus/x_p1_p2_projector_connection_probe.py",
+        "lab/process/x-p1-p2-projector-connection.json"
+      ],
+      "claim_effect": "none; conditional structural constraints, no class/source/ledger verdict",
+      "review": "Independent field specialists and distinct hostile review; universal proofs separated from polynomial identities and exact supporting/contrary controls."
+    },
+    {
+      "date": "2026-11-11",
+      "target": "P3xdomain_boundary",
+      "previous_status": "constrained",
+      "status": "constrained",
+      "actual_delta": "P3xdomain_boundary refined: closed/polarized B5 domains cannot supply a Fredholm index in the full-core category; exact high-null sequences survive weights, scalar shifts, asymptotic coefficients and all smooth radial projector-compatible connections, even unbounded. Fixed-domain Fredholm essential spectrum is all C; no physical-spectrum claim.",
+      "evidence": [
+        "explorations/conditional-build/p3-essential-end-domain-2026-11-11.md",
+        "tests/program-focus/p3_essential_end_domain_probe.py",
+        "lab/process/p3-essential-end-domain.json"
+      ],
+      "claim_effect": "none; conditional structural constraints, no class/source/ledger verdict",
+      "review": "Independent field specialists and distinct hostile review; universal proofs separated from polynomial identities and exact supporting/contrary controls."
+    },
+    {
+      "date": "2026-11-11",
+      "target": "X-P2-P3",
+      "previous_status": "constrained",
+      "status": "constrained",
+      "actual_delta": "X-P2-P3 refined: the massless B5 gauge quotient retains the end singular sequence; this forces infinite kernel or nonclosed range, without computing cohomology or a count. Arbitrary scalar shifts and the radial-connection family concern the full fold only, not an unproved deformed gauge complex.",
+      "evidence": [
+        "explorations/conditional-build/p3-essential-end-domain-2026-11-11.md",
+        "tests/program-focus/p3_essential_end_domain_probe.py",
+        "lab/process/p3-essential-end-domain.json"
+      ],
+      "claim_effect": "none; conditional structural constraints, no class/source/ledger verdict",
+      "review": "Independent field specialists and distinct hostile review; universal proofs separated from polynomial identities and exact supporting/contrary controls."
     }
   ],
   "program_run_counter": {
     "since": "2026-11-09",
-    "count": 14,
+    "count": 15,
     "rule": "Every hourly run increments this in its postflight, whatever its lane. Lane C runs when count % 4 == 3 before the increment."
   },
   "working_rule": "Cells are worked at the structure level: a requirement must hold for every action in class C or for a structurally defined subfamily. No cell is worked by writing down a specific action, and no gated cell is worked by building its gate object. See CURRENT-STATE.yaml program_focus.structure_not_specifics."

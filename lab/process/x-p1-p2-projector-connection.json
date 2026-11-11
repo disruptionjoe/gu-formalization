@@ -1,0 +1,106 @@
+{
+  "schema_version": "1.0",
+  "artifact": "x-p1-p2-projector-connection",
+  "checks": [
+    {
+      "name": "native Omega square and K-skew",
+      "kind": "exact_supporting"
+    },
+    {
+      "name": "native Omega quaternionic-linear",
+      "kind": "exact_supporting"
+    },
+    {
+      "name": "all14 odd connection defects nonzero",
+      "kind": "exact_supporting"
+    },
+    {
+      "name": "all196 even projector blocks parallel",
+      "kind": "exact_supporting"
+    },
+    {
+      "name": "opposite-charge quotient makes all14 Gamma arrows parallel",
+      "kind": "exact_supporting"
+    },
+    {
+      "name": "opposite-charge inclusion makes all14 j arrows parallel",
+      "kind": "exact_supporting"
+    },
+    {
+      "name": "same-charge Gamma fails despite parallel projector",
+      "kind": "exact_contrary"
+    },
+    {
+      "name": "opposite charges fail insertion",
+      "kind": "exact_contrary"
+    },
+    {
+      "name": "central real identity fails K compatibility",
+      "kind": "exact_contrary"
+    },
+    {
+      "name": "central imaginary identity fails J compatibility",
+      "kind": "exact_contrary"
+    },
+    {
+      "name": "reflected C0 anticommutes volume antilinearly",
+      "kind": "exact_supporting"
+    },
+    {
+      "name": "reflected C0 squared minus1",
+      "kind": "exact_supporting"
+    },
+    {
+      "name": "parallel inert J need not imply parallel reflected C0",
+      "kind": "exact_contrary"
+    },
+    {
+      "name": "residual gauge connection law",
+      "kind": "exact_supporting"
+    },
+    {
+      "name": "exact beta=df has zero curvature",
+      "kind": "exact_supporting"
+    },
+    {
+      "name": "nonclosed beta=xdy retains curvature",
+      "kind": "exact_contrary"
+    },
+    {
+      "name": "all coflip calibrations preserve square",
+      "kind": "exact_supporting"
+    },
+    {
+      "name": "coflip parallel differential dt+2beta",
+      "kind": "exact_supporting"
+    },
+    {
+      "name": "Clifford arrow parallel differential2(dt+beta)",
+      "kind": "exact_supporting"
+    },
+    {
+      "name": "nonzero exact connection original arrows nonparallel",
+      "kind": "exact_contrary"
+    },
+    {
+      "name": "circle closed form has nonzero period",
+      "kind": "exact_supporting"
+    },
+    {
+      "name": "circle real holonomy is not periodic-unitary ambiguity",
+      "kind": "exact_contrary"
+    },
+    {
+      "name": "factor-two calibration has same zero-period condition",
+      "kind": "exact_supporting"
+    }
+  ],
+  "hashes": {
+    "explorations/conditional-build/x-p1-p2-projector-connection-2026-11-11.md": "db80f92d9f6bffb180a59c16ef47695c6bf89a84ce5890feedc37132712fcab1",
+    "tests/channel-swings/actual_sym2_c14_orbit_probe.py": "8efb7edfbef3259098c6e384d9b35f71d5176dc90262b81fb49b0597db07b33d",
+    "explorations/conditional-build/x-p1-p2-real-clifford-transfer-2026-11-11.md": "32785fe2615a874289f834f6c25b404b47494b380036deaec97943ae1ad5baea",
+    "tests/program-focus/x_p1_p2_projector_connection_probe.py": "2eb7c67d6d106183601a195d9c873853eb69f4435f9e8b84692651c703a2f4d9"
+  },
+  "proof_scope": "Universal connection/global classification in companion proof; exact finite controls and symbolic identities only, no Lean or physical certification.",
+  "claim_effect": "none"
+}

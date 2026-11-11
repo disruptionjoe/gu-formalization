@@ -6,6 +6,11 @@ updated_at: "2026-08-21"
 ---
 
 
+## Connection and essential-end results (2026-11-11)
+
+- [K95 connection diagram](conditional-build/x-p1-p2-projector-connection-2026-11-11.md): full compatible category, global calibration and named-arrow rigidity.
+- [B5 essential end](conditional-build/p3-essential-end-domain-2026-11-11.md): actual high-null sequences, weighted/scalar/smooth-radial and quotient consequences.
+
 ## Boundary-symbol and gauge-domain results (2026-11-11)
 
 - [Local RS/Weyl boundary balance](conditional-build/p3-local-boundary-symbol-2026-11-11.md): actual symbol homotopy, stable obstruction and grading repair.
