@@ -1,13 +1,14 @@
 ---
 title: "Class C witness check for the joint chirality and count test"
-status: ready_for_hourly
+status: process
+packet_step_status: completed_unresolved
 doc_type: work_packet
 created: "2026-11-11"
 authorized_by: "Joe direct chat, 2026-11-11, accepted witness-priority update"
 program_target: [LB-CLASS, X-P1-P2-P3]
 tier: T3
 expected_delta: "Ready witness-audit packet selected through the existing joint-intersection entry"
-actual_delta: "Preparation only; no scientific witness or matrix verdict adjudicated"
+actual_delta: "Completed witness audit: neither proposal certified; class definition and joint scientific status unchanged"
 claim_effect: none
 ---
 
@@ -71,3 +72,15 @@ work limit, new approval checkpoint or class-wide verdict follows from this
 packet. Preserve native 2+1, nonchiral total versus observed chirality, actual
 observation contraction, and the metric/connection distinctions in
 [the required object guide](../../../GEOMETER-VS-PHYSICS-OBJECTS.md).
+
+## Completed audit — 2026-11-11
+
+[Witness audit](../../../explorations/conditional-build/class-width-witness-audit-2026-11-11.md)
+and [finite-control audit](../../../explorations/conditional-build/flux-control-kernel-audit-2026-11-11.md)
+complete all steps at T2 evidence/application scope. Inclusion is unestablished
+at the C/declared-extension/P1 requirement; exclusion does not follow for hosting
+admitted external data. Alternatives were compared and the actual Wilson
+kernel/coercivity, threshold and signed-readout followthrough executed.
+Class C definition/version and X-P1-P2-P3 open status remain unchanged.
+The unresolved membership and physical-count bridges are research premises,
+not a new global prerequisite. The matrix owns fresh selection.

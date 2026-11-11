@@ -381,10 +381,18 @@
       ],
       "question": "Does any action in class C host P1, P2 and P3 together?",
       "status": "open",
-      "evidence": [],
-      "packet": "lab/process/work-packets/class-width-witness-check-2026-11-11.md",
-      "packet_step_status": "ready",
-      "next_run": "LB-CLASS: audit the two proposed class-width witnesses through this packet before further abstract joint-intersection refinement. Keep existing Tier-1 and discovery-bet precedence; do not alter C or infer a scientific result from preparation."
+      "evidence": [
+        "explorations/conditional-build/class-width-witness-audit-2026-11-11.md",
+        "explorations/conditional-build/flux-control-kernel-audit-2026-11-11.md",
+        "lab/process/class-width-witness-audit.json",
+        "tests/program-focus/class_width_witness_audit_probe.py"
+      ],
+      "packet_step_status": "completed_unresolved",
+      "next_run": "Use current program_focus selection. Width membership and actual P1/full-domain physical-count transfer remain unresolved; do not repeat the completed witness audit, finite Wilson test, parity or half-line controls. Compare an already-owned admissible structural family with full natural/gauge diagram and graded-end transfer.",
+      "known": "Both proposed class-width witnesses audited: neither meets the required membership/P1 or hosting-exclusion scope. Actual Wilson near-zero diagnostic qualified by exact kernel/coercivity proof; existing alternative controls do not certify C. Joint intersection remains open.",
+      "actual_delta": "LB-CLASS width audit completed with explicit not-established inclusion and inapplicable hosting-exclusion dispositions; definition of C and joint scientific status unchanged.",
+      "completed_packet": "lab/process/work-packets/class-width-witness-check-2026-11-11.md",
+      "grade": "T2 internally reviewed evidence/application audit; no class-C decision"
     }
   ],
   "lane_state": {
@@ -395,7 +403,7 @@
     },
     "LB-CLASS": {
       "zero_delta_streak": 0,
-      "runs": 0,
+      "runs": 1,
       "status": "open"
     },
     "LB-LADDER": {
@@ -686,11 +694,26 @@
       ],
       "claim_effect": "none; no source, ledger, class-C or canon verdict",
       "review": "Independent specialist and hostile review, exact controls; universal proofs separate from finite checks."
+    },
+    {
+      "date": "2026-11-11",
+      "target": "LB-CLASS / X-P1-P2-P3",
+      "previous_status": "open",
+      "status": "open",
+      "actual_delta": "LB-CLASS width audit completed with explicit not-established inclusion and inapplicable hosting-exclusion dispositions; definition of C and joint scientific status unchanged.",
+      "evidence": [
+        "explorations/conditional-build/class-width-witness-audit-2026-11-11.md",
+        "explorations/conditional-build/flux-control-kernel-audit-2026-11-11.md",
+        "lab/process/class-width-witness-audit.json",
+        "tests/program-focus/class_width_witness_audit_probe.py"
+      ],
+      "claim_effect": "none; witness dispositions only, no matrix status or declaration change",
+      "review": "Two independent field audits and distinct hostile review; exact and numerical evidence separated."
     }
   ],
   "program_run_counter": {
     "since": "2026-11-09",
-    "count": 12,
+    "count": 13,
     "rule": "Every hourly run increments this in its postflight, whatever its lane. Lane C runs when count % 4 == 3 before the increment."
   },
   "working_rule": "Cells are worked at the structure level: a requirement must hold for every action in class C or for a structurally defined subfamily. No cell is worked by writing down a specific action, and no gated cell is worked by building its gate object. See CURRENT-STATE.yaml program_focus.structure_not_specifics."

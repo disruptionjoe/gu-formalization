@@ -1,0 +1,223 @@
+{
+  "artifact": "CLASS_WIDTH_WITNESS_AUDIT",
+  "program_target": [
+    "LB-CLASS",
+    "X-P1-P2-P3"
+  ],
+  "tier": "T2",
+  "claim_effect": "none; audit and conditional comparator evidence only",
+  "scope": "No new action, C membership, P1 physical propagation, source or ledger verdict. Universal kernel/coercivity proof is in the written note, not certified by this finite probe.",
+  "checks": [
+    {
+      "name": "magnetic energy equals sum of edge squares",
+      "kind": "exact"
+    },
+    {
+      "name": "actual finite matrices Hermitian",
+      "kind": "exact"
+    },
+    {
+      "name": "actual Wilson anticommutator identity",
+      "kind": "exact"
+    },
+    {
+      "name": "Wilson operator is not odd for original grading",
+      "kind": "contrary_exact"
+    },
+    {
+      "name": "all magnetic Laplacian LDL pivots strictly positive",
+      "kind": "exact"
+    },
+    {
+      "name": "magnetic Laplacian nonzero determinant",
+      "kind": "exact"
+    },
+    {
+      "name": "trivial holonomy restores parallel graph section",
+      "kind": "contrary_exact"
+    },
+    {
+      "name": "removing Wilson term restores exact oddness",
+      "kind": "contrary_exact"
+    },
+    {
+      "name": "exact holonomy bound 1/384 lies below magnetic gap",
+      "kind": "exact"
+    },
+    {
+      "name": "rational rotation and spectral projection are exact",
+      "kind": "exact"
+    },
+    {
+      "name": "window chirality need not be integer",
+      "kind": "contrary_exact"
+    },
+    {
+      "name": "fixed nonzero spectrum retains separated cutoff",
+      "kind": "exact"
+    },
+    {
+      "name": "rounded chirality changes without any spectral crossing",
+      "kind": "contrary_exact"
+    },
+    {
+      "name": "window is not invariant under original grading",
+      "kind": "contrary_exact"
+    },
+    {
+      "name": "signed-readout input is Hermitian involution",
+      "kind": "exact"
+    },
+    {
+      "name": "reused Ginsparg-Wilson identity",
+      "kind": "exact"
+    },
+    {
+      "name": "signed-readout projector is actual full kernel",
+      "kind": "exact"
+    },
+    {
+      "name": "signed-readout equals exact kernel chirality in seed",
+      "kind": "exact"
+    },
+    {
+      "name": "modified grading is an involution",
+      "kind": "exact"
+    },
+    {
+      "name": "noninvolution destroys GW identity",
+      "kind": "contrary_exact"
+    },
+    {
+      "name": "not forcing odd does not imply not hosting odd",
+      "kind": "logic_exact"
+    },
+    {
+      "name": "exact fourth-root fixture matches historical builder",
+      "kind": "numerical"
+    },
+    {
+      "name": "historical rounded diagnostic reproduced flux 0",
+      "kind": "numerical"
+    },
+    {
+      "name": "historical rounded diagnostic reproduced flux 1",
+      "kind": "numerical"
+    },
+    {
+      "name": "nonzero flux has empty smaller window 1",
+      "kind": "numerical"
+    },
+    {
+      "name": "historical rounded diagnostic reproduced flux 2",
+      "kind": "numerical"
+    },
+    {
+      "name": "nonzero flux has empty smaller window 2",
+      "kind": "numerical"
+    },
+    {
+      "name": "historical rounded diagnostic reproduced flux 3",
+      "kind": "numerical"
+    },
+    {
+      "name": "nonzero flux has empty smaller window 3",
+      "kind": "numerical"
+    },
+    {
+      "name": "historical replay shape baseline",
+      "kind": "report_consistency"
+    },
+    {
+      "name": "truncated replay report rejected",
+      "kind": "contrary_report"
+    },
+    {
+      "name": "missing replay field rejected",
+      "kind": "contrary_report"
+    }
+  ],
+  "summary": {
+    "contrary_exact": 7,
+    "contrary_report": 2,
+    "exact": 13,
+    "logic_exact": 1,
+    "numerical": 8,
+    "report_consistency": 1
+  },
+  "magnetic_fixture": {
+    "L": 4,
+    "flux": 4,
+    "laplacian_determinant": "4096",
+    "ldl_pivots": [
+      "2",
+      "15/8",
+      "28/15",
+      "12/7",
+      "89/48",
+      "2447/1424",
+      "4186/2447",
+      "161/104",
+      "296/161",
+      "10144/5957",
+      "1075/634",
+      "66/43",
+      "272/165",
+      "128/85",
+      "3/2",
+      "4/3"
+    ],
+    "coercivity_lower_bound": "1/384"
+  },
+  "historical_numerical_replay": [
+    {
+      "L": 16,
+      "flux": 0,
+      "cutoff": 0.25,
+      "raw_window_chirality": 2.9976021664879227e-15,
+      "rounded": 0,
+      "window_dimension": 2,
+      "minimum_absolute_eigenvalue": 3.6461256359691696e-16,
+      "smaller_cutoff": 1e-06,
+      "smaller_window_dimension": 2
+    },
+    {
+      "L": 16,
+      "flux": 1,
+      "cutoff": 0.25,
+      "raw_window_chirality": -0.9999983518577487,
+      "rounded": -1,
+      "window_dimension": 3,
+      "minimum_absolute_eigenvalue": 0.012234574310853728,
+      "smaller_cutoff": 0.006117287155426864,
+      "smaller_window_dimension": 0
+    },
+    {
+      "L": 16,
+      "flux": 2,
+      "cutoff": 0.25,
+      "raw_window_chirality": -1.9999948313795939,
+      "rounded": -2,
+      "window_dimension": 2,
+      "minimum_absolute_eigenvalue": 0.0243960583659214,
+      "smaller_cutoff": 0.0121980291829607,
+      "smaller_window_dimension": 0
+    },
+    {
+      "L": 16,
+      "flux": 3,
+      "cutoff": 0.25,
+      "raw_window_chirality": -2.999974676828881,
+      "rounded": -3,
+      "window_dimension": 3,
+      "minimum_absolute_eigenvalue": 0.03648651536428487,
+      "smaller_cutoff": 0.018243257682142435,
+      "smaller_window_dimension": 0
+    }
+  ],
+  "source_sha256": "6bc5b9057d35787925fe82be0b1b1d1dcce3e04b7c20d656f666f5fae402a45d",
+  "proofs": [
+    "explorations/conditional-build/class-width-witness-audit-2026-11-11.md",
+    "explorations/conditional-build/flux-control-kernel-audit-2026-11-11.md"
+  ]
+}

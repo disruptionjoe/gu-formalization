@@ -38,12 +38,33 @@
     "inclusion_witness": {
       "requirement": "At least one known action satisfying P1 lies in C or in a declared comparator extension of C.",
       "candidate": "The external-by-structure index mechanism: a vectorlike interior plus a net-self-dual chiral background whose flux/instanton number sets the chiral index (canon/external-by-structure-synthesis-RESULTS.md). Used as a control only.",
-      "status": "proposed; first LB-CLASS run certifies or replaces it"
+      "status": "not_established_at_C_or_declared_comparator_P1_scope",
+      "audit_date": "2026-11-11",
+      "disposition": "The proposed synthesis supplies a topological-index comparator, not a known P1 action in C or in a clause-wise declared comparator extension. C nonemptiness remains unresolved, not refuted.",
+      "evidence": [
+        "explorations/conditional-build/class-width-witness-audit-2026-11-11.md",
+        "explorations/conditional-build/flux-control-kernel-audit-2026-11-11.md",
+        "lab/process/class-width-witness-audit.json"
+      ],
+      "missing": [
+        "C clause membership or explicit comparator-extension declaration",
+        "observed P1 carrier/current/propagation bridge"
+      ],
+      "retained": "Continuum flux-index mechanism and finite signed-readout controls retain their own scope. Historical Wilson rounded-window output is reproduced but is not an exact graded kernel index."
     },
     "exclusion_witness": {
       "requirement": "At least one action family in C is decided by an existing row.",
       "candidate": "Interior covariant operators that would force an odd chiral count are excluded by the structural law (linear leg theorem-grade; antilinear leg finite hunt, evidence only).",
-      "status": "proposed; first LB-CLASS run certifies or replaces it"
+      "status": "not_applicable_as_hosting_exclusion",
+      "audit_date": "2026-11-11",
+      "disposition": "Interior not-forcing does not exclude hosting admitted external data. C_fin/C_inv/action-C and finite intersectionDifference/Fredholm/physical-count are distinct; no inhabited C action family is decided by the cited P3xfields constraint.",
+      "evidence": [
+        "explorations/conditional-build/class-width-witness-audit-2026-11-11.md",
+        "explorations/conditional-build/p3-boundary-symmetry-transfer-2026-11-11.md",
+        "lab/process/class-width-witness-audit.json"
+      ],
+      "alternative": "Full-domain quaternionic Fredholm parity is already owned but needs inhabited C membership and a physical-count map before it can be a width witness.",
+      "retained": "Linear finite theorem, finite antilinear hunt and later delimited Hermitian theorem retained at their separately corrected scopes."
     }
   },
   "verdict_wording": {

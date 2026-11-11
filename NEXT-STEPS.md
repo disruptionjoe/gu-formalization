@@ -16,6 +16,22 @@ Do not add "Current follow-through" sections or "Historical predecessor" stacks 
 matrix or bet file. The retired follow-through chain and banner stack are kept at the end of this file under
 "Archived steering history".
 
+## Class-width witness audit (2026-11-11)
+
+Neither proposed width witness is certified: the inclusion control lacks actual
+C/declared-comparator-extension membership and observed P1; the exclusion does
+not establish inability to host admitted external count data. Existing finite
+and analytic evidence retains its corrected scope. The historical Wilson flux
+probe reproduces its rounded near-zero chirality but its nonzero-flux finite
+matrix has zero exact kernel. A magnetic-energy proof, quantitative holonomy
+bound, cutoff countercontrol and reused exact signed-readout control establish
+the distinction. No C definition, joint open status, source, ledger or canon change.
+
+[Witness audit](explorations/conditional-build/class-width-witness-audit-2026-11-11.md) ·
+[Finite-control proof](explorations/conditional-build/flux-control-kernel-audit-2026-11-11.md).
+Current program_focus governs work selection; the packet is completed with
+scientific membership/transfer premises still explicit.
+
 ## BET-COSMOLOGY fixed potentials (2026-11-11)
 
 BET-COSMOLOGY active: two fixed speculative scalar potentials tested with initial-state acoustic calibration. Central BAO differences are44.89(EXP) and15.23(COS); an equal approximate matter-prior profile with sound-integral ruler ratios gives21.52 and4.13. COS remains nonmimic(w0=-0.84467) in this diagnostic, not a full-CMB or source-native realization. Canonical acoustic ordering and a uniform fixed-event raw sound-deficit bound below6e-6 Mpc are proved; no source, ledger or matrix verdict.

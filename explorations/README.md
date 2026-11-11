@@ -6,6 +6,11 @@ updated_at: "2026-08-21"
 ---
 
 
+## Class-width witness evidence (2026-11-11)
+
+- [Membership and hosting audit](conditional-build/class-width-witness-audit-2026-11-11.md): both proposed witnesses qualified.
+- [Actual finite flux control](conditional-build/flux-control-kernel-audit-2026-11-11.md): exact kernel, holonomy bound and cutoff scope.
+
 ## BET-COSMOLOGY fixed potentials (2026-11-11)
 
 - [Result](conditional-build/bet-cosmology-fixed-potentials-2026-11-11.md): two speculative scalar actions, common acoustic/BAO calibration, nuisance-sensitive cosine survivor and analytic early-integral bounds.

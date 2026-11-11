@@ -6,6 +6,10 @@ updated_at: "2026-08-23"
 ---
 
 
+## Class-width witness evidence (2026-11-11)
+
+- [Exact and numerical report](class-width-witness-audit.json): magnetic Laplacian, cutoff and signed-readout controls; historical replay separate.
+
 ## BET-COSMOLOGY evidence (2026-11-11)
 
 - [Evidence](bet-cosmology-fixed-potentials.json): fixed coefficients, calibrated initial states, full covariance, reproducible nuisance diagnostics and analytic controls; no full CMB or GU verdict.
