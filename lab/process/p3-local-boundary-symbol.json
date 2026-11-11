@@ -1,0 +1,197 @@
+{
+  "schema_version": "1.0",
+  "program_target": "P3xdomain_boundary",
+  "tier": "T2",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "claim_ceiling": "No native indefinite ellipticity, C decision or physical count",
+  "proof_ref": "explorations/conditional-build/p3-local-boundary-symbol-2026-11-11.md",
+  "evidence_kind": "exact finite supporting and contrary controls; universal written proof separate",
+  "checks": [
+    {
+      "name": "Clifford relations",
+      "kind": "exact_supporting",
+      "pass": true
+    },
+    {
+      "name": "gamma trace surjective",
+      "kind": "exact_supporting",
+      "pass": true
+    },
+    {
+      "name": "actual trace and kernel projectors",
+      "kind": "exact_supporting",
+      "pass": true
+    },
+    {
+      "name": "actual trace block coefficient",
+      "kind": "exact_supporting",
+      "pass": true
+    },
+    {
+      "name": "trace square",
+      "kind": "exact_supporting",
+      "pass": true
+    },
+    {
+      "name": "offdiagonal norm",
+      "kind": "exact_supporting",
+      "pass": true
+    },
+    {
+      "name": "offdiagonal square cancels",
+      "kind": "exact_supporting",
+      "pass": true
+    },
+    {
+      "name": "projected square identity",
+      "kind": "exact_supporting",
+      "pass": true
+    },
+    {
+      "name": "raw RS is not Dirac type",
+      "kind": "exact_contrary",
+      "pass": true
+    },
+    {
+      "name": "projected squared minimal polynomial",
+      "kind": "exact_supporting",
+      "pass": true
+    },
+    {
+      "name": "entire offdiagonal homotopy square",
+      "kind": "exact_supporting",
+      "pass": true
+    },
+    {
+      "name": "actual chiral RS ranks",
+      "kind": "exact_supporting",
+      "pass": true
+    },
+    {
+      "name": "normal coefficient invertible",
+      "kind": "exact_supporting",
+      "pass": true
+    },
+    {
+      "name": "normal root multiplicities",
+      "kind": "exact_supporting",
+      "pass": true
+    },
+    {
+      "name": "generalized incoming spaces complementary",
+      "kind": "exact_supporting",
+      "pass": true
+    },
+    {
+      "name": "RS normal matrix needs generalized roots",
+      "kind": "exact_contrary",
+      "pass": true
+    },
+    {
+      "name": "Bott equator transition winding one",
+      "kind": "exact_supporting",
+      "pass": true
+    },
+    {
+      "name": "Pauli projector (0, 0, 1)",
+      "kind": "exact_supporting",
+      "pass": true
+    },
+    {
+      "name": "doubled local diagonal complement (0, 0, 1)",
+      "kind": "exact_supporting",
+      "pass": true
+    },
+    {
+      "name": "Pauli projector (0, 0, -1)",
+      "kind": "exact_supporting",
+      "pass": true
+    },
+    {
+      "name": "doubled local diagonal complement (0, 0, -1)",
+      "kind": "exact_supporting",
+      "pass": true
+    },
+    {
+      "name": "Pauli projector (3/5, 4/5, 0)",
+      "kind": "exact_supporting",
+      "pass": true
+    },
+    {
+      "name": "doubled local diagonal complement (3/5, 4/5, 0)",
+      "kind": "exact_supporting",
+      "pass": true
+    },
+    {
+      "name": "actual diagonal repair breaks grading",
+      "kind": "exact_contrary",
+      "pass": true
+    },
+    {
+      "name": "raw trace reversed class 4",
+      "kind": "exact_accounting",
+      "pass": true
+    },
+    {
+      "name": "rank shortcut rejected 4",
+      "kind": "exact_accounting",
+      "pass": true
+    },
+    {
+      "name": "raw trace reversed class 10",
+      "kind": "exact_accounting",
+      "pass": true
+    },
+    {
+      "name": "rank shortcut rejected 10",
+      "kind": "exact_accounting",
+      "pass": true
+    },
+    {
+      "name": "raw trace reversed class 14",
+      "kind": "exact_accounting",
+      "pass": true
+    },
+    {
+      "name": "rank shortcut rejected 14",
+      "kind": "exact_accounting",
+      "pass": true
+    },
+    {
+      "name": "mirror coefficient cancellation",
+      "kind": "exact_accounting",
+      "pass": true
+    },
+    {
+      "name": "same grading multiplicity retains obstruction",
+      "kind": "exact_accounting",
+      "pass": true
+    },
+    {
+      "name": "equal dimension but zero coefficient intertwiner",
+      "kind": "exact_contrary",
+      "pass": true
+    },
+    {
+      "name": "equivariant character obstruction despite scalar cancellation",
+      "kind": "exact_accounting",
+      "pass": true
+    },
+    {
+      "name": "same-module mirror diagonal is equivariant",
+      "kind": "exact_supporting",
+      "pass": true
+    }
+  ],
+  "normal_symbol": {
+    "chiral_rank": 6,
+    "incoming_rank": 3,
+    "jordan_sensitive": true
+  },
+  "symbol_balance": {
+    "n10_raw": 11,
+    "n14_auxiliary_raw": 15,
+    "raw_class": "T_C+1",
+    "virtual_ghost_class_not_used": true
+  }
+}

@@ -6,6 +6,11 @@ updated_at: "2026-08-21"
 ---
 
 
+## Boundary-symbol and gauge-domain results (2026-11-11)
+
+- [Local RS/Weyl boundary balance](conditional-build/p3-local-boundary-symbol-2026-11-11.md): actual symbol homotopy, stable obstruction and grading repair.
+- [Gauge-domain classification](conditional-build/p3-gauge-domain-stabilizer-2026-11-11.md): all offset stabilizers and determinant-blind end extension.
+
 ## Class-width witness evidence (2026-11-11)
 
 - [Membership and hosting audit](conditional-build/class-width-witness-audit-2026-11-11.md): both proposed witnesses qualified.

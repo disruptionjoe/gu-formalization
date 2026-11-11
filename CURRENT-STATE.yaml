@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: d52dc41c0cf9a73d3546e3c31a13c119f68ebe85
+revision_basis: 20a4fc42abce033035ae1b4ae8a0e0f952be1644
 program_focus:
   version: 2026-11-09-v1
   authority: joe_direct_chat_2026_11_09
@@ -26224,14 +26224,14 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
-  Follow program_focus.run_selection at the top of this file. Counter is13.
-  The ready class-width packet is completed: inclusion lacks C/declared-extension
-  membership and observed P1; exclusion confuses interior non-forcing with
-  hosting admitted external data. Exact magnetic-kernel/coercivity and threshold
-  checks qualify the old Wilson diagnostic while retaining continuum and
-  signed-readout controls at their own scopes. Class C definition, joint open
-  status, source and ledger are unchanged. Consult current matrix evidence;
-  membership and full observable/domain transfer remain unresolved.
+  Follow program_focus.run_selection at the top of this file. Counter is14.
+  Local chiral RS/Weyl boundary-symbol balance and all-offset spectral-domain
+  gauge stabilizers now have complete structural classifications. A determinant-one
+  coefficient map on the auxiliary metric-fibre end has nonzero odd-K pairing
+  and does not extend through the bulk; it is not a gauge redundancy changing
+  an index. Native indefinite analytic category, actual gauge/fermion diagram
+  and observed-count transfer remain separate. Source, ledger and class C
+  unchanged; use current matrix evidence and do not replay the completed controls.
 
   Historical predecessor (not live):
   Reuse K2617 analytic compact-source interior uniqueness and explicit preparation-independent

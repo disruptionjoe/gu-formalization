@@ -1,0 +1,283 @@
+{
+  "schema_version": "1.0",
+  "program_target": "X-P2-P3",
+  "tier": "T2",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "claim_ceiling": "No native gauge-group extension, class-C decision or physical count",
+  "proof_ref": "explorations/conditional-build/p3-gauge-domain-stabilizer-2026-11-11.md",
+  "evidence_kind": "exact finite supporting/contrary controls and separately labeled accounting; universal written proof separate",
+  "checks": [
+    {
+      "name": "unitary multiplier [0, 0]",
+      "kind": "exact_supporting",
+      "pass": true
+    },
+    {
+      "name": "all-mode domain preservation [0, 0]",
+      "kind": "exact_supporting",
+      "pass": true
+    },
+    {
+      "name": "connection transport [0, 0]",
+      "kind": "exact_supporting",
+      "pass": true
+    },
+    {
+      "name": "shifted connection commutator [0, 0]",
+      "kind": "exact_supporting",
+      "pass": true
+    },
+    {
+      "name": "constant determinant [0, 0]",
+      "kind": "exact_supporting",
+      "pass": true
+    },
+    {
+      "name": "unitary multiplier [0, 1]",
+      "kind": "exact_supporting",
+      "pass": true
+    },
+    {
+      "name": "all-mode domain preservation [0, 1]",
+      "kind": "exact_supporting",
+      "pass": true
+    },
+    {
+      "name": "connection transport [0, 1]",
+      "kind": "exact_supporting",
+      "pass": true
+    },
+    {
+      "name": "shifted connection commutator [0, 1]",
+      "kind": "exact_supporting",
+      "pass": true
+    },
+    {
+      "name": "constant determinant [0, 1]",
+      "kind": "exact_supporting",
+      "pass": true
+    },
+    {
+      "name": "unshifted operator not fixed [0, 1]",
+      "kind": "exact_contrary",
+      "pass": true
+    },
+    {
+      "name": "constant rotation fails split cut [0, 1]",
+      "kind": "exact_contrary",
+      "pass": true
+    },
+    {
+      "name": "unitary multiplier [-2, 3]",
+      "kind": "exact_supporting",
+      "pass": true
+    },
+    {
+      "name": "all-mode domain preservation [-2, 3]",
+      "kind": "exact_supporting",
+      "pass": true
+    },
+    {
+      "name": "connection transport [-2, 3]",
+      "kind": "exact_supporting",
+      "pass": true
+    },
+    {
+      "name": "shifted connection commutator [-2, 3]",
+      "kind": "exact_supporting",
+      "pass": true
+    },
+    {
+      "name": "constant determinant [-2, 3]",
+      "kind": "exact_supporting",
+      "pass": true
+    },
+    {
+      "name": "unshifted operator not fixed [-2, 3]",
+      "kind": "exact_contrary",
+      "pass": true
+    },
+    {
+      "name": "constant rotation fails split cut [-2, 3]",
+      "kind": "exact_contrary",
+      "pass": true
+    },
+    {
+      "name": "nonconstant split-zero stabilizer",
+      "kind": "exact_supporting",
+      "pass": true
+    },
+    {
+      "name": "nonconstant allowed split grading fails",
+      "kind": "exact_contrary",
+      "pass": true
+    },
+    {
+      "name": "zero determinant winding insufficient",
+      "kind": "exact_contrary",
+      "pass": true
+    },
+    {
+      "name": "forward inclusion not equality",
+      "kind": "exact_contrary",
+      "pass": true
+    },
+    {
+      "name": "coefficientwise commutator solution",
+      "kind": "exact_supporting",
+      "pass": true
+    },
+    {
+      "name": "countercontrol wrong offset sign",
+      "kind": "exact_contrary",
+      "pass": true
+    },
+    {
+      "name": "Cl7 relations",
+      "kind": "exact_supporting",
+      "pass": true
+    },
+    {
+      "name": "Cl7 traceless generators",
+      "kind": "exact_supporting",
+      "pass": true
+    },
+    {
+      "name": "full sphere Bott Chern normalization",
+      "kind": "exact_supporting",
+      "pass": true
+    },
+    {
+      "name": "actual noncentral SU2 input",
+      "kind": "exact_supporting",
+      "pass": true
+    },
+    {
+      "name": "Bott projection pole",
+      "kind": "exact_supporting",
+      "pass": true
+    },
+    {
+      "name": "SU16 representative unitary pole",
+      "kind": "exact_supporting",
+      "pass": true
+    },
+    {
+      "name": "SU16 determinant pole",
+      "kind": "exact_supporting",
+      "pass": true
+    },
+    {
+      "name": "Bott projection mixed",
+      "kind": "exact_supporting",
+      "pass": true
+    },
+    {
+      "name": "SU16 representative unitary mixed",
+      "kind": "exact_supporting",
+      "pass": true
+    },
+    {
+      "name": "SU16 determinant mixed",
+      "kind": "exact_supporting",
+      "pass": true
+    },
+    {
+      "name": "mixed class survives rank subtraction",
+      "kind": "exact_accounting",
+      "pass": true
+    },
+    {
+      "name": "restriction image pairs zero",
+      "kind": "exact_accounting",
+      "pass": true
+    },
+    {
+      "name": "determinant homotopy detects neither basis class",
+      "kind": "exact_accounting",
+      "pass": true
+    },
+    {
+      "name": "unstable sphere input equator",
+      "kind": "exact_supporting",
+      "pass": true
+    },
+    {
+      "name": "actual rational U3 characteristic map equator",
+      "kind": "exact_supporting",
+      "pass": true
+    },
+    {
+      "name": "characteristic determinant formula equator",
+      "kind": "exact_supporting",
+      "pass": true
+    },
+    {
+      "name": "unstable sphere input mixed",
+      "kind": "exact_supporting",
+      "pass": true
+    },
+    {
+      "name": "actual rational U3 characteristic map mixed",
+      "kind": "exact_supporting",
+      "pass": true
+    },
+    {
+      "name": "characteristic determinant formula mixed",
+      "kind": "exact_supporting",
+      "pass": true
+    },
+    {
+      "name": "unstable sphere input pole",
+      "kind": "exact_supporting",
+      "pass": true
+    },
+    {
+      "name": "actual rational U3 characteristic map pole",
+      "kind": "exact_supporting",
+      "pass": true
+    },
+    {
+      "name": "characteristic determinant formula pole",
+      "kind": "exact_supporting",
+      "pass": true
+    },
+    {
+      "name": "SU2 generator quaternionic intertwiner",
+      "kind": "exact_supporting",
+      "pass": true
+    },
+    {
+      "name": "same-base fixed mixed class equation",
+      "kind": "exact_accounting",
+      "pass": true
+    },
+    {
+      "name": "base-covering involution can cancel conjugation",
+      "kind": "exact_accounting",
+      "pass": true
+    },
+    {
+      "name": "suspension Newton coefficient",
+      "kind": "exact_accounting",
+      "pass": true
+    },
+    {
+      "name": "unstable six torsion killed stably",
+      "kind": "exact_accounting",
+      "pass": true
+    }
+  ],
+  "classification_result": {
+    "offsets": "arbitrary integer finite list",
+    "stabilizer": "D_k U(r) D_k^-1",
+    "full_unshifted_operator": "product U(m_a)",
+    "end_restriction": "a maps to (a,0)",
+    "toeplitz_pairing": "-b",
+    "mixed_representative_rank": 16,
+    "minimum_untwisted_integer_detection_rank": 5,
+    "low_rank_zero_stable_class_suffices": false,
+    "raw_Bott_Chern_number": 1,
+    "determinant": "identically one by projection splitting"
+  }
+}

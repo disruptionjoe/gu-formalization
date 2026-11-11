@@ -16,6 +16,25 @@ discovery bet (`lab/process/discovery-bets.json`). The K25xx--K2618 detector, pr
 results below are retained as conditional mathematics; that lane is no longer the default target. Sections
 below are dated results, newest first, and are not steering.
 
+## Boundary symbol and gauge-domain constraints (2026-11-11)
+
+The positive elliptic geometric RS/Weyl category has a necessary signed Bott
+balance for classical complex-linear local boundary data. The actual RS block
+homotopy supplies n+1, not a rank shortcut; the explicit doubled-Dirac local
+repair mixes grading. APS boundary rules remain a distinct allowed category.
+All offset spectral-domain multiplier stabilizers are classified, including
+nonconstant transformations at split zero modes. An explicit determinant-one
+coefficient map on RP3 x S6 has nonzero Toeplitz pairing and no stable bulk
+extension; it is not a bulk gauge redundancy. These structural results do not
+identify native indefinite geometry, a C inhabitant, or a physical count.
+
+[Boundary-symbol proof](explorations/conditional-build/p3-local-boundary-symbol-2026-11-11.md) ·
+[Gauge-domain proof](explorations/conditional-build/p3-gauge-domain-stabilizer-2026-11-11.md).
+Equal dimensions need not cancel the symmetry-valued local obstruction.
+The product-spin integer obstruction has minimum coefficient rank5, while an
+explicit rank3 unstable map has zero integer index and still cannot extend.
+Current program_focus remains the work-selection authority.
+
 ## Class-width witness audit (2026-11-11)
 
 Neither proposed width witness is certified: the inclusion control lacks actual

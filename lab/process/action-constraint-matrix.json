@@ -98,11 +98,17 @@
       "row": "P3",
       "column": "domain_boundary",
       "status": "constrained",
-      "requirement": "The RS boundary eta on RP^3 is 2-primary, so the boundary term does not source an order-3 count.",
-      "grade": "exact",
+      "requirement": "The RS boundary eta on RP^3 is 2-primary, so the boundary term does not source an order-3 count. In the separately declared positive elliptic RS/Weyl structural category, classical complex-linear local boundary data require vanishing signed incoming-symbol Bott coefficient. Nonlocal APS boundary rules remain allowed; local bulk action does not imply local boundary data. With a compact coefficient symmetry fixing the tangential sphere, cancellation is required in R(H), not just dimension.",
+      "grade": "conditional elliptic structural theorem; no native indefinite or physical-count transfer",
       "evidence": [
-        "canon/rs-boundary-eta-2primary-RESULTS.md"
-      ]
+        "canon/rs-boundary-eta-2primary-RESULTS.md",
+        "explorations/conditional-build/p3-local-boundary-symbol-2026-11-11.md",
+        "tests/program-focus/p3_local_boundary_symbol_probe.py",
+        "lab/process/p3-local-boundary-symbol.json"
+      ],
+      "prior_requirement": "The RS boundary eta on RP^3 is 2-primary, so the boundary term does not source an order-3 count.",
+      "actual_delta": "P3xdomain_boundary refined: geometric raw RS has incoming coefficient n+1 per twist rank; lower-order connection changes cannot repair nonzero local obstruction. Opposite grading cancels the stable obstruction but the explicit local doubled-Dirac repair mixes chirality. The full coefficient-symmetry condition is representation-valued; equal dimensions can fail.",
+      "next_run": "Determine the actual native analytic category and complete graded-domain/observation bridge. Do not repeat local Bott balance or assume APS makes the bulk action nonlocal."
     },
     {
       "row": "P3",
@@ -133,7 +139,7 @@
       "row": "P3",
       "column": "symmetry",
       "status": "constrained",
-      "requirement": "Besides full-operator and trace preservation, impose Green-form admissibility on the same positive-Hilbert analytic realization. The four-sign zero-space classification governs fixed split selfadjoint domains. For preserving-sign constant-rank families, selection requires an isomorphism of the relevant real/quaternionic bundles, not pointwise rank alone. For subfamilies requiring global equivariant spectral sections, test the representation-valued family obstruction and the same grading on the repair. Total spectral flow and pointwise Green admissibility alone do not certify such a section.",
+      "requirement": "Besides full-operator and trace preservation, impose Green-form admissibility on the same positive-Hilbert analytic realization. The four-sign zero-space classification governs fixed split selfadjoint domains. For preserving-sign constant-rank families, selection requires an isomorphism of the relevant real/quaternionic bundles, not pointwise rank alone. For subfamilies requiring global equivariant spectral sections, test the representation-valued family obstruction and the same grading on the repair. Total spectral flow and pointwise Green admissibility alone do not certify such a section. Gauge covariance transports a domain; fixed spectral-domain invariance instead uses the actual multiplier stabilizer, including the chosen zero-mode split and connection.",
       "evidence": [
         "explorations/conditional-build/p3-symmetry-relative-domain-2026-11-11.md",
         "tests/program-focus/p3_symmetry_relative_domain_probe.py",
@@ -146,10 +152,13 @@
         "lab/process/p3-green-form-symmetry-domain.json",
         "explorations/conditional-build/p3-equivariant-spectral-sections-2026-11-11.md",
         "tests/program-focus/p3_equivariant_spectral_sections_probe.py",
-        "lab/process/p3-equivariant-spectral-sections.json"
+        "lab/process/p3-equivariant-spectral-sections.json",
+        "explorations/conditional-build/p3-gauge-domain-stabilizer-2026-11-11.md",
+        "tests/program-focus/p3_gauge_domain_stabilizer_probe.py",
+        "lab/process/p3-gauge-domain-stabilizer.json"
       ],
       "grade": "conditional structural theorem; no full class-C decision",
-      "actual_delta": "P3xsymmetry refined: for the specified clutched elliptic family, an equivariant spectral section exists exactly when positive/negative symmetry modules match. A genuine smoothing Green-Lagrangian repair can break fixed grading; full normal symmetry and adapted-operator symmetry remain distinct.",
+      "actual_delta": "P3xsymmetry refined: fixed spectral domain, fixed operator and gauge-covariant connection have explicitly different stabilizers even for the complete all-offset Fourier category.",
       "structural_route": "Classify unitary graph domains with Jc=sign*cJ and J squared=sign; commuting quaternionic case needs dim kerB divisible by4. In the preserving-sign family, real/quaternionic bundle equivalence is necessary and sufficient at constant kernel rank. No automatic Y14 elliptic or chiral-index transfer.",
       "next_run": "Determine whether the actual end family and symmetry admit a global graded spectral section; the solved Fourier category is a transfer test, not that realization. Do not repeat scalar crossings, paired mass or interval/Hopf controls."
     },
@@ -363,14 +372,17 @@
         "lab/process/p3-auxiliary-domain-family.json",
         "explorations/conditional-build/p3-equivariant-spectral-sections-2026-11-11.md",
         "tests/program-focus/p3_equivariant_spectral_sections_probe.py",
-        "lab/process/p3-equivariant-spectral-sections.json"
+        "lab/process/p3-equivariant-spectral-sections.json",
+        "explorations/conditional-build/p3-gauge-domain-stabilizer-2026-11-11.md",
+        "tests/program-focus/p3_gauge_domain_stabilizer_probe.py",
+        "lab/process/p3-gauge-domain-stabilizer.json"
       ],
-      "known": "X-P2-P3 refined: fixed local symbol and total spectral-flow cancellation do not determine a symmetry-preserving global spectral domain; the Fourier family has an exact symmetry-resolved obstruction and localized repair criterion.",
-      "requirement": "Keep whole-operator phase, closed Fredholm domain and parameter bundle fixed. Pointwise index equality is insufficient for a global family class; control mixed fibre/base twisting and continuous Fredholm-family transport. Boundary-bundle variation alone can carry a nontrivial family class even with fixed differential expression and every numerical index zero. A fixed local symbol does not fix global symmetry-compatible spectral domains. The exact Fourier-family obstruction is representation-valued; repair must preserve the demanded grading and Green data.",
+      "known": "X-P2-P3 refined: complete offset-domain stabilizer and operator/connection distinctions proved; on RP3 x S6 an explicit determinant-one coefficient map has nonzero Toeplitz pairing and cannot extend over RP3 x D7. Such a boundary map is not a bulk gauge redundancy. In the untwisted product-spin coefficient category, minimum integer-detecting coefficient rank5 and an explicit rank3 unstable zero-index nonextension separate stable from fixed-rank data. Same-base real/quaternionic coefficient symmetry forces the mixed integer to vanish; base-covering involutions need a different equation.",
+      "requirement": "Keep whole-operator phase, closed Fredholm domain and parameter bundle fixed. Pointwise index equality is insufficient for a global family class; control mixed fibre/base twisting and continuous Fredholm-family transport. Boundary-bundle variation alone can carry a nontrivial family class even with fixed differential expression and every numerical index zero. A fixed local symbol does not fix global symmetry-compatible spectral domains. The exact Fourier-family obstruction is representation-valued; repair must preserve the demanded grading and Green data. Fixed-domain multiplier stabilizers and extendible bulk gauge transformations must be checked separately: all offset Fourier cuts have D_k U(r) D_k^-1 stabilizer, while the actual auxiliary metric-fibre end has a mixed odd-K obstruction to stable bulk extension invisible to determinant. In the untwisted product-spin category, mixed integer detection has minimum coefficient rank5; below that, the explicit rank3 characteristic map has zero stable class yet no bulk extension. A commuting same-base real/quaternionic coefficient structure forces b=0; nontrivial bundles and base-covering coflips require separate transfer.",
       "structural_route": "For the structurally defined subfamily admitting a fixed closed graded Fredholm realization and whole-operator invertible scalar rescaling, the index is unchanged. Commensurable domains change index by their relative dimension; noncompact fixed-symbol lower-order changes need separate Fredholm control.",
-      "next_run": "Determine whether the actual end family and symmetry admit a global graded spectral section; the solved Fourier category is a transfer test, not that realization. Do not repeat scalar crossings, paired mass or interval/Hopf controls.",
-      "actual_delta": "X-P2-P3 refined: fixed local symbol and total spectral-flow cancellation do not determine a symmetry-preserving global spectral domain; the Fourier family has an exact symmetry-resolved obstruction and localized repair criterion.",
-      "grade": "conditional structural theorem; no full class-C decision"
+      "next_run": "Test actual native gauge/real-structure and complete fermion diagram on a structurally specified graded domain. Stable U coefficient maps are not intrinsic spinor gauge maps. Do not repeat Hardy/Fourier, local Bott or mixed-end extension classifications.",
+      "actual_delta": "X-P2-P3 refined: complete offset-domain stabilizer and operator/connection distinctions proved; on RP3 x S6 an explicit determinant-one coefficient map has nonzero Toeplitz pairing and cannot extend over RP3 x D7. Such a boundary map is not a bulk gauge redundancy. In the untwisted product-spin coefficient category, minimum integer-detecting coefficient rank5 and an explicit rank3 unstable zero-index nonextension separate stable from fixed-rank data. Same-base real/quaternionic coefficient symmetry forces the mixed integer to vanish; base-covering involutions need a different equation.",
+      "grade": "conditional structural automorphism and domain theorem; no class-C decision"
     },
     {
       "id": "X-P1-P2-P3",
@@ -398,7 +410,7 @@
   "lane_state": {
     "LB-MATRIX": {
       "zero_delta_streak": 0,
-      "runs": 7,
+      "runs": 8,
       "status": "open"
     },
     "LB-CLASS": {
@@ -709,11 +721,53 @@
       ],
       "claim_effect": "none; witness dispositions only, no matrix status or declaration change",
       "review": "Two independent field audits and distinct hostile review; exact and numerical evidence separated."
+    },
+    {
+      "date": "2026-11-11",
+      "target": "P3xdomain_boundary",
+      "previous_status": "constrained",
+      "status": "constrained",
+      "actual_delta": "P3xdomain_boundary refined: geometric raw RS has incoming coefficient n+1 per twist rank; lower-order connection changes cannot repair nonzero local obstruction. Opposite grading cancels the stable obstruction but the explicit local doubled-Dirac repair mixes chirality. The full coefficient-symmetry condition is representation-valued; equal dimensions can fail.",
+      "evidence": [
+        "explorations/conditional-build/p3-local-boundary-symbol-2026-11-11.md",
+        "tests/program-focus/p3_local_boundary_symbol_probe.py",
+        "lab/process/p3-local-boundary-symbol.json"
+      ],
+      "claim_effect": "none; structural constraints only, no source/ledger/class decision",
+      "review": "Independent field specialist and distinct hostile review; universal proofs separate from exact controls and arithmetic accounting."
+    },
+    {
+      "date": "2026-11-11",
+      "target": "X-P2-P3",
+      "previous_status": "constrained",
+      "status": "constrained",
+      "actual_delta": "X-P2-P3 refined: complete offset-domain stabilizer and operator/connection distinctions proved; on RP3 x S6 an explicit determinant-one coefficient map has nonzero Toeplitz pairing and cannot extend over RP3 x D7. Such a boundary map is not a bulk gauge redundancy. In the untwisted product-spin coefficient category, minimum integer-detecting coefficient rank5 and an explicit rank3 unstable zero-index nonextension separate stable from fixed-rank data. Same-base real/quaternionic coefficient symmetry forces the mixed integer to vanish; base-covering involutions need a different equation.",
+      "evidence": [
+        "explorations/conditional-build/p3-gauge-domain-stabilizer-2026-11-11.md",
+        "tests/program-focus/p3_gauge_domain_stabilizer_probe.py",
+        "lab/process/p3-gauge-domain-stabilizer.json"
+      ],
+      "claim_effect": "none; structural constraints only, no source/ledger/class decision",
+      "review": "Independent field specialist and distinct hostile review; universal proofs separate from exact controls and arithmetic accounting."
+    },
+    {
+      "date": "2026-11-11",
+      "target": "P3xsymmetry",
+      "previous_status": "constrained",
+      "status": "constrained",
+      "actual_delta": "P3xsymmetry refined: fixed spectral domain, fixed operator and gauge-covariant connection have explicitly different stabilizers even for the complete all-offset Fourier category.",
+      "evidence": [
+        "explorations/conditional-build/p3-gauge-domain-stabilizer-2026-11-11.md",
+        "tests/program-focus/p3_gauge_domain_stabilizer_probe.py",
+        "lab/process/p3-gauge-domain-stabilizer.json"
+      ],
+      "claim_effect": "none; structural constraints only, no source/ledger/class decision",
+      "review": "Independent field specialist and distinct hostile review; universal proofs separate from exact controls and arithmetic accounting."
     }
   ],
   "program_run_counter": {
     "since": "2026-11-09",
-    "count": 13,
+    "count": 14,
     "rule": "Every hourly run increments this in its postflight, whatever its lane. Lane C runs when count % 4 == 3 before the increment."
   },
   "working_rule": "Cells are worked at the structure level: a requirement must hold for every action in class C or for a structurally defined subfamily. No cell is worked by writing down a specific action, and no gated cell is worked by building its gate object. See CURRENT-STATE.yaml program_focus.structure_not_specifics."

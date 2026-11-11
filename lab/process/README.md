@@ -6,6 +6,11 @@ updated_at: "2026-08-23"
 ---
 
 
+## Boundary-symbol and gauge-domain results (2026-11-11)
+
+- [Local symbol report](p3-local-boundary-symbol.json): actual Clifford/RS normal-root and grading controls.
+- [Gauge-domain report](p3-gauge-domain-stabilizer.json): Fourier, connection and SU16/Bott controls; accounting separated.
+
 ## Class-width witness evidence (2026-11-11)
 
 - [Exact and numerical report](class-width-witness-audit.json): magnetic Laplacian, cutoff and signed-readout controls; historical replay separate.
