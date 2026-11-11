@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 65c4f1068c065f71a7d128f2e61a89fabfc141c8
+revision_basis: cc60ebe20d5ce90473fdc1f133c830e62c675173
 program_focus:
   version: 2026-11-09-v1
   authority: joe_direct_chat_2026_11_09
@@ -26224,11 +26224,13 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
-  Follow program_focus.run_selection at the top of this file. Part B of
+  Follow program_focus.run_selection at the top of this file. Both steps of
   lab/process/work-packets/two-datum-theorem-2026-11-10.md completed with
-  X-D1-P3 constrained; its universal additive-invisibility/datum-floor inference
-  is not established. See explorations/conditional-build/x-d1-p3-three-local-floor-2026-11-11.md.
-  Part A (X-P1-P2 lift) remains the ready separate step; counter is 1.
+  constrained outcomes, recorded in lab/process/action-constraint-matrix.json.
+  X-D1-P3 retains ordinary transfer but not blanket additive forgetting or a datum floor.
+  X-P1-P2 retains the reconstructed-symbol weld; class-wide coefficient compatibility
+  and action-pairing identification remain unproved. Counter is 2; select fresh work
+  from the matrix under program_focus rather than replaying the completed packet.
 
   Historical predecessor (not live):
   Reuse K2617 analytic compact-source interior uniqueness and explicit preparation-independent

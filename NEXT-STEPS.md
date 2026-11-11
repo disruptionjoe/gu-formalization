@@ -11,10 +11,18 @@ Research priority is set by `program_focus` at the top of `CURRENT-STATE.yaml`; 
 Lane B (about 75% of runs) works the constraint matrix (`lab/process/action-constraint-matrix.json`) over the
 declared action class C (`lab/process/action-class.json`): rows P1, P2 and P3 descend from the observed SM
 chirality anchors. Lane C (every 4th run) advances one discovery bet (`lab/process/discovery-bets.json`).
-First ready work: `lab/process/work-packets/two-datum-theorem-2026-11-10.md` (Part B, then Part A).
+Prepared packet: `lab/process/work-packets/two-datum-theorem-2026-11-10.md`; both steps completed with constrained outcomes recorded in the matrix.
 Do not add "Current follow-through" sections or "Historical predecessor" stacks here; record results in the
 matrix or bet file. The retired follow-through chain and banner stack are kept at the end of this file under
 "Archived steering history".
+
+## X-P1-P2 weld scope (2026-11-11)
+
+X-P1-P2 constrained requirement refined: connected support gives uniqueness only after weighted mirror compatibility; Helmholtz symmetry uses the action pairing, not an independently fixed Krein K. Exact all-nonzero coefficient and rational pairing controls do not certify class-C actions. Existing reconstructed-symbol weld survives.
+
+[Result](explorations/conditional-build/x-p1-p2-class-c-lift-2026-11-11.md) · [Exact probe](tests/program-focus/x_p1_p2_weld_scope_probe.py) · [Finite Lean graph algebra](Lean/GUFormalization/WeldCoefficientScope.lean).
+
+No class-wide weld or datum count follows. The matrix records completed packet steps and their remaining premises; program_focus remains the selection authority.
 
 ## X-D1-P3 transfer scope (2026-11-11)
 

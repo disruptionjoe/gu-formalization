@@ -8,6 +8,10 @@ updated_at: "2026-08-23"
 
 ## Structural evidence (2026-11-11)
 
+- [X-P1-P2 exact scope report](x-p1-p2-weld-scope.json): weighted coefficient graph and action-pairing controls.
+
+## Structural evidence (2026-11-11)
+
 - [X-D1-P3 exact scope report](x-d1-p3-three-local-scope.json): local-system counterexample and ordinary transfer distinction.
 
 ## Latest conditional constructions (2026-11-06)

@@ -17,6 +17,16 @@ External review is not a pathway in this program. The honesty label stays: inter
 
 Sections below are historical snapshots in file order.
 
+## X-P1-P2 weld scope (2026-11-11)
+
+X-P1-P2 constrained requirement refined: connected support gives uniqueness only after weighted mirror compatibility; Helmholtz symmetry uses the action pairing, not an independently fixed Krein K. Exact all-nonzero coefficient and rational pairing controls do not certify class-C actions. Existing reconstructed-symbol weld survives.
+
+[Result](explorations/conditional-build/x-p1-p2-class-c-lift-2026-11-11.md) · [Exact probe](tests/program-focus/x_p1_p2_weld_scope_probe.py) · [Finite Lean graph algebra](Lean/GUFormalization/WeldCoefficientScope.lean).
+
+No class-wide weld or datum count follows. The matrix records completed packet steps and their remaining premises; program_focus remains the selection authority.
+
+Validation: 18 exact supporting checks and 5 contrary controls; native support20 vertices/136 directed cells/68 edges/cycle rank49/no bridges. Narrow Lean check passed. Two specialists and hostile review found no remaining substantive issue. Inherited geometric operator calculation was reused, not rerun; no external-expert or full-field-theory certification.
+
 ## X-D1-P3 transfer scope (2026-11-11)
 
 X-D1-P3 constrained: ordinary three-local cohomology/K transfer survives, but additive local-system invariants distinguish trivial/sign holonomy despite identical pullbacks. No datum floor, class-C kill, realized index or source verdict.

@@ -16,6 +16,14 @@ discovery bet (`lab/process/discovery-bets.json`). The K25xx--K2618 detector, pr
 results below are retained as conditional mathematics; that lane is no longer the default target. Sections
 below are dated results, newest first, and are not steering.
 
+## X-P1-P2 weld scope (2026-11-11)
+
+X-P1-P2 constrained requirement refined: connected support gives uniqueness only after weighted mirror compatibility; Helmholtz symmetry uses the action pairing, not an independently fixed Krein K. Exact all-nonzero coefficient and rational pairing controls do not certify class-C actions. Existing reconstructed-symbol weld survives.
+
+[Result](explorations/conditional-build/x-p1-p2-class-c-lift-2026-11-11.md) · [Exact probe](tests/program-focus/x_p1_p2_weld_scope_probe.py) · [Finite Lean graph algebra](Lean/GUFormalization/WeldCoefficientScope.lean).
+
+No class-wide weld or datum count follows. The matrix records completed packet steps and their remaining premises; program_focus remains the selection authority.
+
 ## X-D1-P3 transfer scope (2026-11-11)
 
 X-D1-P3 constrained: ordinary three-local cohomology/K transfer survives, but additive local-system invariants distinguish trivial/sign holonomy despite identical pullbacks. No datum floor, class-C kill, realized index or source verdict.

@@ -1,0 +1,76 @@
+{
+  "target": "X-P1-P2",
+  "status": "constrained",
+  "checks": [
+    "actual_slots_and_directed_cells",
+    "Schur_cells_zero_or_one",
+    "transpose_closed_support",
+    "mirror_closed_support",
+    "no_self_loops",
+    "full_support_connected",
+    "undirected_cycle_rank",
+    "no_single_bridge",
+    "actual_four_cell_orbit_distinct",
+    "counterprofile_all_cells_nonzero",
+    "counterprofile_transpose_weights_equal",
+    "mirror_balanced_positive_family",
+    "global_phase_solves_balanced_family",
+    "planted_degenerate_support_two_mirror_components",
+    "constant_slot_twist_preserves_central_return",
+    "density_dual_first_order_skew_coefficient",
+    "action_pairing_formal_symmetry",
+    "identified_pairing_control"
+  ],
+  "controls": [
+    "two_cycle_not_flat",
+    "two_cycle_forces_zero_phases",
+    "connected_support_does_not_imply_coflip_compatibility",
+    "disconnected_balance_allows_relative_sign",
+    "K_pairing_formal_symmetry_fails"
+  ],
+  "graph": {
+    "vertices": 20,
+    "directed_cells": 136,
+    "undirected_edges": 68,
+    "components": 1,
+    "cycle_rank": 49,
+    "bridges": []
+  },
+  "counterprofile": {
+    "twice_weight_cells": [
+      [
+        "S:E+:L16+",
+        "S:E-:R16+"
+      ],
+      [
+        "S:E-:R16+",
+        "S:E+:L16+"
+      ]
+    ],
+    "mirror_cells": [
+      [
+        "S:E-:L16-",
+        "S:E+:R16-"
+      ],
+      [
+        "S:E+:R16-",
+        "S:E-:L16-"
+      ]
+    ],
+    "cycle_product": "1/4",
+    "phase_constraint_determinant": "-3"
+  },
+  "pairing_control": {
+    "P": "Matrix([[1, 0], [0, -2]])",
+    "K": "Matrix([[1, 0], [0, -1]])",
+    "A": "Matrix([[0, 1], [1/2, 0]])",
+    "K_defect": "Matrix([[0, 1/2], [1/2, 0]])"
+  },
+  "provenance": {
+    "tests/shiab_b5_observer_symbol_multiplicity_matrix.py": "45b276aaa015b287ada2c74f1be169a2cdacd559985a7c19cd129297bd154696",
+    "tests/channel-swings/full20_dewitt_loop_transport_probe.py": "f71b6378aef131f28c75833c33420ec6b1c93f9640ffd5913b7876af2b4f715d",
+    "explorations/b5-curved-coflip-green-transport-2026-08-20.md": "6c4485798578702cb32a032176939fa869b63f7bd0acc0cbb23b13ef8800b7c9"
+  },
+  "evidence_kind": "exact native multiplicities/support, rational coefficient and pairing controls; inherited geometric coflip identities not recomputed",
+  "ceiling": "scalar-slot-phase ansatz only; counterprofiles not certified class-C actions; no datum floor or source verdict"
+}

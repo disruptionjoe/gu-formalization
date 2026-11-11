@@ -8,6 +8,10 @@ updated_at: "2026-08-21"
 
 ## Structural result (2026-11-11)
 
+- [X-P1-P2 weld scope](conditional-build/x-p1-p2-class-c-lift-2026-11-11.md): coefficient compatibility and pairing identity remain necessary.
+
+## Structural result (2026-11-11)
+
 - [X-D1-P3 transfer scope](conditional-build/x-d1-p3-three-local-floor-2026-11-11.md): constrained; no datum floor.
 
 ## Latest conditional constructions (2026-11-06)

@@ -244,11 +244,18 @@
         "explorations/full20-dewitt-loop-transport-wave-2026-07-30.md",
         "tests/channel-swings/full20_dewitt_loop_transport_probe.py",
         "explorations/dc-h1-orbit-signs-monodromy-check-2026-08-04.md",
-        "tests/shiab_b5_observer_symbol_multiplicity_matrix.py"
+        "tests/shiab_b5_observer_symbol_multiplicity_matrix.py",
+        "explorations/conditional-build/x-p1-p2-class-c-lift-2026-11-11.md",
+        "tests/program-focus/x_p1_p2_weld_scope_probe.py",
+        "lab/process/x-p1-p2-weld-scope.json",
+        "Lean/GUFormalization/WeldCoefficientScope.lean"
       ],
-      "known": "Closed at exact finite associated-bundle grade for the written reconstructed first-order differential: DeWitt-loop transport returns C_perp with uniform -1 on all 20 slots (2026-07-30). Open: the lift to every covariant principal symbol in class C, and the formal-adjoint pairing seam.",
-      "packet": "lab/process/work-packets/two-datum-theorem-2026-11-10.md",
-      "next_run": "Part A of the packet"
+      "known": "X-P1-P2 constrained requirement refined: connected support gives uniqueness only after weighted mirror compatibility; Helmholtz symmetry uses the action pairing, not an independently fixed Krein K. Exact all-nonzero coefficient and rational pairing controls do not certify class-C actions. Existing reconstructed-symbol weld survives.",
+      "next_run": "Part A completed constrained. Determine whether full natural/gauge covariance forces weighted compatibility, whether variational pairing is uniquely identified, or how provenance-mixing coflips change the ansatz; no specific action construction.",
+      "structural_route": "For the scalar-slot ansatz, unit-modulus mirror ratios and trivial closed-walk products on the mirror-augmented support graph are necessary/sufficient. Connectedness then gives one global phase. A class-wide transfer also requires identifying the action pairing with the weld pairing or transporting both correctly.",
+      "packet_step_status": "completed_constrained",
+      "actual_delta": "X-P1-P2 constrained requirement refined: connected support gives uniqueness only after weighted mirror compatibility; Helmholtz symmetry uses the action pairing, not an independently fixed Krein K. Exact all-nonzero coefficient and rational pairing controls do not certify class-C actions. Existing reconstructed-symbol weld survives.",
+      "completed_packet": "lab/process/work-packets/two-datum-theorem-2026-11-10.md"
     },
     {
       "id": "X-D1-P3",
@@ -267,11 +274,11 @@
         "lab/process/x-d1-p3-three-local-scope.json",
         "Lean/GUFormalization/ThreeLocalFloor.lean"
       ],
-      "packet": "lab/process/work-packets/two-datum-theorem-2026-11-10.md",
       "next_run": "Part B completed with constrained scope. Do not repeat the blanket floor proof. The separate ready Part A targets X-P1-P2; an eventual floor extension requires a specified invariant category and compatible physical-index/independence bridge.",
       "known": "X-D1-P3 constrained: ordinary three-local cohomology/K transfer survives, but additive local-system invariants distinguish trivial/sign holonomy despite identical pullbacks. No datum floor, class-C kill, realized index or source verdict.",
       "packet_step_status": "completed_constrained",
-      "actual_delta": "X-D1-P3 constrained: ordinary three-local cohomology/K transfer survives, but additive local-system invariants distinguish trivial/sign holonomy despite identical pullbacks. No datum floor, class-C kill, realized index or source verdict."
+      "actual_delta": "X-D1-P3 constrained: ordinary three-local cohomology/K transfer survives, but additive local-system invariants distinguish trivial/sign holonomy despite identical pullbacks. No datum floor, class-C kill, realized index or source verdict.",
+      "completed_packet": "lab/process/work-packets/two-datum-theorem-2026-11-10.md"
     },
     {
       "id": "X-P2-P3",
@@ -298,7 +305,7 @@
   "lane_state": {
     "LB-MATRIX": {
       "zero_delta_streak": 0,
-      "runs": 1,
+      "runs": 2,
       "status": "open"
     },
     "LB-CLASS": {
@@ -327,11 +334,26 @@
       ],
       "claim_effect": "none; no ledger or action-class verdict",
       "review": "Two mathematical specialists and an adversarial review; final substantive findings empty. Lean certifies only finite algebra."
+    },
+    {
+      "date": "2026-11-11",
+      "target": "X-P1-P2",
+      "previous_status": "constrained",
+      "status": "constrained",
+      "actual_delta": "X-P1-P2 constrained requirement refined: connected support gives uniqueness only after weighted mirror compatibility; Helmholtz symmetry uses the action pairing, not an independently fixed Krein K. Exact all-nonzero coefficient and rational pairing controls do not certify class-C actions. Existing reconstructed-symbol weld survives.",
+      "evidence": [
+        "explorations/conditional-build/x-p1-p2-class-c-lift-2026-11-11.md",
+        "tests/program-focus/x_p1_p2_weld_scope_probe.py",
+        "lab/process/x-p1-p2-weld-scope.json",
+        "Lean/GUFormalization/WeldCoefficientScope.lean"
+      ],
+      "claim_effect": "none; refined necessary conditions, no full class-C exclusion",
+      "review": "Two specialists and hostile review; final substantive findings empty after clarifying matrix parts of antilinear maps. Finite Lean reachability/two-cycle check."
     }
   ],
   "program_run_counter": {
     "since": "2026-11-09",
-    "count": 1,
+    "count": 2,
     "rule": "Every hourly run increments this in its postflight, whatever its lane. Lane C runs when count % 4 == 3 before the increment."
   },
   "working_rule": "Cells are worked at the structure level: a requirement must hold for every action in class C or for a structurally defined subfamily. No cell is worked by writing down a specific action, and no gated cell is worked by building its gate object. See CURRENT-STATE.yaml program_focus.structure_not_specifics."
