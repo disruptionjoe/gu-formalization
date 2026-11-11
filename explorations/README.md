@@ -5,6 +5,11 @@ doc_type: overview
 updated_at: "2026-08-21"
 ---
 
+
+## Structural result (2026-11-11)
+
+- [X-D1-P3 transfer scope](conditional-build/x-d1-p3-three-local-floor-2026-11-11.md): constrained; no datum floor.
+
 ## Latest conditional constructions (2026-11-06)
 
 - [K2617 interior contact recovery](conditional-build/k2617-interior-pressure-identifiability-2026-11-06.md).

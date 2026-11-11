@@ -16,6 +16,14 @@ discovery bet (`lab/process/discovery-bets.json`). The K25xx--K2618 detector, pr
 results below are retained as conditional mathematics; that lane is no longer the default target. Sections
 below are dated results, newest first, and are not steering.
 
+## X-D1-P3 transfer scope (2026-11-11)
+
+X-D1-P3 constrained: ordinary three-local cohomology/K transfer survives, but additive local-system invariants distinguish trivial/sign holonomy despite identical pullbacks. No datum floor, class-C kill, realized index or source verdict.
+
+[Result](explorations/conditional-build/x-d1-p3-three-local-floor-2026-11-11.md) · [Exact probe](tests/program-focus/x_d1_p3_transfer_scope_probe.py) · [Finite Lean algebra](Lean/GUFormalization/ThreeLocalFloor.lean).
+
+The rank-seven bundle is noncanonically trivial, so compatible compact-support Thom transfer works. The local-system counterexample retains holonomy; it does not distinguish two trivializations or supply a physical count. The matrix records the result and current program_focus remains the selection authority.
+
 ## K2617--K2618: Interior contact recovery and larger diffuse phase (2026-11-06)
 
 K2617 proves complete interior conserved observations identify compact correlated pressures in the actual analytic selected system, even across homogeneous preparations. The actual tenth-order radial coefficient enables Holmgren uniqueness. Explicit contact receivers yield a positive scalar Gram matrix and exact finite-model coefficient recovery independent of preparation; disjoint-shell smooth sources give diagonal Gram matrices. Exterior invisibility, common-profile exterior uniqueness and physical apparatus remain separate. K2618 composes the retained K2567 ribbon with the input flow, raising the half-score sufficient diffuse boundary from0.86044 to1.418533974875107, with exact constrained contacts and inverse budget. A checked hypothesis transfer extends the leading adaptive resource law C/M+O(M^-3/2) and finite variable-mesh construction. Six rational policies and two interval endpoints are executed. Necessary boundary1.66781 and higher correctors remain open. Source, ledger0.263 and canon unchanged.

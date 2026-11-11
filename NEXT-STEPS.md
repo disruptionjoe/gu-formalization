@@ -16,6 +16,14 @@ Do not add "Current follow-through" sections or "Historical predecessor" stacks 
 matrix or bet file. The retired follow-through chain and banner stack are kept at the end of this file under
 "Archived steering history".
 
+## X-D1-P3 transfer scope (2026-11-11)
+
+X-D1-P3 constrained: ordinary three-local cohomology/K transfer survives, but additive local-system invariants distinguish trivial/sign holonomy despite identical pullbacks. No datum floor, class-C kill, realized index or source verdict.
+
+[Result](explorations/conditional-build/x-d1-p3-three-local-floor-2026-11-11.md) · [Exact probe](tests/program-focus/x_d1_p3_transfer_scope_probe.py) · [Finite Lean algebra](Lean/GUFormalization/ThreeLocalFloor.lean).
+
+The rank-seven bundle is noncanonically trivial, so compatible compact-support Thom transfer works. The local-system counterexample retains holonomy; it does not distinguish two trivializations or supply a physical count. The matrix records the result and current program_focus remains the selection authority.
+
 # Next Steps For Contributors
 
 > **ACTIVE SELECTION CONTROL — 2026-08-31.** The entries below are an

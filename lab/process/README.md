@@ -5,6 +5,11 @@ doc_type: overview
 updated_at: "2026-08-23"
 ---
 
+
+## Structural evidence (2026-11-11)
+
+- [X-D1-P3 exact scope report](x-d1-p3-three-local-scope.json): local-system counterexample and ordinary transfer distinction.
+
 ## Latest conditional constructions (2026-11-06)
 
 - [K2617 report](k2617-interior-pressure-identifiability.json).

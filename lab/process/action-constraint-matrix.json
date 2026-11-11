@@ -2,7 +2,7 @@
   "schema_version": "1.0",
   "artifact": "ACTION_CONSTRAINT_MATRIX",
   "version": "v1-seed",
-  "updated_at": "2026-11-10",
+  "updated_at": "2026-11-11",
   "authorized_by": "Joe direct chat, 2026-11-09 (program_focus reset)",
   "claim_effect": "none",
   "action_class_ref": "lab/process/action-class.json",
@@ -258,13 +258,20 @@
         "P3"
       ],
       "question": "Can the orientation datum D1 (P1/P2 welded) and the count datum P3 merge? Floor of the external ledger.",
-      "status": "open",
-      "structural_route": "3-local transfer: the metric fibre retracts to RP^3, which is 3-locally S^3; the time-orientation Z/2 is invisible to Z_(3)-valued additive invariants.",
+      "status": "constrained",
+      "structural_route": "Constant-coefficient cohomology and ordinary topological complex K erase the localized sign-line torsion; holonomy-sensitive additive local systems do not. The invariant category and actual index factorization must be specified before any datum-floor inference.",
       "evidence": [
-        "tests/program-focus/x_d1_p3_three_local_floor_probe.py"
+        "tests/program-focus/x_d1_p3_three_local_floor_probe.py",
+        "explorations/conditional-build/x-d1-p3-three-local-floor-2026-11-11.md",
+        "tests/program-focus/x_d1_p3_transfer_scope_probe.py",
+        "lab/process/x-d1-p3-three-local-scope.json",
+        "Lean/GUFormalization/ThreeLocalFloor.lean"
       ],
       "packet": "lab/process/work-packets/two-datum-theorem-2026-11-10.md",
-      "next_run": "Part B of the packet (run first)"
+      "next_run": "Part B completed with constrained scope. Do not repeat the blanket floor proof. The separate ready Part A targets X-P1-P2; an eventual floor extension requires a specified invariant category and compatible physical-index/independence bridge.",
+      "known": "X-D1-P3 constrained: ordinary three-local cohomology/K transfer survives, but additive local-system invariants distinguish trivial/sign holonomy despite identical pullbacks. No datum floor, class-C kill, realized index or source verdict.",
+      "packet_step_status": "completed_constrained",
+      "actual_delta": "X-D1-P3 constrained: ordinary three-local cohomology/K transfer survives, but additive local-system invariants distinguish trivial/sign holonomy despite identical pullbacks. No datum floor, class-C kill, realized index or source verdict."
     },
     {
       "id": "X-P2-P3",
@@ -291,7 +298,7 @@
   "lane_state": {
     "LB-MATRIX": {
       "zero_delta_streak": 0,
-      "runs": 0,
+      "runs": 1,
       "status": "open"
     },
     "LB-CLASS": {
@@ -305,10 +312,26 @@
       "status": "open"
     }
   },
-  "shrinkage_log": [],
+  "shrinkage_log": [
+    {
+      "date": "2026-11-11",
+      "target": "X-D1-P3",
+      "previous_status": "open",
+      "status": "constrained",
+      "actual_delta": "X-D1-P3 constrained: ordinary three-local cohomology/K transfer survives, but additive local-system invariants distinguish trivial/sign holonomy despite identical pullbacks. No datum floor, class-C kill, realized index or source verdict.",
+      "evidence": [
+        "explorations/conditional-build/x-d1-p3-three-local-floor-2026-11-11.md",
+        "tests/program-focus/x_d1_p3_transfer_scope_probe.py",
+        "lab/process/x-d1-p3-three-local-scope.json",
+        "Lean/GUFormalization/ThreeLocalFloor.lean"
+      ],
+      "claim_effect": "none; no ledger or action-class verdict",
+      "review": "Two mathematical specialists and an adversarial review; final substantive findings empty. Lean certifies only finite algebra."
+    }
+  ],
   "program_run_counter": {
     "since": "2026-11-09",
-    "count": 0,
+    "count": 1,
     "rule": "Every hourly run increments this in its postflight, whatever its lane. Lane C runs when count % 4 == 3 before the increment."
   },
   "working_rule": "Cells are worked at the structure level: a requirement must hold for every action in class C or for a structurally defined subfamily. No cell is worked by writing down a specific action, and no gated cell is worked by building its gate object. See CURRENT-STATE.yaml program_focus.structure_not_specifics."

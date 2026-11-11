@@ -1,0 +1,51 @@
+{
+  "target": "X-D1-P3",
+  "status": "constrained",
+  "checks": [
+    "group_ring_plus_idempotent",
+    "group_ring_minus_idempotent",
+    "group_ring_orthogonal_idempotents",
+    "group_ring_idempotents_sum_to_one",
+    "rank_one_pullbacks_identical",
+    "holonomy_character_distinct",
+    "H0_ranks_distinct",
+    "character_additive_symbolic",
+    "invariant_rank_additive_symbolic",
+    "tensor_square_sign_is_trivial",
+    "representation_eta_square",
+    "mod3_character_distinct",
+    "untwisted_cellular_betti",
+    "D1_twisted_cellular_betti",
+    "two_inverse_mod3",
+    "all_addHom_Z2_Z3_generator_images_zero",
+    "quaternion_product_orthogonal_to_q",
+    "quaternion_product_norm",
+    "sign_change_on_q_matches_line_tensor",
+    "minus_identity_has_trivial_symmetric_square_action",
+    "topological_eta_relation_implies_two_torsion"
+  ],
+  "controls": [
+    "representation_eta_not_additive_two_torsion",
+    "representation_eta_square_not_zero",
+    "mod2_character_loses_distinction",
+    "both_Euler_characteristics_zero",
+    "mod2_transfer_hypothesis_fails",
+    "Z4_additive_target_retains_two_torsion",
+    "constant_rank_does_not_determine_character"
+  ],
+  "counterexample": {
+    "coefficient_ring": "Z_(3); finite probe includes F3 reduction",
+    "trivial": {
+      "rank": 1,
+      "H0_rank": 1,
+      "trace": 1
+    },
+    "sign": {
+      "rank": 1,
+      "H0_rank": 0,
+      "trace": -1
+    }
+  },
+  "evidence_kind": "exact finite algebra and symbolic quaternion identities; written topology and K-theory are not machine-certified",
+  "claim_ceiling": "no two-data floor, class-C kill, realized index or physical count"
+}

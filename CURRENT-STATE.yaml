@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 731dd47bb67a5b72c6f3eae497ff0e48fdc52e63
+revision_basis: 65c4f1068c065f71a7d128f2e61a89fabfc141c8
 program_focus:
   version: 2026-11-09-v1
   authority: joe_direct_chat_2026_11_09
@@ -26224,9 +26224,11 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
-  Follow program_focus.run_selection at the top of this file. The first
-  lane-B targets are ready: lab/process/work-packets/two-datum-theorem-2026-11-10.md
-  (Part B, X-D1-P3, first; then Part A, X-P1-P2 lift); lane C runs every 4th hour.
+  Follow program_focus.run_selection at the top of this file. Part B of
+  lab/process/work-packets/two-datum-theorem-2026-11-10.md completed with
+  X-D1-P3 constrained; its universal additive-invisibility/datum-floor inference
+  is not established. See explorations/conditional-build/x-d1-p3-three-local-floor-2026-11-11.md.
+  Part A (X-P1-P2 lift) remains the ready separate step; counter is 1.
 
   Historical predecessor (not live):
   Reuse K2617 analytic compact-source interior uniqueness and explicit preparation-independent
