@@ -120,9 +120,17 @@
     {
       "row": "P3",
       "column": "symmetry",
-      "status": "open",
-      "requirement": "",
-      "evidence": []
+      "status": "constrained",
+      "requirement": "For a realized complex Fredholm subfamily with compact preserved boundary symmetry, identify actually admissible commensurable domain transitions. Residue preservation requires their signed quotient dimensions to vanish mod3. Reality or quaternionic evenness alone does not give3-divisibility.",
+      "evidence": [
+        "explorations/conditional-build/p3-symmetry-relative-domain-2026-11-11.md",
+        "tests/program-focus/p3_symmetry_relative_domain_probe.py",
+        "lab/process/p3-symmetry-relative-domain.json"
+      ],
+      "grade": "conditional structural theorem; no class-wide realization",
+      "actual_delta": "P3xsymmetry constrained: compact-symmetry relative-domain index is the signed finite quotient representation. Mod-three preservation requires attainable signed relative dimensions in3Z; abstract irrep inventories need an admissibility bridge. Real and quaternionic structures alone permit index changes1 and2 in exact analytic controls, not class-C witnesses.",
+      "structural_route": "Use the equivariant relative-index exact sequence. Determine the group preserved by the boundary connection and which finite representation changes its analytic domain rule actually permits; distinguish signed dimensions from an abstract irrep inventory.",
+      "next_run": "Resolve the boundary-preserved symmetry and admissible domain transitions in a structurally defined C subfamily, without constructing the gated action/connection. Alternative: complete full-covariant first-order symbol tensor classification for X-P1-P2."
     },
     {
       "row": "P3",
@@ -314,7 +322,7 @@
   "lane_state": {
     "LB-MATRIX": {
       "zero_delta_streak": 0,
-      "runs": 3,
+      "runs": 4,
       "status": "open"
     },
     "LB-CLASS": {
@@ -372,11 +380,25 @@
       ],
       "claim_effect": "none; conditional subfamily requirement only",
       "review": "Independent functional-analysis specialist and hostile review; analytic proof separate from finite supporting probes."
+    },
+    {
+      "date": "2026-11-11",
+      "target": "P3xsymmetry",
+      "previous_status": "open",
+      "status": "constrained",
+      "actual_delta": "P3xsymmetry constrained: compact-symmetry relative-domain index is the signed finite quotient representation. Mod-three preservation requires attainable signed relative dimensions in3Z; abstract irrep inventories need an admissibility bridge. Real and quaternionic structures alone permit index changes1 and2 in exact analytic controls, not class-C witnesses.",
+      "evidence": [
+        "explorations/conditional-build/p3-symmetry-relative-domain-2026-11-11.md",
+        "tests/program-focus/p3_symmetry_relative_domain_probe.py",
+        "lab/process/p3-symmetry-relative-domain.json"
+      ],
+      "claim_effect": "none; necessary conditional boundary transfer requirement",
+      "review": "Independent specialist and hostile review; finite probes separated from equivariant and analytic proof."
     }
   ],
   "program_run_counter": {
     "since": "2026-11-09",
-    "count": 4,
+    "count": 5,
     "rule": "Every hourly run increments this in its postflight, whatever its lane. Lane C runs when count % 4 == 3 before the increment."
   },
   "working_rule": "Cells are worked at the structure level: a requirement must hold for every action in class C or for a structurally defined subfamily. No cell is worked by writing down a specific action, and no gated cell is worked by building its gate object. See CURRENT-STATE.yaml program_focus.structure_not_specifics."

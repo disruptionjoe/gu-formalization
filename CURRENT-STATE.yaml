@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: a7956d94a7ea4e8c4e0d595c4dd8f797c8ae539d
+revision_basis: 8c067b32b8a3b3f40a57a8c5bde36b6f3e582d8c
 program_focus:
   version: 2026-11-09-v1
   authority: joe_direct_chat_2026_11_09
@@ -26224,13 +26224,14 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
-  Follow program_focus.run_selection at the top of this file. Counter is 4.
-  BET-2PLUS1 has used one run and remains active: minimum linear provenance
-  observation is classified, but the held raw evolution mixes those labels.
-  No physical count, guessed action or matrix verdict was supplied by the bet.
-  Matrix X-P2-P3 remains constrained by phase/domain/asymptotic requirements;
-  completed packetA/B results retain their stated limits. Select fresh eligible
-  matrix work under the native rule; do not replay the completed algebra.
+  Follow program_focus.run_selection at the top of this file. Counter is 5.
+  P3xsymmetry is constrained by the attainable relative-dimension criterion;
+  reality or quaternionic parity alone does not preserve index modulo3.
+  X-P2-P3 phase/domain/asymptotic requirements and completed packetA/B remain
+  constrained. BET-2PLUS1 remains active after minimum observation and actual
+  raw mixing results. Fresh eligible matrix work must resolve boundary-preserved
+  symmetry/admissibility or full natural/gauge symbol and pairing implications.
+  No physical count or class-C verdict follows from the analytic controls.
 
   Historical predecessor (not live):
   Reuse K2617 analytic compact-source interior uniqueness and explicit preparation-independent

@@ -8,6 +8,10 @@ updated_at: "2026-08-21"
 
 ## Structural result (2026-11-11)
 
+- [P3 boundary symmetry](conditional-build/p3-symmetry-relative-domain-2026-11-11.md): equivariant domain changes, admissibility and residue constraints.
+
+## Structural result (2026-11-11)
+
 - [BET-2PLUS1 provenance observation](conditional-build/bet-2plus1-provenance-observation-2026-11-11.md): complete minimum linear separator and actual raw sector mixing.
 
 ## Structural result (2026-11-11)

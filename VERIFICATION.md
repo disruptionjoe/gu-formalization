@@ -17,6 +17,16 @@ External review is not a pathway in this program. The honesty label stays: inter
 
 Sections below are historical snapshots in file order.
 
+## P3 boundary symmetry requirement (2026-11-11)
+
+P3xsymmetry constrained: compact-symmetry relative-domain index is the signed finite quotient representation. Mod-three preservation requires attainable signed relative dimensions in3Z; abstract irrep inventories need an admissibility bridge. Real and quaternionic structures alone permit index changes1 and2 in exact analytic controls, not class-C witnesses.
+
+[Result](explorations/conditional-build/p3-symmetry-relative-domain-2026-11-11.md) · [Exact controls](tests/program-focus/p3_symmetry_relative_domain_probe.py) · [Evidence](lab/process/p3-symmetry-relative-domain.json).
+
+No source, physics-ledger or class-C verdict changes. Current program_focus governs selection.
+
+Validation:28 exact supporting checks and9 contrary controls. Written equivariant exact-sequence, real/quaternionic parity and analytic tensor-domain proofs receive independent internal specialist and hostile review. No Lean or universal class-C certification claimed.
+
 ## BET-2PLUS1 provenance and dynamics (2026-11-11)
 
 BET-2PLUS1: all minimum pointwise linear trace/remainder separators require one added spinor channel and are output-isomorphic to pullback plus ambient trace. In the held K2236 realization this is the already-owned dynamic quotient; original evolution mixes trace, remainder and scalar sectors. Algebraic provenance is not conserved family content; bet remains active.

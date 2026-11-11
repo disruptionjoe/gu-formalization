@@ -8,6 +8,10 @@ updated_at: "2026-08-23"
 
 ## Structural evidence (2026-11-11)
 
+- [P3 boundary symmetry evidence](p3-symmetry-relative-domain.json): equivariant finite controls and real/quaternionic scope.
+
+## Structural evidence (2026-11-11)
+
 - [BET-2PLUS1 provenance evidence](bet-2plus1-provenance-observation.json): minimum augmentation controls and original raw evolution.
 
 ## Structural evidence (2026-11-11)
