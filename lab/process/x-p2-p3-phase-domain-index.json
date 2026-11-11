@@ -1,0 +1,123 @@
+{
+  "artifact": "X_P2_P3_PHASE_DOMAIN_INDEX",
+  "program_target": "X-P2-P3",
+  "tier": "T2",
+  "status": "internally_reviewed_conditional_structural_result",
+  "claim_effect": "none",
+  "evidence_kind": "Exact finite rational/complex linear algebra and symbolic analytic controls. Infinite-dimensional theorem is the written proof, not these totals.",
+  "checks": [
+    "exact_sequence_0",
+    "codimension_index_0",
+    "whole_phase_0_-1",
+    "whole_phase_0_I",
+    "whole_phase_0_3/5 + 4*I/5",
+    "adjoint_sign_0",
+    "exact_sequence_1",
+    "codimension_index_1",
+    "whole_phase_1_-1",
+    "whole_phase_1_I",
+    "whole_phase_1_3/5 + 4*I/5",
+    "adjoint_sign_1",
+    "exact_sequence_2",
+    "codimension_index_2",
+    "whole_phase_2_-1",
+    "whole_phase_2_I",
+    "whole_phase_2_3/5 + 4*I/5",
+    "adjoint_sign_2",
+    "positive_branch_equation",
+    "positive_branch_trace",
+    "positive_branch_kernel",
+    "positive_kernel_L2",
+    "negative_branch_equation",
+    "negative_trace_functional",
+    "boundary_compatibility_can_hold",
+    "restricted_negative_solution",
+    "singular_sequence_norm",
+    "singular_sequence_derivative_ratio",
+    "singular_sequence_limit",
+    "both_boundary_index_drops",
+    "real_sign_preserves_mod3_zero_property"
+  ],
+  "contrary_controls": [
+    "restriction_can_remove_kernel",
+    "restriction_can_add_cokernel",
+    "nominal_constraints_are_not_rank",
+    "negative_branch_trace_is_not_zero",
+    "same_symbol_different_index_mod3",
+    "sign_is_not_adjoint"
+  ],
+  "finite_exact_sequence_rows": [
+    {
+      "kernel": 2,
+      "cokernel": 1,
+      "constraint_rank": 1,
+      "kernel_constraint_rank": 1,
+      "restricted_kernel": 1,
+      "restricted_cokernel": 1,
+      "index": 1,
+      "restricted_index": 0
+    },
+    {
+      "kernel": 0,
+      "cokernel": 1,
+      "constraint_rank": 1,
+      "kernel_constraint_rank": 0,
+      "restricted_kernel": 0,
+      "restricted_cokernel": 2,
+      "index": -1,
+      "restricted_index": -2
+    },
+    {
+      "kernel": 3,
+      "cokernel": 2,
+      "constraint_rank": 2,
+      "kernel_constraint_rank": 2,
+      "restricted_kernel": 1,
+      "restricted_cokernel": 2,
+      "index": 1,
+      "restricted_index": -1
+    }
+  ],
+  "halfline_index_table": [
+    {
+      "a_sign": "+",
+      "domain": "H1",
+      "kernel": 1,
+      "cokernel": 0,
+      "index": 1
+    },
+    {
+      "a_sign": "-",
+      "domain": "H1",
+      "kernel": 0,
+      "cokernel": 0,
+      "index": 0
+    },
+    {
+      "a_sign": "+",
+      "domain": "H1_trace0",
+      "kernel": 0,
+      "cokernel": 0,
+      "index": 0
+    },
+    {
+      "a_sign": "-",
+      "domain": "H1_trace0",
+      "kernel": 0,
+      "cokernel": 1,
+      "index": -1
+    }
+  ],
+  "halfline_table_basis": "Written kernel/range proofs; symbolic probe checks solution identities and singular-sequence integrals.",
+  "scope": [
+    "Whole operator scalar multiplication with fixed domain and grading",
+    "Graph-norm finite-codimension restriction",
+    "Half-line analytic control, not a class-C action or GU realization"
+  ],
+  "not_established": [
+    "P2 is whole-operator scaling",
+    "Any class-C action exists with these domain choices",
+    "Physical chiral count or source 2+1",
+    "Global datum independence or class-C kill"
+  ]
+}

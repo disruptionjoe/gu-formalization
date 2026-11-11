@@ -8,6 +8,10 @@ updated_at: "2026-08-23"
 
 ## Structural evidence (2026-11-11)
 
+- [X-P2-P3 phase/domain evidence](x-p2-p3-phase-domain-index.json): exact restriction sequences and analytic controls.
+
+## Structural evidence (2026-11-11)
+
 - [X-P1-P2 exact scope report](x-p1-p2-weld-scope.json): weighted coefficient graph and action-pairing controls.
 
 ## Structural evidence (2026-11-11)

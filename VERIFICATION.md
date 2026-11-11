@@ -17,6 +17,16 @@ External review is not a pathway in this program. The honesty label stays: inter
 
 Sections below are historical snapshots in file order.
 
+## X-P2-P3 phase and domain requirements (2026-11-11)
+
+X-P2-P3 constrained: whole-operator scalar phase preserves a fixed graded Fredholm index; rank-q domain restriction lowers it by q. Same-symbol/same-domain half-line endpoints have indices1 and0 because asymptotic Fredholm component changes. No class-C existence, source or physical-count verdict.
+
+[Result](explorations/conditional-build/x-p2-p3-phase-domain-index-2026-11-11.md) · [Exact supporting probe](tests/program-focus/x_p2_p3_phase_domain_probe.py) · [Evidence](lab/process/x-p2-p3-phase-domain-index.json).
+
+The matrix records the new constrained requirement. Current program_focus remains the selection authority.
+
+Validation:31 supporting exact algebra/symbolic checks and6 contrary controls. Infinite-dimensional Fredholm results use the written kernel/range and exact-sequence proofs, independently reviewed. No Lean, external-expert, physical or class-C certification.
+
 ## X-P1-P2 weld scope (2026-11-11)
 
 X-P1-P2 constrained requirement refined: connected support gives uniqueness only after weighted mirror compatibility; Helmholtz symmetry uses the action pairing, not an independently fixed Krein K. Exact all-nonzero coefficient and rational pairing controls do not certify class-C actions. Existing reconstructed-symbol weld survives.

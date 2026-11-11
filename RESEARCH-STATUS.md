@@ -16,6 +16,14 @@ discovery bet (`lab/process/discovery-bets.json`). The K25xx--K2618 detector, pr
 results below are retained as conditional mathematics; that lane is no longer the default target. Sections
 below are dated results, newest first, and are not steering.
 
+## X-P2-P3 phase and domain requirements (2026-11-11)
+
+X-P2-P3 constrained: whole-operator scalar phase preserves a fixed graded Fredholm index; rank-q domain restriction lowers it by q. Same-symbol/same-domain half-line endpoints have indices1 and0 because asymptotic Fredholm component changes. No class-C existence, source or physical-count verdict.
+
+[Result](explorations/conditional-build/x-p2-p3-phase-domain-index-2026-11-11.md) · [Exact supporting probe](tests/program-focus/x_p2_p3_phase_domain_probe.py) · [Evidence](lab/process/x-p2-p3-phase-domain-index.json).
+
+The matrix records the new constrained requirement. Current program_focus remains the selection authority.
+
 ## X-P1-P2 weld scope (2026-11-11)
 
 X-P1-P2 constrained requirement refined: connected support gives uniqueness only after weighted mirror compatibility; Helmholtz symmetry uses the action pairing, not an independently fixed Krein K. Exact all-nonzero coefficient and rational pairing controls do not certify class-C actions. Existing reconstructed-symbol weld survives.

@@ -287,8 +287,17 @@
         "P3"
       ],
       "question": "Does fixing the symbol phase P2 constrain the realized index P3 mod 3?",
-      "status": "open",
-      "evidence": []
+      "status": "constrained",
+      "evidence": [
+        "explorations/conditional-build/x-p2-p3-phase-domain-index-2026-11-11.md",
+        "tests/program-focus/x_p2_p3_phase_domain_probe.py",
+        "lab/process/x-p2-p3-phase-domain-index.json"
+      ],
+      "known": "X-P2-P3 constrained: whole-operator scalar phase preserves a fixed graded Fredholm index; rank-q domain restriction lowers it by q. Same-symbol/same-domain half-line endpoints have indices1 and0 because asymptotic Fredholm component changes. No class-C existence, source or physical-count verdict.",
+      "requirement": "Identify P2 on the whole graded operator, the closed physical domain, and its asymptotic Fredholm component. Symbol phase alone supplies neither a realized index nor its residue modulo3.",
+      "structural_route": "For the structurally defined subfamily admitting a fixed closed graded Fredholm realization and whole-operator invertible scalar rescaling, the index is unchanged. Commensurable domains change index by their relative dimension; noncompact fixed-symbol lower-order changes need separate Fredholm control.",
+      "next_run": "Test a class-wide structural reason that constrains admissible boundary relative dimensions and asymptotic components, without building a missing action; retain the distinction from native2+1 observation.",
+      "actual_delta": "X-P2-P3 constrained: whole-operator scalar phase preserves a fixed graded Fredholm index; rank-q domain restriction lowers it by q. Same-symbol/same-domain half-line endpoints have indices1 and0 because asymptotic Fredholm component changes. No class-C existence, source or physical-count verdict."
     },
     {
       "id": "X-P1-P2-P3",
@@ -305,7 +314,7 @@
   "lane_state": {
     "LB-MATRIX": {
       "zero_delta_streak": 0,
-      "runs": 2,
+      "runs": 3,
       "status": "open"
     },
     "LB-CLASS": {
@@ -349,11 +358,25 @@
       ],
       "claim_effect": "none; refined necessary conditions, no full class-C exclusion",
       "review": "Two specialists and hostile review; final substantive findings empty after clarifying matrix parts of antilinear maps. Finite Lean reachability/two-cycle check."
+    },
+    {
+      "date": "2026-11-11",
+      "target": "X-P2-P3",
+      "previous_status": "open",
+      "status": "constrained",
+      "actual_delta": "X-P2-P3 constrained: whole-operator scalar phase preserves a fixed graded Fredholm index; rank-q domain restriction lowers it by q. Same-symbol/same-domain half-line endpoints have indices1 and0 because asymptotic Fredholm component changes. No class-C existence, source or physical-count verdict.",
+      "evidence": [
+        "explorations/conditional-build/x-p2-p3-phase-domain-index-2026-11-11.md",
+        "tests/program-focus/x_p2_p3_phase_domain_probe.py",
+        "lab/process/x-p2-p3-phase-domain-index.json"
+      ],
+      "claim_effect": "none; conditional subfamily requirement only",
+      "review": "Independent functional-analysis specialist and hostile review; analytic proof separate from finite supporting probes."
     }
   ],
   "program_run_counter": {
     "since": "2026-11-09",
-    "count": 2,
+    "count": 3,
     "rule": "Every hourly run increments this in its postflight, whatever its lane. Lane C runs when count % 4 == 3 before the increment."
   },
   "working_rule": "Cells are worked at the structure level: a requirement must hold for every action in class C or for a structurally defined subfamily. No cell is worked by writing down a specific action, and no gated cell is worked by building its gate object. See CURRENT-STATE.yaml program_focus.structure_not_specifics."

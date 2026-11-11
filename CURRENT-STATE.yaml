@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: cc60ebe20d5ce90473fdc1f133c830e62c675173
+revision_basis: 85beeec8554d9c93c37a52933c4cb39cfd119392
 program_focus:
   version: 2026-11-09-v1
   authority: joe_direct_chat_2026_11_09
@@ -26224,13 +26224,12 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
-  Follow program_focus.run_selection at the top of this file. Both steps of
-  lab/process/work-packets/two-datum-theorem-2026-11-10.md completed with
-  constrained outcomes, recorded in lab/process/action-constraint-matrix.json.
-  X-D1-P3 retains ordinary transfer but not blanket additive forgetting or a datum floor.
-  X-P1-P2 retains the reconstructed-symbol weld; class-wide coefficient compatibility
-  and action-pairing identification remain unproved. Counter is 2; select fresh work
-  from the matrix under program_focus rather than replaying the completed packet.
+  Follow program_focus.run_selection at the top of this file. Completed theorem
+  packetA/B remains constrained. X-P2-P3 now has phase/domain/asymptotic requirements
+  in lab/process/action-constraint-matrix.json: a fixed whole-operator scalar phase
+  preserves index, but symbol phase alone does not specify domain or end behavior.
+  Counter is 3; the native selection rule routes the next owner run to LC-BETS.
+  No source, physical-ledger or class-C verdict follows from the analytic controls.
 
   Historical predecessor (not live):
   Reuse K2617 analytic compact-source interior uniqueness and explicit preparation-independent

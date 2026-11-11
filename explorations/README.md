@@ -8,6 +8,10 @@ updated_at: "2026-08-21"
 
 ## Structural result (2026-11-11)
 
+- [X-P2-P3 phase/domain index](conditional-build/x-p2-p3-phase-domain-index-2026-11-11.md): fixed phase, boundary codimension and noncompact-end requirements.
+
+## Structural result (2026-11-11)
+
 - [X-P1-P2 weld scope](conditional-build/x-p1-p2-class-c-lift-2026-11-11.md): coefficient compatibility and pairing identity remain necessary.
 
 ## Structural result (2026-11-11)
