@@ -1,0 +1,40 @@
+{
+  "schema_version": "1.0",
+  "artifact": "x-p1-p2-real-clifford-transfer",
+  "supporting_checks": [
+    "all196 Clifford anticommutators",
+    "K Hermitian involution with balanced64plus64",
+    "J quaternionic and unitary",
+    "J commutes all Clifford generators antilinearly",
+    "gamma K selfadjoints",
+    "volume involution and Hermitian",
+    "volume K skew and quaternionic linear",
+    "actual gauge inverse",
+    "actual gauge K unitary",
+    "actual gauge quaternionic linear",
+    "actual gauge preserves volume",
+    "all14 quotient arrows use inverse action",
+    "all14 moved arrows equal g squared times old",
+    "all14 moved inclusion blocks use inverse squared",
+    "all196 projector numerator blocks unchanged",
+    "all14 plane motions have grade13 component",
+    "grade13 directions trace orthogonal to original plane",
+    "reflected coflips share square minus one",
+    "reflected coflips K antiunitary not sign reversing",
+    "C0 reflected diagram equation all14",
+    "C1 reflected kernel quotient all14",
+    "Spin rotor is native group element",
+    "Spin rotor preserves original Clifford plane"
+  ],
+  "contrary_controls": [
+    "same target action fails",
+    "plane motion is nonzero despite fixed projector",
+    "inert-vector J square rejects hyperbolic ratio",
+    "C1 same mirror arrow fails all14",
+    "omitting reflection gives incompatible quotient maps",
+    "plane preservation need not fix vector-slot projector",
+    "commutant alone does not imply K unitarity"
+  ],
+  "claim_effect": "none",
+  "proof_scope": "Exact dyadic128-complex native K95 controls; universal real-form classification is a separate written proof, not Lean or physical certification."
+}

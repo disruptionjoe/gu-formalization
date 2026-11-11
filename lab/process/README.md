@@ -6,6 +6,11 @@ updated_at: "2026-08-23"
 ---
 
 
+## Native diagram and spectral-domain evidence (2026-11-11)
+
+- [Exact report 1](x-p1-p2-real-clifford-transfer.json): native Clifford projector and arrow controls
+- [Exact report 2](p3-equivariant-spectral-sections.json): clutching, equivariant defect and smoothing controls
+
 ## Gauge lifts and auxiliary-domain evidence (2026-11-11)
 
 - [Exact report 1](p3-exterior-symbol-lift.json): composition and curvature controls

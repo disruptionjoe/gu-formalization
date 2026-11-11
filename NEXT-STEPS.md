@@ -16,6 +16,22 @@ Do not add "Current follow-through" sections or "Historical predecessor" stacks 
 matrix or bet file. The retired follow-through chain and banner stack are kept at the end of this file under
 "Archived steering history".
 
+## Native diagram and spectral-domain transfer (2026-11-11)
+
+X-P1-P2 refined: the actual K95 quaternionic fixed-vector kernel stabilizer is a real hyperbolic chiral family. It preserves the RS projector while moving Gamma/j and the Clifford plane; plane and fixed-slot projector stabilizers are incomparable. Same-square coflip freedom depends on the specified vector map.
+
+P2xsymmetry constrained: in the declared K95 quaternionic identical-slot category, the same-spinor Gamma/j diagram stabilizer is only plus/minus identity. Inert-vector and reflected-vector coflips have different same-square constraints; no universal class-C weld follows.
+
+P3xsymmetry refined: for the specified clutched elliptic family, an equivariant spectral section exists exactly when positive/negative symmetry modules match. A genuine smoothing Green-Lagrangian repair can break fixed grading; full normal symmetry and adapted-operator symmetry remain distinct.
+
+P3xglobal_index refined: representation-valued spectral-flow defects obstruct global equivariant sections even when total flow vanishes. Balanced stabilization cannot remove the defect; inverse channels change field content. No GU end realization is supplied.
+
+X-P2-P3 refined: fixed local symbol and total spectral-flow cancellation do not determine a symmetry-preserving global spectral domain; the Fourier family has an exact symmetry-resolved obstruction and localized repair criterion.
+
+[Result 1](explorations/conditional-build/x-p1-p2-real-clifford-transfer-2026-11-11.md) · [Result 2](explorations/conditional-build/p3-equivariant-spectral-sections-2026-11-11.md).
+
+Source, physics ledger0.263, class C and canon unchanged. Current program_focus governs selection.
+
 ## Gauge lifts and auxiliary-domain families (2026-11-11)
 
 P3xorder_locality constrained: all lower-order completions of the fixed exterior compatibility symbols are uniquely the induced connection and require flat curvature; class C does not impose those symbols. A curvature-kernel parameter subbundle can support a truncated identity without a full parallel coefficient complex.

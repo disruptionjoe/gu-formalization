@@ -6,6 +6,11 @@ updated_at: "2026-08-21"
 ---
 
 
+## Native diagram and spectral-domain transfer (2026-11-11)
+
+- [Result 1](conditional-build/x-p1-p2-real-clifford-transfer-2026-11-11.md): actual K95 real-form and coflip transfer
+- [Result 2](conditional-build/p3-equivariant-spectral-sections-2026-11-11.md): global equivariant spectral sections and Green/grading repair
+
 ## Gauge lifts and auxiliary domains (2026-11-11)
 
 - [Result 1](conditional-build/p3-exterior-symbol-lift-2026-11-11.md): all lower-order exterior completions, restricted parameters and holonomy
