@@ -8,6 +8,10 @@ updated_at: "2026-08-23"
 
 ## Structural evidence (2026-11-11)
 
+- [BET-2PLUS1 provenance evidence](bet-2plus1-provenance-observation.json): minimum augmentation controls and original raw evolution.
+
+## Structural evidence (2026-11-11)
+
 - [X-P2-P3 phase/domain evidence](x-p2-p3-phase-domain-index.json): exact restriction sequences and analytic controls.
 
 ## Structural evidence (2026-11-11)

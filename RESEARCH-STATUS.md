@@ -16,6 +16,14 @@ discovery bet (`lab/process/discovery-bets.json`). The K25xx--K2618 detector, pr
 results below are retained as conditional mathematics; that lane is no longer the default target. Sections
 below are dated results, newest first, and are not steering.
 
+## BET-2PLUS1 provenance and dynamics (2026-11-11)
+
+BET-2PLUS1: all minimum pointwise linear trace/remainder separators require one added spinor channel and are output-isomorphic to pullback plus ambient trace. In the held K2236 realization this is the already-owned dynamic quotient; original evolution mixes trace, remainder and scalar sectors. Algebraic provenance is not conserved family content; bet remains active.
+
+[Result](explorations/conditional-build/bet-2plus1-provenance-observation-2026-11-11.md) · [Exact probe](tests/program-focus/bet_2plus1_provenance_probe.py) · [Finite Lean mixing](Lean/GUFormalization/ProvenanceMixing.lean).
+
+This is internal conditional mathematics. No source, class-C, matrix or physics-ledger verdict moves.
+
 ## X-P2-P3 phase and domain requirements (2026-11-11)
 
 X-P2-P3 constrained: whole-operator scalar phase preserves a fixed graded Fredholm index; rank-q domain restriction lowers it by q. Same-symbol/same-domain half-line endpoints have indices1 and0 because asymptotic Fredholm component changes. No class-C existence, source or physical-count verdict.

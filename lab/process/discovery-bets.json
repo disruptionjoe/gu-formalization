@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "artifact": "DISCOVERY_BETS_REGISTER",
-  "updated_at": "2026-11-09",
+  "updated_at": "2026-11-11",
   "authorized_by": "Joe direct chat, 2026-11-09 (program_focus reset)",
   "claim_effect": "none",
   "lane": "C",
@@ -24,9 +24,23 @@
       "routing_note": "Ordinary index and net-chirality calculations are controls only for this mechanism (GEOMETER-VS-PHYSICS-OBJECTS.md, generation/chirality row).",
       "kill_criterion": "Within the time box, no invariant separates the imposter sector from the true families, or the observation/quotient map from sectors to a realized count cannot be typed for any guessed action tried.",
       "status": "active",
-      "runs_used": 0,
+      "runs_used": 1,
       "zero_delta_streak": 0,
-      "result": null
+      "result": {
+        "status": "active_with_conditional_structural_result",
+        "actual_delta": "BET-2PLUS1: all minimum pointwise linear trace/remainder separators require one added spinor channel and are output-isomorphic to pullback plus ambient trace. In the held K2236 realization this is the already-owned dynamic quotient; original evolution mixes trace, remainder and scalar sectors. Algebraic provenance is not conserved family content; bet remains active.",
+        "evidence": [
+          "explorations/conditional-build/bet-2plus1-provenance-observation-2026-11-11.md",
+          "tests/program-focus/bet_2plus1_provenance_probe.py",
+          "lab/process/bet-2plus1-provenance-observation.json",
+          "Lean/GUFormalization/ProvenanceMixing.lean"
+        ],
+        "guessed_action_variants": 0,
+        "remaining_runs": 23,
+        "physical_count": "not_supplied",
+        "matrix_or_ledger_effect": "none",
+        "next_condition": "For pointwise first-order refinement: a changed source-faithful operator/action or specified invariant physical subspace, with observation and quotient maps tested against actual principal mixing. Nonlocal, derivative-valued and different moving observations remain separate open routes. An output shear or dimension count cannot certify the held model."
+      }
     },
     {
       "id": "BET-MASS-GAP",

@@ -8,6 +8,10 @@ updated_at: "2026-08-21"
 
 ## Structural result (2026-11-11)
 
+- [BET-2PLUS1 provenance observation](conditional-build/bet-2plus1-provenance-observation-2026-11-11.md): complete minimum linear separator and actual raw sector mixing.
+
+## Structural result (2026-11-11)
+
 - [X-P2-P3 phase/domain index](conditional-build/x-p2-p3-phase-domain-index-2026-11-11.md): fixed phase, boundary codimension and noncompact-end requirements.
 
 ## Structural result (2026-11-11)

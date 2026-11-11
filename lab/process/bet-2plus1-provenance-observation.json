@@ -1,0 +1,140 @@
+{
+  "artifact": "BET_2PLUS1_PROVENANCE_OBSERVATION",
+  "program_target": "BET-2PLUS1",
+  "tier": "T1",
+  "status": "conditional_internal_result",
+  "checks": [
+    "real_Cl21_controls",
+    "compatible_insertions",
+    "owned_surjectivity_reused",
+    "trace_augmented_surjective",
+    "trace_augmented_hidden_kernel",
+    "minimum_normal_trace_separates",
+    "minimum_total_trace_separates",
+    "all_minimum_shear_fixture",
+    "extra_hidden_information_cost",
+    "old_quotient_RE",
+    "same_old_dynamic_kernel",
+    "trace_and_remainder_input_typing",
+    "actual_raw_quotient_1",
+    "trace_mixing_1",
+    "remainder_mixing_1",
+    "scalar_mixing_1",
+    "owned_Jordan_control_1",
+    "actual_raw_quotient_2",
+    "trace_mixing_2",
+    "remainder_mixing_2",
+    "scalar_mixing_2",
+    "owned_Jordan_control_2",
+    "actual_raw_quotient_3",
+    "trace_mixing_3",
+    "remainder_mixing_3",
+    "scalar_mixing_3",
+    "owned_Jordan_control_3"
+  ],
+  "contrary_controls": [
+    "minimal_width_hidden_noise_breaks_separation",
+    "too_few_extra_channels_fail",
+    "literal_observation_overlap",
+    "trace_subtraction_loses_trace",
+    "fault_raw_trace_return_1",
+    "fault_remainder_gamma_1",
+    "fault_raw_trace_return_2",
+    "fault_remainder_gamma_2",
+    "fault_raw_trace_return_3",
+    "fault_remainder_gamma_3"
+  ],
+  "raw_outputs": {
+    "1": {
+      "trace": [
+        "1/14",
+        "6/7",
+        "0",
+        "0",
+        "0",
+        "6/7"
+      ],
+      "remainder": [
+        "0",
+        "1/12",
+        "1/12",
+        "1/12",
+        "-1/60",
+        "-1"
+      ],
+      "scalar": [
+        "0",
+        "-11/12",
+        "1/12",
+        "1/12",
+        "1/12",
+        "0"
+      ],
+      "remainder_output_trace": "1/12"
+    },
+    "2": {
+      "trace": [
+        "1/14",
+        "0",
+        "6/7",
+        "0",
+        "0",
+        "6/7"
+      ],
+      "remainder": [
+        "0",
+        "1/12",
+        "1/12",
+        "1/12",
+        "-1/60",
+        "-1"
+      ],
+      "scalar": [
+        "0",
+        "1/12",
+        "-11/12",
+        "1/12",
+        "1/12",
+        "0"
+      ],
+      "remainder_output_trace": "1/12"
+    },
+    "3": {
+      "trace": [
+        "1/14",
+        "0",
+        "0",
+        "6/7",
+        "0",
+        "6/7"
+      ],
+      "remainder": [
+        "0",
+        "1/12",
+        "1/12",
+        "1/12",
+        "-1/60",
+        "-1"
+      ],
+      "scalar": [
+        "0",
+        "1/12",
+        "1/12",
+        "-11/12",
+        "1/12",
+        "0"
+      ],
+      "remainder_output_trace": "1/12"
+    }
+  },
+  "dependency_sha256": {
+    "tests/channel-swings/k2236_raw_observation_closure_probe.py": "518595363870edeabdede488df004c97a5c81a1dfa7132f8532f38f7792970ef",
+    "tests/channel-swings/k2206_changed_raw_mass_construction_probe.py": "441f226b668ab31205f7ae0166a518b154e010f2f411b0556937d96fd285cce7",
+    "explorations/conditional-build/k2236-raw-observation-closure-2026-10-29.md": "f8e6591ae25d908b3fee77113c966ea896573108e863a9d19d5d0db5cd9b1bb1",
+    "explorations/conditional-build/k2239-moving-observation-closure-2026-10-29.md": "fa4c4697ebf9b3a03fe875dba4a3a5c6c53e850b242dc4370bb233c5239ac98b"
+  },
+  "probe_sha256": "1ea6416deaf8336c24eff1c425fb3cb792039ec490b0fbff278a41736a911dff",
+  "new_effect": "All minimum linear provenance-separating augmentations classified; actual held raw evolution mixes the separated labels.",
+  "reused": "VZ4 full image; Aug31 trace projector; K2236 rank768 closure/Jordan/Green and K2239 moving graph results.",
+  "ceiling": "No guessed action, source-selected augmented observation, physical family count, class-C or matrix verdict. Linear pointwise fixed-split provenance only."
+}
