@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 8c067b32b8a3b3f40a57a8c5bde36b6f3e582d8c
+revision_basis: e9ccd3f524f435ffe3f1cedeea9ba118384be51b
 program_focus:
   version: 2026-11-09-v1
   authority: joe_direct_chat_2026_11_09
@@ -26224,14 +26224,14 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
-  Follow program_focus.run_selection at the top of this file. Counter is 5.
-  P3xsymmetry is constrained by the attainable relative-dimension criterion;
-  reality or quaternionic parity alone does not preserve index modulo3.
-  X-P2-P3 phase/domain/asymptotic requirements and completed packetA/B remain
-  constrained. BET-2PLUS1 remains active after minimum observation and actual
-  raw mixing results. Fresh eligible matrix work must resolve boundary-preserved
-  symmetry/admissibility or full natural/gauge symbol and pairing implications.
-  No physical count or class-C verdict follows from the analytic controls.
+  Follow program_focus.run_selection at the top of this file. Counter is6.
+  X-P1-P2 now has complete H-equivariant sparse-support commutant classification
+  when extended Gamma/j and inclusions are fixed; coflip existence and full
+  natural/gauge ownership remain separate. P3xsymmetry requires the same
+  symmetry to preserve holonomy, full adapted operator and selected spectral
+  domain; an interior quaternionic J alone does not force even index after a
+  symmetry-breaking trace choice. No action-class or physical-count verdict.
+  Matrix evidence contains the exact requirements and retained native results.
 
   Historical predecessor (not live):
   Reuse K2617 analytic compact-source interior uniqueness and explicit preparation-independent

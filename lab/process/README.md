@@ -6,6 +6,11 @@ updated_at: "2026-08-23"
 ---
 
 
+## Structural transfer evidence (2026-11-11)
+
+- [Multiplicity weld](x-p1-p2-multiplicity-weld.json): exact native commutants and sparse controls.
+- [Boundary symmetry transfer](p3-boundary-symmetry-transfer.json): spectral-domain and real-structure controls.
+
 ## Structural evidence (2026-11-11)
 
 - [P3 boundary symmetry evidence](p3-symmetry-relative-domain.json): equivariant finite controls and real/quaternionic scope.

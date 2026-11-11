@@ -16,6 +16,16 @@ discovery bet (`lab/process/discovery-bets.json`). The K25xx--K2618 detector, pr
 results below are retained as conditional mathematics; that lane is no longer the default target. Sections
 below are dated results, newest first, and are not steering.
 
+## Multiplicity and boundary symmetry transfer (2026-11-11)
+
+X-P1-P2 constrained: native full-support H-symbol control has multiplicity commutant C plus four Mat2 blocks (dimension17). Fixed extended Gamma/j reduce every coefficient stratum to C^c on a16-node support graph; connected strata give scalar uniqueness, with existence separate. Coflip square depends on component permutation; pairing proportionality additionally requires an H-equivariant ratio and common adjoints.
+
+P3xsymmetry constrained: actual holonomy, full adapted-operator symmetry and chosen spectral-domain preservation are separate. Commuting J preserves a split spectral cut exactly when its zero-mode subspace is preserved. Quaternionic interior symmetry with a broken trace line has actual half-line index1; no class-C realization follows.
+
+[Multiplicity result](explorations/conditional-build/x-p1-p2-multiplicity-weld-2026-11-11.md) · [Boundary result](explorations/conditional-build/p3-boundary-symmetry-transfer-2026-11-11.md).
+
+Source, physics-ledger and class-C verdicts are unchanged. Current program_focus governs selection.
+
 ## P3 boundary symmetry requirement (2026-11-11)
 
 P3xsymmetry constrained: compact-symmetry relative-domain index is the signed finite quotient representation. Mod-three preservation requires attainable signed relative dimensions in3Z; abstract irrep inventories need an admissibility bridge. Real and quaternionic structures alone permit index changes1 and2 in exact analytic controls, not class-C witnesses.

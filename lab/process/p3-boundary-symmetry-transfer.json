@@ -1,0 +1,45 @@
+{
+  "artifact": "P3_BOUNDARY_SYMMETRY_TRANSFER",
+  "program_target": "P3xsymmetry",
+  "tier": "T2",
+  "claim_effect": "none",
+  "finite_supporting_checks": [
+    "quaternionic_square",
+    "positive_norm_preserved",
+    "real_scalar_holonomy_preserved",
+    "su3_center_order_three",
+    "su3_center_nonreal",
+    "su2_entire_quaternionic_form_intertwines",
+    "spectral_sign_exchange",
+    "negative_to_positive",
+    "zero_operator_commutes",
+    "whole_zero_space_preserved",
+    "zero_subspace_preserved",
+    "actual_right_inverse_on_nontrivial_test_force",
+    "right_inverse_has_zero_trace",
+    "actual_kernel_equation",
+    "actual_kernel_trace",
+    "kernel_is_l2",
+    "one_allowed_kernel_coefficient",
+    "zero_trace_kernel_dimension",
+    "unrestricted_kernel_dimension",
+    "cut_adds_actual_band",
+    "linear_coflip_involution"
+  ],
+  "contrary_controls": [
+    "complex_center_breaks_antilinear_intertwiner",
+    "principal_symmetry_implies_lower_order_symmetry",
+    "negative_spectral_space_preserved",
+    "zero_operator_forces_zero_choice_invariance",
+    "kernel_domain_preserved",
+    "reversed_relative_index_sign",
+    "involution_implies_trace_invariance"
+  ],
+  "counts": {
+    "supporting": 21,
+    "contrary": 7
+  },
+  "analytic_evidence": "Written trace-surjectivity, spectral-domain and half-line proofs; finite checks do not certify infinite-dimensional Fredholmness.",
+  "scope": "Conditional analytic subfamily and controls; no class-C action, full GU boundary operator or physical count.",
+  "probe_sha256": "b5db7b749a578f123a862d017151684ede2713b2f2e7f6879d9efb406c0bc289"
+}

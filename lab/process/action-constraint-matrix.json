@@ -121,16 +121,19 @@
       "row": "P3",
       "column": "symmetry",
       "status": "constrained",
-      "requirement": "For a realized complex Fredholm subfamily with compact preserved boundary symmetry, identify actually admissible commensurable domain transitions. Residue preservation requires their signed quotient dimensions to vanish mod3. Reality or quaternionic evenness alone does not give3-divisibility.",
+      "requirement": "Identify actual connection holonomy and verify the same symmetry on the full adapted operator, trace and selected closed spectral domain. For commuting antiunitary J the split zero space must be J-invariant. Only domain-preserved symmetry constrains relative index representations; actual attainable dimensions and mod3 remain separate.",
       "evidence": [
         "explorations/conditional-build/p3-symmetry-relative-domain-2026-11-11.md",
         "tests/program-focus/p3_symmetry_relative_domain_probe.py",
-        "lab/process/p3-symmetry-relative-domain.json"
+        "lab/process/p3-symmetry-relative-domain.json",
+        "explorations/conditional-build/p3-boundary-symmetry-transfer-2026-11-11.md",
+        "tests/program-focus/p3_boundary_symmetry_transfer_probe.py",
+        "lab/process/p3-boundary-symmetry-transfer.json"
       ],
       "grade": "conditional structural theorem; no class-wide realization",
-      "actual_delta": "P3xsymmetry constrained: compact-symmetry relative-domain index is the signed finite quotient representation. Mod-three preservation requires attainable signed relative dimensions in3Z; abstract irrep inventories need an admissibility bridge. Real and quaternionic structures alone permit index changes1 and2 in exact analytic controls, not class-C witnesses.",
-      "structural_route": "Use the equivariant relative-index exact sequence. Determine the group preserved by the boundary connection and which finite representation changes its analytic domain rule actually permits; distinguish signed dimensions from an abstract irrep inventory.",
-      "next_run": "Resolve the boundary-preserved symmetry and admissible domain transitions in a structurally defined C subfamily, without constructing the gated action/connection. Alternative: complete full-covariant first-order symbol tensor classification for X-P1-P2."
+      "actual_delta": "P3xsymmetry constrained: actual holonomy, full adapted-operator symmetry and chosen spectral-domain preservation are separate. Commuting J preserves a split spectral cut exactly when its zero-mode subspace is preserved. Quaternionic interior symmetry with a broken trace line has actual half-line index1; no class-C realization follows.",
+      "structural_route": "Holonomy intertwiner followed by full-operator and trace-domain preservation. Spectral sign, chosen zero space and selfadjoint Green-form admissibility are distinct requirements; elliptic/coercive hypotheses are not automatic on Y14.",
+      "next_run": "Prove a boundary-domain preservation statement for a structurally specified C subfamily, including positive Hilbert analytic realization and Green form, without constructing a gated action/connection. Algebraic J alone is insufficient."
     },
     {
       "row": "P3",
@@ -256,13 +259,16 @@
         "explorations/conditional-build/x-p1-p2-class-c-lift-2026-11-11.md",
         "tests/program-focus/x_p1_p2_weld_scope_probe.py",
         "lab/process/x-p1-p2-weld-scope.json",
-        "Lean/GUFormalization/WeldCoefficientScope.lean"
+        "Lean/GUFormalization/WeldCoefficientScope.lean",
+        "explorations/conditional-build/x-p1-p2-multiplicity-weld-2026-11-11.md",
+        "tests/program-focus/x_p1_p2_multiplicity_weld_probe.py",
+        "lab/process/x-p1-p2-multiplicity-weld.json"
       ],
-      "known": "X-P1-P2 constrained requirement refined: connected support gives uniqueness only after weighted mirror compatibility; Helmholtz symmetry uses the action pairing, not an independently fixed Krein K. Exact all-nonzero coefficient and rational pairing controls do not certify class-C actions. Existing reconstructed-symbol weld survives.",
-      "next_run": "Part A completed constrained. Determine whether full natural/gauge covariance forces weighted compatibility, whether variational pairing is uniquely identified, or how provenance-mixing coflips change the ansatz; no specific action construction.",
-      "structural_route": "For the scalar-slot ansatz, unit-modulus mirror ratios and trivial closed-walk products on the mirror-augmented support graph are necessary/sufficient. Connectedness then gives one global phase. A class-wide transfer also requires identifying the action pairing with the weld pairing or transporting both correctly.",
+      "known": "X-P1-P2 constrained: native full-support H-symbol control has multiplicity commutant C plus four Mat2 blocks (dimension17). Fixed extended Gamma/j reduce every coefficient stratum to C^c on a16-node support graph; connected strata give scalar uniqueness, with existence separate. Coflip square depends on component permutation; pairing proportionality additionally requires an H-equivariant ratio and common adjoints.",
+      "next_run": "Test whether full natural/gauge covariance fixes the extended Gamma/j and field inclusions and what support strata are permitted. Reuse the complete sparse commutant classification; do not repeat scalar graph or generic Schur arguments.",
+      "structural_route": "Regroup isotypic copies and impose all coefficient and frozen Gamma/j arrows. The complete H-equivariant commutant is C^c on the merged16-variable nonzero support graph. With one component, compatible coflips are unique up to phase at fixed square; invertible existence, map naturality and density-dual pairing are independent.",
       "packet_step_status": "completed_constrained",
-      "actual_delta": "X-P1-P2 constrained requirement refined: connected support gives uniqueness only after weighted mirror compatibility; Helmholtz symmetry uses the action pairing, not an independently fixed Krein K. Exact all-nonzero coefficient and rational pairing controls do not certify class-C actions. Existing reconstructed-symbol weld survives.",
+      "actual_delta": "X-P1-P2 constrained: native full-support H-symbol control has multiplicity commutant C plus four Mat2 blocks (dimension17). Fixed extended Gamma/j reduce every coefficient stratum to C^c on a16-node support graph; connected strata give scalar uniqueness, with existence separate. Coflip square depends on component permutation; pairing proportionality additionally requires an H-equivariant ratio and common adjoints.",
       "completed_packet": "lab/process/work-packets/two-datum-theorem-2026-11-10.md"
     },
     {
@@ -322,7 +328,7 @@
   "lane_state": {
     "LB-MATRIX": {
       "zero_delta_streak": 0,
-      "runs": 4,
+      "runs": 5,
       "status": "open"
     },
     "LB-CLASS": {
@@ -394,11 +400,39 @@
       ],
       "claim_effect": "none; necessary conditional boundary transfer requirement",
       "review": "Independent specialist and hostile review; finite probes separated from equivariant and analytic proof."
+    },
+    {
+      "date": "2026-11-11",
+      "target": "X-P1-P2",
+      "previous_status": "constrained",
+      "status": "constrained",
+      "actual_delta": "X-P1-P2 constrained: native full-support H-symbol control has multiplicity commutant C plus four Mat2 blocks (dimension17). Fixed extended Gamma/j reduce every coefficient stratum to C^c on a16-node support graph; connected strata give scalar uniqueness, with existence separate. Coflip square depends on component permutation; pairing proportionality additionally requires an H-equivariant ratio and common adjoints.",
+      "evidence": [
+        "explorations/conditional-build/x-p1-p2-multiplicity-weld-2026-11-11.md",
+        "tests/program-focus/x_p1_p2_multiplicity_weld_probe.py",
+        "lab/process/x-p1-p2-multiplicity-weld.json"
+      ],
+      "claim_effect": "none; structural-subclass refinement only",
+      "review": "Independent field specialist and integrated hostile review; finite probes separated from uniform algebraic and analytic proofs."
+    },
+    {
+      "date": "2026-11-11",
+      "target": "P3xsymmetry",
+      "previous_status": "constrained",
+      "status": "constrained",
+      "actual_delta": "P3xsymmetry constrained: actual holonomy, full adapted-operator symmetry and chosen spectral-domain preservation are separate. Commuting J preserves a split spectral cut exactly when its zero-mode subspace is preserved. Quaternionic interior symmetry with a broken trace line has actual half-line index1; no class-C realization follows.",
+      "evidence": [
+        "explorations/conditional-build/p3-boundary-symmetry-transfer-2026-11-11.md",
+        "tests/program-focus/p3_boundary_symmetry_transfer_probe.py",
+        "lab/process/p3-boundary-symmetry-transfer.json"
+      ],
+      "claim_effect": "none; structural-subclass refinement only",
+      "review": "Independent field specialist and integrated hostile review; finite probes separated from uniform algebraic and analytic proofs."
     }
   ],
   "program_run_counter": {
     "since": "2026-11-09",
-    "count": 5,
+    "count": 6,
     "rule": "Every hourly run increments this in its postflight, whatever its lane. Lane C runs when count % 4 == 3 before the increment."
   },
   "working_rule": "Cells are worked at the structure level: a requirement must hold for every action in class C or for a structurally defined subfamily. No cell is worked by writing down a specific action, and no gated cell is worked by building its gate object. See CURRENT-STATE.yaml program_focus.structure_not_specifics."

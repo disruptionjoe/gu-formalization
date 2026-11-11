@@ -6,6 +6,11 @@ updated_at: "2026-08-21"
 ---
 
 
+## Structural transfer results (2026-11-11)
+
+- [Multiplicity weld](conditional-build/x-p1-p2-multiplicity-weld-2026-11-11.md): native commutant17, Gamma/j rigidity and complete sparse-support classification.
+- [Boundary symmetry transfer](conditional-build/p3-boundary-symmetry-transfer-2026-11-11.md): full-operator and domain-preservation requirements.
+
 ## Structural result (2026-11-11)
 
 - [P3 boundary symmetry](conditional-build/p3-symmetry-relative-domain-2026-11-11.md): equivariant domain changes, admissibility and residue constraints.
