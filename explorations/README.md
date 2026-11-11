@@ -6,6 +6,11 @@ updated_at: "2026-08-21"
 ---
 
 
+## Gauge and domain compatibility (2026-11-11)
+
+- [Moving gauge naturality](conditional-build/x-p1-p2-moving-gauge-naturality-2026-11-11.md): orbit-isotropy versus fixed-arrow compatibility.
+- [Green-form symmetry domains](conditional-build/p3-green-form-symmetry-domain-2026-11-11.md): four-sign classification and global circle obstruction.
+
 ## Structural transfer results (2026-11-11)
 
 - [Multiplicity weld](conditional-build/x-p1-p2-multiplicity-weld-2026-11-11.md): native commutant17, Gamma/j rigidity and complete sparse-support classification.

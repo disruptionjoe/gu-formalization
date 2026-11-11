@@ -16,6 +16,16 @@ Do not add "Current follow-through" sections or "Historical predecessor" stacks 
 matrix or bet file. The retired follow-through chain and banner stack are kept at the end of this file under
 "Archived steering history".
 
+## Gauge naturality and Green-domain compatibility (2026-11-11)
+
+X-P1-P2 constrained: moving gauge covariance classifies maps by background isotropy; fixed Gamma/j diagram compatibility is additional. Covariance, square and isometry together do not force it. Density-dual and affine connection transport retain the same distinction; no full-C weld or action witness.
+
+P3xsymmetry constrained: in the positive-Hilbert Dirac boundary subclass, Green-Lagrangian and antiunitary invariance have an exact four-sign classification; commuting quaternionic J requires zero-mode dimension divisible by4. A periodic real-family control passes every pointwise test but has no continuous invariant domain. No GU realization or chiral count.
+
+[Gauge result](explorations/conditional-build/x-p1-p2-moving-gauge-naturality-2026-11-11.md) · [Green-domain result](explorations/conditional-build/p3-green-form-symmetry-domain-2026-11-11.md).
+
+Source, physics ledger and class C remain unchanged. Current program_focus governs selection.
+
 ## Multiplicity and boundary symmetry transfer (2026-11-11)
 
 X-P1-P2 constrained: native full-support H-symbol control has multiplicity commutant C plus four Mat2 blocks (dimension17). Fixed extended Gamma/j reduce every coefficient stratum to C^c on a16-node support graph; connected strata give scalar uniqueness, with existence separate. Coflip square depends on component permutation; pairing proportionality additionally requires an H-equivariant ratio and common adjoints.

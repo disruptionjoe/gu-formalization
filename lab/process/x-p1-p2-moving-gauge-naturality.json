@@ -1,0 +1,51 @@
+{
+  "artifact": "X_P1_P2_MOVING_GAUGE_NATURALITY",
+  "program_target": "X-P1-P2",
+  "tier": "T2",
+  "claim_effect": "none",
+  "finite_supporting_checks": [
+    "normalized_trace_inclusion",
+    "transported_trace_inclusion",
+    "kernel_projector_idempotent",
+    "kernel_projector_rank",
+    "transported_projector",
+    "transported_kernel",
+    "form_degree_sign_covariant",
+    "trace_sign_anticommutator",
+    "inclusion_sign_anticommutator",
+    "isotropy_map",
+    "orbit_representative_independence",
+    "isotropy_antilinear",
+    "transported_antilinear_square",
+    "density_dual_ratio_transport",
+    "density_dual_pairing_invariance",
+    "full_covariant_derivative_transport",
+    "actual_section_covariance",
+    "actual_stabilizer_-1_-1",
+    "actual_stabilizer_-1_1",
+    "actual_stabilizer_1_-1",
+    "actual_stabilizer_1_1",
+    "coflip_square_and_isometry",
+    "moving_coflip_square_and_metric"
+  ],
+  "contrary_controls": [
+    "moving_trace_equals_fixed_trace",
+    "same_kernel_automatically_preserved",
+    "covariant_sign_is_trace_morphism",
+    "covariant_sign_is_same_symbol_symmetry",
+    "isotropy_implies_full_group_commutant",
+    "pairing_covariance_implies_arrow_adjoint_equality",
+    "naive_conjugation_is_density_dual",
+    "omit_connection_inhomogeneous_term",
+    "coflip_covariance_square_isometry_force_arrows",
+    "moving_coflip_becomes_diagram_morphism",
+    "moving_coflip_preserves_frozen_metric"
+  ],
+  "counts": {
+    "supporting": 23,
+    "contrary": 11
+  },
+  "proof": "Written orbit-isotropy, diagram-morphism and density-dual proofs; finite probes are controls only.",
+  "scope": "Declared associated-bundle category; no class-C action or source-certified full extension.",
+  "probe_sha256": "1b224180b6ffbd24fc4cb12ef6c1a968880d918c6b7644dbb5039cb2a030f558"
+}

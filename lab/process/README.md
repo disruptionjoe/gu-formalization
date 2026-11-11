@@ -6,6 +6,11 @@ updated_at: "2026-08-23"
 ---
 
 
+## Gauge and domain evidence (2026-11-11)
+
+- [Moving gauge naturality](x-p1-p2-moving-gauge-naturality.json): covariance, square, metric and arrow countercontrols.
+- [Green-form domains](p3-green-form-symmetry-domain.json): exact admissibility, relative representations and family controls.
+
 ## Structural transfer evidence (2026-11-11)
 
 - [Multiplicity weld](x-p1-p2-multiplicity-weld.json): exact native commutants and sparse controls.
