@@ -73,9 +73,22 @@
       "start_pointer": "CANON.md, theta-field-flrw-dark-energy-eos.md row (corrections DARK-ENERGY-02 to -06)",
       "kill_criterion": "Within the time box, every variant tried is either excluded at theta-star calibration (delta chi^2 >= +10 against DESI DR2 BAO) or has |w0 + 1| < 0.1 everywhere it is allowed.",
       "status": "active",
-      "runs_used": 0,
+      "runs_used": 1,
       "zero_delta_streak": 0,
-      "result": null
+      "result": {
+        "status": "active_with_conditional_numerical_result",
+        "actual_delta": "BET-COSMOLOGY active: two fixed speculative scalar potentials tested with initial-state acoustic calibration. Central BAO differences are44.89(EXP) and15.23(COS); an equal approximate matter-prior profile with sound-integral ruler ratios gives21.52 and4.13. COS remains nonmimic(w0=-0.84467) in this diagnostic, not a full-CMB or source-native realization. Canonical acoustic ordering and a uniform fixed-event raw sound-deficit bound below6e-6 Mpc are proved; no source, ledger or matrix verdict.",
+        "evidence": [
+          "explorations/conditional-build/bet-cosmology-fixed-potentials-2026-11-11.md",
+          "tests/program-focus/bet_cosmology_fixed_potentials_probe.py",
+          "lab/process/bet-cosmology-fixed-potentials.json"
+        ],
+        "guessed_action_variants": 2,
+        "remaining_runs": 23,
+        "matrix_or_ledger_effect": "none",
+        "full_cmb_consistency": "not_supplied",
+        "next_condition": "Supply joint CMB and perturbation/initial-state modeling on the same fixed potentials and declared state family before empirical acceptance; finite theta/BAO compressed-prior survivor is not full viability. No BAO coefficient tuning, quadratic-band repeat, all-root/global-profile assertion or lane-C-to-matrix transfer."
+      }
     }
   ],
   "closed_bets": []

@@ -6,6 +6,10 @@ updated_at: "2026-08-21"
 ---
 
 
+## BET-COSMOLOGY fixed potentials (2026-11-11)
+
+- [Result](conditional-build/bet-cosmology-fixed-potentials-2026-11-11.md): two speculative scalar actions, common acoustic/BAO calibration, nuisance-sensitive cosine survivor and analytic early-integral bounds.
+
 ## Native diagram and spectral-domain transfer (2026-11-11)
 
 - [Result 1](conditional-build/x-p1-p2-real-clifford-transfer-2026-11-11.md): actual K95 real-form and coflip transfer

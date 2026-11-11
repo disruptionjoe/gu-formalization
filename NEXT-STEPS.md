@@ -16,6 +16,14 @@ Do not add "Current follow-through" sections or "Historical predecessor" stacks 
 matrix or bet file. The retired follow-through chain and banner stack are kept at the end of this file under
 "Archived steering history".
 
+## BET-COSMOLOGY fixed potentials (2026-11-11)
+
+BET-COSMOLOGY active: two fixed speculative scalar potentials tested with initial-state acoustic calibration. Central BAO differences are44.89(EXP) and15.23(COS); an equal approximate matter-prior profile with sound-integral ruler ratios gives21.52 and4.13. COS remains nonmimic(w0=-0.84467) in this diagnostic, not a full-CMB or source-native realization. Canonical acoustic ordering and a uniform fixed-event raw sound-deficit bound below6e-6 Mpc are proved; no source, ledger or matrix verdict.
+
+[Result](explorations/conditional-build/bet-cosmology-fixed-potentials-2026-11-11.md) · [Numerical and analytic controls](tests/program-focus/bet_cosmology_fixed_potentials_probe.py) · [Evidence](lab/process/bet-cosmology-fixed-potentials.json).
+
+The bet remains active at1/24. Current program_focus governs selection.
+
 ## Native diagram and spectral-domain transfer (2026-11-11)
 
 X-P1-P2 refined: the actual K95 quaternionic fixed-vector kernel stabilizer is a real hyperbolic chiral family. It preserves the RS projector while moving Gamma/j and the Clifford plane; plane and fixed-slot projector stabilizers are incomparable. Same-square coflip freedom depends on the specified vector map.

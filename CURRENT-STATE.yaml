@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: e0188b82b0d41051c52fead268f947a73e5bb476
+revision_basis: ee64953402a39c24ba45a00c99d73a42eb5d8d4a
 program_focus:
   version: 2026-11-09-v1
   authority: joe_direct_chat_2026_11_09
@@ -26224,15 +26224,14 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
-  Follow program_focus.run_selection at the top of this file. Counter is11,
-  so LC-BETS selects the active bet with most time left. Native K95 projector
-  preservation has been separated from named Gamma/j and Clifford-plane
-  preservation, with both coflip vector-map cases checked. The clutched
-  elliptic Fourier category has a complete equivariant spectral-section
-  criterion and actual localized smoothing/Green repair; preserving the fixed
-  grading is a separate obstruction. These results constrain structural
-  categories, not a full class-C action or physical count. Consult the current
-  matrix and discovery-bet state; actual source diagram/end transfer remains.
+  Follow program_focus.run_selection at the top of this file. Counter is12;
+  the first BET-COSMOLOGY result retains a nonmimic cosine scalar state only
+  under a declared acoustic/BAO compressed-prior diagnostic. Full CMB,
+  perturbation/initial-state and source one-form-to-scalar bridges are absent.
+  Two fixed potentials, equal nuisance treatment, acoustic ordering and
+  early-integral bounds are recorded in the bet evidence. Matrix scientific
+  statuses are unchanged. Consult current matrix and discovery-bet records;
+  ordinary native structural selection resumes without importing lane-C data.
 
   Historical predecessor (not live):
   Reuse K2617 analytic compact-source interior uniqueness and explicit preparation-independent

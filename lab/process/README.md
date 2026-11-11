@@ -6,6 +6,10 @@ updated_at: "2026-08-23"
 ---
 
 
+## BET-COSMOLOGY evidence (2026-11-11)
+
+- [Evidence](bet-cosmology-fixed-potentials.json): fixed coefficients, calibrated initial states, full covariance, reproducible nuisance diagnostics and analytic controls; no full CMB or GU verdict.
+
 ## Native diagram and spectral-domain evidence (2026-11-11)
 
 - [Exact report 1](x-p1-p2-real-clifford-transfer.json): native Clifford projector and arrow controls
