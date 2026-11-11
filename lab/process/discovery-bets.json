@@ -49,9 +49,22 @@
       "external_context": "OpenAI announced an AI-generated existence proof for 4D pure Yang-Mills and QCD on 2026-10-26; it does not claim the mass gap and is unverified. Track it; do not build on it until it is public and checks out.",
       "kill_criterion": "Within the time box, the reduced quadratic operator has massless gauge modes for every guessed action tried, with the reduction typed (contraction, not projection).",
       "status": "active",
-      "runs_used": 0,
+      "runs_used": 1,
       "zero_delta_streak": 0,
-      "result": null
+      "result": {
+        "status": "active_with_conditional_structural_result",
+        "actual_delta": "BET-MASS-GAP active: one speculative observed compact curvature-square family retains a gapless transverse continuum at flat, trivial-exterior and parallel-neutral backgrounds. Static finite-energy source-free magnetic backgrounds on R3 are flat by virial; a genuine constant Cartan magnetic field is stationary but its neutral sector is gapless. Decaying potentials do not repair the threshold. No quantum mass-gap or GU verdict.",
+        "evidence": [
+          "explorations/conditional-build/bet-mass-gap-curvature-end-test-2026-11-11.md",
+          "tests/program-focus/bet_mass_gap_curvature_end_probe.py",
+          "lab/process/bet-mass-gap-curvature-end-test.json"
+        ],
+        "guessed_action_variants": 1,
+        "remaining_runs": 23,
+        "physical_quantum_gap": "not_supplied",
+        "matrix_or_ledger_effect": "none",
+        "next_condition": "A nontrivial stationary asymptotic background with no parallel neutral adjoint section, different geometry or an interacting quantum mechanism needs an actual reduced-domain stability/gap calculation. Finite-energy static source-free R3 backgrounds are flat; constant Cartan curvature retains a neutral continuum. These subset results do not exhaust MG1 or the source mechanism."
+      }
     },
     {
       "id": "BET-COSMOLOGY",

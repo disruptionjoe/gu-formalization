@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 60d5774cc0e8504382af02695c4578a9700afe86
+revision_basis: 0de009f2b5cb04f73eb44832bf01d15d5639c11f
 program_focus:
   version: 2026-11-09-v1
   authority: joe_direct_chat_2026_11_09
@@ -26224,13 +26224,15 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
-  Follow program_focus.run_selection at the top of this file. Counter is7.
-  X-P1-P2 requires actual diagram compatibility beyond moving gauge covariance;
-  square and isometry do not supply it. P3xsymmetry now includes Green-form
-  admissibility: commuting quaternionic symmetry needs zero-mode dimension
-  divisible by4 in the stated Dirac subclass, and pointwise allowed domains
-  need not glue around a parameter circle. No whole-C or physical-count
-  verdict. The current matrix and bet register retain the next selection.
+  Follow program_focus.run_selection at the top of this file. Counter is8.
+  BET-MASS-GAP used one run: one speculative compact observed curvature-square
+  family retains a gapless transverse continuum for flat, gauge-trivial ends
+  and parallel-neutral backgrounds. Static finite-energy source-free magnetic
+  backgrounds on R3 are flat; constant Cartan curvature stays neutral-gapless.
+  Different asymptotic dynamics or geometry require a distinct test.
+  This is classical quadratic evidence, not a quantum mass-gap or GU verdict.
+  X-P1-P2 and P3xsymmetry retain their gauge-diagram, Green-form and global
+  family requirements. Current matrix and bet records own fresh selection.
 
   Historical predecessor (not live):
   Reuse K2617 analytic compact-source interior uniqueness and explicit preparation-independent

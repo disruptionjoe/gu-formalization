@@ -6,6 +6,10 @@ updated_at: "2026-08-21"
 ---
 
 
+## Curvature-gap bet (2026-11-11)
+
+- [Curvature-square end test](conditional-build/bet-mass-gap-curvature-end-test-2026-11-11.md): transverse continuum and localized/decaying repair requirements.
+
 ## Gauge and domain compatibility (2026-11-11)
 
 - [Moving gauge naturality](conditional-build/x-p1-p2-moving-gauge-naturality-2026-11-11.md): orbit-isotropy versus fixed-arrow compatibility.
