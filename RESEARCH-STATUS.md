@@ -16,6 +16,14 @@ discovery bet (`lab/process/discovery-bets.json`). The K25xx--K2618 detector, pr
 results below are retained as conditional mathematics; that lane is no longer the default target. Sections
 below are dated results, newest first, and are not steering.
 
+## BET-2PLUS1 temporal and constrained observation (2026-11-11)
+
+BET-2PLUS1 active: actual first-time-jet reconstruction recovers the hidden normal sum at nonzero momentum with exact infrared conditioning. The held polarization has an explicit bounded literal-observation lift and positive massless evolution; its maximal original-mass survivor omits the scalar sector, has positive norm but gapless longitudinal spectrum, and fails generic spatial-mass transfer. Massless autonomous trace/scalar readouts do not equal original pure provenance sectors; mass mixes trace with its partner. No physical family count, guessed action or matrix/ledger verdict.
+
+[Time measurements](explorations/conditional-build/bet-2plus1-temporal-observation-2026-11-11.md) · [Constrained evolution](explorations/conditional-build/bet-2plus1-polarized-observed-evolution-2026-11-11.md) · [Exact evidence](lab/process/bet-2plus1-observation-jets.json).
+
+The bet remains active at2/24. Current program_focus governs selection.
+
 ## Native connection and essential-end constraints (2026-11-11)
 
 The complete K95 projector-compatible connection category retains a real

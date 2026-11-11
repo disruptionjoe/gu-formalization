@@ -24,22 +24,28 @@
       "routing_note": "Ordinary index and net-chirality calculations are controls only for this mechanism (GEOMETER-VS-PHYSICS-OBJECTS.md, generation/chirality row).",
       "kill_criterion": "Within the time box, no invariant separates the imposter sector from the true families, or the observation/quotient map from sectors to a realized count cannot be typed for any guessed action tried.",
       "status": "active",
-      "runs_used": 1,
+      "runs_used": 2,
       "zero_delta_streak": 0,
       "result": {
         "status": "active_with_conditional_structural_result",
-        "actual_delta": "BET-2PLUS1: all minimum pointwise linear trace/remainder separators require one added spinor channel and are output-isomorphic to pullback plus ambient trace. In the held K2236 realization this is the already-owned dynamic quotient; original evolution mixes trace, remainder and scalar sectors. Algebraic provenance is not conserved family content; bet remains active.",
+        "actual_delta": "BET-2PLUS1 active: actual first-time-jet reconstruction recovers the hidden normal sum at nonzero momentum with exact infrared conditioning. The held polarization has an explicit bounded literal-observation lift and positive massless evolution; its maximal original-mass survivor omits the scalar sector, has positive norm but gapless longitudinal spectrum, and fails generic spatial-mass transfer. Massless autonomous trace/scalar readouts do not equal original pure provenance sectors; mass mixes trace with its partner. No physical family count, guessed action or matrix/ledger verdict.",
         "evidence": [
+          "explorations/conditional-build/bet-2plus1-temporal-observation-2026-11-11.md",
+          "explorations/conditional-build/bet-2plus1-polarized-observed-evolution-2026-11-11.md",
+          "tests/program-focus/bet_2plus1_observation_jets_probe.py",
+          "lab/process/bet-2plus1-observation-jets.json"
+        ],
+        "prior_evidence": [
           "explorations/conditional-build/bet-2plus1-provenance-observation-2026-11-11.md",
           "tests/program-focus/bet_2plus1_provenance_probe.py",
           "lab/process/bet-2plus1-provenance-observation.json",
           "Lean/GUFormalization/ProvenanceMixing.lean"
         ],
         "guessed_action_variants": 0,
-        "remaining_runs": 23,
+        "remaining_runs": 22,
         "physical_count": "not_supplied",
         "matrix_or_ledger_effect": "none",
-        "next_condition": "For pointwise first-order refinement: a changed source-faithful operator/action or specified invariant physical subspace, with observation and quotient maps tested against actual principal mixing. Nonlocal, derivative-valued and different moving observations remain separate open routes. An output shear or dimension count cannot certify the held model."
+        "next_condition": "Compare the already-owned southeast-completed operator with an actual source/action-derived invariant constraint and full lower-term/observation closure retaining the scalar, trace and remainder roles. Do not repeat minimum separators, Fourier polarization, time-jet inverse or positive h=0 subsystem as if they supplied physical families. Variable spatial coefficients require actual constraint transport; no generic mass multiplication closure."
       }
     },
     {

@@ -6,6 +6,10 @@ updated_at: "2026-08-23"
 ---
 
 
+## BET-2PLUS1 observation evidence (2026-11-11)
+
+- [Exact evidence](bet-2plus1-observation-jets.json): original raw coefficients, time-jet Gram, polarized lift, original-mass propagation, spectra and contrary controls; no physical count.
+
 ## Connection and essential-end results (2026-11-11)
 
 - [Connection report](x-p1-p2-projector-connection.json): native and symbolic connection checks, period and coflip controls.

@@ -1,0 +1,336 @@
+{
+  "artifact": "BET_2PLUS1_OBSERVATION_JETS",
+  "program_target": "BET-2PLUS1",
+  "tier": "T2",
+  "status": "conditional_internal_result",
+  "checks": [
+    {
+      "name": "original_raw_hidden_column",
+      "kind": "supporting_exact"
+    },
+    {
+      "name": "Clifford_square",
+      "kind": "supporting_exact"
+    },
+    {
+      "name": "exact_full_residual_Gram",
+      "kind": "supporting_exact"
+    },
+    {
+      "name": "first_jet_left_inverse",
+      "kind": "supporting_exact"
+    },
+    {
+      "name": "residual_consistency_projector",
+      "kind": "supporting_exact"
+    },
+    {
+      "name": "zero_mode_first_jet_dark",
+      "kind": "contrary_exact"
+    },
+    {
+      "name": "changed_hidden_return_rejected",
+      "kind": "contrary_exact"
+    },
+    {
+      "name": "universal_square_zero_defect",
+      "kind": "supporting_exact"
+    },
+    {
+      "name": "uniform_nonzero_defect_block",
+      "kind": "supporting_exact"
+    },
+    {
+      "name": "universal_polarization_factor",
+      "kind": "supporting_exact"
+    },
+    {
+      "name": "factor_nilpotence",
+      "kind": "supporting_exact"
+    },
+    {
+      "name": "factor_surjectivity",
+      "kind": "supporting_exact"
+    },
+    {
+      "name": "factor_injective_first_block",
+      "kind": "supporting_exact"
+    },
+    {
+      "name": "parity_even_lift",
+      "kind": "supporting_exact"
+    },
+    {
+      "name": "literal_observation_lift",
+      "kind": "supporting_exact"
+    },
+    {
+      "name": "polarized_lift",
+      "kind": "supporting_exact"
+    },
+    {
+      "name": "observed_autonomous_intertwiner",
+      "kind": "supporting_exact"
+    },
+    {
+      "name": "observed_massless_wave_identity",
+      "kind": "supporting_exact"
+    },
+    {
+      "name": "full_observed_Euclidean_symmetrizer",
+      "kind": "supporting_exact"
+    },
+    {
+      "name": "observed_positive_metric_symmetry",
+      "kind": "supporting_exact"
+    },
+    {
+      "name": "observed_h_propagation",
+      "kind": "supporting_exact"
+    },
+    {
+      "name": "scalar_zero_principal_invariance",
+      "kind": "supporting_exact"
+    },
+    {
+      "name": "scalar_zero_Euclidean_symmetrizer",
+      "kind": "supporting_exact"
+    },
+    {
+      "name": "longitudinal_transverse_decomposition",
+      "kind": "supporting_exact"
+    },
+    {
+      "name": "faithful_Cl3_summand_1",
+      "kind": "supporting_exact"
+    },
+    {
+      "name": "faithful_Cl3_summand_-1",
+      "kind": "supporting_exact"
+    },
+    {
+      "name": "mass_algebra",
+      "kind": "supporting_exact"
+    },
+    {
+      "name": "mass_leakage_1_(1, 0, 0)",
+      "kind": "supporting_exact"
+    },
+    {
+      "name": "full_polarization_not_mass_invariant_1_(1, 0, 0)",
+      "kind": "contrary_exact"
+    },
+    {
+      "name": "mass_preserves_scalar_zero_1_(1, 0, 0)",
+      "kind": "supporting_exact"
+    },
+    {
+      "name": "massive_positive_generator_1_(1, 0, 0)",
+      "kind": "supporting_exact"
+    },
+    {
+      "name": "massless_trace_and_partner_1_(1, 0, 0)",
+      "kind": "supporting_exact"
+    },
+    {
+      "name": "mass_trace_partner_mixing_1_(1, 0, 0)",
+      "kind": "supporting_exact"
+    },
+    {
+      "name": "changed_scalar_mass_detected_1_(1, 0, 0)",
+      "kind": "contrary_exact"
+    },
+    {
+      "name": "mass_leakage_1_(3, 4, 0)",
+      "kind": "supporting_exact"
+    },
+    {
+      "name": "full_polarization_not_mass_invariant_1_(3, 4, 0)",
+      "kind": "contrary_exact"
+    },
+    {
+      "name": "mass_preserves_scalar_zero_1_(3, 4, 0)",
+      "kind": "supporting_exact"
+    },
+    {
+      "name": "massive_positive_generator_1_(3, 4, 0)",
+      "kind": "supporting_exact"
+    },
+    {
+      "name": "massless_trace_and_partner_1_(3, 4, 0)",
+      "kind": "supporting_exact"
+    },
+    {
+      "name": "mass_trace_partner_mixing_1_(3, 4, 0)",
+      "kind": "supporting_exact"
+    },
+    {
+      "name": "changed_scalar_mass_detected_1_(3, 4, 0)",
+      "kind": "contrary_exact"
+    },
+    {
+      "name": "mass_leakage_1_(1, 2, 3)",
+      "kind": "supporting_exact"
+    },
+    {
+      "name": "full_polarization_not_mass_invariant_1_(1, 2, 3)",
+      "kind": "contrary_exact"
+    },
+    {
+      "name": "mass_preserves_scalar_zero_1_(1, 2, 3)",
+      "kind": "supporting_exact"
+    },
+    {
+      "name": "massive_positive_generator_1_(1, 2, 3)",
+      "kind": "supporting_exact"
+    },
+    {
+      "name": "massless_trace_and_partner_1_(1, 2, 3)",
+      "kind": "supporting_exact"
+    },
+    {
+      "name": "mass_trace_partner_mixing_1_(1, 2, 3)",
+      "kind": "supporting_exact"
+    },
+    {
+      "name": "changed_scalar_mass_detected_1_(1, 2, 3)",
+      "kind": "contrary_exact"
+    },
+    {
+      "name": "mass_leakage_-1_(1, 0, 0)",
+      "kind": "supporting_exact"
+    },
+    {
+      "name": "full_polarization_not_mass_invariant_-1_(1, 0, 0)",
+      "kind": "contrary_exact"
+    },
+    {
+      "name": "mass_preserves_scalar_zero_-1_(1, 0, 0)",
+      "kind": "supporting_exact"
+    },
+    {
+      "name": "massive_positive_generator_-1_(1, 0, 0)",
+      "kind": "supporting_exact"
+    },
+    {
+      "name": "massless_trace_and_partner_-1_(1, 0, 0)",
+      "kind": "supporting_exact"
+    },
+    {
+      "name": "mass_trace_partner_mixing_-1_(1, 0, 0)",
+      "kind": "supporting_exact"
+    },
+    {
+      "name": "changed_scalar_mass_detected_-1_(1, 0, 0)",
+      "kind": "contrary_exact"
+    },
+    {
+      "name": "mass_leakage_-1_(3, 4, 0)",
+      "kind": "supporting_exact"
+    },
+    {
+      "name": "full_polarization_not_mass_invariant_-1_(3, 4, 0)",
+      "kind": "contrary_exact"
+    },
+    {
+      "name": "mass_preserves_scalar_zero_-1_(3, 4, 0)",
+      "kind": "supporting_exact"
+    },
+    {
+      "name": "massive_positive_generator_-1_(3, 4, 0)",
+      "kind": "supporting_exact"
+    },
+    {
+      "name": "massless_trace_and_partner_-1_(3, 4, 0)",
+      "kind": "supporting_exact"
+    },
+    {
+      "name": "mass_trace_partner_mixing_-1_(3, 4, 0)",
+      "kind": "supporting_exact"
+    },
+    {
+      "name": "changed_scalar_mass_detected_-1_(3, 4, 0)",
+      "kind": "contrary_exact"
+    },
+    {
+      "name": "mass_leakage_-1_(1, 2, 3)",
+      "kind": "supporting_exact"
+    },
+    {
+      "name": "full_polarization_not_mass_invariant_-1_(1, 2, 3)",
+      "kind": "contrary_exact"
+    },
+    {
+      "name": "mass_preserves_scalar_zero_-1_(1, 2, 3)",
+      "kind": "supporting_exact"
+    },
+    {
+      "name": "massive_positive_generator_-1_(1, 2, 3)",
+      "kind": "supporting_exact"
+    },
+    {
+      "name": "massless_trace_and_partner_-1_(1, 2, 3)",
+      "kind": "supporting_exact"
+    },
+    {
+      "name": "mass_trace_partner_mixing_-1_(1, 2, 3)",
+      "kind": "supporting_exact"
+    },
+    {
+      "name": "changed_scalar_mass_detected_-1_(1, 2, 3)",
+      "kind": "contrary_exact"
+    },
+    {
+      "name": "trace_projection_breaks_constraint",
+      "kind": "contrary_exact"
+    },
+    {
+      "name": "scalar_projection_breaks_constraint",
+      "kind": "contrary_exact"
+    },
+    {
+      "name": "massless_trace_readout",
+      "kind": "supporting_exact"
+    },
+    {
+      "name": "pure_trace_insertion_not_polarized",
+      "kind": "supporting_exact"
+    },
+    {
+      "name": "incoming_transverse_lift",
+      "kind": "supporting_exact"
+    },
+    {
+      "name": "momentum_shift_breaks_lift",
+      "kind": "contrary_exact"
+    },
+    {
+      "name": "infrared_residual_scaling",
+      "kind": "supporting_exact"
+    },
+    {
+      "name": "longitudinal_real_branches",
+      "kind": "supporting_exact"
+    },
+    {
+      "name": "transverse_relativistic_branches",
+      "kind": "supporting_exact"
+    },
+    {
+      "name": "nonzero_mass_not_a_spectral_gap",
+      "kind": "contrary_exact"
+    }
+  ],
+  "exact_residual_gram": "2225/12",
+  "dependency_sha256": {
+    "tests/channel-swings/k2236_raw_observation_closure_probe.py": "518595363870edeabdede488df004c97a5c81a1dfa7132f8532f38f7792970ef",
+    "tests/channel-swings/k2206_changed_raw_mass_construction_probe.py": "441f226b668ab31205f7ae0166a518b154e010f2f411b0556937d96fd285cce7",
+    "explorations/conditional-build/k2236-raw-observation-closure-2026-10-29.md": "f8e6591ae25d908b3fee77113c966ea896573108e863a9d19d5d0db5cd9b1bb1",
+    "explorations/conditional-build/k2034-observed-principal-forms-2026-10-24.md": "8232fa20e8352daaad177794de6f3a22094148e021dfdf4a22972519aba9e868",
+    "explorations/conditional-build/selected-k77-nonlocal-ultrahyperbolic-polarization-gate-2026-08-11.md": "58be734af39d60b0467235e00c406faa2c907dd432bdfc64c0bec2100dfee596",
+    "explorations/conditional-build/bet-2plus1-temporal-observation-2026-11-11.md": "dadef58c9ca3f1c3a8c7158edafeef799e7e28ee20e32628c04164ab0c3ef0ae",
+    "explorations/conditional-build/bet-2plus1-polarized-observed-evolution-2026-11-11.md": "33c0cf6d89b02bffc70ed6679083287e8b23c21a6cb481c672d70ca374da6365"
+  },
+  "probe_sha256": "32d652f3fa257feb729de4909399ae5f2853750f1e26b1e237c2d265bfa1f8fa",
+  "claim_ceiling": "No physical count, source-selected action/observation/constraint, matrix/ledger change or proof-assistant certification. Symbolic identities and finite controls supplement written universal Fourier/domain proofs."
+}

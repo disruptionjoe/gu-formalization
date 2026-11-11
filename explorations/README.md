@@ -6,6 +6,11 @@ updated_at: "2026-08-21"
 ---
 
 
+## BET-2PLUS1 observation transfer (2026-11-11)
+
+- [Actual time jets](conditional-build/bet-2plus1-temporal-observation-2026-11-11.md): exact inverse and infrared/history limits.
+- [Polarized observed evolution](conditional-build/bet-2plus1-polarized-observed-evolution-2026-11-11.md): bounded lift, positive massive survivor, gapless spectrum and provenance transfer.
+
 ## Connection and essential-end results (2026-11-11)
 
 - [K95 connection diagram](conditional-build/x-p1-p2-projector-connection-2026-11-11.md): full compatible category, global calibration and named-arrow rigidity.
