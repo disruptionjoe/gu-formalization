@@ -1,0 +1,60 @@
+{
+  "result": "K2619",
+  "checks": [
+    "actual_F_radial_symbol",
+    "actual_d_radial_symbol",
+    "actual_d_over_F",
+    "kappa_symbol_ratio",
+    "full_Einstein_radial_principal_tensor",
+    "positive_component_H_norm",
+    "radial_conserved_principal_tensor",
+    "trace_order_one",
+    "trace_injective_outer_collar_identity",
+    "full_source_norm_leading_ratio",
+    "positive_exact_profile_derivative_1",
+    "positive_exact_profile_derivative_11",
+    "positive_exact_profile_derivative_23",
+    "compact_profile_edge_jets",
+    "principal_profile_receiver_constant_nonzero",
+    "trace_unit_bank_exact_e_minus_four_squared",
+    "disjoint_bank_worst_direction",
+    "disjoint_bank_Gram",
+    "unit_receiver_signal_reciprocal",
+    "packed_bank_n_squared",
+    "summed_bank_squared_norm_n_fifth"
+  ],
+  "contrary_controls": [
+    "indefinite_contraction_not_sensor_norm",
+    "large_Gram_does_not_imply_small_receiver",
+    "full_source_and_trace_norms_are_not_identical",
+    "Frobenius_not_exact_disjoint_operator_norm",
+    "post_operator_cutoff_changes_test"
+  ],
+  "F_X5_k1": "224005433669517008830464/900866321093065",
+  "d_X5_k1": "-2605746313310516251459584/22521658027326625",
+  "d_over_F_k1": "-2090956/4493775",
+  "Einstein_radial_positive_norm_squared": "201/2",
+  "exact_principal_profile": {
+    "beta": "(1-x^2)^24 on [-1,1], zero outside; C23 benchmark only",
+    "derivative_squared_norms": {
+      "1": "158456325028528675187087900672/25204012470976337391317945475",
+      "11": "431400601687755792214450144627776941771980800/182568275710689562381",
+      "23": "173438243837846509768597003717013375986203035802009600000000/47"
+    },
+    "receiver_constant_squared_k1_Cchi1": "10224775374247234086256722703263929172/113095294529652779040171475"
+  },
+  "scalings": {
+    "raw_Gram": "epsilon^-21",
+    "trace_unit_Gram": "epsilon^-20",
+    "trace_unit_receiver_L2": "epsilon^-2",
+    "packed_disjoint_bank_operator_norm": "n^2",
+    "summed_squared_receiver_norm": "n^5"
+  },
+  "provenance": {
+    "lab/process/k2554-analytic-source-response.json": "6baae61e9e3deb87efa3d29db60994378d7278fb44194e20387710737500a8fa",
+    "lab/process/k2605-source-disjoint-pressure-response.json": "7d1b742e5cbc3875b3c6843df788c29fa99600ed0f3ba43cda602f8bd0f49807",
+    "explorations/conditional-build/k2617-interior-pressure-identifiability-2026-11-06.md": "b6a3a49d4ab9c049a2a856c1e03673432d1141c8bc49db314c07678bf5954570"
+  },
+  "evidence_kind": "exact actual symbols; exact finite-regularity principal-profile integrals and finite Riesz fixtures; universal smooth curved asymptotic proved in note",
+  "ceiling": "specified contact bank and declared auxiliary L2 noise; not optimal among receivers, physical energy or sensor access"
+}
