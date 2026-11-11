@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 67b7d27d82f9e0c9b58c9f3d1fc653e38090ad24
+revision_basis: 95ec9ce3c5fccda6f07c5c732b5744c6e69262da
 program_focus:
   version: 2026-11-09-v1
   authority: joe_direct_chat_2026_11_09
@@ -26224,14 +26224,14 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
-  Follow program_focus.run_selection at the top of this file. Counter is9.
-  P3global_index and P3variational now have structural constraints, with their
-  original analytic realization gates retained. Supported fibre K is free;
-  admissible relative symbol image and raw/ghost grading determine its residue.
-  Isolated generically invertible kinetics admit no nonzero local differential
-  gauge identity on arbitrary parameters; coupled systems need full-symbol
-  degeneracy. Mixed family twists can remain invisible to every numeric index.
-  No class-C or physical-count verdict; consult the current matrix.
+  Follow program_focus.run_selection at the top of this file. Counter is10.
+  P3 order/locality now has an all-completion criterion for the explicitly
+  fixed exterior symbol category. Actual coupled symbols and parameter images
+  remain distinct. The interval domain category has an exact bounded reduction:
+  auxiliary cancellation requires complementary endpoints. Family index retains
+  endpoint bundle classes even when every scalar index is zero. These are
+  structural constraints, not a class-C action or physical-family count.
+  Consult the current matrix; the original analytic realization gates remain.
 
   Historical predecessor (not live):
   Reuse K2617 analytic compact-source interior uniqueness and explicit preparation-independent

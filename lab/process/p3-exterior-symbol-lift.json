@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.0",
+  "artifact": "p3-exterior-symbol-lift",
+  "supporting_checks": [
+    "unique lower completion from independent first jets",
+    "completion equals induced exterior connection",
+    "zero jet leaves curvature commutator",
+    "arbitrary second jets cancel",
+    "nonconstant flat composition 0",
+    "nonconstant flat composition 1",
+    "nonconstant flat composition 2",
+    "nonflat identical symbol gives value obstruction",
+    "nonparallel control curvature",
+    "curvature kernel has constant rank one",
+    "truncated arbitrary parameter identity",
+    "local parallel section solves connection equation",
+    "flat holonomy is minus one"
+  ],
+  "contrary_controls": [
+    "changing lower correction breaks first jet",
+    "principal syzygy alone is insufficient",
+    "kernel coefficient subbundle not preserved",
+    "covariant curvature derivative rejects flat subbundle",
+    "local flat frame is not periodic"
+  ],
+  "claim_effect": "none",
+  "proof_scope": "Exact finite symbolic controls; all-completion and global proofs are in the note."
+}

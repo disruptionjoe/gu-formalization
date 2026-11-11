@@ -16,6 +16,20 @@ Do not add "Current follow-through" sections or "Historical predecessor" stacks 
 matrix or bet file. The retired follow-through chain and banner stack are kept at the end of this file under
 "Archived steering history".
 
+## Gauge lifts and auxiliary-domain families (2026-11-11)
+
+P3xorder_locality constrained: all lower-order completions of the fixed exterior compatibility symbols are uniquely the induced connection and require flat curvature; class C does not impose those symbols. A curvature-kernel parameter subbundle can support a truncated identity without a full parallel coefficient complex.
+
+P3xvariational refined: principal syzygies must lift through all differential coefficients on the actual parameter domain. Fixed exterior lifts, truncated restrictions and global flat holonomy now have exact criteria; no complete RS Hessian or BV action is supplied.
+
+P3xglobal_index refined: the entire interval endpoint-domain category reduces by bounded graph maps to U plus W mapping to V plus an identity pair. Cohomology cancels exactly for complementary endpoints, not merely when the scalar Euler index vanishes.
+
+X-P2-P3 refined: fixed differential-expression families have index class [U]+[W]-[V]. A Hopf endpoint family has zero numerical index everywhere but nonzero reduced family class; the orthogonal complementary endpoint family supplies a genuine contraction repair. No GU domain or physical-count inference.
+
+[Result 1](explorations/conditional-build/p3-exterior-symbol-lift-2026-11-11.md) · [Result 2](explorations/conditional-build/p3-auxiliary-domain-family-2026-11-11.md).
+
+Source, physics ledger0.263, class C and canon are unchanged. Current program_focus governs selection.
+
 ## Supported index, local gauge and family transfer (2026-11-11)
 
 P3xglobal_index constrained: K_c^0 of the metric fibre is a free integer with index-one local Bott pairing; ordinary twists act by rank, but boundary clutching and actual admissible symbol image determine the residue. Raw RS plus-one and ghost-subtracted minus-one classes, ambient grading and the K3-family base role stay distinct.

@@ -6,6 +6,11 @@ updated_at: "2026-08-23"
 ---
 
 
+## Gauge lifts and auxiliary-domain evidence (2026-11-11)
+
+- [Exact report 1](p3-exterior-symbol-lift.json): composition and curvature controls
+- [Exact report 2](p3-auxiliary-domain-family.json): endpoint, clutching, contraction and grading controls
+
 ## Supported index and local gauge evidence (2026-11-11)
 
 - [Exact report 1](p3-metric-fibre-supported-index.json): relative support and coefficient controls

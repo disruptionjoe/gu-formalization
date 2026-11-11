@@ -6,6 +6,11 @@ updated_at: "2026-08-21"
 ---
 
 
+## Gauge lifts and auxiliary domains (2026-11-11)
+
+- [Result 1](conditional-build/p3-exterior-symbol-lift-2026-11-11.md): all lower-order exterior completions, restricted parameters and holonomy
+- [Result 2](conditional-build/p3-auxiliary-domain-family-2026-11-11.md): exact closed-domain contraction and global endpoint-family obstruction
+
 ## Supported index and local gauge (2026-11-11)
 
 - [Result 1](conditional-build/p3-metric-fibre-supported-index-2026-11-11.md): P3xglobal_index constrained: K_c^0 of the metric fibre is a free integer with index-one local Bott pairing; ordinary twists act by rank, but boundary clutching and actual admissible symbol image determine the residue. Raw RS plus-one and ghost-subtracted minus-one classes, ambient grading and the K3-family base role stay distinct.

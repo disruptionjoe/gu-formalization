@@ -1,0 +1,43 @@
+{
+  "schema_version": "1.0",
+  "artifact": "p3-auxiliary-domain-family",
+  "supporting_checks": [
+    "free exact cohomology dimensions",
+    "free Euler index",
+    "mixed exact cohomology dimensions",
+    "mixed Euler index",
+    "relative exact cohomology dimensions",
+    "relative Euler index",
+    "same line exact cohomology dimensions",
+    "same line Euler index",
+    "complement exact cohomology dimensions",
+    "complement Euler index",
+    "oblique exact cohomology dimensions",
+    "oblique Euler index",
+    "input fluctuation has zero mean",
+    "graph reconstruction endpoints",
+    "graph reconstruction differential",
+    "graph reconstruction inverse",
+    "oblique inverse left endpoint",
+    "oblique inverse right endpoint",
+    "right contraction identity",
+    "left contraction identity",
+    "tautological clutching relation",
+    "fixed-line family has isolated rank drop",
+    "transition winding detects reduced class",
+    "complement family orthogonality",
+    "complement family determinant never zero",
+    "global projector idempotent and Hermitian",
+    "complement is projector kernel",
+    "family inverse domain endpoints",
+    "family inverse differential",
+    "ungraded pair is complementary"
+  ],
+  "contrary_controls": [
+    "zero scalar index leaves cohomology",
+    "pointwise zero index does not erase clutching",
+    "ungraded contraction does not preserve supplied grading"
+  ],
+  "claim_effect": "none",
+  "proof_scope": "Finite exact endpoint/projector/clutching controls; graph-space and family proofs are written separately."
+}
