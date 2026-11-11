@@ -6,6 +6,12 @@ updated_at: "2026-08-23"
 ---
 
 
+## Supported index and local gauge evidence (2026-11-11)
+
+- [Exact report 1](p3-metric-fibre-supported-index.json): relative support and coefficient controls
+- [Exact report 2](p3-rs-local-gauge-necessity.json): Clifford/locality and coupled controls
+- [Exact report 3](p3-family-index-mixed-twist.json): graded mixed-family controls
+
 ## Curvature-gap evidence (2026-11-11)
 
 - [Curvature end test](bet-mass-gap-curvature-end-test.json): exact contraction, Hessian, transverse and compact-function controls.

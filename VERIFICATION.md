@@ -17,6 +17,20 @@ External review is not a pathway in this program. The honesty label stays: inter
 
 Sections below are historical snapshots in file order.
 
+## Supported index, local gauge and family transfer (2026-11-11)
+
+P3xglobal_index constrained: K_c^0 of the metric fibre is a free integer with index-one local Bott pairing; ordinary twists act by rank, but boundary clutching and actual admissible symbol image determine the residue. Raw RS plus-one and ghost-subtracted minus-one classes, ambient grading and the K3-family base role stay distinct.
+
+P3xvariational constrained: an isolated generically invertible kinetic operator has no nonzero finite-order local linear gauge identity on unrestricted parameters, even with null characteristics. Coupled systems require the full-symbol Schur degeneracy and differential identity; no stabilized action or ghost count supplied.
+
+X-P2-P3 constrained: on the specified metric-fibre/torus product, family pushforward equals A u+B1 w; mixed odd fibre/base classes survive every pointwise numeric index test. An actual-bundle stabilization retains the effect. Rank-only transfer needs u=r and w=0 for all supported coefficients; no physical family realization.
+
+[Result 1](explorations/conditional-build/p3-metric-fibre-supported-index-2026-11-11.md) · [Result 2](explorations/conditional-build/p3-rs-local-gauge-necessity-2026-11-11.md) · [Result 3](explorations/conditional-build/p3-family-index-mixed-twist-2026-11-11.md).
+
+Source, physics ledger0.263, action class C and canon remain unchanged. Current program_focus governs selection.
+
+Validation:37 exact supporting checks and15 contrary controls; all three saved reports replay. Independent field specialists and hostile review checked universal proofs and scope. Initial null-control index placement and JSON-key replay mismatches were corrected before acceptance. No Lean, physical realization or external certification claimed.
+
 ## BET-MASS-GAP curvature and end test (2026-11-11)
 
 BET-MASS-GAP active: one speculative observed compact curvature-square family retains a gapless transverse continuum at flat, trivial-exterior and parallel-neutral backgrounds. Static finite-energy source-free magnetic backgrounds on R3 are flat by virial; a genuine constant Cartan magnetic field is stationary but its neutral sector is gapless. Decaying potentials do not repair the threshold. No quantum mass-gap or GU verdict.

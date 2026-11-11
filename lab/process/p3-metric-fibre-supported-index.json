@@ -1,0 +1,57 @@
+{
+  "artifact": "p3-metric-fibre-supported-index",
+  "grade": "exact finite supporting algebra; written universal proofs separate",
+  "supporting_checks": [
+    "cellular chain condition",
+    "degree-two cohomology has torsion two",
+    "top cohomology free",
+    "relative composition zero",
+    "relative kernel equals image integrally",
+    "connecting map hits generator one",
+    "ordinary ring action associative",
+    "sign line acts as identity",
+    "K3 source fixture full raw ghost",
+    "vertical raw residue differs from ghost"
+  ],
+  "contrary_controls": [
+    "forgetting reduced boundary coordinate loses index",
+    "constant boundary class does not generate relative index",
+    "tensor sign is not additive negative one",
+    "raw minus-one substitution detected",
+    "ambient raw coefficient is not vertical raw coefficient"
+  ],
+  "details": {
+    "relative_maps": {
+      "i": [
+        1,
+        0
+      ],
+      "delta": [
+        0,
+        1
+      ]
+    },
+    "K3_control": {
+      "full": -40,
+      "raw": -38,
+      "ghost": -42
+    },
+    "coefficient_models": {
+      "10": {
+        "full": 10,
+        "raw_shaped": 11,
+        "two_ghost_shaped": 9
+      },
+      "14": {
+        "full": 14,
+        "raw_shaped": 15,
+        "two_ghost_shaped": 13
+      }
+    },
+    "topological_assertions_not_certified_by_probe": [
+      "Bott and Thom isomorphisms",
+      "index normalization and excision",
+      "Spin-c and APS realization"
+    ]
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "artifact": "p3-rs-local-gauge-necessity",
+  "grade": "exact finite supporting algebra; written universal proofs separate",
+  "supporting_checks": [
+    "(1, 1, 1, 1) Clifford",
+    "(1, 1, 1, 1) projector and kernel",
+    "(1, 1, 1, 1)(1, 0, 0, 0) generic full constrained rank",
+    "(1, 1, 1, 1)(1, 2, 0, 0) generic full constrained rank",
+    "(1, 1, 1, -1) Clifford",
+    "(1, 1, 1, -1) projector and kernel",
+    "(1, 1, 1, -1)(1, 0, 0, 0) generic full constrained rank",
+    "(1, 1, 1, -1)(1, 2, 0, 0) generic full constrained rank",
+    "null characteristic witness remains nonzero",
+    "polynomial gauge degree0 has zero kernel",
+    "polynomial gauge degree1 has zero kernel",
+    "polynomial gauge degree2 has zero kernel",
+    "polynomial gauge degree3 has zero kernel",
+    "coupled repair with invertible diagonal",
+    "Schur complement vanishes"
+  ],
+  "contrary_controls": [
+    "null witness does not prove invertibility everywhere",
+    "characteristic restriction creates false global gauge",
+    "isolated block conclusion fails for coupled gauge",
+    "Schur mutation removes gauge identity"
+  ],
+  "details": {
+    "clifford_dimension": 4,
+    "signatures": [
+      "4,0",
+      "3,1"
+    ],
+    "null_control": {
+      "null_rank": 8,
+      "null_gauge_rank": 2
+    },
+    "polynomial_degrees": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "universal_proof": "highest-symbol polynomial identity and descending-order argument in note"
+  }
+}

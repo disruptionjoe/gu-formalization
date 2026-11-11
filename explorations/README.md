@@ -6,6 +6,12 @@ updated_at: "2026-08-21"
 ---
 
 
+## Supported index and local gauge (2026-11-11)
+
+- [Result 1](conditional-build/p3-metric-fibre-supported-index-2026-11-11.md): P3xglobal_index constrained: K_c^0 of the metric fibre is a free integer with index-one local Bott pairing; ordinary twists act by rank, but boundary clutching and actual admissible symbol image determine the residue. Raw RS plus-one and ghost-subtracted minus-one classes, ambient grading and the K3-family base role stay distinct.
+- [Result 2](conditional-build/p3-rs-local-gauge-necessity-2026-11-11.md): P3xvariational constrained: an isolated generically invertible kinetic operator has no nonzero finite-order local linear gauge identity on unrestricted parameters, even with null characteristics. Coupled systems require the full-symbol Schur degeneracy and differential identity; no stabilized action or ghost count supplied.
+- [Result 3](conditional-build/p3-family-index-mixed-twist-2026-11-11.md): X-P2-P3 constrained: on the specified metric-fibre/torus product, family pushforward equals A u+B1 w; mixed odd fibre/base classes survive every pointwise numeric index test. An actual-bundle stabilization retains the effect. Rank-only transfer needs u=r and w=0 for all supported coefficients; no physical family realization.
+
 ## Curvature-gap bet (2026-11-11)
 
 - [Curvature-square end test](conditional-build/bet-mass-gap-curvature-end-test-2026-11-11.md): transverse continuum and localized/decaying repair requirements.

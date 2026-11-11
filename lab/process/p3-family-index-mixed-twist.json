@@ -1,0 +1,40 @@
+{
+  "artifact": "p3-family-index-mixed-twist",
+  "grade": "exact finite supporting algebra; written universal proofs separate",
+  "supporting_checks": [
+    "circle products anticommute",
+    "circle squares vanish",
+    "mixed sign has two cancellations",
+    "untwisted family index zero",
+    "mixed family class nonzero",
+    "complete product (2, 3, 5, 7, 11, 13, 17, 19)",
+    "complete product (-1, 2, 3, -5, 7, 0, -2, 4)",
+    "complete product (0, 0, 1, 0, 0, 0, 0, 1)",
+    "nondegenerate odd pairing",
+    "stabilized virtual identity 1",
+    "stabilized virtual identity 7",
+    "pullback constant-rank repair"
+  ],
+  "contrary_controls": [
+    "rank-only formula loses mixed class",
+    "omitting mixed term (2, 3, 5, 7, 11, 13, 17, 19)",
+    "omitting mixed term (-1, 2, 3, -5, 7, 0, -2, 4)",
+    "omitting mixed term (0, 0, 1, 0, 0, 0, 0, 1)",
+    "nonconstant base twist also violates scalar rank",
+    "point evaluation misses reduced K class"
+  ],
+  "details": {
+    "generator_order": [
+      "x",
+      "beta7",
+      "a",
+      "b"
+    ],
+    "mixed_product": {
+      "12": 1
+    },
+    "formula": "A*u+B1*w",
+    "torsion": "eta terms handled by written Kunneth/torsion-free target proof",
+    "actual_bundle_realization": "stable existence proved in note, no small-rank construction asserted"
+  }
+}
