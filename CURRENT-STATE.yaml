@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: ee64953402a39c24ba45a00c99d73a42eb5d8d4a
+revision_basis: 36c6e3f0c875f846736a324b207d008ff19209fe
 program_focus:
   version: 2026-11-09-v1
   authority: joe_direct_chat_2026_11_09

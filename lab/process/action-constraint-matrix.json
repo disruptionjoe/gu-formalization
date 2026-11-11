@@ -381,7 +381,10 @@
       ],
       "question": "Does any action in class C host P1, P2 and P3 together?",
       "status": "open",
-      "evidence": []
+      "evidence": [],
+      "packet": "lab/process/work-packets/class-width-witness-check-2026-11-11.md",
+      "packet_step_status": "ready",
+      "next_run": "LB-CLASS: audit the two proposed class-width witnesses through this packet before further abstract joint-intersection refinement. Keep existing Tier-1 and discovery-bet precedence; do not alter C or infer a scientific result from preparation."
     }
   ],
   "lane_state": {
