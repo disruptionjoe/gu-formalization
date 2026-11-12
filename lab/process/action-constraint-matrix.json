@@ -203,44 +203,86 @@
     {
       "row": "P1",
       "column": "fields",
-      "status": "open",
-      "requirement": "",
-      "evidence": []
+      "status": "constrained",
+      "requirement": "For a subclass implementing an observed selector through an upstairs endomorphism, that endomorphism must preserve the actual observation/quotient kernel. Native literal 4+10 pullback has a full spinor-rank obstruction for gamma-trace/remainder provenance, while slotwise spinor chirality descends. Preserving that provenance by linear augmentation needs at least one spinor-sized extra output. Provenance is not weak chirality, and no physical family identification follows.",
+      "evidence": [
+        "explorations/conditional-build/p1-observation-descent-2026-11-11.md",
+        "tests/program-focus/matrix_remaining_constraints_probe.py",
+        "lab/process/matrix-remaining-constraints.json"
+      ],
+      "grade": "independently reviewed conditional structural theorem; no full class-C or physical realization decision",
+      "actual_delta": "P1xfields open->constrained: For a subclass implementing an observed selector through an upstairs endomorphism, that endomorphism must preserve the actual observation/quotient kernel. Native literal 4+10 pullback has a full spinor-rank obstruction for gamma-trace/remainder provenance, while slotwise spinor chirality descends. Preserving that provenance by linear augmentation needs at least one spinor-sized extra output. Provenance is not weak chirality, and no physical family identification follows.",
+      "next_run": "Test the actual proposed weak selector and its observed representation, rather than reusing ambient provenance labels or their already-known minimum augmentation."
     },
     {
       "row": "P1",
       "column": "symmetry",
-      "status": "open",
-      "requirement": "",
-      "evidence": []
+      "status": "constrained",
+      "requirement": "A nonzero one-sided observed weak action cannot admit a linear invertible symmetry exchanging observed left/right projectors and normalizing that same weak representation. The symmetry must descend through the actual quotient and preserve its background/domain/current identification. Ambient balance, antiparticle conjugation and covariance between backgrounds do not establish this fixed-background mirror symmetry.",
+      "evidence": [
+        "explorations/conditional-build/p1-observation-descent-2026-11-11.md",
+        "tests/program-focus/matrix_remaining_constraints_probe.py",
+        "lab/process/matrix-remaining-constraints.json"
+      ],
+      "grade": "independently reviewed conditional structural theorem; no full class-C or physical realization decision",
+      "actual_delta": "P1xsymmetry open->constrained: A nonzero one-sided observed weak action cannot admit a linear invertible symmetry exchanging observed left/right projectors and normalizing that same weak representation. The symmetry must descend through the actual quotient and preserve its background/domain/current identification. Ambient balance, antiparticle conjugation and covariance between backgrounds do not establish this fixed-background mirror symmetry.",
+      "next_run": "Identify the actual observed weak representation and mirror normalizer, including what external orientation or background breaks; do not infer it from equal bulk dimensions."
     },
     {
       "row": "P1",
       "column": "order_locality",
-      "status": "open",
-      "requirement": "",
-      "evidence": []
+      "status": "constrained",
+      "requirement": "For a proposed exact autonomous observed first-order sector, qD=dq requires both qA^mu=a^mu q and qB=a^mu partial_mu(q)+bq. Principal descent alone is insufficient. Constant-coefficient hidden elimination is polynomial exactly when det(E) divides every entry of B adj(E) C; analytic inverses and any asserted observed-order bound remain separate. Native locality does not require effective locality, and weak chirality does not require conserved massive chirality.",
+      "evidence": [
+        "explorations/conditional-build/p1-observation-descent-2026-11-11.md",
+        "tests/program-focus/matrix_remaining_constraints_probe.py",
+        "lab/process/matrix-remaining-constraints.json"
+      ],
+      "grade": "independently reviewed conditional structural theorem; no full class-C or physical realization decision",
+      "actual_delta": "P1xorder_locality open->constrained: For a proposed exact autonomous observed first-order sector, qD=dq requires both qA^mu=a^mu q and qB=a^mu partial_mu(q)+bq. Principal descent alone is insufficient. Constant-coefficient hidden elimination is polynomial exactly when det(E) divides every entry of B adj(E) C; analytic inverses and any asserted observed-order bound remain separate. Native locality does not require effective locality, and weak chirality does not require conserved massive chirality.",
+      "next_run": "Apply the full moving-observation coefficient equations to an actual proposed autonomous sector, or test the intended effective reduction with its own locality/domain contract."
     },
     {
       "row": "P1",
       "column": "domain_boundary",
-      "status": "open",
-      "requirement": "",
-      "evidence": []
+      "status": "constrained",
+      "requirement": "A proposed graded closed realization requires a trace intertwiner and invariance of the actual trace domain. In the declared positive-Hilbert spectral zero-space category, an anticommuting linear grading permits exactly U=A(2P-I); a commuting grading requires unitary equivalence of its signed eigenbundles. Formal bulk grading alone is insufficient. The auxiliary Green category is not automatically a native indefinite GU domain.",
+      "evidence": [
+        "explorations/conditional-build/p1-p2-domain-index-2026-11-11.md",
+        "tests/program-focus/matrix_remaining_constraints_probe.py",
+        "lab/process/matrix-remaining-constraints.json"
+      ],
+      "grade": "independently reviewed conditional structural theorem; no full class-C or physical realization decision",
+      "actual_delta": "P1xdomain_boundary open->constrained: A proposed graded closed realization requires a trace intertwiner and invariance of the actual trace domain. In the declared positive-Hilbert spectral zero-space category, an anticommuting linear grading permits exactly U=A(2P-I); a commuting grading requires unitary equivalence of its signed eigenbundles. Formal bulk grading alone is insufficient. The auxiliary Green category is not automatically a native indefinite GU domain.",
+      "next_run": "Check whether the actual observed grading, trace and nonzero spectral components satisfy the hypotheses; do not assume positivity or extrapolate finite Green data to a GU end."
     },
     {
       "row": "P1",
       "column": "variational",
-      "status": "open",
-      "requirement": "",
-      "evidence": []
+      "status": "constrained",
+      "requirement": "Literal off-shell Hermitian quadratic descent through a noninjective observation quotient requires its hidden test sections to lie in the Hessian radical; equivalently H=q-dagger h q with stated density pairings. Eliminating hidden equations is a distinct Schur operation, with polynomial cancellation and analytic inverse burdens. Neither ambient pairing nondegeneracy nor failure of literal quotient descent excludes an effective observed theory.",
+      "evidence": [
+        "explorations/conditional-build/p1-observation-descent-2026-11-11.md",
+        "tests/program-focus/matrix_remaining_constraints_probe.py",
+        "lab/process/matrix-remaining-constraints.json"
+      ],
+      "grade": "independently reviewed conditional structural theorem; no full class-C or physical realization decision",
+      "actual_delta": "P1xvariational open->constrained: Literal off-shell Hermitian quadratic descent through a noninjective observation quotient requires its hidden test sections to lie in the Hessian radical; equivalently H=q-dagger h q with stated density pairings. Eliminating hidden equations is a distinct Schur operation, with polynomial cancellation and analytic inverse burdens. Neither ambient pairing nondegeneracy nor failure of literal quotient descent excludes an effective observed theory.",
+      "next_run": "Distinguish literal quotient, constrained reduction and hidden elimination on the actual action dual; verify the relevant radical or inverse rather than importing an auxiliary form."
     },
     {
       "row": "P1",
       "column": "global_index",
-      "status": "open",
-      "requirement": "",
-      "evidence": []
+      "status": "constrained",
+      "requirement": "Only for an index-mediated realization with a surjective compatible Fredholm observation complex, total index equals hidden plus observed index. Zero total permits nonzero observed index with opposite hidden compensation; acyclic hidden removal preserves index. One-sided weak coupling need not have a nonzero Fredholm index, and pointwise pullback is not the required complex/domain map.",
+      "evidence": [
+        "explorations/conditional-build/p1-p2-domain-index-2026-11-11.md",
+        "tests/program-focus/matrix_remaining_constraints_probe.py",
+        "lab/process/matrix-remaining-constraints.json"
+      ],
+      "grade": "independently reviewed conditional structural theorem; no full class-C or physical realization decision",
+      "actual_delta": "P1xglobal_index open->constrained: Only for an index-mediated realization with a surjective compatible Fredholm observation complex, total index equals hidden plus observed index. Zero total permits nonzero observed index with opposite hidden compensation; acyclic hidden removal preserves index. One-sided weak coupling need not have a nonzero Fredholm index, and pointwise pullback is not the required complex/domain map.",
+      "next_run": "Supply the actual hidden/observed chain maps and domains if an index-mediated mechanism is proposed; otherwise do not impose an ordinary index on weak chirality."
     },
     {
       "row": "P2",
@@ -272,30 +314,58 @@
     {
       "row": "P2",
       "column": "order_locality",
-      "status": "open",
-      "requirement": "",
-      "evidence": []
+      "status": "constrained",
+      "requirement": "A first-order anti-linear coflip must obey both principal intertwining and the complete lower-order derivative equation. For fixed operator pairs with injective covector-to-operator map, scalar ratios of complete coflips are locally constant; variable ratios require the unique zero-order target correction -p^-1 sigma(dp). Natural/action/real admissibility of that correction remains separate; C permits nonparallel covariant arrows.",
+      "evidence": [
+        "explorations/conditional-build/p2-phase-variational-2026-11-11.md",
+        "tests/program-focus/matrix_remaining_constraints_probe.py",
+        "lab/process/matrix-remaining-constraints.json"
+      ],
+      "grade": "independently reviewed conditional structural theorem; no full class-C or physical realization decision",
+      "actual_delta": "P2xorder_locality open->constrained: A first-order anti-linear coflip must obey both principal intertwining and the complete lower-order derivative equation. For fixed operator pairs with injective covector-to-operator map, scalar ratios of complete coflips are locally constant; variable ratios require the unique zero-order target correction -p^-1 sigma(dp). Natural/action/real admissibility of that correction remains separate; C permits nonparallel covariant arrows.",
+      "next_run": "Identify the actual native P2 coflip and full source/target coefficients, then evaluate the derivative residual; do not equate covariance with parallelism."
     },
     {
       "row": "P2",
       "column": "domain_boundary",
-      "status": "open",
-      "requirement": "",
-      "evidence": []
+      "status": "constrained",
+      "requirement": "If the actual P2 operation is a chiral conjugation c_theta=exp(i theta Gamma)c in the declared positive Green category, a fixed maximal zero-space domain works for all theta exactly when it preserves Gamma. Transported domains are a different claim; antiunitary reality may further restrict phases. The native phase-operation and trace-domain identifications remain unproved.",
+      "evidence": [
+        "explorations/conditional-build/p1-p2-domain-index-2026-11-11.md",
+        "tests/program-focus/matrix_remaining_constraints_probe.py",
+        "lab/process/matrix-remaining-constraints.json"
+      ],
+      "grade": "independently reviewed conditional structural theorem; no full class-C or physical realization decision",
+      "actual_delta": "P2xdomain_boundary open->constrained: If the actual P2 operation is a chiral conjugation c_theta=exp(i theta Gamma)c in the declared positive Green category, a fixed maximal zero-space domain works for all theta exactly when it preserves Gamma. Transported domains are a different claim; antiunitary reality may further restrict phases. The native phase-operation and trace-domain identifications remain unproved.",
+      "next_run": "Identify the actual P2 normal-symbol operation, real structure and common domain; do not transfer the conjugation result to unrelated scalar phases or native indefinite ends."
     },
     {
       "row": "P2",
       "column": "variational",
-      "status": "open",
-      "requirement": "",
-      "evidence": []
+      "status": "constrained",
+      "requirement": "A P2 phase inferred from variationality must use the actual density-dual block and grading. For a fixed nondegenerate Hermitian pairing and epsilon-adjoint first-order block, complete coefficient equations apply; scalar principal dressings are real and variable real dressing requires half the symbol derivative plus an epsilon-adjoint zero-order remainder. Independent-bar/coupled blocks do not inherit that restriction without a proved block/pairing bridge.",
+      "evidence": [
+        "explorations/conditional-build/p2-phase-variational-2026-11-11.md",
+        "tests/program-focus/matrix_remaining_constraints_probe.py",
+        "lab/process/matrix-remaining-constraints.json"
+      ],
+      "grade": "independently reviewed conditional structural theorem; no full class-C or physical realization decision",
+      "actual_delta": "P2xvariational open->constrained: A P2 phase inferred from variationality must use the actual density-dual block and grading. For a fixed nondegenerate Hermitian pairing and epsilon-adjoint first-order block, complete coefficient equations apply; scalar principal dressings are real and variable real dressing requires half the symbol derivative plus an epsilon-adjoint zero-order remainder. Independent-bar/coupled blocks do not inherit that restriction without a proved block/pairing bridge.",
+      "next_run": "Determine which actual action dual and fermionic parity convention constrain P2, separating coflip phase from kinetic multiplier and native Krein form from action pairing."
     },
     {
       "row": "P2",
       "column": "global_index",
-      "status": "open",
-      "requirement": "",
-      "evidence": []
+      "status": "constrained",
+      "requirement": "A global boundedly invertible codomain automorphism preserves the entire supplied continuous Fredholm family index, including a scalar phase with nonzero winding. A claimed P2-to-index consequence must therefore identify an operator/domain/end/grading or nontrivial gluing change beyond such an automorphism. This does not fix the initial index or supply a GU Fredholm family.",
+      "evidence": [
+        "explorations/conditional-build/p1-p2-domain-index-2026-11-11.md",
+        "tests/program-focus/matrix_remaining_constraints_probe.py",
+        "lab/process/matrix-remaining-constraints.json"
+      ],
+      "grade": "independently reviewed conditional structural theorem; no full class-C or physical realization decision",
+      "actual_delta": "P2xglobal_index open->constrained: A global boundedly invertible codomain automorphism preserves the entire supplied continuous Fredholm family index, including a scalar phase with nonzero winding. A claimed P2-to-index consequence must therefore identify an operator/domain/end/grading or nontrivial gluing change beyond such an automorphism. This does not fix the initial index or supply a GU Fredholm family.",
+      "next_run": "Evaluate the actual phase action on the full family and gluing, distinguishing it from one coupled block and retaining domain/asymptotic data."
     }
   ],
   "intersections": [
@@ -387,9 +457,11 @@
         "lab/process/p3-gauge-domain-stabilizer.json",
         "explorations/conditional-build/p3-essential-end-domain-2026-11-11.md",
         "tests/program-focus/p3_essential_end_domain_probe.py",
-        "lab/process/p3-essential-end-domain.json"
+        "lab/process/p3-essential-end-domain.json",
+        "explorations/conditional-build/p1-p2-domain-index-2026-11-11.md",
+        "lab/process/matrix-remaining-constraints.json"
       ],
-      "known": "X-P2-P3 refined: the massless B5 gauge quotient retains the end singular sequence; this forces infinite kernel or nonclosed range, without computing cohomology or a count. Arbitrary scalar shifts and the radial-connection family concern the full fold only, not an unproved deformed gauge complex.",
+      "known": "X-P2-P3 refined: the massless B5 gauge quotient retains the end singular sequence; this forces infinite kernel or nonclosed range, without computing cohomology or a count. Arbitrary scalar shifts and the radial-connection family concern the full fold only, not an unproved deformed gauge complex. Whole-family refinement: globally invertible full codomain phase preserves the K-index bundle even with winding; this does not cover partial-block, domain, grading or nontrivial gluing changes.",
       "requirement": "Keep whole-operator phase, closed Fredholm domain and parameter bundle fixed. Pointwise index equality is insufficient for a global family class; control mixed fibre/base twisting and continuous Fredholm-family transport. Boundary-bundle variation alone can carry a nontrivial family class even with fixed differential expression and every numerical index zero. A fixed local symbol does not fix global symmetry-compatible spectral domains. The exact Fourier-family obstruction is representation-valued; repair must preserve the demanded grading and Green data. Fixed-domain multiplier stabilizers and extendible bulk gauge transformations must be checked separately: all offset Fourier cuts have D_k U(r) D_k^-1 stabilizer, while the actual auxiliary metric-fibre end has a mixed odd-K obstruction to stable bulk extension invisible to determinant. In the untwisted product-spin category, mixed integer detection has minimum coefficient rank5; below that, the explicit rank3 characteristic map has zero stable class yet no bulk extension. A commuting same-base real/quaternionic coefficient structure forces b=0; nontrivial bundles and base-covering coflips require separate transfer. Local symbol phase and closed boundary polarization do not establish Fredholmness: the actual B5 massless quotient by the closed full gauge range retains a separated compact-core singular sequence.",
       "structural_route": "For the structurally defined subfamily admitting a fixed closed graded Fredholm realization and whole-operator invertible scalar rescaling, the index is unchanged. Commensurable domains change index by their relative dimension; noncompact fixed-symbol lower-order changes need separate Fredholm control.",
       "next_run": "Identify a source-appropriate asymptotic/domain mechanism or actual observation quotient removing the exhibited transverse channels; no complete physical index follows from symbol phase alone.",
@@ -422,7 +494,7 @@
   "lane_state": {
     "LB-MATRIX": {
       "zero_delta_streak": 0,
-      "runs": 9,
+      "runs": 10,
       "status": "open"
     },
     "LB-CLASS": {
@@ -831,11 +903,151 @@
       ],
       "claim_effect": "none; conditional structural constraints, no class/source/ledger verdict",
       "review": "Independent field specialists and distinct hostile review; universal proofs separated from polynomial identities and exact supporting/contrary controls."
+    },
+    {
+      "date": "2026-11-11",
+      "target": "P1xfields",
+      "previous_status": "open",
+      "status": "constrained",
+      "actual_delta": "P1xfields open->constrained: For a subclass implementing an observed selector through an upstairs endomorphism, that endomorphism must preserve the actual observation/quotient kernel. Native literal 4+10 pullback has a full spinor-rank obstruction for gamma-trace/remainder provenance, while slotwise spinor chirality descends. Preserving that provenance by linear augmentation needs at least one spinor-sized extra output. Provenance is not weak chirality, and no physical family identification follows.",
+      "evidence": [
+        "explorations/conditional-build/p1-observation-descent-2026-11-11.md",
+        "tests/program-focus/matrix_remaining_constraints_probe.py",
+        "lab/process/matrix-remaining-constraints.json"
+      ],
+      "claim_effect": "none; conditional requirements, source/physics ledger/class/canon unchanged",
+      "review": "Independent mathematical cross-review and final hostile scope review; written proofs plus exact supporting/contrary controls."
+    },
+    {
+      "date": "2026-11-11",
+      "target": "P1xsymmetry",
+      "previous_status": "open",
+      "status": "constrained",
+      "actual_delta": "P1xsymmetry open->constrained: A nonzero one-sided observed weak action cannot admit a linear invertible symmetry exchanging observed left/right projectors and normalizing that same weak representation. The symmetry must descend through the actual quotient and preserve its background/domain/current identification. Ambient balance, antiparticle conjugation and covariance between backgrounds do not establish this fixed-background mirror symmetry.",
+      "evidence": [
+        "explorations/conditional-build/p1-observation-descent-2026-11-11.md",
+        "tests/program-focus/matrix_remaining_constraints_probe.py",
+        "lab/process/matrix-remaining-constraints.json"
+      ],
+      "claim_effect": "none; conditional requirements, source/physics ledger/class/canon unchanged",
+      "review": "Independent mathematical cross-review and final hostile scope review; written proofs plus exact supporting/contrary controls."
+    },
+    {
+      "date": "2026-11-11",
+      "target": "P1xorder_locality",
+      "previous_status": "open",
+      "status": "constrained",
+      "actual_delta": "P1xorder_locality open->constrained: For a proposed exact autonomous observed first-order sector, qD=dq requires both qA^mu=a^mu q and qB=a^mu partial_mu(q)+bq. Principal descent alone is insufficient. Constant-coefficient hidden elimination is polynomial exactly when det(E) divides every entry of B adj(E) C; analytic inverses and any asserted observed-order bound remain separate. Native locality does not require effective locality, and weak chirality does not require conserved massive chirality.",
+      "evidence": [
+        "explorations/conditional-build/p1-observation-descent-2026-11-11.md",
+        "tests/program-focus/matrix_remaining_constraints_probe.py",
+        "lab/process/matrix-remaining-constraints.json"
+      ],
+      "claim_effect": "none; conditional requirements, source/physics ledger/class/canon unchanged",
+      "review": "Independent mathematical cross-review and final hostile scope review; written proofs plus exact supporting/contrary controls."
+    },
+    {
+      "date": "2026-11-11",
+      "target": "P1xdomain_boundary",
+      "previous_status": "open",
+      "status": "constrained",
+      "actual_delta": "P1xdomain_boundary open->constrained: A proposed graded closed realization requires a trace intertwiner and invariance of the actual trace domain. In the declared positive-Hilbert spectral zero-space category, an anticommuting linear grading permits exactly U=A(2P-I); a commuting grading requires unitary equivalence of its signed eigenbundles. Formal bulk grading alone is insufficient. The auxiliary Green category is not automatically a native indefinite GU domain.",
+      "evidence": [
+        "explorations/conditional-build/p1-p2-domain-index-2026-11-11.md",
+        "tests/program-focus/matrix_remaining_constraints_probe.py",
+        "lab/process/matrix-remaining-constraints.json"
+      ],
+      "claim_effect": "none; conditional requirements, source/physics ledger/class/canon unchanged",
+      "review": "Independent mathematical cross-review and final hostile scope review; written proofs plus exact supporting/contrary controls."
+    },
+    {
+      "date": "2026-11-11",
+      "target": "P1xvariational",
+      "previous_status": "open",
+      "status": "constrained",
+      "actual_delta": "P1xvariational open->constrained: Literal off-shell Hermitian quadratic descent through a noninjective observation quotient requires its hidden test sections to lie in the Hessian radical; equivalently H=q-dagger h q with stated density pairings. Eliminating hidden equations is a distinct Schur operation, with polynomial cancellation and analytic inverse burdens. Neither ambient pairing nondegeneracy nor failure of literal quotient descent excludes an effective observed theory.",
+      "evidence": [
+        "explorations/conditional-build/p1-observation-descent-2026-11-11.md",
+        "tests/program-focus/matrix_remaining_constraints_probe.py",
+        "lab/process/matrix-remaining-constraints.json"
+      ],
+      "claim_effect": "none; conditional requirements, source/physics ledger/class/canon unchanged",
+      "review": "Independent mathematical cross-review and final hostile scope review; written proofs plus exact supporting/contrary controls."
+    },
+    {
+      "date": "2026-11-11",
+      "target": "P1xglobal_index",
+      "previous_status": "open",
+      "status": "constrained",
+      "actual_delta": "P1xglobal_index open->constrained: Only for an index-mediated realization with a surjective compatible Fredholm observation complex, total index equals hidden plus observed index. Zero total permits nonzero observed index with opposite hidden compensation; acyclic hidden removal preserves index. One-sided weak coupling need not have a nonzero Fredholm index, and pointwise pullback is not the required complex/domain map.",
+      "evidence": [
+        "explorations/conditional-build/p1-p2-domain-index-2026-11-11.md",
+        "tests/program-focus/matrix_remaining_constraints_probe.py",
+        "lab/process/matrix-remaining-constraints.json"
+      ],
+      "claim_effect": "none; conditional requirements, source/physics ledger/class/canon unchanged",
+      "review": "Independent mathematical cross-review and final hostile scope review; written proofs plus exact supporting/contrary controls."
+    },
+    {
+      "date": "2026-11-11",
+      "target": "P2xorder_locality",
+      "previous_status": "open",
+      "status": "constrained",
+      "actual_delta": "P2xorder_locality open->constrained: A first-order anti-linear coflip must obey both principal intertwining and the complete lower-order derivative equation. For fixed operator pairs with injective covector-to-operator map, scalar ratios of complete coflips are locally constant; variable ratios require the unique zero-order target correction -p^-1 sigma(dp). Natural/action/real admissibility of that correction remains separate; C permits nonparallel covariant arrows.",
+      "evidence": [
+        "explorations/conditional-build/p2-phase-variational-2026-11-11.md",
+        "tests/program-focus/matrix_remaining_constraints_probe.py",
+        "lab/process/matrix-remaining-constraints.json"
+      ],
+      "claim_effect": "none; conditional requirements, source/physics ledger/class/canon unchanged",
+      "review": "Independent mathematical cross-review and final hostile scope review; written proofs plus exact supporting/contrary controls."
+    },
+    {
+      "date": "2026-11-11",
+      "target": "P2xdomain_boundary",
+      "previous_status": "open",
+      "status": "constrained",
+      "actual_delta": "P2xdomain_boundary open->constrained: If the actual P2 operation is a chiral conjugation c_theta=exp(i theta Gamma)c in the declared positive Green category, a fixed maximal zero-space domain works for all theta exactly when it preserves Gamma. Transported domains are a different claim; antiunitary reality may further restrict phases. The native phase-operation and trace-domain identifications remain unproved.",
+      "evidence": [
+        "explorations/conditional-build/p1-p2-domain-index-2026-11-11.md",
+        "tests/program-focus/matrix_remaining_constraints_probe.py",
+        "lab/process/matrix-remaining-constraints.json"
+      ],
+      "claim_effect": "none; conditional requirements, source/physics ledger/class/canon unchanged",
+      "review": "Independent mathematical cross-review and final hostile scope review; written proofs plus exact supporting/contrary controls."
+    },
+    {
+      "date": "2026-11-11",
+      "target": "P2xvariational",
+      "previous_status": "open",
+      "status": "constrained",
+      "actual_delta": "P2xvariational open->constrained: A P2 phase inferred from variationality must use the actual density-dual block and grading. For a fixed nondegenerate Hermitian pairing and epsilon-adjoint first-order block, complete coefficient equations apply; scalar principal dressings are real and variable real dressing requires half the symbol derivative plus an epsilon-adjoint zero-order remainder. Independent-bar/coupled blocks do not inherit that restriction without a proved block/pairing bridge.",
+      "evidence": [
+        "explorations/conditional-build/p2-phase-variational-2026-11-11.md",
+        "tests/program-focus/matrix_remaining_constraints_probe.py",
+        "lab/process/matrix-remaining-constraints.json"
+      ],
+      "claim_effect": "none; conditional requirements, source/physics ledger/class/canon unchanged",
+      "review": "Independent mathematical cross-review and final hostile scope review; written proofs plus exact supporting/contrary controls."
+    },
+    {
+      "date": "2026-11-11",
+      "target": "P2xglobal_index",
+      "previous_status": "open",
+      "status": "constrained",
+      "actual_delta": "P2xglobal_index open->constrained: A global boundedly invertible codomain automorphism preserves the entire supplied continuous Fredholm family index, including a scalar phase with nonzero winding. A claimed P2-to-index consequence must therefore identify an operator/domain/end/grading or nontrivial gluing change beyond such an automorphism. This does not fix the initial index or supply a GU Fredholm family.",
+      "evidence": [
+        "explorations/conditional-build/p1-p2-domain-index-2026-11-11.md",
+        "tests/program-focus/matrix_remaining_constraints_probe.py",
+        "lab/process/matrix-remaining-constraints.json"
+      ],
+      "claim_effect": "none; conditional requirements, source/physics ledger/class/canon unchanged",
+      "review": "Independent mathematical cross-review and final hostile scope review; written proofs plus exact supporting/contrary controls."
     }
   ],
   "program_run_counter": {
     "since": "2026-11-09",
-    "count": 16,
+    "count": 17,
     "rule": "Every hourly run increments this in its postflight, whatever its lane. Lane C runs when count % 4 == 3 before the increment."
   },
   "working_rule": "Cells are worked at the structure level: a requirement must hold for every action in class C or for a structurally defined subfamily. No cell is worked by writing down a specific action, and no gated cell is worked by building its gate object. See CURRENT-STATE.yaml program_focus.structure_not_specifics."

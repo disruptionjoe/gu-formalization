@@ -1,0 +1,558 @@
+{
+  "schema_version": "1.0",
+  "program_target": "P1/P2 remaining ten matrix cells",
+  "tier": "T2",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "claim_ceiling": "Conditional structural requirements only; no full-C decision, native realization, physical prediction or ledger move",
+  "evidence_kind": "universal written proofs separate from exact finite supporting/contrary controls; native128 controls use bounded Gaussian-integer arithmetic without numerical tolerance",
+  "checks": [
+    {
+      "name": "actual split signatures",
+      "group": "native_observation_and_mirror",
+      "kind": "exact_supporting",
+      "passed": true
+    },
+    {
+      "name": "all entries Gaussian integer",
+      "group": "native_observation_and_mirror",
+      "kind": "exact_supporting",
+      "passed": true
+    },
+    {
+      "name": "native Clifford squares",
+      "group": "native_observation_and_mirror",
+      "kind": "exact_supporting",
+      "passed": true
+    },
+    {
+      "name": "horizontal insertion normalization",
+      "group": "native_observation_and_mirror",
+      "kind": "exact_supporting",
+      "passed": true
+    },
+    {
+      "name": "normal insertion normalization",
+      "group": "native_observation_and_mirror",
+      "kind": "exact_supporting",
+      "passed": true
+    },
+    {
+      "name": "ambient trace projector numerator identity",
+      "group": "native_observation_and_mirror",
+      "kind": "exact_supporting",
+      "passed": true
+    },
+    {
+      "name": "defect invertible block 0,3",
+      "group": "native_observation_and_mirror",
+      "kind": "exact_supporting",
+      "passed": true
+    },
+    {
+      "name": "defect invertible block 9,13",
+      "group": "native_observation_and_mirror",
+      "kind": "exact_supporting",
+      "passed": true
+    },
+    {
+      "name": "rank lower-bound right inverse certificate",
+      "group": "native_observation_and_mirror",
+      "kind": "exact_supporting",
+      "passed": true
+    },
+    {
+      "name": "ambient spinor grading square",
+      "group": "native_observation_and_mirror",
+      "kind": "exact_supporting",
+      "passed": true
+    },
+    {
+      "name": "spinor grading survives every literal horizontal slot",
+      "group": "native_observation_and_mirror",
+      "kind": "exact_supporting",
+      "passed": true
+    },
+    {
+      "name": "trace projector commutes grade but does not descend",
+      "group": "native_observation_and_mirror",
+      "kind": "exact_contrary",
+      "passed": true
+    },
+    {
+      "name": "small trace selector idempotent",
+      "group": "native_observation_and_mirror",
+      "kind": "exact_supporting",
+      "passed": true
+    },
+    {
+      "name": "small full defect rank",
+      "group": "native_observation_and_mirror",
+      "kind": "exact_supporting",
+      "passed": true
+    },
+    {
+      "name": "complement obstruction opposite",
+      "group": "native_observation_and_mirror",
+      "kind": "exact_supporting",
+      "passed": true
+    },
+    {
+      "name": "augmentation makes kernel invariant",
+      "group": "native_observation_and_mirror",
+      "kind": "exact_supporting",
+      "passed": true
+    },
+    {
+      "name": "output-only augmentation fails",
+      "group": "native_observation_and_mirror",
+      "kind": "exact_contrary",
+      "passed": true
+    },
+    {
+      "name": "too narrow hidden output fails",
+      "group": "native_observation_and_mirror",
+      "kind": "exact_contrary",
+      "passed": true
+    },
+    {
+      "name": "general minimum augmentation succeeds",
+      "group": "native_observation_and_mirror",
+      "kind": "exact_supporting",
+      "passed": true
+    },
+    {
+      "name": "mirror exchanges declared chiralities",
+      "group": "native_observation_and_mirror",
+      "kind": "exact_supporting",
+      "passed": true
+    },
+    {
+      "name": "chiral action nonzero left-only",
+      "group": "native_observation_and_mirror",
+      "kind": "exact_supporting",
+      "passed": true
+    },
+    {
+      "name": "left-only current breaks mirror normalizer",
+      "group": "native_observation_and_mirror",
+      "kind": "exact_contrary",
+      "passed": true
+    },
+    {
+      "name": "balanced current retains mirror",
+      "group": "native_observation_and_mirror",
+      "kind": "exact_supporting",
+      "passed": true
+    },
+    {
+      "name": "charge conjugation not mirror for real projectors",
+      "group": "native_observation_and_mirror",
+      "kind": "exact_contrary",
+      "passed": true
+    },
+    {
+      "name": "zero finite index coexists chiral coupling",
+      "group": "native_observation_and_mirror",
+      "kind": "exact_supporting",
+      "passed": true
+    },
+    {
+      "name": "indefinite baseline principal",
+      "group": "differential_and_variational_phase",
+      "kind": "exact_supporting",
+      "passed": true
+    },
+    {
+      "name": "indefinite baseline lower",
+      "group": "differential_and_variational_phase",
+      "kind": "exact_supporting",
+      "passed": true
+    },
+    {
+      "name": "uncompleted real dressing fails",
+      "group": "differential_and_variational_phase",
+      "kind": "exact_contrary",
+      "passed": true
+    },
+    {
+      "name": "half correction principal",
+      "group": "differential_and_variational_phase",
+      "kind": "exact_supporting",
+      "passed": true
+    },
+    {
+      "name": "half correction lower",
+      "group": "differential_and_variational_phase",
+      "kind": "exact_supporting",
+      "passed": true
+    },
+    {
+      "name": "full correction coefficient fails",
+      "group": "differential_and_variational_phase",
+      "kind": "exact_contrary",
+      "passed": true
+    },
+    {
+      "name": "nonreal principal cannot be repaired",
+      "group": "differential_and_variational_phase",
+      "kind": "exact_contrary",
+      "passed": true
+    },
+    {
+      "name": "free epsilon symmetric remainder principal",
+      "group": "differential_and_variational_phase",
+      "kind": "exact_supporting",
+      "passed": true
+    },
+    {
+      "name": "free epsilon symmetric remainder lower",
+      "group": "differential_and_variational_phase",
+      "kind": "exact_supporting",
+      "passed": true
+    },
+    {
+      "name": "varying density principal",
+      "group": "differential_and_variational_phase",
+      "kind": "exact_supporting",
+      "passed": true
+    },
+    {
+      "name": "varying density lower",
+      "group": "differential_and_variational_phase",
+      "kind": "exact_supporting",
+      "passed": true
+    },
+    {
+      "name": "varying density half correction principal",
+      "group": "differential_and_variational_phase",
+      "kind": "exact_supporting",
+      "passed": true
+    },
+    {
+      "name": "varying density half correction lower",
+      "group": "differential_and_variational_phase",
+      "kind": "exact_supporting",
+      "passed": true
+    },
+    {
+      "name": "K cannot replace action H",
+      "group": "differential_and_variational_phase",
+      "kind": "exact_contrary",
+      "passed": true
+    },
+    {
+      "name": "skew-adjoint baseline principal",
+      "group": "differential_and_variational_phase",
+      "kind": "exact_supporting",
+      "passed": true
+    },
+    {
+      "name": "skew-adjoint baseline lower",
+      "group": "differential_and_variational_phase",
+      "kind": "exact_supporting",
+      "passed": true
+    },
+    {
+      "name": "skew-adjoint half correction principal",
+      "group": "differential_and_variational_phase",
+      "kind": "exact_supporting",
+      "passed": true
+    },
+    {
+      "name": "skew-adjoint half correction lower",
+      "group": "differential_and_variational_phase",
+      "kind": "exact_supporting",
+      "passed": true
+    },
+    {
+      "name": "unit phase square",
+      "group": "differential_and_variational_phase",
+      "kind": "exact_supporting",
+      "passed": true
+    },
+    {
+      "name": "principal phase misses derivative",
+      "group": "differential_and_variational_phase",
+      "kind": "exact_contrary",
+      "passed": true
+    },
+    {
+      "name": "exact lower-order phase repair",
+      "group": "differential_and_variational_phase",
+      "kind": "exact_supporting",
+      "passed": true
+    },
+    {
+      "name": "opposite repair sign fails",
+      "group": "differential_and_variational_phase",
+      "kind": "exact_contrary",
+      "passed": true
+    },
+    {
+      "name": "constant coflip works",
+      "group": "differential_and_variational_phase",
+      "kind": "exact_supporting",
+      "passed": true
+    },
+    {
+      "name": "noninjective transverse phase survives",
+      "group": "differential_and_variational_phase",
+      "kind": "exact_supporting",
+      "passed": true
+    },
+    {
+      "name": "transverse phase is not constant",
+      "group": "differential_and_variational_phase",
+      "kind": "exact_contrary",
+      "passed": true
+    },
+    {
+      "name": "independent-bar double principal",
+      "group": "differential_and_variational_phase",
+      "kind": "exact_supporting",
+      "passed": true
+    },
+    {
+      "name": "independent-bar double lower",
+      "group": "differential_and_variational_phase",
+      "kind": "exact_supporting",
+      "passed": true
+    },
+    {
+      "name": "grading and flux anticommute",
+      "group": "boundary_index_and_elimination",
+      "kind": "exact_supporting",
+      "passed": true
+    },
+    {
+      "name": "normal rotation retains antiHermitian square",
+      "group": "boundary_index_and_elimination",
+      "kind": "exact_supporting",
+      "passed": true
+    },
+    {
+      "name": "good graph preserves grading",
+      "group": "boundary_index_and_elimination",
+      "kind": "exact_supporting",
+      "passed": true
+    },
+    {
+      "name": "bad graph is not grading invariant",
+      "group": "boundary_index_and_elimination",
+      "kind": "exact_contrary",
+      "passed": true
+    },
+    {
+      "name": "both graphs initially isotropic",
+      "group": "boundary_index_and_elimination",
+      "kind": "exact_supporting",
+      "passed": true
+    },
+    {
+      "name": "rotated phase retains good graph",
+      "group": "boundary_index_and_elimination",
+      "kind": "exact_supporting",
+      "passed": true
+    },
+    {
+      "name": "rotated phase rejects bad graph",
+      "group": "boundary_index_and_elimination",
+      "kind": "exact_contrary",
+      "passed": true
+    },
+    {
+      "name": "Green sign convention explicit",
+      "group": "boundary_index_and_elimination",
+      "kind": "exact_supporting",
+      "passed": true
+    },
+    {
+      "name": "full invariant graph classifier Matrix([[1, 0], [0, 1]])",
+      "group": "boundary_index_and_elimination",
+      "kind": "exact_supporting",
+      "passed": true
+    },
+    {
+      "name": "full invariant graph classifier Matrix([[-1, 0], [0, -1]])",
+      "group": "boundary_index_and_elimination",
+      "kind": "exact_supporting",
+      "passed": true
+    },
+    {
+      "name": "full invariant graph classifier Matrix([[1, 0], [0, -1]])",
+      "group": "boundary_index_and_elimination",
+      "kind": "exact_supporting",
+      "passed": true
+    },
+    {
+      "name": "full invariant graph classifier Matrix([[0, 1], [1, 0]])",
+      "group": "boundary_index_and_elimination",
+      "kind": "exact_supporting",
+      "passed": true
+    },
+    {
+      "name": "arbitrary unitary is insufficient",
+      "group": "boundary_index_and_elimination",
+      "kind": "exact_contrary",
+      "passed": true
+    },
+    {
+      "name": "commuting grading mismatch excludes invertible graph",
+      "group": "boundary_index_and_elimination",
+      "kind": "exact_contrary",
+      "passed": true
+    },
+    {
+      "name": "commuting matching grading admits graph",
+      "group": "boundary_index_and_elimination",
+      "kind": "exact_supporting",
+      "passed": true
+    },
+    {
+      "name": "real conjugation phase relation",
+      "group": "boundary_index_and_elimination",
+      "kind": "exact_supporting",
+      "passed": true
+    },
+    {
+      "name": "fixed real phase relation fails",
+      "group": "boundary_index_and_elimination",
+      "kind": "exact_contrary",
+      "passed": true
+    },
+    {
+      "name": "alternate real structure retains rotated relation",
+      "group": "boundary_index_and_elimination",
+      "kind": "exact_supporting",
+      "passed": true
+    },
+    {
+      "name": "hidden opposite index compensates balanced total",
+      "group": "boundary_index_and_elimination",
+      "kind": "exact_supporting",
+      "passed": true
+    },
+    {
+      "name": "acyclic hidden preserves observed index",
+      "group": "boundary_index_and_elimination",
+      "kind": "exact_supporting",
+      "passed": true
+    },
+    {
+      "name": "nonzero connecting map allows nonlifting zero modes",
+      "group": "boundary_index_and_elimination",
+      "kind": "exact_contrary",
+      "passed": true
+    },
+    {
+      "name": "valid chain observation",
+      "group": "boundary_index_and_elimination",
+      "kind": "exact_supporting",
+      "passed": true
+    },
+    {
+      "name": "nonchain observation rejected",
+      "group": "boundary_index_and_elimination",
+      "kind": "exact_contrary",
+      "passed": true
+    },
+    {
+      "name": "family phase augmented kernels identical",
+      "group": "boundary_index_and_elimination",
+      "kind": "exact_supporting",
+      "passed": true
+    },
+    {
+      "name": "singular phase outside theorem",
+      "group": "boundary_index_and_elimination",
+      "kind": "exact_contrary",
+      "passed": true
+    },
+    {
+      "name": "moving observation lower correction",
+      "group": "boundary_index_and_elimination",
+      "kind": "exact_supporting",
+      "passed": true
+    },
+    {
+      "name": "principal-only descent fails with moving observation",
+      "group": "boundary_index_and_elimination",
+      "kind": "exact_contrary",
+      "passed": true
+    },
+    {
+      "name": "static grading descends",
+      "group": "boundary_index_and_elimination",
+      "kind": "exact_supporting",
+      "passed": true
+    },
+    {
+      "name": "same grading does not give autonomous dynamics",
+      "group": "boundary_index_and_elimination",
+      "kind": "exact_contrary",
+      "passed": true
+    },
+    {
+      "name": "radical permits literal Hessian quotient",
+      "group": "boundary_index_and_elimination",
+      "kind": "exact_supporting",
+      "passed": true
+    },
+    {
+      "name": "nondegenerate Hessian cannot literally descend",
+      "group": "boundary_index_and_elimination",
+      "kind": "exact_contrary",
+      "passed": true
+    },
+    {
+      "name": "literal form independent hidden representative",
+      "group": "boundary_index_and_elimination",
+      "kind": "exact_supporting",
+      "passed": true
+    },
+    {
+      "name": "nondegenerate form depends hidden representative",
+      "group": "boundary_index_and_elimination",
+      "kind": "exact_contrary",
+      "passed": true
+    },
+    {
+      "name": "local blocks can eliminate nonlocally",
+      "group": "boundary_index_and_elimination",
+      "kind": "exact_contrary",
+      "passed": true
+    },
+    {
+      "name": "Hermitian coupling cancellation exact",
+      "group": "boundary_index_and_elimination",
+      "kind": "exact_supporting",
+      "passed": true
+    },
+    {
+      "name": "local cancellation alone does not bound order",
+      "group": "boundary_index_and_elimination",
+      "kind": "exact_contrary",
+      "passed": true
+    },
+    {
+      "name": "matrix criterion retains one uncancelled channel",
+      "group": "boundary_index_and_elimination",
+      "kind": "exact_contrary",
+      "passed": true
+    }
+  ],
+  "counts": {
+    "exact_supporting": 62,
+    "exact_contrary": 27
+  },
+  "proof_refs": [
+    "explorations/conditional-build/p1-observation-descent-2026-11-11.md",
+    "explorations/conditional-build/p2-phase-variational-2026-11-11.md",
+    "explorations/conditional-build/p1-p2-domain-index-2026-11-11.md"
+  ],
+  "proof_sha256": {
+    "explorations/conditional-build/p1-observation-descent-2026-11-11.md": "774292f44d3d76171f013b26f7eec26fd1f96a1a6145922bbf39983bbbfdd30c",
+    "explorations/conditional-build/p2-phase-variational-2026-11-11.md": "c7684921ebf5fe05c72520f5f388cec902feee80589d1d7594fdaf17bcade0de",
+    "explorations/conditional-build/p1-p2-domain-index-2026-11-11.md": "b673baaa15cee967f256ff4cf0d74bed86d5b15add3ba662c45deef4f34afde3"
+  }
+}

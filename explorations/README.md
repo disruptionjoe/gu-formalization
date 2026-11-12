@@ -6,6 +6,12 @@ updated_at: "2026-08-21"
 ---
 
 
+## P1/P2 constraint coverage (2026-11-11)
+
+- [p1-observation-descent](conditional-build/p1-observation-descent-2026-11-11.md)
+- [p2-phase-variational](conditional-build/p2-phase-variational-2026-11-11.md)
+- [p1-p2-domain-index](conditional-build/p1-p2-domain-index-2026-11-11.md)
+
 ## BET-2PLUS1 observation transfer (2026-11-11)
 
 - [Actual time jets](conditional-build/bet-2plus1-temporal-observation-2026-11-11.md): exact inverse and infrared/history limits.

@@ -16,6 +16,25 @@ discovery bet (`lab/process/discovery-bets.json`). The K25xx--K2618 detector, pr
 results below are retained as conditional mathematics; that lane is no longer the default target. Sections
 below are dated results, newest first, and are not steering.
 
+## P1/P2 matrix constraint coverage (2026-11-11)
+
+All18 matrix cells now carry constraints; ten P1/P2 cells were newly constrained.
+The results classify observation-selector descent, actual weak mirror symmetry,
+local versus effective reduction, differential/variational phase completion,
+graded boundary domains, hidden-index compensation and full-family phase invariance.
+Each applies only under its explicit structural hypotheses. None decides all C,
+exhibits a C action, settles the joint intersection or changes physics ledger0.263.
+Coverage is complete; native realization and simultaneous compatibility are open.
+
+[Observed-sector proof](explorations/conditional-build/p1-observation-descent-2026-11-11.md) ·
+[Phase proof](explorations/conditional-build/p2-phase-variational-2026-11-11.md) ·
+[Domain/index proof](explorations/conditional-build/p1-p2-domain-index-2026-11-11.md) ·
+[Exact evidence](lab/process/matrix-remaining-constraints.json).
+
+Independent specialist cross-review and hostile scope review accompany89 exact
+supporting/contrary controls. No Lean or external certification claimed for T2.
+Current program_focus governs subsequent work; no work/stop rule changed.
+
 ## BET-2PLUS1 temporal and constrained observation (2026-11-11)
 
 BET-2PLUS1 active: actual first-time-jet reconstruction recovers the hidden normal sum at nonzero momentum with exact infrared conditioning. The held polarization has an explicit bounded literal-observation lift and positive massless evolution; its maximal original-mass survivor omits the scalar sector, has positive norm but gapless longitudinal spectrum, and fails generic spatial-mass transfer. Massless autonomous trace/scalar readouts do not equal original pure provenance sectors; mass mixes trace with its partner. No physical family count, guessed action or matrix/ledger verdict.

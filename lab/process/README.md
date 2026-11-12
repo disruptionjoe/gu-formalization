@@ -6,6 +6,10 @@ updated_at: "2026-08-23"
 ---
 
 
+## P1/P2 constraint evidence (2026-11-11)
+
+- [Exact report](matrix-remaining-constraints.json): native observation, differential pairing, boundary/index and elimination controls; conditional constraints only.
+
 ## BET-2PLUS1 observation evidence (2026-11-11)
 
 - [Exact evidence](bet-2plus1-observation-jets.json): original raw coefficients, time-jet Gram, polarized lift, original-mass propagation, spectra and contrary controls; no physical count.

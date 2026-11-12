@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 5510bcafad011d8eec798e1149cae87bc1acad2f
+revision_basis: 988b620dead8b9b18c45de4e6cee1d576e6580a9
 program_focus:
   version: 2026-11-09-v1
   authority: joe_direct_chat_2026_11_09
@@ -75,6 +75,18 @@ program_focus:
     - writing down, enumerating, fitting or searching for a specific action, coefficient set or Lagrangian outside lane C
     - building a gated cell's missing object (source action, stabilized RS action, K3-fibered family, boundary connection) as a way to unblock it
     - more than 3 guessed action variants in one lane-C run, or tuning a guessed action's coefficients
+matrix_constraints_2026_11_11:
+  status: 18_of_18_constrained_no_class_decisions
+  summary: 'Ten previously open P1/P2 cells now carry independently reviewed conditional
+    structural requirements: observation/weak symmetry/local reduction, complete differential/variational
+    phase compatibility, graded boundary domains and hidden/full-family index transfer.
+    Coverage is not native realization or joint compatibility; class width and the
+    triple intersection remain unresolved. Source, physics ledger0.263 and canon unchanged.'
+  evidence:
+  - explorations/conditional-build/p1-observation-descent-2026-11-11.md
+  - explorations/conditional-build/p2-phase-variational-2026-11-11.md
+  - explorations/conditional-build/p1-p2-domain-index-2026-11-11.md
+  - lab/process/matrix-remaining-constraints.json
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
