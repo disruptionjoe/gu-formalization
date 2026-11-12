@@ -6,6 +6,11 @@ updated_at: "2026-08-21"
 ---
 
 
+## Full source-symbol membership (2026-11-12)
+
+- [Observation and full natural-symbol stability](conditional-build/source-symbol-quotient-membership-2026-11-12.md).
+- [Current, geometric coordinate effects and grading](conditional-build/source-current-grading-membership-2026-11-12.md).
+
 ## Joint native RS compatibility (2026-11-11)
 
 - [Operator, pairing and propagation](conditional-build/native-rs-observed-compatibility-2026-11-11.md).

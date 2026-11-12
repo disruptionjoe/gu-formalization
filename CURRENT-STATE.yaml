@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 12d3383d811280fc474a17d1b122b17c6236b1da
+revision_basis: 40fad00872b35043dd1c3f156c9f14ad6c99662d
 program_focus:
   version: 2026-11-09-v1
   authority: joe_direct_chat_2026_11_09
@@ -75,6 +75,19 @@ program_focus:
     - writing down, enumerating, fitting or searching for a specific action, coefficient set or Lagrangian outside lane C
     - building a gated cell's missing object (source action, stabilized RS action, K3-fibered family, boundary connection) as a way to unblock it
     - more than 3 guessed action variants in one lane-C run, or tuning a guessed action's coefficients
+source_membership_2026_11_12:
+  status: conditional_full_symbol_survivors_source_action_and_domain_open
+  summary: The projected five-spinor criterion is not the full source membership test.
+    Keeping independent trace and scalar gives six-spinor autonomous tangential outputs;
+    the natural mixed contraction has a zero-southeast strongly hyperbolic subfamily,
+    including independent chiral weights. Fixed-current and geometric hidden-shift
+    tests distinguish genuine operator changes from coordinate displays. Source action/pairing,
+    printed grade/duality, actual weak map and full ambient domain remain open; no
+    source or class decision.
+  evidence:
+  - explorations/conditional-build/source-symbol-quotient-membership-2026-11-12.md
+  - explorations/conditional-build/source-current-grading-membership-2026-11-12.md
+  - lab/process/source-operator-membership.json
 joint_native_compatibility_2026_11_11:
   status: conditional_symbol_survivor_with_source_domain_bridges_open
   summary: Actual projected RS literal observation and inherited pairing coexist,

@@ -6,6 +6,10 @@ updated_at: "2026-08-23"
 ---
 
 
+## Full source-operator membership evidence (2026-11-12)
+
+- [Exact report](source-operator-membership.json): complete scalar-category identities, independent chiral-weight controls, actual native hidden-shift/current identities and source dependency hashes.
+
 ## Joint native RS evidence (2026-11-11)
 
 - [Exact report](native-rs-joint-compatibility.json): native K95 pairing/lift, all-parameter evolution classification, geometric repair and graded index controls.

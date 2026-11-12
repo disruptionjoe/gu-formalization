@@ -17,6 +17,34 @@ External review is not a pathway in this program. The honesty label stays: inter
 
 Sections below are historical snapshots in file order.
 
+## Full source-symbol membership (2026-11-12)
+
+The previous projected five-spinor survivor does not preserve all source-visible
+data. The complete raw category instead has a minimal six-spinor autonomous
+tangential output. Its exact stability classification admits a mixed-contraction
+zero-southeast subfamily, including independent chiral weights. The old pure-wedge
+Ward/K filter is an additional assumption, not a source-imposed selector.
+
+A same-connection nonzero scalar Dirac term changes the fixed source current.
+A native metric-trace hidden field shift can also create a displayed southeast
+term as a coordinate effect, with compensating arrows and transported current;
+it leaves observed propagation unchanged. Source grade/duality, actual weak maps
+and unrestricted ambient normal-jet/closed-domain realization remain open.
+
+[Full-symbol and observation proof](explorations/conditional-build/source-symbol-quotient-membership-2026-11-12.md) ·
+[Current, coordinates and grading](explorations/conditional-build/source-current-grading-membership-2026-11-12.md) ·
+[Exact evidence](lab/process/source-operator-membership.json).
+
+Three specialist derivations and cross-review plus108 exact checks support T2
+acceptance (88 supporting,20 contrary; matrix checks, not108 discoveries).
+The existing exploration directory-map audit remains red on both the baseline
+and current tree because it counts individual result links as duplicate directory
+entries. Link-resolution and boundary-language checks pass; that audit is unchanged.
+No source/ledger0.263/classC/canon change or Lean/full-class claim.
+Matrix18/18 remains constrained and triple intersection open. Counter19 retains
+the existing discovery-bet selection rule; the refined matrix next tests apply
+when matrix work is selected. Current program_focus continues to own priority.
+
 ## Joint native RS compatibility (2026-11-11)
 
 The actual tangent projectedRS symbol passes literal observation and has a

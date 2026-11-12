@@ -1,0 +1,605 @@
+{
+  "schema_version": "1.0",
+  "program_target": "X-P1-P2 / X-P2-P3",
+  "tier": "T2",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "claim_ceiling": "Declared frozen natural-symbol categories, conditional current and coordinate identities; no source-selected action, full-C decision, physical weak/family map or unrestricted ambient-domain realization",
+  "evidence_kind": "Written universal proofs; exact symbolic two-parameter identity, independently weighted chiral controls, native128 Gaussian-integer and dyadic checks. Matrix checks are not independent discoveries.",
+  "checks": [
+    {
+      "name": "native normal insertion Gamma normalization10",
+      "kind": "exact_supporting",
+      "passed": true
+    },
+    {
+      "name": "normal retraction lands R 0",
+      "kind": "exact_supporting",
+      "passed": true
+    },
+    {
+      "name": "normal retraction preserves literal observation 0",
+      "kind": "exact_supporting",
+      "passed": true
+    },
+    {
+      "name": "normal retraction lands R 1",
+      "kind": "exact_supporting",
+      "passed": true
+    },
+    {
+      "name": "normal retraction preserves literal observation 1",
+      "kind": "exact_supporting",
+      "passed": true
+    },
+    {
+      "name": "normal retraction lands R 2",
+      "kind": "exact_supporting",
+      "passed": true
+    },
+    {
+      "name": "normal retraction preserves literal observation 2",
+      "kind": "exact_supporting",
+      "passed": true
+    },
+    {
+      "name": "normal retraction lands R 3",
+      "kind": "exact_supporting",
+      "passed": true
+    },
+    {
+      "name": "normal retraction preserves literal observation 3",
+      "kind": "exact_supporting",
+      "passed": true
+    },
+    {
+      "name": "normal retraction lands R 4",
+      "kind": "exact_supporting",
+      "passed": true
+    },
+    {
+      "name": "normal retraction preserves literal observation 4",
+      "kind": "exact_supporting",
+      "passed": true
+    },
+    {
+      "name": "normal retraction lands R 5",
+      "kind": "exact_supporting",
+      "passed": true
+    },
+    {
+      "name": "normal retraction preserves literal observation 5",
+      "kind": "exact_supporting",
+      "passed": true
+    },
+    {
+      "name": "normal retraction lands R 6",
+      "kind": "exact_supporting",
+      "passed": true
+    },
+    {
+      "name": "normal retraction preserves literal observation 6",
+      "kind": "exact_supporting",
+      "passed": true
+    },
+    {
+      "name": "normal retraction lands R 7",
+      "kind": "exact_supporting",
+      "passed": true
+    },
+    {
+      "name": "normal retraction preserves literal observation 7",
+      "kind": "exact_supporting",
+      "passed": true
+    },
+    {
+      "name": "normal retraction lands R 8",
+      "kind": "exact_supporting",
+      "passed": true
+    },
+    {
+      "name": "normal retraction preserves literal observation 8",
+      "kind": "exact_supporting",
+      "passed": true
+    },
+    {
+      "name": "normal retraction lands R 9",
+      "kind": "exact_supporting",
+      "passed": true
+    },
+    {
+      "name": "normal retraction preserves literal observation 9",
+      "kind": "exact_supporting",
+      "passed": true
+    },
+    {
+      "name": "normal retraction lands R 10",
+      "kind": "exact_supporting",
+      "passed": true
+    },
+    {
+      "name": "normal retraction preserves literal observation 10",
+      "kind": "exact_supporting",
+      "passed": true
+    },
+    {
+      "name": "normal retraction lands R 11",
+      "kind": "exact_supporting",
+      "passed": true
+    },
+    {
+      "name": "normal retraction preserves literal observation 11",
+      "kind": "exact_supporting",
+      "passed": true
+    },
+    {
+      "name": "normal retraction lands R 12",
+      "kind": "exact_supporting",
+      "passed": true
+    },
+    {
+      "name": "normal retraction preserves literal observation 12",
+      "kind": "exact_supporting",
+      "passed": true
+    },
+    {
+      "name": "normal retraction lands R 13",
+      "kind": "exact_supporting",
+      "passed": true
+    },
+    {
+      "name": "normal retraction preserves literal observation 13",
+      "kind": "exact_supporting",
+      "passed": true
+    },
+    {
+      "name": "normal retraction kernel is normal insertion",
+      "kind": "exact_supporting",
+      "passed": true
+    },
+    {
+      "name": "orthogonal projection changes observed normal trace",
+      "kind": "exact_contrary",
+      "passed": true
+    },
+    {
+      "name": "hidden normal gamma-zero shift exists",
+      "kind": "exact_supporting",
+      "passed": true
+    },
+    {
+      "name": "hidden shift is nonzero",
+      "kind": "exact_contrary",
+      "passed": true
+    },
+    {
+      "name": "chosen hidden shift fails normal-spin intertwining",
+      "kind": "exact_contrary",
+      "passed": true
+    },
+    {
+      "name": "wedge hidden trace leaks (1, 0)",
+      "kind": "exact_contrary",
+      "passed": true
+    },
+    {
+      "name": "longitudinal leakage injective simple",
+      "kind": "exact_supporting",
+      "passed": true
+    },
+    {
+      "name": "wedge hidden trace leaks (1, -1)",
+      "kind": "exact_contrary",
+      "passed": true
+    },
+    {
+      "name": "transverse leakage injective (1, -1)",
+      "kind": "exact_supporting",
+      "passed": true
+    },
+    {
+      "name": "wedge hidden trace leaks (2, 3)",
+      "kind": "exact_contrary",
+      "passed": true
+    },
+    {
+      "name": "transverse leakage injective (2, 3)",
+      "kind": "exact_supporting",
+      "passed": true
+    },
+    {
+      "name": "wedge hidden trace leaks (0, 1)",
+      "kind": "exact_contrary",
+      "passed": true
+    },
+    {
+      "name": "transverse leakage injective (0, 1)",
+      "kind": "exact_supporting",
+      "passed": true
+    },
+    {
+      "name": "actual spin-generator SE current coefficient",
+      "kind": "exact_supporting",
+      "passed": true
+    },
+    {
+      "name": "current coefficient full rank by square",
+      "kind": "exact_supporting",
+      "passed": true
+    },
+    {
+      "name": "zero matrix trace does not erase bilinear current",
+      "kind": "exact_contrary",
+      "passed": true
+    },
+    {
+      "name": "independent row column detects current",
+      "kind": "exact_supporting",
+      "passed": true
+    },
+    {
+      "name": "connection counterterm exactly cancels",
+      "kind": "exact_supporting",
+      "passed": true
+    },
+    {
+      "name": "changed cancellation coefficient restores current",
+      "kind": "exact_contrary",
+      "passed": true
+    },
+    {
+      "name": "fixed-observation trace scalar arrow redefinition identity",
+      "kind": "exact_supporting",
+      "passed": true
+    },
+    {
+      "name": "metric trace hidden map gamma zero",
+      "kind": "exact_supporting",
+      "passed": true
+    },
+    {
+      "name": "metric trace hidden map pairing nondegenerate",
+      "kind": "exact_supporting",
+      "passed": true
+    },
+    {
+      "name": "metric hidden shift commutes tangent Clifford 9",
+      "kind": "exact_supporting",
+      "passed": true
+    },
+    {
+      "name": "triangular coordinate southeast numerator 9",
+      "kind": "exact_supporting",
+      "passed": true
+    },
+    {
+      "name": "metric hidden shift commutes tangent Clifford 0",
+      "kind": "exact_supporting",
+      "passed": true
+    },
+    {
+      "name": "triangular coordinate southeast numerator 0",
+      "kind": "exact_supporting",
+      "passed": true
+    },
+    {
+      "name": "metric hidden shift commutes tangent Clifford 1",
+      "kind": "exact_supporting",
+      "passed": true
+    },
+    {
+      "name": "triangular coordinate southeast numerator 1",
+      "kind": "exact_supporting",
+      "passed": true
+    },
+    {
+      "name": "metric hidden shift commutes tangent Clifford 2",
+      "kind": "exact_supporting",
+      "passed": true
+    },
+    {
+      "name": "triangular coordinate southeast numerator 2",
+      "kind": "exact_supporting",
+      "passed": true
+    },
+    {
+      "name": "native trace hidden shift ambient grade even",
+      "kind": "exact_supporting",
+      "passed": true
+    },
+    {
+      "name": "native trace norm from DeWitt half reversal",
+      "kind": "exact_supporting",
+      "passed": true
+    },
+    {
+      "name": "held W invertible exact",
+      "kind": "exact_supporting",
+      "passed": true
+    },
+    {
+      "name": "actual trace W transports opposite weight",
+      "kind": "exact_supporting",
+      "passed": true
+    },
+    {
+      "name": "held reciprocal SE transport 9",
+      "kind": "exact_supporting",
+      "passed": true
+    },
+    {
+      "name": "held reciprocal SE transport 0",
+      "kind": "exact_supporting",
+      "passed": true
+    },
+    {
+      "name": "held reciprocal SE transport 1",
+      "kind": "exact_supporting",
+      "passed": true
+    },
+    {
+      "name": "held reciprocal SE transport 2",
+      "kind": "exact_supporting",
+      "passed": true
+    },
+    {
+      "name": "untransported scalar SE differs",
+      "kind": "exact_contrary",
+      "passed": true
+    },
+    {
+      "name": "field-coordinate inverse",
+      "group": "full_symbol",
+      "kind": "exact_supporting",
+      "passed": true
+    },
+    {
+      "name": "full actual symbol time normalization",
+      "group": "full_symbol",
+      "kind": "exact_supporting",
+      "passed": true
+    },
+    {
+      "name": "complete two-parameter nilpotent identity",
+      "group": "full_symbol",
+      "kind": "exact_supporting",
+      "passed": true
+    },
+    {
+      "name": "nilpotent square",
+      "group": "full_symbol",
+      "kind": "exact_supporting",
+      "passed": true
+    },
+    {
+      "name": "obstruction transports as Dirac",
+      "group": "full_symbol",
+      "kind": "exact_supporting",
+      "passed": true
+    },
+    {
+      "name": "independent inverse Jordan rank (0, 0)",
+      "group": "full_symbol",
+      "kind": "exact_contrary",
+      "passed": true
+    },
+    {
+      "name": "independent inverse Jordan rank (0, 1/2)",
+      "group": "full_symbol",
+      "kind": "exact_supporting",
+      "passed": true
+    },
+    {
+      "name": "positive symmetrizer algebra (0, 1/2)",
+      "group": "full_symbol",
+      "kind": "exact_supporting",
+      "passed": true
+    },
+    {
+      "name": "independent inverse Jordan rank (-1, 0)",
+      "group": "full_symbol",
+      "kind": "exact_contrary",
+      "passed": true
+    },
+    {
+      "name": "independent inverse Jordan rank (-1, 11/12)",
+      "group": "full_symbol",
+      "kind": "exact_supporting",
+      "passed": true
+    },
+    {
+      "name": "positive symmetrizer algebra (-1, 11/12)",
+      "group": "full_symbol",
+      "kind": "exact_supporting",
+      "passed": true
+    },
+    {
+      "name": "independent inverse Jordan rank (-1/12, 0)",
+      "group": "full_symbol",
+      "kind": "exact_supporting",
+      "passed": true
+    },
+    {
+      "name": "positive symmetrizer algebra (-1/12, 0)",
+      "group": "full_symbol",
+      "kind": "exact_supporting",
+      "passed": true
+    },
+    {
+      "name": "Lzero extension",
+      "group": "full_symbol",
+      "kind": "exact_supporting",
+      "passed": true
+    },
+    {
+      "name": "Fzero time singular",
+      "group": "full_symbol",
+      "kind": "exact_contrary",
+      "passed": true
+    },
+    {
+      "name": "all nonzero-scale Dirac criterion (2, -1/6, 3, -5)",
+      "group": "full_symbol",
+      "kind": "exact_supporting",
+      "passed": true
+    },
+    {
+      "name": "all nonzero-scale Dirac criterion (2, -2, 3, 5)",
+      "group": "full_symbol",
+      "kind": "exact_supporting",
+      "passed": true
+    },
+    {
+      "name": "zeroSE projected quotient can algebraically close",
+      "group": "full_symbol",
+      "kind": "exact_supporting",
+      "passed": true
+    },
+    {
+      "name": "projected quotient Dirac ratio",
+      "group": "full_symbol",
+      "kind": "exact_supporting",
+      "passed": true
+    },
+    {
+      "name": "same source sign need not close quotient",
+      "group": "full_symbol",
+      "kind": "exact_contrary",
+      "passed": true
+    },
+    {
+      "name": "discarded scalar channel remains observed",
+      "group": "full_symbol",
+      "kind": "exact_contrary",
+      "passed": true
+    },
+    {
+      "name": "constant full6S Dirac equivalence",
+      "group": "full_symbol",
+      "kind": "exact_supporting",
+      "passed": true
+    },
+    {
+      "name": "constant Dirac map spatial 1",
+      "group": "full_symbol",
+      "kind": "exact_supporting",
+      "passed": true
+    },
+    {
+      "name": "constant Dirac map spatial 2",
+      "group": "full_symbol",
+      "kind": "exact_supporting",
+      "passed": true
+    },
+    {
+      "name": "constant Dirac map spatial 3",
+      "group": "full_symbol",
+      "kind": "exact_supporting",
+      "passed": true
+    },
+    {
+      "name": "constant positive metric invertible Gram",
+      "group": "full_symbol",
+      "kind": "exact_supporting",
+      "passed": true
+    },
+    {
+      "name": "nonradial propagation (0, 0)",
+      "group": "full_symbol",
+      "kind": "exact_contrary",
+      "passed": true
+    },
+    {
+      "name": "nonradial propagation (-1/12, 0)",
+      "group": "full_symbol",
+      "kind": "exact_supporting",
+      "passed": true
+    },
+    {
+      "name": "typed spinor grading",
+      "group": "chiral_weights",
+      "kind": "exact_supporting",
+      "passed": true
+    },
+    {
+      "name": "independent mixed zeroSE auxiliary grading",
+      "group": "chiral_weights",
+      "kind": "exact_supporting",
+      "passed": true
+    },
+    {
+      "name": "independent mixed zeroSE Jordan rank",
+      "group": "chiral_weights",
+      "kind": "exact_supporting",
+      "passed": true
+    },
+    {
+      "name": "one bad chiral ratio auxiliary grading",
+      "group": "chiral_weights",
+      "kind": "exact_contrary",
+      "passed": true
+    },
+    {
+      "name": "one bad chiral ratio Jordan rank",
+      "group": "chiral_weights",
+      "kind": "exact_contrary",
+      "passed": true
+    },
+    {
+      "name": "crossed general completion auxiliary grading",
+      "group": "chiral_weights",
+      "kind": "exact_supporting",
+      "passed": true
+    },
+    {
+      "name": "crossed general completion Jordan rank",
+      "group": "chiral_weights",
+      "kind": "exact_supporting",
+      "passed": true
+    },
+    {
+      "name": "wrong uncrossed completion auxiliary grading",
+      "group": "chiral_weights",
+      "kind": "exact_contrary",
+      "passed": true
+    },
+    {
+      "name": "wrong uncrossed completion Jordan rank",
+      "group": "chiral_weights",
+      "kind": "exact_contrary",
+      "passed": true
+    },
+    {
+      "name": "independent chiral spatial Clifford algebra",
+      "group": "chiral_weights",
+      "kind": "exact_supporting",
+      "passed": true
+    },
+    {
+      "name": "constant symmetrizer contains identity Gram term",
+      "group": "chiral_weights",
+      "kind": "exact_supporting",
+      "passed": true
+    },
+    {
+      "name": "constant symmetrizer all spatial generators",
+      "group": "chiral_weights",
+      "kind": "exact_supporting",
+      "passed": true
+    }
+  ],
+  "counts": {
+    "exact_supporting": 88,
+    "exact_contrary": 20
+  },
+  "proof_refs": [
+    "explorations/conditional-build/source-symbol-quotient-membership-2026-11-12.md",
+    "explorations/conditional-build/source-current-grading-membership-2026-11-12.md"
+  ],
+  "dependency_sha256": {
+    "explorations/conditional-build/source-symbol-quotient-membership-2026-11-12.md": "a5cc4279b83beb730bd7848eaa1998c4a8da9c6bcbc89e5d0ff34a09353bd582",
+    "explorations/conditional-build/source-current-grading-membership-2026-11-12.md": "2adf46bf3c12d598ab9292c2438b7c3e7b4acaba9a2463fc971bc234c7227a16",
+    "lab/sources/gu-2021-draft-s9-fermionic-operator-extraction-2026-08-04.md": "c250ce367774ff593255cd211e18ea793dd3eddcd843e0520437b6d645a2c31b",
+    "explorations/eric-curt-wave3d-b2c4-shiab-family-southeast-completion-2026-08-01.md": "d61e6dd946098b97244fe66a24c6ca8593528f21080bda6096a17f8487911acd",
+    "tests/channel-swings/actual_sym2_c14_orbit_probe.py": "8efb7edfbef3259098c6e384d9b35f71d5176dc90262b81fb49b0597db07b33d"
+  }
+}
