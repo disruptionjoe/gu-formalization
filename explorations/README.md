@@ -6,6 +6,11 @@ updated_at: "2026-08-21"
 ---
 
 
+## Joint native RS compatibility (2026-11-11)
+
+- [Operator, pairing and propagation](conditional-build/native-rs-observed-compatibility-2026-11-11.md).
+- [Moving section, repair and graded index](conditional-build/native-rs-moving-section-index-2026-11-11.md).
+
 ## P1/P2 constraint coverage (2026-11-11)
 
 - [p1-observation-descent](conditional-build/p1-observation-descent-2026-11-11.md)

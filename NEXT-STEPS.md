@@ -16,6 +16,27 @@ Do not add "Current follow-through" sections or "Historical predecessor" stacks 
 matrix or bet file. The retired follow-through chain and banner stack are kept at the end of this file under
 "Archived steering history".
 
+## Joint native RS compatibility (2026-11-11)
+
+The actual tangent projectedRS symbol passes literal observation and has a
+canonical inherited indefinite pairing. Its unrestricted evolution has a Jordan
+defect. Keeping the scalar arrows leaves that defect at the zero-southeast member
+of the declared projected category; the exact normalized relation delta=-3 gives
+a full Dirac-equivalent principal survivor. Delta13/12 is principal-degenerate.
+This is not identification with the complete source operator or an action.
+Moving-section LC leakage requires II=0 in that category, while a split-preserving
+metric connection repairs it. Coherent grading and the companion scalar change
+index bookkeeping; the closed positive comparison is not a native family count.
+
+[Operator and propagation proof](explorations/conditional-build/native-rs-observed-compatibility-2026-11-11.md) ·
+[Geometry and index proof](explorations/conditional-build/native-rs-moving-section-index-2026-11-11.md) ·
+[Exact evidence](lab/process/native-rs-joint-compatibility.json).
+
+Matrix coverage remains18/18 constrained, with joint class-C compatibility open.
+Independent specialist cross-review and exact native/symbolic controls support
+T2 acceptance; no source/ledger0.263/canon movement or Lean/full-C claim.
+Current program_focus remains the priority owner.
+
 ## P1/P2 matrix constraint coverage (2026-11-11)
 
 All18 matrix cells now carry constraints; ten P1/P2 cells were newly constrained.

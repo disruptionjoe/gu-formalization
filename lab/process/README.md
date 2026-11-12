@@ -6,6 +6,10 @@ updated_at: "2026-08-23"
 ---
 
 
+## Joint native RS evidence (2026-11-11)
+
+- [Exact report](native-rs-joint-compatibility.json): native K95 pairing/lift, all-parameter evolution classification, geometric repair and graded index controls.
+
 ## P1/P2 constraint evidence (2026-11-11)
 
 - [Exact report](matrix-remaining-constraints.json): native observation, differential pairing, boundary/index and elimination controls; conditional constraints only.

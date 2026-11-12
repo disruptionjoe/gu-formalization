@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 988b620dead8b9b18c45de4e6cee1d576e6580a9
+revision_basis: 12d3383d811280fc474a17d1b122b17c6236b1da
 program_focus:
   version: 2026-11-09-v1
   authority: joe_direct_chat_2026_11_09
@@ -75,6 +75,19 @@ program_focus:
     - writing down, enumerating, fitting or searching for a specific action, coefficient set or Lagrangian outside lane C
     - building a gated cell's missing object (source action, stabilized RS action, K3-fibered family, boundary connection) as a way to unblock it
     - more than 3 guessed action variants in one lane-C run, or tuning a guessed action's coefficients
+joint_native_compatibility_2026_11_11:
+  status: conditional_symbol_survivor_with_source_domain_bridges_open
+  summary: Actual projected RS literal observation and inherited pairing coexist,
+    but unrestricted propagation has a Jordan defect. Keeping scalar arrows does not
+    repair the zero-southeast member; an exact nonzero-southeast relation gives a
+    full Dirac-equivalent principal survivor within the declared arrow category. Split-preserving
+    metric transport repairs LC moving-section leakage. Coherent grading changes the
+    index bookkeeping, not the physical count. No complete source operator, C inhabitant
+    or joint decision established.
+  evidence:
+  - explorations/conditional-build/native-rs-observed-compatibility-2026-11-11.md
+  - explorations/conditional-build/native-rs-moving-section-index-2026-11-11.md
+  - lab/process/native-rs-joint-compatibility.json
 matrix_constraints_2026_11_11:
   status: 18_of_18_constrained_no_class_decisions
   summary: 'Ten previously open P1/P2 cells now carry independently reviewed conditional
