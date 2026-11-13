@@ -6,6 +6,11 @@ updated_at: "2026-08-21"
 ---
 
 
+## Source exterior connection and lower-term alternative (2026-11-13)
+
+- [Full unitary connection constraint and geometric current-preserving alternative](conditional-build/source-lower-term-compatibility-2026-11-13.md).
+- [Exterior/adjoint identities and determinant density](conditional-build/source-exterior-connection-2026-11-13.md).
+
 ## Source prescription and full observed-operator test (2026-11-13)
 
 - [Source primitive variation and native-trace current](conditional-build/source-prescription-current-2026-11-13.md).

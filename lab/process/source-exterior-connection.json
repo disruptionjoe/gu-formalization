@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.0",
+  "program_target": "X-P1-P2 / X-P2-P3",
+  "tier": "T2",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "claim_ceiling": "Typed natural scalar-weight operator category, compatible Clifford adjoint, declared normal jets and receiver; gradient lower rival is explicit but not source selected; no effective2+1, action/class-C or global-domain verdict",
+  "evidence_kind": "Written proofs plus four exact supporting/contrary suites; suite counts are not discovery counts",
+  "primary_source_sha256": "3f28d742234a9841fc8e51ff172053200aa3eddf3ece38154a3328b9ebd186d4",
+  "suites": [
+    {
+      "name": "unitary_lower_image",
+      "passed": true,
+      "scope": "Exact reduced Clifford control of all-component response, skew homogeneous remainder, nonunitary comparison, complete trace identity and mean-zero Spin survivor"
+    },
+    {
+      "name": "exterior_and_density",
+      "passed": true,
+      "scope": "Native Cl14 blade-factor support, exact metric torsion/adjoint tradeoff, arbitrary-extension proof support and determinant-density gradient controls"
+    },
+    {
+      "name": "joint_full_receiver",
+      "passed": true,
+      "scope": "Full hidden-kernel Cl6 control, all-row obstruction, nonunitary paired-arrow escape and actual-adjoint failure, same-reference-jet gradient survivor"
+    },
+    {
+      "name": "density_current",
+      "passed": true,
+      "scope": "Fixed-density primitive current preservation, weighted current scaling, density-only row-rescaling failure and stable-family trace nondegeneracy"
+    }
+  ],
+  "proof_refs": [
+    "explorations/conditional-build/source-lower-term-compatibility-2026-11-13.md",
+    "explorations/conditional-build/source-exterior-connection-2026-11-13.md"
+  ],
+  "dependency_sha256": {
+    "explorations/conditional-build/source-lower-term-compatibility-2026-11-13.md": "6fa4367f865d97a9b0b0668d2488d063224bc2d3b8be96c95da6b8ed45f824bf",
+    "explorations/conditional-build/source-exterior-connection-2026-11-13.md": "23851602d6d7b154386eac3ade598aa266c023b7a520b66b5adfd521b909ee0d",
+    "lab/sources/gu-2021-draft-s9-fermionic-operator-extraction-2026-08-04.md": "c250ce367774ff593255cd211e18ea793dd3eddcd843e0520437b6d645a2c31b",
+    "explorations/conditional-build/source-symbol-quotient-membership-2026-11-12.md": "a5cc4279b83beb730bd7848eaa1998c4a8da9c6bcbc89e5d0ff34a09353bd582",
+    "explorations/conditional-build/source-chimeric-trace-compatibility-2026-11-13.md": "3b883233b2f0b0f5787fd9091fd877893a052c47c11a91f291a5b9af271cbb3f",
+    "explorations/conditional-build/source-prescription-current-2026-11-13.md": "6ec3109bb811e49463228b8a7a780303260997c6622baa48b213aa07558e7194",
+    "tests/program-focus/source_exterior_connection_probe.py": "8d3153568801875d8fda13b3f1788bd2b2619ffab6c8b1a46bd045ea3b1b6390"
+  }
+}

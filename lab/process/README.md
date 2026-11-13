@@ -6,6 +6,10 @@ updated_at: "2026-08-23"
 ---
 
 
+## Source exterior connection and lower-term evidence (2026-11-13)
+
+- [Exact report](source-exterior-connection.json): four lower-image, exterior, fullreceiver and density/current suites with positive and contrary controls, source/proof dependency hashes and explicit scope.
+
 ## Source prescription and full observed-operator evidence (2026-11-13)
 
 - [Exact report](source-prescription.json): four primitive/current, source-adapted geometry, joint correction and full form-spin suites; includes false-cancellation contrary control and dependency hashes.

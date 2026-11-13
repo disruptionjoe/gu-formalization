@@ -16,6 +16,46 @@ discovery bet (`lab/process/discovery-bets.json`). The K25xx--K2618 detector, pr
 results below are retained as conditional mathematics; that lane is no longer the default target. Sections
 below are dated results, newest first, and are not steering.
 
+## Source exterior connection and geometric lower-term alternative (2026-11-13)
+
+The full source connection has fourteen components. Retaining all of them,
+the tested natural operator family cannot obtain exact six-spinor closure
+through a unitary spinor-connection change alone with the same adjoint,
+observation and reference normal-jet prescription. Normal components can fix
+the divergence row, but then force a response incompatible with the NW trace.
+This is a structural condition across the scalar-weighted stable family,
+including scalar-input SE completions; arbitrary source contractions and
+effective 2+1 interpretations are not excluded.
+
+Exterior differentiation also differs explicitly from coherent non-LC
+covariantization: torsion insertion enters NW and a connection-trace term
+enters SW. The full split geometric repair is therefore not automatically a
+repair of the source-shaped exterior operator. Metric normal extensions
+exhibit an exact NW/SW tradeoff under the stated coherent-jet convention.
+
+**A concrete alternative survives.** The observer-to-tautological volume ratio
+rho=exp(f), with f=−1/2 log|det(g⁻¹y)|, has gradient t/2. Adding its definite SW
+gradient term restores the tested local closure and, with original density
+and bars fixed, leaves the primitive connection current unchanged. An actual
+weighted-adjoint construction gives the same lower correction; its weighted
+current is rho times the original and agrees on the observation section.
+Simply multiplying the old density by rho does not repair the operator.
+This geometric alternative is derived, but is not source-selected or a
+completed action; its full metric/observation response and domain remain to be tested.
+
+[Full connection constraint and current-preserving alternative](explorations/conditional-build/source-lower-term-compatibility-2026-11-13.md) ·
+[Exterior/adjoint comparison and determinant density](explorations/conditional-build/source-exterior-connection-2026-11-13.md) ·
+[Exact evidence](lab/process/source-exterior-connection.json).
+
+The existing selection rule now reaches counter23: LC-BETS has priority,
+with MASS-GAP and COSMOLOGY tied at23 remaining runs (MASS-GAP listed first).
+For the next eligible matrix work, test the geometric lower term's actual
+source/variational ownership or a changed contraction/jet/readout category.
+Further unitary-connection scans inside the proved fixed-adjoint category
+repeat a settled condition. No new checkpoint or priority-system change.
+Four exact suites and independent reviews support conditional T2; matrix18/18
+remains constrained, triple open, source/ledger0.263/classC unchanged.
+
 ## Source prescription and full observed-operator test (2026-11-13)
 
 The source is explicit about two inputs previously unresolved in this joint

@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 0804d73bdb1d19d8d589684d718db45b571a75cf
+revision_basis: 52a41f1099e39e2a8e0862ef43fd02e99febf108
 program_focus:
   version: 2026-11-09-v1
   authority: joe_direct_chat_2026_11_09
@@ -75,6 +75,26 @@ program_focus:
     - writing down, enumerating, fitting or searching for a specific action, coefficient set or Lagrangian outside lane C
     - building a gated cell's missing object (source action, stabilized RS action, K3-fibered family, boundary connection) as a way to unblock it
     - more than 3 guessed action variants in one lane-C run, or tuning a guessed action's coefficients
+source_exterior_connection_2026_11_13:
+  status: conditional_full_parent_constraint_and_geometric_gradient_survivor
+  summary: All14 unitary spin-only connection components cannot satisfy the fixed-adjoint
+    natural-family exact6S closure condition at native nonzero mean; normal terms
+    fix scalar but force incompatible trace. Exact exterior/form-spin identities explain
+    the coherent-repair gap. Explicit f=-1/2log|det(g^-1y)| has gradientt/2; an actualgradientSW
+    change restores localclosure and preserves primitiveconnectioncurrent atfixeddensity.
+    Density-only rowrescale doesnotrepair; weightedpairing scalesambientcurrent. Sourceownership,
+    fullvariations and global/effectivedomain open. No GU/classC verdict.
+  evidence:
+  - explorations/conditional-build/source-lower-term-compatibility-2026-11-13.md
+  - explorations/conditional-build/source-exterior-connection-2026-11-13.md
+  - lab/process/source-exterior-connection.json
+  next_test: After native counter23 LC-BETS selection, next eligible matrix work should
+    test ownership and full metric/observation variation of the explicit determinant-gradient
+    lower rival, or a genuinely changed source contraction/normal-jet/readout category.
+    Fixed-density addition preserves connection current; actualweightedadjoint changes
+    the operator, and rho-only rowrescale cannotrepair. Do not keep scanning unitary
+    varpi inside the now-classified fixed-adjoint/sameq/LCnormaljet category. Preserve
+    source effective2+1 versus exactclosure distinction and retained rivals.
 source_prescription_joint_2026_11_13:
   status: conditional_source_current_and_complete_minimal_operator_tests
   summary: Source-adapted trace is genuinely normal, norm-4; generic held-graph null
