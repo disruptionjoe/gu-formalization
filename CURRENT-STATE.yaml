@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 40fad00872b35043dd1c3f156c9f14ad6c99662d
+revision_basis: ff1a24bdfeda5b7f76b779621705a69dff502fb6
 program_focus:
   version: 2026-11-09-v1
   authority: joe_direct_chat_2026_11_09
@@ -75,6 +75,20 @@ program_focus:
     - writing down, enumerating, fitting or searching for a specific action, coefficient set or Lagrangian outside lane C
     - building a gated cell's missing object (source action, stabilized RS action, K3-fibered family, boundary connection) as a way to unblock it
     - more than 3 guessed action variants in one lane-C run, or tuning a guessed action's coefficients
+weak_duality_joint_2026_11_13:
+  status: conditional_joint_compatibility_with_source_current_and_geometry_selection_open
+  summary: Full geometric weak transport passes where fixed spin-only transport fails.
+    Arbitrary common degree-row dualities cannot reconcile the unchanged ambient derivative
+    arrows with the printed half labels. Relative-label and odd-tensor alternatives
+    are classified; frozen tensor repairs preserve stable6S propagation but require
+    explicitly transported scalar observation and current. Negative normal metric
+    trace fails fixed weak invariance; positive normal/horizontal selections survive
+    conditionally. Small-curvature response requires stated gap/time and current assumptions.
+    No source/C/physical verdict.
+  evidence:
+  - explorations/conditional-build/source-weak-action-transport-2026-11-13.md
+  - explorations/conditional-build/source-degree-duality-compatibility-2026-11-13.md
+  - lab/process/source-weak-duality.json
 source_membership_2026_11_12:
   status: conditional_full_symbol_survivors_source_action_and_domain_open
   summary: The projected five-spinor criterion is not the full source membership test.

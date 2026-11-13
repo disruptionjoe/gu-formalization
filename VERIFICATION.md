@@ -17,6 +17,32 @@ External review is not a pathway in this program. The honesty label stays: inter
 
 Sections below are historical snapshots in file order.
 
+## Joint weak-action and density-duality tests (2026-11-13)
+
+The full geometric normal weak action transports through the retained six-spinor
+receiver; fixed spin-only action does not. The correlated chirality operators
+are now explicit. Conditional small-curvature response estimates identify the
+required gap/time/current assumptions and fail uniformly near resonance.
+
+A complete spanning argument excludes every common nondegenerate degree-row
+duality for the unchanged full-ambient arrows and printed ambient labels.
+Relative-degree relabels and odd-tensor arrow changes remain explicit alternatives.
+Their frozen zero-SE propagation is equivalent to the stable6S category, with
+scalar observation/current transported. The native negative normal trace is
+incompatible with fixed weak invariance; positive normal or horizontal vectors
+supply conditional alternatives with additional geometric selection. These are
+structural requirements, not a selected action or recovered physical chirality.
+
+[Weak transport and effective bounds](explorations/conditional-build/source-weak-action-transport-2026-11-13.md) ·
+[Duality classification and joint repairs](explorations/conditional-build/source-degree-duality-compatibility-2026-11-13.md) ·
+[Exact evidence](lab/process/source-weak-duality.json).
+
+Independent joint review and three exact supporting/contrary suites support
+conditional T2 acceptance. No source/ledger0.263/classC/canon change, full-class
+kill, Lean certification or physical prediction. Matrix18/18 remains constrained
+and the triple intersection open. Counter20 records this directed work; current
+program_focus remains unchanged and owns subsequent selection.
+
 ## Full source-symbol membership (2026-11-12)
 
 The previous projected five-spinor survivor does not preserve all source-visible

@@ -1,0 +1,38 @@
+{
+  "schema_version": "1.0",
+  "program_target": "X-P1-P2 / X-P2-P3",
+  "tier": "T2",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "claim_ceiling": "Frozen structural categories and conditional estimates; no source-selected action, physical chirality/current, class-C decision or global-domain realization",
+  "evidence_kind": "Written general proofs with three exact supporting/contrary control suites; suite or assertion counts are not discovery counts",
+  "suites": [
+    {
+      "name": "weak_transport",
+      "passed": true,
+      "scope": "Reduced complex Clifford controls: su2, surjective hidden defect, geometric covariance, common invariant kernel, transported grades, conditional source-toy response and weak-fixed adapter countercontrol"
+    },
+    {
+      "name": "degree_duality",
+      "passed": true,
+      "scope": "Primary16-cell transcription, all16 independent degree-label flips, two relative-relabel solutions, arrow parity repairs and contrary controls"
+    },
+    {
+      "name": "joint_repairs",
+      "passed": true,
+      "scope": "ReducedCl(3,1) exact LDR identities, stable evolution similarity, q-kernel closure, raw-row contrary control, shared bilinear congruence and null adapter failure"
+    }
+  ],
+  "proof_refs": [
+    "explorations/conditional-build/source-weak-action-transport-2026-11-13.md",
+    "explorations/conditional-build/source-degree-duality-compatibility-2026-11-13.md"
+  ],
+  "dependency_sha256": {
+    "explorations/conditional-build/source-weak-action-transport-2026-11-13.md": "e703070c924bc75fda2b4c0af7c3d637392a453396406e9e8f5dd5320c2e4724",
+    "explorations/conditional-build/source-degree-duality-compatibility-2026-11-13.md": "0623be0dc4d616ce0abe4f99ddb2d8e01a9e71888a0fa24808597148d95b0ef6",
+    "lab/sources/gu-2021-draft-s9-fermionic-operator-extraction-2026-08-04.md": "c250ce367774ff593255cd211e18ea793dd3eddcd843e0520437b6d645a2c31b",
+    "lab/sources/gu-2021-draft-s11-s12-extraction-2026-08-03.md": "178fe9f63f1c295b4a0c0d921b626fa279b52570e808811dbf5a2fa0eed0ed2d",
+    "explorations/conditional-build/source-symbol-quotient-membership-2026-11-12.md": "a5cc4279b83beb730bd7848eaa1998c4a8da9c6bcbc89e5d0ff34a09353bd582",
+    "explorations/conditional-build/source-current-grading-membership-2026-11-12.md": "2adf46bf3c12d598ab9292c2438b7c3e7b4acaba9a2463fc971bc234c7227a16",
+    "tests/program-focus/source_weak_duality_probe.py": "ff8a468e93dc4b5ca2c7c24eb929641ac3f2051f353ae07d38951698452b5b92"
+  }
+}

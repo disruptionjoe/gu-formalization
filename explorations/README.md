@@ -6,6 +6,11 @@ updated_at: "2026-08-21"
 ---
 
 
+## Joint weak-action and density-duality tests (2026-11-13)
+
+- [Weak action, full observation and effective conditions](conditional-build/source-weak-action-transport-2026-11-13.md).
+- [Degree-dependent dualities and joint geometric repairs](conditional-build/source-degree-duality-compatibility-2026-11-13.md).
+
 ## Full source-symbol membership (2026-11-12)
 
 - [Observation and full natural-symbol stability](conditional-build/source-symbol-quotient-membership-2026-11-12.md).

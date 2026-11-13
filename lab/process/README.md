@@ -6,6 +6,10 @@ updated_at: "2026-08-23"
 ---
 
 
+## Joint weak-action and density-duality evidence (2026-11-13)
+
+- [Exact report](source-weak-duality.json): three exact supporting/contrary suites for weak transport, all degree-label choices, joint repair/propagation equivalence and source dependency hashes.
+
 ## Full source-operator membership evidence (2026-11-12)
 
 - [Exact report](source-operator-membership.json): complete scalar-category identities, independent chiral-weight controls, actual native hidden-shift/current identities and source dependency hashes.
