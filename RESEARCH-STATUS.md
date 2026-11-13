@@ -16,6 +16,39 @@ discovery bet (`lab/process/discovery-bets.json`). The K25xx--K2618 detector, pr
 results below are retained as conditional mathematics; that lane is no longer the default target. Sections
 below are dated results, newest first, and are not steering.
 
+## Joint symmetry, current and actual-normal geometry (2026-11-13)
+
+The full scalar-adapter category is now classified under Lorentz plus the
+normal gauge reductions: Pati–Salam allows no odd map, full Standard Model
+symmetry permits only rank8/128 sterile support, and color plus electromagnetism
+admits full-rank adapters. Higher Clifford tensors and real/antilinear maps do
+not evade the fullSM charged-support obstruction. These are conditional
+representation tests, not physical family or effective-chirality counts.
+
+Even the colorEM survivor fails the tested independently held nondegenerate standard spin-action cross-current
+when literal source scalar coordinates are fixed. Transporting the fields,
+independent bars, density, current and observation gives a viable equivalent
+branch. Moving adapters require exact connection terms; a large gradient alone
+is not a hyperbolicity failure. Fixed Sobolev domains have separate costs.
+
+The native trace now has a computable actual-normal test: its projected squared
+norm is **-4-bᵀM⁻¹b**, where M is the graph tangent metric and b records the
+trace of its slope. Tracefree slopes preserve -4. Exact negative, nonzero-null
+and positive controls all retain Lorentz tangent signature. Thus neither the
+old vertical norm nor an abstract missing-bridge claim settles this candidate.
+
+[Symmetry and fixed-current classification](explorations/conditional-build/source-joint-symmetry-current-2026-11-13.md) ·
+[Moving repairs and exact trace discriminator](explorations/conditional-build/source-moving-repair-2026-11-13.md) ·
+[Exact evidence](lab/process/source-current-geometry.json).
+
+**Next useful test:** extract the source's actual current-variation and graph
+splitting prescription, then apply these tests to the same construction,
+including residual-group alignment and any extra U1. Do not repeat generic
+adapter scans or treat a fixed-current failure as excluding transported readouts.
+Independent review and four exact suites support conditional T2 acceptance.
+Matrix18/18 remains constrained, triple intersection open, counter21.
+Source/ledger0.263/classC/canon and program_focus are unchanged.
+
 ## Joint weak-action and density-duality tests (2026-11-13)
 
 The full geometric normal weak action transports through the retained six-spinor

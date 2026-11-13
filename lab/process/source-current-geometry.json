@@ -1,0 +1,45 @@
+{
+  "schema_version": "1.0",
+  "program_target": "X-P1-P2 / X-P2-P3",
+  "tier": "T2",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "claim_ceiling": "Conditional symmetry/current/geometry categories; no source-selected action, physical chirality/current, class-C decision or global-domain realization",
+  "evidence_kind": "Written general proofs with four exact supporting/contrary suites; suite or assertion counts are not discovery counts",
+  "suites": [
+    {
+      "name": "full_symmetry",
+      "passed": true,
+      "scope": "Exact branching, PS/SM/EM commutant dimensions and ranks, degree-five sterile exchange, neutral-vector and broken-generator controls"
+    },
+    {
+      "name": "fixed_current",
+      "passed": true,
+      "scope": "Charged/sterile support, equivariance versus held current, independent triangular maps, density-row conjugation and full connection chain rule"
+    },
+    {
+      "name": "moving_geometry",
+      "passed": true,
+      "scope": "Moving involution, connection adjustment, Leibniz and connection-current variation, symbolic graph-normal projection with fixed tangent signature"
+    },
+    {
+      "name": "graph_trace",
+      "passed": true,
+      "scope": "Independent rational negative/null/positive/tracefree graph controls, nonzero null normal, exact orthogonality and rejection of tangent degeneracy"
+    }
+  ],
+  "proof_refs": [
+    "explorations/conditional-build/source-joint-symmetry-current-2026-11-13.md",
+    "explorations/conditional-build/source-moving-repair-2026-11-13.md"
+  ],
+  "dependency_sha256": {
+    "explorations/conditional-build/source-joint-symmetry-current-2026-11-13.md": "2f49204497eb2b76c5f0d696d373b0f1d29a08725049474007b60779c7b6bf3c",
+    "explorations/conditional-build/source-moving-repair-2026-11-13.md": "92264ce0c05e8d6787b47b51b52500df392a9bd2d74f1fb18a16cf261e10c733",
+    "lab/sources/gu-2021-draft-s9-fermionic-operator-extraction-2026-08-04.md": "c250ce367774ff593255cd211e18ea793dd3eddcd843e0520437b6d645a2c31b",
+    "lab/sources/gu-2021-draft-s11-s12-extraction-2026-08-03.md": "178fe9f63f1c295b4a0c0d921b626fa279b52570e808811dbf5a2fa0eed0ed2d",
+    "explorations/conditional-build/source-symbol-quotient-membership-2026-11-12.md": "a5cc4279b83beb730bd7848eaa1998c4a8da9c6bcbc89e5d0ff34a09353bd582",
+    "explorations/conditional-build/source-current-grading-membership-2026-11-12.md": "2adf46bf3c12d598ab9292c2438b7c3e7b4acaba9a2463fc971bc234c7227a16",
+    "explorations/conditional-build/source-weak-action-transport-2026-11-13.md": "e703070c924bc75fda2b4c0af7c3d637392a453396406e9e8f5dd5320c2e4724",
+    "explorations/conditional-build/source-degree-duality-compatibility-2026-11-13.md": "0623be0dc4d616ce0abe4f99ddb2d8e01a9e71888a0fa24808597148d95b0ef6",
+    "tests/program-focus/source_current_geometry_probe.py": "77538f138b45f6b51541410dfe9c45b64d32c15b9cd53cadeb3ddddb16cf1427"
+  }
+}

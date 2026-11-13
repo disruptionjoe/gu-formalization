@@ -6,6 +6,10 @@ updated_at: "2026-08-23"
 ---
 
 
+## Joint symmetry, current and actual-normal geometry evidence (2026-11-13)
+
+- [Exact report](source-current-geometry.json): four exact symmetry/current/moving/graph-trace suites, with contrary controls and proof/source dependency hashes.
+
 ## Joint weak-action and density-duality evidence (2026-11-13)
 
 - [Exact report](source-weak-duality.json): three exact supporting/contrary suites for weak transport, all degree-label choices, joint repair/propagation equivalence and source dependency hashes.

@@ -6,6 +6,11 @@ updated_at: "2026-08-21"
 ---
 
 
+## Joint symmetry, current and actual-normal geometry (2026-11-13)
+
+- [Full symmetry and fixed-current classification](conditional-build/source-joint-symmetry-current-2026-11-13.md).
+- [Moving repairs and the exact actual-normal trace test](conditional-build/source-moving-repair-2026-11-13.md).
+
 ## Joint weak-action and density-duality tests (2026-11-13)
 
 - [Weak action, full observation and effective conditions](conditional-build/source-weak-action-transport-2026-11-13.md).

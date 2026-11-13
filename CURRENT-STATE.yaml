@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: ff1a24bdfeda5b7f76b779621705a69dff502fb6
+revision_basis: eec8f07b83658fe1fd16e5c75d026be813da497d
 program_focus:
   version: 2026-11-09-v1
   authority: joe_direct_chat_2026_11_09
@@ -75,6 +75,20 @@ program_focus:
     - writing down, enumerating, fitting or searching for a specific action, coefficient set or Lagrangian outside lane C
     - building a gated cell's missing object (source action, stabilized RS action, K3-fibered family, boundary connection) as a way to unblock it
     - more than 3 guessed action variants in one lane-C run, or tuning a guessed action's coefficients
+current_geometry_joint_2026_11_13:
+  status: conditional_symmetry_current_classification_and_explicit_graph_trace_discriminator
+  summary: Lorentz plus fullSM admits odd scalar adapters only on rank8/128 sterile
+    support; colorEM admits full-rank adapters but independently held cross-currents
+    still exclude global odd scalar repairs. Transported currents/observations survive.
+    Exact moving compensation preserves6S hidden leakage and transported energy, with
+    fixed-domain costs distinguished. Actual-normal trace norm is -4-b^T M^-1 b, permitting
+    negative/null/positive values at unchanged Lorentz tangent signature; tracefree
+    slopes preserve -4. Source actual current/reduction/section prescription remains
+    the next discriminator. No source/C/physics verdict.
+  evidence:
+  - explorations/conditional-build/source-joint-symmetry-current-2026-11-13.md
+  - explorations/conditional-build/source-moving-repair-2026-11-13.md
+  - lab/process/source-current-geometry.json
 weak_duality_joint_2026_11_13:
   status: conditional_joint_compatibility_with_source_current_and_geometry_selection_open
   summary: Full geometric weak transport passes where fixed spin-only transport fails.
