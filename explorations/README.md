@@ -6,6 +6,11 @@ updated_at: "2026-08-21"
 ---
 
 
+## Source prescription and full observed-operator test (2026-11-13)
+
+- [Source primitive variation and native-trace current](conditional-build/source-prescription-current-2026-11-13.md).
+- [Source-adapted geometry and full operator](conditional-build/source-chimeric-trace-compatibility-2026-11-13.md).
+
 ## Joint symmetry, current and actual-normal geometry (2026-11-13)
 
 - [Full symmetry and fixed-current classification](conditional-build/source-joint-symmetry-current-2026-11-13.md).

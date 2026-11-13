@@ -16,6 +16,46 @@ Do not add "Current follow-through" sections or "Historical predecessor" stacks 
 matrix or bet file. The retired follow-through chain and banner stack are kept at the end of this file under
 "Archived steering history".
 
+## Source prescription and full observed-operator test (2026-11-13)
+
+The source is explicit about two inputs previously unresolved in this joint
+membership test. The observing
+metric induces its own horizontal lift, making its section horizontal. In the
+source-guided connection-metric reconstruction, the trace is therefore a real
+normal vector with norm−4. Generic graph-null controls do not exclude it.
+Separately, the source varies the independent connection translation while
+holding metric and epsilon fixed; that full-parent variation includes iI.
+
+Applying these facts to the same paired trace repairs gives a **rank128 held
+cross-current defect**, even after making the trace parallel. Transporting the
+scalar, bars, density and readout remains viable. A vacuum stabilizer is not a
+restriction of the source's primitive connection variation by itself.
+
+The geometric test now reaches a complete differential expression. The
+ambient reference connection gives ∇Xt=X/2. The minimal coherently covariantized
+tangential family has a genuine normalized six-spinor observation defect.
+Correcting only trace mixing still fails; cancelling the whole tangent/normal
+mixing is sufficient for that minimal family. A source spinor-connection shift
+does **not** automatically change the exterior/form connection coherently.
+The latter distinction, and the actual printed lower-order terms, is the next
+finite compatibility test. Arbitrary added lower terms are not excluded.
+
+Reuse correction: the old pure-vertical trace-flat result remains valid, but
+must not be widened to all ambient planes. The horizontal/trace plane has
+R(X,t)t=−X/4 in the flat-base control. No physical curvature prediction follows.
+
+[Source current proof](explorations/conditional-build/source-prescription-current-2026-11-13.md) ·
+[Geometry and full-operator proof](explorations/conditional-build/source-chimeric-trace-compatibility-2026-11-13.md) ·
+[Exact evidence](lab/process/source-prescription.json).
+
+**Next useful test:** compare the actual source d_A/form-leg and lower-order
+varpi blocks with the required normalized-observation correction, retaining
+transported-current and operator-rival alternatives. Do not rediscover the
+primitive variation, scan arbitrary graph slopes, or equate exact autonomous
+closure with the source's effective 2+1/nonchiral claim. Four exact suites and
+independent review support conditional T2. Matrix18/18 remains constrained,
+triple open, counter22. Source/ledger0.263/classC/program_focus are unchanged.
+
 ## Joint symmetry, current and actual-normal geometry (2026-11-13)
 
 The full scalar-adapter category is now classified under Lorentz plus the

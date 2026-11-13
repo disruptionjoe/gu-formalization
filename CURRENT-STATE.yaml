@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: eec8f07b83658fe1fd16e5c75d026be813da497d
+revision_basis: 0804d73bdb1d19d8d589684d718db45b571a75cf
 program_focus:
   version: 2026-11-09-v1
   authority: joe_direct_chat_2026_11_09
@@ -75,6 +75,27 @@ program_focus:
     - writing down, enumerating, fitting or searching for a specific action, coefficient set or Lagrangian outside lane C
     - building a gated cell's missing object (source action, stabilized RS action, K3-fibered family, boundary connection) as a way to unblock it
     - more than 3 guessed action variants in one lane-C run, or tuning a guessed action's coefficients
+source_prescription_joint_2026_11_13:
+  status: conditional_source_current_and_complete_minimal_operator_tests
+  summary: Source-adapted trace is genuinely normal, norm-4; generic held-graph null
+    search retired for this reconstruction. Source full-parent fixed-metric/epsilon
+    varpi variation detects rank128 held cross-current change under paired trace repairs,
+    even trace-parallel. Ambient trace derivative X/2 causes actual minimal normalized6S
+    leakage; coherent trace-only correction fails, full split correction sufficient
+    but source form-leg realization unproved. Pure-vertical trace-flatness does not
+    imply ambient trace-flatness. Transported current/readout and source operator
+    rivals survive; no physical/classC verdict.
+  evidence:
+  - explorations/conditional-build/source-prescription-current-2026-11-13.md
+  - explorations/conditional-build/source-chimeric-trace-compatibility-2026-11-13.md
+  - lab/process/source-prescription.json
+  next_test: Test the source actual exterior d_A/form-leg and printed lower-order
+    varpi blocks against the exact normalized6S defect on the SAME construction. Determine
+    whether admissible spinor-connection displacement supplies required cancellation
+    or whether a coherent split repair changes the source operator/current. Keep transported
+    scalar/bars/readout and source-admitted operator rivals live; exact sector autonomy
+    is a conditional comparator, not the source effective2+1 claim. Do not repeat
+    generic graph-null or primitive-variation discovery.
 current_geometry_joint_2026_11_13:
   status: conditional_symmetry_current_classification_and_explicit_graph_trace_discriminator
   summary: Lorentz plus fullSM admits odd scalar adapters only on rank8/128 sterile

@@ -6,6 +6,10 @@ updated_at: "2026-08-23"
 ---
 
 
+## Source prescription and full observed-operator evidence (2026-11-13)
+
+- [Exact report](source-prescription.json): four primitive/current, source-adapted geometry, joint correction and full form-spin suites; includes false-cancellation contrary control and dependency hashes.
+
 ## Joint symmetry, current and actual-normal geometry evidence (2026-11-13)
 
 - [Exact report](source-current-geometry.json): four exact symmetry/current/moving/graph-trace suites, with contrary controls and proof/source dependency hashes.

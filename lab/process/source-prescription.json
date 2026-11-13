@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.0",
+  "program_target": "X-P1-P2 / X-P2-P3",
+  "tier": "T2",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "claim_ceiling": "Source-guided connection-metric reconstruction and specified paired repairs/minimal tangential family; no source unique completion, stationary action, effective sector or class-C decision",
+  "evidence_kind": "Written general proofs with four exact supporting/contrary suites; suite counts are not discovery counts",
+  "primary_source_sha256": "3f28d742234a9841fc8e51ff172053200aa3eddf3ece38154a3328b9ebd186d4",
+  "suites": [
+    {
+      "name": "source_primitive_current",
+      "passed": true,
+      "scope": "Exact A/B/T variation jet, moving invariant tensor and differential wrappers; full-rank native trace polynomial identity, real/complex normalization and parallel-background contrary controls"
+    },
+    {
+      "name": "source_adapted_geometry",
+      "passed": true,
+      "scope": "Native second fundamental form, mean and indefinite norm, rank4 bare defect including null tangents, trace-only survivor leakage and mixed horizontal/trace curvature"
+    },
+    {
+      "name": "joint_connection_current",
+      "passed": true,
+      "scope": "Mixed Spin correction, central tangent variation and paired-versus-unpaired current controls"
+    },
+    {
+      "name": "full_operator",
+      "passed": true,
+      "scope": "Coherent full form+spin tracefree lower defect versus false cancellation after dropping normal spin response; four active complex Clifford generators, universal14-dimensional proof in note"
+    }
+  ],
+  "proof_refs": [
+    "explorations/conditional-build/source-prescription-current-2026-11-13.md",
+    "explorations/conditional-build/source-chimeric-trace-compatibility-2026-11-13.md"
+  ],
+  "dependency_sha256": {
+    "explorations/conditional-build/source-prescription-current-2026-11-13.md": "6ec3109bb811e49463228b8a7a780303260997c6622baa48b213aa07558e7194",
+    "explorations/conditional-build/source-chimeric-trace-compatibility-2026-11-13.md": "3b883233b2f0b0f5787fd9091fd877893a052c47c11a91f291a5b9af271cbb3f",
+    "lab/sources/gu-2021-draft-s9-fermionic-operator-extraction-2026-08-04.md": "c250ce367774ff593255cd211e18ea793dd3eddcd843e0520437b6d645a2c31b",
+    "explorations/conditional-build/source-symbol-quotient-membership-2026-11-12.md": "a5cc4279b83beb730bd7848eaa1998c4a8da9c6bcbc89e5d0ff34a09353bd582",
+    "explorations/conditional-build/source-joint-symmetry-current-2026-11-13.md": "2f49204497eb2b76c5f0d696d373b0f1d29a08725049474007b60779c7b6bf3c",
+    "explorations/conditional-build/source-moving-repair-2026-11-13.md": "92264ce0c05e8d6787b47b51b52500df392a9bd2d74f1fb18a16cf261e10c733",
+    "tests/program-focus/source_prescription_probe.py": "780e059c031158d5937bbfc3bea8025c441512fc09ac90b21ab9e47e0c73b84c"
+  }
+}
