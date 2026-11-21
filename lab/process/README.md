@@ -3455,3 +3455,5 @@ consistency workflow.
 - [Zero-total grading evidence](zero-total-grading-premise.json) and [independent review](hostile-reviews/2026-11-20-zero-total-grading-review.md): conditional Item1step2 result.
 
 - [Krein order-3 evidence](krein-order3-observation-label.json) and [independent review](hostile-reviews/2026-11-20-krein-order3-label-review.md): Item2steps2/3 construction and label result.
+
+- [Native grading report](native-descending-grading-classification.json) and [review](hostile-reviews/2026-11-21-native-descending-grading-review.md): outcome3, scoped totals/parity/residue and no native index verdict.

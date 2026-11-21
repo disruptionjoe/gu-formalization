@@ -1,10 +1,10 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 3b5685a5ba679640dd66accbe1768e6b2a7845d4
+revision_basis: cc6bd40f4110c5e3a0f4cc8519b4a80e3508d2a1
 program_focus:
-  version: 2026-11-20-v2
-  authority: joe_direct_chat_2026_11_20
+  version: 2026-11-21-v1
+  authority: joe_direct_chat_2026_11_21
   priority_packets:
   - lab/process/work-packets/observed-hidden-index-split-2026-11-20.md
   - lab/process/work-packets/native-complex-order3-fork-2026-11-20.md
@@ -14,7 +14,8 @@ program_focus:
     slots: B-lane slots only; run_selection rules 1 and 2 remain prior.
     order: When both have ready steps, alternate between these packets; Item 1 goes first on ties. Within
       the selected packet take its earliest ready step.
-    last_served_packet: lab/process/work-packets/native-complex-order3-fork-2026-11-20.md
+    directed_priority_2026_11_21: Item1 native-grading decision first; step3 optional cheap T3; Item2step4 parked until a native integer observable exists. Existing rule1 and LC cadence unchanged.
+    last_served_packet: lab/process/work-packets/observed-hidden-index-split-2026-11-20.md
     tie_first: lab/process/work-packets/observed-hidden-index-split-2026-11-20.md
     terminal_handling: Skip packets done or killed and steps blocked by explicit dependencies; record supporting
       evidence. Do not infer a packet kill from an unbuilt object or unresolved hypothesis.
@@ -88,6 +89,38 @@ program_focus:
     - writing down, enumerating, fitting or searching for a specific action, coefficient set or Lagrangian outside lane C
     - building a gated cell's missing object (source action, stabilized RS action, K3-fibered family, boundary connection) as a way to unblock it
     - more than 3 guessed action variants in one lane-C run, or tuning a guessed action's coefficients
+native_descending_grading_2026_11_21:
+  status: outcome3_packet_closed_blocked
+  tier: T2
+  actual_delta: Complete quotient-lift normal form with operator/pairing/domain conditions; coherent horizontal
+    is not uniquely forced by observation. Four independent-product-covariant complex RS symbol grades
+    have closed-spin totals -820sigma, 368sigma twice, 1556sigma; all multiples64 with residue8k mod24
+    for sigma16k. Native physical weak/current and graded Fredholm realization remain unspecified. Outcome3
+    closes Item1 blocked on NATIVE-GRADED-FREDHOLM-OBSERVATION; no C kill or native zero witness.
+  evidence:
+  - explorations/conditional-build/native-descending-grading-classification-2026-11-21.md
+  - lab/process/native-descending-grading-classification.json
+  - tests/program-focus/native_descending_grading_probe.py
+  - Lean/GUFormalization/ObservedHiddenSplit.lean
+  - lab/process/hostile-reviews/2026-11-21-native-descending-grading-review.md
+  blocked_on:
+    id: NATIVE-GRADED-FREDHOLM-OBSERVATION
+    physical_observation: Source-authenticated weak-current carrier/projector and actual contraction-plus-physical
+      reduction. Kinematic chiH alone is insufficient.
+    operator_compatibility: Total/hidden/observed graded symbol classes and full coupling compatibility
+      sufficient to solve the block oddness equations. No action construction requested.
+    domains: Graph-continuous surjective observation on compatible grade-stable closed Fredholm domains,
+      actual adjoint/end data and relative boundary-index correction.
+  item1_packet: lab/process/work-packets/observed-hidden-index-split-2026-11-20.md
+  item1_next_ready_step: null
+  optional_additivity: T3 finite six-space exact-sequence proof completed
+  item2_packet: lab/process/work-packets/native-complex-order3-fork-2026-11-20.md
+  item2_next_ready_step: null
+  claim_effect: No row/class/source verdict or scientific matrix status change. Conditional candidate
+    typing retained.
+  continuation: No ready step in these packets; unchanged program_focus selection continues elsewhere.
+    Reopen only with named input or independently proved structural resolution, never by building X.
+  counter_accounting: One manual directed LB-LADDER run,25 to26; no LC bet attempt or cadence change.
 krein_order3_label_2026_11_20:
   status: T2_construction_specific_benchmark_and_map_result
   actual_delta: Ghost-retained elliptic W_t has index-40+2t and rho_k=k(1+t)/3 modZ;

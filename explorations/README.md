@@ -5151,3 +5151,5 @@ keeps the `lambda_def` alias, nonlinear BV and null/Green domain explicit.
 - [Zero-total premise and grading audit](conditional-build/zero-total-grading-premise-2026-11-20.md): source-premised cancellation, actual descent, and structural zero conditions.
 
 - [Krein order-3 and observation label](conditional-build/krein-order3-observation-label-2026-11-20.md): declared ghost gradings, actual imposter trace, and native transfer limits.
+
+- [Native descending-grade classification](conditional-build/native-descending-grading-classification-2026-11-21.md): complete quotient normal form, four scoped symbol lifts, indices and exact native missing datum.

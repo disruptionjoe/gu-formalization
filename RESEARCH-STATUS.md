@@ -16,6 +16,23 @@ discovery bet (`lab/process/discovery-bets.json`). The K25xx--K2618 detector, pr
 results below are retained as conditional mathematics; that lane is no longer the default target. Sections
 below are dated results, newest first, and are not steering.
 
+## Descending grades and native index boundary (2026-11-21)
+
+Observation alone does not force the coherent horizontal lift. A general
+quotient-lift normal form now states the additional operator and domain tests.
+In the closed spin four-manifold comparison with metric-normal bundle, four
+product-covariant RS symbol lifts have totals -820sigma, 368sigma (twice), and
+1556sigma. All are multiples of64, with integer residue8k mod24 when sigma=16k.
+That residue is not an equivariant rho or stable-homotopy e-invariant.
+
+Outcome3 applies to the native question: the physical weak-current observation,
+compatible graded operator and graph/end data have not been supplied. Neither
+a native zero-total witness nor universal nonzero obstruction is established.
+Scientific row/class/source verdicts remain unchanged. The imposter is an
+ambient kernel label; its actual observed image is gamma-trace.
+
+[Derivation](explorations/conditional-build/native-descending-grading-classification-2026-11-21.md).
+
 ## Ghost grading and observed imposter (2026-11-20)
 
 The defined Nikulin benchmark retains its spinor fields while choosing

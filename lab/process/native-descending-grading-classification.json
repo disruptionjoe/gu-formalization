@@ -1,0 +1,108 @@
+{
+  "date": "2026-11-21",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "tier": "T2",
+  "program_target": [
+    "X-P1-P2-P3",
+    "P3xglobal_index"
+  ],
+  "base_revision": "cc6bd40f4110c5e3a0f4cc8519b4a80e3508d2a1",
+  "outcome": 3,
+  "actual_delta": "Complete quotient-lift normal form with operator/pairing/domain conditions; coherent horizontal is not uniquely forced by observation. Four independent-product-covariant complex RS symbol grades have closed-spin totals -820sigma, 368sigma twice, 1556sigma; all multiples64 with residue8k mod24 for sigma16k. Native physical weak/current and graded Fredholm realization remain unspecified. Outcome3 closes Item1 blocked on NATIVE-GRADED-FREDHOLM-OBSERVATION; no C kill or native zero witness.",
+  "general_grading_set": {
+    "normal_form": "G=[[A,T],[0,g]], A^2=1, AT+Tg=0, qG=gq",
+    "operator_conditions": "{A,Dh}=0, {g,Do}=0, AL+TDo+DhT+Lg=0; common graph-compatible grade-stable domains and qDomD=DomDo",
+    "equivalence_ceiling": "q-preserving shear is algebraic; physical equivalence also requires D/domain/pairing/current/reality intertwining.",
+    "scope": "All supplied bounded quotient lifts, not an assertion of native physical realization or full-C finite enumeration."
+  },
+  "closed_comparison": {
+    "domain": "Closed oriented spin X4, positive elliptic transfer, N=Sym2 T*X; canonical tangential projected RS symbol, independent SpinH x SpinN covariance, g=chiH",
+    "observed_index": "368 sigma",
+    "hidden_half_index": "594 sigma",
+    "rows": [
+      {
+        "hidden_signs": [
+          -1,
+          -1
+        ],
+        "total_coefficient": -820
+      },
+      {
+        "hidden_signs": [
+          -1,
+          1
+        ],
+        "total_coefficient": 368
+      },
+      {
+        "hidden_signs": [
+          1,
+          -1
+        ],
+        "total_coefficient": 368
+      },
+      {
+        "hidden_signs": [
+          1,
+          1
+        ],
+        "total_coefficient": 1556
+      }
+    ],
+    "parity": "all divisible64 for sigma16k; even",
+    "integer_mod24": "8k mod24 for all four; NOT rho or stable-homotopy e-invariant",
+    "K3_totals": [
+      13120,
+      -5888,
+      -5888,
+      -24896
+    ],
+    "K3_mod24": [
+      16,
+      16,
+      16,
+      16
+    ],
+    "quaternionic_restriction": "Uniform JG=-GJ retains the two equal-sign lifts, still not unique; K95 fixture only."
+  },
+  "native_totals": {
+    "integer": "undetermined without the named observation/operator/domain datum",
+    "parity": "not certified",
+    "integer_mod24": "not certified",
+    "conditional_formula": "I_total=I_hidden(A)+I_observed(g), also in Z/2 and Z/24, under compatible Fredholm exactness",
+    "domain_control": "Changing a Fredholm graph domain by codimension r shifts index by -r; not proof such changes are allowed in C."
+  },
+  "blocked_on": {
+    "id": "NATIVE-GRADED-FREDHOLM-OBSERVATION",
+    "physical_observation": "Source-authenticated weak-current carrier/projector and actual contraction-plus-physical reduction. Kinematic chiH alone is insufficient.",
+    "operator_compatibility": "Total/hidden/observed graded symbol classes and full coupling compatibility sufficient to solve the block oddness equations. No action construction requested.",
+    "domains": "Graph-continuous surjective observation on compatible grade-stable closed Fredholm domains, actual adjoint/end data and relative boundary-index correction."
+  },
+  "kill": false,
+  "native_zero_witness": false,
+  "source_claim_effect": "none; source nonchirality remains premise, P3 prior typing retained",
+  "item2_priority": "parked pending native integer; ambient kernel label versus observed gamma-trace distinguished",
+  "validation": {
+    "exact_probe": "PASS45 exact controls",
+    "lean": "Lean4.32rc1 compiled both finite exact-sequence theorems; no sorry; unused-section-variable warning only",
+    "independent_review": "lab/process/hostile-reviews/2026-11-21-native-descending-grading-review.md",
+    "proof_scope": "finite exactness supplied; no analytic-domain or physical-source realization",
+    "process_gates": "PASS program_focus, reverse direction, source routing (5 existing unclassified), process map, frontmatter, scoped typed/kill and exact footprint/current packet consistency",
+    "existing_limit": "Explorations directory-map unique-directory-link check already fails at base: conditional-build links808, now809; link resolution and boundary language pass. No validator changed.",
+    "dated_priority_probe": "Nov20 registration probe hardcodes prior version/authority and integer-only step IDs; current directed priority consistency verified separately without modifying the historical probe."
+  },
+  "source_hashes": {
+    "AGENTS.md": "c3ec8c8cfc816b68b81b05c4daf442f710563ebd54841b80d3f6385ec962ccc8",
+    "GEOMETER-VS-PHYSICS-OBJECTS.md": "19bd34bdf0983cc0765b8bc7f1df8f112957bc3f947d1e94348e4d733ba0056d",
+    "lab/process/action-class.json": "f659679303c82778a65ca33d69a4f72cc9bfb29c37456da5fd73ab6e77746ab9",
+    "lab/sources/source-claim-register.yaml": "dc3ae173b4cc0eb2a0e343e3d92d5f110b8e4f6eef3e2852a1e897ab4371ade6",
+    "lab/process/reverse-scaffold-method-contract.json": "4f1138022e0d4c39b373f6b71a72278e17f97e91caf184dc34e22116df16ca82"
+  },
+  "evidence": [
+    "explorations/conditional-build/native-descending-grading-classification-2026-11-21.md",
+    "lab/process/native-descending-grading-classification.json",
+    "tests/program-focus/native_descending_grading_probe.py",
+    "Lean/GUFormalization/ObservedHiddenSplit.lean",
+    "lab/process/hostile-reviews/2026-11-21-native-descending-grading-review.md"
+  ]
+}

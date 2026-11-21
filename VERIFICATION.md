@@ -17,6 +17,29 @@ External review is not a pathway in this program. The honesty label stays: inter
 
 Sections below are historical snapshots in file order.
 
+## Descending grades and native index boundary (2026-11-21)
+
+Observation alone does not force the coherent horizontal lift. A general
+quotient-lift normal form now states the additional operator and domain tests.
+In the closed spin four-manifold comparison with metric-normal bundle, four
+product-covariant RS symbol lifts have totals -820sigma, 368sigma (twice), and
+1556sigma. All are multiples of64, with integer residue8k mod24 when sigma=16k.
+That residue is not an equivariant rho or stable-homotopy e-invariant.
+
+Outcome3 applies to the native question: the physical weak-current observation,
+compatible graded operator and graph/end data have not been supplied. Neither
+a native zero-total witness nor universal nonzero obstruction is established.
+Scientific row/class/source verdicts remain unchanged. The imposter is an
+ambient kernel label; its actual observed image is gamma-trace.
+
+[Derivation](explorations/conditional-build/native-descending-grading-classification-2026-11-21.md).
+
+PASS45 exact quotient, character, index, domain-sensitivity and K95 Clifford controls.
+Independent T2 specialist review accepted the scoped result after corrections.
+The optional T3 six-space exact-sequence additivity and balanced-total corollary
+compiled in Lean4.32rc1 without sorry, using the existing cache. Analytic
+Fredholm exactness and source physical realization remain supplied hypotheses.
+
 ## Ghost grading and observed imposter (2026-11-20)
 
 The defined Nikulin benchmark retains its spinor fields while choosing
