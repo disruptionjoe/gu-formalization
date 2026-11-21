@@ -1,0 +1,58 @@
+{
+  "checks": [
+    "odd plus Krein selfadjoint does not force equal blocks",
+    "Krein adjoint permits two independent Hermitian blocks",
+    "both adjoints give commuting cross-grade symmetry",
+    "odd selfadjoint doubled finite control",
+    "full index0 does not fix chiral index",
+    "Kramers can coexist with index2",
+    "real grade-preserving symmetry permits odd index",
+    "formal additivity for arbitrary normal p1",
+    "closed metric-normal coefficients",
+    "nonzero signature cannot balance coherent total",
+    "zero signature also zero observed in this comparison",
+    "native Lorentz and ambient grades square1",
+    "literal observation has gamma-traceless lift",
+    "coherent G descends horizontal chirality",
+    "ambient grade is not horizontal observed grade",
+    "ambient lift intertwines ambient not horizontal grade",
+    "slotwise horizontal grade fails gamma kernel",
+    "K95 Clifford antiunitary intertwining",
+    "K95 real-square",
+    "K95 preserves ambient grade",
+    "K95 exchanges horizontal/coherent grade",
+    "K95 central imaginary connection breaks J preservation",
+    "K77 Clifford antiunitary intertwining",
+    "K77 real-square",
+    "K77 preserves ambient grade",
+    "K77 exchanges horizontal/coherent grade",
+    "K77 central imaginary connection breaks J preservation",
+    "central imaginary connection is allowed K-skew",
+    "native Q square-trace coefficient positive",
+    "Lorentz square traces forbid one positive Hermitian phase",
+    "balanced total can have compensating unequal splits"
+  ],
+  "closed_coefficients": [
+    368,
+    -1188,
+    -820
+  ],
+  "source_premises": [
+    "SC-CHI-01",
+    "SC-CHI-04"
+  ],
+  "source_translation": "Nonchirality must independently mean zero chiral Fredholm index in the same G; not established from source wording.",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "target": "X-P1-P2-P3",
+  "tier": "T2",
+  "rows_unchanged": true,
+  "kill": false,
+  "actual_delta": "Same-grading, actual-domain and balance-symmetry descent requirements attached; closed comparison cannot realize balanced total with nonzero observed index.",
+  "native_open": [
+    "physical weak/current grading identification",
+    "common compatible Fredholm domain",
+    "actual source operator symmetry/real connection reduction"
+  ],
+  "next_packet_step": 3,
+  "lean_scope": "conditional integer corollary only; analytic additivity and zero balance assumed"
+}

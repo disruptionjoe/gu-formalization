@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 2ff923d10efdbc00b878512901c982185dcd6bef
+revision_basis: c616197f3396441bc55177f18687240420d2b282
 program_focus:
   version: 2026-11-20-v2
   authority: joe_direct_chat_2026_11_20
@@ -14,7 +14,7 @@ program_focus:
     slots: B-lane slots only; run_selection rules 1 and 2 remain prior.
     order: When both have ready steps, alternate between these packets; Item 1 goes first on ties. Within
       the selected packet take its earliest ready step.
-    last_served_packet: lab/process/work-packets/native-complex-order3-fork-2026-11-20.md
+    last_served_packet: lab/process/work-packets/observed-hidden-index-split-2026-11-20.md
     tie_first: lab/process/work-packets/observed-hidden-index-split-2026-11-20.md
     terminal_handling: Skip packets done or killed and steps blocked by explicit dependencies; record supporting
       evidence. Do not infer a packet kill from an unbuilt object or unresolved hypothesis.
@@ -88,6 +88,26 @@ program_focus:
     - writing down, enumerating, fitting or searching for a specific action, coefficient set or Lagrangian outside lane C
     - building a gated cell's missing object (source action, stabilized RS action, K3-fibered family, boundary connection) as a way to unblock it
     - more than 3 guessed action variants in one lane-C run, or tuning a guessed action's coefficients
+zero_total_grading_2026_11_20:
+  status: conditional_T2_same_grading_requirement
+  actual_delta: Source nonchirality retained as explicit same-G index premise. Ambient
+    closed comparison has all indices0 but descends chiHchiN; coherent G descends
+    chiH kinematically with total-820sigma, hidden-1188sigma, observed368sigma. Actual
+    weak/domain bridge open. Cross-G Krein adjoint-domain symmetry can force0; when
+    balance descends to hidden/observed it forces their indices0 too. No full-C kill
+    or P3 row retype.
+  evidence:
+  - explorations/conditional-build/zero-total-grading-premise-2026-11-20.md
+  - lab/process/zero-total-grading-premise.json
+  - tests/program-focus/zero_total_grading_probe.py
+  - Lean/GUFormalization/ObservedHiddenPremise.lean
+  - lab/process/hostile-reviews/2026-11-20-zero-total-grading-review.md
+  packet: lab/process/work-packets/observed-hidden-index-split-2026-11-20.md
+  completed_step: 2
+  next_step: 3
+  counter_accounting: Manual scientific run per Joe follow-up(b); counter23 to24,
+    LB-LADDER plus1. Direct selection overrides waiting for the due hourly bet; no
+    bet attempt or credit and no cadence-rule amendment.
 priority_packet_audits_2026_11_20:
   status: two_T3_step1_audits_complete_no_scientific_verdict_change
   evidence:

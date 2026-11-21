@@ -16,6 +16,22 @@ Do not add "Current follow-through" sections or "Historical predecessor" stacks 
 matrix or bet file. The retired follow-through chain and banner stack are kept at the end of this file under
 "Archived steering history".
 
+## Same-grading zero-total requirement (2026-11-20)
+
+The conditional observed/hidden cancellation now names the source non-chirality
+premise and its separate realization as a zero Fredholm index in one grading.
+Ambient and coherent horizontal gradings do not supply interchangeable zeros.
+In the closed metric-normal comparison, ambient indices vanish but descend to
+chiHchiN; coherent G descends to chiH and has total index -820 signature(X).
+The physical weak-current and native domain bridges remain unproved.
+
+A balancing symmetry inherited by the hidden and observed complexes balances
+their indices too. A nonzero observed index therefore needs a precisely typed
+failure of that inheritance. Neither the source nor action C is falsified.
+The P3 row and all scientific cell statuses remain unchanged.
+
+[Result](explorations/conditional-build/zero-total-grading-premise-2026-11-20.md).
+
 ## Observed/hidden and order-3 scope audits (2026-11-20)
 
 Two T3 audits reconcile existing results. The finite Krein intersection

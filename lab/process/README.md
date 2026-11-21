@@ -3451,3 +3451,5 @@ consistency workflow.
 
 - `k1872-fisher-global-deficit-modulus.json`: exact arithmetic and scope for the all-parameter deficit modulus.
 - `k1873-traveling-mass-compatibility.json`: polynomial and exceptional-speed dual witnesses for fixed-symbol traveling mass.
+
+- [Zero-total grading evidence](zero-total-grading-premise.json) and [independent review](hostile-reviews/2026-11-20-zero-total-grading-review.md): conditional Item1step2 result.
