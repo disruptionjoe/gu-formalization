@@ -119,8 +119,8 @@ steps:
     stage an internal proposed scope addendum for papers/candidates/located-not-forced/
     for Joe. Necessary-condition match only, no refutation or publication.
   tier_condition: T3 (T1 if claim scope moves)
-next_step: 2
-last_completed_step: 1
+next_step: 3
+last_completed_step: 2
 followup_authority: joe_direct_chat_2026_11_20_b
 ```
 
