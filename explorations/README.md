@@ -5149,3 +5149,5 @@ keeps the `lambda_def` alias, nonlinear BV and null/Green domain explicit.
 - [K1873: traveling mass compatibility](conditional-build/k1873-traveling-mass-compatibility-2026-10-20.md).
 
 - [Zero-total premise and grading audit](conditional-build/zero-total-grading-premise-2026-11-20.md): source-premised cancellation, actual descent, and structural zero conditions.
+
+- [Krein order-3 and observation label](conditional-build/krein-order3-observation-label-2026-11-20.md): declared ghost gradings, actual imposter trace, and native transfer limits.

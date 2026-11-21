@@ -21,6 +21,21 @@ scripts:
 
 # The carrier-bit decision campaign
 
+## Construction scope correction — Joe approved, 2026-11-20
+
+Authority: `joe_direct_chat_2026_11_20_b`; wording correction, with existing
+status and grade retained. The Nikulin order-3 **ghost-subtracted** benchmark A
+has index -42 and zero rho class. The **geometric gamma-traceless** benchmark B
+has index -38 and nonzero classes (0,2,1)/3. The source-native **Krein-graded**
+complex remains unidentified at this invariant: retaining ghosts does not
+specify their index grading or trace. A/B is a comparison, not an exhaustive
+classification of source constructions. Neither residue supplies an integer
+family count. Statements below about a binary or sole decider are restricted
+to their declared comparison; they do not require building the source action
+before testing defined structural subfamilies. Paper and released bytes are
+unchanged. See the [approved-scope audit](../explorations/conditional-build/native-complex-order3-fork-2026-11-20.md)
+and [follow-up benchmark and map test](../explorations/conditional-build/krein-order3-observation-label-2026-11-20.md).
+
 Question: is ghost subtraction (carrier A, `-42 = 21 sigma/8`, order-3 class `(0,0,0)`) even
 AVAILABLE to GU-as-stated -- or is the geometric completion (carrier B, `-38 = 19 sigma/8`, order-3
 class `(0,2,1)/3` NONZERO) forced by GU's own commitments plus published no-go theorems? Four legs,
@@ -159,5 +174,6 @@ A-side; the cheapest kill shot is the anchor-scale test of the B1 algebra.
 Build the source action's gravitino sector and read its **field-space declaration**: gamma-trace-
 constrained without local fermionic invariance => carrier B (order-3 live); full vector-spinor with
 one => carrier A (order-3 dead); bare unconstrained => the -40 control row. The mutual-exclusion
-certificate guarantees no cheaper computation substitutes. No canon row moves on this campaign; the
+certificate distinguishes these declared field spaces; it does not prohibit
+cheaper structural tests or identify every native Krein construction. No canon row moves on this campaign; the
 generation count stays OPEN (located, not forced).

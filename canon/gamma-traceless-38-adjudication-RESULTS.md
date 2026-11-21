@@ -22,6 +22,21 @@ scripts:
 
 # The -38 adjudication: two published carriers, one open identification
 
+## Construction scope correction — Joe approved, 2026-11-20
+
+Authority: `joe_direct_chat_2026_11_20_b`; wording correction, with existing
+status and grade retained. The Nikulin order-3 **ghost-subtracted** benchmark A
+has index -42 and zero rho class. The **geometric gamma-traceless** benchmark B
+has index -38 and nonzero classes (0,2,1)/3. The source-native **Krein-graded**
+complex remains unidentified at this invariant: retaining ghosts does not
+specify their index grading or trace. A/B is a comparison, not an exhaustive
+classification of source constructions. Neither residue supplies an integer
+family count. Statements below about a binary or sole decider are restricted
+to their declared comparison; they do not require building the source action
+before testing defined structural subfamilies. Paper and released bytes are
+unchanged. See the [approved-scope audit](../explorations/conditional-build/native-complex-order3-fork-2026-11-20.md)
+and [follow-up benchmark and map test](../explorations/conditional-build/krein-order3-observation-label-2026-11-20.md).
+
 The prior campaign (`order3-equivariant-rho-RESULTS.md`) left one named verification target: the
 "fourth convention" with index -38. This campaign adjudicated it. **It is not a convention. It is
 the honest geometric gamma-traceless Rarita-Schwinger operator** -- elliptic, published
@@ -95,25 +110,21 @@ Z/24 arena: Dirac `(0,16,8)`, A `(0,0,0)`, B `(0,8,16)`.
 > `-38 = 19 sigma/8` (in-house exact symbol certificate + published HS Prop 3.1(i), two independent
 > routes), and its order-3 Nikulin equivariant rho classes are `(0,2,1)/3` -- NONZERO; it differs
 > from the pinned ghost-subtracted gravitino complex (`-42`, classes `(0,0,0)`) by exactly two
-> reversed-chirality spin-1/2 units, and which of the two is the GU generation-arena carrier is an
+> reversed-chirality spin-1/2 units, and whether either is the GU generation-arena carrier is an
 > operator-identification question (SG4) that arithmetic provably cannot decide.
 
-## The named binary (the new frontier shape)
+## The A/B comparison (not an exhaustive native classification)
 
-**The generation-arena order-3 verdict is one bit riding SG4:** when the GU source action's
-gravitino sector is built, either its quadratic form ghost-subtracts (BRST; carrier A) => the arena
-is 2-primary and located-not-forced holds as before -- or it geometrically completes (carrier B) =>
-the arena carries the nonzero order-3 class `(0,2,1)/3 = 2 x class(Dirac)`. In-repo tension a
-hostile reader will press: GU's own RS-BRST packet reports MissingCarrierError and the ghost-parity
-no-go says GU ghost parity cannot chiralize -- which SMELLS like an argument for carrier B; treating
-that smell as a verdict would be story-shopping and stays blocked. Both steelmen intact.
+A has zero order-3 rho and B has nonzero rho (0,2,1)/3. Neither is selected
+by this arithmetic. The source-native Krein-graded complex remains open, and
+bare, doubled and retained-ghost constructions prevent an exhaustive binary.
 
 **Steelman-ledger update (2026-07-10, transcript-tier):** re-reading the UCSD transcript against
 this adjudication upgrades the carrier-B steelman from "in-repo smell" to **author-stated
 mechanism, three independent ways**: [00:39:18] GU's third generation comes from the RS product
 rule with the spin-1/2 term ADDED as physical matter (carrier B's arithmetic shape); [00:36:13]
-"really two plus one; the third family is an imposter" -- the imposter IS the added spin-1/2 slot
-this adjudication proved carries all the order-3 content; [00:41:48] the Velo-Zwanziger answer
+"really two plus one; the third family is an imposter" -- the historical reading identified the imposter with the added spin-1/2 slot,
+but that identification is not established by this arithmetic; [00:41:48] the Velo-Zwanziger answer
 implies ungauged spin-3/2 MATTER, and ghost subtraction exists only for gauged gravitini. Still
 evidence, not verdict -- the bit rides the unbuilt action's quadratic form (SG4). Full reading:
 `explorations/transcript-carrier-b-evidence-2026-07-10.md`.

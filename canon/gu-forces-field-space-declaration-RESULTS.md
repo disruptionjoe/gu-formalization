@@ -20,6 +20,21 @@ scripts:
 
 # How much does GU force the completion of SG4?
 
+## Construction scope correction — Joe approved, 2026-11-20
+
+Authority: `joe_direct_chat_2026_11_20_b`; wording correction, with existing
+status and grade retained. The Nikulin order-3 **ghost-subtracted** benchmark A
+has index -42 and zero rho class. The **geometric gamma-traceless** benchmark B
+has index -38 and nonzero classes (0,2,1)/3. The source-native **Krein-graded**
+complex remains unidentified at this invariant: retaining ghosts does not
+specify their index grading or trace. A/B is a comparison, not an exhaustive
+classification of source constructions. Neither residue supplies an integer
+family count. Statements below about a binary or sole decider are restricted
+to their declared comparison; they do not require building the source action
+before testing defined structural subfamilies. Paper and released bytes are
+unchanged. See the [approved-scope audit](../explorations/conditional-build/native-complex-order3-fork-2026-11-20.md)
+and [follow-up benchmark and map test](../explorations/conditional-build/krein-order3-observation-label-2026-11-20.md).
+
 The carrier-bit campaign established that the generation-count carrier (A vs B) is **not decided short
 of SG4** -- the built source action's field-space declaration. This swing asks the sharper,
 bounded question the Science Advisory Council endorsed over a free source-action build: **taking GU's
@@ -152,6 +167,7 @@ GU-as-stated by any further enumeration.
   stays the single open decider.
 - For the located-not-forced paper: this MEASURES the "not forced" -- within
   the imported two-axis declaration GU leaves both axes live and tilts B, but
-  the count is decided only by the built source action. It is the
+  source carrier selection and the integer-count bridge remain open. This
+  enumeration does not exclude other defined structural tests. It is the
   honest terminus of the GU-as-stated program and the clean handoff point to the records-as-rows
   frame-change.

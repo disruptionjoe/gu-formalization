@@ -24,6 +24,21 @@ scripts:
 
 # The escape-corners campaign
 
+## Construction scope correction — Joe approved, 2026-11-20
+
+Authority: `joe_direct_chat_2026_11_20_b`; wording correction, with existing
+status and grade retained. The Nikulin order-3 **ghost-subtracted** benchmark A
+has index -42 and zero rho class. The **geometric gamma-traceless** benchmark B
+has index -38 and nonzero classes (0,2,1)/3. The source-native **Krein-graded**
+complex remains unidentified at this invariant: retaining ghosts does not
+specify their index grading or trace. A/B is a comparison, not an exhaustive
+classification of source constructions. Neither residue supplies an integer
+family count. Statements below about a binary or sole decider are restricted
+to their declared comparison; they do not require building the source action
+before testing defined structural subfamilies. Paper and released bytes are
+unchanged. See the [approved-scope audit](../explorations/conditional-build/native-complex-order3-fork-2026-11-20.md)
+and [follow-up benchmark and map test](../explorations/conditional-build/krein-order3-observation-label-2026-11-20.md).
+
 The carrier-bit decision campaign left two PARTIAL corners through which its B-tilt could flip. This
 campaign pressure-tested both, with the story-shopping guard INVERTED (corners-closed was the
 exciting outcome, so every leg carried a mandatory corner-open case and a dedicated corner-open

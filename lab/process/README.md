@@ -3453,3 +3453,5 @@ consistency workflow.
 - `k1873-traveling-mass-compatibility.json`: polynomial and exceptional-speed dual witnesses for fixed-symbol traveling mass.
 
 - [Zero-total grading evidence](zero-total-grading-premise.json) and [independent review](hostile-reviews/2026-11-20-zero-total-grading-review.md): conditional Item1step2 result.
+
+- [Krein order-3 evidence](krein-order3-observation-label.json) and [independent review](hostile-reviews/2026-11-20-krein-order3-label-review.md): Item2steps2/3 construction and label result.

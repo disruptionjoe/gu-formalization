@@ -16,6 +16,21 @@ scripts:
 
 # Source-action <-> family-index interface (closing the STEP 3 crux)
 
+## Construction scope correction — Joe approved, 2026-11-20
+
+Authority: `joe_direct_chat_2026_11_20_b`; wording correction, with existing
+status and grade retained. The Nikulin order-3 **ghost-subtracted** benchmark A
+has index -42 and zero rho class. The **geometric gamma-traceless** benchmark B
+has index -38 and nonzero classes (0,2,1)/3. The source-native **Krein-graded**
+complex remains unidentified at this invariant: retaining ghosts does not
+specify their index grading or trace. A/B is a comparison, not an exhaustive
+classification of source constructions. Neither residue supplies an integer
+family count. Statements below about a binary or sole decider are restricted
+to their declared comparison; they do not require building the source action
+before testing defined structural subfamilies. Paper and released bytes are
+unchanged. See the [approved-scope audit](../explorations/conditional-build/native-complex-order3-fork-2026-11-20.md)
+and [follow-up benchmark and map test](../explorations/conditional-build/krein-order3-observation-label-2026-11-20.md).
+
 The RS function-space residual (`rs-function-space-framework-SPEC.md`) and the GU source-action build
 (`absorbed/gu-source-action/SPEC.md`) point at the SAME missing object from two sides. This note wires
 them through one interface so the source-action build, when it lands, plugs straight into the
@@ -61,15 +76,13 @@ To compute obligation (4) through `tests/rs-function-space/` (rather than rebuil
 > **WITHOUT** using `chi(K3)=24`, the `/8` normalization, `Ahat=3`, or `contractible-fiber => 1`
 > (all DEAD-ENDS.md automatic fails).
 
-On ALL existing honest data the value is `0 mod 3` (`family_generation_arena_probe.py`: `-42, -672,
--5376, 0` are every one `== 0 mod 3`; honest `ch2 = -5376`, not `24`). So:
+On the listed A-derived historical sample the value is `0 mod 3` (`family_generation_arena_probe.py`: `-42, -672,
+-5376, 0` are every one `== 0 mod 3`; honest `ch2 = -5376`, not `24`). This sample does not cover geometric Q or a separately defined Krein complex.
 
-- **If** the geometric families pushforward forces `N != 0 mod 3` without a chi-import: GU forces the
-  count internally -- the firewall-boundary hypothesis is **falsified** for this sector, and
-  "external by structure" would NOT be needed.
-- **If** it stays `0 mod 3` (or `N` is free): the count is **not** internally sourced -- "external by
-  structure" becomes unconditional and the firewall-boundary reading is supported. The SPEC's hard bar
-  (`ch2 = -5376`, `APS eta = 0`) currently points here, and warns this may be the unreachable outcome.
+- A source-identified nonzero residue would establish a located native datum.
+  It would not itself prove an integer family count, let alone integer3.
+- A zero residue or a free parameter would constrain this specified route,
+  without making a universal external-count theorem unconditional.
 
-Either way the crux is now a single, well-posed, firewall-guarded integer question, and the two
+The scaffold poses a defined residue question with a separate integer bridge, and the two
 campaigns share one interface to attack it. Staged, not CANON.md-promoted; pauses for Joe.

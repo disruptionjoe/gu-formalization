@@ -15,6 +15,21 @@ depends_on:
 
 # Final honest verdict
 
+## Construction scope correction — Joe approved, 2026-11-20
+
+Authority: `joe_direct_chat_2026_11_20_b`; wording correction, with existing
+status and grade retained. The Nikulin order-3 **ghost-subtracted** benchmark A
+has index -42 and zero rho class. The **geometric gamma-traceless** benchmark B
+has index -38 and nonzero classes (0,2,1)/3. The source-native **Krein-graded**
+complex remains unidentified at this invariant: retaining ghosts does not
+specify their index grading or trace. A/B is a comparison, not an exhaustive
+classification of source constructions. Neither residue supplies an integer
+family count. Statements below about a binary or sole decider are restricted
+to their declared comparison; they do not require building the source action
+before testing defined structural subfamilies. Paper and released bytes are
+unchanged. See the [approved-scope audit](../explorations/conditional-build/native-complex-order3-fork-2026-11-20.md)
+and [follow-up benchmark and map test](../explorations/conditional-build/krein-order3-observation-label-2026-11-20.md).
+
 After all eight hardening prompts (five run internally, the critical three -- identification, tangential
 branch, novelty -- run as external deep research), the result has a clear, honest, defensible shape, and the
 strong headline does not survive intact. This is the truth-seeking landing: the mathematics is solid and the
@@ -76,11 +91,11 @@ has **no** standard affirmative theorem. Three explicit, named gaps must be clos
   by a scalar `e`-invariant on the `RP^3` spine requires a proven Bismut-Cheeger / adiabatic-limit /
   fibered-boundary reduction, not the phrase "the spine is `RP^3`."
 
-- **(ii) The operator.** GU's matter sector is a reconstructed Rarita-Schwinger sector; the physical RS index
-  is a twisted Dirac index with spin-1/2 ghost subtraction. One must write down the specific projected /
-  twisted operator whose index equals the number of surviving `16`s of `Spin(10)`. This operator is not in
-  the published draft (Nguyen's critique stands), and is the same unbuilt source action that has blocked the
-  count at every locus in this program.
+- **(ii) The operator.** A gauged-gravitino comparator uses the twisted Dirac
+  index with spin-1/2 ghost subtraction (A). Published geometric gamma-traceless
+  Q is different (B). Neither identifies the source-native Krein-graded
+  observation complex or its physical integer count. Those are separate
+  obligations; defined benchmark research does not require a source-action build.
 
 - **(iii) Order-3 versus the integer 3.** A nonzero class in `Z/3` detects information *mod 3*; it is not an
   equality to the integer 3. Turning "order-3 class" into "exactly 3 generations" needs the native

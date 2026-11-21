@@ -16,6 +16,22 @@ discovery bet (`lab/process/discovery-bets.json`). The K25xx--K2618 detector, pr
 results below are retained as conditional mathematics; that lane is no longer the default target. Sections
 below are dated results, newest first, and are not steering.
 
+## Ghost grading and observed imposter (2026-11-20)
+
+The defined Nikulin benchmark retains its spinor fields while choosing
+different index gradings: A has zero order-3 residue, and the B symbol class
+has a nonzero residue. An indefinite ghost pairing alone selects neither.
+A cross-grade balanced double cancels by symmetry; it is a separate control.
+The source-native graded complex remains unidentified.
+
+Under the actual horizontal observation map, the draft's imposter summand
+lands in gamma trace, not the horizontal gamma-traceless RS carrier. The
+ambient kernel label remains true upstairs. This supplies a map-level
+distinction, not a family count or source falsification. Approved canon
+wording is now scoped to A/B/native constructions; papers remain unchanged.
+
+[Result](explorations/conditional-build/krein-order3-observation-label-2026-11-20.md).
+
 ## Same-grading zero-total requirement (2026-11-20)
 
 The conditional observed/hidden cancellation now names the source non-chirality

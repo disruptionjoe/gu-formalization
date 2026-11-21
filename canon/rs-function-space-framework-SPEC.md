@@ -1,9 +1,9 @@
 ---
-title: "Rarita-Schwinger function-space framework: the foundation for closing WC-FUNCTION-SPACE-EXT. Sets up the RS-section Krein-Hilbert space, the operator and its hypotheses, and the index decomposition ind(D_RS) = bulk + APS-boundary-eta + family-index. STEP 1-2 DONE (computed): the BULK RS index I_{3/2} = 21*sigma/8 is 2-primary by Rokhlin (== 0 mod 3 for every spin 4-manifold and every twist -- it never reaches the Z/3 generation arena). A reusable characteristic-class / index harness reproduces the canon values (K3 -42, K3#K3 -84, T^4 0, twist-16 -672) and is the shared engine for the bulk and the family index. STEP 2 (boundary eta) is now DONE (2-primary, 2026-07-03, canon/rs-boundary-eta-2primary-RESULTS.md); STEP 3 (K3 family-index pushforward -- the crux) has obligations 1-2 scaffolded and 3-5 open."
+title: "RS function-space framework: ghost-subtracted bulk controls and boundary hypotheses; geometric Q and native Krein complex remain distinct"
 status: staged
 doc_type: spec
 created: 2026-07-02
-grade: "SPEC + computed bulk. The framework is the 'specification before promotion' object (canonical claim 4). The bulk-even result (I_{3/2}=21*sigma/8, 2-primary by Rokhlin) is computed/exact and cross-checked against canon (tests/rs-function-space/rs_index_harness.py, 240 asserts, exit 0). The boundary-eta and family-index steps are OPEN, stubbed with their exact obligations. Internal tier (caveat (e))."
+grade: "SPEC + computed bulk. The framework is the 'specification before promotion' object (canonical claim 4). The A bulk mod-3 divisibility result (I_{3/2}=21*sigma/8, by Rokhlin) is computed/exact and cross-checked against canon (tests/rs-function-space/rs_index_harness.py, 240 asserts, exit 0). The boundary-eta and family-index steps are OPEN, stubbed with their exact obligations. Internal tier (caveat (e))."
 depends_on:
   - canon/function-space-index-conservation-RESULTS.md
   - canon/external-by-structure-synthesis-RESULTS.md
@@ -14,6 +14,21 @@ scripts:
 ---
 
 # RS function-space framework (foundation for the big swing)
+
+## Construction scope correction — Joe approved, 2026-11-20
+
+Authority: `joe_direct_chat_2026_11_20_b`; wording correction, with existing
+status and grade retained. The Nikulin order-3 **ghost-subtracted** benchmark A
+has index -42 and zero rho class. The **geometric gamma-traceless** benchmark B
+has index -38 and nonzero classes (0,2,1)/3. The source-native **Krein-graded**
+complex remains unidentified at this invariant: retaining ghosts does not
+specify their index grading or trace. A/B is a comparison, not an exhaustive
+classification of source constructions. Neither residue supplies an integer
+family count. Statements below about a binary or sole decider are restricted
+to their declared comparison; they do not require building the source action
+before testing defined structural subfamilies. Paper and released bytes are
+unchanged. See the [approved-scope audit](../explorations/conditional-build/native-complex-order3-fork-2026-11-20.md)
+and [follow-up benchmark and map test](../explorations/conditional-build/krein-order3-observation-label-2026-11-20.md).
 
 The one residual keeping "external by structure" from being unconditional is the actual
 Rarita-Schwinger operator on sections (APS/end + family-index). This spec builds the scaffolding so
@@ -53,7 +68,7 @@ Each term is a separate obligation. The cross-chirality Krein structure acts on 
 
 ## 4. STEP 1-2 -- BULK: DONE (computed, this pass)
 
-The bulk term is the Atiyah-Singer integral. For the gravitino/RS operator on a spin 4-manifold the
+The bulk term is the Atiyah-Singer integral. For the ghost-subtracted gravitino comparator A on a closed spin 4-manifold the
 density is exactly `7 p_1/8`, so
 
 > **`I_{3/2}[X] = 21*sigma/8`**  (spin-1/2 companion: `A-hat[X] = -sigma/8`).
@@ -61,10 +76,11 @@ density is exactly `7 p_1/8`, so
 Cross-checked against canon: `K3 -> -42`, `K3#K3 -> -84`, `T^4 -> 0`, `twist-by-16 -> -672`
 (`tests/rs-function-space/rs_index_harness.py`). **Bulk-even theorem:** by Rokhlin (`sigma == 0 mod 16`
 for spin 4-manifolds), `I_{3/2} = 42k`, hence **`== 0 mod 3` identically**; and every integer twist
-`dim(V)*I_{3/2} + 3*ch2(V)` stays `== 0 mod 3`. So the **bulk RS index never carries a 3-primary
-(generation) piece** -- it lives entirely in the `Z/8` selector arena. The `3` in `-42 = -2*3*7` is
+`dim(V)*I_{3/2} + 3*ch2(V)` stays `== 0 mod 3`. This establishes mod-3 divisibility for the stated A index formula and twists,
+not a universal RS theorem. The integer itself is not a 2-primary torsion
+class; its reduction in Z/24 has zero Z/3 component. The `3` in `-42 = -2*3*7` is
 the fixed Hirzebruch `p_1 = 3*sigma`, generation-independent (identical for 1, 3, 5, ...). This
-lifts the finite "interior even" to the actual operator's **bulk**.
+is a bulk statement about A, independent of the finite interior-even theorem.
 
 ## 5. STEP 2 -- BOUNDARY / APS eta: DONE (computed, 2-primary)
 
@@ -93,10 +109,10 @@ pushforward `pi_!`. `family_index_pushforward_stub()` in the harness marks the i
 3. a `Phi`-homotopy or **symbol certificate** for the family;
 4. the **`ch2` / eta correction** term;
 5. the **`H`-line normalization**.
-This is the ONLY piece that can *flip* the verdict: if the `K3` family index is GU-forced to a
-specific value, GU forces a count; if free, "external by structure" becomes unconditional. The bulk
-result already says the fiberwise-integrated piece is `Z/8`; the family/pushforward is where a
-`Z/3`-piece would have to come from -- and the harness is ready to receive it.
+Within this A-based family scaffold, one open route is: a source-identified family invariant would constrain this
+specified route, with a separate physical integer-count bridge still required;
+a free value does not make a universal external-count claim unconditional. The bulk result gives mod-3 divisibility for A; it does not select the
+native carrier, exclude B, or turn a residue into a count.
 
 **Scaffold status (2026-07-03, `tests/rs-function-space/k3_family_pushforward_scaffold.py`):**
 obligations **(1) fiber model** and **(2) compact-support/APS pushforward** are scaffolded at
@@ -104,12 +120,13 @@ product-family (toy) grade -- the fiberwise pushforward `pi_!` of the RS density
 trivial `B x K3` family, recovers `I_{3/2}[K3] = -42 ≡ 0 mod 3` (no new `Z/3` generation piece; the `3`
 in `-42` is the fixed Hirzebruch `p_1`, not a count). The scaffold makes the SPEC's FLIP criterion
 concrete: the generation-arena (`mod 3`) value is a **free** function of the clutching term (obligation
-4), so **GU forces a count iff GU forces the K3 family term.** Obligations **(3) `Phi`-homotopy / symbol
+4), but forcing a residue would still require an integer-observable bridge to force a count. Obligations **(3) `Phi`-homotopy / symbol
 certificate, (4) `ch2`/eta correction (the crux), (5) `H`-line normalization** remain **OPEN** -- they
 require the actual GU `K3`-fibered source-action geometry, which is unbuilt (`absorbed/gu-source-action`).
 FIREWALL held: the RS family index uses only `21*sigma/8` (`sigma(K3) = -16`), never `chi(K3)=24` or
 `24/8=3`. A generation-arena probe (`tests/rs-function-space/family_generation_arena_probe.py`) confirms
-every honest existing-data family number (`-42, -672, -5376, 0`) is `== 0 mod 3` (2-primary, no order-3);
+the listed A-derived sample (`-42, -672, -5376, 0`) is `== 0 mod 3`; this
+does not cover the geometric-Q rho or a separately defined native Krein complex;
 the honest `ch2(S_X)[K3] = -5376`, not `24`. The exact data a valid GU source action must expose to
 close (or kill) this crux -- and the pass criterion (`N != 0 mod 3` WITHOUT a chi-import) -- is wired to
 `absorbed/gu-source-action` global objects 5(i)-(iii) in `canon/source-action-family-index-interface-SPEC.md`.
@@ -118,7 +135,7 @@ close (or kill) this crux -- and the pass criterion (`N != 0 mod 3` WITHOUT a ch
 
 - A **reusable index engine** (`rs_index_harness.py`) shared by bulk and family, cross-checked to
   canon -- Steps 2 and 3 compute *through* it, not from scratch.
-- The **bulk term closed** at computed grade (2-primary), so the swing reduces to the boundary eta
+- The **A bulk divisibility closed** at computed grade, so the swing reduces to the boundary eta
   (likely 2-primary, partly in hand) and the **`K3` family pushforward** (the real open crux),
   precisely itemized.
 - A rigorous framework statement (the "specification before promotion" object).
@@ -126,6 +143,6 @@ close (or kill) this crux -- and the pass criterion (`N != 0 mod 3` WITHOUT a ch
 ## Status
 
 Staged, **not CANON.md-promoted**; the bulk-even result AND the boundary-eta result are now
-computed/exact (both 2-primary), leaving the `K3` family-index step (obligations 3-5) as the remaining
+computed/exact (A bulk divisibility; separately scoped boundary torsion), leaving the `K3` family-index step (obligations 3-5) as the remaining
 OPEN crux. Internal tier. Pauses for Joe. No number was fitted; the only integers are the exact index
 values (`-42, -84, 0, -672`) and their `mod 3 = 0`.

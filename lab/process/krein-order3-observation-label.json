@@ -1,0 +1,315 @@
+{
+  "checks": [
+    "t=-5 integral representation",
+    "t=-5 isotypic averaging equals index class",
+    "t=-5 twist-character divisibility criterion",
+    "t=-4 integral representation",
+    "t=-4 isotypic averaging equals index class",
+    "t=-4 twist-character divisibility criterion",
+    "t=-3 integral representation",
+    "t=-3 isotypic averaging equals index class",
+    "t=-3 twist-character divisibility criterion",
+    "t=-2 integral representation",
+    "t=-2 isotypic averaging equals index class",
+    "t=-2 twist-character divisibility criterion",
+    "t=-1 integral representation",
+    "t=-1 isotypic averaging equals index class",
+    "t=-1 twist-character divisibility criterion",
+    "t=0 integral representation",
+    "t=0 isotypic averaging equals index class",
+    "t=0 twist-character divisibility criterion",
+    "t=1 integral representation",
+    "t=1 isotypic averaging equals index class",
+    "t=1 twist-character divisibility criterion",
+    "t=2 integral representation",
+    "t=2 isotypic averaging equals index class",
+    "t=2 twist-character divisibility criterion",
+    "t=3 integral representation",
+    "t=3 isotypic averaging equals index class",
+    "t=3 twist-character divisibility criterion",
+    "t=4 integral representation",
+    "t=4 isotypic averaging equals index class",
+    "t=4 twist-character divisibility criterion",
+    "t=5 integral representation",
+    "t=5 isotypic averaging equals index class",
+    "t=5 twist-character divisibility criterion",
+    "A published anchor",
+    "B symbol-class anchor",
+    "bare control nonzero",
+    "zero is not unique to A",
+    "all integer t rho1 congruence",
+    "all integer t rho2 congruence",
+    "all t nonzero equivariant virtual index",
+    "retained pair both gradings odd, same even Krein metric",
+    "balanced double cross-grade K",
+    "balanced double all characters and rho cancel",
+    "horizontal insertion trace4",
+    "normal insertion trace10",
+    "mixed trace lies in ambient kernel",
+    "observed imposter has nonzero gamma trace40",
+    "q kernel lift is onto full observed carrier",
+    "horizontal kernel witness",
+    "observed symbol exits horizontal kernel",
+    "decomposition dimensions"
+  ],
+  "benchmark_rows": [
+    {
+      "t": -5,
+      "index": -50,
+      "fixed_twist_character": -7,
+      "equivariant_index": -14,
+      "virtual_multiplicities": [
+        -26,
+        -12,
+        -12
+      ],
+      "graded_suspension_rho": [
+        "0",
+        "14/3",
+        "-14/3"
+      ],
+      "mod_Z": [
+        "0",
+        "2/3",
+        "1/3"
+      ]
+    },
+    {
+      "t": -4,
+      "index": -48,
+      "fixed_twist_character": -6,
+      "equivariant_index": -12,
+      "virtual_multiplicities": [
+        -24,
+        -12,
+        -12
+      ],
+      "graded_suspension_rho": [
+        "0",
+        "4",
+        "-4"
+      ],
+      "mod_Z": [
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "t": -3,
+      "index": -46,
+      "fixed_twist_character": -5,
+      "equivariant_index": -10,
+      "virtual_multiplicities": [
+        -22,
+        -12,
+        -12
+      ],
+      "graded_suspension_rho": [
+        "0",
+        "10/3",
+        "-10/3"
+      ],
+      "mod_Z": [
+        "0",
+        "1/3",
+        "2/3"
+      ]
+    },
+    {
+      "t": -2,
+      "index": -44,
+      "fixed_twist_character": -4,
+      "equivariant_index": -8,
+      "virtual_multiplicities": [
+        -20,
+        -12,
+        -12
+      ],
+      "graded_suspension_rho": [
+        "0",
+        "8/3",
+        "-8/3"
+      ],
+      "mod_Z": [
+        "0",
+        "2/3",
+        "1/3"
+      ]
+    },
+    {
+      "t": -1,
+      "index": -42,
+      "fixed_twist_character": -3,
+      "equivariant_index": -6,
+      "virtual_multiplicities": [
+        -18,
+        -12,
+        -12
+      ],
+      "graded_suspension_rho": [
+        "0",
+        "2",
+        "-2"
+      ],
+      "mod_Z": [
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "t": 0,
+      "index": -40,
+      "fixed_twist_character": -2,
+      "equivariant_index": -4,
+      "virtual_multiplicities": [
+        -16,
+        -12,
+        -12
+      ],
+      "graded_suspension_rho": [
+        "0",
+        "4/3",
+        "-4/3"
+      ],
+      "mod_Z": [
+        "0",
+        "1/3",
+        "2/3"
+      ]
+    },
+    {
+      "t": 1,
+      "index": -38,
+      "fixed_twist_character": -1,
+      "equivariant_index": -2,
+      "virtual_multiplicities": [
+        -14,
+        -12,
+        -12
+      ],
+      "graded_suspension_rho": [
+        "0",
+        "2/3",
+        "-2/3"
+      ],
+      "mod_Z": [
+        "0",
+        "2/3",
+        "1/3"
+      ]
+    },
+    {
+      "t": 2,
+      "index": -36,
+      "fixed_twist_character": 0,
+      "equivariant_index": 0,
+      "virtual_multiplicities": [
+        -12,
+        -12,
+        -12
+      ],
+      "graded_suspension_rho": [
+        "0",
+        "0",
+        "0"
+      ],
+      "mod_Z": [
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "t": 3,
+      "index": -34,
+      "fixed_twist_character": 1,
+      "equivariant_index": 2,
+      "virtual_multiplicities": [
+        -10,
+        -12,
+        -12
+      ],
+      "graded_suspension_rho": [
+        "0",
+        "-2/3",
+        "2/3"
+      ],
+      "mod_Z": [
+        "0",
+        "1/3",
+        "2/3"
+      ]
+    },
+    {
+      "t": 4,
+      "index": -32,
+      "fixed_twist_character": 2,
+      "equivariant_index": 4,
+      "virtual_multiplicities": [
+        -8,
+        -12,
+        -12
+      ],
+      "graded_suspension_rho": [
+        "0",
+        "-4/3",
+        "4/3"
+      ],
+      "mod_Z": [
+        "0",
+        "2/3",
+        "1/3"
+      ]
+    },
+    {
+      "t": 5,
+      "index": -30,
+      "fixed_twist_character": 3,
+      "equivariant_index": 6,
+      "virtual_multiplicities": [
+        -6,
+        -12,
+        -12
+      ],
+      "graded_suspension_rho": [
+        "0",
+        "-2",
+        "2"
+      ],
+      "mod_Z": [
+        "0",
+        "0",
+        "0"
+      ]
+    }
+  ],
+  "native_dimensions": {
+    "total": 1664,
+    "horizontal_RS": 384,
+    "hidden_RS": 1152,
+    "imposter": 128,
+    "observed_full": 512
+  },
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "authority": "joe_direct_chat_2026_11_20_b",
+  "base": "3b5685a5ba679640dd66accbe1768e6b2a7845d4",
+  "canon_scope_paths": [
+    "canon/order3-equivariant-rho-RESULTS.md",
+    "canon/families-e-invariant-order3-monodromy-RESULTS.md",
+    "canon/rs-function-space-framework-SPEC.md",
+    "canon/source-action-family-index-interface-SPEC.md",
+    "canon/forcing-slot-toy-rs-RESULTS.md",
+    "canon/final-verdict-generation-count-and-the-open-bridge.md",
+    "canon/gamma-traceless-38-adjudication-RESULTS.md",
+    "canon/carrier-bit-decision-campaign-RESULTS.md",
+    "canon/escape-corners-campaign-RESULTS.md",
+    "canon/gu-forces-field-space-declaration-RESULTS.md"
+  ],
+  "packet_kill": false,
+  "native_complex_selected": false,
+  "label_result": "ambient kernel upstairs; observed imposter gamma trace, not horizontal RS; full quotient operator not intrinsic Q",
+  "cross_grade_control": "balanced doubled benchmark cancels; not selected native complex",
+  "claim_effect": "none; approved wording scope only"
+}

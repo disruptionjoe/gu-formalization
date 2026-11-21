@@ -1,9 +1,9 @@
 ---
-title: "Forcing-slot test: the toy stabilized twisted Rarita-Schwinger sector does NOT fill the forcing slot. Horn B hardens -- where the trapdoor opens at all, it opens onto the 2-primary selector arena. No fabricated 3. And the '2+1' is numerology across disjoint frameworks."
+title: "Four forcing-slot comparators do not derive three; the reconstructed K3 plus Pati-Salam/HP2 sum is distinct from source-native 2+1"
 status: active
 doc_type: result
 created: 2026-06-29
-grade: "computed + adversarially verified. 8 python scripts in tests/forcing-slot/ (4 construct + 2 decomposition + 2 independent adversarial rechecks); the two decisive scripts re-run inline in the main loop and reproduced exactly. 4 angles x (construct + independent from-scratch refutation). The adversary did real work: it knocked down two oversold 'A-mechanism is real' claims -- the +256 projector-sandwich artifact (genuine physical-sector index = 0) and the flat-16 gravitational-only chirality. Verdict: Horn B; every computed integer is 2-primary, or the Z/3 identity, or =1; no 3 fabricated; the suspect +8 RS leg never appeared (forward computation gives -42, -672, 256, 0)."
+grade: "computed + adversarially verified. 8 python scripts in tests/forcing-slot/ (4 construct + 2 decomposition + 2 independent adversarial rechecks); the two decisive scripts re-run inline in the main loop and reproduced exactly. 4 angles x (construct + independent from-scratch refutation). The adversary did real work: it knocked down two oversold 'A-mechanism is real' claims -- the +256 projector-sandwich artifact (genuine physical-sector index = 0) and the flat-16 gravitational-only chirality. Verdict: Horn B; the tested integers are not3; A index residues vanish mod3; no 3 fabricated; the suspect +8 RS leg never appeared (forward computation gives -42, -672, 256, 0)."
 method: "forcing-slot workflow wf_bff346ca-69d: 4 construct angles (BRST/FP stabilization; twisted spin-3/2 index on K3; RS frame-index operator on the Cl(9,5)=M(64,H) substrate; AGW gravitino anomaly 3-primary content) each running python -> independent adversarial verify vs the 4 fabrication patterns -> barrier synthesis. 9 agents, ~696k subagent tokens."
 depends_on:
   - canon/single-decider-integer-index-RESULTS.md
@@ -15,6 +15,21 @@ depends_on:
 
 # Forcing-Slot Test -- Campaign Verdict
 
+## Construction scope correction — Joe approved, 2026-11-20
+
+Authority: `joe_direct_chat_2026_11_20_b`; wording correction, with existing
+status and grade retained. The Nikulin order-3 **ghost-subtracted** benchmark A
+has index -42 and zero rho class. The **geometric gamma-traceless** benchmark B
+has index -38 and nonzero classes (0,2,1)/3. The source-native **Krein-graded**
+complex remains unidentified at this invariant: retaining ghosts does not
+specify their index grading or trace. A/B is a comparison, not an exhaustive
+classification of source constructions. Neither residue supplies an integer
+family count. Statements below about a binary or sole decider are restricted
+to their declared comparison; they do not require building the source action
+before testing defined structural subfamilies. Paper and released bytes are
+unchanged. See the [approved-scope audit](../explorations/conditional-build/native-complex-order3-fork-2026-11-20.md)
+and [follow-up benchmark and map test](../explorations/conditional-build/krein-order3-observation-label-2026-11-20.md).
+
 ## 1. Verdict
 
 The toy stabilized twisted Rarita-Schwinger (RS) sector does **not** fill the forcing slot. Across all four
@@ -24,8 +39,8 @@ is simultaneously (a) tangential, (b) net-chiral, and (c) non-frame-trivial with
 The campaign lands on **Horn B**. The most generous defensible reading is the **A-mechanism / B-ontology**
 synthesis, and it applies only on the two index angles, where the RS object is genuinely non-frame-trivial and
 carries a nonzero signed index; but even there the "A-mechanism" is partial (the net-chiral leg is gravitational
-or tautological, not a genuine Spin(10)-chiral asymmetry), and every computed integer is CRT-locked to the
-2-primary selector arena or equals 1. A strict reading collapses to plain Horn B. The trapdoor, where it opens
+or tautological, not a genuine Spin(10)-chiral asymmetry), and the tested integers are not3. The A-derived index residues vanish mod3;
+this does not make the integers 2-primary. A strict reading collapses to plain Horn B. The trapdoor, where it opens
 at all, opens onto the wrong arena. The count is not derived from the geometry; it is issued.
 
 ## 2. Forcing-slot table -- RS frame-index operator (campaign headline object)
@@ -55,8 +70,7 @@ Three integers were produced across the angles; none is 3.
   measured asymmetry: after the P16 sandwich the operator lives only on the +chirality sector (minus-sector
   content deleted), so gamma5 acts as +1 and the trace returns +dim(+sector) = 64 by construction. n+ = 64,
   n- = 0 is forced, not measured.
-- **Twisted spin-3/2 on K3: -672 = -2^5 . 3 . 7** (pure gravitino -42 = -2 . 3 . 7). 2-primary-dominant (2-part
-  32). Cross-checked against the repo's `rs_k3_symbol_index` q=-1 branch (-672, match).
+- **Twisted spin-3/2 on K3: -672 = -2^5 . 3 . 7** (pure gravitino -42 = -2 . 3 . 7). Divisible by3 as an integer; zero Z/3 component after reduction mod24. Cross-checked against the repo's `rs_k3_symbol_index` q=-1 branch (-672, match).
 - **AGW gravitino RS index on K3: -42 = -2 . 3 . 7**, mod 24 = 6 -> CRT (6 in Z/8, 0 in Z/3). Across the
   manifold scan: K3 -42, K3#K3 -84, T^4 0 (all == 0 mod 3); HP^2 -1 (unit, the twisted-Dirac escape "1"). Every
   spin-3/2 polynomial coefficient has its only factor 3 in the **denominator** (von Staudt-Clausen of Ahat);
@@ -91,15 +105,14 @@ Each angle fails a different leg, and the failures are structural, not incidenta
 - **The index angles (twisted-spin-3/2, AGW)** are the place (a), (b), (c) come closest to co-existing -- the
   RS field is tangential (the density is exactly 7 p_1 / 8), net-chiral (a genuine signed index), and
   non-frame-trivial (the vector character ch(TM_C), not an internal id (x) U). But the integer is
-  2-primary-dominant (-2^5 . 3 . 7) or == 0 mod 3 (Z/3 identity) or a unit +-1. The actual **twisted-by-16**
+  not3, with A indices ==0 mod3 and a separate HP2 unit control. The actual **twisted-by-16**
   object too: index = 16(-42) + 3 ch2(V) == 0 mod 3 for every integer twist. The trapdoor stays shut even for
   the real object.
 
-**CRT two-arena prediction: confirmed.** Every computed integer landed where the prior said it would --
-2-primary (256 = 2^8; -672 = -2^5 . 3 . 7), or at the Z/3 identity (-42, -84, 0 all == 0 mod 3), or equal to
-the twisted-Dirac's 1 (HP^2 unit). **None landed on 3.** The 3 is CRT-disjoint from the selector arena every
-computable index lives in; anomaly inflow, the sole bridge, lands 2-primary. The geometry never reaches the
-odd-torsion Z/3 carrier arena where a count of 3 would live.
+**Scoped comparison:** none of the tested integers is3. The A indices are
+divisible by3, not 2-primary integers. This does not rule out a located
+order-3 invariant in another construction: geometric Q already supplies one.
+Nor would a nonzero mod-3 residue equal integer3, whose residue is0.
 
 ## 5. Integrity note
 
@@ -139,27 +152,17 @@ property is not left unsupported campaign-wide.
 
 ## 6. What it does to the paper
 
-**This hardens Horn B.** The forcing-slot test was the strongest remaining route by which the generation count
-could have been *derived* rather than *issued*: the RS source action was the one object whose vector index makes
-it intrinsically non-frame-trivial and whose spinor part can be chiral under the 16-twist, which is exactly why
-the count was always "gated on the RS source action." Building the toy and measuring it shows the gate opens
-onto an empty room. The RS sector supplies (c) genuinely and (a)/(b) only in forms that fail the test --
-vectorlike frame coupling (no net p_1) and a 2-primary or tautological chirality. The A-mechanism-B-ontology
-synthesis is the honest label for the index angles, but it leans hard to B: the mechanism's chiral leg is
-gravitational (flat 16) or a projector artifact, not a Spin(10)-chiral asymmetry, and every integer is
-CRT-locked to the 2-primary arena or equals 1.
+The four named comparators did not derive the count. The ghost-subtracted
+index calculation constrains A and its stated twists; geometric Q is a
+different complex. These calculations neither identify the source's observed
+carrier nor refute its native2+1 mechanism. Paper revisions remain staged for
+Joe; this approved correction changes only this canon-side wording.
 
-**Single residual gate.** One construction is not closed: a genuinely **gauge-chiral, non-flat** 16-twist
-(ch2(V_16) != 0, a real K3 instanton) measured simultaneously for (a) net self-dual p_1, (b) net chirality, and
-(c) frame charge in the 14-dim frame factor. The honest status of this gate: to force exactly 3 it would require
-ch2F = 225, an unmotivated fitted background, which is refused as fabrication pattern #4. And the twisted-by-16
-index test already run analytically (16(-42) + 3 ch2(V) == 0 mod 3 for every integer twist) predicts that even
-if such a background were built without fitting, the index would still land at the Z/3 identity. So the residual
-gate is narrow and the CRT prior predicts it stays shut. **Located, not forced:** the geometry locates a real
-non-frame-trivial chiral RS object but does not force a 3-primary count out of it. "Derive 3 from GU" remains a
-category error -- the count is issued in the selector arena, not carried out of the geometry.
+The non-flat16-twist remains a comparison with index16(-42)+3ch2(V), always
+0mod3. Choosing ch2(V)=225 would fit index3, not derive it. Divisibility alone
+does not exclude integer3. No source-action construction is authorized here.
 
-## 7. The "2+1" question (byproduct that resolves a live thread)
+## 7. The reconstructed K3 plus Pati-Salam/HP2 sum (not source-native2+1)
 
 The campaign once framed the count as "2+1 effective": the **"2"** = `A-hat(K3) = 2` (arriving through the
 spin-1/2 / Dirac leg), the **"1"** = Pati-Salam `Spin(7,7) -> 16` chiral = one anomaly-free generation. The
@@ -168,26 +171,19 @@ that live in different frameworks. This workflow answers it as a byproduct, beca
 spin-1/2 **and** spin-3/2 indices in the **same** framework (the character-valued index on K3):
 
 - spin-1/2 Dirac index on K3 = **2** (the "2"; `spin_half_index_K3 = 2`, verified control).
-- spin-3/2 (RS / gravitino) index on K3 = **-42 = -2 . 3 . 7**, which is **== 0 mod 3** (the Z/3 identity).
+- ghost-subtracted A gravitino index on K3 = **-42 = -2 . 3 . 7**, which is **== 0 mod 3** (the Z/3 identity).
 
 So when the RS sector -- the natural candidate to host the missing leg -- is placed in the *same* framework as
 the "2", it does **not** supply a clean +1 to complete `2 + 1 = 3`. It supplies -42. The "+1" appears only as
 the twisted-Dirac **unit** (HP^2 RS index = -1; or the Pati-Salam branching) -- a **different**
 framework/manifold from the "2". The `dim4_RS_indices` scan confirms the RS leg is `== 0 mod 3` on every spin
-4-manifold (K3 -42, T^4 0, K3#K3 -84; lemma: RS index = 21 sigma/8, the factor 21 = 3.7 forcing == 0 mod 3),
+4-manifold (K3 -42, T^4 0, K3#K3 -84; lemma for A: index = 21 sigma/8, the factor 21 = 3.7 forcing == 0 mod 3),
 never a clean +1 sitting alongside the "2".
 
-**Conclusion on 2+1:** the addition is **numerology across disjoint frameworks**, not a single legitimate count.
-The "2" (K3 topology) and the "1" (Pati-Salam rep branching / the HP^2 unit) live in separate frameworks; the
-object that would have to host their legitimate sum -- the gravitino index in the K3 framework -- is -42, not
-+1. So **both** pictures of "why three" fail to force it:
-
-- the **order-3 / triality** picture is blocked by the CRT no-go (3-primary carrier arena; no obstruction or
-  selector reaches it);
-- the **2+1 / additive** picture is illegitimate (cross-framework numerology; the RS leg computed in the "2"'s
-  own framework gives -42 == 0 mod 3, not +1).
-
-Located, not forced, under **both** readings -- and that robustness is now computed, not asserted.
+**Conclusion on this reconstructed sum:** the K3 Dirac2 and Pati-Salam/HP2
+unit are not a single demonstrated count. This is not SC-GEN-02/03/50's
+observation-based2+1 mechanism. The finite CRT theorem retains its own scope;
+neither it nor this A comparison rules out every source-native construction.
 
 ---
 

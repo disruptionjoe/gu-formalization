@@ -1,5 +1,5 @@
 ---
-title: "The order-3 equivariant rho, BUILT and computed at geometric-benchmark grade: the Dirac rho of the Nikulin order-3 monodromy carries the program's FIRST nonzero order-3 spectral class (0,1,2)/3; the RS (spin-3/2) rho is 2-primary, class (0,0,0), STRUCTURALLY (twist character -3 == 0 mod 3 at every fixed point) -- located-not-forced survives the fine spectral level. Adversarially verified (4 legs x 2 hostile referees, 0 refuted)."
+title: "Nikulin order-3 rho: ghost-subtracted A vanishes; geometric gamma-traceless B is nonzero; native Krein-graded identification remains open"
 status: staged
 doc_type: results
 created: 2026-07-10
@@ -23,9 +23,24 @@ scripts:
 
 # The order-3 equivariant rho: built, computed, adversarially verified
 
+## Construction scope correction — Joe approved, 2026-11-20
+
+Authority: `joe_direct_chat_2026_11_20_b`; wording correction, with existing
+status and grade retained. The Nikulin order-3 **ghost-subtracted** benchmark A
+has index -42 and zero rho class. The **geometric gamma-traceless** benchmark B
+has index -38 and nonzero classes (0,2,1)/3. The source-native **Krein-graded**
+complex remains unidentified at this invariant: retaining ghosts does not
+specify their index grading or trace. A/B is a comparison, not an exhaustive
+classification of source constructions. Neither residue supplies an integer
+family count. Statements below about a binary or sole decider are restricted
+to their declared comparison; they do not require building the source action
+before testing defined structural subfamilies. Paper and released bytes are
+unchanged. See the [approved-scope audit](../explorations/conditional-build/native-complex-order3-fork-2026-11-20.md)
+and [follow-up benchmark and map test](../explorations/conditional-build/krein-order3-observation-label-2026-11-20.md).
+
 The gated object named by `families-e-invariant-order3-monodromy-RESULTS.md` -- the fine equivariant
 (spectral) rho of an order-3 Nikulin symplectic K3 monodromy -- has now been BUILT and computed
-exactly, for both the spin-1/2 Dirac operator and the spin-3/2 Rarita-Schwinger operator, at
+exactly, for both the spin-1/2 Dirac operator and the ghost-subtracted spin-3/2 benchmark A, at
 geometric-benchmark grade. Method: 17-agent adversarial campaign (3 design routes -> 1 synthesized
 spec -> 4 exact-computation legs -> 8 hostile referees -> completeness critic); every leg survived
 refutation (0 killed).
@@ -36,9 +51,9 @@ refutation (0 killed).
 `(zeta, zeta^{-1})`, `zeta = e^{2 pi i/3}`, forced by `phi* Omega = Omega`). Mapping torus
 `T_phi = (K3 x S^1)/(Z/3)` with the product metric (Yau: average the Kahler class; `phi` is an
 isometry). Flat characters `alpha_k`, `k = 0,1,2`; `rho_k = eta_{alpha_k} - eta_{alpha_0}` at the
-eta level, h reported separately. RS = Dirac twisted by `T_C - 1C`, PINNED by the non-equivariant
+eta level, h reported separately. Here RS means benchmark A, Dirac twisted by `T_C - 1C`, checked against its non-equivariant
 gate `ind RS = -42 = 21 sigma/8` (the established AGW/gravitino density; rivals `T_C - 2C` (-44) and
-total-space `TM_C - C` (-40) FAIL the gate and are shown failing as negative checks in the scripts).
+total-space `TM_C - C` (-40) fail this A consistency gate, without being ruled out as different constructions, and are shown failing as negative checks in the scripts).
 Spin lift: unique for odd order (`Hom(Z/3, Z/2) = 0`), pinned operationally by
 `ind_phi(D) = +2 =` Hodge trace.
 
@@ -47,24 +62,25 @@ Spin lift: unique for odd order (`Hom(Z/3, Z/2) = 0`), pinned operationally by
 | operator | eta = rho (k = 0,1,2) | mod-Z class | Z/24 arena N | verdict |
 |---|---|---|---|---|
 | **Dirac (spin-1/2)** | (0, -2/3, +2/3), h = (2,0,0) | **(0, 1, 2)/3 -- NONZERO** | (0, 16, 8) | **Z3_NONZERO** |
-| **RS (spin-3/2)** | (0, +2, -2), h_virt = (14,12,12) | **(0, 0, 0)** | (0, 0, 0) | **Z3_ZERO / 2-PRIMARY** |
+| **A: ghost-subtracted RS** | (0, +2, -2), h_virt = (14,12,12) | **(0, 0, 0)** | (0, 0, 0) | **Z3_ZERO / 2-PRIMARY** |
 
-Verdict string: `DIRAC_RHO_Z3_NONZERO__RS_RHO_2PRIMARY__LOCATED_NOT_FORCED_SURVIVES_FINE_SPECTRAL_LEVEL`.
+Historical A-scoped verdict string: `DIRAC_RHO_Z3_NONZERO__RS_RHO_2PRIMARY__LOCATED_NOT_FORCED_SURVIVES_FINE_SPECTRAL_LEVEL`.
 
-**The RS vanishing is STRUCTURAL, not numerical.** At every fixed point the RS twist character is
+**The ghost-subtracted A vanishing is STRUCTURAL.** At every fixed point the RS twist character is
 `c = tr(g|T_C K3) - 1 = 2(zeta + zeta^{-1}) - 1 = -3 == 0 mod 3` -- forced by the symplectic weight
 structure. Equivalently (referee's independent derivation): `rho_k == -(k/3) * ind_fiber mod Z`, and
 `3 | 42` -- the Rokhlin bulk-even mechanism resurfacing at the fine spectral level. Hence **for ANY
-order-3 symplectic K3 automorphism the RS fine rho can never carry an order-3 class.** The one
-remaining escape route named by the prior canon is closed at benchmark grade for the whole order-3
-symplectic class.
+order-3 symplectic K3 automorphism the ghost-subtracted A fine rho has zero order-3 class.**
+This closes that invariant for A in the stated symplectic class; it does not close B or a
+separately specified native Krein complex.
 
 **The Dirac finding is genuinely new for the program.** The spin-1/2 rho carries an honest nonzero
 order-3 class `(0,1,2)/3` -- the program's FIRST nonzero mod-3 SPECTRAL number, upgrading "located"
 from a boundary-framing datum (`e_R = 1/12`) to a fine spectral invariant on actual K3-family
 geometry. Robust across all spin lifts, both circle spin structures, all sign/relabel conventions
 (24-combination sweep; only the 1-vs-2 label moves). Still **located, not forced**: nothing ties it
-to a generation count, and the generation-arena operator (RS) is exactly the one whose class vanishes.
+to a generation count, while only the selected A comparator has vanishing class. B is already a nonzero control;
+the native generation-arena operator is not identified.
 
 ## Verification record
 
@@ -103,8 +119,8 @@ to a generation count, and the generation-arena operator (RS) is exactly the one
    and its order-3 rho classes are `(0,2,1)/3` NONZERO. APS-III deformation invariance is untouched;
    it simply does not apply across distinct K-classes. The 2-primary verdict of this file is true
    of, and only of, the ghost-subtracted carrier (`-42 = 21 sigma/8`). The GU source-action operator
-   remains UNBUILT (SG4 MISSING-CARRIER); the generation-arena verdict is now a named binary riding
-   SG4: ghost-subtract => 2-primary; geometric-complete => order-3 nonzero.
+   remains UNBUILT (SG4 MISSING-CARRIER); the A/B benchmark fork is ghost-subtract => zero order-3; geometric-complete =>
+   nonzero order-3. Native Krein grading and source transfer remain open, outside this binary.
 2. **The -38 thread -- ADJUDICATED 2026-07-10.** The fourth convention is not a convention: it is
    the honest geometric gamma-traceless operator (elliptic, published: Homma-Semmelmann / Baer-
    Mazzeo), with `ind Q = -38 = 19 sigma/8` by two independent routes (in-house exact symbol
@@ -130,12 +146,9 @@ to a generation count, and the generation-arena operator (RS) is exactly the one
 
 ## What this changes (and what it does not)
 
-- **Located-not-forced SURVIVES the fine spectral level** -- the primary outcome, out of fixed-point
-  arithmetic, with no firewall import. The generation count stays OPEN (located, not forced).
-- **A new located order-3 spectral object exists** (the Dirac rho class). It sits selector-parallel
-  to `e_R = 1/12`; nothing connects it to a chiral count, and the RS channel that would carry a
-  count is structurally 2-primary.
-- **The gate narrows**: from "build the source action before anything is computable" to "the
-  benchmark is computed and 2-primary; only a GU operator deviating from the pinned K-class (or the
-  -38 symbol adjudication) can move the verdict."
-- No GU verdict, no physics claim, no generation-count movement, no public-posture change.
+- The A comparator has zero order-3 rho; B and Dirac have located nonzero classes.
+- None of these computations forces an integer family count. The broader
+  located-not-forced conclusion is distinct from universal rho vanishing.
+- Source-native Krein grading, the observation map and integer-count transfer
+  remain open. Defined benchmark computations do not wait for a source-action build.
+- No source/ledger verdict, generation-count credit or public-posture change.

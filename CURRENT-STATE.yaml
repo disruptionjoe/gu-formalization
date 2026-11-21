@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: c616197f3396441bc55177f18687240420d2b282
+revision_basis: 3b5685a5ba679640dd66accbe1768e6b2a7845d4
 program_focus:
   version: 2026-11-20-v2
   authority: joe_direct_chat_2026_11_20
@@ -14,7 +14,7 @@ program_focus:
     slots: B-lane slots only; run_selection rules 1 and 2 remain prior.
     order: When both have ready steps, alternate between these packets; Item 1 goes first on ties. Within
       the selected packet take its earliest ready step.
-    last_served_packet: lab/process/work-packets/observed-hidden-index-split-2026-11-20.md
+    last_served_packet: lab/process/work-packets/native-complex-order3-fork-2026-11-20.md
     tie_first: lab/process/work-packets/observed-hidden-index-split-2026-11-20.md
     terminal_handling: Skip packets done or killed and steps blocked by explicit dependencies; record supporting
       evidence. Do not infer a packet kill from an unbuilt object or unresolved hypothesis.
@@ -88,6 +88,28 @@ program_focus:
     - writing down, enumerating, fitting or searching for a specific action, coefficient set or Lagrangian outside lane C
     - building a gated cell's missing object (source action, stabilized RS action, K3-fibered family, boundary connection) as a way to unblock it
     - more than 3 guessed action variants in one lane-C run, or tuning a guessed action's coefficients
+krein_order3_label_2026_11_20:
+  status: T2_construction_specific_benchmark_and_map_result
+  actual_delta: Ghost-retained elliptic W_t has index-40+2t and rho_k=k(1+t)/3 modZ;
+    even ghost-Krein pairing does not select index grade. Cross-grade balanced double
+    cancels by a different symmetry, not selected native complex. Actual imposter
+    maps to horizontal gamma trace, not Q; ambient kernel label remains true upstairs.
+    Approved A-zero/B-nonzero/native-open canon wording applied. No packet kill or
+    count credit.
+  evidence:
+  - explorations/conditional-build/krein-order3-observation-label-2026-11-20.md
+  - lab/process/krein-order3-observation-label.json
+  - tests/program-focus/krein_order3_label_probe.py
+  - lab/process/hostile-reviews/2026-11-20-krein-order3-label-review.md
+  packet: lab/process/work-packets/native-complex-order3-fork-2026-11-20.md
+  completed_steps:
+  - 2
+  - 3
+  next_step: 4
+  canonical_effect: Joe-approved scope wording only in ten canon files; paper and
+    release unchanged.
+  counter_accounting: Manual scientific run per Joe follow-up(b); counter24 to25,
+    LB-LADDER plus1, cadence formula unchanged.
 zero_total_grading_2026_11_20:
   status: conditional_T2_same_grading_requirement
   actual_delta: Source nonchirality retained as explicit same-G index premise. Ambient
