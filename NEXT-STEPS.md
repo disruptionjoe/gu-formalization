@@ -16,6 +16,24 @@ Do not add "Current follow-through" sections or "Historical predecessor" stacks 
 matrix or bet file. The retired follow-through chain and banner stack are kept at the end of this file under
 "Archived steering history".
 
+## Observed/hidden and order-3 scope audits (2026-11-20)
+
+Two T3 audits reconcile existing results. The finite Krein intersection
+invariant does not automatically supply a zero total Fredholm index. Given
+that separately justified zero and a compatible observation complex, the
+existing additivity result requires hidden index to cancel observed index.
+A proper quotient is outside the finite antilinear automorphism class; that
+alone establishes neither physical admissibility nor a class-C realization.
+
+The order-3 record already distinguishes ghost-subtracted zero from geometric
+gamma-traceless nonzero. Broad headline and derivative paper wording omit
+that distinction in places. Scoped wording proposals and a reproducible
+inventory are recorded; no canon or paper edits were made. Neither packet
+was killed, and no P3 row or scientific cell status changed.
+
+[Observed/hidden scope audit](explorations/conditional-build/observed-hidden-split-sc-chi-01-2026-11-20.md) ·
+[Order-3 fork audit](explorations/conditional-build/native-complex-order3-fork-2026-11-20.md).
+
 ## Source exterior connection and geometric lower-term alternative (2026-11-13)
 
 The full source connection has fourteen components. Retaining all of them,

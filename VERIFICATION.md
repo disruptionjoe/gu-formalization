@@ -17,6 +17,28 @@ External review is not a pathway in this program. The honesty label stays: inter
 
 Sections below are historical snapshots in file order.
 
+## Observed/hidden and order-3 scope audits (2026-11-20)
+
+Two T3 audits reconcile existing results. The finite Krein intersection
+invariant does not automatically supply a zero total Fredholm index. Given
+that separately justified zero and a compatible observation complex, the
+existing additivity result requires hidden index to cancel observed index.
+A proper quotient is outside the finite antilinear automorphism class; that
+alone establishes neither physical admissibility nor a class-C realization.
+
+The order-3 record already distinguishes ghost-subtracted zero from geometric
+gamma-traceless nonzero. Broad headline and derivative paper wording omit
+that distinction in places. Scoped wording proposals and a reproducible
+inventory are recorded; no canon or paper edits were made. Neither packet
+was killed, and no P3 row or scientific cell status changed.
+
+[Observed/hidden scope audit](explorations/conditional-build/observed-hidden-split-sc-chi-01-2026-11-20.md) ·
+[Order-3 fork audit](explorations/conditional-build/native-complex-order3-fork-2026-11-20.md).
+
+Internal T3: exact finite controls, source-span hash/coverage checks and native process gates. No new Lean check or source-operator computation is claimed. The audit leaves the numerical benchmark results at their existing grades.
+
+Validation: the required `program_focus_audit.py` passes, as do the packet probe, scoped typed-carrier/kill-target checks, reverse-scaffold direction, comparator routing, process surface map and frontmatter population gates. Two inherited checks remain imperfect: the explorations directory-map audit flags duplicate section links; the focus audit self-test catches 13/14 mutations because its gated-cell mutation has no gated cell to change. The unchanged baseline reproduces both limitations. Neither is a new scientific result or an authorization to alter those checks.
+
 ## Source exterior connection and geometric lower-term alternative (2026-11-13)
 
 The full source connection has fourteen components. Retaining all of them,

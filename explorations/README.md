@@ -6,6 +6,11 @@ updated_at: "2026-08-21"
 ---
 
 
+## Observed/hidden and order-3 scope audits (2026-11-20)
+
+- [Observed/hidden conditional statement](conditional-build/observed-hidden-split-sc-chi-01-2026-11-20.md).
+- [Order-3 construction and wording inventory](conditional-build/native-complex-order3-fork-2026-11-20.md).
+
 ## Source exterior connection and lower-term alternative (2026-11-13)
 
 - [Full unitary connection constraint and geometric current-preserving alternative](conditional-build/source-lower-term-compatibility-2026-11-13.md).

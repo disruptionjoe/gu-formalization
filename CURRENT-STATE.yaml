@@ -1,10 +1,23 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 52a41f1099e39e2a8e0862ef43fd02e99febf108
+revision_basis: 2ff923d10efdbc00b878512901c982185dcd6bef
 program_focus:
-  version: 2026-11-09-v1
-  authority: joe_direct_chat_2026_11_09
+  version: 2026-11-20-v2
+  authority: joe_direct_chat_2026_11_20
+  priority_packets:
+  - lab/process/work-packets/observed-hidden-index-split-2026-11-20.md
+  - lab/process/work-packets/native-complex-order3-fork-2026-11-20.md
+  priority_packets_note: Rule 3a applies; these outrank the open determinant-gradient lower-rival next_run
+    until both packets are done or killed.
+  priority_packet_selection:
+    slots: B-lane slots only; run_selection rules 1 and 2 remain prior.
+    order: When both have ready steps, alternate between these packets; Item 1 goes first on ties. Within
+      the selected packet take its earliest ready step.
+    last_served_packet: lab/process/work-packets/native-complex-order3-fork-2026-11-20.md
+    tie_first: lab/process/work-packets/observed-hidden-index-split-2026-11-20.md
+    terminal_handling: Skip packets done or killed and steps blocked by explicit dependencies; record supporting
+      evidence. Do not infer a packet kill from an unbuilt object or unresolved hypothesis.
   read_first: >-
     This block steers research priority. Read it before any other part of this
     file. Older steering text below (next_condition history, the archived section of NEXT-STEPS,
@@ -75,6 +88,19 @@ program_focus:
     - writing down, enumerating, fitting or searching for a specific action, coefficient set or Lagrangian outside lane C
     - building a gated cell's missing object (source action, stabilized RS action, K3-fibered family, boundary connection) as a way to unblock it
     - more than 3 guessed action variants in one lane-C run, or tuning a guessed action's coefficients
+priority_packet_audits_2026_11_20:
+  status: two_T3_step1_audits_complete_no_scientific_verdict_change
+  evidence:
+  - explorations/conditional-build/observed-hidden-split-sc-chi-01-2026-11-20.md
+  - explorations/conditional-build/native-complex-order3-fork-2026-11-20.md
+  - lab/process/order3-fork-audit-2026-11-20.json
+  actual_delta: Registered two priority packets; index-count types and A/B spectral scopes separated.
+    Neither packet killed. No P3 retyping or class/ledger/canon change.
+  counter_accounting: Directed registration and T3 audit session recorded separately; hourly counter23
+    retained so the already-due LC-BETS slot is not consumed. No bet ran.
+  next_packet_steps:
+    lab/process/work-packets/observed-hidden-index-split-2026-11-20.md: 2
+    lab/process/work-packets/native-complex-order3-fork-2026-11-20.md: 2
 source_exterior_connection_2026_11_13:
   status: conditional_full_parent_constraint_and_geometric_gradient_survivor
   summary: All14 unitary spin-only connection components cannot satisfy the fixed-adjoint

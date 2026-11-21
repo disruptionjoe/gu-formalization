@@ -6,6 +6,12 @@ updated_at: "2026-08-23"
 ---
 
 
+## Observed/hidden and order-3 packets (2026-11-20)
+
+- [Observed/hidden packet](work-packets/observed-hidden-index-split-2026-11-20.md).
+- [Order-3 fork packet](work-packets/native-complex-order3-fork-2026-11-20.md).
+- [Source sentence-span inventory](order3-fork-audit-2026-11-20.json): construction tags and pinned source hashes; canon/paper wording proposals remain unapplied.
+
 ## Source exterior connection and lower-term evidence (2026-11-13)
 
 - [Exact report](source-exterior-connection.json): four lower-image, exterior, fullreceiver and density/current suites with positive and contrary controls, source/proof dependency hashes and explicit scope.
