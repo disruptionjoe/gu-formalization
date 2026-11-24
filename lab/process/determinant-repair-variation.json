@@ -1,0 +1,100 @@
+{
+  "date": "2026-11-24",
+  "base_revision": "bcaf26a2068bc3dad0cfcf19e14ea11eb5da4673",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "tier": "T2",
+  "program_target": [
+    "X-P1-P2",
+    "X-P2-P3"
+  ],
+  "actual_delta": "Moving-section weight derivatives cancel, while the added operator/field response remains. Same local closure admits profile first-jet freedom with different ambient metric Hessian responses. Exact independent-bar autonomy requires both density-dual cross blocks; added SW arrow and its dual have rank128 hidden response, not a net obstruction. Canonical determinant weight changes global L2 spaces; bounded-profile control preserves local closure with equivalent norms. Source full variational/physical/domain ownership remains open.",
+  "new_results": {
+    "moving_jets": "Ddiag f0 and Ddiag rho0 vanish to all orders; primitive b/y Hessians nonzero. Operator evaluation changes by Euler and field-jet terms.",
+    "profile_freedom": "F(0)=0,Fprime(0)=1 fixes local cancellation, not Fsecond(0), ambient response or global norm.",
+    "variational_descent": "Exact autonomous observed equations for arbitrary independent hidden/barhidden require K_OH=K_HO=0 after actual density-dual observation; source effective decoupling does not require this.",
+    "added_arrow": "lambda i_H on kerGammaN has rank128; i_H P_K(Hflat psi)=-9psi/10 for dimN10,Hsquare-1; same-rank dual contribution. Not net repaired block.",
+    "global": "Canonical rho0=e^-2s changes global L2 spaces; unitary multiplication transports operator and domain with half-symbol drift. Bounded profile tanh preserves local closure and equivalent L2 norms; no C membership claim."
+  },
+  "inherited_not_new": [
+    "grad f0=t/2",
+    "primitive varpi/epsilon independence",
+    "density rescaling alone does not repair operator"
+  ],
+  "scope": {
+    "source_effective_2plus1": "retained; not replaced by exact autonomy",
+    "K77_K95": "K95 normal6,4 Clifford fixture; no transfer",
+    "physical_state": "auxiliary L2 comparisons do not prove native positivity or Fredholmness",
+    "class_membership": "not established; profile smoothness does not establish polynomial-jet membership"
+  },
+  "kill": false,
+  "prediction_credit": false,
+  "scientific_status_change": false,
+  "next_discriminator": "At counter27 the existing LC-BETS rule selects the active bet with most time left. In a later eligible B slot, compute both density-dual cross blocks for the already-built same-construction operator and its supplied barred readout before attempting full metric dynamics or an end index. One-sided q closure is insufficient for exact independent-field autonomy; a sourced annihilator restriction or effective coupling remains a different hypothesis. If the necessary pairing/readout is absent, use a clearly typed structural subclass or another eligible matrix target; do not build the missing action, repeat determinant-jet identities, or reopen the blocked grading packets without their input.",
+  "validation": {
+    "status": "PASS",
+    "check_count": 48,
+    "checks": [
+      "noncommuting metric variations",
+      "actual determinant first b derivative",
+      "actual determinant first y derivative",
+      "actual noncommuting b Hessian",
+      "actual noncommuting y Hessian",
+      "log mixed Hessian zero",
+      "density mixed Hessian nonzero",
+      "moving section log identically zero",
+      "moving section weight identically one",
+      "full first weight derivative cancels",
+      "full mixed second weight derivative cancels",
+      "frozen-y derivative would give false moving response",
+      "Euler norm minus four",
+      "gradient half Euler",
+      "mean norm minus one",
+      "linear value zero",
+      "linear first jet one",
+      "bounded value zero",
+      "bounded first jet one",
+      "free_second_jet value zero",
+      "free_second_jet first jet one",
+      "bounded profile adjustable second jet",
+      "bounded profile differs globally",
+      "moving Euler evaluation includes field jets",
+      "held-field Euler factor response nonzero",
+      "density variation chain",
+      "moving quotient identity",
+      "complete moving hidden response cancels",
+      "frozen quotient would falsely break repaired family",
+      "primitive metric response retains free second jet",
+      "moving response independent of second jet",
+      "unbar observed quotient closes",
+      "bar observed equation retains hidden input",
+      "two cross blocks zero suffice",
+      "annihilator restriction removes barhidden term",
+      "self-dual control links both cross blocks",
+      "native normal dimensions and Clifford signs",
+      "actual projected normal field gamma kernel",
+      "actual hidden readout minus9 identity",
+      "dual kernel injection rank128 witnessed by left inverse",
+      "weighted adjoint differentiates measure",
+      "unitary conjugation half drift",
+      "bar density coordinate metric chain",
+      "canonical conformal determinant drift",
+      "weighted ambient scale measure cancels",
+      "tail weighted finite unweighted infinite",
+      "opposite tail unweighted finite weighted infinite",
+      "bounded profile limits finite"
+    ]
+  },
+  "review": "lab/process/hostile-reviews/2026-11-24-determinant-repair-variation-review.md",
+  "evidence": [
+    "explorations/conditional-build/determinant-repair-variation-2026-11-24.md",
+    "lab/process/determinant-repair-variation.json",
+    "tests/program-focus/determinant_repair_variation_probe.py",
+    "lab/process/hostile-reviews/2026-11-24-determinant-repair-variation-review.md"
+  ],
+  "source_dependencies": {
+    "lab/sources/source-claim-register.yaml": "dc3ae173b4cc0eb2a0e343e3d92d5f110b8e4f6eef3e2852a1e897ab4371ade6",
+    "lab/sources/gu-2021-draft-s9-fermionic-operator-extraction-2026-08-04.md": "c250ce367774ff593255cd211e18ea793dd3eddcd843e0520437b6d645a2c31b",
+    "explorations/conditional-build/source-exterior-connection-2026-11-13.md": "23851602d6d7b154386eac3ade598aa266c023b7a520b66b5adfd521b909ee0d",
+    "explorations/conditional-build/source-lower-term-compatibility-2026-11-13.md": "6fa4367f865d97a9b0b0668d2488d063224bc2d3b8be96c95da6b8ed45f824bf"
+  }
+}

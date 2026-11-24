@@ -5153,3 +5153,5 @@ keeps the `lambda_def` alias, nonlinear BV and null/Green domain explicit.
 - [Krein order-3 and observation label](conditional-build/krein-order3-observation-label-2026-11-20.md): declared ghost gradings, actual imposter trace, and native transfer limits.
 
 - [Native descending-grade classification](conditional-build/native-descending-grading-classification-2026-11-21.md): complete quotient normal form, four scoped symbol lifts, indices and exact native missing datum.
+
+- [Determinant repair variation](conditional-build/determinant-repair-variation-2026-11-24.md): moving-section jets, independent-bar descent and global weight controls.

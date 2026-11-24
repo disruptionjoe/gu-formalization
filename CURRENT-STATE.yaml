@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: cc6bd40f4110c5e3a0f4cc8519b4a80e3508d2a1
+revision_basis: bcaf26a2068bc3dad0cfcf19e14ea11eb5da4673
 program_focus:
   version: 2026-11-21-v1
   authority: joe_direct_chat_2026_11_21
@@ -89,6 +89,30 @@ program_focus:
     - writing down, enumerating, fitting or searching for a specific action, coefficient set or Lagrangian outside lane C
     - building a gated cell's missing object (source action, stabilized RS action, K3-fibered family, boundary connection) as a way to unblock it
     - more than 3 guessed action variants in one lane-C run, or tuning a guessed action's coefficients
+determinant_repair_variation_2026_11_24:
+  status: T2_structural_variation_and_domain_requirements
+  actual_delta: Moving-section weight derivatives cancel, while the added operator/field response remains.
+    Same local closure admits profile first-jet freedom with different ambient metric Hessian responses.
+    Exact independent-bar autonomy requires both density-dual cross blocks; added SW arrow and its dual
+    have rank128 hidden response, not a net obstruction. Canonical determinant weight changes global L2
+    spaces; bounded-profile control preserves local closure with equivalent norms. Source full variational/physical/domain
+    ownership remains open.
+  evidence:
+  - explorations/conditional-build/determinant-repair-variation-2026-11-24.md
+  - lab/process/determinant-repair-variation.json
+  - tests/program-focus/determinant_repair_variation_probe.py
+  - lab/process/hostile-reviews/2026-11-24-determinant-repair-variation-review.md
+  claim_effect: No source/ledger/class/canon or scientific status change; local survivor retained, complete
+    physical variational realization open.
+  next_discriminator: At counter27 the existing LC-BETS rule selects the active bet with most time left.
+    In a later eligible B slot, compute both density-dual cross blocks for the already-built same-construction
+    operator and its supplied barred readout before attempting full metric dynamics or an end index. One-sided
+    q closure is insufficient for exact independent-field autonomy; a sourced annihilator restriction
+    or effective coupling remains a different hypothesis. If the necessary pairing/readout is absent,
+    use a clearly typed structural subclass or another eligible matrix target; do not build the missing
+    action, repeat determinant-jet identities, or reopen the blocked grading packets without their input.
+  counter_accounting: LB-MATRIX structural wave26->27; no discovery bet attempt. Existing countmod4 cadence
+    selects LC next.
 native_descending_grading_2026_11_21:
   status: outcome3_packet_closed_blocked
   tier: T2

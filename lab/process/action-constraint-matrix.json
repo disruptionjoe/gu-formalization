@@ -609,16 +609,27 @@
         "explorations/conditional-build/source-lower-term-compatibility-2026-11-13.md",
         "explorations/conditional-build/source-exterior-connection-2026-11-13.md",
         "lab/process/source-exterior-connection.json",
-        "tests/program-focus/source_exterior_connection_probe.py"
+        "tests/program-focus/source_exterior_connection_probe.py",
+        "explorations/conditional-build/determinant-repair-variation-2026-11-24.md",
+        "lab/process/determinant-repair-variation.json",
+        "tests/program-focus/determinant_repair_variation_probe.py",
+        "lab/process/hostile-reviews/2026-11-24-determinant-repair-variation-review.md"
       ],
       "known": "Exact full14-component spin-only lower image: closure requires S=zH,W=0,R_h=-G_h. With same compatible Clifford adjoint, every unitary normal correction satisfying scalar row forces W_N=-16zH; top forces W_H=-zH, contradicting W0 whenH=t/2. Covers whole scalar-weighted stable natural family with sameq/time assumptions, including scalar-inputSE; general chiral/matrix/operator rivals separate. ComplexEnd paired-arrow escape fails actualadjoint; meanzeroSpin control survives. Actual geometric gradient SW term cancels residual with SAME primitive connection current at fixed density/bars; source/operator ownership open.",
-      "next_run": "After native counter23 LC-BETS selection, next eligible matrix work should test ownership and full metric/observation variation of the explicit determinant-gradient lower rival, or a genuinely changed source contraction/normal-jet/readout category. Fixed-density addition preserves connection current; actualweightedadjoint changes the operator, and rho-only rowrescale cannotrepair. Do not keep scanning unitary varpi inside the now-classified fixed-adjoint/sameq/LCnormaljet category. Preserve source effective2+1 versus exactclosure distinction and retained rivals.",
+      "next_run": "At counter27 the existing LC-BETS rule selects the active bet with most time left. In a later eligible B slot, compute both density-dual cross blocks for the already-built same-construction operator and its supplied barred readout before attempting full metric dynamics or an end index. One-sided q closure is insufficient for exact independent-field autonomy; a sourced annihilator restriction or effective coupling remains a different hypothesis. If the necessary pairing/readout is absent, use a clearly typed structural subclass or another eligible matrix target; do not build the missing action, repeat determinant-jet identities, or reopen the blocked grading packets without their input.",
       "structural_route": "Specify actual background orbit, isotropy and the complete diagram. Covariant bundle maps are isotropy intertwiners; same-diagram coflip ratios alone obey the fixed-arrow commutant theorem. Inhomogeneous connection translations are not automatically gauge redundancy.",
       "packet_step_status": "completed_constrained",
       "actual_delta": "Exact full14-component spin-only lower image: closure requires S=zH,W=0,R_h=-G_h. With same compatible Clifford adjoint, every unitary normal correction satisfying scalar row forces W_N=-16zH; top forces W_H=-zH, contradicting W0 whenH=t/2. Covers whole scalar-weighted stable natural family with sameq/time assumptions, including scalar-inputSE; general chiral/matrix/operator rivals separate. ComplexEnd paired-arrow escape fails actualadjoint; meanzeroSpin control survives. Actual geometric gradient SW term cancels residual with SAME primitive connection current at fixed density/bars; source/operator ownership open.",
       "completed_packet": "lab/process/work-packets/two-datum-theorem-2026-11-10.md",
       "grade": "independently reviewed conditional full-parent lower-image constraint and explicit geometric/current survivor; no class-C decision",
-      "requirement": "For actual K95 quaternionic identical-slot transformations, distinguish kernel/projector from named Gamma/j and full Clifford-plane covariance. State the vector map, target action and coflip square before transferring the fixed-arrow weld. In the fixed K95 spin/LC category, all K,J-compatible RS-projector-parallel connections are nabla0+beta Omega. Named Gamma/j use opposite quotient connections; adding insertion parallelism forces beta=0. Local/global residual calibration requires closed/exact beta respectively, not projector covariance alone."
+      "requirement": "For actual K95 quaternionic identical-slot transformations, distinguish kernel/projector from named Gamma/j and full Clifford-plane covariance. State the vector map, target action and coflip square before transferring the fixed-arrow weld. In the fixed K95 spin/LC category, all K,J-compatible RS-projector-parallel connections are nabla0+beta Omega. Named Gamma/j use opposite quotient connections; adding insertion parallelism forces beta=0. Local/global residual calibration requires closed/exact beta respectively, not projector covariance alone.",
+      "determinant_repair_variation": {
+        "date": "2026-11-24",
+        "tier": "T2",
+        "actual_delta": "Moving-section weight derivatives cancel, while the added operator/field response remains. Same local closure admits profile first-jet freedom with different ambient metric Hessian responses. Exact independent-bar autonomy requires both density-dual cross blocks; added SW arrow and its dual have rank128 hidden response, not a net obstruction. Canonical determinant weight changes global L2 spaces; bounded-profile control preserves local closure with equivalent norms. Source full variational/physical/domain ownership remains open.",
+        "kill": false,
+        "variational_bridge": "Actual density-dual operator and barred observation, both cross blocks; effective versus exact autonomy distinguished."
+      }
     },
     {
       "id": "X-D1-P3",
@@ -740,14 +751,25 @@
         "explorations/conditional-build/source-lower-term-compatibility-2026-11-13.md",
         "explorations/conditional-build/source-exterior-connection-2026-11-13.md",
         "lab/process/source-exterior-connection.json",
-        "tests/program-focus/source_exterior_connection_probe.py"
+        "tests/program-focus/source_exterior_connection_probe.py",
+        "explorations/conditional-build/determinant-repair-variation-2026-11-24.md",
+        "lab/process/determinant-repair-variation.json",
+        "tests/program-focus/determinant_repair_variation_probe.py",
+        "lab/process/hostile-reviews/2026-11-24-determinant-repair-variation-review.md"
       ],
       "known": "Exact exterior/coherent difference: Phi[zeta(T_B)] and g zeta(w_B), with formaladjoint/density and normaljets explicit. Fixedvolume coherent fullsplit repair cannot also realize exteriorclosure even with arbitrary metric normalextension; NW/SW tradeoff. Determinant density f=-1/2log|det(g^-1y)| has grad_Gf=t/2 globally and f(section)=0. ActualweightedSW or explicitgradient lowerterm restores sameLCnormaljet minimalclosure; density-only rescaling does not. Fixeddensity current unchanged; rho-weighted current scaledambient butsameonsection. No source-selected adjoint, globaldomain or effective2+1 result.",
       "requirement": "Keep whole-operator phase, closed Fredholm domain and parameter bundle fixed. Pointwise index equality is insufficient for a global family class; control mixed fibre/base twisting and continuous Fredholm-family transport. Boundary-bundle variation alone can carry a nontrivial family class even with fixed differential expression and every numerical index zero. A fixed local symbol does not fix global symmetry-compatible spectral domains. The exact Fourier-family obstruction is representation-valued; repair must preserve the demanded grading and Green data. Fixed-domain multiplier stabilizers and extendible bulk gauge transformations must be checked separately: all offset Fourier cuts have D_k U(r) D_k^-1 stabilizer, while the actual auxiliary metric-fibre end has a mixed odd-K obstruction to stable bulk extension invisible to determinant. In the untwisted product-spin category, mixed integer detection has minimum coefficient rank5; below that, the explicit rank3 characteristic map has zero stable class yet no bulk extension. A commuting same-base real/quaternionic coefficient structure forces b=0; nontrivial bundles and base-covering coflips require separate transfer. Local symbol phase and closed boundary polarization do not establish Fredholmness: the actual B5 massless quotient by the closed full gauge range retains a separated compact-core singular sequence.",
       "structural_route": "For the structurally defined subfamily admitting a fixed closed graded Fredholm realization and whole-operator invertible scalar rescaling, the index is unchanged. Commensurable domains change index by their relative dimension; noncompact fixed-symbol lower-order changes need separate Fredholm control.",
-      "next_run": "After native counter23 LC-BETS selection, next eligible matrix work should test ownership and full metric/observation variation of the explicit determinant-gradient lower rival, or a genuinely changed source contraction/normal-jet/readout category. Fixed-density addition preserves connection current; actualweightedadjoint changes the operator, and rho-only rowrescale cannotrepair. Do not keep scanning unitary varpi inside the now-classified fixed-adjoint/sameq/LCnormaljet category. Preserve source effective2+1 versus exactclosure distinction and retained rivals.",
+      "next_run": "At counter27 the existing LC-BETS rule selects the active bet with most time left. In a later eligible B slot, compute both density-dual cross blocks for the already-built same-construction operator and its supplied barred readout before attempting full metric dynamics or an end index. One-sided q closure is insufficient for exact independent-field autonomy; a sourced annihilator restriction or effective coupling remains a different hypothesis. If the necessary pairing/readout is absent, use a clearly typed structural subclass or another eligible matrix target; do not build the missing action, repeat determinant-jet identities, or reopen the blocked grading packets without their input.",
       "actual_delta": "Exact exterior/coherent difference: Phi[zeta(T_B)] and g zeta(w_B), with formaladjoint/density and normaljets explicit. Fixedvolume coherent fullsplit repair cannot also realize exteriorclosure even with arbitrary metric normalextension; NW/SW tradeoff. Determinant density f=-1/2log|det(g^-1y)| has grad_Gf=t/2 globally and f(section)=0. ActualweightedSW or explicitgradient lowerterm restores sameLCnormaljet minimalclosure; density-only rescaling does not. Fixeddensity current unchanged; rho-weighted current scaledambient butsameonsection. No source-selected adjoint, globaldomain or effective2+1 result.",
-      "grade": "independently reviewed conditional full-parent lower-image constraint and explicit geometric/current survivor; no class-C decision"
+      "grade": "independently reviewed conditional full-parent lower-image constraint and explicit geometric/current survivor; no class-C decision",
+      "determinant_repair_variation": {
+        "date": "2026-11-24",
+        "tier": "T2",
+        "actual_delta": "Moving-section weight derivatives cancel, while the added operator/field response remains. Same local closure admits profile first-jet freedom with different ambient metric Hessian responses. Exact independent-bar autonomy requires both density-dual cross blocks; added SW arrow and its dual have rank128 hidden response, not a net obstruction. Canonical determinant weight changes global L2 spaces; bounded-profile control preserves local closure with equivalent norms. Source full variational/physical/domain ownership remains open.",
+        "kill": false,
+        "variational_bridge": "Actual density-dual operator and barred observation, both cross blocks; effective versus exact autonomy distinguished."
+      }
     },
     {
       "id": "X-P1-P2-P3",
@@ -784,10 +806,14 @@
         "lab/process/native-descending-grading-classification.json",
         "tests/program-focus/native_descending_grading_probe.py",
         "Lean/GUFormalization/ObservedHiddenSplit.lean",
-        "lab/process/hostile-reviews/2026-11-21-native-descending-grading-review.md"
+        "lab/process/hostile-reviews/2026-11-21-native-descending-grading-review.md",
+        "explorations/conditional-build/determinant-repair-variation-2026-11-24.md",
+        "lab/process/determinant-repair-variation.json",
+        "tests/program-focus/determinant_repair_variation_probe.py",
+        "lab/process/hostile-reviews/2026-11-24-determinant-repair-variation-review.md"
       ],
       "packet_step_status": "blocked",
-      "next_run": "After native counter23 LC-BETS selection, next eligible matrix work should test ownership and full metric/observation variation of the explicit determinant-gradient lower rival, or a genuinely changed source contraction/normal-jet/readout category. Fixed-density addition preserves connection current; actualweightedadjoint changes the operator, and rho-only rowrescale cannotrepair. Do not keep scanning unitary varpi inside the now-classified fixed-adjoint/sameq/LCnormaljet category. Preserve source effective2+1 versus exactclosure distinction and retained rivals. Triple remains open.",
+      "next_run": "At counter27 the existing LC-BETS rule selects the active bet with most time left. In a later eligible B slot, compute both density-dual cross blocks for the already-built same-construction operator and its supplied barred readout before attempting full metric dynamics or an end index. One-sided q closure is insufficient for exact independent-field autonomy; a sourced annihilator restriction or effective coupling remains a different hypothesis. If the necessary pairing/readout is absent, use a clearly typed structural subclass or another eligible matrix target; do not build the missing action, repeat determinant-jet identities, or reopen the blocked grading packets without their input.",
       "known": "Both proposed class-width witnesses audited: neither meets the required membership/P1 or hosting-exclusion scope. Actual Wilson near-zero diagnostic qualified by exact kernel/coercivity proof; existing alternative controls do not certify C. Joint intersection remains open.",
       "actual_delta": "LB-CLASS width audit completed with explicit not-established inclusion and inapplicable hosting-exclusion dispositions; definition of C and joint scientific status unchanged.",
       "completed_packet": "lab/process/work-packets/class-width-witness-check-2026-11-11.md",
@@ -827,13 +853,20 @@
         "kill": false,
         "next_ready_packet_step": null,
         "item2_integer_bridge": "parked; no native integer; actual imposter gamma-trace, ambient kernel label only"
+      },
+      "determinant_repair_variation": {
+        "date": "2026-11-24",
+        "tier": "T2",
+        "actual_delta": "Moving-section weight derivatives cancel, while the added operator/field response remains. Same local closure admits profile first-jet freedom with different ambient metric Hessian responses. Exact independent-bar autonomy requires both density-dual cross blocks; added SW arrow and its dual have rank128 hidden response, not a net obstruction. Canonical determinant weight changes global L2 spaces; bounded-profile control preserves local closure with equivalent norms. Source full variational/physical/domain ownership remains open.",
+        "kill": false,
+        "variational_bridge": "Actual density-dual operator and barred observation, both cross blocks; effective versus exact autonomy distinguished."
       }
     }
   ],
   "lane_state": {
     "LB-MATRIX": {
       "zero_delta_streak": 0,
-      "runs": 16,
+      "runs": 17,
       "status": "open"
     },
     "LB-CLASS": {
@@ -1597,7 +1630,7 @@
   ],
   "program_run_counter": {
     "since": "2026-11-09",
-    "count": 26,
+    "count": 27,
     "rule": "Every hourly run increments this in its postflight, whatever its lane. Lane C runs when count % 4 == 3 before the increment."
   },
   "working_rule": "Cells are worked at the structure level: a requirement must hold for every action in class C or for a structurally defined subfamily. No cell is worked by writing down a specific action, and no gated cell is worked by building its gate object. See CURRENT-STATE.yaml program_focus.structure_not_specifics.",
@@ -1648,6 +1681,16 @@
       "lane": "LB-LADDER",
       "selection": "Explicit manual selection; no LC bet credit; no scientific status movement, so no new status-change shrinkage entry.",
       "actual_delta": "Complete quotient-lift normal form with operator/pairing/domain conditions; coherent horizontal is not uniquely forced by observation. Four independent-product-covariant complex RS symbol grades have closed-spin totals -820sigma, 368sigma twice, 1556sigma; all multiples64 with residue8k mod24 for sigma16k. Native physical weak/current and graded Fredholm realization remain unspecified. Outcome3 closes Item1 blocked on NATIVE-GRADED-FREDHOLM-OBSERVATION; no C kill or native zero witness."
+    },
+    {
+      "date": "2026-11-24",
+      "authority": "joe_direct_chat_big_wave_2026_11_24",
+      "item": "Determinant survivor moving variation, independent bars and global weights",
+      "counter_before": 26,
+      "counter_after": 27,
+      "lane": "LB-MATRIX",
+      "selection": "Ordinary current selection; both priority packets have no ready steps. No LC credit or scientific status movement.",
+      "actual_delta": "Moving-section weight derivatives cancel, while the added operator/field response remains. Same local closure admits profile first-jet freedom with different ambient metric Hessian responses. Exact independent-bar autonomy requires both density-dual cross blocks; added SW arrow and its dual have rank128 hidden response, not a net obstruction. Canonical determinant weight changes global L2 spaces; bounded-profile control preserves local closure with equivalent norms. Source full variational/physical/domain ownership remains open."
     }
   ]
 }

@@ -16,6 +16,23 @@ Do not add "Current follow-through" sections or "Historical predecessor" stacks 
 matrix or bet file. The retired follow-through chain and banner stack are kept at the end of this file under
 "Archived steering history".
 
+## Determinant repair: full variation and dual equations (2026-11-24)
+
+The moving-section determinant weight has zero first and second variation,
+while its added fermion operator has a distinct field/section response.
+Local cancellation fixes a first jet: different smooth weights retain it
+while changing ambient metric response. Exact autonomous observed equations
+for four independent fields require both density-dual cross blocks to vanish.
+The added lower arrow and its dual each have a rank128 hidden contribution;
+this is not the net response of the complete repaired operator.
+
+The canonical determinant weight changes global L2 norms. A bounded-profile
+control preserves the local cancellation with equivalent norms, preventing
+an all-weight exclusion. Neither source physical decoupling nor a class-C
+falsification is established. All scientific row/cell statuses remain unchanged.
+
+[Derivation](explorations/conditional-build/determinant-repair-variation-2026-11-24.md).
+
 ## Descending grades and native index boundary (2026-11-21)
 
 Observation alone does not force the coherent horizontal lift. A general
