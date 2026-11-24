@@ -17,6 +17,18 @@ External review is not a pathway in this program. The honesty label stays: inter
 
 Sections below are historical snapshots in file order.
 
+## Source-class wave verification (2026-11-24)
+
+114 gauge/current controls,976 Clifford controls (488 per real form),30 actual
+K95 reality controls and79 anomaly comparator checks pass. Ten planted mistakes
+are rejected across gauge, symbol and anomaly probes. Two symbol specialists and
+a hostile source review accept the scoped six-slot minimum. Lean compiles without
+`sorry` for the conditional kernel/rank core; symbol completeness, geometric kernel
+containment and physical/global interpretation remain outside that formalization.
+The first symbol replay caught and corrected a raised/lowered-index probe error.
+
+[Evidence and exact scope](lab/process/source-class-wave.json), [review](lab/process/hostile-reviews/2026-11-24-source-class-wave-review.md), [Lean core](Lean/GUFormalization/SourceClassCore.lean).
+
 ## Source current and symmetry applicability (2026-11-24)
 
 Small background values alone do not suppress the primitive mixing response.

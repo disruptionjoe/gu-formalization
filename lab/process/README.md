@@ -5,6 +5,12 @@ doc_type: overview
 updated_at: "2026-08-23"
 ---
 
+## Source-class wave (2026-11-24)
+
+- [Source-class evidence](source-class-wave.json)
+- [Independent and hostile acceptance](hostile-reviews/2026-11-24-source-class-wave-review.md)
+
+
 ## Bounded anomaly applicability (2026-11-24)
 
 [Source symmetry audit](../../explorations/conditional-build/source-symmetry-matching-scope-2026-11-24.md): ordinary SM residues cancel; extra B-L/Z4

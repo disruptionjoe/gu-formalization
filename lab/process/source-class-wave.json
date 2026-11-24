@@ -1,0 +1,65 @@
+{
+  "schema_version": "1.0",
+  "artifact": "source-class-wave",
+  "date": "2026-11-24",
+  "base_revision": "6ef984a3f04b40c98724d7442e6bd2f119a56a21",
+  "authority": "joe_direct_chat_2026_11_24_execute_recommendation",
+  "actual_delta": "The complete metric-only Spin-natural symbol module has18 generators,14 after the exterior-gradient condition. Every autonomous pointwise observation retaining the literal horizontal one-form and scalar output needs at least6 spinor slots in that category; five is excluded. The full block-Lorentz/SM-neutral, K95 quaternionic-compatible odd one-form class has12 real parameters and a real full-support survivor. Ordinary simultaneous gauge transport cannot erase its relative grading detector. The printed NE arrow has a left-tilted derivative defect and a flat-to-nonflat obstruction to same-slot pointwise intertwiners at fixed reference. These are quantified conditional categories, not physical modes or a GU/classC falsification.",
+  "claim_effect": "Internal symbol-category exclusion and conditional constraints only; no GU/source/classC/ledger verdict",
+  "results": [
+    {
+      "id": "source-gauge-mixing-quotient",
+      "tier": "T2",
+      "class_covered": "Simultaneous transported gauge tuple; separately fixed-reference, same-slot pointwise NE intertwiners for the stated left operation",
+      "source_bridge": "conditional: full source two-sided fermion law and physical reduction are not supplied",
+      "evidence": "explorations/conditional-build/source-gauge-mixing-quotient-2026-11-24.md",
+      "controls": 114,
+      "mutants_rejected": 6
+    },
+    {
+      "id": "source-natural-symbol-class",
+      "tier": "T1_internal_scoped",
+      "class_covered": "Metric-only complex Spin-natural first-order symbols, exterior-gradient constraint, invertible time symbol, autonomous pointwise readout retaining literal horizontal one-form plus scalar",
+      "source_bridge": "conditional: not every source tensor or physical effective reduction",
+      "generators": 18,
+      "exterior_generators": 14,
+      "minimum_spinor_slots": 6,
+      "minimum_complex_rank": 768,
+      "evidence": "explorations/conditional-build/source-natural-symbol-class-2026-11-24.md",
+      "controls": 976,
+      "mutants_rejected": 2,
+      "lean": "Lean/GUFormalization/SourceClassCore.lean"
+    },
+    {
+      "id": "source-reality-mixing-class",
+      "tier": "T2",
+      "class_covered": "K95 proper-block-Lorentz vector, SM-neutral, ambient-odd, sharp-skew, quaternionic-compatible one-form endomorphisms",
+      "real_parameters": 12,
+      "max_local_complex_rank": 128,
+      "source_bridge": "conditional extra reality; no physical mode/rate conclusion",
+      "evidence": "explorations/conditional-build/source-reality-mixing-class-2026-11-24.md",
+      "controls": 30
+    },
+    {
+      "id": "source-symmetry-matching-scope",
+      "tier": "T2",
+      "conclusion": "No presently source-established symmetry/spectrum/background combination in the audited corpus supplies a nonzero observed anomaly residue",
+      "source_bridge": "Bounded source applicability audit; conditional targets explicitly retained",
+      "evidence": "explorations/conditional-build/source-symmetry-matching-scope-2026-11-24.md",
+      "controls": 79,
+      "mutants_rejected": 2
+    }
+  ],
+  "reviews": "lab/process/hostile-reviews/2026-11-24-source-class-wave-review.md",
+  "next_discriminator": "The next regular run consumes the carried count35 LC opportunity under the existing bet-selection rule. For the next B slot, one bounded source-law audit compares the actual full two-sided fermion, independent-bar, density, reference and observation transformations with the NE compatibility conditions. Return either an authenticated whole-field transformation diagram to test, or the exact missing source datum; do not repeat adjacent odd tensors or infer fermion descent from bosonic Ward identities. If no source-authenticated diagram is available, compare another eligible source-required matrix target under existing selection instead of manufacturing that law. Symbol-index transfer remains conditional on its actual source/domain bridge.",
+  "run_accounting": {
+    "before": 35,
+    "after": 36,
+    "lane": "LB-LADDER",
+    "lane_runs_before": 11,
+    "lane_runs_after": 12,
+    "LC_carry": "due next regular run",
+    "bet_credit": false
+  },
+  "assumption_updates": "Existing symmetry, class-membership and physical-mixing entries extended; no parallel ledger"
+}

@@ -16,6 +16,19 @@ Do not add "Current follow-through" sections or "Historical predecessor" stacks 
 matrix or bet file. The retired follow-through chain and banner stack are kept at the end of this file under
 "Archived steering history".
 
+## Source-class wave (2026-11-24)
+
+The complete metric-only first-order symbol category has18 generators,14 after
+the exterior constraint. Retaining literal horizontal one-form and scalar output
+requires at least6 spinor slots; this is an internal scoped class exclusion of
+five-slot autonomous pointwise output, not a family count or GU falsification.
+The added quaternionic condition leaves a12-real-parameter odd mixing class.
+Ordinary simultaneous gauge transport does not erase its real full-support member.
+The printed fermion cross-arrow has a separate fixed-reference left-tilted descent
+obstruction; full source transformation and physical reduction remain unestablished.
+
+[Symbol theorem](explorations/conditional-build/source-natural-symbol-class-2026-11-24.md), [gauge/fermion test](explorations/conditional-build/source-gauge-mixing-quotient-2026-11-24.md), [reality classification](explorations/conditional-build/source-reality-mixing-class-2026-11-24.md), [bounded anomaly scope](explorations/conditional-build/source-symmetry-matching-scope-2026-11-24.md).
+
 ## Source current and symmetry applicability (2026-11-24)
 
 Small background values alone do not suppress the primitive mixing response.

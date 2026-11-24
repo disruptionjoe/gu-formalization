@@ -12,6 +12,13 @@ nonzero controls lack a source-established physical symmetry/spectrum bridge.
 The present applicability prerequisite is closed, with no GU anomaly verdict.
 
 
+
+## Source-class wave (2026-11-24)
+
+- [source-gauge-mixing-quotient](conditional-build/source-gauge-mixing-quotient-2026-11-24.md)
+- [source-natural-symbol-class](conditional-build/source-natural-symbol-class-2026-11-24.md)
+- [source-reality-mixing-class](conditional-build/source-reality-mixing-class-2026-11-24.md)
+
 ## Ledger evidence reconciliation (2026-11-24)
 
 [Scoped evidence audit](../explorations/conditional-build/ledger-evidence-reconciliation-2026-11-24.md) registers ten row annotations through the

@@ -11,16 +11,16 @@ program_focus:
   - lab/process/work-packets/observed-hidden-index-split-2026-11-20.md
   - lab/process/work-packets/native-complex-order3-fork-2026-11-20.md
   - lab/process/work-packets/localization-falsifier-2026-11-24.md
-  priority_packets_note: 'Joe approved the complete source-relevance recommendation: source-required-class-tests
-    first in eligible B slots; prior done/blocked packets retained. Rule1 and ordinary/carried LC remain
-    prior.'
+  priority_packets_note: Source-required-class-tests steps0-4 are done; its bounded source-law step5 is
+    the next eligible B packet discriminator. Prior done/blocked packets retained. The directed count35
+    LC carry is due next regular run; rules and all governance remain unchanged.
   priority_packet_selection:
     slots: B-lane slots only; run_selection rules 1 and 2 remain prior.
     order: When both have ready steps, alternate between these packets; Item 1 goes first on ties. Within
       the selected packet take its earliest ready step.
     directed_priority_2026_11_21: Item1 native-grading decision first; step3 optional cheap T3; Item2step4
       parked until a native integer observable exists. Existing rule1 and LC cadence unchanged.
-    last_served_packet: lab/process/work-packets/six-spinor-grading-compatibility-2026-11-24.md
+    last_served_packet: lab/process/work-packets/source-required-class-tests-2026-11-24.md
     directed_priority_2026_11_24: Localization packet steps0 then1R this manual run; later ready localization
       steps use B slots. Old Item1/2 blockers and their pairwise alternation rule remain unchanged; no
       automatic reopening.
@@ -144,6 +144,38 @@ program_focus:
     assumption_view: lab/process/action-constraint-matrix.json#source_relevance_assumption_view
     maintenance: Update linked assumptions when their evidence changes; refresh existing weekly metrics
       at weekly review. Labels and presence checks are not proof of relevance.
+source_class_wave_2026_11_24:
+  status: T1_internal_symbol_exclusion_and_T2_source_compatibility_constraints
+  actual_delta: The complete metric-only Spin-natural symbol module has18 generators,14 after the exterior-gradient
+    condition. Every autonomous pointwise observation retaining the literal horizontal one-form and scalar
+    output needs at least6 spinor slots in that category; five is excluded. The full block-Lorentz/SM-neutral,
+    K95 quaternionic-compatible odd one-form class has12 real parameters and a real full-support survivor.
+    Ordinary simultaneous gauge transport cannot erase its relative grading detector. The printed NE arrow
+    has a left-tilted derivative defect and a flat-to-nonflat obstruction to same-slot pointwise intertwiners
+    at fixed reference. These are quantified conditional categories, not physical modes or a GU/classC
+    falsification.
+  evidence:
+  - explorations/conditional-build/source-gauge-mixing-quotient-2026-11-24.md
+  - explorations/conditional-build/source-natural-symbol-class-2026-11-24.md
+  - explorations/conditional-build/source-reality-mixing-class-2026-11-24.md
+  - explorations/conditional-build/source-symmetry-matching-scope-2026-11-24.md
+  - lab/process/source-class-wave.json
+  - lab/process/hostile-reviews/2026-11-24-source-class-wave-review.md
+  - Lean/GUFormalization/SourceClassCore.lean
+  claim_effect: Internal symbol-category exclusion and conditional constraints only; no GU/source/classC/ledger
+    verdict
+  next_discriminator: The next regular run consumes the carried count35 LC opportunity under the existing
+    bet-selection rule. For the next B slot, one bounded source-law audit compares the actual full two-sided
+    fermion, independent-bar, density, reference and observation transformations with the NE compatibility
+    conditions. Return either an authenticated whole-field transformation diagram to test, or the exact
+    missing source datum; do not repeat adjacent odd tensors or infer fermion descent from bosonic Ward
+    identities. If no source-authenticated diagram is available, compare another eligible source-required
+    matrix target under existing selection instead of manufacturing that law. Symbol-index transfer remains
+    conditional on its actual source/domain bridge.
+  counter_accounting: 35->36 once; LB-LADDER11->12; LC carry due, no bet credit
+  priority_effect: Completed approved class tests; one bounded whole-field source-law audit ready; no
+    new governance or stop rule
+
 source_relevance_wave_2026_11_24:
   status: T2_reviewed_source_applicability_constraints
   actual_delta: The source low-VEV premise does not bound normalized odd primitive current response. Every
