@@ -5,6 +5,12 @@ doc_type: overview
 updated_at: "2026-08-23"
 ---
 
+## Conditional research horizon (2026-11-24)
+
+- [Ten-wave source-faithful research horizon](work-packets/ten-wave-source-falsification-2026-11-24.md)
+- [Questions, dependencies and exact inference ceilings](ten-wave-source-falsification-2026-11-24.json)
+
+
 ## Source-class wave (2026-11-24)
 
 - [Source-class evidence](source-class-wave.json)

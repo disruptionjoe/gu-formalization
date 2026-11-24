@@ -1,0 +1,602 @@
+{
+  "schema_version": "1.0",
+  "artifact": "ten-wave-source-falsification-research-horizon",
+  "created": "2026-11-24",
+  "basis_revision": "f06077366638c7c061f68f56457ecf482d3f1a11",
+  "authority": "joe_direct_chat_2026_11_24_ten_math_scaffold",
+  "status": "proposal_horizon",
+  "program_target": "LB-CLASS / X-P1-P2-P3",
+  "tier": "T3",
+  "claim_effect": "none; planning only",
+  "scheduled_priority_effect": "unchanged; current source-required packet and carriedLC retain precedence",
+  "interpretation": "Ten conditional investigation envelopes, not ten mandatory runs or ten established falsifiers. Ready means the stated entry/class test can begin; it does not certify a source-to-physics bridge. Merge overlapping modules and advance compatible ready arcs inside each existing big wave. Missing dependencies restrict only their branches; existing selection continues.",
+  "ranking_basis": [
+    "source-required decision link",
+    "genuine novelty after coverage corrections",
+    "finite discriminator with existing inputs",
+    "structural scope rather than neighbouring realizations",
+    "cost and independent alternatives"
+  ],
+  "waves": [
+    {
+      "id": "W01",
+      "title": "Resolve the few source premises that change the next calculation",
+      "status": "ready",
+      "priority_band": "A",
+      "targets": [
+        "X-P1-P2-P3",
+        "P1xvariational"
+      ],
+      "proposed_tier": "T3 applicability first; T2 structural research; existing T1 requirements if an exclusion is accepted",
+      "source_claims": [
+        {
+          "id": "SC-OP-04",
+          "polarity": "ASSERTS"
+        },
+        {
+          "id": "SC-OP-05",
+          "polarity": "UNCERTAIN"
+        },
+        {
+          "id": "SC-GEO-54",
+          "polarity": "ASSERTS"
+        },
+        {
+          "id": "SC-CHI-52",
+          "polarity": "ASSERTS"
+        }
+      ],
+      "depends_on": [],
+      "question": "Which complete field/reference transformation, scalar-curvature owner and independently specified current are actually asserted?",
+      "class_covered": "Edition-pinned source statements and their exact mathematical quantifiers; this is not an operator construction.",
+      "source_bridge": {
+        "status": "conditional",
+        "reason": "Reuse existing source-required-class-tests step5. Separate outputs so an absent scalar law does not block the fermion-law finding. Resolve effective/on-shell versus uniform off-shell statements."
+      },
+      "first_decisive_test": "Read the existing primary extraction and cited transcript loci once. Return (a) full fermion/bar/density/reference/observation laws or exact absence; (b) the scalar owner and admitted background limit; (c) whether9.18 fixes current coefficients independently of differentiating9.16.",
+      "outcome_branches": [
+        "Authenticated data activate only their dependent tests.",
+        "Absent data close that prerequisite; do not build them or keep rereading the same sources. Other ready research remains eligible.",
+        "If current is merely derivative-defined, retire a separate reciprocity calculation as tautological."
+      ],
+      "negative_result_kills": "No scientific exclusion. Insufficient source specification is a typed finding, not GU failure.",
+      "evidence_to_reuse": [
+        "lab/process/work-packets/source-required-class-tests-2026-11-24.md",
+        "lab/sources/gu-2021-draft-s9-fermionic-operator-extraction-2026-08-04.md",
+        "lab/sources/transcripts/toe-weinstein-gu-40-years.md",
+        "explorations/conditional-build/source-gauge-mixing-quotient-2026-11-24.md"
+      ],
+      "confidence_in_useful_completion": "High for a finite prerequisite answer; no direct falsification claim.",
+      "compatible_arcs": [
+        "W02 candidate/tensor custody",
+        "W06 equivalence check",
+        "W09 independent absolute topology"
+      ],
+      "execution_state": "proposal; no scientific result or counter credit"
+    },
+    {
+      "id": "W02",
+      "title": "Test whole-field covariance beyond the isolated fermion arrow",
+      "status": "ready",
+      "priority_band": "A",
+      "targets": [
+        "X-P1-P2",
+        "P1xvariational"
+      ],
+      "proposed_tier": "T3 applicability first; T2 structural research; existing T1 requirements if an exclusion is accepted",
+      "source_claims": [
+        {
+          "id": "SC-OP-04",
+          "polarity": "ASSERTS"
+        },
+        {
+          "id": "SC-OP-05",
+          "polarity": "UNCERTAIN"
+        },
+        {
+          "id": "SC-GEO-54",
+          "polarity": "ASSERTS"
+        }
+      ],
+      "depends_on": [],
+      "question": "Can any admissible natural pointwise row/column transformation repair the full declared fermion candidate under the two-sided operation?",
+      "class_covered": "An explicitly owned complete local realization or quantified tensor family; actual allowed moving tensors, group, independent barred rows and unbarred columns. Printed9.16 alone is matrix grammar, not uniquely fixed coefficients.",
+      "source_bridge": {
+        "status": "conditional",
+        "reason": "Entry is ready as a bounded custody/equivalence test on owned data. Full scientific test requires a specified principal symbol and lower coefficients. W01 determines whether any result is source-required."
+      },
+      "first_decisive_test": "Check whether an owned full realization or finite tensor family is already supplied. If so solve L sigma(xi) R=sigma(xi) for everyxi, including scalar/trace/RS provenance mixing; use time-normalized centralizer only where the time symbol is invertible. Then include derivatives of L/R and lower-order compatibility.",
+      "outcome_branches": [
+        "Complete incompatibility closes the declared candidate/repair class.",
+        "A survivor gives its exact differential and global burdens.",
+        "Insufficient coefficient specification closes this entry test; neither construct the missing operator nor silently choose a metric-only member."
+      ],
+      "negative_result_kills": "Only the specified whole-field candidate/repair family. AlternateSE, moving reference or other source-admitted constructions survive unless included.",
+      "evidence_to_reuse": [
+        "explorations/conditional-build/source-gauge-mixing-quotient-2026-11-24.md",
+        "explorations/conditional-build/x-p1-p2-multiplicity-weld-2026-11-11.md",
+        "explorations/conditional-build/source-natural-symbol-class-2026-11-24.md"
+      ],
+      "confidence_in_useful_completion": "Medium; promising extension of the actual obstruction, conditional on coefficient custody.",
+      "compatible_arcs": [
+        "Principal stabilizer versus prior fixed-arrow commutant",
+        "Differential compatibility and integrability",
+        "Moving-reference and alternateSE countercontrols"
+      ],
+      "execution_state": "proposal; no scientific result or counter credit"
+    },
+    {
+      "id": "W03",
+      "title": "Test whether scalar curvature can control the actual mixing driver",
+      "status": "blocked",
+      "priority_band": "A",
+      "targets": [
+        "X-P1-P2",
+        "P1xsymmetry"
+      ],
+      "proposed_tier": "T3 applicability first; T2 structural research; existing T1 requirements if an exclusion is accepted",
+      "source_claims": [
+        {
+          "id": "SC-CHI-51",
+          "polarity": "ASSERTS"
+        },
+        {
+          "id": "SC-CHI-52",
+          "polarity": "ASSERTS"
+        },
+        {
+          "id": "SC-CHI-53",
+          "polarity": "ASSERTS"
+        }
+      ],
+      "depends_on": [
+        "W01"
+      ],
+      "question": "On the source-required background family, does the driver vanish on the scalar-zero locus, is it determined by scalar data, and is its small-scalar suppression uniform? These are three different claims.",
+      "class_covered": "Natural curvature/jet response on the actual curvature carrier, pairing and allowed one-form perturbations; distinguish off-shell scalar-free directions from an authenticated physical solution locus.",
+      "source_bridge": {
+        "status": "conditional",
+        "reason": "Needs the exact scalar owner and a source-required background/limit quantifier. The source effective claim does not require vanishing on every off-shell scalar-flat metric."
+      },
+      "first_decisive_test": "Restrict the native quadratic curvature driver to the actual scalar-free curvature module. At an authenticated source solution jet, test the necessary linear identifiability condition ker(E,G) contained in ker(M), where E is the full linearized equation, G the fixed gravity data and M the full observed mixing derivative; retain all compensating jets. A nonzero residual rank measures missing independent linear data only at this jet level. For polynomial jets use only the independently authenticated source equation ideal; radical/real-locus and integrability distinctions remain. Separate M=0 on r=0 from M=f(r): divisibility M=rH(other data) establishes only zero-locus vanishing. Scalar-only determination needs constancy along admitted scalar fibers; uniform suppression additionally needs control of H and all other data along the source-required limit. The linearized kernel test is necessary local data, not global factorization or integrability.",
+      "outcome_branches": [
+        "Nonzero response excludes scalar-only control only in the quantified background class.",
+        "Zero restriction gives a zero-locus condition only. Separately decide scalar-fiber constancy and uniform small-scalar control; an unbounded remaining factor can defeat uniform decay.",
+        "If only an on-shell claim is required, an off-shell or nonintegrable tangent witness is non-adjudicating. Lift to an admitted actual solution family, or retain the finite-jet obstruction only."
+      ],
+      "negative_result_kills": "The declared scalar-only control subclass. No source falsification without its necessity and observed-response bridge.",
+      "evidence_to_reuse": [
+        "explorations/conditional-build/source-small-vev-current-test-2026-11-24.md",
+        "lab/active-research/joe-directed/majorana-126-neutrino/src2-mexican-hat-is-automatic-2026-08-14.md",
+        "lab/sources/transcripts/toe-weinstein-gu-40-years.md"
+      ],
+      "confidence_in_useful_completion": "Medium for the scoped restriction calculation; low present readiness of a physical verdict.",
+      "compatible_arcs": [
+        "Scalar-owner and equation-ideal typing",
+        "Whole scalar-free module calculation",
+        "Actual solution/response counterexamples or survivors"
+      ],
+      "execution_state": "proposal; no scientific result or counter credit"
+    },
+    {
+      "id": "W04",
+      "title": "Find whether the curvature–mass–decoupling relation is protected",
+      "status": "blocked",
+      "priority_band": "A",
+      "targets": [
+        "X-P1-P2-P3",
+        "P1xsymmetry"
+      ],
+      "proposed_tier": "T3 applicability first; T2 structural research; existing T1 requirements if an exclusion is accepted",
+      "source_claims": [
+        {
+          "id": "SC-CHI-51",
+          "polarity": "ASSERTS"
+        },
+        {
+          "id": "SC-CHI-52",
+          "polarity": "ASSERTS"
+        },
+        {
+          "id": "SC-COS-51",
+          "polarity": "ASSERTS"
+        },
+        {
+          "id": "SC-OP-04",
+          "polarity": "ASSERTS"
+        }
+      ],
+      "depends_on": [
+        "W01"
+      ],
+      "question": "Do all allowed invariant bilinear deformation types preserve the source-typed low-curvature relation, or is an additional selection principle required?",
+      "class_covered": "Lowest source-present derivative orders with authenticated full action-level transformation and density laws; independent bars and actual moving observation. No guessed action or coefficients.",
+      "source_bridge": {
+        "status": "conditional",
+        "reason": "Primitive endomorphism covariance alone does not identify invariant action deformations. Requires source-level transformation and a precisely stated protection claim; technical naturalness is not automatically promised."
+      },
+      "first_decisive_test": "Compute the invariant Hom spaces and restriction to the typed low-curvature locus, quotienting only authenticated redundancies. Test whether a mixing type survives independently of the curvature/VEV spurion.",
+      "outcome_branches": [
+        "A surviving independent invariant excludes symmetry-only protection, not effective decoupling.",
+        "An identically vanishing restriction identifies the protecting identity and its remaining dynamical burdens.",
+        "If W03 uses the same module and consumer, merge these calculations within one wave rather than counting them twice."
+      ],
+      "negative_result_kills": "Only the declared symmetry-only protection claim; an allowed counterterm is not proof that quantum effects generate it.",
+      "evidence_to_reuse": [
+        "explorations/conditional-build/source-reality-mixing-class-2026-11-24.md",
+        "explorations/conditional-build/source-small-vev-current-test-2026-11-24.md",
+        "explorations/conditional-build/structural-compatibility-synthesis-2026-11-24.md"
+      ],
+      "confidence_in_useful_completion": "Medium mathematical utility after law authentication; low immediate GU-falsification readiness.",
+      "compatible_arcs": [
+        "Invariant modules",
+        "Restriction and redundancy quotient",
+        "Countercontrols for on-shell/dynamical suppression"
+      ],
+      "execution_state": "proposal; no scientific result or counter credit"
+    },
+    {
+      "id": "W05",
+      "title": "Classify actual dynamical separation without fictitious switching",
+      "status": "blocked",
+      "priority_band": "B",
+      "targets": [
+        "X-P1-P2-P3",
+        "P1xfields"
+      ],
+      "proposed_tier": "T3 applicability first; T2 structural research; existing T1 requirements if an exclusion is accepted",
+      "source_claims": [
+        {
+          "id": "SC-CHI-01",
+          "polarity": "ASSERTS"
+        },
+        {
+          "id": "SC-CHI-04",
+          "polarity": "ASSERTS"
+        },
+        {
+          "id": "SC-CHI-52",
+          "polarity": "ASSERTS"
+        },
+        {
+          "id": "SC-CHI-53",
+          "polarity": "ASSERTS"
+        }
+      ],
+      "depends_on": [
+        "W01"
+      ],
+      "question": "For the admitted experiment, which source-compatible parameter strata make hidden inputs invisible under actual evolution?",
+      "class_covered": "An already supplied finite invariant or rigorously reduced response realization A(theta), inputB(theta), readoutC(theta), with parameters frozen during each experiment unless admissible controls are separately established.",
+      "source_bridge": {
+        "status": "conditional",
+        "reason": "A primitive vertex is not an evolution generator; a bilinear current is not automatically a linear readout. Exact darkness is a diagnostic, not the source effective-suppression demand."
+      },
+      "first_decisive_test": "Use Cayley–Hamilton conditions C A(theta)^k B=0 for0<=k<n on the real admissible parameter locus; retain singular/exceptional strata. Compare symmetrized static coefficient words with switched-word closure only when the stronger histories are actually allowed.",
+      "outcome_branches": [
+        "Empty exact-darkness strata remove that exact-shielding family only.",
+        "Surviving strata identify protection to test under actual moving backgrounds.",
+        "If physical generator/readout is absent, record it and reuse existing closure theorems; do not repeat generic word algebra."
+      ],
+      "negative_result_kills": "Exact shielding in the declared realization, not effective chirality or GU.",
+      "evidence_to_reuse": [
+        "explorations/conditional-build/k2239-moving-observation-closure-2026-10-29.md",
+        "explorations/conditional-build/source-reality-mixing-class-2026-11-24.md",
+        "explorations/conditional-build/source-small-vev-current-test-2026-11-24.md",
+        "explorations/conditional-build/source-weak-action-transport-2026-11-13.md"
+      ],
+      "confidence_in_useful_completion": "High for a finite test once inputs exist; low present physical readiness.",
+      "compatible_arcs": [
+        "Static admissible strata",
+        "Actual-history/moving-readout compatibility",
+        "Release quantitative W10 only with physical normalization"
+      ],
+      "execution_state": "proposal; no scientific result or counter credit"
+    },
+    {
+      "id": "W06",
+      "title": "Classify genuinely new observed evolution symbols",
+      "status": "ready",
+      "priority_band": "B",
+      "targets": [
+        "LB-CLASS",
+        "X-P1-P2",
+        "P2xorder_locality"
+      ],
+      "proposed_tier": "T3 applicability first; T2 structural research; existing T1 requirements if an exclusion is accepted",
+      "source_claims": [
+        {
+          "id": "SC-OP-04",
+          "polarity": "ASSERTS"
+        },
+        {
+          "id": "SC-OP-05",
+          "polarity": "UNCERTAIN"
+        }
+      ],
+      "depends_on": [],
+      "question": "Do the extra cross arrows in the complete14-generator exterior symbol class create genuinely different well-posedness strata?",
+      "class_covered": "Metric-only complex Spin-natural observed symbol family, separately K77/K95, retaining the literal six-slot output and stated coefficient locus. This is neither allC nor native ambient ultrahyperbolic dynamics.",
+      "source_bridge": {
+        "status": "conditional",
+        "reason": "Source allows six slots and alternative symbols. A bad symbol stratum is physically relevant only when the actual observed problem requires that stratum and ordinary evolution estimates."
+      },
+      "first_decisive_test": "First quotient by legitimate row/field equivalences preserving observation. If equivalent to Nov12, mark the calculation covered. Otherwise derive the small longitudinal/trace pencil, classify time invertibility/Jordan spectrum, and prove estimates uniform in spatial direction and stated coefficient region.",
+      "outcome_branches": [
+        "Bad strata receive a scoped analytic exclusion.",
+        "Surviving strata become inputs to W07 if their constraints/interactions are supplied.",
+        "No new stratum after equivalence means reuse, not another calculation campaign."
+      ],
+      "negative_result_kills": "Declared evolution subfamilies under their analytic requirements; no automatic physical-positivity or whole-GU conclusion.",
+      "evidence_to_reuse": [
+        "explorations/conditional-build/source-natural-symbol-class-2026-11-24.md",
+        "explorations/conditional-build/source-symbol-quotient-membership-2026-11-12.md",
+        "explorations/conditional-build/native-rs-observed-compatibility-2026-11-11.md"
+      ],
+      "confidence_in_useful_completion": "High feasibility of equivalence-first test; medium novelty; low direct falsification relevance.",
+      "compatible_arcs": [
+        "Equivalence quotient",
+        "Uniform hyperbolicity strata",
+        "Known zeroSE survivor and singular-time controls"
+      ],
+      "execution_state": "proposal; no scientific result or counter credit"
+    },
+    {
+      "id": "W07",
+      "title": "Test whether actual constraints survive the complete interaction",
+      "status": "blocked",
+      "priority_band": "B",
+      "targets": [
+        "X-P1-P2",
+        "P1xvariational",
+        "P2xorder_locality"
+      ],
+      "proposed_tier": "T3 applicability first; T2 structural research; existing T1 requirements if an exclusion is accepted",
+      "source_claims": [
+        {
+          "id": "SC-OP-04",
+          "polarity": "ASSERTS"
+        },
+        {
+          "id": "SC-OP-05",
+          "polarity": "UNCERTAIN"
+        },
+        {
+          "id": "SC-CHI-51",
+          "polarity": "ASSERTS"
+        }
+      ],
+      "depends_on": [
+        "W01"
+      ],
+      "question": "Can the actually proposed physical/semisimple constraint remain propagated by all source-required lower-order terms?",
+      "class_covered": "Supplied constraint and complete full operator return on one fixed carrier/domain; no manufactured gauge complex or use of an isolatedNE coefficient as the whole interaction.",
+      "source_bridge": {
+        "status": "conditional",
+        "reason": "Requires actual constraint and whole lower-order return; W06 may supply a candidate principal stratum but cannot supply physical constraint ownership."
+      },
+      "first_decisive_test": "Reuse factorization criteria to classify C(k)B=R_B(k)C(k) over the new complete interaction module. For variable coefficients compare differential C L=L_c C, including frame, curvature and differentiated observation terms.",
+      "outcome_branches": [
+        "An empty compatibility set excludes that constrained repair class.",
+        "A proper survivor gives exact required interaction restrictions.",
+        "Without a genuinely new owned constraint/module, the generic propagation question is already covered."
+      ],
+      "negative_result_kills": "The specified constrained repair. Ward invariance, symbol kernels and BV properness remain different objects.",
+      "evidence_to_reuse": [
+        "explorations/conditional-build/k1141-constraint-propagation-intertwiner-criterion-2026-10-05.md",
+        "explorations/conditional-build/k1142-constraint-propagation-defect-certificate-2026-10-05.md",
+        "explorations/conditional-build/source-moving-repair-2026-11-13.md",
+        "explorations/conditional-build/source-reality-mixing-class-2026-11-24.md"
+      ],
+      "confidence_in_useful_completion": "Medium conditional feasibility; low current source-input readiness.",
+      "compatible_arcs": [
+        "Whole constant-coefficient compatibility",
+        "Moving-coefficient differential identities",
+        "Unconstrained/nonlocal survivor countercontrols"
+      ],
+      "execution_state": "proposal; no scientific result or counter credit"
+    },
+    {
+      "id": "W08",
+      "title": "Test which characteristic singularities observation actually sees",
+      "status": "ready",
+      "priority_band": "B",
+      "targets": [
+        "P1xdomain_boundary",
+        "X-P1-P2-P3"
+      ],
+      "proposed_tier": "T3 applicability first; T2 structural research; existing T1 requirements if an exclusion is accepted",
+      "source_claims": [
+        {
+          "id": "SC-GEO-04",
+          "polarity": "ASSERTS"
+        },
+        {
+          "id": "SC-CHI-04",
+          "polarity": "ASSERTS"
+        },
+        {
+          "id": "SC-GEN-03",
+          "polarity": "ASSERTS"
+        },
+        {
+          "id": "SC-OP-04",
+          "polarity": "ASSERTS"
+        },
+        {
+          "id": "SC-META-52",
+          "polarity": "UNCERTAIN"
+        },
+        {
+          "id": "SC-META-53",
+          "polarity": "UNCERTAIN"
+        }
+      ],
+      "depends_on": [],
+      "question": "Does the actual observation annihilate or detect characteristic polarizations normal to the observation section?",
+      "class_covered": "Existing actual contractionQ and the declared18/14 symbol family, separately real forms. Algebraic visibility first; analytic conclusions only for an independently admitted solution space and topology.",
+      "source_bridge": {
+        "status": "conditional",
+        "reason": "Source boundary/distributional domain remains unspecified. Smooth classical fields restrict locally. Failure of a sufficient wavefront pullback criterion is not a no-go."
+      },
+      "first_decisive_test": "Classify Q ker sigma_D(n) for characteristic observer-conormaln, including degenerate strata. Only after domain admission seek an exact nonrestrictable solution or vanishing-native-norm/nonvanishing-trace sequence; a leading geometric-optics amplitude is insufficient.",
+      "outcome_branches": [
+        "Visible admitted singular witness excludes that domain/readout realization.",
+        "Annihilation of leading polarizations still requires subleading transport analysis.",
+        "Without an admitted witness/domain, return exact visibility and domain burden only."
+      ],
+      "negative_result_kills": "The specified analytic observation realization, never every source-compatible physical domain.",
+      "evidence_to_reuse": [
+        "explorations/conditional-build/observation-graph-domain-2026-11-24.md",
+        "explorations/conditional-build/k2242-ambient-conormal-descent-2026-10-29.md",
+        "explorations/conditional-build/selected-k77-global-normal-symbol-descent-2026-08-11.md"
+      ],
+      "confidence_in_useful_completion": "Medium for algebraic visibility; low for immediate physical exclusion.",
+      "compatible_arcs": [
+        "Null-stabilizer visibility classification",
+        "Actual-solution/domain applicability",
+        "Singular and smooth/annihilated controls"
+      ],
+      "execution_state": "proposal; no scientific result or counter credit"
+    },
+    {
+      "id": "W09",
+      "title": "Close the optional special-unitary determinant question",
+      "status": "ready",
+      "priority_band": "C",
+      "targets": [
+        "P2xglobal_index",
+        "X-P1-P2"
+      ],
+      "proposed_tier": "T3 applicability first; T2 structural research; existing T1 requirements if an exclusion is accepted",
+      "source_claims": [
+        {
+          "id": "SC-GRP-03",
+          "polarity": "ASSERTS"
+        }
+      ],
+      "depends_on": [],
+      "question": "Does the source-admitted SU(3,2) branch add an absolute determinant/Spin obstruction beyond the established U(3,2) existence criterion?",
+      "class_covered": "Native trace-reversed normal bundle positive6/negative4 splitting; distinguish observationX, full metric bundleY and time-oriented cover, and someJ versus fixedJ/trivialization/relative data.",
+      "source_bridge": {
+        "status": "conditional",
+        "reason": "This is an optional source branch. A failure does not remove the admittedU(3,2) branch; topology alone selects no physical vacuum or preserved connection."
+      },
+      "first_decisive_test": "Compute prescribed-c1 lifting for the positive rank6 complex reduction and determinant cancellation with the negative factor, retaining torsion and fixedSpin compatibility. Do not substitute the already trivial spinor determinant for the normal determinant.",
+      "outcome_branches": [
+        "Automatic cancellation closes an existence uncertainty once.",
+        "An obstruction excludes only that branch and prescribed topology/data.",
+        "Relative boundary questions remain inactive without source-owned boundary data."
+      ],
+      "negative_result_kills": "Optional determinant-trivial normal reduction on the specified data, not GU or allunitary reductions.",
+      "evidence_to_reuse": [
+        "explorations/conditional-build/global-normal-complex-reduction-2026-11-24.md",
+        "lab/active-research/joe-directed/source-chain/sca-right-chain-2026-08-15.md",
+        "explorations/conditional-build/selected-k77-spin-induced-determinant-line-gate-2026-08-14.md"
+      ],
+      "confidence_in_useful_completion": "High executability; medium structural utility; low direct falsification priority.",
+      "compatible_arcs": [
+        "Prescribed determinant existence",
+        "InheritedSpin compatibility",
+        "X/Y/cover and fixed-versus-free reduction controls"
+      ],
+      "execution_state": "proposal; no scientific result or counter credit"
+    },
+    {
+      "id": "W10",
+      "title": "Try to certify a physical leakage floor in the low-curvature limit",
+      "status": "blocked",
+      "priority_band": "A_if_inputs_exist",
+      "targets": [
+        "X-P1-P2-P3",
+        "P1xfields"
+      ],
+      "proposed_tier": "T3 applicability first; T2 structural research; existing T1 requirements if an exclusion is accepted",
+      "source_claims": [
+        {
+          "id": "SC-CHI-51",
+          "polarity": "ASSERTS"
+        },
+        {
+          "id": "SC-CHI-52",
+          "polarity": "ASSERTS"
+        },
+        {
+          "id": "SC-CHI-53",
+          "polarity": "ASSERTS"
+        }
+      ],
+      "depends_on": [
+        "W05"
+      ],
+      "question": "Does an independently specified physical experiment retain nonzero luminous/dark leakage as the source-required curvature/VEV limit is approached?",
+      "class_covered": "Authenticated physical response with fixed input preparation, observed channel, time/frequency window, normalization, topology and closed admissible low-VEV parameter family. Exact-darkness rank is not the observable.",
+      "source_bridge": {
+        "status": "conditional",
+        "reason": "Needs actual generator/readout/domain and the source or empirical suppression quantifier. An all-hidden-state positive Gramian is a stronger sufficient certificate, not an automatically required condition."
+      },
+      "first_decisive_test": "Choose the norm/direction dictated by the actual observable. Prove a uniform finite-window lower bound across the CLOSED limit, with controlled remainder/interval bounds if needed. Pointwise positive rank away fromzero is insufficient; no positive metric is inferred from Krein geometry.",
+      "outcome_branches": [
+        "A nonzero bound violating the actual suppression demand is a candidate physical falsification within the admitted class, requiring full T1 review.",
+        "A vanishing lower bound is inconclusive. Effective suppression requires an appropriate upper bound on the actual physical response in the specified limit.",
+        "Absent physical experiment data keep this branch blocked while other ready work proceeds."
+      ],
+      "negative_result_kills": "Only the specified physical suppression claim/class if all bridges are established; no source conclusion from a primitive vertex.",
+      "evidence_to_reuse": [
+        "explorations/conditional-build/source-weak-action-transport-2026-11-13.md",
+        "explorations/conditional-build/source-small-vev-current-test-2026-11-24.md",
+        "explorations/conditional-build/k1976-general-pairing-transport-2026-10-23.md"
+      ],
+      "confidence_in_useful_completion": "Potentially high decision value, low current readiness; no probability of success assigned.",
+      "compatible_arcs": [
+        "Operational quantifier and normalization",
+        "Uniform closed-limit lower bound",
+        "Vanishing-limit/near-resonance/physical-readout countercontrols"
+      ],
+      "execution_state": "proposal; no scientific result or counter credit"
+    }
+  ],
+  "recommended_next_workset": [
+    "Current carriedLC under existing rules",
+    "NextB: reuse W01/current packetstep5; begin W02 category custody and W06 equivalence discrimination where independent; W08 and low-priority W09 are independent reserves",
+    "Release W03/W04 only with their actual scalar/action-law premises; merge if same calculation",
+    "W05/W07/W10 remain conditional on physical generator/constraint/readout. Do not manufacture them."
+  ],
+  "rejected_or_reserve": [
+    {
+      "route": "Generic Spencer/deformation/BFV/properness campaign",
+      "reason": "Extensive prior coverage and corrected gauge/adjoint owners; no new source complex supplied."
+    },
+    {
+      "route": "Ordinary anomaly/localization/compact-index campaign",
+      "reason": "Current applicability prerequisites closed or explicitly unestablished; do not reopen without new source data."
+    },
+    {
+      "route": "Five-slot pseudodifferential extension",
+      "reason": "Possible cheap scope extension, low source relevance because source permits six slots; not a primary wave."
+    },
+    {
+      "route": "Uniform bounded positive-metric spectral-window test",
+      "reason": "PhysicalHamiltonian/domain absent; keep as reserve only for that bounded analytic subclass."
+    },
+    {
+      "route": "Another identifiability ledger or abstract decision-optimization wave",
+      "reason": "Existing assumption view owns missing choices; only an actual supplied source-equation/observable map justifies elimination."
+    }
+  ],
+  "external_method_refs": [
+    {
+      "url": "https://arxiv.org/abs/gr-qc/0403007",
+      "scope": "Strong hyperbolicity and subsidiary constraints; observed Lorentzian hypotheses required, no ambient/native transfer."
+    },
+    {
+      "url": "https://arxiv.org/abs/1409.7662",
+      "scope": "Continuity of distributional pullback under specified wavefront/topology hypotheses; sufficient criterion failure is not impossibility."
+    },
+    {
+      "url": "https://arxiv.org/html/2406.05518v2",
+      "scope": "Almost-complex obstruction stages; does not itself prove the GU determinant/Spin result."
+    }
+  ],
+  "evidence_ceiling": "Specialist assessments are planning judgments; no new calculation, Lean result, source/ledger verdict or matrix shrinkage is claimed."
+}

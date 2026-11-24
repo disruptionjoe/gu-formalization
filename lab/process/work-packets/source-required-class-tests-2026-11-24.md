@@ -43,3 +43,11 @@ work credit. Step3 tests the specific reality escape left open by the current
 result. Symbol-index and generalized reality no-go claims require an actual
 observed grading/domain/reduction bridge; do not build their gated operator.
 Localization and native Fredholm counts keep their explicit existing burdens.
+
+## Conditional research horizon
+
+The [ten-wave horizon](ten-wave-source-falsification-2026-11-24.md) records source-
+checked research alternatives and dependencies. Its W01 reuses step5 above; there
+is no duplicate audit or scientific credit. It preserves this packet's current
+priority and the dueLC opportunity. Later entries are conditional options for the
+existing postflight selection, not a new mandatory queue or stopping rule.

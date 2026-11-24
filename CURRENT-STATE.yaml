@@ -1,7 +1,7 @@
 schema_version: '1.0'
 repository: observerse-research-program
 branch: main
-revision_basis: 6ef984a3f04b40c98724d7442e6bd2f119a56a21
+revision_basis: f06077366638c7c061f68f56457ecf482d3f1a11
 program_focus:
   version: 2026-11-24-v4
   authority: joe_direct_chat_2026_11_24_execute_recommendation
@@ -144,6 +144,17 @@ program_focus:
     assumption_view: lab/process/action-constraint-matrix.json#source_relevance_assumption_view
     maintenance: Update linked assumptions when their evidence changes; refresh existing weekly metrics
       at weekly review. Labels and presence checks are not proof of relevance.
+ten_wave_research_horizon_2026_11_24:
+  status: T3_conditional_research_preparation
+  ref: lab/process/work-packets/ten-wave-source-falsification-2026-11-24.md
+  details: lab/process/ten-wave-source-falsification-2026-11-24.json
+  actual_delta: Ten source-checked investigation envelopes with executable entry tests, named dependencies,
+    scoped outcomes and explicit prior-coverage exclusions. Five entry/class tests are ready; five need
+    identified source/physical data. No scientific result is claimed.
+  priority_effect: No change to program_focus, packet precedence, count36 or dueLC carry; current source-required
+    step5 reused.
+  claim_effect: none; no source/ledger/matrix/canon change
+
 source_class_wave_2026_11_24:
   status: T1_internal_symbol_exclusion_and_T2_source_compatibility_constraints
   actual_delta: The complete metric-only Spin-natural symbol module has18 generators,14 after the exterior-gradient
