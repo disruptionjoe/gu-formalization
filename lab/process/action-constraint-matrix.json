@@ -1183,12 +1183,12 @@
         "explorations/conditional-build/source-check-and-continuation-2026-11-24.md"
       ],
       "packet_step_status": "ready",
-      "next_run": "Existing count35 selects LC-BETS next; no carry remains. For the next eligible B selection, compare a source-owned physical fluctuation/response restriction against another source-required matrix discriminator. The precise current burden is whether allowed odd fluctuations or effective couplings/propagators suppress the product response as curvature/VEV tends to zero; source full primitive variation is not proof of physical excitations. Do not rerun metric normal extensions, fixed branching, ordinary SM anomaly sums or rename the three Z4 candidates. A missing physical action/current is a named datum, not permission to construct it or stop other eligible work.",
+      "next_run": "Execute ordered ready source-required-class-tests steps. Ordinary next run first consumes carried LC opportunity; existing recurring cadence remains.",
       "known": "Both proposed class-width witnesses audited: neither meets the required membership/P1 or hosting-exclusion scope. Actual Wilson near-zero diagnostic qualified by exact kernel/coercivity proof; existing alternative controls do not certify C. Joint intersection remains open.",
       "actual_delta": "LB-CLASS width audit completed with explicit not-established inclusion and inapplicable hosting-exclusion dispositions; definition of C and joint scientific status unchanged.",
       "completed_packet": "lab/process/work-packets/class-width-witness-check-2026-11-11.md",
       "grade": "T2 internally reviewed evidence/application audit; no class-C decision",
-      "packet": "lab/process/work-packets/six-spinor-grading-compatibility-2026-11-24.md",
+      "packet": "lab/process/work-packets/source-required-class-tests-2026-11-24.md",
       "packet_audit": {
         "date": "2026-11-20",
         "tier": "T3",
@@ -1268,9 +1268,10 @@
       },
       "retained_packets": [
         "lab/process/work-packets/observed-hidden-index-split-2026-11-20.md",
-        "lab/process/work-packets/localization-falsifier-2026-11-24.md"
+        "lab/process/work-packets/localization-falsifier-2026-11-24.md",
+        "lab/process/work-packets/six-spinor-grading-compatibility-2026-11-24.md"
       ],
-      "packet_selection": "Existing packets retain done/blocked states; completed metric-normal successor removed from live next_run. Count35 selects ordinary LC next.",
+      "packet_selection": "Joe-approved source-required class wave; old packets retained. Directed current execution does not consume due LC opportunity.",
       "homogeneous_localization_2026_11_24": {
         "tier": "T2",
         "actual_delta": "RC1 formal-degree/count and W175 native gap/Fredholm imports are unsupported for the stated metric pair. A separate theorem excludes all L2 eigenmodes for finite-rank positive homogeneous selfadjoint first-order elliptic operators on SL4R/SO4, and for first-order translation-invariant elliptic operators on its full-line product. Intrinsic Dirac and RS are covered; positive ambient Pi14 is conditional on the stated Hilbert realization. No native Krein transfer, numerical spectral gap or P3 emptiness follows.",

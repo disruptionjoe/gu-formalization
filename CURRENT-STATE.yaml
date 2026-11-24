@@ -1,18 +1,19 @@
-schema_version: "1.0"
+schema_version: '1.0'
 repository: observerse-research-program
 branch: main
-revision_basis: 14778ad8a4308d2d88357bba8a81819cedbc3f40
+revision_basis: 6ef984a3f04b40c98724d7442e6bd2f119a56a21
 program_focus:
-  version: 2026-11-24-v3
-  authority: joe_direct_chat_2026_11_24_e_approved
+  version: 2026-11-24-v4
+  authority: joe_direct_chat_2026_11_24_execute_recommendation
   priority_packets:
+  - lab/process/work-packets/source-required-class-tests-2026-11-24.md
   - lab/process/work-packets/six-spinor-grading-compatibility-2026-11-24.md
   - lab/process/work-packets/observed-hidden-index-split-2026-11-20.md
   - lab/process/work-packets/native-complex-order3-fork-2026-11-20.md
   - lab/process/work-packets/localization-falsifier-2026-11-24.md
-  priority_packets_note: 'Joe24b: six-spinor compatibility first in eligible B slots; localization only
-    a short alongside applicability audit. Both older packets retain blockers. Existing rule1 and recurring
-    LC cadence remain prior.'
+  priority_packets_note: 'Joe approved the complete source-relevance recommendation: source-required-class-tests
+    first in eligible B slots; prior done/blocked packets retained. Rule1 and ordinary/carried LC remain
+    prior.'
   priority_packet_selection:
     slots: B-lane slots only; run_selection rules 1 and 2 remain prior.
     order: When both have ready steps, alternate between these packets; Item 1 goes first on ties. Within
@@ -32,6 +33,11 @@ program_focus:
     directed_cadence_2026_11_24_b: This explicit manual B-run starts at count31, ordinarily an LC slot;
       advance the counter once without LC credit and carry that unused LC opportunity to the next regular
       run. Recurring rule2 is unchanged.
+    directed_priority_2026_11_24_recommendation: New source-required-class-tests packet precedes the old
+      packet group; its ordered ready steps apply. Old Item1/2 alternation and all blocked/done dispositions
+      retained.
+    directed_cadence_2026_11_24_recommendation: Directed B wave at count35; advance once and carry the
+      due LC opportunity to the next regular run, no bet credit; recurring rule2 unchanged.
   read_first: This block steers research priority. Read it before any other part of this file. Older steering
     text below (next_condition history, the archived section of NEXT-STEPS, superseded agenda swings)
     is history, not instruction.

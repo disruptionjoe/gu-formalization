@@ -5,6 +5,13 @@ doc_type: overview
 updated_at: "2026-08-23"
 ---
 
+## Bounded anomaly applicability (2026-11-24)
+
+[Source symmetry audit](../../explorations/conditional-build/source-symmetry-matching-scope-2026-11-24.md): ordinary SM residues cancel; extra B-L/Z4
+nonzero controls lack a source-established physical symmetry/spectrum bridge.
+The present applicability prerequisite is closed, with no GU anomaly verdict.
+
+
 ## Ledger evidence reconciliation (2026-11-24)
 
 [Scoped evidence audit](../../explorations/conditional-build/ledger-evidence-reconciliation-2026-11-24.md) registers ten row annotations through the
