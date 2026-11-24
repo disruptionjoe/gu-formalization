@@ -1630,7 +1630,7 @@
   ],
   "program_run_counter": {
     "since": "2026-11-09",
-    "count": 27,
+    "count": 28,
     "rule": "Every hourly run increments this in its postflight, whatever its lane. Lane C runs when count % 4 == 3 before the increment."
   },
   "working_rule": "Cells are worked at the structure level: a requirement must hold for every action in class C or for a structurally defined subfamily. No cell is worked by writing down a specific action, and no gated cell is worked by building its gate object. See CURRENT-STATE.yaml program_focus.structure_not_specifics.",
@@ -1691,6 +1691,15 @@
       "lane": "LB-MATRIX",
       "selection": "Ordinary current selection; both priority packets have no ready steps. No LC credit or scientific status movement.",
       "actual_delta": "Moving-section weight derivatives cancel, while the added operator/field response remains. Same local closure admits profile first-jet freedom with different ambient metric Hessian responses. Exact independent-bar autonomy requires both density-dual cross blocks; added SW arrow and its dual have rank128 hidden response, not a net obstruction. Canonical determinant weight changes global L2 spaces; bounded-profile control preserves local closure with equivalent norms. Source full variational/physical/domain ownership remains open."
+    },
+    {
+      "date": "2026-11-24",
+      "authority": "joe_direct_chat_science_council_big_wave_2026_11_24",
+      "item": "LC-BETS BET-MASS-GAP attempt; research evidence retained only in discovery-bets register",
+      "counter_before": 27,
+      "counter_after": 28,
+      "lane": "LC-BETS",
+      "selection": "Existing rule2; MASS-GAP and COSMOLOGY tied with23 runs remaining, MASS-GAP selected. No scientific matrix evidence or status update."
     }
   ]
 }

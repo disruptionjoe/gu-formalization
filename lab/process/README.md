@@ -3459,3 +3459,5 @@ consistency workflow.
 - [Native grading report](native-descending-grading-classification.json) and [review](hostile-reviews/2026-11-21-native-descending-grading-review.md): outcome3, scoped totals/parity/residue and no native index verdict.
 
 - [Determinant repair evidence](determinant-repair-variation.json) and [review](hostile-reviews/2026-11-24-determinant-repair-variation-review.md): exact48 controls and scoped T2 compatibility.
+
+- [Mass-gap stability/topology evidence](bet-mass-gap-stability-topology.json) and [review](hostile-reviews/2026-11-24-mass-gap-stability-topology-review.md): scoped T2 discovery result,77 exact controls.

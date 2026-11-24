@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: bcaf26a2068bc3dad0cfcf19e14ea11eb5da4673
+revision_basis: 0bf32ac8c6877e52b10cf3f13684e87ba02fcf50
 program_focus:
   version: 2026-11-21-v1
   authority: joe_direct_chat_2026_11_21
@@ -89,6 +89,29 @@ program_focus:
     - writing down, enumerating, fitting or searching for a specific action, coefficient set or Lagrangian outside lane C
     - building a gated cell's missing object (source action, stabilized RS action, K3-fibered family, boundary connection) as a way to unblock it
     - more than 3 guessed action variants in one lane-C run, or tuning a guessed action's coefficients
+bet_mass_gap_stability_topology_2026_11_24:
+  status: T2_active_bet_with_stationarity_stability_topology_classification
+  actual_delta: Constant compact-positive R3 stationary potentials must commute. Real L2 Cartan perturbations
+    have negative relative energy; irreducible round-S3 A=theta/2 is stationary but unstable. On flat
+    T3 the full physical quadratic gap is positive iff adjoint holonomies have no common fixed vector;
+    for SO3 equivalently w2 is nonzero. Twisted SO3 control has lambda_min=pi^2/L^2, a finite-size/holonomy
+    gap with source transfer unproved. No GU or quantum-gap verdict.
+  evidence:
+  - explorations/conditional-build/bet-mass-gap-stability-topology-2026-11-24.md
+  - lab/process/bet-mass-gap-stability-topology.json
+  - tests/program-focus/bet_mass_gap_stability_topology_probe.py
+  - lab/process/hostile-reviews/2026-11-24-mass-gap-stability-topology-review.md
+  claim_effect: No native source/class/ledger/canon/prediction verdict; discovery result not imported
+    into matrix.
+  next_discriminator: For another MASS-GAP attempt, test a supplied nonconstant stationary R3 endpoint
+    with its complete physical Hessian/domain, or apply the flat-torus common-fixed-space criterion to
+    an explicitly supplied full holonomy representation and bundle. Do not repeat constant-potential candidates,
+    count a positive subblock while a neutral centralizer survives, equate irreducibility with stability,
+    or import nonliftable SO3 topology into the source weak sector. Coupled source action/observation
+    and interacting quantum mechanism remain open; no missing action is constructed to unblock a B cell.
+  counter_accounting: LC-BETS attempt27->28; MASS-GAP runs1->2, remaining22; zero new actions, no B lane
+    counter change. Existing selection returns to B; at a later LC slot COSMOLOGY currently has most remaining
+    runs23.
 determinant_repair_variation_2026_11_24:
   status: T2_structural_variation_and_domain_requirements
   actual_delta: Moving-section weight derivatives cancel, while the added operator/field response remains.

@@ -16,6 +16,22 @@ discovery bet (`lab/process/discovery-bets.json`). The K25xx--K2618 detector, pr
 results below are retained as conditional mathematics; that lane is no longer the default target. Sections
 below are dated results, newest first, and are not steering.
 
+## Mass-gap discovery: stationarity, stability and topology (2026-11-24)
+
+In the existing speculative compact-positive Yang-Mills family, spatially
+constant stationary R3 potentials commute. The actual Cartan magnetic field
+has a physical L2 negative direction; a round-S3 irreducible stationary
+connection is unstable too. A flat twisted SO3 torus instead has a positive
+full quadratic gap pi^2/L^2. On flat T3 the general criterion is absence of
+a common adjoint holonomy fixed vector; for SO3 it is equivalent to nonzero w2.
+
+This positive control changes the domain/topology and carries no quantum-gap
+or GU prediction credit. Instability can be part of the source's proposed
+condensation mechanism. The bet stays active; all scientific matrix and ledger
+statuses remain unchanged.
+
+[Derivation](explorations/conditional-build/bet-mass-gap-stability-topology-2026-11-24.md).
+
 ## Determinant repair: full variation and dual equations (2026-11-24)
 
 The moving-section determinant weight has zero first and second variation,

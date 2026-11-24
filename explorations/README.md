@@ -5155,3 +5155,5 @@ keeps the `lambda_def` alias, nonlinear BV and null/Green domain explicit.
 - [Native descending-grade classification](conditional-build/native-descending-grading-classification-2026-11-21.md): complete quotient normal form, four scoped symbol lifts, indices and exact native missing datum.
 
 - [Determinant repair variation](conditional-build/determinant-repair-variation-2026-11-24.md): moving-section jets, independent-bar descent and global weight controls.
+
+- [Mass-gap stability and topology](conditional-build/bet-mass-gap-stability-topology-2026-11-24.md): stationary constant connections, physical saddle controls and flat-torus gap classification.
