@@ -5,6 +5,18 @@ doc_type: overview
 updated_at: "2026-08-21"
 ---
 
+## Source current and symmetry applicability (2026-11-24)
+
+Small background values alone do not suppress the primitive mixing response.
+The effective-NE-readout bound identifies a necessary suppression condition;
+readouts annihilating the NE channel remain a genuine alternative.
+Three candidate Z4 actions have different charge, observation and background laws.
+The fixed geometric weak factor forces the block Lorentz lift; moving observation
+remains a valid compensation. These are conditional structural results, with no GU
+or source-claim falsification.
+
+[Current test](../explorations/conditional-build/source-small-vev-current-test-2026-11-24.md), [Z4 audit](../explorations/conditional-build/source-z4-anomaly-applicability-2026-11-24.md), [Lorentz theorem](../explorations/conditional-build/weak-compatible-lorentz-lifts-2026-11-24.md).
+
 ## Metric-normal family (2026-11-24)
 
 [Exhaustive metric-normal result](../explorations/conditional-build/metric-normal-family-grading-2026-11-24.md) and [ambient grading countercontrol](../explorations/conditional-build/ambient-correlated-grading-control-2026-11-24.md): horizontal realization excluded, distinct correlated grade survives.

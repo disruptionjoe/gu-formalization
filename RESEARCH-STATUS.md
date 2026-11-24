@@ -16,6 +16,18 @@ discovery bet (`lab/process/discovery-bets.json`). The K25xx--K2618 detector, pr
 results below are retained as conditional mathematics; that lane is no longer the default target. Sections
 below are dated results, newest first, and are not steering.
 
+## Source current and symmetry applicability (2026-11-24)
+
+Small background values alone do not suppress the primitive mixing response.
+The effective-NE-readout bound identifies a necessary suppression condition;
+readouts annihilating the NE channel remain a genuine alternative.
+Three candidate Z4 actions have different charge, observation and background laws.
+The fixed geometric weak factor forces the block Lorentz lift; moving observation
+remains a valid compensation. These are conditional structural results, with no GU
+or source-claim falsification.
+
+[Current test](explorations/conditional-build/source-small-vev-current-test-2026-11-24.md), [Z4 audit](explorations/conditional-build/source-z4-anomaly-applicability-2026-11-24.md), [Lorentz theorem](explorations/conditional-build/weak-compatible-lorentz-lifts-2026-11-24.md).
+
 ## Metric-normal family and surviving ambient grade (2026-11-24)
 
 Every metric normal extension of the held six-spinor construction either fails

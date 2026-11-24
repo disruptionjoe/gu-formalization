@@ -1,0 +1,382 @@
+{
+  "schema_version": "1.0",
+  "artifact": "SOURCE_RELEVANCE_WAVE",
+  "date": "2026-11-24",
+  "evidence_revision": "14778ad8a4308d2d88357bba8a81819cedbc3f40",
+  "approved_process_revision": "f6f2f65da1aefac25b45d9160e0ecdc6038f5dbb",
+  "tier": "T2",
+  "actual_delta": "The source low-VEV premise does not bound normalized odd primitive current response. Every effective readout restricted to the NE insertion has an exact maximal-response product bound; nonzero full receiver rows may annihilate that insertion; physical fluctuation support and dynamics remain conditional. Actual SM-neutral covariant one-form mixing survives K95 sharp and Lorentz constraints. Three Z4 candidates have distinct observation/bar/VEV laws; no automatic mod16 falsifier results. The fixed geometric weak factor forces the block Lorentz lift, while moving observation supplies a surviving compensation. No GU, source-claim, class-C or empirical exclusion.",
+  "source_bridge": {
+    "status": "conditional",
+    "reason": "Allowed primitive variations and kinematic symmetry do not select physical excitations, current reductions or quantum symmetry."
+  },
+  "kill": false,
+  "scientific_status_effect": "none",
+  "evidence": [
+    "explorations/conditional-build/source-small-vev-current-test-2026-11-24.md",
+    "explorations/conditional-build/source-z4-anomaly-applicability-2026-11-24.md",
+    "explorations/conditional-build/weak-compatible-lorentz-lifts-2026-11-24.md"
+  ],
+  "next": "Existing count35 selects LC-BETS next; no carry remains. For the next eligible B selection, compare a source-owned physical fluctuation/response restriction against another source-required matrix discriminator. The precise current burden is whether allowed odd fluctuations or effective couplings/propagators suppress the product response as curvature/VEV tends to zero; source full primitive variation is not proof of physical excitations. Do not rerun metric normal extensions, fixed branching, ordinary SM anomaly sums or rename the three Z4 candidates. A missing physical action/current is a named datum, not permission to construct it or stop other eligible work.",
+  "verification": {
+    "current_controls": 44,
+    "readout_controls": 44,
+    "z4_clifford_controls": 54,
+    "lorentz_controls": 23,
+    "lorentz_mutants": [
+      {
+        "mutant": "weak-diagonal",
+        "rejected": true,
+        "failure": "AssertionError: complete metric centralizer dimension18"
+      },
+      {
+        "mutant": "spin-only-as-geometric",
+        "rejected": true,
+        "failure": "AssertionError: full geometric gamma intertwiner"
+      },
+      {
+        "mutant": "frozen-moving-q",
+        "rejected": true,
+        "failure": "AssertionError: moving contraction cancels residual form action"
+      }
+    ],
+    "process_contract_controls": 25,
+    "process_gate_selftests": 14,
+    "all_passed": true,
+    "method": "Root serialized exact algebra controls. Written quantified proofs reviewed independently. Finite tests do not stand in for full physical models."
+  },
+  "reviewers": [
+    "native_connection_attack",
+    "source_falsifier_review",
+    "cosmology_cadence",
+    "root"
+  ],
+  "current_exact": {
+    "baseline": "14778ad8a4308d2d88357bba8a81819cedbc3f40",
+    "classification": "source-authenticated vertex; physical response conditional",
+    "checks": [
+      {
+        "name": "K95 volume skew-adjoint involution",
+        "passed": true
+      },
+      {
+        "name": "odd generator belongs to actual u(K)",
+        "passed": true
+      },
+      {
+        "name": "odd generator invertible on both halves",
+        "passed": true
+      },
+      {
+        "name": "odd generator exchanges Omega halves",
+        "passed": true
+      },
+      {
+        "name": "weak generator belongs to u(K)",
+        "passed": true
+      },
+      {
+        "name": "geometric weak parity even",
+        "passed": true
+      },
+      {
+        "name": "even current response is G-odd",
+        "passed": true
+      },
+      {
+        "name": "odd current response is G-even",
+        "passed": true
+      },
+      {
+        "name": "same-sector weak bilinear",
+        "passed": true
+      },
+      {
+        "name": "opposite-sector parent bilinear",
+        "passed": true
+      },
+      {
+        "name": "weak opposite-sector blocks vanish",
+        "passed": true
+      },
+      {
+        "name": "odd same-sector blocks vanish",
+        "passed": true
+      },
+      {
+        "name": "odd mixed block survives",
+        "passed": true
+      },
+      {
+        "name": "literal horizontal NE is injective",
+        "passed": true
+      },
+      {
+        "name": "NE rank per ambient half",
+        "passed": true
+      },
+      {
+        "name": "zero VEV does not remove derivative",
+        "passed": true
+      },
+      {
+        "name": "small actual fluctuation does suppress vertex",
+        "passed": true
+      },
+      {
+        "name": "bad sharp-law plant rejected",
+        "passed": true
+      },
+      {
+        "name": "positive density is not same sector law",
+        "passed": true
+      },
+      {
+        "name": "normal dimensions balanced",
+        "passed": true
+      },
+      {
+        "name": "only sterile irrep common",
+        "passed": true
+      },
+      {
+        "name": "charge-resolved chirality nonzero",
+        "passed": true
+      },
+      {
+        "name": "RH conjugate is not same-charge mirror",
+        "passed": true
+      },
+      {
+        "name": "weak-only characters lose the chiral distinction",
+        "passed": true
+      },
+      {
+        "name": "sterile parent sharp law sign 1",
+        "passed": true
+      },
+      {
+        "name": "sterile generators Omega-odd sign 1",
+        "passed": true
+      },
+      {
+        "name": "sterile sharp intersection four real parameters sign 1",
+        "passed": true
+      },
+      {
+        "name": "sterile possible ranks sign 1",
+        "passed": true
+      },
+      {
+        "name": "independent unpaired right block rejected sign 1",
+        "passed": true
+      },
+      {
+        "name": "sterile parent sharp law sign -1",
+        "passed": true
+      },
+      {
+        "name": "sterile generators Omega-odd sign -1",
+        "passed": true
+      },
+      {
+        "name": "sterile sharp intersection four real parameters sign -1",
+        "passed": true
+      },
+      {
+        "name": "sterile possible ranks sign -1",
+        "passed": true
+      },
+      {
+        "name": "independent unpaired right block rejected sign -1",
+        "passed": true
+      },
+      {
+        "name": "horizontal K is nondegenerate Hermitian",
+        "passed": true
+      },
+      {
+        "name": "horizontal Clifford type",
+        "passed": true
+      },
+      {
+        "name": "horizontal vectors sharp-selfadjoint",
+        "passed": true
+      },
+      {
+        "name": "horizontal chirality sharp-skew",
+        "passed": true
+      },
+      {
+        "name": "covariant one-form values in actual unitary parent",
+        "passed": true
+      },
+      {
+        "name": "covariant one-form Omega-odd",
+        "passed": true
+      },
+      {
+        "name": "covariant one-form commutes with every normal spectator action",
+        "passed": true
+      },
+      {
+        "name": "whole one-form Lorentz covariance",
+        "passed": true
+      },
+      {
+        "name": "individual vector coefficient is not Lorentz scalar",
+        "passed": true
+      },
+      {
+        "name": "observed one-form insertion has rank and trace witness",
+        "passed": true
+      }
+    ],
+    "passed": true,
+    "all_dimension_written_identity": "T_odd^2=-I implies rank 2n, rank n per Omega half",
+    "n64_parent_even_real_dimension": 8192,
+    "n64_parent_odd_real_dimension": 8192,
+    "lorentz_scalar_SM_neutral_odd_sharp_dimension_real": 4,
+    "lorentz_scalar_SM_neutral_odd_ranks": [
+      0,
+      4,
+      8
+    ],
+    "covariant_one_form_is_larger_than_scalar_generator_category": true,
+    "physical_propagator_or_current_quotient_computed": false,
+    "source_or_C_kill": false,
+    "readout_controls": {
+      "passed": true,
+      "checks": 44,
+      "scope": "exact effective-port and observation-channel controls; physical response conditional",
+      "countercontrols": [
+        "restricted odd support",
+        "zero effective port",
+        "small physical prefactor",
+        "omitted frame leg",
+        "horizontal NE blind sigma row",
+        "all NE blind scalar row"
+      ]
+    }
+  },
+  "lorentz_exact": {
+    "checks": 23,
+    "passed": 23,
+    "metric_centralizer_dimension": 18,
+    "scope": "fixed geometric weak / split metric lift; source realization not inferred",
+    "results": [
+      {
+        "name": "left quaternion products",
+        "pass": true
+      },
+      {
+        "name": "left-right centralization",
+        "pass": true
+      },
+      {
+        "name": "right imaginary skewness",
+        "pass": true
+      },
+      {
+        "name": "all45 metric generators",
+        "pass": true
+      },
+      {
+        "name": "complete metric centralizer dimension18",
+        "pass": true
+      },
+      {
+        "name": "18 independent explicit centralizer generators",
+        "pass": true
+      },
+      {
+        "name": "explicit centralizer commutes weak",
+        "pass": true
+      },
+      {
+        "name": "centralizer positive-form skew",
+        "pass": true
+      },
+      {
+        "name": "real Lorentz boost adjoint eigenvalue1",
+        "pass": true
+      },
+      {
+        "name": "Lorentz boost and rotation brackets",
+        "pass": true
+      },
+      {
+        "name": "diagonal weak admits noncompact Lorentz control",
+        "pass": true
+      },
+      {
+        "name": "control really has boosts",
+        "pass": true
+      },
+      {
+        "name": "source factor rejects those boosts",
+        "pass": true
+      },
+      {
+        "name": "Cl22 exact generator relations",
+        "pass": true
+      },
+      {
+        "name": "normal spin-vector covariance",
+        "pass": true
+      },
+      {
+        "name": "gamma trace right inverse",
+        "pass": true
+      },
+      {
+        "name": "hidden projector exact",
+        "pass": true
+      },
+      {
+        "name": "full geometric gamma intertwiner",
+        "pass": true
+      },
+      {
+        "name": "spin-only compensation leaves form action",
+        "pass": true
+      },
+      {
+        "name": "fixed-q compensation fails on hidden fields",
+        "pass": true
+      },
+      {
+        "name": "hidden form defect opposite spin defect",
+        "pass": true
+      },
+      {
+        "name": "moving contraction cancels residual form action",
+        "pass": true
+      },
+      {
+        "name": "higher Clifford parent need not normalize vectors",
+        "pass": true
+      }
+    ]
+  },
+  "readout_exact": {
+    "checks": 44,
+    "countercontrols": [
+      "restricted odd support",
+      "zero effective port",
+      "small physical prefactor",
+      "omitted frame leg",
+      "horizontal NE blind sigma row",
+      "all NE blind scalar row"
+    ],
+    "passed": true,
+    "scope": "exact effective-port and observation-channel controls; physical response conditional"
+  },
+  "source_ceiling": [
+    "Source effective chirality retained; no exact off-shell substitute",
+    "K95 real form only; K77 not imported",
+    "Full2+1 and imposter provenance retained; no ordinary3family count",
+    "Nonzero vertex is not measured interaction",
+    "Actual source physical reduction and complete derivative may change response"
+  ]
+}

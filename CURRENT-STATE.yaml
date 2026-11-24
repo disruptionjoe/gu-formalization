@@ -138,6 +138,33 @@ program_focus:
     assumption_view: lab/process/action-constraint-matrix.json#source_relevance_assumption_view
     maintenance: Update linked assumptions when their evidence changes; refresh existing weekly metrics
       at weekly review. Labels and presence checks are not proof of relevance.
+source_relevance_wave_2026_11_24:
+  status: T2_reviewed_source_applicability_constraints
+  actual_delta: The source low-VEV premise does not bound normalized odd primitive current response. Every
+    effective readout restricted to the NE insertion has an exact maximal-response product bound; nonzero
+    full receiver rows may annihilate that insertion; physical fluctuation support and dynamics remain
+    conditional. Actual SM-neutral covariant one-form mixing survives K95 sharp and Lorentz constraints.
+    Three Z4 candidates have distinct observation/bar/VEV laws; no automatic mod16 falsifier results.
+    The fixed geometric weak factor forces the block Lorentz lift, while moving observation supplies a
+    surviving compensation. No GU, source-claim, class-C or empirical exclusion.
+  evidence:
+  - explorations/conditional-build/source-small-vev-current-test-2026-11-24.md
+  - explorations/conditional-build/source-z4-anomaly-applicability-2026-11-24.md
+  - explorations/conditional-build/weak-compatible-lorentz-lifts-2026-11-24.md
+  - lab/process/source-relevance-wave.json
+  - lab/process/hostile-reviews/2026-11-24-source-relevance-wave-review.md
+  claim_effect: No source/physics ledger, class C, canon, empirical prediction or scientific matrix status
+    change
+  next_discriminator: Existing count35 selects LC-BETS next; no carry remains. For the next eligible B
+    selection, compare a source-owned physical fluctuation/response restriction against another source-required
+    matrix discriminator. The precise current burden is whether allowed odd fluctuations or effective
+    couplings/propagators suppress the product response as curvature/VEV tends to zero; source full primitive
+    variation is not proof of physical excitations. Do not rerun metric normal extensions, fixed branching,
+    ordinary SM anomaly sums or rename the three Z4 candidates. A missing physical action/current is a
+    named datum, not permission to construct it or stop other eligible work.
+  counter_accounting: 34->35 once; LB-LADDER10->11; no bet credit; existing LC cadence retained
+  process_effect: Approved program_focus v2026-11-24-v3 implemented; all prior rules retained
+
 metric_normal_family_2026_11_24:
   status: T1_scoped_family_exclusion_with_T2_ambient_countercontrol
   actual_delta: 'The entire 910-dimensional space of metric normal-connection values in R6-metric-normal-coherent is classified: full
@@ -156,7 +183,7 @@ metric_normal_family_2026_11_24:
   next_discriminator: The metric-normal repair question is settled. The remaining source bridge is the
     actual weak/luminous current projector and its independently required effective law; generic low-mass
     bounds and geometric weak transport were already studied November13. Ordinary existing selection continues;
-    Joe24e class-method/governance proposals remain unapproved and are not implemented.
+    Historical next-step note superseded by source_relevance_wave_2026_11_24; Joe24e amendments subsequently approved and implemented.
   counter_accounting: 33->34 once; LB-LADDER9->10; no betcredit; rules unchanged
   packet_effect: six-spinor0-3 done; no new step or priority edit
 bet_cosmology_regular_perturbations_2026_11_24:

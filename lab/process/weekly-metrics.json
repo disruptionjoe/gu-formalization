@@ -22,18 +22,18 @@
     {
       "week_ending": "2026-11-24",
       "window_start": "2026-11-18",
-      "as_of_revision": "14778ad8a4308d2d88357bba8a81819cedbc3f40",
-      "as_of_program_counter": 34,
-      "coverage": "Retrospective published scientific runs23->34;11 contiguous manual-accounted increments. No hourly runtime assumed from cadence. Process-only updates uncredited.",
+      "as_of_revision": "f6f2f65da1aefac25b45d9160e0ecdc6038f5dbb",
+      "as_of_program_counter": 35,
+      "coverage": "Published baseline23->34 plus this scientifically accounted wave34->35:12 contiguous manual-accounted increments. No hourly launch inferred. Approved process-only update uncredited.",
       "runs": {
-        "scientific_total": 11,
+        "scientific_total": 12,
         "by_lane": {
           "LB-MATRIX": 1,
           "LB-CLASS": 0,
-          "LB-LADDER": 8,
+          "LB-LADDER": 9,
           "LC-BETS": 2
         },
-        "manual_accounted": 11,
+        "manual_accounted": 12,
         "unclassified_counter_increments": 0
       },
       "matrix_cells_changed": 0,
@@ -101,14 +101,23 @@
             "evidence": [
               "explorations/conditional-build/native-descending-grading-classification-2026-11-21.md"
             ]
+          },
+          {
+            "decision": "The source low-VEV premise does not bound normalized odd primitive current response. Every effective readout restricted to the NE insertion has an exact maximal-response product bound; nonzero full receiver rows may annihilate that insertion; physical fluctuation support and dynamics remain conditional. Actual SM-neutral covariant one-form mixing survives K95 sharp and Lorentz constraints. Three Z4 candidates have distinct observation/bar/VEV laws; no automatic mod16 falsifier results. The fixed geometric weak factor forces the block Lorentz lift, while moving observation supplies a surviving compensation. No GU, source-claim, class-C or empirical exclusion.",
+            "evidence": [
+              "explorations/conditional-build/source-small-vev-current-test-2026-11-24.md",
+              "explorations/conditional-build/source-z4-anomaly-applicability-2026-11-24.md",
+              "explorations/conditional-build/weak-compatible-lorentz-lifts-2026-11-24.md"
+            ]
           }
         ],
         "counting_note": "Decisions, not files; entries overlap. No class-wide percentage or claim that conditional results are zero learning."
       },
-      "summary_for_joe": "Eleven scientific runs produced structural constraints, corrections and surviving controls; no source claim, matrix cell or bet was falsified. Two internal T1 exclusions have Lean cores. The source-to-observable bridge remains the principal applicability burden.",
+      "summary_for_joe": "Twelve accounted scientific runs; zero source falsifications, matrix status changes or bet kills. Two prior internal T1 exclusions have Lean cores. This wave narrows whole current-response and symmetry applicability classes and retains source-compatible survivors; physical response remains the next source bridge.",
       "evidence": [
         "lab/process/action-constraint-matrix.json#manual_run_accounting"
-      ]
+      ],
+      "included_owner_wave": "RUN-20261124-gu-source-relevance-wave (this commit; evidence paths below)"
     }
   ]
 }
