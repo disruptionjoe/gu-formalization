@@ -15,7 +15,100 @@
     "zero_delta_runs": "runs whose actual_delta was none",
     "reroutes": "lanes rerouted by the three-zero-delta rule",
     "tier1_results": "count, and how many have a Lean check",
-    "summary_for_joe": "one screen: what moved, what died, what is next"
+    "summary_for_joe": "one screen: what moved, what died, what is next",
+    "scope_and_bridge": "Evidence-linked decisions by mathematical scope and source bridge; categories may overlap and are not a productivity score."
   },
-  "entries": []
+  "entries": [
+    {
+      "week_ending": "2026-11-24",
+      "window_start": "2026-11-18",
+      "as_of_revision": "14778ad8a4308d2d88357bba8a81819cedbc3f40",
+      "as_of_program_counter": 34,
+      "coverage": "Retrospective published scientific runs23->34;11 contiguous manual-accounted increments. No hourly runtime assumed from cadence. Process-only updates uncredited.",
+      "runs": {
+        "scientific_total": 11,
+        "by_lane": {
+          "LB-MATRIX": 1,
+          "LB-CLASS": 0,
+          "LB-LADDER": 8,
+          "LC-BETS": 2
+        },
+        "manual_accounted": 11,
+        "unclassified_counter_increments": 0
+      },
+      "matrix_cells_changed": 0,
+      "intersections_changed": 0,
+      "ledger_rows_moved": 0,
+      "kills": {
+        "matrix_empty": 0,
+        "bets_closed": 0,
+        "source_claim_falsifications": 0
+      },
+      "class_widenings": 0,
+      "zero_delta_runs": 0,
+      "reroutes": 0,
+      "tier1_results": {
+        "count": 2,
+        "with_lean_check": 2,
+        "scope": "Internal horizontal-grade realization/family exclusions; no decided_for_C or source verdict"
+      },
+      "scope_and_bridge": {
+        "source_required_exclusions": [],
+        "conditional_structural_exclusions": [
+          {
+            "decision": "Held horizontal-grade realization and full metric-normal extension family excluded; effective source bridge absent",
+            "evidence": [
+              "explorations/conditional-build/six-spinor-grading-compatibility-2026-11-24.md",
+              "explorations/conditional-build/metric-normal-family-grading-2026-11-24.md"
+            ]
+          },
+          {
+            "decision": "Literal section readout fails specified L2/graph domains; modified topology/constrained spaces remain",
+            "evidence": [
+              "explorations/conditional-build/observation-graph-domain-2026-11-24.md"
+            ]
+          }
+        ],
+        "surviving_controls": [
+          {
+            "decision": "Ambient-correlated grade survives; no physical-current/count credit",
+            "evidence": [
+              "explorations/conditional-build/ambient-correlated-grading-control-2026-11-24.md"
+            ]
+          },
+          {
+            "decision": "Mass-gap and scalar cosmology bets remain active with explicit topology/initial-state limits",
+            "evidence": [
+              "lab/process/discovery-bets.json"
+            ]
+          }
+        ],
+        "bridges_corrected_or_unresolved": [
+          {
+            "decision": "Source/observed imposter is gamma-trace under actual observation; ambient kernel label alone does not supply the operator or count",
+            "evidence": [
+              "explorations/conditional-build/native-complex-order3-fork-2026-11-20.md"
+            ]
+          },
+          {
+            "decision": "Native W175 gap withdrawn; localization promotion premises unproved",
+            "evidence": [
+              "explorations/conditional-build/localization-applicability-audit-2026-11-24.md"
+            ]
+          },
+          {
+            "decision": "Native graded Fredholm observation unresolved; both Nov20 packets retain blocks",
+            "evidence": [
+              "explorations/conditional-build/native-descending-grading-classification-2026-11-21.md"
+            ]
+          }
+        ],
+        "counting_note": "Decisions, not files; entries overlap. No class-wide percentage or claim that conditional results are zero learning."
+      },
+      "summary_for_joe": "Eleven scientific runs produced structural constraints, corrections and surviving controls; no source claim, matrix cell or bet was falsified. Two internal T1 exclusions have Lean cores. The source-to-observable bridge remains the principal applicability burden.",
+      "evidence": [
+        "lab/process/action-constraint-matrix.json#manual_run_accounting"
+      ]
+    }
+  ]
 }

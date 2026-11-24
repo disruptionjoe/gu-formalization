@@ -1,10 +1,10 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: d00453308b4adafba2f3cad429175a59c5a28cc8
+revision_basis: 14778ad8a4308d2d88357bba8a81819cedbc3f40
 program_focus:
-  version: 2026-11-24-v2
-  authority: joe_direct_chat_2026_11_24_b
+  version: 2026-11-24-v3
+  authority: joe_direct_chat_2026_11_24_e_approved
   priority_packets:
   - lab/process/work-packets/six-spinor-grading-compatibility-2026-11-24.md
   - lab/process/work-packets/observed-hidden-index-split-2026-11-20.md
@@ -32,16 +32,13 @@ program_focus:
     directed_cadence_2026_11_24_b: This explicit manual B-run starts at count31, ordinarily an LC slot;
       advance the counter once without LC credit and carry that unused LC opportunity to the next regular
       run. Recurring rule2 is unchanged.
-  read_first: >-
-    This block steers research priority. Read it before any other part of this
-    file. Older steering text below (next_condition history, the archived section of NEXT-STEPS,
-    superseded agenda swings) is history, not instruction.
-  goal: >-
-    Decide whether any action in the declared class C
-    (lab/process/action-class.json) hosts ledger rows P1, P2 and P3 together.
-    Empty joint intersection = "GU falsified within action class C vN" (scoped to
-    the declared class; not a global GU verdict). Non-empty = candidate action
-    family, forwarded to forward certification stage action_causal_closure.
+  read_first: This block steers research priority. Read it before any other part of this file. Older steering
+    text below (next_condition history, the archived section of NEXT-STEPS, superseded agenda swings)
+    is history, not instruction.
+  goal: Decide whether any action in the declared class C (lab/process/action-class.json) hosts ledger
+    rows P1, P2 and P3 together. Empty joint intersection = "GU falsified within action class C vN" (scoped
+    to the declared class; not a global GU verdict). Non-empty = candidate action family, forwarded to
+    forward certification stage action_causal_closure.
   files:
     action_class: lab/process/action-class.json
     constraint_matrix: lab/process/action-constraint-matrix.json
@@ -49,59 +46,98 @@ program_focus:
     weekly_metrics: lab/process/weekly-metrics.json
     method_contract: lab/process/reverse-scaffold-method-contract.json
   split:
-    lane_B_constraint_matrix: 0.75  # sub-lanes LB-MATRIX, LB-CLASS, LB-LADDER
-    lane_C_discovery_bets: 0.25  # lane LC-BETS
-  structure_not_specifics: >-
-    Work at the level of structure, never of a specific action. A lane-B result
-    must hold for every action in class C, or for a subfamily of C defined by a
-    structural property (a symmetry, a representation, an index or anomaly class,
-    a topological type, a grading). Never write down, enumerate, fit or search for
-    a specific action, coefficient set or Lagrangian in lane B. A gated cell is
-    never worked by building the object it waits on; restate it through
-    LB-LADDER (index theory, cobordism/anomaly classification, branching rules,
-    KO/K-theory, Z/24 torsion arithmetic, representation categories, path-integral
-    or anomaly-inflow arguments) or move to another cell.
+    lane_B_constraint_matrix: 0.75
+    lane_C_discovery_bets: 0.25
+  structure_not_specifics: Work at the level of structure, never of a specific action. A lane-B result
+    must hold for every action in class C, or for a subfamily of C defined by a structural property (a
+    symmetry, a representation, an index or anomaly class, a topological type, a grading). Never write
+    down, enumerate, fit or search for a specific action, coefficient set or Lagrangian in lane B. A gated
+    cell is never worked by building the object it waits on; restate it through LB-LADDER (index theory,
+    cobordism/anomaly classification, branching rules, KO/K-theory, Z/24 torsion arithmetic, representation
+    categories, path-integral or anomaly-inflow arguments) or move to another cell.
   run_selection:
-    - "1. If a Tier-1 item is open (started, not yet validated), finish it."
-    - "2. Lane LC-BETS runs when constraint_matrix.program_run_counter.count % 4 == 3: advance the active bet in discovery_bets with the most time box left."
-    - "3a. If a matrix cell or intersection has a packet field, take the earliest-listed ready packet step first."
-    - "3. Otherwise lane LB-MATRIX: pick the constraint-matrix cell or intersection with the highest expected shrinkage; prefer intersecting two rows; SM-anchor rows outrank everything else."
-    - "4. If that cell needs a specific action, restate it as a statement about every action in C (lane LB-LADDER: index theory, cobordism/anomaly classification, branching rules, KO/K-theory, Z/24 torsion arithmetic, representation categories)."
-    - "5. If no cell is eligible, do lane LB-CLASS: propose a new row, tighten class C, or certify a width-test witness."
+  - 1. If a Tier-1 item is open (started, not yet validated), finish it.
+  - '2. Lane LC-BETS runs when constraint_matrix.program_run_counter.count % 4 == 3: advance the active
+    bet in discovery_bets with the most time box left.'
+  - 3a. If a matrix cell or intersection has a packet field, take the earliest-listed ready packet step
+    first.
+  - '3. Otherwise lane LB-MATRIX: pick the constraint-matrix cell or intersection with the highest expected
+    shrinkage; prefer intersecting two rows; SM-anchor rows outrank everything else.'
+  - '4. If that cell needs a specific action, restate it as a statement about every action in C (lane
+    LB-LADDER: index theory, cobordism/anomaly classification, branching rules, KO/K-theory, Z/24 torsion
+    arithmetic, representation categories).'
+  - '5. If no cell is eligible, do lane LB-CLASS: propose a new row, tighten class C, or certify a width-test
+    witness.'
   preflight_required:
-    - target (matrix cell id, intersection id, bet id, or LB-CLASS task)
-    - tier (T1, T2 or T3)
-    - expected_delta (which status should move, and to what)
-    - kill_condition (what result would close the target)
+  - target (matrix cell id, intersection id, bet id, or LB-CLASS task)
+  - tier (T1, T2 or T3)
+  - expected_delta (which status should move, and to what)
+  - kill_condition (what result would close the target)
+  - class_covered (quantified and fixed choices)
+  - premises (source/fork/evidence pointers and assumption status)
+  - source_bridge (proved, conditional or absent, with reason)
   postflight_required:
-    - update the matrix or bet file (status, evidence, lane_state counters)
-    - one line of actual_delta, or "none"
-    - increment constraint_matrix.program_run_counter.count
-    - append to the matrix shrinkage_log when a cell or intersection moved
-    - "new dated sections in VERIFICATION.md, RESEARCH-STATUS.md and NEXT-STEPS.md go directly BELOW the pinned program_focus section, never above it (program_focus_audit.py fails otherwise)"
-  kitem_frontmatter: >-
-    Every new explorations/conditional-build/*-YYYY-MM-DD.md result dated
-    2026-11-09 or later carries program_target (matrix cell such as P3xglobal_index,
-    intersection such as X-P1-P2, bet id, or LB-CLASS task), tier (T1, T2 or T3),
-    expected_delta and actual_delta in its frontmatter.
-    process_gates/program_focus_audit.py enforces this.
-  zero_delta_reroute: >-
-    Three consecutive runs in one lane with actual_delta none reroute that lane
-    within the same Big Wave to the next eligible target. A reroute is never
-    zero work or scale reduction. Reopening a rerouted lane needs Joe.
+  - update the matrix or bet file (status, evidence, lane_state counters)
+  - one line of actual_delta, or "none"
+  - increment constraint_matrix.program_run_counter.count
+  - append to the matrix shrinkage_log when a cell or intersection moved
+  - new dated sections in VERIFICATION.md, RESEARCH-STATUS.md and NEXT-STEPS.md go directly BELOW the
+    pinned program_focus section, never above it (program_focus_audit.py fails otherwise)
+  kitem_frontmatter: Every new explorations/conditional-build/*-YYYY-MM-DD.md result dated 2026-11-09
+    or later carries program_target (matrix cell such as P3xglobal_index, intersection such as X-P1-P2,
+    bet id, or LB-CLASS task), tier (T1, T2 or T3), expected_delta and actual_delta in its frontmatter.
+    process_gates/program_focus_audit.py enforces this. New results outside source_relevance_schema.baseline_revision
+    additionally carry class_covered, linked premises, source_bridge with status and reason, and kill_condition.
+    Existing results retain their recorded scope without mass migration.
+  zero_delta_reroute: Three consecutive runs in one lane with actual_delta none reroute that lane within
+    the same Big Wave to the next eligible target. A reroute is never zero work or scale reduction. Reopening
+    a rerouted lane needs Joe.
   review_tiers:
-    T1: moves a matrix cell to decided_for_C or empty, moves a ledger row, changes class C, or is a kill. Two specialist reviewers, one hostile reviewer, and a Lean check before acceptance.
+    T1: moves a matrix cell to decided_for_C or empty, moves a ledger row, changes class C, or is a kill.
+      Two specialist reviewers, one hostile reviewer, and a Lean check before acceptance.
     T2: lane-C bet results and new constrained cells. One specialist reviewer.
     T3: scaffolding, probes, bookkeeping. Exact probes and gates only.
   forbidden:
-    - proposing, planning for, or waiting on external review (it is not a pathway in this program)
-    - conditional constructions not attached to a matrix cell, intersection, or bet
-    - guessed actions outside lane C, or lane-C output entering the matrix without lane-B re-derivation
-    - writing steering text into NEXT-STEPS.md, RESEARCH-STATUS.md or RESEARCH-AGENDA.json latest_result keys
-    - the phrase "a narrower route failed" for a matrix kill
-    - writing down, enumerating, fitting or searching for a specific action, coefficient set or Lagrangian outside lane C
-    - building a gated cell's missing object (source action, stabilized RS action, K3-fibered family, boundary connection) as a way to unblock it
-    - more than 3 guessed action variants in one lane-C run, or tuning a guessed action's coefficients
+  - proposing, planning for, or waiting on external review (it is not a pathway in this program)
+  - conditional constructions not attached to a matrix cell, intersection, or bet
+  - guessed actions outside lane C, or lane-C output entering the matrix without lane-B re-derivation
+  - writing steering text into NEXT-STEPS.md, RESEARCH-STATUS.md or RESEARCH-AGENDA.json latest_result
+    keys
+  - the phrase "a narrower route failed" for a matrix kill
+  - writing down, enumerating, fitting or searching for a specific action, coefficient set or Lagrangian
+    outside lane C
+  - building a gated cell's missing object (source action, stabilized RS action, K3-fibered family, boundary
+    connection) as a way to unblock it
+  - more than 3 guessed action variants in one lane-C run, or tuning a guessed action's coefficients
+  falsification_relevance: 'State class_covered, the choices quantified or fixed, and linked premises.
+    Distinguish source-fixed, source-constrained and repository assumptions; unresolved source content
+    is not permission to choose freely. State source_bridge as proved, conditional or absent: why the
+    registered source claim or admitted physical anchor requires the tested property. Without that bridge,
+    retain the result as a scoped mathematical result. Keep kill_condition explicit about exactly what
+    a negative result closes.'
+  continuation_priority: At existing light reprioritization, including packet successors, prefer the shortest
+    executable test that removes live source-compatible possibilities or resolves a load-bearing source/observable
+    bridge. When a continuation only varies repository choices under the same unproved bridge, compare
+    it with a class-level or bridge discriminator and another eligible target; continue the strongest
+    option in the same Big Wave. Necessary lemmas remain eligible when their decision link is explicit.
+    Add no stopping threshold, waiting checkpoint or mandatory council. Explicit Joe directions, Tier-1
+    completion and LC cadence retain their existing precedence.
+  source_relevance_schema:
+    baseline_revision: 14778ad8a4308d2d88357bba8a81819cedbc3f40
+    scope: New dated explorations/conditional-build results absent from this baseline; no bulk historical
+      rewrite.
+    required_fields:
+    - class_covered
+    - premises
+    - source_bridge
+    - kill_condition
+    source_bridge_status:
+    - proved
+    - conditional
+    - absent
+    assumption_view: lab/process/action-constraint-matrix.json#source_relevance_assumption_view
+    maintenance: Update linked assumptions when their evidence changes; refresh existing weekly metrics
+      at weekly review. Labels and presence checks are not proof of relevance.
 metric_normal_family_2026_11_24:
   status: T1_scoped_family_exclusion_with_T2_ambient_countercontrol
   actual_delta: 'The entire 910-dimensional space of metric normal-connection values in R6-metric-normal-coherent is classified: full

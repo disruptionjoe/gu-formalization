@@ -5,6 +5,16 @@ doc_type: overview
 updated_at: "2026-08-23"
 ---
 
+## Source relevance and accumulated assumptions (2026-11-24)
+
+The approved [program_focus](../../CURRENT-STATE.yaml) distinguishes quantified
+scope from the bridge showing why the source requires a tested property.
+The `source_relevance_assumption_view` in the [existing matrix](action-constraint-matrix.json)
+links source claims, open forks and evidence; it is not a second claim ledger.
+[Weekly metrics](weekly-metrics.json) now records decisions and bridge status,
+with an explicit run denominator and no artifact-volume score.
+
+
 ## Metric-normal family (2026-11-24)
 
 [Exhaustive metric-normal result](../../explorations/conditional-build/metric-normal-family-grading-2026-11-24.md) and [ambient grading countercontrol](../../explorations/conditional-build/ambient-correlated-grading-control-2026-11-24.md): horizontal realization excluded, distinct correlated grade survives.

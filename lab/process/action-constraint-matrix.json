@@ -2264,5 +2264,152 @@
     "consumed_bet": "BET-COSMOLOGY",
     "counter_before": 32,
     "counter_after": 33
+  },
+  "source_relevance_assumption_view": {
+    "updated_at": "2026-11-24",
+    "authority": "joe_direct_chat_2026_11_24_e_approved",
+    "kind": "linked_view_not_a_new_claim_ledger",
+    "source_of_truth": {
+      "claims": "lab/sources/source-claim-register.yaml",
+      "choices": "lab/process/layer0-fork-registry.yaml",
+      "check_rationale": "lab/process/path-dependencies.yaml",
+      "class": "lab/process/action-class.json"
+    },
+    "interpretation": "Source-fixed means source-asserted, not independently proved. Source-constrained/unresolved is not permission to choose arbitrary completions. Evidence artifacts own each mathematical result. This view changes no source or ledger verdict.",
+    "entries": [
+      {
+        "question": "Does effective weak chirality require the exact full off-shell horizontal grading tested by the matrix?",
+        "premise_status": "source-constrained; exact propagation law is a repository assumption",
+        "source_claim_refs": [
+          "lab/sources/source-claim-register.yaml#SC-CHI-01",
+          "lab/sources/source-claim-register.yaml#SC-CHI-04",
+          "lab/sources/source-claim-register.yaml#SC-FER-05"
+        ],
+        "fork_refs": [
+          "lab/process/layer0-fork-registry.yaml#KINEMATIC-VS-PHYSICAL-CARRIER",
+          "lab/process/layer0-fork-registry.yaml#SG4-BIT-2-PHASE"
+        ],
+        "source_bridge": {
+          "status": "absent",
+          "reason": "Source effective low-gravity separation does not establish the exact same-input/output horizontal anticommutator; ambient-correlated grade survives."
+        },
+        "evidence": [
+          "explorations/conditional-build/ambient-correlated-grading-control-2026-11-24.md",
+          "explorations/conditional-build/p1-observation-descent-2026-11-11.md"
+        ]
+      },
+      {
+        "question": "Does the physical2+1 family count equal the chosen observed Fredholm index?",
+        "premise_status": "source-constrained; count-to-index interpretation unselected",
+        "source_claim_refs": [
+          "lab/sources/source-claim-register.yaml#SC-GEN-01",
+          "lab/sources/source-claim-register.yaml#SC-GEN-03",
+          "lab/sources/source-claim-register.yaml#SC-GEN-50",
+          "lab/sources/source-claim-register.yaml#SC-GEN-56"
+        ],
+        "fork_refs": [
+          "lab/process/layer0-fork-registry.yaml#GENERATION-COUNT-CODOMAIN",
+          "lab/process/layer0-fork-registry.yaml#IMPOSTER-LABEL-AB"
+        ],
+        "source_bridge": {
+          "status": "conditional",
+          "reason": "Requires actual physical carrier, grading, observation complex and common Fredholm domains; dimensions or torsion order do not supply it."
+        },
+        "evidence": [
+          "explorations/conditional-build/native-descending-grading-classification-2026-11-21.md",
+          "explorations/conditional-build/observed-hidden-split-sc-chi-01-2026-11-20.md"
+        ]
+      },
+      {
+        "question": "Which real form and pairing apply to this construction?",
+        "premise_status": "source assertion and derived geometric fork kept distinct",
+        "source_claim_refs": [
+          "lab/sources/source-claim-register.yaml#SC-CHI-04"
+        ],
+        "fork_refs": [
+          "lab/process/layer0-fork-registry.yaml#SIGNATURE-AMBIENT",
+          "lab/process/layer0-fork-registry.yaml#REAL-CLIFFORD-FORM"
+        ],
+        "source_bridge": {
+          "status": "conditional",
+          "reason": "Source K77 usage and geometric K95 calculation have different real/reality data; no transfer by label."
+        },
+        "evidence": [
+          "GEOMETER-VS-PHYSICS-OBJECTS.md",
+          "explorations/conditional-build/signature-rationale-and-build-branch-retype-2026-08-08.md"
+        ]
+      },
+      {
+        "question": "Is an exact extra Spin-Z4 symmetry with the physical mod16 charge assignment source-required?",
+        "premise_status": "unresolved; not a freely selected source premise",
+        "source_claim_refs": [
+          "lab/sources/source-claim-register.yaml#SC-CHI-01",
+          "lab/sources/source-claim-register.yaml#SC-CHI-03",
+          "lab/sources/source-claim-register.yaml#SC-CHI-53",
+          "lab/sources/source-claim-register.yaml#SC-GEN-06"
+        ],
+        "fork_refs": [
+          "lab/process/layer0-fork-registry.yaml#KINEMATIC-VS-PHYSICAL-CARRIER",
+          "lab/process/layer0-fork-registry.yaml#SG4-BIT-2-PHASE"
+        ],
+        "source_bridge": {
+          "status": "absent",
+          "reason": "Plain-Spin SM anomalies and the extra-symmetry mod16 problem differ; neutrino/hidden phase and VEV preservation remain separate."
+        },
+        "evidence": [
+          "explorations/conditional-build/dai-freed-same-cohort-row-disposition-wave-2026-08-24.md",
+          "explorations/decoupling-constructibility-packet-2026-08-12.md"
+        ]
+      },
+      {
+        "question": "Must observed fermions be normal-L2 fibre modes, and does the positive theorem transfer?",
+        "premise_status": "unresolved source/analytic premises",
+        "source_claim_refs": [
+          "lab/sources/source-claim-register.yaml#SC-CHI-04"
+        ],
+        "fork_refs": [
+          "lab/process/layer0-fork-registry.yaml#SECTION-VS-OBSERVERSE"
+        ],
+        "source_bridge": {
+          "status": "absent",
+          "reason": "Neither normal-L2 necessity nor native Krein transfer established; W175 native gap withdrawn."
+        },
+        "evidence": [
+          "explorations/conditional-build/localization-applicability-audit-2026-11-24.md"
+        ]
+      },
+      {
+        "question": "Does source non-chirality imply zero total index in the same grading observation sees?",
+        "premise_status": "source-fixed non-chiral assertion; mathematical realization conditional",
+        "source_claim_refs": [
+          "lab/sources/source-claim-register.yaml#SC-CHI-01",
+          "lab/sources/source-claim-register.yaml#SC-CHI-04"
+        ],
+        "fork_refs": [
+          "lab/process/layer0-fork-registry.yaml#KINEMATIC-VS-PHYSICAL-CARRIER"
+        ],
+        "source_bridge": {
+          "status": "conditional",
+          "reason": "Ungraded selfadjoint zero is not the chiral index. Same-grading observation and closed-domain balance must be established."
+        },
+        "evidence": [
+          "explorations/conditional-build/native-descending-grading-classification-2026-11-21.md"
+        ]
+      },
+      {
+        "question": "Is classC inhabited and source-representative at the required P1-P3 scope?",
+        "premise_status": "repository declaration; width certification unresolved",
+        "source_claim_refs": [],
+        "fork_refs": [],
+        "source_bridge": {
+          "status": "conditional",
+          "reason": "Both proposed width witnesses failed their stated certification; this neither proves C empty nor authorizes tightening away source rivals."
+        },
+        "evidence": [
+          "lab/process/action-class.json",
+          "explorations/conditional-build/class-width-witness-audit-2026-11-11.md"
+        ]
+      }
+    ]
   }
 }

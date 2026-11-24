@@ -16,6 +16,7 @@ import argparse
 import json
 import re
 import shutil
+import subprocess
 import tempfile
 from pathlib import Path
 from typing import Callable
@@ -49,10 +50,52 @@ FOCUS_KEYS = {
     "version", "authority", "read_first", "goal", "files", "split", "run_selection",
     "preflight_required", "postflight_required", "zero_delta_reroute", "review_tiers", "forbidden",
     "structure_not_specifics",
+    "falsification_relevance", "continuation_priority", "source_relevance_schema",
 }
 RESET_DATE = "2026-11-09"
 KITEM_DIR = Path("explorations/conditional-build")
 KITEM_FIELDS = ("program_target:", "tier:", "expected_delta:", "actual_delta:")
+
+
+def relevance_errors(metadata: dict) -> list[str]:
+    """Check declared scope, never certify its scientific/source truth."""
+    errors = []
+    for key in ("class_covered", "kill_condition"):
+        if not isinstance(metadata.get(key), str) or not metadata[key].strip():
+            errors.append(f"missing nonempty {key}")
+    premises = metadata.get("premises")
+    if not isinstance(premises, list) or not premises or any(
+        not isinstance(p, str) or not p.strip() for p in premises
+    ):
+        errors.append("premises must be a nonempty list of linked assumption statements")
+    bridge = metadata.get("source_bridge")
+    if not isinstance(bridge, dict):
+        errors.append("source_bridge must name status and reason")
+    else:
+        if bridge.get("status") not in {"proved", "conditional", "absent"}:
+            errors.append("source_bridge status must be proved, conditional or absent")
+        if not isinstance(bridge.get("reason"), str) or not bridge["reason"].strip():
+            errors.append("source_bridge needs a nonempty reason")
+    return errors
+
+
+def relevance_baseline(focus: dict) -> tuple[set[str], list[str]]:
+    """Freeze historical paths, not a permission to invent source premises.
+
+    ROOT is the real checkout even when audit() checks a synthetic fixture.
+    A clone must retain the explicitly pinned baseline revision to run this gate.
+    """
+    schema = focus.get("source_relevance_schema", {})
+    revision = schema.get("baseline_revision", "") if isinstance(schema, dict) else ""
+    if not re.fullmatch(r"[0-9a-f]{40}", revision):
+        return set(), ["source relevance requires a full baseline revision"]
+    result = subprocess.run(
+        ["git", "-C", str(ROOT), "ls-tree", "-r", "--name-only", revision, str(KITEM_DIR)],
+        capture_output=True, text=True,
+    )
+    if result.returncode:
+        return set(), [f"source relevance baseline revision unavailable: {revision}"]
+    return set(result.stdout.splitlines()), []
 
 
 def text(root: Path, key: str) -> str:
@@ -78,6 +121,11 @@ def audit(root: Path) -> list[str]:
     missing = FOCUS_KEYS - set(focus)
     if missing:
         errors.append(f"program_focus lacks {sorted(missing)}")
+    legacy_relevance, baseline_errors = relevance_baseline(focus)
+    errors.extend(baseline_errors)
+    for key in ("falsification_relevance", "continuation_priority"):
+        if not isinstance(focus.get(key), str) or not focus[key].strip():
+            errors.append(f"program_focus has no nonempty {key}")
     if raw.find("program_focus:") > 200 * 80:
         errors.append("program_focus starts too deep in CURRENT-STATE.yaml for a top-down reader")
     forbidden = " ".join(str(item) for item in focus.get("forbidden", []))
@@ -198,6 +246,15 @@ def audit(root: Path) -> list[str]:
             absent = [field for field in KITEM_FIELDS if field not in front]
             if absent:
                 errors.append(f"{KITEM_DIR / path.name} lacks program_focus frontmatter {absent}")
+            if str(KITEM_DIR / path.name) not in legacy_relevance:
+                try:
+                    metadata = yaml.safe_load(body.split("---", 2)[1]) if body.startswith("---\n") else {}
+                except (yaml.YAMLError, IndexError):
+                    metadata = {}
+                if not isinstance(metadata, dict):
+                    metadata = {}
+                for error in relevance_errors(metadata):
+                    errors.append(f"{KITEM_DIR / path.name}: {error}")
 
     return errors
 
@@ -241,6 +298,14 @@ def plant_kitem(root: Path) -> None:
     path.write_text("---\ntitle: untargeted\n---\n\nBody.\n", encoding="utf-8")
 
 
+def plant_gated_without_route(root: Path) -> None:
+    # A test must really plant a gated cell even when the live matrix has none.
+    def mutation(data: dict) -> None:
+        data["cells"][0]["status"] = "gated"
+        data["cells"][0].pop("structural_route", None)
+    set_json(root, "matrix", mutation)
+
+
 def selftest() -> int:
     baseline = audit(ROOT)
     if baseline:
@@ -267,7 +332,7 @@ def selftest() -> int:
         ("matrix row loses SM anchor", lambda r: set_json(r, "matrix", lambda d: d["rows"][0].__setitem__("anchor", "EXT-QM-SPACELIKE-BELL-NOSIGNAL"))),
         ("kill wording loses scope", lambda r: set_json(r, "action_class", lambda d: d["verdict_wording"].__setitem__("empty_intersection", "GU is falsified."))),
         ("structure-not-specifics rule removed", lambda r: replace_text(r, "current", "every action in class C, or for a subfamily", "some action, or for a subfamily")),
-        ("gated cell loses its structural route", lambda r: set_json(r, "matrix", lambda d: [c.pop("structural_route", None) for c in d["cells"] if c.get("status") == "gated"])),
+        ("gated cell loses its structural route", plant_gated_without_route),
         ("lane-C guess budget removed", lambda r: set_json(r, "bets", lambda d: d["lane_rules"].pop("guess_budget"))),
         ("matrix points at a missing packet", lambda r: set_json(r, "matrix", lambda d: d["intersections"][0].__setitem__("packet", "lab/process/work-packets/missing.md"))),
         ("bet runs past its time box", lambda r: set_json(r, "bets", lambda d: d["bets"][0].__setitem__("runs_used", 30))),
