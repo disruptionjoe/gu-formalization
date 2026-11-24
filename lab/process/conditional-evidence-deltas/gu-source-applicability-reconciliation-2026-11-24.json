@@ -1,0 +1,79 @@
+{
+  "schema_version": "1.0",
+  "delta_id": "GU-SOURCE-APPLICABILITY-RECONCILIATION-2026-11-24",
+  "status": "pending",
+  "base": {
+    "ledger_ref": "lab/process/conditional-physics-ledger-v0.263.json",
+    "ledger_sha256": "7c75c179c3af512084e50af19043a5d320b38e8c1e53325ee5ec2f97ad9c257b"
+  },
+  "affected_rows": [
+    "AC-F1",
+    "RA-D4",
+    "RA-F3",
+    "RA-F1",
+    "AC-F5",
+    "LT-SM8",
+    "RA-A2",
+    "RA-A6",
+    "RA-A8",
+    "AC-E1"
+  ],
+  "result_refs": [
+    "explorations/conditional-build/observed-hidden-split-sc-chi-01-2026-11-20.md",
+    "explorations/conditional-build/zero-total-grading-premise-2026-11-20.md",
+    "explorations/conditional-build/native-descending-grading-classification-2026-11-21.md",
+    "explorations/conditional-build/six-spinor-grading-compatibility-2026-11-24.md",
+    "explorations/conditional-build/metric-normal-family-grading-2026-11-24.md",
+    "explorations/conditional-build/ambient-correlated-grading-control-2026-11-24.md",
+    "explorations/conditional-build/observation-graph-domain-2026-11-24.md",
+    "explorations/conditional-build/source-small-vev-current-test-2026-11-24.md",
+    "explorations/conditional-build/weak-compatible-lorentz-lifts-2026-11-24.md",
+    "explorations/conditional-build/source-z4-anomaly-applicability-2026-11-24.md",
+    "explorations/conditional-build/homogeneous-localization-comparator-2026-11-24.md",
+    "explorations/conditional-build/localization-applicability-audit-2026-11-24.md",
+    "explorations/conditional-build/krein-order3-observation-label-2026-11-20.md",
+    "explorations/conditional-build/weak-endogenous-grading-2026-11-24.md",
+    "explorations/conditional-build/global-normal-complex-reduction-2026-11-24.md",
+    "Lean/GUFormalization/ObservedHiddenSplit.lean",
+    "Lean/GUFormalization/ObservedHiddenPremise.lean",
+    "lab/process/source-relevance-wave.json",
+    "lab/process/native-descending-grading-classification.json",
+    "lab/process/krein-order3-observation-label.json"
+  ],
+  "source_disposition": "Retain source ASSERTS/DISAVOWS/UNCERTAIN and all existing adherence/verdicts. SC-GEN-01 disavows simple repeated families; SC-GEN-02/03/50/56 concern source2+1 and distinct ambient/observed imposter constructions. SC-CHI-01/04/51/52 require a nonchiral total and effective observed chirality, not a universal off-shell horizontal grade, ordinary Fredholm count or unsuppressed primitive fluctuations. SC-GRP-03 supplies the reduction setting, not a chosen global vacuum. K77/K95, independent bars, literal contraction and full parent displacement remain distinct. No source hedge-watch amendment is applied by this delta.",
+  "claim_ceiling": "Evidence and route-annotation proposal only. No ledger verdict, reason kind, distance, mapping grade, trigger, meaning, class or canon change; no next ledger version reserved. Finite Lean additivity does not establish native analytic hypotheses. The negative index does not identify physical mirror families. Closed positive indices, Riemannian localization and Nikulin torsion benchmarks do not transfer automatically to native GU. New current/Z4/Lorentz results retain physical-domain/symmetry/response premises; no source or empirical falsification. Exploratory cosmology and mass-gap results receive no source-ledger credit.",
+  "proposed_effect": {
+    "summary": "Append post-base evidence and scoped route annotations to ten existing rows while retaining every existing field and verdict. Audit three proposed extra rows as no-change. Use the existing pending-delta pathway; this is not a ledger mint or a new prioritization rule.",
+    "requested_row_changes": [
+      "AC-F1: append evidence for Conditional exact-sequence additivity gives ind_obs=-ind_hidden only after independent total-zero in the same grading, compatible continuous Fredholm observation and a physical-count map. The finite exactness arithmetic is Lean-checked; analytic/native applicability is not. Ambient chiY does descend to chiH chiN; its zero index is a closed positive comparison, not a native result. Held horizontal six-spinor and full metric-normal family exclusions retain their named K95/exterior/coherent scope; a distinct ambient-correlated grade and moving observation survive. The latest primitive-current and effective-port results sharpen effective decoupling requirements without proving a physical interaction or source contradiction. Route-specific annotation only: For this index route, require NATIVE-GRADED-FREDHOLM-OBSERVATION with named physical weak/current grading, compatible operator/domain, continuous qE/qF and independently established same-grade balance. For an effective-current route, identify the physical allowed fluctuations, receiver/solution reduction and complete response law. Neither this annotation nor the index packet makes a nonzero Fredholm index necessary for every source-effective chiral mechanism.",
+      "RA-D4: append evidence for An index realization with total0 and physical observed index N entails hidden index -N, but this alone does not assign hidden particle charges, masses, mirror-family identity or observable couplings. Small primitive VEV does not by itself suppress normalized odd current response: actual K95 sharp-compatible and SM/Lorentz-covariant directions survive. The effective-port norm theorem and full NE/SW channel classification concern independently variable source inputs; constrained/heavy fluctuations, physical readouts and complete effective derivatives remain open. The homogeneous no-L2-mode theorem is a positive Riemannian comparison; it supplies no native mirror mass or source fibre-mode necessity. Route-specific annotation only: For a mirror-removal claim, retain the current positive-BRST AND chiral-light-spectrum trigger. Any proposed index count must identify the physical hidden content first. Any decoupling argument must establish suppression on the actual surviving physical modes/current, not merely a small mean background or a comparator fibre gap. Neither normal-L2 necessity nor native Krein transfer is established.",
+      "RA-F3: append evidence for The source imposter summand is gamma-traceless in the ambient RS kernel, but the actual observation injection obeys Gamma_H q I=40 Id and lands in horizontal gamma-trace; the horizontal gamma-traceless cousin is a different summand/operator. This map correction supplies no physical third-family count and does not revive the source-disavowed identification of three kinematic blocks with three observed generations. Route-specific annotation only: Keep the existing Layer-0-cleared index-bearing block-observable condition. A proposed physical count must distinguish source2+1/imposter from repeated-family bookkeeping and carry the actual observation, grade and domain; ambient label agreement is insufficient.",
+      "RA-F1: append evidence for The observed imposter/gamma-traceless identity fails on the actual map, while the ambient kernel label remains valid. Nikulin benchmark order3 rho depends on the specified symbol/grade: A has zero residue, B and bare controls can be nonzero; retaining ghosts with a Krein pairing alone selects none. This is no source integer count. Native physical grading, operator, domains and count map remain open. Route-specific annotation only: Preserve the existing typed nonzero count observable paired with P3. A torsion residue must be compared with reduction modulo3 of a separately constructed integer observable; Hom(Z/3,Z)=0 and integer3 has residue0. The named Fredholm blocker concerns one candidate count route and does not eliminate another source-authenticated observable.",
+      "AC-F5: append evidence for The geometric gamma-traceless benchmark has nonzero order3 rho, unlike the ghost-subtracted A benchmark. The retained-field signed-multiplicity family gives I_t=-40+2t and rho_k=k(1+t)/3 modZ, with vanishing iff t=-1 mod3. Krein pairing alone does not select the index grade, suspension, source complex or an integer count. Equivariant cross-grade balance gives a separate cancellation control. Route-specific annotation only: Preserve the nonzero typed detector on actual geometry trigger. Specify the actual operator/symbol complex, grading, equivariant lift, suspension and domains, then establish its bridge to P3; a nonzero benchmark torsion class or the ambient imposter label does not fire the row.",
+      "LT-SM8: append evidence for Literal codimension10 observation is not closable on first-order graph/L2 cores stable under normal cutoffs and admitting nonzero section trace; both qE/qF and closed hidden-domain requirements are implicated. This is an analytic topology obstruction, not failure of every physical quotient or of Krein positivity. Tube-wide constraints, other topologies and genuine physical reductions are separate; current-response tests likewise retain actual physical input/readout and domain burdens. Route-specific annotation only: Keep the existing closed physical quotient, interacting metric and independent super-IG descent requirements. If the proposed physical quotient uses literal thin observation, establish its actual domain/topology and continuity or supply the sourced constrained alternative; no arbitrary replacement projection is licensed. INHERITANCE_BRIDGE remains separately conditional.",
+      "RA-A2: append evidence for The actual geometric weak factor and endogenous Lorentz generate the independent product when they are symmetries of the same held object. Across every real split metric Lorentz lift commuting with that fixed weak factor, the compact normal centralizer so6+sp1_R forces the block lift. The source product branch survives, as does moving-Clifford observation covariance; covariance across backgrounds is not fixed physical symmetry. Global normal U(3,2) existence has the stated topological criterion, without selection of J or its physical weak current. Route-specific annotation only: Preserve source-action vacuum selection of the A1-lock subgroup. Physical interpretation must identify the selected reduction and weak/current/domain action. Existence of a topological J, fixed-product branching, or a moving compensation alone does not supply that selection.",
+      "RA-A6: append evidence for For the native trace-reversed normal bundle over an oriented spin Lorentz base, orthogonal U(3,2) existence is equivalent to base almost-complex existence and extends over the full metric bundle. It is automatic in the absolute noncompact spin (or compact-with-boundary) case; closed bases retain c mod2=w2 and c^2=p1+2e. No selected component, determinant trivialization, global SM quotient or physical current is supplied. The global mu6 burden therefore remains. Route-specific annotation only: Preserve the current source-selected rank-one (10bar,1,3) selection-certificate trigger and its exclusion of the same-named (4,1,2) homonym. The new absolute existence theorem does not fire that certificate or prove mu6; relative/end reductions and action selection remain separate.",
+      "RA-A8: append evidence for Absolute global U(3,2) existence supplies no stationary vacuum, canonical J, parallel/integrable J or computed vacuum stabilizer. The complete fixed-weak Lorentz lift classification is kinematic and has a source-compatible block/moving-observation survivor. Route-specific annotation only: Preserve the stationary-vacuum/computed-identity-component-stabilizer trigger unchanged. No topological existence result substitutes for the stationary selection condition.",
+      "AC-E1: append evidence for The universal parent phase iI, normal Spin center and ambient axial iG are different candidate Z4 actions with distinct observed and independent-bar laws. The normal center fails fixed-background symmetry for the declared native metric-normal receiver; ambient axial symmetry survives on the Omega centralizer. None is identified with a source-required exact physical Spin-Z4 chiral-charge symmetry. This audit is not a new global-SM bordism calculation and changes no existing same-group result. Route-specific annotation only: Keep the existing direct-disagreement trigger for the cited global SM bordism result. A separate mod16 question first needs the actual symmetry/group extension, tangential structure, allowed bundles and physical charged spectrum; an extra Z4 cannot silently replace the group of this row."
+    ]
+  },
+  "conflict_keys": [
+    "AC-F1",
+    "RA-D4",
+    "RA-F3",
+    "RA-F1",
+    "AC-F5",
+    "LT-SM8",
+    "RA-A2",
+    "RA-A6",
+    "RA-A8",
+    "AC-E1",
+    "GU-TW-COHERENCE-27-LENS-2026-08-14",
+    "SOURCE-TO-PHYSICAL-OBSERVATION",
+    "NATIVE-GRADED-FREDHOLM-OBSERVATION",
+    "KINEMATIC-VS-PHYSICAL-CARRIER",
+    "GHOST-GRADE-VS-KREIN-PAIRING",
+    "LEDGER-TRIGGER-MEANING-PRESERVATION"
+  ],
+  "integration": null
+}

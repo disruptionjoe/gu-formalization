@@ -5,6 +5,13 @@ doc_type: overview
 updated_at: "2026-08-23"
 ---
 
+## Ledger evidence reconciliation (2026-11-24)
+
+[Scoped evidence audit](../../explorations/conditional-build/ledger-evidence-reconciliation-2026-11-24.md) registers ten row annotations through the
+versionless-delta process. Ledger v0.263, all verdicts and triggers remain unchanged;
+AC-F3, LT-GR5 and LT-SM7 were audited without amendment.
+
+
 ## Source relevance and accumulated assumptions (2026-11-24)
 
 The approved [program_focus](../../CURRENT-STATE.yaml) distinguishes quantified

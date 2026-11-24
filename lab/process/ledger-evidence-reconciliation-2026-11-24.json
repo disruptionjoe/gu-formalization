@@ -1,0 +1,491 @@
+{
+  "base_revision": "0c47ef735ecd1813fdadc9e7ae2e3f4cc0df57af",
+  "base_ledger_ref": "lab/process/conditional-physics-ledger-v0.263.json",
+  "base_ledger_sha256": "7c75c179c3af512084e50af19043a5d320b38e8c1e53325ee5ec2f97ad9c257b",
+  "owner_effect": "proposed only; ledger/source/class/bets unchanged",
+  "expected_rows": [
+    {
+      "row_id": "AC-F1",
+      "full_row_sha256": "d97ad1ededae5c057e151a0e2a86e9d1867728fb5e9103913c4945e0aa446f2e",
+      "expected_row": {
+        "id": "AC-F1",
+        "axis": "ANOMALY_CONSISTENCY",
+        "source_row": "CB-C:F1",
+        "summary": "observed four-dimensional chirality emerges from a balanced bulk",
+        "verdict": "NEEDS",
+        "reason_kind": "MISSING_CONSTRUCTION",
+        "distance": "The total theory remains non-chiral. Source epsilon owns the formal full cotangent preboundary parent, but no full-G-equivariant charge-only section or source-owned opposite compensator selects a physical half. Construct a native action-stationary background, proper functional BV/BFV, a positive observed domain and physical cohomology before interpreting luminous/dark chiral-looking decoupling",
+        "revival_trigger": "a physical chiral carrier with a derived index",
+        "evidence": "selected-k77-opposite-edge-dependent-selector-obstruction-2026-08-14.md; itc-positivity-rows-are-five-not-ten-2026-08-15.md D4 (annotate only)",
+        "mapping_grade": "NONCHIRAL_TOTAL_TARGET__SOURCE_EPSILON_FORMAL_COTANGENT_PARENT182_ACTION_OWNED__NO_EQUIVARIANT_CHARGE_ONLY_OPPOSITE_SELECTOR__CHARGED_BOUNDARY_SYMMETRY_PRIMARY__NATIVE_BACKGROUND_FREDHOLM_OBSERVATION_POSITIVE_COHOMOLOGY_AND_LUMINOUS_DARK_DECOUPLING_OPEN",
+        "annotation": "distance step 3, 'a positive observed domain', is bucket SOURCE_DECLARED_OPEN and inherits condition INHERITANCE_BRIDGE; the remaining steps and the trigger are unaffected. Re-typing declined: the head deliverable carries no positivity token."
+      },
+      "proposal": {
+        "row_id": "AC-F1",
+        "expected_verdict": "NEEDS",
+        "expected_reason_kind": "MISSING_CONSTRUCTION",
+        "protected_fields": [
+          "summary",
+          "verdict",
+          "reason_kind",
+          "distance",
+          "revival_trigger",
+          "mapping_grade",
+          "target_claim",
+          "target_claim_note"
+        ],
+        "evidence_prefix": "selected-k77-opposite-edge-dependent-selector-obstruction-2026-08-14.md; itc-positivity-rows-are-five-not-ten-2026-08-15.md D4 (annotate only)",
+        "append_evidence": "; 2026-11-24 evidence reconciliation (conditional; verdict and trigger unchanged): explorations/conditional-build/observed-hidden-split-sc-chi-01-2026-11-20.md; explorations/conditional-build/zero-total-grading-premise-2026-11-20.md; explorations/conditional-build/native-descending-grading-classification-2026-11-21.md; explorations/conditional-build/six-spinor-grading-compatibility-2026-11-24.md; explorations/conditional-build/metric-normal-family-grading-2026-11-24.md; explorations/conditional-build/ambient-correlated-grading-control-2026-11-24.md; explorations/conditional-build/observation-graph-domain-2026-11-24.md; explorations/conditional-build/source-small-vev-current-test-2026-11-24.md; explorations/conditional-build/weak-compatible-lorentz-lifts-2026-11-24.md",
+        "proposed_annotation": "Conditional exact-sequence additivity gives ind_obs=-ind_hidden only after independent total-zero in the same grading, compatible continuous Fredholm observation and a physical-count map. The finite exactness arithmetic is Lean-checked; analytic/native applicability is not. Ambient chiY does descend to chiH chiN; its zero index is a closed positive comparison, not a native result. Held horizontal six-spinor and full metric-normal family exclusions retain their named K95/exterior/coherent scope; a distinct ambient-correlated grade and moving observation survive. The latest primitive-current and effective-port results sharpen effective decoupling requirements without proving a physical interaction or source contradiction.",
+        "route_specific_condition_annotation": "For this index route, require NATIVE-GRADED-FREDHOLM-OBSERVATION with named physical weak/current grading, compatible operator/domain, continuous qE/qF and independently established same-grade balance. For an effective-current route, identify the physical allowed fluctuations, receiver/solution reduction and complete response law. Neither this annotation nor the index packet makes a nonzero Fredholm index necessary for every source-effective chiral mechanism.",
+        "acceptance_effect": "none; annotations preserve existing row meaning and alternatives; no trigger replacement"
+      }
+    },
+    {
+      "row_id": "RA-D4",
+      "full_row_sha256": "4fb80870cf16c26bdae91daf89e417f6181fb6c24a74c24b654504d44b8e4107",
+      "expected_row": {
+        "id": "RA-D4",
+        "axis": "REPRESENTATION",
+        "source_row": "CB-A:D4",
+        "summary": "no light mirror partners",
+        "verdict": "NEEDS",
+        "reason_kind": "MISSING_CONSTRUCTION",
+        "distance": "The invariant natural H/Q class cannot select the residual complex-Cartan flag. Build the nonhomogeneous reduced-curvature/full-II orbit, then lower-order BV/KT and physical mirror-removal cohomology",
+        "revival_trigger": "a positive BRST cohomology with chiral light spectrum",
+        "evidence": "selected-k77-action-concomitant-residual-flag-gate-2026-08-12.md; itc-positivity-rows-are-five-not-ten-2026-08-15.md D2 (conjunct split)",
+        "mapping_grade": "OBSERVED_H640_EXACT__COARSE_CONNECTION_EXACT__INVARIANT_HQ_NONSELECTION_EXACT__NONHOMOGENEOUS_FLAG_RICCATI_BV_PHYSICAL_COHOMOLOGY_OPEN",
+        "trigger_conjuncts": [
+          {
+            "conjunct": "a positive BRST cohomology",
+            "bucket": "SOURCE_DECLARED_OPEN",
+            "register": "SC-META-53",
+            "note": "sole member of the positivity-class/Hessian-class intersection; BD-D prices this conjunct at n_kappa = 0 at a named Cartan involution, under condition INHERITANCE_BRIDGE only (typed carrier/action/quotient bridge; packet warning enforced)"
+          },
+          {
+            "conjunct": "chiral light spectrum, i.e. no light mirror partners",
+            "bucket": "SOURCE_STATED_CONDITION",
+            "register": "SC-GEN-54 notes; Transcript into the impossible.md:158",
+            "note": "the source's own conditional mechanism (decreased VEV in the total space taking a Dirac equation into two Weyl equations); context at :119"
+          }
+        ],
+        "trigger_conjunction": "AND -- the trigger's word is 'with', so it fires only if both conjuncts hold"
+      },
+      "proposal": {
+        "row_id": "RA-D4",
+        "expected_verdict": "NEEDS",
+        "expected_reason_kind": "MISSING_CONSTRUCTION",
+        "protected_fields": [
+          "summary",
+          "verdict",
+          "reason_kind",
+          "distance",
+          "revival_trigger",
+          "mapping_grade",
+          "target_claim",
+          "target_claim_note"
+        ],
+        "evidence_prefix": "selected-k77-action-concomitant-residual-flag-gate-2026-08-12.md; itc-positivity-rows-are-five-not-ten-2026-08-15.md D2 (conjunct split)",
+        "append_evidence": "; 2026-11-24 evidence reconciliation (conditional; verdict and trigger unchanged): explorations/conditional-build/observed-hidden-split-sc-chi-01-2026-11-20.md; explorations/conditional-build/native-descending-grading-classification-2026-11-21.md; explorations/conditional-build/source-small-vev-current-test-2026-11-24.md; explorations/conditional-build/source-z4-anomaly-applicability-2026-11-24.md; explorations/conditional-build/homogeneous-localization-comparator-2026-11-24.md; explorations/conditional-build/localization-applicability-audit-2026-11-24.md",
+        "proposed_annotation": "An index realization with total0 and physical observed index N entails hidden index -N, but this alone does not assign hidden particle charges, masses, mirror-family identity or observable couplings. Small primitive VEV does not by itself suppress normalized odd current response: actual K95 sharp-compatible and SM/Lorentz-covariant directions survive. The effective-port norm theorem and full NE/SW channel classification concern independently variable source inputs; constrained/heavy fluctuations, physical readouts and complete effective derivatives remain open. The homogeneous no-L2-mode theorem is a positive Riemannian comparison; it supplies no native mirror mass or source fibre-mode necessity.",
+        "route_specific_condition_annotation": "For a mirror-removal claim, retain the current positive-BRST AND chiral-light-spectrum trigger. Any proposed index count must identify the physical hidden content first. Any decoupling argument must establish suppression on the actual surviving physical modes/current, not merely a small mean background or a comparator fibre gap. Neither normal-L2 necessity nor native Krein transfer is established.",
+        "acceptance_effect": "none; annotations preserve existing row meaning and alternatives; no trigger replacement"
+      }
+    },
+    {
+      "row_id": "RA-F3",
+      "full_row_sha256": "7b65ac43e1bd044c72f497dc29c2cdc69be92388449f9236f6da8c100e3a57d3",
+      "expected_row": {
+        "id": "RA-F3",
+        "axis": "REPRESENTATION",
+        "source_row": "CB-A:F3",
+        "summary": "three kinematic blocks are three observed generations",
+        "verdict": "DIFFERS",
+        "reason_kind": "STATED_INERT",
+        "distance": "supply a nonzero chiral index per block; decomposition alone cannot improve",
+        "revival_trigger": "a new index-bearing block observable clearing Layer 0",
+        "evidence": "cb-a-representation-content-2026-08-05.md:F3",
+        "mapping_grade": "DEAD_ROUTE",
+        "target_claim": "NONE-NOT-A-KILL",
+        "target_claim_note": "The killed reading -- three kinematic blocks ARE three observed generations -- is one the source disavows: SC-GEN-01 disavows the repeated-generation belief and SC-GEN-04 states the imposter is explicitly not a true generation. Killing a disavowed reading is not a kill of a source claim.",
+        "context": {
+          "layer": [
+            "L1",
+            "L2"
+          ],
+          "grant": "UNTYPED",
+          "carrier": [
+            "C2",
+            "C3"
+          ],
+          "note": "The row compares source-declared kinematic blocks (L1/C3) with an observed-generation reading after reduction (L2/C2). No shared Grant-poset node owns this disavowed identification."
+        }
+      },
+      "proposal": {
+        "row_id": "RA-F3",
+        "expected_verdict": "DIFFERS",
+        "expected_reason_kind": "STATED_INERT",
+        "protected_fields": [
+          "summary",
+          "verdict",
+          "reason_kind",
+          "distance",
+          "revival_trigger",
+          "mapping_grade",
+          "target_claim",
+          "target_claim_note"
+        ],
+        "evidence_prefix": "cb-a-representation-content-2026-08-05.md:F3",
+        "append_evidence": "; 2026-11-24 evidence reconciliation (conditional; verdict and trigger unchanged): explorations/conditional-build/krein-order3-observation-label-2026-11-20.md; explorations/conditional-build/native-descending-grading-classification-2026-11-21.md",
+        "proposed_annotation": "The source imposter summand is gamma-traceless in the ambient RS kernel, but the actual observation injection obeys Gamma_H q I=40 Id and lands in horizontal gamma-trace; the horizontal gamma-traceless cousin is a different summand/operator. This map correction supplies no physical third-family count and does not revive the source-disavowed identification of three kinematic blocks with three observed generations.",
+        "route_specific_condition_annotation": "Keep the existing Layer-0-cleared index-bearing block-observable condition. A proposed physical count must distinguish source2+1/imposter from repeated-family bookkeeping and carry the actual observation, grade and domain; ambient label agreement is insufficient.",
+        "acceptance_effect": "none; annotations preserve existing row meaning and alternatives; no trigger replacement"
+      }
+    },
+    {
+      "row_id": "RA-F1",
+      "full_row_sha256": "e22961963661ab3761c928f7d9654df5a0b3f7aba6d612521e6707f33edbb50e",
+      "expected_row": {
+        "id": "RA-F1",
+        "axis": "REPRESENTATION",
+        "source_row": "CB-A:F1",
+        "summary": "exactly three observed generations",
+        "verdict": "NEEDS",
+        "reason_kind": "EXTERNAL_DATUM",
+        "distance": "P3 remains downstream. Finite observation reduction and action-owned stabilizer connection descent are exact, but residual flag selection, BV/KT, cohomology, domain and index remain unbuilt",
+        "revival_trigger": "a typed nonzero count observable paired with P3",
+        "evidence": "selected-k77-action-stabilizer-connection-flag-reconciliation-2026-08-12.md",
+        "mapping_grade": "P3_KO_INPUT_DOWNSTREAM__FINITE_REDUCTION_AND_ACTION_STABILIZER_CONNECTION_EXACT__RESIDUAL_FLAG_BV_COHOMOLOGY_INDEX_COUNT_OPEN"
+      },
+      "proposal": {
+        "row_id": "RA-F1",
+        "expected_verdict": "NEEDS",
+        "expected_reason_kind": "EXTERNAL_DATUM",
+        "protected_fields": [
+          "summary",
+          "verdict",
+          "reason_kind",
+          "distance",
+          "revival_trigger",
+          "mapping_grade",
+          "target_claim",
+          "target_claim_note"
+        ],
+        "evidence_prefix": "selected-k77-action-stabilizer-connection-flag-reconciliation-2026-08-12.md",
+        "append_evidence": "; 2026-11-24 evidence reconciliation (conditional; verdict and trigger unchanged): explorations/conditional-build/krein-order3-observation-label-2026-11-20.md; explorations/conditional-build/native-descending-grading-classification-2026-11-21.md; explorations/conditional-build/observation-graph-domain-2026-11-24.md",
+        "proposed_annotation": "The observed imposter/gamma-traceless identity fails on the actual map, while the ambient kernel label remains valid. Nikulin benchmark order3 rho depends on the specified symbol/grade: A has zero residue, B and bare controls can be nonzero; retaining ghosts with a Krein pairing alone selects none. This is no source integer count. Native physical grading, operator, domains and count map remain open.",
+        "route_specific_condition_annotation": "Preserve the existing typed nonzero count observable paired with P3. A torsion residue must be compared with reduction modulo3 of a separately constructed integer observable; Hom(Z/3,Z)=0 and integer3 has residue0. The named Fredholm blocker concerns one candidate count route and does not eliminate another source-authenticated observable.",
+        "acceptance_effect": "none; annotations preserve existing row meaning and alternatives; no trigger replacement"
+      }
+    },
+    {
+      "row_id": "AC-F5",
+      "full_row_sha256": "fc89b37dc7815a6591f8459a9afbcfef00b7a06a816e17930cc0f70de0b4abcd",
+      "expected_row": {
+        "id": "AC-F5",
+        "axis": "ANOMALY_CONSISTENCY",
+        "source_row": "CB-C:F5",
+        "summary": "a framed/String receptacle realizes the odd count",
+        "verdict": "NEEDS",
+        "reason_kind": "EXTERNAL_DATUM",
+        "distance": "construct a nonzero corner/framing object and pair it with P3",
+        "revival_trigger": "a nonzero f-invariant or other typed count detector on the actual geometry",
+        "evidence": "cb-c-anomaly-conditions-2026-08-05.md:F5",
+        "mapping_grade": "T4_SLOT_LOCATED_EMPTY"
+      },
+      "proposal": {
+        "row_id": "AC-F5",
+        "expected_verdict": "NEEDS",
+        "expected_reason_kind": "EXTERNAL_DATUM",
+        "protected_fields": [
+          "summary",
+          "verdict",
+          "reason_kind",
+          "distance",
+          "revival_trigger",
+          "mapping_grade",
+          "target_claim",
+          "target_claim_note"
+        ],
+        "evidence_prefix": "cb-c-anomaly-conditions-2026-08-05.md:F5",
+        "append_evidence": "; 2026-11-24 evidence reconciliation (conditional; verdict and trigger unchanged): explorations/conditional-build/krein-order3-observation-label-2026-11-20.md; explorations/conditional-build/native-descending-grading-classification-2026-11-21.md",
+        "proposed_annotation": "The geometric gamma-traceless benchmark has nonzero order3 rho, unlike the ghost-subtracted A benchmark. The retained-field signed-multiplicity family gives I_t=-40+2t and rho_k=k(1+t)/3 modZ, with vanishing iff t=-1 mod3. Krein pairing alone does not select the index grade, suspension, source complex or an integer count. Equivariant cross-grade balance gives a separate cancellation control.",
+        "route_specific_condition_annotation": "Preserve the nonzero typed detector on actual geometry trigger. Specify the actual operator/symbol complex, grading, equivariant lift, suspension and domains, then establish its bridge to P3; a nonzero benchmark torsion class or the ambient imposter label does not fire the row.",
+        "acceptance_effect": "none; annotations preserve existing row meaning and alternatives; no trigger replacement"
+      }
+    },
+    {
+      "row_id": "LT-SM8",
+      "full_row_sha256": "a0e1fba15545f83301783341346dd2092d605bbd62f031e13dfe8054cd1aadfc",
+      "expected_row": {
+        "id": "LT-SM8",
+        "axis": "LAGRANGIAN",
+        "source_row": "CB-B:SM-8",
+        "summary": "BV/BRST quotient yields a positive physical space",
+        "verdict": "NEEDS",
+        "reason_kind": "SOURCE_DECLARED_OPEN__NO_MECHANISM_SUPPLIED",
+        "distance": "The general-Lorentzian H3 branch preserves the canonical local-twistor connection, Pi4-to-ambient carrier adapter and untwisted Bach-flat detour. The universal K77-typed adapted-connection algebra at the actual 4+10 dimensions now has exact Gauss, Codazzi and Ricci curvature blocks and tangent, normal and mixed Yang--Mills current blocks. Exact controls reject total-Yang--Mills iff II=0 in both directions. Raw-to-horizontal normalization changes the full connection curvature by transgression. The moving reduction R satisfies D_A R equal to twice the mixed block; its energy yields a harmonic-reduction equation and sources the connection by [R,D_A R], so the ordinary detour need not close on the coupled shell. Freeze the action-owned A/R pair and normalized connection, build the coupled BV/detour complex, and only then attempt Pi4/rolled-operator factorization. Preserve the separate endpoint-invariant gate, then supply endpoint admission, a Lorentzian closed domain, positive pairing and nontrivial physical cohomology. Pointwise complex structure, II, Yang--Mills closure and physical superposition remain distinct",
+        "revival_trigger": "a unique numerator-shell theorem with a closed even physical quotient and interacting state-space metric, plus independent algebraic super-IG global descent if claimed",
+        "evidence": "selected-k77-total-twisted-yang-mills-current-gate-2026-08-14.md; itc-positivity-rows-are-five-not-ten-2026-08-15.md D1 (G1 comparator provenance CB-B:SM-8 [N|S]; G2 Krein under-specification; G3 M-H17 blocked; G4 SC-META-53 polarity UNCERTAIN)",
+        "mapping_grade": "LOCAL_TWISTOR_PI4_AND_BACH_FLAT_DETOUR_PRESERVED__TOTAL_K77_GAUSS_CODAZZI_RICCI_CURRENT_EXACT__II_ZERO_EQUIVALENCE_REJECTED_BOTH_DIRECTIONS__NORMALIZED_CONNECTION_TRANSGRESSION_AND_COUPLED_REDUCTION_FIRST_VARIATIONS_EXACT__ACTION_OWNED_A_R_COUPLED_BV_DETOUR_ROLLED_FACTORIZATION_ENDPOINT_DOMAIN_POSITIVE_PAIRING_AND_PHYSICAL_COHOMOLOGY_OPEN__SUPER_IG_SEPARATE",
+        "named_condition": {
+          "name": "INHERITANCE_BRIDGE",
+          "statement": "The pairing on the BV/BRST physical quotient descends from the fibre trace form, so its definiteness is controlled by the fibre signature.",
+          "established_for": "Lambda^1 (x) ad P on X^4, free level, by BD-D",
+          "scope": "BRIDGE_OR_SEMANTIC_BOUNDARY -- BD-D imports a Yang-Mills constraint symbol GU does not own",
+          "not_established_for": "the RS / ker Gamma carrier M-H17 actually tracks; the interacting level",
+          "rule": "This re-typing advances carrying this condition or it does not advance. If INHERITANCE_BRIDGE fails, SC-META-53's problem and LT-SM8's demand are two problems and the re-typing is withdrawn."
+        },
+        "debt_note": "NOT DISCHARGED. LT-SM8 remains a NEEDS row, remains in the canonical-target denominator (84 at v0.259), and remains at next_work_queue rank 3. What changes is the claim about availability, not the claim about debt.",
+        "context": {
+          "layer": "UNTYPED",
+          "grant": [
+            "G5",
+            "G7"
+          ],
+          "carrier": "UNTYPED",
+          "note": "OWNER-F is jointly demanded by LT-SM8 and LT-GR8 D3. The row spans total-theory and observed physical-quotient roles, and the exact interacting RS/ker-Gamma carrier is not constructed, so layer and carrier remain UNTYPED. G5 records the in-row conditional hypothesis and G7 records the inheritance bridge."
+        }
+      },
+      "proposal": {
+        "row_id": "LT-SM8",
+        "expected_verdict": "NEEDS",
+        "expected_reason_kind": "SOURCE_DECLARED_OPEN__NO_MECHANISM_SUPPLIED",
+        "protected_fields": [
+          "summary",
+          "verdict",
+          "reason_kind",
+          "distance",
+          "revival_trigger",
+          "mapping_grade",
+          "target_claim",
+          "target_claim_note"
+        ],
+        "evidence_prefix": "selected-k77-total-twisted-yang-mills-current-gate-2026-08-14.md; itc-positivity-rows-are-five-not-ten-2026-08-15.md D1 (G1 comparator provenance CB-B:SM-8 [N|S]; G2 Krein under-specification; G3 M-H17 blocked; G4 SC-META-53 polarity UNCERTAIN)",
+        "append_evidence": "; 2026-11-24 evidence reconciliation (conditional; verdict and trigger unchanged): explorations/conditional-build/observation-graph-domain-2026-11-24.md; explorations/conditional-build/native-descending-grading-classification-2026-11-21.md; explorations/conditional-build/source-small-vev-current-test-2026-11-24.md",
+        "proposed_annotation": "Literal codimension10 observation is not closable on first-order graph/L2 cores stable under normal cutoffs and admitting nonzero section trace; both qE/qF and closed hidden-domain requirements are implicated. This is an analytic topology obstruction, not failure of every physical quotient or of Krein positivity. Tube-wide constraints, other topologies and genuine physical reductions are separate; current-response tests likewise retain actual physical input/readout and domain burdens.",
+        "route_specific_condition_annotation": "Keep the existing closed physical quotient, interacting metric and independent super-IG descent requirements. If the proposed physical quotient uses literal thin observation, establish its actual domain/topology and continuity or supply the sourced constrained alternative; no arbitrary replacement projection is licensed. INHERITANCE_BRIDGE remains separately conditional.",
+        "acceptance_effect": "none; annotations preserve existing row meaning and alternatives; no trigger replacement"
+      }
+    },
+    {
+      "row_id": "RA-A2",
+      "full_row_sha256": "2a990a590ff4af44bad22deef6ffb40d633de7bda36122ed90eac077f426b2f1",
+      "expected_row": {
+        "id": "RA-A2",
+        "axis": "REPRESENTATION",
+        "source_row": "CB-A:A2",
+        "summary": "selected SU(2)_L doublet factor",
+        "verdict": "NEEDS",
+        "reason_kind": "MISSING_CONSTRUCTION",
+        "distance": "Exact S(U(3)xU(2)) supplies the pre-Higgs weak SU(2) and the actual chiral-spin 16 has the SM hypercharges. Select one J from the 20-dimensional reduction family by the source action and identify its global gauge embedding",
+        "revival_trigger": "a source-action vacuum selecting the A1-lock subgroup",
+        "evidence": "selected-k77-moving-hq-u3_2-sm-higgs-direction-gate-2026-08-12.md",
+        "mapping_grade": "EXACT_EXISTENCE__PREHIGGS_SU2L_AND_SM16_HYPERCHARGES__J_ACTION_SELECTION_AND_GLOBALIZATION_OPEN"
+      },
+      "proposal": {
+        "row_id": "RA-A2",
+        "expected_verdict": "NEEDS",
+        "expected_reason_kind": "MISSING_CONSTRUCTION",
+        "protected_fields": [
+          "summary",
+          "verdict",
+          "reason_kind",
+          "distance",
+          "revival_trigger",
+          "mapping_grade",
+          "target_claim",
+          "target_claim_note"
+        ],
+        "evidence_prefix": "selected-k77-moving-hq-u3_2-sm-higgs-direction-gate-2026-08-12.md",
+        "append_evidence": "; 2026-11-24 evidence reconciliation (conditional; verdict and trigger unchanged): explorations/conditional-build/weak-endogenous-grading-2026-11-24.md; explorations/conditional-build/global-normal-complex-reduction-2026-11-24.md; explorations/conditional-build/weak-compatible-lorentz-lifts-2026-11-24.md",
+        "proposed_annotation": "The actual geometric weak factor and endogenous Lorentz generate the independent product when they are symmetries of the same held object. Across every real split metric Lorentz lift commuting with that fixed weak factor, the compact normal centralizer so6+sp1_R forces the block lift. The source product branch survives, as does moving-Clifford observation covariance; covariance across backgrounds is not fixed physical symmetry. Global normal U(3,2) existence has the stated topological criterion, without selection of J or its physical weak current.",
+        "route_specific_condition_annotation": "Preserve source-action vacuum selection of the A1-lock subgroup. Physical interpretation must identify the selected reduction and weak/current/domain action. Existence of a topological J, fixed-product branching, or a moving compensation alone does not supply that selection.",
+        "acceptance_effect": "none; annotations preserve existing row meaning and alternatives; no trigger replacement"
+      }
+    },
+    {
+      "row_id": "RA-A6",
+      "full_row_sha256": "52aef670c63d35fe0c3e518d5c9419e24ae6be94501a20ea95314eb4c6512d73",
+      "expected_row": {
+        "id": "RA-A6",
+        "axis": "REPRESENTATION",
+        "source_row": "CB-A:A6",
+        "summary": "global SM quotient by mu_6",
+        "verdict": "NEEDS",
+        "reason_kind": "MISSING_CONSTRUCTION",
+        "distance": "The source Pati-Salam/SU(3,2) intersection is exactly the SM Lie algebra and fixed q leaves the expected post-Higgs SU(3)xU(1). Construct the global mu_6 quotient and prove the selected J reduction descends",
+        "revival_trigger": "a source-action-selected v_PSB meeting cycle1-source-selected-pati-salam-stabilizer-gate-2026-06-24.md: a SourceCriticalRankOnePSBSelectionCertificate placing v_PSB in the rank-one orbit of V_PSB = (10bar,1,3); that gate already FORMALIZES the object and records it not selected by current repo data, so formalization does not fire this trigger, and the distinct rank-one (4,1,2) vector also named v_PSB by the 2026-08-12 trace-hq chain gate does not qualify",
+        "evidence": "selected-k77-moving-hq-u3_2-sm-higgs-direction-gate-2026-08-12.md",
+        "mapping_grade": "CONDITIONAL_EXACT__SM_LIE_ALGEBRA_AND_POSTHIGGS_STABILIZER__GLOBAL_MU6_AND_J_DESCENT_OPEN"
+      },
+      "proposal": {
+        "row_id": "RA-A6",
+        "expected_verdict": "NEEDS",
+        "expected_reason_kind": "MISSING_CONSTRUCTION",
+        "protected_fields": [
+          "summary",
+          "verdict",
+          "reason_kind",
+          "distance",
+          "revival_trigger",
+          "mapping_grade",
+          "target_claim",
+          "target_claim_note"
+        ],
+        "evidence_prefix": "selected-k77-moving-hq-u3_2-sm-higgs-direction-gate-2026-08-12.md",
+        "append_evidence": "; 2026-11-24 evidence reconciliation (conditional; verdict and trigger unchanged): explorations/conditional-build/global-normal-complex-reduction-2026-11-24.md; explorations/conditional-build/weak-compatible-lorentz-lifts-2026-11-24.md",
+        "proposed_annotation": "For the native trace-reversed normal bundle over an oriented spin Lorentz base, orthogonal U(3,2) existence is equivalent to base almost-complex existence and extends over the full metric bundle. It is automatic in the absolute noncompact spin (or compact-with-boundary) case; closed bases retain c mod2=w2 and c^2=p1+2e. No selected component, determinant trivialization, global SM quotient or physical current is supplied. The global mu6 burden therefore remains.",
+        "route_specific_condition_annotation": "Preserve the current source-selected rank-one (10bar,1,3) selection-certificate trigger and its exclusion of the same-named (4,1,2) homonym. The new absolute existence theorem does not fire that certificate or prove mu6; relative/end reductions and action selection remain separate.",
+        "acceptance_effect": "none; annotations preserve existing row meaning and alternatives; no trigger replacement"
+      }
+    },
+    {
+      "row_id": "RA-A8",
+      "full_row_sha256": "65d264d786aafb44d226d49530ad1d83997a630bd58ef09d91d7a5836d070079",
+      "expected_row": {
+        "id": "RA-A8",
+        "axis": "REPRESENTATION",
+        "source_row": "CB-A:A8",
+        "summary": "gauge group is the vacuum stabilizer",
+        "verdict": "NEEDS",
+        "reason_kind": "MISSING_CONSTRUCTION",
+        "distance": "The pre-Higgs SM stabilizer and post-Higgs q stabilizer are exact at finite representation grade. Construct an action-stationary vacuum that selects J and a nonzero radial varpi coefficient and compute its identity-component stabilizer globally",
+        "revival_trigger": "a stationary vacuum with computed identity-component stabilizer",
+        "evidence": "selected-k77-moving-hq-u3_2-sm-higgs-direction-gate-2026-08-12.md",
+        "mapping_grade": "EXACT_KINEMATIC_PRE_AND_POST_HIGGS_STABILIZERS__ACTION_STATIONARY_J_AND_RADIAL_SELECTION_OPEN"
+      },
+      "proposal": {
+        "row_id": "RA-A8",
+        "expected_verdict": "NEEDS",
+        "expected_reason_kind": "MISSING_CONSTRUCTION",
+        "protected_fields": [
+          "summary",
+          "verdict",
+          "reason_kind",
+          "distance",
+          "revival_trigger",
+          "mapping_grade",
+          "target_claim",
+          "target_claim_note"
+        ],
+        "evidence_prefix": "selected-k77-moving-hq-u3_2-sm-higgs-direction-gate-2026-08-12.md",
+        "append_evidence": "; 2026-11-24 evidence reconciliation (conditional; verdict and trigger unchanged): explorations/conditional-build/global-normal-complex-reduction-2026-11-24.md; explorations/conditional-build/weak-compatible-lorentz-lifts-2026-11-24.md",
+        "proposed_annotation": "Absolute global U(3,2) existence supplies no stationary vacuum, canonical J, parallel/integrable J or computed vacuum stabilizer. The complete fixed-weak Lorentz lift classification is kinematic and has a source-compatible block/moving-observation survivor.",
+        "route_specific_condition_annotation": "Preserve the stationary-vacuum/computed-identity-component-stabilizer trigger unchanged. No topological existence result substitutes for the stationary selection condition.",
+        "acceptance_effect": "none; annotations preserve existing row meaning and alternatives; no trigger replacement"
+      }
+    },
+    {
+      "row_id": "AC-E1",
+      "full_row_sha256": "fa297828a94c029700efb7f1cc12437a4dd616982b9049a132bcf6945eca933a",
+      "expected_row": {
+        "id": "AC-E1",
+        "axis": "ANOMALY_CONSISTENCY",
+        "source_row": "CB-C:E1",
+        "summary": "4D global SM bordism constraints are saturated",
+        "verdict": "SAME",
+        "reason_kind": "IMPORTED",
+        "distance": "independently recompute the full Dai-Freed shadow",
+        "revival_trigger": "a direct computation disagreeing with the cited result",
+        "evidence": "cb-c-anomaly-conditions-2026-08-05.md:E1",
+        "mapping_grade": "CITED_NOT_REDERIVED"
+      },
+      "proposal": {
+        "row_id": "AC-E1",
+        "expected_verdict": "SAME",
+        "expected_reason_kind": "IMPORTED",
+        "protected_fields": [
+          "summary",
+          "verdict",
+          "reason_kind",
+          "distance",
+          "revival_trigger",
+          "mapping_grade",
+          "target_claim",
+          "target_claim_note"
+        ],
+        "evidence_prefix": "cb-c-anomaly-conditions-2026-08-05.md:E1",
+        "append_evidence": "; 2026-11-24 evidence reconciliation (conditional; verdict and trigger unchanged): explorations/conditional-build/source-z4-anomaly-applicability-2026-11-24.md",
+        "proposed_annotation": "The universal parent phase iI, normal Spin center and ambient axial iG are different candidate Z4 actions with distinct observed and independent-bar laws. The normal center fails fixed-background symmetry for the declared native metric-normal receiver; ambient axial symmetry survives on the Omega centralizer. None is identified with a source-required exact physical Spin-Z4 chiral-charge symmetry. This audit is not a new global-SM bordism calculation and changes no existing same-group result.",
+        "route_specific_condition_annotation": "Keep the existing direct-disagreement trigger for the cited global SM bordism result. A separate mod16 question first needs the actual symmetry/group extension, tangential structure, allowed bundles and physical charged spectrum; an extra Z4 cannot silently replace the group of this row.",
+        "acceptance_effect": "none; annotations preserve existing row meaning and alternatives; no trigger replacement"
+      }
+    }
+  ],
+  "audited_unchanged_rows": [
+    {
+      "row_id": "AC-F3",
+      "expected_row": {
+        "id": "AC-F3",
+        "axis": "ANOMALY_CONSISTENCY",
+        "source_row": "CB-C:F3",
+        "summary": "bulk anomaly inflow carries the 3-primary generation count",
+        "verdict": "DIFFERS",
+        "reason_kind": "ROUTE_KILLED",
+        "distance": "construct a non-inflow framed/String/boundary bridge or supersede the sole-bridge premise",
+        "revival_trigger": "a nonzero 3-primary bridge not sourced by the locally vanishing bulk anomaly",
+        "evidence": "cb-c-anomaly-conditions-2026-08-05.md:F3",
+        "mapping_grade": "EXACT_ROUTE_KILL",
+        "target_claim": "NONE-NOT-A-KILL",
+        "target_claim_note": "The killed object is the conventional bulk-anomaly-inflow bridge to a 3-primary count. The source disavows that framing (SC-GEN-01 disavows the repeated-generation belief; SC-GEN-02/SC-GEN-04 assert the 2+1 replacement with a non-generation imposter) and rules out the mechanism (SC-CHI-50: no chirality for the anomaly to attach to). Comparator-routing forks 1 and 4 apply. A DIFFERS/ROUTE_KILLED re-typing is proposed under delta GU-LEDGER-KILL-TYPING-2026-08-23.",
+        "context": {
+          "layer": "UNTYPED",
+          "grant": "UNTYPED",
+          "carrier": "C4",
+          "note": "The row tests a conventional anomaly-inflow comparator route, not a source-owned layer or grant. The finite 3-primary carrier computation is model-grade (C4); source-layer and grant slots remain honestly untyped."
+        }
+      },
+      "reason": "Bulk anomaly-inflow-to3primary comparator, not imposter row; actual trace map does not change this route verdict."
+    },
+    {
+      "row_id": "LT-GR5",
+      "expected_row": {
+        "id": "LT-GR5",
+        "axis": "LAGRANGIAN",
+        "source_row": "CB-B:GR-5",
+        "summary": "augmented torsion terms extend ordinary GR",
+        "verdict": "DIFFERS",
+        "reason_kind": "STRUCTURAL_DIFFERENCE",
+        "distance": "derive whether augmented torsion preserves the moving Spin projector or full-U block/coset reduction, including projector variation and complement equation, before observation/BV/domain reduction",
+        "revival_trigger": "a unique reduced mixed/massive numerator plus a common Green/BV/Fock domain for the complete selected augmented-torsion bank",
+        "evidence": "selected-k77-moving-parent-bundle-observation-reduction-2026-08-10.md",
+        "frontier_grade": "MOVING_AUGMENTED_TORSION_CARRIER_GLOBAL__REDUCTION_BV_DOMAIN_OPEN",
+        "mapping_grade": "SPIN2_COMPARATOR_EXACT__ACTION_NORMAL_MIXED_HESSIAN_EXACT__EDGE_EXTENSION_UNIQUE__CONDITIONAL_QUOTIENT_DIM40__GENERIC_CONTACT_WARD_THEOREM_EXACT__EPSILON_ENDPOINT_TRACE_RANK2__DIRECT_SUM_FULL40__SINGLE_HOLONOMY_KILL_RETAINED__NO_NEW_DATUM__P_EQUALS_KT_ACTION_OWNER_REJECTED__FULL_U6464_POINTWISE_ACTION_BANK_RANK14_NORMAL10_EXACT__GRADE5_SUPPORT_EXACT__FULL_SUPPORT_INERTIA_4_6__COMPLETE_OBSERVATION_LOSSLESS__LOCAL_ENDPOINT_ACCEPTANCE__GLOBAL_BUNDLE_PHYSICAL_OBSERVATION_BFV_DOMAIN_OPEN__GLOBAL_P_H_ASSOCIATED_BUNDLE_LAW_COMPOSED__NONCOMMUTING_THREE_PATCH_ACTION_OVERLAP_EXACT__COMPLETE_OBSERVATION_DUAL_OVERLAP_EXACT__NO_LEAKAGE_PROJECTOR_OVERLAP_EXACT__PHYSICAL_SECTION_INTEGRABILITY_BFV_DOMAIN_OPEN__ARBITRARY_X_LORENTZ_SECTION_KILLED__LOCAL_HOLONOMIC_JET_EXACT__ORDINARY_PULLBACK_ACTION_FAITHFULNESS_KILLED__COMPLETE_4_PLUS_10_OR_BV_CONSTRAINT_FORK_OPEN__TEN_METRIC_SECTION_EQUATIONS_RETAINED__FULL_CONORMAL_BV_ERASURE_REJECTED__EINSTEIN_COMPARATOR_NONCHAR_EXACT_NULL_HELICITY2__VERTICAL_ONLY_COMPLEX_MISTYPED__FIRST_LAYER_COUPLED_WARD_EXACT_GENERIC_COHOMOLOGY0__FIRST_LAYER_N2_HELICITY1__SECOND_LAYER_TT_HELICITY2_DIAGNOSTIC_LIVE__SECOND_LAYER_FULL_METRIC_WARD_DEFECT4__NAIVE_TWO_LAYER_SUM_WARD_DEFECT4__FORMAL_WARD_COMPLETION_AFFINE_DIM21_NOT_SELECTED__FULL_COUPLED_TWO_LAYER_HESSIAN_REQUIRED__STATIONARY_H2_FIRST_DERIVATIVE_REDUCTION__COMMON_FIELD_DUPSILON_K_OPEN__VARPI_DUPSILON_BLOCK_EXACT__PHYSICAL_DSHIAB_DHODGE_OBSERVATION_EPSILON_OPEN__GAMMA_EPSILON_ORBIT_EXACT__TRANSVERSE_PHYSICAL_DSHIAB_DHODGE_OBSERVATION_OPEN__TRANSVERSE_TORSION_RANK6_EXACT__DIRECT_TORSION_ORBIT_CANCELS4__MOVING_DSHIAB_DHODGE_SOURCE_TARGET_RANK3_OPEN__GAMMA_EXTENDED_RANK4_CONDITIONAL__INTERNAL_BIVECTOR_WARD_RANK3_ZERO__MOVING_SHIAB_ALONE_WRONG_CARRIER__PHYSICAL_DIFFEO_DENSITY_HODGE_OBSERVATION_LOCAL_EXACT__NONHOMOGENEOUS_PRIMITIVE_EPSILON_FRECHET_OPEN__PRINCIPAL_TRANSVERSE6_V085_EXACT__LOCAL_K_LOC_NONDEGENERATE_INDEFINITE__LOWER_ORDER_TRANSVERSE_J_ADJOINT_GREEN_OPEN__SOURCE_EULER_TWO_TO_ONE_FAMILY_ONE_AMPLITUDE__V0108_UNIQUENESS_RETRACTED__LOCAL_CONNECTION_T_ONE_JET_POINT_BIANCHI_CONSTANT_DESCENT_EXACT__NONCONSTANT_ATLAS_XI_PROLONGATION_AMPLITUDE_SELECTION_OPEN__NONCONSTANT_AFFINE_CONNECTION_DESCENT_EXACT__XI_FACTORS_THROUGH_UPSILON_NO_RANK_GAIN__TWO_HOMOGENEOUS_OPEN_SET_WITNESSES__NATIVE_MOVING_GEOMETRY_AND_AMPLITUDE_SELECTION_OPEN__BOTH_BRANCHES_LOCAL_SELECTED_SOURCE_EULER_SURVIVE__VARPI1470_ZERO__EPSILON91_BULK_ZERO_ENDPOINT_LIVE__METRIC10_ZERO__TANGENT_COMPLETENESS_OPEN__AUGMENTED_TORSION_MINIMAL_LOCAL_PRINCIPAL_TANGENT915_EXACT__LOWER_ORDER_DOMAIN_BV_OPEN__AUGMENTED_TORSION_NATURAL_TANGENT915__LOWER_ORDER_GLOBAL_REDUCTION_DOMAIN_BV_OPEN__AUGMENTED_TORSION_Y14_FIRST_JET_LOW_GRADE1571__OBSERVED1131_CONDITIONAL__DOMAIN_BV_OPEN__AUGMENTED_TORSION_EULER_CLOSURE_SPIN113893_OR_UNITARY229477__GLOBAL_DOMAIN_BV_OPEN__MOVING_AUGMENTED_TORSION_CARRIER_GLOBAL__REDUCTION_BV_DOMAIN_OPEN",
+        "target_claim": "NONE-NOT-A-KILL",
+        "target_claim_note": "No source claim is killed. The row records a STRUCTURAL_DIFFERENCE from ordinary GR via augmented torsion, which the source asserts (SC-ACT-01 pairs augmented torsion against Shiab-contracted curvature). The kill-language sits in the mapping grade's internal sub-results.",
+        "context": {
+          "layer": [
+            "L1",
+            "L2"
+          ],
+          "grant": "UNTYPED",
+          "carrier": [
+            "C1",
+            "C2",
+            "C3"
+          ],
+          "note": "The row spans the source-printed augmented-torsion owner (C3), its ambient construction (L1/C1), and the still-open observed reduction (L2/C2). Its long conditional chain has no single named CT-1 grant node."
+        }
+      },
+      "reason": "Direct evidence is moving-parent-bundle observation reduction, not corrected SL4R rank3 file. No automatic dependency correction."
+    },
+    {
+      "row_id": "LT-SM7",
+      "expected_row": {
+        "id": "LT-SM7",
+        "axis": "LAGRANGIAN",
+        "source_row": "CB-B:SM-7",
+        "summary": "QCD theta and topological terms are fixed or suppressed",
+        "verdict": "NEEDS",
+        "reason_kind": "REAL_PARAMETER",
+        "distance": "the sector is an r-torus of periodic dimensionless angles with r in {2,3}; pin r by selecting the reduction node, then supply the r angles and their symmetry mechanism",
+        "revival_trigger": "a written degree-4 topological term on a selected reduction node, plus a descent map for its coefficient",
+        "evidence": "cb-b-lagrangian-terms-2026-08-05.md:SM-7; la7-lt-sm7-moves-t0-to-t2-and-the-lt-sm1-split-is-banked-2026-08-15.md sections 1-2 (77/77 exact; offered trigger adopted at mint)",
+        "mapping_grade": "T2_SECTOR_TYPED__PI3_RANK3_AT_DELTA5_NODE__PI3_RANK2_AT_SU32_AND_SM_NODES__H4BG_RANK3_AT_ALL_NODES__BOOKING_RANK1_SHORT_BY_1_TO_2__TORSION_SUPPLIER_CLASS_EXCLUDED__NODE_SELECTION_AND_PHYSICALITY_OPEN"
+      },
+      "reason": "Direct evidence is Lagrangian table and LA7 theta-angle topology; pi3 rank3 is not SL4R discrete-series rank."
+    }
+  ],
+  "append_policy": "If later integrated, preserve complete prior evidence as exact prefix and add a dated annotation object. Existing revival_trigger remains byte-identical; routes are explanatory alternatives, not amended acceptance logic."
+}

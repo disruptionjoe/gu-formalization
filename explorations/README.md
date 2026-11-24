@@ -5,6 +5,13 @@ doc_type: overview
 updated_at: "2026-08-21"
 ---
 
+## Ledger evidence reconciliation (2026-11-24)
+
+[Scoped evidence audit](../explorations/conditional-build/ledger-evidence-reconciliation-2026-11-24.md) registers ten row annotations through the
+versionless-delta process. Ledger v0.263, all verdicts and triggers remain unchanged;
+AC-F3, LT-GR5 and LT-SM7 were audited without amendment.
+
+
 ## Source current and symmetry applicability (2026-11-24)
 
 Small background values alone do not suppress the primitive mixing response.

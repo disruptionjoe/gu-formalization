@@ -41,6 +41,11 @@
       "delta_id": "GU-PREDICTION-KICKOFF-2026-10-27",
       "path": "lab/process/conditional-evidence-deltas/gu-prediction-kickoff-2026-10-27.json",
       "status": "pending"
+    },
+    {
+      "delta_id": "GU-SOURCE-APPLICABILITY-RECONCILIATION-2026-11-24",
+      "path": "lab/process/conditional-evidence-deltas/gu-source-applicability-reconciliation-2026-11-24.json",
+      "status": "pending"
     }
   ]
 }
