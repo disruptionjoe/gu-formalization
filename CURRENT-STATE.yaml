@@ -1,21 +1,24 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: b586e6e5b2f8064670685cf3809971222293db5f
+revision_basis: d89b56eac67c1df293ec2782171b3cbb8c14bbbe
 program_focus:
-  version: 2026-11-21-v1
-  authority: joe_direct_chat_2026_11_21
+  version: 2026-11-24-v1
+  authority: joe_direct_chat_2026_11_24
   priority_packets:
   - lab/process/work-packets/observed-hidden-index-split-2026-11-20.md
   - lab/process/work-packets/native-complex-order3-fork-2026-11-20.md
+  - lab/process/work-packets/localization-falsifier-2026-11-24.md
   priority_packets_note: Rule 3a applies; these outrank the open determinant-gradient lower-rival next_run
-    until both packets are done or killed.
+    until both packets are done or killed. Localization packet added2026-11-24 under Joe authority; its
+    ready steps take rule3a priority while Item1/2 remain blocked as recorded.
   priority_packet_selection:
     slots: B-lane slots only; run_selection rules 1 and 2 remain prior.
     order: When both have ready steps, alternate between these packets; Item 1 goes first on ties. Within
       the selected packet take its earliest ready step.
     directed_priority_2026_11_21: Item1 native-grading decision first; step3 optional cheap T3; Item2step4 parked until a native integer observable exists. Existing rule1 and LC cadence unchanged.
-    last_served_packet: lab/process/work-packets/observed-hidden-index-split-2026-11-20.md
+    last_served_packet: lab/process/work-packets/localization-falsifier-2026-11-24.md
+    directed_priority_2026_11_24: Localization packet steps0 then1R this manual run; later ready localization steps use B slots. Old Item1/2 blockers and their pairwise alternation rule remain unchanged; no automatic reopening.
     tie_first: lab/process/work-packets/observed-hidden-index-split-2026-11-20.md
     terminal_handling: Skip packets done or killed and steps blocked by explicit dependencies; record supporting
       evidence. Do not infer a packet kill from an unbuilt object or unresolved hypothesis.
@@ -89,6 +92,34 @@ program_focus:
     - writing down, enumerating, fitting or searching for a specific action, coefficient set or Lagrangian outside lane C
     - building a gated cell's missing object (source action, stabilized RS action, K3-fibered family, boundary connection) as a way to unblock it
     - more than 3 guessed action variants in one lane-C run, or tuning a guessed action's coefficients
+homogeneous_localization_2026_11_24:
+  status: T2_reviewed_Riemannian_comparator
+  authority: joe_direct_chat_2026_11_24
+  actual_delta: RC1 formal-degree/count and W175 native gap/Fredholm imports are unsupported for the stated
+    metric pair. A separate theorem excludes all L2 eigenmodes for finite-rank positive homogeneous selfadjoint
+    first-order elliptic operators on SL4R/SO4, and for first-order translation-invariant elliptic operators
+    on its full-line product. Intrinsic Dirac and RS are covered; positive ambient Pi14 is conditional
+    on the stated Hilbert realization. No native Krein transfer, numerical spectral gap or P3 emptiness
+    follows.
+  evidence:
+  - explorations/conditional-build/localization-source-reconciliation-2026-11-24.md
+  - explorations/conditional-build/homogeneous-localization-comparator-2026-11-24.md
+  - lab/process/homogeneous-localization-comparator.json
+  - tests/program-focus/homogeneous_localization_comparator_probe.py
+  - lab/process/hostile-reviews/2026-11-24-localization-comparator-review.md
+  claim_effect: No scientific matrix status, source/physics ledger, class, canon or prediction change.
+  next_discriminator: 'Localization packet step1K is the next eligible B-slot work: audit the native GL4R/O31
+    operator, pairing and closed domain separately for K95 and K77, and whether normal L2 zero modes are
+    necessary for the actual source observation. Apply T11/T13/T15; do not manufacture a source operator
+    or assume a conventional KK tower. If transfer cannot be proved, name the exact missing datum and
+    preserve the comparator theorem. LC cadence remains prior; count31 selects LC-BETS on the next regular
+    run. The prior six-spinor grading test remains available behind the packet. Both November20 packets
+    retain their blockers.'
+  priority_effect: Joe-directed packet added under existing rule3a, attached to P3/global_index and X-P1-P2-P3.
+    Prior six-spinor test retained behind it; no system rule or cadence change.
+  packet_effect: New step0 and1R done; step1K ready. Old two packets unchanged.
+  counter_accounting: One directed LB-LADDER run30->31, lane7->8; no LC credit. Next regular slot remains
+    LC-BETS.
 source_dual_grading_2026_11_24:
   status: T2_reviewed_structural_continuation
   authority: joe_direct_chat_source_checks_manual_run_and_priority_2026_11_24

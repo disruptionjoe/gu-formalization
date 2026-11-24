@@ -5,22 +5,62 @@ created: 2026-07-14
 label: W175
 team: BUILD-ANALYTIC
 hypothesis: H68 (analytic layer)
-title: "W175 -- THE ANALYTIC / FREDHOLM LAYER OF THE Y14 SOURCE-ACTION: the essential spectrum of D on non-compact Y14, and what it decides about the C-operator. VERDICT: PARTIAL -- ESSENTIAL-SPECTRUM GAP BUILT, C-OPERATOR EXISTENCE REDUCED TO ONE COMPUTED (FIT-GATED) INEQUALITY. The essential spectrum of D = Pi(gamma.nabla)Pi + m2 Pi on the non-compact ends of Y14 = Met(X4) has a POSITIVE gap of half-width mu_c = ||rho_G||/R_s = 9/(2 R_s), set NOT by compactness but by the half-sum-of-roots (Plancherel) shift of the non-compact fiber SL(4,R)/SO_0(3,1); D is Fredholm (0 not in spec_ess) and the Krein C-operator is a BOUNDED operator (regular critical point, Langer/Curgus-Najman) IFF the ghost mass shell is isolated from spec_ess, i.e. IFF m2 R_s < 9/2 = 4.5. Above threshold the ghost embeds in the continuum (singular critical point) and the C-operator/loop-unitarity is obstructed at the analytic level. The criterion is decisive and falsifiable; m2 and R_s are both FIT-gated so the final bit is CONDITIONAL, not closed -- honest grade PARTIAL. No unbuildability obstruction found; the non-compactness is NOT fatal (the rho-shift saves it)."
-grade: "COMPUTED (exact, on an explicit Cl(9,5)=M(64,H) rep, 128-dim complex model): Clifford relations {e_a,e_b}=2 eta_ab (residual 0.0); e_a e_a^dag = I each, Gamma Gamma^dag = 14 I (residual 0.0); Pi idempotent (6.7e-16), rank Pi = 1664 = 13*128 (reproduces the W131 / gen_sector_bridge anchor); Gamma rho(J)=Sigma_J Gamma and [rho(J),Pi]=0 on 5 so(9,5) generators incl. 2 boosts (residual 0.0) -- reproduces W131's crux. COMPUTED (numeric): massive 1D Dirac essential-spectrum half-gap = m to <1% (positive control for the cylindrical-end formula); 1D Callias index = sign jump (+1/0/-1); cylindrical-end essential-spectrum gap = min|mu_cross-section| to <1% (numeric 2.8289 vs analytic 2.8284); non-compact-fiber continuum gap = mu_c = 4.500 exactly (numeric 4.500). ARITHMETIC (reconstruction grade, reused): rho=(m1+2m2)/2=9/2 from BC_1 (7,1); rho^2=81/4 continuum threshold; bound states {2sqrt2,sqrt14,3sqrt2,sqrt20}/R_s all below mu_c. The C-operator decision (regime A m2 R_s=3 -> bounded; regime B m2 R_s=5 -> unbounded) is the boundary mu_c=9/2. Per E1 this wave is a CONSTRUCTION: zero FIT rows move, no gated number unlocks."
-construction: "program-native throughout: the analytic object is the geometer's operator D on the geometer's arena Y14=Met(X4), with its non-compact ends taken as the actual DeWitt/dilaton geometry (GEOMETER-VS-PHYSICS-OBJECTS.md). Standard-field machinery used where it is the right tool and CITED: Melrose b-calculus (cylindrical dilaton end), the cylindrical-end Dirac essential-spectrum theorem, Callias index, Harish-Chandra/Plancherel half-sum-of-roots threshold for the non-compact symmetric-space fiber, and Krein-space definitizable-operator theory (regular vs singular critical points; Langer, Curgus-Najman) for the C-operator existence. The physicist's alternative (an explicit interacting BRST/optical-theorem construction of C) stays untouched and blocked exactly as W169-W174 recorded."
+title: 'W175 analytic layer: native spectral gap and Fredholm transfer unestablished'
+grade: Algebraic Clifford/projector and supplied cylinder controls retained. Native gap9/(2Rs), bound
+  masses and downstream Fredholm/C conclusions are not established.
+construction: Historical K95 compressed-operator proposal plus supplied positive cylinder controls; not
+  a certified native spectral realization. BC1 threshold, scalar-to-Dirac transfer and spacelike scale
+  assumption corrected2026-11-24.
 depends_on:
-  - explorations/W131-covariant-operator-y14-2026-07-14.md
-  - explorations/W125-source-action-first-build-2026-07-13.md
-  - explorations/analytic-index-fredholm/oc2-b-parametrix-y14-2026-06-23.md
-  - explorations/analytic-index-fredholm/oc2-y14-weighted-fredholm-parametrix-2026-06-23.md
-  - explorations/analytic-index-fredholm/oq-kk1-bc1-jacobi-operator-parameters-2026-06-23.md
-  - explorations/W173-brst-cohomology-mirror-sector-2026-07-14.md
-  - canon/shiab-existence-cl95.md
+- explorations/W131-covariant-operator-y14-2026-07-14.md
+- explorations/W125-source-action-first-build-2026-07-13.md
+- explorations/analytic-index-fredholm/oc2-b-parametrix-y14-2026-06-23.md
+- explorations/analytic-index-fredholm/oc2-y14-weighted-fredholm-parametrix-2026-06-23.md
+- explorations/analytic-index-fredholm/oq-kk1-bc1-jacobi-operator-parameters-2026-06-23.md
+- explorations/W173-brst-cohomology-mirror-sector-2026-07-14.md
+- canon/shiab-existence-cl95.md
 scripts:
-  - tests/W175_analytic_fredholm_essential_spectrum.py
+- tests/W175_analytic_fredholm_essential_spectrum.py
+scope_corrected_at: '2026-11-24'
+scope_correction: explorations/conditional-build/localization-source-reconciliation-2026-11-24.md
+historical_title: 'W175 -- THE ANALYTIC / FREDHOLM LAYER OF THE Y14 SOURCE-ACTION: the essential spectrum
+  of D on non-compact Y14, and what it decides about the C-operator. VERDICT: PARTIAL -- ESSENTIAL-SPECTRUM
+  GAP BUILT, C-OPERATOR EXISTENCE REDUCED TO ONE COMPUTED (FIT-GATED) INEQUALITY. The essential spectrum
+  of D = Pi(gamma.nabla)Pi + m2 Pi on the non-compact ends of Y14 = Met(X4) has a POSITIVE gap of half-width
+  mu_c = ||rho_G||/R_s = 9/(2 R_s), set NOT by compactness but by the half-sum-of-roots (Plancherel) shift
+  of the non-compact fiber SL(4,R)/SO_0(3,1); D is Fredholm (0 not in spec_ess) and the Krein C-operator
+  is a BOUNDED operator (regular critical point, Langer/Curgus-Najman) IFF the ghost mass shell is isolated
+  from spec_ess, i.e. IFF m2 R_s < 9/2 = 4.5. Above threshold the ghost embeds in the continuum (singular
+  critical point) and the C-operator/loop-unitarity is obstructed at the analytic level. The criterion
+  is decisive and falsifiable; m2 and R_s are both FIT-gated so the final bit is CONDITIONAL, not closed
+  -- honest grade PARTIAL. No unbuildability obstruction found; the non-compactness is NOT fatal (the
+  rho-shift saves it).'
+historical_grade: 'COMPUTED (exact, on an explicit Cl(9,5)=M(64,H) rep, 128-dim complex model): Clifford
+  relations {e_a,e_b}=2 eta_ab (residual 0.0); e_a e_a^dag = I each, Gamma Gamma^dag = 14 I (residual
+  0.0); Pi idempotent (6.7e-16), rank Pi = 1664 = 13*128 (reproduces the W131 / gen_sector_bridge anchor);
+  Gamma rho(J)=Sigma_J Gamma and [rho(J),Pi]=0 on 5 so(9,5) generators incl. 2 boosts (residual 0.0) --
+  reproduces W131''s crux. COMPUTED (numeric): massive 1D Dirac essential-spectrum half-gap = m to <1%
+  (positive control for the cylindrical-end formula); 1D Callias index = sign jump (+1/0/-1); cylindrical-end
+  essential-spectrum gap = min|mu_cross-section| to <1% (numeric 2.8289 vs analytic 2.8284); non-compact-fiber
+  continuum gap = mu_c = 4.500 exactly (numeric 4.500). ARITHMETIC (reconstruction grade, reused): rho=(m1+2m2)/2=9/2
+  from BC_1 (7,1); rho^2=81/4 continuum threshold; bound states {2sqrt2,sqrt14,3sqrt2,sqrt20}/R_s all
+  below mu_c. The C-operator decision (regime A m2 R_s=3 -> bounded; regime B m2 R_s=5 -> unbounded) is
+  the boundary mu_c=9/2. Per E1 this wave is a CONSTRUCTION: zero FIT rows move, no gated number unlocks.'
+historical_construction: 'program-native throughout: the analytic object is the geometer''s operator D
+  on the geometer''s arena Y14=Met(X4), with its non-compact ends taken as the actual DeWitt/dilaton geometry
+  (GEOMETER-VS-PHYSICS-OBJECTS.md). Standard-field machinery used where it is the right tool and CITED:
+  Melrose b-calculus (cylindrical dilaton end), the cylindrical-end Dirac essential-spectrum theorem,
+  Callias index, Harish-Chandra/Plancherel half-sum-of-roots threshold for the non-compact symmetric-space
+  fiber, and Krein-space definitizable-operator theory (regular vs singular critical points; Langer, Curgus-Najman)
+  for the C-operator existence. The physicist''s alternative (an explicit interacting BRST/optical-theorem
+  construction of C) stays untouched and blocked exactly as W169-W174 recorded.'
 ---
 
 # W175 -- the analytic / Fredholm layer of the Y14 source-action
+
+> **Scope correction —2026-11-24:** The native9/(2R_s) fermion gap and its Fredholm/C-operator consequences below are not established: the BC1(7,1) threshold was already superseded for the actual metric pair, and a scalar rho-squared threshold is not automatically a twisted Dirac/RS gap. The scale direction also has native DeWitt norm -4, contrary to the spacelike end used below. Clifford/projector and supplied cylindrical-model controls remain at their own scope. The retained body and historical_* metadata are historical evidence, not current certification.
+> [Reconciliation and replacement scope](conditional-build/localization-source-reconciliation-2026-11-24.md).
+
 
 Test: `tests/W175_analytic_fredholm_essential_spectrum.py` (29/29, exit 0, ~90 s).
 Deterministic (seed 20260714), numpy/scipy only. Run as a five-perspective inline team (one

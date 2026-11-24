@@ -1,12 +1,21 @@
 ---
-title: "RC1: L2 Zero Mode of the RS Sector in the KK Tower on GL(4,R)/O(3,1)"
+title: 'RC1: L2 Zero Mode of the RS Sector in the KK Tower on GL(4,R)/O(3,1)'
 date: 2026-06-23
-problem_label: "rc1-rs-kk-zero-mode"
+problem_label: rc1-rs-kk-zero-mode
 status: reconstruction
-verdict: CONDITIONALLY_RESOLVED
+verdict: FAILS_AS_STATED
+scope_corrected_at: '2026-11-24'
+scope_correction: explorations/conditional-build/localization-source-reconciliation-2026-11-24.md
+historical_verdict: CONDITIONALLY_RESOLVED
+verdict_detail: The stated formal-degree route does not establish ind_H=24 or the RS8 contribution for
+  the actual rank3 metric pair. No native zero-kernel theorem follows from this correction.
 ---
 
 # RC1: L2 Zero Mode of the RS KK Tower on GL(4,R)/O(3,1)
+
+> **Scope correction —2026-11-24:** The formal-degree/count and BC1/rank1 chain below is superseded for the stated metric pair by the June23 rank3 verification. It does not establish L2 zero modes or ind_H=24/8. The historical reconstruction is retained, not an active theorem.
+> [Reconciliation and replacement scope](../conditional-build/localization-source-reconciliation-2026-11-24.md).
+
 
 ## 1. Problem Statement
 

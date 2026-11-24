@@ -5,6 +5,10 @@ doc_type: overview
 updated_at: "2026-08-21"
 ---
 
+## Localization comparator (2026-11-24)
+
+[Reconciliation and no-L2-eigenmode theorem](../explorations/conditional-build/homogeneous-localization-comparator-2026-11-24.md) scopes the RC1/W175 spectral claims and proves the positive homogeneous Dirac/RS comparison. Native transfer remains open; no ledger verdict changed.
+
 ## Source checks and structural continuation (2026-11-24)
 
 - [Source checks and joint result](../explorations/conditional-build/source-check-and-continuation-2026-11-24.md).

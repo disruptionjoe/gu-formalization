@@ -1,0 +1,144 @@
+{
+  "schema": "internal-comparator-proof-v1",
+  "date": "2026-11-24",
+  "base_revision": "d89b56eac67c1df293ec2782171b3cbb8c14bbbe",
+  "program_target": "X-P1-P2-P3",
+  "tier": "T2",
+  "classification": "CONVENTIONAL_COMPARATOR",
+  "actual_delta": "RC1 formal-degree/count and W175 native gap/Fredholm imports are unsupported for the stated metric pair. A separate theorem excludes all L2 eigenmodes for finite-rank positive homogeneous selfadjoint first-order elliptic operators on SL4R/SO4, and for first-order translation-invariant elliptic operators on its full-line product. Intrinsic Dirac and RS are covered; positive ambient Pi14 is conditional on the stated Hilbert realization. No native Krein transfer, numerical spectral gap or P3 emptiness follows.",
+  "theorem": {
+    "space": "SL4R/SO4 positive complete homogeneous metric; spin cover where needed",
+    "carrier": "finite-rank unitary compact-K homogeneous bundle",
+    "operator": "homogeneous selfadjoint first-order elliptic, standard full-space closure",
+    "conclusion": "empty L2 point spectrum",
+    "extension": "positive unwarped product with full R, translation-invariant first-order symmetric elliptic operator; partial Fourier proof",
+    "covered": [
+      "homogeneous unitary twisted Dirac",
+      "intrinsic gamma-traceless RS9",
+      "intrinsic gamma-traceless RS10 on full product"
+    ],
+    "conditional": [
+      "positive ambient Pi14 on im Pi with supplied Hermitian realization, ellipticity and domain"
+    ],
+    "primary_sources": [
+      {
+        "url": "https://arxiv.org/pdf/math/9903177",
+        "locus": "Section1, Theorem1.3 and Remark1.4",
+        "use": "homogeneous elliptic point-spectrum/discrete-series relation and rank condition"
+      },
+      {
+        "url": "https://arxiv.org/pdf/1804.10602",
+        "locus": "Section2",
+        "use": "intrinsic RS definition/formal adjoint; no compact-kernel classification transfer"
+      }
+    ]
+  },
+  "exact_probe": {
+    "status": "PASS",
+    "rs_symbol_cases": [
+      {
+        "n": 2,
+        "spin_rank": 2,
+        "rs_rank": 2,
+        "longitudinal_rank": 2,
+        "transverse_rank": 0,
+        "reduced_symbol_factor": "0",
+        "reduced_square": "0",
+        "elliptic": false,
+        "identities": "exact Clifford word algebra"
+      },
+      {
+        "n": 9,
+        "spin_rank": 16,
+        "rs_rank": 128,
+        "longitudinal_rank": 16,
+        "transverse_rank": 112,
+        "reduced_symbol_factor": "7/9",
+        "reduced_square": "49/81",
+        "elliptic": true,
+        "identities": "exact Clifford word algebra"
+      },
+      {
+        "n": 10,
+        "spin_rank": 32,
+        "rs_rank": 288,
+        "longitudinal_rank": 32,
+        "transverse_rank": 256,
+        "reduced_symbol_factor": "4/5",
+        "reduced_square": "16/25",
+        "elliptic": true,
+        "identities": "exact Clifford word algebra"
+      },
+      {
+        "n": 14,
+        "spin_rank": 128,
+        "rs_rank": 1664,
+        "longitudinal_rank": 128,
+        "transverse_rank": 1536,
+        "reduced_symbol_factor": "6/7",
+        "reduced_square": "36/49",
+        "elliptic": true,
+        "identities": "exact Clifford word algebra"
+      }
+    ],
+    "reconciliation": {
+      "wrong_involution_fixed_anti": [
+        9,
+        6
+      ],
+      "metric_involution_fixed_anti": [
+        6,
+        9
+      ],
+      "metric_split_cartan_dimension": 3,
+      "ordinary_Cartan_ranks": [
+        3,
+        2
+      ],
+      "positive_A3_roots": 6,
+      "rho": [
+        "3/2",
+        "1/2",
+        "-1/2",
+        "-3/2"
+      ],
+      "rho_squared_root_length2_normalization": 5,
+      "line_positive_weights": {
+        "1": 4,
+        "2": 1
+      },
+      "native_scale_norm": -4,
+      "trace_reversed_signatures": {
+        "Lorentz_base": [
+          6,
+          4
+        ],
+        "Euclidean_base": [
+          9,
+          1
+        ]
+      },
+      "failure_controls": [
+        "wrong involution does not fix so31",
+        "rank-one multiplicities are not7,1",
+        "elliptic symbol can have zero compressed symbol",
+        "index0 permits paired zero modes"
+      ],
+      "ceiling": "finite algebra only; rho norm is not a physical spectral gap"
+    },
+    "ceiling": "Exact local algebra; analytic theorem and domain proof are in the result artifact. No native spectral gap or P3 decision."
+  },
+  "independent_review": {
+    "dirac_representation": "accepted integrated theorem, domains, Fourier proof and independently checked RS symbol",
+    "rs_geometry": "accepted after narrowing to first-order; rejects order-zero identity counterexample",
+    "source_hostile": "accepted source scope/metadata custody; normal-L2 necessity remains unproved"
+  },
+  "claim_effect": "No native spectral gap, Fredholm/C theorem, P3 emptiness, ledger/canon/class change or prediction credit",
+  "packet": {
+    "step0": "done",
+    "step1R": "done at declared comparator scope",
+    "step1K": "ready",
+    "kill_triggered": false
+  },
+  "result": "explorations/conditional-build/homogeneous-localization-comparator-2026-11-24.md"
+}

@@ -16,6 +16,20 @@ discovery bet (`lab/process/discovery-bets.json`). The K25xx--K2618 detector, pr
 results below are retained as conditional mathematics; that lane is no longer the default target. Sections
 below are dated results, newest first, and are not steering.
 
+## Localization comparator and historical spectral correction (2026-11-24)
+
+RC1's formal-degree route does not establish index24 for the actual rank3
+metric pair. W175's reused rank-one threshold, native spacelike-scale premise
+and consequent native gap/Fredholm certification are unsupported.
+
+An independent theorem excludes all L2 eigenmodes for the stated positive
+homogeneous selfadjoint first-order elliptic Riemannian comparison, including intrinsic
+Dirac/RS and their full-line product. Positive ambient Pi14 remains conditional
+on its explicit Hilbert realization. This gives no numerical gap and no native
+Krein or physical family-count conclusion. Scientific matrix and source/physics
+ledger verdicts remain unchanged.
+[Reconciliation and theorem](explorations/conditional-build/homogeneous-localization-comparator-2026-11-24.md).
+
 ## Source checks, opposite coupling and moving grades (2026-11-24)
 
 The source audit clarified that the full native barred readout is unselected.

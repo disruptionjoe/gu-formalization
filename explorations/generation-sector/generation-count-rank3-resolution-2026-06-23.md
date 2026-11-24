@@ -1,21 +1,32 @@
 ---
-title: "Generation Count: Rank-3 Resolution via Tau-Twisted RS and K3 Gate"
+title: 'Generation Count: Rank-3 Resolution via Tau-Twisted RS and K3 Gate'
 date: 2026-06-23
-problem_label: "generation-count-rank3-resolution"
+problem_label: generation-count-rank3-resolution
 status: synthesis
 verdict: OPEN
-verdict_detail: "Generation count 3 vs 4 undetermined — gated on OQ-RK1 (CAS matrix computation of rank_H(S_RS^+) in M(64,H)). Candidate A (rank_H=4, 3 generations) and Candidate B (rank_H=8, 4 generations) are equistatus: neither is eliminated. Discrete-series analytic route fully closed as FAILED; K3 gate RESOLVED; OQ-RK1 required before any candidate is selected as baseline."
-owned_by: "Task 2026-06-23"
+verdict_detail: Ordinary group and scalar-relative rank exclusions retain their scope. Historical APS/K3
+  and3-versus4 proposals do not select the source2+1 count or establish an all-twisted Krein no-go.
+owned_by: Task 2026-06-23
 depends_on:
-  - explorations/representation-theory-noncompact/tau-twisted-rs-admissibility-kobayashi-2026-06-23.md
-  - explorations/representation-theory-noncompact/tau-correction-oshima-matsuki-rs-2026-06-23.md
-  - explorations/representation-theory-noncompact/split-rank-reconciliation-audit-2026-06-23.md
-  - explorations/generation-sector/oq3a-t4-vs-k3-disambiguation-2026-06-23.md
-  - explorations/geometry-curvature-emergence/ic4-source-free-k3-gate-2026-06-23.md
-  - explorations/representation-theory-noncompact/rc1-discrete-series-verification-pack-2026-06-23.md
+- explorations/representation-theory-noncompact/tau-twisted-rs-admissibility-kobayashi-2026-06-23.md
+- explorations/representation-theory-noncompact/tau-correction-oshima-matsuki-rs-2026-06-23.md
+- explorations/representation-theory-noncompact/split-rank-reconciliation-audit-2026-06-23.md
+- explorations/generation-sector/oq3a-t4-vs-k3-disambiguation-2026-06-23.md
+- explorations/geometry-curvature-emergence/ic4-source-free-k3-gate-2026-06-23.md
+- explorations/representation-theory-noncompact/rc1-discrete-series-verification-pack-2026-06-23.md
+scope_corrected_at: '2026-11-24'
+scope_correction: explorations/conditional-build/localization-source-reconciliation-2026-11-24.md
+historical_verdict_detail: "Generation count 3 vs 4 undetermined \u2014 gated on OQ-RK1 (CAS matrix computation\
+  \ of rank_H(S_RS^+) in M(64,H)). Candidate A (rank_H=4, 3 generations) and Candidate B (rank_H=8, 4\
+  \ generations) are equistatus: neither is eliminated. Discrete-series analytic route fully closed as\
+  \ FAILED; K3 gate RESOLVED; OQ-RK1 required before any candidate is selected as baseline."
 ---
 
 # Generation Count: Rank-3 Resolution via Tau-Twisted RS and K3 Gate
+
+> **Scope correction —2026-11-24:** The ordinary-group and scalar-relative rank exclusions below retain their scope. They do not prove zero kernel for every nonunitary twisted Krein bundle or select the source2+1 count. The APS/K3 alternatives are historical comparator proposals, not current permission to build a family.
+> [Reconciliation and replacement scope](../conditional-build/localization-source-reconciliation-2026-11-24.md).
+
 
 ## One-Sentence Result
 
