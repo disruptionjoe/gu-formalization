@@ -18,10 +18,11 @@ classification: BRIDGE_OR_SEMANTIC_BOUNDARY
 > `lab/methods/source-native-comparator-routing.md` and follow its source-native
 > pointers before reusing this result.
 
-Joe authority: `joe_direct_chat_2026_11_24`. Structure level only. This packet
+Initial authority: `joe_direct_chat_2026_11_24`; revised scope below governs.
+Structure level only. This packet
 participates in rule3a in B-lane slots; T1-first and LC cadence remain prior.
-Item1 and Item2 remain closed/blocked exactly as recorded. This manual run
-covers step0 followed by step1R only. No specific action or gated source
+Item1 and Item2 remain closed/blocked exactly as recorded. The original manual run
+covered step0 followed by step1R only. No specific action or gated source
 operator may be built to satisfy a hypothesis.
 
 **Scientific acceptance qualification:** the requested homogeneous statement
@@ -34,9 +35,23 @@ for its arithmetic core. A nonzero index would identify a localization datum
 only after its native/observed bridge is established. Do not create an external
 datum ledger row from an unselected comparator alone.
 
+## Directed scope correction — Joe24b
+
+The earlier Nov24 brief relied on W175's native spectral gap. That gap is
+withdrawn as unsupported, as the completed reconciliation records. The
+positive Riemannian theorem survives at its own scope.
+
+Localization is now a short applicability audit alongside the six-spinor
+priority: only (i) native Krein/operator/domain transfer, (ii) source-observed
+normalizable fibre-mode necessity, and (iii) admitted nonhomogeneous/end
+types. Promote again only when BOTH(i) and(ii) are established. No potentials,
+new asymptotic classification or gated source construction is authorized by
+this packet. The old future steps below are retained historical intentions,
+blocked by the revised scope and premises; they are not ready successors.
+
 ```yaml
-packet_status: active
-authority: joe_direct_chat_2026_11_24
+packet_status: blocked
+authority: joe_direct_chat_2026_11_24_b
 target: X-P1-P2-P3
 secondary_target: P3xglobal_index
 steps:
@@ -74,7 +89,7 @@ steps:
     on the stated Hilbert realization. No native Krein transfer, numerical spectral gap or P3 emptiness
     follows.
 - id: 1K
-  status: ready
+  status: blocked
   target: X-P1-P2-P3
   tier: T2
   expected_delta: Audit exact pseudo-Riemannian/Krein transfer on GL4R/O31, K77/K95 separately
@@ -88,6 +103,8 @@ steps:
     their blockers.'
   depends_on:
   - 1R
+  blocked_on: 'Joe24b demotion: only three-premise audit is currently authorized; promotion requires(i)
+    and(ii).'
 - id: 2
   status: blocked
   target: X-P1-P2-P3
@@ -98,7 +115,8 @@ steps:
   work: State precisely scoped homogeneous versus trapping/readout fork and classify admissible members
   depends_on:
   - 1K
-  blocked_on: Prior packet theorem/type prerequisites; not a stop for the program.
+  blocked_on: 'Joe24b demotion: only three-premise audit is currently authorized; promotion requires(i)
+    and(ii).'
 - id: 3
   status: blocked
   target: X-P1-P2-P3
@@ -110,7 +128,8 @@ steps:
   work: Classify source-allowed asymptotic structural types and index/parity/mod24 without building potential
   depends_on:
   - 2
-  blocked_on: Prior packet theorem/type prerequisites; not a stop for the program.
+  blocked_on: 'Joe24b demotion: only three-premise audit is currently authorized; promotion requires(i)
+    and(ii).'
 - id: 4
   status: blocked
   target: X-P1-P2-P3
@@ -120,9 +139,36 @@ steps:
   work: Tie all escapes to source claims or mark UNSOURCED
   depends_on:
   - 1K
-  blocked_on: Prior packet theorem/type prerequisites; not a stop for the program.
-next_step: 1K
+  blocked_on: 'Joe24b demotion: only three-premise audit is currently authorized; promotion requires(i)
+    and(ii).'
+- id: A
+  status: done
+  target: X-P1-P2-P3
+  tier: T3
+  expected_delta: Answer exactly native transfer, source normal-L2 necessity and allowed background/end
+    types
+  kill_condition: No promotion unless(i) and(ii) established; unresolved does not mean impossible
+  work: Short source/class applicability audit only
+  depends_on:
+  - 0
+  - 1R
+  actual_delta: Native transfer and normal-L2 necessity remain unestablished; C admits nonhomogeneous
+    and typed boundary data; localization remains demoted
+  evidence:
+  - explorations/conditional-build/localization-applicability-audit-2026-11-24.md
+next_step: null
 kill_condition: Failure to establish the required Riemannian comparator theorem, or proved arbitrary class-C
   asymptotic data making step3 uninformative. This kills the packet route, not GU. Propose a source-faithful
   LB-CLASS tightening; do not change C automatically.
+priority: short alongside applicability audit
+promotion_condition: Both native theorem transfer and source normal-L2 necessity established
+blocked_on: Promotion requires evidence establishing BOTH native operator/domain transfer and source normal-L2
+  zero-mode necessity. Neither is established; no broader localization work selected.
+applicability:
+  native_transfer: unestablished
+  normal_L2_necessity: unestablished
+  allowed_types: nonhomogeneous chimeric connections and class-C APS/external background/end data, with
+    class clauses retained
+  audit: done
+  promoted: false
 ```

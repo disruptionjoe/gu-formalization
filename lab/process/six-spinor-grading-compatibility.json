@@ -1,0 +1,248 @@
+{
+  "schema_version": "1.0",
+  "date": "2026-11-24",
+  "authority": "joe_direct_chat_2026_11_24_b",
+  "base_revision": "d1cc9825ef3aaf18f7bf5c515a9e3b8302c53a0b",
+  "program_target": "X-P1-P2-P3",
+  "secondary_target": "P3xglobal_index",
+  "tier": "T1",
+  "status": "INTERNAL_SCOPED_REALIZATION_EXCLUSION",
+  "actual_delta": "The R6-Bn0 K95 tangential reconstruction has no same-input/output grade descending to its full six-spinor observation with horizontal chi_H. Principal equations force a unique parallel receiver grade; retained NW torsion gives an injective128-spinor anticommutator witness. This excludes the last F16 spectral choice and any hidden-grade or kernel-preserving-shear repair of this same realization. The already-held constant chiral-W wrapper preserves the obstruction. It does not exclude source effective chirality or class C. Localization native transfer and normal-L2 necessity remain unestablished; its short applicability audit is complete without promotion.",
+  "scope": {
+    "family": "F16-K95-spectral / R6-Bn0",
+    "carrier": "raw E1920, hidden K1152, full observed6S rank768",
+    "symbol": "natural two-channel zero-SE; c0=-a/12; a,e,g nonzero",
+    "geometry": "K95 actual trace-reversed normal(6,4); K77 separate",
+    "connection": "held split metric/spin connection with B_n=0; coherent normal jets; weighted SW repair; full exterior NW torsion retained",
+    "grading": "same input/equation zeroth-order grade preserving K and descending with pi_b G_o=chi_H pi_b",
+    "sixteen_exhaustion": "only scalar signs on four fixed spectral projectors, not full stabilizer commutant or all natural gradings",
+    "strengthening": "observed obstruction independent of all hidden grade choices and kernel-preserving shears for this unchanged realization"
+  },
+  "proof": {
+    "principal": "unique G0=diag(chi_H,-chi_H,-chi_H) with arbitrary trace/scalar block mixing allowed",
+    "variable_grades": "forced G0 parallel, derivative cancellation unavailable in held connection",
+    "torsion_witness_sigma": "-(a/3) chi_H c_N(H_mean)",
+    "torsion_witness_tau": "-(5a/6) chi_H c_N(t)",
+    "native_square": "t^2=-4; H_mean=t/2",
+    "full_defect_rank_lower_bound": 128,
+    "quotient": "q{G,D}={G_o,D_o}q; q surjective",
+    "held_W": "same obstruction by actual crossed trace/field and equation transport; wrapped uniqueness reproved"
+  },
+  "exact_probe": {
+    "status": "PASS",
+    "checks_passed": 40,
+    "checks": [
+      {
+        "name": "native trace-reversed normal Gram",
+        "pass": true
+      },
+      {
+        "name": "horizontal volume squares to minus one",
+        "pass": true
+      },
+      {
+        "name": "normal Clifford commutes with horizontal volume",
+        "pass": true
+      },
+      {
+        "name": "horizontal Clifford anticommutes with volume",
+        "pass": true
+      },
+      {
+        "name": "all native Clifford squares",
+        "pass": true
+      },
+      {
+        "name": "all distinct native Clifford anticommutators",
+        "pass": true
+      },
+      {
+        "name": "candidate odd for all four tangent principal coefficients",
+        "pass": true
+      },
+      {
+        "name": "wrong trace sign rejected by principal coefficient",
+        "pass": true
+      },
+      {
+        "name": "wrong independent-scalar sign rejected by principal coefficient",
+        "pass": true
+      },
+      {
+        "name": "perpendicular scalar-output coefficient zero",
+        "pass": true
+      },
+      {
+        "name": "perpendicular sigma block has exact inverse",
+        "pass": true
+      },
+      {
+        "name": "remaining time scalar coefficient nonzero",
+        "pass": true
+      },
+      {
+        "name": "horizontal gamma of exterior C_H equals F",
+        "pass": true
+      },
+      {
+        "name": "observed sigma coefficient equals a over six",
+        "pass": true
+      },
+      {
+        "name": "observed total-trace coefficient equals five a over six",
+        "pass": true
+      },
+      {
+        "name": "torsion b block commutes with horizontal volume",
+        "pass": true
+      },
+      {
+        "name": "torsion sigma block anticommutes with horizontal volume",
+        "pass": true
+      },
+      {
+        "name": "actual mean matrix equals metric over two",
+        "pass": true
+      },
+      {
+        "name": "actual mean Clifford square minus one",
+        "pass": true
+      },
+      {
+        "name": "actual metric-trace Clifford square minus four",
+        "pass": true
+      },
+      {
+        "name": "symmetric-shape trace identity for every normal",
+        "pass": true
+      },
+      {
+        "name": "F on horizontal insertion equals mean Clifford",
+        "pass": true
+      },
+      {
+        "name": "sigma residual on insertion is exact nonzero witness",
+        "pass": true
+      },
+      {
+        "name": "sigma witness has exact inverse",
+        "pass": true
+      },
+      {
+        "name": "original total-trace residual agrees after coordinate transport",
+        "pass": true
+      },
+      {
+        "name": "total-trace witness has exact inverse",
+        "pass": true
+      },
+      {
+        "name": "omitting exterior torsion gives zero artificial defect",
+        "pass": true
+      },
+      {
+        "name": "omitted-torsion false survivor rejected by retained native witness",
+        "pass": true
+      },
+      {
+        "name": "native ambient chirality normalization",
+        "pass": true
+      },
+      {
+        "name": "ambient chirality anticommutes with all vector coefficients",
+        "pass": true
+      },
+      {
+        "name": "ambient chirality commutes with horizontal grade",
+        "pass": true
+      },
+      {
+        "name": "held chiral W inverses",
+        "pass": true
+      },
+      {
+        "name": "gamma contraction crosses the W weight",
+        "pass": true
+      },
+      {
+        "name": "held W receiver grade remains principal-odd",
+        "pass": true
+      },
+      {
+        "name": "held W row-field identity exact",
+        "pass": true
+      },
+      {
+        "name": "wrapped uniqueness perpendicular block has inverse",
+        "pass": true
+      },
+      {
+        "name": "whole observed grading defect transports under held W",
+        "pass": true
+      },
+      {
+        "name": "held W transported sigma witness equals original",
+        "pass": true
+      },
+      {
+        "name": "held W transported total-trace witness equals original",
+        "pass": true
+      },
+      {
+        "name": "literal observed b uses W not crossed Wbar",
+        "pass": true
+      }
+    ],
+    "arithmetic": "exact Fraction Clifford-word algebra; no sampled or floating rank",
+    "control_coefficients": {
+      "a": "12",
+      "c0": "-1",
+      "e": "2",
+      "g": "3"
+    },
+    "normalization": "chi_H=i times horizontal Clifford volume; computed oddness homogeneous in chi_H",
+    "witness": "original trace residual = -(5a/6) chi_H c_N(t); t^2=-4",
+    "witness_rank_over_C": 128,
+    "rank_reason": "restriction to one full spinor input has an explicit invertible Clifford output; not a full residual-rank claim",
+    "claim_ceiling": "same-input/output grading of existing K95 coherent-jet density-repaired R6-Bn0 only; no source physical chirality or class-C verdict"
+  },
+  "lean": {
+    "status": "PASS",
+    "file": "Lean/GUFormalization/SixSpinorGrading.lean",
+    "command": "lake env lean /private/tmp/gu-six-spinor-20261124/worktree/Lean/GUFormalization/SixSpinorGrading.lean",
+    "scope": "conditional finite algebra core, not complete geometric/domain formalization",
+    "sorry": false
+  },
+  "reviews": {
+    "mathematics": [
+      "wave_global_reduction",
+      "krein_index_review"
+    ],
+    "hostile_source": "wave_observation_domain",
+    "disposition": "accepted internal scope",
+    "receipt": "lab/process/hostile-reviews/2026-11-24-six-spinor-grading-review.md"
+  },
+  "localization": {
+    "native_transfer": "UNESTABLISHED",
+    "normal_L2_necessity": "UNESTABLISHED",
+    "allowed_backgrounds": "classC admits typed nonhomogeneous connections/end data but no source-selected asymptotic classification or arbitrary-potential warrant",
+    "W175_native_gap": "withdrawn; original Nov24 brief relied on it",
+    "promotion": "requires both native transfer and normal-L2 necessity; not promoted"
+  },
+  "not_excluded": [
+    "GU or full class C",
+    "source effective nonchirality/2+1",
+    "different operator/connection/normal-jet realization",
+    "distinct field/equation or source current transformation",
+    "K77",
+    "physical family count or global Fredholm domain"
+  ],
+  "scientific_statuses": "all18 constrained, joint intersection open, source and physics ledger unchanged",
+  "evidence": [
+    "explorations/conditional-build/six-spinor-grading-scope-2026-11-24.md",
+    "explorations/conditional-build/six-spinor-grading-compatibility-2026-11-24.md",
+    "explorations/conditional-build/localization-applicability-audit-2026-11-24.md",
+    "tests/program-focus/six_spinor_grading_compatibility_probe.py"
+  ],
+  "next_ready_step": "Next eligible B-slot: classify whether the six-spinor oddness obstruction survives the already-admitted metric normal-connection extensions B_n, with the actual observation, coherent-jet prescription, full principal symbol and complete exterior torsion carried together. First derive the admissibility/observation-preservation equations; do not choose a fitted connection or build the source operator. The fixed R6-Bn0 result is retained; expanding only the hidden grading commutant cannot repair it. Non-metric source connections and distinct field/equation/current grading laws remain separately typed. Localization stays demoted until both native theorem transfer and normal-L2 necessity are proved. Carry the unused count31 LC opportunity into the next regular run before further B work; recurring cadence unchanged."
+}

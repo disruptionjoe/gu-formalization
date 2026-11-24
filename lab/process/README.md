@@ -5,6 +5,10 @@ doc_type: overview
 updated_at: "2026-08-23"
 ---
 
+## Six-spinor grading (2026-11-24)
+
+[Scoped principal/torsion incompatibility](../../explorations/conditional-build/six-spinor-grading-compatibility-2026-11-24.md) excludes the declared graded reconstruction, with explicit source limits. The localization applicability audit establishes neither promotion premise.
+
 ## Localization comparator (2026-11-24)
 
 [Reconciliation and no-L2-eigenmode theorem](../../explorations/conditional-build/homogeneous-localization-comparator-2026-11-24.md) scopes the RC1/W175 spectral claims and proves the positive homogeneous Dirac/RS comparison. Native transfer remains open; no ledger verdict changed.

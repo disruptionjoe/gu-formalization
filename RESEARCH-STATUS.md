@@ -16,6 +16,22 @@ discovery bet (`lab/process/discovery-bets.json`). The K25xx--K2618 detector, pr
 results below are retained as conditional mathematics; that lane is no longer the default target. Sections
 below are dated results, newest first, and are not steering.
 
+## Six-spinor grading: scoped incompatibility (2026-11-24)
+
+For the declared K95 stable zero-SE, coherent-jet, density-repaired R6-Bn0
+reconstruction, the principal equations force one parallel observed grade.
+Its retained NW torsion has a nonzero grading defect with an injective128-spinor
+witness. The last of16 spectral hidden choices therefore cannot extend;
+changing only the hidden grading or a kernel-preserving shear cannot repair
+this same observed operator. The held constant chiral-W wrapper also preserves
+the defect. This excludes the stated exact graded realization,
+not source effective chirality, 2+1, K77, or class C.
+
+The companion localization audit establishes neither native Krein theorem
+transfer nor source normal-L2 mode necessity. W175's native gap is withdrawn,
+and the earlier Nov24 localization brief relied on that premise.
+[Result and exact scope](explorations/conditional-build/six-spinor-grading-compatibility-2026-11-24.md).
+
 ## Localization comparator and historical spectral correction (2026-11-24)
 
 RC1's formal-degree route does not establish index24 for the actual rank3

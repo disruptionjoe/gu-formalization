@@ -1,27 +1,37 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: d89b56eac67c1df293ec2782171b3cbb8c14bbbe
+revision_basis: d1cc9825ef3aaf18f7bf5c515a9e3b8302c53a0b
 program_focus:
-  version: 2026-11-24-v1
-  authority: joe_direct_chat_2026_11_24
+  version: 2026-11-24-v2
+  authority: joe_direct_chat_2026_11_24_b
   priority_packets:
+  - lab/process/work-packets/six-spinor-grading-compatibility-2026-11-24.md
   - lab/process/work-packets/observed-hidden-index-split-2026-11-20.md
   - lab/process/work-packets/native-complex-order3-fork-2026-11-20.md
   - lab/process/work-packets/localization-falsifier-2026-11-24.md
-  priority_packets_note: Rule 3a applies; these outrank the open determinant-gradient lower-rival next_run
-    until both packets are done or killed. Localization packet added2026-11-24 under Joe authority; its
-    ready steps take rule3a priority while Item1/2 remain blocked as recorded.
+  priority_packets_note: 'Joe24b: six-spinor compatibility first in eligible B slots; localization only
+    a short alongside applicability audit. Both older packets retain blockers. Existing rule1 and recurring
+    LC cadence remain prior.'
   priority_packet_selection:
     slots: B-lane slots only; run_selection rules 1 and 2 remain prior.
     order: When both have ready steps, alternate between these packets; Item 1 goes first on ties. Within
       the selected packet take its earliest ready step.
-    directed_priority_2026_11_21: Item1 native-grading decision first; step3 optional cheap T3; Item2step4 parked until a native integer observable exists. Existing rule1 and LC cadence unchanged.
-    last_served_packet: lab/process/work-packets/localization-falsifier-2026-11-24.md
-    directed_priority_2026_11_24: Localization packet steps0 then1R this manual run; later ready localization steps use B slots. Old Item1/2 blockers and their pairwise alternation rule remain unchanged; no automatic reopening.
+    directed_priority_2026_11_21: Item1 native-grading decision first; step3 optional cheap T3; Item2step4
+      parked until a native integer observable exists. Existing rule1 and LC cadence unchanged.
+    last_served_packet: lab/process/work-packets/six-spinor-grading-compatibility-2026-11-24.md
+    directed_priority_2026_11_24: Localization packet steps0 then1R this manual run; later ready localization
+      steps use B slots. Old Item1/2 blockers and their pairwise alternation rule remain unchanged; no
+      automatic reopening.
     tie_first: lab/process/work-packets/observed-hidden-index-split-2026-11-20.md
-    terminal_handling: Skip packets done or killed and steps blocked by explicit dependencies; record supporting
-      evidence. Do not infer a packet kill from an unbuilt object or unresolved hypothesis.
+    terminal_handling: Skip packets done or killed and steps blocked by explicit dependencies; record
+      supporting evidence. Do not infer a packet kill from an unbuilt object or unresolved hypothesis.
+    directed_priority_2026_11_24_b: 'Supersedes the Nov24 localization-first ordering: six-spinor principal+torsion
+      first; localization answers only3 premises and cannot be promoted until(i) native transfer and(ii)
+      normal-L2 necessity are established.'
+    directed_cadence_2026_11_24_b: This explicit manual B-run starts at count31, ordinarily an LC slot;
+      advance the counter once without LC credit and carry that unused LC opportunity to the next regular
+      run. Recurring rule2 is unchanged.
   read_first: >-
     This block steers research priority. Read it before any other part of this
     file. Older steering text below (next_condition history, the archived section of NEXT-STEPS,
@@ -92,6 +102,41 @@ program_focus:
     - writing down, enumerating, fitting or searching for a specific action, coefficient set or Lagrangian outside lane C
     - building a gated cell's missing object (source action, stabilized RS action, K3-fibered family, boundary connection) as a way to unblock it
     - more than 3 guessed action variants in one lane-C run, or tuning a guessed action's coefficients
+six_spinor_compatibility_2026_11_24:
+  status: T1_internal_scoped_realization_exclusion
+  authority: joe_direct_chat_2026_11_24_b
+  actual_delta: The R6-Bn0 K95 tangential reconstruction has no same-input/output grade descending to
+    its full six-spinor observation with horizontal chi_H. Principal equations force a unique parallel
+    receiver grade; retained NW torsion gives an injective128-spinor anticommutator witness. This excludes
+    the last F16 spectral choice and any hidden-grade or kernel-preserving-shear repair of this same realization.
+    The already-held constant chiral-W wrapper preserves the obstruction. It does not exclude source effective
+    chirality or class C. Localization native transfer and normal-L2 necessity remain unestablished; its
+    short applicability audit is complete without promotion.
+  evidence:
+  - explorations/conditional-build/six-spinor-grading-scope-2026-11-24.md
+  - explorations/conditional-build/six-spinor-grading-compatibility-2026-11-24.md
+  - explorations/conditional-build/localization-applicability-audit-2026-11-24.md
+  - lab/process/six-spinor-grading-compatibility.json
+  - tests/program-focus/six_spinor_grading_compatibility_probe.py
+  - Lean/GUFormalization/SixSpinorGrading.lean
+  - lab/process/hostile-reviews/2026-11-24-six-spinor-grading-review.md
+  claim_effect: F16-K95-spectral/R6-Bn0 same-grade realization excluded. All scientific matrix statuses/source/physics
+    ledger/class/canon unchanged.
+  next_discriminator: 'Next eligible B-slot: classify whether the six-spinor oddness obstruction survives
+    the already-admitted metric normal-connection extensions B_n, with the actual observation, coherent-jet
+    prescription, full principal symbol and complete exterior torsion carried together. First derive the
+    admissibility/observation-preservation equations; do not choose a fitted connection or build the source
+    operator. The fixed R6-Bn0 result is retained; expanding only the hidden grading commutant cannot
+    repair it. Non-metric source connections and distinct field/equation/current grading laws remain separately
+    typed. Localization stays demoted until both native theorem transfer and normal-L2 necessity are proved.
+    Carry the unused count31 LC opportunity into the next regular run before further B work; recurring
+    cadence unchanged.'
+  priority_effect: Six-spinor packet first; localization short audit completed, no promotion. Existing
+    rules/old packet states preserved.
+  counter_accounting: Directed LB-LADDER31->32; lane8->9; no LC credit. The displaced regularLC opportunity
+    is carried explicitly to next regular run.
+  held_constant_W: Excluded by explicit actual-observation transport and re-proved principal uniqueness;
+    variable weights and different field/equation grades remain outside.
 homogeneous_localization_2026_11_24:
   status: T2_reviewed_Riemannian_comparator
   authority: joe_direct_chat_2026_11_24
@@ -108,16 +153,13 @@ homogeneous_localization_2026_11_24:
   - tests/program-focus/homogeneous_localization_comparator_probe.py
   - lab/process/hostile-reviews/2026-11-24-localization-comparator-review.md
   claim_effect: No scientific matrix status, source/physics ledger, class, canon or prediction change.
-  next_discriminator: 'Localization packet step1K is the next eligible B-slot work: audit the native GL4R/O31
-    operator, pairing and closed domain separately for K95 and K77, and whether normal L2 zero modes are
-    necessary for the actual source observation. Apply T11/T13/T15; do not manufacture a source operator
-    or assume a conventional KK tower. If transfer cannot be proved, name the exact missing datum and
-    preserve the comparator theorem. LC cadence remains prior; count31 selects LC-BETS on the next regular
-    run. The prior six-spinor grading test remains available behind the packet. Both November20 packets
-    retain their blockers.'
-  priority_effect: Joe-directed packet added under existing rule3a, attached to P3/global_index and X-P1-P2-P3.
-    Prior six-spinor test retained behind it; no system rule or cadence change.
-  packet_effect: New step0 and1R done; step1K ready. Old two packets unchanged.
+  next_discriminator: 'Superseded by Joe24b: the three-premise applicability audit is complete. Native
+    transfer and source normal-L2 necessity remain unestablished; localization stays demoted until both
+    are established. See six_spinor_compatibility_2026_11_24 and the packet auditA record.'
+  priority_effect: 'Historical Nov24 ordering superseded by Joe24b: six-spinor packet first, localization
+    alongside audit only; no recurring selection-rule change.'
+  packet_effect: Steps0/1R retained done; auditA done; broader localization steps blocked on unestablished
+    promotion premises. Old two packets unchanged.
   counter_accounting: One directed LB-LADDER run30->31, lane7->8; no LC credit. Next regular slot remains
     LC-BETS.
 source_dual_grading_2026_11_24:
@@ -150,16 +192,9 @@ source_dual_grading_2026_11_24:
   - explorations/conditional-build/source-check-and-continuation-2026-11-24.md
   - lab/process/hostile-reviews/2026-11-24-source-dual-grading-review.md
   claim_effect: No scientific matrix status, source/physics ledger, class, canon or prediction change.
-  next_discriminator: 'Next eligible B-slot discriminator: on the existing B_n=0 repaired full six-spinor
-    tangential reconstruction, classify metric-compatible observed involutions with pi_b G_o=chi_H pi_b
-    that extend the surviving hidden A=+chi_H and anticommute with every tangential principal coefficient
-    AND the computed NW torsion lower term. Test the observed trace/scalar mixing explicitly; passing
-    the opposite hidden block alone is insufficient. This is a structural coefficient/intertwiner test
-    on an owned operator, not construction of a source action or physical barred map. If that specified
-    category closes, record its scope and continue to symbol-compatible alternate lifts/non-spectral grading
-    or another eligible matrix target. Preserve source non-Levi-Civita freedom and actual domain/duality
-    distinctions. Full native K/readout is not supplied; neither blocked packet reopens automatically.
-    Existing T1/packet/LC rules remain prior.'
+  next_discriminator: 'Completed by six_spinor_compatibility_2026_11_24: the remaining same-grade extension
+    is excluded in R6-Bn0, including the held constant-W transport. Do not rerun this test or enlarge
+    only its hidden sign commutant. The active packet names the next structural normal-connection discriminator.'
   priority_effect: Low-level work ordering updated from completed tests; prioritization system and all
     program_focus rules unchanged.
   packet_effect: Both priority packets retain named blockers; no automatic reopening or source-operator
