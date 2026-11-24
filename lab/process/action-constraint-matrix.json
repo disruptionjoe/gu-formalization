@@ -2094,7 +2094,7 @@
   ],
   "program_run_counter": {
     "since": "2026-11-09",
-    "count": 32,
+    "count": 33,
     "rule": "Every hourly run increments this in its postflight, whatever its lane. Lane C runs when count % 4 == 3 before the increment."
   },
   "working_rule": "Cells are worked at the structure level: a requirement must hold for every action in class C or for a structurally defined subfamily. No cell is worked by writing down a specific action, and no gated cell is worked by building its gate object. See CURRENT-STATE.yaml program_focus.structure_not_specifics.",
@@ -2204,14 +2204,28 @@
       "lane": "LB-LADDER",
       "selection": "Explicit directed B run; count31 regularLC opportunity carried, no bet credit; old cadence rule unchanged",
       "actual_delta": "The R6-Bn0 K95 tangential reconstruction has no same-input/output grade descending to its full six-spinor observation with horizontal chi_H. Principal equations force a unique parallel receiver grade; retained NW torsion gives an injective128-spinor anticommutator witness. This excludes the last F16 spectral choice and any hidden-grade or kernel-preserving-shear repair of this same realization. The already-held constant chiral-W wrapper preserves the obstruction. It does not exclude source effective chirality or class C. Localization native transfer and normal-L2 necessity remain unestablished; its short applicability audit is complete without promotion."
+    },
+    {
+      "date": "2026-11-24",
+      "authority": "joe_direct_chat_try_falsify_big_wave_2026_11_24",
+      "item": "Carried COSMOLOGY regular background/perturbation test",
+      "counter_before": 32,
+      "counter_after": 33,
+      "lane": "LC-BETS",
+      "selection": "Consumed explicit count31 carry; most remaining budget23 selected COSMOLOGY; no recurring rule change",
+      "actual_delta": "Held EXP/COS admit regular radiation backgrounds; finite-time zero momentum is generically not the exact regular branch. The constrained ideal-fluid perturbation system has three regular amplitudes, including independent scalar isocurvature, and exact Einstein constraint propagation. Negative COS mass curvature alone gives no unavoidable finite-interval inconsistency. No bet kill, full-CMB acceptance or GU inference."
     }
   ],
   "directed_lc_carry_2026_11_24_b": {
-    "status": "due",
+    "status": "consumed",
     "due_counter": 31,
     "directed_run": "RUN-20261124-gu-six-spinor-compatibility",
     "authority": "joe_direct_chat_2026_11_24_b",
-    "next_regular_run": "LC-BETS before B packet continuation; consume this one carried opportunity with the ordinary active-bet selection. Recurring rule2 is unchanged.",
-    "bet_attempt_credited": false
+    "next_regular_run": "Carry consumed; use unchanged recurring selection rules.",
+    "bet_attempt_credited": true,
+    "consumed_by": "RUN-20261124-gu-falsification-cosmology",
+    "consumed_bet": "BET-COSMOLOGY",
+    "counter_before": 32,
+    "counter_after": 33
   }
 }

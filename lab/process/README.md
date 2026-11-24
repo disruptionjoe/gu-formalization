@@ -5,6 +5,11 @@ doc_type: overview
 updated_at: "2026-08-23"
 ---
 
+## Regular scalar cosmology (2026-11-24)
+
+[Regular-state and constrained-perturbation result](../../explorations/conditional-build/bet-cosmology-regular-perturbations-2026-11-24.md) retains an independent scalar seed and the full-CMB/source limits.
+
+
 ## Six-spinor grading (2026-11-24)
 
 [Scoped principal/torsion incompatibility](../../explorations/conditional-build/six-spinor-grading-compatibility-2026-11-24.md) excludes the declared graded reconstruction, with explicit source limits. The localization applicability audit establishes neither promotion premise.

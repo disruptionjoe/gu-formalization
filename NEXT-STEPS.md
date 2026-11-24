@@ -16,6 +16,15 @@ Do not add "Current follow-through" sections or "Historical predecessor" stacks 
 matrix or bet file. The retired follow-through chain and banner stack are kept at the end of this file under
 "Archived steering history".
 
+## Cosmology: regular perturbation states (2026-11-24)
+
+The held EXP/COS comparators admit regular radiation backgrounds and three
+constrained perturbation amplitudes, including independent scalar isocurvature.
+Finite-time zero momentum is generally not the exact regular branch. The
+Einstein constraint propagates; negative scalar mass alone supplies no
+unavoidable finite-time inconsistency. No full-CMB fit, bet kill or GU verdict.
+[Result](explorations/conditional-build/bet-cosmology-regular-perturbations-2026-11-24.md).
+
 ## Six-spinor grading: scoped incompatibility (2026-11-24)
 
 For the declared K95 stable zero-SE, coherent-jet, density-repaired R6-Bn0

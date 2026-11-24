@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: d1cc9825ef3aaf18f7bf5c515a9e3b8302c53a0b
+revision_basis: 9194773daccb220187d39435ddeec8e1fc6baf25
 program_focus:
   version: 2026-11-24-v2
   authority: joe_direct_chat_2026_11_24_b
@@ -102,6 +102,26 @@ program_focus:
     - writing down, enumerating, fitting or searching for a specific action, coefficient set or Lagrangian outside lane C
     - building a gated cell's missing object (source action, stabilized RS action, K3-fibered family, boundary connection) as a way to unblock it
     - more than 3 guessed action variants in one lane-C run, or tuning a guessed action's coefficients
+bet_cosmology_regular_perturbations_2026_11_24:
+  status: T2_reviewed_conditional_comparator
+  actual_delta: Held EXP/COS admit regular radiation backgrounds; finite-time zero momentum is generically
+    not the exact regular branch. The constrained ideal-fluid perturbation system has three regular amplitudes,
+    including independent scalar isocurvature, and exact Einstein constraint propagation. Negative COS
+    mass curvature alone gives no unavoidable finite-interval inconsistency. No bet kill, full-CMB acceptance
+    or GU inference.
+  evidence:
+  - explorations/conditional-build/bet-cosmology-regular-perturbations-2026-11-24.md
+  - tests/program-focus/bet_cosmology_regular_perturbations_probe.py
+  - lab/process/bet-cosmology-regular-perturbations.json
+  - lab/process/hostile-reviews/2026-11-24-cosmology-regular-perturbations-review.md
+  claim_effect: No source/physics ledger or scientific matrix status; bet active
+  next_discriminator: Specify primordial adiabatic/isocurvature covariance and propagate these same fixed
+    potentials with actual photon/baryon/neutrino/recombination/lensing dynamics and a joint CMB likelihood.
+    No repeated BAO profile, mass-sign test or tracking-mode import substitutes for this. The native one-form/action/observation
+    bridge remains separate.
+  counter_accounting: Carried LC consumed;32->33 once; COSMOLOGY1->2,22 remaining; no B credit
+  priority_effect: Existing program_focus unchanged; native six-spinor packet remains first eligible B
+    work
 six_spinor_compatibility_2026_11_24:
   status: T1_internal_scoped_realization_exclusion
   authority: joe_direct_chat_2026_11_24_b
