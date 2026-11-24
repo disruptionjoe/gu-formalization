@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 0bf32ac8c6877e52b10cf3f13684e87ba02fcf50
+revision_basis: d7bd31e050fd92a127c2e5fd55ce49f07fb3858c
 program_focus:
   version: 2026-11-21-v1
   authority: joe_direct_chat_2026_11_21
@@ -89,6 +89,42 @@ program_focus:
     - writing down, enumerating, fitting or searching for a specific action, coefficient set or Lagrangian outside lane C
     - building a gated cell's missing object (source action, stabilized RS action, K3-fibered family, boundary connection) as a way to unblock it
     - more than 3 guessed action variants in one lane-C run, or tuning a guessed action's coefficients
+structural_compatibility_2026_11_24:
+  status: T2_reviewed_structural_premise_tests
+  actual_delta: Literal codimension10 observation is nonclosable on cutoff-stable first-order graph cores;
+    its hidden kernel is not closed. Section-only normal jets and smooth weights do not repair it. Literal
+    qF independently fails on an unrestricted L2 equation core. Tube-wide constraints and changed topologies
+    remain separate. A normal skew generator moving the negative metric trace, together with endogenous
+    Lorentz, generates so(6,4); pure-normal actual weak generators plus graph Lorentz generate the independent
+    product. The four-grade theorem applies to common fixed-object symmetry, not merely to a moving-selector
+    covariant family. For the oriented spin Lorentz metric bundle, normal U(3,2) existence reduces to
+    almost-complex existence of TX and extends over full Y. Absolute noncompact existence holds without
+    specified end/boundary reduction. Closed bases retain the integral lift/square criterion; selection
+    and operator compatibility remain open.
+  evidence:
+  - explorations/conditional-build/observation-graph-domain-2026-11-24.md
+  - lab/process/observation-graph-domain.json
+  - tests/program-focus/observation_graph_domain_probe.py
+  - explorations/conditional-build/weak-endogenous-grading-2026-11-24.md
+  - lab/process/weak-endogenous-grading.json
+  - tests/program-focus/weak_endogenous_grading_probe.py
+  - explorations/conditional-build/global-normal-complex-reduction-2026-11-24.md
+  - lab/process/global-normal-complex-reduction.json
+  - tests/program-focus/global_normal_complex_reduction_probe.py
+  - lab/process/hostile-reviews/2026-11-24-structural-compatibility-review.md
+  - explorations/conditional-build/structural-compatibility-synthesis-2026-11-24.md
+  claim_effect: No source/physics ledger, matrix scientific status, class, canon or prediction verdict
+    change.
+  next_discriminator: The supplied same-operator density-dual cross blocks remain an independent structural
+    test. For an index claim, identify both actual analytic degree spaces and continuous literal readouts;
+    section-only jets cannot supply them in ordinary graph/L2 topology. For a grading claim, distinguish
+    common fixed invariance from a moving-reduction family and its joint stabilizer. Mere absolute U(3,2)
+    existence on a noncompact spin base needs no further obstruction hunt. No source action construction,
+    blanket domain exclusion or automatic packet reopening follows.
+  packet_effect: NATIVE-GRADED-FREDHOLM-OBSERVATION remains; domain and symmetry premises sharpened; neither
+    priority packet has a new ready step.
+  counter_accounting: One LB-LADDER wave28->29, lane runs5->6. Program_focus, LC cadence and discovery
+    bets unchanged.
 bet_mass_gap_stability_topology_2026_11_24:
   status: T2_active_bet_with_stationarity_stability_topology_classification
   actual_delta: Constant compact-positive R3 stationary potentials must commute. Real L2 Cartan perturbations

@@ -1,0 +1,44 @@
+{
+  "artifact": "GLOBAL_NORMAL_COMPLEX_REDUCTION_FINITE_CONTROLS",
+  "checks_passed": 115,
+  "arithmetic": "fractions_and_F2_polynomials_only",
+  "native_gram_diagonal": [
+    -4,
+    -2,
+    -2,
+    -2,
+    12,
+    2,
+    6,
+    2,
+    2,
+    2
+  ],
+  "positive_negative_rank": [
+    6,
+    4
+  ],
+  "w2_positive_and_negative": "a*a + a*b + a*c + b*b + b*c + c*c",
+  "compact_spin_control": {
+    "base": "K3 connected sum 12(S1 x S3)",
+    "chi": 0,
+    "signature": -16,
+    "a_square": -12,
+    "c_square": -48
+  },
+  "outside_spin_negative_control": {
+    "base": "2 CP2 connected sum 2(S1 x S3)",
+    "chi": 0,
+    "signature": 2,
+    "characteristic_square_mod8": [
+      2
+    ],
+    "required_mod8": 6
+  },
+  "claim_ceiling": "Finite controls; topology is proved in the companion argument using the cited primary obstruction theorem. No source selection, domain or GU verdict.",
+  "mutations_detected": [
+    "lambda",
+    "w2",
+    "closed_square"
+  ]
+}

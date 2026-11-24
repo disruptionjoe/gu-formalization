@@ -1,0 +1,112 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "name": "lambda-half adapted inertia is six positive four negative",
+      "pass": true,
+      "kind": "support"
+    },
+    {
+      "name": "trace is negative and fixed by endogenous Lorentz",
+      "pass": true,
+      "kind": "support"
+    },
+    {
+      "name": "all induced Lorentz generators preserve actual vertical form",
+      "pass": true,
+      "kind": "support"
+    },
+    {
+      "name": "negative block has norms -2,-2,-2,-4",
+      "pass": true,
+      "kind": "support"
+    },
+    {
+      "name": "actual weak generators preserve the six-plus-four metric",
+      "pass": true,
+      "kind": "support"
+    },
+    {
+      "name": "each weak generator squares to minus negative-plane projector",
+      "pass": true,
+      "kind": "support"
+    },
+    {
+      "name": "quaternionic weak su2 brackets",
+      "pass": true,
+      "kind": "support"
+    },
+    {
+      "name": "every nonzero displayed weak generator moves the negative trace",
+      "pass": true,
+      "kind": "support"
+    },
+    {
+      "name": "separating Casimir extracts exactly trace-moving weak component",
+      "pass": true,
+      "kind": "support"
+    },
+    {
+      "name": "Lorentz orbit of extracted trace motion spans all nine directions",
+      "pass": true,
+      "kind": "support"
+    },
+    {
+      "name": "trace-motion brackets span entire so(6,3) stabilizer",
+      "pass": true,
+      "kind": "support"
+    },
+    {
+      "name": "all bracket directions fix trace",
+      "pass": true,
+      "kind": "support"
+    },
+    {
+      "name": "trace motion plus brackets give all so(6,4)",
+      "pass": true,
+      "kind": "support"
+    },
+    {
+      "name": "wedge-square traceless-nine branching has no (2,2)",
+      "pass": true,
+      "kind": "support"
+    },
+    {
+      "name": "Casimir eigenvalues separate nine from trace stabilizer",
+      "pass": true,
+      "kind": "support"
+    },
+    {
+      "name": "CONTROL chosen Cartan grading commutes with fixed weak",
+      "pass": true,
+      "kind": "countercontrol"
+    },
+    {
+      "name": "CONTROL same Cartan grading does not commute with endogenous boosts",
+      "pass": true,
+      "kind": "countercontrol"
+    },
+    {
+      "name": "CONTROL endogenous Lorentz alone has dimension six",
+      "pass": true,
+      "kind": "countercontrol"
+    },
+    {
+      "name": "all generated matrices remain metric-skew",
+      "pass": true,
+      "kind": "support"
+    }
+  ],
+  "passed": 19,
+  "total": 19,
+  "orbit_ranks": [
+    1,
+    6,
+    9,
+    9
+  ],
+  "trace_motion_rank": 9,
+  "trace_stabilizer_rank": 36,
+  "normal_closure_rank": 45,
+  "claim_ceiling": "Fixed-object common equivariance only; no selected native physical grading, domain or family index."
+}

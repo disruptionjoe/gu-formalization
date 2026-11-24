@@ -5,6 +5,12 @@ doc_type: overview
 updated_at: "2026-08-23"
 ---
 
+## Structural compatibility evidence (2026-11-24)
+
+- [Observation controls](observation-graph-domain.json), [weak/endogenous symmetry controls](weak-endogenous-grading.json), and [global-reduction controls](global-normal-complex-reduction.json).
+- [Independent review and corrections](hostile-reviews/2026-11-24-structural-compatibility-review.md).
+
+
 
 ## Observed/hidden and order-3 packets (2026-11-20)
 

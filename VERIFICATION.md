@@ -17,6 +17,22 @@ External review is not a pathway in this program. The honesty label stays: inter
 
 Sections below are historical snapshots in file order.
 
+## Observation, symmetry and global reduction (2026-11-24)
+
+Literal thin observation is nonclosable on the tested first-order graph/L2
+cores; section-only jets and smooth weights do not repair either degree map.
+Actual geometric weak symmetry restores the four-grade restriction when one
+fixed object respects both weak and endogenous Lorentz actions. Moving-selector
+covariance remains a different condition. On noncompact spin four-bases,
+absolute global normal U(3,2) existence holds without prescribed end data;
+closed backgrounds retain an integral topological criterion.
+
+These are internally reviewed T2 structural results. Joint realization stays
+open; source/physics ledger and all matrix scientific statuses are unchanged.
+[Joint result](explorations/conditional-build/structural-compatibility-synthesis-2026-11-24.md).
+
+Exact checks:46 observation,19 symmetry,115 topology; two symmetry and three topology planted-failure controls detected. Written proofs and independent review establish the stated scope; no Lean or native-domain certification is claimed.
+
 ## Mass-gap discovery: stationarity, stability and topology (2026-11-24)
 
 In the existing speculative compact-positive Yang-Mills family, spatially

@@ -5,6 +5,14 @@ doc_type: overview
 updated_at: "2026-08-21"
 ---
 
+## Structural compatibility (2026-11-24)
+
+- [Joint result and retained research opportunities](../explorations/conditional-build/structural-compatibility-synthesis-2026-11-24.md).
+- [Observation graph domains](../explorations/conditional-build/observation-graph-domain-2026-11-24.md).
+- [Actual weak/endogenous symmetry](../explorations/conditional-build/weak-endogenous-grading-2026-11-24.md).
+- [Global normal complex reduction](../explorations/conditional-build/global-normal-complex-reduction-2026-11-24.md).
+
+
 
 ## Observed/hidden and order-3 scope audits (2026-11-20)
 

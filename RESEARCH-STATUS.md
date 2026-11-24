@@ -16,6 +16,20 @@ discovery bet (`lab/process/discovery-bets.json`). The K25xx--K2618 detector, pr
 results below are retained as conditional mathematics; that lane is no longer the default target. Sections
 below are dated results, newest first, and are not steering.
 
+## Observation, symmetry and global reduction (2026-11-24)
+
+Literal thin observation is nonclosable on the tested first-order graph/L2
+cores; section-only jets and smooth weights do not repair either degree map.
+Actual geometric weak symmetry restores the four-grade restriction when one
+fixed object respects both weak and endogenous Lorentz actions. Moving-selector
+covariance remains a different condition. On noncompact spin four-bases,
+absolute global normal U(3,2) existence holds without prescribed end data;
+closed backgrounds retain an integral topological criterion.
+
+These are internally reviewed T2 structural results. Joint realization stays
+open; source/physics ledger and all matrix scientific statuses are unchanged.
+[Joint result](explorations/conditional-build/structural-compatibility-synthesis-2026-11-24.md).
+
 ## Mass-gap discovery: stationarity, stability and topology (2026-11-24)
 
 In the existing speculative compact-positive Yang-Mills family, spatially
