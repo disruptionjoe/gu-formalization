@@ -17,6 +17,18 @@ External review is not a pathway in this program. The honesty label stays: inter
 
 Sections below are historical snapshots in file order.
 
+## Metric-normal family and surviving ambient grade (2026-11-24)
+
+Every metric normal extension of the held six-spinor construction either fails
+actual observation descent or fails its prescribed horizontal-grade law. The
+exhaustive quotient-preserving family has 64 parameters inside the 910-dimensional metric-value space.
+A distinct ambient-correlated grade survives the complete metric-spin operator.
+This is a named-family exclusion, with no GU or effective-chirality verdict.
+[Family theorem](explorations/conditional-build/metric-normal-family-grading-2026-11-24.md)
+and [ambient countercontrol](explorations/conditional-build/ambient-correlated-grading-control-2026-11-24.md).
+
+Two mathematical and one hostile source lenses accepted;344 exact controls and conditional Lean core pass.
+
 ## Cosmology: regular perturbation states (2026-11-24)
 
 The held EXP/COS comparators admit regular radiation backgrounds and three

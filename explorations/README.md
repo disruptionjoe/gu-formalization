@@ -5,6 +5,11 @@ doc_type: overview
 updated_at: "2026-08-21"
 ---
 
+## Metric-normal family (2026-11-24)
+
+[Exhaustive metric-normal result](../explorations/conditional-build/metric-normal-family-grading-2026-11-24.md) and [ambient grading countercontrol](../explorations/conditional-build/ambient-correlated-grading-control-2026-11-24.md): horizontal realization excluded, distinct correlated grade survives.
+
+
 ## Regular scalar cosmology (2026-11-24)
 
 [Regular-state and constrained-perturbation result](../explorations/conditional-build/bet-cosmology-regular-perturbations-2026-11-24.md) retains an independent scalar seed and the full-CMB/source limits.

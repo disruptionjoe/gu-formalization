@@ -1,7 +1,7 @@
 ---
 title: Six-spinor surviving-grading compatibility
 status: process
-operational_state: active
+operational_state: done
 doc_type: work-packet
 created: '2026-11-24'
 classification: INTERNAL_STRUCTURAL_ONLY
@@ -21,7 +21,7 @@ classification: INTERNAL_STRUCTURAL_ONLY
 Joe24b puts this first in eligible B slots. Existing T1-first and regular LC cadence remain. This is one structural realization test, not source-operator construction.
 
 ```yaml
-packet_status: active
+packet_status: done
 authority: joe_direct_chat_2026_11_24_b
 target: X-P1-P2-P3
 secondary_target: P3xglobal_index
@@ -79,7 +79,7 @@ steps:
     chirality or class C. Localization native transfer and normal-L2 necessity remain unestablished; its
     short applicability audit is complete without promotion.
 - id: 3
-  status: ready
+  status: done
   target: X-P1-P2-P3
   tier: T2; T1 if scoped exclusion
   expected_delta: Determine whether admitted metric normal-connection extensions preserve or remove the
@@ -96,5 +96,19 @@ steps:
     opportunity into the next regular run before further B work; recurring cadence unchanged.'
   depends_on:
   - 2
-next_step: 3
+  actual_delta: 'The entire 910-dimensional space of metric normal-connection values in R6-metric-normal-coherent is classified: full
+    observation descends exactly on a 64-dimensional family, and horizontal-grade oddness there forces
+    the native nonzero shape to vanish. Thus no metric normal extension repairs this horizontal realization.
+    A distinct ambient-correlated grading survives the same metric-spin operator and admissible observation.
+    No GU/classC/effective-chirality exclusion follows.'
+  evidence:
+  - explorations/conditional-build/metric-normal-family-grading-2026-11-24.md
+  - explorations/conditional-build/ambient-correlated-grading-control-2026-11-24.md
+  - tests/program-focus/metric_normal_grading_probe.py
+  - Lean/GUFormalization/MetricNormalGradingCore.lean
+  - lab/process/metric-normal-family-grading.json
+  - lab/process/hostile-reviews/2026-11-24-metric-normal-family-review.md
+next_step: null
+completion: Existing step3 settled; no adjacent-realization step appended. Ordinary selection continues
+  under unchanged program_focus.
 ```

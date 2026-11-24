@@ -324,6 +324,20 @@
           "Lean/GUFormalization/SixSpinorGrading.lean",
           "lab/process/hostile-reviews/2026-11-24-six-spinor-grading-review.md"
         ]
+      },
+      "metric_normal_family_2026_11_24": {
+        "tier": "T1 scoped internal family exclusion",
+        "actual_delta": "The entire 910-dimensional space of metric normal-connection values in R6-metric-normal-coherent is classified: full observation descends exactly on a 64-dimensional family, and horizontal-grade oddness there forces the native nonzero shape to vanish. Thus no metric normal extension repairs this horizontal realization. A distinct ambient-correlated grading survives the same metric-spin operator and admissible observation. No GU/classC/effective-chirality exclusion follows.",
+        "source_necessity": "unproved; source effective claim is distinct",
+        "status_effect": "unchanged; no allC or source verdict",
+        "evidence": [
+          "explorations/conditional-build/metric-normal-family-grading-2026-11-24.md",
+          "explorations/conditional-build/ambient-correlated-grading-control-2026-11-24.md",
+          "tests/program-focus/metric_normal_grading_probe.py",
+          "Lean/GUFormalization/MetricNormalGradingCore.lean",
+          "lab/process/metric-normal-family-grading.json",
+          "lab/process/hostile-reviews/2026-11-24-metric-normal-family-review.md"
+        ]
       }
     },
     {
@@ -1196,7 +1210,7 @@
         "lab/process/work-packets/observed-hidden-index-split-2026-11-20.md",
         "lab/process/work-packets/localization-falsifier-2026-11-24.md"
       ],
-      "packet_selection": "Joe24b: scoped six-spinor test completed; next structural extension ready, old packets blocked. Localization audit complete, no promotion. Due LC carry remains prior.",
+      "packet_selection": "Six-spinor packet0-3 completed; older packet blockers retained. CarriedLC consumed. Ordinary selection continues; no new governance.",
       "homogeneous_localization_2026_11_24": {
         "tier": "T2",
         "actual_delta": "RC1 formal-degree/count and W175 native gap/Fredholm imports are unsupported for the stated metric pair. A separate theorem excludes all L2 eigenmodes for finite-rank positive homogeneous selfadjoint first-order elliptic operators on SL4R/SO4, and for first-order translation-invariant elliptic operators on its full-line product. Intrinsic Dirac and RS are covered; positive ambient Pi14 is conditional on the stated Hilbert realization. No native Krein transfer, numerical spectral gap or P3 emptiness follows.",
@@ -1223,6 +1237,20 @@
           "Lean/GUFormalization/SixSpinorGrading.lean",
           "lab/process/hostile-reviews/2026-11-24-six-spinor-grading-review.md"
         ]
+      },
+      "metric_normal_family_2026_11_24": {
+        "tier": "T1 scoped internal family exclusion",
+        "actual_delta": "The entire 910-dimensional space of metric normal-connection values in R6-metric-normal-coherent is classified: full observation descends exactly on a 64-dimensional family, and horizontal-grade oddness there forces the native nonzero shape to vanish. Thus no metric normal extension repairs this horizontal realization. A distinct ambient-correlated grading survives the same metric-spin operator and admissible observation. No GU/classC/effective-chirality exclusion follows.",
+        "source_necessity": "unproved; source effective claim is distinct",
+        "status_effect": "unchanged; no allC or source verdict",
+        "evidence": [
+          "explorations/conditional-build/metric-normal-family-grading-2026-11-24.md",
+          "explorations/conditional-build/ambient-correlated-grading-control-2026-11-24.md",
+          "tests/program-focus/metric_normal_grading_probe.py",
+          "Lean/GUFormalization/MetricNormalGradingCore.lean",
+          "lab/process/metric-normal-family-grading.json",
+          "lab/process/hostile-reviews/2026-11-24-metric-normal-family-review.md"
+        ]
       }
     }
   ],
@@ -1239,7 +1267,7 @@
     },
     "LB-LADDER": {
       "zero_delta_streak": 0,
-      "runs": 9,
+      "runs": 10,
       "status": "open"
     }
   },
@@ -2094,7 +2122,7 @@
   ],
   "program_run_counter": {
     "since": "2026-11-09",
-    "count": 33,
+    "count": 34,
     "rule": "Every hourly run increments this in its postflight, whatever its lane. Lane C runs when count % 4 == 3 before the increment."
   },
   "working_rule": "Cells are worked at the structure level: a requirement must hold for every action in class C or for a structurally defined subfamily. No cell is worked by writing down a specific action, and no gated cell is worked by building its gate object. See CURRENT-STATE.yaml program_focus.structure_not_specifics.",
@@ -2214,6 +2242,15 @@
       "lane": "LC-BETS",
       "selection": "Consumed explicit count31 carry; most remaining budget23 selected COSMOLOGY; no recurring rule change",
       "actual_delta": "Held EXP/COS admit regular radiation backgrounds; finite-time zero momentum is generically not the exact regular branch. The constrained ideal-fluid perturbation system has three regular amplitudes, including independent scalar isocurvature, and exact Einstein constraint propagation. Negative COS mass curvature alone gives no unavoidable finite-interval inconsistency. No bet kill, full-CMB acceptance or GU inference."
+    },
+    {
+      "date": "2026-11-24",
+      "authority": "joe_direct_chat_try_falsify_big_wave_2026_11_24",
+      "item": "Metric-normal class and ambient-grade countercontrol",
+      "counter_before": 33,
+      "counter_after": 34,
+      "lane": "LB-LADDER",
+      "actual_delta": "The entire 910-dimensional space of metric normal-connection values in R6-metric-normal-coherent is classified: full observation descends exactly on a 64-dimensional family, and horizontal-grade oddness there forces the native nonzero shape to vanish. Thus no metric normal extension repairs this horizontal realization. A distinct ambient-correlated grading survives the same metric-spin operator and admissible observation. No GU/classC/effective-chirality exclusion follows."
     }
   ],
   "directed_lc_carry_2026_11_24_b": {

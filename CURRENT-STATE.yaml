@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 9194773daccb220187d39435ddeec8e1fc6baf25
+revision_basis: d00453308b4adafba2f3cad429175a59c5a28cc8
 program_focus:
   version: 2026-11-24-v2
   authority: joe_direct_chat_2026_11_24_b
@@ -102,6 +102,27 @@ program_focus:
     - writing down, enumerating, fitting or searching for a specific action, coefficient set or Lagrangian outside lane C
     - building a gated cell's missing object (source action, stabilized RS action, K3-fibered family, boundary connection) as a way to unblock it
     - more than 3 guessed action variants in one lane-C run, or tuning a guessed action's coefficients
+metric_normal_family_2026_11_24:
+  status: T1_scoped_family_exclusion_with_T2_ambient_countercontrol
+  actual_delta: 'The entire 910-dimensional space of metric normal-connection values in R6-metric-normal-coherent is classified: full
+    observation descends exactly on a 64-dimensional family, and horizontal-grade oddness there forces
+    the native nonzero shape to vanish. Thus no metric normal extension repairs this horizontal realization.
+    A distinct ambient-correlated grading survives the same metric-spin operator and admissible observation.
+    No GU/classC/effective-chirality exclusion follows.'
+  evidence:
+  - explorations/conditional-build/metric-normal-family-grading-2026-11-24.md
+  - explorations/conditional-build/ambient-correlated-grading-control-2026-11-24.md
+  - tests/program-focus/metric_normal_grading_probe.py
+  - Lean/GUFormalization/MetricNormalGradingCore.lean
+  - lab/process/metric-normal-family-grading.json
+  - lab/process/hostile-reviews/2026-11-24-metric-normal-family-review.md
+  claim_effect: No GU/classC/effective-chirality/source/physicsledger/canon verdict
+  next_discriminator: The metric-normal repair question is settled. The remaining source bridge is the
+    actual weak/luminous current projector and its independently required effective law; generic low-mass
+    bounds and geometric weak transport were already studied November13. Ordinary existing selection continues;
+    Joe24e class-method/governance proposals remain unapproved and are not implemented.
+  counter_accounting: 33->34 once; LB-LADDER9->10; no betcredit; rules unchanged
+  packet_effect: six-spinor0-3 done; no new step or priority edit
 bet_cosmology_regular_perturbations_2026_11_24:
   status: T2_reviewed_conditional_comparator
   actual_delta: Held EXP/COS admit regular radiation backgrounds; finite-time zero momentum is generically
@@ -142,15 +163,7 @@ six_spinor_compatibility_2026_11_24:
   - lab/process/hostile-reviews/2026-11-24-six-spinor-grading-review.md
   claim_effect: F16-K95-spectral/R6-Bn0 same-grade realization excluded. All scientific matrix statuses/source/physics
     ledger/class/canon unchanged.
-  next_discriminator: 'Next eligible B-slot: classify whether the six-spinor oddness obstruction survives
-    the already-admitted metric normal-connection extensions B_n, with the actual observation, coherent-jet
-    prescription, full principal symbol and complete exterior torsion carried together. First derive the
-    admissibility/observation-preservation equations; do not choose a fitted connection or build the source
-    operator. The fixed R6-Bn0 result is retained; expanding only the hidden grading commutant cannot
-    repair it. Non-metric source connections and distinct field/equation/current grading laws remain separately
-    typed. Localization stays demoted until both native theorem transfer and normal-L2 necessity are proved.
-    Carry the unused count31 LC opportunity into the next regular run before further B work; recurring
-    cadence unchanged.'
+  next_discriminator: COMPLETED by metric_normal_family_2026_11_24; prior suggested extension is historical.
   priority_effect: Six-spinor packet first; localization short audit completed, no promotion. Existing
     rules/old packet states preserved.
   counter_accounting: Directed LB-LADDER31->32; lane8->9; no LC credit. The displaced regularLC opportunity

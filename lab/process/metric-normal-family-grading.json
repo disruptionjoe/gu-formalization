@@ -1,0 +1,1433 @@
+{
+  "schema_version": "1.0",
+  "date": "2026-11-24",
+  "base_revision": "d00453308b4adafba2f3cad429175a59c5a28cc8",
+  "target": "X-P1-P2-P3",
+  "tier": "T1_internal_scoped_family",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "status": "REVIEWED_NAMED_FAMILY_EXCLUSION_WITH_AMBIENT_COUNTERCONTROL",
+  "actual_delta": "The entire 910-dimensional space of metric normal-connection values in R6-metric-normal-coherent is classified: full observation descends exactly on a 64-dimensional family, and horizontal-grade oddness there forces the native nonzero shape to vanish. Thus no metric normal extension repairs this horizontal realization. A distinct ambient-correlated grading survives the same metric-spin operator and admissible observation. No GU/classC/effective-chirality exclusion follows.",
+  "exact_probe": {
+    "status": "PASS",
+    "checks_passed": 344,
+    "checks": [
+      {
+        "name": "native trace-reversed normal Gram",
+        "pass": true
+      },
+      {
+        "name": "horizontal volume squares to minus one",
+        "pass": true
+      },
+      {
+        "name": "normal Clifford commutes with horizontal volume",
+        "pass": true
+      },
+      {
+        "name": "horizontal Clifford anticommutes with volume",
+        "pass": true
+      },
+      {
+        "name": "all native Clifford squares",
+        "pass": true
+      },
+      {
+        "name": "all distinct native Clifford anticommutators",
+        "pass": true
+      },
+      {
+        "name": "actual mean Clifford square minus one",
+        "pass": true
+      },
+      {
+        "name": "ambient grade has square one",
+        "pass": true
+      },
+      {
+        "name": "ambient and horizontal grades differ",
+        "pass": true
+      },
+      {
+        "name": "base full connection is metric",
+        "pass": true
+      },
+      {
+        "name": "base quotient closure retained",
+        "pass": true
+      },
+      {
+        "name": "base lower formula retained",
+        "pass": true
+      },
+      {
+        "name": "base horizontal grading defect nonzero",
+        "pass": true
+      },
+      {
+        "name": "base ambient grading survives",
+        "pass": true
+      },
+      {
+        "name": "weighted base scalar trace is zero",
+        "pass": true
+      },
+      {
+        "name": "A[0;0,1] metric and all quotient rows",
+        "pass": true
+      },
+      {
+        "name": "A[0;0,1] complete observed lower formula",
+        "pass": true
+      },
+      {
+        "name": "A[0;0,1] horizontal trace contraction identity",
+        "pass": true
+      },
+      {
+        "name": "A[0;0,1] fixed mean degree one remains",
+        "pass": true
+      },
+      {
+        "name": "A[0;0,1] horizontal fails and ambient survives",
+        "pass": true
+      },
+      {
+        "name": "A[0;0,2] metric and all quotient rows",
+        "pass": true
+      },
+      {
+        "name": "A[0;0,2] complete observed lower formula",
+        "pass": true
+      },
+      {
+        "name": "A[0;0,2] horizontal trace contraction identity",
+        "pass": true
+      },
+      {
+        "name": "A[0;0,2] fixed mean degree one remains",
+        "pass": true
+      },
+      {
+        "name": "A[0;0,2] horizontal fails and ambient survives",
+        "pass": true
+      },
+      {
+        "name": "A[0;0,3] metric and all quotient rows",
+        "pass": true
+      },
+      {
+        "name": "A[0;0,3] complete observed lower formula",
+        "pass": true
+      },
+      {
+        "name": "A[0;0,3] horizontal trace contraction identity",
+        "pass": true
+      },
+      {
+        "name": "A[0;0,3] fixed mean degree one remains",
+        "pass": true
+      },
+      {
+        "name": "A[0;0,3] horizontal fails and ambient survives",
+        "pass": true
+      },
+      {
+        "name": "A[0;1,2] metric and all quotient rows",
+        "pass": true
+      },
+      {
+        "name": "A[0;1,2] complete observed lower formula",
+        "pass": true
+      },
+      {
+        "name": "A[0;1,2] horizontal trace contraction identity",
+        "pass": true
+      },
+      {
+        "name": "A[0;1,2] fixed mean degree one remains",
+        "pass": true
+      },
+      {
+        "name": "A[0;1,2] horizontal fails and ambient survives",
+        "pass": true
+      },
+      {
+        "name": "A[0;1,3] metric and all quotient rows",
+        "pass": true
+      },
+      {
+        "name": "A[0;1,3] complete observed lower formula",
+        "pass": true
+      },
+      {
+        "name": "A[0;1,3] horizontal trace contraction identity",
+        "pass": true
+      },
+      {
+        "name": "A[0;1,3] fixed mean degree one remains",
+        "pass": true
+      },
+      {
+        "name": "A[0;1,3] horizontal fails and ambient survives",
+        "pass": true
+      },
+      {
+        "name": "A[0;2,3] metric and all quotient rows",
+        "pass": true
+      },
+      {
+        "name": "A[0;2,3] complete observed lower formula",
+        "pass": true
+      },
+      {
+        "name": "A[0;2,3] horizontal trace contraction identity",
+        "pass": true
+      },
+      {
+        "name": "A[0;2,3] fixed mean degree one remains",
+        "pass": true
+      },
+      {
+        "name": "A[0;2,3] horizontal fails and ambient survives",
+        "pass": true
+      },
+      {
+        "name": "A[1;0,1] metric and all quotient rows",
+        "pass": true
+      },
+      {
+        "name": "A[1;0,1] complete observed lower formula",
+        "pass": true
+      },
+      {
+        "name": "A[1;0,1] horizontal trace contraction identity",
+        "pass": true
+      },
+      {
+        "name": "A[1;0,1] fixed mean degree one remains",
+        "pass": true
+      },
+      {
+        "name": "A[1;0,1] horizontal fails and ambient survives",
+        "pass": true
+      },
+      {
+        "name": "A[1;0,2] metric and all quotient rows",
+        "pass": true
+      },
+      {
+        "name": "A[1;0,2] complete observed lower formula",
+        "pass": true
+      },
+      {
+        "name": "A[1;0,2] horizontal trace contraction identity",
+        "pass": true
+      },
+      {
+        "name": "A[1;0,2] fixed mean degree one remains",
+        "pass": true
+      },
+      {
+        "name": "A[1;0,2] horizontal fails and ambient survives",
+        "pass": true
+      },
+      {
+        "name": "A[1;0,3] metric and all quotient rows",
+        "pass": true
+      },
+      {
+        "name": "A[1;0,3] complete observed lower formula",
+        "pass": true
+      },
+      {
+        "name": "A[1;0,3] horizontal trace contraction identity",
+        "pass": true
+      },
+      {
+        "name": "A[1;0,3] fixed mean degree one remains",
+        "pass": true
+      },
+      {
+        "name": "A[1;0,3] horizontal fails and ambient survives",
+        "pass": true
+      },
+      {
+        "name": "A[1;1,2] metric and all quotient rows",
+        "pass": true
+      },
+      {
+        "name": "A[1;1,2] complete observed lower formula",
+        "pass": true
+      },
+      {
+        "name": "A[1;1,2] horizontal trace contraction identity",
+        "pass": true
+      },
+      {
+        "name": "A[1;1,2] fixed mean degree one remains",
+        "pass": true
+      },
+      {
+        "name": "A[1;1,2] horizontal fails and ambient survives",
+        "pass": true
+      },
+      {
+        "name": "A[1;1,3] metric and all quotient rows",
+        "pass": true
+      },
+      {
+        "name": "A[1;1,3] complete observed lower formula",
+        "pass": true
+      },
+      {
+        "name": "A[1;1,3] horizontal trace contraction identity",
+        "pass": true
+      },
+      {
+        "name": "A[1;1,3] fixed mean degree one remains",
+        "pass": true
+      },
+      {
+        "name": "A[1;1,3] horizontal fails and ambient survives",
+        "pass": true
+      },
+      {
+        "name": "A[1;2,3] metric and all quotient rows",
+        "pass": true
+      },
+      {
+        "name": "A[1;2,3] complete observed lower formula",
+        "pass": true
+      },
+      {
+        "name": "A[1;2,3] horizontal trace contraction identity",
+        "pass": true
+      },
+      {
+        "name": "A[1;2,3] fixed mean degree one remains",
+        "pass": true
+      },
+      {
+        "name": "A[1;2,3] horizontal fails and ambient survives",
+        "pass": true
+      },
+      {
+        "name": "A[2;0,1] metric and all quotient rows",
+        "pass": true
+      },
+      {
+        "name": "A[2;0,1] complete observed lower formula",
+        "pass": true
+      },
+      {
+        "name": "A[2;0,1] horizontal trace contraction identity",
+        "pass": true
+      },
+      {
+        "name": "A[2;0,1] fixed mean degree one remains",
+        "pass": true
+      },
+      {
+        "name": "A[2;0,1] horizontal fails and ambient survives",
+        "pass": true
+      },
+      {
+        "name": "A[2;0,2] metric and all quotient rows",
+        "pass": true
+      },
+      {
+        "name": "A[2;0,2] complete observed lower formula",
+        "pass": true
+      },
+      {
+        "name": "A[2;0,2] horizontal trace contraction identity",
+        "pass": true
+      },
+      {
+        "name": "A[2;0,2] fixed mean degree one remains",
+        "pass": true
+      },
+      {
+        "name": "A[2;0,2] horizontal fails and ambient survives",
+        "pass": true
+      },
+      {
+        "name": "A[2;0,3] metric and all quotient rows",
+        "pass": true
+      },
+      {
+        "name": "A[2;0,3] complete observed lower formula",
+        "pass": true
+      },
+      {
+        "name": "A[2;0,3] horizontal trace contraction identity",
+        "pass": true
+      },
+      {
+        "name": "A[2;0,3] fixed mean degree one remains",
+        "pass": true
+      },
+      {
+        "name": "A[2;0,3] horizontal fails and ambient survives",
+        "pass": true
+      },
+      {
+        "name": "A[2;1,2] metric and all quotient rows",
+        "pass": true
+      },
+      {
+        "name": "A[2;1,2] complete observed lower formula",
+        "pass": true
+      },
+      {
+        "name": "A[2;1,2] horizontal trace contraction identity",
+        "pass": true
+      },
+      {
+        "name": "A[2;1,2] fixed mean degree one remains",
+        "pass": true
+      },
+      {
+        "name": "A[2;1,2] horizontal fails and ambient survives",
+        "pass": true
+      },
+      {
+        "name": "A[2;1,3] metric and all quotient rows",
+        "pass": true
+      },
+      {
+        "name": "A[2;1,3] complete observed lower formula",
+        "pass": true
+      },
+      {
+        "name": "A[2;1,3] horizontal trace contraction identity",
+        "pass": true
+      },
+      {
+        "name": "A[2;1,3] fixed mean degree one remains",
+        "pass": true
+      },
+      {
+        "name": "A[2;1,3] horizontal fails and ambient survives",
+        "pass": true
+      },
+      {
+        "name": "A[2;2,3] metric and all quotient rows",
+        "pass": true
+      },
+      {
+        "name": "A[2;2,3] complete observed lower formula",
+        "pass": true
+      },
+      {
+        "name": "A[2;2,3] horizontal trace contraction identity",
+        "pass": true
+      },
+      {
+        "name": "A[2;2,3] fixed mean degree one remains",
+        "pass": true
+      },
+      {
+        "name": "A[2;2,3] horizontal fails and ambient survives",
+        "pass": true
+      },
+      {
+        "name": "A[3;0,1] metric and all quotient rows",
+        "pass": true
+      },
+      {
+        "name": "A[3;0,1] complete observed lower formula",
+        "pass": true
+      },
+      {
+        "name": "A[3;0,1] horizontal trace contraction identity",
+        "pass": true
+      },
+      {
+        "name": "A[3;0,1] fixed mean degree one remains",
+        "pass": true
+      },
+      {
+        "name": "A[3;0,1] horizontal fails and ambient survives",
+        "pass": true
+      },
+      {
+        "name": "A[3;0,2] metric and all quotient rows",
+        "pass": true
+      },
+      {
+        "name": "A[3;0,2] complete observed lower formula",
+        "pass": true
+      },
+      {
+        "name": "A[3;0,2] horizontal trace contraction identity",
+        "pass": true
+      },
+      {
+        "name": "A[3;0,2] fixed mean degree one remains",
+        "pass": true
+      },
+      {
+        "name": "A[3;0,2] horizontal fails and ambient survives",
+        "pass": true
+      },
+      {
+        "name": "A[3;0,3] metric and all quotient rows",
+        "pass": true
+      },
+      {
+        "name": "A[3;0,3] complete observed lower formula",
+        "pass": true
+      },
+      {
+        "name": "A[3;0,3] horizontal trace contraction identity",
+        "pass": true
+      },
+      {
+        "name": "A[3;0,3] fixed mean degree one remains",
+        "pass": true
+      },
+      {
+        "name": "A[3;0,3] horizontal fails and ambient survives",
+        "pass": true
+      },
+      {
+        "name": "A[3;1,2] metric and all quotient rows",
+        "pass": true
+      },
+      {
+        "name": "A[3;1,2] complete observed lower formula",
+        "pass": true
+      },
+      {
+        "name": "A[3;1,2] horizontal trace contraction identity",
+        "pass": true
+      },
+      {
+        "name": "A[3;1,2] fixed mean degree one remains",
+        "pass": true
+      },
+      {
+        "name": "A[3;1,2] horizontal fails and ambient survives",
+        "pass": true
+      },
+      {
+        "name": "A[3;1,3] metric and all quotient rows",
+        "pass": true
+      },
+      {
+        "name": "A[3;1,3] complete observed lower formula",
+        "pass": true
+      },
+      {
+        "name": "A[3;1,3] horizontal trace contraction identity",
+        "pass": true
+      },
+      {
+        "name": "A[3;1,3] fixed mean degree one remains",
+        "pass": true
+      },
+      {
+        "name": "A[3;1,3] horizontal fails and ambient survives",
+        "pass": true
+      },
+      {
+        "name": "A[3;2,3] metric and all quotient rows",
+        "pass": true
+      },
+      {
+        "name": "A[3;2,3] complete observed lower formula",
+        "pass": true
+      },
+      {
+        "name": "A[3;2,3] horizontal trace contraction identity",
+        "pass": true
+      },
+      {
+        "name": "A[3;2,3] fixed mean degree one remains",
+        "pass": true
+      },
+      {
+        "name": "A[3;2,3] horizontal fails and ambient survives",
+        "pass": true
+      },
+      {
+        "name": "A[4;0,1] metric and all quotient rows",
+        "pass": true
+      },
+      {
+        "name": "A[4;0,1] complete observed lower formula",
+        "pass": true
+      },
+      {
+        "name": "A[4;0,1] horizontal trace contraction identity",
+        "pass": true
+      },
+      {
+        "name": "A[4;0,1] fixed mean degree one remains",
+        "pass": true
+      },
+      {
+        "name": "A[4;0,1] horizontal fails and ambient survives",
+        "pass": true
+      },
+      {
+        "name": "A[4;0,2] metric and all quotient rows",
+        "pass": true
+      },
+      {
+        "name": "A[4;0,2] complete observed lower formula",
+        "pass": true
+      },
+      {
+        "name": "A[4;0,2] horizontal trace contraction identity",
+        "pass": true
+      },
+      {
+        "name": "A[4;0,2] fixed mean degree one remains",
+        "pass": true
+      },
+      {
+        "name": "A[4;0,2] horizontal fails and ambient survives",
+        "pass": true
+      },
+      {
+        "name": "A[4;0,3] metric and all quotient rows",
+        "pass": true
+      },
+      {
+        "name": "A[4;0,3] complete observed lower formula",
+        "pass": true
+      },
+      {
+        "name": "A[4;0,3] horizontal trace contraction identity",
+        "pass": true
+      },
+      {
+        "name": "A[4;0,3] fixed mean degree one remains",
+        "pass": true
+      },
+      {
+        "name": "A[4;0,3] horizontal fails and ambient survives",
+        "pass": true
+      },
+      {
+        "name": "A[4;1,2] metric and all quotient rows",
+        "pass": true
+      },
+      {
+        "name": "A[4;1,2] complete observed lower formula",
+        "pass": true
+      },
+      {
+        "name": "A[4;1,2] horizontal trace contraction identity",
+        "pass": true
+      },
+      {
+        "name": "A[4;1,2] fixed mean degree one remains",
+        "pass": true
+      },
+      {
+        "name": "A[4;1,2] horizontal fails and ambient survives",
+        "pass": true
+      },
+      {
+        "name": "A[4;1,3] metric and all quotient rows",
+        "pass": true
+      },
+      {
+        "name": "A[4;1,3] complete observed lower formula",
+        "pass": true
+      },
+      {
+        "name": "A[4;1,3] horizontal trace contraction identity",
+        "pass": true
+      },
+      {
+        "name": "A[4;1,3] fixed mean degree one remains",
+        "pass": true
+      },
+      {
+        "name": "A[4;1,3] horizontal fails and ambient survives",
+        "pass": true
+      },
+      {
+        "name": "A[4;2,3] metric and all quotient rows",
+        "pass": true
+      },
+      {
+        "name": "A[4;2,3] complete observed lower formula",
+        "pass": true
+      },
+      {
+        "name": "A[4;2,3] horizontal trace contraction identity",
+        "pass": true
+      },
+      {
+        "name": "A[4;2,3] fixed mean degree one remains",
+        "pass": true
+      },
+      {
+        "name": "A[4;2,3] horizontal fails and ambient survives",
+        "pass": true
+      },
+      {
+        "name": "A[5;0,1] metric and all quotient rows",
+        "pass": true
+      },
+      {
+        "name": "A[5;0,1] complete observed lower formula",
+        "pass": true
+      },
+      {
+        "name": "A[5;0,1] horizontal trace contraction identity",
+        "pass": true
+      },
+      {
+        "name": "A[5;0,1] fixed mean degree one remains",
+        "pass": true
+      },
+      {
+        "name": "A[5;0,1] horizontal fails and ambient survives",
+        "pass": true
+      },
+      {
+        "name": "A[5;0,2] metric and all quotient rows",
+        "pass": true
+      },
+      {
+        "name": "A[5;0,2] complete observed lower formula",
+        "pass": true
+      },
+      {
+        "name": "A[5;0,2] horizontal trace contraction identity",
+        "pass": true
+      },
+      {
+        "name": "A[5;0,2] fixed mean degree one remains",
+        "pass": true
+      },
+      {
+        "name": "A[5;0,2] horizontal fails and ambient survives",
+        "pass": true
+      },
+      {
+        "name": "A[5;0,3] metric and all quotient rows",
+        "pass": true
+      },
+      {
+        "name": "A[5;0,3] complete observed lower formula",
+        "pass": true
+      },
+      {
+        "name": "A[5;0,3] horizontal trace contraction identity",
+        "pass": true
+      },
+      {
+        "name": "A[5;0,3] fixed mean degree one remains",
+        "pass": true
+      },
+      {
+        "name": "A[5;0,3] horizontal fails and ambient survives",
+        "pass": true
+      },
+      {
+        "name": "A[5;1,2] metric and all quotient rows",
+        "pass": true
+      },
+      {
+        "name": "A[5;1,2] complete observed lower formula",
+        "pass": true
+      },
+      {
+        "name": "A[5;1,2] horizontal trace contraction identity",
+        "pass": true
+      },
+      {
+        "name": "A[5;1,2] fixed mean degree one remains",
+        "pass": true
+      },
+      {
+        "name": "A[5;1,2] horizontal fails and ambient survives",
+        "pass": true
+      },
+      {
+        "name": "A[5;1,3] metric and all quotient rows",
+        "pass": true
+      },
+      {
+        "name": "A[5;1,3] complete observed lower formula",
+        "pass": true
+      },
+      {
+        "name": "A[5;1,3] horizontal trace contraction identity",
+        "pass": true
+      },
+      {
+        "name": "A[5;1,3] fixed mean degree one remains",
+        "pass": true
+      },
+      {
+        "name": "A[5;1,3] horizontal fails and ambient survives",
+        "pass": true
+      },
+      {
+        "name": "A[5;2,3] metric and all quotient rows",
+        "pass": true
+      },
+      {
+        "name": "A[5;2,3] complete observed lower formula",
+        "pass": true
+      },
+      {
+        "name": "A[5;2,3] horizontal trace contraction identity",
+        "pass": true
+      },
+      {
+        "name": "A[5;2,3] fixed mean degree one remains",
+        "pass": true
+      },
+      {
+        "name": "A[5;2,3] horizontal fails and ambient survives",
+        "pass": true
+      },
+      {
+        "name": "A[6;0,1] metric and all quotient rows",
+        "pass": true
+      },
+      {
+        "name": "A[6;0,1] complete observed lower formula",
+        "pass": true
+      },
+      {
+        "name": "A[6;0,1] horizontal trace contraction identity",
+        "pass": true
+      },
+      {
+        "name": "A[6;0,1] fixed mean degree one remains",
+        "pass": true
+      },
+      {
+        "name": "A[6;0,1] horizontal fails and ambient survives",
+        "pass": true
+      },
+      {
+        "name": "A[6;0,2] metric and all quotient rows",
+        "pass": true
+      },
+      {
+        "name": "A[6;0,2] complete observed lower formula",
+        "pass": true
+      },
+      {
+        "name": "A[6;0,2] horizontal trace contraction identity",
+        "pass": true
+      },
+      {
+        "name": "A[6;0,2] fixed mean degree one remains",
+        "pass": true
+      },
+      {
+        "name": "A[6;0,2] horizontal fails and ambient survives",
+        "pass": true
+      },
+      {
+        "name": "A[6;0,3] metric and all quotient rows",
+        "pass": true
+      },
+      {
+        "name": "A[6;0,3] complete observed lower formula",
+        "pass": true
+      },
+      {
+        "name": "A[6;0,3] horizontal trace contraction identity",
+        "pass": true
+      },
+      {
+        "name": "A[6;0,3] fixed mean degree one remains",
+        "pass": true
+      },
+      {
+        "name": "A[6;0,3] horizontal fails and ambient survives",
+        "pass": true
+      },
+      {
+        "name": "A[6;1,2] metric and all quotient rows",
+        "pass": true
+      },
+      {
+        "name": "A[6;1,2] complete observed lower formula",
+        "pass": true
+      },
+      {
+        "name": "A[6;1,2] horizontal trace contraction identity",
+        "pass": true
+      },
+      {
+        "name": "A[6;1,2] fixed mean degree one remains",
+        "pass": true
+      },
+      {
+        "name": "A[6;1,2] horizontal fails and ambient survives",
+        "pass": true
+      },
+      {
+        "name": "A[6;1,3] metric and all quotient rows",
+        "pass": true
+      },
+      {
+        "name": "A[6;1,3] complete observed lower formula",
+        "pass": true
+      },
+      {
+        "name": "A[6;1,3] horizontal trace contraction identity",
+        "pass": true
+      },
+      {
+        "name": "A[6;1,3] fixed mean degree one remains",
+        "pass": true
+      },
+      {
+        "name": "A[6;1,3] horizontal fails and ambient survives",
+        "pass": true
+      },
+      {
+        "name": "A[6;2,3] metric and all quotient rows",
+        "pass": true
+      },
+      {
+        "name": "A[6;2,3] complete observed lower formula",
+        "pass": true
+      },
+      {
+        "name": "A[6;2,3] horizontal trace contraction identity",
+        "pass": true
+      },
+      {
+        "name": "A[6;2,3] fixed mean degree one remains",
+        "pass": true
+      },
+      {
+        "name": "A[6;2,3] horizontal fails and ambient survives",
+        "pass": true
+      },
+      {
+        "name": "A[7;0,1] metric and all quotient rows",
+        "pass": true
+      },
+      {
+        "name": "A[7;0,1] complete observed lower formula",
+        "pass": true
+      },
+      {
+        "name": "A[7;0,1] horizontal trace contraction identity",
+        "pass": true
+      },
+      {
+        "name": "A[7;0,1] fixed mean degree one remains",
+        "pass": true
+      },
+      {
+        "name": "A[7;0,1] horizontal fails and ambient survives",
+        "pass": true
+      },
+      {
+        "name": "A[7;0,2] metric and all quotient rows",
+        "pass": true
+      },
+      {
+        "name": "A[7;0,2] complete observed lower formula",
+        "pass": true
+      },
+      {
+        "name": "A[7;0,2] horizontal trace contraction identity",
+        "pass": true
+      },
+      {
+        "name": "A[7;0,2] fixed mean degree one remains",
+        "pass": true
+      },
+      {
+        "name": "A[7;0,2] horizontal fails and ambient survives",
+        "pass": true
+      },
+      {
+        "name": "A[7;0,3] metric and all quotient rows",
+        "pass": true
+      },
+      {
+        "name": "A[7;0,3] complete observed lower formula",
+        "pass": true
+      },
+      {
+        "name": "A[7;0,3] horizontal trace contraction identity",
+        "pass": true
+      },
+      {
+        "name": "A[7;0,3] fixed mean degree one remains",
+        "pass": true
+      },
+      {
+        "name": "A[7;0,3] horizontal fails and ambient survives",
+        "pass": true
+      },
+      {
+        "name": "A[7;1,2] metric and all quotient rows",
+        "pass": true
+      },
+      {
+        "name": "A[7;1,2] complete observed lower formula",
+        "pass": true
+      },
+      {
+        "name": "A[7;1,2] horizontal trace contraction identity",
+        "pass": true
+      },
+      {
+        "name": "A[7;1,2] fixed mean degree one remains",
+        "pass": true
+      },
+      {
+        "name": "A[7;1,2] horizontal fails and ambient survives",
+        "pass": true
+      },
+      {
+        "name": "A[7;1,3] metric and all quotient rows",
+        "pass": true
+      },
+      {
+        "name": "A[7;1,3] complete observed lower formula",
+        "pass": true
+      },
+      {
+        "name": "A[7;1,3] horizontal trace contraction identity",
+        "pass": true
+      },
+      {
+        "name": "A[7;1,3] fixed mean degree one remains",
+        "pass": true
+      },
+      {
+        "name": "A[7;1,3] horizontal fails and ambient survives",
+        "pass": true
+      },
+      {
+        "name": "A[7;2,3] metric and all quotient rows",
+        "pass": true
+      },
+      {
+        "name": "A[7;2,3] complete observed lower formula",
+        "pass": true
+      },
+      {
+        "name": "A[7;2,3] horizontal trace contraction identity",
+        "pass": true
+      },
+      {
+        "name": "A[7;2,3] fixed mean degree one remains",
+        "pass": true
+      },
+      {
+        "name": "A[7;2,3] horizontal fails and ambient survives",
+        "pass": true
+      },
+      {
+        "name": "A[8;0,1] metric and all quotient rows",
+        "pass": true
+      },
+      {
+        "name": "A[8;0,1] complete observed lower formula",
+        "pass": true
+      },
+      {
+        "name": "A[8;0,1] horizontal trace contraction identity",
+        "pass": true
+      },
+      {
+        "name": "A[8;0,1] fixed mean degree one remains",
+        "pass": true
+      },
+      {
+        "name": "A[8;0,1] horizontal fails and ambient survives",
+        "pass": true
+      },
+      {
+        "name": "A[8;0,2] metric and all quotient rows",
+        "pass": true
+      },
+      {
+        "name": "A[8;0,2] complete observed lower formula",
+        "pass": true
+      },
+      {
+        "name": "A[8;0,2] horizontal trace contraction identity",
+        "pass": true
+      },
+      {
+        "name": "A[8;0,2] fixed mean degree one remains",
+        "pass": true
+      },
+      {
+        "name": "A[8;0,2] horizontal fails and ambient survives",
+        "pass": true
+      },
+      {
+        "name": "A[8;0,3] metric and all quotient rows",
+        "pass": true
+      },
+      {
+        "name": "A[8;0,3] complete observed lower formula",
+        "pass": true
+      },
+      {
+        "name": "A[8;0,3] horizontal trace contraction identity",
+        "pass": true
+      },
+      {
+        "name": "A[8;0,3] fixed mean degree one remains",
+        "pass": true
+      },
+      {
+        "name": "A[8;0,3] horizontal fails and ambient survives",
+        "pass": true
+      },
+      {
+        "name": "A[8;1,2] metric and all quotient rows",
+        "pass": true
+      },
+      {
+        "name": "A[8;1,2] complete observed lower formula",
+        "pass": true
+      },
+      {
+        "name": "A[8;1,2] horizontal trace contraction identity",
+        "pass": true
+      },
+      {
+        "name": "A[8;1,2] fixed mean degree one remains",
+        "pass": true
+      },
+      {
+        "name": "A[8;1,2] horizontal fails and ambient survives",
+        "pass": true
+      },
+      {
+        "name": "A[8;1,3] metric and all quotient rows",
+        "pass": true
+      },
+      {
+        "name": "A[8;1,3] complete observed lower formula",
+        "pass": true
+      },
+      {
+        "name": "A[8;1,3] horizontal trace contraction identity",
+        "pass": true
+      },
+      {
+        "name": "A[8;1,3] fixed mean degree one remains",
+        "pass": true
+      },
+      {
+        "name": "A[8;1,3] horizontal fails and ambient survives",
+        "pass": true
+      },
+      {
+        "name": "A[8;2,3] metric and all quotient rows",
+        "pass": true
+      },
+      {
+        "name": "A[8;2,3] complete observed lower formula",
+        "pass": true
+      },
+      {
+        "name": "A[8;2,3] horizontal trace contraction identity",
+        "pass": true
+      },
+      {
+        "name": "A[8;2,3] fixed mean degree one remains",
+        "pass": true
+      },
+      {
+        "name": "A[8;2,3] horizontal fails and ambient survives",
+        "pass": true
+      },
+      {
+        "name": "A[9;0,1] metric and all quotient rows",
+        "pass": true
+      },
+      {
+        "name": "A[9;0,1] complete observed lower formula",
+        "pass": true
+      },
+      {
+        "name": "A[9;0,1] horizontal trace contraction identity",
+        "pass": true
+      },
+      {
+        "name": "A[9;0,1] fixed mean degree one remains",
+        "pass": true
+      },
+      {
+        "name": "A[9;0,1] horizontal fails and ambient survives",
+        "pass": true
+      },
+      {
+        "name": "A[9;0,2] metric and all quotient rows",
+        "pass": true
+      },
+      {
+        "name": "A[9;0,2] complete observed lower formula",
+        "pass": true
+      },
+      {
+        "name": "A[9;0,2] horizontal trace contraction identity",
+        "pass": true
+      },
+      {
+        "name": "A[9;0,2] fixed mean degree one remains",
+        "pass": true
+      },
+      {
+        "name": "A[9;0,2] horizontal fails and ambient survives",
+        "pass": true
+      },
+      {
+        "name": "A[9;0,3] metric and all quotient rows",
+        "pass": true
+      },
+      {
+        "name": "A[9;0,3] complete observed lower formula",
+        "pass": true
+      },
+      {
+        "name": "A[9;0,3] horizontal trace contraction identity",
+        "pass": true
+      },
+      {
+        "name": "A[9;0,3] fixed mean degree one remains",
+        "pass": true
+      },
+      {
+        "name": "A[9;0,3] horizontal fails and ambient survives",
+        "pass": true
+      },
+      {
+        "name": "A[9;1,2] metric and all quotient rows",
+        "pass": true
+      },
+      {
+        "name": "A[9;1,2] complete observed lower formula",
+        "pass": true
+      },
+      {
+        "name": "A[9;1,2] horizontal trace contraction identity",
+        "pass": true
+      },
+      {
+        "name": "A[9;1,2] fixed mean degree one remains",
+        "pass": true
+      },
+      {
+        "name": "A[9;1,2] horizontal fails and ambient survives",
+        "pass": true
+      },
+      {
+        "name": "A[9;1,3] metric and all quotient rows",
+        "pass": true
+      },
+      {
+        "name": "A[9;1,3] complete observed lower formula",
+        "pass": true
+      },
+      {
+        "name": "A[9;1,3] horizontal trace contraction identity",
+        "pass": true
+      },
+      {
+        "name": "A[9;1,3] fixed mean degree one remains",
+        "pass": true
+      },
+      {
+        "name": "A[9;1,3] horizontal fails and ambient survives",
+        "pass": true
+      },
+      {
+        "name": "A[9;2,3] metric and all quotient rows",
+        "pass": true
+      },
+      {
+        "name": "A[9;2,3] complete observed lower formula",
+        "pass": true
+      },
+      {
+        "name": "A[9;2,3] horizontal trace contraction identity",
+        "pass": true
+      },
+      {
+        "name": "A[9;2,3] fixed mean degree one remains",
+        "pass": true
+      },
+      {
+        "name": "A[9;2,3] horizontal fails and ambient survives",
+        "pass": true
+      },
+      {
+        "name": "ell[0] metric and all quotient rows",
+        "pass": true
+      },
+      {
+        "name": "ell[0] complete observed lower formula",
+        "pass": true
+      },
+      {
+        "name": "ell[0] scalar trace exactly horizontal",
+        "pass": true
+      },
+      {
+        "name": "ell[0] new lower terms horizontal-odd",
+        "pass": true
+      },
+      {
+        "name": "ell[0] ambient grade survives",
+        "pass": true
+      },
+      {
+        "name": "ell[1] metric and all quotient rows",
+        "pass": true
+      },
+      {
+        "name": "ell[1] complete observed lower formula",
+        "pass": true
+      },
+      {
+        "name": "ell[1] scalar trace exactly horizontal",
+        "pass": true
+      },
+      {
+        "name": "ell[1] new lower terms horizontal-odd",
+        "pass": true
+      },
+      {
+        "name": "ell[1] ambient grade survives",
+        "pass": true
+      },
+      {
+        "name": "ell[2] metric and all quotient rows",
+        "pass": true
+      },
+      {
+        "name": "ell[2] complete observed lower formula",
+        "pass": true
+      },
+      {
+        "name": "ell[2] scalar trace exactly horizontal",
+        "pass": true
+      },
+      {
+        "name": "ell[2] new lower terms horizontal-odd",
+        "pass": true
+      },
+      {
+        "name": "ell[2] ambient grade survives",
+        "pass": true
+      },
+      {
+        "name": "ell[3] metric and all quotient rows",
+        "pass": true
+      },
+      {
+        "name": "ell[3] complete observed lower formula",
+        "pass": true
+      },
+      {
+        "name": "ell[3] scalar trace exactly horizontal",
+        "pass": true
+      },
+      {
+        "name": "ell[3] new lower terms horizontal-odd",
+        "pass": true
+      },
+      {
+        "name": "ell[3] ambient grade survives",
+        "pass": true
+      },
+      {
+        "name": "normal-normal plant remains metric",
+        "pass": true
+      },
+      {
+        "name": "normal-normal plant breaks actual quotient",
+        "pass": true
+      },
+      {
+        "name": "nonscalar mixed plant remains metric",
+        "pass": true
+      },
+      {
+        "name": "nonscalar mixed plant breaks actual quotient",
+        "pass": true
+      },
+      {
+        "name": "shape-equals-skew fitted plant violates metricity",
+        "pass": true
+      },
+      {
+        "name": "metric normal space dimension910",
+        "pass": true
+      },
+      {
+        "name": "classified metric normal space dimension64",
+        "pass": true
+      },
+      {
+        "name": "stable sigma coefficient nonzero a over six",
+        "pass": true
+      },
+      {
+        "name": "stable tau coefficient nonzero five a over six",
+        "pass": true
+      }
+    ],
+    "arithmetic": "exact rational sparse Clifford words; no spinor matrix elimination",
+    "family": "R6-metric-normal-coherent: all metric B_n, held tangent split and coherent normal jets",
+    "classified_dimension": 64,
+    "unconstrained_dimension": 910,
+    "basis_controls": {
+      "horizontal_skew": 60,
+      "mixed_scalar": 4
+    },
+    "quotient_classification": "B_n X=A_n X+ell(X)n; B_n m=-K(n,m)ell#; A_n g-skew",
+    "horizontal_grade": "incompatible with actual nonzero shape for every quotient-admissible member",
+    "ambient_grade": "survives compatible metric-spin family and descends whenever q does",
+    "rank_ceiling": "fixed nonzero Clifford-degree witness; no uniform rank128 claim",
+    "claim_ceiling": "same-horizontal-readout realization only; no full source parent, classC, physical index or GU verdict"
+  },
+  "lean": "MetricNormalGradingCore compiles; conditional finite algebra only",
+  "hypotheses": [
+    "K95 full faithful Cl14 S128 and actual q full6S",
+    "held exterior two-channel zeroSE stable relation c0=-a/12 with a,e,g nonzero",
+    "fixed tangential split correction and corresponding coherent normaljets",
+    "all metric normal B_n; held density gradf=Hmean",
+    "same input/output plainhorizontal receiver grading requirement"
+  ],
+  "outside": [
+    "full source-parent nonmetric connection",
+    "different equation/field/current grading laws",
+    "nonzeroSE or other source lower completions",
+    "other domain/end/normaljet prescriptions",
+    "K77",
+    "physical positive current and effective decoupling"
+  ],
+  "ambient_control": "Omega^2=1, Omega^sharp=-Omega, quaternionicC-even; neutral64+64 halves; no physical count",
+  "source_necessity": "Exact plainhorizontal offshell anticommutator is not established by SC-CHI01/04 effective claim",
+  "new_actions": 0,
+  "next_discriminator": "The metric-normal repair question is settled. The remaining source bridge is the actual weak/luminous current projector and its independently required effective law; generic low-mass bounds and geometric weak transport were already studied November13. Ordinary existing selection continues; Joe24e class-method/governance proposals remain unapproved and are not implemented.",
+  "evidence": [
+    "explorations/conditional-build/metric-normal-family-grading-2026-11-24.md",
+    "explorations/conditional-build/ambient-correlated-grading-control-2026-11-24.md",
+    "tests/program-focus/metric_normal_grading_probe.py",
+    "Lean/GUFormalization/MetricNormalGradingCore.lean",
+    "lab/process/metric-normal-family-grading.json",
+    "lab/process/hostile-reviews/2026-11-24-metric-normal-family-review.md"
+  ]
+}
