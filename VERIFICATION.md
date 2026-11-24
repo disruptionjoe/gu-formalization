@@ -17,6 +17,24 @@ External review is not a pathway in this program. The honesty label stays: inter
 
 Sections below are historical snapshots in file order.
 
+## Source checks, opposite coupling and moving grades (2026-11-24)
+
+The source audit clarified that the full native barred readout is unselected.
+In the existing local reconstruction, density repair leaves an opposite
+shape coupling of exact rank512; it vanishes for all horizontal fields iff
+II=0. Literal observation's functional dual is a supported current, distinct
+from its fiber transpose and a smooth barred restriction. Sixteen moving-J
+symbol grades retain the same observed chirality in the canonical RS carrier.
+Under the stated raw-carrier/readout bridge,
+15 of their16 hidden sign choices fail the opposite-block oddness condition;
+the remaining choice still lacks full operator/domain certification.
+
+These are internally reviewed T2 structural results on explicitly different
+carriers. All scientific statuses and source/physics ledger verdicts remain
+unchanged. [Source checks and joint result](explorations/conditional-build/source-check-and-continuation-2026-11-24.md).
+
+Serialized exact controls:25 local coupling,24 functional dual,324 spectral/K95; four planted errors rejected. Independent review and written proofs support the stated scope; no Lean or physical-domain certification is claimed.
+
 ## Observation, symmetry and global reduction (2026-11-24)
 
 Literal thin observation is nonclosable on the tested first-order graph/L2

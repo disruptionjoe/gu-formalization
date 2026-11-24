@@ -16,6 +16,22 @@ discovery bet (`lab/process/discovery-bets.json`). The K25xx--K2618 detector, pr
 results below are retained as conditional mathematics; that lane is no longer the default target. Sections
 below are dated results, newest first, and are not steering.
 
+## Source checks, opposite coupling and moving grades (2026-11-24)
+
+The source audit clarified that the full native barred readout is unselected.
+In the existing local reconstruction, density repair leaves an opposite
+shape coupling of exact rank512; it vanishes for all horizontal fields iff
+II=0. Literal observation's functional dual is a supported current, distinct
+from its fiber transpose and a smooth barred restriction. Sixteen moving-J
+symbol grades retain the same observed chirality in the canonical RS carrier.
+Under the stated raw-carrier/readout bridge,
+15 of their16 hidden sign choices fail the opposite-block oddness condition;
+the remaining choice still lacks full operator/domain certification.
+
+These are internally reviewed T2 structural results on explicitly different
+carriers. All scientific statuses and source/physics ledger verdicts remain
+unchanged. [Source checks and joint result](explorations/conditional-build/source-check-and-continuation-2026-11-24.md).
+
 ## Observation, symmetry and global reduction (2026-11-24)
 
 Literal thin observation is nonclosable on the tested first-order graph/L2

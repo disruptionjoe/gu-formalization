@@ -90,9 +90,14 @@ and its fixed-versus-moving transformation law on a compatible operator.
 Neither priority packet receives a new ready step from these results alone.
 This is not a requirement to construct a source action before research proceeds.
 
-Existing material also leaves an independent, already-defined structural
-question: both density-dual cross blocks for the same repaired operator and
-supplied barred readout. One-sided closure cannot answer it. The normal-domain
+Existing material also leaves an independent structural question: both
+density-dual cross blocks for the same repaired operator and a supplied barred
+readout. The source has not supplied the complete native K or barred readout;
+only the explicitly declared local metric-spin pairing subclass is ready for
+that conditional test. One-sided closure cannot answer it. The subsequent
+[source check and manual wave](source-check-and-continuation-2026-11-24.md)
+computes its opposite block and separates fiber from functional duality.
+The normal-domain
 and moving-selector alternatives can be assessed as structurally defined
 subfamilies without guessing an action, but their norms and transformation
 laws must be part of the object being tested. A local source prescription is

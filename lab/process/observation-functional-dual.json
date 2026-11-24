@@ -1,0 +1,137 @@
+{
+  "status": "PASS",
+  "passed": 24,
+  "total": 24,
+  "checks": [
+    {
+      "name": "rectangular fiber dual identity",
+      "pass": true,
+      "kind": "support"
+    },
+    {
+      "name": "fiber transpose is injection rank",
+      "pass": true,
+      "kind": "support"
+    },
+    {
+      "name": "fiber transpose output is ambient-fiber covector",
+      "pass": true,
+      "kind": "support"
+    },
+    {
+      "name": "observed and ambient coefficient dimensions differ",
+      "pass": true,
+      "kind": "support"
+    },
+    {
+      "name": "independent barred pairing identification",
+      "pass": true,
+      "kind": "support"
+    },
+    {
+      "name": "pairing invertible without reality assumption",
+      "pass": true,
+      "kind": "support"
+    },
+    {
+      "name": "normal delta density conversion",
+      "pass": true,
+      "kind": "support"
+    },
+    {
+      "name": "naive omission really changes the functional",
+      "pass": true,
+      "kind": "countercontrol"
+    },
+    {
+      "name": "Gaussian profile normalized",
+      "pass": true,
+      "kind": "support"
+    },
+    {
+      "name": "Gaussian second normal moment",
+      "pass": true,
+      "kind": "support"
+    },
+    {
+      "name": "Gaussian one-normal squared norm",
+      "pass": true,
+      "kind": "support"
+    },
+    {
+      "name": "finite smearing differs from literal restriction on normal quadratic",
+      "pass": true,
+      "kind": "countercontrol"
+    },
+    {
+      "name": "literal restriction of normal quadratic",
+      "pass": true,
+      "kind": "support"
+    },
+    {
+      "name": "constant trace agrees for normalized smearing",
+      "pass": true,
+      "kind": "support"
+    },
+    {
+      "name": "codimension10 normalized profile squared norm",
+      "pass": true,
+      "kind": "support"
+    },
+    {
+      "name": "normal dual norm squared scaling",
+      "pass": true,
+      "kind": "support"
+    },
+    {
+      "name": "nonzero thin dual cannot have bounded normal L2 size",
+      "pass": true,
+      "kind": "support"
+    },
+    {
+      "name": "chosen profile has unit section value",
+      "pass": true,
+      "kind": "support"
+    },
+    {
+      "name": "smooth dual profile is biorthogonal",
+      "pass": true,
+      "kind": "countercontrol"
+    },
+    {
+      "name": "same smooth profile differs on unrestricted normal quadratic",
+      "pass": true,
+      "kind": "countercontrol"
+    },
+    {
+      "name": "critical normal Fourier power",
+      "pass": true,
+      "kind": "support"
+    },
+    {
+      "name": "above-threshold normal Fourier power",
+      "pass": true,
+      "kind": "support"
+    },
+    {
+      "name": "ordinary Hminus1 insufficient",
+      "pass": true,
+      "kind": "support"
+    },
+    {
+      "name": "finite-volume constrained-dual normalization",
+      "pass": true,
+      "kind": "countercontrol"
+    }
+  ],
+  "claim_ceiling": "Fiber-dual/current and explicit domain controls only; no source-selected barred readout, action, physical domain or family index.",
+  "normal_dimension": 10,
+  "profile_fixture": "Schwartz Gaussian; theorem uses compact tests and distributional definition",
+  "normal_profile_norm_power": -5,
+  "base_revision": "b586e6e5b2f8064670685cf3809971222293db5f",
+  "verification": "Root serialized replay on final integrated probe; general written theorem remains separate.",
+  "mutations_rejected": [
+    "omit-density-ratio",
+    "smearing-is-restriction"
+  ]
+}

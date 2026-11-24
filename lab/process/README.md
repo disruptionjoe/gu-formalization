@@ -5,6 +5,12 @@ doc_type: overview
 updated_at: "2026-08-23"
 ---
 
+## Source, duality and grading evidence (2026-11-24)
+
+- [Opposite-block certificate](local-dual-closure-second-fundamental-form.json), [functional-dual controls](observation-functional-dual.json), [moving-grading controls](moving-normal-complex-grading.json).
+- [Independent review](hostile-reviews/2026-11-24-source-dual-grading-review.md).
+
+
 ## Structural compatibility evidence (2026-11-24)
 
 - [Observation controls](observation-graph-domain.json), [weak/endogenous symmetry controls](weak-endogenous-grading.json), and [global-reduction controls](global-normal-complex-reduction.json).

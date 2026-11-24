@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: d7bd31e050fd92a127c2e5fd55ce49f07fb3858c
+revision_basis: b586e6e5b2f8064670685cf3809971222293db5f
 program_focus:
   version: 2026-11-21-v1
   authority: joe_direct_chat_2026_11_21
@@ -89,6 +89,51 @@ program_focus:
     - writing down, enumerating, fitting or searching for a specific action, coefficient set or Lagrangian outside lane C
     - building a gated cell's missing object (source action, stabilized RS action, K3-fibered family, boundary connection) as a way to unblock it
     - more than 3 guessed action variants in one lane-C run, or tuning a guessed action's coefficients
+source_dual_grading_2026_11_24:
+  status: T2_reviewed_structural_continuation
+  authority: joe_direct_chat_source_checks_manual_run_and_priority_2026_11_24
+  actual_delta: In the existing metric-spin/coherent-jet exterior reconstruction, the opposite block is
+    a P_K A_II; it vanishes for all horizontal fields iff II=0. The actual metric-bundle shape gives exact
+    rank512, despite the scalar density repair. Nonzero II also obstructs vanishing for every metric normal
+    extension in this coherent-jet/exterior category; the rank remains specific to B_n=0. The functional
+    transpose of literal observation is i_*(Q^t beta), a supported current; it is neither a fiber transpose
+    nor an automatically supplied smooth barred readout. Stronger Riesz duals and constrained domains
+    remain explicit alternatives. Sixteen spectral-sign gradings of the canonical tangential RS symbol
+    descend to the same chi_H under moving-J covariance. The rank10 extreme projector has normal stabilizer
+    u(3,2); pure tangential Dirac oddness requires parallel J. Combined with the native shape block and
+    an explicit raw-E observed-grade extension, every squared-weight sector couples:15 of16 sign choices
+    fail the necessary off-block oddness test, leaving only hidden +chi_H for further testing. No full
+    operator-grade or index acceptance follows.
+  source_check: 'Prior results stand; corrected readiness: full native density-dual K/barred readout unselected.
+    Existing local comparison is the conditional test arena.'
+  evidence:
+  - explorations/conditional-build/local-dual-closure-second-fundamental-form-2026-11-24.md
+  - lab/process/local-dual-closure-second-fundamental-form.json
+  - tests/program-focus/local_dual_closure_second_fundamental_form_probe.py
+  - explorations/conditional-build/observation-functional-dual-2026-11-24.md
+  - lab/process/observation-functional-dual.json
+  - tests/program-focus/observation_functional_dual_probe.py
+  - explorations/conditional-build/moving-normal-complex-grading-2026-11-24.md
+  - lab/process/moving-normal-complex-grading.json
+  - tests/program-focus/moving_normal_complex_grading_probe.py
+  - explorations/conditional-build/source-check-and-continuation-2026-11-24.md
+  - lab/process/hostile-reviews/2026-11-24-source-dual-grading-review.md
+  claim_effect: No scientific matrix status, source/physics ledger, class, canon or prediction change.
+  next_discriminator: 'Next eligible B-slot discriminator: on the existing B_n=0 repaired full six-spinor
+    tangential reconstruction, classify metric-compatible observed involutions with pi_b G_o=chi_H pi_b
+    that extend the surviving hidden A=+chi_H and anticommute with every tangential principal coefficient
+    AND the computed NW torsion lower term. Test the observed trace/scalar mixing explicitly; passing
+    the opposite hidden block alone is insufficient. This is a structural coefficient/intertwiner test
+    on an owned operator, not construction of a source action or physical barred map. If that specified
+    category closes, record its scope and continue to symbol-compatible alternate lifts/non-spectral grading
+    or another eligible matrix target. Preserve source non-Levi-Civita freedom and actual domain/duality
+    distinctions. Full native K/readout is not supplied; neither blocked packet reopens automatically.
+    Existing T1/packet/LC rules remain prior.'
+  priority_effect: Low-level work ordering updated from completed tests; prioritization system and all
+    program_focus rules unchanged.
+  packet_effect: Both priority packets retain named blockers; no automatic reopening or source-operator
+    construction.
+  counter_accounting: One LB-LADDER wave29->30, lane6->7; no LC credit or cadence change.
 structural_compatibility_2026_11_24:
   status: T2_reviewed_structural_premise_tests
   actual_delta: Literal codimension10 observation is nonclosable on cutoff-stable first-order graph cores;

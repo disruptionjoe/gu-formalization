@@ -5,6 +5,14 @@ doc_type: overview
 updated_at: "2026-08-21"
 ---
 
+## Source checks and structural continuation (2026-11-24)
+
+- [Source checks and joint result](../explorations/conditional-build/source-check-and-continuation-2026-11-24.md).
+- [Opposite shape coupling](../explorations/conditional-build/local-dual-closure-second-fundamental-form-2026-11-24.md).
+- [Functional dual of observation](../explorations/conditional-build/observation-functional-dual-2026-11-24.md).
+- [Moving normal-complex grading](../explorations/conditional-build/moving-normal-complex-grading-2026-11-24.md).
+
+
 ## Structural compatibility (2026-11-24)
 
 - [Joint result and retained research opportunities](../explorations/conditional-build/structural-compatibility-synthesis-2026-11-24.md).
