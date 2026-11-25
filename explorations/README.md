@@ -5,6 +5,10 @@ doc_type: overview
 updated_at: "2026-08-21"
 ---
 
+## Full Pati-Salam holonomy (2026-11-25)
+
+[Flat-holonomy physical zero modes](conditional-build/bet-mass-gap-pati-salam-holonomy-2026-11-25.md).
+
 ## Bounded anomaly applicability (2026-11-24)
 
 [Source symmetry audit](../explorations/conditional-build/source-symmetry-matching-scope-2026-11-24.md): ordinary SM residues cancel; extra B-L/Z4

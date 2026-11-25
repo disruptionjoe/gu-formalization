@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "artifact": "DISCOVERY_BETS_REGISTER",
-  "updated_at": "2026-11-24",
+  "updated_at": "2026-11-25",
   "authorized_by": "Joe direct chat, 2026-11-09 (program_focus reset)",
   "claim_effect": "none",
   "lane": "C",
@@ -59,28 +59,32 @@
       "external_context": "OpenAI announced an AI-generated existence proof for 4D pure Yang-Mills and QCD on 2026-10-26; it does not claim the mass gap and is unverified. Track it; do not build on it until it is public and checks out.",
       "kill_criterion": "Within the time box, the reduced quadratic operator has massless gauge modes for every guessed action tried, with the reduction typed (contraction, not projection).",
       "status": "active",
-      "runs_used": 2,
+      "runs_used": 3,
       "zero_delta_streak": 0,
       "result": {
         "status": "active_with_conditional_structural_result",
-        "actual_delta": "Constant compact-positive R3 stationary potentials must commute. Real L2 Cartan perturbations have negative relative energy; irreducible round-S3 A=theta/2 is stationary but unstable. On flat T3 the full physical quadratic gap is positive iff adjoint holonomies have no common fixed vector; for SO3 equivalently w2 is nonzero. Twisted SO3 control has lambda_min=pi^2/L^2, a finite-size/holonomy gap with source transfer unproved. No GU or quantum-gap verdict.",
+        "actual_delta": "For the full compact PS product/diagonalZ2 quotient with honest16 on flatT3, zero central flux has at least5 adjoint fixed directions; nonzero flux has exactly1 or3. The MG1 physical Hessian kernel has dimension3 times the fixed algebra, so the earlier isolated SO3 positive gap does not extend to the full carrier. This is a classical compact comparator, not a native/quantum-gap or bet-wide verdict.",
         "evidence": [
+          "explorations/conditional-build/bet-mass-gap-pati-salam-holonomy-2026-11-25.md",
+          "tests/program-focus/bet_mass_gap_pati_salam_probe.py",
+          "lab/process/bet-mass-gap-pati-salam-holonomy.json",
+          "lab/process/hostile-reviews/2026-11-25-pati-salam-gap-review.md"
+        ],
+        "prior_evidence": [
           "explorations/conditional-build/bet-mass-gap-stability-topology-2026-11-24.md",
           "lab/process/bet-mass-gap-stability-topology.json",
           "tests/program-focus/bet_mass_gap_stability_topology_probe.py",
-          "lab/process/hostile-reviews/2026-11-24-mass-gap-stability-topology-review.md"
-        ],
-        "prior_evidence": [
+          "lab/process/hostile-reviews/2026-11-24-mass-gap-stability-topology-review.md",
           "explorations/conditional-build/bet-mass-gap-curvature-end-test-2026-11-11.md",
           "tests/program-focus/bet_mass_gap_curvature_end_probe.py",
           "lab/process/bet-mass-gap-curvature-end-test.json"
         ],
         "guessed_action_variants": 1,
         "new_action_variants_this_run": 0,
-        "remaining_runs": 22,
+        "remaining_runs": 21,
         "physical_quantum_gap": "not_supplied",
         "matrix_or_ledger_effect": "none",
-        "next_condition": "For another MASS-GAP attempt, test a supplied nonconstant stationary R3 endpoint with its complete physical Hessian/domain, or apply the flat-torus common-fixed-space criterion to an explicitly supplied full holonomy representation and bundle. Do not repeat constant-potential candidates, count a positive subblock while a neutral centralizer survives, equate irreducibility with stability, or import nonliftable SO3 topology into the source weak sector. Coupled source action/observation and interacting quantum mechanism remain open; no missing action is constructed to unblock a B cell."
+        "next_condition": "No further flatPS holonomy search can give a full positive MG1 quadratic gap in this category. Next useful input is a supplied nonconstant stationary endpoint with complete physical Hessian/domain or a physically specified charged sector. Full native indefinite/action/observation and quantum bridges remain open; no source operator is built."
       }
     },
     {

@@ -1,7 +1,7 @@
 schema_version: '1.0'
 repository: observerse-research-program
 branch: main
-revision_basis: f06077366638c7c061f68f56457ecf482d3f1a11
+revision_basis: 418717dcc4a62aa47905e39185b15a8cdec05028
 program_focus:
   version: 2026-11-24-v4
   authority: joe_direct_chat_2026_11_24_execute_recommendation
@@ -13,7 +13,7 @@ program_focus:
   - lab/process/work-packets/localization-falsifier-2026-11-24.md
   priority_packets_note: Source-required-class-tests steps0-4 are done; its bounded source-law step5 is
     the next eligible B packet discriminator. Prior done/blocked packets retained. The directed count35
-    LC carry is due next regular run; rules and all governance remain unchanged.
+    LC carry was consumed by the Nov25 fullPS holonomy test; rules and governance remain unchanged.
   priority_packet_selection:
     slots: B-lane slots only; run_selection rules 1 and 2 remain prior.
     order: When both have ready steps, alternate between these packets; Item 1 goes first on ties. Within
@@ -144,6 +144,24 @@ program_focus:
     assumption_view: lab/process/action-constraint-matrix.json#source_relevance_assumption_view
     maintenance: Update linked assumptions when their evidence changes; refresh existing weekly metrics
       at weekly review. Labels and presence checks are not proof of relevance.
+bet_pati_salam_holonomy_2026_11_25:
+  status: T2_internal_reviewed
+  actual_delta: For the full compact PS product/diagonalZ2 quotient with honest16 on flatT3, zero central
+    flux has at least5 adjoint fixed directions; nonzero flux has exactly1 or3. The MG1 physical Hessian
+    kernel has dimension3 times the fixed algebra, so the earlier isolated SO3 positive gap does not extend
+    to the full carrier. This is a classical compact comparator, not a native/quantum-gap or bet-wide
+    verdict.
+  evidence:
+  - explorations/conditional-build/bet-mass-gap-pati-salam-holonomy-2026-11-25.md
+  - tests/program-focus/bet_mass_gap_pati_salam_probe.py
+  - lab/process/bet-mass-gap-pati-salam-holonomy.json
+  - lab/process/hostile-reviews/2026-11-25-pati-salam-gap-review.md
+  claim_effect: No scientific matrix, source, ledger, GU or quantum-gap verdict
+  counter_accounting: Consumed carried count35LC;36->37;MASS-GAP2->3;21 remaining
+  next_discriminator: No further flatPS holonomy search can give a full positive MG1 quadratic gap in
+    this category. Next useful input is a supplied nonconstant stationary endpoint with complete physical
+    Hessian/domain or a physically specified charged sector. Full native indefinite/action/observation
+    and quantum bridges remain open; no source operator is built.
 ten_wave_research_horizon_2026_11_24:
   status: T3_conditional_research_preparation
   ref: lab/process/work-packets/ten-wave-source-falsification-2026-11-24.md

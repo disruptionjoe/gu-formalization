@@ -1,0 +1,41 @@
+{
+  "artifact": "BET_MASS_GAP_PATI_SALAM_HOLONOMY",
+  "date": "2026-11-25",
+  "basis_revision": "418717dcc4a62aa47905e39185b15a8cdec05028",
+  "target": "BET-MASS-GAP",
+  "tier": "T2",
+  "status": "T2_internal_reviewed",
+  "actual_delta": "For the full compact PS product/diagonalZ2 quotient with honest16 on flatT3, zero central flux has at least5 adjoint fixed directions; nonzero flux has exactly1 or3. The MG1 physical Hessian kernel has dimension3 times the fixed algebra, so the earlier isolated SO3 positive gap does not extend to the full carrier. This is a classical compact comparator, not a native/quantum-gap or bet-wide verdict.",
+  "source_bridge": "conditional: compact-positive MG1 and honest16 global bundle category not source physical realization",
+  "class_covered": "All flat bundles onT3 for SU4xSU2xSU2 and its diagonalZ2 quotient with honest16",
+  "central_kernel": [
+    [
+      0,
+      0,
+      0
+    ],
+    [
+      2,
+      1,
+      1
+    ]
+  ],
+  "fluxes": 8,
+  "zero_flux_min_fixed_dimension": 5,
+  "nonzero_flux_fixed_dimensions": [
+    1,
+    3
+  ],
+  "hessian_kernel": "Linearized Coulomb slice modulo infinitesimal gauge: h tensor H1(T3;R), real dimension3dim(h); not full nonlinear moduli dimension",
+  "checks": 98,
+  "mutants_rejected": 3,
+  "new_action_variants": 0,
+  "bet_kill": false,
+  "matrix_ledger_source_effect": "none",
+  "evidence": [
+    "explorations/conditional-build/bet-mass-gap-pati-salam-holonomy-2026-11-25.md",
+    "tests/program-focus/bet_mass_gap_pati_salam_probe.py",
+    "lab/process/bet-mass-gap-pati-salam-holonomy.json",
+    "lab/process/hostile-reviews/2026-11-25-pati-salam-gap-review.md"
+  ]
+}

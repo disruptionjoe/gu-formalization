@@ -2,7 +2,7 @@
   "schema_version": "1.0",
   "artifact": "ACTION_CONSTRAINT_MATRIX",
   "version": "v1-seed",
-  "updated_at": "2026-11-24",
+  "updated_at": "2026-11-25",
   "authorized_by": "Joe direct chat, 2026-11-09 (program_focus reset)",
   "claim_effect": "none",
   "action_class_ref": "lab/process/action-class.json",
@@ -2084,7 +2084,7 @@
       "target": "X-P1-P2",
       "previous_status": "constrained",
       "status": "constrained",
-      "actual_delta": "Full source-shaped raw symbols require six spinor-rank autonomous outputs retaining literal observation and independent trace/scalar data; the prior five-spinor projected survivor discards a visible channel. In the natural two-channel category, complete chiral stability conditions P_+=P_-=0 admit a zero-southeast mixed subfamily c_\u00b1=-a_\u00b1/12. The older wedge-only Ward/K filter is an additional predicate, not a source law. No source-selected action or full-C realization follows.",
+      "actual_delta": "Full source-shaped raw symbols require six spinor-rank autonomous outputs retaining literal observation and independent trace/scalar data; the prior five-spinor projected survivor discards a visible channel. In the natural two-channel category, complete chiral stability conditions P_+=P_-=0 admit a zero-southeast mixed subfamily c_±=-a_±/12. The older wedge-only Ward/K filter is an additional predicate, not a source law. No source-selected action or full-C realization follows.",
       "evidence": [
         "explorations/conditional-build/source-symbol-quotient-membership-2026-11-12.md",
         "explorations/conditional-build/source-current-grading-membership-2026-11-12.md",
@@ -2364,7 +2364,7 @@
   ],
   "program_run_counter": {
     "since": "2026-11-09",
-    "count": 36,
+    "count": 37,
     "rule": "Every hourly run increments this in its postflight, whatever its lane. Lane C runs when count % 4 == 3 before the increment."
   },
   "working_rule": "Cells are worked at the structure level: a requirement must hold for every action in class C or for a structurally defined subfamily. No cell is worked by writing down a specific action, and no gated cell is worked by building its gate object. See CURRENT-STATE.yaml program_focus.structure_not_specifics.",
@@ -2513,6 +2513,16 @@
       "lane": "LB-LADDER",
       "selection": "Directed B wave; count35 LC opportunity carried, no bet credit; existing cadence unchanged",
       "actual_delta": "The complete metric-only Spin-natural symbol module has18 generators,14 after the exterior-gradient condition. Every autonomous pointwise observation retaining the literal horizontal one-form and scalar output needs at least6 spinor slots in that category; five is excluded. The full block-Lorentz/SM-neutral, K95 quaternionic-compatible odd one-form class has12 real parameters and a real full-support survivor. Ordinary simultaneous gauge transport cannot erase its relative grading detector. The printed NE arrow has a left-tilted derivative defect and a flat-to-nonflat obstruction to same-slot pointwise intertwiners at fixed reference. These are quantified conditional categories, not physical modes or a GU/classC falsification."
+    },
+    {
+      "date": "2026-11-25",
+      "authority": "joe_direct_chat_go_ten_wave_scaffold",
+      "item": "Carried LC fullPS flat-holonomy discriminator",
+      "counter_before": 36,
+      "counter_after": 37,
+      "lane": "LC-BETS",
+      "selection": "Consume count35 carry; all active bets tied22 remaining, fullPS holonomy selected for supplied exact test",
+      "actual_delta": "For the full compact PS product/diagonalZ2 quotient with honest16 on flatT3, zero central flux has at least5 adjoint fixed directions; nonzero flux has exactly1 or3. The MG1 physical Hessian kernel has dimension3 times the fixed algebra, so the earlier isolated SO3 positive gap does not extend to the full carrier. This is a classical compact comparator, not a native/quantum-gap or bet-wide verdict."
     }
   ],
   "directed_lc_carry_2026_11_24_b": {
@@ -2702,10 +2712,14 @@
     ]
   },
   "directed_lc_carry_2026_11_24_recommendation": {
-    "status": "due",
+    "status": "consumed",
     "due_counter": 35,
     "authority": "joe_direct_chat_2026_11_24_execute_recommendation",
-    "next_regular_run": "Consume this carried LC opportunity before another regular B selection; then retain the recurring rule.",
-    "bet_attempt_credited": false
+    "next_regular_run": "Carry consumed; ordinary rule2 unchanged.",
+    "bet_attempt_credited": true,
+    "consumed_by": "RUN-20261125-gu-horizon-mass-gap",
+    "consumed_bet": "BET-MASS-GAP",
+    "counter_before": 36,
+    "counter_after": 37
   }
 }

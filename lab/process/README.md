@@ -5,6 +5,10 @@ doc_type: overview
 updated_at: "2026-08-23"
 ---
 
+## Full Pati-Salam holonomy (2026-11-25)
+
+[Exact conditional gap discriminator](bet-mass-gap-pati-salam-holonomy.json) and [review](hostile-reviews/2026-11-25-pati-salam-gap-review.md).
+
 ## Conditional research horizon (2026-11-24)
 
 - [Ten-wave source-faithful research horizon](work-packets/ten-wave-source-falsification-2026-11-24.md)

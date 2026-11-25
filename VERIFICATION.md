@@ -17,6 +17,13 @@ External review is not a pathway in this program. The honesty label stays: inter
 
 Sections below are historical snapshots in file order.
 
+## Pati-Salam flat-holonomy test (2026-11-25)
+
+The full compactPS comparator retains neutral quadratic modes in every central
+flux sector; the isolatedSO3 gap does not extend to the whole21-dimensional
+adjoint.98 exact controls and three mutation checks pass.
+[Scope and proof](explorations/conditional-build/bet-mass-gap-pati-salam-holonomy-2026-11-25.md). Independent T2 review is recorded with the result.
+
 ## Source-class wave verification (2026-11-24)
 
 114 gauge/current controls,976 Clifford controls (488 per real form),30 actual
