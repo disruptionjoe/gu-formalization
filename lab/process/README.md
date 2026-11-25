@@ -5,6 +5,10 @@ doc_type: overview
 updated_at: "2026-08-23"
 ---
 
+## Directed action and external datum (2026-11-25)
+
+[Candidate evidence](source-action-datum-candidate.json), [review](hostile-reviews/2026-11-25-source-action-datum-review.md). Explicit local action and smooth balanced boundary connection; no physical receiver or source verdict.
+
 ## Tensor normalization and restored symmetry (2026-11-25)
 
 [Effective stabilizer and limit evidence](tensor-normalization-wave.json), [independent review](hostile-reviews/2026-11-25-tensor-normalization-review.md). Whole measure-class exclusions with scalar-flat and singular controls; no source or scientific matrix verdict change.

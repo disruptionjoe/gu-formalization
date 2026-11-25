@@ -1475,7 +1475,12 @@
         "lab/process/tensor-normalization-wave.json",
         "tests/program-focus/tensor_normalization_probe.py",
         "Lean/GUFormalization/LorentzMeasureCore.lean",
-        "lab/process/hostile-reviews/2026-11-25-tensor-normalization-review.md"
+        "lab/process/hostile-reviews/2026-11-25-tensor-normalization-review.md",
+        "explorations/conditional-build/source-action-external-datum-candidate-2026-11-25.md",
+        "explorations/conditional-build/source-action-datum-variation-tests-2026-11-25.md",
+        "lab/process/source-action-datum-candidate.json",
+        "tests/program-focus/source_action_datum_probe.py",
+        "lab/process/hostile-reviews/2026-11-25-source-action-datum-review.md"
       ],
       "packet_step_status": "steps0-5 done; source-required packet complete; physical applications retain named inputs",
       "next_run": "Reuse the compact-effective-stabilizer criterion and conformal-support classification; tensor-free normalization and regular fully restored probability are settled in these categories. Compare the source-described non-LC displacement joint action and physical observation-domain test against the strongest other eligible class question under unchanged cadence. The prior source-law corpus audit is complete; only newly authenticated data reopen that blocked branch, and other eligible structural tests remain selectable. The missing joint gauge action is not supplied by bare tensor components; finite invariant background probability and full tensor restoration remain unasserted source premises. Do not infer source failure from ordinary L2 normalization or scalar-curvature decay. Continue eligible science without constructing the gated source operator.",
@@ -1674,6 +1679,21 @@
         "source_bridge": "conditional; source necessity absent for finite background probability/full restoration/common regular limit",
         "scientific_status_effect": "unchanged",
         "next_discriminator": "Reuse the compact-effective-stabilizer criterion and conformal-support classification; tensor-free normalization and regular fully restored probability are settled in these categories. Compare the source-described non-LC displacement joint action and physical observation-domain test against the strongest other eligible class question under unchanged cadence. The prior source-law corpus audit is complete; only newly authenticated data reopen that blocked branch, and other eligible structural tests remain selectable. The missing joint gauge action is not supplied by bare tensor components; finite invariant background probability and full tensor restoration remain unasserted source premises. Do not infer source failure from ordinary L2 normalization or scalar-curvature decay. Continue eligible science without constructing the gated source operator."
+      },
+      "directed_action_datum_2026_11_25": {
+        "tier": "T2",
+        "authority": "Specific directed construction exception; no standing governance amendment or GU-min freeze.",
+        "actual_delta": "One explicit local K95 first-bosonic-plus-independent-bar fermion action is completed with a coherent two-frame law and its actual Euler/current. A smooth boundary connection on the fixed128 carrier carries imported relative charges(+3,-3). Metric coordinate-chain corrections and literal-observation nonclosure are retained. This is a nonempty off-shell configuration, not a stationary GU solution, native P3 receiver or certified action-class-C member.",
+        "evidence": [
+          "explorations/conditional-build/source-action-external-datum-candidate-2026-11-25.md",
+          "explorations/conditional-build/source-action-datum-variation-tests-2026-11-25.md",
+          "lab/process/source-action-datum-candidate.json",
+          "tests/program-focus/source_action_datum_probe.py",
+          "lab/process/hostile-reviews/2026-11-25-source-action-datum-review.md"
+        ],
+        "source_bridge": "conditional reconstruction; no source selection or physical P3 receiver",
+        "scientific_status_effect": "unchanged",
+        "next_discriminator": "Retain this as a Joe-directed T2 reconstruction, not a source action selection or GU-min freeze. Actual Eulers, stationary boundary configuration, solution-restricted observation and physical charge/index receiver are the substantive tests of this fixed candidate. Ordinary program_focus and LC cadence remain unchanged; no automatic coefficient search or construction-priority reset. The same datum works for every integer k, so its chosen3 has no prediction credit."
       }
     }
   ],
@@ -1685,7 +1705,7 @@
     },
     "LB-CLASS": {
       "zero_delta_streak": 0,
-      "runs": 1,
+      "runs": 2,
       "status": "open"
     },
     "LB-LADDER": {
@@ -2585,11 +2605,26 @@
       ],
       "claim_effect": "Internal measure-class exclusions only; no source/ledger/C verdict",
       "review": "Two independent mathematics reviews, hostile source review, exact controls and actual boost algebra Lean"
+    },
+    {
+      "date": "2026-11-25",
+      "target": "LB-CLASS / X-P1-P2-P3",
+      "previous_status": "open",
+      "status": "open",
+      "actual_delta": "One explicit local K95 first-bosonic-plus-independent-bar fermion action is completed with a coherent two-frame law and its actual Euler/current. A smooth boundary connection on the fixed128 carrier carries imported relative charges(+3,-3). Metric coordinate-chain corrections and literal-observation nonclosure are retained. This is a nonempty off-shell configuration, not a stationary GU solution, native P3 receiver or certified action-class-C member.",
+      "evidence": [
+        "explorations/conditional-build/source-action-external-datum-candidate-2026-11-25.md",
+        "explorations/conditional-build/source-action-datum-variation-tests-2026-11-25.md",
+        "lab/process/source-action-datum-candidate.json",
+        "tests/program-focus/source_action_datum_probe.py",
+        "lab/process/hostile-reviews/2026-11-25-source-action-datum-review.md"
+      ],
+      "claim_effect": "Construction/specification delta only; no class shrinkage or verdict credit."
     }
   ],
   "program_run_counter": {
     "since": "2026-11-09",
-    "count": 42,
+    "count": 43,
     "rule": "Every hourly run increments this in its postflight, whatever its lane. Lane C runs when count % 4 == 3 before the increment."
   },
   "working_rule": "Cells are worked at the structure level: a requirement must hold for every action in class C or for a structurally defined subfamily. No cell is worked by writing down a specific action, and no gated cell is worked by building its gate object. See CURRENT-STATE.yaml program_focus.structure_not_specifics.",
@@ -2784,6 +2819,15 @@
       "counter_after": 42,
       "lane": "LB-LADDER",
       "actual_delta": "Finite smooth strictly positive metric-fibre normalization exists on a fixed tensor orbit iff the effective Lorentz stabilizer, including internal gauge compensation, is compact. Every Lorentz-invariant finite probability is supported on the positive conformal ray; a common symmetry-restored limit cannot be a regular full-dimensional density. Scalar-flat Ricci retains compact isotropy and defeats the scalar-zero implies full-restoration inference. Fixed smooth reweighting does not repair the same-operator local trace failure. No source/GU/class-C or scientific matrix verdict changes."
+    },
+    {
+      "date": "2026-11-25",
+      "authority": "joe_direct_chat_best_source_action_and_external_datum_2026_11_25",
+      "item": "Directed source-action and external-datum construction",
+      "counter_before": 42,
+      "counter_after": 43,
+      "lane": "LB-CLASS",
+      "actual_delta": "One explicit local K95 first-bosonic-plus-independent-bar fermion action is completed with a coherent two-frame law and its actual Euler/current. A smooth boundary connection on the fixed128 carrier carries imported relative charges(+3,-3). Metric coordinate-chain corrections and literal-observation nonclosure are retained. This is a nonempty off-shell configuration, not a stationary GU solution, native P3 receiver or certified action-class-C member."
     }
   ],
   "directed_lc_carry_2026_11_24_b": {
@@ -3029,6 +3073,24 @@
           "explorations/conditional-build/symmetry-restoration-measure-limit-2026-11-25.md"
         ],
         "structural_choices": "Effective joint stabilizer, background-versus-state normalization, support category and common-limit quantifier. None fixes an action."
+      },
+      {
+        "question": "Does the explicit local action and balanced boundary datum furnish a physical source receiver?",
+        "premise_status": "One Joe-directed reconstruction; source necessity absent",
+        "source_claim_refs": [
+          "lab/sources/source-claim-register.yaml#SC-ACT-01",
+          "lab/sources/source-claim-register.yaml#SC-OP-04",
+          "lab/sources/source-claim-register.yaml#SC-GEO-55"
+        ],
+        "source_bridge": {
+          "status": "conditional",
+          "reason": "Complete local law and datum constructed, but stationary background, native end/domain, active physical gauge and observed integer map remain missing."
+        },
+        "evidence": [
+          "explorations/conditional-build/source-action-external-datum-candidate-2026-11-25.md",
+          "explorations/conditional-build/source-action-datum-variation-tests-2026-11-25.md"
+        ],
+        "choices": "K95, explicit comm/symi/symi Shiab, minimal fermion C, independent dual rows, SE0, local units, regulator boundary, J splitting and empirical-matching k3. No source uniquely selects these."
       }
     ],
     "shared_prerequisites": [

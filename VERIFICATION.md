@@ -17,6 +17,19 @@ External review is not a pathway in this program. The honesty label stays: inter
 
 Sections below are historical snapshots in file order.
 
+## Directed source-action and external-datum attempt (2026-11-25)
+
+A local K95 candidate now combines the source first-bosonic-action grammar with
+an independent-bar fermion bilinear, explicit two-frame covariance and actual
+Euler/current derivatives. A smooth boundary connection carries imported charges
+(+3,-3) without three matter copies. This is an off-shell classical construction;
+no stationary GU solution, physical P3 receiver or action-class-C membership is
+certified. The literal unrestricted-jet observation obstruction remains.
+
+[Candidate](explorations/conditional-build/source-action-external-datum-candidate-2026-11-25.md), [variation/tests](explorations/conditional-build/source-action-datum-variation-tests-2026-11-25.md), [review](lab/process/hostile-reviews/2026-11-25-source-action-datum-review.md).
+
+Exact controls: 37. Independent specialist review covers written local construction; topology uses the stated ABS anchor. No Lean, stationary solution or physical-index proof is claimed.
+
 ## Independent chiral transport (2026-11-25)
 
 The entire existing two-weight wedge/southeast family has the same local
@@ -2928,7 +2941,7 @@ K2195 excludes EVERY anticommuting fixed normalized adapter, including nonscalar
 - [K2195](explorations/conditional-build/k2195-anticommuting-spectral-reduction-2026-10-28.md).
 - [K2196](explorations/conditional-build/k2196-detector-primal-dual-certificates-2026-10-28.md).
 
-Two read-only field specialists and a distinct actual-artifact acceptance reviewer checked the final arguments and instruments. K2195 has304 exact controls, the exhaustive6545-composition trace census, complete one/two/three/four-root exclusions, exact Bezout and exceptional-rank certificates and5 genuine fault detections. K2196 has35 exact controls and6 faults, plus a rational re-verification of the inherited61-rectangle bracket. Universal pairing/trace and infinite-tail/error proofs, finite controls and inherited certificate reuse remain distinct evidence kinds. No heavy build, proof-assistant, external-expert, novelty or remote-CI certification.
+Two read-only field specialists and a distinct actual-artifact acceptance reviewer checked the final arguments and instruments. K2195 has304 exact controls, the exhaustive6545-composition trace census, complete one/two/three/four-root exclusions, exact Bezout and exceptional-rank certificates and5 genuine fault detections. K2196 has37 exact controls and6 faults, plus a rational re-verification of the inherited61-rectangle bracket. Universal pairing/trace and infinite-tail/error proofs, finite controls and inherited certificate reuse remain distinct evidence kinds. No heavy build, proof-assistant, external-expert, novelty or remote-CI certification.
 
 Earlier sections preserve historical result snapshots; the current scope is above.
 
@@ -4245,7 +4258,7 @@ Conditional one-particle mathematics only; no source, physics-ledger or canon pr
 - [K2061](explorations/conditional-build/k2061-common-asymptotic-sector-2026-10-25.md).
 - [K2062](explorations/conditional-build/k2062-bounded-local-multiplier-rigidity-2026-10-25.md).
 
-K2061 producer83 exact controls and separate Pauli probe41 controls pass; five faults rejected. K2062 producer35 exact controls, separate full finite-jet nullities1/2/3 for massive/massless/one-direction cases,15 projection/kernel controls and six fault discriminators pass. Written proofs supply measure-zero, smooth-pulse analyticity, dense/nonclosed range, H1 modulation, measurable convolution, universal region unsharpness and spatial decay statements. The actual1408 graph is hash-pinned reuse. Same-author separate implementations and hostile proof review only; no independent specialist, external, proof-assistant or novelty certification.
+K2061 producer83 exact controls and separate Pauli probe41 controls pass; five faults rejected. K2062 producer37 exact controls, separate full finite-jet nullities1/2/3 for massive/massless/one-direction cases,15 projection/kernel controls and six fault discriminators pass. Written proofs supply measure-zero, smooth-pulse analyticity, dense/nonclosed range, H1 modulation, measurable convolution, universal region unsharpness and spatial decay statements. The actual1408 graph is hash-pinned reuse. Same-author separate implementations and hostile proof review only; no independent specialist, external, proof-assistant or novelty certification.
 
 
 ## 2026-10-25: Energy-aware thermal bounds and positive-energy sectors
@@ -4852,7 +4865,7 @@ remain open; source, physics-ledger and canon verdicts are unchanged.
 - [K1999](explorations/conditional-build/k1999-effective-rank-residual-bound-2026-10-23.md).
 - [K2000](explorations/conditional-build/k2000-raw-pairing-polynomial-structure-2026-10-23.md).
 
-The scalar producer checks4935 exact rational inequalities; its separate probe checks1738
+The scalar producer checks4937 exact rational inequalities; its separate probe checks1738
 integral/matrix/approximation identities. The raw-pairing producer verifies128 complete
 256-dimensional modular blocks plus two14-dimensional phase minors; a separate direct
 raw reconstruction checks full rank at a second prime and436 phase/contrary identities.
@@ -6791,7 +6804,7 @@ No fitted Hamiltonian is substituted, no odd-sector gap is certified, and no
 restricted quantitative gain or unrestricted endpoint is inferred.
 
 K1848:26 exact algebra groups and219 independent rational controls, including
-6 input faults and3 separate reporting faults. K1849:35 exact groups and170
+6 input faults and3 separate reporting faults. K1849:37 exact groups and170
 independent controls, including10 input faults and4 reporting faults. Written
 operator, ODE, weighted-Hardy and nonlinear proofs remain distinct from finite
 controls. No independent-agent, formal-proof, novelty or external acceptance
@@ -10297,7 +10310,7 @@ python3 tests/channel-swings/k940_sc_act_06_analytic_ownership_boundary.py --che
 python3 tests/channel-swings/k940_sc_act_06_analytic_ownership_boundary_probe.py
 ```
 
-## K931--K935 exact auxiliary realization boundary (2026-10-03)
+## K931--K937 exact auxiliary realization boundary (2026-10-03)
 
 K931 separates principal-symbol existence from exact all-frequency
 quantization. Because `P_H(tq)=P_H(q)` for positive `t`, a continuous value at

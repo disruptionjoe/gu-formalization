@@ -1,7 +1,7 @@
 schema_version: '1.0'
 repository: observerse-research-program
 branch: main
-revision_basis: e5d3d250018a50c00165746d1902883b88694a38
+revision_basis: 4c693e5aacf8fe3f83d49efaf6978c77631dd20b
 program_focus:
   version: 2026-11-25-v1
   authority: joe_direct_chat_2026_11_25_five_process_improvements_approved
@@ -139,6 +139,27 @@ program_focus:
     covered; source relevance separately from mathematical breadth; shared prerequisite if any; remaining
     cost; strongest eligible alternative. A blocked high-value target is not an eligible alternative without
     its missing input. Reuse completed theorems and compare only their uncovered successors.'
+source_action_datum_2026_11_25:
+  status: reviewed_T2_local_classical_candidate
+  authority: Specific directed construction exception; no standing governance amendment or GU-min freeze.
+  actual_delta: One explicit local K95 first-bosonic-plus-independent-bar fermion action is completed
+    with a coherent two-frame law and its actual Euler/current. A smooth boundary connection on the fixed128
+    carrier carries imported relative charges(+3,-3). Metric coordinate-chain corrections and literal-observation
+    nonclosure are retained. This is a nonempty off-shell configuration, not a stationary GU solution,
+    native P3 receiver or certified action-class-C member.
+  evidence:
+  - explorations/conditional-build/source-action-external-datum-candidate-2026-11-25.md
+  - explorations/conditional-build/source-action-datum-variation-tests-2026-11-25.md
+  - lab/process/source-action-datum-candidate.json
+  - tests/program-focus/source_action_datum_probe.py
+  - lab/process/hostile-reviews/2026-11-25-source-action-datum-review.md
+  claim_effect: No source/physical/C/matrix status; candidate configuration not solution
+  counter_accounting: 42->43 once; LB-CLASS1->2; no bet credit; LC cadence unchanged
+  next_condition: Retain this as a Joe-directed T2 reconstruction, not a source action selection or GU-min
+    freeze. Actual Eulers, stationary boundary configuration, solution-restricted observation and physical
+    charge/index receiver are the substantive tests of this fixed candidate. Ordinary program_focus and
+    LC cadence remain unchanged; no automatic coefficient search or construction-priority reset. The same
+    datum works for every integer k, so its chosen3 has no prediction credit.
 tensor_normalization_2026_11_25:
   status: accepted_internal_T1_scoped
   actual_delta: Finite smooth strictly positive metric-fibre normalization exists on a fixed tensor orbit

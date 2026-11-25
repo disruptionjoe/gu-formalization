@@ -1,0 +1,124 @@
+{
+  "schema_version": "1.0",
+  "artifact": "source-action-datum-candidate",
+  "date": "2026-11-25",
+  "revision_basis": "4c693e5aacf8fe3f83d49efaf6978c77631dd20b",
+  "authority": "joe_direct_chat_best_source_action_and_external_datum_2026_11_25",
+  "authority_scope": "Specific directed construction exception; no standing governance amendment or GU-min freeze.",
+  "target": "LB-CLASS / X-P1-P2-P3",
+  "tier": "T2_reviewed_reconstruction",
+  "actual_delta": "One explicit local K95 first-bosonic-plus-independent-bar fermion action is completed with a coherent two-frame law and its actual Euler/current. A smooth boundary connection on the fixed128 carrier carries imported relative charges(+3,-3). Metric coordinate-chain corrections and literal-observation nonclosure are retained. This is a nonempty off-shell configuration, not a stationary GU solution, native P3 receiver or certified action-class-C member.",
+  "primary_candidate": {
+    "geometry": "K95 metric bundle with lambda1/2",
+    "fields": "g,A,epsilon,full-Dirac0+1 fields and independent dual rows",
+    "bosonic": "I1B path-average; explicit comm/symi/symi Shiab; kappa1 in local units",
+    "fermion": "minimal C d/d/-delta/SE0; source ambient-half collision retained",
+    "external_datum": "smooth local boundary connection from balanced Bott pair k=3,-3; external orientation,framing,J,domain and phase choices",
+    "observation": "literal q0; H7 two trace maps, no intertwining/Fredholm claim",
+    "principal_symbol": "Explicit inverse at every non-null covector, checked on actual128 K95 Clifford matrices; no causal/elliptic/physical transfer."
+  },
+  "source_bridge": {
+    "status": "conditional",
+    "source_necessary_claim": false,
+    "source_fixed": [
+      "metric arena",
+      "relative non-LC displacement",
+      "four independent fields",
+      "path-average action grammar",
+      "literal contraction",
+      "2+1 provenance"
+    ],
+    "reconstructed": [
+      "K95 spin/Krein packet",
+      "Shiab coefficient products",
+      "density/dual rows",
+      "two-frame completion",
+      "minimal spinor contraction",
+      "regulator boundary and charge data"
+    ],
+    "not_derived": [
+      "physical source symmetry",
+      "stationary charged background",
+      "P1 weak physical projector",
+      "P2 source weld",
+      "P3 observed family receiver",
+      "positive physical quantum theory",
+      "native APS/end attachment",
+      "Einstein recovery"
+    ]
+  },
+  "counter": {
+    "before": 42,
+    "after": 43,
+    "LB_CLASS_before": 1,
+    "LB_CLASS_after": 2,
+    "bet_credit": 0
+  },
+  "exact_controls": {
+    "schema": "source-action-datum-exact-controls-v1",
+    "passed": 37,
+    "checks": {
+      "Euclidean14_Hermitian": true,
+      "K95_Clifford_all_pairs": true,
+      "Krein_H_Hermitian_involution": true,
+      "Krein_H_trace_zero": true,
+      "all_gammas_Krein_skew": true,
+      "all_bivectors_Krein_skew": true,
+      "Bott13_Hermitian_Clifford": true,
+      "Bott_u_unitary_rational_control": true,
+      "Bott_u3_unitary_rational_control": true,
+      "balanced_charge_not_insertion_of_copies": true,
+      "radial_Chern7_beta_integral": true,
+      "Chern7_boundary_coefficient": true,
+      "paired_charge_total_zero": true,
+      "two_frame_B_composition": true,
+      "distortion_tensorial": true,
+      "dressed_A_covariance": true,
+      "omit_d_epsilon_mutation_detected": true,
+      "dressed_derivative_identity": true,
+      "reference_field_transform": true,
+      "actual_boson_Euler_includes_transpose": true,
+      "printed_endpoint_not_general_Euler": true,
+      "metric_fixed_A_chain_difference": true,
+      "fixed_T_chain_is_different": true,
+      "zero_on_correlated_locus": true,
+      "fixed_A_metric_Hessian_not_zero": true,
+      "boson_comm_symi_products_Krein_closed": true,
+      "Green_density_and_coefficient_derivatives": true,
+      "drop_density_coefficient_derivatives_detected": true,
+      "all_three_current_vertices_nonzero_polynomials": true,
+      "dropping_SW_changes_current": true,
+      "native128_principal_inverse_scalar_row": true,
+      "native128_principal_inverse_oneform_row": true,
+      "residual_square_stationary_nonzero": true,
+      "codimension10_H7_two_traces": true,
+      "literal_q0_normal_jet_visible": true,
+      "source_2plus1_dimensions": true,
+      "same128_carrier_all_integer_k": true
+    },
+    "scope": "Exact Clifford, connection first-jet, polynomial variation and radial controls. No numerical winding, global APS theorem, stationary field solution, physical positivity or family-count certification."
+  },
+  "review": {
+    "source_geometry": "accepted local classical scope; J extension integrated",
+    "external_data": "accepted local off-shell scope; charge not physical count",
+    "variation": "Accepted after final reread: fixed-A metric chain, J cancellation, fixed-T distinction, restricted Hessian and density boundary flux corrected; exact controls target the error. Further reviewed and accepted general non-null principal inverse."
+  },
+  "verification": "37 exact controls and all eight relevant native gates pass with existing coverage ceilings; protected policy/source/ledger/C/canon/bets and scientific statuses unchanged. No Lean or full-topology/physical proof claim.",
+  "evidence": [
+    "explorations/conditional-build/source-action-external-datum-candidate-2026-11-25.md",
+    "explorations/conditional-build/source-action-datum-variation-tests-2026-11-25.md",
+    "lab/process/source-action-datum-candidate.json",
+    "tests/program-focus/source_action_datum_probe.py",
+    "lab/process/hostile-reviews/2026-11-25-source-action-datum-review.md"
+  ],
+  "claim_effect": "No source/physics-ledger/canon/class-C or scientific matrix status change.",
+  "selection": {
+    "mandatory_basis": "Joe direct construction request; count42 ordinary B slot",
+    "scope": "One candidate, not whole-class falsification",
+    "source_relevance": "Actual source ingredients with every added choice labelled",
+    "shared_prerequisite": "Complete frame/row/density law now reconstructed; physical observed/domain receiver remains separate",
+    "remaining_cost": "Explicit assembly, actual variation, exact controls and specialist review",
+    "strongest_alternative": "Ordinary structural class test displaced by explicit directed request, not permanently reranked"
+  },
+  "process_effect": "Existing source/scope controls used; caught metric-coordinate and charge/count conflations. No process/governance change."
+}

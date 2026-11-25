@@ -16,6 +16,17 @@ Do not add "Current follow-through" sections or "Historical predecessor" stacks 
 matrix or bet file. The retired follow-through chain and banner stack are kept at the end of this file under
 "Archived steering history".
 
+## Directed source-action and external-datum attempt (2026-11-25)
+
+A local K95 candidate now combines the source first-bosonic-action grammar with
+an independent-bar fermion bilinear, explicit two-frame covariance and actual
+Euler/current derivatives. A smooth boundary connection carries imported charges
+(+3,-3) without three matter copies. This is an off-shell classical construction;
+no stationary GU solution, physical P3 receiver or action-class-C membership is
+certified. The literal unrestricted-jet observation obstruction remains.
+
+[Candidate](explorations/conditional-build/source-action-external-datum-candidate-2026-11-25.md), [variation/tests](explorations/conditional-build/source-action-datum-variation-tests-2026-11-25.md), [review](lab/process/hostile-reviews/2026-11-25-source-action-datum-review.md).
+
 ## Tensor normalization and restored symmetry (2026-11-25)
 
 Finite smooth metric-fibre probability exists on a tensor orbit exactly when the
