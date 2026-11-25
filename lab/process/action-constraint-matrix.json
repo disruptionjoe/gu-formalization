@@ -1480,7 +1480,12 @@
         "explorations/conditional-build/source-action-datum-variation-tests-2026-11-25.md",
         "lab/process/source-action-datum-candidate.json",
         "tests/program-focus/source_action_datum_probe.py",
-        "lab/process/hostile-reviews/2026-11-25-source-action-datum-review.md"
+        "lab/process/hostile-reviews/2026-11-25-source-action-datum-review.md",
+        "explorations/conditional-build/source-action-wave2-construction-2026-11-25.md",
+        "explorations/conditional-build/source-action-wave2-specialist-assessment-2026-11-25.md",
+        "lab/process/source-action-wave2.json",
+        "tests/program-focus/source_action_wave2_probe.py",
+        "lab/process/hostile-reviews/2026-11-25-source-action-wave2-review.md"
       ],
       "packet_step_status": "steps0-5 done; source-required packet complete; physical applications retain named inputs",
       "next_run": "Reuse the compact-effective-stabilizer criterion and conformal-support classification; tensor-free normalization and regular fully restored probability are settled in these categories. Compare the source-described non-LC displacement joint action and physical observation-domain test against the strongest other eligible class question under unchanged cadence. The prior source-law corpus audit is complete; only newly authenticated data reopen that blocked branch, and other eligible structural tests remain selectable. The missing joint gauge action is not supplied by bare tensor components; finite invariant background probability and full tensor restoration remain unasserted source premises. Do not infer source failure from ordinary L2 normalization or scalar-curvature decay. Continue eligible science without constructing the gated source operator.",
@@ -1694,6 +1699,20 @@
         "source_bridge": "conditional reconstruction; no source selection or physical P3 receiver",
         "scientific_status_effect": "unchanged",
         "next_discriminator": "Retain this as a Joe-directed T2 reconstruction, not a source action selection or GU-min freeze. Actual Eulers, stationary boundary configuration, solution-restricted observation and physical charge/index receiver are the substantive tests of this fixed candidate. Ordinary program_focus and LC cadence remain unchanged; no automatic coefficient search or construction-priority reset. The same datum works for every integer k, so its chosen3 has no prediction credit."
+      },
+      "directed_action_wave2_2026_11_25": {
+        "tier": "T2",
+        "actual_delta": "The source-admitted SE=-1/2 completion repairs the previous candidate horizontal Jordan defect and has exact Dirac principal blocks with explicit full-U lower terms, dual rows and transported observation. Actual K95 bosonic coefficients and a nonzero endpoint Helmholtz defect are checked. A unique nonlinear formal inverse-kappa series solves every connection component and induces curvature-current/current-current terms. No convergent or full stationary physical solution, prescribed charged boundary or family receiver is supplied.",
+        "evidence": [
+          "explorations/conditional-build/source-action-wave2-construction-2026-11-25.md",
+          "explorations/conditional-build/source-action-wave2-specialist-assessment-2026-11-25.md",
+          "lab/process/source-action-wave2.json",
+          "tests/program-focus/source_action_wave2_probe.py",
+          "lab/process/hostile-reviews/2026-11-25-source-action-wave2-review.md"
+        ],
+        "source_bridge": "conditional candidate; no source necessity or physical integer receiver",
+        "scientific_status_effect": "unchanged",
+        "next_discriminator": "The revised fixed action and all-component formal branch are available for controlled analytic/stationary realization with metric, matter, boundary and observation held together. Reuse the existing classifier and actual Euler rather than scan neighboring SE coefficients or repeat winding arithmetic. Endpoint ownership, convergence at kappa1, physical symmetry/positivity and the integer receiver remain explicit. Ordinary selection continues under unchanged policy; no waiting checkpoint or permanent construction priority."
       }
     }
   ],
@@ -1705,7 +1724,7 @@
     },
     "LB-CLASS": {
       "zero_delta_streak": 0,
-      "runs": 2,
+      "runs": 3,
       "status": "open"
     },
     "LB-LADDER": {
@@ -2624,7 +2643,7 @@
   ],
   "program_run_counter": {
     "since": "2026-11-09",
-    "count": 43,
+    "count": 44,
     "rule": "Every hourly run increments this in its postflight, whatever its lane. Lane C runs when count % 4 == 3 before the increment."
   },
   "working_rule": "Cells are worked at the structure level: a requirement must hold for every action in class C or for a structurally defined subfamily. No cell is worked by writing down a specific action, and no gated cell is worked by building its gate object. See CURRENT-STATE.yaml program_focus.structure_not_specifics.",
@@ -2828,6 +2847,15 @@
       "counter_after": 43,
       "lane": "LB-CLASS",
       "actual_delta": "One explicit local K95 first-bosonic-plus-independent-bar fermion action is completed with a coherent two-frame law and its actual Euler/current. A smooth boundary connection on the fixed128 carrier carries imported relative charges(+3,-3). Metric coordinate-chain corrections and literal-observation nonclosure are retained. This is a nonempty off-shell configuration, not a stationary GU solution, native P3 receiver or certified action-class-C member."
+    },
+    {
+      "date": "2026-11-25",
+      "authority": "joe_direct_chat_twenty_specialist_action_wave",
+      "item": "Directed source-action wave2",
+      "counter_before": 43,
+      "counter_after": 44,
+      "lane": "LB-CLASS",
+      "actual_delta": "The source-admitted SE=-1/2 completion repairs the previous candidate horizontal Jordan defect and has exact Dirac principal blocks with explicit full-U lower terms, dual rows and transported observation. Actual K95 bosonic coefficients and a nonzero endpoint Helmholtz defect are checked. A unique nonlinear formal inverse-kappa series solves every connection component and induces curvature-current/current-current terms. No convergent or full stationary physical solution, prescribed charged boundary or family receiver is supplied."
     }
   ],
   "directed_lc_carry_2026_11_24_b": {
@@ -3090,7 +3118,17 @@
           "explorations/conditional-build/source-action-external-datum-candidate-2026-11-25.md",
           "explorations/conditional-build/source-action-datum-variation-tests-2026-11-25.md"
         ],
-        "choices": "K95, explicit comm/symi/symi Shiab, minimal fermion C, independent dual rows, SE0, local units, regulator boundary, J splitting and empirical-matching k3. No source uniquely selects these."
+        "choices": "K95, explicit comm/symi/symi Shiab, minimal fermion C, independent dual rows, SE0, local units, regulator boundary, J splitting and empirical-matching k3. No source uniquely selects these.",
+        "wave2_update": {
+          "evidence": [
+            "explorations/conditional-build/source-action-wave2-construction-2026-11-25.md",
+            "explorations/conditional-build/source-action-wave2-specialist-assessment-2026-11-25.md",
+            "lab/process/source-action-wave2.json"
+          ],
+          "completion": "SE\u22121/2 repairs chosen principal defect; source/current/decoder retained. Formal nonlinear all-component connection branch exists.",
+          "remaining": "Actual printed endpoint identification, convergence/stationary metric+matter, charged boundary, physical gauge/domain and family receiver are not proved.",
+          "assumption_status": "reconstructed source-admitted choice; no source selection, not a class-C witness"
+        }
       }
     ],
     "shared_prerequisites": [

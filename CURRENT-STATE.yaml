@@ -1,7 +1,7 @@
 schema_version: '1.0'
 repository: observerse-research-program
 branch: main
-revision_basis: 4c693e5aacf8fe3f83d49efaf6978c77631dd20b
+revision_basis: ea439213eb35fac30b8a93d45fd28371b5b146ce
 program_focus:
   version: 2026-11-25-v1
   authority: joe_direct_chat_2026_11_25_five_process_improvements_approved
@@ -139,6 +139,29 @@ program_focus:
     covered; source relevance separately from mathematical breadth; shared prerequisite if any; remaining
     cost; strongest eligible alternative. A blocked high-value target is not an eligible alternative without
     its missing input. Reuse completed theorems and compare only their uncovered successors.'
+source_action_wave2_2026_11_25:
+  status: internally_reviewed_T2_local_formal_candidate
+  actual_delta: The source-admitted SE=-1/2 completion repairs the previous candidate horizontal Jordan
+    defect and has exact Dirac principal blocks with explicit full-U lower terms, dual rows and transported
+    observation. Actual K95 bosonic coefficients and a nonzero endpoint Helmholtz defect are checked.
+    A unique nonlinear formal inverse-kappa series solves every connection component and induces curvature-current/current-current
+    terms. No convergent or full stationary physical solution, prescribed charged boundary or family receiver
+    is supplied.
+  evidence:
+  - explorations/conditional-build/source-action-wave2-construction-2026-11-25.md
+  - explorations/conditional-build/source-action-wave2-specialist-assessment-2026-11-25.md
+  - lab/process/source-action-wave2.json
+  - tests/program-focus/source_action_wave2_probe.py
+  - lab/process/hostile-reviews/2026-11-25-source-action-wave2-review.md
+  claim_effect: No scientific matrix, source, physics-ledger, action-class, canon or paper verdict change.
+  counter_accounting: 43->44 once;LB-CLASS2->3;direct instruction takes precedence this run;no bet credit;cadence
+    rule unchanged
+  next_condition: The revised fixed action and all-component formal branch are available for controlled
+    analytic/stationary realization with metric, matter, boundary and observation held together. Reuse
+    the existing classifier and actual Euler rather than scan neighboring SE coefficients or repeat winding
+    arithmetic. Endpoint ownership, convergence at kappa1, physical symmetry/positivity and the integer
+    receiver remain explicit. Ordinary selection continues under unchanged policy; no waiting checkpoint
+    or permanent construction priority.
 source_action_datum_2026_11_25:
   status: reviewed_T2_local_classical_candidate
   authority: Specific directed construction exception; no standing governance amendment or GU-min freeze.

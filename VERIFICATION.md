@@ -17,6 +17,18 @@ External review is not a pathway in this program. The honesty label stays: inter
 
 Sections below are historical snapshots in file order.
 
+## Source-action second construction (2026-11-25)
+
+The SE=-1/2 completion removes the first candidate's horizontal Jordan defect,
+with an exact Dirac principal factorization and explicit lower-order, dual-row
+and observation transformations. The actual K95 bosonic functional has a
+nonzero endpoint Helmholtz defect. Its full connection Euler admits a unique
+formal inverse-kappa series, inducing curvature-current and current-current
+terms. Convergence, full coupled stationarity, charged boundary compatibility
+and a physical family-count receiver remain unproved. No scientific verdict changed.
+
+[Construction](explorations/conditional-build/source-action-wave2-construction-2026-11-25.md), [twenty-lens assessment](explorations/conditional-build/source-action-wave2-specialist-assessment-2026-11-25.md), [evidence](lab/process/source-action-wave2.json).
+
 ## Directed source-action and external-datum attempt (2026-11-25)
 
 A local K95 candidate now combines the source first-bosonic-action grammar with

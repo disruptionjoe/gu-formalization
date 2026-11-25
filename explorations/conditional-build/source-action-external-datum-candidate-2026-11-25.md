@@ -62,6 +62,10 @@ action_owner: repository-construction using source-print ingredients
 target: coupled local variational action and external boundary connection MAP-TYPE=contraction
 ```
 
+## Follow-through: second construction wave (2026-11-25)
+
+The [second construction](source-action-wave2-construction-2026-11-25.md) applies the existing principal classifier: the SE0 choice below has a horizontal Jordan defect despite its valid non-null inverse. Its source-admitted SE=-1/2 successor removes that defect with the other arrows fixed. The same actual bosonic functional now has native K95 coefficient/Helmholtz controls and an all-component formal inverse-kappa connection solution. This does not establish the printed endpoint, convergence, a coupled stationary charged solution or a physical family receiver. The original formulas below remain as the reviewed first attempt; this dated continuation records their exact limits.
+
 ## 1. What this attempt supplies
 
 Joe explicitly requested the best attempt at **creating the source action and external datum** on November25. That is specific authority for this construction despite ordinary program_focus's no-action rule. The standing policy, class C and source verdicts are unchanged. This is not a GU-min freeze or an accepted GU theory.

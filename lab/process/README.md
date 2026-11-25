@@ -5,6 +5,10 @@ doc_type: overview
 updated_at: "2026-08-23"
 ---
 
+## Source-action wave2 (2026-11-25)
+
+[Evidence](source-action-wave2.json): SE completion and exact native Euler checks; nonlinear all-component formal connection construction. No convergent/full stationary physical solution or verdict.
+
 ## Directed action and external datum (2026-11-25)
 
 [Candidate evidence](source-action-datum-candidate.json), [review](hostile-reviews/2026-11-25-source-action-datum-review.md). Explicit local action and smooth balanced boundary connection; no physical receiver or source verdict.
