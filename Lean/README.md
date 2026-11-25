@@ -139,3 +139,7 @@ every library module to be imported or explicitly declared as a manual
 non-default certificate, and checks the Lean map, ledger, owner references, and
 proof-body placeholder hygiene. It is a routing and governance gate, not a
 replacement for `lake build` or targeted standalone Lean checks.
+
+## Actual-solution observation and natural density (2026-11-25)
+
+`GUFormalization/ObservationSolutionTrace.lean` adds five conditional declarations: Mathlib graph-limit nonclosability, persistence under extension, impossibility of finite bounds for arbitrarily many equal positive masses, the coarea power threshold and the trace scaling order. No `sorry` or axiom is introduced. Actual solution construction/limits, Clifford geometry, measure invariance, source domains and physical necessity remain in the independently reviewed written proofs. This is a verified conditional core, not a complete formalization or source validation. Exact controls:34 reduced Clifford/coarea checks and22 natural-density checks.

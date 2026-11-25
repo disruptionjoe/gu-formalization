@@ -22060,3 +22060,7 @@ zero-safe backend. K380/K381/K382 pass `13/13`, `12/12`, and `12/12` controls
 and reject `12/12`, `12/12`, and `10/10` hostile mutations. These certificates
 do not emit a node-jet bank, global Peano remainder, complete order-nine
 integral, action column, `R_ref`, K152 or physical conclusion.
+
+## Actual-solution observation and natural density (2026-11-25)
+
+`Lean/GUFormalization/ObservationSolutionTrace.lean` adds five conditional declarations: Mathlib graph-limit nonclosability, persistence under extension, impossibility of finite bounds for arbitrarily many equal positive masses, the coarea power threshold and the trace scaling order. No `sorry` or axiom is introduced. Actual solution construction/limits, Clifford geometry, measure invariance, source domains and physical necessity remain in the independently reviewed written proofs. This is a verified conditional core, not a complete formalization or source validation. Exact controls:34 reduced Clifford/coarea checks and22 natural-density checks.

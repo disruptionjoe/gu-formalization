@@ -145,6 +145,28 @@ program_focus:
     assumption_view: lab/process/action-constraint-matrix.json#source_relevance_assumption_view
     maintenance: Update linked assumptions when their evidence changes; refresh existing weekly metrics
       at weekly review. Labels and presence checks are not proof of relevance.
+solution_density_2026_11_25:
+  status: accepted_internal_T1_scoped
+  actual_delta: Exact solutions in the entire frozen homogeneous full18 symbol category retain nonclosable
+    literal observation on local L2 and the K95 real-sheet Hs<=4 cores; sharp stronger-domain repairs
+    are explicit. Every smooth positive zero-order (g,y)-natural full Lorentz-metric-fibre density has
+    infinite mass, excluding invariant scalar L2 localization in that category; extra timelike data gives
+    a finite-mass countercategory. No source/GU/classC or scientific matrix verdict changes.
+  evidence:
+  - explorations/conditional-build/solution-observation-trace-2026-11-25.md
+  - explorations/conditional-build/natural-density-fibre-volume-2026-11-25.md
+  - lab/process/solution-observation-trace.json
+  - lab/process/natural-density-fibre-volume.json
+  - lab/process/hostile-reviews/2026-11-25-solution-density-review.md
+  - Lean/GUFormalization/ObservationSolutionTrace.lean
+  claim_effect: Internal analytic categories only; no scientific matrix/source/physics/classC verdict
+  counter_accounting: 40->41 once; LB-LADDER14->15; no bet credit; existing cadence unchanged
+  next_condition: The solution-only and natural-density-only shortcuts are now settled in their declared
+    categories. A physical application needs an authenticated full differential realization and admitted
+    domain excluding the exact characteristic packets, a stronger topology/modified observation, or additional
+    source data breaking the density isotropy. Stronger-domain trace alone does not supply the forcing
+    trace qF, grading or Fredholm index. Recompare these burdens with other eligible structural questions
+    under existing selection; do not enumerate neighboring frozen coefficients or wait for authorization.
 chiral_weight_transport_2026_11_25:
   status: accepted_internal_T1_scoped
   actual_delta: Across the entire owned independent-chiral wedge/southeast family and every compatible

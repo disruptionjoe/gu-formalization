@@ -16,6 +16,18 @@ discovery bet (`lab/process/discovery-bets.json`). The K25xx--K2618 detector, pr
 results below are retained as conditional mathematics; that lane is no longer the default target. Sections
 below are dated results, newest first, and are not steering.
 
+## Actual-solution observation and natural density (2026-11-25)
+
+Exact solutions still defeat literal observation on ordinary local/finite-time L2
+and through initial H4 in the declared homogeneous natural-symbol category.
+The K95 real sheet has sharp stronger-domain repairs: closability above4 and
+bounded observed L2 at9/2. Separately, every smooth positive zero-order natural
+(g,y) density has infinite full Lorentz-metric-fibre mass; additional timelike
+data supplies a finite-mass countercategory. These are scoped internal analytic
+exclusions, with no source, GU, physical-ledger or class-C verdict.
+
+[Solution proof](explorations/conditional-build/solution-observation-trace-2026-11-25.md), [density proof](explorations/conditional-build/natural-density-fibre-volume-2026-11-25.md), [review](lab/process/hostile-reviews/2026-11-25-solution-density-review.md).
+
 ## Independent chiral transport (2026-11-25)
 
 The entire existing two-weight wedge/southeast family has the same local

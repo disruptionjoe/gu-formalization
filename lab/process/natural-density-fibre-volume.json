@@ -1,0 +1,76 @@
+{
+  "status": "accepted_internal_T1_scoped",
+  "date": "2026-11-25",
+  "basis_revision": "d1a1465890341b5df8c63e2c7d397f2ccd27c997",
+  "program_target": "LB-LADDER",
+  "tier": "T1",
+  "class_covered": "All smooth positive zero-order natural densities of two Lorentz metrics (g,y) on any nonempty invariant open subset of GL(4,R)/O(3,1), with no additional tensor, higher jet, quotient or singular support.",
+  "premises": [
+    "SC-GEO-03 metric-fibre arena only",
+    "SC-OP-04/05 candidate grammar and unselected rivals",
+    "SC-CHI-01/04 do not select a positive normal-L2 domain",
+    "SC-META-52/53 analytic and positivity ownership remains open"
+  ],
+  "source_bridge": {
+    "status": "conditional",
+    "reason": "The source has not selected the tested differential realization, physical domain/norm, or finite-mass necessity."
+  },
+  "internal_target": "INTERNAL-NATURAL-FULL-FIBRE-FINITE-MASS",
+  "internal_target_verdict": "excluded within the stated category; no source claim killed",
+  "actual_delta": "Every such density has infinite mass and no nonzero smooth invariant scalar L2 profile; required diagonal jet remains globally realizable, while an extra reference cocycle selects the relative determinant.",
+  "claim_effect": "Internal analytic category only; no source, ledger, class-C or scientific matrix status change",
+  "result": {
+    "jet": "d_y log rho|g=-1/2 tr(g^-1 dy), conditional on supplied geometric b=H criterion",
+    "naturality": "zero-order natural (g,y) positive smooth density on actual Lorentz metric fibre",
+    "global_mass": "infinite on every nonempty O(g)-invariant open subset",
+    "invariant_scalar_L2": "only zero",
+    "cocycle": "relative determinant unique only with additional normalized reference-composition law",
+    "countercategory": "extra unit timelike datum gives positive h and finite-mass exp(f0-Q), preserving the jet",
+    "not_covered": "arbitrary spinor localization, noninvariant states, singular measures, quotient domains, extra tensors, source normal-L2 necessity"
+  },
+  "verification": {
+    "exact_probe": {
+      "status": "pass",
+      "checks": 22,
+      "scope": "Exact controls for natural full-fibre density proofs, not physical selection.\nThe universal invariant-measure and integrability arguments remain written proofs.\n",
+      "results": {
+        "Lorentz boost preserves g": true,
+        "boost determinant one": true,
+        "same-signature null perturbation determinant": true,
+        "boost null evaluation scales four": true,
+        "relative determinant cannot damp this orbit": true,
+        "disjoint boost interval 0": true,
+        "disjoint boost interval 1": true,
+        "disjoint boost interval 2": true,
+        "disjoint boost interval 3": true,
+        "disjoint boost interval 4": true,
+        "Sym2 congruence determinant exponent five": true,
+        "vertical density covariance": true,
+        "trace-reversed Euler pairing": true,
+        "native raised H coefficient": true,
+        "lambda-one coefficient differs": true,
+        "degenerate trace reversal excluded": true,
+        "polynomial profile violates extra cocycle": true,
+        "higher natural jet zero at diagonal": true,
+        "extra timelike clock gives positive metric": true,
+        "clock data breaks full Lorentz stabilizer": true,
+        "determinant inverse power for density control": true,
+        "Gaussian absorbs polynomial inverse degree": true
+      }
+    },
+    "lean": {
+      "status": "pass: pinned module and aggregate root, lake env lean -j1",
+      "file": "Lean/GUFormalization/ObservationSolutionTrace.lean",
+      "declarations": 5,
+      "coverage": "Mathlib graph-closure obstruction, extension consequence, unbounded equal-mass sums and two arithmetic controls; full PDE/geometry proofs not formalized",
+      "cache_repair": "Aggregate root initially found nine missing historical project oleans; rebuilt only those pinned local modules serially, then root passed. Existing ObservedHiddenSplit unused-variable warning retained."
+    },
+    "review": "lab/process/hostile-reviews/2026-11-25-solution-density-review.md"
+  },
+  "evidence": [
+    "explorations/conditional-build/natural-density-fibre-volume-2026-11-25.md",
+    "lab/process/hostile-reviews/2026-11-25-solution-density-review.md",
+    "Lean/GUFormalization/ObservationSolutionTrace.lean"
+  ],
+  "next_condition": "The solution-only and natural-density-only shortcuts are now settled in their declared categories. A physical application needs an authenticated full differential realization and admitted domain excluding the exact characteristic packets, a stronger topology/modified observation, or additional source data breaking the density isotropy. Stronger-domain trace alone does not supply the forcing trace qF, grading or Fredholm index. Recompare these burdens with other eligible structural questions under existing selection; do not enumerate neighboring frozen coefficients or wait for authorization."
+}

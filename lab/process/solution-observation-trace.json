@@ -1,0 +1,91 @@
+{
+  "status": "accepted_internal_T1_scoped",
+  "date": "2026-11-25",
+  "basis_revision": "d1a1465890341b5df8c63e2c7d397f2ccd27c997",
+  "program_target": "LB-LADDER",
+  "tier": "T1",
+  "class_covered": "Every homogeneous constant-coefficient first-order member of the complex metric-Spin full18 symbol module with literal contraction; local tubes in separately typed K95/K77 geometry; global real-sheet estimates in K95 with H(3,1), N(6,4).",
+  "premises": [
+    "SC-GEO-03 metric-fibre arena only",
+    "SC-OP-04/05 candidate grammar and unselected rivals",
+    "SC-CHI-01/04 do not select a positive normal-L2 domain",
+    "SC-META-52/53 analytic and positivity ownership remains open"
+  ],
+  "source_bridge": {
+    "status": "conditional",
+    "reason": "The source has not selected the tested differential realization, physical domain/norm, or finite-mass necessity."
+  },
+  "internal_target": "INTERNAL-FULL18-SOLUTION-TRACE",
+  "internal_target_verdict": "excluded within the stated category; no source claim killed",
+  "actual_delta": "Exact solutions disprove the blanket solution-only repair of literal observation; nonclosable at initial Hs orders s<=4, closable above4, bounded at9/2 on the declared real sheet.",
+  "claim_effect": "Internal analytic category only; no source, ledger, class-C or scientific matrix status change",
+  "result": {
+    "local": "nonclosable exact solution trace on bounded tubes",
+    "real_sheet": "K95 H(3,1), N(6,4); finite-time full-spatial L2 or initial Hs",
+    "thresholds": {
+      "s<=4": "nonclosable",
+      "4<s<9/2": "closable but unbounded into L2",
+      "s>=9/2": "bounded into L2"
+    },
+    "critical_log": "H4 log-weight beta>1 closable; beta<=1 nonclosable; no finite log power makes global L2 trace bounded",
+    "positive_comparator": "compact normal-frequency fibres; distribution trace/closability at all s, with boundedness at9/2",
+    "not_covered": "arbitrary lower terms, curved native operator, physical gauge quotient, source action, all Jordan/imaginary-frequency solutions, equation-space qF"
+  },
+  "verification": {
+    "exact_probe": {
+      "status": "pass",
+      "checks": 34,
+      "scope": "Exact reduced Clifford and coarea controls; universal proof is in the note.\nReduced signature(2,2), H(1,1), N(1,1) tests slot/sign/order algebra only.\nThe native n14 polarization dimension and infinite-dimensional estimates are\nproved on paper, not inferred from these finite controls or from a source fit.\n",
+      "results": {
+        "indefinite Clifford relations": true,
+        "visible conormal gamma-traceless polarization": true,
+        "null Clifford kernel dimension": true,
+        "normal null input": true,
+        "normal kernel projection": true,
+        "normal screen projection": true,
+        "normal screen gamma insertion": true,
+        "normal smooth exact common polarization": true,
+        "normal observation nonzero": true,
+        "normal all non-scalar-input generators plain": true,
+        "normal all non-scalar-input generators input chirality": true,
+        "polarization anchors exactly": true,
+        "normal lower-term countercontrol": true,
+        "mixed null input": true,
+        "mixed kernel projection": true,
+        "mixed screen projection": true,
+        "mixed screen gamma insertion": true,
+        "mixed smooth exact common polarization": true,
+        "mixed observation nonzero": true,
+        "mixed all non-scalar-input generators plain": true,
+        "mixed all non-scalar-input generators input chirality": true,
+        "mixed lower-term countercontrol": true,
+        "coarea Jacobian": true,
+        "fixed-frequency shell grows R8": true,
+        "positive shell leading coefficient": true,
+        "s4 critical power": true,
+        "s9over2 integrable tail": true,
+        "sharp observed scaling": true,
+        "convergent radial integral s5": true,
+        "convergent radial integral s6": true,
+        "endpoint disjoint-shell averaging squared norm": true,
+        "critical logarithmic substitution": true,
+        "critical log beta2 tail": true,
+        "native visible dimension reused": true
+      }
+    },
+    "lean": {
+      "status": "pass: pinned module and aggregate root, lake env lean -j1",
+      "file": "Lean/GUFormalization/ObservationSolutionTrace.lean",
+      "declarations": 5,
+      "coverage": "Mathlib graph-closure obstruction, extension consequence, unbounded equal-mass sums and two arithmetic controls; full PDE/geometry proofs not formalized",
+      "cache_repair": "Aggregate root initially found nine missing historical project oleans; rebuilt only those pinned local modules serially, then root passed. Existing ObservedHiddenSplit unused-variable warning retained."
+    },
+    "review": "lab/process/hostile-reviews/2026-11-25-solution-density-review.md"
+  },
+  "evidence": [
+    "explorations/conditional-build/solution-observation-trace-2026-11-25.md",
+    "lab/process/hostile-reviews/2026-11-25-solution-density-review.md",
+    "Lean/GUFormalization/ObservationSolutionTrace.lean"
+  ],
+  "next_condition": "The solution-only and natural-density-only shortcuts are now settled in their declared categories. A physical application needs an authenticated full differential realization and admitted domain excluding the exact characteristic packets, a stronger topology/modified observation, or additional source data breaking the density isotropy. Stronger-domain trace alone does not supply the forcing trace qF, grading or Fredholm index. Recompare these burdens with other eligible structural questions under existing selection; do not enumerate neighboring frozen coefficients or wait for authorization."
+}

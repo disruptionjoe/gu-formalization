@@ -459,3 +459,7 @@ bicategory, ambidexterity or Mackey 2-functor is inferred.
 ## Independent chiral transport core (2026-11-25)
 
 `Lean/GUFormalization/ChiralWeightTransport.lean` is in the default root. Its five conditional theorems verify the density residual, dimension10 arithmetic obstruction and equality, conversion through a supplied faithful evaluation, and abstract consistent rows. The universal Clifford, Hermitian-adjoint, source and domain premises live in [the written result](../../explorations/conditional-build/bet-2plus1-chiral-weight-transport-2026-11-25.md). Pinned single-thread targeted check passed; this is not a formalization of the full geometric theorem.
+
+## Actual-solution observation and natural density (2026-11-25)
+
+`Lean/GUFormalization/ObservationSolutionTrace.lean` adds five conditional declarations: Mathlib graph-limit nonclosability, persistence under extension, impossibility of finite bounds for arbitrarily many equal positive masses, the coarea power threshold and the trace scaling order. No `sorry` or axiom is introduced. Actual solution construction/limits, Clifford geometry, measure invariance, source domains and physical necessity remain in the independently reviewed written proofs. This is a verified conditional core, not a complete formalization or source validation. Exact controls:34 reduced Clifford/coarea checks and22 natural-density checks.

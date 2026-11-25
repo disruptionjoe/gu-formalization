@@ -116,7 +116,13 @@
         "lab/process/observation-functional-dual.json",
         "tests/program-focus/observation_functional_dual_probe.py",
         "lab/process/hostile-reviews/2026-11-24-source-dual-grading-review.md",
-        "explorations/conditional-build/source-check-and-continuation-2026-11-24.md"
+        "explorations/conditional-build/source-check-and-continuation-2026-11-24.md",
+        "explorations/conditional-build/solution-observation-trace-2026-11-25.md",
+        "explorations/conditional-build/natural-density-fibre-volume-2026-11-25.md",
+        "lab/process/solution-observation-trace.json",
+        "lab/process/natural-density-fibre-volume.json",
+        "lab/process/hostile-reviews/2026-11-25-solution-density-review.md",
+        "Lean/GUFormalization/ObservationSolutionTrace.lean"
       ],
       "prior_requirement": "The RS boundary eta on RP^3 is 2-primary, so the boundary term does not source an order-3 count.",
       "actual_delta": "P3xdomain_boundary refined: closed/polarized B5 domains cannot supply a Fredholm index in the full-core category; exact high-null sequences survive weights, scalar shifts, asymptotic coefficients and all smooth radial projector-compatible connections, even unbounded. Fixed-domain Fredholm essential spectrum is all C; no physical-spectrum claim.",
@@ -143,6 +149,21 @@
           "lab/process/hostile-reviews/2026-11-24-source-dual-grading-review.md",
           "explorations/conditional-build/source-check-and-continuation-2026-11-24.md"
         ]
+      },
+      "solution_density_2026_11_25": {
+        "tier": "T1_scoped_internal_exclusions",
+        "actual_delta": "Exact solutions in the entire frozen homogeneous full18 symbol category retain nonclosable literal observation on local L2 and the K95 real-sheet Hs<=4 cores; sharp stronger-domain repairs are explicit. Every smooth positive zero-order (g,y)-natural full Lorentz-metric-fibre density has infinite mass, excluding invariant scalar L2 localization in that category; extra timelike data gives a finite-mass countercategory. No source/GU/classC or scientific matrix verdict changes.",
+        "evidence": [
+          "explorations/conditional-build/solution-observation-trace-2026-11-25.md",
+          "explorations/conditional-build/natural-density-fibre-volume-2026-11-25.md",
+          "lab/process/solution-observation-trace.json",
+          "lab/process/natural-density-fibre-volume.json",
+          "lab/process/hostile-reviews/2026-11-25-solution-density-review.md",
+          "Lean/GUFormalization/ObservationSolutionTrace.lean"
+        ],
+        "source_bridge": "conditional; no established action membership or physical domain/finite-mass necessity",
+        "scientific_status_effect": "unchanged",
+        "next_discriminator": "The solution-only and natural-density-only shortcuts are now settled in their declared categories. A physical application needs an authenticated full differential realization and admitted domain excluding the exact characteristic packets, a stronger topology/modified observation, or additional source data breaking the density isotropy. Stronger-domain trace alone does not supply the forcing trace qF, grading or Fredholm index. Recompare these burdens with other eligible structural questions under existing selection; do not enumerate neighboring frozen coefficients or wait for authorization."
       }
     },
     {
@@ -669,7 +690,13 @@
         "tests/program-focus/observation_functional_dual_probe.py",
         "lab/process/hostile-reviews/2026-11-24-source-dual-grading-review.md",
         "explorations/conditional-build/source-check-and-continuation-2026-11-24.md",
-        "explorations/conditional-build/exterior-symbol-orbits-conormal-2026-11-25.md"
+        "explorations/conditional-build/exterior-symbol-orbits-conormal-2026-11-25.md",
+        "explorations/conditional-build/solution-observation-trace-2026-11-25.md",
+        "explorations/conditional-build/natural-density-fibre-volume-2026-11-25.md",
+        "lab/process/solution-observation-trace.json",
+        "lab/process/natural-density-fibre-volume.json",
+        "lab/process/hostile-reviews/2026-11-25-solution-density-review.md",
+        "Lean/GUFormalization/ObservationSolutionTrace.lean"
       ],
       "grade": "independently reviewed conditional structural theorem; no full class-C or physical realization decision",
       "actual_delta": "Six-spinor value augmentation closes the stated tangential principal/evolution category. Invertible conormal principal symbols exclude value-only tangential autonomy on unrestricted ambient normal jets, invariant under equation-row changes; constrained extensions, derivative receivers and closed physical domains remain separate.",
@@ -704,6 +731,21 @@
           "lab/process/external-results-evidence-2026-11-25.json"
         ],
         "scope": "T2 applicability only. Actual solutions are not cutoff-stable; flat positive solution trace costs9/2 initial-data derivatives. Native ambient solution/forcing domain and normal estimate are unproved; qF remains a separate burden. No status, next-run, priority or counter change."
+      },
+      "solution_density_2026_11_25": {
+        "tier": "T1_scoped_internal_exclusions",
+        "actual_delta": "Exact solutions in the entire frozen homogeneous full18 symbol category retain nonclosable literal observation on local L2 and the K95 real-sheet Hs<=4 cores; sharp stronger-domain repairs are explicit. Every smooth positive zero-order (g,y)-natural full Lorentz-metric-fibre density has infinite mass, excluding invariant scalar L2 localization in that category; extra timelike data gives a finite-mass countercategory. No source/GU/classC or scientific matrix verdict changes.",
+        "evidence": [
+          "explorations/conditional-build/solution-observation-trace-2026-11-25.md",
+          "explorations/conditional-build/natural-density-fibre-volume-2026-11-25.md",
+          "lab/process/solution-observation-trace.json",
+          "lab/process/natural-density-fibre-volume.json",
+          "lab/process/hostile-reviews/2026-11-25-solution-density-review.md",
+          "Lean/GUFormalization/ObservationSolutionTrace.lean"
+        ],
+        "source_bridge": "conditional; no established action membership or physical domain/finite-mass necessity",
+        "scientific_status_effect": "unchanged",
+        "next_discriminator": "The solution-only and natural-density-only shortcuts are now settled in their declared categories. A physical application needs an authenticated full differential realization and admitted domain excluding the exact characteristic packets, a stronger topology/modified observation, or additional source data breaking the density isotropy. Stronger-domain trace alone does not supply the forcing trace qF, grading or Fredholm index. Recompare these burdens with other eligible structural questions under existing selection; do not enumerate neighboring frozen coefficients or wait for authorization."
       }
     },
     {
@@ -902,11 +944,32 @@
         "lab/process/source-prescription.json",
         "explorations/conditional-build/source-lower-term-compatibility-2026-11-13.md",
         "explorations/conditional-build/source-exterior-connection-2026-11-13.md",
-        "lab/process/source-exterior-connection.json"
+        "lab/process/source-exterior-connection.json",
+        "explorations/conditional-build/solution-observation-trace-2026-11-25.md",
+        "explorations/conditional-build/natural-density-fibre-volume-2026-11-25.md",
+        "lab/process/solution-observation-trace.json",
+        "lab/process/natural-density-fibre-volume.json",
+        "lab/process/hostile-reviews/2026-11-25-solution-density-review.md",
+        "Lean/GUFormalization/ObservationSolutionTrace.lean"
       ],
       "grade": "independently reviewed conditional structural theorem; no full class-C or physical realization decision",
       "actual_delta": "P2xvariational open->constrained: A P2 phase inferred from variationality must use the actual density-dual block and grading. For a fixed nondegenerate Hermitian pairing and epsilon-adjoint first-order block, complete coefficient equations apply; scalar principal dressings are real and variable real dressing requires half the symbol derivative plus an epsilon-adjoint zero-order remainder. Independent-bar/coupled blocks do not inherit that restriction without a proved block/pairing bridge.",
-      "next_run": "Determine which actual action dual and fermionic parity convention constrain P2, separating coflip phase from kinetic multiplier and native Krein form from action pairing."
+      "next_run": "Determine which actual action dual and fermionic parity convention constrain P2, separating coflip phase from kinetic multiplier and native Krein form from action pairing.",
+      "solution_density_2026_11_25": {
+        "tier": "T1_scoped_internal_exclusions",
+        "actual_delta": "Exact solutions in the entire frozen homogeneous full18 symbol category retain nonclosable literal observation on local L2 and the K95 real-sheet Hs<=4 cores; sharp stronger-domain repairs are explicit. Every smooth positive zero-order (g,y)-natural full Lorentz-metric-fibre density has infinite mass, excluding invariant scalar L2 localization in that category; extra timelike data gives a finite-mass countercategory. No source/GU/classC or scientific matrix verdict changes.",
+        "evidence": [
+          "explorations/conditional-build/solution-observation-trace-2026-11-25.md",
+          "explorations/conditional-build/natural-density-fibre-volume-2026-11-25.md",
+          "lab/process/solution-observation-trace.json",
+          "lab/process/natural-density-fibre-volume.json",
+          "lab/process/hostile-reviews/2026-11-25-solution-density-review.md",
+          "Lean/GUFormalization/ObservationSolutionTrace.lean"
+        ],
+        "source_bridge": "conditional; no established action membership or physical domain/finite-mass necessity",
+        "scientific_status_effect": "unchanged",
+        "next_discriminator": "The solution-only and natural-density-only shortcuts are now settled in their declared categories. A physical application needs an authenticated full differential realization and admitted domain excluding the exact characteristic packets, a stronger topology/modified observation, or additional source data breaking the density isotropy. Stronger-domain trace alone does not supply the forcing trace qF, grading or Fredholm index. Recompare these burdens with other eligible structural questions under existing selection; do not enumerate neighboring frozen coefficients or wait for authorization."
+      }
     },
     {
       "row": "P2",
@@ -1382,7 +1445,13 @@
         "explorations/conditional-build/source-symmetry-matching-scope-2026-11-24.md",
         "lab/process/source-class-wave.json",
         "lab/process/hostile-reviews/2026-11-24-source-class-wave-review.md",
-        "Lean/GUFormalization/SourceClassCore.lean"
+        "Lean/GUFormalization/SourceClassCore.lean",
+        "explorations/conditional-build/solution-observation-trace-2026-11-25.md",
+        "explorations/conditional-build/natural-density-fibre-volume-2026-11-25.md",
+        "lab/process/solution-observation-trace.json",
+        "lab/process/natural-density-fibre-volume.json",
+        "lab/process/hostile-reviews/2026-11-25-solution-density-review.md",
+        "Lean/GUFormalization/ObservationSolutionTrace.lean"
       ],
       "packet_step_status": "steps0-5 done; source-required packet complete; physical applications retain named inputs",
       "next_run": "Use the live counter and current bet records with existing program_focus selection. the bounded source-law audit, universal-family stabilizer and regular exterior-symbol classification are complete; W09 absolute normal determinant/Spin existence is also complete. A physical whole-field covariance test requires a newly authenticated full two-sided field/bar/density/reference/observation law, typed as fixed or parameter-changing. Preserve the explicit R/4 toy and primitive currents; do not repeat the completed corpus audit or substitute a guessed law. Other eligible matrix or LB-CLASS targets remain selectable under program_focus; these conditional branches do not stop repository work.",
@@ -1551,6 +1620,21 @@
           "lab/process/external-results-evidence-2026-11-25.json"
         ],
         "scope": "T2 applicability only. Actual solutions are not cutoff-stable; flat positive solution trace costs9/2 initial-data derivatives. Native ambient solution/forcing domain and normal estimate are unproved; qF remains a separate burden. No status, next-run, priority or counter change."
+      },
+      "solution_density_2026_11_25": {
+        "tier": "T1_scoped_internal_exclusions",
+        "actual_delta": "Exact solutions in the entire frozen homogeneous full18 symbol category retain nonclosable literal observation on local L2 and the K95 real-sheet Hs<=4 cores; sharp stronger-domain repairs are explicit. Every smooth positive zero-order (g,y)-natural full Lorentz-metric-fibre density has infinite mass, excluding invariant scalar L2 localization in that category; extra timelike data gives a finite-mass countercategory. No source/GU/classC or scientific matrix verdict changes.",
+        "evidence": [
+          "explorations/conditional-build/solution-observation-trace-2026-11-25.md",
+          "explorations/conditional-build/natural-density-fibre-volume-2026-11-25.md",
+          "lab/process/solution-observation-trace.json",
+          "lab/process/natural-density-fibre-volume.json",
+          "lab/process/hostile-reviews/2026-11-25-solution-density-review.md",
+          "Lean/GUFormalization/ObservationSolutionTrace.lean"
+        ],
+        "source_bridge": "conditional; no established action membership or physical domain/finite-mass necessity",
+        "scientific_status_effect": "unchanged",
+        "next_discriminator": "The solution-only and natural-density-only shortcuts are now settled in their declared categories. A physical application needs an authenticated full differential realization and admitted domain excluding the exact characteristic packets, a stronger topology/modified observation, or additional source data breaking the density isotropy. Stronger-domain trace alone does not supply the forcing trace qF, grading or Fredholm index. Recompare these burdens with other eligible structural questions under existing selection; do not enumerate neighboring frozen coefficients or wait for authorization."
       }
     }
   ],
@@ -1567,7 +1651,7 @@
     },
     "LB-LADDER": {
       "zero_delta_streak": 0,
-      "runs": 14,
+      "runs": 15,
       "status": "open"
     }
   },
@@ -2418,11 +2502,33 @@
       ],
       "claim_effect": "Scoped internal graded-realization exclusion only; no whole-C decision",
       "review": "Two specialist mathematical reviews, hostile source review, Lean core and exact algebra"
+    },
+    {
+      "date": "2026-11-25",
+      "target": "X-P1-P2-P3",
+      "secondary_targets": [
+        "P1xdomain_boundary",
+        "P3xdomain_boundary",
+        "P2xvariational"
+      ],
+      "previous_status": "open",
+      "status": "open",
+      "actual_delta": "Exact solutions in the entire frozen homogeneous full18 symbol category retain nonclosable literal observation on local L2 and the K95 real-sheet Hs<=4 cores; sharp stronger-domain repairs are explicit. Every smooth positive zero-order (g,y)-natural full Lorentz-metric-fibre density has infinite mass, excluding invariant scalar L2 localization in that category; extra timelike data gives a finite-mass countercategory. No source/GU/classC or scientific matrix verdict changes.",
+      "evidence": [
+        "explorations/conditional-build/solution-observation-trace-2026-11-25.md",
+        "explorations/conditional-build/natural-density-fibre-volume-2026-11-25.md",
+        "lab/process/solution-observation-trace.json",
+        "lab/process/natural-density-fibre-volume.json",
+        "lab/process/hostile-reviews/2026-11-25-solution-density-review.md",
+        "Lean/GUFormalization/ObservationSolutionTrace.lean"
+      ],
+      "claim_effect": "Internal class exclusions and domain requirements; no C-status or source/ledger verdict",
+      "review": "Two independent mathematical reviewers per theorem, hostile source review, 56 exact controls, conditional Lean core"
     }
   ],
   "program_run_counter": {
     "since": "2026-11-09",
-    "count": 40,
+    "count": 41,
     "rule": "Every hourly run increments this in its postflight, whatever its lane. Lane C runs when count % 4 == 3 before the increment."
   },
   "working_rule": "Cells are worked at the structure level: a requirement must hold for every action in class C or for a structurally defined subfamily. No cell is worked by writing down a specific action, and no gated cell is worked by building its gate object. See CURRENT-STATE.yaml program_focus.structure_not_specifics.",
@@ -2599,6 +2705,15 @@
       "counter_after": 39,
       "lane": "LB-LADDER",
       "actual_delta": "Normal SU(3,2) absolute existence adds no obstruction to U(3,2) on X, full Y or its time-oriented cover in the admitted homotopy-dimension<=7 category. Fixing the total Spin lift and negative J still leaves an S7 reduction fibre; positive J and volume can be chosen. Fixed-J determinant torsion and phase-only Spin obstructions remain separate. No physical selection, GU exclusion or matrix status change."
+    },
+    {
+      "date": "2026-11-25",
+      "authority": "joe_direct_chat_another_big_wave",
+      "item": "Actual-solution observation and natural metric-fibre density",
+      "counter_before": 40,
+      "counter_after": 41,
+      "lane": "LB-LADDER",
+      "actual_delta": "Exact solutions in the entire frozen homogeneous full18 symbol category retain nonclosable literal observation on local L2 and the K95 real-sheet Hs<=4 cores; sharp stronger-domain repairs are explicit. Every smooth positive zero-order (g,y)-natural full Lorentz-metric-fibre density has infinite mass, excluding invariant scalar L2 localization in that category; extra timelike data gives a finite-mass countercategory. No source/GU/classC or scientific matrix verdict changes."
     }
   ],
   "directed_lc_carry_2026_11_24_b": {
@@ -2728,7 +2843,11 @@
         },
         "evidence": [
           "explorations/conditional-build/localization-applicability-audit-2026-11-24.md"
-        ]
+        ],
+        "density_category_2026_11_25": {
+          "evidence": "explorations/conditional-build/natural-density-fibre-volume-2026-11-25.md",
+          "finding": "All smooth positive zero-order (g,y)-natural full-fibre densities have infinite mass; no invariant scalar L2 profile. No exclusion of arbitrary localized spinors or proof that source requires normal-L2."
+        }
       },
       {
         "question": "Does source non-chirality imply zero total index in the same grading observation sees?",
@@ -2803,6 +2922,24 @@
           "tests/program-focus/normal_special_unitary_probe.py"
         ],
         "choices": "Positive J and volume quantified existentially; negative J and total Spin fixed; no prescribed relative data or physical connection."
+      },
+      {
+        "question": "Which admitted solution and forcing domains make literal observation a closed compatible complex?",
+        "premise_status": "source-constrained; positive norm/domain and full operator remain unselected",
+        "source_claim_refs": [
+          "lab/sources/source-claim-register.yaml#SC-OP-04",
+          "lab/sources/source-claim-register.yaml#SC-META-52",
+          "lab/sources/source-claim-register.yaml#SC-META-53"
+        ],
+        "source_bridge": {
+          "status": "conditional",
+          "reason": "Exact homogeneous benchmark solution cores are excluded at specified norms, but the full curved source operator and physical quotient need not admit those cores."
+        },
+        "evidence": [
+          "explorations/conditional-build/solution-observation-trace-2026-11-25.md",
+          "explorations/conditional-build/natural-density-fibre-volume-2026-11-25.md"
+        ],
+        "structural_choices": "Norm/topology, real spectral sheet, differential lower terms, physical constraints, tube or singular observation and density datum category must be supplied, not guessed."
       }
     ]
   },

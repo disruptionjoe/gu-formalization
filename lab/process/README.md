@@ -5,6 +5,10 @@ doc_type: overview
 updated_at: "2026-08-23"
 ---
 
+## Actual-solution observation and natural density (2026-11-25)
+
+[Exact solution/domain evidence](solution-observation-trace.json), [natural density evidence](natural-density-fibre-volume.json), [independent review](hostile-reviews/2026-11-25-solution-density-review.md). Scoped internal analytic exclusions with constructive repairs; source and scientific matrix verdicts unchanged.
+
 ## Independent chiral transport (2026-11-25)
 
 [Whole two-weight family and weighted-adjoint classification](bet-2plus1-chiral-weight-transport.json), [proof](../../explorations/conditional-build/bet-2plus1-chiral-weight-transport-2026-11-25.md), [review](hostile-reviews/2026-11-25-chiral-weight-transport-review.md). Conditional local realization result; no matrix/source verdict.
