@@ -5,6 +5,10 @@ doc_type: overview
 updated_at: "2026-08-21"
 ---
 
+## Normal special-unitary existence (2026-11-25)
+
+[Absolute SU(3,2) existence with fixed Spin](conditional-build/normal-special-unitary-existence-2026-11-25.md): no additional obstruction beyond U existence in the declared category; fixed data remain distinct.
+
 ## Source horizon execution (2026-11-25)
 
 - [Source-premise custody](conditional-build/source-premise-custody-2026-11-25.md)

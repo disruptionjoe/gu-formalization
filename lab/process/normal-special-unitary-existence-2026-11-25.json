@@ -1,0 +1,77 @@
+{
+  "schema_version": "1.0",
+  "artifact": "NORMAL_SPECIAL_UNITARY_EXISTENCE",
+  "created": "2026-11-25",
+  "basis_revision": "2858d21dfd7a1c67afa4b2195a7606de801f3173",
+  "program_target": [
+    "P2xglobal_index",
+    "X-P1-P2"
+  ],
+  "tier": "T2",
+  "status": "internally_reviewed_conditional_theorem",
+  "actual_delta": "Normal SU(3,2) absolute existence adds no obstruction to U(3,2) on X, full Y or its time-oriented cover in the admitted homotopy-dimension<=7 category. Fixing the total Spin lift and negative J still leaves an S7 reduction fibre; positive J and volume can be chosen. Fixed-J determinant torsion and phase-only Spin obstructions remain separate. No physical selection, GU exclusion or matrix status change.",
+  "class_covered": "Oriented real6+4 metric bundle, fixed total CliffordSpin and negative U2 reduction, base CW homotopy dimension<=7; no imposed boundary/end/connection data",
+  "source_bridge": {
+    "status": "conditional",
+    "reason": "SC-GRP03 optional normal reduction; no source-selected physical J, volume or connection"
+  },
+  "results": {
+    "prescribed_c1": "Every integral lift of w2(P), including torsion, realized by a positive U3 reduction; cplus=-cminus cancels determinant",
+    "fixed_spin": "K/H=Spin6/SU3=S7; first obstruction degree8, above base homotopy dimension",
+    "actual_bases": "X dimension4; Y~P(TX) and cover~S(TX) dimension<=7. Prior TX almost-complex criterion unchanged",
+    "fixed_data": "Integral determinant class and phase Bockstein can obstruct fixed J; free-positive-J theorem remains valid"
+  },
+  "source_refs": [
+    "lab/sources/source-claim-register.yaml#SC-GRP-03"
+  ],
+  "prior_evidence": [
+    "explorations/conditional-build/global-normal-complex-reduction-2026-11-24.md",
+    "lab/active-research/joe-directed/source-chain/sca-right-chain-2026-08-15.md",
+    "explorations/conditional-build/selected-k77-spin-induced-determinant-line-gate-2026-08-14.md"
+  ],
+  "proof": "explorations/conditional-build/normal-special-unitary-existence-2026-11-25.md",
+  "review": "lab/process/hostile-reviews/2026-11-25-normal-special-unitary-review.md",
+  "reproduction": "tests/program-focus/normal_special_unitary_probe.py",
+  "validation": {
+    "status": "PASS",
+    "exact_controls": 11,
+    "checks": [
+      "su4 compact generators",
+      "unit spinor tangent orbit has real dimension7",
+      "unit spinor stabilizer is precisely upper su3",
+      "special-unitary total winding vanishes identically",
+      "single-factor winding need not lift to total Spin",
+      "paired odd windings do lift to total Spin",
+      "Z4 fixed determinant is nonzero although mod2 zero",
+      "opposite integral torsion cancels, individually nonzero",
+      "RP3 phase obstruction: integral H1 rank0, mod2 H1 rank1",
+      "RP3 Bockstein is nonzero",
+      "four stronger alternatives rejected"
+    ],
+    "rejected_alternatives": [
+      "c1 real zero suffices for a fixed determinant",
+      "phase can reach every Spin on RP3",
+      "each factor loop must have even winding to lift",
+      "SU4 unit-spinor stabilizer has orbit dimension6"
+    ],
+    "ceiling": "Finite group/cohomology controls only; obstruction-theory and GU applicability require the written proof and review."
+  },
+  "claim_effect": "No source/physics verdict, class C, scientific matrix status, canon or paper change",
+  "horizon_effect": "W09 done; no ready entry remains in this horizon; existing program selection continues",
+  "counter_accounting": {
+    "before": 38,
+    "after": 39,
+    "lane": "LB-LADDER",
+    "lane_before": 13,
+    "lane_after": 14,
+    "bet_credit": 0,
+    "next_regular_slot": "LC-BETS due at39; unchanged selection by largest remaining time box"
+  },
+  "limits": [
+    "No fixed-J universal determinant triviality",
+    "No phase-only compatibility with every Spin",
+    "No connection/vacuum or physical quotient selection",
+    "No inference from trivial spinor determinant",
+    "No unspecified relative-end continuation"
+  ]
+}

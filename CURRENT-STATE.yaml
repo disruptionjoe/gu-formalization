@@ -1,7 +1,7 @@
 schema_version: '1.0'
 repository: observerse-research-program
 branch: main
-revision_basis: 663b4b402fd374491dfcc7b7cb4061cd2e2d3c5b
+revision_basis: 2858d21dfd7a1c67afa4b2195a7606de801f3173
 program_focus:
   version: 2026-11-24-v4
   authority: joe_direct_chat_2026_11_24_execute_recommendation
@@ -12,8 +12,9 @@ program_focus:
   - lab/process/work-packets/native-complex-order3-fork-2026-11-20.md
   - lab/process/work-packets/localization-falsifier-2026-11-24.md
   priority_packets_note: Source-required-class-tests steps0-5 are done. Prior done/blocked packets
-    retained. Count35LC carry consumed Nov25; count38 now. Existing selection continues; the
-    conditional horizon records completed source/symbol tests and remaining exact inputs.
+    retained. Count35LC carry consumed Nov25; count39 now, ordinary LC due next. Existing selection
+    continues; W09 absolute determinant/Spin existence is closed positively and the conditional
+    horizon retains its exact missing inputs.
   priority_packet_selection:
     slots: B-lane slots only; run_selection rules 1 and 2 remain prior.
     order: When both have ready steps, alternate between these packets; Item 1 goes first on ties. Within
@@ -144,6 +145,22 @@ program_focus:
     assumption_view: lab/process/action-constraint-matrix.json#source_relevance_assumption_view
     maintenance: Update linked assumptions when their evidence changes; refresh existing weekly metrics
       at weekly review. Labels and presence checks are not proof of relevance.
+normal_special_unitary_2026_11_25:
+  status: T2_internal_reviewed
+  actual_delta: Normal SU(3,2) absolute existence adds no obstruction to U(3,2) on X, full Y or its time-oriented
+    cover in the admitted homotopy-dimension<=7 category. Fixing the total Spin lift and negative J still
+    leaves an S7 reduction fibre; positive J and volume can be chosen. Fixed-J determinant torsion and
+    phase-only Spin obstructions remain separate. No physical selection, GU exclusion or matrix status
+    change.
+  evidence:
+  - explorations/conditional-build/normal-special-unitary-existence-2026-11-25.md
+  - lab/process/normal-special-unitary-existence-2026-11-25.json
+  - lab/process/hostile-reviews/2026-11-25-normal-special-unitary-review.md
+  - tests/program-focus/normal_special_unitary_probe.py
+  claim_effect: No scientific matrix/source/physics/classC/GU verdict
+  counter_accounting: 38->39 once;LB-LADDER13->14;no bet credit;ordinary LC next
+  continuation: W09 done; no selected J, volume, preserved connection or relative data inferred. Existing
+    selection continues beyond the bounded horizon; no approval or stopping checkpoint.
 source_horizon_execution_2026_11_25:
   status: T3_source_audit_T2_internal_mathematics
   actual_delta: 'Source audit closes: explicit R/4 toy and primitive currents retained, complete two-sided
@@ -161,7 +178,7 @@ source_horizon_execution_2026_11_25:
   claim_effect: No scientific matrix/source/ledger/classC/GU verdict
   counter_accounting: 37->38 once;LB-LADDER12->13;no extra bet credit;LC carry consumed
   next_frontier:
-    ready: W09 optionalSU normal determinant/Spin existence, lower direct falsification relevance
+    ready: None within this horizon after W09 closure; existing selection continues, LC due at39
     conditional:
     - W02 authenticated field law typed as fixed/coefficient-changing/moving-tensor
     - W03 actual equations+admitted solution family+scalar owner+observed mixing map

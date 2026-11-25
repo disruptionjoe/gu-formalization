@@ -26,8 +26,11 @@ W01 is complete, including the explicit R/4 toy. W02's universal-family
 classification is complete; actual source application awaits its full law.
 W06's regular frame/evolution classification is complete. W08 has a new
 algebraic visible192 subspace; the analytic singular-state test remains conditional.
-The carriedLC opportunity was consumed by the fullPS holonomy result. W09 is the
-remaining ready entry; existing selection can choose a stronger eligible target.
+The carriedLC opportunity was consumed by the fullPS holonomy result. W09 now
+closes positively: absolute SU existence adds no determinant/Spin obstruction
+beyond U existence. [Proof](../../../explorations/conditional-build/normal-special-unitary-existence-2026-11-25.md).
+No ready entry remains in this bounded horizon; exact conditional inputs remain.
+Existing program selection continues, with the next LC slot due at count39.
 No plan entry is automatically renewed as another wave after its discriminator closes.
 This is result bookkeeping under existing rules, not a new stopping rule.
 
@@ -66,7 +69,7 @@ separate full waves. Exact fields and evidence links are in the
 | W06 | done | Classify genuinely new observed evolution symbols | Quotient legitimate field equivalences before new hyperbolicity algebra. Reuse Nov12 if equivalent. |
 | W07 | blocked | Test whether actual constraints survive the complete interaction | Check complete supplied interaction against actual propagated constraints; include moving coefficients and observation. |
 | W08 | blocked | Test which characteristic singularities observation actually sees | Compute observed conormal polarizations, then require an admitted singular witness before any analytic exclusion. |
-| W09 | ready | Close the optional special-unitary determinant question | Test normal determinant cancellation and inheritedSpin compatibility. Optional SU failure leaves U branch open. |
+| W09 | done | Close the optional special-unitary determinant question | Determinant cancellation and fixedSpin compatibility proved; fixed-J and relative questions remain distinct. |
 | W10 | blocked | Try to certify a physical leakage floor in the low-curvature limit | Certify a bound for an independently specified physical experiment through the closed low-curvature limit. |
 
 ## Original preparation sequence (superseded where the execution update resolves it)

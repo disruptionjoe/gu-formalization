@@ -906,7 +906,11 @@
         "explorations/conditional-build/global-normal-complex-reduction-2026-11-24.md",
         "lab/process/global-normal-complex-reduction.json",
         "tests/program-focus/global_normal_complex_reduction_probe.py",
-        "lab/process/hostile-reviews/2026-11-24-structural-compatibility-review.md"
+        "lab/process/hostile-reviews/2026-11-24-structural-compatibility-review.md",
+        "explorations/conditional-build/normal-special-unitary-existence-2026-11-25.md",
+        "lab/process/normal-special-unitary-existence-2026-11-25.json",
+        "lab/process/hostile-reviews/2026-11-25-normal-special-unitary-review.md",
+        "tests/program-focus/normal_special_unitary_probe.py"
       ],
       "grade": "independently reviewed conditional structural theorem; no full class-C or physical realization decision",
       "actual_delta": "P2xglobal_index open->constrained: A global boundedly invertible codomain automorphism preserves the entire supplied continuous Fredholm family index, including a scalar phase with nonzero winding. A claimed P2-to-index consequence must therefore identify an operator/domain/end/grading or nontrivial gluing change beyond such an automorphism. This does not fix the initial index or supply a GU Fredholm family.",
@@ -920,6 +924,17 @@
           "lab/process/global-normal-complex-reduction.json",
           "tests/program-focus/global_normal_complex_reduction_probe.py",
           "lab/process/hostile-reviews/2026-11-24-structural-compatibility-review.md"
+        ]
+      },
+      "normal_special_unitary_2026_11_25": {
+        "tier": "T2",
+        "actual_delta": "Normal SU(3,2) absolute existence adds no obstruction to U(3,2) on X, full Y or its time-oriented cover in the admitted homotopy-dimension<=7 category. Fixing the total Spin lift and negative J still leaves an S7 reduction fibre; positive J and volume can be chosen. Fixed-J determinant torsion and phase-only Spin obstructions remain separate. No physical selection, GU exclusion or matrix status change.",
+        "status_effect": "unchanged; conditional topological existence",
+        "evidence": [
+          "explorations/conditional-build/normal-special-unitary-existence-2026-11-25.md",
+          "lab/process/normal-special-unitary-existence-2026-11-25.json",
+          "lab/process/hostile-reviews/2026-11-25-normal-special-unitary-review.md",
+          "tests/program-focus/normal_special_unitary_probe.py"
         ]
       }
     }
@@ -1001,10 +1016,14 @@
         "explorations/conditional-build/source-symmetry-matching-scope-2026-11-24.md",
         "lab/process/source-class-wave.json",
         "lab/process/hostile-reviews/2026-11-24-source-class-wave-review.md",
-        "Lean/GUFormalization/SourceClassCore.lean"
+        "Lean/GUFormalization/SourceClassCore.lean",
+        "explorations/conditional-build/normal-special-unitary-existence-2026-11-25.md",
+        "lab/process/normal-special-unitary-existence-2026-11-25.json",
+        "lab/process/hostile-reviews/2026-11-25-normal-special-unitary-review.md",
+        "tests/program-focus/normal_special_unitary_probe.py"
       ],
       "known": "Exact full14-component spin-only lower image: closure requires S=zH,W=0,R_h=-G_h. With same compatible Clifford adjoint, every unitary normal correction satisfying scalar row forces W_N=-16zH; top forces W_H=-zH, contradicting W0 whenH=t/2. Covers whole scalar-weighted stable natural family with sameq/time assumptions, including scalar-inputSE; general chiral/matrix/operator rivals separate. ComplexEnd paired-arrow escape fails actualadjoint; meanzeroSpin control survives. Actual geometric gradient SW term cancels residual with SAME primitive connection current at fixed density/bars; source/operator ownership open.",
-      "next_run": "The next regular run consumes the carried count35 LC opportunity under the existing bet-selection rule. For the next B slot, one bounded source-law audit compares the actual full two-sided fermion, independent-bar, density, reference and observation transformations with the NE compatibility conditions. Return either an authenticated whole-field transformation diagram to test, or the exact missing source datum; do not repeat adjacent odd tensors or infer fermion descent from bosonic Ward identities. If no source-authenticated diagram is available, compare another eligible source-required matrix target under existing selection instead of manufacturing that law. Symbol-index transfer remains conditional on its actual source/domain bridge.",
+      "next_run": "At count39 the ordinary LC-BETS slot is due under existing selection. For later B work, the bounded source-law audit, universal-family stabilizer and regular exterior-symbol classification are complete; W09 absolute normal determinant/Spin existence is also complete. A physical whole-field covariance test requires a newly authenticated full two-sided field/bar/density/reference/observation law, typed as fixed or parameter-changing. Preserve the explicit R/4 toy and primitive currents; do not repeat the completed corpus audit or substitute a guessed law. Other eligible matrix or LB-CLASS targets remain selectable under program_focus; these conditional branches do not stop repository work.",
       "structural_route": "Specify actual background orbit, isotropy and the complete diagram. Covariant bundle maps are isotropy intertwiners; same-diagram coflip ratios alone obey the fixed-arrow commutant theorem. Inhomogeneous connection translations are not automatically gauge redundancy.",
       "packet_step_status": "completed_constrained",
       "actual_delta": "Exact full14-component spin-only lower image: closure requires S=zH,W=0,R_h=-G_h. With same compatible Clifford adjoint, every unitary normal correction satisfying scalar row forces W_N=-16zH; top forces W_H=-zH, contradicting W0 whenH=t/2. Covers whole scalar-weighted stable natural family with sameq/time assumptions, including scalar-inputSE; general chiral/matrix/operator rivals separate. ComplexEnd paired-arrow escape fails actualadjoint; meanzeroSpin control survives. Actual geometric gradient SW term cancels residual with SAME primitive connection current at fixed density/bars; source/operator ownership open.",
@@ -1061,6 +1080,17 @@
         "grade": "internal scoped T1 symbol-category exclusion; T2 gauge/reality constraints",
         "source_bridge": "conditional",
         "status_effect": "unchanged"
+      },
+      "normal_special_unitary_2026_11_25": {
+        "tier": "T2",
+        "actual_delta": "Normal SU(3,2) absolute existence adds no obstruction to U(3,2) on X, full Y or its time-oriented cover in the admitted homotopy-dimension<=7 category. Fixing the total Spin lift and negative J still leaves an S7 reduction fibre; positive J and volume can be chosen. Fixed-J determinant torsion and phase-only Spin obstructions remain separate. No physical selection, GU exclusion or matrix status change.",
+        "status_effect": "unchanged; conditional topological existence",
+        "evidence": [
+          "explorations/conditional-build/normal-special-unitary-existence-2026-11-25.md",
+          "lab/process/normal-special-unitary-existence-2026-11-25.json",
+          "lab/process/hostile-reviews/2026-11-25-normal-special-unitary-review.md",
+          "tests/program-focus/normal_special_unitary_probe.py"
+        ]
       }
     },
     {
@@ -1516,7 +1546,7 @@
     },
     "LB-LADDER": {
       "zero_delta_streak": 0,
-      "runs": 13,
+      "runs": 14,
       "status": "open"
     }
   },
@@ -2371,7 +2401,7 @@
   ],
   "program_run_counter": {
     "since": "2026-11-09",
-    "count": 38,
+    "count": 39,
     "rule": "Every hourly run increments this in its postflight, whatever its lane. Lane C runs when count % 4 == 3 before the increment."
   },
   "working_rule": "Cells are worked at the structure level: a requirement must hold for every action in class C or for a structurally defined subfamily. No cell is worked by writing down a specific action, and no gated cell is worked by building its gate object. See CURRENT-STATE.yaml program_focus.structure_not_specifics.",
@@ -2539,6 +2569,15 @@
       "counter_after": 38,
       "lane": "LB-LADDER",
       "actual_delta": "Source audit closes: explicit R/4 toy and primitive currents retained, complete two-sided fermion/density/reference/observation law absent in inspected corpus. The full14/18 coefficientwise stabilizer is two auxiliary-grade scalings; fixed-symbol/parameter-changing laws differ. Every time-regular exterior14 symbol reduces to existing principal analytic types with exact regularity and semisimplicity polynomials. All18 symbols have a literal-observation-visible null-conormal subspace of complex dimension192. No source/GU/classC/domain or scientific matrix verdict."
+    },
+    {
+      "date": "2026-11-25",
+      "authority": "joe_direct_chat_go_w09",
+      "item": "Optional normal special-unitary existence with fixed Spin",
+      "counter_before": 38,
+      "counter_after": 39,
+      "lane": "LB-LADDER",
+      "actual_delta": "Normal SU(3,2) absolute existence adds no obstruction to U(3,2) on X, full Y or its time-oriented cover in the admitted homotopy-dimension<=7 category. Fixing the total Spin lift and negative J still leaves an S7 reduction fibre; positive J and volume can be chosen. Fixed-J determinant torsion and phase-only Spin obstructions remain separate. No physical selection, GU exclusion or matrix status change."
     }
   ],
   "directed_lc_carry_2026_11_24_b": {
@@ -2554,7 +2593,7 @@
     "counter_after": 33
   },
   "source_relevance_assumption_view": {
-    "updated_at": "2026-11-24",
+    "updated_at": "2026-11-25",
     "authority": "joe_direct_chat_2026_11_24_e_approved",
     "kind": "linked_view_not_a_new_claim_ledger",
     "source_of_truth": {
@@ -2725,6 +2764,24 @@
           "explorations/conditional-build/source-reality-mixing-class-2026-11-24.md",
           "explorations/conditional-build/source-premise-custody-2026-11-25.md"
         ]
+      },
+      {
+        "question": "Does the optional normal SU(3,2) reduction require extra absolute topology beyond U(3,2), and is it source-selected?",
+        "premise_status": "source-constrained optional SU/U fork; selected J/volume/connection unspecified",
+        "source_claim_refs": [
+          "lab/sources/source-claim-register.yaml#SC-GRP-03"
+        ],
+        "source_bridge": {
+          "status": "conditional",
+          "reason": "Source admits both branches. Absolute determinant/Spin existence now equivalent in declared category; physical selection is separate."
+        },
+        "evidence": [
+          "explorations/conditional-build/normal-special-unitary-existence-2026-11-25.md",
+          "lab/process/normal-special-unitary-existence-2026-11-25.json",
+          "lab/process/hostile-reviews/2026-11-25-normal-special-unitary-review.md",
+          "tests/program-focus/normal_special_unitary_probe.py"
+        ],
+        "choices": "Positive J and volume quantified existentially; negative J and total Spin fixed; no prescribed relative data or physical connection."
       }
     ]
   },
@@ -2742,11 +2799,12 @@
   "horizon_execution_2026_11_25": {
     "evidence": "lab/process/source-horizon-wave-2026-11-25.json",
     "matrix_status_change": false,
-    "next_ready_horizon": "W09 optionalSU absolute existence; ordinary selection remains authoritative",
+    "next_ready_horizon": "None in this bounded horizon; completed entry tests retained, exact conditional inputs remain. Existing selection continues; LC due at39.",
     "exact_conditional_successors": [
       "W02 complete source field law",
       "W03 source equation/solution/scalar/response tuple",
       "W08 admitted singular solution/domain"
-    ]
+    ],
+    "normal_special_unitary_evidence": "lab/process/normal-special-unitary-existence-2026-11-25.json"
   }
 }

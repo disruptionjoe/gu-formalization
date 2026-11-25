@@ -470,7 +470,7 @@
     {
       "id": "W09",
       "title": "Close the optional special-unitary determinant question",
-      "status": "ready",
+      "status": "done",
       "priority_band": "C",
       "targets": [
         "P2xglobal_index",
@@ -508,7 +508,14 @@
         "InheritedSpin compatibility",
         "X/Y/cover and fixed-versus-free reduction controls"
       ],
-      "execution_state": "proposal; no scientific result or counter credit"
+      "execution_state": "Completed conditional T2 absolute-existence discriminator; no physical or source verdict",
+      "result": "Normal SU(3,2) absolute existence adds no obstruction to U(3,2) on X, full Y or its time-oriented cover in the admitted homotopy-dimension<=7 category. Fixing the total Spin lift and negative J still leaves an S7 reduction fibre; positive J and volume can be chosen. Fixed-J determinant torsion and phase-only Spin obstructions remain separate. No physical selection, GU exclusion or matrix status change.",
+      "result_evidence": [
+        "explorations/conditional-build/normal-special-unitary-existence-2026-11-25.md",
+        "lab/process/normal-special-unitary-existence-2026-11-25.json",
+        "lab/process/hostile-reviews/2026-11-25-normal-special-unitary-review.md",
+        "tests/program-focus/normal_special_unitary_probe.py"
+      ]
     },
     {
       "id": "W10",
@@ -565,9 +572,9 @@
     }
   ],
   "recommended_next_workset": [
-    "Current count38; carry consumed; next recurringLC at count39 unchanged.",
-    "W09 is the remaining ready horizon entry; ordinary program_focus selection may prefer a stronger eligible source-related target.",
-    "W02/W03/W04/W08 reactivate only on their exact new data; no repeat source-corpus or generic-cross-arrow calculation."
+    "Count39: ordinary LC-BETS selection by most remaining time box; no cadence change.",
+    "No ready entry remains in this bounded horizon. Existing program_focus continues across eligible targets; blocked horizon entries are not a repository stop.",
+    "W02/W03/W04/W08 retain exact new source/differential/domain inputs; no repeat source-corpus audit, regular-symbol classification or absolute determinant search."
   ],
   "rejected_or_reserve": [
     {

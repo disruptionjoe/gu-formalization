@@ -5,6 +5,10 @@ doc_type: overview
 updated_at: "2026-08-23"
 ---
 
+## Normal special-unitary existence (2026-11-25)
+
+[Determinant/Spin existence evidence](normal-special-unitary-existence-2026-11-25.json) and [independent review](hostile-reviews/2026-11-25-normal-special-unitary-review.md).
+
 ## Source horizon execution (2026-11-25)
 
 [Source custody, stabilizer, symbol-orbit and null-visibility results](source-horizon-wave-2026-11-25.json) with [independent review](hostile-reviews/2026-11-25-source-horizon-review.md).

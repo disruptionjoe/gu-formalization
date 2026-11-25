@@ -17,6 +17,14 @@ External review is not a pathway in this program. The honesty label stays: inter
 
 Sections below are historical snapshots in file order.
 
+## Normal special-unitary existence (2026-11-25)
+
+Absolute determinant cancellation and compatibility with a fixed total Spin lift
+are proved in the declared homotopy-dimension<=7 category. Independent T2 review
+and eleven exact finite controls pass, with four false alternatives rejected.
+No Lean, physical selection or source verdict is claimed.
+[Proof](explorations/conditional-build/normal-special-unitary-existence-2026-11-25.md), [evidence](lab/process/normal-special-unitary-existence-2026-11-25.json).
+
 ## Source horizon classifications (2026-11-25)
 
 The finite source audit closes. Independent mathematical reviews accept the
