@@ -206,6 +206,18 @@ def render_context(state, verification, *, matrix=None, bets=None, register=None
                "carry_records": {k: {field: v[field] for field in ("status", "due_counter", "consumed_bet", "counter_after") if field in v} for k, v in matrix.items() if "carry" in k.lower() and isinstance(v, dict)},
                "active_bets": [{"id": b["id"], "runs_used": b.get("runs_used"), "remaining_runs": b.get("result", {}).get("remaining_runs")} for b in bets.get("bets", []) if b.get("status") == "active"],
                "priority_packets": [{k: v for k, v in packets[path].items() if k not in ("declared_missing_inputs", "blocked_step_dependencies")} for path in focus.get("priority_packets", []) if path in packets]}
+    assumption_view = matrix.get("source_relevance_assumption_view", {})
+    current["consumed_directions"] = [
+        {k: d[k] for k in ("id", "status", "evidence") if k in d}
+        for d in matrix.get("priority_direction_history", {}).get("directions", [])
+        if d.get("status") == "consumed"
+    ]
+    current["class_C_representativeness"] = [
+        a for a in assumption_view.get("entries", [])
+        if "lab/process/action-class.json" in a.get("evidence", [])
+    ]
+    current["shared_prerequisites"] = assumption_view.get("shared_prerequisites", [])
+    current["follow_through"] = matrix.get("priority_follow_through_2026_11_25", {})
     entry = {
         "snapshot": {"checked_out_revision": revision or "not supplied", "state_revision_basis": state.get("revision_basis"),
                      "scope": "Local files; this helper does not fetch or certify synchronization."},
@@ -225,6 +237,7 @@ def render_context(state, verification, *, matrix=None, bets=None, register=None
         entry["requested_context"] = query_projection(target, claim, matrix, bets, register, packets)
     if history:
         entry["history_not_live_selection"] = {"program_focus_provenance": focus,
+            "priority_direction_history": matrix.get("priority_direction_history", {}),
             "current_question_lead_partial": state["current_question"].strip().splitlines()[0],
             "next_condition_lead_partial": state["next_condition"].strip().splitlines()[0]}
     return NOTICE + "\n\n```yaml\n" + yaml.safe_dump(entry, sort_keys=False, allow_unicode=True) + "```\n"

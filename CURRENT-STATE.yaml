@@ -3,42 +3,27 @@ repository: observerse-research-program
 branch: main
 revision_basis: 696c7df10315c72bd8dbfb890b86cbf7f69e8a68
 program_focus:
-  version: 2026-11-24-v4
-  authority: joe_direct_chat_2026_11_24_execute_recommendation
+  version: 2026-11-25-v1
+  authority: joe_direct_chat_2026_11_25_five_process_improvements_approved
   priority_packets:
   - lab/process/work-packets/source-required-class-tests-2026-11-24.md
   - lab/process/work-packets/six-spinor-grading-compatibility-2026-11-24.md
   - lab/process/work-packets/observed-hidden-index-split-2026-11-20.md
   - lab/process/work-packets/native-complex-order3-fork-2026-11-20.md
   - lab/process/work-packets/localization-falsifier-2026-11-24.md
-  priority_packets_note: Source-required-class-tests steps0-5 are done. Prior done/blocked packets
-    retained. Count35LC carry consumed Nov25; count39 now, ordinary LC due next. Existing selection
-    continues; W09 absolute determinant/Spin existence is closed positively and the conditional
-    horizon retains its exact missing inputs.
+  priority_packets_note: Use live packet step status and constraint_matrix.program_run_counter with run_selection;
+    never copy the current count into policy. Fulfilled dispatches and their evidence live in constraint_matrix.priority_direction_history.
+    Completed or blocked entries remain evidence, not renewed ready work.
   priority_packet_selection:
     slots: B-lane slots only; run_selection rules 1 and 2 remain prior.
     order: When both have ready steps, alternate between these packets; Item 1 goes first on ties. Within
       the selected packet take its earliest ready step.
-    directed_priority_2026_11_21: Item1 native-grading decision first; step3 optional cheap T3; Item2step4
-      parked until a native integer observable exists. Existing rule1 and LC cadence unchanged.
-    last_served_packet: lab/process/work-packets/source-required-class-tests-2026-11-24.md
-    directed_priority_2026_11_24: Localization packet steps0 then1R this manual run; later ready localization
-      steps use B slots. Old Item1/2 blockers and their pairwise alternation rule remain unchanged; no
-      automatic reopening.
     tie_first: lab/process/work-packets/observed-hidden-index-split-2026-11-20.md
     terminal_handling: Skip packets done or killed and steps blocked by explicit dependencies; record
       supporting evidence. Do not infer a packet kill from an unbuilt object or unresolved hypothesis.
-    directed_priority_2026_11_24_b: 'Supersedes the Nov24 localization-first ordering: six-spinor principal+torsion
-      first; localization answers only3 premises and cannot be promoted until(i) native transfer and(ii)
-      normal-L2 necessity are established.'
-    directed_cadence_2026_11_24_b: This explicit manual B-run starts at count31, ordinarily an LC slot;
-      advance the counter once without LC credit and carry that unused LC opportunity to the next regular
-      run. Recurring rule2 is unchanged.
-    directed_priority_2026_11_24_recommendation: New source-required-class-tests packet precedes the old
-      packet group; its ordered ready steps apply. Old Item1/2 alternation and all blocked/done dispositions
-      retained.
-    directed_cadence_2026_11_24_recommendation: Directed B wave at count35; advance once and carry the
-      due LC opportunity to the next regular run, no bet credit; recurring rule2 unchanged.
+    localization_promotion: 'Retained Nov24(b) condition: promote localization only after both native
+      indefinite/Krein transfer and source-required normal-L2 necessity are established. W175 native gap
+      is withdrawn; no priority may rely on it.'
   read_first: This block steers research priority. Read it before any other part of this file. Older steering
     text below (next_condition history, the archived section of NEXT-STEPS, superseded agenda swings)
     is history, not instruction.
@@ -121,14 +106,19 @@ program_focus:
     is not permission to choose freely. State source_bridge as proved, conditional or absent: why the
     registered source claim or admitted physical anchor requires the tested property. Without that bridge,
     retain the result as a scoped mathematical result. Keep kill_condition explicit about exactly what
-    a negative result closes.'
+    a negative result closes. Label the weakest unproved link and whether the exclusion tests a source-necessary
+    claim (proved, conditional or absent). Keep class-C representativeness and width-test status visible;
+    a whole benchmark class is not automatically source-required or representative of C.'
   continuation_priority: At existing light reprioritization, including packet successors, prefer the shortest
     executable test that removes live source-compatible possibilities or resolves a load-bearing source/observable
     bridge. When a continuation only varies repository choices under the same unproved bridge, compare
     it with a class-level or bridge discriminator and another eligible target; continue the strongest
     option in the same Big Wave. Necessary lemmas remain eligible when their decision link is explicit.
     Add no stopping threshold, waiting checkpoint or mandatory council. Explicit Joe directions, Tier-1
-    completion and LC cadence retain their existing precedence.
+    completion and LC cadence retain their existing precedence. Carry survivors, exclusions and exact
+    revival inputs into handoffs. When a premise is corrected or withdrawn, recheck affected rankings
+    against the corrected evidence; do not silently carry the old ranking forward. Mark fulfilled directions
+    consumed beside their evidence, preserving any remaining standing condition.
   source_relevance_schema:
     baseline_revision: 14778ad8a4308d2d88357bba8a81819cedbc3f40
     scope: New dated explorations/conditional-build results absent from this baseline; no bulk historical
@@ -145,6 +135,10 @@ program_focus:
     assumption_view: lab/process/action-constraint-matrix.json#source_relevance_assumption_view
     maintenance: Update linked assumptions when their evidence changes; refresh existing weekly metrics
       at weekly review. Labels and presence checks are not proof of relevance.
+  selection_explanation: 'In the existing preflight/handoff, state briefly: mandatory basis; class/scope
+    covered; source relevance separately from mathematical breadth; shared prerequisite if any; remaining
+    cost; strongest eligible alternative. A blocked high-value target is not an eligible alternative without
+    its missing input. Reuse completed theorems and compare only their uncovered successors.'
 solution_density_2026_11_25:
   status: accepted_internal_T1_scoped
   actual_delta: Exact solutions in the entire frozen homogeneous full18 symbol category retain nonclosable

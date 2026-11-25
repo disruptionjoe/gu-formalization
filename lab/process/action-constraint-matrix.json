@@ -2941,6 +2941,68 @@
         ],
         "structural_choices": "Norm/topology, real spectral sheet, differential lower terms, physical constraints, tube or singular observation and density datum category must be supplied, not guessed."
       }
+    ],
+    "shared_prerequisites": [
+      {
+        "input": "Authenticated whole-field transformation and action/interaction data",
+        "waiters": [
+          "W02",
+          "W04",
+          "W07"
+        ],
+        "scope": "Shared custody burden, not identical full prerequisites; W04 additionally needs protection/effective-action premises, W07 an actual constraint.",
+        "evidence": [
+          "explorations/conditional-build/source-premise-custody-2026-11-25.md"
+        ]
+      },
+      {
+        "input": "Physical dynamical generator, observed response, allowed backgrounds and normalization",
+        "waiters": [
+          "W03",
+          "W05",
+          "W10"
+        ],
+        "scope": "W10 also needs a source or empirical suppression quantifier and uniform limit. A primitive vertex is not this input.",
+        "evidence": [
+          "explorations/conditional-build/source-small-vev-current-test-2026-11-24.md",
+          "lab/process/ten-wave-source-falsification-2026-11-24.json"
+        ]
+      },
+      {
+        "input": "Native physical carrier/constraint quotient and admitted solution and forcing domains",
+        "waiters": [
+          "W08",
+          "X-P1-P2-P3",
+          "X-D1-P3"
+        ],
+        "scope": "W08 needs native trace applicability. Index work additionally needs compatible grading, chain maps and Fredholmness; X-D1-P3 further needs the integer observable. No claim that one datum alone unblocks all.",
+        "evidence": [
+          "explorations/conditional-build/solution-observation-trace-2026-11-25.md",
+          "lab/process/work-packets/observed-hidden-index-split-2026-11-20.md"
+        ]
+      },
+      {
+        "input": "Source necessity and native transfer of normal-L2 localization",
+        "waiters": [
+          "localization-falsifier-2026-11-24"
+        ],
+        "scope": "Independent from mere trace estimates. Neither premise is established; W175 gap withdrawn. Background/end restrictions are a further burden.",
+        "evidence": [
+          "explorations/conditional-build/localization-applicability-audit-2026-11-24.md",
+          "explorations/conditional-build/natural-density-fibre-volume-2026-11-25.md"
+        ]
+      },
+      {
+        "input": "Inhabited, source-representative action-class membership at P1-P3 scope",
+        "waiters": [
+          "whole-C interpretation of matrix exclusions"
+        ],
+        "scope": "Cross-cutting inference burden, not permission to block all benchmark research or tighten C silently. Both proposed width witnesses remain uncertified.",
+        "evidence": [
+          "lab/process/action-class.json",
+          "explorations/conditional-build/class-width-witness-audit-2026-11-11.md"
+        ]
+      }
     ]
   },
   "directed_lc_carry_2026_11_24_recommendation": {
@@ -2957,12 +3019,92 @@
   "horizon_execution_2026_11_25": {
     "evidence": "lab/process/source-horizon-wave-2026-11-25.json",
     "matrix_status_change": false,
-    "next_ready_horizon": "None in this bounded horizon; completed entry tests retained, exact conditional inputs remain. Existing selection continues; LC due at39.",
+    "next_ready_horizon": "None in this bounded horizon. Reuse completed tests; native applications keep named dependencies. Derive cadence from program_run_counter and carry status under program_focus.",
     "exact_conditional_successors": [
-      "W02 complete source field law",
+      "W02 authenticated full source field law",
       "W03 source equation/solution/scalar/response tuple",
-      "W08 admitted singular solution/domain"
+      "W08 native curved operator, physical constraint quotient and solution/forcing topology; homogeneous actual-solution benchmark complete"
     ],
-    "normal_special_unitary_evidence": "lab/process/normal-special-unitary-existence-2026-11-25.json"
+    "normal_special_unitary_evidence": "lab/process/normal-special-unitary-existence-2026-11-25.json",
+    "solution_observation_evidence": "explorations/conditional-build/solution-observation-trace-2026-11-25.md"
+  },
+  "priority_direction_history": {
+    "interpretation": "Consumed means the one-shot dispatch was acted on, not that blocked science was solved. Original text retained as history; standing constraints remain in program_focus and packet records.",
+    "last_served_packet": "lab/process/work-packets/source-required-class-tests-2026-11-24.md",
+    "directions": [
+      {
+        "id": "directed_priority_2026_11_21",
+        "status": "consumed",
+        "original_direction": "Item1 native-grading decision first; step3 optional cheap T3; Item2step4 parked until a native integer observable exists. Existing rule1 and LC cadence unchanged.",
+        "evidence": [
+          "explorations/conditional-build/native-descending-grading-classification-2026-11-21.md",
+          "lab/process/work-packets/observed-hidden-index-split-2026-11-20.md"
+        ]
+      },
+      {
+        "id": "directed_priority_2026_11_24",
+        "status": "consumed",
+        "original_direction": "Localization packet steps0 then1R this manual run; later ready localization steps use B slots. Old Item1/2 blockers and their pairwise alternation rule remain unchanged; no automatic reopening.",
+        "evidence": [
+          "lab/process/work-packets/localization-falsifier-2026-11-24.md",
+          "explorations/conditional-build/localization-applicability-audit-2026-11-24.md"
+        ]
+      },
+      {
+        "id": "directed_priority_2026_11_24_b",
+        "status": "consumed",
+        "original_direction": "Supersedes the Nov24 localization-first ordering: six-spinor principal+torsion first; localization answers only3 premises and cannot be promoted until(i) native transfer and(ii) normal-L2 necessity are established.",
+        "evidence": [
+          "lab/process/work-packets/six-spinor-grading-compatibility-2026-11-24.md",
+          "explorations/conditional-build/localization-applicability-audit-2026-11-24.md"
+        ]
+      },
+      {
+        "id": "directed_cadence_2026_11_24_b",
+        "status": "consumed",
+        "original_direction": "This explicit manual B-run starts at count31, ordinarily an LC slot; advance the counter once without LC credit and carry that unused LC opportunity to the next regular run. Recurring rule2 is unchanged.",
+        "evidence": [
+          "lab/process/action-constraint-matrix.json#directed_lc_carry_2026_11_24_b"
+        ]
+      },
+      {
+        "id": "directed_priority_2026_11_24_recommendation",
+        "status": "consumed",
+        "original_direction": "New source-required-class-tests packet precedes the old packet group; its ordered ready steps apply. Old Item1/2 alternation and all blocked/done dispositions retained.",
+        "evidence": [
+          "lab/process/work-packets/source-required-class-tests-2026-11-24.md"
+        ]
+      },
+      {
+        "id": "directed_cadence_2026_11_24_recommendation",
+        "status": "consumed",
+        "original_direction": "Directed B wave at count35; advance once and carry the due LC opportunity to the next regular run, no bet credit; recurring rule2 unchanged.",
+        "evidence": [
+          "lab/process/action-constraint-matrix.json#directed_lc_carry_2026_11_24_recommendation"
+        ]
+      }
+    ]
+  },
+  "priority_follow_through_2026_11_25": {
+    "kind": "T3 process reconciliation; no research counter or scientific status credit",
+    "completed_reused": [
+      "W01 source audit",
+      "W06 regular symbol classification",
+      "W09 absolute SU existence",
+      "W08 homogeneous actual-solution benchmark"
+    ],
+    "correction_ranking_check": {
+      "correction": "W175 native gap withdrawn",
+      "effect": "Localization remains alongside applicability-only, below an eligible source-relevant test; promotion still requires both explicit Nov24(b) premises. Infinite natural density volume does not prove normal-L2 necessity.",
+      "evidence": [
+        "explorations/conditional-build/localization-applicability-audit-2026-11-24.md",
+        "explorations/conditional-build/natural-density-fibre-volume-2026-11-25.md"
+      ]
+    },
+    "survivors_and_exclusions": "Homogeneous local-L2 trace failure does not exclude stronger admitted topology, different physical quotient/readout or curved operator. Natural (g,y)-only finite-mass density exclusion does not exclude extra-data densities. Source necessity and C representativeness remain conditional.",
+    "evidence": [
+      "explorations/conditional-build/solution-observation-trace-2026-11-25.md",
+      "explorations/conditional-build/natural-density-fibre-volume-2026-11-25.md"
+    ]
   }
 }

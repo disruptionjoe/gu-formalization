@@ -184,7 +184,7 @@
     },
     {
       "id": "W04",
-      "title": "Find whether the curvature–mass–decoupling relation is protected",
+      "title": "Find whether the curvature\u2013mass\u2013decoupling relation is protected",
       "status": "blocked",
       "priority_band": "A",
       "targets": [
@@ -277,7 +277,7 @@
         "status": "conditional",
         "reason": "A primitive vertex is not an evolution generator; a bilinear current is not automatically a linear readout. Exact darkness is a diagnostic, not the source effective-suppression demand."
       },
-      "first_decisive_test": "Use Cayley–Hamilton conditions C A(theta)^k B=0 for0<=k<n on the real admissible parameter locus; retain singular/exceptional strata. Compare symmetrized static coefficient words with switched-word closure only when the stronger histories are actually allowed.",
+      "first_decisive_test": "Use Cayley\u2013Hamilton conditions C A(theta)^k B=0 for0<=k<n on the real admissible parameter locus; retain singular/exceptional strata. Compare symmetrized static coefficient words with switched-word closure only when the stronger histories are actually allowed.",
       "outcome_branches": [
         "Empty exact-darkness strata remove that exact-shielding family only.",
         "Surviving strata identify protection to test under actual moving backgrounds.",
@@ -445,7 +445,7 @@
         "status": "conditional",
         "reason": "Source boundary/distributional domain remains unspecified. Smooth classical fields restrict locally. Failure of a sufficient wavefront pullback criterion is not a no-go."
       },
-      "first_decisive_test": "Classify Q ker sigma_D(n) for characteristic observer-conormaln, including degenerate strata. Only after domain admission seek an exact nonrestrictable solution or vanishing-native-norm/nonvanishing-trace sequence; a leading geometric-optics amplitude is insufficient.",
+      "first_decisive_test": "Reuse the completed homogeneous actual-solution theorem. Test native applicability only against independently supplied curved differential realization, physical constraints and admitted solution/forcing topology; name the first failing hypothesis. Do not construct those missing source objects.",
       "outcome_branches": [
         "Visible admitted singular witness excludes that domain/readout realization.",
         "Annihilation of leading polarizations still requires subleading transport analysis.",
@@ -455,7 +455,8 @@
       "evidence_to_reuse": [
         "explorations/conditional-build/observation-graph-domain-2026-11-24.md",
         "explorations/conditional-build/k2242-ambient-conormal-descent-2026-10-29.md",
-        "explorations/conditional-build/selected-k77-global-normal-symbol-descent-2026-08-11.md"
+        "explorations/conditional-build/selected-k77-global-normal-symbol-descent-2026-08-11.md",
+        "explorations/conditional-build/solution-observation-trace-2026-11-25.md"
       ],
       "confidence_in_useful_completion": "Medium for algebraic visibility; low for immediate physical exclusion.",
       "compatible_arcs": [
@@ -463,9 +464,19 @@
         "Actual-solution/domain applicability",
         "Singular and smooth/annihilated controls"
       ],
-      "execution_state": "Algebraic full18 null-conormal visibility completed2026-11-25 (at least192complex). Analytic continuation needs actual admitted singular witness.",
+      "execution_state": "Algebraic visibility and homogeneous actual-solution trace/closure benchmark completed. Native curved operator, physical quotient and admitted topology remain conditional; do not repeat the frozen benchmark.",
       "result_ref": "explorations/conditional-build/exterior-symbol-orbits-conormal-2026-11-25.md",
-      "remaining_input": "Already supplied complete differential realization, physical constraints, admitted solution space and norm/topology; do not build source operator to activate."
+      "remaining_input": "Source-authenticated curved differential realization, physical constraints/quotient and admitted solution/forcing domain with norm/topology; benchmark existence alone supplies none of these.",
+      "completed_subtests": [
+        {
+          "test": "Full18 null-conormal visibility",
+          "evidence": "explorations/conditional-build/exterior-symbol-orbits-conormal-2026-11-25.md"
+        },
+        {
+          "test": "Exact homogeneous solutions, sharp solution-domain trace thresholds and controls",
+          "evidence": "explorations/conditional-build/solution-observation-trace-2026-11-25.md"
+        }
+      ]
     },
     {
       "id": "W09",
@@ -572,9 +583,9 @@
     }
   ],
   "recommended_next_workset": [
-    "Count39: ordinary LC-BETS selection by most remaining time box; no cadence change.",
+    "Derive cadence from the live matrix counter and unresolved carry records under existing program_focus precedence; no copied current count.",
     "No ready entry remains in this bounded horizon. Existing program_focus continues across eligible targets; blocked horizon entries are not a repository stop.",
-    "W02/W03/W04/W08 retain exact new source/differential/domain inputs; no repeat source-corpus audit, regular-symbol classification or absolute determinant search."
+    "Reuse completed source-corpus, regular-symbol, absolute determinant/Spin and homogeneous actual-solution tests. Only uncovered native applications with their named inputs are successors."
   ],
   "rejected_or_reserve": [
     {
