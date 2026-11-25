@@ -612,6 +612,14 @@
     {
       "path": "explorations/conditional-build/p3-family-index-mixed-twist-2026-11-11.md",
       "classification": "INTERNAL_STRUCTURAL_ONLY"
+    },
+    {
+      "path": "lab/active-research/joe-directed/external-results/ym-corpus-and-verification-assessment-2026-11-25.md",
+      "classification": "BRIDGE_OR_SEMANTIC_BOUNDARY"
+    },
+    {
+      "path": "lab/active-research/joe-directed/external-results/harmonic-observation-transfer-2026-11-25.md",
+      "classification": "BRIDGE_OR_SEMANTIC_BOUNDARY"
     }
   ]
 }

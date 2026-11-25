@@ -358,6 +358,13 @@
         ],
         "actual_delta": "The complete metric-only Spin-natural symbol module has18 generators,14 after the exterior-gradient condition. Every autonomous pointwise observation retaining the literal horizontal one-form and scalar output needs at least6 spinor slots in that category; five is excluded. The full block-Lorentz/SM-neutral, K95 quaternionic-compatible odd one-form class has12 real parameters and a real full-support survivor. Ordinary simultaneous gauge transport cannot erase its relative grading detector. The printed NE arrow has a left-tilted derivative defect and a flat-to-nonflat obstruction to same-slot pointwise intertwiners at fixed reference. These are quantified conditional categories, not physical modes or a GU/classC falsification.",
         "status_effect": "unchanged"
+      },
+      "external_harmonic_scope_2026_11_25": {
+        "evidence": [
+          "lab/active-research/joe-directed/external-results/harmonic-observation-transfer-2026-11-25.md",
+          "lab/process/external-results-evidence-2026-11-25.json"
+        ],
+        "scope": "T2 applicability only. Actual solutions are not cutoff-stable; flat positive solution trace costs9/2 initial-data derivatives. Native ambient solution/forcing domain and normal estimate are unproved; qF remains a separate burden. No status, next-run, priority or counter change."
       }
     },
     {
@@ -690,7 +697,14 @@
           "explorations/conditional-build/source-check-and-continuation-2026-11-24.md"
         ]
       },
-      "horizon_2026_11_25_note": "Full18 has visible null conormal polarizations of complex dimension at least192. No singular-solution/domain exclusion."
+      "horizon_2026_11_25_note": "Full18 has visible null conormal polarizations of complex dimension at least192. No singular-solution/domain exclusion.",
+      "external_harmonic_scope_2026_11_25": {
+        "evidence": [
+          "lab/active-research/joe-directed/external-results/harmonic-observation-transfer-2026-11-25.md",
+          "lab/process/external-results-evidence-2026-11-25.json"
+        ],
+        "scope": "T2 applicability only. Actual solutions are not cutoff-stable; flat positive solution trace costs9/2 initial-data derivatives. Native ambient solution/forcing domain and normal estimate are unproved; qF remains a separate burden. No status, next-run, priority or counter change."
+      }
     },
     {
       "row": "P1",
@@ -1530,6 +1544,13 @@
         "grade": "internal scoped T1 symbol-category exclusion; T2 gauge/reality constraints",
         "source_bridge": "conditional",
         "status_effect": "unchanged"
+      },
+      "external_harmonic_scope_2026_11_25": {
+        "evidence": [
+          "lab/active-research/joe-directed/external-results/harmonic-observation-transfer-2026-11-25.md",
+          "lab/process/external-results-evidence-2026-11-25.json"
+        ],
+        "scope": "T2 applicability only. Actual solutions are not cutoff-stable; flat positive solution trace costs9/2 initial-data derivatives. Native ambient solution/forcing domain and normal estimate are unproved; qF remains a separate burden. No status, next-run, priority or counter change."
       }
     }
   ],

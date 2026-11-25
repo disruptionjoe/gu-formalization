@@ -1,0 +1,108 @@
+{
+  "schema_version": "1.0",
+  "date": "2026-11-25",
+  "basis_revision": "47f4a505c56466ff4b083f9d6081ed166f5a3121",
+  "purpose": "Evidence and applicability only; no scientific verdict, priority, governance or research-counter change",
+  "targets": [
+    "BET-MASS-GAP",
+    "X-P1-P2-P3",
+    "P1xdomain_boundary",
+    "P3xglobal_index",
+    "LB-CLASS"
+  ],
+  "evidence": [
+    "lab/active-research/joe-directed/external-results/ym-corpus-and-verification-assessment-2026-11-25.md",
+    "lab/active-research/joe-directed/external-results/harmonic-observation-transfer-2026-11-25.md"
+  ],
+  "external_pins": {
+    "ym_review": "319ecd5274241200b27bb5b143a59133fd670ea6",
+    "ym_code": "3456e5e75cf8d4cd558955a5c7638fba2d68f464",
+    "ym_assessment_pdf_sha256": "8e658c00900bf723cbe90436eb1f78fca4f287e008a85c21fdceaf59e61db219",
+    "openai_math": "3344da59991ed94f9ba711217b29c1d760badfa6"
+  },
+  "pure_ym": {
+    "tracking_trigger": "met for externally assessed pure compact-simple 4D Wilson/Wightman existence",
+    "not_established_by_assessment": [
+      "mass gap",
+      "unique infinite-volume limit",
+      "QCD with quarks",
+      "native GU existence or positive physical space"
+    ],
+    "local_external_build_replay": false,
+    "SC-META-53": "UNCERTAIN; maximal-compact subgroup shielding proposal is not a quantum reduction",
+    "transfer_burden": [
+      "precise observed group, quotients, bundle sectors and observables",
+      "same source-compatible action/measure/constraints/state reduction",
+      "positive physical space and closed domains, spectrum/locality or reflection positivity",
+      "consistent pure sector or proved decoupling",
+      "identification with Wilson scaling-limit construction or universality proof"
+    ],
+    "Sp32_32_transfer": false
+  },
+  "verification_assessment": {
+    "status": "proposal only; no new rule, gate, upgrade or install",
+    "distinction": [
+      "formally verified exact declaration and dependencies",
+      "validated correspondence to intended source/construction and supplied premises"
+    ],
+    "pilot": "SourceClassCore.not_five_spinor_rank with six_spinor_minimum; independent frozen specification and proposition/definition/axiom negative controls",
+    "pilot_executed": false,
+    "toolchain_unchanged": "leanprover/lean4:v4.32.0-rc1",
+    "inventory_limit": "Eight modules absent from root/manual inventory; targeted checks retained, no inference of invalidity"
+  },
+  "corpus_search": {
+    "scope": "One combined term pass over full CONTENTS family descriptions and manuscript titles/abstracts; selected primary theorem/interface reads, not full-text validation",
+    "family_descriptions": 375,
+    "manuscript_entries": 730,
+    "candidates": [
+      "009",
+      "014",
+      "034",
+      "069",
+      "205",
+      "208",
+      "251",
+      "268",
+      "280",
+      "297",
+      "302",
+      "307"
+    ],
+    "closest": {
+      "251": "Discrete-group uniformly bounded positive-Hilbert representations; missing native input/universal quantifier",
+      "280": "Unitary strongly rational VOA-to-net; no admitted GU VOA; Lean endpoint narrower than full paper categories",
+      "302": "MU-null finite CW-pair compression; not required Spin-bordism anomaly input",
+      "307": "Coarse finite-graph assembly counterexample; not native Fredholm domain; reduced versus maximal distinguished"
+    },
+    "immediately_applicable_matrix_result": null,
+    "direct_anomaly_target_found": false,
+    "priority_promotion": false,
+    "status": "Public claims with heterogeneous formalization coverage; not independently validated here"
+  },
+  "harmonic_transfer": {
+    "tier": "T2",
+    "classification": "partially applicable",
+    "public_status": "Public local-smoothing manuscript and family079 formalization; full proof not rebuilt or independently validated here",
+    "generic_trace": "codimension10: H^s requires s>5; both unrestricted first-order complex arrows need s>6",
+    "local_smoothing_composition": "one-time13-space comparator: W^{s,p} initial order >max(10/p,6-3/p); minimum60/13 at p13/6, not H^s",
+    "direct_solution_comparator": "flat half-wave dotH^(9/2)(R13) -> L2(Rtime x R3); sharp homogeneous order, not universal nonclosability",
+    "blocking_premise": "source-compatible ambient operator and invariant solution/forcing domain with real evolution, normal regularity and bounded actual contraction trace",
+    "native_null_conormals": "visible192 symbol polarizations obstruct simple noncharacteristic shortcut; not admitted singular solutions",
+    "existing_graph_result": "unchanged on cutoff-stable cores; actual solutions and tube-wide sectors remain distinct"
+  },
+  "acceptance": {
+    "internal_specialist_scope_review": "accepted after finite-time versus global norm clarification",
+    "external_Lean_build": false,
+    "new_Lean_check": false,
+    "scope": "conditional T2 assessment and exact analytic comparator derivation; no native verdict"
+  },
+  "preserved": {
+    "program_counter": 39,
+    "pending_LC": true,
+    "bet_runs_used": 3,
+    "bet_remaining_runs": 21,
+    "new_action_variants": 0,
+    "program_focus": "unchanged",
+    "source_and_physics_verdicts": "unchanged"
+  }
+}

@@ -17,6 +17,32 @@ External review is not a pathway in this program. The honesty label stays: inter
 
 Sections below are historical snapshots in file order.
 
+## External evidence and formal-specification assessment (2026-11-25)
+
+**Proposal only; no new acceptance gate or toolchain change.** Distinguish
+*formally verified* (the exact named declaration, hypotheses, definitions and
+allowed axioms check) from *validated for the stated construction* (a separate
+source/object review connects those formal objects and supplied premises to the
+written claim). Comparator can guard a frozen specification against statement,
+definition and axiom drift; it does not supply a native physical interpretation.
+Separate certificates must not silently substitute different existential witnesses.
+
+One isolated compatible Comparator pilot is proposed for
+`SourceClassCore.not_five_spinor_rank`; it has not been run. Lean4.32.0-rc1,
+existing tiers and no-sorry production requirements remain unchanged. The bounded
+build inventory identified eight modules outside the root/manual entrypoints;
+prior targeted checks are retained, without claiming default-build coverage.
+
+The public pureYM assessment and selected October corpus theorem interfaces were
+read at pinned revisions; their external builds were not replayed. Internal
+specialist scope review accepts the conditional harmonic assessment and separately
+derived flat half-wave trace bound, with finite-time/global norms distinguished.
+This supplies no native domain proof or scientific verdict.
+
+[Evidence, pins and exact limits](lab/process/external-results-evidence-2026-11-25.json),
+[validation proposal](lab/active-research/joe-directed/external-results/ym-corpus-and-verification-assessment-2026-11-25.md),
+[harmonic transfer](lab/active-research/joe-directed/external-results/harmonic-observation-transfer-2026-11-25.md).
+
 ## Normal special-unitary existence (2026-11-25)
 
 Absolute determinant cancellation and compatibility with a fixed total Spin lift

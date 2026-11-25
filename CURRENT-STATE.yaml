@@ -1,7 +1,7 @@
 schema_version: '1.0'
 repository: observerse-research-program
 branch: main
-revision_basis: 2858d21dfd7a1c67afa4b2195a7606de801f3173
+revision_basis: 47f4a505c56466ff4b083f9d6081ed166f5a3121
 program_focus:
   version: 2026-11-24-v4
   authority: joe_direct_chat_2026_11_24_execute_recommendation
@@ -34856,3 +34856,13 @@ prior_conditions: >-
   promote algebraic BFV to physical cohomology, choose W/mirror, or infer a
   generation count.
 what_needs_joe: none
+
+external_results_evidence_2026_11_25:
+  evidence: lab/process/external-results-evidence-2026-11-25.json
+  actual_delta: PureYM public tracking trigger met; native compact reduction unproved. Comparator semantic-validation
+    proposal recorded. One bounded corpus pass finds no immediately applicable matrix result. Harmonic
+    estimates partially apply to actual-solution methods, not native observation repair.
+  status_effect: Evidence only; scientific verdicts, priorities, counter39 and dueLC unchanged.
+  notes:
+  - lab/active-research/joe-directed/external-results/ym-corpus-and-verification-assessment-2026-11-25.md
+  - lab/active-research/joe-directed/external-results/harmonic-observation-transfer-2026-11-25.md

@@ -5,6 +5,11 @@ doc_type: overview
 updated_at: "2026-08-23"
 ---
 
+## External results: evidence and applicability (2026-11-25)
+
+[PureYM, formal-specification proposal, bounded corpus search and harmonic transfer](external-results-evidence-2026-11-25.json).
+Evidence only; no scientific verdict, priority, counter or toolchain change.
+
 ## Normal special-unitary existence (2026-11-25)
 
 [Determinant/Spin existence evidence](normal-special-unitary-existence-2026-11-25.json) and [independent review](hostile-reviews/2026-11-25-normal-special-unitary-review.md).
