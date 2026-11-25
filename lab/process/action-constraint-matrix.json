@@ -661,7 +661,8 @@
         "lab/process/observation-functional-dual.json",
         "tests/program-focus/observation_functional_dual_probe.py",
         "lab/process/hostile-reviews/2026-11-24-source-dual-grading-review.md",
-        "explorations/conditional-build/source-check-and-continuation-2026-11-24.md"
+        "explorations/conditional-build/source-check-and-continuation-2026-11-24.md",
+        "explorations/conditional-build/exterior-symbol-orbits-conormal-2026-11-25.md"
       ],
       "grade": "independently reviewed conditional structural theorem; no full class-C or physical realization decision",
       "actual_delta": "Six-spinor value augmentation closes the stated tangential principal/evolution category. Invertible conormal principal symbols exclude value-only tangential autonomy on unrestricted ambient normal jets, invariant under equation-row changes; constrained extensions, derivative receivers and closed physical domains remain separate.",
@@ -688,7 +689,8 @@
           "lab/process/hostile-reviews/2026-11-24-source-dual-grading-review.md",
           "explorations/conditional-build/source-check-and-continuation-2026-11-24.md"
         ]
-      }
+      },
+      "horizon_2026_11_25_note": "Full18 has visible null conormal polarizations of complex dimension at least192. No singular-solution/domain exclusion."
     },
     {
       "row": "P1",
@@ -726,7 +728,9 @@
         "explorations/conditional-build/source-symmetry-matching-scope-2026-11-24.md",
         "lab/process/source-class-wave.json",
         "lab/process/hostile-reviews/2026-11-24-source-class-wave-review.md",
-        "Lean/GUFormalization/SourceClassCore.lean"
+        "Lean/GUFormalization/SourceClassCore.lean",
+        "explorations/conditional-build/source-premise-custody-2026-11-25.md",
+        "explorations/conditional-build/whole-field-symbol-stabilizer-2026-11-25.md"
       ],
       "grade": "independently reviewed conditional structural theorem; no full class-C or physical realization decision",
       "actual_delta": "P1xvariational open->constrained: Literal off-shell Hermitian quadratic descent through a noninjective observation quotient requires its hidden test sections to lie in the Hessian radical; equivalently H=q-dagger h q with stated density pairings. Eliminating hidden equations is a distinct Schur operation, with polynomial cancellation and analytic inverse burdens. Neither ambient pairing nondegeneracy nor failure of literal quotient descent excludes an effective observed theory.",
@@ -758,7 +762,8 @@
         ],
         "actual_delta": "The complete metric-only Spin-natural symbol module has18 generators,14 after the exterior-gradient condition. Every autonomous pointwise observation retaining the literal horizontal one-form and scalar output needs at least6 spinor slots in that category; five is excluded. The full block-Lorentz/SM-neutral, K95 quaternionic-compatible odd one-form class has12 real parameters and a real full-support survivor. Ordinary simultaneous gauge transport cannot erase its relative grading detector. The printed NE arrow has a left-tilted derivative defect and a flat-to-nonflat obstruction to same-slot pointwise intertwiners at fixed reference. These are quantified conditional categories, not physical modes or a GU/classC falsification.",
         "status_effect": "unchanged"
-      }
+      },
+      "horizon_2026_11_25_note": "Complete source law absent in bounded audit; coefficientwise family stabilizer classified, not fixed-source-operator covariance."
     },
     {
       "row": "P1",
@@ -837,11 +842,13 @@
         "tests/program-focus/matrix_remaining_constraints_probe.py",
         "lab/process/matrix-remaining-constraints.json",
         "explorations/conditional-build/native-rs-observed-compatibility-2026-11-11.md",
-        "lab/process/native-rs-joint-compatibility.json"
+        "lab/process/native-rs-joint-compatibility.json",
+        "explorations/conditional-build/exterior-symbol-orbits-conormal-2026-11-25.md"
       ],
       "grade": "independently reviewed conditional structural theorem; no full class-C or physical realization decision",
       "actual_delta": "P2xorder_locality open->constrained: A first-order anti-linear coflip must obey both principal intertwining and the complete lower-order derivative equation. For fixed operator pairs with injective covector-to-operator map, scalar ratios of complete coflips are locally constant; variable ratios require the unique zero-order target correction -p^-1 sigma(dp). Natural/action/real admissibility of that correction remains separate; C permits nonparallel covariant arrows.",
-      "next_run": "Identify the actual native P2 coflip and full source/target coefficients, then evaluate the derivative residual; do not equate covariance with parallelism."
+      "next_run": "Identify the actual native P2 coflip and full source/target coefficients, then evaluate the derivative residual; do not equate covariance with parallelism.",
+      "horizon_2026_11_25_note": "Regular exterior14 principal classes reduce to existing types under transported frames; source-specific differential/domain bridge remains."
     },
     {
       "row": "P2",
@@ -1509,7 +1516,7 @@
     },
     "LB-LADDER": {
       "zero_delta_streak": 0,
-      "runs": 12,
+      "runs": 13,
       "status": "open"
     }
   },
@@ -2364,7 +2371,7 @@
   ],
   "program_run_counter": {
     "since": "2026-11-09",
-    "count": 37,
+    "count": 38,
     "rule": "Every hourly run increments this in its postflight, whatever its lane. Lane C runs when count % 4 == 3 before the increment."
   },
   "working_rule": "Cells are worked at the structure level: a requirement must hold for every action in class C or for a structurally defined subfamily. No cell is worked by writing down a specific action, and no gated cell is worked by building its gate object. See CURRENT-STATE.yaml program_focus.structure_not_specifics.",
@@ -2523,6 +2530,15 @@
       "lane": "LC-BETS",
       "selection": "Consume count35 carry; all active bets tied22 remaining, fullPS holonomy selected for supplied exact test",
       "actual_delta": "For the full compact PS product/diagonalZ2 quotient with honest16 on flatT3, zero central flux has at least5 adjoint fixed directions; nonzero flux has exactly1 or3. The MG1 physical Hessian kernel has dimension3 times the fixed algebra, so the earlier isolated SO3 positive gap does not extend to the full carrier. This is a classical compact comparator, not a native/quantum-gap or bet-wide verdict."
+    },
+    {
+      "date": "2026-11-25",
+      "authority": "joe_direct_chat_go_ten_wave_scaffold",
+      "item": "Source custody, whole-field stabilizer, symbol orbits and null visibility",
+      "counter_before": 37,
+      "counter_after": 38,
+      "lane": "LB-LADDER",
+      "actual_delta": "Source audit closes: explicit R/4 toy and primitive currents retained, complete two-sided fermion/density/reference/observation law absent in inspected corpus. The full14/18 coefficientwise stabilizer is two auxiliary-grade scalings; fixed-symbol/parameter-changing laws differ. Every time-regular exterior14 symbol reduces to existing principal analytic types with exact regularity and semisimplicity polynomials. All18 symbols have a literal-observation-visible null-conormal subspace of complex dimension192. No source/GU/classC/domain or scientific matrix verdict."
     }
   ],
   "directed_lc_carry_2026_11_24_b": {
@@ -2701,12 +2717,13 @@
         ],
         "source_bridge": {
           "status": "conditional",
-          "reason": "Ordinary transported gauge and an extra quaternionic restriction do not erase all odd primitive mixing. The real full-support member survives actual NE observation. Fixed-reference same-slot left-tilted NE descent is obstructed, but a source-authenticated whole-field law and physical constraint/readout remain distinct missing inputs; no physical rate follows."
+          "reason": "Ordinary transported gauge and an extra quaternionic restriction do not erase all odd primitive mixing. The real full-support member survives actual NE observation. Fixed-reference same-slot left-tilted NE descent is obstructed, but a source-authenticated whole-field law and physical constraint/readout remain distinct missing inputs; no physical rate follows. Bounded source audit preserves the explicit R/4 toy but finds no full physical-response identification or universal off-shell quantifier."
         },
         "evidence": [
           "explorations/conditional-build/source-small-vev-current-test-2026-11-24.md",
           "explorations/conditional-build/source-gauge-mixing-quotient-2026-11-24.md",
-          "explorations/conditional-build/source-reality-mixing-class-2026-11-24.md"
+          "explorations/conditional-build/source-reality-mixing-class-2026-11-24.md",
+          "explorations/conditional-build/source-premise-custody-2026-11-25.md"
         ]
       }
     ]
@@ -2721,5 +2738,15 @@
     "consumed_bet": "BET-MASS-GAP",
     "counter_before": 36,
     "counter_after": 37
+  },
+  "horizon_execution_2026_11_25": {
+    "evidence": "lab/process/source-horizon-wave-2026-11-25.json",
+    "matrix_status_change": false,
+    "next_ready_horizon": "W09 optionalSU absolute existence; ordinary selection remains authoritative",
+    "exact_conditional_successors": [
+      "W02 complete source field law",
+      "W03 source equation/solution/scalar/response tuple",
+      "W08 admitted singular solution/domain"
+    ]
   }
 }

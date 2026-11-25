@@ -5,6 +5,10 @@ doc_type: overview
 updated_at: "2026-08-23"
 ---
 
+## Source horizon execution (2026-11-25)
+
+[Source custody, stabilizer, symbol-orbit and null-visibility results](source-horizon-wave-2026-11-25.json) with [independent review](hostile-reviews/2026-11-25-source-horizon-review.md).
+
 ## Full Pati-Salam holonomy (2026-11-25)
 
 [Exact conditional gap discriminator](bet-mass-gap-pati-salam-holonomy.json) and [review](hostile-reviews/2026-11-25-pati-salam-gap-review.md).

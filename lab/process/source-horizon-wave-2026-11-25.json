@@ -1,0 +1,119 @@
+{
+  "artifact": "SOURCE_HORIZON_WAVE",
+  "date": "2026-11-25",
+  "basis_revision": "28f77b74e6444917f4b096436007a2fe3a148671",
+  "tier": "T3 source audit;T2 conditional mathematics",
+  "target": [
+    "LB-CLASS",
+    "X-P1-P2",
+    "X-P1-P2-P3",
+    "P1xvariational",
+    "P2xorder_locality",
+    "P1xdomain_boundary"
+  ],
+  "status": "internal_reviewed",
+  "actual_delta": "Source audit closes: explicit R/4 toy and primitive currents retained, complete two-sided fermion/density/reference/observation law absent in inspected corpus. The full14/18 coefficientwise stabilizer is two auxiliary-grade scalings; fixed-symbol/parameter-changing laws differ. Every time-regular exterior14 symbol reduces to existing principal analytic types with exact regularity and semisimplicity polynomials. All18 symbols have a literal-observation-visible null-conormal subspace of complex dimension192. No source/GU/classC/domain or scientific matrix verdict.",
+  "results": {
+    "W01": "done finite source custody; missing physical diagram named; explicit R/4 toy and primitive current preserved",
+    "W02": "universal same-parameter complete14/18 stabilizer classified; source whole-operator application blocked on authenticated law",
+    "W06": "done time-regular complex metricSpin frame classification; old analytic types reused; fixed labelled/singular-time constraints outside scope",
+    "W08": "algebraic visibility done; analytic admissible-singular-witness continuation blocked on exact operator/constraint/domain",
+    "W03_W04": "remain blocked at full-source physical scope; existing toy algebra is not new research"
+  },
+  "counter_accounting": "37->38 once;LB-LADDER12->13;LC carry already consumed;no bet credit",
+  "matrix_status_effect": "none",
+  "source_ledger_classC_effect": "none",
+  "evidence": [
+    "explorations/conditional-build/source-premise-custody-2026-11-25.md",
+    "explorations/conditional-build/whole-field-symbol-stabilizer-2026-11-25.md",
+    "explorations/conditional-build/exterior-symbol-orbits-conormal-2026-11-25.md",
+    "lab/process/hostile-reviews/2026-11-25-source-horizon-review.md",
+    "tests/program-focus/whole_field_symbol_stabilizer_probe.py",
+    "tests/program-focus/exterior_symbol_orbit_probe.py"
+  ],
+  "validation": {
+    "stabilizer_ranks": [
+      64,
+      70,
+      70,
+      54,
+      22
+    ],
+    "stabilizer_variable_dimension": 72,
+    "stabilizer_first_jet_rank": 4,
+    "pde_visibility": {
+      "checks": 137,
+      "normal_form_initial_controls": 3,
+      "cases": [
+        {
+          "case": "generic",
+          "time_rank": 24,
+          "P": "-3"
+        },
+        {
+          "case": "Fzero",
+          "time_rank": 24,
+          "P": "-63/13"
+        },
+        {
+          "case": "Lzero",
+          "time_rank": 24,
+          "P": "-3/7"
+        },
+        {
+          "case": "Czero",
+          "time_rank": 24,
+          "P": "2/7"
+        },
+        {
+          "case": "semisimple",
+          "time_rank": 24,
+          "P": "0"
+        },
+        {
+          "case": "asingular",
+          "time_rank": 12,
+          "P": "12"
+        },
+        {
+          "case": "Tsingular",
+          "time_rank": 20,
+          "P": "-1"
+        },
+        {
+          "case": "Zsingular",
+          "time_rank": 20,
+          "P": "2"
+        }
+      ],
+      "mutants_rejected": [
+        "all_cross_arrows_new",
+        "fixed_readout_under_mixing",
+        "wrong_input_half",
+        "all_null_modes_invisible"
+      ],
+      "null_visible_bound": 192,
+      "null_signatures": [
+        "K77",
+        "K95"
+      ],
+      "scope": "principal algebra only; no admitted singular-state or physical domain"
+    },
+    "review": "Independent mathematical cross-reviews; source custody independently checked against original source loci; no Lean/T1 claim"
+  },
+  "next_frontier": {
+    "ready": "W09 optionalSU normal determinant/Spin existence, lower direct falsification relevance",
+    "conditional": [
+      "W02 authenticated field law typed as fixed/coefficient-changing/moving-tensor",
+      "W03 actual equations+admitted solution family+scalar owner+observed mixing map",
+      "W04 actual action symmetries and invariant deformation category",
+      "W08 existing admitted differential realization, constraints and topology admitting a singular solution"
+    ],
+    "avoid": [
+      "Repeating this same source corpus audit without new source data",
+      "Reclassifying generic f/h coefficients as new PDE strata",
+      "Treating universal stabilizer as individual-source-operator exclusion",
+      "Inferring physical trace failure from visible conormal algebra"
+    ]
+  }
+}

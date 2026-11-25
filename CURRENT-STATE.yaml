@@ -1,7 +1,7 @@
 schema_version: '1.0'
 repository: observerse-research-program
 branch: main
-revision_basis: 418717dcc4a62aa47905e39185b15a8cdec05028
+revision_basis: 28f77b74e6444917f4b096436007a2fe3a148671
 program_focus:
   version: 2026-11-24-v4
   authority: joe_direct_chat_2026_11_24_execute_recommendation
@@ -11,9 +11,9 @@ program_focus:
   - lab/process/work-packets/observed-hidden-index-split-2026-11-20.md
   - lab/process/work-packets/native-complex-order3-fork-2026-11-20.md
   - lab/process/work-packets/localization-falsifier-2026-11-24.md
-  priority_packets_note: Source-required-class-tests steps0-4 are done; its bounded source-law step5 is
-    the next eligible B packet discriminator. Prior done/blocked packets retained. The directed count35
-    LC carry was consumed by the Nov25 fullPS holonomy test; rules and governance remain unchanged.
+  priority_packets_note: Source-required-class-tests steps0-5 are done. Prior done/blocked packets
+    retained. Count35LC carry consumed Nov25; count38 now. Existing selection continues; the
+    conditional horizon records completed source/symbol tests and remaining exact inputs.
   priority_packet_selection:
     slots: B-lane slots only; run_selection rules 1 and 2 remain prior.
     order: When both have ready steps, alternate between these packets; Item 1 goes first on ties. Within
@@ -144,6 +144,34 @@ program_focus:
     assumption_view: lab/process/action-constraint-matrix.json#source_relevance_assumption_view
     maintenance: Update linked assumptions when their evidence changes; refresh existing weekly metrics
       at weekly review. Labels and presence checks are not proof of relevance.
+source_horizon_execution_2026_11_25:
+  status: T3_source_audit_T2_internal_mathematics
+  actual_delta: 'Source audit closes: explicit R/4 toy and primitive currents retained, complete two-sided
+    fermion/density/reference/observation law absent in inspected corpus. The full14/18 coefficientwise
+    stabilizer is two auxiliary-grade scalings; fixed-symbol/parameter-changing laws differ. Every time-regular
+    exterior14 symbol reduces to existing principal analytic types with exact regularity and semisimplicity
+    polynomials. All18 symbols have a literal-observation-visible null-conormal subspace of complex dimension192.
+    No source/GU/classC/domain or scientific matrix verdict.'
+  evidence:
+  - explorations/conditional-build/source-premise-custody-2026-11-25.md
+  - explorations/conditional-build/whole-field-symbol-stabilizer-2026-11-25.md
+  - explorations/conditional-build/exterior-symbol-orbits-conormal-2026-11-25.md
+  - lab/process/source-horizon-wave-2026-11-25.json
+  - lab/process/hostile-reviews/2026-11-25-source-horizon-review.md
+  claim_effect: No scientific matrix/source/ledger/classC/GU verdict
+  counter_accounting: 37->38 once;LB-LADDER12->13;no extra bet credit;LC carry consumed
+  next_frontier:
+    ready: W09 optionalSU normal determinant/Spin existence, lower direct falsification relevance
+    conditional:
+    - W02 authenticated field law typed as fixed/coefficient-changing/moving-tensor
+    - W03 actual equations+admitted solution family+scalar owner+observed mixing map
+    - W04 actual action symmetries and invariant deformation category
+    - W08 existing admitted differential realization, constraints and topology admitting a singular solution
+    avoid:
+    - Repeating this same source corpus audit without new source data
+    - Reclassifying generic f/h coefficients as new PDE strata
+    - Treating universal stabilizer as individual-source-operator exclusion
+    - Inferring physical trace failure from visible conormal algebra
 bet_pati_salam_holonomy_2026_11_25:
   status: T2_internal_reviewed
   actual_delta: For the full compact PS product/diagonalZ2 quotient with honest16 on flatT3, zero central

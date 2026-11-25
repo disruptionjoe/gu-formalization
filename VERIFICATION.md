@@ -17,6 +17,15 @@ External review is not a pathway in this program. The honesty label stays: inter
 
 Sections below are historical snapshots in file order.
 
+## Source horizon classifications (2026-11-25)
+
+The finite source audit closes. Independent mathematical reviews accept the
+complete coefficientwise stabilizer and regular-symbol orbit classification at
+T2, plus the full18 visible null-conormal lower bound. Five rational pair-space
+ranks, first-jet controls,137 numbered PDE/Clifford checks and three initial
+pencil cases pass. No Lean or physical-domain proof is claimed.
+[Evidence](lab/process/source-horizon-wave-2026-11-25.json).
+
 ## Pati-Salam flat-holonomy test (2026-11-25)
 
 The full compactPS comparator retains neutral quadratic modes in every central

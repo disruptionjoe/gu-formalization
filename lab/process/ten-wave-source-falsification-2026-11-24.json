@@ -21,7 +21,7 @@
     {
       "id": "W01",
       "title": "Resolve the few source premises that change the next calculation",
-      "status": "ready",
+      "status": "done",
       "priority_band": "A",
       "targets": [
         "X-P1-P2-P3",
@@ -72,12 +72,13 @@
         "W06 equivalence check",
         "W09 independent absolute topology"
       ],
-      "execution_state": "proposal; no scientific result or counter credit"
+      "execution_state": "Bounded source audit complete2026-11-25; no completed whole-field physical law found. Existing scalar toy/current data retained.",
+      "result_ref": "explorations/conditional-build/source-premise-custody-2026-11-25.md"
     },
     {
       "id": "W02",
       "title": "Test whole-field covariance beyond the isolated fermion arrow",
-      "status": "ready",
+      "status": "blocked",
       "priority_band": "A",
       "targets": [
         "X-P1-P2",
@@ -123,7 +124,9 @@
         "Differential compatibility and integrability",
         "Moving-reference and alternateSE countercontrols"
       ],
-      "execution_state": "proposal; no scientific result or counter credit"
+      "execution_state": "Custody/universal-family classification complete2026-11-25. Actual whole-source covariance needs authenticated law; no family necessity asserted.",
+      "result_ref": "explorations/conditional-build/whole-field-symbol-stabilizer-2026-11-25.md",
+      "remaining_input": "Complete field/reference/density/observation law or explicitly selected full differential realization; classify its quantifier before using universal stabilizer."
     },
     {
       "id": "W03",
@@ -176,7 +179,8 @@
         "Whole scalar-free module calculation",
         "Actual solution/response counterexamples or survivors"
       ],
-      "execution_state": "proposal; no scientific result or counter credit"
+      "execution_state": "W01 audit complete; full-source physical premises still absent. R/4 toy is explicitly present and already covered; no substitute model constructed.",
+      "result_ref": "explorations/conditional-build/source-premise-custody-2026-11-25.md"
     },
     {
       "id": "W04",
@@ -233,7 +237,8 @@
         "Restriction and redundancy quotient",
         "Countercontrols for on-shell/dynamical suppression"
       ],
-      "execution_state": "proposal; no scientific result or counter credit"
+      "execution_state": "W01 audit complete; full-source physical premises still absent. R/4 toy is explicitly present and already covered; no substitute model constructed.",
+      "result_ref": "explorations/conditional-build/source-premise-custody-2026-11-25.md"
     },
     {
       "id": "W05",
@@ -296,7 +301,7 @@
     {
       "id": "W06",
       "title": "Classify genuinely new observed evolution symbols",
-      "status": "ready",
+      "status": "done",
       "priority_band": "B",
       "targets": [
         "LB-CLASS",
@@ -339,7 +344,8 @@
         "Uniform hyperbolicity strata",
         "Known zeroSE survivor and singular-time controls"
       ],
-      "execution_state": "proposal; no scientific result or counter credit"
+      "execution_state": "Complete time-regular metricSpin natural frame classification2026-11-25; source labels/readout/gradient transported; singular constrained and source-specific real/duality categories remain distinct.",
+      "result_ref": "explorations/conditional-build/exterior-symbol-orbits-conormal-2026-11-25.md"
     },
     {
       "id": "W07",
@@ -399,7 +405,7 @@
     {
       "id": "W08",
       "title": "Test which characteristic singularities observation actually sees",
-      "status": "ready",
+      "status": "blocked",
       "priority_band": "B",
       "targets": [
         "P1xdomain_boundary",
@@ -457,7 +463,9 @@
         "Actual-solution/domain applicability",
         "Singular and smooth/annihilated controls"
       ],
-      "execution_state": "proposal; no scientific result or counter credit"
+      "execution_state": "Algebraic full18 null-conormal visibility completed2026-11-25 (at least192complex). Analytic continuation needs actual admitted singular witness.",
+      "result_ref": "explorations/conditional-build/exterior-symbol-orbits-conormal-2026-11-25.md",
+      "remaining_input": "Already supplied complete differential realization, physical constraints, admitted solution space and norm/topology; do not build source operator to activate."
     },
     {
       "id": "W09",
@@ -557,10 +565,9 @@
     }
   ],
   "recommended_next_workset": [
-    "Current carriedLC under existing rules",
-    "NextB: reuse W01/current packetstep5; begin W02 category custody and W06 equivalence discrimination where independent; W08 and low-priority W09 are independent reserves",
-    "Release W03/W04 only with their actual scalar/action-law premises; merge if same calculation",
-    "W05/W07/W10 remain conditional on physical generator/constraint/readout. Do not manufacture them."
+    "Current count38; carry consumed; next recurringLC at count39 unchanged.",
+    "W09 is the remaining ready horizon entry; ordinary program_focus selection may prefer a stronger eligible source-related target.",
+    "W02/W03/W04/W08 reactivate only on their exact new data; no repeat source-corpus or generic-cross-arrow calculation."
   ],
   "rejected_or_reserve": [
     {
@@ -598,5 +605,6 @@
       "scope": "Almost-complex obstruction stages; does not itself prove the GU determinant/Spin result."
     }
   ],
-  "evidence_ceiling": "Specialist assessments are planning judgments; no new calculation, Lean result, source/ledger verdict or matrix shrinkage is claimed."
+  "evidence_ceiling": "Specialist assessments are planning judgments; no new calculation, Lean result, source/ledger verdict or matrix shrinkage is claimed.",
+  "last_execution": "2026-11-25"
 }

@@ -25,7 +25,7 @@ LC opportunity to the next regular run. No discovery-bet attempt is credited her
 | 2 | done | LB-CLASS, X-P1-P2 / T2; T1 if scoped exclusion | Exhaustive metric-only Spin-natural first-order symbol generators and source/observation membership | No all-C classification from a smaller tensor category; accept a scoped exclusion only with existing T1 review/Lean. |
 | 3 | done | X-P1-P2-P3 / T2 | Determine full quaternionic-compatible Lorentz-vector SM-neutral odd-current class | Extra reality is a conditional restriction on full source U, not a source-fixed subgroup. No particle count inferred. |
 | 4 | done | X-P1-P2-P3 / T3 | Reconcile results and select the shortest genuinely new source-relevant successor | Do not reopen closed anomaly arithmetic or repeat covered branching/neighboring reconstructions under the same unproved bridge. |
-| 5 | ready | X-P1-P2-P3, P1 variational / T3 source audit, T2 only if authenticated equations are available | From the actual source extraction, resolve the full two-sided law for fermions, independent bars, density, reference connection and observation. Return an authenticated transformation diagram or the exact absent datum. | One bounded source check; do not build a missing law or repeat bosonic Ward/same-slot NE calculations. If unspecified, close this prerequisite with that finding and select another eligible target under existing rules. |
+| 5 | done | X-P1-P2-P3, P1 variational / T3 source audit, T2 only if authenticated equations are available | From the actual source extraction, resolve the full two-sided law for fermions, independent bars, density, reference connection and observation. Return an authenticated transformation diagram or the exact absent datum. | One bounded source check; do not build a missing law or repeat bosonic Ward/same-slot NE calculations. If unspecified, close this prerequisite with that finding and select another eligible target under existing rules. |
 
 ## Accepted outputs and continuation
 
@@ -51,3 +51,13 @@ checked research alternatives and dependencies. Its W01 reuses step5 above; ther
 is no duplicate audit or scientific credit. It preserves this packet's current
 priority and the dueLC opportunity. Later entries are conditional options for the
 existing postflight selection, not a new mandatory queue or stopping rule.
+
+## Step5 result (2026-11-25)
+
+The [bounded source audit](../../../explorations/conditional-build/source-premise-custody-2026-11-25.md)
+is complete. It preserves the explicit scalar toy and primitive current, while
+naming the missing full field/density/reference/observation law. All steps0–5
+are done; this packet adds no new prerequisite loop. Existing program_focus
+selection continues. The [horizon result](../source-horizon-wave-2026-11-25.json)
+records the regular-symbol classification and conditional source/analytic inputs.
+The carriedLC opportunity was consumed before this B result.

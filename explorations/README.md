@@ -5,6 +5,12 @@ doc_type: overview
 updated_at: "2026-08-21"
 ---
 
+## Source horizon execution (2026-11-25)
+
+- [Source-premise custody](conditional-build/source-premise-custody-2026-11-25.md)
+- [Whole-field stabilizer](conditional-build/whole-field-symbol-stabilizer-2026-11-25.md)
+- [Exterior orbits and visible conormals](conditional-build/exterior-symbol-orbits-conormal-2026-11-25.md)
+
 ## Full Pati-Salam holonomy (2026-11-25)
 
 [Flat-holonomy physical zero modes](conditional-build/bet-mass-gap-pati-salam-holonomy-2026-11-25.md).

@@ -19,6 +19,18 @@ carried discovery-bet opportunity retain precedence. Planning consumes no resear
 or bet counter. Source relevance and the usefulness of this plan must be judged
 by later scientific results, not by the existence of the plan.
 
+## Execution update (2026-11-25)
+
+[Results and next frontier](../source-horizon-wave-2026-11-25.json).
+W01 is complete, including the explicit R/4 toy. W02's universal-family
+classification is complete; actual source application awaits its full law.
+W06's regular frame/evolution classification is complete. W08 has a new
+algebraic visible192 subspace; the analytic singular-state test remains conditional.
+The carriedLC opportunity was consumed by the fullPS holonomy result. W09 is the
+remaining ready entry; existing selection can choose a stronger eligible target.
+No plan entry is automatically renewed as another wave after its discriminator closes.
+This is result bookkeeping under existing rules, not a new stopping rule.
+
 ## What the review changed
 
 The most useful candidates test the relation between source statements and the
@@ -46,18 +58,18 @@ separate full waves. Exact fields and evidence links are in the
 
 | Wave | State | Question | First discriminating action / negative-result scope |
 |---|---|---|---|
-| W01 | ready | Resolve the few source premises that change the next calculation | Reuse packetstep5; resolve transformation, scalar and current premises separately. Missing specification closes only that prerequisite. |
-| W02 | ready | Test whole-field covariance beyond the isolated fermion arrow | Classify legitimate full-field symbol stabilizers, then differential compatibility. Excludes only the declared candidate/repair class. |
+| W01 | done | Resolve the few source premises that change the next calculation | Reuse packetstep5; resolve transformation, scalar and current premises separately. Missing specification closes only that prerequisite. |
+| W02 | blocked | Test whole-field covariance beyond the isolated fermion arrow | Classify legitimate full-field symbol stabilizers, then differential compatibility. Excludes only the declared candidate/repair class. |
 | W03 | blocked | Test whether scalar curvature can control the actual mixing driver | Test scalar-free response and on-shell identifiability using actual equations. Off-shell freedom is insufficient. |
 | W04 | blocked | Find whether the curvature–mass–decoupling relation is protected | Compute invariant mixing types on the low-curvature locus. Lack of symmetry protection is not failed effective decoupling. |
 | W05 | blocked | Classify actual dynamical separation without fictitious switching | Test powers of the full frozen generator, not arbitrary switched words. Exact shielding is a diagnostic, not the source demand. |
-| W06 | ready | Classify genuinely new observed evolution symbols | Quotient legitimate field equivalences before new hyperbolicity algebra. Reuse Nov12 if equivalent. |
+| W06 | done | Classify genuinely new observed evolution symbols | Quotient legitimate field equivalences before new hyperbolicity algebra. Reuse Nov12 if equivalent. |
 | W07 | blocked | Test whether actual constraints survive the complete interaction | Check complete supplied interaction against actual propagated constraints; include moving coefficients and observation. |
-| W08 | ready | Test which characteristic singularities observation actually sees | Compute observed conormal polarizations, then require an admitted singular witness before any analytic exclusion. |
+| W08 | blocked | Test which characteristic singularities observation actually sees | Compute observed conormal polarizations, then require an admitted singular witness before any analytic exclusion. |
 | W09 | ready | Close the optional special-unitary determinant question | Test normal determinant cancellation and inheritedSpin compatibility. Optional SU failure leaves U branch open. |
 | W10 | blocked | Try to certify a physical leakage floor in the low-curvature limit | Certify a bound for an independently specified physical experiment through the closed low-curvature limit. |
 
-## How to use the horizon without resetting priorities
+## Original preparation sequence (superseded where the execution update resolves it)
 
 - **First workset:** consume the already dueLC opportunity normally. For the next
   eligible B work, reuse W01/the existing packetstep5, with independent W02
