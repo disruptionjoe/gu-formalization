@@ -24,16 +24,21 @@
       "routing_note": "Ordinary index and net-chirality calculations are controls only for this mechanism (GEOMETER-VS-PHYSICS-OBJECTS.md, generation/chirality row).",
       "kill_criterion": "Within the time box, no invariant separates the imposter sector from the true families, or the observation/quotient map from sectors to a realized count cannot be typed for any guessed action tried.",
       "status": "active",
-      "runs_used": 2,
+      "runs_used": 3,
       "zero_delta_streak": 0,
       "result": {
         "status": "active_with_conditional_structural_result",
-        "actual_delta": "BET-2PLUS1 active: actual first-time-jet reconstruction recovers the hidden normal sum at nonzero momentum with exact infrared conditioning. The held polarization has an explicit bounded literal-observation lift and positive massless evolution; its maximal original-mass survivor omits the scalar sector, has positive norm but gapless longitudinal spectrum, and fails generic spatial-mass transfer. Massless autonomous trace/scalar readouts do not equal original pure provenance sectors; mass mixes trace with its partner. No physical family count, guessed action or matrix/ledger verdict.",
+        "actual_delta": "Across the entire owned independent-chiral wedge/southeast family and every compatible unitary spin connection, fixed-adjoint local observation transport requires H=0. The existing weighted-integration-density rival works exactly when its normal log-density gradient b=H; all normal and tangent compatible connections are classified. Actual principal q/time descent and ordered chirality-mixing equations are proved. This is a scoped realization exclusion and typed survivor, not a GU/source/classC/physical-family verdict.",
         "evidence": [
           "explorations/conditional-build/bet-2plus1-temporal-observation-2026-11-11.md",
           "explorations/conditional-build/bet-2plus1-polarized-observed-evolution-2026-11-11.md",
           "tests/program-focus/bet_2plus1_observation_jets_probe.py",
-          "lab/process/bet-2plus1-observation-jets.json"
+          "lab/process/bet-2plus1-observation-jets.json",
+          "explorations/conditional-build/bet-2plus1-chiral-weight-transport-2026-11-25.md",
+          "lab/process/bet-2plus1-chiral-weight-transport.json",
+          "lab/process/hostile-reviews/2026-11-25-chiral-weight-transport-review.md",
+          "tests/program-focus/chiral_weight_transport_probe.py",
+          "Lean/GUFormalization/ChiralWeightTransport.lean"
         ],
         "prior_evidence": [
           "explorations/conditional-build/bet-2plus1-provenance-observation-2026-11-11.md",
@@ -42,10 +47,12 @@
           "Lean/GUFormalization/ProvenanceMixing.lean"
         ],
         "guessed_action_variants": 0,
-        "remaining_runs": 22,
+        "remaining_runs": 21,
         "physical_count": "not_supplied",
         "matrix_or_ledger_effect": "none",
-        "next_condition": "Compare the already-owned southeast-completed operator with an actual source/action-derived invariant constraint and full lower-term/observation closure retaining the scalar, trace and remainder roles. Do not repeat minimum separators, Fourier polarization, time-jet inverse or positive h=0 subsystem as if they supplied physical families. Variable spatial coefficients require actual constraint transport; no generic mass multiplication closure."
+        "next_condition": "The independent-chiral coefficient and connection family is now classified at this fixed-observation transport gate; do not enumerate neighboring weights. The surviving weighted-adjoint class requires actual source selection of its density/paired arrows and current/readout, plus the admitted global domain and physical-count bridge. A complete source transformation law is not supplied by this local theorem. Compare that source/domain discriminator with another eligible target under existing selection, and continue executable work; no authorization checkpoint.",
+        "prior_actual_delta": "BET-2PLUS1 active: actual first-time-jet reconstruction recovers the hidden normal sum at nonzero momentum with exact infrared conditioning. The held polarization has an explicit bounded literal-observation lift and positive massless evolution; its maximal original-mass survivor omits the scalar sector, has positive norm but gapless longitudinal spectrum, and fails generic spatial-mass transfer. Massless autonomous trace/scalar readouts do not equal original pure provenance sectors; mass mixes trace with its partner. No physical family count, guessed action or matrix/ledger verdict.",
+        "last_run_date": "2026-11-25"
       },
       "active_bet_note": {
         "packet": "lab/process/work-packets/observed-hidden-index-split-2026-11-20.md",
@@ -56,7 +63,7 @@
       "id": "BET-MASS-GAP",
       "question": "Does the curvature-square sector of the chimeric connection, after observation pullback, produce a gapped gauge sector (for example through the ad-valued one-form a) for some guessed action?",
       "target_row": "candidate new row: EXT-YM-MASS-GAP (lattice-observed gap; no proof exists)",
-      "external_context": "2026-11-25 evidence refresh: the Nov10 committee assessment and public Lean checks meet the tracking trigger for pure compact-simple four-dimensional Yang–Mills existence. No mass gap or unique infinite-volume limit is established; quark-coupled QCD is outside this assessment. No native GU or Sp(32,32) transfer. SC-META-53 compact shielding still needs a source-compatible positive physical reduction and identification with the Wilson-limit theory. Existing bet result and accounting unchanged.",
+      "external_context": "2026-11-25 evidence refresh: the Nov10 committee assessment and public Lean checks meet the tracking trigger for pure compact-simple four-dimensional Yang\u2013Mills existence. No mass gap or unique infinite-volume limit is established; quark-coupled QCD is outside this assessment. No native GU or Sp(32,32) transfer. SC-META-53 compact shielding still needs a source-compatible positive physical reduction and identification with the Wilson-limit theory. Existing bet result and accounting unchanged.",
       "kill_criterion": "Within the time box, the reduced quadratic operator has massless gauge modes for every guessed action tried, with the reduction typed (contraction, not projection).",
       "status": "active",
       "runs_used": 3,

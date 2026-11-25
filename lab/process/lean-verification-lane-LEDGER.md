@@ -455,3 +455,7 @@ cycle/gauge quotient has the canonical `ker d1 / range d0` module presentation
 and functorial linear chain-map descent. Exact controls pass 10/10 and 10/10.
 No source action, physical state space, analytic/positive completion,
 bicategory, ambidexterity or Mackey 2-functor is inferred.
+
+## Independent chiral transport core (2026-11-25)
+
+`Lean/GUFormalization/ChiralWeightTransport.lean` is in the default root. Its five conditional theorems verify the density residual, dimension10 arithmetic obstruction and equality, conversion through a supplied faithful evaluation, and abstract consistent rows. The universal Clifford, Hermitian-adjoint, source and domain premises live in [the written result](../../explorations/conditional-build/bet-2plus1-chiral-weight-transport-2026-11-25.md). Pinned single-thread targeted check passed; this is not a formalization of the full geometric theorem.

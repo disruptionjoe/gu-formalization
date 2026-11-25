@@ -17,6 +17,17 @@ External review is not a pathway in this program. The honesty label stays: inter
 
 Sections below are historical snapshots in file order.
 
+## Independent chiral transport (2026-11-25)
+
+The entire existing two-weight wedge/southeast family has the same local
+fixed-adjoint obstruction at nonzero mean curvature. Its already-owned weighted
+integration-density alternative survives exactly when the normal log-density
+gradient equals that curvature; all compatible spin connections are classified.
+This closes a coefficient-family gap, not the source's effective chirality claim.
+No physical family count, native analytic domain or matrix verdict follows.
+
+[Universal proof](explorations/conditional-build/bet-2plus1-chiral-weight-transport-2026-11-25.md), [exact evidence](lab/process/bet-2plus1-chiral-weight-transport.json), [internal review](lab/process/hostile-reviews/2026-11-25-chiral-weight-transport-review.md).
+
 ## Context and verification coverage repair (2026-11-25)
 
 Eight existing Lean modules now belong to the default import root. All eight

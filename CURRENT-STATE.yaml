@@ -1,7 +1,7 @@
 schema_version: '1.0'
 repository: observerse-research-program
 branch: main
-revision_basis: e54c1620e1d0b669b5a6cd408515ffd7618e300e
+revision_basis: 696c7df10315c72bd8dbfb890b86cbf7f69e8a68
 program_focus:
   version: 2026-11-24-v4
   authority: joe_direct_chat_2026_11_24_execute_recommendation
@@ -145,6 +145,29 @@ program_focus:
     assumption_view: lab/process/action-constraint-matrix.json#source_relevance_assumption_view
     maintenance: Update linked assumptions when their evidence changes; refresh existing weekly metrics
       at weekly review. Labels and presence checks are not proof of relevance.
+chiral_weight_transport_2026_11_25:
+  status: accepted_internal_T1_scoped
+  actual_delta: Across the entire owned independent-chiral wedge/southeast family and every compatible
+    unitary spin connection, fixed-adjoint local observation transport requires H=0. The existing weighted-integration-density
+    rival works exactly when its normal log-density gradient b=H; all normal and tangent compatible connections
+    are classified. Actual principal q/time descent and ordered chirality-mixing equations are proved.
+    This is a scoped realization exclusion and typed survivor, not a GU/source/classC/physical-family
+    verdict.
+  evidence:
+  - explorations/conditional-build/bet-2plus1-chiral-weight-transport-2026-11-25.md
+  - lab/process/bet-2plus1-chiral-weight-transport.json
+  - lab/process/hostile-reviews/2026-11-25-chiral-weight-transport-review.md
+  - tests/program-focus/chiral_weight_transport_probe.py
+  - Lean/GUFormalization/ChiralWeightTransport.lean
+  claim_effect: Scoped realization class; no source/physics/classC or matrix scientific verdict
+  counter_accounting: 39->40 once; BET2PLUS1 runs2->3,remaining22->21; zero new guessed actions; no B
+    scientific credit
+  next_condition: The independent-chiral coefficient and connection family is now classified at this fixed-observation
+    transport gate; do not enumerate neighboring weights. The surviving weighted-adjoint class requires
+    actual source selection of its density/paired arrows and current/readout, plus the admitted global
+    domain and physical-count bridge. A complete source transformation law is not supplied by this local
+    theorem. Compare that source/domain discriminator with another eligible target under existing selection,
+    and continue executable work; no authorization checkpoint.
 normal_special_unitary_2026_11_25:
   status: T2_internal_reviewed
   actual_delta: Normal SU(3,2) absolute existence adds no obstruction to U(3,2) on X, full Y or its time-oriented

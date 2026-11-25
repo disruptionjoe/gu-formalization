@@ -16,6 +16,17 @@ Do not add "Current follow-through" sections or "Historical predecessor" stacks 
 matrix or bet file. The retired follow-through chain and banner stack are kept at the end of this file under
 "Archived steering history".
 
+## Independent chiral transport (2026-11-25)
+
+The entire existing two-weight wedge/southeast family has the same local
+fixed-adjoint obstruction at nonzero mean curvature. Its already-owned weighted
+integration-density alternative survives exactly when the normal log-density
+gradient equals that curvature; all compatible spin connections are classified.
+This closes a coefficient-family gap, not the source's effective chirality claim.
+No physical family count, native analytic domain or matrix verdict follows.
+
+[Universal proof](explorations/conditional-build/bet-2plus1-chiral-weight-transport-2026-11-25.md), [exact evidence](lab/process/bet-2plus1-chiral-weight-transport.json), [internal review](lab/process/hostile-reviews/2026-11-25-chiral-weight-transport-review.md).
+
 ## Source-class wave (2026-11-24)
 
 The complete metric-only first-order symbol category has18 generators,14 after

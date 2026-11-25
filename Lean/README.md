@@ -80,6 +80,8 @@ documents.
 | `GUFormalization/ThreeLocalFloor.lean` | Finite additive/character algebra distinguishing virtual C2 representations from ZMod2 and showing a mod3 character does not factor through forgotten rank. No topology or native datum floor is formalized. | `explorations/conditional-build/x-d1-p3-three-local-floor-2026-11-11.md` |
 | `GUFormalization/WeldCoefficientScope.lean` | Phase propagation along a supplied connected relation and an incompatible two-cycle coefficient control. No class-C action, source coefficient or geometric realization. | `explorations/conditional-build/x-p1-p2-class-c-lift-2026-11-11.md` |
 
+| `GUFormalization/ChiralWeightTransport.lean` | Conditional density residual, dimension10 obstruction, faithful supplied evaluation and consistent density rows. Clifford/source/domain hypotheses are supplied; no GU theorem. | `explorations/conditional-build/bet-2plus1-chiral-weight-transport-2026-11-25.md` |
+
 ## Standalone Lean Certificates
 
 | Lean file | Scope | Owner surface |

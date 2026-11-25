@@ -5,6 +5,10 @@ doc_type: overview
 updated_at: "2026-08-23"
 ---
 
+## Independent chiral transport (2026-11-25)
+
+[Whole two-weight family and weighted-adjoint classification](bet-2plus1-chiral-weight-transport.json), [proof](../../explorations/conditional-build/bet-2plus1-chiral-weight-transport-2026-11-25.md), [review](hostile-reviews/2026-11-25-chiral-weight-transport-review.md). Conditional local realization result; no matrix/source verdict.
+
 ## Context and verification continuity (2026-11-25)
 
 [Focused repair evidence](context-continuity-repair-2026-11-25.json). Live views derive current packet/counter facts; source caveats and existing Lean coverage are explicit. Research priorities and scientific verdicts are unchanged.
