@@ -1,0 +1,117 @@
+{
+  "schema_version": "1.0",
+  "artifact": "tensor-normalization-wave",
+  "date": "2026-11-25",
+  "revision_basis": "e5d3d250018a50c00165746d1902883b88694a38",
+  "authority": "joe_direct_chat_next_big_wave_2026_11_25",
+  "tier": "T1_internal_scoped",
+  "target": "X-P1-P2-P3",
+  "lane": "LB-LADDER",
+  "actual_delta": "Finite smooth strictly positive metric-fibre normalization exists on a fixed tensor orbit iff the effective Lorentz stabilizer, including internal gauge compensation, is compact. Every Lorentz-invariant finite probability is supported on the positive conformal ray; a common symmetry-restored limit cannot be a regular full-dimensional density. Scalar-flat Ricci retains compact isotropy and defeats the scalar-zero implies full-restoration inference. Fixed smooth reweighting does not repair the same-operator local trace failure. No source/GU/class-C or scientific matrix verdict changes.",
+  "class_covered": [
+    "All fixed tensor-orbit inputs with the declared G\u00d7K action and full-fibre positive finite invariant measures",
+    "All equivariant probability families with a common weak probability limit at a fully Lorentz-fixed parameter"
+  ],
+  "source_relevance": {
+    "status": "conditional",
+    "source_necessary_claim": false,
+    "weakest_unproved_link": "Source necessity of finite invariant background probability; separately full tensor restoration/common limit.",
+    "class_C_representativeness": "unresolved; no action membership or width witness certified"
+  },
+  "exclusions": [
+    "Noncompact effective-isotropy smooth finite normalization category",
+    "Regular full-dimensional common probability limit at full Lorentz restoration"
+  ],
+  "survivors": [
+    "Compact effective-isotropy tensor strata including scalar-flat Ricci",
+    "Singular conformal-ray measures with arbitrary positive-scale law",
+    "Direction-dependent limits and noninvariant normalized states",
+    "Changed physical domains/quotients/readouts; operator changes require new applicability"
+  ],
+  "prior_results_reused_without_new_credit": [
+    "Clock density existence",
+    "Same-operator smooth-positive reweighting preserves prior exact-solution local trace obstruction"
+  ],
+  "selection": {
+    "mandatory_basis": "Joe direct scientific big wave; count41 ordinary B; priority packets closed/blocked; no unfinished T1",
+    "scope": "Whole invariant-measure/tensor-orbit and limit categories, not adjacent operator realizations",
+    "source_relevance": "Metric-fibre and curvature/VEV/displacement claims are source-owned; measure necessity/restoration are not.",
+    "shared_prerequisite": "Native norm/domain and joint field transformation; finite-background probability necessity is independent.",
+    "remaining_cost": "Written proof, finite exact controls and boost algebra Lean; no action construction.",
+    "strongest_eligible_alternative": "Source non-LC displacement/physical-domain applicability: higher source relevance but full joint law/domain presently missing; bounded applicability remains next comparator."
+  },
+  "counter": {
+    "before": 41,
+    "after": 42,
+    "LB_LADDER_before": 15,
+    "LB_LADDER_after": 16,
+    "bet_credit": 0
+  },
+  "evidence": [
+    "explorations/conditional-build/tensor-stabilizer-normalization-2026-11-25.md",
+    "explorations/conditional-build/symmetry-restoration-measure-limit-2026-11-25.md",
+    "lab/process/tensor-normalization-wave.json",
+    "tests/program-focus/tensor_normalization_probe.py",
+    "Lean/GUFormalization/LorentzMeasureCore.lean",
+    "lab/process/hostile-reviews/2026-11-25-tensor-normalization-review.md"
+  ],
+  "exact_controls": {
+    "schema": "tensor-normalization-exact-controls-v1",
+    "checks": {
+      "lorentz_lie_generators": true,
+      "infinitesimal_three_boost_rank9": true,
+      "infinitesimal_fixed_line_g": true,
+      "finite_boosts_preserve_g": true,
+      "actual_finite_boost_rank9": true,
+      "finite_and_infinitesimal_fixed_line_equal": true,
+      "timelike_stabilizer_dim3": true,
+      "spacelike_stabilizer_dim3": true,
+      "null_stabilizer_dim3": true,
+      "spacelike_stabilizer_contains_boost": true,
+      "null_rotation_fixes_null_vector": true,
+      "null_rotation_nonzero_nilpotent": true,
+      "ordered_null_pair_stabilizer_dim1": true,
+      "null_pair_sum_timelike": true,
+      "scalar_flat_Ricci_nonzero": true,
+      "Ricci_stabilizer_dim3": true,
+      "Ricci_stabilizer_exact_rotations": true,
+      "Ricci_spectral_projector_independent_scalar": true,
+      "Ricci_positive_auxiliary_metric": true,
+      "scalar_changes_without_symmetry_restoration": true,
+      "coframe_bare_stabilizer_trivial": true,
+      "coframe_joint_stabilizer_dim6": true,
+      "coframe_projected_joint_stabilizer_full": true,
+      "curvature_pair_symmetries": true,
+      "curvature_Bianchi": true,
+      "curvature_contracts_to_S": true,
+      "explicit_FLRW_Ricci": true,
+      "explicit_FLRW_scalar_zero": true,
+      "explicit_FLRW_orthonormal_Ricci": true,
+      "unit_future_clocks": true,
+      "ell_is_null": true,
+      "rank_one_null_metric_determinant": true,
+      "rank_one_null_inverse": true,
+      "clock_Q_null_formula_u": true,
+      "clock_Q_null_formula_v": true,
+      "different_clocks_different_density_shape": true,
+      "conformal_ray_fixed_control": true
+    },
+    "passed": 37,
+    "scope": "Exact finite-dimensional algebra and geometric controls only; analytic compactness, integration and weak limits remain reviewed written proofs.",
+    "mutations_rejected": [
+      "scalar-zero implies full isotropy",
+      "equal stabilizer dimension implies equal compactness",
+      "bare coframe stabilizer decides gauge-invariant measure",
+      "all finite invariant measures impossible",
+      "clock direction yields path-independent regular restoration"
+    ]
+  },
+  "verification": {
+    "lean": "Two actual rational-boost declarations and aggregate root import passed pinned Lean; no new axioms or placeholders. Missing historical cache objects rebuilt serially; existing ObservedHiddenSplit unused-variable warning.",
+    "native_gates": "All eight relevant gates passed, with existing routing/typed coverage ceilings unchanged; protected source/ledger/C/canon/papers/bets/program_focus and scientific statuses verified unchanged.",
+    "reviews": "two independent mathematical specialists and separate hostile source reviewer; minor wording corrections integrated",
+    "review_artifact": "lab/process/hostile-reviews/2026-11-25-tensor-normalization-review.md"
+  },
+  "claim_effect": "No source, physical ledger, canon, action-class or scientific matrix status change",
+  "process_effect": "Existing scope/source-relevance and survivor follow-through controls applied under Joe-approved policy; no governance change. Effect: scalar-zero and bare-stabilizer overclaims caught before integration."
+}

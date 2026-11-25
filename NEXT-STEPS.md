@@ -16,6 +16,17 @@ Do not add "Current follow-through" sections or "Historical predecessor" stacks 
 matrix or bet file. The retired follow-through chain and banner stack are kept at the end of this file under
 "Archived steering history".
 
+## Tensor normalization and restored symmetry (2026-11-25)
+
+Finite smooth metric-fibre probability exists on a tensor orbit exactly when the
+Lorentz symmetry remaining after internal gauge compensation is compact. At full
+Lorentz restoration every invariant probability is supported on the positive
+conformal ray; a regular common probability limit is excluded. Scalar-flat Ricci
+can retain compact symmetry, so scalar-curvature decay alone does not trigger
+that exclusion. These are internal measure-class results, not GU or source kills.
+
+[Stabilizer proof](explorations/conditional-build/tensor-stabilizer-normalization-2026-11-25.md), [limit and observation consequence](explorations/conditional-build/symmetry-restoration-measure-limit-2026-11-25.md), [review](lab/process/hostile-reviews/2026-11-25-tensor-normalization-review.md).
+
 ## Actual-solution observation and natural density (2026-11-25)
 
 Exact solutions still defeat literal observation on ordinary local/finite-time L2

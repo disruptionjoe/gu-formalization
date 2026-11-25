@@ -5,6 +5,10 @@ doc_type: overview
 updated_at: "2026-08-23"
 ---
 
+## Tensor normalization and restored symmetry (2026-11-25)
+
+[Effective stabilizer and limit evidence](tensor-normalization-wave.json), [independent review](hostile-reviews/2026-11-25-tensor-normalization-review.md). Whole measure-class exclusions with scalar-flat and singular controls; no source or scientific matrix verdict change.
+
 ## Actual-solution observation and natural density (2026-11-25)
 
 [Exact solution/domain evidence](solution-observation-trace.json), [natural density evidence](natural-density-fibre-volume.json), [independent review](hostile-reviews/2026-11-25-solution-density-review.md). Scoped internal analytic exclusions with constructive repairs; source and scientific matrix verdicts unchanged.

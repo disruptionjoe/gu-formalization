@@ -16,6 +16,17 @@ discovery bet (`lab/process/discovery-bets.json`). The K25xx--K2618 detector, pr
 results below are retained as conditional mathematics; that lane is no longer the default target. Sections
 below are dated results, newest first, and are not steering.
 
+## Tensor normalization and restored symmetry (2026-11-25)
+
+Finite smooth metric-fibre probability exists on a tensor orbit exactly when the
+Lorentz symmetry remaining after internal gauge compensation is compact. At full
+Lorentz restoration every invariant probability is supported on the positive
+conformal ray; a regular common probability limit is excluded. Scalar-flat Ricci
+can retain compact symmetry, so scalar-curvature decay alone does not trigger
+that exclusion. These are internal measure-class results, not GU or source kills.
+
+[Stabilizer proof](explorations/conditional-build/tensor-stabilizer-normalization-2026-11-25.md), [limit and observation consequence](explorations/conditional-build/symmetry-restoration-measure-limit-2026-11-25.md), [review](lab/process/hostile-reviews/2026-11-25-tensor-normalization-review.md).
+
 ## Actual-solution observation and natural density (2026-11-25)
 
 Exact solutions still defeat literal observation on ordinary local/finite-time L2

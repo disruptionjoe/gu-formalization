@@ -122,7 +122,13 @@
         "lab/process/solution-observation-trace.json",
         "lab/process/natural-density-fibre-volume.json",
         "lab/process/hostile-reviews/2026-11-25-solution-density-review.md",
-        "Lean/GUFormalization/ObservationSolutionTrace.lean"
+        "Lean/GUFormalization/ObservationSolutionTrace.lean",
+        "explorations/conditional-build/tensor-stabilizer-normalization-2026-11-25.md",
+        "explorations/conditional-build/symmetry-restoration-measure-limit-2026-11-25.md",
+        "lab/process/tensor-normalization-wave.json",
+        "tests/program-focus/tensor_normalization_probe.py",
+        "Lean/GUFormalization/LorentzMeasureCore.lean",
+        "lab/process/hostile-reviews/2026-11-25-tensor-normalization-review.md"
       ],
       "prior_requirement": "The RS boundary eta on RP^3 is 2-primary, so the boundary term does not source an order-3 count.",
       "actual_delta": "P3xdomain_boundary refined: closed/polarized B5 domains cannot supply a Fredholm index in the full-core category; exact high-null sequences survive weights, scalar shifts, asymptotic coefficients and all smooth radial projector-compatible connections, even unbounded. Fixed-domain Fredholm essential spectrum is all C; no physical-spectrum claim.",
@@ -696,7 +702,13 @@
         "lab/process/solution-observation-trace.json",
         "lab/process/natural-density-fibre-volume.json",
         "lab/process/hostile-reviews/2026-11-25-solution-density-review.md",
-        "Lean/GUFormalization/ObservationSolutionTrace.lean"
+        "Lean/GUFormalization/ObservationSolutionTrace.lean",
+        "explorations/conditional-build/tensor-stabilizer-normalization-2026-11-25.md",
+        "explorations/conditional-build/symmetry-restoration-measure-limit-2026-11-25.md",
+        "lab/process/tensor-normalization-wave.json",
+        "tests/program-focus/tensor_normalization_probe.py",
+        "Lean/GUFormalization/LorentzMeasureCore.lean",
+        "lab/process/hostile-reviews/2026-11-25-tensor-normalization-review.md"
       ],
       "grade": "independently reviewed conditional structural theorem; no full class-C or physical realization decision",
       "actual_delta": "Six-spinor value augmentation closes the stated tangential principal/evolution category. Invertible conormal principal symbols exclude value-only tangential autonomy on unrestricted ambient normal jets, invariant under equation-row changes; constrained extensions, derivative receivers and closed physical domains remain separate.",
@@ -882,7 +894,13 @@
         "lab/process/source-prescription.json",
         "explorations/conditional-build/source-lower-term-compatibility-2026-11-13.md",
         "explorations/conditional-build/source-exterior-connection-2026-11-13.md",
-        "lab/process/source-exterior-connection.json"
+        "lab/process/source-exterior-connection.json",
+        "explorations/conditional-build/tensor-stabilizer-normalization-2026-11-25.md",
+        "explorations/conditional-build/symmetry-restoration-measure-limit-2026-11-25.md",
+        "lab/process/tensor-normalization-wave.json",
+        "tests/program-focus/tensor_normalization_probe.py",
+        "Lean/GUFormalization/LorentzMeasureCore.lean",
+        "lab/process/hostile-reviews/2026-11-25-tensor-normalization-review.md"
       ],
       "actual_delta": "P2xsymmetry refined: the full named parallel diagram forces the residual volume connection to vanish, while projector/J/K compatibility alone allows arbitrary real one-forms; reflected-coflip global calibration needs exactness and its specified parallel vector.",
       "grade": "conditional structural theorem; no full class-C decision",
@@ -1451,10 +1469,16 @@
         "lab/process/solution-observation-trace.json",
         "lab/process/natural-density-fibre-volume.json",
         "lab/process/hostile-reviews/2026-11-25-solution-density-review.md",
-        "Lean/GUFormalization/ObservationSolutionTrace.lean"
+        "Lean/GUFormalization/ObservationSolutionTrace.lean",
+        "explorations/conditional-build/tensor-stabilizer-normalization-2026-11-25.md",
+        "explorations/conditional-build/symmetry-restoration-measure-limit-2026-11-25.md",
+        "lab/process/tensor-normalization-wave.json",
+        "tests/program-focus/tensor_normalization_probe.py",
+        "Lean/GUFormalization/LorentzMeasureCore.lean",
+        "lab/process/hostile-reviews/2026-11-25-tensor-normalization-review.md"
       ],
       "packet_step_status": "steps0-5 done; source-required packet complete; physical applications retain named inputs",
-      "next_run": "Use the live counter and current bet records with existing program_focus selection. the bounded source-law audit, universal-family stabilizer and regular exterior-symbol classification are complete; W09 absolute normal determinant/Spin existence is also complete. A physical whole-field covariance test requires a newly authenticated full two-sided field/bar/density/reference/observation law, typed as fixed or parameter-changing. Preserve the explicit R/4 toy and primitive currents; do not repeat the completed corpus audit or substitute a guessed law. Other eligible matrix or LB-CLASS targets remain selectable under program_focus; these conditional branches do not stop repository work.",
+      "next_run": "Reuse the compact-effective-stabilizer criterion and conformal-support classification; tensor-free normalization and regular fully restored probability are settled in these categories. Compare the source-described non-LC displacement joint action and physical observation-domain test against the strongest other eligible class question under unchanged cadence. The prior source-law corpus audit is complete; only newly authenticated data reopen that blocked branch, and other eligible structural tests remain selectable. The missing joint gauge action is not supplied by bare tensor components; finite invariant background probability and full tensor restoration remain unasserted source premises. Do not infer source failure from ordinary L2 normalization or scalar-curvature decay. Continue eligible science without constructing the gated source operator.",
       "known": "Both proposed class-width witnesses audited: neither meets the required membership/P1 or hosting-exclusion scope. Actual Wilson near-zero diagnostic qualified by exact kernel/coercivity proof; existing alternative controls do not certify C. Joint intersection remains open.",
       "actual_delta": "The complete metric-only Spin-natural symbol module has18 generators,14 after the exterior-gradient condition. Every autonomous pointwise observation retaining the literal horizontal one-form and scalar output needs at least6 spinor slots in that category; five is excluded. The full block-Lorentz/SM-neutral, K95 quaternionic-compatible odd one-form class has12 real parameters and a real full-support survivor. Ordinary simultaneous gauge transport cannot erase its relative grading detector. The printed NE arrow has a left-tilted derivative defect and a flat-to-nonflat obstruction to same-slot pointwise intertwiners at fixed reference. These are quantified conditional categories, not physical modes or a GU/classC falsification.",
       "completed_packet": "lab/process/work-packets/class-width-witness-check-2026-11-11.md",
@@ -1635,6 +1659,21 @@
         "source_bridge": "conditional; no established action membership or physical domain/finite-mass necessity",
         "scientific_status_effect": "unchanged",
         "next_discriminator": "The solution-only and natural-density-only shortcuts are now settled in their declared categories. A physical application needs an authenticated full differential realization and admitted domain excluding the exact characteristic packets, a stronger topology/modified observation, or additional source data breaking the density isotropy. Stronger-domain trace alone does not supply the forcing trace qF, grading or Fredholm index. Recompare these burdens with other eligible structural questions under existing selection; do not enumerate neighboring frozen coefficients or wait for authorization."
+      },
+      "tensor_normalization_2026_11_25": {
+        "tier": "T1_scoped_internal_exclusions",
+        "actual_delta": "Finite smooth strictly positive metric-fibre normalization exists on a fixed tensor orbit iff the effective Lorentz stabilizer, including internal gauge compensation, is compact. Every Lorentz-invariant finite probability is supported on the positive conformal ray; a common symmetry-restored limit cannot be a regular full-dimensional density. Scalar-flat Ricci retains compact isotropy and defeats the scalar-zero implies full-restoration inference. Fixed smooth reweighting does not repair the same-operator local trace failure. No source/GU/class-C or scientific matrix verdict changes.",
+        "evidence": [
+          "explorations/conditional-build/tensor-stabilizer-normalization-2026-11-25.md",
+          "explorations/conditional-build/symmetry-restoration-measure-limit-2026-11-25.md",
+          "lab/process/tensor-normalization-wave.json",
+          "tests/program-focus/tensor_normalization_probe.py",
+          "Lean/GUFormalization/LorentzMeasureCore.lean",
+          "lab/process/hostile-reviews/2026-11-25-tensor-normalization-review.md"
+        ],
+        "source_bridge": "conditional; source necessity absent for finite background probability/full restoration/common regular limit",
+        "scientific_status_effect": "unchanged",
+        "next_discriminator": "Reuse the compact-effective-stabilizer criterion and conformal-support classification; tensor-free normalization and regular fully restored probability are settled in these categories. Compare the source-described non-LC displacement joint action and physical observation-domain test against the strongest other eligible class question under unchanged cadence. The prior source-law corpus audit is complete; only newly authenticated data reopen that blocked branch, and other eligible structural tests remain selectable. The missing joint gauge action is not supplied by bare tensor components; finite invariant background probability and full tensor restoration remain unasserted source premises. Do not infer source failure from ordinary L2 normalization or scalar-curvature decay. Continue eligible science without constructing the gated source operator."
       }
     }
   ],
@@ -1651,7 +1690,7 @@
     },
     "LB-LADDER": {
       "zero_delta_streak": 0,
-      "runs": 15,
+      "runs": 16,
       "status": "open"
     }
   },
@@ -2524,11 +2563,33 @@
       ],
       "claim_effect": "Internal class exclusions and domain requirements; no C-status or source/ledger verdict",
       "review": "Two independent mathematical reviewers per theorem, hostile source review, 56 exact controls, conditional Lean core"
+    },
+    {
+      "date": "2026-11-25",
+      "target": "X-P1-P2-P3",
+      "secondary_targets": [
+        "P1xdomain_boundary",
+        "P3xdomain_boundary",
+        "P2xsymmetry"
+      ],
+      "previous_status": "open",
+      "status": "open",
+      "actual_delta": "Finite smooth strictly positive metric-fibre normalization exists on a fixed tensor orbit iff the effective Lorentz stabilizer, including internal gauge compensation, is compact. Every Lorentz-invariant finite probability is supported on the positive conformal ray; a common symmetry-restored limit cannot be a regular full-dimensional density. Scalar-flat Ricci retains compact isotropy and defeats the scalar-zero implies full-restoration inference. Fixed smooth reweighting does not repair the same-operator local trace failure. No source/GU/class-C or scientific matrix verdict changes.",
+      "evidence": [
+        "explorations/conditional-build/tensor-stabilizer-normalization-2026-11-25.md",
+        "explorations/conditional-build/symmetry-restoration-measure-limit-2026-11-25.md",
+        "lab/process/tensor-normalization-wave.json",
+        "tests/program-focus/tensor_normalization_probe.py",
+        "Lean/GUFormalization/LorentzMeasureCore.lean",
+        "lab/process/hostile-reviews/2026-11-25-tensor-normalization-review.md"
+      ],
+      "claim_effect": "Internal measure-class exclusions only; no source/ledger/C verdict",
+      "review": "Two independent mathematics reviews, hostile source review, exact controls and actual boost algebra Lean"
     }
   ],
   "program_run_counter": {
     "since": "2026-11-09",
-    "count": 41,
+    "count": 42,
     "rule": "Every hourly run increments this in its postflight, whatever its lane. Lane C runs when count % 4 == 3 before the increment."
   },
   "working_rule": "Cells are worked at the structure level: a requirement must hold for every action in class C or for a structurally defined subfamily. No cell is worked by writing down a specific action, and no gated cell is worked by building its gate object. See CURRENT-STATE.yaml program_focus.structure_not_specifics.",
@@ -2714,6 +2775,15 @@
       "counter_after": 41,
       "lane": "LB-LADDER",
       "actual_delta": "Exact solutions in the entire frozen homogeneous full18 symbol category retain nonclosable literal observation on local L2 and the K95 real-sheet Hs<=4 cores; sharp stronger-domain repairs are explicit. Every smooth positive zero-order (g,y)-natural full Lorentz-metric-fibre density has infinite mass, excluding invariant scalar L2 localization in that category; extra timelike data gives a finite-mass countercategory. No source/GU/classC or scientific matrix verdict changes."
+    },
+    {
+      "date": "2026-11-25",
+      "authority": "joe_direct_chat_next_big_wave_2026_11_25",
+      "item": "Effective tensor stabilizer and symmetry-restored measure limit",
+      "counter_before": 41,
+      "counter_after": 42,
+      "lane": "LB-LADDER",
+      "actual_delta": "Finite smooth strictly positive metric-fibre normalization exists on a fixed tensor orbit iff the effective Lorentz stabilizer, including internal gauge compensation, is compact. Every Lorentz-invariant finite probability is supported on the positive conformal ray; a common symmetry-restored limit cannot be a regular full-dimensional density. Scalar-flat Ricci retains compact isotropy and defeats the scalar-zero implies full-restoration inference. Fixed smooth reweighting does not repair the same-operator local trace failure. No source/GU/class-C or scientific matrix verdict changes."
     }
   ],
   "directed_lc_carry_2026_11_24_b": {
@@ -2940,6 +3010,25 @@
           "explorations/conditional-build/natural-density-fibre-volume-2026-11-25.md"
         ],
         "structural_choices": "Norm/topology, real spectral sheet, differential lower terms, physical constraints, tube or singular observation and density datum category must be supplied, not guessed."
+      },
+      {
+        "question": "Which source tensor data have compact effective Lorentz isotropy and does the source need finite invariant background probability?",
+        "premise_status": "Source-constrained tensor arena; joint action and finite-background probability necessity unspecified",
+        "source_claim_refs": [
+          "lab/sources/source-claim-register.yaml#SC-GEO-03",
+          "lab/sources/source-claim-register.yaml#SC-GEO-55",
+          "lab/sources/source-claim-register.yaml#SC-CHI-52",
+          "lab/sources/source-claim-register.yaml#SC-META-53"
+        ],
+        "source_bridge": {
+          "status": "conditional",
+          "reason": "Scalar-flat curvature can retain compact isotropy; bare tensor stabilizers omit gauge compensation. Normalized states do not require finite invariant background measure."
+        },
+        "evidence": [
+          "explorations/conditional-build/tensor-stabilizer-normalization-2026-11-25.md",
+          "explorations/conditional-build/symmetry-restoration-measure-limit-2026-11-25.md"
+        ],
+        "structural_choices": "Effective joint stabilizer, background-versus-state normalization, support category and common-limit quantifier. None fixes an action."
       }
     ],
     "shared_prerequisites": [
@@ -3101,10 +3190,12 @@
         "explorations/conditional-build/natural-density-fibre-volume-2026-11-25.md"
       ]
     },
-    "survivors_and_exclusions": "Homogeneous local-L2 trace failure does not exclude stronger admitted topology, different physical quotient/readout or curved operator. Natural (g,y)-only finite-mass density exclusion does not exclude extra-data densities. Source necessity and C representativeness remain conditional.",
+    "survivors_and_exclusions": "Homogeneous local-L2 trace failure does not exclude stronger admitted topology, different physical quotient/readout or curved operator. Natural (g,y)-only finite-mass density exclusion does not exclude extra-data densities. Source necessity and C representativeness remain conditional. Tensor normalization now has a compact-effective-stabilizer iff criterion; regular full-symmetry-restored probability is excluded, but scalar-flat Ricci, singular ray measures and noninvariant normalized states survive.",
     "evidence": [
       "explorations/conditional-build/solution-observation-trace-2026-11-25.md",
-      "explorations/conditional-build/natural-density-fibre-volume-2026-11-25.md"
+      "explorations/conditional-build/natural-density-fibre-volume-2026-11-25.md",
+      "explorations/conditional-build/tensor-stabilizer-normalization-2026-11-25.md",
+      "explorations/conditional-build/symmetry-restoration-measure-limit-2026-11-25.md"
     ]
   }
 }

@@ -1,7 +1,7 @@
 schema_version: '1.0'
 repository: observerse-research-program
 branch: main
-revision_basis: 696c7df10315c72bd8dbfb890b86cbf7f69e8a68
+revision_basis: e5d3d250018a50c00165746d1902883b88694a38
 program_focus:
   version: 2026-11-25-v1
   authority: joe_direct_chat_2026_11_25_five_process_improvements_approved
@@ -139,6 +139,33 @@ program_focus:
     covered; source relevance separately from mathematical breadth; shared prerequisite if any; remaining
     cost; strongest eligible alternative. A blocked high-value target is not an eligible alternative without
     its missing input. Reuse completed theorems and compare only their uncovered successors.'
+tensor_normalization_2026_11_25:
+  status: accepted_internal_T1_scoped
+  actual_delta: Finite smooth strictly positive metric-fibre normalization exists on a fixed tensor orbit
+    iff the effective Lorentz stabilizer, including internal gauge compensation, is compact. Every Lorentz-invariant
+    finite probability is supported on the positive conformal ray; a common symmetry-restored limit cannot
+    be a regular full-dimensional density. Scalar-flat Ricci retains compact isotropy and defeats the
+    scalar-zero implies full-restoration inference. Fixed smooth reweighting does not repair the same-operator
+    local trace failure. No source/GU/class-C or scientific matrix verdict changes.
+  evidence:
+  - explorations/conditional-build/tensor-stabilizer-normalization-2026-11-25.md
+  - explorations/conditional-build/symmetry-restoration-measure-limit-2026-11-25.md
+  - lab/process/tensor-normalization-wave.json
+  - tests/program-focus/tensor_normalization_probe.py
+  - Lean/GUFormalization/LorentzMeasureCore.lean
+  - lab/process/hostile-reviews/2026-11-25-tensor-normalization-review.md
+  claim_effect: Internal measure/limit classes only; no source/physics/class-C status
+  counter_accounting: 41->42 once; LB-LADDER15->16; no bet credit; cadence unchanged
+  next_condition: Reuse the compact-effective-stabilizer criterion and conformal-support classification;
+    tensor-free normalization and regular fully restored probability are settled in these categories.
+    Compare the source-described non-LC displacement joint action and physical observation-domain test
+    against the strongest other eligible class question under unchanged cadence. The prior source-law
+    corpus audit is complete; only newly authenticated data reopen that blocked branch, and other eligible
+    structural tests remain selectable. The missing joint gauge
+    action is not supplied by bare tensor components; finite invariant background probability and full
+    tensor restoration remain unasserted source premises. Do not infer source failure from ordinary L2
+    normalization or scalar-curvature decay. Continue eligible science without constructing the gated
+    source operator.
 solution_density_2026_11_25:
   status: accepted_internal_T1_scoped
   actual_delta: Exact solutions in the entire frozen homogeneous full18 symbol category retain nonclosable
