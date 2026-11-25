@@ -1,7 +1,7 @@
 schema_version: '1.0'
 repository: observerse-research-program
 branch: main
-revision_basis: 47f4a505c56466ff4b083f9d6081ed166f5a3121
+revision_basis: e54c1620e1d0b669b5a6cd408515ffd7618e300e
 program_focus:
   version: 2026-11-24-v4
   authority: joe_direct_chat_2026_11_24_execute_recommendation
@@ -26834,6 +26834,14 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  Follow program_focus.run_selection using the live constraint-matrix counter,
+  discovery-bet balances and packet dispositions; scripts/research_context.py
+  projects those current owners without selecting work. The source-required
+  packet is complete, and blocked horizon branches retain their exact missing
+  inputs rather than a new prerequisite loop. Use current native records for
+  cadence and eligibility; the dated history below does not override them.
+
+  Historical predecessor (counter16, not live):
   Follow program_focus.run_selection at the top of this file. Counter is16;
   BET-2PLUS1 now has2/24 runs used. Actual time-jet inversion and the explicit
   polarized observed evolution are recorded with infrared, zero-mode,

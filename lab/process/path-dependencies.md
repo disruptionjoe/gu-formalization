@@ -20,9 +20,9 @@ graph TD
   PD_SIGNATURE_PARITY_s2 --> PD_SIGNATURE_PARITY_s3
   PD_SIGNATURE_PARITY_s4["EXACT: Majorana-Weyl exists iff p-q = 0 mod 8. Of the reachable horns only (7,7) q..."]
   PD_SIGNATURE_PARITY_s3 --> PD_SIGNATURE_PARITY_s4
-  PD_SIGNATURE_PARITY_s5["THEOREM: Quaternionic structure forces Kramers doubling, hence EVEN multiplicity."]
+  PD_SIGNATURE_PARITY_s5["THEOREM: A commuting quaternionic symmetry on invariant eigenspaces forces EVEN comp..."]
   PD_SIGNATURE_PARITY_s4 --> PD_SIGNATURE_PARITY_s5
-  PD_SIGNATURE_PARITY_s6["CONDITIONAL: Three generations is ODD. So (9,5) structurally forbids the target; (7,7) p..."]
+  PD_SIGNATURE_PARITY_s6["CONDITIONAL: An odd observed count is excluded only if it is identified with that same q..."]
   PD_SIGNATURE_PARITY_s5 --> PD_SIGNATURE_PARITY_s6
   PD_SIGNATURE_PARITY_s7["EXACT: Cross-checked 2026-08-17 (SCUR-1's watch): HE-1/HE-2's subtractive observed..."]
   PD_SIGNATURE_PARITY_s6 --> PD_SIGNATURE_PARITY_s7
@@ -166,7 +166,7 @@ graph TD
 
 ## PD-SIGNATURE-PARITY
 
-**The ambient horn is not cosmetic: (9,5) forbids an odd generation count and (7,7) permits it. A computation on the wrong horn cannot reach three.**
+**The ambient horns have different reality structures. Quaternionic parity constrains its compatible operator/index, not an observed 2+1 count without the separately proved observation and domain identification.**
 
 - **Trigger:** Any work touching the generation count, chirality, spinor reality, Kramers/quaternionic structure, or that builds on a Cl(9,5) carrier.
 - **Naive reading:** "(9,5) vs (7,7) is a sign convention, so results transfer." They do not. The two are not real-isomorphic and the reality type is observable.
@@ -178,8 +178,8 @@ graph TD
 | 3 | `AUTHOR-STATED` | Weinstein's equation (12.19) authorially displays g*(TY^(7,7)) = TX^(1,3) + N_g^(6,4), providing a source resolver to the unordered {7,7} horn but not deriving the relative block sign from the action. | `explorations/portfolio-correction-wave-2026-08-12.md` |
 | 4 | `EXACT` | Cl(9,5) = M(64,H) quaternionic; Cl(7,7) = M(128,R) real. Not real-isomorphic. | `tests/majorana_weyl_forces_the_seven_seven_horn.py` |
 | 5 | `EXACT` | Majorana-Weyl exists iff p-q = 0 mod 8. Of the reachable horns only (7,7) qualifies. | `tests/majorana_weyl_forces_the_seven_seven_horn.py` |
-| 6 | `THEOREM` | Quaternionic structure forces Kramers doubling, hence EVEN multiplicity. | `canon/no-go-quaternionic-parity-generation-sector.md` |
-| 7 | `CONDITIONAL` | Three generations is ODD. So (9,5) structurally forbids the target; (7,7) permits it. | `explorations/twentyfive-lens-council-on-the-signature-decision-2026-08-08.md` |
+| 6 | `THEOREM` | A commuting quaternionic symmetry on invariant eigenspaces forces EVEN complex multiplicity; a chiral Fredholm parity inference also requires the actual grade and adjoint-domain compatibility. | `canon/no-go-quaternionic-parity-generation-sector.md` |
+| 7 | `CONDITIONAL` | An odd observed count is excluded only if it is identified with that same quaternionic-constrained index. No such source-native 2+1 identification is supplied here; (7,7) removes this particular parity obstruction without selecting a count. | `explorations/twentyfive-lens-council-on-the-signature-decision-2026-08-08.md` |
 | 8 | `EXACT` | Cross-checked 2026-08-17 (SCUR-1's watch): HE-1/HE-2's subtractive observed-3 = n_g - 1 lives at the +/- package/comparator layer with n_g an INPUT and no chiral input on the four-corner total declaration (CR-B); no receipt identifies the Kramers-constrained ambient carrier index with n_g, and on (9,5) the symplectic doubling is uniform, so the invalidation clause does NOT fire. It fires the day a receipt constructs that identification on the SG4-bit-2 effective half (observed 3 = 4 - 1 then makes the constrained index EVEN and step 7 dissolves), or a constructed foreign mechanism supplies the odd offset outside the sector. | `tests/channel-swings/joe_directed_pcx1_signature_parity_clause_does_not_fire.py` |
 
 **CHECK.** State which horn the work stands on. If Cl(9,5), say so and say whether the result is horn-robust. Treat equation (12.19) as a named SOURCE resolver, not a mathematical settlement. Do NOT let a (9,5) result silently stand in for the source-aligned reconstruction.

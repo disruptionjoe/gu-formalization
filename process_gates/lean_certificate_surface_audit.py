@@ -141,50 +141,54 @@ def lean_without_comments_or_strings(text: str) -> str:
     return "".join(out)
 
 
+def proof_placeholder_locations(text: str) -> list[tuple[int, str]]:
+    """Locate forbidden source tokens after removing comments and strings.
+
+    This is a source-text check, not Lean parsing or a transitive axiom audit.
+    Theorem-level ``#print axioms`` receipts remain a separate check.
+    """
+    surface = lean_without_comments_or_strings(text)
+    return [
+        (surface.count("\n", 0, match.start()) + 1, match.group())
+        for match in FORBIDDEN_PROOF_PLACEHOLDER.finditer(surface)
+    ]
+
+
 class LeanCertificateSurfaceAudit(unittest.TestCase):
-    def test_no_lean_source_carries_sorry_or_undeclared_axiom(self) -> None:
-        """Enforce the precondition the LEAN-VERIFIED label already asserts.
-
-        Added 2026-08-08, register P-H5.  The lane ledger defines LEAN-VERIFIED as
-        "default or named target typechecks, with no `sorry` or unreported axioms,
-        and the owner cites it".  As of 2026-08-08 the tree genuinely carries no
-        `sorry` -- the only textual hits are docstrings stating their own absence --
-        so this gate fixes no present defect.  What it fixes is that the label's
-        precondition was unenforced: nothing would have caught a `sorry` being
-        introduced under a row already marked LEAN-VERIFIED.
-
-        Note this is a SOURCE-TEXT check, not a kernel check.  A real guarantee is
-        `#print axioms` on the built target; that receipt lives in
-        ResidualSelectionAxioms.lean and is deliberately outside the default
-        target, informational and non-enforcing, as the ledger states.  This test
-        does not upgrade that receipt and must not be cited as if it had.
-        """
-        lean_root = Path(__file__).resolve().parent.parent / "Lean"
-        if not lean_root.is_dir():
-            self.skipTest("no Lean/ tree")
-
+    def test_no_lean_source_carries_proof_placeholders(self) -> None:
+        """Use the same lexical check for every library and standalone source."""
+        sources = set((ROOT / "Lean").rglob("*.lean")) | set(STANDALONE_LEAN_CERTIFICATES)
+        self.assertTrue(sources, "no Lean source files found")
         offenders = []
-        for source in sorted(lean_root.rglob("*.lean")):
-            for number, line in enumerate(source.read_text(errors="ignore").splitlines(), 1):
-                stripped = line.strip()
-                if stripped.startswith("--") or stripped.startswith("/-"):
-                    continue
-                # a docstring line that merely says "there is no sorry" is prose
-                if re.search(r"\bsorry\b", line) and "no `sorry`" not in line and "No `sorry`" not in line:
-                    offenders.append(f"{source.name}:{number}: {stripped[:80]}")
+        for source in sorted(sources):
+            self.assertTrue(source.is_file(), f"missing {source}")
+            for number, token in proof_placeholder_locations(source.read_text(encoding="utf-8")):
+                offenders.append(f"{source.relative_to(ROOT)}:{number}: {token}")
+        self.assertEqual([], offenders, "Lean source proof placeholders:\n  " + "\n  ".join(offenders))
 
-        self.assertEqual(
-            [], offenders,
-            "Lean sources carrying `sorry` while the lane ledger defines "
-            "LEAN-VERIFIED as requiring none:\n  " + "\n  ".join(offenders),
+    def test_placeholder_scanner_controls(self) -> None:
+        clean = (
+            '-- sorry axiom\n'
+            '/- multiline\n sorry /- nested axiom -/\n-/\n'
+            'def message := "sorry axiom -- /-"\n'
+            'def escaped := "a \\"quoted\\" sorry"\n'
+            'theorem sound : True := by trivial\n'
         )
+        self.assertEqual([], proof_placeholder_locations(clean))
+        self.assertEqual([(2, "sorry")], proof_placeholder_locations('-- harmless\ntheorem bad : True := by sorry\n'))
+        self.assertEqual([(1, "axiom")], proof_placeholder_locations('axiom invented : False\n'))
+        self.assertEqual([(1, "sorry")], proof_placeholder_locations('/- no `sorry` -/ theorem bad : True := by sorry\n'))
+        self.assertEqual([], proof_placeholder_locations('def sorryCount := 0\n'))
+        for malformed in ['/- unfinished', 'def bad := "unfinished']:
+            with self.subTest(source=malformed), self.assertRaises(ValueError):
+                proof_placeholder_locations(malformed)
 
     def test_lake_scaffold_exists(self) -> None:
         self.assertTrue((ROOT / "lean-toolchain").is_file())
         self.assertTrue((ROOT / "lakefile.lean").is_file())
         self.assertIn("mathlib", (ROOT / "lakefile.lean").read_text(encoding="utf-8"))
 
-    def test_lean_files_exist_and_are_placeholder_free(self) -> None:
+    def test_declared_lean_files_exist(self) -> None:
         certificate_paths = (
             [DEFAULT_TARGET_ENTRYPOINT]
             + default_target_certificates()
@@ -194,9 +198,6 @@ class LeanCertificateSurfaceAudit(unittest.TestCase):
         for path in certificate_paths:
             with self.subTest(path=path):
                 self.assertTrue(path.is_file(), f"missing {path}")
-                text = path.read_text(encoding="utf-8")
-                proof_surface = lean_without_comments_or_strings(text)
-                self.assertIsNone(FORBIDDEN_PROOF_PLACEHOLDER.search(proof_surface))
 
     def test_library_inventory_is_derived_from_default_entrypoint(self) -> None:
         modules = local_import_modules()

@@ -16,6 +16,7 @@ converts a label on another.
 | document status | What role does this file play? | `canon`, `active_research`, `exploration`, `process`, `archive`, `source`, `draft` | A file role is not a scientific verdict or evidence grade. |
 | evidence / verification grade | How strongly is this result established, and by what method? | L1/L2/L3 where an artifact defines that ladder; `EXACT`, proof-grade, computed, independently re-verified, reconstruction, proposal, toy | Strong computation does not by itself make a physical interpretation canon or resolved. |
 | claim or canon verdict | What is the current disposition of the exact scoped claim? | `RESOLVED`, `CONDITIONALLY_RESOLVED`, `OPEN`, plus explicitly scoped corrections and no-go dispositions | `RESOLVED` is never inferred from a file's location, an executable's green exit, or a hosting grade. |
+| review tier | What acceptance depth does the scoped result require? | T1, T2, T3 as defined by `program_focus.review_tiers` | Review depth is not a proof grade; a Lean kernel does not validate every source or physical premise. |
 | construction / hosting level | How much of the intended physical structure has been built? | proposal, toy, consistency, hosting, forcing | Hosting shows fit under supplied inputs; it does not mean the inputs or observed physics were forced. |
 
 ## Reading rule
@@ -39,8 +40,8 @@ append-only ledger states. Those values are not silently added to the seven-
 value document-role vocabulary and are not normalized by this crosswalk.
 
 The complete tracked population is frozen in
-`lab/process/frontmatter-status-population.yaml`: 2,831 status-bearing files,
-including 1,452 legacy untyped uses. Those historical values remain local to
+`lab/process/frontmatter-status-population.yaml`; use its current counts instead
+of a copied census here. Those historical values remain local to
 their artifacts and protected by a content-addressed ratchet; they are not a
 global vocabulary and are never rewritten by string substitution.
 

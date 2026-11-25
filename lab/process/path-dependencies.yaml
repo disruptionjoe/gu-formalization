@@ -30,8 +30,9 @@ chains:
 
   - id: PD-SIGNATURE-PARITY
     headline: >-
-      The ambient horn is not cosmetic: (9,5) forbids an odd generation count
-      and (7,7) permits it. A computation on the wrong horn cannot reach three.
+      The ambient horns have different reality structures. Quaternionic parity
+      constrains its compatible operator/index, not an observed 2+1 count
+      without the separately proved observation and domain identification.
     trigger: >-
       Any work touching the generation count, chirality, spinor reality,
       Kramers/quaternionic structure, or that builds on a Cl(9,5) carrier.
@@ -58,10 +59,10 @@ chains:
       - fact: "Majorana-Weyl exists iff p-q = 0 mod 8. Of the reachable horns only (7,7) qualifies."
         evidence: EXACT
         receipt: tests/majorana_weyl_forces_the_seven_seven_horn.py
-      - fact: "Quaternionic structure forces Kramers doubling, hence EVEN multiplicity."
+      - fact: "A commuting quaternionic symmetry on invariant eigenspaces forces EVEN complex multiplicity; a chiral Fredholm parity inference also requires the actual grade and adjoint-domain compatibility."
         evidence: THEOREM
         receipt: canon/no-go-quaternionic-parity-generation-sector.md
-      - fact: "Three generations is ODD. So (9,5) structurally forbids the target; (7,7) permits it."
+      - fact: "An odd observed count is excluded only if it is identified with that same quaternionic-constrained index. No such source-native 2+1 identification is supplied here; (7,7) removes this particular parity obstruction without selecting a count."
         evidence: CONDITIONAL
         receipt: explorations/twentyfive-lens-council-on-the-signature-decision-2026-08-08.md
       - fact: >-

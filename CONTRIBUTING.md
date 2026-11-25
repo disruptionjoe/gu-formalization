@@ -89,11 +89,15 @@ If you find a no-go theorem the analysis missed, or a hypothesis decomposition t
 
 ### Specification of new substrate-class candidates
 
-The six-axis specification space (substrate × observer × pairing × causal-order × emergence × coordination-loop) contains roughly 16,000 candidate hextuples, of which roughly 20-50 are mathematically tractable today. If you can specify a hextuple the current materials don't name — with explicit citations to the existing literature for each axis — and propose how to construct the substrate-level invariant for it, that is exactly the kind of expansion the program needs.
+Use the ratified seven-axis specification plus Layer 0 semantic alignment in
+`lab/specifications/six-axis/six-axis-template.md`. The historical directory name
+is retained for link stability. A new specification needs explicit references
+for its axes and a scoped first falsification test; the older six-axis count
+is not a current census of admissible candidates.
 
 To propose a new substrate-class specification:
 - Open an issue titled `Specification proposal: <short name>`
-- Name the hextuple (L1 substrate, L2 observer, L3 pairing, L4 causal-order, L5 emergence, L6 coordination-loop) with at least one published-literature citation per axis
+- Name the septuple (L1 substrate, L2 observer, L3 pairing, L4 causal-order, L5 emergence, L6 coordination-loop, L7 positivity/state-space metric signature), complete Layer 0 first, and provide at least one published-literature citation per axis
 - Name the lossy reduction map you propose connects this substrate class to the smooth-bundle shadow
 - Name the Freed-Hopkins compatibility test you propose for the construction
 - Name the time horizon and skill set you think a research effort on this specification would need
@@ -119,9 +123,9 @@ The repository is intentionally lightweight. If you think a piece of infrastruct
 
 1. Fork the repository.
 2. Create a branch named descriptively (e.g. `pr/freed-hopkins-pairing-counterexample` or `pr/connes-subfactor-construction-attempt`).
-3. Make your changes. If you are adding a new perspective pass, follow the structural template visible in the existing passes (sections a through e, optional appendix). If you are adding a new deep-research brief, follow the structure of the existing four. If you are adding a new substrate-class specification, follow the hextuple specification template above.
-4. If the change involves a math claim, follow the repository's three-tier tagging discipline:
-   - `[verified]` — defensible against a knowledgeable reader with named established result references
+3. Make your changes. If you are adding a new perspective pass, follow the structural template visible in the existing passes (sections a through e, optional appendix). If you are adding a new deep-research brief, follow the structure of the existing four. If you are adding a new substrate-class specification, follow the seven-axis plus Layer-0 specification template above.
+4. If the change involves a math claim, use the repository's evidence labels (distinct from T1/T2/T3 review depth):
+   - `[verified]` — defensible against a knowledgeable reader with named established result references and the exact verification method/scope
    - `[reconstruction]` — inferred from existing material with the source named
    - `[speculation]` — extrapolation beyond available sources, with explicit naming of what would need to be true for the speculation to hold
    If the change promotes, downgrades, or re-scopes a claim, also run
@@ -167,6 +171,11 @@ The maintainer reserves the right to close issues, lock threads, or block contri
 ---
 
 ## Maintainer expectations
+
+For agent research, `AGENTS.md` and the pinned review tiers in `VERIFICATION.md`
+control acceptance; the contributor-facing expectations below do not add an
+external-review prerequisite to an internal Run. Any change to the separate
+external-contributor review promise needs an explicit maintainer decision.
 
 The repository is maintained by Joe Hernandez (initial maintainer; the maintainer set is expected to grow as the program develops). Maintainer commitments:
 

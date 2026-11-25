@@ -1,16 +1,17 @@
 #!/usr/bin/env python3
 r"""reproduce_all.py — one-step reproducibility harness for the gu-formalization certificates.
 
-Every computational claim in this repo is backed by a standalone Python "certificate": a script
-with hard `assert`s and a printed VERDICT that exits 0 on pass and nonzero on failure (see
-tests/README.md). Each certificate remains directly runnable, and this harness is the central
-runner for sweeping them in one step. It discovers every such certificate, runs each in a fresh
-subprocess with a timeout, and prints a PASS/FAIL/TIMEOUT/ERROR summary table with totals. It
-exits nonzero iff any certificate did not pass, so a green run == every computational claim
-re-derived from scratch on your machine. Shared library modules (LIBRARY_MODULES below) are
-engines imported by other certificates, not certificates, and are excluded from discovery.
+This harness discovers Python certificate scripts within the selected roots,
+runs each in a fresh subprocess with a timeout, and prints a
+PASS/FAIL/TIMEOUT/ERROR summary. A green run means every discovered check in the
+printed scope exited successfully. Each certificate's own claim ceiling still
+applies: finite controls, stored-report replay, numerical evidence, and a full
+proof are different forms of evidence. This runner does not run Lean or validate
+source-to-physics bridges. Shared library modules (LIBRARY_MODULES below) are
+engines imported by other certificates and are excluded from discovery.
 
-It changes NOTHING: it only imports the standard library and shells out to `python <cert>.py`.
+The runner does not edit certificate sources. Subprocess behavior and optional
+output files remain owned by each certificate.
 
 USAGE
     python scripts/reproduce_all.py            # all certs: tests/ + paper/draft certs
@@ -22,7 +23,7 @@ USAGE
     python scripts/reproduce_all.py -k krein   # only certs whose repo-relative path contains "krein"
 
 EXIT CODE
-    0  every discovered certificate passed
+    0  every discovered check in the printed scope exited successfully
     1  at least one certificate FAILED / TIMED OUT / ERRORED
 """
 
@@ -273,7 +274,7 @@ def main(argv=None):
     for status, secs, rp, _ in slow:
         print(f"  {secs:6.1f}s  {rp}")
     print("=" * 78)
-    verdict = "GREEN — every certificate reproduced." if not bad else \
+    verdict = "GREEN — all discovered checks in the printed scope exited successfully." if not bad else \
               f"RED — {len(bad)} certificate(s) did not pass (see above)."
     print(f"VERDICT: {verdict}")
     print("=" * 78)

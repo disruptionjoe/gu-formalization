@@ -3,7 +3,7 @@
   "artifact": "ACTION_CLASS_DECLARATION",
   "class_id": "GU-ACTION-CLASS-C",
   "version": "v1",
-  "status": "active_v1_declared_pending_first_LB-CLASS_witness_check",
+  "status": "active_v1_declared_width_unresolved_after_2026_11_11_audit",
   "authorized_by": "Joe direct chat, 2026-11-09 (program_focus reset)",
   "claim_effect": "none",
   "purpose": "Fix the class of candidate actions over which the constraint matrix (lab/process/action-constraint-matrix.json) is intersected. A statement 'no action in C hosts P1, P2 and P3 together' is only meaningful relative to this declaration.",

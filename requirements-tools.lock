@@ -1,0 +1,13 @@
+# Tool-only dependency for YAML context/process readers; numeric pins stay in
+# requirements.lock. Sources: https://pypi.org/pypi/PyYAML/6.0.3/json
+# Verified artifact metadata 2026-11-25. Wheel hashes below cover standard
+# CPython3.14 on Linux x86_64 and macOS arm64, not free-threaded CPython or all
+# contributor platforms. No numeric package version is changed by this file.
+# Install together: python -m pip install --only-binary=:all: --require-hashes \
+#   -r requirements.lock -r requirements-tools.lock
+#
+# pyyaml-6.0.3-cp314-cp314-macosx_11_0_arm64.whl
+# pyyaml-6.0.3-cp314-cp314-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl
+PyYAML==6.0.3 \
+    --hash=sha256:34d5fcd24b8445fadc33f9cf348c1047101756fd760b4dacb5c3e99755703310 \
+    --hash=sha256:c458b6d084f9b935061bc36216e8a69a7e293a2f1e68bf956dcd9e6cbcd143f5

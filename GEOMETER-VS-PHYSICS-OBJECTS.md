@@ -33,6 +33,8 @@ bridge. These reminders constrain inference, not permission to continue work.
   derivation: the corrected displayed-block arithmetic gives K95.
   The ambient bridge remains open. Do not transfer Clifford, Hodge,
   conjugation or Krein data silently.
+  Source SC-GEO-51 names full `U(64,64)` spinor-frame structure; an added
+  quaternionic-compatible `Sp(32,32)` restriction is conditional, not that source group.
   [Branch correction](explorations/conditional-build/signature-rationale-and-build-branch-retype-2026-08-08.md).
 
 - **T03 Trace reversal and gravity.** Vertical Frobenius, ambient Einstein
@@ -49,7 +51,11 @@ bridge. These reminders constrain inference, not permission to continue work.
 - **T05 Generations and labels.** SC-GEN-01 DISAVOWS three simply repeated
   families. The target is `2+1`: imposter128 is spin-1/2;
   RS384 is the separately labeled spin-3/2 cousin. Neither establishes a
-  physical-family count.
+  physical-family count. Under the Nov20 held observation map, the ambient
+  gamma-traceless imposter lands in observed gamma-trace; the RS-shaped cousin
+  is a distinct summand. This is a map-level result, not a family count;
+  SC-GEN-52 remains uncertain.
+  [Actual observation and operator distinction](explorations/conditional-build/krein-order3-observation-label-2026-11-20.md);
   [Label adjudication and limits](lab/process/hostile-reviews/2026-08-03-imposter-ab-review.md).
 
 - **T06 Chirality and reality.** The source asserts a non-chiral total
@@ -167,7 +173,7 @@ table, apply the rule below.
 
 | Object | Standard physics construction | Geometer's (program-native) construction | Determined side + why |
 |---|---|---|---|
-| **Gauge group** | "Sp(64)"; or "non-compact -> non-unitary -> inconsistent" | **Sp(32,32;H)**, the non-compact real form -- and the non-compactness IS the Krein/indefinite form, a feature not a bug (Branch 5: non-compactness == the Krein form, one datum) | Do not reject GU for a "non-unitary non-compact group"; the Krein structure is the point |
+| **Gauge / spinor-frame group** | "Sp(64)"; or "non-compact -> non-unitary -> inconsistent" | The source names the full **U(64,64)** spinor-frame structure group (SC-GEO-51). **Sp(32,32;H)** is an additional quaternionic-compatible restriction used by named repository constructions, not an unconditional source identity. Normal Spin(6,4), ambient spinor-frame structure and an observed physical gauge group remain distinct. | Preserve noncompact/Krein constructions at their stated scope. Neither the full U parent nor the extra Sp restriction establishes a positive physical gauge theory. This corrects the stale table identity already flagged in SC-GEO-51; scoped Sp calculations remain valid under their added hypothesis. |
 | **Ghost clearance / physical positivity** | Remove unphysical degrees of freedom or construct positive physical states and probabilities | The conditional **KEEP-AND-GRADE** Krein route retains an indefinite ambient form; `[P,S]=0` and the older K95 Cartan construction do not establish an interacting positive physical theory or transfer automatically to K77 | Preserve this alternative without calling ghost clearance settled. SC-META-53 records source uncertainty; LT-SM8/LT-GR6b retain physical-state/domain burdens. `explorations/H59-krein-loop-positivity-gate-2026-07-12.md` explicitly leaves loop positivity OPEN. Neither signature alone nor a kinematic grading decides it. |
 | **Signature (7,7)** | Multiple timelike directions -> ghosts, no unitary Hilbert space, inconsistent | The source uses K77 as an asserted carrier, but its displayed metric-block arithmetic, read in consistent source notation, derives K95. SIGNATURE-AMBIENT remains open. Exact K77 results retain their stated conditional metric; their Krein data are not a derivation of that metric from the displayed blocks. See the [August 8 branch correction](explorations/conditional-build/signature-rationale-and-build-branch-retype-2026-08-08.md). | Do not kill GU merely for indefinite signature, mistake source assertion for geometric derivation, or transfer real-form coefficients silently. |
 | **Graded / guardian symmetry** | super-Poincare, `{Q,Q} ~ P_mu` (spacetime SUSY) | **super-IG**: a graded extension of the internal gauge group IG, `{Q,Q} ~ Omega^1(ad)` = the SPIN CONNECTION, not `P_mu` (Branch 5, decisive) | A team hunting spacetime SUSY concludes "no guardian"; the geometer's graded object is a distinct (local-Lorentz-graded) thing |

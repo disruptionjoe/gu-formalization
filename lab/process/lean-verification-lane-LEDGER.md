@@ -4,7 +4,7 @@ status: canon
 doc_type: lane-ledger
 scope: repo-local
 created: 2026-07-07
-updated: 2026-09-01
+updated: 2026-11-25
 owner_surface: lab/methods/lean-verification.md
 ---
 
@@ -34,6 +34,26 @@ replication. Those stay in owner prose and machine certificates. Status vocabula
   Required by the gates listed in `computational-toolchain.md`. Layer-0 applies: a CAS returns a
   decomposition, never a count.
 - `PROSE`: written argument only.
+
+## November certificate inventory reconciliation (2026-11-25)
+
+Eight existing finite kernels are now included in the default entrypoint. Their
+prior targeted verification is recorded in their linked result and `VERIFICATION.md`;
+those receipts do not by themselves certify this newly expanded default target.
+The owner closing verification records the exact target, toolchain/manifest and
+result of the serialized integration check. No theorem body or scientific scope
+changes here, and source/geometry/domain premises remain explicit.
+
+| Lean file | Exact finite scope | Prior targeted evidence |
+|---|---|---|
+| `Lean/GUFormalization/MetricNormalGradingCore.lean` | Conditional pairing/linear-map core: a selfadjoint shape cannot equal a skew connection on a nondegenerate pairing; supplied faithful Clifford residual and nonzero coefficients retain the defect. No geometric connection, domain or physical grade is constructed. | `explorations/conditional-build/metric-normal-family-grading-2026-11-24.md`; `VERIFICATION.md` |
+| `Lean/GUFormalization/ObservedHiddenPremise.lean` | Integer cancellation from supplied same-grading additivity and total balance, plus the supplied closed-comparison coefficients. Source non-chirality is not proved to supply those analytic premises. | `explorations/conditional-build/zero-total-grading-premise-2026-11-20.md`; `VERIFICATION.md` |
+| `Lean/GUFormalization/ObservedHiddenSplit.lean` | Finite six-term exact-sequence index additivity and its balanced-total corollary. Exactness, Fredholm realization and physical grading remain supplied obligations. | `explorations/conditional-build/native-descending-grading-classification-2026-11-21.md`; `VERIFICATION.md` |
+| `Lean/GUFormalization/ProvenanceMixing.lean` | Finite rational six-slot evolution and trace/remainder/scalar mixing checks. No Clifford, PDE, action or physical-family claim. | `explorations/conditional-build/bet-2plus1-provenance-observation-2026-11-11.md`; `VERIFICATION.md` |
+| `Lean/GUFormalization/SixSpinorGrading.lean` | Conditional finite algebra for receiver uniqueness, quotient oddness and an injective torsion witness, with coefficients, geometric identities and descent supplied. No source-owned physical grading or analytic domain. | `explorations/conditional-build/six-spinor-grading-compatibility-2026-11-24.md`; `VERIFICATION.md` |
+| `Lean/GUFormalization/SourceClassCore.lean` | Rank lower bound and six-slot minimum from supplied kernel containment and dimensions15s/9s. Spin invariant theory, completeness, source necessity and physical observation domains are outside Lean. | `explorations/conditional-build/source-natural-symbol-class-2026-11-24.md`; `VERIFICATION.md` |
+| `Lean/GUFormalization/ThreeLocalFloor.lean` | Finite additive/character algebra distinguishing virtual C2 representations from ZMod2 and showing a mod3 character does not factor through forgotten rank. No topology or native datum floor is formalized. | `explorations/conditional-build/x-d1-p3-three-local-floor-2026-11-11.md`; `VERIFICATION.md` |
+| `Lean/GUFormalization/WeldCoefficientScope.lean` | Phase propagation along a supplied connected relation and an incompatible two-cycle coefficient control. No class-C action, source coefficient or geometric realization. | `explorations/conditional-build/x-p1-p2-class-c-lift-2026-11-11.md`; `VERIFICATION.md` |
 
 ## Part A: current certificate surface
 

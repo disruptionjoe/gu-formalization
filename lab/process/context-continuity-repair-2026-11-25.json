@@ -1,0 +1,54 @@
+{
+  "date": "2026-11-25",
+  "status": "process",
+  "basis_revision": "e54c1620e1d0b669b5a6cd408515ffd7618e300e",
+  "claim_effect": "none",
+  "scope": "Focused continuity, source-guide and verification-coverage repair. No research credit or new rule.",
+  "changes": [
+    "Derived live matrix/carry/bet/packet context with exact target and source-claim queries; history opt-in",
+    "Synchronized completed packet and consumed-carry pointers in affected cells/intersections; retained scientific burdens",
+    "Propagated U(64,64)/conditionalSp, post-observation imposter and conditional parity scope into live guides",
+    "Explicit64 default Lean imports plus one standalone receipt; consistent placeholder lexical controls",
+    "Hash-pinned CPython3.14 numeric/tools CI installation, pin-preserving commands, honest harness scope; restored one currently passing process gate",
+    "Native entry/grade vocabulary clarified without changing internal tiers or external contributor policy"
+  ],
+  "validation": {
+    "context_fixtures": 10,
+    "lean_source_audit_tests": 9,
+    "path_dependency_tests": 7,
+    "process_map_tests": 3,
+    "lean": "All8 added modules checked serially with pinned lake env lean -j1, then64-import root checked successfully using an isolated copy of existing dependency cache. Not a fresh dependency rebuild.",
+    "linux_cp314_hash_downloads": [
+      "numpy2.5.1",
+      "scipy1.18.0",
+      "sympy1.14.0",
+      "mpmath1.3.0",
+      "PyYAML6.0.3"
+    ],
+    "hosted_ci_replayed": false,
+    "lean_toolchain_changed": false,
+    "l10_baseline_checks": 156,
+    "l10_negative_controls": 7,
+    "l10_growth_positive_control": true,
+    "program_focus_hostile_controls": 14,
+    "standard_process_gates": "6 pass; routing historical5 baseline retained",
+    "protected_state": "exact checks pass",
+    "frontmatter_and_diff": "pass"
+  },
+  "preserved": [
+    "program_focus exactly",
+    "counter39 and dueLC",
+    "all scientific cell/intersection verdicts",
+    "classC definitions and unresolved width verdicts",
+    "source register",
+    "discovery bet results",
+    "Lean theorem bodies, toolchain and dependency manifest"
+  ],
+  "limits": [
+    "Read-only context views do not establish synchronization or choose work",
+    "Lexer checks source hygiene, not transitive axiom dependencies or physical semantics",
+    "CI wheel compatibility is not evidence of a hosted full-suite pass",
+    "Broader policy and validation-planner proposals remain unimplemented; no new stop or mandatory council"
+  ],
+  "continuation": "Resume ordinary existing selection; no governance reset."
+}

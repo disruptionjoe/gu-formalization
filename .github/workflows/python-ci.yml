@@ -14,9 +14,13 @@ jobs:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
-          python-version: "3.12"
-      - name: Install dependencies
-        run: pip install -r requirements.txt
+          python-version: "3.14"
+      - name: Install pinned numeric and tooling dependencies
+        run: python -m pip install --only-binary=:all: --require-hashes -r requirements.lock -r requirements-tools.lock
+      - name: Record verification environment
+        run: |
+          python --version
+          python -m pip freeze
       # Timeout 900 (not 120): tests/chase/MOVE-4/move4_spinor_square_forms.py needs
       # ~215s and tests/chase/MOVE-4/verify/indep_check.py ~585s wall on a dev Mac
       # (measured 2026-08-03, mostly single-threaded); 120s would guarantee TIMEOUTs
@@ -25,20 +29,20 @@ jobs:
         run: python scripts/reproduce_all.py --quick --tracked-only --timeout 900
       - name: Process gates
         run: |
-          # Every gate is argless. SKIP list = gates that fail on the current tree for
-          # pre-existing doc-inventory drift unrelated to this workflow; verified failing
-          # on a clean HEAD checkout 2026-08-03. Re-enable each as its drift is fixed.
+          # Remaining exceptions preserve the historical 2026-08-03 baseline;
+          # they have not been re-audited here. The process surface-map gate is
+          # restored after current scoped validation; do not infer these other
+          # exceptions are still failing or silently widen the skip list.
           skip="boundary_eta_readme_inventory_audit.py
                 de_amp_diagnostic_closure_audit.py
                 lab_active_research_readme_surface_map_audit.py
                 lab_automation_readme_surface_map_audit.py
-                lab_process_readme_surface_map_audit.py
                 lab_process_runbooks_readme_inventory_audit.py
                 papers_readme_lifecycle_map_audit.py"
           rc=0
           for g in process_gates/*.py; do
             if echo "$skip" | grep -qx "[[:space:]]*$(basename "$g")"; then
-              echo "SKIP (known-failing, pre-existing) $g"
+              echo "SKIP (historical exception; not re-audited) $g"
               continue
             fi
             echo "== $g"

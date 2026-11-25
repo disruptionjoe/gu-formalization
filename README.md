@@ -180,16 +180,16 @@ The strongest current public posture is:
 
 ## Contributing
 
-Start with `RESEARCH-POSTURE.md` and `NEXT-STEPS.md`. The best contributions are
-constructive, falsifiable, scoped, and explicit about which GU reconstruction claim they
-advance, block, or kill.
+Start with `AGENTS.md`, then its relevant source and method pointers. The best
+contributions are constructive, falsifiable, scoped, and explicit about which
+source claim or conditional construction they advance, block, or exclude.
+`program_focus` owns current research selection; dated next-step prose is history.
 
-## First-Class Lanes
+## Research and execution boundary
 
-Load root `lab/process/RESEARCH-AGENDA.json` after this repository's governance and before selecting
-work. It is the owner-authoritative source for durable Lane definitions,
-admission, and normal control state; authoritative work remains at the paths it
-references. Numbered Lanes are Progress, lettered Lanes are Stewardship, and
-Discovery is Lane-less. A direct mount uses these local surfaces without
-private orchestration overlay. System observations, health, schedules, and execution history are
-not Lane truth.
+Research priorities and native work eligibility are owned by `program_focus` in
+`CURRENT-STATE.yaml`, interpreted under `AGENTS.md`. The research agenda retains
+historical and native evidence references; its older service-Lane instructions
+are not an alternative entrypoint or current execution authority. Scheduling,
+service roles and execution records belong to the external execution owner.
+The former First-Class Lanes description remains available in Git history.

@@ -71,6 +71,14 @@ documents.
 | `GUFormalization/ChiConjugationTraceParity.lean` | Finite matrix proof that ordinary power traces are even and traces weighted by a conjugation-odd matrix are odd under an involution; no carrier, gauge, vacuum, or physical-orientation realization is encoded | `explorations/big-swing-2026-07-07/A2-native-ring-symmetry-nogo.md`; `explorations/conditional-build/conditional-build-frontier-and-l8-chi-parity-2026-08-22.md` |
 | `GUFormalization/InvolutionProjectorKernels.lean` | Abstract inner-involution automorphism and commutator parity, plus complementary linear involution projectors; no carrier, Cartan positivity, maximal-compact, dynamics, spectrum, or physical-sector realization is encoded | `explorations/big-swing-2026-07-06/VG-V2-fourth-seat-gauge-sector.md`; `explorations/big-swing-2026-07-06/VG-V8-t5-map-attempt.md`; `explorations/conditional-build/conditional-build-frontier-and-l9-involution-projectors-2026-08-22.md` |
 | `GUFormalization/PacketLocalPositiveCone.lean` | Proves that a sign-invariant pointed subset of an additive carrier is trivial, that a raw linear-map range on a nontrivial carrier cannot itself be both pointed and generating, and that a phase-preserved cone whose phase map squares to negation has the same obstruction. This is a selection boundary for raw linear carriers, not a no-go for quadratic/ray extensions or a GU-native state construction | `explorations/conditional-build/k77-packet-local-positive-state-extension-wave-2026-09-01.md`; `VERIFICATION.md` |
+| `GUFormalization/MetricNormalGradingCore.lean` | Conditional pairing/linear-map core: a selfadjoint shape cannot equal a skew connection on a nondegenerate pairing; supplied faithful Clifford residual and nonzero coefficients retain the defect. No geometric connection, domain or physical grade is constructed. | `explorations/conditional-build/metric-normal-family-grading-2026-11-24.md` |
+| `GUFormalization/ObservedHiddenPremise.lean` | Integer cancellation from supplied same-grading additivity and total balance, plus the supplied closed-comparison coefficients. Source non-chirality is not proved to supply those analytic premises. | `explorations/conditional-build/zero-total-grading-premise-2026-11-20.md` |
+| `GUFormalization/ObservedHiddenSplit.lean` | Finite six-term exact-sequence index additivity and its balanced-total corollary. Exactness, Fredholm realization and physical grading remain supplied obligations. | `explorations/conditional-build/native-descending-grading-classification-2026-11-21.md` |
+| `GUFormalization/ProvenanceMixing.lean` | Finite rational six-slot evolution and trace/remainder/scalar mixing checks. No Clifford, PDE, action or physical-family claim. | `explorations/conditional-build/bet-2plus1-provenance-observation-2026-11-11.md` |
+| `GUFormalization/SixSpinorGrading.lean` | Conditional finite algebra for receiver uniqueness, quotient oddness and an injective torsion witness, with coefficients, geometric identities and descent supplied. No source-owned physical grading or analytic domain. | `explorations/conditional-build/six-spinor-grading-compatibility-2026-11-24.md` |
+| `GUFormalization/SourceClassCore.lean` | Rank lower bound and six-slot minimum from supplied kernel containment and dimensions15s/9s. Spin invariant theory, completeness, source necessity and physical observation domains are outside Lean. | `explorations/conditional-build/source-natural-symbol-class-2026-11-24.md` |
+| `GUFormalization/ThreeLocalFloor.lean` | Finite additive/character algebra distinguishing virtual C2 representations from ZMod2 and showing a mod3 character does not factor through forgotten rank. No topology or native datum floor is formalized. | `explorations/conditional-build/x-d1-p3-three-local-floor-2026-11-11.md` |
+| `GUFormalization/WeldCoefficientScope.lean` | Phase propagation along a supplied connected relation and an incompatible two-cycle coefficient control. No class-C action, source coefficient or geometric realization. | `explorations/conditional-build/x-p1-p2-class-c-lift-2026-11-11.md` |
 
 ## Standalone Lean Certificates
 
@@ -81,11 +89,11 @@ documents.
 
 ## Local Commands
 
-After installing Lean/elan:
+After installing Lean/elan, run from the repository root. Fetch the cache for
+the committed dependencies when needed:
 
 ```powershell
 lake exe cache get
-lake build
 ```
 
 The committed `lake-manifest.json` is the dependency lock.  Do not run
@@ -93,11 +101,35 @@ The committed `lake-manifest.json` is the dependency lock.  Do not run
 `master`, so an update can advance both the manifest revision and the required
 Lean toolchain.  Use it only when intentionally updating and reviewing the pin.
 
-Or use:
+For a single-threaded targeted check with matching compiled imports already
+available:
+
+```sh
+lake env lean -j1 Lean/GUFormalization.lean
+```
+
+This checks the entrypoint against the available imports; it does not rebuild
+or recheck their source. To verify changed modules, check them sequentially in
+dependency order with `lake env lean -j1 -o <module-output.olean> <source.lean>`
+before checking the entrypoint, using an isolated build cache. Record the exact
+files and retained dependency cache in the receipt. This is a targeted check,
+not a fresh full default-target build.
+
+`lake build` remains the full default-target command. The pinned Lake does not
+provide the old `lake build -j1` option, and `-Kjobs=1` only sets an unused
+package configuration value here; neither limits build concurrency. Lean's
+`-j1` above is an actual thread option. Run heavy checks one at a time under the
+workspace's local resource convention.
+
+On Windows, the existing wrapper prevents overlapping GU build invocations
+(it does not limit the threads or subprocesses inside one build):
 
 ```powershell
-.\lab\automation\check-lean.ps1 -Update -Cache
+.\lab\automation\check-lean.ps1 -Cache
 ```
+
+The `-Update` switch is reserved for an intentional dependency/toolchain upgrade;
+it is not a reproduction step.
 
 The process gate `process_gates/lean_certificate_surface_audit.py` derives the
 default-target certificate inventory from `GUFormalization.lean`, requires

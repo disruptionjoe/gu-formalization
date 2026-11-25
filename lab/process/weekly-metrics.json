@@ -117,7 +117,7 @@
       "evidence": [
         "lab/process/action-constraint-matrix.json#manual_run_accounting"
       ],
-      "included_owner_wave": "RUN-20261124-gu-source-relevance-wave (this commit; evidence paths below)"
+      "included_owner_wave": "lab/process/source-relevance-wave.json (scientific evidence; execution provenance retained by its owner)"
     }
   ]
 }

@@ -21,12 +21,12 @@ def load_inputs() -> dict[str, object]:
         "data": json.loads(REGISTRY.read_text()),
         "result": RESULT.read_text(),
         "entrypoint": (ROOT / "Lean/GUFormalization.lean").read_text(),
+        "library_modules": sorted("GUFormalization." + p.stem for p in (ROOT / "Lean/GUFormalization").glob("*.lean")),
         "gate": (ROOT / "process_gates/lean_certificate_surface_audit.py").read_text(),
         "readme": (ROOT / "Lean/README.md").read_text(),
         "ledger": (ROOT / "lab/process/lean-verification-lane-LEDGER.md").read_text(),
         "state": (ROOT / "CURRENT-STATE.yaml").read_text(),
         "next_steps": (ROOT / "NEXT-STEPS.md").read_text(),
-        "agenda": json.loads((ROOT / "lab/process/RESEARCH-AGENDA.json").read_text()),
     }
 
 
@@ -41,8 +41,7 @@ def collect_failures(inputs: dict[str, object]) -> tuple[int, list[str]]:
             failures.append(label)
 
     data = inputs["data"]
-    agenda = inputs["agenda"]
-    assert isinstance(data, dict) and isinstance(agenda, dict)
+    assert isinstance(data, dict)
     entrypoint = str(inputs["entrypoint"])
     gate = str(inputs["gate"])
     readme = str(inputs["readme"])
@@ -56,7 +55,14 @@ def collect_failures(inputs: dict[str, object]) -> tuple[int, list[str]]:
 
     check(data["schema_version"] == "1.0", "schema")
     check(data["default_target_module_count"] == 16, "registered module count")
-    check(len(modules) == data["default_target_module_count"], "actual module count")
+    # The registry records the August22 16-module receipt. Later certificates
+    # may extend that graph; today's coverage is derived from today's library.
+    manual_modules = {
+        Path(path).with_suffix("").as_posix().removeprefix("Lean/").replace("/", ".")
+        for path in data["manual_non_default_certificates"]
+    }
+    check(len(modules) == len(set(modules)), "unique live imports")
+    check(set(modules) | manual_modules == set(inputs["library_modules"]), "live library coverage")
     check(data["manual_non_default_certificates"] == ["Lean/GUFormalization/ResidualSelectionAxioms.lean"], "manual receipt boundary")
     check(len(data["frontier"]) == 6, "six-arc frontier")
     check(data["frontier"][0]["disposition"] == "CLOSED_HERE", "L10 closed")
@@ -83,12 +89,15 @@ def collect_failures(inputs: dict[str, object]) -> tuple[int, list[str]]:
     check("post-T3 frontier replay" in state, "current state")
     check("L10 RECONCILES" in next_steps, "next steps")
 
-    items = {item["id"]: item for item in agenda["work_items"]}
+    # Closure belongs to the dated receipt. The live agenda's next_swing is
+    # free to advance without repeating the August reconciliation forever.
     check(
-        "L10 Lean certificate-surface reconciliation"
-        in items["PROOF-STABLE-KERNELS"]["next_swing"]
-        and "are complete" in items["PROOF-STABLE-KERNELS"]["next_swing"],
-        "agenda closes L10",
+        "L10 Lean certificate surface — closed here." in result,
+        "dated result closes L10",
+    )
+    check(
+        "L10 OLD FILE TRIAGE` — **DONE 2026-08-22" in ledger,
+        "ledger retains dated L10 closure",
     )
     check(data["theorem_body_change"] == "none", "theorem bodies unchanged")
     check(data["scientific_ledger_verdict_change"] == "none", "scientific verdict unchanged")
@@ -116,10 +125,30 @@ def selftest() -> int:
         return 1
     print(f"BASELINE PASS {checks}/{checks}")
 
+    # Growing the live graph must not rewrite the historical 16-module receipt.
+    grown = copy.deepcopy(baseline)
+    grown["entrypoint"] += "\nimport GUFormalization.FutureCertificate\n"
+    grown["library_modules"].append("GUFormalization.FutureCertificate")
+    grown["readme"] += "\n`GUFormalization/FutureCertificate.lean`\n"
+    grown["ledger"] += "\n`Lean/GUFormalization/FutureCertificate.lean`\n"
+    _, growth_failures = collect_failures(grown)
+    if growth_failures:
+        print(f"[FAIL] legitimate live inventory growth: {growth_failures!r}")
+        return 1
+    print("POSITIVE CONTROL PASS: live inventory grows; historical receipt unchanged")
+
     mutations: list[tuple[str, str, dict[str, object]]] = []
+    changed = copy.deepcopy(baseline)
+    changed["result"] = changed["result"].replace("L10 Lean certificate surface — closed here.", "L10 closure removed.")
+    mutations.append(("historical-closure-drop", "dated result closes L10", changed))
+
     changed = copy.deepcopy(baseline)
     changed["data"]["default_target_module_count"] = 15
     mutations.append(("module-count", "registered module count", changed))
+
+    changed = copy.deepcopy(baseline)
+    changed["entrypoint"] = changed["entrypoint"].replace("import GUFormalization.SourceClassCore\n", "")
+    mutations.append(("live-import-drop", "live library coverage", changed))
 
     changed = copy.deepcopy(baseline)
     changed["readme"] = changed["readme"].replace("`GUFormalization/InvolutionProjectorKernels.lean`", "`REMOVED.lean`")

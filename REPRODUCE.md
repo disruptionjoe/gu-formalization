@@ -2,14 +2,16 @@
 title: "Reproducing the Computational Certificates"
 status: process
 doc_type: reproduction-guide
-updated_at: "2026-08-26"
+updated_at: "2026-11-25"
 ---
 
 # Reproducing the computational certificates
 
-This repository backs every load-bearing computational claim with a **certificate**: a standalone
-script that re-derives the claim from scratch, checks it with hard `assert`s, prints a VERDICT, and
-exits nonzero if anything fails. This guide lets an outside skeptic re-run all of them in one step.
+This repository uses standalone Python **certificates** for computational checks.
+Their scope varies: exact identities, finite controls, stored-report replay,
+numerical evidence and reporting checks are not interchangeable. This guide
+reproduces the discovered Python checks; each result's verification statement
+names the larger claim and any separately supplied proof or source bridge.
 
 ## What you need
 
@@ -20,12 +22,19 @@ exits nonzero if anything fails. This guide lets an outside skeptic re-run all o
   ```
   pip install --require-hashes -r requirements.lock
   ```
-  The verified environment is NumPy 2.5.1, SciPy 1.18.0, SymPy 1.14.0, and
-  mpmath 1.3.0. `requirements.txt` remains a convenient unpinned declaration
-  of the three direct dependencies, but it is not the exact reproduction
+  The verified numeric versions are NumPy 2.5.1, SciPy 1.18.0, SymPy 1.14.0,
+  and mpmath 1.3.0. `requirements.txt` remains a convenient unpinned declaration
+  of numeric and YAML dependencies, but it is not the exact reproduction
   surface. Many certificates check exact or structural facts; others use
   declared floating-point tolerances, which is why `requirements.lock` records
   the tested builds.
+
+  Python CI uses CPython3.14 and these same numeric pins on Ubuntu. That is a
+  package-version match, not an assertion that Linux wheels or BLAS behavior are
+  identical to the maintained macOS-arm64 environment. CI prints its interpreter
+  and installed package versions. The separate `requirements-tools.lock` pins
+  PyYAML6.0.3 for YAML context readers and process gates on standard CPython3.14
+  Linux x86_64/macOS arm64; its two wheel hashes do not cover every platform.
 
   On a Homebrew-managed Python (macOS), that bare `pip install` is refused: the interpreter is
   PEP 668 "externally managed." Use a venv, or certs that import `scipy`/`sympy` will fail with
@@ -33,7 +42,7 @@ exits nonzero if anything fails. This guide lets an outside skeptic re-run all o
   mathematical one:
   ```
   python3 -m venv _local/cas-venv
-  ./_local/cas-venv/bin/pip install --require-hashes -r requirements.lock
+  ./_local/cas-venv/bin/pip install --only-binary=:all: --require-hashes -r requirements.lock -r requirements-tools.lock
   ./_local/cas-venv/bin/python scripts/reproduce_all.py --quick --tracked-only
   ```
 - **Lean 4.32.0-rc1 via [elan](https://github.com/leanprover/elan)** — *only* for the separate Lean
@@ -96,16 +105,18 @@ The harness does not modify any certificate — it only shells out to `python <c
 
 ## What a green run means (and does not)
 
-A green (exit 0) run means: **on your machine, from your Python, every computational claim in the
-suite re-derived from scratch and every internal cross-check passed.** Many certs also carry an
-independent re-check under a sibling `verify/` directory (a second, differently-written derivation
-of the same fact); those run as their own certificates in the sweep.
+A green (exit 0) run means **every discovered check in the printed scope exited
+successfully**, on the reported Python and environment. Some checks rederive
+mathematical facts; others confirm finite instances or replay saved evidence.
+Some have a differently written sibling `verify/` check, which runs separately.
+Read each certificate's scope and the linked `VERIFICATION.md` entry before
+inferring what was established.
 
-Honesty boundary: these are **internal-tier** results — *reproduced*, not *independently
-peer-reviewed*. A green run says the arithmetic and structural claims are self-consistent and
-machine-checkable; it does **not** assert the physics of Geometric Unity, and it is not a substitute
-for external review. See `CANON.md` ("Canon means: safe to cite as the current public spine of the
-project. It does not mean proved physics.") and `RESEARCH-POSTURE.md`.
+These are internal checks. The harness does not run Lean, certify every written
+analytic proof, validate imported source premises, or establish GU physics.
+Manifest/prose consistency, numerical evidence and exact computation remain
+separate evidence kinds under the existing probe discipline. See `CANON.md` and
+`RESEARCH-POSTURE.md` for the claim boundary.
 
 ## How certificates map to claims
 

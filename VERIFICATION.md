@@ -17,6 +17,21 @@ External review is not a pathway in this program. The honesty label stays: inter
 
 Sections below are historical snapshots in file order.
 
+## Context and verification coverage repair (2026-11-25)
+
+Eight existing Lean modules now belong to the default import root. All eight
+were checked sequentially with the pinned `lake env lean -j1` compiler, followed
+by the64-import root, using an isolated copy of the existing dependency cache.
+This validates that integration; it is not a fresh dependency rebuild or a
+physical interpretation certificate. The one standalone receipt remains explicit.
+
+Ten current-context fixtures, nine Lean source/coverage checks, seven dependency
+map checks and the process surface-map checks pass. The Lean lexical scanner
+has positive and contrary controls for real tokens, strings and comments.
+Linux CPython3.14 wheels for all four existing numerical pins and PyYAML were
+hash-verified; hosted CI was not replayed. Toolchain and numerical pins are unchanged.
+[Exact repair scope and limits](lab/process/context-continuity-repair-2026-11-25.json).
+
 ## External evidence and formal-specification assessment (2026-11-25)
 
 **Proposal only; no new acceptance gate or toolchain change.** Distinguish
