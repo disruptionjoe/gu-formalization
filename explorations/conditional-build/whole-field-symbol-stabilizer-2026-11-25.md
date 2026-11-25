@@ -44,6 +44,16 @@ actual_delta: The complete14/18 same-parameter universal stabilizer is exactly t
   with explicit first-jet burden and parameter-changing countercontrols.
 ```
 
+```gu-typed-objects
+result: universal coefficientwise complete14/18 stabilizer
+carrier: (Vstar tensor S) plus S on Y, rank1920 complex LAYER=ambient CHIRALITY=S-FULL-DIRAC
+pairing: NONE
+real_structure: complex Clifford calculation, K77 and K95 separately; no imposed real or quaternionic law
+grading: auxiliary G=diag(Omega,-Omega), not physical weak chirality
+action_owner: repository-construction
+target: independent pointwise row/column intertwiners and first-jet equations MAP-TYPE=intertwiner
+```
+
 ## Preflight and result
 
 - **Target:** W02 / `X-P1-P2`, `P1xvariational`; structural LB-CLASS discriminator attached to the ten-wave horizon.

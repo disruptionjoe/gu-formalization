@@ -44,6 +44,16 @@ actual_delta: All time-regular exterior14 strata have existing principal analyti
   polynomials and full18 visible null subspace dimension192.
 ```
 
+```gu-typed-objects
+result: complete exterior14 natural frame orbits and full18 null visibility
+carrier: ambient (Vstar tensor S) plus S and six-slot observed receiver LAYER=ambient+observed BRIDGE=literal_contraction_with_transported_decoder CHIRALITY=S-FULL-DIRAC
+pairing: auxiliary positive principal norm ON=six_slot_receiver; not the native Krein action
+real_structure: complex Spin category; K77/K95 real metric inputs treated separately
+grading: auxiliary G sectors with crossed NE/SE weights; not physical family grading
+action_owner: repository-construction
+target: time-regular principal orbit invariants and observed null kernel image MAP-TYPE=contraction
+```
+
 ## Preflight and object
 
 - **Target:** W06 / LB-CLASS, bearing on X-P1-P2 and P2xorder_locality; independent W08 / P1xdomain_boundary consequence.

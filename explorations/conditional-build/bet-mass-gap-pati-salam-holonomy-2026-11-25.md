@@ -57,6 +57,16 @@ expected_delta: Complete compactPS flat-holonomy gap discriminator.
 actual_delta: All allowed fluxes retain physical quadratic zero modes; no bet-wide or native verdict.
 ```
 
+```gu-typed-objects
+result: complete compactPS flat-torus neutral quadratic modes
+carrier: real adjoint one-forms for compact PS product or diagonalZ2 quotient LAYER=toy CHIRALITY=N/A
+pairing: positive compact invariant form and spatial L2 ON=adjoint_one_forms
+real_structure: compact real Lie algebra with conjugate Fourier reality
+grading: Coulomb slice modulo infinitesimal gauge derivatives; residual stabilizer retained
+action_owner: comparator
+target: common holonomy fixed algebra and physical linearized Hessian kernel MAP-TYPE=quotient
+```
+
 ## 1. Source and object custody
 
 SC-GRP-03 ASSERTS the simultaneous maximal-compact/complex reduction role;

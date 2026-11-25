@@ -44,6 +44,16 @@ actual_delta: Bounded source audit complete; scalar toy and primitive currents r
   response bridge remains absent.
 ```
 
+```gu-typed-objects
+result: bounded source premise custody
+carrier: four independent source fermion fields on Y LAYER=source-print CHIRALITY=S-FULL-DIRAC
+pairing: UNTYPED
+real_structure: source K77 assertion kept distinct from geometric K95; no transfer
+grading: source nonchiral total versus effective observation; auxiliary grade not identified
+action_owner: source-print
+target: complete field and observation laws or exact absent boxes MAP-TYPE=not-a-map
+```
+
 ## Preflight and outcome
 
 - **Target:** X-P1-P2-P3 / P1xvariational; existing source-required-class-tests step 5 and horizon W01.
