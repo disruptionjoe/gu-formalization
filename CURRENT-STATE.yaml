@@ -1,7 +1,7 @@
 schema_version: '1.0'
 repository: observerse-research-program
 branch: main
-revision_basis: f41721d2cd312df0ef5ccaeb0160ad126530eb79
+revision_basis: 139873dd462fe8bc99774a82cdb7a6ecc0f09c00
 program_focus:
   version: 2026-11-25-v1
   authority: joe_direct_chat_2026_11_25_five_process_improvements_approved
@@ -140,6 +140,77 @@ program_focus:
     covered; source relevance separately from mathematical breadth; shared prerequisite if any; remaining
     cost; strongest eligible alternative. A blocked high-value target is not an eligible alternative without
     its missing input. Reuse completed theorems and compare only their uncovered successors.'
+source_action_weak_response_2026_11_26:
+  authority: joe_direct_chat_2026_11_26_matched_response_and_active_falsification_wave
+  basis_revision: 139873dd462fe8bc99774a82cdb7a6ecc0f09c00
+  status: internal_T2_certificates_T3_reconciliation
+  actual_delta: Exact120-dimensional auxiliary envelope closed for all59 background directions and invertible
+    at both certified roots; four matched formal coefficients remain nonzero and their highest5 kernel
+    ambiguity is removed by an affine-family adjoint identity. Invisible E2 cannot enter the old A01 completion.
+    No physical or source verdict.
+  evidence:
+  - explorations/conditional-build/source-action-weak-response-2026-11-26.md
+  - lab/process/source-action-weak-response.json
+  - tests/program-focus/source_action_weak_response_probe.py
+  - lab/process/hostile-reviews/2026-11-26-source-action-weak-response-review.md
+  source_bridge:
+    status: conditional
+    reason: Candidate necessity, actual local auxiliary realization and physical admission/readout unproved
+  continuation:
+  - id: 5q.1a
+    status: done_in_stated_equivariant_scalar_scope
+    target: LB-CLASS
+    tier: T2
+    task: Exact reached-block inverse and four affine scalar-adjoint goals
+    actual_delta: 7080 closure images; both root-ball inverses; four nonzero matched coefficients; all240
+      affine goal memberships. No full physical response.
+    remaining_burden: Individual auxiliary jets/neighborhood realization, admitted weak support, normalized
+      physical readout and source necessity.
+  - id: 5q.1b
+    status: ready
+    target: LB-CLASS
+    tier: T2
+    task: Individual differentiated auxiliary compatibility for the authenticated scalar response
+    expected_delta: An exact necessary compatibility result or a named genuinely new source/domain burden,
+      not repeated contracted consistency
+    kill_condition: An incompatible residual excludes the specified local auxiliary realization only;
+      failure of an ansatz is not nonexistence.
+    source_bridge: conditional; no physical admission or source necessity yet
+    strongest_alternative: Normal one-form source-vertex class below
+  - id: 5q.2
+    status: done_domain_mismatch
+    target: LB-CLASS
+    tier: T3
+    task: E2 membership in old A01 completion
+    actual_delta: Every nonzero E2 witness lies outside the injective selected graph; no closure or norm
+      estimate repairs it.
+  - id: 5s.2
+    status: inapplicable_for_old_A01_transfer
+    target: LB-CLASS
+    tier: T2
+    task: Interaction-aware equivalence on a genuinely common admitted domain
+    revival_input: Source-grounded or already-owned domain/observable admitting both columns; old A01
+      positivity cannot be transferred.
+  - id: normal_one_form_alternative
+    status: ready_for_bounded_structural_scoping
+    target: LB-CLASS
+    tier: T2
+    task: Complete normal one-form source-vertex equivariance/contraction class
+    source_claims:
+    - SC-CHI-51
+    - SC-CHI-52
+    - SC-MAS-02
+    owned_inputs: K95 N(6,4), fullS128, normal-SM branching, Clifford/primitiveNE vertex and actual observation
+      contraction.
+    required_typing: Symmetry action on bothN/S and horizontal-versus-W2 adjoint convention; physical
+      normalization/curvature suppression remain separate.
+    expected_delta: Allowed coefficient space and actual observed contraction kernel/image; source relevance
+      assessed separately from breadth
+    kill_condition: Only the declared source-shaped tensor class is covered; no GU verdict from permitted
+      mixing alone.
+  priority_control_effect: Existing directed continuation restocked; quick20-lens preference preserved.
+    Governance/cadence/canon/source/physics/paper verdicts unchanged.
+  accounting: Directed count66to67/LBCLASS25to26; no bet, scientific shrinkage or choice credit.
 source_falsification_council_2026_11_26:
   authority: joe_direct_chat_2026_11_26_five_panel_falsification_wave
   basis_revision: f41721d2cd312df0ef5ccaeb0160ad126530eb79

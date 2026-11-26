@@ -1348,7 +1348,7 @@
       "selection_note": "Candidate construction/diagnostic only unless its stated structural family and source bridge satisfy current program_focus. A reserve is not scheduled work."
     }
   ],
-  "priority_effect": "Directed continuation now uses falsification_council_2026_11_26; broad physical-law source scan consumed, matched weak scalar first, same-domain admission before transferring invisible witnesses. Ordinary scheduled selection/cadence unchanged.",
+  "priority_effect": "Directed continuation now uses weak_response_2026_11_26; exact matched algebraic stage done, individual compatibility next with normal one-form source-vertex class as alternative. OldA01 transfer closed. Ordinary selection/cadence unchanged.",
   "evidence": [
     "explorations/conditional-build/source-action-engineering-wave-2026-11-25.md",
     "lab/process/source-action-engineering-wave.json",
@@ -1672,5 +1672,70 @@
       }
     ],
     "priority_effect": "5q.1 first executable,5q.2 bounded domain/support next,5s.2 conditional. Existing governance/cadence unchanged."
+  },
+  "weak_response_2026_11_26": {
+    "evidence": "lab/process/source-action-weak-response.json",
+    "report": "explorations/conditional-build/source-action-weak-response-2026-11-26.md",
+    "consumed": [
+      "5q.1 reachedinverse and four formal scalar goals including kernel independence",
+      "5q.2 oldA01 membership",
+      "5s.2 oldA01 transfer inapplicable"
+    ],
+    "next_directed_worksets": [
+      {
+        "id": "5q.1a",
+        "status": "done_in_stated_equivariant_scalar_scope",
+        "target": "LB-CLASS",
+        "tier": "T2",
+        "task": "Exact reached-block inverse and four affine scalar-adjoint goals",
+        "actual_delta": "7080 closure images; both root-ball inverses; four nonzero matched coefficients; all240 affine goal memberships. No full physical response.",
+        "remaining_burden": "Individual auxiliary jets/neighborhood realization, admitted weak support, normalized physical readout and source necessity."
+      },
+      {
+        "id": "5q.1b",
+        "status": "ready",
+        "target": "LB-CLASS",
+        "tier": "T2",
+        "task": "Individual differentiated auxiliary compatibility for the authenticated scalar response",
+        "expected_delta": "An exact necessary compatibility result or a named genuinely new source/domain burden, not repeated contracted consistency",
+        "kill_condition": "An incompatible residual excludes the specified local auxiliary realization only; failure of an ansatz is not nonexistence.",
+        "source_bridge": "conditional; no physical admission or source necessity yet",
+        "strongest_alternative": "Normal one-form source-vertex class below"
+      },
+      {
+        "id": "5q.2",
+        "status": "done_domain_mismatch",
+        "target": "LB-CLASS",
+        "tier": "T3",
+        "task": "E2 membership in old A01 completion",
+        "actual_delta": "Every nonzero E2 witness lies outside the injective selected graph; no closure or norm estimate repairs it."
+      },
+      {
+        "id": "5s.2",
+        "status": "inapplicable_for_old_A01_transfer",
+        "target": "LB-CLASS",
+        "tier": "T2",
+        "task": "Interaction-aware equivalence on a genuinely common admitted domain",
+        "revival_input": "Source-grounded or already-owned domain/observable admitting both columns; old A01 positivity cannot be transferred."
+      },
+      {
+        "id": "normal_one_form_alternative",
+        "status": "ready_for_bounded_structural_scoping",
+        "target": "LB-CLASS",
+        "tier": "T2",
+        "task": "Complete normal one-form source-vertex equivariance/contraction class",
+        "source_claims": [
+          "SC-CHI-51",
+          "SC-CHI-52",
+          "SC-MAS-02"
+        ],
+        "owned_inputs": "K95 N(6,4), fullS128, normal-SM branching, Clifford/primitiveNE vertex and actual observation contraction.",
+        "required_typing": "Symmetry action on bothN/S and horizontal-versus-W2 adjoint convention; physical normalization/curvature suppression remain separate.",
+        "expected_delta": "Allowed coefficient space and actual observed contraction kernel/image; source relevance assessed separately from breadth",
+        "kill_condition": "Only the declared source-shaped tensor class is covered; no GU verdict from permitted mixing alone."
+      }
+    ],
+    "reassessment": "Quick saved20-lens description pass, category theory and number theory explicit; not a subagent per persona.",
+    "priority_effect": "Restocked existing directed continuation; ordinary policy/cadence unchanged."
   }
 }

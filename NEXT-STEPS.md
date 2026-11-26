@@ -16,6 +16,14 @@ Do not add "Current follow-through" sections or "Historical predecessor" stacks 
 matrix or bet file. The retired follow-through chain and banner stack are kept at the end of this file under
 "Archived steering history".
 
+## Exact matched weak coefficients (2026-11-26)
+
+Exact120-dimensional auxiliary envelope closed for all59 background directions and invertible at both certified roots; four matched formal coefficients remain nonzero and their highest5 kernel ambiguity is removed by an affine-family adjoint identity. Invisible E2 cannot enter the old A01 completion. No physical or source verdict.
+
+The finite certificates and independent internal review distinguish exact selected interval bounds from inconclusive global-HS estimates. The scalar adjoint identity covers four coefficient goals within the stated equivariant category; smooth local realization and integrated normalized physical response remain unproved. Scientific verdicts and the choice budget are unchanged.
+
+[Result](explorations/conditional-build/source-action-weak-response-2026-11-26.md) · [Evidence and quick20-lens reassessment](lab/process/source-action-weak-response.json).
+
 ## Five-panel source-faithful falsification checks (2026-11-26)
 
 Fifty simulated lenses reconciled with completed coverage; identification alone preserves observed-history range; an exact covariant all-history-invisible seed changes the bulk connection current at second normal order; curvature parameters separated. Existing weak-response and same-domain tests restocked, no physical/source verdict.

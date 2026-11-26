@@ -1788,7 +1788,7 @@
     },
     "LB-CLASS": {
       "zero_delta_streak": 0,
-      "runs": 25,
+      "runs": 26,
       "status": "open"
     },
     "LB-LADDER": {
@@ -2707,7 +2707,7 @@
   ],
   "program_run_counter": {
     "since": "2026-11-09",
-    "count": 66,
+    "count": 67,
     "rule": "Every hourly run increments this in its postflight, whatever its lane. Lane C runs when count % 4 == 3 before the increment."
   },
   "working_rule": "Cells are worked at the structure level: a requirement must hold for every action in class C or for a structurally defined subfamily. No cell is worked by writing down a specific action, and no gated cell is worked by building its gate object. See CURRENT-STATE.yaml program_focus.structure_not_specifics.",
@@ -3122,6 +3122,21 @@
         "lab/process/source-falsification-council-2026-11-26.json"
       ],
       "claim_effect": "No scientific cell/ledger/classC/verdict or choice effect; ordinary existing continuation restock."
+    },
+    {
+      "date": "2026-11-26",
+      "authority": "joe_direct_chat_2026_11_26_matched_response_and_active_falsification_wave",
+      "item": "Exact matched scalar response, affine adjoint closure and old-domain reconciliation",
+      "tier": "T2_candidate_T3_reconciliation",
+      "counter_before": 66,
+      "counter_after": 67,
+      "lane": "LB-CLASS",
+      "actual_delta": "Exact120-dimensional auxiliary envelope closed for all59 background directions and invertible at both certified roots; four matched formal coefficients remain nonzero and their highest5 kernel ambiguity is removed by an affine-family adjoint identity. Invisible E2 cannot enter the old A01 completion. No physical or source verdict.",
+      "evidence": [
+        "explorations/conditional-build/source-action-weak-response-2026-11-26.md",
+        "lab/process/source-action-weak-response.json"
+      ],
+      "claim_effect": "No scientific cell, ledger, classC, source or choice effect."
     }
   ],
   "directed_lc_carry_2026_11_24_b": {
@@ -3438,7 +3453,9 @@
           "explorations/conditional-build/source-action-covariant-jet-ambiguity-2026-11-26.md",
           "lab/process/source-action-covariant-jet-ambiguity.json",
           "explorations/conditional-build/source-falsification-council-2026-11-26.md",
-          "lab/process/source-falsification-council-2026-11-26.json"
+          "lab/process/source-falsification-council-2026-11-26.json",
+          "explorations/conditional-build/source-action-weak-response-2026-11-26.md",
+          "lab/process/source-action-weak-response.json"
         ],
         "choices": "Historical original choices are retained below; current held fermion repair is SE=-1/2 (SE0 superseded), kappa1 with two unselected roots. Typed candidate_choice_budget separates core/completion/pending/comparator/parked choices.",
         "wave2_update": {
@@ -3818,6 +3835,66 @@
                 "5q.2 same-domain/support admission; raw bulk current witness alone is insufficient"
               ],
               "strongest_alternative": "Source on-shell decoupling when equations/background/scalar/readout tuple exists"
+            }
+          ]
+        },
+        "weak_response_update": {
+          "matched_scope": "Four formal scalar coefficients, exact acrossrootballs and independent ofhighest5kernel withinstatedSO3family",
+          "domain": "NonzeroE2 cannot enter oldA01graph; physical equivalence transfer there inapplicable",
+          "weakest_source_link": "Candidate/action necessity and actual physical admission/readout",
+          "remaining": "Individual auxiliary jets/local realization, admittedsupport and normalizedphysical response",
+          "next": [
+            {
+              "id": "5q.1a",
+              "status": "done_in_stated_equivariant_scalar_scope",
+              "target": "LB-CLASS",
+              "tier": "T2",
+              "task": "Exact reached-block inverse and four affine scalar-adjoint goals",
+              "actual_delta": "7080 closure images; both root-ball inverses; four nonzero matched coefficients; all240 affine goal memberships. No full physical response.",
+              "remaining_burden": "Individual auxiliary jets/neighborhood realization, admitted weak support, normalized physical readout and source necessity."
+            },
+            {
+              "id": "5q.1b",
+              "status": "ready",
+              "target": "LB-CLASS",
+              "tier": "T2",
+              "task": "Individual differentiated auxiliary compatibility for the authenticated scalar response",
+              "expected_delta": "An exact necessary compatibility result or a named genuinely new source/domain burden, not repeated contracted consistency",
+              "kill_condition": "An incompatible residual excludes the specified local auxiliary realization only; failure of an ansatz is not nonexistence.",
+              "source_bridge": "conditional; no physical admission or source necessity yet",
+              "strongest_alternative": "Normal one-form source-vertex class below"
+            },
+            {
+              "id": "5q.2",
+              "status": "done_domain_mismatch",
+              "target": "LB-CLASS",
+              "tier": "T3",
+              "task": "E2 membership in old A01 completion",
+              "actual_delta": "Every nonzero E2 witness lies outside the injective selected graph; no closure or norm estimate repairs it."
+            },
+            {
+              "id": "5s.2",
+              "status": "inapplicable_for_old_A01_transfer",
+              "target": "LB-CLASS",
+              "tier": "T2",
+              "task": "Interaction-aware equivalence on a genuinely common admitted domain",
+              "revival_input": "Source-grounded or already-owned domain/observable admitting both columns; old A01 positivity cannot be transferred."
+            },
+            {
+              "id": "normal_one_form_alternative",
+              "status": "ready_for_bounded_structural_scoping",
+              "target": "LB-CLASS",
+              "tier": "T2",
+              "task": "Complete normal one-form source-vertex equivariance/contraction class",
+              "source_claims": [
+                "SC-CHI-51",
+                "SC-CHI-52",
+                "SC-MAS-02"
+              ],
+              "owned_inputs": "K95 N(6,4), fullS128, normal-SM branching, Clifford/primitiveNE vertex and actual observation contraction.",
+              "required_typing": "Symmetry action on bothN/S and horizontal-versus-W2 adjoint convention; physical normalization/curvature suppression remain separate.",
+              "expected_delta": "Allowed coefficient space and actual observed contraction kernel/image; source relevance assessed separately from breadth",
+              "kill_condition": "Only the declared source-shaped tensor class is covered; no GU verdict from permitted mixing alone."
             }
           ]
         }

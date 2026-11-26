@@ -241,3 +241,16 @@ conditional on authenticated equation/background/scalar/readout data. Existing
 source/anomaly/branching audits are completed, and Petrov novelty work does not
 supply a GU necessity bridge. Specialist minorities and revival inputs are in
 the existing opportunity register; no fifty-item mandatory backlog or new stop.
+
+
+## Current continuation after exact matched response (2026-11-26)
+
+[Result](../../../explorations/conditional-build/source-action-weak-response-2026-11-26.md) · [certificates and20-lens record](../source-action-weak-response.json). Authority: Joe directed continuation and active falsification wave. Earlier ready rows are consumed where stated here. Ordinary program_focus, cadence and scientific verdicts are unchanged.
+
+- **5q.1 algebraic stage done:** exact120 envelope, all59 maps, both rootballs, four nonzero matched formal coefficients, and affine scalar-adjoint identity. Do not repeat closure/inversion or search the remaining kernel to cancel these four channels inside the stated equivariant category. Actual uncontracted jets/local realization and physical readout remain distinct.
+- **5q.2 done:** nonzeroE2 is outside the old injectiveA01 graph, including its ambientL2 closure. **5s.2 into that graph is inapplicable.** Reopen only with a genuine common admission/observable input; no invented norm or cutoff. Other eligible science continues.
+- **Next directed discriminator:** individual differentiated auxiliary compatibility, using the actual induced connections and any owned cokernel obstruction before a smooth-family construction. A failed finite ansatz is not a kill.
+- **Class-level alternative:** the existing normal one-form source-vertex mixing class, targeting SC-CHI-51/52 and SC-MAS-02. The completed horizontal classification excluded these tensors. State symmetry onN/S and pairing convention; classify the actual normal contraction before claiming physical mixing/decoupling.
+- **Quick reassessment preference:** Joe requested20 mathematical persona descriptions, explicitly including category theory and number theory. Reuse the saved roster at material results/corrections, with a compact delta/ranking; no subagent per persona, essay regeneration, mandatory council or global policy change. Concrete calculation/review delegation remains separate.
+
+Selection: the exact adjoint shortcut removed a real prerequisite without a whole auxiliary inverse. The next algebraic/PDE check tests a genuine remaining compatibility premise; normal-vertex classification is the stronger class alternative if that route needs unbuilt input. Candidate necessity and physical admission remain the weakest source links. Native choice budget10/4/bookkeepingnet6 and zero source-selected predictions are unchanged.
