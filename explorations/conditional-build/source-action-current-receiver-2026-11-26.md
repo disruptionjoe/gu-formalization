@@ -46,7 +46,7 @@ action_owner: repository-construction W2 I1B-style construction with SE=-1/2 and
 target: action-current receiver and selected linear-matter domain MAP-TYPE=not-a-map
 ```
 
-> **GU-COMPARATOR-ROUTING.** `INTERNAL_STRUCTURAL_ONLY`; read `lab/methods/source-native-comparator-routing.md`. Canonical energy, pointwise Krein sign, phase charge and quantum probability are different objects. K95/K77, fullU/conditionalSp, contraction/projection and candidate/source remain distinct. No standard three-family, compactification or adjoint-bar assumption enters.
+> **GU-COMPARATOR-ROUTING.** Classification: `INTERNAL_STRUCTURAL_ONLY`; read `lab/methods/source-native-comparator-routing.md`. Canonical energy, pointwise Krein sign, phase charge and quantum probability are different objects. K95/K77, fullU/conditionalSp, contraction/projection and candidate/source remain distinct. No standard three-family, compactification or adjoint-bar assumption enters.
 
 **Source relevance.** SC-ACT-01/02 motivate the reconstructed variational problem. SC-META-53 explicitly records uncertainty about unbounded spectra and a proposed compact shielding mechanism; it does not supply the domain or quantization tested here. Class-C representativeness and source necessity remain unproved. The weakest physical link is an admitted coupled state space, physical quotient and actual propagated response. Full auxiliary regularity remains conditional beyond the certified 1,904 of 49,154 auxiliary components.
 
