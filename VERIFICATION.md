@@ -17,6 +17,14 @@ External review is not a pathway in this program. The honesty label stays: inter
 
 Sections below are historical snapshots in file order.
 
+## Five-panel source-faithful falsification checks (2026-11-26)
+
+Fifty simulated lenses reconciled with completed coverage; identification alone preserves observed-history range; an exact covariant all-history-invisible seed changes the bulk connection current at second normal order; curvature parameters separated. Existing weak-response and same-domain tests restocked, no physical/source verdict.
+
+The98-check exact probe passed, with independent mathematics and physics scope reviews. The new current witness is off-section and does not establish observed response or physical admission. Curvature custody separates RX0, RYminus10, variable connection curvature and h1/kappa. No scientific verdict or choice-budget movement.
+
+[Result](explorations/conditional-build/source-falsification-council-2026-11-26.md) · [All50 lenses and evidence](lab/process/source-falsification-council-2026-11-26.json).
+
 ## Quantitative observer-probability escape (2026-11-26)
 
 Every type-I Weyl sequence approaching nonzero II or III forces every covariant observer probability to retain at most one-half or one-quarter mass in each compact observer region, with sharp examples. Continuous laws incur maximal TV covariance defect along escaping stabilizers. Qualitative selection is classical-theory synthesis; quantitative worldwide priority remains unestablished.

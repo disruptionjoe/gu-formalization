@@ -212,7 +212,32 @@ Every finite complete section-normal-jet kernel contains infinitely many Lorentz
 | Step | Status | Exact consequence |
 |---|---|---|
 |5s.1 finite section calibration subquestion|done, scoped uniqueness exclusion|No finite complete section-normal-jet budget uniquely selects a covariant bulk extension in the unrestricted analytic class, even throughout history.|
-|5s.1 source-supplied physical restriction or quotient|ready; LB-CLASS/T2|Expected delta: source-supported relation selecting visible histories and/or identifying physically equivalent bulk representatives. Kill: missing source relation is not a GU no-go; no new choice merely to survive.|
+|5s.1 source-supplied physical restriction or quotient|bounded reconciliation consumed below; source input missing|Expected delta: source-supported relation selecting visible histories and/or identifying physically equivalent bulk representatives. Kill: missing source relation is not a GU no-go; no new choice merely to survive.|
 |5q.1 matched weak response|ready as diagnostic; LB-CLASS/T2|Existing actual-current/response burdens unchanged. Physical interpretation still needs its domain bridge.|
 
 All infinite analytic normal jets determine the germ. The chosen constant-seed image remains injectively observed. The polynomial 2/3/4 weights count no particles or generations. No new adopted seed family, physical obligation, policy or stop rule; ordinary LC retained.
+
+
+## Current continuation after fifty-lens coverage reconciliation (2026-11-26)
+
+Authority: Joe direct request to identify fastest source-faithful falsification and
+execute cheap work, then scaffold the next runs. [Result](../../../explorations/conditional-build/source-falsification-council-2026-11-26.md) · [all50 lenses and exact evidence](../source-falsification-council-2026-11-26.json). This section is the current handoff; preceding ready rows are historical where consumed/superseded here. Existing policy, cadence and review tiers remain unchanged.
+
+- **5s.1 bounded audit consumed:** broad source custody already completed; current source records still supply no physical admission/equivalence law. New elementary result separates admission from quotient: pure identification preserving literal q cannot reduce its observed-history range. Reopen source custody only on new authenticated law/domain/readout evidence, not another scan of the same corpus. No GU exclusion.
+- **Cheap interaction witness done:** covariant p2 trace seed invisible throughout observed history changes actual raw bulk current at second normal order, exactly4 in the normalized central-time fixture. Independent linear row/column germs only. Observed response, physical admission and nonlinear extension remain open.
+- **Curvature parameter custody done:** RX0,RYminus10 fixed; h1/kappa; connection curvature variable. No identification with the source's stronger low-gravity parameter. Do not repeat this as a new calculation.
+
+| Order / step | Status | Target/tier | Expected delta | Kill condition / surviving burden |
+|---|---|---|---|---|
+|1 —5q.1 matched weak scalar|ready|LB-CLASS/T2|Full reachedspin5 weak response via existing scalar-adjoint goal; certify residual, solvability and closure|Nonzero is candidate response only; zero only retains this channel. Retain jR-Dadj M^-1jN, matched divergence/frame/density/support. No full-M inverse requirement when exact scalar range/kernel/domain conditions suffice;95shell notcompleted closure.|
+|2 —5q.2 common domain/support|ready as bounded reconciliation; new response data consumed when available|LB-CLASS/T3, T2 for analytic transfer|Admit E2 pair to the actual response domain or name precise failed/missing condition|No transfer of A01 positivity/covariance to traceCK germs. No invented cutoff, norm or completion. Base bandwidth does not bound normal frequency.|
+|3 —5s.2 interaction-aware equivalence|full response blocked on5q.1 map and5q.2 membership; local current test done|LB-CLASS/T2|Do equal observed histories have equal retained weak response on one domain?|Nonzero rejects that response-preserving equivalence only; zero retains only tested channel. Raw off-section current is insufficient; no physical quotient selected.|
+
+Selection reason: existing full weak response is genuinely uncovered and needs
+fewer unbuilt structures than a source-wide ghost verdict. Mathematical scope
+is candidate-level; source necessity and class-C representativeness remain
+unproved. Strongest source-facing alternative is on-shell low-gravity decoupling,
+conditional on authenticated equation/background/scalar/readout data. Existing
+source/anomaly/branching audits are completed, and Petrov novelty work does not
+supply a GU necessity bridge. Specialist minorities and revival inputs are in
+the existing opportunity register; no fifty-item mandatory backlog or new stop.

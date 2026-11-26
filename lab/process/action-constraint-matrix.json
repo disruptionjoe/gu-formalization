@@ -1788,7 +1788,7 @@
     },
     "LB-CLASS": {
       "zero_delta_streak": 0,
-      "runs": 24,
+      "runs": 25,
       "status": "open"
     },
     "LB-LADDER": {
@@ -2707,7 +2707,7 @@
   ],
   "program_run_counter": {
     "since": "2026-11-09",
-    "count": 65,
+    "count": 66,
     "rule": "Every hourly run increments this in its postflight, whatever its lane. Lane C runs when count % 4 == 3 before the increment."
   },
   "working_rule": "Cells are worked at the structure level: a requirement must hold for every action in class C or for a structurally defined subfamily. No cell is worked by writing down a specific action, and no gated cell is worked by building its gate object. See CURRENT-STATE.yaml program_focus.structure_not_specifics.",
@@ -3107,6 +3107,21 @@
         "lab/process/petrov-probability-selection.json"
       ],
       "claim_effect": "No source/physics/canon verdict, scientific matrix shrinkage, bet credit, choice budget or scheduled-priority change."
+    },
+    {
+      "date": "2026-11-26",
+      "authority": "joe_direct_chat_2026_11_26_five_panel_falsification_wave",
+      "item": "Five-panel source-faithful falsification reconciliation and cheap interaction controls",
+      "tier": "T2_diagnostic_T3_scaffolding",
+      "counter_before": 65,
+      "counter_after": 66,
+      "lane": "LB-CLASS",
+      "actual_delta": "Fifty simulated lenses reconciled with completed coverage; identification alone preserves observed-history range; an exact covariant all-history-invisible seed changes the bulk connection current at second normal order; curvature parameters separated. Existing weak-response and same-domain tests restocked, no physical/source verdict.",
+      "evidence": [
+        "explorations/conditional-build/source-falsification-council-2026-11-26.md",
+        "lab/process/source-falsification-council-2026-11-26.json"
+      ],
+      "claim_effect": "No scientific cell/ledger/classC/verdict or choice effect; ordinary existing continuation restock."
     }
   ],
   "directed_lc_carry_2026_11_24_b": {
@@ -3421,7 +3436,9 @@
           "explorations/conditional-build/source-action-rotation-rigidity-2026-11-26.md",
           "lab/process/source-action-rotation-rigidity.json",
           "explorations/conditional-build/source-action-covariant-jet-ambiguity-2026-11-26.md",
-          "lab/process/source-action-covariant-jet-ambiguity.json"
+          "lab/process/source-action-covariant-jet-ambiguity.json",
+          "explorations/conditional-build/source-falsification-council-2026-11-26.md",
+          "lab/process/source-falsification-council-2026-11-26.json"
         ],
         "choices": "Historical original choices are retained below; current held fermion repair is SE=-1/2 (SE0 superseded), kappa1 with two unselected roots. Typed candidate_choice_budget separates core/completion/pending/comparator/parked choices.",
         "wave2_update": {
@@ -3744,6 +3761,63 @@
               ],
               "kill_condition": "Only a matched weak calculation closes this response question; nonzero pointwise current does not prove a physical ghost.",
               "source_bridge": "absent for candidate necessity"
+            }
+          ]
+        },
+        "falsification_council_update": {
+          "source_law_audit": "Consumed against prior source custody; no new source input, no repeated general scan",
+          "admission_vs_equivalence": "Identification preserving q retains q image; physical numerator restriction is a different demand",
+          "current_congruence": "Covariant invisible seed changes raw bulk current; observed weak response needs same-domain membership and full adjoint residual",
+          "curvature_parameters": "RX0/RYminus10 fixed,FA variable,h1/kappa not identified source curvature",
+          "next": [
+            {
+              "id": "5q.1",
+              "status": "ready",
+              "target": "LB-CLASS",
+              "tier": "T2",
+              "task": "One full matched weak scalar on reached spin5 using the already-owned diagnostic pair",
+              "expected_delta": "Decide cancellation in a complete scalar response or name exact failed residual/range/kernel condition",
+              "source_bridge": "conditional; candidate and domain not source-selected",
+              "cost": "one focused response wave; only indispensable additional blocks",
+              "kill_condition": "A scalar zero closes that channel only; nonzero is a candidate response, not a physical ghost",
+              "premises": [
+                "Full differential adjoint and action pairing; range/kernel compatibility and domain/boundary terms",
+                "Matched divergence, moving lift/frame/density and actual normal support",
+                "95-dimensional shell is not completed closure; no blanket full-inverse requirement if the scalar adjoint route certifies the goal"
+              ],
+              "strongest_alternative": "5q.2 domain reconciliation; source low-curvature test conditional on authenticated tuple"
+            },
+            {
+              "id": "5q.2",
+              "status": "ready_bounded_reconciliation",
+              "target": "LB-CLASS",
+              "tier": "T3_then_T2_if_analytic_transfer",
+              "task": "Check E2 trace-plane witness and the new response map share one row pairing, support, boundary and domain",
+              "expected_delta": "Admitted overlap or exact failed/missing membership condition",
+              "source_bridge": "conditional; raw germ admission is not physical admission",
+              "cost": "one bounded domain/support pass tied to new5q.1 data; no repeated broad source audit",
+              "kill_condition": "Domain mismatch blocks only transport of this witness; do not invent a norm/cutoff or completion",
+              "premises": [
+                "A01 covariance exclusion retained; trace CK does not inherit its positive norm",
+                "Base bandwidth gives no normal-frequency bound"
+              ],
+              "strongest_alternative": "Other already-eligible source-grounded tests; no waiting checkpoint"
+            },
+            {
+              "id": "5s.2",
+              "status": "blocked_on_common_domain_for_full_response",
+              "target": "LB-CLASS",
+              "tier": "T2",
+              "task": "Test interaction-aware observational equivalence on E0 and E0+E2 with identical admitted dual data",
+              "expected_delta": "Decide whether identical literal histories have identical retained weak response",
+              "source_bridge": "conditional; physical quotient/source necessity unproved",
+              "cost": "one scalar response once5q.1 and5q.2 provide the actual map and membership",
+              "kill_condition": "Nonzero rejects only an equivalence required to preserve that response; zero retains only the tested channel",
+              "premises": [
+                "5q.1 actual response",
+                "5q.2 same-domain/support admission; raw bulk current witness alone is insufficient"
+              ],
+              "strongest_alternative": "Source on-shell decoupling when equations/background/scalar/readout tuple exists"
             }
           ]
         }

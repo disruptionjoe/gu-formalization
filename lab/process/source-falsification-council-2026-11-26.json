@@ -1,0 +1,1626 @@
+{
+  "artifact": "source-falsification-council",
+  "date": "2026-11-26",
+  "basis_revision": "f41721d2cd312df0ef5ccaeb0160ad126530eb79",
+  "authority": "joe_direct_chat_2026_11_26_five_panel_falsification_wave",
+  "status": "internally_reviewed_T2_diagnostic_and_T3_scaffolding",
+  "actual_delta": "Fifty simulated lenses reconciled with completed coverage; identification alone preserves observed-history range; an exact covariant all-history-invisible seed changes the bulk connection current at second normal order; curvature parameters separated. Existing weak-response and same-domain tests restocked, no physical/source verdict.",
+  "method": "Five panel agents with ten simulated specialist lenses each. Perspectives are not50 independent scientists. Confidence is a usefulness judgment, not a scientific probability. No new mandatory council or synthetic consensus proof.",
+  "panels": [
+    {
+      "panel": "mathematics",
+      "basis_revision": "f41721d2cd312df0ef5ccaeb0160ad126530eb79",
+      "method": "Ten simulated specialist lenses produced by one panel agent; not independent scientific reviewers or votes.",
+      "lenses": [
+        {
+          "id": "M01",
+          "specialty": "Representation theory and induced physical representations",
+          "proposal": "Separate source-supported admissible polarizations from the already-excluded full-component Lorentz charge.",
+          "targets": "SC-GEO-51; SC-META-53; LT-SM8",
+          "readiness": "bounded custody check ready; physical subquotient computation conditional",
+          "source_bridge": "conditional: physical covariance/positivity is required, but no source-selected quotient is supplied",
+          "scope": "Any actually supplied subrepresentation or momentum-dependent subquotient of the held observed carrier; not all completions",
+          "weakest_premise": "The source-to-physical-polarization map",
+          "cheapest_test": "Inspect the source and new domain claims for an explicit invariant subspace, equivalence relation, or positive physical norm; if present test invariance under the actual boost matrices before computing spectra.",
+          "negative_result_kills": "Only the named polarization/norm identification; absence of a law is not a GU no-go.",
+          "survivor_meaning": "A source-supported subquotient would activate positivity/ghost tests without adding a freely chosen repair.",
+          "confidence": 92,
+          "confidence_meaning": "judgment that this is useful prioritization, not probability GU fails",
+          "literalness": "literal mathematical method; no analogy asserted as evidence",
+          "do_not_do": "Do not apply finite-dimensional unitary Lorentz impossibility to one-particle Hilbert spaces, or redo the full640 identity-charge obstruction.",
+          "evidence": [
+            "explorations/conditional-build/source-action-paired-response-2026-11-26.md",
+            "explorations/conditional-build/source-premise-custody-2026-11-25.md"
+          ]
+        },
+        {
+          "id": "M02",
+          "specialty": "Category theory, quotients and congruences",
+          "proposal": "Test whether an asserted observation equivalence is preserved by the actual equations and interaction.",
+          "targets": "SC-GEO-04; SC-OP-04; LT-GR6b; packet5s.1",
+          "readiness": "bounded reconciliation ready; new quotient test only if a source relation exists",
+          "source_bridge": "conditional",
+          "scope": "A supplied equivalence relation on solution germs and the actual candidate interaction, not an arbitrary projection",
+          "weakest_premise": "A physical equivalence relation is not specified merely by equal section values",
+          "cheapest_test": "Reuse the exact hidden-jet counterexamples to test any claimed identification of equal observed histories; require the relation be a congruence for evolution and current. Name exactly what the source supplies beyond equality of section data.",
+          "negative_result_kills": "That claimed quotient/readout identification, not all physically possible quotients.",
+          "survivor_meaning": "A congruent source relation would make observed dynamics a well-defined object and unlock several ledger rows.",
+          "confidence": 96,
+          "confidence_meaning": "judgment that this is useful prioritization, not probability GU fails",
+          "literalness": "literal mathematical method; no analogy asserted as evidence",
+          "do_not_do": "Do not rerun the broad source corpus audit or prove finite-jet nonuniqueness again; both are complete.",
+          "evidence": [
+            "explorations/conditional-build/source-action-covariant-jet-ambiguity-2026-11-26.md",
+            "explorations/conditional-build/source-premise-custody-2026-11-25.md",
+            "lab/process/work-packets/source-action-response-discriminators-2026-11-25.md"
+          ]
+        },
+        {
+          "id": "M03",
+          "specialty": "Symplectic geometry and covariant phase space",
+          "proposal": "Test whether negative constrained directions are genuine symplectic directions or gauge radicals.",
+          "targets": "SC-ACT-01/05; LT-SM8; LT-GR1",
+          "readiness": "conditional; source gauge/physical domain and full metric potential missing",
+          "source_bridge": "conditional",
+          "scope": "Held candidate with its actual presymplectic current, supplied boundary conditions and gauge generators",
+          "weakest_premise": "Constraint elimination is not the physical quotient",
+          "cheapest_test": "Reuse the derived fermionic boundary current, contract a representative negative direction with the covariant presymplectic form and actual gauge image; first inventory whether all required metric terms are owned.",
+          "negative_result_kills": "A proposed gauge-removal mechanism if the direction pairs nontrivially with admitted gauge-invariant data.",
+          "survivor_meaning": "Null pairing is necessary but not sufficient for gauge exactness; propagation and properness still needed.",
+          "confidence": 84,
+          "confidence_meaning": "judgment that this is useful prioritization, not probability GU fails",
+          "literalness": "literal mathematical method; no analogy asserted as evidence",
+          "do_not_do": "Do not construct an arbitrary BRST quartet, treat a Green radical as gauge, or infer physical ghosts from pointwise energy.",
+          "evidence": [
+            "explorations/conditional-build/source-action-engineering-wave-2026-11-25.md",
+            "explorations/conditional-build/source-action-steelman-datum-2026-11-26.md"
+          ]
+        },
+        {
+          "id": "M04",
+          "specialty": "Hyperbolic PDE and constrained evolution",
+          "proposal": "Finish one matched weak forced-response scalar on the reached normal spin5 block.",
+          "targets": "SC-ACT-05; LT-GR1; LT-GR6b; packet5q.1",
+          "readiness": "ready as held-candidate diagnostic",
+          "source_bridge": "absent for GU necessity; actual variational current is source-motivated",
+          "scope": "Two kappa1 roots of the held W2/K95/fullU/SE=-1/2 candidate, same diagnostic injection/domain/support",
+          "weakest_premise": "Native physical-domain and propagated physical-quotient admission",
+          "cheapest_test": "Compute j_R-D^dagger M^-1 j_N paired with the reached spin5 response, retaining div(j_N Y), lift, density and frame terms and exact common transfer support. Start with one source/receiver polarization and certify nonzero or cancellation.",
+          "negative_result_kills": "A specific shielding/cancellation claim on the held diagnostic, not GU or all class C.",
+          "survivor_meaning": "Zero scalar motivates the symmetry-permitted next channel; nonzero identifies exact physical-admission question rather than proving runaway.",
+          "confidence": 94,
+          "confidence_meaning": "judgment that this is useful prioritization, not probability GU fails",
+          "literalness": "literal mathematical method; no analogy asserted as evidence",
+          "do_not_do": "Do not build a full inverse or enumerate all49154 auxiliaries; do not import A01 positivity into covariant trace-seed solutions.",
+          "evidence": [
+            "explorations/conditional-build/source-action-paired-response-2026-11-26.md",
+            "explorations/conditional-build/source-action-current-receiver-2026-11-26.md"
+          ]
+        },
+        {
+          "id": "M05",
+          "specialty": "Index theory and K-theory",
+          "proposal": "Require one common grading/domain before reactivating any observed-hidden integer-index claim.",
+          "targets": "SC-CHI-01/04; AC-F1; RA-F1",
+          "readiness": "blocked on NATIVE-GRADED-FREDHOLM-OBSERVATION",
+          "source_bridge": "conditional",
+          "scope": "A declared Fredholm observation complex in one descending physical grading",
+          "weakest_premise": "The same grading must both descend and have independently established total index zero",
+          "cheapest_test": "Do not recompute arithmetic. Cross-reference the exact missing common-domain/grading tuple in any proposed physical restriction from5s.1; test that tuple only if supplied.",
+          "negative_result_kills": "The supplied tuple, not all observation complexes.",
+          "survivor_meaning": "A genuine tuple would reopen integer count and hidden balance together.",
+          "confidence": 93,
+          "confidence_meaning": "judgment that this is useful prioritization, not probability GU fails",
+          "literalness": "literal mathematical method; no analogy asserted as evidence",
+          "do_not_do": "Do not convert Z/3 torsion into integer3, a self-adjoint ungraded index zero into physical chirality, or label decomposition into a count.",
+          "evidence": [
+            "explorations/conditional-build/native-descending-grading-classification-2026-11-21.md",
+            "explorations/conditional-build/observed-hidden-split-sc-chi-01-2026-11-20.md"
+          ]
+        },
+        {
+          "id": "M06",
+          "specialty": "Harmonic analysis and restriction estimates",
+          "proposal": "Test the norm continuity of the covariant trace-seed right inverse on an independently supplied physical solution space.",
+          "targets": "SC-GEO-52; SC-META-52; LT-SM8",
+          "readiness": "conditional reserve; no source-selected norm/domain",
+          "source_bridge": "conditional",
+          "scope": "Actual variable-coefficient covariant trace-seed solution operator and one supplied topology",
+          "weakest_premise": "The analytic germ construction is not a bounded physical-time evolution or state space",
+          "cheapest_test": "Derive the leading transverse growth along the trace axis and compare with the stated norm; distinguish actual solutions, finite-time norms and whole-history norms before numerical work.",
+          "negative_result_kills": "Only that extension/topology pair.",
+          "survivor_meaning": "A bound would close an analytic transfer premise; it would not select a physical law.",
+          "confidence": 83,
+          "confidence_meaning": "judgment that this is useful prioritization, not probability GU fails",
+          "literalness": "literal mathematical method; no analogy asserted as evidence",
+          "do_not_do": "Do not reuse withdrawn W175 gap, assume fibre-L2 is source-required, or import Euclidean smoothing into the ultrahyperbolic fibre.",
+          "evidence": [
+            "explorations/conditional-build/source-action-rotation-rigidity-2026-11-26.md",
+            "explorations/conditional-build/solution-observation-trace-2026-11-25.md"
+          ]
+        },
+        {
+          "id": "M07",
+          "specialty": "Topology and relative characteristic classes",
+          "proposal": "Test relative extension of an actually prescribed end reduction rather than repeating absolute U(3,2)/SU existence.",
+          "targets": "SC-GRP-03; RA-A2; RA-A6",
+          "readiness": "blocked until an admitted boundary reduction is supplied",
+          "source_bridge": "conditional",
+          "scope": "One source-admitted end/frame reduction and its relative extension class",
+          "weakest_premise": "A concrete source-compatible boundary/end datum",
+          "cheapest_test": "First determine whether the original Bott datum is compatible with either held stationary root; reuse its already-recorded incompatibility, then calculate only a new source-supplied relative class.",
+          "negative_result_kills": "That global realization or boundary prescription.",
+          "survivor_meaning": "Successful extension supplies a necessary global compatibility, not selected SM quotient.",
+          "confidence": 79,
+          "confidence_meaning": "judgment that this is useful prioritization, not probability GU fails",
+          "literalness": "literal mathematical method; no analogy asserted as evidence",
+          "do_not_do": "Do not repeat absolute U or SU existence; do not infer no global metric section from SC-META-54; do not count the already-known conditional mu6 kernel as source selection.",
+          "evidence": [
+            "explorations/conditional-build/normal-special-unitary-existence-2026-11-25.md",
+            "explorations/conditional-build/global-normal-complex-reduction-2026-11-24.md",
+            "explorations/conditional-build/source-action-steelman-datum-2026-11-26.md"
+          ]
+        },
+        {
+          "id": "M08",
+          "specialty": "Natural differential operators and invariant theory",
+          "proposal": "Audit the source-membership boundary of the completed18-generator symbol theorem before proposing another operator class.",
+          "targets": "SC-OP-01/04/05; X-P1-P2; LB-CLASS",
+          "readiness": "cheap membership reconciliation ready; no new symbol classification justified",
+          "source_bridge": "conditional",
+          "scope": "Metric/orientation/Clifford natural first-order symbols with scalar coefficients, with or without source tensor backgrounds explicitly separated",
+          "weakest_premise": "Source fullness and epsilon-dependent tensor coefficients are not known to lie in the metric-only category",
+          "cheapest_test": "For a proposed candidate write its principal coefficients against the existing18 basis and list every additional tensor owner; report membership or exact extra generator rather than rerunning classification.",
+          "negative_result_kills": "A claimed application of the metric-only theorem; not a wider tensor category.",
+          "survivor_meaning": "Proved membership transports existing six-slot minimum and exclusions without another wave.",
+          "confidence": 91,
+          "confidence_meaning": "judgment that this is useful prioritization, not probability GU fails",
+          "literalness": "literal mathematical method; no analogy asserted as evidence",
+          "do_not_do": "Do not describe18 generators as18 actions or as exhaustive full source operators; lower-order terms and arbitrary scalar functions remain.",
+          "evidence": [
+            "explorations/conditional-build/source-natural-symbol-class-2026-11-24.md",
+            "explorations/conditional-build/source-premise-custody-2026-11-25.md"
+          ]
+        },
+        {
+          "id": "M09",
+          "specialty": "Control theory and minimal realizations",
+          "proposal": "Use the actual transfer function to distinguish reachable negative directions from merely nonzero current.",
+          "targets": "SC-ACT-05; LT-GR1; packet5q.1",
+          "readiness": "ready and merge with M04",
+          "source_bridge": "absent for GU necessity; candidate diagnostic only",
+          "scope": "Actual source/receiver pair on the held constrained linearized system with fixed frequency support",
+          "weakest_premise": "A current overlap is not the energy or pole residue of a forced physical solution",
+          "cheapest_test": "Reduce the weak-response computation to its reachable/observable module; certify only blocks seen by both source and receiver. Keep fixed-generator powers, not arbitrary switching words.",
+          "negative_result_kills": "A candidate response-decoupling claim if a nonzero transfer survives; not physical stability by itself.",
+          "survivor_meaning": "A zero transfer may reflect true cancellation; compute exact factorization before expanding the state.",
+          "confidence": 90,
+          "confidence_meaning": "judgment that this is useful prioritization, not probability GU fails",
+          "literalness": "literal mathematical method; no analogy asserted as evidence",
+          "do_not_do": "Do not brute-force the whole matrix, confuse controllability with physical state admission, or count separate current and receiver calculations as independent obligations satisfied.",
+          "evidence": [
+            "explorations/conditional-build/source-action-paired-response-2026-11-26.md",
+            "explorations/conditional-build/source-action-current-receiver-2026-11-26.md"
+          ]
+        },
+        {
+          "id": "M10",
+          "specialty": "Differential algebra and on-shell ideals",
+          "proposal": "Test the curvature-to-mixing claim on actual admitted solution jets, not off-shell arbitrary curvature.",
+          "targets": "SC-CHI-02/51/52/53; SC-MAS-01/03; RA-D4; AC-F1",
+          "readiness": "conditional highest source-facing reserve",
+          "source_bridge": "conditional: directly tests source effective mechanism once its background/readout is identified",
+          "scope": "A source-admitted low-curvature solution family and its actual observed mixing functional",
+          "weakest_premise": "Need tuple(source equations, admitted solution jets, scalar owner r, full observed mixing M)",
+          "cheapest_test": "Check whether ker(E,G) intersect {r=0} lies in ker(M); for effective suppression additionally seek an upper bound as r tends to0. Reject the off-shell substitution first.",
+          "negative_result_kills": "The stated decoupling mechanism on that admitted class if a nonzero normalized response persists at r=0.",
+          "survivor_meaning": "Vanishing is necessary; robust low-curvature suppression requires a bound and physical normalization.",
+          "confidence": 95,
+          "confidence_meaning": "judgment that this is useful prioritization, not probability GU fails",
+          "literalness": "literal mathematical method; no analogy asserted as evidence",
+          "do_not_do": "Do not equate R_X, R_Y and curvature-square drivers; do not claim allowed invariant corrections are generated or that the already-owned R/4 toy is new.",
+          "evidence": [
+            "explorations/conditional-build/source-premise-custody-2026-11-25.md",
+            "explorations/conditional-build/source-small-vev-current-test-2026-11-24.md"
+          ]
+        }
+      ],
+      "top_three": [
+        {
+          "rank": 1,
+          "ids": [
+            "M02",
+            "M01"
+          ],
+          "proposal": "One bounded source-physical-restriction reconciliation; reuse previous custody, do not reopen it indefinitely.",
+          "reason": "This resolves the shared source relevance gap instead of earning another candidate-only theorem."
+        },
+        {
+          "rank": 2,
+          "ids": [
+            "M04",
+            "M09"
+          ],
+          "proposal": "One matched weak inverse-response scalar on the reached spin5 module.",
+          "reason": "Best uncovered executable candidate discriminator; explicitly conditional physical significance."
+        },
+        {
+          "rank": 3,
+          "ids": [
+            "M10"
+          ],
+          "proposal": "Source-grounded on-shell curvature/mixing discriminator, only when its precise tuple exists.",
+          "reason": "Most direct remaining source mechanism test, but the missing tuple prevents treating it as ready."
+        }
+      ],
+      "specialist_minority": [
+        {
+          "ids": [
+            "M03"
+          ],
+          "idea": "Symplectic-radical/physical-quotient test",
+          "activation": "Actual complete presymplectic form and admitted gauge/domain data"
+        },
+        {
+          "ids": [
+            "M06"
+          ],
+          "idea": "Norm continuity of covariant trace-seed lifting",
+          "activation": "Independently specified physical norm/domain"
+        },
+        {
+          "ids": [
+            "M07"
+          ],
+          "idea": "Relative topology at the actual end",
+          "activation": "Compatible source-supplied end reduction"
+        }
+      ],
+      "coverage_corrections": [
+        "SC-GEN-51/56, SC-PRE-52, SC-CHI-04 and Clifford ladder equation-free checks already covered by source-required packet; no fresh equation-free falsifier identified in this bounded review.",
+        "Ten-wave source-falsification horizon has no ready entry; W01 source custody complete and not to be rerun absent new data.",
+        "Absolute U(3,2) and SU existence completed; conditional mu6 kernel already computed and not a selected global group.",
+        "SC-META-54 is a semantically uncertain denial, not a topology no-go.",
+        "LT-GR7 absolute-scale no-go agrees with source ratio-only structure and is not GU falsification.",
+        "A01 positivity/current certificates do not transfer to the later covariant trace-seed solutions.",
+        "No source-asserted nonzero anomaly target presently exists; W175 native gap withdrawn."
+      ],
+      "bottom_line": "The fastest ready test is still a candidate response discriminator. The fastest route to an actual GU falsification is closing one source-to-physical-observable bridge, especially the low-curvature decoupling claim. Repeating algebraic source tests or inventing a new completion is not justified. No new equation-free contradiction was established by this panel.",
+      "cheap_diagnostic_review": "math-review.md",
+      "panel_source_file": "math.json"
+    },
+    {
+      "panel": "distributed systems and cryptography",
+      "basis_revision": "f41721d2cd312df0ef5ccaeb0160ad126530eb79",
+      "method": "Ten simulated specialist lenses synthesized by one panel agent; not ten independent experts. Ranking is qualitative and confidence is judgment, not truth probability.",
+      "personas": [
+        {
+          "target": "LB-CLASS with LT-SM8/LT-GR6b relevance",
+          "source_bridge": "conditional for source-required positive observed dynamics; absent for necessity of the held W2/K95/fullU/SE=-1/2 candidate",
+          "scope": "held candidate or explicit quotient/restriction class, not all GU or all class C",
+          "literalness": "computational lens is analogy; stated algebraic obligation is literal",
+          "confidence_meaning": "priority judgment, not probability of GU being false",
+          "id": "D01",
+          "lens": "Distributed consensus",
+          "title": "One physical equivalence relation across every recovered sector",
+          "test": "Test whether the same proposed equivalence relation identifies hidden matter representatives while preserving the connection current and observed evolution; do not permit each sector to use an unrelated quotient.",
+          "source_and_ledger": "SC-OP-04; SC-META-53 (UNCERTAIN); LT-SM8; LT-GR6b",
+          "coverage_check": "The source-premise-custody audit already found the full law absent. This is a congruence discriminator on any supplied proposal, not a renewed source search.",
+          "weakest_premise": "A supplied equivalence relation and common domain are missing; candidate history equality is only a test relation.",
+          "outcome_meaning": "A mismatch rejects that joint quotient, not the separate sector theorems or GU. Success supplies one common compatibility condition, not positivity.",
+          "remaining_cost": "Ready for literal-history quotient only; one exact algebraic test. Full source quotient awaits an independently supplied relation.",
+          "confidence": 93,
+          "avoid": "Do not call separate positive, covariance and ghost checks jointly satisfied when they use different state spaces."
+        },
+        {
+          "target": "LB-CLASS with LT-SM8/LT-GR6b relevance",
+          "source_bridge": "conditional for source-required positive observed dynamics; absent for necessity of the held W2/K95/fullU/SE=-1/2 candidate",
+          "scope": "held candidate or explicit quotient/restriction class, not all GU or all class C",
+          "literalness": "computational lens is analogy; stated algebraic obligation is literal",
+          "confidence_meaning": "priority judgment, not probability of GU being false",
+          "id": "D02",
+          "lens": "Formal protocol verification",
+          "title": "Constraint preservation as an invariant, not an initial check",
+          "test": "On an actually supplied common domain K=0, test K L = R K for the full linearized generator L, including moving coefficients; find one exact initial datum with K=0 and K L not zero if possible.",
+          "source_and_ledger": "SC-ACT-01/02; SC-META-53; LT-GR1; LT-SM8",
+          "coverage_check": "First graph failure and 22->23->23 frozen filtration are already proved. The uncovered target is a supplied higher common domain, not the first graph or coordinate-axis controls.",
+          "weakest_premise": "No source-selected higher domain or full regular lower constraint matrix is presently supplied.",
+          "outcome_meaning": "A witness excludes that constrained evolution domain. Invariance alone does not prove well-posedness or a physical positive quotient.",
+          "remaining_cost": "Conditional; reuse existing null-stratum witness before any larger build.",
+          "confidence": 84,
+          "avoid": "Do not construct a new higher graph simply because the prior one failed."
+        },
+        {
+          "target": "LB-CLASS with LT-SM8/LT-GR6b relevance",
+          "source_bridge": "conditional for source-required positive observed dynamics; absent for necessity of the held W2/K95/fullU/SE=-1/2 candidate",
+          "scope": "held candidate or explicit quotient/restriction class, not all GU or all class C",
+          "literalness": "computational lens is analogy; stated algebraic obligation is literal",
+          "confidence_meaning": "priority judgment, not probability of GU being false",
+          "id": "D03",
+          "lens": "Cryptographic soundness",
+          "title": "Quantifier and witness coverage audit",
+          "test": "For each leading falsifier, write the source-required quantifier and the tested family, then exhibit the strongest surviving source-compatible alternative. Require an actual implication from source necessity to the falsifier premise.",
+          "source_and_ledger": "SC-GEN-01/51/56; SC-CHI-04; SC-OP-04/05; all proposed rows",
+          "coverage_check": "Source-required equation-free review already found no ready novel falsifier in GEN51/56 or CHI04; branching and anomaly arithmetic are consumed evidence.",
+          "weakest_premise": "Source incompleteness prevents a universal necessity implication for the reconstructed action.",
+          "outcome_meaning": "Can reject an overclaim immediately; cannot turn an absent necessity proof into a GU exclusion.",
+          "remaining_cost": "Ready; cheap panel synthesis only, no research credit for repeating audits.",
+          "confidence": 95,
+          "avoid": "Do not equate 10 choice families minus 4 obligations with a rigorous lower bound of 6 unavoidable GU parameters."
+        },
+        {
+          "target": "LB-CLASS with LT-SM8/LT-GR6b relevance",
+          "source_bridge": "conditional for source-required positive observed dynamics; absent for necessity of the held W2/K95/fullU/SE=-1/2 candidate",
+          "scope": "held candidate or explicit quotient/restriction class, not all GU or all class C",
+          "literalness": "computational lens is analogy; stated algebraic obligation is literal",
+          "confidence_meaning": "priority judgment, not probability of GU being false",
+          "id": "D04",
+          "lens": "Zero-knowledge and observational equivalence",
+          "title": "Does the invisible history kernel remain invisible to interactions?",
+          "test": "Use paired analytic solutions with the same entire observed history: psi0=E000(f), h=Ep2(f), qh=0; hold an independent exact dual row eta fixed. Test descent of the actual central connection current. On the trace CK plane H, Delta j = p2(Q) j0. Along Q=s diag(1,-1,0,0), second derivative at zero is 4 j0. Choose nonzero j0 using the invertible time symbol and independent row seed.",
+          "source_and_ledger": "SC-OP-04; SC-GEO-03/51; LT-SM8; LT-GR6b",
+          "coverage_check": "Finite-jet ambiguity proves qh=0; the actual central identity V(i alpha Id)=i sigma(alpha) is owned by graph-domain section5. Current receiver/paired-response use the excluded A01 positive domain, not this covariant trace-seed congruence witness.",
+          "weakest_premise": "An observed physical quotient need not require equality of full bulk current. The counterexample tests the literal-history quotient with interaction descent, not every physical quotient.",
+          "outcome_meaning": "Nonzero result rejects identifying every observation-invisible germ as physically redundant while retaining that bulk current. It does not prove negative energy, unequal observed inverse responses, or physical admission.",
+          "remaining_cost": "Ready; exact degree2/current identity plus written paired-CK argument, no large inverse.",
+          "confidence": 96,
+          "avoid": "Do not use arbitrary normal derivatives as physically available sensors; they certify a bulk-current distinction only."
+        },
+        {
+          "target": "LB-CLASS with LT-SM8/LT-GR6b relevance",
+          "source_bridge": "conditional for source-required positive observed dynamics; absent for necessity of the held W2/K95/fullU/SE=-1/2 candidate",
+          "scope": "held candidate or explicit quotient/restriction class, not all GU or all class C",
+          "literalness": "computational lens is analogy; stated algebraic obligation is literal",
+          "confidence_meaning": "priority judgment, not probability of GU being false",
+          "id": "D05",
+          "lens": "Secure composition",
+          "title": "Complete weak-response cancellation before inferring physical leakage",
+          "test": "Evaluate one matched scalar of j_R - D^dagger M^-1 j_N on the reached spin5 response, retaining div(j_N Y), density/frame/lift terms and actual essential transfer support.",
+          "source_and_ledger": "SC-ACT-01/02; SC-META-53; LT-GR1; LT-GR6b",
+          "coverage_check": "5q.1 is genuinely open. Pointwise receiver and whole reached-module nonannihilation are done; 95-dimensional first shell is neither full closure nor a fixed-root minimum.",
+          "weakest_premise": "Full constraint solvability and a physical paired domain remain unproved; A01 certificates are diagnostic after covariance exclusion.",
+          "outcome_meaning": "Nonzero scalar closes a real cancellation loophole in the held candidate. It is not a propagated physical ghost; zero tests only that matched channel.",
+          "remaining_cost": "Ready diagnostic; medium, one matched inverse contribution before all lower blocks.",
+          "confidence": 91,
+          "avoid": "Do not omit integration-by-parts terms or infer observed response from a pointwise current."
+        },
+        {
+          "target": "LB-CLASS with LT-SM8/LT-GR6b relevance",
+          "source_bridge": "conditional for source-required positive observed dynamics; absent for necessity of the held W2/K95/fullU/SE=-1/2 candidate",
+          "scope": "held candidate or explicit quotient/restriction class, not all GU or all class C",
+          "literalness": "computational lens is analogy; stated algebraic obligation is literal",
+          "confidence_meaning": "priority judgment, not probability of GU being false",
+          "id": "D06",
+          "lens": "Capability security",
+          "title": "Maximal-compact shielding must be preserved by actual dynamics",
+          "test": "For any independently supplied source compact restriction P, test (1-P)L P and the polarized current into excluded directions on its stated domain. Preservation must include interactions, not only compact representation branching.",
+          "source_and_ledger": "SC-META-53 (UNCERTAIN); SC-GEO-51; LT-SM8",
+          "coverage_check": "The naive compact local module and source primitive mixing already fail closure. Repeating them adds nothing. The test becomes new only with a genuinely different source-supported restriction.",
+          "weakest_premise": "SC-META-53 supplies no explicit projector or quotient, and full U is not an automatically selected Sp subtheory.",
+          "outcome_meaning": "Nonzero leakage excludes the supplied shield; zero is only invariance at the evaluated order. No global GU ghost conclusion.",
+          "remaining_cost": "Conditional; retain as an exact reactivation test, not immediate construction.",
+          "confidence": 88,
+          "avoid": "Do not replace an uncertain shielding suggestion with a chosen compact projector."
+        },
+        {
+          "target": "LB-CLASS with LT-SM8/LT-GR6b relevance",
+          "source_bridge": "conditional for source-required positive observed dynamics; absent for necessity of the held W2/K95/fullU/SE=-1/2 candidate",
+          "scope": "held candidate or explicit quotient/restriction class, not all GU or all class C",
+          "literalness": "computational lens is analogy; stated algebraic obligation is literal",
+          "confidence_meaning": "priority judgment, not probability of GU being false",
+          "id": "D07",
+          "lens": "Fault-tolerant systems",
+          "title": "Survivor intersection after corrections",
+          "test": "Intersect only survivors that share metric real form, field law, grading, observation and domain. Use incompatible certificates as explicit countercontrols: K95 vs K77, A01 charge vs trace-seed covariance, current nonzero vs propagated energy.",
+          "source_and_ledger": "SC-GEO-51; SC-OP-04/05; LT-SM8; LT-GR1",
+          "coverage_check": "These boundaries are recorded individually. A compact intersection table can prevent the current wave from inheriting incompatible certificates; it is evidence reconciliation, not a new theorem.",
+          "weakest_premise": "No common source physical construction presently bridges all certificates.",
+          "outcome_meaning": "An empty intersection of existing certificates means no demonstrated joint survivor, not mathematical nonexistence. A new compatible intersection would be a typed candidate only.",
+          "remaining_cost": "Ready; low-cost scaffolding and countercontrol, not a stand-alone science wave.",
+          "confidence": 92,
+          "avoid": "Do not treat withdrawn W175 gap, absent anomaly target, or excluded A01 covariance as live support."
+        },
+        {
+          "target": "LB-CLASS with LT-SM8/LT-GR6b relevance",
+          "source_bridge": "conditional for source-required positive observed dynamics; absent for necessity of the held W2/K95/fullU/SE=-1/2 candidate",
+          "scope": "held candidate or explicit quotient/restriction class, not all GU or all class C",
+          "literalness": "computational lens is analogy; stated algebraic obligation is literal",
+          "confidence_meaning": "priority judgment, not probability of GU being false",
+          "id": "D08",
+          "lens": "Causal consistency",
+          "title": "Quotient dynamics must respect observational indistinguishability",
+          "test": "For a source-supplied physical observation q on an actual evolution domain, check ker(q) invariant under the full evolution; algebraically qL=Loq. Use the already-owned ambiguity family to test necessity, not to re-prove non-autonomy.",
+          "source_and_ledger": "SC-GEO-02/03; SC-CHI-04; LT-GR6b",
+          "coverage_check": "Non-autonomy and arbitrary analytic trace-history admission are done. The uncovered issue is whether a physical quotient or restriction makes the observed history autonomous.",
+          "weakest_premise": "The source may allow boundary/global/non-Markovian completion; autonomy is not independently source-necessary.",
+          "outcome_meaning": "Failure excludes an autonomous quotient at that chosen scope. Memory or boundary dependence remains a legitimate alternative unless source rules it out.",
+          "remaining_cost": "Conditional on supplied physical q/domain; cheap once supplied.",
+          "confidence": 85,
+          "avoid": "Do not falsify GU for lacking a closed Markovian four-dimensional subsystem that the source never promised."
+        },
+        {
+          "target": "LB-CLASS with LT-SM8/LT-GR6b relevance",
+          "source_bridge": "conditional for source-required positive observed dynamics; absent for necessity of the held W2/K95/fullU/SE=-1/2 candidate",
+          "scope": "held candidate or explicit quotient/restriction class, not all GU or all class C",
+          "literalness": "computational lens is analogy; stated algebraic obligation is literal",
+          "confidence_meaning": "priority judgment, not probability of GU being false",
+          "id": "D09",
+          "lens": "Type systems and interface design",
+          "title": "Two-sided naturality of the actual row-column action",
+          "test": "Given any authenticated field/density/reference law, test the whole action diagram, including barred rows and moving Clifford/observation structures; compare to the owned 14/18 generator stabilizer, rather than isolated arrows.",
+          "source_and_ledger": "SC-OP-04/05; SC-GEO-55; P1 variational",
+          "coverage_check": "The full-field source custody and universal fixed-parameter stabilizer are already completed. Missing law is named, not a fresh audit opportunity.",
+          "weakest_premise": "No full source transformation diagram is available in inspected corpus.",
+          "outcome_meaning": "A contradiction in an authenticated law would be source-relevant at its exact claim strength; no law leaves underdetermination, not falsification.",
+          "remaining_cost": "Blocked on new source datum; make the reactivation condition precise and move on.",
+          "confidence": 89,
+          "avoid": "Do not freeze gamma matrices while letting the source transform them, or assume independent bars are Hermitian conjugates."
+        },
+        {
+          "target": "LB-CLASS with LT-SM8/LT-GR6b relevance",
+          "source_bridge": "conditional for source-required positive observed dynamics; absent for necessity of the held W2/K95/fullU/SE=-1/2 candidate",
+          "scope": "held candidate or explicit quotient/restriction class, not all GU or all class C",
+          "literalness": "computational lens is analogy; stated algebraic obligation is literal",
+          "confidence_meaning": "priority judgment, not probability of GU being false",
+          "id": "D10",
+          "lens": "Verifiable computation and proof-carrying evidence",
+          "title": "Statement-to-construction countercontrols for the next cheap test",
+          "test": "For D04 or D05, verify the exact formal identity and separately its native interpretation. Mutate the hidden seed to degree0, delete the SE vertex, use the wrong density row, and omit the matching divergence; each relevant control must expose the mistaken claim.",
+          "source_and_ledger": "SC-OP-04/05; LT-SM8; verification distinction",
+          "coverage_check": "Lean and exact probes already cover finite identities; they do not certify domains, source necessity or measure/PDE theorem assumptions. Use narrow tests on the new result only.",
+          "weakest_premise": "A formal certificate can prove the wrong construction if the row/vertex/domain is misidentified.",
+          "outcome_meaning": "Controls can disqualify a proposed proof or implementation. Passing them supports only the stated finite core.",
+          "remaining_cost": "Ready alongside chosen science test; cheap, no separate governance project.",
+          "confidence": 90,
+          "avoid": "Do not spend the next wave formalizing another elementary corollary while the decisive source bridge is absent."
+        }
+      ],
+      "top_three": [
+        {
+          "id": "D04",
+          "rank": 1,
+          "reason": "Cheap genuinely uncovered interaction-congruence discriminator, using existing source-typed independent fields and native current; candidate-only scope explicit."
+        },
+        {
+          "id": "D05",
+          "rank": 2,
+          "reason": "Closes actual weak-response cancellation; more costly, diagnostic until physical admission."
+        },
+        {
+          "id": "D01",
+          "rank": 3,
+          "reason": "For any supplied physical quotient, demands one compatible relation across sectors. Reuse D04 as its immediate test rather than starting another source search."
+        }
+      ],
+      "minority_retained": [
+        {
+          "id": "D06",
+          "reason": "Source maximal-compact shielding is closest to a source-intended escape, but a concrete source restriction is absent; do not substitute a naive module already excluded."
+        },
+        {
+          "id": "D09",
+          "reason": "Authenticated full covariance law could expose a genuine source-level inconsistency rapidly. Existing audit is closed; reactivation requires new source data."
+        }
+      ],
+      "fastest_source_falsification_assessment": "No ready source-level kill is evidenced by this panel. The fastest honest immediate progress is to test whether the remaining quotient escape is compatible with the candidate interactions, while preserving that candidate necessity is absent. A definitive GU-level exclusion needs a source-required physical relation; repeated audits cannot manufacture it.",
+      "do_now": [
+        "Re-use already completed source custody, equation-free and anomaly checks; no new audit credit.",
+        "Prove/test D04 on exact paired analytic germs and actual central current; distinguish bulk interaction descent from physical observables.",
+        "Prepare D05 with an exact matched scalar and fixed support, not an all-block inverse."
+      ],
+      "read_evidence": [
+        "AGENTS.md",
+        "CURRENT-STATE.yaml#program_focus",
+        "GEOMETER-VS-PHYSICS-OBJECTS.md",
+        "lab/methods/source-native-comparator-routing.md",
+        "lab/sources/source-claim-register.yaml",
+        "lab/process/conditional-physics-ledger-v0.263.json",
+        "lab/process/work-packets/source-required-class-tests-2026-11-24.md",
+        "lab/process/work-packets/ten-wave-source-falsification-2026-11-24.md",
+        "lab/process/work-packets/source-action-response-discriminators-2026-11-25.md",
+        "lab/process/source-action-opportunity-register-2026-11-25.json",
+        "explorations/conditional-build/source-action-covariant-jet-ambiguity-2026-11-26.md",
+        "explorations/conditional-build/source-action-graph-domain-2026-11-26.md",
+        "explorations/conditional-build/source-action-paired-response-2026-11-26.md"
+      ],
+      "panel_source_file": "distributed.json"
+    },
+    {
+      "panel": "networking_mmo_world_models",
+      "basis_revision": "f41721d2cd312df0ef5ccaeb0160ad126530eb79",
+      "method": "10 simulated specialist lenses from one panel agent; judgments are correlated and are not independent scientists or probabilities of GU truth.",
+      "lenses": [
+        {
+          "source_bridge": "conditional for testing held candidate; absent for GU necessity",
+          "target": "LB-CLASS",
+          "literalness": "The computational lens is an analogy; its named mathematical test is literal.",
+          "id": "N01",
+          "persona": "Causal-network and transport engineer",
+          "proposal": "Measure the actual observed response to an invisible bulk perturbation",
+          "source_claims": [
+            "SC-ACT-05",
+            "SC-OP-04"
+          ],
+          "ledger_rows": [
+            "LT-GR6b",
+            "LT-SM8"
+          ],
+          "class_covered": "Held W2/K95 paired linearized candidate at each kappa1 root; same inverse/domain on both sides",
+          "cheapest_test": "Evaluate one matched weak scalar response j_R-D†M^-1j_N on an already reached spin5 source, including div(j_NY), frame/density/lift terms and actual normal support.",
+          "coverage_check": "Pointwise current, first normal jet and the first95-dimensional source shell already computed; the final inverse-response cancellation is not.",
+          "weakest_unproved_link": "Physical admissible domain and quotient are unbuilt; old A01 certificates do not transfer to trace CK.",
+          "negative_result_kills": "An exact nonzero result excludes interaction-blindness of this receiver, not GU or physical ghost clearance.",
+          "survival_means": "Zero closes that specific channel only; all channels require a symmetry or spanning proof.",
+          "cost": "1 focused wave, possibly2 for indispensable block closure",
+          "confidence_judgment": 94,
+          "what_not_to_do": "Do not equate bulk negative energy or a nonzero vertex with a propagated observed runaway.",
+          "evidence": [
+            "explorations/conditional-build/source-action-paired-response-2026-11-26.md",
+            "lab/process/work-packets/source-action-response-discriminators-2026-11-25.md#5q.1"
+          ]
+        },
+        {
+          "source_bridge": "conditional for testing held candidate; absent for GU necessity",
+          "target": "LB-CLASS",
+          "literalness": "The computational lens is an analogy; its named mathematical test is literal.",
+          "id": "N02",
+          "persona": "MMO state-replication architect",
+          "proposal": "Test whether equal visible histories are interchangeable under interaction",
+          "source_claims": [
+            "SC-OP-04",
+            "SC-ACT-05"
+          ],
+          "ledger_rows": [
+            "LT-SM8",
+            "LT-GR6b"
+          ],
+          "class_covered": "Unrestricted local analytic column and independently solved row germs of held candidate",
+          "cheapest_test": "Use E000(f) and E000(f)+Ep2(f) with same observed history; hold the row fixed and test the true connection vertex. On trace hypersurface the difference is p2 eta VJf; a nonzero central coefficient gives a second normal jet.",
+          "coverage_check": "Whole-history invisible kernel already proved. Qualitative hidden-current concern exists; root now executes an explicit covariant seed/current witness.",
+          "weakest_unproved_link": "That current may cancel in the final observed response; the paired germs are not certified physical states.",
+          "negative_result_kills": "A nonzero raw current disproves descent of that current through literal-history equivalence on this class.",
+          "survival_means": "Current descent at this one vertex does not prove interaction descent generally.",
+          "cost": "Cheap exact vertex check, already included in root wave",
+          "confidence_judgment": 97,
+          "what_not_to_do": "Do not infer a physical server/client architecture or make a new state-restriction choice.",
+          "evidence": [
+            "explorations/conditional-build/source-action-covariant-jet-ambiguity-2026-11-26.md",
+            "explorations/conditional-build/source-action-engineering-wave-2026-11-25.md",
+            "explorations/conditional-build/source-action-physical-dynamics-2026-11-25.md"
+          ]
+        },
+        {
+          "source_bridge": "conditional for testing held candidate; absent for GU necessity",
+          "target": "LB-CLASS",
+          "literalness": "The computational lens is an analogy; its named mathematical test is literal.",
+          "id": "N03",
+          "persona": "Observability and state-estimation specialist",
+          "proposal": "Separate hidden-state identification from selecting allowed visible histories",
+          "source_claims": [
+            "SC-GEO-03",
+            "SC-OP-04"
+          ],
+          "ledger_rows": [
+            "LT-SM8"
+          ],
+          "class_covered": "Surjective observation q from analytic solution histories, with any surjective equivalence map pi satisfying q=qbar pi",
+          "cheapest_test": "Prove image(qbar)=image(q); use this to require a proposed completion to say whether it restricts admissible histories or merely identifies hidden representatives.",
+          "coverage_check": "CK already admits every analytic observed history; finite-jet uniqueness is already excluded. Root is doing the elementary quotient-image corollary.",
+          "weakest_unproved_link": "Source physical admission law remains absent; no quotient-only premise is source-required.",
+          "negative_result_kills": "Quotient-only identification cannot impose a proper visible history law while q is unchanged.",
+          "survival_means": "A source-restricted domain or changed physical observable remains possible.",
+          "cost": "Immediate algebraic corollary, already included",
+          "confidence_judgment": 99,
+          "what_not_to_do": "Do not launch another finite-jet calibration wave or call nonuniqueness alone nonpredictivity.",
+          "evidence": [
+            "explorations/conditional-build/source-action-slice-completion-2026-11-25.md",
+            "explorations/conditional-build/source-action-rotation-rigidity-2026-11-26.md"
+          ]
+        },
+        {
+          "source_bridge": "conditional for testing held candidate; absent for GU necessity",
+          "target": "LB-CLASS",
+          "literalness": "The computational lens is an analogy; its named mathematical test is literal.",
+          "id": "N04",
+          "persona": "Multiresolution streaming and sampling specialist",
+          "proposal": "Check actual interaction support before trusting a finite band",
+          "source_claims": [
+            "SC-OP-04",
+            "SC-ACT-05"
+          ],
+          "ledger_rows": [
+            "LT-SM8",
+            "LT-GR6b"
+          ],
+          "class_covered": "The existing held spectral/normal profiles, with no newly chosen cutoff",
+          "cheapest_test": "Write exact support of the chosen bilinear current and matched inverse response. Test whether its essential difference graph and normal-frequency content remain in the claimed diagnostic domain.",
+          "coverage_check": "Essential difference graph and absence of normal bandwidth bound already established. The uncovered step is closure under actual coupled response.",
+          "weakest_unproved_link": "No source chooses the finite band, and seed/domain covariance already fails for old A01.",
+          "negative_result_kills": "Failure rejects invariance of that fixed diagnostic band under coupling, not native GU.",
+          "survival_means": "A closed support set still needs positivity, covariance and domain estimates.",
+          "cost": "1 wave only if used in5q.1; otherwise retain",
+          "confidence_judgment": 89,
+          "what_not_to_do": "Do not treat a spatial sampling bandwidth as a normal-frequency cutoff or refit the cutoff after each failure.",
+          "evidence": [
+            "explorations/conditional-build/source-action-receiver-strategy-2026-11-26.md",
+            "explorations/conditional-build/source-action-paired-response-2026-11-26.md"
+          ]
+        },
+        {
+          "source_bridge": "conditional for testing held candidate; absent for GU necessity",
+          "target": "LB-CLASS",
+          "literalness": "The computational lens is an analogy; its named mathematical test is literal.",
+          "id": "N05",
+          "persona": "World-simulation integration engineer",
+          "proposal": "Audit shared-state compatibility of the existing sector certificates",
+          "source_claims": [
+            "SC-ACT-05",
+            "SC-OP-04",
+            "SC-META-53"
+          ],
+          "ledger_rows": [
+            "LT-GR1",
+            "LT-SM8",
+            "AC-F1"
+          ],
+          "class_covered": "Existing positive-matter, covariance, current and bosonic-energy constructions, with each domain retained explicitly",
+          "cheapest_test": "Produce a finite compatibility table keyed to action, background, injection, readout, real form, pairing and domain; require exact same entries before composing a physical conclusion.",
+          "coverage_check": "A01 is not Lorentz closed; trace CK is covariant but has no transferred positive physical pairing. These corrections are already known; their handoff must remain explicit.",
+          "weakest_unproved_link": "No one common admitted interacting physical object is presently certified.",
+          "negative_result_kills": "A mismatch invalidates a proposed composite claim, not its separately valid certificates.",
+          "survival_means": "Matching interfaces is necessary but not sufficient for a common physical solution.",
+          "cost": "Cheap reuse, include as packet premise not new process",
+          "confidence_judgment": 95,
+          "what_not_to_do": "Do not create a new governance gate or announce matter positivity and covariance as jointly achieved.",
+          "evidence": [
+            "explorations/conditional-build/source-action-paired-response-2026-11-26.md",
+            "explorations/conditional-build/source-action-rotation-rigidity-2026-11-26.md"
+          ]
+        },
+        {
+          "source_bridge": "conditional for testing held candidate; absent for GU necessity",
+          "target": "LB-CLASS",
+          "literalness": "The computational lens is an analogy; its named mathematical test is literal.",
+          "id": "N06",
+          "persona": "Boundary-driven world-model specialist",
+          "proposal": "Test a supplied boundary law as an admission rule, not as mere data storage",
+          "source_claims": [
+            "SC-META-52",
+            "SC-GEO-03"
+          ],
+          "ledger_rows": [
+            "LT-SM8",
+            "LT-GR6b"
+          ],
+          "class_covered": "A source-cited boundary/end relation, if one is actually provided",
+          "cheapest_test": "Translate the supplied relation into a closed admissible history domain and test q-image plus propagation. Reuse existing failure of the old flat Bott boundary at both roots.",
+          "coverage_check": "META52 is UNCERTAIN and full source custody is complete. There is no supplied new boundary law to test today.",
+          "weakest_unproved_link": "Exact boundary relation, ends and analytic domain are missing.",
+          "negative_result_kills": "Failure would close the supplied law on its named realization.",
+          "survival_means": "A compatible boundary law is not automatically causal, positive or source-unique.",
+          "cost": "Blocked on an exact new relation, no repeat audit",
+          "confidence_judgment": 85,
+          "what_not_to_do": "Do not invent boundary conditions to rescue the candidate or rescan the unchanged source corpus.",
+          "evidence": [
+            "explorations/conditional-build/source-premise-custody-2026-11-25.md",
+            "explorations/conditional-build/source-action-steelman-datum-2026-11-26.md"
+          ]
+        },
+        {
+          "source_bridge": "conditional for testing held candidate; absent for GU necessity",
+          "target": "LB-CLASS",
+          "literalness": "The computational lens is an analogy; its named mathematical test is literal.",
+          "id": "N07",
+          "persona": "Data-assimilation and inverse-problem scientist",
+          "proposal": "Determine whether existing source observations constrain a law or only reconstruct a history",
+          "source_claims": [
+            "SC-CHI-52",
+            "SC-CHI-01"
+          ],
+          "ledger_rows": [
+            "AC-F1",
+            "RA-D4"
+          ],
+          "class_covered": "Only already declared observed response and source curvature/VEV relations",
+          "cheapest_test": "Name a source-required relation between observed curvature and a mixing response, then test its zero-curvature behavior without choosing a new fit function.",
+          "coverage_check": "Generic mixing and nonparallel sectors were already tested; a fixed-h numerical sweep is not the source low-curvature limit. Root now audits the parameter identities.",
+          "weakest_unproved_link": "The source scalar curvature owner and actual observable/mass response need a typed bridge.",
+          "negative_result_kills": "Failure can refute the specified response law only if source necessity and regime are established.",
+          "survival_means": "Fitting arbitrary histories or varying a free function earns no prediction.",
+          "cost": "Cheap parameter-owner audit now; calculation conditional thereafter",
+          "confidence_judgment": 90,
+          "what_not_to_do": "Do not treat successful reconstruction of observations as a prediction or infer low curvature from h alone.",
+          "evidence": [
+            "explorations/conditional-build/source-action-dynamics-and-continuation-2026-11-25.md",
+            "lab/sources/source-claim-register.yaml#SC-CHI-52"
+          ]
+        },
+        {
+          "source_bridge": "conditional for testing held candidate; absent for GU necessity",
+          "target": "LB-CLASS",
+          "literalness": "The computational lens is an analogy; its named mathematical test is literal.",
+          "id": "N08",
+          "persona": "Inverse-rendering and latent-scene researcher",
+          "proposal": "Find an interaction-sensitive observable that separates invisible bulk representatives",
+          "source_claims": [
+            "SC-ACT-05",
+            "SC-OP-04"
+          ],
+          "ledger_rows": [
+            "LT-GR6b"
+          ],
+          "class_covered": "Existing candidate current and the literal observation kernel; retained observables only",
+          "cheapest_test": "After root current witness, test its image under the actual fixed weak receiver. Seek the cheapest nonzero separating observable, rather than full bulk reconstruction.",
+          "coverage_check": "Finite section data cannot reconstruct the bulk, already proved. This does not imply the physically retained observable algebra needs all bulk data.",
+          "weakest_unproved_link": "The actual receiver may annihilate the current, and physical observable selection remains open.",
+          "negative_result_kills": "A nonzero separating observable refutes equivalence by literal q for that observable set.",
+          "survival_means": "No separating value found in one receiver does not prove universal equivalence.",
+          "cost": "Shares5q.1 computation; no separate wave",
+          "confidence_judgment": 93,
+          "what_not_to_do": "Do not demand reconstructing the entire bulk when only a retained observable is needed.",
+          "evidence": [
+            "explorations/conditional-build/source-action-covariant-jet-ambiguity-2026-11-26.md",
+            "explorations/conditional-build/source-action-paired-response-2026-11-26.md"
+          ]
+        },
+        {
+          "source_bridge": "conditional for testing held candidate; absent for GU necessity",
+          "target": "LB-CLASS",
+          "literalness": "The computational lens is an analogy; its named mathematical test is literal.",
+          "id": "N09",
+          "persona": "Rollback-consistency and dynamical-bisimulation specialist",
+          "proposal": "Test equivalence under evolution and coupling, not just at one snapshot",
+          "source_claims": [
+            "SC-ACT-05",
+            "SC-OP-04"
+          ],
+          "ledger_rows": [
+            "LT-SM8",
+            "LT-GR6b"
+          ],
+          "class_covered": "A specifically proposed source-supported physical equivalence on coupled states",
+          "cheapest_test": "For a supplied relation, test preservation by the coupled equations and invariance of retained current/observables; use known finite-jet counterexamples as tests, not as a new theorem.",
+          "coverage_check": "Instantaneous literal q equivalence fails autonomous evolution on unrestricted germs; whole-history equality still has hidden current distinctions.",
+          "weakest_unproved_link": "No source-defined physical equivalence or full propagated admissibility has been supplied.",
+          "negative_result_kills": "Failure rejects that relation as an interaction-compatible physical quotient.",
+          "survival_means": "Passing a linearized test does not prove nonlinear or quantum consistency.",
+          "cost": "Bounded test when relation supplied; root current test is immediate proxy",
+          "confidence_judgment": 92,
+          "what_not_to_do": "Do not relabel a Green radical or equal snapshot as BRST gauge.",
+          "evidence": [
+            "explorations/conditional-build/source-action-dynamics-and-continuation-2026-11-25.md",
+            "explorations/conditional-build/source-action-physical-dynamics-2026-11-25.md"
+          ]
+        },
+        {
+          "source_bridge": "conditional for testing held candidate; absent for GU necessity",
+          "target": "LB-CLASS",
+          "literalness": "The computational lens is an analogy; its named mathematical test is literal.",
+          "id": "N10",
+          "persona": "Open-world coupling and co-simulation specialist",
+          "proposal": "Use an exact residual budget for observed closure",
+          "source_claims": [
+            "SC-ACT-05",
+            "SC-CHI-52"
+          ],
+          "ledger_rows": [
+            "LT-GR6b",
+            "LT-SM8"
+          ],
+          "class_covered": "Fixed candidate system/environment split with existing literal observation and actual coupled residual",
+          "cheapest_test": "Express the retained observed equation as resolved contribution plus hidden forcing; check whether any already-owned symmetry makes the hidden forcing vanish or bounds it in an actually identified regime.",
+          "coverage_check": "Memory/nonautonomy and polynomial hidden freedom already known. No automatic Markovian limit or source low-curvature suppression was established.",
+          "weakest_unproved_link": "Uniform estimate on the actual domain and a source-defined small parameter are absent.",
+          "negative_result_kills": "Nonzero hidden forcing rejects exact closed observed dynamics on that unrestricted split.",
+          "survival_means": "Effective closure requires a quantitative bound, not merely pointwise smallness.",
+          "cost": "Shares matched-response and curvature audit; no independent construction",
+          "confidence_judgment": 88,
+          "what_not_to_do": "Do not import a heat bath, stochastic measure, time-scale separation or Markov approximation as free new physics.",
+          "evidence": [
+            "explorations/conditional-build/source-action-slice-completion-2026-11-25.md",
+            "explorations/conditional-build/source-action-receiver-strategy-2026-11-26.md"
+          ]
+        }
+      ],
+      "top_three": [
+        {
+          "id": "N02",
+          "why": "Cheapest concrete interaction/descent discriminator; root is completing it now."
+        },
+        {
+          "id": "N01",
+          "why": "Best uncovered executable successor: actual matched observed response may preserve or erase the hidden-current distinction."
+        },
+        {
+          "id": "N07",
+          "why": "Stops a wrong-regime decoupling test and names the source bridge needed for a stronger claim."
+        }
+      ],
+      "minority_preserve": [
+        {
+          "id": "N04",
+          "why": "Interaction support closure can fail even when individual modes are admitted. Integrate into5q.1 rather than create a separate support project."
+        },
+        {
+          "id": "N09",
+          "why": "Bisimulation gives the exact notion a future physical equivalence must satisfy, but no new quotient may be invented."
+        }
+      ],
+      "coverage_corrections": [
+        "Do not repeat completed broad source-custody, anomaly no-target or equation-free source checks.",
+        "Do not repair the excluded A01 seed by mass-shell or Gram tuning.",
+        "Do not infer GU failure from pointwise current, candidate underdetermination or a missing source equation.",
+        "No MMO/server, networking, or simulation ontology is established; those are explanatory analogies only."
+      ],
+      "proposed_next_runs": [
+        "Complete matched weak inverse response5q.1 with actual reached spin5 and essential support.",
+        "If source relation is supplied, test physical admissibility and interaction congruence on one common object; otherwise keep this input explicitly missing and continue executable diagnostics.",
+        "Run only a curvature-typed source decoupling discriminator after naming the source scalar and response map; no h-as-curvature substitution."
+      ],
+      "claim_effect": "No native edit, source/canon/physics verdict, choice family or governance change.",
+      "panel_source_file": "network.json"
+    },
+    {
+      "panel": "AI and advanced computer science",
+      "basis_revision": "f41721d2cd312df0ef5ccaeb0160ad126530eb79",
+      "method": "Ten simulated specialist lenses synthesized by one panel agent; not ten independent scientists. Confidence ranks scoped usefulness, not truth or falsity of GU.",
+      "personas": [
+        {
+          "id": "A01",
+          "persona": "Causal inference and interventions",
+          "proposal": "Separate which input actually varies: build the curvature intervention tuple before interpreting any kappa response as the SC-CHI-52 limit.",
+          "source_claims": [
+            "SC-CHI-52",
+            "SC-CHI-51"
+          ],
+          "ledger_rows": [
+            "AC-F1",
+            "RA-D4"
+          ],
+          "coverage_check": "Source-premise-custody already names the missing scalar owner; root now fixes RX=0, RY=-10 and h=1/kappa. This is a consumed map, not a new source audit.",
+          "source_bridge": "conditional",
+          "class_scope": "An admitted source equation/background family with a named scalar and observed mixing response.",
+          "weakest_unproved_link": "No equality of the improved-Einstein scalar with RX, RY or coupling h is authenticated.",
+          "cost": "Mapping is done this wave; a genuine limit test activates only with the missing tuple.",
+          "confidence": 92,
+          "confidence_meaning": "Judgment that the scoped test is worth doing; not probability GU is false.",
+          "literalness": "Literal intervention/parameter identifiability; no statistical causal model is imported.",
+          "negative_result_kills": "An asserted parameter-to-curvature identification inconsistent with its declared equations, not source decoupling.",
+          "survivor_meaning": "An owned intervention permits testing whether the observed mixing tends to zero.",
+          "do_not_do": "Do not call large kappa low curvature or infer source failure from fixed RY=-10."
+        },
+        {
+          "id": "A02",
+          "persona": "System identification and input-output realization",
+          "proposal": "Evaluate one complete weak input-output response for the invisible-history current rather than reconstruct all auxiliary state.",
+          "source_claims": [
+            "SC-OP-04",
+            "SC-ACT-05"
+          ],
+          "ledger_rows": [
+            "LT-SM8",
+            "LT-GR1"
+          ],
+          "coverage_check": "The adjoint scalar method and singular-kernel controls already exist in receiver-strategy section5. The native reached-spin5 matched scalar in5q.1 remains open. Root current witness is input only.",
+          "source_bridge": "absent for candidate necessity",
+          "class_scope": "Held W2/K95 candidate, same row/column pair, normal profile, moving lift and full current on actual constrained inverse response.",
+          "weakest_unproved_link": "Physical admissibility and source selection of candidate; also full residual/support matching.",
+          "cost": "One focused response run; no all-block inverse campaign.",
+          "confidence": 95,
+          "confidence_meaning": "Judgment that the scoped test is worth doing; not probability GU is false.",
+          "literalness": "Literal linear input-output mathematics.",
+          "negative_result_kills": "A specified cancellation/interaction-insensitivity hypothesis if the exact weak scalar is nonzero; not GU or a physical ghost.",
+          "survivor_meaning": "A zero scalar retains only that channel; invariant all-channel annihilation is a separate theorem.",
+          "do_not_do": "Do not substitute current nonzero or negative energy for forced physical response."
+        },
+        {
+          "id": "A03",
+          "persona": "Abstraction and refinement verification",
+          "proposal": "Test whether the proposed observation abstraction is a congruence for the interaction it claims to preserve.",
+          "source_claims": [
+            "SC-GEO-03",
+            "SC-OP-04",
+            "SC-ACT-05"
+          ],
+          "ledger_rows": [
+            "LT-SM8",
+            "AC-F1"
+          ],
+          "coverage_check": "Root has now supplied the actual covariant p2 all-history-invisible current witness. Earlier qualitative hidden-current non-descent is already owned. The remaining question is weak observed-response descent.",
+          "source_bridge": "conditional",
+          "class_scope": "Observation-preserving equivalences on unrestricted analytic paired candidate germs; then a separately supplied restricted physical state space.",
+          "weakest_unproved_link": "Bulk current is not automatically a physical observable; a quotient may discard it legitimately.",
+          "cost": "Cheap algebra done; response congruence uses5q.1.",
+          "confidence": 94,
+          "confidence_meaning": "Judgment that the scoped test is worth doing; not probability GU is false.",
+          "literalness": "Literal quotient/factorization; program abstraction is an analogy for the same commuting diagram.",
+          "negative_result_kills": "Only an assertion that unchanged literal history determines this full bulk current.",
+          "survivor_meaning": "A restricted/changed observable quotient must be tested with its own equivalence and admission relation.",
+          "do_not_do": "Do not label every invisible bulk degree physical or insist all bulk currents be observable."
+        },
+        {
+          "id": "A04",
+          "persona": "Formal methods and counterexample-guided refinement",
+          "proposal": "Produce the smallest explicit failed commuting diagram, and attach every indispensable premise to the witness.",
+          "source_claims": [
+            "SC-OP-04",
+            "SC-META-53"
+          ],
+          "ledger_rows": [
+            "LT-SM8"
+          ],
+          "coverage_check": "A01 covariance failure, finite-jet ambiguity and raw current witness already have counterexamples. Reuse them to test any proposed physical restriction rather than restarting broad classification.",
+          "source_bridge": "conditional",
+          "class_scope": "A specified candidate restriction/equivalence map on the existing solution space.",
+          "weakest_unproved_link": "The source has not selected that restriction.",
+          "cost": "Finite admission/closure tests once a concrete map is supplied.",
+          "confidence": 88,
+          "confidence_meaning": "Judgment that the scoped test is worth doing; not probability GU is false.",
+          "literalness": "Literal verification of a claimed implication; no automatic theorem discovery claim.",
+          "negative_result_kills": "A concrete repair whose admitted states include the witness while promising the contradicted property.",
+          "survivor_meaning": "Excluding a witness does not prove the repair preserves covariance, interaction and positivity simultaneously.",
+          "do_not_do": "Do not invent a chain of new repairs or treat proof-assistant checking as validation of the source statement."
+        },
+        {
+          "id": "A05",
+          "persona": "Active experimental design",
+          "proposal": "Choose the next current/receiver pair by separating the live cancellation hypotheses, not by producing another nonzero coefficient.",
+          "source_claims": [
+            "SC-ACT-05",
+            "SC-OP-04"
+          ],
+          "ledger_rows": [
+            "LT-GR1",
+            "LT-SM8"
+          ],
+          "coverage_check": "Whole reached-module annihilation is already excluded;95 dimensions are first common-family shell, not a completed closure. The unresolved alternatives concern the matched scalar, so target their difference.",
+          "source_bridge": "absent for candidate necessity",
+          "class_scope": "Existing source/current support and certified root intervals of the held candidate.",
+          "weakest_unproved_link": "An exact discriminator between scalar cancellation, kernel ambiguity and nonzero response must use full residuals.",
+          "cost": "Reuse available blocks and select one scalar goal; adaptive refinement only for its residual.",
+          "confidence": 91,
+          "confidence_meaning": "Judgment that the scoped test is worth doing; not probability GU is false.",
+          "literalness": "Literal choice of mathematical discriminating queries; probabilistic information-gain scores are not evidence.",
+          "negative_result_kills": "The named cancellation alternative, only when certified at both roots and fixed support.",
+          "survivor_meaning": "An inconclusive bound identifies the next necessary coefficient, not a null.",
+          "do_not_do": "Do not spend on easy modes all alternatives already predict identically."
+        },
+        {
+          "id": "A06",
+          "persona": "Neural operators and residual-certified model reduction",
+          "proposal": "Use a reduced basis only to propose an adjoint response, then certify the full native residual and goal error exactly.",
+          "source_claims": [
+            "SC-OP-04",
+            "SC-ACT-05"
+          ],
+          "ledger_rows": [
+            "LT-SM8"
+          ],
+          "coverage_check": "Receiver-strategy already authorizes adjoint scalar goals; paired-response demonstrates leakage beyond the two-source span. No neural surrogate or95-dimensional truncation is a certificate.",
+          "source_bridge": "absent for source necessity",
+          "class_scope": "Actual fixed candidate linear solve on declared closed domain or finite pointwise block with an explicit full-residual bound.",
+          "weakest_unproved_link": "Bounded inverse/range constants and domain transfer if a differential rather than algebraic solve is used.",
+          "cost": "Optional computational acceleration inside5q.1; not a new science lane.",
+          "confidence": 80,
+          "confidence_meaning": "Judgment that the scoped test is worth doing; not probability GU is false.",
+          "literalness": "Literal residual certification; neural-network approximation is optional and supplies no physical structure.",
+          "negative_result_kills": "A numerical zero claim whose certified error excludes zero or whose omitted residual is nonzero.",
+          "survivor_meaning": "Certified enclosure containing zero is inconclusive.",
+          "do_not_do": "Do not train a surrogate action, fit free functions or call a truncated solve the full operator."
+        },
+        {
+          "id": "A07",
+          "persona": "Representation learning and sufficient representations",
+          "proposal": "Ask separately whether an encoding is lossless for bulk reconstruction and sufficient for a chosen physical observable.",
+          "source_claims": [
+            "SC-GEO-03",
+            "SC-CHI-04"
+          ],
+          "ledger_rows": [
+            "AC-F1",
+            "LT-SM8"
+          ],
+          "coverage_check": "Finite-normal-jet bulk uniqueness is already excluded; pure observation-preserving quotient preserves the visible image. These do not exclude useful predictive quotients or restricted states.",
+          "source_bridge": "conditional",
+          "class_scope": "Specified observable algebra and candidate admissible solution category.",
+          "weakest_unproved_link": "Source selection of observable algebra and admission rule.",
+          "cost": "Reuse completed finite-jet result; test only a new observable factorization.",
+          "confidence": 89,
+          "confidence_meaning": "Judgment that the scoped test is worth doing; not probability GU is false.",
+          "literalness": "Literal sufficient-statistic factorization; learned embeddings are not introduced.",
+          "negative_result_kills": "Only sufficiency for the named observable when two equivalent states produce different values.",
+          "survivor_meaning": "Reconstruction failure can coexist with observable sufficiency.",
+          "do_not_do": "Do not equate hidden-state nonidentifiability with nonpredictivity of all physics."
+        },
+        {
+          "id": "A08",
+          "persona": "Mechanistic interpretability and sensitivity analysis",
+          "proposal": "Trace the source response through every actual derivative and adjoint term to distinguish genuine cancellation from a dropped path.",
+          "source_claims": [
+            "SC-ACT-05",
+            "SC-OP-04"
+          ],
+          "ledger_rows": [
+            "LT-GR1",
+            "LT-SM8"
+          ],
+          "coverage_check": "Existing5q.1 names div(j_N Y), moving lift, density and frame terms. Source reciprocity from differentiating one chosen action twice was already retired as tautological.",
+          "source_bridge": "absent for candidate necessity",
+          "class_scope": "Actual matched current-response functional of the held candidate.",
+          "weakest_unproved_link": "Completeness of the response derivative and common support, not visual circuit structure.",
+          "cost": "One symbolic term ledger internal to the response calculation, with wrong-term mutation controls.",
+          "confidence": 93,
+          "confidence_meaning": "Judgment that the scoped test is worth doing; not probability GU is false.",
+          "literalness": "Literal chain rule and differential-adjoint bookkeeping; interpretability language is analogy.",
+          "negative_result_kills": "A claimed cancellation caused by omitting a nonzero term.",
+          "survivor_meaning": "Cancellation after all terms remains a valid scoped result.",
+          "do_not_do": "Do not create another generic governance checklist or repeat a tautological mixed-derivative equality."
+        },
+        {
+          "id": "A09",
+          "persona": "Computability and algorithmic complexity",
+          "proposal": "Exploit the specific scalar goal to decide which parts of a singular auxiliary solve are irrelevant, using range/kernel duality.",
+          "source_claims": [
+            "SC-ACT-05"
+          ],
+          "ledger_rows": [
+            "LT-SM8",
+            "LT-GR1"
+          ],
+          "coverage_check": "The scalar adjoint/singular-kernel theorem is already proved in receiver-strategy section5. Execute its full native residual rather than prove the finite theorem again.",
+          "source_bridge": "absent for candidate necessity",
+          "class_scope": "Finite auxiliary M with declared pairing, or differential analogue only with domains/range/boundary hypotheses.",
+          "weakest_unproved_link": "Functional uniqueness on ker M and solvability; global invertibility is stronger than needed for some goals.",
+          "cost": "One adjoint solve on reached blocks with full residual; can avoid full inverse if conditions hold.",
+          "confidence": 90,
+          "confidence_meaning": "Judgment that the scoped test is worth doing; not probability GU is false.",
+          "literalness": "Literal algebraic complexity reduction.",
+          "negative_result_kills": "An unsupported unique scalar when its functional does not annihilate ker M.",
+          "survivor_meaning": "A well-defined scalar may survive even when the full inverse does not exist.",
+          "do_not_do": "Do not demand full M invertibility merely to calculate one certified functional; do not ignore domain terms."
+        },
+        {
+          "id": "A10",
+          "persona": "Robust optimization and uncertainty certification",
+          "proposal": "Certify the selected response uniformly across the already-admitted root boxes and pairing uncertainty, without optimizing over new completion choices.",
+          "source_claims": [
+            "SC-OP-04",
+            "SC-META-53"
+          ],
+          "ledger_rows": [
+            "LT-SM8",
+            "LT-GR1"
+          ],
+          "coverage_check": "Both-root exact/interval current and admitted-Gram controls already exist. Their transfer to a new covariant domain is absent. Apply robust bounds only to the matching held diagnostic data.",
+          "source_bridge": "absent for candidate necessity",
+          "class_scope": "The already fixed two kappa1 roots, prescribed support and declared Gram uncertainty of the candidate diagnostic.",
+          "weakest_unproved_link": "Admitted uncertainty must correspond to the same construction; bounds on oldA01 do not validate trace seed positivity.",
+          "cost": "One certificate extension after response calculation.",
+          "confidence": 86,
+          "confidence_meaning": "Judgment that the scoped test is worth doing; not probability GU is false.",
+          "literalness": "Literal interval/robust linear algebra.",
+          "negative_result_kills": "A response-zero hypothesis throughout that declared box if a nonzero lower bound is proved.",
+          "survivor_meaning": "A bound touching zero is undecided; a survivor is not source-selected physics.",
+          "do_not_do": "Do not tune the Gram, dispersion or domain until the desired sign appears."
+        }
+      ],
+      "top_three": [
+        {
+          "rank": 1,
+          "id": "A02",
+          "proposal": "Execute the matched weak inverse-response scalar using the already-owned goal-oriented adjoint method.",
+          "why": "The strongest ready uncovered discriminator. It settles actual cancellation rather than adding another completion."
+        },
+        {
+          "rank": 2,
+          "id": "A03",
+          "proposal": "Carry the new hidden-current witness through the proposed physical/observable equivalence.",
+          "why": "Separates harmless unobservable state redundancy from interaction-relevant hidden data. Raw-current subtest is consumed this wave; weak response is next."
+        },
+        {
+          "rank": 3,
+          "id": "A01",
+          "proposal": "Preserve the curvature intervention map and require the exact source tuple before a low-curvature decoupling verdict.",
+          "why": "Highest source-facing leverage, but not presently an executable full-source test; the bounded mapping is consumed, not a repeated prerequisite."
+        }
+      ],
+      "minority_retained": [
+        {
+          "id": "A09",
+          "idea": "Scalar well-definedness without full auxiliary invertibility",
+          "activation": "Apply existing adjoint/range theorem to the actual native residual and domain; no reproof of the old theorem."
+        },
+        {
+          "id": "A07",
+          "idea": "Observable sufficiency rather than bulk reconstructibility",
+          "activation": "A specified observable and source-supported admission/equivalence relation."
+        }
+      ],
+      "coverage_corrections": [
+        "No new equation-free, anomaly or general source-custody audit is justified by this panel.",
+        "W175 native gap remains withdrawn.",
+        "A01 positivity and covariant trace-seed history lifting are different constructions.",
+        "The low-curvature parameter map is RX=0, RY=-10, h=1/kappa and varying connection curvature; no source scalar identity follows.",
+        "The adjoint scalar, singular kernel and full-residual technique is already owned; executing it is new work, restating it is not."
+      ],
+      "source_falsification_assessment": "No unconditional GU falsifier identified. Candidate weak response is the best ready discriminator; the physical-domain and source-necessity bridges remain separate. A source-required low-curvature observable tuple would activate a more direct source test.",
+      "read_evidence": [
+        "AGENTS.md",
+        "CURRENT-STATE.yaml#program_focus",
+        "GEOMETER-VS-PHYSICS-OBJECTS.md",
+        "lab/methods/source-native-comparator-routing.md",
+        "lab/sources/source-claim-register.yaml",
+        "lab/process/conditional-physics-ledger-v0.263.json",
+        "lab/process/source-action-opportunity-register-2026-11-25.json",
+        "lab/process/work-packets/source-action-response-discriminators-2026-11-25.md",
+        "explorations/conditional-build/source-action-receiver-strategy-2026-11-26.md",
+        "explorations/conditional-build/source-action-paired-response-2026-11-26.md",
+        "explorations/conditional-build/source-premise-custody-2026-11-25.md"
+      ],
+      "panel_source_file": "ai.json"
+    },
+    {
+      "panel": "Physics",
+      "basis_revision": "f41721d2cd312df0ef5ccaeb0160ad126530eb79",
+      "method": "Ten simulated specialist lenses generated by one panel agent; not ten independent scientists. Confidence measures judgment of worthwhile work, not truth probability.",
+      "common_inputs": {
+        "source_register": "lab/sources/source-claim-register.yaml",
+        "routing": "GEOMETER-VS-PHYSICS-OBJECTS.md",
+        "packet": "lab/process/work-packets/source-action-response-discriminators-2026-11-25.md",
+        "source_audit": "explorations/conditional-build/source-premise-custody-2026-11-25.md"
+      },
+      "lenses": [
+        {
+          "id": "PH01",
+          "persona": "Gauge theory and BRST physicist",
+          "proposal": "Resolve whether source observation supplies an admissible-history restriction, physical equivalence relation, or neither",
+          "source_claims": [
+            "SC-OP-04",
+            "SC-META-52",
+            "SC-META-53"
+          ],
+          "ledger_targets": [
+            "LT-SM8",
+            "LT-GR6b"
+          ],
+          "scope": "Source statements and their exact logical type; afterwards only a supplied native quotient",
+          "source_bridge": "conditional",
+          "weakest_premise": "No physical Q/domain/action on independent bars and observed readout has been supplied as a completed object.",
+          "existing_coverage": "General two-sided field/density/reference audit already complete; intrinsic ordinary gauge and negative-witness gauge tests already done. New question concerns selection or identification of the explicit covariant history ambiguity.",
+          "cheapest_test": "Map each cited source clause to domain condition, equivalence relation, or acknowledged missing input; check if any actually rejects one of the two already-built same-observation analytic representatives.",
+          "negative_result_kills": "A claimed source selection mechanism if its specified relation demonstrably fails; absence alone kills no GU claim.",
+          "survivor_means": "A concrete relation permits a preservation/readout/positivity test; otherwise prerequisite is closed as an exact missing datum.",
+          "remaining_cost": "Cheap bounded source/interface audit; full quotient construction is not authorized here.",
+          "confidence_priority_judgment": 96,
+          "literalness": "literal mathematical or physical diagnostic; no analogy used as evidence",
+          "do_not_do": "Do not construct BRST from the name of the gauge group, turn ker(observation) into gauge by definition, or repeat the completed general-law audit.",
+          "rank": 1
+        },
+        {
+          "id": "PH02",
+          "persona": "Chiral gauge representation physicist",
+          "proposal": "Audit what a surviving restriction must preserve of the native 2+1 luminous/dark branching",
+          "source_claims": [
+            "SC-GEN-01",
+            "SC-GEN-03",
+            "SC-GEN-50",
+            "SC-CHI-03",
+            "SC-CHI-04"
+          ],
+          "ledger_targets": [
+            "AC-F1",
+            "RA-F1",
+            "RA-F3"
+          ],
+          "scope": "Already-owned observation decomposition plus a supplied restriction; no ordinary three-family index substitution",
+          "source_bridge": "conditional",
+          "weakest_premise": "Restriction must act on the source-native correlated observed representation, not just an arbitrary half of an ambient Dirac module.",
+          "existing_coverage": "SC-GEN51/56, SC-CHI04 and gamma-trace landing are covered; ambient zero/horizontal nonzero grading and six-spinor family exclusions are covered.",
+          "cheapest_test": "Extract the exact invariant maps any proposed physical restriction must intertwine; reuse existing branching and compare a new supplied map rather than recomputing characters.",
+          "negative_result_kills": "The specific proposed restriction if it destroys the observed weak representation or confuses gamma-trace with gamma-traceless.",
+          "survivor_means": "It is representation-compatible only; no integer generation count follows.",
+          "remaining_cost": "Short map/interface audit now; actual restriction test conditional on PH01 input.",
+          "confidence_priority_judgment": 91,
+          "literalness": "literal mathematical or physical diagnostic; no analogy used as evidence",
+          "do_not_do": "Do not rerun representation dimensions, ordinary family indices or label matching as fresh falsification.",
+          "rank": 4
+        },
+        {
+          "id": "PH03",
+          "persona": "Anomalies and topological QFT physicist",
+          "proposal": "Close anomaly reopening on the exact new-input predicate and spend present effort elsewhere",
+          "source_claims": [
+            "SC-CHI-01",
+            "SC-CHI-50",
+            "SC-GEN-06",
+            "SC-META-53"
+          ],
+          "ledger_targets": [
+            "AC-F1",
+            "AC-F3"
+          ],
+          "scope": "Source-asserted TOTAL symmetry, allowed bundles and observed spectrum",
+          "source_bridge": "conditional",
+          "weakest_premise": "No presently source-asserted symmetry has a demonstrated nonzero observed anomaly residue.",
+          "existing_coverage": "Nov24 source-symmetry-matching-scope already answered this; ordinary Z/16 or family-number arithmetic would repeat the rejected comparator route.",
+          "cheapest_test": "Cross-check that no subsequent accepted source claim supplies the missing global symmetry/background spectrum tuple; preserve exact reopening input.",
+          "negative_result_kills": "Only a proposed anomaly target without authenticated source symmetry; this is a priority exclusion, not a GU result.",
+          "survivor_means": "A genuinely new tuple would activate anomaly matching; none found in inspected current source register.",
+          "remaining_cost": "Minutes, no new anomaly calculation.",
+          "confidence_priority_judgment": 95,
+          "literalness": "literal mathematical or physical diagnostic; no analogy used as evidence",
+          "do_not_do": "Do not add Z4, Spin(10), B-L or nu_R assumptions merely to obtain a nonzero anomaly.",
+          "rank": 8
+        },
+        {
+          "id": "PH04",
+          "persona": "Gravity and constrained Hamiltonian physicist",
+          "proposal": "Take the next nonzero matched inverse response toward an admitted constrained characteristic quotient",
+          "source_claims": [
+            "SC-ACT-05",
+            "SC-META-53"
+          ],
+          "ledger_targets": [
+            "LT-GR1",
+            "LT-GR6b",
+            "LT-SM8"
+          ],
+          "scope": "Held W2/K95/SE=-1/2 candidate at both exact kappa1 roots, not C or source-selected dynamics",
+          "source_bridge": "absent",
+          "weakest_premise": "A source-typed physical domain/quotient and admissible propagation are absent.",
+          "existing_coverage": "Constraint elimination and both energy signs, local-gauge and conformal-mode steelmen are already completed. High-spin receiver current alone is not forced negative energy.",
+          "cheapest_test": "Evaluate one scalar of j_R-D†M^-1j_N on reached spin5 with matched divergence, density, moving lift and actual normal support; test both roots with a controlled exact witness.",
+          "negative_result_kills": "A specific cancellation/shielding mechanism if the full scalar is nonzero; not physical stability or GU.",
+          "survivor_means": "Zero is a genuine constrained cancellation to characterize; nonzero is an input for a propagation/physical quotient test.",
+          "remaining_cost": "One focused wave, provided indispensable inverse closure can be bounded; no blanket descent through all47250 remaining constraints.",
+          "confidence_priority_judgment": 83,
+          "literalness": "literal mathematical or physical diagnostic; no analogy used as evidence",
+          "do_not_do": "Do not call an instantaneous negative Hessian direction a ghost or solve the entire matrix for bookkeeping.",
+          "rank": 3
+        },
+        {
+          "id": "PH05",
+          "persona": "Higher-derivative and PT/Krein physicist",
+          "proposal": "Test coupled PT preservation only after supplying the same admissible domain used by the receiver",
+          "source_claims": [
+            "SC-META-52",
+            "SC-META-53"
+          ],
+          "ledger_targets": [
+            "LT-SM8",
+            "LT-GR6b"
+          ],
+          "scope": "Coupled candidate operator, independent rows, actual physical time and a specified domain",
+          "source_bridge": "conditional",
+          "weakest_premise": "PT of a selected linear matter graph does not establish a positive bosonic or nonlinear coupled domain.",
+          "existing_coverage": "Pure quaternionic conjugation reverses charge; full PT already preserves the old A01 positive graph for every dispersion. That graph now fails Lorentz covariance, so its positivity does not transfer to trace-seed germs.",
+          "cheapest_test": "Make a three-column preservation table for equations, paired domain and physical positive form, checking current old-graph certificates do not appear as physical evidence after the covariance exclusion.",
+          "negative_result_kills": "An attempted transfer of the old A01 certificate; not every unbounded PT norm or source theory.",
+          "survivor_means": "Only a newly source-supported domain permits a genuinely new coupled PT test.",
+          "remaining_cost": "Cheap custody check now; full spectral/domain work conditional.",
+          "confidence_priority_judgment": 88,
+          "literalness": "literal mathematical or physical diagnostic; no analogy used as evidence",
+          "do_not_do": "Do not repeat PT square laws or treat antilinear commutation with a real-time generator as identical to commutation with i times that generator.",
+          "rank": 6
+        },
+        {
+          "id": "PH06",
+          "persona": "Effective field theory and decoupling physicist",
+          "proposal": "Separate the source low-curvature limit from the candidate inverse-coupling limit",
+          "source_claims": [
+            "SC-CHI-02",
+            "SC-CHI-51",
+            "SC-CHI-52",
+            "SC-CHI-53",
+            "SC-COS-01"
+          ],
+          "ledger_targets": [
+            "AC-F1",
+            "RA-D4"
+          ],
+          "scope": "Parameter/observable map for the entire current homogeneous59 stationary family",
+          "source_bridge": "conditional",
+          "weakest_premise": "Source low-curvature scalar and physical mixing observable are not identified with a held candidate parameter.",
+          "existing_coverage": "The explicit R_Y/4 toy and generic primitive low-VEV mixing are covered. Candidate h=1/kappa varies coupling at fixed base/ambient metric: R_X=0 and R_Y=-10. F_A and connection responses vary. SC-CHI52 improved-Einstein scalar is not identified with R_X, R_Y or a chosen F_A contraction.",
+          "cheapest_test": "Record the full parameter map R_X=0, R_Y=-10, h=1/kappa and variable F_A(T(kappa)). This does not implement the explicit toy R_Y->0. For the stronger source low-gravity claim, mark scalar owner, scaling/family and physical response untyped until an actual identity is supplied.",
+          "negative_result_kills": "Only an inference that h itself has been established as the source curvature parameter, or that the held family approaches R_Y=0. It does not establish that every source sense of low gravity is absent: R_X is already zero and F_A changes.",
+          "survivor_means": "A source identification of the scalar plus supplied on-shell low-curvature family activates the actual mixing test. Do not use fixed R_Y alone to exclude a low-gravity interpretation in a differently typed scalar.",
+          "remaining_cost": "Cheap exact parameter audit now; full curve test awaits independent supplied tuple.",
+          "confidence_priority_judgment": 97,
+          "literalness": "literal mathematical or physical diagnostic; no analogy used as evidence",
+          "do_not_do": "Do not declare off-shell scalar-free tensors or small h to be source low-gravity solutions, and do not invent a rescaling family just to activate the test.",
+          "rank": 2
+        },
+        {
+          "id": "PH07",
+          "persona": "Spin3/2 causality physicist",
+          "proposal": "Audit Velo-Zwanziger applicability on the native rolled carrier before doing a characteristic calculation",
+          "source_claims": [
+            "SC-PRE-51",
+            "SC-PRE-56",
+            "SC-GEN-57"
+          ],
+          "ledger_targets": [
+            "LT-SM8",
+            "LT-GR1"
+          ],
+          "scope": "Native mixed spinor/vector-spinor carrier with actual subsidiary conditions and background",
+          "source_bridge": "conditional",
+          "weakest_premise": "The source does not require a standalone minimally coupled RS field; its coupled/observed physical constraint system is not complete.",
+          "existing_coverage": "Canon no-go-class-relative-map records 4D principal reconstruction only,14D Schur E-block invertibility and subprincipal/constraint propagation gaps. Existing natural six-slot symbol classification must be reused.",
+          "cheapest_test": "Reconcile old VZ gates with current full six-slot symbol results and exact present operator; identify which gate, if any, is genuinely closed without assuming E invertible to prove E invertible.",
+          "negative_result_kills": "A claimed VZ evasion proof if it still assumes its decisive gate; not the full GU mechanism.",
+          "survivor_means": "A non-circular supplied quotient/background permits constrained characteristic testing.",
+          "remaining_cost": "Cheap premise crosswalk; new full dynamics likely one or more waves.",
+          "confidence_priority_judgment": 86,
+          "literalness": "literal mathematical or physical diagnostic; no analogy used as evidence",
+          "do_not_do": "Do not apply a massive standalone RS determinant to the native2+1 system or repeat already-checked non-null symbol invertibility.",
+          "rank": 5
+        },
+        {
+          "id": "PH08",
+          "persona": "Particle phenomenologist",
+          "proposal": "Check whether any source prediction is scale-independent and empirically falsifiable without a new action",
+          "source_claims": [
+            "SC-PRE-01",
+            "SC-PRE-02",
+            "SC-PRE-03",
+            "SC-PRE-51",
+            "SC-PRE-52",
+            "SC-PRE-53",
+            "SC-GEN-53"
+          ],
+          "ledger_targets": [
+            "RA-F1",
+            "RA-F3",
+            "RA-D4"
+          ],
+          "scope": "Source-predicted internal quantum numbers and asymptotic qualitative2+1 difference",
+          "source_bridge": "conditional",
+          "weakest_premise": "No mass scale, physical state assignment or measurable discrimination threshold is supplied.",
+          "existing_coverage": "144 and spin3/2 branching are covered; absence of mass scale is explicit SC-PRE53, not a newly discovered gap.",
+          "cheapest_test": "For each retained prediction specify whether its negation could be observed at finite energy independently of arbitrary onset scale; retain only nonempty such tests for future empirical work.",
+          "negative_result_kills": "An advertised finite-energy testability claim when the onset scale is unrestricted; not the existential matter prediction.",
+          "survivor_means": "A source-fixed scale-independent relation can activate a targeted empirical diagnostic. None established by current inspected evidence.",
+          "remaining_cost": "Cheap quantifier audit; no data fit.",
+          "confidence_priority_judgment": 90,
+          "literalness": "literal mathematical or physical diagnostic; no analogy used as evidence",
+          "do_not_do": "Do not read collider nonobservation as absence of arbitrarily heavy states or treat2+1 as three identical generations.",
+          "rank": 7
+        },
+        {
+          "id": "PH09",
+          "persona": "Cosmologist and gravitational normalization physicist",
+          "proposal": "Keep dimensional scale freedom separate from finite reduction and dimensionless source tests",
+          "source_claims": [
+            "SC-COS-01",
+            "SC-COS-50",
+            "SC-COS-51",
+            "SC-COS-54"
+          ],
+          "ledger_targets": [
+            "LT-GR7"
+          ],
+          "scope": "Metric-fibre finite reduction and source-typed dark-energy relation",
+          "source_bridge": "conditional",
+          "weakest_premise": "The reference weight is not source-selected; source also does not promise an absolute Newton scale.",
+          "existing_coverage": "Natural infinite fibre volume and finite-weight sign indeterminacy are established. LT-GR7 itself says the scale no-go agrees with ratio-only source posture.",
+          "cheapest_test": "Audit proposed falsifiers for reliance on absolute G or a chosen reference-weight sign; retain a dimensionless observed ratio only if its reference dependence cancels by proof.",
+          "negative_result_kills": "The proposed reference-independent prediction if it demonstrably changes over admitted references; not source GU without a source necessity bridge.",
+          "survivor_means": "A reference-invariant ratio would be a sharp next prediction candidate.",
+          "remaining_cost": "Cheap dependence map; actual invariant ratio could take a wave.",
+          "confidence_priority_judgment": 87,
+          "literalness": "literal mathematical or physical diagnostic; no analogy used as evidence",
+          "do_not_do": "Do not make a DESI prediction from a scalar comparator or count reference freedom as a proved minimum number of GU choices.",
+          "rank": 9
+        },
+        {
+          "id": "PH10",
+          "persona": "Quantum foundations and open-systems physicist",
+          "proposal": "Test descent of a proposed observable, not uniqueness of invisible bulk representatives",
+          "source_claims": [
+            "SC-GEO-02",
+            "SC-GEO-03",
+            "SC-OP-04",
+            "SC-META-52"
+          ],
+          "ledger_targets": [
+            "LT-SM8",
+            "AC-F1"
+          ],
+          "scope": "Actual solution space, specified physical equivalence and observed history map",
+          "source_bridge": "conditional",
+          "weakest_premise": "A quantum state/algebra, physical readout and equivalence relation are not yet represented.",
+          "existing_coverage": "Covariant finite-jet nonuniqueness and onto analytic-history theorem are complete; memory kernels need an independently chosen projection/domain and do not choose physics.",
+          "cheapest_test": "Separate failure of bulk reconstruction from failure of prediction: for a proposed observable O, test O(u+k)=O(u) on the owned invisible solution kernel; only if a physical O is supplied is this a physical ambiguity.",
+          "negative_result_kills": "A proposed observable that is not well-defined on an asserted quotient, not a GU theory whose quotient is unspecified.",
+          "survivor_means": "Invisible representatives can be gauge-equivalent without harming predictions; a descended O then needs evolution/positivity checks.",
+          "remaining_cost": "Finite map test once O supplied; source classification cheap now.",
+          "confidence_priority_judgment": 94,
+          "literalness": "literal mathematical or physical diagnostic; no analogy used as evidence",
+          "do_not_do": "Do not claim finite-jet ambiguity alone forbids physical prediction, or introduce a Mori-Zwanzig projection as if the source selected it.",
+          "rank": 1
+        }
+      ],
+      "top3": [
+        {
+          "rank": 1,
+          "name": "Source restriction/quotient and observable-descent necessity",
+          "personas": [
+            "PH01",
+            "PH10",
+            "PH02"
+          ],
+          "status": "bounded audit ready; genuinely new physical computation only with supplied relation",
+          "reason": "This is the shared premise preventing otherwise exact mathematics from testing GU. Separate history restriction from invisible-state equivalence; do not repeat general source-law audit."
+        },
+        {
+          "rank": 2,
+          "name": "Parameter-to-source-low-curvature audit",
+          "personas": [
+            "PH06"
+          ],
+          "status": "cheap ready",
+          "reason": "R_X=0, R_Y=-10 stay fixed, while F_A changes and h=1/kappa. The source toy uses R_Y; the stronger SC-CHI52 scalar is untyped. This audit prevents equating h with source curvature, without excluding every possible low-gravity interpretation."
+        },
+        {
+          "rank": 3,
+          "name": "One matched weak inverse-response scalar",
+          "personas": [
+            "PH04"
+          ],
+          "status": "ready diagnostic under held candidate, physically conditional",
+          "reason": "Closest existing computational branch to a candidate obstruction; full matched force can resolve real cancellation. Lower source-falsification priority than a supplied physical bridge."
+        }
+      ],
+      "minority_preserved": [
+        {
+          "name": "Native Velo-Zwanziger gate crosswalk",
+          "persona": "PH07",
+          "reason": "Source itself suggests this test, but existing reconstruction/subprincipal gates must be reconciled before a fresh calculation. Strong source relevance, weak current applicability."
+        },
+        {
+          "name": "Finite-energy falsifiability quantifiers",
+          "persona": "PH08",
+          "reason": "No scale means many purported empirical exclusions are not logical exclusions. A scale-independent invariant would be high value."
+        }
+      ],
+      "rejections": [
+        "Repeat ordinary anomaly matching without new source symmetry/spectrum/background input.",
+        "Redo three-family branching or ambient label matching.",
+        "Treat old A01 positivity/PT certificate as covariant physical evidence.",
+        "Publish another whole-class theorem whose necessity for GU remains absent and call it the fastest falsification."
+      ],
+      "low_hanging_fruit": [
+        {
+          "test": "Exact scalar/inverse-coupling custody",
+          "result": "ESTABLISHED for the held normalized geometry: R_X=0, R_Y=-10, h=1/kappa; F_A varies. Thus the family is not an R_Y->0 toy limit. UNDETERMINED: which scalar the stronger improved-Einstein source claim uses, and its relation to h or F_A. No broad no-low-gravity assertion.",
+          "evidence": [
+            "explorations/conditional-build/source-action-dynamics-and-continuation-2026-11-25.md:85",
+            "explorations/conditional-build/source-action-homogeneous-analytic-vacuum-2026-11-25.md:221",
+            "explorations/conditional-build/source-premise-custody-2026-11-25.md:107"
+          ]
+        },
+        {
+          "test": "No false new anomaly/branching work",
+          "result": "ESTABLISHED by current packets: source-required tests0-5 done; ten-wave horizon has no ready unconsumed entry. A new broad council must not reinstate their completed premises.",
+          "evidence": [
+            "lab/process/work-packets/source-required-class-tests-2026-11-24.md",
+            "lab/process/work-packets/ten-wave-source-falsification-2026-11-24.md"
+          ]
+        },
+        {
+          "test": "Candidate real-form suspicion",
+          "result": "Already covered: imaginary negative directions are actual full-U64_64 fields. Do not mistake real Clifford coefficient branch for the full source real form.",
+          "evidence": [
+            "explorations/conditional-build/source-action-coupled-ghost-2026-11-25.md:109",
+            "explorations/conditional-build/source-action-reduced-evolution-2026-11-26.md:71"
+          ]
+        }
+      ],
+      "conclusion": "No unconditional fast GU falsification found. Fastest honest path is a specific source-required physical relation, then its cheapest actual counterexample. Current best executable heavy calculation is a scoped candidate diagnostic, not a new GU verdict.",
+      "panel_source_file": "physics.json"
+    }
+  ],
+  "synthesis": {
+    "first_executable": "5q.1 full matched weak scalar using existing adjoint goal",
+    "source_falsification_bridge": "No new unconditional source contradiction established; common physical admission/observable bridge unproved. Strongest conditional source-facing target is low-gravity decoupling on authenticated equations/background/curvature/readout.",
+    "selection_reason": "Avoid repeats and candidate completion construction; finish a current unresolved response, bind its certificates to one domain, then test observational equivalence.",
+    "counterfactual": "A zero scalar retains only its tested channel; lack of a source tuple is not a source no-go.",
+    "minority_preservation": "All panel minority ideas retained below and in existing opportunity-register reference; activation needs actual source/domain data, not analogical import."
+  },
+  "cheap_results": {
+    "quotient_image": "image(qbar)=image(q) for q=qbar*pi and surjective pi; does not restrict BRST numerator or changed observables",
+    "hidden_current": "Actual central time vertex, independent dual row and covariant p2 seed give real second normal derivative4, while literal observed history unchanged. Linear analytic pair only; bulk current, not observed response.",
+    "curvature_custody": {
+      "R_X": 0,
+      "R_Y": -10,
+      "h": "1/kappa",
+      "F_A": "varies with displaced connection",
+      "source_low_curvature_identification": "undetermined; RY fixed cannot refute lowRX"
+    }
+  },
+  "next_worksets": [
+    {
+      "id": "5q.1",
+      "status": "ready",
+      "target": "LB-CLASS",
+      "tier": "T2",
+      "task": "One full matched weak scalar on reached spin5 using the already-owned diagnostic pair",
+      "expected_delta": "Decide cancellation in a complete scalar response or name exact failed residual/range/kernel condition",
+      "source_bridge": "conditional; candidate and domain not source-selected",
+      "cost": "one focused response wave; only indispensable additional blocks",
+      "kill_condition": "A scalar zero closes that channel only; nonzero is a candidate response, not a physical ghost",
+      "premises": [
+        "Full differential adjoint and action pairing; range/kernel compatibility and domain/boundary terms",
+        "Matched divergence, moving lift/frame/density and actual normal support",
+        "95-dimensional shell is not completed closure; no blanket full-inverse requirement if the scalar adjoint route certifies the goal"
+      ],
+      "strongest_alternative": "5q.2 domain reconciliation; source low-curvature test conditional on authenticated tuple"
+    },
+    {
+      "id": "5q.2",
+      "status": "ready_bounded_reconciliation",
+      "target": "LB-CLASS",
+      "tier": "T3_then_T2_if_analytic_transfer",
+      "task": "Check E2 trace-plane witness and the new response map share one row pairing, support, boundary and domain",
+      "expected_delta": "Admitted overlap or exact failed/missing membership condition",
+      "source_bridge": "conditional; raw germ admission is not physical admission",
+      "cost": "one bounded domain/support pass tied to new5q.1 data; no repeated broad source audit",
+      "kill_condition": "Domain mismatch blocks only transport of this witness; do not invent a norm/cutoff or completion",
+      "premises": [
+        "A01 covariance exclusion retained; trace CK does not inherit its positive norm",
+        "Base bandwidth gives no normal-frequency bound"
+      ],
+      "strongest_alternative": "Other already-eligible source-grounded tests; no waiting checkpoint"
+    },
+    {
+      "id": "5s.2",
+      "status": "blocked_on_common_domain_for_full_response",
+      "target": "LB-CLASS",
+      "tier": "T2",
+      "task": "Test interaction-aware observational equivalence on E0 and E0+E2 with identical admitted dual data",
+      "expected_delta": "Decide whether identical literal histories have identical retained weak response",
+      "source_bridge": "conditional; physical quotient/source necessity unproved",
+      "cost": "one scalar response once5q.1 and5q.2 provide the actual map and membership",
+      "kill_condition": "Nonzero rejects only an equivalence required to preserve that response; zero retains only the tested channel",
+      "premises": [
+        "5q.1 actual response",
+        "5q.2 same-domain/support admission; raw bulk current witness alone is insufficient"
+      ],
+      "strongest_alternative": "Source on-shell decoupling when equations/background/scalar/readout tuple exists"
+    }
+  ],
+  "probe": {
+    "checks": 98,
+    "quotient_fixtures": 16,
+    "actual_vertex_axes": 14,
+    "central_time_current_real": 1,
+    "hidden_seed_current_second_derivative": 4,
+    "ambient_scalar_curvature_reused": -10,
+    "observed_base_curvature_fixed": 0,
+    "exact_scope": "finite vertex and algebra controls; CK/dual analytic existence reused from written proofs",
+    "not_certified": [
+      "physical admissibility",
+      "positive pairing",
+      "source quotient",
+      "matched inverse response",
+      "GU falsification"
+    ]
+  },
+  "reviews": "lab/process/hostile-reviews/2026-11-26-source-falsification-council-review.md",
+  "proof": "explorations/conditional-build/source-falsification-council-2026-11-26.md",
+  "three_state": {
+    "ESTABLISHED": "Elementary quotient range, explicit current jet and existing curvature identities in scoped candidate category",
+    "RULED_OUT": "No new source or physical claim; unchanged q cannot lose history image by pure identification",
+    "NOT_MODELED_UNDETERMINED": "Physical admission, full coupled germs, source quotient, same-domain observed inverse response and GU verdict"
+  },
+  "claim_effect": "none",
+  "choice_budget_delta": 0,
+  "priority_effect": "Ordinary low-level restock in existing packet/opportunity register; broad5s.1 audit consumed,5q.1 first executable. Governance and scheduled cadence unchanged.",
+  "sha256": {
+    "explorations/conditional-build/source-falsification-council-2026-11-26.md": "b04f190757a4c7e8ee1da630f8e00b566525e50af3f6b586df8faac6a6164f03",
+    "tests/program-focus/source_falsification_council_probe.py": "c9be6ba769676fdea945f8f870feb6edbb998da266533bc32444a49000788bd5",
+    "lab/process/hostile-reviews/2026-11-26-source-falsification-council-review.md": "17d4c53fdeb72bdba01a5095b57213600b9918fb46fb3d069cd4e9e6e39e5b3e"
+  }
+}

@@ -1,7 +1,7 @@
 schema_version: '1.0'
 repository: observerse-research-program
 branch: main
-revision_basis: f43861c6d867aaa8be4acb69c2216bfea9b2b852
+revision_basis: f41721d2cd312df0ef5ccaeb0160ad126530eb79
 program_focus:
   version: 2026-11-25-v1
   authority: joe_direct_chat_2026_11_25_five_process_improvements_approved
@@ -140,6 +140,74 @@ program_focus:
     covered; source relevance separately from mathematical breadth; shared prerequisite if any; remaining
     cost; strongest eligible alternative. A blocked high-value target is not an eligible alternative without
     its missing input. Reuse completed theorems and compare only their uncovered successors.'
+source_falsification_council_2026_11_26:
+  authority: joe_direct_chat_2026_11_26_five_panel_falsification_wave
+  basis_revision: f41721d2cd312df0ef5ccaeb0160ad126530eb79
+  status: internal_reviewed_T2_diagnostic_T3_scaffolding
+  actual_delta: Fifty simulated lenses reconciled with completed coverage; identification alone preserves
+    observed-history range; an exact covariant all-history-invisible seed changes the bulk connection
+    current at second normal order; curvature parameters separated. Existing weak-response and same-domain
+    tests restocked, no physical/source verdict.
+  evidence:
+  - explorations/conditional-build/source-falsification-council-2026-11-26.md
+  - lab/process/source-falsification-council-2026-11-26.json
+  - tests/program-focus/source_falsification_council_probe.py
+  - lab/process/hostile-reviews/2026-11-26-source-falsification-council-review.md
+  source_bridge:
+    status: conditional
+    reason: No selected physical domain/quotient; candidate necessity unproved
+  continuation:
+  - id: 5q.1
+    status: ready
+    target: LB-CLASS
+    tier: T2
+    task: One full matched weak scalar on reached spin5 using the already-owned diagnostic pair
+    expected_delta: Decide cancellation in a complete scalar response or name exact failed residual/range/kernel
+      condition
+    source_bridge: conditional; candidate and domain not source-selected
+    cost: one focused response wave; only indispensable additional blocks
+    kill_condition: A scalar zero closes that channel only; nonzero is a candidate response, not a physical
+      ghost
+    premises:
+    - Full differential adjoint and action pairing; range/kernel compatibility and domain/boundary terms
+    - Matched divergence, moving lift/frame/density and actual normal support
+    - 95-dimensional shell is not completed closure; no blanket full-inverse requirement if the scalar
+      adjoint route certifies the goal
+    strongest_alternative: 5q.2 domain reconciliation; source low-curvature test conditional on authenticated
+      tuple
+  - id: 5q.2
+    status: ready_bounded_reconciliation
+    target: LB-CLASS
+    tier: T3_then_T2_if_analytic_transfer
+    task: Check E2 trace-plane witness and the new response map share one row pairing, support, boundary
+      and domain
+    expected_delta: Admitted overlap or exact failed/missing membership condition
+    source_bridge: conditional; raw germ admission is not physical admission
+    cost: one bounded domain/support pass tied to new5q.1 data; no repeated broad source audit
+    kill_condition: Domain mismatch blocks only transport of this witness; do not invent a norm/cutoff
+      or completion
+    premises:
+    - A01 covariance exclusion retained; trace CK does not inherit its positive norm
+    - Base bandwidth gives no normal-frequency bound
+    strongest_alternative: Other already-eligible source-grounded tests; no waiting checkpoint
+  - id: 5s.2
+    status: blocked_on_common_domain_for_full_response
+    target: LB-CLASS
+    tier: T2
+    task: Test interaction-aware observational equivalence on E0 and E0+E2 with identical admitted dual
+      data
+    expected_delta: Decide whether identical literal histories have identical retained weak response
+    source_bridge: conditional; physical quotient/source necessity unproved
+    cost: one scalar response once5q.1 and5q.2 provide the actual map and membership
+    kill_condition: Nonzero rejects only an equivalence required to preserve that response; zero retains
+      only the tested channel
+    premises:
+    - 5q.1 actual response
+    - 5q.2 same-domain/support admission; raw bulk current witness alone is insufficient
+    strongest_alternative: Source on-shell decoupling when equations/background/scalar/readout tuple exists
+  priority_control_effect: Existing packet/opportunity continuation restocked; broad5s.1 audit consumed,5q.1
+    first executable. Policy/cadence/source/physics/canon/paper verdicts unchanged.
+  accounting: Directed count65to66/LBCLASS24to25; no bet or scientific shrinkage credit; choices unchanged.
 petrov_probability_selection_2026_11_26:
   authority: joe_direct_chat_2026_11_26_petrov_probability_go
   status: internal_reviewed_T1_scoped_mathematical_result

@@ -1348,7 +1348,7 @@
       "selection_note": "Candidate construction/diagnostic only unless its stated structural family and source bridge satisfy current program_focus. A reserve is not scheduled work."
     }
   ],
-  "priority_effect": "Directed continuation incorporates covariant_jet_ambiguity_2026_11_26; source-supported physical restriction/quotient remains the bridge. Scheduled policy unchanged.",
+  "priority_effect": "Directed continuation now uses falsification_council_2026_11_26; broad physical-law source scan consumed, matched weak scalar first, same-domain admission before transferring invisible witnesses. Ordinary scheduled selection/cadence unchanged.",
   "evidence": [
     "explorations/conditional-build/source-action-engineering-wave-2026-11-25.md",
     "lab/process/source-action-engineering-wave.json",
@@ -1583,5 +1583,94 @@
     ],
     "retained_pool": "Existing20 and50+50 suggestions retained. Trace-normal exponential-growth proposal retained as conditional: timelike sign, fixed-mass-shell versus arbitrary-frequency distinction, and actual variable-coefficient transfer required; not promoted by frozen-axis evidence.",
     "priority_effect": "Finite section calibration subquestion closed at bulk-uniqueness scope; source physical restriction and weak response retained. Scheduled policy unchanged."
+  },
+  "falsification_council_2026_11_26": {
+    "evidence": "lab/process/source-falsification-council-2026-11-26.json",
+    "report": "explorations/conditional-build/source-falsification-council-2026-11-26.md",
+    "coverage": "50 simulated lenses in5 panels; full records in linked evidence, not50 mandatory tasks",
+    "consumed": [
+      "Broad5s.1 source audit reconciled with completed custody; no new source law",
+      "Quotient-range distinction",
+      "Covariant all-history-invisible current jet",
+      "Curvature parameter typing"
+    ],
+    "next_directed_worksets": [
+      {
+        "id": "5q.1",
+        "status": "ready",
+        "target": "LB-CLASS",
+        "tier": "T2",
+        "task": "One full matched weak scalar on reached spin5 using the already-owned diagnostic pair",
+        "expected_delta": "Decide cancellation in a complete scalar response or name exact failed residual/range/kernel condition",
+        "source_bridge": "conditional; candidate and domain not source-selected",
+        "cost": "one focused response wave; only indispensable additional blocks",
+        "kill_condition": "A scalar zero closes that channel only; nonzero is a candidate response, not a physical ghost",
+        "premises": [
+          "Full differential adjoint and action pairing; range/kernel compatibility and domain/boundary terms",
+          "Matched divergence, moving lift/frame/density and actual normal support",
+          "95-dimensional shell is not completed closure; no blanket full-inverse requirement if the scalar adjoint route certifies the goal"
+        ],
+        "strongest_alternative": "5q.2 domain reconciliation; source low-curvature test conditional on authenticated tuple"
+      },
+      {
+        "id": "5q.2",
+        "status": "ready_bounded_reconciliation",
+        "target": "LB-CLASS",
+        "tier": "T3_then_T2_if_analytic_transfer",
+        "task": "Check E2 trace-plane witness and the new response map share one row pairing, support, boundary and domain",
+        "expected_delta": "Admitted overlap or exact failed/missing membership condition",
+        "source_bridge": "conditional; raw germ admission is not physical admission",
+        "cost": "one bounded domain/support pass tied to new5q.1 data; no repeated broad source audit",
+        "kill_condition": "Domain mismatch blocks only transport of this witness; do not invent a norm/cutoff or completion",
+        "premises": [
+          "A01 covariance exclusion retained; trace CK does not inherit its positive norm",
+          "Base bandwidth gives no normal-frequency bound"
+        ],
+        "strongest_alternative": "Other already-eligible source-grounded tests; no waiting checkpoint"
+      },
+      {
+        "id": "5s.2",
+        "status": "blocked_on_common_domain_for_full_response",
+        "target": "LB-CLASS",
+        "tier": "T2",
+        "task": "Test interaction-aware observational equivalence on E0 and E0+E2 with identical admitted dual data",
+        "expected_delta": "Decide whether identical literal histories have identical retained weak response",
+        "source_bridge": "conditional; physical quotient/source necessity unproved",
+        "cost": "one scalar response once5q.1 and5q.2 provide the actual map and membership",
+        "kill_condition": "Nonzero rejects only an equivalence required to preserve that response; zero retains only the tested channel",
+        "premises": [
+          "5q.1 actual response",
+          "5q.2 same-domain/support admission; raw bulk current witness alone is insufficient"
+        ],
+        "strongest_alternative": "Source on-shell decoupling when equations/background/scalar/readout tuple exists"
+      }
+    ],
+    "minorities": [
+      {
+        "idea": "source-explicit Velo–Zwanziger / constraint propagation",
+        "input": "Match actual rolled carrier and existing VZ gates; do not repeat unconstrained Clifford symbol or import conventional massiveRS"
+      },
+      {
+        "idea": "presymplectic radical",
+        "input": "Complete paired symplectic form plus physical admission/gauge domain"
+      },
+      {
+        "idea": "relative end topology",
+        "input": "Compatible actual end reduction, not original unmatched Bott datum"
+      },
+      {
+        "idea": "compact shielding",
+        "input": "Source-supplied restriction; SC-META53 uncertain, no invented real-form substitution"
+      },
+      {
+        "idea": "nonlinear transfer-support closure",
+        "input": "Actual interacting domain; base bandwidth not normal support"
+      },
+      {
+        "idea": "source low-curvature mixing",
+        "input": "Authenticated equation/background/scalar/readout tuple; RX/RY/FA/h separately typed"
+      }
+    ],
+    "priority_effect": "5q.1 first executable,5q.2 bounded domain/support next,5s.2 conditional. Existing governance/cadence unchanged."
   }
 }
