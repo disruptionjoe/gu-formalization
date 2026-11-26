@@ -59,7 +59,11 @@ The [finite-coupling result](../../../explorations/conditional-build/source-acti
 
 | Step | Status | Target / tier | Expected delta | Scope / negative-result meaning |
 |---|---|---|---|---|
-| 5d Complete coupled metric order4 and lower mixed terms | complete Frechet expression and two section receivers; off-section evaluation ready in directed construction | LB-CLASS / T2 | Evaluate the retained full coefficient derivative off section, then actual fibre/domain reduction and lower terms | Section action-density coefficient is not an integrated gravitational mode; no59-Jacobian or unproved inverse |
+| 5d Complete coupled metric order4 and lower mixed terms | local order4 coefficient complete, including off-section family; full coupled/fibre reduction open | LB-CLASS / T2 | Exact coefficient and quantified sign family owned; next distinct work is actual fibre/domain reduction and lower mixed terms | Section action-density coefficient is not an integrated gravitational mode; no59-Jacobian or unproved inverse |
 | 5e Test a supplied physical state and branch-selection law | blocked on specified law | X-P1-P2-P3 / T2 | Propagation, integrability, literal descent and dual/current compatibility; distinguish stationary responses | Differential/boundary/nonlocal restrictions survive; no invented source law or waiting requirement for other research |
 
 The due LC opportunity at counter47 is retained in the existing matrix accounting for the next ordinary run. Explicit directed work does not count as a bet attempt or alter recurring cadence. No new governance or schedule changes.
+
+## Consumed off-section coefficient direction
+
+[Exact off-section result](../../../explorations/conditional-build/source-action-offsection-metric-2026-11-25.md) evaluates every retained geometric coefficient. Its TT-family response depends on three Clifford-vector channels; one stationary root changes sign, the other stays positive on that curve. The full connection Hessian is explicit as a differential expression. This completes local coefficient work, not fibre-integrated physical stability. The59 stationary Jacobian is not a full inverse. New slice-completeness ideas remain a proposal for Joe, with no new scheduled priority or waiting rule.

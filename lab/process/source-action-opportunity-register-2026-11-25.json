@@ -890,7 +890,7 @@
         "NETWORK-10",
         "PHYSICS-05"
       ],
-      "status": "coupled_principal_symbols_completed",
+      "status": "complete_local_order4_and_full_connection_block",
       "scope": "candidate or explicitly declared structural diagnostic; not source-wide without bridge",
       "source_relevance": "conditional; use source-native carrier and registered premises",
       "evidence": [
@@ -898,11 +898,13 @@
         "explorations/conditional-build/source-action-homogeneous-analytic-vacuum-2026-11-25.md",
         "explorations/conditional-build/source-action-dynamics-and-continuation-2026-11-25.md",
         "explorations/conditional-build/source-action-physical-dynamics-2026-11-25.md",
-        "lab/process/source-action-physical-dynamics.json"
+        "lab/process/source-action-physical-dynamics.json",
+        "explorations/conditional-build/source-action-offsection-metric-2026-11-25.md",
+        "lab/process/source-action-offsection-metric.json"
       ],
-      "remaining_input": "Off-section geometric coefficient variation, lower mixed terms, fibre integration and a real differential reduction.",
-      "revisit_when": "Off-section geometric coefficient variation, lower mixed terms, fibre integration and a real differential reduction.",
-      "disposition": "Metric order5 cancels; mixed order3 survives; complete Frechet order4 expression and two positive exact section trace-free coefficients are owned. Off-section derivative and fibre integration remain.",
+      "remaining_input": "Actual fibre/domain reduction, full lower mixed geometry blocks, and a justified full differential inverse if eliminating connection fluctuations.",
+      "revisit_when": "Actual fibre/domain reduction, full lower mixed geometry blocks, and a justified full differential inverse if eliminating connection fluctuations.",
+      "disposition": "All off-section geometry variation evaluated. Exact three-channel Q(r)=A+B(r-1)^2: first background changes sign, second positive across this TT fibre curve. Full fixed-geometry connection Hessian stated. No integrated/stability verdict.",
       "selection_note": "Candidate construction/diagnostic only unless its stated structural family and source bridge satisfy current program_focus. A reserve is not scheduled work.",
       "history": [
         {
@@ -922,6 +924,12 @@
           "previous_status": "normalized_coupled_stationarity_completed",
           "previous_disposition": "Both kappa1 connection roots solve the compact-base/product-regulator metric variation with zero independent matter/bars.",
           "superseding_evidence": "explorations/conditional-build/source-action-physical-dynamics-2026-11-25.md"
+        },
+        {
+          "date": "2026-11-25",
+          "previous_status": "coupled_principal_symbols_completed",
+          "previous_disposition": "Metric order5 cancels; mixed order3 survives; complete Frechet order4 expression and two positive exact section trace-free coefficients are owned. Off-section derivative and fibre integration remain.",
+          "superseding_evidence": "explorations/conditional-build/source-action-offsection-metric-2026-11-25.md"
         }
       ]
     },
@@ -1205,6 +1213,8 @@
     "explorations/conditional-build/source-action-homogeneous-analytic-vacuum-2026-11-25.md",
     "explorations/conditional-build/source-action-dynamics-and-continuation-2026-11-25.md",
     "explorations/conditional-build/source-action-physical-dynamics-2026-11-25.md",
-    "lab/process/source-action-physical-dynamics.json"
+    "lab/process/source-action-physical-dynamics.json",
+    "explorations/conditional-build/source-action-offsection-metric-2026-11-25.md",
+    "lab/process/source-action-offsection-metric.json"
   ]
 }

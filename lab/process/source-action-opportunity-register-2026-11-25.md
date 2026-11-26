@@ -126,3 +126,7 @@ Each pair below links the full theoretical insight/plain-language story/analogy 
 ## Physical-dynamics follow-through
 
 [Candidate perturbations and exact responses](../../explorations/conditional-build/source-action-physical-dynamics-2026-11-25.md) cover intrinsic linearized gauge/filter and coupled principal-symbol tests. Complete opportunity custody is retained. The next executable directed metric calculation is the off-section geometric coefficient derivative; actual physical state and branch-selection mechanisms remain separately unselected. No ordinary policy, schedule or new stopping rule changes.
+
+## Off-section follow-through (2026-11-25)
+
+O15 now owns the complete local fourth-order coefficient, its exact three-scalar-channel dependence and the full fixed-geometry differential connection block. The first certified root changes sign across the stated TT fibre curve; the second remains positive there. Fibre integration, full coupled lower blocks and physical interpretation remain open. All fifty lenses and twenty-nine questions are retained. Ordinary priorities and governance are unchanged. [Result](../../explorations/conditional-build/source-action-offsection-metric-2026-11-25.md).

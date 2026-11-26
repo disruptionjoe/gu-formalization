@@ -1,7 +1,7 @@
 schema_version: '1.0'
 repository: observerse-research-program
 branch: main
-revision_basis: 0f2e568e61561d6f568cfa8d90c4d24798d68175
+revision_basis: 8207f1a99e12edbc77c2b276a22e803ed47a20f0
 program_focus:
   version: 2026-11-25-v1
   authority: joe_direct_chat_2026_11_25_five_process_improvements_approved
@@ -140,6 +140,25 @@ program_focus:
     covered; source relevance separately from mathematical breadth; shared prerequisite if any; remaining
     cost; strongest eligible alternative. A blocked high-value target is not an eligible alternative without
     its missing input. Reuse completed theorems and compare only their uncovered successors.'
+source_action_offsection_metric_2026_11_25:
+  status: internally_reviewed_candidate_mathematics
+  actual_delta: The complete off-section metric coefficient is evaluated exactly. Across a quantified
+    one-parameter fibre/base family, the first stationary background has a sign-changing fourth-order
+    receiver while the second stays positive. Full fixed-geometry connection Hessian is explicit; no integrated or physical
+    stability verdict.
+  evidence:
+  - explorations/conditional-build/source-action-offsection-metric-2026-11-25.md
+  - lab/process/source-action-offsection-metric.json
+  - tests/program-focus/source_action_offsection_metric_probe.py
+  - lab/process/hostile-reviews/2026-11-25-source-action-offsection-review.md
+  claim_effect: No source/physics/class-C/canon/paper or scientific matrix verdict.
+  next_condition: Pointwise metric order4 is owned. A four-dimensional response requires an explicit fibre/domain
+    reduction and remaining coupled geometry blocks; eliminating connection fluctuations requires a full
+    differential inverse, not the59 Jacobian. New slice-completeness investigation remains proposed pending
+    Joe review of its plan; other ordinary eligible science and dueLC carry continue.
+  priority_effect: Standing program_focus, ordinary priorities and schedules unchanged; completed off-section
+    coefficient consumed in existing directed packet.
+  counter_accounting: 48->49 once; LB-CLASS7->8; no bet credit; pendingLC carry retained
 source_action_physical_dynamics_2026_11_25:
   status: internally_reviewed_candidate_mathematics
   actual_delta: At both normalized backgrounds, actual zero-matter linearization supplies no local additive

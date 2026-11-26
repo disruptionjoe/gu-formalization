@@ -17,6 +17,14 @@ External review is not a pathway in this program. The honesty label stays: inter
 
 Sections below are historical snapshots in file order.
 
+## Exact off-section candidate metric response (2026-11-25)
+
+The complete off-section metric coefficient is evaluated exactly. Across a quantified one-parameter fibre/base family, the first stationary background has a sign-changing fourth-order receiver while the second stays positive. Full fixed-geometry connection Hessian is explicit; no integrated or physical stability verdict.
+
+The universal TT-family coefficient uses only three Clifford-vector channels among the59 background coordinates. Exact rational controls and independent internal review support the local result; the inherited root balls are reused. Fibre reduction and physical stability remain undetermined. New slice-completeness work is assessed only; no steering or scientific verdict changes.
+
+[Result](explorations/conditional-build/source-action-offsection-metric-2026-11-25.md) · [Evidence](lab/process/source-action-offsection-metric.json).
+
 ## Candidate physical dynamics and stationary response (2026-11-25)
 
 At both normalized backgrounds, actual zero-matter linearization supplies no local additive matter gauge freedom. Preserved analytic algebraic sectors with arbitrary normal jets cannot repair finite local observation closure; nonzero derivative-free conserved local energy is indefinite. Native metric order5 cancels, mixed order3 survives; complete Frechet order4 is derived and two section trace-free coefficients are certified positive. Certified canonical scalar and literal instantaneous responses differ at identical geometry. No physical/source/C verdict.

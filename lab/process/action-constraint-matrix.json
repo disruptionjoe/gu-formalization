@@ -1788,7 +1788,7 @@
     },
     "LB-CLASS": {
       "zero_delta_streak": 0,
-      "runs": 7,
+      "runs": 8,
       "status": "open"
     },
     "LB-LADDER": {
@@ -2707,7 +2707,7 @@
   ],
   "program_run_counter": {
     "since": "2026-11-09",
-    "count": 48,
+    "count": 49,
     "rule": "Every hourly run increments this in its postflight, whatever its lane. Lane C runs when count % 4 == 3 before the increment."
   },
   "working_rule": "Cells are worked at the structure level: a requirement must hold for every action in class C or for a structurally defined subfamily. No cell is worked by writing down a specific action, and no gated cell is worked by building its gate object. See CURRENT-STATE.yaml program_focus.structure_not_specifics.",
@@ -2956,6 +2956,15 @@
       "counter_after": 48,
       "lane": "LB-CLASS",
       "actual_delta": "At both normalized backgrounds, actual zero-matter linearization supplies no local additive matter gauge freedom. Preserved analytic algebraic sectors with arbitrary normal jets cannot repair finite local observation closure; nonzero derivative-free conserved local energy is indefinite. Native metric order5 cancels, mixed order3 survives; complete Frechet order4 is derived and two section trace-free coefficients are certified positive. Certified canonical scalar and literal instantaneous responses differ at identical geometry. No physical/source/C verdict."
+    },
+    {
+      "date": "2026-11-25",
+      "authority": "joe_direct_chat_2026_11_25_f_finish_prior_wave",
+      "item": "Complete off-section metric coefficient and full connection-block follow-through",
+      "counter_before": 48,
+      "counter_after": 49,
+      "lane": "LB-CLASS",
+      "actual_delta": "The complete off-section metric coefficient is evaluated exactly. Across a quantified one-parameter fibre/base family, the first stationary background has a sign-changing fourth-order receiver while the second stays positive. Full fixed-geometry connection Hessian is explicit; no integrated or physical stability verdict."
     }
   ],
   "directed_lc_carry_2026_11_24_b": {
@@ -3471,6 +3480,18 @@
           "tests/program-focus/source_action_metric_symbol_probe.py",
           "lab/process/hostile-reviews/2026-11-25-source-action-physical-review.md"
         ]
+      },
+      {
+        "id": "directed_offsection_followthrough_2026_11_25",
+        "status": "consumed_in_local_coefficient_scope",
+        "original_direction": "Finish the prior metric-response follow-through, then assess the new completeness proposal before executing its steps1\u20133.",
+        "evidence": [
+          "explorations/conditional-build/source-action-offsection-metric-2026-11-25.md",
+          "lab/process/source-action-offsection-metric.json",
+          "tests/program-focus/source_action_offsection_metric_probe.py",
+          "lab/process/hostile-reviews/2026-11-25-source-action-offsection-review.md"
+        ],
+        "remaining": "Fibre/domain reduction and full coupled lower blocks remain open; new memo wave remains proposed."
       }
     ]
   },
