@@ -68,3 +68,4 @@ import GUFormalization.ChiralWeightTransport
 import GUFormalization.ObservationSolutionTrace
 
 import GUFormalization.LorentzMeasureCore
+import GUFormalization.SliceCompletion

@@ -587,17 +587,19 @@
         "DISTRIBUTED-09",
         "NETWORK-06"
       ],
-      "status": "completed_preserved_algebraic_finite_jet_scope",
+      "status": "analytic_history_image_owned_finite_local_lift_class_excluded",
       "scope": "candidate or explicitly declared structural diagnostic; not source-wide without bridge",
       "source_relevance": "conditional; use source-native carrier and registered premises",
       "evidence": [
         "explorations/conditional-build/source-action-dynamics-and-continuation-2026-11-25.md",
         "explorations/conditional-build/source-action-physical-dynamics-2026-11-25.md",
-        "lab/process/source-action-physical-dynamics.json"
+        "lab/process/source-action-physical-dynamics.json",
+        "explorations/conditional-build/source-action-slice-completion-2026-11-25.md",
+        "lab/process/source-action-slice-completion.json"
       ],
-      "remaining_input": "A compatible differential/domain/nonlocal restriction that removes the constructed jets.",
-      "revisit_when": "A compatible differential/domain/nonlocal restriction that removes the constructed jets.",
-      "disposition": "Finite local initial encodings fail even within preserved analytic pointwise subbundles with qE nonzero and arbitrary normal data.",
+      "remaining_input": "A source-admitted boundary/nonlocal/restricted-domain or predictive probability law; any deterministic candidate must state which finite-local-lift hypothesis it leaves.",
+      "revisit_when": "A source-admitted boundary/nonlocal/restricted-domain or predictive probability law; any deterministic candidate must state which finite-local-lift hypothesis it leaves.",
+      "disposition": "Actual analytic history map onto with infinite whole-history kernel; exact temporal-jet rank. Finite-order spatial lifts from freely initialized finite-rank fibre-independent analytic first-order base dynamics excluded across open metric fibre. Not all finite4D or physical completions.",
       "selection_note": "Candidate construction/diagnostic only unless its stated structural family and source bridge satisfy current program_focus. A reserve is not scheduled work.",
       "history": [
         {
@@ -611,6 +613,12 @@
           "previous_status": "completed_actual_finite_jet_nonclosure",
           "previous_disposition": "Any finite-order local differential initial observation encoding fails deterministic closure on actual analytic curved candidate solutions, including both kappa1 backgrounds.",
           "superseding_evidence": "explorations/conditional-build/source-action-physical-dynamics-2026-11-25.md"
+        },
+        {
+          "date": "2026-11-25",
+          "previous_status": "completed_preserved_algebraic_finite_jet_scope",
+          "previous_disposition": "Finite local initial encodings fail even within preserved analytic pointwise subbundles with qE nonzero and arbitrary normal data.",
+          "superseding_evidence": "explorations/conditional-build/source-action-slice-completion-2026-11-25.md"
         }
       ]
     },
@@ -1215,6 +1223,8 @@
     "explorations/conditional-build/source-action-physical-dynamics-2026-11-25.md",
     "lab/process/source-action-physical-dynamics.json",
     "explorations/conditional-build/source-action-offsection-metric-2026-11-25.md",
-    "lab/process/source-action-offsection-metric.json"
+    "lab/process/source-action-offsection-metric.json",
+    "explorations/conditional-build/source-action-slice-completion-2026-11-25.md",
+    "lab/process/source-action-slice-completion.json"
   ]
 }

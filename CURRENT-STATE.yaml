@@ -1,7 +1,7 @@
 schema_version: '1.0'
 repository: observerse-research-program
 branch: main
-revision_basis: 8207f1a99e12edbc77c2b276a22e803ed47a20f0
+revision_basis: 3154a54127063391f27be6ae66d4db7c5dc8595f
 program_focus:
   version: 2026-11-25-v1
   authority: joe_direct_chat_2026_11_25_five_process_improvements_approved
@@ -140,6 +140,27 @@ program_focus:
     covered; source relevance separately from mathematical breadth; shared prerequisite if any; remaining
     cost; strongest eligible alternative. A blocked high-value target is not an eligible alternative without
     its missing input. Reuse completed theorems and compare only their uncovered successors.'
+source_action_slice_completion_2026_11_25:
+  status: internally_reviewed_T1_internal_class_T2_other_results
+  actual_delta: Actual unrestricted analytic solution germs realize every local observed field history
+    and have an infinite-dimensional whole-history kernel. A varying-cone theorem excludes the stated
+    finite-local lift class. Finite normalization does not select a signed coefficient average. No source/physical/class-C
+    verdict.
+  evidence:
+  - explorations/conditional-build/source-action-slice-completion-2026-11-25.md
+  - lab/process/source-action-slice-completion.json
+  - tests/program-focus/source_action_slice_completion_probe.py
+  - Lean/GUFormalization/SliceCompletion.lean
+  - lab/process/hostile-reviews/2026-11-25-source-action-slice-completion-review.md
+  claim_effect: No source/physics/class-C/canon/paper or scientific matrix verdict.
+  next_condition: The completion must specify a deterministic or probabilistic law governing observed
+    histories. Any nonzero deterministic lift into this actual operator must leave a finite-local-lift
+    hypothesis; boundary/global/nonlocal or restricted-data alternatives remain. A finite positive weight
+    alone does not select prediction. Ordinary eligible science and pending LC opportunity continue; no
+    waiting rule.
+  priority_effect: Standing program_focus, schedules and scientific verdicts unchanged; directed completion
+    questions consumed in exact scopes.
+  counter_accounting: 49->50 once; LB-CLASS8->9; no bet credit; pendingLC retained
 source_action_offsection_metric_2026_11_25:
   status: internally_reviewed_candidate_mathematics
   actual_delta: The complete off-section metric coefficient is evaluated exactly. Across a quantified

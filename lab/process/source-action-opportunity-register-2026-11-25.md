@@ -130,3 +130,7 @@ Each pair below links the full theoretical insight/plain-language story/analogy 
 ## Off-section follow-through (2026-11-25)
 
 O15 now owns the complete local fourth-order coefficient, its exact three-scalar-channel dependence and the full fixed-geometry differential connection block. The first certified root changes sign across the stated TT fibre curve; the second remains positive there. Fibre integration, full coupled lower blocks and physical interpretation remain open. All fifty lenses and twenty-nine questions are retained. Ordinary priorities and governance are unchanged. [Result](../../explorations/conditional-build/source-action-offsection-metric-2026-11-25.md).
+
+## Predictive-completeness follow-through (2026-11-25)
+
+O04 now owns actual analytic history surjectivity, infinite whole-history kernel and the precisely scoped finite-local-lift exclusion. This does not exclude arbitrary four-dimensional physical or probabilistic completions. Boundary/nonlocal/restricted-domain alternatives remain linked to their missing source/state data. Finite normalization and predictive selection remain separate. All fifty lenses and twenty-nine questions are retained; ordinary priorities unchanged. [Result](../../explorations/conditional-build/source-action-slice-completion-2026-11-25.md).

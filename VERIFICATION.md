@@ -17,6 +17,14 @@ External review is not a pathway in this program. The honesty label stays: inter
 
 Sections below are historical snapshots in file order.
 
+## Actual slice histories and finite-local completion (2026-11-25)
+
+Actual unrestricted analytic solution germs realize every local observed field history and have an infinite-dimensional whole-history kernel. A varying-cone theorem excludes the stated finite-local lift class. Finite normalization does not select a signed coefficient average. No source/physical/class-C verdict.
+
+The finite-local exclusion is internally reviewed at T1 with two independent mathematical reviewers, hostile review and a five-lemma Lean algebra core. Analytic CK/free-jet/continuity steps are written proofs;236 exact principal controls pass. Probabilistic predictions with full support are not excluded. Scientific verdicts and steering are unchanged.
+
+[Result](explorations/conditional-build/source-action-slice-completion-2026-11-25.md) · [Evidence](lab/process/source-action-slice-completion.json).
+
 ## Exact off-section candidate metric response (2026-11-25)
 
 The complete off-section metric coefficient is evaluated exactly. Across a quantified one-parameter fibre/base family, the first stationary background has a sign-changing fourth-order receiver while the second stays positive. Full fixed-geometry connection Hessian is explicit; no integrated or physical stability verdict.

@@ -1,0 +1,93 @@
+{
+  "artifact": "source-action-slice-completion",
+  "date": "2026-11-25",
+  "basis_revision": "3154a54127063391f27be6ae66d4db7c5dc8595f",
+  "program_target": "LB-CLASS / X-P1-P2-P3",
+  "tier": "T1_internal_class_exclusion_T2_other_results",
+  "status": "internally_reviewed_T1_internal_class_T2_other_results",
+  "actual_delta": "Actual unrestricted analytic solution germs realize every local observed field history and have an infinite-dimensional whole-history kernel. A varying-cone theorem excludes the stated finite-local lift class. Finite normalization does not select a signed coefficient average. No source/physical/class-C verdict.",
+  "claim_effect": "No source/physics/class-C/canon/paper or scientific matrix verdict.",
+  "evidence": [
+    "explorations/conditional-build/source-action-slice-completion-2026-11-25.md",
+    "tests/program-focus/source_action_slice_completion_probe.py",
+    "Lean/GUFormalization/SliceCompletion.lean",
+    "lab/process/hostile-reviews/2026-11-25-source-action-slice-completion-review.md"
+  ],
+  "exact_probe": {
+    "controls": 236,
+    "principal_inverse_full_columns": 15,
+    "complex_carrier_rank": 1920,
+    "complex_literal_readout_rank": 640,
+    "jet_rank_formula_complex": "640*(N+1)",
+    "jet_kernel_formula_complex": "1280*(N+1)",
+    "jet_rank_formula_real": "1280*(N+1)",
+    "jet_kernel_formula_real": "2560*(N+1)",
+    "native_shifted_cone_full_columns": 15,
+    "generic_spatial_covectors": 3,
+    "native_diagonal_right_inverse_orders": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "native_principal_visible_polynomial_degrees": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "native_principal_whole_history_kernel": true,
+    "scope": "Controls verify actual repaired principal algebra. Variable-coefficient analytic onto/lift/kernel and rank claims rely on written CK/free-jet proofs; no physical contour/domain selected."
+  },
+  "lean": {
+    "status": "passed",
+    "theorems": 5,
+    "command": "lake env lean Lean/GUFormalization/SliceCompletion.lean",
+    "scope": "Finite matrix algebra only; analytic CK, free jets, determinant finite exceptions and continuity reviewed in writing.",
+    "warnings": "unused section variable lints only; no errors or proof placeholders"
+  },
+  "class_exclusion": {
+    "target": "INTERNAL-FINITE-LOCAL-METRIC-FIBRE-LIFT",
+    "scope": "Analytic first-order operators with an invertible normal symbol and surjective literal section map; codimension at least2 for the infinite-kernel statement; for the exclusion, the open Lorentz metric-fibre shifted-Clifford-cone symbol class and finite-order spatial differential lifts from finite-rank fibre-independent analytic first-order base evolution with arbitrary local analytic Cauchy data. The actual W2 K95 candidate belongs; class-C/source necessity is not established.",
+    "source_necessity": "not established",
+    "physical_state_admission": "undetermined"
+  },
+  "memory_decision": "No owned source/physical evolution-domain-projection tuple found; completed approved native differential-restriction discriminator rather than formal memory identity.",
+  "next_condition": "The completion must specify a deterministic or probabilistic law governing observed histories. Any nonzero deterministic lift into this actual operator must leave a finite-local-lift hypothesis; boundary/global/nonlocal or restricted-data alternatives remain. A finite positive weight alone does not select prediction. Ordinary eligible science and pending LC opportunity continue; no waiting rule.",
+  "counter_accounting": "49->50 once; LB-CLASS8->9; no bet credit; pendingLC retained",
+  "priority_effect": "Standing program_focus, schedules and scientific verdicts unchanged; directed completion questions consumed in exact scopes.",
+  "review": {
+    "finite_lift_mathematics": "two independent final specialist acceptances after analytic-coefficient and rank/decoder precisions",
+    "hostile_source": "accepted with codimension>=2 kernel and probabilistic-law scope explicit",
+    "external_or_full_Lean_PDE_certificate": false
+  },
+  "source_bridge": "conditional; physical/source necessity of tested state/lift category not established",
+  "validation": {
+    "process_gates": {
+      "program_focus_audit": "passed",
+      "typed_carrier_declaration_audit": "passed",
+      "source_native_comparator_routing_audit": "passed",
+      "kill_target_claim_audit": "passed",
+      "reverse_scaffold_direction_audit": "passed",
+      "frontmatter_status_schema_audit": "passed",
+      "lean_certificate_surface_audit": "passed",
+      "current_state_absolute_currency_audit": "passed"
+    },
+    "exact_probe": "236 controls passed",
+    "lean": "five finite matrix lemmas compiled; not full PDE formalization",
+    "default_inventory": "registered in Lean entrypoint, README and verification ledger",
+    "written_proof_review": "two independent mathematical specialists and separate hostile source reviewer",
+    "diff_check": "passed"
+  },
+  "artifact_sha256": {
+    "explorations/conditional-build/source-action-slice-completion-2026-11-25.md": "6dedc9e07ce67f3be38b386d41a70285f688d77a354a0184f31c7e985b1ea403",
+    "tests/program-focus/source_action_slice_completion_probe.py": "9992fc60da913e8df8507f0dd393299c3d477ed43505af46757fc13575a1e12d",
+    "Lean/GUFormalization/SliceCompletion.lean": "c017c4c1efc370cb05a59204a70eddb8adbc6b8b2d3086dbff6f7185c23c5a65",
+    "lab/process/hostile-reviews/2026-11-25-source-action-slice-completion-review.md": "c047572c7598d039e35eee2ca7582dbb9b0880643d23d3ef2f1bce7d8954fa6d"
+  },
+  "constructive_survivor": "Chosen analytic history-germ right inverse embeds selected analytic base histories; noncanonical and not causal, bounded, global or source-selected. The finite-order obstruction retains its linear/fibre-independent/free-data scope."
+}
