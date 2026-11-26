@@ -140,6 +140,68 @@ program_focus:
     covered; source relevance separately from mathematical breadth; shared prerequisite if any; remaining
     cost; strongest eligible alternative. A blocked high-value target is not an eligible alternative without
     its missing input. Reuse completed theorems and compare only their uncovered successors.'
+source_action_rotation_rigidity_2026_11_26:
+  authority: joe_direct_chat_2026_11_26_prove_something_profound
+  status: internal_reviewed_T1_conditional_classification_and_analytic_right_inverse
+  actual_delta: Any naturally covariant analytic solution collection with a non-invariant constant-seed
+    hyperplane is base-constant. The held A01 seed has no nonzero rotation-stable spatial-L2 subspace.
+    Among linear hyperplanes in the homogeneous frame, Lorentz covariance forces the trace/fixed-volume
+    plane; its equivariant local CK right inverse admits every analytic observed history, so covariance
+    alone supplies no nontrivial finite-order observed law.
+  evidence:
+  - explorations/conditional-build/source-action-rotation-rigidity-2026-11-26.md
+  - lab/process/source-action-rotation-rigidity.json
+  - tests/program-focus/source_action_rotation_rigidity_probe.py
+  - Lean/GUFormalization/RotationRigidity.lean
+  - lab/process/hostile-reviews/2026-11-26-source-action-rotation-rigidity-review.md
+  class_scope: Canonical homogeneous equivariant frame, linear constant-seed normal hyperplanes, analytic
+    column system with trace-shift-invariant complete lower operator, native diagonal horizontal scaling and invertible nonnull symbol. Not
+    all source actions, nonlinear seed surfaces or physical quotients.
+  consumed:
+  - step: 5r
+    result: Strengthened from full-component boost exclusion to all state restrictions and all linear
+      seed hyperplanes.
+  - step: 5s old-domain polarization subquestion
+    result: Any nontrivial ordinary rotation-stable subspace of the same A01 image is excluded. Source-selected
+      changed quotient/readout/domain remains outside.
+  next_directed_worksets:
+  - step: 5s.1
+    status: ready
+    title: Source-supplied restriction of the covariant analytic history space
+    target: LB-CLASS
+    tier: T2; T1 if a scoped exclusion follows
+    expected_delta: Identify a source-constrained physical relation that actually restricts observed histories,
+      rather than merely supplying covariance or an observation lift.
+    premises:
+    - SC-OP-04 independent classical fields do not by themselves supply a physical barred relation
+    - Trace-seed right inverse is local analytic column evidence, not a positive paired or interacting
+      domain
+    - A replacement source/quotient/readout must have a typed bridge; no new choice family merely to survive
+    kill_condition: No source-supported restriction leaves an explicit missing selection datum; it is
+      not a GU falsification.
+    cost: Bounded source/operator/physical-domain audit; no new inverse or completion construction.
+    strongest_alternative: 5q.1 matched weak inverse response remains a diagnostic, with no physical transfer
+      from the excluded A01 domain.
+    source_bridge: absent for necessity of this candidate; source question is explicit
+  - step: 5q.1
+    status: ready as held-candidate diagnostic
+    title: Matched weak inverse response
+    target: LB-CLASS
+    tier: T2
+    expected_delta: Compute the required current on the actual constrained inverse response, retaining
+      matching divergence, moving lift and normal-frequency support.
+    premises:
+    - Existing A01 positive-domain/current certificates remain diagnostic only
+    - Trace-seed column theorem does not transfer their paired norm or current certificate
+    - Whole reached-module current annihilation is excluded; cancellation in J M^-1 source remains open
+    kill_condition: Only a matched weak calculation closes this response question; nonzero pointwise current
+      does not prove a physical ghost.
+    source_bridge: absent for candidate necessity
+  claim_effect: No scientific matrix, source/physics ledger, canon, paper, governance or scheduled-priority
+    changes.
+  choice_budget: 10 grouped families /4 viability bundles /bookkeeping net6 /0 source-selected predictions;
+    seed class constrained, no adopted replacement or new family.
+  accounting: One directed count61to62 and LBCLASS20to21; pending ordinary LC retained.
 source_action_paired_response_2026_11_26:
   authority: joe_direct_chat_2026_11_26_go_paired_response_wave
   status: internal_reviewed_T1_fixed_domain_exclusions_T2_current_and_response

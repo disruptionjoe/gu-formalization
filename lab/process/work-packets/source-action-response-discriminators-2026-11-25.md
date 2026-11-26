@@ -187,3 +187,18 @@ The fixed constant-seed CK completion is not closed under natural boosts, indepe
 |5s Source-grounded physical restriction|ready independently|LB-CLASS / T2|Identify which recorded source ingredient constrains a covariant physical domain or polarization|SC-META-53 uncertainty is not a quotient. No replacement domain or source claim is selected by this audit.|
 
 Do not redo mass-shell selection on the unchanged seed:5r excludes that repair for this entire fixed-seed class. Existing exact positivity and solution results remain diagnostic evidence. Choice inventory10/4/net6 and predictions0 unchanged. These are executable scientific successors, not a work-stop or permission checkpoint; ordinary pendingLC and scheduled priorities remain unchanged.
+
+## Symmetry rigidity and covariant history lifting (2026-11-26)
+
+Any naturally covariant analytic solution collection with a non-invariant constant-seed hyperplane is base-constant. The held A01 seed has no nonzero rotation-stable spatial-L2 subspace. Among linear hyperplanes in the homogeneous frame, Lorentz covariance forces the trace/fixed-volume plane; its equivariant local CK right inverse admits every analytic observed history, so covariance alone supplies no nontrivial finite-order observed law.
+
+[Proof](../../../explorations/conditional-build/source-action-rotation-rigidity-2026-11-26.md) · [Evidence](../source-action-rotation-rigidity.json).
+
+| Step | Status | Exact consequence |
+|---|---|---|
+|5r covariance|done, strengthened class-wide within declared seed/frame class|No ordinary rotation-stable nonzero spatial-L2 subspace of the A01 image, including arbitrary polarization restrictions.|
+|5s old-image polarization rescue|done, excluded|Changing mass shell, Gram or selecting fewer states cannot rescue this same ordinary field representation. A changed physical quotient/readout is outside.|
+|5s.1 source-supplied history restriction|ready; LB-CLASS/T2|Determine what source relation restricts the covariant analytic column history space. Expected delta: typed selection condition or exact missing datum. Kill: absent source relation is not a GU no-go; no new completion choice.|
+|5q.1 matched weak response|ready as diagnostic; LB-CLASS/T2|Retain actual inverse response, matched divergence and normal support. The trace-seed germ theorem supplies no transfer of A01 norm/current/physical-energy certificates.|
+
+The fixed-volume plane is a necessary and sharp column-germ classification, not an adopted physical completion. No new source prediction, choice family, policy or stop rule. Ordinary LC remains pending.

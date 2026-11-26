@@ -85,3 +85,4 @@ import GUFormalization.SteelmanDatum
 import GUFormalization.CurrentReceiver
 import GUFormalization.ReceiverStrategy
 import GUFormalization.PairedResponse
+import GUFormalization.RotationRigidity

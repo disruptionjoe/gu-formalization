@@ -511,3 +511,7 @@ bicategory, ambidexterity or Mackey 2-functor is inferred.
 ## Paired response finite core (2026-11-26)
 
 `Lean/GUFormalization/PairedResponse.lean`: **LEAN-VERIFIED**, seven finite lemmas on affine-jet subtraction, rational boost/norm arithmetic, Gram cancellation and the spin5 Casimir denominator. Targeted compilation passed; native coefficient certificates, CK covariance proof, weak PDE response and source validity are distinct obligations. [Result](../../explorations/conditional-build/source-action-paired-response-2026-11-26.md).
+
+## Rotation rigidity finite core (2026-11-26)
+
+`GUFormalization/RotationRigidity.lean`: **LEAN-VERIFIED**, nine finite lemmas for trace-scale cancellation, coordinate separation, injectivity, rotation transversality, conormal normalization and null unmasking. Targeted compilation passed. Analytic orbit saturation, CK existence and native naturality remain written proofs, not full Lean PDE certification. [Result](../../explorations/conditional-build/source-action-rotation-rigidity-2026-11-26.md).

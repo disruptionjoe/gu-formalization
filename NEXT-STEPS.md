@@ -16,6 +16,14 @@ Do not add "Current follow-through" sections or "Historical predecessor" stacks 
 matrix or bet file. The retired follow-through chain and banner stack are kept at the end of this file under
 "Archived steering history".
 
+## Symmetry selects geometry, not observed dynamics (2026-11-26)
+
+Any naturally covariant analytic solution collection with a non-invariant constant-seed hyperplane is base-constant. The held A01 seed has no nonzero rotation-stable spatial-L2 subspace. Among linear hyperplanes in the homogeneous frame, Lorentz covariance forces the trace/fixed-volume plane; its equivariant local CK right inverse admits every analytic observed history, so covariance alone supplies no nontrivial finite-order observed law.
+
+This is a local analytic column theorem in the stated homogeneous frame. Physical paired states, positive norm, interaction and source necessity remain unproved. No ledger verdict or choice-count change.
+
+[Proof](explorations/conditional-build/source-action-rotation-rigidity-2026-11-26.md) · [Evidence](lab/process/source-action-rotation-rigidity.json).
+
 ## Paired current and fixed-domain Lorentz result (2026-11-26)
 
 The fixed constant-seed CK completion is not closed under natural boosts, independently of dispersion. Its full-component identity charge also fails the stated physical boost-norm interpretation. At both roots and both realifications the actual first CK normal current jet survives every admitted Gram and real dispersion. Reached spin5 sources generate a95-dimensional first common-family shell; the two-source span fails at both roots. The current does not annihilate the whole reached module; cancellation in the required inverse response remains open. Full weak response and physical propagation remain undetermined.

@@ -1348,7 +1348,7 @@
       "selection_note": "Candidate construction/diagnostic only unless its stated structural family and source bridge satisfy current program_focus. A reserve is not scheduled work."
     }
   ],
-  "priority_effect": "Latest directed continuation follows paired_response_2026_11_26; completed mass-shell-only repair and two-source closure shortcuts are consumed/excluded. Ordinary program_focus and schedules unchanged.",
+  "priority_effect": "Directed continuation now follows rotation_rigidity_2026_11_26. Old-domain polarization rescue is excluded; source-selected history restriction is the remaining bridge. Scheduled policy unchanged.",
   "evidence": [
     "explorations/conditional-build/source-action-engineering-wave-2026-11-25.md",
     "lab/process/source-action-engineering-wave.json",
@@ -1500,5 +1500,46 @@
     ],
     "retained_pool": "All prior20 and50+50 assessments remain available; no renewed mandatory backlog.",
     "priority_effect": "Refines directed continuation only; ordinary program_focus/schedules unchanged."
+  },
+  "rotation_rigidity_2026_11_26": {
+    "basis_revision": "aefa70d80c905fdb7b5bb97ab587a4da75f4a402",
+    "result": "Any naturally covariant analytic solution collection with a non-invariant constant-seed hyperplane is base-constant. The held A01 seed has no nonzero rotation-stable spatial-L2 subspace. Among linear hyperplanes in the homogeneous frame, Lorentz covariance forces the trace/fixed-volume plane; its equivariant local CK right inverse admits every analytic observed history, so covariance alone supplies no nontrivial finite-order observed law.",
+    "evidence": "explorations/conditional-build/source-action-rotation-rigidity-2026-11-26.md",
+    "next_directed_worksets": [
+      {
+        "step": "5s.1",
+        "status": "ready",
+        "title": "Source-supplied restriction of the covariant analytic history space",
+        "target": "LB-CLASS",
+        "tier": "T2; T1 if a scoped exclusion follows",
+        "expected_delta": "Identify a source-constrained physical relation that actually restricts observed histories, rather than merely supplying covariance or an observation lift.",
+        "premises": [
+          "SC-OP-04 independent classical fields do not by themselves supply a physical barred relation",
+          "Trace-seed right inverse is local analytic column evidence, not a positive paired or interacting domain",
+          "A replacement source/quotient/readout must have a typed bridge; no new choice family merely to survive"
+        ],
+        "kill_condition": "No source-supported restriction leaves an explicit missing selection datum; it is not a GU falsification.",
+        "cost": "Bounded source/operator/physical-domain audit; no new inverse or completion construction.",
+        "strongest_alternative": "5q.1 matched weak inverse response remains a diagnostic, with no physical transfer from the excluded A01 domain.",
+        "source_bridge": "absent for necessity of this candidate; source question is explicit"
+      },
+      {
+        "step": "5q.1",
+        "status": "ready as held-candidate diagnostic",
+        "title": "Matched weak inverse response",
+        "target": "LB-CLASS",
+        "tier": "T2",
+        "expected_delta": "Compute the required current on the actual constrained inverse response, retaining matching divergence, moving lift and normal-frequency support.",
+        "premises": [
+          "Existing A01 positive-domain/current certificates remain diagnostic only",
+          "Trace-seed column theorem does not transfer their paired norm or current certificate",
+          "Whole reached-module current annihilation is excluded; cancellation in J M^-1 source remains open"
+        ],
+        "kill_condition": "Only a matched weak calculation closes this response question; nonzero pointwise current does not prove a physical ghost.",
+        "source_bridge": "absent for candidate necessity"
+      }
+    ],
+    "retained_pool": "Existing20 and50+50 suggestions remain available, not a mandatory backlog. Invariant Borel probability classification was duplicate and not counted. Scalar-only finite-spectrum argument is subsumed for the held homogeneous class, with possible broader-lower-operator application retained.",
+    "priority_effect": "Directed continuation refined; program_focus and scheduled priorities unchanged."
   }
 }

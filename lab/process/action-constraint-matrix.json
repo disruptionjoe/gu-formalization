@@ -1788,7 +1788,7 @@
     },
     "LB-CLASS": {
       "zero_delta_streak": 0,
-      "runs": 20,
+      "runs": 21,
       "status": "open"
     },
     "LB-LADDER": {
@@ -2707,7 +2707,7 @@
   ],
   "program_run_counter": {
     "since": "2026-11-09",
-    "count": 61,
+    "count": 62,
     "rule": "Every hourly run increments this in its postflight, whatever its lane. Lane C runs when count % 4 == 3 before the increment."
   },
   "working_rule": "Cells are worked at the structure level: a requirement must hold for every action in class C or for a structurally defined subfamily. No cell is worked by writing down a specific action, and no gated cell is worked by building its gate object. See CURRENT-STATE.yaml program_focus.structure_not_specifics.",
@@ -3047,6 +3047,21 @@
         "lab/process/source-action-paired-response.json"
       ],
       "claim_effect": "No scientific verdict/shrinkage/bet/choice/ordinary-priority change; pending ordinaryLC retained."
+    },
+    {
+      "date": "2026-11-26",
+      "authority": "joe_direct_chat_2026_11_26_prove_something_profound",
+      "item": "Symmetry-rigid seed classification and covariant history surjectivity",
+      "tier": "T1_internal_conditional_class_theorem",
+      "counter_before": 61,
+      "counter_after": 62,
+      "lane": "LB-CLASS",
+      "actual_delta": "Any naturally covariant analytic solution collection with a non-invariant constant-seed hyperplane is base-constant. The held A01 seed has no nonzero rotation-stable spatial-L2 subspace. Among linear hyperplanes in the homogeneous frame, Lorentz covariance forces the trace/fixed-volume plane; its equivariant local CK right inverse admits every analytic observed history, so covariance alone supplies no nontrivial finite-order observed law.",
+      "evidence": [
+        "explorations/conditional-build/source-action-rotation-rigidity-2026-11-26.md",
+        "lab/process/source-action-rotation-rigidity.json"
+      ],
+      "claim_effect": "No scientific verdict/shrinkage/bet/new-choice/ordinary-priority change; pending LC retained."
     }
   ],
   "directed_lc_carry_2026_11_24_b": {
@@ -3346,7 +3361,9 @@
           "lab/process/source-action-receiver-strategy.json",
           "lab/process/source-action-math20-approaches-2026-11-26.json",
           "explorations/conditional-build/source-action-paired-response-2026-11-26.md",
-          "lab/process/source-action-paired-response.json"
+          "lab/process/source-action-paired-response.json",
+          "explorations/conditional-build/source-action-rotation-rigidity-2026-11-26.md",
+          "lab/process/source-action-rotation-rigidity.json"
         ],
         "choices": "Historical original choices are retained below; current held fermion repair is SE=-1/2 (SE0 superseded), kappa1 with two unselected roots. Typed candidate_choice_budget separates core/completion/pending/comparator/parked choices.",
         "wave2_update": {
@@ -3590,6 +3607,46 @@
             }
           ],
           "remaining": "Matched normal weak divergence, actual constrained-lift derivatives, required normal-frequency support, source-selected physical domain and propagation/quotient."
+        },
+        "rotation_rigidity_update": {
+          "result": "Any naturally covariant analytic solution collection with a non-invariant constant-seed hyperplane is base-constant. The held A01 seed has no nonzero rotation-stable spatial-L2 subspace. Among linear hyperplanes in the homogeneous frame, Lorentz covariance forces the trace/fixed-volume plane; its equivariant local CK right inverse admits every analytic observed history, so covariance alone supplies no nontrivial finite-order observed law.",
+          "source_necessity": "absent",
+          "class_C_representativeness": "unproved",
+          "remaining": "Source-selected physical history restriction, paired/adjoint/domain and interaction bridge. Trace-seed covariance alone is insufficient.",
+          "next_worksets": [
+            {
+              "step": "5s.1",
+              "status": "ready",
+              "title": "Source-supplied restriction of the covariant analytic history space",
+              "target": "LB-CLASS",
+              "tier": "T2; T1 if a scoped exclusion follows",
+              "expected_delta": "Identify a source-constrained physical relation that actually restricts observed histories, rather than merely supplying covariance or an observation lift.",
+              "premises": [
+                "SC-OP-04 independent classical fields do not by themselves supply a physical barred relation",
+                "Trace-seed right inverse is local analytic column evidence, not a positive paired or interacting domain",
+                "A replacement source/quotient/readout must have a typed bridge; no new choice family merely to survive"
+              ],
+              "kill_condition": "No source-supported restriction leaves an explicit missing selection datum; it is not a GU falsification.",
+              "cost": "Bounded source/operator/physical-domain audit; no new inverse or completion construction.",
+              "strongest_alternative": "5q.1 matched weak inverse response remains a diagnostic, with no physical transfer from the excluded A01 domain.",
+              "source_bridge": "absent for necessity of this candidate; source question is explicit"
+            },
+            {
+              "step": "5q.1",
+              "status": "ready as held-candidate diagnostic",
+              "title": "Matched weak inverse response",
+              "target": "LB-CLASS",
+              "tier": "T2",
+              "expected_delta": "Compute the required current on the actual constrained inverse response, retaining matching divergence, moving lift and normal-frequency support.",
+              "premises": [
+                "Existing A01 positive-domain/current certificates remain diagnostic only",
+                "Trace-seed column theorem does not transfer their paired norm or current certificate",
+                "Whole reached-module current annihilation is excluded; cancellation in J M^-1 source remains open"
+              ],
+              "kill_condition": "Only a matched weak calculation closes this response question; nonzero pointwise current does not prove a physical ghost.",
+              "source_bridge": "absent for candidate necessity"
+            }
+          ]
         }
       }
     ],
@@ -4030,25 +4087,25 @@
         "newly_exposed_live_function_freedom": [],
         "replaced_or_refined_families": [],
         "constrained_categories": [
-          "Fixed-H constant-I CK image cannot be naturally boost-closed on a nontrivial mapped band, regardless dispersion.",
-          "Full640independent-component identity amplitude charge fails natural boost-invariant physical interpretation.",
-          "Initial two-source spin5 span fails at both roots; common59-map first shell has95complexhighestweight dimensions."
+          "All non-invariant linear constant-seed hyperplanes excluded for nonconstant covariant fields under stated homogeneous analytic assumptions.",
+          "Lorentz-covariant column germ lifting forces the trace seed but admits every analytic observed history.",
+          "Every ordinary rotation-stable spatial-L2 subspace of the held A01 completion is zero."
         ],
         "new_independent_mathematical_compatibility_bundles": 0,
         "new_source_or_observable_prediction_constraints": 0,
         "net_choices_minus_new_compatibility_bundles": 0,
         "net_choices_minus_new_prediction_constraints": 0,
         "counts_provisional_until_new_bundle_accepted": false,
-        "baseline_note": "No new family or prediction. Explicit homogeneous chart specializes an existing choice; diagnostic positive-domain bundle remains valid, its physical covariance interpretation is excluded."
+        "baseline_note": "Seed-choice family constrained, no adopted replacement, new family or physical viability bundle. Existing diagnostic positivity remains valid but cannot be promoted via a polarization restriction of the same image."
       },
       "drift_assessment": {
         "numeric_growth_signal": false,
         "numeric_basis": "0 new choices/0 newly satisfied full viability bundles; inventory10/4/bookkeepingnet6 unchanged.",
         "functional_warning": "Unfalsifiability drift risk: a whole observed dispersion function remains freely selectable despite exact equations and positivity; mathematical compatibility improves but predictive underdetermination is not reduced.",
         "scope": "Warning about the unconstrained candidate-completion strategy, not proof GU is unfalsifiable and not a source/ledger verdict.",
-        "continuation": "Compare matched weak-response tests with a source-grounded covariant physical-restriction audit; do not repair the same constant seed merely by changing dispersion.",
+        "continuation": "Test source-supplied history selection; covariance alone is proved insufficient in this column class. Matched weak response remains a separately scoped diagnostic.",
         "prediction_growth_signal": false,
-        "prediction_basis": "No physical completion or source-selected prediction is selected; the entire current fixed-seed physical interpretation is excluded under its natural-covariance premises."
+        "prediction_basis": "Every analytic observed jet lifts covariantly; no source-selected prediction or physical completion is derived."
       },
       "dependency_summary": [
         "Core geometry/operator/coupling/domain -> local stationary backgrounds.",
@@ -4446,6 +4503,49 @@
             "continuation": "Compare matched weak-response tests with a source-grounded covariant physical-restriction audit; do not repair the same constant seed merely by changing dispersion.",
             "prediction_growth_signal": false,
             "prediction_basis": "No physical completion or source-selected prediction is selected; the entire current fixed-seed physical interpretation is excluded under its natural-covariance premises."
+          }
+        },
+        {
+          "date": "2026-11-26",
+          "evidence": "explorations/conditional-build/source-action-rotation-rigidity-2026-11-26.md",
+          "snapshot": {
+            "core_candidate_families": 5,
+            "diagnostic_completion_families": 5,
+            "active_total_families": 10,
+            "pending_families": 2,
+            "comparator_only_families": 1,
+            "parked_families": 1,
+            "unselected_function_family": "observed-dispersion",
+            "source_or_observable_predictions_fixed": 0,
+            "independent_mathematical_obligation_bundles": 4,
+            "net_families_minus_mathematical_bundles": 6
+          },
+          "delta": {
+            "baseline_active_family_count": 10,
+            "current_active_family_count": 10,
+            "newly_introduced_families": [],
+            "newly_exposed_live_function_freedom": [],
+            "replaced_or_refined_families": [],
+            "constrained_categories": [
+              "All non-invariant linear constant-seed hyperplanes excluded for nonconstant covariant fields under stated homogeneous analytic assumptions.",
+              "Lorentz-covariant column germ lifting forces the trace seed but admits every analytic observed history.",
+              "Every ordinary rotation-stable spatial-L2 subspace of the held A01 completion is zero."
+            ],
+            "new_independent_mathematical_compatibility_bundles": 0,
+            "new_source_or_observable_prediction_constraints": 0,
+            "net_choices_minus_new_compatibility_bundles": 0,
+            "net_choices_minus_new_prediction_constraints": 0,
+            "counts_provisional_until_new_bundle_accepted": false,
+            "baseline_note": "Seed-choice family constrained, no adopted replacement, new family or physical viability bundle. Existing diagnostic positivity remains valid but cannot be promoted via a polarization restriction of the same image."
+          },
+          "drift_assessment": {
+            "numeric_growth_signal": false,
+            "numeric_basis": "0 new choices/0 newly satisfied full viability bundles; inventory10/4/bookkeepingnet6 unchanged.",
+            "functional_warning": "Unfalsifiability drift risk: a whole observed dispersion function remains freely selectable despite exact equations and positivity; mathematical compatibility improves but predictive underdetermination is not reduced.",
+            "scope": "Warning about the unconstrained candidate-completion strategy, not proof GU is unfalsifiable and not a source/ledger verdict.",
+            "continuation": "Test source-supplied history selection; covariance alone is proved insufficient in this column class. Matched weak response remains a separately scoped diagnostic.",
+            "prediction_growth_signal": false,
+            "prediction_basis": "Every analytic observed jet lifts covariantly; no source-selected prediction or physical completion is derived."
           }
         }
       ],
