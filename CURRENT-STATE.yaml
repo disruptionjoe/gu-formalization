@@ -1,7 +1,7 @@
 schema_version: '1.0'
 repository: observerse-research-program
 branch: main
-revision_basis: 7c99e7edbf2aeca25bfd04bc7c470412c40edbfb
+revision_basis: 0bb062636672cf5e29066aba952dab4732118b04
 program_focus:
   version: 2026-11-25-v1
   authority: joe_direct_chat_2026_11_25_five_process_improvements_approved
@@ -140,6 +140,27 @@ program_focus:
     covered; source relevance separately from mathematical breadth; shared prerequisite if any; remaining
     cost; strongest eligible alternative. A blocked high-value target is not an eligible alternative without
     its missing input. Reuse completed theorems and compare only their uncovered successors.'
+source_action_variable_completion_2026_11_25:
+  status: internally_reviewed_T2_selected_linear_matter
+  actual_delta: Exact actual-variable finite-band matter/dual completion with bounded literal observation,
+    positive native base-time phase charge and nonnegative canonical matter energy for any chosen bounded
+    nonnegative dispersion. The selected domain changes with the dispersion; no source/physical/coupled-gravity
+    verdict.
+  evidence:
+  - explorations/conditional-build/source-action-variable-completion-2026-11-25.md
+  - lab/process/source-action-variable-completion.json
+  - tests/program-focus/source_action_variable_completion_probe.py
+  - Lean/GUFormalization/VariableCompletion.lean
+  - lab/process/hostile-reviews/2026-11-25-source-action-variable-completion-review.md
+  claim_effect: No source/physics/class-C/canon/paper or scientific matrix verdict.
+  next_condition: 'Directed coupled ghost diagnostic: full kernel/subprincipal constraints and physical
+    reduction/pairing; selected positive linear-matter domain does not supply a bosonic quotient. Source
+    selection/global/interacting closure remain open.'
+  priority_effect: Joe Nov25(i) directed completion then ghost diagnostic; ordinary program_focus, LC
+    cadence and schedules unchanged.
+  choice_accounting: 10 active choice families,4 mathematical bundles,net6; wave introduced1/newbundle1
+    net0;0 source predictions and arbitrary dispersion function still free, drift risk flagged.
+  counter_accounting: 51->52 once; LBCLASS10->11; no bet credit; pendingLC retained
 source_action_predictive_realization_2026_11_25:
   status: independently_reviewed_internal_mathematics
   actual_delta: Generic full-solution local bar-graph obstruction in the held59 coupling family, certified

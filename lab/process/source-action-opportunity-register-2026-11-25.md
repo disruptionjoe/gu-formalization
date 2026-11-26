@@ -138,3 +138,7 @@ O04 now owns actual analytic history surjectivity, infinite whole-history kernel
 ## Predictive-realization evidence (2026-11-25)
 
 O04 now distinguishes same-phase PsiDO exclusion from a full-frozen bounded nonlocal observation domain. O06 records the generic full-solution local bar-graph obstruction, retaining restricted/nonlocal contours. O15 records regular coupled principal responses through the tested null cone, with the full subprincipal/domain problem separate. All50 lenses and29 opportunities remain; no scheduled rerank or source/physics verdict. [Result](../../explorations/conditional-build/source-action-predictive-realization-2026-11-25.md) and [certificate](source-action-predictive-realization.json).
+
+## Actual-variable completion update (2026-11-25)
+
+[Result](../../explorations/conditional-build/source-action-variable-completion-2026-11-25.md): O04/O06 now have an actual-variable finite-band native field/dual completion with positive linear-matter time charge/energy. Its dispersion remains chosen. O15 retains the full coupled ghost diagnostic as the directed successor, with the physical quotient and pairing still explicit. All50 lenses and29 opportunities remain preserved; candidate choice accounting lives in the existing assumption view.

@@ -84,3 +84,16 @@ The due LC opportunity at counter47 is retained in the existing matrix accountin
 |---|---|---|---|---|
 | 5g Full-solution local reality and nonlocal completion classes | done in declared scopes | LB-CLASS / T1 internal exclusions, T2 constructive result | Generic local graph exclusion; exact frozen bounded observation domain | No source-required contour, actual variable-domain or positive physical quotient supplied |
 | 5h Coupled leading-symbol range and null regularity | done in quantified principal family | LB-CLASS / T2 | Polynomial response through null frequencies for all10 metric amplitudes | Complete kernel/subprincipal hierarchy, full fibre reduction and physical modes remain distinct |
+
+## Nov25(h/i): actual completion and the next directed diagnostic
+
+Authority: Joe direct Nov25(i). [Actual-variable result](../../../explorations/conditional-build/source-action-variable-completion-2026-11-25.md) consumes the bounded native completion/positivity wave at selected linear-matter scope. The h dynamical-metric and probability questions are answered there from existing results; no repeat calculation is required. Step5e's source-selected full physical law remains distinct.
+
+| Step | Status | Target / tier | Expected delta | Scope / negative-result meaning |
+|---|---|---|---|---|
+| 5i Actual variable-coefficient restricted completion and time positivity | done in finite-band/local-tube fixed-background linear scope | LB-CLASS / T2 | Exact native field/dual, bounded readout, positive action phase charge and nonnegative canonical matter energy; arbitrary chosen dispersion survives | Not source-selected, nonlinear coupled, globally normal-L2 or physical Lorentz/adjoint completion |
+| 5j Full coupled ghost diagnostic | ready next in directed construction; physical verdict conditional on typed quotient/domain/pairing | LB-CLASS / T2, T1 if a scoped exclusion is established | Complete kernel/subprincipal and action-derived constraint analysis toward LT-GR1 massless helicity2, massive spin and physical norm tests | No metric-only sign, ambient Krein inertia,59-Jacobian inverse or selected linear-matter pairing as a bosonic ghost verdict |
+
+Step5j follows this completed bounded wave; it does not wait for a complete selection theory. Exact missing input restricts only the inference needing it, while the coupled equations and eligible science continue. Existing ordinary B-packet selection, LC cadence and schedules remain unchanged.
+
+The assumption view's candidate_choice_budget now owns per-wave grouped choice/constraint accounting, dependencies and drift warning under Joe's approval. Count whole functions and domains visibly; no automatic stop or reprioritization reset. No committed general-elephant sheet was located; the requested scoped draft sentence is preserved in the result's section12 rather than inventing a paper release.

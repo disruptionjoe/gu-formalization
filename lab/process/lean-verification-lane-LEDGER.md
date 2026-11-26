@@ -475,3 +475,7 @@ bicategory, ambidexterity or Mackey 2-functor is inferred.
 ## Predictive-realization finite core (2026-11-25)
 
 `Lean/GUFormalization/PredictiveRealization.lean` checks nine lemmas: finite-minor injectivity, strict norm and approximate-left-inverse injectivity, and complex involution projector identities. No proof placeholders. The Clifford classification, actual450 coefficient assembly, rational root-ball certificates, pseudodifferential induction and PDE estimates remain separately reviewed written/computational evidence. The actual contour replay passes6300 principal controls and both full450 rank certificates; this is not a physical/source verdict. [Result](../../explorations/conditional-build/source-action-predictive-realization-2026-11-25.md).
+
+## Actual-variable completion finite core (2026-11-25)
+
+`Lean/GUFormalization/VariableCompletion.lean`: **LEAN-VERIFIED**, eight finite matrix/complex-algebra lemmas for left Gram normalization and the actual real-action phase/charge/energy/symplectic signs. Parameterized CK, Parseval, native analytic coefficients and physical/source scope are written/reviewed hypotheses. Targeted `lake env lean` passed; no default whole-project build claim. Evidence: `explorations/conditional-build/source-action-variable-completion-2026-11-25.md`.

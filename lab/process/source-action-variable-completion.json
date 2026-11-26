@@ -1,0 +1,122 @@
+{
+  "artifact": "source-action-variable-completion",
+  "date": "2026-11-25",
+  "basis_revision": "0bb062636672cf5e29066aba952dab4732118b04",
+  "tier": "T2",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "actual_delta": "Exact actual-variable finite-band matter/dual completion with bounded literal observation, positive native base-time phase charge and nonnegative canonical matter energy for any chosen bounded nonnegative dispersion. The selected domain changes with the dispersion; no source/physical/coupled-gravity verdict.",
+  "scope": "Analytic base-translation-invariant first-order/dual systems with invertible normal and time coefficients and surjective literal readout; the two fixed W2 K95 stationary backgrounds meet these premises. Chosen compact positive-measure spatial-frequency band, bounded dispersion and finite normal tube.",
+  "quantifier": "For every chosen bounded real dispersion on compact positive-measure K, there exists a corresponding selected local-tube domain and native-dual graph. For nonnegative dispersion canonical linear-matter time energy is nonnegative.",
+  "current_convention": {
+    "row_phase": "+i",
+    "density": "eta=rho*beta; coordinate dual has density absorbed",
+    "phase_generator": "delta psi=-i psi",
+    "charge": "integral_K |a|^2",
+    "symplectic": "-2 Im <a,b>",
+    "compatible_complex_structure": "-i",
+    "canonical_matter_time_energy": "integral_K omega |a|^2",
+    "hamiltonian_convention": "i_X Omega=-dE",
+    "gram_normalization": "N^-1 V on the left; N need not be Hermitian"
+  },
+  "derived_choices": [
+    "B=q",
+    "native dual transport after initial condition",
+    "left Gram normalization",
+    "positive-energy contour sign convention"
+  ],
+  "still_selected": [
+    "finite spectral band/time chart",
+    "initial normal lift",
+    "dispersion function",
+    "normal tube",
+    "nonlocal contour/domain category"
+  ],
+  "h_questions": {
+    "dynamic_metric": "Prior exact bars-zero coupled sector shows metric alone insufficient in unrestricted category; physical restrictions remain open.",
+    "probability": "No universal extra non-natural reference necessity: singular conformal-ray laws and extra-covariant-data laws survive. External datum conditional on source requirements and non-derivability."
+  },
+  "choice_budget_ref": "lab/process/action-constraint-matrix.json#source_relevance_assumption_view.candidate_choice_budget",
+  "constraints_changed": false,
+  "ghost_test_status": "full test unrun; directed next, no waiting for complete selection",
+  "scope_limits": [
+    "fixed stationary bosonic background; paired matter backreacts",
+    "finite band not generically interaction-closed",
+    "local finite tube, no all-frequency/global-fibre estimate",
+    "total integrated lateral flux only, no pointwise reflecting faces",
+    "literal barred physical adjoint unproved",
+    "no Lorentz-covariant physical state domain or quantum quotient",
+    "no total gravitational-energy or ghost conclusion"
+  ],
+  "probe": {
+    "controls": 96,
+    "native_principal_controls": 65,
+    "variable_density_dual_controls": 12,
+    "normalization_controls": 3,
+    "phase_charge_energy_controls": 12,
+    "dispersion_controls": 4,
+    "phase_table": [
+      {
+        "phase": [
+          "1",
+          "0"
+        ],
+        "charge_factor": "0",
+        "symplectic_at_inner_2plus3i": "0",
+        "energy_at_omega5": "0"
+      },
+      {
+        "phase": [
+          "0",
+          "1"
+        ],
+        "charge_factor": "1",
+        "symplectic_at_inner_2plus3i": "-6",
+        "energy_at_omega5": "5"
+      },
+      {
+        "phase": [
+          "0",
+          "-1"
+        ],
+        "charge_factor": "-1",
+        "symplectic_at_inner_2plus3i": "6",
+        "energy_at_omega5": "-5"
+      }
+    ],
+    "derivative_omission_detected": true,
+    "wrong_matrix_order_detected": true,
+    "scope": "Native repaired noncharacteristic/readout algebra; synthetic exact variable-density dual, non-Hermitian Gram and real-action phase controls. Uniform CK, infinite-dimensional bounds, native specialization and source relevance are written/reviewed proofs, not inferred from samples."
+  },
+  "lean": {
+    "path": "Lean/GUFormalization/VariableCompletion.lean",
+    "lemmas": 8,
+    "status": "targeted_compilation_passed",
+    "scope": "finite matrix/complex algebra; CK and physical interpretation not formalized"
+  },
+  "reviews": [
+    "lab/process/hostile-reviews/2026-11-25-source-action-variable-completion-review.md"
+  ],
+  "validation": {
+    "native_audits": {
+      "program_focus_audit": "PASS",
+      "typed_carrier_declaration_audit": "PASS",
+      "source_native_comparator_routing_audit": "PASS",
+      "kill_target_claim_audit": "PASS",
+      "reverse_scaffold_direction_audit": "PASS",
+      "frontmatter_status_schema_audit": "PASS",
+      "lean_certificate_surface_audit": "PASS",
+      "current_state_absolute_currency_audit": "PASS"
+    },
+    "diff_check": "PASS",
+    "semantic_checks": "Counts, references, program_focus/scientific-verdict preservation and all50 lenses/29 opportunities checked.",
+    "review": "fresh mathematical reviewer and source/hostile reviewer accepted final integrated report"
+  },
+  "dependencies": {
+    "explorations/conditional-build/source-action-variable-completion-2026-11-25.md": "4b0428c12d4815dc91e99a5c24c6fc48c02d28e71ddebd9014e46ac5fa2902b1",
+    "tests/program-focus/source_action_variable_completion_probe.py": "7112ec72447af82ec849d1002e6f800a8326c8b06a2dc23432f71b0a25891b9b",
+    "Lean/GUFormalization/VariableCompletion.lean": "5ef81cd8009febb5bc8d762172c137b059ace0b77bc2e49bacd2836c0ef4aba6",
+    "lab/process/hostile-reviews/2026-11-25-source-action-variable-completion-review.md": "2809804573068ef02255d8c115a2a7b140b30cec4b705a5a093eb3194a409e4d",
+    "explorations/conditional-build/source-action-predictive-realization-2026-11-25.md": "4263d860b786f34e4e8cb4cf7f32b1cc8da723a9292e4eb598eee526a70ca55a",
+    "explorations/conditional-build/source-action-slice-completion-2026-11-25.md": "6dedc9e07ce67f3be38b386d41a70285f688d77a354a0184f31c7e985b1ea403"
+  }
+}

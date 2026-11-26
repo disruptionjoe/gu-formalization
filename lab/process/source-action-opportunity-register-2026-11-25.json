@@ -587,7 +587,7 @@
         "DISTRIBUTED-09",
         "NETWORK-06"
       ],
-      "status": "same_phase_class_excluded_frozen_nonlocal_domain_constructed",
+      "status": "actual_variable_finite_band_completion_constructed",
       "scope": "candidate or explicitly declared structural diagnostic; not source-wide without bridge",
       "source_relevance": "conditional; use source-native carrier and registered premises",
       "evidence": [
@@ -597,11 +597,13 @@
         "explorations/conditional-build/source-action-slice-completion-2026-11-25.md",
         "lab/process/source-action-slice-completion.json",
         "explorations/conditional-build/source-action-predictive-realization-2026-11-25.md",
-        "lab/process/source-action-predictive-realization.json"
+        "lab/process/source-action-predictive-realization.json",
+        "explorations/conditional-build/source-action-variable-completion-2026-11-25.md",
+        "lab/process/source-action-variable-completion.json"
       ],
-      "remaining_input": "A source-admitted boundary/nonlocal/restricted-domain or predictive probability law; any deterministic candidate must state which finite-local-lift hypothesis it leaves.",
-      "revisit_when": "A source-admitted boundary/nonlocal/restricted-domain or predictive probability law; any deterministic candidate must state which finite-local-lift hypothesis it leaves.",
-      "disposition": "Actual analytic history map onto with infinite whole-history kernel; exact temporal-jet rank. Finite-order spatial lifts from freely initialized finite-rank fibre-independent analytic first-order base dynamics excluded across open metric fibre. Not all finite4D or physical completions.",
+      "remaining_input": "Source-derived restriction of dispersion or admitted states, with global and nonlinear closure; the existing finite-band positivity construction is completed evidence.",
+      "revisit_when": "Source-derived restriction of dispersion or admitted states, with global and nonlinear closure; the existing finite-band positivity construction is completed evidence.",
+      "disposition": "Exact selected finite-band domain has bounded literal observation; arbitrary chosen dispersion survives. Source selection, global and interaction closure remain.",
       "selection_note": "Candidate construction/diagnostic only unless its stated structural family and source bridge satisfy current program_focus. A reserve is not scheduled work.",
       "history": [
         {
@@ -621,6 +623,12 @@
           "previous_status": "completed_preserved_algebraic_finite_jet_scope",
           "previous_disposition": "Finite local initial encodings fail even within preserved analytic pointwise subbundles with qE nonzero and arbitrary normal data.",
           "superseding_evidence": "explorations/conditional-build/source-action-slice-completion-2026-11-25.md"
+        },
+        {
+          "date": "2026-11-25",
+          "previous_status": "same_phase_class_excluded_frozen_nonlocal_domain_constructed",
+          "previous_disposition": "Actual analytic history map onto with infinite whole-history kernel; exact temporal-jet rank. Finite-order spatial lifts from freely initialized finite-rank fibre-independent analytic first-order base dynamics excluded across open metric fibre. Not all finite4D or physical completions.",
+          "superseding_evidence": "explorations/conditional-build/source-action-variable-completion-2026-11-25.md"
         }
       ],
       "predictive_realization_update": {
@@ -629,6 +637,13 @@
         "evidence": [
           "explorations/conditional-build/source-action-predictive-realization-2026-11-25.md",
           "lab/process/source-action-predictive-realization.json"
+        ]
+      },
+      "variable_completion_update": {
+        "result": "Exact selected finite-band domain has bounded literal observation; arbitrary chosen dispersion survives. Source selection, global and interaction closure remain.",
+        "evidence": [
+          "explorations/conditional-build/source-action-variable-completion-2026-11-25.md",
+          "lab/process/source-action-variable-completion.json"
         ]
       }
     },
@@ -666,18 +681,20 @@
       "lenses": [
         "MATH-05"
       ],
-      "status": "full_solution_local_bar_graphs_generically_excluded",
+      "status": "selected_native_dual_graph_positive_linear_time_energy",
       "scope": "candidate or explicitly declared structural diagnostic; not source-wide without bridge",
       "source_relevance": "conditional; use source-native carrier and registered premises",
       "evidence": [
         "explorations/conditional-build/source-action-physical-dynamics-2026-11-25.md",
         "lab/process/source-action-physical-dynamics.json",
         "explorations/conditional-build/source-action-predictive-realization-2026-11-25.md",
-        "lab/process/source-action-predictive-realization.json"
+        "lab/process/source-action-predictive-realization.json",
+        "explorations/conditional-build/source-action-variable-completion-2026-11-25.md",
+        "lab/process/source-action-variable-completion.json"
       ],
-      "remaining_input": "A supplied differential, boundary or nonlocal admissibility law, with propagation and dual flux.",
-      "revisit_when": "A supplied differential, boundary or nonlocal admissibility law, with propagation and dual flux.",
-      "disposition": "Actual linearized action supplies no primary matter constraint; simple analytic pointwise filters do not repair closure.",
+      "remaining_input": "Physical observed barred-adjoint identification and interaction-preserving domain/contour dependence on changing bosonic fields.",
+      "revisit_when": "Physical observed barred-adjoint identification and interaction-preserving domain/contour dependence on changing bosonic fields.",
+      "disposition": "Actual density-dual nonlocal graph gives positive phase charge/nonnegative linear-matter time energy; source physical adjoint and coupled-domain variation remain.",
       "selection_note": "Candidate construction/diagnostic only unless its stated structural family and source bridge satisfy current program_focus. A reserve is not scheduled work.",
       "history": [
         {
@@ -685,6 +702,12 @@
           "previous_status": "retained_dependency",
           "previous_disposition": "Normal-characteristic/domain restrictions remain explicit.",
           "superseding_evidence": "explorations/conditional-build/source-action-physical-dynamics-2026-11-25.md"
+        },
+        {
+          "date": "2026-11-25",
+          "previous_status": "full_solution_local_bar_graphs_generically_excluded",
+          "previous_disposition": "Actual linearized action supplies no primary matter constraint; simple analytic pointwise filters do not repair closure.",
+          "superseding_evidence": "explorations/conditional-build/source-action-variable-completion-2026-11-25.md"
         }
       ],
       "predictive_realization_update": {
@@ -693,6 +716,13 @@
         "evidence": [
           "explorations/conditional-build/source-action-predictive-realization-2026-11-25.md",
           "lab/process/source-action-predictive-realization.json"
+        ]
+      },
+      "variable_completion_update": {
+        "result": "Actual density-dual nonlocal graph gives positive phase charge/nonnegative linear-matter time energy; source physical adjoint and coupled-domain variation remain.",
+        "evidence": [
+          "explorations/conditional-build/source-action-variable-completion-2026-11-25.md",
+          "lab/process/source-action-variable-completion.json"
         ]
       }
     },
@@ -918,7 +948,7 @@
         "NETWORK-10",
         "PHYSICS-05"
       ],
-      "status": "coupled_principal_response_regular_through_tested_null_cone",
+      "status": "coupled_ghost_diagnostic_directed_successor",
       "scope": "candidate or explicitly declared structural diagnostic; not source-wide without bridge",
       "source_relevance": "conditional; use source-native carrier and registered premises",
       "evidence": [
@@ -930,11 +960,13 @@
         "explorations/conditional-build/source-action-offsection-metric-2026-11-25.md",
         "lab/process/source-action-offsection-metric.json",
         "explorations/conditional-build/source-action-predictive-realization-2026-11-25.md",
-        "lab/process/source-action-predictive-realization.json"
+        "lab/process/source-action-predictive-realization.json",
+        "explorations/conditional-build/source-action-variable-completion-2026-11-25.md",
+        "lab/process/source-action-variable-completion.json"
       ],
-      "remaining_input": "Actual fibre/domain reduction, full lower mixed geometry blocks, and a justified full differential inverse if eliminating connection fluctuations.",
-      "revisit_when": "Actual fibre/domain reduction, full lower mixed geometry blocks, and a justified full differential inverse if eliminating connection fluctuations.",
-      "disposition": "All off-section geometry variation evaluated. Exact three-channel Q(r)=A+B(r-1)^2: first background changes sign, second positive across this TT fibre curve. Full fixed-geometry connection Hessian stated. No integrated/stability verdict.",
+      "remaining_input": "Complete coupled kernel/subprincipal equations and action-derived constraints; physical norm conclusions additionally require the specified reduction/domain/pairing.",
+      "revisit_when": "Complete coupled kernel/subprincipal equations and action-derived constraints; physical norm conclusions additionally require the specified reduction/domain/pairing.",
+      "disposition": "Full coupled ghost diagnostic remains unrun: kernel/subprincipal hierarchy, constraints and declared physical reduction/pairing. Linear-matter positivity does not supply the bosonic pairing.",
       "selection_note": "Candidate construction/diagnostic only unless its stated structural family and source bridge satisfy current program_focus. A reserve is not scheduled work.",
       "history": [
         {
@@ -960,6 +992,12 @@
           "previous_status": "coupled_principal_symbols_completed",
           "previous_disposition": "Metric order5 cancels; mixed order3 survives; complete Frechet order4 expression and two positive exact section trace-free coefficients are owned. Off-section derivative and fibre integration remain.",
           "superseding_evidence": "explorations/conditional-build/source-action-offsection-metric-2026-11-25.md"
+        },
+        {
+          "date": "2026-11-25",
+          "previous_status": "coupled_principal_response_regular_through_tested_null_cone",
+          "previous_disposition": "All off-section geometry variation evaluated. Exact three-channel Q(r)=A+B(r-1)^2: first background changes sign, second positive across this TT fibre curve. Full fixed-geometry connection Hessian stated. No integrated/stability verdict.",
+          "superseding_evidence": "explorations/conditional-build/source-action-variable-completion-2026-11-25.md"
         }
       ],
       "predictive_realization_update": {
@@ -968,6 +1006,13 @@
         "evidence": [
           "explorations/conditional-build/source-action-predictive-realization-2026-11-25.md",
           "lab/process/source-action-predictive-realization.json"
+        ]
+      },
+      "variable_completion_update": {
+        "result": "Full coupled ghost diagnostic remains unrun: kernel/subprincipal hierarchy, constraints and declared physical reduction/pairing. Linear-matter positivity does not supply the bosonic pairing.",
+        "evidence": [
+          "explorations/conditional-build/source-action-variable-completion-2026-11-25.md",
+          "lab/process/source-action-variable-completion.json"
         ]
       }
     },
@@ -1257,6 +1302,8 @@
     "explorations/conditional-build/source-action-slice-completion-2026-11-25.md",
     "lab/process/source-action-slice-completion.json",
     "explorations/conditional-build/source-action-predictive-realization-2026-11-25.md",
-    "lab/process/source-action-predictive-realization.json"
+    "lab/process/source-action-predictive-realization.json",
+    "explorations/conditional-build/source-action-variable-completion-2026-11-25.md",
+    "lab/process/source-action-variable-completion.json"
   ]
 }

@@ -1788,7 +1788,7 @@
     },
     "LB-CLASS": {
       "zero_delta_streak": 0,
-      "runs": 10,
+      "runs": 11,
       "status": "open"
     },
     "LB-LADDER": {
@@ -2368,7 +2368,7 @@
       "target": "X-P1-P2",
       "previous_status": "constrained",
       "status": "constrained",
-      "actual_delta": "Full source-shaped raw symbols require six spinor-rank autonomous outputs retaining literal observation and independent trace/scalar data; the prior five-spinor projected survivor discards a visible channel. In the natural two-channel category, complete chiral stability conditions P_+=P_-=0 admit a zero-southeast mixed subfamily c_\u00b1=-a_\u00b1/12. The older wedge-only Ward/K filter is an additional predicate, not a source law. No source-selected action or full-C realization follows.",
+      "actual_delta": "Full source-shaped raw symbols require six spinor-rank autonomous outputs retaining literal observation and independent trace/scalar data; the prior five-spinor projected survivor discards a visible channel. In the natural two-channel category, complete chiral stability conditions P_+=P_-=0 admit a zero-southeast mixed subfamily c_±=-a_±/12. The older wedge-only Ward/K filter is an additional predicate, not a source law. No source-selected action or full-C realization follows.",
       "evidence": [
         "explorations/conditional-build/source-symbol-quotient-membership-2026-11-12.md",
         "explorations/conditional-build/source-current-grading-membership-2026-11-12.md",
@@ -2707,7 +2707,7 @@
   ],
   "program_run_counter": {
     "since": "2026-11-09",
-    "count": 51,
+    "count": 52,
     "rule": "Every hourly run increments this in its postflight, whatever its lane. Lane C runs when count % 4 == 3 before the increment."
   },
   "working_rule": "Cells are worked at the structure level: a requirement must hold for every action in class C or for a structurally defined subfamily. No cell is worked by writing down a specific action, and no gated cell is worked by building its gate object. See CURRENT-STATE.yaml program_focus.structure_not_specifics.",
@@ -3213,11 +3213,14 @@
           "explorations/conditional-build/source-action-slice-completion-2026-11-25.md",
           "lab/process/source-action-slice-completion.json",
           "explorations/conditional-build/source-action-predictive-realization-2026-11-25.md",
-          "lab/process/source-action-predictive-realization.json"
+          "lab/process/source-action-predictive-realization.json",
+          "explorations/conditional-build/source-action-variable-completion-2026-11-25.md",
+          "lab/process/source-action-variable-completion.json"
         ],
         "structural_choices": "Norm/topology, real spectral sheet, differential lower terms, physical constraints, tube or singular observation and density datum category must be supplied, not guessed.",
         "latest_constraint": "Actual unrestricted analytic solution history map is onto with infinite kernel; finite-order spatial lifts from finite-rank fibre-independent analytic first-order base evolution with arbitrary local Cauchy data are excluded. Boundary/nonlocal/restricted and probabilistic laws remain; no source necessity established.",
-        "predictive_realization_update": "Full-frozen selected image is a closed L2 solution domain with bounded literal observation via canonical normal-slice representative. Same-phase classical PsiDO faithful lifts are excluded. Actual variable-coefficient/physical transfer remains."
+        "predictive_realization_update": "Full-frozen selected image is a closed L2 solution domain with bounded literal observation via canonical normal-slice representative. Same-phase classical PsiDO faithful lifts are excluded. Actual variable-coefficient/physical transfer remains.",
+        "variable_completion_update": "Exact actual-variable finite-band matter/dual completion with bounded literal observation, positive native base-time phase charge and nonnegative canonical matter energy for any chosen bounded nonnegative dispersion. The selected domain changes with the dispersion; no source/physical/coupled-gravity verdict."
       },
       {
         "question": "Which source tensor data have compact effective Lorentz isotropy and does the source need finite invariant background probability?",
@@ -3239,7 +3242,8 @@
           "lab/process/source-action-slice-completion.json"
         ],
         "structural_choices": "Effective joint stabilizer, background-versus-state normalization, support category and common-limit quantifier. None fixes an action.",
-        "latest_constraint": "A finite extra-datum weight does not repair the same thin off-shell graph trace or select a signed average. Opposite weighted averages possible for the existing sign-changing receiver under the stated domain/moment premises; not a new weighted-action or Newton verdict."
+        "latest_constraint": "A finite extra-datum weight does not repair the same thin off-shell graph trace or select a signed average. Opposite weighted averages possible for the existing sign-changing receiver under the stated domain/moment premises; not a new weighted-action or Newton verdict.",
+        "probabilistic_completion_update": "h question closed at mathematical scope: singular conformal-ray laws exist; smooth full-fibre laws require compact effective stabilizer in the declared tensor category; no universal non-natural-reference necessity. External datum remains conditional on non-derivability/source requirements."
       },
       {
         "question": "Does the explicit local action and balanced boundary datum furnish a physical source receiver?",
@@ -3259,16 +3263,18 @@
           "explorations/conditional-build/source-action-slice-completion-2026-11-25.md",
           "lab/process/source-action-slice-completion.json",
           "explorations/conditional-build/source-action-predictive-realization-2026-11-25.md",
-          "lab/process/source-action-predictive-realization.json"
+          "lab/process/source-action-predictive-realization.json",
+          "explorations/conditional-build/source-action-variable-completion-2026-11-25.md",
+          "lab/process/source-action-variable-completion.json"
         ],
-        "choices": "K95, explicit comm/symi/symi Shiab, minimal fermion C, independent dual rows, SE0, local units, regulator boundary, J splitting and empirical-matching k3. No source uniquely selects these.",
+        "choices": "Historical original choices are retained below; current held fermion repair is SE=-1/2 (SE0 superseded), kappa1 with two unselected roots. Typed candidate_choice_budget separates core/completion/pending/comparator/parked choices.",
         "wave2_update": {
           "evidence": [
             "explorations/conditional-build/source-action-wave2-construction-2026-11-25.md",
             "explorations/conditional-build/source-action-wave2-specialist-assessment-2026-11-25.md",
             "lab/process/source-action-wave2.json"
           ],
-          "completion": "SE\u22121/2 repairs chosen principal defect; source/current/decoder retained. Formal nonlinear all-component connection branch exists.",
+          "completion": "SE−1/2 repairs chosen principal defect; source/current/decoder retained. Formal nonlinear all-component connection branch exists.",
           "remaining": "Actual printed endpoint identification, convergence/stationary metric+matter, charged boundary, physical gauge/domain and family receiver are not proved.",
           "assumption_status": "reconstructed source-admitted choice; no source selection, not a class-C witness"
         },
@@ -3322,7 +3328,8 @@
           "remaining": "The intrinsic linearized gauge/algebraic-filter interpretation is now covered. Executable directed gravity successor: evaluate the off-section geometric coefficient derivative and lower mixed blocks, including moving Phi/pairing/density and background terms, before any stability/Einstein inference. Physical closure requires a specified compatible differential, boundary or nonlocal state law; geometric curvature susceptibility additionally needs branch selection and all geometric variations. Do not substitute deltaS-only forcing, the59 Jacobian or more roots. Ordinary structural/source priorities and schedules are unchanged."
         },
         "latest_constraint": "Independent-bar-zero candidate admits arbitrary local analytic observed histories; physical conjugacy/state/boundary/probability law is unselected. This is not physical admission or empirical arbitrariness.",
-        "predictive_realization_update": "Local full-solution reality completion is generically obstructed in the held coupling family; actual coupled leading metric forcing admits polynomial responses through the tested null cone. Full physical reduction and source selection remain open."
+        "predictive_realization_update": "Local full-solution reality completion is generically obstructed in the held coupling family; actual coupled leading metric forcing admits polynomial responses through the tested null cone. Full physical reduction and source selection remain open.",
+        "variable_completion_update": "Exact actual-variable finite-band matter/dual completion with bounded literal observation, positive native base-time phase charge and nonnegative canonical matter energy for any chosen bounded nonnegative dispersion. The selected domain changes with the dispersion; no source/physical/coupled-gravity verdict."
       }
     ],
     "shared_prerequisites": [
@@ -3386,7 +3393,451 @@
           "explorations/conditional-build/class-width-witness-audit-2026-11-11.md"
         ]
       }
-    ]
+    ],
+    "candidate_choice_budget": {
+      "authority": "joe_direct_chat_2026_11_25_i",
+      "basis_revision": "0bb062636672cf5e29066aba952dab4732118b04",
+      "kind": "candidate_choice_accounting_inside_existing_assumption_view",
+      "count_unit": "declared_choice_family_not_scalar_degree_of_freedom",
+      "interpretation": [
+        "Source-supplied means asserted by source, not independently true; source-constrained/unresolved is not permission to choose arbitrary data.",
+        "Separate adopted core, diagnostic completion, pending, comparator-only and parked choices.",
+        "Function/domain families can contain infinitely many degrees of freedom; gross/net family counts are legibility aids, not Bayesian evidence or proof of falsifiability.",
+        "Derived 216-to59 symmetry reduction and equation-solved root coordinates are not new free parameters. Test, matrix-entry and Lean-lemma counts are not independent physical constraints.",
+        "No retroactive precise per-wave totals are invented; this snapshot seeds comparable future wave deltas."
+      ],
+      "families": [
+        {
+          "key": "geometry-real-form",
+          "scope": "core_candidate",
+          "choice_type": "categorical",
+          "status": "held_reconstruction",
+          "description": "Native computed K95 metric-fibre realization; source K77 assertion remains a separate fork.",
+          "source_provenance": "source-constrained fork; no source selection of this completed realization",
+          "obstruction_or_purpose": "Make the reconstructed geometry and fermion real-form problem definite.",
+          "depends_on": [],
+          "satisfies": [],
+          "evidence": [
+            "explorations/conditional-build/source-action-external-datum-candidate-2026-11-25.md",
+            "GEOMETER-VS-PHYSICS-OBJECTS.md"
+          ],
+          "subchoices": []
+        },
+        {
+          "key": "shiab-recipe",
+          "scope": "core_candidate",
+          "choice_type": "operator_recipe",
+          "status": "held_reconstruction",
+          "description": "comm/symi/symi product convention in the actual first bosonic action.",
+          "source_provenance": "SC-ACT-01 supplies action pattern, not authenticated uniqueness of this product completion.",
+          "obstruction_or_purpose": "Make actual curvature/connection/metric variations computable.",
+          "depends_on": [
+            "geometry-real-form"
+          ],
+          "satisfies": [
+            "owned-action-consistency"
+          ],
+          "evidence": [
+            "explorations/conditional-build/source-action-external-datum-candidate-2026-11-25.md",
+            "explorations/conditional-build/source-action-wave2-construction-2026-11-25.md"
+          ],
+          "subchoices": []
+        },
+        {
+          "key": "fermion-recipe",
+          "scope": "core_candidate",
+          "choice_type": "operator_recipe",
+          "status": "partly_fixed_by_prior_constraint",
+          "description": "Held four-field arrow/contraction recipe; its SE=-1/2 repair is conditionally fixed by the principal defect test.",
+          "source_provenance": "SC-OP-04 ASSERTS independent four-field candidate grammar; SC-OP-05 UNCERTAIN admits SE rivals without selecting one.",
+          "obstruction_or_purpose": "Remove the held-arrow Jordan defect without inserting physical family copies.",
+          "depends_on": [
+            "geometry-real-form"
+          ],
+          "satisfies": [
+            "repaired-principal-compatibility"
+          ],
+          "evidence": [
+            "explorations/conditional-build/source-action-external-datum-candidate-2026-11-25.md",
+            "explorations/conditional-build/source-action-wave2-construction-2026-11-25.md"
+          ],
+          "subchoices": [
+            "Minimal contraction/other arrows remain held reconstruction choices.",
+            "SE0 is superseded, not a second current parameter.",
+            "Independent bars are source grammar, not a newly invented escape."
+          ]
+        },
+        {
+          "key": "coupling-normalization",
+          "scope": "core_candidate",
+          "choice_type": "scalar",
+          "status": "held_value",
+          "description": "kappa=1 in declared dimensionless local units.",
+          "source_provenance": "SC-ACT-01 supplies kappa; physical value/normalization is not derived.",
+          "obstruction_or_purpose": "Test actual finite normalized coupling rather than only asymptotically large kappa.",
+          "depends_on": [
+            "shiab-recipe"
+          ],
+          "satisfies": [
+            "local-coupled-stationarity"
+          ],
+          "evidence": [
+            "explorations/conditional-build/source-action-external-datum-candidate-2026-11-25.md",
+            "explorations/conditional-build/source-action-dynamics-and-continuation-2026-11-25.md"
+          ],
+          "subchoices": [
+            "Common trace normalization and independent-row rescaling are conventions, not additional counted physical parameters."
+          ]
+        },
+        {
+          "key": "variational-domain",
+          "scope": "core_candidate",
+          "choice_type": "domain_or_boundary",
+          "status": "held_local_category",
+          "description": "Local product regulator, compact field/base variations and local spin framing.",
+          "source_provenance": "Source arena supplied; this variational/end/domain realization is reconstructed.",
+          "obstruction_or_purpose": "Admit exact local coupled stationary backgrounds with correlated base variation.",
+          "depends_on": [
+            "geometry-real-form",
+            "shiab-recipe"
+          ],
+          "satisfies": [
+            "local-coupled-stationarity"
+          ],
+          "evidence": [
+            "explorations/conditional-build/source-action-external-datum-candidate-2026-11-25.md",
+            "explorations/conditional-build/source-action-homogeneous-analytic-vacuum-2026-11-25.md",
+            "explorations/conditional-build/source-action-dynamics-and-continuation-2026-11-25.md"
+          ],
+          "subchoices": []
+        },
+        {
+          "key": "lift-prescription",
+          "scope": "diagnostic_completion",
+          "choice_type": "operator_or_function",
+          "status": "replaced_with_actual_coefficient_recipe",
+          "description": "Noncharacteristic normal hypersurface, analytic extension and right inverse for literal observation.",
+          "source_provenance": "Source-unspecified chosen completion; literal contraction itself is retained.",
+          "obstruction_or_purpose": "Escape finite-local and same-phase lift exclusions while retaining actual equations.",
+          "depends_on": [
+            "fermion-recipe",
+            "variational-domain"
+          ],
+          "satisfies": [
+            "actual-coefficient-positive-domain"
+          ],
+          "evidence": [
+            "explorations/conditional-build/source-action-predictive-realization-2026-11-25.md",
+            "explorations/conditional-build/source-action-slice-completion-2026-11-25.md",
+            "explorations/conditional-build/source-action-variable-completion-2026-11-25.md"
+          ],
+          "subchoices": [
+            "Replaces the frozen phase recipe; not counted as another new family.",
+            "Choice of local coordinates/frame may be equivalent convention; no independent scalar degree count asserted."
+          ]
+        },
+        {
+          "key": "spectral-window",
+          "scope": "diagnostic_completion",
+          "choice_type": "domain_or_boundary",
+          "status": "newly_introduced",
+          "description": "Compact bounded physical spatial-frequency band.",
+          "source_provenance": "Source-unspecified diagnostic restriction.",
+          "obstruction_or_purpose": "Obtain one uniform analytic normal neighborhood and bounded parameter estimates.",
+          "depends_on": [
+            "lift-prescription"
+          ],
+          "satisfies": [
+            "actual-coefficient-positive-domain"
+          ],
+          "evidence": [
+            "explorations/conditional-build/source-action-variable-completion-2026-11-25.md"
+          ],
+          "subchoices": [
+            "A band/domain choice, not a predicted cutoff scale."
+          ]
+        },
+        {
+          "key": "observed-dispersion",
+          "scope": "diagnostic_completion",
+          "choice_type": "operator_or_function",
+          "status": "newly_exposed_live_function_freedom",
+          "description": "An arbitrary bounded nonnegative real dispersion omega(k) on the chosen band.",
+          "source_provenance": "Source-unspecified observed evolution law; earlier report mentioned optional chosen base laws.",
+          "obstruction_or_purpose": "Specify an invariant predictive subspace and nonnegative matter time-translation energy.",
+          "depends_on": [
+            "spectral-window"
+          ],
+          "satisfies": [
+            "actual-coefficient-positive-domain"
+          ],
+          "evidence": [
+            "explorations/conditional-build/source-action-predictive-realization-2026-11-25.md",
+            "explorations/conditional-build/source-action-variable-completion-2026-11-25.md"
+          ],
+          "subchoices": [
+            "Entire function freedom; one family count must never be read as one scalar parameter.",
+            "Nonnegativity constrains the sign but does not select the dispersion.",
+            "The theorem quantifies over this family; it does not select one physical law."
+          ]
+        },
+        {
+          "key": "bar-dual-contour",
+          "scope": "diagnostic_completion",
+          "choice_type": "operator_or_function",
+          "status": "replaced_with_native_dual_recipe",
+          "description": "Initial dual data and finite-tube Gram normalization, with consistent +i phase and positive amplitude metric.",
+          "source_provenance": "SC-OP-04 permits independent duals; SC-META-53 does not supply this physical contour.",
+          "obstruction_or_purpose": "Match the actual density-corrected dual, positive phase charge and time-energy sign.",
+          "depends_on": [
+            "lift-prescription",
+            "spectral-window",
+            "observed-dispersion",
+            "normal-window"
+          ],
+          "satisfies": [
+            "actual-coefficient-positive-domain"
+          ],
+          "evidence": [
+            "explorations/conditional-build/source-action-predictive-realization-2026-11-25.md",
+            "explorations/conditional-build/source-action-variable-completion-2026-11-25.md"
+          ],
+          "subchoices": [
+            "Replaces frozen variational-pair contour; does not separately count Gram inversion, phase convention or derived normalization as choices.",
+            "Literal barred observation is not proved to equal the physical observed adjoint.",
+            "B=q is derived from literal observation; no independent left-inverse choice. The +i sign is fixed by the chosen positive canonical-energy convention."
+          ]
+        },
+        {
+          "key": "normal-window",
+          "scope": "diagnostic_completion",
+          "choice_type": "domain_or_boundary",
+          "status": "inherited_restricted_scope",
+          "description": "Finite sufficiently small normal tube.",
+          "source_provenance": "Source-unspecified local diagnostic domain, not a global native end.",
+          "obstruction_or_purpose": "Keep analytic solution matrices and the averaged time Gram uniformly controlled.",
+          "depends_on": [
+            "variational-domain",
+            "lift-prescription"
+          ],
+          "satisfies": [
+            "actual-coefficient-positive-domain"
+          ],
+          "evidence": [
+            "explorations/conditional-build/source-action-predictive-realization-2026-11-25.md",
+            "explorations/conditional-build/source-action-variable-completion-2026-11-25.md"
+          ],
+          "subchoices": [
+            "Inherited finite-window category; does not evade infinite-volume theorem by claiming full-fibre normalization."
+          ]
+        }
+      ],
+      "nonactive_entries": [
+        {
+          "key": "stationary-branch",
+          "status": "pending_not_selected",
+          "description": "Two certified roots are quantified; neither physically selected.",
+          "evidence": [
+            "explorations/conditional-build/source-action-dynamics-and-continuation-2026-11-25.md"
+          ]
+        },
+        {
+          "key": "probability-reference",
+          "status": "comparator_only_not_adopted",
+          "description": "Additional clock/weight or singular conformal-ray probability is an existence control; not installed in the actual candidate completion.",
+          "evidence": [
+            "explorations/conditional-build/natural-density-fibre-volume-2026-11-25.md",
+            "explorations/conditional-build/tensor-stabilizer-normalization-2026-11-25.md",
+            "explorations/conditional-build/symmetry-restoration-measure-limit-2026-11-25.md"
+          ]
+        },
+        {
+          "key": "imported-boundary",
+          "status": "parked_failed_in_tested_matching_scope",
+          "description": "Bott k=3, Krein splitting and radial boundary extension are the original off-shell datum attempt; not adopted as current stationary boundary conditions.",
+          "evidence": [
+            "explorations/conditional-build/source-action-external-datum-candidate-2026-11-25.md",
+            "explorations/conditional-build/source-action-engineering-wave-2026-11-25.md"
+          ]
+        },
+        {
+          "key": "interacting-physical-quotient",
+          "status": "pending_not_supplied",
+          "description": "Full constrained physical quotient, interacting positive energy and observed bar pairing remain open. Dependence of domain/contour/normalization on varying bosonic fields is also unprovided.",
+          "evidence": [
+            "lab/process/conditional-physics-ledger-v0.263.json#LT-SM8",
+            "explorations/conditional-build/source-action-predictive-realization-2026-11-25.md"
+          ]
+        }
+      ],
+      "constraint_bundles": [
+        {
+          "key": "owned-action-consistency",
+          "status": "previously_satisfied_mathematical_scope",
+          "description": "Coherent frame law and actual candidate variational owner; not physical gauge or source uniqueness.",
+          "depends_on": [
+            "geometry-real-form",
+            "shiab-recipe"
+          ],
+          "evidence": [
+            "explorations/conditional-build/source-action-external-datum-candidate-2026-11-25.md",
+            "explorations/conditional-build/source-action-datum-variation-tests-2026-11-25.md"
+          ]
+        },
+        {
+          "key": "repaired-principal-compatibility",
+          "status": "previously_satisfied_held_arrow_scope",
+          "description": "SE=-1/2 removes the specified principal defect with other arrows fixed.",
+          "depends_on": [
+            "fermion-recipe"
+          ],
+          "evidence": [
+            "explorations/conditional-build/source-action-wave2-construction-2026-11-25.md"
+          ]
+        },
+        {
+          "key": "local-coupled-stationarity",
+          "status": "previously_satisfied_local_product_scope",
+          "description": "Both certified roots satisfy the actual local coupled zero-matter variation problem; two roots count as one existence obligation, not two predictions.",
+          "depends_on": [
+            "coupling-normalization",
+            "variational-domain",
+            "shiab-recipe"
+          ],
+          "evidence": [
+            "explorations/conditional-build/source-action-dynamics-and-continuation-2026-11-25.md"
+          ]
+        },
+        {
+          "key": "actual-coefficient-positive-domain",
+          "status": "satisfied_at_reviewed_T2_selected_linear_scope",
+          "description": "One combined new compatibility endpoint: actual variable-coefficient field and native dual equations, exact literal recovery, bounded selected domain, positive action phase charge and nonnegative matter time-translation energy.",
+          "depends_on": [
+            "lift-prescription",
+            "spectral-window",
+            "observed-dispersion",
+            "bar-dual-contour",
+            "normal-window"
+          ],
+          "subchecks": [
+            "Actual analytic stationary coefficients, not frozen comparator.",
+            "Native density/formal dual and opposite Fourier phases.",
+            "Uniform common normal tube and literal qF=I.",
+            "Closed bounded selected image and observation.",
+            "Positive U1 phase charge and compatible nondegenerate restricted symplectic form.",
+            "Nonnegative actual matter time-translation energy for chosen omega>=0."
+          ],
+          "independence_note": "Count this conjunction once. The same CK/Gram/phase identities must not be inflated into multiple independent physical constraints.",
+          "evidence": [
+            "explorations/conditional-build/source-action-variable-completion-2026-11-25.md",
+            "lab/process/source-action-variable-completion.json",
+            "lab/process/hostile-reviews/2026-11-25-source-action-variable-completion-review.md"
+          ]
+        }
+      ],
+      "snapshot": {
+        "core_candidate_families": 5,
+        "diagnostic_completion_families": 5,
+        "active_total_families": 10,
+        "pending_families": 2,
+        "comparator_only_families": 1,
+        "parked_families": 1,
+        "unselected_function_family": "observed-dispersion",
+        "source_or_observable_predictions_fixed": 0,
+        "independent_mathematical_obligation_bundles": 4,
+        "net_families_minus_mathematical_bundles": 6
+      },
+      "wave_delta": {
+        "baseline_active_family_count": 9,
+        "current_active_family_count": 10,
+        "newly_introduced_families": [
+          "spectral-window"
+        ],
+        "newly_exposed_live_function_freedom": [
+          "observed-dispersion"
+        ],
+        "replaced_or_refined_families": [
+          "lift-prescription",
+          "bar-dual-contour"
+        ],
+        "inherited_family": [
+          "normal-window"
+        ],
+        "new_independent_mathematical_compatibility_bundles": 1,
+        "new_source_or_observable_prediction_constraints": 0,
+        "net_choices_minus_new_compatibility_bundles": 0,
+        "net_choices_minus_new_prediction_constraints": 1,
+        "counts_provisional_until_new_bundle_accepted": false,
+        "baseline_note": "Retrospective grouping of the immediately prior completion category, not a previously measured per-wave total; optional dispersion now constructively exposed."
+      },
+      "drift_assessment": {
+        "numeric_growth_signal": false,
+        "numeric_basis": "1 newly introduced family versus1 new combined compatibility endpoint: net0 on this declared grouping.",
+        "functional_warning": "Unfalsifiability drift risk: a whole observed dispersion function remains freely selectable despite exact equations and positivity; mathematical compatibility improves but predictive underdetermination is not reduced.",
+        "scope": "Warning about the unconstrained candidate-completion strategy, not proof GU is unfalsifiable and not a source/ledger verdict.",
+        "continuation": "No stopping rule, automatic reroute or governance reset. Require source/observable consequences to constrain remaining choices; keep full coupled ghost diagnostic next after this bounded wave.",
+        "prediction_growth_signal": true,
+        "prediction_basis": "1 newly introduced family versus0 newly fixed source/observable prediction constraints."
+      },
+      "dependency_summary": [
+        "Core geometry/operator/coupling/domain -> local stationary backgrounds.",
+        "Actual analytic background + chosen lift/band/dispersion -> exact restricted field domain and observed recovery.",
+        "That domain + native dual + Gram/contour -> positive phase charge; omega>=0 -> nonnegative matter time energy.",
+        "No established arrow from these choices to source-selected dispersion, interacting physical quotient, global full-fibre state or coupled gravity spectrum."
+      ],
+      "per_wave_reporting": "Append a dated snapshot/delta when this candidate is advanced; preserve grouping or record a mapping. Report introduced, exposed, retired and constrained families, newly satisfied independent bundles, net counts and any functional-freedom warning. No work-stopping effect.",
+      "updated_at": "2026-11-25",
+      "wave_history": [
+        {
+          "date": "2026-11-25",
+          "evidence": "explorations/conditional-build/source-action-variable-completion-2026-11-25.md",
+          "snapshot": {
+            "core_candidate_families": 5,
+            "diagnostic_completion_families": 5,
+            "active_total_families": 10,
+            "pending_families": 2,
+            "comparator_only_families": 1,
+            "parked_families": 1,
+            "unselected_function_family": "observed-dispersion",
+            "source_or_observable_predictions_fixed": 0,
+            "independent_mathematical_obligation_bundles": 4,
+            "net_families_minus_mathematical_bundles": 6
+          },
+          "delta": {
+            "baseline_active_family_count": 9,
+            "current_active_family_count": 10,
+            "newly_introduced_families": [
+              "spectral-window"
+            ],
+            "newly_exposed_live_function_freedom": [
+              "observed-dispersion"
+            ],
+            "replaced_or_refined_families": [
+              "lift-prescription",
+              "bar-dual-contour"
+            ],
+            "inherited_family": [
+              "normal-window"
+            ],
+            "new_independent_mathematical_compatibility_bundles": 1,
+            "new_source_or_observable_prediction_constraints": 0,
+            "net_choices_minus_new_compatibility_bundles": 0,
+            "net_choices_minus_new_prediction_constraints": 1,
+            "counts_provisional_until_new_bundle_accepted": false,
+            "baseline_note": "Retrospective grouping of the immediately prior completion category, not a previously measured per-wave total; optional dispersion now constructively exposed."
+          },
+          "drift_assessment": {
+            "numeric_growth_signal": false,
+            "numeric_basis": "1 newly introduced family versus1 new combined compatibility endpoint: net0 on this declared grouping.",
+            "functional_warning": "Unfalsifiability drift risk: a whole observed dispersion function remains freely selectable despite exact equations and positivity; mathematical compatibility improves but predictive underdetermination is not reduced.",
+            "scope": "Warning about the unconstrained candidate-completion strategy, not proof GU is unfalsifiable and not a source/ledger verdict.",
+            "continuation": "No stopping rule, automatic reroute or governance reset. Require source/observable consequences to constrain remaining choices; keep full coupled ghost diagnostic next after this bounded wave.",
+            "prediction_growth_signal": true,
+            "prediction_basis": "1 newly introduced family versus0 newly fixed source/observable prediction constraints."
+          }
+        }
+      ]
+    }
   },
   "directed_lc_carry_2026_11_24_recommendation": {
     "status": "consumed",
@@ -3520,7 +3971,7 @@
       {
         "id": "directed_offsection_followthrough_2026_11_25",
         "status": "consumed_in_local_coefficient_scope",
-        "original_direction": "Finish the prior metric-response follow-through, then assess the new completeness proposal before executing its steps1\u20133.",
+        "original_direction": "Finish the prior metric-response follow-through, then assess the new completeness proposal before executing its steps1–3.",
         "evidence": [
           "explorations/conditional-build/source-action-offsection-metric-2026-11-25.md",
           "lab/process/source-action-offsection-metric.json",
@@ -3556,6 +4007,19 @@
           "lab/process/hostile-reviews/2026-11-25-source-action-predictive-realization-review.md"
         ],
         "remaining": "A restricted/nonlocal reality-and-state domain needs exact variable-coefficient compatibility and literal observation; the frozen construction is a benchmark. Coupled null/subprincipal equations remain before physical metric inference. Completed local graph, same-phase lift and principal-range tests are consumed; ordinary eligible science and pending LC opportunity continue."
+      },
+      {
+        "id": "directed_variable_completion_2026_11_25_i",
+        "status": "consumed_in_actual_linear_matter_scope",
+        "original_direction": "Extend restricted completion to actual coefficients and physical-time positivity; seed choice accounting; retain full coupled ghost diagnostic next.",
+        "evidence": [
+          "explorations/conditional-build/source-action-variable-completion-2026-11-25.md",
+          "lab/process/source-action-variable-completion.json",
+          "tests/program-focus/source_action_variable_completion_probe.py",
+          "Lean/GUFormalization/VariableCompletion.lean",
+          "lab/process/hostile-reviews/2026-11-25-source-action-variable-completion-review.md"
+        ],
+        "remaining": "Full coupled ghost diagnostic next in directed construction; source-selected, Lorentz-covariant, global and nonlinear physical completion remain distinct. Ordinary selection and pendingLC continue."
       }
     ]
   },

@@ -17,6 +17,14 @@ External review is not a pathway in this program. The honesty label stays: inter
 
 Sections below are historical snapshots in file order.
 
+## Actual-variable selected completion and time charge (2026-11-25)
+
+Exact actual-variable finite-band matter/dual completion with bounded literal observation, positive native base-time phase charge and nonnegative canonical matter energy for any chosen bounded nonnegative dispersion. The selected domain changes with the dispersion; no source/physical/coupled-gravity verdict.
+
+The common finite-band/tube construction solves the native field and density-dual equations. The +i graph gives positive U1 charge, nondegenerate real-action symplectic form and nonnegative canonical linear-matter energy for chosen omega>=0. Each omega has a different selected domain/graph; no interacting or Lorentz-covariant physical completion follows.96 exact controls,8 finite Lean lemmas and independent reviews support the declared scope. Choice-family accounting records10 active families,4 mathematical bundles and0 source-selected predictions; functional selection freedom remains.
+
+[Result](explorations/conditional-build/source-action-variable-completion-2026-11-25.md) · [Evidence](lab/process/source-action-variable-completion.json).
+
 ## Generic local reality obstruction and nonlocal survivor (2026-11-25)
 
 Generic full-solution local bar-graph obstruction in the held59 coupling family, certified at both stationary roots; exact full-frozen closed nonlocal observation domain; polynomial coupled principal metric response through the tested null cone. No source/physical/class-C verdict.
