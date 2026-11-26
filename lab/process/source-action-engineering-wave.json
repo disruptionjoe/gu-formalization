@@ -1,0 +1,221 @@
+{
+  "artifact": "source-action-engineering-wave",
+  "date": "2026-11-25",
+  "basis_revision": "a22bdace5a78a3870d9ce76634d545f89b791dab",
+  "target": [
+    "LB-CLASS",
+    "X-P1-P2-P3"
+  ],
+  "tier": "T2_reviewed_candidate_T3_preservation",
+  "status": "internally_reviewed",
+  "actual_delta": "Complete moving observation and jet-dependent boundary transport; native imposter/scalar current fingerprints, SE-grammar countervariation and all-SE hidden normal probe separation; zero-matter formal coupled stationarity to every order on a fixed product regulator; nonflat reference boundary incompatible with the fixed spherical pure-gauge fixture; fixed-probe core bound and scalar multiplier obstruction. Physical/convergent solution, source selection and observed-family bridge remain open.",
+  "class_covered": "fixed candidate, scalar SE/current families, local jets and formal zero-matter product variation class; not whole C",
+  "source_bridge": {
+    "status": "conditional",
+    "reason": "source grammar and labels owned; added coefficient, physical domains, constraints and sector/count receiver not source-selected"
+  },
+  "claim_effect": "No matrix scientific status, source, physics-ledger, action-class, canon or paper verdict changed.",
+  "results": {
+    "observation": "complete moving-section derivative; jet-aware Euler boundary correction; finite Berezin1",
+    "interaction": "M_H=[[-5,1/4],[10,s]], M_N=[[-10,0],[-4,s]]; repaired rank1/2 nonnull diagnostics, remainingRSoutput nonzero; source-grammar sensitive",
+    "hidden_probe": "intersection of literal hidden kernel and all central-normal current-diagnostic kernels is0 for every s; not physical leakage; admits compact non-pure-gauge extension via nonzero trace curvature variation",
+    "coupled": "zero-matter branch formally stationary to all orders on fixed product regulator, constant base, compact connection/matter and compact-base metric variations",
+    "parity": "purebosonic effectiveaction odd in inversekappa, even orders vanish",
+    "boundary": "fixed puregauge sphere incompatible with regular flat-leading branch due nonzero tangential reference curvature, every k",
+    "core_probe": "same-charge cutoff differences paired with fixed smooth current O(epsilon13)",
+    "multiplier": "no nowherezero real derivativefree scalar multiplier repairs principal Helmholtz defect\u221226f",
+    "analytic": "conditional bounded-inverse residual certificate only; native inverse not established"
+  },
+  "verification": {
+    "exact_controls": {
+      "groups": {
+        "compatibility": {
+          "exact_controls": 17,
+          "passed": true,
+          "scope": "candidate algebra and explicit local variation/boundary diagnostics"
+        },
+        "formal_followthrough": {
+          "ceiling": "finite controls; all-order induction/locality proof is separate",
+          "checks": 477,
+          "passed": true
+        },
+        "interactions": {
+          "all_passed": true,
+          "checks": {
+            "K95_Clifford_squares": true,
+            "SE0_breaks_routing_scalar_0": true,
+            "SE0_breaks_routing_scalar_9": true,
+            "central_current_primed_Dirac_blocks": true,
+            "crossratio_rescaling_-1/2": true,
+            "crossratio_rescaling_0": true,
+            "crossratio_rescaling_1": true,
+            "crossratio_rescaling_3/7": true,
+            "determinants_-1/2": true,
+            "determinants_0": true,
+            "determinants_1": true,
+            "determinants_3/7": true,
+            "equation_diagnostic_transport_qE_Rinverse": true,
+            "hidden_field_q_zero": true,
+            "hidden_normal_RS": true,
+            "hidden_to_horizontal_row_zero_-1/2": true,
+            "hidden_to_horizontal_row_zero_0": true,
+            "hidden_to_horizontal_row_zero_1": true,
+            "hidden_to_scalar_current_-1/2": true,
+            "hidden_to_scalar_current_0": true,
+            "hidden_to_scalar_current_1": true,
+            "imposter_scalar_0_-1/2": true,
+            "imposter_scalar_0_0": true,
+            "imposter_scalar_0_1": true,
+            "imposter_scalar_10_-1/2": true,
+            "imposter_scalar_10_0": true,
+            "imposter_scalar_10_1": true,
+            "imposter_scalar_4_-1/2": true,
+            "imposter_scalar_4_0": true,
+            "imposter_scalar_4_1": true,
+            "imposter_scalar_9_-1/2": true,
+            "imposter_scalar_9_0": true,
+            "imposter_scalar_9_1": true,
+            "imposter_trace_0_-1/2": true,
+            "imposter_trace_0_0": true,
+            "imposter_trace_0_1": true,
+            "imposter_trace_10_-1/2": true,
+            "imposter_trace_10_0": true,
+            "imposter_trace_10_1": true,
+            "imposter_trace_4_-1/2": true,
+            "imposter_trace_4_0": true,
+            "imposter_trace_4_1": true,
+            "imposter_trace_9_-1/2": true,
+            "imposter_trace_9_0": true,
+            "imposter_trace_9_1": true,
+            "normal_combo_scalar_visible_10": true,
+            "normal_combo_scalar_visible_4": true,
+            "normal_combo_trace_visible_10": true,
+            "normal_combo_trace_visible_4": true,
+            "nu_scalar_0_-1/2": true,
+            "nu_scalar_0_0": true,
+            "nu_scalar_0_1": true,
+            "nu_scalar_10_-1/2": true,
+            "nu_scalar_10_0": true,
+            "nu_scalar_10_1": true,
+            "nu_scalar_4_-1/2": true,
+            "nu_scalar_4_0": true,
+            "nu_scalar_4_1": true,
+            "nu_scalar_9_-1/2": true,
+            "nu_scalar_9_0": true,
+            "nu_scalar_9_1": true,
+            "nu_trace_0_-1/2": true,
+            "nu_trace_0_0": true,
+            "nu_trace_0_1": true,
+            "nu_trace_10_-1/2": true,
+            "nu_trace_10_0": true,
+            "nu_trace_10_1": true,
+            "nu_trace_4_-1/2": true,
+            "nu_trace_4_0": true,
+            "nu_trace_4_1": true,
+            "nu_trace_9_-1/2": true,
+            "nu_trace_9_0": true,
+            "nu_trace_9_1": true,
+            "owned_imposter_ambient_gamma_kernel": true,
+            "owned_imposter_horizontal_trace": true,
+            "repaired_combo_remaining_RS_formula_0": true,
+            "repaired_combo_remaining_RS_formula_9": true,
+            "repaired_combo_remaining_RS_nonzero_0": true,
+            "repaired_combo_remaining_RS_nonzero_9": true,
+            "repaired_combo_scalar_zero_0": true,
+            "repaired_combo_scalar_zero_9": true,
+            "repaired_combo_trace_zero_0": true,
+            "repaired_combo_trace_zero_9": true
+          },
+          "count": 83,
+          "scope": "pointwise candidate current algebra, not physical equation descent or prediction"
+        },
+        "observation": {
+          "boundary_metric_correction": "-75/2",
+          "checks": {
+            "boundary_current_fixed_metric_transport": true,
+            "boundary_current_full_moving_frame_transport": true,
+            "finite_F_determinant_one": true,
+            "finite_R_determinant_one": true,
+            "freeze_Clifford_scalar_variation_detected": true,
+            "freeze_Clifford_variation_detected": true,
+            "independent_Grassmann_measure_factor_one": true,
+            "inverse_variation_identity": true,
+            "jet_dependent_full_Euler_boundary_chain": true,
+            "nonconstant_section_full_oneform_variation": true,
+            "nonconstant_section_full_scalar_variation": true,
+            "omit_Euler_proportional_jet_boundary_term_detected": true,
+            "omit_metric_frame_boundary_term_detected": true,
+            "omit_normal_displacement_detected": true,
+            "omit_observed_frame_variation_detected": true,
+            "omit_section_slope_variation_detected": true
+          },
+          "count": 16,
+          "jet_Euler_boundary_correction": "2603",
+          "observation_variation": [
+            "1197/2",
+            "-421/2"
+          ],
+          "scalar_variation": [
+            "-281",
+            "13"
+          ],
+          "scope": "exact reduced algebraic controls; no native domain or physical positivity claim"
+        }
+      },
+      "passed": 593,
+      "scope": "native128 current algebra; reduced exact jet/boundary controls; explicit vertical curvature and local variation checks. General results are written proofs; no physical GU, global domain or Lean claim."
+    },
+    "review": [
+      "observation independent review accepted with jet correction",
+      "interactions hostile review accepted with owned injection citation",
+      "compatibility review accepted with Banach/boundary precision",
+      "all-order direct-density/Clifford-parity follow-through independently accepted"
+    ],
+    "native_gates": {
+      "passed": [
+        "program_focus_audit",
+        "typed_carrier_declaration_audit",
+        "source_native_comparator_routing_audit",
+        "kill_target_claim_audit",
+        "reverse_scaffold_direction_audit",
+        "frontmatter_status_schema_audit",
+        "lean_certificate_surface_audit",
+        "current_state_absolute_currency_audit"
+      ],
+      "scope": "Existing coverage ceilings retained. Frontmatter population updated for new files, no legacy status changed; Lean inventory audit is not a new Lean proof."
+    },
+    "Lean": "not claimed; no Tier1/source/matrix kill"
+  },
+  "preservation": {
+    "theory": 50,
+    "engineering": 50,
+    "paired_records": 50,
+    "questions": 29,
+    "complete_panel_files": 10,
+    "ref": "lab/process/source-action-opportunity-register-2026-11-25.json"
+  },
+  "priority_effect": {
+    "ordinary_policy": "unchanged",
+    "ordinary_B_packets": "unchanged",
+    "directed_construction": "reranked: compatible analytic realization/source-typed response; completed formal work and incompatible fixed-boundary attachment no longer primary",
+    "retrieval": "program_focus.files.opportunity_register points to complete pool; no new rule"
+  },
+  "counter": {
+    "before": 44,
+    "after": 45,
+    "LB_CLASS_before": 3,
+    "LB_CLASS_after": 4,
+    "bet_credit": 0
+  },
+  "evidence": [
+    "explorations/conditional-build/source-action-engineering-wave-2026-11-25.md",
+    "lab/process/source-action-engineering-wave.json",
+    "tests/program-focus/source_action_engineering_probe.py",
+    "lab/process/source-action-opportunity-register-2026-11-25.json",
+    "lab/process/source-action-opportunity-register-2026-11-25.md",
+    "lab/process/work-packets/source-action-response-discriminators-2026-11-25.md",
+    "lab/process/hostile-reviews/2026-11-25-source-action-engineering-review.md"
+  ],
+  "next_condition": "For the directed construction, formal coefficients and constant-base formal metric tests are covered. Next substantive construction work is an analytic realization on a specified compatible domain/boundary, with source-typed response/constraint admissibility and physical sector maps when supplied. The fixed spherical fixture is incompatible with the regular flat-leading branch; changing the datum is not validation of the old one. Ordinary class-wide/source-relevant selection and LC cadence remain unchanged; the preserved opportunity pool feeds existing postflight ranking without new gates.",
+  "process_effect": "Ordinary result-dependent reranking and preservation under current Joe direction; no governance or scheduler update."
+}

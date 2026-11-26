@@ -17,6 +17,12 @@ External review is not a pathway in this program. The honesty label stays: inter
 
 Sections below are historical snapshots in file order.
 
+## Source-action engineering follow-through (2026-11-25)
+
+The literal observation derivative and jet-dependent fermion boundary terms are explicit. The owned imposter/scalar current has a coefficient-sensitive rank relation; its hidden signal remains in another equation row. Central normal probes separate every hidden normal field in the declared SE family, without a physical leakage claim. The zero-matter candidate is formally coupled stationary to all orders in a fixed product-regulator test class, with odd-only effective action. Its regular flat-leading branch cannot meet the separate fixed pure-gauge spherical boundary. Convergence, physical response and family maps remain open; scientific verdicts are unchanged.
+
+[Results](explorations/conditional-build/source-action-engineering-wave-2026-11-25.md), [evidence](lab/process/source-action-engineering-wave.json), [all retained theoretical and engineering ideas](lab/process/source-action-opportunity-register-2026-11-25.md).
+
 ## Source-action second construction (2026-11-25)
 
 The SE=-1/2 completion removes the first candidate's horizontal Jordan defect,

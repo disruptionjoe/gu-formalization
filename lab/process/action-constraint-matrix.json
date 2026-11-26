@@ -1485,7 +1485,14 @@
         "explorations/conditional-build/source-action-wave2-specialist-assessment-2026-11-25.md",
         "lab/process/source-action-wave2.json",
         "tests/program-focus/source_action_wave2_probe.py",
-        "lab/process/hostile-reviews/2026-11-25-source-action-wave2-review.md"
+        "lab/process/hostile-reviews/2026-11-25-source-action-wave2-review.md",
+        "explorations/conditional-build/source-action-engineering-wave-2026-11-25.md",
+        "lab/process/source-action-engineering-wave.json",
+        "tests/program-focus/source_action_engineering_probe.py",
+        "lab/process/source-action-opportunity-register-2026-11-25.json",
+        "lab/process/source-action-opportunity-register-2026-11-25.md",
+        "lab/process/work-packets/source-action-response-discriminators-2026-11-25.md",
+        "lab/process/hostile-reviews/2026-11-25-source-action-engineering-review.md"
       ],
       "packet_step_status": "steps0-5 done; source-required packet complete; physical applications retain named inputs",
       "next_run": "Reuse the compact-effective-stabilizer criterion and conformal-support classification; tensor-free normalization and regular fully restored probability are settled in these categories. Compare the source-described non-LC displacement joint action and physical observation-domain test against the strongest other eligible class question under unchanged cadence. The prior source-law corpus audit is complete; only newly authenticated data reopen that blocked branch, and other eligible structural tests remain selectable. The missing joint gauge action is not supplied by bare tensor components; finite invariant background probability and full tensor restoration remain unasserted source premises. Do not infer source failure from ordinary L2 normalization or scalar-curvature decay. Continue eligible science without constructing the gated source operator.",
@@ -1713,6 +1720,23 @@
         "source_bridge": "conditional candidate; no source necessity or physical integer receiver",
         "scientific_status_effect": "unchanged",
         "next_discriminator": "The revised fixed action and all-component formal branch are available for controlled analytic/stationary realization with metric, matter, boundary and observation held together. Reuse the existing classifier and actual Euler rather than scan neighboring SE coefficients or repeat winding arithmetic. Endpoint ownership, convergence at kappa1, physical symmetry/positivity and the integer receiver remain explicit. Ordinary selection continues under unchanged policy; no waiting checkpoint or permanent construction priority."
+      },
+      "directed_engineering_wave_2026_11_25": {
+        "tier": "T2",
+        "actual_delta": "Complete moving observation and jet-dependent boundary transport; native imposter/scalar current fingerprints, SE-grammar countervariation and all-SE hidden normal probe separation; zero-matter formal coupled stationarity to every order on a fixed product regulator; nonflat reference boundary incompatible with the fixed spherical pure-gauge fixture; fixed-probe core bound and scalar multiplier obstruction. Physical/convergent solution, source selection and observed-family bridge remain open.",
+        "evidence": [
+          "explorations/conditional-build/source-action-engineering-wave-2026-11-25.md",
+          "lab/process/source-action-engineering-wave.json",
+          "tests/program-focus/source_action_engineering_probe.py",
+          "lab/process/source-action-opportunity-register-2026-11-25.json",
+          "lab/process/source-action-opportunity-register-2026-11-25.md",
+          "lab/process/work-packets/source-action-response-discriminators-2026-11-25.md",
+          "lab/process/hostile-reviews/2026-11-25-source-action-engineering-review.md"
+        ],
+        "scientific_status_effect": "unchanged",
+        "source_bridge": "conditional; physical probe/state/sector maps remain open",
+        "next_discriminator": "For the directed construction, formal coefficients and constant-base formal metric tests are covered. Next substantive construction work is an analytic realization on a specified compatible domain/boundary, with source-typed response/constraint admissibility and physical sector maps when supplied. The fixed spherical fixture is incompatible with the regular flat-leading branch; changing the datum is not validation of the old one. Ordinary class-wide/source-relevant selection and LC cadence remain unchanged; the preserved opportunity pool feeds existing postflight ranking without new gates.",
+        "opportunity_pool": "lab/process/source-action-opportunity-register-2026-11-25.json"
       }
     }
   ],
@@ -1724,7 +1748,7 @@
     },
     "LB-CLASS": {
       "zero_delta_streak": 0,
-      "runs": 3,
+      "runs": 4,
       "status": "open"
     },
     "LB-LADDER": {
@@ -2643,7 +2667,7 @@
   ],
   "program_run_counter": {
     "since": "2026-11-09",
-    "count": 44,
+    "count": 45,
     "rule": "Every hourly run increments this in its postflight, whatever its lane. Lane C runs when count % 4 == 3 before the increment."
   },
   "working_rule": "Cells are worked at the structure level: a requirement must hold for every action in class C or for a structurally defined subfamily. No cell is worked by writing down a specific action, and no gated cell is worked by building its gate object. See CURRENT-STATE.yaml program_focus.structure_not_specifics.",
@@ -2856,6 +2880,15 @@
       "counter_after": 44,
       "lane": "LB-CLASS",
       "actual_delta": "The source-admitted SE=-1/2 completion repairs the previous candidate horizontal Jordan defect and has exact Dirac principal blocks with explicit full-U lower terms, dual rows and transported observation. Actual K95 bosonic coefficients and a nonzero endpoint Helmholtz defect are checked. A unique nonlinear formal inverse-kappa series solves every connection component and induces curvature-current/current-current terms. No convergent or full stationary physical solution, prescribed charged boundary or family receiver is supplied."
+    },
+    {
+      "date": "2026-11-25",
+      "authority": "joe_direct_chat_engineering_opportunity_wave",
+      "item": "Directed engineering follow-through and evidence rerank",
+      "counter_before": 44,
+      "counter_after": 45,
+      "lane": "LB-CLASS",
+      "actual_delta": "Complete moving observation and jet-dependent boundary transport; native imposter/scalar current fingerprints, SE-grammar countervariation and all-SE hidden normal probe separation; zero-matter formal coupled stationarity to every order on a fixed product regulator; nonflat reference boundary incompatible with the fixed spherical pure-gauge fixture; fixed-probe core bound and scalar multiplier obstruction. Physical/convergent solution, source selection and observed-family bridge remain open."
     }
   ],
   "directed_lc_carry_2026_11_24_b": {
@@ -3128,6 +3161,18 @@
           "completion": "SE\u22121/2 repairs chosen principal defect; source/current/decoder retained. Formal nonlinear all-component connection branch exists.",
           "remaining": "Actual printed endpoint identification, convergence/stationary metric+matter, charged boundary, physical gauge/domain and family receiver are not proved.",
           "assumption_status": "reconstructed source-admitted choice; no source selection, not a class-C witness"
+        },
+        "engineering_followthrough": {
+          "evidence": [
+            "explorations/conditional-build/source-action-engineering-wave-2026-11-25.md",
+            "lab/process/source-action-engineering-wave.json",
+            "tests/program-focus/source_action_engineering_probe.py",
+            "lab/process/source-action-opportunity-register-2026-11-25.json"
+          ],
+          "formal_status": "coupled formal zero-matter product solution, no finiteh existence",
+          "boundary_status": "fixed spherical puregauge datum incompatible with regular flat-leading formal branch; nonperturbative/otherboundary alternatives retained",
+          "current_status": "owned imposter/scalar rank relation and all-s hidden-probe separation; no physical2+1map or leakage claim",
+          "remaining": "native analytic inverse/solution domain, source-selected boundary, actual physical response and integer receiver"
         }
       }
     ],
@@ -3271,6 +3316,20 @@
         "evidence": [
           "lab/process/action-constraint-matrix.json#directed_lc_carry_2026_11_24_recommendation"
         ]
+      },
+      {
+        "id": "directed_engineering_opportunities_2026_11_25",
+        "status": "consumed",
+        "original_direction": "Execute inexpensive theoretical/engineering recommendations, preserve all useful ideas and rerank from evidence without losing principles.",
+        "evidence": [
+          "explorations/conditional-build/source-action-engineering-wave-2026-11-25.md",
+          "lab/process/source-action-engineering-wave.json",
+          "tests/program-focus/source_action_engineering_probe.py",
+          "lab/process/source-action-opportunity-register-2026-11-25.json",
+          "lab/process/source-action-opportunity-register-2026-11-25.md",
+          "lab/process/work-packets/source-action-response-discriminators-2026-11-25.md",
+          "lab/process/hostile-reviews/2026-11-25-source-action-engineering-review.md"
+        ]
       }
     ]
   },
@@ -3296,6 +3355,30 @@
       "explorations/conditional-build/natural-density-fibre-volume-2026-11-25.md",
       "explorations/conditional-build/tensor-stabilizer-normalization-2026-11-25.md",
       "explorations/conditional-build/symmetry-restoration-measure-limit-2026-11-25.md"
-    ]
+    ],
+    "engineering_restock": {
+      "authority": "joe_direct_chat_2026_11_25_engineering_opportunity_wave",
+      "evidence": [
+        "explorations/conditional-build/source-action-engineering-wave-2026-11-25.md",
+        "lab/process/source-action-engineering-wave.json",
+        "tests/program-focus/source_action_engineering_probe.py",
+        "lab/process/source-action-opportunity-register-2026-11-25.json",
+        "lab/process/source-action-opportunity-register-2026-11-25.md",
+        "lab/process/work-packets/source-action-response-discriminators-2026-11-25.md",
+        "lab/process/hostile-reviews/2026-11-25-source-action-engineering-review.md"
+      ],
+      "ordinary_priority_effect": "unchanged source/class eligibility and cadence",
+      "directed_priority_effect": "reranked: compatible analytic realization/source-typed response; completed formal work and incompatible fixed-boundary attachment no longer primary",
+      "preserved_pool": "lab/process/source-action-opportunity-register-2026-11-25.json",
+      "completed_reuse": [
+        "SE symbol repair classifier",
+        "formal coefficient recurrence",
+        "all zero-matter constant-base formal metric receivers in product class",
+        "winding arithmetic",
+        "finite Jacobian",
+        "scalar multiplier family"
+      ],
+      "next_work": "For the directed construction, formal coefficients and constant-base formal metric tests are covered. Next substantive construction work is an analytic realization on a specified compatible domain/boundary, with source-typed response/constraint admissibility and physical sector maps when supplied. The fixed spherical fixture is incompatible with the regular flat-leading branch; changing the datum is not validation of the old one. Ordinary class-wide/source-relevant selection and LC cadence remain unchanged; the preserved opportunity pool feeds existing postflight ranking without new gates."
+    }
   }
 }

@@ -5,6 +5,10 @@ doc_type: overview
 updated_at: "2026-08-23"
 ---
 
+## Source-action engineering opportunities (2026-11-25)
+
+[Results](source-action-engineering-wave.json), [complete opportunity inventory](source-action-opportunity-register-2026-11-25.md), and [response packet](work-packets/source-action-response-discriminators-2026-11-25.md): concrete diagnostics, formal coupled follow-through and evidence-based construction ranking. All source/class/physics verdicts and standing principles retained.
+
 ## Source-action wave2 (2026-11-25)
 
 [Evidence](source-action-wave2.json): SE completion and exact native Euler checks; nonlinear all-component formal connection construction. No convergent/full stationary physical solution or verdict.

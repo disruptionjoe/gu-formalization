@@ -1,0 +1,1023 @@
+{
+  "artifact": "source-action-opportunity-register",
+  "date": "2026-11-25",
+  "basis_revision": "a22bdace5a78a3870d9ce76634d545f89b791dab",
+  "authority": "Joe direct request to preserve all useful theoretical and engineering ideas and rerank from evidence",
+  "status": "reviewed_evidence_pool",
+  "claim_effect": "none",
+  "coverage": {
+    "theory_lenses": 50,
+    "engineering_counterparts": 50,
+    "paired_records": 50,
+    "deduplicated_questions": 29,
+    "panels": 5
+  },
+  "usage": "Evidence pool for existing prioritization, not a mandatory backlog or governance change. Completed items require new evidence to reopen; reserve ideas retain exact dependencies. Candidate-only work does not inherit whole-C/source necessity.",
+  "corrections": [
+    "Fermionic F/R do not act on a bosonic Helmholtz receiver.",
+    "Finite observability uses the actual evolution generator, not powers of the raw equation operator.",
+    "Metric feedback must follow admissible base-metric variations and retain geometric boundary terms.",
+    "Fixed nonzero boundary data versus T=O(h) is already-known scope; only new coefficient/branch comparison earns new result.",
+    "Field-component, kernel, topological and sector-label counts do not establish physical families."
+  ],
+  "lenses": [
+    {
+      "id": "MATH-01",
+      "theory_lens": "Symplectic geometry \u2014 preserve the physical data, not only the equations",
+      "engineering_counterpart": "Variational integrator engineer \u2014 transport the boundary data",
+      "opportunity": "O02",
+      "theory_ref": "lab/process/assessments/2026-11-25-source-action-panels/theory-math.md",
+      "engineering_ref": "lab/process/assessments/2026-11-25-source-action-panels/engineering-math.md",
+      "section": 1,
+      "status": "disposition_at_opportunity"
+    },
+    {
+      "id": "MATH-02",
+      "theory_lens": "Path-integral mathematics \u2014 the finite-dimensional Jacobian may be the easy part",
+      "engineering_counterpart": "Quantum symbolic-computation engineer \u2014 close the small Jacobian question",
+      "opportunity": "O03",
+      "theory_ref": "lab/process/assessments/2026-11-25-source-action-panels/theory-math.md",
+      "engineering_ref": "lab/process/assessments/2026-11-25-source-action-panels/engineering-math.md",
+      "section": 2,
+      "status": "disposition_at_opportunity"
+    },
+    {
+      "id": "MATH-03",
+      "theory_lens": "Category and descent theory \u2014 distinguish missing state from inconsistent observation",
+      "engineering_counterpart": "Observation-interface engineer \u2014 find the first missing datum",
+      "opportunity": "O04",
+      "theory_ref": "lab/process/assessments/2026-11-25-source-action-panels/theory-math.md",
+      "engineering_ref": "lab/process/assessments/2026-11-25-source-action-panels/engineering-math.md",
+      "section": 3,
+      "status": "disposition_at_opportunity"
+    },
+    {
+      "id": "MATH-04",
+      "theory_lens": "Clifford and representation theory \u2014 locate what remains distinctive after normalization",
+      "engineering_counterpart": "Representation-software engineer \u2014 identify invariant interaction fingerprints",
+      "opportunity": "O05",
+      "theory_ref": "lab/process/assessments/2026-11-25-source-action-panels/theory-math.md",
+      "engineering_ref": "lab/process/assessments/2026-11-25-source-action-panels/engineering-math.md",
+      "section": 4,
+      "status": "disposition_at_opportunity"
+    },
+    {
+      "id": "MATH-05",
+      "theory_lens": "Microlocal/PDE analysis \u2014 test whether a proposed safe sector stays safe",
+      "engineering_counterpart": "PDE-domain engineer \u2014 test whether the proposed restriction leaks",
+      "opportunity": "O06",
+      "theory_ref": "lab/process/assessments/2026-11-25-source-action-panels/theory-math.md",
+      "engineering_ref": "lab/process/assessments/2026-11-25-source-action-panels/engineering-math.md",
+      "section": 5,
+      "status": "disposition_at_opportunity"
+    },
+    {
+      "id": "MATH-06",
+      "theory_lens": "Variational bicomplex \u2014 ask whether the endpoint needs a multiplier",
+      "engineering_counterpart": "Inverse-variational solver engineer \u2014 bound the multiplier escape",
+      "opportunity": "O07",
+      "theory_ref": "lab/process/assessments/2026-11-25-source-action-panels/theory-math.md",
+      "engineering_ref": "lab/process/assessments/2026-11-25-source-action-panels/engineering-math.md",
+      "section": 6,
+      "status": "disposition_at_opportunity"
+    },
+    {
+      "id": "MATH-07",
+      "theory_lens": "Derived/BV geometry \u2014 count constraints only on a valid background",
+      "engineering_counterpart": "Constraint-system engineer \u2014 separate redundancy from unsolved dynamics",
+      "opportunity": "O08",
+      "theory_ref": "lab/process/assessments/2026-11-25-source-action-panels/theory-math.md",
+      "engineering_ref": "lab/process/assessments/2026-11-25-source-action-panels/engineering-math.md",
+      "section": 7,
+      "status": "disposition_at_opportunity"
+    },
+    {
+      "id": "MATH-08",
+      "theory_lens": "Global topology/index theory \u2014 the external datum may choose a receiver",
+      "engineering_counterpart": "Index-interface engineer \u2014 specify the missing receiver",
+      "opportunity": "O09",
+      "theory_ref": "lab/process/assessments/2026-11-25-source-action-panels/theory-math.md",
+      "engineering_ref": "lab/process/assessments/2026-11-25-source-action-panels/engineering-math.md",
+      "section": 8,
+      "status": "disposition_at_opportunity"
+    },
+    {
+      "id": "MATH-09",
+      "theory_lens": "Singular perturbation \u2014 useful approximation does not require a convergent series",
+      "engineering_counterpart": "Asymptotic-analysis engineer \u2014 measure the derivative debt",
+      "opportunity": "O10",
+      "theory_ref": "lab/process/assessments/2026-11-25-source-action-panels/theory-math.md",
+      "engineering_ref": "lab/process/assessments/2026-11-25-source-action-panels/engineering-math.md",
+      "section": 9,
+      "status": "disposition_at_opportunity"
+    },
+    {
+      "id": "MATH-10",
+      "theory_lens": "Differential geometry/natural operations \u2014 search for linked interactions, not isolated terms",
+      "engineering_counterpart": "Effective-interaction engineer \u2014 test the linked terms together",
+      "opportunity": "O11",
+      "theory_ref": "lab/process/assessments/2026-11-25-source-action-panels/theory-math.md",
+      "engineering_ref": "lab/process/assessments/2026-11-25-source-action-panels/engineering-math.md",
+      "section": 10,
+      "status": "disposition_at_opportunity"
+    },
+    {
+      "id": "DISTRIBUTED-01",
+      "theory_lens": "Distributed consistency / linearizability \u2014 Does reduction order matter?",
+      "engineering_counterpart": "Integration-test engineer \u2014 reduction order",
+      "opportunity": "O01",
+      "theory_ref": "lab/process/assessments/2026-11-25-source-action-panels/theory-distributed.md",
+      "engineering_ref": "lab/process/assessments/2026-11-25-source-action-panels/engineering-distributed.md",
+      "section": 1,
+      "status": "disposition_at_opportunity"
+    },
+    {
+      "id": "DISTRIBUTED-02",
+      "theory_lens": "Byzantine consensus \u2014 Find what admissible uncertainty cannot change",
+      "engineering_counterpart": "Adversarial specification engineer \u2014 completion robustness",
+      "opportunity": "O12",
+      "theory_ref": "lab/process/assessments/2026-11-25-source-action-panels/theory-distributed.md",
+      "engineering_ref": "lab/process/assessments/2026-11-25-source-action-panels/engineering-distributed.md",
+      "section": 2,
+      "status": "disposition_at_opportunity"
+    },
+    {
+      "id": "DISTRIBUTED-03",
+      "theory_lens": "Formal protocol refinement \u2014 The action may be valuable as a generator of linked couplings",
+      "engineering_counterpart": "Compiler-verification engineer \u2014 linked interactions",
+      "opportunity": "O11",
+      "theory_ref": "lab/process/assessments/2026-11-25-source-action-panels/theory-distributed.md",
+      "engineering_ref": "lab/process/assessments/2026-11-25-source-action-panels/engineering-distributed.md",
+      "section": 3,
+      "status": "disposition_at_opportunity"
+    },
+    {
+      "id": "DISTRIBUTED-04",
+      "theory_lens": "Capability / security authority \u2014 Boundary data can change which transformations are redundant",
+      "engineering_counterpart": "Boundary-access-control engineer \u2014 permitted transformations",
+      "opportunity": "O13",
+      "theory_ref": "lab/process/assessments/2026-11-25-source-action-panels/theory-distributed.md",
+      "engineering_ref": "lab/process/assessments/2026-11-25-source-action-panels/engineering-distributed.md",
+      "section": 4,
+      "status": "disposition_at_opportunity"
+    },
+    {
+      "id": "DISTRIBUTED-05",
+      "theory_lens": "Zero-knowledge proof systems \u2014 Seek a finite analytic witness, not more formal coefficients",
+      "engineering_counterpart": "Proof-certificate engineer \u2014 finite approximation",
+      "opportunity": "O10",
+      "theory_ref": "lab/process/assessments/2026-11-25-source-action-panels/theory-distributed.md",
+      "engineering_ref": "lab/process/assessments/2026-11-25-source-action-panels/engineering-distributed.md",
+      "section": 5,
+      "status": "disposition_at_opportunity"
+    },
+    {
+      "id": "DISTRIBUTED-06",
+      "theory_lens": "Cryptographic commitments / type binding \u2014 Which apparent choices are actually different physics?",
+      "engineering_counterpart": "Parameter-equivalence engineer \u2014 eliminate duplicate choices",
+      "opportunity": "O14",
+      "theory_ref": "lab/process/assessments/2026-11-25-source-action-panels/theory-distributed.md",
+      "engineering_ref": "lab/process/assessments/2026-11-25-source-action-panels/engineering-distributed.md",
+      "section": 6,
+      "status": "disposition_at_opportunity"
+    },
+    {
+      "id": "DISTRIBUTED-07",
+      "theory_lens": "Composable cryptography \u2014 Frozen-geometry success can fail under backreaction",
+      "engineering_counterpart": "Coupled-system integration engineer \u2014 backreaction",
+      "opportunity": "O15",
+      "theory_ref": "lab/process/assessments/2026-11-25-source-action-panels/theory-distributed.md",
+      "engineering_ref": "lab/process/assessments/2026-11-25-source-action-panels/engineering-distributed.md",
+      "section": 7,
+      "status": "disposition_at_opportunity"
+    },
+    {
+      "id": "DISTRIBUTED-08",
+      "theory_lens": "Fault tolerance / self-stabilization \u2014 Small disturbances are more revealing than exact roots",
+      "engineering_counterpart": "Reliability engineer \u2014 lower-order disturbance control",
+      "opportunity": "O16",
+      "theory_ref": "lab/process/assessments/2026-11-25-source-action-panels/theory-distributed.md",
+      "engineering_ref": "lab/process/assessments/2026-11-25-source-action-panels/engineering-distributed.md",
+      "section": 8,
+      "status": "disposition_at_opportunity"
+    },
+    {
+      "id": "DISTRIBUTED-09",
+      "theory_lens": "Information flow / noninterference \u2014 Hidden variables may be necessary memory",
+      "engineering_counterpart": "Information-flow engineer \u2014 hidden influence",
+      "opportunity": "O04",
+      "theory_ref": "lab/process/assessments/2026-11-25-source-action-panels/theory-distributed.md",
+      "engineering_ref": "lab/process/assessments/2026-11-25-source-action-panels/engineering-distributed.md",
+      "section": 9,
+      "status": "disposition_at_opportunity"
+    },
+    {
+      "id": "DISTRIBUTED-10",
+      "theory_lens": "Distributed constraint solving \u2014 Can the formal branch and the charged boundary coexist?",
+      "engineering_counterpart": "Boundary-matching engineer \u2014 assemble the two constructions",
+      "opportunity": "O17",
+      "theory_ref": "lab/process/assessments/2026-11-25-source-action-panels/theory-distributed.md",
+      "engineering_ref": "lab/process/assessments/2026-11-25-source-action-panels/engineering-distributed.md",
+      "section": 10,
+      "status": "disposition_at_opportunity"
+    },
+    {
+      "id": "NETWORK-01",
+      "theory_lens": "Network protocol layering: test the same experiment across layers",
+      "engineering_counterpart": "Protocol integration engineer",
+      "opportunity": "O01",
+      "theory_ref": "lab/process/assessments/2026-11-25-source-action-panels/theory-network.md",
+      "engineering_ref": "lab/process/assessments/2026-11-25-source-action-panels/engineering-network.md",
+      "section": 1,
+      "status": "disposition_at_opportunity"
+    },
+    {
+      "id": "NETWORK-02",
+      "theory_lens": "Routing/topology versus signal dynamics: does charge influence a measurable response?",
+      "engineering_counterpart": "Network measurement engineer",
+      "opportunity": "O18",
+      "theory_ref": "lab/process/assessments/2026-11-25-source-action-panels/theory-network.md",
+      "engineering_ref": "lab/process/assessments/2026-11-25-source-action-panels/engineering-network.md",
+      "section": 2,
+      "status": "disposition_at_opportunity"
+    },
+    {
+      "id": "NETWORK-03",
+      "theory_lens": "Network tomography: identify what observations could distinguish",
+      "engineering_counterpart": "Tomography and test-instrument engineer",
+      "opportunity": "O19",
+      "theory_ref": "lab/process/assessments/2026-11-25-source-action-panels/theory-network.md",
+      "engineering_ref": "lab/process/assessments/2026-11-25-source-action-panels/engineering-network.md",
+      "section": 3,
+      "status": "disposition_at_opportunity"
+    },
+    {
+      "id": "NETWORK-04",
+      "theory_lens": "MMO authoritative-world architecture: two equation owners need reconciliation",
+      "engineering_counterpart": "Authoritative simulation engineer",
+      "opportunity": "O20",
+      "theory_ref": "lab/process/assessments/2026-11-25-source-action-panels/theory-network.md",
+      "engineering_ref": "lab/process/assessments/2026-11-25-source-action-panels/engineering-network.md",
+      "section": 4,
+      "status": "disposition_at_opportunity"
+    },
+    {
+      "id": "NETWORK-05",
+      "theory_lens": "Interest management / level of detail: a moving observation rule",
+      "engineering_counterpart": "Observation-interface engineer",
+      "opportunity": "O01",
+      "theory_ref": "lab/process/assessments/2026-11-25-source-action-panels/theory-network.md",
+      "engineering_ref": "lab/process/assessments/2026-11-25-source-action-panels/engineering-network.md",
+      "section": 5,
+      "status": "disposition_at_opportunity"
+    },
+    {
+      "id": "NETWORK-06",
+      "theory_lens": "Predictive client reconciliation: observed history might matter",
+      "engineering_counterpart": "Prediction/reconciliation engineer",
+      "opportunity": "O04",
+      "theory_ref": "lab/process/assessments/2026-11-25-source-action-panels/theory-network.md",
+      "engineering_ref": "lab/process/assessments/2026-11-25-source-action-panels/engineering-network.md",
+      "section": 6,
+      "status": "disposition_at_opportunity"
+    },
+    {
+      "id": "NETWORK-07",
+      "theory_lens": "Multiscale digital twins: formal accuracy has a bandwidth",
+      "engineering_counterpart": "Multiscale model engineer",
+      "opportunity": "O10",
+      "theory_ref": "lab/process/assessments/2026-11-25-source-action-panels/theory-network.md",
+      "engineering_ref": "lab/process/assessments/2026-11-25-source-action-panels/engineering-network.md",
+      "section": 7,
+      "status": "disposition_at_opportunity"
+    },
+    {
+      "id": "NETWORK-08",
+      "theory_lens": "World-model semantic state: 2+1 is an interaction question",
+      "engineering_counterpart": "World-state semantics engineer",
+      "opportunity": "O05",
+      "theory_ref": "lab/process/assessments/2026-11-25-source-action-panels/theory-network.md",
+      "engineering_ref": "lab/process/assessments/2026-11-25-source-action-panels/engineering-network.md",
+      "section": 8,
+      "status": "disposition_at_opportunity"
+    },
+    {
+      "id": "NETWORK-09",
+      "theory_lens": "Robotics observer design: distinguish invisibility from instability",
+      "engineering_counterpart": "Sensor and control engineer",
+      "opportunity": "O21",
+      "theory_ref": "lab/process/assessments/2026-11-25-source-action-panels/theory-network.md",
+      "engineering_ref": "lab/process/assessments/2026-11-25-source-action-panels/engineering-network.md",
+      "section": 9,
+      "status": "disposition_at_opportunity"
+    },
+    {
+      "id": "NETWORK-10",
+      "theory_lens": "Multiphysics co-simulation: compatible sectors need one shared solution",
+      "engineering_counterpart": "Coupled-simulation engineer",
+      "opportunity": "O15",
+      "theory_ref": "lab/process/assessments/2026-11-25-source-action-panels/theory-network.md",
+      "engineering_ref": "lab/process/assessments/2026-11-25-source-action-panels/engineering-network.md",
+      "section": 10,
+      "status": "disposition_at_opportunity"
+    },
+    {
+      "id": "AI-01",
+      "theory_lens": "Causal representation learning",
+      "engineering_counterpart": "Causal-model implementation engineer",
+      "opportunity": "O01",
+      "theory_ref": "lab/process/assessments/2026-11-25-source-action-panels/theory-ai.md",
+      "engineering_ref": "lab/process/assessments/2026-11-25-source-action-panels/engineering-ai.md",
+      "section": 1,
+      "status": "disposition_at_opportunity"
+    },
+    {
+      "id": "AI-02",
+      "theory_lens": "System identification and identifiability",
+      "engineering_counterpart": "System-identification engineer",
+      "opportunity": "O14",
+      "theory_ref": "lab/process/assessments/2026-11-25-source-action-panels/theory-ai.md",
+      "engineering_ref": "lab/process/assessments/2026-11-25-source-action-panels/engineering-ai.md",
+      "section": 2,
+      "status": "disposition_at_opportunity"
+    },
+    {
+      "id": "AI-03",
+      "theory_lens": "Information bottleneck and rate-distortion",
+      "engineering_counterpart": "Representation-compression engineer",
+      "opportunity": "O22",
+      "theory_ref": "lab/process/assessments/2026-11-25-source-action-panels/theory-ai.md",
+      "engineering_ref": "lab/process/assessments/2026-11-25-source-action-panels/engineering-ai.md",
+      "section": 3,
+      "status": "disposition_at_opportunity"
+    },
+    {
+      "id": "AI-04",
+      "theory_lens": "Equivariant geometric neural networks",
+      "engineering_counterpart": "Equivariant-software engineer",
+      "opportunity": "O23",
+      "theory_ref": "lab/process/assessments/2026-11-25-source-action-panels/theory-ai.md",
+      "engineering_ref": "lab/process/assessments/2026-11-25-source-action-panels/engineering-ai.md",
+      "section": 4,
+      "status": "disposition_at_opportunity"
+    },
+    {
+      "id": "AI-05",
+      "theory_lens": "Neural operators and PDE surrogate modelling",
+      "engineering_counterpart": "PDE-surrogate validation engineer",
+      "opportunity": "O10",
+      "theory_ref": "lab/process/assessments/2026-11-25-source-action-panels/theory-ai.md",
+      "engineering_ref": "lab/process/assessments/2026-11-25-source-action-panels/engineering-ai.md",
+      "section": 5,
+      "status": "disposition_at_opportunity"
+    },
+    {
+      "id": "AI-06",
+      "theory_lens": "Program synthesis and inductive bias",
+      "engineering_counterpart": "Constraint-based synthesis engineer",
+      "opportunity": "O12",
+      "theory_ref": "lab/process/assessments/2026-11-25-source-action-panels/theory-ai.md",
+      "engineering_ref": "lab/process/assessments/2026-11-25-source-action-panels/engineering-ai.md",
+      "section": 6,
+      "status": "disposition_at_opportunity"
+    },
+    {
+      "id": "AI-07",
+      "theory_lens": "Bayesian experimental design and active learning",
+      "engineering_counterpart": "Experimental-design engineer",
+      "opportunity": "O24",
+      "theory_ref": "lab/process/assessments/2026-11-25-source-action-panels/theory-ai.md",
+      "engineering_ref": "lab/process/assessments/2026-11-25-source-action-panels/engineering-ai.md",
+      "section": 7,
+      "status": "disposition_at_opportunity"
+    },
+    {
+      "id": "AI-08",
+      "theory_lens": "Probabilistic programming and latent-variable models",
+      "engineering_counterpart": "Probabilistic-programming runtime engineer",
+      "opportunity": "O11",
+      "theory_ref": "lab/process/assessments/2026-11-25-source-action-panels/theory-ai.md",
+      "engineering_ref": "lab/process/assessments/2026-11-25-source-action-panels/engineering-ai.md",
+      "section": 8,
+      "status": "disposition_at_opportunity"
+    },
+    {
+      "id": "AI-09",
+      "theory_lens": "Learning theory and out-of-distribution generalization",
+      "engineering_counterpart": "Robustness and distribution-shift engineer",
+      "opportunity": "O25",
+      "theory_ref": "lab/process/assessments/2026-11-25-source-action-panels/theory-ai.md",
+      "engineering_ref": "lab/process/assessments/2026-11-25-source-action-panels/engineering-ai.md",
+      "section": 9,
+      "status": "disposition_at_opportunity"
+    },
+    {
+      "id": "AI-10",
+      "theory_lens": "Tensor networks and computational renormalization",
+      "engineering_counterpart": "Tensor-compression/reduction engineer",
+      "opportunity": "O01",
+      "theory_ref": "lab/process/assessments/2026-11-25-source-action-panels/theory-ai.md",
+      "engineering_ref": "lab/process/assessments/2026-11-25-source-action-panels/engineering-ai.md",
+      "section": 10,
+      "status": "disposition_at_opportunity"
+    },
+    {
+      "id": "PHYSICS-01",
+      "theory_lens": "Gravity and diffeomorphism physicist \u2014 compare the two equation layers",
+      "engineering_counterpart": "Gravitational-response verification engineer",
+      "opportunity": "O26",
+      "theory_ref": "lab/process/assessments/2026-11-25-source-action-panels/theory-physics.md",
+      "engineering_ref": "lab/process/assessments/2026-11-25-source-action-panels/engineering-physics.md",
+      "section": 1,
+      "status": "disposition_at_opportunity"
+    },
+    {
+      "id": "PHYSICS-02",
+      "theory_lens": "Chiral particle phenomenologist \u2014 test how an imposter behaves",
+      "engineering_counterpart": "Particle-interaction test engineer",
+      "opportunity": "O05",
+      "theory_ref": "lab/process/assessments/2026-11-25-source-action-panels/theory-physics.md",
+      "engineering_ref": "lab/process/assessments/2026-11-25-source-action-panels/engineering-physics.md",
+      "section": 2,
+      "status": "disposition_at_opportunity"
+    },
+    {
+      "id": "PHYSICS-03",
+      "theory_lens": "EFT and renormalization physicist \u2014 identify a relation that cannot be retuned",
+      "engineering_counterpart": "Effective-interaction matching engineer",
+      "opportunity": "O12",
+      "theory_ref": "lab/process/assessments/2026-11-25-source-action-panels/theory-physics.md",
+      "engineering_ref": "lab/process/assessments/2026-11-25-source-action-panels/engineering-physics.md",
+      "section": 3,
+      "status": "disposition_at_opportunity"
+    },
+    {
+      "id": "PHYSICS-04",
+      "theory_lens": "Gauge and BRST physicist \u2014 distinguish a redundancy from physical suppression",
+      "engineering_counterpart": "Constraint and gauge verification engineer",
+      "opportunity": "O08",
+      "theory_ref": "lab/process/assessments/2026-11-25-source-action-panels/theory-physics.md",
+      "engineering_ref": "lab/process/assessments/2026-11-25-source-action-panels/engineering-physics.md",
+      "section": 4,
+      "status": "disposition_at_opportunity"
+    },
+    {
+      "id": "PHYSICS-05",
+      "theory_lens": "Mathematical cosmologist \u2014 seek a common response, not a dark-energy number",
+      "engineering_counterpart": "Geometric-response integration engineer",
+      "opportunity": "O15",
+      "theory_ref": "lab/process/assessments/2026-11-25-source-action-panels/theory-physics.md",
+      "engineering_ref": "lab/process/assessments/2026-11-25-source-action-panels/engineering-physics.md",
+      "section": 5,
+      "status": "disposition_at_opportunity"
+    },
+    {
+      "id": "PHYSICS-06",
+      "theory_lens": "Dark-sector phenomenologist \u2014 darkness is a coupling claim",
+      "engineering_counterpart": "Dark-sector coupling engineer",
+      "opportunity": "O27",
+      "theory_ref": "lab/process/assessments/2026-11-25-source-action-panels/theory-physics.md",
+      "engineering_ref": "lab/process/assessments/2026-11-25-source-action-panels/engineering-physics.md",
+      "section": 6,
+      "status": "disposition_at_opportunity"
+    },
+    {
+      "id": "PHYSICS-07",
+      "theory_lens": "Condensed-matter / emergence physicist \u2014 distinguish an emergent particle from a field component",
+      "engineering_counterpart": "Emergent-resonance engineering physicist",
+      "opportunity": "O28",
+      "theory_ref": "lab/process/assessments/2026-11-25-source-action-panels/theory-physics.md",
+      "engineering_ref": "lab/process/assessments/2026-11-25-source-action-panels/engineering-physics.md",
+      "section": 7,
+      "status": "disposition_at_opportunity"
+    },
+    {
+      "id": "PHYSICS-08",
+      "theory_lens": "Scattering and unitarity physicist \u2014 use the repair to isolate the physical question",
+      "engineering_counterpart": "Conserved-flux verification engineer",
+      "opportunity": "O02",
+      "theory_ref": "lab/process/assessments/2026-11-25-source-action-panels/theory-physics.md",
+      "engineering_ref": "lab/process/assessments/2026-11-25-source-action-panels/engineering-physics.md",
+      "section": 8,
+      "status": "disposition_at_opportunity"
+    },
+    {
+      "id": "PHYSICS-09",
+      "theory_lens": "Semiclassical / instanton physicist \u2014 ask what gives topology a physical size",
+      "engineering_counterpart": "Topological-carrier stability engineer",
+      "opportunity": "O29",
+      "theory_ref": "lab/process/assessments/2026-11-25-source-action-panels/theory-physics.md",
+      "engineering_ref": "lab/process/assessments/2026-11-25-source-action-panels/engineering-physics.md",
+      "section": 9,
+      "status": "disposition_at_opportunity"
+    },
+    {
+      "id": "PHYSICS-10",
+      "theory_lens": "Operational quantum foundations physicist \u2014 specify what counts as the same observation",
+      "engineering_counterpart": "Observation-response test engineer",
+      "opportunity": "O22",
+      "theory_ref": "lab/process/assessments/2026-11-25-source-action-panels/theory-physics.md",
+      "engineering_ref": "lab/process/assessments/2026-11-25-source-action-panels/engineering-physics.md",
+      "section": 10,
+      "status": "disposition_at_opportunity"
+    }
+  ],
+  "opportunities": [
+    {
+      "id": "O01",
+      "question": "Complete moving observation and composition",
+      "lenses": [
+        "DISTRIBUTED-01",
+        "NETWORK-01",
+        "NETWORK-05",
+        "AI-01",
+        "AI-10"
+      ],
+      "status": "completed_local",
+      "scope": "candidate or explicitly declared structural diagnostic; not source-wide without bridge",
+      "source_relevance": "conditional; use source-native carrier and registered premises",
+      "evidence": [
+        "explorations/conditional-build/source-action-engineering-wave-2026-11-25.md"
+      ],
+      "remaining_input": "Physical observed response/domain; full receiver-specific application.",
+      "revisit_when": "A specified physical response or a changed observation rule.",
+      "disposition": "Complete moving-section derivative and field/row transport distinctions.",
+      "selection_note": "Candidate construction/diagnostic only unless its stated structural family and source bridge satisfy current program_focus. A reserve is not scheduled work."
+    },
+    {
+      "id": "O02",
+      "question": "Boundary current and variational transport",
+      "lenses": [
+        "MATH-01",
+        "PHYSICS-08"
+      ],
+      "status": "completed_local_with_conditional_extension",
+      "scope": "candidate or explicitly declared structural diagnostic; not source-wide without bridge",
+      "source_relevance": "conditional; use source-native carrier and registered premises",
+      "evidence": [
+        "explorations/conditional-build/source-action-engineering-wave-2026-11-25.md"
+      ],
+      "remaining_input": "Actual native metric potential and admitted boundary/constraint space.",
+      "revisit_when": "A concrete physical flux/phase-space question with its domain.",
+      "disposition": "Fermion boundary pullback and general jet-dependent Euler correction derived.",
+      "selection_note": "Candidate construction/diagnostic only unless its stated structural family and source bridge satisfy current program_focus. A reserve is not scheduled work."
+    },
+    {
+      "id": "O03",
+      "question": "Finite Jacobian and continuum distinction",
+      "lenses": [
+        "MATH-02"
+      ],
+      "status": "completed_finite",
+      "scope": "candidate or explicitly declared structural diagnostic; not source-wide without bridge",
+      "source_relevance": "conditional; use source-native carrier and registered premises",
+      "evidence": [
+        "explorations/conditional-build/source-action-engineering-wave-2026-11-25.md"
+      ],
+      "remaining_input": "Continuum regulator, global measure and domain.",
+      "revisit_when": "An actual quantum measure/regulator is supplied.",
+      "disposition": "Finite F/R determinant and independent Grassmann ratio1.",
+      "selection_note": "Candidate construction/diagnostic only unless its stated structural family and source bridge satisfy current program_focus. A reserve is not scheduled work."
+    },
+    {
+      "id": "O04",
+      "question": "Finite observed-state augmentation",
+      "lenses": [
+        "MATH-03",
+        "DISTRIBUTED-09",
+        "NETWORK-06"
+      ],
+      "status": "retained_dependency",
+      "scope": "candidate or explicitly declared structural diagnostic; not source-wide without bridge",
+      "source_relevance": "conditional; use source-native carrier and registered premises",
+      "evidence": [],
+      "remaining_input": "Admitted evolution generator and selected observable/state class.",
+      "revisit_when": "A real generator/domain replaces the raw equation operator.",
+      "disposition": "Known nonclosure reused; finite augmentation does not supply native prediction.",
+      "selection_note": "Candidate construction/diagnostic only unless its stated structural family and source bridge satisfy current program_focus. A reserve is not scheduled work."
+    },
+    {
+      "id": "O05",
+      "question": "2+1 interaction fingerprints",
+      "lenses": [
+        "MATH-04",
+        "NETWORK-08",
+        "PHYSICS-02"
+      ],
+      "status": "completed_owned_subproblem",
+      "scope": "candidate or explicitly declared structural diagnostic; not source-wide without bridge",
+      "source_relevance": "conditional; use source-native carrier and registered premises",
+      "evidence": [
+        "explorations/conditional-build/source-action-engineering-wave-2026-11-25.md"
+      ],
+      "remaining_input": "Physical true-family embeddings and weak-current quotient.",
+      "revisit_when": "A source-typed physical sector map is supplied; do not count module multiplicities.",
+      "disposition": "Owned imposter/scalar current fingerprints and nonzero RS routing computed.",
+      "selection_note": "Candidate construction/diagnostic only unless its stated structural family and source bridge satisfy current program_focus. A reserve is not scheduled work."
+    },
+    {
+      "id": "O06",
+      "question": "Preservation of an admitted domain restriction",
+      "lenses": [
+        "MATH-05"
+      ],
+      "status": "retained_dependency",
+      "scope": "candidate or explicitly declared structural diagnostic; not source-wide without bridge",
+      "source_relevance": "conditional; use source-native carrier and registered premises",
+      "evidence": [],
+      "remaining_input": "A source-admitted restriction P with actual preservation demand.",
+      "revisit_when": "A concrete permitted domain restriction exists to test.",
+      "disposition": "Normal-characteristic/domain restrictions remain explicit.",
+      "selection_note": "Candidate construction/diagnostic only unless its stated structural family and source bridge satisfy current program_focus. A reserve is not scheduled work."
+    },
+    {
+      "id": "O07",
+      "question": "Bounded Helmholtz multiplier class",
+      "lenses": [
+        "MATH-06"
+      ],
+      "status": "completed_scalar_subfamily",
+      "scope": "candidate or explicitly declared structural diagnostic; not source-wide without bridge",
+      "source_relevance": "conditional; use source-native carrier and registered premises",
+      "evidence": [
+        "explorations/conditional-build/source-action-engineering-wave-2026-11-25.md"
+      ],
+      "remaining_input": "A source-relevant matrix/jet multiplier family, original pairing and action comparison.",
+      "revisit_when": "A natural non-scalar family is explicitly specified; no unconstrained scan.",
+      "disposition": "All nowhere-zero real derivative-free scalar multipliers retain principal defect\u221226f.",
+      "selection_note": "Candidate construction/diagnostic only unless its stated structural family and source bridge satisfy current program_focus. A reserve is not scheduled work."
+    },
+    {
+      "id": "O08",
+      "question": "Constraints versus redundancy",
+      "lenses": [
+        "MATH-07",
+        "PHYSICS-04"
+      ],
+      "status": "retained_dependency",
+      "scope": "candidate or explicitly declared structural diagnostic; not source-wide without bridge",
+      "source_relevance": "conditional; use source-native carrier and registered premises",
+      "evidence": [],
+      "remaining_input": "Source-typed physical constraints/quotient and background.",
+      "revisit_when": "Actual constraints can be evaluated on the central normal probes.",
+      "disposition": "Compensator quotient and known mixing witnesses reused; hidden current separation needs real constraints.",
+      "selection_note": "Candidate construction/diagnostic only unless its stated structural family and source bridge satisfy current program_focus. A reserve is not scheduled work."
+    },
+    {
+      "id": "O09",
+      "question": "Boundary-to-index receiver",
+      "lenses": [
+        "MATH-08"
+      ],
+      "status": "retained_dependency",
+      "scope": "candidate or explicitly declared structural diagnostic; not source-wide without bridge",
+      "source_relevance": "conditional; use source-native carrier and registered premises",
+      "evidence": [],
+      "remaining_input": "Native end, grading, Fredholm/relative pairing and physical receiver.",
+      "revisit_when": "An owned receiver supplies a missing arrow; not another supplied integer.",
+      "disposition": "Bott integer, order3/Z24 and observed integer remain distinct.",
+      "selection_note": "Candidate construction/diagnostic only unless its stated structural family and source bridge satisfy current program_focus. A reserve is not scheduled work."
+    },
+    {
+      "id": "O10",
+      "question": "Derivative loss and controlled approximation",
+      "lenses": [
+        "MATH-09",
+        "DISTRIBUTED-05",
+        "NETWORK-07",
+        "AI-05"
+      ],
+      "status": "completed_certificate_conditions",
+      "scope": "candidate or explicitly declared structural diagnostic; not source-wide without bridge",
+      "source_relevance": "conditional; use source-native carrier and registered premises",
+      "evidence": [
+        "explorations/conditional-build/source-action-engineering-wave-2026-11-25.md"
+      ],
+      "remaining_input": "Compatible boundary space and bounded inverse/product/residual estimates.",
+      "revisit_when": "One native analytic setting provides M,C and residual norm.",
+      "disposition": "Conditional inverse/residual contraction certificate stated; formal series not a numerical bound.",
+      "selection_note": "Candidate construction/diagnostic only unless its stated structural family and source bridge satisfy current program_focus. A reserve is not scheduled work."
+    },
+    {
+      "id": "O11",
+      "question": "Shared-mediator invariant relations",
+      "lenses": [
+        "MATH-10",
+        "DISTRIBUTED-03",
+        "AI-08"
+      ],
+      "status": "completed_candidate_linkage",
+      "scope": "candidate or explicitly declared structural diagnostic; not source-wide without bridge",
+      "source_relevance": "conditional; use source-native carrier and registered premises",
+      "evidence": [
+        "explorations/conditional-build/source-action-engineering-wave-2026-11-25.md"
+      ],
+      "remaining_input": "Source-protected observed relation or allowed-deformation classification.",
+      "revisit_when": "A proposed relation survives a stated exhaustive source-relevant family.",
+      "disposition": "Generic shared-mediator relation reused; concrete current relation condition-fixed and grammar-sensitive.",
+      "selection_note": "Candidate construction/diagnostic only unless its stated structural family and source bridge satisfy current program_focus. A reserve is not scheduled work."
+    },
+    {
+      "id": "O12",
+      "question": "Source-compatible deformation robustness",
+      "lenses": [
+        "DISTRIBUTED-02",
+        "AI-06",
+        "PHYSICS-03"
+      ],
+      "status": "completed_countervariation",
+      "scope": "candidate or explicitly declared structural diagnostic; not source-wide without bridge",
+      "source_relevance": "conditional; use source-native carrier and registered premises",
+      "evidence": [
+        "explorations/conditional-build/source-action-engineering-wave-2026-11-25.md"
+      ],
+      "remaining_input": "Physical admissibility across a wider completion family.",
+      "revisit_when": "A source-required restriction selects a family where universality can be proved.",
+      "disposition": "Rank relation breaks under admitted SE grammar while extra fixed-slice semisimplicity is lost.",
+      "selection_note": "Candidate construction/diagnostic only unless its stated structural family and source bridge satisfy current program_focus. A reserve is not scheduled work."
+    },
+    {
+      "id": "O13",
+      "question": "Boundary-preserving stabilizer",
+      "lenses": [
+        "DISTRIBUTED-04"
+      ],
+      "status": "retained_lower_priority",
+      "scope": "candidate or explicitly declared structural diagnostic; not source-wide without bridge",
+      "source_relevance": "conditional; use source-native carrier and registered premises",
+      "evidence": [],
+      "remaining_input": "A compatible native boundary prescription with meaningful residual symmetry.",
+      "revisit_when": "Boundary owner is specified; arbitrary fixture stabilizers do not answer current source questions.",
+      "disposition": "Boundary framing/splitting stabilizer idea preserved.",
+      "selection_note": "Candidate construction/diagnostic only unless its stated structural family and source bridge satisfy current program_focus. A reserve is not scheduled work."
+    },
+    {
+      "id": "O14",
+      "question": "Equivalence and free-choice dependence",
+      "lenses": [
+        "DISTRIBUTED-06",
+        "AI-02"
+      ],
+      "status": "completed_scope_table",
+      "scope": "candidate or explicitly declared structural diagnostic; not source-wide without bridge",
+      "source_relevance": "conditional; use source-native carrier and registered premises",
+      "evidence": [
+        "explorations/conditional-build/source-action-engineering-wave-2026-11-25.md"
+      ],
+      "remaining_input": "Full physical equivalence requires boundaries, domain and measure.",
+      "revisit_when": "A proposed parameter change claims physical equivalence or new prediction.",
+      "disposition": "Fixed coefficient, normalization, source label, domain and physical inputs separated in result.",
+      "selection_note": "Candidate construction/diagnostic only unless its stated structural family and source bridge satisfy current program_focus. A reserve is not scheduled work."
+    },
+    {
+      "id": "O15",
+      "question": "Coupled base-metric feedback",
+      "lenses": [
+        "DISTRIBUTED-07",
+        "NETWORK-10",
+        "PHYSICS-05"
+      ],
+      "status": "completed_formal_scope",
+      "scope": "candidate or explicitly declared structural diagnostic; not source-wide without bridge",
+      "source_relevance": "conditional; use source-native carrier and registered premises",
+      "evidence": [
+        "explorations/conditional-build/source-action-engineering-wave-2026-11-25.md"
+      ],
+      "remaining_input": "Finite-h existence, physical boundary/state, matter and observation.",
+      "revisit_when": "A controlled analytic realization or new source-relevant response breaks the stated symmetry.",
+      "disposition": "Correct base-metric null variation extended to all formal orders for zero matter/constant base/fixed product regulator.",
+      "selection_note": "Candidate construction/diagnostic only unless its stated structural family and source bridge satisfy current program_focus. A reserve is not scheduled work."
+    },
+    {
+      "id": "O16",
+      "question": "Horizontal lower-order energy control",
+      "lenses": [
+        "DISTRIBUTED-08"
+      ],
+      "status": "retained_lower_priority",
+      "scope": "candidate or explicitly declared structural diagnostic; not source-wide without bridge",
+      "source_relevance": "conditional; use source-native carrier and registered premises",
+      "evidence": [],
+      "remaining_input": "A permitted physical frequency/domain restriction and coefficient estimates.",
+      "revisit_when": "An admitted regime makes a horizontal energy estimate relevant.",
+      "disposition": "Auxiliary horizontal norm does not establish native stability; existing normal-time countercontrol reused.",
+      "selection_note": "Candidate construction/diagnostic only unless its stated structural family and source bridge satisfy current program_focus. A reserve is not scheduled work."
+    },
+    {
+      "id": "O17",
+      "question": "Formal branch and boundary matching",
+      "lenses": [
+        "DISTRIBUTED-10"
+      ],
+      "status": "completed_fixed_branch_obstruction",
+      "scope": "candidate or explicitly declared structural diagnostic; not source-wide without bridge",
+      "source_relevance": "conditional; use source-native carrier and registered premises",
+      "evidence": [
+        "explorations/conditional-build/source-action-engineering-wave-2026-11-25.md"
+      ],
+      "remaining_input": "Different boundary datum, leading geometry, boundary layer or nonperturbative branch.",
+      "revisit_when": "A source-supported compatible boundary/branch is supplied; no arbitrary change disguised as same fixture.",
+      "disposition": "Nonflat tangential reference curvature cannot match fixed pure-gauge sphere at order0 for any k.",
+      "selection_note": "Candidate construction/diagnostic only unless its stated structural family and source bridge satisfy current program_focus. A reserve is not scheduled work."
+    },
+    {
+      "id": "O18",
+      "question": "Charged-core probe response",
+      "lenses": [
+        "NETWORK-02"
+      ],
+      "status": "completed_fixed_probe",
+      "scope": "candidate or explicitly declared structural diagnostic; not source-wide without bridge",
+      "source_relevance": "conditional; use source-native carrier and registered premises",
+      "evidence": [
+        "explorations/conditional-build/source-action-engineering-wave-2026-11-25.md"
+      ],
+      "remaining_input": "Physical stationary states and detector response.",
+      "revisit_when": "A physical probe or charge-comparison experiment is defined; fixed-k bound does not compare charges.",
+      "disposition": "Same-charge shrinking-core current-pairing differences are O(epsilon13) for fixed smooth bounded probes.",
+      "selection_note": "Candidate construction/diagnostic only unless its stated structural family and source bridge satisfy current program_focus. A reserve is not scheduled work."
+    },
+    {
+      "id": "O19",
+      "question": "Observation-sensitive symbol diagnostic",
+      "lenses": [
+        "NETWORK-03"
+      ],
+      "status": "retained_covered_baseline",
+      "scope": "candidate or explicitly declared structural diagnostic; not source-wide without bridge",
+      "source_relevance": "conditional; use source-native carrier and registered premises",
+      "evidence": [],
+      "remaining_input": "A new observation-sensitive question beyond known symbol differences.",
+      "revisit_when": "A different source-relevant receiver would distinguish currently unresolved alternatives.",
+      "disposition": "Old/repaired symbol and nonclosure controls already owned; no duplicate exclusion credited.",
+      "selection_note": "Candidate construction/diagnostic only unless its stated structural family and source bridge satisfy current program_focus. A reserve is not scheduled work."
+    },
+    {
+      "id": "O20",
+      "question": "Bosonic equation discrepancy receiver",
+      "lenses": [
+        "NETWORK-04"
+      ],
+      "status": "retained_typed_gap",
+      "scope": "candidate or explicitly declared structural diagnostic; not source-wide without bridge",
+      "source_relevance": "conditional; use source-native carrier and registered premises",
+      "evidence": [],
+      "remaining_input": "Owned bosonic observation/response map.",
+      "revisit_when": "The correct bosonic receiver is supplied.",
+      "disposition": "Bosonic witness cannot be transported using fermionic F/R.",
+      "selection_note": "Candidate construction/diagnostic only unless its stated structural family and source bridge satisfy current program_focus. A reserve is not scheduled work."
+    },
+    {
+      "id": "O21",
+      "question": "Hidden-kernel interaction influence",
+      "lenses": [
+        "NETWORK-09"
+      ],
+      "status": "completed_structural_subfamily",
+      "scope": "candidate or explicitly declared structural diagnostic; not source-wide without bridge",
+      "source_relevance": "conditional; use source-native carrier and registered premises",
+      "evidence": [
+        "explorations/conditional-build/source-action-engineering-wave-2026-11-25.md"
+      ],
+      "remaining_input": "Admissibility of probes/states in actual source dynamics.",
+      "revisit_when": "A physical constraint, quotient or solution class restricts these probes.",
+      "disposition": "Every-s central normal current probes separate the entire held hidden normal field kernel.",
+      "selection_note": "Candidate construction/diagnostic only unless its stated structural family and source bridge satisfy current program_focus. A reserve is not scheduled work."
+    },
+    {
+      "id": "O22",
+      "question": "Descent of individual observables",
+      "lenses": [
+        "AI-03",
+        "PHYSICS-10"
+      ],
+      "status": "retained_dependency",
+      "scope": "candidate or explicitly declared structural diagnostic; not source-wide without bridge",
+      "source_relevance": "conditional; use source-native carrier and registered premises",
+      "evidence": [],
+      "remaining_input": "An actual source-relevant functional and admissible state/solution class.",
+      "revisit_when": "A candidate observable is specified to test on observation fibres.",
+      "disposition": "Individual observable descent criterion preserved; general field nonclosure is not sufficient.",
+      "selection_note": "Candidate construction/diagnostic only unless its stated structural family and source bridge satisfy current program_focus. A reserve is not scheduled work."
+    },
+    {
+      "id": "O23",
+      "question": "Joint interaction/readout stabilizer",
+      "lenses": [
+        "AI-04"
+      ],
+      "status": "completed_partial",
+      "scope": "candidate or explicitly declared structural diagnostic; not source-wide without bridge",
+      "source_relevance": "conditional; use source-native carrier and registered premises",
+      "evidence": [
+        "explorations/conditional-build/source-action-engineering-wave-2026-11-25.md"
+      ],
+      "remaining_input": "Specified interactions, active symmetry and boundary/domain.",
+      "revisit_when": "A source-relevant generator or protection claim needs a common stabilizer.",
+      "disposition": "Rank/cross-ratio survive declared diagonal rescalings; no full physical stabilizer claimed.",
+      "selection_note": "Candidate construction/diagnostic only unless its stated structural family and source bridge satisfy current program_focus. A reserve is not scheduled work."
+    },
+    {
+      "id": "O24",
+      "question": "Result-dependent selection",
+      "lenses": [
+        "AI-07"
+      ],
+      "status": "applied_selection",
+      "scope": "candidate or explicitly declared structural diagnostic; not source-wide without bridge",
+      "source_relevance": "conditional; use source-native carrier and registered premises",
+      "evidence": [
+        "explorations/conditional-build/source-action-engineering-wave-2026-11-25.md"
+      ],
+      "remaining_input": "Fresh evidence for future eligible tasks.",
+      "revisit_when": "Existing postflight ranking revisits this pool; no new mandatory council.",
+      "disposition": "Results remove completed algebra, higher formal orders and incompatible fixture attachment from immediate construction ranking.",
+      "selection_note": "Candidate construction/diagnostic only unless its stated structural family and source bridge satisfy current program_focus. A reserve is not scheduled work."
+    },
+    {
+      "id": "O25",
+      "question": "Assumption-boundary stress controls",
+      "lenses": [
+        "AI-09"
+      ],
+      "status": "applied_scope_controls",
+      "scope": "candidate or explicitly declared structural diagnostic; not source-wide without bridge",
+      "source_relevance": "conditional; use source-native carrier and registered premises",
+      "evidence": [
+        "explorations/conditional-build/source-action-engineering-wave-2026-11-25.md"
+      ],
+      "remaining_input": "Claim-specific changed assumptions.",
+      "revisit_when": "Any proposed claim crosses one of these explicit boundaries.",
+      "disposition": "Distinguish base versus ambient metric variation, field versus row maps, formal versus finite-h and grammar versus physical family.",
+      "selection_note": "Candidate construction/diagnostic only unless its stated structural family and source bridge satisfy current program_focus. A reserve is not scheduled work."
+    },
+    {
+      "id": "O26",
+      "question": "Two equation architectures on repaired candidate",
+      "lenses": [
+        "PHYSICS-01"
+      ],
+      "status": "retained_dependency",
+      "scope": "candidate or explicitly declared structural diagnostic; not source-wide without bridge",
+      "source_relevance": "conditional; use source-native carrier and registered premises",
+      "evidence": [],
+      "remaining_input": "Shared residual-zero/stationary background and typed bosonic response.",
+      "revisit_when": "A new owned response comparison can be evaluated without identifying distinct equations.",
+      "disposition": "Existing two-layer comparison reused; repaired K95 endpoint mismatch remains.",
+      "selection_note": "Candidate construction/diagnostic only unless its stated structural family and source bridge satisfy current program_focus. A reserve is not scheduled work."
+    },
+    {
+      "id": "O27",
+      "question": "Dark-sector mixing response",
+      "lenses": [
+        "PHYSICS-06"
+      ],
+      "status": "completed_algebraic_burden",
+      "scope": "candidate or explicitly declared structural diagnostic; not source-wide without bridge",
+      "source_relevance": "conditional; use source-native carrier and registered premises",
+      "evidence": [
+        "explorations/conditional-build/source-action-engineering-wave-2026-11-25.md"
+      ],
+      "remaining_input": "Source low-curvature background family, physical states and constraints/propagator.",
+      "revisit_when": "A typed low-curvature response problem admits or excludes the central probes.",
+      "disposition": "Hidden current witness and repaired interaction routing computed; rates/suppression remain open.",
+      "selection_note": "Candidate construction/diagnostic only unless its stated structural family and source bridge satisfy current program_focus. A reserve is not scheduled work."
+    },
+    {
+      "id": "O28",
+      "question": "Shared emergent scalar coupling",
+      "lenses": [
+        "PHYSICS-07"
+      ],
+      "status": "retained_specialist_minority",
+      "scope": "candidate or explicitly declared structural diagnostic; not source-wide without bridge",
+      "source_relevance": "conditional; use source-native carrier and registered premises",
+      "evidence": [],
+      "remaining_input": "Stationary physical phase, fluctuation/quotient and simultaneous fermion/weak couplings.",
+      "revisit_when": "A candidate phase is supplied; retain corrected Krein-paired VEV bridge.",
+      "disposition": "Collective scalar response remains a distinct question from a fundamental Higgs.",
+      "selection_note": "Candidate construction/diagnostic only unless its stated structural family and source bridge satisfy current program_focus. A reserve is not scheduled work."
+    },
+    {
+      "id": "O29",
+      "question": "Boundary-preserving virial balance",
+      "lenses": [
+        "PHYSICS-09"
+      ],
+      "status": "retained_specialist_minority",
+      "scope": "candidate or explicitly declared structural diagnostic; not source-wide without bridge",
+      "source_relevance": "conditional; use source-native carrier and registered premises",
+      "evidence": [],
+      "remaining_input": "Admissible boundary-preserving deformation and sign/balance information.",
+      "revisit_when": "A source-compatible stationary carrier/domain makes a virial condition informative.",
+      "disposition": "Concentration and fixed-boundary incompatibility owned; neither proves absence of saddles.",
+      "selection_note": "Candidate construction/diagnostic only unless its stated structural family and source bridge satisfy current program_focus. A reserve is not scheduled work."
+    }
+  ],
+  "priority_effect": "Ordinary whole-class/source-relevance principles and cadence preserved. Directed construction priorities now favor physical admissibility/response and compatible analytic boundary realization over more formal coefficients, neighbor SE scans or the incompatible fixed fixture. Existing postflight can retrieve this full pool.",
+  "evidence": [
+    "explorations/conditional-build/source-action-engineering-wave-2026-11-25.md",
+    "lab/process/source-action-engineering-wave.json",
+    "lab/process/work-packets/source-action-response-discriminators-2026-11-25.md"
+  ]
+}
