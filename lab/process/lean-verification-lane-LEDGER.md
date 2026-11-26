@@ -514,4 +514,4 @@ bicategory, ambidexterity or Mackey 2-functor is inferred.
 
 ## Rotation rigidity finite core (2026-11-26)
 
-`GUFormalization/RotationRigidity.lean`: **LEAN-VERIFIED**, nine finite lemmas for trace-scale cancellation, coordinate separation, injectivity, rotation transversality, conormal normalization and null unmasking. Targeted compilation passed. Analytic orbit saturation, CK existence and native naturality remain written proofs, not full Lean PDE certification. [Result](../../explorations/conditional-build/source-action-rotation-rigidity-2026-11-26.md).
+`Lean/GUFormalization/RotationRigidity.lean`: **LEAN-VERIFIED**, nine finite lemmas for trace-scale cancellation, coordinate separation, injectivity, rotation transversality, conormal normalization and null unmasking. Targeted compilation passed. Analytic orbit saturation, CK existence and native naturality remain written proofs, not full Lean PDE certification. [Result](../../explorations/conditional-build/source-action-rotation-rigidity-2026-11-26.md).
