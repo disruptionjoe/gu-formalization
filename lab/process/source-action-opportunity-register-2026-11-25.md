@@ -154,3 +154,7 @@ O04 now distinguishes same-phase PsiDO exclusion from a full-frozen bounded nonl
 ## Reduced evolution and conditional energy (2026-11-26)
 
 [Result](../../explorations/conditional-build/source-action-reduced-evolution-2026-11-26.md): O15 now has both canonical-energy signs at both kappa1 roots in the regular unrestricted constraint category, plus a nonzero square-zero reduced symbol. Equal-order bounded Hs evolution and naive compact module closure are excluded at the stated scope. Physical propagation/quotient remain open; neither root is selected. The successor tests graph/mixed regularity already induced by the actual equations and existing restrictions, without a new positive completion. Choice inventory10/4/bookkeeping net6 and all50lenses/29opportunities are retained.
+
+## First graph and positive matter follow-through (2026-11-26)
+
+[Result](../../explorations/conditional-build/source-action-graph-domain-2026-11-26.md): O15 now excludes bounded actual evolution on the unrestricted first constraint graph under regularity. A nonzero selected positive matter state cannot couple while all bosons remain real; its imaginary source is not yet a negative-energy mode. The next discriminator maps that current into the owned energy receiver under the same choices, alongside derived higher-jet closure. No new completion, physicalghost or ledger verdict; all50lenses/29opportunities retained.

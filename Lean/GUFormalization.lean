@@ -78,3 +78,5 @@ import GUFormalization.CoupledGhost
 import GUFormalization.KappaOneConstraints
 
 import GUFormalization.ReducedEvolution
+
+import GUFormalization.GraphDomain

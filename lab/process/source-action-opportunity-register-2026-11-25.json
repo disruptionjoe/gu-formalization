@@ -948,7 +948,7 @@
         "NETWORK-10",
         "PHYSICS-05"
       ],
-      "status": "both_root_conditional_energy_indefinite_reduced_domain_exclusions",
+      "status": "first_graph_flow_excluded_real_boson_charged_extension_excluded",
       "scope": "candidate or explicitly declared structural diagnostic; not source-wide without bridge",
       "source_relevance": "conditional; use source-native carrier and registered premises",
       "evidence": [
@@ -968,11 +968,13 @@
         "explorations/conditional-build/source-action-kappa1-constraints-2026-11-25.md",
         "lab/process/source-action-kappa1-constraints.json",
         "explorations/conditional-build/source-action-reduced-evolution-2026-11-26.md",
-        "lab/process/source-action-reduced-evolution.json"
+        "lab/process/source-action-reduced-evolution.json",
+        "explorations/conditional-build/source-action-graph-domain-2026-11-26.md",
+        "lab/process/source-action-graph-domain.json"
       ],
-      "remaining_input": "Test the derivative graph/mixed regularity already induced by the actual constraints and whether an existing physical restriction removes negative data while being preserved. If full constraints are singular, resolve the relevant residual constraints. Do not blindly invert every lower block or add a positive completion; Q/domain/pairing and actual admissible propagation remain separate physical burdens.",
-      "revisit_when": "Existing constraint graph/mixed domain and its preservation can be tested without adding a completion. Physical inference still requires actual admitted evolution and Q/cohomology/pairing; full singular-constraint branch remains open.",
-      "disposition": "At both kappa1 roots, exact complete spin6/7 derivative-source Schur forms have both canonical-energy signs. Conditional on full regular auxiliary reduction, compact constrained data inherit both signs and the nonzero square-zero reduced symbol excludes bounded unrestricted equal-order Hs evolution. Normal compact Lie-valued local-module closure also fails. No physical ghost or admitted propagation verdict.",
+      "remaining_input": "Test the actual imaginary response forced by the existing positive matter current, including its projection onto owned negative-energy directions under the same fixed injection/domain; source nonzero alone does not prove overlap. Separately test the one-extra-jet derived filtration with actual coefficients/all covectors before claiming a higher graph repair. Singular auxiliary branches retain residual constraints; no new completion or automatic lower-block enumeration.",
+      "revisit_when": "Actual positive matter current mapped into negative-energy/coupled receiver under held choices, or derived higher-jet closure beyond first graph. Source Q/domain and physical overlap still needed.",
+      "disposition": "An exact native spatial-null witness excludes bounded actual variable-coefficient evolution in the unrestricted first constraint-graph L2 domain, conditional on full auxiliary regularity, at both kappa1 roots. Nonzero selected positive-charge matter has no all-real-Clifford bosonic coupled extension, already at order epsilon2. Scalar time-trace pencil rank stays20 including null covectors; no signature-based propagation claim. Physical ghosts remain undetermined.",
       "selection_note": "Candidate construction/diagnostic only unless its stated structural family and source bridge satisfy current program_focus. A reserve is not scheduled work.",
       "history": [
         {
@@ -1022,6 +1024,12 @@
           "previous_status": "kappa1_spin6_spin7_constraints_regular_readout_transfer_nonzero",
           "previous_disposition": "Actual closed-time geometric cancellation; complete spin6/7 algebraic constraint inverses at both kappa1 roots (1904/49154 real imaginary-sector constraints); a fixed invisible derivative source has nonzero connection readout after constraint elimination. Opposite scalar constraint signs exclude an everywhere-regular connecting path within the fixed-geometry59 family. No kappa1 energy or physical ghost verdict.",
           "superseding_evidence": "explorations/conditional-build/source-action-reduced-evolution-2026-11-26.md"
+        },
+        {
+          "date": "2026-11-26",
+          "previous_status": "both_root_conditional_energy_indefinite_reduced_domain_exclusions",
+          "previous_disposition": "At both kappa1 roots, exact complete spin6/7 derivative-source Schur forms have both canonical-energy signs. Conditional on full regular auxiliary reduction, compact constrained data inherit both signs and the nonzero square-zero reduced symbol excludes bounded unrestricted equal-order Hs evolution. Normal compact Lie-valued local-module closure also fails. No physical ghost or admitted propagation verdict.",
+          "superseding_evidence": "explorations/conditional-build/source-action-graph-domain-2026-11-26.md"
         }
       ],
       "predictive_realization_update": {
@@ -1058,6 +1066,13 @@
         "evidence": [
           "explorations/conditional-build/source-action-reduced-evolution-2026-11-26.md",
           "lab/process/source-action-reduced-evolution.json"
+        ]
+      },
+      "graph_domain_update": {
+        "result": "An exact native spatial-null witness excludes bounded actual variable-coefficient evolution in the unrestricted first constraint-graph L2 domain, conditional on full auxiliary regularity, at both kappa1 roots. Nonzero selected positive-charge matter has no all-real-Clifford bosonic coupled extension, already at order epsilon2. Scalar time-trace pencil rank stays20 including null covectors; no signature-based propagation claim. Physical ghosts remain undetermined.",
+        "evidence": [
+          "explorations/conditional-build/source-action-graph-domain-2026-11-26.md",
+          "lab/process/source-action-graph-domain.json"
         ]
       }
     },
@@ -1355,6 +1370,8 @@
     "explorations/conditional-build/source-action-kappa1-constraints-2026-11-25.md",
     "lab/process/source-action-kappa1-constraints.json",
     "explorations/conditional-build/source-action-reduced-evolution-2026-11-26.md",
-    "lab/process/source-action-reduced-evolution.json"
+    "lab/process/source-action-reduced-evolution.json",
+    "explorations/conditional-build/source-action-graph-domain-2026-11-26.md",
+    "lab/process/source-action-graph-domain.json"
   ]
 }

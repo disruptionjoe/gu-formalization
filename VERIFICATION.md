@@ -17,6 +17,14 @@ External review is not a pathway in this program. The honesty label stays: inter
 
 Sections below are historical snapshots in file order.
 
+## Actual first graph and charged-matter compatibility (2026-11-26)
+
+An exact native spatial-null witness excludes bounded actual variable-coefficient evolution in the unrestricted first constraint-graph L2 domain, conditional on full auxiliary regularity, at both kappa1 roots. Nonzero selected positive-charge matter has no all-real-Clifford bosonic coupled extension, already at order epsilon2. Scalar time-trace pencil rank stays20 including null covectors; no signature-based propagation claim. Physical ghosts remain undetermined.
+
+The new graph proof retains actual coefficient derivatives through a smooth spatial-Schur-null packet; it does not infer a flow failure from a frozen symbol. Exact null coefficient and25 representative block checks support it. The imaginary central matter current equals minus the positive phase charge; a compact variation gives a real-boson coupled obstruction without assuming pointwise positivity. No overlap with negative-energy modes or physical cohomology is established. Seven finite Lean lemmas and138 current controls passed. Higher/iterated domains and singular residual constraints survive; choice10/4/bookkeeping net6 is unchanged.
+
+[Result](explorations/conditional-build/source-action-graph-domain-2026-11-26.md) · [Evidence](lab/process/source-action-graph-domain.json).
+
 ## Coupling-one energy and reduced-domain findings (2026-11-26)
 
 At both kappa1 roots, exact complete spin6/7 derivative-source Schur forms have both canonical-energy signs. Conditional on full regular auxiliary reduction, compact constrained data inherit both signs and the nonzero square-zero reduced symbol excludes bounded unrestricted equal-order Hs evolution. Normal compact Lie-valued local-module closure also fails. No physical ghost or admitted propagation verdict.

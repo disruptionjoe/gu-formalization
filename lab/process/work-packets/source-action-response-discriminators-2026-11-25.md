@@ -125,6 +125,16 @@ Step5l retains the missing Q/domain/pairing burden for physical inference; it do
 
 | Step | Status | Target / tier | Expected delta | Scope / negative-result meaning |
 |---|---|---|---|---|
-| 5n Existing constraint graph and admissible propagation | ready in directed continuation | LB-CLASS / T2, T1 if a structural exclusion follows | Test the derivative graph/mixed regularity derived from existing constraints and whether an existing physical restriction removes negative data while staying preserved; singular branch uses actual residual constraints | No invented quotient or positive completion; an unproved domain is UNDETERMINED, not absent. Ordinary eligible work and pending LC continue |
+| 5n Existing constraint graph and admissible propagation | consumed: first-graph and charged real-boson exclusions | LB-CLASS / T1 internal categories | Actual first constraint-graph L2 flow fails under full regularity; nonzero positive charge forbids all-real bosonic coupling | Higher/restricted domains, singular constraints and physical Q survive; no propagated ghost or source verdict |
 
 Step5l retains source Q/domain/physical-pairing burdens. Neither root is selected;10/4/bookkeeping net6 remains unchanged. No permanent work-stop, all-lower-block backlog or new governance rule is installed.
+
+## Consumed first-graph stage (2026-11-26)
+
+[Result](../../../explorations/conditional-build/source-action-graph-domain-2026-11-26.md): the null native coefficient gives an actual variable-coefficient packet obstruction to the first graph domain. Coordinate-axis closure does not extend to the null stratum. A single extra principal row closes the smallest failing frozen filtration22->23->23, not a completed higher domain. The existing positive matter charge also prevents an entirely real bosonic coupled extension, even at order epsilon2. This forces some imaginary response, not a proven negative-energy excitation. The scalar time-trace pencil stays rank20, so signature alone cannot establish its dynamics.
+
+| Step | Status | Target / tier | Expected delta | Scope / negative-result meaning |
+|---|---|---|---|---|
+| 5o Actual charged-matter energy receiver and derived jet closure | ready in directed continuation | LB-CLASS / T2; T1 for a precise exclusion | Map the actual positive-graph current into owned negative-energy/coupled directions using the same J/domain; compare with actual higher-jet closure across directions | Current nonzero is not negative-mode overlap. No refitted graph, arbitrary positive completion or full lower-block backlog; physical Q/domain remains explicit |
+
+Choice10/4/bookkeeping net6 remains unchanged, not a theory necessity bound. Standing priority/LC cadence and other eligible science continue; no waiting checkpoint added.

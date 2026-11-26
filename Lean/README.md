@@ -171,3 +171,7 @@ replacement for `lake build` or targeted standalone Lean checks.
 ## Reduced evolution finite core (2026-11-26)
 
 `GUFormalization/ReducedEvolution.lean`: **LEAN-VERIFIED**, four finite lemmas for the noncommutative square-zero sandwich, unbounded affine rays and universal derivative jets. Targeted `lake env lean -j1` passed without placeholders. Exact native matrices, canonical-energy reduction and variable-coefficient localized-packet estimates remain reviewed written mathematics; no full PDE formalization or project rebuild claim. Evidence: `explorations/conditional-build/source-action-reduced-evolution-2026-11-26.md`.
+
+## Actual first-graph and charged-matter finite core (2026-11-26)
+
+`GUFormalization/GraphDomain.lean`: **LEAN-VERIFIED**, seven lemmas for graph annihilation/factored kernels, negative-energy approximation, central-current phase sign and positive-charge obstruction, and affine-tail growth. Targeted `lake env lean -j1` passed without placeholders. The actual-coefficient packet proof, null eikonal construction, native matrices and selected matter-domain theorem remain independently reviewed written mathematics. No full PDE formalization or whole-project build claim. Evidence: `explorations/conditional-build/source-action-graph-domain-2026-11-26.md`.

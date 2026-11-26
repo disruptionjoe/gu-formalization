@@ -1,0 +1,924 @@
+{
+  "artifact": "source-action-graph-domain",
+  "date": "2026-11-26",
+  "basis_revision": "e00643bf20cad4a5d7d10d8366f47ca7a16980b0",
+  "status": "native_exact_replay_lean_and_reviews_passed",
+  "tier": "T1 internal first-graph/coupled-restriction exclusions",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "internal_target": "INTERNAL-FIRST-GRAPH-AND-REAL-BOSON-RESTRICTION",
+  "source_necessity": "absent",
+  "class_C_representativeness": "unproved",
+  "exact_probe": {
+    "graph_symbols": {
+      "object": "actual K95 imaginary connection symbol; dt=theta3",
+      "nonnull_covector": {
+        "axes": [
+          0
+        ],
+        "coefficients": [
+          1
+        ],
+        "cases": [
+          {
+            "transverse_degree": 0,
+            "imaginary_dimension": 14,
+            "time_range": 2,
+            "time_kernel": 12,
+            "V_rank": 1,
+            "VF_rank": 0,
+            "Levi_leak_rank": 0
+          },
+          {
+            "transverse_degree": 1,
+            "imaginary_dimension": 36,
+            "time_range": 24,
+            "time_kernel": 12,
+            "V_rank": 12,
+            "VF_rank": 2,
+            "Levi_leak_rank": 0
+          },
+          {
+            "transverse_degree": 2,
+            "imaginary_dimension": 38,
+            "time_range": 26,
+            "time_kernel": 12,
+            "V_rank": 11,
+            "VF_rank": 1,
+            "Levi_leak_rank": 0
+          },
+          {
+            "transverse_degree": 3,
+            "imaginary_dimension": 24,
+            "time_range": 12,
+            "time_kernel": 12,
+            "V_rank": 4,
+            "VF_rank": 1,
+            "Levi_leak_rank": 0
+          },
+          {
+            "transverse_degree": 4,
+            "imaginary_dimension": 22,
+            "time_range": 10,
+            "time_kernel": 12,
+            "V_rank": 5,
+            "VF_rank": 2,
+            "Levi_leak_rank": 0
+          },
+          {
+            "transverse_degree": 5,
+            "imaginary_dimension": 28,
+            "time_range": 16,
+            "time_kernel": 12,
+            "V_rank": 8,
+            "VF_rank": 2,
+            "Levi_leak_rank": 0
+          },
+          {
+            "transverse_degree": 6,
+            "imaginary_dimension": 30,
+            "time_range": 18,
+            "time_kernel": 12,
+            "V_rank": 7,
+            "VF_rank": 1,
+            "Levi_leak_rank": 0
+          },
+          {
+            "transverse_degree": 7,
+            "imaginary_dimension": 32,
+            "time_range": 20,
+            "time_kernel": 12,
+            "V_rank": 8,
+            "VF_rank": 1,
+            "Levi_leak_rank": 0
+          },
+          {
+            "transverse_degree": 8,
+            "imaginary_dimension": 30,
+            "time_range": 18,
+            "time_kernel": 12,
+            "V_rank": 9,
+            "VF_rank": 2,
+            "Levi_leak_rank": 0
+          },
+          {
+            "transverse_degree": 9,
+            "imaginary_dimension": 20,
+            "time_range": 8,
+            "time_kernel": 12,
+            "V_rank": 4,
+            "VF_rank": 2,
+            "Levi_leak_rank": 0
+          },
+          {
+            "transverse_degree": 10,
+            "imaginary_dimension": 22,
+            "time_range": 10,
+            "time_kernel": 12,
+            "V_rank": 3,
+            "VF_rank": 1,
+            "Levi_leak_rank": 0
+          },
+          {
+            "transverse_degree": 11,
+            "imaginary_dimension": 40,
+            "time_range": 28,
+            "time_kernel": 12,
+            "V_rank": 12,
+            "VF_rank": 1,
+            "Levi_leak_rank": 0
+          },
+          {
+            "transverse_degree": 12,
+            "imaginary_dimension": 38,
+            "time_range": 24,
+            "time_kernel": 14,
+            "V_rank": 12,
+            "VF_rank": 0,
+            "Levi_leak_rank": 0
+          }
+        ]
+      },
+      "null_covector": {
+        "axes": [
+          0,
+          4
+        ],
+        "coefficients": [
+          1,
+          4
+        ],
+        "norm": "0",
+        "cases": [
+          {
+            "transverse_degree": 0,
+            "imaginary_dimension": 50,
+            "time_range": 26,
+            "time_kernel": 24,
+            "V_rank": 13,
+            "VF_rank": 1,
+            "Levi_leak_rank": 0
+          },
+          {
+            "transverse_degree": 1,
+            "imaginary_dimension": 74,
+            "time_range": 50,
+            "time_kernel": 24,
+            "V_rank": 22,
+            "VF_rank": 2,
+            "Levi_leak_rank": 1,
+            "witness": [
+              [
+                2,
+                0,
+                "2"
+              ],
+              [
+                8,
+                27,
+                "1"
+              ]
+            ],
+            "native_PKxi_G_Kxi_v": [
+              [
+                1,
+                11,
+                "4"
+              ],
+              [
+                16,
+                26,
+                "-4"
+              ],
+              [
+                1,
+                26,
+                "-1"
+              ],
+              [
+                16,
+                11,
+                "16"
+              ]
+            ],
+            "nonzero_N_coordinate": [
+              1,
+              "-4"
+            ],
+            "frozen_jet_filtration_ranks": [
+              22,
+              23,
+              23
+            ]
+          },
+          {
+            "transverse_degree": 2,
+            "imaginary_dimension": 62,
+            "time_range": 38,
+            "time_kernel": 24,
+            "V_rank": 15,
+            "VF_rank": 2,
+            "Levi_leak_rank": 0
+          },
+          {
+            "transverse_degree": 3,
+            "imaginary_dimension": 46,
+            "time_range": 22,
+            "time_kernel": 24,
+            "V_rank": 8,
+            "VF_rank": 2,
+            "Levi_leak_rank": 1,
+            "witness": [
+              [
+                8,
+                38,
+                "128"
+              ],
+              [
+                64,
+                127,
+                "-2"
+              ],
+              [
+                128,
+                191,
+                "-2"
+              ],
+              [
+                256,
+                319,
+                "-2"
+              ],
+              [
+                512,
+                575,
+                "-2"
+              ],
+              [
+                1024,
+                1087,
+                "-2"
+              ],
+              [
+                2048,
+                2111,
+                "-2"
+              ],
+              [
+                4096,
+                4159,
+                "-2"
+              ],
+              [
+                8192,
+                8255,
+                "-2"
+              ]
+            ],
+            "native_PKxi_G_Kxi_v": [
+              [
+                1,
+                39,
+                "-128"
+              ],
+              [
+                16,
+                54,
+                "128"
+              ],
+              [
+                1,
+                54,
+                "32"
+              ],
+              [
+                16,
+                39,
+                "-512"
+              ]
+            ],
+            "nonzero_N_coordinate": [
+              0,
+              "128"
+            ],
+            "frozen_jet_filtration_ranks": [
+              8,
+              9,
+              9
+            ]
+          },
+          {
+            "transverse_degree": 4,
+            "imaginary_dimension": 50,
+            "time_range": 26,
+            "time_kernel": 24,
+            "V_rank": 13,
+            "VF_rank": 2,
+            "Levi_leak_rank": 0
+          },
+          {
+            "transverse_degree": 5,
+            "imaginary_dimension": 58,
+            "time_range": 34,
+            "time_kernel": 24,
+            "V_rank": 14,
+            "VF_rank": 2,
+            "Levi_leak_rank": 1,
+            "witness": [
+              [
+                2,
+                228,
+                "2/5"
+              ],
+              [
+                4,
+                226,
+                "-2/5"
+              ],
+              [
+                32,
+                198,
+                "16/5"
+              ],
+              [
+                64,
+                166,
+                "-48/5"
+              ],
+              [
+                128,
+                102,
+                "96/5"
+              ],
+              [
+                8,
+                255,
+                "1"
+              ]
+            ],
+            "native_PKxi_G_Kxi_v": [
+              [
+                1,
+                239,
+                "-4"
+              ],
+              [
+                16,
+                254,
+                "-4"
+              ],
+              [
+                1,
+                254,
+                "-1"
+              ],
+              [
+                16,
+                239,
+                "-16"
+              ]
+            ],
+            "nonzero_N_coordinate": [
+              4,
+              "-4"
+            ],
+            "frozen_jet_filtration_ranks": [
+              14,
+              15,
+              15
+            ]
+          },
+          {
+            "transverse_degree": 6,
+            "imaginary_dimension": 62,
+            "time_range": 38,
+            "time_kernel": 24,
+            "V_rank": 15,
+            "VF_rank": 2,
+            "Levi_leak_rank": 0
+          },
+          {
+            "transverse_degree": 7,
+            "imaginary_dimension": 62,
+            "time_range": 38,
+            "time_kernel": 24,
+            "V_rank": 16,
+            "VF_rank": 2,
+            "Levi_leak_rank": 1,
+            "witness": [
+              [
+                8,
+                998,
+                "64"
+              ],
+              [
+                1024,
+                2047,
+                "-2"
+              ],
+              [
+                2048,
+                3071,
+                "-2"
+              ],
+              [
+                4096,
+                5119,
+                "-2"
+              ],
+              [
+                8192,
+                9215,
+                "-2"
+              ]
+            ],
+            "native_PKxi_G_Kxi_v": [
+              [
+                1,
+                999,
+                "-64"
+              ],
+              [
+                16,
+                1014,
+                "64"
+              ],
+              [
+                1,
+                1014,
+                "16"
+              ],
+              [
+                16,
+                999,
+                "-256"
+              ]
+            ],
+            "nonzero_N_coordinate": [
+              0,
+              "64"
+            ],
+            "frozen_jet_filtration_ranks": [
+              16,
+              17,
+              17
+            ]
+          },
+          {
+            "transverse_degree": 8,
+            "imaginary_dimension": 50,
+            "time_range": 26,
+            "time_kernel": 24,
+            "V_rank": 13,
+            "VF_rank": 2,
+            "Levi_leak_rank": 0
+          },
+          {
+            "transverse_degree": 9,
+            "imaginary_dimension": 42,
+            "time_range": 18,
+            "time_kernel": 24,
+            "V_rank": 6,
+            "VF_rank": 2,
+            "Levi_leak_rank": 1,
+            "witness": [
+              [
+                2,
+                4068,
+                "2/9"
+              ],
+              [
+                4,
+                4066,
+                "-2/9"
+              ],
+              [
+                32,
+                4038,
+                "16/9"
+              ],
+              [
+                64,
+                4006,
+                "-16/3"
+              ],
+              [
+                128,
+                3942,
+                "32/3"
+              ],
+              [
+                256,
+                3814,
+                "-16/9"
+              ],
+              [
+                512,
+                3558,
+                "16/9"
+              ],
+              [
+                1024,
+                3046,
+                "16/9"
+              ],
+              [
+                2048,
+                2022,
+                "16/9"
+              ],
+              [
+                8,
+                4095,
+                "1"
+              ]
+            ],
+            "native_PKxi_G_Kxi_v": [
+              [
+                1,
+                4079,
+                "-4"
+              ],
+              [
+                16,
+                4094,
+                "-4"
+              ],
+              [
+                1,
+                4094,
+                "-1"
+              ],
+              [
+                16,
+                4079,
+                "-16"
+              ]
+            ],
+            "nonzero_N_coordinate": [
+              8,
+              "-4"
+            ],
+            "frozen_jet_filtration_ranks": [
+              6,
+              7,
+              7
+            ]
+          },
+          {
+            "transverse_degree": 10,
+            "imaginary_dimension": 62,
+            "time_range": 38,
+            "time_kernel": 24,
+            "V_rank": 15,
+            "VF_rank": 2,
+            "Levi_leak_rank": 0
+          },
+          {
+            "transverse_degree": 11,
+            "imaginary_dimension": 78,
+            "time_range": 52,
+            "time_kernel": 26,
+            "V_rank": 24,
+            "VF_rank": 1,
+            "Levi_leak_rank": 0
+          }
+        ]
+      },
+      "complete_block_totals": [
+        {
+          "remaining_axes": 12,
+          "imaginary_dimension": 115584,
+          "time_range": 66430,
+          "time_kernel": 49154
+        },
+        {
+          "remaining_axes": 11,
+          "imaginary_dimension": 115584,
+          "time_range": 66430,
+          "time_kernel": 49154
+        }
+      ],
+      "minimal_witness": {
+        "transverse_degree": 1,
+        "imaginary_dimension": 74,
+        "time_range": 50,
+        "time_kernel": 24,
+        "V_rank": 22,
+        "VF_rank": 2,
+        "Levi_leak_rank": 1,
+        "witness": [
+          [
+            2,
+            0,
+            "2"
+          ],
+          [
+            8,
+            27,
+            "1"
+          ]
+        ],
+        "native_PKxi_G_Kxi_v": [
+          [
+            1,
+            11,
+            "4"
+          ],
+          [
+            16,
+            26,
+            "-4"
+          ],
+          [
+            1,
+            26,
+            "-1"
+          ],
+          [
+            16,
+            11,
+            "16"
+          ]
+        ],
+        "nonzero_N_coordinate": [
+          1,
+          "-4"
+        ],
+        "frozen_jet_filtration_ranks": [
+          22,
+          23,
+          23
+        ]
+      },
+      "definitions": "P=projection onto ker Kdt along im Kdt; G=Kdt inverse on range; V=P Kxi|R; C=R Kxi|R; F=G C. The reduced first-order F in the written evolution carries the opposite overall sign, irrelevant to factorization failure.",
+      "factorization_conclusion": "V G C does not factor through V at the displayed null covector. Any invertible left M_N factor preserves this obstruction.",
+      "scope": "No full M_N inverse, physical quotient, propagated ghost or GU verdict. Non-null covariance and variable-coefficient graph consequences require the separate written proofs."
+    },
+    "central_charge": {
+      "checks": {
+        "physical_dt_full_vertex_equals_symbol_column0": true,
+        "physical_dt_prime_FR_two_Dirac_column0": true,
+        "physical_dt_full_vertex_equals_symbol_column1": true,
+        "physical_dt_prime_FR_two_Dirac_column1": true,
+        "physical_dt_full_vertex_equals_symbol_column2": true,
+        "physical_dt_prime_FR_two_Dirac_column2": true,
+        "physical_dt_full_vertex_equals_symbol_column3": true,
+        "physical_dt_prime_FR_two_Dirac_column3": true,
+        "physical_dt_full_vertex_equals_symbol_column4": true,
+        "physical_dt_prime_FR_two_Dirac_column4": true,
+        "physical_dt_full_vertex_equals_symbol_column5": true,
+        "physical_dt_prime_FR_two_Dirac_column5": true,
+        "physical_dt_full_vertex_equals_symbol_column6": true,
+        "physical_dt_prime_FR_two_Dirac_column6": true,
+        "physical_dt_full_vertex_equals_symbol_column7": true,
+        "physical_dt_prime_FR_two_Dirac_column7": true,
+        "physical_dt_full_vertex_equals_symbol_column8": true,
+        "physical_dt_prime_FR_two_Dirac_column8": true,
+        "physical_dt_full_vertex_equals_symbol_column9": true,
+        "physical_dt_prime_FR_two_Dirac_column9": true,
+        "physical_dt_full_vertex_equals_symbol_column10": true,
+        "physical_dt_prime_FR_two_Dirac_column10": true,
+        "physical_dt_full_vertex_equals_symbol_column11": true,
+        "physical_dt_prime_FR_two_Dirac_column11": true,
+        "physical_dt_full_vertex_equals_symbol_column12": true,
+        "physical_dt_prime_FR_two_Dirac_column12": true,
+        "physical_dt_full_vertex_equals_symbol_column13": true,
+        "physical_dt_prime_FR_two_Dirac_column13": true,
+        "physical_dt_full_vertex_equals_symbol_column14": true,
+        "physical_dt_prime_FR_two_Dirac_column14": true,
+        "physical_dt_omitted_SE_rejected": true,
+        "positive_normal_full_vertex_equals_symbol_column0": true,
+        "positive_normal_prime_FR_two_Dirac_column0": true,
+        "positive_normal_full_vertex_equals_symbol_column1": true,
+        "positive_normal_prime_FR_two_Dirac_column1": true,
+        "positive_normal_full_vertex_equals_symbol_column2": true,
+        "positive_normal_prime_FR_two_Dirac_column2": true,
+        "positive_normal_full_vertex_equals_symbol_column3": true,
+        "positive_normal_prime_FR_two_Dirac_column3": true,
+        "positive_normal_full_vertex_equals_symbol_column4": true,
+        "positive_normal_prime_FR_two_Dirac_column4": true,
+        "positive_normal_full_vertex_equals_symbol_column5": true,
+        "positive_normal_prime_FR_two_Dirac_column5": true,
+        "positive_normal_full_vertex_equals_symbol_column6": true,
+        "positive_normal_prime_FR_two_Dirac_column6": true,
+        "positive_normal_full_vertex_equals_symbol_column7": true,
+        "positive_normal_prime_FR_two_Dirac_column7": true,
+        "positive_normal_full_vertex_equals_symbol_column8": true,
+        "positive_normal_prime_FR_two_Dirac_column8": true,
+        "positive_normal_full_vertex_equals_symbol_column9": true,
+        "positive_normal_prime_FR_two_Dirac_column9": true,
+        "positive_normal_full_vertex_equals_symbol_column10": true,
+        "positive_normal_prime_FR_two_Dirac_column10": true,
+        "positive_normal_full_vertex_equals_symbol_column11": true,
+        "positive_normal_prime_FR_two_Dirac_column11": true,
+        "positive_normal_full_vertex_equals_symbol_column12": true,
+        "positive_normal_prime_FR_two_Dirac_column12": true,
+        "positive_normal_full_vertex_equals_symbol_column13": true,
+        "positive_normal_prime_FR_two_Dirac_column13": true,
+        "positive_normal_full_vertex_equals_symbol_column14": true,
+        "positive_normal_prime_FR_two_Dirac_column14": true,
+        "positive_normal_omitted_SE_rejected": true,
+        "negative_normal_full_vertex_equals_symbol_column0": true,
+        "negative_normal_prime_FR_two_Dirac_column0": true,
+        "negative_normal_full_vertex_equals_symbol_column1": true,
+        "negative_normal_prime_FR_two_Dirac_column1": true,
+        "negative_normal_full_vertex_equals_symbol_column2": true,
+        "negative_normal_prime_FR_two_Dirac_column2": true,
+        "negative_normal_full_vertex_equals_symbol_column3": true,
+        "negative_normal_prime_FR_two_Dirac_column3": true,
+        "negative_normal_full_vertex_equals_symbol_column4": true,
+        "negative_normal_prime_FR_two_Dirac_column4": true,
+        "negative_normal_full_vertex_equals_symbol_column5": true,
+        "negative_normal_prime_FR_two_Dirac_column5": true,
+        "negative_normal_full_vertex_equals_symbol_column6": true,
+        "negative_normal_prime_FR_two_Dirac_column6": true,
+        "negative_normal_full_vertex_equals_symbol_column7": true,
+        "negative_normal_prime_FR_two_Dirac_column7": true,
+        "negative_normal_full_vertex_equals_symbol_column8": true,
+        "negative_normal_prime_FR_two_Dirac_column8": true,
+        "negative_normal_full_vertex_equals_symbol_column9": true,
+        "negative_normal_prime_FR_two_Dirac_column9": true,
+        "negative_normal_full_vertex_equals_symbol_column10": true,
+        "negative_normal_prime_FR_two_Dirac_column10": true,
+        "negative_normal_full_vertex_equals_symbol_column11": true,
+        "negative_normal_prime_FR_two_Dirac_column11": true,
+        "negative_normal_full_vertex_equals_symbol_column12": true,
+        "negative_normal_prime_FR_two_Dirac_column12": true,
+        "negative_normal_full_vertex_equals_symbol_column13": true,
+        "negative_normal_prime_FR_two_Dirac_column13": true,
+        "negative_normal_full_vertex_equals_symbol_column14": true,
+        "negative_normal_prime_FR_two_Dirac_column14": true,
+        "negative_normal_omitted_SE_rejected": true,
+        "mixed_full_vertex_equals_symbol_column0": true,
+        "mixed_prime_FR_two_Dirac_column0": true,
+        "mixed_full_vertex_equals_symbol_column1": true,
+        "mixed_prime_FR_two_Dirac_column1": true,
+        "mixed_full_vertex_equals_symbol_column2": true,
+        "mixed_prime_FR_two_Dirac_column2": true,
+        "mixed_full_vertex_equals_symbol_column3": true,
+        "mixed_prime_FR_two_Dirac_column3": true,
+        "mixed_full_vertex_equals_symbol_column4": true,
+        "mixed_prime_FR_two_Dirac_column4": true,
+        "mixed_full_vertex_equals_symbol_column5": true,
+        "mixed_prime_FR_two_Dirac_column5": true,
+        "mixed_full_vertex_equals_symbol_column6": true,
+        "mixed_prime_FR_two_Dirac_column6": true,
+        "mixed_full_vertex_equals_symbol_column7": true,
+        "mixed_prime_FR_two_Dirac_column7": true,
+        "mixed_full_vertex_equals_symbol_column8": true,
+        "mixed_prime_FR_two_Dirac_column8": true,
+        "mixed_full_vertex_equals_symbol_column9": true,
+        "mixed_prime_FR_two_Dirac_column9": true,
+        "mixed_full_vertex_equals_symbol_column10": true,
+        "mixed_prime_FR_two_Dirac_column10": true,
+        "mixed_full_vertex_equals_symbol_column11": true,
+        "mixed_prime_FR_two_Dirac_column11": true,
+        "mixed_full_vertex_equals_symbol_column12": true,
+        "mixed_prime_FR_two_Dirac_column12": true,
+        "mixed_full_vertex_equals_symbol_column13": true,
+        "mixed_prime_FR_two_Dirac_column13": true,
+        "mixed_full_vertex_equals_symbol_column14": true,
+        "mixed_prime_FR_two_Dirac_column14": true,
+        "mixed_omitted_SE_rejected": true,
+        "central_source_minus_phase_charge0": true,
+        "central_source_minus_phase_charge1": true,
+        "central_source_minus_phase_charge2": true,
+        "central_source_minus_phase_charge3": true,
+        "positive_graph_source_nonzero_1": true,
+        "positive_graph_source_nonzero_2": true,
+        "positive_graph_source_nonzero_7": true,
+        "real_bosonic_trace_imaginary_variation_zero_-5": true,
+        "real_bosonic_trace_imaginary_variation_zero_-1": true,
+        "real_bosonic_trace_imaginary_variation_zero_0": true,
+        "real_bosonic_trace_imaginary_variation_zero_2": true,
+        "real_bosonic_trace_imaginary_variation_zero_9": true,
+        "density_absorbed_once": true,
+        "density_double_count_rejected": true
+      },
+      "count": 138,
+      "all_passed": true,
+      "native_covectors": [
+        "physical_dt",
+        "positive_normal",
+        "negative_normal",
+        "mixed"
+      ],
+      "full_field_columns": 15,
+      "spinor_rank_per_column": 128,
+      "native_identity": "All four current vertices: V_s(i alpha Id)=i sigma_s(alpha); s=-1/2.",
+      "integrated_identity": "Source_time_center=-Q_phase=-||a||^2 on the existing normalized positive matter graph.",
+      "reality_scope": "Real bosonic residual has zero imaginary-central source by written real-Clifford closure; scalar controls check phase algebra only.",
+      "scope": "Coupled real-boson truncation obstruction, not negative-channel excitation, admitted propagation or physical ghost."
+    },
+    "scalar_trace_pencil": {
+      "highest_multiplicity": 36,
+      "time_rank": 20,
+      "polynomial_kernel_dimensions": [
+        6,
+        22,
+        38
+      ],
+      "common_kernel_dimension": 6,
+      "linear_chain_count": 10,
+      "chain_coefficient_span": 26,
+      "A_chain_top_image_rank": 10,
+      "both_pencil_forms_zero_on_chain_span": true,
+      "null_covector_ranks": [
+        {
+          "K4_multiplier": [
+            "0",
+            "4"
+          ],
+          "rank": 20
+        },
+        {
+          "K4_multiplier": [
+            "0",
+            "-4"
+          ],
+          "rank": 20
+        }
+      ],
+      "normal_trace_inverse_metric": "-1/16",
+      "time_matrix_sha256": "c5d18a0e34346698c49dd83c56ba3083dfdbf888ab84081319b240b75ef94f0f",
+      "trace_matrix_sha256": "e0c3f69cf19558403051fa39a1c253bb3c604247bb9c616d3f4fd66e4315583b",
+      "claim": "Elementary chain/cross-rank proof yields projective rank20 throughout scalar time-trace plane. Sixzero andten singularthreevariable blocks; no actual propagation speed inferred."
+    }
+  },
+  "probe_output_sha256": "ecfa37ae5947168340f58e78c1d9a0565755f40d574c8f01eaf14f75d8d6ac76",
+  "graph_theorem": {
+    "result": "Actual stationary variable-coefficient reduced evolution has no locally bounded Duhamel/C0 flow on unrestricted first graph X=L2(v)+L2(dv) if full M_N is regular locally.",
+    "mechanism": "Native spatial-Schur-null kernel witness, exact coefficient-dependent packets, graph residual O(k) on times S/k\u00b2 and unbounded limiting affine tail.",
+    "not_assumed": "No frozen eigenvalue extrapolation, no positivity of physical pairing, no source-selected domain.",
+    "survivors": [
+      "full singular auxiliary branch/residual constraints",
+      "higher or iterated graphs and mixed domains",
+      "restrictions excluding null packets",
+      "analytic solutions or nonlocal physical states"
+    ],
+    "minimal_jet_lead": "Frozen simplest74-dimensional block filtration22->23->23; one extra principal row, not an actual completed higher domain."
+  },
+  "coupled_current": {
+    "native_identity": "V_s(i alpha Id)=i sigma_s(alpha); source_time_center=-j_phase^t",
+    "selected_graph": "integral j_phase^t=||a||\u00b2 for every nonzero selected paired c-number matter state, independent bars retained",
+    "excluded": "All-real-Clifford bosonic coupled extension with nonzero actual phase charge; at either real root obstruction already at epsilon\u00b2.",
+    "response": "Some imaginary bosonic response required; not necessarily a nonzero central field component.",
+    "not_proved": [
+      "overlap with negative-energy directions",
+      "physical cohomology or norm",
+      "admitted propagation and runaway",
+      "source selection of this matter graph"
+    ]
+  },
+  "positivity": "Graph/mixed norms retaining smooth compact constrained data retain negative canonical energy under full regularity. No dense nonnegative core in H1(v)+L2(n) energy-continuous completion.",
+  "choice_delta": {
+    "active_grouped_families": 10,
+    "grouped_compatibility_bundles": 4,
+    "bookkeeping_net": 6,
+    "new_families": 0,
+    "new_successful_viability_bundles": 0,
+    "new_source_predictions": 0,
+    "ceiling": "Grouped monitoring quantities, not a GU necessity lower bound or parameter count."
+  },
+  "lean": {
+    "path": "Lean/GUFormalization/GraphDomain.lean",
+    "lemmas": 7,
+    "status": "targeted_compilation_passed",
+    "scope": "finite algebra and affine-tail contradiction only; no complete PDE/native tensor formalization"
+  },
+  "reviews": [
+    "lab/process/hostile-reviews/2026-11-26-source-action-graph-domain-review.md"
+  ],
+  "validation": {
+    "native_audits": {
+      "program_focus_audit": "passed",
+      "typed_carrier_declaration_audit": "passed",
+      "source_native_comparator_routing_audit": "passed",
+      "kill_target_claim_audit": "passed",
+      "reverse_scaffold_direction_audit": "passed",
+      "frontmatter_status_schema_audit": "passed",
+      "lean_certificate_surface_audit": "passed",
+      "current_state_absolute_currency_audit": "passed"
+    },
+    "diff_check": "passed",
+    "native_probe": "passed;25 block representatives,138 current controls, trace chain certificates",
+    "lean_targeted": "passed;7 finite lemmas",
+    "reviews": "two math specialists and separate hostile/source reviewer accepted after precision corrections"
+  },
+  "next_condition": "Actual positive-current projection into owned negative-energy receiver under fixed J/domain, alongside actual multidirectional higher-jet closure; no new completion or signature-only dynamics inference.",
+  "dependencies": {
+    "explorations/conditional-build/source-action-graph-domain-2026-11-26.md": "27ac77271e9f612d8d8da595f9a06d57a96f337bf1f03141833fdd820c7bb5ec",
+    "lab/process/hostile-reviews/2026-11-26-source-action-graph-domain-review.md": "4fe99cb50b760c7a999ed449d02892d740d00ef460c21d7d41330f2687a185f5",
+    "tests/program-focus/source_action_graph_domain_probe.py": "8546af5ab3a92fe52fde31f209657d46928d03fa6a200905493056c2a30eefea",
+    "Lean/GUFormalization/GraphDomain.lean": "a34ade4aa244c3dd1606bb8fd523714611ebd0ebf40c77d76917e9d75e43a03c",
+    "tests/program-focus/source_action_deep_algebra.py": "4e3800131049e2b397bbce6106bfc5766d2f5fbf996319c50942f3b805d65598",
+    "tests/program-focus/source_action_deep_geometry.py": "7cdfe5f7609300c1ab4fb482f309cfafa52d0aa66cf353ef8b1f9c8be07e52df",
+    "tests/program-focus/source_action_metric_symbol_probe.py": "eccac86c829c48848a4db9ab49d0313601bc3b19aca9a1fc6635520f489254ef",
+    "tests/program-focus/source_action_slice_completion_probe.py": "9992fc60da913e8df8507f0dd393299c3d477ed43505af46757fc13575a1e12d",
+    "tests/program-focus/source_action_physical_probe.py": "b0a4b49f18fd6de13f45fc342d00a9e98fdb88cbf479155fd6d1b296c4662c25",
+    "lab/process/source-action-kappa1-constraints.json": "5d3401666f8072dd225924e0cc9073c16c7d6c59efd0b4b941e1fcce7ce29233",
+    "explorations/conditional-build/source-action-variable-completion-2026-11-25.md": "4b0428c12d4815dc91e99a5c24c6fc48c02d28e71ddebd9014e46ac5fa2902b1",
+    "explorations/conditional-build/source-action-engineering-wave-2026-11-25.md": "b36aee5860a42db6bb3752e9bb8ff7c76ce950bac65d529a8ea9d232e16e6d66",
+    "explorations/conditional-build/source-action-dynamics-and-continuation-2026-11-25.md": "8b284726e3b8138e1a30136bb9ae841ab76c128bc66bbd8b92ad76f13db4469c"
+  }
+}
