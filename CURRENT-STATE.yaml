@@ -140,6 +140,71 @@ program_focus:
     covered; source relevance separately from mathematical breadth; shared prerequisite if any; remaining
     cost; strongest eligible alternative. A blocked high-value target is not an eligible alternative without
     its missing input. Reuse completed theorems and compare only their uncovered successors.'
+source_action_covariant_jet_ambiguity_2026_11_26:
+  authority: joe_direct_chat_2026_11_26_prove_something_novel
+  status: internal_reviewed_T1_scoped_uniqueness_exclusion
+  actual_delta: Every finite complete section-normal-jet kernel contains infinitely many Lorentz-equivariant
+    copies of arbitrary analytic histories for the actual held column operator. Explicit trace seeds p2,p3,p4
+    yield exact weighted multiplicities and an arbitrary analytic profile beyond every finite cutoff.
+    Covariance plus finite section calibration cannot uniquely select the bulk extension; observed predictivity
+    and physical quotients remain separate.
+  evidence:
+  - explorations/conditional-build/source-action-covariant-jet-ambiguity-2026-11-26.md
+  - lab/process/source-action-covariant-jet-ambiguity.json
+  - tests/program-focus/source_action_covariant_jet_ambiguity_probe.py
+  - Lean/GUFormalization/CovariantJetAmbiguity.lean
+  - lab/process/hostile-reviews/2026-11-26-source-action-covariant-jet-ambiguity-review.md
+  class_scope: Unrestricted analytic seeds on the noncharacteristic trace plane, actual Lorentz-equivariant
+    linear column operator and canonical injection. Local germs; not physical domains, all classC or coupled
+    solutions.
+  novelty: New candidate-specific repo theorem and exact filtration; classical CK/invariant tools, no
+    worldwide priority claim.
+  consumed:
+  - step: 5s.1 finite section calibration subquestion
+    result: Uniqueness of bulk extension is excluded under covariance plus any finite section-normal-jet
+      calibration. Source-supported physical restrictions and quotients remain open.
+  next_directed_worksets:
+  - step: 5s.1
+    status: ready
+    title: Source-supplied restriction of the covariant analytic history space
+    target: LB-CLASS
+    tier: T2; T1 if a scoped exclusion follows
+    expected_delta: Identify a source-supported restriction or physical quotient that selects an observed
+      law and states which bulk distinctions are physical. Covariance and finite section calibration alone
+      cannot select a unique extension.
+    premises:
+    - SC-OP-04 independent classical fields do not by themselves supply a physical barred relation
+    - Trace-seed right inverse is local analytic column evidence, not a positive paired or interacting
+      domain
+    - A replacement source/quotient/readout must have a typed bridge; no new choice family merely to survive
+    - Finite section calibration is proved insufficient to select a unique unrestricted analytic bulk
+      extension, even throughout the observed history. It may still constrain visible histories or define
+      a physical quotient.
+    kill_condition: No source-supported restriction leaves an explicit missing selection datum; it is
+      not a GU falsification.
+    cost: Bounded source/operator/physical-domain audit; no new inverse or completion construction.
+    strongest_alternative: 5q.1 matched weak inverse response remains a diagnostic, with no physical transfer
+      from the excluded A01 domain.
+    source_bridge: absent for necessity of this candidate; source question is explicit
+  - step: 5q.1
+    status: ready as held-candidate diagnostic
+    title: Matched weak inverse response
+    target: LB-CLASS
+    tier: T2
+    expected_delta: Compute the required current on the actual constrained inverse response, retaining
+      matching divergence, moving lift and normal-frequency support.
+    premises:
+    - Existing A01 positive-domain/current certificates remain diagnostic only
+    - Trace-seed column theorem does not transfer their paired norm or current certificate
+    - Whole reached-module current annihilation is excluded; cancellation in J M^-1 source remains open
+    kill_condition: Only a matched weak calculation closes this response question; nonzero pointwise current
+      does not prove a physical ghost.
+    source_bridge: absent for candidate necessity
+  claim_effect: No scientific matrix, source/physics ledger, canon, paper, governance or scheduled-priority
+    changes.
+  choice_budget: 10 grouped families /4 viability bundles /bookkeeping net6 /0 source-selected predictions;
+    seed freedom quantified, no physical choice adopted.
+  accounting: One directed count62to63 and LBCLASS21to22; pending ordinary LC retained.
 source_action_rotation_rigidity_2026_11_26:
   authority: joe_direct_chat_2026_11_26_prove_something_profound
   status: internal_reviewed_T1_conditional_classification_and_analytic_right_inverse

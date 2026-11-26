@@ -1348,7 +1348,7 @@
       "selection_note": "Candidate construction/diagnostic only unless its stated structural family and source bridge satisfy current program_focus. A reserve is not scheduled work."
     }
   ],
-  "priority_effect": "Directed continuation now follows rotation_rigidity_2026_11_26. Old-domain polarization rescue is excluded; source-selected history restriction is the remaining bridge. Scheduled policy unchanged.",
+  "priority_effect": "Directed continuation incorporates covariant_jet_ambiguity_2026_11_26; source-supported physical restriction/quotient remains the bridge. Scheduled policy unchanged.",
   "evidence": [
     "explorations/conditional-build/source-action-engineering-wave-2026-11-25.md",
     "lab/process/source-action-engineering-wave.json",
@@ -1541,5 +1541,47 @@
     ],
     "retained_pool": "Existing20 and50+50 suggestions remain available, not a mandatory backlog. Invariant Borel probability classification was duplicate and not counted. Scalar-only finite-spectrum argument is subsumed for the held homogeneous class, with possible broader-lower-operator application retained.",
     "priority_effect": "Directed continuation refined; program_focus and scheduled priorities unchanged."
+  },
+  "covariant_jet_ambiguity_2026_11_26": {
+    "basis_revision": "5b9ad658273dfa4b4cdb12f61e2ed91222457a6a",
+    "result": "Every finite complete section-normal-jet kernel contains infinitely many Lorentz-equivariant copies of arbitrary analytic histories for the actual held column operator. Explicit trace seeds p2,p3,p4 yield exact weighted multiplicities and an arbitrary analytic profile beyond every finite cutoff. Covariance plus finite section calibration cannot uniquely select the bulk extension; observed predictivity and physical quotients remain separate.",
+    "evidence": "explorations/conditional-build/source-action-covariant-jet-ambiguity-2026-11-26.md",
+    "next_directed_worksets": [
+      {
+        "step": "5s.1",
+        "status": "ready",
+        "title": "Source-supplied restriction of the covariant analytic history space",
+        "target": "LB-CLASS",
+        "tier": "T2; T1 if a scoped exclusion follows",
+        "expected_delta": "Identify a source-supported restriction or physical quotient that selects an observed law and states which bulk distinctions are physical. Covariance and finite section calibration alone cannot select a unique extension.",
+        "premises": [
+          "SC-OP-04 independent classical fields do not by themselves supply a physical barred relation",
+          "Trace-seed right inverse is local analytic column evidence, not a positive paired or interacting domain",
+          "A replacement source/quotient/readout must have a typed bridge; no new choice family merely to survive",
+          "Finite section calibration is proved insufficient to select a unique unrestricted analytic bulk extension, even throughout the observed history. It may still constrain visible histories or define a physical quotient."
+        ],
+        "kill_condition": "No source-supported restriction leaves an explicit missing selection datum; it is not a GU falsification.",
+        "cost": "Bounded source/operator/physical-domain audit; no new inverse or completion construction.",
+        "strongest_alternative": "5q.1 matched weak inverse response remains a diagnostic, with no physical transfer from the excluded A01 domain.",
+        "source_bridge": "absent for necessity of this candidate; source question is explicit"
+      },
+      {
+        "step": "5q.1",
+        "status": "ready as held-candidate diagnostic",
+        "title": "Matched weak inverse response",
+        "target": "LB-CLASS",
+        "tier": "T2",
+        "expected_delta": "Compute the required current on the actual constrained inverse response, retaining matching divergence, moving lift and normal-frequency support.",
+        "premises": [
+          "Existing A01 positive-domain/current certificates remain diagnostic only",
+          "Trace-seed column theorem does not transfer their paired norm or current certificate",
+          "Whole reached-module current annihilation is excluded; cancellation in J M^-1 source remains open"
+        ],
+        "kill_condition": "Only a matched weak calculation closes this response question; nonzero pointwise current does not prove a physical ghost.",
+        "source_bridge": "absent for candidate necessity"
+      }
+    ],
+    "retained_pool": "Existing20 and50+50 suggestions retained. Trace-normal exponential-growth proposal retained as conditional: timelike sign, fixed-mass-shell versus arbitrary-frequency distinction, and actual variable-coefficient transfer required; not promoted by frozen-axis evidence.",
+    "priority_effect": "Finite section calibration subquestion closed at bulk-uniqueness scope; source physical restriction and weak response retained. Scheduled policy unchanged."
   }
 }

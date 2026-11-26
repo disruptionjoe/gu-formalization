@@ -202,3 +202,17 @@ Any naturally covariant analytic solution collection with a non-invariant consta
 |5q.1 matched weak response|ready as diagnostic; LB-CLASS/T2|Retain actual inverse response, matched divergence and normal support. The trace-seed germ theorem supplies no transfer of A01 norm/current/physical-energy certificates.|
 
 The fixed-volume plane is a necessary and sharp column-germ classification, not an adopted physical completion. No new source prediction, choice family, policy or stop rule. Ordinary LC remains pending.
+
+## Covariant all-history finite-jet ambiguity (2026-11-26)
+
+Every finite complete section-normal-jet kernel contains infinitely many Lorentz-equivariant copies of arbitrary analytic histories for the actual held column operator. Explicit trace seeds p2,p3,p4 yield exact weighted multiplicities and an arbitrary analytic profile beyond every finite cutoff. Covariance plus finite section calibration cannot uniquely select the bulk extension; observed predictivity and physical quotients remain separate.
+
+[Proof](../../../explorations/conditional-build/source-action-covariant-jet-ambiguity-2026-11-26.md) · [Evidence](../source-action-covariant-jet-ambiguity.json).
+
+| Step | Status | Exact consequence |
+|---|---|---|
+|5s.1 finite section calibration subquestion|done, scoped uniqueness exclusion|No finite complete section-normal-jet budget uniquely selects a covariant bulk extension in the unrestricted analytic class, even throughout history.|
+|5s.1 source-supplied physical restriction or quotient|ready; LB-CLASS/T2|Expected delta: source-supported relation selecting visible histories and/or identifying physically equivalent bulk representatives. Kill: missing source relation is not a GU no-go; no new choice merely to survive.|
+|5q.1 matched weak response|ready as diagnostic; LB-CLASS/T2|Existing actual-current/response burdens unchanged. Physical interpretation still needs its domain bridge.|
+
+All infinite analytic normal jets determine the germ. The chosen constant-seed image remains injectively observed. The polynomial 2/3/4 weights count no particles or generations. No new adopted seed family, physical obligation, policy or stop rule; ordinary LC retained.

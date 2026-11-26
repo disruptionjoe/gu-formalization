@@ -515,3 +515,7 @@ bicategory, ambidexterity or Mackey 2-functor is inferred.
 ## Rotation rigidity finite core (2026-11-26)
 
 `Lean/GUFormalization/RotationRigidity.lean`: **LEAN-VERIFIED**, nine finite lemmas for trace-scale cancellation, coordinate separation, injectivity, rotation transversality, conormal normalization and null unmasking. Targeted compilation passed. Analytic orbit saturation, CK existence and native naturality remain written proofs, not full Lean PDE certification. [Result](../../explorations/conditional-build/source-action-rotation-rigidity-2026-11-26.md).
+
+## Covariant finite-jet ambiguity finite core (2026-11-26)
+
+`Lean/GUFormalization/CovariantJetAmbiguity.lean`: **LEAN-VERIFIED**, affine measurement-kernel characterization of right inverses, arbitrary hidden parameter families, chosen-image injectivity, finite even-polynomial coefficient isolation and cutoff vanishing. Targeted compilation passed without sorry. Analytic CK filtration/existence and Lorentz covariance remain written reviewed proofs; no physical-state formalization. [Result](../../explorations/conditional-build/source-action-covariant-jet-ambiguity-2026-11-26.md).

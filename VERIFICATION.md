@@ -17,6 +17,14 @@ External review is not a pathway in this program. The honesty label stays: inter
 
 Sections below are historical snapshots in file order.
 
+## Covariant bulk freedom beyond every finite section jet (2026-11-26)
+
+Every finite complete section-normal-jet kernel contains infinitely many Lorentz-equivariant copies of arbitrary analytic histories for the actual held column operator. Explicit trace seeds p2,p3,p4 yield exact weighted multiplicities and an arbitrary analytic profile beyond every finite cutoff. Covariance plus finite section calibration cannot uniquely select the bulk extension; observed predictivity and physical quotients remain separate.
+
+This is a local analytic column theorem, new to the repo. Exact invariant counts concern one explicit seed subspace, not particle families. Physical paired states, source necessity and quotient remain unproved. No ledger verdict or choice-count change.
+
+[Proof](explorations/conditional-build/source-action-covariant-jet-ambiguity-2026-11-26.md) · [Evidence](lab/process/source-action-covariant-jet-ambiguity.json).
+
 ## Symmetry selects geometry, not observed dynamics (2026-11-26)
 
 Any naturally covariant analytic solution collection with a non-invariant constant-seed hyperplane is base-constant. The held A01 seed has no nonzero rotation-stable spatial-L2 subspace. Among linear hyperplanes in the homogeneous frame, Lorentz covariance forces the trace/fixed-volume plane; its equivariant local CK right inverse admits every analytic observed history, so covariance alone supplies no nontrivial finite-order observed law.
