@@ -479,3 +479,7 @@ bicategory, ambidexterity or Mackey 2-functor is inferred.
 ## Actual-variable completion finite core (2026-11-25)
 
 `Lean/GUFormalization/VariableCompletion.lean`: **LEAN-VERIFIED**, eight finite matrix/complex-algebra lemmas for left Gram normalization and the actual real-action phase/charge/energy/symplectic signs. Parameterized CK, Parseval, native analytic coefficients and physical/source scope are written/reviewed hypotheses. Targeted `lake env lean` passed; no default whole-project build claim. Evidence: `explorations/conditional-build/source-action-variable-completion-2026-11-25.md`.
+
+## Coupled constraint energy finite core (2026-11-25)
+
+`Lean/GUFormalization/CoupledGhost.lean`: **LEAN-VERIFIED**, eight finite lemmas for signed auxiliary elimination, canonical quadratic energy, leading-sign domination and count arithmetic. Clifford blocks, moving projectors, analytic stationary branch and physical domains remain written/reviewed mathematics. Targeted `lake env lean` passed without proof placeholders; no full project rebuild claim. Evidence: `explorations/conditional-build/source-action-coupled-ghost-2026-11-25.md`.

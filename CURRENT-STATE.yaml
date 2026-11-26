@@ -1,7 +1,7 @@
 schema_version: '1.0'
 repository: observerse-research-program
 branch: main
-revision_basis: 0bb062636672cf5e29066aba952dab4732118b04
+revision_basis: fd106229e8f6c8fe4d80e2eaeaa2575c4446e326
 program_focus:
   version: 2026-11-25-v1
   authority: joe_direct_chat_2026_11_25_five_process_improvements_approved
@@ -140,6 +140,27 @@ program_focus:
     covered; source relevance separately from mathematical breadth; shared prerequisite if any; remaining
     cost; strongest eligible alternative. A blocked high-value target is not an eligible alternative without
     its missing input. Reuse completed theorems and compare only their uncovered successors.'
+source_action_coupled_ghost_2026_11_25:
+  status: internally_reviewed_T1_constrained_quadratic_energy_T2_reductions
+  actual_delta: Complete connection constraint reduction and exact central elimination; on the existing
+    sufficiently-large-kappa stationary branch the actual constrained quadratic Hamiltonian has both signs
+    on compact instantaneous data. No kappa1, propagated-mode, quantum-ghost or source/GU verdict.
+  evidence:
+  - explorations/conditional-build/source-action-coupled-ghost-2026-11-25.md
+  - lab/process/source-action-coupled-ghost.json
+  - tests/program-focus/source_action_coupled_ghost_probe.py
+  - Lean/GUFormalization/CoupledGhost.lean
+  - lab/process/hostile-reviews/2026-11-25-source-action-coupled-ghost-review.md
+  claim_effect: Internal canonical-energy category excluded; no source/physics/class-C/canon/paper or
+    scientific matrix verdict.
+  next_condition: Compute the actual algebraic M_N endomorphism at both kappa1 roots, beginning with the
+    autonomous imaginary sector. Carry surviving energy directions into a specified physical domain; full
+    real metric coupling and observed spin spectrum remain distinct. No complete-selection waiting prerequisite.
+  priority_effect: Directed diagnostic consumed at stated scope; ordinary program_focus, LC cadence and
+    schedules unchanged.
+  choice_accounting: 10 active families,4 compatibility bundles,net6 unchanged;0 new choices/0 new successful
+    viability obligations/0 predictions. Functional-dispersion risk inherited.
+  counter_accounting: 52->53 once; LBCLASS11->12; no bet credit; pendingLC retained
 source_action_variable_completion_2026_11_25:
   status: internally_reviewed_T2_selected_linear_matter
   actual_delta: Exact actual-variable finite-band matter/dual completion with bounded literal observation,

@@ -1,0 +1,757 @@
+{
+  "artifact": "source-action-coupled-ghost",
+  "date": "2026-11-25",
+  "basis_revision": "fd106229e8f6c8fe4d80e2eaeaa2575c4446e326",
+  "tier": "T1 internal constrained-data positivity exclusion; T2 exact reductions",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "actual_delta": "Complete connection constraint reduction and exact central elimination; on the existing sufficiently-large-kappa stationary branch the actual constrained quadratic Hamiltonian has both signs on compact instantaneous data. No kappa1, propagated-mode, quantum-ghost or source/GU verdict.",
+  "internal_target": "INTERNAL-LARGE-KAPPA-CONSTRAINED-DATA",
+  "claim_ceiling": "Canonical QUADRATIC functional on compact constrained instantaneous/formal phase-space data, not globally propagated modes, nonlinear energy, quantum ghost, kappa1 or source/GU exclusion.",
+  "principal": {
+    "dimension": 229376,
+    "rank": 130912,
+    "nullity": 98464,
+    "phase_dimensions_rank_kernel": {
+      "0": [
+        113792,
+        64482,
+        49310
+      ],
+      "1": [
+        115584,
+        66430,
+        49154
+      ]
+    },
+    "blocks": [
+      {
+        "transverse_degree": 0,
+        "rank": 26,
+        "nullity": 2,
+        "kernel_mass_rank": 2,
+        "multiplicity": 1,
+        "matrix_sha256": "69cf7bd630d147a96af2b20627af3402e43a6be323ef564f34e6fabd694ee1c1",
+        "kernel_sha256": "38482c0bec888e64518c2f6b11aa61e97ae6da759d1a668889c17a990d63ff6d"
+      },
+      {
+        "transverse_degree": 1,
+        "rank": 6,
+        "nullity": 22,
+        "kernel_mass_rank": 22,
+        "multiplicity": 13,
+        "matrix_sha256": "cb8a35f89901504139826716f8592a85b4b7f83778814de0c7e28c1e814b6ae4",
+        "kernel_sha256": "dd7145267e1d01c3f7149b20e54ca6fdd8c70fd78dd8f528f22667d3f943ff81"
+      },
+      {
+        "transverse_degree": 2,
+        "rank": 24,
+        "nullity": 4,
+        "kernel_mass_rank": 4,
+        "multiplicity": 78,
+        "matrix_sha256": "068c9d69e50d7ef7a8c5356787d938f953ed76ba8e87f46af95d88f22f554150",
+        "kernel_sha256": "e41a51915ddc39993c55385e56cd0e9832dbda4cf1aca6a2cf05d33e7c8dd126"
+      },
+      {
+        "transverse_degree": 3,
+        "rank": 6,
+        "nullity": 22,
+        "kernel_mass_rank": 22,
+        "multiplicity": 286,
+        "matrix_sha256": "1b461032c648ab3a5264cd9ca8c39f753ed0e99999bc76695d2df79e00300f8e",
+        "kernel_sha256": "7662d885801ac23f278b3bcca25d79171d7881331b61f10b1bcae685708e3d18"
+      },
+      {
+        "transverse_degree": 4,
+        "rank": 26,
+        "nullity": 2,
+        "kernel_mass_rank": 2,
+        "multiplicity": 715,
+        "matrix_sha256": "ac91f1a57e584854397ecb17fb23b681acc4d5289a247a0d189409aa263b8a74",
+        "kernel_sha256": "38482c0bec888e64518c2f6b11aa61e97ae6da759d1a668889c17a990d63ff6d"
+      },
+      {
+        "transverse_degree": 5,
+        "rank": 6,
+        "nullity": 22,
+        "kernel_mass_rank": 22,
+        "multiplicity": 1287,
+        "matrix_sha256": "226d4dba91b318684421dd0375cf1957d7defbba6ae0201e07a8cea963cda7f4",
+        "kernel_sha256": "53b3548162b92406cebeb45750fc90fc3e1c4e9e7453d5b27c44e2ddc0aa737d"
+      },
+      {
+        "transverse_degree": 6,
+        "rank": 26,
+        "nullity": 2,
+        "kernel_mass_rank": 2,
+        "multiplicity": 1716,
+        "matrix_sha256": "983d13dbab88090954ee1c88db24650220b9b93e9088cc6ea1ca10b0d84cc35d",
+        "kernel_sha256": "38482c0bec888e64518c2f6b11aa61e97ae6da759d1a668889c17a990d63ff6d"
+      },
+      {
+        "transverse_degree": 7,
+        "rank": 6,
+        "nullity": 22,
+        "kernel_mass_rank": 22,
+        "multiplicity": 1716,
+        "matrix_sha256": "91d2a5b54a913e9d14832a1d2d4d280e41288ea6e3fe143f4795cfab4f76745c",
+        "kernel_sha256": "8c0e86a0948d6f511a7e0b7da4344cc9cc0425d9c043bcd7c2ce481968e710c4"
+      },
+      {
+        "transverse_degree": 8,
+        "rank": 26,
+        "nullity": 2,
+        "kernel_mass_rank": 2,
+        "multiplicity": 1287,
+        "matrix_sha256": "f6c100962fa019cc77a83ffbc8a2900da274d758ef6ab0d730dd4830d57197fd",
+        "kernel_sha256": "38482c0bec888e64518c2f6b11aa61e97ae6da759d1a668889c17a990d63ff6d"
+      },
+      {
+        "transverse_degree": 9,
+        "rank": 6,
+        "nullity": 22,
+        "kernel_mass_rank": 22,
+        "multiplicity": 715,
+        "matrix_sha256": "a983f74d0ada34774d506edf8a8a37dce4beadedc315abf15c1e65d570f5545d",
+        "kernel_sha256": "a0418de7d0392becd7f8eb471682974d79744a67dc9934150ff055758b981adb"
+      },
+      {
+        "transverse_degree": 10,
+        "rank": 26,
+        "nullity": 2,
+        "kernel_mass_rank": 2,
+        "multiplicity": 286,
+        "matrix_sha256": "20e74b1f89e954a1194b0f9044ffb6c71e43aafe4b75b9d867dbdaf78bc5611f",
+        "kernel_sha256": "38482c0bec888e64518c2f6b11aa61e97ae6da759d1a668889c17a990d63ff6d"
+      },
+      {
+        "transverse_degree": 11,
+        "rank": 6,
+        "nullity": 22,
+        "kernel_mass_rank": 22,
+        "multiplicity": 78,
+        "matrix_sha256": "6d7003b17b41e88b66e494ab09d5c7170e9717bcfcfb97d74d7932c2f23c3a99",
+        "kernel_sha256": "be8e471204e9447c14fd9f73111accf7a8b7fe1ee3c7a6665602bdb417ec1941"
+      },
+      {
+        "transverse_degree": 12,
+        "rank": 26,
+        "nullity": 2,
+        "kernel_mass_rank": 2,
+        "multiplicity": 13,
+        "matrix_sha256": "4fa9aabd6895a9c9d0e81ef42cf2d809ffeede0b6e22f4b47e3305df82f0ed0b",
+        "kernel_sha256": "38482c0bec888e64518c2f6b11aa61e97ae6da759d1a668889c17a990d63ff6d"
+      },
+      {
+        "transverse_degree": 13,
+        "rank": 2,
+        "nullity": 26,
+        "kernel_mass_rank": 26,
+        "multiplicity": 1,
+        "matrix_sha256": "cc0a16d83eecea7bc7ad381b43a0dccc0baa86bb5c5be6cbe883b73508e38668",
+        "kernel_sha256": "5beeeb0cc7833321b8a73f3f8a7b62e1a17c7a6c1669af85305522c1b7c62802"
+      }
+    ]
+  },
+  "spatial_kernel_compressions": [
+    {
+      "s": 0,
+      "axis": 0,
+      "rank": 0,
+      "shape": [
+        22,
+        2
+      ]
+    },
+    {
+      "s": 1,
+      "axis": 0,
+      "rank": 0,
+      "shape": [
+        2,
+        22
+      ]
+    },
+    {
+      "s": 1,
+      "axis": 1,
+      "rank": 0,
+      "shape": [
+        4,
+        22
+      ]
+    },
+    {
+      "s": 2,
+      "axis": 0,
+      "rank": 0,
+      "shape": [
+        22,
+        4
+      ]
+    },
+    {
+      "s": 2,
+      "axis": 2,
+      "rank": 0,
+      "shape": [
+        22,
+        4
+      ]
+    },
+    {
+      "s": 3,
+      "axis": 0,
+      "rank": 0,
+      "shape": [
+        4,
+        22
+      ]
+    },
+    {
+      "s": 3,
+      "axis": 4,
+      "rank": 0,
+      "shape": [
+        2,
+        22
+      ]
+    },
+    {
+      "s": 4,
+      "axis": 0,
+      "rank": 0,
+      "shape": [
+        22,
+        2
+      ]
+    },
+    {
+      "s": 4,
+      "axis": 5,
+      "rank": 0,
+      "shape": [
+        22,
+        2
+      ]
+    },
+    {
+      "s": 5,
+      "axis": 0,
+      "rank": 0,
+      "shape": [
+        2,
+        22
+      ]
+    },
+    {
+      "s": 5,
+      "axis": 6,
+      "rank": 0,
+      "shape": [
+        2,
+        22
+      ]
+    },
+    {
+      "s": 6,
+      "axis": 0,
+      "rank": 0,
+      "shape": [
+        22,
+        2
+      ]
+    },
+    {
+      "s": 6,
+      "axis": 7,
+      "rank": 0,
+      "shape": [
+        22,
+        2
+      ]
+    },
+    {
+      "s": 7,
+      "axis": 0,
+      "rank": 0,
+      "shape": [
+        2,
+        22
+      ]
+    },
+    {
+      "s": 7,
+      "axis": 8,
+      "rank": 0,
+      "shape": [
+        2,
+        22
+      ]
+    },
+    {
+      "s": 8,
+      "axis": 0,
+      "rank": 0,
+      "shape": [
+        22,
+        2
+      ]
+    },
+    {
+      "s": 8,
+      "axis": 9,
+      "rank": 0,
+      "shape": [
+        22,
+        2
+      ]
+    },
+    {
+      "s": 9,
+      "axis": 0,
+      "rank": 0,
+      "shape": [
+        2,
+        22
+      ]
+    },
+    {
+      "s": 9,
+      "axis": 10,
+      "rank": 0,
+      "shape": [
+        2,
+        22
+      ]
+    },
+    {
+      "s": 10,
+      "axis": 0,
+      "rank": 0,
+      "shape": [
+        22,
+        2
+      ]
+    },
+    {
+      "s": 10,
+      "axis": 11,
+      "rank": 0,
+      "shape": [
+        22,
+        2
+      ]
+    },
+    {
+      "s": 11,
+      "axis": 0,
+      "rank": 0,
+      "shape": [
+        2,
+        22
+      ]
+    },
+    {
+      "s": 11,
+      "axis": 12,
+      "rank": 0,
+      "shape": [
+        2,
+        22
+      ]
+    },
+    {
+      "s": 12,
+      "axis": 0,
+      "rank": 0,
+      "shape": [
+        22,
+        2
+      ]
+    },
+    {
+      "s": 12,
+      "axis": 13,
+      "rank": 0,
+      "shape": [
+        26,
+        2
+      ]
+    },
+    {
+      "s": 13,
+      "axis": 0,
+      "rank": 0,
+      "shape": [
+        2,
+        26
+      ]
+    }
+  ],
+  "center_controls": {
+    "checks": 104,
+    "real_clifford_lie_dimension": 8128,
+    "imaginary_clifford_lie_dimension": 8256,
+    "imaginary_connection_dimension": 115584,
+    "time_controls": [
+      {
+        "central_axis": 0,
+        "K_support": 12,
+        "physical_center_norm": "1"
+      },
+      {
+        "central_axis": 1,
+        "K_support": 12,
+        "physical_center_norm": "1"
+      },
+      {
+        "central_axis": 2,
+        "K_support": 12,
+        "physical_center_norm": "1"
+      },
+      {
+        "central_axis": 3,
+        "K_support": 0,
+        "physical_center_norm": "-1"
+      },
+      {
+        "central_axis": 4,
+        "K_support": 12,
+        "physical_center_norm": "-1/16"
+      },
+      {
+        "central_axis": 5,
+        "K_support": 12,
+        "physical_center_norm": "1/8"
+      },
+      {
+        "central_axis": 6,
+        "K_support": 12,
+        "physical_center_norm": "1/24"
+      },
+      {
+        "central_axis": 7,
+        "K_support": 12,
+        "physical_center_norm": "1/48"
+      },
+      {
+        "central_axis": 8,
+        "K_support": 12,
+        "physical_center_norm": "1/8"
+      },
+      {
+        "central_axis": 9,
+        "K_support": 12,
+        "physical_center_norm": "1/8"
+      },
+      {
+        "central_axis": 10,
+        "K_support": 12,
+        "physical_center_norm": "-1/8"
+      },
+      {
+        "central_axis": 11,
+        "K_support": 12,
+        "physical_center_norm": "1/8"
+      },
+      {
+        "central_axis": 12,
+        "K_support": 12,
+        "physical_center_norm": "-1/8"
+      },
+      {
+        "central_axis": 13,
+        "K_support": 12,
+        "physical_center_norm": "-1/8"
+      }
+    ],
+    "central_eliminated_velocity_rank": 13,
+    "unreduced_velocity_inertia": {
+      "positive": 4,
+      "negative": 9
+    },
+    "actual_lower_coupling_witnesses": [
+      {
+        "receiver": [
+          1,
+          259
+        ],
+        "geometric_offset": "-1/4",
+        "linear59": [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        "root_intervals": [
+          {
+            "center": "-1/4",
+            "error": "0",
+            "lower": "-1/4",
+            "upper": "-1/4",
+            "approximate_center": -0.25,
+            "approximate_error": 0.0,
+            "sign": "negative"
+          },
+          {
+            "center": "-1/4",
+            "error": "0",
+            "lower": "-1/4",
+            "upper": "-1/4",
+            "approximate_center": -0.25,
+            "approximate_error": 0.0,
+            "sign": "negative"
+          }
+        ]
+      },
+      {
+        "receiver": [
+          1,
+          517
+        ],
+        "geometric_offset": "-1/4",
+        "linear59": [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        "root_intervals": [
+          {
+            "center": "-1/4",
+            "error": "0",
+            "lower": "-1/4",
+            "upper": "-1/4",
+            "approximate_center": -0.25,
+            "approximate_error": 0.0,
+            "sign": "negative"
+          },
+          {
+            "center": "-1/4",
+            "error": "0",
+            "lower": "-1/4",
+            "upper": "-1/4",
+            "approximate_center": -0.25,
+            "approximate_error": 0.0,
+            "sign": "negative"
+          }
+        ]
+      }
+    ],
+    "root_certificate_status": "uses already certified rational root balls; no new root proof",
+    "scope": "Exact central auxiliary elimination and principal reduced velocity block. Explicit lower mixing rejects autonomous principal+kappa center oscillators at both native roots. No physical ghost or full constraint-spectrum verdict."
+  },
+  "causal_controls": {
+    "checks": 221,
+    "causal": [
+      {
+        "kind": "timelike",
+        "central_K_rank": 13,
+        "covector_norm": "-1",
+        "induced_square_inertia": {
+          "positive": 4,
+          "negative": 9,
+          "radical_in_image": 0
+        }
+      },
+      {
+        "kind": "spacelike",
+        "central_K_rank": 13,
+        "covector_norm": "1",
+        "induced_square_inertia": {
+          "positive": 5,
+          "negative": 8,
+          "radical_in_image": 0
+        }
+      },
+      {
+        "kind": "null",
+        "central_K_rank": 13,
+        "covector_norm": "0",
+        "induced_square_inertia": {
+          "positive": 4,
+          "negative": 8,
+          "radical_in_image": 1
+        }
+      }
+    ],
+    "phi_composite_identity": "p0 Phi^dagger Phi on scalar2forms = -48 Id; full composite has grade4 terms",
+    "scope": "Pointwise exact central principal symbol and unreduced square; no propagation or physical ghost verdict"
+  },
+  "finite_control_count": 325,
+  "probe_output_sha256": "b43029f0e01b8c61a0f42b238a51ccd92e4d0c9ed0dbf15e2e938c843f06182f",
+  "constraint_theorem": {
+    "identity": "P_N K_zeta P_N=0 for every covector",
+    "actual_lower": "M_N=P_N[M P_N+sum K^I partial_I P_N]|N",
+    "large_kappa": "M_N=kappa I+uniformly bounded E on compact timelike patch of existing real analytic small-h branch; inverse exists for sufficiently large positive kappa",
+    "kappa1": "uncomputed; neither root connected to small-h branch by this result"
+  },
+  "energy_theorem": {
+    "domain": "compact smooth constrained instantaneous imaginary-sector data on declared time-adapted patch",
+    "leading_term": "H_red(v)=-kappa/2 integral rho b(v,v)+O(1) for each fixed test v",
+    "witnesses": "positive spatial and negative normal imaginary central covectors belong to R=im K_dt; compact smooth sections retain both signs",
+    "result": "both signs, hence quadratic functional unbounded above/below at every sufficiently large kappa",
+    "not_claimed": [
+      "wellposed propagation of arbitrary compact data",
+      "physical negative-norm modes or observed helicity",
+      "nonlinear energy or linearization stability",
+      "kappa1 spectrum",
+      "source or class-C exclusion"
+    ]
+  },
+  "choice_budget_ref": "lab/process/action-constraint-matrix.json#source_relevance_assumption_view.candidate_choice_budget",
+  "choice_delta": {
+    "new_families": 0,
+    "new_successful_viability_bundles": 0,
+    "new_source_predictions": 0,
+    "active_families": 10,
+    "bundles": 4,
+    "net": 6
+  },
+  "lean": {
+    "path": "Lean/GUFormalization/CoupledGhost.lean",
+    "lemmas": 8,
+    "status": "targeted_compilation_passed",
+    "scope": "finite algebra, energy-dominance signs and count arithmetic only"
+  },
+  "reviews": [
+    "lab/process/hostile-reviews/2026-11-25-source-action-coupled-ghost-review.md"
+  ],
+  "validation": {
+    "native_audits": {
+      "program_focus_audit": "PASS",
+      "typed_carrier_declaration_audit": "PASS",
+      "source_native_comparator_routing_audit": "PASS",
+      "kill_target_claim_audit": "PASS",
+      "reverse_scaffold_direction_audit": "PASS",
+      "frontmatter_status_schema_audit": "PASS",
+      "lean_certificate_surface_audit": "PASS",
+      "current_state_absolute_currency_audit": "PASS"
+    },
+    "semantic_checks": "PASS: counter, references, choice counts, policy/verdict preservation and50 lenses/29 opportunities",
+    "diff_check": "PASS",
+    "review": "two mathematical and separate hostile reviews accepted final native report"
+  },
+  "next_condition": "Compute the actual algebraic M_N endomorphism at both kappa1 roots, beginning with the autonomous imaginary sector. Carry surviving energy directions into a specified physical domain; full real metric coupling and observed spin spectrum remain distinct. No complete-selection waiting prerequisite.",
+  "dependencies": {
+    "explorations/conditional-build/source-action-coupled-ghost-2026-11-25.md": "63d5ddb5fa64a04ee2393d9f2396d6278c82fc7183e55df99d89d609be2b5686",
+    "lab/process/hostile-reviews/2026-11-25-source-action-coupled-ghost-review.md": "e5d1e28bc4e59be53391e98b69f1750c581be4783b516a1dd03ade82ce51d8c3",
+    "tests/program-focus/source_action_coupled_ghost_probe.py": "a1730f0dc970e6fdf8e51d90bd789a5b5acf29f7a22b3626b27825ac1daa7160",
+    "Lean/GUFormalization/CoupledGhost.lean": "8be5b55d83eacb9e6eaa927558b6e542d69a2524a6b3d2e1c59b49abc9898493",
+    "tests/program-focus/source_action_deep_algebra.py": "4e3800131049e2b397bbce6106bfc5766d2f5fbf996319c50942f3b805d65598",
+    "tests/program-focus/source_action_deep_geometry.py": "7cdfe5f7609300c1ab4fb482f309cfafa52d0aa66cf353ef8b1f9c8be07e52df",
+    "tests/program-focus/source_action_metric_symbol_probe.py": "eccac86c829c48848a4db9ab49d0313601bc3b19aca9a1fc6635520f489254ef",
+    "lab/process/source-action-deep-coefficients.json": "fb4aacfa69cbc1127b7fddf3b4f66811650c1fd3a889363cc6dfab940439b274",
+    "explorations/conditional-build/source-action-homogeneous-analytic-vacuum-2026-11-25.md": "5ed2c3d264500bfb7e801a31c33dfef8eb179ae1f5a628d08a231c29275f17e9"
+  }
+}

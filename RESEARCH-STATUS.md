@@ -16,6 +16,14 @@ discovery bet (`lab/process/discovery-bets.json`). The K25xx--K2618 detector, pr
 results below are retained as conditional mathematics; that lane is no longer the default target. Sections
 below are dated results, newest first, and are not steering.
 
+## Actual coupled constraints and quadratic energy (2026-11-25)
+
+Complete connection constraint reduction and exact central elimination; on the existing sufficiently-large-kappa stationary branch the actual constrained quadratic Hamiltonian has both signs on compact instantaneous data. No kappa1, propagated-mode, quantum-ghost or source/GU verdict.
+
+The complete full-U time symbol has rank130912/kernel98464; every spatial kernel self-compression vanishes. The actual compressed constraint operator is algebraic, including moving-projector and lower terms. On the already-owned large-kappa branch it is invertible locally. In the autonomous imaginary block, eliminating all linearized auxiliary equations leaves both signs of canonical quadratic energy. This concerns constrained instantaneous data, not proved propagating physical states or nonlinear stability. Exact central elimination and native lower mixing prevent an incorrect two-mode ghost shortcut.14 complete representative blocks,26 spatial cases,325 finite controls,8 Lean finite-core lemmas and internal T1 reviews support the declared scope. Choice accounting remains10/4/net6; no scientific ledger verdict changes.
+
+[Result](explorations/conditional-build/source-action-coupled-ghost-2026-11-25.md) · [Evidence](lab/process/source-action-coupled-ghost.json).
+
 ## Actual-variable selected completion and time charge (2026-11-25)
 
 Exact actual-variable finite-band matter/dual completion with bounded literal observation, positive native base-time phase charge and nonnegative canonical matter energy for any chosen bounded nonnegative dispersion. The selected domain changes with the dispersion; no source/physical/coupled-gravity verdict.

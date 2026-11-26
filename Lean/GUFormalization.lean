@@ -72,3 +72,5 @@ import GUFormalization.SliceCompletion
 import GUFormalization.PredictiveRealization
 
 import GUFormalization.VariableCompletion
+
+import GUFormalization.CoupledGhost

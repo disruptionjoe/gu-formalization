@@ -142,3 +142,7 @@ O04 now distinguishes same-phase PsiDO exclusion from a full-frozen bounded nonl
 ## Actual-variable completion update (2026-11-25)
 
 [Result](../../explorations/conditional-build/source-action-variable-completion-2026-11-25.md): O04/O06 now have an actual-variable finite-band native field/dual completion with positive linear-matter time charge/energy. Its dispersion remains chosen. O15 retains the full coupled ghost diagnostic as the directed successor, with the physical quotient and pairing still explicit. All50 lenses and29 opportunities remain preserved; candidate choice accounting lives in the existing assumption view.
+
+## Coupled ghost diagnostic result (2026-11-25)
+
+[Result](../../explorations/conditional-build/source-action-coupled-ghost-2026-11-25.md): O15 now has complete time-kernel constraint structure, exact central elimination and a large-kappa constrained quadratic-energy exclusion. The full physical ghost spectrum and kappa1 constraint inversion remain open. The next concrete calculation is the actual algebraic M_N matrix, especially its autonomous imaginary block. No new completion freedom is added; all50 lenses/29 opportunities remain.

@@ -92,8 +92,19 @@ Authority: Joe direct Nov25(i). [Actual-variable result](../../../explorations/c
 | Step | Status | Target / tier | Expected delta | Scope / negative-result meaning |
 |---|---|---|---|---|
 | 5i Actual variable-coefficient restricted completion and time positivity | done in finite-band/local-tube fixed-background linear scope | LB-CLASS / T2 | Exact native field/dual, bounded readout, positive action phase charge and nonnegative canonical matter energy; arbitrary chosen dispersion survives | Not source-selected, nonlinear coupled, globally normal-L2 or physical Lorentz/adjoint completion |
-| 5j Full coupled ghost diagnostic | ready next in directed construction; physical verdict conditional on typed quotient/domain/pairing | LB-CLASS / T2, T1 if a scoped exclusion is established | Complete kernel/subprincipal and action-derived constraint analysis toward LT-GR1 massless helicity2, massive spin and physical norm tests | No metric-only sign, ambient Krein inertia,59-Jacobian inverse or selected linear-matter pairing as a bosonic ghost verdict |
+| 5j Full coupled ghost diagnostic | constraint and large-kappa energy stage done; physical spectrum open | LB-CLASS / T1 internal energy category, T2 reductions | Complete time-kernel and exact central elimination; constrained quadratic energy indefinite on existing large-kappa branch | No kappa1, propagated-mode, nonlinear or quantum-ghost verdict; next concrete algebraic block in5k |
 
 Step5j follows this completed bounded wave; it does not wait for a complete selection theory. Exact missing input restricts only the inference needing it, while the coupled equations and eligible science continue. Existing ordinary B-packet selection, LC cadence and schedules remain unchanged.
 
 The assumption view's candidate_choice_budget now owns per-wave grouped choice/constraint accounting, dependencies and drift warning under Joe's approval. Count whole functions and domains visibly; no automatic stop or reprioritization reset. No committed general-elephant sheet was located; the requested scoped draft sentence is preserved in the result's section12 rather than inventing a paper release.
+
+## Consumed coupled-constraint stage
+
+[Actual result](../../../explorations/conditional-build/source-action-coupled-ghost-2026-11-25.md) runs the queued diagnostic beyond metric-only and ambient-inertia tests. All linearized N equations and primary momentum constraints in the autonomous imaginary block are eliminated for sufficiently large kappa; the canonical quadratic functional remains indefinite on compact constrained instantaneous data. Actual evolution/domain and observed physical interpretation remain open. The center-only oscillator shortcut fails native lower couplings. Choice budget10/4/net6 is unchanged, with no new selected freedom.
+
+| Step | Status | Target / tier | Expected delta | Scope / negative-result meaning |
+|---|---|---|---|---|
+| 5k Actual finite-coupling constraint matrix | ready in directed construction | LB-CLASS / T2, T1 if an exclusion follows | Evaluate M_N at both certified kappa1 backgrounds, starting with autonomous imaginary sector; resolve its kernel/inverse and actual residual constraints | Local finite-dimensional constraint endomorphism, not full Green inverse; no physical spectrum without domain/observed pairing |
+| 5l Physical admission of energy witnesses | blocked only on supplied physical domain for this inference | X-P1-P2-P3 / T2 | Determine whether a preserved source-typed state domain admits or removes the constrained opposite-energy directions | Existing maximal-compact shielding is not an established projector; no added selector by fiat |
+
+Step5k does not wait for5l or for a complete selection theory. Real metric/connection and observed helicity questions remain separate; ordinary B priorities, pendingLC and schedules are unchanged.
