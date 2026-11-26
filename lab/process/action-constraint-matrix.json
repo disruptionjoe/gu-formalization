@@ -1788,7 +1788,7 @@
     },
     "LB-CLASS": {
       "zero_delta_streak": 0,
-      "runs": 23,
+      "runs": 24,
       "status": "open"
     },
     "LB-LADDER": {
@@ -2707,7 +2707,7 @@
   ],
   "program_run_counter": {
     "since": "2026-11-09",
-    "count": 64,
+    "count": 65,
     "rule": "Every hourly run increments this in its postflight, whatever its lane. Lane C runs when count % 4 == 3 before the increment."
   },
   "working_rule": "Cells are worked at the structure level: a requirement must hold for every action in class C or for a structurally defined subfamily. No cell is worked by writing down a specific action, and no gated cell is worked by building its gate object. See CURRENT-STATE.yaml program_focus.structure_not_specifics.",
@@ -3092,6 +3092,21 @@
         "papers/drafts/symmetry-rigidity-finite-jets/manuscript.pdf"
       ],
       "claim_effect": "Packaging, no scientific matrix verdict/shrinkage/bet credit, new physical choice, policy or publication-stage change; pending ordinary LC retained."
+    },
+    {
+      "date": "2026-11-26",
+      "authority": "joe_direct_chat_2026_11_26_petrov_probability_go",
+      "item": "Quantitative escape of observer distributions at Weyl degenerations",
+      "tier": "T1_internal_scoped_mathematical_result",
+      "counter_before": 64,
+      "counter_after": 65,
+      "lane": "LB-CLASS",
+      "actual_delta": "Every type-I Weyl sequence approaching nonzero II or III forces every covariant observer probability to retain at most one-half or one-quarter mass in each compact observer region, with sharp examples. Continuous laws incur maximal TV covariance defect along escaping stabilizers. Qualitative selection is classical-theory synthesis; quantitative worldwide priority remains unestablished.",
+      "evidence": [
+        "explorations/conditional-build/petrov-probability-selection-2026-11-26.md",
+        "lab/process/petrov-probability-selection.json"
+      ],
+      "claim_effect": "No source/physics/canon verdict, scientific matrix shrinkage, bet credit, choice budget or scheduled-priority change."
     }
   ],
   "directed_lc_carry_2026_11_24_b": {
@@ -3348,11 +3363,22 @@
           "explorations/conditional-build/tensor-stabilizer-normalization-2026-11-25.md",
           "explorations/conditional-build/symmetry-restoration-measure-limit-2026-11-25.md",
           "explorations/conditional-build/source-action-slice-completion-2026-11-25.md",
-          "lab/process/source-action-slice-completion.json"
+          "lab/process/source-action-slice-completion.json",
+          "explorations/conditional-build/petrov-probability-selection-2026-11-26.md",
+          "lab/process/petrov-probability-selection.json"
         ],
         "structural_choices": "Effective joint stabilizer, background-versus-state normalization, support category and common-limit quantifier. None fixes an action.",
         "latest_constraint": "A finite extra-datum weight does not repair the same thin off-shell graph trace or select a signed average. Opposite weighted averages possible for the existing sign-changing receiver under the stated domain/moment premises; not a new weighted-action or Newton verdict.",
-        "probabilistic_completion_update": "h question closed at mathematical scope: singular conformal-ray laws exist; smooth full-fibre laws require compact effective stabilizer in the declared tensor category; no universal non-natural-reference necessity. External datum remains conditional on non-derivability/source requirements."
+        "probabilistic_completion_update": "h question closed at mathematical scope: singular conformal-ray laws exist; smooth full-fibre laws require compact effective stabilizer in the declared tensor category; no universal non-natural-reference necessity. External datum remains conditional on non-derivability/source requirements.",
+        "cross_stratum_update": {
+          "result": "Fixed-orbit compact isotropy is insufficient for cross-stratum continuity. For Weyl-only future-timelike observer probabilities, the maximal ambient invariant open domain is Petrov I; arbitrary approaches to II/III force at least half/three-quarters probability escape from every compact observer region.",
+          "source_bridge": {
+            "status": "absent",
+            "reason": "No source necessity of a Weyl-only observer law; metric-fibre transfer remains separate."
+          },
+          "survivors": "Isolated II/III orbits, Ricci/matter/derivative/global data, restricted type-I domains and singular metric-fibre laws are not excluded.",
+          "novelty": "Classical qualitative theory; potential quantitative refinement, priority unverified."
+        }
       },
       {
         "question": "Does the explicit local action and balanced boundary datum furnish a physical source receiver?",

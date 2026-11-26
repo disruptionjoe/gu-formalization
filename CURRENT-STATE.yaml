@@ -1,7 +1,7 @@
 schema_version: '1.0'
 repository: observerse-research-program
 branch: main
-revision_basis: cf4b7ea55f8dcffbea298a7296133e0bf8779a31
+revision_basis: f43861c6d867aaa8be4acb69c2216bfea9b2b852
 program_focus:
   version: 2026-11-25-v1
   authority: joe_direct_chat_2026_11_25_five_process_improvements_approved
@@ -140,6 +140,35 @@ program_focus:
     covered; source relevance separately from mathematical breadth; shared prerequisite if any; remaining
     cost; strongest eligible alternative. A blocked high-value target is not an eligible alternative without
     its missing input. Reuse completed theorems and compare only their uncovered successors.'
+petrov_probability_selection_2026_11_26:
+  authority: joe_direct_chat_2026_11_26_petrov_probability_go
+  status: internal_reviewed_T1_scoped_mathematical_result
+  basis_revision: f43861c6d867aaa8be4acb69c2216bfea9b2b852
+  actual_delta: Every type-I Weyl sequence approaching nonzero II or III forces every covariant observer
+    probability to retain at most one-half or one-quarter mass in each compact observer region, with sharp
+    examples. Continuous laws incur maximal TV covariance defect along escaping stabilizers. Qualitative
+    selection is classical-theory synthesis; quantitative worldwide priority remains unestablished.
+  evidence:
+  - explorations/conditional-build/petrov-probability-selection-2026-11-26.md
+  - lab/process/petrov-probability-selection.json
+  - tests/program-focus/petrov_probability_selection_probe.py
+  - Lean/GUFormalization/PetrovProbability.lean
+  - lab/process/hostile-reviews/2026-11-26-petrov-probability-selection-review.md
+  class_scope: Pointwise downstairs 4D Weyl tensors and normalized probabilities on future unit timelike
+    vectors; continuous equivariant assignments on ambient invariant open domains. No source-necessary
+    GU or class-C exclusion.
+  novelty: Primary audit identifies Julia covariant and qualitative reduction as classical. Universal
+    escape fractions and TV are a potential quantitative refinement; no world-first claim.
+  source_bridge:
+    status: absent
+    reason: No source-required pointwise Weyl-only observer probability or physical/metric-fibre transfer.
+  continuation: Existing source-supported physical-domain/selection work continues. The conditional bridge
+    is whether source inputs require this selector category or supply Ricci, matter, derivatives, global
+    data or a restricted domain.
+  priority_control_effect: Scheduled priority, governance, scientific cells, source/physics/canon/paper
+    verdicts and candidate choices unchanged.
+  accounting: Directed count64to65/LBCLASS23to24; no scientific matrix shrinkage or bet credit; ordinary
+    LC retained.
 symmetry_rigidity_finite_jets_draft_2026_11_26:
   authority: joe_direct_chat_2026_11_26_draft_most_publishable
   status: working_draft_not_publication_candidate

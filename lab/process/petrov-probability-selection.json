@@ -1,0 +1,61 @@
+{
+  "artifact": "petrov-probability-selection",
+  "date": "2026-11-26",
+  "basis_revision": "f43861c6d867aaa8be4acb69c2216bfea9b2b852",
+  "status": "internal_reviewed_scoped_mathematical_result",
+  "actual_delta": "Every type-I Weyl sequence approaching nonzero II or III forces every covariant observer probability to retain at most one-half or one-quarter mass in each compact observer region, with sharp examples. Continuous laws incur maximal TV covariance defect along escaping stabilizers. Qualitative selection is classical-theory synthesis; quantitative worldwide priority remains unestablished.",
+  "class_covered": "Weyl-only normalized observer probability in fixed downstairs Lorentz geometry; ambient open neighborhood continuity",
+  "source_bridge": {
+    "status": "absent",
+    "reason": "Source necessity and physical/metric-fibre transfer unproved"
+  },
+  "probe": {
+    "status": "PASS",
+    "checks": 19,
+    "labels": [
+      "J determinant",
+      "J square",
+      "J exact II/III invariance",
+      "A unnormalized determinant",
+      "A unnormalized square",
+      "A quartic normalization",
+      "B unnormalized determinant",
+      "B unnormalized square",
+      "B quartic normalization",
+      "A0 B0 = 2J",
+      "B0 A0 = -2J",
+      "general II exact exchange",
+      "general II exchange square",
+      "general II exchange determinant",
+      "even sharp-II sequence fixed",
+      "mutation: wrong off-diagonal sign rejected",
+      "mutation: wrong II exchange rejected",
+      "weighted overlap saturation 1",
+      "weighted overlap saturation 2"
+    ],
+    "arithmetic": "Gaussian integers / formal Laurent polynomials / rational weights",
+    "scope": "finite identities only; not properness, tightness, source relevance or worldwide priority"
+  },
+  "lean": {
+    "file": "Lean/GUFormalization/PetrovProbability.lean",
+    "status": "targeted_compilation_passed",
+    "lemmas": 9,
+    "scope": "finite algebra only; no formalized probability/topology"
+  },
+  "review": "lab/process/hostile-reviews/2026-11-26-petrov-probability-selection-review.md",
+  "proof": "explorations/conditional-build/petrov-probability-selection-2026-11-26.md",
+  "novelty_ceiling": "Potential quantitative refinement; Julia covariant and qualitative machinery classical; world priority unverified",
+  "three_state": {
+    "ESTABLISHED": "Universal mass bounds, sharp examples, TV limit and open-domain classification at stated scope",
+    "RULED_OUT": "Continuous covariant Weyl-only observer probability across special Petrov strata on ambient open domains",
+    "NOT_MODELED_UNDETERMINED": "Source necessity, physical meaning, metric-fibre transfer, world priority"
+  },
+  "scientific_verdict_change": "none",
+  "choice_budget_delta": 0,
+  "sha256": {
+    "explorations/conditional-build/petrov-probability-selection-2026-11-26.md": "17d274c17a7372a5494ec0a6a391ade5da83e43a748461fc235b6c09b688225d",
+    "tests/program-focus/petrov_probability_selection_probe.py": "1732cf838b54b1746bab922b7aa8e03c0d4bfd749d8857595d811d37d7e6b02a",
+    "Lean/GUFormalization/PetrovProbability.lean": "c9e16572382126899be1a644c16c88291275643121383a8e8fac015fe855ca8f",
+    "lab/process/hostile-reviews/2026-11-26-petrov-probability-selection-review.md": "249e37312a162db90806051b9f5aaaef1459a70b8a7b9d919308534d44010f4a"
+  }
+}

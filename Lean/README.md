@@ -199,3 +199,7 @@ replacement for `lake build` or targeted standalone Lean checks.
 ## Covariant finite-jet ambiguity finite core (2026-11-26)
 
 `GUFormalization/CovariantJetAmbiguity.lean`: **LEAN-VERIFIED**, affine measurement-kernel characterization of right inverses, arbitrary hidden parameter families, chosen-image injectivity, finite even-polynomial coefficient isolation and cutoff vanishing. Targeted compilation passed without sorry. Analytic CK filtration/existence and Lorentz covariance remain written reviewed proofs; no physical-state formalization. [Result](../explorations/conditional-build/source-action-covariant-jet-ambiguity-2026-11-26.md).
+
+## Petrov probability finite core (2026-11-26)
+
+`GUFormalization/PetrovProbability.lean`: **LEAN-VERIFIED**, nine lemmas for weighted overlap double-counting, quarter/half bounds, variation discrepancy and exact quartic stabilizer substitutions. Targeted compilation passed without sorry. Properness, tightness, Petrov classification and the probability-limit theorem remain independently reviewed written mathematics. No source necessity or worldwide novelty is formalized. [Proof](../explorations/conditional-build/petrov-probability-selection-2026-11-26.md).

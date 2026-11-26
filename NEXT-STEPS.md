@@ -16,6 +16,14 @@ Do not add "Current follow-through" sections or "Historical predecessor" stacks 
 matrix or bet file. The retired follow-through chain and banner stack are kept at the end of this file under
 "Archived steering history".
 
+## Quantitative observer-probability escape (2026-11-26)
+
+Every type-I Weyl sequence approaching nonzero II or III forces every covariant observer probability to retain at most one-half or one-quarter mass in each compact observer region, with sharp examples. Continuous laws incur maximal TV covariance defect along escaping stabilizers. Qualitative selection is classical-theory synthesis; quantitative worldwide priority remains unestablished.
+
+Two mathematical reviews and hostile source review accepted the scoped result. Nineteen exact controls and nine Lean finite-core lemmas passed; probability/topology remains written proof. Source necessity and metric-fibre transfer remain absent.
+
+[Proof](explorations/conditional-build/petrov-probability-selection-2026-11-26.md) · [Evidence](lab/process/petrov-probability-selection.json).
+
 ## Standalone symmetry-rigidity manuscript draft (2026-11-26)
 
 Completed a ten-page standalone mathematical draft combining seed-hyperplane rigidity and finite-section-jet ambiguity, with an explicit ordinary metric-Dirac example, verified primary references, editable LaTeX, inspected PDF and premise/review records. Draft only; no scientific verdict or publication-stage change.
