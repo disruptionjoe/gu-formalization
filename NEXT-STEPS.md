@@ -16,6 +16,14 @@ Do not add "Current follow-through" sections or "Historical predecessor" stacks 
 matrix or bet file. The retired follow-through chain and banner stack are kept at the end of this file under
 "Archived steering history".
 
+## Receiver strategy and source-accessibility tests (2026-11-26)
+
+Normal scalar covectors have both principal-energy signs at both roots, but their highest-spin7 connection sector is blind to the canonical seed current. The covered auxiliary receiver image has exact real dimension32 and is not square-zero. Full spacetime essential transfer support, a conditional boost law and goal-oriented adjoint reduction sharpen the next tests.
+
+The two existing quadratic dispersion examples fail the conditional local Lorentz boost test, while their diagnostic positive-energy construction survives. Full physical domain covariance remains unproved. A raw normal-current jet can cancel under real polarization; the actual paired jet and full adjoint residual are the remaining mathematical discriminators. Choice inventory10/4/bookkeepingnet6 and source-selected predictions0 are unchanged.
+
+[Result](explorations/conditional-build/source-action-receiver-strategy-2026-11-26.md) · [Evidence](lab/process/source-action-receiver-strategy.json) · [20-lens assessment](lab/process/source-action-math20-approaches-2026-11-26.json).
+
 ## Current receiver and surviving PT matter domain (2026-11-26)
 
 Both roots have certified nonzero same-injection matter current on complete spin6/7 derivative auxiliary responses, although the tested range receivers vanish. Pure quaternionic conjugation reverses positive charge; full PT preserves the primary constant-seed positive matter domain without selecting dispersion. Accessible negative-energy excitation and physical propagation remain undetermined.

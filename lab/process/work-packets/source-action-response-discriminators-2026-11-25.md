@@ -150,3 +150,21 @@ Both roots have certified nonzero same-injection matter current on complete spin
 Consumed evidence: [result](../../../explorations/conditional-build/source-action-current-receiver-2026-11-26.md), exact probe and six finite Lean lemmas. The first finite receiver subtest is complete. Remaining step5o: Evaluate the full reduced force j_R-D^dagger M^-1 j_N, including lower and moving-coefficient terms, at transfer frequencies already in K-K with the existing normal profile. Nonzero pointwise auxiliary work does not identify negative forced-response energy. Full auxiliary regularity, admissible propagation and physical quotient remain distinct burdens; higher derived graph domains are still uncovered. No new completion is selected.
 
 Choice inventory10/4/bookkeepingnet6 unchanged. Existing scheduled selection and pending LC are unchanged; no permission checkpoint is introduced.
+
+## Twenty-lens receiver strategy — cheap subtests consumed (2026-11-26)
+
+Normal scalar covectors have both principal-energy signs at both roots, but their highest-spin7 connection sector is blind to the canonical seed current. The covered auxiliary receiver image has exact real dimension32 and is not square-zero. Full spacetime essential transfer support, a conditional boost law and goal-oriented adjoint reduction sharpen the next tests.
+
+[Result](../../../explorations/conditional-build/source-action-receiver-strategy-2026-11-26.md) and [all20 proposals](../source-action-math20-approaches-2026-11-26.json). Step5o's full forcing and higher-jet questions remain open; the completed cheap discriminators do not repeat the prior nonzero-current or PT tests.
+
+| Step | Status | Target / tier | Expected delta | Scope / kill condition |
+|---|---|---|---|---|
+| 5p Actual paired-current normal jet | ready | LB-CLASS / T2; T1 if an internal class is excluded | First nonzero Hermitian/polarized normal jet and exact sourced blocks | Raw derivative is insufficient; retain physical i phases, row/column CK equations, coefficient/vertex/u transport, conjugate transfer and existing Gram. Zero first jet is not all-jet blindness |
+| 5q Full weak adjoint receiver and minimal closure | ready on existing horizontal channel; normal branch after5p | LB-CLASS / T2 | One full scalar current and only the indispensable additional blocks | Full residual/kernel compatibility, lower/frame/density terms, same essential transfer support;32 spans only tested auxiliary section image. No full inverse or physical ghost inference |
+| 5r Existing Lorentz-domain compatibility | ready independently | LB-CLASS / T2; T1 for a scoped exclusion | Identify actual boost compatibility/defect of CK surface, kernels, tube and Gram | Conditional C1 mass-shell law does not select a mass or prove domain covariance. Do not install new state structure |
+
+Directed order:5p and5r are independent;5q can start from the already nonzero horizontal receiver without waiting for5p. If a normal jet is nonzero after real polarization it supplies the normal input for5q; if it is zero, check an invariant blindness condition or the next symmetry-permitted order. This is an outcome-dependent research handoff, not a permission checkpoint.
+
+Required current-jet form: W(l,k)=N(l)^-1 V_l V(u)F_k. For a physical imaginary variation the diagonal response is minus Herm(d_z W(k,k)); off-diagonal response pairs minus one-half of (d_z W(l,k)+d_z W(k,l)^dagger) at conjugate transfer. A constant F seed does not make V=q(A^t)^-1 constant. The bounded measurable dispersion class is retained; closed support uses the essential difference graph and can have vertical jump limits. Base bandwidth does not bound normal frequency.
+
+Higher derived graph closure, nonlinear feedback support, source-cone optimization and chart gluing are retained in the evidence pool with exact premises. No scientific ledger/matrix verdict, choice count, ordinary B priority, pending LC or schedule changes.

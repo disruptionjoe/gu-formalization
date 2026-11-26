@@ -503,3 +503,7 @@ bicategory, ambidexterity or Mackey 2-functor is inferred.
 ## Current receiver finite core (2026-11-26)
 
 `Lean/GUFormalization/CurrentReceiver.lean`: **LEAN-VERIFIED**, six finite lemmas for conjugate-charge signs, the positive-graph contradiction, norm-margin arithmetic, a work/energy counterexample and bounded difference frequency. Targeted compilation passed without placeholders. Native current coefficients, cross-Gram robustness, CK/PT domain covariance and physical propagation remain separately reviewed mathematics; no full PDE or whole-project-build certification is claimed. [Result](../../explorations/conditional-build/source-action-current-receiver-2026-11-26.md).
+
+## Receiver strategy finite core (2026-11-26)
+
+`Lean/GUFormalization/ReceiverStrategy.lean`: **LEAN-VERIFIED**, six finite lemmas for boost-defect arithmetic and the two owned witness failures, adjoint/kernel scalar identities and a nonzero massless-null transfer. Targeted compilation passed; analytic support, full Lorentz-domain covariance, native normal-energy/Clifford certificates and physical propagation remain separate reviewed obligations. [Result](../../explorations/conditional-build/source-action-receiver-strategy-2026-11-26.md).

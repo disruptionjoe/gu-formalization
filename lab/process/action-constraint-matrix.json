@@ -1788,7 +1788,7 @@
     },
     "LB-CLASS": {
       "zero_delta_streak": 0,
-      "runs": 18,
+      "runs": 19,
       "status": "open"
     },
     "LB-LADDER": {
@@ -2707,7 +2707,7 @@
   ],
   "program_run_counter": {
     "since": "2026-11-09",
-    "count": 59,
+    "count": 60,
     "rule": "Every hourly run increments this in its postflight, whatever its lane. Lane C runs when count % 4 == 3 before the increment."
   },
   "working_rule": "Cells are worked at the structure level: a requirement must hold for every action in class C or for a structurally defined subfamily. No cell is worked by writing down a specific action, and no gated cell is worked by building its gate object. See CURRENT-STATE.yaml program_focus.structure_not_specifics.",
@@ -3016,6 +3016,22 @@
         "lab/process/hostile-reviews/2026-11-26-source-action-current-receiver-review.md"
       ],
       "claim_effect": "No scientific cell/intersection/shrinkage, choice, source/physics/canon or scheduled-priority change; pending ordinary LC retained."
+    },
+    {
+      "date": "2026-11-26",
+      "authority": "joe_direct_chat_2026_11_26_math20_approaches_and_low_hanging_fruit",
+      "item": "Twenty-lens receiver strategy and exact cheap discriminators",
+      "tier": "T1_internal_condition_T2_native_T3_scaffold",
+      "counter_before": 59,
+      "counter_after": 60,
+      "lane": "LB-CLASS",
+      "actual_delta": "Normal scalar covectors have both principal-energy signs at both roots, but their highest-spin7 connection sector is blind to the canonical seed current. The covered auxiliary receiver image has exact real dimension32 and is not square-zero. Full spacetime essential transfer support, a conditional boost law and goal-oriented adjoint reduction sharpen the next tests.",
+      "evidence": [
+        "explorations/conditional-build/source-action-receiver-strategy-2026-11-26.md",
+        "lab/process/source-action-receiver-strategy.json",
+        "lab/process/source-action-math20-approaches-2026-11-26.json"
+      ],
+      "claim_effect": "No scientific verdict/shrinkage/bet/choice/priority change; explicit directed run, pending ordinary LC retained."
     }
   ],
   "directed_lc_carry_2026_11_24_b": {
@@ -3310,7 +3326,10 @@
           "explorations/conditional-build/source-action-steelman-datum-2026-11-26.md",
           "lab/process/source-action-steelman-datum.json",
           "explorations/conditional-build/source-action-current-receiver-2026-11-26.md",
-          "lab/process/source-action-current-receiver.json"
+          "lab/process/source-action-current-receiver.json",
+          "explorations/conditional-build/source-action-receiver-strategy-2026-11-26.md",
+          "lab/process/source-action-receiver-strategy.json",
+          "lab/process/source-action-math20-approaches-2026-11-26.json"
         ],
         "choices": "Historical original choices are retained below; current held fermion repair is SE=-1/2 (SE0 superseded), kappa1 with two unselected roots. Typed candidate_choice_budget separates core/completion/pending/comparator/parked choices.",
         "wave2_update": {
@@ -3427,6 +3446,72 @@
           "class_C_representativeness": "unproved",
           "remaining": "Evaluate the full reduced force j_R-D^dagger M^-1 j_N, including lower and moving-coefficient terms, at transfer frequencies already in K-K with the existing normal profile. Nonzero pointwise auxiliary work does not identify negative forced-response energy. Full auxiliary regularity, admissible propagation and physical quotient remain distinct burdens; higher derived graph domains are still uncovered. No new completion is selected.",
           "physical_scope": "Auxiliary current exists, but a propagated negative-energy excitation or physical ghost is undetermined."
+        },
+        "receiver_strategy_update": {
+          "result": "Normal scalar covectors have both principal-energy signs at both roots, but their highest-spin7 connection sector is blind to the canonical seed current. The covered auxiliary receiver image has exact real dimension32 and is not square-zero. Full spacetime essential transfer support, a conditional boost law and goal-oriented adjoint reduction sharpen the next tests.",
+          "source_necessity": "absent",
+          "class_C_representativeness": "unproved",
+          "remaining": "5p real paired-current normal jet;5q full weak adjoint receiver/descriptor closure;5r independent actual Lorentz-domain audit. Physical propagation/quotient still open.",
+          "choice_effect": "No reduction from conditional Lorentz law; actual domain premise unproved.",
+          "next_worksets": [
+            {
+              "step": "5p",
+              "status": "ready",
+              "title": "Actual Hermitian/polarized paired-current normal jet",
+              "target": "LB-CLASS",
+              "tier": "T2; T1 for a class exclusion",
+              "expected_delta": "Determine whether the fixed actual CK normal evolution opens the highest-spin7 seed-blind receiver and identify the first sourced blocks.",
+              "premises": [
+                "Canonical I, q, both roots and existing paired CK construction",
+                "Actual coefficient derivatives, row and column CK equations, normal transport of u",
+                "Physical imaginary variation, +i dual phase and full Hermitian/polarized current",
+                "Essential spacetime transfer support of the held bounded measurable dispersion; normal profile retained"
+              ],
+              "output": "Exact coefficients in k,l,omega(k),omega(l) and root balls, with the same Gram bound; raw/nonphysical/omitted-row controls.",
+              "kill_condition": "Only an invariant all-jet blindness theorem closes this receiver class; a zero first jet does not. A raw nonzero derivative is not sourcing.",
+              "cost": "One focused run using owned geometry, no added completion.",
+              "strongest_alternative": "5r independent Lorentz-domain compatibility audit.",
+              "source_bridge": "absent for candidate necessity; conditional physical relevance"
+            },
+            {
+              "step": "5q",
+              "status": "ready on existing horizontal channel; normal channel depends on5p",
+              "title": "One full weak adjoint receiver and minimal descriptor closure",
+              "target": "LB-CLASS",
+              "tier": "T2",
+              "expected_delta": "Compute the actual reduced current on one typed test without a full49154 inverse; expose only indispensable additional blocks.",
+              "premises": [
+                "Actual lower/moving/density terms, action pairing and full residual",
+                "Source compatibility with kernel if auxiliary block is singular",
+                "Covered32-image is only spin6/lowered7 auxiliary section receiver; test leakage",
+                "Same essential difference graph and fixed normal profile"
+              ],
+              "output": "Exact scalar receiver/adjoint residual and source-generated block adjacency; conditional forced-response energy only after owned evolution.",
+              "kill_condition": "Nonclosure names an indispensable block; nonzero work alone does not establish a negative forced response or ghost.",
+              "cost": "One run if existing blocks close; otherwise exact expansion burden.",
+              "strongest_alternative": "5p current jet or independent5r.",
+              "source_bridge": "absent for candidate necessity"
+            },
+            {
+              "step": "5r",
+              "status": "ready; independent parallel investigation",
+              "title": "Actual Lorentz compatibility of the existing state/readout domain",
+              "target": "LB-CLASS",
+              "tier": "T2; T1 for an internal category exclusion",
+              "expected_delta": "Identify which CK surface, normal tube, paired graph or Gram condition supplies or breaks observed covariance; conditional dispersion is already narrowed to a mass-shell constant.",
+              "premises": [
+                "Owned homogeneous root and section I/q covariance",
+                "C1 assumption only for the local boost law, not retroactively all measurable dispersions",
+                "Finite spectral window is not claimed globally boost invariant",
+                "Do not choose a new mass law, seed, tube or physical quotient"
+              ],
+              "output": "Exact infinitesimal covariance defects/conditions with source-asserted, source-constrained and repository choices separate.",
+              "kill_condition": "Failure excludes that domain interpretation, not the diagnostic positivity result or GU. No choice count reduction before the physical premise is established.",
+              "cost": "One focused audit; full global construction is outside this task.",
+              "strongest_alternative": "5p/5q actual current response.",
+              "source_bridge": "source motivation explicit; source-necessary candidate bridge absent"
+            }
+          ]
         }
       }
     ],
@@ -3867,25 +3952,25 @@
         "newly_exposed_live_function_freedom": [],
         "replaced_or_refined_families": [],
         "constrained_categories": [
-          "Pure quaternionic conjugation cannot preserve the chosen nonzero positive-charge graph.",
-          "The direct range receiver is zero but its complete derivative auxiliary current is nonzero at both roots.",
-          "Full PT preserves the existing primary constant-seed matter domain without selecting its free dispersion."
+          "Both owned quadratic dispersion witnesses fail local boost tangency under the stated C1 physical-covariance interpretation.",
+          "Normal highest-spin7 energy channels exist but canonical seed current is blind.",
+          "Trace-isotropic auxiliary receiver image is not square-zero; exactrealspan32 has no automatic dynamic closure."
         ],
         "new_independent_mathematical_compatibility_bundles": 0,
         "new_source_or_observable_prediction_constraints": 0,
         "net_choices_minus_new_compatibility_bundles": 0,
         "net_choices_minus_new_prediction_constraints": 0,
         "counts_provisional_until_new_bundle_accepted": false,
-        "baseline_note": "No new choice, full viability bundle, source-selected prediction or physical stability credit. Symmetry compatibility is a property of an existing bundle."
+        "baseline_note": "No added family, full viability bundle, source prediction or choice reduction. The conditional mass-shell requirement does not supply a physical domain."
       },
       "drift_assessment": {
         "numeric_growth_signal": false,
         "numeric_basis": "0 new choices/0 newly satisfied full viability bundles; inventory10/4/bookkeepingnet6 unchanged.",
         "functional_warning": "Unfalsifiability drift risk: a whole observed dispersion function remains freely selectable despite exact equations and positivity; mathematical compatibility improves but predictive underdetermination is not reduced.",
         "scope": "Warning about the unconstrained candidate-completion strategy, not proof GU is unfalsifiable and not a source/ledger verdict.",
-        "continuation": "Evaluate the full reduced force j_R-D^dagger M^-1 j_N, including lower and moving-coefficient terms, at transfer frequencies already in K-K with the existing normal profile. Nonzero pointwise auxiliary work does not identify negative forced-response energy. Full auxiliary regularity, admissible propagation and physical quotient remain distinct burdens; higher derived graph domains are still uncovered. No new completion is selected.",
+        "continuation": "Compare source-accessible normal jets/weak adjoint goals with independent actual Lorentz-domain compatibility; do not add arbitrary completions or a full inverse backlog.",
         "prediction_growth_signal": false,
-        "prediction_basis": "Full PT imposes no selection of the held real dispersion; zero source-selected predictions remains."
+        "prediction_basis": "The free dispersion remains unselected; a conditional boost law is not a source-selected prediction."
       },
       "dependency_summary": [
         "Core geometry/operator/coupling/domain -> local stationary backgrounds.",
@@ -4197,6 +4282,49 @@
             "continuation": "Evaluate the full reduced force j_R-D^dagger M^-1 j_N, including lower and moving-coefficient terms, at transfer frequencies already in K-K with the existing normal profile. Nonzero pointwise auxiliary work does not identify negative forced-response energy. Full auxiliary regularity, admissible propagation and physical quotient remain distinct burdens; higher derived graph domains are still uncovered. No new completion is selected.",
             "prediction_growth_signal": false,
             "prediction_basis": "Full PT imposes no selection of the held real dispersion; zero source-selected predictions remains."
+          }
+        },
+        {
+          "date": "2026-11-26",
+          "evidence": "explorations/conditional-build/source-action-receiver-strategy-2026-11-26.md",
+          "snapshot": {
+            "core_candidate_families": 5,
+            "diagnostic_completion_families": 5,
+            "active_total_families": 10,
+            "pending_families": 2,
+            "comparator_only_families": 1,
+            "parked_families": 1,
+            "unselected_function_family": "observed-dispersion",
+            "source_or_observable_predictions_fixed": 0,
+            "independent_mathematical_obligation_bundles": 4,
+            "net_families_minus_mathematical_bundles": 6
+          },
+          "delta": {
+            "baseline_active_family_count": 10,
+            "current_active_family_count": 10,
+            "newly_introduced_families": [],
+            "newly_exposed_live_function_freedom": [],
+            "replaced_or_refined_families": [],
+            "constrained_categories": [
+              "Both owned quadratic dispersion witnesses fail local boost tangency under the stated C1 physical-covariance interpretation.",
+              "Normal highest-spin7 energy channels exist but canonical seed current is blind.",
+              "Trace-isotropic auxiliary receiver image is not square-zero; exactrealspan32 has no automatic dynamic closure."
+            ],
+            "new_independent_mathematical_compatibility_bundles": 0,
+            "new_source_or_observable_prediction_constraints": 0,
+            "net_choices_minus_new_compatibility_bundles": 0,
+            "net_choices_minus_new_prediction_constraints": 0,
+            "counts_provisional_until_new_bundle_accepted": false,
+            "baseline_note": "No added family, full viability bundle, source prediction or choice reduction. The conditional mass-shell requirement does not supply a physical domain."
+          },
+          "drift_assessment": {
+            "numeric_growth_signal": false,
+            "numeric_basis": "0 new choices/0 newly satisfied full viability bundles; inventory10/4/bookkeepingnet6 unchanged.",
+            "functional_warning": "Unfalsifiability drift risk: a whole observed dispersion function remains freely selectable despite exact equations and positivity; mathematical compatibility improves but predictive underdetermination is not reduced.",
+            "scope": "Warning about the unconstrained candidate-completion strategy, not proof GU is unfalsifiable and not a source/ledger verdict.",
+            "continuation": "Compare source-accessible normal jets/weak adjoint goals with independent actual Lorentz-domain compatibility; do not add arbitrary completions or a full inverse backlog.",
+            "prediction_growth_signal": false,
+            "prediction_basis": "The free dispersion remains unselected; a conditional boost law is not a source-selected prediction."
           }
         }
       ],

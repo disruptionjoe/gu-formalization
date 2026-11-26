@@ -140,6 +140,83 @@ program_focus:
     covered; source relevance separately from mathematical breadth; shared prerequisite if any; remaining
     cost; strongest eligible alternative. A blocked high-value target is not an eligible alternative without
     its missing input. Reuse completed theorems and compare only their uncovered successors.'
+source_action_receiver_strategy_2026_11_26:
+  authority: joe_direct_chat_2026_11_26_math20_approaches_and_low_hanging_fruit
+  status: internal_reviewed_T1_scoped_conditions_T2_native_receiver_T3_scaffold
+  actual_delta: Normal scalar covectors have both principal-energy signs at both roots, but their highest-spin7
+    connection sector is blind to the canonical seed current. The covered auxiliary receiver image has
+    exact real dimension32 and is not square-zero. Full spacetime essential transfer support, a conditional
+    boost law and goal-oriented adjoint reduction sharpen the next tests.
+  evidence:
+  - explorations/conditional-build/source-action-receiver-strategy-2026-11-26.md
+  - lab/process/source-action-receiver-strategy.json
+  - lab/process/source-action-math20-approaches-2026-11-26.json
+  - tests/program-focus/source_action_receiver_strategy_probe.py
+  - Lean/GUFormalization/ReceiverStrategy.lean
+  - lab/process/hostile-reviews/2026-11-26-source-action-receiver-strategy-review.md
+  next_directed_worksets:
+  - step: 5p
+    status: ready
+    title: Actual Hermitian/polarized paired-current normal jet
+    target: LB-CLASS
+    tier: T2; T1 for a class exclusion
+    expected_delta: Determine whether the fixed actual CK normal evolution opens the highest-spin7 seed-blind
+      receiver and identify the first sourced blocks.
+    premises:
+    - Canonical I, q, both roots and existing paired CK construction
+    - Actual coefficient derivatives, row and column CK equations, normal transport of u
+    - Physical imaginary variation, +i dual phase and full Hermitian/polarized current
+    - Essential spacetime transfer support of the held bounded measurable dispersion; normal profile retained
+    output: Exact coefficients in k,l,omega(k),omega(l) and root balls, with the same Gram bound; raw/nonphysical/omitted-row
+      controls.
+    kill_condition: Only an invariant all-jet blindness theorem closes this receiver class; a zero first
+      jet does not. A raw nonzero derivative is not sourcing.
+    cost: One focused run using owned geometry, no added completion.
+    strongest_alternative: 5r independent Lorentz-domain compatibility audit.
+    source_bridge: absent for candidate necessity; conditional physical relevance
+  - step: 5q
+    status: ready on existing horizontal channel; normal channel depends on5p
+    title: One full weak adjoint receiver and minimal descriptor closure
+    target: LB-CLASS
+    tier: T2
+    expected_delta: Compute the actual reduced current on one typed test without a full49154 inverse;
+      expose only indispensable additional blocks.
+    premises:
+    - Actual lower/moving/density terms, action pairing and full residual
+    - Source compatibility with kernel if auxiliary block is singular
+    - Covered32-image is only spin6/lowered7 auxiliary section receiver; test leakage
+    - Same essential difference graph and fixed normal profile
+    output: Exact scalar receiver/adjoint residual and source-generated block adjacency; conditional forced-response
+      energy only after owned evolution.
+    kill_condition: Nonclosure names an indispensable block; nonzero work alone does not establish a negative
+      forced response or ghost.
+    cost: One run if existing blocks close; otherwise exact expansion burden.
+    strongest_alternative: 5p current jet or independent5r.
+    source_bridge: absent for candidate necessity
+  - step: 5r
+    status: ready; independent parallel investigation
+    title: Actual Lorentz compatibility of the existing state/readout domain
+    target: LB-CLASS
+    tier: T2; T1 for an internal category exclusion
+    expected_delta: Identify which CK surface, normal tube, paired graph or Gram condition supplies or
+      breaks observed covariance; conditional dispersion is already narrowed to a mass-shell constant.
+    premises:
+    - Owned homogeneous root and section I/q covariance
+    - C1 assumption only for the local boost law, not retroactively all measurable dispersions
+    - Finite spectral window is not claimed globally boost invariant
+    - Do not choose a new mass law, seed, tube or physical quotient
+    output: Exact infinitesimal covariance defects/conditions with source-asserted, source-constrained
+      and repository choices separate.
+    kill_condition: Failure excludes that domain interpretation, not the diagnostic positivity result
+      or GU. No choice count reduction before the physical premise is established.
+    cost: One focused audit; full global construction is outside this task.
+    strongest_alternative: 5p/5q actual current response.
+    source_bridge: source motivation explicit; source-necessary candidate bridge absent
+  claim_effect: No source/physics/canon/paper or scientific matrix verdict, program_focus or scheduled
+    priority change. Pending ordinary LC retained.
+  choice_budget: 10 grouped families /4 grouped bundles /bookkeepingnet6; no new family, full bundle or
+    source-selected prediction
+  accounting: One directed run59to60/LBCLASS18to19; no bet or shrinkage credit
 source_action_current_receiver_2026_11_26:
   authority: joe_direct_chat_2026_11_26_e_followup_go_current_receiver
   status: internal_T1_symmetry_exclusions_T2_current_and_PT_domain
