@@ -33,6 +33,9 @@ kill_condition: A source contradiction requires nondecoupling on required physic
   from small background to small normalized response.
 ---
 
+**Correction, 2026-11-26:** The explicit Clifford fixture's pairing is PLUS/reversion, not an authenticated source-parent adjoint. Printed eq3.27 uses MINUS/conjugation. Even volume/projector adjoint signs and the scalar sterile-support theorem are unchanged by Hminus=i Hplus Omega; odd witnesses must be rechecked (real c(v) is minus-skew, i c(v) is not). The current/provenance statements retain their declared operator/dual assumptions; no source physical interaction is certified. [Current reconciliation](source-adjoint-spinless-placement-2026-11-26.md).
+
+
 > **GU-COMPARATOR-ROUTING — scope before inference.** This artifact contains or
 > borders a conventional particle-physics comparator. Any result about a
 > standard Higgs/VEV, ordinary family index or net chirality, SO(10) `126`

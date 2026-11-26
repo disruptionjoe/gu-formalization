@@ -6,13 +6,13 @@ created: '2026-11-26'
 program_target: LB-CLASS
 tier: T1
 expected_delta: Complete the previously excluded normal tensor class and actual observation kernel; distinguish
-  source full-U and optional C. Scope actual auxiliary jets.
+  plus/reversion full-U and optional C. Scope actual auxiliary jets.
 actual_delta: 'Complete normal tensor class: block symmetry68 real sharp-skew/32 with optionalC; fixed
   endogenous+weak symmetry4 real full-U/zero with optionalC, with exact observation kernels and ranks.
   Existing certificates realize smooth constrained-Q response; full-R jets reach a new spin4 source. No
   GU verdict.'
 class_covered: "All pointwise real-linear normal one-form tensors N_real\u2192End_C^odd(S128) on the declared\
-  \ K95 split, with source sharp-self Clifford convention and explicitly fixed geometric symmetry actions.\
+  \ K95 split, with plus/reversion sharp-self Clifford convention and explicitly fixed geometric symmetry actions.\
   \ Separate W2 candidate auxiliary diagnostic; neither every source VEV nor all classC."
 premises:
 - explorations/conditional-build/source-reality-mixing-class-2026-11-24.md
@@ -28,13 +28,16 @@ source_bridge:
     simultaneous tensor isotropy or optional C-preservation. Physical fluctuation, domain, normalized
     readout and curvature suppression remain unproved.
 kill_condition: The zero class excludes only nonzero normal tensors satisfying every stated fixed symmetry,
-  source adjoint and optional C condition. Moving reductions, full-U survivors, W2 pairing and GU remain
+  plus/reversion adjoint and optional C condition. Moving reductions, full-U survivors, W2 pairing and GU remain
   outside.
 classification: INTERNAL_STRUCTURAL_ONLY
 target_claim: NONE-NOT-A-KILL
 internal_target: INTERNAL-FIXED-NORMAL-TENSOR-QUATERNIONIC
 canon_verdict_change: none
 ---
+
+**Correction, 2026-11-26:** Sections1–5 below use the PLUS/reversion K95 pairing, incorrectly called source-side in the original version. Printed §3.5 eq3.27 uses MINUS/conjugation. The plus theorem is preserved as a comparator; its optional-C zero is NOT the primary-compatible result. Minus has block C36R/image24/kernel12 and fixed class4R, all C-commuting; C reverses its pairing, so no automatic Sp label. Section6 W2/local-response results are unaffected. See [current reconciliation](source-adjoint-spinless-placement-2026-11-26.md).
+
 
 program_target: LB-CLASS
 tier: T1
@@ -44,7 +47,7 @@ actual_delta: Fixed full-U four-parameter class survives; optional C intersectio
 
 # Normal tensors: which symmetry assumptions actually survive?
 
-**The source full-U convention retains a four-real-parameter normal tensor class under simultaneous fixed endogenous Lorentz and actual geometric weak symmetry. The additional quaternionic-compatible restriction leaves only zero.** A covariant family whose reduction or VEV transforms is a different category and has explicit nonzero counterexamples. This is a conditional internal exclusion, not a falsification of GU.
+**The plus/reversion full-U comparator retains a four-real-parameter normal tensor class under simultaneous fixed endogenous Lorentz and actual geometric weak symmetry. The additional quaternionic-compatible restriction leaves only zero.** A covariant family whose reduction or VEV transforms is a different category and has explicit nonzero counterexamples. This is a conditional internal exclusion, not a falsification of GU.
 
 The calculation covers every complex endomorphism, not a Clifford-degree ansatz. In the weaker block-Lorentz category, observation has a nontrivial coefficient kernel. In the stronger fixed category it is injective. Tensor coefficient dimensions, spinor ranks and physical family counts are different quantities throughout.
 
@@ -60,8 +63,8 @@ The calculation covers every complex endomorphism, not a Clifford-degree ansatz.
 ```gu-typed-objects
 result: complete pointwise normal tensor classes and actual NE contraction
 carrier: geometry-derived K95 branch H3_1 plus N6_4; complex Dirac S128; normal one-form End tensors LAYER=ambient+observed BRIDGE=actual-NE-contraction CHIRALITY=S-FULL-DIRAC
-pairing: source-side indefinite Krein form with c(v)-sharp=plus-c(v); W2 opposite convention separate ON=declared_carrier
-real_structure: optional quaternionic C square minus1, commuting real source Clifford vectors; fullU does not require C preservation
+pairing: plus-comparator indefinite Krein form with c(v)-sharp=plus-c(v); W2 opposite convention separate ON=declared_carrier
+real_structure: optional quaternionic C square minus1, commuting real Clifford vectors; fullU does not require C preservation
 grading: ambient Clifford oddness and horizontal/normal volumes; no physical family identification
 action_owner: source-action primitive NE connection variation; no new action or physical VEV selected
 target: q(alpha nu,0)=(0,GammaN(alpha)nu,0) MAP-TYPE=contraction
@@ -75,7 +78,7 @@ Source relevance is narrower than mathematical breadth. SC-CHI-51/52 motivate op
 
 ## 1. Carriers and exact symmetry action
 
-Use the geometry-derived K95 branch, not an identification with the source-asserted K77. The signature bridge remains open; this calculation does not settle it. At a point fix H(3,1)+N(6,4), S complex128, Omega the real ambient involution, and the nondegenerate K95 source-side Krein pairing. Let C be the fixed quaternionic antilinear structure. Alpha:N_R→End_C(S) is real-linear and ambient-odd: {alpha(n),Omega}=0.
+Use the geometry-derived K95 branch, not an identification with the source-asserted K77. The signature bridge remains open; this calculation does not settle it. At a point fix H(3,1)+N(6,4), S complex128, Omega the real ambient involution, and the nondegenerate K95 plus-comparator Krein pairing. Let C be the fixed quaternionic antilinear structure. Alpha:N_R→End_C(S) is real-linear and ambient-odd: {alpha(n),Omega}=0.
 
 A geometric group element acts on the tensor by
 
@@ -109,7 +112,7 @@ Exact multiplicities and invariant even-form dimensions:
 
 Hence dim_C T_B=68. The real invariant tensor spaces complexify to these modules, so the displayed numbers are also dimensions of the corresponding real coefficient spaces before multiplying by i.
 
-Source pairing: on a real normal k-word, sharp sign is (-1)^(k(k-1)/2). Real omega_H is sharp-self and commutes with normal words. Thus sharp-skew tensors comprise:
+Plus/reversion pairing: on a real normal k-word, sharp sign is (-1)^(k(k-1)/2). Real omega_H is sharp-self and commutes with normal words. Thus sharp-skew tensors comprise:
 
 - imaginary coefficients for k1,5,9;
 - real coefficients for k3,7.
@@ -144,8 +147,8 @@ Thus:
 | category | coefficient dimension | image dimension | kernel dimension |
 |---|---:|---:|---:|
 | complex all-End block-Lorentz×SM | 68 complex | 24 complex | 44 complex |
-| source sharp-skew | 68 real | 44 real | 24 real |
-| source sharp-skew and C-compatible | 32 real | 20 real | 12 real |
+| plus sharp-skew | 68 real | 44 real | 24 real |
+| plus sharp-skew and C-compatible | 32 real | 20 real | 12 real |
 
 Reason for real counts: adjoining odd degrees have opposite coefficient phases (real versus imaginary), so their common even-degree outputs cannot cancel over R. The only kernels in the sharp-real class are the degreewise kernels, total2*(1+3+4+3+1)=24. C restriction retains k3,7 with disjoint even-degree output supports, total kernel2*(3+3)=12, image2*(I2+I4+I6+I8)=20. The C-compatible image consists exactly of real invariant normal degrees2,4,6,8, times1 or omega_H. It excludes scalar and normal-volume output terms. These dimensions concern tensor-coefficient maps, not spinor rank, family counts or physical modes.
 
@@ -165,7 +168,7 @@ Consequences (coefficient equations are also checked in the finite Lean core):
     sharp-skew: A=i(a+b omega_H+c omega_N+d Omega), a,b,c,d real;
     additional [alpha,C]=0: alpha=0.
 
-Thus Category E has4 real source-full-U coefficients; optional C intersection is zero. This zero is a conditional internal tensor-class exclusion, not a source kill. In W2's gamma^sharp=-gamma convention all odd-degree sharp signs reverse, so this zero cannot be transferred there; with the same real Clifford/C laws the four real product tensors survive instead.
+Thus Category E has4 real plus-full-U coefficients; optional C intersection is zero. This zero is a conditional internal tensor-class exclusion, not a source kill. In W2's gamma^sharp=-gamma convention all odd-degree sharp signs reverse, so this zero cannot be transferred there; with the same real Clifford/C laws the four real product tensors survive instead.
 
 The actual contraction is
 
@@ -184,13 +187,13 @@ A normal-only tensor extended by zero on H is not itself an ambient Spin14-equiv
 
 ### Countercontrol: moving reductions survive
 
-Let J select the fixed compact normal color/weak splitting, let omega_c(J) be its real color Kahler2-form, and set theta(J)=omega_c(J) wedge omega_c(J). Then alpha_J(n)=iota_n theta(J) is a nonzero real normal degree3 tensor. It is source-sharp-skew, C-compatible, block-Lorentz scalar and geometricSM-equivariant. Its contraction is4theta(J), not zero. The family transforms covariantly when J transforms; its value at fixed J is not invariant under all endogenous Lorentz transformations. Thus the optional-C zero cannot be applied to a moving-reduction family merely by citing covariance. No such family is adopted as a physical completion here.
+Let J select the fixed compact normal color/weak splitting, let omega_c(J) be its real color Kahler2-form, and set theta(J)=omega_c(J) wedge omega_c(J). Then alpha_J(n)=iota_n theta(J) is a nonzero real normal degree3 tensor. It is plus-sharp-skew, C-compatible, block-Lorentz scalar and geometricSM-equivariant. Its contraction is4theta(J), not zero. The family transforms covariantly when J transforms; its value at fixed J is not invariant under all endogenous Lorentz transformations. Thus the optional-C zero cannot be applied to a moving-reduction family merely by citing covariance. No such family is adopted as a physical completion here.
 
 For the four-parameter fixed full-U class, rank64 occurs precisely when exactly one of (a+d,b-c) and (a-d,b+c) vanishes. Both vanish only at a=b=c=d=0. Otherwise rank128. Each pair corresponds to an entire ambient half, not a selected physical chirality or generation. The exact probe also retains the excluded even-normal vector multiplicities at degrees4/6 and the invariant degree5 volume forms; dropping them is justified by ambient parity, not by claiming they do not exist.
 
 ## 6. Auxiliary response: actual connections matter
 
-This section uses the held W2/K95/full-U candidate and its own **opposite Clifford-adjoint convention**, never the source tensor convention used in sections1–5. Both certified kappa1 homogeneous roots are included. No physical state space is added. The restricted variations below are diagnostic test fields; no source superselection rule is imposed.
+This section uses the held W2/K95/full-U candidate and its own **opposite Clifford-adjoint convention**, never the plus-comparator tensor convention used in sections1–5. Both certified kappa1 homogeneous roots are included. No physical state space is added. The restricted variations below are diagnostic test fields; no source superselection rule is imposed.
 
 Inputs: [affine homogeneous geometry](source-action-homogeneous-analytic-vacuum-2026-11-25.md), [all59 full-Lorentz invariant tensors](source-action-dynamics-and-continuation-2026-11-25.md), [actual closed-time constraints](source-action-kappa1-constraints-2026-11-25.md), [complete6/7 certificates](source-action-reduced-evolution-2026-11-26.md) and [exact120-envelope/scalar response](source-action-weak-response-2026-11-26.md). Their inverses are reused, not recomputed or silently extended.
 
@@ -380,7 +383,7 @@ already owned candidate geometry.
 ## 7. Epistemic status and continuation
 
 - **ESTABLISHED:** the complete fixed tensor spaces, coefficient contraction kernels/images and native finite Clifford controls above, subject to the listed review record. The four full-U survivors are algebraic tensors, not physical states.
-- **RULED OUT:** a nonzero tensor satisfying all fixed endogenous/weak, source-sharp-skew and optional-C conditions simultaneously. It is an internal class exclusion. No source claim is falsified by it.
+- **RULED OUT:** a nonzero tensor satisfying all fixed endogenous/weak, plus-sharp-skew and optional-C conditions simultaneously. It is an internal class exclusion. No source claim is falsified by it.
 - **NOT MODELED / UNDETERMINED:** source selection of fixed versus moving reductions, mandatory C, physical VEV/domain/readout, curvature suppression, and all GU-level consequences. Interpretive architectures remain not modeled, not absent.
 
 The normal finite classification is consumed. Do not restart it as a larger matrix solve, an ordinary Higgs no-go, or a repeated generation count. For the candidate response, the natural moving-Q construction resolves local auxiliary compatibility for the already-tested diagnostic family; full-R jets now have explicit reachedspin4 sources. A new on-shell claim must supply its actual transforming VEV/reduction, operator and observation map. Full-U, moving-reduction and opposite-pairing cases survive with the distinctions above. Existing source-custody and anomaly applicability audits are not reopened without new evidence.

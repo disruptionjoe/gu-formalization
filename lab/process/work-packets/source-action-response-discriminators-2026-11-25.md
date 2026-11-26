@@ -269,3 +269,17 @@ Selection: the exact adjoint shortcut removed a real prerequisite without a whol
 Selection: source spinless placement now ranks ahead on source relevance; reachedspin4 is an executable candidate alternative. Restricted local response no longer waits for fullR inversion. Category theory distinguished fixed tensors from moving families; number theory supplied exact integer charge/parity multiplicities, never a generation count. Quick20 descriptions reused; no per-persona agent or mandatory council.
 
 Directed count67to68/LBCLASS26to27; ordinary pendingLC and program_focus unchanged. Choices10/4/bookkeepingnet6 and source-selected predictions0 unchanged. No governance, scientific ledger/canon/classC or paper effect, and no new waiting checkpoint.
+
+
+## Current correction and continuation: primary adjoint (2026-11-26)
+
+[Result](../../../explorations/conditional-build/source-adjoint-spinless-placement-2026-11-26.md) · [evidence and quick20 descriptions](../source-adjoint-spinless-placement.json). This section supersedes pairing/source labels and the ready spinless item in the previous continuation; history remains readable.
+
+- **Done:** printed source eq3.27 is minus/conjugation, not plus/reversion. Preserve plus optionalCzero as comparator only. Minus fixed class4R survives; block C36R/image24/kernel12. Fixed C is a minus-pairing anti-isometry; no automatic Sp label.
+- **Done at primitive scope:** source grade1 placement through actual exterior Phi with conditional SW and symbolic SE. Literal observation needs f=g=0 for zero-order descent; augmented q retains trace and independent nu. This is not a mass spectrum.
+- **Ready, LB-CLASS/T2:** full-R reachedspin4 receiver or genuine adjoint-cokernel test on W2, with exact operator/pairing and constraints. Expected delta: necessary compatibility or certified candidate obstruction. Kill only on actual incompatible cokernel; an old inverse's missing coverage is not nonexistence. No all-lower-block inverse mandate.
+- **Blocked physical bridge:** authentic common domain/quotient, normalized observation and propagation; do not invent a new completion.
+
+Mandatory basis: Joe directed continuation. Class coverage complete within named finite tensor/operator grammar; source relevance direct for involution and grade1 carrier, conditional for physical conclusions. Shared prerequisite remains source physical operator/readout. Remaining candidate cost is sparse spin4/cokernel evaluation; strongest source-facing alternative needs authentic missing inputs. Old source-attributed optionalC exclusion cannot rank as a source falsifier.
+
+Directed68to69/LBCLASS27to28; choices10/4/net6 and0 source-selected predictions unchanged. No governance, schedule, source/physics/canon/classC verdict or paper effect. No new stop rule.

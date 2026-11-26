@@ -1,0 +1,415 @@
+{
+  "artifact": "source-adjoint-spinless-placement-2026-11-26",
+  "date": "2026-11-26",
+  "authority": "joe_direct_chat_2026_11_26_continued_falsification_math20",
+  "basis_revision": "f754e924e6bdf9c9506a09e1bec2c8248dd6e941",
+  "status": "internally_reviewed_T2",
+  "actual_delta": "Corrected primary Clifford-adjoint attribution: minus adapter has normal optionalC36R/image24/kernel12 and fixed4R C-compatible survivors; plus-comparator optionalCzero retained only in its own pairing. Ordered source spinless insertion computed with independent fields and unresolved arrows explicit. No GU falsifier.",
+  "claim_effect": "No source/physics/canon/classC/scientific-matrix/paper verdict change",
+  "choice_budget_delta": 0,
+  "source_attribution_correction": {
+    "date": "2026-11-26",
+    "basis_revision": "f754e924e6bdf9c9506a09e1bec2c8248dd6e941",
+    "report": "explorations/conditional-build/source-adjoint-spinless-placement-2026-11-26.md",
+    "status": "source_attribution_withdrawn_comparator_theorem_retained",
+    "prior_claim": "Plus/reversion pairing called source-side; optional fixedC zero attributed to that source convention",
+    "corrected_claim": "Corrected primary Clifford-adjoint attribution: minus adapter has normal optionalC36R/image24/kernel12 and fixed4R C-compatible survivors; plus-comparator optionalCzero retained only in its own pairing. Ordered source spinless insertion computed with independent fields and unresolved arrows explicit. No GU falsifier.",
+    "unchanged": "Original plus theorem and its finite Lean core; W2 restricted-Q response; source/physics/canon/classC verdicts",
+    "source_custody": "Printed p23 eq3.27 and Nov13 source-lower-term-compatibility"
+  },
+  "pairing_probe": {
+    "checks": [
+      {
+        "name": "both nondegenerate Hermitian neutral involutions",
+        "passed": true
+      },
+      {
+        "name": "plus comparator vectors selfadjoint",
+        "passed": true
+      },
+      {
+        "name": "primary-compatible vectors skew-adjoint",
+        "passed": true
+      },
+      {
+        "name": "fixed C quaternionic and real-Clifford commuting",
+        "passed": true
+      },
+      {
+        "name": "C isometry only for plus; anti-isometry for minus",
+        "passed": true
+      },
+      {
+        "name": "grade0 both adjoint laws",
+        "passed": true
+      },
+      {
+        "name": "grade1 both adjoint laws",
+        "passed": true
+      },
+      {
+        "name": "grade2 both adjoint laws",
+        "passed": true
+      },
+      {
+        "name": "grade3 both adjoint laws",
+        "passed": true
+      },
+      {
+        "name": "grade4 both adjoint laws",
+        "passed": true
+      },
+      {
+        "name": "grade5 both adjoint laws",
+        "passed": true
+      },
+      {
+        "name": "grade6 both adjoint laws",
+        "passed": true
+      },
+      {
+        "name": "grade7 both adjoint laws",
+        "passed": true
+      },
+      {
+        "name": "grade8 both adjoint laws",
+        "passed": true
+      },
+      {
+        "name": "grade9 both adjoint laws",
+        "passed": true
+      },
+      {
+        "name": "grade10 both adjoint laws",
+        "passed": true
+      },
+      {
+        "name": "grade11 both adjoint laws",
+        "passed": true
+      },
+      {
+        "name": "grade12 both adjoint laws",
+        "passed": true
+      },
+      {
+        "name": "grade13 both adjoint laws",
+        "passed": true
+      },
+      {
+        "name": "grade14 both adjoint laws",
+        "passed": true
+      },
+      {
+        "name": "fixed tensor0 minus-skew plus-self and C-even",
+        "passed": true
+      },
+      {
+        "name": "fixed tensor0 contraction10",
+        "passed": true
+      },
+      {
+        "name": "fixed tensor1 minus-skew plus-self and C-even",
+        "passed": true
+      },
+      {
+        "name": "fixed tensor1 contraction10",
+        "passed": true
+      },
+      {
+        "name": "fixed tensor2 minus-skew plus-self and C-even",
+        "passed": true
+      },
+      {
+        "name": "fixed tensor2 contraction10",
+        "passed": true
+      },
+      {
+        "name": "fixed tensor3 minus-skew plus-self and C-even",
+        "passed": true
+      },
+      {
+        "name": "fixed tensor3 contraction10",
+        "passed": true
+      },
+      {
+        "name": "horizontal real-vector survivor with full contraction4",
+        "passed": true
+      },
+      {
+        "name": "old real-axial witness is minus-self, not minus-skew",
+        "passed": true
+      },
+      {
+        "name": "both horizontal and normal complex grade adjoints unchanged",
+        "passed": true
+      },
+      {
+        "name": "full spinless real vector allowed; imaginary vector excluded in minus",
+        "passed": true
+      },
+      {
+        "name": "full ambient contraction14",
+        "passed": true
+      },
+      {
+        "name": "optional C exact character counts",
+        "passed": true
+      },
+      {
+        "name": "shared full sharp-real dimension68 image44 kernel24",
+        "passed": true
+      },
+      {
+        "name": "literal observation kernel exposes both f and g",
+        "passed": true
+      }
+    ],
+    "optional_C_dimensions": {
+      "plus": [
+        32,
+        20,
+        12
+      ],
+      "minus": [
+        36,
+        24,
+        12
+      ]
+    },
+    "fixed_endogenous_weak": {
+      "plus": [
+        4,
+        0
+      ],
+      "minus": [
+        4,
+        4
+      ]
+    },
+    "horizontal_dimension_each": 12,
+    "scope": "K95 algebra adapter; not K77 equality, Sp pairing, formal barred density, physical mass or GU verdict"
+  },
+  "ordered_placement_probe": {
+    "path": "tests/program-focus/source_spinless_placement_probe.py",
+    "exact_identities": 392,
+    "status": "PASS",
+    "scope": "14x14 C(alpha wedge zeta) and JGammaC blocks; no floating rank"
+  },
+  "independent_review": {
+    "path": "lab/process/hostile-reviews/2026-11-26-source-adjoint-placement-review.md",
+    "pairing_checks": 30,
+    "status": "PASS",
+    "depth": "T2; no new kill; prior finite Lean comparison theorem retained"
+  },
+  "three_state": {
+    "ESTABLISHED": "Corrected primary Clifford-adjoint attribution: minus adapter has normal optionalC36R/image24/kernel12 and fixed4R C-compatible survivors; plus-comparator optionalCzero retained only in its own pairing. Ordered source spinless insertion computed with independent fields and unresolved arrows explicit. No GU falsifier.",
+    "RULED_OUT": "No new source-required class; prior plus/reversion optionalC class only",
+    "NOT_MODELED_UNDETERMINED": "K77/K95 physical transfer, source-selected pairing/domain/VEV/SE, actual physical observation, normalization, propagation and GU verdict"
+  },
+  "math_reassessment": {
+    "method": "One quick root pass over20 mathematical descriptions; no subagent per persona. Concrete independent derivation/reviews are separate, not a vote or20 independent scientists.",
+    "basis": "f754e924e6bdf9c9506a09e1bec2c8248dd6e941",
+    "lenses": [
+      {
+        "id": 1,
+        "specialty": "Representation theory",
+        "delta": "Reuse complete all-End characters; a changed adjoint does not change complex multiplicity."
+      },
+      {
+        "id": 2,
+        "specialty": "Clifford algebra",
+        "delta": "Primary conjugation is not reversion; exact adapter flips odd signs."
+      },
+      {
+        "id": 3,
+        "specialty": "Functional analysis",
+        "delta": "Algebraic pairing adapter supplies no common physical graph domain."
+      },
+      {
+        "id": 4,
+        "specialty": "Constrained PDE",
+        "delta": "Keep full-R compatibility separate from solved restricted-Q constraints."
+      },
+      {
+        "id": 5,
+        "specialty": "Microlocal analysis",
+        "delta": "Primitive lower insertion neither repairs nor changes principal/domain exclusions."
+      },
+      {
+        "id": 6,
+        "specialty": "Hyperbolic equations",
+        "delta": "No local coefficient gives admissible propagated states."
+      },
+      {
+        "id": 7,
+        "specialty": "Observability and control",
+        "delta": "Literal O fails zero-order descent unless f=g=0; augmented q retains hidden trace."
+      },
+      {
+        "id": 8,
+        "specialty": "Symplectic and presymplectic geometry",
+        "delta": "Krein anti-isometry is not a physical symplectic quotient."
+      },
+      {
+        "id": 9,
+        "specialty": "Homological and BRST methods",
+        "delta": "C-commutation is not BRST removal or a source-selected real form."
+      },
+      {
+        "id": 10,
+        "specialty": "Category theory",
+        "delta": "Pairing and anti-linear functor data must travel with the carrier; same Clifford module is not the same structured object."
+      },
+      {
+        "id": 11,
+        "specialty": "Natural differential operators",
+        "delta": "Compute the whole held two-channel family; keep unbuilt Phi and SE symbolic."
+      },
+      {
+        "id": 12,
+        "specialty": "Index theory and K-theory",
+        "delta": "No index or integer observable arises from this rank calculation."
+      },
+      {
+        "id": 13,
+        "specialty": "Anomalies and bordism",
+        "delta": "No new source-asserted anomaly target; prior bounded audit remains consumed."
+      },
+      {
+        "id": 14,
+        "specialty": "Noncompact harmonic analysis",
+        "delta": "No W175 gap or positive-to-Krein spectral transfer reintroduced."
+      },
+      {
+        "id": 15,
+        "specialty": "Krein and spectral theory",
+        "delta": "C changes from pairing isometry to anti-isometry; do not copy Sp32,32."
+      },
+      {
+        "id": 16,
+        "specialty": "Number theory and arithmetic invariants",
+        "delta": "Exact integer character arithmetic gives36=2(4+10+4), not a halving rule or generation count."
+      },
+      {
+        "id": 17,
+        "specialty": "Nonlinear PDE",
+        "delta": "No new nonlinear completion introduced to rescue a candidate."
+      },
+      {
+        "id": 18,
+        "specialty": "Rigorous numerical analysis",
+        "delta": "Keep Clifford-word order; exact checks replace floating rank; use integer-scaled controls."
+      },
+      {
+        "id": 19,
+        "specialty": "Proof engineering and formal methods",
+        "delta": "Existing Lean finite comparator lemma remains true but never authenticated its premise against source."
+      },
+      {
+        "id": 20,
+        "specialty": "Inverse problems and identifiability",
+        "delta": "Source spinless field placement is now consumed; physical selection still needs authentic inputs."
+      }
+    ],
+    "ranking": [
+      {
+        "rank": 1,
+        "task": "primary_adjoint_reconciliation",
+        "status": "done",
+        "reason": "Corrects load-bearing source mismatch before any false exclusion can propagate."
+      },
+      {
+        "rank": 2,
+        "task": "source_spinless_placement",
+        "status": "done_at_primitive_scope",
+        "reason": "Source-named component through actual arrows; stronger source connection than another arbitrary reconstruction."
+      },
+      {
+        "rank": 3,
+        "task": "full_range_auxiliary_spin4",
+        "status": "ready",
+        "reason": "Owned candidate necessary condition; true cokernel needed, no source-wide verdict."
+      }
+    ],
+    "policy_effect": "none"
+  },
+  "next_worksets": [
+    {
+      "id": "full_range_auxiliary_spin4",
+      "status": "ready",
+      "target": "LB-CLASS",
+      "tier": "T2",
+      "task": "Test exact reachedspin4 auxiliary sources or one true adjoint-cokernel pairing before enlarging an inverse",
+      "expected_delta": "Resolve a necessary full-R first-jet compatibility condition; no repeated restricted-Q work",
+      "class_covered": "Held W2/K95 two roots and actual induced full-R jets",
+      "source_bridge": "Candidate-only, source necessity and physical admission unproved",
+      "remaining_cost": "Owned exact spin4 seeds; test true receiver/cokernel before larger inverse, with corrected source/comparator pairing labels",
+      "kill_condition": "Only an incompatible residual paired with an actual cokernel certifies failure; outside the current envelope is not nonexistence"
+    },
+    {
+      "id": "physical_weak_readout",
+      "status": "blocked_on_authentic_admission_and_normalization",
+      "target": "LB-CLASS",
+      "tier": "T2",
+      "task": "Transport the local constrained response to a source-admitted physical observable",
+      "expected_delta": "Actual observable consequence rather than unnormalized local coefficient",
+      "revival_input": "Authenticated common physical domain/quotient, normalized readout and propagation law",
+      "kill_condition": "OldA01 transfer remains inapplicable; inventing a new norm, cutoff or physical completion is not an answer"
+    }
+  ],
+  "source_bridge": {
+    "status": "conditional",
+    "weakest_unproved_link": "Actual source barred-density/physical operator and readout, beyond authenticated involution and grade1 carrier",
+    "source_necessary_exclusion": "absent",
+    "class_C_representativeness": "unchanged/unproved"
+  },
+  "verification": {
+    "native_gates": [
+      {
+        "gate": "program_focus_audit",
+        "exit_code": 0
+      },
+      {
+        "gate": "typed_carrier_declaration_audit",
+        "exit_code": 0
+      },
+      {
+        "gate": "kill_target_claim_audit",
+        "exit_code": 0
+      },
+      {
+        "gate": "frontmatter_status_schema_audit",
+        "exit_code": 0
+      },
+      {
+        "gate": "source_native_comparator_routing_audit",
+        "exit_code": 0
+      },
+      {
+        "gate": "lean_certificate_surface_audit",
+        "exit_code": 0
+      },
+      {
+        "gate": "current_state_absolute_currency_audit",
+        "exit_code": 0
+      }
+    ],
+    "full_project_Lean_build": "not rerun; no mathematical Lean change, only comparator premise labels",
+    "routing_scope": "Internal Clifford pairing comparison, outside derived listed particle-physics comparator registry; explicit routing notice retained, audit passes without scope/policy change."
+  },
+  "current_sha256": {
+    "explorations/conditional-build/source-adjoint-spinless-placement-2026-11-26.md": "23363899cc268910aef10f8edf353352d414075946562611921914d644455908",
+    "tests/program-focus/source_adjoint_spinless_probe.py": "6f1ea621320ee89089b5c3802d8e010f600481c68c7f2001c7c27f06b50c3cfa",
+    "tests/program-focus/source_spinless_placement_probe.py": "9b74b92d6e042f685c7ff435480fe53c6d6360ec41c1dd70272137ceef42740d",
+    "lab/process/hostile-reviews/2026-11-26-source-adjoint-placement-review.md": "6ccc3c2e45d30f2c22e8903506463a9261723c5ee662be55f9ecd0ab5a8d9d30",
+    "explorations/conditional-build/source-normal-tensor-class-2026-11-26.md": "3165dbce2f03378b5166704fd7a7ad1d54992650825b51e4ac10cfb85389b492",
+    "Lean/GUFormalization/NormalTensorClass.lean": "e2ca966d8c84ebf91252eabd7108f159445265071eb11108df6a5d0174973620"
+  },
+  "input_sha256": {
+    "explorations/conditional-build/source-lower-term-compatibility-2026-11-13.md": "6fa4367f865d97a9b0b0668d2488d063224bc2d3b8be96c95da6b8ed45f824bf",
+    "explorations/conditional-build/source-exterior-connection-2026-11-13.md": "23851602d6d7b154386eac3ade598aa266c023b7a520b66b5adfd521b909ee0d",
+    "lab/sources/gu-2021-draft-s9-fermionic-operator-extraction-2026-08-04.md": "c250ce367774ff593255cd211e18ea793dd3eddcd843e0520437b6d645a2c31b",
+    "lab/sources/source-claim-register.yaml": "dc3ae173b4cc0eb2a0e343e3d92d5f110b8e4f6eef3e2852a1e897ab4371ade6",
+    "GEOMETER-VS-PHYSICS-OBJECTS.md": "eb085d6f89b7f5b49f4f330ea73e4969b6688349ee5046f85c2c754864851bd4"
+  }
+}

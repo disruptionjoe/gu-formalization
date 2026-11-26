@@ -1788,7 +1788,7 @@
     },
     "LB-CLASS": {
       "zero_delta_streak": 0,
-      "runs": 27,
+      "runs": 28,
       "status": "open"
     },
     "LB-LADDER": {
@@ -2368,7 +2368,7 @@
       "target": "X-P1-P2",
       "previous_status": "constrained",
       "status": "constrained",
-      "actual_delta": "Full source-shaped raw symbols require six spinor-rank autonomous outputs retaining literal observation and independent trace/scalar data; the prior five-spinor projected survivor discards a visible channel. In the natural two-channel category, complete chiral stability conditions P_+=P_-=0 admit a zero-southeast mixed subfamily c_±=-a_±/12. The older wedge-only Ward/K filter is an additional predicate, not a source law. No source-selected action or full-C realization follows.",
+      "actual_delta": "Full source-shaped raw symbols require six spinor-rank autonomous outputs retaining literal observation and independent trace/scalar data; the prior five-spinor projected survivor discards a visible channel. In the natural two-channel category, complete chiral stability conditions P_+=P_-=0 admit a zero-southeast mixed subfamily c_\u00b1=-a_\u00b1/12. The older wedge-only Ward/K filter is an additional predicate, not a source law. No source-selected action or full-C realization follows.",
       "evidence": [
         "explorations/conditional-build/source-symbol-quotient-membership-2026-11-12.md",
         "explorations/conditional-build/source-current-grading-membership-2026-11-12.md",
@@ -2707,7 +2707,7 @@
   ],
   "program_run_counter": {
     "since": "2026-11-09",
-    "count": 68,
+    "count": 69,
     "rule": "Every hourly run increments this in its postflight, whatever its lane. Lane C runs when count % 4 == 3 before the increment."
   },
   "working_rule": "Cells are worked at the structure level: a requirement must hold for every action in class C or for a structurally defined subfamily. No cell is worked by writing down a specific action, and no gated cell is worked by building its gate object. See CURRENT-STATE.yaml program_focus.structure_not_specifics.",
@@ -3152,6 +3152,21 @@
         "lab/process/source-normal-tensor-class.json"
       ],
       "claim_effect": "No source, canon, physics, classC, scientific cell or paper verdict change"
+    },
+    {
+      "date": "2026-11-26",
+      "authority": "joe_direct_chat_2026_11_26_continued_falsification_math20",
+      "item": "Primary adjoint reconciliation and ordered spinless placement",
+      "tier": "T2_T3_correction",
+      "counter_before": 68,
+      "counter_after": 69,
+      "lane": "LB-CLASS",
+      "actual_delta": "Corrected primary Clifford-adjoint attribution: minus adapter has normal optionalC36R/image24/kernel12 and fixed4R C-compatible survivors; plus-comparator optionalCzero retained only in its own pairing. Ordered source spinless insertion computed with independent fields and unresolved arrows explicit. No GU falsifier.",
+      "evidence": [
+        "explorations/conditional-build/source-adjoint-spinless-placement-2026-11-26.md",
+        "lab/process/source-adjoint-spinless-placement.json"
+      ],
+      "claim_effect": "No source/physics/canon/classC/scientific-matrix/paper verdict change"
     }
   ],
   "directed_lc_carry_2026_11_24_b": {
@@ -3345,13 +3360,25 @@
           "explorations/conditional-build/source-reality-mixing-class-2026-11-24.md",
           "explorations/conditional-build/source-premise-custody-2026-11-25.md",
           "explorations/conditional-build/source-normal-tensor-class-2026-11-26.md",
-          "lab/process/source-normal-tensor-class.json"
+          "lab/process/source-normal-tensor-class.json",
+          "explorations/conditional-build/source-adjoint-spinless-placement-2026-11-26.md",
+          "lab/process/source-adjoint-spinless-placement.json"
         ],
         "normal_tensor_update": {
-          "fixed_fullU": "4real coefficients; normal contraction injective",
-          "fixed_optionalC": "zero only under simultaneous fixed geometric symmetries and source pairing",
-          "moving_reduction": "Explicit nonzero C-compatible covariant family survives",
-          "source_selection": "not supplied; no low-curvature physical suppression verdict"
+          "plus_comparator": "Fixed4R sharp/0R optionalC; block68R/32R",
+          "primary_minus_adapter": "Fixed4R allC; block68R/36R, C anti-isometry; no Sp transfer",
+          "moving_reduction": "Both categories admit separately typed controls",
+          "source_selection": "Physical fixed symmetry/VEV/readout remains unprovided"
+        },
+        "primary_adjoint_correction": {
+          "date": "2026-11-26",
+          "basis_revision": "f754e924e6bdf9c9506a09e1bec2c8248dd6e941",
+          "report": "explorations/conditional-build/source-adjoint-spinless-placement-2026-11-26.md",
+          "status": "source_attribution_withdrawn_comparator_theorem_retained",
+          "prior_claim": "Plus/reversion pairing called source-side; optional fixedC zero attributed to that source convention",
+          "corrected_claim": "Corrected primary Clifford-adjoint attribution: minus adapter has normal optionalC36R/image24/kernel12 and fixed4R C-compatible survivors; plus-comparator optionalCzero retained only in its own pairing. Ordered source spinless insertion computed with independent fields and unresolved arrows explicit. No GU falsifier.",
+          "unchanged": "Original plus theorem and its finite Lean core; W2 restricted-Q response; source/physics/canon/classC verdicts",
+          "source_custody": "Printed p23 eq3.27 and Nov13 source-lower-term-compatibility"
         }
       },
       {
@@ -3480,7 +3507,9 @@
           "explorations/conditional-build/source-action-weak-response-2026-11-26.md",
           "lab/process/source-action-weak-response.json",
           "explorations/conditional-build/source-normal-tensor-class-2026-11-26.md",
-          "lab/process/source-normal-tensor-class.json"
+          "lab/process/source-normal-tensor-class.json",
+          "explorations/conditional-build/source-adjoint-spinless-placement-2026-11-26.md",
+          "lab/process/source-adjoint-spinless-placement.json"
         ],
         "choices": "Historical original choices are retained below; current held fermion repair is SE=-1/2 (SE0 superseded), kappa1 with two unselected roots. Typed candidate_choice_budget separates core/completion/pending/comparator/parked choices.",
         "wave2_update": {
@@ -3489,7 +3518,7 @@
             "explorations/conditional-build/source-action-wave2-specialist-assessment-2026-11-25.md",
             "lab/process/source-action-wave2.json"
           ],
-          "completion": "SE−1/2 repairs chosen principal defect; source/current/decoder retained. Formal nonlinear all-component connection branch exists.",
+          "completion": "SE\u22121/2 repairs chosen principal defect; source/current/decoder retained. Formal nonlinear all-component connection branch exists.",
           "remaining": "Actual printed endpoint identification, convergence/stationary metric+matter, charged boundary, physical gauge/domain and family receiver are not proved.",
           "assumption_status": "reconstructed source-admitted choice; no source selection, not a class-C witness"
         },
@@ -3678,7 +3707,7 @@
             {
               "step": "5q",
               "status": "scoping and first-shell tests done; full weak scalar remains open",
-              "result": "Full lower source stays in highest7; generic normal sources reachspin5;2→95 common-family first shell, actual2-span failsbothroots.",
+              "result": "Full lower source stays in highest7; generic normal sources reachspin5;2\u219295 common-family first shell, actual2-span failsbothroots.",
               "successor": "5q.1"
             },
             {
@@ -3929,18 +3958,6 @@
           "source_action_necessity": "unproved",
           "next": [
             {
-              "id": "source_spinless_placement",
-              "status": "ready_for_bounded_finite_map",
-              "target": "LB-CLASS",
-              "tier": "T2",
-              "task": "Compose the source-named full-ambient grade1 spinless connection component with the actually printed operator/observation maps, retaining free or unbuilt cells symbolically",
-              "expected_delta": "Exact placement or missing coefficient/map, and whether source covariance needs a transforming reduction; no new action or VEV choice",
-              "class_covered": "Source-typed primitive spinless tensor component, not every physical fluctuation",
-              "source_bridge": "SC-MAS-02 explicitly names the component; full operator/reduction and physical role remain conditional",
-              "remaining_cost": "One finite symbolic placement audit; reuse source custody and current normal classification",
-              "kill_condition": "Only an authenticated required map can support a source exclusion; absence of an unbuilt coefficient is not failure"
-            },
-            {
               "id": "full_range_auxiliary_spin4",
               "status": "ready",
               "target": "LB-CLASS",
@@ -3949,7 +3966,7 @@
               "expected_delta": "Resolve a necessary full-R first-jet compatibility condition; no repeated restricted-Q work",
               "class_covered": "Held W2/K95 two roots and actual induced full-R jets",
               "source_bridge": "Candidate-only, source necessity and physical admission unproved",
-              "remaining_cost": "Exact sparse seeds owned; receiver closure cost unmeasured",
+              "remaining_cost": "Owned exact spin4 seeds; test true receiver/cokernel before larger inverse, with corrected source/comparator pairing labels",
               "kill_condition": "Only an incompatible residual paired with an actual cokernel certifies failure; outside the current envelope is not nonexistence"
             },
             {
@@ -3963,6 +3980,16 @@
               "kill_condition": "OldA01 transfer remains inapplicable; inventing a new norm, cutoff or physical completion is not an answer"
             }
           ]
+        },
+        "primary_adjoint_correction": {
+          "date": "2026-11-26",
+          "basis_revision": "f754e924e6bdf9c9506a09e1bec2c8248dd6e941",
+          "report": "explorations/conditional-build/source-adjoint-spinless-placement-2026-11-26.md",
+          "status": "source_attribution_withdrawn_comparator_theorem_retained",
+          "prior_claim": "Plus/reversion pairing called source-side; optional fixedC zero attributed to that source convention",
+          "corrected_claim": "Corrected primary Clifford-adjoint attribution: minus adapter has normal optionalC36R/image24/kernel12 and fixed4R C-compatible survivors; plus-comparator optionalCzero retained only in its own pairing. Ordered source spinless insertion computed with independent fields and unresolved arrows explicit. No GU falsifier.",
+          "unchanged": "Original plus theorem and its finite Lean core; W2 restricted-Q response; source/physics/canon/classC verdicts",
+          "source_custody": "Printed p23 eq3.27 and Nov13 source-lower-term-compatibility"
         }
       }
     ],
@@ -5057,7 +5084,7 @@
       {
         "id": "directed_offsection_followthrough_2026_11_25",
         "status": "consumed_in_local_coefficient_scope",
-        "original_direction": "Finish the prior metric-response follow-through, then assess the new completeness proposal before executing its steps1–3.",
+        "original_direction": "Finish the prior metric-response follow-through, then assess the new completeness proposal before executing its steps1\u20133.",
         "evidence": [
           "explorations/conditional-build/source-action-offsection-metric-2026-11-25.md",
           "lab/process/source-action-offsection-metric.json",

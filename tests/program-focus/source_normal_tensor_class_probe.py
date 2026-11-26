@@ -1,6 +1,9 @@
 #!/usr/bin/env python3
 """Exact finite controls for the normal-tensor classification.
 
+Correction 2026-11-26: this legacy fixture tests the PLUS/reversion comparator,
+not printed source eq3.27. See source_adjoint_spinless_probe.py for both pairings.
+
 The written proof supplies Lie generation, complete reducibility and the
 real-form argument. These finite checks neither construct a physical VEV nor
 certify a source action. Matrices are binary-exact Clifford fixtures, not

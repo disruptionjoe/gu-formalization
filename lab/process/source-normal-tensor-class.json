@@ -3,8 +3,8 @@
   "date": "2026-11-26",
   "authority": "joe_direct_chat_2026_11_26_continued_falsification_math20",
   "basis_revision": "736d965e076a82608cc8f2d1ca2016612de4142c",
-  "status": "internally_reviewed_T1_optional_class_T2_local_response",
-  "actual_delta": "Complete normal tensor class: block symmetry68 real sharp-skew/32 with optionalC; fixed endogenous+weak symmetry4 real full-U/zero with optionalC, with exact observation kernels and ranks. Existing certificates realize smooth constrained-Q response; full-R jets reach a new spin4 source. No GU verdict.",
+  "status": "plus_comparator_T1_retained_source_attribution_corrected",
+  "actual_delta": "Corrected primary Clifford-adjoint attribution: minus adapter has normal optionalC36R/image24/kernel12 and fixed4R C-compatible survivors; plus-comparator optionalCzero retained only in its own pairing. Ordered source spinless insertion computed with independent fields and unresolved arrows explicit. No GU falsifier. Earlier auxiliary response unchanged.",
   "claim_effect": "No source, canon, physics, classC, scientific cell or paper verdict change",
   "choice_budget_delta": 0,
   "exact_probe": {
@@ -2067,8 +2067,8 @@
     }
   },
   "scope": {
-    "normal": "Pointwise fixed geometric tensor actions; source adjoint convention; fullU and optionalC separate",
-    "auxiliary": "W2 opposite pairing; natural movingQ constrained test variations, not fullR equations/physical state space",
+    "normal": "Explicit plus/reversion comparator; primary minus-adjoint correction in explorations/conditional-build/source-adjoint-spinless-placement-2026-11-26.md",
+    "auxiliary": "W2 minus pairing, opposite to plus comparator; shared sign is not full source identification",
     "weakest_source_link": "Fixed-versus-moving physical reduction, C necessity and physical observation/propagation unproved",
     "source_necessary_exclusion": "absent",
     "class_C_representativeness": "unproved, existing width-test status unchanged"
@@ -2209,18 +2209,6 @@
   },
   "next_worksets": [
     {
-      "id": "source_spinless_placement",
-      "status": "ready_for_bounded_finite_map",
-      "target": "LB-CLASS",
-      "tier": "T2",
-      "task": "Compose the source-named full-ambient grade1 spinless connection component with the actually printed operator/observation maps, retaining free or unbuilt cells symbolically",
-      "expected_delta": "Exact placement or missing coefficient/map, and whether source covariance needs a transforming reduction; no new action or VEV choice",
-      "class_covered": "Source-typed primitive spinless tensor component, not every physical fluctuation",
-      "source_bridge": "SC-MAS-02 explicitly names the component; full operator/reduction and physical role remain conditional",
-      "remaining_cost": "One finite symbolic placement audit; reuse source custody and current normal classification",
-      "kill_condition": "Only an authenticated required map can support a source exclusion; absence of an unbuilt coefficient is not failure"
-    },
-    {
       "id": "full_range_auxiliary_spin4",
       "status": "ready",
       "target": "LB-CLASS",
@@ -2229,7 +2217,7 @@
       "expected_delta": "Resolve a necessary full-R first-jet compatibility condition; no repeated restricted-Q work",
       "class_covered": "Held W2/K95 two roots and actual induced full-R jets",
       "source_bridge": "Candidate-only, source necessity and physical admission unproved",
-      "remaining_cost": "Exact sparse seeds owned; receiver closure cost unmeasured",
+      "remaining_cost": "Owned exact spin4 seeds; test true receiver/cokernel before larger inverse, with corrected source/comparator pairing labels",
       "kill_condition": "Only an incompatible residual paired with an actual cokernel certifies failure; outside the current envelope is not nonexistence"
     },
     {
@@ -2244,8 +2232,8 @@
     }
   ],
   "three_state": {
-    "ESTABLISHED": "Complete normal tensor class: block symmetry68 real sharp-skew/32 with optionalC; fixed endogenous+weak symmetry4 real full-U/zero with optionalC, with exact observation kernels and ranks. Existing certificates realize smooth constrained-Q response; full-R jets reach a new spin4 source. No GU verdict.",
-    "RULED_OUT": "Nonzero tensor in fixed endogenous+weak+source-sharp+optionalC class only.",
+    "ESTABLISHED": "Prior plus-comparator classification and localQ response, with current correction above",
+    "RULED_OUT": "Nonzero fixed endogenous+weak+PLUS/reversion+optionalC tensor only; not primary-compatible minus class",
     "NOT_MODELED_UNDETERMINED": "Source selection of fixed symmetry/C, physical fluctuation/domain/normalization, propagated ghosts and GU verdict."
   },
   "verification": {
@@ -2315,5 +2303,19 @@
     "tests/program-focus/source_action_deep_algebra.py": "4e3800131049e2b397bbce6106bfc5766d2f5fbf996319c50942f3b805d65598",
     "lab/sources/source-claim-register.yaml": "dc3ae173b4cc0eb2a0e343e3d92d5f110b8e4f6eef3e2852a1e897ab4371ade6",
     "GEOMETER-VS-PHYSICS-OBJECTS.md": "eb085d6f89b7f5b49f4f330ea73e4969b6688349ee5046f85c2c754864851bd4"
-  }
+  },
+  "source_attribution_correction": {
+    "date": "2026-11-26",
+    "basis_revision": "f754e924e6bdf9c9506a09e1bec2c8248dd6e941",
+    "report": "explorations/conditional-build/source-adjoint-spinless-placement-2026-11-26.md",
+    "status": "source_attribution_withdrawn_comparator_theorem_retained",
+    "prior_claim": "Plus/reversion pairing called source-side; optional fixedC zero attributed to that source convention",
+    "corrected_claim": "Corrected primary Clifford-adjoint attribution: minus adapter has normal optionalC36R/image24/kernel12 and fixed4R C-compatible survivors; plus-comparator optionalCzero retained only in its own pairing. Ordered source spinless insertion computed with independent fields and unresolved arrows explicit. No GU falsifier.",
+    "unchanged": "Original plus theorem and its finite Lean core; W2 restricted-Q response; source/physics/canon/classC verdicts",
+    "source_custody": "Printed p23 eq3.27 and Nov13 source-lower-term-compatibility"
+  },
+  "next_worksets_history": {
+    "source_spinless_placement": "Consumed at primitive scope by explorations/conditional-build/source-adjoint-spinless-placement-2026-11-26.md"
+  },
+  "historical_verification_notice": "Original probe/review/hash snapshots below refer to prior commit; new correction replay and current artifact hashes are in lab/process/source-adjoint-spinless-placement.json"
 }

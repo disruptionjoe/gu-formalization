@@ -1,5 +1,7 @@
 # Independent review: normal tensor class and restricted local response
 
+**Later correction:** The mathematical reviews below verified the declared plus/reversion pairing. They did not authenticate its original source label, which was wrong: printed eq3.27 is minus/conjugation. Their plus theorem and auxiliary review survive; source transfer of the optional-C zero is withdrawn. See [correction review](2026-11-26-source-adjoint-placement-review.md).
+
 Basis: GU736d965e076a82608cc8f2d1ca2016612de4142c. Internal review only, not external expert validation. Normal tensor classification has two independent mathematical reviewers and one hostile source reviewer; its author did not review that theorem. The auxiliary theorem has a separate independent mathematical reviewer; its author did not independently review it. Lean proves only the stated finite coefficient core.
 
 ## Integration and corrections

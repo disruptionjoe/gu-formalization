@@ -23,8 +23,8 @@
   "lenses": [
     {
       "id": "MATH-01",
-      "theory_lens": "Symplectic geometry — preserve the physical data, not only the equations",
-      "engineering_counterpart": "Variational integrator engineer — transport the boundary data",
+      "theory_lens": "Symplectic geometry \u2014 preserve the physical data, not only the equations",
+      "engineering_counterpart": "Variational integrator engineer \u2014 transport the boundary data",
       "opportunity": "O02",
       "theory_ref": "lab/process/assessments/2026-11-25-source-action-panels/theory-math.md",
       "engineering_ref": "lab/process/assessments/2026-11-25-source-action-panels/engineering-math.md",
@@ -33,8 +33,8 @@
     },
     {
       "id": "MATH-02",
-      "theory_lens": "Path-integral mathematics — the finite-dimensional Jacobian may be the easy part",
-      "engineering_counterpart": "Quantum symbolic-computation engineer — close the small Jacobian question",
+      "theory_lens": "Path-integral mathematics \u2014 the finite-dimensional Jacobian may be the easy part",
+      "engineering_counterpart": "Quantum symbolic-computation engineer \u2014 close the small Jacobian question",
       "opportunity": "O03",
       "theory_ref": "lab/process/assessments/2026-11-25-source-action-panels/theory-math.md",
       "engineering_ref": "lab/process/assessments/2026-11-25-source-action-panels/engineering-math.md",
@@ -43,8 +43,8 @@
     },
     {
       "id": "MATH-03",
-      "theory_lens": "Category and descent theory — distinguish missing state from inconsistent observation",
-      "engineering_counterpart": "Observation-interface engineer — find the first missing datum",
+      "theory_lens": "Category and descent theory \u2014 distinguish missing state from inconsistent observation",
+      "engineering_counterpart": "Observation-interface engineer \u2014 find the first missing datum",
       "opportunity": "O04",
       "theory_ref": "lab/process/assessments/2026-11-25-source-action-panels/theory-math.md",
       "engineering_ref": "lab/process/assessments/2026-11-25-source-action-panels/engineering-math.md",
@@ -53,8 +53,8 @@
     },
     {
       "id": "MATH-04",
-      "theory_lens": "Clifford and representation theory — locate what remains distinctive after normalization",
-      "engineering_counterpart": "Representation-software engineer — identify invariant interaction fingerprints",
+      "theory_lens": "Clifford and representation theory \u2014 locate what remains distinctive after normalization",
+      "engineering_counterpart": "Representation-software engineer \u2014 identify invariant interaction fingerprints",
       "opportunity": "O05",
       "theory_ref": "lab/process/assessments/2026-11-25-source-action-panels/theory-math.md",
       "engineering_ref": "lab/process/assessments/2026-11-25-source-action-panels/engineering-math.md",
@@ -63,8 +63,8 @@
     },
     {
       "id": "MATH-05",
-      "theory_lens": "Microlocal/PDE analysis — test whether a proposed safe sector stays safe",
-      "engineering_counterpart": "PDE-domain engineer — test whether the proposed restriction leaks",
+      "theory_lens": "Microlocal/PDE analysis \u2014 test whether a proposed safe sector stays safe",
+      "engineering_counterpart": "PDE-domain engineer \u2014 test whether the proposed restriction leaks",
       "opportunity": "O06",
       "theory_ref": "lab/process/assessments/2026-11-25-source-action-panels/theory-math.md",
       "engineering_ref": "lab/process/assessments/2026-11-25-source-action-panels/engineering-math.md",
@@ -73,8 +73,8 @@
     },
     {
       "id": "MATH-06",
-      "theory_lens": "Variational bicomplex — ask whether the endpoint needs a multiplier",
-      "engineering_counterpart": "Inverse-variational solver engineer — bound the multiplier escape",
+      "theory_lens": "Variational bicomplex \u2014 ask whether the endpoint needs a multiplier",
+      "engineering_counterpart": "Inverse-variational solver engineer \u2014 bound the multiplier escape",
       "opportunity": "O07",
       "theory_ref": "lab/process/assessments/2026-11-25-source-action-panels/theory-math.md",
       "engineering_ref": "lab/process/assessments/2026-11-25-source-action-panels/engineering-math.md",
@@ -83,8 +83,8 @@
     },
     {
       "id": "MATH-07",
-      "theory_lens": "Derived/BV geometry — count constraints only on a valid background",
-      "engineering_counterpart": "Constraint-system engineer — separate redundancy from unsolved dynamics",
+      "theory_lens": "Derived/BV geometry \u2014 count constraints only on a valid background",
+      "engineering_counterpart": "Constraint-system engineer \u2014 separate redundancy from unsolved dynamics",
       "opportunity": "O08",
       "theory_ref": "lab/process/assessments/2026-11-25-source-action-panels/theory-math.md",
       "engineering_ref": "lab/process/assessments/2026-11-25-source-action-panels/engineering-math.md",
@@ -93,8 +93,8 @@
     },
     {
       "id": "MATH-08",
-      "theory_lens": "Global topology/index theory — the external datum may choose a receiver",
-      "engineering_counterpart": "Index-interface engineer — specify the missing receiver",
+      "theory_lens": "Global topology/index theory \u2014 the external datum may choose a receiver",
+      "engineering_counterpart": "Index-interface engineer \u2014 specify the missing receiver",
       "opportunity": "O09",
       "theory_ref": "lab/process/assessments/2026-11-25-source-action-panels/theory-math.md",
       "engineering_ref": "lab/process/assessments/2026-11-25-source-action-panels/engineering-math.md",
@@ -103,8 +103,8 @@
     },
     {
       "id": "MATH-09",
-      "theory_lens": "Singular perturbation — useful approximation does not require a convergent series",
-      "engineering_counterpart": "Asymptotic-analysis engineer — measure the derivative debt",
+      "theory_lens": "Singular perturbation \u2014 useful approximation does not require a convergent series",
+      "engineering_counterpart": "Asymptotic-analysis engineer \u2014 measure the derivative debt",
       "opportunity": "O10",
       "theory_ref": "lab/process/assessments/2026-11-25-source-action-panels/theory-math.md",
       "engineering_ref": "lab/process/assessments/2026-11-25-source-action-panels/engineering-math.md",
@@ -113,8 +113,8 @@
     },
     {
       "id": "MATH-10",
-      "theory_lens": "Differential geometry/natural operations — search for linked interactions, not isolated terms",
-      "engineering_counterpart": "Effective-interaction engineer — test the linked terms together",
+      "theory_lens": "Differential geometry/natural operations \u2014 search for linked interactions, not isolated terms",
+      "engineering_counterpart": "Effective-interaction engineer \u2014 test the linked terms together",
       "opportunity": "O11",
       "theory_ref": "lab/process/assessments/2026-11-25-source-action-panels/theory-math.md",
       "engineering_ref": "lab/process/assessments/2026-11-25-source-action-panels/engineering-math.md",
@@ -123,8 +123,8 @@
     },
     {
       "id": "DISTRIBUTED-01",
-      "theory_lens": "Distributed consistency / linearizability — Does reduction order matter?",
-      "engineering_counterpart": "Integration-test engineer — reduction order",
+      "theory_lens": "Distributed consistency / linearizability \u2014 Does reduction order matter?",
+      "engineering_counterpart": "Integration-test engineer \u2014 reduction order",
       "opportunity": "O01",
       "theory_ref": "lab/process/assessments/2026-11-25-source-action-panels/theory-distributed.md",
       "engineering_ref": "lab/process/assessments/2026-11-25-source-action-panels/engineering-distributed.md",
@@ -133,8 +133,8 @@
     },
     {
       "id": "DISTRIBUTED-02",
-      "theory_lens": "Byzantine consensus — Find what admissible uncertainty cannot change",
-      "engineering_counterpart": "Adversarial specification engineer — completion robustness",
+      "theory_lens": "Byzantine consensus \u2014 Find what admissible uncertainty cannot change",
+      "engineering_counterpart": "Adversarial specification engineer \u2014 completion robustness",
       "opportunity": "O12",
       "theory_ref": "lab/process/assessments/2026-11-25-source-action-panels/theory-distributed.md",
       "engineering_ref": "lab/process/assessments/2026-11-25-source-action-panels/engineering-distributed.md",
@@ -143,8 +143,8 @@
     },
     {
       "id": "DISTRIBUTED-03",
-      "theory_lens": "Formal protocol refinement — The action may be valuable as a generator of linked couplings",
-      "engineering_counterpart": "Compiler-verification engineer — linked interactions",
+      "theory_lens": "Formal protocol refinement \u2014 The action may be valuable as a generator of linked couplings",
+      "engineering_counterpart": "Compiler-verification engineer \u2014 linked interactions",
       "opportunity": "O11",
       "theory_ref": "lab/process/assessments/2026-11-25-source-action-panels/theory-distributed.md",
       "engineering_ref": "lab/process/assessments/2026-11-25-source-action-panels/engineering-distributed.md",
@@ -153,8 +153,8 @@
     },
     {
       "id": "DISTRIBUTED-04",
-      "theory_lens": "Capability / security authority — Boundary data can change which transformations are redundant",
-      "engineering_counterpart": "Boundary-access-control engineer — permitted transformations",
+      "theory_lens": "Capability / security authority \u2014 Boundary data can change which transformations are redundant",
+      "engineering_counterpart": "Boundary-access-control engineer \u2014 permitted transformations",
       "opportunity": "O13",
       "theory_ref": "lab/process/assessments/2026-11-25-source-action-panels/theory-distributed.md",
       "engineering_ref": "lab/process/assessments/2026-11-25-source-action-panels/engineering-distributed.md",
@@ -163,8 +163,8 @@
     },
     {
       "id": "DISTRIBUTED-05",
-      "theory_lens": "Zero-knowledge proof systems — Seek a finite analytic witness, not more formal coefficients",
-      "engineering_counterpart": "Proof-certificate engineer — finite approximation",
+      "theory_lens": "Zero-knowledge proof systems \u2014 Seek a finite analytic witness, not more formal coefficients",
+      "engineering_counterpart": "Proof-certificate engineer \u2014 finite approximation",
       "opportunity": "O10",
       "theory_ref": "lab/process/assessments/2026-11-25-source-action-panels/theory-distributed.md",
       "engineering_ref": "lab/process/assessments/2026-11-25-source-action-panels/engineering-distributed.md",
@@ -173,8 +173,8 @@
     },
     {
       "id": "DISTRIBUTED-06",
-      "theory_lens": "Cryptographic commitments / type binding — Which apparent choices are actually different physics?",
-      "engineering_counterpart": "Parameter-equivalence engineer — eliminate duplicate choices",
+      "theory_lens": "Cryptographic commitments / type binding \u2014 Which apparent choices are actually different physics?",
+      "engineering_counterpart": "Parameter-equivalence engineer \u2014 eliminate duplicate choices",
       "opportunity": "O14",
       "theory_ref": "lab/process/assessments/2026-11-25-source-action-panels/theory-distributed.md",
       "engineering_ref": "lab/process/assessments/2026-11-25-source-action-panels/engineering-distributed.md",
@@ -183,8 +183,8 @@
     },
     {
       "id": "DISTRIBUTED-07",
-      "theory_lens": "Composable cryptography — Frozen-geometry success can fail under backreaction",
-      "engineering_counterpart": "Coupled-system integration engineer — backreaction",
+      "theory_lens": "Composable cryptography \u2014 Frozen-geometry success can fail under backreaction",
+      "engineering_counterpart": "Coupled-system integration engineer \u2014 backreaction",
       "opportunity": "O15",
       "theory_ref": "lab/process/assessments/2026-11-25-source-action-panels/theory-distributed.md",
       "engineering_ref": "lab/process/assessments/2026-11-25-source-action-panels/engineering-distributed.md",
@@ -193,8 +193,8 @@
     },
     {
       "id": "DISTRIBUTED-08",
-      "theory_lens": "Fault tolerance / self-stabilization — Small disturbances are more revealing than exact roots",
-      "engineering_counterpart": "Reliability engineer — lower-order disturbance control",
+      "theory_lens": "Fault tolerance / self-stabilization \u2014 Small disturbances are more revealing than exact roots",
+      "engineering_counterpart": "Reliability engineer \u2014 lower-order disturbance control",
       "opportunity": "O16",
       "theory_ref": "lab/process/assessments/2026-11-25-source-action-panels/theory-distributed.md",
       "engineering_ref": "lab/process/assessments/2026-11-25-source-action-panels/engineering-distributed.md",
@@ -203,8 +203,8 @@
     },
     {
       "id": "DISTRIBUTED-09",
-      "theory_lens": "Information flow / noninterference — Hidden variables may be necessary memory",
-      "engineering_counterpart": "Information-flow engineer — hidden influence",
+      "theory_lens": "Information flow / noninterference \u2014 Hidden variables may be necessary memory",
+      "engineering_counterpart": "Information-flow engineer \u2014 hidden influence",
       "opportunity": "O04",
       "theory_ref": "lab/process/assessments/2026-11-25-source-action-panels/theory-distributed.md",
       "engineering_ref": "lab/process/assessments/2026-11-25-source-action-panels/engineering-distributed.md",
@@ -213,8 +213,8 @@
     },
     {
       "id": "DISTRIBUTED-10",
-      "theory_lens": "Distributed constraint solving — Can the formal branch and the charged boundary coexist?",
-      "engineering_counterpart": "Boundary-matching engineer — assemble the two constructions",
+      "theory_lens": "Distributed constraint solving \u2014 Can the formal branch and the charged boundary coexist?",
+      "engineering_counterpart": "Boundary-matching engineer \u2014 assemble the two constructions",
       "opportunity": "O17",
       "theory_ref": "lab/process/assessments/2026-11-25-source-action-panels/theory-distributed.md",
       "engineering_ref": "lab/process/assessments/2026-11-25-source-action-panels/engineering-distributed.md",
@@ -423,7 +423,7 @@
     },
     {
       "id": "PHYSICS-01",
-      "theory_lens": "Gravity and diffeomorphism physicist — compare the two equation layers",
+      "theory_lens": "Gravity and diffeomorphism physicist \u2014 compare the two equation layers",
       "engineering_counterpart": "Gravitational-response verification engineer",
       "opportunity": "O26",
       "theory_ref": "lab/process/assessments/2026-11-25-source-action-panels/theory-physics.md",
@@ -433,7 +433,7 @@
     },
     {
       "id": "PHYSICS-02",
-      "theory_lens": "Chiral particle phenomenologist — test how an imposter behaves",
+      "theory_lens": "Chiral particle phenomenologist \u2014 test how an imposter behaves",
       "engineering_counterpart": "Particle-interaction test engineer",
       "opportunity": "O05",
       "theory_ref": "lab/process/assessments/2026-11-25-source-action-panels/theory-physics.md",
@@ -443,7 +443,7 @@
     },
     {
       "id": "PHYSICS-03",
-      "theory_lens": "EFT and renormalization physicist — identify a relation that cannot be retuned",
+      "theory_lens": "EFT and renormalization physicist \u2014 identify a relation that cannot be retuned",
       "engineering_counterpart": "Effective-interaction matching engineer",
       "opportunity": "O12",
       "theory_ref": "lab/process/assessments/2026-11-25-source-action-panels/theory-physics.md",
@@ -453,7 +453,7 @@
     },
     {
       "id": "PHYSICS-04",
-      "theory_lens": "Gauge and BRST physicist — distinguish a redundancy from physical suppression",
+      "theory_lens": "Gauge and BRST physicist \u2014 distinguish a redundancy from physical suppression",
       "engineering_counterpart": "Constraint and gauge verification engineer",
       "opportunity": "O08",
       "theory_ref": "lab/process/assessments/2026-11-25-source-action-panels/theory-physics.md",
@@ -463,7 +463,7 @@
     },
     {
       "id": "PHYSICS-05",
-      "theory_lens": "Mathematical cosmologist — seek a common response, not a dark-energy number",
+      "theory_lens": "Mathematical cosmologist \u2014 seek a common response, not a dark-energy number",
       "engineering_counterpart": "Geometric-response integration engineer",
       "opportunity": "O15",
       "theory_ref": "lab/process/assessments/2026-11-25-source-action-panels/theory-physics.md",
@@ -473,7 +473,7 @@
     },
     {
       "id": "PHYSICS-06",
-      "theory_lens": "Dark-sector phenomenologist — darkness is a coupling claim",
+      "theory_lens": "Dark-sector phenomenologist \u2014 darkness is a coupling claim",
       "engineering_counterpart": "Dark-sector coupling engineer",
       "opportunity": "O27",
       "theory_ref": "lab/process/assessments/2026-11-25-source-action-panels/theory-physics.md",
@@ -483,7 +483,7 @@
     },
     {
       "id": "PHYSICS-07",
-      "theory_lens": "Condensed-matter / emergence physicist — distinguish an emergent particle from a field component",
+      "theory_lens": "Condensed-matter / emergence physicist \u2014 distinguish an emergent particle from a field component",
       "engineering_counterpart": "Emergent-resonance engineering physicist",
       "opportunity": "O28",
       "theory_ref": "lab/process/assessments/2026-11-25-source-action-panels/theory-physics.md",
@@ -493,7 +493,7 @@
     },
     {
       "id": "PHYSICS-08",
-      "theory_lens": "Scattering and unitarity physicist — use the repair to isolate the physical question",
+      "theory_lens": "Scattering and unitarity physicist \u2014 use the repair to isolate the physical question",
       "engineering_counterpart": "Conserved-flux verification engineer",
       "opportunity": "O02",
       "theory_ref": "lab/process/assessments/2026-11-25-source-action-panels/theory-physics.md",
@@ -503,7 +503,7 @@
     },
     {
       "id": "PHYSICS-09",
-      "theory_lens": "Semiclassical / instanton physicist — ask what gives topology a physical size",
+      "theory_lens": "Semiclassical / instanton physicist \u2014 ask what gives topology a physical size",
       "engineering_counterpart": "Topological-carrier stability engineer",
       "opportunity": "O29",
       "theory_ref": "lab/process/assessments/2026-11-25-source-action-panels/theory-physics.md",
@@ -513,7 +513,7 @@
     },
     {
       "id": "PHYSICS-10",
-      "theory_lens": "Operational quantum foundations physicist — specify what counts as the same observation",
+      "theory_lens": "Operational quantum foundations physicist \u2014 specify what counts as the same observation",
       "engineering_counterpart": "Observation-response test engineer",
       "opportunity": "O22",
       "theory_ref": "lab/process/assessments/2026-11-25-source-action-panels/theory-physics.md",
@@ -740,7 +740,7 @@
       ],
       "remaining_input": "A source-relevant matrix/jet multiplier family, original pairing and action comparison.",
       "revisit_when": "A natural non-scalar family is explicitly specified; no unconstrained scan.",
-      "disposition": "All nowhere-zero real derivative-free scalar multipliers retain principal defect−26f.",
+      "disposition": "All nowhere-zero real derivative-free scalar multipliers retain principal defect\u221226f.",
       "selection_note": "Candidate construction/diagnostic only unless its stated structural family and source bridge satisfy current program_focus. A reserve is not scheduled work."
     },
     {
@@ -1348,7 +1348,7 @@
       "selection_note": "Candidate construction/diagnostic only unless its stated structural family and source bridge satisfy current program_focus. A reserve is not scheduled work."
     }
   ],
-  "priority_effect": "Directed continuation uses normal_tensor_class_2026_11_26; normal class and restricted localQ done, source spinless placement and owned fullRspin4 are distinct ready alternatives. Physical readout needs authentic input. Ordinary cadence unchanged.",
+  "priority_effect": "Directed continuation uses primary_adjoint_spinless_2026_11_26. Plus comparator no longer misidentified as source; primitive spinless placement consumed. FullRspin4/cokernel remains executable; physical readout requires authentic input. Ordinary cadence/governance unchanged.",
   "evidence": [
     "explorations/conditional-build/source-action-engineering-wave-2026-11-25.md",
     "lab/process/source-action-engineering-wave.json",
@@ -1453,7 +1453,7 @@
       {
         "step": "5q",
         "status": "scoping and first-shell tests done; full weak scalar remains open",
-        "result": "Full lower source stays in highest7; generic normal sources reachspin5;2→95 common-family first shell, actual2-span failsbothroots.",
+        "result": "Full lower source stays in highest7; generic normal sources reachspin5;2\u219295 common-family first shell, actual2-span failsbothroots.",
         "successor": "5q.1"
       },
       {
@@ -1647,7 +1647,7 @@
     ],
     "minorities": [
       {
-        "idea": "source-explicit Velo–Zwanziger / constraint propagation",
+        "idea": "source-explicit Velo\u2013Zwanziger / constraint propagation",
         "input": "Match actual rolled carrier and existing VZ gates; do not repeat unconstrained Clifford symbol or import conventional massiveRS"
       },
       {
@@ -1747,18 +1747,6 @@
     ],
     "next_directed_worksets": [
       {
-        "id": "source_spinless_placement",
-        "status": "ready_for_bounded_finite_map",
-        "target": "LB-CLASS",
-        "tier": "T2",
-        "task": "Compose the source-named full-ambient grade1 spinless connection component with the actually printed operator/observation maps, retaining free or unbuilt cells symbolically",
-        "expected_delta": "Exact placement or missing coefficient/map, and whether source covariance needs a transforming reduction; no new action or VEV choice",
-        "class_covered": "Source-typed primitive spinless tensor component, not every physical fluctuation",
-        "source_bridge": "SC-MAS-02 explicitly names the component; full operator/reduction and physical role remain conditional",
-        "remaining_cost": "One finite symbolic placement audit; reuse source custody and current normal classification",
-        "kill_condition": "Only an authenticated required map can support a source exclusion; absence of an unbuilt coefficient is not failure"
-      },
-      {
         "id": "full_range_auxiliary_spin4",
         "status": "ready",
         "target": "LB-CLASS",
@@ -1767,7 +1755,7 @@
         "expected_delta": "Resolve a necessary full-R first-jet compatibility condition; no repeated restricted-Q work",
         "class_covered": "Held W2/K95 two roots and actual induced full-R jets",
         "source_bridge": "Candidate-only, source necessity and physical admission unproved",
-        "remaining_cost": "Exact sparse seeds owned; receiver closure cost unmeasured",
+        "remaining_cost": "Owned exact spin4 seeds; test true receiver/cokernel before larger inverse, with corrected source/comparator pairing labels",
         "kill_condition": "Only an incompatible residual paired with an actual cokernel certifies failure; outside the current envelope is not nonexistence"
       },
       {
@@ -1782,6 +1770,58 @@
       }
     ],
     "math_reassessment": "lab/process/source-normal-tensor-class.json#math_reassessment",
-    "priority_effect": "Existing directed continuation restocked; ordinary policy/cadence unchanged"
+    "priority_effect": "Existing directed continuation restocked; ordinary policy/cadence unchanged",
+    "source_attribution_correction": {
+      "date": "2026-11-26",
+      "basis_revision": "f754e924e6bdf9c9506a09e1bec2c8248dd6e941",
+      "report": "explorations/conditional-build/source-adjoint-spinless-placement-2026-11-26.md",
+      "status": "source_attribution_withdrawn_comparator_theorem_retained",
+      "prior_claim": "Plus/reversion pairing called source-side; optional fixedC zero attributed to that source convention",
+      "corrected_claim": "Corrected primary Clifford-adjoint attribution: minus adapter has normal optionalC36R/image24/kernel12 and fixed4R C-compatible survivors; plus-comparator optionalCzero retained only in its own pairing. Ordered source spinless insertion computed with independent fields and unresolved arrows explicit. No GU falsifier.",
+      "unchanged": "Original plus theorem and its finite Lean core; W2 restricted-Q response; source/physics/canon/classC verdicts",
+      "source_custody": "Printed p23 eq3.27 and Nov13 source-lower-term-compatibility"
+    }
+  },
+  "primary_adjoint_spinless_2026_11_26": {
+    "evidence": "lab/process/source-adjoint-spinless-placement.json",
+    "report": "explorations/conditional-build/source-adjoint-spinless-placement-2026-11-26.md",
+    "correction": {
+      "date": "2026-11-26",
+      "basis_revision": "f754e924e6bdf9c9506a09e1bec2c8248dd6e941",
+      "report": "explorations/conditional-build/source-adjoint-spinless-placement-2026-11-26.md",
+      "status": "source_attribution_withdrawn_comparator_theorem_retained",
+      "prior_claim": "Plus/reversion pairing called source-side; optional fixedC zero attributed to that source convention",
+      "corrected_claim": "Corrected primary Clifford-adjoint attribution: minus adapter has normal optionalC36R/image24/kernel12 and fixed4R C-compatible survivors; plus-comparator optionalCzero retained only in its own pairing. Ordered source spinless insertion computed with independent fields and unresolved arrows explicit. No GU falsifier.",
+      "unchanged": "Original plus theorem and its finite Lean core; W2 restricted-Q response; source/physics/canon/classC verdicts",
+      "source_custody": "Printed p23 eq3.27 and Nov13 source-lower-term-compatibility"
+    },
+    "consumed": [
+      "source_spinless_placement at primitive scope"
+    ],
+    "next_directed_worksets": [
+      {
+        "id": "full_range_auxiliary_spin4",
+        "status": "ready",
+        "target": "LB-CLASS",
+        "tier": "T2",
+        "task": "Test exact reachedspin4 auxiliary sources or one true adjoint-cokernel pairing before enlarging an inverse",
+        "expected_delta": "Resolve a necessary full-R first-jet compatibility condition; no repeated restricted-Q work",
+        "class_covered": "Held W2/K95 two roots and actual induced full-R jets",
+        "source_bridge": "Candidate-only, source necessity and physical admission unproved",
+        "remaining_cost": "Owned exact spin4 seeds; test true receiver/cokernel before larger inverse, with corrected source/comparator pairing labels",
+        "kill_condition": "Only an incompatible residual paired with an actual cokernel certifies failure; outside the current envelope is not nonexistence"
+      },
+      {
+        "id": "physical_weak_readout",
+        "status": "blocked_on_authentic_admission_and_normalization",
+        "target": "LB-CLASS",
+        "tier": "T2",
+        "task": "Transport the local constrained response to a source-admitted physical observable",
+        "expected_delta": "Actual observable consequence rather than unnormalized local coefficient",
+        "revival_input": "Authenticated common physical domain/quotient, normalized readout and propagation law",
+        "kill_condition": "OldA01 transfer remains inapplicable; inventing a new norm, cutoff or physical completion is not an answer"
+      }
+    ],
+    "math_reassessment": "lab/process/source-adjoint-spinless-placement.json#math_reassessment"
   }
 }

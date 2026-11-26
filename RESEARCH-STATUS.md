@@ -16,7 +16,18 @@ discovery bet (`lab/process/discovery-bets.json`). The K25xx--K2618 detector, pr
 results below are retained as conditional mathematics; that lane is no longer the default target. Sections
 below are dated results, newest first, and are not steering.
 
+## Source adjoint corrected; spinless placement computed (2026-11-26)
+
+Corrected primary Clifford-adjoint attribution: minus adapter has normal optionalC36R/image24/kernel12 and fixed4R C-compatible survivors; plus-comparator optionalCzero retained only in its own pairing. Ordered source spinless insertion computed with independent fields and unresolved arrows explicit. No GU falsifier.
+
+The earlier optional-C zero survives only as a plus/reversion comparator theorem. Independent fields and actual contraction are retained; no physical mass or GU exclusion follows. The old auxiliary local-response result is unaffected.
+
+[Current result](explorations/conditional-build/source-adjoint-spinless-placement-2026-11-26.md) · [Evidence and verification](lab/process/source-adjoint-spinless-placement.json).
+
 ## Complete normal tensors and local constrained response (2026-11-26)
+
+**Historical pairing attribution corrected above:** the following normal-class counts use the plus/reversion comparator, not the primary source adjoint.
+
 
 Complete normal tensor class: block symmetry68 real sharp-skew/32 with optionalC; fixed endogenous+weak symmetry4 real full-U/zero with optionalC, with exact observation kernels and ranks. Existing certificates realize smooth constrained-Q response; full-R jets reach a new spin4 source. No GU verdict.
 

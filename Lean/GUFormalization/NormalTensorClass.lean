@@ -3,14 +3,14 @@ import Mathlib.Tactic
 
 /-!
 Finite coefficient core only. The written proof supplies the complete four-word
-Clifford basis, the source K95 adjoint convention, Lie generation, and actual
+Clifford basis, the plus/reversion K95 comparator adjoint convention, Lie generation, and actual
 contraction. This file does NOT prove those representation/geometric premises,
 source necessity, physical positivity, or a GU exclusion.
 -/
 namespace GUFormalization.NormalTensorClass
 
 /-- A coefficient simultaneously real and purely imaginary is zero. The two
-laws come from optional C compatibility and source sharp-skew in the written
+laws come from optional C compatibility and plus-comparator sharp-skew in the written
 complete real Clifford basis. -/
 theorem real_and_skew_conjugate_zero (z : ℂ)
     (reality : star z = z) (skew : star z = -z) : z = 0 := by

@@ -1,6 +1,9 @@
 #!/usr/bin/env python3
 """Exact native K95 controls for the written 12-real-dimensional theorem.
 
+Correction 2026-11-26: this legacy fixture tests the PLUS/reversion comparator,
+not printed source eq3.27. See source_adjoint_spinless_probe.py for both pairings.
+
 Run local verification serially. No source action, physical domain or gauge
 reduction is constructed. Binary-exact signed Clifford matrices are used;
 there is no numerical tolerance or floating-point rank determination.

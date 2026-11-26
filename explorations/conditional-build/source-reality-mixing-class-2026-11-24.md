@@ -27,6 +27,9 @@ kill_condition: An empty class would constrain this added reality-compatible cat
   survivor does not establish physical modes, rates, failure of effective decoupling or a source verdict.
 ---
 
+**Correction, 2026-11-26:** The theorem and probe below use the PLUS/reversion K95 pairing, not the printed source's MINUS/conjugation adjoint. The complete horizontal dimension12R survives in the minus adapter, but its coefficients are real with plus-related conjugate halves and its simple witness is c_H(X), not real c_H(X)omega_H. Preserve the original calculations as plus-comparator evidence. C is a minus-pairing anti-isometry; do not import the Sp label. [Current derivation and exact check](source-adjoint-spinless-placement-2026-11-26.md#horizontal-companion).
+
+
 program_target: X-P1-P2-P3
 tier: T2
 expected_delta: Complete the previously open quaternionic restriction on horizontal covariant mixing

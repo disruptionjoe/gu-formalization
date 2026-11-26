@@ -31,6 +31,9 @@ kill_condition: A physical anomaly falsifier needs a source-required exact symme
   vacua and transported covariance remain.
 ---
 
+**Correction, 2026-11-26:** Pairing-dependent witness i c(v) below belongs to the PLUS/reversion comparator. Under the printed source MINUS/conjugation convention use real c(v); it gives the same invertible Omega defect and preserves the class-level existence conclusion. Even Omega/normal-center adjoint signs, the8192R centralizer count and source-anomaly nonselection conclusion are unchanged. This algebra adapter does not authenticate K77 or a physical domain. [Current reconciliation](source-adjoint-spinless-placement-2026-11-26.md).
+
+
 > **GU-COMPARATOR-ROUTING — scope before inference.** This artifact contains or
 > borders a conventional particle-physics comparator. Any result about a
 > standard Higgs/VEV, ordinary family index or net chirality, SO(10) `126`
