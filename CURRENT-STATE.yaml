@@ -1,7 +1,7 @@
 schema_version: '1.0'
 repository: observerse-research-program
 branch: main
-revision_basis: 3d4e2df2add89661d7c063f30862b2602ac8532d
+revision_basis: 0f2e568e61561d6f568cfa8d90c4d24798d68175
 program_focus:
   version: 2026-11-25-v1
   authority: joe_direct_chat_2026_11_25_five_process_improvements_approved
@@ -140,6 +140,33 @@ program_focus:
     covered; source relevance separately from mathematical breadth; shared prerequisite if any; remaining
     cost; strongest eligible alternative. A blocked high-value target is not an eligible alternative without
     its missing input. Reuse completed theorems and compare only their uncovered successors.'
+source_action_physical_dynamics_2026_11_25:
+  status: internally_reviewed_candidate_mathematics
+  actual_delta: At both normalized backgrounds, actual zero-matter linearization supplies no local additive
+    matter gauge freedom. Preserved analytic algebraic sectors with arbitrary normal jets cannot repair
+    finite local observation closure; nonzero derivative-free conserved local energy is indefinite. Native
+    metric order5 cancels, mixed order3 survives; complete Frechet order4 is derived with exact section coefficients. Certified canonical scalar and literal instantaneous
+    responses differ at identical geometry. No physical/source/C verdict.
+  evidence:
+  - explorations/conditional-build/source-action-physical-dynamics-2026-11-25.md
+  - lab/process/source-action-physical-dynamics.json
+  - tests/program-focus/source_action_physical_probe.py
+  - tests/program-focus/source_action_metric_symbol_probe.py
+  - lab/process/hostile-reviews/2026-11-25-source-action-physical-review.md
+  claim_effect: No source/physics/class-C/canon/paper or scientific matrix verdict.
+  priority_effect:
+    standing_policy: unchanged
+    schedules: unchanged
+    directed_successor: off-section metric coefficient evaluation and supplied physical differential/boundary/nonlocal law;
+      automatic gauge/filter repair consumed
+  next_condition: 'The intrinsic linearized gauge/algebraic-filter interpretation is now covered. Executable
+    directed gravity successor: evaluate the off-section geometric coefficient derivative and lower mixed blocks, including moving
+    Phi/pairing/density and background terms, before any stability/Einstein inference. Physical closure
+    requires a specified compatible differential, boundary or nonlocal state law; geometric curvature
+    susceptibility additionally needs branch selection and all geometric variations. Do not substitute
+    deltaS-only forcing, the59 Jacobian or more roots. Ordinary structural/source priorities and schedules
+    are unchanged.'
+  counter_accounting: 47->48 once; LBCLASS6->7; no bet credit; due LC carry retained
 source_action_deep_2026_11_25:
   status: internally_reviewed_T2
   actual_delta: The actual W2 K95 equations select a complete59-dimensional real/reflection-fixed family.

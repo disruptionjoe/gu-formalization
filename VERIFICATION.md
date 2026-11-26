@@ -17,6 +17,14 @@ External review is not a pathway in this program. The honesty label stays: inter
 
 Sections below are historical snapshots in file order.
 
+## Candidate physical dynamics and stationary response (2026-11-25)
+
+At both normalized backgrounds, actual zero-matter linearization supplies no local additive matter gauge freedom. Preserved analytic algebraic sectors with arbitrary normal jets cannot repair finite local observation closure; nonzero derivative-free conserved local energy is indefinite. Native metric order5 cancels, mixed order3 survives; complete Frechet order4 is derived and two section trace-free coefficients are certified positive. Certified canonical scalar and literal instantaneous responses differ at identical geometry. No physical/source/C verdict.
+
+Written analytic/symbol proofs and three crossed internal specialist reviews support the scoped result. Exact root certificates were replayed; native scalar/field-response intervals,735 metric-symbol controls plus30 section checks,29 response controls and13 variational controls pass. These counts are controls, not discoveries or physical certificates. No Lean/T1 promotion.
+
+[Result](explorations/conditional-build/source-action-physical-dynamics-2026-11-25.md) · [Evidence](lab/process/source-action-physical-dynamics.json).
+
 ## Two exact normalized stationary candidates and observed dynamics (2026-11-25)
 
 The actual W2 K95 Euler algebra closes in a symmetry-selected59-dimensional family. Two distinct roots at kappa=1 have exact rational existence certificates and disjoint admitted-frame scalar invariants. Both give local coupled stationary backgrounds under the declared product variations. Actual curved analytic solutions on them defeat every finite local observed-jet closure. Separately, the small-h branch excludes nontrivial parallel complex spinor projectors; that theorem has not been transferred to the two finite-coupling roots. Stability, physical state/constraint selection, source/C membership and external boundary remain open. Scientific verdicts are unchanged.

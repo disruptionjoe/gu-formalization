@@ -1788,7 +1788,7 @@
     },
     "LB-CLASS": {
       "zero_delta_streak": 0,
-      "runs": 6,
+      "runs": 7,
       "status": "open"
     },
     "LB-LADDER": {
@@ -2707,7 +2707,7 @@
   ],
   "program_run_counter": {
     "since": "2026-11-09",
-    "count": 47,
+    "count": 48,
     "rule": "Every hourly run increments this in its postflight, whatever its lane. Lane C runs when count % 4 == 3 before the increment."
   },
   "working_rule": "Cells are worked at the structure level: a requirement must hold for every action in class C or for a structurally defined subfamily. No cell is worked by writing down a specific action, and no gated cell is worked by building its gate object. See CURRENT-STATE.yaml program_focus.structure_not_specifics.",
@@ -2947,6 +2947,15 @@
       "counter_after": 47,
       "lane": "LB-CLASS",
       "actual_delta": "The actual W2 K95 equations select a complete59-dimensional real/reflection-fixed family. All59 K images and1770 N pairs are owned; two distinct kappa1 roots pass exact rational contraction certificates and have disjoint frame-invariant scalar intervals. They are actual local coupled stationary backgrounds. Actual analytic curved solutions on them defeat every finite local observed-jet closure. Separately, the small-h branch has scalar complex spinor holonomy commutant. No stability, physical/source/C or scientific matrix verdict."
+    },
+    {
+      "date": "2026-11-25",
+      "authority": "joe_direct_chat_physical_dynamics_go_2026_11_25",
+      "item": "Coupled perturbations and same-geometry response campaign",
+      "counter_before": 47,
+      "counter_after": 48,
+      "lane": "LB-CLASS",
+      "actual_delta": "At both normalized backgrounds, actual zero-matter linearization supplies no local additive matter gauge freedom. Preserved analytic algebraic sectors with arbitrary normal jets cannot repair finite local observation closure; nonzero derivative-free conserved local energy is indefinite. Native metric order5 cancels, mixed order3 survives; complete Frechet order4 is derived and two section trace-free coefficients are certified positive. Certified canonical scalar and literal instantaneous responses differ at identical geometry. No physical/source/C verdict."
     }
   ],
   "directed_lc_carry_2026_11_24_b": {
@@ -3256,6 +3265,18 @@
           "state": "two exact local kappa1 homogeneous stationary backgrounds; full59 real/reflection-fixed family",
           "source_status": "candidate only; physical/source/C selection unproved",
           "remaining": "physical state/constraint/observed dynamics and perturbation stability; distinct charged boundary; small-h endpoint transfer requires fresh check"
+        },
+        "physical_dynamics_followthrough": {
+          "state": "At both normalized backgrounds, actual zero-matter linearization supplies no local additive matter gauge freedom. Preserved analytic algebraic sectors with arbitrary normal jets cannot repair finite local observation closure; nonzero derivative-free conserved local energy is indefinite. Native metric order5 cancels, mixed order3 survives; complete Frechet order4 is derived and two section trace-free coefficients are certified positive. Certified canonical scalar and literal instantaneous responses differ at identical geometry. No physical/source/C verdict.",
+          "source_status": "candidate only; no source-required unrestricted state category",
+          "evidence": [
+            "explorations/conditional-build/source-action-physical-dynamics-2026-11-25.md",
+            "lab/process/source-action-physical-dynamics.json",
+            "tests/program-focus/source_action_physical_probe.py",
+            "tests/program-focus/source_action_metric_symbol_probe.py",
+            "lab/process/hostile-reviews/2026-11-25-source-action-physical-review.md"
+          ],
+          "remaining": "The intrinsic linearized gauge/algebraic-filter interpretation is now covered. Executable directed gravity successor: evaluate the off-section geometric coefficient derivative and lower mixed blocks, including moving Phi/pairing/density and background terms, before any stability/Einstein inference. Physical closure requires a specified compatible differential, boundary or nonlocal state law; geometric curvature susceptibility additionally needs branch selection and all geometric variations. Do not substitute deltaS-only forcing, the59 Jacobian or more roots. Ordinary structural/source priorities and schedules are unchanged."
         }
       }
     ],
@@ -3438,6 +3459,18 @@
           "tests/program-focus/source_action_deep_probe.py",
           "lab/process/hostile-reviews/2026-11-25-source-action-deep-review.md"
         ]
+      },
+      {
+        "id": "directed_physical_dynamics_2026_11_25",
+        "status": "consumed_in_declared_scope",
+        "original_direction": "Two-wave actual perturbation/constraint then source-typed response investigation.",
+        "evidence": [
+          "explorations/conditional-build/source-action-physical-dynamics-2026-11-25.md",
+          "lab/process/source-action-physical-dynamics.json",
+          "tests/program-focus/source_action_physical_probe.py",
+          "tests/program-focus/source_action_metric_symbol_probe.py",
+          "lab/process/hostile-reviews/2026-11-25-source-action-physical-review.md"
+        ]
       }
     ]
   },
@@ -3520,5 +3553,13 @@
       "ordinary_priority_effect": "unchanged",
       "next_work": "Normalized kappa1 local existence is covered, with at least two frame-distinct candidates. The meaningful directed successors are a declared physical state/constraint/observation selection or a concrete perturbation/stability discriminator between these backgrounds. Near-zero holonomy and boundary statements require independent endpoint checks before use at kappa1. Numerical arclength turned back near h0.1317 and did not connect either root; it is not an exclusion. Ordinary source/class priorities and schedules remain unchanged."
     }
+  },
+  "directed_lc_carry_2026_11_25_physical": {
+    "status": "pending",
+    "due_counter": 47,
+    "authority": "joe_direct_chat_physical_dynamics_go_2026_11_25",
+    "next_regular_run": "Preserve the due LC-BETS opportunity on the next ordinary run; recurring rule2 unchanged.",
+    "bet_attempt_credited": false,
+    "evidence": "lab/process/source-action-physical-dynamics.json"
   }
 }

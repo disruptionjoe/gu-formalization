@@ -1,0 +1,652 @@
+{
+  "artifact": "source-action-physical-dynamics",
+  "date": "2026-11-25",
+  "basis_revision": "0f2e568e61561d6f568cfa8d90c4d24798d68175",
+  "program_target": "LB-CLASS / X-P1-P2-P3",
+  "tier": "T2",
+  "status": "internally_reviewed_candidate_mathematics",
+  "actual_delta": "At both normalized backgrounds, actual zero-matter linearization supplies no local additive matter gauge freedom. Preserved analytic algebraic sectors with arbitrary normal jets cannot repair finite local observation closure; nonzero derivative-free conserved local energy is indefinite. Native metric order5 cancels, mixed order3 survives; complete Frechet order4 is derived and two section trace-free coefficients are certified positive. Certified canonical scalar and literal instantaneous responses differ at identical geometry. No physical/source/C verdict.",
+  "class_covered": "Fixed W2 K95 local candidate; both kappa1 roots; full rolled analytic fields; quantified preserved analytic pointwise subbundles admitting arbitrary normal data. Not all C.",
+  "source_bridge": {
+    "status": "conditional",
+    "reason": "Source completion, physical contour/state/domain and observed reduction remain unselected; source does not assert unique stationary amplitude at fixed scalar."
+  },
+  "claim_effect": "No source/physics/class-C/canon/paper or scientific matrix verdict.",
+  "results": {
+    "intrinsic_matter_constraints": "No linear primary constraint at zero matter and no arbitrary-parameter finite-order local additive gauge generator.",
+    "observation": "Every finite local differential encoding fails for any preserved analytic pointwise E with qE nonzero and arbitrary analytic E-valued normal data.",
+    "energy": "Nonzero derivative-free local Hermitian conserved quadratic density cannot be positive on unrestricted jets; nondegenerate full-carrier symmetrizer inertia960/960.",
+    "gravity": "Actual principal AA order1 and Ag order3; gg order5 zero; complete Frechet order4 expression, with two exact positive section coefficients. Off-section coefficient derivative and fibre integral uncomputed.",
+    "stationary_response": "Canonical grade1 scalar and literal instantaneous response distinguish the two actual roots at identical geometry; no physical mass/rate."
+  },
+  "verification": {
+    "response_probe": {
+      "all_passed": true,
+      "root_certificates_recomputed": 2,
+      "exact_controls": 29,
+      "variational_controls": {
+        "checks": {
+          "positive_normal_square": true,
+          "negative_normal_square": true,
+          "preserved_line": true,
+          "nonzero_observed_derivative": true,
+          "nonpreserved_line_rejected": true,
+          "indefinite_symmetrizer": true,
+          "congruence_reverses_H": true,
+          "positive_identity_not_symmetrizer": true,
+          "Green_density_dual_product_rule": true,
+          "missing_coefficient_derivative_mutation": true,
+          "quadratic_matter_held_coefficients": true,
+          "bosonic_first_variations_enter_cubic": true,
+          "no_linear_or_constant_matter": true
+        },
+        "count": 13,
+        "all_passed": true,
+        "scope": "Small exact controls, not native dimension or universal-proof substitutes."
+      },
+      "scalar_definitions": "mY=tr_Cl(gamma^a T_a)/14; mH and mN divide restricted contractions by4 and10. tr_Cl=Re tr/128.",
+      "central_active_gauge_controls": {
+        "source_scalar_absent": true,
+        "center_commutes_with_full_Clifford_basis": true,
+        "exact_gradient_closed": true,
+        "mass_energy_has_nonzero_positive_axis": true
+      },
+      "scalar_intervals": {
+        "mY": [
+          {
+            "center": "-4248053340022644779/35000000000000000000",
+            "error": "833002305502425831635675927369390931123350752157075022902747720119/3955078124999884528152862797160742322179584117654725628125000000000000000000000000",
+            "lower": "-3360276567791257598916628436222016408706164631371680593854506189056065681109040833/27685546874999191697070039580125196255257088823583079396875000000000000000000000000",
+            "upper": "-3360276567791245936884351402260373509243181459898644866943975990005745042640959167/27685546874999191697070039580125196255257088823583079396875000000000000000000000000",
+            "approximate_center": -0.12137295257207556,
+            "approximate_error": 2.1061589156407628e-16
+          },
+          {
+            "center": "415800455251124149/3500000000000000000",
+            "error": "11974179536214065908190212160861717531979021739329889193327923/65917968749997189892442940664361290493889827261993759765625000000000000000000",
+            "lower": "54817442830956329405044874209359766422798451166433840324113327338431681860789/461425781249980329247100584650529033457228790833956318359375000000000000000000",
+            "upper": "54817442830956497043558381206282481085768703230479288030417677956880388451711/461425781249980329247100584650529033457228790833956318359375000000000000000000",
+            "approximate_center": 0.11880013007174976,
+            "approximate_error": 1.8165273844568483e-16
+          }
+        ],
+        "mH": [
+          {
+            "center": "1390810421362327/1250000000000000000",
+            "error": "833002305502425831635675927369390931123350752157075022902747720119/3955078124999884528152862797160742322179584117654725628125000000000000000000000000",
+            "lower": "4400611098840776291573299670733493886064602855187792375719446495606414752279881/3955078124999884528152862797160742322179584117654725628125000000000000000000000000",
+            "upper": "4400611098842442296184304522396765237919341637050039077223760645652220247720119/3955078124999884528152862797160742322179584117654725628125000000000000000000000000",
+            "approximate_center": 0.0011126483370898616,
+            "approximate_error": 2.1061589156407628e-16
+          },
+          {
+            "center": "-33129822358103647/1000000000000000000",
+            "error": "11974179536214065908190212160861717531979021739329889193327923/65917968749997189892442940664361290493889827261993759765625000000000000000000",
+            "lower": "-1091925297447223194011197461834057139638701989003255481943823580975685531149/32958984374998594946221470332180645246944913630996879882812500000000000000000",
+            "upper": "-545962648723605609915830623884074474713270563642861751461042125543246101613/16479492187499297473110735166090322623472456815498439941406250000000000000000",
+            "approximate_center": -0.03312982235810365,
+            "approximate_error": 1.8165273844568483e-16
+          }
+        ],
+        "mN": [
+          {
+            "center": "-851835964678708679/5000000000000000000",
+            "error": "833002305502425831635675927369390931123350752157075022902747720119/3955078124999884528152862797160742322179584117654725628125000000000000000000000000",
+            "lower": "-673815557997787830299955007112696679295658767416411235721189016409455702122720119/3955078124999884528152862797160742322179584117654725628125000000000000000000000000",
+            "upper": "-673815557997786164295344002261033407943804028634548989019684702259409896627279881/3955078124999884528152862797160742322179584117654725628125000000000000000000000000",
+            "approximate_center": -0.17036719293574173,
+            "approximate_error": 2.1061589156407628e-16
+          },
+          {
+            "center": "112232569402306949/625000000000000000",
+            "error": "11974179536214065908190212160861717531979021739329889193327923/65917968749997189892442940664361290493889827261993759765625000000000000000000",
+            "lower": "11837028804149044436217932811339198996270651824489372450377724332466884797077/65917968749997189892442940664361290493889827261993759765625000000000000000000",
+            "upper": "11837028804149068384577005239471015376694973547924436408421202992245271452923/65917968749997189892442940664361290493889827261993759765625000000000000000000",
+            "approximate_center": 0.1795721110436911,
+            "approximate_error": 1.8165273844568483e-16
+          }
+        ]
+      },
+      "scalar_intervals_disjoint": {
+        "mY": true,
+        "mH": true,
+        "mN": true
+      },
+      "literal_response_witness_count": 2234,
+      "strongest_literal_response_witness": {
+        "observed_field_slot": 4,
+        "clifford_mask": 8,
+        "intervals": [
+          {
+            "center": "4253616581708094087/2500000000000000000",
+            "error": "833002305502425831635675927369390931123350752157075022902747720119/329589843749990377346071899763395193514965343137893802343750000000000000000000000",
+            "lower": "560779529815014729863422617797128379080183466922615817670199958441899543814779881/329589843749990377346071899763395193514965343137893802343750000000000000000000000",
+            "upper": "560779529815016395868033622648791650432038205704478064371704272591945349310220119/329589843749990377346071899763395193514965343137893802343750000000000000000000000",
+            "approximate_center": 1.7014466326832376,
+            "approximate_error": 2.5273906987689156e-15
+          },
+          {
+            "center": "-172946146572070389/100000000000000000",
+            "error": "11974179536214065908190212160861717531979021739329889193327923/5493164062499765824370245055363440874490818938499479980468750000000000000000",
+            "lower": "-19000431141950306494407234567272926328207261828350245012087282153017790952721/10986328124999531648740490110726881748981637876998959960937500000000000000000",
+            "upper": "-19000431141950258597689089711009293567358618381480117096000324833461017641029/10986328124999531648740490110726881748981637876998959960937500000000000000000",
+            "approximate_center": -1.729461465720704,
+            "approximate_error": 2.179832861348218e-15
+          }
+        ],
+        "functional": [
+          "-2",
+          "-1",
+          "-9",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ]
+      },
+      "receiver": "q_F[-sigma(dt)^-1 V_T](zeta=0,nu), dt=-theta3 (metric-dual e3), same field and principal frame; q_F=(zeta_H,nu).",
+      "scope": "Different stationary candidate backgrounds, same ambient R=-10 and kappa1. This is instantaneous zero-order response on the full classical field space, not a physical mass, response rate, autonomous observed equation, source-unique law, or gauge quotient."
+    },
+    "metric_probe": {
+      "checks": 735,
+      "section_principal_curvature_controls": 30,
+      "nonzero_mixed_receiver": {
+        "base_diag": [
+          "1",
+          "1",
+          "1",
+          "-1"
+        ],
+        "xi": [
+          "1",
+          "0",
+          "0",
+          "0"
+        ],
+        "b": [
+          [
+            1,
+            257,
+            "-1/8"
+          ]
+        ],
+        "a": [
+          256,
+          1
+        ],
+        "mixed_symbol": "1/8",
+        "sign_mutation": "-1/8"
+      },
+      "nonzero_off_section_curvature_symbol": [
+        [
+          3,
+          513,
+          "-1/32"
+        ],
+        [
+          5,
+          257,
+          "-1/32"
+        ],
+        [
+          257,
+          5,
+          "-1/4"
+        ],
+        [
+          513,
+          3,
+          "-1/4"
+        ]
+      ],
+      "section_order4": {
+        "TT_plus": {
+          "mass_only": "1/16",
+          "functional": [
+            "0",
+            "0",
+            "1/12",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0"
+          ],
+          "intervals": [
+            {
+              "center": "2236303598214061/48000000000000000",
+              "error": "833002305502425831635675927369390931123350752157075022902747720119/47460937499998614337834353565928907866155009411856707537500000000000000000000000000",
+              "lower": "2211188860538740041599789409892128914990098837279819426571256772032993503502279881/47460937499998614337834353565928907866155009411856707537500000000000000000000000000",
+              "upper": "2211188860538741707604400414743792186341953576061681673272761086183039308997720119/47460937499998614337834353565928907866155009411856707537500000000000000000000000000",
+              "approximate_center": 0.04658965829612627,
+              "approximate_error": 1.7551324297006356e-17,
+              "sign": "positive"
+            },
+            {
+              "center": "95780742761973361/1200000000000000000",
+              "error": "11974179536214065908190212160861717531979021739329889193327923/791015624999966278709315287972335485926677927143925117187500000000000000000000",
+              "lower": "63136720082352783471234589509878825393080434711604191543499473504009341828327/791015624999966278709315287972335485926677927143925117187500000000000000000000",
+              "upper": "63136720082352807419593661938010641773504756435039255501542952163787728484173/791015624999966278709315287972335485926677927143925117187500000000000000000000",
+              "approximate_center": 0.0798172856349778,
+              "approximate_error": 1.513772820380707e-17,
+              "sign": "positive"
+            }
+          ],
+          "background_correction_intervals": [
+            {
+              "center": "-763696401785939/48000000000000000",
+              "error": "833002305502425831635675927369390931123350752157075022902747720119/47460937499998614337834353565928907866155009411856707537500000000000000000000000000",
+              "lower": "-755119733211173354514857687978427826644589250961224794522493227967006496497720119/47460937499998614337834353565928907866155009411856707537500000000000000000000000000",
+              "upper": "-755119733211171688510246683126764555292734512179362547820988913816960691002279881/47460937499998614337834353565928907866155009411856707537500000000000000000000000000",
+              "approximate_center": -0.015910341703873728,
+              "approximate_error": 1.7551324297006356e-17
+            },
+            {
+              "center": "20780742761973361/1200000000000000000",
+              "error": "11974179536214065908190212160861717531979021739329889193327923/791015624999966278709315287972335485926677927143925117187500000000000000000000",
+              "lower": "13698243519854891051902384011607857522663064265108871719280723504009341828327/791015624999966278709315287972335485926677927143925117187500000000000000000000",
+              "upper": "13698243519854915000261456439739673903087385988543935677324202163787728484173/791015624999966278709315287972335485926677927143925117187500000000000000000000",
+              "approximate_center": 0.0173172856349778,
+              "approximate_error": 1.513772820380707e-17
+            }
+          ]
+        },
+        "TT_cross": {
+          "mass_only": "1/16",
+          "functional": [
+            "0",
+            "0",
+            "1/12",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0"
+          ],
+          "intervals": [
+            {
+              "center": "2236303598214061/48000000000000000",
+              "error": "833002305502425831635675927369390931123350752157075022902747720119/47460937499998614337834353565928907866155009411856707537500000000000000000000000000",
+              "lower": "2211188860538740041599789409892128914990098837279819426571256772032993503502279881/47460937499998614337834353565928907866155009411856707537500000000000000000000000000",
+              "upper": "2211188860538741707604400414743792186341953576061681673272761086183039308997720119/47460937499998614337834353565928907866155009411856707537500000000000000000000000000",
+              "approximate_center": 0.04658965829612627,
+              "approximate_error": 1.7551324297006356e-17,
+              "sign": "positive"
+            },
+            {
+              "center": "95780742761973361/1200000000000000000",
+              "error": "11974179536214065908190212160861717531979021739329889193327923/791015624999966278709315287972335485926677927143925117187500000000000000000000",
+              "lower": "63136720082352783471234589509878825393080434711604191543499473504009341828327/791015624999966278709315287972335485926677927143925117187500000000000000000000",
+              "upper": "63136720082352807419593661938010641773504756435039255501542952163787728484173/791015624999966278709315287972335485926677927143925117187500000000000000000000",
+              "approximate_center": 0.0798172856349778,
+              "approximate_error": 1.513772820380707e-17,
+              "sign": "positive"
+            }
+          ],
+          "background_correction_intervals": [
+            {
+              "center": "-763696401785939/48000000000000000",
+              "error": "833002305502425831635675927369390931123350752157075022902747720119/47460937499998614337834353565928907866155009411856707537500000000000000000000000000",
+              "lower": "-755119733211173354514857687978427826644589250961224794522493227967006496497720119/47460937499998614337834353565928907866155009411856707537500000000000000000000000000",
+              "upper": "-755119733211171688510246683126764555292734512179362547820988913816960691002279881/47460937499998614337834353565928907866155009411856707537500000000000000000000000000",
+              "approximate_center": -0.015910341703873728,
+              "approximate_error": 1.7551324297006356e-17
+            },
+            {
+              "center": "20780742761973361/1200000000000000000",
+              "error": "11974179536214065908190212160861717531979021739329889193327923/791015624999966278709315287972335485926677927143925117187500000000000000000000",
+              "lower": "13698243519854891051902384011607857522663064265108871719280723504009341828327/791015624999966278709315287972335485926677927143925117187500000000000000000000",
+              "upper": "13698243519854915000261456439739673903087385988543935677324202163787728484173/791015624999966278709315287972335485926677927143925117187500000000000000000000",
+              "approximate_center": 0.0173172856349778,
+              "approximate_error": 1.513772820380707e-17
+            }
+          ]
+        },
+        "polarized_cross": {
+          "mass_only": "0",
+          "functional": [
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0"
+          ],
+          "intervals": [
+            {
+              "center": "0",
+              "error": "0",
+              "lower": "0",
+              "upper": "0",
+              "approximate_center": 0.0,
+              "approximate_error": 0.0,
+              "sign": "unresolved"
+            },
+            {
+              "center": "0",
+              "error": "0",
+              "lower": "0",
+              "upper": "0",
+              "approximate_center": 0.0,
+              "approximate_error": 0.0,
+              "sign": "unresolved"
+            }
+          ],
+          "background_correction_intervals": [
+            {
+              "center": "0",
+              "error": "0",
+              "lower": "0",
+              "upper": "0",
+              "approximate_center": 0.0,
+              "approximate_error": 0.0
+            },
+            {
+              "center": "0",
+              "error": "0",
+              "lower": "0",
+              "upper": "0",
+              "approximate_center": 0.0,
+              "approximate_error": 0.0
+            }
+          ]
+        },
+        "controls": {
+          "mass_only_mutation_rejected": true,
+          "wrong_cubic_factor_rejected": true,
+          "direct_and_adjoint_Phi_agree": true,
+          "two_TT_functionals_equal": true,
+          "polarized_cross_identically_zero": true,
+          "root_certificates_recomputed_here": false
+        },
+        "scope": "Pointwise section principal-action coefficient per unit native volume in declared held-coordinate-one-form tangent, not integrated or physical gravity Hessian."
+      },
+      "scope": "Principal coupled symbols and stated section order4 density only; no full fibre integral, lower-order Noether complex or physical spectrum."
+    },
+    "independent_review": "lab/process/hostile-reviews/2026-11-25-source-action-physical-review.md",
+    "Lean": "not claimed; no T1 promotion",
+    "written_proofs": [
+      "polynomial symbol induction",
+      "analytic preserved-subbundle finite-encoding lemma",
+      "Green identity and symmetrizer congruence",
+      "Clifford parity of full metric symbol",
+      "compact-support active-center counterexample"
+    ],
+    "gate_results": {
+      "program_focus_audit.py": {
+        "exit_code": 0,
+        "last_output_line": "[PASS] program_focus steering, matrix, bets and front doors agree"
+      },
+      "typed_carrier_declaration_audit.py": {
+        "exit_code": 0,
+        "last_output_line": "typed_carrier_declaration_audit[codomain]: LAYER/MAP-TYPE token sets vs lab/methods/gu-base-categories.md: match"
+      },
+      "source_native_comparator_routing_audit.py": {
+        "exit_code": 0,
+        "last_output_line": "OK"
+      },
+      "kill_target_claim_audit.py": {
+        "exit_code": 0,
+        "last_output_line": "ok  kill_target_claim_audit[ledger]: 0 untyped kill-bearing rows (baseline 0) in conditional-physics-ledger-v0.263.json"
+      },
+      "reverse_scaffold_direction_audit.py": {
+        "exit_code": 0,
+        "last_output_line": "[PASS] reverse-scaffold direction, Big-Wave liveness, SM-first anchor priority, and calibration controls agree"
+      },
+      "frontmatter_status_schema_audit.py": {
+        "exit_code": 0,
+        "last_output_line": "frontmatter_status_schema_audit: 0 failures"
+      },
+      "lean_certificate_surface_audit.py": {
+        "exit_code": 0,
+        "last_output_line": "OK"
+      },
+      "current_state_absolute_currency_audit.py": {
+        "exit_code": 0,
+        "last_output_line": "ok  current_state_absolute_currency"
+      }
+    },
+    "artifact_sha256": {
+      "explorations/conditional-build/source-action-physical-dynamics-2026-11-25.md": "9af4eebb418f0a77b425e192d52d562a52b48d791912265c1577bf65e980dbec",
+      "tests/program-focus/source_action_physical_probe.py": "b0a4b49f18fd6de13f45fc342d00a9e98fdb88cbf479155fd6d1b296c4662c25",
+      "tests/program-focus/source_action_metric_symbol_probe.py": "eccac86c829c48848a4db9ab49d0313601bc3b19aca9a1fc6635520f489254ef",
+      "lab/process/hostile-reviews/2026-11-25-source-action-physical-review.md": "cfff82fd70d9cadae900f6fab5d68e9283f038c4e59911f712527d6d8d0a838c",
+      "lab/process/source-action-deep-coefficients.json": "fb4aacfa69cbc1127b7fddf3b4f66811650c1fd3a889363cc6dfab940439b274"
+    },
+    "scope_checks": {
+      "program_focus_unchanged": true,
+      "scientific_cells_and_intersections_unchanged": true,
+      "all50_paired_lenses_and29_opportunities_preserved": true,
+      "admitted_paths": 14,
+      "exact_evidence_replayed": true
+    }
+  },
+  "counter": {
+    "before": 47,
+    "after": 48,
+    "LB_CLASS_before": 6,
+    "LB_CLASS_after": 7,
+    "bet_credit": false,
+    "note": "One admitted directed campaign with two dependent research phases; LC due opportunity retained for next ordinary run."
+  },
+  "priority_effect": {
+    "standing_policy": "unchanged",
+    "schedules": "unchanged",
+    "directed_successor": "off-section metric coefficient evaluation and supplied physical differential/boundary/nonlocal law; automatic gauge/filter repair consumed"
+  },
+  "evidence": [
+    "explorations/conditional-build/source-action-physical-dynamics-2026-11-25.md",
+    "lab/process/source-action-physical-dynamics.json",
+    "tests/program-focus/source_action_physical_probe.py",
+    "tests/program-focus/source_action_metric_symbol_probe.py",
+    "lab/process/hostile-reviews/2026-11-25-source-action-physical-review.md"
+  ],
+  "next_condition": "The intrinsic linearized gauge/algebraic-filter interpretation is now covered. Executable directed gravity successor: evaluate the off-section geometric coefficient derivative and lower mixed blocks, including moving Phi/pairing/density and background terms, before any stability/Einstein inference. Physical closure requires a specified compatible differential, boundary or nonlocal state law; geometric curvature susceptibility additionally needs branch selection and all geometric variations. Do not substitute deltaS-only forcing, the59 Jacobian or more roots. Ordinary structural/source priorities and schedules are unchanged."
+}
