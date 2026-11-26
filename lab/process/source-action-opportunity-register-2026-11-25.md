@@ -146,3 +146,7 @@ O04 now distinguishes same-phase PsiDO exclusion from a full-frozen bounded nonl
 ## Coupled ghost diagnostic result (2026-11-25)
 
 [Result](../../explorations/conditional-build/source-action-coupled-ghost-2026-11-25.md): O15 now has complete time-kernel constraint structure, exact central elimination and a large-kappa constrained quadratic-energy exclusion. The full physical ghost spectrum and kappa1 constraint inversion remain open. The next concrete calculation is the actual algebraic M_N matrix, especially its autonomous imaginary block. No new completion freedom is added; all50 lenses/29 opportunities remain.
+
+## Coupling-one follow-through (2026-11-25)
+
+[Result](../../explorations/conditional-build/source-action-kappa1-constraints-2026-11-25.md): O15 has exact complete spin6/7 constraint inverses at both roots and a nonzero hidden-derivative-to-connection-readout response. An everywhere-regular connecting path inside the fixed-geometry59 family is excluded. Neither root is selected by stability. The next comparison favors actual observed evolution using these blocks over blind lower-spin enumeration. Physical quotient and propagation remain explicit burdens. No new choices, ledger verdicts or governance changes; all50 lenses/29 opportunities retained.

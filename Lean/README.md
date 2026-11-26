@@ -163,3 +163,7 @@ replacement for `lake build` or targeted standalone Lean checks.
 ## Coupled constraint energy finite core (2026-11-25)
 
 `GUFormalization/CoupledGhost.lean`: **LEAN-VERIFIED**, eight finite lemmas for signed auxiliary elimination, canonical quadratic energy, leading-sign domination and count arithmetic. Clifford blocks, moving projectors, analytic stationary branch and physical domains remain written/reviewed mathematics. Targeted `lake env lean` passed without proof placeholders; no full project rebuild claim. Evidence: `explorations/conditional-build/source-action-coupled-ghost-2026-11-25.md`.
+
+## Finite-coupling constraint core (2026-11-25)
+
+`GUFormalization/KappaOneConstraints.lean`: **LEAN-VERIFIED**, three finite lemmas for symmetric/skew contraction, constraint-count arithmetic and the intermediate-value sign obstruction. Targeted `lake env lean` passed without placeholders. The actual symbol/projector proof, exact root matrices, real-form transfer and PDE/physical interpretation remain separately checked written mathematics. No full project rebuild claim. Evidence: `explorations/conditional-build/source-action-kappa1-constraints-2026-11-25.md`.

@@ -104,7 +104,17 @@ The assumption view's candidate_choice_budget now owns per-wave grouped choice/c
 
 | Step | Status | Target / tier | Expected delta | Scope / negative-result meaning |
 |---|---|---|---|---|
-| 5k Actual finite-coupling constraint matrix | ready in directed construction | LB-CLASS / T2, T1 if an exclusion follows | Evaluate M_N at both certified kappa1 backgrounds, starting with autonomous imaginary sector; resolve its kernel/inverse and actual residual constraints | Local finite-dimensional constraint endomorphism, not full Green inverse; no physical spectrum without domain/observed pairing |
+| 5k Actual finite-coupling constraint matrix | complete spin6/7 blocks and derivative-source transfer done; full matrix partial | LB-CLASS / T1 internal regular-path obstruction, T2 inverse/transfer | Both roots have1904/49154 imaginary constraint components certified regular; a fixed invisible derivative source induces nonzero connection readout | Remaining47250 constraints not evaluated; no energy, stability selector, propagated ghost or physical-quotient verdict |
 | 5l Physical admission of energy witnesses | blocked only on supplied physical domain for this inference | X-P1-P2-P3 / T2 | Determine whether a preserved source-typed state domain admits or removes the constrained opposite-energy directions | Existing maximal-compact shielding is not an established projector; no added selector by fiat |
 
 Step5k does not wait for5l or for a complete selection theory. Real metric/connection and observed helicity questions remain separate; ordinary B priorities, pendingLC and schedules are unchanged.
+
+## Consumed coupling-one block stage
+
+[Actual result](../../../explorations/conditional-build/source-action-kappa1-constraints-2026-11-25.md) incorporates Joe Nov25(j)/(k). The actual moving-projector geometric term cancels for closed physical time; cubic terms remain. Both complete highest-rotation blocks are invertible at both roots. Their scalar constraint signs force a singularity on any connecting path inside the held fixed-geometry59 family. This does not exclude either root. The complete spin6 inverse makes one specified invisible derivative-source response rigorously nonzero in the held section's connection readout. Other data can compensate it, and full PDE admission remains undetermined.
+
+| Step | Status | Target / tier | Expected delta | Scope / negative-result meaning |
+|---|---|---|---|---|
+| 5m Reduced observed evolution using owned blocks | ready in directed continuation | LB-CLASS / T2 | Use the spin6/7 transfer to test actual evolution and an existing restriction, completing only necessary receiver closure | No new state law, automatic physical interpretation or inference from a pointwise inverse; rejection removes the named existing category |
+
+Step5l retains the missing Q/domain/pairing burden for physical inference; it does not stop5m or other eligible science. Blind descent through all lower rotation blocks is not the default. Choice budget10/4/net6 is unchanged and explicitly non-necessity accounting. No permanent construction moratorium or scheduled governance change is installed.

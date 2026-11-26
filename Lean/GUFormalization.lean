@@ -74,3 +74,5 @@ import GUFormalization.PredictiveRealization
 import GUFormalization.VariableCompletion
 
 import GUFormalization.CoupledGhost
+
+import GUFormalization.KappaOneConstraints

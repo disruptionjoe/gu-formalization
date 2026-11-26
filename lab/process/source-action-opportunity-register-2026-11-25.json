@@ -948,7 +948,7 @@
         "NETWORK-10",
         "PHYSICS-05"
       ],
-      "status": "actual_constraint_reduction_and_large_kappa_indefinite_energy",
+      "status": "kappa1_spin6_spin7_constraints_regular_readout_transfer_nonzero",
       "scope": "candidate or explicitly declared structural diagnostic; not source-wide without bridge",
       "source_relevance": "conditional; use source-native carrier and registered premises",
       "evidence": [
@@ -964,11 +964,13 @@
         "explorations/conditional-build/source-action-variable-completion-2026-11-25.md",
         "lab/process/source-action-variable-completion.json",
         "explorations/conditional-build/source-action-coupled-ghost-2026-11-25.md",
-        "lab/process/source-action-coupled-ghost.json"
+        "lab/process/source-action-coupled-ghost.json",
+        "explorations/conditional-build/source-action-kappa1-constraints-2026-11-25.md",
+        "lab/process/source-action-kappa1-constraints.json"
       ],
-      "remaining_input": "Compute the actual algebraic M_N endomorphism at both kappa1 roots, beginning with the autonomous imaginary sector. Carry surviving energy directions into a specified physical domain; full real metric coupling and observed spin spectrum remain distinct. No complete-selection waiting prerequisite.",
-      "revisit_when": "Actual kappa1 algebraic M_N evaluation is ready; physical energy/mode inference additionally needs admitted solution domain/quotient. No repeated metric-only sign or isolated central oscillator.",
-      "disposition": "Complete connection constraint reduction and exact central elimination; on the existing sufficiently-large-kappa stationary branch the actual constrained quadratic Hamiltonian has both signs on compact instantaneous data. No kappa1, propagated-mode, quantum-ghost or source/GU verdict.",
+      "remaining_input": "Use the completed spin6/7 constraints to test actual reduced observed evolution and an existing state restriction, completing only the required receiver closure. Source BRST/domain/pairing and propagated energy exchange remain distinct missing physical inputs. Do not automatically descend through every lower rotation block or add a completion.",
+      "revisit_when": "Completed spin6/7 constraints enable actual observed-evolution/domain testing; a physical ghost conclusion additionally needs propagated admissible states and the source-typed quotient. Full lower-spin matrix remains incomplete, not an automatic backlog.",
+      "disposition": "Actual closed-time geometric cancellation; complete spin6/7 algebraic constraint inverses at both kappa1 roots (1904/49154 real imaginary-sector constraints); a fixed invisible derivative source has nonzero connection readout after constraint elimination. Opposite scalar constraint signs exclude an everywhere-regular connecting path within the fixed-geometry59 family. No kappa1 energy or physical ghost verdict.",
       "selection_note": "Candidate construction/diagnostic only unless its stated structural family and source bridge satisfy current program_focus. A reserve is not scheduled work.",
       "history": [
         {
@@ -1006,6 +1008,12 @@
           "previous_status": "coupled_ghost_diagnostic_directed_successor",
           "previous_disposition": "Full coupled ghost diagnostic remains unrun: kernel/subprincipal hierarchy, constraints and declared physical reduction/pairing. Linear-matter positivity does not supply the bosonic pairing.",
           "superseding_evidence": "explorations/conditional-build/source-action-coupled-ghost-2026-11-25.md"
+        },
+        {
+          "date": "2026-11-25",
+          "previous_status": "actual_constraint_reduction_and_large_kappa_indefinite_energy",
+          "previous_disposition": "Complete connection constraint reduction and exact central elimination; on the existing sufficiently-large-kappa stationary branch the actual constrained quadratic Hamiltonian has both signs on compact instantaneous data. No kappa1, propagated-mode, quantum-ghost or source/GU verdict.",
+          "superseding_evidence": "explorations/conditional-build/source-action-kappa1-constraints-2026-11-25.md"
         }
       ],
       "predictive_realization_update": {
@@ -1028,6 +1036,13 @@
         "evidence": [
           "explorations/conditional-build/source-action-coupled-ghost-2026-11-25.md",
           "lab/process/source-action-coupled-ghost.json"
+        ]
+      },
+      "kappa1_constraint_update": {
+        "result": "Actual closed-time geometric cancellation; complete spin6/7 algebraic constraint inverses at both kappa1 roots (1904/49154 real imaginary-sector constraints); a fixed invisible derivative source has nonzero connection readout after constraint elimination. Opposite scalar constraint signs exclude an everywhere-regular connecting path within the fixed-geometry59 family. No kappa1 energy or physical ghost verdict.",
+        "evidence": [
+          "explorations/conditional-build/source-action-kappa1-constraints-2026-11-25.md",
+          "lab/process/source-action-kappa1-constraints.json"
         ]
       }
     },
@@ -1321,6 +1336,8 @@
     "explorations/conditional-build/source-action-variable-completion-2026-11-25.md",
     "lab/process/source-action-variable-completion.json",
     "explorations/conditional-build/source-action-coupled-ghost-2026-11-25.md",
-    "lab/process/source-action-coupled-ghost.json"
+    "lab/process/source-action-coupled-ghost.json",
+    "explorations/conditional-build/source-action-kappa1-constraints-2026-11-25.md",
+    "lab/process/source-action-kappa1-constraints.json"
   ]
 }

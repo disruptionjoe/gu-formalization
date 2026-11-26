@@ -1788,7 +1788,7 @@
     },
     "LB-CLASS": {
       "zero_delta_streak": 0,
-      "runs": 12,
+      "runs": 13,
       "status": "open"
     },
     "LB-LADDER": {
@@ -2707,7 +2707,7 @@
   ],
   "program_run_counter": {
     "since": "2026-11-09",
-    "count": 53,
+    "count": 54,
     "rule": "Every hourly run increments this in its postflight, whatever its lane. Lane C runs when count % 4 == 3 before the increment."
   },
   "working_rule": "Cells are worked at the structure level: a requirement must hold for every action in class C or for a structurally defined subfamily. No cell is worked by writing down a specific action, and no gated cell is worked by building its gate object. See CURRENT-STATE.yaml program_focus.structure_not_specifics.",
@@ -3267,7 +3267,9 @@
           "explorations/conditional-build/source-action-variable-completion-2026-11-25.md",
           "lab/process/source-action-variable-completion.json",
           "explorations/conditional-build/source-action-coupled-ghost-2026-11-25.md",
-          "lab/process/source-action-coupled-ghost.json"
+          "lab/process/source-action-coupled-ghost.json",
+          "explorations/conditional-build/source-action-kappa1-constraints-2026-11-25.md",
+          "lab/process/source-action-kappa1-constraints.json"
         ],
         "choices": "Historical original choices are retained below; current held fermion repair is SE=-1/2 (SE0 superseded), kappa1 with two unselected roots. Typed candidate_choice_budget separates core/completion/pending/comparator/parked choices.",
         "wave2_update": {
@@ -3339,6 +3341,15 @@
           "remaining": "Compute the actual algebraic M_N endomorphism at both kappa1 roots, beginning with the autonomous imaginary sector. Carry surviving energy directions into a specified physical domain; full real metric coupling and observed spin spectrum remain distinct. No complete-selection waiting prerequisite.",
           "source_necessity": "absent",
           "class_C_representativeness": "unproved"
+        },
+        "kappa1_constraint_update": {
+          "result": "Actual closed-time geometric cancellation; complete spin6/7 algebraic constraint inverses at both kappa1 roots (1904/49154 real imaginary-sector constraints); a fixed invisible derivative source has nonzero connection readout after constraint elimination. Opposite scalar constraint signs exclude an everywhere-regular connecting path within the fixed-geometry59 family. No kappa1 energy or physical ghost verdict.",
+          "internal_target": "INTERNAL-REGULAR-CONSTRAINT-PATH-59",
+          "source_necessity": "absent",
+          "class_C_representativeness": "unproved",
+          "remaining": "Use the completed spin6/7 constraints to test actual reduced observed evolution and an existing state restriction, completing only the required receiver closure. Source BRST/domain/pairing and propagated energy exchange remain distinct missing physical inputs. Do not automatically descend through every lower rotation block or add a completion.",
+          "physical_quotient": "No actual nilpotent Q/domain/cohomology supplied; exact/nonclosed/physical status undetermined, not impossible.",
+          "propagation": "Nonzero algebraic derivative-source transfer is certified, not propagated physical leakage, confinement failure or runaway."
         }
       }
     ],
@@ -3406,7 +3417,7 @@
     ],
     "candidate_choice_budget": {
       "authority": "joe_direct_chat_2026_11_25_i",
-      "basis_revision": "fd106229e8f6c8fe4d80e2eaeaa2575c4446e326",
+      "basis_revision": "9ea0a2e820fd2c701bafb3db7bebdb330b6e562e",
       "kind": "candidate_choice_accounting_inside_existing_assumption_view",
       "count_unit": "declared_choice_family_not_scalar_degree_of_freedom",
       "interpretation": [
@@ -3678,7 +3689,8 @@
             "lab/process/conditional-physics-ledger-v0.263.json#LT-SM8",
             "explorations/conditional-build/source-action-predictive-realization-2026-11-25.md"
           ],
-          "coupled_energy_burden": "The large-kappa unrestricted constrained data category has indefinite quadratic canonical energy. A source-typed physical domain could exclude the witnesses only with preserved evolution/observation and a proper pairing; kappa1 remains separate."
+          "coupled_energy_burden": "The large-kappa unrestricted constrained data category has indefinite quadratic canonical energy. A source-typed physical domain could exclude the witnesses only with preserved evolution/observation and a proper pairing; kappa1 remains separate.",
+          "finite_coupling_burden": "Both kappa1 roots have regular spin6/7 constraints and nonzero derivative-induced readout response. No actual Q/domain/cohomology is supplied; a pointwise inverse is not physical quotient or propagation."
         }
       ],
       "constraint_bundles": [
@@ -3693,9 +3705,11 @@
           "evidence": [
             "explorations/conditional-build/source-action-external-datum-candidate-2026-11-25.md",
             "explorations/conditional-build/source-action-datum-variation-tests-2026-11-25.md",
-            "explorations/conditional-build/source-action-coupled-ghost-2026-11-25.md"
+            "explorations/conditional-build/source-action-coupled-ghost-2026-11-25.md",
+            "explorations/conditional-build/source-action-kappa1-constraints-2026-11-25.md"
           ],
-          "constraint_reduction_note": "Exact central elimination and complete time-kernel constraint structure extend action consistency; no extra positive-viability bundle."
+          "constraint_reduction_note": "Exact central elimination and complete time-kernel constraint structure extend action consistency; no extra positive-viability bundle.",
+          "finite_coupling_note": "Actual moving-kernel cancellation, complete spin6/7 inverses and a nonzero constraint readout transfer extend consistency diagnostics; full energy/physical admission remains undetermined."
         },
         {
           "key": "repaired-principal-compatibility",
@@ -3767,23 +3781,24 @@
         "newly_exposed_live_function_freedom": [],
         "replaced_or_refined_families": [],
         "constrained_categories": [
-          "Positive canonical quadratic energy on unrestricted compact constrained data of the existing sufficiently-large-kappa branch is excluded. Physical domain and kappa1 remain open."
+          "Everywhere-regular paths connecting the two roots inside the held fixed-geometry59 family are excluded. Both endpoint spin6/7 constraint blocks remain regular.",
+          "Direct invisibility alone does not force zero derivative-induced algebraic constraint readout."
         ],
         "new_independent_mathematical_compatibility_bundles": 0,
         "new_source_or_observable_prediction_constraints": 0,
         "net_choices_minus_new_compatibility_bundles": 0,
         "net_choices_minus_new_prediction_constraints": 0,
         "counts_provisional_until_new_bundle_accepted": false,
-        "baseline_note": "Same grouping as preceding measured snapshot; exact eliminations and compact diagnostic witnesses are not new model choices. Negative result is not a successful viability obligation."
+        "baseline_note": "Exact projections, representation decomposition and algebraic elimination are derived diagnostics, not new physical choices. Partial inverse checks are not new independent full viability bundles."
       },
       "drift_assessment": {
         "numeric_growth_signal": false,
-        "numeric_basis": "0 new choice families and0 newly satisfied independent viability bundles; net0. Existing constrained-data energy category narrowed.",
+        "numeric_basis": "0 new choice families and0 newly satisfied independent viability bundles; net0. Inventory remains10/4/net6; these are unlike grouped units, not a necessity lower bound.",
         "functional_warning": "Unfalsifiability drift risk: a whole observed dispersion function remains freely selectable despite exact equations and positivity; mathematical compatibility improves but predictive underdetermination is not reduced.",
         "scope": "Warning about the unconstrained candidate-completion strategy, not proof GU is unfalsifiable and not a source/ledger verdict.",
-        "continuation": "Compute the actual algebraic M_N endomorphism at both kappa1 roots, beginning with the autonomous imaginary sector. Carry surviving energy directions into a specified physical domain; full real metric coupling and observed spin spectrum remain distinct. No complete-selection waiting prerequisite.",
+        "continuation": "Use the completed spin6/7 constraints to test actual reduced observed evolution and an existing state restriction, completing only the required receiver closure. Source BRST/domain/pairing and propagated energy exchange remain distinct missing physical inputs. Do not automatically descend through every lower rotation block or add a completion.",
         "prediction_growth_signal": false,
-        "prediction_basis": "No new free choice or source-selected prediction this wave; inherited entire-dispersion freedom remains."
+        "prediction_basis": "No source-selected prediction or new freedom this wave. The inherited entire-dispersion function remains unselected."
       },
       "dependency_summary": [
         "Core geometry/operator/coupling/domain -> local stationary backgrounds.",
@@ -3882,8 +3897,51 @@
             "prediction_growth_signal": false,
             "prediction_basis": "No new free choice or source-selected prediction this wave; inherited entire-dispersion freedom remains."
           }
+        },
+        {
+          "date": "2026-11-25",
+          "evidence": "explorations/conditional-build/source-action-kappa1-constraints-2026-11-25.md",
+          "snapshot": {
+            "core_candidate_families": 5,
+            "diagnostic_completion_families": 5,
+            "active_total_families": 10,
+            "pending_families": 2,
+            "comparator_only_families": 1,
+            "parked_families": 1,
+            "unselected_function_family": "observed-dispersion",
+            "source_or_observable_predictions_fixed": 0,
+            "independent_mathematical_obligation_bundles": 4,
+            "net_families_minus_mathematical_bundles": 6
+          },
+          "delta": {
+            "baseline_active_family_count": 10,
+            "current_active_family_count": 10,
+            "newly_introduced_families": [],
+            "newly_exposed_live_function_freedom": [],
+            "replaced_or_refined_families": [],
+            "constrained_categories": [
+              "Everywhere-regular paths connecting the two roots inside the held fixed-geometry59 family are excluded. Both endpoint spin6/7 constraint blocks remain regular.",
+              "Direct invisibility alone does not force zero derivative-induced algebraic constraint readout."
+            ],
+            "new_independent_mathematical_compatibility_bundles": 0,
+            "new_source_or_observable_prediction_constraints": 0,
+            "net_choices_minus_new_compatibility_bundles": 0,
+            "net_choices_minus_new_prediction_constraints": 0,
+            "counts_provisional_until_new_bundle_accepted": false,
+            "baseline_note": "Exact projections, representation decomposition and algebraic elimination are derived diagnostics, not new physical choices. Partial inverse checks are not new independent full viability bundles."
+          },
+          "drift_assessment": {
+            "numeric_growth_signal": false,
+            "numeric_basis": "0 new choice families and0 newly satisfied independent viability bundles; net0. Inventory remains10/4/net6; these are unlike grouped units, not a necessity lower bound.",
+            "functional_warning": "Unfalsifiability drift risk: a whole observed dispersion function remains freely selectable despite exact equations and positivity; mathematical compatibility improves but predictive underdetermination is not reduced.",
+            "scope": "Warning about the unconstrained candidate-completion strategy, not proof GU is unfalsifiable and not a source/ledger verdict.",
+            "continuation": "Use the completed spin6/7 constraints to test actual reduced observed evolution and an existing state restriction, completing only the required receiver closure. Source BRST/domain/pairing and propagated energy exchange remain distinct missing physical inputs. Do not automatically descend through every lower rotation block or add a completion.",
+            "prediction_growth_signal": false,
+            "prediction_basis": "No source-selected prediction or new freedom this wave. The inherited entire-dispersion function remains unselected."
+          }
         }
-      ]
+      ],
+      "accounting_ceiling": "10 grouped families minus4 grouped mathematical compatibility bundles equals6 only by this monitoring convention. It is not a lower bound on GU-required choices, an independence theorem, a parameter dimension or predictive score. Pending branch choice is not an active family."
     }
   },
   "directed_lc_carry_2026_11_24_recommendation": {
@@ -4080,6 +4138,20 @@
           "lab/process/hostile-reviews/2026-11-25-source-action-coupled-ghost-review.md"
         ],
         "remaining": "Compute the actual algebraic M_N endomorphism at both kappa1 roots, beginning with the autonomous imaginary sector. Carry surviving energy directions into a specified physical domain; full real metric coupling and observed spin spectrum remain distinct. No complete-selection waiting prerequisite."
+      },
+      {
+        "id": "directed_kappa1_constraints_2026_11_25",
+        "status": "consumed_at_complete_spin6_spin7_constraint_and_transfer_scope",
+        "original_direction": "Joe Nov25(j)/(k): test existing kappa1 constraints without new choices; predeclare both/one/neither negative and distinguish physical quotient and propagation.",
+        "evidence": [
+          "explorations/conditional-build/source-action-kappa1-constraints-2026-11-25.md",
+          "lab/process/source-action-kappa1-constraints.json",
+          "tests/program-focus/source_action_kappa1_constraints_probe.py",
+          "Lean/GUFormalization/KappaOneConstraints.lean",
+          "lab/process/hostile-reviews/2026-11-25-source-action-kappa1-constraints-review.md"
+        ],
+        "remaining": "Use the completed spin6/7 constraints to test actual reduced observed evolution and an existing state restriction, completing only the required receiver closure. Source BRST/domain/pairing and propagated energy exchange remain distinct missing physical inputs. Do not automatically descend through every lower rotation block or add a completion.",
+        "outcome_ceiling": "None of the three negative-energy classifications is established;47250 imaginary constraints and the physical evolution/quotient remain outside the result."
       }
     ]
   },

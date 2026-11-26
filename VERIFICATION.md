@@ -17,6 +17,14 @@ External review is not a pathway in this program. The honesty label stays: inter
 
 Sections below are historical snapshots in file order.
 
+## Coupling-one constraints and observed response (2026-11-25)
+
+Actual closed-time geometric cancellation; complete spin6/7 algebraic constraint inverses at both kappa1 roots (1904/49154 real imaginary-sector constraints); a fixed invisible derivative source has nonzero connection readout after constraint elimination. Opposite scalar constraint signs exclude an everywhere-regular connecting path within the fixed-geometry59 family. No kappa1 energy or physical ghost verdict.
+
+The geometric contribution cancels only after actual closed-time projector transport. Both complete highest-rotation constraint blocks are regular at both roots; auxiliary scalar signs are not energy signs. The readout result concerns a specified horizontal derivative source with other independent data fixed, not an admitted solution or physical particle. Full constrained energy, BRST cohomology, propagated exchange and confinement remain undetermined. Three Lean finite-core lemmas and exact rational root-ball certificates support the stated scope. Choice accounting remains10/4/bookkeeping net6, not a lower bound on what GU requires.
+
+[Result](explorations/conditional-build/source-action-kappa1-constraints-2026-11-25.md) · [Evidence](lab/process/source-action-kappa1-constraints.json).
+
 ## Actual coupled constraints and quadratic energy (2026-11-25)
 
 Complete connection constraint reduction and exact central elimination; on the existing sufficiently-large-kappa stationary branch the actual constrained quadratic Hamiltonian has both signs on compact instantaneous data. No kappa1, propagated-mode, quantum-ghost or source/GU verdict.
