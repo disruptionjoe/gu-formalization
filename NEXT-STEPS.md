@@ -16,6 +16,14 @@ Do not add "Current follow-through" sections or "Historical predecessor" stacks 
 matrix or bet file. The retired follow-through chain and banner stack are kept at the end of this file under
 "Archived steering history".
 
+## Standalone symmetry-rigidity manuscript draft (2026-11-26)
+
+Completed a ten-page standalone mathematical draft combining seed-hyperplane rigidity and finite-section-jet ambiguity, with an explicit ordinary metric-Dirac example, verified primary references, editable LaTeX, inspected PDF and premise/review records. Draft only; no scientific verdict or publication-stage change.
+
+The primary claims are stated independently of GU, with source/physical transfer kept conditional. Existing research continuation is unchanged.
+
+[Draft package](papers/drafts/symmetry-rigidity-finite-jets/README.md) · [PDF](papers/drafts/symmetry-rigidity-finite-jets/manuscript.pdf).
+
 ## Covariant bulk freedom beyond every finite section jet (2026-11-26)
 
 Every finite complete section-normal-jet kernel contains infinitely many Lorentz-equivariant copies of arbitrary analytic histories for the actual held column operator. Explicit trace seeds p2,p3,p4 yield exact weighted multiplicities and an arbitrary analytic profile beyond every finite cutoff. Covariance plus finite section calibration cannot uniquely select the bulk extension; observed predictivity and physical quotients remain separate.

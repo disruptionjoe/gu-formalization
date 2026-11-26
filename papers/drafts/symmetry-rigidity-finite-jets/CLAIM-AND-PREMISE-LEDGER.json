@@ -1,0 +1,117 @@
+{
+  "schema_version": "1.0",
+  "status": "draft_only",
+  "title": "Symmetry Rigidity and Finite-Jet Ambiguity for Analytic Extensions on Metric Fibres",
+  "evidence_basis": "6b03209312a9ae4a73798e45fb909601c9c148b3",
+  "source_necessity": "absent for GU; abstract theorem and ordinary mathematical example only",
+  "claims": [
+    {
+      "id": "SEED-RIGIDITY",
+      "label": "thm:rigidity",
+      "statement": "Non-invariant constant linear seed hyperplanes force constant base histories in a covariant solution collection.",
+      "premises": [
+        "fixed equivariant analytic frame",
+        "nonzero W, q0J=Id",
+        "H1 covariance",
+        "H2 central horizontal scaling and complete lower invariance",
+        "H3 diagonal separation with each A_mu J injective",
+        "analytic local germs"
+      ],
+      "proof": "Orbit saturation, homogeneous normal Taylor polynomial uniqueness, central-scale subtraction and coordinate separation.",
+      "scope": "No classification of nonlinear/variable seeds or physical quotients."
+    },
+    {
+      "id": "TRACE-LINE",
+      "label": "prop:lines",
+      "statement": "Connected Lorentz symmetry leaves the trace line as the only eligible normal for nonconstant constant-hyperplane seeds.",
+      "premises": [
+        "eta-self-adjoint real4x4 normal space",
+        "connected Lorentz spin-cover projected action",
+        "fixed-line/character distinction",
+        "SEED-RIGIDITY"
+      ],
+      "proof": "Invariant trace pairing, commuting matrices and perfect Lie algebra.",
+      "scope": "Necessary within the linear constant-seed class, not all extension prescriptions."
+    },
+    {
+      "id": "ANALYTIC-LIFT",
+      "label": "prop:onto",
+      "statement": "Trace-plane CK defines an equivariant right inverse for every analytic history.",
+      "premises": [
+        "H1",
+        "H4 trace noncharacteristic",
+        "q0J=Id",
+        "analytic coefficients/data"
+      ],
+      "proof": "CK existence/uniqueness; transformed seeds solve same problem.",
+      "scope": "Germs, not bounded/global/physical domains."
+    },
+    {
+      "id": "FINITE-JET",
+      "label": "thm:ambiguity",
+      "statement": "Every finite complete normal jet has infinitely many invisible equivariant history copies in an explicit invariant seed subspace.",
+      "premises": [
+        "ANALYTIC-LIFT",
+        "unrestricted analytic seeds",
+        "first-order normal equation",
+        "nonzero W"
+      ],
+      "proof": "Exact CK normal-order filtration; p2,p3,p4 independence and weighted degrees.",
+      "scope": "Explicit subspace, not complete invariant ring or physical particle content."
+    },
+    {
+      "id": "FUNCTIONAL-PROFILE",
+      "label": "cor:function",
+      "statement": "Arbitrary convergent analytic profiles survive each finite cutoff.",
+      "premises": [
+        "FINITE-JET",
+        "scaled regular points of p2,p3,p4 map",
+        "analytic germ integral-domain property"
+      ],
+      "proof": "Seed 1+p2^m G(p2,p3,p4),2m>N; no formal-series convergence assumption.",
+      "scope": "Witness family, not adopted physical choices. All infinite analytic jets determine a germ."
+    },
+    {
+      "id": "DIRAC-EXAMPLE",
+      "label": "prop:dirac",
+      "statement": "An explicit affine metric of total signature9,5 has a local ordinary Dirac operator satisfying H1-H4.",
+      "premises": [
+        "displayed affine product metric",
+        "Levi-Civita connection and local complex spin chart",
+        "homogeneous exponential frame extended by base translations",
+        "J=q0=Id on128-component local spinor fibre"
+      ],
+      "proof": "GL isometry; vertical signature6,4; central frame naturality; invertible Clifford coordinate symbols; dual(dr)=y/8 and norm=-1/16.",
+      "scope": "Mathematical example only, not source GU operator, Standard Model readout or physical positive space."
+    }
+  ],
+  "prior_art": [
+    {
+      "url": "https://doi.org/10.4171/rmi/708",
+      "location": "Proposition3.3",
+      "role": "Equivariant CK is prior machinery."
+    },
+    {
+      "url": "https://arxiv.org/abs/1101.4516",
+      "role": "Classical analytic/polynomial CK and seed compatibility."
+    },
+    {
+      "url": "https://doi.org/10.1007/s00006-024-01314-1",
+      "location": "Theorems2.10-2.11",
+      "role": "Restricted-class uniqueness is not excluded."
+    }
+  ],
+  "novelty_ceiling": "Specific rigidity plus invariant filtered-ambiguity synthesis; bounded search, no world-first certificate.",
+  "formalization": "Existing finite Lean algebra only; no fully formalized analytic PDE or spin geometry.",
+  "manuscript_checks": [
+    "two mathematical reviewers accepted corrected draft",
+    "hostile editorial review; nonzero W and d>=1 repairs integrated",
+    "Taylor-polynomial proof removes common-radius concern",
+    "10 pages compiled with no TeX warnings; all pages rendered/inspected"
+  ],
+  "sha256": {
+    "manuscript.tex": "92cc73628cfe5969bf6823d5ee4f68467f7bdf6f17635d7fec295f5a8fd92f22",
+    "manuscript.pdf": "72fd63ba74f6eca429cb777a80a9ce054462c20d134bfebaa9d5f00abc081175",
+    "build.sh": "a951539a7bf0fd571698ca4925365dd30b72f370efc96014acd51e43aa3b0673"
+  }
+}

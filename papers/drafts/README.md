@@ -22,6 +22,8 @@ lifecycle in [`../README.md`](../README.md).
 
 ## Still in progress here (selected)
 
+- [`symmetry-rigidity-finite-jets/`](symmetry-rigidity-finite-jets/) — ten-page standalone mathematical draft: symmetry restricts constant linear seeds to the trace plane, while invariant profiles retain finite-jet-invisible extension freedom; explicit ordinary Dirac example, PDF and LaTeX.
+
 - [`literal-observation-gamma-kernel-obstruction/`](literal-observation-gamma-kernel-obstruction/)
   — an exact map-level theorem package: literal horizontal pullback can delete
   the normal cancellation that made an ambient one-form spinor gamma-traceless;

@@ -1,0 +1,372 @@
+\documentclass[11pt]{article}
+\usepackage[margin=1in]{geometry}
+\usepackage{amsmath,amssymb,amsthm,mathtools}
+\usepackage{booktabs,microtype}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage[colorlinks=true,linkcolor=blue!45!black,citecolor=blue!45!black,urlcolor=blue!45!black]{hyperref}
+\usepackage{xcolor}
+\usepackage{fancyhdr}
+\pagestyle{fancy}\fancyhf{}
+\fancyhead[L]{\small Symmetry rigidity and finite-jet ambiguity}
+\fancyhead[R]{\small Working draft}
+\fancyfoot[C]{\thepage}
+\setlength{\headheight}{14pt}
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{proposition}[theorem]{Proposition}
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{corollary}[theorem]{Corollary}
+\theoremstyle{definition}\newtheorem{definition}[theorem]{Definition}
+\theoremstyle{remark}\newtheorem{remark}[theorem]{Remark}
+\DeclareMathOperator{\tr}{tr}
+\DeclareMathOperator{\Id}{Id}
+\DeclareMathOperator{\End}{End}
+\DeclareMathOperator{\diag}{diag}
+\DeclareMathOperator{\Ker}{ker}
+\newcommand{\R}{\mathbb R}\newcommand{\C}{\mathbb C}
+\newcommand{\Ncal}{\mathcal N}\newcommand{\Hobs}{\mathcal H}
+\newcommand{\CK}{\mathcal K}\newcommand{\Jet}{\mathcal J}
+\title{Symmetry Rigidity and Finite-Jet Ambiguity\\for Analytic Extensions on Metric Fibres}
+\author{Joseph Hernandez\thanks{Working draft prepared with AI assistance in mathematical drafting, computation, and internal checking. The analytic proofs are not fully proof-assistant formalized.}}
+\date{26 November 2026 \quad\textnormal{---}\quad Draft for review}
+\begin{document}
+\maketitle
+\begin{abstract}
+We study analytic extension from a section of a local bundle of Lorentzian metrics. For a class of first-order systems with homogeneous coefficient identities, covariance of constant data on a non-invariant linear normal hyperplane forces the section field to be constant. Under the connected Lorentz action, the only hyperplane eligible for nonconstant fields is the trace-zero plane. On that plane, a noncharacteristic Cauchy--Kowalevski problem admits every analytic section history. Allowing invariant seed profiles then yields infinitely many equivariant extensions that agree through any prescribed finite normal-jet order, throughout the local section history. Three independent trace polynomials give an explicit filtered family with generating function $((1-t^2)(1-t^3)(1-t^4))^{-1}$. A local pseudo-Riemannian Dirac operator provides a nonempty geometric example. The results separate symmetry of an extension prescription from uniqueness of the extension; they do not exclude uniqueness after a state-space restriction or an observational quotient.
+\end{abstract}
+\noindent\textbf{Keywords:} equivariant extension; Cauchy--Kowalevski theorem; metric bundles; normal jets; Dirac operators.
+
+\section{Introduction}
+An extension problem asks how a field prescribed on a lower-dimensional section can be represented by a field satisfying equations in a larger space. Three questions should be separated. Is the extension prescription compatible with symmetry? Does it determine a unique ambient field? Does it impose an equation on the section field? An affirmative answer to one question need not answer the others.
+
+We address these questions for analytic first-order systems near a section of a metric bundle. The normal variables are self-adjoint endomorphisms relative to a Lorentzian form. A simple prescription extends section data constantly along a linear hyperplane in those variables and then solves a noncharacteristic Cauchy problem. Although the prescription is easy to write in a chosen frame, its compatibility with the isotropy group is restrictive.
+
+Our first result uses orbit saturation and two coefficient identities. If the seed hyperplane has a non-invariant normal line, covariance propagates its constant-data rule to an open normal set. Analyticity then forces normal constancy. Central dilation and independent diagonal scalings force constancy in every base direction as well. For the connected Lorentz group, the only invariant normal line is the trace line. Thus nonconstant covariant constant-hyperplane seeds must use the trace-zero plane.
+
+The trace plane is a sharp surviving case, but it does not select an extension uniquely once invariant normal profiles are admitted. The second result constructs equivariant families invisible to any fixed finite complete normal jet along the section, even when that jet is known throughout the local base history. We give an exact filtration on an explicit polynomial seed subspace and a convergent analytic-function refinement. These conclusions concern two clearly distinguished classes: constant hyperplane seeds in the rigidity theorem, and unrestricted analytic profiles on the invariant plane in the ambiguity theorem.
+
+\paragraph{Relation to established methods.}
+Analytic existence and uniqueness are supplied by the classical Cauchy--Kowalevski theorem. Equivariant CK extension is established machinery: Bock, G\"urlebeck, L\'avi\v cka, and Sou\v cek identify a Lie-algebra-equivariant CK isomorphism for spherical monogenics \cite[Proposition~3.3]{BGLS}. Brackx, De Schepper, L\'avi\v cka, and Sou\v cek study initial-data compatibility and polynomial dimensions in Hermitean Clifford analysis \cite{BDSLS}. Lower-dimensional data can also determine unique extensions in specially restricted function classes; the generalized partial-slice theory of Xu and Sabadini provides a pertinent example \cite[Theorems~2.10--2.11]{XS}. We therefore claim neither a new general CK theorem nor universal nonuniqueness from codimension alone. The contribution is the combination of seed-hyperplane rigidity under metric-fibre homogeneity with an explicit invariant filtration of the remaining extension freedom.
+
+\section{Analytic setting and hypotheses}\label{sec:setting}
+Fix $\eta=\diag(1,1,1,-1)$ and the ten-dimensional real vector space
+\[
+ \Ncal=\{S\in\End(\R^4):S^T\eta=\eta S\}.
+\]
+Near $S=0$, identify $S$ with a Lorentzian metric by
+\begin{equation}\label{eq:metric-chart}
+ y(S)=e^{-S^T}\eta e^{-S}.
+\end{equation}
+The differential at zero is $A\mapsto-2\eta A$, so this is a local analytic chart. The observation section is $S=0$. Let $G=SO^+(3,1)$ act by
+\[
+ (x,S)\longmapsto (hx,hSh^{-1}).
+\]
+For spinorial carriers, all representation statements use a connected covering group admitting the relevant spin lift, with this projected action on $x,S$.
+
+Let $V,W$ be finite-dimensional complex representations with $W\ne\{0\}$, and let the intertwiners satisfy
+\begin{equation}\label{eq:injection}
+ J:W\longrightarrow V,\qquad q_0:V\longrightarrow W,\qquad q_0J=\Id_W.
+\end{equation}
+Fields are expressed in a fixed analytic equivariant frame. In this frame the group acts on components by a representation $\rho(h)$ independent of $S$. The section observation is $q\psi(x)=q_0\psi(x,0)$.
+
+Consider the square linear analytic first-order system
+\begin{equation}\label{eq:D}
+ D\psi=\sum_{\mu=1}^4 A_h^\mu(S)\partial_{x^\mu}\psi
+       +\sum_{\alpha=1}^{10} A_n^\alpha(S)\partial_{S^\alpha}\psi
+       +C(S)\psi=0.
+\end{equation}
+The following are the complete operator assumptions used below.
+\begin{enumerate}
+\item[(H1)] $D$ is equivariant under the displayed group action and the fixed component representation.
+\item[(H2)] For sufficiently small $t$,
+\begin{equation}\label{eq:central}
+ A_h^\mu(S+tI)=e^tA_h^\mu(S),\qquad C(S+tI)=C(S).
+\end{equation}
+No constancy of $C$ in the shape variables is assumed.
+\item[(H3)] For diagonal $S=\diag(s_1,s_2,s_3,s_4)$,
+\begin{equation}\label{eq:diagonal}
+ A_h^\mu(S)=e^{s_\mu}A_\mu,
+ \qquad A_\mu J:W\longrightarrow V\text{ is injective for each }\mu.
+\end{equation}
+\item[(H4)] Writing $r=\tr S/4$, the principal symbol of $D$ at the conormal $dr$ is invertible near the section.
+\end{enumerate}
+Rigidity uses (H1)--(H3); analytic extension uses (H1), (H4), and \eqref{eq:injection}. The section-data space $\Hobs$ consists of analytic $W$-valued germs in the four base variables. The corresponding solution space consists of analytic $V$-valued germs near the section. All identities are local and may require a common smaller neighbourhood. No uniform existence radius, invariant global domain, boundary condition, or Hilbert completion is assumed.
+
+\begin{definition}[Constant-hyperplane seed]
+For a nonzero real covector $\ell\in\Ncal^*$, put $H_\ell=\Ker\ell$. A collection $\mathcal V$ of solutions satisfies the constant-seed rule on $H_\ell$ if every $\psi\in\mathcal V$ obeys
+\begin{equation}\label{eq:seed}
+ \psi(x,S)=Jf(x)\quad(S\in H_\ell),\qquad f=q\psi.
+\end{equation}
+The collection is covariant if the transformed germ of each member is again a member. The collection need not be a vector space.
+\end{definition}
+The choice of frame is part of the definition. Declaring components constant after a normal-dependent change of frame gives a different seed rule.
+
+\section{Rigidity of constant linear seeds}\label{sec:rigidity}
+\begin{theorem}[Seed-hyperplane rigidity]\label{thm:rigidity}
+Assume (H1)--(H3). Let $\mathcal V$ be a covariant collection satisfying \eqref{eq:seed}. If the line $\R\ell$ is not invariant under the dual normal representation, then every $\psi\in\mathcal V$ is of the form $\psi(x,S)=Jf_0$, where $f_0$ is constant. It must additionally satisfy $C(S)Jf_0=0$.
+\end{theorem}
+\begin{proof}
+Covariance and equivariance of $J$ transport \eqref{eq:seed} to every transformed hyperplane $hH_\ell$. Indeed, apply the seed rule to $h\cdot\psi$ and undo the group action; $x$ ranges over an open base neighbourhood, so the resulting identity has the same $f(x)$.
+
+Since $\R\ell$ is not invariant, some Lie-algebra element $K$ has $\ell\circ\operatorname{ad}_K$ not proportional to $\ell$. Hence there is $T\in H_\ell$ for which $\ell([K,T])\ne0$. At $(e,T)$, the derivative of
+\[
+ G\times H_\ell\longrightarrow\Ncal,\qquad (h,U)\longmapsto hUh^{-1}
+\]
+contains $H_\ell$ and the transverse vector $[K,T]$; it is surjective. Scaling $T$ puts such a point arbitrarily close to zero. The union of transformed hyperplanes therefore contains an open normal set. Each homogeneous normal Taylor coefficient of $\psi-Jf$ vanishes on every transformed hyperplane. These coefficients are polynomials in $S$, with analytic base-germ coefficients, so vanishing on that open union makes each coefficient zero. (For any fixed degree, finitely many evaluation points suffice.) Analyticity then gives
+\begin{equation}\label{eq:normal-constant}
+ \psi(x,S)=Jf(x).
+\end{equation}
+This Taylor-coefficient argument avoids requiring one common existence radius for infinitely many transformed germs.
+
+Substitute \eqref{eq:normal-constant} into $D\psi=0$ at $S$ and $S+tI$. All normal derivatives vanish. By \eqref{eq:central}, subtraction gives, for small nonzero $t$,
+\[
+ (e^t-1)\sum_\mu A_h^\mu(S)J\partial_{x^\mu}f=0.
+\]
+Thus the horizontal sum is zero and $C(S)Jf=0$. Evaluate that sum at $S=0$ and at $S=sE_{\mu\mu}$. Equation~\eqref{eq:diagonal} yields
+\[
+ (e^s-1)A_\mu J\partial_{x^\mu}f=0.
+\]
+Injectivity of $A_\mu J$ implies $\partial_{x^\mu}f=0$ for every $\mu$. This proves the assertion.
+\end{proof}
+
+\begin{proposition}[Eligible normal lines]\label{prop:lines}
+For spatial $SO(3)$, the invariant real normal covectors are spanned by spatial trace and the temporal diagonal component. For connected Lorentz symmetry, they are multiples of $\tr S$. Every invariant real covector line is a fixed line. Consequently, a nonconstant Lorentz-covariant collection with a constant linear-hyperplane seed must use $H=\{S:\tr S=0\}$.
+\end{proposition}
+\begin{proof}
+The invariant pairing $(T,S)\mapsto\tr(TS)$ is nondegenerate on $\Ncal$, identifying fixed covectors with $\eta$-self-adjoint matrices commuting with the group. Commutation with spatial rotations gives $T=\diag(a,a,a,b)$. A boost mixing one spatial coordinate with time forces $a=b$.
+
+An invariant real line carries a one-dimensional character. The Lie algebras $\mathfrak{so}(3)$ and $\mathfrak{so}(3,1)$ are perfect, so their characters vanish. Connectedness makes the group character trivial. The final assertion follows from Theorem~\ref{thm:rigidity}.
+\end{proof}
+
+\begin{remark}
+The conclusion is a necessary classification within the stated linear constant-seed class. It does not classify nonlinear seed hypersurfaces, variable profiles, altered readouts, or covariance only after a quotient. If section fields are defined on all of $\R^3$ spatially and are square-integrable there, the constant conclusion of Theorem~\ref{thm:rigidity} makes them zero. No global integrability assumption is used elsewhere.
+\end{remark}
+
+\section{The invariant plane and normal-jet filtration}\label{sec:CK}
+Decompose
+\[
+ S=rI+Q,\qquad r=\tfrac14\tr S,\qquad\tr Q=0.
+\]
+The hypersurface $H=\{r=0\}$ is identified with the nine-dimensional traceless $Q$-space. The variable $Q$ is traceless everywhere, so $\tr Q=0$ is not a further equation defining $H$.
+
+By (H4), the actual system can be written in CK form
+\begin{equation}\label{eq:CK}
+ \partial_r\psi=\sum_{i=1}^9 B^i(r,Q)\partial_{Q_i}\psi
+ +\sum_{\mu=1}^4 B_x^\mu(r,Q)\partial_{x^\mu}\psi+L(r,Q)\psi.
+\end{equation}
+Every coefficient and lower term is retained. Let $\CK(s)$ be the unique analytic solution germ with analytic seed $s(x,Q)$ on $H$.
+
+\begin{proposition}[Equivariant extension of arbitrary histories]\label{prop:onto}
+The map $E_0f=\CK(Jf)$ is an equivariant right inverse of $q$ on $\Hobs$. In particular, $qE_0=\Id$, and every analytic section history is admitted by the unrestricted column equation.
+\end{proposition}
+\begin{proof}
+Existence and uniqueness follow from CK. At $Q=r=0$, the seed and \eqref{eq:injection} give $qE_0f=f$. The operator, hypersurface, and injection are equivariant. Thus $h\cdot E_0f$ and $E_0(h\cdot f)$ solve the same transformed Cauchy problem; uniqueness identifies their germs.
+\end{proof}
+This does not say that individual fields are invariant. Nor does a right inverse define a preferred physical state space: once its image is selected, observation is injective on that image.
+
+Let $I$ be the ideal of analytic seed germs generated by $Q_1,\ldots,Q_9$, with analytic base-dependent coefficients. Define the complete section-normal jet
+\[
+ \Jet_N\psi=\left(\partial_r^j\partial_Q^\beta\psi(x,0,0)\right)_{j+|\beta|\le N}.
+\]
+It is known as a germ in all base variables, including time, not just at one initial time.
+
+\begin{lemma}[Normal-order filtration]\label{lem:order}
+For $d\ge1$, if $s\in I^d$, then $\Jet_{d-1}\CK(s)=0$. For $d\ge0$, if $s=P_d(Q)Jf(x)$ with $P_d$ nonzero homogeneous of degree $d$ and $f\ne0$, its first nonzero normal jet has order exactly $d$, even if $q_0$ is applied to every derivative.
+\end{lemma}
+\begin{proof}
+Write $u_j=\partial_r^j\psi|_{r=0}$. Differentiating \eqref{eq:CK} gives
+\begin{align*}
+ u_{j+1}=\sum_{k=0}^j\binom jk\bigg[
+ &\sum_i(\partial_r^{j-k}B^i)|_0\,\partial_{Q_i}u_k\\
+ &+\sum_\mu(\partial_r^{j-k}B_x^\mu)|_0\,\partial_{x^\mu}u_k
+ +(\partial_r^{j-k}L)|_0\,u_k\bigg].
+\end{align*}
+Inductively $u_j=T_js$, where $T_j$ has differential order at most $j$ in $Q$. Multiplication and base differentiation do not lower $Q$-vanishing order; a $Q$ derivative lowers it by at most one. Hence $u_j\in I^{d-j}$ for $j<d$, proving the vanishing of every total normal derivative below $d$. These vanish as identities in $x$, so all additional base derivatives vanish as well.
+
+Restriction to $H$ recovers the seed. A nonzero degree-$d$ homogeneous polynomial has a nonzero derivative of degree $d$. Applied to the seed and then to $q_0$, it gives a nonzero scalar multiple of $f$, proving sharpness.
+\end{proof}
+
+\section{An exact invariant family invisible to finite jets}\label{sec:ambiguity}
+On the traceless $Q$-space set
+\[
+ p_2(Q)=\tr(Q^2),\qquad p_3(Q)=\tr(Q^3),\qquad p_4(Q)=\tr(Q^4).
+\]
+These are conjugation-invariant, homogeneous of degrees $2,3,4$.
+
+\begin{lemma}\label{lem:independent}
+The polynomials $p_2,p_3,p_4$ are algebraically independent. The substitution
+\[F\longmapsto F(p_2,p_3,p_4)\]
+is injective on scalar analytic germs at zero.
+\end{lemma}
+\begin{proof}
+It suffices to use the subspace $Q=\diag(a,b,c,-a-b-c)$. The derivative of $(p_2,p_3,p_4)$ at $(1,2,3)$ is
+\[
+ \begin{pmatrix}14&16&18\\-105&-96&-81\\868&896&972\end{pmatrix},
+ \qquad \det=24192\ne0.
+\]
+At $\varepsilon(1,2,3)$ the determinant is $24192\varepsilon^6$. The invariant map therefore has open image patches arbitrarily near zero. A polynomial relation vanishes on an open set and is identically zero. If an analytic composite vanishes as a germ, its outer function vanishes on such an open patch inside a connected convergence neighbourhood; the analytic identity theorem makes its germ zero. No diagonalization of general indefinite-self-adjoint matrices is used.
+\end{proof}
+
+For $a,b,c\ge0$, write $d(a,b,c)=2a+3b+4c$ and define
+\[
+ E_{abc}f=\CK(p_2^ap_3^bp_4^cJf).
+\]
+Let $\mathcal U$ denote their algebraic sum, allowing only finitely many nonzero history coefficients in any one sum.
+
+\begin{theorem}[Equivariant finite-jet ambiguity]\label{thm:ambiguity}
+Assume (H1), (H4), and \eqref{eq:injection}.
+\begin{enumerate}
+\item Each $E_{abc}$ is injective and equivariant. Their images form an algebraic direct sum of copies of $\Hobs$.
+\item On $\mathcal U$, the normal-jet kernel is exactly
+\begin{equation}\label{eq:kernel}
+ \Ker(\Jet_N|_{\mathcal U})=
+ \bigoplus_{d(a,b,c)>N} E_{abc}(\Hobs).
+\end{equation}
+The same formula holds for the jet obtained by applying $q_0$ to every derivative.
+\item For every $N$, there are infinitely many distinct equivariant right inverses of $q$ whose complete normal $N$-jets agree for every input history.
+\end{enumerate}
+\end{theorem}
+\begin{proof}
+The seeds intertwine the group action, so CK uniqueness proves equivariance as in Proposition~\ref{prop:onto}. Restricting a finite relation to $H$ and applying $q_0$ gives a polynomial relation with history-valued coefficients. Lemma~\ref{lem:independent}, applied componentwise at each base point, makes all coefficients zero. This proves injectivity and the direct-sum assertion.
+
+Lemma~\ref{lem:order} proves inclusion of the right side in \eqref{eq:kernel}. Conversely, the lowest nonzero weighted homogeneous seed component is detected by a tangential $Q$ derivative of exactly that degree. Higher-degree components cannot cancel it. This proves equality, also after $q_0$.
+
+For $d(a,b,c)>N$, the maps $E_0+\alpha E_{abc}$ have the same $N$-jet as $E_0$. Their added term has zero observation, so all remain right inverses. Distinct $\alpha$ give distinct maps. There are infinitely many independent choices of monomial above any fixed degree.
+\end{proof}
+
+\begin{corollary}[Functional freedom after finite calibration]\label{cor:function}
+Fix $N$ and $m$ with $2m>N$. For every convergent scalar analytic germ $G(u,v,w)$, the seed
+\[
+ \bigl[1+p_2(Q)^mG(p_2(Q),p_3(Q),p_4(Q))\bigr]Jf(x)
+\]
+defines an equivariant observation right inverse. All these maps have the same complete normal $N$-jet as $E_0$, and distinct $G$ give distinct maps.
+\end{corollary}
+\begin{proof}
+The perturbation is analytic and lies in $I^{2m}$, so the filtration lemma applies. Its scalar factor vanishes at zero. Analytic composition is injective by Lemma~\ref{lem:independent}; multiplication by the nonzero germ $p_2^m$ is injective in the scalar analytic germ ring. Restriction to $H$, using one nonzero constant history, distinguishes the extension maps.
+\end{proof}
+This is a convergent analytic construction, not a claim that an arbitrary formal infinite sum converges. For the subfamily with seed $p_2^mJf$, the line $Q=s\diag(1,-1,0,0)$ gives the explicit certificate
+\begin{equation}\label{eq:first-visible}
+ q_0\partial_s^{2m}E_{m00}f\big|_{S=0}=(2m)!\,2^m f.
+\end{equation}
+Every witness is thus detected at some finite order; the witness order increases with the calibration budget.
+
+\subsection{Exact multiplicities in the explicit seed subspace}
+The number $h_d$ of independent history copies first detected at degree $d$ has generating function
+\begin{equation}\label{eq:series}
+ \sum_{d\ge0}h_dt^d=\frac{1}{(1-t^2)(1-t^3)(1-t^4)}.
+\end{equation}
+The cumulative multiplicity through $N$ is
+\begin{equation}\label{eq:count}
+ H(N)=\sum_{c=0}^{\lfloor N/4\rfloor}
+ \sum_{b=0}^{\lfloor(N-4c)/3\rfloor}
+ \left(1+\left\lfloor\frac{N-4c-3b}{2}\right\rfloor\right).
+\end{equation}
+\begin{center}
+\begin{tabular}{crrrrrrrr}
+\toprule
+$N$&0&2&4&6&8&12&20&24\\
+\midrule
+$H(N)$&1&2&5&9&15&34&108&169\\
+\bottomrule
+\end{tabular}
+\end{center}
+These are multiplicities of entire history spaces within $\mathcal U$, not dimensions of the full solution space. For a seed cutoff $D\ge N$, the invisible multiplicity is exactly $H(D)-H(N)$.
+
+The weighted simplex $2a+3b+4c\le N$ in the positive octant has volume $N^3/144$. Taking floors maps its points into counted integer triples. Unit cubes based at those triples are contained in the corresponding simplex of radius $N+9$. Hence
+\[
+ \frac{N^3}{144}\le H(N)\le\frac{(N+9)^3}{144},
+ \qquad H(N)=\frac{N^3}{144}+O(N^2).
+\]
+No assertion that $p_2,p_3,p_4$ exhaust the Lorentz invariant ring is required. Polynomial multiplication is performed on seeds; ordinary pointwise multiplication of solutions need not preserve $D\psi=0$.
+
+\section{A self-contained geometric example}\label{sec:example}
+The hypotheses are realized by an ordinary local Dirac operator on an affine metric model; they do not require a particular proposed unified action.
+
+Let $Y=\R^4\times\mathcal M_{3,1}$, where $\mathcal M_{3,1}$ is the open set of nondegenerate symmetric forms of signature $(3,1)$. On its natural affine product tangent space define
+\begin{align}\label{eq:G}
+ \mathsf G_{(x,y)}((v,h),(w,k))={}&y(v,w)
+ +\tr(y^{-1}hy^{-1}k)\notag\\[-2pt]
+ &-\tfrac12\tr(y^{-1}h)\tr(y^{-1}k).
+\end{align}
+This uses the affine product splitting; it is not a claim of a canonical horizontal splitting on an arbitrary curved base. The action
+\[
+ (x,y)\longmapsto(gx,g^{-T}yg^{-1}),\qquad g\in GL^+(4,\R),
+\]
+is isometric: the horizontal term transforms by cancellation of $g$ and $g^{-1}$, and each vertical trace is unchanged by conjugation. Translations in $x$ are isometries as well.
+
+\begin{proposition}\label{prop:dirac}
+On a sufficiently small spin chart of $(Y,\mathsf G)$, the pseudo-Riemannian Dirac operator satisfies (H1)--(H4) in the homogeneous exponential frame. One may take $V=W$ equal to its complex spinor fibre and $J=q_0=\Id$.
+\end{proposition}
+\begin{proof}
+At $y=\eta$, write $h=-2\eta A$ and $k=-2\eta B$ with $A,B\in\Ncal$. The vertical form is
+\[
+ b(A,B)=4\tr(AB)-2\tr A\tr B.
+\]
+The trace line is negative; traceless diagonal matrices and the three spatial symmetric off-diagonal matrices are positive; the three space--time off-diagonal matrices are negative. Thus the vertical signature is $(6,4)$ and the total signature is $(9,5)$. The analytic metric is nondegenerate, so a local complex spinor bundle and analytic Levi--Civita Dirac operator exist. Its principal symbol is Clifford multiplication by the metric dual of the covector, hence is invertible for nonnull covectors.
+
+Transport an orthonormal frame at $(0,\eta)$ by the affine isometries with $g=e^S$, then extend in $x$ by translations and use a compatible local spin frame. The horizontal vectors are $e^Se_\mu$. The transported vertical vectors are obtained from $A\in\Ncal$ as
+\[
+ -2e^{-S^T}\eta A e^{-S}.
+\]
+These are moving-frame vectors, not the coordinate vectors $\partial_{S^\alpha}$; the analytic change between the two is retained in the operator coefficients. Conjugation by $h\in SO^+(3,1)$ acts on this frame by its fixed isotropy representation. Naturality of the Levi--Civita connection and Clifford multiplication proves (H1), using the connected spin lift.
+
+Central $g=e^tI$ induces $(x,S)\mapsto(e^t x,S+tI)$ and preserves the frame componentwise. In log coordinates the pushforward scales $\partial_{x^\mu}$ by $e^t$ and leaves normal coordinate derivatives unchanged. Naturality of the complete Dirac operator gives \eqref{eq:central}. In particular the full lower coefficient $C$ is invariant under central shift, although it can depend on shape. On diagonal $S$, the horizontal frame is $e^{s_\mu}e_\mu$, giving \eqref{eq:diagonal}. Each $A_\mu$ is Clifford multiplication by a nonnull frame vector, up to its nonzero metric sign, and is invertible.
+
+Finally,
+\[
+ r=-\tfrac18\log|\det(\eta^{-1}y)|,
+ \qquad dr(h)=-\tfrac18\tr(y^{-1}h).
+\]
+Its vertical metric dual is $y/8$, because inserting that vector into the vertical part of \eqref{eq:G} gives $-\tr(y^{-1}h)/8$. Its squared norm is $-1/16$. Thus $dr$ is nonnull, proving (H4).
+\end{proof}
+
+In this example the complex spinor fibre has dimension $2^7=128$. It serves only to exhibit a concrete nonempty operator class. It is not a physical-state count or an identification with a source-derived matter representation. The trace plane fixes the pointwise metric volume density, since $\det y=\det\eta\,e^{-2\tr S}$; it does not impose a finite integrated volume.
+
+\section{What the result does and does not determine}\label{sec:limits}
+\paragraph{Finite calibration.}
+Any criterion factoring through a fixed $\Jet_N$ has the same value on the indistinguishable extensions of Theorem~\ref{thm:ambiguity}. This includes nonlinear criteria, extra base derivatives, and functionals of the measured jet history. It does not include conditions on an open bulk region, integrated fibre observables, asymptotic data, or an unbounded hierarchy of normal derivatives.
+
+\paragraph{Infinite analytic jets.}
+If every full normal derivative of two analytic solutions agrees along the section, their normal Taylor series agree and the solution germs agree. Our statement is $\forall N\,\exists$ indistinguishable distinct extensions, not the reversed quantifiers asserting a nonzero analytic field invisible to all orders. Equation~\eqref{eq:first-visible} makes this distinction explicit.
+
+\paragraph{A selected image and a quotient.}
+The image of any particular right inverse, including $E_0$, is injectively observed. Requiring the entire constant seed on $H$ excludes the nonconstant profiles. An observational quotient can also identify different ambient representatives. Accordingly, bulk nonuniqueness does not imply that visible histories cannot obey a predictive equation. Proposition~\ref{prop:onto} says only that the unrestricted column equation and covariance alone impose no nontrivial finite-order differential relation on all section histories: every prescribed finite base jet is realized by a polynomial history and hence has a lift.
+
+\paragraph{Failure outside the assumptions.}
+The first-order condition is substantive. For $u_r=u_{ss}$, seed $s^d$ produces a term proportional to $rs^{d-2}$, reducing total normal order. Likewise, the lower-coefficient identity in (H2) is substantive: $D=e^r(\partial_x-m)$ admits the normal-constant nonconstant-base field $e^{mx}$, but its lower term is not central-shift invariant. Changes of frame, seed class, readout, or physical admissibility must therefore be stated before transferring the conclusions.
+
+\paragraph{Application to reconstructed field systems.}
+The motivating calculations concern a reconstructed system of vector-spinor and scalar-spinor fields on the metric bundle, with a repaired first-order symbol and homogeneous background coefficients \cite{Repo}. The abstract results apply when its fixed-frame covariance, coefficient identities, and noncharacteristic trace symbol have been verified. That application remains distinct from the ordinary Dirac example above and from any claim that a proposed physical theory selects this operator, its unrestricted analytic domain, or a positive physical quotient. No conclusion here counts generations, identifies hidden particles, or falsifies Geometric Unity.
+
+\section{Conclusion}
+Within the homogeneous analytic operator class, symmetry imposes a rigid condition on constant linear-hyperplane extension prescriptions: the connected Lorentz group leaves only the trace plane eligible for nonconstant fields. On that plane, invariant analytic profiles retain functional extension freedom beyond every finite section-normal calibration. The first result constrains the geometry of a simple prescription; the second quantifies what that constraint does not select. Determining a physical or otherwise preferred extension requires additional structure whose role cannot be replaced by covariance and a fixed finite normal jet alone.
+
+\appendix
+\section{Reproducibility and verification scope}
+The accompanying draft package records the precise premises and maps the statements to the written proofs and finite certificates at the pinned repository revision \texttt{6b032093} \cite{Repo}. Exact rational computations check the normal representation, conormal normalization, Jacobian, weighted counts, and the reconstructed system's principal-symbol identities. Lean checks finite algebraic consequences, including affine-kernel descriptions of indistinguishable right inverses and polynomial coefficient isolation. It does not formalize the analytic CK theorem, orbit-saturation argument, spin geometry, or the physical interpretation. The proofs in this note carry those obligations explicitly. Internal mathematical checks and AI assistance are not represented as external peer review.
+
+\begin{thebibliography}{9}
+\bibitem{BGLS}
+S.~Bock, K.~G\"urlebeck, R.~L\'avi\v cka, and V.~Sou\v cek,
+\emph{Gelfand--Tsetlin bases for spherical monogenics in dimension 3},
+Revista Matem\'atica Iberoamericana \textbf{28} (2012), 1165--1192.
+\href{https://doi.org/10.4171/rmi/708}{doi:10.4171/rmi/708}.
+
+\bibitem{BDSLS}
+F.~Brackx, H.~De Schepper, R.~L\'avi\v cka, and V.~Sou\v cek,
+\emph{The Cauchy--Kovalevskaya extension theorem in Hermitean Clifford analysis},
+preprint (2011). \href{https://arxiv.org/abs/1101.4516}{arXiv:1101.4516}.
+
+\bibitem{XS}
+Z.~Xu and I.~Sabadini,
+\emph{Generalized partial-slice monogenic functions: a synthesis of two function theories},
+Advances in Applied Clifford Algebras \textbf{34}, article 10 (2024).
+\href{https://doi.org/10.1007/s00006-024-01314-1}{doi:10.1007/s00006-024-01314-1}.
+
+\bibitem{Repo}
+J.~Hernandez, \emph{GU Formalization}, research repository,
+revision \texttt{6b032093} (26 November 2026).
+\href{https://github.com/disruptionjoe/gu-formalization/tree/6b03209312a9ae4a73798e45fb909601c9c148b3}{Pinned source and finite verification artifacts}.
+Includes the reports \emph{Symmetry fixes where to extend, not what happens} and \emph{Covariance and finite section data cannot select the bulk}, with their exact finite certificates.
+\end{thebibliography}
+\end{document}

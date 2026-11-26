@@ -140,6 +140,30 @@ program_focus:
     covered; source relevance separately from mathematical breadth; shared prerequisite if any; remaining
     cost; strongest eligible alternative. A blocked high-value target is not an eligible alternative without
     its missing input. Reuse completed theorems and compare only their uncovered successors.'
+symmetry_rigidity_finite_jets_draft_2026_11_26:
+  authority: joe_direct_chat_2026_11_26_draft_most_publishable
+  status: working_draft_not_publication_candidate
+  actual_delta: Completed a ten-page standalone mathematical draft combining seed-hyperplane rigidity
+    and finite-section-jet ambiguity, with an explicit ordinary metric-Dirac example, verified primary
+    references, editable LaTeX, inspected PDF and premise/review records. Draft only; no scientific verdict
+    or publication-stage change.
+  evidence:
+  - papers/drafts/symmetry-rigidity-finite-jets/README.md
+  - papers/drafts/symmetry-rigidity-finite-jets/manuscript.tex
+  - papers/drafts/symmetry-rigidity-finite-jets/manuscript.pdf
+  - papers/drafts/symmetry-rigidity-finite-jets/CLAIM-AND-PREMISE-LEDGER.json
+  - papers/drafts/symmetry-rigidity-finite-jets/VERIFICATION.md
+  - papers/drafts/symmetry-rigidity-finite-jets/review.md
+  selection_reason: Combined rigidity and filtered ambiguity has a clearer contribution than finitejet
+    CK nonuniqueness alone; classical equivariant CK explicitly credited.
+  mathematical_scope: Explicit H1-H4/nonzero observed carrier/local analytic class; ordinary Dirac example
+    is not source GU. No worldwide novelty or assured acceptance claim.
+  continuation: Author review of draft; no submission implied. Existing source-supported physical restriction/quotient
+    and diagnostic weak-response research continue.
+  priority_control_effect: Scheduled priority, program_focus, source/physics/canon/paper-posted verdicts
+    and choice budget unchanged.
+  accounting: Directed packaging count63to64/LBCLASS22to23; no scientific shrinkage or bet credit; ordinary
+    LC retained.
 source_action_covariant_jet_ambiguity_2026_11_26:
   authority: joe_direct_chat_2026_11_26_prove_something_novel
   status: internal_reviewed_T1_scoped_uniqueness_exclusion
