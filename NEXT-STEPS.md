@@ -16,6 +16,14 @@ Do not add "Current follow-through" sections or "Historical predecessor" stacks 
 matrix or bet file. The retired follow-through chain and banner stack are kept at the end of this file under
 "Archived steering history".
 
+## Ghost steelman and external-datum findings (2026-11-26)
+
+Both certified kappa1 backgrounds fail the original flat Bott boundary by exact nonzero tangential curvature. Leading negative-energy witnesses are trace-free but have nonzero mixed-negative auxiliary fibre components. Under full auxiliary regularity, local gauge removal, equivalent positive-metric unitarization and boundary-only repair retaining compact data are excluded in their stated categories. Physical ghosts and other charged stationary backgrounds remain undetermined.
+
+The endpoint boundary test is independent of full M regularity; the compact-energy/gauge/metric arguments name that premise. Existing Bott3 remains imported and unmatched, with no chirality or stability credit. Four of the ten grouped choices enter the zero-matter bosonic energy; six do not. Genuine fakeon history projection and other physical domains remain undetermined. Exact certificate reuse and four finite Lean lemmas passed; choice inventory unchanged.
+
+[Result](explorations/conditional-build/source-action-steelman-datum-2026-11-26.md) · [Evidence](lab/process/source-action-steelman-datum.json).
+
 ## Actual first graph and charged-matter compatibility (2026-11-26)
 
 An exact native spatial-null witness excludes bounded actual variable-coefficient evolution in the unrestricted first constraint-graph L2 domain, conditional on full auxiliary regularity, at both kappa1 roots. Nonzero selected positive-charge matter has no all-real-Clifford bosonic coupled extension, already at order epsilon2. Scalar time-trace pencil rank stays20 including null covectors; no signature-based propagation claim. Physical ghosts remain undetermined.

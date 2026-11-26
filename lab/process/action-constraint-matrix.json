@@ -1788,7 +1788,7 @@
     },
     "LB-CLASS": {
       "zero_delta_streak": 0,
-      "runs": 15,
+      "runs": 16,
       "status": "open"
     },
     "LB-LADDER": {
@@ -2707,7 +2707,7 @@
   ],
   "program_run_counter": {
     "since": "2026-11-09",
-    "count": 56,
+    "count": 57,
     "rule": "Every hourly run increments this in its postflight, whatever its lane. Lane C runs when count % 4 == 3 before the increment."
   },
   "working_rule": "Cells are worked at the structure level: a requirement must hold for every action in class C or for a structurally defined subfamily. No cell is worked by writing down a specific action, and no gated cell is worked by building its gate object. See CURRENT-STATE.yaml program_focus.structure_not_specifics.",
@@ -3273,7 +3273,9 @@
           "explorations/conditional-build/source-action-reduced-evolution-2026-11-26.md",
           "lab/process/source-action-reduced-evolution.json",
           "explorations/conditional-build/source-action-graph-domain-2026-11-26.md",
-          "lab/process/source-action-graph-domain.json"
+          "lab/process/source-action-graph-domain.json",
+          "explorations/conditional-build/source-action-steelman-datum-2026-11-26.md",
+          "lab/process/source-action-steelman-datum.json"
         ],
         "choices": "Historical original choices are retained below; current held fermion repair is SE=-1/2 (SE0 superseded), kappa1 with two unselected roots. Typed candidate_choice_budget separates core/completion/pending/comparator/parked choices.",
         "wave2_update": {
@@ -3374,6 +3376,14 @@
           "graph_hypotheses": "Stationary actual coefficients, full M_N regular, exact first graph L2 norm, all compact smooth graph sections and Duhamel bounded flow. Higher/mixed/restricted domains remain open.",
           "coupled_hypotheses": "Held W2/fullU action, compact interior variations, classical c-number independent bars and nonzero positive phasecharge; no allrealbosonic extension. Imaginary source need not excite negative energy.",
           "physical_quotient": "Actual Q/domain/cohomology and source-selected physical pairing remain undetermined, not ruled out."
+        },
+        "steelman_datum_update": {
+          "result": "Both certified kappa1 backgrounds fail the original flat Bott boundary by exact nonzero tangential curvature. Leading negative-energy witnesses are trace-free but have nonzero mixed-negative auxiliary fibre components. Under full auxiliary regularity, local gauge removal, equivalent positive-metric unitarization and boundary-only repair retaining compact data are excluded in their stated categories. Physical ghosts and other charged stationary backgrounds remain undetermined.",
+          "source_necessity": "absent",
+          "class_C_representativeness": "unproved",
+          "remaining": "Keep packet5o ready: test the actual fixed positive-matter current against owned negative-energy receivers with the same injection/domain, carrying singular auxiliary constraints and physical propagation/quotient separately. Higher derived graph domains remain open. Original Bott datum needs an actually matching stationary background before a new stability Hessian; no new datum variant or prescription is installed.",
+          "boundary_scope": "Direct endpoint nonflatness excludes these two roots with original flat Bott boundary, independently of full M. Not a no-stationary-datum theorem.",
+          "physical_scope": "BRST quartet, propagated physical negative modes and source-selected stable completion remain undetermined."
         }
       }
     ],
@@ -3441,7 +3451,7 @@
     ],
     "candidate_choice_budget": {
       "authority": "joe_direct_chat_2026_11_25_i",
-      "basis_revision": "e00643bf20cad4a5d7d10d8366f47ca7a16980b0",
+      "basis_revision": "f805f74a3cedb60ef2b5a99769a074ba4af7b010",
       "kind": "candidate_choice_accounting_inside_existing_assumption_view",
       "count_unit": "declared_choice_family_not_scalar_degree_of_freedom",
       "interpretation": [
@@ -3698,12 +3708,14 @@
         },
         {
           "key": "imported-boundary",
-          "status": "parked_failed_in_tested_matching_scope",
+          "status": "parked_failed_for_small_h_and_both_owned_kappa1_roots",
           "description": "Bott k=3, Krein splitting and radial boundary extension are the original off-shell datum attempt; not adopted as current stationary boundary conditions.",
           "evidence": [
             "explorations/conditional-build/source-action-external-datum-candidate-2026-11-25.md",
-            "explorations/conditional-build/source-action-engineering-wave-2026-11-25.md"
-          ]
+            "explorations/conditional-build/source-action-engineering-wave-2026-11-25.md",
+            "explorations/conditional-build/source-action-steelman-datum-2026-11-26.md"
+          ],
+          "endpoint_update": "Exact nonzero tangential F58[gamma0gamma1] at both roots forbids original flat Bott boundary. Other charged stationary solutions remain undetermined; no stability/chirality credit."
         },
         {
           "key": "interacting-physical-quotient",
@@ -3716,7 +3728,8 @@
           "coupled_energy_burden": "The large-kappa unrestricted constrained data category has indefinite quadratic canonical energy. A source-typed physical domain could exclude the witnesses only with preserved evolution/observation and a proper pairing; kappa1 remains separate.",
           "finite_coupling_burden": "Both kappa1 roots have regular spin6/7 constraints and nonzero derivative-induced readout response. No actual Q/domain/cohomology is supplied; a pointwise inverse is not physical quotient or propagation.",
           "reduced_evolution_burden": "Both roots have conditional negative compact constrained canonical-energy data. Actual Q/domain/cohomology and admitted propagated exchange remain undetermined. Equal-Hs failure is not instability; graph/mixed norms may be derived.",
-          "graph_domain_burden": "First graph alone does not restore unrestricted bounded evolution. Some imaginary bosonic response is forced by nonzero selected charge, but physical cohomology and overlap with negative-energy directions remain open."
+          "graph_domain_burden": "First graph alone does not restore unrestricted bounded evolution. Some imaginary bosonic response is forced by nonzero selected charge, but physical cohomology and overlap with negative-energy directions remain open.",
+          "steelman_update": "Actual dressing leaves Ahat invariant; under full M regularity no finite-order arbitrary-function local gauge image reaches imaginary data. This is not construction or exclusion of every physical Q. Equivalent bounded graph metrics and unchanged-core boundary repair fail; nonlocal/restricted routes remain."
         }
       ],
       "constraint_bundles": [
@@ -3811,25 +3824,25 @@
         "newly_exposed_live_function_freedom": [],
         "replaced_or_refined_families": [],
         "constrained_categories": [
-          "The unrestricted first constraint-graph L2 bounded-flow category is excluded for actual stationary variable coefficients under full auxiliary regularity.",
-          "Entirely real-Clifford bosonic coupled extensions with nonzero selected positive matter charge are excluded, already at order epsilon2.",
-          "Graph/mixed norm completion retaining all compact smooth data cannot remove existing negative canonical energy; a dense positive core is impossible in an energy-continuous graph topology."
+          "Both owned kappa1 roots cannot meet original flat Bott boundary, for any k.",
+          "Regular local differential gauge images and bounded coercive equivalent graph metrics cannot supply the proposed repair in their stated categories.",
+          "Boundary-only repair retaining compact constrained data cannot change the local negative principal energy."
         ],
         "new_independent_mathematical_compatibility_bundles": 0,
         "new_source_or_observable_prediction_constraints": 0,
         "net_choices_minus_new_compatibility_bundles": 0,
         "net_choices_minus_new_prediction_constraints": 0,
         "counts_provisional_until_new_bundle_accepted": false,
-        "baseline_note": "The extra principal derivative row is a derived lead, not an installed physical law or successful full viability bundle. Both source/current and domain exclusions preserve source/candidate distinctions."
+        "baseline_note": "No new choice or successful stability/chirality credit. Imported Bott3 has no observed-family receiver and neither owned root matches it."
       },
       "drift_assessment": {
         "numeric_growth_signal": false,
-        "numeric_basis": "0 new choices/0 newly satisfied full viability bundles; inventory10/4/bookkeeping net6 unchanged, not a GU necessity bound.",
+        "numeric_basis": "0 new choices/0 newly satisfied full viability bundles; inventory10/4/bookkeepingnet6 unchanged.",
         "functional_warning": "Unfalsifiability drift risk: a whole observed dispersion function remains freely selectable despite exact equations and positivity; mathematical compatibility improves but predictive underdetermination is not reduced.",
         "scope": "Warning about the unconstrained candidate-completion strategy, not proof GU is unfalsifiable and not a source/ledger verdict.",
-        "continuation": "Test the actual imaginary response forced by the existing positive matter current, including its projection onto owned negative-energy directions under the same fixed injection/domain; source nonzero alone does not prove overlap. Separately test the one-extra-jet derived filtration with actual coefficients/all covectors before claiming a higher graph repair. Singular auxiliary branches retain residual constraints; no new completion or automatic lower-block enumeration.",
+        "continuation": "Keep packet5o ready: test the actual fixed positive-matter current against owned negative-energy receivers with the same injection/domain, carrying singular auxiliary constraints and physical propagation/quotient separately. Higher derived graph domains remain open. Original Bott datum needs an actually matching stationary background before a new stability Hessian; no new datum variant or prescription is installed.",
         "prediction_growth_signal": false,
-        "prediction_basis": "No source-selected prediction or new freedom; neither stationary root selected."
+        "prediction_basis": "No source-selected prediction or double-duty datum credit."
       },
       "dependency_summary": [
         "Core geometry/operator/coupling/domain -> local stationary backgrounds.",
@@ -4056,9 +4069,68 @@
             "prediction_growth_signal": false,
             "prediction_basis": "No source-selected prediction or new freedom; neither stationary root selected."
           }
+        },
+        {
+          "date": "2026-11-26",
+          "evidence": "explorations/conditional-build/source-action-steelman-datum-2026-11-26.md",
+          "snapshot": {
+            "core_candidate_families": 5,
+            "diagnostic_completion_families": 5,
+            "active_total_families": 10,
+            "pending_families": 2,
+            "comparator_only_families": 1,
+            "parked_families": 1,
+            "unselected_function_family": "observed-dispersion",
+            "source_or_observable_predictions_fixed": 0,
+            "independent_mathematical_obligation_bundles": 4,
+            "net_families_minus_mathematical_bundles": 6
+          },
+          "delta": {
+            "baseline_active_family_count": 10,
+            "current_active_family_count": 10,
+            "newly_introduced_families": [],
+            "newly_exposed_live_function_freedom": [],
+            "replaced_or_refined_families": [],
+            "constrained_categories": [
+              "Both owned kappa1 roots cannot meet original flat Bott boundary, for any k.",
+              "Regular local differential gauge images and bounded coercive equivalent graph metrics cannot supply the proposed repair in their stated categories.",
+              "Boundary-only repair retaining compact constrained data cannot change the local negative principal energy."
+            ],
+            "new_independent_mathematical_compatibility_bundles": 0,
+            "new_source_or_observable_prediction_constraints": 0,
+            "net_choices_minus_new_compatibility_bundles": 0,
+            "net_choices_minus_new_prediction_constraints": 0,
+            "counts_provisional_until_new_bundle_accepted": false,
+            "baseline_note": "No new choice or successful stability/chirality credit. Imported Bott3 has no observed-family receiver and neither owned root matches it."
+          },
+          "drift_assessment": {
+            "numeric_growth_signal": false,
+            "numeric_basis": "0 new choices/0 newly satisfied full viability bundles; inventory10/4/bookkeepingnet6 unchanged.",
+            "functional_warning": "Unfalsifiability drift risk: a whole observed dispersion function remains freely selectable despite exact equations and positivity; mathematical compatibility improves but predictive underdetermination is not reduced.",
+            "scope": "Warning about the unconstrained candidate-completion strategy, not proof GU is unfalsifiable and not a source/ledger verdict.",
+            "continuation": "Keep packet5o ready: test the actual fixed positive-matter current against owned negative-energy receivers with the same injection/domain, carrying singular auxiliary constraints and physical propagation/quotient separately. Higher derived graph domains remain open. Original Bott datum needs an actually matching stationary background before a new stability Hessian; no new datum variant or prescription is installed.",
+            "prediction_growth_signal": false,
+            "prediction_basis": "No source-selected prediction or double-duty datum credit."
+          }
         }
       ],
-      "accounting_ceiling": "10 grouped families minus4 grouped mathematical compatibility bundles equals6 only by this monitoring convention. It is not a lower bound on GU-required choices, an independence theorem, a parameter dimension or predictive score. Pending branch choice is not an active family."
+      "accounting_ceiling": "10 grouped families minus4 grouped mathematical compatibility bundles equals6 only by this monitoring convention. It is not a lower bound on GU-required choices, an independence theorem, a parameter dimension or predictive score. Pending branch choice is not an active family.",
+      "steelman_dependencies": {
+        "relevant": [
+          "geometry-real-form",
+          "shiab-recipe",
+          "coupling-normalization",
+          "variational-domain"
+        ],
+        "irrelevant_at_zero_matter": [
+          "fermion-recipe",
+          "lift-prescription",
+          "spectral-window",
+          "observed-dispersion",
+          "bar-dual-contour",
+          "normal-window"
+        ]
+      }
     }
   },
   "directed_lc_carry_2026_11_24_recommendation": {
@@ -4297,6 +4369,21 @@
         ],
         "remaining": "Test the actual imaginary response forced by the existing positive matter current, including its projection onto owned negative-energy directions under the same fixed injection/domain; source nonzero alone does not prove overlap. Separately test the one-extra-jet derived filtration with actual coefficients/all covectors before claiming a higher graph repair. Singular auxiliary branches retain residual constraints; no new completion or automatic lower-block enumeration.",
         "outcome_ceiling": "Actual first graph no-bounded-flow theorem assumes full regularity/compact core; coupled realboson obstruction uses selected positive c-number charge. No physicalghost/GU or allhigherdomain exclusion."
+      },
+      {
+        "id": "directed_steelman_datum_2026_11_26_b_c",
+        "status": "consumed_at_cheap_checks_and_exact_endpoint_scope",
+        "original_direction": "Joe Nov26(b,c): steelman conformal/choice/BRST/positive metric/fakeon and external-datum stabilization, cheap first; no new uncited choices.",
+        "evidence": [
+          "explorations/conditional-build/source-action-steelman-datum-2026-11-26.md",
+          "lab/process/source-action-steelman-datum.json",
+          "Lean/GUFormalization/SteelmanDatum.lean",
+          "lab/process/hostile-reviews/2026-11-26-source-action-steelman-datum-review.md",
+          "tests/program-focus/source_action_steelman_conformal_probe.py",
+          "tests/program-focus/source_action_datum_boundary_probe.py"
+        ],
+        "remaining": "Keep packet5o ready: test the actual fixed positive-matter current against owned negative-energy receivers with the same injection/domain, carrying singular auxiliary constraints and physical propagation/quotient separately. Higher derived graph domains remain open. Original Bott datum needs an actually matching stationary background before a new stability Hessian; no new datum variant or prescription is installed.",
+        "outcome_ceiling": "No physical ghost or source falsification; other matching stationary backgrounds and physical domains undetermined."
       }
     ]
   },

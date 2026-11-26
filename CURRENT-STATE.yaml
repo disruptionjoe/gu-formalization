@@ -1,7 +1,7 @@
 schema_version: '1.0'
 repository: observerse-research-program
 branch: main
-revision_basis: e00643bf20cad4a5d7d10d8366f47ca7a16980b0
+revision_basis: f805f74a3cedb60ef2b5a99769a074ba4af7b010
 program_focus:
   version: 2026-11-25-v1
   authority: joe_direct_chat_2026_11_25_five_process_improvements_approved
@@ -140,6 +140,31 @@ program_focus:
     covered; source relevance separately from mathematical breadth; shared prerequisite if any; remaining
     cost; strongest eligible alternative. A blocked high-value target is not an eligible alternative without
     its missing input. Reuse completed theorems and compare only their uncovered successors.'
+source_action_steelman_datum_2026_11_26:
+  status: internally_reviewed_T1_scoped_steelman_and_datum_matching
+  actual_delta: Both certified kappa1 backgrounds fail the original flat Bott boundary by exact nonzero
+    tangential curvature. Leading negative-energy witnesses are trace-free but have nonzero mixed-negative
+    auxiliary fibre components. Under full auxiliary regularity, local gauge removal, equivalent positive-metric
+    unitarization and boundary-only repair retaining compact data are excluded in their stated categories.
+    Physical ghosts and other charged stationary backgrounds remain undetermined.
+  evidence:
+  - explorations/conditional-build/source-action-steelman-datum-2026-11-26.md
+  - lab/process/source-action-steelman-datum.json
+  - Lean/GUFormalization/SteelmanDatum.lean
+  - lab/process/hostile-reviews/2026-11-26-source-action-steelman-datum-review.md
+  - tests/program-focus/source_action_steelman_conformal_probe.py
+  - tests/program-focus/source_action_datum_boundary_probe.py
+  claim_effect: Internal candidate/scoped repair findings only; no source/physics/C/canon/paper or scientific
+    matrix verdict.
+  next_condition: 'Keep packet5o ready: test the actual fixed positive-matter current against owned negative-energy
+    receivers with the same injection/domain, carrying singular auxiliary constraints and physical propagation/quotient
+    separately. Higher derived graph domains remain open. Original Bott datum needs an actually matching
+    stationary background before a new stability Hessian; no new datum variant or prescription is installed.'
+  priority_effect: Joe Nov26(b,c) audit consumed at recorded scope; packet5o remains ready. program_focus
+    and LC/schedules unchanged.
+  choice_accounting: 10 grouped families/4 grouped bundles/bookkeepingnet6 unchanged; no new family, viability
+    bundle or source prediction. Not a GU lower bound.
+  counter_accounting: 56->57 once; LBCLASS15->16; no betcredit; pending ordinaryLC retained
 source_action_graph_domain_2026_11_26:
   status: internally_reviewed_T1_first_graph_and_charged_real_boson_exclusions
   actual_delta: An exact native spatial-null witness excludes bounded actual variable-coefficient evolution

@@ -138,3 +138,7 @@ Step5l retains source Q/domain/physical-pairing burdens. Neither root is selecte
 | 5o Actual charged-matter energy receiver and derived jet closure | ready in directed continuation | LB-CLASS / T2; T1 for a precise exclusion | Map the actual positive-graph current into owned negative-energy/coupled directions using the same J/domain; compare with actual higher-jet closure across directions | Current nonzero is not negative-mode overlap. No refitted graph, arbitrary positive completion or full lower-block backlog; physical Q/domain remains explicit |
 
 Choice10/4/bookkeeping net6 remains unchanged, not a theory necessity bound. Standing priority/LC cadence and other eligible science continue; no waiting checkpoint added.
+
+## Joe Nov26(b,c) steelman and datum side audit — consumed
+
+[Result](../../../explorations/conditional-build/source-action-steelman-datum-2026-11-26.md): principal conformal-trace overlap is zero, mixed-negative auxiliary projection nonzero at both roots. Existing local gauge/dressing, equivalent bounded graph metric and unchanged-core boundary repairs have the stated scoped exclusions. Both owned kappa1 roots fail the original flat Bott boundary by direct exact curvature; no datum-bearing stationary Hessian is supplied. Physical BRST/propagation, nonlocal domains and other matching backgrounds remain undetermined. No choice or source prediction credit. Step5o remains ready with the same current-to-energy receiver; this audit adds no stop or alternative completion.

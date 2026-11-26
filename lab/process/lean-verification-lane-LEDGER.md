@@ -495,3 +495,7 @@ bicategory, ambidexterity or Mackey 2-functor is inferred.
 ## Actual first-graph and charged-matter finite core (2026-11-26)
 
 `Lean/GUFormalization/GraphDomain.lean`: **LEAN-VERIFIED**, seven lemmas for graph annihilation/factored kernels, negative-energy approximation, central-current phase sign and positive-charge obstruction, and affine-tail growth. Targeted `lake env lean -j1` passed without placeholders. The actual-coefficient packet proof, null eikonal construction, native matrices and selected matter-domain theorem remain independently reviewed written mathematics. No full PDE formalization or whole-project build claim. Evidence: `explorations/conditional-build/source-action-graph-domain-2026-11-26.md`.
+
+## Steelman and external-datum finite core (2026-11-26)
+
+`Lean/GUFormalization/SteelmanDatum.lean`: **LEAN-VERIFIED**, four lemmas for finite coefficient descent, negative interval excluding flatness, equivalent-norm bound and vanishing boundary-term sign. Targeted compilation passed without placeholders. Native SO3 projections, root curvature, operator domains, BRST interpretation and Chern transgression remain independently reviewed mathematics; no full PDE or whole-project-build claim. Evidence: `explorations/conditional-build/source-action-steelman-datum-2026-11-26.md`.
