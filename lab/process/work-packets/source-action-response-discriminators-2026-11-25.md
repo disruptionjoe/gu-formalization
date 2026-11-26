@@ -168,3 +168,22 @@ Directed order:5p and5r are independent;5q can start from the already nonzero ho
 Required current-jet form: W(l,k)=N(l)^-1 V_l V(u)F_k. For a physical imaginary variation the diagonal response is minus Herm(d_z W(k,k)); off-diagonal response pairs minus one-half of (d_z W(l,k)+d_z W(k,l)^dagger) at conjugate transfer. A constant F seed does not make V=q(A^t)^-1 constant. The bounded measurable dispersion class is retained; closed support uses the essential difference graph and can have vertical jump limits. Base bandwidth does not bound normal frequency.
 
 Higher derived graph closure, nonlinear feedback support, source-cone optimization and chart gluing are retained in the evidence pool with exact premises. No scientific ledger/matrix verdict, choice count, ordinary B priority, pending LC or schedule changes.
+
+## Actual paired response and fixed-domain audit — consumed work (2026-11-26)
+
+The fixed constant-seed CK completion is not closed under natural boosts, independently of dispersion. Its full-component identity charge also fails the stated physical boost-norm interpretation. At both roots and both realifications the actual first CK normal current jet survives every admitted Gram and real dispersion. Reached spin5 sources generate a95-dimensional first common-family shell; the two-source span fails at both roots. The current does not annihilate the whole reached module; cancellation in the required inverse response remains open. Full weak response and physical propagation remain undetermined.
+
+[Result](../../../explorations/conditional-build/source-action-paired-response-2026-11-26.md) · [Exact evidence](../source-action-paired-response.json).
+
+| Step | Status | Result / remaining condition |
+|---|---|---|
+|5p|done at the stated test-extension scope|At both roots and both realifications the actual first CK normal current jet survives every admitted Gram and real dispersion. A current derivative is not a forced energy or propagation certificate; fixed-axis energy support and moving lift remain separate.|
+|5q|source/closure scoping done; full weak scalar open|118 lower-source checks, actual normalspin5 demand,95-dimensional firstcommon-family shell. Two-source span failsbothroots. Successor5q.1 below.|
+|5r|done; scoped internal exclusion|Fixed constant seed is not boost-closed independently of dispersion. Full-component identity charge has a separate conditional physical-norm obstruction.|
+
+| Successor | Status | Target / tier | Expected delta | Kill condition / scope |
+|---|---|---|---|---|
+|5q.1 Matched weak inverse-response contribution|ready|LB-CLASS / T2|Evaluate the required reachedspin5 inverse-response contribution; whole-module annihilation is excluded|Retain matched div(j_NY), lift/density/frame terms and actual normal support.95 is not fixed-root minimum or completed closure.|
+|5s Source-grounded physical restriction|ready independently|LB-CLASS / T2|Identify which recorded source ingredient constrains a covariant physical domain or polarization|SC-META-53 uncertainty is not a quotient. No replacement domain or source claim is selected by this audit.|
+
+Do not redo mass-shell selection on the unchanged seed:5r excludes that repair for this entire fixed-seed class. Existing exact positivity and solution results remain diagnostic evidence. Choice inventory10/4/net6 and predictions0 unchanged. These are executable scientific successors, not a work-stop or permission checkpoint; ordinary pendingLC and scheduled priorities remain unchanged.

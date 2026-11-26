@@ -1,0 +1,3848 @@
+{
+  "artifact": "source-action-paired-response",
+  "date": "2026-11-26",
+  "basis_revision": "f373f00fe94f251a9f4231e1cace71c396eaa610",
+  "status": "internal_reviewed_exact_candidate_and_conditional_results",
+  "actual_delta": "The fixed constant-seed CK completion is not closed under natural boosts, independently of dispersion. Its full-component identity charge also fails the stated physical boost-norm interpretation. At both roots and both realifications the actual first CK normal current jet survives every admitted Gram and real dispersion. Reached spin5 sources generate a95-dimensional first common-family shell; the two-source span fails at both roots. The current does not annihilate the whole reached module; cancellation in the required inverse response remains open. Full weak response and physical propagation remain undetermined.",
+  "exact_probe": {
+    "paired_current": {
+      "spectral_coefficients": [
+        {
+          "basis": 0,
+          "part": "a",
+          "axis": 0,
+          "raw_terms": 60,
+          "Herm_terms": 96
+        },
+        {
+          "basis": 0,
+          "part": "a",
+          "axis": 1,
+          "raw_terms": 60,
+          "Herm_terms": 96
+        },
+        {
+          "basis": 0,
+          "part": "a",
+          "axis": 2,
+          "raw_terms": 72,
+          "Herm_terms": 112
+        },
+        {
+          "basis": 0,
+          "part": "a",
+          "axis": 3,
+          "raw_terms": 72,
+          "Herm_terms": 112
+        },
+        {
+          "basis": 0,
+          "part": "b",
+          "axis": 0,
+          "raw_terms": 60,
+          "Herm_terms": 96
+        },
+        {
+          "basis": 0,
+          "part": "b",
+          "axis": 1,
+          "raw_terms": 60,
+          "Herm_terms": 96
+        },
+        {
+          "basis": 0,
+          "part": "b",
+          "axis": 2,
+          "raw_terms": 72,
+          "Herm_terms": 112
+        },
+        {
+          "basis": 0,
+          "part": "b",
+          "axis": 3,
+          "raw_terms": 72,
+          "Herm_terms": 112
+        },
+        {
+          "basis": 1,
+          "part": "a",
+          "axis": 0,
+          "raw_terms": 60,
+          "Herm_terms": 92
+        },
+        {
+          "basis": 1,
+          "part": "a",
+          "axis": 1,
+          "raw_terms": 60,
+          "Herm_terms": 92
+        },
+        {
+          "basis": 1,
+          "part": "a",
+          "axis": 2,
+          "raw_terms": 72,
+          "Herm_terms": 96
+        },
+        {
+          "basis": 1,
+          "part": "a",
+          "axis": 3,
+          "raw_terms": 72,
+          "Herm_terms": 96
+        },
+        {
+          "basis": 1,
+          "part": "b",
+          "axis": 0,
+          "raw_terms": 60,
+          "Herm_terms": 92
+        },
+        {
+          "basis": 1,
+          "part": "b",
+          "axis": 1,
+          "raw_terms": 60,
+          "Herm_terms": 92
+        },
+        {
+          "basis": 1,
+          "part": "b",
+          "axis": 2,
+          "raw_terms": 72,
+          "Herm_terms": 96
+        },
+        {
+          "basis": 1,
+          "part": "b",
+          "axis": 3,
+          "raw_terms": 72,
+          "Herm_terms": 96
+        },
+        {
+          "basis": 2,
+          "part": "a",
+          "axis": 0,
+          "raw_terms": 60,
+          "Herm_terms": 96
+        },
+        {
+          "basis": 2,
+          "part": "a",
+          "axis": 1,
+          "raw_terms": 60,
+          "Herm_terms": 96
+        },
+        {
+          "basis": 2,
+          "part": "a",
+          "axis": 2,
+          "raw_terms": 72,
+          "Herm_terms": 112
+        },
+        {
+          "basis": 2,
+          "part": "a",
+          "axis": 3,
+          "raw_terms": 72,
+          "Herm_terms": 112
+        },
+        {
+          "basis": 2,
+          "part": "b",
+          "axis": 0,
+          "raw_terms": 60,
+          "Herm_terms": 96
+        },
+        {
+          "basis": 2,
+          "part": "b",
+          "axis": 1,
+          "raw_terms": 60,
+          "Herm_terms": 96
+        },
+        {
+          "basis": 2,
+          "part": "b",
+          "axis": 2,
+          "raw_terms": 72,
+          "Herm_terms": 112
+        },
+        {
+          "basis": 2,
+          "part": "b",
+          "axis": 3,
+          "raw_terms": 72,
+          "Herm_terms": 112
+        },
+        {
+          "basis": 3,
+          "part": "a",
+          "axis": 0,
+          "raw_terms": 60,
+          "Herm_terms": 92
+        },
+        {
+          "basis": 3,
+          "part": "a",
+          "axis": 1,
+          "raw_terms": 60,
+          "Herm_terms": 92
+        },
+        {
+          "basis": 3,
+          "part": "a",
+          "axis": 2,
+          "raw_terms": 64,
+          "Herm_terms": 96
+        },
+        {
+          "basis": 3,
+          "part": "a",
+          "axis": 3,
+          "raw_terms": 56,
+          "Herm_terms": 88
+        },
+        {
+          "basis": 3,
+          "part": "b",
+          "axis": 0,
+          "raw_terms": 60,
+          "Herm_terms": 92
+        },
+        {
+          "basis": 3,
+          "part": "b",
+          "axis": 1,
+          "raw_terms": 60,
+          "Herm_terms": 92
+        },
+        {
+          "basis": 3,
+          "part": "b",
+          "axis": 2,
+          "raw_terms": 64,
+          "Herm_terms": 96
+        },
+        {
+          "basis": 3,
+          "part": "b",
+          "axis": 3,
+          "raw_terms": 56,
+          "Herm_terms": 88
+        },
+        {
+          "basis": 4,
+          "part": "a",
+          "axis": 0,
+          "raw_terms": 60,
+          "Herm_terms": 92
+        },
+        {
+          "basis": 4,
+          "part": "a",
+          "axis": 1,
+          "raw_terms": 60,
+          "Herm_terms": 92
+        },
+        {
+          "basis": 4,
+          "part": "a",
+          "axis": 2,
+          "raw_terms": 56,
+          "Herm_terms": 104
+        },
+        {
+          "basis": 4,
+          "part": "a",
+          "axis": 3,
+          "raw_terms": 64,
+          "Herm_terms": 80
+        },
+        {
+          "basis": 4,
+          "part": "b",
+          "axis": 0,
+          "raw_terms": 60,
+          "Herm_terms": 92
+        },
+        {
+          "basis": 4,
+          "part": "b",
+          "axis": 1,
+          "raw_terms": 60,
+          "Herm_terms": 92
+        },
+        {
+          "basis": 4,
+          "part": "b",
+          "axis": 2,
+          "raw_terms": 56,
+          "Herm_terms": 104
+        },
+        {
+          "basis": 4,
+          "part": "b",
+          "axis": 3,
+          "raw_terms": 64,
+          "Herm_terms": 80
+        },
+        {
+          "basis": 5,
+          "part": "a",
+          "axis": 0,
+          "raw_terms": 60,
+          "Herm_terms": 92
+        },
+        {
+          "basis": 5,
+          "part": "a",
+          "axis": 1,
+          "raw_terms": 60,
+          "Herm_terms": 92
+        },
+        {
+          "basis": 5,
+          "part": "a",
+          "axis": 2,
+          "raw_terms": 64,
+          "Herm_terms": 104
+        },
+        {
+          "basis": 5,
+          "part": "a",
+          "axis": 3,
+          "raw_terms": 64,
+          "Herm_terms": 104
+        },
+        {
+          "basis": 5,
+          "part": "b",
+          "axis": 0,
+          "raw_terms": 60,
+          "Herm_terms": 92
+        },
+        {
+          "basis": 5,
+          "part": "b",
+          "axis": 1,
+          "raw_terms": 60,
+          "Herm_terms": 92
+        },
+        {
+          "basis": 5,
+          "part": "b",
+          "axis": 2,
+          "raw_terms": 64,
+          "Herm_terms": 104
+        },
+        {
+          "basis": 5,
+          "part": "b",
+          "axis": 3,
+          "raw_terms": 64,
+          "Herm_terms": 104
+        },
+        {
+          "basis": 6,
+          "part": "a",
+          "axis": 0,
+          "raw_terms": 60,
+          "Herm_terms": 96
+        },
+        {
+          "basis": 6,
+          "part": "a",
+          "axis": 1,
+          "raw_terms": 60,
+          "Herm_terms": 96
+        },
+        {
+          "basis": 6,
+          "part": "a",
+          "axis": 2,
+          "raw_terms": 72,
+          "Herm_terms": 112
+        },
+        {
+          "basis": 6,
+          "part": "a",
+          "axis": 3,
+          "raw_terms": 72,
+          "Herm_terms": 112
+        },
+        {
+          "basis": 6,
+          "part": "b",
+          "axis": 0,
+          "raw_terms": 60,
+          "Herm_terms": 96
+        },
+        {
+          "basis": 6,
+          "part": "b",
+          "axis": 1,
+          "raw_terms": 60,
+          "Herm_terms": 96
+        },
+        {
+          "basis": 6,
+          "part": "b",
+          "axis": 2,
+          "raw_terms": 72,
+          "Herm_terms": 112
+        },
+        {
+          "basis": 6,
+          "part": "b",
+          "axis": 3,
+          "raw_terms": 72,
+          "Herm_terms": 112
+        },
+        {
+          "basis": 7,
+          "part": "a",
+          "axis": 0,
+          "raw_terms": 60,
+          "Herm_terms": 92
+        },
+        {
+          "basis": 7,
+          "part": "a",
+          "axis": 1,
+          "raw_terms": 60,
+          "Herm_terms": 92
+        },
+        {
+          "basis": 7,
+          "part": "a",
+          "axis": 2,
+          "raw_terms": 64,
+          "Herm_terms": 96
+        },
+        {
+          "basis": 7,
+          "part": "a",
+          "axis": 3,
+          "raw_terms": 56,
+          "Herm_terms": 88
+        },
+        {
+          "basis": 7,
+          "part": "b",
+          "axis": 0,
+          "raw_terms": 60,
+          "Herm_terms": 92
+        },
+        {
+          "basis": 7,
+          "part": "b",
+          "axis": 1,
+          "raw_terms": 60,
+          "Herm_terms": 92
+        },
+        {
+          "basis": 7,
+          "part": "b",
+          "axis": 2,
+          "raw_terms": 64,
+          "Herm_terms": 96
+        },
+        {
+          "basis": 7,
+          "part": "b",
+          "axis": 3,
+          "raw_terms": 56,
+          "Herm_terms": 88
+        },
+        {
+          "basis": 8,
+          "part": "a",
+          "axis": 0,
+          "raw_terms": 60,
+          "Herm_terms": 92
+        },
+        {
+          "basis": 8,
+          "part": "a",
+          "axis": 1,
+          "raw_terms": 60,
+          "Herm_terms": 92
+        },
+        {
+          "basis": 8,
+          "part": "a",
+          "axis": 2,
+          "raw_terms": 56,
+          "Herm_terms": 104
+        },
+        {
+          "basis": 8,
+          "part": "a",
+          "axis": 3,
+          "raw_terms": 64,
+          "Herm_terms": 80
+        },
+        {
+          "basis": 8,
+          "part": "b",
+          "axis": 0,
+          "raw_terms": 60,
+          "Herm_terms": 92
+        },
+        {
+          "basis": 8,
+          "part": "b",
+          "axis": 1,
+          "raw_terms": 60,
+          "Herm_terms": 92
+        },
+        {
+          "basis": 8,
+          "part": "b",
+          "axis": 2,
+          "raw_terms": 56,
+          "Herm_terms": 104
+        },
+        {
+          "basis": 8,
+          "part": "b",
+          "axis": 3,
+          "raw_terms": 64,
+          "Herm_terms": 80
+        },
+        {
+          "basis": 9,
+          "part": "a",
+          "axis": 0,
+          "raw_terms": 60,
+          "Herm_terms": 92
+        },
+        {
+          "basis": 9,
+          "part": "a",
+          "axis": 1,
+          "raw_terms": 60,
+          "Herm_terms": 92
+        },
+        {
+          "basis": 9,
+          "part": "a",
+          "axis": 2,
+          "raw_terms": 64,
+          "Herm_terms": 104
+        },
+        {
+          "basis": 9,
+          "part": "a",
+          "axis": 3,
+          "raw_terms": 64,
+          "Herm_terms": 104
+        },
+        {
+          "basis": 9,
+          "part": "b",
+          "axis": 0,
+          "raw_terms": 60,
+          "Herm_terms": 92
+        },
+        {
+          "basis": 9,
+          "part": "b",
+          "axis": 1,
+          "raw_terms": 60,
+          "Herm_terms": 92
+        },
+        {
+          "basis": 9,
+          "part": "b",
+          "axis": 2,
+          "raw_terms": 64,
+          "Herm_terms": 104
+        },
+        {
+          "basis": 9,
+          "part": "b",
+          "axis": 3,
+          "raw_terms": 64,
+          "Herm_terms": 104
+        },
+        {
+          "basis": 10,
+          "part": "a",
+          "axis": 0,
+          "raw_terms": 60,
+          "Herm_terms": 96
+        },
+        {
+          "basis": 10,
+          "part": "a",
+          "axis": 1,
+          "raw_terms": 60,
+          "Herm_terms": 96
+        },
+        {
+          "basis": 10,
+          "part": "a",
+          "axis": 2,
+          "raw_terms": 64,
+          "Herm_terms": 112
+        },
+        {
+          "basis": 10,
+          "part": "a",
+          "axis": 3,
+          "raw_terms": 56,
+          "Herm_terms": 80
+        },
+        {
+          "basis": 10,
+          "part": "b",
+          "axis": 0,
+          "raw_terms": 60,
+          "Herm_terms": 96
+        },
+        {
+          "basis": 10,
+          "part": "b",
+          "axis": 1,
+          "raw_terms": 60,
+          "Herm_terms": 96
+        },
+        {
+          "basis": 10,
+          "part": "b",
+          "axis": 2,
+          "raw_terms": 64,
+          "Herm_terms": 112
+        },
+        {
+          "basis": 10,
+          "part": "b",
+          "axis": 3,
+          "raw_terms": 56,
+          "Herm_terms": 80
+        },
+        {
+          "basis": 11,
+          "part": "a",
+          "axis": 0,
+          "raw_terms": 60,
+          "Herm_terms": 96
+        },
+        {
+          "basis": 11,
+          "part": "a",
+          "axis": 1,
+          "raw_terms": 60,
+          "Herm_terms": 96
+        },
+        {
+          "basis": 11,
+          "part": "a",
+          "axis": 2,
+          "raw_terms": 56,
+          "Herm_terms": 96
+        },
+        {
+          "basis": 11,
+          "part": "a",
+          "axis": 3,
+          "raw_terms": 64,
+          "Herm_terms": 96
+        },
+        {
+          "basis": 11,
+          "part": "b",
+          "axis": 0,
+          "raw_terms": 60,
+          "Herm_terms": 96
+        },
+        {
+          "basis": 11,
+          "part": "b",
+          "axis": 1,
+          "raw_terms": 60,
+          "Herm_terms": 96
+        },
+        {
+          "basis": 11,
+          "part": "b",
+          "axis": 2,
+          "raw_terms": 56,
+          "Herm_terms": 96
+        },
+        {
+          "basis": 11,
+          "part": "b",
+          "axis": 3,
+          "raw_terms": 64,
+          "Herm_terms": 96
+        },
+        {
+          "basis": 12,
+          "part": "a",
+          "axis": 0,
+          "raw_terms": 60,
+          "Herm_terms": 96
+        },
+        {
+          "basis": 12,
+          "part": "a",
+          "axis": 1,
+          "raw_terms": 60,
+          "Herm_terms": 96
+        },
+        {
+          "basis": 12,
+          "part": "a",
+          "axis": 2,
+          "raw_terms": 64,
+          "Herm_terms": 96
+        },
+        {
+          "basis": 12,
+          "part": "a",
+          "axis": 3,
+          "raw_terms": 64,
+          "Herm_terms": 96
+        },
+        {
+          "basis": 12,
+          "part": "b",
+          "axis": 0,
+          "raw_terms": 60,
+          "Herm_terms": 96
+        },
+        {
+          "basis": 12,
+          "part": "b",
+          "axis": 1,
+          "raw_terms": 60,
+          "Herm_terms": 96
+        },
+        {
+          "basis": 12,
+          "part": "b",
+          "axis": 2,
+          "raw_terms": 64,
+          "Herm_terms": 96
+        },
+        {
+          "basis": 12,
+          "part": "b",
+          "axis": 3,
+          "raw_terms": 64,
+          "Herm_terms": 96
+        },
+        {
+          "basis": 13,
+          "part": "a",
+          "axis": 0,
+          "raw_terms": 60,
+          "Herm_terms": 92
+        },
+        {
+          "basis": 13,
+          "part": "a",
+          "axis": 1,
+          "raw_terms": 60,
+          "Herm_terms": 92
+        },
+        {
+          "basis": 13,
+          "part": "a",
+          "axis": 2,
+          "raw_terms": 64,
+          "Herm_terms": 104
+        },
+        {
+          "basis": 13,
+          "part": "a",
+          "axis": 3,
+          "raw_terms": 64,
+          "Herm_terms": 104
+        },
+        {
+          "basis": 13,
+          "part": "b",
+          "axis": 0,
+          "raw_terms": 60,
+          "Herm_terms": 92
+        },
+        {
+          "basis": 13,
+          "part": "b",
+          "axis": 1,
+          "raw_terms": 60,
+          "Herm_terms": 92
+        },
+        {
+          "basis": 13,
+          "part": "b",
+          "axis": 2,
+          "raw_terms": 64,
+          "Herm_terms": 104
+        },
+        {
+          "basis": 13,
+          "part": "b",
+          "axis": 3,
+          "raw_terms": 64,
+          "Herm_terms": 104
+        },
+        {
+          "basis": 14,
+          "part": "a",
+          "axis": 0,
+          "raw_terms": 60,
+          "Herm_terms": 92
+        },
+        {
+          "basis": 14,
+          "part": "a",
+          "axis": 1,
+          "raw_terms": 60,
+          "Herm_terms": 92
+        },
+        {
+          "basis": 14,
+          "part": "a",
+          "axis": 2,
+          "raw_terms": 56,
+          "Herm_terms": 104
+        },
+        {
+          "basis": 14,
+          "part": "a",
+          "axis": 3,
+          "raw_terms": 64,
+          "Herm_terms": 80
+        },
+        {
+          "basis": 14,
+          "part": "b",
+          "axis": 0,
+          "raw_terms": 60,
+          "Herm_terms": 92
+        },
+        {
+          "basis": 14,
+          "part": "b",
+          "axis": 1,
+          "raw_terms": 60,
+          "Herm_terms": 92
+        },
+        {
+          "basis": 14,
+          "part": "b",
+          "axis": 2,
+          "raw_terms": 56,
+          "Herm_terms": 104
+        },
+        {
+          "basis": 14,
+          "part": "b",
+          "axis": 3,
+          "raw_terms": 64,
+          "Herm_terms": 80
+        },
+        {
+          "basis": 15,
+          "part": "a",
+          "axis": 0,
+          "raw_terms": 60,
+          "Herm_terms": 92
+        },
+        {
+          "basis": 15,
+          "part": "a",
+          "axis": 1,
+          "raw_terms": 60,
+          "Herm_terms": 92
+        },
+        {
+          "basis": 15,
+          "part": "a",
+          "axis": 2,
+          "raw_terms": 64,
+          "Herm_terms": 96
+        },
+        {
+          "basis": 15,
+          "part": "a",
+          "axis": 3,
+          "raw_terms": 56,
+          "Herm_terms": 88
+        },
+        {
+          "basis": 15,
+          "part": "b",
+          "axis": 0,
+          "raw_terms": 60,
+          "Herm_terms": 92
+        },
+        {
+          "basis": 15,
+          "part": "b",
+          "axis": 1,
+          "raw_terms": 60,
+          "Herm_terms": 92
+        },
+        {
+          "basis": 15,
+          "part": "b",
+          "axis": 2,
+          "raw_terms": 64,
+          "Herm_terms": 96
+        },
+        {
+          "basis": 15,
+          "part": "b",
+          "axis": 3,
+          "raw_terms": 56,
+          "Herm_terms": 88
+        },
+        {
+          "basis": 16,
+          "part": "a",
+          "axis": 0,
+          "raw_terms": 60,
+          "Herm_terms": 92
+        },
+        {
+          "basis": 16,
+          "part": "a",
+          "axis": 1,
+          "raw_terms": 60,
+          "Herm_terms": 92
+        },
+        {
+          "basis": 16,
+          "part": "a",
+          "axis": 2,
+          "raw_terms": 72,
+          "Herm_terms": 96
+        },
+        {
+          "basis": 16,
+          "part": "a",
+          "axis": 3,
+          "raw_terms": 72,
+          "Herm_terms": 96
+        },
+        {
+          "basis": 16,
+          "part": "b",
+          "axis": 0,
+          "raw_terms": 60,
+          "Herm_terms": 92
+        },
+        {
+          "basis": 16,
+          "part": "b",
+          "axis": 1,
+          "raw_terms": 60,
+          "Herm_terms": 92
+        },
+        {
+          "basis": 16,
+          "part": "b",
+          "axis": 2,
+          "raw_terms": 72,
+          "Herm_terms": 96
+        },
+        {
+          "basis": 16,
+          "part": "b",
+          "axis": 3,
+          "raw_terms": 72,
+          "Herm_terms": 96
+        },
+        {
+          "basis": 17,
+          "part": "a",
+          "axis": 0,
+          "raw_terms": 60,
+          "Herm_terms": 96
+        },
+        {
+          "basis": 17,
+          "part": "a",
+          "axis": 1,
+          "raw_terms": 60,
+          "Herm_terms": 96
+        },
+        {
+          "basis": 17,
+          "part": "a",
+          "axis": 2,
+          "raw_terms": 64,
+          "Herm_terms": 112
+        },
+        {
+          "basis": 17,
+          "part": "a",
+          "axis": 3,
+          "raw_terms": 56,
+          "Herm_terms": 80
+        },
+        {
+          "basis": 17,
+          "part": "b",
+          "axis": 0,
+          "raw_terms": 60,
+          "Herm_terms": 96
+        },
+        {
+          "basis": 17,
+          "part": "b",
+          "axis": 1,
+          "raw_terms": 60,
+          "Herm_terms": 96
+        },
+        {
+          "basis": 17,
+          "part": "b",
+          "axis": 2,
+          "raw_terms": 64,
+          "Herm_terms": 112
+        },
+        {
+          "basis": 17,
+          "part": "b",
+          "axis": 3,
+          "raw_terms": 56,
+          "Herm_terms": 80
+        },
+        {
+          "basis": 18,
+          "part": "a",
+          "axis": 0,
+          "raw_terms": 60,
+          "Herm_terms": 96
+        },
+        {
+          "basis": 18,
+          "part": "a",
+          "axis": 1,
+          "raw_terms": 60,
+          "Herm_terms": 96
+        },
+        {
+          "basis": 18,
+          "part": "a",
+          "axis": 2,
+          "raw_terms": 56,
+          "Herm_terms": 96
+        },
+        {
+          "basis": 18,
+          "part": "a",
+          "axis": 3,
+          "raw_terms": 64,
+          "Herm_terms": 96
+        },
+        {
+          "basis": 18,
+          "part": "b",
+          "axis": 0,
+          "raw_terms": 60,
+          "Herm_terms": 96
+        },
+        {
+          "basis": 18,
+          "part": "b",
+          "axis": 1,
+          "raw_terms": 60,
+          "Herm_terms": 96
+        },
+        {
+          "basis": 18,
+          "part": "b",
+          "axis": 2,
+          "raw_terms": 56,
+          "Herm_terms": 96
+        },
+        {
+          "basis": 18,
+          "part": "b",
+          "axis": 3,
+          "raw_terms": 64,
+          "Herm_terms": 96
+        },
+        {
+          "basis": 19,
+          "part": "a",
+          "axis": 0,
+          "raw_terms": 60,
+          "Herm_terms": 96
+        },
+        {
+          "basis": 19,
+          "part": "a",
+          "axis": 1,
+          "raw_terms": 60,
+          "Herm_terms": 96
+        },
+        {
+          "basis": 19,
+          "part": "a",
+          "axis": 2,
+          "raw_terms": 64,
+          "Herm_terms": 96
+        },
+        {
+          "basis": 19,
+          "part": "a",
+          "axis": 3,
+          "raw_terms": 64,
+          "Herm_terms": 96
+        },
+        {
+          "basis": 19,
+          "part": "b",
+          "axis": 0,
+          "raw_terms": 60,
+          "Herm_terms": 96
+        },
+        {
+          "basis": 19,
+          "part": "b",
+          "axis": 1,
+          "raw_terms": 60,
+          "Herm_terms": 96
+        },
+        {
+          "basis": 19,
+          "part": "b",
+          "axis": 2,
+          "raw_terms": 64,
+          "Herm_terms": 96
+        },
+        {
+          "basis": 19,
+          "part": "b",
+          "axis": 3,
+          "raw_terms": 64,
+          "Herm_terms": 96
+        },
+        {
+          "basis": 20,
+          "part": "a",
+          "axis": 0,
+          "raw_terms": 60,
+          "Herm_terms": 92
+        },
+        {
+          "basis": 20,
+          "part": "a",
+          "axis": 1,
+          "raw_terms": 60,
+          "Herm_terms": 92
+        },
+        {
+          "basis": 20,
+          "part": "a",
+          "axis": 2,
+          "raw_terms": 64,
+          "Herm_terms": 96
+        },
+        {
+          "basis": 20,
+          "part": "a",
+          "axis": 3,
+          "raw_terms": 56,
+          "Herm_terms": 88
+        },
+        {
+          "basis": 20,
+          "part": "b",
+          "axis": 0,
+          "raw_terms": 60,
+          "Herm_terms": 92
+        },
+        {
+          "basis": 20,
+          "part": "b",
+          "axis": 1,
+          "raw_terms": 60,
+          "Herm_terms": 92
+        },
+        {
+          "basis": 20,
+          "part": "b",
+          "axis": 2,
+          "raw_terms": 64,
+          "Herm_terms": 96
+        },
+        {
+          "basis": 20,
+          "part": "b",
+          "axis": 3,
+          "raw_terms": 56,
+          "Herm_terms": 88
+        },
+        {
+          "basis": 21,
+          "part": "a",
+          "axis": 0,
+          "raw_terms": 60,
+          "Herm_terms": 92
+        },
+        {
+          "basis": 21,
+          "part": "a",
+          "axis": 1,
+          "raw_terms": 60,
+          "Herm_terms": 92
+        },
+        {
+          "basis": 21,
+          "part": "a",
+          "axis": 2,
+          "raw_terms": 56,
+          "Herm_terms": 104
+        },
+        {
+          "basis": 21,
+          "part": "a",
+          "axis": 3,
+          "raw_terms": 64,
+          "Herm_terms": 80
+        },
+        {
+          "basis": 21,
+          "part": "b",
+          "axis": 0,
+          "raw_terms": 60,
+          "Herm_terms": 92
+        },
+        {
+          "basis": 21,
+          "part": "b",
+          "axis": 1,
+          "raw_terms": 60,
+          "Herm_terms": 92
+        },
+        {
+          "basis": 21,
+          "part": "b",
+          "axis": 2,
+          "raw_terms": 56,
+          "Herm_terms": 104
+        },
+        {
+          "basis": 21,
+          "part": "b",
+          "axis": 3,
+          "raw_terms": 64,
+          "Herm_terms": 80
+        },
+        {
+          "basis": 22,
+          "part": "a",
+          "axis": 0,
+          "raw_terms": 60,
+          "Herm_terms": 92
+        },
+        {
+          "basis": 22,
+          "part": "a",
+          "axis": 1,
+          "raw_terms": 60,
+          "Herm_terms": 92
+        },
+        {
+          "basis": 22,
+          "part": "a",
+          "axis": 2,
+          "raw_terms": 64,
+          "Herm_terms": 104
+        },
+        {
+          "basis": 22,
+          "part": "a",
+          "axis": 3,
+          "raw_terms": 64,
+          "Herm_terms": 104
+        },
+        {
+          "basis": 22,
+          "part": "b",
+          "axis": 0,
+          "raw_terms": 60,
+          "Herm_terms": 92
+        },
+        {
+          "basis": 22,
+          "part": "b",
+          "axis": 1,
+          "raw_terms": 60,
+          "Herm_terms": 92
+        },
+        {
+          "basis": 22,
+          "part": "b",
+          "axis": 2,
+          "raw_terms": 64,
+          "Herm_terms": 104
+        },
+        {
+          "basis": 22,
+          "part": "b",
+          "axis": 3,
+          "raw_terms": 64,
+          "Herm_terms": 104
+        },
+        {
+          "basis": 23,
+          "part": "a",
+          "axis": 0,
+          "raw_terms": 60,
+          "Herm_terms": 96
+        },
+        {
+          "basis": 23,
+          "part": "a",
+          "axis": 1,
+          "raw_terms": 60,
+          "Herm_terms": 96
+        },
+        {
+          "basis": 23,
+          "part": "a",
+          "axis": 2,
+          "raw_terms": 64,
+          "Herm_terms": 96
+        },
+        {
+          "basis": 23,
+          "part": "a",
+          "axis": 3,
+          "raw_terms": 64,
+          "Herm_terms": 96
+        },
+        {
+          "basis": 23,
+          "part": "b",
+          "axis": 0,
+          "raw_terms": 60,
+          "Herm_terms": 96
+        },
+        {
+          "basis": 23,
+          "part": "b",
+          "axis": 1,
+          "raw_terms": 60,
+          "Herm_terms": 96
+        },
+        {
+          "basis": 23,
+          "part": "b",
+          "axis": 2,
+          "raw_terms": 64,
+          "Herm_terms": 96
+        },
+        {
+          "basis": 23,
+          "part": "b",
+          "axis": 3,
+          "raw_terms": 64,
+          "Herm_terms": 96
+        },
+        {
+          "basis": 24,
+          "part": "a",
+          "axis": 0,
+          "raw_terms": 60,
+          "Herm_terms": 96
+        },
+        {
+          "basis": 24,
+          "part": "a",
+          "axis": 1,
+          "raw_terms": 60,
+          "Herm_terms": 96
+        },
+        {
+          "basis": 24,
+          "part": "a",
+          "axis": 2,
+          "raw_terms": 56,
+          "Herm_terms": 96
+        },
+        {
+          "basis": 24,
+          "part": "a",
+          "axis": 3,
+          "raw_terms": 64,
+          "Herm_terms": 96
+        },
+        {
+          "basis": 24,
+          "part": "b",
+          "axis": 0,
+          "raw_terms": 60,
+          "Herm_terms": 96
+        },
+        {
+          "basis": 24,
+          "part": "b",
+          "axis": 1,
+          "raw_terms": 60,
+          "Herm_terms": 96
+        },
+        {
+          "basis": 24,
+          "part": "b",
+          "axis": 2,
+          "raw_terms": 56,
+          "Herm_terms": 96
+        },
+        {
+          "basis": 24,
+          "part": "b",
+          "axis": 3,
+          "raw_terms": 64,
+          "Herm_terms": 96
+        },
+        {
+          "basis": 25,
+          "part": "a",
+          "axis": 0,
+          "raw_terms": 60,
+          "Herm_terms": 96
+        },
+        {
+          "basis": 25,
+          "part": "a",
+          "axis": 1,
+          "raw_terms": 60,
+          "Herm_terms": 96
+        },
+        {
+          "basis": 25,
+          "part": "a",
+          "axis": 2,
+          "raw_terms": 64,
+          "Herm_terms": 112
+        },
+        {
+          "basis": 25,
+          "part": "a",
+          "axis": 3,
+          "raw_terms": 56,
+          "Herm_terms": 80
+        },
+        {
+          "basis": 25,
+          "part": "b",
+          "axis": 0,
+          "raw_terms": 60,
+          "Herm_terms": 96
+        },
+        {
+          "basis": 25,
+          "part": "b",
+          "axis": 1,
+          "raw_terms": 60,
+          "Herm_terms": 96
+        },
+        {
+          "basis": 25,
+          "part": "b",
+          "axis": 2,
+          "raw_terms": 64,
+          "Herm_terms": 112
+        },
+        {
+          "basis": 25,
+          "part": "b",
+          "axis": 3,
+          "raw_terms": 56,
+          "Herm_terms": 80
+        },
+        {
+          "basis": 26,
+          "part": "a",
+          "axis": 0,
+          "raw_terms": 60,
+          "Herm_terms": 92
+        },
+        {
+          "basis": 26,
+          "part": "a",
+          "axis": 1,
+          "raw_terms": 60,
+          "Herm_terms": 92
+        },
+        {
+          "basis": 26,
+          "part": "a",
+          "axis": 2,
+          "raw_terms": 64,
+          "Herm_terms": 96
+        },
+        {
+          "basis": 26,
+          "part": "a",
+          "axis": 3,
+          "raw_terms": 56,
+          "Herm_terms": 88
+        },
+        {
+          "basis": 26,
+          "part": "b",
+          "axis": 0,
+          "raw_terms": 60,
+          "Herm_terms": 92
+        },
+        {
+          "basis": 26,
+          "part": "b",
+          "axis": 1,
+          "raw_terms": 60,
+          "Herm_terms": 92
+        },
+        {
+          "basis": 26,
+          "part": "b",
+          "axis": 2,
+          "raw_terms": 64,
+          "Herm_terms": 96
+        },
+        {
+          "basis": 26,
+          "part": "b",
+          "axis": 3,
+          "raw_terms": 56,
+          "Herm_terms": 88
+        },
+        {
+          "basis": 27,
+          "part": "a",
+          "axis": 0,
+          "raw_terms": 60,
+          "Herm_terms": 92
+        },
+        {
+          "basis": 27,
+          "part": "a",
+          "axis": 1,
+          "raw_terms": 60,
+          "Herm_terms": 92
+        },
+        {
+          "basis": 27,
+          "part": "a",
+          "axis": 2,
+          "raw_terms": 56,
+          "Herm_terms": 104
+        },
+        {
+          "basis": 27,
+          "part": "a",
+          "axis": 3,
+          "raw_terms": 64,
+          "Herm_terms": 80
+        },
+        {
+          "basis": 27,
+          "part": "b",
+          "axis": 0,
+          "raw_terms": 60,
+          "Herm_terms": 92
+        },
+        {
+          "basis": 27,
+          "part": "b",
+          "axis": 1,
+          "raw_terms": 60,
+          "Herm_terms": 92
+        },
+        {
+          "basis": 27,
+          "part": "b",
+          "axis": 2,
+          "raw_terms": 56,
+          "Herm_terms": 104
+        },
+        {
+          "basis": 27,
+          "part": "b",
+          "axis": 3,
+          "raw_terms": 64,
+          "Herm_terms": 80
+        },
+        {
+          "basis": 28,
+          "part": "a",
+          "axis": 0,
+          "raw_terms": 60,
+          "Herm_terms": 92
+        },
+        {
+          "basis": 28,
+          "part": "a",
+          "axis": 1,
+          "raw_terms": 60,
+          "Herm_terms": 92
+        },
+        {
+          "basis": 28,
+          "part": "a",
+          "axis": 2,
+          "raw_terms": 64,
+          "Herm_terms": 104
+        },
+        {
+          "basis": 28,
+          "part": "a",
+          "axis": 3,
+          "raw_terms": 64,
+          "Herm_terms": 104
+        },
+        {
+          "basis": 28,
+          "part": "b",
+          "axis": 0,
+          "raw_terms": 60,
+          "Herm_terms": 92
+        },
+        {
+          "basis": 28,
+          "part": "b",
+          "axis": 1,
+          "raw_terms": 60,
+          "Herm_terms": 92
+        },
+        {
+          "basis": 28,
+          "part": "b",
+          "axis": 2,
+          "raw_terms": 64,
+          "Herm_terms": 104
+        },
+        {
+          "basis": 28,
+          "part": "b",
+          "axis": 3,
+          "raw_terms": 64,
+          "Herm_terms": 104
+        },
+        {
+          "basis": 29,
+          "part": "a",
+          "axis": 0,
+          "raw_terms": 60,
+          "Herm_terms": 96
+        },
+        {
+          "basis": 29,
+          "part": "a",
+          "axis": 1,
+          "raw_terms": 60,
+          "Herm_terms": 96
+        },
+        {
+          "basis": 29,
+          "part": "a",
+          "axis": 2,
+          "raw_terms": 64,
+          "Herm_terms": 96
+        },
+        {
+          "basis": 29,
+          "part": "a",
+          "axis": 3,
+          "raw_terms": 64,
+          "Herm_terms": 96
+        },
+        {
+          "basis": 29,
+          "part": "b",
+          "axis": 0,
+          "raw_terms": 60,
+          "Herm_terms": 96
+        },
+        {
+          "basis": 29,
+          "part": "b",
+          "axis": 1,
+          "raw_terms": 60,
+          "Herm_terms": 96
+        },
+        {
+          "basis": 29,
+          "part": "b",
+          "axis": 2,
+          "raw_terms": 64,
+          "Herm_terms": 96
+        },
+        {
+          "basis": 29,
+          "part": "b",
+          "axis": 3,
+          "raw_terms": 64,
+          "Herm_terms": 96
+        },
+        {
+          "basis": 30,
+          "part": "a",
+          "axis": 0,
+          "raw_terms": 60,
+          "Herm_terms": 96
+        },
+        {
+          "basis": 30,
+          "part": "a",
+          "axis": 1,
+          "raw_terms": 60,
+          "Herm_terms": 96
+        },
+        {
+          "basis": 30,
+          "part": "a",
+          "axis": 2,
+          "raw_terms": 56,
+          "Herm_terms": 96
+        },
+        {
+          "basis": 30,
+          "part": "a",
+          "axis": 3,
+          "raw_terms": 64,
+          "Herm_terms": 96
+        },
+        {
+          "basis": 30,
+          "part": "b",
+          "axis": 0,
+          "raw_terms": 60,
+          "Herm_terms": 96
+        },
+        {
+          "basis": 30,
+          "part": "b",
+          "axis": 1,
+          "raw_terms": 60,
+          "Herm_terms": 96
+        },
+        {
+          "basis": 30,
+          "part": "b",
+          "axis": 2,
+          "raw_terms": 56,
+          "Herm_terms": 96
+        },
+        {
+          "basis": 30,
+          "part": "b",
+          "axis": 3,
+          "raw_terms": 64,
+          "Herm_terms": 96
+        },
+        {
+          "basis": 31,
+          "part": "a",
+          "axis": 0,
+          "raw_terms": 60,
+          "Herm_terms": 96
+        },
+        {
+          "basis": 31,
+          "part": "a",
+          "axis": 1,
+          "raw_terms": 60,
+          "Herm_terms": 96
+        },
+        {
+          "basis": 31,
+          "part": "a",
+          "axis": 2,
+          "raw_terms": 64,
+          "Herm_terms": 112
+        },
+        {
+          "basis": 31,
+          "part": "a",
+          "axis": 3,
+          "raw_terms": 56,
+          "Herm_terms": 80
+        },
+        {
+          "basis": 31,
+          "part": "b",
+          "axis": 0,
+          "raw_terms": 60,
+          "Herm_terms": 96
+        },
+        {
+          "basis": 31,
+          "part": "b",
+          "axis": 1,
+          "raw_terms": 60,
+          "Herm_terms": 96
+        },
+        {
+          "basis": 31,
+          "part": "b",
+          "axis": 2,
+          "raw_terms": 64,
+          "Herm_terms": 112
+        },
+        {
+          "basis": 31,
+          "part": "b",
+          "axis": 3,
+          "raw_terms": 56,
+          "Herm_terms": 80
+        },
+        {
+          "basis": 32,
+          "part": "a",
+          "axis": 0,
+          "raw_terms": 60,
+          "Herm_terms": 92
+        },
+        {
+          "basis": 32,
+          "part": "a",
+          "axis": 1,
+          "raw_terms": 60,
+          "Herm_terms": 92
+        },
+        {
+          "basis": 32,
+          "part": "a",
+          "axis": 2,
+          "raw_terms": 64,
+          "Herm_terms": 104
+        },
+        {
+          "basis": 32,
+          "part": "a",
+          "axis": 3,
+          "raw_terms": 64,
+          "Herm_terms": 104
+        },
+        {
+          "basis": 32,
+          "part": "b",
+          "axis": 0,
+          "raw_terms": 60,
+          "Herm_terms": 92
+        },
+        {
+          "basis": 32,
+          "part": "b",
+          "axis": 1,
+          "raw_terms": 60,
+          "Herm_terms": 92
+        },
+        {
+          "basis": 32,
+          "part": "b",
+          "axis": 2,
+          "raw_terms": 64,
+          "Herm_terms": 104
+        },
+        {
+          "basis": 32,
+          "part": "b",
+          "axis": 3,
+          "raw_terms": 64,
+          "Herm_terms": 104
+        },
+        {
+          "basis": 33,
+          "part": "a",
+          "axis": 0,
+          "raw_terms": 60,
+          "Herm_terms": 92
+        },
+        {
+          "basis": 33,
+          "part": "a",
+          "axis": 1,
+          "raw_terms": 60,
+          "Herm_terms": 92
+        },
+        {
+          "basis": 33,
+          "part": "a",
+          "axis": 2,
+          "raw_terms": 56,
+          "Herm_terms": 104
+        },
+        {
+          "basis": 33,
+          "part": "a",
+          "axis": 3,
+          "raw_terms": 64,
+          "Herm_terms": 80
+        },
+        {
+          "basis": 33,
+          "part": "b",
+          "axis": 0,
+          "raw_terms": 60,
+          "Herm_terms": 92
+        },
+        {
+          "basis": 33,
+          "part": "b",
+          "axis": 1,
+          "raw_terms": 60,
+          "Herm_terms": 92
+        },
+        {
+          "basis": 33,
+          "part": "b",
+          "axis": 2,
+          "raw_terms": 56,
+          "Herm_terms": 104
+        },
+        {
+          "basis": 33,
+          "part": "b",
+          "axis": 3,
+          "raw_terms": 64,
+          "Herm_terms": 80
+        },
+        {
+          "basis": 34,
+          "part": "a",
+          "axis": 0,
+          "raw_terms": 60,
+          "Herm_terms": 92
+        },
+        {
+          "basis": 34,
+          "part": "a",
+          "axis": 1,
+          "raw_terms": 60,
+          "Herm_terms": 92
+        },
+        {
+          "basis": 34,
+          "part": "a",
+          "axis": 2,
+          "raw_terms": 64,
+          "Herm_terms": 96
+        },
+        {
+          "basis": 34,
+          "part": "a",
+          "axis": 3,
+          "raw_terms": 56,
+          "Herm_terms": 88
+        },
+        {
+          "basis": 34,
+          "part": "b",
+          "axis": 0,
+          "raw_terms": 60,
+          "Herm_terms": 92
+        },
+        {
+          "basis": 34,
+          "part": "b",
+          "axis": 1,
+          "raw_terms": 60,
+          "Herm_terms": 92
+        },
+        {
+          "basis": 34,
+          "part": "b",
+          "axis": 2,
+          "raw_terms": 64,
+          "Herm_terms": 96
+        },
+        {
+          "basis": 34,
+          "part": "b",
+          "axis": 3,
+          "raw_terms": 56,
+          "Herm_terms": 88
+        },
+        {
+          "basis": 35,
+          "part": "a",
+          "axis": 0,
+          "raw_terms": 60,
+          "Herm_terms": 96
+        },
+        {
+          "basis": 35,
+          "part": "a",
+          "axis": 1,
+          "raw_terms": 60,
+          "Herm_terms": 96
+        },
+        {
+          "basis": 35,
+          "part": "a",
+          "axis": 2,
+          "raw_terms": 72,
+          "Herm_terms": 112
+        },
+        {
+          "basis": 35,
+          "part": "a",
+          "axis": 3,
+          "raw_terms": 72,
+          "Herm_terms": 112
+        },
+        {
+          "basis": 35,
+          "part": "b",
+          "axis": 0,
+          "raw_terms": 60,
+          "Herm_terms": 96
+        },
+        {
+          "basis": 35,
+          "part": "b",
+          "axis": 1,
+          "raw_terms": 60,
+          "Herm_terms": 96
+        },
+        {
+          "basis": 35,
+          "part": "b",
+          "axis": 2,
+          "raw_terms": 72,
+          "Herm_terms": 112
+        },
+        {
+          "basis": 35,
+          "part": "b",
+          "axis": 3,
+          "raw_terms": 72,
+          "Herm_terms": 112
+        }
+      ],
+      "normal_negative_response_full_jet": [
+        {
+          "root": 0,
+          "normal_energy_axis": 4,
+          "range_basis_index": 3,
+          "realification": "a",
+          "coefficient_error": "745029982817641323133900854588959210097211507434160996617085792548647133061713717932387546213449015534071761189773656514117704217054773112863985495749279312271238031116698839477957812563691972930246287390755657958984375000000000000000000/2340304264962397785211962017483874594835602370311283885308424045400830071765403598136334625310351415275625940170814598301558686864954426559822419663800957457996859248069111904968557073196831882466798197503064801177925423691366827716608046052414509",
+          "certified_each_real_energy_center": "-234635858072967865355835487211408376704387368062187591258137393622493518194739852488000000000000000000000000000000/2837089161421951980566978424110524067175150706359650354884960086808209873370392380859347648959292196534893047",
+          "certified_each_real_energy_error": "73239427430905412629354989609513046189396280026807762611446001750702207768498705327625425342966892023061390411999509529963826795353352416086981230174137153513511783410895962716041164806261175706934931035660844200000000000000000000000000000000/2340304264962397785211962017483874594835602370311283885308424045400830071765403598136334625310351415275625940170814598301558686864954426559822419663800957457996859248069111904968557073196831882466798197503064801177925423691366827716608046052414509",
+          "points": [
+            {
+              "name": "zero_frequency",
+              "lambda_covector_order_x0_x1_x2_t": [
+                0,
+                0,
+                0,
+                0
+              ],
+              "report": {
+                "terms": 7960,
+                "hermitian_terms": 6728,
+                "B_HS2": "34998979530551450091368690947372604541087515526119279399098909270408486805860680824352408956752132329428900282991505885192970134024408917057584038267272041559492272144861083967822711355382891008997901784264032901063078613645893632/628833977332649586112199821643285432163078686443764419744987748081148882300916308841823246984559875692836668041071723099514667106118463364194137949962863215297287581242959728183010159518235787089592160127577791323766328125",
+                "Herm_HS2": "18385644798136098597731118518237885290028830656536741629535735162292751399265435685855439045888239867165965054877046242316997098820628496460776931060392212695763009150838508455729630859342169091841748132666543873920996857497821184/628833977332649586112199821643285432163078686443764419744987748081148882300916308841823246984559875692836668041071723099514667106118463364194137949962863215297287581242959728183010159518235787089592160127577791323766328125",
+                "Herm_ratio": 0.525319453445402,
+                "rootball_error_HS_upper": "19441484649908689678937639863764991323954736269781200103818431548866747333752394301340494797003731534093451/400000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+                "gram_bound_half_robust": true,
+                "gram_robust_margin_lower": "1283282225330106086739587080408705026028135791190656399688544705353399757998742817095978515608988805397719647/400000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+                "max_allowed_gram_deviation_lower": "2143433532758599218837462360136235008676045263730218799896181568451133252666247605698659505202996268465906549/3003584840187092350935337639863764991323954736269781200103818431548866747333752394301340494797003731534093451",
+                "Herm_nonzero_certified": true,
+                "error_method": "global submultiplicative Clifford/block operator norm, normalized HS sqrt5 bound"
+              }
+            },
+            {
+              "name": "unit_frequency_at_zero_spatial",
+              "lambda_covector_order_x0_x1_x2_t": [
+                0,
+                0,
+                0,
+                -1
+              ],
+              "report": {
+                "terms": 8248,
+                "hermitian_terms": 7160,
+                "B_HS2": "38674229596072157588668995305356586547971836128385488283635818438382459776426817793097161010155889358767677501600217306965506355774458599901797468670230551276982326712342529280322711355382891008997901784264032901063078613645893632/628833977332649586112199821643285432163078686443764419744987748081148882300916308841823246984559875692836668041071723099514667106118463364194137949962863215297287581242959728183010159518235787089592160127577791323766328125",
+                "Herm_HS2": "20310775784834989675953872348909944468572007289899366094249652790008691254173878719318130753735829567736862462193227880706722043778493266457972849999699505038683222141357063143229630859342169091841748132666543873920996857497821184/628833977332649586112199821643285432163078686443764419744987748081148882300916308841823246984559875692836668041071723099514667106118463364194137949962863215297287581242959728183010159518235787089592160127577791323766328125",
+                "Herm_ratio": 0.525175963347381,
+                "rootball_error_HS_upper": "19808257985208354560181400168000807032355895333748729309830313705607270113752394301340494797003731534093451/400000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+                "gram_bound_half_robust": true,
+                "gram_robust_margin_lower": "1350243925759089081368655799495997578902932313998753812070509058883178189658742817095978515608988805397719647/400000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+                "max_allowed_gram_deviation_lower": "2253483867069775152657818599831999192967644104666251270690169686294392729886247605698659505202996268465906549/3156723808380461223946981400168000807032355895333748729309830313705607270113752394301340494797003731534093451",
+                "Herm_nonzero_certified": true,
+                "error_method": "global submultiplicative Clifford/block operator norm, normalized HS sqrt5 bound"
+              }
+            },
+            {
+              "name": "unit_time_and_x0",
+              "lambda_covector_order_x0_x1_x2_t": [
+                1,
+                0,
+                0,
+                -1
+              ],
+              "report": {
+                "terms": 8488,
+                "hermitian_terms": 7540,
+                "B_HS2": "41299408214301234372454926989630859410032065130004208915447896415506726183974058485057698191158572951152518372035011179660175085595922659076235633243772343932332365689114990217822711355382891008997901784264032901063078613645893632/628833977332649586112199821643285432163078686443764419744987748081148882300916308841823246984559875692836668041071723099514667106118463364194137949962863215297287581242959728183010159518235787089592160127577791323766328125",
+                "Herm_HS2": "21623365093949528067846838191047080899602121790708726410155691778570824457947499065298399344237171363929282897410624817054056408689225296045191932286470401366358241629743293611979630859342169091841748132666543873920996857497821184/628833977332649586112199821643285432163078686443764419744987748081148882300916308841823246984559875692836668041071723099514667106118463364194137949962863215297287581242959728183010159518235787089592160127577791323766328125",
+                "Herm_ratio": 0.5235756643714268,
+                "rootball_error_HS_upper": "20175031320508019441425160472236622740757054397716258515842195862347792893752394301340494797003731534093451/400000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+                "gram_bound_half_robust": true,
+                "gram_robust_margin_lower": "1389037984665855063256124518583290131777728836806851224452473412412956621318742817095978515608988805397719647/400000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+                "max_allowed_gram_deviation_lower": "775141078555488907377391613175921125753080981867427913828052601379217402368749201899553168400998756155302183/1087269495555692793669408386824078874246919018132572086171947398620782597631250798100446831599001243844697817",
+                "Herm_nonzero_certified": true,
+                "error_method": "global submultiplicative Clifford/block operator norm, normalized HS sqrt5 bound"
+              }
+            }
+          ],
+          "global_HS_coefficient_errors": [
+            "19441484649908689678937639863764991323954736269781200103818431548866747333752394301340494797003731534093451/400000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+            "18338666764983244062188015211790785420057953198376460300594107837026139/20000000000000000000000000000000000000000000000000000000000000000000000",
+            "18338666764983244062188015211790785420057953198376460300594107837026139/20000000000000000000000000000000000000000000000000000000000000000000000",
+            "18338666764983244062188015211790785420057953198376460300594107837026139/20000000000000000000000000000000000000000000000000000000000000000000000",
+            "18338666764983244062188015211790785420057953198376460300594107837026139/20000000000000000000000000000000000000000000000000000000000000000000000"
+          ],
+          "operator_error_bounds": {
+            "q": "2125612656780784853/500000000000000000",
+            "z": "768548415304245271/40000000000000000",
+            "c": "11224734296799131469/500000000000000000",
+            "dc": "7383827259/500000000000000000",
+            "u": "903010950629545959607/200000000000000000",
+            "du": "328027892836123/500000000000000000"
+          },
+          "all_frequency_gram": {
+            "positive_definite": true,
+            "center_positive_definite": true,
+            "LDL_pivots": [
+              "493358075673509687034314024007410388723555930880354395123763601648160240527373592564087644503050587382207487187413492276160233744103744880454703180470999158061564985068709758145226394649418052587124361553947425211147632849221006131200000000000000000000000000000/447986937991058561169534535604559048214852899541165847769048216293997127985949646113230106563169604365818232860841838109660466204121610724213286252034360251691179186586554899925761152959632830501112270131638034128610182252848688505298694138456319588778004333129",
+              "2100142894583261427028745347419418289648183201294976505449662381699413126037792553568429744802146873907872696347835098155734983857171247339550531658833434124280031181417968750000000000000000000000000000000000000000000000000000000000000000000000000000000000000/2100142894583261427030322625522357561181774670302863853899620787349242074970180696345169594518507517137570598609852313204579135028989715635640282295452714203655560805562216770190339954521718391261867721009478871128124529870867461018905178032447646419054232201",
+              "2100142894583261427028745347419418289648183201294976505449662381699413126037792553568429744802146873907872696347835098155734983857171247339550531658833434124280031181417968750000000000000000000000000000000000000000000000000000000000000000000000000000000000000/2100142894583261427030322625522357561181774670302863853899620787349242074970180696345169594518507517137570598609852313204579135028989715635640282295452714203655560805562216770190339954521718391261867721009478871128124529870867461018905178032447646419054232201",
+              "357802122779987272496952085751489307314523193883047908828334341590203239917123125787201313598809046483983325391645789492121205162791946412850688475935169747039181990630468750000000000000000000000000000000000000000000000000000000000000000000000000000000000000/326688894712951777537934680267528438557746258899876939495430939201182904751956123227323409025973698771777724064504995495559882985316660677928340822536523992191152022517549374931422534600532068666989641060197529979893757842415080008411612706997713760530997009",
+              "357802122779987272496952085751489307314523193883047908828334341590203239917123125787201313598809046483983325391645789492121205162791946412850688475935169747039181990630468750000000000000000000000000000000000000000000000000000000000000000000000000000000000000/326688894712951777537934680267528438557746258899876939495430939201182904751956123227323409025973698771777724064504995495559882985316660677928340822536523992191152022517549374931422534600532068666989641060197529979893757842415080008411612706997713760530997009"
+            ],
+            "G": [
+              [
+                "493358075673509687034314024007410388723555930880354395123763601648160240527373592564087644503050587382207487187413492276160233744103744880454703180470999158061564985068709758145226394649418052587124361553947425211147632849221006131200000000000000000000000000000/447986937991058561169534535604559048214852899541165847769048216293997127985949646113230106563169604365818232860841838109660466204121610724213286252034360251691179186586554899925761152959632830501112270131638034128610182252848688505298694138456319588778004333129",
+                "0",
+                "0",
+                "0",
+                "0"
+              ],
+              [
+                "0",
+                "2100142894583261427028745347419418289648183201294976505449662381699413126037792553568429744802146873907872696347835098155734983857171247339550531658833434124280031181417968750000000000000000000000000000000000000000000000000000000000000000000000000000000000000/2100142894583261427030322625522357561181774670302863853899620787349242074970180696345169594518507517137570598609852313204579135028989715635640282295452714203655560805562216770190339954521718391261867721009478871128124529870867461018905178032447646419054232201",
+                "0",
+                "0",
+                "0"
+              ],
+              [
+                "0",
+                "0",
+                "2100142894583261427028745347419418289648183201294976505449662381699413126037792553568429744802146873907872696347835098155734983857171247339550531658833434124280031181417968750000000000000000000000000000000000000000000000000000000000000000000000000000000000000/2100142894583261427030322625522357561181774670302863853899620787349242074970180696345169594518507517137570598609852313204579135028989715635640282295452714203655560805562216770190339954521718391261867721009478871128124529870867461018905178032447646419054232201",
+                "0",
+                "0"
+              ],
+              [
+                "0",
+                "0",
+                "0",
+                "357802122779987272496952085751489307314523193883047908828334341590203239917123125787201313598809046483983325391645789492121205162791946412850688475935169747039181990630468750000000000000000000000000000000000000000000000000000000000000000000000000000000000000/326688894712951777537934680267528438557746258899876939495430939201182904751956123227323409025973698771777724064504995495559882985316660677928340822536523992191152022517549374931422534600532068666989641060197529979893757842415080008411612706997713760530997009",
+                "0"
+              ],
+              [
+                "0",
+                "0",
+                "0",
+                "0",
+                "357802122779987272496952085751489307314523193883047908828334341590203239917123125787201313598809046483983325391645789492121205162791946412850688475935169747039181990630468750000000000000000000000000000000000000000000000000000000000000000000000000000000000000/326688894712951777537934680267528438557746258899876939495430939201182904751956123227323409025973698771777724064504995495559882985316660677928340822536523992191152022517549374931422534600532068666989641060197529979893757842415080008411612706997713760530997009"
+              ]
+            ],
+            "normalizers": [
+              "7460358388842959153141/1000000000000000000",
+              "510800646240243480683/250000000000000000",
+              "510800646240243480683/250000000000000000",
+              "604387475283224671197/250000000000000000",
+              "604387475283224671197/250000000000000000"
+            ],
+            "real_imag_cross_error_exactly_zero": true,
+            "real_split_premise": "Exact root coordinates, realified u and geometric C0 are real; spectral coefficients have exactly one i. Actual perturbations preserve this split.",
+            "lambda_min_lower": "420028578916652285405749069483883657929636640258995301089932476339882625207558510713685948960429374781574539269567019631146996771434249467910106331766686824856006236283593750000000000000000000000000000000000000000000000000000000000000000000000000000000000000/2100142894583261427030322625522357561181774670302863853899620787349242074970180696345169594518507517137570598609852313204579135028989715635640282295452714203655560805562216770190339954521718391261867721009478871128124529870867461018905178032447646419054232201",
+            "root_perturbation_norm_upper": "90863644542303495787401930430294727939118261795411734404832673573764749457194863409872013433471834089630757712556853703514214564092647034719939800203049002953196314444318746124790777812532812278895584587176401089401/1781022313279344426318856061672966140485308192000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+            "strict_margin": "557253633804113901934888922199330495187458250408059678992688805679068937500392832740395245128393929907067316572638612710219171697927464814159082951831449224495979538885137805743099977812702911733668424307019099965607233535428136923875050923881604021355918666332812070613489875248054191103804151599975656853725341082412811972187119210910807230720384628557777616850327500661787572299488296185316575050905783529527549772826437355295152785509574844869904090845690888643985998399/3740401356327858649928208888503070488641827762047275794793348864510971676911912659748547348788261971940876491069559809193601748038130277225405416113153874103844175619110216661733896479555558649574915738834467982118987997509999479099057097380453791772034674306949513261183886584071253974257157919415490592000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+            "affine_order": [
+              "constant",
+              "x0",
+              "x1",
+              "x2",
+              "time"
+            ],
+            "claim": "When positive definite, all actual real frequency points survive every existing normalized Gram deviation norm<1/2; no new support or dispersion chosen."
+          }
+        },
+        {
+          "root": 0,
+          "normal_energy_axis": 4,
+          "range_basis_index": 3,
+          "realification": "b",
+          "coefficient_error": "745029982817641323133900854588959210097211507434160996617085792548647133061713717932387546213449015534071761189773656514117704217054773112863985495749279312271238031116698839477957812563691972930246287390755657958984375000000000000000000/2340304264962397785211962017483874594835602370311283885308424045400830071765403598136334625310351415275625940170814598301558686864954426559822419663800957457996859248069111904968557073196831882466798197503064801177925423691366827716608046052414509",
+          "certified_each_real_energy_center": "-234635858072967865355835487211408376704387368062187591258137393622493518194739852488000000000000000000000000000000/2837089161421951980566978424110524067175150706359650354884960086808209873370392380859347648959292196534893047",
+          "certified_each_real_energy_error": "73239427430905412629354989609513046189396280026807762611446001750702207768498705327625425342966892023061390411999509529963826795353352416086981230174137153513511783410895962716041164806261175706934931035660844200000000000000000000000000000000/2340304264962397785211962017483874594835602370311283885308424045400830071765403598136334625310351415275625940170814598301558686864954426559822419663800957457996859248069111904968557073196831882466798197503064801177925423691366827716608046052414509",
+          "points": [
+            {
+              "name": "zero_frequency",
+              "lambda_covector_order_x0_x1_x2_t": [
+                0,
+                0,
+                0,
+                0
+              ],
+              "report": {
+                "terms": 7960,
+                "hermitian_terms": 6728,
+                "B_HS2": "34998979530551450091368690947372604541087515526119279399098909270408486805860680824352408956752132329428900282991505885192970134024408917057584038267272041559492272144861083967822711355382891008997901784264032901063078613645893632/628833977332649586112199821643285432163078686443764419744987748081148882300916308841823246984559875692836668041071723099514667106118463364194137949962863215297287581242959728183010159518235787089592160127577791323766328125",
+                "Herm_HS2": "18385644798136098597731118518237885290028830656536741629535735162292751399265435685855439045888239867165965054877046242316997098820628496460776931060392212695763009150838508455729630859342169091841748132666543873920996857497821184/628833977332649586112199821643285432163078686443764419744987748081148882300916308841823246984559875692836668041071723099514667106118463364194137949962863215297287581242959728183010159518235787089592160127577791323766328125",
+                "Herm_ratio": 0.525319453445402,
+                "rootball_error_HS_upper": "19441484649908689678937639863764991323954736269781200103818431548866747333752394301340494797003731534093451/400000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+                "gram_bound_half_robust": true,
+                "gram_robust_margin_lower": "1283282225330106086739587080408705026028135791190656399688544705353399757998742817095978515608988805397719647/400000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+                "max_allowed_gram_deviation_lower": "2143433532758599218837462360136235008676045263730218799896181568451133252666247605698659505202996268465906549/3003584840187092350935337639863764991323954736269781200103818431548866747333752394301340494797003731534093451",
+                "Herm_nonzero_certified": true,
+                "error_method": "global submultiplicative Clifford/block operator norm, normalized HS sqrt5 bound"
+              }
+            },
+            {
+              "name": "unit_frequency_at_zero_spatial",
+              "lambda_covector_order_x0_x1_x2_t": [
+                0,
+                0,
+                0,
+                -1
+              ],
+              "report": {
+                "terms": 8248,
+                "hermitian_terms": 7160,
+                "B_HS2": "38674229596072157588668995305356586547971836128385488283635818438382459776426817793097161010155889358767677501600217306965506355774458599901797468670230551276982326712342529280322711355382891008997901784264032901063078613645893632/628833977332649586112199821643285432163078686443764419744987748081148882300916308841823246984559875692836668041071723099514667106118463364194137949962863215297287581242959728183010159518235787089592160127577791323766328125",
+                "Herm_HS2": "20310775784834989675953872348909944468572007289899366094249652790008691254173878719318130753735829567736862462193227880706722043778493266457972849999699505038683222141357063143229630859342169091841748132666543873920996857497821184/628833977332649586112199821643285432163078686443764419744987748081148882300916308841823246984559875692836668041071723099514667106118463364194137949962863215297287581242959728183010159518235787089592160127577791323766328125",
+                "Herm_ratio": 0.525175963347381,
+                "rootball_error_HS_upper": "19808257985208354560181400168000807032355895333748729309830313705607270113752394301340494797003731534093451/400000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+                "gram_bound_half_robust": true,
+                "gram_robust_margin_lower": "1350243925759089081368655799495997578902932313998753812070509058883178189658742817095978515608988805397719647/400000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+                "max_allowed_gram_deviation_lower": "2253483867069775152657818599831999192967644104666251270690169686294392729886247605698659505202996268465906549/3156723808380461223946981400168000807032355895333748729309830313705607270113752394301340494797003731534093451",
+                "Herm_nonzero_certified": true,
+                "error_method": "global submultiplicative Clifford/block operator norm, normalized HS sqrt5 bound"
+              }
+            },
+            {
+              "name": "unit_time_and_x0",
+              "lambda_covector_order_x0_x1_x2_t": [
+                1,
+                0,
+                0,
+                -1
+              ],
+              "report": {
+                "terms": 8488,
+                "hermitian_terms": 7540,
+                "B_HS2": "41299408214301234372454926989630859410032065130004208915447896415506726183974058485057698191158572951152518372035011179660175085595922659076235633243772343932332365689114990217822711355382891008997901784264032901063078613645893632/628833977332649586112199821643285432163078686443764419744987748081148882300916308841823246984559875692836668041071723099514667106118463364194137949962863215297287581242959728183010159518235787089592160127577791323766328125",
+                "Herm_HS2": "21623365093949528067846838191047080899602121790708726410155691778570824457947499065298399344237171363929282897410624817054056408689225296045191932286470401366358241629743293611979630859342169091841748132666543873920996857497821184/628833977332649586112199821643285432163078686443764419744987748081148882300916308841823246984559875692836668041071723099514667106118463364194137949962863215297287581242959728183010159518235787089592160127577791323766328125",
+                "Herm_ratio": 0.5235756643714268,
+                "rootball_error_HS_upper": "20175031320508019441425160472236622740757054397716258515842195862347792893752394301340494797003731534093451/400000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+                "gram_bound_half_robust": true,
+                "gram_robust_margin_lower": "1389037984665855063256124518583290131777728836806851224452473412412956621318742817095978515608988805397719647/400000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+                "max_allowed_gram_deviation_lower": "775141078555488907377391613175921125753080981867427913828052601379217402368749201899553168400998756155302183/1087269495555692793669408386824078874246919018132572086171947398620782597631250798100446831599001243844697817",
+                "Herm_nonzero_certified": true,
+                "error_method": "global submultiplicative Clifford/block operator norm, normalized HS sqrt5 bound"
+              }
+            }
+          ],
+          "global_HS_coefficient_errors": [
+            "19441484649908689678937639863764991323954736269781200103818431548866747333752394301340494797003731534093451/400000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+            "18338666764983244062188015211790785420057953198376460300594107837026139/20000000000000000000000000000000000000000000000000000000000000000000000",
+            "18338666764983244062188015211790785420057953198376460300594107837026139/20000000000000000000000000000000000000000000000000000000000000000000000",
+            "18338666764983244062188015211790785420057953198376460300594107837026139/20000000000000000000000000000000000000000000000000000000000000000000000",
+            "18338666764983244062188015211790785420057953198376460300594107837026139/20000000000000000000000000000000000000000000000000000000000000000000000"
+          ],
+          "operator_error_bounds": {
+            "q": "2125612656780784853/500000000000000000",
+            "z": "768548415304245271/40000000000000000",
+            "c": "11224734296799131469/500000000000000000",
+            "dc": "7383827259/500000000000000000",
+            "u": "903010950629545959607/200000000000000000",
+            "du": "328027892836123/500000000000000000"
+          },
+          "all_frequency_gram": {
+            "positive_definite": true,
+            "center_positive_definite": true,
+            "LDL_pivots": [
+              "493358075673509687034314024007410388723555930880354395123763601648160240527373592564087644503050587382207487187413492276160233744103744880454703180470999158061564985068709758145226394649418052587124361553947425211147632849221006131200000000000000000000000000000/447986937991058561169534535604559048214852899541165847769048216293997127985949646113230106563169604365818232860841838109660466204121610724213286252034360251691179186586554899925761152959632830501112270131638034128610182252848688505298694138456319588778004333129",
+              "2100142894583261427028745347419418289648183201294976505449662381699413126037792553568429744802146873907872696347835098155734983857171247339550531658833434124280031181417968750000000000000000000000000000000000000000000000000000000000000000000000000000000000000/2100142894583261427030322625522357561181774670302863853899620787349242074970180696345169594518507517137570598609852313204579135028989715635640282295452714203655560805562216770190339954521718391261867721009478871128124529870867461018905178032447646419054232201",
+              "2100142894583261427028745347419418289648183201294976505449662381699413126037792553568429744802146873907872696347835098155734983857171247339550531658833434124280031181417968750000000000000000000000000000000000000000000000000000000000000000000000000000000000000/2100142894583261427030322625522357561181774670302863853899620787349242074970180696345169594518507517137570598609852313204579135028989715635640282295452714203655560805562216770190339954521718391261867721009478871128124529870867461018905178032447646419054232201",
+              "357802122779987272496952085751489307314523193883047908828334341590203239917123125787201313598809046483983325391645789492121205162791946412850688475935169747039181990630468750000000000000000000000000000000000000000000000000000000000000000000000000000000000000/326688894712951777537934680267528438557746258899876939495430939201182904751956123227323409025973698771777724064504995495559882985316660677928340822536523992191152022517549374931422534600532068666989641060197529979893757842415080008411612706997713760530997009",
+              "357802122779987272496952085751489307314523193883047908828334341590203239917123125787201313598809046483983325391645789492121205162791946412850688475935169747039181990630468750000000000000000000000000000000000000000000000000000000000000000000000000000000000000/326688894712951777537934680267528438557746258899876939495430939201182904751956123227323409025973698771777724064504995495559882985316660677928340822536523992191152022517549374931422534600532068666989641060197529979893757842415080008411612706997713760530997009"
+            ],
+            "G": [
+              [
+                "493358075673509687034314024007410388723555930880354395123763601648160240527373592564087644503050587382207487187413492276160233744103744880454703180470999158061564985068709758145226394649418052587124361553947425211147632849221006131200000000000000000000000000000/447986937991058561169534535604559048214852899541165847769048216293997127985949646113230106563169604365818232860841838109660466204121610724213286252034360251691179186586554899925761152959632830501112270131638034128610182252848688505298694138456319588778004333129",
+                "0",
+                "0",
+                "0",
+                "0"
+              ],
+              [
+                "0",
+                "2100142894583261427028745347419418289648183201294976505449662381699413126037792553568429744802146873907872696347835098155734983857171247339550531658833434124280031181417968750000000000000000000000000000000000000000000000000000000000000000000000000000000000000/2100142894583261427030322625522357561181774670302863853899620787349242074970180696345169594518507517137570598609852313204579135028989715635640282295452714203655560805562216770190339954521718391261867721009478871128124529870867461018905178032447646419054232201",
+                "0",
+                "0",
+                "0"
+              ],
+              [
+                "0",
+                "0",
+                "2100142894583261427028745347419418289648183201294976505449662381699413126037792553568429744802146873907872696347835098155734983857171247339550531658833434124280031181417968750000000000000000000000000000000000000000000000000000000000000000000000000000000000000/2100142894583261427030322625522357561181774670302863853899620787349242074970180696345169594518507517137570598609852313204579135028989715635640282295452714203655560805562216770190339954521718391261867721009478871128124529870867461018905178032447646419054232201",
+                "0",
+                "0"
+              ],
+              [
+                "0",
+                "0",
+                "0",
+                "357802122779987272496952085751489307314523193883047908828334341590203239917123125787201313598809046483983325391645789492121205162791946412850688475935169747039181990630468750000000000000000000000000000000000000000000000000000000000000000000000000000000000000/326688894712951777537934680267528438557746258899876939495430939201182904751956123227323409025973698771777724064504995495559882985316660677928340822536523992191152022517549374931422534600532068666989641060197529979893757842415080008411612706997713760530997009",
+                "0"
+              ],
+              [
+                "0",
+                "0",
+                "0",
+                "0",
+                "357802122779987272496952085751489307314523193883047908828334341590203239917123125787201313598809046483983325391645789492121205162791946412850688475935169747039181990630468750000000000000000000000000000000000000000000000000000000000000000000000000000000000000/326688894712951777537934680267528438557746258899876939495430939201182904751956123227323409025973698771777724064504995495559882985316660677928340822536523992191152022517549374931422534600532068666989641060197529979893757842415080008411612706997713760530997009"
+              ]
+            ],
+            "normalizers": [
+              "7460358388842959153141/1000000000000000000",
+              "510800646240243480683/250000000000000000",
+              "510800646240243480683/250000000000000000",
+              "604387475283224671197/250000000000000000",
+              "604387475283224671197/250000000000000000"
+            ],
+            "real_imag_cross_error_exactly_zero": true,
+            "real_split_premise": "Exact root coordinates, realified u and geometric C0 are real; spectral coefficients have exactly one i. Actual perturbations preserve this split.",
+            "lambda_min_lower": "420028578916652285405749069483883657929636640258995301089932476339882625207558510713685948960429374781574539269567019631146996771434249467910106331766686824856006236283593750000000000000000000000000000000000000000000000000000000000000000000000000000000000000/2100142894583261427030322625522357561181774670302863853899620787349242074970180696345169594518507517137570598609852313204579135028989715635640282295452714203655560805562216770190339954521718391261867721009478871128124529870867461018905178032447646419054232201",
+            "root_perturbation_norm_upper": "90863644542303495787401930430294727939118261795411734404832673573764749457194863409872013433471834089630757712556853703514214564092647034719939800203049002953196314444318746124790777812532812278895584587176401089401/1781022313279344426318856061672966140485308192000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+            "strict_margin": "557253633804113901934888922199330495187458250408059678992688805679068937500392832740395245128393929907067316572638612710219171697927464814159082951831449224495979538885137805743099977812702911733668424307019099965607233535428136923875050923881604021355918666332812070613489875248054191103804151599975656853725341082412811972187119210910807230720384628557777616850327500661787572299488296185316575050905783529527549772826437355295152785509574844869904090845690888643985998399/3740401356327858649928208888503070488641827762047275794793348864510971676911912659748547348788261971940876491069559809193601748038130277225405416113153874103844175619110216661733896479555558649574915738834467982118987997509999479099057097380453791772034674306949513261183886584071253974257157919415490592000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+            "affine_order": [
+              "constant",
+              "x0",
+              "x1",
+              "x2",
+              "time"
+            ],
+            "claim": "When positive definite, all actual real frequency points survive every existing normalized Gram deviation norm<1/2; no new support or dispersion chosen."
+          }
+        },
+        {
+          "root": 1,
+          "normal_energy_axis": 4,
+          "range_basis_index": 12,
+          "realification": "a",
+          "coefficient_error": "101008306273197558407646590677857504921915777886093847717141353283088113979302171857743428010400925378223875762220286807063854923183010641103054050968843135138466509552001953125000000000000000000/1989630116837796056824570246355197734015572556408573960287686013346721629755260631985770584761894333214566482182851014528211074138375902936583571421432096886398857514498580430163603738661818452218911833913",
+          "certified_each_real_energy_center": "-5203700584785124353825995079172480468540266767196450000000000000000000000000000000/11171564206380132814127855274887775268743024060882244930432495790599894887637",
+          "certified_each_real_energy_error": "476616985914259813521853941599812999864512414207099341087321452470753309917823393710573277462453723282284154380606547565517049329691968547023742020469175466719286964240000000000000000000000000000000000/1989630116837796056824570246355197734015572556408573960287686013346721629755260631985770584761894333214566482182851014528211074138375902936583571421432096886398857514498580430163603738661818452218911833913",
+          "points": [
+            {
+              "name": "zero_frequency",
+              "lambda_covector_order_x0_x1_x2_t": [
+                0,
+                0,
+                0,
+                0
+              ],
+              "report": {
+                "terms": 7384,
+                "hermitian_terms": 6352,
+                "B_HS2": "1461762474588885668190779249220484483227495551945653078196466856430346658264840549219490386152273466698050698474479962833035008010039776988464799458682262504479744/3120096170431844167895452478733647107134880262175702925675357030117128113019178864392799206133513502454156548264895638690698849696773124316825221386094225",
+                "Herm_HS2": "686204344736266792138917125736495137318296284298884452128371854636521918449171294261973106990758642092560923831425511890623809677468554568640468701517776164347392/3120096170431844167895452478733647107134880262175702925675357030117128113019178864392799206133513502454156548264895638690698849696773124316825221386094225",
+                "Herm_ratio": 0.469436284393098,
+                "rootball_error_HS_upper": "6385783389700686892329555068198670080684639947127402642372381201534404137625818715016445155279970274807389/800000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+                "gram_bound_half_robust": true,
+                "gram_robust_margin_lower": "6393056178859109988674211334795403989757946080158617792072882856395396787587122543854950664534160089175577833/800000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+                "max_allowed_gram_deviation_lower": "11857657665569074270446870444931801329919315360052872597357627618798465595862374181284983554844720029725192611/17322259152279038552219529555068198670080684639947127402642372381201534404137625818715016445155279970274807389",
+                "Herm_nonzero_certified": true,
+                "error_method": "global submultiplicative Clifford/block operator norm, normalized HS sqrt5 bound"
+              }
+            },
+            {
+              "name": "unit_frequency_at_zero_spatial",
+              "lambda_covector_order_x0_x1_x2_t": [
+                0,
+                0,
+                0,
+                -1
+              ],
+              "report": {
+                "terms": 7640,
+                "hermitian_terms": 6688,
+                "B_HS2": "1617854632329379624795283468153612519800224291421725238666390908282641851114964767326038559892639442022153237536979962833035008010039776988464799458682262504479744/3120096170431844167895452478733647107134880262175702925675357030117128113019178864392799206133513502454156548264895638690698849696773124316825221386094225",
+                "Herm_HS2": "759659477949828952673859605332544438002087651932716378394489060884614984366022319837291818646780664889576548831425511890623809677468554568640468701517776164347392/3120096170431844167895452478733647107134880262175702925675357030117128113019178864392799206133513502454156548264895638690698849696773124316825221386094225",
+                "Herm_ratio": 0.46954742581295744,
+                "rootball_error_HS_upper": "6502763241345513103938418477299858272305449369838848517895689788508576557625818715016445155279970274807389/800000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+                "gram_bound_half_robust": true,
+                "gram_robust_margin_lower": "6729337582974563972556984744568100425183083651890483454446312930634474270327122543854950664534160089175577833/800000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+                "max_allowed_gram_deviation_lower": "12476396826253986411508061581522700141727694550630161151482104310211491423442374181284983554844720029725192611/18223456069533408850459138418477299858272305449369838848517895689788508576557625818715016445155279970274807389",
+                "Herm_nonzero_certified": true,
+                "error_method": "global submultiplicative Clifford/block operator norm, normalized HS sqrt5 bound"
+              }
+            },
+            {
+              "name": "unit_time_and_x0",
+              "lambda_covector_order_x0_x1_x2_t": [
+                1,
+                0,
+                0,
+                -1
+              ],
+              "report": {
+                "terms": 7880,
+                "hermitian_terms": 7060,
+                "B_HS2": "56631709896976969583657271807605945702456819822220894619312156012503490249917010087553848433169563841059095112079998801065645419678702483498864498667169758209024/100648263562317553803079112217214422810802589102442029860495388068294455258683189173961264713984306530779243492415988344861253216024939494091136173744975",
+                "Herm_HS2": "828523665188282168822905584273630336490056213466277625660632024937098157682253592531357189414589183414915904300175511890623809677468554568640468701517776164347392/3120096170431844167895452478733647107134880262175702925675357030117128113019178864392799206133513502454156548264895638690698849696773124316825221386094225",
+                "Herm_ratio": 0.4719364803464988,
+                "rootball_error_HS_upper": "6619743092990339315547281886401046463926258792550294393418998375482748977625818715016445155279970274807389/800000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+                "gram_bound_half_robust": true,
+                "gram_robust_margin_lower": "7076462740158008632618158154340796860608221223622349116819743004873551753067122543854950664534160089175577833/800000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+                "max_allowed_gram_deviation_lower": "13029803611619068056332452718113598953536073741207449705606581001624517251022374181284983554844720029725192611/18983144483080127480046747281886401046463926258792550294393418998375482748977625818715016445155279970274807389",
+                "Herm_nonzero_certified": true,
+                "error_method": "global submultiplicative Clifford/block operator norm, normalized HS sqrt5 bound"
+              }
+            }
+          ],
+          "global_HS_coefficient_errors": [
+            "6385783389700686892329555068198670080684639947127402642372381201534404137625818715016445155279970274807389/800000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+            "5848992582241310580443170455059409581040471135572293776165429348708621/40000000000000000000000000000000000000000000000000000000000000000000000",
+            "5848992582241310580443170455059409581040471135572293776165429348708621/40000000000000000000000000000000000000000000000000000000000000000000000",
+            "5848992582241310580443170455059409581040471135572293776165429348708621/40000000000000000000000000000000000000000000000000000000000000000000000",
+            "5848992582241310580443170455059409581040471135572293776165429348708621/40000000000000000000000000000000000000000000000000000000000000000000000"
+          ],
+          "operator_error_bounds": {
+            "q": "2125612656780784853/500000000000000000",
+            "z": "768548415304245271/40000000000000000",
+            "c": "669002759804103063/25000000000000000",
+            "dc": "1592107357/125000000000000000",
+            "u": "14836042764333315217841/1000000000000000000",
+            "du": "104622257253197/1000000000000000000"
+          },
+          "all_frequency_gram": {
+            "positive_definite": true,
+            "center_positive_definite": true,
+            "LDL_pivots": [
+              "5702466241583028890510618905446649182425287045555043245853424720514404513474865012570675741381160451876413319338764821019823247554819739049320334877283742901821440000000000000000000000000000000000/6496722109283936303070227120957912629241836241261653114956554999494551005443029030849053685513202016273443291373581721844913796638046602298126990639779948004928491802585621257403003122413376094121",
+              "2391117612446292227397429824343260364165575053248654418963297362933443517924696968543936484993351337685394287109375000000000000000000000000000000000000000000000000000000000000000000000000000000/2391117612446292227397618688989394372662029795402813273821053427529600513268599030201332578348851487928120920825283504137854760800344677873415576358303480267595825458971151013687724560189034561",
+              "2391117612446292227397429824343260364165575053248654418963297362933443517924696968543936484993351337685394287109375000000000000000000000000000000000000000000000000000000000000000000000000000000/2391117612446292227397618688989394372662029795402813273821053427529600513268599030201332578348851487928120920825283504137854760800344677873415576358303480267595825458971151013687724560189034561",
+              "1377283738400581790609182163132744277894375150749894444700270830698556224476452065815348101875119582373974609375000000000000000000000000000000000000000000000000000000000000000000000000000000000000/1193645912133189079916987251637691557894315329934886262162000841500297738020448679300469001888336512714412743034982775520507320443976536388916319379188636354759001414668303027687755427135061885481",
+              "66375120536749246041091903349912851162620111353858093780503505127747985936038498407097191751191381139257812500000000000000000000000000000000000000000000000000000000000000000000000000000000000000/75225136260479015231105043636327263397439958421224453853584894302298789380260767651085179537727774787248055489554476250045989151989792501216966485382006771050576647585594737214495607521892998683"
+            ],
+            "G": [
+              [
+                "5702466241583028890510618905446649182425287045555043245853424720514404513474865012570675741381160451876413319338764821019823247554819739049320334877283742901821440000000000000000000000000000000000/6496722109283936303070227120957912629241836241261653114956554999494551005443029030849053685513202016273443291373581721844913796638046602298126990639779948004928491802585621257403003122413376094121",
+                "0",
+                "0",
+                "0",
+                "0"
+              ],
+              [
+                "0",
+                "2391117612446292227397429824343260364165575053248654418963297362933443517924696968543936484993351337685394287109375000000000000000000000000000000000000000000000000000000000000000000000000000000/2391117612446292227397618688989394372662029795402813273821053427529600513268599030201332578348851487928120920825283504137854760800344677873415576358303480267595825458971151013687724560189034561",
+                "0",
+                "0",
+                "0"
+              ],
+              [
+                "0",
+                "0",
+                "2391117612446292227397429824343260364165575053248654418963297362933443517924696968543936484993351337685394287109375000000000000000000000000000000000000000000000000000000000000000000000000000000/2391117612446292227397618688989394372662029795402813273821053427529600513268599030201332578348851487928120920825283504137854760800344677873415576358303480267595825458971151013687724560189034561",
+                "0",
+                "0"
+              ],
+              [
+                "0",
+                "0",
+                "0",
+                "1377283738400581790609182163132744277894375150749894444700270830698556224476452065815348101875119582373974609375000000000000000000000000000000000000000000000000000000000000000000000000000000000000/1193645912133189079916987251637691557894315329934886262162000841500297738020448679300469001888336512714412743034982775520507320443976536388916319379188636354759001414668303027687755427135061885481",
+                "0"
+              ],
+              [
+                "0",
+                "0",
+                "0",
+                "0",
+                "66375120536749246041091903349912851162620111353858093780503505127747985936038498407097191751191381139257812500000000000000000000000000000000000000000000000000000000000000000000000000000000000000/75225136260479015231105043636327263397439958421224453853584894302298789380260767651085179537727774787248055489554476250045989151989792501216966485382006771050576647585594737214495607521892998683"
+              ]
+            ],
+            "normalizers": [
+              "21644841711111672331659/1000000000000000000",
+              "415248180359923367511/62500000000000000",
+              "415248180359923367511/62500000000000000",
+              "3092600143084922380057/500000000000000000",
+              "7073047128471923536291/1000000000000000000"
+            ],
+            "real_imag_cross_error_exactly_zero": true,
+            "real_split_premise": "Exact root coordinates, realified u and geometric C0 are real; spectral coefficients have exactly one i. Actual perturbations preserve this split.",
+            "lambda_min_lower": "1140493248316605778102123781089329836485057409111008649170684944102880902694973002514135148276232090375282663867752964203964649510963947809864066975456748580364288000000000000000000000000000000000/6496722109283936303070227120957912629241836241261653114956554999494551005443029030849053685513202016273443291373581721844913796638046602298126990639779948004928491802585621257403003122413376094121",
+            "root_perturbation_norm_upper": "18387653710006987948494219960342168050566199315800261014221470860174215720886047922136952468196075325514552392784315915429497919203291940123137475195454829792876989859118601387545009160797539285475146101751227666369/6663099345053577491989719733571643131643623552000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+            "strict_margin": "143688285867572751805580617166117444051915485875928320142018217530505336775762597220496010887478715581851714112503390670109781510745390681570412983393705253657812046846944877869064693233738283843168912732716051286431442820635168567301985688768652134037158950432553261176645164036573804261223832829538415981649648575142381006298300378939174110425625996316636752228095239/831580429988343846792989071482612816542955038881491598714439039935302528696707715948678871745689858083000741295818460396148965969669965094160254801891833344630846950730959520947584399668912140047488000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+            "affine_order": [
+              "constant",
+              "x0",
+              "x1",
+              "x2",
+              "time"
+            ],
+            "claim": "When positive definite, all actual real frequency points survive every existing normalized Gram deviation norm<1/2; no new support or dispersion chosen."
+          }
+        },
+        {
+          "root": 1,
+          "normal_energy_axis": 4,
+          "range_basis_index": 12,
+          "realification": "b",
+          "coefficient_error": "101008306273197558407646590677857504921915777886093847717141353283088113979302171857743428010400925378223875762220286807063854923183010641103054050968843135138466509552001953125000000000000000000/1989630116837796056824570246355197734015572556408573960287686013346721629755260631985770584761894333214566482182851014528211074138375902936583571421432096886398857514498580430163603738661818452218911833913",
+          "certified_each_real_energy_center": "-5203700584785124353825995079172480468540266767196450000000000000000000000000000000/11171564206380132814127855274887775268743024060882244930432495790599894887637",
+          "certified_each_real_energy_error": "476616985914259813521853941599812999864512414207099341087321452470753309917823393710573277462453723282284154380606547565517049329691968547023742020469175466719286964240000000000000000000000000000000000/1989630116837796056824570246355197734015572556408573960287686013346721629755260631985770584761894333214566482182851014528211074138375902936583571421432096886398857514498580430163603738661818452218911833913",
+          "points": [
+            {
+              "name": "zero_frequency",
+              "lambda_covector_order_x0_x1_x2_t": [
+                0,
+                0,
+                0,
+                0
+              ],
+              "report": {
+                "terms": 7384,
+                "hermitian_terms": 6352,
+                "B_HS2": "1461762474588885668190779249220484483227495551945653078196466856430346658264840549219490386152273466698050698474479962833035008010039776988464799458682262504479744/3120096170431844167895452478733647107134880262175702925675357030117128113019178864392799206133513502454156548264895638690698849696773124316825221386094225",
+                "Herm_HS2": "686204344736266792138917125736495137318296284298884452128371854636521918449171294261973106990758642092560923831425511890623809677468554568640468701517776164347392/3120096170431844167895452478733647107134880262175702925675357030117128113019178864392799206133513502454156548264895638690698849696773124316825221386094225",
+                "Herm_ratio": 0.469436284393098,
+                "rootball_error_HS_upper": "6385783389700686892329555068198670080684639947127402642372381201534404137625818715016445155279970274807389/800000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+                "gram_bound_half_robust": true,
+                "gram_robust_margin_lower": "6393056178859109988674211334795403989757946080158617792072882856395396787587122543854950664534160089175577833/800000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+                "max_allowed_gram_deviation_lower": "11857657665569074270446870444931801329919315360052872597357627618798465595862374181284983554844720029725192611/17322259152279038552219529555068198670080684639947127402642372381201534404137625818715016445155279970274807389",
+                "Herm_nonzero_certified": true,
+                "error_method": "global submultiplicative Clifford/block operator norm, normalized HS sqrt5 bound"
+              }
+            },
+            {
+              "name": "unit_frequency_at_zero_spatial",
+              "lambda_covector_order_x0_x1_x2_t": [
+                0,
+                0,
+                0,
+                -1
+              ],
+              "report": {
+                "terms": 7640,
+                "hermitian_terms": 6688,
+                "B_HS2": "1617854632329379624795283468153612519800224291421725238666390908282641851114964767326038559892639442022153237536979962833035008010039776988464799458682262504479744/3120096170431844167895452478733647107134880262175702925675357030117128113019178864392799206133513502454156548264895638690698849696773124316825221386094225",
+                "Herm_HS2": "759659477949828952673859605332544438002087651932716378394489060884614984366022319837291818646780664889576548831425511890623809677468554568640468701517776164347392/3120096170431844167895452478733647107134880262175702925675357030117128113019178864392799206133513502454156548264895638690698849696773124316825221386094225",
+                "Herm_ratio": 0.46954742581295744,
+                "rootball_error_HS_upper": "6502763241345513103938418477299858272305449369838848517895689788508576557625818715016445155279970274807389/800000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+                "gram_bound_half_robust": true,
+                "gram_robust_margin_lower": "6729337582974563972556984744568100425183083651890483454446312930634474270327122543854950664534160089175577833/800000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+                "max_allowed_gram_deviation_lower": "12476396826253986411508061581522700141727694550630161151482104310211491423442374181284983554844720029725192611/18223456069533408850459138418477299858272305449369838848517895689788508576557625818715016445155279970274807389",
+                "Herm_nonzero_certified": true,
+                "error_method": "global submultiplicative Clifford/block operator norm, normalized HS sqrt5 bound"
+              }
+            },
+            {
+              "name": "unit_time_and_x0",
+              "lambda_covector_order_x0_x1_x2_t": [
+                1,
+                0,
+                0,
+                -1
+              ],
+              "report": {
+                "terms": 7880,
+                "hermitian_terms": 7060,
+                "B_HS2": "56631709896976969583657271807605945702456819822220894619312156012503490249917010087553848433169563841059095112079998801065645419678702483498864498667169758209024/100648263562317553803079112217214422810802589102442029860495388068294455258683189173961264713984306530779243492415988344861253216024939494091136173744975",
+                "Herm_HS2": "828523665188282168822905584273630336490056213466277625660632024937098157682253592531357189414589183414915904300175511890623809677468554568640468701517776164347392/3120096170431844167895452478733647107134880262175702925675357030117128113019178864392799206133513502454156548264895638690698849696773124316825221386094225",
+                "Herm_ratio": 0.4719364803464988,
+                "rootball_error_HS_upper": "6619743092990339315547281886401046463926258792550294393418998375482748977625818715016445155279970274807389/800000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+                "gram_bound_half_robust": true,
+                "gram_robust_margin_lower": "7076462740158008632618158154340796860608221223622349116819743004873551753067122543854950664534160089175577833/800000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+                "max_allowed_gram_deviation_lower": "13029803611619068056332452718113598953536073741207449705606581001624517251022374181284983554844720029725192611/18983144483080127480046747281886401046463926258792550294393418998375482748977625818715016445155279970274807389",
+                "Herm_nonzero_certified": true,
+                "error_method": "global submultiplicative Clifford/block operator norm, normalized HS sqrt5 bound"
+              }
+            }
+          ],
+          "global_HS_coefficient_errors": [
+            "6385783389700686892329555068198670080684639947127402642372381201534404137625818715016445155279970274807389/800000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+            "5848992582241310580443170455059409581040471135572293776165429348708621/40000000000000000000000000000000000000000000000000000000000000000000000",
+            "5848992582241310580443170455059409581040471135572293776165429348708621/40000000000000000000000000000000000000000000000000000000000000000000000",
+            "5848992582241310580443170455059409581040471135572293776165429348708621/40000000000000000000000000000000000000000000000000000000000000000000000",
+            "5848992582241310580443170455059409581040471135572293776165429348708621/40000000000000000000000000000000000000000000000000000000000000000000000"
+          ],
+          "operator_error_bounds": {
+            "q": "2125612656780784853/500000000000000000",
+            "z": "768548415304245271/40000000000000000",
+            "c": "669002759804103063/25000000000000000",
+            "dc": "1592107357/125000000000000000",
+            "u": "14836042764333315217841/1000000000000000000",
+            "du": "104622257253197/1000000000000000000"
+          },
+          "all_frequency_gram": {
+            "positive_definite": true,
+            "center_positive_definite": true,
+            "LDL_pivots": [
+              "5702466241583028890510618905446649182425287045555043245853424720514404513474865012570675741381160451876413319338764821019823247554819739049320334877283742901821440000000000000000000000000000000000/6496722109283936303070227120957912629241836241261653114956554999494551005443029030849053685513202016273443291373581721844913796638046602298126990639779948004928491802585621257403003122413376094121",
+              "2391117612446292227397429824343260364165575053248654418963297362933443517924696968543936484993351337685394287109375000000000000000000000000000000000000000000000000000000000000000000000000000000/2391117612446292227397618688989394372662029795402813273821053427529600513268599030201332578348851487928120920825283504137854760800344677873415576358303480267595825458971151013687724560189034561",
+              "2391117612446292227397429824343260364165575053248654418963297362933443517924696968543936484993351337685394287109375000000000000000000000000000000000000000000000000000000000000000000000000000000/2391117612446292227397618688989394372662029795402813273821053427529600513268599030201332578348851487928120920825283504137854760800344677873415576358303480267595825458971151013687724560189034561",
+              "1377283738400581790609182163132744277894375150749894444700270830698556224476452065815348101875119582373974609375000000000000000000000000000000000000000000000000000000000000000000000000000000000000/1193645912133189079916987251637691557894315329934886262162000841500297738020448679300469001888336512714412743034982775520507320443976536388916319379188636354759001414668303027687755427135061885481",
+              "66375120536749246041091903349912851162620111353858093780503505127747985936038498407097191751191381139257812500000000000000000000000000000000000000000000000000000000000000000000000000000000000000/75225136260479015231105043636327263397439958421224453853584894302298789380260767651085179537727774787248055489554476250045989151989792501216966485382006771050576647585594737214495607521892998683"
+            ],
+            "G": [
+              [
+                "5702466241583028890510618905446649182425287045555043245853424720514404513474865012570675741381160451876413319338764821019823247554819739049320334877283742901821440000000000000000000000000000000000/6496722109283936303070227120957912629241836241261653114956554999494551005443029030849053685513202016273443291373581721844913796638046602298126990639779948004928491802585621257403003122413376094121",
+                "0",
+                "0",
+                "0",
+                "0"
+              ],
+              [
+                "0",
+                "2391117612446292227397429824343260364165575053248654418963297362933443517924696968543936484993351337685394287109375000000000000000000000000000000000000000000000000000000000000000000000000000000/2391117612446292227397618688989394372662029795402813273821053427529600513268599030201332578348851487928120920825283504137854760800344677873415576358303480267595825458971151013687724560189034561",
+                "0",
+                "0",
+                "0"
+              ],
+              [
+                "0",
+                "0",
+                "2391117612446292227397429824343260364165575053248654418963297362933443517924696968543936484993351337685394287109375000000000000000000000000000000000000000000000000000000000000000000000000000000/2391117612446292227397618688989394372662029795402813273821053427529600513268599030201332578348851487928120920825283504137854760800344677873415576358303480267595825458971151013687724560189034561",
+                "0",
+                "0"
+              ],
+              [
+                "0",
+                "0",
+                "0",
+                "1377283738400581790609182163132744277894375150749894444700270830698556224476452065815348101875119582373974609375000000000000000000000000000000000000000000000000000000000000000000000000000000000000/1193645912133189079916987251637691557894315329934886262162000841500297738020448679300469001888336512714412743034982775520507320443976536388916319379188636354759001414668303027687755427135061885481",
+                "0"
+              ],
+              [
+                "0",
+                "0",
+                "0",
+                "0",
+                "66375120536749246041091903349912851162620111353858093780503505127747985936038498407097191751191381139257812500000000000000000000000000000000000000000000000000000000000000000000000000000000000000/75225136260479015231105043636327263397439958421224453853584894302298789380260767651085179537727774787248055489554476250045989151989792501216966485382006771050576647585594737214495607521892998683"
+              ]
+            ],
+            "normalizers": [
+              "21644841711111672331659/1000000000000000000",
+              "415248180359923367511/62500000000000000",
+              "415248180359923367511/62500000000000000",
+              "3092600143084922380057/500000000000000000",
+              "7073047128471923536291/1000000000000000000"
+            ],
+            "real_imag_cross_error_exactly_zero": true,
+            "real_split_premise": "Exact root coordinates, realified u and geometric C0 are real; spectral coefficients have exactly one i. Actual perturbations preserve this split.",
+            "lambda_min_lower": "1140493248316605778102123781089329836485057409111008649170684944102880902694973002514135148276232090375282663867752964203964649510963947809864066975456748580364288000000000000000000000000000000000/6496722109283936303070227120957912629241836241261653114956554999494551005443029030849053685513202016273443291373581721844913796638046602298126990639779948004928491802585621257403003122413376094121",
+            "root_perturbation_norm_upper": "18387653710006987948494219960342168050566199315800261014221470860174215720886047922136952468196075325514552392784315915429497919203291940123137475195454829792876989859118601387545009160797539285475146101751227666369/6663099345053577491989719733571643131643623552000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+            "strict_margin": "143688285867572751805580617166117444051915485875928320142018217530505336775762597220496010887478715581851714112503390670109781510745390681570412983393705253657812046846944877869064693233738283843168912732716051286431442820635168567301985688768652134037158950432553261176645164036573804261223832829538415981649648575142381006298300378939174110425625996316636752228095239/831580429988343846792989071482612816542955038881491598714439039935302528696707715948678871745689858083000741295818460396148965969669965094160254801891833344630846950730959520947584399668912140047488000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+            "affine_order": [
+              "constant",
+              "x0",
+              "x1",
+              "x2",
+              "time"
+            ],
+            "claim": "When positive definite, all actual real frequency points survive every existing normalized Gram deviation norm<1/2; no new support or dispersion chosen."
+          }
+        }
+      ],
+      "tangential_normal_zeros": {
+        "normal_solving_axis": 8,
+        "normal_tangent_axes": [
+          4,
+          5,
+          6,
+          7,
+          9,
+          10,
+          11,
+          12,
+          13
+        ],
+        "complex_forms_tested": 52,
+        "all_five_observed_columns": true,
+        "exact_zero_checks": 2340,
+        "scope": "Actual first normal derivatives tangent to constant-seed CK hypersurface vanish on normal gamma-traceless forms; realifications follow by complex linearity. This is not an all-jet statement."
+      },
+      "global_error_control": {
+        "center_matches_interval": true,
+        "global_HS_bound": "3097064184483169278185711426487108952677715608026602421324486943666715426710958377832909949072245721841/160000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "old_coefficient_interval_HS2": "4075211659436361200133421/9765625000000000000000000000000",
+        "global_bound_dominates": true,
+        "scope": "Tiny full-reference operator control, not a root or propagation certificate."
+      },
+      "fast_vertex_controls": {
+        "checks": 110,
+        "cached_Clifford_matches_native": true,
+        "collected_slash_vertex_matches_uncollected": true,
+        "large_denominator_clearing_affine_identity": true
+      },
+      "scope": "Actual homogeneous normal-chart first jet with both CK legs and real current; isolated spectral controls require held support membership, while a passing all-frequency Gram certificate needs no added spectral premise. Negative energy uses theta4 and the opened current derivative uses theta8: amplitude access is not matching normal-wavecovector support or negative forced-response energy. No coupled propagation/physical ghost."
+    },
+    "weak_sources": {
+      "scope": "Complete pointwise lower-source projection and normal spin5 demand, not integrated weak current or actual propagated response.",
+      "range_lift_projector_derivative": "dR(V) lies in N and P K^a P=0; projected lift derivatives vanish. Reference lower terms are retained by Engine.K.",
+      "reference_and_normal_sources": [
+        {
+          "range_basis_index": 5,
+          "range_terms": 32,
+          "nomizu_lower_terms": 64,
+          "nomizu_lower_sha256": "af5996466fa29dcbdcbf68c26f314a47efa8d96ee581b65d803b07f5bfa14cf3",
+          "reference_lower_source_terms": 32,
+          "reference_lower_source_sha256": "3f496bbd5f4f241bc9530a5f49103a17f0f9a4a2c94ebad59f03a62d1480a570",
+          "normal_sources": [
+            {
+              "axis": 0,
+              "full_source_terms": 16,
+              "kernel_source_terms": 16,
+              "kernel_source_sha256": "cd5a1aa735f9d7793a3f93114f3ae97ceb5e70ff504c7b7ee9409f30b2197c13",
+              "spin5_terms": 0,
+              "spin5_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+              "spin5_witness": []
+            },
+            {
+              "axis": 4,
+              "full_source_terms": 0,
+              "kernel_source_terms": 0,
+              "kernel_source_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+              "spin5_terms": 0,
+              "spin5_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+              "spin5_witness": []
+            },
+            {
+              "axis": 5,
+              "full_source_terms": 112,
+              "kernel_source_terms": 96,
+              "kernel_source_sha256": "4340fbc41f4a69c6faac7fe1b7a1e056fd6127e1ee17235567ddcf0d35ed581c",
+              "spin5_terms": 112,
+              "spin5_sha256": "18085eabc6979a6a9e3c173c917052763f3feaaba2cbf7fe198d1f180e467d57",
+              "spin5_witness": [
+                [
+                  1,
+                  1655,
+                  [
+                    "0",
+                    "-1/12"
+                  ]
+                ],
+                [
+                  1,
+                  1879,
+                  [
+                    "-1/12",
+                    "0"
+                  ]
+                ],
+                [
+                  1,
+                  3191,
+                  [
+                    "-1/12",
+                    "0"
+                  ]
+                ]
+              ]
+            },
+            {
+              "axis": 7,
+              "full_source_terms": 32,
+              "kernel_source_terms": 32,
+              "kernel_source_sha256": "96b64508bd7ca922574eee7c5b5be8b6229182e2c7f0ac7ef29a1d1f68f147f0",
+              "spin5_terms": 0,
+              "spin5_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+              "spin5_witness": []
+            },
+            {
+              "axis": 8,
+              "full_source_terms": 112,
+              "kernel_source_terms": 96,
+              "kernel_source_sha256": "ba31817e22f01c5d7994d0a9a48c6eff08d139fa54e44963efa22ffff641e70a",
+              "spin5_terms": 112,
+              "spin5_sha256": "4233e9d3182d6fb1e99f227942b292fa73441cb01d89b0a117dd441defa990dd",
+              "spin5_witness": [
+                [
+                  1,
+                  1655,
+                  [
+                    "1/12",
+                    "0"
+                  ]
+                ],
+                [
+                  1,
+                  1879,
+                  [
+                    "0",
+                    "-1/12"
+                  ]
+                ],
+                [
+                  1,
+                  3191,
+                  [
+                    "0",
+                    "-1/12"
+                  ]
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "range_basis_index": 12,
+          "range_terms": 32,
+          "nomizu_lower_terms": 64,
+          "nomizu_lower_sha256": "5949d0980086839dcd00e040abc3f1af243ab1cfee2616b06e8022fc76957eb5",
+          "reference_lower_source_terms": 32,
+          "reference_lower_source_sha256": "054c5c76b0f90da7bea426c04f02b4945133f7340406cc3358726d65cf94b98c",
+          "normal_sources": [
+            {
+              "axis": 0,
+              "full_source_terms": 16,
+              "kernel_source_terms": 16,
+              "kernel_source_sha256": "e7fdf30ba274aa819591368cc6fc495e410995962f624538f5ce8a3addaac6c2",
+              "spin5_terms": 0,
+              "spin5_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+              "spin5_witness": []
+            },
+            {
+              "axis": 4,
+              "full_source_terms": 32,
+              "kernel_source_terms": 32,
+              "kernel_source_sha256": "4fe13e616e9031127b2191bf1b20dbded62d91ebc24a1a31dad0b4355645285e",
+              "spin5_terms": 0,
+              "spin5_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+              "spin5_witness": []
+            },
+            {
+              "axis": 5,
+              "full_source_terms": 112,
+              "kernel_source_terms": 96,
+              "kernel_source_sha256": "de4776e94422e3f2e51f04e8f9a4dff9e6066f722a7d3beb6237e52d941e0abc",
+              "spin5_terms": 112,
+              "spin5_sha256": "5e5c5423a22c6b21e6472b644272842b380773ae35162d9b64e58b4fa602af6c",
+              "spin5_witness": [
+                [
+                  1,
+                  1767,
+                  [
+                    "0",
+                    "-1/12"
+                  ]
+                ],
+                [
+                  1,
+                  1991,
+                  [
+                    "1/12",
+                    "0"
+                  ]
+                ],
+                [
+                  1,
+                  3303,
+                  [
+                    "-1/12",
+                    "0"
+                  ]
+                ]
+              ]
+            },
+            {
+              "axis": 7,
+              "full_source_terms": 0,
+              "kernel_source_terms": 0,
+              "kernel_source_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+              "spin5_terms": 0,
+              "spin5_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+              "spin5_witness": []
+            },
+            {
+              "axis": 8,
+              "full_source_terms": 112,
+              "kernel_source_terms": 96,
+              "kernel_source_sha256": "fccf037c8b30937a427cf8c6244ddc019a6577c0152707b90dfffafdec8aad35",
+              "spin5_terms": 112,
+              "spin5_sha256": "7783d1b2560db358ea90edde77ab3834439379c117ddc9d601cc5fb8de512eb0",
+              "spin5_witness": [
+                [
+                  1,
+                  1767,
+                  [
+                    "1/12",
+                    "0"
+                  ]
+                ],
+                [
+                  1,
+                  1991,
+                  [
+                    "0",
+                    "1/12"
+                  ]
+                ],
+                [
+                  1,
+                  3303,
+                  [
+                    "0",
+                    "-1/12"
+                  ]
+                ]
+              ]
+            }
+          ]
+        }
+      ],
+      "displacement_lower_sources": [
+        {
+          "range_basis_index": 5,
+          "all59_full_lower_sources_highest7": true,
+          "columns": [
+            {
+              "background_basis": 0,
+              "terms": 0,
+              "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+            },
+            {
+              "background_basis": 1,
+              "terms": 0,
+              "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+            },
+            {
+              "background_basis": 2,
+              "terms": 0,
+              "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+            },
+            {
+              "background_basis": 3,
+              "terms": 0,
+              "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+            },
+            {
+              "background_basis": 4,
+              "terms": 32,
+              "sha256": "8fbf59c7235ab50dbe088a47823c37e18160f507165b4027ecf4a4c649275a62"
+            },
+            {
+              "background_basis": 5,
+              "terms": 0,
+              "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+            },
+            {
+              "background_basis": 6,
+              "terms": 0,
+              "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+            },
+            {
+              "background_basis": 7,
+              "terms": 32,
+              "sha256": "39cebc6b53c95e0878e0f709e177b8034c878b4a0b29b3b549b8e9fbda67450c"
+            },
+            {
+              "background_basis": 8,
+              "terms": 0,
+              "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+            },
+            {
+              "background_basis": 9,
+              "terms": 32,
+              "sha256": "86aa8dfef216a742c1eb83319342a0974935e9ac5b02a5fae8ec31029f44ee7f"
+            },
+            {
+              "background_basis": 10,
+              "terms": 32,
+              "sha256": "0be8b6720b07d879dcc51f88c10fd5b81a582fbc72b2ff04915ff31e8c481e05"
+            },
+            {
+              "background_basis": 11,
+              "terms": 0,
+              "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+            },
+            {
+              "background_basis": 12,
+              "terms": 32,
+              "sha256": "c82f4ad524f0bf894713dd61776d03a55f0a11af9dbcc32ca3f9328d69a37537"
+            },
+            {
+              "background_basis": 13,
+              "terms": 64,
+              "sha256": "8ad1013154c89a46651571468b3517dfee4bccdd979f4fed6ca52a68f3e309a4"
+            },
+            {
+              "background_basis": 14,
+              "terms": 32,
+              "sha256": "9cafa06ee76f2b33aba011d5b33c6ec3e8149bdd9d71d576e67f6b0b1af6c0cc"
+            },
+            {
+              "background_basis": 15,
+              "terms": 32,
+              "sha256": "0124739e653850d93252bc6dd59baf2712085eb3d42316f9492b321746f75ad2"
+            },
+            {
+              "background_basis": 16,
+              "terms": 32,
+              "sha256": "6a6bd0819340d6280a6383c861912d10784d5ec508f17c2c63ee7bd69ae9f3d2"
+            },
+            {
+              "background_basis": 17,
+              "terms": 0,
+              "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+            },
+            {
+              "background_basis": 18,
+              "terms": 0,
+              "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+            },
+            {
+              "background_basis": 19,
+              "terms": 0,
+              "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+            },
+            {
+              "background_basis": 20,
+              "terms": 32,
+              "sha256": "2f9599dd667fbed9328c6dcf40d6fcaee7a2f133e062d1f71f8e1c802486d6ed"
+            },
+            {
+              "background_basis": 21,
+              "terms": 32,
+              "sha256": "12ccd3edffd106b6f714c70a83d0c5238243bd1772bee0067af398eb78e3b3cc"
+            },
+            {
+              "background_basis": 22,
+              "terms": 0,
+              "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+            },
+            {
+              "background_basis": 23,
+              "terms": 32,
+              "sha256": "e1837bed517d4452526fc847cdbec5ecebec1ab2ab4f0d72c3fa86b42c8b14c5"
+            },
+            {
+              "background_basis": 24,
+              "terms": 0,
+              "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+            },
+            {
+              "background_basis": 25,
+              "terms": 32,
+              "sha256": "2638c136b3f36fbab3a172a87e1d6b79aa5684362e07f4e6a0d52c049be8ab74"
+            },
+            {
+              "background_basis": 26,
+              "terms": 32,
+              "sha256": "1b3ab5d84952e754a07dc4efe714737b7a8635b9f2cec9c4d00509f8029c312a"
+            },
+            {
+              "background_basis": 27,
+              "terms": 0,
+              "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+            },
+            {
+              "background_basis": 28,
+              "terms": 0,
+              "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+            },
+            {
+              "background_basis": 29,
+              "terms": 0,
+              "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+            },
+            {
+              "background_basis": 30,
+              "terms": 0,
+              "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+            },
+            {
+              "background_basis": 31,
+              "terms": 0,
+              "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+            },
+            {
+              "background_basis": 32,
+              "terms": 0,
+              "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+            },
+            {
+              "background_basis": 33,
+              "terms": 0,
+              "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+            },
+            {
+              "background_basis": 34,
+              "terms": 0,
+              "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+            },
+            {
+              "background_basis": 35,
+              "terms": 0,
+              "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+            },
+            {
+              "background_basis": 36,
+              "terms": 32,
+              "sha256": "f8304d4299250a22f8379cf7d68c13f9c0f0508548658bd651bf9e13a62c2f87"
+            },
+            {
+              "background_basis": 37,
+              "terms": 0,
+              "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+            },
+            {
+              "background_basis": 38,
+              "terms": 32,
+              "sha256": "470e1a4349e7787fe9721a82b4e8f8f14b7f093cb8ee95dbef895d5f463b0cb0"
+            },
+            {
+              "background_basis": 39,
+              "terms": 32,
+              "sha256": "bafc42aadaa2c8d0b15b45b9c766f86b6995ab5c6a7a065737550dfde3b240e9"
+            },
+            {
+              "background_basis": 40,
+              "terms": 32,
+              "sha256": "054335bfd5fa7b1860e45b269dd1baecc38b24d377e95f3581d4a062ed33d2d2"
+            },
+            {
+              "background_basis": 41,
+              "terms": 64,
+              "sha256": "e4674b681cd5b4f360d9a9071ca7250a672acc4e0901ef9a377398924f3058e4"
+            },
+            {
+              "background_basis": 42,
+              "terms": 32,
+              "sha256": "c04c7237286d09e750287a5154712b1ab1afc7628a562bb74081f96d0f3e109c"
+            },
+            {
+              "background_basis": 43,
+              "terms": 64,
+              "sha256": "43aea988b68537ca4eaa1fff0aec3235dd5d21349fa1060d571078f1ba0b0660"
+            },
+            {
+              "background_basis": 44,
+              "terms": 64,
+              "sha256": "c19c889f080d60b312d31abbe1e76b94823de920cb3aa2a9ff98ce464843590c"
+            },
+            {
+              "background_basis": 45,
+              "terms": 32,
+              "sha256": "2730b1166b7cfb21cfcf08e956d27f4dea44f2eb52e06398380a1bc11ab1b392"
+            },
+            {
+              "background_basis": 46,
+              "terms": 32,
+              "sha256": "2d5cbe57b2d0bc5e8c4cab034e65cc4c9399b6a9d99e53ab7e1083bdb791f157"
+            },
+            {
+              "background_basis": 47,
+              "terms": 32,
+              "sha256": "bafc42aadaa2c8d0b15b45b9c766f86b6995ab5c6a7a065737550dfde3b240e9"
+            },
+            {
+              "background_basis": 48,
+              "terms": 0,
+              "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+            },
+            {
+              "background_basis": 49,
+              "terms": 0,
+              "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+            },
+            {
+              "background_basis": 50,
+              "terms": 32,
+              "sha256": "6198aa94d85b69c5d996ae411ac2ac8ec11f752c6fa7eb1db99846f559d7fec4"
+            },
+            {
+              "background_basis": 51,
+              "terms": 0,
+              "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+            },
+            {
+              "background_basis": 52,
+              "terms": 0,
+              "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+            },
+            {
+              "background_basis": 53,
+              "terms": 0,
+              "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+            },
+            {
+              "background_basis": 54,
+              "terms": 0,
+              "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+            },
+            {
+              "background_basis": 55,
+              "terms": 0,
+              "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+            },
+            {
+              "background_basis": 56,
+              "terms": 32,
+              "sha256": "4c2461761bcc1974e1186a648e7b1bf0bb16fe62b993de2e5bc3011e8d795c77"
+            },
+            {
+              "background_basis": 57,
+              "terms": 32,
+              "sha256": "26e214332ac336c93ebc051a80e335e97e232345a355853bc96736e188737eed"
+            },
+            {
+              "background_basis": 58,
+              "terms": 0,
+              "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+            }
+          ]
+        },
+        {
+          "range_basis_index": 12,
+          "all59_full_lower_sources_highest7": true,
+          "columns": [
+            {
+              "background_basis": 0,
+              "terms": 0,
+              "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+            },
+            {
+              "background_basis": 1,
+              "terms": 0,
+              "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+            },
+            {
+              "background_basis": 2,
+              "terms": 0,
+              "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+            },
+            {
+              "background_basis": 3,
+              "terms": 0,
+              "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+            },
+            {
+              "background_basis": 4,
+              "terms": 0,
+              "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+            },
+            {
+              "background_basis": 5,
+              "terms": 32,
+              "sha256": "108c1f9b68b6ebc0d7d274ef74907ebb0ee16ae8ba1d7171cf7915bd10565567"
+            },
+            {
+              "background_basis": 6,
+              "terms": 0,
+              "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+            },
+            {
+              "background_basis": 7,
+              "terms": 64,
+              "sha256": "38d166143d7801cd5ee9caeef7f499cdd3ef784d7c734e99c595a8f2e9fc27c8"
+            },
+            {
+              "background_basis": 8,
+              "terms": 0,
+              "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+            },
+            {
+              "background_basis": 9,
+              "terms": 64,
+              "sha256": "408f869f6e088f6c24601ec80897f1dbd9a969c6ba6f3dc6e93acef04af15c3a"
+            },
+            {
+              "background_basis": 10,
+              "terms": 32,
+              "sha256": "3739240b4a1c0143d00d431d417dd138ee673a8f83a0587bf47c8e193ba7be50"
+            },
+            {
+              "background_basis": 11,
+              "terms": 0,
+              "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+            },
+            {
+              "background_basis": 12,
+              "terms": 32,
+              "sha256": "873f7863d530ab2265b2ce0f0051155b2ceeb09aa773f1093b01e570674adc1a"
+            },
+            {
+              "background_basis": 13,
+              "terms": 32,
+              "sha256": "ed67dea9a2d13f78043392b3176f34f65844d26f5e9aa6d8677cfa3bcfcb90d2"
+            },
+            {
+              "background_basis": 14,
+              "terms": 64,
+              "sha256": "5ee4bf58380a34cc3689ee255c9ef3f617bb1b05747dbe8a003c7cecae9f10d9"
+            },
+            {
+              "background_basis": 15,
+              "terms": 64,
+              "sha256": "fcf10b308982e1384066f1ffc3c772ac898c2a06245ac8d9c3386430e0236ca1"
+            },
+            {
+              "background_basis": 16,
+              "terms": 64,
+              "sha256": "bee2d2793b82001f022db31ddc2fb611cc8e31616289df81271bc2b1b7f8a8df"
+            },
+            {
+              "background_basis": 17,
+              "terms": 0,
+              "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+            },
+            {
+              "background_basis": 18,
+              "terms": 0,
+              "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+            },
+            {
+              "background_basis": 19,
+              "terms": 0,
+              "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+            },
+            {
+              "background_basis": 20,
+              "terms": 0,
+              "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+            },
+            {
+              "background_basis": 21,
+              "terms": 0,
+              "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+            },
+            {
+              "background_basis": 22,
+              "terms": 0,
+              "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+            },
+            {
+              "background_basis": 23,
+              "terms": 0,
+              "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+            },
+            {
+              "background_basis": 24,
+              "terms": 0,
+              "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+            },
+            {
+              "background_basis": 25,
+              "terms": 0,
+              "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+            },
+            {
+              "background_basis": 26,
+              "terms": 0,
+              "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+            },
+            {
+              "background_basis": 27,
+              "terms": 32,
+              "sha256": "f712a07a22ece4568f477c8619d8bdee01fa864db90f1488a2f4219d4a36de0b"
+            },
+            {
+              "background_basis": 28,
+              "terms": 32,
+              "sha256": "dd77233a77a34a9b0764d50281aa843d711d26df1fcb60744a39a3efb57c6de4"
+            },
+            {
+              "background_basis": 29,
+              "terms": 0,
+              "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+            },
+            {
+              "background_basis": 30,
+              "terms": 32,
+              "sha256": "f712a07a22ece4568f477c8619d8bdee01fa864db90f1488a2f4219d4a36de0b"
+            },
+            {
+              "background_basis": 31,
+              "terms": 0,
+              "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+            },
+            {
+              "background_basis": 32,
+              "terms": 0,
+              "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+            },
+            {
+              "background_basis": 33,
+              "terms": 32,
+              "sha256": "2961682e370fa4f06e43883adf76256750b8c32af331ce4a1c737004c4e54dd3"
+            },
+            {
+              "background_basis": 34,
+              "terms": 0,
+              "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+            },
+            {
+              "background_basis": 35,
+              "terms": 0,
+              "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+            },
+            {
+              "background_basis": 36,
+              "terms": 64,
+              "sha256": "121d409495156f57e2d09841da01783eccd7d742c5902eb91e7484b83b65206f"
+            },
+            {
+              "background_basis": 37,
+              "terms": 0,
+              "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+            },
+            {
+              "background_basis": 38,
+              "terms": 64,
+              "sha256": "a9059f225e6151faa050aed4ae86fe34acb4903f67ff7393dd1ebaf7a5ad7f18"
+            },
+            {
+              "background_basis": 39,
+              "terms": 64,
+              "sha256": "16bf20a7257c56bad770d3f1ed693fa22b546c2ae69133f6cd80d7ba8470b76b"
+            },
+            {
+              "background_basis": 40,
+              "terms": 32,
+              "sha256": "c9750be11ba0ca1566924207db58368ddbf42e3dcce593a80a3a52817c0023f0"
+            },
+            {
+              "background_basis": 41,
+              "terms": 32,
+              "sha256": "f263907989cfb8cc4e72dc567ee543f8d28359946c1620a19fe1b665b530d211"
+            },
+            {
+              "background_basis": 42,
+              "terms": 64,
+              "sha256": "e130a566f7d4d64cf51e31e8150da5137813d62cbf0a871242a3bf225b37c573"
+            },
+            {
+              "background_basis": 43,
+              "terms": 32,
+              "sha256": "6b873b7e2c2577ada2e048ac175072f50ae2c08eb284e3013ba70e562ed3cd91"
+            },
+            {
+              "background_basis": 44,
+              "terms": 0,
+              "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+            },
+            {
+              "background_basis": 45,
+              "terms": 32,
+              "sha256": "6b873b7e2c2577ada2e048ac175072f50ae2c08eb284e3013ba70e562ed3cd91"
+            },
+            {
+              "background_basis": 46,
+              "terms": 64,
+              "sha256": "16bf20a7257c56bad770d3f1ed693fa22b546c2ae69133f6cd80d7ba8470b76b"
+            },
+            {
+              "background_basis": 47,
+              "terms": 64,
+              "sha256": "4bba81774484f63fd247082262f7d2ce6f08fdb3b7badd40bde7ce54c142b894"
+            },
+            {
+              "background_basis": 48,
+              "terms": 0,
+              "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+            },
+            {
+              "background_basis": 49,
+              "terms": 0,
+              "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+            },
+            {
+              "background_basis": 50,
+              "terms": 0,
+              "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+            },
+            {
+              "background_basis": 51,
+              "terms": 0,
+              "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+            },
+            {
+              "background_basis": 52,
+              "terms": 32,
+              "sha256": "81300a2e8da2b9c3602933509b5af015467e90e3456b5be90377b34a5a895a43"
+            },
+            {
+              "background_basis": 53,
+              "terms": 32,
+              "sha256": "2e97def4f214020fcf977a38daa97b755608307cd03096569bb23374e2a60960"
+            },
+            {
+              "background_basis": 54,
+              "terms": 0,
+              "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+            },
+            {
+              "background_basis": 55,
+              "terms": 0,
+              "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+            },
+            {
+              "background_basis": 56,
+              "terms": 32,
+              "sha256": "11c0d096c5bc8e8cd4ac1dcedc3f47f3b2028cf845b1ca7968e0eb5abf08c89f"
+            },
+            {
+              "background_basis": 57,
+              "terms": 32,
+              "sha256": "e875c166c057ef36ea2c45027978ef3f19a48af4948e6f5d1068d126444ceae2"
+            },
+            {
+              "background_basis": 58,
+              "terms": 0,
+              "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+            }
+          ]
+        }
+      ],
+      "next_required_object": "Projected spin5 auxiliary M_N restriction and actual normal paired-current divergence; higher normal covectors cannot generically be replaced by horizontal-only inverse."
+    },
+    "first_shell": {
+      "initial_source_dimension": 2,
+      "coefficient_maps": 59,
+      "images_tested": 118,
+      "dimension_field": "Complex Gaussian-rational highest-weight multiplicity; not a physical state count or full real spin5 carrier dimension.",
+      "first_source_generated_shell_dimension": 95,
+      "first_shell_basis_sha256": "1e169e6b69635a21ed9c7cd9b2816a6d25a06b3ee05abdd3e87ad2c0f6567287",
+      "image_sha256": "a1716e6442ecd4df7b1e17ad7b8c9c815ada7a5bd349077dd4e23e4223c86bfd",
+      "all_images_highest_spin5_time_kernel": true,
+      "normal_axis8_equals_i_axis5": true,
+      "roots": [
+        {
+          "root": 0,
+          "seeds": [
+            {
+              "seed": 0,
+              "rational_center_outside_terms": 2144,
+              "rootball_seed_span_not_invariant": true,
+              "witness": {
+                "key": [
+                  256,
+                  6518
+                ],
+                "part": "b",
+                "center": "-1629455986679820207473369/16479492187500000000000000",
+                "error_bound": "49096322884007476090775103483224532089479169981385844774865047876093741/26696777343749220565031823880835010674712192794169397989843750000000000000000000000",
+                "strict_margin": "2639718698372135344405396964373945683847712822015348715292384832055442213660122579/26696777343749220565031823880835010674712192794169397989843750000000000000000000000"
+              }
+            },
+            {
+              "seed": 1,
+              "rational_center_outside_terms": 2112,
+              "rootball_seed_span_not_invariant": true,
+              "witness": {
+                "key": [
+                  256,
+                  6630
+                ],
+                "part": "b",
+                "center": "-2254693570265688635972627/32958984375000000000000000",
+                "error_bound": "48779782007916554274753546630824163535652296695566156266162003742448521/26696777343749220565031823880835010674712192794169397989843750000000000000000000000",
+                "strict_margin": "1826301791866374692706223747606048930861160360205719833716890695453663748911648759/26696777343749220565031823880835010674712192794169397989843750000000000000000000000"
+              }
+            }
+          ]
+        },
+        {
+          "root": 1,
+          "seeds": [
+            {
+              "seed": 0,
+              "rational_center_outside_terms": 2144,
+              "rootball_seed_span_not_invariant": true,
+              "witness": {
+                "key": [
+                  256,
+                  6518
+                ],
+                "part": "b",
+                "center": "99190398988424796439339/823974609375000000000000",
+                "error_bound": "705746167684920830562822914549028769617311562294364339165554453697/444946289062481031773989849484438710833756334018457878417968750000000000000000",
+                "strict_margin": "53562815453041360506787419604009029253437767115156294361547387420239295592623/444946289062481031773989849484438710833756334018457878417968750000000000000000"
+              }
+            },
+            {
+              "seed": 1,
+              "rational_center_outside_terms": 2112,
+              "rootball_seed_span_not_invariant": true,
+              "witness": {
+                "key": [
+                  256,
+                  6630
+                ],
+                "part": "b",
+                "center": "38266796248090632391221/488281250000000000000000",
+                "error_bound": "701195979461159485517710633927901316955159534033418981272089842957/444946289062481031773989849484438710833756334018457878417968750000000000000000",
+                "strict_margin": "17435309040184953119801812183437200720217182539608196207125769217847167362739/222473144531240515886994924742219355416878167009228939208984375000000000000000"
+              }
+            }
+          ]
+        }
+      ],
+      "scope": "Exact first affine-family closure shell, not the smallest invariant closure or full spin5 inverse. Actual-root nonclosure is certified over existing root balls. No physical response or extra choice."
+    },
+    "spin5_current": {
+      "seed0_realifications": {
+        "a": {
+          "terms": 56,
+          "hermitian_terms": 64,
+          "B_HS2": "425984/3",
+          "Herm_HS2": "65536",
+          "Herm_ratio": 0.46153846153846156,
+          "rootball_error_HS2": "0",
+          "rootball_error_HS_upper": "0",
+          "gram_bound_half_robust": true,
+          "gram_robust_margin_lower": "33794550759169633549/250000000000000000",
+          "max_allowed_gram_deviation_lower": "64000000000000000000/94205449240830366451",
+          "certified_Herm_coefficients": 64,
+          "strongest": {
+            "key": [
+              3,
+              0,
+              6487
+            ],
+            "center": [
+              "-1/8",
+              "0"
+            ],
+            "error": "0.0"
+          },
+          "raw_matrix_sha256": "88ba89b867feeca50a0c477a2c5cfc9ad3af3d4d139374799223ac6ee9dbb44f",
+          "physical_current": "minus Herm(N^-1 B), from physical imaginary connection variation and inherited +i dual phase"
+        },
+        "b": {
+          "terms": 56,
+          "hermitian_terms": 64,
+          "B_HS2": "425984/3",
+          "Herm_HS2": "65536",
+          "Herm_ratio": 0.46153846153846156,
+          "rootball_error_HS2": "0",
+          "rootball_error_HS_upper": "0",
+          "gram_bound_half_robust": true,
+          "gram_robust_margin_lower": "33794550759169633549/250000000000000000",
+          "max_allowed_gram_deviation_lower": "64000000000000000000/94205449240830366451",
+          "certified_Herm_coefficients": 64,
+          "strongest": {
+            "key": [
+              3,
+              0,
+              3415
+            ],
+            "center": [
+              "-1/8",
+              "0"
+            ],
+            "error": "0.0"
+          },
+          "raw_matrix_sha256": "d1cf2e38eedd955ac489e736d673aba0fa271208c05cb9651af45b328103b3fa",
+          "physical_current": "minus Herm(N^-1 B), from physical imaginary connection variation and inherited +i dual phase"
+        }
+      },
+      "affine_image_current_sha256": "3c0633eedee61cc02e1233c338821692eac6e33bf3f030c4da5ceb97ccce2110",
+      "affine_images_tested": 59,
+      "roots": [
+        {
+          "root": 0,
+          "test": "M(root) seed0 = seed0 + sum x_j P2N(T_j,seed0)",
+          "realifications": {
+            "a": {
+              "terms": 1616,
+              "hermitian_terms": 1584,
+              "B_HS2": "45748572996862352251154895882204567648736132256480691670824959/12032614904455840587615966796875000000000000000000000000",
+              "Herm_HS2": "380081106804988610469102210383245158590056289969971311571865893/216587068280205130577087402343750000000000000000000000000",
+              "Herm_ratio": 0.4615579385649864,
+              "rootball_error_HS2": "4485681521039898222124634353911441050430603811703755640565408072785422093273655654482949474484816486722977491944340892129608618734147312297524550273/740118622388720252867014739124951325878342143238418932143258306588684666234596476844380570403478238296319475347292609512805938720703125000000000000000000000000000",
+              "rootball_error_HS_upper": "77850884659/1000000000000000000",
+              "gram_bound_half_robust": true,
+              "gram_robust_margin_lower": "349771267243939475573/500000000000000000",
+              "max_allowed_gram_deviation_lower": "1324713248270806800517/1949883962053734649888",
+              "certified_Herm_coefficients": 1584,
+              "strongest": {
+                "key": [
+                  3,
+                  1,
+                  4951
+                ],
+                "center": [
+                  "-18946333957922278973847271/29296875000000000000000000",
+                  "0"
+                ],
+                "error": "25225808817529961459423174108527265567208430827572702918563909208363677/35595703124998960753375765174446680899616257058892530653125000000000000000000000000"
+              },
+              "raw_matrix_sha256": "42df44c381e2746589ff5e1ceae8298cf72dfa13fbde721def80d2989c5acf4c",
+              "physical_current": "minus Herm(N^-1 B), from physical imaginary connection variation and inherited +i dual phase"
+            },
+            "b": {
+              "terms": 1616,
+              "hermitian_terms": 1584,
+              "B_HS2": "45748572996862352251154895882204567648736132256480691670824959/12032614904455840587615966796875000000000000000000000000",
+              "Herm_HS2": "380081106804988610469102210383245158590056289969971311571865893/216587068280205130577087402343750000000000000000000000000",
+              "Herm_ratio": 0.4615579385649864,
+              "rootball_error_HS2": "4485681521039898222124634353911441050430603811703755640565408072785422093273655654482949474484816486722977491944340892129608618734147312297524550273/740118622388720252867014739124951325878342143238418932143258306588684666234596476844380570403478238296319475347292609512805938720703125000000000000000000000000000",
+              "rootball_error_HS_upper": "77850884659/1000000000000000000",
+              "gram_bound_half_robust": true,
+              "gram_robust_margin_lower": "349771267243939475573/500000000000000000",
+              "max_allowed_gram_deviation_lower": "1324713248270806800517/1949883962053734649888",
+              "certified_Herm_coefficients": 1584,
+              "strongest": {
+                "key": [
+                  3,
+                  1,
+                  6487
+                ],
+                "center": [
+                  "-18946333957922278973847271/29296875000000000000000000",
+                  "0"
+                ],
+                "error": "25225808817529961459423174108527265567208430827572702918563909208363677/35595703124998960753375765174446680899616257058892530653125000000000000000000000000"
+              },
+              "raw_matrix_sha256": "0a80d23ae341dc6725a901006012bbc3a26217fca585335905db756b74ec8a3e",
+              "physical_current": "minus Herm(N^-1 B), from physical imaginary connection variation and inherited +i dual phase"
+            }
+          }
+        },
+        {
+          "root": 1,
+          "test": "M(root) seed0 = seed0 + sum x_j P2N(T_j,seed0)",
+          "realifications": {
+            "a": {
+              "terms": 1616,
+              "hermitian_terms": 1584,
+              "B_HS2": "226073304243955609177126650121311995939900099432755874407/171894498635083436965942382812500000000000000000000",
+              "Herm_HS2": "26314035632121969263235123339056148228680846820529053218021/43317413656041026115417480468750000000000000000000000",
+              "Herm_ratio": 0.4618890172245366,
+              "rootball_error_HS2": "926888641279992032757338175161278329897554466739665337792674149404830053753151589646979375156228756558496922720738014133627953140014059097/205588506219083435160798419781133688964909735838921091503582097104289417446957665913813723779027446189712064779087086208164691925048828125000000000000000",
+              "rootball_error_HS_upper": "16786276529/250000000000000000",
+              "gram_bound_half_robust": true,
+              "gram_robust_margin_lower": "205995832767453162657/500000000000000000",
+              "max_allowed_gram_deviation_lower": "389701856129647348910/573407879491841535163",
+              "certified_Herm_coefficients": 1584,
+              "strongest": {
+                "key": [
+                  3,
+                  1,
+                  4951
+                ],
+                "center": [
+                  "4442069684667811746791333/11718750000000000000000000",
+                  "0"
+                ],
+                "error": "362614078895170557897724194867375392020920715332127034441549492209/593261718749974709031986465979251614445008445357943837890625000000000000000000"
+              },
+              "raw_matrix_sha256": "833774803a50fb5f38458df9bc0bbf1bd8cec3d87dcd71d1a6fb79fd467ac283",
+              "physical_current": "minus Herm(N^-1 B), from physical imaginary connection variation and inherited +i dual phase"
+            },
+            "b": {
+              "terms": 1616,
+              "hermitian_terms": 1584,
+              "B_HS2": "226073304243955609177126650121311995939900099432755874407/171894498635083436965942382812500000000000000000000",
+              "Herm_HS2": "26314035632121969263235123339056148228680846820529053218021/43317413656041026115417480468750000000000000000000000",
+              "Herm_ratio": 0.4618890172245366,
+              "rootball_error_HS2": "926888641279992032757338175161278329897554466739665337792674149404830053753151589646979375156228756558496922720738014133627953140014059097/205588506219083435160798419781133688964909735838921091503582097104289417446957665913813723779027446189712064779087086208164691925048828125000000000000000",
+              "rootball_error_HS_upper": "16786276529/250000000000000000",
+              "gram_bound_half_robust": true,
+              "gram_robust_margin_lower": "205995832767453162657/500000000000000000",
+              "max_allowed_gram_deviation_lower": "389701856129647348910/573407879491841535163",
+              "certified_Herm_coefficients": 1584,
+              "strongest": {
+                "key": [
+                  3,
+                  1,
+                  6487
+                ],
+                "center": [
+                  "4442069684667811746791333/11718750000000000000000000",
+                  "0"
+                ],
+                "error": "362614078895170557897724194867375392020920715332127034441549492209/593261718749974709031986465979251614445008445357943837890625000000000000000000"
+              },
+              "raw_matrix_sha256": "462dd39469d542b15832f05d3ea90f603df01990354c021f28bf3e9ee10f65cd",
+              "physical_current": "minus Herm(N^-1 B), from physical imaginary connection variation and inherited +i dual phase"
+            }
+          }
+        }
+      ],
+      "scope": "Current on reached spin5 source and its actual-M image only. A Gram-robust nonzero excludes the easy claim that current annihilates the whole reached spin5 module. It is not current on M^-1 source, the full weak scalar, physical forced energy or propagation. Dimensions are not physical state counts."
+    },
+    "lorentz_domain": {
+      "basis_revision": "f373f00fe94f251a9f4231e1cace71c396eaa610",
+      "native_CK_axis": 8,
+      "native_boost_mixing": [
+        {
+          "boost_spatial_axis": 0,
+          "normal_axis": 8,
+          "tangent_axis": 12,
+          "K_e8": {
+            "12": "-1"
+          },
+          "K_tangent": {
+            "8": "-1"
+          }
+        },
+        {
+          "boost_spatial_axis": 1,
+          "normal_axis": 8,
+          "tangent_axis": 10,
+          "K_e8": {
+            "10": "-1"
+          },
+          "K_tangent": {
+            "8": "-1"
+          }
+        }
+      ],
+      "finite_boost": {
+        "cosh": "5/4",
+        "sinh": "3/4",
+        "tangent_to_normal_coefficient": "-3/4"
+      },
+      "charge_polarization_multipliers": {
+        "plus": "4",
+        "minus": "1/4",
+        "ratio": "16"
+      },
+      "controls": [
+        "native_hyperplane_mixing_0",
+        "native_hyperplane_mixing_1",
+        "boost2_preserves_axis8_at_first_order_control",
+        "horizontal_source_injective_on_scalar_input_all4_columns",
+        "null_frequency_difference_not_a_loophole",
+        "finite_boost_maps_tangent_e12_out_of_CK_hyperplane",
+        "full_covector_polarizations_not_isometric_up_to_common_scalar",
+        "rotation_norm_control"
+      ],
+      "scope": "Native normal isotropy and repaired principal source injection; finite boost/norm arithmetic. Written frame-independent seed-jet and direct-integral norm arguments carry their explicit geometric-lift and same-domain premises. No GU, physical ghost or changed-domain completion verdict."
+    }
+  },
+  "evidence": "explorations/conditional-build/source-action-paired-response-2026-11-26.md",
+  "review": "lab/process/hostile-reviews/2026-11-26-source-action-paired-response-review.md",
+  "choice_delta": 0,
+  "claim_effect": "No source/physics/canon/paper or scientific matrix verdict, no new physical completion or ghost claim.",
+  "sha256": {
+    "tests/program-focus/source_action_paired_response_probe.py": "72f131477d041c19293a7e191fd099fbe637597e685ac1d84dfe76db8beb8655",
+    "Lean/GUFormalization/PairedResponse.lean": "92bb407b110176263f957ed8b87dbc7e637562fbc7961da424b2ddcd0b8e9fca"
+  }
+}

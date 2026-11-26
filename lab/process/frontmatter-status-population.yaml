@@ -1,11 +1,11 @@
 schema_version: '1.0'
 frozen_revision: 14778ad8a4308d2d88357bba8a81819cedbc3f40
 scope: tracked Markdown files with a scalar top-level frontmatter status
-mapping_digest_sha256: f43d8201c80c182f6eca821703272589a01b7128ba5390b041c3e96b42900ac3
+mapping_digest_sha256: 5522f4a6c71708fa33836e4a5baecf0639ab2c9712b30cc213c2f67c3fd16884
 counts:
-  tracked_markdown: 5737
-  status_bearing: 4446
-  document_role: 2964
+  tracked_markdown: 5739
+  status_bearing: 4448
+  document_role: 2966
   legacy_untyped: 1482
   distinct_values: 925
   distinct_legacy_values: 918
@@ -26,5 +26,6 @@ axes:
   operational_state:
     metadata_key: operational_state
     boundary: local workflow, review, run, or append-only ledger state
-future_rule: New Markdown documents and intentional changes to a legacy untyped status must use the axis-specific
-  key. Existing values are a protected legacy population and are never normalized by string substitution.
+future_rule: New Markdown documents and intentional changes to a legacy untyped status
+  must use the axis-specific key. Existing values are a protected legacy population
+  and are never normalized by string substitution.

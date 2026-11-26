@@ -1348,7 +1348,7 @@
       "selection_note": "Candidate construction/diagnostic only unless its stated structural family and source bridge satisfy current program_focus. A reserve is not scheduled work."
     }
   ],
-  "priority_effect": "Standing policy, ordinary B and schedules unchanged. Current directed receiver continuation is5p paired-current normal jet and5q goal-oriented full weak receiver, with independent5r actual Lorentz-domain audit. Completed subtests and earlier opportunities remain evidence, not renewed work.",
+  "priority_effect": "Latest directed continuation follows paired_response_2026_11_26; completed mass-shell-only repair and two-source closure shortcuts are consumed/excluded. Ordinary program_focus and schedules unchanged.",
   "evidence": [
     "explorations/conditional-build/source-action-engineering-wave-2026-11-25.md",
     "lab/process/source-action-engineering-wave.json",
@@ -1439,5 +1439,66 @@
       }
     ],
     "priority_effect": "Evidence refines this directed continuation only; program_focus and scheduled selection unchanged."
+  },
+  "paired_response_2026_11_26": {
+    "basis_revision": "f373f00fe94f251a9f4231e1cace71c396eaa610",
+    "evidence": "explorations/conditional-build/source-action-paired-response-2026-11-26.md",
+    "consumed": [
+      {
+        "step": "5p",
+        "status": "done at declared test-extension scope",
+        "result": "At both roots and both realifications the actual first CK normal current jet survives every admitted Gram and real dispersion.",
+        "remaining": "B-parallel test extension differs from moving constrained lift; CK axis8 access is not theta4 energy-wave support."
+      },
+      {
+        "step": "5q",
+        "status": "scoping and first-shell tests done; full weak scalar remains open",
+        "result": "Full lower source stays in highest7; generic normal sources reachspin5;2→95 common-family first shell, actual2-span failsbothroots.",
+        "successor": "5q.1"
+      },
+      {
+        "step": "5r",
+        "status": "done; scoped internal exclusion",
+        "result": "Same constant-seed image fails natural boost closure even for a relativistic graph; full640identitycharge has independent conditional norm obstruction."
+      }
+    ],
+    "next_directed_worksets": [
+      {
+        "step": "5q.1",
+        "status": "ready",
+        "title": "Matched weak response on the source-reached spin5 sector",
+        "target": "LB-CLASS",
+        "tier": "T2; T1 for a scoped exclusion",
+        "expected_delta": "Evaluate the actual inverse-response contribution or prove an identity specific to it; whole-reached-module current annihilation is excluded. Include the matching derivative of the constrained lift.",
+        "premises": [
+          "Actual source/current matching and normal wave-covector support",
+          "j_eff=j_R-j_NY0+div_nabla(j_NY); all derivatives and boundary terms",
+          "95 is a common-family first-shell dimension, not actual-root minimal closure",
+          "Two-source closure is excluded at both roots; no full49154 inversion by default"
+        ],
+        "kill_condition": "Only a complete matched weak calculation or proved annihilation closes this response route. A pointwise nonzero current does not establish energy transfer.",
+        "cost": "Targeted exact source/adjoint test using existing blocks and newly identified spin5 contribution.",
+        "source_bridge": "absent for necessity of this candidate"
+      },
+      {
+        "step": "5s",
+        "status": "ready; independent",
+        "title": "Source-grounded covariant physical restriction audit",
+        "target": "LB-CLASS",
+        "tier": "T2",
+        "expected_delta": "Determine which already recorded source ingredient constrains the physical polarization, observation or domain sufficiently to evade the fixed-seed/full-charge exclusions.",
+        "premises": [
+          "SC-META-53 is UNCERTAIN, not an owned positive quotient",
+          "Keep total/observed/physical carriers, K77/K95 and independent row/physical adjoint separate",
+          "The same constant seed cannot be repaired merely by choosing a mass shell",
+          "No new completion family without the standing source/consequence condition"
+        ],
+        "kill_condition": "Absence of a source-selected restriction is an explicit missing datum, not a GU no-go or permission to invent one.",
+        "cost": "Bounded source/representation applicability test, independent of the large weak solve.",
+        "source_bridge": "source assertions audited before any physical interpretation"
+      }
+    ],
+    "retained_pool": "All prior20 and50+50 assessments remain available; no renewed mandatory backlog.",
+    "priority_effect": "Refines directed continuation only; ordinary program_focus/schedules unchanged."
   }
 }

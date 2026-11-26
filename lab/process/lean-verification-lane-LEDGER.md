@@ -507,3 +507,7 @@ bicategory, ambidexterity or Mackey 2-functor is inferred.
 ## Receiver strategy finite core (2026-11-26)
 
 `Lean/GUFormalization/ReceiverStrategy.lean`: **LEAN-VERIFIED**, six finite lemmas for boost-defect arithmetic and the two owned witness failures, adjoint/kernel scalar identities and a nonzero massless-null transfer. Targeted compilation passed; analytic support, full Lorentz-domain covariance, native normal-energy/Clifford certificates and physical propagation remain separate reviewed obligations. [Result](../../explorations/conditional-build/source-action-receiver-strategy-2026-11-26.md).
+
+## Paired response finite core (2026-11-26)
+
+`Lean/GUFormalization/PairedResponse.lean`: **LEAN-VERIFIED**, seven finite lemmas on affine-jet subtraction, rational boost/norm arithmetic, Gram cancellation and the spin5 Casimir denominator. Targeted compilation passed; native coefficient certificates, CK covariance proof, weak PDE response and source validity are distinct obligations. [Result](../../explorations/conditional-build/source-action-paired-response-2026-11-26.md).

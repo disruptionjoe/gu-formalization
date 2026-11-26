@@ -1788,7 +1788,7 @@
     },
     "LB-CLASS": {
       "zero_delta_streak": 0,
-      "runs": 19,
+      "runs": 20,
       "status": "open"
     },
     "LB-LADDER": {
@@ -2707,7 +2707,7 @@
   ],
   "program_run_counter": {
     "since": "2026-11-09",
-    "count": 60,
+    "count": 61,
     "rule": "Every hourly run increments this in its postflight, whatever its lane. Lane C runs when count % 4 == 3 before the increment."
   },
   "working_rule": "Cells are worked at the structure level: a requirement must hold for every action in class C or for a structurally defined subfamily. No cell is worked by writing down a specific action, and no gated cell is worked by building its gate object. See CURRENT-STATE.yaml program_focus.structure_not_specifics.",
@@ -3032,6 +3032,21 @@
         "lab/process/source-action-math20-approaches-2026-11-26.json"
       ],
       "claim_effect": "No scientific verdict/shrinkage/bet/choice/priority change; explicit directed run, pending ordinary LC retained."
+    },
+    {
+      "date": "2026-11-26",
+      "authority": "joe_direct_chat_2026_11_26_go_paired_response_wave",
+      "item": "Actual paired current, weak-response scope and fixed-domain covariance",
+      "tier": "T1_internal_exclusion_T2_native",
+      "counter_before": 60,
+      "counter_after": 61,
+      "lane": "LB-CLASS",
+      "actual_delta": "The fixed constant-seed CK completion is not closed under natural boosts, independently of dispersion. Its full-component identity charge also fails the stated physical boost-norm interpretation. At both roots and both realifications the actual first CK normal current jet survives every admitted Gram and real dispersion. Reached spin5 sources generate a95-dimensional first common-family shell; the two-source span fails at both roots. The current does not annihilate the whole reached module; cancellation in the required inverse response remains open. Full weak response and physical propagation remain undetermined.",
+      "evidence": [
+        "explorations/conditional-build/source-action-paired-response-2026-11-26.md",
+        "lab/process/source-action-paired-response.json"
+      ],
+      "claim_effect": "No scientific verdict/shrinkage/bet/choice/ordinary-priority change; pending ordinaryLC retained."
     }
   ],
   "directed_lc_carry_2026_11_24_b": {
@@ -3329,7 +3344,9 @@
           "lab/process/source-action-current-receiver.json",
           "explorations/conditional-build/source-action-receiver-strategy-2026-11-26.md",
           "lab/process/source-action-receiver-strategy.json",
-          "lab/process/source-action-math20-approaches-2026-11-26.json"
+          "lab/process/source-action-math20-approaches-2026-11-26.json",
+          "explorations/conditional-build/source-action-paired-response-2026-11-26.md",
+          "lab/process/source-action-paired-response.json"
         ],
         "choices": "Historical original choices are retained below; current held fermion repair is SE=-1/2 (SE0 superseded), kappa1 with two unselected roots. Typed candidate_choice_budget separates core/completion/pending/comparator/parked choices.",
         "wave2_update": {
@@ -3512,6 +3529,67 @@
               "source_bridge": "source motivation explicit; source-necessary candidate bridge absent"
             }
           ]
+        },
+        "paired_response_update": {
+          "result": "The fixed constant-seed CK completion is not closed under natural boosts, independently of dispersion. Its full-component identity charge also fails the stated physical boost-norm interpretation. At both roots and both realifications the actual first CK normal current jet survives every admitted Gram and real dispersion. Reached spin5 sources generate a95-dimensional first common-family shell; the two-source span fails at both roots. The current does not annihilate the whole reached module; cancellation in the required inverse response remains open. Full weak response and physical propagation remain undetermined.",
+          "source_necessity": "absent",
+          "class_C_representativeness": "unproved",
+          "consumed_steps": [
+            {
+              "step": "5p",
+              "status": "done at declared test-extension scope",
+              "result": "At both roots and both realifications the actual first CK normal current jet survives every admitted Gram and real dispersion.",
+              "remaining": "B-parallel test extension differs from moving constrained lift; CK axis8 access is not theta4 energy-wave support."
+            },
+            {
+              "step": "5q",
+              "status": "scoping and first-shell tests done; full weak scalar remains open",
+              "result": "Full lower source stays in highest7; generic normal sources reachspin5;2→95 common-family first shell, actual2-span failsbothroots.",
+              "successor": "5q.1"
+            },
+            {
+              "step": "5r",
+              "status": "done; scoped internal exclusion",
+              "result": "Same constant-seed image fails natural boost closure even for a relativistic graph; full640identitycharge has independent conditional norm obstruction."
+            }
+          ],
+          "next_worksets": [
+            {
+              "step": "5q.1",
+              "status": "ready",
+              "title": "Matched weak response on the source-reached spin5 sector",
+              "target": "LB-CLASS",
+              "tier": "T2; T1 for a scoped exclusion",
+              "expected_delta": "Evaluate the actual inverse-response contribution or prove an identity specific to it; whole-reached-module current annihilation is excluded. Include the matching derivative of the constrained lift.",
+              "premises": [
+                "Actual source/current matching and normal wave-covector support",
+                "j_eff=j_R-j_NY0+div_nabla(j_NY); all derivatives and boundary terms",
+                "95 is a common-family first-shell dimension, not actual-root minimal closure",
+                "Two-source closure is excluded at both roots; no full49154 inversion by default"
+              ],
+              "kill_condition": "Only a complete matched weak calculation or proved annihilation closes this response route. A pointwise nonzero current does not establish energy transfer.",
+              "cost": "Targeted exact source/adjoint test using existing blocks and newly identified spin5 contribution.",
+              "source_bridge": "absent for necessity of this candidate"
+            },
+            {
+              "step": "5s",
+              "status": "ready; independent",
+              "title": "Source-grounded covariant physical restriction audit",
+              "target": "LB-CLASS",
+              "tier": "T2",
+              "expected_delta": "Determine which already recorded source ingredient constrains the physical polarization, observation or domain sufficiently to evade the fixed-seed/full-charge exclusions.",
+              "premises": [
+                "SC-META-53 is UNCERTAIN, not an owned positive quotient",
+                "Keep total/observed/physical carriers, K77/K95 and independent row/physical adjoint separate",
+                "The same constant seed cannot be repaired merely by choosing a mass shell",
+                "No new completion family without the standing source/consequence condition"
+              ],
+              "kill_condition": "Absence of a source-selected restriction is an explicit missing datum, not a GU no-go or permission to invent one.",
+              "cost": "Bounded source/representation applicability test, independent of the large weak solve.",
+              "source_bridge": "source assertions audited before any physical interpretation"
+            }
+          ],
+          "remaining": "Matched normal weak divergence, actual constrained-lift derivatives, required normal-frequency support, source-selected physical domain and propagation/quotient."
         }
       }
     ],
@@ -3952,25 +4030,25 @@
         "newly_exposed_live_function_freedom": [],
         "replaced_or_refined_families": [],
         "constrained_categories": [
-          "Both owned quadratic dispersion witnesses fail local boost tangency under the stated C1 physical-covariance interpretation.",
-          "Normal highest-spin7 energy channels exist but canonical seed current is blind.",
-          "Trace-isotropic auxiliary receiver image is not square-zero; exactrealspan32 has no automatic dynamic closure."
+          "Fixed-H constant-I CK image cannot be naturally boost-closed on a nontrivial mapped band, regardless dispersion.",
+          "Full640independent-component identity amplitude charge fails natural boost-invariant physical interpretation.",
+          "Initial two-source spin5 span fails at both roots; common59-map first shell has95complexhighestweight dimensions."
         ],
         "new_independent_mathematical_compatibility_bundles": 0,
         "new_source_or_observable_prediction_constraints": 0,
         "net_choices_minus_new_compatibility_bundles": 0,
         "net_choices_minus_new_prediction_constraints": 0,
         "counts_provisional_until_new_bundle_accepted": false,
-        "baseline_note": "No added family, full viability bundle, source prediction or choice reduction. The conditional mass-shell requirement does not supply a physical domain."
+        "baseline_note": "No new family or prediction. Explicit homogeneous chart specializes an existing choice; diagnostic positive-domain bundle remains valid, its physical covariance interpretation is excluded."
       },
       "drift_assessment": {
         "numeric_growth_signal": false,
         "numeric_basis": "0 new choices/0 newly satisfied full viability bundles; inventory10/4/bookkeepingnet6 unchanged.",
         "functional_warning": "Unfalsifiability drift risk: a whole observed dispersion function remains freely selectable despite exact equations and positivity; mathematical compatibility improves but predictive underdetermination is not reduced.",
         "scope": "Warning about the unconstrained candidate-completion strategy, not proof GU is unfalsifiable and not a source/ledger verdict.",
-        "continuation": "Compare source-accessible normal jets/weak adjoint goals with independent actual Lorentz-domain compatibility; do not add arbitrary completions or a full inverse backlog.",
+        "continuation": "Compare matched weak-response tests with a source-grounded covariant physical-restriction audit; do not repair the same constant seed merely by changing dispersion.",
         "prediction_growth_signal": false,
-        "prediction_basis": "The free dispersion remains unselected; a conditional boost law is not a source-selected prediction."
+        "prediction_basis": "No physical completion or source-selected prediction is selected; the entire current fixed-seed physical interpretation is excluded under its natural-covariance premises."
       },
       "dependency_summary": [
         "Core geometry/operator/coupling/domain -> local stationary backgrounds.",
@@ -4325,6 +4403,49 @@
             "continuation": "Compare source-accessible normal jets/weak adjoint goals with independent actual Lorentz-domain compatibility; do not add arbitrary completions or a full inverse backlog.",
             "prediction_growth_signal": false,
             "prediction_basis": "The free dispersion remains unselected; a conditional boost law is not a source-selected prediction."
+          }
+        },
+        {
+          "date": "2026-11-26",
+          "evidence": "explorations/conditional-build/source-action-paired-response-2026-11-26.md",
+          "snapshot": {
+            "core_candidate_families": 5,
+            "diagnostic_completion_families": 5,
+            "active_total_families": 10,
+            "pending_families": 2,
+            "comparator_only_families": 1,
+            "parked_families": 1,
+            "unselected_function_family": "observed-dispersion",
+            "source_or_observable_predictions_fixed": 0,
+            "independent_mathematical_obligation_bundles": 4,
+            "net_families_minus_mathematical_bundles": 6
+          },
+          "delta": {
+            "baseline_active_family_count": 10,
+            "current_active_family_count": 10,
+            "newly_introduced_families": [],
+            "newly_exposed_live_function_freedom": [],
+            "replaced_or_refined_families": [],
+            "constrained_categories": [
+              "Fixed-H constant-I CK image cannot be naturally boost-closed on a nontrivial mapped band, regardless dispersion.",
+              "Full640independent-component identity amplitude charge fails natural boost-invariant physical interpretation.",
+              "Initial two-source spin5 span fails at both roots; common59-map first shell has95complexhighestweight dimensions."
+            ],
+            "new_independent_mathematical_compatibility_bundles": 0,
+            "new_source_or_observable_prediction_constraints": 0,
+            "net_choices_minus_new_compatibility_bundles": 0,
+            "net_choices_minus_new_prediction_constraints": 0,
+            "counts_provisional_until_new_bundle_accepted": false,
+            "baseline_note": "No new family or prediction. Explicit homogeneous chart specializes an existing choice; diagnostic positive-domain bundle remains valid, its physical covariance interpretation is excluded."
+          },
+          "drift_assessment": {
+            "numeric_growth_signal": false,
+            "numeric_basis": "0 new choices/0 newly satisfied full viability bundles; inventory10/4/bookkeepingnet6 unchanged.",
+            "functional_warning": "Unfalsifiability drift risk: a whole observed dispersion function remains freely selectable despite exact equations and positivity; mathematical compatibility improves but predictive underdetermination is not reduced.",
+            "scope": "Warning about the unconstrained candidate-completion strategy, not proof GU is unfalsifiable and not a source/ledger verdict.",
+            "continuation": "Compare matched weak-response tests with a source-grounded covariant physical-restriction audit; do not repair the same constant seed merely by changing dispersion.",
+            "prediction_growth_signal": false,
+            "prediction_basis": "No physical completion or source-selected prediction is selected; the entire current fixed-seed physical interpretation is excluded under its natural-covariance premises."
           }
         }
       ],

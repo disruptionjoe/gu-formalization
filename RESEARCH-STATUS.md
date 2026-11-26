@@ -16,6 +16,14 @@ discovery bet (`lab/process/discovery-bets.json`). The K25xx--K2618 detector, pr
 results below are retained as conditional mathematics; that lane is no longer the default target. Sections
 below are dated results, newest first, and are not steering.
 
+## Paired current and fixed-domain Lorentz result (2026-11-26)
+
+The fixed constant-seed CK completion is not closed under natural boosts, independently of dispersion. Its full-component identity charge also fails the stated physical boost-norm interpretation. At both roots and both realifications the actual first CK normal current jet survives every admitted Gram and real dispersion. Reached spin5 sources generate a95-dimensional first common-family shell; the two-source span fails at both roots. The current does not annihilate the whole reached module; cancellation in the required inverse response remains open. Full weak response and physical propagation remain undetermined.
+
+The source bridge is absent for candidate necessity. Source-selected physical restriction, full weak divergence, required normal-frequency support and admissible propagation remain open. No choice or ledger verdict changes.
+
+[Result](explorations/conditional-build/source-action-paired-response-2026-11-26.md) · [Evidence](lab/process/source-action-paired-response.json).
+
 ## Receiver strategy and source-accessibility tests (2026-11-26)
 
 Normal scalar covectors have both principal-energy signs at both roots, but their highest-spin7 connection sector is blind to the canonical seed current. The covered auxiliary receiver image has exact real dimension32 and is not square-zero. Full spacetime essential transfer support, a conditional boost law and goal-oriented adjoint reduction sharpen the next tests.
