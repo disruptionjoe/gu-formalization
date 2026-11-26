@@ -1492,7 +1492,11 @@
         "lab/process/source-action-opportunity-register-2026-11-25.json",
         "lab/process/source-action-opportunity-register-2026-11-25.md",
         "lab/process/work-packets/source-action-response-discriminators-2026-11-25.md",
-        "lab/process/hostile-reviews/2026-11-25-source-action-engineering-review.md"
+        "lab/process/hostile-reviews/2026-11-25-source-action-engineering-review.md",
+        "explorations/conditional-build/source-action-homogeneous-analytic-vacuum-2026-11-25.md",
+        "lab/process/source-action-homogeneous-analytic-vacuum.json",
+        "tests/program-focus/source_action_homogeneous_probe.py",
+        "lab/process/hostile-reviews/2026-11-25-source-action-homogeneous-review.md"
       ],
       "packet_step_status": "steps0-5 done; source-required packet complete; physical applications retain named inputs",
       "next_run": "Reuse the compact-effective-stabilizer criterion and conformal-support classification; tensor-free normalization and regular fully restored probability are settled in these categories. Compare the source-described non-LC displacement joint action and physical observation-domain test against the strongest other eligible class question under unchanged cadence. The prior source-law corpus audit is complete; only newly authenticated data reopen that blocked branch, and other eligible structural tests remain selectable. The missing joint gauge action is not supplied by bare tensor components; finite invariant background probability and full tensor restoration remain unasserted source premises. Do not infer source failure from ordinary L2 normalization or scalar-curvature decay. Continue eligible science without constructing the gated source operator.",
@@ -1737,6 +1741,19 @@
         "source_bridge": "conditional; physical probe/state/sector maps remain open",
         "next_discriminator": "For the directed construction, formal coefficients and constant-base formal metric tests are covered. Next substantive construction work is an analytic realization on a specified compatible domain/boundary, with source-typed response/constraint admissibility and physical sector maps when supplied. The fixed spherical fixture is incompatible with the regular flat-leading branch; changing the datum is not validation of the old one. Ordinary class-wide/source-relevant selection and LC cadence remain unchanged; the preserved opportunity pool feeds existing postflight ranking without new gates.",
         "opportunity_pool": "lab/process/source-action-opportunity-register-2026-11-25.json"
+      },
+      "directed_homogeneous_wave_2026_11_25": {
+        "tier": "T2",
+        "actual_delta": "The full connected-affine-invariant displacement space of the W2 K95 candidate has real dimension216,108 per Clifford parity. Its full Euler map closes and the former formal zero-matter branch converges for sufficiently small inverse-kappa, giving actual coupled local stationarity on the stated product regulator. The induced fermion response is explicit, the flat-boundary mismatch persists near the branch, and equal base connections have identical held ambient action while observation can differ. No kappa1, physical source, C-membership or scientific matrix verdict.",
+        "evidence": [
+          "explorations/conditional-build/source-action-homogeneous-analytic-vacuum-2026-11-25.md",
+          "lab/process/source-action-homogeneous-analytic-vacuum.json",
+          "tests/program-focus/source_action_homogeneous_probe.py",
+          "lab/process/hostile-reviews/2026-11-25-source-action-homogeneous-review.md"
+        ],
+        "scientific_status_effect": "unchanged",
+        "source_bridge": "conditional; local candidate existence is not P1/P2/P3 physical acceptance",
+        "next_discriminator": "Small-h local existence in the complete invariant family is covered. Directed construction can compute the finite216-variable coefficient system for controlled continuation toward kappa1, or test admissible perturbations and observed response on this actual background. Source physical constraints/family maps and the charged boundary problem remain distinct. More formal-existence coefficients are redundant in the proved scope; ordinary source/class selection and schedules are unchanged."
       }
     }
   ],
@@ -1748,7 +1765,7 @@
     },
     "LB-CLASS": {
       "zero_delta_streak": 0,
-      "runs": 4,
+      "runs": 5,
       "status": "open"
     },
     "LB-LADDER": {
@@ -2667,7 +2684,7 @@
   ],
   "program_run_counter": {
     "since": "2026-11-09",
-    "count": 45,
+    "count": 46,
     "rule": "Every hourly run increments this in its postflight, whatever its lane. Lane C runs when count % 4 == 3 before the increment."
   },
   "working_rule": "Cells are worked at the structure level: a requirement must hold for every action in class C or for a structurally defined subfamily. No cell is worked by writing down a specific action, and no gated cell is worked by building its gate object. See CURRENT-STATE.yaml program_focus.structure_not_specifics.",
@@ -2889,6 +2906,15 @@
       "counter_after": 45,
       "lane": "LB-CLASS",
       "actual_delta": "Complete moving observation and jet-dependent boundary transport; native imposter/scalar current fingerprints, SE-grammar countervariation and all-SE hidden normal probe separation; zero-matter formal coupled stationarity to every order on a fixed product regulator; nonflat reference boundary incompatible with the fixed spherical pure-gauge fixture; fixed-probe core bound and scalar multiplier obstruction. Physical/convergent solution, source selection and observed-family bridge remain open."
+    },
+    {
+      "date": "2026-11-25",
+      "authority": "joe_direct_chat_novel_insight_wave",
+      "item": "Full homogeneous analytic stationary branch",
+      "counter_before": 45,
+      "counter_after": 46,
+      "lane": "LB-CLASS",
+      "actual_delta": "The full connected-affine-invariant displacement space of the W2 K95 candidate has real dimension216,108 per Clifford parity. Its full Euler map closes and the former formal zero-matter branch converges for sufficiently small inverse-kappa, giving actual coupled local stationarity on the stated product regulator. The induced fermion response is explicit, the flat-boundary mismatch persists near the branch, and equal base connections have identical held ambient action while observation can differ. No kappa1, physical source, C-membership or scientific matrix verdict."
     }
   ],
   "directed_lc_carry_2026_11_24_b": {
@@ -3145,7 +3171,7 @@
         ],
         "source_bridge": {
           "status": "conditional",
-          "reason": "Complete local law and datum constructed, but stationary background, native end/domain, active physical gauge and observed integer map remain missing."
+          "reason": "A local analytic coupled zero-matter branch now exists for sufficiently large kappa in the declared product problem. Native physical end/domain, active physical gauge, observed integer map, kappa1 and the separate imported boundary remain open."
         },
         "evidence": [
           "explorations/conditional-build/source-action-external-datum-candidate-2026-11-25.md",
@@ -3173,6 +3199,17 @@
           "boundary_status": "fixed spherical puregauge datum incompatible with regular flat-leading formal branch; nonperturbative/otherboundary alternatives retained",
           "current_status": "owned imposter/scalar rank relation and all-s hidden-probe separation; no physical2+1map or leakage claim",
           "remaining": "native analytic inverse/solution domain, source-selected boundary, actual physical response and integer receiver"
+        },
+        "homogeneous_analytic_followthrough": {
+          "evidence": [
+            "explorations/conditional-build/source-action-homogeneous-analytic-vacuum-2026-11-25.md",
+            "lab/process/source-action-homogeneous-analytic-vacuum.json",
+            "tests/program-focus/source_action_homogeneous_probe.py",
+            "lab/process/hostile-reviews/2026-11-25-source-action-homogeneous-review.md"
+          ],
+          "state": "actual smallh local coupled stationary fields, real216 invariantfamily",
+          "source_status": "candidate only, source/C membership unproved",
+          "remaining": "kappa1 quantitative continuation, physical perturbation/state/readout and nonzero matter; imported charged boundary is a different problem"
         }
       }
     ],
@@ -3330,6 +3367,17 @@
           "lab/process/work-packets/source-action-response-discriminators-2026-11-25.md",
           "lab/process/hostile-reviews/2026-11-25-source-action-engineering-review.md"
         ]
+      },
+      {
+        "id": "directed_novel_insight_2026_11_25",
+        "status": "consumed",
+        "original_direction": "Find the most novel or profound achievable insight in one big wave and execute it.",
+        "evidence": [
+          "explorations/conditional-build/source-action-homogeneous-analytic-vacuum-2026-11-25.md",
+          "lab/process/source-action-homogeneous-analytic-vacuum.json",
+          "tests/program-focus/source_action_homogeneous_probe.py",
+          "lab/process/hostile-reviews/2026-11-25-source-action-homogeneous-review.md"
+        ]
       }
     ]
   },
@@ -3379,6 +3427,20 @@
         "scalar multiplier family"
       ],
       "next_work": "For the directed construction, formal coefficients and constant-base formal metric tests are covered. Next substantive construction work is an analytic realization on a specified compatible domain/boundary, with source-typed response/constraint admissibility and physical sector maps when supplied. The fixed spherical fixture is incompatible with the regular flat-leading branch; changing the datum is not validation of the old one. Ordinary class-wide/source-relevant selection and LC cadence remain unchanged; the preserved opportunity pool feeds existing postflight ranking without new gates."
+    },
+    "homogeneous_completion": {
+      "evidence": [
+        "explorations/conditional-build/source-action-homogeneous-analytic-vacuum-2026-11-25.md",
+        "lab/process/source-action-homogeneous-analytic-vacuum.json",
+        "tests/program-focus/source_action_homogeneous_probe.py",
+        "lab/process/hostile-reviews/2026-11-25-source-action-homogeneous-review.md"
+      ],
+      "completed_reuse": [
+        "smallh local analytic existence in the full invariant family",
+        "constant-base coupled stationarity in fixed product variation class"
+      ],
+      "ordinary_priority_effect": "unchanged",
+      "next_work": "Small-h local existence in the complete invariant family is covered. Directed construction can compute the finite216-variable coefficient system for controlled continuation toward kappa1, or test admissible perturbations and observed response on this actual background. Source physical constraints/family maps and the charged boundary problem remain distinct. More formal-existence coefficients are redundant in the proved scope; ordinary source/class selection and schedules are unchanged."
     }
   }
 }

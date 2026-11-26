@@ -604,16 +604,25 @@
         "NETWORK-08",
         "PHYSICS-02"
       ],
-      "status": "completed_owned_subproblem",
+      "status": "completed_native_background_fingerprint",
       "scope": "candidate or explicitly declared structural diagnostic; not source-wide without bridge",
       "source_relevance": "conditional; use source-native carrier and registered premises",
       "evidence": [
-        "explorations/conditional-build/source-action-engineering-wave-2026-11-25.md"
+        "explorations/conditional-build/source-action-engineering-wave-2026-11-25.md",
+        "explorations/conditional-build/source-action-homogeneous-analytic-vacuum-2026-11-25.md"
       ],
-      "remaining_input": "Physical true-family embeddings and weak-current quotient.",
-      "revisit_when": "A source-typed physical sector map is supplied; do not count module multiplicities.",
-      "disposition": "Owned imposter/scalar current fingerprints and nonzero RS routing computed.",
-      "selection_note": "Candidate construction/diagnostic only unless its stated structural family and source bridge satisfy current program_focus. A reserve is not scheduled work."
+      "remaining_input": "Admitted physical sector embeddings, states and response; no mass inference from slashT1=60.",
+      "revisit_when": "A physical comparison is defined on the constructed branch.",
+      "disposition": "In addition to central probes, the actual analytic background induces matrix[[495,21/4],[54,-30]] on owned imposter/scalar diagnostic. Full transformed operator mixes slots.",
+      "selection_note": "Candidate construction/diagnostic only unless its stated structural family and source bridge satisfy current program_focus. A reserve is not scheduled work.",
+      "history": [
+        {
+          "date": "2026-11-25",
+          "previous_status": "completed_owned_subproblem",
+          "previous_disposition": "Owned imposter/scalar current fingerprints and nonzero RS routing computed.",
+          "superseding_evidence": "explorations/conditional-build/source-action-homogeneous-analytic-vacuum-2026-11-25.md"
+        }
+      ]
     },
     {
       "id": "O06",
@@ -654,14 +663,24 @@
         "MATH-07",
         "PHYSICS-04"
       ],
-      "status": "retained_dependency",
+      "status": "actual_local_background_available",
       "scope": "candidate or explicitly declared structural diagnostic; not source-wide without bridge",
       "source_relevance": "conditional; use source-native carrier and registered premises",
-      "evidence": [],
-      "remaining_input": "Source-typed physical constraints/quotient and background.",
-      "revisit_when": "Actual constraints can be evaluated on the central normal probes.",
-      "disposition": "Compensator quotient and known mixing witnesses reused; hidden current separation needs real constraints.",
-      "selection_note": "Candidate construction/diagnostic only unless its stated structural family and source bridge satisfy current program_focus. A reserve is not scheduled work."
+      "evidence": [
+        "explorations/conditional-build/source-action-homogeneous-analytic-vacuum-2026-11-25.md"
+      ],
+      "remaining_input": "Actual perturbation domain and constraint/physical gauge interpretation.",
+      "revisit_when": "A precise candidate perturbation/constraint question is selected.",
+      "disposition": "A genuine smallh zero-matter coupled stationary branch exists for this candidate; full physical gauge/BV analysis remains distinct.",
+      "selection_note": "Candidate construction/diagnostic only unless its stated structural family and source bridge satisfy current program_focus. A reserve is not scheduled work.",
+      "history": [
+        {
+          "date": "2026-11-25",
+          "previous_status": "retained_dependency",
+          "previous_disposition": "Compensator quotient and known mixing witnesses reused; hidden current separation needs real constraints.",
+          "superseding_evidence": "explorations/conditional-build/source-action-homogeneous-analytic-vacuum-2026-11-25.md"
+        }
+      ]
     },
     {
       "id": "O09",
@@ -687,16 +706,25 @@
         "NETWORK-07",
         "AI-05"
       ],
-      "status": "completed_certificate_conditions",
+      "status": "completed_homogeneous_convergence",
       "scope": "candidate or explicitly declared structural diagnostic; not source-wide without bridge",
       "source_relevance": "conditional; use source-native carrier and registered premises",
       "evidence": [
-        "explorations/conditional-build/source-action-engineering-wave-2026-11-25.md"
+        "explorations/conditional-build/source-action-engineering-wave-2026-11-25.md",
+        "explorations/conditional-build/source-action-homogeneous-analytic-vacuum-2026-11-25.md"
       ],
-      "remaining_input": "Compatible boundary space and bounded inverse/product/residual estimates.",
-      "revisit_when": "One native analytic setting provides M,C and residual norm.",
-      "disposition": "Conditional inverse/residual contraction certificate stated; formal series not a numerical bound.",
-      "selection_note": "Candidate construction/diagnostic only unless its stated structural family and source bridge satisfy current program_focus. A reserve is not scheduled work."
+      "remaining_input": "Native finite matrix/norm coefficients for quantitative h1 continuation; unrestricted PDE/domain estimates remain separate.",
+      "revisit_when": "Finite-coupling continuation or a specified nonhomogeneous solution problem is selected.",
+      "disposition": "Full affine invariant reduction closes in216real dimensions; majorant proves local analytic convergence and compact smooth control.",
+      "selection_note": "Candidate construction/diagnostic only unless its stated structural family and source bridge satisfy current program_focus. A reserve is not scheduled work.",
+      "history": [
+        {
+          "date": "2026-11-25",
+          "previous_status": "completed_certificate_conditions",
+          "previous_disposition": "Conditional inverse/residual contraction certificate stated; formal series not a numerical bound.",
+          "superseding_evidence": "explorations/conditional-build/source-action-homogeneous-analytic-vacuum-2026-11-25.md"
+        }
+      ]
     },
     {
       "id": "O11",
@@ -758,16 +786,25 @@
         "DISTRIBUTED-06",
         "AI-02"
       ],
-      "status": "completed_scope_table",
+      "status": "completed_equal_connection_identity",
       "scope": "candidate or explicitly declared structural diagnostic; not source-wide without bridge",
       "source_relevance": "conditional; use source-native carrier and registered premises",
       "evidence": [
-        "explorations/conditional-build/source-action-engineering-wave-2026-11-25.md"
+        "explorations/conditional-build/source-action-engineering-wave-2026-11-25.md",
+        "explorations/conditional-build/source-action-homogeneous-analytic-vacuum-2026-11-25.md"
       ],
-      "remaining_input": "Full physical equivalence requires boundaries, domain and measure.",
-      "revisit_when": "A proposed parameter change claims physical equivalence or new prediction.",
-      "disposition": "Fixed coefficient, normalization, source label, domain and physical inputs separated in result.",
-      "selection_note": "Candidate construction/diagnostic only unless its stated structural family and source bridge satisfy current program_focus. A reserve is not scheduled work."
+      "remaining_input": "Full transport of observation, domain and external data to decide physical equivalence.",
+      "revisit_when": "A claimed physical scale or equivalence depends on this distinction.",
+      "disposition": "Same base connection gives identical held ambient action, including constant rescalings; literal observed metric may differ.",
+      "selection_note": "Candidate construction/diagnostic only unless its stated structural family and source bridge satisfy current program_focus. A reserve is not scheduled work.",
+      "history": [
+        {
+          "date": "2026-11-25",
+          "previous_status": "completed_scope_table",
+          "previous_disposition": "Fixed coefficient, normalization, source label, domain and physical inputs separated in result.",
+          "superseding_evidence": "explorations/conditional-build/source-action-homogeneous-analytic-vacuum-2026-11-25.md"
+        }
+      ]
     },
     {
       "id": "O15",
@@ -777,16 +814,25 @@
         "NETWORK-10",
         "PHYSICS-05"
       ],
-      "status": "completed_formal_scope",
+      "status": "completed_actual_local_stationarity",
       "scope": "candidate or explicitly declared structural diagnostic; not source-wide without bridge",
       "source_relevance": "conditional; use source-native carrier and registered premises",
       "evidence": [
-        "explorations/conditional-build/source-action-engineering-wave-2026-11-25.md"
+        "explorations/conditional-build/source-action-engineering-wave-2026-11-25.md",
+        "explorations/conditional-build/source-action-homogeneous-analytic-vacuum-2026-11-25.md"
       ],
-      "remaining_input": "Finite-h existence, physical boundary/state, matter and observation.",
-      "revisit_when": "A controlled analytic realization or new source-relevant response breaks the stated symmetry.",
-      "disposition": "Correct base-metric null variation extended to all formal orders for zero matter/constant base/fixed product regulator.",
-      "selection_note": "Candidate construction/diagnostic only unless its stated structural family and source bridge satisfy current program_focus. A reserve is not scheduled work."
+      "remaining_input": "Nonzero matter, nonconstant base, perturbation domains and physical response.",
+      "revisit_when": "A distinct source-relevant response problem is specified.",
+      "disposition": "Direct original-density argument applies to actual smallh branch; base metric and zero matter are stationary in stated product variation class.",
+      "selection_note": "Candidate construction/diagnostic only unless its stated structural family and source bridge satisfy current program_focus. A reserve is not scheduled work.",
+      "history": [
+        {
+          "date": "2026-11-25",
+          "previous_status": "completed_formal_scope",
+          "previous_disposition": "Correct base-metric null variation extended to all formal orders for zero matter/constant base/fixed product regulator.",
+          "superseding_evidence": "explorations/conditional-build/source-action-homogeneous-analytic-vacuum-2026-11-25.md"
+        }
+      ]
     },
     {
       "id": "O16",
@@ -809,16 +855,25 @@
       "lenses": [
         "DISTRIBUTED-10"
       ],
-      "status": "completed_fixed_branch_obstruction",
+      "status": "completed_small_C1_boundary_scope",
       "scope": "candidate or explicitly declared structural diagnostic; not source-wide without bridge",
       "source_relevance": "conditional; use source-native carrier and registered premises",
       "evidence": [
-        "explorations/conditional-build/source-action-engineering-wave-2026-11-25.md"
+        "explorations/conditional-build/source-action-engineering-wave-2026-11-25.md",
+        "explorations/conditional-build/source-action-homogeneous-analytic-vacuum-2026-11-25.md"
       ],
-      "remaining_input": "Different boundary datum, leading geometry, boundary layer or nonperturbative branch.",
-      "revisit_when": "A source-supported compatible boundary/branch is supplied; no arbitrary change disguised as same fixture.",
-      "disposition": "Nonflat tangential reference curvature cannot match fixed pure-gauge sphere at order0 for any k.",
-      "selection_note": "Candidate construction/diagnostic only unless its stated structural family and source bridge satisfy current program_focus. A reserve is not scheduled work."
+      "remaining_input": "Different source-supported boundary/leading geometry or finite/large displacement continuation.",
+      "revisit_when": "A compatible physical datum is supplied; changing fixture is not validating the old one.",
+      "disposition": "Nonflat tangential curvature excludes matching the fixed pure-gauge sphere throughout a smallC1 neighborhood of reference connection.",
+      "selection_note": "Candidate construction/diagnostic only unless its stated structural family and source bridge satisfy current program_focus. A reserve is not scheduled work.",
+      "history": [
+        {
+          "date": "2026-11-25",
+          "previous_status": "completed_fixed_branch_obstruction",
+          "previous_disposition": "Nonflat tangential reference curvature cannot match fixed pure-gauge sphere at order0 for any k.",
+          "superseding_evidence": "explorations/conditional-build/source-action-homogeneous-analytic-vacuum-2026-11-25.md"
+        }
+      ]
     },
     {
       "id": "O18",
@@ -1014,10 +1069,11 @@
       "selection_note": "Candidate construction/diagnostic only unless its stated structural family and source bridge satisfy current program_focus. A reserve is not scheduled work."
     }
   ],
-  "priority_effect": "Ordinary whole-class/source-relevance principles and cadence preserved. Directed construction priorities now favor physical admissibility/response and compatible analytic boundary realization over more formal coefficients, neighbor SE scans or the incompatible fixed fixture. Existing postflight can retrieve this full pool.",
+  "priority_effect": "Standing policy/ordinary B/schedules unchanged. Local analytic existence in the complete homogeneous family is now covered; directed successors are quantitative finite-coupling continuation and admissible perturbation/observation, with source/physical bridges preserved.",
   "evidence": [
     "explorations/conditional-build/source-action-engineering-wave-2026-11-25.md",
     "lab/process/source-action-engineering-wave.json",
-    "lab/process/work-packets/source-action-response-discriminators-2026-11-25.md"
+    "lab/process/work-packets/source-action-response-discriminators-2026-11-25.md",
+    "explorations/conditional-build/source-action-homogeneous-analytic-vacuum-2026-11-25.md"
   ]
 }

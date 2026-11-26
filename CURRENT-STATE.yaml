@@ -1,7 +1,7 @@
 schema_version: '1.0'
 repository: observerse-research-program
 branch: main
-revision_basis: a22bdace5a78a3870d9ce76634d545f89b791dab
+revision_basis: 35a2321af2c7c72e4904319b615fe1f781b5359b
 program_focus:
   version: 2026-11-25-v1
   authority: joe_direct_chat_2026_11_25_five_process_improvements_approved
@@ -140,6 +140,33 @@ program_focus:
     covered; source relevance separately from mathematical breadth; shared prerequisite if any; remaining
     cost; strongest eligible alternative. A blocked high-value target is not an eligible alternative without
     its missing input. Reuse completed theorems and compare only their uncovered successors.'
+source_action_homogeneous_2026_11_25:
+  status: internally_reviewed_T2_candidate
+  actual_delta: The full connected-affine-invariant displacement space of the W2 K95 candidate has real
+    dimension216,108 per Clifford parity. Its full Euler map closes and the former formal zero-matter
+    branch converges for sufficiently small inverse-kappa, giving actual coupled local stationarity on
+    the stated product regulator. The induced fermion response is explicit, the flat-boundary mismatch
+    persists near the branch, and equal base connections have identical held ambient action while observation
+    can differ. No kappa1, physical source, C-membership or scientific matrix verdict.
+  evidence:
+  - explorations/conditional-build/source-action-homogeneous-analytic-vacuum-2026-11-25.md
+  - lab/process/source-action-homogeneous-analytic-vacuum.json
+  - tests/program-focus/source_action_homogeneous_probe.py
+  - lab/process/hostile-reviews/2026-11-25-source-action-homogeneous-review.md
+  claim_effect: No matrix scientific status, source, physics-ledger, action-class, canon or paper verdict
+    changed.
+  counter_accounting: 45->46 once; LB-CLASS4->5; no bet credit
+  priority_effect:
+    ordinary_policy: unchanged
+    ordinary_B_packets: unchanged
+    schedules: unchanged
+    directed_continuation: local analytic-existence step consumed; finite-coupling continuation and admissible
+      perturbation/response are uncovered
+  next_condition: Small-h local existence in the complete invariant family is covered. Directed construction
+    can compute the finite216-variable coefficient system for controlled continuation toward kappa1, or
+    test admissible perturbations and observed response on this actual background. Source physical constraints/family
+    maps and the charged boundary problem remain distinct. More formal-existence coefficients are redundant
+    in the proved scope; ordinary source/class selection and schedules are unchanged.
 source_action_engineering_2026_11_25:
   status: internally_reviewed_T2_candidate
   actual_delta: Complete moving observation and jet-dependent boundary transport; native imposter/scalar

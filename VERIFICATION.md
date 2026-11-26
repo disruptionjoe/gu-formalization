@@ -17,6 +17,12 @@ External review is not a pathway in this program. The honesty label stays: inter
 
 Sections below are historical snapshots in file order.
 
+## Actual homogeneous source-action candidate branch (2026-11-25)
+
+The complete connected-isotropy invariant displacement space is real216-dimensional. Full Euler closure and a convergent majorant produce actual local coupled stationary fields for sufficiently small inverse-kappa, upgrading the prior formal zero-matter result. The induced fermion operator has a concrete mixed response; its scalar contraction60 is not a mass prediction. Equal base connections yield the same held ambient functional while observation can differ. The fixed flat spherical boundary remains incompatible near the branch. Kappa1, physical states/families and source/C acceptance remain open; scientific verdicts are unchanged.
+
+[Derivation](explorations/conditional-build/source-action-homogeneous-analytic-vacuum-2026-11-25.md), [exact evidence](lab/process/source-action-homogeneous-analytic-vacuum.json).
+
 ## Source-action engineering follow-through (2026-11-25)
 
 The literal observation derivative and jet-dependent fermion boundary terms are explicit. The owned imposter/scalar current has a coefficient-sensitive rank relation; its hidden signal remains in another equation row. Central normal probes separate every hidden normal field in the declared SE family, without a physical leakage claim. The zero-matter candidate is formally coupled stationary to all orders in a fixed product-regulator test class, with odd-only effective action. Its regular flat-leading branch cannot meet the separate fixed pure-gauge spherical boundary. Convergence, physical response and family maps remain open; scientific verdicts are unchanged.
