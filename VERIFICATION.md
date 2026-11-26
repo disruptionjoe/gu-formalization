@@ -17,6 +17,16 @@ External review is not a pathway in this program. The honesty label stays: inter
 
 Sections below are historical snapshots in file order.
 
+## Current receiver and surviving PT matter domain (2026-11-26)
+
+Both roots have certified nonzero same-injection matter current on complete spin6/7 derivative auxiliary responses, although the tested range receivers vanish. Pure quaternionic conjugation reverses positive charge; full PT preserves the primary constant-seed positive matter domain without selecting dispersion. Accessible negative-energy excitation and physical propagation remain undetermined.
+
+The exact same-injection auxiliary receiver passes root-error and cross-Gram checks at both roots. The full reduced force and accessibility within the fixed K-K band remain unproved. Full PT preserves the primary positive matter completion for arbitrary held real dispersion, so it earns no prediction-selection or coupled-stability credit. Choice inventory remains10/4/bookkeeping net6.
+
+[Result](explorations/conditional-build/source-action-current-receiver-2026-11-26.md) · [Evidence](lab/process/source-action-current-receiver.json).
+
+Exact replay: both root certificates, 528 polarized trace identities and 234 symmetry controls passed. Six finite Lean lemmas and two mathematical/one hostile internal reviews passed; PDE/domain and physical quotient claims remain outside the formal core.
+
 ## Ghost steelman and external-datum findings (2026-11-26)
 
 Both certified kappa1 backgrounds fail the original flat Bott boundary by exact nonzero tangential curvature. Leading negative-energy witnesses are trace-free but have nonzero mixed-negative auxiliary fibre components. Under full auxiliary regularity, local gauge removal, equivalent positive-metric unitarization and boundary-only repair retaining compact data are excluded in their stated categories. Physical ghosts and other charged stationary backgrounds remain undetermined.

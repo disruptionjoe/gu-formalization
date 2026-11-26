@@ -135,10 +135,18 @@ Step5l retains source Q/domain/physical-pairing burdens. Neither root is selecte
 
 | Step | Status | Target / tier | Expected delta | Scope / negative-result meaning |
 |---|---|---|---|---|
-| 5o Actual charged-matter energy receiver and derived jet closure | ready in directed continuation | LB-CLASS / T2; T1 for a precise exclusion | Map the actual positive-graph current into owned negative-energy/coupled directions using the same J/domain; compare with actual higher-jet closure across directions | Current nonzero is not negative-mode overlap. No refitted graph, arbitrary positive completion or full lower-block backlog; physical Q/domain remains explicit |
+| 5o Actual charged-matter energy receiver and derived jet closure | finite auxiliary current and PT subtests consumed; full forcing and higher jet closure ready in directed continuation | LB-CLASS / T2; T1 for a precise exclusion | Map the actual positive-graph current into owned negative-energy/coupled directions using the same J/domain; compare with actual higher-jet closure across directions | Current nonzero is not negative-mode overlap. No refitted graph, arbitrary positive completion or full lower-block backlog; physical Q/domain remains explicit |
 
 Choice10/4/bookkeeping net6 remains unchanged, not a theory necessity bound. Standing priority/LC cadence and other eligible science continue; no waiting checkpoint added.
 
 ## Joe Nov26(b,c) steelman and datum side audit — consumed
 
 [Result](../../../explorations/conditional-build/source-action-steelman-datum-2026-11-26.md): principal conformal-trace overlap is zero, mixed-negative auxiliary projection nonzero at both roots. Existing local gauge/dressing, equivalent bounded graph metric and unchanged-core boundary repairs have the stated scoped exclusions. Both owned kappa1 roots fail the original flat Bott boundary by direct exact curvature; no datum-bearing stationary Hessian is supplied. Physical BRST/propagation, nonlocal domains and other matching backgrounds remain undetermined. No choice or source prediction credit. Step5o remains ready with the same current-to-energy receiver; this audit adds no stop or alternative completion.
+
+## Same-injection receiver and PT follow-through (2026-11-26)
+
+Both roots have certified nonzero same-injection matter current on complete spin6/7 derivative auxiliary responses, although the tested range receivers vanish. Pure quaternionic conjugation reverses positive charge; full PT preserves the primary constant-seed positive matter domain without selecting dispersion. Accessible negative-energy excitation and physical propagation remain undetermined.
+
+Consumed evidence: [result](../../../explorations/conditional-build/source-action-current-receiver-2026-11-26.md), exact probe and six finite Lean lemmas. The first finite receiver subtest is complete. Remaining step5o: Evaluate the full reduced force j_R-D^dagger M^-1 j_N, including lower and moving-coefficient terms, at transfer frequencies already in K-K with the existing normal profile. Nonzero pointwise auxiliary work does not identify negative forced-response energy. Full auxiliary regularity, admissible propagation and physical quotient remain distinct burdens; higher derived graph domains are still uncovered. No new completion is selected.
+
+Choice inventory10/4/bookkeepingnet6 unchanged. Existing scheduled selection and pending LC are unchanged; no permission checkpoint is introduced.

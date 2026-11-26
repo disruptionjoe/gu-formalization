@@ -16,6 +16,14 @@ discovery bet (`lab/process/discovery-bets.json`). The K25xx--K2618 detector, pr
 results below are retained as conditional mathematics; that lane is no longer the default target. Sections
 below are dated results, newest first, and are not steering.
 
+## Current receiver and surviving PT matter domain (2026-11-26)
+
+Both roots have certified nonzero same-injection matter current on complete spin6/7 derivative auxiliary responses, although the tested range receivers vanish. Pure quaternionic conjugation reverses positive charge; full PT preserves the primary constant-seed positive matter domain without selecting dispersion. Accessible negative-energy excitation and physical propagation remain undetermined.
+
+The exact same-injection auxiliary receiver passes root-error and cross-Gram checks at both roots. The full reduced force and accessibility within the fixed K-K band remain unproved. Full PT preserves the primary positive matter completion for arbitrary held real dispersion, so it earns no prediction-selection or coupled-stability credit. Choice inventory remains10/4/bookkeeping net6.
+
+[Result](explorations/conditional-build/source-action-current-receiver-2026-11-26.md) · [Evidence](lab/process/source-action-current-receiver.json).
+
 ## Ghost steelman and external-datum findings (2026-11-26)
 
 Both certified kappa1 backgrounds fail the original flat Bott boundary by exact nonzero tangential curvature. Leading negative-energy witnesses are trace-free but have nonzero mixed-negative auxiliary fibre components. Under full auxiliary regularity, local gauge removal, equivalent positive-metric unitarization and boundary-only repair retaining compact data are excluded in their stated categories. Physical ghosts and other charged stationary backgrounds remain undetermined.
