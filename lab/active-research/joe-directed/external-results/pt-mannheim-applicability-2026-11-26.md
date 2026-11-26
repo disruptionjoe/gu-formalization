@@ -28,7 +28,7 @@ canon_verdict_change: none
 
 # PT/Mannheim applicability and ledger opportunities
 
-> **GU-COMPARATOR-ROUTING.** Classification: `BRIDGE_OR_SEMANTIC_BOUNDARY`. Read the [routing method](../../../methods/source-native-comparator-routing.md). Fourth derivative order, a quaternionic symmetry or the word Weyl is not a typed equivalence of actions, physical states or observables. Source non-chiral2+1, literal contraction, K95/K77 and fullU/conditionalSp remain distinct.
+> **GU-COMPARATOR-ROUTING.** Classification: `BRIDGE_OR_SEMANTIC_BOUNDARY`. Read the [lab/methods/source-native-comparator-routing.md](../../../methods/source-native-comparator-routing.md). Fourth derivative order, a quaternionic symmetry or the word Weyl is not a typed equivalence of actions, physical states or observables. Source non-chiral2+1, literal contraction, K95/K77 and fullU/conditionalSp remain distinct.
 
 ```gu-typed-objects
 result: existing-background reflection algebra and literature applicability, no physical positivity verdict
