@@ -1496,7 +1496,14 @@
         "explorations/conditional-build/source-action-homogeneous-analytic-vacuum-2026-11-25.md",
         "lab/process/source-action-homogeneous-analytic-vacuum.json",
         "tests/program-focus/source_action_homogeneous_probe.py",
-        "lab/process/hostile-reviews/2026-11-25-source-action-homogeneous-review.md"
+        "lab/process/hostile-reviews/2026-11-25-source-action-homogeneous-review.md",
+        "explorations/conditional-build/source-action-dynamics-and-continuation-2026-11-25.md",
+        "lab/process/source-action-dynamics-and-continuation.json",
+        "lab/process/source-action-deep-coefficients.json",
+        "tests/program-focus/source_action_deep_geometry.py",
+        "tests/program-focus/source_action_deep_algebra.py",
+        "tests/program-focus/source_action_deep_probe.py",
+        "lab/process/hostile-reviews/2026-11-25-source-action-deep-review.md"
       ],
       "packet_step_status": "steps0-5 done; source-required packet complete; physical applications retain named inputs",
       "next_run": "Reuse the compact-effective-stabilizer criterion and conformal-support classification; tensor-free normalization and regular fully restored probability are settled in these categories. Compare the source-described non-LC displacement joint action and physical observation-domain test against the strongest other eligible class question under unchanged cadence. The prior source-law corpus audit is complete; only newly authenticated data reopen that blocked branch, and other eligible structural tests remain selectable. The missing joint gauge action is not supplied by bare tensor components; finite invariant background probability and full tensor restoration remain unasserted source premises. Do not infer source failure from ordinary L2 normalization or scalar-curvature decay. Continue eligible science without constructing the gated source operator.",
@@ -1754,6 +1761,22 @@
         "scientific_status_effect": "unchanged",
         "source_bridge": "conditional; local candidate existence is not P1/P2/P3 physical acceptance",
         "next_discriminator": "Small-h local existence in the complete invariant family is covered. Directed construction can compute the finite216-variable coefficient system for controlled continuation toward kappa1, or test admissible perturbations and observed response on this actual background. Source physical constraints/family maps and the charged boundary problem remain distinct. More formal-existence coefficients are redundant in the proved scope; ordinary source/class selection and schedules are unchanged."
+      },
+      "directed_deep_wave_2026_11_25": {
+        "tier": "T2",
+        "actual_delta": "The actual W2 K95 equations select a complete59-dimensional real/reflection-fixed family. All59 K images and1770 N pairs are owned; two distinct kappa1 roots pass exact rational contraction certificates and have disjoint frame-invariant scalar intervals. They are actual local coupled stationary backgrounds. Actual analytic curved solutions on them defeat every finite local observed-jet closure. Separately, the small-h branch has scalar complex spinor holonomy commutant. No stability, physical/source/C or scientific matrix verdict.",
+        "evidence": [
+          "explorations/conditional-build/source-action-dynamics-and-continuation-2026-11-25.md",
+          "lab/process/source-action-dynamics-and-continuation.json",
+          "lab/process/source-action-deep-coefficients.json",
+          "tests/program-focus/source_action_deep_geometry.py",
+          "tests/program-focus/source_action_deep_algebra.py",
+          "tests/program-focus/source_action_deep_probe.py",
+          "lab/process/hostile-reviews/2026-11-25-source-action-deep-review.md"
+        ],
+        "scientific_status_effect": "unchanged",
+        "source_bridge": "candidate only; no physical P1/P2/P3 acceptance",
+        "next_discriminator": "Normalized kappa1 local existence is covered, with at least two frame-distinct candidates. The meaningful directed successors are a declared physical state/constraint/observation selection or a concrete perturbation/stability discriminator between these backgrounds. Near-zero holonomy and boundary statements require independent endpoint checks before use at kappa1. Numerical arclength turned back near h0.1317 and did not connect either root; it is not an exclusion. Ordinary source/class priorities and schedules remain unchanged."
       }
     }
   ],
@@ -1765,7 +1788,7 @@
     },
     "LB-CLASS": {
       "zero_delta_streak": 0,
-      "runs": 5,
+      "runs": 6,
       "status": "open"
     },
     "LB-LADDER": {
@@ -2684,7 +2707,7 @@
   ],
   "program_run_counter": {
     "since": "2026-11-09",
-    "count": 46,
+    "count": 47,
     "rule": "Every hourly run increments this in its postflight, whatever its lane. Lane C runs when count % 4 == 3 before the increment."
   },
   "working_rule": "Cells are worked at the structure level: a requirement must hold for every action in class C or for a structurally defined subfamily. No cell is worked by writing down a specific action, and no gated cell is worked by building its gate object. See CURRENT-STATE.yaml program_focus.structure_not_specifics.",
@@ -2915,6 +2938,15 @@
       "counter_after": 46,
       "lane": "LB-CLASS",
       "actual_delta": "The full connected-affine-invariant displacement space of the W2 K95 candidate has real dimension216,108 per Clifford parity. Its full Euler map closes and the former formal zero-matter branch converges for sufficiently small inverse-kappa, giving actual coupled local stationarity on the stated product regulator. The induced fermion response is explicit, the flat-boundary mismatch persists near the branch, and equal base connections have identical held ambient action while observation can differ. No kappa1, physical source, C-membership or scientific matrix verdict."
+    },
+    {
+      "date": "2026-11-25",
+      "authority": "joe_direct_chat_deep_dynamics_wave",
+      "item": "Two exact normalized stationary backgrounds and actual observation dynamics",
+      "counter_before": 46,
+      "counter_after": 47,
+      "lane": "LB-CLASS",
+      "actual_delta": "The actual W2 K95 equations select a complete59-dimensional real/reflection-fixed family. All59 K images and1770 N pairs are owned; two distinct kappa1 roots pass exact rational contraction certificates and have disjoint frame-invariant scalar intervals. They are actual local coupled stationary backgrounds. Actual analytic curved solutions on them defeat every finite local observed-jet closure. Separately, the small-h branch has scalar complex spinor holonomy commutant. No stability, physical/source/C or scientific matrix verdict."
     }
   ],
   "directed_lc_carry_2026_11_24_b": {
@@ -3171,7 +3203,7 @@
         ],
         "source_bridge": {
           "status": "conditional",
-          "reason": "A local analytic coupled zero-matter branch now exists for sufficiently large kappa in the declared product problem. Native physical end/domain, active physical gauge, observed integer map, kappa1 and the separate imported boundary remain open."
+          "reason": "Two frame-distinct local coupled kappa1 stationary backgrounds now exist for the fixed candidate. Physical state/constraint selection, stability, global/charged boundary, observed integer and source/C identification remain open."
         },
         "evidence": [
           "explorations/conditional-build/source-action-external-datum-candidate-2026-11-25.md",
@@ -3210,6 +3242,20 @@
           "state": "actual smallh local coupled stationary fields, real216 invariantfamily",
           "source_status": "candidate only, source/C membership unproved",
           "remaining": "kappa1 quantitative continuation, physical perturbation/state/readout and nonzero matter; imported charged boundary is a different problem"
+        },
+        "finite_coupling_followthrough": {
+          "evidence": [
+            "explorations/conditional-build/source-action-dynamics-and-continuation-2026-11-25.md",
+            "lab/process/source-action-dynamics-and-continuation.json",
+            "lab/process/source-action-deep-coefficients.json",
+            "tests/program-focus/source_action_deep_geometry.py",
+            "tests/program-focus/source_action_deep_algebra.py",
+            "tests/program-focus/source_action_deep_probe.py",
+            "lab/process/hostile-reviews/2026-11-25-source-action-deep-review.md"
+          ],
+          "state": "two exact local kappa1 homogeneous stationary backgrounds; full59 real/reflection-fixed family",
+          "source_status": "candidate only; physical/source/C selection unproved",
+          "remaining": "physical state/constraint/observed dynamics and perturbation stability; distinct charged boundary; small-h endpoint transfer requires fresh check"
         }
       }
     ],
@@ -3378,6 +3424,20 @@
           "tests/program-focus/source_action_homogeneous_probe.py",
           "lab/process/hostile-reviews/2026-11-25-source-action-homogeneous-review.md"
         ]
+      },
+      {
+        "id": "directed_deep_dynamics_2026_11_25",
+        "status": "consumed",
+        "original_direction": "Pursue the most profound achievable big wave, preferring a substantive second-wave frontier to an easy small result.",
+        "evidence": [
+          "explorations/conditional-build/source-action-dynamics-and-continuation-2026-11-25.md",
+          "lab/process/source-action-dynamics-and-continuation.json",
+          "lab/process/source-action-deep-coefficients.json",
+          "tests/program-focus/source_action_deep_geometry.py",
+          "tests/program-focus/source_action_deep_algebra.py",
+          "tests/program-focus/source_action_deep_probe.py",
+          "lab/process/hostile-reviews/2026-11-25-source-action-deep-review.md"
+        ]
       }
     ]
   },
@@ -3441,6 +3501,24 @@
       ],
       "ordinary_priority_effect": "unchanged",
       "next_work": "Small-h local existence in the complete invariant family is covered. Directed construction can compute the finite216-variable coefficient system for controlled continuation toward kappa1, or test admissible perturbations and observed response on this actual background. Source physical constraints/family maps and the charged boundary problem remain distinct. More formal-existence coefficients are redundant in the proved scope; ordinary source/class selection and schedules are unchanged."
+    },
+    "finite_coupling_completion": {
+      "evidence": [
+        "explorations/conditional-build/source-action-dynamics-and-continuation-2026-11-25.md",
+        "lab/process/source-action-dynamics-and-continuation.json",
+        "lab/process/source-action-deep-coefficients.json",
+        "tests/program-focus/source_action_deep_geometry.py",
+        "tests/program-focus/source_action_deep_algebra.py",
+        "tests/program-focus/source_action_deep_probe.py",
+        "lab/process/hostile-reviews/2026-11-25-source-action-deep-review.md"
+      ],
+      "completed_reuse": [
+        "actual kappa1 local existence for fixed action",
+        "complete generated59 native polynomial",
+        "finite local observed-jet closure ruled out on actual analytic candidate solutions"
+      ],
+      "ordinary_priority_effect": "unchanged",
+      "next_work": "Normalized kappa1 local existence is covered, with at least two frame-distinct candidates. The meaningful directed successors are a declared physical state/constraint/observation selection or a concrete perturbation/stability discriminator between these backgrounds. Near-zero holonomy and boundary statements require independent endpoint checks before use at kappa1. Numerical arclength turned back near h0.1317 and did not connect either root; it is not an exclusion. Ordinary source/class priorities and schedules remain unchanged."
     }
   }
 }

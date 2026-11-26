@@ -17,6 +17,12 @@ External review is not a pathway in this program. The honesty label stays: inter
 
 Sections below are historical snapshots in file order.
 
+## Two exact normalized stationary candidates and observed dynamics (2026-11-25)
+
+The actual W2 K95 Euler algebra closes in a symmetry-selected59-dimensional family. Two distinct roots at kappa=1 have exact rational existence certificates and disjoint admitted-frame scalar invariants. Both give local coupled stationary backgrounds under the declared product variations. Actual curved analytic solutions on them defeat every finite local observed-jet closure. Separately, the small-h branch excludes nontrivial parallel complex spinor projectors; that theorem has not been transferred to the two finite-coupling roots. Stability, physical state/constraint selection, source/C membership and external boundary remain open. Scientific verdicts are unchanged.
+
+[Derivation](explorations/conditional-build/source-action-dynamics-and-continuation-2026-11-25.md), [exact coefficients and roots](lab/process/source-action-deep-coefficients.json), [verification](lab/process/source-action-dynamics-and-continuation.json).
+
 ## Actual homogeneous source-action candidate branch (2026-11-25)
 
 The complete connected-isotropy invariant displacement space is real216-dimensional. Full Euler closure and a convergent majorant produce actual local coupled stationary fields for sufficiently small inverse-kappa, upgrading the prior formal zero-matter result. The induced fermion operator has a concrete mixed response; its scalar contraction60 is not a mass prediction. Equal base connections yield the same held ambient functional while observation can differ. The fixed flat spherical boundary remains incompatible near the branch. Kappa1, physical states/families and source/C acceptance remain open; scientific verdicts are unchanged.

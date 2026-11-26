@@ -1,7 +1,7 @@
 schema_version: '1.0'
 repository: observerse-research-program
 branch: main
-revision_basis: 35a2321af2c7c72e4904319b615fe1f781b5359b
+revision_basis: 3d4e2df2add89661d7c063f30862b2602ac8532d
 program_focus:
   version: 2026-11-25-v1
   authority: joe_direct_chat_2026_11_25_five_process_improvements_approved
@@ -140,6 +140,36 @@ program_focus:
     covered; source relevance separately from mathematical breadth; shared prerequisite if any; remaining
     cost; strongest eligible alternative. A blocked high-value target is not an eligible alternative without
     its missing input. Reuse completed theorems and compare only their uncovered successors.'
+source_action_deep_2026_11_25:
+  status: internally_reviewed_T2
+  actual_delta: The actual W2 K95 equations select a complete59-dimensional real/reflection-fixed family.
+    All59 K images and1770 N pairs are owned; two distinct kappa1 roots pass exact rational contraction
+    certificates and have disjoint frame-invariant scalar intervals. They are actual local coupled stationary
+    backgrounds. Actual analytic curved solutions on them defeat every finite local observed-jet closure.
+    Separately, the small-h branch has scalar complex spinor holonomy commutant. No stability, physical/source/C
+    or scientific matrix verdict.
+  evidence:
+  - explorations/conditional-build/source-action-dynamics-and-continuation-2026-11-25.md
+  - lab/process/source-action-dynamics-and-continuation.json
+  - lab/process/source-action-deep-coefficients.json
+  - tests/program-focus/source_action_deep_geometry.py
+  - tests/program-focus/source_action_deep_algebra.py
+  - tests/program-focus/source_action_deep_probe.py
+  - lab/process/hostile-reviews/2026-11-25-source-action-deep-review.md
+  claim_effect: No source/physics/class-C/canon/paper or scientific matrix verdict.
+  counter_accounting: 46->47 once; LB-CLASS5->6; no bet credit
+  priority_effect:
+    standing_policy: unchanged
+    ordinary_B_packets: unchanged
+    schedules: unchanged
+    directed_successor: kappa1 existence consumed; actual candidate selection/stability and physical observed-state
+      mechanism remain
+  next_condition: Normalized kappa1 local existence is covered, with at least two frame-distinct candidates.
+    The meaningful directed successors are a declared physical state/constraint/observation selection
+    or a concrete perturbation/stability discriminator between these backgrounds. Near-zero holonomy and
+    boundary statements require independent endpoint checks before use at kappa1. Numerical arclength
+    turned back near h0.1317 and did not connect either root; it is not an exclusion. Ordinary source/class
+    priorities and schedules remain unchanged.
 source_action_homogeneous_2026_11_25:
   status: internally_reviewed_T2_candidate
   actual_delta: The full connected-affine-invariant displacement space of the W2 K95 candidate has real

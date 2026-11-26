@@ -21,36 +21,40 @@ Ordinary whole-class/source-relevance principles and cadence preserved. Directed
 | O01 Complete moving observation and composition | Complete moving-section derivative and field/row transport distinctions. | A specified physical response or a changed observation rule. |
 | O02 Boundary current and variational transport | Fermion boundary pullback and general jet-dependent Euler correction derived. | A concrete physical flux/phase-space question with its domain. |
 | O03 Finite Jacobian and continuum distinction | Finite F/R determinant and independent Grassmann ratio1. | An actual quantum measure/regulator is supplied. |
-| O04 Finite observed-state augmentation | Known nonclosure reused; finite augmentation does not supply native prediction. | A real generator/domain replaces the raw equation operator. |
+| O04 Finite observed-state augmentation | Any finite-order local differential initial observation encoding fails deterministic closure on actual analytic curved candidate solutions, including both kappa1 backgrounds. | A proposed physical observation repair must distinguish the constructed pairs. |
 | O05 2+1 interaction fingerprints | In addition to central probes, the actual analytic background induces matrix[[495,21/4],[54,-30]] on owned imposter/scalar diagnostic. Full transformed operator mixes slots. | A physical comparison is defined on the constructed branch. |
 | O06 Preservation of an admitted domain restriction | Normal-characteristic/domain restrictions remain explicit. | A concrete permitted domain restriction exists to test. |
 | O07 Bounded Helmholtz multiplier class | All nowhere-zero real derivative-free scalar multipliers retain principal defect−26f. | A natural non-scalar family is explicitly specified; no unconstrained scan. |
-| O08 Constraints versus redundancy | A genuine smallh zero-matter coupled stationary branch exists for this candidate; full physical gauge/BV analysis remains distinct. | A precise candidate perturbation/constraint question is selected. |
+| O08 Constraints versus redundancy | Actual small-h spinor holonomy has scalar complex commutant; no nontrivial parallel complex projector or positive parallel fibre form. | A source-relevant constraint or sector mechanism is specified. |
 | O09 Boundary-to-index receiver | Bott integer, order3/Z24 and observed integer remain distinct. | An owned receiver supplies a missing arrow; not another supplied integer. |
-| O10 Derivative loss and controlled approximation | Full affine invariant reduction closes in216real dimensions; majorant proves local analytic convergence and compact smooth control. | Finite-coupling continuation or a specified nonhomogeneous solution problem is selected. |
+| O10 Derivative loss and controlled approximation | Full59 exact native Euler coefficients and two distinct exact kappa1 roots replace the previous quantitative-existence gap. | An actual domain or continuation-component question has source-relevant consequences. |
 | O11 Shared-mediator invariant relations | Generic shared-mediator relation reused; concrete current relation condition-fixed and grammar-sensitive. | A proposed relation survives a stated exhaustive source-relevant family. |
 | O12 Source-compatible deformation robustness | Rank relation breaks under admitted SE grammar while extra fixed-slice semisimplicity is lost. | A source-required restriction selects a family where universality can be proved. |
 | O13 Boundary-preserving stabilizer | Boundary framing/splitting stabilizer idea preserved. | Boundary owner is specified; arbitrary fixture stabilizers do not answer current source questions. |
-| O14 Equivalence and free-choice dependence | Same base connection gives identical held ambient action, including constant rescalings; literal observed metric may differ. | A claimed physical scale or equivalence depends on this distinction. |
-| O15 Coupled base-metric feedback | Direct original-density argument applies to actual smallh branch; base metric and zero matter are stationary in stated product variation class. | A distinct source-relevant response problem is specified. |
+| O14 Equivalence and free-choice dependence | Two normalized backgrounds have disjoint exact pointwise trace/form invariant intervals; ordinary frame transformations cannot identify them. | A declared observable or stability criterion can distinguish the candidates. |
+| O15 Coupled base-metric feedback | Both kappa1 connection roots solve the compact-base/product-regulator metric variation with zero independent matter/bars. | A concrete coupled response or physical-state problem is selected. |
 | O16 Horizontal lower-order energy control | Auxiliary horizontal norm does not establish native stability; existing normal-time countercontrol reused. | An admitted regime makes a horizontal energy estimate relevant. |
 | O17 Formal branch and boundary matching | Nonflat tangential curvature excludes matching the fixed pure-gauge sphere throughout a smallC1 neighborhood of reference connection. | A compatible physical datum is supplied; changing fixture is not validating the old one. |
 | O18 Charged-core probe response | Same-charge shrinking-core current-pairing differences are O(epsilon13) for fixed smooth bounded probes. | A physical probe or charge-comparison experiment is defined; fixed-k bound does not compare charges. |
 | O19 Observation-sensitive symbol diagnostic | Old/repaired symbol and nonclosure controls already owned; no duplicate exclusion credited. | A different source-relevant receiver would distinguish currently unresolved alternatives. |
 | O20 Bosonic equation discrepancy receiver | Bosonic witness cannot be transported using fermionic F/R. | The correct bosonic receiver is supplied. |
-| O21 Hidden-kernel interaction influence | Every-s central normal current probes separate the entire held hidden normal field kernel. | A physical constraint, quotient or solution class restricts these probes. |
+| O21 Hidden-kernel interaction influence | Exact curved analytic solutions agree on any finite initial section-jet encoding but later literal readouts differ; independent-bar-zero gives complete classical configurations. | A source state/observation restriction is supplied and tested. |
 | O22 Descent of individual observables | Individual observable descent criterion preserved; general field nonclosure is not sufficient. | A candidate observable is specified to test on observation fibres. |
 | O23 Joint interaction/readout stabilizer | Rank/cross-ratio survive declared diagonal rescalings; no full physical stabilizer claimed. | A source-relevant generator or protection claim needs a common stabilizer. |
 | O24 Result-dependent selection | Results remove completed algebra, higher formal orders and incompatible fixture attachment from immediate construction ranking. | Existing postflight ranking revisits this pool; no new mandatory council. |
 | O25 Assumption-boundary stress controls | Distinguish base versus ambient metric variation, field versus row maps, formal versus finite-h and grammar versus physical family. | Any proposed claim crosses one of these explicit boundaries. |
 | O26 Two equation architectures on repaired candidate | Existing two-layer comparison reused; repaired K95 endpoint mismatch remains. | A new owned response comparison can be evaluated without identifying distinct equations. |
-| O27 Dark-sector mixing response | Hidden current witness and repaired interaction routing computed; rates/suppression remain open. | A typed low-curvature response problem admits or excludes the central probes. |
+| O27 Dark-sector mixing response | The actual branch mixes spinor transport irreducibly over C, even allowing deformed parallel projectors. | A source-required sector mechanism makes the parallel-projector theorem applicable. |
 | O28 Shared emergent scalar coupling | Collective scalar response remains a distinct question from a fundamental Higgs. | A candidate phase is supplied; retain corrected Krein-paired VEV bridge. |
 | O29 Boundary-preserving virial balance | Concentration and fixed-boundary incompatibility owned; neither proves absence of saddles. | A source-compatible stationary carrier/domain makes a virial condition informative. |
 
 ## Analytic follow-through
 
 The [homogeneous wave](../../explorations/conditional-build/source-action-homogeneous-analytic-vacuum-2026-11-25.md) completes local small-h existence and coupled stationarity, and supplies an induced fermion response. The six affected dispositions above are updated; all fifty paired lenses and twenty-nine opportunities remain preserved. Kappa1, physical states and the imported boundary remain open.
+
+## Finite-coupling follow-through
+
+The [deep wave](../../explorations/conditional-build/source-action-dynamics-and-continuation-2026-11-25.md) supplies two exact frame-distinct kappa1 stationary backgrounds, complete59 Euler coefficients and actual finite-jet observation nonautonomy. Its small-h spinor holonomy result is separate. Seven affected dispositions are updated; all fifty paired lenses and twenty-nine opportunities remain. Stability, physical selection and the external boundary are open.
 
 ## Complete assessment coverage
 
