@@ -115,6 +115,16 @@ Step5k does not wait for5l or for a complete selection theory. Real metric/conne
 
 | Step | Status | Target / tier | Expected delta | Scope / negative-result meaning |
 |---|---|---|---|---|
-| 5m Reduced observed evolution using owned blocks | ready in directed continuation | LB-CLASS / T2 | Use the spin6/7 transfer to test actual evolution and an existing restriction, completing only necessary receiver closure | No new state law, automatic physical interpretation or inference from a pointwise inverse; rejection removes the named existing category |
+| 5m Reduced observed evolution using owned blocks | consumed: conditional energy and domain/module exclusions | LB-CLASS / T1 internal domain exclusions | Both canonical-energy signs at both roots under regular constraints; nonzero square-zero reduced symbol; naive compact local module fails | No physical ghost, admitted propagated solution, branch selection or source verdict; singular constraints and mixed/graph domains survive |
 
 Step5l retains the missing Q/domain/pairing burden for physical inference; it does not stop5m or other eligible science. Blind descent through all lower rotation blocks is not the default. Choice budget10/4/net6 is unchanged and explicitly non-necessity accounting. No permanent construction moratorium or scheduled governance change is installed.
+
+## Consumed reduced-domain stage (2026-11-26)
+
+[Result](../../../explorations/conditional-build/source-action-reduced-evolution-2026-11-26.md): complete spin6/7 derivative-source columns yield both canonical-energy signs at both roots and certify a nonzero square-zero reduced order-two symbol. Full regular constraints plus unrestricted compact reduced data cannot give positive canonical energy or bounded same-order Hs evolution. Full singular constraints instead demand their residual equations. The ordinary wave control keeps regularity failure distinct from instability. Compact Spin6xSpin4 Lie-valued local-module closure also fails for all lower terms sharing the symbol, but the source never requires this naive truncation. The pointwise observation response extends to equation one-jets, not actual solutions.
+
+| Step | Status | Target / tier | Expected delta | Scope / negative-result meaning |
+|---|---|---|---|---|
+| 5n Existing constraint graph and admissible propagation | ready in directed continuation | LB-CLASS / T2, T1 if a structural exclusion follows | Test the derivative graph/mixed regularity derived from existing constraints and whether an existing physical restriction removes negative data while staying preserved; singular branch uses actual residual constraints | No invented quotient or positive completion; an unproved domain is UNDETERMINED, not absent. Ordinary eligible work and pending LC continue |
+
+Step5l retains source Q/domain/physical-pairing burdens. Neither root is selected;10/4/bookkeeping net6 remains unchanged. No permanent work-stop, all-lower-block backlog or new governance rule is installed.

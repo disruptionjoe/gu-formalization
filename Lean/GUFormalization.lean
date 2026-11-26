@@ -76,3 +76,5 @@ import GUFormalization.VariableCompletion
 import GUFormalization.CoupledGhost
 
 import GUFormalization.KappaOneConstraints
+
+import GUFormalization.ReducedEvolution

@@ -16,6 +16,14 @@ discovery bet (`lab/process/discovery-bets.json`). The K25xx--K2618 detector, pr
 results below are retained as conditional mathematics; that lane is no longer the default target. Sections
 below are dated results, newest first, and are not steering.
 
+## Coupling-one energy and reduced-domain findings (2026-11-26)
+
+At both kappa1 roots, exact complete spin6/7 derivative-source Schur forms have both canonical-energy signs. Conditional on full regular auxiliary reduction, compact constrained data inherit both signs and the nonzero square-zero reduced symbol excludes bounded unrestricted equal-order Hs evolution. Normal compact Lie-valued local-module closure also fails. No physical ghost or admitted propagation verdict.
+
+Exact signs include complete spin6 and lowered spin7 contributions; no omitted lower-block inverse changes their principal column. Full regularity is required for arbitrary compact cutoff completion. If singular, residual constraints remain a separate route. The ordinary wave equation demonstrates that equal-order Sobolev failure is a domain requirement, not instability. Physical quotient and actual propagated exchange remain undetermined. The same source-inspired compact module is not required by SC-META-53. Four targeted Lean lemmas and exact native interval replay support the declared scope; choice inventory10/4/bookkeeping net6 is unchanged and is not a GU necessity bound.
+
+[Result](explorations/conditional-build/source-action-reduced-evolution-2026-11-26.md) · [Evidence](lab/process/source-action-reduced-evolution.json).
+
 ## Coupling-one constraints and observed response (2026-11-25)
 
 Actual closed-time geometric cancellation; complete spin6/7 algebraic constraint inverses at both kappa1 roots (1904/49154 real imaginary-sector constraints); a fixed invisible derivative source has nonzero connection readout after constraint elimination. Opposite scalar constraint signs exclude an everywhere-regular connecting path within the fixed-geometry59 family. No kappa1 energy or physical ghost verdict.

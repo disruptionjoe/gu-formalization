@@ -1788,7 +1788,7 @@
     },
     "LB-CLASS": {
       "zero_delta_streak": 0,
-      "runs": 13,
+      "runs": 14,
       "status": "open"
     },
     "LB-LADDER": {
@@ -2707,7 +2707,7 @@
   ],
   "program_run_counter": {
     "since": "2026-11-09",
-    "count": 54,
+    "count": 55,
     "rule": "Every hourly run increments this in its postflight, whatever its lane. Lane C runs when count % 4 == 3 before the increment."
   },
   "working_rule": "Cells are worked at the structure level: a requirement must hold for every action in class C or for a structurally defined subfamily. No cell is worked by writing down a specific action, and no gated cell is worked by building its gate object. See CURRENT-STATE.yaml program_focus.structure_not_specifics.",
@@ -3269,7 +3269,9 @@
           "explorations/conditional-build/source-action-coupled-ghost-2026-11-25.md",
           "lab/process/source-action-coupled-ghost.json",
           "explorations/conditional-build/source-action-kappa1-constraints-2026-11-25.md",
-          "lab/process/source-action-kappa1-constraints.json"
+          "lab/process/source-action-kappa1-constraints.json",
+          "explorations/conditional-build/source-action-reduced-evolution-2026-11-26.md",
+          "lab/process/source-action-reduced-evolution.json"
         ],
         "choices": "Historical original choices are retained below; current held fermion repair is SE=-1/2 (SE0 superseded), kappa1 with two unselected roots. Typed candidate_choice_budget separates core/completion/pending/comparator/parked choices.",
         "wave2_update": {
@@ -3350,6 +3352,16 @@
           "remaining": "Use the completed spin6/7 constraints to test actual reduced observed evolution and an existing state restriction, completing only the required receiver closure. Source BRST/domain/pairing and propagated energy exchange remain distinct missing physical inputs. Do not automatically descend through every lower rotation block or add a completion.",
           "physical_quotient": "No actual nilpotent Q/domain/cohomology supplied; exact/nonclosed/physical status undetermined, not impossible.",
           "propagation": "Nonzero algebraic derivative-source transfer is certified, not propagated physical leakage, confinement failure or runaway."
+        },
+        "reduced_evolution_update": {
+          "result": "At both kappa1 roots, exact complete spin6/7 derivative-source Schur forms have both canonical-energy signs. Conditional on full regular auxiliary reduction, compact constrained data inherit both signs and the nonzero square-zero reduced symbol excludes bounded unrestricted equal-order Hs evolution. Normal compact Lie-valued local-module closure also fails. No physical ghost or admitted propagation verdict.",
+          "internal_target": "INTERNAL-REGULAR-UNRESTRICTED-REDUCED-DOMAIN",
+          "source_necessity": "absent",
+          "class_C_representativeness": "unproved",
+          "remaining": "Test the derivative graph/mixed regularity already induced by the actual constraints and whether an existing physical restriction removes negative data while being preserved. If full constraints are singular, resolve the relevant residual constraints. Do not blindly invert every lower block or add a positive completion; Q/domain/pairing and actual admissible propagation remain separate physical burdens.",
+          "physical_quotient": "No actual nilpotent Q/domain/cohomology selects these data; exact/nonclosed/physical status remains undetermined.",
+          "propagation": "Equation one-jets are compatible, not actual solutions. Same-order bounded flow is excluded only in regular unrestricted category; mixed/graph norms and physical propagation remain open.",
+          "source_compact_scope": "All lower terms sharing the native symbol fail arbitrary localized compact-connection module closure, including normal Spin conjugate embeddings; SC-META-53 does not require that truncation."
         }
       }
     ],
@@ -3417,7 +3429,7 @@
     ],
     "candidate_choice_budget": {
       "authority": "joe_direct_chat_2026_11_25_i",
-      "basis_revision": "9ea0a2e820fd2c701bafb3db7bebdb330b6e562e",
+      "basis_revision": "db07244ef9048ea9313779bd9f4bd16e53e71f0a",
       "kind": "candidate_choice_accounting_inside_existing_assumption_view",
       "count_unit": "declared_choice_family_not_scalar_degree_of_freedom",
       "interpretation": [
@@ -3690,7 +3702,8 @@
             "explorations/conditional-build/source-action-predictive-realization-2026-11-25.md"
           ],
           "coupled_energy_burden": "The large-kappa unrestricted constrained data category has indefinite quadratic canonical energy. A source-typed physical domain could exclude the witnesses only with preserved evolution/observation and a proper pairing; kappa1 remains separate.",
-          "finite_coupling_burden": "Both kappa1 roots have regular spin6/7 constraints and nonzero derivative-induced readout response. No actual Q/domain/cohomology is supplied; a pointwise inverse is not physical quotient or propagation."
+          "finite_coupling_burden": "Both kappa1 roots have regular spin6/7 constraints and nonzero derivative-induced readout response. No actual Q/domain/cohomology is supplied; a pointwise inverse is not physical quotient or propagation.",
+          "reduced_evolution_burden": "Both roots have conditional negative compact constrained canonical-energy data. Actual Q/domain/cohomology and admitted propagated exchange remain undetermined. Equal-Hs failure is not instability; graph/mixed norms may be derived."
         }
       ],
       "constraint_bundles": [
@@ -3706,10 +3719,12 @@
             "explorations/conditional-build/source-action-external-datum-candidate-2026-11-25.md",
             "explorations/conditional-build/source-action-datum-variation-tests-2026-11-25.md",
             "explorations/conditional-build/source-action-coupled-ghost-2026-11-25.md",
-            "explorations/conditional-build/source-action-kappa1-constraints-2026-11-25.md"
+            "explorations/conditional-build/source-action-kappa1-constraints-2026-11-25.md",
+            "explorations/conditional-build/source-action-reduced-evolution-2026-11-26.md"
           ],
           "constraint_reduction_note": "Exact central elimination and complete time-kernel constraint structure extend action consistency; no extra positive-viability bundle.",
-          "finite_coupling_note": "Actual moving-kernel cancellation, complete spin6/7 inverses and a nonzero constraint readout transfer extend consistency diagnostics; full energy/physical admission remains undetermined."
+          "finite_coupling_note": "Actual moving-kernel cancellation, complete spin6/7 inverses and a nonzero constraint readout transfer extend consistency diagnostics; full energy/physical admission remains undetermined.",
+          "reduced_evolution_note": "Both signs of constrained canonical principal energy at both roots; full regular unrestricted domains face energy and equal-Hs exclusions. No newly satisfied compatibility bundle."
         },
         {
           "key": "repaired-principal-compatibility",
@@ -3781,24 +3796,25 @@
         "newly_exposed_live_function_freedom": [],
         "replaced_or_refined_families": [],
         "constrained_categories": [
-          "Everywhere-regular paths connecting the two roots inside the held fixed-geometry59 family are excluded. Both endpoint spin6/7 constraint blocks remain regular.",
-          "Direct invisibility alone does not force zero derivative-induced algebraic constraint readout."
+          "Regular full auxiliary reduction with unrestricted compact-data canonical-energy positivity is excluded at both roots.",
+          "Regular full auxiliary reduction with same-order Hs bounded evolution and compact-smooth core is excluded at both roots.",
+          "Arbitrary localized normal compact Lie-valued connection modules are not closed under the actual principal symbol."
         ],
         "new_independent_mathematical_compatibility_bundles": 0,
         "new_source_or_observable_prediction_constraints": 0,
         "net_choices_minus_new_compatibility_bundles": 0,
         "net_choices_minus_new_prediction_constraints": 0,
         "counts_provisional_until_new_bundle_accepted": false,
-        "baseline_note": "Exact projections, representation decomposition and algebraic elimination are derived diagnostics, not new physical choices. Partial inverse checks are not new independent full viability bundles."
+        "baseline_note": "Derived graph/mixed regularity is not automatically a free physical choice. Excluded domain categories are not newly satisfied viability bundles. No source-selected prediction or branch selection."
       },
       "drift_assessment": {
         "numeric_growth_signal": false,
-        "numeric_basis": "0 new choice families and0 newly satisfied independent viability bundles; net0. Inventory remains10/4/net6; these are unlike grouped units, not a necessity lower bound.",
+        "numeric_basis": "0 new choice families/0 newly satisfied full viability bundles; net0. Inventory10/4/bookkeeping net6 is not a GU lower bound.",
         "functional_warning": "Unfalsifiability drift risk: a whole observed dispersion function remains freely selectable despite exact equations and positivity; mathematical compatibility improves but predictive underdetermination is not reduced.",
         "scope": "Warning about the unconstrained candidate-completion strategy, not proof GU is unfalsifiable and not a source/ledger verdict.",
-        "continuation": "Use the completed spin6/7 constraints to test actual reduced observed evolution and an existing state restriction, completing only the required receiver closure. Source BRST/domain/pairing and propagated energy exchange remain distinct missing physical inputs. Do not automatically descend through every lower rotation block or add a completion.",
+        "continuation": "Test the derivative graph/mixed regularity already induced by the actual constraints and whether an existing physical restriction removes negative data while being preserved. If full constraints are singular, resolve the relevant residual constraints. Do not blindly invert every lower block or add a positive completion; Q/domain/pairing and actual admissible propagation remain separate physical burdens.",
         "prediction_growth_signal": false,
-        "prediction_basis": "No source-selected prediction or new freedom this wave. The inherited entire-dispersion function remains unselected."
+        "prediction_basis": "No source-selected prediction or new freedom. Neither stationary root wins by this conditional energy comparison."
       },
       "dependency_summary": [
         "Core geometry/operator/coupling/domain -> local stationary backgrounds.",
@@ -3938,6 +3954,49 @@
             "continuation": "Use the completed spin6/7 constraints to test actual reduced observed evolution and an existing state restriction, completing only the required receiver closure. Source BRST/domain/pairing and propagated energy exchange remain distinct missing physical inputs. Do not automatically descend through every lower rotation block or add a completion.",
             "prediction_growth_signal": false,
             "prediction_basis": "No source-selected prediction or new freedom this wave. The inherited entire-dispersion function remains unselected."
+          }
+        },
+        {
+          "date": "2026-11-26",
+          "evidence": "explorations/conditional-build/source-action-reduced-evolution-2026-11-26.md",
+          "snapshot": {
+            "core_candidate_families": 5,
+            "diagnostic_completion_families": 5,
+            "active_total_families": 10,
+            "pending_families": 2,
+            "comparator_only_families": 1,
+            "parked_families": 1,
+            "unselected_function_family": "observed-dispersion",
+            "source_or_observable_predictions_fixed": 0,
+            "independent_mathematical_obligation_bundles": 4,
+            "net_families_minus_mathematical_bundles": 6
+          },
+          "delta": {
+            "baseline_active_family_count": 10,
+            "current_active_family_count": 10,
+            "newly_introduced_families": [],
+            "newly_exposed_live_function_freedom": [],
+            "replaced_or_refined_families": [],
+            "constrained_categories": [
+              "Regular full auxiliary reduction with unrestricted compact-data canonical-energy positivity is excluded at both roots.",
+              "Regular full auxiliary reduction with same-order Hs bounded evolution and compact-smooth core is excluded at both roots.",
+              "Arbitrary localized normal compact Lie-valued connection modules are not closed under the actual principal symbol."
+            ],
+            "new_independent_mathematical_compatibility_bundles": 0,
+            "new_source_or_observable_prediction_constraints": 0,
+            "net_choices_minus_new_compatibility_bundles": 0,
+            "net_choices_minus_new_prediction_constraints": 0,
+            "counts_provisional_until_new_bundle_accepted": false,
+            "baseline_note": "Derived graph/mixed regularity is not automatically a free physical choice. Excluded domain categories are not newly satisfied viability bundles. No source-selected prediction or branch selection."
+          },
+          "drift_assessment": {
+            "numeric_growth_signal": false,
+            "numeric_basis": "0 new choice families/0 newly satisfied full viability bundles; net0. Inventory10/4/bookkeeping net6 is not a GU lower bound.",
+            "functional_warning": "Unfalsifiability drift risk: a whole observed dispersion function remains freely selectable despite exact equations and positivity; mathematical compatibility improves but predictive underdetermination is not reduced.",
+            "scope": "Warning about the unconstrained candidate-completion strategy, not proof GU is unfalsifiable and not a source/ledger verdict.",
+            "continuation": "Test the derivative graph/mixed regularity already induced by the actual constraints and whether an existing physical restriction removes negative data while being preserved. If full constraints are singular, resolve the relevant residual constraints. Do not blindly invert every lower block or add a positive completion; Q/domain/pairing and actual admissible propagation remain separate physical burdens.",
+            "prediction_growth_signal": false,
+            "prediction_basis": "No source-selected prediction or new freedom. Neither stationary root wins by this conditional energy comparison."
           }
         }
       ],
@@ -4152,6 +4211,20 @@
         ],
         "remaining": "Use the completed spin6/7 constraints to test actual reduced observed evolution and an existing state restriction, completing only the required receiver closure. Source BRST/domain/pairing and propagated energy exchange remain distinct missing physical inputs. Do not automatically descend through every lower rotation block or add a completion.",
         "outcome_ceiling": "None of the three negative-energy classifications is established;47250 imaginary constraints and the physical evolution/quotient remain outside the result."
+      },
+      {
+        "id": "directed_reduced_evolution_2026_11_26",
+        "status": "consumed_at_energy_and_domain_exclusion_scope",
+        "original_direction": "Joe Go: continue actual reduced observed evolution and existing restriction tests using completed kappa1 spin6/7 blocks, without new completion.",
+        "evidence": [
+          "explorations/conditional-build/source-action-reduced-evolution-2026-11-26.md",
+          "lab/process/source-action-reduced-evolution.json",
+          "tests/program-focus/source_action_reduced_evolution_probe.py",
+          "Lean/GUFormalization/ReducedEvolution.lean",
+          "lab/process/hostile-reviews/2026-11-26-source-action-reduced-evolution-review.md"
+        ],
+        "remaining": "Test the derivative graph/mixed regularity already induced by the actual constraints and whether an existing physical restriction removes negative data while being preserved. If full constraints are singular, resolve the relevant residual constraints. Do not blindly invert every lower block or add a positive completion; Q/domain/pairing and actual admissible propagation remain separate physical burdens.",
+        "outcome_ceiling": "Both roots have negative constrained canonical data conditional on full regular reduction; not physical ghosts, branch selection or actual propagated solutions. Remaining47250 constraints not certified."
       }
     ]
   },

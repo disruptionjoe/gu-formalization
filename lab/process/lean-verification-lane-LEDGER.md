@@ -487,3 +487,7 @@ bicategory, ambidexterity or Mackey 2-functor is inferred.
 ## Finite-coupling constraint core (2026-11-25)
 
 `Lean/GUFormalization/KappaOneConstraints.lean`: **LEAN-VERIFIED**, three finite lemmas for symmetric/skew contraction, constraint-count arithmetic and the intermediate-value sign obstruction. Targeted `lake env lean` passed without placeholders. The actual symbol/projector proof, exact root matrices, real-form transfer and PDE/physical interpretation remain separately checked written mathematics. No full project rebuild claim. Evidence: `explorations/conditional-build/source-action-kappa1-constraints-2026-11-25.md`.
+
+## Reduced evolution finite core (2026-11-26)
+
+`Lean/GUFormalization/ReducedEvolution.lean`: **LEAN-VERIFIED**, four finite lemmas for the noncommutative square-zero sandwich, unbounded affine rays and universal derivative jets. Targeted `lake env lean -j1` passed without placeholders. Exact native matrices, canonical-energy reduction and variable-coefficient localized-packet estimates remain reviewed written mathematics; no full PDE formalization or project rebuild claim. Evidence: `explorations/conditional-build/source-action-reduced-evolution-2026-11-26.md`.

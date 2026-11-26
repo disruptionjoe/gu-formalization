@@ -1,7 +1,7 @@
 schema_version: '1.0'
 repository: observerse-research-program
 branch: main
-revision_basis: 9ea0a2e820fd2c701bafb3db7bebdb330b6e562e
+revision_basis: db07244ef9048ea9313779bd9f4bd16e53e71f0a
 program_focus:
   version: 2026-11-25-v1
   authority: joe_direct_chat_2026_11_25_five_process_improvements_approved
@@ -140,6 +140,31 @@ program_focus:
     covered; source relevance separately from mathematical breadth; shared prerequisite if any; remaining
     cost; strongest eligible alternative. A blocked high-value target is not an eligible alternative without
     its missing input. Reuse completed theorems and compare only their uncovered successors.'
+source_action_reduced_evolution_2026_11_26:
+  status: internally_reviewed_T1_regular_unrestricted_domain_exclusions
+  actual_delta: At both kappa1 roots, exact complete spin6/7 derivative-source Schur forms have both canonical-energy
+    signs. Conditional on full regular auxiliary reduction, compact constrained data inherit both signs
+    and the nonzero square-zero reduced symbol excludes bounded unrestricted equal-order Hs evolution.
+    Normal compact Lie-valued local-module closure also fails. No physical ghost or admitted propagation
+    verdict.
+  evidence:
+  - explorations/conditional-build/source-action-reduced-evolution-2026-11-26.md
+  - lab/process/source-action-reduced-evolution.json
+  - tests/program-focus/source_action_reduced_evolution_probe.py
+  - Lean/GUFormalization/ReducedEvolution.lean
+  - lab/process/hostile-reviews/2026-11-26-source-action-reduced-evolution-review.md
+  claim_effect: Internal domain/module exclusions only; source/physics/class-C/canon/paper and scientific
+    matrix verdicts unchanged.
+  next_condition: Test the derivative graph/mixed regularity already induced by the actual constraints
+    and whether an existing physical restriction removes negative data while being preserved. If full
+    constraints are singular, resolve the relevant residual constraints. Do not blindly invert every lower
+    block or add a positive completion; Q/domain/pairing and actual admissible propagation remain separate
+    physical burdens.
+  priority_effect: Directed5m consumed; successor graph-domain/physical-admission test retained. program_focus,
+    LC cadence and schedules unchanged.
+  choice_accounting: 10 grouped families/4 grouped compatibility bundles/bookkeeping net6 unchanged;0
+    new choices/0 full viability bundles/0 source predictions. No GU necessity lower bound.
+  counter_accounting: 54->55 once; LBCLASS13->14; no bet credit; pendingLC retained
 source_action_kappa1_constraints_2026_11_25:
   status: internally_reviewed_T1_regular_path_obstruction_T2_constraint_transfer
   actual_delta: Actual closed-time geometric cancellation; complete spin6/7 algebraic constraint inverses

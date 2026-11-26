@@ -150,3 +150,7 @@ O04 now distinguishes same-phase PsiDO exclusion from a full-frozen bounded nonl
 ## Coupling-one follow-through (2026-11-25)
 
 [Result](../../explorations/conditional-build/source-action-kappa1-constraints-2026-11-25.md): O15 has exact complete spin6/7 constraint inverses at both roots and a nonzero hidden-derivative-to-connection-readout response. An everywhere-regular connecting path inside the fixed-geometry59 family is excluded. Neither root is selected by stability. The next comparison favors actual observed evolution using these blocks over blind lower-spin enumeration. Physical quotient and propagation remain explicit burdens. No new choices, ledger verdicts or governance changes; all50 lenses/29 opportunities retained.
+
+## Reduced evolution and conditional energy (2026-11-26)
+
+[Result](../../explorations/conditional-build/source-action-reduced-evolution-2026-11-26.md): O15 now has both canonical-energy signs at both kappa1 roots in the regular unrestricted constraint category, plus a nonzero square-zero reduced symbol. Equal-order bounded Hs evolution and naive compact module closure are excluded at the stated scope. Physical propagation/quotient remain open; neither root is selected. The successor tests graph/mixed regularity already induced by the actual equations and existing restrictions, without a new positive completion. Choice inventory10/4/bookkeeping net6 and all50lenses/29opportunities are retained.
