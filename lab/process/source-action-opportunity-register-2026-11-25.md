@@ -134,3 +134,7 @@ O15 now owns the complete local fourth-order coefficient, its exact three-scalar
 ## Predictive-completeness follow-through (2026-11-25)
 
 O04 now owns actual analytic history surjectivity, infinite whole-history kernel and the precisely scoped finite-local-lift exclusion. This does not exclude arbitrary four-dimensional physical or probabilistic completions. Boundary/nonlocal/restricted-domain alternatives remain linked to their missing source/state data. Finite normalization and predictive selection remain separate. All fifty lenses and twenty-nine questions are retained; ordinary priorities unchanged. [Result](../../explorations/conditional-build/source-action-slice-completion-2026-11-25.md).
+
+## Predictive-realization evidence (2026-11-25)
+
+O04 now distinguishes same-phase PsiDO exclusion from a full-frozen bounded nonlocal observation domain. O06 records the generic full-solution local bar-graph obstruction, retaining restricted/nonlocal contours. O15 records regular coupled principal responses through the tested null cone, with the full subprincipal/domain problem separate. All50 lenses and29 opportunities remain; no scheduled rerank or source/physics verdict. [Result](../../explorations/conditional-build/source-action-predictive-realization-2026-11-25.md) and [certificate](source-action-predictive-realization.json).

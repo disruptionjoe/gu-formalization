@@ -1788,7 +1788,7 @@
     },
     "LB-CLASS": {
       "zero_delta_streak": 0,
-      "runs": 9,
+      "runs": 10,
       "status": "open"
     },
     "LB-LADDER": {
@@ -2707,7 +2707,7 @@
   ],
   "program_run_counter": {
     "since": "2026-11-09",
-    "count": 50,
+    "count": 51,
     "rule": "Every hourly run increments this in its postflight, whatever its lane. Lane C runs when count % 4 == 3 before the increment."
   },
   "working_rule": "Cells are worked at the structure level: a requirement must hold for every action in class C or for a structurally defined subfamily. No cell is worked by writing down a specific action, and no gated cell is worked by building its gate object. See CURRENT-STATE.yaml program_focus.structure_not_specifics.",
@@ -2974,6 +2974,15 @@
       "counter_after": 50,
       "lane": "LB-CLASS",
       "actual_delta": "Actual unrestricted analytic solution germs realize every local observed field history and have an infinite-dimensional whole-history kernel. A varying-cone theorem excludes the stated finite-local lift class. Finite normalization does not select a signed coefficient average. No source/physical/class-C verdict."
+    },
+    {
+      "date": "2026-11-25",
+      "authority": "joe_direct_chat_2026_11_25_most_ambitious_wave",
+      "item": "Predictive realization: local reality, nonlocal domain and coupled principal structure",
+      "counter_before": 50,
+      "counter_after": 51,
+      "lane": "LB-CLASS",
+      "actual_delta": "Generic full-solution local bar-graph obstruction in the held59 coupling family, certified at both stationary roots; exact full-frozen closed nonlocal observation domain; polynomial coupled principal metric response through the tested null cone. No source/physical/class-C verdict."
     }
   ],
   "directed_lc_carry_2026_11_24_b": {
@@ -3061,8 +3070,11 @@
         },
         "evidence": [
           "GEOMETER-VS-PHYSICS-OBJECTS.md",
-          "explorations/conditional-build/signature-rationale-and-build-branch-retype-2026-08-08.md"
-        ]
+          "explorations/conditional-build/signature-rationale-and-build-branch-retype-2026-08-08.md",
+          "explorations/conditional-build/source-action-predictive-realization-2026-11-25.md",
+          "lab/process/source-action-predictive-realization.json"
+        ],
+        "predictive_realization_update": "All450 pointwise bar intertwiners tested on the K95 repaired candidate; both roots and a generic held59 coupling subset exclude full-solution local graphs. Restricted/nonlocal contours remain."
       },
       {
         "question": "Is an exact extra Spin-Z4 symmetry with the physical mod16 charge assignment source-required?",
@@ -3199,10 +3211,13 @@
           "explorations/conditional-build/solution-observation-trace-2026-11-25.md",
           "explorations/conditional-build/natural-density-fibre-volume-2026-11-25.md",
           "explorations/conditional-build/source-action-slice-completion-2026-11-25.md",
-          "lab/process/source-action-slice-completion.json"
+          "lab/process/source-action-slice-completion.json",
+          "explorations/conditional-build/source-action-predictive-realization-2026-11-25.md",
+          "lab/process/source-action-predictive-realization.json"
         ],
         "structural_choices": "Norm/topology, real spectral sheet, differential lower terms, physical constraints, tube or singular observation and density datum category must be supplied, not guessed.",
-        "latest_constraint": "Actual unrestricted analytic solution history map is onto with infinite kernel; finite-order spatial lifts from finite-rank fibre-independent analytic first-order base evolution with arbitrary local Cauchy data are excluded. Boundary/nonlocal/restricted and probabilistic laws remain; no source necessity established."
+        "latest_constraint": "Actual unrestricted analytic solution history map is onto with infinite kernel; finite-order spatial lifts from finite-rank fibre-independent analytic first-order base evolution with arbitrary local Cauchy data are excluded. Boundary/nonlocal/restricted and probabilistic laws remain; no source necessity established.",
+        "predictive_realization_update": "Full-frozen selected image is a closed L2 solution domain with bounded literal observation via canonical normal-slice representative. Same-phase classical PsiDO faithful lifts are excluded. Actual variable-coefficient/physical transfer remains."
       },
       {
         "question": "Which source tensor data have compact effective Lorentz isotropy and does the source need finite invariant background probability?",
@@ -3242,7 +3257,9 @@
           "explorations/conditional-build/source-action-external-datum-candidate-2026-11-25.md",
           "explorations/conditional-build/source-action-datum-variation-tests-2026-11-25.md",
           "explorations/conditional-build/source-action-slice-completion-2026-11-25.md",
-          "lab/process/source-action-slice-completion.json"
+          "lab/process/source-action-slice-completion.json",
+          "explorations/conditional-build/source-action-predictive-realization-2026-11-25.md",
+          "lab/process/source-action-predictive-realization.json"
         ],
         "choices": "K95, explicit comm/symi/symi Shiab, minimal fermion C, independent dual rows, SE0, local units, regulator boundary, J splitting and empirical-matching k3. No source uniquely selects these.",
         "wave2_update": {
@@ -3304,7 +3321,8 @@
           ],
           "remaining": "The intrinsic linearized gauge/algebraic-filter interpretation is now covered. Executable directed gravity successor: evaluate the off-section geometric coefficient derivative and lower mixed blocks, including moving Phi/pairing/density and background terms, before any stability/Einstein inference. Physical closure requires a specified compatible differential, boundary or nonlocal state law; geometric curvature susceptibility additionally needs branch selection and all geometric variations. Do not substitute deltaS-only forcing, the59 Jacobian or more roots. Ordinary structural/source priorities and schedules are unchanged."
         },
-        "latest_constraint": "Independent-bar-zero candidate admits arbitrary local analytic observed histories; physical conjugacy/state/boundary/probability law is unselected. This is not physical admission or empirical arbitrariness."
+        "latest_constraint": "Independent-bar-zero candidate admits arbitrary local analytic observed histories; physical conjugacy/state/boundary/probability law is unselected. This is not physical admission or empirical arbitrariness.",
+        "predictive_realization_update": "Local full-solution reality completion is generically obstructed in the held coupling family; actual coupled leading metric forcing admits polynomial responses through the tested null cone. Full physical reduction and source selection remain open."
       }
     ],
     "shared_prerequisites": [
@@ -3523,6 +3541,21 @@
           "lab/process/hostile-reviews/2026-11-25-source-action-slice-completion-review.md"
         ],
         "remaining": "Source-admitted boundary/state/probability law and full physical reduction remain open; no blanket rejection of nonlocal/restricted alternatives."
+      },
+      {
+        "id": "directed_predictive_realization_2026_11_25",
+        "status": "consumed_in_stated_structural_candidate_and_frozen_scopes",
+        "original_direction": "Most ambitious and profound next wave after slice-completeness results.",
+        "evidence": [
+          "explorations/conditional-build/source-action-predictive-realization-2026-11-25.md",
+          "lab/process/source-action-predictive-realization.json",
+          "tests/program-focus/source_action_bar_contour_probe.py",
+          "tests/program-focus/source_action_nonlocal_completion_probe.py",
+          "tests/program-focus/source_action_coupled_symbol_probe.py",
+          "Lean/GUFormalization/PredictiveRealization.lean",
+          "lab/process/hostile-reviews/2026-11-25-source-action-predictive-realization-review.md"
+        ],
+        "remaining": "A restricted/nonlocal reality-and-state domain needs exact variable-coefficient compatibility and literal observation; the frozen construction is a benchmark. Coupled null/subprincipal equations remain before physical metric inference. Completed local graph, same-phase lift and principal-range tests are consumed; ordinary eligible science and pending LC opportunity continue."
       }
     ]
   },

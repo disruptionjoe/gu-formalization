@@ -16,6 +16,14 @@ discovery bet (`lab/process/discovery-bets.json`). The K25xx--K2618 detector, pr
 results below are retained as conditional mathematics; that lane is no longer the default target. Sections
 below are dated results, newest first, and are not steering.
 
+## Generic local reality obstruction and nonlocal survivor (2026-11-25)
+
+Generic full-solution local bar-graph obstruction in the held59 coupling family, certified at both stationary roots; exact full-frozen closed nonlocal observation domain; polynomial coupled principal metric response through the tested null cone. No source/physical/class-C verdict.
+
+All450 principal graph coefficients are eliminated by exact root-ball minor certificates; arbitrary contour derivatives cannot repair the even constraint. A restricted-state contour remains outside the theorem. The frozen closed-domain construction supplies no physical positivity or variable-coefficient domain. Coupled leading responses do not settle subprincipal metric dynamics. Internal T1 reviews and nine Lean finite-core lemmas accompany6300 contour controls,167 nonlocal controls and6720 coupled coefficient residuals.
+
+[Result](explorations/conditional-build/source-action-predictive-realization-2026-11-25.md) · [Evidence](lab/process/source-action-predictive-realization.json).
+
 ## Actual slice histories and finite-local completion (2026-11-25)
 
 Actual unrestricted analytic solution germs realize every local observed field history and have an infinite-dimensional whole-history kernel. A varying-cone theorem excludes the stated finite-local lift class. Finite normalization does not select a signed coefficient average. No source/physical/class-C verdict.

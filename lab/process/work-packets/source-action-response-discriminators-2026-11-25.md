@@ -75,3 +75,12 @@ The due LC opportunity at counter47 is retained in the existing matrix accountin
 | Step | Status | Target / tier | Expected delta | Scope / negative-result meaning |
 |---|---|---|---|---|
 | 5f Actual history image and finite-local completion | done in exact stated scope | LB-CLASS / T1 internal class, T2 analytic image | History onto/noninjective; finite-local differential lift exclusion; finite normalization separated from selection | Source/state necessity absent; nonlocal, boundary, restricted-data and probability laws remain |
+
+## Consumed predictive-realization direction
+
+[Generic local reality and nonlocal-domain result](../../../explorations/conditional-build/source-action-predictive-realization-2026-11-25.md) completes the declared full-solution graph and same-phase completion tests. Both exact stationary backgrounds exclude local invertible bar graphs; a frozen selected-domain survivor is constructed. Actual coupled leading metric forcing has a regular polynomial response across the tested null cone. Step5e keeps the distinct supplied physical-domain question; no further local pairing search under the same universal hypotheses can evade the450 certificate. Restricted-state, derivative and nonlocal graphs remain outside it.
+
+| Step | Status | Target / tier | Expected delta | Scope / negative-result meaning |
+|---|---|---|---|---|
+| 5g Full-solution local reality and nonlocal completion classes | done in declared scopes | LB-CLASS / T1 internal exclusions, T2 constructive result | Generic local graph exclusion; exact frozen bounded observation domain | No source-required contour, actual variable-domain or positive physical quotient supplied |
+| 5h Coupled leading-symbol range and null regularity | done in quantified principal family | LB-CLASS / T2 | Polynomial response through null frequencies for all10 metric amplitudes | Complete kernel/subprincipal hierarchy, full fibre reduction and physical modes remain distinct |

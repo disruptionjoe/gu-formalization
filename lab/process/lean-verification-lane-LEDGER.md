@@ -471,3 +471,7 @@ bicategory, ambidexterity or Mackey 2-functor is inferred.
 ## Slice-completion finite algebra (2026-11-25)
 
 `Lean/GUFormalization/SliceCompletion.lean` verifies five finite matrix-algebra consequences for shifted-square intertwiners and invertible right factors. The actual varying-cone exclusion also uses written analytic/free-jet, determinant and continuity arguments; those are not formalized here. Two independent mathematical reviews and a hostile source-scope review accepted the stated internal class result. No source, physical, class-C or ledger verdict changes. The exact principal-algebra probe passed 236 controls. [Proof and scope](../../explorations/conditional-build/source-action-slice-completion-2026-11-25.md).
+
+## Predictive-realization finite core (2026-11-25)
+
+`Lean/GUFormalization/PredictiveRealization.lean` checks nine lemmas: finite-minor injectivity, strict norm and approximate-left-inverse injectivity, and complex involution projector identities. No proof placeholders. The Clifford classification, actual450 coefficient assembly, rational root-ball certificates, pseudodifferential induction and PDE estimates remain separately reviewed written/computational evidence. The actual contour replay passes6300 principal controls and both full450 rank certificates; this is not a physical/source verdict. [Result](../../explorations/conditional-build/source-action-predictive-realization-2026-11-25.md).

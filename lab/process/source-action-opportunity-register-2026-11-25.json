@@ -587,7 +587,7 @@
         "DISTRIBUTED-09",
         "NETWORK-06"
       ],
-      "status": "analytic_history_image_owned_finite_local_lift_class_excluded",
+      "status": "same_phase_class_excluded_frozen_nonlocal_domain_constructed",
       "scope": "candidate or explicitly declared structural diagnostic; not source-wide without bridge",
       "source_relevance": "conditional; use source-native carrier and registered premises",
       "evidence": [
@@ -595,7 +595,9 @@
         "explorations/conditional-build/source-action-physical-dynamics-2026-11-25.md",
         "lab/process/source-action-physical-dynamics.json",
         "explorations/conditional-build/source-action-slice-completion-2026-11-25.md",
-        "lab/process/source-action-slice-completion.json"
+        "lab/process/source-action-slice-completion.json",
+        "explorations/conditional-build/source-action-predictive-realization-2026-11-25.md",
+        "lab/process/source-action-predictive-realization.json"
       ],
       "remaining_input": "A source-admitted boundary/nonlocal/restricted-domain or predictive probability law; any deterministic candidate must state which finite-local-lift hypothesis it leaves.",
       "revisit_when": "A source-admitted boundary/nonlocal/restricted-domain or predictive probability law; any deterministic candidate must state which finite-local-lift hypothesis it leaves.",
@@ -620,7 +622,15 @@
           "previous_disposition": "Finite local initial encodings fail even within preserved analytic pointwise subbundles with qE nonzero and arbitrary normal data.",
           "superseding_evidence": "explorations/conditional-build/source-action-slice-completion-2026-11-25.md"
         }
-      ]
+      ],
+      "predictive_realization_update": {
+        "prior_status": "analytic_history_image_owned_finite_local_lift_class_excluded",
+        "result": "Same-phase classical PsiDO lifts are smoothing; exact full-frozen nonlocal selected-domain lift has bounded L2 observation. Variable-coefficient and physical selection remain.",
+        "evidence": [
+          "explorations/conditional-build/source-action-predictive-realization-2026-11-25.md",
+          "lab/process/source-action-predictive-realization.json"
+        ]
+      }
     },
     {
       "id": "O05",
@@ -656,12 +666,14 @@
       "lenses": [
         "MATH-05"
       ],
-      "status": "physical_state_law_still_unselected",
+      "status": "full_solution_local_bar_graphs_generically_excluded",
       "scope": "candidate or explicitly declared structural diagnostic; not source-wide without bridge",
       "source_relevance": "conditional; use source-native carrier and registered premises",
       "evidence": [
         "explorations/conditional-build/source-action-physical-dynamics-2026-11-25.md",
-        "lab/process/source-action-physical-dynamics.json"
+        "lab/process/source-action-physical-dynamics.json",
+        "explorations/conditional-build/source-action-predictive-realization-2026-11-25.md",
+        "lab/process/source-action-predictive-realization.json"
       ],
       "remaining_input": "A supplied differential, boundary or nonlocal admissibility law, with propagation and dual flux.",
       "revisit_when": "A supplied differential, boundary or nonlocal admissibility law, with propagation and dual flux.",
@@ -674,7 +686,15 @@
           "previous_disposition": "Normal-characteristic/domain restrictions remain explicit.",
           "superseding_evidence": "explorations/conditional-build/source-action-physical-dynamics-2026-11-25.md"
         }
-      ]
+      ],
+      "predictive_realization_update": {
+        "prior_status": "physical_state_law_still_unselected",
+        "result": "Both stationary roots and generic held59 couplings exclude every invertible local antilinear graph preserving all freely initialized solutions. A graph on a restricted/nonlocal state domain remains open.",
+        "evidence": [
+          "explorations/conditional-build/source-action-predictive-realization-2026-11-25.md",
+          "lab/process/source-action-predictive-realization.json"
+        ]
+      }
     },
     {
       "id": "O07",
@@ -898,7 +918,7 @@
         "NETWORK-10",
         "PHYSICS-05"
       ],
-      "status": "complete_local_order4_and_full_connection_block",
+      "status": "coupled_principal_response_regular_through_tested_null_cone",
       "scope": "candidate or explicitly declared structural diagnostic; not source-wide without bridge",
       "source_relevance": "conditional; use source-native carrier and registered premises",
       "evidence": [
@@ -908,7 +928,9 @@
         "explorations/conditional-build/source-action-physical-dynamics-2026-11-25.md",
         "lab/process/source-action-physical-dynamics.json",
         "explorations/conditional-build/source-action-offsection-metric-2026-11-25.md",
-        "lab/process/source-action-offsection-metric.json"
+        "lab/process/source-action-offsection-metric.json",
+        "explorations/conditional-build/source-action-predictive-realization-2026-11-25.md",
+        "lab/process/source-action-predictive-realization.json"
       ],
       "remaining_input": "Actual fibre/domain reduction, full lower mixed geometry blocks, and a justified full differential inverse if eliminating connection fluctuations.",
       "revisit_when": "Actual fibre/domain reduction, full lower mixed geometry blocks, and a justified full differential inverse if eliminating connection fluctuations.",
@@ -939,7 +961,15 @@
           "previous_disposition": "Metric order5 cancels; mixed order3 survives; complete Frechet order4 expression and two positive exact section trace-free coefficients are owned. Off-section derivative and fibre integration remain.",
           "superseding_evidence": "explorations/conditional-build/source-action-offsection-metric-2026-11-25.md"
         }
-      ]
+      ],
+      "predictive_realization_update": {
+        "prior_status": "complete_local_order4_and_full_connection_block",
+        "result": "Exact polynomial full-symbol response exists for all10 metric amplitudes in the quantified off-section family; no leading range/pole obstruction. Null/subprincipal hierarchy and physical reduction remain.",
+        "evidence": [
+          "explorations/conditional-build/source-action-predictive-realization-2026-11-25.md",
+          "lab/process/source-action-predictive-realization.json"
+        ]
+      }
     },
     {
       "id": "O16",
@@ -1225,6 +1255,8 @@
     "explorations/conditional-build/source-action-offsection-metric-2026-11-25.md",
     "lab/process/source-action-offsection-metric.json",
     "explorations/conditional-build/source-action-slice-completion-2026-11-25.md",
-    "lab/process/source-action-slice-completion.json"
+    "lab/process/source-action-slice-completion.json",
+    "explorations/conditional-build/source-action-predictive-realization-2026-11-25.md",
+    "lab/process/source-action-predictive-realization.json"
   ]
 }
