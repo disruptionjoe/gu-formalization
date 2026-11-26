@@ -1788,7 +1788,7 @@
     },
     "LB-CLASS": {
       "zero_delta_streak": 0,
-      "runs": 16,
+      "runs": 17,
       "status": "open"
     },
     "LB-LADDER": {
@@ -2707,7 +2707,7 @@
   ],
   "program_run_counter": {
     "since": "2026-11-09",
-    "count": 57,
+    "count": 58,
     "rule": "Every hourly run increments this in its postflight, whatever its lane. Lane C runs when count % 4 == 3 before the increment."
   },
   "working_rule": "Cells are worked at the structure level: a requirement must hold for every action in class C or for a structurally defined subfamily. No cell is worked by writing down a specific action, and no gated cell is worked by building its gate object. See CURRENT-STATE.yaml program_focus.structure_not_specifics.",
@@ -2983,6 +2983,21 @@
       "counter_after": 51,
       "lane": "LB-CLASS",
       "actual_delta": "Generic full-solution local bar-graph obstruction in the held59 coupling family, certified at both stationary roots; exact full-frozen closed nonlocal observation domain; polynomial coupled principal metric response through the tested null cone. No source/physical/class-C verdict."
+    },
+    {
+      "date": "2026-11-26",
+      "authority": "joe_direct_chat_2026_11_26_d",
+      "item": "PT/Mannheim applicability and physics-ledger frontier assessment",
+      "tier": "T3",
+      "counter_before": 57,
+      "counter_after": 58,
+      "lane": "LB-CLASS",
+      "actual_delta": "Exact59family reflection controls give an algebraic PT-like involution at both kappa1 roots; physical closed-domain spectrum, positive metric and coupled propagation remain undetermined. Primary-literature transfer and uncovered ledger candidates scoped; no scientific verdict or priority change.",
+      "evidence": [
+        "lab/active-research/joe-directed/external-results/pt-mannheim-applicability-2026-11-26.md",
+        "tests/program-focus/source_action_pt_reflection_probe.py"
+      ],
+      "claim_effect": "No scientific cell/intersection/shrinkage, choice, source/physics/canon or scheduled-priority change; pending ordinary LC retained."
     }
   ],
   "directed_lc_carry_2026_11_24_b": {

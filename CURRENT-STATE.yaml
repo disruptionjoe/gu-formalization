@@ -1,7 +1,7 @@
 schema_version: '1.0'
 repository: observerse-research-program
 branch: main
-revision_basis: f805f74a3cedb60ef2b5a99769a074ba4af7b010
+revision_basis: 9ee18cb633e86f6c02005853692c4c9f32506bdf
 program_focus:
   version: 2026-11-25-v1
   authority: joe_direct_chat_2026_11_25_five_process_improvements_approved
@@ -140,6 +140,24 @@ program_focus:
     covered; source relevance separately from mathematical breadth; shared prerequisite if any; remaining
     cost; strongest eligible alternative. A blocked high-value target is not an eligible alternative without
     its missing input. Reuse completed theorems and compare only their uncovered successors.'
+pt_mannheim_applicability_2026_11_26:
+  status: T3_algebra_and_literature_applicability_only
+  actual_delta: Exact59family reflection controls give an algebraic PT-like involution at both kappa1
+    roots; physical closed-domain spectrum, positive metric and coupled propagation remain undetermined.
+    Primary-literature transfer and uncovered ledger candidates scoped; no scientific verdict or priority
+    change.
+  evidence:
+  - lab/active-research/joe-directed/external-results/pt-mannheim-applicability-2026-11-26.md
+  - tests/program-focus/source_action_pt_reflection_probe.py
+  claim_effect: No source/physics/class-C/canon/paper or scientific matrix verdict. No real-spectrum,
+    positive-metric or physical-ghost claim.
+  continuation: Current-to-negative-energy receiver remains ready; PT domain/metric and full coupled symmetry
+    remain uncompleted. Normal-VEV classification, endpoint holonomy and deformation-protection tests
+    are ranked proposals, not a scheduled reprioritization.
+  choice_accounting: 10 grouped families/4 grouped bundles/bookkeepingnet6 unchanged; no new completion
+    or selected prediction.
+  counter_accounting: 57->58; LBCLASS16->17; T3 direct assessment; no bet or shrinkage credit; pending
+    ordinaryLC retained.
 source_action_steelman_datum_2026_11_26:
   status: internally_reviewed_T1_scoped_steelman_and_datum_matching
   actual_delta: Both certified kappa1 backgrounds fail the original flat Bott boundary by exact nonzero
