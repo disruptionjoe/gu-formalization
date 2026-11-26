@@ -203,3 +203,7 @@ replacement for `lake build` or targeted standalone Lean checks.
 ## Petrov probability finite core (2026-11-26)
 
 `GUFormalization/PetrovProbability.lean`: **LEAN-VERIFIED**, nine lemmas for weighted overlap double-counting, quarter/half bounds, variation discrepancy and exact quartic stabilizer substitutions. Targeted compilation passed without sorry. Properness, tightness, Petrov classification and the probability-limit theorem remain independently reviewed written mathematics. No source necessity or worldwide novelty is formalized. [Proof](../explorations/conditional-build/petrov-probability-selection-2026-11-26.md).
+
+## Normal tensor finite core (2026-11-26)
+
+`GUFormalization/NormalTensorClass.lean`: **LEAN-VERIFIED**, ten lemmas for incompatible coefficient conjugation laws, the injective factor10 contraction, ambient-pair zero and dimension arithmetic. Targeted compilation passed with no placeholders. Clifford completeness, Lie generation, fixed-versus-moving source scope and local constrained-response analysis remain independently reviewed written mathematics; no whole-project rebuild or physical certification. [Result](../explorations/conditional-build/source-normal-tensor-class-2026-11-26.md).

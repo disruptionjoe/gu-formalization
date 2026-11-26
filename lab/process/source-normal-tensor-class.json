@@ -1,0 +1,2319 @@
+{
+  "artifact": "source-normal-tensor-class-2026-11-26",
+  "date": "2026-11-26",
+  "authority": "joe_direct_chat_2026_11_26_continued_falsification_math20",
+  "basis_revision": "736d965e076a82608cc8f2d1ca2016612de4142c",
+  "status": "internally_reviewed_T1_optional_class_T2_local_response",
+  "actual_delta": "Complete normal tensor class: block symmetry68 real sharp-skew/32 with optionalC; fixed endogenous+weak symmetry4 real full-U/zero with optionalC, with exact observation kernels and ranks. Existing certificates realize smooth constrained-Q response; full-R jets reach a new spin4 source. No GU verdict.",
+  "claim_effect": "No source, canon, physics, classC, scientific cell or paper verdict change",
+  "choice_budget_delta": 0,
+  "exact_probe": {
+    "basis_revision": "736d965e076a82608cc8f2d1ca2016612de4142c",
+    "checks": [
+      {
+        "name": "exterior dimensions reconstruct full Clifford algebra",
+        "passed": true
+      },
+      {
+        "name": "full SM odd normal multiplicities",
+        "passed": true
+      },
+      {
+        "name": "full SM even invariant multiplicities",
+        "passed": true
+      },
+      {
+        "name": "even normal intertwiners exist but are parity excluded",
+        "passed": true
+      },
+      {
+        "name": "middle odd invariant is outside even target",
+        "passed": true
+      },
+      {
+        "name": "dual-degree character symmetry",
+        "passed": true
+      },
+      {
+        "name": "gamma-traceless multiplicities",
+        "passed": true
+      },
+      {
+        "name": "sharp and C real dimensions",
+        "passed": true
+      },
+      {
+        "name": "sharp real image and kernel dimensions",
+        "passed": true
+      },
+      {
+        "name": "C image and kernel dimensions",
+        "passed": true
+      },
+      {
+        "name": "hypercharge and oddness force nearest occupation steps",
+        "passed": true
+      },
+      {
+        "name": "actual signature split",
+        "passed": true
+      },
+      {
+        "name": "native vectors sharp selfadjoint",
+        "passed": true
+      },
+      {
+        "name": "native quaternionic anti-linear law",
+        "passed": true
+      },
+      {
+        "name": "volume squares and commuting factors",
+        "passed": true
+      },
+      {
+        "name": "four volume coefficients independent",
+        "passed": true
+      },
+      {
+        "name": "sharp flips horizontal chirality only",
+        "passed": true
+      },
+      {
+        "name": "C flips both chirality labels and preserves ambient",
+        "passed": true
+      },
+      {
+        "name": "four real tensors are sharp selfadjoint",
+        "passed": true
+      },
+      {
+        "name": "four real tensors C-even",
+        "passed": true
+      },
+      {
+        "name": "imaginary four tensors sharp skew and C-odd",
+        "passed": true
+      },
+      {
+        "name": "four tensors ambient odd",
+        "passed": true
+      },
+      {
+        "name": "normal contraction coefficient 0",
+        "passed": true
+      },
+      {
+        "name": "normal contraction coefficient 1",
+        "passed": true
+      },
+      {
+        "name": "normal contraction coefficient 2",
+        "passed": true
+      },
+      {
+        "name": "normal contraction coefficient 3",
+        "passed": true
+      },
+      {
+        "name": "all normal bivector equivariance equations",
+        "passed": true
+      },
+      {
+        "name": "horizontal scalar covariance",
+        "passed": true
+      },
+      {
+        "name": "joint volume projectors rank32 and complete",
+        "passed": true
+      },
+      {
+        "name": "joint eigenvalue (-1, -1, -1, -1, -1, -1)",
+        "passed": true
+      },
+      {
+        "name": "joint eigenvalue (-1, -1, -1, -1, -1, 1)",
+        "passed": true
+      },
+      {
+        "name": "joint eigenvalue (-1, -1, -1, -1, 1, -1)",
+        "passed": true
+      },
+      {
+        "name": "joint eigenvalue (-1, -1, -1, -1, 1, 1)",
+        "passed": true
+      },
+      {
+        "name": "opposite blocks paired (-1, -1, -1, -1)",
+        "passed": true
+      },
+      {
+        "name": "joint eigenvalue (-1, -1, -1, 0, -1, -1)",
+        "passed": true
+      },
+      {
+        "name": "joint eigenvalue (-1, -1, -1, 0, -1, 1)",
+        "passed": true
+      },
+      {
+        "name": "joint eigenvalue (-1, -1, -1, 0, 1, -1)",
+        "passed": true
+      },
+      {
+        "name": "joint eigenvalue (-1, -1, -1, 0, 1, 1)",
+        "passed": true
+      },
+      {
+        "name": "opposite blocks paired (-1, -1, -1, 0)",
+        "passed": true
+      },
+      {
+        "name": "joint eigenvalue (-1, -1, -1, 1, -1, -1)",
+        "passed": true
+      },
+      {
+        "name": "joint eigenvalue (-1, -1, -1, 1, -1, 1)",
+        "passed": true
+      },
+      {
+        "name": "joint eigenvalue (-1, -1, -1, 1, 1, -1)",
+        "passed": true
+      },
+      {
+        "name": "joint eigenvalue (-1, -1, -1, 1, 1, 1)",
+        "passed": true
+      },
+      {
+        "name": "opposite blocks paired (-1, -1, -1, 1)",
+        "passed": true
+      },
+      {
+        "name": "joint eigenvalue (-1, -1, 0, -1, -1, -1)",
+        "passed": true
+      },
+      {
+        "name": "joint eigenvalue (-1, -1, 0, -1, -1, 1)",
+        "passed": true
+      },
+      {
+        "name": "joint eigenvalue (-1, -1, 0, -1, 1, -1)",
+        "passed": true
+      },
+      {
+        "name": "joint eigenvalue (-1, -1, 0, -1, 1, 1)",
+        "passed": true
+      },
+      {
+        "name": "opposite blocks paired (-1, -1, 0, -1)",
+        "passed": true
+      },
+      {
+        "name": "joint eigenvalue (-1, -1, 0, 0, -1, -1)",
+        "passed": true
+      },
+      {
+        "name": "joint eigenvalue (-1, -1, 0, 0, -1, 1)",
+        "passed": true
+      },
+      {
+        "name": "joint eigenvalue (-1, -1, 0, 0, 1, -1)",
+        "passed": true
+      },
+      {
+        "name": "joint eigenvalue (-1, -1, 0, 0, 1, 1)",
+        "passed": true
+      },
+      {
+        "name": "opposite blocks paired (-1, -1, 0, 0)",
+        "passed": true
+      },
+      {
+        "name": "joint eigenvalue (-1, -1, 0, 1, -1, -1)",
+        "passed": true
+      },
+      {
+        "name": "joint eigenvalue (-1, -1, 0, 1, -1, 1)",
+        "passed": true
+      },
+      {
+        "name": "joint eigenvalue (-1, -1, 0, 1, 1, -1)",
+        "passed": true
+      },
+      {
+        "name": "joint eigenvalue (-1, -1, 0, 1, 1, 1)",
+        "passed": true
+      },
+      {
+        "name": "opposite blocks paired (-1, -1, 0, 1)",
+        "passed": true
+      },
+      {
+        "name": "joint eigenvalue (-1, -1, 1, -1, -1, -1)",
+        "passed": true
+      },
+      {
+        "name": "joint eigenvalue (-1, -1, 1, -1, -1, 1)",
+        "passed": true
+      },
+      {
+        "name": "joint eigenvalue (-1, -1, 1, -1, 1, -1)",
+        "passed": true
+      },
+      {
+        "name": "joint eigenvalue (-1, -1, 1, -1, 1, 1)",
+        "passed": true
+      },
+      {
+        "name": "opposite blocks paired (-1, -1, 1, -1)",
+        "passed": true
+      },
+      {
+        "name": "joint eigenvalue (-1, -1, 1, 0, -1, -1)",
+        "passed": true
+      },
+      {
+        "name": "joint eigenvalue (-1, -1, 1, 0, -1, 1)",
+        "passed": true
+      },
+      {
+        "name": "joint eigenvalue (-1, -1, 1, 0, 1, -1)",
+        "passed": true
+      },
+      {
+        "name": "joint eigenvalue (-1, -1, 1, 0, 1, 1)",
+        "passed": true
+      },
+      {
+        "name": "opposite blocks paired (-1, -1, 1, 0)",
+        "passed": true
+      },
+      {
+        "name": "joint eigenvalue (-1, -1, 1, 1, -1, -1)",
+        "passed": true
+      },
+      {
+        "name": "joint eigenvalue (-1, -1, 1, 1, -1, 1)",
+        "passed": true
+      },
+      {
+        "name": "joint eigenvalue (-1, -1, 1, 1, 1, -1)",
+        "passed": true
+      },
+      {
+        "name": "joint eigenvalue (-1, -1, 1, 1, 1, 1)",
+        "passed": true
+      },
+      {
+        "name": "opposite blocks paired (-1, -1, 1, 1)",
+        "passed": true
+      },
+      {
+        "name": "joint eigenvalue (-1, 0, -1, -1, -1, -1)",
+        "passed": true
+      },
+      {
+        "name": "joint eigenvalue (-1, 0, -1, -1, -1, 1)",
+        "passed": true
+      },
+      {
+        "name": "joint eigenvalue (-1, 0, -1, -1, 1, -1)",
+        "passed": true
+      },
+      {
+        "name": "joint eigenvalue (-1, 0, -1, -1, 1, 1)",
+        "passed": true
+      },
+      {
+        "name": "opposite blocks paired (-1, 0, -1, -1)",
+        "passed": true
+      },
+      {
+        "name": "joint eigenvalue (-1, 0, -1, 0, -1, -1)",
+        "passed": true
+      },
+      {
+        "name": "joint eigenvalue (-1, 0, -1, 0, -1, 1)",
+        "passed": true
+      },
+      {
+        "name": "joint eigenvalue (-1, 0, -1, 0, 1, -1)",
+        "passed": true
+      },
+      {
+        "name": "joint eigenvalue (-1, 0, -1, 0, 1, 1)",
+        "passed": true
+      },
+      {
+        "name": "opposite blocks paired (-1, 0, -1, 0)",
+        "passed": true
+      },
+      {
+        "name": "joint eigenvalue (-1, 0, -1, 1, -1, -1)",
+        "passed": true
+      },
+      {
+        "name": "joint eigenvalue (-1, 0, -1, 1, -1, 1)",
+        "passed": true
+      },
+      {
+        "name": "joint eigenvalue (-1, 0, -1, 1, 1, -1)",
+        "passed": true
+      },
+      {
+        "name": "joint eigenvalue (-1, 0, -1, 1, 1, 1)",
+        "passed": true
+      },
+      {
+        "name": "opposite blocks paired (-1, 0, -1, 1)",
+        "passed": true
+      },
+      {
+        "name": "joint eigenvalue (-1, 0, 0, -1, -1, -1)",
+        "passed": true
+      },
+      {
+        "name": "joint eigenvalue (-1, 0, 0, -1, -1, 1)",
+        "passed": true
+      },
+      {
+        "name": "joint eigenvalue (-1, 0, 0, -1, 1, -1)",
+        "passed": true
+      },
+      {
+        "name": "joint eigenvalue (-1, 0, 0, -1, 1, 1)",
+        "passed": true
+      },
+      {
+        "name": "opposite blocks paired (-1, 0, 0, -1)",
+        "passed": true
+      },
+      {
+        "name": "joint eigenvalue (-1, 0, 0, 0, -1, -1)",
+        "passed": true
+      },
+      {
+        "name": "joint eigenvalue (-1, 0, 0, 0, -1, 1)",
+        "passed": true
+      },
+      {
+        "name": "joint eigenvalue (-1, 0, 0, 0, 1, -1)",
+        "passed": true
+      },
+      {
+        "name": "joint eigenvalue (-1, 0, 0, 0, 1, 1)",
+        "passed": true
+      },
+      {
+        "name": "opposite blocks paired (-1, 0, 0, 0)",
+        "passed": true
+      },
+      {
+        "name": "joint eigenvalue (-1, 0, 0, 1, -1, -1)",
+        "passed": true
+      },
+      {
+        "name": "joint eigenvalue (-1, 0, 0, 1, -1, 1)",
+        "passed": true
+      },
+      {
+        "name": "joint eigenvalue (-1, 0, 0, 1, 1, -1)",
+        "passed": true
+      },
+      {
+        "name": "joint eigenvalue (-1, 0, 0, 1, 1, 1)",
+        "passed": true
+      },
+      {
+        "name": "opposite blocks paired (-1, 0, 0, 1)",
+        "passed": true
+      },
+      {
+        "name": "joint eigenvalue (-1, 0, 1, -1, -1, -1)",
+        "passed": true
+      },
+      {
+        "name": "joint eigenvalue (-1, 0, 1, -1, -1, 1)",
+        "passed": true
+      },
+      {
+        "name": "joint eigenvalue (-1, 0, 1, -1, 1, -1)",
+        "passed": true
+      },
+      {
+        "name": "joint eigenvalue (-1, 0, 1, -1, 1, 1)",
+        "passed": true
+      },
+      {
+        "name": "opposite blocks paired (-1, 0, 1, -1)",
+        "passed": true
+      },
+      {
+        "name": "joint eigenvalue (-1, 0, 1, 0, -1, -1)",
+        "passed": true
+      },
+      {
+        "name": "joint eigenvalue (-1, 0, 1, 0, -1, 1)",
+        "passed": true
+      },
+      {
+        "name": "joint eigenvalue (-1, 0, 1, 0, 1, -1)",
+        "passed": true
+      },
+      {
+        "name": "joint eigenvalue (-1, 0, 1, 0, 1, 1)",
+        "passed": true
+      },
+      {
+        "name": "opposite blocks paired (-1, 0, 1, 0)",
+        "passed": true
+      },
+      {
+        "name": "joint eigenvalue (-1, 0, 1, 1, -1, -1)",
+        "passed": true
+      },
+      {
+        "name": "joint eigenvalue (-1, 0, 1, 1, -1, 1)",
+        "passed": true
+      },
+      {
+        "name": "joint eigenvalue (-1, 0, 1, 1, 1, -1)",
+        "passed": true
+      },
+      {
+        "name": "joint eigenvalue (-1, 0, 1, 1, 1, 1)",
+        "passed": true
+      },
+      {
+        "name": "opposite blocks paired (-1, 0, 1, 1)",
+        "passed": true
+      },
+      {
+        "name": "joint eigenvalue (-1, 1, -1, -1, -1, -1)",
+        "passed": true
+      },
+      {
+        "name": "joint eigenvalue (-1, 1, -1, -1, -1, 1)",
+        "passed": true
+      },
+      {
+        "name": "joint eigenvalue (-1, 1, -1, -1, 1, -1)",
+        "passed": true
+      },
+      {
+        "name": "joint eigenvalue (-1, 1, -1, -1, 1, 1)",
+        "passed": true
+      },
+      {
+        "name": "opposite blocks paired (-1, 1, -1, -1)",
+        "passed": true
+      },
+      {
+        "name": "joint eigenvalue (-1, 1, -1, 0, -1, -1)",
+        "passed": true
+      },
+      {
+        "name": "joint eigenvalue (-1, 1, -1, 0, -1, 1)",
+        "passed": true
+      },
+      {
+        "name": "joint eigenvalue (-1, 1, -1, 0, 1, -1)",
+        "passed": true
+      },
+      {
+        "name": "joint eigenvalue (-1, 1, -1, 0, 1, 1)",
+        "passed": true
+      },
+      {
+        "name": "opposite blocks paired (-1, 1, -1, 0)",
+        "passed": true
+      },
+      {
+        "name": "joint eigenvalue (-1, 1, -1, 1, -1, -1)",
+        "passed": true
+      },
+      {
+        "name": "joint eigenvalue (-1, 1, -1, 1, -1, 1)",
+        "passed": true
+      },
+      {
+        "name": "joint eigenvalue (-1, 1, -1, 1, 1, -1)",
+        "passed": true
+      },
+      {
+        "name": "joint eigenvalue (-1, 1, -1, 1, 1, 1)",
+        "passed": true
+      },
+      {
+        "name": "opposite blocks paired (-1, 1, -1, 1)",
+        "passed": true
+      },
+      {
+        "name": "joint eigenvalue (-1, 1, 0, -1, -1, -1)",
+        "passed": true
+      },
+      {
+        "name": "joint eigenvalue (-1, 1, 0, -1, -1, 1)",
+        "passed": true
+      },
+      {
+        "name": "joint eigenvalue (-1, 1, 0, -1, 1, -1)",
+        "passed": true
+      },
+      {
+        "name": "joint eigenvalue (-1, 1, 0, -1, 1, 1)",
+        "passed": true
+      },
+      {
+        "name": "opposite blocks paired (-1, 1, 0, -1)",
+        "passed": true
+      },
+      {
+        "name": "joint eigenvalue (-1, 1, 0, 0, -1, -1)",
+        "passed": true
+      },
+      {
+        "name": "joint eigenvalue (-1, 1, 0, 0, -1, 1)",
+        "passed": true
+      },
+      {
+        "name": "joint eigenvalue (-1, 1, 0, 0, 1, -1)",
+        "passed": true
+      },
+      {
+        "name": "joint eigenvalue (-1, 1, 0, 0, 1, 1)",
+        "passed": true
+      },
+      {
+        "name": "opposite blocks paired (-1, 1, 0, 0)",
+        "passed": true
+      },
+      {
+        "name": "joint eigenvalue (-1, 1, 0, 1, -1, -1)",
+        "passed": true
+      },
+      {
+        "name": "joint eigenvalue (-1, 1, 0, 1, -1, 1)",
+        "passed": true
+      },
+      {
+        "name": "joint eigenvalue (-1, 1, 0, 1, 1, -1)",
+        "passed": true
+      },
+      {
+        "name": "joint eigenvalue (-1, 1, 0, 1, 1, 1)",
+        "passed": true
+      },
+      {
+        "name": "opposite blocks paired (-1, 1, 0, 1)",
+        "passed": true
+      },
+      {
+        "name": "joint eigenvalue (-1, 1, 1, -1, -1, -1)",
+        "passed": true
+      },
+      {
+        "name": "joint eigenvalue (-1, 1, 1, -1, -1, 1)",
+        "passed": true
+      },
+      {
+        "name": "joint eigenvalue (-1, 1, 1, -1, 1, -1)",
+        "passed": true
+      },
+      {
+        "name": "joint eigenvalue (-1, 1, 1, -1, 1, 1)",
+        "passed": true
+      },
+      {
+        "name": "opposite blocks paired (-1, 1, 1, -1)",
+        "passed": true
+      },
+      {
+        "name": "joint eigenvalue (-1, 1, 1, 0, -1, -1)",
+        "passed": true
+      },
+      {
+        "name": "joint eigenvalue (-1, 1, 1, 0, -1, 1)",
+        "passed": true
+      },
+      {
+        "name": "joint eigenvalue (-1, 1, 1, 0, 1, -1)",
+        "passed": true
+      },
+      {
+        "name": "joint eigenvalue (-1, 1, 1, 0, 1, 1)",
+        "passed": true
+      },
+      {
+        "name": "opposite blocks paired (-1, 1, 1, 0)",
+        "passed": true
+      },
+      {
+        "name": "joint eigenvalue (-1, 1, 1, 1, -1, -1)",
+        "passed": true
+      },
+      {
+        "name": "joint eigenvalue (-1, 1, 1, 1, -1, 1)",
+        "passed": true
+      },
+      {
+        "name": "joint eigenvalue (-1, 1, 1, 1, 1, -1)",
+        "passed": true
+      },
+      {
+        "name": "joint eigenvalue (-1, 1, 1, 1, 1, 1)",
+        "passed": true
+      },
+      {
+        "name": "opposite blocks paired (-1, 1, 1, 1)",
+        "passed": true
+      },
+      {
+        "name": "joint eigenvalue (0, -1, -1, -1, -1, -1)",
+        "passed": true
+      },
+      {
+        "name": "joint eigenvalue (0, -1, -1, -1, -1, 1)",
+        "passed": true
+      },
+      {
+        "name": "joint eigenvalue (0, -1, -1, -1, 1, -1)",
+        "passed": true
+      },
+      {
+        "name": "joint eigenvalue (0, -1, -1, -1, 1, 1)",
+        "passed": true
+      },
+      {
+        "name": "opposite blocks paired (0, -1, -1, -1)",
+        "passed": true
+      },
+      {
+        "name": "joint eigenvalue (0, -1, -1, 0, -1, -1)",
+        "passed": true
+      },
+      {
+        "name": "joint eigenvalue (0, -1, -1, 0, -1, 1)",
+        "passed": true
+      },
+      {
+        "name": "joint eigenvalue (0, -1, -1, 0, 1, -1)",
+        "passed": true
+      },
+      {
+        "name": "joint eigenvalue (0, -1, -1, 0, 1, 1)",
+        "passed": true
+      },
+      {
+        "name": "opposite blocks paired (0, -1, -1, 0)",
+        "passed": true
+      },
+      {
+        "name": "joint eigenvalue (0, -1, -1, 1, -1, -1)",
+        "passed": true
+      },
+      {
+        "name": "joint eigenvalue (0, -1, -1, 1, -1, 1)",
+        "passed": true
+      },
+      {
+        "name": "joint eigenvalue (0, -1, -1, 1, 1, -1)",
+        "passed": true
+      },
+      {
+        "name": "joint eigenvalue (0, -1, -1, 1, 1, 1)",
+        "passed": true
+      },
+      {
+        "name": "opposite blocks paired (0, -1, -1, 1)",
+        "passed": true
+      },
+      {
+        "name": "joint eigenvalue (0, -1, 0, -1, -1, -1)",
+        "passed": true
+      },
+      {
+        "name": "joint eigenvalue (0, -1, 0, -1, -1, 1)",
+        "passed": true
+      },
+      {
+        "name": "joint eigenvalue (0, -1, 0, -1, 1, -1)",
+        "passed": true
+      },
+      {
+        "name": "joint eigenvalue (0, -1, 0, -1, 1, 1)",
+        "passed": true
+      },
+      {
+        "name": "opposite blocks paired (0, -1, 0, -1)",
+        "passed": true
+      },
+      {
+        "name": "joint eigenvalue (0, -1, 0, 0, -1, -1)",
+        "passed": true
+      },
+      {
+        "name": "joint eigenvalue (0, -1, 0, 0, -1, 1)",
+        "passed": true
+      },
+      {
+        "name": "joint eigenvalue (0, -1, 0, 0, 1, -1)",
+        "passed": true
+      },
+      {
+        "name": "joint eigenvalue (0, -1, 0, 0, 1, 1)",
+        "passed": true
+      },
+      {
+        "name": "opposite blocks paired (0, -1, 0, 0)",
+        "passed": true
+      },
+      {
+        "name": "joint eigenvalue (0, -1, 0, 1, -1, -1)",
+        "passed": true
+      },
+      {
+        "name": "joint eigenvalue (0, -1, 0, 1, -1, 1)",
+        "passed": true
+      },
+      {
+        "name": "joint eigenvalue (0, -1, 0, 1, 1, -1)",
+        "passed": true
+      },
+      {
+        "name": "joint eigenvalue (0, -1, 0, 1, 1, 1)",
+        "passed": true
+      },
+      {
+        "name": "opposite blocks paired (0, -1, 0, 1)",
+        "passed": true
+      },
+      {
+        "name": "joint eigenvalue (0, -1, 1, -1, -1, -1)",
+        "passed": true
+      },
+      {
+        "name": "joint eigenvalue (0, -1, 1, -1, -1, 1)",
+        "passed": true
+      },
+      {
+        "name": "joint eigenvalue (0, -1, 1, -1, 1, -1)",
+        "passed": true
+      },
+      {
+        "name": "joint eigenvalue (0, -1, 1, -1, 1, 1)",
+        "passed": true
+      },
+      {
+        "name": "opposite blocks paired (0, -1, 1, -1)",
+        "passed": true
+      },
+      {
+        "name": "joint eigenvalue (0, -1, 1, 0, -1, -1)",
+        "passed": true
+      },
+      {
+        "name": "joint eigenvalue (0, -1, 1, 0, -1, 1)",
+        "passed": true
+      },
+      {
+        "name": "joint eigenvalue (0, -1, 1, 0, 1, -1)",
+        "passed": true
+      },
+      {
+        "name": "joint eigenvalue (0, -1, 1, 0, 1, 1)",
+        "passed": true
+      },
+      {
+        "name": "opposite blocks paired (0, -1, 1, 0)",
+        "passed": true
+      },
+      {
+        "name": "joint eigenvalue (0, -1, 1, 1, -1, -1)",
+        "passed": true
+      },
+      {
+        "name": "joint eigenvalue (0, -1, 1, 1, -1, 1)",
+        "passed": true
+      },
+      {
+        "name": "joint eigenvalue (0, -1, 1, 1, 1, -1)",
+        "passed": true
+      },
+      {
+        "name": "joint eigenvalue (0, -1, 1, 1, 1, 1)",
+        "passed": true
+      },
+      {
+        "name": "opposite blocks paired (0, -1, 1, 1)",
+        "passed": true
+      },
+      {
+        "name": "joint eigenvalue (0, 0, -1, -1, -1, -1)",
+        "passed": true
+      },
+      {
+        "name": "joint eigenvalue (0, 0, -1, -1, -1, 1)",
+        "passed": true
+      },
+      {
+        "name": "joint eigenvalue (0, 0, -1, -1, 1, -1)",
+        "passed": true
+      },
+      {
+        "name": "joint eigenvalue (0, 0, -1, -1, 1, 1)",
+        "passed": true
+      },
+      {
+        "name": "opposite blocks paired (0, 0, -1, -1)",
+        "passed": true
+      },
+      {
+        "name": "joint eigenvalue (0, 0, -1, 0, -1, -1)",
+        "passed": true
+      },
+      {
+        "name": "joint eigenvalue (0, 0, -1, 0, -1, 1)",
+        "passed": true
+      },
+      {
+        "name": "joint eigenvalue (0, 0, -1, 0, 1, -1)",
+        "passed": true
+      },
+      {
+        "name": "joint eigenvalue (0, 0, -1, 0, 1, 1)",
+        "passed": true
+      },
+      {
+        "name": "opposite blocks paired (0, 0, -1, 0)",
+        "passed": true
+      },
+      {
+        "name": "joint eigenvalue (0, 0, -1, 1, -1, -1)",
+        "passed": true
+      },
+      {
+        "name": "joint eigenvalue (0, 0, -1, 1, -1, 1)",
+        "passed": true
+      },
+      {
+        "name": "joint eigenvalue (0, 0, -1, 1, 1, -1)",
+        "passed": true
+      },
+      {
+        "name": "joint eigenvalue (0, 0, -1, 1, 1, 1)",
+        "passed": true
+      },
+      {
+        "name": "opposite blocks paired (0, 0, -1, 1)",
+        "passed": true
+      },
+      {
+        "name": "joint eigenvalue (0, 0, 0, -1, -1, -1)",
+        "passed": true
+      },
+      {
+        "name": "joint eigenvalue (0, 0, 0, -1, -1, 1)",
+        "passed": true
+      },
+      {
+        "name": "joint eigenvalue (0, 0, 0, -1, 1, -1)",
+        "passed": true
+      },
+      {
+        "name": "joint eigenvalue (0, 0, 0, -1, 1, 1)",
+        "passed": true
+      },
+      {
+        "name": "opposite blocks paired (0, 0, 0, -1)",
+        "passed": true
+      },
+      {
+        "name": "joint eigenvalue (0, 0, 0, 0, -1, -1)",
+        "passed": true
+      },
+      {
+        "name": "joint eigenvalue (0, 0, 0, 0, -1, 1)",
+        "passed": true
+      },
+      {
+        "name": "joint eigenvalue (0, 0, 0, 0, 1, -1)",
+        "passed": true
+      },
+      {
+        "name": "joint eigenvalue (0, 0, 0, 0, 1, 1)",
+        "passed": true
+      },
+      {
+        "name": "opposite blocks paired (0, 0, 0, 0)",
+        "passed": true
+      },
+      {
+        "name": "joint eigenvalue (0, 0, 0, 1, -1, -1)",
+        "passed": true
+      },
+      {
+        "name": "joint eigenvalue (0, 0, 0, 1, -1, 1)",
+        "passed": true
+      },
+      {
+        "name": "joint eigenvalue (0, 0, 0, 1, 1, -1)",
+        "passed": true
+      },
+      {
+        "name": "joint eigenvalue (0, 0, 0, 1, 1, 1)",
+        "passed": true
+      },
+      {
+        "name": "opposite blocks paired (0, 0, 0, 1)",
+        "passed": true
+      },
+      {
+        "name": "joint eigenvalue (0, 0, 1, -1, -1, -1)",
+        "passed": true
+      },
+      {
+        "name": "joint eigenvalue (0, 0, 1, -1, -1, 1)",
+        "passed": true
+      },
+      {
+        "name": "joint eigenvalue (0, 0, 1, -1, 1, -1)",
+        "passed": true
+      },
+      {
+        "name": "joint eigenvalue (0, 0, 1, -1, 1, 1)",
+        "passed": true
+      },
+      {
+        "name": "opposite blocks paired (0, 0, 1, -1)",
+        "passed": true
+      },
+      {
+        "name": "joint eigenvalue (0, 0, 1, 0, -1, -1)",
+        "passed": true
+      },
+      {
+        "name": "joint eigenvalue (0, 0, 1, 0, -1, 1)",
+        "passed": true
+      },
+      {
+        "name": "joint eigenvalue (0, 0, 1, 0, 1, -1)",
+        "passed": true
+      },
+      {
+        "name": "joint eigenvalue (0, 0, 1, 0, 1, 1)",
+        "passed": true
+      },
+      {
+        "name": "opposite blocks paired (0, 0, 1, 0)",
+        "passed": true
+      },
+      {
+        "name": "joint eigenvalue (0, 0, 1, 1, -1, -1)",
+        "passed": true
+      },
+      {
+        "name": "joint eigenvalue (0, 0, 1, 1, -1, 1)",
+        "passed": true
+      },
+      {
+        "name": "joint eigenvalue (0, 0, 1, 1, 1, -1)",
+        "passed": true
+      },
+      {
+        "name": "joint eigenvalue (0, 0, 1, 1, 1, 1)",
+        "passed": true
+      },
+      {
+        "name": "opposite blocks paired (0, 0, 1, 1)",
+        "passed": true
+      },
+      {
+        "name": "joint eigenvalue (0, 1, -1, -1, -1, -1)",
+        "passed": true
+      },
+      {
+        "name": "joint eigenvalue (0, 1, -1, -1, -1, 1)",
+        "passed": true
+      },
+      {
+        "name": "joint eigenvalue (0, 1, -1, -1, 1, -1)",
+        "passed": true
+      },
+      {
+        "name": "joint eigenvalue (0, 1, -1, -1, 1, 1)",
+        "passed": true
+      },
+      {
+        "name": "opposite blocks paired (0, 1, -1, -1)",
+        "passed": true
+      },
+      {
+        "name": "joint eigenvalue (0, 1, -1, 0, -1, -1)",
+        "passed": true
+      },
+      {
+        "name": "joint eigenvalue (0, 1, -1, 0, -1, 1)",
+        "passed": true
+      },
+      {
+        "name": "joint eigenvalue (0, 1, -1, 0, 1, -1)",
+        "passed": true
+      },
+      {
+        "name": "joint eigenvalue (0, 1, -1, 0, 1, 1)",
+        "passed": true
+      },
+      {
+        "name": "opposite blocks paired (0, 1, -1, 0)",
+        "passed": true
+      },
+      {
+        "name": "joint eigenvalue (0, 1, -1, 1, -1, -1)",
+        "passed": true
+      },
+      {
+        "name": "joint eigenvalue (0, 1, -1, 1, -1, 1)",
+        "passed": true
+      },
+      {
+        "name": "joint eigenvalue (0, 1, -1, 1, 1, -1)",
+        "passed": true
+      },
+      {
+        "name": "joint eigenvalue (0, 1, -1, 1, 1, 1)",
+        "passed": true
+      },
+      {
+        "name": "opposite blocks paired (0, 1, -1, 1)",
+        "passed": true
+      },
+      {
+        "name": "joint eigenvalue (0, 1, 0, -1, -1, -1)",
+        "passed": true
+      },
+      {
+        "name": "joint eigenvalue (0, 1, 0, -1, -1, 1)",
+        "passed": true
+      },
+      {
+        "name": "joint eigenvalue (0, 1, 0, -1, 1, -1)",
+        "passed": true
+      },
+      {
+        "name": "joint eigenvalue (0, 1, 0, -1, 1, 1)",
+        "passed": true
+      },
+      {
+        "name": "opposite blocks paired (0, 1, 0, -1)",
+        "passed": true
+      },
+      {
+        "name": "joint eigenvalue (0, 1, 0, 0, -1, -1)",
+        "passed": true
+      },
+      {
+        "name": "joint eigenvalue (0, 1, 0, 0, -1, 1)",
+        "passed": true
+      },
+      {
+        "name": "joint eigenvalue (0, 1, 0, 0, 1, -1)",
+        "passed": true
+      },
+      {
+        "name": "joint eigenvalue (0, 1, 0, 0, 1, 1)",
+        "passed": true
+      },
+      {
+        "name": "opposite blocks paired (0, 1, 0, 0)",
+        "passed": true
+      },
+      {
+        "name": "joint eigenvalue (0, 1, 0, 1, -1, -1)",
+        "passed": true
+      },
+      {
+        "name": "joint eigenvalue (0, 1, 0, 1, -1, 1)",
+        "passed": true
+      },
+      {
+        "name": "joint eigenvalue (0, 1, 0, 1, 1, -1)",
+        "passed": true
+      },
+      {
+        "name": "joint eigenvalue (0, 1, 0, 1, 1, 1)",
+        "passed": true
+      },
+      {
+        "name": "opposite blocks paired (0, 1, 0, 1)",
+        "passed": true
+      },
+      {
+        "name": "joint eigenvalue (0, 1, 1, -1, -1, -1)",
+        "passed": true
+      },
+      {
+        "name": "joint eigenvalue (0, 1, 1, -1, -1, 1)",
+        "passed": true
+      },
+      {
+        "name": "joint eigenvalue (0, 1, 1, -1, 1, -1)",
+        "passed": true
+      },
+      {
+        "name": "joint eigenvalue (0, 1, 1, -1, 1, 1)",
+        "passed": true
+      },
+      {
+        "name": "opposite blocks paired (0, 1, 1, -1)",
+        "passed": true
+      },
+      {
+        "name": "joint eigenvalue (0, 1, 1, 0, -1, -1)",
+        "passed": true
+      },
+      {
+        "name": "joint eigenvalue (0, 1, 1, 0, -1, 1)",
+        "passed": true
+      },
+      {
+        "name": "joint eigenvalue (0, 1, 1, 0, 1, -1)",
+        "passed": true
+      },
+      {
+        "name": "joint eigenvalue (0, 1, 1, 0, 1, 1)",
+        "passed": true
+      },
+      {
+        "name": "opposite blocks paired (0, 1, 1, 0)",
+        "passed": true
+      },
+      {
+        "name": "joint eigenvalue (0, 1, 1, 1, -1, -1)",
+        "passed": true
+      },
+      {
+        "name": "joint eigenvalue (0, 1, 1, 1, -1, 1)",
+        "passed": true
+      },
+      {
+        "name": "joint eigenvalue (0, 1, 1, 1, 1, -1)",
+        "passed": true
+      },
+      {
+        "name": "joint eigenvalue (0, 1, 1, 1, 1, 1)",
+        "passed": true
+      },
+      {
+        "name": "opposite blocks paired (0, 1, 1, 1)",
+        "passed": true
+      },
+      {
+        "name": "joint eigenvalue (1, -1, -1, -1, -1, -1)",
+        "passed": true
+      },
+      {
+        "name": "joint eigenvalue (1, -1, -1, -1, -1, 1)",
+        "passed": true
+      },
+      {
+        "name": "joint eigenvalue (1, -1, -1, -1, 1, -1)",
+        "passed": true
+      },
+      {
+        "name": "joint eigenvalue (1, -1, -1, -1, 1, 1)",
+        "passed": true
+      },
+      {
+        "name": "opposite blocks paired (1, -1, -1, -1)",
+        "passed": true
+      },
+      {
+        "name": "joint eigenvalue (1, -1, -1, 0, -1, -1)",
+        "passed": true
+      },
+      {
+        "name": "joint eigenvalue (1, -1, -1, 0, -1, 1)",
+        "passed": true
+      },
+      {
+        "name": "joint eigenvalue (1, -1, -1, 0, 1, -1)",
+        "passed": true
+      },
+      {
+        "name": "joint eigenvalue (1, -1, -1, 0, 1, 1)",
+        "passed": true
+      },
+      {
+        "name": "opposite blocks paired (1, -1, -1, 0)",
+        "passed": true
+      },
+      {
+        "name": "joint eigenvalue (1, -1, -1, 1, -1, -1)",
+        "passed": true
+      },
+      {
+        "name": "joint eigenvalue (1, -1, -1, 1, -1, 1)",
+        "passed": true
+      },
+      {
+        "name": "joint eigenvalue (1, -1, -1, 1, 1, -1)",
+        "passed": true
+      },
+      {
+        "name": "joint eigenvalue (1, -1, -1, 1, 1, 1)",
+        "passed": true
+      },
+      {
+        "name": "opposite blocks paired (1, -1, -1, 1)",
+        "passed": true
+      },
+      {
+        "name": "joint eigenvalue (1, -1, 0, -1, -1, -1)",
+        "passed": true
+      },
+      {
+        "name": "joint eigenvalue (1, -1, 0, -1, -1, 1)",
+        "passed": true
+      },
+      {
+        "name": "joint eigenvalue (1, -1, 0, -1, 1, -1)",
+        "passed": true
+      },
+      {
+        "name": "joint eigenvalue (1, -1, 0, -1, 1, 1)",
+        "passed": true
+      },
+      {
+        "name": "opposite blocks paired (1, -1, 0, -1)",
+        "passed": true
+      },
+      {
+        "name": "joint eigenvalue (1, -1, 0, 0, -1, -1)",
+        "passed": true
+      },
+      {
+        "name": "joint eigenvalue (1, -1, 0, 0, -1, 1)",
+        "passed": true
+      },
+      {
+        "name": "joint eigenvalue (1, -1, 0, 0, 1, -1)",
+        "passed": true
+      },
+      {
+        "name": "joint eigenvalue (1, -1, 0, 0, 1, 1)",
+        "passed": true
+      },
+      {
+        "name": "opposite blocks paired (1, -1, 0, 0)",
+        "passed": true
+      },
+      {
+        "name": "joint eigenvalue (1, -1, 0, 1, -1, -1)",
+        "passed": true
+      },
+      {
+        "name": "joint eigenvalue (1, -1, 0, 1, -1, 1)",
+        "passed": true
+      },
+      {
+        "name": "joint eigenvalue (1, -1, 0, 1, 1, -1)",
+        "passed": true
+      },
+      {
+        "name": "joint eigenvalue (1, -1, 0, 1, 1, 1)",
+        "passed": true
+      },
+      {
+        "name": "opposite blocks paired (1, -1, 0, 1)",
+        "passed": true
+      },
+      {
+        "name": "joint eigenvalue (1, -1, 1, -1, -1, -1)",
+        "passed": true
+      },
+      {
+        "name": "joint eigenvalue (1, -1, 1, -1, -1, 1)",
+        "passed": true
+      },
+      {
+        "name": "joint eigenvalue (1, -1, 1, -1, 1, -1)",
+        "passed": true
+      },
+      {
+        "name": "joint eigenvalue (1, -1, 1, -1, 1, 1)",
+        "passed": true
+      },
+      {
+        "name": "opposite blocks paired (1, -1, 1, -1)",
+        "passed": true
+      },
+      {
+        "name": "joint eigenvalue (1, -1, 1, 0, -1, -1)",
+        "passed": true
+      },
+      {
+        "name": "joint eigenvalue (1, -1, 1, 0, -1, 1)",
+        "passed": true
+      },
+      {
+        "name": "joint eigenvalue (1, -1, 1, 0, 1, -1)",
+        "passed": true
+      },
+      {
+        "name": "joint eigenvalue (1, -1, 1, 0, 1, 1)",
+        "passed": true
+      },
+      {
+        "name": "opposite blocks paired (1, -1, 1, 0)",
+        "passed": true
+      },
+      {
+        "name": "joint eigenvalue (1, -1, 1, 1, -1, -1)",
+        "passed": true
+      },
+      {
+        "name": "joint eigenvalue (1, -1, 1, 1, -1, 1)",
+        "passed": true
+      },
+      {
+        "name": "joint eigenvalue (1, -1, 1, 1, 1, -1)",
+        "passed": true
+      },
+      {
+        "name": "joint eigenvalue (1, -1, 1, 1, 1, 1)",
+        "passed": true
+      },
+      {
+        "name": "opposite blocks paired (1, -1, 1, 1)",
+        "passed": true
+      },
+      {
+        "name": "joint eigenvalue (1, 0, -1, -1, -1, -1)",
+        "passed": true
+      },
+      {
+        "name": "joint eigenvalue (1, 0, -1, -1, -1, 1)",
+        "passed": true
+      },
+      {
+        "name": "joint eigenvalue (1, 0, -1, -1, 1, -1)",
+        "passed": true
+      },
+      {
+        "name": "joint eigenvalue (1, 0, -1, -1, 1, 1)",
+        "passed": true
+      },
+      {
+        "name": "opposite blocks paired (1, 0, -1, -1)",
+        "passed": true
+      },
+      {
+        "name": "joint eigenvalue (1, 0, -1, 0, -1, -1)",
+        "passed": true
+      },
+      {
+        "name": "joint eigenvalue (1, 0, -1, 0, -1, 1)",
+        "passed": true
+      },
+      {
+        "name": "joint eigenvalue (1, 0, -1, 0, 1, -1)",
+        "passed": true
+      },
+      {
+        "name": "joint eigenvalue (1, 0, -1, 0, 1, 1)",
+        "passed": true
+      },
+      {
+        "name": "opposite blocks paired (1, 0, -1, 0)",
+        "passed": true
+      },
+      {
+        "name": "joint eigenvalue (1, 0, -1, 1, -1, -1)",
+        "passed": true
+      },
+      {
+        "name": "joint eigenvalue (1, 0, -1, 1, -1, 1)",
+        "passed": true
+      },
+      {
+        "name": "joint eigenvalue (1, 0, -1, 1, 1, -1)",
+        "passed": true
+      },
+      {
+        "name": "joint eigenvalue (1, 0, -1, 1, 1, 1)",
+        "passed": true
+      },
+      {
+        "name": "opposite blocks paired (1, 0, -1, 1)",
+        "passed": true
+      },
+      {
+        "name": "joint eigenvalue (1, 0, 0, -1, -1, -1)",
+        "passed": true
+      },
+      {
+        "name": "joint eigenvalue (1, 0, 0, -1, -1, 1)",
+        "passed": true
+      },
+      {
+        "name": "joint eigenvalue (1, 0, 0, -1, 1, -1)",
+        "passed": true
+      },
+      {
+        "name": "joint eigenvalue (1, 0, 0, -1, 1, 1)",
+        "passed": true
+      },
+      {
+        "name": "opposite blocks paired (1, 0, 0, -1)",
+        "passed": true
+      },
+      {
+        "name": "joint eigenvalue (1, 0, 0, 0, -1, -1)",
+        "passed": true
+      },
+      {
+        "name": "joint eigenvalue (1, 0, 0, 0, -1, 1)",
+        "passed": true
+      },
+      {
+        "name": "joint eigenvalue (1, 0, 0, 0, 1, -1)",
+        "passed": true
+      },
+      {
+        "name": "joint eigenvalue (1, 0, 0, 0, 1, 1)",
+        "passed": true
+      },
+      {
+        "name": "opposite blocks paired (1, 0, 0, 0)",
+        "passed": true
+      },
+      {
+        "name": "joint eigenvalue (1, 0, 0, 1, -1, -1)",
+        "passed": true
+      },
+      {
+        "name": "joint eigenvalue (1, 0, 0, 1, -1, 1)",
+        "passed": true
+      },
+      {
+        "name": "joint eigenvalue (1, 0, 0, 1, 1, -1)",
+        "passed": true
+      },
+      {
+        "name": "joint eigenvalue (1, 0, 0, 1, 1, 1)",
+        "passed": true
+      },
+      {
+        "name": "opposite blocks paired (1, 0, 0, 1)",
+        "passed": true
+      },
+      {
+        "name": "joint eigenvalue (1, 0, 1, -1, -1, -1)",
+        "passed": true
+      },
+      {
+        "name": "joint eigenvalue (1, 0, 1, -1, -1, 1)",
+        "passed": true
+      },
+      {
+        "name": "joint eigenvalue (1, 0, 1, -1, 1, -1)",
+        "passed": true
+      },
+      {
+        "name": "joint eigenvalue (1, 0, 1, -1, 1, 1)",
+        "passed": true
+      },
+      {
+        "name": "opposite blocks paired (1, 0, 1, -1)",
+        "passed": true
+      },
+      {
+        "name": "joint eigenvalue (1, 0, 1, 0, -1, -1)",
+        "passed": true
+      },
+      {
+        "name": "joint eigenvalue (1, 0, 1, 0, -1, 1)",
+        "passed": true
+      },
+      {
+        "name": "joint eigenvalue (1, 0, 1, 0, 1, -1)",
+        "passed": true
+      },
+      {
+        "name": "joint eigenvalue (1, 0, 1, 0, 1, 1)",
+        "passed": true
+      },
+      {
+        "name": "opposite blocks paired (1, 0, 1, 0)",
+        "passed": true
+      },
+      {
+        "name": "joint eigenvalue (1, 0, 1, 1, -1, -1)",
+        "passed": true
+      },
+      {
+        "name": "joint eigenvalue (1, 0, 1, 1, -1, 1)",
+        "passed": true
+      },
+      {
+        "name": "joint eigenvalue (1, 0, 1, 1, 1, -1)",
+        "passed": true
+      },
+      {
+        "name": "joint eigenvalue (1, 0, 1, 1, 1, 1)",
+        "passed": true
+      },
+      {
+        "name": "opposite blocks paired (1, 0, 1, 1)",
+        "passed": true
+      },
+      {
+        "name": "joint eigenvalue (1, 1, -1, -1, -1, -1)",
+        "passed": true
+      },
+      {
+        "name": "joint eigenvalue (1, 1, -1, -1, -1, 1)",
+        "passed": true
+      },
+      {
+        "name": "joint eigenvalue (1, 1, -1, -1, 1, -1)",
+        "passed": true
+      },
+      {
+        "name": "joint eigenvalue (1, 1, -1, -1, 1, 1)",
+        "passed": true
+      },
+      {
+        "name": "opposite blocks paired (1, 1, -1, -1)",
+        "passed": true
+      },
+      {
+        "name": "joint eigenvalue (1, 1, -1, 0, -1, -1)",
+        "passed": true
+      },
+      {
+        "name": "joint eigenvalue (1, 1, -1, 0, -1, 1)",
+        "passed": true
+      },
+      {
+        "name": "joint eigenvalue (1, 1, -1, 0, 1, -1)",
+        "passed": true
+      },
+      {
+        "name": "joint eigenvalue (1, 1, -1, 0, 1, 1)",
+        "passed": true
+      },
+      {
+        "name": "opposite blocks paired (1, 1, -1, 0)",
+        "passed": true
+      },
+      {
+        "name": "joint eigenvalue (1, 1, -1, 1, -1, -1)",
+        "passed": true
+      },
+      {
+        "name": "joint eigenvalue (1, 1, -1, 1, -1, 1)",
+        "passed": true
+      },
+      {
+        "name": "joint eigenvalue (1, 1, -1, 1, 1, -1)",
+        "passed": true
+      },
+      {
+        "name": "joint eigenvalue (1, 1, -1, 1, 1, 1)",
+        "passed": true
+      },
+      {
+        "name": "opposite blocks paired (1, 1, -1, 1)",
+        "passed": true
+      },
+      {
+        "name": "joint eigenvalue (1, 1, 0, -1, -1, -1)",
+        "passed": true
+      },
+      {
+        "name": "joint eigenvalue (1, 1, 0, -1, -1, 1)",
+        "passed": true
+      },
+      {
+        "name": "joint eigenvalue (1, 1, 0, -1, 1, -1)",
+        "passed": true
+      },
+      {
+        "name": "joint eigenvalue (1, 1, 0, -1, 1, 1)",
+        "passed": true
+      },
+      {
+        "name": "opposite blocks paired (1, 1, 0, -1)",
+        "passed": true
+      },
+      {
+        "name": "joint eigenvalue (1, 1, 0, 0, -1, -1)",
+        "passed": true
+      },
+      {
+        "name": "joint eigenvalue (1, 1, 0, 0, -1, 1)",
+        "passed": true
+      },
+      {
+        "name": "joint eigenvalue (1, 1, 0, 0, 1, -1)",
+        "passed": true
+      },
+      {
+        "name": "joint eigenvalue (1, 1, 0, 0, 1, 1)",
+        "passed": true
+      },
+      {
+        "name": "opposite blocks paired (1, 1, 0, 0)",
+        "passed": true
+      },
+      {
+        "name": "joint eigenvalue (1, 1, 0, 1, -1, -1)",
+        "passed": true
+      },
+      {
+        "name": "joint eigenvalue (1, 1, 0, 1, -1, 1)",
+        "passed": true
+      },
+      {
+        "name": "joint eigenvalue (1, 1, 0, 1, 1, -1)",
+        "passed": true
+      },
+      {
+        "name": "joint eigenvalue (1, 1, 0, 1, 1, 1)",
+        "passed": true
+      },
+      {
+        "name": "opposite blocks paired (1, 1, 0, 1)",
+        "passed": true
+      },
+      {
+        "name": "joint eigenvalue (1, 1, 1, -1, -1, -1)",
+        "passed": true
+      },
+      {
+        "name": "joint eigenvalue (1, 1, 1, -1, -1, 1)",
+        "passed": true
+      },
+      {
+        "name": "joint eigenvalue (1, 1, 1, -1, 1, -1)",
+        "passed": true
+      },
+      {
+        "name": "joint eigenvalue (1, 1, 1, -1, 1, 1)",
+        "passed": true
+      },
+      {
+        "name": "opposite blocks paired (1, 1, 1, -1)",
+        "passed": true
+      },
+      {
+        "name": "joint eigenvalue (1, 1, 1, 0, -1, -1)",
+        "passed": true
+      },
+      {
+        "name": "joint eigenvalue (1, 1, 1, 0, -1, 1)",
+        "passed": true
+      },
+      {
+        "name": "joint eigenvalue (1, 1, 1, 0, 1, -1)",
+        "passed": true
+      },
+      {
+        "name": "joint eigenvalue (1, 1, 1, 0, 1, 1)",
+        "passed": true
+      },
+      {
+        "name": "opposite blocks paired (1, 1, 1, 0)",
+        "passed": true
+      },
+      {
+        "name": "joint eigenvalue (1, 1, 1, 1, -1, -1)",
+        "passed": true
+      },
+      {
+        "name": "joint eigenvalue (1, 1, 1, 1, -1, 1)",
+        "passed": true
+      },
+      {
+        "name": "joint eigenvalue (1, 1, 1, 1, 1, -1)",
+        "passed": true
+      },
+      {
+        "name": "joint eigenvalue (1, 1, 1, 1, 1, 1)",
+        "passed": true
+      },
+      {
+        "name": "opposite blocks paired (1, 1, 1, 1)",
+        "passed": true
+      },
+      {
+        "name": "nonzero real degree3 block control",
+        "passed": true
+      },
+      {
+        "name": "block control is sharp skew and C-even",
+        "passed": true
+      },
+      {
+        "name": "degree3 contraction is four theta",
+        "passed": true
+      },
+      {
+        "name": "block control not full normal invariant",
+        "passed": true
+      }
+    ],
+    "character_rows": [
+      {
+        "degree": 0,
+        "dimension": 1,
+        "invariants": 1,
+        "normal_multiplicity": 0
+      },
+      {
+        "degree": 1,
+        "dimension": 10,
+        "invariants": 0,
+        "normal_multiplicity": 4
+      },
+      {
+        "degree": 2,
+        "dimension": 45,
+        "invariants": 2,
+        "normal_multiplicity": 0
+      },
+      {
+        "degree": 3,
+        "dimension": 120,
+        "invariants": 0,
+        "normal_multiplicity": 8
+      },
+      {
+        "degree": 4,
+        "dimension": 210,
+        "invariants": 3,
+        "normal_multiplicity": 4
+      },
+      {
+        "degree": 5,
+        "dimension": 252,
+        "invariants": 2,
+        "normal_multiplicity": 10
+      },
+      {
+        "degree": 6,
+        "dimension": 210,
+        "invariants": 3,
+        "normal_multiplicity": 4
+      },
+      {
+        "degree": 7,
+        "dimension": 120,
+        "invariants": 0,
+        "normal_multiplicity": 8
+      },
+      {
+        "degree": 8,
+        "dimension": 45,
+        "invariants": 2,
+        "normal_multiplicity": 0
+      },
+      {
+        "degree": 9,
+        "dimension": 10,
+        "invariants": 0,
+        "normal_multiplicity": 4
+      },
+      {
+        "degree": 10,
+        "dimension": 1,
+        "invariants": 1,
+        "normal_multiplicity": 0
+      }
+    ],
+    "odd_multiplicities": [
+      4,
+      8,
+      10,
+      8,
+      4
+    ],
+    "even_invariants": [
+      1,
+      2,
+      3,
+      3,
+      2,
+      1
+    ],
+    "clifford_covariance_equations": 1800,
+    "fixture_rank_counts": {
+      "128": 64,
+      "64": 16,
+      "0": 1
+    },
+    "dimensions": {
+      "block_complex": [
+        68,
+        24,
+        44
+      ],
+      "block_sharp_real": [
+        68,
+        44,
+        24
+      ],
+      "block_sharp_C_real": [
+        32,
+        20,
+        12
+      ],
+      "endogenous_weak_sharp_real": [
+        4,
+        4,
+        0
+      ],
+      "endogenous_weak_sharp_C_real": [
+        0,
+        0,
+        0
+      ]
+    },
+    "scope": "fixed pointwise tensor isotropy; not a moving reduction/VEV, W2 pairing, physical spectrum or GU verdict",
+    "input_sha256": {
+      "tests/channel-swings/actual_sym2_c14_orbit_probe.py": "8efb7edfbef3259098c6e384d9b35f71d5176dc90262b81fb49b0597db07b33d",
+      "explorations/conditional-build/weak-endogenous-grading-2026-11-24.md": "9d299759cc63d558f950683d12dcb513bf660e927b0fdfbf8daa8171ae5a88a2",
+      "explorations/conditional-build/source-reality-mixing-class-2026-11-24.md": "82e13648a411cfd3534f087cefacb58fda3a3560f02f36ae25881fc24ff54b8d"
+    },
+    "auxiliary_scope": {
+      "basis_revision": "736d965e076a82608cc8f2d1ca2016612de4142c",
+      "scope": "Exact geometric leakage; no cokernel obstruction, inverse, physical or source verdict.",
+      "boost_range": [
+        {
+          "source": 5,
+          "boost": "03",
+          "range_terms": 80,
+          "spin6_terms": 128,
+          "witness": [
+            [
+              32,
+              757
+            ],
+            [
+              "-4/3",
+              "0"
+            ]
+          ]
+        },
+        {
+          "source": 5,
+          "boost": "13",
+          "range_terms": 80,
+          "spin6_terms": 128,
+          "witness": [
+            [
+              32,
+              757
+            ],
+            [
+              "0",
+              "-4/3"
+            ]
+          ]
+        },
+        {
+          "source": 5,
+          "boost": "23",
+          "range_terms": 32,
+          "spin6_terms": 0,
+          "witness": null
+        },
+        {
+          "source": 12,
+          "boost": "03",
+          "range_terms": 80,
+          "spin6_terms": 192,
+          "witness": [
+            [
+              32,
+              5733
+            ],
+            [
+              "0",
+              "-48/7"
+            ]
+          ]
+        },
+        {
+          "source": 12,
+          "boost": "13",
+          "range_terms": 80,
+          "spin6_terms": 192,
+          "witness": [
+            [
+              32,
+              5733
+            ],
+            [
+              "48/7",
+              "0"
+            ]
+          ]
+        },
+        {
+          "source": 12,
+          "boost": "23",
+          "range_terms": 64,
+          "spin6_terms": 0,
+          "witness": null
+        }
+      ],
+      "normal_source": [
+        {
+          "source": 5,
+          "boost": "03",
+          "normal_source_axis": 5,
+          "source_terms": 224,
+          "spin4_terms": 344,
+          "witness": [
+            [
+              1,
+              759
+            ],
+            [
+              "0",
+              "-1/18"
+            ]
+          ]
+        },
+        {
+          "source": 5,
+          "boost": "03",
+          "normal_source_axis": 8,
+          "source_terms": 224,
+          "spin4_terms": 344,
+          "witness": [
+            [
+              1,
+              759
+            ],
+            [
+              "1/18",
+              "0"
+            ]
+          ]
+        },
+        {
+          "source": 12,
+          "boost": "03",
+          "normal_source_axis": 5,
+          "source_terms": 336,
+          "spin4_terms": 472,
+          "witness": [
+            [
+              1,
+              5735
+            ],
+            [
+              "4/15",
+              "0"
+            ]
+          ]
+        },
+        {
+          "source": 12,
+          "boost": "03",
+          "normal_source_axis": 8,
+          "source_terms": 336,
+          "spin4_terms": 472,
+          "witness": [
+            [
+              1,
+              5735
+            ],
+            [
+              "0",
+              "4/15"
+            ]
+          ]
+        }
+      ],
+      "real_structure_halfturn": [
+        1,
+        1
+      ],
+      "highest7_range_hermitian_gram": [
+        [
+          [
+            "3145728",
+            "0"
+          ],
+          [
+            "0",
+            "0"
+          ]
+        ],
+        [
+          [
+            "0",
+            "0"
+          ],
+          [
+            "-9437184",
+            "0"
+          ]
+        ]
+      ]
+    }
+  },
+  "scope": {
+    "normal": "Pointwise fixed geometric tensor actions; source adjoint convention; fullU and optionalC separate",
+    "auxiliary": "W2 opposite pairing; natural movingQ constrained test variations, not fullR equations/physical state space",
+    "weakest_source_link": "Fixed-versus-moving physical reduction, C necessity and physical observation/propagation unproved",
+    "source_necessary_exclusion": "absent",
+    "class_C_representativeness": "unproved, existing width-test status unchanged"
+  },
+  "mathematical_proof": "explorations/conditional-build/source-normal-tensor-class-2026-11-26.md",
+  "review": "lab/process/hostile-reviews/2026-11-26-source-normal-tensor-class-review.md",
+  "probe": "tests/program-focus/source_normal_tensor_class_probe.py",
+  "lean": {
+    "path": "Lean/GUFormalization/NormalTensorClass.lean",
+    "status": "PASS",
+    "theorems": 10,
+    "coverage": "Finite coefficient incompatibility, injective contraction factor and dimension arithmetic; not Lie/Clifford/analytic/source proof"
+  },
+  "math_reassessment": {
+    "method": "One root quick pass over20 saved mathematical descriptions, including category theory and number theory. Concrete calculation/review delegation is separate; no agent per persona or proof by vote.",
+    "basis": "736d965e076a82608cc8f2d1ca2016612de4142c",
+    "lenses": [
+      {
+        "id": 1,
+        "specialty": "Representation theory",
+        "delta": "Complete all-End normal representation class replaces one-tensor trials."
+      },
+      {
+        "id": 2,
+        "specialty": "Clifford algebra",
+        "delta": "Native sharp signs distinguish source convention from W2; no cross-pairing transfer."
+      },
+      {
+        "id": 3,
+        "specialty": "Functional analysis",
+        "delta": "An invariant finite response bundle gives a genuine restricted inverse; full range is separate."
+      },
+      {
+        "id": 4,
+        "specialty": "Constrained PDE",
+        "delta": "Actual Q connection and second fundamental lower term realize the local equation."
+      },
+      {
+        "id": 5,
+        "specialty": "Microlocal analysis",
+        "delta": "Existing symbol/domain exclusions retained; no repeat."
+      },
+      {
+        "id": 6,
+        "specialty": "Hyperbolic equations",
+        "delta": "Constrained test fields still do not establish admissible propagation."
+      },
+      {
+        "id": 7,
+        "specialty": "Observability and control",
+        "delta": "Observation kernel24R/12R is a coefficient kernel, not physical darkness."
+      },
+      {
+        "id": 8,
+        "specialty": "Symplectic and presymplectic geometry",
+        "delta": "Physical symplectic quotient remains unprovided; do not infer ghosts."
+      },
+      {
+        "id": 9,
+        "specialty": "Homological and BRST methods",
+        "delta": "No source BRST differential supplied; optionalC is not a quotient."
+      },
+      {
+        "id": 10,
+        "specialty": "Category theory",
+        "delta": "Fixed-object invariants and covariant moving families are different categories; use the actual N-leg action and contraction."
+      },
+      {
+        "id": 11,
+        "specialty": "Natural differential operators",
+        "delta": "All-End pointwise class is complete at stated symmetry scope, not a natural-PDE classification."
+      },
+      {
+        "id": 12,
+        "specialty": "Index theory and K-theory",
+        "delta": "No new Fredholm or family index; retain same-grading/domain burden."
+      },
+      {
+        "id": 13,
+        "specialty": "Anomalies and bordism",
+        "delta": "Prior no-nonzero-source-anomaly-target audit remains consumed."
+      },
+      {
+        "id": 14,
+        "specialty": "Noncompact harmonic analysis",
+        "delta": "W175 withdrawal and missing Krein/mode transfer remain operative."
+      },
+      {
+        "id": 15,
+        "specialty": "Krein and spectral theory",
+        "delta": "C is optional under fullU, and a nondegenerate indefinite Q is not physical positivity."
+      },
+      {
+        "id": 16,
+        "specialty": "Number theory and arithmetic invariants",
+        "delta": "Integer6Y plus parity and exact Weyl multiplicities certify68/32 without a numerical rank. Preserve degree4/6 extra maps as parity-excluded; these are not generation counts."
+      },
+      {
+        "id": 17,
+        "specialty": "Nonlinear PDE",
+        "delta": "Restricted linear constraint elimination is not a nonlinear coupled solution."
+      },
+      {
+        "id": 18,
+        "specialty": "Rigorous numerical analysis",
+        "delta": "Reuse exact root-ball inverse and coefficient intervals; do not redo7080 closure checks."
+      },
+      {
+        "id": 19,
+        "specialty": "Proof engineering and formal methods",
+        "delta": "Lean checks coefficient incompatibility/arithmetic only; analytic and representation proofs remain separately reviewed."
+      },
+      {
+        "id": 20,
+        "specialty": "Inverse problems and identifiability",
+        "delta": "Source spinless placement is now the stronger source-facing finite alternative; do not treat another candidate block as GU necessity."
+      }
+    ],
+    "ranking": [
+      {
+        "rank": 1,
+        "task": "source_spinless_placement",
+        "reason": "Directly source-named tensor component; finite compositional question remains after complete normal class. Source relevance exceeds another optional candidate block."
+      },
+      {
+        "rank": 2,
+        "task": "full_range_auxiliary_spin4",
+        "reason": "Owned exact new source; candidate necessity remains conditional and restricted local response no longer waits on it."
+      },
+      {
+        "rank": null,
+        "task": "physical_weak_readout",
+        "reason": "Most decisive physical bridge but ineligible without the named input; no repeated source scan or invented completion."
+      }
+    ],
+    "executed_change": "Used existing Lie-generation theorem to classify whole normal tensor classes; used homogeneous transport to realize restricted auxiliary response instead of another full inverse.",
+    "policy_effect": "none"
+  },
+  "next_worksets": [
+    {
+      "id": "source_spinless_placement",
+      "status": "ready_for_bounded_finite_map",
+      "target": "LB-CLASS",
+      "tier": "T2",
+      "task": "Compose the source-named full-ambient grade1 spinless connection component with the actually printed operator/observation maps, retaining free or unbuilt cells symbolically",
+      "expected_delta": "Exact placement or missing coefficient/map, and whether source covariance needs a transforming reduction; no new action or VEV choice",
+      "class_covered": "Source-typed primitive spinless tensor component, not every physical fluctuation",
+      "source_bridge": "SC-MAS-02 explicitly names the component; full operator/reduction and physical role remain conditional",
+      "remaining_cost": "One finite symbolic placement audit; reuse source custody and current normal classification",
+      "kill_condition": "Only an authenticated required map can support a source exclusion; absence of an unbuilt coefficient is not failure"
+    },
+    {
+      "id": "full_range_auxiliary_spin4",
+      "status": "ready",
+      "target": "LB-CLASS",
+      "tier": "T2",
+      "task": "Test exact reachedspin4 auxiliary sources or one true adjoint-cokernel pairing before enlarging an inverse",
+      "expected_delta": "Resolve a necessary full-R first-jet compatibility condition; no repeated restricted-Q work",
+      "class_covered": "Held W2/K95 two roots and actual induced full-R jets",
+      "source_bridge": "Candidate-only, source necessity and physical admission unproved",
+      "remaining_cost": "Exact sparse seeds owned; receiver closure cost unmeasured",
+      "kill_condition": "Only an incompatible residual paired with an actual cokernel certifies failure; outside the current envelope is not nonexistence"
+    },
+    {
+      "id": "physical_weak_readout",
+      "status": "blocked_on_authentic_admission_and_normalization",
+      "target": "LB-CLASS",
+      "tier": "T2",
+      "task": "Transport the local constrained response to a source-admitted physical observable",
+      "expected_delta": "Actual observable consequence rather than unnormalized local coefficient",
+      "revival_input": "Authenticated common physical domain/quotient, normalized readout and propagation law",
+      "kill_condition": "OldA01 transfer remains inapplicable; inventing a new norm, cutoff or physical completion is not an answer"
+    }
+  ],
+  "three_state": {
+    "ESTABLISHED": "Complete normal tensor class: block symmetry68 real sharp-skew/32 with optionalC; fixed endogenous+weak symmetry4 real full-U/zero with optionalC, with exact observation kernels and ranks. Existing certificates realize smooth constrained-Q response; full-R jets reach a new spin4 source. No GU verdict.",
+    "RULED_OUT": "Nonzero tensor in fixed endogenous+weak+source-sharp+optionalC class only.",
+    "NOT_MODELED_UNDETERMINED": "Source selection of fixed symmetry/C, physical fluctuation/domain/normalization, propagated ghosts and GU verdict."
+  },
+  "verification": {
+    "exact_controls": 438,
+    "normal_equivariance_equations": 1800,
+    "auxiliary_probe": "exact SO3 spin6/spin4 leakage, Q Gram/reality; independent replay agrees",
+    "lean": "10finite lemmas PASS, no sorry; representation/PDE/source proofs not formalized",
+    "native_gates": [
+      {
+        "gate": "program_focus_audit",
+        "exit_code": 0
+      },
+      {
+        "gate": "typed_carrier_declaration_audit",
+        "exit_code": 0
+      },
+      {
+        "gate": "kill_target_claim_audit",
+        "exit_code": 0
+      },
+      {
+        "gate": "frontmatter_status_schema_audit",
+        "exit_code": 0
+      },
+      {
+        "gate": "source_native_comparator_routing_audit",
+        "exit_code": 0
+      },
+      {
+        "gate": "lean_certificate_surface_audit",
+        "exit_code": 0
+      },
+      {
+        "gate": "current_state_absolute_currency_audit",
+        "exit_code": 0
+      }
+    ],
+    "review": "Two independent normal-class mathematical reviews, hostile source review, separate independent auxiliary review; corrections integrated",
+    "full_project_build": "not rerun; targeted new module checked"
+  },
+  "local_response": {
+    "status": "ESTABLISHED_AT_INTERNAL_CANDIDATE_SCOPE",
+    "equation": "PH(iQv-YQa nablaQ_a v-ZQv)=0 for arbitrary smooth localQ test fields",
+    "compact_corollary": "There exist compact test connection perturbations satisfying the homogeneous auxiliary constraint with nonzero integrated local matter-current first variation. Only test perturbation is cut off.",
+    "not_established": [
+      "full-R evolution equations",
+      "sourced nonlinear constraints",
+      "propagated response",
+      "all-Gram normalization",
+      "source-selected physical admission",
+      "GU falsification"
+    ]
+  },
+  "sha256": {
+    "explorations/conditional-build/source-normal-tensor-class-2026-11-26.md": "0312b22c97061e56285bd340f4fee0777704695c74e9cd261f177fd9b6a5ac7a",
+    "tests/program-focus/source_normal_tensor_class_probe.py": "5ab93ab4ea9b5e9370c1526c7983d07fa796814cfafa728ed0bfa25d36080653",
+    "lab/process/hostile-reviews/2026-11-26-source-normal-tensor-class-review.md": "fb4c5cc4e60f4494486323ef1ca95f2ea8da8e312742678657992dbbc8e3280e",
+    "Lean/GUFormalization/NormalTensorClass.lean": "ecebd864253614085df39636e5f301305929c5e6c7d59fc71bef9ebc8567a679"
+  },
+  "input_sha256": {
+    "explorations/conditional-build/source-action-weak-response-2026-11-26.md": "5cac8f1fb12008d1c78274be4ec23545e3cd6aa71bd19333374d02a6403fc51c",
+    "lab/process/source-action-weak-response.json": "f4bc446ec74a0604f3209adb519551aabac80636fbfb72717c87ae0ae6e71f4e",
+    "lab/process/source-action-deep-coefficients.json": "fb4aacfa69cbc1127b7fddf3b4f66811650c1fd3a889363cc6dfab940439b274",
+    "tests/program-focus/source_action_weak_response_probe.py": "60cf6ae0f16ee6fc4233d49e4bec31753c22bdc2c1d2497c3d76b6d7c1f4e89f",
+    "tests/program-focus/source_action_paired_response_probe.py": "72f131477d041c19293a7e191fd099fbe637597e685ac1d84dfe76db8beb8655",
+    "tests/program-focus/source_action_deep_geometry.py": "7cdfe5f7609300c1ab4fb482f309cfafa52d0aa66cf353ef8b1f9c8be07e52df",
+    "tests/program-focus/source_action_deep_algebra.py": "4e3800131049e2b397bbce6106bfc5766d2f5fbf996319c50942f3b805d65598",
+    "lab/sources/source-claim-register.yaml": "dc3ae173b4cc0eb2a0e343e3d92d5f110b8e4f6eef3e2852a1e897ab4371ade6",
+    "GEOMETER-VS-PHYSICS-OBJECTS.md": "eb085d6f89b7f5b49f4f330ea73e4969b6688349ee5046f85c2c754864851bd4"
+  }
+}

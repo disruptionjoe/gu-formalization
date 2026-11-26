@@ -1,7 +1,7 @@
 schema_version: '1.0'
 repository: observerse-research-program
 branch: main
-revision_basis: 139873dd462fe8bc99774a82cdb7a6ecc0f09c00
+revision_basis: 736d965e076a82608cc8f2d1ca2016612de4142c
 program_focus:
   version: 2026-11-25-v1
   authority: joe_direct_chat_2026_11_25_five_process_improvements_approved
@@ -140,6 +140,72 @@ program_focus:
     covered; source relevance separately from mathematical breadth; shared prerequisite if any; remaining
     cost; strongest eligible alternative. A blocked high-value target is not an eligible alternative without
     its missing input. Reuse completed theorems and compare only their uncovered successors.'
+source_normal_tensor_class_2026_11_26:
+  authority: joe_direct_chat_2026_11_26_continued_falsification_math20
+  basis_revision: 736d965e076a82608cc8f2d1ca2016612de4142c
+  status: internal_T1_optional_tensor_exclusion_T2_local_response
+  actual_delta: 'Complete normal tensor class: block symmetry68 real sharp-skew/32 with optionalC; fixed
+    endogenous+weak symmetry4 real full-U/zero with optionalC, with exact observation kernels and ranks.
+    Existing certificates realize smooth constrained-Q response; full-R jets reach a new spin4 source.
+    No GU verdict.'
+  evidence:
+  - explorations/conditional-build/source-normal-tensor-class-2026-11-26.md
+  - lab/process/source-normal-tensor-class.json
+  - tests/program-focus/source_normal_tensor_class_probe.py
+  - Lean/GUFormalization/NormalTensorClass.lean
+  - lab/process/hostile-reviews/2026-11-26-source-normal-tensor-class-review.md
+  source_bridge:
+    status: conditional
+    reason: Source does not require fixed simultaneous tensor symmetries or optional C; candidate response
+      still lacks physical admission/normalization/propagation.
+  continuation:
+  - id: source_spinless_placement
+    status: ready_for_bounded_finite_map
+    target: LB-CLASS
+    tier: T2
+    task: Compose the source-named full-ambient grade1 spinless connection component with the actually
+      printed operator/observation maps, retaining free or unbuilt cells symbolically
+    expected_delta: Exact placement or missing coefficient/map, and whether source covariance needs a
+      transforming reduction; no new action or VEV choice
+    class_covered: Source-typed primitive spinless tensor component, not every physical fluctuation
+    source_bridge: SC-MAS-02 explicitly names the component; full operator/reduction and physical role
+      remain conditional
+    remaining_cost: One finite symbolic placement audit; reuse source custody and current normal classification
+    kill_condition: Only an authenticated required map can support a source exclusion; absence of an unbuilt
+      coefficient is not failure
+  - id: full_range_auxiliary_spin4
+    status: ready
+    target: LB-CLASS
+    tier: T2
+    task: Test exact reachedspin4 auxiliary sources or one true adjoint-cokernel pairing before enlarging
+      an inverse
+    expected_delta: Resolve a necessary full-R first-jet compatibility condition; no repeated restricted-Q
+      work
+    class_covered: Held W2/K95 two roots and actual induced full-R jets
+    source_bridge: Candidate-only, source necessity and physical admission unproved
+    remaining_cost: Exact sparse seeds owned; receiver closure cost unmeasured
+    kill_condition: Only an incompatible residual paired with an actual cokernel certifies failure; outside
+      the current envelope is not nonexistence
+  - id: physical_weak_readout
+    status: blocked_on_authentic_admission_and_normalization
+    target: LB-CLASS
+    tier: T2
+    task: Transport the local constrained response to a source-admitted physical observable
+    expected_delta: Actual observable consequence rather than unnormalized local coefficient
+    revival_input: Authenticated common physical domain/quotient, normalized readout and propagation law
+    kill_condition: OldA01 transfer remains inapplicable; inventing a new norm, cutoff or physical completion
+      is not an answer
+  priority_control_effect: Directed successors restocked after consumed normal classification/restricted-Q
+    realization; program_focus and scheduled cadence unchanged.
+  accounting: Directed count67to68/LBCLASS26to27; no bet/scientific shrinkage or choice credit.
+  scope:
+    normal: Pointwise fixed geometric tensor actions; source adjoint convention; fullU and optionalC separate
+    auxiliary: W2 opposite pairing; natural movingQ constrained test variations, not fullR equations/physical
+      state space
+    weakest_source_link: Fixed-versus-moving physical reduction, C necessity and physical observation/propagation
+      unproved
+    source_necessary_exclusion: absent
+    class_C_representativeness: unproved, existing width-test status unchanged
 source_action_weak_response_2026_11_26:
   authority: joe_direct_chat_2026_11_26_matched_response_and_active_falsification_wave
   basis_revision: 139873dd462fe8bc99774a82cdb7a6ecc0f09c00

@@ -17,6 +17,14 @@ External review is not a pathway in this program. The honesty label stays: inter
 
 Sections below are historical snapshots in file order.
 
+## Complete normal tensors and local constrained response (2026-11-26)
+
+Complete normal tensor class: block symmetry68 real sharp-skew/32 with optionalC; fixed endogenous+weak symmetry4 real full-U/zero with optionalC, with exact observation kernels and ranks. Existing certificates realize smooth constrained-Q response; full-R jets reach a new spin4 source. No GU verdict.
+
+Fixed-object symmetry differs from a transforming reduction/VEV. The source full-U class survives; optional C emptiness is conditional. The localQ response is a constrained diagnostic, not a propagated physical state or GU verdict. Scientific verdicts and choice accounting remain unchanged.
+
+[Result](explorations/conditional-build/source-normal-tensor-class-2026-11-26.md) · [Evidence and verification scope](lab/process/source-normal-tensor-class.json).
+
 ## Exact matched weak coefficients (2026-11-26)
 
 Exact120-dimensional auxiliary envelope closed for all59 background directions and invertible at both certified roots; four matched formal coefficients remain nonzero and their highest5 kernel ambiguity is removed by an affine-family adjoint identity. Invisible E2 cannot enter the old A01 completion. No physical or source verdict.

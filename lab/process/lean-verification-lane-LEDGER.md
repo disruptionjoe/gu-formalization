@@ -523,3 +523,10 @@ bicategory, ambidexterity or Mackey 2-functor is inferred.
 ## Petrov probability finite core (2026-11-26)
 
 `Lean/GUFormalization/PetrovProbability.lean`: **LEAN-VERIFIED**, nine lemmas for weighted overlap double-counting, quarter/half bounds, variation discrepancy and exact quartic stabilizer substitutions. Targeted compilation passed without sorry. Properness, tightness, Petrov classification and the probability-limit theorem remain independently reviewed written mathematics. No source necessity or worldwide novelty is formalized. [Proof](../../explorations/conditional-build/petrov-probability-selection-2026-11-26.md).
+
+## Normal tensor finite core (2026-11-26)
+
+- Certificate: `Lean/GUFormalization/NormalTensorClass.lean`.
+- Status: LEAN-VERIFIED; ten finite lemmas, targeted `lake env lean` PASS with no placeholders.
+- Validated statement boundary: coefficient reality versus sharp-skew incompatibility, injective factor10 contraction and arithmetic only. Actual Clifford/representation completeness, local analytic proof and source necessity are not formalized. Two independent normal-class mathematical reviewers and hostile source review; separate independent auxiliary review.
+- Owner: `explorations/conditional-build/source-normal-tensor-class-2026-11-26.md`; reproducibility: `tests/program-focus/source_normal_tensor_class_probe.py`. No physical-ledger verdict or entire-project build claim.

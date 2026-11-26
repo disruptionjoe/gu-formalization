@@ -1788,7 +1788,7 @@
     },
     "LB-CLASS": {
       "zero_delta_streak": 0,
-      "runs": 26,
+      "runs": 27,
       "status": "open"
     },
     "LB-LADDER": {
@@ -2707,7 +2707,7 @@
   ],
   "program_run_counter": {
     "since": "2026-11-09",
-    "count": 67,
+    "count": 68,
     "rule": "Every hourly run increments this in its postflight, whatever its lane. Lane C runs when count % 4 == 3 before the increment."
   },
   "working_rule": "Cells are worked at the structure level: a requirement must hold for every action in class C or for a structurally defined subfamily. No cell is worked by writing down a specific action, and no gated cell is worked by building its gate object. See CURRENT-STATE.yaml program_focus.structure_not_specifics.",
@@ -3137,6 +3137,21 @@
         "lab/process/source-action-weak-response.json"
       ],
       "claim_effect": "No scientific cell, ledger, classC, source or choice effect."
+    },
+    {
+      "date": "2026-11-26",
+      "authority": "joe_direct_chat_2026_11_26_continued_falsification_math20",
+      "item": "Complete normal tensor symmetry class and restricted auxiliary realization",
+      "tier": "T1_internal_T2_auxiliary",
+      "counter_before": 67,
+      "counter_after": 68,
+      "lane": "LB-CLASS",
+      "actual_delta": "Complete normal tensor class: block symmetry68 real sharp-skew/32 with optionalC; fixed endogenous+weak symmetry4 real full-U/zero with optionalC, with exact observation kernels and ranks. Existing certificates realize smooth constrained-Q response; full-R jets reach a new spin4 source. No GU verdict.",
+      "evidence": [
+        "explorations/conditional-build/source-normal-tensor-class-2026-11-26.md",
+        "lab/process/source-normal-tensor-class.json"
+      ],
+      "claim_effect": "No source, canon, physics, classC, scientific cell or paper verdict change"
     }
   ],
   "directed_lc_carry_2026_11_24_b": {
@@ -3328,8 +3343,16 @@
           "explorations/conditional-build/source-small-vev-current-test-2026-11-24.md",
           "explorations/conditional-build/source-gauge-mixing-quotient-2026-11-24.md",
           "explorations/conditional-build/source-reality-mixing-class-2026-11-24.md",
-          "explorations/conditional-build/source-premise-custody-2026-11-25.md"
-        ]
+          "explorations/conditional-build/source-premise-custody-2026-11-25.md",
+          "explorations/conditional-build/source-normal-tensor-class-2026-11-26.md",
+          "lab/process/source-normal-tensor-class.json"
+        ],
+        "normal_tensor_update": {
+          "fixed_fullU": "4real coefficients; normal contraction injective",
+          "fixed_optionalC": "zero only under simultaneous fixed geometric symmetries and source pairing",
+          "moving_reduction": "Explicit nonzero C-compatible covariant family survives",
+          "source_selection": "not supplied; no low-curvature physical suppression verdict"
+        }
       },
       {
         "question": "Does the optional normal SU(3,2) reduction require extra absolute topology beyond U(3,2), and is it source-selected?",
@@ -3455,7 +3478,9 @@
           "explorations/conditional-build/source-falsification-council-2026-11-26.md",
           "lab/process/source-falsification-council-2026-11-26.json",
           "explorations/conditional-build/source-action-weak-response-2026-11-26.md",
-          "lab/process/source-action-weak-response.json"
+          "lab/process/source-action-weak-response.json",
+          "explorations/conditional-build/source-normal-tensor-class-2026-11-26.md",
+          "lab/process/source-normal-tensor-class.json"
         ],
         "choices": "Historical original choices are retained below; current held fermion repair is SE=-1/2 (SE0 superseded), kappa1 with two unselected roots. Typed candidate_choice_budget separates core/completion/pending/comparator/parked choices.",
         "wave2_update": {
@@ -3895,6 +3920,47 @@
               "required_typing": "Symmetry action on bothN/S and horizontal-versus-W2 adjoint convention; physical normalization/curvature suppression remain separate.",
               "expected_delta": "Allowed coefficient space and actual observed contraction kernel/image; source relevance assessed separately from breadth",
               "kill_condition": "Only the declared source-shaped tensor class is covered; no GU verdict from permitted mixing alone."
+            }
+          ]
+        },
+        "normal_tensor_and_auxiliary_update": {
+          "restricted_Q": "Smooth local constraint elimination from existing certificates; not a physical completion",
+          "full_R": "Actual derivative source reaches spin4; no cokernel contradiction yet",
+          "source_action_necessity": "unproved",
+          "next": [
+            {
+              "id": "source_spinless_placement",
+              "status": "ready_for_bounded_finite_map",
+              "target": "LB-CLASS",
+              "tier": "T2",
+              "task": "Compose the source-named full-ambient grade1 spinless connection component with the actually printed operator/observation maps, retaining free or unbuilt cells symbolically",
+              "expected_delta": "Exact placement or missing coefficient/map, and whether source covariance needs a transforming reduction; no new action or VEV choice",
+              "class_covered": "Source-typed primitive spinless tensor component, not every physical fluctuation",
+              "source_bridge": "SC-MAS-02 explicitly names the component; full operator/reduction and physical role remain conditional",
+              "remaining_cost": "One finite symbolic placement audit; reuse source custody and current normal classification",
+              "kill_condition": "Only an authenticated required map can support a source exclusion; absence of an unbuilt coefficient is not failure"
+            },
+            {
+              "id": "full_range_auxiliary_spin4",
+              "status": "ready",
+              "target": "LB-CLASS",
+              "tier": "T2",
+              "task": "Test exact reachedspin4 auxiliary sources or one true adjoint-cokernel pairing before enlarging an inverse",
+              "expected_delta": "Resolve a necessary full-R first-jet compatibility condition; no repeated restricted-Q work",
+              "class_covered": "Held W2/K95 two roots and actual induced full-R jets",
+              "source_bridge": "Candidate-only, source necessity and physical admission unproved",
+              "remaining_cost": "Exact sparse seeds owned; receiver closure cost unmeasured",
+              "kill_condition": "Only an incompatible residual paired with an actual cokernel certifies failure; outside the current envelope is not nonexistence"
+            },
+            {
+              "id": "physical_weak_readout",
+              "status": "blocked_on_authentic_admission_and_normalization",
+              "target": "LB-CLASS",
+              "tier": "T2",
+              "task": "Transport the local constrained response to a source-admitted physical observable",
+              "expected_delta": "Actual observable consequence rather than unnormalized local coefficient",
+              "revival_input": "Authenticated common physical domain/quotient, normalized readout and propagation law",
+              "kill_condition": "OldA01 transfer remains inapplicable; inventing a new norm, cutoff or physical completion is not an answer"
             }
           ]
         }
