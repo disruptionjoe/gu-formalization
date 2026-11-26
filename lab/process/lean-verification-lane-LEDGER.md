@@ -499,3 +499,7 @@ bicategory, ambidexterity or Mackey 2-functor is inferred.
 ## Steelman and external-datum finite core (2026-11-26)
 
 `Lean/GUFormalization/SteelmanDatum.lean`: **LEAN-VERIFIED**, four lemmas for finite coefficient descent, negative interval excluding flatness, equivalent-norm bound and vanishing boundary-term sign. Targeted compilation passed without placeholders. Native SO3 projections, root curvature, operator domains, BRST interpretation and Chern transgression remain independently reviewed mathematics; no full PDE or whole-project-build claim. Evidence: `explorations/conditional-build/source-action-steelman-datum-2026-11-26.md`.
+
+## Current receiver finite core (2026-11-26)
+
+`Lean/GUFormalization/CurrentReceiver.lean`: **LEAN-VERIFIED**, six finite lemmas for conjugate-charge signs, the positive-graph contradiction, norm-margin arithmetic, a work/energy counterexample and bounded difference frequency. Targeted compilation passed without placeholders. Native current coefficients, cross-Gram robustness, CK/PT domain covariance and physical propagation remain separately reviewed mathematics; no full PDE or whole-project-build certification is claimed. [Result](../../explorations/conditional-build/source-action-current-receiver-2026-11-26.md).
