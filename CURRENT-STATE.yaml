@@ -1,7 +1,7 @@
 schema_version: '1.0'
 repository: observerse-research-program
 branch: main
-revision_basis: c1f3642a5b3c7c9f06871c0e02a74644497c5ec9
+revision_basis: 629e40b3a7c12191b88d02107039afabf2d1c9b8
 program_focus:
   version: 2026-11-25-v1
   authority: joe_direct_chat_2026_11_25_five_process_improvements_approved
@@ -140,6 +140,58 @@ program_focus:
     covered; source relevance separately from mathematical breadth; shared prerequisite if any; remaining
     cost; strongest eligible alternative. A blocked high-value target is not an eligible alternative without
     its missing input. Reuse completed theorems and compare only their uncovered successors.'
+source_action_onshell_dynamics_2026_11_27:
+  authority: joe_direct_chat_2026_11_26_continued_falsification_math20
+  basis_revision: 629e40b3a7c12191b88d02107039afabf2d1c9b8
+  status: internal_T1_actual_graph_estimate_reviewed
+  actual_delta: At both held W2/K95 kappa1 roots, the actual non-null microlocal connection generator
+    has a positive-real-part principal eigenvalue and excludes same-order local Duhamel bounds on the
+    declared first-graph core with graph forcing. Separately, the same negative canonical-energy analytic
+    germs have nonzero selected current in the held positive matter completion. Physical admission, Ward-nontrivial
+    interaction and energy exchange remain unproved.
+  evidence:
+  - explorations/conditional-build/source-action-onshell-dynamics-2026-11-27.md
+  - lab/process/source-action-onshell-dynamics.json
+  - lab/process/source-action-onshell-dynamics-certificates.json
+  - lab/process/hostile-reviews/2026-11-27-source-action-onshell-dynamics-review.md
+  source_bridge:
+    status: conditional
+    reason: SC-ACT-01/02 action grammar does not select W2. SC-META-52/53 do not select the tested upstairs
+      graph core or a physical quotient/boundary domain. Candidate-level estimate failure is not source-required
+      GU falsification.
+  continuation:
+  - id: same_germ_ward_and_physical_channel
+    status: ready_for_bounded_source_and_operator_discrimination
+    target: LB-CLASS
+    tier: T2
+    task: Test whether the actual source-intended gauge/observation prescription removes the specific
+      non-null microlocal channel or the same signed-energy current witnesses. First identify a supplied
+      operator/domain; do not invent a quotient or boundary law. Separable candidate work may test the
+      same-germ on-shell Ward pairing with its stated boundary functional. A cutoff density or generic
+      mixed-cone receiver does not settle interaction.
+    expected_delta: An exact channel removal or retained Ward-nontrivial on-shell coupling on a named
+      common domain; if unavailable, isolate the missing source/physical datum. Keep unstable-symbol modes
+      distinct from signed-energy current germs.
+    class_covered: Held W2/K95 kappa1 candidate and explicitly named existing gauge/observation/common-domain
+      structures, not all class C.
+    source_bridge: Source necessity must be checked separately; no new choice family.
+    kill_condition: Only a certified incompatibility on a source-required physical channel advances a
+      physical exclusion; absent prescriptions and solver failures do not.
+    shared_prerequisite: FullM, actual triangular solution family, same-germ current, actual non-null
+      symbol and graph estimate obstruction are discharged.
+    strongest_alternative: A structural finite-loss/analytic evolution discriminator for the already-held
+      equations if it changes candidate viability; do not repeat no-loss estimates or assemble the large
+      spin0 module by default.
+  consumed:
+  - actual non-null microlocal principal including frequency-dependent kernel/lapse correction
+  - same signed-energy solution current in the held all-cross-Gram positive matter completion
+  - no-loss local graph-Duhamel estimate at the timelike normal ray; not all derivative-loss estimates
+  - repeated fullM inversion, generic receiver scans, old scalar-jet assembly or broad spin0 census as
+    prerequisites to this result
+  accounting: Directed79to80/LBCLASS38to39. Existing directed_lc_carry_2026_11_25_physical remains pending
+    for the next ordinary run; no cadence amendment, scheduler opportunity consumption or bet credit.
+  priority_control_effect: Completed actual non-null no-loss dynamics and same-germ local current tests.
+    Physical/Ward admission remains; no policy or schedule change. Nov26g proposal-only.
 source_action_scalar_normal_operator_2026_11_27:
   authority: joe_direct_chat_2026_11_26_continued_falsification_math20
   basis_revision: c1f3642a5b3c7c9f06871c0e02a74644497c5ec9
@@ -162,7 +214,7 @@ source_action_scalar_normal_operator_2026_11_27:
       a physical Hamiltonian.
   continuation:
   - id: actual_solution_coupling_or_growth
-    status: ready_for_bounded_method_selection
+    status: done_actual_no_loss_estimate_and_same_germ_current
     target: LB-CLASS
     tier: T2
     task: Use the proved full-carrier equation A(u)q_u+K4 q_r+C0S q=0 to test actual local dynamics or
@@ -182,6 +234,7 @@ source_action_scalar_normal_operator_2026_11_27:
       or choice family.
     strongest_alternative: A source-supplied physical BRST/boundary admissibility test if its generators
       and common domain are actually specified; do not build them merely to rescue the candidate.
+    completion_evidence: lab/process/source-action-onshell-dynamics.json
   - id: physical_admission
     status: requires_source_grounded_common_domain_or_quotient
     target: LB-CLASS
@@ -194,6 +247,7 @@ source_action_scalar_normal_operator_2026_11_27:
     - admitted normalized observation and actual coupled exchange
     scope: The previous absence of actual local solutions is discharged for this test family; uniform
       arbitrary-data propagation and global physical admission are not.
+    remaining_work_ref: source_action_onshell_dynamics_2026_11_27
   consumed:
   - actual scalar-normal lower/frame/lapse and transverse Schur assembly at both held roots
   - whether the inherited normal-energy witnesses can be realized by genuine local linearized solutions
@@ -205,6 +259,7 @@ source_action_scalar_normal_operator_2026_11_27:
     for the next ordinary run; no cadence amendment or bet credit.
   priority_control_effect: Completed directed scalar operator and exact local-propagation question. Global/physical
     admission and actual coupling/growth remain. program_focus/schedules unchanged; Nov26g proposal-only.
+  continuation_superseded_by: source_action_onshell_dynamics_2026_11_27
 source_action_full_auxiliary_map_2026_11_26:
   authority: joe_direct_chat_2026_11_26_continued_falsification_math20
   basis_revision: a2232ea0ef7b001e14b4acc0653740fbf8b9108b

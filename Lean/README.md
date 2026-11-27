@@ -210,3 +210,7 @@ replacement for `lake build` or targeted standalone Lean checks.
 ## Normal tensor finite core (2026-11-26)
 
 `GUFormalization/NormalTensorClass.lean`: **LEAN-VERIFIED**, ten lemmas for incompatible coefficient conjugation laws, the injective factor10 contraction, ambient-pair zero and dimension arithmetic. Targeted compilation passed with no placeholders. Clifford completeness, Lie generation, fixed-versus-moving source scope and local constrained-response analysis remain independently reviewed written mathematics; no whole-project rebuild or physical certification. [Result](../explorations/conditional-build/source-normal-tensor-class-2026-11-26.md).
+
+## 2026-11-27 — On-shell dynamics finite core
+
+`GUFormalization/OnshellDynamics.lean`: **LEAN-VERIFIED**, five lemmas for left-shear blocks, reflection preservation, positive-real entry from a trace-zero positive moment, scalar moment bounds and conservative rate arithmetic. Targeted single-thread compilation passed without warnings or placeholders; default import registered. Statement validation: supplying the native matrix/eigenvalue list, the root certificates and the actual microlocal/packet theorem remains separately reviewed mathematics. No full-PDE formalization or whole-project build claim. [Result](../explorations/conditional-build/source-action-onshell-dynamics-2026-11-27.md).

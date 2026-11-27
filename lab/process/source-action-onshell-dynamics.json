@@ -1,0 +1,337 @@
+{
+  "basis_revision": "629e40b3a7c12191b88d02107039afabf2d1c9b8",
+  "authority": "joe_direct_chat_2026_11_26_continued_falsification_math20",
+  "status": "internal_T1_actual_graph_estimate_reviewed",
+  "program_target": "LB-CLASS",
+  "tier": "T1",
+  "actual_delta": "At both held W2/K95 kappa1 roots, the actual non-null microlocal connection generator has a positive-real-part principal eigenvalue and excludes same-order local Duhamel bounds on the declared first-graph core with graph forcing. Separately, the same negative canonical-energy analytic germs have nonzero selected current in the held positive matter completion. Physical admission, Ward-nontrivial interaction and energy exchange remain unproved.",
+  "class_covered": "Fixed W2/K95 full-U zero-matter candidate at both certified kappa1 backgrounds; non-null compact microlocal first-graph core with graph forcing, and separately actual triangular analytic germs in held positive matter completion.",
+  "premises": [
+    "explorations/conditional-build/source-action-onshell-dynamics-2026-11-27.md",
+    "lab/process/source-action-onshell-dynamics-certificates.json",
+    "explorations/conditional-build/source-action-scalar-normal-operator-2026-11-27.md"
+  ],
+  "source_bridge": {
+    "status": "conditional",
+    "reason": "SC-ACT-01/02 action grammar does not select W2. SC-META-52/53 do not select the tested upstairs graph core or a physical quotient/boundary domain. Candidate-level estimate failure is not source-required GU falsification."
+  },
+  "weakest_unproved_link": "Source-required physical admissibility and common-domain Ward-nontrivial coupled response.",
+  "claim_effect": "No matrix cell/intersection, scientific shrinkage, source/physics/canon/class-C/paper verdict change.",
+  "three_state": {
+    "established": [
+      "actual corrected order-one microlocal principal H_mu=S_X H_naive",
+      "both roots positive Re trace(H_mu^2) and reflection trace0",
+      "failure of same-order local graph-Duhamel estimate on specified non-null core",
+      "same negative canonical-energy analytic germs have selected current for all held cross-Grams"
+    ],
+    "ruled_out": [
+      "uniform no-loss graph evolution on the declared unrestricted core",
+      "complete local current blindness of the selected same germs"
+    ],
+    "not_modeled_undetermined": [
+      "all finite derivative-loss estimates",
+      "exact exponentially growing solutions",
+      "source-required physical/BRST quotient",
+      "boundary-free Ward-nontrivial interaction",
+      "unstable-mode current and nonlinear exchange",
+      "GU falsification"
+    ]
+  },
+  "intrinsic_spectral": {
+    "dimension": 20,
+    "matrix": "H_mu=[[I,0],[-iX,I]] H_naive; left multiplication; no Delta0",
+    "X_equation": "(PK4R eC)X=3PK7R eK",
+    "trace": "identically zero by full-family reflection",
+    "Re_trace_H2_outward_intervals": [
+      [
+        1.2598031661,
+        1.2598031679
+      ],
+      [
+        1.308927403,
+        1.3089274076
+      ]
+    ],
+    "max_real_part_lower_bound": "1/40 in declared principal normalization; not a physical rate",
+    "old_result_status": "Prior corrected scalar-jet operator remains valid in its distinct scope; no regrading."
+  },
+  "actual_estimate": {
+    "norm": "N_s(v)=||v||H^(s-1)+||dv||H^(s-1)",
+    "forcing": "N_s(f), f=(partial_t-L)v; graph forcing(f,-df), not unweighted original PDE forcing",
+    "cone": "small non-null timelike-normal cone around(p,dr), full constant rank by native covariance",
+    "proof": "Packets of width k^-1/2 at t=S/k; integrated normalized residual O_S(k^-1/2). First k->infinity for fixed S, then S varies.",
+    "ceiling": "No-loss same-order Duhamel only; no exact growth or blanket finite-loss exclusion"
+  },
+  "same_germ_current": {
+    "amplitudes": [
+      "rootA K3 b3",
+      "rootB K3 b12"
+    ],
+    "mechanism": "Lower triangular-frame rotational terms yield spin5/6 receiver; the k-leading spin7 part remains seedblind.",
+    "all_crossGram_margins_lower": [
+      169.0079411,
+      581.1579763
+    ],
+    "formula": "B(G_k(V))=(7/2)B(M5^-1a5)+(7/12)B(FM6^-1b6)",
+    "ceiling": "Same signed-energy germ pointwise current, not negative-eigenmode excitation or boundary-free energy exchange"
+  },
+  "optimization": "Exact character/lapse correction reuses36 K7 coordinates and20x20 matrices; no fullspin0 matrix or auxiliary inverse regeneration.",
+  "consumed": [
+    "actual non-null microlocal principal including frequency-dependent kernel/lapse correction",
+    "same signed-energy solution current in the held all-cross-Gram positive matter completion",
+    "no-loss local graph-Duhamel estimate at the timelike normal ray; not all derivative-loss estimates",
+    "repeated fullM inversion, generic receiver scans, old scalar-jet assembly or broad spin0 census as prerequisites to this result"
+  ],
+  "next_directed_worksets": [
+    {
+      "id": "same_germ_ward_and_physical_channel",
+      "status": "ready_for_bounded_source_and_operator_discrimination",
+      "target": "LB-CLASS",
+      "tier": "T2",
+      "task": "Test whether the actual source-intended gauge/observation prescription removes the specific non-null microlocal channel or the same signed-energy current witnesses. First identify a supplied operator/domain; do not invent a quotient or boundary law. Separable candidate work may test the same-germ on-shell Ward pairing with its stated boundary functional. A cutoff density or generic mixed-cone receiver does not settle interaction.",
+      "expected_delta": "An exact channel removal or retained Ward-nontrivial on-shell coupling on a named common domain; if unavailable, isolate the missing source/physical datum. Keep unstable-symbol modes distinct from signed-energy current germs.",
+      "class_covered": "Held W2/K95 kappa1 candidate and explicitly named existing gauge/observation/common-domain structures, not all class C.",
+      "source_bridge": "Source necessity must be checked separately; no new choice family.",
+      "kill_condition": "Only a certified incompatibility on a source-required physical channel advances a physical exclusion; absent prescriptions and solver failures do not.",
+      "shared_prerequisite": "FullM, actual triangular solution family, same-germ current, actual non-null symbol and graph estimate obstruction are discharged.",
+      "strongest_alternative": "A structural finite-loss/analytic evolution discriminator for the already-held equations if it changes candidate viability; do not repeat no-loss estimates or assemble the large spin0 module by default."
+    }
+  ],
+  "counterfactual_proposal": {
+    "status": "proposal_only_not_executed",
+    "authority": "joe_direct_chat_2026_11_26_g",
+    "ranked_item_numbers": [
+      1,
+      6,
+      2,
+      3,
+      7,
+      5,
+      4
+    ],
+    "basis": "Qualitative expected time saved at the actual consistency bottleneck; no measured forecasts or success probabilities.",
+    "ranked": [
+      {
+        "item": 1,
+        "expected_savings": "highest immediate",
+        "proposal": "Map queued outcomes to changed action, claim, bound or certificate. Consume tasks already covered by a theorem. Same next action alone is not grounds to skip useful evidence."
+      },
+      {
+        "item": 6,
+        "expected_savings": "high immediate",
+        "proposal": "Separate necessary source consequences from candidate-conditional desiderata and order by test cost. Connectivity to these chosen roots and positive physical energy are not silently made source premises."
+      },
+      {
+        "item": 2,
+        "expected_savings": "medium-high if targeted",
+        "proposal": "Audit dependencies of the actual live operator/domain question first; the old six first-consistency channels are consumed. Defer all ten-family flips; one-at-a-time survival does not prove joint robustness. Plus/minus adjoint remains a comparator unless sourced."
+      },
+      {
+        "item": 3,
+        "expected_savings": "high before a physical-ghost claim, lower for current algebraic range",
+        "proposal": "One matched control for the exact inference first. Distinguish constrained energy from BRST physical ghosts; conformal-gravity expectation requires a stated prescription."
+      },
+      {
+        "item": 7,
+        "expected_savings": "medium later",
+        "proposal": "Use a matched four-dimensional comparator only for a specific observation-related obstruction, preserving relevant structures."
+      },
+      {
+        "item": 5,
+        "expected_savings": "low immediate",
+        "proposal": "Euclidean base changes the real form and physical-time question; use only if it distinguishes a named sign mechanism."
+      },
+      {
+        "item": 4,
+        "expected_savings": "lowest immediate",
+        "proposal": "Toy dimensions alter branching and source counts; use if a structural dimension theorem is otherwise unavailable."
+      }
+    ],
+    "recommendation": "Approve lightweight items1/6 and targeted dependencies; reserve comparator execution for a specific diagnostic question. Broad suites remain deferred proposals, not new stop rules.",
+    "current_theorem_effect": "Actual microlocal correction and same-germ current are ordinary directed science. Nov26g remains proposal-only; no new VOI gate or counterfactual suites. Large spin0 assembly was avoided through exact character/covariance reduction.",
+    "sensitivity_scope_correction": {
+      "status": "proposal_grounded_in_owned_quadratic_autonomy_not_executed_sweep",
+      "reason": "The ten families are not ten independent switches in the present local operator. Geometry, shiab recipe and coupling enter the held bosonic map. The zero-matter imaginary quadratic block is autonomous from the fermion recipe and the diagnostic matter lift/band/dispersion/dual/tube choices. Variational and physical domains still affect admissibility and propagation, so local algebraic independence is not physical independence.",
+      "evidence": [
+        "lab/process/source-action-q7-propagation.json#coupled_quadratic_autonomy",
+        "lab/process/action-constraint-matrix.json#source_relevance_assumption_view.candidate_choice_budget"
+      ],
+      "adjoint_caution": "A plus/minus adjoint flip changes the stated construction unless an authenticated source permits it; label it a comparator, not a new GU choice."
+    },
+    "current_queue_outcome_map": {
+      "weak_response": "Same-germ local current is now certified. Do not repeat generic visibility; Ward/boundary, unstable-mode projection and physical admission are distinct next burdens.",
+      "path_continuation": "Connection to the large-kappa branch would add a scoped candidate result; a numerical turn is no exclusion. Neither alone selects a physical state, and source necessity of that path is unproved.",
+      "spin4_cokernel": "Complete owned ranges and whole first consistency consume old Q source/nonmembership tests; fullM now consumes the remaining auxiliary regularity question.",
+      "BRST": "Ordinary finite local arbitrary-function gauge removal is excluded in the autonomous block after full regularity. Physical cohomology still requires an authentic action charge and common invariant domain; a guessed ghost algebra is not that test."
+    }
+  },
+  "quick_math20": {
+    "method": "One compact description-lens pass, not20 separate agents or independent scientists. Concrete author/review roles separate.",
+    "lenses": [
+      {
+        "index": 1,
+        "lens": "Differential geometry",
+        "decision_delta": "Exact characters remove a broad first-jet assembly."
+      },
+      {
+        "index": 2,
+        "lens": "Representation theory",
+        "decision_delta": "SO3 closes the symbol block, not the triangular PDE."
+      },
+      {
+        "index": 3,
+        "lens": "PDE",
+        "decision_delta": "Prove a no-loss graph estimate obstruction, not exact growth."
+      },
+      {
+        "index": 4,
+        "lens": "Microlocal analysis",
+        "decision_delta": "Kernel polarization changes the principal matrix and cancels the scalar-jet Delta0."
+      },
+      {
+        "index": 5,
+        "lens": "Category theory",
+        "decision_delta": "Jet elimination, pseudodifferential reduction and physical descent are distinct maps."
+      },
+      {
+        "index": 6,
+        "lens": "Number theory",
+        "decision_delta": "Exact rational moments certify signs without an eigensolver."
+      },
+      {
+        "index": 7,
+        "lens": "Symplectic geometry",
+        "decision_delta": "Same-germ current is not energy exchange."
+      },
+      {
+        "index": 8,
+        "lens": "Krein theory",
+        "decision_delta": "Use the declared graph norm, not a physical positive norm claim."
+      },
+      {
+        "index": 9,
+        "lens": "Harmonic analysis",
+        "decision_delta": "Localized packets test actual coefficients on a non-null cone."
+      },
+      {
+        "index": 10,
+        "lens": "Control theory",
+        "decision_delta": "Avoid cone-mixture visibility false positives."
+      },
+      {
+        "index": 11,
+        "lens": "Descriptor systems",
+        "decision_delta": "Eliminate auxiliaries using the already-owned complete inverse."
+      },
+      {
+        "index": 12,
+        "lens": "Algebraic geometry",
+        "decision_delta": "Finite boost weights replace sampling."
+      },
+      {
+        "index": 13,
+        "lens": "Operator theory",
+        "decision_delta": "Specify graph forcing as well as state norm."
+      },
+      {
+        "index": 14,
+        "lens": "Numerical analysis",
+        "decision_delta": "Reuse norm-typed inverse errors and exact HS margins."
+      },
+      {
+        "index": 15,
+        "lens": "Tensor calculus",
+        "decision_delta": "Retain all form and endomorphism legs."
+      },
+      {
+        "index": 16,
+        "lens": "Noncommutative algebra",
+        "decision_delta": "The symbol correction is a left shear, not similarity."
+      },
+      {
+        "index": 17,
+        "lens": "Topology",
+        "decision_delta": "Local estimates do not supply global physical domains."
+      },
+      {
+        "index": 18,
+        "lens": "Dynamical systems",
+        "decision_delta": "Unstable principal spectrum and negative-energy current need not be the same mode."
+      },
+      {
+        "index": 19,
+        "lens": "Homological physics",
+        "decision_delta": "Ward and physical quotient remain separate burdens."
+      },
+      {
+        "index": 20,
+        "lens": "Computational algebra",
+        "decision_delta": "Six-record replay takes46.37s; defer unnecessary large assembly."
+      }
+    ]
+  },
+  "choice_budget": {
+    "families": 10,
+    "obligation_bundles": 4,
+    "net": 6,
+    "source_selected_predictions": 0,
+    "delta": 0
+  },
+  "accounting": "Directed79to80/LBCLASS38to39. Existing directed_lc_carry_2026_11_25_physical remains pending for the next ordinary run; no cadence amendment, scheduler opportunity consumption or bet credit.",
+  "verification": {
+    "native_gates": {
+      "program_focus_audit": "PASS",
+      "typed_carrier_declaration_audit": "PASS",
+      "kill_target_claim_audit": "PASS",
+      "frontmatter_status_schema_audit": "PASS",
+      "source_native_comparator_routing_audit": "PASS",
+      "lean_certificate_surface_audit": "PASS",
+      "current_state_absolute_currency_audit": "PASS"
+    },
+    "native_certificate": "lab/process/source-action-onshell-dynamics-certificates.json",
+    "independent_reviews": "lab/process/hostile-reviews/2026-11-27-source-action-onshell-dynamics-review.md",
+    "lean": {
+      "command": "lake env lean -j1 /private/tmp/gu-onshell-dynamics-wt-20261127/Lean/GUFormalization/OnshellDynamics.lean",
+      "cwd": "/Users/joe/Brain/CapacityOS/repos/public/gu-formalization",
+      "exit_code": 0,
+      "output": "",
+      "source_sha256": "43638a54fc3055e76796cf9407e75dbf821e94e114952c11731296290782341c",
+      "scope": "Five finite lemmas; native symbol identification, spectral trace bridge, root certificates, microlocal operator and packet proof separately reviewed. No whole-project build.",
+      "prior_attempts": [
+        "First compile passed with unused-instance/deprecated-tactic warnings; narrow cleanup recompiled without warnings."
+      ]
+    },
+    "replay": {
+      "passed": true,
+      "probe_sha256": "4dee75b4d67f1c37560ea0f20383b3e492e6336db2f2c081e9ba9988f46d0403",
+      "bundle_sha256": "05e4c5edeb0634d91224af27d1d65d7abebdec6483076e0d75a4b57a440a96d5",
+      "all_six_mathematical_records_recomputed": [
+        "onshell-sources.json",
+        "onshell-current.json",
+        "onshell-boost.json",
+        "onshell-spin0-scope.json",
+        "onshell-principal.json",
+        "onshell-intrinsic.json"
+      ],
+      "same_signed_germ_sources_and_original_receivers_recomputed": true,
+      "both_roots_both_real_component_crossGram_margins_recomputed": true,
+      "all36_full_tensor_boost_polynomial_controls_recomputed": true,
+      "owned_spin0_dimension_and_four_native_columns_recomputed": true,
+      "native_K7_projector_derivative_and_signed_adjoints_recomputed": true,
+      "both_intrinsic20_moment_error_bounds_recomputed": true,
+      "inherited_auxiliary_inverses_authenticated_not_regenerated": true,
+      "floating_inverse_regenerated": false,
+      "seconds": 46.370490666944534,
+      "scope": "Bounded full native replay of this wave; the microlocal analytic theorem is separately reviewed. No full spin0 matrix assembly or forced-energy/physical conclusion."
+    },
+    "replay_sha256": "1da4fc962c665e858adf1517c2831e3297b9191874cd3f83805050de65924ea2",
+    "protected_surfaces": "program_focus,cells,intersections,shrinkage and choice budget unchanged"
+  },
+  "current_sha256": {
+    "explorations/conditional-build/source-action-onshell-dynamics-2026-11-27.md": "8e96a4924074b14205d4d1f0da10d7a97b26f5f30083e216464e807bf8a6a768",
+    "tests/program-focus/source_action_onshell_dynamics_probe.py": "4dee75b4d67f1c37560ea0f20383b3e492e6336db2f2c081e9ba9988f46d0403",
+    "lab/process/source-action-onshell-dynamics-certificates.json": "05e4c5edeb0634d91224af27d1d65d7abebdec6483076e0d75a4b57a440a96d5",
+    "lab/process/hostile-reviews/2026-11-27-source-action-onshell-dynamics-review.md": "4c96b88bb234c1b54292108a3bc9e2eb391e9f02efac30fc2f0af4e270d4b96c",
+    "Lean/GUFormalization/OnshellDynamics.lean": "43638a54fc3055e76796cf9407e75dbf821e94e114952c11731296290782341c"
+  }
+}

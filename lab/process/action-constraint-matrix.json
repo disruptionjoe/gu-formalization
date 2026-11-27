@@ -1788,7 +1788,7 @@
     },
     "LB-CLASS": {
       "zero_delta_streak": 0,
-      "runs": 38,
+      "runs": 39,
       "status": "open"
     },
     "LB-LADDER": {
@@ -2707,7 +2707,7 @@
   ],
   "program_run_counter": {
     "since": "2026-11-09",
-    "count": 79,
+    "count": 80,
     "rule": "Every hourly run increments this in its postflight, whatever its lane. Lane C runs when count % 4 == 3 before the increment."
   },
   "working_rule": "Cells are worked at the structure level: a requirement must hold for every action in class C or for a structurally defined subfamily. No cell is worked by writing down a specific action, and no gated cell is worked by building its gate object. See CURRENT-STATE.yaml program_focus.structure_not_specifics.",
@@ -3321,6 +3321,22 @@
       ],
       "claim_effect": "No matrix cell/intersection, scientific shrinkage, source/physics/canon/class-C/paper verdict change.",
       "cadence_note": "Directed78to79/LBCLASS37to38. Existing directed_lc_carry_2026_11_25_physical remains pending for the next ordinary run; no cadence amendment or bet credit."
+    },
+    {
+      "date": "2026-11-27",
+      "authority": "joe_direct_chat_2026_11_26_continued_falsification_math20",
+      "item": "Actual non-null graph estimate obstruction and same-germ current",
+      "tier": "T1",
+      "counter_before": 79,
+      "counter_after": 80,
+      "lane": "LB-CLASS",
+      "actual_delta": "At both held W2/K95 kappa1 roots, the actual non-null microlocal connection generator has a positive-real-part principal eigenvalue and excludes same-order local Duhamel bounds on the declared first-graph core with graph forcing. Separately, the same negative canonical-energy analytic germs have nonzero selected current in the held positive matter completion. Physical admission, Ward-nontrivial interaction and energy exchange remain unproved.",
+      "evidence": [
+        "explorations/conditional-build/source-action-onshell-dynamics-2026-11-27.md",
+        "lab/process/source-action-onshell-dynamics.json"
+      ],
+      "claim_effect": "No matrix cell/intersection, scientific shrinkage, source/physics/canon/class-C/paper verdict change.",
+      "cadence_note": "Directed79to80/LBCLASS38to39. Existing directed_lc_carry_2026_11_25_physical remains pending for the next ordinary run; no cadence amendment, scheduler opportunity consumption or bet credit."
     }
   ],
   "directed_lc_carry_2026_11_24_b": {
@@ -3683,7 +3699,9 @@
           "explorations/conditional-build/source-action-full-auxiliary-map-2026-11-26.md",
           "lab/process/source-action-full-auxiliary.json",
           "explorations/conditional-build/source-action-scalar-normal-operator-2026-11-27.md",
-          "lab/process/source-action-scalar-normal-operator.json"
+          "lab/process/source-action-scalar-normal-operator.json",
+          "explorations/conditional-build/source-action-onshell-dynamics-2026-11-27.md",
+          "lab/process/source-action-onshell-dynamics.json"
         ],
         "choices": "Historical original choices are retained below; current held fermion repair is SE=-1/2 (SE0 superseded), kappa1 with two unselected roots. Typed candidate_choice_budget separates core/completion/pending/comparator/parked choices.",
         "wave2_update": {
@@ -4627,6 +4645,36 @@
           "source_status": {
             "status": "conditional",
             "reason": "SC-ACT-01 action grammar does not select W2. SC-META-52/53 do not select the tested upstairs solution class, a physical quotient or boundary domain. Local canonical patch energy is not automatically a physical Hamiltonian."
+          },
+          "superseded_continuation": "lab/process/source-action-onshell-dynamics.json"
+        },
+        "onshell_dynamics_followthrough": {
+          "state": "At both held W2/K95 kappa1 roots, the actual non-null microlocal connection generator has a positive-real-part principal eigenvalue and excludes same-order local Duhamel bounds on the declared first-graph core with graph forcing. Separately, the same negative canonical-energy analytic germs have nonzero selected current in the held positive matter completion. Physical admission, Ward-nontrivial interaction and energy exchange remain unproved.",
+          "next": [
+            {
+              "id": "same_germ_ward_and_physical_channel",
+              "status": "ready_for_bounded_source_and_operator_discrimination",
+              "target": "LB-CLASS",
+              "tier": "T2",
+              "task": "Test whether the actual source-intended gauge/observation prescription removes the specific non-null microlocal channel or the same signed-energy current witnesses. First identify a supplied operator/domain; do not invent a quotient or boundary law. Separable candidate work may test the same-germ on-shell Ward pairing with its stated boundary functional. A cutoff density or generic mixed-cone receiver does not settle interaction.",
+              "expected_delta": "An exact channel removal or retained Ward-nontrivial on-shell coupling on a named common domain; if unavailable, isolate the missing source/physical datum. Keep unstable-symbol modes distinct from signed-energy current germs.",
+              "class_covered": "Held W2/K95 kappa1 candidate and explicitly named existing gauge/observation/common-domain structures, not all class C.",
+              "source_bridge": "Source necessity must be checked separately; no new choice family.",
+              "kill_condition": "Only a certified incompatibility on a source-required physical channel advances a physical exclusion; absent prescriptions and solver failures do not.",
+              "shared_prerequisite": "FullM, actual triangular solution family, same-germ current, actual non-null symbol and graph estimate obstruction are discharged.",
+              "strongest_alternative": "A structural finite-loss/analytic evolution discriminator for the already-held equations if it changes candidate viability; do not repeat no-loss estimates or assemble the large spin0 module by default."
+            }
+          ],
+          "consumed": [
+            "actual non-null microlocal principal including frequency-dependent kernel/lapse correction",
+            "same signed-energy solution current in the held all-cross-Gram positive matter completion",
+            "no-loss local graph-Duhamel estimate at the timelike normal ray; not all derivative-loss estimates",
+            "repeated fullM inversion, generic receiver scans, old scalar-jet assembly or broad spin0 census as prerequisites to this result"
+          ],
+          "choice_budget_delta": 0,
+          "source_status": {
+            "status": "conditional",
+            "reason": "SC-ACT-01/02 action grammar does not select W2. SC-META-52/53 do not select the tested upstairs graph core or a physical quotient/boundary domain. Candidate-level estimate failure is not source-required GU falsification."
           }
         }
       }

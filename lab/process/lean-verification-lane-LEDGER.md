@@ -543,3 +543,7 @@ bicategory, ambidexterity or Mackey 2-functor is inferred.
 ## 2026-11-27 — Scalar-normal reduction finite core
 
 `Lean/GUFormalization/ScalarNormalSchur.lean`: **LEAN-VERIFIED**, six lemmas for the moving-frame auxiliary-row cancellation, frequency-independent compression, positive/negative quadratic dominance, native du norm arithmetic and real-component sign. Targeted single-thread `lake env lean -j1` passed without warnings or placeholders; default import registered. Statement validation: the compression hypotheses, root coefficients and O(k) patch-boundary remainder are supplied and checked outside Lean. Exact triangular geometry, local analytic ODE solutions, global/physical admissibility and the full PDE are not formalized. [Result](../../explorations/conditional-build/source-action-scalar-normal-operator-2026-11-27.md).
+
+## 2026-11-27 — On-shell dynamics finite core
+
+`Lean/GUFormalization/OnshellDynamics.lean`: **LEAN-VERIFIED**, five lemmas for left-shear blocks, reflection preservation, positive-real entry from a trace-zero positive moment, scalar moment bounds and conservative rate arithmetic. Targeted single-thread compilation passed without warnings or placeholders; default import registered. Statement validation: supplying the native matrix/eigenvalue list, the root certificates and the actual microlocal/packet theorem remains separately reviewed mathematics. No full-PDE formalization or whole-project build claim. [Result](../../explorations/conditional-build/source-action-onshell-dynamics-2026-11-27.md).

@@ -16,6 +16,12 @@ Do not add "Current follow-through" sections or "Historical predecessor" stacks 
 matrix or bet file. The retired follow-through chain and banner stack are kept at the end of this file under
 "Archived steering history".
 
+## Actual on-shell dynamics (2026-11-27)
+
+At both held W2/K95 kappa1 roots, the actual non-null microlocal connection generator has a positive-real-part principal eigenvalue and excludes same-order local Duhamel bounds on the declared first-graph core with graph forcing. Separately, the same negative canonical-energy analytic germs have nonzero selected current in the held positive matter completion. Physical admission, Ward-nontrivial interaction and energy exchange remain unproved.
+
+[Result](explorations/conditional-build/source-action-onshell-dynamics-2026-11-27.md) · [Evidence](lab/process/source-action-onshell-dynamics.json).
+
 ## Actual local signed-energy solutions (2026-11-27)
 
 An exact full-carrier triangular-frame reduction of the held W2/K95 candidate supplies genuine local analytic linearized solution germs at every fixed finite normal frequency. At both kappa1 roots, such solutions have either sign of canonical energy integrated on a fixed finite ambient slice patch. Separately, the correctly composed exponential-frame scalar-normal operator includes a nonzero transverse Schur correction and has certified positive-real-part high-frequency frozen growth at both roots. No physical ghost, global evolution, nonlinear runaway or GU falsification follows.
