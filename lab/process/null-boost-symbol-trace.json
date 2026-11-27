@@ -1,0 +1,514 @@
+{
+  "artifact": "NULL_BOOST_SYMBOL_TRACE",
+  "date": "2026-11-27",
+  "basis_revision": "561fbb3f8bf9ea945ff92311fd8b19f3ede7ccd8",
+  "status": "internal_T1_null_symbol_trace_reviewed",
+  "program_target": "LB-CLASS",
+  "tier": "T1",
+  "expected_delta": "Coefficient-independent short-complex exclusion, sharp calibrated exceptions and consumed-source-route correction.",
+  "actual_delta": "At a real nonzero null covector, every homogeneous boost-equivariant four-term symbol with repeated finite coefficient E has the necessary order balance a+c=(n-1)b. In dimension14, first-order incoming/outgoing arrows cannot be completed to an exact complex by any integer-order homogeneous middle arrow, independently of its coefficients.",
+  "class_covered": "E -> V* tensor E -> Lambda(n-1)V* tensor E -> LambdanV* tensor E, finite nonzero smooth coefficient representation E over R/C, oriented indefinite real V; homogeneous scalar arrow orders a,b,c and actual fixed-background scaling-boost covariance. Exactness at all four terms including endpoints.",
+  "premises": [
+    "lab/sources/source-claim-register.yaml",
+    "lab/sources/gu-2021-draft-s9-fermionic-operator-extraction-2026-08-04.md",
+    "lab/sources/gu-shiab-bianchi-two-connection-target-source-reinspection-2026-08-05.md",
+    "lab/process/k276-sc-act-06-euclidean-principal-complex-data-gate.json",
+    "lab/process/k708-sc-act-06-euclidean-dewitt-signature-gate.json",
+    "lab/process/k717-sc-act-06-flat-euclidean-gimmel-germ.json",
+    "lab/process/k720-sc-act-06-selected-i1b-euclidean-bosonic-symbol.json",
+    "lab/process/k926-sc-act-06-complete-connection-quotient-bundle.json",
+    "lab/process/k1126-k895-first-order-formal-adjoint-correction.json",
+    "lab/process/k1127-k887-t0-gauge-carrier-correction.json",
+    "lab/process/k1129-k887-k940-consumer-survival-audit.json",
+    "lab/process/k1130-k1129-corrected-action-boundary.json",
+    "explorations/conditional-build/shiab-bianchi-companion-class-2026-11-27.md"
+  ],
+  "source_bridge": {
+    "status": "conditional",
+    "reason": "SC-ACT-06 asserts the total reduced first-order Upsilon0 complex, not the repeated-E short carrier, homogeneous scalar orders or full ambient boost symmetry at its background. Extra source fields and existing O4/Cartan structures are outside this class."
+  },
+  "weakest_unproved_link": "Source necessity of this short carrier/order/symmetry profile; not authenticated.",
+  "source_necessary_claim": "conditional",
+  "class_C_representativeness": "Unestablished; no certified width witness or whole-C inference.",
+  "structural_or_build_specific": "All coefficients and all finite representations in the specified short-symbol architecture; not all source-admissible mixed-field complexes.",
+  "kill_condition": "Nonzero shifted alternating boost trace contradicts exactness; failure binds only the declared symbol category.",
+  "choice_budget_effect": "none;10 families/4 grouped obligations/net6/0 source-selected predictions unchanged",
+  "results": {
+    "trace_identity": "Alternating trace of any chain endomorphism of a finite exact complex is zero, by invariant-image short exact sequences. No semisimplicity or positive norm.",
+    "shift": "Boost covariance gives B(j+1) A(j)-A(j) B(j)=m(j) A(j); subtract cumulative arrow orders from each boost generator.",
+    "defect": "[a+c-(n-1)b] dimE; allfirstorder=(3-n)dimE, n14 End128 yields -180224 (trace, not cohomology dimension).",
+    "order_exclusion": "With a=c=1, n14 requires13b=2, impossible for every nonnegative integerb. Does not classify componentwise mixed DN symbols or different modules.",
+    "survivors": "n3 deRham; n2 order1,2,1 Maxwell; full exterior deRham in every dimension even indefinite; different source module/order/symmetry profiles remain undetermined.",
+    "auxiliary_metric": "Positive auxiliary norm changes neither original maps nor nonzero null covector. A background-owned smaller symmetry can change coefficients and falls outside full ambient boost premise."
+  },
+  "reuse_correction": {
+    "consumed": "K276/K717/K720 and later direct-response coverage already tested selected Euclidean/source-shaped operators; no new science credit for redoing them.",
+    "retired_inference": "K1126-30 withdraw old first-order-skew Helmholtz and radial-gauge completion inference. K887-925 not current source obligations; K926-940 auxiliary only.",
+    "retained_fit": "K711-717 auxiliary-positive/Cartan route remains possible at its declared reduced symmetry; native13,1 alone does not refute ellipticity.",
+    "retrospective": "Previous bounded next-step recommendation relied on historical B2C8 without later correction closure. Corrected before owner science; existing reuse index now records exact replacement pointers, no new governance rule.",
+    "scratch_audits_used": [
+      "/private/tmp/gu-elliptic-reuse-20261127.md",
+      "/private/tmp/gu-elliptic-source-20261127.md"
+    ],
+    "durable_audit": "Report source/reuse section and linked correction owners preserve the consequential findings; scratch is not required for theorem reproduction."
+  },
+  "selection": {
+    "mandatory_basis": "Counter98 ordinaryB, no unfinishedT1, priority packets done/blocked; LB-CLASS structural source-complex interpretation.",
+    "reuse_difference": "No new selected-map rank or gauge quotient computation; boost trace quantifies every map in a fixed representation/order profile.",
+    "source_relevance": "Conditional interpretation of SC-ACT-06, explicit fullfield/background mismatch; not a source-level negative.",
+    "shared_prerequisite": "Actual reduced source tangent complex and symmetry, shared with constraint propagation and physical quotient.",
+    "outcomes": [
+      "Nonzero trace consumes all coefficient searches in class.",
+      "Zero trace only necessary: actual deRham/Maxwell ranks calibrate it.",
+      "Source profile not established: retain exact source incompleteness and escapes, no GU verdict."
+    ],
+    "strongest_alternative": "Physical current/quotient or full source-complex tests have greater direct reach but still lack their precise admitted tuples.",
+    "forecast": "Elementary class proof and small calibrated exact probes; no native128 matrices.",
+    "actual_cost": "130 grouped controls in 0.03983679227530956seconds; proof/review/integration cost not equated with runtime.",
+    "lenses": "Quick20 descriptions: representation/Clifford/differentialgeometry/PDE/symbols/homological/category/numbertheory/topology/functional/gauge/variational/symplectic/reality/exactalgebra/numerics/sourcecriticism/statistics/control/optimization; no per-persona agents."
+  },
+  "verification": {
+    "controls": {
+      "deRham_positive_control": "Full exterior sequence exact at real null k in n=2..7; n3 is exactly the short firstorder profile.",
+      "maxwell": [
+        {
+          "n": 2,
+          "covector": "null",
+          "ranks": [
+            1,
+            1,
+            1
+          ],
+          "middle_homology": [
+            0,
+            0
+          ]
+        },
+        {
+          "n": 2,
+          "covector": "positive",
+          "ranks": [
+            1,
+            1,
+            1
+          ],
+          "middle_homology": [
+            0,
+            0
+          ]
+        },
+        {
+          "n": 2,
+          "covector": "negative",
+          "ranks": [
+            1,
+            1,
+            1
+          ],
+          "middle_homology": [
+            0,
+            0
+          ]
+        },
+        {
+          "n": 3,
+          "covector": "null",
+          "ranks": [
+            1,
+            1,
+            1
+          ],
+          "middle_homology": [
+            1,
+            1
+          ]
+        },
+        {
+          "n": 3,
+          "covector": "positive",
+          "ranks": [
+            1,
+            2,
+            1
+          ],
+          "middle_homology": [
+            0,
+            0
+          ]
+        },
+        {
+          "n": 3,
+          "covector": "negative",
+          "ranks": [
+            1,
+            2,
+            1
+          ],
+          "middle_homology": [
+            0,
+            0
+          ]
+        },
+        {
+          "n": 4,
+          "covector": "null",
+          "ranks": [
+            1,
+            1,
+            1
+          ],
+          "middle_homology": [
+            2,
+            2
+          ]
+        },
+        {
+          "n": 4,
+          "covector": "positive",
+          "ranks": [
+            1,
+            3,
+            1
+          ],
+          "middle_homology": [
+            0,
+            0
+          ]
+        },
+        {
+          "n": 4,
+          "covector": "negative",
+          "ranks": [
+            1,
+            3,
+            1
+          ],
+          "middle_homology": [
+            0,
+            0
+          ]
+        },
+        {
+          "n": 14,
+          "covector": "null",
+          "ranks": [
+            1,
+            1,
+            1
+          ],
+          "middle_homology": [
+            12,
+            12
+          ]
+        },
+        {
+          "n": 14,
+          "covector": "positive",
+          "ranks": [
+            1,
+            13,
+            1
+          ],
+          "middle_homology": [
+            0,
+            0
+          ]
+        },
+        {
+          "n": 14,
+          "covector": "negative",
+          "ranks": [
+            1,
+            13,
+            1
+          ],
+          "middle_homology": [
+            0,
+            0
+          ]
+        }
+      ],
+      "status": "PASS",
+      "grouped_checks": 130,
+      "checks": [
+        "deRham_2_ranks",
+        "deRham_2_complex",
+        "deRham_2_exact",
+        "deRham_2_shifted_trace",
+        "deRham_3_ranks",
+        "deRham_3_complex",
+        "deRham_3_exact",
+        "deRham_3_shifted_trace",
+        "deRham_4_ranks",
+        "deRham_4_complex",
+        "deRham_4_exact",
+        "deRham_4_shifted_trace",
+        "deRham_5_ranks",
+        "deRham_5_complex",
+        "deRham_5_exact",
+        "deRham_5_shifted_trace",
+        "deRham_6_ranks",
+        "deRham_6_complex",
+        "deRham_6_exact",
+        "deRham_6_shifted_trace",
+        "deRham_7_ranks",
+        "deRham_7_complex",
+        "deRham_7_exact",
+        "deRham_7_shifted_trace",
+        "Maxwell_2_null_complex",
+        "Maxwell_2_null_homology",
+        "Maxwell_2_boost",
+        "Maxwell_2_trace",
+        "Maxwell_2_positive_complex",
+        "Maxwell_2_positive_homology",
+        "Maxwell_2_negative_complex",
+        "Maxwell_2_negative_homology",
+        "Maxwell_3_null_complex",
+        "Maxwell_3_null_homology",
+        "Maxwell_3_boost",
+        "Maxwell_3_trace",
+        "Maxwell_3_positive_complex",
+        "Maxwell_3_positive_homology",
+        "Maxwell_3_negative_complex",
+        "Maxwell_3_negative_homology",
+        "Maxwell_4_null_complex",
+        "Maxwell_4_null_homology",
+        "Maxwell_4_boost",
+        "Maxwell_4_trace",
+        "Maxwell_4_positive_complex",
+        "Maxwell_4_positive_homology",
+        "Maxwell_4_negative_complex",
+        "Maxwell_4_negative_homology",
+        "Maxwell_14_null_complex",
+        "Maxwell_14_null_homology",
+        "Maxwell_14_boost",
+        "Maxwell_14_trace",
+        "Maxwell_14_positive_complex",
+        "Maxwell_14_positive_homology",
+        "Maxwell_14_negative_complex",
+        "Maxwell_14_negative_homology",
+        "order_trace_2_1_111",
+        "order_trace_2_1_121",
+        "order_trace_2_1_101",
+        "order_trace_2_1_213",
+        "order_trace_2_2_111",
+        "order_trace_2_2_121",
+        "order_trace_2_2_101",
+        "order_trace_2_2_213",
+        "order_trace_2_16384_111",
+        "order_trace_2_16384_121",
+        "order_trace_2_16384_101",
+        "order_trace_2_16384_213",
+        "order_trace_3_1_111",
+        "order_trace_3_1_121",
+        "order_trace_3_1_101",
+        "order_trace_3_1_213",
+        "order_trace_3_2_111",
+        "order_trace_3_2_121",
+        "order_trace_3_2_101",
+        "order_trace_3_2_213",
+        "order_trace_3_16384_111",
+        "order_trace_3_16384_121",
+        "order_trace_3_16384_101",
+        "order_trace_3_16384_213",
+        "order_trace_4_1_111",
+        "order_trace_4_1_121",
+        "order_trace_4_1_101",
+        "order_trace_4_1_213",
+        "order_trace_4_2_111",
+        "order_trace_4_2_121",
+        "order_trace_4_2_101",
+        "order_trace_4_2_213",
+        "order_trace_4_16384_111",
+        "order_trace_4_16384_121",
+        "order_trace_4_16384_101",
+        "order_trace_4_16384_213",
+        "order_trace_7_1_111",
+        "order_trace_7_1_121",
+        "order_trace_7_1_101",
+        "order_trace_7_1_213",
+        "order_trace_7_2_111",
+        "order_trace_7_2_121",
+        "order_trace_7_2_101",
+        "order_trace_7_2_213",
+        "order_trace_7_16384_111",
+        "order_trace_7_16384_121",
+        "order_trace_7_16384_101",
+        "order_trace_7_16384_213",
+        "order_trace_14_1_111",
+        "order_trace_14_1_121",
+        "order_trace_14_1_101",
+        "order_trace_14_1_213",
+        "order_trace_14_2_111",
+        "order_trace_14_2_121",
+        "order_trace_14_2_101",
+        "order_trace_14_2_213",
+        "order_trace_14_16384_111",
+        "order_trace_14_16384_121",
+        "order_trace_14_16384_101",
+        "order_trace_14_16384_213",
+        "native14_firstorder_defect",
+        "native14_integer_order_impossibility",
+        "character_identity_3",
+        "character_identity_4",
+        "character_identity_14",
+        "nondiagonal_chain_1",
+        "exact_chain_1",
+        "alternating_trace_1",
+        "planted_non_chain_map_1",
+        "nondiagonal_chain_2",
+        "exact_chain_2",
+        "alternating_trace_2",
+        "planted_non_chain_map_2",
+        "planted_unshifted_trace_rejected"
+      ],
+      "runtime_seconds": 0.03983679227530956,
+      "scope": "Exact finite controls; universal theorem is written/reviewed; no full GU complex, source covariance, global domain or novelty certified."
+    },
+    "lean": {
+      "status": "PASS",
+      "fresh": true,
+      "command": "lake env lean -j1 /private/tmp/gu-null-trace-wt-20261127/Lean/GUFormalization/NullSymbolTrace.lean",
+      "cwd": "mounted GU root with cached Mathlib",
+      "exit_code": 0,
+      "output": "none",
+      "finite_cores": 3,
+      "scope": "Finite trace telescope, shifted scalar identity and integer13b\u22602 only; exact-chain and geometric/source theorem remain written and reviewed."
+    },
+    "review": {
+      "status": "accepted",
+      "ref": "lab/process/hostile-reviews/2026-11-27-null-symbol-trace-review.md",
+      "roles": [
+        "non-author mathematical specialist",
+        "non-author source/physics specialist",
+        "separate hostile reviewer"
+      ],
+      "disclosure": "Source reviewer contributed preflight custody, not final artifacts; math and hostile had no theorem-development contribution. Internal reviews, no external expert certification."
+    },
+    "gates": {
+      "program_focus_audit": "PASS",
+      "typed_carrier_declaration_audit": "PASS",
+      "kill_target_claim_audit": "PASS",
+      "frontmatter_status_schema_audit": "PASS",
+      "source_native_comparator_routing_audit": "PASS",
+      "lean_certificate_surface_audit": "PASS",
+      "current_state_absolute_currency_audit": "PASS",
+      "conditional_evidence_delta_gate": "PASS",
+      "research_context_reader_audit": "PASS"
+    },
+    "dependencies": [
+      {
+        "ref": "lab/sources/source-claim-register.yaml",
+        "sha256": "dc3ae173b4cc0eb2a0e343e3d92d5f110b8e4f6eef3e2852a1e897ab4371ade6",
+        "fresh_replay": false
+      },
+      {
+        "ref": "lab/sources/gu-2021-draft-s9-fermionic-operator-extraction-2026-08-04.md",
+        "sha256": "c250ce367774ff593255cd211e18ea793dd3eddcd843e0520437b6d645a2c31b",
+        "fresh_replay": false
+      },
+      {
+        "ref": "lab/sources/gu-shiab-bianchi-two-connection-target-source-reinspection-2026-08-05.md",
+        "sha256": "66a14ee0583a6727a15a187469083e427ce86a1195cf98c2655edc16e87562ac",
+        "fresh_replay": false
+      },
+      {
+        "ref": "lab/process/k276-sc-act-06-euclidean-principal-complex-data-gate.json",
+        "sha256": "0722fe8de196b2e82480de1275ff0bac8af1461e1b0bb92442dfb3bb230abced",
+        "fresh_replay": false
+      },
+      {
+        "ref": "lab/process/k708-sc-act-06-euclidean-dewitt-signature-gate.json",
+        "sha256": "cb68b8d5a86f42a68ce257206f061a5a1deb9826b88c4ac06964c921e8a805ea",
+        "fresh_replay": false
+      },
+      {
+        "ref": "lab/process/k717-sc-act-06-flat-euclidean-gimmel-germ.json",
+        "sha256": "9b6f66363ecc489ff9d2eca45c6a130cbbeb949e065414fff04343e79c1f3ed1",
+        "fresh_replay": false
+      },
+      {
+        "ref": "lab/process/k720-sc-act-06-selected-i1b-euclidean-bosonic-symbol.json",
+        "sha256": "c0019f3f8ad286995b31b81d571e429487e004b07becb37a73cdf36baba16aaa",
+        "fresh_replay": false
+      },
+      {
+        "ref": "lab/process/k926-sc-act-06-complete-connection-quotient-bundle.json",
+        "sha256": "bec4677ecb1e196d1ef621b44e2df3cbb336ebb41db0457ff06d89bc1989b685",
+        "fresh_replay": false
+      },
+      {
+        "ref": "lab/process/k1126-k895-first-order-formal-adjoint-correction.json",
+        "sha256": "7bb6a27e1a751ac3f1cffc3190c3a7ede2db0b61c58469084bb1e7f5360cb043",
+        "fresh_replay": false
+      },
+      {
+        "ref": "lab/process/k1127-k887-t0-gauge-carrier-correction.json",
+        "sha256": "cd89511cc412d93bd242e19b2be7f574d8725d6f5af3c53c155fa89dae47f56e",
+        "fresh_replay": false
+      },
+      {
+        "ref": "lab/process/k1129-k887-k940-consumer-survival-audit.json",
+        "sha256": "e1f3b306f14f0b060bebdac534b45dac5c3c3e6fd07fd2602d3eaa757ba0e9c7",
+        "fresh_replay": false
+      },
+      {
+        "ref": "lab/process/k1130-k1129-corrected-action-boundary.json",
+        "sha256": "9fe9b92c1e7fd0a313c0b1dcaa82f1c3ef05566d1c8e636f60cfc15e8e826846",
+        "fresh_replay": false
+      },
+      {
+        "ref": "explorations/conditional-build/shiab-bianchi-companion-class-2026-11-27.md",
+        "sha256": "c0f4a812a26a7b37913d3e366182e65c25dd91965912b64df09fdf0e82679b42",
+        "fresh_replay": false
+      }
+    ],
+    "literature": [
+      {
+        "ref": "https://stacks.math.columbia.edu/tag/0GSY",
+        "use": "Standard trace additivity, not novelty evidence."
+      },
+      {
+        "ref": "https://arxiv.org/abs/math/0605192",
+        "use": "Branson-Gover detour complex: different module/orders and Riemannian ellipticity; no direct GU transfer."
+      }
+    ],
+    "novelty": "Bounded primary literature search and targeted repository reuse only; no world-novelty claim, paper promotion or external contact.",
+    "review_hashes": {
+      "math": "235a2af5e16d9ae079327271600b873481bfcfce157f7a09d96ac0f53a6d9972",
+      "source": "e803ab885e7cc1a7f2a3f3fbc602dfff938dda0cbca804b1a2af1dceee9addf9",
+      "hostile": "4a3277ea54223e27faf4418db3142f6f3cddc017655e33908cf3274b116b0306"
+    },
+    "artifact_hashes": {
+      "explorations/conditional-build/null-boost-symbol-trace-2026-11-27.md": "e04dddf916cdca9da18bd919f2c35dd6209df2f35bdb5a9fc5225d12d6a695bc",
+      "Lean/GUFormalization/NullSymbolTrace.lean": "ef526d69aec360da82773e134112fa12b11d30d9bd675f0b2dce2395496f5c62",
+      "tests/program-focus/null_boost_symbol_trace_probe.py": "95a66e706b0e94cd4082b239fbf47e85e02680c2a18bddb3bf02210c797db58d"
+    }
+  },
+  "follow_through": {
+    "consumed": [
+      "All homogeneous integer-order middle coefficient repairs under the n14 repeated-E profile with firstorder end arrows and a scaling boost.",
+      "Proposed first SC-ACT06 selected-symbol/background/row audit.",
+      "Radial-gauge completion obligations retired by K1126-30, not revived here."
+    ],
+    "survivors": [
+      "Full deRham complexes in indefinite signature",
+      "n3 short firstorder deRham",
+      "n2 Maxwell null complex",
+      "Source mixed-field or componentweighted complexes, untested here",
+      "Existing background O4/Cartan structure outside ambientboost premise"
+    ],
+    "next": "The selected-rank ellipticity opener and the full-equivariant short-chain coefficient search are consumed at their distinct scopes. Actual source reduced modules, gauge/redundancy maps and background symmetry are the reopening input. Existing mixed-field, component-weighted and reduced-symmetry routes remain undetermined. Next selection follows existing cadence; counter99 is LC-due, not another short-chain variation."
+  },
+  "accounting": {
+    "counter_before": 98,
+    "counter_after": 99,
+    "LB_CLASS_before": 53,
+    "LB_CLASS_after": 54,
+    "bet_credit": 0,
+    "new_choices": 0,
+    "matrix_cell_changes": 0,
+    "ledger_verdict_changes": 0
+  },
+  "effect_line": "Change: all-coefficient null-symbol exclusion plus corrected ellipticity coverage; why: eliminate a whole short-chain search and prevent replay of retired gauge claims; authority: Joe27(c,f,h); applied internal evidence, no policy/verdict change; effect: those successor computations are consumed, full source complex remains unresolved."
+}

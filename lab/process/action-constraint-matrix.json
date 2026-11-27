@@ -1788,7 +1788,7 @@
     },
     "LB-CLASS": {
       "zero_delta_streak": 0,
-      "runs": 53,
+      "runs": 54,
       "status": "open"
     },
     "LB-LADDER": {
@@ -2707,7 +2707,7 @@
   ],
   "program_run_counter": {
     "since": "2026-11-09",
-    "count": 98,
+    "count": 99,
     "rule": "Every hourly run increments this in its postflight, whatever its lane. Lane C runs when count % 4 == 3 before the increment."
   },
   "working_rule": "Cells are worked at the structure level: a requirement must hold for every action in class C or for a structurally defined subfamily. No cell is worked by writing down a specific action, and no gated cell is worked by building its gate object. See CURRENT-STATE.yaml program_focus.structure_not_specifics.",
@@ -3599,6 +3599,15 @@
       "counter_after": 98,
       "lane": "LB-CLASS",
       "selection": "Whole companion classification, actual-germ exclusion and positive wedge survivor in one science run."
+    },
+    {
+      "date": "2026-11-27",
+      "authority": "joe_direct_chat_2026_11_27_h",
+      "item": "null-boost-symbol-trace",
+      "counter_before": 98,
+      "counter_after": 99,
+      "lane": "LB-CLASS",
+      "selection": "All-coefficient short-complex obstruction and source correction closure."
     }
   ],
   "directed_lc_carry_2026_11_24_b": {
@@ -5449,6 +5458,23 @@
         ],
         "latest_constraint": "All algebraic ordinary Bianchi-symbol companion pairs are coefficient-linear right-wedge pairs. The selected displayed comm/symi/symi map fails on an actual full-unitary connection germ with identically zero Bianchi residual. A bare anticommutator with Hodge-dual Phi3 supplies a real primary-minus companion pair with nonzero ambient Einstein response.",
         "structural_choices": "No action or physical choice added; positive map only tests the companion category, with original endpoint exclusion retained."
+      },
+      {
+        "question": "Can a fully ambient-equivariant short repeated-coefficient complex be elliptic on real native null covectors?",
+        "premise_status": "Conditional fixed carrier and scalarorders; not source-fixed reduced complex",
+        "source_claim_refs": [
+          "lab/sources/source-claim-register.yaml#SC-ACT-06"
+        ],
+        "source_bridge": {
+          "status": "conditional",
+          "reason": "SC-ACT-06 asserts the total reduced first-order Upsilon0 complex, not the repeated-E short carrier, homogeneous scalar orders or full ambient boost symmetry at its background. Extra source fields and existing O4/Cartan structures are outside this class."
+        },
+        "evidence": [
+          "explorations/conditional-build/null-boost-symbol-trace-2026-11-27.md",
+          "lab/process/null-boost-symbol-trace.json"
+        ],
+        "latest_constraint": "At a real nonzero null covector, every homogeneous boost-equivariant four-term symbol with repeated finite coefficient E has the necessary order balance a+c=(n-1)b. In dimension14, first-order incoming/outgoing arrows cannot be completed to an exact complex by any integer-order homogeneous middle arrow, independently of its coefficients.",
+        "structural_choices": "No physical choice installed. Existing reducedsymmetry/mixedfields remain outside; trace defect is not dimension or physical instability."
       }
     ],
     "shared_prerequisites": [
@@ -5535,6 +5561,18 @@
         "evidence": [
           "explorations/conditional-build/shiab-graded-derivation-class-2026-11-27.md",
           "explorations/conditional-build/shiab-bianchi-companion-class-2026-11-27.md"
+        ]
+      },
+      {
+        "input": "Source-owned complete reduced Upsilon0 gauge/Euler/redundancy modules, differential weights and actual background stabilizer",
+        "waiters": [
+          "SC-ACT-06",
+          "native constraint and physical quotient"
+        ],
+        "scope": "Existing selected-symbol ranks and auxiliary Cartan germ are supplied. Short fully-equivariant repeatedE profile now excluded, but source profile not authenticated. K1126-30 retired radialgauge inference remains retired.",
+        "evidence": [
+          "explorations/conditional-build/null-boost-symbol-trace-2026-11-27.md",
+          "lab/process/k1129-k887-k940-consumer-survival-audit.json"
         ]
       }
     ],
@@ -6887,5 +6925,18 @@
       "lab/process/shiab-bianchi-companion-class.json"
     ],
     "next": "Reuse the complete companion criterion and the selected-map germ; no S3 search or eight-product census under the same law. The positive wedge map survives this square only and remains excluded if put into the old exact fixed-linear Euler architecture. Actual source spinor/module carrier, outgoing symbols and moving connection/Phi laws are the remaining bridge; do not invent them or repeat the old endpoint test. Compare a newly supplied bridge discriminator with other eligible pillars under existing cadence/VOI; no Joe checkpoint."
+  },
+  "null_boost_symbol_trace_2026_11_27": {
+    "status": "internal_T1_null_symbol_trace_reviewed",
+    "actual_delta": "At a real nonzero null covector, every homogeneous boost-equivariant four-term symbol with repeated finite coefficient E has the necessary order balance a+c=(n-1)b. In dimension14, first-order incoming/outgoing arrows cannot be completed to an exact complex by any integer-order homogeneous middle arrow, independently of its coefficients.",
+    "source_bridge": {
+      "status": "conditional",
+      "reason": "SC-ACT-06 asserts the total reduced first-order Upsilon0 complex, not the repeated-E short carrier, homogeneous scalar orders or full ambient boost symmetry at its background. Extra source fields and existing O4/Cartan structures are outside this class."
+    },
+    "evidence": [
+      "explorations/conditional-build/null-boost-symbol-trace-2026-11-27.md",
+      "lab/process/null-boost-symbol-trace.json"
+    ],
+    "next": "The selected-rank ellipticity opener and the full-equivariant short-chain coefficient search are consumed at their distinct scopes. Actual source reduced modules, gauge/redundancy maps and background symmetry are the reopening input. Existing mixed-field, component-weighted and reduced-symmetry routes remain undetermined. Next selection follows existing cadence; counter99 is LC-due, not another short-chain variation."
   }
 }

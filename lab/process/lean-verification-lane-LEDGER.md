@@ -615,3 +615,7 @@ bicategory, ambidexterity or Mackey 2-functor is inferred.
 ## Shiab companion finite cores (2026-11-27)
 
 `Lean/GUFormalization/ShiabCompanion.lean` proves zero-preserving nonfactorization and bilinear polarization. Exterior classification, Clifford/Riemann identity, real forms, actual jets and source relevance remain written and reviewed. [Result](../../explorations/conditional-build/shiab-bianchi-companion-class-2026-11-27.md).
+
+## Null-symbol trace finite cores (2026-11-27)
+
+`Lean/GUFormalization/NullSymbolTrace.lean` checks trace/order arithmetic only. The exact-chain trace and source applicability remain written/reviewed. Result: `explorations/conditional-build/null-boost-symbol-trace-2026-11-27.md`.

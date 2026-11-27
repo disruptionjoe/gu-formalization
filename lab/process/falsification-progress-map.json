@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "basis_revision": "a640a7691de103110b8d0635fc980910a2dcc6ac",
+  "basis_revision": "561fbb3f8bf9ea945ff92311fd8b19f3ede7ccd8",
   "scope": "Curated six-pillar x source/class/candidate linked view. Status belongs to cited owners; no scientific verdict promotion, automatic ranking, whole-history coverage or global percentage. Cheapest-next fields are attributed bounded suggestions, not dispatch instructions. Closed means resolved within the cited scope; it does not always mean falsified. Positive fits and remaining source/physical bridges stay explicit.",
   "assumptions_ref": "lab/process/action-constraint-matrix.json#source_relevance_assumption_view.shared_prerequisites",
   "dependencies": [
@@ -94,7 +94,7 @@
     },
     {
       "ref": "lab/process/action-constraint-matrix.json",
-      "sha256": "225b0a34f44e99cb0c3df7489ff672630710a55363e7bb69e1ebc016b32ffa06"
+      "sha256": "5f3647910816af5322142ad3766bacd43cc22ec44082e1db46ce63e795b88ace"
     },
     {
       "ref": "lab/process/conditional-physics-ledger-v0.263.json",
@@ -127,6 +127,10 @@
     {
       "ref": "explorations/conditional-build/shiab-bianchi-companion-class-2026-11-27.md",
       "sha256": "c0f4a812a26a7b37913d3e366182e65c25dd91965912b64df09fdf0e82679b42"
+    },
+    {
+      "ref": "explorations/conditional-build/null-boost-symbol-trace-2026-11-27.md",
+      "sha256": "e04dddf916cdca9da18bd919f2c35dd6209df2f35bdb5a9fc5225d12d6a695bc"
     }
   ],
   "pillars": [
@@ -189,13 +193,15 @@
         },
         "class": {
           "attributed_status": "Scoped W2 graph/domain exclusion",
-          "closed": "Every fixed finite Sobolev-loss graph-Duhamel estimate fails on the named interior core, including specified finite-order norm repairs retaining it.",
-          "open": "Supplied analytic/nonlocal/boundary physical selection and full operator/domain.",
+          "closed": "Every fixed finite Sobolev-loss graph-Duhamel estimate fails on the named interior core, including specified finite-order norm repairs retaining it. Fully boost-equivariant repeatedE fourterm symbols with firstorder endarrows admit no integer-order homogeneous exact middle in n14.",
+          "open": "Supplied analytic/nonlocal/boundary physical selection and full operator/domain. Actual SC-ACT06 source reduced field/gauge/order profile and background stabilizer are distinct; existing O4/Cartan route is retained.",
           "shared_missing_ref": "lab/process/action-constraint-matrix.json#source_relevance_assumption_view.shared_prerequisites",
-          "cheapest_next": "Compare an actually supplied physical domain to the proved core; do not repeat its estimate obstruction.",
+          "cheapest_next": "Use source-owned complete reduced modules and actual stabilizer if supplied; old selectedrank/background audits and retired radialgauge completion are consumed. No generic shortchain coefficient repair.",
           "evidence_refs": [
-            "explorations/conditional-build/source-action-finite-loss-completions-2026-11-27.md"
-          ]
+            "explorations/conditional-build/source-action-finite-loss-completions-2026-11-27.md",
+            "explorations/conditional-build/null-boost-symbol-trace-2026-11-27.md"
+          ],
+          "positive_fit": "Full exterior deRham remains exact in indefinite signature; source background-owned auxiliarypositive Cartan structure is retained at its smaller symmetry. Neither is the full GU complex."
         },
         "candidate": {
           "attributed_status": "Actual candidate propagation results; physical admission open",

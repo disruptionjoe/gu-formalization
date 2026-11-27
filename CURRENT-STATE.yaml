@@ -196,6 +196,27 @@ program_focus:
       denominator and a judgment label; the fraction of all possible GU realizations closed is unknown.
     authority_boundary: Continue autonomously within existing authority. Existing canon/ledger tiers,
       external and irreversible-action limits remain; no research waiting checkpoint.
+null_boost_symbol_trace_2026_11_27:
+  status: internal_T1_null_symbol_trace_reviewed
+  actual_delta: At a real nonzero null covector, every homogeneous boost-equivariant four-term symbol
+    with repeated finite coefficient E has the necessary order balance a+c=(n-1)b. In dimension14, first-order
+    incoming/outgoing arrows cannot be completed to an exact complex by any integer-order homogeneous
+    middle arrow, independently of its coefficients.
+  source_bridge:
+    status: conditional
+    reason: SC-ACT-06 asserts the total reduced first-order Upsilon0 complex, not the repeated-E short
+      carrier, homogeneous scalar orders or full ambient boost symmetry at its background. Extra source
+      fields and existing O4/Cartan structures are outside this class.
+  evidence:
+  - explorations/conditional-build/null-boost-symbol-trace-2026-11-27.md
+  - lab/process/null-boost-symbol-trace.json
+  next: The selected-rank ellipticity opener and the full-equivariant short-chain coefficient search are
+    consumed at their distinct scopes. Actual source reduced modules, gauge/redundancy maps and background
+    symmetry are the reopening input. Existing mixed-field, component-weighted and reduced-symmetry routes
+    remain undetermined. Next selection follows existing cadence; counter99 is LC-due, not another short-chain
+    variation.
+  choice_budget_effect: none
+  matrix_or_ledger_verdict_effect: none
 shiab_bianchi_companion_2026_11_27:
   status: internal_T1_shiab_companion_reviewed
   actual_delta: All algebraic ordinary Bianchi-symbol companion pairs are coefficient-linear right-wedge

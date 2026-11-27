@@ -16,6 +16,10 @@ Do not add "Current follow-through" sections or "Historical predecessor" stacks 
 matrix or bet file. The retired follow-through chain and banner stack are kept at the end of this file under
 "Archived steering history".
 
+## 2026-11-27 — Short-symbol null-boost trace
+
+[Result](explorations/conditional-build/null-boost-symbol-trace-2026-11-27.md) · [Evidence](lab/process/null-boost-symbol-trace.json). Exactness forces a+c=(n−1)b for the declared homogeneous short-complex profile. At n14 with firstorder end arrows, no nonnegative integer middle order works. This quantifies every coefficient under the stated boost symmetry; it is not the unprovided full source complex. DeRham and Maxwell controls retain the permitted exceptions. Existing ellipticity coverage and K1126–30 corrections are reused; no source, canon, ledger, matrix-cell or choice change.
+
 ## 2026-11-27 — Full-curvature companions and a positive wedge survivor
 
 [Result](explorations/conditional-build/shiab-bianchi-companion-class-2026-11-27.md) · [Evidence](lab/process/shiab-bianchi-companion-class.json). Every algebraic ordinary companion pair is coefficient-linear right wedge. The selected displayed map fails on a genuine full-connection germ; an explicit wedge anticommutator retains the companion and ambient Einstein response. Source selection and full moving equations remain open, and the prior fixed-Euler exclusion is retained. No source, canon, ledger or matrix-cell verdict; two Lean cores cover factorization obstruction and polarization only.

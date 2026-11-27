@@ -129,3 +129,5 @@ import GUFormalization.UnitaryDualClosure
 import GUFormalization.ShiabDerivation
 
 import GUFormalization.ShiabCompanion
+
+import GUFormalization.NullSymbolTrace

@@ -1630,6 +1630,80 @@
       "survivors_ref": "lab/process/shiab-bianchi-companion-class.json#follow_through",
       "reopen_condition_ref": "explorations/conditional-build/shiab-bianchi-companion-class-2026-11-27.md",
       "superseded_by": null
+    },
+    {
+      "id": "null-boost-symbol-trace-2026-11-27",
+      "kind": "result",
+      "owner_ref": "explorations/conditional-build/null-boost-symbol-trace-2026-11-27.md",
+      "tested_statement": "At a real nonzero null covector, every homogeneous boost-equivariant four-term symbol with repeated finite coefficient E has the necessary order balance a+c=(n-1)b. In dimension14, first-order incoming/outgoing arrows cannot be completed to an exact complex by any integer-order homogeneous middle arrow, independently of its coefficients.",
+      "signature": {
+        "object": "Short equivariant homogeneous symbol sequence",
+        "carrier": "E,V*E,Lambda(n-1)V*E,LambdanV*E",
+        "convention": "Real nonzero nullcovector; actual scalingboost; cumulativeorder shifts",
+        "class": "All finite nonzero E and all coefficient maps; firstorder endarrows",
+        "premises": [
+          "lab/sources/source-claim-register.yaml",
+          "lab/sources/gu-2021-draft-s9-fermionic-operator-extraction-2026-08-04.md",
+          "lab/sources/gu-shiab-bianchi-two-connection-target-source-reinspection-2026-08-05.md",
+          "lab/process/k276-sc-act-06-euclidean-principal-complex-data-gate.json",
+          "lab/process/k708-sc-act-06-euclidean-dewitt-signature-gate.json",
+          "lab/process/k717-sc-act-06-flat-euclidean-gimmel-germ.json",
+          "lab/process/k720-sc-act-06-selected-i1b-euclidean-bosonic-symbol.json",
+          "lab/process/k926-sc-act-06-complete-connection-quotient-bundle.json",
+          "lab/process/k1126-k895-first-order-formal-adjoint-correction.json",
+          "lab/process/k1127-k887-t0-gauge-carrier-correction.json",
+          "lab/process/k1129-k887-k940-consumer-survival-audit.json",
+          "lab/process/k1130-k1129-corrected-action-boundary.json",
+          "explorations/conditional-build/shiab-bianchi-companion-class-2026-11-27.md"
+        ]
+      },
+      "attributed_status": "internal_T1_null_symbol_trace_reviewed",
+      "status_ref": "lab/process/null-boost-symbol-trace.json#status",
+      "source_bridge_ref": "lab/process/null-boost-symbol-trace.json#source_bridge",
+      "certificate_refs": [
+        "Lean/GUFormalization/NullSymbolTrace.lean"
+      ],
+      "control_refs": [
+        "tests/program-focus/null_boost_symbol_trace_probe.py"
+      ],
+      "survivors_ref": "lab/process/null-boost-symbol-trace.json#follow_through",
+      "reopen_condition_ref": "explorations/conditional-build/null-boost-symbol-trace-2026-11-27.md",
+      "superseded_by": null
+    },
+    {
+      "id": "sc-act-06-corrected-reuse-2026-11-27",
+      "kind": "dead_end",
+      "owner_ref": "explorations/conditional-build/null-boost-symbol-trace-2026-11-27.md",
+      "tested_statement": "SC-ACT-06 selected ellipticity/background/row tests already covered; K1126-30 retire radial gauge completion inference. This is corrected reuse, not new science credit.",
+      "signature": {
+        "object": "SC-ACT-06 current coverage",
+        "carrier": "Distinct selected I1B g,T and direct Upsilon auxiliary connection carriers",
+        "convention": "Newest explicit correction governs historical headline",
+        "class": "K276,K717-720,K740-747,K788,K926 and K1126-30",
+        "premises": [
+          "lab/sources/source-claim-register.yaml",
+          "lab/sources/gu-2021-draft-s9-fermionic-operator-extraction-2026-08-04.md",
+          "lab/sources/gu-shiab-bianchi-two-connection-target-source-reinspection-2026-08-05.md",
+          "lab/process/k276-sc-act-06-euclidean-principal-complex-data-gate.json",
+          "lab/process/k708-sc-act-06-euclidean-dewitt-signature-gate.json",
+          "lab/process/k717-sc-act-06-flat-euclidean-gimmel-germ.json",
+          "lab/process/k720-sc-act-06-selected-i1b-euclidean-bosonic-symbol.json",
+          "lab/process/k926-sc-act-06-complete-connection-quotient-bundle.json",
+          "lab/process/k1126-k895-first-order-formal-adjoint-correction.json",
+          "lab/process/k1127-k887-t0-gauge-carrier-correction.json",
+          "lab/process/k1129-k887-k940-consumer-survival-audit.json",
+          "lab/process/k1130-k1129-corrected-action-boundary.json",
+          "explorations/conditional-build/shiab-bianchi-companion-class-2026-11-27.md"
+        ]
+      },
+      "attributed_status": "corrected_reuse_only",
+      "status_ref": "lab/process/null-boost-symbol-trace.json#reuse_correction",
+      "source_bridge_ref": "lab/process/null-boost-symbol-trace.json#source_bridge",
+      "certificate_refs": [],
+      "control_refs": [],
+      "survivors_ref": "lab/process/null-boost-symbol-trace.json#follow_through",
+      "reopen_condition_ref": "explorations/conditional-build/null-boost-symbol-trace-2026-11-27.md",
+      "superseded_by": null
     }
   ]
 }
