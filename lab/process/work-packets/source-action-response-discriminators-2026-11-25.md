@@ -488,4 +488,20 @@ Ordinary LC carry47 consumed by this BET-COSMOLOGY attempt: counter84to85; cosmo
 
 A separately admitted K95 transfer test is ready after the ordinary LC slot; the evidence records exact owned inputs, rational witnesses and failure conditions. Native primary-minus signs and the actual half-normalized spin-curvature injection must be checked. No K95 result is inferred from K77.
 
-Joe Nov27(a) subsequently directs pipeline controls,10-family/both-adjoint sensitivity and one new-material source-state-rule check, max3waves then report for his decision. K95 transfer remains retained behind that audit. No new candidate construction until Joe decides; schedules are unchanged.
+Historical direction (decision stop superseded by Nov27(c) below): Joe Nov27(a) subsequently directs pipeline controls,10-family/both-adjoint sensitivity and one new-material source-state-rule check, max3waves then report for his decision. K95 transfer remains retained behind that audit. No new candidate construction until Joe decides; schedules are unchanged.
+
+## Nov27(c): autonomous controls and sensitivity continuation
+
+Authority: Joe direct Nov27(c), superseding only Nov27(a)'s decision-stop.
+The current directed audit is recorded in the matrix's
+`research_efficiency_update_2026_11_27`: calibrate the GR/Stelle/Dirac
+comparators, resolve the ten-family and both-adjoint sensitivity coverage,
+and consume the single bounded new-material source search. Existing proofs
+are reused through the [index](../research-reuse-index.json); a matching
+signature is not a proof of applicability. No new candidate is selected here.
+
+After the audit, selection continues autonomously under `program_focus`,
+including the retained K95 class-transfer alternative and ordinary LC cadence.
+No physical ghost, source necessity or all-variation claim is inferred from
+a comparator, a missing prescription or a finite sweep. Process scaffolding
+receives no scientific counter or bet credit.

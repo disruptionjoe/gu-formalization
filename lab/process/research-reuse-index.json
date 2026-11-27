@@ -1,0 +1,590 @@
+{
+  "schema_version": "1.0",
+  "coverage": {
+    "basis_revision": "2b9273a1b8ca6376c39ddc7a57bd3aa59aa67e53",
+    "scope": "Curated initial subset of accepted recent objects and explicit calibration gaps. Not whole-history or whole-source coverage.",
+    "authority": "joe_direct_chat_2026_11_27_c",
+    "semantic_ceiling": "Explicit signatures support lookup only. Matching declarations do not prove logical equivalence or applicability; omitted records are not absent knowledge. Owners retain scientific truth and program_focus retains selection.",
+    "preservation": "No historical result, correction, minority opportunity or source uncertainty is retired by omission.",
+    "cache_ceiling": "Artifact hashes and recorded receipts are not fresh verification. Missing environment or dependency declarations remain unknown."
+  },
+  "entries": [
+    {
+      "id": "source-action-full-auxiliary-map-2026-11-26",
+      "kind": "result",
+      "owner_ref": "explorations/conditional-build/source-action-full-auxiliary-map-2026-11-26.md",
+      "tested_statement": "Complete auxiliary block M is invertible at both held roots; compact constrained energy signs already follow without the remaining full inverse.",
+      "signature": {
+        "object": "Actual imaginary-connection auxiliary constraint block M",
+        "carrier": "Complete native non-null temporal kernel, all 14 carriers / 28 root-carrier certificates",
+        "convention": "K95 complex spinors; primary-minus/conjugation adjoint; full U(64,64), independent matter and bars; no optional Sp truncation",
+        "class": "Both certified kappa=1 real zero-matter stationary roots of held W2 comm/symi/symi first bosonic action",
+        "premises": [
+          "Owned W2 quadratic action and native decomposition",
+          "Actual non-null temporal covector",
+          "Inherited and new exact root/carrier certificate hypotheses"
+        ]
+      },
+      "attributed_status": "established_with_declared_scope",
+      "status_ref": "lab/process/source-action-full-auxiliary.json#status",
+      "source_bridge_ref": "lab/process/source-action-full-auxiliary.json#source_bridge",
+      "certificate_refs": [
+        "lab/process/source-action-full-auxiliary-certificates.json"
+      ],
+      "control_refs": [],
+      "survivors_ref": "explorations/conditional-build/source-action-full-auxiliary-map-2026-11-26.md#7-three-state-and-source-audit",
+      "reopen_condition_ref": "explorations/conditional-build/source-action-full-auxiliary-map-2026-11-26.md",
+      "superseded_by": null,
+      "exclusions": [
+        {
+          "statement": "Do not rerun a full inverse merely to prove the already-owned compact-Q signed-energy witnesses.",
+          "owner_ref": "explorations/conditional-build/source-action-full-auxiliary-map-2026-11-26.md#5-compact-energy-does-not-need-the-remaining-inverse"
+        }
+      ],
+      "untested_alternatives": [
+        {
+          "statement": "Source-selected physical quotient and propagated physical states remain unprovided",
+          "owner_ref": "explorations/conditional-build/source-action-full-auxiliary-map-2026-11-26.md"
+        }
+      ],
+      "scope_note": "Attributed metadata only; consult the owner for exact quantifiers, proofs, corrections and source applicability."
+    },
+    {
+      "id": "source-action-scalar-normal-operator-2026-11-27",
+      "kind": "result",
+      "owner_ref": "explorations/conditional-build/source-action-scalar-normal-operator-2026-11-27.md",
+      "tested_statement": "For each finite normal frequency, the full triangular-frame descriptor has exact local analytic solution germs; both canonical energy signs occur on such germs on fixed compact initial patches.",
+      "signature": {
+        "object": "Full-carrier scalar-normal descriptor and original canonical patch energy",
+        "carrier": "Actual imaginary connection carrier; q(u,r), not an autonomous spin7 PDE",
+        "convention": "K95 complex spinors; primary-minus/conjugation adjoint; full U(64,64), independent matter and bars; no optional Sp truncation",
+        "class": "Both certified kappa=1 real zero-matter stationary roots of held W2 comm/symi/symi first bosonic action",
+        "premises": [
+          "Actual triangular-frame lower operator",
+          "Full M regular near the reference slice",
+          "Fixed finite frequency before choosing local existence neighborhood",
+          "Inherited normal energy principal coefficients and realification"
+        ]
+      },
+      "attributed_status": "established_with_declared_scope",
+      "status_ref": "lab/process/source-action-scalar-normal-operator.json#three_state",
+      "source_bridge_ref": "lab/process/source-action-scalar-normal-operator.json#source_bridge",
+      "certificate_refs": [
+        "lab/process/source-action-scalar-normal-operator-certificates.json"
+      ],
+      "control_refs": [],
+      "survivors_ref": "lab/process/source-action-scalar-normal-operator.json#three_state",
+      "reopen_condition_ref": "explorations/conditional-build/source-action-scalar-normal-operator-2026-11-27.md",
+      "superseded_by": null,
+      "exclusions": [],
+      "untested_alternatives": [
+        {
+          "statement": "Uniform frequency-independent existence estimate",
+          "owner_ref": "explorations/conditional-build/source-action-scalar-normal-operator-2026-11-27.md"
+        },
+        {
+          "statement": "Nonlinear runaway or physical ghost interpretation",
+          "owner_ref": "explorations/conditional-build/source-action-scalar-normal-operator-2026-11-27.md"
+        }
+      ],
+      "scope_note": "Attributed metadata only; consult the owner for exact quantifiers, proofs, corrections and source applicability."
+    },
+    {
+      "id": "source-action-onshell-dynamics-2026-11-27",
+      "kind": "result",
+      "owner_ref": "explorations/conditional-build/source-action-onshell-dynamics-2026-11-27.md",
+      "tested_statement": "Actual microlocal first-order graph generator has a positive-real-part principal eigenvalue at each root and fails the specified no-loss graph-forcing estimate.",
+      "signature": {
+        "object": "Actual microlocal H_mu, including lapse and polarization derivatives",
+        "carrier": "Non-null cone about normal dr; complete generator contains the certified geometric-spin7 block",
+        "convention": "K95 complex spinors; primary-minus/conjugation adjoint; full U(64,64), independent matter and bars; no optional Sp truncation",
+        "class": "Both certified kappa=1 real zero-matter stationary roots of held W2 comm/symi/symi first bosonic action",
+        "premises": [
+          "Smooth constant-rank cone and full M inverse",
+          "Correct weighted graph reconstruction",
+          "Trace zero and strictly positive real trace-square",
+          "Compact graph test paths and graph lift of range residual"
+        ]
+      },
+      "attributed_status": "established_with_declared_scope",
+      "status_ref": "lab/process/source-action-onshell-dynamics.json#three_state",
+      "source_bridge_ref": "lab/process/source-action-onshell-dynamics.json#source_bridge",
+      "certificate_refs": [
+        "lab/process/source-action-onshell-dynamics-certificates.json"
+      ],
+      "control_refs": [],
+      "survivors_ref": "lab/process/source-action-onshell-dynamics.json#three_state",
+      "reopen_condition_ref": "explorations/conditional-build/source-action-onshell-dynamics-2026-11-27.md",
+      "superseded_by": null,
+      "exclusions": [],
+      "untested_alternatives": [
+        {
+          "statement": "Exact exponentially growing solutions",
+          "owner_ref": "explorations/conditional-build/source-action-onshell-dynamics-2026-11-27.md"
+        },
+        {
+          "statement": "Physical source-surjectivity, global flow or physical Hilbert state theorem",
+          "owner_ref": "explorations/conditional-build/source-action-onshell-dynamics-2026-11-27.md"
+        }
+      ],
+      "scope_note": "Attributed metadata only; consult the owner for exact quantifiers, proofs, corrections and source applicability."
+    },
+    {
+      "id": "source-action-finite-loss-completions-2026-11-27",
+      "kind": "result",
+      "owner_ref": "explorations/conditional-build/source-action-finite-loss-completions-2026-11-27.md",
+      "tested_statement": "Every fixed finite Sobolev-loss Duhamel estimate fails on the declared compact microlocal graph core; finite-order elliptic norm repairs retaining that core also fail.",
+      "signature": {
+        "object": "Classical first-order pseudodifferential graph evolution and graph residual norm",
+        "carrier": "Full local non-null graph core, not only a frozen spin7 matrix",
+        "convention": "K95 complex spinors; primary-minus/conjugation adjoint; full U(64,64), independent matter and bars; no optional Sp truncation",
+        "class": "Both certified kappa=1 real zero-matter stationary roots of held W2 comm/symi/symi first bosonic action",
+        "premises": [
+          "Actual H_mu positive spectral abscissa",
+          "Classical smooth symbols and all finite-order parametrices",
+          "Maximal full-principal-spectrum packet transport",
+          "Same graph forcing (f,-df), not unweighted original PDE forcing",
+          "Uniform logarithmic-time remainder and finite Sobolev sandwich where asserted"
+        ]
+      },
+      "attributed_status": "established_with_declared_scope",
+      "status_ref": "lab/process/source-action-finite-loss.json#three_state",
+      "source_bridge_ref": "lab/process/source-action-finite-loss.json#source_bridge",
+      "certificate_refs": [
+        "lab/process/source-action-finite-loss-certificates.json"
+      ],
+      "control_refs": [],
+      "survivors_ref": "lab/process/source-action-finite-loss.json#three_state",
+      "reopen_condition_ref": "explorations/conditional-build/source-action-finite-loss-completions-2026-11-27.md",
+      "superseded_by": null,
+      "exclusions": [
+        {
+          "statement": "Finite-order Sobolev norm changes and local homogeneous boundaries retaining the same compact core do not repair bounded evolution.",
+          "owner_ref": "explorations/conditional-build/source-action-finite-loss-completions-2026-11-27.md#5-exact-constraint-graph-and-finite-order-completions"
+        }
+      ],
+      "untested_alternatives": [
+        {
+          "statement": "Infinite-order topology",
+          "owner_ref": "explorations/conditional-build/source-action-finite-loss-completions-2026-11-27.md"
+        },
+        {
+          "statement": "Nonelliptic projection or quotient removing the tested core",
+          "owner_ref": "explorations/conditional-build/source-action-finite-loss-completions-2026-11-27.md"
+        },
+        {
+          "statement": "Boundary-selected solution space not containing these tests",
+          "owner_ref": "explorations/conditional-build/source-action-finite-loss-completions-2026-11-27.md"
+        }
+      ],
+      "scope_note": "Attributed metadata only; consult the owner for exact quantifiers, proofs, corrections and source applicability.",
+      "cache": {
+        "artifacts": [
+          {
+            "path": "explorations/conditional-build/source-action-finite-loss-completions-2026-11-27.md",
+            "sha256": "95e8994a935195b57ddeabfdd1ed9f7a7022eec85a8eeaef0b69b01495af0485"
+          },
+          {
+            "path": "tests/program-focus/source_action_finite_loss_probe.py",
+            "sha256": "eb9ba01f3028463a24cbffde955c69f8b0e390fef4541c382fe3e3a0e2d004d8"
+          },
+          {
+            "path": "lab/process/source-action-finite-loss-certificates.json",
+            "sha256": "d46d7216d814a872167eb0471747986622b84eebaa57b3f99c9733486a993507"
+          }
+        ],
+        "verifier": {
+          "command": "python3",
+          "args": [
+            "tests/program-focus/source_action_finite_loss_probe.py",
+            "--verify"
+          ],
+          "environment": {
+            "status": "unknown",
+            "note": "Interpreter/library/host environment not fully authenticated by this index. Command is the repository verifier interface, not a claim of byte-identical historical shell invocation."
+          }
+        },
+        "receipt_ref": "lab/process/source-action-finite-loss.json#verification/proof_input_verification",
+        "scope": "Recorded accepted receipt and explicitly hashed artifacts only; no fresh execution or complete transitive dependency/environment attestation. Inspect native certificate dependency bindings before reuse."
+      }
+    },
+    {
+      "id": "source-action-theta-divergence-2026-11-27",
+      "kind": "result",
+      "owner_ref": "explorations/conditional-build/source-action-theta-divergence-2026-11-27.md",
+      "tested_statement": "For theta=T and the ordinary covariant coderivative, both held roots violate ambient and literal observed conservation; the small-h analytic branch has nonzero leading divergence.",
+      "signature": {
+        "object": "delta_(B+sT)T and literal section coderivative",
+        "carrier": "Native adjoint one-form and retained ambient coefficient bundle under observation",
+        "convention": "K95 complex spinors; primary-minus/conjugation adjoint; full U(64,64), independent matter and bars; no optional Sp truncation",
+        "class": "Held W2 roots and sufficiently small nonzero h=1/kappa branch",
+        "premises": [
+          "Theta=T dictionary",
+          "Actual absolute-density/form-connection coderivative",
+          "Compact coupled stationarity category and fixed product regulator",
+          "Literal flat observation section; no intrinsic 4D spin-connection substitution"
+        ]
+      },
+      "attributed_status": "established_with_declared_scope",
+      "status_ref": "lab/process/source-action-theta-divergence.json#three_state",
+      "source_bridge_ref": "lab/process/source-action-theta-divergence.json#source_bridge",
+      "certificate_refs": [
+        "lab/process/source-action-theta-divergence-certificates.json"
+      ],
+      "control_refs": [],
+      "survivors_ref": "lab/process/source-action-theta-divergence.json#three_state",
+      "reopen_condition_ref": "explorations/conditional-build/source-action-theta-divergence-2026-11-27.md",
+      "superseded_by": null,
+      "exclusions": [
+        {
+          "statement": "Replacing B by B+sT for any smooth scalar s cannot remove this coderivative defect.",
+          "owner_ref": "explorations/conditional-build/source-action-theta-divergence-2026-11-27.md#2-actual-one-form-coderivative"
+        }
+      ],
+      "untested_alternatives": [
+        {
+          "statement": "A different source differential identity or theta interpretation",
+          "owner_ref": "explorations/conditional-build/source-action-theta-divergence-2026-11-27.md"
+        },
+        {
+          "statement": "Other stationary solutions or source-compatible constructions",
+          "owner_ref": "explorations/conditional-build/source-action-theta-divergence-2026-11-27.md"
+        }
+      ],
+      "scope_note": "Attributed metadata only; consult the owner for exact quantifiers, proofs, corrections and source applicability.",
+      "cache": {
+        "artifacts": [
+          {
+            "path": "explorations/conditional-build/source-action-theta-divergence-2026-11-27.md",
+            "sha256": "db8e440623173743596a83bef6f9db53e702246332bf59e299dea2e394f7dcdf"
+          },
+          {
+            "path": "tests/program-focus/source_action_theta_divergence_probe.py",
+            "sha256": "93fb6c4fbe5ea51ab78ddea9f1e344e0894646e390da76a19567ced7f577c038"
+          },
+          {
+            "path": "lab/process/source-action-theta-divergence-certificates.json",
+            "sha256": "2aa58c4c4c507b22104c42fba326776b035828294397d2d0591668d5e0a46091"
+          }
+        ],
+        "verifier": {
+          "command": "python3",
+          "args": [
+            "tests/program-focus/source_action_theta_divergence_probe.py",
+            "--verify"
+          ],
+          "environment": {
+            "status": "unknown",
+            "note": "Interpreter/library/host environment not fully authenticated by this index. Command is the repository verifier interface, not a claim of byte-identical historical shell invocation."
+          }
+        },
+        "receipt_ref": "lab/process/source-action-theta-divergence.json#verification/replay",
+        "scope": "Recorded accepted receipt and explicitly hashed artifacts only; no fresh execution or complete transitive dependency/environment attestation. Inspect native certificate dependency bindings before reuse."
+      }
+    },
+    {
+      "id": "source-action-endpoint-onshell-2026-11-27",
+      "kind": "result",
+      "owner_ref": "explorations/conditional-build/source-action-endpoint-onshell-2026-11-27.md",
+      "tested_statement": "The printed unit-curvature endpoint is nonzero at both full W2 stationary roots; therefore these action-owned backgrounds do not lie on that separate printed equation locus.",
+      "signature": {
+        "object": "Actual E_act versus printed R_print and observed horizontal residual",
+        "carrier": "Same K95 connection, metric, epsilon and zero independent matter tuple",
+        "convention": "K95 complex spinors; primary-minus/conjugation adjoint; full U(64,64), independent matter and bars; no optional Sp truncation",
+        "class": "Both certified kappa=1 real zero-matter stationary roots of held W2 comm/symi/symi first bosonic action",
+        "premises": [
+          "Fixed source-shaped formula tree and reconstructed node products",
+          "Authenticated root balls and exact horizontal receivers",
+          "Same field dictionary, local metric-variation category and product regulator"
+        ]
+      },
+      "attributed_status": "established_with_declared_scope",
+      "status_ref": "lab/process/source-action-endpoint-onshell.json#three_state",
+      "source_bridge_ref": "lab/process/source-action-endpoint-onshell.json#source_bridge",
+      "certificate_refs": [
+        "lab/process/source-action-endpoint-onshell-certificates.json"
+      ],
+      "control_refs": [],
+      "survivors_ref": "lab/process/source-action-endpoint-onshell.json#three_state",
+      "reopen_condition_ref": "explorations/conditional-build/source-action-endpoint-onshell-2026-11-27.md",
+      "superseded_by": null,
+      "exclusions": [
+        {
+          "statement": "A zero-preserving differential recombination of the full Euler tuple cannot produce the nonzero printed endpoint on these backgrounds.",
+          "owner_ref": "explorations/conditional-build/source-action-endpoint-onshell-2026-11-27.md"
+        }
+      ],
+      "untested_alternatives": [
+        {
+          "statement": "All other printed-endpoint solutions",
+          "owner_ref": "explorations/conditional-build/source-action-endpoint-onshell-2026-11-27.md"
+        },
+        {
+          "statement": "A source-equivalent action completion",
+          "owner_ref": "explorations/conditional-build/source-action-endpoint-onshell-2026-11-27.md"
+        },
+        {
+          "statement": "A non-Riemann mechanism selected by the source",
+          "owner_ref": "explorations/conditional-build/source-action-endpoint-onshell-2026-11-27.md"
+        }
+      ],
+      "scope_note": "Attributed metadata only; consult the owner for exact quantifiers, proofs, corrections and source applicability.",
+      "cache": {
+        "artifacts": [
+          {
+            "path": "explorations/conditional-build/source-action-endpoint-onshell-2026-11-27.md",
+            "sha256": "ba93125116d41439c106ffab6df8919fa8272466e071bba8bc4fdf8a8f41b030"
+          },
+          {
+            "path": "tests/program-focus/source_action_endpoint_onshell_probe.py",
+            "sha256": "7bd37220a5691a7f8013d01e182029c181b4715e8ea40a1ebe0bceb467f7e7bc"
+          },
+          {
+            "path": "lab/process/source-action-endpoint-onshell-certificates.json",
+            "sha256": "53b2531f13be4cd86c74ee741259a64f9bd9ed7862181c9af156bbb38e752584"
+          }
+        ],
+        "verifier": {
+          "command": "python3",
+          "args": [
+            "tests/program-focus/source_action_endpoint_onshell_probe.py",
+            "--verify"
+          ],
+          "environment": {
+            "status": "unknown",
+            "note": "Interpreter/library/host environment not fully authenticated by this index. Command is the repository verifier interface, not a claim of byte-identical historical shell invocation."
+          }
+        },
+        "receipt_ref": "lab/process/source-action-endpoint-onshell.json#verification/replay",
+        "scope": "Recorded accepted receipt and explicitly hashed artifacts only; no fresh execution or complete transitive dependency/environment attestation. Inspect native certificate dependency bindings before reuse."
+      }
+    },
+    {
+      "id": "source-action-riemann-silence-2026-11-27",
+      "kind": "result",
+      "owner_ref": "explorations/conditional-build/source-action-riemann-silence-2026-11-27.md",
+      "tested_statement": "Every fixed linear Spin-equivariant K77 Shiab whose own one-third cubic has the unit quadratic endpoint on full translations annihilates the complete injected algebraic Riemann module.",
+      "signature": {
+        "object": "S restricted to algebraic Riemann curvature",
+        "carrier": "K77 full adjoint tangent; real B-skew witnesses form a subspace of full U(64,64)",
+        "convention": "K77 native trace/top-form pairing; same Clifford/LC identification transported together",
+        "class": "All real pointwise fixed-linear Spin-equivariant maps satisfying the exact cubic identity",
+        "premises": [
+          "Full local translation variation at fixed metric and epsilon",
+          "B2 complete four-coordinate Riemann restriction",
+          "Four exact cyclic-kernel witnesses",
+          "Same metric/Clifford identification for direct LC interpretation"
+        ]
+      },
+      "attributed_status": "established_with_declared_scope",
+      "status_ref": "lab/process/source-action-riemann-silence.json#three_state",
+      "source_bridge_ref": "lab/process/source-action-riemann-silence.json#source_bridge",
+      "certificate_refs": [
+        "lab/process/source-action-riemann-silence-certificates.json"
+      ],
+      "control_refs": [],
+      "survivors_ref": "lab/process/source-action-riemann-silence.json#three_state",
+      "reopen_condition_ref": "explorations/conditional-build/source-action-riemann-silence-2026-11-27.md",
+      "superseded_by": null,
+      "exclusions": [
+        {
+          "statement": "Changing only the direct Ricci/scalar ratio or applying a downstream zero-preserving map cannot restore the erased direct channel.",
+          "owner_ref": "explorations/conditional-build/source-action-riemann-silence-2026-11-27.md#4-what-this-says-about-the-source"
+        }
+      ],
+      "untested_alternatives": [
+        {
+          "statement": "Non-Riemann curvature or distortion contribution",
+          "owner_ref": "explorations/conditional-build/source-action-riemann-silence-2026-11-27.md"
+        },
+        {
+          "statement": "Translation-dependent operator with additional variation terms",
+          "owner_ref": "explorations/conditional-build/source-action-riemann-silence-2026-11-27.md"
+        },
+        {
+          "statement": "K95 transfer and every possible GU gravity mechanism",
+          "owner_ref": "explorations/conditional-build/source-action-riemann-silence-2026-11-27.md"
+        }
+      ],
+      "scope_note": "Attributed metadata only; consult the owner for exact quantifiers, proofs, corrections and source applicability.",
+      "cache": {
+        "artifacts": [
+          {
+            "path": "explorations/conditional-build/source-action-riemann-silence-2026-11-27.md",
+            "sha256": "55eb23aa1b272fea90b62eaa3e225b8cad32c5999c086f82a1d36549cfb16a28"
+          },
+          {
+            "path": "tests/program-focus/source_action_riemann_silence_probe.py",
+            "sha256": "20fd4bfcb3c26aa26714a38b1e7dcb32a7e7b62a478833601d8182550128c313"
+          },
+          {
+            "path": "lab/process/source-action-riemann-silence-certificates.json",
+            "sha256": "f23f590c470fa1fb4c878e19519cb88010c14276a157954410a0cc779b2ede1a"
+          }
+        ],
+        "verifier": {
+          "command": "python3",
+          "args": [
+            "tests/program-focus/source_action_riemann_silence_probe.py",
+            "--verify"
+          ],
+          "environment": {
+            "status": "unknown",
+            "note": "Interpreter/library/host environment not fully authenticated by this index. Command is the repository verifier interface, not a claim of byte-identical historical shell invocation."
+          }
+        },
+        "receipt_ref": "lab/process/source-action-riemann-silence.json#verification/replay",
+        "scope": "Recorded accepted receipt and explicitly hashed artifacts only; no fresh execution or complete transitive dependency/environment attestation. Inspect native certificate dependency bindings before reuse."
+      }
+    },
+    {
+      "id": "source-action-packet-phase-2026-11-27",
+      "kind": "result",
+      "owner_ref": "explorations/conditional-build/source-action-packet-phase-2026-11-27.md",
+      "tested_statement": "Every fixed bounded-band uniformly smooth bounded-charge CK matter completion pairs with the logarithmic-window high-normal-frequency graph packets at O(k^-N) for every N; nonzero local normal-jet output does not defeat this phase barrier.",
+      "signature": {
+        "object": "Integrated matter-current/graph-packet pairing",
+        "carrier": "Held CK row/column completion and compact high-normal-frequency packet family",
+        "convention": "K95 complex spinors; primary-minus/conjugation adjoint; full U(64,64), independent matter and bars; no optional Sp truncation",
+        "class": "Fixed bounded observed band, fixed tube and smooth uniformly bounded parameter family",
+        "premises": [
+          "Actual phase r=z4+constant",
+          "All-order smooth envelope bounds and fixed compact support",
+          "Bounded charge and fixed finite-order graph pullback",
+          "No frequency-dependent tube or completion"
+        ]
+      },
+      "attributed_status": "established_with_declared_scope",
+      "status_ref": "lab/process/source-action-packet-phase.json#three_state",
+      "source_bridge_ref": "lab/process/source-action-packet-phase.json#source_bridge",
+      "certificate_refs": [
+        "lab/process/source-action-packet-phase-certificates.json"
+      ],
+      "control_refs": [],
+      "survivors_ref": "lab/process/source-action-packet-phase.json#three_state",
+      "reopen_condition_ref": "explorations/conditional-build/source-action-packet-phase-2026-11-27.md",
+      "superseded_by": null,
+      "exclusions": [],
+      "untested_alternatives": [
+        {
+          "statement": "Growing observed band or nonuniform completion",
+          "owner_ref": "explorations/conditional-build/source-action-packet-phase-2026-11-27.md"
+        },
+        {
+          "statement": "A source-selected interacting response law",
+          "owner_ref": "explorations/conditional-build/source-action-packet-phase-2026-11-27.md"
+        },
+        {
+          "statement": "Exact-zero, global stability or physical shielding theorem",
+          "owner_ref": "explorations/conditional-build/source-action-packet-phase-2026-11-27.md"
+        }
+      ],
+      "scope_note": "Attributed metadata only; consult the owner for exact quantifiers, proofs, corrections and source applicability."
+    },
+    {
+      "id": "source-adjoint-spinless-placement-2026-11-26",
+      "kind": "control",
+      "owner_ref": "explorations/conditional-build/source-adjoint-spinless-placement-2026-11-26.md",
+      "tested_statement": "The authenticated source uses minus/conjugation, not plus/reversion; the same fixed-symmetry optional-C normal class has four real survivors under minus and none under plus.",
+      "signature": {
+        "object": "Clifford adjoint custody and native normal coefficient placement",
+        "carrier": "K95 adapter; distinct Hermitian forms Hminus=i Hplus Omega",
+        "convention": "Minus is source-authenticated algebraic involution; plus is comparator",
+        "class": "Declared normal odd End classes and fixed symmetry/C conditions",
+        "premises": [
+          "Primary draft section3.5 eq3.27",
+          "Real-vector sharp laws and independent bars retained",
+          "K95 adapter is not K77 physical transfer"
+        ]
+      },
+      "attributed_status": "established_scoped_custody_control",
+      "status_ref": "lab/process/source-adjoint-spinless-placement.json#three_state",
+      "source_bridge_ref": "lab/process/source-adjoint-spinless-placement.json#source_bridge",
+      "certificate_refs": [
+        "lab/process/source-adjoint-spinless-placement.json#pairing_probe"
+      ],
+      "control_refs": [
+        "explorations/conditional-build/source-lower-term-compatibility-2026-11-13.md"
+      ],
+      "survivors_ref": "lab/process/source-adjoint-spinless-placement.json#three_state",
+      "reopen_condition_ref": "explorations/conditional-build/source-adjoint-spinless-placement-2026-11-26.md",
+      "superseded_by": null,
+      "exclusions": [],
+      "untested_alternatives": [
+        {
+          "statement": "Physical contour, common barred-density domain and source-selected propagation",
+          "owner_ref": "explorations/conditional-build/source-adjoint-spinless-placement-2026-11-26.md"
+        }
+      ],
+      "scope_note": "Attributed metadata only; consult the owner for exact quantifiers, proofs, corrections and source applicability."
+    },
+    {
+      "id": "source-action-receiver-strategy-2026-11-26",
+      "kind": "dead_end",
+      "owner_ref": "explorations/conditional-build/source-action-receiver-strategy-2026-11-26.md",
+      "tested_statement": "The retained normal spin7 energy channel is not established as a forced negative-energy response merely by a generic auxiliary current; same-carrier observation and dynamics must be matched.",
+      "signature": {
+        "object": "Receiver/current/energy channel identification",
+        "carrier": "Held W2 connection and diagnostic matter receiver",
+        "convention": "K95 complex spinors; primary-minus/conjugation adjoint; full U(64,64), independent matter and bars; no optional Sp truncation",
+        "class": "Only declared receiver maps and backgrounds in the owner",
+        "premises": [
+          "Same injection, current, graph map and energy direction required",
+          "Pointwise nonzero auxiliary pairing is not propagated unstable-mode forcing"
+        ]
+      },
+      "attributed_status": "scoped_shortcut_excluded",
+      "status_ref": "explorations/conditional-build/source-action-receiver-strategy-2026-11-26.md",
+      "source_bridge_ref": "explorations/conditional-build/source-action-receiver-strategy-2026-11-26.md",
+      "certificate_refs": [
+        "lab/process/source-action-receiver-strategy.json"
+      ],
+      "control_refs": [
+        "lab/process/path-dependencies.md#pd-structure-transport",
+        "lab/process/path-dependencies.md#pd-i2b-action-owner"
+      ],
+      "survivors_ref": "explorations/conditional-build/source-action-receiver-strategy-2026-11-26.md",
+      "reopen_condition_ref": "explorations/conditional-build/source-action-receiver-strategy-2026-11-26.md",
+      "superseded_by": null,
+      "exclusions": [],
+      "untested_alternatives": [
+        {
+          "statement": "Actual matched physical current, domain and response",
+          "owner_ref": "explorations/conditional-build/source-action-receiver-strategy-2026-11-26.md"
+        }
+      ],
+      "scope_note": "Attributed metadata only; consult the owner for exact quantifiers, proofs, corrections and source applicability."
+    },
+    {
+      "id": "source-action-mixed-consistency-2026-11-26",
+      "kind": "control",
+      "owner_ref": "explorations/conditional-build/source-action-mixed-consistency-2026-11-26.md",
+      "tested_statement": "A cross-failure controls and ten-family/both-adjoint sensitivity suite was discussed; this record does not assert that such a suite has passed or that plus is source-admitted.",
+      "signature": {
+        "object": "Proposed calibration of energy, propagation and conservation discriminators",
+        "carrier": null,
+        "convention": null,
+        "class": "Unspecified until a concrete admitted control is declared",
+        "premises": null
+      },
+      "attributed_status": "planned_unvalidated",
+      "status_ref": "explorations/conditional-build/source-action-mixed-consistency-2026-11-26.md",
+      "source_bridge_ref": "explorations/conditional-build/source-action-mixed-consistency-2026-11-26.md",
+      "certificate_refs": [],
+      "control_refs": [
+        "explorations/conditional-build/source-adjoint-spinless-placement-2026-11-26.md"
+      ],
+      "survivors_ref": null,
+      "reopen_condition_ref": "explorations/conditional-build/source-action-mixed-consistency-2026-11-26.md",
+      "superseded_by": null,
+      "exclusions": [],
+      "untested_alternatives": [
+        {
+          "statement": "Controls must be declared and executed in their own science scope",
+          "owner_ref": "explorations/conditional-build/source-action-mixed-consistency-2026-11-26.md"
+        }
+      ],
+      "scope_note": "Attributed metadata only; consult the owner for exact quantifiers, proofs, corrections and source applicability."
+    }
+  ]
+}

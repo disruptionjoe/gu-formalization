@@ -3,11 +3,13 @@
 from contextlib import redirect_stdout, redirect_stderr
 from copy import deepcopy
 import importlib.util
+import hashlib
 import io
 import json
 from pathlib import Path
 import tempfile
 import unittest
+from unittest.mock import patch
 
 import yaml
 
@@ -236,6 +238,199 @@ steps:
                 self.assertIn("research_context:", errors.getvalue())
         finally:
             READER.ROOT = original_root
+
+
+class ReuseContextTests(unittest.TestCase):
+    def setUp(self):
+        self.directory = tempfile.TemporaryDirectory()
+        self.addCleanup(self.directory.cleanup)
+        self.root = Path(self.directory.name)
+        self.report = self.root / "explorations/fixture-result.md"
+        self.report.parent.mkdir()
+        self.report.write_text("A conditional fixture result.\n")
+        self.probe = self.root / "tests/fixture-verifier.py"
+        self.probe.parent.mkdir()
+        self.probe.write_text("raise RuntimeError('cached verifier must never be imported or executed')\n")
+        self.receipt = self.root / "lab/process/fixture-receipt.json"
+        self.receipt.parent.mkdir(parents=True)
+        self.receipt.write_text(json.dumps({"status": "PASS", "scope": "recorded fixture only"}))
+        self.signature = {"object": "Riemann restriction", "carrier": "real K77 spin module",
+                          "convention": {"adjoint": "B-skew", "action_owner": "one-third cubic"},
+                          "class": "fixed linear Spin-equivariant", "premises": ["full translation tangent"]}
+        self.verifier = {"command": "python3", "args": ["tests/fixture-verifier.py", "--exact"],
+                         "environment": {"python": "fixture-version", "identity_status": "recorded fixture"}}
+        self.entry = {"id": "fixture-result", "kind": "result", "owner_ref": "explorations/fixture-result.md",
+                      "tested_statement": "A literal cyclic-kernel exclusion under fixed premises.",
+                      "signature": self.signature, "attributed_status": "recorded PASS; conditional result",
+                      "status_ref": "lab/process/fixture-receipt.json", "source_bridge_ref": "explorations/fixture-result.md#bridge",
+                      "certificate_refs": [], "control_refs": [], "survivors_ref": "explorations/fixture-result.md#survivors",
+                      "reopen_condition_ref": None, "superseded_by": None,
+                      "cache": {"artifacts": [{"path": str(path.relative_to(self.root)),
+                                                "sha256": hashlib.sha256(path.read_bytes()).hexdigest()}
+                                               for path in (self.report, self.probe)],
+                                "verifier": self.verifier, "receipt_ref": "lab/process/fixture-receipt.json"}}
+        self.index = {"schema_version": "1.0", "coverage": {"scope": "Fixture only; no complete coverage claim"},
+                      "entries": [self.entry]}
+
+    def lookup(self, query="fixture-result", **kwargs):
+        return READER.reuse_projection(self.index, query, root=self.root, **kwargs)
+
+    def first(self, **kwargs):
+        return self.lookup(**kwargs)["matches"][0]
+
+    def test_literal_search_and_exact_id_have_no_semantic_selection(self):
+        old = deepcopy(self.entry)
+        old.update(id="fixture-result-old", kind="dead_end", superseded_by="fixture-result")
+        self.index["entries"].insert(0, old)
+        self.assertEqual([x["entry"]["id"] for x in self.lookup()["matches"]], ["fixture-result"])
+        both = self.lookup("CYCLIC-KERNEL")
+        self.assertEqual([x["entry"]["id"] for x in both["matches"]], ["fixture-result-old", "fixture-result"])
+        self.assertIn("tested_statement", both["matches"][0]["matched_fields"])
+        self.assertEqual(both["matches"][0]["entry"]["superseded_by"], "fixture-result")
+        self.assertIn("index order retained", both["matching"])
+        self.assertEqual(self.lookup("cyclic.*kernel")["match_count"], 0)
+        self.assertEqual(self.lookup("equivalent theorem")["match_count"], 0)
+        self.assertIn("partial index", self.lookup("no match")["absence_ceiling"])
+        self.assertNotIn("selected_target", json.dumps(both))
+
+    def test_signature_digest_is_declaration_equality_not_coverage(self):
+        hypothesis = {"signature": dict(reversed(list(self.signature.items())))}
+        comparison = self.first(hypothesis=hypothesis)["signature_comparison"]
+        self.assertEqual(comparison["comparison"], "equal_declarations")
+        self.assertEqual(comparison["recorded"]["sha256"], comparison["hypothesis"]["sha256"])
+        self.assertEqual(comparison["applicability"], "not_certified")
+        self.assertTrue(comparison["author_validation_required"])
+        for key, replacement in (("adjoint", "Hermitian"), ("action_owner", "different quadratic action")):
+            hypothesis = {"signature": deepcopy(self.signature)}
+            hypothesis["signature"]["convention"][key] = replacement
+            comparison = self.first(hypothesis=hypothesis)["signature_comparison"]
+            self.assertEqual(comparison["comparison"], "different_declarations")
+            self.assertEqual(comparison["different_fields"], ["convention"])
+            self.assertNotEqual(comparison["recorded"]["sha256"], comparison["hypothesis"]["sha256"])
+
+    def test_unknown_signature_cannot_become_applicable_even_when_identical(self):
+        for value in (None, {}, 7, {**self.signature, "carrier": "unknown until supplied"},
+                      {**self.signature, "premises": [{"source_bridge": None}]},
+                      {key: value for key, value in self.signature.items() if key != "class"}):
+            with self.subTest(value=value):
+                self.entry["signature"] = value
+                comparison = self.first(hypothesis={"signature": value})["signature_comparison"]
+                self.assertEqual(comparison["comparison"], "unknown")
+                self.assertTrue(comparison["recorded"]["unknown_fields"])
+                self.assertEqual(comparison["applicability"], "not_certified")
+
+    def test_cache_is_opt_in_and_never_fresh_verification(self):
+        with patch.object(Path, "open", side_effect=AssertionError("default lookup must not hash files")):
+            cache = self.first()["cache"]
+        self.assertEqual(cache["hash_state"], "not_checked")
+        with patch.object(READER.subprocess, "run", side_effect=AssertionError("no verifier execution")):
+            cache = self.first(check_cache=True, hypothesis={"signature": self.signature, "verifier": self.verifier})["cache"]
+        self.assertEqual(cache["hash_state"], "current")
+        self.assertEqual(cache["cache_state"], "hash_current")
+        self.assertIn("PASS", cache["recorded"]["attributed_status"])
+        self.assertFalse(cache["freshly_executed"])
+        self.assertEqual(cache["fresh_verification"], "not_run")
+        self.assertEqual(cache["expected_verifier"]["comparison"], "equal_declarations")
+
+    def test_stale_hash_and_expected_arguments_are_visible(self):
+        expected = deepcopy(self.verifier)
+        expected["args"].append("--different-carrier")
+        cache = self.first(check_cache=True, hypothesis={"signature": self.signature, "verifier": expected})["cache"]
+        self.assertEqual(cache["hash_state"], "current")
+        self.assertEqual(cache["cache_state"], "stale")
+        self.assertEqual(cache["expected_verifier"]["comparison"], "mismatch")
+        self.assertEqual(cache["expected_verifier"]["different_fields"], ["args"])
+        self.entry["cache"]["verifier"]["environment"] = {"status": "unknown"}
+        cache = self.first(check_cache=True, hypothesis={"signature": self.signature, "verifier": expected})["cache"]
+        self.assertEqual(cache["expected_verifier"]["comparison"], "mismatch")
+        self.assertEqual(cache["expected_verifier"]["field_comparisons"]["args"], "mismatch")
+        self.assertEqual(cache["expected_verifier"]["field_comparisons"]["environment"], "unknown")
+        self.assertEqual(cache["cache_state"], "stale")
+        self.report.write_text("Modified theorem premises.\n")
+        cache = self.first(check_cache=True)["cache"]
+        self.assertEqual(cache["hash_state"], "stale")
+        self.assertEqual(cache["cache_state"], "stale")
+        self.assertNotEqual(cache["artifacts"][0]["recorded_sha256"], cache["artifacts"][0]["current_sha256"])
+        self.assertFalse(cache["freshly_executed"])
+
+    def test_missing_cache_identity_or_inputs_is_unknown(self):
+        baseline = deepcopy(self.entry["cache"])
+        mutations = [lambda c: c.pop("verifier"), lambda c: c["verifier"].pop("args"),
+                     lambda c: c["verifier"].update(environment={"status": "unknown"}),
+                     lambda c: c.pop("artifacts"), lambda c: c["artifacts"][0].pop("sha256"),
+                     lambda c: c.pop("receipt_ref")]
+        for mutate in mutations:
+            self.entry["cache"] = deepcopy(baseline)
+            mutate(self.entry["cache"])
+            cache = self.first(check_cache=True)["cache"]
+            self.assertEqual(cache["cache_state"], "unknown")
+            self.assertTrue(cache["unknown_fields"])
+            self.assertFalse(cache["freshly_executed"])
+        self.entry["cache"] = deepcopy(baseline)
+        self.entry["cache"]["verifier"]["environment"] = {"status": "unknown"}
+        self.probe.write_text("Drift despite unknown verifier environment.\n")
+        self.assertEqual(self.first(check_cache=True)["cache"]["cache_state"], "stale")
+
+    def test_reference_traversal_and_symlink_escapes_are_rejected_even_off_query(self):
+        other = deepcopy(self.entry)
+        other["id"] = "unmatched"
+        self.index["entries"].append(other)
+        for ref in ("../outside.md", "/tmp/outside.md", "C:\\outside.md", "lab/../../outside.md"):
+            other["owner_ref"] = ref
+            with self.subTest(ref=ref), self.assertRaises(ValueError):
+                self.lookup()
+        other["owner_ref"] = self.entry["owner_ref"]
+        other["exclusions"] = [{"statement": "historical exclusion", "owner_ref": "../outside.md"}]
+        with self.assertRaises(ValueError):
+            self.lookup()
+        other.pop("exclusions")
+        with tempfile.TemporaryDirectory() as external:
+            (self.root / "escape").symlink_to(external, target_is_directory=True)
+            other["cache"]["artifacts"][0]["path"] = "escape/input.json"
+            with self.assertRaises(ValueError):
+                self.lookup()
+
+    def test_cli_reuse_reads_only_index_hypothesis_and_opt_in_artifacts(self):
+        index_path = self.root / READER.REUSE_INDEX
+        index_path.write_text(json.dumps(self.index))
+        hypothesis = self.root / "hypothesis.json"
+        hypothesis.write_text(json.dumps({"signature": self.signature, "verifier": self.verifier}))
+        before = {str(p.relative_to(self.root)): p.read_bytes() for p in self.root.rglob("*") if p.is_file()}
+        with patch.object(READER, "ROOT", self.root), patch.object(READER.subprocess, "run", side_effect=AssertionError("reuse needs no execution")):
+            capture = io.StringIO()
+            with redirect_stdout(capture):
+                self.assertEqual(READER.main(["--reuse", "fixture-result", "--hypothesis", str(hypothesis), "--check-cache", "--history"]), 0)
+            view = data(capture.getvalue())["requested_reuse"]
+            self.assertEqual(view["match_count"], 1)
+            self.assertFalse(view["matches"][0]["cache"]["freshly_executed"])
+            with redirect_stderr(io.StringIO()), self.assertRaises(SystemExit):
+                READER.main(["--check-cache"])
+            hypothesis.write_text("[]")
+            with redirect_stderr(io.StringIO()) as error:
+                self.assertEqual(READER.main(["--reuse", "fixture-result", "--hypothesis", str(hypothesis)]), 1)
+            self.assertIn("hypothesis JSON must be an object", error.getvalue())
+        before.pop("hypothesis.json")
+        after = {str(p.relative_to(self.root)): p.read_bytes() for p in self.root.rglob("*") if p.is_file() and p != hypothesis}
+        self.assertEqual(before, after)
+
+    def test_index_schema_and_duplicate_ids_fail_visibly(self):
+        self.index["entries"].append(deepcopy(self.entry))
+        with self.assertRaisesRegex(ValueError, "duplicate"):
+            self.lookup()
+        self.index["schema_version"] = "unknown"
+        with self.assertRaisesRegex(ValueError, "schema_version"):
+            self.lookup()
+
+    def test_curated_index_loads_through_the_same_read_only_projection(self):
+        index = json.loads((ROOT / READER.REUSE_INDEX).read_text())
+        before = deepcopy(index)
+        for entry in index["entries"]:
+            view = READER.reuse_projection(index, entry["id"], root=ROOT)
+            self.assertEqual(view["match_count"], 1)
+            self.assertEqual(view["matches"][0]["entry"], entry)
+            self.assertEqual(view["matches"][0]["cache"]["hash_state"], "not_checked")
+            self.assertFalse(view["matches"][0]["cache"]["freshly_executed"])
+        self.assertEqual(index, before)
 
 
 if __name__ == "__main__":

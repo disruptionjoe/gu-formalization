@@ -1,10 +1,10 @@
 schema_version: '1.0'
 repository: observerse-research-program
 branch: main
-revision_basis: 6b73849704b5f49c0ea22411cba32a67661c6cee
+revision_basis: 2b9273a1b8ca6376c39ddc7a57bd3aa59aa67e53
 program_focus:
-  version: 2026-11-25-v1
-  authority: joe_direct_chat_2026_11_25_five_process_improvements_approved
+  version: 2026-11-27-v1
+  authority: joe_direct_chat_2026_11_27_c
   priority_packets:
   - lab/process/work-packets/source-required-class-tests-2026-11-24.md
   - lab/process/work-packets/six-spinor-grading-compatibility-2026-11-24.md
@@ -38,6 +38,8 @@ program_focus:
     weekly_metrics: lab/process/weekly-metrics.json
     method_contract: lab/process/reverse-scaffold-method-contract.json
     opportunity_register: lab/process/source-action-opportunity-register-2026-11-25.json
+    research_reuse_index: lab/process/research-reuse-index.json
+    research_efficiency_method: lab/methods/research-reuse-and-calibration.md
   split:
     lane_B_constraint_matrix: 0.75
     lane_C_discovery_bets: 0.25
@@ -69,29 +71,38 @@ program_focus:
   - class_covered (quantified and fixed choices)
   - premises (source/fork/evidence pointers and assumption status)
   - source_bridge (proved, conditional or absent, with reason)
+  - reuse/decision record per lab/methods/research-reuse-and-calibration.md (one compact record, no duplicate
+    ledger)
   postflight_required:
   - update the matrix or bet file (status, evidence, lane_state counters)
   - one line of actual_delta, or "none"
-  - increment constraint_matrix.program_run_counter.count
+  - increment constraint_matrix.program_run_counter.count for scientific runs; process-only scaffolding
+    gets no scientific or bet credit
   - append to the matrix shrinkage_log when a cell or intersection moved
   - new dated sections in VERIFICATION.md, RESEARCH-STATUS.md and NEXT-STEPS.md go directly BELOW the
     pinned program_focus section, never above it (program_focus_audit.py fails otherwise)
+  - record actual versus expected delta/cost, covered successors and survivors in existing wave evidence;
+    update the reuse index only for changed coverage
   kitem_frontmatter: Every new explorations/conditional-build/*-YYYY-MM-DD.md result dated 2026-11-09
     or later carries program_target (matrix cell such as P3xglobal_index, intersection such as X-P1-P2,
     bet id, or LB-CLASS task), tier (T1, T2 or T3), expected_delta and actual_delta in its frontmatter.
     process_gates/program_focus_audit.py enforces this. New results outside source_relevance_schema.baseline_revision
     additionally carry class_covered, linked premises, source_bridge with status and reason, and kill_condition.
     Existing results retain their recorded scope without mass migration.
-  zero_delta_reroute: Three consecutive runs in one lane with actual_delta none reroute that lane within
-    the same Big Wave to the next eligible target. A reroute is never zero work or scale reduction. Reopening
-    a rerouted lane needs Joe.
+  zero_delta_reroute: Investigation budgets default to three scientific waves; after that budget or two
+    consecutive waves without a decision-relevant delta, compare the best eligible alternatives and pivot
+    autonomously within the same Big Wave. Record the reason and exact revival input; reopening on new
+    evidence does not require Joe. A pivot is never zero work or a global stop. Finish started Tier-1
+    validation and preserve explicit authority and LC cadence. A reasoned extension must name the uncovered
+    discriminator and bounded remaining cost.
   review_tiers:
     T1: moves a matrix cell to decided_for_C or empty, moves a ledger row, changes class C, or is a kill.
       Two specialist reviewers, one hostile reviewer, and a Lean check before acceptance.
     T2: lane-C bet results and new constrained cells. One specialist reviewer.
     T3: scaffolding, probes, bookkeeping. Exact probes and gates only.
   forbidden:
-  - proposing, planning for, or waiting on external review (it is not a pathway in this program)
+  - proposing, planning for, or waiting on external review as a research pathway; the publication-only
+    source-level negative-claim check is a release flag, not a research wait or contact authority
   - conditional constructions not attached to a matrix cell, intersection, or bet
   - guessed actions outside lane C, or lane-C output entering the matrix without lane-B re-derivation
   - writing steering text into NEXT-STEPS.md, RESEARCH-STATUS.md or RESEARCH-AGENDA.json latest_result
@@ -115,11 +126,12 @@ program_focus:
     bridge. When a continuation only varies repository choices under the same unproved bridge, compare
     it with a class-level or bridge discriminator and another eligible target; continue the strongest
     option in the same Big Wave. Necessary lemmas remain eligible when their decision link is explicit.
-    Add no stopping threshold, waiting checkpoint or mandatory council. Explicit Joe directions, Tier-1
-    completion and LC cadence retain their existing precedence. Carry survivors, exclusions and exact
-    revival inputs into handoffs. When a premise is corrected or withdrawn, recheck affected rankings
-    against the corrected evidence; do not silently carry the old ranking forward. Mark fulfilled directions
-    consumed beside their evidence, preserving any remaining standing condition.
+    Investigation budgets cause autonomous pivots, never a global stopping threshold, waiting checkpoint
+    or mandatory council. Explicit Joe directions, Tier-1 completion and LC cadence retain their existing
+    precedence. Carry survivors, exclusions and exact revival inputs into handoffs. When a premise is
+    corrected or withdrawn, recheck affected rankings against the corrected evidence; do not silently
+    carry the old ranking forward. Mark fulfilled directions consumed beside their evidence, preserving
+    any remaining standing condition.
   source_relevance_schema:
     baseline_revision: 14778ad8a4308d2d88357bba8a81819cedbc3f40
     scope: New dated explorations/conditional-build results absent from this baseline; no bulk historical
@@ -136,10 +148,39 @@ program_focus:
     assumption_view: lab/process/action-constraint-matrix.json#source_relevance_assumption_view
     maintenance: Update linked assumptions when their evidence changes; refresh existing weekly metrics
       at weekly review. Labels and presence checks are not proof of relevance.
-  selection_explanation: 'In the existing preflight/handoff, state briefly: mandatory basis; class/scope
-    covered; source relevance separately from mathematical breadth; shared prerequisite if any; remaining
-    cost; strongest eligible alternative. A blocked high-value target is not an eligible alternative without
-    its missing input. Reuse completed theorems and compare only their uncovered successors.'
+  selection_explanation: 'In the existing preflight/handoff state briefly: mandatory basis; prior-result
+    lookup and premise difference; class/scope; source relevance separately from mathematical breadth;
+    shared prerequisite; possible outcomes and their decision or evidence effects; remaining cost and
+    strongest eligible alternative. Prefer source-relevant class tests by expected decisiveness and reach
+    per cost, with estimates labelled as judgments. Same next action can still have information value.
+    Reuse completed theorems and compare only uncovered successors.'
+  research_efficiency:
+    method: lab/methods/research-reuse-and-calibration.md
+    index: lab/process/research-reuse-index.json
+    coverage: Curated current investigations; missing entries require targeted repository search, not
+      an assertion of novelty.
+    calibration: Calibrate a new diagnostic in its declared category before GU inference; comparator success
+      does not prove transfer.
+    reuse: Equal signature declarations are not proof of equal premises or applicability. Hash-current
+      artifacts are not freshly executed certificates.
+    claim_ladder: candidate / structural class / source. Structural across tested variations is weaker
+      than across all source-admissible variations.
+    publication_flag: A source-level negative claim needs an external expert check before publication.
+      This flag never pauses research and does not authorize contact or release.
+    retrospective: About every ten scientific waves, review forecast versus actual cost/delta, repeated
+      work and useful shortcuts in existing weekly metrics. No new schedule.
+research_efficiency_update_2026_11_27:
+  authority: joe_direct_chat_2026_11_27_c
+  status: applied_T3_process_only
+  evidence: lab/process/process-efficiency-update-2026-11-27.json
+  supersedes: Nov27(a) stop-for-Joe-decision only. Its controls, sensitivity, bounded source search and
+    scoped finding remain directed work.
+  continuation: Run controls, sensitivity and source-state audit; then select the strongest eligible falsification
+    path autonomously. Existing scientific acceptance tiers and source-fidelity rules remain.
+  accounting: No scientific counter or bet credit; counter and ordinary LC cadence are derived from the
+    matrix.
+  effect: Reuse lookup implemented; speed benefit not yet measured. No scientific verdict, choice family
+    or schedule change.
 source_action_riemann_silence_2026_11_27:
   authority: joe_direct_chat_2026_11_26_continued_falsification_math20
   basis_revision: 6b73849704b5f49c0ea22411cba32a67661c6cee
@@ -224,6 +265,8 @@ source_action_riemann_silence_2026_11_27:
     and schedule unchanged.
   subsequent_joe_direction:
     authority: joe_direct_chat_2026_11_27_a
+    status: historical_stop_superseded_by_joe_2026_11_27_c_audit_deliverables_retained
+    current_construction_scope: No new construction in the audit. Subsequent selection is autonomous under Nov27(c), retaining source and choice-family restrictions.
     scope: 'Next directed science work: pipeline controls,10-family/both-adjoint sensitivity,and source-state-rule
       search; max3waves for steps1to3, then stop and report for Joe decision.'
     construction: No new candidate construction until Joe decides.

@@ -2575,7 +2575,53 @@
       "authority": "joe_direct_chat_2026_11_27_a",
       "scope": "Next directed science work: pipeline controls,10-family/both-adjoint sensitivity,and source-state-rule search; max3waves for steps1to3, then stop and report for Joe decision.",
       "construction": "No new candidate construction until Joe decides.",
-      "effect": "K95 transfer candidate retained but deferred behind this directed audit. No automation/schedule change."
+      "effect": "K95 transfer candidate retained but deferred behind this directed audit. No automation/schedule change.",
+      "status": "historical_decision_stop_superseded_by_joe_2026_11_27_c",
+      "current_construction_scope": "No construction in the directed audit. Later successor selection is autonomous under Nov27(c), retaining source and choice-family restrictions."
     }
+  },
+  "research_efficiency_update_2026_11_27": {
+    "authority": "joe_direct_chat_2026_11_27_c",
+    "status": "ready_directed_audit",
+    "steps": [
+      {
+        "id": "pipeline_controls",
+        "target": "LB-CLASS",
+        "tier": "T3 comparator calibration; T2 synthesis",
+        "scope": "GR reduced constraints and harmonic waves; positive-mass Stelle spin2; Dirac. Signed energy, physical norm and finite-loss estimates are separate.",
+        "outcomes": [
+          "False classification: repair diagnostic before its dependent GU inference.",
+          "Calibrated in declared scope: apply only through an explicit GU transfer."
+        ],
+        "cost": "One bounded audit wave estimate; not measured."
+      },
+      {
+        "id": "ten_family_adjoint_sensitivity",
+        "target": "LB-CLASS",
+        "tier": "T2; T1 if a new exclusion is promoted",
+        "scope": "All ten recorded families, both adjoints, three separately typed failures. Unknown countervariations remain UNDETERMINED.",
+        "outcomes": [
+          "Quantified invariant failure: retain class scope.",
+          "Admitted countervariation changes result: identify build dependence.",
+          "No complete variation/bridge: name missing input without constructing a candidate."
+        ],
+        "cost": "Reuse proof dependencies first; no ten nominal full recomputations."
+      },
+      {
+        "id": "source_state_rule",
+        "target": "X-P1-P2-P3",
+        "tier": "T3 evidence search",
+        "scope": "One bounded new-material source search, reusing prior audits.",
+        "outcomes": [
+          "Authenticated prescription: type it and test applicability.",
+          "No new prescription in searched material: close search coverage, retain missing datum."
+        ],
+        "cost": "One search maximum; prior completed search is reused."
+      }
+    ],
+    "alternative": "Native K95 four-witness Riemann-silence transfer retained; assess after the directed audit and ordinary cadence.",
+    "source_necessity": "Canonical positive energy, a connected stationary branch and a chosen coderivative are not automatically source-required. Bind each necessity claim to SC/page/equation and its physical map.",
+    "counter_effect": "Process-only: no increment, no bet use, no consumed LC slot.",
+    "history": "Completed proofs remain consumed within their stated hypotheses. Preserve exclusions, survivors and strongest unproved bridge."
   }
 }

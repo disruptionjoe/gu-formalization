@@ -13,8 +13,9 @@ source records, papers, and branch-relative current state.
    cell, intersection, bet or LB-CLASS task as its target; work not attached to a
    target is out of scope, and step 5 of `run_selection` always supplies one,
    so this never authorizes zero work. External
-   review is not a pathway in this program: do not propose it, plan for it or
-   wait on it. Older steering text in NEXT-STEPS, RESEARCH-STATUS and the
+   review is not a pathway for research or a waiting condition. The source-level
+   negative-claim publication flag in `program_focus` applies before release only;
+   it does not authorize contact or submission or pause research. Older steering text in NEXT-STEPS, RESEARCH-STATUS and the
    agenda's `latest_result_*` keys is history, not instruction.
 1. Read `GEOMETER-VS-PHYSICS-OBJECTS.md` before identifying same-named
    geometric and physics constructions.

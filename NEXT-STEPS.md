@@ -16,6 +16,10 @@ Do not add "Current follow-through" sections or "Historical predecessor" stacks 
 matrix or bet file. The retired follow-through chain and banner stack are kept at the end of this file under
 "Archived steering history".
 
+## 2026-11-27 — Reuse and calibration support applied
+
+[Method](lab/methods/research-reuse-and-calibration.md) · [Implementation evidence](lab/process/process-efficiency-update-2026-11-27.json). Joe Nov27(c) authorized a bounded process update: scope-keyed lookup, explicit cache provenance, diagnostic calibration and autonomous investigation pivots. Prior results remain attributed to their owners. This implementation adds no scientific result, counter credit, choice family or verdict change. Its effect on research speed is not yet measured.
+
 ## 2026-11-27 — Complete Riemann response excluded without an Einstein ratio
 
 [Result](explorations/conditional-build/source-action-riemann-silence-2026-11-27.md) · [Evidence](lab/process/source-action-riemann-silence.json). Four exact kernel witnesses force all four equivariant Ricci/scalar response coefficients to zero for the declared fixed-linear same-cubic unit-endpoint architecture. This strengthens the prior two-coefficient obstruction without regrading it. Direct Levi-Civita response and downstream recovery of that erased channel are excluded; other gravity mechanisms and GU remain unadjudicated. No choice-budget or ledger-verdict change.

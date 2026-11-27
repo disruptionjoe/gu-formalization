@@ -13,7 +13,7 @@
     "kills": "bets closed by kill criterion plus matrix cells found empty",
     "class_widenings": "entries added to action-class.json degeneration_log",
     "zero_delta_runs": "runs whose actual_delta was none",
-    "reroutes": "lanes rerouted by the three-zero-delta rule",
+    "reroutes": "Autonomous investigation pivots with evidence and revival input; historical entries retain their original definitions.",
     "tier1_results": "count, and how many have a Lean check",
     "summary_for_joe": "one screen: what moved, what died, what is next",
     "scope_and_bridge": "Evidence-linked decisions by mathematical scope and source bridge; categories may overlap and are not a productivity score."
@@ -119,5 +119,17 @@
       ],
       "included_owner_wave": "lab/process/source-relevance-wave.json (scientific evidence; execution provenance retained by its owner)"
     }
-  ]
+  ],
+  "research_efficiency_review": {
+    "authority": "joe_direct_chat_2026_11_27_c",
+    "baseline_program_counter": 87,
+    "baseline_revision": "2b9273a1b8ca6376c39ddc7a57bd3aa59aa67e53",
+    "interval_scientific_waves": 10,
+    "last_review_counter": null,
+    "state": "measurement_started_not_retrospectively_calibrated",
+    "counter_source": "lab/process/action-constraint-matrix.json#program_run_counter/count",
+    "records": "Existing wave evidence: forecast cost/delta, actual cost/delta, reuse, unsuccessful shortcuts and pivot rationale. Unknown telemetry stays unknown.",
+    "review": "At approximately ten further scientific increments, append a short review here and revise estimates/ranking. Do not make a new schedule or fabricate past forecasts.",
+    "process_credit": "None; this implementation wave does not increment the scientific counter."
+  }
 }

@@ -13,9 +13,13 @@ Acceptance depth follows the review tiers in `CURRENT-STATE.yaml` `program_focus
 - **Tier 2** results (lane-C bet outcomes, newly `constrained` cells) need one specialist reviewer plus their exact probes.
 - **Tier 3** work (scaffolding, probes, bookkeeping) needs its exact probes and the relevant process gates only.
 
-External review is not a pathway in this program. The honesty label stays: internal agent review and Lean checks are not external-expert certification, and results say so. Matrix kills use the wording in `lab/process/action-class.json` `verdict_wording`.
+External review is not a research pathway or waiting condition. The source-level negative-claim publication flag in `program_focus` applies before release only and authorizes no external action. The honesty label stays: internal agent review and Lean checks are not external-expert certification, and results say so. Matrix kills use the wording in `lab/process/action-class.json` `verdict_wording`.
 
 Sections below are historical snapshots in file order.
+
+## 2026-11-27 — Reuse and calibration support applied
+
+[Method](lab/methods/research-reuse-and-calibration.md) · [Implementation evidence](lab/process/process-efficiency-update-2026-11-27.json). Joe Nov27(c) authorized a bounded process update: scope-keyed lookup, explicit cache provenance, diagnostic calibration and autonomous investigation pivots. Prior results remain attributed to their owners. This implementation adds no scientific result, counter credit, choice family or verdict change. Its effect on research speed is not yet measured.
 
 ## 2026-11-27 — Complete Riemann response excluded without an Einstein ratio
 

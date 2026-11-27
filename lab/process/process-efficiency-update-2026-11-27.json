@@ -1,0 +1,74 @@
+{
+  "artifact": "process-efficiency-update",
+  "authority": "joe_direct_chat_2026_11_27_c",
+  "basis_revision": "2b9273a1b8ca6376c39ddc7a57bd3aa59aa67e53",
+  "status": "applied_validated_T3",
+  "program_target": "LB-CLASS process support",
+  "tier": "T3",
+  "claim_effect": "none",
+  "scientific_counter_credit": 0,
+  "choice_budget_effect": "unchanged 10 families / 4 obligations / net 6 / 0 source-selected predictions; bookkeeping, not a necessity theorem",
+  "policy": "CURRENT-STATE.yaml#program_focus",
+  "method": "lab/methods/research-reuse-and-calibration.md",
+  "reuse_index": "lab/process/research-reuse-index.json",
+  "proposal_dispositions": {
+    "adopted_with_existing_owners": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      18
+    ],
+    "modified": {
+      "9": "Information gain can matter despite identical next actions; no fabricated probability calibration.",
+      "10": "Only source-cited necessary consequences, with bridge and polarity.",
+      "17": "External expert flag before source-negative publication only; no research waiting or contact authority."
+    }
+  },
+  "current_queue": "lab/process/action-constraint-matrix.json#research_efficiency_update_2026_11_27",
+  "supersession": "Nov27(c) replaces Nov27(a) decision stop; controls, ten-family/both-adjoint sensitivity, bounded source search and scoped finding remain.",
+  "preserved": [
+    "scientific verdicts",
+    "class C",
+    "review tiers",
+    "source conventions",
+    "LC cadence and due slot",
+    "existing scientific counter",
+    "schedules",
+    "choice inventory",
+    "all superseded evidence"
+  ],
+  "effect_line": {
+    "change": "Reuse lookup, cache provenance, calibrated selection and autonomous bounded pivots.",
+    "why": "Reduce duplicate work and false transfer while continuing source-relevant science.",
+    "authority": "joe_direct_chat_2026_11_27_c",
+    "disposition": "applied",
+    "later_effect": "Twenty reader controls and live lookup passed; research speed effect not yet measured."
+  },
+  "verification": {
+    "reader_fixture_tests": 20,
+    "gates": {
+      "research_context_reader_audit": "PASS",
+      "program_focus_audit": "PASS",
+      "typed_carrier_declaration_audit": "PASS",
+      "kill_target_claim_audit": "PASS",
+      "frontmatter_status_schema_audit": "PASS",
+      "source_native_comparator_routing_audit": "PASS",
+      "lean_certificate_surface_audit": "PASS",
+      "current_state_absolute_currency_audit": "PASS"
+    },
+    "live_reuse_query": "source-action-riemann-silence with cache metadata check; no scientific verifier execution",
+    "protected_surfaces": "Cells, intersections, shrinkage log, counters, lane state and entire assumption view unchanged.",
+    "fresh_science_execution": false
+  }
+}
