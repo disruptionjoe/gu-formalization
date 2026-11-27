@@ -112,3 +112,4 @@ import GUFormalization.ThetaDivergence
 import GUFormalization.EndpointOnshell
 
 import GUFormalization.RiemannSilence
+import GUFormalization.StationaryTorus

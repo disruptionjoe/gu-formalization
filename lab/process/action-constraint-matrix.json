@@ -2707,7 +2707,7 @@
   ],
   "program_run_counter": {
     "since": "2026-11-09",
-    "count": 88,
+    "count": 89,
     "rule": "Every hourly run increments this in its postflight, whatever its lane. Lane C runs when count % 4 == 3 before the increment."
   },
   "working_rule": "Cells are worked at the structure level: a requirement must hold for every action in class C or for a structurally defined subfamily. No cell is worked by writing down a specific action, and no gated cell is worked by building its gate object. See CURRENT-STATE.yaml program_focus.structure_not_specifics.",
@@ -3466,6 +3466,23 @@
       ],
       "claim_effect": "No matrix-cell, ledger, source, canon, class-C or paper verdict change.",
       "cadence_note": "One directed scientific LB-CLASS wave: count87to88, LB-CLASS45to46; no cell/intersection/shrinkage/verdict/bet change. Due LC slot carried explicitly."
+    },
+    {
+      "date": "2026-11-27",
+      "authority": "joe_direct_chat_2026_11_27_c",
+      "item": "All stationary compact PS torus full-gap category",
+      "tier": "T1",
+      "counter_before": 88,
+      "counter_after": 89,
+      "lane": "LC-BETS",
+      "bet": "BET-MASS-GAP",
+      "actual_delta": "Every smooth stationary magnetic MG1 connection on every admitted compact PS product/diagonal-Z2 bundle over the same closed flat T3 has a nonzero full physical Hessian kernel: at least two independent translation Jacobi fields when nonflat, and the inherited flat-PS kernel otherwise. This closes the nonflat-endpoint escape for a strictly positive full quadratic gap in this comparator category, not GU or a quantum gap.",
+      "evidence": [
+        "explorations/conditional-build/bet-mass-gap-stationary-torus-2026-11-27.md",
+        "lab/process/bet-mass-gap-stationary-torus.json"
+      ],
+      "claim_effect": "Internal comparator category exclusion only; no bet-wide, matrix-cell, assumption-view, ledger, canon, source or Class-C verdict.",
+      "cadence_note": "Carried LC due87 consumed once: counter88to89, massgap3to4, remaining21to20. All B counters, other bets and matrix science unchanged; no scheduled/model credit."
     }
   ],
   "directed_lc_carry_2026_11_24_b": {
@@ -6502,12 +6519,15 @@
     "history": "Completed proofs remain consumed within their stated hypotheses. Preserve exclusions, survivors and strongest unproved bridge."
   },
   "directed_lc_carry_2026_11_27_audit": {
-    "status": "due",
+    "status": "consumed",
     "due_counter": 87,
     "authority": "joe_direct_chat_2026_11_27_a_c",
     "reason": "Explicit directed audit occupies the due ordinary LC slot; it receives no bet credit.",
     "next_regular_run": "Serve the active LC bet with most time remaining before another ordinary B selection.",
-    "bet_attempt_credited": false,
-    "evidence": "lab/process/source-action-controls-sensitivity.json"
+    "bet_attempt_credited": true,
+    "evidence": "lab/process/source-action-controls-sensitivity.json",
+    "consumed_at_counter": 88,
+    "consumed_by": "BET-MASS-GAP",
+    "consumption_evidence": "lab/process/bet-mass-gap-stationary-torus.json"
   }
 }

@@ -1,0 +1,631 @@
+{
+  "check_count": 172,
+  "checks": {
+    "compact_su2_Jacobi_0_0_0": true,
+    "compact_su2_Jacobi_0_0_1": true,
+    "compact_su2_Jacobi_0_0_2": true,
+    "compact_su2_Jacobi_0_1_0": true,
+    "compact_su2_Jacobi_0_1_1": true,
+    "compact_su2_Jacobi_0_1_2": true,
+    "compact_su2_Jacobi_0_2_0": true,
+    "compact_su2_Jacobi_0_2_1": true,
+    "compact_su2_Jacobi_0_2_2": true,
+    "compact_su2_Jacobi_1_0_0": true,
+    "compact_su2_Jacobi_1_0_1": true,
+    "compact_su2_Jacobi_1_0_2": true,
+    "compact_su2_Jacobi_1_1_0": true,
+    "compact_su2_Jacobi_1_1_1": true,
+    "compact_su2_Jacobi_1_1_2": true,
+    "compact_su2_Jacobi_1_2_0": true,
+    "compact_su2_Jacobi_1_2_1": true,
+    "compact_su2_Jacobi_1_2_2": true,
+    "compact_su2_Jacobi_2_0_0": true,
+    "compact_su2_Jacobi_2_0_1": true,
+    "compact_su2_Jacobi_2_0_2": true,
+    "compact_su2_Jacobi_2_1_0": true,
+    "compact_su2_Jacobi_2_1_1": true,
+    "compact_su2_Jacobi_2_1_2": true,
+    "compact_su2_Jacobi_2_2_0": true,
+    "compact_su2_Jacobi_2_2_1": true,
+    "compact_su2_Jacobi_2_2_2": true,
+    "constant_noncommuting_K_minus_deltaE_plus_Ddstar_0": true,
+    "constant_noncommuting_K_minus_deltaE_plus_Ddstar_1": true,
+    "constant_noncommuting_K_minus_deltaE_plus_Ddstar_2": true,
+    "constant_noncommuting_covariant_Bianchi": true,
+    "constant_noncommuting_covariant_commutator_0": true,
+    "constant_noncommuting_covariant_commutator_1": true,
+    "constant_noncommuting_covariant_commutator_2": true,
+    "constant_noncommuting_curvature_antisymmetry": true,
+    "constant_noncommuting_dstar_equals_E_0": true,
+    "constant_noncommuting_dstar_equals_E_1": true,
+    "constant_noncommuting_dstar_equals_E_2": true,
+    "constant_noncommuting_duplicate_contraction_fails_rank2": true,
+    "constant_noncommuting_exact_E_minus2A": true,
+    "constant_noncommuting_fixture_not_a_stationary_background": true,
+    "constant_noncommuting_linearized_curvature_equals_DkF_0": true,
+    "constant_noncommuting_linearized_curvature_equals_DkF_1": true,
+    "constant_noncommuting_linearized_curvature_equals_DkF_2": true,
+    "constant_noncommuting_nonzero_gauge_not_Coulomb": true,
+    "constant_noncommuting_norm_sum_twice_twoform_norm": true,
+    "constant_noncommuting_offshell_deltaE_equals_DkE_0": true,
+    "constant_noncommuting_offshell_deltaE_equals_DkE_1": true,
+    "constant_noncommuting_offshell_deltaE_equals_DkE_2": true,
+    "constant_noncommuting_omit_Coulomb_for_K_minus_deltaE_rejected": true,
+    "constant_noncommuting_omit_connection_variation_rejected": true,
+    "constant_noncommuting_omit_curvature_term_rejected": true,
+    "constant_noncommuting_omit_stationarity_for_Jacobi_rejected": true,
+    "constant_noncommuting_periodic_gauge_integration_by_parts_0": true,
+    "constant_noncommuting_periodic_gauge_integration_by_parts_1": true,
+    "constant_noncommuting_periodic_gauge_integration_by_parts_2": true,
+    "constant_noncommuting_positive_gauge_norm": true,
+    "constant_noncommuting_quadratic_energy_normalization_0": true,
+    "constant_noncommuting_quadratic_energy_normalization_1": true,
+    "constant_noncommuting_quadratic_energy_normalization_2": true,
+    "constant_noncommuting_real_connection": true,
+    "constant_noncommuting_real_curvature": true,
+    "constant_noncommuting_two_contractions_independent": true,
+    "constant_noncommuting_two_point_component_readouts": true,
+    "constant_noncommuting_wrong_single_count_norm_rejected": true,
+    "flat_commuting_K_minus_deltaE_plus_Ddstar_0": true,
+    "flat_commuting_K_minus_deltaE_plus_Ddstar_1": true,
+    "flat_commuting_K_minus_deltaE_plus_Ddstar_2": true,
+    "flat_commuting_covariant_Bianchi": true,
+    "flat_commuting_covariant_commutator_0": true,
+    "flat_commuting_covariant_commutator_1": true,
+    "flat_commuting_covariant_commutator_2": true,
+    "flat_commuting_curvature_antisymmetry": true,
+    "flat_commuting_dstar_equals_E_0": true,
+    "flat_commuting_dstar_equals_E_1": true,
+    "flat_commuting_dstar_equals_E_2": true,
+    "flat_commuting_linearized_curvature_equals_DkF_0": true,
+    "flat_commuting_linearized_curvature_equals_DkF_1": true,
+    "flat_commuting_linearized_curvature_equals_DkF_2": true,
+    "flat_commuting_nonzero_gauge_not_Coulomb": true,
+    "flat_commuting_norm_sum_twice_twoform_norm": true,
+    "flat_commuting_offshell_deltaE_equals_DkE_0": true,
+    "flat_commuting_offshell_deltaE_equals_DkE_1": true,
+    "flat_commuting_offshell_deltaE_equals_DkE_2": true,
+    "flat_commuting_periodic_gauge_integration_by_parts_0": true,
+    "flat_commuting_periodic_gauge_integration_by_parts_1": true,
+    "flat_commuting_periodic_gauge_integration_by_parts_2": true,
+    "flat_commuting_positive_gauge_norm": true,
+    "flat_commuting_quadratic_energy_normalization_0": true,
+    "flat_commuting_quadratic_energy_normalization_1": true,
+    "flat_commuting_quadratic_energy_normalization_2": true,
+    "flat_commuting_real_connection": true,
+    "flat_commuting_real_curvature": true,
+    "flat_commuting_zero_curvature_supplies_no_contraction_witness": true,
+    "flat_zero_K_minus_deltaE_plus_Ddstar_0": true,
+    "flat_zero_K_minus_deltaE_plus_Ddstar_1": true,
+    "flat_zero_K_minus_deltaE_plus_Ddstar_2": true,
+    "flat_zero_covariant_Bianchi": true,
+    "flat_zero_covariant_commutator_0": true,
+    "flat_zero_covariant_commutator_1": true,
+    "flat_zero_covariant_commutator_2": true,
+    "flat_zero_curvature_antisymmetry": true,
+    "flat_zero_dstar_equals_E_0": true,
+    "flat_zero_dstar_equals_E_1": true,
+    "flat_zero_dstar_equals_E_2": true,
+    "flat_zero_linearized_curvature_equals_DkF_0": true,
+    "flat_zero_linearized_curvature_equals_DkF_1": true,
+    "flat_zero_linearized_curvature_equals_DkF_2": true,
+    "flat_zero_nonzero_gauge_not_Coulomb": true,
+    "flat_zero_norm_sum_twice_twoform_norm": true,
+    "flat_zero_offshell_deltaE_equals_DkE_0": true,
+    "flat_zero_offshell_deltaE_equals_DkE_1": true,
+    "flat_zero_offshell_deltaE_equals_DkE_2": true,
+    "flat_zero_periodic_gauge_integration_by_parts_0": true,
+    "flat_zero_periodic_gauge_integration_by_parts_1": true,
+    "flat_zero_periodic_gauge_integration_by_parts_2": true,
+    "flat_zero_positive_gauge_norm": true,
+    "flat_zero_quadratic_energy_normalization_0": true,
+    "flat_zero_quadratic_energy_normalization_1": true,
+    "flat_zero_quadratic_energy_normalization_2": true,
+    "flat_zero_real_connection": true,
+    "flat_zero_real_curvature": true,
+    "flat_zero_zero_curvature_supplies_no_contraction_witness": true,
+    "formal_dstar_equals_E_0": true,
+    "formal_dstar_equals_E_1": true,
+    "formal_dstar_equals_E_2": true,
+    "formal_offshell_deltaE_0_0": true,
+    "formal_offshell_deltaE_0_1": true,
+    "formal_offshell_deltaE_0_2": true,
+    "formal_offshell_deltaE_1_0": true,
+    "formal_offshell_deltaE_1_1": true,
+    "formal_offshell_deltaE_1_2": true,
+    "formal_offshell_deltaE_2_0": true,
+    "formal_offshell_deltaE_2_1": true,
+    "formal_offshell_deltaE_2_2": true,
+    "periodic_nonstationary_K_minus_deltaE_plus_Ddstar_0": true,
+    "periodic_nonstationary_K_minus_deltaE_plus_Ddstar_1": true,
+    "periodic_nonstationary_K_minus_deltaE_plus_Ddstar_2": true,
+    "periodic_nonstationary_covariant_Bianchi": true,
+    "periodic_nonstationary_covariant_commutator_0": true,
+    "periodic_nonstationary_covariant_commutator_1": true,
+    "periodic_nonstationary_covariant_commutator_2": true,
+    "periodic_nonstationary_curvature_antisymmetry": true,
+    "periodic_nonstationary_dstar_equals_E_0": true,
+    "periodic_nonstationary_dstar_equals_E_1": true,
+    "periodic_nonstationary_dstar_equals_E_2": true,
+    "periodic_nonstationary_duplicate_contraction_fails_rank2": true,
+    "periodic_nonstationary_fixture_not_a_stationary_background": true,
+    "periodic_nonstationary_linearized_curvature_equals_DkF_0": true,
+    "periodic_nonstationary_linearized_curvature_equals_DkF_1": true,
+    "periodic_nonstationary_linearized_curvature_equals_DkF_2": true,
+    "periodic_nonstationary_nonzero_gauge_not_Coulomb": true,
+    "periodic_nonstationary_norm_sum_twice_twoform_norm": true,
+    "periodic_nonstationary_offshell_deltaE_equals_DkE_0": true,
+    "periodic_nonstationary_offshell_deltaE_equals_DkE_1": true,
+    "periodic_nonstationary_offshell_deltaE_equals_DkE_2": true,
+    "periodic_nonstationary_omit_Coulomb_for_K_minus_deltaE_rejected": true,
+    "periodic_nonstationary_omit_connection_variation_rejected": true,
+    "periodic_nonstationary_omit_curvature_term_rejected": true,
+    "periodic_nonstationary_omit_stationarity_for_Jacobi_rejected": true,
+    "periodic_nonstationary_periodic_gauge_integration_by_parts_0": true,
+    "periodic_nonstationary_periodic_gauge_integration_by_parts_1": true,
+    "periodic_nonstationary_periodic_gauge_integration_by_parts_2": true,
+    "periodic_nonstationary_positive_gauge_norm": true,
+    "periodic_nonstationary_quadratic_energy_normalization_0": true,
+    "periodic_nonstationary_quadratic_energy_normalization_1": true,
+    "periodic_nonstationary_quadratic_energy_normalization_2": true,
+    "periodic_nonstationary_real_connection": true,
+    "periodic_nonstationary_real_curvature": true,
+    "periodic_nonstationary_two_contractions_independent": true,
+    "periodic_nonstationary_two_point_component_readouts": true,
+    "periodic_nonstationary_wrong_single_count_norm_rejected": true
+  },
+  "conventions": {
+    "E_i": "sum_j D_j F_ji; energy gradient is -E",
+    "K_Coulomb": "-sum_j D_jD_j a_i-2 sum_j [Fij,a_j]",
+    "L2_normalization": "Fourier Parseval mean over T3; multiply by torus volume for unnormalized integrals",
+    "Lie_carrier": "real compact su2 with [T_a,T_b]=epsilon_abc T_c and positive orthonormal invariant pairing for finite controls",
+    "a_i_k": "F_ki; dstar a=-sum_i D_i a_i=E_k",
+    "energy": "(1/2) integral sum_i<j |Fij|^2",
+    "general_K": "K_Coulomb a=-delta E(a)+D(dstar a)",
+    "off_shell": "delta E_i(i_k F)=D_k E_i",
+    "q": "||d_A a||^2+2<F,a wedge a>=-<a,delta E(a)>",
+    "space": "fixed flat T3, period2pi in finite Fourier controls; arbitrary periods in the written theorem"
+  },
+  "data_only": true,
+  "dependency_only_sha256": {
+    "explorations/conditional-build/bet-mass-gap-pati-salam-holonomy-2026-11-25.md": "819a6df09196e4558a7c8d466e24288f2ba0e91d23661e6d08abe9e9f7cca498",
+    "explorations/conditional-build/bet-mass-gap-stability-topology-2026-11-24.md": "5ea250cc5a21775119877ae0160b62c358f2fd0f875bbb20f7db5a616d0830e0",
+    "explorations/conditional-build/signature-generic-cartan-ward-compose-2026-08-08.md": "e62c67a79357e0f39318f1c6a228156f1e224f2025af0678bbd6b050d554c5e6",
+    "lab/process/bet-mass-gap-pati-salam-holonomy.json": "f4e12bf7284df40698a00c28b9d9b69c0f1a730b2116ed20cff65894765285d4",
+    "tests/program-focus/bet_mass_gap_pati_salam_probe.py": "4c08b0e9104ae96c70e2238cbf05bf6a1218ec11491956f3d45aad5842df6549"
+  },
+  "dependency_policy": "The flat PS classification and its probes are authenticated dependencies only; none is rerun or counted as a fresh PASS.",
+  "fixtures": [
+    {
+      "connection": [
+        [],
+        [],
+        []
+      ],
+      "contractions": [
+        {
+          "Coulomb_defect_squared": "0",
+          "deltaE_nonzero_components": 0,
+          "k": 0,
+          "norm_squared": "0",
+          "quadratic_energy": "0"
+        },
+        {
+          "Coulomb_defect_squared": "0",
+          "deltaE_nonzero_components": 0,
+          "k": 1,
+          "norm_squared": "0",
+          "quadratic_energy": "0"
+        },
+        {
+          "Coulomb_defect_squared": "0",
+          "deltaE_nonzero_components": 0,
+          "k": 2,
+          "norm_squared": "0",
+          "quadratic_energy": "0"
+        }
+      ],
+      "curvature_sha256": "80e2ff42d05bdb9a8a3aabeb888c45246d06b0c57e7af740b6a935181561aa92",
+      "curvature_twoform_norm_squared": "0",
+      "equation_sha256": "5ae1625b488b3935122d8dd627fe575b388a5aa360378fa4407aad08baaed1e2",
+      "id": "flat_zero",
+      "nonflat": false,
+      "point_independence": null,
+      "role": "finite identity control; no nonflat stationary existence assertion",
+      "stationary": true
+    },
+    {
+      "connection": [
+        [
+          [
+            [
+              0,
+              0,
+              0
+            ],
+            0,
+            "1",
+            "0"
+          ]
+        ],
+        [
+          [
+            [
+              0,
+              0,
+              0
+            ],
+            0,
+            "2/3",
+            "0"
+          ]
+        ],
+        [
+          [
+            [
+              0,
+              0,
+              0
+            ],
+            0,
+            "-2",
+            "0"
+          ]
+        ]
+      ],
+      "contractions": [
+        {
+          "Coulomb_defect_squared": "0",
+          "deltaE_nonzero_components": 0,
+          "k": 0,
+          "norm_squared": "0",
+          "quadratic_energy": "0"
+        },
+        {
+          "Coulomb_defect_squared": "0",
+          "deltaE_nonzero_components": 0,
+          "k": 1,
+          "norm_squared": "0",
+          "quadratic_energy": "0"
+        },
+        {
+          "Coulomb_defect_squared": "0",
+          "deltaE_nonzero_components": 0,
+          "k": 2,
+          "norm_squared": "0",
+          "quadratic_energy": "0"
+        }
+      ],
+      "curvature_sha256": "80e2ff42d05bdb9a8a3aabeb888c45246d06b0c57e7af740b6a935181561aa92",
+      "curvature_twoform_norm_squared": "0",
+      "equation_sha256": "5ae1625b488b3935122d8dd627fe575b388a5aa360378fa4407aad08baaed1e2",
+      "id": "flat_commuting",
+      "nonflat": false,
+      "point_independence": null,
+      "role": "finite identity control; no nonflat stationary existence assertion",
+      "stationary": true
+    },
+    {
+      "connection": [
+        [
+          [
+            [
+              0,
+              0,
+              0
+            ],
+            0,
+            "1",
+            "0"
+          ]
+        ],
+        [
+          [
+            [
+              0,
+              0,
+              0
+            ],
+            1,
+            "1",
+            "0"
+          ]
+        ],
+        [
+          [
+            [
+              0,
+              0,
+              0
+            ],
+            2,
+            "1",
+            "0"
+          ]
+        ]
+      ],
+      "contractions": [
+        {
+          "Coulomb_defect_squared": "4",
+          "deltaE_nonzero_components": 2,
+          "k": 0,
+          "norm_squared": "2",
+          "quadratic_energy": "4"
+        },
+        {
+          "Coulomb_defect_squared": "4",
+          "deltaE_nonzero_components": 2,
+          "k": 1,
+          "norm_squared": "2",
+          "quadratic_energy": "4"
+        },
+        {
+          "Coulomb_defect_squared": "4",
+          "deltaE_nonzero_components": 2,
+          "k": 2,
+          "norm_squared": "2",
+          "quadratic_energy": "4"
+        }
+      ],
+      "curvature_sha256": "7ef288fe14707f040b6750b5defa3bc37b417e690039c5468eab1099687cee7e",
+      "curvature_twoform_norm_squared": "3",
+      "equation_sha256": "aa27b3cd673af35e3af8b01c2c4b05d0f1f2e045e7a2af303814b4641d3952c1",
+      "id": "constant_noncommuting",
+      "nonflat": true,
+      "point_independence": {
+        "Fij_at_origin": "1",
+        "axes": [
+          0,
+          1
+        ],
+        "color": 2,
+        "determinant": "1",
+        "readout_matrix": [
+          [
+            "0",
+            "-1"
+          ],
+          [
+            "1",
+            "0"
+          ]
+        ]
+      },
+      "role": "finite identity control; no nonflat stationary existence assertion",
+      "stationary": false
+    },
+    {
+      "connection": [
+        [
+          [
+            [
+              0,
+              -1,
+              0
+            ],
+            1,
+            "1/3",
+            "0"
+          ],
+          [
+            [
+              0,
+              0,
+              0
+            ],
+            0,
+            "1",
+            "0"
+          ],
+          [
+            [
+              0,
+              1,
+              0
+            ],
+            1,
+            "1/3",
+            "0"
+          ]
+        ],
+        [
+          [
+            [
+              0,
+              0,
+              -1
+            ],
+            2,
+            "0",
+            "3/10"
+          ],
+          [
+            [
+              0,
+              0,
+              0
+            ],
+            1,
+            "1",
+            "0"
+          ],
+          [
+            [
+              0,
+              0,
+              1
+            ],
+            2,
+            "0",
+            "-3/10"
+          ]
+        ],
+        [
+          [
+            [
+              -1,
+              0,
+              0
+            ],
+            0,
+            "0",
+            "2/7"
+          ],
+          [
+            [
+              0,
+              0,
+              0
+            ],
+            2,
+            "1",
+            "0"
+          ],
+          [
+            [
+              1,
+              0,
+              0
+            ],
+            0,
+            "0",
+            "-2/7"
+          ]
+        ]
+      ],
+      "contractions": [
+        {
+          "Coulomb_defect_squared": "78295297/12005000",
+          "deltaE_nonzero_components": 3,
+          "k": 0,
+          "norm_squared": "63151/22050",
+          "quadratic_energy": "72131/11025"
+        },
+        {
+          "Coulomb_defect_squared": "3411829/540225",
+          "deltaE_nonzero_components": 3,
+          "k": 1,
+          "norm_squared": "31034/11025",
+          "quadratic_energy": "14231773/2205000"
+        },
+        {
+          "Coulomb_defect_squared": "1778662/275625",
+          "deltaE_nonzero_components": 3,
+          "k": 2,
+          "norm_squared": "20539/7350",
+          "quadratic_energy": "6800183/1080450"
+        }
+      ],
+      "curvature_sha256": "f07f8ef9c3dbed4d628a0c0cc8edfcc85ba467a86016497f4cc9e617086778ee",
+      "curvature_twoform_norm_squared": "46709/11025",
+      "equation_sha256": "c4a9c650ecd1a7d2ea2af0e3776ad7f20f8f84be7a0d9bbc2f0b9deab7650075",
+      "id": "periodic_nonstationary",
+      "nonflat": true,
+      "point_independence": {
+        "Fij_at_origin": "1",
+        "axes": [
+          0,
+          1
+        ],
+        "color": 2,
+        "determinant": "1",
+        "readout_matrix": [
+          [
+            "0",
+            "-1"
+          ],
+          [
+            "1",
+            "0"
+          ]
+        ]
+      },
+      "role": "finite identity control; no nonflat stationary existence assertion",
+      "stationary": false
+    }
+  ],
+  "flat_PS_composition": "Combining the new nonflat theorem with the inherited flat-PS classification excludes a strictly positive full quadratic gap for every smooth static source-free stationary connection in that same compact PS flat-T3 category.",
+  "formal_covariant_jet_records": [
+    {
+      "Bianchi_and_commutator_relation_terms": 4,
+      "expanded_terms": 4,
+      "i": 0,
+      "k": 0,
+      "remainder": []
+    },
+    {
+      "Bianchi_and_commutator_relation_terms": 4,
+      "expanded_terms": 4,
+      "i": 1,
+      "k": 0,
+      "remainder": []
+    },
+    {
+      "Bianchi_and_commutator_relation_terms": 4,
+      "expanded_terms": 4,
+      "i": 2,
+      "k": 0,
+      "remainder": []
+    },
+    {
+      "Bianchi_and_commutator_relation_terms": 4,
+      "expanded_terms": 4,
+      "i": 0,
+      "k": 1,
+      "remainder": []
+    },
+    {
+      "Bianchi_and_commutator_relation_terms": 4,
+      "expanded_terms": 4,
+      "i": 1,
+      "k": 1,
+      "remainder": []
+    },
+    {
+      "Bianchi_and_commutator_relation_terms": 4,
+      "expanded_terms": 4,
+      "i": 2,
+      "k": 1,
+      "remainder": []
+    },
+    {
+      "Bianchi_and_commutator_relation_terms": 4,
+      "expanded_terms": 4,
+      "i": 0,
+      "k": 2,
+      "remainder": []
+    },
+    {
+      "Bianchi_and_commutator_relation_terms": 4,
+      "expanded_terms": 4,
+      "i": 1,
+      "k": 2,
+      "remainder": []
+    },
+    {
+      "Bianchi_and_commutator_relation_terms": 4,
+      "expanded_terms": 4,
+      "i": 2,
+      "k": 2,
+      "remainder": []
+    }
+  ],
+  "not_run": [
+    "Old PS holonomy census",
+    "Full operator construction or spectral computation",
+    "Native indefinite/GU transfer",
+    "Lean compilation",
+    "Global bundle or PDE formalization"
+  ],
+  "probe_sha256": "ec9d2e29038aa0bb550e1dbb0d2b0abcf0827a35d58bf9f43efb0e8ebe5bab2f",
+  "schema": "gu-stationary-torus-certificate-v1",
+  "scope_limits": [
+    "No stationary background census or existence search",
+    "No claim that every compact group has gapless flat bundles",
+    "Flat twisted SO3 positive control remains valid",
+    "No full nonlinear quotient or quantum gap theorem",
+    "No source-native GU or bet-wide verdict"
+  ],
+  "timing_policy": "Runtime and certificate byte count appear in ephemeral receipts, not this deterministic certificate.",
+  "written_consequences": "At a smooth stationary nonflat connection, at least two global contractions i_kF are independent Coulomb Jacobi fields and independent modulo infinitesimal gauge. Smoothness/compact T3 supplies the H2 domain; this bundle/PDE/domain theorem is a separately reviewed written argument."
+}

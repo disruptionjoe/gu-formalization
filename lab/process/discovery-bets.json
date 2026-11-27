@@ -66,18 +66,24 @@
       "external_context": "2026-11-25 evidence refresh: the Nov10 committee assessment and public Lean checks meet the tracking trigger for pure compact-simple four-dimensional Yang\u2013Mills existence. No mass gap or unique infinite-volume limit is established; quark-coupled QCD is outside this assessment. No native GU or Sp(32,32) transfer. SC-META-53 compact shielding still needs a source-compatible positive physical reduction and identification with the Wilson-limit theory. Existing bet result and accounting unchanged.",
       "kill_criterion": "Within the time box, the reduced quadratic operator has massless gauge modes for every guessed action tried, with the reduction typed (contraction, not projection).",
       "status": "active",
-      "runs_used": 3,
+      "runs_used": 4,
       "zero_delta_streak": 0,
       "result": {
         "status": "active_with_conditional_structural_result",
-        "actual_delta": "For the full compact PS product/diagonalZ2 quotient with honest16 on flatT3, zero central flux has at least5 adjoint fixed directions; nonzero flux has exactly1 or3. The MG1 physical Hessian kernel has dimension3 times the fixed algebra, so the earlier isolated SO3 positive gap does not extend to the full carrier. This is a classical compact comparator, not a native/quantum-gap or bet-wide verdict.",
+        "actual_delta": "Every smooth stationary magnetic MG1 connection on every admitted compact PS product/diagonal-Z2 bundle over the same closed flat T3 has a nonzero full physical Hessian kernel: at least two independent translation Jacobi fields when nonflat, and the inherited flat-PS kernel otherwise. This closes the nonflat-endpoint escape for a strictly positive full quadratic gap in this comparator category, not GU or a quantum gap.",
         "evidence": [
+          "explorations/conditional-build/bet-mass-gap-stationary-torus-2026-11-27.md",
+          "lab/process/bet-mass-gap-stationary-torus.json",
+          "tests/program-focus/bet_mass_gap_stationary_torus_probe.py",
+          "lab/process/bet-mass-gap-stationary-torus-certificates.json",
+          "Lean/GUFormalization/StationaryTorus.lean",
+          "lab/process/hostile-reviews/2026-11-27-stationary-torus-review.md"
+        ],
+        "prior_evidence": [
           "explorations/conditional-build/bet-mass-gap-pati-salam-holonomy-2026-11-25.md",
           "tests/program-focus/bet_mass_gap_pati_salam_probe.py",
           "lab/process/bet-mass-gap-pati-salam-holonomy.json",
-          "lab/process/hostile-reviews/2026-11-25-pati-salam-gap-review.md"
-        ],
-        "prior_evidence": [
+          "lab/process/hostile-reviews/2026-11-25-pati-salam-gap-review.md",
           "explorations/conditional-build/bet-mass-gap-stability-topology-2026-11-24.md",
           "lab/process/bet-mass-gap-stability-topology.json",
           "tests/program-focus/bet_mass_gap_stability_topology_probe.py",
@@ -88,10 +94,36 @@
         ],
         "guessed_action_variants": 1,
         "new_action_variants_this_run": 0,
-        "remaining_runs": 21,
+        "remaining_runs": 20,
         "physical_quantum_gap": "not_supplied",
         "matrix_or_ledger_effect": "none",
-        "next_condition": "No further flatPS holonomy search can give a full positive MG1 quadratic gap in this category. Next useful input is a supplied nonconstant stationary endpoint with complete physical Hessian/domain or a physically specified charged sector. Full native indefinite/action/observation and quantum bridges remain open; no source operator is built."
+        "next_condition": "Same-flat-T3 stationary endpoint searches are covered by the all-stationary theorem, including nonconstant connections. A new gap test needs an actually supplied different source-admissible base/action/domain, a physically specified charged sector or the native/quantum reduction bridge. Removing collective zero modes changes the observable. Do not reopen identical premises; no candidate construction is selected here.",
+        "prior_flat_PS_result": {
+          "status": "active_with_conditional_structural_result",
+          "actual_delta": "For the full compact PS product/diagonalZ2 quotient with honest16 on flatT3, zero central flux has at least5 adjoint fixed directions; nonzero flux has exactly1 or3. The MG1 physical Hessian kernel has dimension3 times the fixed algebra, so the earlier isolated SO3 positive gap does not extend to the full carrier. This is a classical compact comparator, not a native/quantum-gap or bet-wide verdict.",
+          "evidence": [
+            "explorations/conditional-build/bet-mass-gap-pati-salam-holonomy-2026-11-25.md",
+            "tests/program-focus/bet_mass_gap_pati_salam_probe.py",
+            "lab/process/bet-mass-gap-pati-salam-holonomy.json",
+            "lab/process/hostile-reviews/2026-11-25-pati-salam-gap-review.md"
+          ],
+          "prior_evidence": [
+            "explorations/conditional-build/bet-mass-gap-stability-topology-2026-11-24.md",
+            "lab/process/bet-mass-gap-stability-topology.json",
+            "tests/program-focus/bet_mass_gap_stability_topology_probe.py",
+            "lab/process/hostile-reviews/2026-11-24-mass-gap-stability-topology-review.md",
+            "explorations/conditional-build/bet-mass-gap-curvature-end-test-2026-11-11.md",
+            "tests/program-focus/bet_mass_gap_curvature_end_probe.py",
+            "lab/process/bet-mass-gap-curvature-end-test.json"
+          ],
+          "guessed_action_variants": 1,
+          "new_action_variants_this_run": 0,
+          "remaining_runs": 21,
+          "physical_quantum_gap": "not_supplied",
+          "matrix_or_ledger_effect": "none",
+          "next_condition": "No further flatPS holonomy search can give a full positive MG1 quadratic gap in this category. Next useful input is a supplied nonconstant stationary endpoint with complete physical Hessian/domain or a physically specified charged sector. Full native indefinite/action/observation and quantum bridges remain open; no source operator is built."
+        },
+        "last_run_date": "2026-11-27"
       },
       "external_evidence_2026_11_25": {
         "assessment": "lab/process/external-results-evidence-2026-11-25.json",
@@ -132,7 +164,7 @@
         "remaining_runs": 21,
         "matrix_or_ledger_effect": "none",
         "full_cmb_consistency": "not_supplied",
-        "next_condition": "Compare the actual stationary Euler equation with the source-shaped endpoint residual using the now-typed literal bosonic one-form contraction, keeping equation owners distinct. First authenticate the endpoint/glyph dictionary and existing coverage. If the exact same held endpoint is owned, evaluate its full residual and section contraction at the two certified roots and first relevant analytic coefficient. Raise the degree13 endpoint with the ambient Hodge/pairing before literal one-form pullback; direct degree13 section pullback vanishes dimensionally. Do not repeat the known off-shell Helmholtz defect or use fermionic F/R as a bosonic decoder. If the source endpoint is not authenticated, record that exact scope and select another eligible target.",
+        "next_condition": "The printed-endpoint comparison is consumed by the endpoint-onshell result; fixed-linear direct-Riemann architecture is separately scoped by Riemann-silence. A cosmology continuation needs the actual conserved physical stress/readout and source/state bridge or the already-named complete-CMB inputs for held EXP/COS. No repeated endpoint calculation or native K95 transfer is counted as a cosmology bet.",
         "prior_regular_perturbation_result": {
           "status": "active_with_conditional_structural_result",
           "actual_delta": "Held EXP/COS admit regular radiation backgrounds; finite-time zero momentum is generically not the exact regular branch. The constrained ideal-fluid perturbation system has three regular amplitudes, including independent scalar isocurvature, and exact Einstein constraint propagation. Negative COS mass curvature alone gives no unavoidable finite-interval inconsistency. No bet kill, full-CMB acceptance or GU inference.",
@@ -165,6 +197,15 @@
           "bet_wide_verdict": "none",
           "observed_Einstein_stress": "not_supplied",
           "physical_cosmological_state": "not_supplied"
+        },
+        "consumed_endpoint_direction_2026_11_27": {
+          "status": "consumed",
+          "direction": "Compare the actual stationary Euler equation with the source-shaped endpoint residual using the now-typed literal bosonic one-form contraction, keeping equation owners distinct. First authenticate the endpoint/glyph dictionary and existing coverage. If the exact same held endpoint is owned, evaluate its full residual and section contraction at the two certified roots and first relevant analytic coefficient. Raise the degree13 endpoint with the ambient Hodge/pairing before literal one-form pullback; direct degree13 section pullback vanishes dimensionally. Do not repeat the known off-shell Helmholtz defect or use fermionic F/R as a bosonic decoder. If the source endpoint is not authenticated, record that exact scope and select another eligible target.",
+          "evidence": [
+            "explorations/conditional-build/source-action-endpoint-onshell-2026-11-27.md",
+            "explorations/conditional-build/source-action-riemann-silence-2026-11-27.md"
+          ],
+          "accounting": "No bet attempt, new theorem or LC import; correction of stale instruction only."
         }
       }
     }

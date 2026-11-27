@@ -17,6 +17,10 @@ External review is not a research pathway or waiting condition. The source-level
 
 Sections below are historical snapshots in file order.
 
+## 2026-11-27 — All stationary compact PS torus backgrounds
+
+[Result](explorations/conditional-build/bet-mass-gap-stationary-torus-2026-11-27.md) · [Evidence](lab/process/bet-mass-gap-stationary-torus.json). Every stationary MG1 connection in the declared full compact PS flat-torus category retains physical Hessian zero modes. Nonflat curvature supplies at least two independent translation Jacobi fields; flat connections use the inherited PS classification. A strictly positive entire quadratic spectrum is excluded in this comparator category. No quantum-gap, source-GU or ledger verdict.
+
 ## 2026-11-27 — Candidate diagnostic controls and dependency coverage
 
 [Audit](explorations/conditional-build/source-action-controls-sensitivity-2026-11-27.md) · [Evidence](lab/process/source-action-controls-sensitivity.json). The controls distinguish canonical energy, physical norm and evolution estimates. Six recorded matter-only families preserve the held bosonic failure statements; four core variations and the different plus-adjoint construction remain undetermined. The bounded source search obtained no new authenticated state law in its coverage. Choice10/4/net6/0 and scientific verdicts remain unchanged.

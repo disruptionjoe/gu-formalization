@@ -1,7 +1,7 @@
 schema_version: '1.0'
 repository: observerse-research-program
 branch: main
-revision_basis: 4215ddda8b6ffab99955f658c7a236f1f15dddc8
+revision_basis: 630b7f50b7fce50efb614d36cb15958b1a4636ff
 program_focus:
   version: 2026-11-27-v1
   authority: joe_direct_chat_2026_11_27_c
@@ -37184,3 +37184,17 @@ external_results_evidence_2026_11_25:
   notes:
   - lab/active-research/joe-directed/external-results/ym-corpus-and-verification-assessment-2026-11-25.md
   - lab/active-research/joe-directed/external-results/harmonic-observation-transfer-2026-11-25.md
+
+stationary_torus_2026_11_27:
+  status: internal_T1_comparator_class_exclusion_reviewed
+  target: BET-MASS-GAP
+  report: explorations/conditional-build/bet-mass-gap-stationary-torus-2026-11-27.md
+  evidence: lab/process/bet-mass-gap-stationary-torus.json
+  actual_delta: 'Every smooth stationary magnetic MG1 connection on every admitted compact PS product/diagonal-Z2
+    bundle over the same closed flat T3 has a nonzero full physical Hessian kernel: at least two independent
+    translation Jacobi fields when nonflat, and the inherited flat-PS kernel otherwise. This closes the
+    nonflat-endpoint escape for a strictly positive full quadratic gap in this comparator category, not
+    GU or a quantum gap.'
+  source_bridge: conditional comparator only
+  choice_budget_effect: none
+  matrix_or_ledger_verdict_effect: none

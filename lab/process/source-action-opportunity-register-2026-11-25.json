@@ -2531,7 +2531,7 @@
     "next_directed_worksets": [
       {
         "id": "native_k95_four_witness_transfer",
-        "status": "deferred_behind_joe_2026_11_27_a_controls",
+        "status": "ready_after_consumed_controls_and_LC",
         "target": "LB-CLASS",
         "task": "Test the four-witness Riemann-silence mechanism on the owned rational primary-minus K95 full-U carrier, with native curvature normalization and real maps; no new action or physical domain.",
         "expected_delta": "Typed whole-class K95 transfer or exact failed hypothesis; no automatic GU or physical verdict.",
@@ -2555,7 +2555,7 @@
         },
         "kill_condition": "Any native type, curvature identification, normalization or rank check fails; retain failed transfer rather than assuming signatures interchangeable.",
         "remaining_cost": "Estimated seconds of sparse exact arithmetic, not yet measured; no dense matrices/Sage census.",
-        "control_effect": "Ready mathematical inputs retained; Joe directed controls/sensitivity/source-state-rule audit first, max3waves then report. No execution or candidate construction."
+        "control_effect": "Directed audit and carried LC completed. Ordinary B selection now evaluates this ready whole-architecture test; no new construction."
       },
       {
         "id": "nonriemann_or_translation_dependent_gravity_source_bridge",
@@ -2654,5 +2654,29 @@
     "next": "Structural native K95 four-witness transfer ranks before a guided successor, after the carried ordinary LC slot. No new candidate selected.",
     "weakest_unproved_link": "Source necessity and physical admission/readout of this reconstructed candidate; its roots also fail the separately printed endpoint.",
     "claim_effect": "No matrix-cell, ledger, source, canon, class-C or paper verdict change."
+  },
+  "stationary_torus_2026_11_27": {
+    "evidence": [
+      "explorations/conditional-build/bet-mass-gap-stationary-torus-2026-11-27.md",
+      "lab/process/bet-mass-gap-stationary-torus.json"
+    ],
+    "actual_delta": "Every smooth stationary magnetic MG1 connection on every admitted compact PS product/diagonal-Z2 bundle over the same closed flat T3 has a nonzero full physical Hessian kernel: at least two independent translation Jacobi fields when nonflat, and the inherited flat-PS kernel otherwise. This closes the nonflat-endpoint escape for a strictly positive full quadratic gap in this comparator category, not GU or a quantum gap.",
+    "covered_successor": "Nonconstant stationary endpoint construction on same flatT3/fullMG1 quotient.",
+    "next_B": "Native K95 four-witness direct-Riemann transfer; no new candidate or source verdict."
+  },
+  "homogeneous_displacement_normalization_opportunity_2026_11_27": {
+    "status": "unexecuted_conditional_composition",
+    "proposal": "Compose the existing effective-stabilizer normalization theorem with the W2 homogeneous displacement and finite natural jets; complete compensated Lorentz stabilizer may obstruct a finite smooth positive invariant full-fibre density.",
+    "premises": [
+      "Declared homogeneous G/H0 extension of the216 bosonic family",
+      "Six Lorentz invariances of59 real branch",
+      "Actual equivariant extension to the stated invariant fibre domain or cover"
+    ],
+    "evidence": [
+      "explorations/conditional-build/source-action-homogeneous-analytic-vacuum-2026-11-25.md",
+      "explorations/conditional-build/source-action-dynamics-and-continuation-2026-11-25.md"
+    ],
+    "ceiling": "No accepted theorem or scientific credit; local chart weights and b=H transport survivor retained. Source does not presently require a finite invariant probability.",
+    "value_of_information": "Test only if the composition excludes an actually live claimed source-selected reference, not to re-prove abstract normalization floors."
   }
 }

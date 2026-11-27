@@ -693,6 +693,120 @@
           "owner_ref": "explorations/conditional-build/source-action-controls-sensitivity-2026-11-27.md"
         }
       ]
+    },
+    {
+      "id": "bet-mass-gap-stationary-torus-2026-11-27",
+      "kind": "result",
+      "owner_ref": "explorations/conditional-build/bet-mass-gap-stationary-torus-2026-11-27.md",
+      "tested_statement": "Every smooth stationary magnetic MG1 connection on every admitted compact PS product/diagonal-Z2 bundle over the same closed flat T3 has a nonzero full physical Hessian kernel: at least two independent translation Jacobi fields when nonflat, and the inherited flat-PS kernel otherwise. This closes the nonflat-endpoint escape for a strictly positive full quadratic gap in this comparator category, not GU or a quantum gap.",
+      "signature": {
+        "object": "Full MG1 physical Hessian at every stationary magnetic connection",
+        "carrier": "All admitted compact PS product/diagonalZ2 bundles with honest16 over fixed closed flatT3",
+        "convention": "Positive compact pairing; source-free static zero electric; vertical internal gauge only",
+        "class": "All smooth static source-free zero-electric MG1 connections on all compact PS product or diagonal-Z2 bundles on fixed closed flat T3, positive invariant pairing, full periodic H2 Coulomb domain modulo vertical internal gauge.",
+        "premises": [
+          "Full smooth/H2 Coulomb domain",
+          "Translation isometry and complete horizontal bundle lift",
+          "Inherited complete flatPS holonomy theorem"
+        ]
+      },
+      "attributed_status": "internal_T1_comparator_class_exclusion_reviewed",
+      "status_ref": "lab/process/bet-mass-gap-stationary-torus.json#status",
+      "source_bridge_ref": "lab/process/bet-mass-gap-stationary-torus.json#source_bridge",
+      "certificate_refs": [
+        "lab/process/bet-mass-gap-stationary-torus-certificates.json"
+      ],
+      "control_refs": [
+        "tests/program-focus/bet_mass_gap_stationary_torus_probe.py"
+      ],
+      "survivors_ref": "explorations/conditional-build/bet-mass-gap-stationary-torus-2026-11-27.md#7-what-the-result-changes",
+      "reopen_condition_ref": "explorations/conditional-build/bet-mass-gap-stationary-torus-2026-11-27.md#7-what-the-result-changes",
+      "superseded_by": null,
+      "cache": {
+        "artifacts": [
+          {
+            "path": "explorations/conditional-build/bet-mass-gap-stationary-torus-2026-11-27.md",
+            "sha256": "d54e0c924f03b4ff3c027c8396b4a0f7aa1117a8f804f8da92255887d332e223"
+          },
+          {
+            "path": "tests/program-focus/bet_mass_gap_stationary_torus_probe.py",
+            "sha256": "ec9d2e29038aa0bb550e1dbb0d2b0abcf0827a35d58bf9f43efb0e8ebe5bab2f"
+          },
+          {
+            "path": "lab/process/bet-mass-gap-stationary-torus-certificates.json",
+            "sha256": "135fba05936f62b27b16b040e3659989cf71d331607967944d9a352f99fc5538"
+          },
+          {
+            "path": "Lean/GUFormalization/StationaryTorus.lean",
+            "sha256": "cfecddfaa67aea001b5f2b1c40a74d3c4f1a986dfeb30f9eac1ae940cf223887"
+          },
+          {
+            "path": "explorations/conditional-build/bet-mass-gap-pati-salam-holonomy-2026-11-25.md",
+            "sha256": "819a6df09196e4558a7c8d466e24288f2ba0e91d23661e6d08abe9e9f7cca498"
+          },
+          {
+            "path": "explorations/conditional-build/bet-mass-gap-stability-topology-2026-11-24.md",
+            "sha256": "5ea250cc5a21775119877ae0160b62c358f2fd0f875bbb20f7db5a616d0830e0"
+          },
+          {
+            "path": "explorations/conditional-build/signature-generic-cartan-ward-compose-2026-08-08.md",
+            "sha256": "e62c67a79357e0f39318f1c6a228156f1e224f2025af0678bbd6b050d554c5e6"
+          },
+          {
+            "path": "lab/process/bet-mass-gap-pati-salam-holonomy.json",
+            "sha256": "f4e12bf7284df40698a00c28b9d9b69c0f1a730b2116ed20cff65894765285d4"
+          },
+          {
+            "path": "tests/program-focus/bet_mass_gap_pati_salam_probe.py",
+            "sha256": "4c08b0e9104ae96c70e2238cbf05bf6a1218ec11491956f3d45aad5842df6549"
+          }
+        ],
+        "verifier": {
+          "command": "python3",
+          "args": [
+            "tests/program-focus/bet_mass_gap_stationary_torus_probe.py",
+            "--verify"
+          ],
+          "environment": {
+            "python_version": "3.14.6 (main, Jun 10 2026, 10:03:53) [Clang 21.0.0 (clang-2100.0.123.102)]",
+            "platform": "macOS-26.7-arm64-arm-64bit-Mach-O",
+            "untracked_environment": "unknown"
+          }
+        },
+        "receipt_ref": "lab/process/bet-mass-gap-stationary-torus.json#verification/root_replay"
+      },
+      "exclusions": [
+        {
+          "statement": "Strict positive gap on entire quotient for every stationary endpoint in this fixed category; eliminates same-torus endpoint search.",
+          "owner_ref": "explorations/conditional-build/bet-mass-gap-stationary-torus-2026-11-27.md"
+        }
+      ],
+      "untested_alternatives": [
+        {
+          "statement": "No native indefinite/Krein transfer",
+          "owner_ref": "explorations/conditional-build/bet-mass-gap-stationary-torus-2026-11-27.md"
+        },
+        {
+          "statement": "No source-selected action or state space",
+          "owner_ref": "explorations/conditional-build/bet-mass-gap-stationary-torus-2026-11-27.md"
+        },
+        {
+          "statement": "No interacting quantum mass-gap claim",
+          "owner_ref": "explorations/conditional-build/bet-mass-gap-stationary-torus-2026-11-27.md"
+        },
+        {
+          "statement": "No exclusion of a gap above a removed zero-mode sector or specified charged spectrum",
+          "owner_ref": "explorations/conditional-build/bet-mass-gap-stationary-torus-2026-11-27.md"
+        },
+        {
+          "statement": "No extension to a curved base, electric/time-dependent or matter-coupled background",
+          "owner_ref": "explorations/conditional-build/bet-mass-gap-stationary-torus-2026-11-27.md"
+        },
+        {
+          "statement": "Class C representativeness unproved; no matrix science import",
+          "owner_ref": "explorations/conditional-build/bet-mass-gap-stationary-torus-2026-11-27.md"
+        }
+      ]
     }
   ]
 }

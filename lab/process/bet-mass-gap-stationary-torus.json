@@ -1,0 +1,375 @@
+{
+  "basis_revision": "630b7f50b7fce50efb614d36cb15958b1a4636ff",
+  "authority": "joe_direct_chat_2026_11_27_c",
+  "status": "internal_T1_comparator_class_exclusion_reviewed",
+  "program_target": "BET-MASS-GAP",
+  "tier": "T1",
+  "actual_delta": "Every smooth stationary magnetic MG1 connection on every admitted compact PS product/diagonal-Z2 bundle over the same closed flat T3 has a nonzero full physical Hessian kernel: at least two independent translation Jacobi fields when nonflat, and the inherited flat-PS kernel otherwise. This closes the nonflat-endpoint escape for a strictly positive full quadratic gap in this comparator category, not GU or a quantum gap.",
+  "class_covered": "All smooth static source-free zero-electric MG1 connections on all compact PS product or diagonal-Z2 bundles on fixed closed flat T3, positive invariant pairing, full periodic H2 Coulomb domain modulo vertical internal gauge.",
+  "source_bridge": {
+    "status": "conditional",
+    "reason": "SC-GRP-03 and SC-PRE-52 motivate related compact data but do not supply MG1, T3 or the tested classical full Hessian as a source-required physical gap."
+  },
+  "claim_effect": "Internal comparator category exclusion only; no bet-wide, matrix-cell, assumption-view, ledger, canon, source or Class-C verdict.",
+  "source_custody": [
+    {
+      "id": "SC-GRP-03",
+      "polarity": "ASSERTS",
+      "locus": "draft-2021 p29 eq4.6"
+    },
+    {
+      "id": "SC-PRE-52",
+      "polarity": "ASSERTS",
+      "locus": "toe-2025 02:52:38 transcript720\u2013726"
+    },
+    {
+      "id": "SC-GEO-55",
+      "polarity": "ASSERTS",
+      "locus": "toe-2025 02:18:44",
+      "limit": "Displacement/equivariance, not compact MG1/T3."
+    },
+    {
+      "id": "SC-GEO-58",
+      "polarity": "DISAVOWS separate fundamental Higgs",
+      "locus": "ucsd-seminar-2025 00:42:42",
+      "limit": "No automatic compact-positive action or gap identification."
+    }
+  ],
+  "proof_dependencies": {
+    "offshell": "dstar(i_k F)=E_k and delta E_i[i_k F]=D_k E_i, from Bianchi and covariant commutator; stationarity not assumed in identity.",
+    "stationary": "E=0 gives smooth H2 Coulomb Jacobi fields.",
+    "global_bundle": "Complete A-horizontal lift of a parallel vector field gives equivariant bundle flow covering translations; no global trivialization or periodic group-action lift required.",
+    "rank": "A nonzero F_ij at one point gives two linearly independent contraction fields by two component readouts.",
+    "physical_quotient": "Positive integration by parts excludes all nonzero Coulomb vectors from closure of internal gauge derivatives; residual vertical stabilizers fix F and contractions. Translations not gauged.",
+    "flat": "Inherited complete PS central-flux classification: physical kernel3 or9 in nonzero flux; at least15 in zero flux.",
+    "Stern_crosscheck": "For stationary3D on flatT3, q_A(*F)=-||nabla_A F||^2. Section4 Bochner identity is used without the minimizer inequality.",
+    "inherited_hashes": {
+      "explorations/conditional-build/bet-mass-gap-pati-salam-holonomy-2026-11-25.md": "819a6df09196e4558a7c8d466e24288f2ba0e91d23661e6d08abe9e9f7cca498",
+      "explorations/conditional-build/bet-mass-gap-stability-topology-2026-11-24.md": "5ea250cc5a21775119877ae0160b62c358f2fd0f875bbb20f7db5a616d0830e0",
+      "explorations/conditional-build/signature-generic-cartan-ward-compose-2026-08-08.md": "e62c67a79357e0f39318f1c6a228156f1e224f2025af0678bbd6b050d554c5e6",
+      "lab/process/bet-mass-gap-pati-salam-holonomy.json": "f4e12bf7284df40698a00c28b9d9b69c0f1a730b2116ed20cff65894765285d4",
+      "tests/program-focus/bet_mass_gap_pati_salam_probe.py": "4c08b0e9104ae96c70e2238cbf05bf6a1218ec11491956f3d45aad5842df6549"
+    }
+  },
+  "prior_art": [
+    {
+      "url": "https://arxiv.org/pdf/0808.0667",
+      "author": "Mark Stern",
+      "title": "Geometry of minimal energy Yang\u2013Mills connections",
+      "use": "Section4 equations4.2\u20134.3 and displayed Bochner identity; classical curvature contraction method.",
+      "status": "primary source checked; no world-novel claim"
+    },
+    {
+      "url": "https://arxiv.org/abs/math/9907007",
+      "author": "Borel, Friedman, Morgan",
+      "title": "Almost commuting elements in compact Lie groups",
+      "use": "Context only; actual flat PS classification is inherited from owned report."
+    }
+  ],
+  "diagnostic_calibration": {
+    "fresh": [
+      "Sparse formal covariant jets:9 complete off-shell deltaE identities and3 dstar identities",
+      "Exact periodic compact-SU2 Fourier fields with positive Parseval pairing",
+      "Explicit E=-2A nonstationary mutant; rejects dropping stationarity, Coulomb condition, curvature term and connection variation",
+      "Antisymmetric norm sum, point-component rank, periodic positive integration by parts"
+    ],
+    "inherited": [
+      "Flat twisted SO3 positive-gap comparator remains outside full PS flat classification; not reexecuted."
+    ],
+    "ceiling": "Finite identity controls plus written universal proof, not a stationary background census or full native diagnostic."
+  },
+  "decision_record": {
+    "mandatory_basis": "Serve due LC carry from counter87 after directed controls at88; all three active bets tied21 remaining runs.",
+    "reuse_lookup": [
+      "Curated research index omitted bet coverage; direct owner search used PS holonomy, stability/topology and Cartan identities.",
+      "Already-covered Wilson-line, quartic and density-only tests reused."
+    ],
+    "changed_premises": "Flat-connection theorem extended to all stationary connections on the SAME action/base/domain, not a changed action or realization.",
+    "outcomes": [
+      "Admissible non-gauge Jacobi fields: remove all same-torus stationary endpoint construction from this full-gap question.",
+      "Failed global/domain/gauge condition: preserve exactly that uncovered escape."
+    ],
+    "expected_delta": "Close nonflat stationary endpoint escape with a class theorem.",
+    "actual_delta": "Every smooth stationary magnetic MG1 connection on every admitted compact PS product/diagonal-Z2 bundle over the same closed flat T3 has a nonzero full physical Hessian kernel: at least two independent translation Jacobi fields when nonflat, and the inherited flat-PS kernel otherwise. This closes the nonflat-endpoint escape for a strictly positive full quadratic gap in this comparator category, not GU or a quantum gap.",
+    "expected_cost": "One bounded small analytic/exact/review wave, no dense inverse or endpoint construction.",
+    "actual_cost": {
+      "science_waves": 1,
+      "exact_root_seconds": 0.08865491719916463,
+      "certificate_bytes": 21224,
+      "total_agent_time": "not fully instrumented",
+      "review_driven_changes": "One explicit duplicated-column mutation replaced a tautological determinant expression, followed by one fresh producer/replay. Lean default import registered after inventory gate caught omitted integration path."
+    },
+    "shared_prerequisite": "No native action/state bridge supplied; comparator theorem needs no new source operator.",
+    "strongest_eligible_alternative": "Other tied LC bets:2+1 immediate density/coefficient probes already covered; cosmology endpoint direction already consumed. K95 transfer is stronger next B work but not LC credit.",
+    "next_action": "Consume carried LC once, then test native K95 four-witness direct-Riemann transfer; no further same-torus MG1 endpoint search."
+  },
+  "quick_math20": {
+    "method": "Quick description pass, not20 independent people/agents; concrete authors and required independent reviewers only.",
+    "lenses": {
+      "category theory": "Same object/action/domain/quotient under transfer; symmetry orbit vs gauge orbit.",
+      "number theory": "Reuse exact projective central-flux classification; no new census.",
+      "representation theory": "FullPS honest16, not isolatedSO3.",
+      "differential geometry": "Horizontal lifts and covariant Cartan.",
+      "symplectic geometry": "Gauge reduction leaves translation symmetries physical.",
+      "PDE": "Stationarity plus smooth compact-domain Jacobi equation.",
+      "spectral theory": "Zero eigenvalue differs from gap above kernel.",
+      "harmonic analysis": "Fourier identities and parallel flat modes.",
+      "topology": "Arbitrary principal bundles, no chosen global gauge.",
+      "index theory": "No index needed for this kernel witness.",
+      "Hodge theory": "Coulomb and starF.",
+      "variational calculus": "Derivative of stationary symmetry orbit.",
+      "operator theory": "H1 form/H2 operator and closure of gauge image.",
+      "algebraic geometry": "No inference of smooth moduli from tangents.",
+      "Lie theory": "Residual stabilizer fixes curvature.",
+      "Hamiltonian dynamics": "Static zero-electric sector only.",
+      "probability": "No quantum/infinite-volume inference.",
+      "numerical analysis": "Exact sparse controls before spectral numerics.",
+      "control theory": "Observation/readout bridge remains missing.",
+      "homological algebra": "Physical quotient declared, no automatic BRST transfer."
+    }
+  },
+  "follow_through": {
+    "covered_successors": [
+      "All searches for a nonconstant stationary MG1 endpoint on this same flat T3 solely to restore positivity of the entire physical Hessian."
+    ],
+    "dead_end_memory": "Do not build neighbors where global translation Jacobi fields already decide the full-gap question. FlatPS census and Wilson-line quartic calculations stay inherited.",
+    "survivors": [
+      "No native indefinite/Krein transfer",
+      "No source-selected action or state space",
+      "No interacting quantum mass-gap claim",
+      "No exclusion of a gap above a removed zero-mode sector or specified charged spectrum",
+      "No extension to a curved base, electric/time-dependent or matter-coupled background",
+      "Class C representativeness unproved; no matrix science import"
+    ],
+    "cosmology_endpoint_direction": "Consumed against separately accepted endpoint-onshell and Riemann-silence evidence; no scientific LC import or extra bet credit.",
+    "W2_normalization_minority": "Preserved as unexecuted conditional composition, not accepted or counted."
+  },
+  "weakest_unproved_link": "Source necessity of this compact MG1/T3/full-state gap; this is not established.",
+  "source_necessary_exclusion": false,
+  "class_C_representativeness": "unproved",
+  "three_state": {
+    "ESTABLISHED": "All stationary endpoints in the declared comparator category retain physical Hessian zero modes; at least two independent translation Jacobi classes when nonflat.",
+    "RULED_OUT": "Strict positivity of the entire physical quadratic Hessian in that fixed comparator category.",
+    "NOT_MODELED_UNDETERMINED": [
+      "No native indefinite/Krein transfer",
+      "No source-selected action or state space",
+      "No interacting quantum mass-gap claim",
+      "No exclusion of a gap above a removed zero-mode sector or specified charged spectrum",
+      "No extension to a curved base, electric/time-dependent or matter-coupled background",
+      "Class C representativeness unproved; no matrix science import"
+    ]
+  },
+  "choice_budget": {
+    "families": 10,
+    "obligations": 4,
+    "bookkeeping_net": 6,
+    "source_selected_predictions": 0,
+    "added_families": 0,
+    "new_obligation_credit": 0,
+    "ceiling": "Inventory, not independent parameter/constraint count or theorem."
+  },
+  "verification": {
+    "root_replay": {
+      "certificate_bytes": 21224,
+      "certificate_sha256": "135fba05936f62b27b16b040e3659989cf71d331607967944d9a352f99fc5538",
+      "checks": 172,
+      "fixtures": 4,
+      "formal_offshell_components": 9,
+      "mode": "verify",
+      "passed": true,
+      "probe_sha256": "ec9d2e29038aa0bb550e1dbb0d2b0abcf0827a35d58bf9f43efb0e8ebe5bab2f",
+      "seconds": 0.08865491719916463
+    },
+    "lean": {
+      "command": "lake env lean -j1 /private/tmp/gu-stationary-torus-wt-20261127/Lean/GUFormalization/StationaryTorus.lean",
+      "cwd": "GU mounted root using existing Mathlib environment",
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": "",
+      "scope": "Four finite lemmas only; no full PDE/bundle/PS classification formalization.",
+      "sorry": false,
+      "default_inventory_registered": true
+    },
+    "reviews": [
+      {
+        "role": "independent mathematical specialist",
+        "receipt_sha256": "4793e655d313454357a8b5a11e102ff0a6fcbe8e3843ea51d57655b974ce31b5",
+        "receipt": {
+          "schema": "gu-independent-mathematical-review-v1",
+          "reviewer": "/root/math_representation",
+          "date": "2026-11-27",
+          "accepted": true,
+          "status": "accepted scoped mathematical theorem and final artifact binding",
+          "worktree": "/private/tmp/gu-stationary-torus-wt-20261127",
+          "base_revision": "630b7f50b7fce50efb614d36cb15958b1a4636ff",
+          "bindings_file": "/private/tmp/gu-stationary-torus-final-bindings.json",
+          "bindings": {
+            "explorations/conditional-build/bet-mass-gap-stationary-torus-2026-11-27.md": "d54e0c924f03b4ff3c027c8396b4a0f7aa1117a8f804f8da92255887d332e223",
+            "tests/program-focus/bet_mass_gap_stationary_torus_probe.py": "ec9d2e29038aa0bb550e1dbb0d2b0abcf0827a35d58bf9f43efb0e8ebe5bab2f",
+            "lab/process/bet-mass-gap-stationary-torus-certificates.json": "135fba05936f62b27b16b040e3659989cf71d331607967944d9a352f99fc5538",
+            "Lean/GUFormalization/StationaryTorus.lean": "cfecddfaa67aea001b5f2b1c40a74d3c4f1a986dfeb30f9eac1ae940cf223887"
+          },
+          "own_checks": [
+            "Read and challenged the analytic proof, exact probe, certificate and four finite Lean lemmas; no mathematical correction required.",
+            "Independently recomputed all four final artifact SHA-256 hashes with shasum; each matches the frozen bindings file.",
+            "Verified all five inherited dependency hashes against the certificate during the preceding review; these are authenticated dependencies, not fresh proof reruns.",
+            "Checked globality and completeness of the connection-horizontal lift on the compact principal bundle; its flow supplies an exact stationary family covering translations without assuming a periodic lift of the torus action.",
+            "Checked d_A^*(i_k F)=E_k and delta E[i_k F]=D_k E, including the varied-connection bracket. Stationarity makes the contractions Coulomb Jacobi fields.",
+            "Checked the pointwise nonzero-curvature argument yielding two independent global contractions; positive L2 orthogonality excludes infinitesimal gauge and its closure, while the residual stabilizer fixes the contractions.",
+            "Checked smoothness on compact flat T3 supplies the H2 operator domain, and the inherited flat-PS theorem covers the complementary F=0 branch in precisely the admitted group and bundle category.",
+            "Checked the independent stationary Stern identity q_A(*F)=-||nabla_A F||^2 in the stated normalization without extending a minimizer-only conclusion to arbitrary stationary points.",
+            "Checked that exact fixtures test off-shell identities and explicitly label the nonflat fixtures nonstationary; finite fixtures do not purport to prove the global theorem.",
+            "Inspected the final duplicate-column mutation: both readout columns are explicitly made equal, the mutated matrix is required to differ from the original, and its determinant is required to vanish. The original determinant remains checked positive.",
+            "Inspected final report acceptance metadata, retained comparator/source boundaries, replay timing, and final certificate probe hash. Lean source hash is unchanged from the accepted source review."
+          ],
+          "parent_reported_verification": {
+            "attribution": "root messages and final report; not freshly executed by this reviewer",
+            "exact_producer_and_verify": "PASS",
+            "check_count": 172,
+            "runtime_seconds": 0.088655,
+            "lean_targeted_compile_exit_code": 0,
+            "lean_finite_lemmas": 4
+          },
+          "caveats": [
+            "Acceptance concerns the entire compact-positive MG1 physical quadratic Hessian at every smooth static source-free stationary magnetic connection on the fixed flat T3, modulo vertical internal gauge, with the declared PS group and bundle category.",
+            "Global bundle flow, gauge quotient, elliptic domain and inherited flat-PS completeness remain written mathematical arguments and dependencies; the four Lean lemmas formalize only the explicitly stated finite core.",
+            "A strictly positive threshold after removing collective-coordinate or other zero modes is a different claim; a Hessian zero mode need not be a local particle.",
+            "No source-native GU, indefinite/Krein, class-C, quantum mass-gap or bet-wide verdict follows. Other geometry, electric/time-dependent states, matter coupling and different physical quotients remain outside this result."
+          ],
+          "not_run": [
+            "Exact probe generation or verification",
+            "Lean compilation",
+            "Inherited PS holonomy census or probes",
+            "Full operator construction, native assembly or spectral computation",
+            "Global bundle/PDE formalization"
+          ],
+          "owner_edits": false
+        }
+      },
+      {
+        "role": "independent source/global specialist",
+        "receipt_sha256": "9be5dc5eebc3d8348fd2206a7af51dfcd857e21afc68dc7ebea996de5face8ad",
+        "receipt": {
+          "accepted": true,
+          "review_role": "independent source/global geometry specialist",
+          "tier": "T1 scoped comparator class closure",
+          "report_sha256": "d54e0c924f03b4ff3c027c8396b4a0f7aa1117a8f804f8da92255887d332e223",
+          "probe_sha256": "ec9d2e29038aa0bb550e1dbb0d2b0abcf0827a35d58bf9f43efb0e8ebe5bab2f",
+          "manifest_sha256": "135fba05936f62b27b16b040e3659989cf71d331607967944d9a352f99fc5538",
+          "lean_sha256": "cfecddfaa67aea001b5f2b1c40a74d3c4f1a986dfeb30f9eac1ae940cf223887",
+          "own_checks": [
+            "Read the complete report, finite probe and four-lemma Lean source; inspected certificate conventions, controls and dependency custody.",
+            "Independently derived D_A* i_X F=E_X and delta E(i_X F)=D_X E from antisymmetry, Bianchi and covariant derivative commutator.",
+            "Checked horizontal-lift completeness on compact principal bundle, equivariant flow and same-bundle stationary-family construction without global trivialization or a periodic lift of the torus group.",
+            "Checked two-contraction pointwise independence, positive Coulomb orthogonality to closed infinitesimal gauge image, and residual stabilizer fixing curvature contractions.",
+            "Checked full H1 form/H2 operator domain and fixed-metric vertical-gauge scope; no collective-coordinate quotient is silently performed.",
+            "Reused exact flat PS honest16 quotient/flux result with its stated group, rather than claiming every compact flat bundle is gapless.",
+            "Read Stern arXiv:0808.0667 section4 primary PDF; the Bochner identity between equations4.2 and4.3 gives q(*F)=-||nabla_A F||^2 on flatT3 without assuming a minimizer.",
+            "Authenticated current probe hash against certificate and all five inherited dependency hashes by scalar file hashing; did not execute those dependencies.",
+            "Confirmed source conditionality, no GU/quantum/bet-wide verdict and no LC result import into ledger/canon/matrix.",
+            "Final rebind authenticated all four frozen bindings and unchanged Lean; source page/timestamp locators match the source register and the MG1 anchor is repaired.",
+            "Read the strengthened duplicate-contraction control: the explicit duplicated-column matrix must differ from the original and have zero determinant. Reversing this single change exactly reproduces the previously reviewed probe SHA9b69d8f1203738d27b70426343164e512c0180fb98a20d564fe372149c876418.",
+            "Regenerated certificate still declares172 checks; its probe and all inherited dependency bindings match actual files. No new execution performed for this rebind."
+          ],
+          "caveats": [
+            "Fixed closed flatT3, positive compact pairing, static source-free magnetic MG1, full Coulomb domain and vertical internal gauge are essential premises.",
+            "Global translations or collective coordinates quotiented away, charged-sector selection, different action/geometry/state and native indefinite/source transfer remain outside.",
+            "Finite fixtures include no nonflat stationary background; they check identities, not existence or a background census.",
+            "Lean covers four finite cores only, not global bundles, integration by parts, PDE or the inherited PS classification."
+          ],
+          "not_run": [
+            "No probe execution or certificate regeneration",
+            "No Lean compilation",
+            "No spectral computation or stationary-background construction",
+            "No old PS census replay",
+            "No owner-file edits"
+          ]
+        }
+      },
+      {
+        "role": "independent hostile reviewer",
+        "receipt_sha256": "0c85abd8894b424b8b50ab1eb0bfc6794638b791e7a0df26c53f7a1acceda112",
+        "receipt": {
+          "schema": "independent_mathematical_hostile_review_v1",
+          "date": "2026-11-27",
+          "reviewer": "/root/falsification_rerank",
+          "role": "independent hostile T1 mathematical/source-scope review",
+          "worktree": "/private/tmp/gu-stationary-torus-wt-20261127",
+          "verdict": "PASS",
+          "accepted_claim": "Every smooth source-free stationary magnetic MG1 connection with zero background electric field on an admitted compact PS product or diagonal-Z2 quotient bundle over fixed closed flat T3 has nonzero physical Gauss/Coulomb Hessian kernel; nonflat curvature supplies at least two independent classes.",
+          "mathematical_checks": {
+            "arbitrary_bundle_translation_lift": "PASS: complete equivariant horizontal one-parameter lift exists; no periodic lift of the full torus action assumed.",
+            "offshell_to_stationary": "PASS: delta E(i_X F)=D_X E and d_A^* i_X F=E(X); only stationary E=0 implies Coulomb Jacobi fields.",
+            "physical_gauge_quotient": "PASS: positive L2 pairing and integration by parts exclude the closure of vertical internal gauge; translations are not added to that quotient.",
+            "at_least_two_classes": "PASS: a nonzero F_ij gives the pointwise component minor [[0,-x],[x,0]], and all linear combinations remain Coulomb.",
+            "flat_PS_scope": "PASS: inherited complete honest16 product/diagonal-Z2 category only; kernel dimensions at least15 or3/9. No arbitrary compact-group claim.",
+            "stern_identity": "PASS: stationary flat-T3 Bochner equality between equations4.2 and4.3 yields q(*F)=-||nabla_A F||^2; no extension of the minimizer theorem.",
+            "finite_Lean_scope": "PASS: four finite lemmas support the written norm/rank/quotient/gap proof; global bundle and PDE facts remain written mathematics."
+          },
+          "corrections": [
+            {
+              "item": "duplicate_contraction_fails_rank2",
+              "status": "resolved",
+              "resolution": "Final probe constructs an explicit duplicated-column matrix, computes its determinant, and requires both changed matrix and zero determinant."
+            }
+          ],
+          "outstanding_blocking_issues": [],
+          "hash_bindings_sha256": {
+            "explorations/conditional-build/bet-mass-gap-stationary-torus-2026-11-27.md": "d54e0c924f03b4ff3c027c8396b4a0f7aa1117a8f804f8da92255887d332e223",
+            "tests/program-focus/bet_mass_gap_stationary_torus_probe.py": "ec9d2e29038aa0bb550e1dbb0d2b0abcf0827a35d58bf9f43efb0e8ebe5bab2f",
+            "lab/process/bet-mass-gap-stationary-torus-certificates.json": "135fba05936f62b27b16b040e3659989cf71d331607967944d9a352f99fc5538",
+            "Lean/GUFormalization/StationaryTorus.lean": "cfecddfaa67aea001b5f2b1c40a74d3c4f1a986dfeb30f9eac1ae940cf223887"
+          },
+          "inherited_dependency_sha256": {
+            "explorations/conditional-build/bet-mass-gap-pati-salam-holonomy-2026-11-25.md": "819a6df09196e4558a7c8d466e24288f2ba0e91d23661e6d08abe9e9f7cca498",
+            "explorations/conditional-build/bet-mass-gap-stability-topology-2026-11-24.md": "5ea250cc5a21775119877ae0160b62c358f2fd0f875bbb20f7db5a616d0830e0",
+            "explorations/conditional-build/signature-generic-cartan-ward-compose-2026-08-08.md": "e62c67a79357e0f39318f1c6a228156f1e224f2025af0678bbd6b050d554c5e6",
+            "lab/process/bet-mass-gap-pati-salam-holonomy.json": "f4e12bf7284df40698a00c28b9d9b69c0f1a730b2116ed20cff65894765285d4",
+            "tests/program-focus/bet_mass_gap_pati_salam_probe.py": "4c08b0e9104ae96c70e2238cbf05bf6a1218ec11491956f3d45aad5842df6549"
+          },
+          "certificate_read_check": {
+            "declared_checks": 172,
+            "stored_checks": 172,
+            "all_stored_true": true,
+            "probe_hash_matches": true,
+            "all_five_dependency_hashes_match": true
+          },
+          "review_execution_limits": [
+            "No probe execution or Lean compilation by this reviewer.",
+            "Owner reports fresh exact replay and targeted Lean compilation; this receipt independently reviews code, mathematics, scope, stored records and hashes.",
+            "No native or heavy job and no repository edit."
+          ],
+          "scientific_limits": [
+            "Conventional comparator exclusion only; no native GU, K77/K95, source-action, observation or bet-wide verdict.",
+            "No claim that a zero mode is a particle.",
+            "A positive spectrum above a removed zero-mode sector, selected charged-sector gap and interacting quantum gap remain open.",
+            "Other base geometry, electric/time-dependent or matter-coupled states, and altered global/spin-charge categories are outside the theorem."
+          ],
+          "external_source_review": {
+            "url": "https://arxiv.org/pdf/0808.0667#page=13",
+            "location": "Section4, unnumbered Bochner equality between(4.2) and(4.3)",
+            "scope": "Identity checked, minimizing consequences not transferred."
+          },
+          "written_review": "/private/tmp/gu-stationary-torus-hostile-review-20261127.md"
+        }
+      }
+    ],
+    "gates": {
+      "program_focus_audit": "PASS",
+      "typed_carrier_declaration_audit": "PASS",
+      "kill_target_claim_audit": "PASS",
+      "frontmatter_status_schema_audit": "PASS",
+      "source_native_comparator_routing_audit": "PASS",
+      "lean_certificate_surface_audit": "PASS",
+      "current_state_absolute_currency_audit": "PASS"
+    },
+    "bindings": {
+      "explorations/conditional-build/bet-mass-gap-stationary-torus-2026-11-27.md": "d54e0c924f03b4ff3c027c8396b4a0f7aa1117a8f804f8da92255887d332e223",
+      "tests/program-focus/bet_mass_gap_stationary_torus_probe.py": "ec9d2e29038aa0bb550e1dbb0d2b0abcf0827a35d58bf9f43efb0e8ebe5bab2f",
+      "lab/process/bet-mass-gap-stationary-torus-certificates.json": "135fba05936f62b27b16b040e3659989cf71d331607967944d9a352f99fc5538",
+      "Lean/GUFormalization/StationaryTorus.lean": "cfecddfaa67aea001b5f2b1c40a74d3c4f1a986dfeb30f9eac1ae940cf223887"
+    },
+    "exact_footprint": "18 admitted owner paths; program_focus, matrix cells/intersections/shrinkage/lane_state/assumption view and10/4/net6/0 inventory unchanged."
+  },
+  "effect_line": "Change: all-stationary compact PS MG1 closure and covered successor removed. Why: eliminate a same-premise background-construction loop. Authority: Joe27(c), existing LC cadence. Applied: internal comparator theorem. Later effect: one such queued construction replaced now; future saved wall time not measured."
+}

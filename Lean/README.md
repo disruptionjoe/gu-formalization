@@ -242,3 +242,7 @@ replacement for `lake build` or targeted standalone Lean checks.
 ## 2026-11-27 — Ratio-free Riemann-response finite cores
 
 `GUFormalization/RiemannSilence.lean`: four targeted single-thread checked lemmas, no placeholders/warnings. Covers cubic kernel pairing, four-row coefficient elimination, restriction vanishing and zero-preserving postcomposition. Complete native representation classification, Clifford witnesses and source identification are separately proved/reviewed; no whole-project build claimed.
+
+## 2026-11-27 — Stationary torus finite cores
+
+`GUFormalization/StationaryTorus.lean`: **LEAN-VERIFIED**, four lemmas: antisymmetric norm count, two-component independence, positive orthogonal-gauge exclusion and impossibility of a strictly positive gap with a nonpositive witness. Targeted single-thread compilation passed without warnings or placeholders. Global bundle flow, stationary PDE, integration by parts, elliptic domain and inherited flat-PS completeness remain independently reviewed written dependencies. No full-project build or PDE formalization. [Result](../explorations/conditional-build/bet-mass-gap-stationary-torus-2026-11-27.md).
