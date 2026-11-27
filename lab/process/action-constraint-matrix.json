@@ -1788,7 +1788,7 @@
     },
     "LB-CLASS": {
       "zero_delta_streak": 0,
-      "runs": 39,
+      "runs": 40,
       "status": "open"
     },
     "LB-LADDER": {
@@ -2707,7 +2707,7 @@
   ],
   "program_run_counter": {
     "since": "2026-11-09",
-    "count": 80,
+    "count": 81,
     "rule": "Every hourly run increments this in its postflight, whatever its lane. Lane C runs when count % 4 == 3 before the increment."
   },
   "working_rule": "Cells are worked at the structure level: a requirement must hold for every action in class C or for a structurally defined subfamily. No cell is worked by writing down a specific action, and no gated cell is worked by building its gate object. See CURRENT-STATE.yaml program_focus.structure_not_specifics.",
@@ -3337,6 +3337,22 @@
       ],
       "claim_effect": "No matrix cell/intersection, scientific shrinkage, source/physics/canon/class-C/paper verdict change.",
       "cadence_note": "Directed79to80/LBCLASS38to39. Existing directed_lc_carry_2026_11_25_physical remains pending for the next ordinary run; no cadence amendment, scheduler opportunity consumption or bet credit."
+    },
+    {
+      "date": "2026-11-27",
+      "authority": "joe_direct_chat_2026_11_26_continued_falsification_math20",
+      "item": "Source-state custody and all finite-loss norm-repair exclusion",
+      "tier": "T1",
+      "counter_before": 80,
+      "counter_after": 81,
+      "lane": "LB-CLASS",
+      "actual_delta": "At both held W2/K95 kappa1 roots, high-order logarithmic-time packets exclude every fixed finite spatial-derivative-loss graph Duhamel estimate and every same-core norm completion with finite Sobolev sandwich bounds. This includes the stated finite-order elliptic repairs and local boundary conditions retaining the interior test core. Source META52/53 do not require this unrestricted ambient Cauchy class; boundary/nonlocal/analytic physical selection remains open.",
+      "evidence": [
+        "explorations/conditional-build/source-action-finite-loss-completions-2026-11-27.md",
+        "lab/process/source-action-finite-loss.json"
+      ],
+      "claim_effect": "No source/physics/canon/class-C/paper verdict or matrix cell/intersection/shrinkage change.",
+      "cadence_note": "Directed80to81/LBCLASS39to40. Pending directed_lc_carry_2026_11_25_physical remains for the next ordinary run; no scheduler opportunity, cadence amendment or bet credit."
     }
   ],
   "directed_lc_carry_2026_11_24_b": {
@@ -3701,7 +3717,9 @@
           "explorations/conditional-build/source-action-scalar-normal-operator-2026-11-27.md",
           "lab/process/source-action-scalar-normal-operator.json",
           "explorations/conditional-build/source-action-onshell-dynamics-2026-11-27.md",
-          "lab/process/source-action-onshell-dynamics.json"
+          "lab/process/source-action-onshell-dynamics.json",
+          "explorations/conditional-build/source-action-finite-loss-completions-2026-11-27.md",
+          "lab/process/source-action-finite-loss.json"
         ],
         "choices": "Historical original choices are retained below; current held fermion repair is SE=-1/2 (SE0 superseded), kappa1 with two unselected roots. Typed candidate_choice_budget separates core/completion/pending/comparator/parked choices.",
         "wave2_update": {
@@ -4675,6 +4693,37 @@
           "source_status": {
             "status": "conditional",
             "reason": "SC-ACT-01/02 action grammar does not select W2. SC-META-52/53 do not select the tested upstairs graph core or a physical quotient/boundary domain. Candidate-level estimate failure is not source-required GU falsification."
+          },
+          "superseded_continuation": "lab/process/source-action-finite-loss.json"
+        },
+        "finite_loss_followthrough": {
+          "state": "At both held W2/K95 kappa1 roots, high-order logarithmic-time packets exclude every fixed finite spatial-derivative-loss graph Duhamel estimate and every same-core norm completion with finite Sobolev sandwich bounds. This includes the stated finite-order elliptic repairs and local boundary conditions retaining the interior test core. Source META52/53 do not require this unrestricted ambient Cauchy class; boundary/nonlocal/analytic physical selection remains open.",
+          "next": [
+            {
+              "id": "native_coupled_support_closure",
+              "status": "ready_for_bounded_native_applicability_and_vertex_test",
+              "target": "LB-CLASS",
+              "tier": "T2",
+              "task": "Test the remaining strict-center/nonlocal-support escape at the actual native matter-current interface: first name the K95 carrier and support condition being tested without importing the old flat K77 fermion operator. Two allowed null matter covectors may differ by a timelike-normal covector; compute the actual polarized row/column vertex and determine whether the specified support class is preserved. No physical selector is installed or presumed source-selected.",
+              "expected_delta": "A necessary coupled support-closure constraint, an exact nonzero forbidden transfer excluding the named naive restriction, or the exact missing native bridge. Momentum geometry alone or a generic receiver is insufficient.",
+              "class_covered": "Structurally specified native principal support/vertex class only after its exact carrier and allowed paired matter states are stated; not every boundary or fakeon prescription.",
+              "source_bridge": "Conditional or absent until linked to an actual source-supplied physical selection; K77/K95 and boson/fermion transfer remain explicit.",
+              "kill_condition": "Only a nonzero admitted native polarized source outside the specified support excludes that closure class. Failure to supply a source selector does not kill GU.",
+              "shared_prerequisite": "Owned six-arrow operator/vertex, fullM, actual graph principal and all finite-loss exclusions; reuse rather than rebuild.",
+              "strongest_alternative": "Matched current/observation symbol on the actual unstable sector, first deriving its transported map; the old triangular current cannot be combined directly with H_mu."
+            }
+          ],
+          "consumed": [
+            "all fixed finite spatial-loss graph estimates on the unchanged non-null core",
+            "finite Sobolev-sandwiched and stated finite-order elliptic norm repairs",
+            "ordinary local arbitrary-function gauge removal already covered; dressing delta Ahat=0",
+            "repeated demand for a source-required unrestricted Cauchy class or compulsory odd BV action: source does not supply those demands",
+            "generic BRST construction, repeated fullM/frozen/no-loss/current scans or unnecessary fullspin0 census"
+          ],
+          "choice_budget_delta": 0,
+          "source_status": {
+            "status": "absent",
+            "reason": "No source requirement for unrestricted ambient Sobolev Cauchy evolution. SC-META-52 explicitly leaves upstairs boundary treatment unresolved; SC-META-53 provides no physical state selector. Mathematical completion-class exclusion is not GU or whole-class-C falsification."
           }
         }
       }

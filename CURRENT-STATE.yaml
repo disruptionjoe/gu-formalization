@@ -1,7 +1,7 @@
 schema_version: '1.0'
 repository: observerse-research-program
 branch: main
-revision_basis: 629e40b3a7c12191b88d02107039afabf2d1c9b8
+revision_basis: 523d8554d35825c9cbbba133aae9c42cbd9408cd
 program_focus:
   version: 2026-11-25-v1
   authority: joe_direct_chat_2026_11_25_five_process_improvements_approved
@@ -140,6 +140,60 @@ program_focus:
     covered; source relevance separately from mathematical breadth; shared prerequisite if any; remaining
     cost; strongest eligible alternative. A blocked high-value target is not an eligible alternative without
     its missing input. Reuse completed theorems and compare only their uncovered successors.'
+source_action_finite_loss_2026_11_27:
+  authority: joe_direct_chat_2026_11_26_continued_falsification_math20
+  basis_revision: 523d8554d35825c9cbbba133aae9c42cbd9408cd
+  status: internal_T1_finite_loss_completion_reviewed
+  actual_delta: At both held W2/K95 kappa1 roots, high-order logarithmic-time packets exclude every fixed
+    finite spatial-derivative-loss graph Duhamel estimate and every same-core norm completion with finite
+    Sobolev sandwich bounds. This includes the stated finite-order elliptic repairs and local boundary
+    conditions retaining the interior test core. Source META52/53 do not require this unrestricted ambient
+    Cauchy class; boundary/nonlocal/analytic physical selection remains open.
+  evidence:
+  - explorations/conditional-build/source-action-finite-loss-completions-2026-11-27.md
+  - lab/process/source-action-finite-loss.json
+  - lab/process/source-action-finite-loss-certificates.json
+  - lab/process/hostile-reviews/2026-11-27-source-action-finite-loss-review.md
+  source_bridge:
+    status: absent
+    reason: No source requirement for unrestricted ambient Sobolev Cauchy evolution. SC-META-52 explicitly
+      leaves upstairs boundary treatment unresolved; SC-META-53 provides no physical state selector. Mathematical
+      completion-class exclusion is not GU or whole-class-C falsification.
+  continuation:
+  - id: native_coupled_support_closure
+    status: ready_for_bounded_native_applicability_and_vertex_test
+    target: LB-CLASS
+    tier: T2
+    task: 'Test the remaining strict-center/nonlocal-support escape at the actual native matter-current
+      interface: first name the K95 carrier and support condition being tested without importing the old
+      flat K77 fermion operator. Two allowed null matter covectors may differ by a timelike-normal covector;
+      compute the actual polarized row/column vertex and determine whether the specified support class
+      is preserved. No physical selector is installed or presumed source-selected.'
+    expected_delta: A necessary coupled support-closure constraint, an exact nonzero forbidden transfer
+      excluding the named naive restriction, or the exact missing native bridge. Momentum geometry alone
+      or a generic receiver is insufficient.
+    class_covered: Structurally specified native principal support/vertex class only after its exact carrier
+      and allowed paired matter states are stated; not every boundary or fakeon prescription.
+    source_bridge: Conditional or absent until linked to an actual source-supplied physical selection;
+      K77/K95 and boson/fermion transfer remain explicit.
+    kill_condition: Only a nonzero admitted native polarized source outside the specified support excludes
+      that closure class. Failure to supply a source selector does not kill GU.
+    shared_prerequisite: Owned six-arrow operator/vertex, fullM, actual graph principal and all finite-loss
+      exclusions; reuse rather than rebuild.
+    strongest_alternative: Matched current/observation symbol on the actual unstable sector, first deriving
+      its transported map; the old triangular current cannot be combined directly with H_mu.
+  consumed:
+  - all fixed finite spatial-loss graph estimates on the unchanged non-null core
+  - finite Sobolev-sandwiched and stated finite-order elliptic norm repairs
+  - ordinary local arbitrary-function gauge removal already covered; dressing delta Ahat=0
+  - 'repeated demand for a source-required unrestricted Cauchy class or compulsory odd BV action: source
+    does not supply those demands'
+  - generic BRST construction, repeated fullM/frozen/no-loss/current scans or unnecessary fullspin0 census
+  accounting: Directed80to81/LBCLASS39to40. Pending directed_lc_carry_2026_11_25_physical remains for
+    the next ordinary run; no scheduler opportunity, cadence amendment or bet credit.
+  priority_control_effect: Finite-loss and finite-order norm repairs consumed. Source boundary/physical
+    selection remains open; next bounded native coupled-support discriminator. Policy and schedules unchanged;
+    Nov26g proposal-only.
 source_action_onshell_dynamics_2026_11_27:
   authority: joe_direct_chat_2026_11_26_continued_falsification_math20
   basis_revision: 629e40b3a7c12191b88d02107039afabf2d1c9b8
@@ -182,6 +236,10 @@ source_action_onshell_dynamics_2026_11_27:
     strongest_alternative: A structural finite-loss/analytic evolution discriminator for the already-held
       equations if it changes candidate viability; do not repeat no-loss estimates or assemble the large
       spin0 module by default.
+    source_custody_update: Source does not require unrestricted ambient Cauchy evolution; no supplied
+      selector proved to remove channel. Local-gauge/dressing categories already consumed.
+    remaining_work_ref: source_action_finite_loss_2026_11_27
+    finite_loss_alternative_completed: lab/process/source-action-finite-loss.json
   consumed:
   - actual non-null microlocal principal including frequency-dependent kernel/lapse correction
   - same signed-energy solution current in the held all-cross-Gram positive matter completion
@@ -192,6 +250,7 @@ source_action_onshell_dynamics_2026_11_27:
     for the next ordinary run; no cadence amendment, scheduler opportunity consumption or bet credit.
   priority_control_effect: Completed actual non-null no-loss dynamics and same-germ local current tests.
     Physical/Ward admission remains; no policy or schedule change. Nov26g proposal-only.
+  continuation_superseded_by: source_action_finite_loss_2026_11_27
 source_action_scalar_normal_operator_2026_11_27:
   authority: joe_direct_chat_2026_11_26_continued_falsification_math20
   basis_revision: c1f3642a5b3c7c9f06871c0e02a74644497c5ec9

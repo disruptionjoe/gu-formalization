@@ -547,3 +547,7 @@ bicategory, ambidexterity or Mackey 2-functor is inferred.
 ## 2026-11-27 — On-shell dynamics finite core
 
 `Lean/GUFormalization/OnshellDynamics.lean`: **LEAN-VERIFIED**, five lemmas for left-shear blocks, reflection preservation, positive-real entry from a trace-zero positive moment, scalar moment bounds and conservative rate arithmetic. Targeted single-thread compilation passed without warnings or placeholders; default import registered. Statement validation: supplying the native matrix/eigenvalue list, the root certificates and the actual microlocal/packet theorem remains separately reviewed mathematics. No full-PDE formalization or whole-project build claim. [Result](../../explorations/conditional-build/source-action-onshell-dynamics-2026-11-27.md).
+
+## 2026-11-27 — Finite-loss completion core
+
+`Lean/GUFormalization/FiniteLossCompletion.lean`: **LEAN-VERIFIED**, six lemmas: formal transport residual order, universal exponent schedule, logarithmic-power decay, shrinking observation time, vanishing-error contradiction and Sobolev-sandwich transfer. Targeted single-thread compilation passed without warnings/placeholders; default import registered. Classical PDO Taylor/tail estimates, maximal-spectrum transport, native identification and physical/source scope remain independently reviewed written inputs. No full-PDE or whole-project build claim. [Result](../../explorations/conditional-build/source-action-finite-loss-completions-2026-11-27.md).

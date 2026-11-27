@@ -16,6 +16,12 @@ discovery bet (`lab/process/discovery-bets.json`). The K25xx--K2618 detector, pr
 results below are retained as conditional mathematics; that lane is no longer the default target. Sections
 below are dated results, newest first, and are not steering.
 
+## Finite-loss completion classes (2026-11-27)
+
+At both held W2/K95 kappa1 roots, high-order logarithmic-time packets exclude every fixed finite spatial-derivative-loss graph Duhamel estimate and every same-core norm completion with finite Sobolev sandwich bounds. This includes the stated finite-order elliptic repairs and local boundary conditions retaining the interior test core. Source META52/53 do not require this unrestricted ambient Cauchy class; boundary/nonlocal/analytic physical selection remains open.
+
+[Result](explorations/conditional-build/source-action-finite-loss-completions-2026-11-27.md) · [Evidence](lab/process/source-action-finite-loss.json).
+
 ## Actual on-shell dynamics (2026-11-27)
 
 At both held W2/K95 kappa1 roots, the actual non-null microlocal connection generator has a positive-real-part principal eigenvalue and excludes same-order local Duhamel bounds on the declared first-graph core with graph forcing. Separately, the same negative canonical-energy analytic germs have nonzero selected current in the held positive matter completion. Physical admission, Ward-nontrivial interaction and energy exchange remain unproved.

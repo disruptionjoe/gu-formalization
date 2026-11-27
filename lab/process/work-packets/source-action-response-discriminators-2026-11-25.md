@@ -407,8 +407,20 @@ Selection: mandatory basis is Joe-directed continuing falsification. Scope is th
 
 - **Done, T1:** actual non-null weighted principal, with frequency-dependent polarization and lapse correction. Both roots exclude same-order local graph-Duhamel bounds; forcing is the graph lift of the range residual. No exact growing-solution, finite-loss or physical theorem.
 - **Done:** same negative canonical-energy analytic germs have selected current in all held positive matter cross-Grams; not unstable-eigenmode excitation or boundary-free exchange.
-- **Ready, LB-CLASS/T2:** bounded concrete-channel source/gauge/common-domain Ward discrimination. Identify an actually supplied operator/domain first; absence is a missing datum, not a license to build a rescue. Keep source necessity separate from candidate breadth.
+- **Custody completed:** source boundary/shielding leaves physical selection open; local gauge/dressing is already covered. All finite-loss/finite-order norm repairs on the unchanged graph core are now excluded; remaining coupled support/Ward questions continue below.
 - **Consumed:** repeated fullM, scalar-jet and generic receiver assembly; fullspin0 census unnecessary for this result.
 - **Carried:** physical/global/quotient admissibility, unstable-mode current, Ward boundary terms, nonlinear exchange and normalized observation.
 
 Selection: mandatory Joe-directed falsification; scope fixed W2/K95 candidate and declared graph core; source relevance conditional. Shared fullM, exact solutions and current/symbol burdens discharged. Next cost bounded by the actual supplied gauge/domain operators; strongest alternative is a structural finite-loss/analytic test that changes viability. Directed79to80/LBCLASS38to39. Existing directed_lc_carry_2026_11_25_physical remains pending for the next ordinary run; no cadence amendment, scheduler opportunity consumption or bet credit. Choices10/4/net6/zero source predictions unchanged.
+
+## Current continuation: finite-loss completion classes (2026-11-27)
+
+[Result](../../../explorations/conditional-build/source-action-finite-loss-completions-2026-11-27.md) · [Evidence](../source-action-finite-loss.json).
+
+- **Done, T1:** every fixed finite spatial-loss graph Duhamel estimate fails. Same-core norms sandwiched between finite Sobolev orders, including stated elliptic finite-order transforms, cannot supply a C0 realization agreeing on the test paths. Graph residual is not physical matter-source surjectivity.
+- **Done, source custody:** META52/53 do not require unrestricted upstairs Cauchy evolution; no source-supplied selector proved to remove the channel. META56 does not require an odd BV action.
+- **Ready, LB-CLASS/T2:** native coupled support-closure discriminator. Name the actual K95 support/carrier and paired on-shell matter polarizations, then evaluate the vertex at allowed momenta with timelike-normal difference. Do not import the old K77 fermion selector or infer transfer from momentum geometry alone.
+- **Alternative:** derive matched first nonzero current symbol on actual unstable sector; old triangular current and H_mu are not an observability pair.
+- **Consumed:** finite-loss/finite-order norm repairs, repeated generic gauge/fullM/no-loss scans. Boundary/analytic/infinite-order or proper-quotient classes remain scoped survivors, not installed rescues.
+
+Selection: mandatory directed falsification; actual candidate completion class, source necessity absent for unrestricted Cauchy demand. Shared exact symbol/graph inputs discharged; next cost bounded by native principal vertex before any new domain construction. Directed80to81/LBCLASS39to40. Pending directed_lc_carry_2026_11_25_physical remains for the next ordinary run; no scheduler opportunity, cadence amendment or bet credit. Choices10/4/net6/zero predictions unchanged.

@@ -1,0 +1,321 @@
+{
+  "basis_revision": "523d8554d35825c9cbbba133aae9c42cbd9408cd",
+  "authority": "joe_direct_chat_2026_11_26_continued_falsification_math20",
+  "status": "internal_T1_finite_loss_completion_reviewed",
+  "program_target": "LB-CLASS",
+  "tier": "T1",
+  "actual_delta": "At both held W2/K95 kappa1 roots, high-order logarithmic-time packets exclude every fixed finite spatial-derivative-loss graph Duhamel estimate and every same-core norm completion with finite Sobolev sandwich bounds. This includes the stated finite-order elliptic repairs and local boundary conditions retaining the interior test core. Source META52/53 do not require this unrestricted ambient Cauchy class; boundary/nonlocal/analytic physical selection remains open.",
+  "class_covered": "Held W2/K95 full-U candidate, both kappa1 roots; all fixed finite spatial losses and same-core finite Sobolev norm sandwiches on the non-null graph. Class-C representativeness unproved.",
+  "premises": [
+    "explorations/conditional-build/source-action-finite-loss-completions-2026-11-27.md",
+    "lab/process/source-action-finite-loss-certificates.json",
+    "explorations/conditional-build/source-action-onshell-dynamics-2026-11-27.md"
+  ],
+  "source_bridge": {
+    "status": "absent",
+    "reason": "No source requirement for unrestricted ambient Sobolev Cauchy evolution. SC-META-52 explicitly leaves upstairs boundary treatment unresolved; SC-META-53 provides no physical state selector. Mathematical completion-class exclusion is not GU or whole-class-C falsification."
+  },
+  "weakest_unproved_link": "Source-required physical state/domain or boundary-selected coupled support; no unrestricted Cauchy requirement is supplied.",
+  "claim_effect": "No source/physics/canon/class-C/paper verdict or matrix cell/intersection/shrinkage change.",
+  "three_state": {
+    "established": [
+      "arbitrary fixed finite-loss graph Duhamel obstruction",
+      "finite-order elliptic norm repair exclusion under stated same-core embeddings",
+      "local boundary conditions retaining compact interior graph core inherit obstruction",
+      "source custody: no source-required unrestricted upstairs Cauchy class; no mandatory odd BV action"
+    ],
+    "ruled_out": [
+      "all stated finite-loss Sobolev repairs at both roots",
+      "same-core finite Sobolev-sandwiched C0 evolutions agreeing with actual graph generator"
+    ],
+    "not_modeled_undetermined": [
+      "infinite-order or analytic/exponential topologies",
+      "proper nonlocal projections or boundary-selected state spaces",
+      "physical BRST/state quotient",
+      "native coupled support closure of a specified center restriction",
+      "exact exponentially growing solutions or nonlinear exchange",
+      "GU falsification"
+    ]
+  },
+  "finite_loss_proof": {
+    "symbol": "Actual classical order-one full microlocal generator from prior theorem; positive eigenvalue supplied by intrinsic20",
+    "growth_choice": "Eigenvector at maximal real part rho of FULL finite principal; not necessarily the old signed-energy or current-visible vector",
+    "packet": "h=k^-1/2, tau=kt, y=(x-p)/h; finite correction W_h=sum h^j wj",
+    "remainder": "h^(N+1) exp(rho tau) polynomial(tau), global envelope finite seminorms, tau<=c log k",
+    "schedule": "q=ceil(ell), c rho=q+1, N=2q+2",
+    "ratios": [
+      "k^(ell-c rho)",
+      "k^(ell-(N+1)/2) polynomial(log k)"
+    ],
+    "forcing": "Graph of RANGE residual(f,-df), not unweighted original PDE forcing. C0 variation-of-constants needs no physical matter-source surjectivity.",
+    "analytic_claim": "Independently reviewed written theorem, not certified by the lightweight probe"
+  },
+  "completion_class": {
+    "sandwich": "||w||H^-a <= C||w||Y <= Cprime||w||H^b, finite a,b, on same compact graph tests/derivatives/residuals",
+    "semigroup": "Strongly continuous semigroup or locally bounded evolution family with variation of constants, actual generator agreement on test paths",
+    "exclusion": "Finite loss a+b contradicts packet theorem",
+    "exceptions": [
+      "nonelliptic projections removing the core",
+      "infinite-order/exponential norms",
+      "different time-boundary or Green problem",
+      "unproved source-specific physical quotient"
+    ],
+    "not_assumed": "Compact support preservation by actual trajectories or global coercivity from a parametrix alone"
+  },
+  "source_custody": {
+    "SC-META-52": "UNCERTAIN; upstairs boundary treatment, not unrestricted Cauchy demand",
+    "SC-META-53": "UNCERTAIN; compact shielding not a selected physical projector",
+    "SC-GRP-05": "Algebraic semidirect group, not physical BRST cohomology",
+    "SC-GEO-54/55": "Actual dressing fixes Ahat; frame covariance changes reference structures too",
+    "SC-META-56": "Odd action not a source prerequisite",
+    "existing_survivor": "Flat K77 fermion strict-center/polarization ingredient is not transported to this K95 bosonic/coupled system"
+  },
+  "consumed": [
+    "all fixed finite spatial-loss graph estimates on the unchanged non-null core",
+    "finite Sobolev-sandwiched and stated finite-order elliptic norm repairs",
+    "ordinary local arbitrary-function gauge removal already covered; dressing delta Ahat=0",
+    "repeated demand for a source-required unrestricted Cauchy class or compulsory odd BV action: source does not supply those demands",
+    "generic BRST construction, repeated fullM/frozen/no-loss/current scans or unnecessary fullspin0 census"
+  ],
+  "next_directed_worksets": [
+    {
+      "id": "native_coupled_support_closure",
+      "status": "ready_for_bounded_native_applicability_and_vertex_test",
+      "target": "LB-CLASS",
+      "tier": "T2",
+      "task": "Test the remaining strict-center/nonlocal-support escape at the actual native matter-current interface: first name the K95 carrier and support condition being tested without importing the old flat K77 fermion operator. Two allowed null matter covectors may differ by a timelike-normal covector; compute the actual polarized row/column vertex and determine whether the specified support class is preserved. No physical selector is installed or presumed source-selected.",
+      "expected_delta": "A necessary coupled support-closure constraint, an exact nonzero forbidden transfer excluding the named naive restriction, or the exact missing native bridge. Momentum geometry alone or a generic receiver is insufficient.",
+      "class_covered": "Structurally specified native principal support/vertex class only after its exact carrier and allowed paired matter states are stated; not every boundary or fakeon prescription.",
+      "source_bridge": "Conditional or absent until linked to an actual source-supplied physical selection; K77/K95 and boson/fermion transfer remain explicit.",
+      "kill_condition": "Only a nonzero admitted native polarized source outside the specified support excludes that closure class. Failure to supply a source selector does not kill GU.",
+      "shared_prerequisite": "Owned six-arrow operator/vertex, fullM, actual graph principal and all finite-loss exclusions; reuse rather than rebuild.",
+      "strongest_alternative": "Matched current/observation symbol on the actual unstable sector, first deriving its transported map; the old triangular current cannot be combined directly with H_mu."
+    }
+  ],
+  "counterfactual_proposal": {
+    "status": "proposal_only_not_executed",
+    "authority": "joe_direct_chat_2026_11_26_g",
+    "ranked_item_numbers": [
+      1,
+      6,
+      2,
+      3,
+      7,
+      5,
+      4
+    ],
+    "basis": "Qualitative expected time saved at the actual consistency bottleneck; no measured forecasts or success probabilities.",
+    "ranked": [
+      {
+        "item": 1,
+        "expected_savings": "highest immediate",
+        "proposal": "Map queued outcomes to changed action, claim, bound or certificate. Consume tasks already covered by a theorem. Same next action alone is not grounds to skip useful evidence."
+      },
+      {
+        "item": 6,
+        "expected_savings": "high immediate",
+        "proposal": "Separate necessary source consequences from candidate-conditional desiderata and order by test cost. Connectivity to these chosen roots and positive physical energy are not silently made source premises."
+      },
+      {
+        "item": 2,
+        "expected_savings": "medium-high if targeted",
+        "proposal": "Audit dependencies of the actual live operator/domain question first; the old six first-consistency channels are consumed. Defer all ten-family flips; one-at-a-time survival does not prove joint robustness. Plus/minus adjoint remains a comparator unless sourced."
+      },
+      {
+        "item": 3,
+        "expected_savings": "high before a physical-ghost claim, lower for current algebraic range",
+        "proposal": "One matched control for the exact inference first. Distinguish constrained energy from BRST physical ghosts; conformal-gravity expectation requires a stated prescription."
+      },
+      {
+        "item": 7,
+        "expected_savings": "medium later",
+        "proposal": "Use a matched four-dimensional comparator only for a specific observation-related obstruction, preserving relevant structures."
+      },
+      {
+        "item": 5,
+        "expected_savings": "low immediate",
+        "proposal": "Euclidean base changes the real form and physical-time question; use only if it distinguishes a named sign mechanism."
+      },
+      {
+        "item": 4,
+        "expected_savings": "lowest immediate",
+        "proposal": "Toy dimensions alter branching and source counts; use if a structural dimension theorem is otherwise unavailable."
+      }
+    ],
+    "recommendation": "Approve lightweight items1/6 and targeted dependencies; reserve comparator execution for a specific diagnostic question. Broad suites remain deferred proposals, not new stop rules.",
+    "current_theorem_effect": "Finite-loss and norm-class obstruction are ordinary continuing science, not execution of Nov26g comparator/sensitivity suites or adoption of a VOI governance gate.",
+    "sensitivity_scope_correction": {
+      "status": "proposal_grounded_in_owned_quadratic_autonomy_not_executed_sweep",
+      "reason": "The ten families are not ten independent switches in the present local operator. Geometry, shiab recipe and coupling enter the held bosonic map. The zero-matter imaginary quadratic block is autonomous from the fermion recipe and the diagnostic matter lift/band/dispersion/dual/tube choices. Variational and physical domains still affect admissibility and propagation, so local algebraic independence is not physical independence.",
+      "evidence": [
+        "lab/process/source-action-q7-propagation.json#coupled_quadratic_autonomy",
+        "lab/process/action-constraint-matrix.json#source_relevance_assumption_view.candidate_choice_budget"
+      ],
+      "adjoint_caution": "A plus/minus adjoint flip changes the stated construction unless an authenticated source permits it; label it a comparator, not a new GU choice."
+    },
+    "current_queue_outcome_map": {
+      "weak_response": "Same-germ local current is now certified. Do not repeat generic visibility; Ward/boundary, unstable-mode projection and physical admission are distinct next burdens.",
+      "path_continuation": "Connection to the large-kappa branch would add a scoped candidate result; a numerical turn is no exclusion. Neither alone selects a physical state, and source necessity of that path is unproved.",
+      "spin4_cokernel": "Complete owned ranges and whole first consistency consume old Q source/nonmembership tests; fullM now consumes the remaining auxiliary regularity question.",
+      "BRST": "Ordinary finite local arbitrary-function gauge removal is excluded in the autonomous block after full regularity. Physical cohomology still requires an authentic action charge and common invariant domain; a guessed ghost algebra is not that test."
+    }
+  },
+  "quick_math20": {
+    "method": "One compact description pass; concrete author and independent reviews are separate, not20 persona agents.",
+    "lenses": [
+      {
+        "index": 1,
+        "lens": "PDE",
+        "decision_delta": "High-order packets close every fixed finite-loss estimate."
+      },
+      {
+        "index": 2,
+        "lens": "Microlocal analysis",
+        "decision_delta": "Control global-envelope remainders to logarithmic rescaled time."
+      },
+      {
+        "index": 3,
+        "lens": "Representation theory",
+        "decision_delta": "Use maximal full principal real part, not necessarily spin7."
+      },
+      {
+        "index": 4,
+        "lens": "Category theory",
+        "decision_delta": "Graph residual and physical matter forcing are distinct interfaces."
+      },
+      {
+        "index": 5,
+        "lens": "Number theory",
+        "decision_delta": "Authenticate exact rational root moments; avoid fitted spectra."
+      },
+      {
+        "index": 6,
+        "lens": "Operator theory",
+        "decision_delta": "Finite Sobolev sandwiches imply forbidden estimates."
+      },
+      {
+        "index": 7,
+        "lens": "Krein theory",
+        "decision_delta": "Unbounded metrics are not all alike; finite-order versus infinite-order matters."
+      },
+      {
+        "index": 8,
+        "lens": "Differential geometry",
+        "decision_delta": "Reuse exact native character and non-null covariance."
+      },
+      {
+        "index": 9,
+        "lens": "Harmonic analysis",
+        "decision_delta": "Asymptotic conic localization is not exact compact Fourier support."
+      },
+      {
+        "index": 10,
+        "lens": "Symplectic geometry",
+        "decision_delta": "Do not identify approximate packets with signed-energy current germs."
+      },
+      {
+        "index": 11,
+        "lens": "Control theory",
+        "decision_delta": "A selected state restriction needs coupled support preservation."
+      },
+      {
+        "index": 12,
+        "lens": "Descriptor systems",
+        "decision_delta": "Actual graph reconstruction remains exact."
+      },
+      {
+        "index": 13,
+        "lens": "Algebraic geometry",
+        "decision_delta": "No new coefficients or action variants."
+      },
+      {
+        "index": 14,
+        "lens": "Homological physics",
+        "decision_delta": "Source does not require an invented odd BRST action."
+      },
+      {
+        "index": 15,
+        "lens": "Tensor calculus",
+        "decision_delta": "Bosonic geometric spin7 differs from historical fermion objects."
+      },
+      {
+        "index": 16,
+        "lens": "Numerical analysis",
+        "decision_delta": "Subsecond custody check replaces redundant native assembly."
+      },
+      {
+        "index": 17,
+        "lens": "Noncommutative algebra",
+        "decision_delta": "Transport coefficient cancellation raises formal residual order."
+      },
+      {
+        "index": 18,
+        "lens": "Topology",
+        "decision_delta": "A boundary-value problem can lie outside a Cauchy obstruction."
+      },
+      {
+        "index": 19,
+        "lens": "Dynamical systems",
+        "decision_delta": "Jordan factors are polynomial when the full spectral maximum is used."
+      },
+      {
+        "index": 20,
+        "lens": "Computational algebra",
+        "decision_delta": "Universal scale identities complement analytic review; samples are not proof."
+      }
+    ]
+  },
+  "choice_budget": {
+    "families": 10,
+    "obligation_bundles": 4,
+    "net": 6,
+    "source_selected_predictions": 0,
+    "delta": 0
+  },
+  "accounting": "Directed80to81/LBCLASS39to40. Pending directed_lc_carry_2026_11_25_physical remains for the next ordinary run; no scheduler opportunity, cadence amendment or bet credit.",
+  "verification": {
+    "native_gates": {
+      "program_focus_audit": "PASS",
+      "typed_carrier_declaration_audit": "PASS",
+      "kill_target_claim_audit": "PASS",
+      "frontmatter_status_schema_audit": "PASS",
+      "source_native_comparator_routing_audit": "PASS",
+      "lean_certificate_surface_audit": "PASS",
+      "current_state_absolute_currency_audit": "PASS"
+    },
+    "native_certificate": "lab/process/source-action-finite-loss-certificates.json",
+    "independent_reviews": "lab/process/hostile-reviews/2026-11-27-source-action-finite-loss-review.md",
+    "lean": {
+      "command": "lake env lean -j1 /private/tmp/gu-finite-loss-wt-20261127/Lean/GUFormalization/FiniteLossCompletion.lean",
+      "cwd": "/Users/joe/Brain/CapacityOS/repos/public/gu-formalization",
+      "exit_code": 0,
+      "output": "",
+      "source_sha256": "27ac2ac097724d1fdd9218764ebc18ee17e51d52b562ca928defa3f2d362a5cb",
+      "scope": "Six finite algebra/asymptotic lemmas. Classical PDO remainder, graph reconstruction, maximal-spectrum transport and physical/source scope separately reviewed. No full-project build.",
+      "prior_attempts": [
+        "Initial compile found an unqualified Mathlib namespace and reversed limit-inequality lemma; corrected proof compiled cleanly."
+      ]
+    },
+    "proof_input_verification": {
+      "passed": true,
+      "mode": "verify",
+      "probe_sha256": "eb9ba01f3028463a24cbffde955c69f8b0e390fef4541c382fe3e3a0e2d004d8",
+      "certificate_sha256": "d46d7216d814a872167eb0471747986622b84eebaa57b3f99c9733486a993507",
+      "exact_intrinsic_roots_checked": 2,
+      "new_M_scalar_bounds_checked": 28,
+      "full_M_dimension_authenticated": 49154,
+      "native_assembly_or_previous_replay_run": false,
+      "analytic_packet_remainder_verified": false,
+      "seconds": 0.8519178330898285
+    },
+    "verification_receipt_sha256": "71fa86ef197da93365d7385ea461beb0b6e44809854078ba1171ea06e7600735",
+    "protected_surfaces": "program_focus,cells,intersections,shrinkage and choice budget unchanged"
+  },
+  "current_sha256": {
+    "explorations/conditional-build/source-action-finite-loss-completions-2026-11-27.md": "95e8994a935195b57ddeabfdd1ed9f7a7022eec85a8eeaef0b69b01495af0485",
+    "tests/program-focus/source_action_finite_loss_probe.py": "eb9ba01f3028463a24cbffde955c69f8b0e390fef4541c382fe3e3a0e2d004d8",
+    "lab/process/source-action-finite-loss-certificates.json": "d46d7216d814a872167eb0471747986622b84eebaa57b3f99c9733486a993507",
+    "lab/process/hostile-reviews/2026-11-27-source-action-finite-loss-review.md": "efb1ced2b1e28d7a4bb64284e3680e784e14546664915c55c4e0147f523fbeab",
+    "Lean/GUFormalization/FiniteLossCompletion.lean": "27ac2ac097724d1fdd9218764ebc18ee17e51d52b562ca928defa3f2d362a5cb"
+  }
+}

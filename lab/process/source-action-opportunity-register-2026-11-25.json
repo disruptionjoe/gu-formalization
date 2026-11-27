@@ -1348,7 +1348,7 @@
       "selection_note": "Candidate construction/diagnostic only unless its stated structural family and source bridge satisfy current program_focus. A reserve is not scheduled work."
     }
   ],
-  "priority_effect": "Actual microlocal no-loss graph obstruction and same-germ current completed. Next discriminate the concrete channel under source-supplied gauge/observation or common-domain Ward pairing; no new choice family. Avoid repeated scalar/fullM/receiver assembly. Policy/cadence unchanged.",
+  "priority_effect": "Finite-loss and finite-order elliptic norm repair class excluded on unchanged graph core. Source does not demand unrestricted Cauchy propagation. Next bounded native coupled support-closure discriminator or correctly transported unstable-sector current; no imported K77 selector or guessed BRST. No policy/cadence/choice change.",
   "evidence": [
     "explorations/conditional-build/source-action-engineering-wave-2026-11-25.md",
     "lab/process/source-action-engineering-wave.json",
@@ -2282,6 +2282,36 @@
       "repeated fullM inversion, generic receiver scans, old scalar-jet assembly or broad spin0 census as prerequisites to this result"
     ],
     "counterfactual_proposal": "lab/process/source-action-onshell-dynamics.json#counterfactual_proposal",
+    "counterfactual_status": "Nov26g proposal-only; no suite/governance execution",
+    "continuation_superseded_by": "lab/process/source-action-finite-loss.json"
+  },
+  "finite_loss_2026_11_27": {
+    "report": "explorations/conditional-build/source-action-finite-loss-completions-2026-11-27.md",
+    "evidence": "lab/process/source-action-finite-loss.json",
+    "actual_delta": "At both held W2/K95 kappa1 roots, high-order logarithmic-time packets exclude every fixed finite spatial-derivative-loss graph Duhamel estimate and every same-core norm completion with finite Sobolev sandwich bounds. This includes the stated finite-order elliptic repairs and local boundary conditions retaining the interior test core. Source META52/53 do not require this unrestricted ambient Cauchy class; boundary/nonlocal/analytic physical selection remains open.",
+    "next_directed_worksets": [
+      {
+        "id": "native_coupled_support_closure",
+        "status": "ready_for_bounded_native_applicability_and_vertex_test",
+        "target": "LB-CLASS",
+        "tier": "T2",
+        "task": "Test the remaining strict-center/nonlocal-support escape at the actual native matter-current interface: first name the K95 carrier and support condition being tested without importing the old flat K77 fermion operator. Two allowed null matter covectors may differ by a timelike-normal covector; compute the actual polarized row/column vertex and determine whether the specified support class is preserved. No physical selector is installed or presumed source-selected.",
+        "expected_delta": "A necessary coupled support-closure constraint, an exact nonzero forbidden transfer excluding the named naive restriction, or the exact missing native bridge. Momentum geometry alone or a generic receiver is insufficient.",
+        "class_covered": "Structurally specified native principal support/vertex class only after its exact carrier and allowed paired matter states are stated; not every boundary or fakeon prescription.",
+        "source_bridge": "Conditional or absent until linked to an actual source-supplied physical selection; K77/K95 and boson/fermion transfer remain explicit.",
+        "kill_condition": "Only a nonzero admitted native polarized source outside the specified support excludes that closure class. Failure to supply a source selector does not kill GU.",
+        "shared_prerequisite": "Owned six-arrow operator/vertex, fullM, actual graph principal and all finite-loss exclusions; reuse rather than rebuild.",
+        "strongest_alternative": "Matched current/observation symbol on the actual unstable sector, first deriving its transported map; the old triangular current cannot be combined directly with H_mu."
+      }
+    ],
+    "consumed": [
+      "all fixed finite spatial-loss graph estimates on the unchanged non-null core",
+      "finite Sobolev-sandwiched and stated finite-order elliptic norm repairs",
+      "ordinary local arbitrary-function gauge removal already covered; dressing delta Ahat=0",
+      "repeated demand for a source-required unrestricted Cauchy class or compulsory odd BV action: source does not supply those demands",
+      "generic BRST construction, repeated fullM/frozen/no-loss/current scans or unnecessary fullspin0 census"
+    ],
+    "counterfactual_proposal": "lab/process/source-action-finite-loss.json#counterfactual_proposal",
     "counterfactual_status": "Nov26g proposal-only; no suite/governance execution"
   }
 }
