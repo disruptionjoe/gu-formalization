@@ -439,6 +439,10 @@
         },
         "receipt_ref": "lab/process/source-action-riemann-silence.json#verification/replay",
         "scope": "Recorded accepted receipt and explicitly hashed artifacts only; no fresh execution or complete transitive dependency/environment attestation. Inspect native certificate dependency bindings before reuse."
+      },
+      "coverage_addendum": {
+        "ref": "explorations/conditional-build/full-shiab-variational-consistency-2026-11-27.md",
+        "delta": "All traceless inputs killed under cubic; central survivor killed by separate matched quadratic premise. Prior theorem scope retained."
       }
     },
     {
@@ -937,7 +941,11 @@
           "statement": "No I1B+I2B sum or extra metric-only/boundary functional imported",
           "owner_ref": "explorations/conditional-build/riemann-realform-transfer-2026-11-27.md"
         }
-      ]
+      ],
+      "coverage_addendum": {
+        "ref": "explorations/conditional-build/full-shiab-variational-consistency-2026-11-27.md",
+        "delta": "All traceless inputs killed under cubic; central survivor killed by separate matched quadratic premise. Prior theorem scope retained."
+      }
     },
     {
       "id": "source-action-endpoint-cubic-2026-11-27",
@@ -1171,6 +1179,121 @@
       ],
       "dead_end_refs": [
         "lab/process/bet-cosmology-conservation-descent.json#follow_through.dead_end_memory"
+      ]
+    },
+    {
+      "id": "full-shiab-consistency-2026-11-27",
+      "kind": "result",
+      "owner_ref": "explorations/conditional-build/full-shiab-variational-consistency-2026-11-27.md",
+      "tested_statement": "The cubic/unit-endpoint identity kills every traceless curvature input. Adding the quadratic/unit-linear identity kills the remaining central-input map, so S=0 throughout the declared architecture.",
+      "signature": {
+        "object": "Entire fixed-linear full-U Shiab matching both own cubic and quadratic action terms",
+        "carrier": "Full Dirac128, full u(H) translations, complexification gl128=sl128+center",
+        "convention": "Trace/top-form pairing with1-form first; ordinary matrix curvature; own1/3cubic unitendpoint, own1/2quadratic unitlinear endpoint",
+        "class": "Dimension14 nondegenerate metric, full complex128 Dirac and full real u(H) with Spin-compatible nondegenerate Hermitian form; fixed pointwise real-linear Spin-equivariant S from adjoint two-forms to adjoint thirteen-forms, ordinary matrix curvature, trace/top-form pairing, all primitive translation variations. Both own1/3cubic and own1/2quadratic terms have their separately asserted unit endpoints. Smooth fixed coefficients and nonvanishing density are allowed.",
+        "premises": [
+          "Full fixed-fibre Spin equivariance, including commonly transported epsilon representation",
+          "Fixed pointwise linear operator, geometry and nonvanishing density during primitiveT variation",
+          "All full primitive compact local translations",
+          "Both universal matched variational identities, not only on-shell equality"
+        ]
+      },
+      "attributed_status": "internal_T1_full_fixed_linear_architecture_exclusion_reviewed",
+      "status_ref": "lab/process/full-shiab-consistency.json#status",
+      "source_bridge_ref": "lab/process/full-shiab-consistency.json#source_bridge",
+      "certificate_refs": [
+        "lab/process/full-shiab-consistency-certificates.json"
+      ],
+      "control_refs": [
+        "tests/program-focus/full_shiab_consistency_probe.py"
+      ],
+      "survivors_ref": "explorations/conditional-build/full-shiab-variational-consistency-2026-11-27.md#9-controls-and-limitations",
+      "reopen_condition_ref": "lab/process/full-shiab-consistency.json#follow_through",
+      "superseded_by": null,
+      "cache": {
+        "artifacts": [
+          {
+            "path": "explorations/conditional-build/full-shiab-variational-consistency-2026-11-27.md",
+            "sha256": "eb526d843ee51d7b381166884cab0c33c7ff2956f468844bb4bd8dcce153f436"
+          },
+          {
+            "path": "tests/program-focus/full_shiab_consistency_probe.py",
+            "sha256": "db6587eadd2524d3377a85b119c3af5628e1d7e57ac0a3cd94ac633c50beb1f1"
+          },
+          {
+            "path": "lab/process/full-shiab-consistency-certificates.json",
+            "sha256": "a279b8afec2df41da4b6ea06309435c8f89199239b371def38e54d309237275c"
+          },
+          {
+            "path": "Lean/GUFormalization/FullShiabConsistency.lean",
+            "sha256": "a2c0c0ac7123b6c73c12e58f0f6c046b97f10aa9cb07b28153690b2b054be604"
+          },
+          {
+            "path": "explorations/conditional-build/riemann-realform-transfer-2026-11-27.md",
+            "sha256": "39f6ad6678ac9524f1ab68a24e65ab3a577003c6ef500344b5bf84445366b222"
+          },
+          {
+            "path": "explorations/conditional-build/source-action-riemann-silence-2026-11-27.md",
+            "sha256": "55eb23aa1b272fea90b62eaa3e225b8cad32c5999c086f82a1d36549cfb16a28"
+          },
+          {
+            "path": "lab/process/riemann-realform-transfer-certificates.json",
+            "sha256": "fd1fb9cbd30d349e6c9e78c25fbe94d4fb56a62df544bc53318375b982d99e28"
+          },
+          {
+            "path": "lab/sources/source-claim-register.yaml",
+            "sha256": "dc3ae173b4cc0eb2a0e343e3d92d5f110b8e4f6eef3e2852a1e897ab4371ade6"
+          },
+          {
+            "path": "lab/sources/weinstein-gu-primary-source-pack-2026-07-30.md",
+            "sha256": "7b37925b0342c9495dc1706a39c0f2e9569e64a1352a3221814a2b0c9b9c2999"
+          },
+          {
+            "path": "tests/program-focus/riemann_realform_transfer_probe.py",
+            "sha256": "3fd7e28bdfb35e815794fa82b4f2c6939252c94250eaf62ab8b2bd0706e331e2"
+          }
+        ],
+        "verifier": {
+          "command": "python3",
+          "args": [
+            "tests/program-focus/full_shiab_consistency_probe.py",
+            "--verify"
+          ],
+          "environment": {
+            "python": "Standard-library rational finite controls; version not locked",
+            "lean": "Mounted Mathlib cache; targeted single-thread check"
+          }
+        },
+        "receipt_ref": "lab/process/full-shiab-consistency.json#verification",
+        "input_coverage": "Inherited source/realform dependencies hash-bound, not replayed; finite sl3 calibrations do not prove universal classification.",
+        "freshness_note": "Fresh root replay separately recorded; current hashes alone are not execution."
+      },
+      "excluded_classes": [
+        {
+          "class": "Nonzero derived-input response in full fixed-linear Spin-equivariant own-cubic/unitendpoint architecture",
+          "premises": "Declared full-u(H), trace pairing, pointwise fixed coefficients and universal translations",
+          "scope": "All traceless curvature, including non-Riemann, not only injected Riemann",
+          "certificate": "lab/process/full-shiab-consistency-certificates.json"
+        },
+        {
+          "class": "Any nonzero S in the same architecture satisfying the own-quadratic/unitlinear identity too",
+          "premises": "Additional printed quadratic variation; ordinary d_B and compact local tests",
+          "scope": "Entire curvature-input domain, including center",
+          "certificate": "lab/process/full-shiab-consistency-certificates.json"
+        }
+      ],
+      "survivors": [
+        {
+          "class": "Central-input maps under cubic identity ALONE",
+          "scope": "Consumed when quadratic premise is added; output need not be central under cubic alone."
+        },
+        {
+          "class": "Changed symmetry/tangents/operator dependence/endpoint or only on-shell equality",
+          "scope": "Outside quantified theorem; no source selection or viability credit."
+        }
+      ],
+      "dead_end_refs": [
+        "lab/process/full-shiab-consistency.json#follow_through.dead_end_memory"
       ]
     }
   ]

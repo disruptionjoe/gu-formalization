@@ -1,7 +1,7 @@
 schema_version: '1.0'
 repository: observerse-research-program
 branch: main
-revision_basis: 862183e9ed9019dc6bb777ba4666a70d5864da01
+revision_basis: 16385d64fec9b275b44758b677b713d75ebc4a61
 program_focus:
   version: 2026-11-27-v1
   authority: joe_direct_chat_2026_11_27_c
@@ -169,6 +169,48 @@ program_focus:
       This flag never pauses research and does not authorize contact or release.
     retrospective: About every ten scientific waves, review forecast versus actual cost/delta, repeated
       work and useful shortcuts in existing weekly metrics. No new schedule.
+full_shiab_consistency_2026_11_27:
+  status: internal_T1_full_fixed_linear_architecture_exclusion_reviewed
+  basis_revision: 16385d64fec9b275b44758b677b713d75ebc4a61
+  actual_delta: The cubic/unit-endpoint identity kills every traceless curvature input. Adding the quadratic/unit-linear
+    identity kills the remaining central-input map, so S=0 throughout the declared architecture.
+  evidence:
+  - explorations/conditional-build/full-shiab-variational-consistency-2026-11-27.md
+  - lab/process/full-shiab-consistency.json
+  source_bridge:
+    status: conditional
+    reason: The source prints the coefficients, unit endpoint and full fixed-epsilon translation slice.
+      Its displayed invariant-Phi grammar supplies Spin equivariance, but final nonzero instantiation
+      and action-pairing/curvature normalization are not adjudicated here; broader formulas and merely
+      on-shell equivalence remain separate.
+  next:
+    status: ready_bounded_source_instantiation_audit
+    target: LB-CLASS
+    question: Does the existing nonzero displayed Shiab certificate use exactly the printed action pairing
+      and curvature/bracket normalization, so the architecture contradiction applies to that formula without
+      an unproved adapter?
+    reuse_first: Use owned invariant-Phi/source prescription and B2/B3 product/normalization certificates.
+      Full fixed-fibre symmetry is supplied for the displayed tree; do not rediscover it or repeat the
+      product census.
+    outcomes:
+    - 'Matching nonzero instantiation established: assess the exact source-formula contradiction under
+      ordinary T1/source-claim review; no automatic globalGU verdict.'
+    - 'A pairing or normalization mismatch remains: name it and test the smallest necessary adapter or
+      show it changes the claimed formula.'
+    - 'The retained source formula is zero: record the exact failure of its claimed nonzero role, without
+      inventing a replacement.'
+    remaining_cost: One bounded source/representation audit; estimates are judgments, not guaranteed proof.
+    strongest_alternative: Homogeneous finite-normalization composition, retaining its unproved physical
+      normalization necessity.
+    consumed: Searching another fixed-linear full-U/fullSpin map with both matched endpoints, including
+      non-Riemann/central coefficient tuning.
+    consumed_symmetry_question:
+      status: resolved_for_displayed_grammar
+      evidence: explorations/conditional-build/full-shiab-variational-consistency-2026-11-27.md#10-source-relevance-and-the-remaining-bridge
+      result: 'Supplied for the displayed grammar by draft Definition8.1/eq8.7 p42 and eq9.3 p43: invariant
+        Phi, Hodge/wedge and equivariant products; common epsilon conjugation transports Spin. Extra transformed
+        tensors are a general outside-class possibility, not an unresolved item in this tree.'
+  choice_budget_effect: none
 bet_cosmology_conservation_descent_2026_11_27:
   status: internal_T1_conditional_conservation_descent_reviewed
   basis_revision: 862183e9ed9019dc6bb777ba4666a70d5864da01
@@ -185,7 +227,7 @@ bet_cosmology_conservation_descent_2026_11_27:
       not select this coderivative alone, a local stress readout, unrestricted local solution germs or
       the physical domain. The theorem tests a proposed implication class, not the full source equations.
   next:
-    status: ordinary_B_selection_after_completed_LC_wave
+    status: consumed_by_full_shiab_consistency_wave
     target: LB-CLASS
     mandatory_basis: Counter92 is an ordinary B slot; respect any newly ready priority packet or unfinished
       T1 item.
@@ -206,6 +248,8 @@ bet_cosmology_conservation_descent_2026_11_27:
     - No same-branch endpoint coefficient retests.
     - No new algebraic observed-only stress tests under the now-covered coderivative-only premises.
     - No full compact-PS flat-T3 gap search within the owned all-stationary exclusion.
+    prior_status: ordinary_B_selection_after_completed_LC_wave
+    consumed_evidence: lab/process/full-shiab-consistency.json
   choice_budget_effect: none
 source_action_endpoint_cubic_2026_11_27:
   status: internal_T1_analytic_branch_endpoint_exclusion_reviewed

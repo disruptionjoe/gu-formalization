@@ -16,6 +16,10 @@ Do not add "Current follow-through" sections or "Historical predecessor" stacks 
 matrix or bet file. The retired follow-through chain and banner stack are kept at the end of this file under
 "Archived steering history".
 
+## 2026-11-27 — Full fixed-linear Shiab consistency
+
+[Result](explorations/conditional-build/full-shiab-variational-consistency-2026-11-27.md) · [Evidence](lab/process/full-shiab-consistency.json). In the declared full-U, fullSpin, fixed-linear architecture, the cubic/unit-endpoint identity removes all traceless curvature response. The quadratic/unit-linear identity removes the central-input survivor, forcing S=0. This excludes every nonzero matched map in that class without a full operator census. Fixed-fibre Spin/source identification remains explicit; no W2 stationary, GU, ledger or choice verdict changes.
+
 ## 2026-11-27 — Bulk conservation does not impose an observed identity
 
 [Result](explorations/conditional-build/bet-cosmology-conservation-descent-2026-11-27.md) · [Evidence](lab/process/bet-cosmology-conservation-descent.json). Every smooth local observed one-form extends to a weighted covariantly coclosed bulk field under the fixed-background, nondegenerate-section hypotheses. Any finite-order local observed stress conserved for all these fields must already satisfy an off-shell identity; a zero-order stress is independent of the field on each connected field-value fibre component. Full equations, global/physical domains and source stress selection remain open. No GU or ledger verdict, new action or choice family.

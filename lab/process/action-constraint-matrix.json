@@ -1788,7 +1788,7 @@
     },
     "LB-CLASS": {
       "zero_delta_streak": 0,
-      "runs": 48,
+      "runs": 49,
       "status": "open"
     },
     "LB-LADDER": {
@@ -2707,7 +2707,7 @@
   ],
   "program_run_counter": {
     "since": "2026-11-09",
-    "count": 92,
+    "count": 93,
     "rule": "Every hourly run increments this in its postflight, whatever its lane. Lane C runs when count % 4 == 3 before the increment."
   },
   "working_rule": "Cells are worked at the structure level: a requirement must hold for every action in class C or for a structurally defined subfamily. No cell is worked by writing down a specific action, and no gated cell is worked by building its gate object. See CURRENT-STATE.yaml program_focus.structure_not_specifics.",
@@ -3531,6 +3531,22 @@
       ],
       "claim_effect": "LC evidence only; no scientific matrix/assumption import, canon, ledger, source or paper verdict.",
       "cadence_note": "One scientific LC wave; COSMOLOGY3to4, remaining21to20. B lane counts and scientific matrix/assumption view unchanged."
+    },
+    {
+      "date": "2026-11-27",
+      "authority": "joe_direct_chat_2026_11_27_c",
+      "item": "Whole fixed-linear Shiab variational consistency",
+      "tier": "T1",
+      "counter_before": 92,
+      "counter_after": 93,
+      "lane": "LB-CLASS",
+      "actual_delta": "The cubic/unit-endpoint identity kills every traceless curvature input. Adding the quadratic/unit-linear identity kills the remaining central-input map, so S=0 throughout the declared architecture.",
+      "evidence": [
+        "explorations/conditional-build/full-shiab-variational-consistency-2026-11-27.md",
+        "lab/process/full-shiab-consistency.json"
+      ],
+      "claim_effect": "Scoped architecture evidence only; no matrix cell/intersection/shrinkage, source/ledger/canon/C or paper verdict.",
+      "cadence_note": "One B scientific wave; LBCLASS48to49, no betcredit."
     }
   ],
   "directed_lc_carry_2026_11_24_b": {
@@ -3913,7 +3929,9 @@
           "explorations/conditional-build/source-action-controls-sensitivity-2026-11-27.md",
           "lab/process/source-action-controls-sensitivity.json",
           "explorations/conditional-build/source-action-endpoint-cubic-2026-11-27.md",
-          "lab/process/source-action-endpoint-cubic.json"
+          "lab/process/source-action-endpoint-cubic.json",
+          "explorations/conditional-build/full-shiab-variational-consistency-2026-11-27.md",
+          "lab/process/full-shiab-consistency.json"
         ],
         "choices": "Historical original choices are retained below; current held fermion repair is SE=-1/2 (SE0 superseded), kappa1 with two unselected roots. Typed candidate_choice_budget separates core/completion/pending/comparator/parked choices.",
         "wave2_update": {
@@ -5212,6 +5230,37 @@
           "next": "Structural native K95 four-witness transfer ranks before a guided successor, after the carried ordinary LC slot. No new candidate selected.",
           "weakest_unproved_link": "Source necessity and physical admission/readout of this reconstructed candidate; its roots also fail the separately printed endpoint.",
           "claim_effect": "No matrix-cell, ledger, source, canon, class-C or paper verdict change."
+        },
+        "full_shiab_architecture_addendum": {
+          "result": "The cubic/unit-endpoint identity kills every traceless curvature input. Adding the quadratic/unit-linear identity kills the remaining central-input map, so S=0 throughout the declared architecture.",
+          "evidence": [
+            "explorations/conditional-build/full-shiab-variational-consistency-2026-11-27.md",
+            "lab/process/full-shiab-consistency.json"
+          ],
+          "scope": {
+            "status": "conditional",
+            "reason": "The source prints the coefficients, unit endpoint and full fixed-epsilon translation slice. Its displayed invariant-Phi grammar supplies Spin equivariance, but final nonzero instantiation and action-pairing/curvature normalization are not adjudicated here; broader formulas and merely on-shell equivalence remain separate."
+          },
+          "choice_effect": "none",
+          "next": {
+            "status": "ready_bounded_source_instantiation_audit",
+            "target": "LB-CLASS",
+            "question": "Does the existing nonzero displayed Shiab certificate use exactly the printed action pairing and curvature/bracket normalization, so the architecture contradiction applies to that formula without an unproved adapter?",
+            "reuse_first": "Use owned invariant-Phi/source prescription and B2/B3 product/normalization certificates. Full fixed-fibre symmetry is supplied for the displayed tree; do not rediscover it or repeat the product census.",
+            "outcomes": [
+              "Matching nonzero instantiation established: assess the exact source-formula contradiction under ordinary T1/source-claim review; no automatic globalGU verdict.",
+              "A pairing or normalization mismatch remains: name it and test the smallest necessary adapter or show it changes the claimed formula.",
+              "The retained source formula is zero: record the exact failure of its claimed nonzero role, without inventing a replacement."
+            ],
+            "remaining_cost": "One bounded source/representation audit; estimates are judgments, not guaranteed proof.",
+            "strongest_alternative": "Homogeneous finite-normalization composition, retaining its unproved physical normalization necessity.",
+            "consumed": "Searching another fixed-linear full-U/fullSpin map with both matched endpoints, including non-Riemann/central coefficient tuning.",
+            "consumed_symmetry_question": {
+              "status": "resolved_for_displayed_grammar",
+              "evidence": "explorations/conditional-build/full-shiab-variational-consistency-2026-11-27.md#10-source-relevance-and-the-remaining-bridge",
+              "result": "Supplied for the displayed grammar by draft Definition8.1/eq8.7 p42 and eq9.3 p43: invariant Phi, Hodge/wedge and equivariant products; common epsilon conjugation transports Spin. Extra transformed tensors are a general outside-class possibility, not an unresolved item in this tree."
+            }
+          }
         }
       }
     ],

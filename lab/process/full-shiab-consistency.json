@@ -1,0 +1,396 @@
+{
+  "basis_revision": "16385d64fec9b275b44758b677b713d75ebc4a61",
+  "authority": "joe_direct_chat_2026_11_27_c",
+  "status": "internal_T1_full_fixed_linear_architecture_exclusion_reviewed",
+  "program_target": "LB-CLASS",
+  "tier": "T1",
+  "actual_delta": "The cubic/unit-endpoint identity kills every traceless curvature input. Adding the quadratic/unit-linear identity kills the remaining central-input map, so S=0 throughout the declared architecture.",
+  "class_covered": "Dimension14 nondegenerate metric, full complex128 Dirac and full real u(H) with Spin-compatible nondegenerate Hermitian form; fixed pointwise real-linear Spin-equivariant S from adjoint two-forms to adjoint thirteen-forms, ordinary matrix curvature, trace/top-form pairing, all primitive translation variations. Both own1/3cubic and own1/2quadratic terms have their separately asserted unit endpoints. Smooth fixed coefficients and nonvanishing density are allowed.",
+  "source_bridge": {
+    "status": "conditional",
+    "reason": "The source prints the coefficients, unit endpoint and full fixed-epsilon translation slice. Its displayed invariant-Phi grammar supplies Spin equivariance, but final nonzero instantiation and action-pairing/curvature normalization are not adjudicated here; broader formulas and merely on-shell equivalence remain separate."
+  },
+  "claim_effect": "Scoped architecture evidence only; no matrix cell/intersection/shrinkage, source/ledger/canon/C or paper verdict.",
+  "source_custody": {
+    "SC-ACT-01": "Draft2021 p44eq9.4: first action with1/2 quadratic and1/3 cubic.",
+    "SC-ACT-02": "Draftp45eq9.8\u20139.10: unit curvature endpoint.",
+    "independent_translation": "Draft\u00a73.6 fullU, \u00a75 all adjoint1-form translations,9.7/9.12 fixedepsilon variation; Nov13 audit already authenticates it.",
+    "important_distinction": "Coefficients do not imply the printed derivative. The two asserted identities are the premises being tested.",
+    "full_spin_bridge": "Supplied for the displayed grammar by draft Definition8.1/eq8.7 p42 and eq9.3 p43: invariant Phi, Hodge/wedge and equivariant products; common epsilon conjugation transports Spin. Extra transformed tensors are a general outside-class possibility, not an unresolved item in this tree.",
+    "final_instantiation_burden": "Nonzeroness and exact action-pairing/curvature normalization, preferably by reuse of existing native certificates."
+  },
+  "proof_structure": [
+    "Owned u(H) complexification transfers full translations, bilinear trace and Spin equations.",
+    "Cubic Hessian symmetry excludes central output on commutators and repeated external labels.",
+    "Three cyclic coefficient maps collapse to one quasicentroid by centerlessness.",
+    "Direct slN matrix-unit proof forN>=3 makes that map scalar; no dense Hom census.",
+    "Residual alternating external3-tensor is killed by complexSpin -Id.",
+    "Cubic alone leaves all central-input maps; output need not be central.",
+    "Quadratic mixed central/traceless test forces every central-input output central.",
+    "Spin parity rules out the remaining scalar \u039b2\u2192\u039b13 map, proving S=0.",
+    "Formal differential symmetry/principal symbol provides an independent presentation with correct wedge order."
+  ],
+  "decision_record": {
+    "mandatory_basis": "Ordinary B at92, no unfinishedT1, priority packets done/explicitly blocked; LB-CLASS structural test.",
+    "reuse": "Riemann restriction and signature transfer already accepted; W2 branch endpoint coefficients consumed. Current theorem quantifies the rest of the operator domain.",
+    "premise_delta": "Same declared fixed-linear architecture; add full Hessian/quasicentroid analysis and separately printed quadratic identity to close the central survivor.",
+    "expected_delta": "Classify the entire fixed-linear full-U curvature operator under the printed cubic and quadratic variational prescriptions.",
+    "actual_delta": "The cubic/unit-endpoint identity kills every traceless curvature input. Adding the quadratic/unit-linear identity kills the remaining central-input map, so S=0 throughout the declared architecture.",
+    "expected_cost": "One written class theorem, tiny exact controls and finite Lean; no200map census or new stationary roots.",
+    "actual_cost": "Root exact replay33 grouped controls/512 cyclic trace triples in0.174301875seconds; reviews, written theorem and targeted Lean separate.",
+    "outcomes": [
+      "S=0: consume all nonzero matched-map searches within the family and test the remaining exact source bridge.",
+      "Nonzero survivor: characterize its structural carrier and source role.",
+      "Source/assumption mismatch: name the exact changed premise and pivot, without weakening the theorem or constructing a repair."
+    ],
+    "strongest_alternative": "Finite normalization has broader geometric reach but weaker presently supplied physical necessity; this variation prescription is explicitly printed.",
+    "shared_prerequisite": "Source identification of full fixed-fibre Spin realization and physical/full theory scope; no missing source operator is constructed.",
+    "theorem_check": "Classical quasicentroid=centroid result is confirmed in Burde\u2013Dekimpe\u00a75; direct matrix-unit proof is the operative dependency."
+  },
+  "quick_math20": {
+    "method": "One quick pass through20 descriptions, plus concrete author and tier reviewers; not20 independent scientists/agents.",
+    "lenses": {
+      "category theory": "A claimed differential must be the same morphism as the endpoint; fixed-fibre versus family covariance matters.",
+      "number theory": "Rational matrix controls and characteristic-zero factors suffice; avoid numerical rank evidence.",
+      "representation theory": "FullSpin kills an alternating3-tensor and a scalar\u039b2\u2192\u039b13 intertwiner.",
+      "Lie theory": "Centerless sl and scalar quasicentroid close the full derived-input class.",
+      "Clifford algebra": "Inherited fullDirac/realform adapter replaces another signature census.",
+      "differential geometry": "Frame/epsilon transport must conjugate all structures together.",
+      "variational calculus": "Separate cubic and quadratic homogeneous degrees; printed coefficients alone do not prove derivatives.",
+      "PDE": "Compact local jets isolate the quadratic symbol without global equations.",
+      "functional analysis": "Use full differential formal symmetry or direct mixed tests, not a matrix transpose.",
+      "topology": "No global exactness needed: local cutoffs realize arbitrary2-form jets.",
+      "symplectic geometry": "Cubic Hessian integrability is the actual obstruction.",
+      "algebraic geometry": "Universal polynomial identities restrict a whole linear-map class.",
+      "homological algebra": "A zero curvature channel cannot be repaired by downstream zero-preserving maps.",
+      "spectral theory": "S=0 is not an energy or stationary-spectrum verdict.",
+      "complex analysis": "Complexification is algebraic, not an unsupported real-adjoint identification.",
+      "numerical analysis": "Small exact controls calibrate signs; written classification carriesN128.",
+      "control theory": "Additional equation outputs cannot repair a false independent input variation.",
+      "Hamiltonian systems": "Matched mass symmetry cancels; no ghost conclusion follows.",
+      "probability": "No state or measure choice added.",
+      "physics foundations": "A source-formula inconsistency is scoped separately from globalGU and alternative mechanisms."
+    }
+  },
+  "choice_dependencies": {
+    "scope": "Whole declared fixed-linear/full-U/fullSpin matched-variation class, all compatible real signatures via owned transfer.",
+    "quantified": "All operator coefficients, metrics and fixed connections satisfying the hypotheses; no Einstein-ratio or particular Phi factorization assumed.",
+    "held": "Universal endpoint identity, full translations, fixed-fibre Spin equivariance, trace pairing and pointwise linearity.",
+    "outside": [
+      "Fixed-fibre full Spin intertwining differs from covariance of a family with extra tensors transformed simultaneously.",
+      "Full-U/full-Dirac tangents, ordinary matrix connection, trace pairing and both universal matched endpoints are material premises.",
+      "Genuinely translation-dependent or derivative-valued maps, reduced tangents/symmetry, different functionals/endpoints and merely on-shell equivalence are outside the theorem.",
+      "Actual W2 symmetrized Euler and its stationary branches remain distinct, neither contradicted nor newly source-admitted.",
+      "No source-wide, GU, classC, physical-domain, canon or ledger verdict."
+    ]
+  },
+  "choice_budget": {
+    "families": 10,
+    "obligations": 4,
+    "bookkeeping_net": 6,
+    "source_selected_predictions": 0,
+    "added_families": 0,
+    "new_obligation_credit": 0,
+    "ceiling": "Grouped monitoring inventory, not an independent source-required lower bound."
+  },
+  "follow_through": {
+    "consumed": [
+      "Non-Riemann fixed-linear matched-cubic response search under fullSpin.",
+      "Central-input repair retaining both printed matched variation identities.",
+      "Coefficient/product tuning or signature-only replay within the excluded architecture."
+    ],
+    "dead_end_memory": "Use universal Hessian symmetry, derived/central splitting and smallest matrix-unit argument before a full equivariant-map census. Do not infer central output from central input until the quadratic test. Keep wedge pairing order fixed.",
+    "survivors": [
+      "Fixed-fibre full Spin intertwining differs from covariance of a family with extra tensors transformed simultaneously.",
+      "Full-U/full-Dirac tangents, ordinary matrix connection, trace pairing and both universal matched endpoints are material premises.",
+      "Genuinely translation-dependent or derivative-valued maps, reduced tangents/symmetry, different functionals/endpoints and merely on-shell equivalence are outside the theorem.",
+      "Actual W2 symmetrized Euler and its stationary branches remain distinct, neither contradicted nor newly source-admitted.",
+      "No source-wide, GU, classC, physical-domain, canon or ledger verdict."
+    ],
+    "next": {
+      "status": "ready_bounded_source_instantiation_audit",
+      "target": "LB-CLASS",
+      "question": "Does the existing nonzero displayed Shiab certificate use exactly the printed action pairing and curvature/bracket normalization, so the architecture contradiction applies to that formula without an unproved adapter?",
+      "reuse_first": "Use owned invariant-Phi/source prescription and B2/B3 product/normalization certificates. Full fixed-fibre symmetry is supplied for the displayed tree; do not rediscover it or repeat the product census.",
+      "outcomes": [
+        "Matching nonzero instantiation established: assess the exact source-formula contradiction under ordinary T1/source-claim review; no automatic globalGU verdict.",
+        "A pairing or normalization mismatch remains: name it and test the smallest necessary adapter or show it changes the claimed formula.",
+        "The retained source formula is zero: record the exact failure of its claimed nonzero role, without inventing a replacement."
+      ],
+      "remaining_cost": "One bounded source/representation audit; estimates are judgments, not guaranteed proof.",
+      "strongest_alternative": "Homogeneous finite-normalization composition, retaining its unproved physical normalization necessity.",
+      "consumed": "Searching another fixed-linear full-U/fullSpin map with both matched endpoints, including non-Riemann/central coefficient tuning.",
+      "consumed_symmetry_question": {
+        "status": "resolved_for_displayed_grammar",
+        "evidence": "explorations/conditional-build/full-shiab-variational-consistency-2026-11-27.md#10-source-relevance-and-the-remaining-bridge",
+        "result": "Supplied for the displayed grammar by draft Definition8.1/eq8.7 p42 and eq9.3 p43: invariant Phi, Hodge/wedge and equivariant products; common epsilon conjugation transports Spin. Extra transformed tensors are a general outside-class possibility, not an unresolved item in this tree."
+      }
+    }
+  },
+  "weakest_unproved_link": "Exact nonzero source-formula instantiation, action pairing and curvature normalization; broader GU necessity remains separate.",
+  "source_necessary_exclusion": "Printed action/full translation and displayed invariant-Phi symmetry are authenticated; final nonzero/pairing normalization instantiation is not adjudicated here.",
+  "class_C_representativeness": "Unproved; no width witness or classC verdict.",
+  "three_state": {
+    "ESTABLISHED": "Cubic trace-factorization on all curvature, and S=0 when the matched quadratic identity is also required.",
+    "RULED_OUT": "Every nonzero fixed-linear full-U/fullSpin map satisfying both declared universal variational identities.",
+    "NOT_MODELED_UNDETERMINED": [
+      "Fixed-fibre full Spin intertwining differs from covariance of a family with extra tensors transformed simultaneously.",
+      "Full-U/full-Dirac tangents, ordinary matrix connection, trace pairing and both universal matched endpoints are material premises.",
+      "Genuinely translation-dependent or derivative-valued maps, reduced tangents/symmetry, different functionals/endpoints and merely on-shell equivalence are outside the theorem.",
+      "Actual W2 symmetrized Euler and its stationary branches remain distinct, neither contradicted nor newly source-admitted.",
+      "No source-wide, GU, classC, physical-domain, canon or ledger verdict."
+    ]
+  },
+  "verification": {
+    "root_replay": {
+      "basis_trace_triples": 512,
+      "certificate_bytes": 5683,
+      "certificate_sha256": "a279b8afec2df41da4b6ea06309435c8f89199239b371def38e54d309237275c",
+      "checks": 33,
+      "mode": "verify",
+      "passed": true,
+      "probe_sha256": "db6587eadd2524d3377a85b119c3af5628e1d7e57ac0a3cd94ac633c50beb1f1",
+      "quadratic_derivative": "-1/60",
+      "quadratic_endpoint": "-1/30",
+      "seconds": 0.17430187528952956
+    },
+    "lean": {
+      "command": "lake env lean -j1 /private/tmp/gu-full-shiab-consistency-wt-20261127/Lean/GUFormalization/FullShiabConsistency.lean",
+      "cwd": "/Users/joe/Brain/CapacityOS/repos/public/gu-formalization",
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": "",
+      "finite_lemmas": 5,
+      "default_import_registered": true,
+      "scope": "Three cyclic maps collapse, odd scalar parity, central-matrix trace tests, quadratic mixed factor and central/traceless span. Universal matrix-unit proof, smooth variations, Spin/native/source identification remain written/reviewed."
+    },
+    "reviews": [
+      {
+        "role": "independent mathematical specialist",
+        "receipt_sha256": "45dc014d2fd00b52334c8aa6cbd73acc0bcd3aea3022895ab75ec238f65f624b",
+        "receipt": {
+          "reviewer": "/root/q7_propagation_hostile (independent mathematical specialist for this wave)",
+          "accepted": true,
+          "report_sha256": "eb526d843ee51d7b381166884cab0c33c7ff2956f468844bb4bd8dcce153f436",
+          "probe_sha256": "db6587eadd2524d3377a85b119c3af5628e1d7e57ac0a3cd94ac633c50beb1f1",
+          "certificate_sha256": "a279b8afec2df41da4b6ea06309435c8f89199239b371def38e54d309237275c",
+          "manifest_sha256": "a279b8afec2df41da4b6ea06309435c8f89199239b371def38e54d309237275c",
+          "lean_sha256": "a2c0c0ac7123b6c73c12e58f0f6c046b97f10aa9cb07b28153690b2b054be604",
+          "replay_sha256": "10dc14f6d7bfe7bd288dd9f2495baa974fb8b3902e927ebdfccdc3ff01c418cc",
+          "bindings": {
+            "explorations/conditional-build/full-shiab-variational-consistency-2026-11-27.md": "eb526d843ee51d7b381166884cab0c33c7ff2956f468844bb4bd8dcce153f436",
+            "tests/program-focus/full_shiab_consistency_probe.py": "db6587eadd2524d3377a85b119c3af5628e1d7e57ac0a3cd94ac633c50beb1f1",
+            "lab/process/full-shiab-consistency-certificates.json": "a279b8afec2df41da4b6ea06309435c8f89199239b371def38e54d309237275c",
+            "Lean/GUFormalization/FullShiabConsistency.lean": "a2c0c0ac7123b6c73c12e58f0f6c046b97f10aa9cb07b28153690b2b054be604"
+          },
+          "final_bindings_file_sha256": "adc707b82cd23f8172fe2a26f2c8ac05548dadc1536d919173d40f2e33834592",
+          "acceptance_scope": "Under the exact full-u(H)/full-Dirac, fixed pointwise linear full-Spin-intertwiner, trace/top-form pairing, ordinary matrix d_B, unrestricted primitive variations and universal matched endpoint hypotheses: cubic consistency annihilates all traceless curvature inputs; adding the quadratic/unit-linear identity forces S=0. Conditional off-shell architecture theorem, not a source/GU-wide or physical verdict.",
+          "own_checks": [
+            "Read the final report in full, the complete rational-control producer, deterministic certificate and all five Lean theorem statements/proofs. Independently reviewed the mathematical argument rather than treating the provisional feasibility notes as proof authority.",
+            "Independently derived the pairing-normalized derivative formula, central-output elimination using central translations, repeated-external-slot vanishing and positive cyclic signs. Checked the three-map trace-adjoint collapse into one quasicentroid map.",
+            "Independently checked the direct Cartan/matrix-unit argument for every N>=3: regular Cartan centralizers, one root component plus Cartan remainder, connected root scalars, and elimination of all Cartan remainders. This supplies the universal sl128 conclusion without extrapolation from sl3.",
+            "Checked the surviving external alternating-three-tensor and the full Spin14 complex minus-identity obstruction. Reviewed real-u(H) polynomial complexification, bilinear trace and connected complex Spin integration; no identification of distinct real Clifford algebras is used.",
+            "Checked the direct quadratic mixed-variation proof, arbitrary compact traceless tests and arbitrary central first jets. Smooth held coefficients and nonvanishing density do not introduce a missing integration-by-parts term. Checked the parallel formal-adjoint proof preserves one-form-first wedge order and the principal-symbol conclusion.",
+            "Read the corrected finite fixture as central BASE T_1=(t-t^2)Id and traceless VARIATION b_0=(t^2-t^3)H1. Independently hand-checked 2 integral_0^1 (t^2-t^3)(1-2t)dt=-1/30 and half derivative=-1/60. This fixture is explicitly outside full Spin equivariance and calibrates the mixed factor only.",
+            "Checked that the probe separates universal written proof from rational sl3 fixtures, uses exact Fraction arithmetic, binds six inherited dependencies without replaying them, tests 512 basis trace triples and 64 residual pairs, and includes sign/noncentroid/central-output negative controls and non-Spin/central-input positive controls.",
+            "Authenticated all four frozen artifact hashes, all six dependency hashes, the 33 recorded true grouped controls and the parent fresh replay receipt with matching probe/certificate hashes and 5683-byte certificate. Parent replay records 0.17430187528952956 seconds; it was not rerun by this reviewer.",
+            "Read all five finite Lean cores, confirmed their stated limited scope and absence of sorry/admit/axiom placeholders. Parent reports targeted compilation PASS; this reviewer did not execute Lean and does not claim it formalizes the full matrix-unit, smooth variation or source theorem.",
+            "Read the final source-grammar paragraph and its residual nonzero/pairing/curvature-normalization burden. Mathematically, invariant Phi tensors and well-typed wedge/Hodge contractions preserve the stated intertwiner premise under common transported dressing. Primary source-page authentication is inherited from the dedicated source review, not independently repeated here."
+          ],
+          "caveats": [
+            "The universal matrix-unit/Spin/variational proof is a reviewed written proof; the small controls and five finite Lean cores do not alone establish it.",
+            "The full primitive central and traceless tangent, ordinary matrix d_B, pointwise linearity, full fixed-fiber Spin intertwining, nondegenerate pairing/nonvanishing density and both separate universal endpoint identities are material assumptions.",
+            "Cubic consistency alone leaves central-input maps. The S=0 result requires the additional quadratic identity; the finite central-input fixture must not be reported as a native Spin-invariant source formula.",
+            "Changed endpoints, genuine translation/derivative dependence, reduced symmetry/tangents, extra action terms, or merely on-shell equivalence change the tested class. They are not constructed or credited as viable repairs.",
+            "This review does not independently instantiate a selected nonzero source S with all pairing and curvature factors, does not alter any source/canon/ledger verdict and does not falsify GU or invalidate W2 stationary results for its different actual Euler map.",
+            "Internal mathematical review is not external peer review or a world-novelty assessment."
+          ],
+          "not_run": [
+            "Native or toy probe execution by reviewer",
+            "Lean compilation by reviewer",
+            "Full Dirac matrices or Hom census",
+            "Inherited certificate replay",
+            "Fresh web/source-PDF or external literature authentication",
+            "Owner repository writes"
+          ],
+          "independent_proof_note": "/private/tmp/gu-full-shiab-independent-math-review-20261127.md",
+          "independent_proof_note_sha256": "76b18295676b55bcea32b7b6a0eff7279be81d5afa2f1076a6a066f01e23290a"
+        }
+      },
+      {
+        "role": "independent source/global specialist",
+        "receipt_sha256": "54681b8ffde2f2cc36c6f26158666942f58d7f2d1ecf0ec110777a2cd1d85898",
+        "receipt": {
+          "accepted": true,
+          "review_role": "independent source/global specialist",
+          "tier": "T1",
+          "report_sha256": "eb526d843ee51d7b381166884cab0c33c7ff2956f468844bb4bd8dcce153f436",
+          "probe_sha256": "db6587eadd2524d3377a85b119c3af5628e1d7e57ac0a3cd94ac633c50beb1f1",
+          "manifest_sha256": "a279b8afec2df41da4b6ea06309435c8f89199239b371def38e54d309237275c",
+          "lean_sha256": "a2c0c0ac7123b6c73c12e58f0f6c046b97f10aa9cb07b28153690b2b054be604",
+          "bindings": {
+            "explorations/conditional-build/full-shiab-variational-consistency-2026-11-27.md": "eb526d843ee51d7b381166884cab0c33c7ff2956f468844bb4bd8dcce153f436",
+            "tests/program-focus/full_shiab_consistency_probe.py": "db6587eadd2524d3377a85b119c3af5628e1d7e57ac0a3cd94ac633c50beb1f1",
+            "lab/process/full-shiab-consistency-certificates.json": "a279b8afec2df41da4b6ea06309435c8f89199239b371def38e54d309237275c",
+            "Lean/GUFormalization/FullShiabConsistency.lean": "a2c0c0ac7123b6c73c12e58f0f6c046b97f10aa9cb07b28153690b2b054be604"
+          },
+          "own_checks": [
+            "Read final report, complete probe, deterministic certificate and all five Lean cores; authenticated their bytes against supplied bindings.",
+            "Checked full central translations remove central output on commutator inputs, repeated exterior labels vanish, cyclic trace relations imply the scalar sl(N) quasicentroid, and complex Spin parity removes the alternating exterior three-tensor.",
+            "Checked quadratic mixed variation with compact traceless tests and central derivative jets forces central output, then opposite exterior parity kills the remaining central-input map; no pointwise differential-transpose shortcut.",
+            "Checked corrected probe fixture uses central base T_1 and traceless variation b_0; boundary-vanishing integral control and independent principal-jet test are distinguished.",
+            "Checked primary-source custody as reflected in final report: displayed invariant Phi grammar is fixed-fibre Spin equivariant at epsilon=1 and under commonly transported dressing; horizontal/normal extra data are not silently inserted.",
+            "Checked finite Lean implications retain explicit premises and do not claim formalization of the universal matrix-unit, smooth variational, real-form or source theorem."
+          ],
+          "scope": "Accepted conditional full-U/full-Dirac fixed pointwise linear Spin-equivariant matched-first-action exclusion: cubic consistency kills traceless inputs and quadratic consistency forces S=0. No source, canon, class-C or GU-wide verdict promotion.",
+          "caveats": [
+            "The source formula nonzero instantiation and exact action-pairing/curvature normalization remain to be adjudicated; displayed symmetry itself is no longer an unknown premise.",
+            "Real-form transfer is inherited; optional Sp, restricted tangents, extra fixed symmetry-breaking tensors, derivative/translation-dependent S and merely on-shell equivalence are outside this proof.",
+            "The actual W2 symmetrized Euler map does not satisfy the matched-endpoint premise; its stationary and instability results remain unchanged.",
+            "Rational gl3 controls calibrate signs and finite identities; universal N=128 classification is the written matrix-unit proof, not numerical extrapolation.",
+            "Root reports 33 controls, 512 cyclic triples and five Lean cores passed; this reviewer did not independently execute them."
+          ],
+          "not_run": [
+            "Probe or certificate regeneration/replay",
+            "Lean compilation",
+            "Native matrix assembly, Hom census or heavy computation",
+            "Repository writes or verdict changes"
+          ]
+        }
+      },
+      {
+        "role": "independent hostile reviewer",
+        "receipt_sha256": "b1c8b47ee7dc2dfb137d53c1bb289f1d1e012186d66973782d0d334536386265",
+        "receipt": {
+          "schema": "independent_mathematical_hostile_review_v1",
+          "date": "2026-11-27",
+          "reviewer": "/root/falsification_rerank",
+          "role": "independent hostile T1 mathematical and source-scope review",
+          "worktree": "/private/tmp/gu-full-shiab-consistency-wt-20261127",
+          "basis_revision": "16385d64fec9b275b44758b677b713d75ebc4a61",
+          "accepted": true,
+          "verdict": "PASS for both declared fixed-linear full-U class theorems",
+          "blocking_issues": [],
+          "requested_corrections": [],
+          "bindings": {
+            "explorations/conditional-build/full-shiab-variational-consistency-2026-11-27.md": "eb526d843ee51d7b381166884cab0c33c7ff2956f468844bb4bd8dcce153f436",
+            "tests/program-focus/full_shiab_consistency_probe.py": "db6587eadd2524d3377a85b119c3af5628e1d7e57ac0a3cd94ac633c50beb1f1",
+            "lab/process/full-shiab-consistency-certificates.json": "a279b8afec2df41da4b6ea06309435c8f89199239b371def38e54d309237275c",
+            "Lean/GUFormalization/FullShiabConsistency.lean": "a2c0c0ac7123b6c73c12e58f0f6c046b97f10aa9cb07b28153690b2b054be604"
+          },
+          "scope": {
+            "premises": "Dimension14, full complex Dirac128 and full real u(H), ordinary matrix curvature and fixed matrix connection B, pointwise fixed real-linear full-Spin-equivariant S, nondegenerate trace/top-form pairing, all primitive translations with geometry/density/dressing held, and the two separately asserted universal matched variation identities.",
+            "cubic_only": "The own one-third cubic and unit quadratic endpoint force S to annihilate Lambda2 tensor sl128; central-input maps are not eliminated by the cubic alone.",
+            "cubic_and_quadratic": "Adding the own one-half quadratic and unit linear endpoint forces S=0 on the entire curvature input.",
+            "source_ceiling": "Conditional architecture exclusion. Displayed Phi grammar supplies the symmetry premise, but the final selected nonzero instantiation, action-pairing/curvature normalization and necessity for every broader source realization remain unadjudicated. No source-wide, class-C-empty or GU verdict."
+          },
+          "challenges": [
+            {
+              "id": "coefficient_and_Hessian_signs",
+              "status": "PASS",
+              "finding": "The omega_i dual convention fixes exterior signs. DF_T b=sum_jk K_i^{jk}[T_j,b_k] has no extra factor2 on distinct one-slot inputs. The cubic endpoint gives symmetric Hessian; repeated external indices vanish and the distinct-slot cyclic trace identities have positive cyclic signs."
+            },
+            {
+              "id": "central_outputs",
+              "status": "PASS",
+              "finding": "Central translations have DF_T z=0. Hessian symmetry and DF_T T=2F(T) force the trace of every output on every commutator input to vanish. This uses the full-U central translations rather than silently projecting to sl."
+            },
+            {
+              "id": "three_maps_and_quasicentroid",
+              "status": "PASS",
+              "finding": "Trace adjoints give the stated three cyclic bracket relations. Swapping variables and using centerlessness forces D=E=F. The direct regular-Cartan/matrix-unit argument then proves D=c Id for sl_N, N>=3. The root relation and all Cartan remainders are correctly eliminated; no sl3 numerical extrapolation is used."
+            },
+            {
+              "id": "Spin_parity",
+              "status": "PASS",
+              "finding": "The residual external alternating three-tensor is odd under complex -Id, while internal Id_sl is conjugation-invariant. Connected complex Spin supplies its lift after infinitesimal complexification. This does not assume real -Id belongs to every real identity component."
+            },
+            {
+              "id": "quadratic_direct_mixed_proof",
+              "status": "PASS",
+              "finding": "For traceless base T and central variation b=a Id, d_B preserves trace and the cubic result kills S(d_B T). The matched quadratic identity forces integral<T,S(da Id)>=0 for arbitrary compact traceless T. The fundamental lemma makes the output central. Arbitrary local da jets span central curvature inputs, and Spin parity then kills the central-to-central map."
+            },
+            {
+              "id": "variable_coefficients_and_formal_adjoint",
+              "status": "PASS",
+              "finding": "The direct mixed proof needs no integration by parts. The equivalent weak formal-adjoint proof includes all density/coefficient derivatives and keeps one-form first in both wedge pairings. It is not a transpose of a finite matrix. Smooth fixed coefficients, nonvanishing density and arbitrary fixed ordinary B do not evade either argument."
+            },
+            {
+              "id": "polynomial_degrees_and_independent_fields",
+              "status": "PASS",
+              "finding": "Reference, quadratic and cubic terms have Euler degrees0,1,2. The matched symmetric mass term cancels separately; its central/traceless cross pairing is zero. Independent matter can be set to zero, and other independent field equations cannot repair an incorrect primitive-T variation with their fields held."
+            },
+            {
+              "id": "corrected_quadratic_fixture",
+              "status": "PASS",
+              "finding": "The final fixture has central base T_1=(t-t^2)Id and traceless variation b_0=(t^2-t^3)H1. Integral g f_prime=-1/60 and tr(H1^2)=2 give mixed/unit endpoint=-1/30 and action derivative=-1/60. The reverse pairing is zero. These are boundary-vanishing polynomial calibration fields; the independent principal-jet test is explicitly separate."
+            },
+            {
+              "id": "positive_controls",
+              "status": "PASS",
+              "finding": "The alternating external tensor is a genuine non-Spin cubic and mixed quadratic positive control. The central-input noncentral-output fixture survives the cubic alone. Both prevent overclaiming either that the cubic already makes S=0 or that equivariance is unnecessary."
+            },
+            {
+              "id": "displayed_source_equivariance",
+              "status": "PASS",
+              "finding": "Primary draft Definition8.1/equation8.7 on printedp42 explicitly defines the Phi tensors in Spin(7,7)-invariant subspaces. Equation9.3 uses their equivariant wedge/Hodge and coefficient operations. Every well-typed displayed product choice is an intertwiner at epsilon=1; common fixed epsilon conjugation transports its coefficient Spin representation. The final report correctly distinguishes this from covariance with an extra held symmetry-breaking tensor."
+            },
+            {
+              "id": "finite_Lean_scope",
+              "status": "PASS",
+              "finding": "Five Lean statements cover three-map collapse, odd parity, central matrix tests, the mixed factor and central/traceless spanning. Their separation, decomposition and test premises are explicit. Universal matrix-unit classification, smooth variation/jet arguments and source interpretation remain independently reviewed written mathematics."
+            }
+          ],
+          "certificate_read_checks": {
+            "all_four_frozen_hashes_match": true,
+            "probe_hash_matches_certificate": true,
+            "all_six_dependency_hashes_match": true,
+            "declared_grouped_checks": 33,
+            "stored_grouped_checks": 33,
+            "all_stored_checks_true": true,
+            "stored_cyclic_basis_triples": 512,
+            "quadratic_action_derivative": "-1/60",
+            "quadratic_unit_endpoint": "-1/30"
+          },
+          "dependency_only_sha256": {
+            "explorations/conditional-build/riemann-realform-transfer-2026-11-27.md": "39f6ad6678ac9524f1ab68a24e65ab3a577003c6ef500344b5bf84445366b222",
+            "explorations/conditional-build/source-action-riemann-silence-2026-11-27.md": "55eb23aa1b272fea90b62eaa3e225b8cad32c5999c086f82a1d36549cfb16a28",
+            "lab/process/riemann-realform-transfer-certificates.json": "fd1fb9cbd30d349e6c9e78c25fbe94d4fb56a62df544bc53318375b982d99e28",
+            "lab/sources/source-claim-register.yaml": "dc3ae173b4cc0eb2a0e343e3d92d5f110b8e4f6eef3e2852a1e897ab4371ade6",
+            "lab/sources/weinstein-gu-primary-source-pack-2026-07-30.md": "7b37925b0342c9495dc1706a39c0f2e9569e64a1352a3221814a2b0c9b9c2999",
+            "tests/program-focus/riemann_realform_transfer_probe.py": "3fd7e28bdfb35e815794fa82b4f2c6939252c94250eaf62ab8b2bd0706e331e2"
+          },
+          "reused_independent_feasibility_review": "/private/tmp/gu-commutator-class-hostile-feasibility-20261127.md",
+          "primary_source_checked": {
+            "url": "https://geometricunity.nyc3.digitaloceanspaces.com/Geometric_Unity-Draft-April-1st-2021.pdf#page=42",
+            "loci": [
+              "Definition8.1/equation8.7, printedp42",
+              "Equation9.3, printedp43"
+            ],
+            "finding": "Displayed invariant-Phi grammar supports fixed-fibre Spin equivariance; no native nonzero source operator or normalization match is certified by this source check."
+          },
+          "caveats": [
+            "No probe execution, Lean compilation, native construction, census or heavy job by this reviewer. Owner reports33 grouped controls/512 trace triples/64 residual identities and five Lean cores passed.",
+            "This receipt verifies stored records, exact hashes, concrete control mathematics and proof scope; it does not claim independently rerun tests.",
+            "The small sl3 fixtures calibrate signs and failure mechanisms; the written argument supplies the universal sl128 result.",
+            "Optional Sp/restricted tangents, extra symmetry-breaking fixed tensors, derivative-valued or genuinely moving S, extra unmatched terms and merely on-shell equivalence change the hypotheses.",
+            "Existing W2 solutions solve its actual symmetrized Euler map and are not invalidated by a theorem whose matched endpoint premise W2 fails.",
+            "Final nonzero source instantiation and action-pairing/curvature normalization remain the next separate bridge; no physical equation, state selection or GU falsification is inferred.",
+            "Scratch receipt only; no repository or governance edit."
+          ]
+        }
+      }
+    ],
+    "gates": {
+      "program_focus_audit": "PASS",
+      "typed_carrier_declaration_audit": "PASS",
+      "kill_target_claim_audit": "PASS",
+      "frontmatter_status_schema_audit": "PASS",
+      "source_native_comparator_routing_audit": "PASS",
+      "lean_certificate_surface_audit": "PASS",
+      "current_state_absolute_currency_audit": "PASS"
+    },
+    "repair_history": "Root caught reversed base/variation labels in the quadratic fixture before replay; corrected to base Tcentral and variation btraceless. Numbers unchanged, certificate regenerated and final artifacts reviewed. No universal theorem correction."
+  },
+  "effect_line": "Change: replace operator-by-operator tests with a whole-class variational consistency theorem. Why: Hessian symmetry and the center/derived split decide all coefficients at once. Authority: Joe27(c). Applied: research evidence and covered-successor removal. Effect: full fixed-linear matched-map search consumed; longer-term cost savings unmeasured."
+}

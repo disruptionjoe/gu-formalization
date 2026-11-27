@@ -2735,12 +2735,12 @@
     ],
     "actual_delta": "The horizontal theta0 gamma05 endpoint coefficient is (183/8)h^3+O(h^4). Every sufficiently small nonzero-h member of the owned W2 stationary branch violates the separately printed endpoint, including literal raised observation.",
     "next": {
-      "status": "ordinary_LC_slot_due_after_this_wave",
+      "status": "consumed_LC_and_following_full_shiab_wave",
       "target": "LC-BETS",
       "mandatory_basis": "Counter91 has remainder3 under unchanged run_selection. Active BET-2PLUS1 and BET-COSMOLOGY each have21runs left, BET-MASS-GAP20; inspect current ready uncovered discriminators and tie-break by source relevance/cost.",
       "science_boundary": "Preserve all-stationary compact PS torus full-gap exclusion; do not rebuild that category. Do not repeat same W2 branch endpoint coefficients after this nonzero term.",
       "post_LC_reserve": {
-        "status": "unadmitted_bounded_feasibility_only",
+        "status": "consumed_by_full_shiab_class_theorem",
         "target": "LB-CLASS",
         "question": "Does the existing fixed-linear full-U unit-cubic identity force S to vanish on all commutator curvature, beyond the already-excluded algebraic Riemann restriction?",
         "hypothesis": "Possible cyclic-trace/centroid classification using full independent matrix translations and the existing equivariant Hom family. This is a proposed discriminator, not a theorem or a claim of source necessity.",
@@ -2749,9 +2749,45 @@
           "A surviving operator identifies exact scope; no automatic source repair.",
           "If covered, too costly, or dependent on unowned data, reuse/pivot; no full census."
         ],
-        "strongest_alternative": "Homogeneous finite-normalization composition remains unexecuted with conditional source necessity; physical-domain O06 lacks owned variable-boson graph derivative."
-      }
+        "strongest_alternative": "Homogeneous finite-normalization composition remains unexecuted with conditional source necessity; physical-domain O06 lacks owned variable-boson graph derivative.",
+        "consumed_evidence": "lab/process/full-shiab-consistency.json"
+      },
+      "prior_status": "ordinary_LC_slot_due_after_this_wave",
+      "consumed_evidence": [
+        "lab/process/bet-cosmology-conservation-descent.json",
+        "lab/process/full-shiab-consistency.json"
+      ]
     },
     "source_ceiling": "Source selection of W2 dictionary and physical state admission."
+  },
+  "full_shiab_consistency_2026_11_27": {
+    "actual_delta": "The cubic/unit-endpoint identity kills every traceless curvature input. Adding the quadratic/unit-linear identity kills the remaining central-input map, so S=0 throughout the declared architecture.",
+    "evidence": [
+      "explorations/conditional-build/full-shiab-variational-consistency-2026-11-27.md",
+      "lab/process/full-shiab-consistency.json"
+    ],
+    "next": {
+      "status": "ready_bounded_source_instantiation_audit",
+      "target": "LB-CLASS",
+      "question": "Does the existing nonzero displayed Shiab certificate use exactly the printed action pairing and curvature/bracket normalization, so the architecture contradiction applies to that formula without an unproved adapter?",
+      "reuse_first": "Use owned invariant-Phi/source prescription and B2/B3 product/normalization certificates. Full fixed-fibre symmetry is supplied for the displayed tree; do not rediscover it or repeat the product census.",
+      "outcomes": [
+        "Matching nonzero instantiation established: assess the exact source-formula contradiction under ordinary T1/source-claim review; no automatic globalGU verdict.",
+        "A pairing or normalization mismatch remains: name it and test the smallest necessary adapter or show it changes the claimed formula.",
+        "The retained source formula is zero: record the exact failure of its claimed nonzero role, without inventing a replacement."
+      ],
+      "remaining_cost": "One bounded source/representation audit; estimates are judgments, not guaranteed proof.",
+      "strongest_alternative": "Homogeneous finite-normalization composition, retaining its unproved physical normalization necessity.",
+      "consumed": "Searching another fixed-linear full-U/fullSpin map with both matched endpoints, including non-Riemann/central coefficient tuning.",
+      "consumed_symmetry_question": {
+        "status": "resolved_for_displayed_grammar",
+        "evidence": "explorations/conditional-build/full-shiab-variational-consistency-2026-11-27.md#10-source-relevance-and-the-remaining-bridge",
+        "result": "Supplied for the displayed grammar by draft Definition8.1/eq8.7 p42 and eq9.3 p43: invariant Phi, Hodge/wedge and equivariant products; common epsilon conjugation transports Spin. Extra transformed tensors are a general outside-class possibility, not an unresolved item in this tree."
+      }
+    },
+    "source_bridge": {
+      "status": "conditional",
+      "reason": "The source prints the coefficients, unit endpoint and full fixed-epsilon translation slice. Its displayed invariant-Phi grammar supplies Spin equivariance, but final nonzero instantiation and action-pairing/curvature normalization are not adjudicated here; broader formulas and merely on-shell equivalence remain separate."
+    }
   }
 }

@@ -1,0 +1,109 @@
+{
+  "check_count": 33,
+  "checks": {
+    "all512_basis_cyclic_trace_identities": true,
+    "alternating_external_cubic_nonzero": true,
+    "alternating_external_exact_cubic_endpoint": true,
+    "alternating_external_quadratic_positive_control": true,
+    "central_input_map_cubic_survivor": true,
+    "central_input_map_kills_all_brackets": true,
+    "central_input_noncentral_map_nonzero": true,
+    "central_input_output_parity_opposite": true,
+    "central_output_on_commutator_detected": true,
+    "central_output_trace_test_rank8": true,
+    "central_translation_DF_zero": true,
+    "commutators_span_sl3": true,
+    "cyclic_Hessian_positive_sign": true,
+    "cyclic_Hessian_sign_mutant_rejected": true,
+    "derivation_noncentroid_rejected": true,
+    "derivative_jet_central_input": true,
+    "dimension14_minusId_special_orthogonal": true,
+    "external3_parity_odd": true,
+    "identity_is_only_fixture_central_kernel": true,
+    "integration_by_parts_minus_sign_required": true,
+    "ordered_DF_has_no_extra_factor2": true,
+    "quadratic_endpoint_Euler_homogeneity": true,
+    "quadratic_half_derivative_not_unit_endpoint": true,
+    "quadratic_mixed_boundary_zero": true,
+    "quadratic_mixed_pair_exact": true,
+    "repeated_external_label_detected": true,
+    "reverse_quadratic_mixed_pair_zero": true,
+    "scalar_quasicentroid_positive": true,
+    "sl3_centerlessness": true,
+    "sl3_trace_form_nondegenerate": true,
+    "three_cyclic_residual_identities": true,
+    "transpose_noncentroid_rejected": true,
+    "unequal_cyclic_maps_rejected": true
+  },
+  "conventions": {
+    "cubic": "I3=(1/3)sum_i tr(T_i F_i); target derivative is unit F",
+    "curvature": "F_i=sum_(j<k) K_i^{jk}[T_j,T_k]",
+    "exterior": "e^a wedge omega_i=delta_ai vol; K_i^{kj}=-K_i^{jk}",
+    "field": "rational controls inside complexified gl3; universal carrier is separately full gl128",
+    "linear": "I2=(1/2)<T,S D_B T>; mixed control uses flat d and boundary-vanishing fields",
+    "pairing": "complex-bilinear trace, no Hermitian conjugation",
+    "three_slot_embedding": "Use external slots0,1,2 in dimension14, other slots zero; the alternating tensor is explicitly not Spin invariant."
+  },
+  "data_only": true,
+  "dependency_only_sha256": {
+    "explorations/conditional-build/riemann-realform-transfer-2026-11-27.md": "39f6ad6678ac9524f1ab68a24e65ab3a577003c6ef500344b5bf84445366b222",
+    "explorations/conditional-build/source-action-riemann-silence-2026-11-27.md": "55eb23aa1b272fea90b62eaa3e225b8cad32c5999c086f82a1d36549cfb16a28",
+    "lab/process/riemann-realform-transfer-certificates.json": "fd1fb9cbd30d349e6c9e78c25fbe94d4fb56a62df544bc53318375b982d99e28",
+    "lab/sources/source-claim-register.yaml": "dc3ae173b4cc0eb2a0e343e3d92d5f110b8e4f6eef3e2852a1e897ab4371ade6",
+    "lab/sources/weinstein-gu-primary-source-pack-2026-07-30.md": "7b37925b0342c9495dc1706a39c0f2e9569e64a1352a3221814a2b0c9b9c2999",
+    "tests/program-focus/riemann_realform_transfer_probe.py": "3fd7e28bdfb35e815794fa82b4f2c6939252c94250eaf62ab8b2bd0706e331e2"
+  },
+  "dependency_policy": "Prior source and real-form results are authenticated dependencies; no old numerical certificate or Hom census is replayed.",
+  "finite_algebra": {
+    "centerlessness_rank": 8,
+    "central_output_bad_cubic_derivative": "1",
+    "central_output_bad_endpoint": "3",
+    "commutator_span_rank": 8,
+    "cyclic_Hessian_sides": [
+      "1",
+      "1"
+    ],
+    "cyclic_basis_triples": 512,
+    "external_alternating_cubic_value": "1",
+    "repeated_label_pair": "1",
+    "sl3_dimension": 8,
+    "trace_Gram_rank": 8
+  },
+  "not_run": [
+    "Full Dirac matrices",
+    "Hom/character census",
+    "Old witness or root replay",
+    "Lean compilation"
+  ],
+  "probe_sha256": "db6587eadd2524d3377a85b119c3af5628e1d7e57ac0a3cd94ac633c50beb1f1",
+  "quadratic_mixed_control": {
+    "central_base_field": "T_1(t)=(t-t^2)Id",
+    "half_action_derivative": "-1/60",
+    "independent_principal_jet": "Central base T(p)=0, (dT)_01(p)=Id; traceless variation b_0(p)=H1 detects the output by tr(H1^2)=2. This jet test is separate from the boundary-vanishing integral fixture.",
+    "interval": [
+      "0",
+      "1"
+    ],
+    "meaning": "Cubic consistency alone has nonzero central-input survivors; the same quadratic/unit-linear premise excludes noncentral output on those inputs.",
+    "mixed_pair": "-1/30",
+    "nonzero_cubic_survivor": "K_0^{01}(Z)=tr(Z)H1/3, H1=diag(1,-1,0)",
+    "reverse_pair": "0",
+    "traceless_variation": "b_0(t)=(t^2-t^3)H1",
+    "unit_endpoint": "-1/30"
+  },
+  "schema": "gu-full-shiab-consistency-certificate-v1",
+  "scope_limits": [
+    "No source uniqueness or GU-wide verdict",
+    "No derivative-valued or moving S theorem",
+    "Restricted tangents, changed endpoints and extra equivariance-breaking tensors are different hypotheses",
+    "No full action/operator/domain construction or physical stress conclusion"
+  ],
+  "timing_policy": "Runtime and certificate byte count appear only in ephemeral receipts.",
+  "without_Spin_positive_control": {
+    "cubic_endpoint": true,
+    "map": "K_i^{jk}=epsilon_ijk Id on slots0,1,2",
+    "quadratic_endpoint_mixed_control": true,
+    "reason_not_counterexample": "Its fixed nonzero alternating external3-tensor changes sign under -Id; it is not Spin14 equivariant."
+  },
+  "written_claim": "Under fixed pointwise real-linear Spin-equivariant S, full-U/full-Dirac translations and the same cubic/linear unit endpoints from the one-third/one-half action terms, S vanishes. Universal quasicentroid classification, arbitrary-metric jets, real-form transport and source applicability are written/reviewed, not established by sl3 fixtures."
+}

@@ -258,3 +258,7 @@ replacement for `lake build` or targeted standalone Lean checks.
 ## 2026-11-27 — Conservation descent finite cores
 
 `GUFormalization/ConservationDescent.lean`: **LEAN-VERIFIED**, four finite lemmas: normal-jet compensation, surjective consequence equivalence, vanishing free-jet coefficient row and flat superpotential divergence. Targeted single-thread compilation passed with one style linter warning about unnecessary tactic sequencing and no placeholders. Smooth Gaussian/ODE extension, bundle geometry and source/physical applicability remain separately reviewed written mathematics; no full-PDE or whole-project verification claim. [Result](../explorations/conditional-build/bet-cosmology-conservation-descent-2026-11-27.md).
+
+## 2026-11-27 — Full Shiab consistency finite cores
+
+`GUFormalization/FullShiabConsistency.lean`: **LEAN-VERIFIED**, five finite lemmas: three cyclic maps collapse, odd scalar parity, central-matrix tests, mixed quadratic factor and central/traceless spanning. Targeted single-thread compilation passed without output or placeholders. Universal matrix-unit classification, compact variational argument, Spin/real-form and source identification remain separately reviewed written inputs; no full-project or source formalization claim. [Result](../explorations/conditional-build/full-shiab-variational-consistency-2026-11-27.md).
