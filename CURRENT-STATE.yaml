@@ -1,7 +1,7 @@
 schema_version: '1.0'
 repository: observerse-research-program
 branch: main
-revision_basis: fc89c976e6c7cafcd4acb277370dfef4518ea9aa
+revision_basis: 4578af6d992be339395cf3d7e97eca8bd03689d6
 program_focus:
   version: 2026-11-25-v1
   authority: joe_direct_chat_2026_11_25_five_process_improvements_approved
@@ -140,6 +140,78 @@ program_focus:
     covered; source relevance separately from mathematical breadth; shared prerequisite if any; remaining
     cost; strongest eligible alternative. A blocked high-value target is not an eligible alternative without
     its missing input. Reuse completed theorems and compare only their uncovered successors.'
+source_action_q7_propagation_2026_11_26:
+  authority: joe_direct_chat_2026_11_26_continued_falsification_math20
+  basis_revision: 4578af6d992be339395cf3d7e97eca8bd03689d6
+  status: internal_T1_scoped_connection_dynamic_class
+  actual_delta: At both kappa1 roots, every nonzero fixed SO3 submodule of the two-copy Q7 fails freely
+    initialized autonomous connection-range evolution. An SO3-invariant connection subsystem containing
+    Q and closed under this principal flow needs at least four spin7 copies/60 real coefficient dimensions.
+    No physical ghost, W2 or GU exclusion.
+  evidence:
+  - explorations/conditional-build/source-action-q7-propagation-2026-11-26.md
+  - lab/process/source-action-q7-propagation.json
+  - lab/process/source-action-q7-propagation-certificates.json
+  - lab/process/hostile-reviews/2026-11-26-source-action-q7-propagation-review.md
+  - Lean/GUFormalization/Q7Propagation.lean
+  source_bridge:
+    status: conditional
+    weakest_unproved_link: Q and W2 are not source-required physical sectors; physical domain/quotient/readout
+      and nonlinear or changed-background completion remain open
+    source_necessary_exclusion: absent
+    class_C_representativeness: unchanged/unproved
+  continuation:
+  - id: matched_connection_constraint_propagation
+    status: ready
+    target: LB-CLASS
+    tier: T2
+    task: Evaluate the fully matched next Dirac consistency source D G(Bv+En)-D_t v-M_t n for actual constrained
+      data, retaining all auxiliary-kernel multipliers and induced frame/projector terms. Use the owned
+      P Kxi G Kxi P=0 cancellation before new calculation.
+    expected_delta: Determine an actual additional constraint or propagated admissibility condition on
+      the required coupled range data, rather than optional inverse coverage
+    class_covered: Autonomous imaginary-connection W2/K95 block at both real zero-matter roots; coupled
+      range data required by Q flow, not a physical cohomology claim.
+    source_bridge: Candidate-only; source necessity/physical admission still unproved
+    remaining_cost: Matched operator/source identities on certified channels; no automatic four-copy completion
+      or wholeM inverse
+    kill_condition: Only a genuine inconsistent required-data constraint excludes the named dynamical
+      class. Additional constraints or missing certificate alone do not exclude W2.
+  - id: physical_weak_readout
+    status: blocked_on_authentic_admission_and_normalization
+    target: LB-CLASS
+    tier: T2
+    task: Transport the local constrained response to a source-admitted physical observable
+    expected_delta: Actual observable consequence rather than unnormalized local coefficient
+    revival_input: Authenticated common physical domain/quotient, normalized readout and propagation law
+    kill_condition: OldA01 transfer remains inapplicable; inventing a new norm, cutoff or physical completion
+      is not an answer
+  - id: actual_firstjet_source_dual_screen
+    status: deferred_optional_lift_without_necessary_dynamical_bridge
+    target: LB-CLASS
+    tier: T2
+    task: Retain15-dimensional uncovered firstjet quotient as optional fullR-lift evidence; use only with
+      the stated necessary bridge.
+    expected_delta: A certified incompatibility or a reusable source-range certificate on an actual uncovered
+      channel
+    class_covered: Held W2/K95 two root boxes and generated firstjets along two Q7 modules, not allR or
+      classC
+    source_bridge: Conditional candidate test; W2/fullR necessity and physical admission absent
+    remaining_cost: One exact source/dual discriminator with complete native residual checks; prior receivers
+      and completed source census reused
+    kill_condition: A true native cokernel excludes that inverse extension or a named jet, not W2 equations
+      or GU by itself.
+    revival_input: An actual necessary R jet/field or admitted physical-domain requirement tying unrestricted
+      auxiliary extension to a decision. The valid census alone does not supply it.
+  consumed:
+  - 'Actual Q principal-isolation test: reviewed result and Lean algebra above'
+  - 'Optional full-R inverse is not an unconditional falsification test: scope corrected above'
+  accounting: "Directed 71 \u2192 72 / LB-CLASS 30 \u2192 31; choice budget and scientific shrinkage unchanged"
+  priority_control_effect: Factual reranking from optional full-R inverse to actual matched constraint
+    propagation; program_focus and schedules unchanged. Nov26(g) suites remain proposal-only.
+  coupled_quadratic_autonomy: Owned conjugation block diagonality at both real zero-matter roots excludes
+    cancellation by linear metric, real-connection or matter perturbations; nonlinear and physical quotient
+    questions remain open.
 source_action_firstjet_source_census_2026_11_26:
   authority: joe_direct_chat_2026_11_26_continued_falsification_math20
   basis_revision: fc89c976e6c7cafcd4acb277370dfef4518ea9aa
@@ -160,7 +232,7 @@ source_action_firstjet_source_census_2026_11_26:
     class_C_representativeness: unchanged/unproved
   continuation:
   - id: actual_firstjet_source_dual_screen
-    status: ready
+    status: deferred_optional_lift_without_necessary_dynamical_bridge
     target: LB-CLASS
     tier: T2
     task: Use the exact15-dimensional uncovered source quotient to seek a true native adjoint-cokernel
@@ -190,6 +262,8 @@ source_action_firstjet_source_census_2026_11_26:
   accounting: Directed70to71/LBCLASS29to30; choices and scientific shrinkage unchanged
   priority_control_effect: Factual candidate handoff compressed to exact source quotient; program_focus/schedules
     unchanged. Nov26g counterfactual tests remain proposal-only.
+  continuation_superseded_by: 'source_action_q7_propagation_2026_11_26: source census retained; optional
+    lift deferred until a necessary dynamical bridge'
 source_action_spin4_compatibility_2026_11_26:
   authority: joe_direct_chat_2026_11_26_continued_falsification_math20_and_optimization
   basis_revision: 3e8fa792e93e8a58e804364c842080a7e6c72810

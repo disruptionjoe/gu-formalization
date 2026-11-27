@@ -530,3 +530,7 @@ bicategory, ambidexterity or Mackey 2-functor is inferred.
 - Status: LEAN-VERIFIED; ten finite lemmas, targeted `lake env lean` PASS with no placeholders.
 - Validated statement boundary: coefficient reality versus sharp-skew incompatibility, injective factor10 contraction and arithmetic only. Actual Clifford/representation completeness, local analytic proof and source necessity are not formalized. Two independent normal-class mathematical reviewers and hostile source review; separate independent auxiliary review.
 - Owner: `explorations/conditional-build/source-normal-tensor-class-2026-11-26.md`; reproducibility: `tests/program-focus/source_normal_tensor_class_probe.py`. No physical-ledger verdict or entire-project build claim.
+
+## Q7 propagation finite core (2026-11-26)
+
+`Lean/GUFormalization/Q7Propagation.lean`: **LEAN-VERIFIED**, six finite lemmas for Hermitian nondegeneracy, two-row injectivity and kernel-independent source tests, with an indefinite null-vector countercontrol. Targeted compilation passed without proof placeholders; default import registered. Native parity, source binding, root boxes, quadratic autonomy and PDE/representation reasoning are separately validated, not formalized by this module. [Result](../../explorations/conditional-build/source-action-q7-propagation-2026-11-26.md).

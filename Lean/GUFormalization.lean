@@ -90,3 +90,5 @@ import GUFormalization.CovariantJetAmbiguity
 import GUFormalization.PetrovProbability
 
 import GUFormalization.NormalTensorClass
+
+import GUFormalization.Q7Propagation

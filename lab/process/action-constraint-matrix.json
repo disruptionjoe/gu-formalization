@@ -1788,7 +1788,7 @@
     },
     "LB-CLASS": {
       "zero_delta_streak": 0,
-      "runs": 30,
+      "runs": 31,
       "status": "open"
     },
     "LB-LADDER": {
@@ -2707,7 +2707,7 @@
   ],
   "program_run_counter": {
     "since": "2026-11-09",
-    "count": 71,
+    "count": 72,
     "rule": "Every hourly run increments this in its postflight, whatever its lane. Lane C runs when count % 4 == 3 before the increment."
   },
   "working_rule": "Cells are worked at the structure level: a requirement must hold for every action in class C or for a structurally defined subfamily. No cell is worked by writing down a specific action, and no gated cell is worked by building its gate object. See CURRENT-STATE.yaml program_focus.structure_not_specifics.",
@@ -3197,6 +3197,21 @@
         "lab/process/source-action-firstjet-source-census.json"
       ],
       "claim_effect": "No source/physics/canon/classC/scientific-matrix/paper verdict change"
+    },
+    {
+      "date": "2026-11-26",
+      "authority": "joe_direct_chat_2026_11_26_continued_falsification_math20",
+      "item": "ActualQ7principalevolutionandsource-necessityreroute",
+      "tier": "T1_scoped_connection_dynamic_class",
+      "counter_before": 71,
+      "counter_after": 72,
+      "lane": "LB-CLASS",
+      "actual_delta": "At both kappa1 roots, every nonzero fixed SO3 submodule of the two-copy Q7 fails freely initialized autonomous connection-range evolution. An SO3-invariant connection subsystem containing Q and closed under this principal flow needs at least four spin7 copies/60 real coefficient dimensions. No physical ghost, W2 or GU exclusion.",
+      "evidence": [
+        "explorations/conditional-build/source-action-q7-propagation-2026-11-26.md",
+        "lab/process/source-action-q7-propagation.json"
+      ],
+      "claim_effect": "No source/physics/canon/classC/scientific-matrix/paper verdict change"
     }
   ],
   "directed_lc_carry_2026_11_24_b": {
@@ -3543,7 +3558,9 @@
           "explorations/conditional-build/source-action-spin4-compatibility-2026-11-26.md",
           "lab/process/source-action-spin4-compatibility.json",
           "explorations/conditional-build/source-action-firstjet-source-census-2026-11-26.md",
-          "lab/process/source-action-firstjet-source-census.json"
+          "lab/process/source-action-firstjet-source-census.json",
+          "explorations/conditional-build/source-action-q7-propagation-2026-11-26.md",
+          "lab/process/source-action-q7-propagation.json"
         ],
         "choices": "Historical original choices are retained below; current held fermion repair is SE=-1/2 (SE0 superseded), kappa1 with two unselected roots. Typed candidate_choice_budget separates core/completion/pending/comparator/parked choices.",
         "wave2_update": {
@@ -4060,7 +4077,7 @@
           "next": [
             {
               "id": "actual_firstjet_source_dual_screen",
-              "status": "ready",
+              "status": "deferred_optional_lift_without_necessary_dynamical_bridge",
               "target": "LB-CLASS",
               "tier": "T2",
               "task": "Use the exact15-dimensional uncovered source quotient to seek a true native adjoint-cokernel pairing or a proved existing-receiver intertwiner, beginning with the sparse56-term spin5 source; only then justify any new inverse.",
@@ -4081,7 +4098,73 @@
               "kill_condition": "OldA01 transfer remains inapplicable; inventing a new norm, cutoff or physical completion is not an answer"
             }
           ],
-          "choice_budget_delta": 0
+          "choice_budget_delta": 0,
+          "continuation_superseded_by": "source-action-q7-propagation.json: actual matched constraint propagation; prior source census remains valid"
+        },
+        "q7_propagation_followthrough": {
+          "state": "At both kappa1 roots, every nonzero fixed SO3 submodule of the two-copy Q7 fails freely initialized autonomous connection-range evolution. An SO3-invariant connection subsystem containing Q and closed under this principal flow needs at least four spin7 copies/60 real coefficient dimensions. No physical ghost, W2 or GU exclusion.",
+          "source_status": "Candidateconnectiononly; Q/sourcephysicalnecessityabsent",
+          "next": [
+            {
+              "id": "matched_connection_constraint_propagation",
+              "status": "ready",
+              "target": "LB-CLASS",
+              "tier": "T2",
+              "task": "Evaluate the fully matched next Dirac consistency source D G(Bv+En)-D_t v-M_t n for actual constrained data, retaining all auxiliary-kernel multipliers and induced frame/projector terms. Use the owned P Kxi G Kxi P=0 cancellation before new calculation.",
+              "expected_delta": "Determine an actual additional constraint or propagated admissibility condition on the required coupled range data, rather than optional inverse coverage",
+              "class_covered": "Autonomous imaginary-connection W2/K95 block at both real zero-matter roots; coupled range data required by Q flow, not a physical cohomology claim.",
+              "source_bridge": "Candidate-only; source necessity/physical admission still unproved",
+              "remaining_cost": "Matched operator/source identities on certified channels; no automatic four-copy completion or wholeM inverse",
+              "kill_condition": "Only a genuine inconsistent required-data constraint excludes the named dynamical class. Additional constraints or missing certificate alone do not exclude W2."
+            },
+            {
+              "id": "physical_weak_readout",
+              "status": "blocked_on_authentic_admission_and_normalization",
+              "target": "LB-CLASS",
+              "tier": "T2",
+              "task": "Transport the local constrained response to a source-admitted physical observable",
+              "expected_delta": "Actual observable consequence rather than unnormalized local coefficient",
+              "revival_input": "Authenticated common physical domain/quotient, normalized readout and propagation law",
+              "kill_condition": "OldA01 transfer remains inapplicable; inventing a new norm, cutoff or physical completion is not an answer"
+            },
+            {
+              "id": "actual_firstjet_source_dual_screen",
+              "status": "deferred_optional_lift_without_necessary_dynamical_bridge",
+              "target": "LB-CLASS",
+              "tier": "T2",
+              "task": "Retain15-dimensional uncovered firstjet quotient as optional fullR-lift evidence; use only with the stated necessary bridge.",
+              "expected_delta": "A certified incompatibility or a reusable source-range certificate on an actual uncovered channel",
+              "class_covered": "Held W2/K95 two root boxes and generated firstjets along two Q7 modules, not allR or classC",
+              "source_bridge": "Conditional candidate test; W2/fullR necessity and physical admission absent",
+              "remaining_cost": "One exact source/dual discriminator with complete native residual checks; prior receivers and completed source census reused",
+              "kill_condition": "A true native cokernel excludes that inverse extension or a named jet, not W2 equations or GU by itself.",
+              "revival_input": "An actual necessary R jet/field or admitted physical-domain requirement tying unrestricted auxiliary extension to a decision. The valid census alone does not supply it."
+            }
+          ],
+          "choice_budget_delta": 0,
+          "scope_correction": {
+            "retained": "22-channel firstjet census and15-dimensional quotient remainvalid",
+            "corrected": "FailureofoptionalfullRauxiliaryinverse constrains anextension/jet, notW2 equations; smoothQconstraintfields alreadyexist",
+            "effect": "OptionalfullRdual/inverse testdeferred untilnecessarydynamical/physicalbridge; actualR-flow testcompleted",
+            "governance_change": false
+          },
+          "coupled_quadratic_autonomy": {
+            "status": "ESTABLISHED_by_owned_theorem_reused",
+            "premises": "Real Clifford background T0, real geometry/B/Phi, real metric/reference variations, zero matter; satisfied at both held roots",
+            "consequence": "Metric, real-connection and matter linear perturbations cannot cancel imaginary Q-flow leakage; required extra range directions remain in the imaginary connection block",
+            "not_claimed": "New full Hessian assembly, nonlinear truncation, physical quotient or GU verdict",
+            "evidence": [
+              "explorations/conditional-build/source-action-coupled-ghost-2026-11-25.md",
+              "explorations/conditional-build/source-action-kappa1-constraints-2026-11-25.md",
+              "explorations/conditional-build/source-action-reduced-evolution-2026-11-26.md"
+            ],
+            "sha256": {
+              "explorations/conditional-build/source-action-coupled-ghost-2026-11-25.md": "63d5ddb5fa64a04ee2393d9f2396d6278c82fc7183e55df99d89d609be2b5686",
+              "explorations/conditional-build/source-action-kappa1-constraints-2026-11-25.md": "9099e1f6c0e4790dd82429e381a674db77044c2e62d17bd4999b232fc4f4ce1c",
+              "explorations/conditional-build/source-action-reduced-evolution-2026-11-26.md": "1f8d9afcb6536a9a869bb32c0b740d68df9572b70a272255def9d108712d4387"
+            },
+            "independent_reviews": "Both specialists and separate hostile reviewer confirm applicability"
+          }
         }
       }
     ],

@@ -309,3 +309,15 @@ Optimization at Joe request: resumable exactclosure, reusable integercubic/facto
 Mandatory basis: Joe continued falsification direction. Scope: fixed W2/K95 at both roots, twoQ7 generated firstjets; source necessity absent. Shared physical prerequisites do not block this finite question. Remaining cost: one native exact dual/source test with full residual; strongest source-facing alternative needs authenticated weak-readout data. The census is consumed and should not be recomputed as new progress.
 
 Nov26(g) counterfactual memo is proposal-only; its tests, governance and schedule changes were not executed. Directed70to71/LBCLASS29to30; choice budget10/4/net6 and0 source-selected predictions unchanged.
+
+
+## Current continuation: actual Q7 propagation (2026-11-26)
+
+[Result](../../../explorations/conditional-build/source-action-q7-propagation-2026-11-26.md) · [evidence and review](../source-action-q7-propagation.json).
+
+- **Done, scoped T1:** at both real zero-matter roots the autonomous imaginary-connection equation cannot preserve any nonzero fixed SO3 submodule of Q under freely initialized arbitrary horizontal profiles. Kernel-independent principal coupling forces at least two extra spin7 copies in any SO3-invariant connection subsystem containing Q; the 60-dimensional bound counts imaginary-connection coefficients within the full quadratic system; it is not a physical family/particle count.
+- **Deferred optional lift:** the preceding 15-dimensional full-R source quotient remains valid evidence. A cokernel would constrain a particular inverse extension/allowed jet; neither W2 nor its sources demand unrestricted elimination. Revival needs an actual required dynamical jet or physical-domain bridge. No inverse backlog.
+- **Ready — LB-CLASS/T2:** test the matched next constraint source D G(Bv+En)-D_t v-M_t n, with all kernel multipliers and frame/projector terms. Reuse the cubic-principal cancellation P Kxi G Kxi P=0. Expected delta: actual additional constraint or propagation requirement for the coupled range data. Only inconsistency on required admissible data excludes the named dynamical class; extra constraints or incomplete coverage do not.
+- **Physical bridge remains open:** authentic domain/quotient, normalized readout and propagation are not supplied. Q initial data in larger systems remain possible. Owned quadratic autonomy rules out linear metric/real-connection/matter cancellation of this imaginary-sector leakage; nonlinear/changed-background responses remain outside.
+
+Mandatory basis: Joe continuing falsification; source audit corrects the decision link. Scope: all fixed SO3 submodules of this autonomous imaginary two-copy Q, not source-selected physical states. Shared physical inputs remain absent; the finite result uses owned sources and inverses. Next cost: matched consistency identities, not a guessed four-copy completion. Source-facing weak readout remains a stronger but unready alternative. Directed 71 → 72 / LB-CLASS 30 → 31; choices 10 / obligations 4 / net 6 / 0 selected predictions unchanged. Program policy/schedules unchanged; Nov26g proposals unexecuted.

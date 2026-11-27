@@ -1,0 +1,420 @@
+{
+  "artifact": "source-action-q7-propagation-2026-11-26",
+  "date": "2026-11-26",
+  "authority": "joe_direct_chat_2026_11_26_continued_falsification_math20",
+  "basis_revision": "4578af6d992be339395cf3d7e97eca8bd03689d6",
+  "status": "internal_T1_scoped_connection_dynamic_class_reviewed",
+  "tier": "T1_scoped_connection_dynamic_class",
+  "actual_delta": "At both kappa1 roots, every nonzero fixed SO3 submodule of the two-copy Q7 fails freely initialized autonomous connection-range evolution. An SO3-invariant connection subsystem containing Q and closed under this principal flow needs at least four spin7 copies/60 real coefficient dimensions. No physical ghost, W2 or GU exclusion.",
+  "claim_effect": "No source/physics/canon/classC/scientific-matrix/paper verdict change",
+  "choice_budget_delta": 0,
+  "class_covered": "Autonomous imaginary-connection block of the complete quadratic W2/K95 system at both real zero-matter roots; fixed real SO3 submodules of Q with freely initialized local horizontal profiles and constraint-compatible principal response.",
+  "source_bridge": {
+    "status": "conditional",
+    "weakest_unproved_link": "Q and W2 are not source-required physical sectors; physical domain/quotient/readout, nonlinear or changed-background completion remain open.",
+    "source_necessary_exclusion": "absent",
+    "class_C_representativeness": "unchanged/unproved"
+  },
+  "native_parity": {
+    "seeds": [
+      {
+        "basis_index": 5,
+        "seed_zero_axes": [
+          2,
+          3,
+          4,
+          6
+        ],
+        "seed_degree": 8,
+        "V_terms": 32,
+        "AV_terms": 32,
+        "K0V_terms": 16,
+        "V_clifford_grades": [
+          7
+        ],
+        "AV_clifford_grades": [
+          8
+        ],
+        "range_sha256": "7236fdb46516a6658219f14c461837e7424b64d68ed9d584bd583a36cb86e57b",
+        "weight7_and_highest": true
+      },
+      {
+        "basis_index": 12,
+        "seed_zero_axes": [
+          2,
+          3,
+          6,
+          7
+        ],
+        "seed_degree": 8,
+        "V_terms": 32,
+        "AV_terms": 32,
+        "K0V_terms": 16,
+        "V_clifford_grades": [
+          7
+        ],
+        "AV_clifford_grades": [
+          8
+        ],
+        "range_sha256": "3678e4fb50fe53aada59a3f6e8329a7e4c7df7f208f476ee21a6475ebddf9d1d",
+        "weight7_and_highest": true
+      }
+    ],
+    "canonical_highest_gram": [
+      [
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ]
+      ],
+      [
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ]
+      ]
+    ],
+    "native_Q_highest_gram": [
+      [
+        [
+          "3145728",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ]
+      ],
+      [
+        [
+          "0",
+          "0"
+        ],
+        [
+          "-9437184",
+          "0"
+        ]
+      ]
+    ],
+    "all_SO3_descendants_canonical_isotropic": "Structural Clifford parity proof, not a sampled extrapolation.",
+    "Phi_odd_factor_parity": true,
+    "rotation_even_factor_parity": true
+  },
+  "root_certificates": [
+    {
+      "root": 0,
+      "root_id": "kappa1-root1",
+      "root_radius": "833002305502425831635675927369390931123350752157075022902747720119/3955078124999884528152862797160742322179584117654725628125000000000000000000000000",
+      "diagonals": [
+        {
+          "basis_index": 5,
+          "center": "17698707586795186814976/11920928955078125",
+          "error_bound": "7632624847154526756596032677184279881592279509687203283105908539462336807003752201706580178793309609953390004499433745805869056/1264608273047916392651503184972368888278925930925601293683973388815377226826543846607924261706794890730767252075672149658203125",
+          "lower": "1877524908744990645597744513045913748688458184543124112511919551298162953988495367495596586839642413380780093219991001132508388261888/1264608273047916392651503184972368888278925930925601293683973388815377226826543846607924261706794890730767252075672149658203125",
+          "upper": "157499485238932061680671775951580246184933677626211936715123050203546229452800000000000000000000000000000000000000000/106083030761559358347275408294846934351677042955699464170077286412037839279749603240060063251477132747432400169",
+          "sign": "positive"
+        },
+        {
+          "basis_index": 12,
+          "center": "-47012312864076319162368/11920928955078125",
+          "error_bound": "20274211861450747266654130339481382385498236204314326991821941372450446792826892677110125866202286686277254535142700398138359808/1264608273047916392651503184972368888278925930925601293683973388815377226826543846607924261706794890730767252075672149658203125",
+          "lower": "-418359082982307569214739634305512761291399322619360155462198201121294565990400000000000000000000000000000000000000000/106083030761559358347275408294846934351677042955699464170077286412037839279749603240060063251477132747432400169",
+          "upper": "-4987188357519999456431115789962920963365992565483998864248273811958493192368133096214645779748267595426627445490929714599203723280384/1264608273047916392651503184972368888278925930925601293683973388815377226826543846607924261706794890730767252075672149658203125",
+          "sign": "negative"
+        }
+      ],
+      "determinant_strict_upper_bound": "-9363570365846816761782260153567789331343027404934616644602228929371815957350243283413938975331013899018961518595894664023170371768342407603849022474090936028972110368623879463322654496601909454283547905553289007714353261253592248215599030659832376822020543445204992/1599234084261233462121110647888546973475910401273379037892925161952461165907420491945618261384081784996672779789738907065708167761564267380120145800062088403393192933115850576686190619068988566544727718801288800726642387104448062018491327762603759765625",
+      "cross_entry_assumption": "None beyond native Hermitian reciprocity.",
+      "highest_Q_multiplicity_quotient_rank": 2
+    },
+    {
+      "root": 1,
+      "root_id": "kappa1-root2",
+      "root_radius": "11974179536214065908190212160861717531979021739329889193327923/65917968749997189892442940664361290493889827261993759765625000000000000000000",
+      "diagonals": [
+        {
+          "basis_index": 5,
+          "center": "-39900557686690130558976/11920928955078125",
+          "error_bound": "31328339076805114119708537251689040273211160023188032819290614650949569412791208955400602258179882680349515964218902970368/1199031506753399751517043675660442348866490285754630477585247983857033249902832762981130541182323620013082027435302734375",
+          "lower": "-336660955481433624609448160012892633555934123700009260608156926639491153920000000000000000000000000000000000000/100582052898036231827738847139945919712402313430035792613154319193669799764009021382056155068063693774307",
+          "upper": "-4013248675564736087436118722117274728083600521964503105900343458216231303986174417582089198795483640234639300968071562194059264/1199031506753399751517043675660442348866490285754630477585247983857033249902832762981130541182323620013082027435302734375",
+          "sign": "negative"
+        },
+        {
+          "basis_index": 12,
+          "center": "426512990229114098221056/59604644775390625",
+          "error_bound": "334881123303621820210007894060685250886512115643974580384433893303735883533236917885899571212873476589031695548228940791808/5995157533766998757585218378302211744332451428773152387926239919285166249514163814905652705911618100065410137176513671875",
+          "lower": "42899217263801061090317974136876796574526992028901438422456720106681098582920433526164228200857574253046821936608903542118416384/5995157533766998757585218378302211744332451428773152387926239919285166249514163814905652705911618100065410137176513671875",
+          "upper": "719740671011599357935180113712396303986023717509659227005522881902263189504000000000000000000000000000000000000/100582052898036231827738847139945919712402313430035792613154319193669799764009021382056155068063693774307",
+          "sign": "positive"
+        }
+      ],
+      "determinant_strict_upper_bound": "-172165226866713469995943674833019448455356966105122213691883629905765001936795099939836171877748215277055393085329991780470122023662810565867422624679410000982476145186194145244418875272413029773618267520941868980913908750605755133577815055764692324581376/7188382770936640569653122558878873113199343477188441934456508521638169002502723470410352653260826748492065463341524408059917242444187050593521644816495006981035584146257964933470907840989262192463706251523269230574442190118134021759033203125",
+      "cross_entry_assumption": "None beyond native Hermitian reciprocity.",
+      "highest_Q_multiplicity_quotient_rank": 2
+    }
+  ],
+  "theorem": {
+    "whole_Q_canonical_isotropy": "h(Q,Kdt Q)=0 via Clifford parity, not diagonal skewness alone",
+    "source_form": "F(u,v)=h(PKtheta0 u,y_v), My_v=PKtheta0 v; Hermitian bynative reciprocity",
+    "kernel_independence": "h(PKtheta0 u,k)=h(My_u,k)=h(y_u,Mk)=0 for every fullMkernel correction",
+    "flow_identity": "h(u,Kdt S2(v))=-F(u,v); formal real-derivative S2=G Ktheta0 y_v",
+    "quantifier": "TangencyanywhereinQ forces BOTH F(V5,v) andF(V12,v) tozero; indefinite quadraticform alone hasnullvectors",
+    "rank": "Two highest7 inputclasses have independentprincipalflowclasses inR7/Q",
+    "lower_bound": "EverySO3-invariant connectionRsubsystem containingQ andclosedunderthisflow has\u22654spin7copies/\u226560realcoefficientdimensions",
+    "ceiling": "Imaginary-connection coefficient dimension inside the held full quadratic system; not all GU realizations, nonlinear states, physical quotients or particle/family counts."
+  },
+  "selection_correction": {
+    "retained": "22-channel firstjet census and15-dimensional quotient remainvalid",
+    "corrected": "FailureofoptionalfullRauxiliaryinverse constrains anextension/jet, notW2 equations; smoothQconstraintfields alreadyexist",
+    "effect": "OptionalfullRdual/inverse testdeferred untilnecessarydynamical/physicalbridge; actualR-flow testcompleted",
+    "governance_change": false
+  },
+  "three_state": {
+    "ESTABLISHED": "Kernel-independent rank2 principalcoupling andconnection-only60dimensionlowerbound atbothroots",
+    "RULED_OUT": "NonzerofixedSO3submodulesofQ asfreelyinitializedautonomouslocalconnection-range systems",
+    "NOT_MODELED_UNDETERMINED": "Enlarged closed subsystem, full Dirac consistency, physical cohomology, propagated ghost/runaway, nonlinear or changed-background repair, global domain and source necessity."
+  },
+  "math_reassessment": {
+    "method": "Quick pass over 20 mathematical descriptions, not 20 agents or independent scientists; concrete author/review tasks separate",
+    "lenses": [
+      {
+        "id": 1,
+        "specialty": "Linear algebra",
+        "delta": "Nondegenerate two-row response replaces another inverse; quadratic null lines are not row kernels."
+      },
+      {
+        "id": 2,
+        "specialty": "Representation theory",
+        "delta": "Every nonzero fixed SO3 submodule of twoV7 copies has a tested highest combination; forced quotient adds two copies."
+      },
+      {
+        "id": 3,
+        "specialty": "Clifford algebra",
+        "delta": "OddQ/evenKtQ proves whole-Q canonical isotropy, including cross-copy pairings."
+      },
+      {
+        "id": 4,
+        "specialty": "Differential geometry",
+        "delta": "Actual imaginary-connection R equation and induced connection retained; owned full quadratic autonomy applies at the two real zero-matter roots."
+      },
+      {
+        "id": 5,
+        "specialty": "Constrained PDE",
+        "delta": "Actual dynamic tangency differs from optional Hom(R,N) inverse extension; next matched constraint source retains all terms."
+      },
+      {
+        "id": 6,
+        "specialty": "Functional analysis",
+        "delta": "No closed domain, well-posedness or propagated physical state follows."
+      },
+      {
+        "id": 7,
+        "specialty": "Symplectic geometry",
+        "delta": "An isotropic diagnostic range is not already an autonomous phase space."
+      },
+      {
+        "id": 8,
+        "specialty": "Gauge and BRST methods",
+        "delta": "No physical quotient or ghost cohomology identified."
+      },
+      {
+        "id": 9,
+        "specialty": "Category theory",
+        "delta": "Constraint fields, dynamical systems and physical states require separate maps."
+      },
+      {
+        "id": 10,
+        "specialty": "Number theory",
+        "delta": "Exact root inequalities and Gaussian-rational certificate replay determine strict signs."
+      },
+      {
+        "id": 11,
+        "specialty": "Algebraic geometry",
+        "delta": "Both certified root boxes covered, not every background or a path to smallh."
+      },
+      {
+        "id": 12,
+        "specialty": "Topology",
+        "delta": "No boundary data imported and no topology verdict."
+      },
+      {
+        "id": 13,
+        "specialty": "Index theory",
+        "delta": "Geometric spin and coefficient dimensions do not count families."
+      },
+      {
+        "id": 14,
+        "specialty": "Anomaly theory",
+        "delta": "Previously completed applicability audit not reopened."
+      },
+      {
+        "id": 15,
+        "specialty": "Variational calculus",
+        "delta": "Native reciprocity supplies Hermitian source form and all-kernel independence."
+      },
+      {
+        "id": 16,
+        "specialty": "Perturbation theory",
+        "delta": "Degree-two leakage cannot be canceled by lower terms in the fixed local graph class."
+      },
+      {
+        "id": 17,
+        "specialty": "Harmonic analysis",
+        "delta": "Arbitrary horizontal profiles are an explicit premise; momentum-dependent restrictions remain outside."
+      },
+      {
+        "id": 18,
+        "specialty": "Krein theory",
+        "delta": "Indefinite energy alone is insufficient; whole-Q isotropy and the full tested rows are essential."
+      },
+      {
+        "id": 19,
+        "specialty": "Proof engineering",
+        "delta": "Six Lean algebra lemmas checked; native/PDE premises validated separately."
+      },
+      {
+        "id": 20,
+        "specialty": "Decision theory",
+        "delta": "Retire optional inverse growth without necessity; use the actual matched consistency equation."
+      }
+    ],
+    "ranking": [
+      {
+        "rank": 1,
+        "id": "actual_Q7_principal_propagation",
+        "status": "completed"
+      },
+      {
+        "rank": 2,
+        "id": "matched_connection_constraint_propagation",
+        "status": "ready"
+      },
+      {
+        "rank": 3,
+        "id": "physical_weak_readout",
+        "status": "blocked_on_authentic_admission_and_normalization"
+      }
+    ]
+  },
+  "independent_reviews": {
+    "path": "lab/process/hostile-reviews/2026-11-26-source-action-q7-propagation-review.md",
+    "two_specialists": "PASS",
+    "separate_hostile": "PASS",
+    "integrated_scope_corrections": [
+      "held-metricconnectionHessian",
+      "all-u pairingnotquadraticvalue",
+      "fixedSO3subbundle/freeprofiles",
+      "60boundnotforfullcoupledGUstates",
+      "Owned complete-quadratic imaginary-sector autonomy removes linear metric/matter repair escape at these held roots"
+    ]
+  },
+  "lean": {
+    "path": "Lean/GUFormalization/Q7Propagation.lean",
+    "compiler_exit": 0,
+    "lemmas": 6,
+    "placeholders": false,
+    "verified": "Hermitiandetnegative,2rowinjectivity,kernelindependence,complexdetnonzero,2rowconsequence,nullquadraticcountercontrol",
+    "validated_separately": "Native parity,sourcegeometry/PDEprojection,rootboxcertificates,SO3classificationandstatementbridge",
+    "default_target_registration": "Imported by Lean/GUFormalization.lean; native README and verification ledger map the certificate",
+    "aggregate_build": "Not completed: isolated import check found 26 unchanged predecessor .olean files absent from the available cache. New module compilation passed. No full lake build claimed; predecessor modules were not rebuilt.",
+    "placeholder_scan": "PASS_on_explicit_new_module"
+  },
+  "next_worksets": [
+    {
+      "id": "matched_connection_constraint_propagation",
+      "status": "ready",
+      "target": "LB-CLASS",
+      "tier": "T2",
+      "task": "Evaluate the fully matched next Dirac consistency source D G(Bv+En)-D_t v-M_t n for actual constrained data, retaining all auxiliary-kernel multipliers and induced frame/projector terms. Use the owned P Kxi G Kxi P=0 cancellation before new calculation.",
+      "expected_delta": "Determine an actual additional constraint or propagated admissibility condition on the required coupled range data, rather than optional inverse coverage",
+      "class_covered": "Autonomous imaginary-connection W2/K95 block at both real zero-matter roots; coupled range data required by Q flow, not a physical cohomology claim.",
+      "source_bridge": "Candidate-only; source necessity/physical admission still unproved",
+      "remaining_cost": "Matched operator/source identities on certified channels; no automatic four-copy completion or wholeM inverse",
+      "kill_condition": "Only a genuine inconsistent required-data constraint excludes the named dynamical class. Additional constraints or missing certificate alone do not exclude W2."
+    },
+    {
+      "id": "physical_weak_readout",
+      "status": "blocked_on_authentic_admission_and_normalization",
+      "target": "LB-CLASS",
+      "tier": "T2",
+      "task": "Transport the local constrained response to a source-admitted physical observable",
+      "expected_delta": "Actual observable consequence rather than unnormalized local coefficient",
+      "revival_input": "Authenticated common physical domain/quotient, normalized readout and propagation law",
+      "kill_condition": "OldA01 transfer remains inapplicable; inventing a new norm, cutoff or physical completion is not an answer"
+    },
+    {
+      "id": "actual_firstjet_source_dual_screen",
+      "status": "deferred_optional_lift_without_necessary_dynamical_bridge",
+      "target": "LB-CLASS",
+      "tier": "T2",
+      "task": "Retain15-dimensional uncovered firstjet quotient as optional fullR-lift evidence; use only with the stated necessary bridge.",
+      "expected_delta": "A certified incompatibility or a reusable source-range certificate on an actual uncovered channel",
+      "class_covered": "Held W2/K95 two root boxes and generated firstjets along two Q7 modules, not allR or classC",
+      "source_bridge": "Conditional candidate test; W2/fullR necessity and physical admission absent",
+      "remaining_cost": "One exact source/dual discriminator with complete native residual checks; prior receivers and completed source census reused",
+      "kill_condition": "A true native cokernel excludes that inverse extension or a named jet, not W2 equations or GU by itself.",
+      "revival_input": "An actual necessary R jet/field or admitted physical-domain requirement tying unrestricted auxiliary extension to a decision. The valid census alone does not supply it."
+    }
+  ],
+  "reproduction": {
+    "probe": "tests/program-focus/source_action_q7_propagation_probe.py",
+    "certificate": "lab/process/source-action-q7-propagation-certificates.json",
+    "seconds": 0.16972437500953674,
+    "partial_mode": "--data-only explicitlydoesnotchecknativeparity",
+    "reused_certificates": "AcceptedcompleteN6rootboxbounds andsame\u03b80V5/V12 diagonalrows; no newinverse/closure",
+    "dependency_bindings": {
+      "lab/process/source-action-reduced-evolution.json": "d299647a410d660a2b01f9612e1ab271368f7a4b3244c91655793aa5ed7e1945",
+      "lab/process/source-action-kappa1-constraints.json": "5d3401666f8072dd225924e0cc9073c16c7d6c59efd0b4b941e1fcce7ce29233",
+      "lab/process/source-action-deep-coefficients.json": "fb4aacfa69cbc1127b7fddf3b4f66811650c1fd3a889363cc6dfab940439b274",
+      "tests/program-focus/source_action_reduced_evolution_probe.py": "2279acba19fe23ba3cbc77106ef8137fb72c4e758bdf45b1ee3ffe259a617426",
+      "tests/program-focus/source_action_deep_algebra.py": "4e3800131049e2b397bbce6106bfc5766d2f5fbf996319c50942f3b805d65598",
+      "tests/program-focus/source_action_metric_symbol_probe.py": "eccac86c829c48848a4db9ab49d0313601bc3b19aca9a1fc6635520f489254ef",
+      "tests/program-focus/source_action_deep_geometry.py": "7cdfe5f7609300c1ab4fb482f309cfafa52d0aa66cf353ef8b1f9c8be07e52df"
+    }
+  },
+  "verification": {
+    "native_gates": {
+      "program_focus_audit": "PASS",
+      "typed_carrier_declaration_audit": "PASS",
+      "kill_target_claim_audit": "PASS",
+      "frontmatter_status_schema_audit": "PASS",
+      "source_native_comparator_routing_audit": "PASS",
+      "lean_certificate_surface_audit": "PASS",
+      "current_state_absolute_currency_audit": "PASS"
+    },
+    "protected_surfaces": "program_focus,cells,intersections,shrinkage andcandidatechoicebudget unchanged"
+  },
+  "current_sha256": {
+    "tests/program-focus/source_action_q7_propagation_probe.py": "de122fac6296819abd83b7f6d1050b5d460e59100da0005456625eb08a1a18d7",
+    "lab/process/source-action-q7-propagation-certificates.json": "151835619ab9258a5e2a6baff608bc7c018ab79dbe08a6a57d5be192bffdf139",
+    "Lean/GUFormalization/Q7Propagation.lean": "81d21387ea00f37fb82e2e7037f263b71a94e281c906f8eac7cd4cb35e99da81",
+    "explorations/conditional-build/source-action-q7-propagation-2026-11-26.md": "0d828d622611c116c3414fffc07122791b98fb6ae5acc623193c2463bfb85415",
+    "lab/process/hostile-reviews/2026-11-26-source-action-q7-propagation-review.md": "1f3ff3fd7da929c35bdf0d01c885f30314189b7efbeb77193d502cb7587e18cd"
+  },
+  "coupled_quadratic_autonomy": {
+    "status": "ESTABLISHED_by_owned_theorem_reused",
+    "premises": "Real Clifford background T0, real geometry/B/Phi, real metric/reference variations, zero matter; satisfied at both held roots",
+    "consequence": "Metric, real-connection and matter linear perturbations cannot cancel imaginary Q-flow leakage; required extra range directions remain in the imaginary connection block",
+    "not_claimed": "New full Hessian assembly, nonlinear truncation, physical quotient or GU verdict",
+    "evidence": [
+      "explorations/conditional-build/source-action-coupled-ghost-2026-11-25.md",
+      "explorations/conditional-build/source-action-kappa1-constraints-2026-11-25.md",
+      "explorations/conditional-build/source-action-reduced-evolution-2026-11-26.md"
+    ],
+    "sha256": {
+      "explorations/conditional-build/source-action-coupled-ghost-2026-11-25.md": "63d5ddb5fa64a04ee2393d9f2396d6278c82fc7183e55df99d89d609be2b5686",
+      "explorations/conditional-build/source-action-kappa1-constraints-2026-11-25.md": "9099e1f6c0e4790dd82429e381a674db77044c2e62d17bd4999b232fc4f4ce1c",
+      "explorations/conditional-build/source-action-reduced-evolution-2026-11-26.md": "1f8d9afcb6536a9a869bb32c0b740d68df9572b70a272255def9d108712d4387"
+    },
+    "independent_reviews": "Both specialists and separate hostile reviewer confirm applicability"
+  }
+}

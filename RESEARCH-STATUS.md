@@ -16,6 +16,14 @@ discovery bet (`lab/process/discovery-bets.json`). The K25xx--K2618 detector, pr
 results below are retained as conditional mathematics; that lane is no longer the default target. Sections
 below are dated results, newest first, and are not steering.
 
+## Actual Q7 principal propagation (2026-11-26)
+
+At both kappa1 roots, every nonzero fixed SO3 submodule of the two-copy Q7 fails freely initialized autonomous connection-range evolution. An SO3-invariant connection subsystem containing Q and closed under this principal flow needs at least four spin7 copies/60 real coefficient dimensions. No physical ghost, W2 or GU exclusion.
+
+Whole-Q canonical isotropy and opposite same-source energy signs give the result without a new inverse. Unknown auxiliary-kernel additions cannot repair the tested pairing. The optional full-R inverse test has a different decision scope.
+
+[Result](explorations/conditional-build/source-action-q7-propagation-2026-11-26.md) · [Evidence and verification](lab/process/source-action-q7-propagation.json).
+
 ## Actual first-jet source census and receiver coverage (2026-11-26)
 
 Complete actual two-Q7 first-jet census:4 spin4 and18 spin5 channels;6 covered by certified receivers,16 uncovered spanning a15-dimensional quotient. No candidate/GU exclusion; no new inverse or physical choice.
