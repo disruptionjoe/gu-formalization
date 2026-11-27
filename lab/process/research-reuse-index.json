@@ -1964,6 +1964,115 @@
         "receipt_ref": "lab/process/bet-2plus1-local-complement.json#verification",
         "scope": "Finite controls; full geometric theorem reviewed, source relevance conditional; LC only."
       }
+    },
+    {
+      "id": "full-y-normal-product-lift-2026-11-27",
+      "kind": "result",
+      "owner_ref": "explorations/conditional-build/full-y-normal-product-lift-2026-11-27.md",
+      "tested_statement": "A specified compatible full-Y normal H reduction lifts to SU3xSU2xU1 iff its metric-section restriction does, including all integral torsion. Its even determinant has no fibreZ2 component. Some prescribed-Spin full-Y lift exists on a closed spin Lorentz base iff signature divisible48; no additional upstairs obstruction.",
+      "signature": {
+        "object": "FullY normalH productlift",
+        "carrier": "SpinLorentz4 base, fullRP3metricbundle, nativeQ4",
+        "convention": "IntegralH2, prescribednormalSpin, optionalSU",
+        "class": "Allspecified compatiblefullY H; someH closedbasefreeJ/volume",
+        "premises": [
+          "explorations/conditional-build/global-normal-complex-reduction-2026-11-24.md",
+          "explorations/conditional-build/normal-special-unitary-existence-2026-11-25.md",
+          "explorations/conditional-build/normal-sm-global-quotient-2026-11-27.md",
+          "explorations/conditional-build/normal-sm-characteristic-constraints-2026-11-27.md"
+        ]
+      },
+      "attributed_status": "internal_T2_global_lift_and_typeD_bound_reviewed",
+      "status_ref": "lab/process/global-reduction-selection-boundary.json#status",
+      "source_bridge_ref": "lab/process/global-reduction-selection-boundary.json#source_bridge",
+      "certificate_refs": [
+        "lab/process/full-y-product-lift-certificates.json"
+      ],
+      "control_refs": [
+        "tests/program-focus/full_y_product_lift_probe.py"
+      ],
+      "survivors_ref": "lab/process/global-reduction-selection-boundary.json#follow_through",
+      "reopen_condition_ref": "explorations/conditional-build/full-y-normal-product-lift-2026-11-27.md",
+      "superseded_by": null,
+      "cache": {
+        "artifacts": [
+          {
+            "path": "explorations/conditional-build/full-y-normal-product-lift-2026-11-27.md",
+            "sha256": "f793bec6f1ccdddd2d98bfb2a8e910c02301a0b6e1e1559b4b8a3b1c99a920d2"
+          },
+          {
+            "path": "tests/program-focus/full_y_product_lift_probe.py",
+            "sha256": "df8d6ef54262335e1cf0dcd363820d9f3b5864ce79dc7500a5d23cbe3536e108"
+          },
+          {
+            "path": "lab/process/full-y-product-lift-certificates.json",
+            "sha256": "893bb8c3f1d15d8a2beb4811e53ce7285386aeacb91c00e292c469eefdace573"
+          }
+        ],
+        "verifier": {
+          "command": "python3",
+          "args": [
+            "tests/program-focus/full_y_product_lift_probe.py",
+            "--verify"
+          ]
+        },
+        "receipt_ref": "lab/process/global-reduction-selection-boundary.json#verification",
+        "scope": "Exact finite controls; topology/probability writtenreviewed, sourcebridge separatelytyped."
+      }
+    },
+    {
+      "id": "petrov-d-observer-boundary-2026-11-27",
+      "kind": "result",
+      "owner_ref": "explorations/conditional-build/petrov-d-observer-boundary-2026-11-27.md",
+      "tested_statement": "At nonzero PetrovD, no positive universal forced escape fraction extends the II/III result: one smooth Julia point-law retains all mass on a balanced approach and loses all mass on a boosted approach to the same tensor. Intermediate fractions are also realized. Exact-D pointwise no-law result remains.",
+      "signature": {
+        "object": "TypeD observerprobability limits",
+        "carrier": "Actual complexWeylquartic, realLorentzH3observer",
+        "convention": "LeftSL2pullback, positiveBorelprobability",
+        "class": "PointwiseWeyl-only equivariantlaws ontypeI, actualDlimit",
+        "premises": [
+          "explorations/conditional-build/petrov-probability-selection-2026-11-26.md",
+          "tests/program-focus/petrov_probability_selection_probe.py",
+          "Lean/GUFormalization/PetrovProbability.lean"
+        ]
+      },
+      "attributed_status": "internal_T2_global_lift_and_typeD_bound_reviewed",
+      "status_ref": "lab/process/global-reduction-selection-boundary.json#status",
+      "source_bridge_ref": "lab/process/global-reduction-selection-boundary.json#source_bridge",
+      "certificate_refs": [
+        "lab/process/petrov-d-boundary-certificates.json"
+      ],
+      "control_refs": [
+        "tests/program-focus/petrov_d_boundary_probe.py"
+      ],
+      "survivors_ref": "lab/process/global-reduction-selection-boundary.json#follow_through",
+      "reopen_condition_ref": "explorations/conditional-build/petrov-d-observer-boundary-2026-11-27.md",
+      "superseded_by": null,
+      "cache": {
+        "artifacts": [
+          {
+            "path": "explorations/conditional-build/petrov-d-observer-boundary-2026-11-27.md",
+            "sha256": "9bdc8cb659aed3213779807c262a53e8cf6ce57638a1471200bb1ee9980c7a2f"
+          },
+          {
+            "path": "tests/program-focus/petrov_d_boundary_probe.py",
+            "sha256": "10ec405cca4436a57e8767a83e74dfd9177b9c7806f5aaa90c7598937b8de5d2"
+          },
+          {
+            "path": "lab/process/petrov-d-boundary-certificates.json",
+            "sha256": "df3cb3457060d96f3f786d86f9ee2d23f57ecd9e8c153959539653499a6c385a"
+          }
+        ],
+        "verifier": {
+          "command": "python3",
+          "args": [
+            "tests/program-focus/petrov_d_boundary_probe.py",
+            "--verify"
+          ]
+        },
+        "receipt_ref": "lab/process/global-reduction-selection-boundary.json#verification",
+        "scope": "Exact finite controls; topology/probability writtenreviewed, sourcebridge separatelytyped."
+      }
     }
   ]
 }

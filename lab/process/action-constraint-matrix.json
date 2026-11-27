@@ -1812,7 +1812,7 @@
     },
     "LB-LADDER": {
       "zero_delta_streak": 0,
-      "runs": 18,
+      "runs": 19,
       "status": "open"
     }
   },
@@ -2726,7 +2726,7 @@
   ],
   "program_run_counter": {
     "since": "2026-11-09",
-    "count": 104,
+    "count": 105,
     "rule": "Every hourly run increments this in its postflight, whatever its lane. Lane C runs when count % 4 == 3 before the increment."
   },
   "working_rule": "Cells are worked at the structure level: a requirement must hold for every action in class C or for a structurally defined subfamily. No cell is worked by writing down a specific action, and no gated cell is worked by building its gate object. See CURRENT-STATE.yaml program_focus.structure_not_specifics.",
@@ -3672,6 +3672,15 @@
       "counter_after": 104,
       "lane": "LC-BETS",
       "selection": "BET-2PLUS1 complete local same-q complement test; lane-C-only evidence."
+    },
+    {
+      "date": "2026-11-27",
+      "authority": "joe_direct_chat_2026_11_27_h",
+      "item": "global-reduction-selection-boundary",
+      "counter_before": 104,
+      "counter_after": 105,
+      "lane": "LB-LADDER",
+      "selection": "FullY normal lift detection and typeD probability-bound counterexamples."
     }
   ],
   "directed_lc_carry_2026_11_24_b": {
@@ -3953,7 +3962,9 @@
           "explorations/conditional-build/source-action-slice-completion-2026-11-25.md",
           "lab/process/source-action-slice-completion.json",
           "explorations/conditional-build/petrov-probability-selection-2026-11-26.md",
-          "lab/process/petrov-probability-selection.json"
+          "lab/process/petrov-probability-selection.json",
+          "explorations/conditional-build/petrov-d-observer-boundary-2026-11-27.md",
+          "lab/process/global-reduction-selection-boundary.json"
         ],
         "structural_choices": "Effective joint stabilizer, background-versus-state normalization, support category and common-limit quantifier. None fixes an action.",
         "latest_constraint": "A finite extra-datum weight does not repair the same thin off-shell graph trace or select a signed average. Opposite weighted averages possible for the existing sign-changing receiver under the stated domain/moment premises; not a new weighted-action or Newton verdict.",
@@ -3966,6 +3977,14 @@
           },
           "survivors": "Isolated II/III orbits, Ricci/matter/derivative/global data, restricted type-I domains and singular metric-fibre laws are not excluded.",
           "novelty": "Classical qualitative theory; potential quantitative refinement, priority unverified."
+        },
+        "global_selection_followthrough": {
+          "actual_delta": "At nonzero PetrovD, no positive universal forced escape fraction extends the II/III result: one smooth Julia point-law retains all mass on a balanced approach and loses all mass on a boosted approach to the same tensor. Intermediate fractions are also realized. Exact-D pointwise no-law result remains.",
+          "scope": {
+            "status": "absent",
+            "reason": "No source-required Weyl-only clock or probability."
+          },
+          "remaining": "Next ordinary B selection: scope the full induced ambient curvature source and first normal jet on Ricci-flat PetrovD section data, retaining mixed/vertical terms. This tests whether an unchanged flat completion is compatible, not all bulk completions or GU. Compare source-grounded distinctive-observable and shared-section bridges; do not repeat fullY determinant torsion, local complement, finitejet/coclosure or fixed-linear Euler rechecks."
         }
       },
       {
@@ -5514,7 +5533,9 @@
         "evidence": [
           "explorations/conditional-build/normal-sm-global-quotient-2026-11-27.md",
           "explorations/conditional-build/normal-sm-characteristic-constraints-2026-11-27.md",
-          "lab/process/normal-sm-characteristic-constraints.json"
+          "lab/process/normal-sm-characteristic-constraints.json",
+          "explorations/conditional-build/full-y-normal-product-lift-2026-11-27.md",
+          "lab/process/global-reduction-selection-boundary.json"
         ],
         "latest_constraint": "The owned prescribed-Spin normal H reduction is globally (SU3 x SU2 x U1)/mu6, and the simultaneous geometric form-plus-spin q descends on its associated bundles. This closes the geometric existence/descent condition for the constructed free-J_P reduction, not fixed-J compatibility, connection/vacuum selection or the physical gauge/current quotient.",
         "structural_choices": "Geometric H reduction is available; choosing it physically remains unresolved.",
@@ -5526,6 +5547,14 @@
           },
           "fixed_reduction": "Integral determinant sixth root, including torsion. Signature divisibility is only existential over free reductions.",
           "remaining": "LC cadence is due at count103: use the unchanged greatest-time-left rule and compare the eligible bet discriminators. For this geometry reuse the integral Chern/lift criterion only on a supplied bundle; physical gauge identification, prescribed connection, relative/end sectors and global-Y lift remain distinct. No more independent charge sampling or absolute-existence replays."
+        },
+        "global_selection_followthrough": {
+          "actual_delta": "A specified compatible full-Y normal H reduction lifts to SU3xSU2xU1 iff its metric-section restriction does, including all integral torsion. Its even determinant has no fibreZ2 component. Some prescribed-Spin full-Y lift exists on a closed spin Lorentz base iff signature divisible48; no additional upstairs obstruction.",
+          "scope": {
+            "status": "conditional",
+            "reason": "Actual sourceMet carrier/optionalSU branch; physical gauge mapping and product/closedness necessity unproved."
+          },
+          "remaining": "Next ordinary B selection: scope the full induced ambient curvature source and first normal jet on Ricci-flat PetrovD section data, retaining mixed/vertical terms. This tests whether an unchanged flat completion is compatible, not all bulk completions or GU. Compare source-grounded distinctive-observable and shared-section bridges; do not repeat fullY determinant torsion, local complement, finitejet/coclosure or fixed-linear Euler rechecks."
         }
       },
       {
@@ -7054,5 +7083,28 @@
       "reason": "SC-GRP03 permits optional SU normal intersection. Closedness, direct-product lift and physical gauge identification are not source-required; the full U alternative remains."
     },
     "status_effect": "No cell/intersection/source/classC/ledger verdict change."
+  },
+  "global_reduction_selection_2026_11_27": {
+    "status": "internal_T2_global_lift_and_typeD_bound_reviewed",
+    "actual_delta": [
+      "A specified compatible full-Y normal H reduction lifts to SU3xSU2xU1 iff its metric-section restriction does, including all integral torsion. Its even determinant has no fibreZ2 component. Some prescribed-Spin full-Y lift exists on a closed spin Lorentz base iff signature divisible48; no additional upstairs obstruction.",
+      "At nonzero PetrovD, no positive universal forced escape fraction extends the II/III result: one smooth Julia point-law retains all mass on a balanced approach and loses all mass on a boosted approach to the same tensor. Intermediate fractions are also realized. Exact-D pointwise no-law result remains."
+    ],
+    "evidence": [
+      "explorations/conditional-build/full-y-normal-product-lift-2026-11-27.md",
+      "explorations/conditional-build/petrov-d-observer-boundary-2026-11-27.md",
+      "lab/process/global-reduction-selection-boundary.json"
+    ],
+    "source_bridge": {
+      "global_lift": {
+        "status": "conditional",
+        "reason": "Actual sourceMet carrier/optionalSU branch; physical gauge mapping and product/closedness necessity unproved."
+      },
+      "type_D": {
+        "status": "absent",
+        "reason": "No source-required Weyl-only clock or probability."
+      }
+    },
+    "status_effect": "No cell/intersection/shrinkage/ledger verdict changes."
   }
 }

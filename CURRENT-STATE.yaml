@@ -1,7 +1,7 @@
 schema_version: '1.0'
 repository: observerse-research-program
 branch: main
-revision_basis: c2d1ea0e4aec45971484df9bfe33795df06322c1
+revision_basis: c083eefcb2c6196f3a686596aeb2c596c2bdb42a
 program_focus:
   version: 2026-11-27-v2
   authority: joe_direct_chat_2026_11_27_h
@@ -196,6 +196,35 @@ program_focus:
       denominator and a judgment label; the fraction of all possible GU realizations closed is unknown.
     authority_boundary: Continue autonomously within existing authority. Existing canon/ledger tiers,
       external and irreversible-action limits remain; no research waiting checkpoint.
+global_reduction_selection_2026_11_27:
+  status: internal_T2_global_lift_and_typeD_bound_reviewed
+  actual_delta:
+  - A specified compatible full-Y normal H reduction lifts to SU3xSU2xU1 iff its metric-section restriction
+    does, including all integral torsion. Its even determinant has no fibreZ2 component. Some prescribed-Spin
+    full-Y lift exists on a closed spin Lorentz base iff signature divisible48; no additional upstairs
+    obstruction.
+  - 'At nonzero PetrovD, no positive universal forced escape fraction extends the II/III result: one smooth
+    Julia point-law retains all mass on a balanced approach and loses all mass on a boosted approach to
+    the same tensor. Intermediate fractions are also realized. Exact-D pointwise no-law result remains.'
+  source_bridge:
+    global_lift:
+      status: conditional
+      reason: Actual sourceMet carrier/optionalSU branch; physical gauge mapping and product/closedness
+        necessity unproved.
+    type_D:
+      status: absent
+      reason: No source-required Weyl-only clock or probability.
+  evidence:
+  - explorations/conditional-build/full-y-normal-product-lift-2026-11-27.md
+  - explorations/conditional-build/petrov-d-observer-boundary-2026-11-27.md
+  - lab/process/global-reduction-selection-boundary.json
+  next: 'Next ordinary B selection: scope the full induced ambient curvature source and first normal jet
+    on Ricci-flat PetrovD section data, retaining mixed/vertical terms. This tests whether an unchanged
+    flat completion is compatible, not all bulk completions or GU. Compare source-grounded distinctive-observable
+    and shared-section bridges; do not repeat fullY determinant torsion, local complement, finitejet/coclosure
+    or fixed-linear Euler rechecks.'
+  choice_budget_effect: none
+  verdict_effect: none
 local_complement_2026_11_27:
   status: internal_T1_local_complement_exclusion_reviewed
   lane: LC-BETS

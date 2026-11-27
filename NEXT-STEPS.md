@@ -16,6 +16,10 @@ Do not add "Current follow-through" sections or "Historical predecessor" stacks 
 matrix or bet file. The retired follow-through chain and banner stack are kept at the end of this file under
 "Archived steering history".
 
+## 2026-11-27 — Full-space reduction and type-D limits
+
+[Full-Y result](explorations/conditional-build/full-y-normal-product-lift-2026-11-27.md) · [Type-D result](explorations/conditional-build/petrov-d-observer-boundary-2026-11-27.md) · [Evidence](lab/process/global-reduction-selection-boundary.json). Full-Y normal productlift is detected on a metric section; the admitted determinant has no extra fibreZ2 obstruction. At typeD a single smooth covariant observer law has both all-retained and all-escaping approaches, so no positive universal escape fraction follows.66 exact grouped controls and two independent reviewers passed; topology and probability limits are written/reviewed. Physical/source/ledger verdicts and choicebudget10/4/net6/0 remain unchanged.
+
 ## 2026-11-27 — Local complements in the weighted reconstruction
 
 [Result](explorations/conditional-build/bet-2plus1-local-complement-2026-11-27.md) · [Evidence](lab/process/bet-2plus1-local-complement.json). The complete smooth same-q local complement category, including nonorthogonal and underlying real-linear maps, is excluded on the declared native weighted operator. The exceptional principal loci (-23/12 K77, +23/12 K95) force moving-graph rank≤256 versus native512. Effective nonlocal reduction and different state/map/domain choices remain distinct.198 grouped exact controls,7200 block comparisons, seven finite Lean lemmas and three reviews passed; geometry is written/reviewed. Lane-C evidence only; no source/classC/matrix-cell/ledger verdict. Choice budget10/4/net6/0 unchanged.

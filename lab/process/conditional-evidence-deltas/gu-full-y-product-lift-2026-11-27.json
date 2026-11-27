@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0",
+  "delta_id": "GU-FULL-Y-PRODUCT-LIFT-2026-11-27",
+  "status": "pending",
+  "base": {
+    "ledger_ref": "lab/process/conditional-physics-ledger-v0.263.json",
+    "ledger_sha256": "7c75c179c3af512084e50af19043a5d320b38e8c1e53325ee5ec2f97ad9c257b"
+  },
+  "affected_rows": [
+    "RA-A2",
+    "RA-A6"
+  ],
+  "result_refs": [
+    "explorations/conditional-build/full-y-normal-product-lift-2026-11-27.md",
+    "lab/process/global-reduction-selection-boundary.json",
+    "lab/process/full-y-product-lift-certificates.json"
+  ],
+  "source_disposition": "ActualfullY geometry, optionalSU preserved. Productgroup/closedness/physicalgauge identification notsource-required.",
+  "claim_ceiling": "No extra allY determinant-root burden beyond section; no prescribedconnection/relative data or physicalselection verdict.",
+  "proposed_effect": {
+    "summary": "A specified compatible full-Y normal H reduction lifts to SU3xSU2xU1 iff its metric-section restriction does, including all integral torsion. Its even determinant has no fibreZ2 component. Some prescribed-Spin full-Y lift exists on a closed spin Lorentz base iff signature divisible48; no additional upstairs obstruction.",
+    "requested_row_changes": [
+      "Attach fullY fixed-H and some-H lift criterion as correlated evidence.",
+      "Keep verdicts,grades and revivaltriggers unchanged."
+    ]
+  },
+  "conflict_keys": [
+    "RA-A2",
+    "RA-A6",
+    "GU-NORMAL-SM-CHARACTERISTIC-2026-11-27"
+  ],
+  "integration": null
+}

@@ -1,0 +1,593 @@
+{
+  "artifact": "GLOBAL_REDUCTION_SELECTION_BOUNDARY",
+  "date": "2026-11-27",
+  "basis_revision": "c083eefcb2c6196f3a686596aeb2c596c2bdb42a",
+  "status": "internal_T2_global_lift_and_typeD_bound_reviewed",
+  "program_target": [
+    "X-P1-P2",
+    "LB-CLASS"
+  ],
+  "tier": "T2",
+  "lane": "LB-LADDER",
+  "actual_delta": [
+    "A specified compatible full-Y normal H reduction lifts to SU3xSU2xU1 iff its metric-section restriction does, including all integral torsion. Its even determinant has no fibreZ2 component. Some prescribed-Spin full-Y lift exists on a closed spin Lorentz base iff signature divisible48; no additional upstairs obstruction.",
+    "At nonzero PetrovD, no positive universal forced escape fraction extends the II/III result: one smooth Julia point-law retains all mass on a balanced approach and loses all mass on a boosted approach to the same tensor. Intermediate fractions are also realized. Exact-D pointwise no-law result remains."
+  ],
+  "source_bridge": {
+    "global_lift": {
+      "status": "conditional",
+      "reason": "Actual sourceMet carrier/optionalSU branch; physical gauge mapping and product/closedness necessity unproved."
+    },
+    "type_D": {
+      "status": "absent",
+      "reason": "No source-required Weyl-only clock or probability."
+    }
+  },
+  "source_necessary_exclusion": false,
+  "class_C_representativeness": "No width certification or physical mapping; native geometry versus internal observer-law category distinguished.",
+  "choice_budget": {
+    "families": 10,
+    "grouped_obligations": 4,
+    "net": 6,
+    "source_selected_predictions": 0,
+    "change": 0
+  },
+  "selection": {
+    "mandatory_basis": "Counter104 ordinaryB; source-required module/current probes lack their specified missinginputs, not globally exhausted.",
+    "reuse_delta": "FullY lift explicitly open after section result; typeD excluded pointwise but arbitrary approach mass bounds uncomputed. Existing wedge/mean-curvature laws reused only.",
+    "source_relevance": "GlobalMet bundle is sourceowned, physical mappingconditional; Weyl-onlyprobability necessityabsent.",
+    "strongest_alternative": "Full induced curvature jet on RicciflatPetrovD, newlyscoped after Joe27k; not a supplied allbulkcompletion solve. Rankednext.",
+    "outcomes": [
+      "Extra admissible fibreobstruction -> nameclass; noextra -> closeglobalgap positively.",
+      "UniversalD escape -> bound; balancedcounterfamily -> refuteextension while preserving endpointno-law."
+    ],
+    "forecast": "Small torsion and quartic proofs/controls, no large native matrices or actionconstruction.",
+    "actual": {
+      "grouped_controls": 66,
+      "probe_seconds": 0.0018214997835457325,
+      "new_actions": 0,
+      "tokens": "not measured"
+    }
+  },
+  "verification": {
+    "probes": [
+      {
+        "path": "tests/program-focus/full_y_product_lift_probe.py",
+        "status": "PASS",
+        "controls": 32
+      },
+      {
+        "path": "tests/program-focus/petrov_d_boundary_probe.py",
+        "status": "PASS",
+        "controls": 34
+      }
+    ],
+    "lean": "No new Lean claim; T2 written topology/probability proof with exact finite controls.",
+    "reviews": [
+      {
+        "accepted": true,
+        "tier": "T2",
+        "reviewer": "native_grading_review",
+        "artifact_hashes": {
+          "explorations/conditional-build/full-y-normal-product-lift-2026-11-27.md": "f793bec6f1ccdddd2d98bfb2a8e910c02301a0b6e1e1559b4b8a3b1c99a920d2",
+          "explorations/conditional-build/petrov-d-observer-boundary-2026-11-27.md": "9bdc8cb659aed3213779807c262a53e8cf6ce57638a1471200bb1ee9980c7a2f",
+          "tests/program-focus/full_y_product_lift_probe.py": "df8d6ef54262335e1cf0dcd363820d9f3b5864ce79dc7500a5d23cbe3536e108",
+          "tests/program-focus/petrov_d_boundary_probe.py": "10ec405cca4436a57e8767a83e74dfd9177b9c7806f5aaa90c7598937b8de5d2",
+          "lab/process/full-y-product-lift-certificates.json": "893bb8c3f1d15d8a2beb4811e53ce7285386aeacb91c00e292c469eefdace573",
+          "lab/process/petrov-d-boundary-certificates.json": "df3cb3457060d96f3f786d86f9ee2d23f57ecd9e8c153959539653499a6c385a"
+        },
+        "dependency_pins_verified": {
+          "explorations/conditional-build/global-normal-complex-reduction-2026-11-24.md": true,
+          "explorations/conditional-build/normal-special-unitary-existence-2026-11-25.md": true,
+          "explorations/conditional-build/normal-sm-global-quotient-2026-11-27.md": true,
+          "explorations/conditional-build/normal-sm-characteristic-constraints-2026-11-27.md": true,
+          "explorations/conditional-build/petrov-probability-selection-2026-11-26.md": true,
+          "tests/program-focus/petrov_probability_selection_probe.py": true,
+          "Lean/GUFormalization/PetrovProbability.lean": true
+        },
+        "blocking_findings": [],
+        "own_checks": [
+          "Read both complete report drafts and corrected final passages; independently checked integral low-degree Serre splitting, section-adjusted Bockstein, determinant evenness including torsion, sixth-root detection and prescribed-Spin S7 extension composition.",
+          "Read both final probes and certificates, confirmed all six artifact SHA256 bindings and seven inherited dependency SHA256 pins without executing scientific controls.",
+          "Checked actual-quartic stabilizers, boost exponents, opposite probability limits and intermediate-mass construction; correction to t>=2 removes the exceptional singular quartic.",
+          "Confirmed time-oriented-cover restriction is qualified by existence of a lifted section; pi* H2 identification does not require that section."
+        ],
+        "scope": [
+          "Full-Y theorem is conditional geometric topology on the declared native bundles. It does not select a preserved connection, physical gauge group, closed source spacetime, fixed positive J/volume or physical fields.",
+          "Petrov result is a pointwise Weyl-only observer-probability comparator. It supplies neither a GU-required probability nor a black-hole solution, bulk charge or metric-fibre probability.",
+          "The six finite artifacts do not formalize Serre theory, smooth extension, Julia covariance or probability limits. These remain written/reviewed arguments with inherited owners."
+        ],
+        "qualifications": [
+          "Both probes execute fresh finite controls; their --verify flag does not independently compare a persisted certificate. This review binds the persisted certificates by hash and pins, not by such a self-verification claim.",
+          "Root reported PASS for 32 and 34 grouped controls. Reviewer did not execute them. No new Lean certification is claimed."
+        ],
+        "contributions": "Independent source/geometry review of both final reports; earlier scratch adjoint/trapped-section assessment is separate advisory evidence, not authorship of these reports.",
+        "not_run": [
+          "Scientific probes",
+          "Lean or builds",
+          "External source reinspection",
+          "Owner-file edits"
+        ]
+      },
+      {
+        "accepted": true,
+        "disposition": "Both final T2 reports accepted in their stated mathematical and source scopes.",
+        "reviewer": "joint_review, independent mathematical/hostile reviewer",
+        "hashes": {
+          "explorations/conditional-build/full-y-normal-product-lift-2026-11-27.md": "f793bec6f1ccdddd2d98bfb2a8e910c02301a0b6e1e1559b4b8a3b1c99a920d2",
+          "explorations/conditional-build/petrov-d-observer-boundary-2026-11-27.md": "9bdc8cb659aed3213779807c262a53e8cf6ce57638a1471200bb1ee9980c7a2f",
+          "tests/program-focus/full_y_product_lift_probe.py": "df8d6ef54262335e1cf0dcd363820d9f3b5864ce79dc7500a5d23cbe3536e108",
+          "tests/program-focus/petrov_d_boundary_probe.py": "10ec405cca4436a57e8767a83e74dfd9177b9c7806f5aaa90c7598937b8de5d2",
+          "lab/process/full-y-product-lift-certificates.json": "893bb8c3f1d15d8a2beb4811e53ce7285386aeacb91c00e292c469eefdace573",
+          "lab/process/petrov-d-boundary-certificates.json": "df3cb3457060d96f3f786d86f9ee2d23f57ecd9e8c153959539653499a6c385a"
+        },
+        "blocking_findings": [],
+        "resolved_findings": [
+          {
+            "finding": "The original Type-D path t>1 passed through e=1/2 at t=2^(1/6), where the quartic was not type I.",
+            "resolution": "Final report restricts t>=2. Probe includes the e=1/2 discriminant-zero countercontrol and checks sampled boosted points inside the corrected domain. The limiting theorem is unchanged."
+          },
+          {
+            "finding": "Restriction language on the time-oriented cover needs an admitted lifted section.",
+            "resolution": "Final report states pi* is an H\u00b2 isomorphism and distinguishes base-class detection from restriction through a supplied time-oriented/lifted section."
+          }
+        ],
+        "full_y_findings": [
+          "The tautological x=beta(w1 L) is global, order two, and restricts to the fibre H\u00b2(RP\u00b3;Z) generator. It splits the integral Serre extension, ruling out a hidden Z4 extension without discarding base torsion.",
+          "Section-adjusted x_s retains order two and zero section restriction without assuming time orientation. Since w2(Q)=0, d=2u integrally and its fibre component vanishes. Sixth divisibility is therefore detected exactly on the section/base class.",
+          "The fixed-H central-cover criterion is the integral sixth-root criterion. Some-H extension correctly permits choosing positive J/volume while retaining the prescribed total Spin through the inherited S7 obstruction argument.",
+          "The 48-divisibility existence criterion reuses the accepted closed-section theorem. No new all-Y second-Chern, fixed-positive-J, connection or relative-boundary theorem is claimed."
+        ],
+        "petrov_d_findings": [
+          "R and S preserve the actual quartic coefficients under the declared inverse-substitution action, and their common H\u00b3 fixed point is I. The balanced path retains all mass for the globally defined Julia point law.",
+          "The boosted coefficients t^-10,1,t^-2 and observer diag(t\u00b2,t^-2) use the same action and same law. With t>=2 the entire path is type I, converges to the same f_D and escapes every compact observer region.",
+          "The invariant discriminant-dependent spherical-shell mixture is a continuous equivariant probability law and supplies every intermediate retained fraction on the balanced path. This varies the family of laws, unlike the two opposite paths for the single point law.",
+          "Exact-D nonexistence follows from the reused noncompact-stabilizer/proper-action theorem. Pathwise probability limits need not respect the enlarged endpoint stabilizer. No positive universal forced escape fraction at D survives the balanced counterexample."
+        ],
+        "source_and_scope": [
+          "Full metric carrier and optional normal special-unitary reduction are source supplied; closedness, direct-product lift and physical gauge identification remain additional conditions.",
+          "Literal unique-Spin and chosen active Spin remain different. Closed examples do not satisfy the stronger unique-Spin premise.",
+          "No source requires a pointwise Weyl-only observer probability. The Type-D calculation supplies no GU verdict, physical clock, black-hole PDE result, bulk charge, family count or metric-fibre measure.",
+          "Classical Julia covariance and exact-D noncompact stabilizer are reused, not newly invented selectors or new kills. No world novelty is asserted."
+        ],
+        "verification_scope": {
+          "tests_or_builds_run_by_reviewer": false,
+          "owner_files_edited_by_reviewer": false,
+          "artifacts_inspected": "Both reports, both probe sources and both certificates; all six final hashes and seven dependency hashes matched.",
+          "recorded_results": "Root reports serialized PASS; certificates record 32 full-Y and 34 Petrov controls, all true.",
+          "finite_control_limit": "Group arithmetic and exact polynomial controls do not prove Serre topology, smooth prescribed-Spin extension, Julia smoothness, properness or infinite probability limits. Those rest on written arguments and cited inherited theorems.",
+          "lean": "No new Lean claim for these T2 reports. Petrov certificate binds an inherited Lean artifact only."
+        },
+        "dependency_hash_checks": {
+          "lab/process/full-y-product-lift-certificates.json": {
+            "explorations/conditional-build/global-normal-complex-reduction-2026-11-24.md": true,
+            "explorations/conditional-build/normal-special-unitary-existence-2026-11-25.md": true,
+            "explorations/conditional-build/normal-sm-global-quotient-2026-11-27.md": true,
+            "explorations/conditional-build/normal-sm-characteristic-constraints-2026-11-27.md": true
+          },
+          "lab/process/petrov-d-boundary-certificates.json": {
+            "explorations/conditional-build/petrov-probability-selection-2026-11-26.md": true,
+            "tests/program-focus/petrov_probability_selection_probe.py": true,
+            "Lean/GUFormalization/PetrovProbability.lean": true
+          }
+        },
+        "primary_references_checked": [
+          "https://www.mathe2.uni-bayreuth.de/stoll/papers/reduction-part-1.pdf",
+          "https://arxiv.org/abs/2007.15384"
+        ],
+        "weakest_reproduction_seams": "Inherited prescribed-Spin S7/closed-section topology and smooth Julia covariance, not the finite controls.",
+        "detailed_review": "/private/tmp/gu-global-selection-hostile-notes.md"
+      }
+    ],
+    "artifact_hashes": {
+      "explorations/conditional-build/full-y-normal-product-lift-2026-11-27.md": "f793bec6f1ccdddd2d98bfb2a8e910c02301a0b6e1e1559b4b8a3b1c99a920d2",
+      "explorations/conditional-build/petrov-d-observer-boundary-2026-11-27.md": "9bdc8cb659aed3213779807c262a53e8cf6ce57638a1471200bb1ee9980c7a2f",
+      "tests/program-focus/full_y_product_lift_probe.py": "df8d6ef54262335e1cf0dcd363820d9f3b5864ce79dc7500a5d23cbe3536e108",
+      "tests/program-focus/petrov_d_boundary_probe.py": "10ec405cca4436a57e8767a83e74dfd9177b9c7806f5aaa90c7598937b8de5d2",
+      "lab/process/full-y-product-lift-certificates.json": "893bb8c3f1d15d8a2beb4811e53ce7285386aeacb91c00e292c469eefdace573",
+      "lab/process/petrov-d-boundary-certificates.json": "df3cb3457060d96f3f786d86f9ee2d23f57ecd9e8c153959539653499a6c385a"
+    },
+    "dependencies": {
+      "explorations/conditional-build/global-normal-complex-reduction-2026-11-24.md": "11f5ad826c71028850bdf3cf87d3f40f8751b600491caaa940f31a0e6cc8f3ff",
+      "explorations/conditional-build/normal-special-unitary-existence-2026-11-25.md": "9321d71effe1a41b0c5d1ba58b7167948b23aa43a3921c0b870d151b2e5690b5",
+      "explorations/conditional-build/normal-sm-global-quotient-2026-11-27.md": "2a92c7b7307f69f8e80e2a87e364e07731c6ff2c086a320a22880d437b0fb009",
+      "explorations/conditional-build/normal-sm-characteristic-constraints-2026-11-27.md": "231a6b559c3c4b4672ddbb6f3befb0275a094d4f4eaf9bd2a216cd3952fa9eb3",
+      "explorations/conditional-build/petrov-probability-selection-2026-11-26.md": "17d274c17a7372a5494ec0a6a391ade5da83e43a748461fc235b6c09b688225d",
+      "tests/program-focus/petrov_probability_selection_probe.py": "1732cf838b54b1746bab922b7aa8e03c0d4bfd749d8857595d811d37d7e6b02a",
+      "Lean/GUFormalization/PetrovProbability.lean": "c9e16572382126899be1a644c16c88291275643121383a8e8fac015fe855ca8f"
+    },
+    "gates": {
+      "program_focus_audit": "PASS",
+      "typed_carrier_declaration_audit": "PASS",
+      "kill_target_claim_audit": "PASS",
+      "frontmatter_status_schema_audit": "PASS",
+      "source_native_comparator_routing_audit": "PASS",
+      "lean_certificate_surface_audit": "PASS",
+      "current_state_absolute_currency_audit": "PASS",
+      "conditional_evidence_delta_gate": "PASS",
+      "research_context_reader_audit": "PASS"
+    }
+  },
+  "joe27j_disposition": {
+    "two_track": "Proposed under j; subsequently authorized by k/l. No governance effect inside this frozen science Run.",
+    "wedge": "Consumed: wedge map passes Bianchi/Einsteinresponse only; unchanged full-linear exactEuler architecture already excluded. Changed endpoint requires explicit actualvariation and physicalcurrent/domain before energy/conservation inference.",
+    "trapped": "Owned H=t/2,norm-1 for everyg; nullnormal expansion has positive/negative/zero signs. Fixedreference weighted firstvariation cancellation at b=H is not sectionselection, area monotonicity or BrownYork stress.",
+    "typeD": "At nonzero PetrovD, no positive universal forced escape fraction extends the II/III result: one smooth Julia point-law retains all mass on a balanced approach and loses all mass on a boosted approach to the same tensor. Intermediate fractions are also realized. Exact-D pointwise no-law result remains."
+  },
+  "new_options": {
+    "authority": [
+      "joe_direct_chat_2026_11_27_k",
+      "joe_direct_chat_2026_11_27_l"
+    ],
+    "basis": "Qualitative VOI judgment: supplied source inputs, distinct outcomes, shared prerequisite reach and remaining cost. Status/rank are evidence for the next normal selection, not new policy or a mandatory backlog.",
+    "options": [
+      {
+        "id": "k1",
+        "title": "Black-hole fidelity",
+        "pillars": [
+          "gravity_shiab",
+          "predictive_dynamics"
+        ],
+        "layer": "class",
+        "track": [
+          "SOURCE",
+          "GU*"
+        ],
+        "rank": 1,
+        "status": "ready_geometric_scoping",
+        "cheapest_test_or_revival": "Compute full induced curvature/Phi source and first normal jet on a Ricci-flat PetrovD section using owned connection metric, before any completion solve.",
+        "inference_limit": "Horizontal Weyl annihilation is not full14D silence; a failed held completion is not an all-completion GR obstruction."
+      },
+      {
+        "id": "l2",
+        "title": "GU-specific structural prediction",
+        "pillars": [
+          "chirality_generations",
+          "gauge_mass_gap"
+        ],
+        "layer": "source",
+        "track": [
+          "SOURCE",
+          "GU*"
+        ],
+        "rank": 2,
+        "status": "bridge_scoping",
+        "cheapest_test_or_revival": "Identify a source-required imposter/current/coupling consequence not shared with Spin10/PS/GraviGUT and bind its physical observable before calculation.",
+        "inference_limit": "Single16/anomaly/bulk balance are shared GUT-level fits, not a unique GU prediction."
+      },
+      {
+        "id": "l1",
+        "title": "Shared observed physics across sections",
+        "pillars": [
+          "predictive_dynamics"
+        ],
+        "layer": "class",
+        "track": [
+          "SOURCE",
+          "GU*"
+        ],
+        "rank": 3,
+        "status": "interpretation_until_bridge",
+        "cheapest_test_or_revival": "Specify two admissible physical sections and a gauge-invariant readout; test its difference with source contraction.",
+        "inference_limit": "Finite-jet non-autonomy is not bulk nonuniqueness from every complete slice history; all sections need not be physical observers."
+      },
+      {
+        "id": "k3",
+        "title": "Minimum-action or norm extension",
+        "pillars": [
+          "predictive_dynamics",
+          "positive_energy"
+        ],
+        "layer": "class",
+        "track": [
+          "GU*"
+        ],
+        "rank": 4,
+        "status": "requires_admitted_functional_domain",
+        "cheapest_test_or_revival": "First identify a source-constrained positive/coercive objective and admissible state domain; then test existence, uniqueness and covariance.",
+        "inference_limit": "Indefinite stationary action need not minimize; chosen norm/reference is a costed repair, not canonical by label."
+      },
+      {
+        "id": "k4",
+        "title": "Gluing local solutions",
+        "pillars": [
+          "predictive_dynamics"
+        ],
+        "layer": "class",
+        "track": [
+          "SOURCE",
+          "GU*"
+        ],
+        "rank": 5,
+        "status": "requires_solution_sheaf",
+        "cheapest_test_or_revival": "Use an actually supplied gauge/solution sheaf and overlaps to identify obstruction classes.",
+        "inference_limit": "Abstract Cech cohomology neither supplies missing equations nor equals a family count."
+      },
+      {
+        "id": "l4",
+        "title": "Reference normalization and dimensional scale",
+        "pillars": [
+          "gauge_mass_gap",
+          "dark_energy"
+        ],
+        "layer": "source",
+        "track": [
+          "SOURCE",
+          "GU*"
+        ],
+        "rank": 6,
+        "status": "scope_first",
+        "cheapest_test_or_revival": "Separate infinite-volume finite-measure requirement from independent dimensional-scale freedom; derive dimensionless observable response to section/datum before applying varying-constant bounds.",
+        "inference_limit": "Infinite volume alone does not prove a new dimensional scale or varying alpha; a reference weight can be dimensionless."
+      },
+      {
+        "id": "l5",
+        "title": "Off-slice gravitating dark matter",
+        "pillars": [
+          "gravity_shiab",
+          "chirality_generations"
+        ],
+        "layer": "class",
+        "track": [
+          "SOURCE",
+          "GU*"
+        ],
+        "rank": 7,
+        "status": "requires_stress_and_coupling_bridge",
+        "cheapest_test_or_revival": "Test actual observed stress/current on ker(observation) and ordinary charged interactions on a supplied physical state class.",
+        "inference_limit": "Slice-invisible does not imply gravitating, stable, positive, cold or electromagnetically dark; shared slice is an interpretation until source selection."
+      },
+      {
+        "id": "k2",
+        "title": "Adjoint or Kan-extension selection",
+        "pillars": [
+          "predictive_dynamics"
+        ],
+        "layer": "class",
+        "track": [
+          "SOURCE",
+          "GU*"
+        ],
+        "rank": 8,
+        "status": "category_unspecified",
+        "cheapest_test_or_revival": "Fix source-faithful categories, gauge morphisms, boundary/domain and restriction functor; check unit/counit and whether proposed universal extension is a right inverse.",
+        "inference_limit": "Existence of an adjoint is not automatic deterministic physical selection; failure in one category is not no canonical law."
+      },
+      {
+        "id": "k7",
+        "title": "Memory kernel and noise",
+        "pillars": [
+          "predictive_dynamics"
+        ],
+        "layer": "candidate",
+        "track": [
+          "GU*"
+        ],
+        "rank": 9,
+        "status": "requires_projection_domain_and_state",
+        "cheapest_test_or_revival": "Use a supplied generator, admitted projection and hidden inverse/domain; distinguish exact deterministic memory from stochastic noise.",
+        "inference_limit": "MoriZwanzig identity does not select a physical covariance or observable noise scale."
+      },
+      {
+        "id": "k5",
+        "title": "Local deterministic slice-completeness trilemma",
+        "pillars": [
+          "predictive_dynamics"
+        ],
+        "layer": "class",
+        "track": [
+          "SOURCE",
+          "GU*"
+        ],
+        "rank": 10,
+        "status": "definition_scoping",
+        "cheapest_test_or_revival": "Match existing non-autonomy class to precise locality/determinism/completeness definitions and explicit countercontrols.",
+        "inference_limit": "Do not promote finite-jet same-candidate results to an unqualified at-most-two theorem."
+      },
+      {
+        "id": "l3",
+        "title": "Lambda integration constant",
+        "pillars": [
+          "dark_energy"
+        ],
+        "layer": "class",
+        "track": [
+          "SOURCE",
+          "GU*"
+        ],
+        "rank": 11,
+        "status": "requires_metric_variation_law",
+        "cheapest_test_or_revival": "Check actual tracefree metric equation and conservation identity; only then deduce integration constant.",
+        "inference_limit": "Fixed-volume stabilizer/measure rigidity does not impose unimodular variations or derive Lambda."
+      },
+      {
+        "id": "k10",
+        "title": "Unimodular analogy",
+        "pillars": [
+          "dark_energy"
+        ],
+        "layer": "class",
+        "track": [
+          "SOURCE",
+          "GU*"
+        ],
+        "rank": 11,
+        "status": "same_question_as_l3",
+        "cheapest_test_or_revival": "Reuse l3 discriminator; no duplicate calculation.",
+        "inference_limit": "Symmetry fixing volume level does not fix a variational class."
+      },
+      {
+        "id": "k6",
+        "title": "Ghost bandwidth and lifetime",
+        "pillars": [
+          "positive_energy",
+          "predictive_dynamics"
+        ],
+        "layer": "candidate",
+        "track": [
+          "GU*"
+        ],
+        "rank": 12,
+        "status": "requires_physical_spectrum",
+        "cheapest_test_or_revival": "Combine actual spectral tail/cutoff and coupling with growth on an admitted physical domain.",
+        "inference_limit": "All-orders polynomial suppression plus high-frequency growth gives no selected lifetime; W2 fails source fidelity."
+      },
+      {
+        "id": "k14",
+        "title": "Replica divergence",
+        "pillars": [
+          "predictive_dynamics"
+        ],
+        "layer": "candidate",
+        "track": [
+          "GU*"
+        ],
+        "rank": 13,
+        "status": "requires_section_and_norm_definition",
+        "cheapest_test_or_revival": "Distinguish candidate graph growth from gauge-invariant observed divergence of two physical sections.",
+        "inference_limit": "No new source inference from rerunning W2 growth."
+      },
+      {
+        "id": "k11",
+        "title": "Autodiff repair sensitivity",
+        "pillars": [
+          "positive_energy"
+        ],
+        "layer": "candidate",
+        "track": [
+          "GU*"
+        ],
+        "rank": 14,
+        "status": "defer_without_live_fidelity_passed_candidate",
+        "cheapest_test_or_revival": "Use only if a selected live source-faithful candidate has an unresolved coefficient dependence after existing exact sensitivity coverage.",
+        "inference_limit": "Do not fit new physical choices to suppress a diagnosed failure."
+      },
+      {
+        "id": "k12",
+        "title": "Automated symmetry discovery",
+        "pillars": [
+          "gravity_shiab",
+          "predictive_dynamics"
+        ],
+        "layer": "candidate",
+        "track": [
+          "SOURCE",
+          "GU*"
+        ],
+        "rank": 15,
+        "status": "defer_without_uncovered_equations",
+        "cheapest_test_or_revival": "Require a new supplied equation/solution set and a symmetry that changes admissibility or observable selection.",
+        "inference_limit": "Existing216/59 symmetry and naturality classifications are consumed."
+      },
+      {
+        "id": "k13",
+        "title": "Independent recomputation",
+        "pillars": [
+          "gravity_shiab",
+          "positive_energy"
+        ],
+        "layer": "class",
+        "track": [
+          "SOURCE",
+          "GU*"
+        ],
+        "rank": 16,
+        "status": "triggered_by_concrete_seam",
+        "cheapest_test_or_revival": "Use N-version implementation on an identified convention/representation risk; retain current independent reviews and exact controls.",
+        "inference_limit": "No blanket replay of unchanged certified results."
+      },
+      {
+        "id": "k15",
+        "title": "Paper-track harvesting",
+        "pillars": [
+          "dark_energy",
+          "predictive_dynamics",
+          "positive_energy"
+        ],
+        "layer": "class",
+        "track": [
+          "SOURCE",
+          "GU*"
+        ],
+        "rank": 17,
+        "status": "bounded_prior_art_before_claim",
+        "cheapest_test_or_revival": "Preserve precise finite-jet/nocharge/ghost-versus-breakdown statements; separate normalization datum from dimensional scale.",
+        "inference_limit": "Source-level incompleteness requires source necessity; no publishing or novelty claim without review."
+      },
+      {
+        "id": "k8",
+        "title": "Trapped sections and area monotonicity",
+        "pillars": [
+          "gravity_shiab",
+          "dark_energy"
+        ],
+        "layer": "class",
+        "track": [
+          "SOURCE",
+          "GU*"
+        ],
+        "rank": 18,
+        "status": "owned_core_analogy_unbridged",
+        "cheapest_test_or_revival": "Native H=t/2 and norm-1 already; theta_v=-tr(g^-1v)/2 has both signs and zero on null normals. Monotonicity needs a specified flow and functional.",
+        "inference_limit": "Codim10 with four negative directions lacks canonical codim2 future-null pair; fixed-reference weighted first variation is not stability."
+      },
+      {
+        "id": "k9",
+        "title": "TypeD escape and hidden hair",
+        "pillars": [
+          "gravity_shiab",
+          "predictive_dynamics"
+        ],
+        "layer": "class",
+        "track": [
+          "GU*"
+        ],
+        "rank": 19,
+        "status": "escape_part_completed_hair_unmodeled",
+        "cheapest_test_or_revival": "Reuse explicit typeD paths; a bulk charge needs an admitted conserved observable and domain.",
+        "inference_limit": "No universal positive escape fraction; no black-hole or hair conclusion from pointwise quartics."
+      },
+      {
+        "id": "k16",
+        "title": "Lawvere or diagonal interpretation",
+        "pillars": [
+          "predictive_dynamics"
+        ],
+        "layer": "class",
+        "track": [
+          "GU*"
+        ],
+        "rank": 20,
+        "status": "exploratory_low_voi",
+        "cheapest_test_or_revival": "Supply the exact category, evaluator and weak point-surjectivity before invoking a diagonal theorem.",
+        "inference_limit": "Historical abstract theorem does not authenticate its retracted physical realization; metaphor alone adds no obstruction."
+      }
+    ],
+    "top_next": "Next ordinary B selection: scope the full induced ambient curvature source and first normal jet on Ricci-flat PetrovD section data, retaining mixed/vertical terms. This tests whether an unchanged flat completion is compatible, not all bulk completions or GU. Compare source-grounded distinctive-observable and shared-section bridges; do not repeat fullY determinant torsion, local complement, finitejet/coclosure or fixed-linear Euler rechecks.",
+    "track_policy": "Joe27k/l now authorizes SOURCE versus best-variant GU*. Current admitted science uses separate attribution; program_focus implementation belongs to a separate bounded governance Run, not this frozen footprint."
+  },
+  "follow_through": {
+    "consumed": [
+      "Extra fullY fibre determinant obstruction in the admitted spin normalH class",
+      "Universal positive probabilityescape extension toD",
+      "Wedge repair by unchanged cubic/quadratic exactvariation",
+      "Treating nativeH timelikeness as a new metricselection mechanism"
+    ],
+    "survivors": [
+      "Specified positiveJ/volume/connection and relative/enddata",
+      "Sourcephysical gauge/current/normalization selection",
+      "TypeI Weyl law with pathdependentDlimits; addedtensor/globaldata outsideclass",
+      "Newsource/GUstar completion only with explicit repairs/costs/fidelity and allpriorobstruction recheck"
+    ],
+    "next": "Next ordinary B selection: scope the full induced ambient curvature source and first normal jet on Ricci-flat PetrovD section data, retaining mixed/vertical terms. This tests whether an unchanged flat completion is compatible, not all bulk completions or GU. Compare source-grounded distinctive-observable and shared-section bridges; do not repeat fullY determinant torsion, local complement, finitejet/coclosure or fixed-linear Euler rechecks."
+  },
+  "accounting": {
+    "counter_before": 104,
+    "counter_after": 105,
+    "LB_LADDER_before": 18,
+    "LB_LADDER_after": 19,
+    "bet_credit": 0,
+    "verdict_changes": 0
+  },
+  "effect_line": "Change: fullY lift burden discharged and proposedD universalescape rejected; why: integral determinant parity and exactcovariant counterpaths; authority: standing27h plus j/k/l considered; appliedT2 evidence/reranking only. No governance or physicalverdict effect in this Run."
+}

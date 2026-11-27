@@ -81,6 +81,11 @@
       "delta_id": "GU-NORMAL-SM-CHARACTERISTIC-2026-11-27",
       "path": "lab/process/conditional-evidence-deltas/gu-normal-sm-characteristic-2026-11-27.json",
       "status": "pending"
+    },
+    {
+      "delta_id": "GU-FULL-Y-PRODUCT-LIFT-2026-11-27",
+      "path": "lab/process/conditional-evidence-deltas/gu-full-y-product-lift-2026-11-27.json",
+      "status": "pending"
     }
   ]
 }
