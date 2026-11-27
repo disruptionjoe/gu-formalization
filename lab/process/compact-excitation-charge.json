@@ -1,0 +1,171 @@
+{
+  "artifact": "COMPACT_EXCITATION_CHARGE",
+  "date": "2026-11-27",
+  "basis_revision": "b48a1fbdb1237450d355ccb5b502e4b02f0f3856",
+  "status": "internal_T1_compact_excitation_charge_reviewed",
+  "program_target": "LB-CLASS",
+  "tier": "T1",
+  "expected_delta": "Close the remaining finite-order local readout class as a carrier of nonzero compact excitation charges from ambient coclosure alone.",
+  "actual_delta": "Every finite-order observed-only conserved current in the full cutoff-admissible field category has zero vacuum-subtracted compact excitation charge. Everywhere nonnegative excitation density is therefore identically zero on the admitted full jet domain. Nonzero improvement stresses remain; extra equations and noncompact/topological domains are outside.",
+  "source_bridge": {
+    "status": "conditional",
+    "reason": "SC-COS50/51/52 assert an automatic dark-energy identity and adjoint one-form, but do not select coderivative-only dynamics, finite-order observed-only stress or the full cutoff-admissible physical field domain."
+  },
+  "class_covered": "Fixed nondegenerate ambient/section geometry, coefficient connection and positive background weight; all smooth local observed fields in a vector-bundle or explicitly cutoff-closed domain; finite-order support-local observed current with off-shell conservation. Stress version requires symmetric stress and a fixed Killing field.",
+  "premises": [
+    "Fixed backgrounds and unrestricted local coclosure germs",
+    "Full observed field/jet domain or explicit cutoff-admissible subclass",
+    "Vacuum subtraction, support-local finite differential order",
+    "Divergence-free current; for stress, symmetry plus Killing contraction"
+  ],
+  "kill_condition": "Nonzero compact excitation charge is impossible under these premises; no global GU or homogeneous dark-energy kill.",
+  "weakest_unproved_link": "Source necessity of this stress/readout/domain category.",
+  "source_necessary_claim": "conditional",
+  "class_C_representativeness": "Not proved; both width witnesses remain uncertified. No wholeC verdict.",
+  "structural_or_build_specific": "STRUCTURAL for the quantified readout class; no W2 reconstruction choice used.",
+  "claim_effect": "Scoped internal mathematical result only; no source, physics-ledger, matrix-cell or canon verdict.",
+  "choice_budget_effect": "none;10families/4groupedobligations/bookkeepingnet6/0source-selectedpredictions unchanged",
+  "reuse": {
+    "basis": "Conservation-descent theorem reused and its ODE implication rederived at B structure level; no LC output promoted solely by citation.",
+    "prior_duplicate_checks": [
+      "K1883/K1886 concern particular operator-range charges, not all observed-only finite-order currents.",
+      "Selected K77 stationary I2B Hessian factorization already includes indefinite pairing/isotropic-image counterexample; no repeat.",
+      "Observation/embedding bounded audit consumed by custody note; no repeated charges/anomaly arithmetic."
+    ],
+    "literature": [
+      {
+        "ref": "https://arxiv.org/abs/2205.01459",
+        "relevance": "Standard current improvements/superpotentials do not alter charges under support assumptions; no novelty claim."
+      },
+      {
+        "ref": "https://math.stanford.edu/~conrad/diffgeomPage/handouts/stokesthm.pdf",
+        "relevance": "Stokes on oriented smooth manifolds; signature is irrelevant for differential-form theorem."
+      }
+    ]
+  },
+  "selection": {
+    "mandatory_basis": "Counter94 ordinaryB; LB-CLASS, T1; no unfinished T1 and packets terminal or explicitly blocked.",
+    "shared_leverage": [
+      "Dark-energy automatic-identity to observed-stress bridge",
+      "Nonzero positive compact excitation energy from that same bridge"
+    ],
+    "strongest_eligible_alternative": "Observation physical-carrier audit completed as custody correction. A new I2B physical Gram calculation still lacks the source-selected pairing and actual residual-zero carrier; its generic Hessian theorem is already owned.",
+    "outcomes": [
+      "Proof passes: consume local derivative-readout enumerations as nonzero compact-energy repairs.",
+      "Counterexample in same category: name and repair support/domain/current premise.",
+      "Application requires extra equations or topology: retain outside scope, no viability credit."
+    ],
+    "forecast": "One short class proof with finite controls/Lean and review; cost judgment only."
+  },
+  "verification": {
+    "controls": {
+      "checks": {
+        "engine_derivative": true,
+        "engine_integral": true,
+        "engine_substitution": true,
+        "improvement_0_divergence": true,
+        "improvement_0_charge_zero": true,
+        "improvement_0_side_flux": true,
+        "improvement_0_future_zero": true,
+        "improvement_0_nonzero_local": true,
+        "improvement_1_divergence": true,
+        "improvement_1_charge_zero": true,
+        "improvement_1_side_flux": true,
+        "improvement_1_future_zero": true,
+        "improvement_1_nonzero_local": true,
+        "improvement_2_divergence": true,
+        "improvement_2_charge_zero": true,
+        "improvement_2_side_flux": true,
+        "improvement_2_future_zero": true,
+        "improvement_2_nonzero_local": true,
+        "improvement_3_divergence": true,
+        "improvement_3_charge_zero": true,
+        "improvement_3_side_flux": true,
+        "improvement_3_future_zero": true,
+        "improvement_3_nonzero_local": true,
+        "improvement_both_signs": true,
+        "on_shell_wave_equation": true,
+        "on_shell_current_conserved": true,
+        "on_shell_compact_charge_positive": true,
+        "on_shell_cutoff_not_admissible": true,
+        "planted_positive_readout_not_conserved": true
+      },
+      "grouped_checks": 29,
+      "improvement_charges": [
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "positive_wave_charge": "131072/45045",
+      "scope": "Finite exact boundary/known-answer controls; no GU physical state or universal smooth proof inferred.",
+      "runtime_seconds": 0.0024827499873936176
+    },
+    "lean": {
+      "status": "PASS",
+      "command": "lake env lean -j1 /private/tmp/gu-compact-charge-wt-20261127/Lean/GUFormalization/CompactCharge.lean",
+      "cwd": "mounted GU root with cached Mathlib",
+      "fresh": true,
+      "finite_cores": 2,
+      "output": "none",
+      "scope": "Finite balance cancellation and nonnegative finite-sum core only"
+    },
+    "gates": {
+      "program_focus_audit": "PASS",
+      "typed_carrier_declaration_audit": "PASS",
+      "kill_target_claim_audit": "PASS",
+      "frontmatter_status_schema_audit": "PASS",
+      "source_native_comparator_routing_audit": "PASS",
+      "lean_certificate_surface_audit": "PASS",
+      "current_state_absolute_currency_audit": "PASS",
+      "conditional_evidence_delta_gate": "PASS",
+      "research_context_reader_audit": "PASS"
+    },
+    "review": {
+      "status": "accepted",
+      "roles": [
+        "independent mathematics specialist",
+        "independent source/physics specialist",
+        "independent hostile reviewer"
+      ],
+      "ref": "lab/process/hostile-reviews/2026-11-27-compact-charge-review.md"
+    },
+    "ceiling": "Finite Lean and exact polynomial controls do not formalize smooth ODE, bump extension, Stokes or source applicability.",
+    "gates_receipt": "Final nine native gates PASS; Lean README relative certificate path repaired and rechecked, no gate weakened.",
+    "review_hashes": {
+      "math": "7b0321b947f85db7958c2051c70fcc476a5058237f5f05892bf2f5eef5d34365",
+      "source": "9b54e6ad39fd8aa8db60bba88917f324c82b1b79122201c4cf11bebf650d79ea",
+      "hostile": "ee79d85cbe5d54c08ee71718a92e265f027561fc9a42920590cdb5bd9f553383"
+    },
+    "artifact_hashes": {
+      "explorations/conditional-build/compact-excitation-charge-2026-11-27.md": "3f0fa203e8a0effd32be012bc3a73300a1d15beae965fda737b5eaf9a1f35ba4",
+      "Lean/GUFormalization/CompactCharge.lean": "393275f5c1c2091e85fec22f5e3333990f4d7baf9aec01fe4599d10df9ff8b49",
+      "tests/program-focus/compact_charge_probe.py": "9835fb3c27408fb916f466a6e38a4f15adbe953b929ecfc7fdd5e56047ef1aa6"
+    }
+  },
+  "follow_through": {
+    "consumed": [
+      "Finite-order observed-only derivative readout enumeration as nonzero compact charge from coclosure alone",
+      "Generic missing-embedding/complex-carrier audit",
+      "Generic second-action stationary Hessian factorization"
+    ],
+    "survivors": [
+      "Nonzero local sign-changing improvement stress with zero compact charge",
+      "Background homogeneous cosmological term",
+      "Noncompact/boundary/topological charges or cutoff-inadmissible domain",
+      "Extra observed equations or normal-jet/nonlocal readout"
+    ],
+    "next": "Live counter95 selects LC-BETS; BET-2PLUS1 has21 runs remaining versus20 for the other active bets. Reuse its complete weighted transport classification; test only a genuinely new source/domain implication of the surviving paired-arrow/density/current class. No neighboring coefficient enumeration, repeated anomaly arithmetic or invented physical projector. If that exact input remains missing, record it and take a distinct executable discriminator under the existing autonomous pivot rules."
+  },
+  "accounting": {
+    "counter_before": 94,
+    "counter_after": 95,
+    "LB_CLASS_before": 50,
+    "LB_CLASS_after": 51,
+    "process_credit": 0,
+    "bet_credit": 0,
+    "matrix_cell_changes": 0,
+    "ledger_verdict_changes": 0
+  },
+  "effect_line": "Change: source-first mission, linked map and custody correction; why: avoid candidate/source drift and repeated missing-input work; authority:Joe27(h); applied; later effect: avoided repeat branching/anomaly and I2B Hessian, long-term speed not yet measured."
+}

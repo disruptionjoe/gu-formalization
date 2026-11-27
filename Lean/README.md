@@ -266,3 +266,7 @@ replacement for `lake build` or targeted standalone Lean checks.
 ## Printed endpoint Hessian separation (2026-11-27)
 
 `GUFormalization/EndpointHessianSeparation.lean`: **LEAN-VERIFIED**, targeted single-thread compilation passed. It checks affine pairing cancellation at arbitrary backgrounds and rank-gap arithmetic from explicit premises; it does not formalize the smooth variational theorem or source custody. Targeted receipt is in `lab/process/printed-shiab-endpoint-audit.json`.
+
+## Compact excitation charge finite cores (2026-11-27)
+
+`GUFormalization/CompactCharge.lean` checks the abstract boundary-balance cancellation and nonnegative finite-sum implication. Smooth lifts, cutoff extensions, Stokes and physical/source applicability remain written and reviewed. See [result](../explorations/conditional-build/compact-excitation-charge-2026-11-27.md).

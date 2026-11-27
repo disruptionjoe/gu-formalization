@@ -2844,5 +2844,35 @@
       "proof": "Cubic preSpin classification Sprime=C tensorId on sl; invertibility preserves originalSpin-invariant kernel, forcing kerC invariant. IrreducibleLambda2 dim91 versus output14 kills C. Symbol centrality plus rank preservation gives rank originalS on central input<=14; equivariance gives rank0or91, hence0.",
       "claim_limit": "Does not exclude Tdependent/differential/nonlocal/noninvertible maps, altered physical domain/tangent, different equations or nonSpin originalS."
     }
+  },
+  "compact_excitation_charge_2026_11_27": {
+    "actual_delta": "Every finite-order observed-only conserved current in the full cutoff-admissible field category has zero vacuum-subtracted compact excitation charge. Everywhere nonnegative excitation density is therefore identically zero on the admitted full jet domain. Nonzero improvement stresses remain; extra equations and noncompact/topological domains are outside.",
+    "evidence": [
+      "explorations/conditional-build/compact-excitation-charge-2026-11-27.md",
+      "lab/process/compact-excitation-charge.json"
+    ],
+    "source_bridge": {
+      "status": "conditional",
+      "reason": "SC-COS50/51/52 assert an automatic dark-energy identity and adjoint one-form, but do not select coderivative-only dynamics, finite-order observed-only stress or the full cutoff-admissible physical field domain."
+    },
+    "consumed_successors": [
+      "Finite-order observed-only derivative readout enumeration as nonzero compact charge from coclosure alone",
+      "Generic missing-embedding/complex-carrier audit",
+      "Generic second-action stationary Hessian factorization"
+    ],
+    "survivors": [
+      "Nonzero local sign-changing improvement stress with zero compact charge",
+      "Background homogeneous cosmological term",
+      "Noncompact/boundary/topological charges or cutoff-inadmissible domain",
+      "Extra observed equations or normal-jet/nonlocal readout"
+    ],
+    "next": "Live counter95 selects LC-BETS; BET-2PLUS1 has21 runs remaining versus20 for the other active bets. Reuse its complete weighted transport classification; test only a genuinely new source/domain implication of the surviving paired-arrow/density/current class. No neighboring coefficient enumeration, repeated anomaly arithmetic or invented physical projector. If that exact input remains missing, record it and take a distinct executable discriminator under the existing autonomous pivot rules."
+  },
+  "observation_physical_carrier_custody_2026_11_27": {
+    "status": "bounded_audit_consumed",
+    "evidence": [
+      "lab/process/observation-physical-carrier-custody-2026-11-27.md"
+    ],
+    "actual_delta": "Structural embedding/intersection/complex carrier/conditional charges supplied; actual physical current/weak projector/carrier/domain remains. No repeat arithmetic."
   }
 }

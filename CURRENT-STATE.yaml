@@ -1,10 +1,10 @@
 schema_version: '1.0'
 repository: observerse-research-program
 branch: main
-revision_basis: da26367e6fe6410d1956ae50c77364ecaf609208
+revision_basis: b48a1fbdb1237450d355ccb5b502e4b02f0f3856
 program_focus:
-  version: 2026-11-27-v1
-  authority: joe_direct_chat_2026_11_27_c
+  version: 2026-11-27-v2
+  authority: joe_direct_chat_2026_11_27_h
   priority_packets:
   - lab/process/work-packets/source-required-class-tests-2026-11-24.md
   - lab/process/work-packets/six-spinor-grading-compatibility-2026-11-24.md
@@ -40,6 +40,7 @@ program_focus:
     opportunity_register: lab/process/source-action-opportunity-register-2026-11-25.json
     research_reuse_index: lab/process/research-reuse-index.json
     research_efficiency_method: lab/methods/research-reuse-and-calibration.md
+    falsification_progress_map: lab/process/falsification-progress-map.json
   split:
     lane_B_constraint_matrix: 0.75
     lane_C_discovery_bets: 0.25
@@ -153,7 +154,9 @@ program_focus:
     shared prerequisite; possible outcomes and their decision or evidence effects; remaining cost and
     strongest eligible alternative. Prefer source-relevant class tests by expected decisiveness and reach
     per cost, with estimates labelled as judgments. Same next action can still have information value.
-    Reuse completed theorems and compare only uncovered successors.'
+    Reuse completed theorems and compare only uncovered successors. Weight reach by shared prerequisites
+    and the open routes a result can close. Skip a step only if its outcomes have no distinct useful decision
+    or evidence effect; no fabricated probability precision.'
   research_efficiency:
     method: lab/methods/research-reuse-and-calibration.md
     index: lab/process/research-reuse-index.json
@@ -167,8 +170,58 @@ program_focus:
       than across all source-admissible variations.
     publication_flag: A source-level negative claim needs an external expert check before publication.
       This flag never pauses research and does not authorize contact or release.
-    retrospective: About every ten scientific waves, review forecast versus actual cost/delta, repeated
-      work and useful shortcuts in existing weekly metrics. No new schedule.
+    retrospective: About every ten scientific waves and after a self-correction, review forecast versus
+      actual cost/delta, repeated work and useful shortcuts in existing weekly metrics. Update dead-end/coverage
+      evidence and rankings; no new schedule.
+  standing_mission:
+    objective: Determine as quickly and honestly as possible whether GU as specified by its sources can
+      be falsified. Candidate work is a tool, not the objective. Preserve the existing executable class-C
+      goal as an intermediate test, not an exhaustive definition of GU.
+    success_order:
+    - 'Source-level falsification: every premise source-fixed with page/equation custody, calibrated diagnostics
+      and T1 review; external expert check is a publication flag only.'
+    - 'Scoped source-level incompleteness: name the missing ingredient, the particular predictions or
+      obligations it prevents, and excluded completion classes. Do not erase independently established
+      kinematic content.'
+    - Class-level exclusions with premises, scope and source relevance.
+    - Decisive survivors with their remaining burdens.
+    fidelity: Before interpreting a repo construction as source evidence, check that its solutions reproduce
+      the relevant printed equations. A failed fidelity check binds the reconstruction; it does not prohibit
+      its use as an explicitly typed diagnostic comparator.
+    maintenance: Keep evidence attached through versionless ledger deltas; verdict changes retain review.
+      Refresh affected progress-map cells and rankings when evidence or scope changes; the map is a linked
+      view, not a new verdict owner.
+    reporting: On request show source/class/candidate layers, positive structural fits, obstructions,
+      shared missing inputs and fastest eligible tests. A route-closure estimate needs an explicitly bounded
+      denominator and a judgment label; the fraction of all possible GU realizations closed is unknown.
+    authority_boundary: Continue autonomously within existing authority. Existing canon/ledger tiers,
+      external and irreversible-action limits remain; no research waiting checkpoint.
+compact_excitation_charge_2026_11_27:
+  status: internal_T1_compact_excitation_charge_reviewed
+  actual_delta: Every finite-order observed-only conserved current in the full cutoff-admissible field
+    category has zero vacuum-subtracted compact excitation charge. Everywhere nonnegative excitation density
+    is therefore identically zero on the admitted full jet domain. Nonzero improvement stresses remain;
+    extra equations and noncompact/topological domains are outside.
+  source_bridge:
+    status: conditional
+    reason: SC-COS50/51/52 assert an automatic dark-energy identity and adjoint one-form, but do not select
+      coderivative-only dynamics, finite-order observed-only stress or the full cutoff-admissible physical
+      field domain.
+  evidence:
+  - explorations/conditional-build/compact-excitation-charge-2026-11-27.md
+  - lab/process/compact-excitation-charge.json
+  next: Live counter95 selects LC-BETS; BET-2PLUS1 has21 runs remaining versus20 for the other active
+    bets. Reuse its complete weighted transport classification; test only a genuinely new source/domain
+    implication of the surviving paired-arrow/density/current class. No neighboring coefficient enumeration,
+    repeated anomaly arithmetic or invented physical projector. If that exact input remains missing, record
+    it and take a distinct executable discriminator under the existing autonomous pivot rules.
+  choice_budget_effect: none
+standing_goal_update_2026_11_27:
+  authority: joe_direct_chat_2026_11_27_h
+  evidence: lab/process/standing-goal-update-2026-11-27.json
+  progress_map: lab/process/falsification-progress-map.json
+  custody_correction: lab/process/observation-physical-carrier-custody-2026-11-27.md
+  scientific_credit: 0
 printed_shiab_endpoint_audit_2026_11_27:
   status: internal_T1_printed_endpoint_and_arbitrary_fixed_multiplier_obstruction_reviewed
   basis_revision: da26367e6fe6410d1956ae50c77364ecaf609208
@@ -184,7 +237,7 @@ printed_shiab_endpoint_audit_2026_11_27:
       nonzero members. Unique Phi/product selection is not needed for this universal implication. Exhaustiveness
       over broader faithful GU constructions or mere equation-zero-set formulations is not established.
   next:
-    status: ready_bounded_source_observation_conditionality_audit
+    status: consumed_by_observation_physical_carrier_audit
     target: LB-CLASS
     question: Which conditions behind RA-B1..B5 and AC-D1..D5 are fixed by the actual source observation/branching
       data, and which still require an admitted physical carrier or domain?
@@ -212,6 +265,7 @@ printed_shiab_endpoint_audit_2026_11_27:
       arithmetic.
     consumed_prior_next: Fixed multiplier extension finished analytically in this wave; no separate run
       or counter.
+    consumption_evidence: lab/process/observation-physical-carrier-custody-2026-11-27.md
   choice_budget_effect: none
   publication: Source-facing candidate finding; external check before paper release, no waiting or contact.
   fixed_multiplier_corollary:

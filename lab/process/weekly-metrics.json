@@ -131,5 +131,19 @@
     "records": "Existing wave evidence: forecast cost/delta, actual cost/delta, reuse, unsuccessful shortcuts and pivot rationale. Unknown telemetry stays unknown.",
     "review": "At approximately ten further scientific increments, append a short review here and revise estimates/ranking. Do not make a new schedule or fabricate past forecasts.",
     "process_credit": "None; this implementation wave does not increment the scientific counter."
-  }
+  },
+  "self_correction_retrospectives": [
+    {
+      "date": "2026-11-27",
+      "basis_revision": "b48a1fbdb1237450d355ccb5b502e4b02f0f3856",
+      "trigger": "Current bounded observation audit corrected historical blanket missing-carrier rhetoric.",
+      "failure_mode": "Reusing an old missing-input sentence without checking later source and observation results.",
+      "repair": "Retain LA3 exact anomaly theorem; link current complex-carrier/intersection/paired-sector results and distinguish physical current/domain.",
+      "effect": "Avoided repeated branching/anomaly and second-action Hessian computations; no measured token savings claimed.",
+      "evidence": [
+        "lab/process/observation-physical-carrier-custody-2026-11-27.md",
+        "lab/process/standing-goal-update-2026-11-27.json"
+      ]
+    }
+  ]
 }

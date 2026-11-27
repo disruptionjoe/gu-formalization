@@ -1,6 +1,6 @@
 # Research reuse, calibration and autonomous pivots
 
-Authority: Joe direct chat, 2026-11-27(c). This implements a bounded process
+Authority: Joe direct chat, 2026-11-27(c), supplemented by standing goal27(h). This implements a bounded process
 update under `program_focus`; scientific acceptance and source conventions
 remain with their existing owners. It adds no scientific counter credit.
 
@@ -92,7 +92,7 @@ Finish started Tier-1 validation, preserve explicit authority and ordinary LC
 cadence, and record the revival input. New evidence can reopen a route without
 renewed permission. This does not authorize external or destructive actions.
 
-About every ten scientific waves, use the existing weekly metrics for a short
+About every ten scientific waves and after a self-correction, use the existing weekly metrics for a short
 review: forecasts versus actual outcomes/costs, repeated work, slow routes and
 useful shortcuts. Update estimates and the existing queue. Do not create a new
 schedule, duplicate cost ledger or retroactively fabricate forecasts.
@@ -117,3 +117,21 @@ a tag nor a literature search establishes world novelty or authorizes release.
 | 15–16 | Lightweight records and approximately ten-wave retrospectives in existing evidence and weekly metrics; no new automation. |
 | 17 | Claim ladder with a publication-only expert-check flag; no research wait or external-contact authority. |
 | 18 | Preserve independent result opportunities and check prior art before writing; no automatic paper backlog. |
+
+## Source fidelity and the progress view
+
+Source-printed equations take priority over a reconstruction. Before treating a
+candidate failure as source evidence, check fidelity on its actual solutions.
+A mismatch binds the build; its use as a labelled diagnostic remains possible.
+
+`python3 scripts/research_context.py --progress-map` projects the six pillars at
+source, structural-class and candidate levels. Existing theorem, source, ledger
+and assumption owners retain authority. Update only affected cells and their
+linked evidence hashes after checking the changed scope. A hash mismatch means
+recheck, not falsehood; matching bytes do not certify scientific applicability.
+Use shared missing inputs to assess how many named routes a test could decide.
+No unbounded global route count or numerical probability is inferred.
+
+Positive structural fits face the same source/physical-bridge distinction as
+exclusions. Missing dynamics does not erase owned representation fits; a
+conditional charge match does not select an actual physical carrier.

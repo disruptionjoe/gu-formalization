@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0",
+  "delta_id": "GU-OBSERVATION-CARRIER-CUSTODY-2026-11-27",
+  "status": "pending",
+  "base": {
+    "ledger_ref": "lab/process/conditional-physics-ledger-v0.263.json",
+    "ledger_sha256": "7c75c179c3af512084e50af19043a5d320b38e8c1e53325ee5ec2f97ad9c257b"
+  },
+  "affected_rows": [
+    "RA-A3",
+    "RA-B1",
+    "RA-B2",
+    "RA-B3",
+    "RA-B4",
+    "RA-B5",
+    "AC-D1",
+    "AC-D2",
+    "AC-D3",
+    "AC-D4",
+    "AC-D5"
+  ],
+  "result_refs": [
+    "lab/process/observation-physical-carrier-custody-2026-11-27.md",
+    "explorations/source-native-spin64-observation-sector-obstruction-2026-08-30.md",
+    "explorations/conditional-build/source-weak-action-transport-2026-11-13.md"
+  ],
+  "source_disposition": "SC-GRP03 supplies proposed geometric reduction/intersection; complex source carrier and paired real sectors are owned. SC-CHI01/04/51/52 allows effective observed chirality within nonchiral total. Physical current/weak projector/carrier/domain remain missing.",
+  "claim_ceiling": "Evidence-only custody correction. All row verdicts and derivation grades unchanged. No action-independent physical realization, family count, unique anomaly selector or new independent-constraint tally.",
+  "proposed_effect": {
+    "summary": "Attach current structural fits and exact physical bridge; do not inherit superseded blanket missing-complex-carrier/embedding rhetoric from LA3.",
+    "requested_row_changes": [
+      "Keep existing charge/anomaly arithmetic and row-specific revival triggers. Add evidence pointers and this scoped distinction only."
+    ]
+  },
+  "conflict_keys": [
+    "RA-A3",
+    "RA-B1",
+    "RA-B2",
+    "RA-B3",
+    "RA-B4",
+    "RA-B5",
+    "AC-D1",
+    "AC-D2",
+    "AC-D3",
+    "AC-D4",
+    "AC-D5",
+    "GU-SOURCE-APPLICABILITY-RECONCILIATION-2026-11-24"
+  ],
+  "integration": null
+}

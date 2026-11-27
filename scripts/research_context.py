@@ -15,6 +15,10 @@ MATRIX = "lab/process/action-constraint-matrix.json"
 BETS = "lab/process/discovery-bets.json"
 SOURCES = "lab/sources/source-claim-register.yaml"
 REUSE_INDEX = "lab/process/research-reuse-index.json"
+PROGRESS_MAP = "lab/process/falsification-progress-map.json"
+PROGRESS_PILLARS = ("gravity_shiab", "predictive_dynamics", "positive_energy",
+                    "chirality_generations", "dark_energy", "gauge_mass_gap")
+PROGRESS_LAYERS = ("source", "class", "candidate")
 SIGNATURE_FIELDS = ("object", "carrier", "convention", "class", "premises")
 REUSE_CEILING = (
     "Exact signature equality compares declarations only; it is not logical coverage or applicability. "
@@ -397,6 +401,90 @@ def reuse_projection(index, query, *, hypothesis=None, check_cache=False, root=N
             "ceiling": REUSE_CEILING}
 
 
+def progress_projection(data, *, root=None, revision=None):
+    """Project an attributed 18-cell map; hashes check custody, never scientific truth."""
+    root = Path(root) if root is not None else ROOT
+    if not isinstance(data, dict) or data.get("schema_version") != "1.0":
+        raise ValueError("progress map requires schema_version '1.0'")
+    if not re.fullmatch(r"[0-9a-f]{40}", str(data.get("basis_revision", ""))):
+        raise ValueError("progress map needs a full basis_revision")
+    pillars = data.get("pillars")
+    if (not isinstance(pillars, list) or len(pillars) != 6
+            or any(not isinstance(p, dict) for p in pillars)
+            or {p.get("id") for p in pillars} != set(PROGRESS_PILLARS)):
+        raise ValueError("progress map must contain the six distinct named pillars")
+    # Validate every declared reference before opening any dependency.
+    validate_reuse_refs(data, root)
+    assumptions_ref = data.get("assumptions_ref")
+    repository_ref(root, assumptions_ref)
+    dependencies = data.get("dependencies")
+    if not isinstance(dependencies, list):
+        raise ValueError("progress map needs a dependencies list")
+    pins, checked = {}, []
+    for dep in dependencies:
+        if not isinstance(dep, dict):
+            raise ValueError("progress dependency must be an object")
+        path = repository_ref(root, dep.get("ref"))
+        if path in pins:
+            raise ValueError("duplicate progress dependency file")
+        pins[path] = dep
+    for pillar in pillars:
+        cells = pillar.get("cells")
+        if not isinstance(cells, dict) or set(cells) != set(PROGRESS_LAYERS):
+            raise ValueError("every pillar requires exactly source/class/candidate cells")
+        for cell in cells.values():
+            if not isinstance(cell, dict):
+                raise ValueError("progress cell must be an object")
+            for key in ("attributed_status", "closed", "open", "cheapest_next"):
+                if not isinstance(cell.get(key), str) or not cell[key].strip():
+                    raise ValueError(f"progress cell requires nonempty {key}")
+            repository_ref(root, cell.get("shared_missing_ref"))
+            refs = cell.get("evidence_refs")
+            if not isinstance(refs, list) or not refs:
+                raise ValueError("progress cell needs evidence_refs")
+            for ref in refs:
+                repository_ref(root, ref)
+    states = {}
+    for path, dep in pins.items():
+        item = {"ref": dep["ref"], "recorded_sha256": dep.get("sha256"),
+                "freshness": "needs_recheck"}
+        if not re.fullmatch(r"[0-9a-f]{64}", str(dep.get("sha256", ""))):
+            item["reason"] = "missing or invalid SHA256 pin"
+        else:
+            try:
+                with path.open("rb") as stream:
+                    hasher = hashlib.sha256()
+                    for chunk in iter(lambda: stream.read(1024 * 1024), b""):
+                        hasher.update(chunk)
+                    digest = hasher.hexdigest()
+                item["current_sha256"] = digest
+                if digest == dep["sha256"]:
+                    item["freshness"] = "hash_current"
+                else:
+                    item["reason"] = "dependency bytes changed"
+            except OSError:
+                item["reason"] = "dependency missing or unreadable"
+        states[path] = item
+        checked.append(item)
+    projected = []
+    for pillar in pillars:
+        cells = {}
+        for layer, cell in pillar["cells"].items():
+            refs = [assumptions_ref, cell["shared_missing_ref"], *cell["evidence_refs"]]
+            stale = [ref for ref in dict.fromkeys(refs)
+                     if states.get(repository_ref(root, ref), {}).get("freshness") != "hash_current"]
+            cells[layer] = {**cell, "freshness": "needs_recheck" if stale else "hash_current",
+                            "recheck_refs": stale}
+        projected.append({"id": pillar["id"], "label": pillar.get("label", pillar["id"]), "cells": cells})
+    return {"map_ref": PROGRESS_MAP, "basis_revision": data["basis_revision"],
+            "checked_out_revision": revision or "not supplied", "scope": data.get("scope"),
+            "assumptions_ref": assumptions_ref, "dependencies": checked, "pillars": projected,
+            "freshness": "needs_recheck" if (any(d["freshness"] == "needs_recheck" for d in checked)
+                or any(c["freshness"] == "needs_recheck"
+                       for p in projected for c in p["cells"].values())) else "hash_current",
+            "ceiling": "Linked attributed evidence only; no source verdict, semantic ranking, work selection or global completion percentage. Hash equality checks declared file custody only, not scientific applicability, fresh verification or remote synchronization. Missing or changed dependencies require recheck; omitted evidence is not absent knowledge."}
+
+
 def render_context(state, verification, *, matrix=None, bets=None, register=None, packets=None,
                    target=None, claim=None, history=False, revision=None):
     """Importable renderer; two-argument use reports missing live inputs explicitly."""
@@ -461,6 +549,7 @@ def main(argv=None):
     query.add_argument("--target", help="Exact cell (P3xglobal_index), intersection or bet ID")
     query.add_argument("--claim", help="Exact SC-ID; show its registered polarity and source custody")
     query.add_argument("--reuse", metavar="QUERY", help="Exact indexed report ID, otherwise literal case-insensitive text search")
+    query.add_argument("--progress-map", action="store_true", help="Read the linked six-pillar/three-layer map and check its pinned dependency hashes")
     parser.add_argument("--hypothesis", metavar="JSON_PATH", help="Compare explicit signature and optional verifier declarations; requires --reuse")
     parser.add_argument("--check-cache", action="store_true", help="Hash declared cache artifacts only; never execute the verifier; requires --reuse")
     parser.add_argument("--history", action="store_true", help="Also show full dated focus provenance and explicitly historical lead text")
@@ -468,6 +557,13 @@ def main(argv=None):
     if (args.hypothesis or args.check_cache) and args.reuse is None:
         parser.error("--hypothesis and --check-cache require --reuse")
     try:
+        if args.progress_map:
+            data = json.loads(repository_ref(ROOT, PROGRESS_MAP).read_text(encoding="utf-8"))
+            head = subprocess.run(["git", "rev-parse", "HEAD"], cwd=ROOT, text=True, capture_output=True, check=False)
+            revision = head.stdout.strip() if head.returncode == 0 else "unavailable (not a Git checkout)"
+            view = progress_projection(data, root=ROOT, revision=revision)
+            print(NOTICE + "\n\n```yaml\n" + yaml.safe_dump({"progress_map": view}, sort_keys=False, allow_unicode=True) + "```\n", end="")
+            return 0
         if args.reuse is not None:
             index = json.loads(repository_ref(ROOT, REUSE_INDEX).read_text(encoding="utf-8"))
             hypothesis = json.loads(Path(args.hypothesis).read_text(encoding="utf-8")) if args.hypothesis else None

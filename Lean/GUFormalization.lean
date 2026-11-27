@@ -121,3 +121,5 @@ import GUFormalization.ConservationDescent
 
 import GUFormalization.FullShiabConsistency
 import GUFormalization.EndpointHessianSeparation
+
+import GUFormalization.CompactCharge

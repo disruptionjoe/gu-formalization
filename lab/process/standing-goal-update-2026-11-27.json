@@ -1,0 +1,49 @@
+{
+  "artifact": "STANDING_GOAL_UPDATE",
+  "date": "2026-11-27",
+  "authority": "joe_direct_chat_2026_11_27_h",
+  "basis_revision": "b48a1fbdb1237450d355ccb5b502e4b02f0f3856",
+  "scientific_credit": 0,
+  "changes": [
+    {
+      "change": "Mission registered above retained classC intermediate goal",
+      "before": "ClassC P1-P3 intersection was the sole headline goal",
+      "after": "Source-first success ladder with explicit source/class/candidate scope; classC remains useful but not exhaustive GU"
+    },
+    {
+      "change": "Fidelity gate and shared-route selection",
+      "before": "Reuse/class preference existed, printed-equation fidelity implicit",
+      "after": "Candidate failures count as source evidence only after equation fidelity; VOI includes shared missing routes; evidence gains remain meaningful"
+    },
+    {
+      "change": "Linked six-pillar progress map",
+      "before": "Relevant results distributed among owners",
+      "after": "18 attributed cells with dependency hashes and read-only reader; changed bytes signal recheck, never automatic scientific verdict"
+    },
+    {
+      "change": "Source custody continuity",
+      "before": "Historical LA3 blanket missing-embedding/complex-carrier wording could be reused",
+      "after": "Source intersection/complex carrier/paired sectors banked; physical current/quotient/domain obligation retained; anomaly arithmetic untouched"
+    },
+    {
+      "change": "Self-correction retrospective",
+      "before": "Approximately ten-wave retrospective",
+      "after": "Also triggered by source/convention correction; existing weeklymetrics reused, no schedule"
+    }
+  ],
+  "preserved": [
+    "run_selection",
+    "LC cadence",
+    "review_tiers",
+    "forbidden list",
+    "priority_packets",
+    "no steering in status/agenda",
+    "source/ledger/canon verdicts",
+    "candidate choice budget"
+  ],
+  "validation": {
+    "projection_tests": "11PASS",
+    "scientific_verification_ref": "lab/process/compact-excitation-charge.json"
+  },
+  "effect_line": "Change: source-first mission, linked map and custody correction; why: avoid candidate/source drift and repeated missing-input work; authority:Joe27(h); applied; later effect: avoided repeat branching/anomaly and I2B Hessian, long-term speed not yet measured."
+}

@@ -1,0 +1,372 @@
+{
+  "schema_version": "1.0",
+  "basis_revision": "b48a1fbdb1237450d355ccb5b502e4b02f0f3856",
+  "scope": "Curated six-pillar x source/class/candidate linked view. Status belongs to cited owners; no scientific verdict promotion, automatic ranking, whole-history coverage or global percentage. Cheapest-next fields are attributed bounded suggestions, not dispatch instructions. Closed means resolved within the cited scope; it does not always mean falsified. Positive fits and remaining source/physical bridges stay explicit.",
+  "assumptions_ref": "lab/process/action-constraint-matrix.json#source_relevance_assumption_view.shared_prerequisites",
+  "dependencies": [
+    {
+      "ref": "explorations/conditional-build/bet-cosmology-conservation-descent-2026-11-27.md",
+      "sha256": "1753551df78ce20fd70f95abac7f835d5e9442fc2c09bbb76a9be2c221eab933"
+    },
+    {
+      "ref": "explorations/conditional-build/bet-cosmology-fixed-potentials-2026-11-11.md",
+      "sha256": "f185225860af05380da1bca075ae4bd8ee8c33812bb6b5db451c823891556a4d"
+    },
+    {
+      "ref": "explorations/conditional-build/bet-cosmology-regular-perturbations-2026-11-24.md",
+      "sha256": "468358099e4fdc79f8ae4629902b08ec8eb2176f263146a609305ba231a22e8b"
+    },
+    {
+      "ref": "explorations/conditional-build/bet-mass-gap-pati-salam-holonomy-2026-11-25.md",
+      "sha256": "819a6df09196e4558a7c8d466e24288f2ba0e91d23661e6d08abe9e9f7cca498"
+    },
+    {
+      "ref": "explorations/conditional-build/bet-mass-gap-stationary-torus-2026-11-27.md",
+      "sha256": "d54e0c924f03b4ff3c027c8396b4a0f7aa1117a8f804f8da92255887d332e223"
+    },
+    {
+      "ref": "explorations/conditional-build/cb-a-representation-content-2026-08-05.md",
+      "sha256": "ffae66bbcce7cb4ef3afcbd501f4276674bb2b1ccc5fa1522dc796dc23ecabfc"
+    },
+    {
+      "ref": "explorations/conditional-build/compact-excitation-charge-2026-11-27.md",
+      "sha256": "3f0fa203e8a0effd32be012bc3a73300a1d15beae965fda737b5eaf9a1f35ba4"
+    },
+    {
+      "ref": "explorations/conditional-build/native-descending-grading-classification-2026-11-21.md",
+      "sha256": "ff5cc67ee919e607150233bfd277aca0f486cae860482e046348b00ba23fc4bd"
+    },
+    {
+      "ref": "explorations/conditional-build/printed-shiab-endpoint-audit-2026-11-27.md",
+      "sha256": "829ca664f19a84943bbb28394c146ec1298554144aaa7764c589de35153fb792"
+    },
+    {
+      "ref": "explorations/conditional-build/source-action-controls-sensitivity-2026-11-27.md",
+      "sha256": "f60c82fc1233e30bc84b9b54f74ea087c7d6043aed5ac0841b070e2c8f8c002e"
+    },
+    {
+      "ref": "explorations/conditional-build/source-action-coupled-support-2026-11-27.md",
+      "sha256": "9531fb5b66ca47251fc729bc2201e894ebd3b414325354521c8a33cf90ba1a66"
+    },
+    {
+      "ref": "explorations/conditional-build/source-action-endpoint-cubic-2026-11-27.md",
+      "sha256": "33853b618671c40e50feab71802973ce4a577d8c7c8d70e7a109bc037f6e30da"
+    },
+    {
+      "ref": "explorations/conditional-build/source-action-endpoint-onshell-2026-11-27.md",
+      "sha256": "ba93125116d41439c106ffab6df8919fa8272466e071bba8bc4fdf8a8f41b030"
+    },
+    {
+      "ref": "explorations/conditional-build/source-action-finite-loss-completions-2026-11-27.md",
+      "sha256": "95e8994a935195b57ddeabfdd1ed9f7a7022eec85a8eeaef0b69b01495af0485"
+    },
+    {
+      "ref": "explorations/conditional-build/source-action-full-auxiliary-map-2026-11-26.md",
+      "sha256": "49e99bf8884b00cc6abe2546b84c50ee1e07829380ea2b2d067296191793393b"
+    },
+    {
+      "ref": "explorations/conditional-build/source-action-packet-phase-2026-11-27.md",
+      "sha256": "52d3ea95e24efe4818db934a4c071e5b27477557c142d8db072ea32997b4e3fb"
+    },
+    {
+      "ref": "explorations/conditional-build/source-action-scalar-normal-operator-2026-11-27.md",
+      "sha256": "92e6867893099df257eda691901cb8cdf4bd9cc02f27c92d10ddbb99991e3fbb"
+    },
+    {
+      "ref": "explorations/conditional-build/source-action-theta-divergence-2026-11-27.md",
+      "sha256": "db8e440623173743596a83bef6f9db53e702246332bf59e299dea2e394f7dcdf"
+    },
+    {
+      "ref": "explorations/conditional-build/source-premise-custody-2026-11-25.md",
+      "sha256": "0c3c6dd1215437ab45a53eac2ad4df1a642d76e7b6a686a3d91f9d754504200e"
+    },
+    {
+      "ref": "explorations/conditional-build/source-weak-action-transport-2026-11-13.md",
+      "sha256": "e703070c924bc75fda2b4c0af7c3d637392a453396406e9e8f5dd5320c2e4724"
+    },
+    {
+      "ref": "explorations/source-native-spin64-observation-sector-obstruction-2026-08-30.md",
+      "sha256": "eaaa4f62faca02e8cc663e4949c0b9ca099ba3b41759a19183f2eb289d3d54af"
+    },
+    {
+      "ref": "lab/active-research/joe-directed/ledger-advancement/la3-chiral-16-shadow-is-a-comparator-and-the-grant-is-inert-2026-08-15.md",
+      "sha256": "337f75383d5dc942346f0600093ab8b36e09ada8362e20ff34a45b5935fd100e"
+    },
+    {
+      "ref": "lab/process/action-constraint-matrix.json",
+      "sha256": "4cc8deb6689395bb040da2779281b7f96045bd1e8595b8041b50b33b9f62f0ea"
+    },
+    {
+      "ref": "lab/process/conditional-physics-ledger-v0.263.json",
+      "sha256": "7c75c179c3af512084e50af19043a5d320b38e8c1e53325ee5ec2f97ad9c257b"
+    },
+    {
+      "ref": "lab/process/observation-physical-carrier-custody-2026-11-27.md",
+      "sha256": "2d25a6b1b2a169298572658360987f106ee5f22fa1e25009ae78b388aa4afdb4"
+    },
+    {
+      "ref": "lab/sources/source-claim-register.yaml",
+      "sha256": "dc3ae173b4cc0eb2a0e343e3d92d5f110b8e4f6eef3e2852a1e897ab4371ade6"
+    }
+  ],
+  "pillars": [
+    {
+      "id": "gravity_shiab",
+      "label": "Gravity / Shiab",
+      "cells": {
+        "source": {
+          "attributed_status": "Source assertions/uncertainties attributed to register; not scientific verdicts",
+          "closed": "Printed fixed-Phi/full-translation/trace endpoint premises have source custody.",
+          "open": "Broader faithful dynamics and unique Phi/product selection are not supplied by that custody.",
+          "shared_missing_ref": "lab/process/action-constraint-matrix.json#source_relevance_assumption_view.shared_prerequisites",
+          "cheapest_next": "Use the named source premise; do not infer a physical completion from assertion polarity.",
+          "evidence_refs": [
+            "lab/sources/source-claim-register.yaml#SC-ACT-01",
+            "lab/sources/source-claim-register.yaml#SC-ACT-02",
+            "explorations/conditional-build/printed-shiab-endpoint-audit-2026-11-27.md"
+          ]
+        },
+        "class": {
+          "attributed_status": "Internal T1 source-facing candidate finding; no source-register verdict",
+          "closed": "Every nonzero map in the declared fixed-linear full-Spin/full-U family fails exact Euler correspondence, even after any fixed invertible zero-order covector multiplier.",
+          "open": "Field-dependent/differential/nonlocal multipliers, changed tangents or equations; class-C representativeness.",
+          "shared_missing_ref": "lab/process/action-constraint-matrix.json#source_relevance_assumption_view.shared_prerequisites",
+          "cheapest_next": "Use the class exclusion; no further fixed-map or fixed-multiplier census.",
+          "evidence_refs": [
+            "explorations/conditional-build/printed-shiab-endpoint-audit-2026-11-27.md"
+          ]
+        },
+        "candidate": {
+          "attributed_status": "Held W2 candidate correspondence fails; W2 action results retained",
+          "closed": "Both stationary roots and punctured analytic W2 branch fail the separately printed endpoint.",
+          "open": "W2 is not a uniquely source-selected operator or all-GU representative.",
+          "shared_missing_ref": "lab/process/action-constraint-matrix.json#source_relevance_assumption_view.shared_prerequisites",
+          "cheapest_next": "Reuse the distinction between actual W2 Euler and printed endpoint before making a physical inference.",
+          "evidence_refs": [
+            "explorations/conditional-build/source-action-endpoint-onshell-2026-11-27.md",
+            "explorations/conditional-build/source-action-endpoint-cubic-2026-11-27.md"
+          ]
+        }
+      }
+    },
+    {
+      "id": "predictive_dynamics",
+      "label": "Predictive dynamics",
+      "cells": {
+        "source": {
+          "attributed_status": "Source assertions/uncertainties attributed to register; not scientific verdicts",
+          "closed": "Source uncertainty about ultrahyperbolic/boundary handling is retained.",
+          "open": "No unrestricted upstairs Cauchy-data requirement or complete physical propagation domain is supplied.",
+          "shared_missing_ref": "lab/process/action-constraint-matrix.json#source_relevance_assumption_view.shared_prerequisites",
+          "cheapest_next": "Use the named source premise; do not infer a physical completion from assertion polarity.",
+          "evidence_refs": [
+            "lab/sources/source-claim-register.yaml#SC-META-52",
+            "explorations/conditional-build/source-premise-custody-2026-11-25.md"
+          ]
+        },
+        "class": {
+          "attributed_status": "Scoped W2 graph/domain exclusion",
+          "closed": "Every fixed finite Sobolev-loss graph-Duhamel estimate fails on the named interior core, including specified finite-order norm repairs retaining it.",
+          "open": "Supplied analytic/nonlocal/boundary physical selection and full operator/domain.",
+          "shared_missing_ref": "lab/process/action-constraint-matrix.json#source_relevance_assumption_view.shared_prerequisites",
+          "cheapest_next": "Compare an actually supplied physical domain to the proved core; do not repeat its estimate obstruction.",
+          "evidence_refs": [
+            "explorations/conditional-build/source-action-finite-loss-completions-2026-11-27.md"
+          ]
+        },
+        "candidate": {
+          "attributed_status": "Actual candidate propagation results; physical admission open",
+          "closed": "Full auxiliary inversion and local analytic solution germs are owned; fixed CK packet bridge has its phase barrier.",
+          "open": "These results do not identify physically admitted growing states.",
+          "shared_missing_ref": "lab/process/action-constraint-matrix.json#source_relevance_assumption_view.shared_prerequisites",
+          "cheapest_next": "Retire the consumed fixed CK packet/receiver workset absent a different supplied bridge.",
+          "evidence_refs": [
+            "explorations/conditional-build/source-action-full-auxiliary-map-2026-11-26.md",
+            "explorations/conditional-build/source-action-scalar-normal-operator-2026-11-27.md",
+            "explorations/conditional-build/source-action-packet-phase-2026-11-27.md"
+          ],
+          "positive_fit": "Local analytic full-carrier solution germs exist despite the robust finite-loss estimate obstruction."
+        }
+      }
+    },
+    {
+      "id": "positive_energy",
+      "label": "Positive energy",
+      "cells": {
+        "source": {
+          "attributed_status": "Source assertions/uncertainties attributed to register; not scientific verdicts",
+          "closed": "Source names unbounded spectra/compact shielding without a supplied positive state space.",
+          "open": "Physical quotient, norm, interacting domain and barred-state identification.",
+          "shared_missing_ref": "lab/process/action-constraint-matrix.json#source_relevance_assumption_view.shared_prerequisites",
+          "cheapest_next": "Use the named source premise; do not infer a physical completion from assertion polarity.",
+          "evidence_refs": [
+            "lab/sources/source-claim-register.yaml#SC-META-53",
+            "explorations/conditional-build/source-premise-custody-2026-11-25.md"
+          ]
+        },
+        "class": {
+          "attributed_status": "Scoped energy/domain implications; not a physical ghost theorem",
+          "closed": "Declared local gauge and first-graph/finite-order remedies do not remove the held obstruction. Separately, coclosure-only local observed readouts cannot carry nonzero compact excitation energy in the full cutoff-admissible class.",
+          "open": "Admitted physical states and interaction-compatible quotient/domain.",
+          "shared_missing_ref": "lab/process/action-constraint-matrix.json#source_relevance_assumption_view.shared_prerequisites",
+          "cheapest_next": "Require the actual state/current map before interpreting a signed witness as a physical ghost.",
+          "evidence_refs": [
+            "explorations/conditional-build/source-action-finite-loss-completions-2026-11-27.md",
+            "explorations/conditional-build/source-action-full-auxiliary-map-2026-11-26.md",
+            "explorations/conditional-build/source-action-controls-sensitivity-2026-11-27.md",
+            "explorations/conditional-build/compact-excitation-charge-2026-11-27.md"
+          ]
+        },
+        "candidate": {
+          "attributed_status": "Both candidate energy signs proved",
+          "closed": "Compact primary-constrained data and analytic W2 germs have both energy signs.",
+          "open": "Local current coupling is not a physically admitted forced negative-energy process.",
+          "shared_missing_ref": "lab/process/action-constraint-matrix.json#source_relevance_assumption_view.shared_prerequisites",
+          "cheapest_next": "Reuse signed-energy evidence; test only an independently supplied physical-state restriction.",
+          "evidence_refs": [
+            "explorations/conditional-build/source-action-full-auxiliary-map-2026-11-26.md",
+            "explorations/conditional-build/source-action-scalar-normal-operator-2026-11-27.md",
+            "explorations/conditional-build/source-action-coupled-support-2026-11-27.md",
+            "explorations/conditional-build/source-action-controls-sensitivity-2026-11-27.md"
+          ],
+          "positive_fit": "Calibrations separate energy sign from positive estimate norm and quantum ghost claims."
+        }
+      }
+    },
+    {
+      "id": "chirality_generations",
+      "label": "Chirality / generations",
+      "cells": {
+        "source": {
+          "attributed_status": "Source assertions/uncertainties attributed to register; not scientific verdicts",
+          "closed": "Source2+1/nonchiral total, effective observed split, normal-spinor quantum numbers and proposed geometric subgroup intersection are supplied.",
+          "open": "Physical realization is not fixed merely by the reduction; a conventional VEV-only stabilizer is not the source prescription.",
+          "shared_missing_ref": "lab/process/action-constraint-matrix.json#source_relevance_assumption_view.shared_prerequisites",
+          "cheapest_next": "Use the named source premise; do not infer a physical completion from assertion polarity.",
+          "evidence_refs": [
+            "lab/sources/source-claim-register.yaml#SC-GEN-01",
+            "lab/sources/source-claim-register.yaml#SC-CHI-01",
+            "lab/sources/source-claim-register.yaml#SC-CHI-51",
+            "lab/sources/source-claim-register.yaml#SC-GRP-03",
+            "lab/sources/source-claim-register.yaml#SC-FER-07",
+            "explorations/conditional-build/source-weak-action-transport-2026-11-13.md",
+            "explorations/conditional-build/source-premise-custody-2026-11-25.md",
+            "lab/process/observation-physical-carrier-custody-2026-11-27.md"
+          ]
+        },
+        "class": {
+          "attributed_status": "Scoped observation/grading classes with explicit survivors",
+          "closed": "Literal gamma-kernel transport and frozen spin-only descent fail; simultaneous geometric form-plus-spin q covariance succeeds.",
+          "open": "Actual weak/current projector, compatible physical carrier and operator/domain; integer counts additionally need a graded Fredholm realization.",
+          "shared_missing_ref": "lab/process/action-constraint-matrix.json#source_relevance_assumption_view.shared_prerequisites",
+          "cheapest_next": "Use the owned geometric q bridge; do not repeat branching or impose a total net-index target.",
+          "evidence_refs": [
+            "explorations/conditional-build/source-weak-action-transport-2026-11-13.md",
+            "explorations/conditional-build/native-descending-grading-classification-2026-11-21.md",
+            "explorations/source-native-spin64-observation-sector-obstruction-2026-08-30.md",
+            "lab/process/observation-physical-carrier-custody-2026-11-27.md"
+          ],
+          "positive_fit": "Paired real normal sectors and canonical principal observation quotients are established at their scopes."
+        },
+        "candidate": {
+          "attributed_status": "RA-B1..B5 and AC-D1..D5 retain SAME / DERIVED_CONDITIONAL",
+          "closed": "Normal16 SM charge support is exact; six-irrep anomaly arithmetic is owned and cannot select a unique chiral16.",
+          "open": "Physical charged carrier/current and effective luminous/dark realization; anomaly triggers are row-specific and arena-relative.",
+          "shared_missing_ref": "lab/process/action-constraint-matrix.json#source_relevance_assumption_view.shared_prerequisites",
+          "cheapest_next": "Supply the actual observed representation/current tuple before evaluating each row; no new arithmetic census.",
+          "evidence_refs": [
+            "lab/process/conditional-physics-ledger-v0.263.json",
+            "explorations/conditional-build/cb-a-representation-content-2026-08-05.md",
+            "lab/active-research/joe-directed/ledger-advancement/la3-chiral-16-shadow-is-a-comparator-and-the-grant-is-inert-2026-08-15.md",
+            "explorations/conditional-build/source-weak-action-transport-2026-11-13.md",
+            "lab/process/observation-physical-carrier-custody-2026-11-27.md"
+          ],
+          "positive_fit": "Conditional normal16 contains the familiar quark/lepton charge multiset; no generation count or independent evidence tally follows."
+        }
+      }
+    },
+    {
+      "id": "dark_energy",
+      "label": "Dark energy",
+      "cells": {
+        "source": {
+          "attributed_status": "Source assertions/uncertainties attributed to register; not scientific verdicts",
+          "closed": "Automatic identity and variable adjoint-one-form replacement are source assertions.",
+          "open": "No coderivative-only dynamics, scalar quintessence identification or complete observed stress readout is specified.",
+          "shared_missing_ref": "lab/process/action-constraint-matrix.json#source_relevance_assumption_view.shared_prerequisites",
+          "cheapest_next": "Use the named source premise; do not infer a physical completion from assertion polarity.",
+          "evidence_refs": [
+            "lab/sources/source-claim-register.yaml#SC-COS-50",
+            "lab/sources/source-claim-register.yaml#SC-COS-51",
+            "lab/sources/source-claim-register.yaml#SC-COS-52",
+            "explorations/conditional-build/bet-cosmology-conservation-descent-2026-11-27.md"
+          ]
+        },
+        "class": {
+          "attributed_status": "Conditional local observation-class exclusion",
+          "closed": "Ambient weighted coclosure alone yields no new observed-only local conservation identity; zero-order conserved stress is field-independent. The full cutoff-admissible finite-order observed-only class also has zero vacuum-subtracted compact charge; nonnegative excitation density is identically zero on full jets.",
+          "open": "Actual source stress, extra equations, physical domain, noncompact/homogeneous background contributions and normal/nonlocal readouts remain unselected; nonzero local improvement stresses survive.",
+          "shared_missing_ref": "lab/process/action-constraint-matrix.json#source_relevance_assumption_view.shared_prerequisites",
+          "cheapest_next": "Require an actual source readout/equation/domain before a physical charge inference; derivative-improvement enumeration under the same premises is consumed.",
+          "evidence_refs": [
+            "explorations/conditional-build/bet-cosmology-conservation-descent-2026-11-27.md",
+            "explorations/conditional-build/compact-excitation-charge-2026-11-27.md"
+          ]
+        },
+        "candidate": {
+          "attributed_status": "Held theta=T reconstruction fails; cosmology fits remain conditional",
+          "closed": "Theta=T fails coderivative conservation at both W2 roots and along the analytic branch.",
+          "open": "Full physical stress, primordial covariance and CMB likelihood; scalar fits are separate comparators.",
+          "shared_missing_ref": "lab/process/action-constraint-matrix.json#source_relevance_assumption_view.shared_prerequisites",
+          "cheapest_next": "Keep the reconstruction failure separate from source claim and background fits.",
+          "evidence_refs": [
+            "explorations/conditional-build/source-action-theta-divergence-2026-11-27.md",
+            "explorations/conditional-build/bet-cosmology-fixed-potentials-2026-11-11.md",
+            "explorations/conditional-build/bet-cosmology-regular-perturbations-2026-11-24.md"
+          ],
+          "positive_fit": "Declared scalar background fits and regular perturbation solutions are retained as conditional comparator evidence."
+        }
+      }
+    },
+    {
+      "id": "gauge_mass_gap",
+      "label": "Gauge / mass gap",
+      "cells": {
+        "source": {
+          "attributed_status": "Source assertions/uncertainties attributed to register; not scientific verdicts",
+          "closed": "Full-U parent and proposed intersecting reductions are supplied; compact-shielding statement remains uncertain.",
+          "open": "Physical gauge selection and positive quantum theory; no conventional Higgs-only mechanism is assumed.",
+          "shared_missing_ref": "lab/process/action-constraint-matrix.json#source_relevance_assumption_view.shared_prerequisites",
+          "cheapest_next": "Use the named source premise; do not infer a physical completion from assertion polarity.",
+          "evidence_refs": [
+            "lab/sources/source-claim-register.yaml#SC-GRP-02",
+            "lab/sources/source-claim-register.yaml#SC-GRP-03",
+            "lab/sources/source-claim-register.yaml#SC-META-53",
+            "explorations/conditional-build/source-weak-action-transport-2026-11-13.md"
+          ]
+        },
+        "class": {
+          "attributed_status": "Whole stationary class closed on the stated torus",
+          "closed": "Every admitted stationary compact-positive PS magnetic MG1 connection on the same flat T3 has physical Hessian zero modes.",
+          "open": "Positive spectrum above zero, other supplied base/domain/action, selected charged sectors and quantum/native transfer.",
+          "shared_missing_ref": "lab/process/action-constraint-matrix.json#source_relevance_assumption_view.shared_prerequisites",
+          "cheapest_next": "Do not repeat stationary same-torus gap searches; require a new source-backed transfer premise.",
+          "evidence_refs": [
+            "explorations/conditional-build/bet-mass-gap-stationary-torus-2026-11-27.md"
+          ]
+        },
+        "candidate": {
+          "attributed_status": "Compact comparator result; no quantum or GU gap verdict",
+          "closed": "Isolated compact SO3 gap does not transfer to full PS carrier.",
+          "open": "Actual physical gauge sector, native spectrum and quantum limit.",
+          "shared_missing_ref": "lab/process/action-constraint-matrix.json#source_relevance_assumption_view.shared_prerequisites",
+          "cheapest_next": "Check a supplied native physical-sector bridge rather than importing the compact comparator.",
+          "evidence_refs": [
+            "explorations/conditional-build/bet-mass-gap-stationary-torus-2026-11-27.md",
+            "explorations/conditional-build/bet-mass-gap-pati-salam-holonomy-2026-11-25.md"
+          ]
+        }
+      }
+    }
+  ]
+}

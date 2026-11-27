@@ -17,6 +17,10 @@ External review is not a research pathway or waiting condition. The source-level
 
 Sections below are historical snapshots in file order.
 
+## 2026-11-27 — Compact excitation charge and source-custody map
+
+[Class result](explorations/conditional-build/compact-excitation-charge-2026-11-27.md) · [Evidence](lab/process/compact-excitation-charge.json). Under the full cutoff-admissible observed-field and finite-order locality premises, off-shell conservation forces zero vacuum-subtracted compact charge. Nonzero local improvements remain; on-shell positive-energy waves, homogeneous background terms and source physical domains are outside this exclusion. [Custody correction](lab/process/observation-physical-carrier-custody-2026-11-27.md) retains the supplied complex carrier/intersection and conditional charge fits while naming the missing physical current/domain. [Progress map](lab/process/falsification-progress-map.json) is an attributed view with evidence freshness checks. No physics verdict, new action or choice family.
+
 ## 2026-11-27 — Printed endpoint independent of the action ansatz
 
 [Result](explorations/conditional-build/printed-shiab-endpoint-audit-2026-11-27.md) · [Evidence](lab/process/printed-shiab-endpoint-audit.json). Any C2 action with the exact common fixed-Shiab endpoint in the declared full-U/Spin/trace/full-translation class forces S=0. Every nonzero well-typed displayed invariant-Phi member is therefore excluded from that correspondence, independently of unresolved coefficient/product selection. Source-facing candidate finding only; corrected equations, restricted variations, physical interpretation and GU-wide necessity remain separate. No ledger verdict or choice change.

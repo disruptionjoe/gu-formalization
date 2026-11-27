@@ -51,6 +51,11 @@
       "delta_id": "GU-PRINTED-SHIAB-ENDPOINT-2026-11-27",
       "path": "lab/process/conditional-evidence-deltas/gu-printed-shiab-endpoint-2026-11-27.json",
       "status": "pending"
+    },
+    {
+      "delta_id": "GU-OBSERVATION-CARRIER-CUSTODY-2026-11-27",
+      "path": "lab/process/conditional-evidence-deltas/gu-observation-carrier-custody-2026-11-27.json",
+      "status": "pending"
     }
   ]
 }

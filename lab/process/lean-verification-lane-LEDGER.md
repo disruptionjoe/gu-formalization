@@ -599,3 +599,7 @@ bicategory, ambidexterity or Mackey 2-functor is inferred.
 ## Printed endpoint separation (2026-11-27)
 
 `Lean/GUFormalization/EndpointHessianSeparation.lean`: **LEAN-VERIFIED**, targeted single-thread check passed with no output. Finite nonzero-coefficient cancellation and rank-gap arithmetic only; irreducibility, inherited universal proof and source bridge remain written/reviewed. Evidence: `lab/process/printed-shiab-endpoint-audit.json`.
+
+## Compact excitation charge finite cores (2026-11-27)
+
+`Lean/GUFormalization/CompactCharge.lean` checks the abstract boundary-balance cancellation and nonnegative finite-sum implication. Smooth lifts, cutoff extensions, Stokes and physical/source applicability remain written and reviewed. See [result](../../explorations/conditional-build/compact-excitation-charge-2026-11-27.md).

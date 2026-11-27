@@ -1446,6 +1446,60 @@
       "dead_end_refs": [
         "lab/process/printed-shiab-endpoint-audit.json#follow_through.dead_end_memory"
       ]
+    },
+    {
+      "id": "compact-excitation-charge-2026-11-27",
+      "kind": "result",
+      "owner_ref": "explorations/conditional-build/compact-excitation-charge-2026-11-27.md",
+      "tested_statement": "Every finite-order observed-only conserved current in the full cutoff-admissible field category has zero vacuum-subtracted compact excitation charge. Everywhere nonnegative excitation density is therefore identically zero on the admitted full jet domain. Nonzero improvement stresses remain; extra equations and noncompact/topological domains are outside.",
+      "signature": {
+        "object": "Vacuum-subtracted observed excitation current",
+        "carrier": "Observed vector-bundle one-form finite jets",
+        "convention": "Fixed background, divergence-form current; symmetric stress/Killing if stress",
+        "class": "All finite-order support-local readouts conserved offshell on cutoff-admissible observed fields",
+        "premises": [
+          "Fixed backgrounds and unrestricted local coclosure germs",
+          "Full observed field/jet domain or explicit cutoff-admissible subclass",
+          "Vacuum subtraction, support-local finite differential order",
+          "Divergence-free current; for stress, symmetry plus Killing contraction"
+        ]
+      },
+      "attributed_status": "internal_T1_compact_excitation_charge_reviewed",
+      "status_ref": "lab/process/compact-excitation-charge.json#status",
+      "source_bridge_ref": "lab/process/compact-excitation-charge.json#source_bridge",
+      "certificate_refs": [
+        "Lean/GUFormalization/CompactCharge.lean"
+      ],
+      "control_refs": [
+        "tests/program-focus/compact_charge_probe.py"
+      ],
+      "survivors_ref": "lab/process/compact-excitation-charge.json#follow_through",
+      "reopen_condition_ref": "explorations/conditional-build/compact-excitation-charge-2026-11-27.md",
+      "superseded_by": null
+    },
+    {
+      "id": "observation-physical-carrier-custody-2026-11-27",
+      "kind": "result",
+      "owner_ref": "lab/process/observation-physical-carrier-custody-2026-11-27.md",
+      "tested_statement": "Source geometric reduction/intersection and complex carrier are supplied; their physical current/carrier/domain realization remains open.",
+      "signature": {
+        "object": "Physical observed16 charge/anomaly bridge",
+        "carrier": "Source normal spinors and geometric observation",
+        "convention": "Nonchiral total permits effective observed chirality",
+        "class": "RA-B1..B5/AC-D1..D5 conditional structural fits",
+        "premises": [
+          "Actual source module/intersection",
+          "Physical weak/current/domain bridge not supplied"
+        ]
+      },
+      "attributed_status": "bounded_audit_consumed",
+      "status_ref": "lab/process/standing-goal-update-2026-11-27.json",
+      "source_bridge_ref": "lab/process/observation-physical-carrier-custody-2026-11-27.md",
+      "certificate_refs": [],
+      "control_refs": [],
+      "survivors_ref": "lab/process/observation-physical-carrier-custody-2026-11-27.md",
+      "reopen_condition_ref": "lab/process/observation-physical-carrier-custody-2026-11-27.md",
+      "superseded_by": null
     }
   ]
 }
