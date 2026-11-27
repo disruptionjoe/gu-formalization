@@ -1,0 +1,861 @@
+{
+  "basis_revision": "a2232ea0ef7b001e14b4acc0653740fbf8b9108b",
+  "authority": "joe_direct_chat_2026_11_26_continued_falsification_math20",
+  "status": "internal_T1_complete_auxiliary_reviewed",
+  "program_target": "LB-CLASS",
+  "tier": "T1",
+  "actual_delta": "Complete native auxiliary M is regular on all49154 real coefficient directions at both held W2/K95 roots. The actual all-R constraint graph and every formal time jet are fixed; finite temporal consistency in this stationary linearized block cannot remove arbitrary smooth R initial data. Compact primary-constrained Q data already have both canonical-energy signs without full lower-M inversion; some negative-energy data give a nonzero fixed matter-action first variation. The previously conditional equal-Hs, first-graph and ordinary finite local-gauge exclusions apply in their stated candidate categories. Actual physical propagation, quotient and GU remain undetermined.",
+  "class_covered": "Fixed W2/K95 full-U real zero-matter candidate, autonomous imaginary connection Hessian at both certified kappa1 root boxes; named unrestricted compact-smooth primary-data and Duhamel-domain categories.",
+  "premises": [
+    "explorations/conditional-build/source-action-full-auxiliary-map-2026-11-26.md",
+    "lab/process/source-action-full-auxiliary-certificates.json",
+    "explorations/conditional-build/source-normal-tensor-class-2026-11-26.md",
+    "explorations/conditional-build/source-action-reduced-evolution-2026-11-26.md",
+    "explorations/conditional-build/source-action-graph-domain-2026-11-26.md"
+  ],
+  "source_bridge": {
+    "status": "conditional",
+    "reason": "Source action grammar/full-U geometry do not select W2, unrestricted Cauchy data, the tested domains or a physical quotient. SC-META-52/53 leave upstairs boundary treatment and physical shielding unresolved."
+  },
+  "claim_effect": "No matrix cell/intersection, scientific shrinkage, source/physics/canon/class-C/paper verdict change.",
+  "complete_auxiliary": {
+    "new_real_dimensions": 25082,
+    "inherited_real_dimensions": 24072,
+    "total_real_dimensions": 49154,
+    "new_sector_root_certificates": [
+      {
+        "block": "even0",
+        "B_sector": 0,
+        "root": 0,
+        "dimension": 183,
+        "neumann_bound": 0.0023685049074938357,
+        "exact_neumann_bound": "29232055489214828098278976716332441574621617609715746687662469527388075085065720471215999518133213034746147/12341986455981580974533899618047427056842115314324814240000000000000000000000000000000000000000000000000000000",
+        "pass": true,
+        "certificate_sha256": "931efb035b3855a3945ebf14c68f7d220d825c5c489c792648b3392017ff1e87",
+        "current_basis_matrix_root_candidate_function_bindings_verified": true
+      },
+      {
+        "block": "even0",
+        "B_sector": 0,
+        "root": 1,
+        "dimension": 183,
+        "neumann_bound": 0.004337599120972043,
+        "exact_neumann_bound": "404750049176126084758952726685607814473669212250357112377741249529320613518830748586516008297633335496139/93311999999996022074688636082598961130243376339947697664000000000000000000000000000000000000000000000000000",
+        "pass": true,
+        "certificate_sha256": "3ac1c17448f73fa8ac6fafe9a84fca059c0a22cb43a8711d081672560ba335a5",
+        "current_basis_matrix_root_candidate_function_bindings_verified": true
+      },
+      {
+        "block": "even0",
+        "B_sector": 1,
+        "root": 0,
+        "dimension": 211,
+        "neumann_bound": 0.0023482734925815703,
+        "exact_neumann_bound": "256783706413787192354222243414826199547491344416175058285638361907424398741837719685833585357042175644351069/109349999999996807434370350615900203723621141684917854166400000000000000000000000000000000000000000000000000000",
+        "pass": true,
+        "certificate_sha256": "bfa1455294de4aae552d6d4aa072bb82da69d74849ba4d478fe02a4e5742e6cd",
+        "current_basis_matrix_root_candidate_function_bindings_verified": true
+      },
+      {
+        "block": "even0",
+        "B_sector": 1,
+        "root": 1,
+        "dimension": 211,
+        "neumann_bound": 0.0036953959803364346,
+        "exact_neumann_bound": "43103098714642336542270953667931658578416517458577413864199659105241748341380162632289165364988856927169/11663999999999502759336079510324870141280422042493462208000000000000000000000000000000000000000000000000000",
+        "pass": true,
+        "certificate_sha256": "39b499e93311c59fda8939468a304d2046fc10bfac2e1f20b1174268334ef589",
+        "current_basis_matrix_root_candidate_function_bindings_verified": true
+      },
+      {
+        "block": "odd0",
+        "B_sector": 0,
+        "root": 0,
+        "dimension": 196,
+        "neumann_bound": 0.002215273902055704,
+        "exact_neumann_bound": "141306784027374075388221001830191077758637996140449467318909657118998380543049934368696834945934365559191232483/63787499999998137670049371192608452172112332649535414930400000000000000000000000000000000000000000000000000000000",
+        "pass": true,
+        "certificate_sha256": "c49c6971e4e82d9a32ce85821c4cfbd66f9188b3b4547ea918f6a2c78838c3e8",
+        "current_basis_matrix_root_candidate_function_bindings_verified": true
+      },
+      {
+        "block": "odd0",
+        "B_sector": 0,
+        "root": 1,
+        "dimension": 196,
+        "neumann_bound": 0.0037305794095423717,
+        "exact_neumann_bound": "190371467268939119441702967646294382670389305593584663756306065284691565491867583570369808994137582119327/51029999999997824572095347857671306868101846435908897160000000000000000000000000000000000000000000000000000",
+        "pass": true,
+        "certificate_sha256": "1acf0e48d580851b66984d685d5bcb1742a994ea886ac531322c033b91d3db57",
+        "current_basis_matrix_root_candidate_function_bindings_verified": true
+      },
+      {
+        "block": "odd0",
+        "B_sector": 1,
+        "root": 0,
+        "dimension": 196,
+        "neumann_bound": 0.001964451983775243,
+        "exact_neumann_bound": "1074064122129082802220246385034444351721602634516212061778196159679798623901921830763865356776216693468938691/546749999999984037171851753079501018618105708424589270832000000000000000000000000000000000000000000000000000000",
+        "pass": true,
+        "certificate_sha256": "ed0177b710191e90769999c36278ccb7ff94abfd6c522e4ca366cf8cbbad428d",
+        "current_basis_matrix_root_candidate_function_bindings_verified": true
+      },
+      {
+        "block": "odd0",
+        "B_sector": 1,
+        "root": 1,
+        "dimension": 196,
+        "neumann_bound": 0.0030576742459067,
+        "exact_neumann_bound": "35664712404254232011444921267704059583070205312596449079274568432450045439552692992312470009923023065711/11663999999999502759336079510324870141280422042493462208000000000000000000000000000000000000000000000000000",
+        "pass": true,
+        "certificate_sha256": "b9abbc4ac871d617c289308b67acf2fad87c0dc40176d5eff062523043161c84",
+        "current_basis_matrix_root_candidate_function_bindings_verified": true
+      },
+      {
+        "block": "even1",
+        "B_sector": 0,
+        "root": 0,
+        "dimension": 512,
+        "neumann_bound": 0.03750346182103897,
+        "exact_neumann_bound": "223914793837124816758636876089039890784388606439175734663140648651425199559819710921691485012790330065368171755411/5970509999999825685916621143628151123309714335996514837485440000000000000000000000000000000000000000000000000000000",
+        "pass": true,
+        "certificate_sha256": "9d38ac27ecba8d9d4693ae228e3305f272dc3f1c086c8e5e61f6d56403f8da3e",
+        "current_basis_matrix_root_candidate_function_bindings_verified": true
+      },
+      {
+        "block": "even1",
+        "B_sector": 0,
+        "root": 1,
+        "dimension": 512,
+        "neumann_bound": 0.05418631641797809,
+        "exact_neumann_bound": "443684494678887170455201670287771640398690181727528585147696568834637086200146738604013100976823256184713819/8188127999999650937053927816248058839178856273830410470016000000000000000000000000000000000000000000000000000",
+        "pass": true,
+        "certificate_sha256": "bfb81aca432a0ca19d8313912f436011e9e236010aec6c1b44b2fcb24cb4d6b2",
+        "current_basis_matrix_root_candidate_function_bindings_verified": true
+      },
+      {
+        "block": "even1",
+        "B_sector": 1,
+        "root": 0,
+        "dimension": 480,
+        "neumann_bound": 0.523765821416938,
+        "exact_neumann_bound": "71592240714925611417114968021336957748721825646638144873915545078097142115330092230747677772359854797126904879/136687499999996009292962938269875254654526427106147317708000000000000000000000000000000000000000000000000000000",
+        "pass": true,
+        "certificate_sha256": "985f01c21bbb6d021e780c1e015e38811d15ea1320829e9374f062f14997a080",
+        "current_basis_matrix_root_candidate_function_bindings_verified": true
+      },
+      {
+        "block": "even1",
+        "B_sector": 1,
+        "root": 1,
+        "dimension": 480,
+        "neumann_bound": 0.7790681348952028,
+        "exact_neumann_bound": "3029016908472419320256638381839900093896297295113582531258577934930374363903435234366741979244668626662251/3887999999999834253112026503441623380426807347497820736000000000000000000000000000000000000000000000000000",
+        "pass": true,
+        "certificate_sha256": "860bbe7a7e1c7988204f3219ae432b0ac90d3e292aa3676749146a4a0fb4ab38",
+        "current_basis_matrix_root_candidate_function_bindings_verified": true
+      },
+      {
+        "block": "odd1",
+        "B_sector": 0,
+        "root": 0,
+        "dimension": 496,
+        "neumann_bound": 0.07781668882794325,
+        "exact_neumann_bound": "264732375392655230493744127151585200371649968959323138039911641751811713192697089335650207079646758449985139587/3401999999999900675735966463605784115845991074641888796288000000000000000000000000000000000000000000000000000000",
+        "pass": true,
+        "certificate_sha256": "af2044a9bba3877f02d3732682abe488736208e274fec37543bd5bed2c475cdb",
+        "current_basis_matrix_root_candidate_function_bindings_verified": true
+      },
+      {
+        "block": "odd1",
+        "B_sector": 0,
+        "root": 1,
+        "dimension": 496,
+        "neumann_bound": 0.1343832404335868,
+        "exact_neumann_bound": "27430307037302569146588450520601998857461783119570573371788717651562376855710264870914368788863347952198809/204119999999991298288381391430685227472407385743635588640000000000000000000000000000000000000000000000000000",
+        "pass": true,
+        "certificate_sha256": "98e727bc195df2e612aa18a0e63926ff88560579c82cacd05748c0b2345f3bac",
+        "current_basis_matrix_root_candidate_function_bindings_verified": true
+      },
+      {
+        "block": "odd1",
+        "B_sector": 1,
+        "root": 0,
+        "dimension": 496,
+        "neumann_bound": 0.2186155505018131,
+        "exact_neumann_bound": "44269648976615862746834501363040452534305378611919299292329459667666412504973141141224210572518723384967242229/202499999999994087841426575214630006895594706823921952160000000000000000000000000000000000000000000000000000000",
+        "pass": true,
+        "certificate_sha256": "a48394cd48de8807aade225d379eda8f2748e12f3b58156fa04088e3979003d3",
+        "current_basis_matrix_root_candidate_function_bindings_verified": true
+      },
+      {
+        "block": "odd1",
+        "B_sector": 1,
+        "root": 1,
+        "dimension": 496,
+        "neumann_bound": 0.3017069451271629,
+        "exact_neumann_bound": "304120600688167241956980235241603771625490461238413697667412030310746366238763824966890217939546680741409/1007999999999957028584599463855235691221764867869805376000000000000000000000000000000000000000000000000000",
+        "pass": true,
+        "certificate_sha256": "1040c17999c482f8823289ae3d85345cb8740dd3da34025cf311db87a4bb56a4",
+        "current_basis_matrix_root_candidate_function_bindings_verified": true
+      },
+      {
+        "block": "even2",
+        "B_sector": 0,
+        "root": 0,
+        "dimension": 576,
+        "neumann_bound": 0.38074527119593277,
+        "exact_neumann_bound": "2331531742695345855939450358063942526275436013863055740491719084806122997113478719113824034356906554018836934915399/6123599999999821216324739634490411408522783934355399833318400000000000000000000000000000000000000000000000000000000",
+        "pass": true,
+        "certificate_sha256": "1c33308d93196be90e994209b5ea7d2cb6809dd04b63c284d9f86ed462c6e27a",
+        "current_basis_matrix_root_candidate_function_bindings_verified": true
+      },
+      {
+        "block": "even2",
+        "B_sector": 0,
+        "root": 1,
+        "dimension": 576,
+        "neumann_bound": 0.5641372189437653,
+        "exact_neumann_bound": "13160193043519598022348770193315694411883806970158329432286733427585272319367485381649217147347330205332027/23327999999999005518672159020649740282560844084986924416000000000000000000000000000000000000000000000000000",
+        "pass": true,
+        "certificate_sha256": "8e6564174b2dcfd01b6f00a452f744e1a584cfa9e28b2c4f4815034c9b07ff82",
+        "current_basis_matrix_root_candidate_function_bindings_verified": true
+      },
+      {
+        "block": "even2",
+        "B_sector": 1,
+        "root": 0,
+        "dimension": 592,
+        "neumann_bound": 0.10505200432957168,
+        "exact_neumann_bound": "7147738374583848178273631186109726456117673937942084950278696076342259324101370078553659315750838871323836260499/68039999999998013514719329272115682316919821492837775925760000000000000000000000000000000000000000000000000000000",
+        "pass": true,
+        "certificate_sha256": "08b460c4d74d2c9b7a310d4faa41918d5e1a372d83df7bba374640981b9126de",
+        "current_basis_matrix_root_candidate_function_bindings_verified": true
+      },
+      {
+        "block": "even2",
+        "B_sector": 1,
+        "root": 1,
+        "dimension": 592,
+        "neumann_bound": 0.13368220647515572,
+        "exact_neumann_bound": "3031912442856402224155626812833117157355219806102715915777295336529073996987553804645680483890581019378351/22679999999999033143153487936742803052489709527070620960000000000000000000000000000000000000000000000000000",
+        "pass": true,
+        "certificate_sha256": "d5a85629ef09b2310504759e5e9233a6eb7f1d0d7f2448ca2a8da7ceef4d0d30",
+        "current_basis_matrix_root_candidate_function_bindings_verified": true
+      },
+      {
+        "block": "odd2",
+        "B_sector": 0,
+        "root": 0,
+        "dimension": 584,
+        "neumann_bound": 0.16417489476466748,
+        "exact_neumann_bound": "53618207230980713592555836341014095065467700031870535072945127073168094605531340581069643997450443445765036908737/326591999999990464870652780506155275121215143165621324443648000000000000000000000000000000000000000000000000000000",
+        "pass": true,
+        "certificate_sha256": "b32427d966ec9bd488c72914bafb657e81484bcb9eea8f0617bde56abb0f9e5f",
+        "current_basis_matrix_root_candidate_function_bindings_verified": true
+      },
+      {
+        "block": "odd2",
+        "B_sector": 0,
+        "root": 1,
+        "dimension": 584,
+        "neumann_bound": 0.2648873162954305,
+        "exact_neumann_bound": "24030577334320431201871856384768390415278387603556500397705183645161803461222994897963394229032569905874787/90719999999996132572613951746971212209958838108282483840000000000000000000000000000000000000000000000000000",
+        "pass": true,
+        "certificate_sha256": "e18bf8e66f94da9d33f8a8252f8f93f9ee1699420aa0aaeabb1b091be54fb1ae",
+        "current_basis_matrix_root_candidate_function_bindings_verified": true
+      },
+      {
+        "block": "odd2",
+        "B_sector": 1,
+        "root": 0,
+        "dimension": 584,
+        "neumann_bound": 0.1699200920468493,
+        "exact_neumann_bound": "144517038285841118174587453099570360344791722218601383047903940519267209913571332254516208078038186332121580113/850499999999975168933991615901446028961497768660472199072000000000000000000000000000000000000000000000000000000",
+        "pass": true,
+        "certificate_sha256": "15b46b5f9aa3e75f75290d22a03dcf5e06205ab6e0a1727bb629aaad3865b881",
+        "current_basis_matrix_root_candidate_function_bindings_verified": true
+      },
+      {
+        "block": "odd2",
+        "B_sector": 1,
+        "root": 1,
+        "dimension": 584,
+        "neumann_bound": 0.26530328744277815,
+        "exact_neumann_bound": "6017078559201951749253084708302562220290413826322755224808169881856654757983147987931120267177598152419639/22679999999999033143153487936742803052489709527070620960000000000000000000000000000000000000000000000000000",
+        "pass": true,
+        "certificate_sha256": "da6f5ca992f7fe1c68af32dcc6d5067f2de9489dcbeb463c89d822355b16585a",
+        "current_basis_matrix_root_candidate_function_bindings_verified": true
+      },
+      {
+        "block": "even3",
+        "B_sector": 0,
+        "root": 0,
+        "dimension": 490,
+        "neumann_bound": 0.024241944324572058,
+        "exact_neumann_bound": "33135707648648465537384745018794488038090423956951426099892687597718048072167711018624365294920563669062210543/1366874999999960092929629382698752546545264271061473177080000000000000000000000000000000000000000000000000000000",
+        "pass": true,
+        "certificate_sha256": "a797f75d7a7f7446012b45bf6072734b275923b7a4f2b5a324da3085e0443ef1",
+        "current_basis_matrix_root_candidate_function_bindings_verified": true
+      },
+      {
+        "block": "even3",
+        "B_sector": 0,
+        "root": 1,
+        "dimension": 490,
+        "neumann_bound": 0.0405942236373085,
+        "exact_neumann_bound": "2367455122527730936391646019035930311358476597699530118002662975466821362168532706898819778964375066276021/58319999999997513796680397551624350706402110212467311040000000000000000000000000000000000000000000000000000",
+        "pass": true,
+        "certificate_sha256": "4863b6f82c9001995be708f26dec5d7b5dbf0d55cbe8b15d3781af1705ec4def",
+        "current_basis_matrix_root_candidate_function_bindings_verified": true
+      },
+      {
+        "block": "even3",
+        "B_sector": 1,
+        "root": 0,
+        "dimension": 462,
+        "neumann_bound": 0.06929949829357554,
+        "exact_neumann_bound": "131560766291705960680578061665311019446716207882877439516828780715167119689270207576374652021483356523242509/1898437499999944573513374142637156314646200376474268301500000000000000000000000000000000000000000000000000000",
+        "pass": true,
+        "certificate_sha256": "e083905f82f05663d658caa82f272797563c4a9608224012ec65d1d831c9b53f",
+        "current_basis_matrix_root_candidate_function_bindings_verified": true
+      },
+      {
+        "block": "even3",
+        "B_sector": 1,
+        "root": 1,
+        "dimension": 462,
+        "neumann_bound": 0.12234922268802463,
+        "exact_neumann_bound": "74327152782971792907287335989487180588321040232275621517943907810892463609093843007372323127849243524471/607499999999974102048754141162753653191688648046534490000000000000000000000000000000000000000000000000000",
+        "pass": true,
+        "certificate_sha256": "079d0a2fe3ee20fc48329ebab0fbaf119942d688382abc6beebca95ca12f1672",
+        "current_basis_matrix_root_candidate_function_bindings_verified": true
+      }
+    ],
+    "inherited_regular_sectors": {
+      "scope": "Inherited accepted carrier/root certificates authenticated by current dependencies, exact raw record hashes, ownership/dimension links and rational scalar bound arithmetic. No native basis ranks or dense matrix defects reassembled here.",
+      "coverage": [
+        {
+          "spin": 7,
+          "parity": "both",
+          "highest_multiplicity": 16,
+          "real_dimension": 240
+        },
+        {
+          "spin": 6,
+          "parity": "both",
+          "highest_multiplicity": 128,
+          "real_dimension": 1664
+        },
+        {
+          "spin": 5,
+          "parity": "both",
+          "highest_multiplicity": 480,
+          "real_dimension": 5280
+        },
+        {
+          "spin": 4,
+          "parity": "both",
+          "highest_multiplicity": 1136,
+          "real_dimension": 10224
+        },
+        {
+          "spin": 3,
+          "parity": "odd",
+          "highest_multiplicity": 952,
+          "real_dimension": 6664
+        }
+      ],
+      "inherited_regular_real_dimension": 24072,
+      "both_roots": [
+        0,
+        1
+      ],
+      "root_record_sha256": [
+        "4069255f599c1b858cdec5471744dc48f0307e710ccb84d9b3875f853a8bd9d6",
+        "73f3106165d8e9d0330e30d1fa7a7c4c1083f7936e33308a61201907e4d2f44c"
+      ],
+      "bound_checks": [
+        {
+          "block": "N7_complete16",
+          "root": 0,
+          "neumann_bound": "312140812714692414298961294464739566780922036513323360569273845163912759275639420907214006680385427011871766265047695113702226525/824896269624112277616236984873708670914401093190742950618896831551928844454854945870117939723111522240503860802604625040745779661004944472"
+        },
+        {
+          "block": "N7_complete16",
+          "root": 1,
+          "neumann_bound": "91591931193700816843101552601243996006916616475481344632217970224377977991656215315969640507436185760023089571270331200/178097720346514598845270590434781924802793506456108885918364167652086795793407848056311942047762887191994331425567888736361379349"
+        },
+        {
+          "block": "N6_component0",
+          "root": 0,
+          "neumann_bound": "2724194354620704462770553169124941962005097463848840181308835751045126970328498862397813828997270553236813/94296410679814446643659181527155454687585452023857250884175300598144531250000000000000000000000000000000000000"
+        },
+        {
+          "block": "N6_component1",
+          "root": 0,
+          "neumann_bound": "19915988373017362189778927915383736939517064774083834338141847675270265359938714585128806899353129758151/2357410266995361166091479538178886367189636300596431272104382514953613281250000000000000000000000000000000000"
+        },
+        {
+          "block": "N6_component2",
+          "root": 0,
+          "neumann_bound": "16900928987010298243863338947203625956211719194300884729061328053730345055789936863373035916095288836037/157160684466357411072765302545259091145975753373095418140292167663574218750000000000000000000000000000000000"
+        },
+        {
+          "block": "N6_component3",
+          "root": 0,
+          "neumann_bound": "431253231894126841170923202952171856590571139943074619926760874758376500396759939936748522867252567599831/106083462014791252474116579218049886523533633526839407244697213172912597656250000000000000000000000000000000000"
+        },
+        {
+          "block": "N6_component0",
+          "root": 1,
+          "neumann_bound": "5169840682983529204052108024396677146089128164364179317329767829100070524454843729035932308163571893/67055225372311594535769592960979502862436754620354980230331420898437500000000000000000000000000000000000"
+        },
+        {
+          "block": "N6_component1",
+          "root": 1,
+          "neumann_bound": "3264536979023429589480650370703086302443076538798645298935962382879675385746378796189211750075446363/201165676116934783607308778882938508587310263861064940690994262695312500000000000000000000000000000000000"
+        },
+        {
+          "block": "N6_component2",
+          "root": 1,
+          "neumann_bound": "108226212087335242824922113469730478494550240204206798624846200061319501121214890936107182570725122229/377185642719252719263703960405509703601206744739496763795614242553710937500000000000000000000000000000000"
+        },
+        {
+          "block": "N6_component3",
+          "root": 1,
+          "neumann_bound": "785160431159975915542301523334581252818500496677732342812153986450235990978617943844931936306225693/100582838058467391803654389441469254293655131930532470345497131347656250000000000000000000000000000000000"
+        },
+        {
+          "block": "N5_even240",
+          "root": 0,
+          "neumann_bound": "7297186974070205008606269730030587756186796347926517037095213142713466081557268295928407723205214026140948184214957797003973008522893/9844829808880575697538532942492230506854625756960290531681201625298663359103062006130218505859375000000000000000000000000000000000000000"
+        },
+        {
+          "block": "N5_even240",
+          "root": 1,
+          "neumann_bound": "773940904936599146205256957298315001616808244059510283327369776191827347799019428537101920456450111649307532150777249417021346471/564261889845876438054534467272266221758779322513469455650144347218151778603186274150085449218750000000000000000000000000000000000000"
+        },
+        {
+          "block": "N5_odd120_source-action-weak-response.json",
+          "root": 0,
+          "neumann_bound": "2404096648131631230852023795979787839917755630941997834220368946052532630841617610963941192405494141640871227/3433872985839743495177218346672403248034855798150038816443652343750000000000000000000000000000000000000000000000000"
+        },
+        {
+          "block": "N5_odd120_source-action-weak-response.json",
+          "root": 1,
+          "neumann_bound": "4153042665229549778973456590395550732408970293623252951856300251368221233606346521330063428774664991/1758142968749925049710472531658831744440071427987173722465625000000000000000000000000000000000000000000000"
+        },
+        {
+          "block": "N5_odd120_source-action-constraint-source-repair-certificates.json",
+          "root": 0,
+          "neumann_bound": "22440832750855168390001054741263393189869392932367519647829398335092421458510653603757608846301403070451/119601562499996508131342570986140847822710623717878902994500000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "block": "N5_odd120_source-action-constraint-source-repair-certificates.json",
+          "root": 1,
+          "neumann_bound": "1210632385463579977695048062623943646733985213055678434675290948130860141456870383300234446082214993/3588046874999847040225454146242513764163411077524844331562500000000000000000000000000000000000000000000000"
+        },
+        {
+          "block": "N4_even_E4_282",
+          "root": 0,
+          "neumann_bound": "1476370799969516011515615517705231312287837114749286579283322612289400106888086467974586486928937426405337457/1059595092773406564226113089830341573679326932000583406216898437500000000000000000000000000000000000000000000000000"
+        },
+        {
+          "block": "N4_even_E4_282",
+          "root": 1,
+          "neumann_bound": "286535294153067128620178435110409967741354012046893579876404260513148953492717698296138817255225357859/18083756249999229082736288897062269371383591830725215431075000000000000000000000000000000000000000000000000"
+        },
+        {
+          "block": "even4",
+          "root": 0,
+          "neumann_bound": "85180628533821925974394693402899099895154587039599260987883051095077656249917078915286531376730971437128474761/15946874999999534417512342798152113043028083162383853732600000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "block": "even4",
+          "root": 1,
+          "neumann_bound": "19079327707030766356356461602150343404634180378581472428007167597887273666524228572416538323191303692897/2429999999999896408195016564651014612766754592186137960000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "block": "odd4",
+          "root": 0,
+          "neumann_bound": "526748588460783917702830497598082816584149135089208897465274590163565746255524331621577638691106592828780877/72899999999997871622913567077266802482414094456611902777600000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "block": "odd4",
+          "root": 1,
+          "neumann_bound": "9370738043229677156346922650135656647338051479076268910990958713671364802457344424197209212760143890281/863999999999963167358228111875916306761512743888404608000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "block": "odd3",
+          "root": 0,
+          "neumann_bound": "88205834759039633844398651047311393908787527821419718379834242395545728502851591099642778724388862853239928241/478406249999986032525370283944563391290842494871515611978000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "block": "odd3",
+          "root": 1,
+          "neumann_bound": "15186433138737260420865993980883053339709739973085832971568611585925262220852359365830901864540311600055687/60479999999997421715075967831314141473305892072188322560000000000000000000000000000000000000000000000000000"
+        }
+      ],
+      "files_sha256": {
+        "lab/process/source-action-deep-coefficients.json": "fb4aacfa69cbc1127b7fddf3b4f66811650c1fd3a889363cc6dfab940439b274",
+        "lab/process/source-action-kappa1-constraints.json": "5d3401666f8072dd225924e0cc9073c16c7d6c59efd0b4b941e1fcce7ce29233",
+        "explorations/conditional-build/source-action-kappa1-constraints-2026-11-25.md": "9099e1f6c0e4790dd82429e381a674db77044c2e62d17bd4999b232fc4f4ce1c",
+        "lab/process/hostile-reviews/2026-11-25-source-action-kappa1-constraints-review.md": "27e949d3dac9d7d950160fbe728db96cd680e1f2b37a0e61f6a6fc9ee7e31ff9",
+        "tests/program-focus/source_action_kappa1_constraints_probe.py": "a2387601309af9aff79618e7d8758caf6a38b4b2e3d73849035898f50fffed85",
+        "Lean/GUFormalization/KappaOneConstraints.lean": "cdc73c8db2c2ee64a481f7c2d6a4a6c829f6e21eef7319ca47117ceb35fdb250",
+        "tests/program-focus/source_action_deep_algebra.py": "4e3800131049e2b397bbce6106bfc5766d2f5fbf996319c50942f3b805d65598",
+        "tests/program-focus/source_action_deep_geometry.py": "7cdfe5f7609300c1ab4fb482f309cfafa52d0aa66cf353ef8b1f9c8be07e52df",
+        "tests/program-focus/source_action_metric_symbol_probe.py": "eccac86c829c48848a4db9ab49d0313601bc3b19aca9a1fc6635520f489254ef",
+        "explorations/conditional-build/source-action-homogeneous-analytic-vacuum-2026-11-25.md": "5ed2c3d264500bfb7e801a31c33dfef8eb179ae1f5a628d08a231c29275f17e9",
+        "explorations/conditional-build/source-action-coupled-ghost-2026-11-25.md": "63d5ddb5fa64a04ee2393d9f2396d6278c82fc7183e55df99d89d609be2b5686",
+        "lab/process/source-action-even-spin5-certificates.json": "aab4a323b2f00ff59ba17775f33e39c0b413d596a4ba366286c018a0477716fb",
+        "tests/program-focus/source_action_mixed_consistency_probe.py": "ffe66426556c0deb3ca1bb276f665785efe7d25a0de2bddb4baa31a1b11643ce",
+        "tests/program-focus/source_action_constraint_consistency_probe.py": "bbc5988d0d18e895fcbd58ca60561be78e03b00b8e7d47d6ffb276776b27021c",
+        "tests/program-focus/source_action_spin4_compatibility_probe.py": "e78ec1956858f8d6fd8868e84a622a2f31131452e6a1259a04f6f82a169857a8",
+        "tests/program-focus/source_action_weak_response_probe.py": "60cf6ae0f16ee6fc4233d49e4bec31753c22bdc2c1d2497c3d76b6d7c1f4e89f",
+        "tests/program-focus/source_action_paired_response_probe.py": "72f131477d041c19293a7e191fd099fbe637597e685ac1d84dfe76db8beb8655",
+        "tests/program-focus/source_action_physical_probe.py": "b0a4b49f18fd6de13f45fc342d00a9e98fdb88cbf479155fd6d1b296c4662c25",
+        "tests/program-focus/source_action_slice_completion_probe.py": "9992fc60da913e8df8507f0dd393299c3d477ed43505af46757fc13575a1e12d",
+        "lab/process/source-action-mixed-consistency-certificates.json": "7f3c3c82c04542f61c3ea5341e1874e1fdcb3bfbc4fe701484c905df4f4c3fce",
+        "tests/program-focus/source_action_even_spin5_probe.py": "05e450d25077c162f1345936ceaeb2315b691e9280e9ef1a11d045c13b2a6edd",
+        "lab/process/source-action-weak-response.json": "f4bc446ec74a0604f3209adb519551aabac80636fbfb72717c87ae0ae6e71f4e",
+        "explorations/conditional-build/source-action-weak-response-2026-11-26.md": "5cac8f1fb12008d1c78274be4ec23545e3cd6aa71bd19333374d02a6403fc51c",
+        "lab/process/hostile-reviews/2026-11-26-source-action-weak-response-review.md": "d97ecbf1d902487dd58b9258b044f6d6bbac99ef6e51fdd0e14181d16d04d071",
+        "lab/process/source-action-constraint-source-repair-certificates.json": "e040a6ddf631fc65267e33e75e2b630eb3a7a3cf3b51ae0a8888aa6e63f3a03c",
+        "tests/program-focus/source_action_constraint_source_repair_probe.py": "e02c5b73348bea14511cc1fee2d223edb874dc7a8f54a3017441b6ba944be302",
+        "tests/program-focus/source_action_reduced_evolution_probe.py": "2279acba19fe23ba3cbc77106ef8137fb72c4e758bdf45b1ee3ffe259a617426",
+        "tests/program-focus/source_action_coupled_ghost_probe.py": "a1730f0dc970e6fdf8e51d90bd789a5b5acf29f7a22b3626b27825ac1daa7160",
+        "lab/process/source-action-reduced-evolution.json": "d299647a410d660a2b01f9612e1ab271368f7a4b3244c91655793aa5ed7e1945",
+        "lab/process/source-action-normal-normal-certificates.json": "c2610c654c5fb5dbc1096b758a650772b073b0a584ddfffe8168537ae20fae57",
+        "tests/program-focus/source_action_normal_normal_probe.py": "7409ddae36f87a8338dc08000943c45196cc00b94a93b03fd6e9edfe0df0c491",
+        "lab/process/source-action-spin4-certificates.json": "e4e6996573a09f1136e175ef0aa2cfab991ac1ea3284403ed12441710e7784c4"
+      },
+      "records_sha256": {
+        "lab/process/source-action-even-spin5-certificates.json::even-certificate.json": "65e443e69457b81838976f01312e8d43b4acbe01f97235a2655a2dd80929d034",
+        "lab/process/source-action-even-spin5-certificates.json::even-basis.json": "15400baf6de8339be5942819f2c79afc4341ecf28df6405cd140fbfcebec0b02",
+        "lab/process/source-action-even-spin5-certificates.json::even-validation.json": "b2ad87db807c32d42d6b719542d7986ad95f3640202a38c218621f9606c289c0",
+        "lab/process/source-action-even-spin5-certificates.json::even-root-matrices.json": "88ca67e41b25da4b6d2f6d67557f8618023f6fd451c90d812dd8d48487953048",
+        "lab/process/source-action-even-spin5-certificates.json::even-inverse-candidates.json": "6d94483e491334e9452b85c5bdb338c0b2133b88d8a588b2d549832f78bcbc4d",
+        "lab/process/source-action-even-spin5-certificates.json::odd-completion.json": "a83a7098006fe0991cccdd32558b6832543feb277f4a727aa5a5141a86a9914a",
+        "lab/process/source-action-weak-response.json::inverse-stage3-basis.json": "8552ae8b06cda2d33829051073e5283a0a5200f205e965fff3483b4d0fe153eb",
+        "lab/process/source-action-weak-response.json::inverse-stage5-certificate.json": "979a9636d0f0d414e005eea37a38c5987941d164539105386dd3aefea42d55f2",
+        "lab/process/source-action-weak-response.json::inverse-stage4-closure-certified.json": "16bdc15174d9c8d199313ebb83c655f1f613dcd22b3126ce4ee9a523f2e2b0f1",
+        "lab/process/source-action-constraint-source-repair-certificates.json::inverse-stage3-basis.json": "28ab06d62a6a38958f257f89aac34a93340613d517411180fd16a81367a69b14",
+        "lab/process/source-action-constraint-source-repair-certificates.json::repair-fast-certificate.json": "e58d414c3793242e23eedd4698faeae0500b17de7f7b625a5cbc7a1067cf4072",
+        "lab/process/source-action-constraint-source-repair-certificates.json::repair-closure-integer.json": "f2af2f0d553e51bc1cd58e1e39bea7ef5962e36edd6b91cdce27298f5b9b9cf3",
+        "lab/process/source-action-constraint-source-repair-certificates.json::repair-inverse-candidates.json": "118f6c8e5c8beffd2c881675ff7a5f93b8bb0fbba9d2d36f8e8764bb189752e0",
+        "lab/process/source-action-spin4-certificates.json::spin4-fast-certificate.json": "23ba6d9f50805c02e31256183e0b4991bdd1350bd2aa4ff244b6fdc2d427a8d5",
+        "lab/process/source-action-spin4-certificates.json::inverse-stage3-basis.json": "03b5cc1fa86704891f071f2562ec85929815ca4471db8163c57136d216c10214",
+        "lab/process/source-action-spin4-certificates.json::spin4-closure-integer-v2.json": "88177f9f50bc1bc6f67661257cd13c23b5d7b8a48250f6803ed45bd85ec2eb9a",
+        "lab/process/source-action-spin4-certificates.json::spin4-inverse-candidates.json": "e1e8fa5bd5ca64a867acdfed4e65a6b2db7c67cd5fbcaea4391ec33db3ca8c25",
+        "lab/process/source-action-normal-normal-certificates.json::even4-certificate.json": "cd19568a00c88bbb293353329884f9eeaf0dcfdc163b04386f5cbc58a2d1617d",
+        "lab/process/source-action-normal-normal-certificates.json::even4-basis.json": "faaa540905faf62c4fc27f38995f230ceaf1240e00bacf3d9a7159e82f4411d0",
+        "lab/process/source-action-normal-normal-certificates.json::even4-matrices.json": "73fecde8151e8d3136e0a21b50695b25f7aac2a0a30be46b87da7690fba31e75",
+        "lab/process/source-action-normal-normal-certificates.json::even4-inverse-candidates.json": "53a060f88ec27fd0a1bf2d9a6777feae7087daf7321eb78e62690f142185cf20",
+        "lab/process/source-action-normal-normal-certificates.json::odd4-certificate.json": "084360318163fd0bc1dc8882d4b895f9dc1b98be3db38ff1c6adb9889f70f869",
+        "lab/process/source-action-normal-normal-certificates.json::odd4-basis.json": "96e02005bcf3bfbb2b764b4481bca4cd533b1e0e641ae42751c3a7d997bd4241",
+        "lab/process/source-action-normal-normal-certificates.json::odd4-matrices.json": "ce5d04b1fd2e40cc4772c6895bd4158cf576af3a55c5fd38585bf66802a79371",
+        "lab/process/source-action-normal-normal-certificates.json::odd4-inverse-candidates.json": "3d5182d009bbd1a69781c69b12900a368aedabb9be4aacb1ba803fa00555294b",
+        "lab/process/source-action-normal-normal-certificates.json::odd3-certificate.json": "ec334d34ff84217c4c2e72d64c8ad70cc3d0b3ad91cb750e8c1c275ca38f88ea",
+        "lab/process/source-action-normal-normal-certificates.json::odd3-basis.json": "9bcde05faa481b3ac59370f4ca3107b765c884ca001a448195b0255642f50423",
+        "lab/process/source-action-normal-normal-certificates.json::odd3-matrices.json": "bf4043e26d7e3c7cdcf041e2fdd55971dbd52dd6eea36ae789125cb94eed94d7",
+        "lab/process/source-action-normal-normal-certificates.json::odd3-inverse-candidates.json": "2c5ee45e97c66e884767421e9fa24b5c4a0c2fdf3d099d489414f957b3f197e1"
+      }
+    }
+  },
+  "compact_energy_premise_closure": {
+    "status": "established_without_full_lower_M",
+    "construction": "Existing n_Q=-Y_Q nabla_Q v-Z_Qv solves the actual primary constraint for every compact smooth Q section, including second-fundamental/frame terms. Exact sign witnesses are V5/V12.",
+    "kernel_independence": "Mn=-Dv and Mk=0 imply b(k,Dv)=0 by reciprocity; ambient canonical energy is independent of auxiliary kernel addition.",
+    "ceiling": "Full ambient energy on primary-constrained initial data, not a Q Hamiltonian system, propagated state or physical ghost."
+  },
+  "compact_current_overlap": {
+    "status": "established_variational_test_only",
+    "construction": "Fix one root/chart/native density/real form, one owned local on-shell linear-matter pair and a temporal test cutoff h=1 near t0. Y_Q(dt)=0 gives J_Q(hv)=hJ_Q(v). The same real linear spacetime current ell_h is nonzero on some compact spatial w. For E(v)<0, either ell_h(v) is nonzero or a small real v+epsilon*w preserves negative slice energy and makes ell_h nonzero.",
+    "ceiling": "Off-shell primary-constrained connection test; no instantaneous-power, original-packet, all-Gram, negative-mode-forcing, propagation, physical-state or shielding-failure claim.",
+    "new_native_computation": false,
+    "full_M_required": false
+  },
+  "compact_shielding_audit": {
+    "source": "SC-META-53 UNCERTAIN; no selected physical Cartan restriction/quotient supplied.",
+    "already_consumed": [
+      "source-action-reduced-evolution-2026-11-26.md section5 normal compact-module exclusion",
+      "source-action-current-receiver-2026-11-26.md section2 exact negative-witness auxiliary receivers"
+    ],
+    "genuinely_new_test_requires": "Authenticated restriction/quotient, equation or boundary preservation, admitted observable/support. No invented projector."
+  },
+  "formal_closure": "Full regularM gives n=-M^-1Dv and v_t=-G(B-E M^-1D)v. Every smooth v0 has compatible formal jets v_j=L^jv0. No convergence, Cauchy-Kowalevski, semigroup or physical admission follows.",
+  "consumed": [
+    "all seven remaining auxiliary-sector regularity tests at the two held roots",
+    "further finite temporal constraint-consistency tests on unrestricted R data in this stationary linearized block",
+    "full lower-M regularity as a prerequisite for compact primary-constrained Q energy signs",
+    "ordinary finite-order arbitrary-function local gauge images into this autonomous block, in the owned theorem category",
+    "repeating the already-owned normal compact-module invariance and exact negative-witness auxiliary-current tests"
+  ],
+  "next_directed_worksets": [
+    {
+      "id": "actual_scalar_normal_descriptor",
+      "status": "ready_for_bounded_operator_audit",
+      "target": "LB-CLASS",
+      "tier": "T2",
+      "task": "Screen the complete actual geometric-spin7 scalar-normal descriptor at the two held roots:36 ambient multiplicities=20R+16N. Retain the full homogeneous lower, adapted-projector and lapse terms; the principal trace-normal pencil alone is already known singular.",
+      "expected_delta": "First specify and verify the descriptor under the actual section transport/trivialization, retaining every derivative and Schur correction. Pointwise SO3 closure is not a closed 1+1 PDE ansatz. Certified large-frequency growing asymptotics identify a local-estimate proof target; imaginary/bounded spectra give no wellposedness credit. Any domain exclusion still needs the actual-coefficient necessary-estimate bridge.",
+      "class_covered": "Fixed W2/K95 candidate scalar-normal direction and complete spin7 coefficient block, not all physical states or all GU.",
+      "source_bridge": "Conditional; source boundary formulations remain open. No source-required upstairs Cauchy category is presumed.",
+      "kill_condition": "An actual necessary-estimate violation excludes only the stated candidate domain. A floating eigenvalue, signature analogy or singular principal pencil is not a physical ghost.",
+      "shared_prerequisite": "Owned native time/trace matrices, completeN7 inverse and actual lower-operator identification; no new choice family.",
+      "ranking_limit": "Provisional first among the compared candidate tests, pending actual operator assembly; cost superiority over an actual second-graph test is unproved."
+    },
+    {
+      "id": "admitted_physical_propagation",
+      "status": "requires_explicit_operator_domain_or_bridge",
+      "target": "LB-CLASS",
+      "tier": "T2",
+      "task": "Compare any actual stronger/mixed/nonlocal domain with the owned first-graph obstruction and source readout. The tiny22to23to23 frozen filtration is already closed; do not repeat it as a new result.",
+      "remaining_burdens": [
+        "actual variable-coefficient propagation",
+        "source-grounded physical quotient/common domain",
+        "normalized observed readout"
+      ],
+      "scope": "No new completion or domain choice is added merely to survive."
+    }
+  ],
+  "counterfactual_proposal": {
+    "status": "proposal_only_not_executed",
+    "authority": "joe_direct_chat_2026_11_26_g",
+    "ranked_item_numbers": [
+      1,
+      6,
+      2,
+      3,
+      7,
+      5,
+      4
+    ],
+    "basis": "Qualitative expected time saved at the actual consistency bottleneck; no measured forecasts or success probabilities.",
+    "ranked": [
+      {
+        "item": 1,
+        "expected_savings": "highest immediate",
+        "proposal": "Map queued outcomes to changed action, claim, bound or certificate. Consume tasks already covered by a theorem. Same next action alone is not grounds to skip useful evidence."
+      },
+      {
+        "item": 6,
+        "expected_savings": "high immediate",
+        "proposal": "Separate necessary source consequences from candidate-conditional desiderata and order by test cost. Connectivity to these chosen roots and positive physical energy are not silently made source premises."
+      },
+      {
+        "item": 2,
+        "expected_savings": "medium-high if targeted",
+        "proposal": "Audit dependencies of the actual live operator/domain question first; the old six first-consistency channels are consumed. Defer all ten-family flips; one-at-a-time survival does not prove joint robustness. Plus/minus adjoint remains a comparator unless sourced."
+      },
+      {
+        "item": 3,
+        "expected_savings": "high before a physical-ghost claim, lower for current algebraic range",
+        "proposal": "One matched control for the exact inference first. Distinguish constrained energy from BRST physical ghosts; conformal-gravity expectation requires a stated prescription."
+      },
+      {
+        "item": 7,
+        "expected_savings": "medium later",
+        "proposal": "Use a matched four-dimensional comparator only for a specific observation-related obstruction, preserving relevant structures."
+      },
+      {
+        "item": 5,
+        "expected_savings": "low immediate",
+        "proposal": "Euclidean base changes the real form and physical-time question; use only if it distinguishes a named sign mechanism."
+      },
+      {
+        "item": 4,
+        "expected_savings": "lowest immediate",
+        "proposal": "Toy dimensions alter branching and source counts; use if a structural dimension theorem is otherwise unavailable."
+      }
+    ],
+    "recommendation": "Approve lightweight items1/6 and targeted dependencies; reserve comparator execution for a specific diagnostic question. Broad suites remain deferred proposals, not new stop rules.",
+    "current_theorem_effect": "Ordinary proof reconciliation removed the unnecessary full-M prerequisite for compact Q energy. CompleteM consumes finite temporal consistency tests. No new value-of-information governance gate or counterfactual suite was adopted.",
+    "sensitivity_scope_correction": {
+      "status": "proposal_grounded_in_owned_quadratic_autonomy_not_executed_sweep",
+      "reason": "The ten families are not ten independent switches in the present local operator. Geometry, shiab recipe and coupling enter the held bosonic map. The zero-matter imaginary quadratic block is autonomous from the fermion recipe and the diagnostic matter lift/band/dispersion/dual/tube choices. Variational and physical domains still affect admissibility and propagation, so local algebraic independence is not physical independence.",
+      "evidence": [
+        "lab/process/source-action-q7-propagation.json#coupled_quadratic_autonomy",
+        "lab/process/action-constraint-matrix.json#source_relevance_assumption_view.candidate_choice_budget"
+      ],
+      "adjoint_caution": "A plus/minus adjoint flip changes the stated construction unless an authenticated source permits it; label it a comparator, not a new GU choice."
+    },
+    "current_queue_outcome_map": {
+      "weak_response": "Local constrained-Q current is already nonzero; repeated seed/nonzero checks are consumed. An actual on-shell physical readout could distinguish decoupling from observable coupling, but its common domain/quotient is missing.",
+      "path_continuation": "Connection to the large-kappa branch would add a scoped candidate result; a numerical turn is no exclusion. Neither alone selects a physical state, and source necessity of that path is unproved.",
+      "spin4_cokernel": "Complete owned ranges and whole first consistency consume old Q source/nonmembership tests; fullM now consumes the remaining auxiliary regularity question.",
+      "BRST": "Ordinary finite local arbitrary-function gauge removal is excluded in the autonomous block after full regularity. Physical cohomology still requires an authentic action charge and common invariant domain; a guessed ghost algebra is not that test."
+    }
+  },
+  "quick_math20": {
+    "method": "One bounded description-lens pass; not twenty independently sampled scientists or a separate agent per persona. Concrete author/review delegation is separate.",
+    "lenses": [
+      {
+        "index": 1,
+        "lens": "Linear algebra",
+        "decision_delta": "Use the proved B direct sum; both pieces are required for full regularity."
+      },
+      {
+        "index": 2,
+        "lens": "Representation theory",
+        "decision_delta": "Owned N characters plus twisted ambient traces give exact exhaustive sector sizes."
+      },
+      {
+        "index": 3,
+        "lens": "Real representation theory",
+        "decision_delta": "B is a real coefficient sign preserving imaginary-U and chi; no spinor-square or physical-parity transfer."
+      },
+      {
+        "index": 4,
+        "lens": "Invariant theory",
+        "decision_delta": "All59 T terms are B-fixed, so the split survives root uncertainty, not just center sparsity."
+      },
+      {
+        "index": 5,
+        "lens": "Category theory",
+        "decision_delta": "A native commuting diagram for M supplies useful structure; the abstract RS object isomorphism alone supplies none."
+      },
+      {
+        "index": 6,
+        "lens": "Number theory",
+        "decision_delta": "Exact rational defects, dyadic scaling and root radii decide acceptance; floating eigenvalues do not."
+      },
+      {
+        "index": 7,
+        "lens": "Numerical linear algebra",
+        "decision_delta": "Preserve phase-real H coordinates and split exact products; native column count remains."
+      },
+      {
+        "index": 8,
+        "lens": "Presymplectic reduction",
+        "decision_delta": "Regular M removes the auxiliary constraint chain by an exact graph, without selecting physical states."
+      },
+      {
+        "index": 9,
+        "lens": "Variational calculus",
+        "decision_delta": "The owned Q lift already authenticates compact energy witnesses; full M is no longer needed for that energy result."
+      },
+      {
+        "index": 10,
+        "lens": "PDE theory",
+        "decision_delta": "The reduced mixed-order equation needs its own existence theory; formal jet recursion is insufficient."
+      },
+      {
+        "index": 11,
+        "lens": "Microlocal analysis",
+        "decision_delta": "The native null-symbol obstruction makes the first graph category a decisive scoped test."
+      },
+      {
+        "index": 12,
+        "lens": "Functional analysis",
+        "decision_delta": "The theorem requires the stated Duhamel core/topology; stronger norms or proper domains are distinct claims."
+      },
+      {
+        "index": 13,
+        "lens": "Operator theory",
+        "decision_delta": "No closed generator or semigroup follows from a finite fiber inverse."
+      },
+      {
+        "index": 14,
+        "lens": "Differential geometry",
+        "decision_delta": "Closed-time projection and stationary moving frames retain all actual lower terms."
+      },
+      {
+        "index": 15,
+        "lens": "Algebraic geometry",
+        "decision_delta": "A root-box inverse is stronger than a generic determinant statement; a failed sufficient bound is not a zero determinant."
+      },
+      {
+        "index": 16,
+        "lens": "Homological algebra",
+        "decision_delta": "Physical BRST/cohomology is absent; auxiliary elimination is not that quotient."
+      },
+      {
+        "index": 17,
+        "lens": "Hamiltonian systems",
+        "decision_delta": "Indefinite instantaneous energy does not prove runaway or exchange between propagated modes."
+      },
+      {
+        "index": 18,
+        "lens": "Control/descriptor systems",
+        "decision_delta": "Regular versus singular M is a real fork; singularity calls for the full residual constraint module."
+      },
+      {
+        "index": 19,
+        "lens": "Combinatorics",
+        "decision_delta": "Exterior character DP cheaply pins all B sectors and detects completeness errors before costly assembly."
+      },
+      {
+        "index": 20,
+        "lens": "Proof engineering",
+        "decision_delta": "Bind whole-carrier completeness, all-family symmetry, signed pairing and exact root certificates; no native inference from a cache hash alone."
+      }
+    ],
+    "current_reassessment": "Complete M and finite temporal closure are consumed; next descriptor must retain actual Schur/coefficient derivatives. The negative-energy/current overlap requires one common real test space with a fixed temporal cutoff; no physical necessity, forced negative mode or propagation follows.",
+    "followthrough_lenses": {
+      "category_theory": "Use a genuinely common domain for slice energy and spacetime current; the temporal extension map is explicit.",
+      "number_theory": "Keep exact root bounds distinct from physical stability rates; no extra numeric current scan is needed for the cone argument.",
+      "variational_calculus": "An exact Q primary lift supplies compact energy/current tests without full M.",
+      "PDE": "Compose the variable-coefficient Schur operator before freezing. Pointwise representation closure is not a PDE ansatz.",
+      "functional_analysis": "The cone overlap uses only a scalar quadratic polynomial; no new infinite-dimensional norm or state space.",
+      "Hamiltonian_systems": "Nonzero first variation on negative data is not negative-energy forcing or propagated instability."
+    }
+  },
+  "choice_budget": {
+    "families": 10,
+    "obligation_bundles": 4,
+    "net": 6,
+    "source_selected_predictions": 0,
+    "delta": 0
+  },
+  "accounting": "Directed77to78/LBCLASS36to37. Existing directed_lc_carry_2026_11_25_physical remains pending for the next ordinary run; no cadence amendment or bet credit.",
+  "verification": {
+    "native_gates": {
+      "program_focus_audit": "PASS",
+      "typed_carrier_declaration_audit": "PASS",
+      "kill_target_claim_audit": "PASS",
+      "frontmatter_status_schema_audit": "PASS",
+      "source_native_comparator_routing_audit": "PASS",
+      "lean_certificate_surface_audit": "PASS",
+      "current_state_absolute_currency_audit": "PASS"
+    },
+    "native_certificate": "lab/process/source-action-full-auxiliary-certificates.json",
+    "independent_reviews": "lab/process/hostile-reviews/2026-11-26-source-action-full-auxiliary-review.md",
+    "lean": {
+      "command": "lake env lean -j1 /private/tmp/gu-full-auxiliary-wt-20261126/Lean/GUFormalization/CompleteAuxiliaryGraph.lean",
+      "cwd": "/Users/joe/Brain/CapacityOS/repos/public/gu-formalization",
+      "exit_code": 0,
+      "output": "",
+      "source_sha256": "6d6f694fbd70c7607599890bc2aabbf26aeb85a6b9806587b073dd4cb8cbbe0a",
+      "scope": "Seven finite algebra/count/reciprocity lemmas; native coefficients, PDE estimates and source necessity external.",
+      "toolchain": "leanprover/lean4:v4.32.0-rc1"
+    },
+    "replay": {
+      "passed": true,
+      "probe_sha256": "f600b66c22ff1699b432febc4480c0606d1ae22ecd7410484568154f7665a2f2",
+      "manifest_sha256": "63fc7f5e4674b94a74059b383c02dbab4c94c1a9c006e6348ac4515d495517b2",
+      "record_count": 128,
+      "complete_carriers_verified_by_native_membership_independence_and_character": 14,
+      "full_carriers_reconstructed": 0,
+      "native_H_columns_recomputed": 28,
+      "all_native_H_columns_recomputed": false,
+      "all_12116_H_columns_used_in_exact_defects": true,
+      "floating_inverse_regenerated": false,
+      "two_root_packing_full_native_images_recomputed_and_compared_to_fresh_direct": 64,
+      "inherited_certificates_authenticated": true,
+      "seconds": 609.0999524579383,
+      "scope": "Bounded native replay: all complete carriers verified by exact native ambient/kernel/highest membership, full rank and independent character dimension; first original C/H column each root/sector and all exact certificate arithmetic; remaining12088 H columns authenticated."
+    },
+    "replay_scope": "All supplied native carriers verified complete; all new exact inverse defects/rootbounds and original/packed native controls replayed. Full basis rediscovery optional; no full native H-column reassembly claim.",
+    "protected_surfaces": "program_focus,cells,intersections,shrinkage and choice budget unchanged"
+  },
+  "current_sha256": {
+    "explorations/conditional-build/source-action-full-auxiliary-map-2026-11-26.md": "49e99bf8884b00cc6abe2546b84c50ee1e07829380ea2b2d067296191793393b",
+    "lab/process/hostile-reviews/2026-11-26-source-action-full-auxiliary-review.md": "7be50fa2c1e6b50ad119c9c8b228b2704bda448197e6caeda0d1c6f306e29c13",
+    "tests/program-focus/source_action_full_auxiliary_probe.py": "f600b66c22ff1699b432febc4480c0606d1ae22ecd7410484568154f7665a2f2",
+    "lab/process/source-action-full-auxiliary-certificates.json": "63fc7f5e4674b94a74059b383c02dbab4c94c1a9c006e6348ac4515d495517b2",
+    "Lean/GUFormalization/CompleteAuxiliaryGraph.lean": "6d6f694fbd70c7607599890bc2aabbf26aeb85a6b9806587b073dd4cb8cbbe0a"
+  }
+}

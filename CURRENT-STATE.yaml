@@ -1,7 +1,7 @@
 schema_version: '1.0'
 repository: observerse-research-program
 branch: main
-revision_basis: 795227ea980f683294c207fceb71db0c41ee727a
+revision_basis: a2232ea0ef7b001e14b4acc0653740fbf8b9108b
 program_focus:
   version: 2026-11-25-v1
   authority: joe_direct_chat_2026_11_25_five_process_improvements_approved
@@ -140,6 +140,76 @@ program_focus:
     covered; source relevance separately from mathematical breadth; shared prerequisite if any; remaining
     cost; strongest eligible alternative. A blocked high-value target is not an eligible alternative without
     its missing input. Reuse completed theorems and compare only their uncovered successors.'
+source_action_full_auxiliary_map_2026_11_26:
+  authority: joe_direct_chat_2026_11_26_continued_falsification_math20
+  basis_revision: a2232ea0ef7b001e14b4acc0653740fbf8b9108b
+  status: internal_T1_complete_auxiliary_reviewed
+  actual_delta: Complete native auxiliary M is regular on all49154 real coefficient directions at both
+    held W2/K95 roots. The actual all-R constraint graph and every formal time jet are fixed; finite temporal
+    consistency in this stationary linearized block cannot remove arbitrary smooth R initial data. Compact
+    primary-constrained Q data already have both canonical-energy signs without full lower-M inversion;
+    some negative-energy data give a nonzero fixed matter-action first variation. The previously conditional
+    equal-Hs, first-graph and ordinary finite local-gauge exclusions apply in their stated candidate categories.
+    Actual physical propagation, quotient and GU remain undetermined.
+  evidence:
+  - explorations/conditional-build/source-action-full-auxiliary-map-2026-11-26.md
+  - lab/process/source-action-full-auxiliary.json
+  - lab/process/source-action-full-auxiliary-certificates.json
+  - lab/process/hostile-reviews/2026-11-26-source-action-full-auxiliary-review.md
+  source_bridge:
+    status: conditional
+    reason: Source action grammar/full-U geometry do not select W2, unrestricted Cauchy data, the tested
+      domains or a physical quotient. SC-META-52/53 leave upstairs boundary treatment and physical shielding
+      unresolved.
+  continuation:
+  - id: actual_scalar_normal_descriptor
+    status: ready_for_bounded_operator_audit
+    target: LB-CLASS
+    tier: T2
+    task: Screen the complete actual geometric-spin7 scalar-normal descriptor at the two held roots:36
+      ambient multiplicities=20R+16N. Retain the full homogeneous lower, adapted-projector and lapse terms;
+      the principal trace-normal pencil alone is already known singular.
+    expected_delta: First specify and verify the descriptor under the actual section transport/trivialization,
+      retaining every derivative and Schur correction. Pointwise SO3 closure is not a closed 1+1 PDE ansatz.
+      Certified large-frequency growing asymptotics identify a local-estimate proof target; imaginary/bounded
+      spectra give no wellposedness credit. Any domain exclusion still needs the actual-coefficient necessary-estimate
+      bridge.
+    class_covered: Fixed W2/K95 candidate scalar-normal direction and complete spin7 coefficient block,
+      not all physical states or all GU.
+    source_bridge: Conditional; source boundary formulations remain open. No source-required upstairs
+      Cauchy category is presumed.
+    kill_condition: An actual necessary-estimate violation excludes only the stated candidate domain.
+      A floating eigenvalue, signature analogy or singular principal pencil is not a physical ghost.
+    shared_prerequisite: Owned native time/trace matrices, completeN7 inverse and actual lower-operator
+      identification; no new choice family.
+    ranking_limit: Provisional first among the compared candidate tests, pending actual operator assembly;
+      cost superiority over an actual second-graph test is unproved.
+  - id: admitted_physical_propagation
+    status: requires_explicit_operator_domain_or_bridge
+    target: LB-CLASS
+    tier: T2
+    task: Compare any actual stronger/mixed/nonlocal domain with the owned first-graph obstruction and
+      source readout. The tiny22to23to23 frozen filtration is already closed; do not repeat it as a new
+      result.
+    remaining_burdens:
+    - actual variable-coefficient propagation
+    - source-grounded physical quotient/common domain
+    - normalized observed readout
+    scope: No new completion or domain choice is added merely to survive.
+  consumed:
+  - all seven remaining auxiliary-sector regularity tests at the two held roots
+  - further finite temporal constraint-consistency tests on unrestricted R data in this stationary linearized
+    block
+  - full lower-M regularity as a prerequisite for compact primary-constrained Q energy signs
+  - ordinary finite-order arbitrary-function local gauge images into this autonomous block, in the owned
+    theorem category
+  - repeating the already-owned normal compact-module invariance and exact negative-witness auxiliary-current
+    tests
+  accounting: Directed77to78/LBCLASS36to37. Existing directed_lc_carry_2026_11_25_physical remains pending
+    for the next ordinary run; no cadence amendment or bet credit.
+  priority_control_effect: The directed full auxiliary question and finite temporal consistency searches
+    are consumed. Actual propagation/readout remains; program_focus and schedules unchanged. Nov26g remains
+    proposal-only.
 source_action_normal_normal_consistency_2026_11_26:
   authority: joe_direct_chat_2026_11_26_continued_falsification_math20
   basis_revision: 795227ea980f683294c207fceb71db0c41ee727a
@@ -170,7 +240,7 @@ source_action_normal_normal_consistency_2026_11_26:
     physics_rows: LT-GR1, LT-GR6b, LT-SM8 verdicts unchanged.
   continuation:
   - id: complete_auxiliary_regular_or_kernel
-    status: ready_for_structural_feasibility_then_exact_discriminator
+    status: done_complete_regular_both_roots
     target: LB-CLASS
     tier: T2
     task: 'Treat the complete remaining auxiliary map as one finite structural question: even N3 and both
@@ -193,6 +263,7 @@ source_action_normal_normal_consistency_2026_11_26:
     kill_condition: Singularity, an unsuccessful inverse estimate or a failure on a guessed invariant
       module is not a candidate exclusion. Any negative claim must survive all permitted kernel repairs.
       A full inverse still does not prove physical wellposedness.
+    completion_evidence: lab/process/source-action-full-auxiliary.json
   - id: actual_propagation_and_physical_readout
     status: conditional_on_auxiliary_or_constraint_module_disposition
     target: LB-CLASS
@@ -201,6 +272,7 @@ source_action_normal_normal_consistency_2026_11_26:
       seek actual admissible propagation and source-normalized physical readout.
     revival_input: Auxiliary graph or exact remaining constraint module; authentic physical domain/quotient
       and normalization remain separate.
+    remaining_work_ref: source_action_full_auxiliary_map_2026_11_26
   consumed:
   - All six remaining pure-normal first-consistency channel types over both Q copies
   - The entire actual first-consistency map on arbitrary spatial Q profiles, including lower-order terms
@@ -211,6 +283,7 @@ source_action_normal_normal_consistency_2026_11_26:
     for the next ordinary run; no cadence amendment or bet credit.
   priority_control_effect: Factual first-consistency work is complete. Next question is the remaining
     full auxiliary map/constraint module; program_focus and schedules unchanged. Nov26g remains proposal-only.
+  continuation_superseded_by: source_action_full_auxiliary_map_2026_11_26
 source_action_even_spin5_completion_2026_11_26:
   authority: joe_direct_chat_2026_11_26_continued_falsification_math20
   basis_revision: 8dc0d2475a7bdcd03dc9e3e2edd6cfc8bfcf9e35

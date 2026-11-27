@@ -92,3 +92,5 @@ import GUFormalization.PetrovProbability
 import GUFormalization.NormalTensorClass
 
 import GUFormalization.Q7Propagation
+
+import GUFormalization.CompleteAuxiliaryGraph

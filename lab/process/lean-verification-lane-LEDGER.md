@@ -534,3 +534,7 @@ bicategory, ambidexterity or Mackey 2-functor is inferred.
 ## Q7 propagation finite core (2026-11-26)
 
 `Lean/GUFormalization/Q7Propagation.lean`: **LEAN-VERIFIED**, six finite lemmas for Hermitian nondegeneracy, two-row injectivity and kernel-independent source tests, with an indefinite null-vector countercontrol. Targeted compilation passed without proof placeholders; default import registered. Native parity, source binding, root boxes, quadratic autonomy and PDE/representation reasoning are separately validated, not formalized by this module. [Result](../../explorations/conditional-build/source-action-q7-propagation-2026-11-26.md).
+
+## Complete auxiliary graph finite core (2026-11-26)
+
+`Lean/GUFormalization/CompleteAuxiliaryGraph.lean`: **LEAN-VERIFIED**, seven finite lemmas for unique auxiliary elimination, exact two-block equivalence, formal recurrence uniqueness, commuting-map eigenspaces, the25082 remaining coefficient count and inverse-free reciprocity/kernel-energy independence. Targeted `lake env lean -j1` passed without warnings or placeholders; default import registered. Statement validation retains arbitrary supplied invertible A/M and linear B/E/D: native identification, complete root-box inverses, differential domains and obstruction estimates are separately reviewed inputs. No convergent formal series, actual PDE solution or physical quotient is formalized. [Result](../../explorations/conditional-build/source-action-full-auxiliary-map-2026-11-26.md).

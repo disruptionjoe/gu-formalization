@@ -15,6 +15,7 @@ documents.
 
 | Lean file | Scope | Owner surface |
 |---|---|---|
+| `GUFormalization/CompleteAuxiliaryGraph.lean` | Seven finite lemmas for auxiliary elimination, exact block reduction, formal recurrence, invariant eigenspaces, coefficient count and inverse-free kernel-energy independence. Native inverse certificates and analytic domain exclusions are separate reviewed inputs; no propagation theorem. | `explorations/conditional-build/source-action-full-auxiliary-map-2026-11-26.md` |
 | `GUFormalization/Q7Propagation.lean` | Six finite lemmas: Hermitian determinant and two-row injectivity, kernel-independent source pairing, and a null-vector control. Native parity, coupled-sector autonomy and PDE validity remain separate reviewed premises. | `explorations/conditional-build/source-action-q7-propagation-2026-11-26.md` |
 | `GUFormalization/Status.lean` | Claim-status order and dependency monotonicity kernel | `lab/methods/claim-status-consistency.md` |
 | `GUFormalization/K3IndexArithmetic.lean` | Symbolic K3/RS index arithmetic used by current audits | `lab/active-research/topological-generation-count-families-k3-chi-gate-2026-06-26.md` |

@@ -328,22 +328,20 @@ Mandatory basis: Joe continuing falsification; source audit corrects the decisio
 [Result](../../../explorations/conditional-build/source-action-constraint-consistency-2026-11-26.md) · [evidence](../source-action-constraint-consistency.json).
 
 - **Done, T2:** pure geometry contributes no multiplier derivatives; horizontal kernel derivatives are absorbed into im M. The two tested horizontal spin5 second-jet classes are minus census8/17 (56/80 terms). Their old E5 noncoverage is not an obstruction.
-- **Ready, LB-CLASS/T2:** test these two sources against M plus all ten normal derivative and zero-order kernel-multiplier images. The native normal principal coefficient is PKxiGCP+PCGKxiP. A negative result needs a full augmented dual; a positive finite-stage result does not prove propagation.
+- **Consumed:** test these two sources against M plus all ten normal derivative and zero-order kernel-multiplier images. The native normal principal coefficient is PKxiGCP+PCGKxiP. A negative result needs a full augmented dual; a positive finite-stage result does not prove propagation. Completion: [complete auxiliary result](../../../explorations/conditional-build/source-action-full-auxiliary-map-2026-11-26.md); retained only as historical work description.
 - **Carried:** lower-order F0, higher consistency, physical admission/readout and actual propagation. No sixteen-source inverse backlog or new completion.
 
 Selection: Joe continuing falsification; structural scope is the actual candidate constraint class, source relevance remains conditional. Owned closed-time and full Lorentz covariance remove derivative assembly. Remaining cost is two sparse native classes and their allowed repairs. A physical readout is a stronger alternative only when admission and propagation are supplied. Directed72to73/LBCLASS31to32; choices10/4/net6/zero predictions unchanged; no governance/scheduler or counterfactual-suite change.
-
 
 ## Current continuation: horizontal consistency absorbed (2026-11-26)
 
 [Result](../../../explorations/conditional-build/source-action-constraint-source-repair-2026-11-26.md) · [evidence](../source-action-constraint-source-repair.json).
 
 - **Done,T2:** minus cases8/17 have exact native preimages at both roots. The new120-dimensional highest5 receiver is invariant under all59 maps. With complete spin6/7 blocks this covers all horizontal two-jets onQ in the stated equivariant splitting; normal/mixed coordinates are zero.
-- **Ready,LB-CLASS/T2:** actual mixed horizontal-normal principal map, at most2 spin4+6 spin5 reduced channel types over bothQcopies. Test E4 and both E5 receivers before constructing any new inverse. Negative claims retain the full augmented multiplier test.
+- **Consumed:** actual mixed horizontal-normal principal map, at most2 spin4+6 spin5 reduced channel types over bothQcopies. Test E4 and both E5 receivers before constructing any new inverse. Negative claims retain the full augmented multiplier test. Completion: [complete auxiliary result](../../../explorations/conditional-build/source-action-full-auxiliary-map-2026-11-26.md); retained only as historical work description.
 - **Carried:** normal-first, normal-normal, higher consistency and physical propagation/admission. Horizontal lower terms require no further calculation for this first stage.
 
 Selection: continuing Joe-directed falsification; candidate source bridge remains conditional. Existing primary lifts and exact receivers are shared inputs. The mixed principal map has a smaller executable footprint than unrestricted normal closure and a direct actual-equation role. Physical readout remains ineligible without propagation/admission. Directed73to74/LBCLASS32to33;10/4/net6/zero predictions unchanged. No policy, schedule, canon or counterfactual-suite change.
-
 
 ## Current continuation: mixed consistency partition (2026-11-26)
 
@@ -351,11 +349,10 @@ Selection: continuing Joe-directed falsification; candidate source bridge remain
 
 - **Done,T2:** four of eight reduced mixed channel types have native preimages at both roots: all spin4 and normal-vector spin5 channels. Exact32×59×3 family checks and constants use certified old receivers.
 - **Established coverage limit:** four normal-spin2 channels are nonzero outside the old odd receivers. Keep full A and nonzero B, with reduced maps4(A-B),2(2A+B). This is not an M-cokernel or candidate exclusion.
-- **Ready,LB-CLASS/T2:** complete even highest5 time-kernel and its actual M restriction, at most512 ambient highest directions. Commuting symmetry projectors make this exhaustive for the M-range question. Any singularity still retains every projected normal/zero-order kernel repair.
+- **Consumed:** complete even highest5 time-kernel and its actual M restriction, at most512 ambient highest directions. Commuting symmetry projectors make this exhaustive for the M-range question. Any singularity still retains every projected normal/zero-order kernel repair. Completion: [complete auxiliary result](../../../explorations/conditional-build/source-action-full-auxiliary-map-2026-11-26.md); retained only as historical work description.
 - **Carried:** normal-first lower coefficients, normal-normal and higher consistency, propagation and physical/source admission. No repeated horizontal or already-covered mixed calculations.
 
 Selection: continuing Joe-directed falsification, with conditional source bridge. Fixed candidate/roots/physical choices. The whole finite block replaces guessed receiver expansion; normal-first lower terms are the strongest alternative but still need actual transverse/zero-order assembly. Directed74to75/LBCLASS33to34;10/4/net6/zero predictions unchanged. Nov26g ranking remains proposal-only; no policy or schedule changes.
-
 
 ## Current continuation: complete spin5 block (2026-11-26)
 
@@ -363,11 +360,10 @@ Selection: continuing Joe-directed falsification, with conditional source bridge
 
 - **Done,T2:** complete240-even plus240-odd highest-spin5 time-kernel invertible at both root boxes. Root bounds0.00074123 and0.00137160 are below1.
 - **Consumed by theorem:** remaining mixed/spin5 sources, all normal-normal spin5 sources, and independent normal-first/scalar lower-order first-consistency assembly. Intrinsic jet equivariance retains moving-frame effects.
-- **Ready,LB-CLASS/T2:** two spin3 and four spin4 pure-normal principal channel types on both Q copies. Use the exact no-G identity and include approximate-response residual bounds. A negative result retains full M plus7normal/L0Z4 repairs for spin4 and9normal/L0Z3 repairs for spin3.
+- **Consumed:** two spin3 and four spin4 pure-normal principal channel types on both Q copies. Use the exact no-G identity and include approximate-response residual bounds. A negative result retains full M plus7normal/L0Z4 repairs for spin4 and9normal/L0Z3 repairs for spin3. Completion: [complete auxiliary result](../../../explorations/conditional-build/source-action-full-auxiliary-map-2026-11-26.md); retained only as historical work description.
 - **Carried:** higher consistency, admissible propagation and physical/source admission. No physical ghost or GU verdict.
 
 Selection: mandatory basis is continuing Joe-directed falsification. Scope is the full remaining first-consistency symbol of this held candidate/Q block, with source relevance conditional on W2 and physical admission. Shared prerequisite is the actual lower-spin augmented image. Cost is six channel types using owned primary inverses and the reviewed no-G identity. Strongest eligible alternative is full lower-spin M inversion, useful if the six-source test exposes a range gap; no new guessed-receiver chain. Directed75to76/LBCLASS34to35. The existing directed_lc_carry_2026_11_25_physical remains pending for the next ordinary run; no cadence amendment or bet credit. Choices10/4/net6/zero predictions unchanged. Nov26g suites remain proposal-only.
-
 
 ## Current continuation: complete Q first consistency (2026-11-26)
 
@@ -375,7 +371,20 @@ Selection: mandatory basis is continuing Joe-directed falsification. Scope is th
 
 - **Done, T2:** all six pure-normal types and therefore every actual first differentiated constraint on arbitrary spatial Q profiles are M-repairable at both root boxes. Full N4 and odd N3 certificates join owned N5/6/7.
 - **Consumed:** further first-consistency source assembly and multiplier-repair searches for Q. Analytic initial velocity fields exist for analytic profiles; no nonzero-time evolution is claimed.
-- **Ready, LB-CLASS/T2:** one complete auxiliary-map question on the seven remaining coefficient sectors: even N3, both parities of N0/N1/N2. Assess complete structural ranks/ranges and cost before new assembly. Full regularity yields the exact unrestricted graph; singularity requires the actual kernel/constraint module and is not itself inconsistency.
+- **Consumed, complete auxiliary map:** all seven sectors are regular at both roots; see the [complete auxiliary result](../../../explorations/conditional-build/source-action-full-auxiliary-map-2026-11-26.md). The exact unrestricted graph is now established. Further finite temporal consistency searches in this block are consumed; actual propagation and physical admission remain open.
 - **Carried:** actual propagation, physical quotient/domain, normalized observation and source necessity. Q-only autonomy stays excluded; no new choice family.
 
 Selection: mandatory basis is continuing Joe-directed falsification. Scope is the held candidate auxiliary operator, with source relevance conditional on W2/full unrestricted graph and physical admission. Shared prerequisite is the remaining auxiliary rank/kernel. Cost is a finite seven-sector question with multiplicity sizes952,394,392,992,992,1168,1168; no promised runtime before native timings. A possible cheaper method is an explicit native Clifford intertwiner suggested by the abstract RS13 tensor S64 plus two-scalars representation; no native map or M factorization is yet owned. The separate homogeneous differential-module route also lacks an exact module containing Q leakage. Directed76to77/LBCLASS35to36. Existing directed_lc_carry_2026_11_25_physical remains pending for the next ordinary run; no cadence amendment or bet credit. Choices10/4/net6/zero predictions unchanged. Nov26g suites remain proposal-only.
+
+
+## Current continuation: complete auxiliary graph (2026-11-27)
+
+[Result](../../../explorations/conditional-build/source-action-full-auxiliary-map-2026-11-26.md) · [evidence](../source-action-full-auxiliary.json).
+
+- **Done, T1:** full native M regularity at both held roots, all49154 real coefficient directions, and the exact all-R graph/formal temporal closure. Prior named unrestricted evolution-domain exclusions now apply with their regularity premise proved.
+- **Done, T1:** both canonical-energy signs on exact compact primary-constrained Q initial data; this already follows from the owned Q lift without lower-M inversion. A fixed nonzero matter-current functional also detects some negative-energy datum, via an elementary common-domain perturbation. Neither result is propagated negative-mode forcing, a Q dynamical system or a physical ghost.
+- **Consumed:** seven auxiliary blocks and further finite temporal consistency checks in this stationary linearized block. No separate local ordinary arbitrary-function gauge image survives in its owned category.
+- **Ready, LB-CLASS/T2:** bounded actual scalar-normal spin7 descriptor screen: first verify lower/adapted/lapse and Schur correction terms under the chosen trivialization. Pointwise SO3 closure is not a closed 1+1 PDE ansatz. A growing branch needs its actual-coefficient necessary-estimate/on-shell bridge before any domain exclusion; imaginary eigenvalues give no wellposedness credit.
+- **Carried:** actual admitted propagation, physical quotient/domain, normalized observation and source necessity. Higher/mixed/nonlocal/boundary categories remain undetermined. No new choice family.
+
+Selection: mandatory basis is Joe-directed falsification. Scope is the held candidate, not source-GU or all classC. Mathematical breadth is the entire native auxiliary operator; source relevance remains conditional. The shared auxiliary premise is discharged. The pointwise scalar-normal carrier is finite36=20R+16N, but actual derivative closure is not yet assembled and its cost advantage over the second-graph route is unproved. Full source-required weak-readout has a missing physical bridge. The tiny frozen second-graph filtration was already closed and is not a fresh alternative. Directed77to78/LBCLASS36to37. Existing directed_lc_carry_2026_11_25_physical remains pending for the next ordinary run; no cadence amendment or bet credit. Choices10/4/net6/zero predictions unchanged. Nov26g governance/suites remain proposal-only.

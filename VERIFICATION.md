@@ -17,6 +17,12 @@ External review is not a pathway in this program. The honesty label stays: inter
 
 Sections below are historical snapshots in file order.
 
+## Complete auxiliary graph and scoped domain consequences (2026-11-27)
+
+Complete native auxiliary M is regular on all49154 real coefficient directions at both held W2/K95 roots. The actual all-R constraint graph and every formal time jet are fixed; finite temporal consistency in this stationary linearized block cannot remove arbitrary smooth R initial data. Compact primary-constrained Q data already have both canonical-energy signs without full lower-M inversion; some negative-energy data give a nonzero fixed matter-action first variation. The previously conditional equal-Hs, first-graph and ordinary finite local-gauge exclusions apply in their stated candidate categories. Actual physical propagation, quotient and GU remain undetermined.
+
+[Result](explorations/conditional-build/source-action-full-auxiliary-map-2026-11-26.md) · [Evidence](lab/process/source-action-full-auxiliary.json).
+
 ## Complete first consistency on Q (2026-11-26)
 
 Every actual first differentiated constraint on arbitrary spatial Q initial profiles is M-repairable at both held W2/K95 backgrounds. Exact full N4 and odd N3 inverses cover the six remaining pure-normal types; intrinsic jet theory covers lower terms. For analytic profiles local analytic particular initial velocities exist. An independent saturated representation bound fixes the whole time-kernel character and seven remaining block sizes; propagated spacetime solutions, physical admission and GU remain undecided.

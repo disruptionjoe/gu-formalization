@@ -1348,7 +1348,7 @@
       "selection_note": "Candidate construction/diagnostic only unless its stated structural family and source bridge satisfy current program_focus. A reserve is not scheduled work."
     }
   ],
-  "priority_effect": "Current directed science uses normal_normal_consistency_2026_11_26: complete actual Q first consistency at both roots. Next structural discriminator is the remaining full auxiliary map or its kernel/constraint module, not another Q-only prolongation. Physical propagation/admission unresolved; policy/cadence/schedules unchanged.",
+  "priority_effect": "Current directed work completed the entire imaginary-connection auxiliary M at both roots. Formal temporal constraint consistency is consumed; compact constrained-energy signs no longer carry a spurious lower-M prerequisite. Next bounded candidate discriminator is the actual scalar-normal descriptor with its required coefficient/domain bridge. Physical propagation/admission unresolved; policy/cadence/schedules unchanged.",
   "evidence": [
     "explorations/conditional-build/source-action-engineering-wave-2026-11-25.md",
     "lab/process/source-action-engineering-wave.json",
@@ -2168,6 +2168,49 @@
       "Normal and zero-order kernel-multiplier searches for this first-consistency question: explicit M range suffices; no claim that those maps vanish"
     ],
     "counterfactual_proposal": "lab/process/source-action-normal-normal.json#counterfactual_proposal",
+    "counterfactual_status": "Nov26g proposal-only; no suite or governance execution",
+    "continuation_superseded_by": "lab/process/source-action-full-auxiliary.json"
+  },
+  "full_auxiliary_map_2026_11_26": {
+    "report": "explorations/conditional-build/source-action-full-auxiliary-map-2026-11-26.md",
+    "evidence": "lab/process/source-action-full-auxiliary.json",
+    "actual_delta": "Complete native auxiliary M is regular on all49154 real coefficient directions at both held W2/K95 roots. The actual all-R constraint graph and every formal time jet are fixed; finite temporal consistency in this stationary linearized block cannot remove arbitrary smooth R initial data. Compact primary-constrained Q data already have both canonical-energy signs without full lower-M inversion; some negative-energy data give a nonzero fixed matter-action first variation. The previously conditional equal-Hs, first-graph and ordinary finite local-gauge exclusions apply in their stated candidate categories. Actual physical propagation, quotient and GU remain undetermined.",
+    "next_directed_worksets": [
+      {
+        "id": "actual_scalar_normal_descriptor",
+        "status": "ready_for_bounded_operator_audit",
+        "target": "LB-CLASS",
+        "tier": "T2",
+        "task": "Screen the complete actual geometric-spin7 scalar-normal descriptor at the two held roots:36 ambient multiplicities=20R+16N. Retain the full homogeneous lower, adapted-projector and lapse terms; the principal trace-normal pencil alone is already known singular.",
+        "expected_delta": "First specify and verify the descriptor under the actual section transport/trivialization, retaining every derivative and Schur correction. Pointwise SO3 closure is not a closed 1+1 PDE ansatz. Certified large-frequency growing asymptotics identify a local-estimate proof target; imaginary/bounded spectra give no wellposedness credit. Any domain exclusion still needs the actual-coefficient necessary-estimate bridge.",
+        "class_covered": "Fixed W2/K95 candidate scalar-normal direction and complete spin7 coefficient block, not all physical states or all GU.",
+        "source_bridge": "Conditional; source boundary formulations remain open. No source-required upstairs Cauchy category is presumed.",
+        "kill_condition": "An actual necessary-estimate violation excludes only the stated candidate domain. A floating eigenvalue, signature analogy or singular principal pencil is not a physical ghost.",
+        "shared_prerequisite": "Owned native time/trace matrices, completeN7 inverse and actual lower-operator identification; no new choice family.",
+        "ranking_limit": "Provisional first among the compared candidate tests, pending actual operator assembly; cost superiority over an actual second-graph test is unproved."
+      },
+      {
+        "id": "admitted_physical_propagation",
+        "status": "requires_explicit_operator_domain_or_bridge",
+        "target": "LB-CLASS",
+        "tier": "T2",
+        "task": "Compare any actual stronger/mixed/nonlocal domain with the owned first-graph obstruction and source readout. The tiny22to23to23 frozen filtration is already closed; do not repeat it as a new result.",
+        "remaining_burdens": [
+          "actual variable-coefficient propagation",
+          "source-grounded physical quotient/common domain",
+          "normalized observed readout"
+        ],
+        "scope": "No new completion or domain choice is added merely to survive."
+      }
+    ],
+    "consumed": [
+      "all seven remaining auxiliary-sector regularity tests at the two held roots",
+      "further finite temporal constraint-consistency tests on unrestricted R data in this stationary linearized block",
+      "full lower-M regularity as a prerequisite for compact primary-constrained Q energy signs",
+      "ordinary finite-order arbitrary-function local gauge images into this autonomous block, in the owned theorem category",
+      "repeating the already-owned normal compact-module invariance and exact negative-witness auxiliary-current tests"
+    ],
+    "counterfactual_proposal": "lab/process/source-action-full-auxiliary.json#counterfactual_proposal",
     "counterfactual_status": "Nov26g proposal-only; no suite or governance execution"
   }
 }
