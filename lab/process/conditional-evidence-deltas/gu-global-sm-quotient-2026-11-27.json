@@ -1,0 +1,34 @@
+{
+  "schema_version": "1.0",
+  "delta_id": "GU-GLOBAL-SM-QUOTIENT-2026-11-27",
+  "status": "pending",
+  "base": {
+    "ledger_ref": "lab/process/conditional-physics-ledger-v0.263.json",
+    "ledger_sha256": "7c75c179c3af512084e50af19043a5d320b38e8c1e53325ee5ec2f97ad9c257b"
+  },
+  "affected_rows": [
+    "RA-A2",
+    "RA-A6"
+  ],
+  "result_refs": [
+    "explorations/conditional-build/normal-sm-global-quotient-2026-11-27.md",
+    "explorations/conditional-build/normal-special-unitary-existence-2026-11-25.md",
+    "explorations/conditional-build/global-normal-complex-reduction-2026-11-24.md",
+    "explorations/conditional-build/source-weak-action-transport-2026-11-13.md"
+  ],
+  "source_disposition": "SC-GRP03 optional normalSU(3,2) geometric intersection; source-selectedJ/connection/physicalcurrent remains open. FullU alternative retained.",
+  "claim_ceiling": "Absolute geometric construction/descent on declared admitted bases only. All verdicts/grades/triggers unchanged; no arbitraryfixedJ or physicalgauge realization.",
+  "proposed_effect": {
+    "summary": "The owned prescribed-Spin normal H reduction is globally (SU3 x SU2 x U1)/mu6, and the simultaneous geometric form-plus-spin q descends on its associated bundles. This closes the geometric existence/descent condition for the constructed free-J_P reduction, not fixed-J compatibility, connection/vacuum selection or the physical gauge/current quotient.",
+    "requested_row_changes": [
+      "Attach globalgroup/fixedSpin/geometricq evidence and separate it from source/physical selection.",
+      "Do not require a new mu6 construction for this already-built reduction. The current conventionalrankone126 trigger is not applied or silently replaced."
+    ]
+  },
+  "conflict_keys": [
+    "RA-A2",
+    "RA-A6",
+    "GU-SOURCE-APPLICABILITY-RECONCILIATION-2026-11-24"
+  ],
+  "integration": null
+}

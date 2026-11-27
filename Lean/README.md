@@ -274,3 +274,7 @@ replacement for `lake build` or targeted standalone Lean checks.
 ## Unitary dual closure finite cores (2026-11-27)
 
 `GUFormalization/UnitaryDualClosure.lean` proves insertion-factor projection cancellation and invertible postcomposition zero equivalence. Clifford identities, source/jet/paired-domain applicability and native rank512 remain written and reviewed premises. See [result](../explorations/conditional-build/bet-2plus1-unitary-dual-closure-2026-11-27.md).
+
+## Shiab derivation finite cores (2026-11-27)
+
+`GUFormalization/ShiabDerivation.lean` proves coefficient-commutator Leibniz and two-map annihilation. Full graded/Spin classification, Riemann geometry, real-form transfer, source applicability and global group bundle proofs remain written and reviewed. See [result](../explorations/conditional-build/shiab-graded-derivation-class-2026-11-27.md).

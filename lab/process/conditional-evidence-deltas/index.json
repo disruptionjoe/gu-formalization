@@ -56,6 +56,11 @@
       "delta_id": "GU-OBSERVATION-CARRIER-CUSTODY-2026-11-27",
       "path": "lab/process/conditional-evidence-deltas/gu-observation-carrier-custody-2026-11-27.json",
       "status": "pending"
+    },
+    {
+      "delta_id": "GU-GLOBAL-SM-QUOTIENT-2026-11-27",
+      "path": "lab/process/conditional-evidence-deltas/gu-global-sm-quotient-2026-11-27.json",
+      "status": "pending"
     }
   ]
 }

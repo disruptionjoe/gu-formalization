@@ -1533,6 +1533,64 @@
       "survivors_ref": "lab/process/bet-2plus1-unitary-dual-closure.json#follow_through",
       "reopen_condition_ref": "explorations/conditional-build/bet-2plus1-unitary-dual-closure-2026-11-27.md",
       "superseded_by": null
+    },
+    {
+      "id": "shiab-graded-derivation-class-2026-11-27",
+      "kind": "result",
+      "owner_ref": "explorations/conditional-build/shiab-graded-derivation-class-2026-11-27.md",
+      "tested_statement": "Every pointwise full-Spin exterior-degree11 derivation of the complete matrix-valued exterior algebra, associative or graded-Lie, is one of two invariant inner channels. Both annihilate algebraic Riemann spin curvature, although nonzero combinations act nontrivially on general adjoint curvature. The nonzero-Einstein principal-Bianchi survivor therefore cannot extend to this full derivation suite; no Euler/Hessian assumption is used.",
+      "signature": {
+        "object": "Full degree11 graded derivation",
+        "carrier": "Lambda*(V*) tensor End_C(S128), or gradedLiegl128",
+        "convention": "Exteriorgrading only, pointwiseC-infinitylinear, fullcomplexifiedSpin",
+        "class": "All associative and gradedLie derivations under these premises",
+        "premises": [
+          "lab/sources/transcripts/portal-special-gu-first-look-2020-04-02.md",
+          "lab/sources/gu-shiab-derivation-principal-bianchi-source-reinspection-2026-08-05.md",
+          "lab/sources/source-claim-register.yaml",
+          "explorations/k77-wave2-principal-bianchi-product-selector-2026-08-05.md",
+          "explorations/conditional-build/riemann-realform-transfer-2026-11-27.md"
+        ]
+      },
+      "attributed_status": "internal_T1_shiab_derivation_reviewed",
+      "status_ref": "lab/process/shiab-graded-derivation-class.json#status",
+      "source_bridge_ref": "lab/process/shiab-graded-derivation-class.json#source_bridge",
+      "certificate_refs": [
+        "Lean/GUFormalization/ShiabDerivation.lean"
+      ],
+      "control_refs": [
+        "tests/program-focus/shiab_graded_derivation_probe.py"
+      ],
+      "survivors_ref": "lab/process/shiab-graded-derivation-class.json#follow_through",
+      "reopen_condition_ref": "explorations/conditional-build/shiab-graded-derivation-class-2026-11-27.md",
+      "superseded_by": null
+    },
+    {
+      "id": "normal-sm-global-quotient-2026-11-27",
+      "kind": "result",
+      "owner_ref": "explorations/conditional-build/normal-sm-global-quotient-2026-11-27.md",
+      "tested_statement": "The owned prescribed-Spin normal H reduction is globally (SU3 x SU2 x U1)/mu6, and the simultaneous geometric form-plus-spin q descends on its associated bundles. This closes the geometric existence/descent condition for the constructed free-J_P reduction, not fixed-J compatibility, connection/vacuum selection or the physical gauge/current quotient.",
+      "signature": {
+        "object": "GlobalH group and associatedgeometricq",
+        "carrier": "Normal6,4fixedSpin bundle overCWdimension<=7",
+        "convention": "FreepositiveJ/volume; fixednegativeU2; simultaneousform+spin",
+        "class": "Inherited absolute normalSUexistence category",
+        "premises": [
+          "explorations/conditional-build/normal-special-unitary-existence-2026-11-25.md",
+          "explorations/conditional-build/global-normal-complex-reduction-2026-11-24.md",
+          "explorations/conditional-build/source-weak-action-transport-2026-11-13.md"
+        ]
+      },
+      "attributed_status": "internal_T2_global_sm_corollary_reviewed",
+      "status_ref": "lab/process/shiab-graded-derivation-class.json#status",
+      "source_bridge_ref": "explorations/conditional-build/normal-sm-global-quotient-2026-11-27.md",
+      "certificate_refs": [],
+      "control_refs": [
+        "tests/program-focus/shiab_graded_derivation_probe.py"
+      ],
+      "survivors_ref": "lab/process/shiab-graded-derivation-class.json#follow_through",
+      "reopen_condition_ref": "explorations/conditional-build/normal-sm-global-quotient-2026-11-27.md",
+      "superseded_by": null
     }
   ]
 }

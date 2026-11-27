@@ -1788,7 +1788,7 @@
     },
     "LB-CLASS": {
       "zero_delta_streak": 0,
-      "runs": 51,
+      "runs": 52,
       "status": "open"
     },
     "LB-LADDER": {
@@ -2707,7 +2707,7 @@
   ],
   "program_run_counter": {
     "since": "2026-11-09",
-    "count": 96,
+    "count": 97,
     "rule": "Every hourly run increments this in its postflight, whatever its lane. Lane C runs when count % 4 == 3 before the increment."
   },
   "working_rule": "Cells are worked at the structure level: a requirement must hold for every action in class C or for a structurally defined subfamily. No cell is worked by writing down a specific action, and no gated cell is worked by building its gate object. See CURRENT-STATE.yaml program_focus.structure_not_specifics.",
@@ -3581,6 +3581,15 @@
       "counter_after": 96,
       "lane": "LC-BETS",
       "selection": "BET-2PLUS1 complete weighted unitary opposite-block test; T1 scoped kill. Accounting only, no matrix absorption or LB credit."
+    },
+    {
+      "date": "2026-11-27",
+      "authority": "joe_direct_chat_2026_11_27_h",
+      "item": "shiab-graded-derivation-class",
+      "counter_before": 96,
+      "counter_after": 97,
+      "lane": "LB-CLASS",
+      "selection": "Complete fullgradedassociative/Lie interpretation theorem; globalSMcorollary and custodyrepair included without separate sciencecredit."
     }
   ],
   "directed_lc_carry_2026_11_24_b": {
@@ -5373,6 +5382,40 @@
         ],
         "latest_constraint": "Every finite-order observed-only conserved current in the full cutoff-admissible field category has zero vacuum-subtracted compact excitation charge. Everywhere nonnegative excitation density is therefore identically zero on the admitted full jet domain. Nonzero improvement stresses remain; extra equations and noncompact/topological domains are outside.",
         "structural_choices": "Finite-order support locality, fixed backgrounds, full field or cutoff-closed domain, current conservation; no new physical state rule selected."
+      },
+      {
+        "question": "Can the nonzero Riemann-response Shiab be a full degree11 graded derivation?",
+        "premise_status": "Source conditional terminology; fullgradedassociative/Lie interpretation fixed for test, notsource-selected",
+        "source_claim_refs": [
+          "lab/sources/source-claim-register.yaml#SC-OP-02",
+          "lab/sources/source-claim-register.yaml#SC-OP-03"
+        ],
+        "source_bridge": {
+          "status": "conditional",
+          "reason": "Portal01:48:59 says if shiab is a derivation; the source does not define the full algebra/product/degree suite, exterior-only grading or pointwise interpretation. These are explicit literal interpretations, not source-fixed necessities."
+        },
+        "evidence": [
+          "explorations/conditional-build/shiab-graded-derivation-class-2026-11-27.md",
+          "lab/process/shiab-graded-derivation-class.json"
+        ],
+        "latest_constraint": "Every pointwise full-Spin exterior-degree11 derivation of the complete matrix-valued exterior algebra, associative or graded-Lie, is one of two invariant inner channels. Both annihilate algebraic Riemann spin curvature, although nonzero combinations act nontrivially on general adjoint curvature. The nonzero-Einstein principal-Bianchi survivor therefore cannot extend to this full derivation suite; no Euler/Hessian assumption is used.",
+        "structural_choices": "FullEnd128 or Liegl128; degree11exteriorgrading; pointwisefullSpin; no new action or physicschoice."
+      },
+      {
+        "question": "Is a global normal SM quotient and geometric observation still wholly unbuilt?",
+        "premise_status": "Inherited fixedSpin existence; freepositiveJ/volume; fixednegativeU2 and nativealmostcomplex criterion",
+        "source_claim_refs": [
+          "lab/sources/source-claim-register.yaml#SC-GRP-03"
+        ],
+        "source_bridge": {
+          "status": "conditional",
+          "reason": "Source proposes optionalSUbranch but notselectedphysicalcurrent/connection."
+        },
+        "evidence": [
+          "explorations/conditional-build/normal-sm-global-quotient-2026-11-27.md"
+        ],
+        "latest_constraint": "The owned prescribed-Spin normal H reduction is globally (SU3 x SU2 x U1)/mu6, and the simultaneous geometric form-plus-spin q descends on its associated bundles. This closes the geometric existence/descent condition for the constructed free-J_P reduction, not fixed-J compatibility, connection/vacuum selection or the physical gauge/current quotient.",
+        "structural_choices": "Geometric H reduction is available; choosing it physically remains unresolved."
       }
     ],
     "shared_prerequisites": [
@@ -5408,11 +5451,12 @@
           "X-P1-P2-P3",
           "X-D1-P3"
         ],
-        "scope": "W08 needs native trace applicability. Index work additionally needs compatible grading, chain maps and Fredholmness; X-D1-P3 further needs the integer observable. No claim that one datum alone unblocks all. Proposed geometric intersection, complex module and geometric observation are supplied; missing physical carrier must not be described as a wholly missing embedding.",
+        "scope": "W08 needs native trace applicability. Index work additionally needs compatible grading, chain maps and Fredholmness; X-D1-P3 further needs the integer observable. No claim that one datum alone unblocks all. Proposed geometric intersection, complex module and geometric observation are supplied; missing physical carrier must not be described as a wholly missing embedding. On the admitted free-J fixedSpin normal branch, globalmu6 group and geometricq descent are supplied; physicalcurrent/quotient remains.",
         "evidence": [
           "explorations/conditional-build/solution-observation-trace-2026-11-25.md",
           "lab/process/work-packets/observed-hidden-index-split-2026-11-20.md",
-          "lab/process/observation-physical-carrier-custody-2026-11-27.md"
+          "lab/process/observation-physical-carrier-custody-2026-11-27.md",
+          "explorations/conditional-build/normal-sm-global-quotient-2026-11-27.md"
         ]
       },
       {
@@ -5446,6 +5490,17 @@
         "scope": "Coclosure alone cannot supply nonzero compact excitation charge through a finite-order observed-only readout; homogeneous background terms are not excluded.",
         "evidence": [
           "explorations/conditional-build/compact-excitation-charge-2026-11-27.md"
+        ]
+      },
+      {
+        "input": "Exact source derivation/module/chain law, algebra and total grading, with matching connection/soldering",
+        "waiters": [
+          "Derivation-based rolled curvature cancellation",
+          "Nonzero direct Riemann response in that sameShiabsuite"
+        ],
+        "scope": "Fullgraded pointwise Spin associative/Lie interpretations have zeroRiemannrestriction; weaker Bianchi and different supplied laws remain separate.",
+        "evidence": [
+          "explorations/conditional-build/shiab-graded-derivation-class-2026-11-27.md"
         ]
       }
     ],
@@ -6772,5 +6827,18 @@
       "reason": "SC-COS50/51/52 assert an automatic dark-energy identity and adjoint one-form, but do not select coderivative-only dynamics, finite-order observed-only stress or the full cutoff-admissible physical field domain."
     },
     "next": "Live counter95 selects LC-BETS; BET-2PLUS1 has21 runs remaining versus20 for the other active bets. Reuse its complete weighted transport classification; test only a genuinely new source/domain implication of the surviving paired-arrow/density/current class. No neighboring coefficient enumeration, repeated anomaly arithmetic or invented physical projector. If that exact input remains missing, record it and take a distinct executable discriminator under the existing autonomous pivot rules."
+  },
+  "shiab_graded_derivation_2026_11_27": {
+    "status": "internal_T1_shiab_derivation_reviewed",
+    "actual_delta": "Every pointwise full-Spin exterior-degree11 derivation of the complete matrix-valued exterior algebra, associative or graded-Lie, is one of two invariant inner channels. Both annihilate algebraic Riemann spin curvature, although nonzero combinations act nontrivially on general adjoint curvature. The nonzero-Einstein principal-Bianchi survivor therefore cannot extend to this full derivation suite; no Euler/Hessian assumption is used.",
+    "evidence": [
+      "explorations/conditional-build/shiab-graded-derivation-class-2026-11-27.md",
+      "lab/process/shiab-graded-derivation-class.json"
+    ],
+    "source_bridge": {
+      "status": "conditional",
+      "reason": "Portal01:48:59 says if shiab is a derivation; the source does not define the full algebra/product/degree suite, exterior-only grading or pointwise interpretation. These are explicit literal interpretations, not source-fixed necessities."
+    },
+    "next": "Use the complete literal-derivation exclusion without repeating its two channels, the old principal-Bianchi census or Riemann restriction. Any remaining source derivation route must name a different supplied algebra, total grading, module/chain identity or extra tensor; missing definitions are not viability. Global geometric mu6 descent is now a retained fit; source-selected connection/current/physical quotient remains. Compare these shared source bridges with other eligible pillars under existing cadence and VOI, without another W2 completion or Joe checkpoint."
   }
 }

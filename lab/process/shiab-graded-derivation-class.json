@@ -1,0 +1,385 @@
+{
+  "artifact": "SHIAB_GRADED_DERIVATION_CLASS",
+  "date": "2026-11-27",
+  "basis_revision": "8b1fe36a30526e86257d2ef660f8e781560aeac0",
+  "status": "internal_T1_shiab_derivation_reviewed",
+  "program_target": "LB-CLASS",
+  "tier": "T1",
+  "expected_delta": "Decide the complete literal associative/Lie degree11 derivation classes independently of the old Euler assumptions; reconcile geometric global mu6 evidence.",
+  "actual_delta": "Every pointwise full-Spin exterior-degree11 derivation of the complete matrix-valued exterior algebra, associative or graded-Lie, is one of two invariant inner channels. Both annihilate algebraic Riemann spin curvature, although nonzero combinations act nontrivially on general adjoint curvature. The nonzero-Einstein principal-Bianchi survivor therefore cannot extend to this full derivation suite; no Euler/Hessian assumption is used.",
+  "source_bridge": {
+    "status": "conditional",
+    "reason": "Portal01:48:59 says if shiab is a derivation; the source does not define the full algebra/product/degree suite, exterior-only grading or pointwise interpretation. These are explicit literal interpretations, not source-fixed necessities."
+  },
+  "class_covered": "Full complex Dirac End128, exterior algebra in dimension14, exterior grading, C-infinity-linear pointwise degree11 associative or graded-Lie derivation, full Spin-equivariance. Smooth scalar coefficients permitted; real u(H) through Lie complexification only.",
+  "premises": [
+    "lab/sources/transcripts/portal-special-gu-first-look-2020-04-02.md",
+    "lab/sources/gu-shiab-derivation-principal-bianchi-source-reinspection-2026-08-05.md",
+    "lab/sources/source-claim-register.yaml",
+    "explorations/k77-wave2-principal-bianchi-product-selector-2026-08-05.md",
+    "explorations/conditional-build/riemann-realform-transfer-2026-11-27.md",
+    "explorations/conditional-build/normal-special-unitary-existence-2026-11-25.md",
+    "explorations/conditional-build/global-normal-complex-reduction-2026-11-24.md",
+    "explorations/conditional-build/source-weak-action-transport-2026-11-13.md"
+  ],
+  "weakest_unproved_link": "Source necessity of this full graded derivation interpretation and matching source connection/soldering; not fixed by the conditional transcript phrase.",
+  "source_necessary_claim": "conditional",
+  "class_C_representativeness": "Not established; no all-C conclusion or width-witness promotion.",
+  "structural_or_build_specific": "STRUCTURAL over the entire declared derivation classes, independent of W2, action coefficients and Euler/Hessian assumptions.",
+  "kill_condition": "No member has nonzero Riemann response in this class; failure of classification, grading, symmetry or carrier applicability invalidates the inference.",
+  "claim_effect": "Internal class extension obstruction and positive geometric condition; no source, physics-ledger, canon or matrix-cell verdict.",
+  "choice_budget_effect": "none;10families/4groupedobligations/bookkeepingnet6/0source-selectedpredictions unchanged",
+  "global_quotient": {
+    "actual_delta": "The owned prescribed-Spin normal H reduction is globally (SU3 x SU2 x U1)/mu6, and the simultaneous geometric form-plus-spin q descends on its associated bundles. This closes the geometric existence/descent condition for the constructed free-J_P reduction, not fixed-J compatibility, connection/vacuum selection or the physical gauge/current quotient.",
+    "ref": "explorations/conditional-build/normal-sm-global-quotient-2026-11-27.md",
+    "scope": "Native normal(6,4), prescribedSpin, baseCWdimension<=7, fixednegativeU2, freepositiveJandvolume. Geometricq only on existing supplied ambientcarrier.",
+    "source_bridge": "Conditional optional SU(3,2) branch of SC-GRP03; no source-selectedJ/connection/vacuum/physicalquotient.",
+    "retained_conditions": [
+      "Inherited absolute almost-complex criterion on nativebase",
+      "FixedJ determinant integralclass/torsion and fixedSpin/phase compatibility",
+      "Boundary/end relative extension",
+      "Physicalweak/current/domain and preservedconnection"
+    ],
+    "ledger_effect": "Pending versionless evidence-only delta RA-A2/RA-A6; no recorded rank-one126 trigger applied.",
+    "status": "internal_T2_global_sm_corollary_reviewed"
+  },
+  "selection": {
+    "mandatory_basis": "Counter96 ordinaryB; packets done or explicitlyblocked; no unfinishedT1. LB-CLASS because source gravity interpretation is structural, not a specified action.",
+    "prior_difference": "Old principal-Bianchi kernel test expressly disclaimed full graded derivation. Old Euler/Hessian theorem has different hypotheses. New complete associative and Lie classes are classified directly.",
+    "source_relevance": "Source conditional derivation hook and SC-OP03 Riemann-response assertion; explicit interpretation burden remains.",
+    "shared_leverage": [
+      "Derivation/curvature cancellation compatibility",
+      "Direct Riemann response through that same operator slot",
+      "Global geometric group versus physical selection distinction"
+    ],
+    "strongest_alternatives": [
+      "W2 positive-norm/normal-current quotient composition: executable but weaker source bridge and candidate-fidelity limit.",
+      "Fixed printed-symbol whole-field stabilizer: distinct quantifier but no cheap uncovered native reduction established.",
+      "Global mu6 condition: cheap useful positive corollary, included."
+    ],
+    "outcomes": [
+      "Completeclass zeroRiemann: consume fullgradedderivation completion of nonzeroEinstein survivor.",
+      "Counterexample inclass: preserve response and repair decomposition.",
+      "Source uses differentalgebra/grading: retain named interpretation limit; no GUkill."
+    ],
+    "forecast": "One short classification+parallel-curvature proof, sparse exactcontrols and reviews; no native128matrixassembly or newsourceaction."
+  },
+  "verification": {
+    "controls": {
+      "status": "PASS",
+      "grouped_checks": 161,
+      "checks": {
+        "n4_q0 Clifford squares": true,
+        "n4_q0 Clifford anticommutation": true,
+        "n4_q0 two nonzero independent channels": true,
+        "n4_q0 full Spin infinitesimal invariance": true,
+        "n4_q0 complete algebraic Riemann basis annihilated": true,
+        "n4_q0 non-Bianchi symmetric curvature detected": true,
+        "n4_q0 full-versus-reduced product 0": true,
+        "n4_q0 graded associative Leibniz 0 0,0": true,
+        "n4_q0 graded Lie Leibniz 0 0,0": true,
+        "n4_q0 graded associative Leibniz 0 0,1": true,
+        "n4_q0 graded Lie Leibniz 0 0,1": true,
+        "n4_q0 graded associative Leibniz 0 1,0": true,
+        "n4_q0 graded Lie Leibniz 0 1,0": true,
+        "n4_q0 graded associative Leibniz 0 1,1": true,
+        "n4_q0 graded Lie Leibniz 0 1,1": true,
+        "n4_q0 graded associative Leibniz 0 1,2": true,
+        "n4_q0 graded Lie Leibniz 0 1,2": true,
+        "n4_q0 graded associative Leibniz 0 2,1": true,
+        "n4_q0 graded Lie Leibniz 0 2,1": true,
+        "n4_q0 graded associative Leibniz 0 0,3": true,
+        "n4_q0 graded Lie Leibniz 0 0,3": true,
+        "n4_q0 full-versus-reduced product 1": true,
+        "n4_q0 graded associative Leibniz 1 0,0": true,
+        "n4_q0 graded Lie Leibniz 1 0,0": true,
+        "n4_q0 graded associative Leibniz 1 0,1": true,
+        "n4_q0 graded Lie Leibniz 1 0,1": true,
+        "n4_q0 graded associative Leibniz 1 1,0": true,
+        "n4_q0 graded Lie Leibniz 1 1,0": true,
+        "n4_q0 graded associative Leibniz 1 1,1": true,
+        "n4_q0 graded Lie Leibniz 1 1,1": true,
+        "n4_q0 graded associative Leibniz 1 1,2": true,
+        "n4_q0 graded Lie Leibniz 1 1,2": true,
+        "n4_q0 graded associative Leibniz 1 2,1": true,
+        "n4_q0 graded Lie Leibniz 1 2,1": true,
+        "n4_q0 graded associative Leibniz 1 0,3": true,
+        "n4_q0 graded Lie Leibniz 1 0,3": true,
+        "n6_q3 Clifford squares": true,
+        "n6_q3 Clifford anticommutation": true,
+        "n6_q3 two nonzero independent channels": true,
+        "n6_q3 full Spin infinitesimal invariance": true,
+        "n6_q3 complete algebraic Riemann basis annihilated": true,
+        "n6_q3 non-Bianchi symmetric curvature detected": true,
+        "n6_q3 full-versus-reduced product 0": true,
+        "n6_q3 graded associative Leibniz 0 0,0": true,
+        "n6_q3 graded Lie Leibniz 0 0,0": true,
+        "n6_q3 graded associative Leibniz 0 0,1": true,
+        "n6_q3 graded Lie Leibniz 0 0,1": true,
+        "n6_q3 graded associative Leibniz 0 1,0": true,
+        "n6_q3 graded Lie Leibniz 0 1,0": true,
+        "n6_q3 graded associative Leibniz 0 1,1": true,
+        "n6_q3 graded Lie Leibniz 0 1,1": true,
+        "n6_q3 graded associative Leibniz 0 1,2": true,
+        "n6_q3 graded Lie Leibniz 0 1,2": true,
+        "n6_q3 graded associative Leibniz 0 2,1": true,
+        "n6_q3 graded Lie Leibniz 0 2,1": true,
+        "n6_q3 graded associative Leibniz 0 0,3": true,
+        "n6_q3 graded Lie Leibniz 0 0,3": true,
+        "n6_q3 full-versus-reduced product 1": true,
+        "n6_q3 graded associative Leibniz 1 0,0": true,
+        "n6_q3 graded Lie Leibniz 1 0,0": true,
+        "n6_q3 graded associative Leibniz 1 0,1": true,
+        "n6_q3 graded Lie Leibniz 1 0,1": true,
+        "n6_q3 graded associative Leibniz 1 1,0": true,
+        "n6_q3 graded Lie Leibniz 1 1,0": true,
+        "n6_q3 graded associative Leibniz 1 1,1": true,
+        "n6_q3 graded Lie Leibniz 1 1,1": true,
+        "n6_q3 graded associative Leibniz 1 1,2": true,
+        "n6_q3 graded Lie Leibniz 1 1,2": true,
+        "n6_q3 graded associative Leibniz 1 2,1": true,
+        "n6_q3 graded Lie Leibniz 1 2,1": true,
+        "n6_q3 graded associative Leibniz 1 0,3": true,
+        "n6_q3 graded Lie Leibniz 1 0,3": true,
+        "n14_q5 Clifford squares": true,
+        "n14_q5 Clifford anticommutation": true,
+        "n14_q5 two nonzero independent channels": true,
+        "n14_q5 full Spin infinitesimal invariance": true,
+        "n14_q5 complete algebraic Riemann basis annihilated": true,
+        "n14_q5 non-Bianchi symmetric curvature detected": true,
+        "n14_q5 full-versus-reduced product 0": true,
+        "n14_q5 graded associative Leibniz 0 0,0": true,
+        "n14_q5 graded Lie Leibniz 0 0,0": true,
+        "n14_q5 graded associative Leibniz 0 0,1": true,
+        "n14_q5 graded Lie Leibniz 0 0,1": true,
+        "n14_q5 graded associative Leibniz 0 1,0": true,
+        "n14_q5 graded Lie Leibniz 0 1,0": true,
+        "n14_q5 graded associative Leibniz 0 1,1": true,
+        "n14_q5 graded Lie Leibniz 0 1,1": true,
+        "n14_q5 graded associative Leibniz 0 1,2": true,
+        "n14_q5 graded Lie Leibniz 0 1,2": true,
+        "n14_q5 graded associative Leibniz 0 2,1": true,
+        "n14_q5 graded Lie Leibniz 0 2,1": true,
+        "n14_q5 graded associative Leibniz 0 0,3": true,
+        "n14_q5 graded Lie Leibniz 0 0,3": true,
+        "n14_q5 full-versus-reduced product 1": true,
+        "n14_q5 graded associative Leibniz 1 0,0": true,
+        "n14_q5 graded Lie Leibniz 1 0,0": true,
+        "n14_q5 graded associative Leibniz 1 0,1": true,
+        "n14_q5 graded Lie Leibniz 1 0,1": true,
+        "n14_q5 graded associative Leibniz 1 1,0": true,
+        "n14_q5 graded Lie Leibniz 1 1,0": true,
+        "n14_q5 graded associative Leibniz 1 1,1": true,
+        "n14_q5 graded Lie Leibniz 1 1,1": true,
+        "n14_q5 graded associative Leibniz 1 1,2": true,
+        "n14_q5 graded Lie Leibniz 1 1,2": true,
+        "n14_q5 graded associative Leibniz 1 2,1": true,
+        "n14_q5 graded Lie Leibniz 1 2,1": true,
+        "n14_q5 graded associative Leibniz 1 0,3": true,
+        "n14_q5 graded Lie Leibniz 1 0,3": true,
+        "n14_q7 Clifford squares": true,
+        "n14_q7 Clifford anticommutation": true,
+        "n14_q7 two nonzero independent channels": true,
+        "n14_q7 full Spin infinitesimal invariance": true,
+        "n14_q7 complete algebraic Riemann basis annihilated": true,
+        "n14_q7 non-Bianchi symmetric curvature detected": true,
+        "n14_q7 full-versus-reduced product 0": true,
+        "n14_q7 graded associative Leibniz 0 0,0": true,
+        "n14_q7 graded Lie Leibniz 0 0,0": true,
+        "n14_q7 graded associative Leibniz 0 0,1": true,
+        "n14_q7 graded Lie Leibniz 0 0,1": true,
+        "n14_q7 graded associative Leibniz 0 1,0": true,
+        "n14_q7 graded Lie Leibniz 0 1,0": true,
+        "n14_q7 graded associative Leibniz 0 1,1": true,
+        "n14_q7 graded Lie Leibniz 0 1,1": true,
+        "n14_q7 graded associative Leibniz 0 1,2": true,
+        "n14_q7 graded Lie Leibniz 0 1,2": true,
+        "n14_q7 graded associative Leibniz 0 2,1": true,
+        "n14_q7 graded Lie Leibniz 0 2,1": true,
+        "n14_q7 graded associative Leibniz 0 0,3": true,
+        "n14_q7 graded Lie Leibniz 0 0,3": true,
+        "n14_q7 full-versus-reduced product 1": true,
+        "n14_q7 graded associative Leibniz 1 0,0": true,
+        "n14_q7 graded Lie Leibniz 1 0,0": true,
+        "n14_q7 graded associative Leibniz 1 0,1": true,
+        "n14_q7 graded Lie Leibniz 1 0,1": true,
+        "n14_q7 graded associative Leibniz 1 1,0": true,
+        "n14_q7 graded Lie Leibniz 1 1,0": true,
+        "n14_q7 graded associative Leibniz 1 1,1": true,
+        "n14_q7 graded Lie Leibniz 1 1,1": true,
+        "n14_q7 graded associative Leibniz 1 1,2": true,
+        "n14_q7 graded Lie Leibniz 1 1,2": true,
+        "n14_q7 graded associative Leibniz 1 2,1": true,
+        "n14_q7 graded Lie Leibniz 1 2,1": true,
+        "n14_q7 graded associative Leibniz 1 0,3": true,
+        "n14_q7 graded Lie Leibniz 1 0,3": true,
+        "center-only Lie derivation calibrated": true,
+        "non-Spin insertion Leibniz 0": true,
+        "non-Spin insertion Leibniz 1": true,
+        "non-Spin insertion Leibniz 2": true,
+        "non-Spin insertion Leibniz 3": true,
+        "non-Spin insertion Leibniz 4": true,
+        "insertion nonzero Leibniz witness": true,
+        "insertion symmetry mutation detected": true,
+        "symmetry-dropped insertion sees sectional Riemann": true,
+        "Lie center loophole is non-Spin": true,
+        "Lie center loophole fails associative unit rule": true,
+        "odd degree center parity mismatch": true,
+        "exterior insertion parity mismatch": true,
+        "inner derivations kill unit": true,
+        "global SM quotient kernel is mu6": true,
+        "mu6 component phases have SU determinants": true,
+        "mu6 lies in identity Spin lift parity": true
+      },
+      "coverage": {
+        "n4_q0": {
+          "riemann_basis_vectors": 20,
+          "signatures": "algebraic Clifford real-form control; no analytic/physical transfer"
+        },
+        "n6_q3": {
+          "riemann_basis_vectors": 105,
+          "signatures": "algebraic Clifford real-form control; no analytic/physical transfer"
+        },
+        "n14_q5": {
+          "riemann_basis_vectors": 3185,
+          "signatures": "algebraic Clifford real-form control; no analytic/physical transfer"
+        },
+        "n14_q7": {
+          "riemann_basis_vectors": 3185,
+          "signatures": "algebraic Clifford real-form control; no analytic/physical transfer"
+        }
+      },
+      "scope": "Exact Clifford/exterior controls incl full n14 algebraic Riemann bases. Classification completeness, source interpretation, LC geometry and global bundle existence are written/reviewed, not inferred by finite sampling.",
+      "runtime_seconds": 2.6485460409894586
+    },
+    "lean": {
+      "status": "PASS",
+      "fresh": true,
+      "command": "lake env lean -j1 /private/tmp/gu-shiab-derivation-wt-20261127/Lean/GUFormalization/ShiabDerivation.lean",
+      "cwd": "mounted GU root with cached Mathlib",
+      "output": "none",
+      "finite_cores": 2,
+      "scope": "Coefficient commutator Leibniz and two-map annihilation only; no full graded classification, Clifford decomposition or global bundle proof."
+    },
+    "review": {
+      "status": "accepted",
+      "ref": "lab/process/hostile-reviews/2026-11-27-shiab-derivation-review.md",
+      "roles": [
+        "mathematical specialist (reconnaissance contribution disclosed)",
+        "independent source/physics review of main theorem",
+        "separate independent hostile review"
+      ],
+      "disclosure": "Source reviewer authored global corollary/custody correction; mathematical and hostile reviewers independently accepted those. Internal agent review, not external expert certification."
+    },
+    "gates": {
+      "program_focus_audit": "PASS",
+      "typed_carrier_declaration_audit": "PASS",
+      "kill_target_claim_audit": "PASS",
+      "frontmatter_status_schema_audit": "PASS",
+      "source_native_comparator_routing_audit": "PASS",
+      "lean_certificate_surface_audit": "PASS",
+      "current_state_absolute_currency_audit": "PASS",
+      "conditional_evidence_delta_gate": "PASS",
+      "research_context_reader_audit": "PASS"
+    },
+    "dependencies": [
+      {
+        "ref": "lab/sources/transcripts/portal-special-gu-first-look-2020-04-02.md",
+        "sha256": "f889ba11089620ade11b5ccf7eb9b01b0c2290e66c54f4e43543ced87a81486f",
+        "fresh_replay": false
+      },
+      {
+        "ref": "lab/sources/gu-shiab-derivation-principal-bianchi-source-reinspection-2026-08-05.md",
+        "sha256": "35f14a7766f76413bb291f694a751acd6d111d16b7b1abe838aee30b484b8de9",
+        "fresh_replay": false
+      },
+      {
+        "ref": "lab/sources/source-claim-register.yaml",
+        "sha256": "dc3ae173b4cc0eb2a0e343e3d92d5f110b8e4f6eef3e2852a1e897ab4371ade6",
+        "fresh_replay": false
+      },
+      {
+        "ref": "explorations/k77-wave2-principal-bianchi-product-selector-2026-08-05.md",
+        "sha256": "d6a8da05a854252283a7149e3e873a876d881f148d2faa9674434b9da333ca59",
+        "fresh_replay": false
+      },
+      {
+        "ref": "explorations/conditional-build/riemann-realform-transfer-2026-11-27.md",
+        "sha256": "39f6ad6678ac9524f1ab68a24e65ab3a577003c6ef500344b5bf84445366b222",
+        "fresh_replay": false
+      },
+      {
+        "ref": "explorations/conditional-build/normal-special-unitary-existence-2026-11-25.md",
+        "sha256": "cf66a0b2a6d869893a8a602dee42c4b052deb299d3c1b5499d8099b81bd48065",
+        "fresh_replay": false
+      },
+      {
+        "ref": "explorations/conditional-build/global-normal-complex-reduction-2026-11-24.md",
+        "sha256": "76efbffa32aa6dfd5028e2bd9f5eba55484ec8e1bb1fd9a6293fc99499f95e3a",
+        "fresh_replay": false
+      },
+      {
+        "ref": "explorations/conditional-build/source-weak-action-transport-2026-11-13.md",
+        "sha256": "e703070c924bc75fda2b4c0af7c3d637392a453396406e9e8f5dd5320c2e4724",
+        "fresh_replay": false
+      }
+    ],
+    "literature": [
+      {
+        "ref": "https://ems.press/content/serial-article-files/30507",
+        "use": "Primary deGoursac-Masson-Wallet2012 Proposition3.5, matrix derivations inner; report also gives self-contained proof."
+      },
+      {
+        "ref": "https://aif.centre-mersenne.org/item/10.5802/aif.1547.pdf",
+        "use": "Primary graded derivation/Frolicher-Nijenhuis context; used for bounded theorem check, not a GU-specific conclusion."
+      }
+    ],
+    "novelty": "No world-novelty claim. Classical algebra/geometry supplies ingredients; this is an uncovered repository interpretation/extension decision.",
+    "ceiling": "Exact basis checks calibrate algebra/signs; classification and source/global transfer remain written and reviewed. Smallcomparison signatures supply no physical well-posedness or source realform identification.",
+    "review_hashes": {
+      "math": "dcd654ec00fc062060ed23bf9b87877adaf0d501a39cd527bf7ccc4e4aacd857",
+      "source": "44ebe7b0698c1cfb90d1cacf434840eb811b5a09c6be6fa52277fe7d9080a7e2",
+      "hostile": "2764be1a72d22be2cd300fad4d68ee3000826232f962a83e71247d93d2815d60"
+    },
+    "artifact_hashes": {
+      "explorations/conditional-build/shiab-graded-derivation-class-2026-11-27.md": "0848f6b6bc0e6009d23bd3fc236c6aa2b54092b7ee668698133e571e5e221548",
+      "explorations/conditional-build/normal-sm-global-quotient-2026-11-27.md": "042af5792a795ccd2605f937d28e8ba646db1b8a073bf34bcbc1f230b305648c",
+      "Lean/GUFormalization/ShiabDerivation.lean": "84d18c7e80a37ba68ecc48171427406302b85074ca9676876a41e48f830f3cc6",
+      "tests/program-focus/shiab_graded_derivation_probe.py": "d16872f9dec86b8069a9a64acd0dae01c6778692350dcba09f8c10bb66fe20e0",
+      "explorations/conditional-build/cb-d-parameterizing-the-unknown-2026-08-05.md": "dabd8f92a9670f9bead337e3a0f9ca17c20784d440dba5fab569178268272052"
+    }
+  },
+  "follow_through": {
+    "consumed": [
+      "Full pointwise associative or gradedLie derivation extension of nonzeroRiemann principal-Bianchi survivor under samegrading/symmetry/carrier",
+      "Claim that a complete degree11derivation had already beenbuilt from the oldNOTclaimed column",
+      "Treating globalmu6 construction as whollymissing for the nowconstructed fixedSpin/freeJ reduction"
+    ],
+    "survivors": [
+      "Weaker principal-Bianchi Einstein-response map, without fullgradedextension",
+      "Differential/module/restricteddegree/othergrading/product/extra-tensor interpretations, unvalidated",
+      "Nonzero innerderivations on general adjoint curvature",
+      "GlobalgeometricH and q, without physical selection"
+    ],
+    "next": "Use the complete literal-derivation exclusion without repeating its two channels, the old principal-Bianchi census or Riemann restriction. Any remaining source derivation route must name a different supplied algebra, total grading, module/chain identity or extra tensor; missing definitions are not viability. Global geometric mu6 descent is now a retained fit; source-selected connection/current/physical quotient remains. Compare these shared source bridges with other eligible pillars under existing cadence and VOI, without another W2 completion or Joe checkpoint."
+  },
+  "retrospective": {
+    "trigger": "Concrete source-citation self-correction",
+    "failure": "cb-d5.3 quoted a table NOTclaimed object as corroborated construction.",
+    "repair": "Corrected only that paragraph; classified fullgraded and principalBianchi as distinct signatures; source review checked table column and conditional phrase.",
+    "effect": "Prevented inherited source-strength inflation and exposed a genuinely uncovered full-class test. No newprocessrule.",
+    "cost": "Fullcontrol replay2.65seconds approximately; native matrixassembly avoided. End-to-end reviewcost not inferred from compute runtime."
+  },
+  "accounting": {
+    "counter_before": 96,
+    "counter_after": 97,
+    "LB_CLASS_before": 51,
+    "LB_CLASS_after": 52,
+    "bet_credit": 0,
+    "process_credit": 0,
+    "new_choices": 0,
+    "matrix_cell_changes": 0,
+    "ledger_verdict_changes": 0
+  },
+  "effect_line": "Change: full derivation interpretation closed and global geometric mu6 fit recorded; why: source fidelity and class coverage; authority:Joe27(c,f,h); applied as reviewed internal evidence, ledger attachment proposed; effect: redundant derivation/quotient reconstruction consumed, physical selection still open."
+}

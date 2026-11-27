@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "basis_revision": "bfdac9869547d9e16f47e5bd6879422bf239e601",
+  "basis_revision": "8b1fe36a30526e86257d2ef660f8e781560aeac0",
   "scope": "Curated six-pillar x source/class/candidate linked view. Status belongs to cited owners; no scientific verdict promotion, automatic ranking, whole-history coverage or global percentage. Cheapest-next fields are attributed bounded suggestions, not dispatch instructions. Closed means resolved within the cited scope; it does not always mean falsified. Positive fits and remaining source/physical bridges stay explicit.",
   "assumptions_ref": "lab/process/action-constraint-matrix.json#source_relevance_assumption_view.shared_prerequisites",
   "dependencies": [
@@ -94,7 +94,7 @@
     },
     {
       "ref": "lab/process/action-constraint-matrix.json",
-      "sha256": "d665b2cabd6cade6efa554cac1701fb9ce822a128b2b921e7d4ddba68b92dce4"
+      "sha256": "93034dbf5c4f148d42922602600b3370b5304f3f083d2949571674ff5410e203"
     },
     {
       "ref": "lab/process/conditional-physics-ledger-v0.263.json",
@@ -115,6 +115,14 @@
     {
       "ref": "lab/process/bet-2plus1-unitary-dual-closure.json",
       "sha256": "57ec18f945d5d86c5612b129939d370d475e0143997a571101fdcbe3618f52e4"
+    },
+    {
+      "ref": "explorations/conditional-build/shiab-graded-derivation-class-2026-11-27.md",
+      "sha256": "0848f6b6bc0e6009d23bd3fc236c6aa2b54092b7ee668698133e571e5e221548"
+    },
+    {
+      "ref": "explorations/conditional-build/normal-sm-global-quotient-2026-11-27.md",
+      "sha256": "042af5792a795ccd2605f937d28e8ba646db1b8a073bf34bcbc1f230b305648c"
     }
   ],
   "pillars": [
@@ -136,12 +144,13 @@
         },
         "class": {
           "attributed_status": "Internal T1 source-facing candidate finding; no source-register verdict",
-          "closed": "Every nonzero map in the declared fixed-linear full-Spin/full-U family fails exact Euler correspondence, even after any fixed invertible zero-order covector multiplier.",
-          "open": "Field-dependent/differential/nonlocal multipliers, changed tangents or equations; class-C representativeness.",
+          "closed": "Every nonzero map in the declared fixed-linear full-Spin/full-U family fails exact Euler correspondence, even after any fixed invertible zero-order covector multiplier. Separately, every full pointwise exterior-degree11 Spin-equivariant associative or gradedLie derivation is Riemann-silent, without Euler/Hessian premises.",
+          "open": "Field-dependent/differential/nonlocal multipliers, changed tangents or equations; class-C representativeness. Exact source meaning of derivation/module/chain and its grading/product remains conditional.",
           "shared_missing_ref": "lab/process/action-constraint-matrix.json#source_relevance_assumption_view.shared_prerequisites",
-          "cheapest_next": "Use the class exclusion; no further fixed-map or fixed-multiplier census.",
+          "cheapest_next": "Use both distinct exclusions; a source derivation route needs an actually supplied different algebra/grading/module law, not another coefficient in the covered class.",
           "evidence_refs": [
-            "explorations/conditional-build/printed-shiab-endpoint-audit-2026-11-27.md"
+            "explorations/conditional-build/printed-shiab-endpoint-audit-2026-11-27.md",
+            "explorations/conditional-build/shiab-graded-derivation-class-2026-11-27.md"
           ]
         },
         "candidate": {
@@ -274,9 +283,10 @@
             "explorations/source-native-spin64-observation-sector-obstruction-2026-08-30.md",
             "lab/process/observation-physical-carrier-custody-2026-11-27.md",
             "explorations/conditional-build/bet-2plus1-unitary-dual-closure-2026-11-27.md",
-            "lab/process/bet-2plus1-unitary-dual-closure.json"
+            "lab/process/bet-2plus1-unitary-dual-closure.json",
+            "explorations/conditional-build/normal-sm-global-quotient-2026-11-27.md"
           ],
-          "positive_fit": "Paired real normal sectors and canonical principal observation quotients are established at their scopes. Weighted b=H one-way q closure remains an explicit survivor."
+          "positive_fit": "Paired real normal sectors and canonical principal observation quotients are established at their scopes. Weighted b=H one-way q closure remains an explicit survivor. Constructed fixedSpin/freeJ normalH has globalmu6quotient and associatedgeometricq descent; physicalconnection/current notselected."
         },
         "candidate": {
           "attributed_status": "RA-B1..B5 and AC-D1..D5 retain SAME / DERIVED_CONDITIONAL",
@@ -362,8 +372,10 @@
           "shared_missing_ref": "lab/process/action-constraint-matrix.json#source_relevance_assumption_view.shared_prerequisites",
           "cheapest_next": "Do not repeat stationary same-torus gap searches; require a new source-backed transfer premise.",
           "evidence_refs": [
-            "explorations/conditional-build/bet-mass-gap-stationary-torus-2026-11-27.md"
-          ]
+            "explorations/conditional-build/bet-mass-gap-stationary-torus-2026-11-27.md",
+            "explorations/conditional-build/normal-sm-global-quotient-2026-11-27.md"
+          ],
+          "positive_fit": " Constructed fixedSpin/freeJ normalH has globalmu6quotient and associatedgeometricq descent; physicalconnection/current notselected."
         },
         "candidate": {
           "attributed_status": "Compact comparator result; no quantum or GU gap verdict",

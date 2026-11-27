@@ -17,6 +17,10 @@ External review is not a research pathway or waiting condition. The source-level
 
 Sections below are historical snapshots in file order.
 
+## 2026-11-27 — Full graded derivation and global geometric quotient
+
+[Derivation class](explorations/conditional-build/shiab-graded-derivation-class-2026-11-27.md) · [Evidence](lab/process/shiab-graded-derivation-class.json). Both full pointwise Spin-equivariant degree11 associative/Lie derivation classes are Riemann-silent; the weaker principal-Bianchi Einstein-response survivor remains distinct. [Global quotient](explorations/conditional-build/normal-sm-global-quotient-2026-11-27.md) supplies mu6 and geometric observation descent on the inherited fixed-Spin/free-J normal reduction. Physical selection and source interpretation remain open. No source/canon/physics-ledger verdict or new choice; two finite Lean cores cover only elementary algebra.
+
 ## 2026-11-27 — Complete unitary paired observation class
 
 [Result](explorations/conditional-build/bet-2plus1-unitary-dual-closure-2026-11-27.md) · [Evidence](lab/process/bet-2plus1-unitary-dual-closure.json). Every homogeneous correction in the complete weighted b=H unitary/chiral family is insertion-valued on the full observed complement. The opposite geometric block remains, excluding exact two-sided closure at nonzero II in the named orthogonal paired realization. The authenticated native block retains rank512. One-way closure and effective physical decoupling remain distinct; no source, physics-ledger, canon or matrix-cell verdict changed. Lean covers two abstract linear cores only.

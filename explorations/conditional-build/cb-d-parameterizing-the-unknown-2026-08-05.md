@@ -710,11 +710,15 @@ explorations/resolver-wave-k77b-source-bracket-displayed-shiab-b1-variation-2026
     adjoint-valued; form-degree +11
 ```
 
-Corroborated on the K77 side by "a fully defined **degree-11** graded derivation
-on every form degree" and a degree-13 codomain
-(`explorations/k77-wave2-principal-bianchi-product-selector-2026-08-05.md:65,137-141`,
-read-only), and on the canon side by six `explorations/shiab-operator/*`
-artifacts all writing `Omega^2 tensor S -> Omega^1 tensor S`
+**Citation correction (2026-11-27).** The prior paragraph inverted the cited
+table's claim boundary: "a fully defined degree-11 graded derivation on every
+form degree" appears under **object not claimed**, not as a construction.
+The K77 result tests principal-symbol kernel transport of the displayed
+degree-two-to-degree-thirteen map
+(`explorations/k77-wave2-principal-bianchi-product-selector-2026-08-05.md`, §2).
+This still supports the domain/codomain distinction below, without supplying
+a graded derivation. On the canon side, six `explorations/shiab-operator/*`
+artifacts all write `Omega^2 tensor S -> Omega^1 tensor S`
 (`sc1-shiab-domain-codomain-2026-06-23.md:15`,
 `shiab-codiff-intertwiner-dim-2026-06-26.md:19`,
 `shiab-selector-search-2026-06-26.md:35`, …).
