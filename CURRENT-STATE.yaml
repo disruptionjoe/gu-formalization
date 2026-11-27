@@ -1,7 +1,7 @@
 schema_version: '1.0'
 repository: observerse-research-program
 branch: main
-revision_basis: c27ba0b79576bb6cf5f1c2a7d1517363c411d408
+revision_basis: 4ee3a8bb90b418216eff0fb740df935af08a4ce5
 program_focus:
   version: 2026-11-25-v1
   authority: joe_direct_chat_2026_11_25_five_process_improvements_approved
@@ -140,6 +140,72 @@ program_focus:
     covered; source relevance separately from mathematical breadth; shared prerequisite if any; remaining
     cost; strongest eligible alternative. A blocked high-value target is not an eligible alternative without
     its missing input. Reuse completed theorems and compare only their uncovered successors.'
+source_action_mixed_consistency_2026_11_26:
+  authority: joe_direct_chat_2026_11_26_continued_falsification_math20
+  basis_revision: 4ee3a8bb90b418216eff0fb740df935af08a4ce5
+  status: internal_T2_mixed_channel_partition_reviewed
+  actual_delta: Four of eight mixed principal consistency channel types have native M preimages at both
+    held roots. The four remaining normal-spin2 channel types are nonzero outside the old receivers, not
+    proved outside im M. Their full-M range question reduces exhaustively to the complete even highest5
+    time-kernel inside a512-dimensional ambient space. No candidate or GU exclusion.
+  evidence:
+  - explorations/conditional-build/source-action-mixed-consistency-2026-11-26.md
+  - lab/process/source-action-mixed-consistency.json
+  - lab/process/source-action-mixed-consistency-certificates.json
+  - lab/process/hostile-reviews/2026-11-26-source-action-mixed-consistency-review.md
+  source_bridge:
+    status: conditional
+    weakest_unproved_link: W2 and freely specified Q jets are not source-required physical states; full
+      propagation and physical quotient remain unproved.
+    source_necessary_exclusion: absent
+    class_C_representativeness: unchanged/unproved
+    source_claims:
+      SC-ACT-01: ASSERTS action grammar, not unique W2
+      SC-ACT-06: ASSERTS Euclidean Upsilon complex, not this Lorentzian propagation
+      SC-GEO-51: ASSERTS full U64_64
+      SC-GEO-55: ASSERTS gauge-rotated LC displacement
+      SC-META-53: UNCERTAIN physical treatment of indefinite spectra
+    physics_rows: LT-GR1, LT-GR6b, LT-SM8 retain current verdicts and domain/quotient burdens.
+  continuation:
+  - id: complete_even_spin5_mixed_range
+    status: ready
+    target: LB-CLASS
+    tier: T2
+    task: Construct the complete even highest5 time-kernel from the664 weight5 directions (raising kernel512),
+      then test the actual M restriction for both corrected raw sources A and B over both held root boxes.
+      Use commuting parity/spin/weight projectors to justify exhaustive full-M coverage. No guessed-receiver
+      chain.
+    expected_delta: Settle every remaining mixed principal channel by a whole-block inverse or identify
+      its exact remaining augmented constraint problem.
+    class_covered: Full native M-range for even highest5 mixed sources in the held W2/K95 quadratic block;
+      all source fields and roots kept fixed.
+    source_bridge: Candidate consistency only; W2, free Q jets, physical domain/quotient and propagation
+      are not source-required facts.
+    remaining_cost: At most512 highest directions before the time-kernel restriction; existing exact atom/character
+      and reconstruction scaffold, corrected A/B inputs.
+    kill_condition: A singular block, numerical failure or missing M preimage alone is not inconsistency.
+      A negative claim must annihilate every normal and zero-order kernel-multiplier repair.
+  - id: normal_lower_and_higher_consistency
+    status: conditional_after_mixed_test
+    target: LB-CLASS
+    tier: T2
+    task: Evaluate actual normal-first spin2 lower coefficients before a broad normal-normal calculation;
+      retain transverse derivatives, frame brackets and zero-order terms. Continue only uncovered consistency/propagation
+      obligations.
+    expected_delta: A stated propagated admissible category, or a genuine scoped augmented obstruction.
+    revival_input: Disposition of remaining mixed class; exact lower-order sources and allowed repairs.
+  - id: physical_weak_readout
+    status: blocked_on_authentic_admission_and_propagation
+    target: LB-CLASS
+    tier: T2
+    task: Transport actually propagated candidate response to source-admitted physical observables.
+    revival_input: Common physical domain/quotient, normalized readout and propagation law.
+  consumed:
+  - Mixed spin4 and normal-vector spin5 channel types at both roots
+  - Old spin5 receiver reuse for the nonzero even normal-spin2 sources; no M-cokernel conclusion
+  accounting: Directed74to75/LBCLASS33to34; choice budget and scientific matrix shrinkage unchanged
+  priority_control_effect: Factual continuation targets an exhaustive finite native block; program_focus
+    and schedules unchanged. Nov26g remains proposal-only.
 source_action_constraint_source_repair_2026_11_26:
   authority: joe_direct_chat_2026_11_26_continued_falsification_math20
   basis_revision: c27ba0b79576bb6cf5f1c2a7d1517363c411d408
@@ -168,7 +234,7 @@ source_action_constraint_source_repair_2026_11_26:
     physics_rows: LT-GR1, LT-GR6b, LT-SM8 retain current verdicts and domain/quotient burdens.
   continuation:
   - id: mixed_horizontal_normal_consistency
-    status: ready
+    status: done_partition_four_repaired_four_open
     target: LB-CLASS
     tier: T2
     task: Assemble the actual mixed horizontal-normal principal consistency map using the owned primary
@@ -184,6 +250,8 @@ source_action_constraint_source_repair_2026_11_26:
       before new receiver construction.
     kill_condition: Only a dual annihilating full M and all permitted normal/zero-order kernel repairs
       obstructs a named jet. Failed membership is not a kill.
+    completion_evidence: lab/process/source-action-mixed-consistency.json
+    remaining_work_ref: source_action_mixed_consistency_2026_11_26
   - id: normal_lower_and_higher_consistency
     status: conditional_after_mixed_test
     target: LB-CLASS
@@ -207,6 +275,7 @@ source_action_constraint_source_repair_2026_11_26:
   accounting: Directed73to74/LBCLASS32to33; choice budget and scientific matrix shrinkage unchanged
   priority_control_effect: Factual continuation removes completed horizontal work and selects actual mixed
     principal sources; program_focus and schedules unchanged. Nov26g remains proposal-only.
+  continuation_superseded_by: source_action_mixed_consistency_2026_11_26
 source_action_constraint_consistency_2026_11_26:
   authority: joe_direct_chat_2026_11_26_continued_falsification_math20
   basis_revision: fbc2f6517d61395c8d92db90a254c4db473da7ef

@@ -343,3 +343,15 @@ Selection: Joe continuing falsification; structural scope is the actual candidat
 - **Carried:** normal-first, normal-normal, higher consistency and physical propagation/admission. Horizontal lower terms require no further calculation for this first stage.
 
 Selection: continuing Joe-directed falsification; candidate source bridge remains conditional. Existing primary lifts and exact receivers are shared inputs. The mixed principal map has a smaller executable footprint than unrestricted normal closure and a direct actual-equation role. Physical readout remains ineligible without propagation/admission. Directed73to74/LBCLASS32to33;10/4/net6/zero predictions unchanged. No policy, schedule, canon or counterfactual-suite change.
+
+
+## Current continuation: mixed consistency partition (2026-11-26)
+
+[Result](../../../explorations/conditional-build/source-action-mixed-consistency-2026-11-26.md) · [evidence](../source-action-mixed-consistency.json).
+
+- **Done,T2:** four of eight reduced mixed channel types have native preimages at both roots: all spin4 and normal-vector spin5 channels. Exact32×59×3 family checks and constants use certified old receivers.
+- **Established coverage limit:** four normal-spin2 channels are nonzero outside the old odd receivers. Keep full A and nonzero B, with reduced maps4(A-B),2(2A+B). This is not an M-cokernel or candidate exclusion.
+- **Ready,LB-CLASS/T2:** complete even highest5 time-kernel and its actual M restriction, at most512 ambient highest directions. Commuting symmetry projectors make this exhaustive for the M-range question. Any singularity still retains every projected normal/zero-order kernel repair.
+- **Carried:** normal-first lower coefficients, normal-normal and higher consistency, propagation and physical/source admission. No repeated horizontal or already-covered mixed calculations.
+
+Selection: continuing Joe-directed falsification, with conditional source bridge. Fixed candidate/roots/physical choices. The whole finite block replaces guessed receiver expansion; normal-first lower terms are the strongest alternative but still need actual transverse/zero-order assembly. Directed74to75/LBCLASS33to34;10/4/net6/zero predictions unchanged. Nov26g ranking remains proposal-only; no policy or schedule changes.

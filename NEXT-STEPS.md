@@ -16,6 +16,14 @@ Do not add "Current follow-through" sections or "Historical predecessor" stacks 
 matrix or bet file. The retired follow-through chain and banner stack are kept at the end of this file under
 "Archived steering history".
 
+## Actual mixed constraint consistency partition (2026-11-26)
+
+Four of eight mixed principal consistency channel types have native M preimages at both held roots. The four remaining normal-spin2 channel types are nonzero outside the old receivers, not proved outside im M. Their full-M range question reduces exhaustively to the complete even highest5 time-kernel inside a512-dimensional ambient space. No candidate or GU exclusion.
+
+The512 count is an ambient highest-weight bound, not a physical particle count or a proved inverse. Corrected nonzero constants are retained.
+
+[Result](explorations/conditional-build/source-action-mixed-consistency-2026-11-26.md) · [Evidence](lab/process/source-action-mixed-consistency.json).
+
 ## Actual horizontal constraint sources repaired (2026-11-26)
 
 Both actual horizontal spin5 consistency sources have native M preimages at both kappa1 roots, certified on a new120-dimensional highest5 receiver invariant under all59 background maps. All horizontal two-jets on Q pass first consistency in the stated equivariant jet splitting. No candidate or GU exclusion; mixed/normal jets and propagation remain open.

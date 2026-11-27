@@ -1348,7 +1348,7 @@
       "selection_note": "Candidate construction/diagnostic only unless its stated structural family and source bridge satisfy current program_focus. A reserve is not scheduled work."
     }
   ],
-  "priority_effect": "Current directed science uses constraint_source_repair_2026_11_26: all horizontal first-consistency jets pass; next actual mixed horizontal-normal principal map, testing existing receivers before any new inverse. Physical propagation remains open. Policy/cadence/schedules unchanged.",
+  "priority_effect": "Current directed science uses mixed_consistency_2026_11_26: four mixed channel types pass; remaining full-M image question is exhaustively confined to complete even highest5 time-kernel inside512 ambient directions. Physical propagation remains open. Policy/cadence/schedules unchanged.",
   "evidence": [
     "explorations/conditional-build/source-action-engineering-wave-2026-11-25.md",
     "lab/process/source-action-engineering-wave.json",
@@ -2045,6 +2045,49 @@
       "Cases8/17 native range membership",
       "Pure-horizontal lower jet source absorption"
     ],
+    "counterfactual_status": "Nov26g proposal-only; no suite or governance execution",
+    "continuation_superseded_by": "lab/process/source-action-mixed-consistency.json"
+  },
+  "mixed_consistency_2026_11_26": {
+    "report": "explorations/conditional-build/source-action-mixed-consistency-2026-11-26.md",
+    "evidence": "lab/process/source-action-mixed-consistency.json",
+    "actual_delta": "Four of eight mixed principal consistency channel types have native M preimages at both held roots. The four remaining normal-spin2 channel types are nonzero outside the old receivers, not proved outside im M. Their full-M range question reduces exhaustively to the complete even highest5 time-kernel inside a512-dimensional ambient space. No candidate or GU exclusion.",
+    "next_directed_worksets": [
+      {
+        "id": "complete_even_spin5_mixed_range",
+        "status": "ready",
+        "target": "LB-CLASS",
+        "tier": "T2",
+        "task": "Construct the complete even highest5 time-kernel from the664 weight5 directions (raising kernel512), then test the actual M restriction for both corrected raw sources A and B over both held root boxes. Use commuting parity/spin/weight projectors to justify exhaustive full-M coverage. No guessed-receiver chain.",
+        "expected_delta": "Settle every remaining mixed principal channel by a whole-block inverse or identify its exact remaining augmented constraint problem.",
+        "class_covered": "Full native M-range for even highest5 mixed sources in the held W2/K95 quadratic block; all source fields and roots kept fixed.",
+        "source_bridge": "Candidate consistency only; W2, free Q jets, physical domain/quotient and propagation are not source-required facts.",
+        "remaining_cost": "At most512 highest directions before the time-kernel restriction; existing exact atom/character and reconstruction scaffold, corrected A/B inputs.",
+        "kill_condition": "A singular block, numerical failure or missing M preimage alone is not inconsistency. A negative claim must annihilate every normal and zero-order kernel-multiplier repair."
+      },
+      {
+        "id": "normal_lower_and_higher_consistency",
+        "status": "conditional_after_mixed_test",
+        "target": "LB-CLASS",
+        "tier": "T2",
+        "task": "Evaluate actual normal-first spin2 lower coefficients before a broad normal-normal calculation; retain transverse derivatives, frame brackets and zero-order terms. Continue only uncovered consistency/propagation obligations.",
+        "expected_delta": "A stated propagated admissible category, or a genuine scoped augmented obstruction.",
+        "revival_input": "Disposition of remaining mixed class; exact lower-order sources and allowed repairs."
+      },
+      {
+        "id": "physical_weak_readout",
+        "status": "blocked_on_authentic_admission_and_propagation",
+        "target": "LB-CLASS",
+        "tier": "T2",
+        "task": "Transport actually propagated candidate response to source-admitted physical observables.",
+        "revival_input": "Common physical domain/quotient, normalized readout and propagation law."
+      }
+    ],
+    "consumed": [
+      "Four mixed principal channel types repaired",
+      "Old-receiver noncoverage for the four even channel types established, without M obstruction"
+    ],
+    "counterfactual_proposal": "lab/process/source-action-mixed-consistency.json#counterfactual_proposal",
     "counterfactual_status": "Nov26g proposal-only; no suite or governance execution"
   }
 }

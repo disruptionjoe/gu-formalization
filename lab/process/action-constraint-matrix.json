@@ -1788,7 +1788,7 @@
     },
     "LB-CLASS": {
       "zero_delta_streak": 0,
-      "runs": 33,
+      "runs": 34,
       "status": "open"
     },
     "LB-LADDER": {
@@ -2707,7 +2707,7 @@
   ],
   "program_run_counter": {
     "since": "2026-11-09",
-    "count": 74,
+    "count": 75,
     "rule": "Every hourly run increments this in its postflight, whatever its lane. Lane C runs when count % 4 == 3 before the increment."
   },
   "working_rule": "Cells are worked at the structure level: a requirement must hold for every action in class C or for a structurally defined subfamily. No cell is worked by writing down a specific action, and no gated cell is worked by building its gate object. See CURRENT-STATE.yaml program_focus.structure_not_specifics.",
@@ -3242,6 +3242,21 @@
         "lab/process/source-action-constraint-source-repair.json"
       ],
       "claim_effect": "No matrix cell/intersection, source/physics/canon/class-C or paper verdict change. No physical ghost or GU falsification."
+    },
+    {
+      "date": "2026-11-26",
+      "authority": "joe_direct_chat_2026_11_26_continued_falsification_math20",
+      "item": "Actual mixed consistency partition and exhaustive even-block reduction",
+      "tier": "T2",
+      "counter_before": 74,
+      "counter_after": 75,
+      "lane": "LB-CLASS",
+      "actual_delta": "Four of eight mixed principal consistency channel types have native M preimages at both held roots. The four remaining normal-spin2 channel types are nonzero outside the old receivers, not proved outside im M. Their full-M range question reduces exhaustively to the complete even highest5 time-kernel inside a512-dimensional ambient space. No candidate or GU exclusion.",
+      "evidence": [
+        "explorations/conditional-build/source-action-mixed-consistency-2026-11-26.md",
+        "lab/process/source-action-mixed-consistency.json"
+      ],
+      "claim_effect": "No matrix cell/intersection, source/physics/canon/class-C or paper verdict change; no physical ghost or GU falsification."
     }
   ],
   "directed_lc_carry_2026_11_24_b": {
@@ -3594,7 +3609,9 @@
           "explorations/conditional-build/source-action-constraint-consistency-2026-11-26.md",
           "lab/process/source-action-constraint-consistency.json",
           "explorations/conditional-build/source-action-constraint-source-repair-2026-11-26.md",
-          "lab/process/source-action-constraint-source-repair.json"
+          "lab/process/source-action-constraint-source-repair.json",
+          "explorations/conditional-build/source-action-mixed-consistency-2026-11-26.md",
+          "lab/process/source-action-mixed-consistency.json"
         ],
         "choices": "Historical original choices are retained below; current held fermion repair is SE=-1/2 (SE0 superseded), kappa1 with two unselected roots. Typed candidate_choice_budget separates core/completion/pending/comparator/parked choices.",
         "wave2_update": {
@@ -4296,6 +4313,56 @@
               "SC-ACT-06": "ASSERTS Euclidean Upsilon deformation complex, not this Lorentzian propagation",
               "SC-GEO-51": "ASSERTS full U64_64",
               "SC-GEO-55": "ASSERTS gauge-rotated LC displacement, not ordinary torsion",
+              "SC-META-53": "UNCERTAIN physical treatment of indefinite spectra"
+            },
+            "physics_rows": "LT-GR1, LT-GR6b, LT-SM8 retain current verdicts and domain/quotient burdens."
+          },
+          "superseded_continuation": "lab/process/source-action-mixed-consistency.json"
+        },
+        "mixed_consistency_followthrough": {
+          "state": "Four of eight mixed principal consistency channel types have native M preimages at both held roots. The four remaining normal-spin2 channel types are nonzero outside the old receivers, not proved outside im M. Their full-M range question reduces exhaustively to the complete even highest5 time-kernel inside a512-dimensional ambient space. No candidate or GU exclusion.",
+          "next": [
+            {
+              "id": "complete_even_spin5_mixed_range",
+              "status": "ready",
+              "target": "LB-CLASS",
+              "tier": "T2",
+              "task": "Construct the complete even highest5 time-kernel from the664 weight5 directions (raising kernel512), then test the actual M restriction for both corrected raw sources A and B over both held root boxes. Use commuting parity/spin/weight projectors to justify exhaustive full-M coverage. No guessed-receiver chain.",
+              "expected_delta": "Settle every remaining mixed principal channel by a whole-block inverse or identify its exact remaining augmented constraint problem.",
+              "class_covered": "Full native M-range for even highest5 mixed sources in the held W2/K95 quadratic block; all source fields and roots kept fixed.",
+              "source_bridge": "Candidate consistency only; W2, free Q jets, physical domain/quotient and propagation are not source-required facts.",
+              "remaining_cost": "At most512 highest directions before the time-kernel restriction; existing exact atom/character and reconstruction scaffold, corrected A/B inputs.",
+              "kill_condition": "A singular block, numerical failure or missing M preimage alone is not inconsistency. A negative claim must annihilate every normal and zero-order kernel-multiplier repair."
+            },
+            {
+              "id": "normal_lower_and_higher_consistency",
+              "status": "conditional_after_mixed_test",
+              "target": "LB-CLASS",
+              "tier": "T2",
+              "task": "Evaluate actual normal-first spin2 lower coefficients before a broad normal-normal calculation; retain transverse derivatives, frame brackets and zero-order terms. Continue only uncovered consistency/propagation obligations.",
+              "expected_delta": "A stated propagated admissible category, or a genuine scoped augmented obstruction.",
+              "revival_input": "Disposition of remaining mixed class; exact lower-order sources and allowed repairs."
+            },
+            {
+              "id": "physical_weak_readout",
+              "status": "blocked_on_authentic_admission_and_propagation",
+              "target": "LB-CLASS",
+              "tier": "T2",
+              "task": "Transport actually propagated candidate response to source-admitted physical observables.",
+              "revival_input": "Common physical domain/quotient, normalized readout and propagation law."
+            }
+          ],
+          "choice_budget_delta": 0,
+          "source_status": {
+            "status": "conditional",
+            "weakest_unproved_link": "W2 and freely specified Q jets are not source-required physical states; full propagation and physical quotient remain unproved.",
+            "source_necessary_exclusion": "absent",
+            "class_C_representativeness": "unchanged/unproved",
+            "source_claims": {
+              "SC-ACT-01": "ASSERTS action grammar, not unique W2",
+              "SC-ACT-06": "ASSERTS Euclidean Upsilon complex, not this Lorentzian propagation",
+              "SC-GEO-51": "ASSERTS full U64_64",
+              "SC-GEO-55": "ASSERTS gauge-rotated LC displacement",
               "SC-META-53": "UNCERTAIN physical treatment of indefinite spectra"
             },
             "physics_rows": "LT-GR1, LT-GR6b, LT-SM8 retain current verdicts and domain/quotient burdens."

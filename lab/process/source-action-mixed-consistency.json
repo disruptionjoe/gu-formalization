@@ -1,0 +1,327 @@
+{
+  "basis_revision": "4ee3a8bb90b418216eff0fb740df935af08a4ce5",
+  "authority": "joe_direct_chat_2026_11_26_continued_falsification_math20",
+  "status": "internal_T2_mixed_channel_partition_reviewed",
+  "program_target": "LB-CLASS",
+  "tier": "T2",
+  "actual_delta": "Four of eight mixed principal consistency channel types have native M preimages at both held roots. The four remaining normal-spin2 channel types are nonzero outside the old receivers, not proved outside im M. Their full-M range question reduces exhaustively to the complete even highest5 time-kernel inside a512-dimensional ambient space. No candidate or GU exclusion.",
+  "class_covered": "Actual mixed horizontal-normal principal first-consistency map on two-copy Q7 in the autonomous imaginary connection W2/K95 block at both held real zero-matter kappa1 roots.",
+  "premises": [
+    "explorations/conditional-build/source-action-mixed-consistency-2026-11-26.md",
+    "lab/process/source-action-mixed-consistency-certificates.json",
+    "lab/process/source-action-constraint-source-repair.json"
+  ],
+  "source_bridge": {
+    "status": "conditional",
+    "weakest_unproved_link": "W2 and freely specified Q jets are not source-required physical states; full propagation and physical quotient remain unproved.",
+    "source_necessary_exclusion": "absent",
+    "class_C_representativeness": "unchanged/unproved",
+    "source_claims": {
+      "SC-ACT-01": "ASSERTS action grammar, not unique W2",
+      "SC-ACT-06": "ASSERTS Euclidean Upsilon complex, not this Lorentzian propagation",
+      "SC-GEO-51": "ASSERTS full U64_64",
+      "SC-GEO-55": "ASSERTS gauge-rotated LC displacement",
+      "SC-META-53": "UNCERTAIN physical treatment of indefinite spectra"
+    },
+    "physics_rows": "LT-GR1, LT-GR6b, LT-SM8 retain current verdicts and domain/quotient burdens."
+  },
+  "claim_effect": "No matrix cell/intersection, source/physics/canon/class-C or paper verdict change; no physical ghost or GU falsification.",
+  "certificate_summary": {
+    "reduced_channel_types": 8,
+    "repaired_channel_types": 4,
+    "remaining_channel_types": 4,
+    "family_maps": 5664,
+    "family_coverage_by_normal_axis": {
+      "5": true,
+      "10": true,
+      "9": false
+    },
+    "native_direct_projection_controls": 177,
+    "root_noncoverage_witnesses": [
+      {
+        "root": 0,
+        "sources": [
+          {
+            "basis_index": 5,
+            "witnesses": [
+              {
+                "coordinate": [
+                  2048,
+                  6415
+                ],
+                "center": [
+                  "0",
+                  "-2876876158372150799310064974704843131530683781299683/218278728425502777099609375000000000000000000000000000"
+                ],
+                "error_bound": "508637679195552733858298760056016147035668284836131217989739664683774012769574573997699036693899006671552250550376402342011335160548721251630373551632980143674291043888122282607372982241435278756928970489289063/312601532339105948421979822761317059396679275046185423729659577728128331333645728717211144500960895292173743613621614019109444914780308410069554739950001951027573014143854379653930664062500000000000000000000000000000",
+                "nonzero_margin": "514940734924855445659690974038006485545187123300858063947709297245198979237884837059343221466040774428204134435300767259510275588063325107261126536566932087513644984322356794372435610960675493418424360977723814541561/39075191542388243552747477845164632424584909380773177966207447216016041416705716089651393062620111911521717951702701752388680614347538551258694342493750243878446626767981797456741333007812500000000000000000000000000000",
+                "nonzero_margin_float": 0.013178201170588112,
+                "certified_nonzero": true,
+                "both_reduced_maps_nonzero_margin": "514940734924855445659690974038006485545187123300858063947709297245198979237884837059343221466040774428204134435300767259510275588063325107261126536566932087513644984322356794372435610960675493418424360977723814541561/9768797885597060888186869461291158106146227345193294491551861804004010354176429022412848265655027977880429487925675438097170153586884637814673585623437560969611656691995449364185333251953125000000000000000000000000000"
+              },
+              {
+                "coordinate": [
+                  256,
+                  10511
+                ],
+                "center": [
+                  "-2876870535004161444052523374658501111892457895512183/218278728425502777099609375000000000000000000000000000",
+                  "0"
+                ],
+                "error_bound": "509773637431302388971272986187787023174517005256599042799032876976004769475520069371334261956578209215001734554495295968221379761029199259342067908528925267983913173588614167469411149116781424839413631249348947/312601532339105948421979822761317059396679275046185423729659577728128331333645728717211144500960895292173743613621614019109444914780308410069554739950001951027573014143854379653930664062500000000000000000000000000000",
+                "nonzero_margin": "514939586262211992280094088700246567036049929325508181192953870709990026989585231436955869609784134880298584069319271898353315324608128162071049457783317196353066781060281404313156794574630038966711878399345319606061/39075191542388243552747477845164632424584909380773177966207447216016041416705716089651393062620111911521717951702701752388680614347538551258694342493750243878446626767981797456741333007812500000000000000000000000000000",
+                "nonzero_margin_float": 0.013178171774375372,
+                "certified_nonzero": true,
+                "both_reduced_maps_nonzero_margin": "514939586262211992280094088700246567036049929325508181192953870709990026989585231436955869609784134880298584069319271898353315324608128162071049457783317196353066781060281404313156794574630038966711878399345319606061/9768797885597060888186869461291158106146227345193294491551861804004010354176429022412848265655027977880429487925675438097170153586884637814673585623437560969611656691995449364185333251953125000000000000000000000000000"
+              }
+            ],
+            "outside_owned_receiver_at_exact_root": true,
+            "both_reduced_normal_spin2_maps_outside": true,
+            "A_B_independent_mod_owned_receiver": true
+          },
+          {
+            "basis_index": 12,
+            "witnesses": [
+              {
+                "coordinate": [
+                  2048,
+                  6415
+                ],
+                "center": [
+                  "0",
+                  "-9897046986096258917176594459494448914039725515333063/29103830456733703613281250000000000000000000000000000"
+                ],
+                "error_bound": "375297268607161225052761761916419266761610384364194700617807883357386170576710434387156529877061548970979764433341493671937183129586910565745558602645904109020860741274911733537085183430682258110755124688173351/260501276949254957018316518967764216163899395871821186441382981440106942778038107264342620417467412743478119678018011682591204095650257008391295616625001625856310845119878649711608886718750000000000000000000000000000",
+                "nonzero_margin": "221464186574130530190981681956405403669915408734922908556557645384489034450785872667763040805478153055227555962428719507394928986900104586956466442829809899621328113334663814100845327233755363840513260361356880946797/651253192373137392545791297419410540409748489679552966103457453600267356945095268160856551043668531858695299195045029206478010239125642520978239041562504064640777112799696624279022216796875000000000000000000000000000",
+                "nonzero_margin_float": 0.34005850438463875,
+                "certified_nonzero": true,
+                "both_reduced_maps_nonzero_margin": "221464186574130530190981681956405403669915408734922908556557645384489034450785872667763040805478153055227555962428719507394928986900104586956466442829809899621328113334663814100845327233755363840513260361356880946797/162813298093284348136447824354852635102437122419888241525864363400066839236273817040214137760917132964673824798761257301619502559781410630244559760390626016160194278199924156069755554199218750000000000000000000000000"
+              },
+              {
+                "coordinate": [
+                  256,
+                  10511
+                ],
+                "center": [
+                  "-9903929616829660392262011959394607018449384100931503/29103830456733703613281250000000000000000000000000000",
+                  "0"
+                ],
+                "error_bound": "1128415472761506453692439718300257259016272604248100567014282818496962972909012847592094386312316860997973479148408611512568623060963660652917155771628984548088831310472447630485574757395582755190910721879925987/781503830847764871054949556903292648491698187615463559324148944320320828334114321793027861252402238230434359034054035047773612286950771025173886849875004877568932535359635949134826660156250000000000000000000000000000",
+                "nonzero_margin": "83106823626411585492388681697034856116360879848769565323225977696111304375784110611475437755019605929350013553861181327273545917244849349158992932556569678983897920039871420046066219379019612446656770974199032148717/244219947139926522204671736532278952653655683629832362288796545100100258854410725560321206641375699447010737198141885952429253839672115945366839640585939024240291417299886234104633331298828125000000000000000000000000",
+                "nonzero_margin_float": 0.3402949865466775,
+                "certified_nonzero": true,
+                "both_reduced_maps_nonzero_margin": "83106823626411585492388681697034856116360879848769565323225977696111304375784110611475437755019605929350013553861181327273545917244849349158992932556569678983897920039871420046066219379019612446656770974199032148717/61054986784981630551167934133069738163413920907458090572199136275025064713602681390080301660343924861752684299535471488107313459918028986341709910146484756060072854324971558526158332824707031250000000000000000000000"
+              }
+            ],
+            "outside_owned_receiver_at_exact_root": true,
+            "both_reduced_normal_spin2_maps_outside": true,
+            "A_B_independent_mod_owned_receiver": true
+          }
+        ]
+      },
+      {
+        "root": 1,
+        "sources": [
+          {
+            "basis_index": 5,
+            "witnesses": [
+              {
+                "coordinate": [
+                  2048,
+                  6415
+                ],
+                "center": [
+                  "0",
+                  "1677673153136483356010941931260855618987126165237/5820766091346740722656250000000000000000000000000"
+                ],
+                "error_bound": "2427022397183764426065199108592980932617898979206614070810331572479101721638694262149191130706830992478535335136980463919228276671598173610621522690399570557642823020146664122186183195920448157102293/118556582088648974053889955201139062543971063468382825939688961354336832724137275218316902819318120932992808143642937721798917131609783116742008606747164058091584593057632446289062500000000000000000000000",
+                "nonzero_margin": "3416819446906513378952071155269931685832362598951661973181936627567405921905540971474481081268396994631343111655813192173343766139591841034652481874651116030539355476751136660225577558371092839219567788297/11855658208864897405388995520113906254397106346838282593968896135433683272413727521831690281931812093299280814364293772179891713160978311674200860674716405809158459305763244628906250000000000000000000000000",
+                "nonzero_margin_float": 0.28820158161709114,
+                "certified_nonzero": true,
+                "both_reduced_maps_nonzero_margin": "3416819446906513378952071155269931685832362598951661973181936627567405921905540971474481081268396994631343111655813192173343766139591841034652481874651116030539355476751136660225577558371092839219567788297/2963914552216224351347248880028476563599276586709570648492224033858420818103431880457922570482953023324820203591073443044972928290244577918550215168679101452289614826440811157226562500000000000000000000000"
+              },
+              {
+                "coordinate": [
+                  256,
+                  10511
+                ],
+                "center": [
+                  "3355598523899903688570144090195835189458047202349/11641532182693481445312500000000000000000000000000",
+                  "0"
+                ],
+                "error_bound": "811196246516438964566732251272593929404577672789109031559819479856349639895763972126058383276222711021714906293937416059128265443408306261619221056205523780879785732795516568550104558822351486907259/39518860696216324684629985067046354181323687822794275313229653784778944241379091739438967606439373644330936047880979240599639043869927705580669535582388019363861531019210815429687500000000000000000000000",
+                "nonzero_margin": "2278050431340038355470171802655032362141297314378163354527412227348624860948167443788271875293207968619625802661173377797262589137937863928135600587509053831653498035177689353357695801296176267405863142223/7903772139243264936925997013409270836264737564558855062645930756955788848275818347887793521287874728866187209576195848119927808773985541116133907116477603872772306203842163085937500000000000000000000000000",
+                "nonzero_margin_float": 0.2882231915605486,
+                "certified_nonzero": true,
+                "both_reduced_maps_nonzero_margin": "2278050431340038355470171802655032362141297314378163354527412227348624860948167443788271875293207968619625802661173377797262589137937863928135600587509053831653498035177689353357695801296176267405863142223/1975943034810816234231499253352317709066184391139713765661482689238947212068954586971948380321968682216546802394048962029981952193496385279033476779119400968193076550960540771484375000000000000000000000000"
+              }
+            ],
+            "outside_owned_receiver_at_exact_root": true,
+            "both_reduced_normal_spin2_maps_outside": true,
+            "A_B_independent_mod_owned_receiver": true
+          },
+          {
+            "basis_index": 12,
+            "witnesses": [
+              {
+                "coordinate": [
+                  2048,
+                  6415
+                ],
+                "center": [
+                  "0",
+                  "4615989309985662978114449983271436733916349147031/2910383045673370361328125000000000000000000000000"
+                ],
+                "error_bound": "2882600807044094561121845955051621411708535146263758564839376295670706586279882888239730311142723707068878346561389020954524994953947129907497042804505234093643663659655806579009415653333248299612177/197594303481081623423149925335231770906618439113971376566148268923894721206895458697194838032196868221654680239404896202998195219349638527903347677911940096819307655096054077148437500000000000000000000000",
+                "nonzero_margin": "3133899520429593061878702085039084040758579137774802984708383532551813957100826802782872140729289634937462306374843980827736349639352911974682055704195525815090606035224279594286843746222424040383185889467/1975943034810816234231499253352317709066184391139713765661482689238947212068954586971948380321968682216546802394048962029981952193496385279033476779119400968193076550960540771484375000000000000000000000000",
+                "nonzero_margin_float": 1.5860272615245934,
+                "certified_nonzero": true,
+                "both_reduced_maps_nonzero_margin": "3133899520429593061878702085039084040758579137774802984708383532551813957100826802782872140729289634937462306374843980827736349639352911974682055704195525815090606035224279594286843746222424040383185889467/493985758702704058557874813338079427266546097784928441415370672309736803017238646742987095080492170554136700598512240507495488048374096319758369194779850242048269137740135192871093750000000000000000000000"
+              },
+              {
+                "coordinate": [
+                  256,
+                  10511
+                ],
+                "center": [
+                  "1155678123345573533327697864407218881775106608789/727595761418342590332031250000000000000000000000",
+                  "0"
+                ],
+                "error_bound": "963468130124837686770412328893314567281780949562342628347931470790575427234308776407396429448348513903853992962168356406025784829257036470496524879782080836467800530754743742603764408715616262828491/65864767827027207807716641778410590302206146371323792188716089641298240402298486232398279344065622740551560079801632067666065073116546175967782559303980032273102551698684692382812500000000000000000000000",
+                "nonzero_margin": "523077334268841808497644644943178436204406308362816031888599111753052091178525373189012827185992411358494859373617929716272083162460080137118683383920823376237037936833080636263499430386438271240237260147/329323839135136039038583208892052951511030731856618960943580448206491202011492431161991396720328113702757800399008160338330325365582730879838912796519900161365512758493423461914062500000000000000000000000",
+                "nonzero_margin_float": 1.5883372902567197,
+                "certified_nonzero": true,
+                "both_reduced_maps_nonzero_margin": "523077334268841808497644644943178436204406308362816031888599111753052091178525373189012827185992411358494859373617929716272083162460080137118683383920823376237037936833080636263499430386438271240237260147/82330959783784009759645802223013237877757682964154740235895112051622800502873107790497849180082028425689450099752040084582581341395682719959728199129975040341378189623355865478515625000000000000000000000"
+              }
+            ],
+            "outside_owned_receiver_at_exact_root": true,
+            "both_reduced_normal_spin2_maps_outside": true,
+            "A_B_independent_mod_owned_receiver": true
+          }
+        ]
+      }
+    ],
+    "parity_controls": {
+      "parity_mask": 13319,
+      "backgrounds_even": 59,
+      "time_covector_even": true,
+      "rotation_generators_preserve_parity": 3,
+      "both_old_E5_receivers_odd": true,
+      "horizontal_Y_basis_even": 32,
+      "native_n6_sha256": "3edc4e3caedf51ab4eeaa79a280f7a616cb163b8d336cd22c67c8abeb8a193bc",
+      "even_ambient_weight5_dimension": 664,
+      "even_ambient_weight6_dimension": 152,
+      "complete_even_ambient_highest5_dimension": 512,
+      "even_N5_dimension": "Not computed; at most512. This is not an inverse certificate."
+    },
+    "numeric_discovery": {
+      "scope": "NUMERICAL_DISCOVERY_ONLY actual mixed eta9/root0/V5 rational-center source, full ambient M matvec. No exact-root preimage or cokernel claim.",
+      "roots": [
+        {
+          "root": 0,
+          "info": 0,
+          "relative_residual": 8.446434356265792e-11,
+          "solution_support": 2304
+        }
+      ]
+    }
+  },
+  "correction": "The theta2 primary response is zero, but B=P U5 S2 A V is nonzero. All constants retained; channels4(A-B),2(2A+B) distinct. Earlier zero-constant summary was corrected before acceptance. Selected witness rows annihilate constants explicitly.",
+  "complete_range_reduction": "Parity+, SO3 spin5 and weight5 projectors preserve N and commute with M; every preimage of an even highest5 source projects into complete N5_even. Its ambient bound512 is not its time-kernel dimension or invertibility.",
+  "next_directed_worksets": [
+    {
+      "id": "complete_even_spin5_mixed_range",
+      "status": "ready",
+      "target": "LB-CLASS",
+      "tier": "T2",
+      "task": "Construct the complete even highest5 time-kernel from the664 weight5 directions (raising kernel512), then test the actual M restriction for both corrected raw sources A and B over both held root boxes. Use commuting parity/spin/weight projectors to justify exhaustive full-M coverage. No guessed-receiver chain.",
+      "expected_delta": "Settle every remaining mixed principal channel by a whole-block inverse or identify its exact remaining augmented constraint problem.",
+      "class_covered": "Full native M-range for even highest5 mixed sources in the held W2/K95 quadratic block; all source fields and roots kept fixed.",
+      "source_bridge": "Candidate consistency only; W2, free Q jets, physical domain/quotient and propagation are not source-required facts.",
+      "remaining_cost": "At most512 highest directions before the time-kernel restriction; existing exact atom/character and reconstruction scaffold, corrected A/B inputs.",
+      "kill_condition": "A singular block, numerical failure or missing M preimage alone is not inconsistency. A negative claim must annihilate every normal and zero-order kernel-multiplier repair."
+    },
+    {
+      "id": "normal_lower_and_higher_consistency",
+      "status": "conditional_after_mixed_test",
+      "target": "LB-CLASS",
+      "tier": "T2",
+      "task": "Evaluate actual normal-first spin2 lower coefficients before a broad normal-normal calculation; retain transverse derivatives, frame brackets and zero-order terms. Continue only uncovered consistency/propagation obligations.",
+      "expected_delta": "A stated propagated admissible category, or a genuine scoped augmented obstruction.",
+      "revival_input": "Disposition of remaining mixed class; exact lower-order sources and allowed repairs."
+    },
+    {
+      "id": "physical_weak_readout",
+      "status": "blocked_on_authentic_admission_and_propagation",
+      "target": "LB-CLASS",
+      "tier": "T2",
+      "task": "Transport actually propagated candidate response to source-admitted physical observables.",
+      "revival_input": "Common physical domain/quotient, normalized readout and propagation law."
+    }
+  ],
+  "counterfactual_proposal": {
+    "status": "proposal_only_not_executed",
+    "authority": "joe_direct_chat_2026_11_26_g",
+    "prior": "lab/process/source-action-firstjet-source-census.json#counterfactual_proposal",
+    "ranking_basis": "Qualitative expected time saved at the actual mixed M-range bottleneck; no measured savings or success probabilities.",
+    "ranked_item_numbers": [
+      1,
+      6,
+      2,
+      3,
+      7,
+      5,
+      4
+    ],
+    "modification": "Item2 means targeted dependency checks, not the full ten-family sweep; it moves before physics controls for this algebraic bottleneck. One matched physics control is more valuable before a physical-ghost claim.",
+    "value_caveat": "Same next action does not justify deferral if claim scope, a scientific decision, a useful bound or reusable certificate can change. No new stop gate.",
+    "source_caveat": "Neither continuation to these chosen roots nor plus-adjoint comparison is automatically a source-allowed or source-required construction.",
+    "recommendation": "Approve the lightweight outcome/premise assessment and a matched control only for the inference it will validate; defer broad suites."
+  },
+  "choice_budget": {
+    "families": 10,
+    "obligation_bundles": 4,
+    "net": 6,
+    "source_selected_predictions": 0,
+    "delta": 0,
+    "reason": "A computational block/certificate adds no physical completion."
+  },
+  "verification": {
+    "native_gates": {
+      "program_focus_audit": "PASS",
+      "typed_carrier_declaration_audit": "PASS",
+      "kill_target_claim_audit": "PASS",
+      "frontmatter_status_schema_audit": "PASS",
+      "source_native_comparator_routing_audit": "PASS",
+      "lean_certificate_surface_audit": "PASS",
+      "current_state_absolute_currency_audit": "PASS"
+    },
+    "native_certificate": "lab/process/source-action-mixed-consistency-certificates.json",
+    "independent_reviews": "lab/process/hostile-reviews/2026-11-26-source-action-mixed-consistency-review.md",
+    "lean": "No new Lean claim; T2 native exact checks and reviewed structural arguments.",
+    "replay_scope": "Fresh-cache controls/constants/root-witness arithmetic recomputed; full5664-map record authenticated. Full family images were executed once and are reproducible separately.",
+    "fresh_replay": {
+      "sha256": "3c61c44244e8d0f3af3a73207cfcc3f10dadfb4973b4f32984fed14270ee2f7f",
+      "result": {
+        "scope": "Fresh-cache native controls/constants and exact root-witness replay; full family record authenticated, not recomputed by this bounded mode.",
+        "probe_sha256": "ffe66426556c0deb3ca1bb276f665785efe7d25a0de2bddb4baa31a1b11643ce",
+        "native_replays": {
+          "controls": true,
+          "constants": true,
+          "witnesses": true
+        },
+        "family_sha256": "4875d231bf30615e525f4cb493fd263aa789b59a317eae7b2c123b30fbd9d331",
+        "all_passed": true
+      },
+      "status": "PASS"
+    },
+    "independent_artifact_audit": "PASS: all eight exact Fraction witness centers/error bounds independently rebuilt; all coverage/control records, native bindings, parity and bundle bytes checked.",
+    "protected_surfaces": "program_focus,cells,intersections,shrinkage and choice budget unchanged"
+  },
+  "current_sha256": {
+    "tests/program-focus/source_action_mixed_consistency_probe.py": "ffe66426556c0deb3ca1bb276f665785efe7d25a0de2bddb4baa31a1b11643ce",
+    "lab/process/source-action-mixed-consistency-certificates.json": "7f3c3c82c04542f61c3ea5341e1874e1fdcb3bfbc4fe701484c905df4f4c3fce",
+    "explorations/conditional-build/source-action-mixed-consistency-2026-11-26.md": "4d26842bf440121da743039a91170de0f94a9fba6552b8592bed91285d29f1c8",
+    "lab/process/hostile-reviews/2026-11-26-source-action-mixed-consistency-review.md": "d0031cfc7dbef09ecbea02f0e8e94765677d35f3573f690cdc29cd7246ab4a63"
+  }
+}
