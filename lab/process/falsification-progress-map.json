@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "basis_revision": "ab81647b41b905536d7c0dacad8818ecc0b7c776",
+  "basis_revision": "410ad2167d2dd706a7c686a16c587804ff93d050",
   "scope": "Curated six-pillar x source/class/candidate linked view. Status belongs to cited owners; no scientific verdict promotion, automatic ranking, whole-history coverage or global percentage. Cheapest-next fields are attributed bounded suggestions, not dispatch instructions. Closed means resolved within the cited scope; it does not always mean falsified. Positive fits and remaining source/physical bridges stay explicit.",
   "assumptions_ref": "lab/process/action-constraint-matrix.json#source_relevance_assumption_view.shared_prerequisites",
   "dependencies": [
@@ -94,7 +94,7 @@
     },
     {
       "ref": "lab/process/action-constraint-matrix.json",
-      "sha256": "71767e7f7d061a24842d5789ec6a429e5816b358e64e751a4344a8e0cc27a379"
+      "sha256": "73e2e363168a55b755173b2dab2fc22dffce0a6412fc6cad72bfb1b3a5d4cb6d"
     },
     {
       "ref": "lab/process/conditional-physics-ledger-v0.263.json",
@@ -167,6 +167,10 @@
     {
       "ref": "explorations/conditional-build/printed-equation-jets-and-symbol-2026-11-27.md",
       "sha256": "d0fc17f026f254a93bf8a4a82891abba9b9fe0ec809f73fd7bd4ca06ae61b3c5"
+    },
+    {
+      "ref": "explorations/conditional-build/bet-mass-gap-reference-holonomy-2026-11-27.md",
+      "sha256": "eed2a88a7f82b2cc062916ad717e0ef6b372944b6e4a471358d112a166c5b8dd"
     }
   ],
   "pillars": [
@@ -468,7 +472,17 @@
       },
       "interpretive_options_27m": [
         "m3"
-      ]
+      ],
+      "lane_C_nonabsorbed_evidence": {
+        "evidence_refs": [
+          "explorations/conditional-build/bet-mass-gap-reference-holonomy-2026-11-27.md",
+          "lab/process/bet-mass-gap-reference-holonomy.json"
+        ],
+        "status": "internal_T1_reviewed; no source/matrix/ledger verdict transfer",
+        "actual_delta": "The actual source-guided Lorentz-metric fibre LC has a nonzero real curvature eigenvalue, excluding every positive parallel finite-fibre form. The observed normal Sym2 LC admits one exactly for precompact base holonomy; on simply connected Ricci-flat Lorentz4 patches this is equivalent to flatness. The full-spinor obstruction persists for sufficiently small C1 displacements, including the actual printed small-h branch. No physical ghost or quantum-gap verdict follows.",
+        "weakest_unproved_link": "The source does not identify compact shielding with positive finite-fibre forms parallel for this reference connection. Physical currents/quotients and independent displacement may avoid that requirement.",
+        "next_bet": "Do not repeat unchanged-reference positive-parallel searches, pure epsilon conjugations, small-C1 full-spinor displacement searches, or same-flat-T3 stationary gap searches. A new useful mass-gap test needs a supplied physical current/state quotient or a source-selected independent connection with its preservation, matter closure and domain. Positive Cauchy norms need not be parallel finite-fibre norms; this is the immediate transfer burden."
+      }
     }
   ],
   "ranked_options_2026_11_27": {

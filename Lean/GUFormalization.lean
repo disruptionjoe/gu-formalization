@@ -139,3 +139,5 @@ import GUFormalization.PrintedEndpointBranch
 import GUFormalization.NormalSMCharacteristic
 
 import GUFormalization.LocalComplement
+
+import GUFormalization.ReferenceHolonomy

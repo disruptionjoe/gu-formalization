@@ -1,7 +1,7 @@
 schema_version: '1.0'
 repository: observerse-research-program
 branch: main
-revision_basis: ab81647b41b905536d7c0dacad8818ecc0b7c776
+revision_basis: 410ad2167d2dd706a7c686a16c587804ff93d050
 program_focus:
   version: 2026-11-27-v3
   authority: joe_direct_chat_2026_11_27_k
@@ -222,6 +222,28 @@ program_focus:
       instead of silently adopting them.
     current_view: lab/process/source-action-opportunity-register-2026-11-25.json#research_track_view
     effect_receipt: lab/process/two-track-adoption-2026-11-27.json
+reference_holonomy_2026_11_27:
+  status: internal_T1_reviewed
+  lane: LC-BETS; not absorbed into matrix science or ledger
+  actual_delta: The actual source-guided Lorentz-metric fibre LC has a nonzero real curvature eigenvalue,
+    excluding every positive parallel finite-fibre form. The observed normal Sym2 LC admits one exactly
+    for precompact base holonomy; on simply connected Ricci-flat Lorentz4 patches this is equivalent to
+    flatness. The full-spinor obstruction persists for sufficiently small C1 displacements, including
+    the actual printed small-h branch. No physical ghost or quantum-gap verdict follows.
+  source_bridge:
+    status: conditional
+    reason: SC-META-53 is UNCERTAIN and proposes compact shielding without requiring LC-parallel finite-fibre
+      positivity. The coordinate completion is source-guided, not source-unique; independent displacement,
+      physical current and quotient remain open.
+  evidence:
+  - explorations/conditional-build/bet-mass-gap-reference-holonomy-2026-11-27.md
+  - lab/process/bet-mass-gap-reference-holonomy.json
+  next: 'Ordinary B selection resumes from count108: compare actual printed-P mixed/variable-coefficient
+    constraint feasibility with source-required physical-current/observation tests. Reuse the finite-jet
+    and frozen descriptor results; bound the next PDE feasibility wave and keep all k/l/m alternatives.
+    No new action or selection law is adopted.'
+  choice_budget_effect: none
+  verdict_effect: none
 printed_jets_symbol_2026_11_27:
   status: internal_T2_reviewed
   actual_delta: Every fixed finite holonomic residual jet of the unrestricted normalized printed equation

@@ -1,0 +1,318 @@
+{
+  "artifact": "BET_MASS_GAP_REFERENCE_HOLONOMY",
+  "date": "2026-11-27",
+  "basis_revision": "410ad2167d2dd706a7c686a16c587804ff93d050",
+  "status": "internal_T1_reviewed",
+  "target": "BET-MASS-GAP",
+  "tier": "T1",
+  "lane": "LC-BETS",
+  "actual_delta": "The actual source-guided Lorentz-metric fibre LC has a nonzero real curvature eigenvalue, excluding every positive parallel finite-fibre form. The observed normal Sym2 LC admits one exactly for precompact base holonomy; on simply connected Ricci-flat Lorentz4 patches this is equivalent to flatness. The full-spinor obstruction persists for sufficiently small C1 displacements, including the actual printed small-h branch. No physical ghost or quantum-gap verdict follows.",
+  "source_bridge": {
+    "status": "conditional",
+    "reason": "SC-META-53 is UNCERTAIN and proposes compact shielding without requiring LC-parallel finite-fibre positivity. The coordinate completion is source-guided, not source-unique; independent displacement, physical current and quotient remain open."
+  },
+  "source_necessary_exclusion": false,
+  "weakest_unproved_link": "The source does not identify compact shielding with positive finite-fibre forms parallel for this reference connection. Physical currents/quotients and independent displacement may avoid that requirement.",
+  "class_C_representativeness": "Conditional source-guided reference class only; neither all C nor source-unique GU.",
+  "track": [
+    "SOURCE interpretation conditional",
+    "GU* comparison only"
+  ],
+  "choice_budget": {
+    "families": 10,
+    "obligations": 4,
+    "net": 6,
+    "source_selected_predictions": 0,
+    "change": 0
+  },
+  "selection": {
+    "mandatory_basis": "Counter107 requires LC-BETS; BET-MASS-GAP had20 remaining runs versus19 for the other active bets.",
+    "reuse_delta": "Previously owned: stationary flat-T3 MG1 theorem, abstract compact reduction availability/nonselection, split invariant-form positivity obstruction, W2 small-h commutants. New: actual native mixed-sign fibre curvature, arbitrary-positive normal holonomy criterion and separate printed-branch bridge.",
+    "class_scope": "Every base in the held source-guided trace-reversed metric-bundle construction; open-Y vertical/full-spinor transport and section-normal transport distinguished.",
+    "source_relevance": "Tests whether SC-META-53 shielding can simply be inherited from the unchanged reference. Source does not require that inheritance.",
+    "shared_prerequisite": "A physical positive reduction/current/domain is shared by gauge and mass-gap exports; topological compact reduction existence does not supply it.",
+    "outcomes": [
+      "A positive preserved reduction would provide a kinematic bridge, not a quantum theory.",
+      "A curvature obstruction removes unchanged-reference parallel shielding while preserving independent connection/current mechanisms.",
+      "Failure of geometry identification would cancel transfer rather than falsify GU."
+    ],
+    "expected_delta": "Resolve actual reference compact preservation and its limits.",
+    "actual": "Resolved with a vertical real eigenvector, section-normal equivalence and small-displacement full-spinor consequence.",
+    "strongest_eligible_alternative": "Current/matter compact-truncation test; primitive-current obstruction already owned, physical state bridge missing. Other bets have less remaining budget.",
+    "remaining_cost": "Physical current/quotient identification or independently selected connection is needed before another shielding test; ordinary B work resumes first.",
+    "cost": "One bounded wave;109 exact controls replay in0.1595s, targeted four-lemma Lean compilation, three read-only reviews and nine gates. Token cost not measured."
+  },
+  "verification": {
+    "artifact_hashes": {
+      "explorations/conditional-build/bet-mass-gap-reference-holonomy-2026-11-27.md": "eed2a88a7f82b2cc062916ad717e0ef6b372944b6e4a471358d112a166c5b8dd",
+      "tests/program-focus/bet_mass_gap_reference_holonomy_probe.py": "34ee88092d08c67e5968e1bff837bccbcb91967da90cb3097686292b78546def",
+      "lab/process/bet-mass-gap-reference-holonomy-certificates.json": "f1e9d3212a8d40349d94251bcfb3ca70be1ab86cbdbc8475a83612e2a59ec92c",
+      "Lean/GUFormalization/ReferenceHolonomy.lean": "0621b156e175fd53473b4f6d902f0be47ee094f0693735bab2e9391ce4950844"
+    },
+    "reviews": [
+      {
+        "role": "independent source/geometry specialist",
+        "accepted": true,
+        "artifact_hashes": {
+          "explorations/conditional-build/bet-mass-gap-reference-holonomy-2026-11-27.md": "eed2a88a7f82b2cc062916ad717e0ef6b372944b6e4a471358d112a166c5b8dd",
+          "tests/program-focus/bet_mass_gap_reference_holonomy_probe.py": "34ee88092d08c67e5968e1bff837bccbcb91967da90cb3097686292b78546def",
+          "lab/process/bet-mass-gap-reference-holonomy-certificates.json": "f1e9d3212a8d40349d94251bcfb3ca70be1ab86cbdbc8475a83612e2a59ec92c",
+          "Lean/GUFormalization/ReferenceHolonomy.lean": "0621b156e175fd53473b4f6d902f0be47ee094f0693735bab2e9391ce4950844"
+        },
+        "dependency_pins_verified": {
+          "tests/program-focus/source_action_deep_geometry.py": true,
+          "explorations/conditional-build/source-chimeric-trace-compatibility-2026-11-13.md": true,
+          "explorations/conditional-build/printed-endpoint-analytic-branch-2026-11-27.md": true
+        },
+        "source_necessary_exclusion": false,
+        "lane_C_no_ledger_transfer": true,
+        "findings": [],
+        "own_checks": [
+          "Read final report, complete exact probe, certificate and four finite Lean lemmas. Verified all four frozen hashes, three dependency pins and embedded probe binding.",
+          "Checked real mixed-sign curvature eigenvector and its incompatibility with arbitrary positive parallel forms, including moving forms. Totally geodesic fibre and tensor/endormorphism conversion justify ambient restriction.",
+          "Checked full spinor Clifford compatibility, positive Hilbert\u2013Schmidt implication, pure epsilon conjugacy and spectral openness for small C1 displacements. Perturbed connection need not be Clifford-compatible.",
+          "Checked the Sym\u00b2 quartic bound proof for arbitrary positive forms, full-holonomy/time-orientation quantifiers, local Ricci-flat4 product argument, and global monodromy caveat.",
+          "Checked source SC-GRP03, SC-META53 and SC-GEO55 custody against previously read register entries; ordinary Dirac Cauchy norm countercontrol prevents physical positivity overclaim.",
+          "Report-only scope correction rebind: inverse replacement of the clarified normalized-Sym\u00b2-boost versus metric-specific curvature sentence reproduces accepted report hash2b081ce657158b5fe676f751c8ffe3d4534dfcff80bd8040230c8554aaa3187d. Other three artifacts unchanged. Nonflat Schwarzschild/Kerr conclusion rests on the all-Ricci-flat theorem, not a metric-derivative probe."
+        ],
+        "scope_limits": [
+          "This T1 excludes fixed-reference finite-fibre parallel compact shielding in the stated reconstructed geometry, and sufficiently C1-small full-spinor perturbations on open Y domains. It is not a source-necessary exclusion.",
+          "Lane-C evidence has no automatic matrix-cell, physics-ledger, source or canon transfer. No bet-wide mass-gap kill, quantum gap, physical ghost, Hamiltonian-sign or normalizable-mode result.",
+          "K77/K95 controls are geometric tensor ports, not a real-adjoint identification. Full spinor result is not a half-spinor or observed physical-subspace result.",
+          "Actual printed small-h branch uses its held coherent LC reference and compact C1 control; no W2 equation-owner transfer, kappa=1 radius or large-displacement claim. Vertical directions are unavailable after pullback to X alone.",
+          "Independent displacement, nonparallel or dynamically selected reductions, on-shell currents and physical quotients remain outside the excluded class. Topological reduction existence is unaffected.",
+          "Finite controls and Lean arithmetic/inner-product cores do not formalize metric-bundle geometry, holonomy, product splitting or spectral continuity."
+        ],
+        "execution_evidence": {
+          "probe": "Persisted certificate reports PASS109; inspected, not executed by reviewer.",
+          "lean": "Root receipt reports exit0 with empty output for four finite lemmas; inspected, not compiled by reviewer."
+        },
+        "contributions": "Independent preliminary and final reviewer; did not author owner report/probe/certificate/Lean. Earlier source reconnaissance supplied advisory scope only.",
+        "not_run": [
+          "Scientific probe",
+          "Lean or builds",
+          "External source reinspection",
+          "Owner edits"
+        ]
+      },
+      {
+        "role": "independent geometric/algebra reviewer3; not coauthor",
+        "accepted": true,
+        "basis_revision": "410ad2167d2dd706a7c686a16c587804ff93d050",
+        "reviewed_worktree": "/private/tmp/gu-compact-reference-20261127",
+        "findings": [
+          {
+            "id": "fibre-LC-and-curvature",
+            "status": "PASS",
+            "detail": "The dimension4 trace-reversed metric is nondegenerate; the symmetric F formula is metric compatible and therefore its Levi-Civita connection. Direct coordinate differentiation gives R=-y[[y^-1U,y^-1V],y^-1W]/4. Independent standard-library Fraction controls verified all10 raw curvature columns in each signature port."
+          },
+          {
+            "id": "positive-real-witness",
+            "status": "PASS",
+            "detail": "Final report, probe and certificate consistently use C=A+B and eigenvalue+1. W is nonzero and native-K-null. A parallel positive form would require2q(W,W)=0, a contradiction. The separate two-dimensional degenerate trace-reversal metric is not used."
+          },
+          {
+            "id": "vertical-versus-section",
+            "status": "PASS",
+            "detail": "Total geodesicity authenticates the fibre restriction of the full ambient LC. The same-metric-section normal connection is instead Sym2 of base LC; its horizontal shape term is retained as a distinction. The report does not transfer vertical transport to a connection pulled back only to X."
+          },
+          {
+            "id": "all-positive-forms-holonomy",
+            "status": "PASS",
+            "detail": "The invariant quartic from arbitrary positive q on Sym2 bounds dual holonomy and inverses, proving compact closure. Time orientation gives an invariant timelike vector by compact averaging; its converse positive flip metric proves equivalence. Full versus restricted holonomy and noncompact discrete monodromy are distinguished."
+          },
+          {
+            "id": "ricci-flat-four-rigidity",
+            "status": "PASS",
+            "detail": "A parallel timelike vector yields a local one-plus-three product. Ricci-flatness forces the3D Riemannian factor flat. This is dimension-specific. The final report correctly attributes Schwarzschild/Kerr exclusion to this theorem and labels the probe as a normalized boost control, not a metric-derivative replay."
+          },
+          {
+            "id": "full-spinor-and-small-displacement",
+            "status": "PASS",
+            "detail": "Clifford compatibility gives an ad-curvature eigenvector with eigenvalue+1 on full End(S). Positive parallel full-spinor Hermitian structure would make this endomorphism skew. Off-imaginary spectrum persists under C1-small displacement, independently of conditioning of hypothetical positive forms. This uses the actual printed branch compact-C1 O(h) bound, not the W2 branch or a kappa1 continuation."
+          },
+          {
+            "id": "physical-and-source-ceilings",
+            "status": "PASS",
+            "detail": "The report explicitly preserves ordinary Dirac positive Cauchy-current norms, independent source displacement, nonparallel reductions, physical quotients and source shielding hypotheses. No physical ghost, quantum gap, general unitary-QFT impossibility, source verdict or canonical verdict change is inferred."
+          },
+          {
+            "id": "proof-custody",
+            "status": "PASS",
+            "detail": "All4 frozen artifact hashes and3 certificate dependency hashes match. Certificate109 unique controls and selfhash authenticated. Lean4 finite lemmas inspected; exit0 receipt and inventory import authenticated. No geometry, holonomy or spectral-continuity formalization is claimed."
+          }
+        ],
+        "scope_limits": [
+          "Acceptance is for the stated connection-specific internal geometric exclusion, not a BET-wide or source/GU kill.",
+          "Full-spinor obstruction does not by itself establish an individual-half-spinor or physical-subspace obstruction.",
+          "Small printed-branch parameter is qualitative; no numerical radius, kappa1 transfer or large-displacement exclusion is proved.",
+          "Ricci-flat rigidity uses dimension4 and local normal transport; global flatness alone does not ensure compact full holonomy.",
+          "Indefinite parallel complex/U(3,2) reductions are not excluded without the positive compact-preservation premise.",
+          "Ordinary Dirac Cauchy positivity is a separate current/domain construction and remains an essential countercontrol.",
+          "The109 production controls were authenticated, not rerun by this reviewer. The only independent execution was tiny standalone Fraction arithmetic and hash/JSON readback.",
+          "The Lean receipt supports4 finite lemmas only. No Lean/native geometry suite or full-matrix computation was run by this reviewer."
+        ],
+        "artifact_hashes": {
+          "explorations/conditional-build/bet-mass-gap-reference-holonomy-2026-11-27.md": "eed2a88a7f82b2cc062916ad717e0ef6b372944b6e4a471358d112a166c5b8dd",
+          "tests/program-focus/bet_mass_gap_reference_holonomy_probe.py": "34ee88092d08c67e5968e1bff837bccbcb91967da90cb3097686292b78546def",
+          "lab/process/bet-mass-gap-reference-holonomy-certificates.json": "f1e9d3212a8d40349d94251bcfb3ca70be1ab86cbdbc8475a83612e2a59ec92c",
+          "Lean/GUFormalization/ReferenceHolonomy.lean": "0621b156e175fd53473b4f6d902f0be47ee094f0693735bab2e9391ce4950844"
+        },
+        "provenance": {
+          "frozen_manifest_sha256": "dce462bb9437e31bc294ad5758ffe51f1f1fd31ca8f3ea080ce93df8b4b38e88",
+          "lean_receipt_sha256": "5a119afc6b38cc929be57e41bd042b66bdb65608e2da1169b5a4d0064d83de17",
+          "independent_exact_controls_path": "/private/tmp/gu-compact-reference-algebra-exact-controls.json",
+          "independent_exact_controls_sha256": "f31b90e43c251232818230a3284e7f2a710912fe588c53934b935a3d1de018a4",
+          "independent_exact_controls_seconds": 0.0428028330206871,
+          "prior_derivation_note": "/private/tmp/gu-compact-reference-geometric-algebra-review-20261127.md",
+          "prior_derivation_note_sha256": "7a5ea149ff666f4a153d5dfd92226fe834f3595e6cb8a7e4feaf7b748beee7fa",
+          "dependency_hashes": {
+            "tests/program-focus/source_action_deep_geometry.py": "7cdfe5f7609300c1ab4fb482f309cfafa52d0aa66cf353ef8b1f9c8be07e52df",
+            "explorations/conditional-build/source-chimeric-trace-compatibility-2026-11-13.md": "3b883233b2f0b0f5787fd9091fd877893a052c47c11a91f291a5b9af271cbb3f",
+            "explorations/conditional-build/printed-endpoint-analytic-branch-2026-11-27.md": "f2d9b188a94474355e046edf3299f84dc749ba11f281752ce9b4d395757505f3"
+          },
+          "literature_check": {
+            "url": "https://arxiv.org/html/1502.05289v4",
+            "result": "Theorem2 matches the report: time-oriented Lorentzian full holonomy has compact closure iff a parallel timelike field exists."
+          },
+          "resolved_reporting_issue": "Old report2b081ce6 implied Schwarzschild metric-specific replay; final eed2a88a explicitly limits the probe to the normalized boost mechanism."
+        },
+        "not_run": [
+          "production109-control probe",
+          "native14D geometry execution",
+          "Lean compilation",
+          "full matrices",
+          "PDE or quantum tests"
+        ],
+        "owner_edits": false,
+        "unresolved_blockers": []
+      },
+      {
+        "role": "independent hostile mathematical reviewer; non-author of owner artifacts",
+        "accepted": true,
+        "basis": "410ad2167d2dd706a7c686a16c587804ff93d050",
+        "artifact_hashes": {
+          "explorations/conditional-build/bet-mass-gap-reference-holonomy-2026-11-27.md": "eed2a88a7f82b2cc062916ad717e0ef6b372944b6e4a471358d112a166c5b8dd",
+          "tests/program-focus/bet_mass_gap_reference_holonomy_probe.py": "34ee88092d08c67e5968e1bff837bccbcb91967da90cb3097686292b78546def",
+          "lab/process/bet-mass-gap-reference-holonomy-certificates.json": "f1e9d3212a8d40349d94251bcfb3ca70be1ab86cbdbc8475a83612e2a59ec92c",
+          "Lean/GUFormalization/ReferenceHolonomy.lean": "0621b156e175fd53473b4f6d902f0be47ee094f0693735bab2e9391ce4950844"
+        },
+        "findings": [
+          "All four frozen artifact SHA256 values and all three recorded dependency hashes independently matched the actual bytes. The certificate lists 109 unique checks and agrees with the probe hash.",
+          "The native trace-reversed fibre metric, torsion-free compatible connection and double-commutator curvature formula are correctly typed. The explicit mixed-sign symmetric-tensor witness has curvature eigenvalue +1 and contradicts every positive parallel real metric, including moving forms.",
+          "The written proof correctly uses totally geodesic fibres and distinguishes vertical transport over open Y from the projected normal connection on the same-metric section. The latter is Sym2 of base LC, and its arbitrary-positive-metric criterion is exactly precompact full base holonomy.",
+          "The global timelike-vector assertion explicitly assumes time orientation; the timelike-line qualification and noncompact-monodromy caveat are present. Ricci-flat four-dimensional local flatness is conditional on the compact-holonomy criterion.",
+          "The full-spinor argument uses Clifford compatibility only at the LC reference. The small-C1-displacement argument correctly uses curvature and spectral continuity and claims an eigenvalue off the imaginary axis, with no individual-half-spinor conclusion or numerical radius.",
+          "The actual printed analytic branch supplies compact C1 control, rather than a W2 equation-locus transfer. The definite-fibre, ultrastatic, changed-connection and ordinary-Dirac countercontrols preserve the relevant distinctions.",
+          "Static probe inspection found meaningful raw derivative, native 14D Nomizu seam, sign-flip, eigenvector, metric-compatibility and countercontrol checks. These finite checks calibrate the written universal proof and are not presented as a complete geometric/PDE formalization.",
+          "All four Lean lemmas were read and have the advertised finite arithmetic/inner-product scope. The supplied root compilation receipt reports exit 0; the reviewer did not execute Lean or the probe. No mathematical correction is required for the frozen artifacts.",
+          "Reporting-only rebind: reversing exactly the stated two-sentence Schwarzschild/Kerr clarification reconstructs the previously accepted report hash 2b081ce657158b5fe676f751c8ffe3d4534dfcff80bd8040230c8554aaa3187d. The report now distinguishes the Ricci-flat theorem from the normalized Sym2 boost control; other three artifacts are unchanged. Acceptance remains true."
+        ],
+        "scope_limits": [
+          "The coordinate metric and connection are the existing source-guided reconstruction, not a uniquely source-selected geometry. The vertical and full-spin conclusions require an open Y-domain; restriction only to X removes the vertical curvature test.",
+          "The spin result concerns the full spinor fibre and sufficiently small C1 displacements of its reference connection. It does not establish a statement for a single chiral half, arbitrary physical subspace, remote independent varpi, kappa=1, or every source connection.",
+          "SC-META-53 is explicitly UNCERTAIN and does not require positive finite-fibre shielding to be parallel for the LC reference. Establishing that additional physical/source premise remains an unproved bridge. SC-GEO-55 independent displacement, nonparallel moving reductions, physical quotient/domain and current-based norms survive this exclusion.",
+          "Ordinary Dirac theory can have a positive conserved Cauchy norm without a positive parallel spinor fibre form. No physical ghost, quantum gap, Hamiltonian sign, full GU verdict, or necessity for unitary QFT is inferred.",
+          "Geometry, holonomy equivalence, product splitting and spectral continuity remain written proofs; the finite Lean cores and 109 stored probe checks do not formalize those complete theorems.",
+          "No native computation, probe replay, build, test suite, repository edit, or external source regrading was performed during this independent review."
+        ],
+        "dependency_hashes_verified": {
+          "tests/program-focus/source_action_deep_geometry.py": "7cdfe5f7609300c1ab4fb482f309cfafa52d0aa66cf353ef8b1f9c8be07e52df",
+          "explorations/conditional-build/source-chimeric-trace-compatibility-2026-11-13.md": "3b883233b2f0b0f5787fd9091fd877893a052c47c11a91f291a5b9af271cbb3f",
+          "explorations/conditional-build/printed-endpoint-analytic-branch-2026-11-27.md": "f2d9b188a94474355e046edf3299f84dc749ba11f281752ce9b4d395757505f3"
+        },
+        "lean_receipt_sha256": "5a119afc6b38cc929be57e41bd042b66bdb65608e2da1169b5a4d0064d83de17",
+        "contribution_disclosure": "Provided independent hostile preflight qualifications and a scratch review; did not author or edit report, probe, certificate or Lean artifacts.",
+        "not_run": [
+          "exact probe or certificate regeneration",
+          "native geometry execution",
+          "Lean compilation",
+          "repository gates",
+          "heavy or numerical jobs"
+        ],
+        "reporting_rebind": {
+          "previous_report_sha256": "2b081ce657158b5fe676f751c8ffe3d4534dfcff80bd8040230c8554aaa3187d",
+          "report_sha256": "eed2a88a7f82b2cc062916ad717e0ef6b372944b6e4a471358d112a166c5b8dd",
+          "exact_textual_delta_verified": true,
+          "other_three_artifacts_unchanged": true,
+          "reexecution": false
+        }
+      }
+    ],
+    "exact_controls": 109,
+    "command": "UV_CACHE_DIR=/private/tmp/gu-current-uv-cache uv run --offline --with sympy==1.14.0 python tests/program-focus/bet_mass_gap_reference_holonomy_probe.py --verify",
+    "lean": {
+      "command": "lake env lean -j1 /private/tmp/gu-compact-reference-20261127/Lean/GUFormalization/ReferenceHolonomy.lean",
+      "cwd": "GU mounted root using existing Mathlib environment",
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": "",
+      "scope": "Four finite arithmetic/inner-product lemmas; geometry/holonomy/spectral continuity not formalized.",
+      "sorry": false,
+      "default_inventory_registered": true
+    },
+    "proof_scope": "Geometry, holonomy equivalence, Ricci-flat product rigidity and spectral continuity are written proofs. Lean covers four finite arithmetic/inner-product cores. Exact controls are not a quantum or global PDE proof.",
+    "gates": {
+      "program_focus_audit": "PASS",
+      "typed_carrier_declaration_audit": "PASS",
+      "kill_target_claim_audit": "PASS",
+      "frontmatter_status_schema_audit": "PASS",
+      "source_native_comparator_routing_audit": "PASS",
+      "lean_certificate_surface_audit": "PASS",
+      "current_state_absolute_currency_audit": "PASS",
+      "conditional_evidence_delta_gate": "PASS",
+      "research_context_reader_audit": "PASS"
+    }
+  },
+  "three_state": {
+    "ESTABLISHED": "The actual source-guided Lorentz-metric fibre LC has a nonzero real curvature eigenvalue, excluding every positive parallel finite-fibre form. The observed normal Sym2 LC admits one exactly for precompact base holonomy; on simply connected Ricci-flat Lorentz4 patches this is equivalent to flatness. The full-spinor obstruction persists for sufficiently small C1 displacements, including the actual printed small-h branch. No physical ghost or quantum-gap verdict follows.",
+    "RULED_OUT": "Positive parallel forms for the specified unchanged reference classes and sufficiently small full-spinor displacements on open Y. This is not a bet-wide kill.",
+    "NOT_MODELED_UNDETERMINED": "Source-selected shielding, physical state/current/norm, quantum gap, kappa1 or all independent connections and full source/GU* viability."
+  },
+  "literature": [
+    {
+      "url": "https://arxiv.org/abs/1502.05289",
+      "title": "Guti\u00e9rrez\u2013M\u00fcller, Compact Lorentzian holonomy",
+      "relevance": "Theorem2: precompact holonomy and parallel timelike vector on a time-oriented Lorentz manifold. Sym2 reduction is proved explicitly in the report."
+    }
+  ],
+  "novelty_claim": "none",
+  "controls": [
+    "Native derivative/curvature and full14D Nomizu seam",
+    "K95 and flipped K77 geometric ports, without physical-adjoint identification",
+    "Positive Riemannian-fibre majorant despite trace-reversed indefinite K",
+    "Curved ultrastatic positive normal control; flat global monodromy caveat",
+    "Ordinary Dirac positive Cauchy norm need not be parallel on the finite spin fibre",
+    "Changed-connection Cartan formula is a mathematical control, not an adopted GU mechanism"
+  ],
+  "follow_through": {
+    "consumed": [
+      "Unchanged-reference positive-parallel-form searches on an open Lorentz-metric fibre",
+      "Pure gauge epsilon as a compact-preservation repair",
+      "Small-C1 full-spinor displacement as a positive-parallel repair on open Y",
+      "Positive-parallel section-normal forms on nonflat Ricci-flat Lorentz4 patches"
+    ],
+    "survivors": [
+      "Independent source displacement beyond the small neighborhood",
+      "Physical Cauchy/current norm and quotient not requiring parallel finite-fibre positivity",
+      "Section-only spin connections not settled by vertical curvature",
+      "Moving nonparallel reductions and separately supplied domains",
+      "Actual printed-P mixed/variable-coefficient constrained equations"
+    ],
+    "next_bet": "Do not repeat unchanged-reference positive-parallel searches, pure epsilon conjugations, small-C1 full-spinor displacement searches, or same-flat-T3 stationary gap searches. A new useful mass-gap test needs a supplied physical current/state quotient or a source-selected independent connection with its preservation, matter closure and domain. Positive Cauchy norms need not be parallel finite-fibre norms; this is the immediate transfer burden.",
+    "next": "Ordinary B selection resumes from count108: compare actual printed-P mixed/variable-coefficient constraint feasibility with source-required physical-current/observation tests. Reuse the finite-jet and frozen descriptor results; bound the next PDE feasibility wave and keep all k/l/m alternatives. No new action or selection law is adopted."
+  },
+  "accounting": {
+    "counter_before": 107,
+    "counter_after": 108,
+    "BET_MASS_GAP_runs_before": 4,
+    "BET_MASS_GAP_runs_after": 5,
+    "BET_MASS_GAP_remaining_before": 20,
+    "BET_MASS_GAP_remaining_after": 19,
+    "B_lane_changes": 0,
+    "new_action_variants": 0,
+    "matrix_scientific_changes": 0,
+    "ledger_verdict_changes": 0
+  },
+  "effect_line": "Change: actual reference compact-preservation obstruction recorded. Why: topological reduction existence does not establish dynamical preservation. Authority: standing27h and existing LC cadence; applied as scoped lane-C evidence. Physical transfer and later research effect remain unobserved; governance, source/ledger verdicts and choices unchanged."
+}

@@ -3194,5 +3194,32 @@
       "Different wedge GU* symbol with its own prior action mismatch"
     ],
     "next": "After ordinary LC cadence, test mixed tangential and variable-coefficient constraint compatibility for the actual printed P using its polynomial projectors; a genuine curved solution/domain estimate or a source-required restriction can decide the remaining lift. Do not repeat unrestricted finite-jet mismatches, import W2 K inverses, or transfer this symbol to wedge GU*. Compare remaining cost with the source-required observable/current alternative before another deep PDE wave."
+  },
+  "reference_holonomy_2026_11_27": {
+    "lane": "LC-BETS",
+    "evidence": [
+      "explorations/conditional-build/bet-mass-gap-reference-holonomy-2026-11-27.md",
+      "lab/process/bet-mass-gap-reference-holonomy.json"
+    ],
+    "actual_delta": "The actual source-guided Lorentz-metric fibre LC has a nonzero real curvature eigenvalue, excluding every positive parallel finite-fibre form. The observed normal Sym2 LC admits one exactly for precompact base holonomy; on simply connected Ricci-flat Lorentz4 patches this is equivalent to flatness. The full-spinor obstruction persists for sufficiently small C1 displacements, including the actual printed small-h branch. No physical ghost or quantum-gap verdict follows.",
+    "source_bridge": {
+      "status": "conditional",
+      "reason": "SC-META-53 is UNCERTAIN and proposes compact shielding without requiring LC-parallel finite-fibre positivity. The coordinate completion is source-guided, not source-unique; independent displacement, physical current and quotient remain open."
+    },
+    "consumed": [
+      "Unchanged-reference positive-parallel-form searches on an open Lorentz-metric fibre",
+      "Pure gauge epsilon as a compact-preservation repair",
+      "Small-C1 full-spinor displacement as a positive-parallel repair on open Y",
+      "Positive-parallel section-normal forms on nonflat Ricci-flat Lorentz4 patches"
+    ],
+    "survivors": [
+      "Independent source displacement beyond the small neighborhood",
+      "Physical Cauchy/current norm and quotient not requiring parallel finite-fibre positivity",
+      "Section-only spin connections not settled by vertical curvature",
+      "Moving nonparallel reductions and separately supplied domains",
+      "Actual printed-P mixed/variable-coefficient constrained equations"
+    ],
+    "next_bet": "Do not repeat unchanged-reference positive-parallel searches, pure epsilon conjugations, small-C1 full-spinor displacement searches, or same-flat-T3 stationary gap searches. A new useful mass-gap test needs a supplied physical current/state quotient or a source-selected independent connection with its preservation, matter closure and domain. Positive Cauchy norms need not be parallel finite-fibre norms; this is the immediate transfer burden.",
+    "next": "Ordinary B selection resumes from count108: compare actual printed-P mixed/variable-coefficient constraint feasibility with source-required physical-current/observation tests. Reuse the finite-jet and frozen descriptor results; bound the next PDE feasibility wave and keep all k/l/m alternatives. No new action or selection law is adopted."
   }
 }

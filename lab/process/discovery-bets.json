@@ -90,20 +90,26 @@
       "external_context": "2026-11-25 evidence refresh: the Nov10 committee assessment and public Lean checks meet the tracking trigger for pure compact-simple four-dimensional Yang\u2013Mills existence. No mass gap or unique infinite-volume limit is established; quark-coupled QCD is outside this assessment. No native GU or Sp(32,32) transfer. SC-META-53 compact shielding still needs a source-compatible positive physical reduction and identification with the Wilson-limit theory. Existing bet result and accounting unchanged.",
       "kill_criterion": "Within the time box, the reduced quadratic operator has massless gauge modes for every guessed action tried, with the reduction typed (contraction, not projection).",
       "status": "active",
-      "runs_used": 4,
+      "runs_used": 5,
       "zero_delta_streak": 0,
       "result": {
         "status": "active_with_conditional_structural_result",
-        "actual_delta": "Every smooth stationary magnetic MG1 connection on every admitted compact PS product/diagonal-Z2 bundle over the same closed flat T3 has a nonzero full physical Hessian kernel: at least two independent translation Jacobi fields when nonflat, and the inherited flat-PS kernel otherwise. This closes the nonflat-endpoint escape for a strictly positive full quadratic gap in this comparator category, not GU or a quantum gap.",
+        "actual_delta": "The actual source-guided Lorentz-metric fibre LC has a nonzero real curvature eigenvalue, excluding every positive parallel finite-fibre form. The observed normal Sym2 LC admits one exactly for precompact base holonomy; on simply connected Ricci-flat Lorentz4 patches this is equivalent to flatness. The full-spinor obstruction persists for sufficiently small C1 displacements, including the actual printed small-h branch. No physical ghost or quantum-gap verdict follows.",
         "evidence": [
+          "explorations/conditional-build/bet-mass-gap-reference-holonomy-2026-11-27.md",
+          "lab/process/bet-mass-gap-reference-holonomy.json",
+          "tests/program-focus/bet_mass_gap_reference_holonomy_probe.py",
+          "lab/process/bet-mass-gap-reference-holonomy-certificates.json",
+          "Lean/GUFormalization/ReferenceHolonomy.lean",
+          "lab/process/hostile-reviews/2026-11-27-reference-holonomy-review.md"
+        ],
+        "prior_evidence": [
           "explorations/conditional-build/bet-mass-gap-stationary-torus-2026-11-27.md",
           "lab/process/bet-mass-gap-stationary-torus.json",
           "tests/program-focus/bet_mass_gap_stationary_torus_probe.py",
           "lab/process/bet-mass-gap-stationary-torus-certificates.json",
           "Lean/GUFormalization/StationaryTorus.lean",
-          "lab/process/hostile-reviews/2026-11-27-stationary-torus-review.md"
-        ],
-        "prior_evidence": [
+          "lab/process/hostile-reviews/2026-11-27-stationary-torus-review.md",
           "explorations/conditional-build/bet-mass-gap-pati-salam-holonomy-2026-11-25.md",
           "tests/program-focus/bet_mass_gap_pati_salam_probe.py",
           "lab/process/bet-mass-gap-pati-salam-holonomy.json",
@@ -116,22 +122,22 @@
           "tests/program-focus/bet_mass_gap_curvature_end_probe.py",
           "lab/process/bet-mass-gap-curvature-end-test.json"
         ],
-        "guessed_action_variants": 1,
-        "new_action_variants_this_run": 0,
-        "remaining_runs": 20,
-        "physical_quantum_gap": "not_supplied",
-        "matrix_or_ledger_effect": "none",
-        "next_condition": "Same-flat-T3 stationary endpoint searches are covered by the all-stationary theorem, including nonconstant connections. A new gap test needs an actually supplied different source-admissible base/action/domain, a physically specified charged sector or the native/quantum reduction bridge. Removing collective zero modes changes the observable. Do not reopen identical premises; no candidate construction is selected here.",
-        "prior_flat_PS_result": {
+        "prior_stationary_torus_result": {
           "status": "active_with_conditional_structural_result",
-          "actual_delta": "For the full compact PS product/diagonalZ2 quotient with honest16 on flatT3, zero central flux has at least5 adjoint fixed directions; nonzero flux has exactly1 or3. The MG1 physical Hessian kernel has dimension3 times the fixed algebra, so the earlier isolated SO3 positive gap does not extend to the full carrier. This is a classical compact comparator, not a native/quantum-gap or bet-wide verdict.",
+          "actual_delta": "Every smooth stationary magnetic MG1 connection on every admitted compact PS product/diagonal-Z2 bundle over the same closed flat T3 has a nonzero full physical Hessian kernel: at least two independent translation Jacobi fields when nonflat, and the inherited flat-PS kernel otherwise. This closes the nonflat-endpoint escape for a strictly positive full quadratic gap in this comparator category, not GU or a quantum gap.",
           "evidence": [
+            "explorations/conditional-build/bet-mass-gap-stationary-torus-2026-11-27.md",
+            "lab/process/bet-mass-gap-stationary-torus.json",
+            "tests/program-focus/bet_mass_gap_stationary_torus_probe.py",
+            "lab/process/bet-mass-gap-stationary-torus-certificates.json",
+            "Lean/GUFormalization/StationaryTorus.lean",
+            "lab/process/hostile-reviews/2026-11-27-stationary-torus-review.md"
+          ],
+          "prior_evidence": [
             "explorations/conditional-build/bet-mass-gap-pati-salam-holonomy-2026-11-25.md",
             "tests/program-focus/bet_mass_gap_pati_salam_probe.py",
             "lab/process/bet-mass-gap-pati-salam-holonomy.json",
-            "lab/process/hostile-reviews/2026-11-25-pati-salam-gap-review.md"
-          ],
-          "prior_evidence": [
+            "lab/process/hostile-reviews/2026-11-25-pati-salam-gap-review.md",
             "explorations/conditional-build/bet-mass-gap-stability-topology-2026-11-24.md",
             "lab/process/bet-mass-gap-stability-topology.json",
             "tests/program-focus/bet_mass_gap_stability_topology_probe.py",
@@ -142,11 +148,43 @@
           ],
           "guessed_action_variants": 1,
           "new_action_variants_this_run": 0,
-          "remaining_runs": 21,
+          "remaining_runs": 20,
           "physical_quantum_gap": "not_supplied",
           "matrix_or_ledger_effect": "none",
-          "next_condition": "No further flatPS holonomy search can give a full positive MG1 quadratic gap in this category. Next useful input is a supplied nonconstant stationary endpoint with complete physical Hessian/domain or a physically specified charged sector. Full native indefinite/action/observation and quantum bridges remain open; no source operator is built."
+          "next_condition": "Same-flat-T3 stationary endpoint searches are covered by the all-stationary theorem, including nonconstant connections. A new gap test needs an actually supplied different source-admissible base/action/domain, a physically specified charged sector or the native/quantum reduction bridge. Removing collective zero modes changes the observable. Do not reopen identical premises; no candidate construction is selected here.",
+          "prior_flat_PS_result": {
+            "status": "active_with_conditional_structural_result",
+            "actual_delta": "For the full compact PS product/diagonalZ2 quotient with honest16 on flatT3, zero central flux has at least5 adjoint fixed directions; nonzero flux has exactly1 or3. The MG1 physical Hessian kernel has dimension3 times the fixed algebra, so the earlier isolated SO3 positive gap does not extend to the full carrier. This is a classical compact comparator, not a native/quantum-gap or bet-wide verdict.",
+            "evidence": [
+              "explorations/conditional-build/bet-mass-gap-pati-salam-holonomy-2026-11-25.md",
+              "tests/program-focus/bet_mass_gap_pati_salam_probe.py",
+              "lab/process/bet-mass-gap-pati-salam-holonomy.json",
+              "lab/process/hostile-reviews/2026-11-25-pati-salam-gap-review.md"
+            ],
+            "prior_evidence": [
+              "explorations/conditional-build/bet-mass-gap-stability-topology-2026-11-24.md",
+              "lab/process/bet-mass-gap-stability-topology.json",
+              "tests/program-focus/bet_mass_gap_stability_topology_probe.py",
+              "lab/process/hostile-reviews/2026-11-24-mass-gap-stability-topology-review.md",
+              "explorations/conditional-build/bet-mass-gap-curvature-end-test-2026-11-11.md",
+              "tests/program-focus/bet_mass_gap_curvature_end_probe.py",
+              "lab/process/bet-mass-gap-curvature-end-test.json"
+            ],
+            "guessed_action_variants": 1,
+            "new_action_variants_this_run": 0,
+            "remaining_runs": 21,
+            "physical_quantum_gap": "not_supplied",
+            "matrix_or_ledger_effect": "none",
+            "next_condition": "No further flatPS holonomy search can give a full positive MG1 quadratic gap in this category. Next useful input is a supplied nonconstant stationary endpoint with complete physical Hessian/domain or a physically specified charged sector. Full native indefinite/action/observation and quantum bridges remain open; no source operator is built."
+          },
+          "last_run_date": "2026-11-27"
         },
+        "guessed_action_variants": 1,
+        "new_action_variants_this_run": 0,
+        "remaining_runs": 19,
+        "physical_quantum_gap": "not_supplied",
+        "matrix_or_ledger_effect": "none",
+        "next_condition": "Do not repeat unchanged-reference positive-parallel searches, pure epsilon conjugations, small-C1 full-spinor displacement searches, or same-flat-T3 stationary gap searches. A new useful mass-gap test needs a supplied physical current/state quotient or a source-selected independent connection with its preservation, matter closure and domain. Positive Cauchy norms need not be parallel finite-fibre norms; this is the immediate transfer burden.",
         "last_run_date": "2026-11-27"
       },
       "external_evidence_2026_11_25": {

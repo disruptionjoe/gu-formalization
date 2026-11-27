@@ -16,6 +16,10 @@ Do not add "Current follow-through" sections or "Historical predecessor" stacks 
 matrix or bet file. The retired follow-through chain and banner stack are kept at the end of this file under
 "Archived steering history".
 
+## 2026-11-27 — Reference compact preservation
+
+[Result](explorations/conditional-build/bet-mass-gap-reference-holonomy-2026-11-27.md) · [Evidence](lab/process/bet-mass-gap-reference-holonomy.json). Native Lorentz-metric fibre curvature excludes every positive parallel form for the unchanged reference. On Ricci-flat Lorentz4 sections, the projected normal connection admits one locally exactly when flat. The full-spinor obstruction also covers sufficiently small printed-branch displacements on open Y.109 exact controls, four Lean core lemmas and three internal reviews passed. These finite-fibre transport results do not establish physical ghosts or a quantum gap; SC-META-53 does not require the excluded parallelism. Lane-C evidence only; source/matrix/ledger verdicts, all24 ranked options and choicebudget10/4/net6/0 remain unchanged.
+
 ## 2026-11-27 — Printed finite jets and actual nonnull symbol
 
 [Result](explorations/conditional-build/printed-equation-jets-and-symbol-2026-11-27.md) · [Evidence](lab/process/printed-equation-jets-symbol.json). Every fixed finite residual jet is matchable at sufficiently large coupling; neither convergence nor a kappa1 curved solution follows. The actual selected printedP has an exact nonnull exterior decomposition and frozen length-two descriptor inverse.363 exact controls and two internal reviews passed. Mixed/variable constrained evolution and physical domains remain open. SOURCE/GU* distinctions, all24 ranked options, source/ledger verdicts and choicebudget10/4/net6/0 are retained.

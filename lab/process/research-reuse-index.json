@@ -2178,6 +2178,65 @@
         "receipt_ref": "lab/process/printed-equation-jets-symbol.json#verification",
         "scope": "SymPy1.14.0;363 exact controls and written proofs. No analytic PDE existence, fixedcoupling solution or physical spectrum."
       }
+    },
+    {
+      "id": "bet-mass-gap-reference-holonomy-2026-11-27",
+      "kind": "result",
+      "owner_ref": "explorations/conditional-build/bet-mass-gap-reference-holonomy-2026-11-27.md",
+      "tested_statement": "The actual source-guided Lorentz-metric fibre LC has a nonzero real curvature eigenvalue, excluding every positive parallel finite-fibre form. The observed normal Sym2 LC admits one exactly for precompact base holonomy; on simply connected Ricci-flat Lorentz4 patches this is equivalent to flatness. The full-spinor obstruction persists for sufficiently small C1 displacements, including the actual printed small-h branch. No physical ghost or quantum-gap verdict follows.",
+      "signature": {
+        "object": "Parallel positive compact preservation by actual source-guided reference connections",
+        "carrier": "Native rank10 normal tensor bundle and separately full spinors; open-Y versus section-normal domains",
+        "convention": "Trace reversal1/2, K95/flippedK77 geometric controls; fixed source-guided LC, not physical adjoint equivalence",
+        "class": "Every held metric-fibre reference; observed time-oriented Lorentz4 sections; small-C1 full-spinor displacement where stated",
+        "premises": [
+          "explorations/conditional-build/source-chimeric-trace-compatibility-2026-11-13.md",
+          "explorations/conditional-build/ricci-flat-ambient-source-jets-2026-11-27.md",
+          "explorations/conditional-build/printed-endpoint-analytic-branch-2026-11-27.md"
+        ]
+      },
+      "attributed_status": "internal_T1_reviewed",
+      "status_ref": "lab/process/bet-mass-gap-reference-holonomy.json#status",
+      "source_bridge_ref": "lab/process/bet-mass-gap-reference-holonomy.json#source_bridge",
+      "certificate_refs": [
+        "lab/process/bet-mass-gap-reference-holonomy-certificates.json",
+        "Lean/GUFormalization/ReferenceHolonomy.lean"
+      ],
+      "control_refs": [
+        "tests/program-focus/bet_mass_gap_reference_holonomy_probe.py"
+      ],
+      "survivors_ref": "lab/process/bet-mass-gap-reference-holonomy.json#follow_through",
+      "reopen_condition_ref": "explorations/conditional-build/bet-mass-gap-reference-holonomy-2026-11-27.md",
+      "superseded_by": null,
+      "cache": {
+        "artifacts": [
+          {
+            "path": "explorations/conditional-build/bet-mass-gap-reference-holonomy-2026-11-27.md",
+            "sha256": "eed2a88a7f82b2cc062916ad717e0ef6b372944b6e4a471358d112a166c5b8dd"
+          },
+          {
+            "path": "tests/program-focus/bet_mass_gap_reference_holonomy_probe.py",
+            "sha256": "34ee88092d08c67e5968e1bff837bccbcb91967da90cb3097686292b78546def"
+          },
+          {
+            "path": "lab/process/bet-mass-gap-reference-holonomy-certificates.json",
+            "sha256": "f1e9d3212a8d40349d94251bcfb3ca70be1ab86cbdbc8475a83612e2a59ec92c"
+          },
+          {
+            "path": "Lean/GUFormalization/ReferenceHolonomy.lean",
+            "sha256": "0621b156e175fd53473b4f6d902f0be47ee094f0693735bab2e9391ce4950844"
+          }
+        ],
+        "verifier": {
+          "command": "python3",
+          "args": [
+            "tests/program-focus/bet_mass_gap_reference_holonomy_probe.py",
+            "--verify"
+          ]
+        },
+        "receipt_ref": "lab/process/bet-mass-gap-reference-holonomy.json#verification",
+        "scope": "SymPy1.14.0 controls and four Lean cores; written geometry/holonomy and openness proofs. No physical norm or quantum gap transfer."
+      }
     }
   ]
 }

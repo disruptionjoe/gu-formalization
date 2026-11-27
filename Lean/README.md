@@ -296,3 +296,7 @@ replacement for `lake build` or targeted standalone Lean checks.
 ## 2026-11-27 — Smooth local complement finite core
 
 `GUFormalization/LocalComplement.lean` checks seven finite character-sign, exceptional-product, receiver-rank and native-rank contradiction statements. The all-character completeness proof, smooth graph equation, native Clifford geometry and complex metric-flip transfer remain written/reviewed premises; no physical interpretation follows. Result: `explorations/conditional-build/bet-2plus1-local-complement-2026-11-27.md`.
+
+## 2026-11-27 — Reference holonomy finite cores
+
+`GUFormalization/ReferenceHolonomy.lean`: targeted single-thread Lean compilation passed without placeholders. Four lemmas check the nonzero real curvature eigenvalue/positive-norm contradiction, its inner-product form, and a real-part margin. Native connection geometry, compact holonomy, Ricci-flat product rigidity and spectral continuity remain written, internally reviewed proofs. No physical positivity, quantum gap or whole-project formalization follows. Result: `explorations/conditional-build/bet-mass-gap-reference-holonomy-2026-11-27.md`.
