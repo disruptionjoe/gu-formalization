@@ -133,3 +133,5 @@ import GUFormalization.ShiabCompanion
 import GUFormalization.NullSymbolTrace
 
 import GUFormalization.NormalJetRecursion
+
+import GUFormalization.PrintedEndpointBranch

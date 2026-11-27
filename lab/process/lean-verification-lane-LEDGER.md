@@ -623,3 +623,7 @@ bicategory, ambidexterity or Mackey 2-functor is inferred.
 ## Finite normal-jet recurrence (2026-11-27)
 
 `Lean/GUFormalization/NormalJetRecursion.lean` checks two finite causal recurrence lemmas. Smooth ODE existence, jet realization, support and Stokes remain written/reviewed; existing CompactCharge cores are reused. Result: `explorations/conditional-build/bet-cosmology-normal-jets-2026-11-27.md`.
+
+## Printed endpoint branch finite cores (2026-11-27)
+
+`Lean/GUFormalization/PrintedEndpointBranch.lean` checks six finite recurrence/elimination, zero-preserving recovery, rational coefficient and sign statements. Targeted compilation passed; homogeneous geometry, IFT, actual solution lifting and source custody remain written and independently reviewed. Result: `explorations/conditional-build/printed-endpoint-analytic-branch-2026-11-27.md`.

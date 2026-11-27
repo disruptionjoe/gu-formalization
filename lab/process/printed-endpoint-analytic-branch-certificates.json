@@ -1,0 +1,855 @@
+{
+  "actual_Euler_coefficient_h3": [
+    [
+      1,
+      17,
+      "27/32"
+    ],
+    [
+      1,
+      33,
+      "-183/8"
+    ],
+    [
+      1,
+      65,
+      "-61/8"
+    ],
+    [
+      1,
+      129,
+      "-61/16"
+    ],
+    [
+      1,
+      258,
+      "-183/8"
+    ],
+    [
+      1,
+      516,
+      "-183/8"
+    ],
+    [
+      1,
+      1032,
+      "-183/8"
+    ],
+    [
+      2,
+      18,
+      "27/32"
+    ],
+    [
+      2,
+      34,
+      "183/8"
+    ],
+    [
+      2,
+      66,
+      "-61/8"
+    ],
+    [
+      2,
+      130,
+      "-61/16"
+    ],
+    [
+      2,
+      257,
+      "-183/8"
+    ],
+    [
+      2,
+      2052,
+      "-183/8"
+    ],
+    [
+      2,
+      4104,
+      "-183/8"
+    ],
+    [
+      4,
+      20,
+      "27/32"
+    ],
+    [
+      4,
+      68,
+      "61/4"
+    ],
+    [
+      4,
+      132,
+      "-61/16"
+    ],
+    [
+      4,
+      513,
+      "-183/8"
+    ],
+    [
+      4,
+      2050,
+      "-183/8"
+    ],
+    [
+      4,
+      8200,
+      "-183/8"
+    ],
+    [
+      8,
+      24,
+      "27/32"
+    ],
+    [
+      8,
+      136,
+      "183/16"
+    ],
+    [
+      8,
+      1025,
+      "183/8"
+    ],
+    [
+      8,
+      4098,
+      "183/8"
+    ],
+    [
+      8,
+      8196,
+      "183/8"
+    ],
+    [
+      32,
+      48,
+      "-27/32"
+    ],
+    [
+      64,
+      80,
+      "-27/32"
+    ],
+    [
+      128,
+      144,
+      "-27/32"
+    ],
+    [
+      256,
+      272,
+      "-27/32"
+    ],
+    [
+      512,
+      528,
+      "-27/32"
+    ],
+    [
+      1024,
+      1040,
+      "-27/32"
+    ],
+    [
+      2048,
+      2064,
+      "-27/32"
+    ],
+    [
+      4096,
+      4112,
+      "-27/32"
+    ],
+    [
+      8192,
+      8208,
+      "-27/32"
+    ]
+  ],
+  "check_count": 59,
+  "checks": {
+    "accepted_cubic_certificate": true,
+    "accepted_theta_certificate": true,
+    "actual_Euler_h3_on_printed_branch": true,
+    "ambient_leading_order3": true,
+    "cubic_dependency:explorations/conditional-build/source-action-dynamics-and-continuation-2026-11-25.md": true,
+    "cubic_dependency:explorations/conditional-build/source-action-endpoint-onshell-2026-11-27.md": true,
+    "cubic_dependency:explorations/conditional-build/source-action-homogeneous-analytic-vacuum-2026-11-25.md": true,
+    "cubic_dependency:lab/process/source-action-deep-coefficients.json": true,
+    "cubic_dependency:lab/process/source-action-endpoint-onshell-certificates.json": true,
+    "cubic_dependency:lab/process/source-action-endpoint-onshell.json": true,
+    "cubic_dependency:lab/process/source-action-theta-divergence-certificates.json": true,
+    "cubic_dependency:tests/program-focus/source_action_deep_algebra.py": true,
+    "cubic_dependency:tests/program-focus/source_action_deep_geometry.py": true,
+    "cubic_dependency:tests/program-focus/source_action_endpoint_onshell_probe.py": true,
+    "cubic_producer": true,
+    "density_control_complexified_trace": true,
+    "direct_D:14": true,
+    "direct_D:16": true,
+    "direct_D:26": true,
+    "fourth_field_difference_is_minus_C3": true,
+    "full_C3_recomputed": true,
+    "missing_fourth_coefficient_is_not_zero": true,
+    "native_horizontal_receiver": true,
+    "native_printed_equals_owned_Euler_coefficient_1": true,
+    "native_printed_equals_owned_Euler_coefficient_2": true,
+    "native_printed_equals_owned_Euler_coefficient_3": true,
+    "native_real_skew_1": true,
+    "native_real_skew_2": true,
+    "native_real_skew_3": true,
+    "nested_Hodge_P:15": true,
+    "nested_Hodge_P:17": true,
+    "nested_Hodge_P:27": true,
+    "observed_leading_order1": true,
+    "observed_minus_ambient_trace_1": true,
+    "observed_minus_ambient_trace_2": true,
+    "observed_minus_ambient_trace_3": true,
+    "observed_second_order_zero": true,
+    "omitted_density_fault_detected": true,
+    "parallel_solder_control": true,
+    "polarized_wedge": true,
+    "printed_residual_h3_cancels_including_u4": true,
+    "receiver_pairing_weight_not_divided_twice": true,
+    "scalar_equal_operator_control:(Fraction(-2, 1), Fraction(0, 1), Fraction(1, 1))": true,
+    "scalar_equal_operator_control:(Fraction(2, 1), Fraction(3, 1), Fraction(3, 1))": true,
+    "scalar_equal_operator_control:(Fraction(2, 1), Fraction(3, 1), Fraction(5, 1))": true,
+    "scalar_recurrence:(Fraction(-2, 1), Fraction(0, 1), Fraction(1, 1))": true,
+    "scalar_recurrence:(Fraction(2, 1), Fraction(3, 1), Fraction(3, 1))": true,
+    "scalar_recurrence:(Fraction(2, 1), Fraction(3, 1), Fraction(5, 1))": true,
+    "scalar_reverse_defect:(Fraction(-2, 1), Fraction(0, 1), Fraction(1, 1))": true,
+    "scalar_reverse_defect:(Fraction(2, 1), Fraction(3, 1), Fraction(3, 1))": true,
+    "scalar_reverse_defect:(Fraction(2, 1), Fraction(3, 1), Fraction(5, 1))": true,
+    "source_from_actual_curvature": true,
+    "t1_sign_mutation_detected": true,
+    "truncated_printed_residual_is_not_exact": true,
+    "two_independent_coderivatives_1": true,
+    "two_independent_coderivatives_2": true,
+    "two_independent_coderivatives_3": true,
+    "u3_wrong_quadratic_sign_detected": true,
+    "u4_real_skew": true
+  },
+  "data_only": true,
+  "divergences": [
+    {
+      "ambient": {},
+      "observed": {
+        "16": "21/16"
+      },
+      "order": 1
+    },
+    {
+      "ambient": {},
+      "observed": {},
+      "order": 2
+    },
+    {
+      "ambient": {
+        "16": "-27/32"
+      },
+      "observed": {
+        "16": "-44199/32"
+      },
+      "order": 3
+    }
+  ],
+  "fourth_difference": [
+    [
+      1,
+      17,
+      "27/32"
+    ],
+    [
+      1,
+      33,
+      "-183/8"
+    ],
+    [
+      1,
+      65,
+      "-61/8"
+    ],
+    [
+      1,
+      129,
+      "-61/16"
+    ],
+    [
+      1,
+      258,
+      "-183/8"
+    ],
+    [
+      1,
+      516,
+      "-183/8"
+    ],
+    [
+      1,
+      1032,
+      "-183/8"
+    ],
+    [
+      2,
+      18,
+      "27/32"
+    ],
+    [
+      2,
+      34,
+      "183/8"
+    ],
+    [
+      2,
+      66,
+      "-61/8"
+    ],
+    [
+      2,
+      130,
+      "-61/16"
+    ],
+    [
+      2,
+      257,
+      "-183/8"
+    ],
+    [
+      2,
+      2052,
+      "-183/8"
+    ],
+    [
+      2,
+      4104,
+      "-183/8"
+    ],
+    [
+      4,
+      20,
+      "27/32"
+    ],
+    [
+      4,
+      68,
+      "61/4"
+    ],
+    [
+      4,
+      132,
+      "-61/16"
+    ],
+    [
+      4,
+      513,
+      "-183/8"
+    ],
+    [
+      4,
+      2050,
+      "-183/8"
+    ],
+    [
+      4,
+      8200,
+      "-183/8"
+    ],
+    [
+      8,
+      24,
+      "27/32"
+    ],
+    [
+      8,
+      136,
+      "183/16"
+    ],
+    [
+      8,
+      1025,
+      "183/8"
+    ],
+    [
+      8,
+      4098,
+      "183/8"
+    ],
+    [
+      8,
+      8196,
+      "183/8"
+    ],
+    [
+      32,
+      48,
+      "-27/32"
+    ],
+    [
+      64,
+      80,
+      "-27/32"
+    ],
+    [
+      128,
+      144,
+      "-27/32"
+    ],
+    [
+      256,
+      272,
+      "-27/32"
+    ],
+    [
+      512,
+      528,
+      "-27/32"
+    ],
+    [
+      1024,
+      1040,
+      "-27/32"
+    ],
+    [
+      2048,
+      2064,
+      "-27/32"
+    ],
+    [
+      4096,
+      4112,
+      "-27/32"
+    ],
+    [
+      8192,
+      8208,
+      "-27/32"
+    ]
+  ],
+  "horizontal_receiver": {
+    "Clifford_mask": 33,
+    "form_mask": 1,
+    "pairing_weight": "8",
+    "raise_factor": "1",
+    "value": "-183/8"
+  },
+  "inherited_not_replayed": [
+    "full216 dimension",
+    "59 full tensor census",
+    "old root certificates",
+    "old complete certificate probes"
+  ],
+  "native_inputs_sha256": {
+    "explorations/conditional-build/source-action-endpoint-cubic-2026-11-27.md": "33853b618671c40e50feab71802973ce4a577d8c7c8d70e7a109bc037f6e30da",
+    "explorations/conditional-build/source-action-homogeneous-analytic-vacuum-2026-11-25.md": "5ed2c3d264500bfb7e801a31c33dfef8eb179ae1f5a628d08a231c29275f17e9",
+    "explorations/conditional-build/source-action-theta-divergence-2026-11-27.md": "db8e440623173743596a83bef6f9db53e702246332bf59e299dea2e394f7dcdf",
+    "lab/process/source-action-deep-coefficients.json": "fb4aacfa69cbc1127b7fddf3b4f66811650c1fd3a889363cc6dfab940439b274",
+    "lab/process/source-action-endpoint-cubic-certificates.json": "344335a28bdd73ddba506cc54870dfacb7398df5809d5b56a7251dd64d3ea90c",
+    "lab/process/source-action-endpoint-cubic.json": "7d2479ec8b9fc9f1c8e54c85374248b58aa36ec4f37ff3ced2e73dfde5bc1360",
+    "lab/process/source-action-theta-divergence-certificates.json": "2aa58c4c4c507b22104c42fba326776b035828294397d2d0591668d5e0a46091",
+    "lab/process/source-action-theta-divergence.json": "bc207b12d1950b3fba3b982a4b6f62fc10aabcc430c7232b8aa55fba0e0c4045",
+    "tests/program-focus/source_action_deep_algebra.py": "4e3800131049e2b397bbce6106bfc5766d2f5fbf996319c50942f3b805d65598",
+    "tests/program-focus/source_action_deep_geometry.py": "7cdfe5f7609300c1ab4fb482f309cfafa52d0aa66cf353ef8b1f9c8be07e52df",
+    "tests/program-focus/source_action_endpoint_cubic_probe.py": "fcfa3fa1bab7bb979578d61d9534bdcb3dfc93ce1efda0bfb0144db179f00eab",
+    "tests/program-focus/source_action_endpoint_onshell_probe.py": "7bd37220a5691a7f8013d01e182029c181b4715e8ea40a1ebe0bceb467f7e7bc",
+    "tests/program-focus/source_action_theta_divergence_probe.py": "93fb6c4fbe5ea51ab78ddea9f1e344e0894646e390da76a19567ced7f577c038"
+  },
+  "printed_coefficients": [
+    {
+      "ambient_form": [
+        [
+          1,
+          1,
+          "21/4"
+        ],
+        [
+          2,
+          2,
+          "21/4"
+        ],
+        [
+          4,
+          4,
+          "21/4"
+        ],
+        [
+          8,
+          8,
+          "21/4"
+        ],
+        [
+          16,
+          16,
+          "21/4"
+        ],
+        [
+          32,
+          32,
+          "15/4"
+        ],
+        [
+          64,
+          64,
+          "15/4"
+        ],
+        [
+          128,
+          128,
+          "15/4"
+        ],
+        [
+          256,
+          256,
+          "15/4"
+        ],
+        [
+          512,
+          512,
+          "15/4"
+        ],
+        [
+          1024,
+          1024,
+          "15/4"
+        ],
+        [
+          2048,
+          2048,
+          "15/4"
+        ],
+        [
+          4096,
+          4096,
+          "15/4"
+        ],
+        [
+          8192,
+          8192,
+          "15/4"
+        ]
+      ],
+      "order": 1
+    },
+    {
+      "ambient_form": [
+        [
+          1,
+          33,
+          "3/8"
+        ],
+        [
+          1,
+          65,
+          "1/8"
+        ],
+        [
+          1,
+          129,
+          "1/16"
+        ],
+        [
+          1,
+          258,
+          "3/8"
+        ],
+        [
+          1,
+          516,
+          "3/8"
+        ],
+        [
+          1,
+          1032,
+          "3/8"
+        ],
+        [
+          2,
+          34,
+          "-3/8"
+        ],
+        [
+          2,
+          66,
+          "1/8"
+        ],
+        [
+          2,
+          130,
+          "1/16"
+        ],
+        [
+          2,
+          257,
+          "3/8"
+        ],
+        [
+          2,
+          2052,
+          "3/8"
+        ],
+        [
+          2,
+          4104,
+          "3/8"
+        ],
+        [
+          4,
+          68,
+          "-1/4"
+        ],
+        [
+          4,
+          132,
+          "1/16"
+        ],
+        [
+          4,
+          513,
+          "3/8"
+        ],
+        [
+          4,
+          2050,
+          "3/8"
+        ],
+        [
+          4,
+          8200,
+          "3/8"
+        ],
+        [
+          8,
+          136,
+          "-3/16"
+        ],
+        [
+          8,
+          1025,
+          "-3/8"
+        ],
+        [
+          8,
+          4098,
+          "-3/8"
+        ],
+        [
+          8,
+          8196,
+          "-3/8"
+        ]
+      ],
+      "order": 2
+    },
+    {
+      "ambient_form": [
+        [
+          1,
+          1,
+          "-44199/8"
+        ],
+        [
+          2,
+          2,
+          "-44199/8"
+        ],
+        [
+          4,
+          4,
+          "-44199/8"
+        ],
+        [
+          8,
+          8,
+          "-44199/8"
+        ],
+        [
+          16,
+          16,
+          "-11043/2"
+        ],
+        [
+          32,
+          32,
+          "-5826"
+        ],
+        [
+          64,
+          64,
+          "-5826"
+        ],
+        [
+          128,
+          128,
+          "-5826"
+        ],
+        [
+          256,
+          256,
+          "-5826"
+        ],
+        [
+          512,
+          512,
+          "-5826"
+        ],
+        [
+          1024,
+          1024,
+          "-5826"
+        ],
+        [
+          2048,
+          2048,
+          "-5826"
+        ],
+        [
+          4096,
+          4096,
+          "-5826"
+        ],
+        [
+          8192,
+          8192,
+          "-5826"
+        ]
+      ],
+      "order": 3
+    },
+    {
+      "ambient_form": [
+        [
+          1,
+          17,
+          "27/64"
+        ],
+        [
+          1,
+          33,
+          "2589/32"
+        ],
+        [
+          1,
+          65,
+          "863/32"
+        ],
+        [
+          1,
+          129,
+          "863/64"
+        ],
+        [
+          1,
+          258,
+          "2589/32"
+        ],
+        [
+          1,
+          516,
+          "2589/32"
+        ],
+        [
+          1,
+          1032,
+          "2589/32"
+        ],
+        [
+          2,
+          18,
+          "27/64"
+        ],
+        [
+          2,
+          34,
+          "-2589/32"
+        ],
+        [
+          2,
+          66,
+          "863/32"
+        ],
+        [
+          2,
+          130,
+          "863/64"
+        ],
+        [
+          2,
+          257,
+          "2589/32"
+        ],
+        [
+          2,
+          2052,
+          "2589/32"
+        ],
+        [
+          2,
+          4104,
+          "2589/32"
+        ],
+        [
+          4,
+          20,
+          "27/64"
+        ],
+        [
+          4,
+          68,
+          "-863/16"
+        ],
+        [
+          4,
+          132,
+          "863/64"
+        ],
+        [
+          4,
+          513,
+          "2589/32"
+        ],
+        [
+          4,
+          2050,
+          "2589/32"
+        ],
+        [
+          4,
+          8200,
+          "2589/32"
+        ],
+        [
+          8,
+          24,
+          "27/64"
+        ],
+        [
+          8,
+          136,
+          "-2589/64"
+        ],
+        [
+          8,
+          1025,
+          "-2589/32"
+        ],
+        [
+          8,
+          4098,
+          "-2589/32"
+        ],
+        [
+          8,
+          8196,
+          "-2589/32"
+        ]
+      ],
+      "order": 4
+    }
+  ],
+  "probe_sha256": "6907facf01115719567e4d89e86bee41d9e981f79c7221b43874ca896677f04b",
+  "schema": "gu-printed-endpoint-branch-certificate-v1",
+  "scope": "Finite native exact coefficients. Full216 closure and analytic local solution lifting are written/reviewed. No printed59 closure, kappa1, source uniqueness, full source Euler or physical state claim."
+}

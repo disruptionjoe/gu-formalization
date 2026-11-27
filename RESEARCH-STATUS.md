@@ -16,6 +16,10 @@ discovery bet (`lab/process/discovery-bets.json`). The K25xx--K2618 detector, pr
 results below are retained as conditional mathematics; that lane is no longer the default target. Sections
 below are dated results, newest first, and are not steering.
 
+## 2026-11-27 — Printed endpoint branch and reverse equation recovery
+
+[Result](explorations/conditional-build/printed-endpoint-analytic-branch-2026-11-27.md) · [Evidence](lab/process/printed-endpoint-analytic-branch.json). The actual printed-endpoint invariant branch has W2 connection Euler receiver -183h³/8+O(h⁴). Together with the earlier forward witnesses, neither local zero locus contains the other in the held dictionary. The separate reconstructed ambient/observed coderivatives remain nonzero on these printed solutions. Full216 closure and analytic transport are written proofs;59 exact controls,6 finite Lean lemmas and three independent reviews passed. This is not a complete source variational or physical solution and gives no source/ledger verdict. Choice budget remains10/4/net6/0.
+
 ## 2026-11-27 — Closed spin normal-reduction existence
 
 [Result](explorations/conditional-build/closed-spin-normal-reduction-2026-11-27.md) · [Evidence](lab/process/closed-spin-normal-reduction.json). The retained closed spin Lorentz square condition is universally soluble. With signature16k, c=2(e+6kf) on a hyperbolic plane has c²=3signature; zero signature admits c=0. Existing normal-bundle and fixed-Spin results then give absolute normal U(3,2), optional SU(3,2), and the constructed geometric group quotient. Fixed-J, connection, relative/end and physical-selection conditions remain. Standard topology and explicit arithmetic are used; no source/ledger verdict, action, physical choice or world-novelty claim.

@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "basis_revision": "ffa6fbe79169e098de7a6bf257048ba2cd9e9ba4",
+  "basis_revision": "7b8808209820427ce293bfeb948015cb22064691",
   "scope": "Curated six-pillar x source/class/candidate linked view. Status belongs to cited owners; no scientific verdict promotion, automatic ranking, whole-history coverage or global percentage. Cheapest-next fields are attributed bounded suggestions, not dispatch instructions. Closed means resolved within the cited scope; it does not always mean falsified. Positive fits and remaining source/physical bridges stay explicit.",
   "assumptions_ref": "lab/process/action-constraint-matrix.json#source_relevance_assumption_view.shared_prerequisites",
   "dependencies": [
@@ -94,7 +94,7 @@
     },
     {
       "ref": "lab/process/action-constraint-matrix.json",
-      "sha256": "b9eb0969fb8ba09dad8a0e8f323fbbd579532c68c5e90f6be3652dc84b4113bc"
+      "sha256": "1dfe048edb405334756f468ebffed990f1fa900ead7a4418ada0ac8c0aed1fbc"
     },
     {
       "ref": "lab/process/conditional-physics-ledger-v0.263.json",
@@ -139,6 +139,10 @@
     {
       "ref": "explorations/conditional-build/closed-spin-normal-reduction-2026-11-27.md",
       "sha256": "54f103e4b85df3f927743c418ec1d8691bb409bd6b12e0bcacff646a34959975"
+    },
+    {
+      "ref": "explorations/conditional-build/printed-endpoint-analytic-branch-2026-11-27.md",
+      "sha256": "f2d9b188a94474355e046edf3299f84dc749ba11f281752ce9b4d395757505f3"
     }
   ],
   "pillars": [
@@ -173,13 +177,14 @@
         },
         "candidate": {
           "attributed_status": "Held W2 candidate correspondence fails; W2 action results retained",
-          "closed": "Both stationary roots and punctured analytic W2 branch fail the separately printed endpoint.",
+          "closed": "Both stationary roots and punctured analytic W2 branch fail the separately printed endpoint. The converse also fails: genuine local printed-endpoint solutions have nonzero W2 connection Euler output; neither local zero locus contains the other in the held dictionary.",
           "open": "W2 is not a uniquely source-selected operator or all-GU representative.",
           "shared_missing_ref": "lab/process/action-constraint-matrix.json#source_relevance_assumption_view.shared_prerequisites",
-          "cheapest_next": "Reuse the distinction between actual W2 Euler and printed endpoint before making a physical inference.",
+          "cheapest_next": "Do not repeat local zero-preserving recovery in either direction for this pair; use a distinct source-selected dictionary/equation or an independently necessary source consequence.",
           "evidence_refs": [
             "explorations/conditional-build/source-action-endpoint-onshell-2026-11-27.md",
-            "explorations/conditional-build/source-action-endpoint-cubic-2026-11-27.md"
+            "explorations/conditional-build/source-action-endpoint-cubic-2026-11-27.md",
+            "explorations/conditional-build/printed-endpoint-analytic-branch-2026-11-27.md"
           ]
         }
       }
@@ -358,14 +363,15 @@
         },
         "candidate": {
           "attributed_status": "Held theta=T reconstruction fails; cosmology fits remain conditional",
-          "closed": "Theta=T fails coderivative conservation at both W2 roots and along the analytic branch.",
+          "closed": "Theta=T fails coderivative conservation at both W2 roots and along the analytic branch. The same reconstructed coderivative also fails on the newly constructed actual printed-endpoint branch; this is a fresh lane-B direct coefficient computation.",
           "open": "Full physical stress, primordial covariance and CMB likelihood; scalar fits are separate comparators.",
           "shared_missing_ref": "lab/process/action-constraint-matrix.json#source_relevance_assumption_view.shared_prerequisites",
           "cheapest_next": "Keep the reconstruction failure separate from source claim and background fits.",
           "evidence_refs": [
             "explorations/conditional-build/source-action-theta-divergence-2026-11-27.md",
             "explorations/conditional-build/bet-cosmology-fixed-potentials-2026-11-11.md",
-            "explorations/conditional-build/bet-cosmology-regular-perturbations-2026-11-24.md"
+            "explorations/conditional-build/bet-cosmology-regular-perturbations-2026-11-24.md",
+            "explorations/conditional-build/printed-endpoint-analytic-branch-2026-11-27.md"
           ],
           "positive_fit": "Declared scalar background fits and regular perturbation solutions are retained as conditional comparator evidence."
         }

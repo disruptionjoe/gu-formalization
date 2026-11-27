@@ -316,8 +316,9 @@
       ],
       "untested_alternatives": [
         {
-          "statement": "All other printed-endpoint solutions",
-          "owner_ref": "explorations/conditional-build/source-action-endpoint-onshell-2026-11-27.md"
+          "statement": "All printed-endpoint solutions beyond the new small-h invariant branch; this branch is now tested",
+          "owner_ref": "explorations/conditional-build/source-action-endpoint-onshell-2026-11-27.md",
+          "coverage_ref": "explorations/conditional-build/printed-endpoint-analytic-branch-2026-11-27.md"
         },
         {
           "statement": "A source-equivalent action completion",
@@ -361,6 +362,10 @@
       "coverage_addendum": {
         "ref": "explorations/conditional-build/source-action-endpoint-cubic-2026-11-27.md",
         "delta": "Firstuncomputedh3 now183/8; fullbranchintervalexclusion, oldrootandC1C2resultsretainoriginalscope."
+      },
+      "reverse_recovery_follow_through": {
+        "ref": "explorations/conditional-build/printed-endpoint-analytic-branch-2026-11-27.md",
+        "effect": "Converse zero-preserving local recovery now excluded on actual printed solution germs; no global/source equivalence claim."
       }
     },
     {
@@ -1767,6 +1772,75 @@
       "survivors_ref": "lab/process/closed-spin-normal-reduction.json#follow_through",
       "reopen_condition_ref": "explorations/conditional-build/closed-spin-normal-reduction-2026-11-27.md",
       "superseded_by": null
+    },
+    {
+      "id": "printed-endpoint-analytic-branch-2026-11-27",
+      "kind": "result",
+      "owner_ref": "explorations/conditional-build/printed-endpoint-analytic-branch-2026-11-27.md",
+      "tested_statement": "The printed endpoint has an actual analytic full-invariant local branch whose W2 connection Euler receiver is -183h^3/8+O(h^4). Together with the earlier opposite-direction witnesses, both local equation-locus containments fail in the held dictionary. Ambient and observed reconstructed coderivatives also fail on this printed branch.",
+      "signature": {
+        "object": "Printed and W2 Euler local zero loci",
+        "carrier": "Full216 invariant native K95 u64,64 one-forms; complete ambient receivers",
+        "convention": "Primary-minus low-Phi comm/symi/symi; h=1/kappa; local homogeneous cover",
+        "class": "All regular zero-preserving local recoveries containing the new printed branch germs",
+        "premises": [
+          "explorations/conditional-build/source-action-endpoint-cubic-2026-11-27.md",
+          "explorations/conditional-build/source-action-homogeneous-analytic-vacuum-2026-11-25.md",
+          "explorations/conditional-build/source-action-theta-divergence-2026-11-27.md",
+          "lab/process/source-action-deep-coefficients.json",
+          "lab/process/source-action-endpoint-cubic-certificates.json",
+          "lab/process/source-action-endpoint-cubic.json",
+          "lab/process/source-action-theta-divergence-certificates.json",
+          "lab/process/source-action-theta-divergence.json",
+          "tests/program-focus/source_action_deep_algebra.py",
+          "tests/program-focus/source_action_deep_geometry.py",
+          "tests/program-focus/source_action_endpoint_cubic_probe.py",
+          "tests/program-focus/source_action_endpoint_onshell_probe.py",
+          "tests/program-focus/source_action_theta_divergence_probe.py"
+        ]
+      },
+      "attributed_status": "internal_T1_printed_endpoint_branch_reviewed",
+      "status_ref": "lab/process/printed-endpoint-analytic-branch.json#status",
+      "source_bridge_ref": "lab/process/printed-endpoint-analytic-branch.json#source_bridge",
+      "certificate_refs": [
+        "lab/process/printed-endpoint-analytic-branch-certificates.json",
+        "Lean/GUFormalization/PrintedEndpointBranch.lean"
+      ],
+      "control_refs": [
+        "tests/program-focus/printed_endpoint_analytic_branch_probe.py"
+      ],
+      "survivors_ref": "lab/process/printed-endpoint-analytic-branch.json#follow_through",
+      "reopen_condition_ref": "explorations/conditional-build/printed-endpoint-analytic-branch-2026-11-27.md",
+      "superseded_by": null,
+      "cache": {
+        "artifacts": [
+          {
+            "path": "explorations/conditional-build/printed-endpoint-analytic-branch-2026-11-27.md",
+            "sha256": "f2d9b188a94474355e046edf3299f84dc749ba11f281752ce9b4d395757505f3"
+          },
+          {
+            "path": "tests/program-focus/printed_endpoint_analytic_branch_probe.py",
+            "sha256": "6907facf01115719567e4d89e86bee41d9e981f79c7221b43874ca896677f04b"
+          },
+          {
+            "path": "lab/process/printed-endpoint-analytic-branch-certificates.json",
+            "sha256": "06114d56717239ab1aa90ac5b74779f5d63673ee2bcac36ecf3deca8540854a9"
+          },
+          {
+            "path": "Lean/GUFormalization/PrintedEndpointBranch.lean",
+            "sha256": "e1ea38a6f9ef851b0232fc3427fe577dc0802931775e94b110269cd90262f330"
+          }
+        ],
+        "verifier": {
+          "command": "python3",
+          "args": [
+            "tests/program-focus/printed_endpoint_analytic_branch_probe.py",
+            "--verify"
+          ]
+        },
+        "receipt_ref": "lab/process/printed-endpoint-analytic-branch.json#verification",
+        "scope": "Hash custody not fresh execution; universal analytic/PDE proof is written and reviewed."
+      }
     }
   ]
 }

@@ -1,7 +1,7 @@
 schema_version: '1.0'
 repository: observerse-research-program
 branch: main
-revision_basis: bfdac9869547d9e16f47e5bd6879422bf239e601
+revision_basis: 7b8808209820427ce293bfeb948015cb22064691
 program_focus:
   version: 2026-11-27-v2
   authority: joe_direct_chat_2026_11_27_h
@@ -196,6 +196,26 @@ program_focus:
       denominator and a judgment label; the fraction of all possible GU realizations closed is unknown.
     authority_boundary: Continue autonomously within existing authority. Existing canon/ledger tiers,
       external and irreversible-action limits remain; no research waiting checkpoint.
+printed_endpoint_branch_2026_11_27:
+  status: internal_T1_printed_endpoint_branch_reviewed
+  actual_delta: The printed endpoint has an actual analytic full-invariant local branch whose W2 connection
+    Euler receiver is -183h^3/8+O(h^4). Together with the earlier opposite-direction witnesses, both local
+    equation-locus containments fail in the held dictionary. Ambient and observed reconstructed coderivatives
+    also fail on this printed branch.
+  source_bridge:
+    status: conditional
+    reason: Source action/endpoint templates are supplied, but low-Phi products and K95 realization are
+      not uniquely source-selected. Printed Upsilon/Xi with zero matter are not the complete source Euler
+      system. The coderivative corollary also retains the theta=T dictionary.
+  evidence:
+  - explorations/conditional-build/printed-endpoint-analytic-branch-2026-11-27.md
+  - lab/process/printed-endpoint-analytic-branch.json
+  next: Zero-preserving local recovery between these two held equation systems is now excluded in both
+    directions. Further coefficients or kappa1 searches are unnecessary for that implication. Source-selected
+    different equations/dictionaries, supplied physical domains and actual observed current/constraint
+    data remain distinct; no new physical selector is introduced.
+  choice_budget_effect: none
+  matrix_or_ledger_verdict_effect: none
 closed_spin_normal_2026_11_27:
   status: internal_T2_closed_spin_normal_reviewed
   actual_delta: 'Every closed smooth oriented spin Lorentz four-base satisfies the retained integral square

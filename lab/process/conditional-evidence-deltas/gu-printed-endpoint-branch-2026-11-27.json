@@ -1,0 +1,31 @@
+{
+  "schema_version": "1.0",
+  "delta_id": "GU-PRINTED-ENDPOINT-BRANCH-2026-11-27",
+  "status": "pending",
+  "base": {
+    "ledger_ref": "lab/process/conditional-physics-ledger-v0.263.json",
+    "ledger_sha256": "7c75c179c3af512084e50af19043a5d320b38e8c1e53325ee5ec2f97ad9c257b"
+  },
+  "affected_rows": [
+    "LT-GR1"
+  ],
+  "result_refs": [
+    "explorations/conditional-build/printed-endpoint-analytic-branch-2026-11-27.md",
+    "lab/process/printed-endpoint-analytic-branch.json",
+    "lab/process/printed-endpoint-analytic-branch-certificates.json"
+  ],
+  "source_disposition": "SC-ACT01/02 templates with held lowPhi reconstruction; no source selector or full Euler identity inferred.",
+  "claim_ceiling": "Local branch and equation-recovery exclusion in fixed dictionary, not a source-GU, classC, global-domain or physical-state exclusion.",
+  "proposed_effect": {
+    "summary": "The printed endpoint has an actual analytic full-invariant local branch whose W2 connection Euler receiver is -183h^3/8+O(h^4). Together with the earlier opposite-direction witnesses, both local equation-locus containments fail in the held dictionary. Ambient and observed reconstructed coderivatives also fail on this printed branch.",
+    "requested_row_changes": [
+      "Attach the reverse local zero-set witness to existing endpoint-fidelity evidence.",
+      "Keep verdict, grade and revival trigger unchanged; no independent gravity confirmation or cosmology verdict."
+    ]
+  },
+  "conflict_keys": [
+    "LT-GR1",
+    "printed-endpoint-fidelity"
+  ],
+  "integration": null
+}
