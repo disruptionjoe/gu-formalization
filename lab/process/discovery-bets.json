@@ -24,11 +24,11 @@
       "routing_note": "Ordinary index and net-chirality calculations are controls only for this mechanism (GEOMETER-VS-PHYSICS-OBJECTS.md, generation/chirality row).",
       "kill_criterion": "Within the time box, no invariant separates the imposter sector from the true families, or the observation/quotient map from sectors to a realized count cannot be typed for any guessed action tried.",
       "status": "active",
-      "runs_used": 3,
+      "runs_used": 4,
       "zero_delta_streak": 0,
       "result": {
         "status": "active_with_conditional_structural_result",
-        "actual_delta": "Across the entire owned independent-chiral wedge/southeast family and every compatible unitary spin connection, fixed-adjoint local observation transport requires H=0. The existing weighted-integration-density rival works exactly when its normal log-density gradient b=H; all normal and tangent compatible connections are classified. Actual principal q/time descent and ordered chirality-mixing equations are proved. This is a scoped realization exclusion and typed survivor, not a GU/source/classC/physical-family verdict.",
+        "actual_delta": "Every homogeneous correction in the complete compatible unitary b=H connection family is insertion-valued on the whole observed complement. The opposite block remains Wsharp P_K A_II, with exact rank512 in the authenticated native port. Nonzero II therefore excludes exact two-sided local closure in the declared orthogonal paired realization, while one-way closure survives.",
         "evidence": [
           "explorations/conditional-build/bet-2plus1-temporal-observation-2026-11-11.md",
           "explorations/conditional-build/bet-2plus1-polarized-observed-evolution-2026-11-11.md",
@@ -38,7 +38,12 @@
           "lab/process/bet-2plus1-chiral-weight-transport.json",
           "lab/process/hostile-reviews/2026-11-25-chiral-weight-transport-review.md",
           "tests/program-focus/chiral_weight_transport_probe.py",
-          "Lean/GUFormalization/ChiralWeightTransport.lean"
+          "Lean/GUFormalization/ChiralWeightTransport.lean",
+          "explorations/conditional-build/bet-2plus1-unitary-dual-closure-2026-11-27.md",
+          "lab/process/bet-2plus1-unitary-dual-closure.json",
+          "Lean/GUFormalization/UnitaryDualClosure.lean",
+          "tests/program-focus/unitary_dual_closure_probe.py",
+          "lab/process/hostile-reviews/2026-11-27-unitary-dual-closure-review.md"
         ],
         "prior_evidence": [
           "explorations/conditional-build/bet-2plus1-provenance-observation-2026-11-11.md",
@@ -47,12 +52,19 @@
           "Lean/GUFormalization/ProvenanceMixing.lean"
         ],
         "guessed_action_variants": 0,
-        "remaining_runs": 21,
+        "remaining_runs": 20,
         "physical_count": "not_supplied",
         "matrix_or_ledger_effect": "none",
-        "next_condition": "The independent-chiral coefficient and connection family is now classified at this fixed-observation transport gate; do not enumerate neighboring weights. The surviving weighted-adjoint class requires actual source selection of its density/paired arrows and current/readout, plus the admitted global domain and physical-count bridge. A complete source transformation law is not supplied by this local theorem. Compare that source/domain discriminator with another eligible target under existing selection, and continue executable work; no authorization checkpoint.",
+        "next_condition": "Counter96 returns to ordinary B selection. This full unitary/chiral weighted family is consumed for exact orthogonal two-sided closure; do not enumerate F/U or weights again. Use the source-facing shared-prerequisite map and existing VOI rules to choose a distinct executable source/physical bridge or class discriminator. Source density/bar/current/domain selection and effective coupling remain open; no authorization checkpoint.",
         "prior_actual_delta": "BET-2PLUS1 active: actual first-time-jet reconstruction recovers the hidden normal sum at nonzero momentum with exact infrared conditioning. The held polarization has an explicit bounded literal-observation lift and positive massless evolution; its maximal original-mass survivor omits the scalar sector, has positive norm but gapless longitudinal spectrum, and fails generic spatial-mass transfer. Massless autonomous trace/scalar readouts do not equal original pure provenance sectors; mass mixes trace with its partner. No physical family count, guessed action or matrix/ledger verdict.",
-        "last_run_date": "2026-11-25"
+        "last_run_date": "2026-11-27",
+        "prior_unitary_one_way_result": {
+          "status": "active_with_conditional_structural_result",
+          "actual_delta": "Across the entire owned independent-chiral wedge/southeast family and every compatible unitary spin connection, fixed-adjoint local observation transport requires H=0. The existing weighted-integration-density rival works exactly when its normal log-density gradient b=H; all normal and tangent compatible connections are classified. Actual principal q/time descent and ordered chirality-mixing equations are proved. This is a scoped realization exclusion and typed survivor, not a GU/source/classC/physical-family verdict.",
+          "next_condition": "The independent-chiral coefficient and connection family is now classified at this fixed-observation transport gate; do not enumerate neighboring weights. The surviving weighted-adjoint class requires actual source selection of its density/paired arrows and current/readout, plus the admitted global domain and physical-count bridge. A complete source transformation law is not supplied by this local theorem. Compare that source/domain discriminator with another eligible target under existing selection, and continue executable work; no authorization checkpoint.",
+          "last_run_date": "2026-11-25"
+        },
+        "new_action_variants_this_run": 0
       },
       "active_bet_note": {
         "packet": "lab/process/work-packets/observed-hidden-index-split-2026-11-20.md",

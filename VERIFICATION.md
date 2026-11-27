@@ -17,6 +17,10 @@ External review is not a research pathway or waiting condition. The source-level
 
 Sections below are historical snapshots in file order.
 
+## 2026-11-27 — Complete unitary paired observation class
+
+[Result](explorations/conditional-build/bet-2plus1-unitary-dual-closure-2026-11-27.md) · [Evidence](lab/process/bet-2plus1-unitary-dual-closure.json). Every homogeneous correction in the complete weighted b=H unitary/chiral family is insertion-valued on the full observed complement. The opposite geometric block remains, excluding exact two-sided closure at nonzero II in the named orthogonal paired realization. The authenticated native block retains rank512. One-way closure and effective physical decoupling remain distinct; no source, physics-ledger, canon or matrix-cell verdict changed. Lean covers two abstract linear cores only.
+
 ## 2026-11-27 — Compact excitation charge and source-custody map
 
 [Class result](explorations/conditional-build/compact-excitation-charge-2026-11-27.md) · [Evidence](lab/process/compact-excitation-charge.json). Under the full cutoff-admissible observed-field and finite-order locality premises, off-shell conservation forces zero vacuum-subtracted compact charge. Nonzero local improvements remain; on-shell positive-energy waves, homogeneous background terms and source physical domains are outside this exclusion. [Custody correction](lab/process/observation-physical-carrier-custody-2026-11-27.md) retains the supplied complex carrier/intersection and conditional charge fits while naming the missing physical current/domain. [Progress map](lab/process/falsification-progress-map.json) is an attributed view with evidence freshness checks. No physics verdict, new action or choice family.

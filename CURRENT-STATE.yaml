@@ -1,7 +1,7 @@
 schema_version: '1.0'
 repository: observerse-research-program
 branch: main
-revision_basis: b48a1fbdb1237450d355ccb5b502e4b02f0f3856
+revision_basis: bfdac9869547d9e16f47e5bd6879422bf239e601
 program_focus:
   version: 2026-11-27-v2
   authority: joe_direct_chat_2026_11_27_h
@@ -196,6 +196,28 @@ program_focus:
       denominator and a judgment label; the fraction of all possible GU realizations closed is unknown.
     authority_boundary: Continue autonomously within existing authority. Existing canon/ledger tiers,
       external and irreversible-action limits remain; no research waiting checkpoint.
+bet_2plus1_unitary_dual_closure_2026_11_27:
+  status: internal_T1_unitary_dual_closure_reviewed
+  lane: C
+  actual_delta: Every homogeneous correction in the complete compatible unitary b=H connection family
+    is insertion-valued on the whole observed complement. The opposite block remains Wsharp P_K A_II,
+    with exact rank512 in the authenticated native port. Nonzero II therefore excludes exact two-sided
+    local closure in the declared orthogonal paired realization, while one-way closure survives.
+  source_bridge:
+    status: conditional
+    reason: SC-OP-04 supplies candidate-strength independent barred/unbarred grammar and SC-CHI-04 effective
+      chirality; neither selects this exact off-shell orthogonal paired observation, density or global
+      physical domain.
+  evidence:
+  - explorations/conditional-build/bet-2plus1-unitary-dual-closure-2026-11-27.md
+  - lab/process/bet-2plus1-unitary-dual-closure.json
+  next: Counter96 returns to ordinary B selection. This full unitary/chiral weighted family is consumed
+    for exact orthogonal two-sided closure; do not enumerate F/U or weights again. Use the source-facing
+    shared-prerequisite map and existing VOI rules to choose a distinct executable source/physical bridge
+    or class discriminator. Source density/bar/current/domain selection and effective coupling remain
+    open; no authorization checkpoint.
+  matrix_or_ledger_effect: none
+  choice_budget_effect: none
 compact_excitation_charge_2026_11_27:
   status: internal_T1_compact_excitation_charge_reviewed
   actual_delta: Every finite-order observed-only conserved current in the full cutoff-admissible field

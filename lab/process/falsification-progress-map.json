@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "basis_revision": "b48a1fbdb1237450d355ccb5b502e4b02f0f3856",
+  "basis_revision": "bfdac9869547d9e16f47e5bd6879422bf239e601",
   "scope": "Curated six-pillar x source/class/candidate linked view. Status belongs to cited owners; no scientific verdict promotion, automatic ranking, whole-history coverage or global percentage. Cheapest-next fields are attributed bounded suggestions, not dispatch instructions. Closed means resolved within the cited scope; it does not always mean falsified. Positive fits and remaining source/physical bridges stay explicit.",
   "assumptions_ref": "lab/process/action-constraint-matrix.json#source_relevance_assumption_view.shared_prerequisites",
   "dependencies": [
@@ -94,7 +94,7 @@
     },
     {
       "ref": "lab/process/action-constraint-matrix.json",
-      "sha256": "4cc8deb6689395bb040da2779281b7f96045bd1e8595b8041b50b33b9f62f0ea"
+      "sha256": "d665b2cabd6cade6efa554cac1701fb9ce822a128b2b921e7d4ddba68b92dce4"
     },
     {
       "ref": "lab/process/conditional-physics-ledger-v0.263.json",
@@ -107,6 +107,14 @@
     {
       "ref": "lab/sources/source-claim-register.yaml",
       "sha256": "dc3ae173b4cc0eb2a0e343e3d92d5f110b8e4f6eef3e2852a1e897ab4371ade6"
+    },
+    {
+      "ref": "explorations/conditional-build/bet-2plus1-unitary-dual-closure-2026-11-27.md",
+      "sha256": "49dd8fd7622cf65e6216da42d27ee71d7bf4a423c432454534591bdba59e6771"
+    },
+    {
+      "ref": "lab/process/bet-2plus1-unitary-dual-closure.json",
+      "sha256": "57ec18f945d5d86c5612b129939d370d475e0143997a571101fdcbe3618f52e4"
     }
   ],
   "pillars": [
@@ -256,17 +264,19 @@
         },
         "class": {
           "attributed_status": "Scoped observation/grading classes with explicit survivors",
-          "closed": "Literal gamma-kernel transport and frozen spin-only descent fail; simultaneous geometric form-plus-spin q covariance succeeds.",
+          "closed": "Literal gamma-kernel transport and frozen spin-only descent fail; simultaneous geometric form-plus-spin q covariance succeeds. Separately, LC internal evidence excludes exact orthogonal two-sided closure at nonzero II throughout the complete weighted unitary/chiral realization; it does not require source effective chirality to be exact autonomy.",
           "open": "Actual weak/current projector, compatible physical carrier and operator/domain; integer counts additionally need a graded Fredholm realization.",
           "shared_missing_ref": "lab/process/action-constraint-matrix.json#source_relevance_assumption_view.shared_prerequisites",
-          "cheapest_next": "Use the owned geometric q bridge; do not repeat branching or impose a total net-index target.",
+          "cheapest_next": "Use the supplied geometric q and preserved one-way survivor; no F/U or chiral-weight census. A physical inference needs the actual barred/current/domain bridge, not assumed exact autonomy.",
           "evidence_refs": [
             "explorations/conditional-build/source-weak-action-transport-2026-11-13.md",
             "explorations/conditional-build/native-descending-grading-classification-2026-11-21.md",
             "explorations/source-native-spin64-observation-sector-obstruction-2026-08-30.md",
-            "lab/process/observation-physical-carrier-custody-2026-11-27.md"
+            "lab/process/observation-physical-carrier-custody-2026-11-27.md",
+            "explorations/conditional-build/bet-2plus1-unitary-dual-closure-2026-11-27.md",
+            "lab/process/bet-2plus1-unitary-dual-closure.json"
           ],
-          "positive_fit": "Paired real normal sectors and canonical principal observation quotients are established at their scopes."
+          "positive_fit": "Paired real normal sectors and canonical principal observation quotients are established at their scopes. Weighted b=H one-way q closure remains an explicit survivor."
         },
         "candidate": {
           "attributed_status": "RA-B1..B5 and AC-D1..D5 retain SAME / DERIVED_CONDITIONAL",

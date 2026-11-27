@@ -270,3 +270,7 @@ replacement for `lake build` or targeted standalone Lean checks.
 ## Compact excitation charge finite cores (2026-11-27)
 
 `GUFormalization/CompactCharge.lean` checks the abstract boundary-balance cancellation and nonnegative finite-sum implication. Smooth lifts, cutoff extensions, Stokes and physical/source applicability remain written and reviewed. See [result](../explorations/conditional-build/compact-excitation-charge-2026-11-27.md).
+
+## Unitary dual closure finite cores (2026-11-27)
+
+`GUFormalization/UnitaryDualClosure.lean` proves insertion-factor projection cancellation and invertible postcomposition zero equivalence. Clifford identities, source/jet/paired-domain applicability and native rank512 remain written and reviewed premises. See [result](../explorations/conditional-build/bet-2plus1-unitary-dual-closure-2026-11-27.md).

@@ -1500,6 +1500,39 @@
       "survivors_ref": "lab/process/observation-physical-carrier-custody-2026-11-27.md",
       "reopen_condition_ref": "lab/process/observation-physical-carrier-custody-2026-11-27.md",
       "superseded_by": null
+    },
+    {
+      "id": "bet-2plus1-unitary-dual-closure-2026-11-27",
+      "kind": "result",
+      "owner_ref": "explorations/conditional-build/bet-2plus1-unitary-dual-closure-2026-11-27.md",
+      "tested_statement": "Every homogeneous correction in the complete compatible unitary b=H connection family is insertion-valued on the whole observed complement. The opposite block remains Wsharp P_K A_II, with exact rank512 in the authenticated native port. Nonzero II therefore excludes exact two-sided local closure in the declared orthogonal paired realization, while one-way closure survives.",
+      "signature": {
+        "object": "Opposite observed-to-hidden local operator block",
+        "carrier": "Full Dirac one-form plus scalar, H4/N10, canonical orthogonal observation complement",
+        "convention": "Fixed LC-normal jets; ordered right chiral weights; uniform Clifford-adjoint sign plus/minus",
+        "class": "Every complete b=H compatible unitary F/U connection and nonzero independent chiral weights",
+        "premises": [
+          "explorations/conditional-build/bet-2plus1-chiral-weight-transport-2026-11-25.md",
+          "lab/process/bet-2plus1-chiral-weight-transport.json",
+          "explorations/conditional-build/local-dual-closure-second-fundamental-form-2026-11-24.md",
+          "lab/process/local-dual-closure-second-fundamental-form.json",
+          "explorations/conditional-build/determinant-repair-variation-2026-11-24.md",
+          "explorations/conditional-build/observation-functional-dual-2026-11-24.md",
+          "lab/sources/source-claim-register.yaml"
+        ]
+      },
+      "attributed_status": "internal_T1_unitary_dual_closure_reviewed",
+      "status_ref": "lab/process/bet-2plus1-unitary-dual-closure.json#status",
+      "source_bridge_ref": "lab/process/bet-2plus1-unitary-dual-closure.json#source_bridge",
+      "certificate_refs": [
+        "Lean/GUFormalization/UnitaryDualClosure.lean"
+      ],
+      "control_refs": [
+        "tests/program-focus/unitary_dual_closure_probe.py"
+      ],
+      "survivors_ref": "lab/process/bet-2plus1-unitary-dual-closure.json#follow_through",
+      "reopen_condition_ref": "explorations/conditional-build/bet-2plus1-unitary-dual-closure-2026-11-27.md",
+      "superseded_by": null
     }
   ]
 }
