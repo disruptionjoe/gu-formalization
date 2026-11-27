@@ -135,3 +135,20 @@ No unbounded global route count or numerical probability is inferred.
 Positive structural fits face the same source/physical-bridge distinction as
 exclusions. Missing dynamics does not erase owned representation fits; a
 conditional charge match does not select an actual physical carrier.
+
+## SOURCE and minimal-repair GU* tracks
+
+Authority: Joe27(k)/(l), implemented in `program_focus.research_tracks`.
+Label the tested track in the existing selection/evidence record. SOURCE keeps
+printed-source findings even when a repair works. GU* names each changed source
+claim or equation and its choice cost, earned constraint or falsifiable
+consequence, prior-obstruction rechecks and remaining burdens in the existing
+assumption view and opportunity register. No parallel ledger is needed.
+
+Check fidelity both to retained source equations and to the explicitly repaired
+specification. A surviving component, such as a Shiab companion, does not certify
+a full repaired action or physical theory. Before selecting another repair,
+compare its source relevance and ability to reduce choices or yield a falsifiable
+consequence with the strongest eligible SOURCE test. Existing run-selection
+precedence, lane limits, review tiers and authority still govern. This policy
+adds no action-construction permission, choice family or research checkpoint.

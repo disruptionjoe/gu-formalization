@@ -3108,5 +3108,52 @@
     ],
     "ranked_options_ref": "lab/process/falsification-progress-map.json#ranked_options_2026_11_27",
     "next": "Next ordinary B selection: scope the full induced ambient curvature source and first normal jet on Ricci-flat PetrovD section data, retaining mixed/vertical terms. This tests whether an unchanged flat completion is compatible, not all bulk completions or GU. Compare source-grounded distinctive-observable and shared-section bridges; do not repeat fullY determinant torsion, local complement, finitejet/coclosure or fixed-linear Euler rechecks."
+  },
+  "research_track_view": {
+    "authority": [
+      "joe_direct_chat_2026_11_27_k",
+      "joe_direct_chat_2026_11_27_l"
+    ],
+    "policy": "CURRENT-STATE.yaml#program_focus.research_tracks",
+    "evidence": "lab/process/two-track-adoption-2026-11-27.json",
+    "SOURCE": {
+      "status": "source_not_falsified",
+      "finding_policy": "Preserve scoped printed-source findings and unresolved physical bridges; a repaired variant does not supersede them.",
+      "scope_refs": [
+        "lab/process/falsification-progress-map.json",
+        "lab/process/action-constraint-matrix.json#source_relevance_assumption_view"
+      ]
+    },
+    "GU_star": {
+      "status": "no_full_physically_validated_variant_certified",
+      "adopted_repairs_this_update": [],
+      "components": [
+        {
+          "component": "wedge-anticommutator Shiab companion",
+          "status": "ESTABLISHED_component_survivor_only",
+          "survives": "Owned Bianchi companion and Einstein response at stated Levi-Civita scope.",
+          "remaining_or_failed": "Fails unchanged printed fixed-linear cubic/quadratic Euler architecture; any changed actual Euler equations need their own fidelity, conservation, energy and domain checks.",
+          "refs": [
+            "explorations/conditional-build/shiab-bianchi-companion-class-2026-11-27.md",
+            "explorations/conditional-build/printed-shiab-endpoint-audit-2026-11-27.md"
+          ]
+        },
+        {
+          "component": "W2 reconstructed action",
+          "status": "diagnostic_testbed_not_full_GU_star",
+          "remaining_or_failed": "Owned printed-endpoint mismatch and scoped dynamics failures remain; no promotion by relabelling.",
+          "refs": [
+            "lab/process/falsification-progress-map.json#pillars"
+          ]
+        }
+      ],
+      "choice_budget": {
+        "families": 10,
+        "obligations": 4,
+        "net": 6,
+        "source_selected_predictions": 0,
+        "effect": "unchanged; no new choice adopted"
+      }
+    }
   }
 }

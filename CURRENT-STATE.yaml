@@ -1,10 +1,10 @@
 schema_version: '1.0'
 repository: observerse-research-program
 branch: main
-revision_basis: c083eefcb2c6196f3a686596aeb2c596c2bdb42a
+revision_basis: 08b7e3b5c0264298d2cc6a90ad5dae9bded54e19
 program_focus:
-  version: 2026-11-27-v2
-  authority: joe_direct_chat_2026_11_27_h
+  version: 2026-11-27-v3
+  authority: joe_direct_chat_2026_11_27_k
   priority_packets:
   - lab/process/work-packets/source-required-class-tests-2026-11-24.md
   - lab/process/work-packets/six-spinor-grading-compatibility-2026-11-24.md
@@ -196,6 +196,32 @@ program_focus:
       denominator and a judgment label; the fraction of all possible GU realizations closed is unknown.
     authority_boundary: Continue autonomously within existing authority. Existing canon/ledger tiers,
       external and irreversible-action limits remain; no research waiting checkpoint.
+  research_tracks:
+    authority:
+    - joe_direct_chat_2026_11_27_k
+    - joe_direct_chat_2026_11_27_l
+    purpose: Keep SOURCE findings and minimal-repair GU* investigations separately attributable while
+      pursuing the existing falsification mission. A repair never erases a SOURCE finding.
+    SOURCE: Record what the printed source supports, contradicts under source-fixed premises, or leaves
+      undetermined. Retain page/equation custody and fixed/constrained/uncertain assumptions. Candidate
+      failures transfer only through a proved source bridge.
+    GU_star: Investigate source plus explicitly named minimal repairs. For each adopted repair use the
+      existing assumption view and opportunity evidence to record changed source claims/equations, what
+      it fixes, added choice families, independent constraints or falsifiable consequences earned, prior-obstruction
+      rechecks and remaining burdens. A component survivor is not a full viable theory.
+    fidelity: Check retained source equations on actual solutions; identify every intentional departure.
+      Full printed-source fidelity and fidelity to a repaired specification are different tests. A new
+      variant name does not cure a failed test.
+    selection: Within the existing run_selection precedence, compare SOURCE and GU* options by expected
+      source-relevant decisions per cost, including reduced choice freedom or new falsifiable consequences.
+      Constructibility or repeated survival alone does not justify a repair. Preserve excluded completion
+      classes and survivors.
+    boundaries: This attribution policy grants no additional action-construction or choice-family authority.
+      Existing lane-B structure requirements, lane-C permissions and limits, cadence, tiers, source
+      conventions, external-action gates and autonomous continuation remain unchanged. Record open choices
+      instead of silently adopting them.
+    current_view: lab/process/source-action-opportunity-register-2026-11-25.json#research_track_view
+    effect_receipt: lab/process/two-track-adoption-2026-11-27.json
 global_reduction_selection_2026_11_27:
   status: internal_T2_global_lift_and_typeD_bound_reviewed
   actual_delta:

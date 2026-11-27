@@ -1,0 +1,48 @@
+{
+  "artifact": "two-track-adoption",
+  "date": "2026-11-27",
+  "basis_revision": "08b7e3b5c0264298d2cc6a90ad5dae9bded54e19",
+  "authority": [
+    "joe_direct_chat_2026_11_27_k",
+    "joe_direct_chat_2026_11_27_l"
+  ],
+  "status": "applied_validated",
+  "target": "LB-CLASS research attribution",
+  "tier": "T3",
+  "expected_delta": "Approved SOURCE/GU* distinction applied without changing scientific authority or counting process as science.",
+  "actual_delta": "Added explicit track attribution, fidelity and repair-cost requirements on existing owners. Initialized honest SOURCE and GU* status; no new repaired action or choice.",
+  "claim_effect": "none",
+  "program_counter_effect": "none; remains105",
+  "choice_budget_effect": "none;10/4/net6/0",
+  "ranking_effect": "Existing21 options retained; no new mandatory backlog or schedule.",
+  "before_after": [
+    {
+      "before": "Two-track approval present in map but not operative program_focus.",
+      "after": "Program_focus v3 owns SOURCE/GU* distinction with explicit Joe27k/l authority."
+    },
+    {
+      "before": "A component repair could be mistaken for a complete viable variant.",
+      "after": "Current view distinguishes wedge companion, unchanged-Euler failure and W2 diagnostic; full physically validated GU* remains uncertified."
+    },
+    {
+      "before": "Repair costs dispersed across existing evidence.",
+      "after": "Each adopted repair must point to changed source content, costs, earned consequences and prior-obstruction rechecks in existing views."
+    }
+  ],
+  "verification": {
+    "gates": {
+      "program_focus_audit": "PASS",
+      "typed_carrier_declaration_audit": "PASS",
+      "kill_target_claim_audit": "PASS",
+      "frontmatter_status_schema_audit": "PASS",
+      "source_native_comparator_routing_audit": "PASS",
+      "lean_certificate_surface_audit": "PASS",
+      "current_state_absolute_currency_audit": "PASS",
+      "conditional_evidence_delta_gate": "PASS",
+      "research_context_reader_audit": "PASS"
+    },
+    "invariants": "All prior program_focus values unchanged except version/authority; all other state values preserved except revision_basis. Matrix/class/source/ledger/bets byte-identical. All21 options and39 map pins retained. Exact five paths."
+  },
+  "next": "Resume normal source-facing science selection. Curvature/source-jet reconnaissance is provisional; full printed residual is required to exclude any particular black-hole completion.",
+  "effect_line": "Change: explicit SOURCE/GU* attribution; why: preserve source findings while cost-testing minimal repairs; authority: Joe27k/l; applied; later effect: not yet observed."
+}
