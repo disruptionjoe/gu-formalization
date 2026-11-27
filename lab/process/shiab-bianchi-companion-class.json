@@ -1,0 +1,381 @@
+{
+  "artifact": "SHIAB_BIANCHI_COMPANION_CLASS",
+  "date": "2026-11-27",
+  "basis_revision": "a640a7691de103110b8d0635fc980910a2dcc6ac",
+  "status": "internal_T1_shiab_companion_reviewed",
+  "program_target": "LB-CLASS",
+  "tier": "T1",
+  "expected_delta": "Decide all algebraic companions of the selected map, classify the whole one-square category and test its strongest Riemann-responsive survivor.",
+  "actual_delta": "All algebraic ordinary Bianchi-symbol companion pairs are coefficient-linear right-wedge pairs. The selected displayed comm/symi/symi map fails on an actual full-unitary connection germ with identically zero Bianchi residual. A bare anticommutator with Hodge-dual Phi3 supplies a real primary-minus companion pair with nonzero ambient Einstein response.",
+  "class_covered": "All pointwise linear S2:Lambda2(W) tensor E -> Lambda(n-1)(W) tensor Eprime and algebraic S3 with the ordinary exterior symbol square, dimW>=3 over R/C. Examples use full Dirac End128 in n14 and explicitly phased real unitary carriers.",
+  "source_bridge": {
+    "status": "conditional",
+    "reason": "Source conditional derivation language and degree grammar do not require this universal adjoint-valued exterior square or identify it with the spinor/somatic two-connection cancellation. Source Phi3/product ingredients permit comparison, not selection of the positive map."
+  },
+  "premises": [
+    "lab/sources/transcripts/portal-special-gu-first-look-2020-04-02.md",
+    "lab/sources/gu-shiab-derivation-principal-bianchi-source-reinspection-2026-08-05.md",
+    "lab/sources/gu-shiab-bianchi-two-connection-target-source-reinspection-2026-08-05.md",
+    "lab/sources/gu-two-connection-shifted-superconnection-source-reinspection-2026-08-04.md",
+    "lab/sources/source-claim-register.yaml",
+    "explorations/k77-wave2-principal-bianchi-product-selector-2026-08-05.md",
+    "explorations/k77-wave2-full-adjoint-shiab-bianchi-two-connection-target-2026-08-05.md",
+    "explorations/k77-wave2-action-owned-degree14-northeast-totalization-2026-08-05.md",
+    "explorations/conditional-build/shiab-graded-derivation-class-2026-11-27.md",
+    "explorations/conditional-build/printed-shiab-endpoint-audit-2026-11-27.md",
+    "explorations/conditional-build/source-adjoint-spinless-placement-2026-11-26.md",
+    "tests/channel-swings/k77_wave2_moving_shiab_epsilon_ward_green_domain_probe.py",
+    "tests/program-focus/shiab_graded_derivation_probe.py"
+  ],
+  "weakest_unproved_link": "Source necessity of the ordinary full-adjoint companion square, with a matching carrier, outgoing differential and actual two-connection/moving-field law.",
+  "source_necessary_claim": "conditional",
+  "class_C_representativeness": "Not established; no width witness or whole-C conclusion.",
+  "structural_or_build_specific": "Complete structural companion classification; selected formula obstruction depends on that displayed reconstruction; eight-map exclusion inherits exactly the K77/complex fixed grammar. Positive wedge existence is structural, not a physical build.",
+  "kill_condition": "Closed full-curvature input with nonclosed output excludes every algebraic companion and every zero-preserving factorization solely through its identically zero Bianchi residual. A positive wedge/Einstein map refutes extending that failure to the whole companion category.",
+  "claim_effect": "Internal class exclusion and positive structural survivor; no source/canon/physics-ledger/matrix-cell verdict.",
+  "choice_budget_effect": "none;10 families/4 grouped obligations/bookkeeping net6/0 source-selected predictions unchanged",
+  "results": {
+    "classification": "A volume-dual three-index tensor is fully alternating iff a companion exists; S2 and unique S3 are right wedge by Lambda(n-3) tensor Hom(E,Eprime). No metric or Spin premise.",
+    "selected_witness": "k=e0, F=e01 gamma0 in two positive axes gives k wedge F=0 and output=-2 vol gamma01. Native coherent plus phase gives +2, not zero.",
+    "actual_germ": "A1=(x0)^2 gamma0/2 gives A=F=0 at origin and D_A F identically zero, but nonzero d_out S2(F) there. Smooth held-coefficient and lower-order A/F changes cannot repair this fixed principal square.",
+    "residual_extension": "Any zero-preserving map on the zero Bianchi residual, including nonlinear/higher-order operations, fails the same factorization; altered principal symbols, other same-order rows or spinor carriers remain outside.",
+    "positive_survivor": "Splus2(F)=Theta wedge F + F wedge Theta, Splus3(G)=G wedge Theta - Theta wedge G, Theta=*Phi3. Splus2(I(R))=2G14(R) in owned injection. Bare Theta self plus skew input preserves primary-minus real u(H); coherent iTheta/i-Jordan realizes the negative map.",
+    "differential_ceiling": "At an LC connection Theta is parallel and the full fixed-background differential identity holds. Generic full-U connections do not preserve Theta; two-connection/moving-field and source physical law remain open.",
+    "eight_map_corollary": "No nonzero scalar multiple of the eight individual fixed maps in inherited K77/complex grammar has both full companion property and nonzero Riemann response. Positive wedge map is outside these individual maps; their continuous span unadjudicated.",
+    "retained_endpoint_exclusion": "Positive companion does not revive the old fixed-linear/full-U/full-translation exact printed Euler correspondence; the prior universal nonzero-map obstruction still applies there."
+  },
+  "selection": {
+    "mandatory_basis": "Counter97 ordinaryB, no unfinishedT1; priority packets done or dependency-blocked; LB-CLASS attached to source gravity/chain interpretation.",
+    "reuse_difference": "Earlier rank91 principal-Riemann test omitted grade1 full-U jet; full derivation theorem assumes all-degree Leibniz; prior B2C7/8 and raw northeast tests have different carriers/owners.",
+    "source_relevance": "Conditional source derivation intent and SC-OP01 ASSERTS invariant family, SC-OP02 UNCERTAIN selector, SC-OP03 ASSERTS Ricci/scalar response; no assumed source full-adjoint law.",
+    "shared_leverage": [
+      "Compatibility between a degree-two curvature response and a differential companion",
+      "Source meaning of derivation versus a module/chain operation",
+      "Avoiding revival of the fixed-Euler architecture from a surviving one-square map"
+    ],
+    "outcomes": [
+      "Nonclosed witness: consume every S3 search for this exact map/law.",
+      "No witness: test whole tensor factorization before lower-order construction.",
+      "Positive Einstein companion: retain that category and reject an overbroad silence inference.",
+      "No source necessity: preserve interpretation-level scope and rerank, without a GU verdict."
+    ],
+    "strongest_alternative": "Physical normal16/current descent has greater shared reach but still lacks actual physical carrier/current/domain tuple; global mu6 and branching/anomaly arithmetic are already consumed.",
+    "forecast": "A tiny kernel witness and elementary alternation proof, with a positive alternative and reviews; no native128 assembly.",
+    "actual_cost": "77 grouped exact controls in 1.1591757093556225 seconds; total review/integration wall cost not inferred from probe runtime.",
+    "method_lenses": "Twenty quick mathematical descriptions, including category theory (distinct arrow types) and number theory (exact arithmetic, no count inference); no per-persona subagents."
+  },
+  "verification": {
+    "controls": {
+      "status": "PASS",
+      "grouped_checks": 77,
+      "checks": {
+        "complete polarized tensor kernel n3": true,
+        "complete polarized tensor kernel n4": true,
+        "complete polarized tensor kernel n5": true,
+        "complete polarized tensor kernel n6": true,
+        "n4_q0 input is closed": true,
+        "n4_q0 selected inner term vanishes": true,
+        "n4_q0 selected exact defect": true,
+        "n4_q0 opposite chain sign cannot repair": true,
+        "n4_q0 wedge companion with nonzero cases": true,
+        "n4_q0 closed witness preserved by wedge survivor": true,
+        "n4_q0 survivor differs from selected on full carrier": true,
+        "n4_q0 complete Riemann Einstein identity": true,
+        "n4_q0 full versus reduced anti ((0, 1), (0, 1), 1)": true,
+        "n4_q0 full versus reduced anti ((0, 1), (2, 3), 1)": true,
+        "n4_q0 survivor nonzero on sectional Riemann": true,
+        "n4_q0 minus gamma and theta adjoints": true,
+        "n4_q0 bare anti preserves source-minus real coefficient forms": true,
+        "n4_q0 multiplying only by i breaks real placement": true,
+        "n4_q0 coherent plus phase preserves real placement": true,
+        "n4_q0 coherent plus witness remains nonzero": true,
+        "n4_q0 wedge survivor is not a full derivation": true,
+        "n4_q0 wedge suite violates Lie center preservation": true,
+        "n6_q3 input is closed": true,
+        "n6_q3 selected inner term vanishes": true,
+        "n6_q3 selected exact defect": true,
+        "n6_q3 opposite chain sign cannot repair": true,
+        "n6_q3 wedge companion with nonzero cases": true,
+        "n6_q3 closed witness preserved by wedge survivor": true,
+        "n6_q3 survivor differs from selected on full carrier": true,
+        "n6_q3 complete Riemann Einstein identity": true,
+        "n6_q3 full versus reduced anti ((0, 1), (0, 1), 1)": true,
+        "n6_q3 full versus reduced anti ((0, 1), (2, 3), 1)": true,
+        "n6_q3 survivor nonzero on sectional Riemann": true,
+        "n6_q3 minus gamma and theta adjoints": true,
+        "n6_q3 bare anti preserves source-minus real coefficient forms": true,
+        "n6_q3 multiplying only by i breaks real placement": true,
+        "n6_q3 coherent plus phase preserves real placement": true,
+        "n6_q3 coherent plus witness remains nonzero": true,
+        "n6_q3 wedge survivor is not a full derivation": true,
+        "n6_q3 wedge suite violates Lie center preservation": true,
+        "n14_q5 input is closed": true,
+        "n14_q5 selected inner term vanishes": true,
+        "n14_q5 selected exact defect": true,
+        "n14_q5 opposite chain sign cannot repair": true,
+        "n14_q5 wedge companion with nonzero cases": true,
+        "n14_q5 closed witness preserved by wedge survivor": true,
+        "n14_q5 survivor differs from selected on full carrier": true,
+        "n14_q5 complete Riemann Einstein identity": true,
+        "n14_q5 full versus reduced anti ((0, 1), (0, 1), 1)": true,
+        "n14_q5 full versus reduced anti ((0, 1), (2, 3), 1)": true,
+        "n14_q5 survivor nonzero on sectional Riemann": true,
+        "n14_q5 minus gamma and theta adjoints": true,
+        "n14_q5 bare anti preserves source-minus real coefficient forms": true,
+        "n14_q5 multiplying only by i breaks real placement": true,
+        "n14_q5 coherent plus phase preserves real placement": true,
+        "n14_q5 coherent plus witness remains nonzero": true,
+        "n14_q5 wedge survivor is not a full derivation": true,
+        "n14_q5 wedge suite violates Lie center preservation": true,
+        "n14_q7 input is closed": true,
+        "n14_q7 selected inner term vanishes": true,
+        "n14_q7 selected exact defect": true,
+        "n14_q7 opposite chain sign cannot repair": true,
+        "n14_q7 wedge companion with nonzero cases": true,
+        "n14_q7 closed witness preserved by wedge survivor": true,
+        "n14_q7 survivor differs from selected on full carrier": true,
+        "n14_q7 complete Riemann Einstein identity": true,
+        "n14_q7 full versus reduced anti ((0, 1), (0, 1), 1)": true,
+        "n14_q7 full versus reduced anti ((0, 1), (2, 3), 1)": true,
+        "n14_q7 survivor nonzero on sectional Riemann": true,
+        "n14_q7 minus gamma and theta adjoints": true,
+        "n14_q7 bare anti preserves source-minus real coefficient forms": true,
+        "n14_q7 multiplying only by i breaks real placement": true,
+        "n14_q7 coherent plus phase preserves real placement": true,
+        "n14_q7 coherent plus witness remains nonzero": true,
+        "n14_q7 wedge survivor is not a full derivation": true,
+        "n14_q7 wedge suite violates Lie center preservation": true,
+        "planted companion sign defect detected": true
+      },
+      "coverage": {
+        "tensor_n3": {
+          "unknowns": 9,
+          "rank": 8,
+          "kernel_dimension": 1,
+          "expected": 1
+        },
+        "tensor_n4": {
+          "unknowns": 24,
+          "rank": 20,
+          "kernel_dimension": 4,
+          "expected": 4
+        },
+        "tensor_n5": {
+          "unknowns": 50,
+          "rank": 40,
+          "kernel_dimension": 10,
+          "expected": 10
+        },
+        "tensor_n6": {
+          "unknowns": 90,
+          "rank": 70,
+          "kernel_dimension": 20,
+          "expected": 20
+        },
+        "n4_q0": {
+          "companion_cases": 90,
+          "nonzero_companion_cases": 40,
+          "riemann_basis_vectors": 20,
+          "native_signature_control_only": true
+        },
+        "n6_q3": {
+          "companion_cases": 90,
+          "nonzero_companion_cases": 40,
+          "riemann_basis_vectors": 105,
+          "native_signature_control_only": true
+        },
+        "n14_q5": {
+          "companion_cases": 90,
+          "nonzero_companion_cases": 40,
+          "riemann_basis_vectors": 3185,
+          "native_signature_control_only": true
+        },
+        "n14_q7": {
+          "companion_cases": 90,
+          "nonzero_companion_cases": 40,
+          "riemann_basis_vectors": 3185,
+          "native_signature_control_only": true
+        }
+      },
+      "witnesses": {
+        "n4_q0": {
+          "external_mask": 15,
+          "coefficient_mask": 3,
+          "value": -2
+        },
+        "n6_q3": {
+          "external_mask": 63,
+          "coefficient_mask": 3,
+          "value": -2
+        },
+        "n14_q5": {
+          "external_mask": 16383,
+          "coefficient_mask": 3,
+          "value": -2
+        },
+        "n14_q7": {
+          "external_mask": 16383,
+          "coefficient_mask": 3,
+          "value": -2
+        }
+      },
+      "runtime_seconds": 1.1591757093556225,
+      "scope": "Exact controls and all algebraic Riemann basis vectors in declared signatures. Generic classification, connection-jet proof, source necessity, full nonlinear dynamics and physical interpretation are not established by finite sampling."
+    },
+    "lean": {
+      "status": "PASS",
+      "fresh": true,
+      "command": "lake env lean -j1 /private/tmp/gu-shiab-companion-wt-20261127/Lean/GUFormalization/ShiabCompanion.lean",
+      "cwd": "mounted GU root with cached Mathlib",
+      "output": "none on successful replay",
+      "finite_cores": 2,
+      "repair": "Initial polarization simp needed add_comm to align additive order; successful replay validates repaired bytes.",
+      "scope": "Zero-preserving factorization obstruction and diagonal-zero polarization; no full exterior, Clifford, Riemann or source formalization."
+    },
+    "review": {
+      "status": "accepted",
+      "ref": "lab/process/hostile-reviews/2026-11-27-shiab-companion-review.md",
+      "roles": [
+        "non-author mathematical specialist",
+        "non-author source/physics specialist",
+        "separate hostile reviewer"
+      ],
+      "disclosure": "Specialists supplied preflight reasoning/source custody, not final artifacts; hostile reviewer independent of theorem development. Internal reviews, no external expert certification."
+    },
+    "gates": {
+      "program_focus_audit": "PASS",
+      "typed_carrier_declaration_audit": "PASS",
+      "kill_target_claim_audit": "PASS",
+      "frontmatter_status_schema_audit": "PASS",
+      "source_native_comparator_routing_audit": "PASS",
+      "lean_certificate_surface_audit": "PASS",
+      "current_state_absolute_currency_audit": "PASS",
+      "conditional_evidence_delta_gate": "PASS",
+      "research_context_reader_audit": "PASS"
+    },
+    "dependencies": [
+      {
+        "ref": "lab/sources/transcripts/portal-special-gu-first-look-2020-04-02.md",
+        "sha256": "f889ba11089620ade11b5ccf7eb9b01b0c2290e66c54f4e43543ced87a81486f",
+        "fresh_replay": false,
+        "replay_scope": "Read/reused evidence, not a fresh certificate execution."
+      },
+      {
+        "ref": "lab/sources/gu-shiab-derivation-principal-bianchi-source-reinspection-2026-08-05.md",
+        "sha256": "35f14a7766f76413bb291f694a751acd6d111d16b7b1abe838aee30b484b8de9",
+        "fresh_replay": false,
+        "replay_scope": "Read/reused evidence, not a fresh certificate execution."
+      },
+      {
+        "ref": "lab/sources/gu-shiab-bianchi-two-connection-target-source-reinspection-2026-08-05.md",
+        "sha256": "66a14ee0583a6727a15a187469083e427ce86a1195cf98c2655edc16e87562ac",
+        "fresh_replay": false,
+        "replay_scope": "Read/reused evidence, not a fresh certificate execution."
+      },
+      {
+        "ref": "lab/sources/gu-two-connection-shifted-superconnection-source-reinspection-2026-08-04.md",
+        "sha256": "4b5f58db9755fda74c164db3cab2ebaed3f20d791d66defdca4edab8db1f6c45",
+        "fresh_replay": false,
+        "replay_scope": "Read/reused evidence, not a fresh certificate execution."
+      },
+      {
+        "ref": "lab/sources/source-claim-register.yaml",
+        "sha256": "dc3ae173b4cc0eb2a0e343e3d92d5f110b8e4f6eef3e2852a1e897ab4371ade6",
+        "fresh_replay": false,
+        "replay_scope": "Read/reused evidence, not a fresh certificate execution."
+      },
+      {
+        "ref": "explorations/k77-wave2-principal-bianchi-product-selector-2026-08-05.md",
+        "sha256": "d6a8da05a854252283a7149e3e873a876d881f148d2faa9674434b9da333ca59",
+        "fresh_replay": false,
+        "replay_scope": "Read/reused evidence, not a fresh certificate execution."
+      },
+      {
+        "ref": "explorations/k77-wave2-full-adjoint-shiab-bianchi-two-connection-target-2026-08-05.md",
+        "sha256": "312ea5eaa1ef4e9791491af9305f20f75d3fa0ec2bc061913caa47f29b32d972",
+        "fresh_replay": false,
+        "replay_scope": "Read/reused evidence, not a fresh certificate execution."
+      },
+      {
+        "ref": "explorations/k77-wave2-action-owned-degree14-northeast-totalization-2026-08-05.md",
+        "sha256": "79e8b9b6539bb1d6d25124e2b5d56e7c5eb9f8392289e74802310728d4d14950",
+        "fresh_replay": false,
+        "replay_scope": "Read/reused evidence, not a fresh certificate execution."
+      },
+      {
+        "ref": "explorations/conditional-build/shiab-graded-derivation-class-2026-11-27.md",
+        "sha256": "0848f6b6bc0e6009d23bd3fc236c6aa2b54092b7ee668698133e571e5e221548",
+        "fresh_replay": false,
+        "replay_scope": "Read/reused evidence, not a fresh certificate execution."
+      },
+      {
+        "ref": "explorations/conditional-build/printed-shiab-endpoint-audit-2026-11-27.md",
+        "sha256": "829ca664f19a84943bbb28394c146ec1298554144aaa7764c589de35153fb792",
+        "fresh_replay": false,
+        "replay_scope": "Read/reused evidence, not a fresh certificate execution."
+      },
+      {
+        "ref": "explorations/conditional-build/source-adjoint-spinless-placement-2026-11-26.md",
+        "sha256": "23363899cc268910aef10f8edf353352d414075946562611921914d644455908",
+        "fresh_replay": false,
+        "replay_scope": "Read/reused evidence, not a fresh certificate execution."
+      },
+      {
+        "ref": "tests/channel-swings/k77_wave2_moving_shiab_epsilon_ward_green_domain_probe.py",
+        "sha256": "acc72e643032b4927db49963fd4de5b43b0c7f387a078b210a0d759e57e7bdb4",
+        "fresh_replay": false,
+        "replay_scope": "Read/reused evidence, not a fresh certificate execution."
+      },
+      {
+        "ref": "tests/program-focus/shiab_graded_derivation_probe.py",
+        "sha256": "d16872f9dec86b8069a9a64acd0dae01c6778692350dcba09f8c10bb66fe20e0",
+        "fresh_replay": false,
+        "replay_scope": "Imported guarded arithmetic helpers only; previous full probe is not rerun."
+      }
+    ],
+    "literature": [
+      {
+        "ref": "https://stacks.math.columbia.edu/tag/062J",
+        "use": "Classical exterior/Koszul context, not citation for this exact classification; self-contained proof."
+      }
+    ],
+    "novelty": "No world-novelty claim; no paper or external review initiated.",
+    "ceiling": "Exact finite/basis controls calibrate classification and signs; written universal proof and source applicability require review. No physical gravity, Green domain or count inferred.",
+    "review_hashes": {
+      "math": "f87b55b3bbcf7c8224a7f65b483c306abf575ad1502349b862f9da5384bd09e7",
+      "source": "c0c7703c31a181340e1c5ecccd259c43cbf01c829b5c42725bbf58af6466cb5c",
+      "hostile": "31b9575e840fb57f10b9d9db2d81129a81be238e7eb55845b2781ad2603f1bf9"
+    },
+    "artifact_hashes": {
+      "explorations/conditional-build/shiab-bianchi-companion-class-2026-11-27.md": "c0f4a812a26a7b37913d3e366182e65c25dd91965912b64df09fdf0e82679b42",
+      "Lean/GUFormalization/ShiabCompanion.lean": "b8fc80bedd07c16d212a8faa25c06e615e648d1f172b749f348a52c418c59a98",
+      "tests/program-focus/shiab_bianchi_companion_probe.py": "ec24e1a970c99b3c9665495e9cadce996563a4a2d3e1b25621bfdc31ac2f9933"
+    }
+  },
+  "follow_through": {
+    "consumed": [
+      "Every algebraic S3 search for the selected map under this universal full-curvature exterior square",
+      "Zero-preserving nonlinear/differential factorization solely through its Bianchi residual",
+      "Any inference that full Bianchi companion compatibility forces Riemann silence",
+      "Reviving the excluded fixed-Euler architecture just because this companion survives"
+    ],
+    "survivors": [
+      "Coefficient-linear wedge companion category",
+      "Explicit bare anticommutator with 2G14 response and primary-minus real closure",
+      "Existing Riemann-only selected-map property",
+      "Differently typed source spinor/module, additional rows or changed outgoing symbols, unvalidated"
+    ],
+    "next": "Reuse the complete companion criterion and the selected-map germ; no S3 search or eight-product census under the same law. The positive wedge map survives this square only and remains excluded if put into the old exact fixed-linear Euler architecture. Actual source spinor/module carrier, outgoing symbols and moving connection/Phi laws are the remaining bridge; do not invent them or repeat the old endpoint test. Compare a newly supplied bridge discriminator with other eligible pillars under existing cadence/VOI; no Joe checkpoint."
+  },
+  "accounting": {
+    "counter_before": 97,
+    "counter_after": 98,
+    "LB_CLASS_before": 52,
+    "LB_CLASS_after": 53,
+    "bet_credit": 0,
+    "new_choices": 0,
+    "matrix_cell_changes": 0,
+    "ledger_verdict_changes": 0
+  },
+  "effect_line": "Change: full companion class classified, selected interpretation excluded, positive wedge survivor retained; why: kernel witness avoids companion searches and prevents an overbroad gravity no-go; authority: Joe27(c,f,h); applied internal evidence, ledger attachment proposed; effect: specified successor searches consumed, source law and physical realization remain open."
+}

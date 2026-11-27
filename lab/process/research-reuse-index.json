@@ -1591,6 +1591,45 @@
       "survivors_ref": "lab/process/shiab-graded-derivation-class.json#follow_through",
       "reopen_condition_ref": "explorations/conditional-build/normal-sm-global-quotient-2026-11-27.md",
       "superseded_by": null
+    },
+    {
+      "id": "shiab-bianchi-companion-class-2026-11-27",
+      "kind": "result",
+      "owner_ref": "explorations/conditional-build/shiab-bianchi-companion-class-2026-11-27.md",
+      "tested_statement": "All algebraic ordinary Bianchi-symbol companion pairs are coefficient-linear right-wedge pairs. The selected displayed comm/symi/symi map fails on an actual full-unitary connection germ with identically zero Bianchi residual. A bare anticommutator with Hodge-dual Phi3 supplies a real primary-minus companion pair with nonzero ambient Einstein response.",
+      "signature": {
+        "object": "Ordinary full-curvature exterior companion pair",
+        "carrier": "Lambda2E to Lambda(n-1)Eprime and Lambda3E to LambdanEprime; examples fullDiracEnd128",
+        "convention": "All covectors; pointwise linear; plus companion convention, odd minus equivalent by sign",
+        "class": "All algebraic pairs; selected displayed map; positive wedge anticommutator",
+        "premises": [
+          "lab/sources/transcripts/portal-special-gu-first-look-2020-04-02.md",
+          "lab/sources/gu-shiab-derivation-principal-bianchi-source-reinspection-2026-08-05.md",
+          "lab/sources/gu-shiab-bianchi-two-connection-target-source-reinspection-2026-08-05.md",
+          "lab/sources/gu-two-connection-shifted-superconnection-source-reinspection-2026-08-04.md",
+          "lab/sources/source-claim-register.yaml",
+          "explorations/k77-wave2-principal-bianchi-product-selector-2026-08-05.md",
+          "explorations/k77-wave2-full-adjoint-shiab-bianchi-two-connection-target-2026-08-05.md",
+          "explorations/k77-wave2-action-owned-degree14-northeast-totalization-2026-08-05.md",
+          "explorations/conditional-build/shiab-graded-derivation-class-2026-11-27.md",
+          "explorations/conditional-build/printed-shiab-endpoint-audit-2026-11-27.md",
+          "explorations/conditional-build/source-adjoint-spinless-placement-2026-11-26.md",
+          "tests/channel-swings/k77_wave2_moving_shiab_epsilon_ward_green_domain_probe.py",
+          "tests/program-focus/shiab_graded_derivation_probe.py"
+        ]
+      },
+      "attributed_status": "internal_T1_shiab_companion_reviewed",
+      "status_ref": "lab/process/shiab-bianchi-companion-class.json#status",
+      "source_bridge_ref": "lab/process/shiab-bianchi-companion-class.json#source_bridge",
+      "certificate_refs": [
+        "Lean/GUFormalization/ShiabCompanion.lean"
+      ],
+      "control_refs": [
+        "tests/program-focus/shiab_bianchi_companion_probe.py"
+      ],
+      "survivors_ref": "lab/process/shiab-bianchi-companion-class.json#follow_through",
+      "reopen_condition_ref": "explorations/conditional-build/shiab-bianchi-companion-class-2026-11-27.md",
+      "superseded_by": null
     }
   ]
 }

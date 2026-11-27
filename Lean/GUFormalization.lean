@@ -127,3 +127,5 @@ import GUFormalization.CompactCharge
 import GUFormalization.UnitaryDualClosure
 
 import GUFormalization.ShiabDerivation
+
+import GUFormalization.ShiabCompanion

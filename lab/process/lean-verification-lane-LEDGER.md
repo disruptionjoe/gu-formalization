@@ -611,3 +611,7 @@ bicategory, ambidexterity or Mackey 2-functor is inferred.
 ## Shiab derivation finite cores (2026-11-27)
 
 `Lean/GUFormalization/ShiabDerivation.lean` proves coefficient-commutator Leibniz and two-map annihilation. Full graded/Spin classification, Riemann geometry, real-form transfer, source applicability and global group bundle proofs remain written and reviewed. See [result](../../explorations/conditional-build/shiab-graded-derivation-class-2026-11-27.md).
+
+## Shiab companion finite cores (2026-11-27)
+
+`Lean/GUFormalization/ShiabCompanion.lean` proves zero-preserving nonfactorization and bilinear polarization. Exterior classification, Clifford/Riemann identity, real forms, actual jets and source relevance remain written and reviewed. [Result](../../explorations/conditional-build/shiab-bianchi-companion-class-2026-11-27.md).

@@ -61,6 +61,11 @@
       "delta_id": "GU-GLOBAL-SM-QUOTIENT-2026-11-27",
       "path": "lab/process/conditional-evidence-deltas/gu-global-sm-quotient-2026-11-27.json",
       "status": "pending"
+    },
+    {
+      "delta_id": "GU-SHIAB-COMPANION-2026-11-27",
+      "path": "lab/process/conditional-evidence-deltas/gu-shiab-companion-2026-11-27.json",
+      "status": "pending"
     }
   ]
 }

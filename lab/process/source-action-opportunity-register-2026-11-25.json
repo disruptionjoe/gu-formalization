@@ -2930,5 +2930,30 @@
     ],
     "physical_selection": "open",
     "ledger_verdict_change": "none"
+  },
+  "shiab_bianchi_companion_2026_11_27": {
+    "actual_delta": "All algebraic ordinary Bianchi-symbol companion pairs are coefficient-linear right-wedge pairs. The selected displayed comm/symi/symi map fails on an actual full-unitary connection germ with identically zero Bianchi residual. A bare anticommutator with Hodge-dual Phi3 supplies a real primary-minus companion pair with nonzero ambient Einstein response.",
+    "source_bridge": {
+      "status": "conditional",
+      "reason": "Source conditional derivation language and degree grammar do not require this universal adjoint-valued exterior square or identify it with the spinor/somatic two-connection cancellation. Source Phi3/product ingredients permit comparison, not selection of the positive map."
+    },
+    "evidence": [
+      "explorations/conditional-build/shiab-bianchi-companion-class-2026-11-27.md",
+      "lab/process/shiab-bianchi-companion-class.json"
+    ],
+    "consumed_successors": [
+      "Every algebraic S3 search for the selected map under this universal full-curvature exterior square",
+      "Zero-preserving nonlinear/differential factorization solely through its Bianchi residual",
+      "Any inference that full Bianchi companion compatibility forces Riemann silence",
+      "Reviving the excluded fixed-Euler architecture just because this companion survives"
+    ],
+    "survivors": [
+      "Coefficient-linear wedge companion category",
+      "Explicit bare anticommutator with 2G14 response and primary-minus real closure",
+      "Existing Riemann-only selected-map property",
+      "Differently typed source spinor/module, additional rows or changed outgoing symbols, unvalidated"
+    ],
+    "next": "Reuse the complete companion criterion and the selected-map germ; no S3 search or eight-product census under the same law. The positive wedge map survives this square only and remains excluded if put into the old exact fixed-linear Euler architecture. Actual source spinor/module carrier, outgoing symbols and moving connection/Phi laws are the remaining bridge; do not invent them or repeat the old endpoint test. Compare a newly supplied bridge discriminator with other eligible pillars under existing cadence/VOI; no Joe checkpoint.",
+    "paper_track": "GU-independent elementary companion classification; classical context checked, no novelty or publication claim."
   }
 }

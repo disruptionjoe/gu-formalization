@@ -16,6 +16,10 @@ Do not add "Current follow-through" sections or "Historical predecessor" stacks 
 matrix or bet file. The retired follow-through chain and banner stack are kept at the end of this file under
 "Archived steering history".
 
+## 2026-11-27 — Full-curvature companions and a positive wedge survivor
+
+[Result](explorations/conditional-build/shiab-bianchi-companion-class-2026-11-27.md) · [Evidence](lab/process/shiab-bianchi-companion-class.json). Every algebraic ordinary companion pair is coefficient-linear right wedge. The selected displayed map fails on a genuine full-connection germ; an explicit wedge anticommutator retains the companion and ambient Einstein response. Source selection and full moving equations remain open, and the prior fixed-Euler exclusion is retained. No source, canon, ledger or matrix-cell verdict; two Lean cores cover factorization obstruction and polarization only.
+
 ## 2026-11-27 — Full graded derivation and global geometric quotient
 
 [Derivation class](explorations/conditional-build/shiab-graded-derivation-class-2026-11-27.md) · [Evidence](lab/process/shiab-graded-derivation-class.json). Both full pointwise Spin-equivariant degree11 associative/Lie derivation classes are Riemann-silent; the weaker principal-Bianchi Einstein-response survivor remains distinct. [Global quotient](explorations/conditional-build/normal-sm-global-quotient-2026-11-27.md) supplies mu6 and geometric observation descent on the inherited fixed-Spin/free-J normal reduction. Physical selection and source interpretation remain open. No source/canon/physics-ledger verdict or new choice; two finite Lean cores cover only elementary algebra.

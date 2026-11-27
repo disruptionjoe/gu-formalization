@@ -1788,7 +1788,7 @@
     },
     "LB-CLASS": {
       "zero_delta_streak": 0,
-      "runs": 52,
+      "runs": 53,
       "status": "open"
     },
     "LB-LADDER": {
@@ -2707,7 +2707,7 @@
   ],
   "program_run_counter": {
     "since": "2026-11-09",
-    "count": 97,
+    "count": 98,
     "rule": "Every hourly run increments this in its postflight, whatever its lane. Lane C runs when count % 4 == 3 before the increment."
   },
   "working_rule": "Cells are worked at the structure level: a requirement must hold for every action in class C or for a structurally defined subfamily. No cell is worked by writing down a specific action, and no gated cell is worked by building its gate object. See CURRENT-STATE.yaml program_focus.structure_not_specifics.",
@@ -3590,6 +3590,15 @@
       "counter_after": 97,
       "lane": "LB-CLASS",
       "selection": "Complete fullgradedassociative/Lie interpretation theorem; globalSMcorollary and custodyrepair included without separate sciencecredit."
+    },
+    {
+      "date": "2026-11-27",
+      "authority": "joe_direct_chat_2026_11_27_h",
+      "item": "shiab-bianchi-companion-class",
+      "counter_before": 97,
+      "counter_after": 98,
+      "lane": "LB-CLASS",
+      "selection": "Whole companion classification, actual-germ exclusion and positive wedge survivor in one science run."
     }
   ],
   "directed_lc_carry_2026_11_24_b": {
@@ -5399,7 +5408,12 @@
           "lab/process/shiab-graded-derivation-class.json"
         ],
         "latest_constraint": "Every pointwise full-Spin exterior-degree11 derivation of the complete matrix-valued exterior algebra, associative or graded-Lie, is one of two invariant inner channels. Both annihilate algebraic Riemann spin curvature, although nonzero combinations act nontrivially on general adjoint curvature. The nonzero-Einstein principal-Bianchi survivor therefore cannot extend to this full derivation suite; no Euler/Hessian assumption is used.",
-        "structural_choices": "FullEnd128 or Liegl128; degree11exteriorgrading; pointwisefullSpin; no new action or physicschoice."
+        "structural_choices": "FullEnd128 or Liegl128; degree11exteriorgrading; pointwisefullSpin; no new action or physicschoice.",
+        "companion_followthrough": {
+          "ref": "explorations/conditional-build/shiab-bianchi-companion-class-2026-11-27.md",
+          "constraint": "All algebraic ordinary Bianchi-symbol companion pairs are coefficient-linear right-wedge pairs. The selected displayed comm/symi/symi map fails on an actual full-unitary connection germ with identically zero Bianchi residual. A bare anticommutator with Hodge-dual Phi3 supplies a real primary-minus companion pair with nonzero ambient Einstein response.",
+          "retained_limit": "Full derivation exclusion remains; one-square companions form a different category with a Riemann-responsive survivor. Existing fixed-Euler exclusion still applies in its own architecture."
+        }
       },
       {
         "question": "Is a global normal SM quotient and geometric observation still wholly unbuilt?",
@@ -5416,6 +5430,25 @@
         ],
         "latest_constraint": "The owned prescribed-Spin normal H reduction is globally (SU3 x SU2 x U1)/mu6, and the simultaneous geometric form-plus-spin q descends on its associated bundles. This closes the geometric existence/descent condition for the constructed free-J_P reduction, not fixed-J compatibility, connection/vacuum selection or the physical gauge/current quotient.",
         "structural_choices": "Geometric H reduction is available; choosing it physically remains unresolved."
+      },
+      {
+        "question": "Does full-adjoint Bianchi companion compatibility prohibit Riemann response?",
+        "premise_status": "Declared ordinary symbol square, not source-required; invariant Phi3 and coefficient products are source-compatible ingredients",
+        "source_claim_refs": [
+          "lab/sources/source-claim-register.yaml#SC-OP-01",
+          "lab/sources/source-claim-register.yaml#SC-OP-02",
+          "lab/sources/source-claim-register.yaml#SC-OP-03"
+        ],
+        "source_bridge": {
+          "status": "conditional",
+          "reason": "Source conditional derivation language and degree grammar do not require this universal adjoint-valued exterior square or identify it with the spinor/somatic two-connection cancellation. Source Phi3/product ingredients permit comparison, not selection of the positive map."
+        },
+        "evidence": [
+          "explorations/conditional-build/shiab-bianchi-companion-class-2026-11-27.md",
+          "lab/process/shiab-bianchi-companion-class.json"
+        ],
+        "latest_constraint": "All algebraic ordinary Bianchi-symbol companion pairs are coefficient-linear right-wedge pairs. The selected displayed comm/symi/symi map fails on an actual full-unitary connection germ with identically zero Bianchi residual. A bare anticommutator with Hodge-dual Phi3 supplies a real primary-minus companion pair with nonzero ambient Einstein response.",
+        "structural_choices": "No action or physical choice added; positive map only tests the companion category, with original endpoint exclusion retained."
       }
     ],
     "shared_prerequisites": [
@@ -5498,9 +5531,10 @@
           "Derivation-based rolled curvature cancellation",
           "Nonzero direct Riemann response in that sameShiabsuite"
         ],
-        "scope": "Fullgraded pointwise Spin associative/Lie interpretations have zeroRiemannrestriction; weaker Bianchi and different supplied laws remain separate.",
+        "scope": "Fullgraded pointwise Spin associative/Lie interpretations have zeroRiemannrestriction; weaker Bianchi and different supplied laws remain separate. Ordinary full-adjoint companion pairs are now classified; selected displayed map is excluded, an outside-eight wedge Einstein companion survives. Actual source module/transport law remains unprovided.",
         "evidence": [
-          "explorations/conditional-build/shiab-graded-derivation-class-2026-11-27.md"
+          "explorations/conditional-build/shiab-graded-derivation-class-2026-11-27.md",
+          "explorations/conditional-build/shiab-bianchi-companion-class-2026-11-27.md"
         ]
       }
     ],
@@ -6840,5 +6874,18 @@
       "reason": "Portal01:48:59 says if shiab is a derivation; the source does not define the full algebra/product/degree suite, exterior-only grading or pointwise interpretation. These are explicit literal interpretations, not source-fixed necessities."
     },
     "next": "Use the complete literal-derivation exclusion without repeating its two channels, the old principal-Bianchi census or Riemann restriction. Any remaining source derivation route must name a different supplied algebra, total grading, module/chain identity or extra tensor; missing definitions are not viability. Global geometric mu6 descent is now a retained fit; source-selected connection/current/physical quotient remains. Compare these shared source bridges with other eligible pillars under existing cadence and VOI, without another W2 completion or Joe checkpoint."
+  },
+  "shiab_bianchi_companion_2026_11_27": {
+    "status": "internal_T1_shiab_companion_reviewed",
+    "actual_delta": "All algebraic ordinary Bianchi-symbol companion pairs are coefficient-linear right-wedge pairs. The selected displayed comm/symi/symi map fails on an actual full-unitary connection germ with identically zero Bianchi residual. A bare anticommutator with Hodge-dual Phi3 supplies a real primary-minus companion pair with nonzero ambient Einstein response.",
+    "source_bridge": {
+      "status": "conditional",
+      "reason": "Source conditional derivation language and degree grammar do not require this universal adjoint-valued exterior square or identify it with the spinor/somatic two-connection cancellation. Source Phi3/product ingredients permit comparison, not selection of the positive map."
+    },
+    "evidence": [
+      "explorations/conditional-build/shiab-bianchi-companion-class-2026-11-27.md",
+      "lab/process/shiab-bianchi-companion-class.json"
+    ],
+    "next": "Reuse the complete companion criterion and the selected-map germ; no S3 search or eight-product census under the same law. The positive wedge map survives this square only and remains excluded if put into the old exact fixed-linear Euler architecture. Actual source spinor/module carrier, outgoing symbols and moving connection/Phi laws are the remaining bridge; do not invent them or repeat the old endpoint test. Compare a newly supplied bridge discriminator with other eligible pillars under existing cadence/VOI; no Joe checkpoint."
   }
 }

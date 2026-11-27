@@ -1,0 +1,31 @@
+{
+  "schema_version": "1.0",
+  "delta_id": "GU-SHIAB-COMPANION-2026-11-27",
+  "status": "pending",
+  "base": {
+    "ledger_ref": "lab/process/conditional-physics-ledger-v0.263.json",
+    "ledger_sha256": "7c75c179c3af512084e50af19043a5d320b38e8c1e53325ee5ec2f97ad9c257b"
+  },
+  "affected_rows": [
+    "LT-GR1"
+  ],
+  "result_refs": [
+    "explorations/conditional-build/shiab-bianchi-companion-class-2026-11-27.md",
+    "explorations/conditional-build/shiab-graded-derivation-class-2026-11-27.md",
+    "explorations/conditional-build/printed-shiab-endpoint-audit-2026-11-27.md"
+  ],
+  "source_disposition": "SC-OP01 ASSERTS invariant family; SC-OP02 UNCERTAIN historical selector; SC-OP03 ASSERTS Weyl-killing/Ricci-scalar response. Ordinary full-adjoint companion law and positive map are not source-selected.",
+  "claim_ceiling": "Internal interpretation exclusion and ambient tensor-response survivor only; no physical Einstein equation, source necessity, action recovery, class-C/GU verdict or ledger trigger change.",
+  "proposed_effect": {
+    "summary": "All algebraic ordinary Bianchi-symbol companion pairs are coefficient-linear right-wedge pairs. The selected displayed comm/symi/symi map fails on an actual full-unitary connection germ with identically zero Bianchi residual. A bare anticommutator with Hodge-dual Phi3 supplies a real primary-minus companion pair with nonzero ambient Einstein response.",
+    "requested_row_changes": [
+      "Attach companion-class and positive-response evidence alongside prior fixed-Euler obstruction. Retain NEEDS and existing physical/variational/quotient requirements unchanged."
+    ]
+  },
+  "conflict_keys": [
+    "LT-GR1",
+    "GU-PRINTED-SHIAB-ENDPOINT-2026-11-27",
+    "SOURCE-DERIVATION-VS-COMPANION"
+  ],
+  "integration": null
+}
