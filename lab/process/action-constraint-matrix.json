@@ -2707,7 +2707,7 @@
   ],
   "program_run_counter": {
     "since": "2026-11-09",
-    "count": 84,
+    "count": 85,
     "rule": "Every hourly run increments this in its postflight, whatever its lane. Lane C runs when count % 4 == 3 before the increment."
   },
   "working_rule": "Cells are worked at the structure level: a requirement must hold for every action in class C or for a structurally defined subfamily. No cell is worked by writing down a specific action, and no gated cell is worked by building its gate object. See CURRENT-STATE.yaml program_focus.structure_not_specifics.",
@@ -3401,6 +3401,23 @@
       ],
       "claim_effect": "No source/physics/canon/classC/paper verdict or matrix cell/intersection/shrinkage change.",
       "cadence_note": "Directed 83 to 84 / LB-CLASS 42 to 43. Pending directed_lc_carry_2026_11_25_physical remains for the next ordinary run; no scheduler opportunity, cadence amendment or bet credit."
+    },
+    {
+      "date": "2026-11-27",
+      "authority": "joe_direct_chat_2026_11_26_continued_falsification_math20",
+      "item": "Actual one-form conservation test at coupled stationary roots and analytic branch",
+      "tier": "T1",
+      "counter_before": 84,
+      "counter_after": 85,
+      "lane": "LC-BETS",
+      "bet": "BET-COSMOLOGY",
+      "actual_delta": "Both kappa1 coupled stationary roots have certified nonzero ambient and literal-section coderivatives of the reconstructed theta. The ambient homogeneous map has rank12/kernel47; the observed map rank11/kernel48. The entire sufficiently-small nonzero inverse-kappa analytic branch fails ambient conservation first at order h3, coefficient -27/32, and observed conservation at order h, coefficient21/16. This excludes the automatic C3 implication for this action/dictionary, not GU.",
+      "evidence": [
+        "explorations/conditional-build/source-action-theta-divergence-2026-11-27.md",
+        "lab/process/source-action-theta-divergence.json"
+      ],
+      "claim_effect": "No source/physics/canon/classC/paper verdict or matrix cell/intersection/shrinkage change; no bet-wide exclusion.",
+      "cadence_note": "Ordinary LC carry47 consumed by this BET-COSMOLOGY attempt: counter84to85; cosmology runs2to3 and remaining22to21. No new guessed action/potential; LB counters unchanged. No scheduled Qwen/model credit or cadence amendment."
     }
   ],
   "directed_lc_carry_2026_11_24_b": {
@@ -3773,7 +3790,9 @@
           "explorations/conditional-build/source-action-selected-jet-2026-11-27.md",
           "lab/process/source-action-selected-jet.json",
           "explorations/conditional-build/source-action-packet-phase-2026-11-27.md",
-          "lab/process/source-action-packet-phase.json"
+          "lab/process/source-action-packet-phase.json",
+          "explorations/conditional-build/source-action-theta-divergence-2026-11-27.md",
+          "lab/process/source-action-theta-divergence.json"
         ],
         "choices": "Historical original choices are retained below; current held fermion repair is SE=-1/2 (SE0 superseded), kappa1 with two unselected roots. Typed candidate_choice_budget separates core/completion/pending/comparator/parked choices.",
         "wave2_update": {
@@ -4881,6 +4900,48 @@
           "source_status": {
             "status": "absent",
             "reason": "Source four-field/observation grammar does not require the fixed CK band, tube, physical state domain or an upstairs robust Cauchy/Green prescription. Normal current derivatives are not automatically literal observed signals."
+          },
+          "cross_workstream_selection_completed": "lab/process/source-action-theta-divergence.json"
+        },
+        "theta_conservation_followthrough": {
+          "state": "Both kappa1 coupled stationary roots have certified nonzero ambient and literal-section coderivatives of the reconstructed theta. The ambient homogeneous map has rank12/kernel47; the observed map rank11/kernel48. The entire sufficiently-small nonzero inverse-kappa analytic branch fails ambient conservation first at order h3, coefficient -27/32, and observed conservation at order h, coefficient21/16. This excludes the automatic C3 implication for this action/dictionary, not GU.",
+          "next": [
+            {
+              "id": "source_endpoint_observation_comparison",
+              "status": "ready_for_bounded_owner_and_receiver_check",
+              "target": "LB-CLASS",
+              "tier": "T2",
+              "task": "Compare the actual stationary Euler equation with the source-shaped endpoint residual using the now-typed literal bosonic one-form contraction, keeping equation owners distinct. First authenticate the endpoint/glyph dictionary and existing coverage. If the exact same held endpoint is owned, evaluate its full residual and section contraction at the two certified roots and first relevant analytic coefficient. Raise the degree13 endpoint with the ambient Hodge/pairing before literal one-form pullback; direct degree13 section pullback vanishes dimensionally. Do not repeat the known off-shell Helmholtz defect or use fermionic F/R as a bosonic decoder. If the source endpoint is not authenticated, record that exact scope and select another eligible target.",
+              "expected_delta": "A new on-shell, typed observation comparison, or a precise source-owner mismatch; no new action or unproved physical stress map.",
+              "class_covered": "Held W2/K95 local stationary family; source endpoint dictionary must remain explicit. Not all GU realizations.",
+              "source_bridge": "Conditional source-shaped operator/observation; physical necessity and source uniqueness unproved.",
+              "shared_prerequisite": "Existing S,K,N, root balls, source glyph, actual literal adjoint-one-form pullback and analytic branch. No root search, full inverse or new selector.",
+              "remaining_cost": "Bounded exact source/equation-owner audit plus sparse endpoint receivers only if they are genuinely uncovered.",
+              "strongest_alternative": "Natural non-scalar Helmholtz multipliers remain unselected and unclassified; ordinary full-CMB scalar route still lacks native bridge and actual transfer inputs.",
+              "kill_condition": "Only the named action-to-endpoint/readout implication is at stake; equation mismatch alone is not a source-wide impossibility."
+            },
+            {
+              "id": "physical_cosmological_conservation",
+              "status": "blocked_on_exact_missing_input",
+              "target": "BET-COSMOLOGY",
+              "tier": "T2",
+              "task": "Transport a source-selected differential identity to an action-owned observed rank-two stress and cosmological evolution. A coderivative-free adjoint one-form is not already such a stress tensor.",
+              "missing_datum": "Source-selected action/identity/readout and admissible cosmological state/domain.",
+              "revival_condition": "Actual source or accepted construction supplies the typed identity and observed tensor; do not install a new constraint merely to repair these roots."
+            }
+          ],
+          "consumed": [
+            "Automatic ambient coderivative conservation on both held kappa1 stationary roots",
+            "Automatic ambient conservation on the punctured convergent near-h-zero branch",
+            "Using B versus B+sT as a repair of the self-codifferential",
+            "Inferring conservation after literal observation from ambient conservation",
+            "Inferring the full branch identity from its first two vanishing ambient coefficients",
+            "Another scalar background/BAO fit as a substitute for the source one-form identity"
+          ],
+          "choice_budget_delta": 0,
+          "source_status": {
+            "status": "conditional",
+            "reason": "The source prints a distortion one-form and demands an automatic differential identity, but does not uniquely select this action, K95 realization, theta dictionary or particular coderivative. The displayed dictionary is exact within the reconstructed candidate; a 4D Einstein stress/readout bridge remains absent."
           }
         }
       }
@@ -6179,11 +6240,16 @@
     }
   },
   "directed_lc_carry_2026_11_25_physical": {
-    "status": "pending",
+    "status": "consumed",
     "due_counter": 47,
     "authority": "joe_direct_chat_physical_dynamics_go_2026_11_25",
-    "next_regular_run": "Preserve the due LC-BETS opportunity on the next ordinary run; recurring rule2 unchanged.",
-    "bet_attempt_credited": false,
-    "evidence": "lab/process/source-action-physical-dynamics.json"
+    "next_regular_run": "Carry consumed; unchanged recurring selection rules apply.",
+    "bet_attempt_credited": true,
+    "evidence": "lab/process/source-action-physical-dynamics.json",
+    "consumed_by": "RUN-20261127-gu-theta-divergence",
+    "consumed_bet": "BET-COSMOLOGY",
+    "counter_before": 84,
+    "counter_after": 85,
+    "consumed_evidence": "lab/process/source-action-theta-divergence.json"
   }
 }

@@ -1348,7 +1348,7 @@
       "selection_note": "Candidate construction/diagnostic only unless its stated structural family and source bridge satisfy current program_focus. A reserve is not scheduled work."
     }
   ],
-  "priority_effect": "Local output transfers but fixed-family polynomial forcing is excluded. This receiver path is consumed; missing source/domain prevents automatic forced-response succession. Existing cross-workstream rules/cadence remain. No policy/choice change.",
+  "priority_effect": "Actual theta-conservation implication fails at both known roots and punctured analytic branch; no repair installed. Due LC carry consumed. Bounded equation-owner/literal-bosonic-observation comparison is next to assess under unchanged rules.",
   "evidence": [
     "explorations/conditional-build/source-action-engineering-wave-2026-11-25.md",
     "lab/process/source-action-engineering-wave.json",
@@ -2412,6 +2412,46 @@
       "Projection of the full CK current to the triangular scalar ansatz as an automatically owned forced problem"
     ],
     "counterfactual_proposal": "lab/process/source-action-packet-phase.json#counterfactual_proposal",
+    "counterfactual_status": "Nov26g proposal-only; no suite/governance execution",
+    "cross_workstream_selection_completed_by": "lab/process/source-action-theta-divergence.json"
+  },
+  "theta_divergence_2026_11_27": {
+    "report": "explorations/conditional-build/source-action-theta-divergence-2026-11-27.md",
+    "evidence": "lab/process/source-action-theta-divergence.json",
+    "actual_delta": "Both kappa1 coupled stationary roots have certified nonzero ambient and literal-section coderivatives of the reconstructed theta. The ambient homogeneous map has rank12/kernel47; the observed map rank11/kernel48. The entire sufficiently-small nonzero inverse-kappa analytic branch fails ambient conservation first at order h3, coefficient -27/32, and observed conservation at order h, coefficient21/16. This excludes the automatic C3 implication for this action/dictionary, not GU.",
+    "next_directed_worksets": [
+      {
+        "id": "source_endpoint_observation_comparison",
+        "status": "ready_for_bounded_owner_and_receiver_check",
+        "target": "LB-CLASS",
+        "tier": "T2",
+        "task": "Compare the actual stationary Euler equation with the source-shaped endpoint residual using the now-typed literal bosonic one-form contraction, keeping equation owners distinct. First authenticate the endpoint/glyph dictionary and existing coverage. If the exact same held endpoint is owned, evaluate its full residual and section contraction at the two certified roots and first relevant analytic coefficient. Raise the degree13 endpoint with the ambient Hodge/pairing before literal one-form pullback; direct degree13 section pullback vanishes dimensionally. Do not repeat the known off-shell Helmholtz defect or use fermionic F/R as a bosonic decoder. If the source endpoint is not authenticated, record that exact scope and select another eligible target.",
+        "expected_delta": "A new on-shell, typed observation comparison, or a precise source-owner mismatch; no new action or unproved physical stress map.",
+        "class_covered": "Held W2/K95 local stationary family; source endpoint dictionary must remain explicit. Not all GU realizations.",
+        "source_bridge": "Conditional source-shaped operator/observation; physical necessity and source uniqueness unproved.",
+        "shared_prerequisite": "Existing S,K,N, root balls, source glyph, actual literal adjoint-one-form pullback and analytic branch. No root search, full inverse or new selector.",
+        "remaining_cost": "Bounded exact source/equation-owner audit plus sparse endpoint receivers only if they are genuinely uncovered.",
+        "strongest_alternative": "Natural non-scalar Helmholtz multipliers remain unselected and unclassified; ordinary full-CMB scalar route still lacks native bridge and actual transfer inputs.",
+        "kill_condition": "Only the named action-to-endpoint/readout implication is at stake; equation mismatch alone is not a source-wide impossibility."
+      },
+      {
+        "id": "physical_cosmological_conservation",
+        "status": "blocked_on_exact_missing_input",
+        "target": "BET-COSMOLOGY",
+        "tier": "T2",
+        "task": "Transport a source-selected differential identity to an action-owned observed rank-two stress and cosmological evolution. A coderivative-free adjoint one-form is not already such a stress tensor.",
+        "missing_datum": "Source-selected action/identity/readout and admissible cosmological state/domain.",
+        "revival_condition": "Actual source or accepted construction supplies the typed identity and observed tensor; do not install a new constraint merely to repair these roots."
+      }
+    ],
+    "consumed": [
+      "Automatic ambient coderivative conservation on both held kappa1 stationary roots",
+      "Automatic ambient conservation on the punctured convergent near-h-zero branch",
+      "Using B versus B+sT as a repair of the self-codifferential",
+      "Inferring conservation after literal observation from ambient conservation",
+      "Inferring the full branch identity from its first two vanishing ambient coefficients",
+      "Another scalar background/BAO fit as a substitute for the source one-form identity"
+    ],
     "counterfactual_status": "Nov26g proposal-only; no suite/governance execution"
   }
 }

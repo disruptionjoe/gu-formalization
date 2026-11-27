@@ -16,6 +16,12 @@ Do not add "Current follow-through" sections or "Historical predecessor" stacks 
 matrix or bet file. The retired follow-through chain and banner stack are kept at the end of this file under
 "Archived steering history".
 
+## Candidate theta-conservation obstruction (2026-11-27)
+
+Both kappa1 coupled stationary roots have certified nonzero ambient and literal-section coderivatives of the reconstructed theta. The ambient homogeneous map has rank12/kernel47; the observed map rank11/kernel48. The entire sufficiently-small nonzero inverse-kappa analytic branch fails ambient conservation first at order h3, coefficient -27/32, and observed conservation at order h, coefficient21/16. This excludes the automatic C3 implication for this action/dictionary, not GU.
+
+[Result](explorations/conditional-build/source-action-theta-divergence-2026-11-27.md) · [Evidence](lab/process/source-action-theta-divergence.json).
+
 ## Packet visibility and weak source barrier (2026-11-27)
 
 Plateau graph packets retain nonzero local normal-jet output. For every fixed bounded-band uniformly smooth CK completion, all bounded-charge coherent bulk currents pair with logarithmic-window high-normal-frequency packets at O(k^-N) for every N, including fixed finite-order graph pullbacks. Polynomial-size coupling requires superpolynomial phase-charge cost. No exact-zero, fixed-time stability, physical or GU verdict.

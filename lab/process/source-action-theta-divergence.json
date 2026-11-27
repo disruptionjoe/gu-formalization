@@ -1,0 +1,329 @@
+{
+  "basis_revision": "aed0c19d5dec9bc4e283a14fa6c3a715614dbaca",
+  "authority": "joe_direct_chat_2026_11_26_continued_falsification_math20",
+  "status": "internal_T1_theta_divergence_reviewed",
+  "program_target": "BET-COSMOLOGY",
+  "tier": "T1",
+  "actual_delta": "Both kappa1 coupled stationary roots have certified nonzero ambient and literal-section coderivatives of the reconstructed theta. The ambient homogeneous map has rank12/kernel47; the observed map rank11/kernel48. The entire sufficiently-small nonzero inverse-kappa analytic branch fails ambient conservation first at order h3, coefficient -27/32, and observed conservation at order h, coefficient21/16. This excludes the automatic C3 implication for this action/dictionary, not GU.",
+  "class_covered": "Fixed W2/K95 full-U candidate with its source-shaped theta=T dictionary; complete owned59-dimensional symmetry-fixed homogeneous family and both certified kappa1 roots; actual convergent near-inverse-kappa-zero branch. The affine-connection identity and homogeneous observation defect hold independently of the59 restriction. No classification of all stationary roots, action classC or source-required physical domain.",
+  "premises": [
+    "lab/sources/source-claim-register.yaml#SC-COS-50",
+    "lab/sources/source-claim-register.yaml#SC-COS-51",
+    "lab/sources/source-claim-register.yaml#SC-COS-52",
+    "lab/sources/weinstein-gu-primary-source-pack-2026-07-30.md",
+    "explorations/conditional-build/source-action-wave2-construction-2026-11-25.md",
+    "explorations/conditional-build/source-action-homogeneous-analytic-vacuum-2026-11-25.md",
+    "explorations/conditional-build/source-action-dynamics-and-continuation-2026-11-25.md",
+    "lab/process/source-action-deep-coefficients.json"
+  ],
+  "source_bridge": {
+    "status": "conditional",
+    "reason": "The source prints a distortion one-form and demands an automatic differential identity, but does not uniquely select this action, K95 realization, theta dictionary or particular coderivative. The displayed dictionary is exact within the reconstructed candidate; a 4D Einstein stress/readout bridge remains absent."
+  },
+  "weakest_unproved_link": "Source selection of this coderivative/action dictionary and transport to observed Einstein stress; classC representativeness unproved.",
+  "claim_effect": "No source/physics/canon/classC/paper verdict or matrix cell/intersection/shrinkage change; no bet-wide exclusion.",
+  "three_state": {
+    "established": [
+      "Ambient map rank12/kernel47 on the full declared59 family",
+      "Observed map rank11/kernel48 on that family",
+      "Both actual coupled stationary roots have nonzero ambient and observed coderivatives",
+      "D_(B+sT)T=DBT for every scalar function s",
+      "Observed-minus-ambient coderivative equals T4/4 on invariant fields",
+      "First two ambient branch coefficients vanish; third is exactly\u221227gamma4/32",
+      "Owned analytic convergence gives failure on every sufficiently small nonzero h"
+    ],
+    "ruled_out": [
+      "Universal automatic C3 coderivative conservation for the held action and theta=T dictionary",
+      "Automatic coderivative-conservation descent under literal section contraction"
+    ],
+    "not_modeled_undetermined": [
+      "All stationary roots or globally boundary-admitted states",
+      "A source-selected alternative differential identity",
+      "Observed Einstein stress, cosmological history and DESI prediction",
+      "GU falsification"
+    ]
+  },
+  "consumed": [
+    "Automatic ambient coderivative conservation on both held kappa1 stationary roots",
+    "Automatic ambient conservation on the punctured convergent near-h-zero branch",
+    "Using B versus B+sT as a repair of the self-codifferential",
+    "Inferring conservation after literal observation from ambient conservation",
+    "Inferring the full branch identity from its first two vanishing ambient coefficients",
+    "Another scalar background/BAO fit as a substitute for the source one-form identity"
+  ],
+  "next_directed_worksets": [
+    {
+      "id": "source_endpoint_observation_comparison",
+      "status": "ready_for_bounded_owner_and_receiver_check",
+      "target": "LB-CLASS",
+      "tier": "T2",
+      "task": "Compare the actual stationary Euler equation with the source-shaped endpoint residual using the now-typed literal bosonic one-form contraction, keeping equation owners distinct. First authenticate the endpoint/glyph dictionary and existing coverage. If the exact same held endpoint is owned, evaluate its full residual and section contraction at the two certified roots and first relevant analytic coefficient. Raise the degree13 endpoint with the ambient Hodge/pairing before literal one-form pullback; direct degree13 section pullback vanishes dimensionally. Do not repeat the known off-shell Helmholtz defect or use fermionic F/R as a bosonic decoder. If the source endpoint is not authenticated, record that exact scope and select another eligible target.",
+      "expected_delta": "A new on-shell, typed observation comparison, or a precise source-owner mismatch; no new action or unproved physical stress map.",
+      "class_covered": "Held W2/K95 local stationary family; source endpoint dictionary must remain explicit. Not all GU realizations.",
+      "source_bridge": "Conditional source-shaped operator/observation; physical necessity and source uniqueness unproved.",
+      "shared_prerequisite": "Existing S,K,N, root balls, source glyph, actual literal adjoint-one-form pullback and analytic branch. No root search, full inverse or new selector.",
+      "remaining_cost": "Bounded exact source/equation-owner audit plus sparse endpoint receivers only if they are genuinely uncovered.",
+      "strongest_alternative": "Natural non-scalar Helmholtz multipliers remain unselected and unclassified; ordinary full-CMB scalar route still lacks native bridge and actual transfer inputs.",
+      "kill_condition": "Only the named action-to-endpoint/readout implication is at stake; equation mismatch alone is not a source-wide impossibility."
+    },
+    {
+      "id": "physical_cosmological_conservation",
+      "status": "blocked_on_exact_missing_input",
+      "target": "BET-COSMOLOGY",
+      "tier": "T2",
+      "task": "Transport a source-selected differential identity to an action-owned observed rank-two stress and cosmological evolution. A coderivative-free adjoint one-form is not already such a stress tensor.",
+      "missing_datum": "Source-selected action/identity/readout and admissible cosmological state/domain.",
+      "revival_condition": "Actual source or accepted construction supplies the typed identity and observed tensor; do not install a new constraint merely to repair these roots."
+    }
+  ],
+  "counterfactual_proposal": {
+    "status": "proposal_only_not_executed",
+    "authority": "joe_direct_chat_2026_11_26_g",
+    "ranked_item_numbers": [
+      1,
+      6,
+      2,
+      3,
+      7,
+      5,
+      4
+    ],
+    "basis": "Qualitative expected time saved at the actual consistency bottleneck; no measured forecasts or success probabilities.",
+    "ranked": [
+      {
+        "item": 1,
+        "expected_savings": "highest immediate",
+        "proposal": "Map queued outcomes to changed action, claim, bound or certificate. Consume tasks already covered by a theorem. Same next action alone is not grounds to skip useful evidence."
+      },
+      {
+        "item": 6,
+        "expected_savings": "high immediate",
+        "proposal": "Separate necessary source consequences from candidate-conditional desiderata and order by test cost. Connectivity to these chosen roots and positive physical energy are not silently made source premises."
+      },
+      {
+        "item": 2,
+        "expected_savings": "medium-high if targeted",
+        "proposal": "Audit dependencies of the actual live operator/domain question first; the old six first-consistency channels are consumed. Defer all ten-family flips; one-at-a-time survival does not prove joint robustness. Plus/minus adjoint remains a comparator unless sourced."
+      },
+      {
+        "item": 3,
+        "expected_savings": "high before a physical-ghost claim, lower for current algebraic range",
+        "proposal": "One matched control for the exact inference first. Distinguish constrained energy from BRST physical ghosts; conformal-gravity expectation requires a stated prescription."
+      },
+      {
+        "item": 7,
+        "expected_savings": "medium later",
+        "proposal": "Use a matched four-dimensional comparator only for a specific observation-related obstruction, preserving relevant structures."
+      },
+      {
+        "item": 5,
+        "expected_savings": "low immediate",
+        "proposal": "Euclidean base changes the real form and physical-time question; use only if it distinguishes a named sign mechanism."
+      },
+      {
+        "item": 4,
+        "expected_savings": "lowest immediate",
+        "proposal": "Toy dimensions alter branching and source counts; use if a structural dimension theorem is otherwise unavailable."
+      }
+    ],
+    "recommendation": "Approve lightweight items1/6 and targeted dependencies; reserve comparator execution for a specific diagnostic question. Broad suites remain deferred proposals, not new stop rules.",
+    "current_theorem_effect": "Actual one-form conservation test runs under continuing science and existing LC cadence. Nov26g suites/governance remain proposal-only; no new value-of-information gate.",
+    "sensitivity_scope_correction": {
+      "status": "proposal_grounded_in_owned_quadratic_autonomy_not_executed_sweep",
+      "reason": "The ten families are not ten independent switches in the present local operator. Geometry, shiab recipe and coupling enter the held bosonic map. The zero-matter imaginary quadratic block is autonomous from the fermion recipe and the diagnostic matter lift/band/dispersion/dual/tube choices. Variational and physical domains still affect admissibility and propagation, so local algebraic independence is not physical independence.",
+      "evidence": [
+        "lab/process/source-action-q7-propagation.json#coupled_quadratic_autonomy",
+        "lab/process/action-constraint-matrix.json#source_relevance_assumption_view.candidate_choice_budget"
+      ],
+      "adjoint_caution": "A plus/minus adjoint flip changes the stated construction unless an authenticated source permits it; label it a comparator, not a new GU choice."
+    },
+    "current_queue_outcome_map": {
+      "weak_response": "Same-germ local current is now certified. Do not repeat generic visibility; Ward/boundary, unstable-mode projection and physical admission are distinct next burdens.",
+      "path_continuation": "Connection to the large-kappa branch would add a scoped candidate result; a numerical turn is no exclusion. Neither alone selects a physical state, and source necessity of that path is unproved.",
+      "spin4_cokernel": "Complete owned ranges and whole first consistency consume old Q source/nonmembership tests; fullM now consumes the remaining auxiliary regularity question.",
+      "BRST": "Ordinary finite local arbitrary-function gauge removal is excluded in the autonomous block after full regularity. Physical cohomology still requires an authentic action charge and common invariant domain; a guessed ghost algebra is not that test."
+    }
+  },
+  "quick_math20": {
+    "method": "One compact description pass including category and number theory, with concrete author and specialist/hostile reviews, not one agent per persona.",
+    "lenses": [
+      {
+        "index": 1,
+        "lens": "Category theory",
+        "decision_delta": "Distinguish the source dictionary, ambient coderivative and literal-section coderivative."
+      },
+      {
+        "index": 2,
+        "lens": "Number theory",
+        "decision_delta": "Use exact rational bounds rather than rounded root residuals."
+      },
+      {
+        "index": 3,
+        "lens": "Differential geometry",
+        "decision_delta": "Retain Nomizu form connection and nonunimodular divergence."
+      },
+      {
+        "index": 4,
+        "lens": "Representation theory",
+        "decision_delta": "Compute the whole owned59 map, not a selected component ansatz."
+      },
+      {
+        "index": 5,
+        "lens": "Krein theory",
+        "decision_delta": "Tensor nonzero needs no positive physical norm."
+      },
+      {
+        "index": 6,
+        "lens": "Gauge theory",
+        "decision_delta": "Compensator redundancy is not automatic theta conservation."
+      },
+      {
+        "index": 7,
+        "lens": "Variational calculus",
+        "decision_delta": "Use actual coupled stationary fields, not a printed residual as the Euler equation."
+      },
+      {
+        "index": 8,
+        "lens": "PDE",
+        "decision_delta": "One stationary witness disproves a universal implication, but zero witnesses alone would not prove it."
+      },
+      {
+        "index": 9,
+        "lens": "Microlocal analysis",
+        "decision_delta": "The full lower-order geometry matters to conservation."
+      },
+      {
+        "index": 10,
+        "lens": "Harmonic analysis",
+        "decision_delta": "Local coderivative test needs no global L2 assumption."
+      },
+      {
+        "index": 11,
+        "lens": "Noncommutative algebra",
+        "decision_delta": "Symmetric contraction cancels self-commutators even for B+s(x)T."
+      },
+      {
+        "index": 12,
+        "lens": "Topology",
+        "decision_delta": "Boundary integer remains distinct from this local conservation obstruction."
+      },
+      {
+        "index": 13,
+        "lens": "Symplectic geometry",
+        "decision_delta": "Gauge current and Einstein stress have different types."
+      },
+      {
+        "index": 14,
+        "lens": "Control theory",
+        "decision_delta": "Test a necessary interpretation before fitting its response."
+      },
+      {
+        "index": 15,
+        "lens": "Numerical analysis",
+        "decision_delta": "Reuse certified balls with exact linear receiver errors."
+      },
+      {
+        "index": 16,
+        "lens": "Computational algebra",
+        "decision_delta": "Sparse maps and polynomial composition avoid new inverses."
+      },
+      {
+        "index": 17,
+        "lens": "Mathematical physics",
+        "decision_delta": "A4D intrinsic spin connection cannot replace the restricted ambient connection."
+      },
+      {
+        "index": 18,
+        "lens": "Inverse problems",
+        "decision_delta": "Keep reconstructed dictionary choices visible."
+      },
+      {
+        "index": 19,
+        "lens": "Nonlinear dynamics",
+        "decision_delta": "First nonzero coefficient plus owned convergence excludes a punctured branch."
+      },
+      {
+        "index": 20,
+        "lens": "Proof engineering",
+        "decision_delta": "Finite Lean cores remain separate from native analytic/source proof."
+      }
+    ]
+  },
+  "choice_budget": {
+    "families": 10,
+    "obligation_bundles": 4,
+    "net": 6,
+    "source_selected_predictions": 0,
+    "delta": 0,
+    "new_unmet_interpretation": "Automatic reconstructed dark-energy coderivative conservation fails on the known stationary families; no added repair."
+  },
+  "accounting": "Ordinary LC carry47 consumed by this BET-COSMOLOGY attempt: counter84to85; cosmology runs2to3 and remaining22to21. No new guessed action/potential; LB counters unchanged. No scheduled Qwen/model credit or cadence amendment.",
+  "verification": {
+    "native_gates": {
+      "program_focus_audit": "PASS",
+      "typed_carrier_declaration_audit": "PASS",
+      "kill_target_claim_audit": "PASS",
+      "frontmatter_status_schema_audit": "PASS",
+      "source_native_comparator_routing_audit": "PASS",
+      "lean_certificate_surface_audit": "PASS",
+      "current_state_absolute_currency_audit": "PASS"
+    },
+    "native_certificate": "lab/process/source-action-theta-divergence-certificates.json",
+    "independent_reviews": "lab/process/hostile-reviews/2026-11-27-source-action-theta-divergence-review.md",
+    "lean": {
+      "command": "lake env lean -j1 /private/tmp/gu-theta-divergence-wt-20261127/Lean/GUFormalization/ThetaDivergence.lean",
+      "cwd": "/Users/joe/Brain/CapacityOS/repos/public/gu-formalization",
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": "",
+      "lemmas": 5,
+      "source_sha256": "674e527a145394ae1bac8c02ace38cd1fee21e252812e71ae238b92d01441872",
+      "whole_project_build": false,
+      "placeholders": false,
+      "scope": "Finite algebra, interval and leading-power cores only; native geometry, root proof and analytic/source identification separately verified/reviewed."
+    },
+    "replay": {
+      "D_K_nonzero_columns": 47,
+      "D_N_nonzero_pairs": 1486,
+      "D_S_zero": true,
+      "basis_columns_recomputed_twice": 59,
+      "certificate_sha256": "2aa58c4c4c507b22104c42fba326776b035828294397d2d0591668d5e0a46091",
+      "kernel_dimension": 47,
+      "mode": "verify",
+      "observed_kernel_dimension": 48,
+      "observed_rank": 11,
+      "passed": true,
+      "probe_sha256": "93fb6c4fbe5ea51ab78ddea9f1e344e0894646e390da76a19567ced7f577c038",
+      "rank": 12,
+      "root_contraction_certificates_recomputed": 2,
+      "root_divergence_nonzero": [
+        true,
+        true
+      ],
+      "root_observed_divergence_nonzero": [
+        true,
+        true
+      ],
+      "seconds": 1.6740811252966523,
+      "small_h_ambient_leading": {
+        "Clifford_mask": 16,
+        "coefficient": "-27/32",
+        "order": 3
+      },
+      "small_h_observed_leading": {
+        "Clifford_mask": 16,
+        "coefficient": "21/16",
+        "order": 1
+      }
+    },
+    "verification_receipt_sha256": "5e2153deadf92f182641ed929e8455170efed38daff5ca8a304a37e18ba5dc46",
+    "protected_surfaces": "program_focus,cells,intersections,shrinkage and choice budget unchanged"
+  },
+  "current_sha256": {
+    "explorations/conditional-build/source-action-theta-divergence-2026-11-27.md": "db8e440623173743596a83bef6f9db53e702246332bf59e299dea2e394f7dcdf",
+    "tests/program-focus/source_action_theta_divergence_probe.py": "93fb6c4fbe5ea51ab78ddea9f1e344e0894646e390da76a19567ced7f577c038",
+    "lab/process/source-action-theta-divergence-certificates.json": "2aa58c4c4c507b22104c42fba326776b035828294397d2d0591668d5e0a46091",
+    "lab/process/hostile-reviews/2026-11-27-source-action-theta-divergence-review.md": "c4af380704f9de0161503085d35abe0e4643a41f168bd09022566afaa6ec2dd3",
+    "Lean/GUFormalization/ThetaDivergence.lean": "674e527a145394ae1bac8c02ace38cd1fee21e252812e71ae238b92d01441872"
+  }
+}

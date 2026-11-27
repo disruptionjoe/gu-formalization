@@ -460,3 +460,15 @@ Selection: directed falsification; matched normal-current-jet class, source nece
 - **Continuation:** this workset is consumed. Existing cross-workstream ranking and retained ordinary LC carry remain in force; no new receiver census, governance rule, pause or approval checkpoint follows. A concrete mathematical successor is not falsely labeled ready before its prerequisites are identified.
 
 Selection: directed falsification, whole fixed-lift class; physical source necessity absent. Existing graph/CK inputs reused; light verifier and written proof replace forced simulation. Directed 83 to 84 / LB-CLASS 42 to 43. Pending directed_lc_carry_2026_11_25_physical remains for the next ordinary run; no scheduler opportunity, cadence amendment or bet credit. Choice budget unchanged. Nov26g remains proposal-only.
+
+## Current result: candidate theta conservation (2026-11-27)
+
+[Result](../../../explorations/conditional-build/source-action-theta-divergence-2026-11-27.md) · [Evidence](../source-action-theta-divergence.json).
+
+- **Done:** exact native one-form coderivative on the full owned59 carrier: ambient rank12/kernel47, literal-section rank11/kernel48. Both coupled stationary roots have certified nonzero components.
+- **Done:** B+s(x)T cannot change the self-codifferential; ambient-to-observed difference is T4/4 on invariant fields. No4D stress identification follows.
+- **Excluded:** automatic reconstructed C3 conservation along the sufficiently-small nonzero inverse-kappa analytic branch: first two ambient orders vanish, third is−27gamma4/32; observed leading term21gamma4/16. No numeric radius or branch connection to kappa1 assumed.
+- **Ready for bounded ownership/coverage check:** compare source-shaped endpoint and actual Euler residual through the now-typed bosonic literal contraction only if their exact dictionaries are authenticated. No fermionic F/R, repeated off-shell Helmholtz witness or fitted repair.
+- **Still missing:** source-selected physical identity, action-owned Einstein stress and admitted cosmological state. This does not authorize a global stop or a new choice.
+
+Ordinary LC carry47 consumed by this BET-COSMOLOGY attempt: counter84to85; cosmology runs2to3 and remaining22to21. No new guessed action/potential; LB counters unchanged. No scheduled Qwen/model credit or cadence amendment. Policy/source/physics/canon/classC verdicts and choicebudget unchanged.

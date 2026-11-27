@@ -1,7 +1,7 @@
 schema_version: '1.0'
 repository: observerse-research-program
 branch: main
-revision_basis: 98495026e4142a2121c7aa8b3497d60d6dbe2fb4
+revision_basis: aed0c19d5dec9bc4e283a14fa6c3a715614dbaca
 program_focus:
   version: 2026-11-25-v1
   authority: joe_direct_chat_2026_11_25_five_process_improvements_approved
@@ -140,6 +140,74 @@ program_focus:
     covered; source relevance separately from mathematical breadth; shared prerequisite if any; remaining
     cost; strongest eligible alternative. A blocked high-value target is not an eligible alternative without
     its missing input. Reuse completed theorems and compare only their uncovered successors.'
+source_action_theta_divergence_2026_11_27:
+  authority: joe_direct_chat_2026_11_26_continued_falsification_math20
+  basis_revision: aed0c19d5dec9bc4e283a14fa6c3a715614dbaca
+  status: internal_T1_theta_divergence_reviewed
+  actual_delta: Both kappa1 coupled stationary roots have certified nonzero ambient and literal-section
+    coderivatives of the reconstructed theta. The ambient homogeneous map has rank12/kernel47; the observed
+    map rank11/kernel48. The entire sufficiently-small nonzero inverse-kappa analytic branch fails ambient
+    conservation first at order h3, coefficient -27/32, and observed conservation at order h, coefficient21/16.
+    This excludes the automatic C3 implication for this action/dictionary, not GU.
+  evidence:
+  - explorations/conditional-build/source-action-theta-divergence-2026-11-27.md
+  - lab/process/source-action-theta-divergence.json
+  - lab/process/source-action-theta-divergence-certificates.json
+  - lab/process/hostile-reviews/2026-11-27-source-action-theta-divergence-review.md
+  source_bridge:
+    status: conditional
+    reason: The source prints a distortion one-form and demands an automatic differential identity, but
+      does not uniquely select this action, K95 realization, theta dictionary or particular coderivative.
+      The displayed dictionary is exact within the reconstructed candidate; a 4D Einstein stress/readout
+      bridge remains absent.
+  continuation:
+  - id: source_endpoint_observation_comparison
+    status: ready_for_bounded_owner_and_receiver_check
+    target: LB-CLASS
+    tier: T2
+    task: Compare the actual stationary Euler equation with the source-shaped endpoint residual using
+      the now-typed literal bosonic one-form contraction, keeping equation owners distinct. First authenticate
+      the endpoint/glyph dictionary and existing coverage. If the exact same held endpoint is owned, evaluate
+      its raised adjoint-one-form residual and literal section contraction at the two certified roots
+      and first relevant analytic coefficient. Direct degree13 section pullback is not the test. Do not repeat the known off-shell Helmholtz defect or use fermionic F/R as a bosonic
+      decoder. If the source endpoint is not authenticated, record that exact scope and select another
+      eligible target.
+    expected_delta: A new on-shell, typed observation comparison, or a precise source-owner mismatch;
+      no new action or unproved physical stress map.
+    class_covered: Held W2/K95 local stationary family; source endpoint dictionary must remain explicit.
+      Not all GU realizations.
+    source_bridge: Conditional source-shaped operator/observation; physical necessity and source uniqueness
+      unproved.
+    shared_prerequisite: Existing S,K,N, root balls, source glyph, actual literal adjoint-one-form pullback
+      and analytic branch. No root search, full inverse or new selector.
+    remaining_cost: Bounded exact source/equation-owner audit plus sparse endpoint receivers only if they
+      are genuinely uncovered.
+    strongest_alternative: Natural non-scalar Helmholtz multipliers remain unselected and unclassified;
+      ordinary full-CMB scalar route still lacks native bridge and actual transfer inputs.
+    kill_condition: Only the named action-to-endpoint/readout implication is at stake; equation mismatch
+      alone is not a source-wide impossibility.
+  - id: physical_cosmological_conservation
+    status: blocked_on_exact_missing_input
+    target: BET-COSMOLOGY
+    tier: T2
+    task: Transport a source-selected differential identity to an action-owned observed rank-two stress
+      and cosmological evolution. A coderivative-free adjoint one-form is not already such a stress tensor.
+    missing_datum: Source-selected action/identity/readout and admissible cosmological state/domain.
+    revival_condition: Actual source or accepted construction supplies the typed identity and observed
+      tensor; do not install a new constraint merely to repair these roots.
+  consumed:
+  - Automatic ambient coderivative conservation on both held kappa1 stationary roots
+  - Automatic ambient conservation on the punctured convergent near-h-zero branch
+  - Using B versus B+sT as a repair of the self-codifferential
+  - Inferring conservation after literal observation from ambient conservation
+  - Inferring the full branch identity from its first two vanishing ambient coefficients
+  - Another scalar background/BAO fit as a substitute for the source one-form identity
+  accounting: 'Ordinary LC carry47 consumed by this BET-COSMOLOGY attempt: counter84to85; cosmology runs2to3
+    and remaining22to21. No new guessed action/potential; LB counters unchanged. No scheduled Qwen/model
+    credit or cadence amendment.'
+  priority_control_effect: The reconstructed C3 conservation interpretation fails for the known candidate
+    stationary families. Source/canon/physics verdicts unchanged; the carried-over LC attempt is consumed.
+    Next bounded comparison uses actual bosonic observation, not an added repair.
 source_action_packet_phase_2026_11_27:
   authority: joe_direct_chat_2026_11_26_continued_falsification_math20
   basis_revision: 98495026e4142a2121c7aa8b3497d60d6dbe2fb4
@@ -161,7 +229,7 @@ source_action_packet_phase_2026_11_27:
       literal observed signals.
   continuation:
   - id: cross_workstream_after_fixed_source_bridge
-    status: selection_ready_math_target_not_yet_admitted
+    status: done_selected_native_oneform_cosmology_test
     target: LB-CLASS
     tier: T3
     task: Apply existing cross-workstream selection to executable uncovered source/observable questions;
@@ -181,6 +249,7 @@ source_action_packet_phase_2026_11_27:
     strongest_alternative: Dense affine normalized-current test on an arbitrary old tube is executable,
       but it does not resolve the now-closed phase bridge or source necessity. Actual forced response
       lacks an owned Green/domain prescription.
+    completed_evidence: lab/process/source-action-theta-divergence.json
   - id: fixed_positive_time_source_response
     status: blocked_on_exact_missing_input
     target: LB-CLASS
@@ -206,6 +275,7 @@ source_action_packet_phase_2026_11_27:
   priority_control_effect: Fixed-source polynomial forcing route closed; no repeat pointwise receiver
     work substitutes for the missing physical source/domain. Cross-workstream selection resumes under
     existing rules. Nov26g remains proposal-only; no governance/schedule effect.
+  cross_workstream_selection_consumed_by: source_action_theta_divergence_2026_11_27
 source_action_selected_jet_2026_11_27:
   authority: joe_direct_chat_2026_11_26_continued_falsification_math20
   basis_revision: d91d6f3921fd1f552ef470467123005ace857425
