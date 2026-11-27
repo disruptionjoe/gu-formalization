@@ -1,7 +1,7 @@
 schema_version: '1.0'
 repository: observerse-research-program
 branch: main
-revision_basis: 8dc0d2475a7bdcd03dc9e3e2edd6cfc8bfcf9e35
+revision_basis: 795227ea980f683294c207fceb71db0c41ee727a
 program_focus:
   version: 2026-11-25-v1
   authority: joe_direct_chat_2026_11_25_five_process_improvements_approved
@@ -140,6 +140,77 @@ program_focus:
     covered; source relevance separately from mathematical breadth; shared prerequisite if any; remaining
     cost; strongest eligible alternative. A blocked high-value target is not an eligible alternative without
     its missing input. Reuse completed theorems and compare only their uncovered successors.'
+source_action_normal_normal_consistency_2026_11_26:
+  authority: joe_direct_chat_2026_11_26_continued_falsification_math20
+  basis_revision: 795227ea980f683294c207fceb71db0c41ee727a
+  status: internal_T2_complete_first_consistency_reviewed
+  actual_delta: Every actual first differentiated constraint on arbitrary spatial Q initial profiles is
+    M-repairable at both held W2/K95 backgrounds. Exact full N4 and odd N3 inverses cover the six remaining
+    pure-normal types; intrinsic jet theory covers lower terms. For analytic profiles local analytic particular
+    initial velocities exist. An independent saturated representation bound fixes the whole time-kernel
+    character and seven remaining block sizes; propagated spacetime solutions, physical admission and
+    GU remain undecided.
+  evidence:
+  - explorations/conditional-build/source-action-normal-normal-consistency-2026-11-26.md
+  - lab/process/source-action-normal-normal.json
+  - lab/process/source-action-normal-normal-certificates.json
+  - lab/process/hostile-reviews/2026-11-26-source-action-normal-normal-review.md
+  source_bridge:
+    status: conditional
+    weakest_unproved_link: Neither W2 nor freely specified Q jets are established source-required physical
+      states; propagation and physical quotient remain open.
+    source_necessary_exclusion: absent
+    class_C_representativeness: unchanged/unproved
+    source_claims:
+      SC-ACT-01: ASSERTS action grammar, not unique W2
+      SC-ACT-06: ASSERTS Euclidean Upsilon complex, not Lorentzian propagation
+      SC-GEO-51: ASSERTS full U64_64
+      SC-GEO-55: ASSERTS gauge-rotated LC displacement
+      SC-META-53: UNCERTAIN physical indefinite spectra
+    physics_rows: LT-GR1, LT-GR6b, LT-SM8 verdicts unchanged.
+  continuation:
+  - id: complete_auxiliary_regular_or_kernel
+    status: ready_for_structural_feasibility_then_exact_discriminator
+    target: LB-CLASS
+    tier: T2
+    task: 'Treat the complete remaining auxiliary map as one finite structural question: even N3 and both
+      coefficient parities of N0/N1/N2. Reuse complete owned N4/5/6/7 and odd N3. Bound cost and exploit
+      actual structure before assembling; no successive guessed receiver chain.'
+    expected_delta: Full regularity yields the exact unrestricted auxiliary graph and removes the separate
+      temporal constraint chain; a singular sector identifies the actual kernel/constraint-module question.
+    class_covered: Full native auxiliary M in the held autonomous imaginary-U W2/K95 quadratic block at
+      both root boxes; not all GU or class C.
+    source_bridge: Conditional candidate scope; full unrestricted graph and physical admission are not
+      source-necessary premises.
+    shared_prerequisite: Complete native rank/range on the seven still-unknown coefficient sectors.
+    remaining_cost: Seven exact highest-multiplicity sizes:952,394,392,992,992,1168,1168;25082 real coefficient
+      directions. Whole time-kernel character is now proved; native M carriers/entries still need construction
+      or an equally complete structural identification. No runtime estimate before timings.
+    strongest_eligible_alternative: An explicit native Clifford intertwiner for the newly proved abstract
+      RS13 tensor S64 plus two-scalars kernel could simplify the same full-M question. No native map,
+      pairing isometry or M factorization is yet proved; do not postpone concrete blocks indefinitely.
+      An invariant differential module containing Q leakage remains a second, less executable alternative.
+    kill_condition: Singularity, an unsuccessful inverse estimate or a failure on a guessed invariant
+      module is not a candidate exclusion. Any negative claim must survive all permitted kernel repairs.
+      A full inverse still does not prove physical wellposedness.
+  - id: actual_propagation_and_physical_readout
+    status: conditional_on_auxiliary_or_constraint_module_disposition
+    target: LB-CLASS
+    tier: T2
+    task: Apply the owned actual reduced-energy and principal-symbol results on a justified domain, then
+      seek actual admissible propagation and source-normalized physical readout.
+    revival_input: Auxiliary graph or exact remaining constraint module; authentic physical domain/quotient
+      and normalization remain separate.
+  consumed:
+  - All six remaining pure-normal first-consistency channel types over both Q copies
+  - The entire actual first-consistency map on arbitrary spatial Q profiles, including lower-order terms
+    by intrinsic jet equivariance
+  - 'Normal and zero-order kernel-multiplier searches for this first-consistency question: explicit M
+    range suffices; no claim that those maps vanish'
+  accounting: Directed76to77/LBCLASS35to36. Existing directed_lc_carry_2026_11_25_physical remains pending
+    for the next ordinary run; no cadence amendment or bet credit.
+  priority_control_effect: Factual first-consistency work is complete. Next question is the remaining
+    full auxiliary map/constraint module; program_focus and schedules unchanged. Nov26g remains proposal-only.
 source_action_even_spin5_completion_2026_11_26:
   authority: joe_direct_chat_2026_11_26_continued_falsification_math20
   basis_revision: 8dc0d2475a7bdcd03dc9e3e2edd6cfc8bfcf9e35
@@ -169,7 +240,7 @@ source_action_even_spin5_completion_2026_11_26:
     physics_rows: LT-GR1, LT-GR6b, LT-SM8 verdicts unchanged.
   continuation:
   - id: normal_normal_six_channels
-    status: ready
+    status: done_complete_first_consistency_both_roots
     target: LB-CLASS
     tier: T2
     task: Span the two spin3 and four spin4 pure-normal principal channel types across both Q copies;
@@ -186,13 +257,16 @@ source_action_even_spin5_completion_2026_11_26:
     kill_condition: An M-cokernel witness alone is insufficient. A negative certificate must annihilate
       full M, all7 normal repair types plus L0Z4 for target4, and all9 normal repair types plus L0Z3 for
       target3. Singular/failed sufficient bounds are not exclusions.
+    completion_evidence: lab/process/source-action-normal-normal.json
   - id: higher_consistency_and_propagation
-    status: conditional_after_first_consistency
+    status: first_consistency_consumed_full_auxiliary_question_carried
     target: LB-CLASS
     tier: T2
     task: If all first-consistency sources are absorbed, continue the actual constraint chain and prove
       admissible propagation; do not infer solutions from pointwise rank.
     revival_input: Disposition of six augmented pure-normal channels and permitted remaining multipliers.
+    completion_evidence: lab/process/source-action-normal-normal.json
+    remaining_work_ref: source_action_normal_normal_consistency_2026_11_26
   - id: physical_weak_readout
     status: blocked_on_authentic_admission_and_propagation
     target: LB-CLASS
@@ -208,6 +282,7 @@ source_action_even_spin5_completion_2026_11_26:
     pending for the next ordinary run; no cadence amendment or bet credit.
   priority_control_effect: Factual continuation reduced to six pure-normal channel types; program_focus/schedules
     unchanged. Nov26g remains proposal-only.
+  continuation_superseded_by: source_action_normal_normal_consistency_2026_11_26
 source_action_mixed_consistency_2026_11_26:
   authority: joe_direct_chat_2026_11_26_continued_falsification_math20
   basis_revision: 4ee3a8bb90b418216eff0fb740df935af08a4ce5

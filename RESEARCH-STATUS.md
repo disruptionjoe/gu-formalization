@@ -16,6 +16,12 @@ discovery bet (`lab/process/discovery-bets.json`). The K25xx--K2618 detector, pr
 results below are retained as conditional mathematics; that lane is no longer the default target. Sections
 below are dated results, newest first, and are not steering.
 
+## Complete first consistency on Q (2026-11-26)
+
+Every actual first differentiated constraint on arbitrary spatial Q initial profiles is M-repairable at both held W2/K95 backgrounds. Exact full N4 and odd N3 inverses cover the six remaining pure-normal types; intrinsic jet theory covers lower terms. For analytic profiles local analytic particular initial velocities exist. An independent saturated representation bound fixes the whole time-kernel character and seven remaining block sizes; propagated spacetime solutions, physical admission and GU remain undecided.
+
+[Result](explorations/conditional-build/source-action-normal-normal-consistency-2026-11-26.md) · [Evidence](lab/process/source-action-normal-normal.json).
+
 ## Complete spin5 consistency block (2026-11-26)
 
 Complete native N5 is invertible at both held root boxes:240 even highest directions certified and240 odd directions exhausted by the two owned120 receivers. Remaining mixed and all normal-normal spin5 sources are absorbed. Intrinsic jet equivariance removes independent lower-order first-consistency tests, leaving two spin3 and four spin4 pure-normal channel types. No propagation, physical or GU verdict.

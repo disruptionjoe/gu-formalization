@@ -1,0 +1,535 @@
+{
+  "basis_revision": "795227ea980f683294c207fceb71db0c41ee727a",
+  "authority": "joe_direct_chat_2026_11_26_continued_falsification_math20",
+  "status": "internal_T2_complete_first_consistency_reviewed",
+  "program_target": "LB-CLASS",
+  "tier": "T2",
+  "actual_delta": "Every actual first differentiated constraint on arbitrary spatial Q initial profiles is M-repairable at both held W2/K95 backgrounds. Exact full N4 and odd N3 inverses cover the six remaining pure-normal types; intrinsic jet theory covers lower terms. For analytic profiles local analytic particular initial velocities exist. An independent saturated representation bound fixes the whole time-kernel character and seven remaining block sizes; propagated spacetime solutions, physical admission and GU remain undecided.",
+  "class_covered": "Complete actual first differentiated constraints for arbitrary spatial Q=2V7 profiles in the held W2/K95 autonomous imaginary-U quadratic block, both real zero-matter kappa1 root boxes.",
+  "premises": [
+    "explorations/conditional-build/source-action-normal-normal-consistency-2026-11-26.md",
+    "lab/process/source-action-normal-normal-certificates.json",
+    "lab/process/source-action-even-spin5.json",
+    "lab/process/source-action-constraint-consistency.json"
+  ],
+  "source_bridge": {
+    "status": "conditional",
+    "weakest_unproved_link": "Neither W2 nor freely specified Q jets are established source-required physical states; propagation and physical quotient remain open.",
+    "source_necessary_exclusion": "absent",
+    "class_C_representativeness": "unchanged/unproved",
+    "source_claims": {
+      "SC-ACT-01": "ASSERTS action grammar, not unique W2",
+      "SC-ACT-06": "ASSERTS Euclidean Upsilon complex, not Lorentzian propagation",
+      "SC-GEO-51": "ASSERTS full U64_64",
+      "SC-GEO-55": "ASSERTS gauge-rotated LC displacement",
+      "SC-META-53": "UNCERTAIN physical indefinite spectra"
+    },
+    "physics_rows": "LT-GR1, LT-GR6b, LT-SM8 verdicts unchanged."
+  },
+  "claim_effect": "No matrix cell/intersection, scientific shrinkage, source/physics/canon/class-C/paper verdict change.",
+  "certificate_summary": {
+    "even4": {
+      "complete_carrier_dimension": 568,
+      "new_matrix_dimension": 286,
+      "roots": [
+        {
+          "root": 0,
+          "root_record_sha256": "4069255f599c1b858cdec5471744dc48f0307e710ccb84d9b3875f853a8bd9d6",
+          "radius": "833002305502425831635675927369390931123350752157075022902747720119/3955078124999884528152862797160742322179584117654725628125000000000000000000000000",
+          "balanced_center_defect_column1": "661289708007972201757759596962213720698119223/1800000000000000000000000000000000000000000000000000000000",
+          "Ctriangle_upper": "25452322167300947873733103981/94500000000000000000000000",
+          "rootbox_perturbation_column1": "41592103773419586165777214709532314370335033488781533733729811203642268438045055402567281221796880023677/7786560058593522664800948631910211446791056231632741080371093750000000000000000000000000000000000000000000",
+          "neumann_bound": "85180628533821925974394693402899099895154587039599260987883051095077656249917078915286531376730971437128474761/15946874999999534417512342798152113043028083162383853732600000000000000000000000000000000000000000000000000000000",
+          "neumann_bound_float": 0.005341524814976252,
+          "native_M_invertible_on_complete_block": true,
+          "arithmetic_backend": {
+            "backend": "python-flint",
+            "version": "0.9.0",
+            "threads": 1
+          }
+        },
+        {
+          "root": 1,
+          "root_record_sha256": "73f3106165d8e9d0330e30d1fa7a7c4c1083f7936e33308a61201907e4d2f44c",
+          "radius": "11974179536214065908190212160861717531979021739329889193327923/65917968749997189892442940664361290493889827261993759765625000000000000000000",
+          "balanced_center_defect_column1": "454220833497394442666189408319291802951331/1080000000000000000000000000000000000000000000000000000",
+          "Ctriangle_upper": "30984187150483206480282893/67500000000000000000000",
+          "rootbox_perturbation_column1": "727818592300749568213934618921616649286219209614438957316311841407086919323339822656922417656177/92697143554683548286247885309258064757032569587178724670410156250000000000000000000000000000000000",
+          "neumann_bound": "19079327707030766356356461602150343404634180378581472428007167597887273666524228572416538323191303692897/2429999999999896408195016564651014612766754592186137960000000000000000000000000000000000000000000000000000",
+          "neumann_bound_float": 0.00785157518807884,
+          "native_M_invertible_on_complete_block": true,
+          "arithmetic_backend": {
+            "backend": "python-flint",
+            "version": "0.9.0",
+            "threads": 1
+          }
+        }
+      ]
+    },
+    "odd4": {
+      "complete_carrier_dimension": 568,
+      "new_matrix_dimension": 568,
+      "roots": [
+        {
+          "root": 0,
+          "root_record_sha256": "4069255f599c1b858cdec5471744dc48f0307e710ccb84d9b3875f853a8bd9d6",
+          "radius": "833002305502425831635675927369390931123350752157075022902747720119/3955078124999884528152862797160742322179584117654725628125000000000000000000000000",
+          "balanced_center_defect_column1": "9126011672543604329724304881430306267344871723/864000000000000000000000000000000000000000000000000000000",
+          "Ctriangle_upper": "524648815376888457110511819031/1440000000000000000000000000",
+          "rootbox_perturbation_column1": "857338196111290173880186138166217735899264924702368568168607342734084178443016666270143589079649396979527/118652343749996535844585883914822269665387523529641768843750000000000000000000000000000000000000000000000000",
+          "neumann_bound": "526748588460783917702830497598082816584149135089208897465274590163565746255524331621577638691106592828780877/72899999999997871622913567077266802482414094456611902777600000000000000000000000000000000000000000000000000000",
+          "neumann_bound_float": 0.007225632214825779,
+          "native_M_invertible_on_complete_block": true,
+          "arithmetic_backend": {
+            "backend": "python-flint",
+            "version": "0.9.0",
+            "threads": 1
+          }
+        },
+        {
+          "root": 1,
+          "root_record_sha256": "73f3106165d8e9d0330e30d1fa7a7c4c1083f7936e33308a61201907e4d2f44c",
+          "radius": "11974179536214065908190212160861717531979021739329889193327923/65917968749997189892442940664361290493889827261993759765625000000000000000000",
+          "balanced_center_defect_column1": "25460607251809667663081912299478849064671123/3456000000000000000000000000000000000000000000000000000",
+          "Ctriangle_upper": "9130658235329393274286684697/14400000000000000000000000",
+          "rootbox_perturbation_column1": "214479172596691711656069421764163558939493861234806187309142114210374695534199515825936133749540333/19775390624999156967732882199308387148166948178598127929687500000000000000000000000000000000000000000",
+          "neumann_bound": "9370738043229677156346922650135656647338051479076268910990958713671364802457344424197209212760143890281/863999999999963167358228111875916306761512743888404608000000000000000000000000000000000000000000000000000",
+          "neumann_bound_float": 0.010845761624108885,
+          "native_M_invertible_on_complete_block": true,
+          "arithmetic_backend": {
+            "backend": "python-flint",
+            "version": "0.9.0",
+            "threads": 1
+          }
+        }
+      ]
+    },
+    "odd3": {
+      "complete_carrier_dimension": 952,
+      "new_matrix_dimension": 952,
+      "roots": [
+        {
+          "root": 0,
+          "root_record_sha256": "4069255f599c1b858cdec5471744dc48f0307e710ccb84d9b3875f853a8bd9d6",
+          "radius": "833002305502425831635675927369390931123350752157075022902747720119/3955078124999884528152862797160742322179584117654725628125000000000000000000000000",
+          "balanced_center_defect_column1": "32200570385997010811209304475537508434345544987/1134000000000000000000000000000000000000000000000000000000",
+          "Ctriangle_upper": "562267012870425527283270194087641/60480000000000000000000000000",
+          "rootbox_perturbation_column1": "918810778598489773050068320058981372838530667661489105945196126624220286832261390280480605167885606116905897/4983398437499854505472607124422535325946275988244954291437500000000000000000000000000000000000000000000000000",
+          "neumann_bound": "88205834759039633844398651047311393908787527821419718379834242395545728502851591099642778724388862853239928241/478406249999986032525370283944563391290842494871515611978000000000000000000000000000000000000000000000000000000",
+          "neumann_bound_float": 0.1843743361610393,
+          "native_M_invertible_on_complete_block": true,
+          "arithmetic_backend": {
+            "backend": "python-flint",
+            "version": "0.9.0",
+            "threads": 1
+          }
+        },
+        {
+          "root": 1,
+          "root_record_sha256": "73f3106165d8e9d0330e30d1fa7a7c4c1083f7936e33308a61201907e4d2f44c",
+          "radius": "11974179536214065908190212160861717531979021739329889193327923/65917968749997189892442940664361290493889827261993759765625000000000000000000",
+          "balanced_center_defect_column1": "11750159336065681208530316259121678825443708349/241920000000000000000000000000000000000000000000000000000",
+          "Ctriangle_upper": "845563102812615542087594077711/57600000000000000000000000",
+          "rootbox_perturbation_column1": "19862278271222430315529565744237758624437008705659167937089803466120174552830019873620775015275481179/79101562499996627870931528797233548592667792714392511718750000000000000000000000000000000000000000000",
+          "neumann_bound": "15186433138737260420865993980883053339709739973085832971568611585925262220852359365830901864540311600055687/60479999999997421715075967831314141473305892072188322560000000000000000000000000000000000000000000000000000",
+          "neumann_bound_float": 0.2510984315267511,
+          "native_M_invertible_on_complete_block": true,
+          "arithmetic_backend": {
+            "backend": "python-flint",
+            "version": "0.9.0",
+            "threads": 1
+          }
+        }
+      ]
+    }
+  },
+  "complete_time_kernel_character": {
+    "method": "SO(13,C) irreducible grade-bipartite rank lower bound is exactly owned total49154, fixing the entire kernel representation. N=(V13-1)*sum_{k=0}^6 Lambda^k(V13)+2 as a representation character. Then exact exterior-character branching to SO3 and chi. No native kernel or M calculation.",
+    "transverse_weight_chi_atoms": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        2,
+        0
+      ],
+      [
+        -1,
+        1
+      ],
+      [
+        -1,
+        1
+      ],
+      [
+        -1,
+        0
+      ],
+      [
+        -2,
+        0
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        1
+      ]
+    ],
+    "kernel_dimension": 49154,
+    "highest_multiplicities": {
+      "even": {
+        "0": 394,
+        "1": 992,
+        "2": 1168,
+        "3": 952,
+        "4": 568,
+        "5": 240,
+        "6": 64,
+        "7": 8
+      },
+      "odd": {
+        "0": 392,
+        "1": 992,
+        "2": 1168,
+        "3": 952,
+        "4": 568,
+        "5": 240,
+        "6": 64,
+        "7": 8
+      }
+    },
+    "remaining_blocks": {
+      "even3": 952,
+      "even0": 394,
+      "odd0": 392,
+      "even1": 992,
+      "odd1": 992,
+      "even2": 1168,
+      "odd2": 1168
+    },
+    "irreducible_multiplicity_table": [
+      {
+        "irrep": "H1",
+        "dimension": 90,
+        "even_clifford_multiplicity": 1,
+        "odd_clifford_multiplicity": 0,
+        "kernel_lower_bound_copies": 1
+      },
+      {
+        "irrep": "H2",
+        "dimension": 715,
+        "even_clifford_multiplicity": 1,
+        "odd_clifford_multiplicity": 2,
+        "kernel_lower_bound_copies": 1
+      },
+      {
+        "irrep": "H3",
+        "dimension": 2925,
+        "even_clifford_multiplicity": 1,
+        "odd_clifford_multiplicity": 2,
+        "kernel_lower_bound_copies": 1
+      },
+      {
+        "irrep": "H4",
+        "dimension": 7722,
+        "even_clifford_multiplicity": 1,
+        "odd_clifford_multiplicity": 0,
+        "kernel_lower_bound_copies": 1
+      },
+      {
+        "irrep": "H5",
+        "dimension": 14300,
+        "even_clifford_multiplicity": 1,
+        "odd_clifford_multiplicity": 0,
+        "kernel_lower_bound_copies": 1
+      },
+      {
+        "irrep": "H6",
+        "dimension": 19305,
+        "even_clifford_multiplicity": 1,
+        "odd_clifford_multiplicity": 2,
+        "kernel_lower_bound_copies": 1
+      },
+      {
+        "irrep": "L0",
+        "dimension": 1,
+        "even_clifford_multiplicity": 2,
+        "odd_clifford_multiplicity": 0,
+        "kernel_lower_bound_copies": 2
+      },
+      {
+        "irrep": "L1",
+        "dimension": 13,
+        "even_clifford_multiplicity": 3,
+        "odd_clifford_multiplicity": 2,
+        "kernel_lower_bound_copies": 1
+      },
+      {
+        "irrep": "L2",
+        "dimension": 78,
+        "even_clifford_multiplicity": 3,
+        "odd_clifford_multiplicity": 4,
+        "kernel_lower_bound_copies": 1
+      },
+      {
+        "irrep": "L3",
+        "dimension": 286,
+        "even_clifford_multiplicity": 3,
+        "odd_clifford_multiplicity": 4,
+        "kernel_lower_bound_copies": 1
+      },
+      {
+        "irrep": "L4",
+        "dimension": 715,
+        "even_clifford_multiplicity": 3,
+        "odd_clifford_multiplicity": 2,
+        "kernel_lower_bound_copies": 1
+      },
+      {
+        "irrep": "L5",
+        "dimension": 1287,
+        "even_clifford_multiplicity": 3,
+        "odd_clifford_multiplicity": 2,
+        "kernel_lower_bound_copies": 1
+      },
+      {
+        "irrep": "L6",
+        "dimension": 1716,
+        "even_clifford_multiplicity": 3,
+        "odd_clifford_multiplicity": 4,
+        "kernel_lower_bound_copies": 1
+      }
+    ],
+    "kernel_lower_bound": 49154,
+    "independent_native_rank_record": {
+      "sha256": "54c6bad445c41b632ab3201a11e4244450585451dd47287cc6352407e0b0e57d",
+      "total": 49154,
+      "bundle_ref": "lab/process/source-action-normal-normal-certificates.json#records.normal-time-kernel-character.json"
+    },
+    "proof_note": "explorations/conditional-build/source-action-normal-normal-consistency-2026-11-26.md#7-complete-time-kernel-character-and-remaining-cost",
+    "remaining_real_coefficient_dimension": 25082,
+    "spinorial_corollary": {
+      "group": "complex Spin(13)",
+      "transverse_dimension": 13,
+      "spinor_dimension": 64,
+      "gamma_traceless_vector_spinor_dimension": 768,
+      "abstract_module_identity": "N = RS13 tensor S64_dual direct_sum trivial^2",
+      "dimension_check": 49154,
+      "descends_to_SO13": true,
+      "not_supplied": [
+        "native coordinate intertwiner",
+        "real-form or pairing isometry",
+        "M factorization",
+        "inverse transfer",
+        "source fermionic RS identification",
+        "physical state interpretation"
+      ],
+      "independent_hostile_conceptual_review": "PASS"
+    }
+  },
+  "representative_witness_scope": "Twelve nonzero actual-root no-G q coordinate intervals; spin4 chosen representatives outside old E4. These properties are representative-dependent under r=q-M(jy), not nonzero cokernel classes.",
+  "first_consistency_theorem": "All principal Q targets are in im M; quotient-valued F0 therefore drops to order1, and owned Hom_SO3(J1Q,cokerM)=0 makes it zero. Constant rank supplies a local analytic particular initial velocity for analytic profiles, and a smooth velocity for smooth profiles. Q is not dynamically autonomous, so no iteration to higher closure or propagated solution is licensed.",
+  "consumed": [
+    "All six remaining pure-normal first-consistency channel types over both Q copies",
+    "The entire actual first-consistency map on arbitrary spatial Q profiles, including lower-order terms by intrinsic jet equivariance",
+    "Normal and zero-order kernel-multiplier searches for this first-consistency question: explicit M range suffices; no claim that those maps vanish"
+  ],
+  "next_directed_worksets": [
+    {
+      "id": "complete_auxiliary_regular_or_kernel",
+      "status": "ready_for_structural_feasibility_then_exact_discriminator",
+      "target": "LB-CLASS",
+      "tier": "T2",
+      "task": "Treat the complete remaining auxiliary map as one finite structural question: even N3 and both coefficient parities of N0/N1/N2. Reuse complete owned N4/5/6/7 and odd N3. Bound cost and exploit actual structure before assembling; no successive guessed receiver chain.",
+      "expected_delta": "Full regularity yields the exact unrestricted auxiliary graph and removes the separate temporal constraint chain; a singular sector identifies the actual kernel/constraint-module question.",
+      "class_covered": "Full native auxiliary M in the held autonomous imaginary-U W2/K95 quadratic block at both root boxes; not all GU or class C.",
+      "source_bridge": "Conditional candidate scope; full unrestricted graph and physical admission are not source-necessary premises.",
+      "shared_prerequisite": "Complete native rank/range on the seven still-unknown coefficient sectors.",
+      "remaining_cost": "Seven exact highest-multiplicity sizes:952,394,392,992,992,1168,1168;25082 real coefficient directions. Whole time-kernel character is now proved; native M carriers/entries still need construction or an equally complete structural identification. No runtime estimate before timings.",
+      "strongest_eligible_alternative": "An explicit native Clifford intertwiner for the newly proved abstract RS13 tensor S64 plus two-scalars kernel could simplify the same full-M question. No native map, pairing isometry or M factorization is yet proved; do not postpone concrete blocks indefinitely. An invariant differential module containing Q leakage remains a second, less executable alternative.",
+      "kill_condition": "Singularity, an unsuccessful inverse estimate or a failure on a guessed invariant module is not a candidate exclusion. Any negative claim must survive all permitted kernel repairs. A full inverse still does not prove physical wellposedness."
+    },
+    {
+      "id": "actual_propagation_and_physical_readout",
+      "status": "conditional_on_auxiliary_or_constraint_module_disposition",
+      "target": "LB-CLASS",
+      "tier": "T2",
+      "task": "Apply the owned actual reduced-energy and principal-symbol results on a justified domain, then seek actual admissible propagation and source-normalized physical readout.",
+      "revival_input": "Auxiliary graph or exact remaining constraint module; authentic physical domain/quotient and normalization remain separate."
+    }
+  ],
+  "counterfactual_proposal": {
+    "status": "proposal_only_not_executed",
+    "authority": "joe_direct_chat_2026_11_26_g",
+    "ranked_item_numbers": [
+      1,
+      6,
+      2,
+      3,
+      7,
+      5,
+      4
+    ],
+    "basis": "Qualitative expected time saved at the actual consistency bottleneck; no measured forecasts or success probabilities.",
+    "ranked": [
+      {
+        "item": 1,
+        "expected_savings": "highest immediate",
+        "proposal": "Map queued outcomes to changed action, claim, bound or certificate. Consume tasks already covered by a theorem. Same next action alone is not grounds to skip useful evidence."
+      },
+      {
+        "item": 6,
+        "expected_savings": "high immediate",
+        "proposal": "Separate necessary source consequences from candidate-conditional desiderata and order by test cost. Connectivity to these chosen roots and positive physical energy are not silently made source premises."
+      },
+      {
+        "item": 2,
+        "expected_savings": "medium-high if targeted",
+        "proposal": "Audit dependencies of the six live channels first. Defer full ten-family flips; plus/minus adjoint is a comparator unless source permits it."
+      },
+      {
+        "item": 3,
+        "expected_savings": "high before a physical-ghost claim, lower for current algebraic range",
+        "proposal": "One matched control for the exact inference first. Distinguish constrained energy from BRST physical ghosts; conformal-gravity expectation requires a stated prescription."
+      },
+      {
+        "item": 7,
+        "expected_savings": "medium later",
+        "proposal": "Use a matched four-dimensional comparator only for a specific observation-related obstruction, preserving relevant structures."
+      },
+      {
+        "item": 5,
+        "expected_savings": "low immediate",
+        "proposal": "Euclidean base changes the real form and physical-time question; use only if it distinguishes a named sign mechanism."
+      },
+      {
+        "item": 4,
+        "expected_savings": "lowest immediate",
+        "proposal": "Toy dimensions alter branching and source counts; use if a structural dimension theorem is otherwise unavailable."
+      }
+    ],
+    "recommendation": "Approve lightweight items1/6 and targeted dependencies; reserve comparator execution for a specific diagnostic question. Broad suites remain deferred proposals, not new stop rules.",
+    "current_theorem_effect": "The complete remaining first-consistency map is consumed by exact complete-block certificates, not skipped through an unapproved value gate.",
+    "sensitivity_scope_correction": {
+      "status": "proposal_grounded_in_owned_quadratic_autonomy_not_executed_sweep",
+      "reason": "The ten families are not ten independent switches in the present local operator. Geometry, shiab recipe and coupling enter the held bosonic map. The zero-matter imaginary quadratic block is autonomous from the fermion recipe and the diagnostic matter lift/band/dispersion/dual/tube choices. Variational and physical domains still affect admissibility and propagation, so local algebraic independence is not physical independence.",
+      "evidence": [
+        "lab/process/source-action-q7-propagation.json#coupled_quadratic_autonomy",
+        "lab/process/action-constraint-matrix.json#source_relevance_assumption_view.candidate_choice_budget"
+      ],
+      "adjoint_caution": "A plus/minus adjoint flip changes the stated construction unless an authenticated source permits it; label it a comparator, not a new GU choice."
+    }
+  },
+  "choice_budget": {
+    "families": 10,
+    "obligation_bundles": 4,
+    "net": 6,
+    "source_selected_predictions": 0,
+    "delta": 0
+  },
+  "accounting": "Directed76to77/LBCLASS35to36. Existing directed_lc_carry_2026_11_25_physical remains pending for the next ordinary run; no cadence amendment or bet credit.",
+  "verification": {
+    "native_gates": {
+      "program_focus_audit": "PASS",
+      "typed_carrier_declaration_audit": "PASS",
+      "kill_target_claim_audit": "PASS",
+      "frontmatter_status_schema_audit": "PASS",
+      "source_native_comparator_routing_audit": "PASS",
+      "lean_certificate_surface_audit": "PASS",
+      "current_state_absolute_currency_audit": "PASS"
+    },
+    "native_certificate": "lab/process/source-action-normal-normal-certificates.json",
+    "independent_reviews": "lab/process/hostile-reviews/2026-11-26-source-action-normal-normal-review.md",
+    "lean": "No new Lean theorem claimed; T2 native exact checks and reviewed structural theorem.",
+    "replay_scope": {
+      "passed": true,
+      "probe_sha256": "7409ddae36f87a8338dc08000943c45196cc00b94a93b03fd6e9edfe0df0c491",
+      "bundle_sha256": "c2610c654c5fb5dbc1096b758a650772b073b0a584ddfffe8168537ae20fae57",
+      "record_count": 25,
+      "complete_carriers_reconstructed": [
+        "even4",
+        "odd4",
+        "odd3"
+      ],
+      "all_native_H_columns_recomputed": false,
+      "native_H_columns_recomputed": 6,
+      "remaining_H_columns": "Authenticated frozen exact native production records",
+      "all_exact_frozen_preconditioner_defects_recomputed": true,
+      "floating_inverse_regenerated": false,
+      "producer_custody_verified": true,
+      "certificates": {
+        "even4": {
+          "dimension": 286,
+          "complete_carrier_dimension": 568,
+          "root_neumann_bounds": [
+            0.005341524814976252,
+            0.00785157518807884
+          ]
+        },
+        "odd4": {
+          "dimension": 568,
+          "complete_carrier_dimension": 568,
+          "root_neumann_bounds": [
+            0.007225632214825779,
+            0.010845761624108885
+          ]
+        },
+        "odd3": {
+          "dimension": 952,
+          "complete_carrier_dimension": 952,
+          "root_neumann_bounds": [
+            0.1843743361610393,
+            0.2510984315267511
+          ]
+        }
+      },
+      "seconds": 412.74628491699696,
+      "scope": "Bounded fresh-cache replay: full carriers, first native H column eachroot/block, and all exact certificate arithmetic; no propagation or physical-domain necessity claim."
+    },
+    "replay_sha256": "e46402027d5475ec38652f82ee96a368b75e52b91f190130e8eeaab44b455103",
+    "reproduction_commands": [
+      "python3 tests/program-focus/source_action_normal_normal_probe.py --cache _local/normal-normal-fresh --mode unpack",
+      "python3 tests/program-focus/source_action_normal_normal_probe.py --cache _local/normal-normal-fresh --mode replay --backend auto",
+      "python3 tests/program-focus/source_action_normal_normal_probe.py --cache _local/normal-normal-fresh --mode status"
+    ],
+    "independent_acceptance": {
+      "mathematical_source": "PASS; exact scalar/hash and proof review; no large native replay claimed",
+      "hostile": "PASS; all retained basis norms/phases, exact scalar/hash/custody and proof review; no full dense product replay claimed",
+      "full_native_and_exact_arithmetic": "Author production plus the separately stated fresh-cache replay",
+      "frozen_probe_sha256": "7409ddae36f87a8338dc08000943c45196cc00b94a93b03fd6e9edfe0df0c491"
+    },
+    "bundle_records": 25,
+    "bundle_bytes": 56622276,
+    "protected_surfaces": "program_focus,cells,intersections,shrinkage and choice budget unchanged"
+  },
+  "current_sha256": {
+    "tests/program-focus/source_action_normal_normal_probe.py": "7409ddae36f87a8338dc08000943c45196cc00b94a93b03fd6e9edfe0df0c491",
+    "lab/process/source-action-normal-normal-certificates.json": "c2610c654c5fb5dbc1096b758a650772b073b0a584ddfffe8168537ae20fae57",
+    "explorations/conditional-build/source-action-normal-normal-consistency-2026-11-26.md": "175af7fcf47481d97c4339e53335a621eea1851360cad38bbeeded7779c40957",
+    "lab/process/hostile-reviews/2026-11-26-source-action-normal-normal-review.md": "eea39839b768e2424d725a8a19701c71dad2c622bfb8b2cebd958468f2f47924"
+  }
+}

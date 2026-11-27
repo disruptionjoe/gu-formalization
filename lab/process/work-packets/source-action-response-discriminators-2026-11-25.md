@@ -367,3 +367,15 @@ Selection: continuing Joe-directed falsification, with conditional source bridge
 - **Carried:** higher consistency, admissible propagation and physical/source admission. No physical ghost or GU verdict.
 
 Selection: mandatory basis is continuing Joe-directed falsification. Scope is the full remaining first-consistency symbol of this held candidate/Q block, with source relevance conditional on W2 and physical admission. Shared prerequisite is the actual lower-spin augmented image. Cost is six channel types using owned primary inverses and the reviewed no-G identity. Strongest eligible alternative is full lower-spin M inversion, useful if the six-source test exposes a range gap; no new guessed-receiver chain. Directed75to76/LBCLASS34to35. The existing directed_lc_carry_2026_11_25_physical remains pending for the next ordinary run; no cadence amendment or bet credit. Choices10/4/net6/zero predictions unchanged. Nov26g suites remain proposal-only.
+
+
+## Current continuation: complete Q first consistency (2026-11-26)
+
+[Result](../../../explorations/conditional-build/source-action-normal-normal-consistency-2026-11-26.md) · [evidence](../source-action-normal-normal.json).
+
+- **Done, T2:** all six pure-normal types and therefore every actual first differentiated constraint on arbitrary spatial Q profiles are M-repairable at both root boxes. Full N4 and odd N3 certificates join owned N5/6/7.
+- **Consumed:** further first-consistency source assembly and multiplier-repair searches for Q. Analytic initial velocity fields exist for analytic profiles; no nonzero-time evolution is claimed.
+- **Ready, LB-CLASS/T2:** one complete auxiliary-map question on the seven remaining coefficient sectors: even N3, both parities of N0/N1/N2. Assess complete structural ranks/ranges and cost before new assembly. Full regularity yields the exact unrestricted graph; singularity requires the actual kernel/constraint module and is not itself inconsistency.
+- **Carried:** actual propagation, physical quotient/domain, normalized observation and source necessity. Q-only autonomy stays excluded; no new choice family.
+
+Selection: mandatory basis is continuing Joe-directed falsification. Scope is the held candidate auxiliary operator, with source relevance conditional on W2/full unrestricted graph and physical admission. Shared prerequisite is the remaining auxiliary rank/kernel. Cost is a finite seven-sector question with multiplicity sizes952,394,392,992,992,1168,1168; no promised runtime before native timings. A possible cheaper method is an explicit native Clifford intertwiner suggested by the abstract RS13 tensor S64 plus two-scalars representation; no native map or M factorization is yet owned. The separate homogeneous differential-module route also lacks an exact module containing Q leakage. Directed76to77/LBCLASS35to36. Existing directed_lc_carry_2026_11_25_physical remains pending for the next ordinary run; no cadence amendment or bet credit. Choices10/4/net6/zero predictions unchanged. Nov26g suites remain proposal-only.

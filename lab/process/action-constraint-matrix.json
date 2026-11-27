@@ -1788,7 +1788,7 @@
     },
     "LB-CLASS": {
       "zero_delta_streak": 0,
-      "runs": 35,
+      "runs": 36,
       "status": "open"
     },
     "LB-LADDER": {
@@ -2707,7 +2707,7 @@
   ],
   "program_run_counter": {
     "since": "2026-11-09",
-    "count": 76,
+    "count": 77,
     "rule": "Every hourly run increments this in its postflight, whatever its lane. Lane C runs when count % 4 == 3 before the increment."
   },
   "working_rule": "Cells are worked at the structure level: a requirement must hold for every action in class C or for a structurally defined subfamily. No cell is worked by writing down a specific action, and no gated cell is worked by building its gate object. See CURRENT-STATE.yaml program_focus.structure_not_specifics.",
@@ -3273,6 +3273,22 @@
       ],
       "claim_effect": "No matrix cell/intersection, scientific shrinkage, source/physics/canon/class-C/paper verdict change.",
       "cadence_note": "Directed75to76/LBCLASS34to35. The existing directed_lc_carry_2026_11_25_physical remains pending for the next ordinary run; no cadence amendment or bet credit."
+    },
+    {
+      "date": "2026-11-26",
+      "authority": "joe_direct_chat_2026_11_26_continued_falsification_math20",
+      "item": "Complete actual first consistency via pure-normal native block inverses",
+      "tier": "T2",
+      "counter_before": 76,
+      "counter_after": 77,
+      "lane": "LB-CLASS",
+      "actual_delta": "Every actual first differentiated constraint on arbitrary spatial Q initial profiles is M-repairable at both held W2/K95 backgrounds. Exact full N4 and odd N3 inverses cover the six remaining pure-normal types; intrinsic jet theory covers lower terms. For analytic profiles local analytic particular initial velocities exist. An independent saturated representation bound fixes the whole time-kernel character and seven remaining block sizes; propagated spacetime solutions, physical admission and GU remain undecided.",
+      "evidence": [
+        "explorations/conditional-build/source-action-normal-normal-consistency-2026-11-26.md",
+        "lab/process/source-action-normal-normal.json"
+      ],
+      "claim_effect": "No matrix cell/intersection, scientific shrinkage, source/physics/canon/class-C/paper verdict change.",
+      "cadence_note": "Directed76to77/LBCLASS35to36. Existing directed_lc_carry_2026_11_25_physical remains pending for the next ordinary run; no cadence amendment or bet credit."
     }
   ],
   "directed_lc_carry_2026_11_24_b": {
@@ -3629,7 +3645,9 @@
           "explorations/conditional-build/source-action-mixed-consistency-2026-11-26.md",
           "lab/process/source-action-mixed-consistency.json",
           "explorations/conditional-build/source-action-even-spin5-completion-2026-11-26.md",
-          "lab/process/source-action-even-spin5.json"
+          "lab/process/source-action-even-spin5.json",
+          "explorations/conditional-build/source-action-normal-normal-consistency-2026-11-26.md",
+          "lab/process/source-action-normal-normal.json"
         ],
         "choices": "Historical original choices are retained below; current held fermion repair is SE=-1/2 (SE0 superseded), kappa1 with two unselected roots. Typed candidate_choice_budget separates core/completion/pending/comparator/parked choices.",
         "wave2_update": {
@@ -4423,6 +4441,54 @@
             "Remaining mixed spin5 consistency channels",
             "All normal-normal spin5 sources",
             "Independent normal-first and scalar lower-order first-consistency assembly: intrinsic jet equivariance removes their separate cokernel content"
+          ],
+          "choice_budget_delta": 0,
+          "source_status": {
+            "status": "conditional",
+            "weakest_unproved_link": "Neither W2 nor freely specified Q jets are established source-required physical states; propagation and physical quotient remain open.",
+            "source_necessary_exclusion": "absent",
+            "class_C_representativeness": "unchanged/unproved",
+            "source_claims": {
+              "SC-ACT-01": "ASSERTS action grammar, not unique W2",
+              "SC-ACT-06": "ASSERTS Euclidean Upsilon complex, not Lorentzian propagation",
+              "SC-GEO-51": "ASSERTS full U64_64",
+              "SC-GEO-55": "ASSERTS gauge-rotated LC displacement",
+              "SC-META-53": "UNCERTAIN physical indefinite spectra"
+            },
+            "physics_rows": "LT-GR1, LT-GR6b, LT-SM8 verdicts unchanged."
+          },
+          "superseded_continuation": "lab/process/source-action-normal-normal.json"
+        },
+        "normal_normal_consistency_followthrough": {
+          "state": "Every actual first differentiated constraint on arbitrary spatial Q initial profiles is M-repairable at both held W2/K95 backgrounds. Exact full N4 and odd N3 inverses cover the six remaining pure-normal types; intrinsic jet theory covers lower terms. For analytic profiles local analytic particular initial velocities exist. An independent saturated representation bound fixes the whole time-kernel character and seven remaining block sizes; propagated spacetime solutions, physical admission and GU remain undecided.",
+          "next": [
+            {
+              "id": "complete_auxiliary_regular_or_kernel",
+              "status": "ready_for_structural_feasibility_then_exact_discriminator",
+              "target": "LB-CLASS",
+              "tier": "T2",
+              "task": "Treat the complete remaining auxiliary map as one finite structural question: even N3 and both coefficient parities of N0/N1/N2. Reuse complete owned N4/5/6/7 and odd N3. Bound cost and exploit actual structure before assembling; no successive guessed receiver chain.",
+              "expected_delta": "Full regularity yields the exact unrestricted auxiliary graph and removes the separate temporal constraint chain; a singular sector identifies the actual kernel/constraint-module question.",
+              "class_covered": "Full native auxiliary M in the held autonomous imaginary-U W2/K95 quadratic block at both root boxes; not all GU or class C.",
+              "source_bridge": "Conditional candidate scope; full unrestricted graph and physical admission are not source-necessary premises.",
+              "shared_prerequisite": "Complete native rank/range on the seven still-unknown coefficient sectors.",
+              "remaining_cost": "Seven exact highest-multiplicity sizes:952,394,392,992,992,1168,1168;25082 real coefficient directions. Whole time-kernel character is now proved; native M carriers/entries still need construction or an equally complete structural identification. No runtime estimate before timings.",
+              "strongest_eligible_alternative": "An explicit native Clifford intertwiner for the newly proved abstract RS13 tensor S64 plus two-scalars kernel could simplify the same full-M question. No native map, pairing isometry or M factorization is yet proved; do not postpone concrete blocks indefinitely. An invariant differential module containing Q leakage remains a second, less executable alternative.",
+              "kill_condition": "Singularity, an unsuccessful inverse estimate or a failure on a guessed invariant module is not a candidate exclusion. Any negative claim must survive all permitted kernel repairs. A full inverse still does not prove physical wellposedness."
+            },
+            {
+              "id": "actual_propagation_and_physical_readout",
+              "status": "conditional_on_auxiliary_or_constraint_module_disposition",
+              "target": "LB-CLASS",
+              "tier": "T2",
+              "task": "Apply the owned actual reduced-energy and principal-symbol results on a justified domain, then seek actual admissible propagation and source-normalized physical readout.",
+              "revival_input": "Auxiliary graph or exact remaining constraint module; authentic physical domain/quotient and normalization remain separate."
+            }
+          ],
+          "consumed": [
+            "All six remaining pure-normal first-consistency channel types over both Q copies",
+            "The entire actual first-consistency map on arbitrary spatial Q profiles, including lower-order terms by intrinsic jet equivariance",
+            "Normal and zero-order kernel-multiplier searches for this first-consistency question: explicit M range suffices; no claim that those maps vanish"
           ],
           "choice_budget_delta": 0,
           "source_status": {

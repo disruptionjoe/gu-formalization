@@ -1348,7 +1348,7 @@
       "selection_note": "Candidate construction/diagnostic only unless its stated structural family and source bridge satisfy current program_focus. A reserve is not scheduled work."
     }
   ],
-  "priority_effect": "Current directed science uses even_spin5_completion_2026_11_26: complete N5 invertible at both roots; remaining first-consistency test is six pure-normal spin3/4 channel types with all kernel repairs retained. Independent lower-order assembly consumed by intrinsic jet theorem. Policy/cadence/schedules unchanged.",
+  "priority_effect": "Current directed science uses normal_normal_consistency_2026_11_26: complete actual Q first consistency at both roots. Next structural discriminator is the remaining full auxiliary map or its kernel/constraint module, not another Q-only prolongation. Physical propagation/admission unresolved; policy/cadence/schedules unchanged.",
   "evidence": [
     "explorations/conditional-build/source-action-engineering-wave-2026-11-25.md",
     "lab/process/source-action-engineering-wave.json",
@@ -2131,6 +2131,43 @@
       "Independent normal-first and scalar lower-order first-consistency assembly: intrinsic jet equivariance removes their separate cokernel content"
     ],
     "counterfactual_proposal": "lab/process/source-action-even-spin5.json#counterfactual_proposal",
+    "counterfactual_status": "Nov26g proposal-only; no suite or governance execution",
+    "continuation_superseded_by": "lab/process/source-action-normal-normal.json"
+  },
+  "normal_normal_consistency_2026_11_26": {
+    "report": "explorations/conditional-build/source-action-normal-normal-consistency-2026-11-26.md",
+    "evidence": "lab/process/source-action-normal-normal.json",
+    "actual_delta": "Every actual first differentiated constraint on arbitrary spatial Q initial profiles is M-repairable at both held W2/K95 backgrounds. Exact full N4 and odd N3 inverses cover the six remaining pure-normal types; intrinsic jet theory covers lower terms. For analytic profiles local analytic particular initial velocities exist. An independent saturated representation bound fixes the whole time-kernel character and seven remaining block sizes; propagated spacetime solutions, physical admission and GU remain undecided.",
+    "next_directed_worksets": [
+      {
+        "id": "complete_auxiliary_regular_or_kernel",
+        "status": "ready_for_structural_feasibility_then_exact_discriminator",
+        "target": "LB-CLASS",
+        "tier": "T2",
+        "task": "Treat the complete remaining auxiliary map as one finite structural question: even N3 and both coefficient parities of N0/N1/N2. Reuse complete owned N4/5/6/7 and odd N3. Bound cost and exploit actual structure before assembling; no successive guessed receiver chain.",
+        "expected_delta": "Full regularity yields the exact unrestricted auxiliary graph and removes the separate temporal constraint chain; a singular sector identifies the actual kernel/constraint-module question.",
+        "class_covered": "Full native auxiliary M in the held autonomous imaginary-U W2/K95 quadratic block at both root boxes; not all GU or class C.",
+        "source_bridge": "Conditional candidate scope; full unrestricted graph and physical admission are not source-necessary premises.",
+        "shared_prerequisite": "Complete native rank/range on the seven still-unknown coefficient sectors.",
+        "remaining_cost": "Seven exact highest-multiplicity sizes:952,394,392,992,992,1168,1168;25082 real coefficient directions. Whole time-kernel character is now proved; native M carriers/entries still need construction or an equally complete structural identification. No runtime estimate before timings.",
+        "strongest_eligible_alternative": "An explicit native Clifford intertwiner for the newly proved abstract RS13 tensor S64 plus two-scalars kernel could simplify the same full-M question. No native map, pairing isometry or M factorization is yet proved; do not postpone concrete blocks indefinitely. An invariant differential module containing Q leakage remains a second, less executable alternative.",
+        "kill_condition": "Singularity, an unsuccessful inverse estimate or a failure on a guessed invariant module is not a candidate exclusion. Any negative claim must survive all permitted kernel repairs. A full inverse still does not prove physical wellposedness."
+      },
+      {
+        "id": "actual_propagation_and_physical_readout",
+        "status": "conditional_on_auxiliary_or_constraint_module_disposition",
+        "target": "LB-CLASS",
+        "tier": "T2",
+        "task": "Apply the owned actual reduced-energy and principal-symbol results on a justified domain, then seek actual admissible propagation and source-normalized physical readout.",
+        "revival_input": "Auxiliary graph or exact remaining constraint module; authentic physical domain/quotient and normalization remain separate."
+      }
+    ],
+    "consumed": [
+      "All six remaining pure-normal first-consistency channel types over both Q copies",
+      "The entire actual first-consistency map on arbitrary spatial Q profiles, including lower-order terms by intrinsic jet equivariance",
+      "Normal and zero-order kernel-multiplier searches for this first-consistency question: explicit M range suffices; no claim that those maps vanish"
+    ],
+    "counterfactual_proposal": "lab/process/source-action-normal-normal.json#counterfactual_proposal",
     "counterfactual_status": "Nov26g proposal-only; no suite or governance execution"
   }
 }
