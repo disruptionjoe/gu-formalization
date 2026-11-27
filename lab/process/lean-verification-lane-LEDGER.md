@@ -579,3 +579,7 @@ bicategory, ambidexterity or Mackey 2-functor is inferred.
 ## 2026-11-27 — Stationary torus finite cores
 
 `Lean/GUFormalization/StationaryTorus.lean`: **LEAN-VERIFIED**, four lemmas: antisymmetric norm count, two-component independence, positive orthogonal-gauge exclusion and impossibility of a strictly positive gap with a nonpositive witness. Targeted single-thread compilation passed without warnings or placeholders. Global bundle flow, stationary PDE, integration by parts, elliptic domain and inherited flat-PS completeness remain independently reviewed written dependencies. No full-project build or PDE formalization. [Result](../../explorations/conditional-build/bet-mass-gap-stationary-torus-2026-11-27.md).
+
+## 2026-11-27 — Real-form transfer finite cores
+
+`Lean/GUFormalization/RiemannRealForm.lean`: **LEAN-VERIFIED**, five finite lemmas: real-pair kernel inclusion, complex four-row elimination with arbitrary nonzero scales, joint-reference tangent radical, fixed-connection metric block and its nonzero control. Targeted single-thread compilation passed without warnings/placeholders; default import registered. Real-form/Clifford/Spin identifications, polynomial/naturality transport and the functional critical-family theorem remain separately reviewed written inputs. No full native replay, PDE formalization or full-project build. [Result](../../explorations/conditional-build/riemann-realform-transfer-2026-11-27.md).

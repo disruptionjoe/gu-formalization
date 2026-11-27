@@ -1,7 +1,7 @@
 schema_version: '1.0'
 repository: observerse-research-program
 branch: main
-revision_basis: 630b7f50b7fce50efb614d36cb15958b1a4636ff
+revision_basis: 91d78316d84b4724e9e8d20742ed6d6e386d1c0a
 program_focus:
   version: 2026-11-27-v1
   authority: joe_direct_chat_2026_11_27_c
@@ -169,6 +169,50 @@ program_focus:
       This flag never pauses research and does not authorize contact or release.
     retrospective: About every ten scientific waves, review forecast versus actual cost/delta, repeated
       work and useful shortcuts in existing weekly metrics. No new schedule.
+riemann_realform_transfer_2026_11_27:
+  status: internal_T1_realform_transfer_and_critical_family_reviewed
+  basis_revision: 91d78316d84b4724e9e8d20742ed6d6e386d1c0a
+  actual_delta: The fixed-linear full-U/full-Dirac unit-cubic Riemann-silence theorem transfers to all
+    compatible dimension14 real forms, including primary-minus K95, through complexification. For the
+    first action alone, every admissible coherently induced zero-distortion zero-matter reference metric
+    is stationary, and tangents to that critical family are joint Hessian null directions. No physical
+    vacuum/moduli or source-GU verdict.
+  evidence:
+  - explorations/conditional-build/riemann-realform-transfer-2026-11-27.md
+  - lab/process/riemann-realform-transfer.json
+  source_bridge:
+    status: conditional
+    reason: Source supplies full translation/cubic architecture, not necessary bare-curvature factorization
+      or T=0 physical vacuum; W2 symmetrized Euler lies outside endpoint premise.
+  next:
+    id: O26_first_uncomputed_small_h_endpoint_coefficient
+    status: ready_for_bounded_preflight
+    target: LB-CLASS
+    tier: T1 if branch exclusion is proved; otherwise T2 finite cancellation
+    task: Use the already-owned convergent homogeneous W2 branch and on-shell printed-endpoint polynomial
+      to compute the h3 coefficient first in an existing literal-horizontal receiver; no root search or
+      new candidate.
+    formulas:
+    - t1=-S
+    - t2=KS
+    - t3=-K^2 S-N(S,S)
+    - C3=(P-K)t3+2Q(t1,t2)
+    outcomes:
+    - 'Nonzero exact coefficient: exclude the printed-endpoint locus on the entire sufficiently-small
+      nonzero-h stationary branch in this dictionary.'
+    - 'Zero: record this finite cancellation only; compare remaining cost/decision reach before any higher-order
+      calculation.'
+    source_bridge: Candidate dictionary/source endpoint remains conditional. Not a GU verdict, not an
+      assertion either kappa1 root is on the branch.
+    owned_inputs:
+    - explorations/conditional-build/source-action-endpoint-onshell-2026-11-27.md
+    - explorations/conditional-build/source-action-homogeneous-analytic-vacuum-2026-11-25.md
+    - explorations/conditional-build/source-action-dynamics-and-continuation-2026-11-25.md
+    expected_cost: One sparse coefficient composition and exact sign/nonzero test; preflight must authenticate
+      actual function names and normalization.
+    alternative: W2 homogeneous normalization composition remains conditional/unexecuted; lower source
+      relevance without a selected finite-invariant-measure claim.
+  choice_budget_effect: none
 source_action_controls_sensitivity_2026_11_27:
   authority: joe_direct_chat_2026_11_27_a_c
   status: internal_T2_audit_reviewed
@@ -204,11 +248,13 @@ source_action_controls_sensitivity_2026_11_27:
     adjoints: Primary minus is authenticated. Genuine plus comparator needs a full changed real-slice/action/background;
       no reuse of minus roots by relabelling.
     source_rule: No new authenticated prescription in one bounded search. Source-wide absence is not established.
-    next: Structural native K95 four-witness transfer ranks before a guided successor, after the carried
-      ordinary LC slot. No new candidate selected.
+    next: K95 signature-only continuation consumed by real-form transfer. Strongest distinct candidate
+      test is bounded O26 h3 endpoint coefficient on the owned convergent branch; no new candidate.
     weakest_unproved_link: Source necessity and physical admission/readout of this reconstructed candidate;
       its roots also fail the separately printed endpoint.
     claim_effect: No matrix-cell, ledger, source, canon, class-C or paper verdict change.
+    prior_next: Structural native K95 four-witness transfer ranks before a guided successor, after the
+      carried ordinary LC slot. No new candidate selected.
   choice_budget: 10/4/bookkeeping net6/0 source-selected predictions, unchanged
   accounting: 'One directed scientific LB-CLASS wave: count87to88, LB-CLASS45to46; no cell/intersection/shrinkage/verdict/bet
     change. Due LC slot carried explicitly.'
@@ -244,7 +290,7 @@ source_action_riemann_silence_2026_11_27:
       broader field dependence and K95 transfer are not proved.
   continuation:
   - id: native_k95_four_witness_transfer
-    status: deferred_behind_joe_2026_11_27_a_controls
+    status: consumed_by_complexification_transfer
     target: LB-CLASS
     task: Test the four-witness Riemann-silence mechanism on the owned rational primary-minus K95 full-U
       carrier, with native curvature normalization and real maps; no new action or physical domain.
@@ -274,8 +320,11 @@ source_action_riemann_silence_2026_11_27:
       failed transfer rather than assuming signatures interchangeable.
     remaining_cost: Estimated seconds of sparse exact arithmetic, not yet measured; no dense matrices/Sage
       census.
-    control_effect: A candidate next test, not an executed transfer. Does not override the existing counter87
-      LC-BETS slot.
+    control_effect: Four native witness replay is redundant for vanishing; accepted complex rank proof
+      transports under exact full-carrier hypotheses. Actual W2 symmetrized Euler remains outside unit-endpoint
+      premise.
+    prior_status: deferred_behind_joe_2026_11_27_a_controls
+    consumed_evidence: lab/process/riemann-realform-transfer.json
   - id: nonriemann_or_translation_dependent_gravity_source_bridge
     status: conditional_missing_source_physical_response
     target: LB-CLASS
@@ -309,12 +358,17 @@ source_action_riemann_silence_2026_11_27:
   subsequent_joe_direction:
     authority: joe_direct_chat_2026_11_27_a
     status: historical_stop_superseded_by_joe_2026_11_27_c_audit_deliverables_retained
-    current_construction_scope: No new construction in the audit. Subsequent selection is autonomous under Nov27(c), retaining source and choice-family restrictions.
+    current_construction_scope: No new construction in the audit. Subsequent selection is autonomous under
+      Nov27(c), retaining source and choice-family restrictions.
     scope: 'Next directed science work: pipeline controls,10-family/both-adjoint sensitivity,and source-state-rule
       search; max3waves for steps1to3, then stop and report for Joe decision.'
     construction: No new candidate construction until Joe decides.
     effect: K95 transfer candidate retained but deferred behind this directed audit. No automation/schedule
       change.
+  coverage_addendum:
+    ref: lab/process/riemann-realform-transfer.json
+    effect: K95 and compatible real-form scope transferred; original K77 proof and source necessity ceiling
+      unchanged.
 source_action_endpoint_onshell_2026_11_27:
   authority: joe_direct_chat_2026_11_26_continued_falsification_math20
   basis_revision: 1422c19446712d11028c1fd9ed93c961b9eaf529

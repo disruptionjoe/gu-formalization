@@ -1,0 +1,1603 @@
+{
+  "check_count": 952,
+  "checks": {
+    "H0_Hermitian_invertible": true,
+    "H0_associative_closure_mutant_rejected": true,
+    "H0_bracket_closed_0_0": true,
+    "H0_bracket_closed_0_1": true,
+    "H0_bracket_closed_0_2": true,
+    "H0_bracket_closed_0_3": true,
+    "H0_bracket_closed_0_4": true,
+    "H0_bracket_closed_0_5": true,
+    "H0_bracket_closed_0_6": true,
+    "H0_bracket_closed_0_7": true,
+    "H0_bracket_closed_1_0": true,
+    "H0_bracket_closed_1_1": true,
+    "H0_bracket_closed_1_2": true,
+    "H0_bracket_closed_1_3": true,
+    "H0_bracket_closed_1_4": true,
+    "H0_bracket_closed_1_5": true,
+    "H0_bracket_closed_1_6": true,
+    "H0_bracket_closed_1_7": true,
+    "H0_bracket_closed_2_0": true,
+    "H0_bracket_closed_2_1": true,
+    "H0_bracket_closed_2_2": true,
+    "H0_bracket_closed_2_3": true,
+    "H0_bracket_closed_2_4": true,
+    "H0_bracket_closed_2_5": true,
+    "H0_bracket_closed_2_6": true,
+    "H0_bracket_closed_2_7": true,
+    "H0_bracket_closed_3_0": true,
+    "H0_bracket_closed_3_1": true,
+    "H0_bracket_closed_3_2": true,
+    "H0_bracket_closed_3_3": true,
+    "H0_bracket_closed_3_4": true,
+    "H0_bracket_closed_3_5": true,
+    "H0_bracket_closed_3_6": true,
+    "H0_bracket_closed_3_7": true,
+    "H0_bracket_closed_4_0": true,
+    "H0_bracket_closed_4_1": true,
+    "H0_bracket_closed_4_2": true,
+    "H0_bracket_closed_4_3": true,
+    "H0_bracket_closed_4_4": true,
+    "H0_bracket_closed_4_5": true,
+    "H0_bracket_closed_4_6": true,
+    "H0_bracket_closed_4_7": true,
+    "H0_bracket_closed_5_0": true,
+    "H0_bracket_closed_5_1": true,
+    "H0_bracket_closed_5_2": true,
+    "H0_bracket_closed_5_3": true,
+    "H0_bracket_closed_5_4": true,
+    "H0_bracket_closed_5_5": true,
+    "H0_bracket_closed_5_6": true,
+    "H0_bracket_closed_5_7": true,
+    "H0_bracket_closed_6_0": true,
+    "H0_bracket_closed_6_1": true,
+    "H0_bracket_closed_6_2": true,
+    "H0_bracket_closed_6_3": true,
+    "H0_bracket_closed_6_4": true,
+    "H0_bracket_closed_6_5": true,
+    "H0_bracket_closed_6_6": true,
+    "H0_bracket_closed_6_7": true,
+    "H0_bracket_closed_7_0": true,
+    "H0_bracket_closed_7_1": true,
+    "H0_bracket_closed_7_2": true,
+    "H0_bracket_closed_7_3": true,
+    "H0_bracket_closed_7_4": true,
+    "H0_bracket_closed_7_5": true,
+    "H0_bracket_closed_7_6": true,
+    "H0_bracket_closed_7_7": true,
+    "H0_complex_bilinear_0_0": true,
+    "H0_complex_bilinear_0_1": true,
+    "H0_complex_bilinear_0_2": true,
+    "H0_complex_bilinear_0_3": true,
+    "H0_complex_bilinear_0_4": true,
+    "H0_complex_bilinear_0_5": true,
+    "H0_complex_bilinear_0_6": true,
+    "H0_complex_bilinear_0_7": true,
+    "H0_complex_bilinear_1_0": true,
+    "H0_complex_bilinear_1_1": true,
+    "H0_complex_bilinear_1_2": true,
+    "H0_complex_bilinear_1_3": true,
+    "H0_complex_bilinear_1_4": true,
+    "H0_complex_bilinear_1_5": true,
+    "H0_complex_bilinear_1_6": true,
+    "H0_complex_bilinear_1_7": true,
+    "H0_complex_bilinear_2_0": true,
+    "H0_complex_bilinear_2_1": true,
+    "H0_complex_bilinear_2_2": true,
+    "H0_complex_bilinear_2_3": true,
+    "H0_complex_bilinear_2_4": true,
+    "H0_complex_bilinear_2_5": true,
+    "H0_complex_bilinear_2_6": true,
+    "H0_complex_bilinear_2_7": true,
+    "H0_complex_bilinear_3_0": true,
+    "H0_complex_bilinear_3_1": true,
+    "H0_complex_bilinear_3_2": true,
+    "H0_complex_bilinear_3_3": true,
+    "H0_complex_bilinear_3_4": true,
+    "H0_complex_bilinear_3_5": true,
+    "H0_complex_bilinear_3_6": true,
+    "H0_complex_bilinear_3_7": true,
+    "H0_complex_bilinear_4_0": true,
+    "H0_complex_bilinear_4_1": true,
+    "H0_complex_bilinear_4_2": true,
+    "H0_complex_bilinear_4_3": true,
+    "H0_complex_bilinear_4_4": true,
+    "H0_complex_bilinear_4_5": true,
+    "H0_complex_bilinear_4_6": true,
+    "H0_complex_bilinear_4_7": true,
+    "H0_complex_bilinear_5_0": true,
+    "H0_complex_bilinear_5_1": true,
+    "H0_complex_bilinear_5_2": true,
+    "H0_complex_bilinear_5_3": true,
+    "H0_complex_bilinear_5_4": true,
+    "H0_complex_bilinear_5_5": true,
+    "H0_complex_bilinear_5_6": true,
+    "H0_complex_bilinear_5_7": true,
+    "H0_complex_bilinear_6_0": true,
+    "H0_complex_bilinear_6_1": true,
+    "H0_complex_bilinear_6_2": true,
+    "H0_complex_bilinear_6_3": true,
+    "H0_complex_bilinear_6_4": true,
+    "H0_complex_bilinear_6_5": true,
+    "H0_complex_bilinear_6_6": true,
+    "H0_complex_bilinear_6_7": true,
+    "H0_complex_bilinear_7_0": true,
+    "H0_complex_bilinear_7_1": true,
+    "H0_complex_bilinear_7_2": true,
+    "H0_complex_bilinear_7_3": true,
+    "H0_complex_bilinear_7_4": true,
+    "H0_complex_bilinear_7_5": true,
+    "H0_complex_bilinear_7_6": true,
+    "H0_complex_bilinear_7_7": true,
+    "H0_decomposition_0": true,
+    "H0_decomposition_1": true,
+    "H0_decomposition_2": true,
+    "H0_decomposition_3": true,
+    "H0_decomposition_4": true,
+    "H0_decomposition_5": true,
+    "H0_decomposition_6": true,
+    "H0_decomposition_7": true,
+    "H0_discard_imaginary_trace_mutant_rejected": true,
+    "H0_linear_adjoint_mutant_rejected": true,
+    "H0_oneform_curvature_closure": true,
+    "H0_oneform_polarization": true,
+    "H0_real_form_dimension4": true,
+    "H0_sesquilinear_mutant_rejected": true,
+    "H0_sharp_involution_0": true,
+    "H0_sharp_involution_1": true,
+    "H0_sharp_involution_2": true,
+    "H0_sharp_involution_3": true,
+    "H0_sharp_involution_4": true,
+    "H0_sharp_involution_5": true,
+    "H0_sharp_involution_6": true,
+    "H0_sharp_involution_7": true,
+    "H0_trace_real_0_0": true,
+    "H0_trace_real_0_1": true,
+    "H0_trace_real_0_2": true,
+    "H0_trace_real_0_3": true,
+    "H0_trace_real_0_4": true,
+    "H0_trace_real_0_5": true,
+    "H0_trace_real_0_6": true,
+    "H0_trace_real_0_7": true,
+    "H0_trace_real_1_0": true,
+    "H0_trace_real_1_1": true,
+    "H0_trace_real_1_2": true,
+    "H0_trace_real_1_3": true,
+    "H0_trace_real_1_4": true,
+    "H0_trace_real_1_5": true,
+    "H0_trace_real_1_6": true,
+    "H0_trace_real_1_7": true,
+    "H0_trace_real_2_0": true,
+    "H0_trace_real_2_1": true,
+    "H0_trace_real_2_2": true,
+    "H0_trace_real_2_3": true,
+    "H0_trace_real_2_4": true,
+    "H0_trace_real_2_5": true,
+    "H0_trace_real_2_6": true,
+    "H0_trace_real_2_7": true,
+    "H0_trace_real_3_0": true,
+    "H0_trace_real_3_1": true,
+    "H0_trace_real_3_2": true,
+    "H0_trace_real_3_3": true,
+    "H0_trace_real_3_4": true,
+    "H0_trace_real_3_5": true,
+    "H0_trace_real_3_6": true,
+    "H0_trace_real_3_7": true,
+    "H0_trace_real_4_0": true,
+    "H0_trace_real_4_1": true,
+    "H0_trace_real_4_2": true,
+    "H0_trace_real_4_3": true,
+    "H0_trace_real_4_4": true,
+    "H0_trace_real_4_5": true,
+    "H0_trace_real_4_6": true,
+    "H0_trace_real_4_7": true,
+    "H0_trace_real_5_0": true,
+    "H0_trace_real_5_1": true,
+    "H0_trace_real_5_2": true,
+    "H0_trace_real_5_3": true,
+    "H0_trace_real_5_4": true,
+    "H0_trace_real_5_5": true,
+    "H0_trace_real_5_6": true,
+    "H0_trace_real_5_7": true,
+    "H0_trace_real_6_0": true,
+    "H0_trace_real_6_1": true,
+    "H0_trace_real_6_2": true,
+    "H0_trace_real_6_3": true,
+    "H0_trace_real_6_4": true,
+    "H0_trace_real_6_5": true,
+    "H0_trace_real_6_6": true,
+    "H0_trace_real_6_7": true,
+    "H0_trace_real_7_0": true,
+    "H0_trace_real_7_1": true,
+    "H0_trace_real_7_2": true,
+    "H0_trace_real_7_3": true,
+    "H0_trace_real_7_4": true,
+    "H0_trace_real_7_5": true,
+    "H0_trace_real_7_6": true,
+    "H0_trace_real_7_7": true,
+    "H1_Hermitian_invertible": true,
+    "H1_associative_closure_mutant_rejected": true,
+    "H1_bracket_closed_0_0": true,
+    "H1_bracket_closed_0_1": true,
+    "H1_bracket_closed_0_2": true,
+    "H1_bracket_closed_0_3": true,
+    "H1_bracket_closed_0_4": true,
+    "H1_bracket_closed_0_5": true,
+    "H1_bracket_closed_0_6": true,
+    "H1_bracket_closed_1_0": true,
+    "H1_bracket_closed_1_1": true,
+    "H1_bracket_closed_1_2": true,
+    "H1_bracket_closed_1_3": true,
+    "H1_bracket_closed_1_4": true,
+    "H1_bracket_closed_1_5": true,
+    "H1_bracket_closed_1_6": true,
+    "H1_bracket_closed_2_0": true,
+    "H1_bracket_closed_2_1": true,
+    "H1_bracket_closed_2_2": true,
+    "H1_bracket_closed_2_3": true,
+    "H1_bracket_closed_2_4": true,
+    "H1_bracket_closed_2_5": true,
+    "H1_bracket_closed_2_6": true,
+    "H1_bracket_closed_3_0": true,
+    "H1_bracket_closed_3_1": true,
+    "H1_bracket_closed_3_2": true,
+    "H1_bracket_closed_3_3": true,
+    "H1_bracket_closed_3_4": true,
+    "H1_bracket_closed_3_5": true,
+    "H1_bracket_closed_3_6": true,
+    "H1_bracket_closed_4_0": true,
+    "H1_bracket_closed_4_1": true,
+    "H1_bracket_closed_4_2": true,
+    "H1_bracket_closed_4_3": true,
+    "H1_bracket_closed_4_4": true,
+    "H1_bracket_closed_4_5": true,
+    "H1_bracket_closed_4_6": true,
+    "H1_bracket_closed_5_0": true,
+    "H1_bracket_closed_5_1": true,
+    "H1_bracket_closed_5_2": true,
+    "H1_bracket_closed_5_3": true,
+    "H1_bracket_closed_5_4": true,
+    "H1_bracket_closed_5_5": true,
+    "H1_bracket_closed_5_6": true,
+    "H1_bracket_closed_6_0": true,
+    "H1_bracket_closed_6_1": true,
+    "H1_bracket_closed_6_2": true,
+    "H1_bracket_closed_6_3": true,
+    "H1_bracket_closed_6_4": true,
+    "H1_bracket_closed_6_5": true,
+    "H1_bracket_closed_6_6": true,
+    "H1_complex_bilinear_0_0": true,
+    "H1_complex_bilinear_0_1": true,
+    "H1_complex_bilinear_0_2": true,
+    "H1_complex_bilinear_0_3": true,
+    "H1_complex_bilinear_0_4": true,
+    "H1_complex_bilinear_0_5": true,
+    "H1_complex_bilinear_0_6": true,
+    "H1_complex_bilinear_1_0": true,
+    "H1_complex_bilinear_1_1": true,
+    "H1_complex_bilinear_1_2": true,
+    "H1_complex_bilinear_1_3": true,
+    "H1_complex_bilinear_1_4": true,
+    "H1_complex_bilinear_1_5": true,
+    "H1_complex_bilinear_1_6": true,
+    "H1_complex_bilinear_2_0": true,
+    "H1_complex_bilinear_2_1": true,
+    "H1_complex_bilinear_2_2": true,
+    "H1_complex_bilinear_2_3": true,
+    "H1_complex_bilinear_2_4": true,
+    "H1_complex_bilinear_2_5": true,
+    "H1_complex_bilinear_2_6": true,
+    "H1_complex_bilinear_3_0": true,
+    "H1_complex_bilinear_3_1": true,
+    "H1_complex_bilinear_3_2": true,
+    "H1_complex_bilinear_3_3": true,
+    "H1_complex_bilinear_3_4": true,
+    "H1_complex_bilinear_3_5": true,
+    "H1_complex_bilinear_3_6": true,
+    "H1_complex_bilinear_4_0": true,
+    "H1_complex_bilinear_4_1": true,
+    "H1_complex_bilinear_4_2": true,
+    "H1_complex_bilinear_4_3": true,
+    "H1_complex_bilinear_4_4": true,
+    "H1_complex_bilinear_4_5": true,
+    "H1_complex_bilinear_4_6": true,
+    "H1_complex_bilinear_5_0": true,
+    "H1_complex_bilinear_5_1": true,
+    "H1_complex_bilinear_5_2": true,
+    "H1_complex_bilinear_5_3": true,
+    "H1_complex_bilinear_5_4": true,
+    "H1_complex_bilinear_5_5": true,
+    "H1_complex_bilinear_5_6": true,
+    "H1_complex_bilinear_6_0": true,
+    "H1_complex_bilinear_6_1": true,
+    "H1_complex_bilinear_6_2": true,
+    "H1_complex_bilinear_6_3": true,
+    "H1_complex_bilinear_6_4": true,
+    "H1_complex_bilinear_6_5": true,
+    "H1_complex_bilinear_6_6": true,
+    "H1_decomposition_0": true,
+    "H1_decomposition_1": true,
+    "H1_decomposition_2": true,
+    "H1_decomposition_3": true,
+    "H1_decomposition_4": true,
+    "H1_decomposition_5": true,
+    "H1_decomposition_6": true,
+    "H1_decomposition_7": true,
+    "H1_discard_imaginary_trace_mutant_rejected": true,
+    "H1_linear_adjoint_mutant_rejected": true,
+    "H1_oneform_curvature_closure": true,
+    "H1_oneform_polarization": true,
+    "H1_real_form_dimension4": true,
+    "H1_sesquilinear_mutant_rejected": true,
+    "H1_sharp_involution_0": true,
+    "H1_sharp_involution_1": true,
+    "H1_sharp_involution_2": true,
+    "H1_sharp_involution_3": true,
+    "H1_sharp_involution_4": true,
+    "H1_sharp_involution_5": true,
+    "H1_sharp_involution_6": true,
+    "H1_sharp_involution_7": true,
+    "H1_trace_real_0_0": true,
+    "H1_trace_real_0_1": true,
+    "H1_trace_real_0_2": true,
+    "H1_trace_real_0_3": true,
+    "H1_trace_real_0_4": true,
+    "H1_trace_real_0_5": true,
+    "H1_trace_real_0_6": true,
+    "H1_trace_real_1_0": true,
+    "H1_trace_real_1_1": true,
+    "H1_trace_real_1_2": true,
+    "H1_trace_real_1_3": true,
+    "H1_trace_real_1_4": true,
+    "H1_trace_real_1_5": true,
+    "H1_trace_real_1_6": true,
+    "H1_trace_real_2_0": true,
+    "H1_trace_real_2_1": true,
+    "H1_trace_real_2_2": true,
+    "H1_trace_real_2_3": true,
+    "H1_trace_real_2_4": true,
+    "H1_trace_real_2_5": true,
+    "H1_trace_real_2_6": true,
+    "H1_trace_real_3_0": true,
+    "H1_trace_real_3_1": true,
+    "H1_trace_real_3_2": true,
+    "H1_trace_real_3_3": true,
+    "H1_trace_real_3_4": true,
+    "H1_trace_real_3_5": true,
+    "H1_trace_real_3_6": true,
+    "H1_trace_real_4_0": true,
+    "H1_trace_real_4_1": true,
+    "H1_trace_real_4_2": true,
+    "H1_trace_real_4_3": true,
+    "H1_trace_real_4_4": true,
+    "H1_trace_real_4_5": true,
+    "H1_trace_real_4_6": true,
+    "H1_trace_real_5_0": true,
+    "H1_trace_real_5_1": true,
+    "H1_trace_real_5_2": true,
+    "H1_trace_real_5_3": true,
+    "H1_trace_real_5_4": true,
+    "H1_trace_real_5_5": true,
+    "H1_trace_real_5_6": true,
+    "H1_trace_real_6_0": true,
+    "H1_trace_real_6_1": true,
+    "H1_trace_real_6_2": true,
+    "H1_trace_real_6_3": true,
+    "H1_trace_real_6_4": true,
+    "H1_trace_real_6_5": true,
+    "H1_trace_real_6_6": true,
+    "H2_Hermitian_invertible": true,
+    "H2_associative_closure_mutant_rejected": true,
+    "H2_bracket_closed_0_0": true,
+    "H2_bracket_closed_0_1": true,
+    "H2_bracket_closed_0_2": true,
+    "H2_bracket_closed_0_3": true,
+    "H2_bracket_closed_0_4": true,
+    "H2_bracket_closed_0_5": true,
+    "H2_bracket_closed_0_6": true,
+    "H2_bracket_closed_0_7": true,
+    "H2_bracket_closed_0_8": true,
+    "H2_bracket_closed_0_9": true,
+    "H2_bracket_closed_1_0": true,
+    "H2_bracket_closed_1_1": true,
+    "H2_bracket_closed_1_2": true,
+    "H2_bracket_closed_1_3": true,
+    "H2_bracket_closed_1_4": true,
+    "H2_bracket_closed_1_5": true,
+    "H2_bracket_closed_1_6": true,
+    "H2_bracket_closed_1_7": true,
+    "H2_bracket_closed_1_8": true,
+    "H2_bracket_closed_1_9": true,
+    "H2_bracket_closed_2_0": true,
+    "H2_bracket_closed_2_1": true,
+    "H2_bracket_closed_2_2": true,
+    "H2_bracket_closed_2_3": true,
+    "H2_bracket_closed_2_4": true,
+    "H2_bracket_closed_2_5": true,
+    "H2_bracket_closed_2_6": true,
+    "H2_bracket_closed_2_7": true,
+    "H2_bracket_closed_2_8": true,
+    "H2_bracket_closed_2_9": true,
+    "H2_bracket_closed_3_0": true,
+    "H2_bracket_closed_3_1": true,
+    "H2_bracket_closed_3_2": true,
+    "H2_bracket_closed_3_3": true,
+    "H2_bracket_closed_3_4": true,
+    "H2_bracket_closed_3_5": true,
+    "H2_bracket_closed_3_6": true,
+    "H2_bracket_closed_3_7": true,
+    "H2_bracket_closed_3_8": true,
+    "H2_bracket_closed_3_9": true,
+    "H2_bracket_closed_4_0": true,
+    "H2_bracket_closed_4_1": true,
+    "H2_bracket_closed_4_2": true,
+    "H2_bracket_closed_4_3": true,
+    "H2_bracket_closed_4_4": true,
+    "H2_bracket_closed_4_5": true,
+    "H2_bracket_closed_4_6": true,
+    "H2_bracket_closed_4_7": true,
+    "H2_bracket_closed_4_8": true,
+    "H2_bracket_closed_4_9": true,
+    "H2_bracket_closed_5_0": true,
+    "H2_bracket_closed_5_1": true,
+    "H2_bracket_closed_5_2": true,
+    "H2_bracket_closed_5_3": true,
+    "H2_bracket_closed_5_4": true,
+    "H2_bracket_closed_5_5": true,
+    "H2_bracket_closed_5_6": true,
+    "H2_bracket_closed_5_7": true,
+    "H2_bracket_closed_5_8": true,
+    "H2_bracket_closed_5_9": true,
+    "H2_bracket_closed_6_0": true,
+    "H2_bracket_closed_6_1": true,
+    "H2_bracket_closed_6_2": true,
+    "H2_bracket_closed_6_3": true,
+    "H2_bracket_closed_6_4": true,
+    "H2_bracket_closed_6_5": true,
+    "H2_bracket_closed_6_6": true,
+    "H2_bracket_closed_6_7": true,
+    "H2_bracket_closed_6_8": true,
+    "H2_bracket_closed_6_9": true,
+    "H2_bracket_closed_7_0": true,
+    "H2_bracket_closed_7_1": true,
+    "H2_bracket_closed_7_2": true,
+    "H2_bracket_closed_7_3": true,
+    "H2_bracket_closed_7_4": true,
+    "H2_bracket_closed_7_5": true,
+    "H2_bracket_closed_7_6": true,
+    "H2_bracket_closed_7_7": true,
+    "H2_bracket_closed_7_8": true,
+    "H2_bracket_closed_7_9": true,
+    "H2_bracket_closed_8_0": true,
+    "H2_bracket_closed_8_1": true,
+    "H2_bracket_closed_8_2": true,
+    "H2_bracket_closed_8_3": true,
+    "H2_bracket_closed_8_4": true,
+    "H2_bracket_closed_8_5": true,
+    "H2_bracket_closed_8_6": true,
+    "H2_bracket_closed_8_7": true,
+    "H2_bracket_closed_8_8": true,
+    "H2_bracket_closed_8_9": true,
+    "H2_bracket_closed_9_0": true,
+    "H2_bracket_closed_9_1": true,
+    "H2_bracket_closed_9_2": true,
+    "H2_bracket_closed_9_3": true,
+    "H2_bracket_closed_9_4": true,
+    "H2_bracket_closed_9_5": true,
+    "H2_bracket_closed_9_6": true,
+    "H2_bracket_closed_9_7": true,
+    "H2_bracket_closed_9_8": true,
+    "H2_bracket_closed_9_9": true,
+    "H2_complex_bilinear_0_0": true,
+    "H2_complex_bilinear_0_1": true,
+    "H2_complex_bilinear_0_2": true,
+    "H2_complex_bilinear_0_3": true,
+    "H2_complex_bilinear_0_4": true,
+    "H2_complex_bilinear_0_5": true,
+    "H2_complex_bilinear_0_6": true,
+    "H2_complex_bilinear_0_7": true,
+    "H2_complex_bilinear_0_8": true,
+    "H2_complex_bilinear_0_9": true,
+    "H2_complex_bilinear_1_0": true,
+    "H2_complex_bilinear_1_1": true,
+    "H2_complex_bilinear_1_2": true,
+    "H2_complex_bilinear_1_3": true,
+    "H2_complex_bilinear_1_4": true,
+    "H2_complex_bilinear_1_5": true,
+    "H2_complex_bilinear_1_6": true,
+    "H2_complex_bilinear_1_7": true,
+    "H2_complex_bilinear_1_8": true,
+    "H2_complex_bilinear_1_9": true,
+    "H2_complex_bilinear_2_0": true,
+    "H2_complex_bilinear_2_1": true,
+    "H2_complex_bilinear_2_2": true,
+    "H2_complex_bilinear_2_3": true,
+    "H2_complex_bilinear_2_4": true,
+    "H2_complex_bilinear_2_5": true,
+    "H2_complex_bilinear_2_6": true,
+    "H2_complex_bilinear_2_7": true,
+    "H2_complex_bilinear_2_8": true,
+    "H2_complex_bilinear_2_9": true,
+    "H2_complex_bilinear_3_0": true,
+    "H2_complex_bilinear_3_1": true,
+    "H2_complex_bilinear_3_2": true,
+    "H2_complex_bilinear_3_3": true,
+    "H2_complex_bilinear_3_4": true,
+    "H2_complex_bilinear_3_5": true,
+    "H2_complex_bilinear_3_6": true,
+    "H2_complex_bilinear_3_7": true,
+    "H2_complex_bilinear_3_8": true,
+    "H2_complex_bilinear_3_9": true,
+    "H2_complex_bilinear_4_0": true,
+    "H2_complex_bilinear_4_1": true,
+    "H2_complex_bilinear_4_2": true,
+    "H2_complex_bilinear_4_3": true,
+    "H2_complex_bilinear_4_4": true,
+    "H2_complex_bilinear_4_5": true,
+    "H2_complex_bilinear_4_6": true,
+    "H2_complex_bilinear_4_7": true,
+    "H2_complex_bilinear_4_8": true,
+    "H2_complex_bilinear_4_9": true,
+    "H2_complex_bilinear_5_0": true,
+    "H2_complex_bilinear_5_1": true,
+    "H2_complex_bilinear_5_2": true,
+    "H2_complex_bilinear_5_3": true,
+    "H2_complex_bilinear_5_4": true,
+    "H2_complex_bilinear_5_5": true,
+    "H2_complex_bilinear_5_6": true,
+    "H2_complex_bilinear_5_7": true,
+    "H2_complex_bilinear_5_8": true,
+    "H2_complex_bilinear_5_9": true,
+    "H2_complex_bilinear_6_0": true,
+    "H2_complex_bilinear_6_1": true,
+    "H2_complex_bilinear_6_2": true,
+    "H2_complex_bilinear_6_3": true,
+    "H2_complex_bilinear_6_4": true,
+    "H2_complex_bilinear_6_5": true,
+    "H2_complex_bilinear_6_6": true,
+    "H2_complex_bilinear_6_7": true,
+    "H2_complex_bilinear_6_8": true,
+    "H2_complex_bilinear_6_9": true,
+    "H2_complex_bilinear_7_0": true,
+    "H2_complex_bilinear_7_1": true,
+    "H2_complex_bilinear_7_2": true,
+    "H2_complex_bilinear_7_3": true,
+    "H2_complex_bilinear_7_4": true,
+    "H2_complex_bilinear_7_5": true,
+    "H2_complex_bilinear_7_6": true,
+    "H2_complex_bilinear_7_7": true,
+    "H2_complex_bilinear_7_8": true,
+    "H2_complex_bilinear_7_9": true,
+    "H2_complex_bilinear_8_0": true,
+    "H2_complex_bilinear_8_1": true,
+    "H2_complex_bilinear_8_2": true,
+    "H2_complex_bilinear_8_3": true,
+    "H2_complex_bilinear_8_4": true,
+    "H2_complex_bilinear_8_5": true,
+    "H2_complex_bilinear_8_6": true,
+    "H2_complex_bilinear_8_7": true,
+    "H2_complex_bilinear_8_8": true,
+    "H2_complex_bilinear_8_9": true,
+    "H2_complex_bilinear_9_0": true,
+    "H2_complex_bilinear_9_1": true,
+    "H2_complex_bilinear_9_2": true,
+    "H2_complex_bilinear_9_3": true,
+    "H2_complex_bilinear_9_4": true,
+    "H2_complex_bilinear_9_5": true,
+    "H2_complex_bilinear_9_6": true,
+    "H2_complex_bilinear_9_7": true,
+    "H2_complex_bilinear_9_8": true,
+    "H2_complex_bilinear_9_9": true,
+    "H2_decomposition_0": true,
+    "H2_decomposition_1": true,
+    "H2_decomposition_2": true,
+    "H2_decomposition_3": true,
+    "H2_decomposition_4": true,
+    "H2_decomposition_5": true,
+    "H2_decomposition_6": true,
+    "H2_decomposition_7": true,
+    "H2_discard_imaginary_trace_mutant_rejected": true,
+    "H2_linear_adjoint_mutant_rejected": true,
+    "H2_oneform_curvature_closure": true,
+    "H2_oneform_polarization": true,
+    "H2_real_form_dimension4": true,
+    "H2_sesquilinear_mutant_rejected": true,
+    "H2_sharp_involution_0": true,
+    "H2_sharp_involution_1": true,
+    "H2_sharp_involution_2": true,
+    "H2_sharp_involution_3": true,
+    "H2_sharp_involution_4": true,
+    "H2_sharp_involution_5": true,
+    "H2_sharp_involution_6": true,
+    "H2_sharp_involution_7": true,
+    "H2_trace_real_0_0": true,
+    "H2_trace_real_0_1": true,
+    "H2_trace_real_0_2": true,
+    "H2_trace_real_0_3": true,
+    "H2_trace_real_0_4": true,
+    "H2_trace_real_0_5": true,
+    "H2_trace_real_0_6": true,
+    "H2_trace_real_0_7": true,
+    "H2_trace_real_0_8": true,
+    "H2_trace_real_0_9": true,
+    "H2_trace_real_1_0": true,
+    "H2_trace_real_1_1": true,
+    "H2_trace_real_1_2": true,
+    "H2_trace_real_1_3": true,
+    "H2_trace_real_1_4": true,
+    "H2_trace_real_1_5": true,
+    "H2_trace_real_1_6": true,
+    "H2_trace_real_1_7": true,
+    "H2_trace_real_1_8": true,
+    "H2_trace_real_1_9": true,
+    "H2_trace_real_2_0": true,
+    "H2_trace_real_2_1": true,
+    "H2_trace_real_2_2": true,
+    "H2_trace_real_2_3": true,
+    "H2_trace_real_2_4": true,
+    "H2_trace_real_2_5": true,
+    "H2_trace_real_2_6": true,
+    "H2_trace_real_2_7": true,
+    "H2_trace_real_2_8": true,
+    "H2_trace_real_2_9": true,
+    "H2_trace_real_3_0": true,
+    "H2_trace_real_3_1": true,
+    "H2_trace_real_3_2": true,
+    "H2_trace_real_3_3": true,
+    "H2_trace_real_3_4": true,
+    "H2_trace_real_3_5": true,
+    "H2_trace_real_3_6": true,
+    "H2_trace_real_3_7": true,
+    "H2_trace_real_3_8": true,
+    "H2_trace_real_3_9": true,
+    "H2_trace_real_4_0": true,
+    "H2_trace_real_4_1": true,
+    "H2_trace_real_4_2": true,
+    "H2_trace_real_4_3": true,
+    "H2_trace_real_4_4": true,
+    "H2_trace_real_4_5": true,
+    "H2_trace_real_4_6": true,
+    "H2_trace_real_4_7": true,
+    "H2_trace_real_4_8": true,
+    "H2_trace_real_4_9": true,
+    "H2_trace_real_5_0": true,
+    "H2_trace_real_5_1": true,
+    "H2_trace_real_5_2": true,
+    "H2_trace_real_5_3": true,
+    "H2_trace_real_5_4": true,
+    "H2_trace_real_5_5": true,
+    "H2_trace_real_5_6": true,
+    "H2_trace_real_5_7": true,
+    "H2_trace_real_5_8": true,
+    "H2_trace_real_5_9": true,
+    "H2_trace_real_6_0": true,
+    "H2_trace_real_6_1": true,
+    "H2_trace_real_6_2": true,
+    "H2_trace_real_6_3": true,
+    "H2_trace_real_6_4": true,
+    "H2_trace_real_6_5": true,
+    "H2_trace_real_6_6": true,
+    "H2_trace_real_6_7": true,
+    "H2_trace_real_6_8": true,
+    "H2_trace_real_6_9": true,
+    "H2_trace_real_7_0": true,
+    "H2_trace_real_7_1": true,
+    "H2_trace_real_7_2": true,
+    "H2_trace_real_7_3": true,
+    "H2_trace_real_7_4": true,
+    "H2_trace_real_7_5": true,
+    "H2_trace_real_7_6": true,
+    "H2_trace_real_7_7": true,
+    "H2_trace_real_7_8": true,
+    "H2_trace_real_7_9": true,
+    "H2_trace_real_8_0": true,
+    "H2_trace_real_8_1": true,
+    "H2_trace_real_8_2": true,
+    "H2_trace_real_8_3": true,
+    "H2_trace_real_8_4": true,
+    "H2_trace_real_8_5": true,
+    "H2_trace_real_8_6": true,
+    "H2_trace_real_8_7": true,
+    "H2_trace_real_8_8": true,
+    "H2_trace_real_8_9": true,
+    "H2_trace_real_9_0": true,
+    "H2_trace_real_9_1": true,
+    "H2_trace_real_9_2": true,
+    "H2_trace_real_9_3": true,
+    "H2_trace_real_9_4": true,
+    "H2_trace_real_9_5": true,
+    "H2_trace_real_9_6": true,
+    "H2_trace_real_9_7": true,
+    "H2_trace_real_9_8": true,
+    "H2_trace_real_9_9": true,
+    "H3_Hermitian_invertible": true,
+    "H3_associative_closure_mutant_rejected": true,
+    "H3_bracket_closed_0_0": true,
+    "H3_bracket_closed_0_1": true,
+    "H3_bracket_closed_0_2": true,
+    "H3_bracket_closed_0_3": true,
+    "H3_bracket_closed_0_4": true,
+    "H3_bracket_closed_0_5": true,
+    "H3_bracket_closed_0_6": true,
+    "H3_bracket_closed_0_7": true,
+    "H3_bracket_closed_1_0": true,
+    "H3_bracket_closed_1_1": true,
+    "H3_bracket_closed_1_2": true,
+    "H3_bracket_closed_1_3": true,
+    "H3_bracket_closed_1_4": true,
+    "H3_bracket_closed_1_5": true,
+    "H3_bracket_closed_1_6": true,
+    "H3_bracket_closed_1_7": true,
+    "H3_bracket_closed_2_0": true,
+    "H3_bracket_closed_2_1": true,
+    "H3_bracket_closed_2_2": true,
+    "H3_bracket_closed_2_3": true,
+    "H3_bracket_closed_2_4": true,
+    "H3_bracket_closed_2_5": true,
+    "H3_bracket_closed_2_6": true,
+    "H3_bracket_closed_2_7": true,
+    "H3_bracket_closed_3_0": true,
+    "H3_bracket_closed_3_1": true,
+    "H3_bracket_closed_3_2": true,
+    "H3_bracket_closed_3_3": true,
+    "H3_bracket_closed_3_4": true,
+    "H3_bracket_closed_3_5": true,
+    "H3_bracket_closed_3_6": true,
+    "H3_bracket_closed_3_7": true,
+    "H3_bracket_closed_4_0": true,
+    "H3_bracket_closed_4_1": true,
+    "H3_bracket_closed_4_2": true,
+    "H3_bracket_closed_4_3": true,
+    "H3_bracket_closed_4_4": true,
+    "H3_bracket_closed_4_5": true,
+    "H3_bracket_closed_4_6": true,
+    "H3_bracket_closed_4_7": true,
+    "H3_bracket_closed_5_0": true,
+    "H3_bracket_closed_5_1": true,
+    "H3_bracket_closed_5_2": true,
+    "H3_bracket_closed_5_3": true,
+    "H3_bracket_closed_5_4": true,
+    "H3_bracket_closed_5_5": true,
+    "H3_bracket_closed_5_6": true,
+    "H3_bracket_closed_5_7": true,
+    "H3_bracket_closed_6_0": true,
+    "H3_bracket_closed_6_1": true,
+    "H3_bracket_closed_6_2": true,
+    "H3_bracket_closed_6_3": true,
+    "H3_bracket_closed_6_4": true,
+    "H3_bracket_closed_6_5": true,
+    "H3_bracket_closed_6_6": true,
+    "H3_bracket_closed_6_7": true,
+    "H3_bracket_closed_7_0": true,
+    "H3_bracket_closed_7_1": true,
+    "H3_bracket_closed_7_2": true,
+    "H3_bracket_closed_7_3": true,
+    "H3_bracket_closed_7_4": true,
+    "H3_bracket_closed_7_5": true,
+    "H3_bracket_closed_7_6": true,
+    "H3_bracket_closed_7_7": true,
+    "H3_complex_bilinear_0_0": true,
+    "H3_complex_bilinear_0_1": true,
+    "H3_complex_bilinear_0_2": true,
+    "H3_complex_bilinear_0_3": true,
+    "H3_complex_bilinear_0_4": true,
+    "H3_complex_bilinear_0_5": true,
+    "H3_complex_bilinear_0_6": true,
+    "H3_complex_bilinear_0_7": true,
+    "H3_complex_bilinear_1_0": true,
+    "H3_complex_bilinear_1_1": true,
+    "H3_complex_bilinear_1_2": true,
+    "H3_complex_bilinear_1_3": true,
+    "H3_complex_bilinear_1_4": true,
+    "H3_complex_bilinear_1_5": true,
+    "H3_complex_bilinear_1_6": true,
+    "H3_complex_bilinear_1_7": true,
+    "H3_complex_bilinear_2_0": true,
+    "H3_complex_bilinear_2_1": true,
+    "H3_complex_bilinear_2_2": true,
+    "H3_complex_bilinear_2_3": true,
+    "H3_complex_bilinear_2_4": true,
+    "H3_complex_bilinear_2_5": true,
+    "H3_complex_bilinear_2_6": true,
+    "H3_complex_bilinear_2_7": true,
+    "H3_complex_bilinear_3_0": true,
+    "H3_complex_bilinear_3_1": true,
+    "H3_complex_bilinear_3_2": true,
+    "H3_complex_bilinear_3_3": true,
+    "H3_complex_bilinear_3_4": true,
+    "H3_complex_bilinear_3_5": true,
+    "H3_complex_bilinear_3_6": true,
+    "H3_complex_bilinear_3_7": true,
+    "H3_complex_bilinear_4_0": true,
+    "H3_complex_bilinear_4_1": true,
+    "H3_complex_bilinear_4_2": true,
+    "H3_complex_bilinear_4_3": true,
+    "H3_complex_bilinear_4_4": true,
+    "H3_complex_bilinear_4_5": true,
+    "H3_complex_bilinear_4_6": true,
+    "H3_complex_bilinear_4_7": true,
+    "H3_complex_bilinear_5_0": true,
+    "H3_complex_bilinear_5_1": true,
+    "H3_complex_bilinear_5_2": true,
+    "H3_complex_bilinear_5_3": true,
+    "H3_complex_bilinear_5_4": true,
+    "H3_complex_bilinear_5_5": true,
+    "H3_complex_bilinear_5_6": true,
+    "H3_complex_bilinear_5_7": true,
+    "H3_complex_bilinear_6_0": true,
+    "H3_complex_bilinear_6_1": true,
+    "H3_complex_bilinear_6_2": true,
+    "H3_complex_bilinear_6_3": true,
+    "H3_complex_bilinear_6_4": true,
+    "H3_complex_bilinear_6_5": true,
+    "H3_complex_bilinear_6_6": true,
+    "H3_complex_bilinear_6_7": true,
+    "H3_complex_bilinear_7_0": true,
+    "H3_complex_bilinear_7_1": true,
+    "H3_complex_bilinear_7_2": true,
+    "H3_complex_bilinear_7_3": true,
+    "H3_complex_bilinear_7_4": true,
+    "H3_complex_bilinear_7_5": true,
+    "H3_complex_bilinear_7_6": true,
+    "H3_complex_bilinear_7_7": true,
+    "H3_decomposition_0": true,
+    "H3_decomposition_1": true,
+    "H3_decomposition_2": true,
+    "H3_decomposition_3": true,
+    "H3_decomposition_4": true,
+    "H3_decomposition_5": true,
+    "H3_decomposition_6": true,
+    "H3_decomposition_7": true,
+    "H3_discard_imaginary_trace_mutant_rejected": true,
+    "H3_linear_adjoint_mutant_rejected": true,
+    "H3_oneform_curvature_closure": true,
+    "H3_oneform_polarization": true,
+    "H3_real_form_dimension4": true,
+    "H3_sesquilinear_mutant_rejected": true,
+    "H3_sharp_involution_0": true,
+    "H3_sharp_involution_1": true,
+    "H3_sharp_involution_2": true,
+    "H3_sharp_involution_3": true,
+    "H3_sharp_involution_4": true,
+    "H3_sharp_involution_5": true,
+    "H3_sharp_involution_6": true,
+    "H3_sharp_involution_7": true,
+    "H3_trace_real_0_0": true,
+    "H3_trace_real_0_1": true,
+    "H3_trace_real_0_2": true,
+    "H3_trace_real_0_3": true,
+    "H3_trace_real_0_4": true,
+    "H3_trace_real_0_5": true,
+    "H3_trace_real_0_6": true,
+    "H3_trace_real_0_7": true,
+    "H3_trace_real_1_0": true,
+    "H3_trace_real_1_1": true,
+    "H3_trace_real_1_2": true,
+    "H3_trace_real_1_3": true,
+    "H3_trace_real_1_4": true,
+    "H3_trace_real_1_5": true,
+    "H3_trace_real_1_6": true,
+    "H3_trace_real_1_7": true,
+    "H3_trace_real_2_0": true,
+    "H3_trace_real_2_1": true,
+    "H3_trace_real_2_2": true,
+    "H3_trace_real_2_3": true,
+    "H3_trace_real_2_4": true,
+    "H3_trace_real_2_5": true,
+    "H3_trace_real_2_6": true,
+    "H3_trace_real_2_7": true,
+    "H3_trace_real_3_0": true,
+    "H3_trace_real_3_1": true,
+    "H3_trace_real_3_2": true,
+    "H3_trace_real_3_3": true,
+    "H3_trace_real_3_4": true,
+    "H3_trace_real_3_5": true,
+    "H3_trace_real_3_6": true,
+    "H3_trace_real_3_7": true,
+    "H3_trace_real_4_0": true,
+    "H3_trace_real_4_1": true,
+    "H3_trace_real_4_2": true,
+    "H3_trace_real_4_3": true,
+    "H3_trace_real_4_4": true,
+    "H3_trace_real_4_5": true,
+    "H3_trace_real_4_6": true,
+    "H3_trace_real_4_7": true,
+    "H3_trace_real_5_0": true,
+    "H3_trace_real_5_1": true,
+    "H3_trace_real_5_2": true,
+    "H3_trace_real_5_3": true,
+    "H3_trace_real_5_4": true,
+    "H3_trace_real_5_5": true,
+    "H3_trace_real_5_6": true,
+    "H3_trace_real_5_7": true,
+    "H3_trace_real_6_0": true,
+    "H3_trace_real_6_1": true,
+    "H3_trace_real_6_2": true,
+    "H3_trace_real_6_3": true,
+    "H3_trace_real_6_4": true,
+    "H3_trace_real_6_5": true,
+    "H3_trace_real_6_6": true,
+    "H3_trace_real_6_7": true,
+    "H3_trace_real_7_0": true,
+    "H3_trace_real_7_1": true,
+    "H3_trace_real_7_2": true,
+    "H3_trace_real_7_3": true,
+    "H3_trace_real_7_4": true,
+    "H3_trace_real_7_5": true,
+    "H3_trace_real_7_6": true,
+    "H3_trace_real_7_7": true,
+    "complex_scaled_inherited_rows_rank4": true,
+    "complex_scaled_rref_identity": true,
+    "connection_chart_Hessian_chain_rule": true,
+    "connection_chart_first_variation_0_zero": true,
+    "connection_chart_first_variation_1_zero": true,
+    "connection_chart_reference_action_zero": true,
+    "distortion_TT_block": true,
+    "distortion_first_variation_0_zero": true,
+    "distortion_first_variation_1_zero": true,
+    "distortion_metric_and_cross_blocks_zero": true,
+    "distortion_reference_action_zero": true,
+    "fixed_A_metric_block_not_zero": true,
+    "independent_determinant_scaling": true,
+    "inherited_dependency_binding_only:explorations/resolver-wave-k77b2-shiab-family-curvature-selector-transgression-2026-08-04.md": true,
+    "inherited_dependency_binding_only:explorations/resolver-wave-k77b3-full-domain-cyclic-kernel-obstruction-2026-08-04.md": true,
+    "inherited_dependency_binding_only:lab/process/resolver-wave-k77b2-shiab-family-curvature-selector-transgression.json": true,
+    "inherited_dependency_binding_only:lab/process/resolver-wave-k77b3-full-domain-cyclic-kernel-obstruction.json": true,
+    "inherited_dependency_binding_only:tests/channel-swings/resolver_wave_k77b3_full_domain_cyclic_kernel_obstruction_probe.py": true,
+    "inherited_producer_binding_only": true,
+    "inherited_rows_shape": true,
+    "joint_reference_tangent_radical": true,
+    "outside_only_rank2_mutant_rejected": true,
+    "pointwise_zero_coefficient_not_identical_mutant": true,
+    "real_part_only_elimination_mutant_rejected": true,
+    "zero_row_scale_mutant_rejected": true
+  },
+  "data_only": true,
+  "dependency_only_sha256": {
+    "explorations/conditional-build/source-action-external-datum-candidate-2026-11-25.md": "63dbb8dfe00071a16cb87076d6aaea9a0caab9b04647049849e00c7b3ac76790",
+    "explorations/conditional-build/source-action-riemann-silence-2026-11-27.md": "55eb23aa1b272fea90b62eaa3e225b8cad32c5999c086f82a1d36549cfb16a28",
+    "explorations/conditional-build/source-action-wave2-construction-2026-11-25.md": "6cef6f8213a23a7df54ae5af1f7a4efbb5043aff218e911f30403cb1eb72f0a4",
+    "explorations/resolver-wave-k77b2-shiab-family-curvature-selector-transgression-2026-08-04.md": "1727ee4cec276645f46e3fb7b45fd820d33e547503187045d119be7bf8a2f1bf",
+    "lab/process/source-action-riemann-silence-certificates.json": "f23f590c470fa1fb4c878e19519cb88010c14276a157954410a0cc779b2ede1a",
+    "tests/program-focus/source_action_riemann_silence_probe.py": "20fd4bfcb3c26aa26714a38b1e7dcb32a7e7b62a478833601d8182550128c313"
+  },
+  "dependency_policy": "Inherited K77 rows, classification and native certificate are bound as dependencies; their 317 checks are not rerun or counted as fresh checks.",
+  "inherited_row_adapter": {
+    "determinant": [
+      "-652354560",
+      "-2391966720"
+    ],
+    "nonzero_complex_scales": [
+      [
+        "1",
+        "1"
+      ],
+      [
+        "2",
+        "-1"
+      ],
+      [
+        "-3",
+        "2"
+      ],
+      [
+        "0",
+        "5"
+      ]
+    ],
+    "rows": [
+      [
+        [
+          "0",
+          "0"
+        ],
+        [
+          "264",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ]
+      ],
+      [
+        [
+          "22",
+          "0"
+        ],
+        [
+          "264",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ]
+      ],
+      [
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "312",
+          "0"
+        ]
+      ],
+      [
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "24",
+          "0"
+        ],
+        [
+          "312",
+          "0"
+        ]
+      ]
+    ],
+    "rref": [
+      [
+        [
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ]
+      ],
+      [
+        [
+          "0",
+          "0"
+        ],
+        [
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ]
+      ],
+      [
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ]
+      ],
+      [
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "1",
+          "0"
+        ]
+      ]
+    ],
+    "scale_scope": "abstract nonzero complex normalization controls, not measured K95 native coefficients",
+    "scaled_rows": [
+      [
+        [
+          "0",
+          "0"
+        ],
+        [
+          "264",
+          "264"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ]
+      ],
+      [
+        [
+          "44",
+          "-22"
+        ],
+        [
+          "528",
+          "-264"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ]
+      ],
+      [
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "-936",
+          "624"
+        ]
+      ],
+      [
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "120"
+        ],
+        [
+          "0",
+          "1560"
+        ]
+      ]
+    ]
+  },
+  "not_run": [
+    "Inherited 317-check Clifford replay",
+    "Dense Dirac matrices or K95 witness reconstruction",
+    "New representation/Hom census",
+    "New action or domain construction",
+    "Lean compilation",
+    "PDE, physical quotient or source-wide proof"
+  ],
+  "polynomial_chart_controls": {
+    "connection_Hessian": [
+      [
+        [
+          [
+            [
+              0,
+              0
+            ],
+            "8"
+          ],
+          [
+            [
+              1,
+              0
+            ],
+            "8"
+          ],
+          [
+            [
+              2,
+              0
+            ],
+            "8"
+          ]
+        ],
+        [
+          [
+            [
+              0,
+              0
+            ],
+            "-4"
+          ],
+          [
+            [
+              1,
+              0
+            ],
+            "-4"
+          ],
+          [
+            [
+              2,
+              0
+            ],
+            "-4"
+          ]
+        ]
+      ],
+      [
+        [
+          [
+            [
+              0,
+              0
+            ],
+            "-4"
+          ],
+          [
+            [
+              1,
+              0
+            ],
+            "-4"
+          ],
+          [
+            [
+              2,
+              0
+            ],
+            "-4"
+          ]
+        ],
+        [
+          [
+            [
+              0,
+              0
+            ],
+            "2"
+          ],
+          [
+            [
+              1,
+              0
+            ],
+            "2"
+          ],
+          [
+            [
+              2,
+              0
+            ],
+            "2"
+          ]
+        ]
+      ]
+    ],
+    "connection_action": [
+      [
+        [
+          0,
+          2
+        ],
+        "1"
+      ],
+      [
+        [
+          0,
+          3
+        ],
+        "2"
+      ],
+      [
+        [
+          1,
+          1
+        ],
+        "-4"
+      ],
+      [
+        [
+          1,
+          2
+        ],
+        "-11"
+      ],
+      [
+        [
+          1,
+          3
+        ],
+        "-1"
+      ],
+      [
+        [
+          2,
+          0
+        ],
+        "4"
+      ],
+      [
+        [
+          2,
+          1
+        ],
+        "20"
+      ],
+      [
+        [
+          2,
+          2
+        ],
+        "7"
+      ],
+      [
+        [
+          3,
+          0
+        ],
+        "-12"
+      ],
+      [
+        [
+          3,
+          1
+        ],
+        "-16"
+      ],
+      [
+        [
+          4,
+          0
+        ],
+        "12"
+      ]
+    ],
+    "distortion_Hessian": [
+      [
+        [],
+        []
+      ],
+      [
+        [],
+        [
+          [
+            [
+              0,
+              0
+            ],
+            "2"
+          ],
+          [
+            [
+              1,
+              0
+            ],
+            "2"
+          ],
+          [
+            [
+              2,
+              0
+            ],
+            "2"
+          ]
+        ]
+      ]
+    ],
+    "distortion_action": [
+      [
+        [
+          0,
+          2
+        ],
+        "1"
+      ],
+      [
+        [
+          0,
+          3
+        ],
+        "2"
+      ],
+      [
+        [
+          1,
+          2
+        ],
+        "1"
+      ],
+      [
+        [
+          1,
+          3
+        ],
+        "-1"
+      ],
+      [
+        [
+          2,
+          2
+        ],
+        "1"
+      ]
+    ],
+    "reference_connection": "A=2g",
+    "scope": "finite symbolic calibration of the written O(T^2) argument; not a newly proposed action",
+    "variables": [
+      "g",
+      "T or A"
+    ]
+  },
+  "probe_sha256": "3fd7e28bdfb35e815794fa82b4f2c6939252c94250eaf62ab8b2bd0706e331e2",
+  "real_form_finite_controls": [
+    {
+      "H": [
+        [
+          [
+            "1",
+            "0"
+          ],
+          [
+            "0",
+            "0"
+          ]
+        ],
+        [
+          [
+            "0",
+            "0"
+          ],
+          [
+            "1",
+            "0"
+          ]
+        ]
+      ],
+      "imaginary_trace_control": [
+        "0",
+        "-2"
+      ],
+      "real_basis_count_before_rank": 8,
+      "sesquilinear_mutant_failures": 16
+    },
+    {
+      "H": [
+        [
+          [
+            "1",
+            "0"
+          ],
+          [
+            "0",
+            "0"
+          ]
+        ],
+        [
+          [
+            "0",
+            "0"
+          ],
+          [
+            "-1",
+            "0"
+          ]
+        ]
+      ],
+      "imaginary_trace_control": [
+        "0",
+        "-2"
+      ],
+      "real_basis_count_before_rank": 7,
+      "sesquilinear_mutant_failures": 13
+    },
+    {
+      "H": [
+        [
+          [
+            "2",
+            "0"
+          ],
+          [
+            "0",
+            "0"
+          ]
+        ],
+        [
+          [
+            "0",
+            "0"
+          ],
+          [
+            "-3",
+            "0"
+          ]
+        ]
+      ],
+      "imaginary_trace_control": [
+        "0",
+        "-2"
+      ],
+      "real_basis_count_before_rank": 10,
+      "sesquilinear_mutant_failures": 28
+    },
+    {
+      "H": [
+        [
+          [
+            "0",
+            "0"
+          ],
+          [
+            "1",
+            "0"
+          ]
+        ],
+        [
+          [
+            "1",
+            "0"
+          ],
+          [
+            "0",
+            "0"
+          ]
+        ]
+      ],
+      "imaginary_trace_control": [
+        "0",
+        "-2"
+      ],
+      "real_basis_count_before_rank": 8,
+      "sesquilinear_mutant_failures": 16
+    }
+  ],
+  "reference_family_scope": "Conditional first bosonic template with induced spin-LC B(g,epsilon), zero matter and no other terms: its compatible zero-distortion family is stationary; family tangents lie in the Hessian radical. Metric blocks vanish in distortion coordinates, not necessarily at fixed A.",
+  "schema": "gu-riemann-realform-transfer-certificate-v1",
+  "timing_policy": "Only ephemeral receipts include runtime and byte count.",
+  "written_theorem_scope": "For dimension14 real metric forms, full complex Dirac and full real u(H), a fixed real-linear Spin-equivariant Shiab with full-translation same-cubic unit endpoint annihilates injected algebraic Riemann curvature. The universal theorem follows by complexification and inherited K77 kernel inclusion, not by finite fixtures."
+}

@@ -807,6 +807,133 @@
           "owner_ref": "explorations/conditional-build/bet-mass-gap-stationary-torus-2026-11-27.md"
         }
       ]
+    },
+    {
+      "id": "riemann-realform-transfer-2026-11-27",
+      "kind": "result",
+      "owner_ref": "explorations/conditional-build/riemann-realform-transfer-2026-11-27.md",
+      "tested_statement": "The fixed-linear full-U/full-Dirac unit-cubic Riemann-silence theorem transfers to all compatible dimension14 real forms, including primary-minus K95, through complexification. For the first action alone, every admissible coherently induced zero-distortion zero-matter reference metric is stationary, and tangents to that critical family are joint Hessian null directions. No physical vacuum/moduli or source-GU verdict.",
+      "signature": {
+        "object": "Fixed-linear cubic unit-endpoint Riemann restriction and first-action reference family",
+        "carrier": "Full complex128 Dirac; full real u(H); connected Spin-compatible H in dimension14",
+        "convention": "Complex-bilinear extension of real trace/top-form pairing; commutator-valued wedge; coherent Clifford/Hodge transport",
+        "class": "All dimension14 nondegenerate real metrics with full complex128 Dirac, full u(H), Spin-compatible H, fixed real-linear full-Spin-equivariant S, full translations and same trace/cubic/unit endpoint. First-action corollary additionally requires compatible induced-LC reference family and admissible zero distortion.",
+        "premises": [
+          "Universal cubic identity for all translation T,b with held coefficients",
+          "Full real spin Lie algebra equivariance; no optional quaternionic/chiral truncation",
+          "Inherited K77 rank-four/kernel inclusion theorem and complete complex Hom restriction",
+          "For critical-family corollary: admissible zero distortion, zero independent matter, coherently inducedLC B(x), first action only"
+        ]
+      },
+      "attributed_status": "internal_T1_realform_transfer_and_critical_family_reviewed",
+      "status_ref": "lab/process/riemann-realform-transfer.json#status",
+      "source_bridge_ref": "lab/process/riemann-realform-transfer.json#source_bridge",
+      "certificate_refs": [
+        "lab/process/riemann-realform-transfer-certificates.json"
+      ],
+      "control_refs": [
+        "tests/program-focus/riemann_realform_transfer_probe.py"
+      ],
+      "survivors_ref": "explorations/conditional-build/riemann-realform-transfer-2026-11-27.md#6-source-relevance-and-what-follows-next",
+      "reopen_condition_ref": "lab/process/riemann-realform-transfer.json#follow_through",
+      "superseded_by": null,
+      "cache": {
+        "artifacts": [
+          {
+            "path": "explorations/conditional-build/riemann-realform-transfer-2026-11-27.md",
+            "sha256": "39f6ad6678ac9524f1ab68a24e65ab3a577003c6ef500344b5bf84445366b222"
+          },
+          {
+            "path": "tests/program-focus/riemann_realform_transfer_probe.py",
+            "sha256": "3fd7e28bdfb35e815794fa82b4f2c6939252c94250eaf62ab8b2bd0706e331e2"
+          },
+          {
+            "path": "lab/process/riemann-realform-transfer-certificates.json",
+            "sha256": "fd1fb9cbd30d349e6c9e78c25fbe94d4fb56a62df544bc53318375b982d99e28"
+          },
+          {
+            "path": "Lean/GUFormalization/RiemannRealForm.lean",
+            "sha256": "eb3efa2b58159a92d249ee66aed06cc3bd7bed66c12734856a2aea797435f822"
+          },
+          {
+            "path": "explorations/conditional-build/source-action-external-datum-candidate-2026-11-25.md",
+            "sha256": "63dbb8dfe00071a16cb87076d6aaea9a0caab9b04647049849e00c7b3ac76790"
+          },
+          {
+            "path": "explorations/conditional-build/source-action-riemann-silence-2026-11-27.md",
+            "sha256": "55eb23aa1b272fea90b62eaa3e225b8cad32c5999c086f82a1d36549cfb16a28"
+          },
+          {
+            "path": "explorations/conditional-build/source-action-wave2-construction-2026-11-25.md",
+            "sha256": "6cef6f8213a23a7df54ae5af1f7a4efbb5043aff218e911f30403cb1eb72f0a4"
+          },
+          {
+            "path": "explorations/resolver-wave-k77b2-shiab-family-curvature-selector-transgression-2026-08-04.md",
+            "sha256": "1727ee4cec276645f46e3fb7b45fd820d33e547503187045d119be7bf8a2f1bf"
+          },
+          {
+            "path": "lab/process/source-action-riemann-silence-certificates.json",
+            "sha256": "f23f590c470fa1fb4c878e19519cb88010c14276a157954410a0cc779b2ede1a"
+          },
+          {
+            "path": "tests/program-focus/source_action_riemann_silence_probe.py",
+            "sha256": "20fd4bfcb3c26aa26714a38b1e7dcb32a7e7b62a478833601d8182550128c313"
+          }
+        ],
+        "verifier": {
+          "command": "python3",
+          "args": [
+            "tests/program-focus/riemann_realform_transfer_probe.py",
+            "--verify"
+          ],
+          "environment": {
+            "python_version": "3.14.6 (main, Jun 10 2026, 10:03:53) [Clang 21.0.0 (clang-2100.0.123.102)]",
+            "platform": "macOS-26.7-arm64-arm-64bit-Mach-O",
+            "untracked_environment": "unknown"
+          }
+        },
+        "receipt_ref": "lab/process/riemann-realform-transfer.json#verification/root_replay"
+      },
+      "exclusions": [
+        {
+          "statement": "Signature-only rescue of nonzero direct Riemann response within identical full-carrier universal-cubic hypotheses.",
+          "owner_ref": "explorations/conditional-build/riemann-realform-transfer-2026-11-27.md"
+        },
+        {
+          "statement": "The first action gives all admitted zero-distortion reference-family members the same zero stationary value; no variational distinction among them.",
+          "owner_ref": "explorations/conditional-build/riemann-realform-transfer-2026-11-27.md"
+        }
+      ],
+      "untested_alternatives": [
+        {
+          "statement": "No independent numerical evidence or new source falsification from signature transfer",
+          "owner_ref": "explorations/conditional-build/riemann-realform-transfer-2026-11-27.md"
+        },
+        {
+          "statement": "Actual W2 symmetrized Euler is outside the universal unit-endpoint premise",
+          "owner_ref": "explorations/conditional-build/riemann-realform-transfer-2026-11-27.md"
+        },
+        {
+          "statement": "No conclusion for restricted/chiral/optional quaternionic tangent carriers",
+          "owner_ref": "explorations/conditional-build/riemann-realform-transfer-2026-11-27.md"
+        },
+        {
+          "statement": "Moving/derivative/nonlinear S or extra equivariance-breaking tensors change premises",
+          "owner_ref": "explorations/conditional-build/riemann-realform-transfer-2026-11-27.md"
+        },
+        {
+          "statement": "No physical gauge quotient, propagator, vacuum selector or metric-moduli count",
+          "owner_ref": "explorations/conditional-build/riemann-realform-transfer-2026-11-27.md"
+        },
+        {
+          "statement": "Source has not required bare S(F_B) factorization or selected T=0 as GR vacuum",
+          "owner_ref": "explorations/conditional-build/riemann-realform-transfer-2026-11-27.md"
+        },
+        {
+          "statement": "No I1B+I2B sum or extra metric-only/boundary functional imported",
+          "owner_ref": "explorations/conditional-build/riemann-realform-transfer-2026-11-27.md"
+        }
+      ]
     }
   ]
 }

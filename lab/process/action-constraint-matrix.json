@@ -1788,7 +1788,7 @@
     },
     "LB-CLASS": {
       "zero_delta_streak": 0,
-      "runs": 46,
+      "runs": 47,
       "status": "open"
     },
     "LB-LADDER": {
@@ -2707,7 +2707,7 @@
   ],
   "program_run_counter": {
     "since": "2026-11-09",
-    "count": 89,
+    "count": 90,
     "rule": "Every hourly run increments this in its postflight, whatever its lane. Lane C runs when count % 4 == 3 before the increment."
   },
   "working_rule": "Cells are worked at the structure level: a requirement must hold for every action in class C or for a structurally defined subfamily. No cell is worked by writing down a specific action, and no gated cell is worked by building its gate object. See CURRENT-STATE.yaml program_focus.structure_not_specifics.",
@@ -3483,6 +3483,22 @@
       ],
       "claim_effect": "Internal comparator category exclusion only; no bet-wide, matrix-cell, assumption-view, ledger, canon, source or Class-C verdict.",
       "cadence_note": "Carried LC due87 consumed once: counter88to89, massgap3to4, remaining21to20. All B counters, other bets and matrix science unchanged; no scheduled/model credit."
+    },
+    {
+      "date": "2026-11-27",
+      "authority": "joe_direct_chat_2026_11_27_c",
+      "item": "Real-form transfer and zero-distortion first-action critical family",
+      "tier": "T1",
+      "counter_before": 89,
+      "counter_after": 90,
+      "lane": "LB-CLASS",
+      "actual_delta": "The fixed-linear full-U/full-Dirac unit-cubic Riemann-silence theorem transfers to all compatible dimension14 real forms, including primary-minus K95, through complexification. For the first action alone, every admissible coherently induced zero-distortion zero-matter reference metric is stationary, and tangents to that critical family are joint Hessian null directions. No physical vacuum/moduli or source-GU verdict.",
+      "evidence": [
+        "explorations/conditional-build/riemann-realform-transfer-2026-11-27.md",
+        "lab/process/riemann-realform-transfer.json"
+      ],
+      "claim_effect": "No matrix cell/intersection/shrinkage, ledger, canon, source, ClassC or paper verdict. Deductive coverage extension, not independent falsification credit.",
+      "cadence_note": "One scientific coverage/consequence wave; LBCLASS46to47. No bet credit, cadence/policy or matrix science change; existingLCcarry stays consumed."
     }
   ],
   "directed_lc_carry_2026_11_24_b": {

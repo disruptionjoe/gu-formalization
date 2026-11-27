@@ -2531,7 +2531,7 @@
     "next_directed_worksets": [
       {
         "id": "native_k95_four_witness_transfer",
-        "status": "ready_after_consumed_controls_and_LC",
+        "status": "consumed_by_complexification_transfer",
         "target": "LB-CLASS",
         "task": "Test the four-witness Riemann-silence mechanism on the owned rational primary-minus K95 full-U carrier, with native curvature normalization and real maps; no new action or physical domain.",
         "expected_delta": "Typed whole-class K95 transfer or exact failed hypothesis; no automatic GU or physical verdict.",
@@ -2555,7 +2555,9 @@
         },
         "kill_condition": "Any native type, curvature identification, normalization or rank check fails; retain failed transfer rather than assuming signatures interchangeable.",
         "remaining_cost": "Estimated seconds of sparse exact arithmetic, not yet measured; no dense matrices/Sage census.",
-        "control_effect": "Directed audit and carried LC completed. Ordinary B selection now evaluates this ready whole-architecture test; no new construction."
+        "control_effect": "No new real Hom basis or four-witness native replay needed for vanishing. Changed carrier or endpoint premise needs a separate source-supported test.",
+        "prior_status": "ready_after_consumed_controls_and_LC",
+        "evidence": "lab/process/riemann-realform-transfer.json"
       },
       {
         "id": "nonriemann_or_translation_dependent_gravity_source_bridge",
@@ -2651,9 +2653,10 @@
     ],
     "adjoints": "Primary minus is authenticated. Genuine plus comparator needs a full changed real-slice/action/background; no reuse of minus roots by relabelling.",
     "source_rule": "No new authenticated prescription in one bounded search. Source-wide absence is not established.",
-    "next": "Structural native K95 four-witness transfer ranks before a guided successor, after the carried ordinary LC slot. No new candidate selected.",
+    "next": "Real-form transfer consumes signature-only successor; O26 small-h endpoint h3 remains distinct and executable after bounded preflight.",
     "weakest_unproved_link": "Source necessity and physical admission/readout of this reconstructed candidate; its roots also fail the separately printed endpoint.",
-    "claim_effect": "No matrix-cell, ledger, source, canon, class-C or paper verdict change."
+    "claim_effect": "No matrix-cell, ledger, source, canon, class-C or paper verdict change.",
+    "prior_next": "Structural native K95 four-witness transfer ranks before a guided successor, after the carried ordinary LC slot. No new candidate selected."
   },
   "stationary_torus_2026_11_27": {
     "evidence": [
@@ -2662,7 +2665,8 @@
     ],
     "actual_delta": "Every smooth stationary magnetic MG1 connection on every admitted compact PS product/diagonal-Z2 bundle over the same closed flat T3 has a nonzero full physical Hessian kernel: at least two independent translation Jacobi fields when nonflat, and the inherited flat-PS kernel otherwise. This closes the nonflat-endpoint escape for a strictly positive full quadratic gap in this comparator category, not GU or a quantum gap.",
     "covered_successor": "Nonconstant stationary endpoint construction on same flatT3/fullMG1 quotient.",
-    "next_B": "Native K95 four-witness direct-Riemann transfer; no new candidate or source verdict."
+    "next_B": "Native K95 four-witness direct-Riemann transfer; no new candidate or source verdict.",
+    "next_B_status": "consumed_by_realform_transfer"
   },
   "homogeneous_displacement_normalization_opportunity_2026_11_27": {
     "status": "unexecuted_conditional_composition",
@@ -2678,5 +2682,41 @@
     ],
     "ceiling": "No accepted theorem or scientific credit; local chart weights and b=H transport survivor retained. Source does not presently require a finite invariant probability.",
     "value_of_information": "Test only if the composition excludes an actually live claimed source-selected reference, not to re-prove abstract normalization floors."
+  },
+  "riemann_realform_transfer_2026_11_27": {
+    "evidence": [
+      "explorations/conditional-build/riemann-realform-transfer-2026-11-27.md",
+      "lab/process/riemann-realform-transfer.json"
+    ],
+    "actual_delta": "The fixed-linear full-U/full-Dirac unit-cubic Riemann-silence theorem transfers to all compatible dimension14 real forms, including primary-minus K95, through complexification. For the first action alone, every admissible coherently induced zero-distortion zero-matter reference metric is stationary, and tangents to that critical family are joint Hessian null directions. No physical vacuum/moduli or source-GU verdict.",
+    "consumed": [
+      "Native K95 four-witness/rank/Hom-repeat successor under identical full-U/full-Dirac hypotheses."
+    ],
+    "next": {
+      "id": "O26_first_uncomputed_small_h_endpoint_coefficient",
+      "status": "ready_for_bounded_preflight",
+      "target": "LB-CLASS",
+      "tier": "T1 if branch exclusion is proved; otherwise T2 finite cancellation",
+      "task": "Use the already-owned convergent homogeneous W2 branch and on-shell printed-endpoint polynomial to compute the h3 coefficient first in an existing literal-horizontal receiver; no root search or new candidate.",
+      "formulas": [
+        "t1=-S",
+        "t2=KS",
+        "t3=-K^2 S-N(S,S)",
+        "C3=(P-K)t3+2Q(t1,t2)"
+      ],
+      "outcomes": [
+        "Nonzero exact coefficient: exclude the printed-endpoint locus on the entire sufficiently-small nonzero-h stationary branch in this dictionary.",
+        "Zero: record this finite cancellation only; compare remaining cost/decision reach before any higher-order calculation."
+      ],
+      "source_bridge": "Candidate dictionary/source endpoint remains conditional. Not a GU verdict, not an assertion either kappa1 root is on the branch.",
+      "owned_inputs": [
+        "explorations/conditional-build/source-action-endpoint-onshell-2026-11-27.md",
+        "explorations/conditional-build/source-action-homogeneous-analytic-vacuum-2026-11-25.md",
+        "explorations/conditional-build/source-action-dynamics-and-continuation-2026-11-25.md"
+      ],
+      "expected_cost": "One sparse coefficient composition and exact sign/nonzero test; preflight must authenticate actual function names and normalization.",
+      "alternative": "W2 homogeneous normalization composition remains conditional/unexecuted; lower source relevance without a selected finite-invariant-measure claim."
+    },
+    "source_ceiling": "Source necessity of a direct bare-curvature gravity channel or the zero-distortion physical vacuum."
   }
 }

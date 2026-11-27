@@ -16,6 +16,10 @@ discovery bet (`lab/process/discovery-bets.json`). The K25xx--K2618 detector, pr
 results below are retained as conditional mathematics; that lane is no longer the default target. Sections
 below are dated results, newest first, and are not steering.
 
+## 2026-11-27 — Real forms and the zero-distortion first action
+
+[Result](explorations/conditional-build/riemann-realform-transfer-2026-11-27.md) · [Evidence](lab/process/riemann-realform-transfer.json). The full-U/full-Dirac fixed-linear unit-cubic obstruction transfers by complexification, including K95. In that structural class, the first action alone has a stationary family of all admissible compatible zero-distortion reference metrics; joint family tangents are Hessian null, not necessarily fixed-connection metric directions. This extends deductive coverage without another native witness computation. No source-selected vacuum, physical moduli, GU or ledger verdict.
+
 ## 2026-11-27 — All stationary compact PS torus backgrounds
 
 [Result](explorations/conditional-build/bet-mass-gap-stationary-torus-2026-11-27.md) · [Evidence](lab/process/bet-mass-gap-stationary-torus.json). Every stationary MG1 connection in the declared full compact PS flat-torus category retains physical Hessian zero modes. Nonflat curvature supplies at least two independent translation Jacobi fields; flat connections use the inherited PS classification. A strictly positive entire quadratic spectrum is excluded in this comparator category. No quantum-gap, source-GU or ledger verdict.
