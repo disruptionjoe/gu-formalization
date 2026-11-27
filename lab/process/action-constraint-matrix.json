@@ -1788,7 +1788,7 @@
     },
     "LB-CLASS": {
       "zero_delta_streak": 0,
-      "runs": 41,
+      "runs": 42,
       "status": "open"
     },
     "LB-LADDER": {
@@ -2707,7 +2707,7 @@
   ],
   "program_run_counter": {
     "since": "2026-11-09",
-    "count": 82,
+    "count": 83,
     "rule": "Every hourly run increments this in its postflight, whatever its lane. Lane C runs when count % 4 == 3 before the increment."
   },
   "working_rule": "Cells are worked at the structure level: a requirement must hold for every action in class C or for a structurally defined subfamily. No cell is worked by writing down a specific action, and no gated cell is worked by building its gate object. See CURRENT-STATE.yaml program_focus.structure_not_specifics.",
@@ -3369,6 +3369,22 @@
       ],
       "claim_effect": "No source/physics/canon/classC/paper verdict or matrix cell/intersection/shrinkage change.",
       "cadence_note": "Directed81to82/LBCLASS40to41. Pending directed_lc_carry_2026_11_25_physical remains for the next ordinary run; no scheduler opportunity, cadence amendment or bet credit."
+    },
+    {
+      "date": "2026-11-27",
+      "authority": "joe_direct_chat_2026_11_26_continued_falsification_math20",
+      "item": "Matched CK current jet and two-frequency raw band separation",
+      "tier": "T1",
+      "counter_before": 82,
+      "counter_after": 83,
+      "lane": "LB-CLASS",
+      "actual_delta": "Matched graph derivative and two-frequency raw separation. An exact positive realified spectral Gram proves normalized Hermitian band faithfulness for all sufficiently small-tube members of the existing CK completion family, at both roots. Every nonzero real principal polarization is visible in this first-current-jet channel. No exact growing solution, forced response, physical admission or GU verdict.",
+      "evidence": [
+        "explorations/conditional-build/source-action-selected-jet-2026-11-27.md",
+        "lab/process/source-action-selected-jet.json"
+      ],
+      "claim_effect": "No source/physics/canon/classC/paper verdict or matrix cell/intersection/shrinkage change.",
+      "cadence_note": "Directed82to83/LBCLASS41to42. Pending directed_lc_carry_2026_11_25_physical remains for the next ordinary run; no scheduler opportunity, cadence amendment or bet credit."
     }
   ],
   "directed_lc_carry_2026_11_24_b": {
@@ -3737,7 +3753,9 @@
           "explorations/conditional-build/source-action-finite-loss-completions-2026-11-27.md",
           "lab/process/source-action-finite-loss.json",
           "explorations/conditional-build/source-action-coupled-support-2026-11-27.md",
-          "lab/process/source-action-coupled-support.json"
+          "lab/process/source-action-coupled-support.json",
+          "explorations/conditional-build/source-action-selected-jet-2026-11-27.md",
+          "lab/process/source-action-selected-jet.json"
         ],
         "choices": "Historical original choices are retained below; current held fermion repair is SE=-1/2 (SE0 superseded), kappa1 with two unselected roots. Typed candidate_choice_budget separates core/completion/pending/comparator/parked choices.",
         "wave2_update": {
@@ -4773,6 +4791,38 @@
           "source_status": {
             "status": "absent",
             "reason": "Source grammar supplies independent fields/fullU but not the tested open13D support and full-polarization physical admission; W2/K95 and a physical boundary/linked-row selector remain unselected."
+          },
+          "superseded_continuation": "lab/process/source-action-selected-jet.json"
+        },
+        "selected_jet_followthrough": {
+          "state": "Matched graph derivative and two-frequency raw separation. An exact positive realified spectral Gram proves normalized Hermitian band faithfulness for all sufficiently small-tube members of the existing CK completion family, at both roots. Every nonzero real principal polarization is visible in this first-current-jet channel. No exact growing solution, forced response, physical admission or GU verdict.",
+          "next": [
+            {
+              "id": "matched_packet_source_bridge",
+              "status": "ready_for_bounded_symbol_and_phase_audit",
+              "target": "LB-CLASS",
+              "tier": "T2",
+              "task": "Audit the first nonzero output symbol of an actual high-frequency connection packet against the now-faithful normalized CK current jet. Keep graph-frequency derivatives, envelope/subprincipal terms and current/source phase matching. Decide whether the jet theorem transfers to a packet or whether a named term can cancel it before any new simulation or growing-mode forcing claim. A pointwise observable is not already a source with matching normal frequency. Do not reconstruct the excluded constant-seed completion or add a physical selector.",
+              "expected_delta": "An authenticated packet-output or source-phase bridge, or an exact obstruction to that transfer; not another raw/Gram census.",
+              "class_covered": "Held W2/K95 roots and existing canonical-injection CK diagnostic completion; not whole classC or a source-selected physical domain.",
+              "source_bridge": "absent for physical necessity",
+              "kill_condition": "Only proved incompatibility of a source-required admitted physical channel advances a physical exclusion; raw signals or missing input do not.",
+              "shared_prerequisite": "Owned H_mu graph, matched current, spectral Gram and existing packet calculus; no new fullM inverse or raw/normalized band census",
+              "strongest_alternative": "Test an actual source-supplied physical selector against the coupled-support and finite-loss theorems. None is supplied; do not invent a rescue or block separable research."
+            }
+          ],
+          "consumed": [
+            "Unmatched old triangular current as an output for H_mu",
+            "Raw observability powers or frequency census: two-frequency Clifford cancellation covers the full declared carrier",
+            "Raw band blindness for bounded measurable dispersion on positive-measure observed bands",
+            "New inverse or source discovery for the moving-graph derivative: existing spin5/6/7 data suffice",
+            "Normalized whole-band blindness for all sufficiently small tubes in the existing CK completion family",
+            "Dense forty-column constant map as a prerequisite for the existential small-tube theorem"
+          ],
+          "choice_budget_delta": 0,
+          "source_status": {
+            "status": "absent",
+            "reason": "Source-grounded four-field/fullU grammar does not select the canonical injection, fixed CK seed, band/dispersion, tube or physical quotient. This same seed already fails natural covariance; a raw diagnostic does not restore it."
           }
         }
       }

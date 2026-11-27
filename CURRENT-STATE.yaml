@@ -1,7 +1,7 @@
 schema_version: '1.0'
 repository: observerse-research-program
 branch: main
-revision_basis: 8cef2ad2893fc7d0f300c2b8ef343459191509fd
+revision_basis: d91d6f3921fd1f552ef470467123005ace857425
 program_focus:
   version: 2026-11-25-v1
   authority: joe_direct_chat_2026_11_25_five_process_improvements_approved
@@ -140,6 +140,60 @@ program_focus:
     covered; source relevance separately from mathematical breadth; shared prerequisite if any; remaining
     cost; strongest eligible alternative. A blocked high-value target is not an eligible alternative without
     its missing input. Reuse completed theorems and compare only their uncovered successors.'
+source_action_selected_jet_2026_11_27:
+  authority: joe_direct_chat_2026_11_26_continued_falsification_math20
+  basis_revision: d91d6f3921fd1f552ef470467123005ace857425
+  status: internal_T1_matched_current_small_tube_reviewed
+  actual_delta: Matched graph derivative and two-frequency raw separation. An exact positive realified
+    spectral Gram proves normalized Hermitian band faithfulness for all sufficiently small-tube members
+    of the existing CK completion family, at both roots. Every nonzero real principal polarization is
+    visible in this first-current-jet channel. No exact growing solution, forced response, physical admission
+    or GU verdict.
+  evidence:
+  - explorations/conditional-build/source-action-selected-jet-2026-11-27.md
+  - lab/process/source-action-selected-jet.json
+  - lab/process/source-action-selected-jet-certificates.json
+  - lab/process/hostile-reviews/2026-11-27-source-action-selected-jet-review.md
+  source_bridge:
+    status: absent
+    reason: Source-grounded four-field/fullU grammar does not select the canonical injection, fixed CK
+      seed, band/dispersion, tube or physical quotient. This same seed already fails natural covariance;
+      a raw diagnostic does not restore it.
+  continuation:
+  - id: matched_packet_source_bridge
+    status: ready_for_bounded_symbol_and_phase_audit
+    target: LB-CLASS
+    tier: T2
+    task: Audit the first nonzero output symbol of an actual high-frequency connection packet against
+      the now-faithful normalized CK current jet. Keep graph-frequency derivatives, envelope/subprincipal
+      terms and current/source phase matching. Decide whether the jet theorem transfers to a packet or
+      whether a named term can cancel it before any new simulation or growing-mode forcing claim. A pointwise
+      observable is not already a source with matching normal frequency. Do not reconstruct the excluded
+      constant-seed completion or add a physical selector.
+    expected_delta: An authenticated packet-output or source-phase bridge, or an exact obstruction to
+      that transfer; not another raw/Gram census.
+    class_covered: Held W2/K95 roots and existing canonical-injection CK diagnostic completion; not whole
+      classC or a source-selected physical domain.
+    source_bridge: absent for physical necessity
+    kill_condition: Only proved incompatibility of a source-required admitted physical channel advances
+      a physical exclusion; raw signals or missing input do not.
+    shared_prerequisite: Owned H_mu graph, matched current, spectral Gram and existing packet calculus;
+      no new fullM inverse or raw/normalized band census
+    strongest_alternative: Test an actual source-supplied physical selector against the coupled-support
+      and finite-loss theorems. None is supplied; do not invent a rescue or block separable research.
+  consumed:
+  - Unmatched old triangular current as an output for H_mu
+  - 'Raw observability powers or frequency census: two-frequency Clifford cancellation covers the full
+    declared carrier'
+  - Raw band blindness for bounded measurable dispersion on positive-measure observed bands
+  - 'New inverse or source discovery for the moving-graph derivative: existing spin5/6/7 data suffice'
+  - Normalized whole-band blindness for all sufficiently small tubes in the existing CK completion family
+  - Dense forty-column constant map as a prerequisite for the existential small-tube theorem
+  accounting: Directed82to83/LBCLASS41to42. Pending directed_lc_carry_2026_11_25_physical remains for
+    the next ordinary run; no scheduler opportunity, cadence amendment or bet credit.
+  priority_control_effect: Matched current-jet visibility established for sufficiently small existing
+    CK tubes via exact spectral Gram and uniform shrink transfer. Packet/source-required domain remain
+    open. No governance/schedule effect; Nov26g proposal-only.
 source_action_coupled_support_2026_11_27:
   authority: joe_direct_chat_2026_11_26_continued_falsification_math20
   basis_revision: 8cef2ad2893fc7d0f300c2b8ef343459191509fd
@@ -160,7 +214,7 @@ source_action_coupled_support_2026_11_27:
       physical admission; W2/K95 and a physical boundary/linked-row selector remain unselected.
   continuation:
   - id: matched_unstable_sector_selected_current
-    status: ready_for_bounded_operator_and_jet_derivation
+    status: matched_current_complete_for_small_tube_family
     target: LB-CLASS
     tier: T2
     task: Derive the correctly transported first nonzero current/observation symbol on the actual intrinsic
@@ -181,6 +235,9 @@ source_action_coupled_support_2026_11_27:
     strongest_alternative: Test a specifically supplied nonlocal boundary/Green or polarization selector
       against the newly proved support demand. No such source selector is supplied, so do not invent one
       or make its absence a global work stop.
+    completed_evidence: lab/process/source-action-selected-jet.json
+    remaining_scope: Actual packet/forced response and source-required physical admission remain unresolved;
+      the original fixed larger tube is not automatically covered.
   consumed:
   - native K95 support/vertex applicability for the stated full independent null fibers
   - one-pair and any-open-band support-only center restrictions, including narrower open cones
@@ -194,6 +251,7 @@ source_action_coupled_support_2026_11_27:
   priority_control_effect: Support-only free-cone repair consumed at stated principal/full-polarization
     scope. Actual physical selectors and matched selected current remain open. Policy/schedules unchanged;
     Nov26g proposal-only.
+  continuation_superseded_by: source_action_selected_jet_2026_11_27
 source_action_finite_loss_2026_11_27:
   authority: joe_direct_chat_2026_11_26_continued_falsification_math20
   basis_revision: 523d8554d35825c9cbbba133aae9c42cbd9408cd

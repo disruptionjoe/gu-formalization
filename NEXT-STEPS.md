@@ -16,6 +16,12 @@ Do not add "Current follow-through" sections or "Historical predecessor" stacks 
 matrix or bet file. The retired follow-through chain and banner stack are kept at the end of this file under
 "Archived steering history".
 
+## Matched selected-current jet (2026-11-27)
+
+Matched graph derivative and two-frequency raw separation. An exact positive realified spectral Gram proves normalized Hermitian band faithfulness for all sufficiently small-tube members of the existing CK completion family, at both roots. Every nonzero real principal polarization is visible in this first-current-jet channel. No exact growing solution, forced response, physical admission or GU verdict.
+
+[Result](explorations/conditional-build/source-action-selected-jet-2026-11-27.md) · [Evidence](lab/process/source-action-selected-jet.json).
+
 ## Native coupled support obstruction (2026-11-27)
 
 Native principal matter currents obstruct every common open-band strict-center support-only closure with the stated independent polarizations; an open conic matter band generates all tangential transfer directions. Both held roots also have a certified nonzero leading reduced Euler-source covector on the scalar-normal signed-energy range witness. No actual curved physical-domain or GU falsification follows.

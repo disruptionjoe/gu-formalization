@@ -431,8 +431,20 @@ Selection: mandatory directed falsification; actual candidate completion class, 
 
 - **Done:** actual native null kernels and four-arrow current. Any open independent full-polarization matter band produces forbidden timelike-normal transfers; an open conic band forces all tangential transfers. First theorem survives arbitrary southeast coefficient with other three arrows fixed.
 - **Done:** both held roots have nonzero principal reduced Euler-source pullback on the scalar-normal signed-energy range witness. This does not establish growing-mode overlap or actual curved physical forcing.
-- **Ready, LB-CLASS/T2:** correctly transported selected current on actual H_mu sector, using the existing canonical-injection CK columns/dual rows and prescribed first jets. Derive the output map before any observability/Gram certificate; do not combine the old triangular current directly with H_mu.
+- **Done at matched current-jet scope:** graph derivative, two-frequency/band faithfulness and normalized small-tube visibility completed below. Actual packet/forced response remains separate.
 - **Alternative requiring an actual input:** test a supplied physical polarization or boundary/Green selector against the new coupled support demand. Source supplies none; do not invent one or use absence to halt separable research.
 - **Consumed:** generic null-pair/momentum scans, narrower open-cone support-only repairs, repeated fullM/finite-loss floors. Positive observedR3 CK completion is not the openR13 class and remains unadjudicated.
 
-Selection: directed falsification; whole principal support class but no proved source necessity. Shared symbol/current/inverse inputs discharged. Next bounded cost is matched CK output derivation, then a finite actual-sector test only if the map is owned. Directed81to82/LBCLASS40to41. Pending directed_lc_carry_2026_11_25_physical remains for the next ordinary run; no scheduler opportunity, cadence amendment or bet credit. Choice budget unchanged.
+Selection: directed falsification; whole principal support class but no proved source necessity. Shared symbol/current/inverse inputs discharged. The matched CK output direction is now consumed by the result below; actual packet/source transfer remains distinct. Directed81to82/LBCLASS40to41. Pending directed_lc_carry_2026_11_25_physical remains for the next ordinary run; no scheduler opportunity, cadence amendment or bet credit. Choice budget unchanged.
+
+## Current continuation: matched selected jet (2026-11-27)
+
+[Result](../../../explorations/conditional-build/source-action-selected-jet-2026-11-27.md) · [Evidence](../source-action-selected-jet.json).
+
+- **Done:** O8 includes the changing constrained insertion; inherited spin5/6 responses suffice. Original CK seeds retained through the axis8 frame match.
+- **Done:** two non-null-separated matter frequencies distinguish every raw principal polarization; every held positive-measure band has such a pair, for arbitrary bounded measurable dispersion. Raw observability powers are unnecessary.
+- **Done:** exact spectral Gram and uniform shrinking establish normalized band faithfulness for all sufficiently small existing CK tubes; the original arbitrary fixed tube with defect<1/2 is not automatically covered.
+- **Ready, LB-CLASS/T2:** bounded actual packet-output and source-phase audit. Keep graph-frequency, envelope/subprincipal and phase-matching terms; a first jet is not a forced growing mode. Use these owned maps before any new simulation.
+- **Scope retained:** fixed CK seed already fails natural covariance; no physical rehabilitation, exact growing solution, forced exchange or GU verdict.
+
+Selection: directed falsification; matched normal-current-jet class, source necessity absent. Existing graph/source/inverses reused. Benchmark two dense columns before expansion; mathematical cancellation replaces raw census. Directed82to83/LBCLASS41to42. Pending directed_lc_carry_2026_11_25_physical remains for the next ordinary run; no scheduler opportunity, cadence amendment or bet credit. Choice budget unchanged. Nov26g remains proposal-only.

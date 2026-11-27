@@ -555,3 +555,7 @@ bicategory, ambidexterity or Mackey 2-functor is inferred.
 ## 2026-11-27 — Coupled support core
 
 `Lean/GUFormalization/CoupledSupport.lean`: **LEAN-VERIFIED**, seven lemmas: rational K95 pair arithmetic, longitudinal cancellation, transverse nonzero scalar product, closure contains differences, an open ball yields local differences, an open positive cone has full difference set, and full differences force full source support. Targeted single-thread compilation passed without warnings/placeholders. Native null-kernel/vertex identification, convolution and actual physical/curved admission remain separately reviewed; no whole-project build claim. [Result](../../explorations/conditional-build/source-action-coupled-support-2026-11-27.md).
+
+## 2026-11-27 — Matched selected-current core
+
+`Lean/GUFormalization/SelectedJet.lean`: **LEAN-VERIFIED**, five lemmas: noncommutative Clifford right cancellation, two-frequency affine separation, affine constant cancellation, raw/skew control, and scalar Gram-perturbation threshold. Targeted single-thread compilation passed without placeholders. Native graph/CK identification, Lorentz band proof and physical normalization remain separately reviewed; no whole-project build claim. [Result](../../explorations/conditional-build/source-action-selected-jet-2026-11-27.md).
