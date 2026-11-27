@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "basis_revision": "561fbb3f8bf9ea945ff92311fd8b19f3ede7ccd8",
+  "basis_revision": "e57d8f83d8585b80cb41d337109b557a4b72475c",
   "scope": "Curated six-pillar x source/class/candidate linked view. Status belongs to cited owners; no scientific verdict promotion, automatic ranking, whole-history coverage or global percentage. Cheapest-next fields are attributed bounded suggestions, not dispatch instructions. Closed means resolved within the cited scope; it does not always mean falsified. Positive fits and remaining source/physical bridges stay explicit.",
   "assumptions_ref": "lab/process/action-constraint-matrix.json#source_relevance_assumption_view.shared_prerequisites",
   "dependencies": [
@@ -94,7 +94,7 @@
     },
     {
       "ref": "lab/process/action-constraint-matrix.json",
-      "sha256": "5f3647910816af5322142ad3766bacd43cc22ec44082e1db46ce63e795b88ace"
+      "sha256": "6267318780af6a2896c89db839cff4d2eca874ac1e877ceff1e3067a3f1a20a8"
     },
     {
       "ref": "lab/process/conditional-physics-ledger-v0.263.json",
@@ -131,6 +131,10 @@
     {
       "ref": "explorations/conditional-build/null-boost-symbol-trace-2026-11-27.md",
       "sha256": "e04dddf916cdca9da18bd919f2c35dd6209df2f35bdb5a9fc5225d12d6a695bc"
+    },
+    {
+      "ref": "explorations/conditional-build/bet-cosmology-normal-jets-2026-11-27.md",
+      "sha256": "5b44da439f6f47f1098a7b7f27e5d5761f35d1bf2b949e61a1ea8f5760f58b99"
     }
   ],
   "pillars": [
@@ -336,14 +340,16 @@
         },
         "class": {
           "attributed_status": "Conditional local observation-class exclusion",
-          "closed": "Ambient weighted coclosure alone yields no new observed-only local conservation identity; zero-order conserved stress is field-independent. The full cutoff-admissible finite-order observed-only class also has zero vacuum-subtracted compact charge; nonnegative excitation density is identically zero on full jets.",
-          "open": "Actual source stress, extra equations, physical domain, noncompact/homogeneous background contributions and normal/nonlocal readouts remain unselected; nonzero local improvement stresses survive.",
+          "closed": "Ambient weighted coclosure alone yields no new observed-only local conservation identity; zero-order conserved stress is field-independent. The full cutoff-admissible finite-order observed-only class also has zero vacuum-subtracted compact charge; nonnegative excitation density is identically zero on full jets. LC evidence only: finite normal-jet dependence cannot produce nonzero compact excitation charge from coclosure alone on the declared local cutoff-admissible class; no lane-B absorption.",
+          "open": "Actual source stress, extra equations, physical domain, noncompact/homogeneous background contributions and normal/nonlocal readouts remain unselected; nonzero local improvement stresses survive. Additional equations/domain, nonlocal readout and homogeneous backgrounds remain outside this LC theorem.",
           "shared_missing_ref": "lab/process/action-constraint-matrix.json#source_relevance_assumption_view.shared_prerequisites",
-          "cheapest_next": "Require an actual source readout/equation/domain before a physical charge inference; derivative-improvement enumeration under the same premises is consumed.",
+          "cheapest_next": "A distinct supplied extra-equation/domain restriction on free normal data; repeated finite-order readout repairs under coclosure alone are covered. Full source stress and physical admission remain undetermined.",
           "evidence_refs": [
             "explorations/conditional-build/bet-cosmology-conservation-descent-2026-11-27.md",
-            "explorations/conditional-build/compact-excitation-charge-2026-11-27.md"
-          ]
+            "explorations/conditional-build/compact-excitation-charge-2026-11-27.md",
+            "explorations/conditional-build/bet-cosmology-normal-jets-2026-11-27.md"
+          ],
+          "positive_fit": " LC calibration retains nonzero local improvements with zero charge and positive-charge same-oneform transport under an extra all-normal-flux-zero collar restriction."
         },
         "candidate": {
           "attributed_status": "Held theta=T reconstruction fails; cosmology fits remain conditional",

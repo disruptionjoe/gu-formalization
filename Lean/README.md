@@ -286,3 +286,7 @@ replacement for `lake build` or targeted standalone Lean checks.
 ## Null-symbol trace finite cores (2026-11-27)
 
 `GUFormalization/NullSymbolTrace.lean` checks trace/order arithmetic only. The exact-chain trace and source applicability remain written/reviewed. Result: `explorations/conditional-build/null-boost-symbol-trace-2026-11-27.md`.
+
+## Finite normal-jet recurrence (2026-11-27)
+
+`GUFormalization/NormalJetRecursion.lean` checks two finite causal recurrence lemmas. Smooth ODE existence, jet realization, support and Stokes remain written/reviewed; existing CompactCharge cores are reused. Result: `explorations/conditional-build/bet-cosmology-normal-jets-2026-11-27.md`.

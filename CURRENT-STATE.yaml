@@ -196,6 +196,28 @@ program_focus:
       denominator and a judgment label; the fraction of all possible GU realizations closed is unknown.
     authority_boundary: Continue autonomously within existing authority. Existing canon/ledger tiers,
       external and irreversible-action limits remain; no research waiting checkpoint.
+cosmology_normal_jets_2026_11_27:
+  status: internal_T1_cosmology_normal_jets_reviewed
+  lane: LC-BETS
+  actual_delta: Every finite ambient jet of a weighted covariantly coclosed one-form along a nondegenerate
+    section is a finite differential expression in finitely many arbitrary section fields. Normal derivatives
+    do not escape the conservation identity or zero compact excitation-charge theorem on the declared
+    cutoff-admissible free-data class.
+  source_bridge:
+    status: conditional
+    reason: SC-COS-50/51/52 assert an automatic identity and adjoint one-form, not coclosure alone as
+      full dynamics, a finite local stress/current readout, fixed backgrounds, cutoff-closed physical
+      states or nonzero compact excitation charge. No source dark-energy verdict.
+  evidence:
+  - explorations/conditional-build/bet-cosmology-normal-jets-2026-11-27.md
+  - lab/process/bet-cosmology-normal-jets.json
+  next: Finite-order normal-jet repairs under coclosure alone are covered. A distinct conservation discriminator
+    needs an already supplied extra equation or domain restricting the free normal coefficients, or a
+    genuinely nonlocal readout with its actual admission. Homogeneous cosmological backgrounds and held
+    EXP/COS full-CMB inputs remain outside. Counter100 returns to ordinary B selection via existing source-first
+    VOI map; this LC result has no automatic B absorption or ledger credit.
+  choice_budget_effect: none
+  matrix_or_ledger_verdict_effect: none
 null_boost_symbol_trace_2026_11_27:
   status: internal_T1_null_symbol_trace_reviewed
   actual_delta: At a real nonzero null covector, every homogeneous boost-equivariant four-term symbol

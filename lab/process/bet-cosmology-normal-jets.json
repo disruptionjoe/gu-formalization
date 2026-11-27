@@ -1,0 +1,2171 @@
+{
+  "artifact": "BET_COSMOLOGY_NORMAL_JETS",
+  "date": "2026-11-27",
+  "basis_revision": "e57d8f83d8585b80cb41d337109b557a4b72475c",
+  "status": "internal_T1_cosmology_normal_jets_reviewed",
+  "program_target": "BET-COSMOLOGY",
+  "lane": "LC-BETS",
+  "tier": "T1",
+  "expected_delta": "Close or retain finite normal-jet dependence as a compact-charge repair under coclosure alone.",
+  "actual_delta": "Every finite ambient jet of a weighted covariantly coclosed one-form along a nondegenerate section is a finite differential expression in finitely many arbitrary section fields. Normal derivatives do not escape the conservation identity or zero compact excitation-charge theorem on the declared cutoff-admissible free-data class.",
+  "class_covered": "Fixed smooth nondegenerate metric and positive-codimension nondegenerate section, fixed positive weight and finite-rank connection; every smooth local coclosed germ; arbitrary finite ambient-jet readout. Charge requires one collar/product patch, real current or actual Killing-contracted symmetric stress and full/cutoff-admissible free-data domain.",
+  "premises": [
+    "lab/sources/source-claim-register.yaml",
+    "lab/sources/weinstein-gu-primary-source-pack-2026-07-30.md",
+    "explorations/conditional-build/bet-cosmology-conservation-descent-2026-11-27.md",
+    "explorations/conditional-build/compact-excitation-charge-2026-11-27.md",
+    "explorations/conditional-build/source-action-theta-divergence-2026-11-27.md",
+    "Lean/GUFormalization/CompactCharge.lean",
+    "canon/dark-energy-theta-divergence-free.md"
+  ],
+  "source_bridge": {
+    "status": "conditional",
+    "reason": "SC-COS-50/51/52 assert an automatic identity and adjoint one-form, not coclosure alone as full dynamics, a finite local stress/current readout, fixed backgrounds, cutoff-closed physical states or nonzero compact excitation charge. No source dark-energy verdict."
+  },
+  "weakest_unproved_link": "Source necessity of coclosure-only solution class, finite readout and cutoff-admissible physical domain.",
+  "source_necessary_claim": "not_authenticated",
+  "class_C_representativeness": "Not a whole-C claim; complete conditional local coclosure class only.",
+  "structural_or_build_specific": "Structural across every fixed smooth background and finite derivative order in this class; not coupled full source dynamics.",
+  "kill_condition": "A nonzero compact excitation charge with every stated class and cutoff premise would refute the conditional theorem. No such control found.",
+  "choice_budget_effect": "none;10 families/4 grouped obligations/net6/0 source-selected predictions unchanged",
+  "results": {
+    "finite_reduction": "Free normal Taylor fields V(j,beta) and W(beta) through fixed orderk, with ODE recursion determining all positive-r derivatives of normal flux.",
+    "closure": "Observed derivatives use the same finite free-field list and higher observed jets; no infinite normal tower.",
+    "realization": "Finite Taylor polynomials in normals plus exact smooth parameter-dependent linear ODE; no analytic/CK or infinite-series premise.",
+    "charge": "Conservation for every coclosed germ is an identity after prolongation elimination. Cut off free data then reconstruct. Vacuum-subtracted compact excitation charge vanishes by the reused Stokes argument.",
+    "positivity": "Nonnegative real density vanishes only on compactly realizable coclosed solution jets; not arbitrary ambient jets, full stress, physical energy or homogeneous backgrounds.",
+    "sharp_escape": "All normal fluxes identically zero throughout collar plus normal-independent tangential transport admits positive compact slice charge. Zero flux only at section is insufficient. Extra state restriction excludes the free-data cutoff reconstruction.",
+    "survivors": "Additional equations, physical/global/topological domains, nonlocal/infinite-jet readouts, coupled geometry, noncompact/background charge; source admission undetermined."
+  },
+  "selection": {
+    "mandatory_basis": "Counter99 LCdue; three bets20 remaining; BET-COSMOLOGY wins tie by supplied-input complete finite-normal-jet test.",
+    "reuse_difference": "Owned observed-only theorem and compact-charge argument explicitly excluded normal jets. Reuse ODE/Stokes; new prolonged-jet parametrization and free-data support compatibility.",
+    "source_relevance": "Conditional sufficiency test for SC-COS50/51/52, not a scalar replacement or a source-required compact charge.",
+    "shared_prerequisite": "Actual full equations, stress/current readout and admitted physical state/domain.",
+    "outcomes": [
+      "Finite parametrization holds: retire finite-normal-jet repair under the stated premises.",
+      "Counterexample: retain a finite-normal mechanism.",
+      "Cutoff support fails: state restricted domain; do not assert global charge theorem."
+    ],
+    "strongest_eligible_alternative": "BET-MASS-GAP same-T3 stationary search and BET-2PLUS1 same weighted-unitary closure are consumed; new native reduction inputs absent. Full CMB remains distinct but missing primordial covariance/full transfer and likelihood.",
+    "forecast": "Small exact polynomial controls plus written class proof and T1 review; no native matrices or new action.",
+    "actual_cost": {
+      "grouped_controls": 102,
+      "control_seconds": 0.02703870926052332,
+      "note": "Control runtime excludes proof, review and integration; no fabricated total-cost estimate."
+    },
+    "lenses": "Quick20 mathematical descriptions include category theory (factorization through prolonged equations), number theory (no count inference), PDE, geometry, representation, harmonic analysis, symplectic, functional, gauge, variational, topology, index, control, inverse, exact algebra, numerical analysis, probability, causal evolution, source criticism and optimization; no per-persona agents."
+  },
+  "verification": {
+    "controls": {
+      "status": "PASS",
+      "grouped_checks": 102,
+      "checks": {
+        "engine_derivative": true,
+        "engine_integral": true,
+        "engine_mixed_commute": true,
+        "ODE_exact_variable_nonabelian_1": true,
+        "initial_datum_1": true,
+        "recursion_match_seed1_order1": true,
+        "mixed_y_then_x_seed1_order1": true,
+        "recursion_match_seed1_order2": true,
+        "mixed_y_then_x_seed1_order2": true,
+        "recursion_match_seed1_order3": true,
+        "mixed_y_then_x_seed1_order3": true,
+        "recursion_match_seed1_order4": true,
+        "mixed_y_then_x_seed1_order4": true,
+        "recursion_match_seed1_order5": true,
+        "mixed_y_then_x_seed1_order5": true,
+        "recursion_match_seed1_order6": true,
+        "mixed_y_then_x_seed1_order6": true,
+        "recursion_match_seed1_order7": true,
+        "mixed_y_then_x_seed1_order7": true,
+        "planted_wrong_sign_recursion_1": true,
+        "weighted_lowered_sign_1_-1": true,
+        "weighted_lowered_sign_1_1": true,
+        "normal_jet_improvement_conserved_1": true,
+        "normal_jet_readout_nonzero_1": true,
+        "ODE_exact_variable_nonabelian_2": true,
+        "initial_datum_2": true,
+        "recursion_match_seed2_order1": true,
+        "mixed_y_then_x_seed2_order1": true,
+        "recursion_match_seed2_order2": true,
+        "mixed_y_then_x_seed2_order2": true,
+        "recursion_match_seed2_order3": true,
+        "mixed_y_then_x_seed2_order3": true,
+        "recursion_match_seed2_order4": true,
+        "mixed_y_then_x_seed2_order4": true,
+        "recursion_match_seed2_order5": true,
+        "mixed_y_then_x_seed2_order5": true,
+        "recursion_match_seed2_order6": true,
+        "mixed_y_then_x_seed2_order6": true,
+        "recursion_match_seed2_order7": true,
+        "mixed_y_then_x_seed2_order7": true,
+        "planted_wrong_sign_recursion_2": true,
+        "weighted_lowered_sign_2_-1": true,
+        "weighted_lowered_sign_2_1": true,
+        "normal_jet_improvement_conserved_2": true,
+        "normal_jet_readout_nonzero_2": true,
+        "ODE_exact_variable_nonabelian_3": true,
+        "initial_datum_3": true,
+        "recursion_match_seed3_order1": true,
+        "mixed_y_then_x_seed3_order1": true,
+        "recursion_match_seed3_order2": true,
+        "mixed_y_then_x_seed3_order2": true,
+        "recursion_match_seed3_order3": true,
+        "mixed_y_then_x_seed3_order3": true,
+        "recursion_match_seed3_order4": true,
+        "mixed_y_then_x_seed3_order4": true,
+        "recursion_match_seed3_order5": true,
+        "mixed_y_then_x_seed3_order5": true,
+        "recursion_match_seed3_order6": true,
+        "mixed_y_then_x_seed3_order6": true,
+        "recursion_match_seed3_order7": true,
+        "mixed_y_then_x_seed3_order7": true,
+        "planted_wrong_sign_recursion_3": true,
+        "weighted_lowered_sign_3_-1": true,
+        "weighted_lowered_sign_3_1": true,
+        "normal_jet_improvement_conserved_3": true,
+        "normal_jet_readout_nonzero_3": true,
+        "ODE_exact_variable_nonabelian_4": true,
+        "initial_datum_4": true,
+        "recursion_match_seed4_order1": true,
+        "mixed_y_then_x_seed4_order1": true,
+        "recursion_match_seed4_order2": true,
+        "mixed_y_then_x_seed4_order2": true,
+        "recursion_match_seed4_order3": true,
+        "mixed_y_then_x_seed4_order3": true,
+        "recursion_match_seed4_order4": true,
+        "mixed_y_then_x_seed4_order4": true,
+        "recursion_match_seed4_order5": true,
+        "mixed_y_then_x_seed4_order5": true,
+        "recursion_match_seed4_order6": true,
+        "mixed_y_then_x_seed4_order6": true,
+        "recursion_match_seed4_order7": true,
+        "mixed_y_then_x_seed4_order7": true,
+        "planted_wrong_sign_recursion_4": true,
+        "weighted_lowered_sign_4_-1": true,
+        "weighted_lowered_sign_4_1": true,
+        "normal_jet_improvement_conserved_4": true,
+        "normal_jet_readout_nonzero_4": true,
+        "independent_normal_coefficients_order0": true,
+        "independent_normal_coefficients_order1": true,
+        "independent_normal_coefficients_order2": true,
+        "independent_normal_coefficients_order3": true,
+        "independent_normal_coefficients_order4": true,
+        "independent_normal_coefficients_order5": true,
+        "zero_all_normal_flux_transport_conserved": true,
+        "transport_compact_positive_charge": true,
+        "time_cutoff_breaks_zero_flux_domain": true,
+        "normal_flux_restores_coclosure": true,
+        "compensation_leaves_zero_normal_flux_class": true,
+        "compact_normal_data_improvement_divergence": true,
+        "compact_normal_data_charge_zero": true,
+        "compact_normal_data_boundary_zero": true,
+        "compact_normal_data_both_signs": true
+      },
+      "variable_connection_certificates": [
+        {
+          "seed": 1,
+          "r_coefficients_w": [
+            [
+              [
+                [
+                  [
+                    0,
+                    1,
+                    1,
+                    0
+                  ],
+                  "1"
+                ],
+                [
+                  [
+                    2,
+                    0,
+                    0,
+                    0
+                  ],
+                  "1"
+                ]
+              ],
+              [
+                [
+                  [
+                    0,
+                    0,
+                    2,
+                    0
+                  ],
+                  "1"
+                ],
+                [
+                  [
+                    0,
+                    2,
+                    0,
+                    0
+                  ],
+                  "1"
+                ]
+              ]
+            ],
+            [
+              [
+                [
+                  [
+                    0,
+                    0,
+                    0,
+                    0
+                  ],
+                  "-2"
+                ],
+                [
+                  [
+                    0,
+                    0,
+                    1,
+                    0
+                  ],
+                  "-1"
+                ],
+                [
+                  [
+                    0,
+                    0,
+                    2,
+                    0
+                  ],
+                  "-1"
+                ],
+                [
+                  [
+                    0,
+                    1,
+                    0,
+                    0
+                  ],
+                  "-3"
+                ],
+                [
+                  [
+                    0,
+                    1,
+                    1,
+                    0
+                  ],
+                  "-1"
+                ],
+                [
+                  [
+                    0,
+                    2,
+                    0,
+                    0
+                  ],
+                  "-1"
+                ],
+                [
+                  [
+                    0,
+                    2,
+                    1,
+                    0
+                  ],
+                  "-1"
+                ],
+                [
+                  [
+                    1,
+                    0,
+                    0,
+                    0
+                  ],
+                  "-3"
+                ],
+                [
+                  [
+                    1,
+                    0,
+                    2,
+                    0
+                  ],
+                  "-1"
+                ],
+                [
+                  [
+                    1,
+                    1,
+                    1,
+                    0
+                  ],
+                  "-1"
+                ],
+                [
+                  [
+                    1,
+                    2,
+                    0,
+                    0
+                  ],
+                  "-1"
+                ]
+              ],
+              [
+                [
+                  [
+                    0,
+                    0,
+                    0,
+                    0
+                  ],
+                  "1"
+                ],
+                [
+                  [
+                    0,
+                    0,
+                    1,
+                    0
+                  ],
+                  "-4"
+                ],
+                [
+                  [
+                    0,
+                    1,
+                    0,
+                    0
+                  ],
+                  "1"
+                ],
+                [
+                  [
+                    1,
+                    1,
+                    0,
+                    0
+                  ],
+                  "-1"
+                ]
+              ]
+            ],
+            [
+              [
+                [
+                  [
+                    0,
+                    0,
+                    0,
+                    0
+                  ],
+                  "-3/2"
+                ],
+                [
+                  [
+                    0,
+                    0,
+                    1,
+                    0
+                  ],
+                  "1"
+                ],
+                [
+                  [
+                    0,
+                    0,
+                    2,
+                    0
+                  ],
+                  "-1/2"
+                ],
+                [
+                  [
+                    0,
+                    1,
+                    0,
+                    0
+                  ],
+                  "-1/2"
+                ],
+                [
+                  [
+                    0,
+                    1,
+                    1,
+                    0
+                  ],
+                  "-1/2"
+                ],
+                [
+                  [
+                    0,
+                    2,
+                    0,
+                    0
+                  ],
+                  "-1/2"
+                ],
+                [
+                  [
+                    1,
+                    0,
+                    0,
+                    0
+                  ],
+                  "-1"
+                ],
+                [
+                  [
+                    1,
+                    0,
+                    1,
+                    0
+                  ],
+                  "2"
+                ],
+                [
+                  [
+                    2,
+                    1,
+                    0,
+                    0
+                  ],
+                  "1/2"
+                ]
+              ],
+              [
+                [
+                  [
+                    0,
+                    0,
+                    0,
+                    0
+                  ],
+                  "-3/2"
+                ],
+                [
+                  [
+                    0,
+                    0,
+                    1,
+                    0
+                  ],
+                  "-1/2"
+                ],
+                [
+                  [
+                    0,
+                    0,
+                    2,
+                    0
+                  ],
+                  "-1/2"
+                ],
+                [
+                  [
+                    0,
+                    0,
+                    3,
+                    0
+                  ],
+                  "-1/2"
+                ],
+                [
+                  [
+                    0,
+                    1,
+                    0,
+                    0
+                  ],
+                  "1/2"
+                ],
+                [
+                  [
+                    0,
+                    2,
+                    0,
+                    0
+                  ],
+                  "1/2"
+                ],
+                [
+                  [
+                    1,
+                    0,
+                    0,
+                    0
+                  ],
+                  "-1/2"
+                ],
+                [
+                  [
+                    1,
+                    0,
+                    1,
+                    0
+                  ],
+                  "1/2"
+                ]
+              ]
+            ],
+            [
+              [
+                [
+                  [
+                    0,
+                    0,
+                    0,
+                    0
+                  ],
+                  "-1/6"
+                ],
+                [
+                  [
+                    0,
+                    0,
+                    1,
+                    0
+                  ],
+                  "3/2"
+                ],
+                [
+                  [
+                    0,
+                    0,
+                    2,
+                    0
+                  ],
+                  "1/6"
+                ],
+                [
+                  [
+                    0,
+                    0,
+                    3,
+                    0
+                  ],
+                  "1/6"
+                ],
+                [
+                  [
+                    0,
+                    1,
+                    0,
+                    0
+                  ],
+                  "-5/6"
+                ],
+                [
+                  [
+                    0,
+                    2,
+                    0,
+                    0
+                  ],
+                  "-1/6"
+                ],
+                [
+                  [
+                    1,
+                    0,
+                    0,
+                    0
+                  ],
+                  "2/3"
+                ],
+                [
+                  [
+                    1,
+                    0,
+                    2,
+                    0
+                  ],
+                  "1/6"
+                ],
+                [
+                  [
+                    1,
+                    0,
+                    3,
+                    0
+                  ],
+                  "1/6"
+                ],
+                [
+                  [
+                    1,
+                    1,
+                    0,
+                    0
+                  ],
+                  "1/6"
+                ],
+                [
+                  [
+                    1,
+                    2,
+                    0,
+                    0
+                  ],
+                  "-1/6"
+                ],
+                [
+                  [
+                    2,
+                    0,
+                    0,
+                    0
+                  ],
+                  "1/6"
+                ],
+                [
+                  [
+                    2,
+                    0,
+                    1,
+                    0
+                  ],
+                  "-1/6"
+                ]
+              ],
+              [
+                [
+                  [
+                    0,
+                    0,
+                    2,
+                    0
+                  ],
+                  "-1/3"
+                ],
+                [
+                  [
+                    0,
+                    1,
+                    0,
+                    0
+                  ],
+                  "1/3"
+                ]
+              ]
+            ]
+          ]
+        },
+        {
+          "seed": 2,
+          "r_coefficients_w": [
+            [
+              [
+                [
+                  [
+                    0,
+                    1,
+                    1,
+                    0
+                  ],
+                  "1"
+                ],
+                [
+                  [
+                    2,
+                    0,
+                    0,
+                    0
+                  ],
+                  "1"
+                ]
+              ],
+              [
+                [
+                  [
+                    0,
+                    0,
+                    2,
+                    0
+                  ],
+                  "1"
+                ],
+                [
+                  [
+                    0,
+                    2,
+                    0,
+                    0
+                  ],
+                  "1"
+                ]
+              ]
+            ],
+            [
+              [
+                [
+                  [
+                    0,
+                    0,
+                    0,
+                    0
+                  ],
+                  "-2"
+                ],
+                [
+                  [
+                    0,
+                    0,
+                    1,
+                    0
+                  ],
+                  "-2"
+                ],
+                [
+                  [
+                    0,
+                    0,
+                    2,
+                    0
+                  ],
+                  "-1"
+                ],
+                [
+                  [
+                    0,
+                    1,
+                    0,
+                    0
+                  ],
+                  "-4"
+                ],
+                [
+                  [
+                    0,
+                    1,
+                    1,
+                    0
+                  ],
+                  "-2"
+                ],
+                [
+                  [
+                    0,
+                    2,
+                    0,
+                    0
+                  ],
+                  "-1"
+                ],
+                [
+                  [
+                    0,
+                    2,
+                    1,
+                    0
+                  ],
+                  "-2"
+                ],
+                [
+                  [
+                    1,
+                    0,
+                    0,
+                    0
+                  ],
+                  "-3"
+                ],
+                [
+                  [
+                    1,
+                    0,
+                    2,
+                    0
+                  ],
+                  "-1"
+                ],
+                [
+                  [
+                    1,
+                    1,
+                    1,
+                    0
+                  ],
+                  "-2"
+                ],
+                [
+                  [
+                    1,
+                    2,
+                    0,
+                    0
+                  ],
+                  "-1"
+                ]
+              ],
+              [
+                [
+                  [
+                    0,
+                    0,
+                    0,
+                    0
+                  ],
+                  "1"
+                ],
+                [
+                  [
+                    0,
+                    0,
+                    1,
+                    0
+                  ],
+                  "-4"
+                ],
+                [
+                  [
+                    1,
+                    1,
+                    0,
+                    0
+                  ],
+                  "-2"
+                ]
+              ]
+            ],
+            [
+              [
+                [
+                  [
+                    0,
+                    0,
+                    0,
+                    0
+                  ],
+                  "-3/2"
+                ],
+                [
+                  [
+                    0,
+                    0,
+                    2,
+                    0
+                  ],
+                  "-1/2"
+                ],
+                [
+                  [
+                    0,
+                    1,
+                    1,
+                    0
+                  ],
+                  "-1"
+                ],
+                [
+                  [
+                    0,
+                    2,
+                    0,
+                    0
+                  ],
+                  "-1/2"
+                ],
+                [
+                  [
+                    1,
+                    0,
+                    0,
+                    0
+                  ],
+                  "-1/2"
+                ],
+                [
+                  [
+                    1,
+                    0,
+                    1,
+                    0
+                  ],
+                  "2"
+                ],
+                [
+                  [
+                    1,
+                    1,
+                    0,
+                    0
+                  ],
+                  "1"
+                ],
+                [
+                  [
+                    2,
+                    1,
+                    0,
+                    0
+                  ],
+                  "1"
+                ]
+              ],
+              [
+                [
+                  [
+                    0,
+                    0,
+                    0,
+                    0
+                  ],
+                  "-5/2"
+                ],
+                [
+                  [
+                    0,
+                    0,
+                    3,
+                    0
+                  ],
+                  "-1"
+                ],
+                [
+                  [
+                    0,
+                    1,
+                    0,
+                    0
+                  ],
+                  "1"
+                ],
+                [
+                  [
+                    0,
+                    2,
+                    0,
+                    0
+                  ],
+                  "1"
+                ],
+                [
+                  [
+                    1,
+                    0,
+                    0,
+                    0
+                  ],
+                  "-1"
+                ],
+                [
+                  [
+                    1,
+                    0,
+                    1,
+                    0
+                  ],
+                  "1"
+                ]
+              ]
+            ],
+            [
+              [
+                [
+                  [
+                    0,
+                    0,
+                    0,
+                    0
+                  ],
+                  "-1/6"
+                ],
+                [
+                  [
+                    0,
+                    0,
+                    1,
+                    0
+                  ],
+                  "4/3"
+                ],
+                [
+                  [
+                    0,
+                    0,
+                    3,
+                    0
+                  ],
+                  "1/3"
+                ],
+                [
+                  [
+                    0,
+                    1,
+                    0,
+                    0
+                  ],
+                  "-1"
+                ],
+                [
+                  [
+                    0,
+                    2,
+                    0,
+                    0
+                  ],
+                  "-1/3"
+                ],
+                [
+                  [
+                    1,
+                    0,
+                    0,
+                    0
+                  ],
+                  "1/2"
+                ],
+                [
+                  [
+                    1,
+                    0,
+                    1,
+                    0
+                  ],
+                  "-1/3"
+                ],
+                [
+                  [
+                    1,
+                    0,
+                    3,
+                    0
+                  ],
+                  "1/3"
+                ],
+                [
+                  [
+                    1,
+                    1,
+                    0,
+                    0
+                  ],
+                  "1/3"
+                ],
+                [
+                  [
+                    1,
+                    2,
+                    0,
+                    0
+                  ],
+                  "-1/3"
+                ],
+                [
+                  [
+                    2,
+                    0,
+                    0,
+                    0
+                  ],
+                  "1/3"
+                ],
+                [
+                  [
+                    2,
+                    0,
+                    1,
+                    0
+                  ],
+                  "-1/3"
+                ]
+              ],
+              [
+                [
+                  [
+                    0,
+                    0,
+                    1,
+                    0
+                  ],
+                  "-2/3"
+                ],
+                [
+                  [
+                    0,
+                    0,
+                    2,
+                    0
+                  ],
+                  "-4/3"
+                ],
+                [
+                  [
+                    0,
+                    1,
+                    0,
+                    0
+                  ],
+                  "2/3"
+                ]
+              ]
+            ]
+          ]
+        },
+        {
+          "seed": 3,
+          "r_coefficients_w": [
+            [
+              [
+                [
+                  [
+                    0,
+                    1,
+                    1,
+                    0
+                  ],
+                  "1"
+                ],
+                [
+                  [
+                    2,
+                    0,
+                    0,
+                    0
+                  ],
+                  "1"
+                ]
+              ],
+              [
+                [
+                  [
+                    0,
+                    0,
+                    2,
+                    0
+                  ],
+                  "1"
+                ],
+                [
+                  [
+                    0,
+                    2,
+                    0,
+                    0
+                  ],
+                  "1"
+                ]
+              ]
+            ],
+            [
+              [
+                [
+                  [
+                    0,
+                    0,
+                    0,
+                    0
+                  ],
+                  "-2"
+                ],
+                [
+                  [
+                    0,
+                    0,
+                    1,
+                    0
+                  ],
+                  "-3"
+                ],
+                [
+                  [
+                    0,
+                    0,
+                    2,
+                    0
+                  ],
+                  "-1"
+                ],
+                [
+                  [
+                    0,
+                    1,
+                    0,
+                    0
+                  ],
+                  "-5"
+                ],
+                [
+                  [
+                    0,
+                    1,
+                    1,
+                    0
+                  ],
+                  "-3"
+                ],
+                [
+                  [
+                    0,
+                    2,
+                    0,
+                    0
+                  ],
+                  "-1"
+                ],
+                [
+                  [
+                    0,
+                    2,
+                    1,
+                    0
+                  ],
+                  "-3"
+                ],
+                [
+                  [
+                    1,
+                    0,
+                    0,
+                    0
+                  ],
+                  "-3"
+                ],
+                [
+                  [
+                    1,
+                    0,
+                    2,
+                    0
+                  ],
+                  "-1"
+                ],
+                [
+                  [
+                    1,
+                    1,
+                    1,
+                    0
+                  ],
+                  "-3"
+                ],
+                [
+                  [
+                    1,
+                    2,
+                    0,
+                    0
+                  ],
+                  "-1"
+                ]
+              ],
+              [
+                [
+                  [
+                    0,
+                    0,
+                    0,
+                    0
+                  ],
+                  "1"
+                ],
+                [
+                  [
+                    0,
+                    0,
+                    1,
+                    0
+                  ],
+                  "-4"
+                ],
+                [
+                  [
+                    0,
+                    1,
+                    0,
+                    0
+                  ],
+                  "-1"
+                ],
+                [
+                  [
+                    1,
+                    1,
+                    0,
+                    0
+                  ],
+                  "-3"
+                ]
+              ]
+            ],
+            [
+              [
+                [
+                  [
+                    0,
+                    0,
+                    0,
+                    0
+                  ],
+                  "-3/2"
+                ],
+                [
+                  [
+                    0,
+                    0,
+                    1,
+                    0
+                  ],
+                  "-1"
+                ],
+                [
+                  [
+                    0,
+                    0,
+                    2,
+                    0
+                  ],
+                  "-1/2"
+                ],
+                [
+                  [
+                    0,
+                    1,
+                    0,
+                    0
+                  ],
+                  "1/2"
+                ],
+                [
+                  [
+                    0,
+                    1,
+                    1,
+                    0
+                  ],
+                  "-3/2"
+                ],
+                [
+                  [
+                    0,
+                    2,
+                    0,
+                    0
+                  ],
+                  "-1/2"
+                ],
+                [
+                  [
+                    1,
+                    0,
+                    0,
+                    0
+                  ],
+                  "-1/2"
+                ],
+                [
+                  [
+                    1,
+                    0,
+                    1,
+                    0
+                  ],
+                  "2"
+                ],
+                [
+                  [
+                    1,
+                    1,
+                    0,
+                    0
+                  ],
+                  "2"
+                ],
+                [
+                  [
+                    2,
+                    1,
+                    0,
+                    0
+                  ],
+                  "3/2"
+                ]
+              ],
+              [
+                [
+                  [
+                    0,
+                    0,
+                    0,
+                    0
+                  ],
+                  "-7/2"
+                ],
+                [
+                  [
+                    0,
+                    0,
+                    3,
+                    0
+                  ],
+                  "-3/2"
+                ],
+                [
+                  [
+                    0,
+                    1,
+                    0,
+                    0
+                  ],
+                  "3/2"
+                ],
+                [
+                  [
+                    0,
+                    2,
+                    0,
+                    0
+                  ],
+                  "3/2"
+                ],
+                [
+                  [
+                    1,
+                    0,
+                    0,
+                    0
+                  ],
+                  "-3/2"
+                ],
+                [
+                  [
+                    1,
+                    0,
+                    1,
+                    0
+                  ],
+                  "3/2"
+                ]
+              ]
+            ],
+            [
+              [
+                [
+                  [
+                    0,
+                    0,
+                    0,
+                    0
+                  ],
+                  "-1/6"
+                ],
+                [
+                  [
+                    0,
+                    0,
+                    1,
+                    0
+                  ],
+                  "4/3"
+                ],
+                [
+                  [
+                    0,
+                    0,
+                    3,
+                    0
+                  ],
+                  "1/2"
+                ],
+                [
+                  [
+                    0,
+                    1,
+                    0,
+                    0
+                  ],
+                  "-7/6"
+                ],
+                [
+                  [
+                    0,
+                    2,
+                    0,
+                    0
+                  ],
+                  "-1/2"
+                ],
+                [
+                  [
+                    1,
+                    0,
+                    0,
+                    0
+                  ],
+                  "5/3"
+                ],
+                [
+                  [
+                    1,
+                    0,
+                    1,
+                    0
+                  ],
+                  "-1/2"
+                ],
+                [
+                  [
+                    1,
+                    0,
+                    3,
+                    0
+                  ],
+                  "1/2"
+                ],
+                [
+                  [
+                    1,
+                    1,
+                    0,
+                    0
+                  ],
+                  "1/2"
+                ],
+                [
+                  [
+                    1,
+                    2,
+                    0,
+                    0
+                  ],
+                  "-1/2"
+                ],
+                [
+                  [
+                    2,
+                    0,
+                    0,
+                    0
+                  ],
+                  "1/2"
+                ],
+                [
+                  [
+                    2,
+                    0,
+                    1,
+                    0
+                  ],
+                  "-1/2"
+                ]
+              ],
+              [
+                [
+                  [
+                    0,
+                    0,
+                    2,
+                    0
+                  ],
+                  "-1"
+                ],
+                [
+                  [
+                    0,
+                    1,
+                    0,
+                    0
+                  ],
+                  "1"
+                ]
+              ]
+            ]
+          ]
+        },
+        {
+          "seed": 4,
+          "r_coefficients_w": [
+            [
+              [
+                [
+                  [
+                    0,
+                    1,
+                    1,
+                    0
+                  ],
+                  "1"
+                ],
+                [
+                  [
+                    2,
+                    0,
+                    0,
+                    0
+                  ],
+                  "1"
+                ]
+              ],
+              [
+                [
+                  [
+                    0,
+                    0,
+                    2,
+                    0
+                  ],
+                  "1"
+                ],
+                [
+                  [
+                    0,
+                    2,
+                    0,
+                    0
+                  ],
+                  "1"
+                ]
+              ]
+            ],
+            [
+              [
+                [
+                  [
+                    0,
+                    0,
+                    0,
+                    0
+                  ],
+                  "-2"
+                ],
+                [
+                  [
+                    0,
+                    0,
+                    1,
+                    0
+                  ],
+                  "-4"
+                ],
+                [
+                  [
+                    0,
+                    0,
+                    2,
+                    0
+                  ],
+                  "-1"
+                ],
+                [
+                  [
+                    0,
+                    1,
+                    0,
+                    0
+                  ],
+                  "-6"
+                ],
+                [
+                  [
+                    0,
+                    1,
+                    1,
+                    0
+                  ],
+                  "-4"
+                ],
+                [
+                  [
+                    0,
+                    2,
+                    0,
+                    0
+                  ],
+                  "-1"
+                ],
+                [
+                  [
+                    0,
+                    2,
+                    1,
+                    0
+                  ],
+                  "-4"
+                ],
+                [
+                  [
+                    1,
+                    0,
+                    0,
+                    0
+                  ],
+                  "-3"
+                ],
+                [
+                  [
+                    1,
+                    0,
+                    2,
+                    0
+                  ],
+                  "-1"
+                ],
+                [
+                  [
+                    1,
+                    1,
+                    1,
+                    0
+                  ],
+                  "-4"
+                ],
+                [
+                  [
+                    1,
+                    2,
+                    0,
+                    0
+                  ],
+                  "-1"
+                ]
+              ],
+              [
+                [
+                  [
+                    0,
+                    0,
+                    0,
+                    0
+                  ],
+                  "1"
+                ],
+                [
+                  [
+                    0,
+                    0,
+                    1,
+                    0
+                  ],
+                  "-4"
+                ],
+                [
+                  [
+                    0,
+                    1,
+                    0,
+                    0
+                  ],
+                  "-2"
+                ],
+                [
+                  [
+                    1,
+                    1,
+                    0,
+                    0
+                  ],
+                  "-4"
+                ]
+              ]
+            ],
+            [
+              [
+                [
+                  [
+                    0,
+                    0,
+                    0,
+                    0
+                  ],
+                  "-3/2"
+                ],
+                [
+                  [
+                    0,
+                    0,
+                    1,
+                    0
+                  ],
+                  "-2"
+                ],
+                [
+                  [
+                    0,
+                    0,
+                    2,
+                    0
+                  ],
+                  "-1/2"
+                ],
+                [
+                  [
+                    0,
+                    1,
+                    0,
+                    0
+                  ],
+                  "1"
+                ],
+                [
+                  [
+                    0,
+                    1,
+                    1,
+                    0
+                  ],
+                  "-2"
+                ],
+                [
+                  [
+                    0,
+                    2,
+                    0,
+                    0
+                  ],
+                  "-1/2"
+                ],
+                [
+                  [
+                    1,
+                    0,
+                    0,
+                    0
+                  ],
+                  "-1/2"
+                ],
+                [
+                  [
+                    1,
+                    0,
+                    1,
+                    0
+                  ],
+                  "2"
+                ],
+                [
+                  [
+                    1,
+                    1,
+                    0,
+                    0
+                  ],
+                  "3"
+                ],
+                [
+                  [
+                    2,
+                    1,
+                    0,
+                    0
+                  ],
+                  "2"
+                ]
+              ],
+              [
+                [
+                  [
+                    0,
+                    0,
+                    0,
+                    0
+                  ],
+                  "-9/2"
+                ],
+                [
+                  [
+                    0,
+                    0,
+                    3,
+                    0
+                  ],
+                  "-2"
+                ],
+                [
+                  [
+                    0,
+                    1,
+                    0,
+                    0
+                  ],
+                  "2"
+                ],
+                [
+                  [
+                    0,
+                    2,
+                    0,
+                    0
+                  ],
+                  "2"
+                ],
+                [
+                  [
+                    1,
+                    0,
+                    0,
+                    0
+                  ],
+                  "-2"
+                ],
+                [
+                  [
+                    1,
+                    0,
+                    1,
+                    0
+                  ],
+                  "2"
+                ]
+              ]
+            ],
+            [
+              [
+                [
+                  [
+                    0,
+                    0,
+                    0,
+                    0
+                  ],
+                  "-1/6"
+                ],
+                [
+                  [
+                    0,
+                    0,
+                    1,
+                    0
+                  ],
+                  "4/3"
+                ],
+                [
+                  [
+                    0,
+                    0,
+                    3,
+                    0
+                  ],
+                  "2/3"
+                ],
+                [
+                  [
+                    0,
+                    1,
+                    0,
+                    0
+                  ],
+                  "-4/3"
+                ],
+                [
+                  [
+                    0,
+                    2,
+                    0,
+                    0
+                  ],
+                  "-2/3"
+                ],
+                [
+                  [
+                    1,
+                    0,
+                    0,
+                    0
+                  ],
+                  "13/6"
+                ],
+                [
+                  [
+                    1,
+                    0,
+                    1,
+                    0
+                  ],
+                  "-2/3"
+                ],
+                [
+                  [
+                    1,
+                    0,
+                    3,
+                    0
+                  ],
+                  "2/3"
+                ],
+                [
+                  [
+                    1,
+                    1,
+                    0,
+                    0
+                  ],
+                  "2/3"
+                ],
+                [
+                  [
+                    1,
+                    2,
+                    0,
+                    0
+                  ],
+                  "-2/3"
+                ],
+                [
+                  [
+                    2,
+                    0,
+                    0,
+                    0
+                  ],
+                  "2/3"
+                ],
+                [
+                  [
+                    2,
+                    0,
+                    1,
+                    0
+                  ],
+                  "-2/3"
+                ]
+              ],
+              [
+                [
+                  [
+                    0,
+                    0,
+                    2,
+                    0
+                  ],
+                  "-4/3"
+                ],
+                [
+                  [
+                    0,
+                    1,
+                    0,
+                    0
+                  ],
+                  "4/3"
+                ]
+              ]
+            ]
+          ]
+        }
+      ],
+      "positive_flux_restricted_charge": "256/315",
+      "runtime_seconds": 0.02703870926052332,
+      "scope": "Rational polynomial controls of finite recursion, mixed jets, variable connection, weights/signs and domain distinction. Universal smooth germ/support theorem is written and reviewed; polynomial cutoffs only finite boundary calibration, no actual source physical admission."
+    },
+    "lean": {
+      "status": "PASS",
+      "new_lemmas": 2,
+      "command": "lake env lean -j1 /private/tmp/gu-normal-jets-wt-20261127/Lean/GUFormalization/NormalJetRecursion.lean",
+      "execution_cwd": "mounted GU repository root with existing Mathlib cache",
+      "scope": "Causal recurrence uniqueness and algebraic rearrangement only. ODE, smooth jets, support, Stokes and source applicability remain written/reviewed. Existing CompactCharge cores reused, not rerun.",
+      "environment_repair": "Initial /Lean cwd invocation lacked Mathlib; corrected to repository root without proof change."
+    },
+    "review": {
+      "status": "accepted",
+      "ref": "lab/process/hostile-reviews/2026-11-27-cosmology-normal-jets-review.md",
+      "roles": [
+        "non-author mathematical specialist",
+        "non-author source/physics specialist",
+        "separate hostile reviewer"
+      ],
+      "disclosure": "Source reviewer contributed preflight custody; math and hostile did not develop theorem. Internal reviews only."
+    },
+    "gates": {
+      "program_focus_audit": "PASS",
+      "typed_carrier_declaration_audit": "PASS",
+      "kill_target_claim_audit": "PASS",
+      "frontmatter_status_schema_audit": "PASS",
+      "source_native_comparator_routing_audit": "PASS",
+      "lean_certificate_surface_audit": "PASS",
+      "current_state_absolute_currency_audit": "PASS",
+      "conditional_evidence_delta_gate": "PASS",
+      "research_context_reader_audit": "PASS"
+    },
+    "dependencies": [
+      {
+        "ref": "lab/sources/source-claim-register.yaml",
+        "sha256": "dc3ae173b4cc0eb2a0e343e3d92d5f110b8e4f6eef3e2852a1e897ab4371ade6",
+        "fresh_replay": false
+      },
+      {
+        "ref": "lab/sources/weinstein-gu-primary-source-pack-2026-07-30.md",
+        "sha256": "7b37925b0342c9495dc1706a39c0f2e9569e64a1352a3221814a2b0c9b9c2999",
+        "fresh_replay": false
+      },
+      {
+        "ref": "explorations/conditional-build/bet-cosmology-conservation-descent-2026-11-27.md",
+        "sha256": "1753551df78ce20fd70f95abac7f835d5e9442fc2c09bbb76a9be2c221eab933",
+        "fresh_replay": false
+      },
+      {
+        "ref": "explorations/conditional-build/compact-excitation-charge-2026-11-27.md",
+        "sha256": "3f0fa203e8a0effd32be012bc3a73300a1d15beae965fda737b5eaf9a1f35ba4",
+        "fresh_replay": false
+      },
+      {
+        "ref": "explorations/conditional-build/source-action-theta-divergence-2026-11-27.md",
+        "sha256": "db8e440623173743596a83bef6f9db53e702246332bf59e299dea2e394f7dcdf",
+        "fresh_replay": false
+      },
+      {
+        "ref": "Lean/GUFormalization/CompactCharge.lean",
+        "sha256": "393275f5c1c2091e85fec22f5e3333990f4d7baf9aec01fe4599d10df9ff8b49",
+        "fresh_replay": false
+      },
+      {
+        "ref": "canon/dark-energy-theta-divergence-free.md",
+        "sha256": "0d43aa68cbecdf9f4cd0ebabf2a312f2c335903b775820407fc8dd5f11884119",
+        "fresh_replay": false
+      }
+    ],
+    "literature": [
+      {
+        "ref": "https://math.stanford.edu/~conrad/diffgeomPage/handouts/linearode.pdf",
+        "use": "Standard linear ODE existence."
+      },
+      {
+        "ref": "https://math.stanford.edu/~conrad/diffgeomPage/handouts/intcurve.pdf",
+        "use": "Smooth parameter dependence."
+      },
+      {
+        "ref": "https://math.stanford.edu/~conrad/diffgeomPage/handouts/stokesthm.pdf",
+        "use": "Compact Stokes argument."
+      }
+    ],
+    "novelty": "New repository coverage, not a world-novelty claim; standard ODE and Stokes ingredients. No paper promotion.",
+    "review_hashes": {
+      "math": "93ec59369c741cc3aa016874b6a31f62cfe1a4f443a5251f0f303bbc14705dae",
+      "source": "a0f7349df2c2f95b58f3712470b9af72073a1a9e6ea6452e06f76caab57e934d",
+      "hostile": "0905d9194df17d749e158e5f9ed6f9f5228ee23cd1089d80a90ff8d764b2df9f"
+    },
+    "artifact_hashes": {
+      "explorations/conditional-build/bet-cosmology-normal-jets-2026-11-27.md": "5b44da439f6f47f1098a7b7f27e5d5761f35d1bf2b949e61a1ea8f5760f58b99",
+      "Lean/GUFormalization/NormalJetRecursion.lean": "b5a24fd880bcdc6bc62da384d1977af278248dfc0b31c8f9c2c24d87bef31865",
+      "tests/program-focus/cosmology_normal_jets_probe.py": "0e68aa2a8bafb7c3ad1fcefe44ff82f4623a8dc138ead822356804c326ed3963"
+    }
+  },
+  "follow_through": {
+    "consumed": [
+      "Every fixed finite ambient normal-jet correction as the sole repair for universal conserved compact excitation charge from coclosure alone."
+    ],
+    "survivors": [
+      "Source-supplied additional field equations or state restrictions",
+      "Nonlocal/infinite-jet readouts with actual domain",
+      "Coupled geometry and global/topological sectors",
+      "Homogeneous or unsubtracted cosmological background",
+      "Same-oneform all-normal-flux-zero transport comparator"
+    ],
+    "next": "Finite-order normal-jet repairs under coclosure alone are covered. A distinct conservation discriminator needs an already supplied extra equation or domain restricting the free normal coefficients, or a genuinely nonlocal readout with its actual admission. Homogeneous cosmological backgrounds and held EXP/COS full-CMB inputs remain outside. Counter100 returns to ordinary B selection via existing source-first VOI map; this LC result has no automatic B absorption or ledger credit."
+  },
+  "accounting": {
+    "counter_before": 99,
+    "counter_after": 100,
+    "bet_runs_before": 4,
+    "bet_runs_after": 5,
+    "bet_remaining_after": 19,
+    "new_action_variants": 0,
+    "new_choices": 0,
+    "matrix_cell_changes": 0,
+    "ledger_verdict_changes": 0,
+    "lane_B_absorption": "none"
+  },
+  "effect_line": "Change: finite-normal-jet conservation escape closed within the stated local class; why: eliminate repeated neighboring readout tests; authority: Joe27(c,f,h); applied LC internal evidence, no policy/verdict change; effect: surviving routes now require an additional equation/domain or a genuinely nonlocal readout."
+}

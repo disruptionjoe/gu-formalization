@@ -131,3 +131,5 @@ import GUFormalization.ShiabDerivation
 import GUFormalization.ShiabCompanion
 
 import GUFormalization.NullSymbolTrace
+
+import GUFormalization.NormalJetRecursion

@@ -1704,6 +1704,39 @@
       "survivors_ref": "lab/process/null-boost-symbol-trace.json#follow_through",
       "reopen_condition_ref": "explorations/conditional-build/null-boost-symbol-trace-2026-11-27.md",
       "superseded_by": null
+    },
+    {
+      "id": "cosmology-normal-jets-2026-11-27",
+      "kind": "result",
+      "owner_ref": "explorations/conditional-build/bet-cosmology-normal-jets-2026-11-27.md",
+      "tested_statement": "Every finite ambient jet of a weighted covariantly coclosed one-form along a nondegenerate section is a finite differential expression in finitely many arbitrary section fields. Normal derivatives do not escape the conservation identity or zero compact excitation-charge theorem on the declared cutoff-admissible free-data class.",
+      "signature": {
+        "object": "Weighted covariantly coclosed one-form local solution jets",
+        "carrier": "Full finite ambient jets on a nondegenerate section; finite-rank coefficient bundle",
+        "convention": "Densitized flux; both normal signs; fixed backgrounds; free-data cutoff, not theta cutoff",
+        "class": "All finite-order local readouts on full coclosed germs, compact-charge support in one product collar",
+        "premises": [
+          "lab/sources/source-claim-register.yaml",
+          "lab/sources/weinstein-gu-primary-source-pack-2026-07-30.md",
+          "explorations/conditional-build/bet-cosmology-conservation-descent-2026-11-27.md",
+          "explorations/conditional-build/compact-excitation-charge-2026-11-27.md",
+          "explorations/conditional-build/source-action-theta-divergence-2026-11-27.md",
+          "Lean/GUFormalization/CompactCharge.lean",
+          "canon/dark-energy-theta-divergence-free.md"
+        ]
+      },
+      "attributed_status": "internal_T1_cosmology_normal_jets_reviewed",
+      "status_ref": "lab/process/bet-cosmology-normal-jets.json#status",
+      "source_bridge_ref": "lab/process/bet-cosmology-normal-jets.json#source_bridge",
+      "certificate_refs": [
+        "Lean/GUFormalization/NormalJetRecursion.lean"
+      ],
+      "control_refs": [
+        "tests/program-focus/cosmology_normal_jets_probe.py"
+      ],
+      "survivors_ref": "lab/process/bet-cosmology-normal-jets.json#follow_through",
+      "reopen_condition_ref": "explorations/conditional-build/bet-cosmology-normal-jets-2026-11-27.md",
+      "superseded_by": null
     }
   ]
 }

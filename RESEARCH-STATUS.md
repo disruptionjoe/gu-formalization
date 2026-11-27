@@ -16,6 +16,10 @@ discovery bet (`lab/process/discovery-bets.json`). The K25xx--K2618 detector, pr
 results below are retained as conditional mathematics; that lane is no longer the default target. Sections
 below are dated results, newest first, and are not steering.
 
+## 2026-11-27 — Finite normal jets and compact charge (LC)
+
+[Result](explorations/conditional-build/bet-cosmology-normal-jets-2026-11-27.md) · [Evidence](lab/process/bet-cosmology-normal-jets.json). Every finite ambient solution jet reduces to finitely many arbitrary section fields under coclosure alone. Finite normal dependence therefore does not evade the zero compact excitation-charge theorem on its cutoff-admissible local domain. Additional equations, restricted states, nonlocal readouts and homogeneous backgrounds remain outside. This is LC internal evidence; no source, canon, ledger, matrix-cell or choice verdict changed. The new finite recurrence has two Lean lemmas; 102 exact controls passed. The PDE/support theorem remains written and reviewed.
+
 ## 2026-11-27 — Short-symbol null-boost trace
 
 [Result](explorations/conditional-build/null-boost-symbol-trace-2026-11-27.md) · [Evidence](lab/process/null-boost-symbol-trace.json). Exactness forces a+c=(n−1)b for the declared homogeneous short-complex profile. At n14 with firstorder end arrows, no nonnegative integer middle order works. This quantifies every coefficient under the stated boost symmetry; it is not the unprovided full source complex. DeRham and Maxwell controls retain the permitted exceptions. Existing ellipticity coverage and K1126–30 corrections are reused; no source, canon, ledger, matrix-cell or choice change.
