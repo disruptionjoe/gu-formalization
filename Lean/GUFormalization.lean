@@ -114,3 +114,5 @@ import GUFormalization.EndpointOnshell
 import GUFormalization.RiemannSilence
 import GUFormalization.StationaryTorus
 import GUFormalization.RiemannRealForm
+
+import GUFormalization.EndpointCubic

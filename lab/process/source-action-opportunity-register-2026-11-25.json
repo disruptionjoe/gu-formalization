@@ -1290,7 +1290,9 @@
         "explorations/conditional-build/source-action-endpoint-onshell-2026-11-27.md",
         "lab/process/source-action-endpoint-onshell.json",
         "explorations/conditional-build/source-action-riemann-silence-2026-11-27.md",
-        "lab/process/source-action-riemann-silence.json"
+        "lab/process/source-action-riemann-silence.json",
+        "explorations/conditional-build/source-action-endpoint-cubic-2026-11-27.md",
+        "lab/process/source-action-endpoint-cubic.json"
       ],
       "remaining_input": "No further input for the completed two-root comparison. Other physical/source realizations need their exact equation/domain/readout bridge.",
       "revisit_when": "A distinct source-admitted solution locus or typed equation dictionary changes the tested implication, not another component of the same failed roots.",
@@ -1302,7 +1304,12 @@
         "revisit_when": "A new owned response comparison can be evaluated without identifying distinct equations.",
         "disposition": "Existing two-layer comparison reused; repaired K95 endpoint mismatch remains."
       },
-      "class_strengthening": "Four native cyclic-kernel witnesses force all low/high Ricci and scalar coefficients to zero. Every Spin-equivariant fixed linear full-translation same-cubic unit-endpoint operator annihilates the algebraic Riemann submodule."
+      "class_strengthening": "Four native cyclic-kernel witnesses force all low/high Ricci and scalar coefficients to zero. Every Spin-equivariant fixed linear full-translation same-cubic unit-endpoint operator annihilates the algebraic Riemann submodule.",
+      "cubic_coverage_addendum": {
+        "result": "The horizontal theta0 gamma05 endpoint coefficient is (183/8)h^3+O(h^4). Every sufficiently small nonzero-h member of the owned W2 stationary branch violates the separately printed endpoint, including literal raised observation.",
+        "evidence": "lab/process/source-action-endpoint-cubic.json",
+        "consumed": "Further coefficients do not change this failed branch implication."
+      }
     },
     {
       "id": "O27",
@@ -2694,7 +2701,7 @@
     ],
     "next": {
       "id": "O26_first_uncomputed_small_h_endpoint_coefficient",
-      "status": "ready_for_bounded_preflight",
+      "status": "consumed_by_nonzero_cubic_branch_obstruction",
       "target": "LB-CLASS",
       "tier": "T1 if branch exclusion is proved; otherwise T2 finite cancellation",
       "task": "Use the already-owned convergent homogeneous W2 branch and on-shell printed-endpoint polynomial to compute the h3 coefficient first in an existing literal-horizontal receiver; no root search or new candidate.",
@@ -2715,8 +2722,36 @@
         "explorations/conditional-build/source-action-dynamics-and-continuation-2026-11-25.md"
       ],
       "expected_cost": "One sparse coefficient composition and exact sign/nonzero test; preflight must authenticate actual function names and normalization.",
-      "alternative": "W2 homogeneous normalization composition remains conditional/unexecuted; lower source relevance without a selected finite-invariant-measure claim."
+      "alternative": "W2 homogeneous normalization composition remains conditional/unexecuted; lower source relevance without a selected finite-invariant-measure claim.",
+      "prior_status": "ready_for_bounded_preflight",
+      "consumed_evidence": "lab/process/source-action-endpoint-cubic.json"
     },
     "source_ceiling": "Source necessity of a direct bare-curvature gravity channel or the zero-distortion physical vacuum."
+  },
+  "endpoint_cubic_2026_11_27": {
+    "evidence": [
+      "explorations/conditional-build/source-action-endpoint-cubic-2026-11-27.md",
+      "lab/process/source-action-endpoint-cubic.json"
+    ],
+    "actual_delta": "The horizontal theta0 gamma05 endpoint coefficient is (183/8)h^3+O(h^4). Every sufficiently small nonzero-h member of the owned W2 stationary branch violates the separately printed endpoint, including literal raised observation.",
+    "next": {
+      "status": "ordinary_LC_slot_due_after_this_wave",
+      "target": "LC-BETS",
+      "mandatory_basis": "Counter91 has remainder3 under unchanged run_selection. Active BET-2PLUS1 and BET-COSMOLOGY each have21runs left, BET-MASS-GAP20; inspect current ready uncovered discriminators and tie-break by source relevance/cost.",
+      "science_boundary": "Preserve all-stationary compact PS torus full-gap exclusion; do not rebuild that category. Do not repeat same W2 branch endpoint coefficients after this nonzero term.",
+      "post_LC_reserve": {
+        "status": "unadmitted_bounded_feasibility_only",
+        "target": "LB-CLASS",
+        "question": "Does the existing fixed-linear full-U unit-cubic identity force S to vanish on all commutator curvature, beyond the already-excluded algebraic Riemann restriction?",
+        "hypothesis": "Possible cyclic-trace/centroid classification using full independent matrix translations and the existing equivariant Hom family. This is a proposed discriminator, not a theorem or a claim of source necessity.",
+        "outcomes": [
+          "A complete class argument removes more operator choices without construction.",
+          "A surviving operator identifies exact scope; no automatic source repair.",
+          "If covered, too costly, or dependent on unowned data, reuse/pivot; no full census."
+        ],
+        "strongest_alternative": "Homogeneous finite-normalization composition remains unexecuted with conditional source necessity; physical-domain O06 lacks owned variable-boson graph derivative."
+      }
+    },
+    "source_ceiling": "Source selection of W2 dictionary and physical state admission."
   }
 }

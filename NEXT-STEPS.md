@@ -16,6 +16,10 @@ Do not add "Current follow-through" sections or "Historical predecessor" stacks 
 matrix or bet file. The retired follow-through chain and banner stack are kept at the end of this file under
 "Archived steering history".
 
+## 2026-11-27 — Cubic endpoint discrepancy on the analytic branch
+
+[Result](explorations/conditional-build/source-action-endpoint-cubic-2026-11-27.md) · [Evidence](lab/process/source-action-endpoint-cubic.json). The literal horizontal theta0 gamma05 coefficient is (183/8)h³+O(h⁴). In the held W2 dictionary, every sufficiently small nonzero member of the actual stationary branch violates the printed endpoint. No numerical radius, kappa1 connectivity, physical-state or GU verdict. Three inherited quadratic entries settle the new coefficient; no roots or full tensor rebuild.
+
 ## 2026-11-27 — Real forms and the zero-distortion first action
 
 [Result](explorations/conditional-build/riemann-realform-transfer-2026-11-27.md) · [Evidence](lab/process/riemann-realform-transfer.json). The full-U/full-Dirac fixed-linear unit-cubic obstruction transfers by complexification, including K95. In that structural class, the first action alone has a stationary family of all admissible compatible zero-distortion reference metrics; joint family tangents are Hessian null, not necessarily fixed-connection metric directions. This extends deductive coverage without another native witness computation. No source-selected vacuum, physical moduli, GU or ledger verdict.

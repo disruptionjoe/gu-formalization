@@ -1788,7 +1788,7 @@
     },
     "LB-CLASS": {
       "zero_delta_streak": 0,
-      "runs": 47,
+      "runs": 48,
       "status": "open"
     },
     "LB-LADDER": {
@@ -2707,7 +2707,7 @@
   ],
   "program_run_counter": {
     "since": "2026-11-09",
-    "count": 90,
+    "count": 91,
     "rule": "Every hourly run increments this in its postflight, whatever its lane. Lane C runs when count % 4 == 3 before the increment."
   },
   "working_rule": "Cells are worked at the structure level: a requirement must hold for every action in class C or for a structurally defined subfamily. No cell is worked by writing down a specific action, and no gated cell is worked by building its gate object. See CURRENT-STATE.yaml program_focus.structure_not_specifics.",
@@ -3499,6 +3499,22 @@
       ],
       "claim_effect": "No matrix cell/intersection/shrinkage, ledger, canon, source, ClassC or paper verdict. Deductive coverage extension, not independent falsification credit.",
       "cadence_note": "One scientific coverage/consequence wave; LBCLASS46to47. No bet credit, cadence/policy or matrix science change; existingLCcarry stays consumed."
+    },
+    {
+      "date": "2026-11-27",
+      "authority": "joe_direct_chat_2026_11_27_c",
+      "item": "O26 cubic endpoint on actual analytic stationary branch",
+      "tier": "T1",
+      "counter_before": 90,
+      "counter_after": 91,
+      "lane": "LB-CLASS",
+      "actual_delta": "The horizontal theta0 gamma05 endpoint coefficient is (183/8)h^3+O(h^4). Every sufficiently small nonzero-h member of the owned W2 stationary branch violates the separately printed endpoint, including literal raised observation.",
+      "evidence": [
+        "explorations/conditional-build/source-action-endpoint-cubic-2026-11-27.md",
+        "lab/process/source-action-endpoint-cubic.json"
+      ],
+      "claim_effect": "No matrix cell/intersection/shrinkage, ledger, canon, source, C or paper verdict. Extend evidence for the existing failed candidate-to-printed-endpoint bridge.",
+      "cadence_note": "One scientific wave; LBCLASS47to48, no betcredit. Nextordinaryslot LC byunchangedrule."
     }
   ],
   "directed_lc_carry_2026_11_24_b": {
@@ -3879,7 +3895,9 @@
           "explorations/conditional-build/source-action-riemann-silence-2026-11-27.md",
           "lab/process/source-action-riemann-silence.json",
           "explorations/conditional-build/source-action-controls-sensitivity-2026-11-27.md",
-          "lab/process/source-action-controls-sensitivity.json"
+          "lab/process/source-action-controls-sensitivity.json",
+          "explorations/conditional-build/source-action-endpoint-cubic-2026-11-27.md",
+          "lab/process/source-action-endpoint-cubic.json"
         ],
         "choices": "Historical original choices are retained below; current held fermion repair is SE=-1/2 (SE0 superseded), kappa1 with two unselected roots. Typed candidate_choice_budget separates core/completion/pending/comparator/parked choices.",
         "wave2_update": {
@@ -5074,7 +5092,15 @@
               "new_evidence": "lab/process/source-action-riemann-silence.json"
             }
           ],
-          "choice_budget_delta": 0
+          "choice_budget_delta": 0,
+          "cubic_coverage_addendum": {
+            "evidence": [
+              "explorations/conditional-build/source-action-endpoint-cubic-2026-11-27.md",
+              "lab/process/source-action-endpoint-cubic.json"
+            ],
+            "result": "The horizontal theta0 gamma05 endpoint coefficient is (183/8)h^3+O(h^4). Every sufficiently small nonzero-h member of the owned W2 stationary branch violates the separately printed endpoint, including literal raised observation.",
+            "scope": "Same heldcandidate/sourcebridge; priorC1C2 androotresults retained. No addedchoice orverdict."
+          }
         },
         "riemann_response_followthrough": {
           "state": "Four native cyclic-kernel witnesses force all low/high Ricci and scalar coefficients to zero. Every Spin-equivariant fixed linear full-translation same-cubic unit-endpoint operator annihilates the algebraic Riemann submodule.",

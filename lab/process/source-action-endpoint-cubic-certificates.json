@@ -1,0 +1,472 @@
+{
+  "analytic_consequence": "Owned convergence and full C1=C2=0 imply this receiver is (183/8)h^3+O(h^4), hence positive for every sufficiently small positive h. No numerical radius or connection to either kappa1 root is inferred.",
+  "branch_coordinates": [
+    {
+      "coordinates": {
+        "0": "21/4",
+        "1": "21/4",
+        "2": "15/4"
+      },
+      "order": 1
+    },
+    {
+      "coordinates": {
+        "4": "3/8"
+      },
+      "order": 2
+    },
+    {
+      "coordinates": {
+        "0": "-44199/8",
+        "1": "-11043/2",
+        "2": "-5826"
+      },
+      "order": 3
+    }
+  ],
+  "check_count": 52,
+  "checks": {
+    "P_t3_nested_Hodge_control": true,
+    "active_basis_pivots": true,
+    "double_receiver_weight_division_rejected": true,
+    "endpoint_accepted_certificate_custody": true,
+    "endpoint_producer_custody": true,
+    "horizontal_C3_nonzero": true,
+    "independent_covariant_Dt3": true,
+    "inherited_complete_59_family": true,
+    "inherited_full_C1_C2_zero_not_recomputed": true,
+    "inherited_input_custody:explorations/conditional-build/source-action-dynamics-and-continuation-2026-11-25.md": true,
+    "inherited_input_custody:explorations/conditional-build/source-action-external-datum-candidate-2026-11-25.md": true,
+    "inherited_input_custody:explorations/conditional-build/source-action-homogeneous-analytic-vacuum-2026-11-25.md": true,
+    "inherited_input_custody:explorations/conditional-build/source-action-wave2-construction-2026-11-25.md": true,
+    "inherited_input_custody:lab/process/source-action-deep-coefficients.json": true,
+    "inherited_input_custody:lab/process/source-action-dynamics-and-continuation.json": true,
+    "inherited_input_custody:lab/process/source-action-theta-divergence-certificates.json": true,
+    "inherited_input_custody:lab/process/source-action-theta-divergence.json": true,
+    "inherited_input_custody:lab/sources/source-claim-register.yaml": true,
+    "inherited_input_custody:lab/sources/weinstein-gu-primary-source-pack-2026-07-30.md": true,
+    "inherited_input_custody:tests/program-focus/source_action_deep_algebra.py": true,
+    "inherited_input_custody:tests/program-focus/source_action_deep_geometry.py": true,
+    "inherited_input_custody:tests/program-focus/source_action_theta_divergence_probe.py": true,
+    "known_answer_from_owned_three_pairs": true,
+    "linear_native_t3_receiver_zero": true,
+    "missing_symmetric_factor2_rejected": true,
+    "mixed_Phi_nested_Hodge_control": true,
+    "native_C3_receiver_matches_owned_polynomial": true,
+    "native_Gram_custody": true,
+    "native_Kt2_table": true,
+    "native_Kt3_table": true,
+    "native_Nt1t1_table": true,
+    "native_Nt1t2_table": true,
+    "native_dual_matches_owned_dual": true,
+    "native_full_C3_real_skew": true,
+    "native_mixed_Phi_adjoint": true,
+    "native_real_skew_branch_forms": true,
+    "native_receiver_pair_0_4": true,
+    "native_receiver_pair_1_4": true,
+    "native_receiver_pair_2_4": true,
+    "native_receiver_weight8": true,
+    "native_t2_recurrence": true,
+    "native_t3_recurrence": true,
+    "owned_horizontal_receiver": true,
+    "owned_linear_receiver_identically_zero": true,
+    "raw_pairing_needs_weight": true,
+    "raw_vs_commutator_wedge_polarization": true,
+    "t1_minus_source": true,
+    "t2_recurrence": true,
+    "t3_recurrence": true,
+    "three_owned_branch_coefficients": true,
+    "wrong_N_sign_in_t3_rejected": true,
+    "wrong_T1_sign_rejected": true
+  },
+  "data_only": true,
+  "formula": {
+    "C3": "(Phi D_B-K)t3+Phi(t1 wedge t2+t2 wedge t1)-2N(t1,t2)",
+    "Q_convention": "symmetric Qij; upper-triangle off-diagonal polynomial coefficients are 2Qij",
+    "h": "1/kappa",
+    "receiver": "c.t3+2*t1^T Q*t2; c is the identically zero stored row",
+    "series": "T(h)=h*t1+h^2*t2+h^3*t3+O(h^4)",
+    "t1": "-S",
+    "t2": "K*S",
+    "t3": "-K^2*S-N(S,S)",
+    "truncation_warning": "Original kappa*T=T/h requires t4 to recover its h3 coefficient; this test uses the exact E-eliminated defect and computes no h4 endpoint coefficient."
+  },
+  "full_ambient_C3": [
+    [
+      1,
+      17,
+      "-27/32"
+    ],
+    [
+      1,
+      33,
+      "183/8"
+    ],
+    [
+      1,
+      65,
+      "61/8"
+    ],
+    [
+      1,
+      129,
+      "61/16"
+    ],
+    [
+      1,
+      258,
+      "183/8"
+    ],
+    [
+      1,
+      516,
+      "183/8"
+    ],
+    [
+      1,
+      1032,
+      "183/8"
+    ],
+    [
+      2,
+      18,
+      "-27/32"
+    ],
+    [
+      2,
+      34,
+      "-183/8"
+    ],
+    [
+      2,
+      66,
+      "61/8"
+    ],
+    [
+      2,
+      130,
+      "61/16"
+    ],
+    [
+      2,
+      257,
+      "183/8"
+    ],
+    [
+      2,
+      2052,
+      "183/8"
+    ],
+    [
+      2,
+      4104,
+      "183/8"
+    ],
+    [
+      4,
+      20,
+      "-27/32"
+    ],
+    [
+      4,
+      68,
+      "-61/4"
+    ],
+    [
+      4,
+      132,
+      "61/16"
+    ],
+    [
+      4,
+      513,
+      "183/8"
+    ],
+    [
+      4,
+      2050,
+      "183/8"
+    ],
+    [
+      4,
+      8200,
+      "183/8"
+    ],
+    [
+      8,
+      24,
+      "-27/32"
+    ],
+    [
+      8,
+      136,
+      "-183/16"
+    ],
+    [
+      8,
+      1025,
+      "-183/8"
+    ],
+    [
+      8,
+      4098,
+      "-183/8"
+    ],
+    [
+      8,
+      8196,
+      "-183/8"
+    ],
+    [
+      32,
+      48,
+      "27/32"
+    ],
+    [
+      64,
+      80,
+      "27/32"
+    ],
+    [
+      128,
+      144,
+      "27/32"
+    ],
+    [
+      256,
+      272,
+      "27/32"
+    ],
+    [
+      512,
+      528,
+      "27/32"
+    ],
+    [
+      1024,
+      1040,
+      "27/32"
+    ],
+    [
+      2048,
+      2064,
+      "27/32"
+    ],
+    [
+      4096,
+      4112,
+      "27/32"
+    ],
+    [
+      8192,
+      8208,
+      "27/32"
+    ]
+  ],
+  "full_ambient_support": 34,
+  "horizontal_C3": [
+    [
+      1,
+      17,
+      "-27/32"
+    ],
+    [
+      1,
+      33,
+      "183/8"
+    ],
+    [
+      1,
+      65,
+      "61/8"
+    ],
+    [
+      1,
+      129,
+      "61/16"
+    ],
+    [
+      1,
+      258,
+      "183/8"
+    ],
+    [
+      1,
+      516,
+      "183/8"
+    ],
+    [
+      1,
+      1032,
+      "183/8"
+    ],
+    [
+      2,
+      18,
+      "-27/32"
+    ],
+    [
+      2,
+      34,
+      "-183/8"
+    ],
+    [
+      2,
+      66,
+      "61/8"
+    ],
+    [
+      2,
+      130,
+      "61/16"
+    ],
+    [
+      2,
+      257,
+      "183/8"
+    ],
+    [
+      2,
+      2052,
+      "183/8"
+    ],
+    [
+      2,
+      4104,
+      "183/8"
+    ],
+    [
+      4,
+      20,
+      "-27/32"
+    ],
+    [
+      4,
+      68,
+      "-61/4"
+    ],
+    [
+      4,
+      132,
+      "61/16"
+    ],
+    [
+      4,
+      513,
+      "183/8"
+    ],
+    [
+      4,
+      2050,
+      "183/8"
+    ],
+    [
+      4,
+      8200,
+      "183/8"
+    ],
+    [
+      8,
+      24,
+      "-27/32"
+    ],
+    [
+      8,
+      136,
+      "-183/16"
+    ],
+    [
+      8,
+      1025,
+      "-183/8"
+    ],
+    [
+      8,
+      4098,
+      "-183/8"
+    ],
+    [
+      8,
+      8196,
+      "-183/8"
+    ]
+  ],
+  "horizontal_support": 25,
+  "inherited_policy": "C1=C2=0, full-carrier/convergence/coupled-stationarity proofs and root results are authenticated dependencies. Their old probes and root certificates are not replayed.",
+  "native_inputs_sha256": {
+    "explorations/conditional-build/source-action-dynamics-and-continuation-2026-11-25.md": "8b284726e3b8138e1a30136bb9ae841ab76c128bc66bbd8b92ad76f13db4469c",
+    "explorations/conditional-build/source-action-endpoint-onshell-2026-11-27.md": "ba93125116d41439c106ffab6df8919fa8272466e071bba8bc4fdf8a8f41b030",
+    "explorations/conditional-build/source-action-homogeneous-analytic-vacuum-2026-11-25.md": "5ed2c3d264500bfb7e801a31c33dfef8eb179ae1f5a628d08a231c29275f17e9",
+    "lab/process/source-action-deep-coefficients.json": "fb4aacfa69cbc1127b7fddf3b4f66811650c1fd3a889363cc6dfab940439b274",
+    "lab/process/source-action-endpoint-onshell-certificates.json": "53b2531f13be4cd86c74ee741259a64f9bd9ed7862181c9af156bbb38e752584",
+    "lab/process/source-action-endpoint-onshell.json": "04890d0d09f61454ddaa8af29302ef83a54e4db798f425ec4a98e16d80d6e398",
+    "lab/process/source-action-theta-divergence-certificates.json": "2aa58c4c4c507b22104c42fba326776b035828294397d2d0591668d5e0a46091",
+    "tests/program-focus/source_action_deep_algebra.py": "4e3800131049e2b397bbce6106bfc5766d2f5fbf996319c50942f3b805d65598",
+    "tests/program-focus/source_action_deep_geometry.py": "7cdfe5f7609300c1ab4fb482f309cfafa52d0aa66cf353ef8b1f9c8be07e52df",
+    "tests/program-focus/source_action_endpoint_onshell_probe.py": "7bd37220a5691a7f8013d01e182029c181b4715e8ea40a1ebe0bceb467f7e7bc"
+  },
+  "native_work": {
+    "active_basis_indices": [
+      0,
+      1,
+      2,
+      4
+    ],
+    "branch_forms": 3,
+    "full_59_D_columns": 0,
+    "new_full_KN_tensors": false,
+    "root_replays": 0
+  },
+  "not_run": [
+    "Old full endpoint/theta certificates",
+    "Root search, inverse construction or root replay",
+    "Full59 native tensor census",
+    "Endpoint h4 or higher test",
+    "Lean compilation"
+  ],
+  "probe_sha256": "fcfa3fa1bab7bb979578d61d9534bdcb3dfc93ce1efda0bfb0144db179f00eab",
+  "receiver": {
+    "Clifford_mask": 33,
+    "active_quadratic_entries": [
+      {
+        "Qij": "4/3",
+        "indices": [
+          0,
+          4
+        ]
+      },
+      {
+        "Qij": "2/3",
+        "indices": [
+          1,
+          4
+        ]
+      },
+      {
+        "Qij": "16/3",
+        "indices": [
+          2,
+          4
+        ]
+      }
+    ],
+    "coefficient_h3": "183/8",
+    "dual_form": [
+      [
+        33,
+        1,
+        "2"
+      ]
+    ],
+    "exterior_mask": 1,
+    "four_dimensional_index_raise": "1",
+    "id": "KS_pivot_4",
+    "linear_row_zero": true,
+    "literal_flat_section_survives": true,
+    "name": "coefficient of theta0 gamma05",
+    "weight": "8"
+  },
+  "schema": "gu-endpoint-cubic-certificate-v1",
+  "scope": "Fixed W2/K95 candidate, full ambient adjoint fibre and literal pullback of the raised one-form. No pullback of degree13 Upsilon, source uniqueness, physical metric equation, global finite-action field or GU verdict.",
+  "timing_policy": "Only ephemeral receipts include runtime and certificate byte count."
+}

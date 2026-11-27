@@ -357,6 +357,10 @@
         },
         "receipt_ref": "lab/process/source-action-endpoint-onshell.json#verification/replay",
         "scope": "Recorded accepted receipt and explicitly hashed artifacts only; no fresh execution or complete transitive dependency/environment attestation. Inspect native certificate dependency bindings before reuse."
+      },
+      "coverage_addendum": {
+        "ref": "explorations/conditional-build/source-action-endpoint-cubic-2026-11-27.md",
+        "delta": "Firstuncomputedh3 now183/8; fullbranchintervalexclusion, oldrootandC1C2resultsretainoriginalscope."
       }
     },
     {
@@ -933,6 +937,127 @@
           "statement": "No I1B+I2B sum or extra metric-only/boundary functional imported",
           "owner_ref": "explorations/conditional-build/riemann-realform-transfer-2026-11-27.md"
         }
+      ]
+    },
+    {
+      "id": "source-action-endpoint-cubic-2026-11-27",
+      "kind": "result",
+      "owner_ref": "explorations/conditional-build/source-action-endpoint-cubic-2026-11-27.md",
+      "tested_statement": "The horizontal theta0 gamma05 endpoint coefficient is (183/8)h^3+O(h^4). Every sufficiently small nonzero-h member of the owned W2 stationary branch violates the separately printed endpoint, including literal raised observation.",
+      "signature": {
+        "object": "Printed-endpoint defect on the actual analytic W2 stationary branch",
+        "carrier": "Full K95 u64,64 invariant branch; full ambientadjoint under literal raisedsection contraction",
+        "convention": "Sourcefixedminus realized in heldW2; symmetricQij uppertriangle, receiverweight8 dividedonce, exacton-shell elimination",
+        "class": "The unique local analytic invariant stationary branch through h=0 of the fixed W2 K95 full-U candidate, with its held source-shaped product/dressing dictionary and product-regulator coupled variational class. Also every zero-preserving recovery class containing any such witness. Not all stationary fields, all C or source GU.",
+        "premises": [
+          "Ownedanalyticconvergence/fullcoupledstationarity",
+          "Acceptedcomplete59fixedspace andfullC1C2zero",
+          "Fixedselector/pairing/dressing dictionary",
+          "ExistingnativeD/Phi/K/N andproductregulator"
+        ]
+      },
+      "attributed_status": "internal_T1_analytic_branch_endpoint_exclusion_reviewed",
+      "status_ref": "lab/process/source-action-endpoint-cubic.json#status",
+      "source_bridge_ref": "lab/process/source-action-endpoint-cubic.json#source_bridge",
+      "certificate_refs": [
+        "lab/process/source-action-endpoint-cubic-certificates.json"
+      ],
+      "control_refs": [
+        "tests/program-focus/source_action_endpoint_cubic_probe.py"
+      ],
+      "survivors_ref": "explorations/conditional-build/source-action-endpoint-cubic-2026-11-27.md#5-source-relevance-and-choice-dependence",
+      "reopen_condition_ref": "lab/process/source-action-endpoint-cubic.json#follow_through",
+      "superseded_by": null,
+      "cache": {
+        "artifacts": [
+          {
+            "path": "explorations/conditional-build/source-action-endpoint-cubic-2026-11-27.md",
+            "sha256": "33853b618671c40e50feab71802973ce4a577d8c7c8d70e7a109bc037f6e30da"
+          },
+          {
+            "path": "tests/program-focus/source_action_endpoint_cubic_probe.py",
+            "sha256": "fcfa3fa1bab7bb979578d61d9534bdcb3dfc93ce1efda0bfb0144db179f00eab"
+          },
+          {
+            "path": "lab/process/source-action-endpoint-cubic-certificates.json",
+            "sha256": "344335a28bdd73ddba506cc54870dfacb7398df5809d5b56a7251dd64d3ea90c"
+          },
+          {
+            "path": "Lean/GUFormalization/EndpointCubic.lean",
+            "sha256": "85ea298c256989b106da51b6a470f13eb8fda0859276ff6c91ce32ebb30db566"
+          },
+          {
+            "path": "explorations/conditional-build/source-action-dynamics-and-continuation-2026-11-25.md",
+            "sha256": "8b284726e3b8138e1a30136bb9ae841ab76c128bc66bbd8b92ad76f13db4469c"
+          },
+          {
+            "path": "explorations/conditional-build/source-action-endpoint-onshell-2026-11-27.md",
+            "sha256": "ba93125116d41439c106ffab6df8919fa8272466e071bba8bc4fdf8a8f41b030"
+          },
+          {
+            "path": "explorations/conditional-build/source-action-homogeneous-analytic-vacuum-2026-11-25.md",
+            "sha256": "5ed2c3d264500bfb7e801a31c33dfef8eb179ae1f5a628d08a231c29275f17e9"
+          },
+          {
+            "path": "lab/process/source-action-deep-coefficients.json",
+            "sha256": "fb4aacfa69cbc1127b7fddf3b4f66811650c1fd3a889363cc6dfab940439b274"
+          },
+          {
+            "path": "lab/process/source-action-endpoint-onshell-certificates.json",
+            "sha256": "53b2531f13be4cd86c74ee741259a64f9bd9ed7862181c9af156bbb38e752584"
+          },
+          {
+            "path": "lab/process/source-action-endpoint-onshell.json",
+            "sha256": "04890d0d09f61454ddaa8af29302ef83a54e4db798f425ec4a98e16d80d6e398"
+          },
+          {
+            "path": "lab/process/source-action-theta-divergence-certificates.json",
+            "sha256": "2aa58c4c4c507b22104c42fba326776b035828294397d2d0591668d5e0a46091"
+          },
+          {
+            "path": "tests/program-focus/source_action_deep_algebra.py",
+            "sha256": "4e3800131049e2b397bbce6106bfc5766d2f5fbf996319c50942f3b805d65598"
+          },
+          {
+            "path": "tests/program-focus/source_action_deep_geometry.py",
+            "sha256": "7cdfe5f7609300c1ab4fb482f309cfafa52d0aa66cf353ef8b1f9c8be07e52df"
+          },
+          {
+            "path": "tests/program-focus/source_action_endpoint_onshell_probe.py",
+            "sha256": "7bd37220a5691a7f8013d01e182029c181b4715e8ea40a1ebe0bceb467f7e7bc"
+          }
+        ],
+        "verifier": {
+          "command": "python3",
+          "args": [
+            "tests/program-focus/source_action_endpoint_cubic_probe.py",
+            "--verify"
+          ],
+          "environment": {
+            "python": "standard-library fractions/pathlib/importlib/json; version not locked",
+            "lean": "mounted Mathlib environment; final targeted check, no wholeprojectbuild"
+          }
+        },
+        "receipt_ref": "lab/process/source-action-endpoint-cubic.json#verification",
+        "input_coverage": "Nativeinput hashes include oldreceiver/branch/geometry. Full mathematical/source applicability remains reviewed, not proved byhashmatch.",
+        "freshness_note": "Currenthashes not freshexecution; rootreplay separatelyrecorded."
+      },
+      "excluded_classes": [
+        {
+          "class": "FixedW2smallhbranch as solutions of printedendpoint",
+          "premises": "Allhelddictionary andownedanalyticbranchconditions",
+          "scope": "Every sufficientlysmallnonzeroh; numericaldeltauncomputed",
+          "certificate": "lab/process/source-action-endpoint-cubic-certificates.json"
+        },
+        {
+          "class": "Regularzero-preservingEulerjet recovery onanyclass containingonebranchwitness",
+          "premises": "ActualownedcoupledEuler tuple; samefield/dictionary andregularmap",
+          "scope": "Inheritedrecoverytheorem withnewintervalwitnesses",
+          "certificate": "lab/process/source-action-endpoint-cubic-certificates.json"
+        }
+      ],
+      "dead_end_refs": [
+        "lab/process/source-action-endpoint-cubic.json#follow_through.dead_end_memory"
       ]
     }
   ]

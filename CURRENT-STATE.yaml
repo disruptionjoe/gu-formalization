@@ -1,7 +1,7 @@
 schema_version: '1.0'
 repository: observerse-research-program
 branch: main
-revision_basis: 91d78316d84b4724e9e8d20742ed6d6e386d1c0a
+revision_basis: d0eb3cb7eb169901311a2f62b8f56363bef44f10
 program_focus:
   version: 2026-11-27-v1
   authority: joe_direct_chat_2026_11_27_c
@@ -169,6 +169,43 @@ program_focus:
       This flag never pauses research and does not authorize contact or release.
     retrospective: About every ten scientific waves, review forecast versus actual cost/delta, repeated
       work and useful shortcuts in existing weekly metrics. No new schedule.
+source_action_endpoint_cubic_2026_11_27:
+  status: internal_T1_analytic_branch_endpoint_exclusion_reviewed
+  basis_revision: d0eb3cb7eb169901311a2f62b8f56363bef44f10
+  actual_delta: The horizontal theta0 gamma05 endpoint coefficient is (183/8)h^3+O(h^4). Every sufficiently
+    small nonzero-h member of the owned W2 stationary branch violates the separately printed endpoint,
+    including literal raised observation.
+  evidence:
+  - explorations/conditional-build/source-action-endpoint-cubic-2026-11-27.md
+  - lab/process/source-action-endpoint-cubic.json
+  source_bridge:
+    status: conditional
+    reason: SC-ACT-01 p44eq9.4 and SC-ACT-02 p45eq9.8-10 supply action and printed endpoint templates;
+      W2 reconstructs their selector, primary-minus K95, pairing and dressing dictionary. Source uniqueness
+      and physical-state admission remain unproved.
+  next:
+    status: ordinary_LC_slot_due_after_this_wave
+    target: LC-BETS
+    mandatory_basis: Counter91 has remainder3 under unchanged run_selection. Active BET-2PLUS1 and BET-COSMOLOGY
+      each have21runs left, BET-MASS-GAP20; inspect current ready uncovered discriminators and tie-break
+      by source relevance/cost.
+    science_boundary: Preserve all-stationary compact PS torus full-gap exclusion; do not rebuild that
+      category. Do not repeat same W2 branch endpoint coefficients after this nonzero term.
+    post_LC_reserve:
+      status: unadmitted_bounded_feasibility_only
+      target: LB-CLASS
+      question: Does the existing fixed-linear full-U unit-cubic identity force S to vanish on all commutator
+        curvature, beyond the already-excluded algebraic Riemann restriction?
+      hypothesis: Possible cyclic-trace/centroid classification using full independent matrix translations
+        and the existing equivariant Hom family. This is a proposed discriminator, not a theorem or a
+        claim of source necessity.
+      outcomes:
+      - A complete class argument removes more operator choices without construction.
+      - A surviving operator identifies exact scope; no automatic source repair.
+      - If covered, too costly, or dependent on unowned data, reuse/pivot; no full census.
+      strongest_alternative: Homogeneous finite-normalization composition remains unexecuted with conditional
+        source necessity; physical-domain O06 lacks owned variable-boson graph derivative.
+  choice_budget_effect: none
 riemann_realform_transfer_2026_11_27:
   status: internal_T1_realform_transfer_and_critical_family_reviewed
   basis_revision: 91d78316d84b4724e9e8d20742ed6d6e386d1c0a
@@ -186,7 +223,7 @@ riemann_realform_transfer_2026_11_27:
       or T=0 physical vacuum; W2 symmetrized Euler lies outside endpoint premise.
   next:
     id: O26_first_uncomputed_small_h_endpoint_coefficient
-    status: ready_for_bounded_preflight
+    status: consumed_by_nonzero_cubic_branch_obstruction
     target: LB-CLASS
     tier: T1 if branch exclusion is proved; otherwise T2 finite cancellation
     task: Use the already-owned convergent homogeneous W2 branch and on-shell printed-endpoint polynomial
@@ -212,6 +249,8 @@ riemann_realform_transfer_2026_11_27:
       actual function names and normalization.
     alternative: W2 homogeneous normalization composition remains conditional/unexecuted; lower source
       relevance without a selected finite-invariant-measure claim.
+    prior_status: ready_for_bounded_preflight
+    consumed_evidence: lab/process/source-action-endpoint-cubic.json
   choice_budget_effect: none
 source_action_controls_sensitivity_2026_11_27:
   authority: joe_direct_chat_2026_11_27_a_c

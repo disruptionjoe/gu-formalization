@@ -1,0 +1,448 @@
+{
+  "basis_revision": "d0eb3cb7eb169901311a2f62b8f56363bef44f10",
+  "authority": "joe_direct_chat_2026_11_27_c",
+  "status": "internal_T1_analytic_branch_endpoint_exclusion_reviewed",
+  "program_target": "LB-CLASS",
+  "tier": "T1",
+  "actual_delta": "The horizontal theta0 gamma05 endpoint coefficient is (183/8)h^3+O(h^4). Every sufficiently small nonzero-h member of the owned W2 stationary branch violates the separately printed endpoint, including literal raised observation.",
+  "class_covered": "The unique local analytic invariant stationary branch through h=0 of the fixed W2 K95 full-U candidate, with its held source-shaped product/dressing dictionary and product-regulator coupled variational class. Also every zero-preserving recovery class containing any such witness. Not all stationary fields, all C or source GU.",
+  "source_bridge": {
+    "status": "conditional",
+    "reason": "SC-ACT-01 p44eq9.4 and SC-ACT-02 p45eq9.8-10 supply action and printed endpoint templates; W2 reconstructs their selector, primary-minus K95, pairing and dressing dictionary. Source uniqueness and physical-state admission remain unproved."
+  },
+  "claim_effect": "No matrix cell/intersection/shrinkage, ledger, canon, source, C or paper verdict. Extend evidence for the existing failed candidate-to-printed-endpoint bridge.",
+  "source_custody": {
+    "SC-ACT-01": "2021 draftp44eq9.4, path-average1/2 and1/3",
+    "SC-ACT-02": "draftp45eq9.8-9.10, unit-weight swervature/displasion endpoint",
+    "SC-ACT-06": "separate Upsilon=0 deformation-complex assertion, not this action stationary locus",
+    "scope": "Reused authenticated source register and predecessor; no new broad search. kappa_1 is a coupling label, not an assertion kappa numerically1.",
+    "adjoint_sign": "draftsection3.5eq3.27 fixesminus/conjugation; K95realization reconstructed, pluscomparator only"
+  },
+  "proof_structure": [
+    "Exact on-shell elimination cancels kappaT, leaving AT+Q(T,T).",
+    "Use inherited analytic branch and full C1=C2zero.",
+    "The horizontal KS_pivot4 linear receiver row is identicallyzero in all59coordinates.",
+    "Three symmetricQ entries and t1/t2 yield183/8, with offdiagonal factor2 and no second weight8division.",
+    "Native small-form evaluation checks the GU-specific coefficient without root or full-tensor work.",
+    "Analyticity yields existential puncturedinterval nonzero; literal raisedsection preserves theta0.",
+    "Existing zero-preserving Euler-jet recovery theorem now has an interval of witnesses."
+  ],
+  "coefficient": {
+    "receiver": "theta0 gamma05",
+    "exterior_mask": 1,
+    "clifford_mask": 33,
+    "weight": 8,
+    "actual_coordinate": "183/8",
+    "raw_pairing_coordinate": "183",
+    "expansion": "(183/8)h^3+O(h^4)",
+    "radius": "existential, not numerically certified"
+  },
+  "decision_record": {
+    "mandatory_basis": "Ordinary B slot at count90; precedingT1 closed, packet blockers unchanged.",
+    "reuse": "Expanded endpoint lookup and targeted reports identify accepted C1/C2, full analytic existence, receiver matrices and branch coefficients. Prior signature-transfer result does not decide symmetrized W2.",
+    "premise_delta": "Same dictionary, new analytic branch order and puncturedinterval scope; two kappa1 witnesses already settled.",
+    "expected_delta": "Decide the first uncomputed on-shell coefficient and, if nonzero, extend two isolated counterexamples to a punctured analytic branch interval.",
+    "actual_delta": "The horizontal theta0 gamma05 endpoint coefficient is (183/8)h^3+O(h^4). Every sufficiently small nonzero-h member of the owned W2 stationary branch violates the separately printed endpoint, including literal raised observation.",
+    "expected_cost": "Native sparse check estimated1\u201310seconds; review/gates separate.",
+    "actual_cost": {
+      "producer_seconds": 0.087707,
+      "root_replay_seconds": 0.0878798752091825,
+      "checks": 52,
+      "certificate_bytes": 10162,
+      "full_ambient_C3_support": 34,
+      "horizontal_support": 25,
+      "reused_not_replayed": [
+        "C1/C2fullzero",
+        "nativefull59tensor",
+        "rootcertificates",
+        "analyticexistence"
+      ]
+    },
+    "outcomes": [
+      "Nonzero: consume h3 successor and all further coefficients for this implication; no samebranch Taylorloop.",
+      "Zero: finite cancellation only, bounded rerank rather than building another action.",
+      "Custody/convention failure: repair or narrow before inference."
+    ],
+    "strongest_alternative": "Finite-reference/normalization burden is class-wide but currently lacks stronger source-necessary physical normalization bridge.",
+    "shared_prerequisite": "No new source operator; native source-unique dictionary and physical state selection remain unproved.",
+    "theorem_check": "Owned analytic implicit-function and zero-preserving recovery theorems already supply class reasoning; only exact GU-specific coefficient uncovered."
+  },
+  "quick_math20": {
+    "method": "One quick description pass; concrete author and tier reviewers, not20agents or independent scientist votes.",
+    "lenses": {
+      "category theory": "Keep the action-Euler and printed-endpoint morphisms distinct; vanishing must commute under the actual contraction.",
+      "number theory": "Three rational coefficients decide nonzero exactly; avoid floating fitting.",
+      "representation theory": "Full216branch lies automatically in59symmetry-fixed subspace, not an imposed physicalSp truncation.",
+      "Lie theory": "Held homogeneous isotropy fixes coefficient transport.",
+      "Clifford algebra": "Receivergamma05 stays in retained ambientadjoint after observation.",
+      "algebraic geometry": "Leading nonzero analytic germ excludes a puncturedinterval.",
+      "homological algebra": "Zero-preserving Eulerjet maps cannot carry zero to this receiver.",
+      "differential geometry": "Use literal section contraction after raising degree13.",
+      "symplectic geometry": "No physical phase-space quotient from a coordinate residual.",
+      "variational calculus": "Eliminate exactEulerbefore truncating; otherwise t4/h contaminatesh3.",
+      "PDE": "Inheritedlocalcoupled stationarity, not global evolution.",
+      "functional analysis": "Regulator and variation domain held.",
+      "spectral theory": "Residualsign is not energy/normsign.",
+      "topology": "No newboundary/spinbundle admission.",
+      "complex analysis": "Analyticity gives nonzero neighborhood, no numericradius.",
+      "numerical analysis": "Sparse exactreceiver before fulltensorassembly.",
+      "control theory": "Existingreceiver suffices; no need extra sensor.",
+      "Hamiltonian systems": "No ghostinference.",
+      "probability": "No measure/state completion.",
+      "physics foundations": "Source-template obligation conditional on unselected dictionary."
+    }
+  },
+  "choice_dependencies": {
+    "scope": "fixed-build result; structural along the declared analytic branch",
+    "held_families": [
+      "geometry-real-form",
+      "shiab-recipe",
+      "variational-domain"
+    ],
+    "varied_family": "coupling-normalization: punctured sufficiently-small h",
+    "irrelevant_at_zero_matter": [
+      "fermion-recipe",
+      "lift-prescription",
+      "spectral-window",
+      "observed-dispersion",
+      "bar-dual-contour",
+      "normal-window"
+    ],
+    "across_other_source_admissible_variations": "UNDETERMINED, no countervariation exhibited"
+  },
+  "choice_budget": {
+    "families": 10,
+    "obligations": 4,
+    "bookkeeping_net": 6,
+    "source_selected_predictions": 0,
+    "added_families": 0,
+    "new_obligation_credit": 0,
+    "ceiling": "Grouped monitoring inventory, not a lower bound on source-required independent choices."
+  },
+  "follow_through": {
+    "consumed": [
+      "O26 first uncomputed h3 coefficient",
+      "Higher branch coefficients for deciding the same E=0 impliesRprint=0 claim",
+      "Selecting another sufficiently-small nonzeroh on the same branch as an endpoint repair"
+    ],
+    "dead_end_memory": "Use on-shell eliminated defect; original endpoint on truncatedT requires one more coefficient. Uppertriangle entries are symmetricmatrix entries, weight already divided. One exact horizontal receiver can settle the interval question. Native horizontal eta=diag(1,1,1,-1): theta0 is positive, not the timelike index3. Raisingfactor+1 remains correct.",
+    "survivors": [
+      "No GU/source/canon/physics-ledger verdict or classC representativeness",
+      "No numeric delta or kappa threshold, no continuation to kappa1 roots",
+      "No global physical state, positive metric or physical4D equation",
+      "Other stationary branches, dictionaries, real forms and source-admitted restrictions remain untested",
+      "The full Euler tuple is the owned local product-regulator coupled tuple, not independently varied ambient14D metric equations"
+    ],
+    "next": {
+      "status": "ordinary_LC_slot_due_after_this_wave",
+      "target": "LC-BETS",
+      "mandatory_basis": "Counter91 has remainder3 under unchanged run_selection. Active BET-2PLUS1 and BET-COSMOLOGY each have21runs left, BET-MASS-GAP20; inspect current ready uncovered discriminators and tie-break by source relevance/cost.",
+      "science_boundary": "Preserve all-stationary compact PS torus full-gap exclusion; do not rebuild that category. Do not repeat same W2 branch endpoint coefficients after this nonzero term.",
+      "post_LC_reserve": {
+        "status": "unadmitted_bounded_feasibility_only",
+        "target": "LB-CLASS",
+        "question": "Does the existing fixed-linear full-U unit-cubic identity force S to vanish on all commutator curvature, beyond the already-excluded algebraic Riemann restriction?",
+        "hypothesis": "Possible cyclic-trace/centroid classification using full independent matrix translations and the existing equivariant Hom family. This is a proposed discriminator, not a theorem or a claim of source necessity.",
+        "outcomes": [
+          "A complete class argument removes more operator choices without construction.",
+          "A surviving operator identifies exact scope; no automatic source repair.",
+          "If covered, too costly, or dependent on unowned data, reuse/pivot; no full census."
+        ],
+        "strongest_alternative": "Homogeneous finite-normalization composition remains unexecuted with conditional source necessity; physical-domain O06 lacks owned variable-boson graph derivative."
+      }
+    }
+  },
+  "weakest_unproved_link": "Source selection of W2 dictionary and physical state admission.",
+  "source_necessary_exclusion": "conditional source-template test, not proved source-wide necessity",
+  "class_C_representativeness": "unproved; no widthwitness or Cverdict",
+  "three_state": {
+    "ESTABLISHED": "Exact183/8horizontalcubic; ownedconvergence implies sufficientlysmallnonzerohinterval ofactualstationarycounterexamples.",
+    "RULED_OUT": "Printedendpointagreement onpuncturedsmallhinterval inheldW2dictionary; zero-preservingrecoveryclassescontainingawitness.",
+    "NOT_MODELED_UNDETERMINED": [
+      "No GU/source/canon/physics-ledger verdict or classC representativeness",
+      "No numeric delta or kappa threshold, no continuation to kappa1 roots",
+      "No global physical state, positive metric or physical4D equation",
+      "Other stationary branches, dictionaries, real forms and source-admitted restrictions remain untested",
+      "The full Euler tuple is the owned local product-regulator coupled tuple, not independently varied ambient14D metric equations"
+    ]
+  },
+  "verification": {
+    "root_replay": {
+      "C3_receiver": "183/8",
+      "ambient_support": 34,
+      "certificate_bytes": 10162,
+      "certificate_sha256": "344335a28bdd73ddba506cc54870dfacb7398df5809d5b56a7251dd64d3ea90c",
+      "checks": 52,
+      "horizontal_support": 25,
+      "mode": "verify",
+      "passed": true,
+      "probe_sha256": "fcfa3fa1bab7bb979578d61d9534bdcb3dfc93ce1efda0bfb0144db179f00eab",
+      "seconds": 0.0878798752091825
+    },
+    "lean": {
+      "command": "lake env lean -j1 /private/tmp/gu-endpoint-cubic-wt-20261127/Lean/GUFormalization/EndpointCubic.lean",
+      "cwd": "/Users/joe/Brain/CapacityOS/repos/public/gu-formalization",
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": "",
+      "finite_lemmas": 5,
+      "default_import_registered": true,
+      "scope": "Finite coefficient and positivity cores only; native geometry, convergence and coupled/source bridge remain written/inherited.",
+      "repair_history": "Initial generic simp did not close coefficient extraction; specialized coefficient rewrites then norm_num passed. An accidental worktree-cwd invocation had no cached Mathlib and failed DNS; final compile uses existing mounted cache."
+    },
+    "reviews": [
+      {
+        "role": "independent mathematical specialist",
+        "receipt_sha256": "3922d6066c3eb508ed2e34c14303bba8e629de49caef8dd956dd9fdbed3fbfe5",
+        "receipt": {
+          "schema": "gu-independent-mathematical-review-v1",
+          "reviewer": "/root/math_representation",
+          "date": "2026-11-27",
+          "accepted": true,
+          "status": "accepted scoped mathematics and final artifact binding; Lean compilation remains root-owned",
+          "worktree": "/private/tmp/gu-endpoint-cubic-wt-20261127",
+          "base_revision_prefix": "d0eb3cb7",
+          "bindings_file": "/private/tmp/gu-endpoint-cubic-final-bindings.json",
+          "bindings": {
+            "explorations/conditional-build/source-action-endpoint-cubic-2026-11-27.md": "33853b618671c40e50feab71802973ce4a577d8c7c8d70e7a109bc037f6e30da",
+            "tests/program-focus/source_action_endpoint_cubic_probe.py": "fcfa3fa1bab7bb979578d61d9534bdcb3dfc93ce1efda0bfb0144db179f00eab",
+            "lab/process/source-action-endpoint-cubic-certificates.json": "344335a28bdd73ddba506cc54870dfacb7398df5809d5b56a7251dd64d3ea90c",
+            "Lean/GUFormalization/EndpointCubic.lean": "85ea298c256989b106da51b6a470f13eb8fda0859276ff6c91ce32ebb30db566"
+          },
+          "own_checks": [
+            "Read the report, complete probe, certificate and final amended Lean source; recomputed all four SHA-256 artifact hashes with shasum and matched the frozen bindings file.",
+            "Independently derived 2*(3/8)*[(21/4)*(4/3)+(21/4)*(2/3)+(15/4)*(16/3)]=183/8 from the prior endpoint receiver certificate and theta branch coordinates, before reading the new native output.",
+            "Checked E-elimination and the branch recurrence: C3=(P-K)t3+2Q(t1,t2), with t1=-S, t2=KS, t3=-K^2 S-N(S,S). The entire inherited receiver linear row is zero, so t3 makes no contribution to this receiver.",
+            "Checked symmetric upper-triangle Q conventions, the essential factor2, native receiver weight8, absence of a second division by8, and the raw pairing numerator183.",
+            "Checked that the probe recomputes the full native C3 from three small branch forms, tests the three decisive native Q pairs and native/coordinate recurrence agreement, and authenticates inherited C1=C2=0 and complete-carrier dependencies without claiming to rerun them.",
+            "Checked the certificate's nonzero theta0 gamma05 component183/8, full ambient support34 and horizontal support25 as frame-dependent diagnostics rather than physical dimensions.",
+            "Checked that the literal map first raises degree13 Upsilon to an ambient one-form and then pulls back only its exterior slot, preserving the full adjoint fibre; theta0 survives and optional4D raising is+1.",
+            "Checked analyticity implies f(h)=h^3(183/8+h r(h)) and a punctured interval with |f(h)|>(183/16)|h|^3. The radius is existential and h=0 is a normalized infinite-kappa limit.",
+            "Read the inherited analytic existence, full216 closure, symmetry-fixed59 branch and coupled variational scope. Uniqueness identifies the branch rather than imposing a new physical Sp restriction or projecting away Euler receivers.",
+            "Checked the zero-preserving Euler-jet recovery exclusion at each admitted nonzero branch field, with connection, compact-base metric, dressed epsilon and zero independent matter/bar equations retained under the fixed product regulator.",
+            "Reviewed all five finite Lean statements and the final coefficient-extraction proof revision. Their mathematical statements are valid; convergence, full native geometry and coupled/source applicability are explicitly outside their formalized scope.",
+            "Confirmed the final report corrects theta0 from a time-slot label to a horizontal-slot label; native horizontal signature is diag(1,1,1,-1), with timelike index3."
+          ],
+          "resolved_comments": [
+            "Corrected the theta0 time-slot wording. This changes no coefficient, raising factor or theorem."
+          ],
+          "root_reported_verification": {
+            "attribution": "Root messages; not freshly executed by this reviewer",
+            "exact_replay_passed": true,
+            "checks": 52,
+            "runtime_seconds_rounded": 0.08788,
+            "certificate_bytes": 10162,
+            "C3_receiver": "183/8",
+            "full_ambient_support": 34,
+            "horizontal_support": 25,
+            "lean_status_at_receipt": "Root compiling final amended source; no successful compile result yet received by this reviewer",
+            "lean_finite_lemmas": 5
+          },
+          "caveats": [
+            "Acceptance is a mathematical review of the frozen artifacts, not a claim that this reviewer executed the probe or compiler. Root owns final verification and T1 publication.",
+            "The result concerns the held W2 primary-minus K95 full-U construction and its source-shaped dictionary. It is not a source-wide, class-C-wide or GU falsification, and is not established across other source-admissible choices.",
+            "The analytic family varies h=1/kappa. No numerical exclusion radius, threshold kappa or continuation to either kappa1 root is established.",
+            "Coupled stationarity uses compact arbitrary connection variations, compact-base metric variations with fixed product regulator, epsilon redundancy and zero independent matter/bars. It does not establish arbitrary ambient14-metric/fibre variations, global finite-action fields, arbitrary boundary data or physical-state admission.",
+            "Literal observed nonvanishing is not a derived physical Einstein equation. Regular zero-preserving recovery is excluded on classes containing these witnesses; other field dictionaries, reverse implications, singular maps undefined at witnesses and separately restricted loci are not adjudicated.",
+            "Inherited complete-carrier, convergence, C1/C2 and coupled-stationarity results remain dependencies. The new probe evaluates C3 only and does not rebuild the full59 tensor census, rerun roots or compute endpoint order4."
+          ],
+          "not_run": [
+            "New exact probe generation or verification",
+            "Lean compilation or full-project build",
+            "Inherited endpoint/theta probe or root-certificate replay",
+            "Root search, inverse construction or full59 native tensor census",
+            "Endpoint order4 or higher calculation",
+            "Physical/source-wide or unrestricted PDE verification"
+          ],
+          "owner_edits": false
+        }
+      },
+      {
+        "role": "independent source/global specialist",
+        "receipt_sha256": "1b5244a360e5650c5c8ec2e97f86b07c70d6bfc5bc0a8b8418b65f46495b5558",
+        "receipt": {
+          "accepted": true,
+          "review_role": "independent source/global specialist",
+          "tier": "T1 fixed-realization analytic-branch exclusion",
+          "report_sha256": "33853b618671c40e50feab71802973ce4a577d8c7c8d70e7a109bc037f6e30da",
+          "probe_sha256": "fcfa3fa1bab7bb979578d61d9534bdcb3dfc93ce1efda0bfb0144db179f00eab",
+          "manifest_sha256": "344335a28bdd73ddba506cc54870dfacb7398df5809d5b56a7251dd64d3ea90c",
+          "lean_sha256": "85ea298c256989b106da51b6a470f13eb8fda0859276ff6c91ce32ebb30db566",
+          "own_checks": [
+            "Read final report, complete new probe, certificate scope and five finite Lean statements/proofs; final polynomial coefficient proof uses explicit coefficient simplification followed by norm_num.",
+            "Independently derived183/8 from the three stored symmetric entries and t1/t2, retaining the off-diagonal factor2 and dividing the native weight8 only once.",
+            "Checked exact E-eliminated defect, recurrence t3=-K^2S-N(S,S), zero complete linear receiver row, and why naive truncated substitution into kappa*T would need the next branch coefficient.",
+            "Checked native work ceiling: three branch forms, actual D/Phi/K/N and direct-D/pairing comparisons; no roots or full59 tensor census. Full ambient34/horizontal25 support counts are frame diagnostics, not invariant dimensions.",
+            "Checked analyticity implies an existential punctured interval of nonzero endpoint residual and no numerical delta or kappa threshold.",
+            "Checked inherited216-dimensional local invariant branch, automatic reflection/reality59 fixed space, product-regulator coupled stationarity with zero independent matter and bars; no optional Sp physical-parent selection.",
+            "Checked raised one-form followed by literal section contraction retains theta0 gamma05; theta0 is described only as horizontal, not identified as the physical time axis. No degree13 pullback or physical Einstein receiver is substituted.",
+            "Checked SC-ACT01/02 action/endpoint custody, source-fixed minus adjoint versus reconstructed K95 implementation, coupling kappa_1 versus numerical kappa=1, and distinct SC-ACT06 equation owner.",
+            "Checked fixed-build status and across-variation UNDETERMINED ceiling, no general source or all-C claim and no same-branch Taylor continuation proposed.",
+            "Authenticated all four frozen hashes and certificate native-input hashes by file reads; no scientific verification execution."
+          ],
+          "caveats": [
+            "This accepts the written source/global mathematical review; corrected Lean compilation was still being performed by root when this receipt was issued, and this receipt does not assert its success.",
+            "Convergence and full coupled local stationarity are inherited reviewed dependencies, not consequences of the finite arithmetic certificate.",
+            "The interval is local and existential; h=0 is the normalized infinite-coupling limit, not a finite-coupling background. No relation to either kappa=1 root is assumed.",
+            "The exclusion binds the held W2 action/printed-endpoint dictionary and zero-preserving recovery on a class containing these witnesses; other realizations, solution branches, source physical-state restrictions and global admission remain outside.",
+            "Full ambient adjoint fibre is retained after literal observation; no physical metric equation, mass spectrum, particle count or GU falsification follows.",
+            "Five Lean cores cover arithmetic/coefficient extraction/conditional inequalities only; they do not formalize the native maps, analytic existence or variational/source bridge."
+          ],
+          "not_run": [
+            "No new probe or inherited certificate execution",
+            "No root replay, inverse or stationary search",
+            "No Lean compilation or full build",
+            "No fresh broad source search",
+            "No owner-file edits"
+          ]
+        }
+      },
+      {
+        "role": "independent hostile reviewer",
+        "receipt_sha256": "6a65d00c686c885f80665b06b58658021d174dffe0174c7136cc45b16cd6391c",
+        "receipt": {
+          "schema": "independent_mathematical_hostile_review_v1",
+          "date": "2026-11-27",
+          "reviewer": "/root/falsification_rerank",
+          "role": "independent hostile T1 mathematical and source-scope review",
+          "worktree": "/private/tmp/gu-endpoint-cubic-wt-20261127",
+          "basis_revision": "d0eb3cb7eb169901311a2f62b8f56363bef44f10",
+          "accepted": true,
+          "verdict": "PASS for the fixed-candidate analytic-branch endpoint exclusion",
+          "blocking_issues": [],
+          "requested_corrections": [],
+          "bindings": {
+            "explorations/conditional-build/source-action-endpoint-cubic-2026-11-27.md": "33853b618671c40e50feab71802973ce4a577d8c7c8d70e7a109bc037f6e30da",
+            "tests/program-focus/source_action_endpoint_cubic_probe.py": "fcfa3fa1bab7bb979578d61d9534bdcb3dfc93ce1efda0bfb0144db179f00eab",
+            "lab/process/source-action-endpoint-cubic-certificates.json": "344335a28bdd73ddba506cc54870dfacb7398df5809d5b56a7251dd64d3ea90c",
+            "Lean/GUFormalization/EndpointCubic.lean": "85ea298c256989b106da51b6a470f13eb8fda0859276ff6c91ce32ebb30db566"
+          },
+          "challenges": [
+            {
+              "id": "strongest_claim",
+              "status": "PASS",
+              "finding": "The nonzero coefficient excludes E_all=0 implies R_print=0 on every sufficiently small nonzero-h member of this held branch. It does not classify all stationary fields, source-admissible dictionaries, physical states or GU."
+            },
+            {
+              "id": "on_shell_elimination",
+              "status": "PASS",
+              "finding": "Eliminating E gives R_print=(P-K)T+Q(T,T), hence C3=(P-K)t3+Phi(t1 wedge t2+t2 wedge t1)-2N(t1,t2). This correctly avoids the missing t4/h term in an incomplete substitution into the original endpoint."
+            },
+            {
+              "id": "branch_recurrence",
+              "status": "PASS",
+              "finding": "The exact recurrence is t1=-S, t2=KS, t3=-K^2S-N(S,S). Stored coordinates and native controls preserve these signs and check the three relevant small branch forms against the accepted tables."
+            },
+            {
+              "id": "factor2_weight8",
+              "status": "PASS",
+              "finding": "The entire selected linear receiver row vanishes on the59 family. Its symmetric Q entries are4/3,2/3,16/3; the cross term contributes2Q(t1,t2). Thus2*(3/8)*[(21/4)*(4/3)+(21/4)*(2/3)+(15/4)*(16/3)]=183/8. The coordinate receiver has already divided out native weight8; the raw pairing is183. A second division would be wrong."
+            },
+            {
+              "id": "native_operator_adjoints",
+              "status": "PASS",
+              "finding": "K uses (Phi D_B + D_B_dagger Phi_dagger)/2. Native Dadj retains the spin, LC trace and form-slot terms of the formal density/form adjoint. Phi_adj and wedge adjoints are pointwise coefficient/form adjoints; no transpose of the reduced59 matrix replaces D_B_dagger."
+            },
+            {
+              "id": "full_carrier_to59",
+              "status": "PASS",
+              "finding": "The inherited216-dimensional invariant full-U Euler problem has a unique local analytic branch through zero. Reality and orientation-preserving reflection commute with its actual equations and fix the source; uniqueness forces that branch into their complete59-dimensional fixed space. This is not an optional Sp or physical-state restriction."
+            },
+            {
+              "id": "analytic_interval",
+              "status": "PASS",
+              "finding": "The eliminated endpoint extends analytically to h=0. Full C1=C2=0 and receiver C3=183/8 imply f(h)=h^3(183/8+h r(h)); continuity provides an existential two-sided punctured interval with |f(h)|>(183/16)|h|^3. Positive h gives sufficiently large positive kappa. No numerical delta, threshold or kappa=1 continuation is obtained."
+            },
+            {
+              "id": "coupled_stationarity",
+              "status": "PASS",
+              "finding": "The inherited local product-regulator theorem gives the connection equation, compact-base metric variations, dressed epsilon redundancy and zero independent matter/bar equations. It is not an independent14D metric/stress variation or global boundary result. The zero-preserving recovery obstruction uses exactly this typed Euler tuple and its local jets."
+            },
+            {
+              "id": "literal_observation",
+              "status": "PASS",
+              "finding": "The form-slot coefficient theta0 gamma05 survives contraction of the raised ambient one-form along the constant-g0 section, retaining the full ambient adjoint fibre. Its optional4D index raising factor is+1. Theta0 is described as horizontal, without identifying it as time. Directly pulling a degree13 form to4D is a different map."
+            },
+            {
+              "id": "source_and_coupling",
+              "status": "PASS",
+              "finding": "The source fixes path coefficients and printed endpoint templates and primary-minus adjoint sign. The product selector, K95 pairing/dressing realization and held variation domain remain reconstructed. Source kappa_1 is a coupling label, not numerical kappa=1; the two finite-coupling roots and any path to this branch remain separate."
+            },
+            {
+              "id": "cached_custody",
+              "status": "PASS",
+              "finding": "The new probe authenticates the accepted endpoint certificate against its evidence, its producer, all predecessor inputs, and the exact coefficient/branch tables. It freshly evaluates only the three small branch forms and full cubic coefficient, rather than claiming inherited full59 tensors or old roots were regenerated."
+            },
+            {
+              "id": "finite_Lean_scope",
+              "status": "PASS",
+              "finding": "The five finite lemmas express the rational receiver, symmetric coefficient extraction and leading-term inequality. The corrected coefficient simp proof has the intended statement. IFT convergence, native geometry, full coupled stationarity and source interpretation remain explicitly separate dependencies."
+            }
+          ],
+          "certificate_read_checks": {
+            "all_four_frozen_hashes_match": true,
+            "producer_hash_matches": true,
+            "stored_checks": 52,
+            "declared_checks": 52,
+            "all_stored_checks_true": true,
+            "direct_dependency_count": 10,
+            "all_direct_dependency_hashes_match": true,
+            "inherited_dependency_count": 13,
+            "all_inherited_dependency_hashes_match": true,
+            "inherited_producer_binding_matches": true,
+            "accepted_inherited_certificate_binding_matches": true,
+            "receiver": "183/8",
+            "full_ambient_support": 34,
+            "horizontal_support": 25
+          },
+          "native_inputs_sha256": {
+            "explorations/conditional-build/source-action-dynamics-and-continuation-2026-11-25.md": "8b284726e3b8138e1a30136bb9ae841ab76c128bc66bbd8b92ad76f13db4469c",
+            "explorations/conditional-build/source-action-endpoint-onshell-2026-11-27.md": "ba93125116d41439c106ffab6df8919fa8272466e071bba8bc4fdf8a8f41b030",
+            "explorations/conditional-build/source-action-homogeneous-analytic-vacuum-2026-11-25.md": "5ed2c3d264500bfb7e801a31c33dfef8eb179ae1f5a628d08a231c29275f17e9",
+            "lab/process/source-action-deep-coefficients.json": "fb4aacfa69cbc1127b7fddf3b4f66811650c1fd3a889363cc6dfab940439b274",
+            "lab/process/source-action-endpoint-onshell-certificates.json": "53b2531f13be4cd86c74ee741259a64f9bd9ed7862181c9af156bbb38e752584",
+            "lab/process/source-action-endpoint-onshell.json": "04890d0d09f61454ddaa8af29302ef83a54e4db798f425ec4a98e16d80d6e398",
+            "lab/process/source-action-theta-divergence-certificates.json": "2aa58c4c4c507b22104c42fba326776b035828294397d2d0591668d5e0a46091",
+            "tests/program-focus/source_action_deep_algebra.py": "4e3800131049e2b397bbce6106bfc5766d2f5fbf996319c50942f3b805d65598",
+            "tests/program-focus/source_action_deep_geometry.py": "7cdfe5f7609300c1ab4fb482f309cfafa52d0aa66cf353ef8b1f9c8be07e52df",
+            "tests/program-focus/source_action_endpoint_onshell_probe.py": "7bd37220a5691a7f8013d01e182029c181b4715e8ea40a1ebe0bceb467f7e7bc"
+          },
+          "inherited_native_inputs_sha256": {
+            "explorations/conditional-build/source-action-dynamics-and-continuation-2026-11-25.md": "8b284726e3b8138e1a30136bb9ae841ab76c128bc66bbd8b92ad76f13db4469c",
+            "explorations/conditional-build/source-action-external-datum-candidate-2026-11-25.md": "63dbb8dfe00071a16cb87076d6aaea9a0caab9b04647049849e00c7b3ac76790",
+            "explorations/conditional-build/source-action-homogeneous-analytic-vacuum-2026-11-25.md": "5ed2c3d264500bfb7e801a31c33dfef8eb179ae1f5a628d08a231c29275f17e9",
+            "explorations/conditional-build/source-action-wave2-construction-2026-11-25.md": "6cef6f8213a23a7df54ae5af1f7a4efbb5043aff218e911f30403cb1eb72f0a4",
+            "lab/process/source-action-deep-coefficients.json": "fb4aacfa69cbc1127b7fddf3b4f66811650c1fd3a889363cc6dfab940439b274",
+            "lab/process/source-action-dynamics-and-continuation.json": "944333447fbd6ef66c5357d9c9a7f15b142b856bc0c48a786eff1208a0dd96e3",
+            "lab/process/source-action-theta-divergence-certificates.json": "2aa58c4c4c507b22104c42fba326776b035828294397d2d0591668d5e0a46091",
+            "lab/process/source-action-theta-divergence.json": "bc207b12d1950b3fba3b982a4b6f62fc10aabcc430c7232b8aa55fba0e0c4045",
+            "lab/sources/source-claim-register.yaml": "dc3ae173b4cc0eb2a0e343e3d92d5f110b8e4f6eef3e2852a1e897ab4371ade6",
+            "lab/sources/weinstein-gu-primary-source-pack-2026-07-30.md": "7b37925b0342c9495dc1706a39c0f2e9569e64a1352a3221814a2b0c9b9c2999",
+            "tests/program-focus/source_action_deep_algebra.py": "4e3800131049e2b397bbce6106bfc5766d2f5fbf996319c50942f3b805d65598",
+            "tests/program-focus/source_action_deep_geometry.py": "7cdfe5f7609300c1ab4fb482f309cfafa52d0aa66cf353ef8b1f9c8be07e52df",
+            "tests/program-focus/source_action_theta_divergence_probe.py": "93fb6c4fbe5ea51ab78ddea9f1e344e0894646e390da76a19567ced7f577c038"
+          },
+          "caveats": [
+            "No native/probe execution, Lean compilation, root replay or heavy job by this reviewer. Owner execution and compilation remain separately attributed.",
+            "Stored52 true checks and matching bindings were inspected; this receipt does not claim independent test replay.",
+            "The native34 ambient and25 horizontal support counts are frame diagnostics, not physical dimensions.",
+            "This strengthens the predecessor from isolated witnesses to the owned analytic branch; inherited source and stationarity proofs are not independent new evidence.",
+            "No numerical exclusion radius, finite-kappa=1 branch connection, global finite-action state, physical quotient or physical gravity equation is proved.",
+            "No GU-wide, source-wide or all-choice-family exclusion; no alternative action, selector, state law or boundary prescription is supplied.",
+            "Scratch receipt only; no repository or governance edit."
+          ]
+        }
+      }
+    ],
+    "gates": {
+      "program_focus_audit": "PASS",
+      "typed_carrier_declaration_audit": "PASS",
+      "kill_target_claim_audit": "PASS",
+      "frontmatter_status_schema_audit": "PASS",
+      "source_native_comparator_routing_audit": "PASS",
+      "lean_certificate_surface_audit": "PASS",
+      "current_state_absolute_currency_audit": "PASS"
+    }
+  },
+  "effect_line": "Change: reuse of one exact receiver decides the first uncovered branch coefficient and removes same-branch endpoint retests. Why: linear rowzero and only three quadratic entries matter. Authority: Joe27(c). Applied: scoped research evidence. Effect: no new roots, inverse or full59tensor computation; longer-term savings unmeasured."
+}

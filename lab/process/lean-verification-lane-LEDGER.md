@@ -583,3 +583,7 @@ bicategory, ambidexterity or Mackey 2-functor is inferred.
 ## 2026-11-27 — Real-form transfer finite cores
 
 `Lean/GUFormalization/RiemannRealForm.lean`: **LEAN-VERIFIED**, five finite lemmas: real-pair kernel inclusion, complex four-row elimination with arbitrary nonzero scales, joint-reference tangent radical, fixed-connection metric block and its nonzero control. Targeted single-thread compilation passed without warnings/placeholders; default import registered. Real-form/Clifford/Spin identifications, polynomial/naturality transport and the functional critical-family theorem remain separately reviewed written inputs. No full native replay, PDE formalization or full-project build. [Result](../../explorations/conditional-build/riemann-realform-transfer-2026-11-27.md).
+
+## 2026-11-27 — Endpoint cubic finite cores
+
+`Lean/GUFormalization/EndpointCubic.lean` registers five finite cores for the analytic-branch endpoint result: exact coefficient, extraction, polarization and conditional positivity/nonzero. Targeted check recorded in `lab/process/source-action-endpoint-cubic.json`; no full PDE/source formalization.
