@@ -1,0 +1,2223 @@
+{
+  "schema": "gu-controls-sensitivity-certificates-v1",
+  "final_probe_sha256": "06bb0e5545d551f090e7ecf8ca47021c548f5207fdea8568ccdcef7c96d8c1dd",
+  "status": "exact_controls_and_bounded_original_arithmetic_replay_pass",
+  "polynomial_convention": "Q[k], coefficient lists ascending; identities checked coefficientwise for all real k. Positivity/domain statements use declared k>0 or k>=1. Stelle mass squared fixed at 4.",
+  "source_urls": {
+    "ADM": "https://arxiv.org/html/gr-qc/0405109v1",
+    "harmonic_Einstein": "https://arxiv.org/html/1410.3490v1",
+    "Stelle": "https://link.springer.com/article/10.1007/BF00760427",
+    "Dirac_author_derivation": "https://www.damtp.cam.ac.uk/user/tong/qft/qfthtml/S4.html"
+  },
+  "GR_ADM": {
+    "domain": "Linearized vacuum ADM, nonzero Fourier vector rotated to (0,0,k), k>0; each real Fourier quadrature.",
+    "canonical_coordinates": "q=(h11,h22,h33,h12,h13,h23); p=(pi11,pi22,pi33,2pi12,2pi13,2pi23)",
+    "energy_hessian": [
+      [
+        "0",
+        {
+          "Q_k_coefficients_ascending": [
+            "0",
+            "0",
+            "-1/2"
+          ]
+        },
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      [
+        {
+          "Q_k_coefficients_ascending": [
+            "0",
+            "0",
+            "-1/2"
+          ]
+        },
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "0",
+        {
+          "Q_k_coefficients_ascending": [
+            "0",
+            "0",
+            "1"
+          ]
+        },
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "1",
+        "-1",
+        "-1",
+        "0",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "-1",
+        "1",
+        "-1",
+        "0",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "-1",
+        "-1",
+        "1",
+        "0",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "1",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "1",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "1"
+      ]
+    ],
+    "generator": [
+      [
+        {
+          "Q_k_coefficients_ascending": []
+        },
+        {
+          "Q_k_coefficients_ascending": []
+        },
+        "0",
+        {
+          "Q_k_coefficients_ascending": []
+        },
+        "0",
+        "0",
+        "1",
+        "-1",
+        "-1",
+        "0",
+        "0",
+        "0"
+      ],
+      [
+        {
+          "Q_k_coefficients_ascending": []
+        },
+        {
+          "Q_k_coefficients_ascending": []
+        },
+        "0",
+        {
+          "Q_k_coefficients_ascending": []
+        },
+        "0",
+        "0",
+        "-1",
+        "1",
+        "-1",
+        "0",
+        "0",
+        "0"
+      ],
+      [
+        {
+          "Q_k_coefficients_ascending": []
+        },
+        {
+          "Q_k_coefficients_ascending": []
+        },
+        "0",
+        {
+          "Q_k_coefficients_ascending": []
+        },
+        "0",
+        "0",
+        "-1",
+        "-1",
+        "1",
+        "0",
+        "0",
+        "0"
+      ],
+      [
+        {
+          "Q_k_coefficients_ascending": []
+        },
+        {
+          "Q_k_coefficients_ascending": []
+        },
+        "0",
+        {
+          "Q_k_coefficients_ascending": []
+        },
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "1",
+        "0",
+        "0"
+      ],
+      [
+        {
+          "Q_k_coefficients_ascending": []
+        },
+        {
+          "Q_k_coefficients_ascending": []
+        },
+        "0",
+        {
+          "Q_k_coefficients_ascending": []
+        },
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "1",
+        "0"
+      ],
+      [
+        {
+          "Q_k_coefficients_ascending": []
+        },
+        {
+          "Q_k_coefficients_ascending": []
+        },
+        "0",
+        {
+          "Q_k_coefficients_ascending": []
+        },
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "1"
+      ],
+      [
+        {
+          "Q_k_coefficients_ascending": []
+        },
+        {
+          "Q_k_coefficients_ascending": [
+            "0",
+            "0",
+            "1/2"
+          ]
+        },
+        "0",
+        {
+          "Q_k_coefficients_ascending": []
+        },
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      [
+        {
+          "Q_k_coefficients_ascending": [
+            "0",
+            "0",
+            "1/2"
+          ]
+        },
+        {
+          "Q_k_coefficients_ascending": []
+        },
+        "0",
+        {
+          "Q_k_coefficients_ascending": []
+        },
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      [
+        {
+          "Q_k_coefficients_ascending": []
+        },
+        {
+          "Q_k_coefficients_ascending": []
+        },
+        "0",
+        {
+          "Q_k_coefficients_ascending": []
+        },
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      [
+        {
+          "Q_k_coefficients_ascending": []
+        },
+        {
+          "Q_k_coefficients_ascending": []
+        },
+        "0",
+        {
+          "Q_k_coefficients_ascending": [
+            "0",
+            "0",
+            "-1"
+          ]
+        },
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      [
+        {
+          "Q_k_coefficients_ascending": []
+        },
+        {
+          "Q_k_coefficients_ascending": []
+        },
+        "0",
+        {
+          "Q_k_coefficients_ascending": []
+        },
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      [
+        {
+          "Q_k_coefficients_ascending": []
+        },
+        {
+          "Q_k_coefficients_ascending": []
+        },
+        "0",
+        {
+          "Q_k_coefficients_ascending": []
+        },
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ]
+    ],
+    "normalized_constraints": [
+      [
+        1,
+        1,
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        1,
+        "0",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        1,
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        1
+      ]
+    ],
+    "constraint_kernel": [
+      [
+        "-1",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      [
+        "1",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "1",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "1",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "0",
+        "1",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "0",
+        "0",
+        "1",
+        "0",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "1",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "1",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "1"
+      ],
+      [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ]
+    ],
+    "gauge_image": [
+      [
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "1",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "1",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "0",
+        "1"
+      ],
+      [
+        "-1",
+        "0",
+        "0",
+        "0"
+      ],
+      [
+        "-1",
+        "0",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "0",
+        "0"
+      ]
+    ],
+    "constrained_inertia_at_k1": {
+      "positive": 4,
+      "negative": 0,
+      "zero": 4
+    },
+    "all_k_positive_quotient_hessian": [
+      [
+        {
+          "Q_k_coefficients_ascending": [
+            "0",
+            "0",
+            "1"
+          ]
+        },
+        {
+          "Q_k_coefficients_ascending": []
+        },
+        {
+          "Q_k_coefficients_ascending": []
+        },
+        {
+          "Q_k_coefficients_ascending": []
+        }
+      ],
+      [
+        {
+          "Q_k_coefficients_ascending": []
+        },
+        {
+          "Q_k_coefficients_ascending": [
+            "0",
+            "0",
+            "1"
+          ]
+        },
+        {
+          "Q_k_coefficients_ascending": []
+        },
+        {
+          "Q_k_coefficients_ascending": []
+        }
+      ],
+      [
+        {
+          "Q_k_coefficients_ascending": []
+        },
+        {
+          "Q_k_coefficients_ascending": []
+        },
+        {
+          "Q_k_coefficients_ascending": [
+            "1"
+          ]
+        },
+        {
+          "Q_k_coefficients_ascending": []
+        }
+      ],
+      [
+        {
+          "Q_k_coefficients_ascending": []
+        },
+        {
+          "Q_k_coefficients_ascending": []
+        },
+        {
+          "Q_k_coefficients_ascending": []
+        },
+        {
+          "Q_k_coefficients_ascending": [
+            "1"
+          ]
+        }
+      ]
+    ],
+    "quotient_generator": [
+      [
+        {
+          "Q_k_coefficients_ascending": []
+        },
+        {
+          "Q_k_coefficients_ascending": []
+        },
+        {
+          "Q_k_coefficients_ascending": [
+            "1"
+          ]
+        },
+        {
+          "Q_k_coefficients_ascending": []
+        }
+      ],
+      [
+        {
+          "Q_k_coefficients_ascending": []
+        },
+        {
+          "Q_k_coefficients_ascending": []
+        },
+        {
+          "Q_k_coefficients_ascending": []
+        },
+        {
+          "Q_k_coefficients_ascending": [
+            "1"
+          ]
+        }
+      ],
+      [
+        {
+          "Q_k_coefficients_ascending": [
+            "0",
+            "0",
+            "-1"
+          ]
+        },
+        {
+          "Q_k_coefficients_ascending": []
+        },
+        {
+          "Q_k_coefficients_ascending": []
+        },
+        {
+          "Q_k_coefficients_ascending": []
+        }
+      ],
+      [
+        {
+          "Q_k_coefficients_ascending": []
+        },
+        {
+          "Q_k_coefficients_ascending": [
+            "0",
+            "0",
+            "-1"
+          ]
+        },
+        {
+          "Q_k_coefficients_ascending": []
+        },
+        {
+          "Q_k_coefficients_ascending": []
+        }
+      ]
+    ],
+    "raw_trace_energy": "-3/2",
+    "raw_trace_admitted": false,
+    "scalar_constraint_deleted_inertia_at_k1": {
+      "positive": 4,
+      "negative": 1,
+      "zero": 4
+    },
+    "ceiling": "Linearized constraint/gauge quotient only. A negative unphysical trace direction is not a physical ghost. No nonlinear GR theorem is computed."
+  },
+  "GR_harmonic": {
+    "generator_one_component": [
+      [
+        "0",
+        "1"
+      ],
+      [
+        {
+          "Q_k_coefficients_ascending": [
+            "0",
+            "0",
+            "-1"
+          ]
+        },
+        "0"
+      ]
+    ],
+    "positive_estimate_form": [
+      [
+        {
+          "Q_k_coefficients_ascending": [
+            "0",
+            "0",
+            "1"
+          ]
+        },
+        "0"
+      ],
+      [
+        "0",
+        1
+      ]
+    ],
+    "domain": "Mean-zero torus modes or |k|>=1; (h,dt h) in H^(s+1) x H^s. Low frequencies require a separate bounded-time inhomogeneous estimate.",
+    "constraint_propagation": "Analytic: C_nu=partial^mu hbar_mu_nu commutes with the common wave operator; zero C and dt C initial data propagate.",
+    "ceiling": "The probe checks the common flat wave operator, not the nonlinear harmonic-gauge existence theorem or full physical quotient."
+  },
+  "GR_linearized_Bianchi": {
+    "metric_diagonal": [
+      "-1",
+      "1",
+      "1",
+      "1"
+    ],
+    "covector_lower": [
+      "2",
+      "1",
+      "3",
+      "4"
+    ],
+    "covector_norm_squared": "22",
+    "basis_checks": [
+      {
+        "symmetric_basis": [
+          0,
+          0
+        ],
+        "linearized_scalar": "-26",
+        "divergence": [
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        "wrong_trace_sign_divergence": [
+          "-52",
+          "-26",
+          "-78",
+          "-104"
+        ],
+        "wrong_index_raising_divergence": [
+          "0",
+          "0",
+          "0",
+          "0"
+        ]
+      },
+      {
+        "symmetric_basis": [
+          0,
+          1
+        ],
+        "linearized_scalar": "4",
+        "divergence": [
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        "wrong_trace_sign_divergence": [
+          "8",
+          "4",
+          "12",
+          "16"
+        ],
+        "wrong_index_raising_divergence": [
+          "0",
+          "50",
+          "-6",
+          "-8"
+        ]
+      },
+      {
+        "symmetric_basis": [
+          0,
+          2
+        ],
+        "linearized_scalar": "12",
+        "divergence": [
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        "wrong_trace_sign_divergence": [
+          "24",
+          "12",
+          "36",
+          "48"
+        ],
+        "wrong_index_raising_divergence": [
+          "0",
+          "-6",
+          "34",
+          "-24"
+        ]
+      },
+      {
+        "symmetric_basis": [
+          0,
+          3
+        ],
+        "linearized_scalar": "16",
+        "divergence": [
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        "wrong_trace_sign_divergence": [
+          "32",
+          "16",
+          "48",
+          "64"
+        ],
+        "wrong_index_raising_divergence": [
+          "0",
+          "-8",
+          "-24",
+          "20"
+        ]
+      },
+      {
+        "symmetric_basis": [
+          1,
+          1
+        ],
+        "linearized_scalar": "21",
+        "divergence": [
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        "wrong_trace_sign_divergence": [
+          "42",
+          "21",
+          "63",
+          "84"
+        ],
+        "wrong_index_raising_divergence": [
+          "50",
+          "0",
+          "12",
+          "16"
+        ]
+      },
+      {
+        "symmetric_basis": [
+          1,
+          2
+        ],
+        "linearized_scalar": "-6",
+        "divergence": [
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        "wrong_trace_sign_divergence": [
+          "-12",
+          "-6",
+          "-18",
+          "-24"
+        ],
+        "wrong_index_raising_divergence": [
+          "-12",
+          "-12",
+          "-4",
+          "0"
+        ]
+      },
+      {
+        "symmetric_basis": [
+          1,
+          3
+        ],
+        "linearized_scalar": "-8",
+        "divergence": [
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        "wrong_trace_sign_divergence": [
+          "-16",
+          "-8",
+          "-24",
+          "-32"
+        ],
+        "wrong_index_raising_divergence": [
+          "-16",
+          "-16",
+          "0",
+          "-4"
+        ]
+      },
+      {
+        "symmetric_basis": [
+          2,
+          2
+        ],
+        "linearized_scalar": "13",
+        "divergence": [
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        "wrong_trace_sign_divergence": [
+          "26",
+          "13",
+          "39",
+          "52"
+        ],
+        "wrong_index_raising_divergence": [
+          "34",
+          "4",
+          "0",
+          "16"
+        ]
+      },
+      {
+        "symmetric_basis": [
+          2,
+          3
+        ],
+        "linearized_scalar": "-24",
+        "divergence": [
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        "wrong_trace_sign_divergence": [
+          "-48",
+          "-24",
+          "-72",
+          "-96"
+        ],
+        "wrong_index_raising_divergence": [
+          "-48",
+          "0",
+          "-16",
+          "-12"
+        ]
+      },
+      {
+        "symmetric_basis": [
+          3,
+          3
+        ],
+        "linearized_scalar": "6",
+        "divergence": [
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        "wrong_trace_sign_divergence": [
+          "12",
+          "6",
+          "18",
+          "24"
+        ],
+        "wrong_index_raising_divergence": [
+          "20",
+          "4",
+          "12",
+          "0"
+        ]
+      }
+    ],
+    "wrong_trace_sign_failure_count": 10,
+    "wrong_index_raising_failure_count": 9,
+    "finite_scope": "At this one declared covector, linearity and all ten symmetric h basis tensors give the off-shell identity for arbitrary h. This is not a frequency sampling proof of the generic identity.",
+    "generic_analytic_derivation": "For arbitrary xi, v_nu=xi^rho h_rho,nu and r=xi^2 tr(h)-xi^rho v_rho. Direct contraction gives xi^mu R_mu,nu=xi_nu r/2. Subtraction of eta_mu,nu r/2 therefore gives xi^mu G_mu,nu=0, with no field equation or non-null assumption. The displayed cancellation supplies the generic proof; the tensor implementation tests it at the declared covector.",
+    "typing_ceiling": "Adapter-only tensor-contraction control for linearized Einstein G. It is not a native GU theta coderivative replay, a theta=T to stress dictionary, or a proof of GU conservation."
+  },
+  "Stelle_TT": {
+    "domain": "One real TT polarization of ordinary classical flat quadratic gravity, positive Einstein branch, m2^2=4, k>0; no alternate quantum prescription.",
+    "lagrangian": "[-hddot^2+(2k^2+4)hdot^2-k^2(k^2+4)h^2]/8",
+    "canonical_order": "(h,hdot,P0,P1)",
+    "canonical_hessian": [
+      [
+        {
+          "Q_k_coefficients_ascending": [
+            "0",
+            "0",
+            "1",
+            "0",
+            "1/4"
+          ]
+        },
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        {
+          "Q_k_coefficients_ascending": [
+            "-1",
+            "0",
+            "-1/2"
+          ]
+        },
+        1,
+        0
+      ],
+      [
+        0,
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        "-4"
+      ]
+    ],
+    "canonical_generator": [
+      [
+        {
+          "Q_k_coefficients_ascending": []
+        },
+        {
+          "Q_k_coefficients_ascending": [
+            "1"
+          ]
+        },
+        "0",
+        "0"
+      ],
+      [
+        {
+          "Q_k_coefficients_ascending": []
+        },
+        {
+          "Q_k_coefficients_ascending": []
+        },
+        "0",
+        "-4"
+      ],
+      [
+        {
+          "Q_k_coefficients_ascending": [
+            "0",
+            "0",
+            "-1",
+            "0",
+            "-1/4"
+          ]
+        },
+        {
+          "Q_k_coefficients_ascending": []
+        },
+        "0",
+        "0"
+      ],
+      [
+        {
+          "Q_k_coefficients_ascending": []
+        },
+        {
+          "Q_k_coefficients_ascending": [
+            "1",
+            "0",
+            "1/2"
+          ]
+        },
+        "-1",
+        "0"
+      ]
+    ],
+    "jet_order": "(h,hdot,hddot,hdddot)",
+    "jet_generator": [
+      [
+        0,
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        1
+      ],
+      [
+        {
+          "Q_k_coefficients_ascending": [
+            "0",
+            "0",
+            "-4",
+            "0",
+            "-1"
+          ]
+        },
+        0,
+        {
+          "Q_k_coefficients_ascending": [
+            "-4",
+            "0",
+            "-2"
+          ]
+        },
+        0
+      ]
+    ],
+    "jet_energy_hessian": [
+      [
+        {
+          "Q_k_coefficients_ascending": [
+            "0",
+            "0",
+            "1",
+            "0",
+            "1/4"
+          ]
+        },
+        {
+          "Q_k_coefficients_ascending": []
+        },
+        {
+          "Q_k_coefficients_ascending": []
+        },
+        {
+          "Q_k_coefficients_ascending": []
+        }
+      ],
+      [
+        {
+          "Q_k_coefficients_ascending": []
+        },
+        {
+          "Q_k_coefficients_ascending": [
+            "1",
+            "0",
+            "1/2"
+          ]
+        },
+        {
+          "Q_k_coefficients_ascending": []
+        },
+        {
+          "Q_k_coefficients_ascending": [
+            "1/4"
+          ]
+        }
+      ],
+      [
+        {
+          "Q_k_coefficients_ascending": []
+        },
+        {
+          "Q_k_coefficients_ascending": []
+        },
+        {
+          "Q_k_coefficients_ascending": [
+            "-1/4"
+          ]
+        },
+        {
+          "Q_k_coefficients_ascending": []
+        }
+      ],
+      [
+        {
+          "Q_k_coefficients_ascending": []
+        },
+        {
+          "Q_k_coefficients_ascending": [
+            "1/4"
+          ]
+        },
+        {
+          "Q_k_coefficients_ascending": []
+        },
+        {
+          "Q_k_coefficients_ascending": []
+        }
+      ]
+    ],
+    "factor_transform": [
+      [
+        {
+          "Q_k_coefficients_ascending": [
+            "1",
+            "0",
+            "1/4"
+          ]
+        },
+        0,
+        "1/4",
+        0
+      ],
+      [
+        0,
+        {
+          "Q_k_coefficients_ascending": [
+            "1",
+            "0",
+            "1/4"
+          ]
+        },
+        0,
+        "1/4"
+      ],
+      [
+        {
+          "Q_k_coefficients_ascending": [
+            "0",
+            "0",
+            "-1/4"
+          ]
+        },
+        0,
+        "-1/4",
+        0
+      ],
+      [
+        0,
+        {
+          "Q_k_coefficients_ascending": [
+            "0",
+            "0",
+            "-1/4"
+          ]
+        },
+        0,
+        "-1/4"
+      ]
+    ],
+    "factor_inverse": [
+      [
+        1,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        1,
+        0,
+        1
+      ],
+      [
+        {
+          "Q_k_coefficients_ascending": [
+            "0",
+            "0",
+            "-1"
+          ]
+        },
+        0,
+        {
+          "Q_k_coefficients_ascending": [
+            "-4",
+            "0",
+            "-1"
+          ]
+        },
+        0
+      ],
+      [
+        0,
+        {
+          "Q_k_coefficients_ascending": [
+            "0",
+            "0",
+            "-1"
+          ]
+        },
+        0,
+        {
+          "Q_k_coefficients_ascending": [
+            "-4",
+            "0",
+            "-1"
+          ]
+        }
+      ]
+    ],
+    "factor_generator": [
+      [
+        "0",
+        "1",
+        "0",
+        "0"
+      ],
+      [
+        {
+          "Q_k_coefficients_ascending": [
+            "0",
+            "0",
+            "-1"
+          ]
+        },
+        "0",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "0",
+        "1"
+      ],
+      [
+        "0",
+        "0",
+        {
+          "Q_k_coefficients_ascending": [
+            "-4",
+            "0",
+            "-1"
+          ]
+        },
+        "0"
+      ]
+    ],
+    "factor_signed_energy": [
+      [
+        {
+          "Q_k_coefficients_ascending": [
+            "0",
+            "0",
+            "1"
+          ]
+        },
+        "0",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        1,
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        {
+          "Q_k_coefficients_ascending": [
+            "-4",
+            "0",
+            "-1"
+          ]
+        },
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "0",
+        -1
+      ]
+    ],
+    "factor_positive_estimate_form": [
+      [
+        {
+          "Q_k_coefficients_ascending": [
+            "0",
+            "0",
+            "1"
+          ]
+        },
+        "0",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        1,
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        {
+          "Q_k_coefficients_ascending": [
+            "4",
+            "0",
+            "1"
+          ]
+        },
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "0",
+        1
+      ]
+    ],
+    "sinusoid_energies_at_k1": [
+      "1/2",
+      "-5/2"
+    ],
+    "finite_loss_analytic_bound": "On k>=1, U=diag(k,1,sqrt(k^2+4),1)T has norm O(k^3), inverse O(k^2). Factor evolution is U-unitary. Hence the original unweighted four-jet propagator is O(k^5), giving a (nonoptimal) finite five-derivative-loss Duhamel bound. Polynomial matrix identities are computed; this norm estimate is the displayed analytic deduction.",
+    "ceiling": "Negative canonical energy is an actual TT ghost under the stated classical prescription, but it does not establish high-frequency exponential growth, nonlinear runaway or a quantum verdict."
+  },
+  "Dirac": {
+    "domain": "Ordinary free complex Dirac comparator on flat R3 or torus with Hermitian pairing; realified to eight real coordinates.",
+    "sample_momentum_mass": {
+      "k": [
+        3,
+        0,
+        0
+      ],
+      "m": 4
+    },
+    "hamiltonian_realified": [
+      [
+        "4",
+        "0",
+        "0",
+        "3",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "4",
+        "3",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "3",
+        "-4",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      [
+        "3",
+        "0",
+        "0",
+        "-4",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "0",
+        "0",
+        "4",
+        "0",
+        "0",
+        "3"
+      ],
+      [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "4",
+        "3",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "3",
+        "-4",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "0",
+        "0",
+        "3",
+        "0",
+        "0",
+        "-4"
+      ]
+    ],
+    "generator_realified": [
+      [
+        "0",
+        "0",
+        "0",
+        "0",
+        "4",
+        "0",
+        "0",
+        "3"
+      ],
+      [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "4",
+        "3",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "3",
+        "-4",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "0",
+        "0",
+        "3",
+        "0",
+        "0",
+        "-4"
+      ],
+      [
+        "-4",
+        "0",
+        "0",
+        "-3",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "-4",
+        "-3",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "-3",
+        "4",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      [
+        "-3",
+        "0",
+        "0",
+        "4",
+        "0",
+        "0",
+        "0",
+        "0"
+      ]
+    ],
+    "positive_norm_form": [
+      [
+        "1",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "1",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "1",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "0",
+        "1",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "0",
+        "0",
+        "1",
+        "0",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "1",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "1",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "1"
+      ]
+    ],
+    "sample_energies": [
+      50,
+      -50
+    ],
+    "sample_norms": [
+      10,
+      10
+    ],
+    "all_frequency_reason": "Computed Clifford anticommutators imply D(k)^2=(|k|^2+m^2)I and K^*+K=0 for every real k,m, so every H^s norm is conserved.",
+    "polarized_current": [
+      [
+        "3",
+        "0"
+      ],
+      [
+        "1",
+        "0"
+      ],
+      [
+        "0",
+        "-1"
+      ],
+      [
+        "0",
+        "0"
+      ]
+    ],
+    "current_covector_difference": [
+      1,
+      -3,
+      0,
+      0
+    ],
+    "continuity_residual": [
+      "0",
+      "0"
+    ],
+    "off_shell_mutant_residual": [
+      "3",
+      "0"
+    ],
+    "ceiling": "A negative first-quantized Dirac energy eigenvalue is not by itself a physical ghost. CAR/vacuum and interacting QFT are outside this control."
+  },
+  "growth_and_density": {
+    "balanced_wave_generator": [
+      [
+        0,
+        {
+          "Q_k_coefficients_ascending": [
+            "0",
+            "1"
+          ]
+        }
+      ],
+      [
+        {
+          "Q_k_coefficients_ascending": [
+            "0",
+            "-1"
+          ]
+        },
+        0
+      ]
+    ],
+    "elliptic_generator": [
+      [
+        0,
+        {
+          "Q_k_coefficients_ascending": [
+            "0",
+            "1"
+          ]
+        }
+      ],
+      [
+        {
+          "Q_k_coefficients_ascending": [
+            "0",
+            "1"
+          ]
+        },
+        0
+      ]
+    ],
+    "nilpotent_generator": [
+      [
+        0,
+        {
+          "Q_k_coefficients_ascending": [
+            "0",
+            "1"
+          ]
+        }
+      ],
+      [
+        0,
+        0
+      ]
+    ],
+    "trace_checks": {
+      "wave": {
+        "trace": 0,
+        "trace_square": {
+          "Q_k_coefficients_ascending": [
+            "0",
+            "0",
+            "-2"
+          ]
+        }
+      },
+      "elliptic": {
+        "trace": 0,
+        "trace_square": {
+          "Q_k_coefficients_ascending": [
+            "0",
+            "0",
+            "2"
+          ]
+        }
+      },
+      "nilpotent": {
+        "trace": 0,
+        "trace_square": {
+          "Q_k_coefficients_ascending": []
+        }
+      }
+    },
+    "analytic_growth_consequences": {
+      "elliptic": "Exact eigenvector (1,1) evolves by exp(k t). For any fixed t>0 this exceeds every polynomial k^N, ruling out every fixed finite Sobolev-loss bound in polynomially comparable norms.",
+      "nilpotent": "exp(tK)=I+tK exactly. At fixed nonzero t its norm grows linearly in k, so equal-order uniform bounds fail, while one derivative loss suffices, including the Duhamel forcing estimate on bounded time intervals.",
+      "wave": "Balanced generator is skew and has a conserved positive Euclidean norm.",
+      "criterion_ceiling": "Trace zero plus positive real trace-square is a sufficient spectral-growth test. Its absence is not a general stability certificate."
+    },
+    "density_control": {
+      "metric": "-x^2 dt^2+dx^2+dy^2+dz^2, x>0",
+      "Jx=1/x": "divergence 0",
+      "Jx=1": "divergence 1/x",
+      "wrong_no_density_residual_at_x2": "-1/4"
+    },
+    "typing_ceiling": "The density contraction is an adapter control only. A vector/Noether current and native adjoint-valued theta=T are different objects; no theta-to-stress map is supplied."
+  },
+  "GU_energy_arithmetic": {
+    "bindings": {
+      "lab/process/source-action-reduced-evolution.json": "d299647a410d660a2b01f9612e1ab271368f7a4b3244c91655793aa5ed7e1945",
+      "lab/process/source-action-kappa1-constraints.json": "5d3401666f8072dd225924e0cc9073c16c7d6c59efd0b4b941e1fcce7ce29233",
+      "lab/process/source-action-deep-coefficients.json": "fb4aacfa69cbc1127b7fddf3b4f66811650c1fd3a889363cc6dfab940439b274",
+      "tests/program-focus/source_action_reduced_evolution_probe.py": "2279acba19fe23ba3cbc77106ef8137fb72c4e758bdf45b1ee3ffe259a617426",
+      "tests/program-focus/source_action_deep_algebra.py": "4e3800131049e2b397bbce6106bfc5766d2f5fbf996319c50942f3b805d65598",
+      "tests/program-focus/source_action_metric_symbol_probe.py": "eccac86c829c48848a4db9ab49d0313601bc3b19aca9a1fc6635520f489254ef",
+      "tests/program-focus/source_action_deep_geometry.py": "7cdfe5f7609300c1ab4fb482f309cfafa52d0aa66cf353ef8b1f9c8be07e52df",
+      "tests/program-focus/source_action_q7_propagation_probe.py": "de122fac6296819abd83b7f6d1050b5d460e59100da0005456625eb08a1a18d7",
+      "lab/process/source-action-q7-propagation-certificates.json": "151835619ab9258a5e2a6baff608bc7c018ab79dbe08a6a57d5be192bffdf139"
+    },
+    "roots": [
+      {
+        "root": 0,
+        "witnesses": [
+          {
+            "basis_index": 5,
+            "active_saved_inverse_blocks": 1,
+            "center": "17698707586795186814976/11920928955078125",
+            "error_bound": "7632624847154526756596032677184279881592279509687203283105908539462336807003752201706580178793309609953390004499433745805869056/1264608273047916392651503184972368888278925930925601293683973388815377226826543846607924261706794890730767252075672149658203125",
+            "lower": "1877524908744990645597744513045913748688458184543124112511919551298162953988495367495596586839642413380780093219991001132508388261888/1264608273047916392651503184972368888278925930925601293683973388815377226826543846607924261706794890730767252075672149658203125",
+            "upper": "157499485238932061680671775951580246184933677626211936715123050203546229452800000000000000000000000000000000000000000/106083030761559358347275408294846934351677042955699464170077286412037839279749603240060063251477132747432400169",
+            "sign": "positive"
+          },
+          {
+            "basis_index": 12,
+            "active_saved_inverse_blocks": 1,
+            "center": "-47012312864076319162368/11920928955078125",
+            "error_bound": "20274211861450747266654130339481382385498236204314326991821941372450446792826892677110125866202286686277254535142700398138359808/1264608273047916392651503184972368888278925930925601293683973388815377226826543846607924261706794890730767252075672149658203125",
+            "lower": "-418359082982307569214739634305512761291399322619360155462198201121294565990400000000000000000000000000000000000000000/106083030761559358347275408294846934351677042955699464170077286412037839279749603240060063251477132747432400169",
+            "upper": "-4987188357519999456431115789962920963365992565483998864248273811958493192368133096214645779748267595426627445490929714599203723280384/1264608273047916392651503184972368888278925930925601293683973388815377226826543846607924261706794890730767252075672149658203125",
+            "sign": "negative"
+          }
+        ]
+      },
+      {
+        "root": 1,
+        "witnesses": [
+          {
+            "basis_index": 5,
+            "active_saved_inverse_blocks": 1,
+            "center": "-39900557686690130558976/11920928955078125",
+            "error_bound": "31328339076805114119708537251689040273211160023188032819290614650949569412791208955400602258179882680349515964218902970368/1199031506753399751517043675660442348866490285754630477585247983857033249902832762981130541182323620013082027435302734375",
+            "lower": "-336660955481433624609448160012892633555934123700009260608156926639491153920000000000000000000000000000000000000/100582052898036231827738847139945919712402313430035792613154319193669799764009021382056155068063693774307",
+            "upper": "-4013248675564736087436118722117274728083600521964503105900343458216231303986174417582089198795483640234639300968071562194059264/1199031506753399751517043675660442348866490285754630477585247983857033249902832762981130541182323620013082027435302734375",
+            "sign": "negative"
+          },
+          {
+            "basis_index": 12,
+            "active_saved_inverse_blocks": 1,
+            "center": "426512990229114098221056/59604644775390625",
+            "error_bound": "334881123303621820210007894060685250886512115643974580384433893303735883533236917885899571212873476589031695548228940791808/5995157533766998757585218378302211744332451428773152387926239919285166249514163814905652705911618100065410137176513671875",
+            "lower": "42899217263801061090317974136876796574526992028901438422456720106681098582920433526164228200857574253046821936608903542118416384/5995157533766998757585218378302211744332451428773152387926239919285166249514163814905652705911618100065410137176513671875",
+            "upper": "719740671011599357935180113712396303986023717509659227005522881902263189504000000000000000000000000000000000000/100582052898036231827738847139945919712402313430035792613154319193669799764009021382056155068063693774307",
+            "sign": "positive"
+          }
+        ]
+      }
+    ],
+    "original_routines_executed": [
+      "source_action_q7_propagation_probe.load_bound",
+      "source_action_q7_propagation_probe.replay_diagonals"
+    ],
+    "shared_adapter_executed": "pair and matrix-vector product independently recompute the exact saved b-dagger-c centers plus Neumann interval errors, comparing complete values rather than sign labels.",
+    "not_run": [
+      "native seed/parity reconstruction",
+      "full reduced-evolution probe",
+      "dense native M assembly or inverse solve",
+      "native on-shell-current/conservation routines",
+      "native microlocal packet or PDE proof"
+    ],
+    "ceiling": "This is fresh bounded replay of owned GU energy arithmetic plus adapter calibration. It does not independently establish the imported source decomposition, inverse theorem, physical state admission, native PDE estimate or theta conservation."
+  },
+  "routing_notice": "Conventional comparators bind only their stated model. No typed bridge to source-native GU physical mechanisms, no hypothesis vote, no default successor, and no source/GU exclusion follows from these controls.",
+  "not_certified": [
+    "global/nonlinear stability",
+    "quantum unitarity or vacuum choice",
+    "source-selected physical state rule",
+    "theta=T as Einstein stress",
+    "complete native diagnostic pipeline",
+    "native finite-loss analytic packet proof"
+  ],
+  "checks": [
+    "polynomial ring arithmetic sanity",
+    "inertia input symmetric",
+    "congruence handles zero-diagonal indefinite block",
+    "ADM computed constraint/gauge ranks",
+    "ADM first-class constraint algebra",
+    "ADM constraint propagation on kernel",
+    "ADM gauge is energy radical on constrained space",
+    "ADM full constrained radical equals derived gauge image",
+    "inertia input symmetric",
+    "ADM constrained inertia from congruence",
+    "ADM quotient section spans kernel modulo gauge",
+    "ADM quotient coordinates canonical",
+    "ADM quotient energy derived positive for every k>0",
+    "ADM quotient evolution intertwines full generator",
+    "ADM both physical pairs have wave frequency k",
+    "ADM canonical energy conservation",
+    "ADM negative raw trace is excluded by constraints",
+    "inertia input symmetric",
+    "ADM deleting scalar constraint exposes negative energy",
+    "ADM wrong off-diagonal canonical factor fails wave normalization",
+    "ADM whole oscillator sign flip preserves wave equation",
+    "ADM sign-flipped oscillator still has positive conserved estimate norm",
+    "harmonic wave positive weighted norm conservation for all k",
+    "harmonic wave equation for all k",
+    "ten harmonic components share the same wave operator",
+    "ten harmonic waves conserve componentwise estimate norm",
+    "unweighted equal-order wave norm is not the conserved norm",
+    "Bianchi declared all-nonzero covector is non-null",
+    "Bianchi basis00 Ricci trace identity",
+    "Bianchi basis00 off-shell divergence zero",
+    "Bianchi basis01 Ricci trace identity",
+    "Bianchi basis01 off-shell divergence zero",
+    "Bianchi basis02 Ricci trace identity",
+    "Bianchi basis02 off-shell divergence zero",
+    "Bianchi basis03 Ricci trace identity",
+    "Bianchi basis03 off-shell divergence zero",
+    "Bianchi basis11 Ricci trace identity",
+    "Bianchi basis11 off-shell divergence zero",
+    "Bianchi basis12 Ricci trace identity",
+    "Bianchi basis12 off-shell divergence zero",
+    "Bianchi basis13 Ricci trace identity",
+    "Bianchi basis13 off-shell divergence zero",
+    "Bianchi basis22 Ricci trace identity",
+    "Bianchi basis22 off-shell divergence zero",
+    "Bianchi basis23 Ricci trace identity",
+    "Bianchi basis23 off-shell divergence zero",
+    "Bianchi basis33 Ricci trace identity",
+    "Bianchi basis33 off-shell divergence zero",
+    "Bianchi wrong relative trace sign fails on every declared basis",
+    "Bianchi missing Lorentz index raising detected",
+    "Stelle Ostrogradsky generator matches original fourth-order equation",
+    "Stelle canonical energy derived in original jet variables",
+    "Stelle factor-variable map exactly invertible",
+    "Stelle fourth-order equation factors into two wave oscillators",
+    "Stelle energy split is a derived congruence",
+    "Stelle original canonical energy conserved",
+    "Stelle signed energy and positive estimate norm both conserved",
+    "inertia input symmetric",
+    "Stelle physical TT energy has both signs",
+    "inertia input symmetric",
+    "Stelle positive estimate form",
+    "Stelle actual sinusoidal solution jets have opposite canonical energy",
+    "Stelle characteristic factorization identity in all k",
+    "Dirac realified Hermitian generator 0",
+    "Dirac Clifford anticommutator 0,0",
+    "Dirac Clifford anticommutator 0,1",
+    "Dirac Clifford anticommutator 0,2",
+    "Dirac Clifford anticommutator 0,3",
+    "Dirac realified Hermitian generator 1",
+    "Dirac Clifford anticommutator 1,0",
+    "Dirac Clifford anticommutator 1,1",
+    "Dirac Clifford anticommutator 1,2",
+    "Dirac Clifford anticommutator 1,3",
+    "Dirac realified Hermitian generator 2",
+    "Dirac Clifford anticommutator 2,0",
+    "Dirac Clifford anticommutator 2,1",
+    "Dirac Clifford anticommutator 2,2",
+    "Dirac Clifford anticommutator 2,3",
+    "Dirac realified Hermitian generator 3",
+    "Dirac Clifford anticommutator 3,0",
+    "Dirac Clifford anticommutator 3,1",
+    "Dirac Clifford anticommutator 3,2",
+    "Dirac Clifford anticommutator 3,3",
+    "Dirac positive norm and two-sided energy conserved",
+    "Dirac sample dispersion exactly 25",
+    "Dirac exact positive/negative energy spinors",
+    "Dirac negative energy is distinct from positive norm",
+    "Dirac second current spinor on shell",
+    "Dirac nonzero polarized current obeys full on-shell continuity cancellation",
+    "Dirac off-shell energy mutation fails continuity",
+    "Dirac dropping complex conjugation fails norm conservation",
+    "balanced wave positive norm conserved",
+    "balanced wave imaginary-frequency square",
+    "elliptic exact growing eigenvector",
+    "elliptic exponential system can conserve an indefinite form",
+    "elliptic system fails positive Euclidean conservation",
+    "nilpotent square zero but nonzero",
+    "trace-square sufficient growth criterion distinguishes these exact controls",
+    "Rindler densitized flux differentiation",
+    "Rindler omission of density term detected",
+    "GU prior certificate dependency identities",
+    "original GU replay_diagonals reproduces complete saved roots",
+    "GU root0 witness5 N7 source exactly zero in owned data",
+    "GU root0 witness5 Neumann eta admissible",
+    "nonnegative certified contraction error",
+    "GU root0 witness5 full center/error/endpoints/sign reproduced by adapter",
+    "GU root0 witness5 missing auxiliary minus sign rejected",
+    "nonnegative certified contraction error",
+    "GU root0 witness5 discarded error bound detected",
+    "GU root0 witness12 N7 source exactly zero in owned data",
+    "GU root0 witness12 Neumann eta admissible",
+    "nonnegative certified contraction error",
+    "GU root0 witness12 full center/error/endpoints/sign reproduced by adapter",
+    "GU root0 witness12 missing auxiliary minus sign rejected",
+    "nonnegative certified contraction error",
+    "GU root0 witness12 discarded error bound detected",
+    "GU root0 both energy signs retained",
+    "GU root1 witness5 N7 source exactly zero in owned data",
+    "GU root1 witness5 Neumann eta admissible",
+    "nonnegative certified contraction error",
+    "GU root1 witness5 full center/error/endpoints/sign reproduced by adapter",
+    "GU root1 witness5 missing auxiliary minus sign rejected",
+    "nonnegative certified contraction error",
+    "GU root1 witness5 discarded error bound detected",
+    "GU root1 witness12 N7 source exactly zero in owned data",
+    "GU root1 witness12 Neumann eta admissible",
+    "nonnegative certified contraction error",
+    "GU root1 witness12 full center/error/endpoints/sign reproduced by adapter",
+    "GU root1 witness12 missing auxiliary minus sign rejected",
+    "nonnegative certified contraction error",
+    "GU root1 witness12 discarded error bound detected",
+    "GU root1 both energy signs retained"
+  ],
+  "check_count": 132
+}

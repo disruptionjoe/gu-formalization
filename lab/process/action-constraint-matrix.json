@@ -1788,7 +1788,7 @@
     },
     "LB-CLASS": {
       "zero_delta_streak": 0,
-      "runs": 45,
+      "runs": 46,
       "status": "open"
     },
     "LB-LADDER": {
@@ -2707,7 +2707,7 @@
   ],
   "program_run_counter": {
     "since": "2026-11-09",
-    "count": 87,
+    "count": 88,
     "rule": "Every hourly run increments this in its postflight, whatever its lane. Lane C runs when count % 4 == 3 before the increment."
   },
   "working_rule": "Cells are worked at the structure level: a requirement must hold for every action in class C or for a structurally defined subfamily. No cell is worked by writing down a specific action, and no gated cell is worked by building its gate object. See CURRENT-STATE.yaml program_focus.structure_not_specifics.",
@@ -3450,6 +3450,22 @@
       ],
       "claim_effect": "No source/physics/canon/classC/paper verdict or matrix cell/intersection/shrinkage change.",
       "cadence_note": "Directed LB-CLASS wave: counter86to87, LBCLASS44to45, zero_delta_streak0. Other lane counts and bets unchanged; prior LC carry consumed. Next ordinary count modulo4=3 selects existing LC-BETS rule. No schedule/model credit or cadence change."
+    },
+    {
+      "date": "2026-11-27",
+      "authority": "joe_direct_chat_2026_11_27_a_c",
+      "item": "Comparator calibration and ten-family/source-state sensitivity audit",
+      "tier": "T2",
+      "counter_before": 87,
+      "counter_after": 88,
+      "lane": "LB-CLASS",
+      "actual_delta": "Known-answer control calibration separates canonical energy, physical norm and evolution estimates. Six recorded matter-only families leave the three held bosonic failures invariant; four core families and the different plus-adjoint construction remain undetermined. One bounded new-material source search found no authenticated state rule in its coverage.",
+      "evidence": [
+        "explorations/conditional-build/source-action-controls-sensitivity-2026-11-27.md",
+        "lab/process/source-action-controls-sensitivity.json"
+      ],
+      "claim_effect": "No matrix-cell, ledger, source, canon, class-C or paper verdict change.",
+      "cadence_note": "One directed scientific LB-CLASS wave: count87to88, LB-CLASS45to46; no cell/intersection/shrinkage/verdict/bet change. Due LC slot carried explicitly."
     }
   ],
   "directed_lc_carry_2026_11_24_b": {
@@ -3828,7 +3844,9 @@
           "explorations/conditional-build/source-action-endpoint-onshell-2026-11-27.md",
           "lab/process/source-action-endpoint-onshell.json",
           "explorations/conditional-build/source-action-riemann-silence-2026-11-27.md",
-          "lab/process/source-action-riemann-silence.json"
+          "lab/process/source-action-riemann-silence.json",
+          "explorations/conditional-build/source-action-controls-sensitivity-2026-11-27.md",
+          "lab/process/source-action-controls-sensitivity.json"
         ],
         "choices": "Historical original choices are retained below; current held fermion repair is SE=-1/2 (SE0 superseded), kappa1 with two unselected roots. Typed candidate_choice_budget separates core/completion/pending/comparator/parked choices.",
         "wave2_update": {
@@ -5088,6 +5106,37 @@
             "construction": "No new candidate construction until Joe decides.",
             "effect": "K95 transfer candidate retained but deferred behind this directed audit. No automation/schedule change."
           }
+        },
+        "controls_sensitivity_followthrough": {
+          "status": "internal_T2_audit_reviewed",
+          "evidence": [
+            "explorations/conditional-build/source-action-controls-sensitivity-2026-11-27.md",
+            "lab/process/source-action-controls-sensitivity.json"
+          ],
+          "three_failures": {
+            "E": "Signed canonical-energy analytic germs plus separate principal growth; no physical ghost/runaway inference.",
+            "F": "All fixed finite-loss graph estimates excluded only on the specified unchanged microlocal core.",
+            "C": "Chosen theta=T coderivative implication fails; not every source/Einstein conservation identity."
+          },
+          "structural_matter_only_families": [
+            "fermion-recipe",
+            "lift-prescription",
+            "spectral-window",
+            "observed-dispersion",
+            "bar-dual-contour",
+            "normal-window"
+          ],
+          "unresolved_whole_families": [
+            "geometry-real-form",
+            "shiab-recipe",
+            "coupling-normalization",
+            "variational-domain"
+          ],
+          "adjoints": "Primary minus is authenticated. Genuine plus comparator needs a full changed real-slice/action/background; no reuse of minus roots by relabelling.",
+          "source_rule": "No new authenticated prescription in one bounded search. Source-wide absence is not established.",
+          "next": "Structural native K95 four-witness transfer ranks before a guided successor, after the carried ordinary LC slot. No new candidate selected.",
+          "weakest_unproved_link": "Source necessity and physical admission/readout of this reconstructed candidate; its roots also fail the separately printed endpoint.",
+          "claim_effect": "No matrix-cell, ledger, source, canon, class-C or paper verdict change."
         }
       }
     ],
@@ -6301,6 +6350,17 @@
         ],
         "remaining": "Keep packet5o ready: test the actual fixed positive-matter current against owned negative-energy receivers with the same injection/domain, carrying singular auxiliary constraints and physical propagation/quotient separately. Higher derived graph domains remain open. Original Bott datum needs an actually matching stationary background before a new stability Hessian; no new datum variant or prescription is installed.",
         "outcome_ceiling": "No physical ghost or source falsification; other matching stationary backgrounds and physical domains undetermined."
+      },
+      {
+        "id": "directed_controls_sensitivity_2026_11_27",
+        "status": "consumed_at_audit_scope",
+        "original_direction": "Joe27(a,c): controls, ten-family/both-adjoint audit, one source search; continue autonomously.",
+        "evidence": [
+          "explorations/conditional-build/source-action-controls-sensitivity-2026-11-27.md",
+          "lab/process/source-action-controls-sensitivity.json"
+        ],
+        "remaining": "Structural native K95 four-witness transfer ranks before a guided successor, after the carried ordinary LC slot. No new candidate selected.",
+        "outcome_ceiling": "No matrix-cell, ledger, source, canon, class-C or paper verdict change."
       }
     ]
   },
@@ -6399,7 +6459,7 @@
   },
   "research_efficiency_update_2026_11_27": {
     "authority": "joe_direct_chat_2026_11_27_c",
-    "status": "ready_directed_audit",
+    "status": "directed_audit_consumed",
     "steps": [
       {
         "id": "pipeline_controls",
@@ -6440,5 +6500,14 @@
     "source_necessity": "Canonical positive energy, a connected stationary branch and a chosen coderivative are not automatically source-required. Bind each necessity claim to SC/page/equation and its physical map.",
     "counter_effect": "Process-only: no increment, no bet use, no consumed LC slot.",
     "history": "Completed proofs remain consumed within their stated hypotheses. Preserve exclusions, survivors and strongest unproved bridge."
+  },
+  "directed_lc_carry_2026_11_27_audit": {
+    "status": "due",
+    "due_counter": 87,
+    "authority": "joe_direct_chat_2026_11_27_a_c",
+    "reason": "Explicit directed audit occupies the due ordinary LC slot; it receives no bet credit.",
+    "next_regular_run": "Serve the active LC bet with most time remaining before another ordinary B selection.",
+    "bet_attempt_credited": false,
+    "evidence": "lab/process/source-action-controls-sensitivity.json"
   }
 }

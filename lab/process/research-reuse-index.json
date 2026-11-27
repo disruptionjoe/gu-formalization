@@ -576,15 +576,123 @@
       ],
       "survivors_ref": null,
       "reopen_condition_ref": "explorations/conditional-build/source-action-mixed-consistency-2026-11-26.md",
-      "superseded_by": null,
+      "superseded_by": [
+        "source-action-controls-sensitivity-2026-11-27"
+      ],
       "exclusions": [],
       "untested_alternatives": [
         {
           "statement": "Controls must be declared and executed in their own science scope",
           "owner_ref": "explorations/conditional-build/source-action-mixed-consistency-2026-11-26.md"
+        },
+        {
+          "statement": "Later comparator calibration is owned by source-action-controls-sensitivity-2026-11-27; it does not erase this historical planned-control record.",
+          "owner_ref": "explorations/conditional-build/source-action-controls-sensitivity-2026-11-27.md"
         }
       ],
       "scope_note": "Attributed metadata only; consult the owner for exact quantifiers, proofs, corrections and source applicability."
+    },
+    {
+      "id": "source-action-controls-sensitivity-2026-11-27",
+      "kind": "control",
+      "owner_ref": "explorations/conditional-build/source-action-controls-sensitivity-2026-11-27.md",
+      "tested_statement": "Derived GR/Stelle/Dirac and growth/conservation controls, original saved q7 energy arithmetic, and dependency scope of three held W2 failures across ten recorded families.",
+      "signature": {
+        "object": "Three distinct candidate failure statements E/F/C and declared comparator diagnostics",
+        "carrier": "Held W2/K95 zero-matter full-U bosonic block; separate flat GR, Stelle TT and ordinary Dirac",
+        "convention": "Primary-minus source adapter; plus is an unbuilt distinct comparator; physical norm differs from canonical energy",
+        "class": "Recorded matter-only changes with fixed bosonic action/domain; exact comparator scopes in owner report",
+        "premises": [
+          "Matter fields and all jets vanish identically.",
+          "Bosonic test core retained; each fixed tube contains a smaller compact chart.",
+          "No source physical quotient or theta-to-stress bridge supplied.",
+          "Stelle TT mass squared4, nonzero Fourier frequency; controls do not establish full native pipeline."
+        ]
+      },
+      "attributed_status": "132 checks and T2 dependency audit accepted internally; no new kill/source verdict",
+      "status_ref": "lab/process/source-action-controls-sensitivity.json#status",
+      "source_bridge_ref": "lab/process/source-action-controls-sensitivity.json#source_bridge",
+      "certificate_refs": [
+        "lab/process/source-action-controls-certificates.json"
+      ],
+      "control_refs": [
+        "tests/program-focus/source_action_controls_sensitivity_probe.py"
+      ],
+      "survivors_ref": "explorations/conditional-build/source-action-controls-sensitivity-2026-11-27.md#6-scoped-finding--proposal-only",
+      "reopen_condition_ref": "explorations/conditional-build/source-action-controls-sensitivity-2026-11-27.md#7-selection-after-the-audit",
+      "superseded_by": null,
+      "cache": {
+        "artifacts": [
+          {
+            "path": "explorations/conditional-build/source-action-controls-sensitivity-2026-11-27.md",
+            "sha256": "f60c82fc1233e30bc84b9b54f74ea087c7d6043aed5ac0841b070e2c8f8c002e"
+          },
+          {
+            "path": "tests/program-focus/source_action_controls_sensitivity_probe.py",
+            "sha256": "06bb0e5545d551f090e7ecf8ca47021c548f5207fdea8568ccdcef7c96d8c1dd"
+          },
+          {
+            "path": "lab/process/source-action-controls-certificates.json",
+            "sha256": "8f8ca76b8c50a2383073861cbe510391fbf66a4f3a4ce34973f43016a51e1115"
+          },
+          {
+            "path": "lab/process/source-action-reduced-evolution.json",
+            "sha256": "d299647a410d660a2b01f9612e1ab271368f7a4b3244c91655793aa5ed7e1945"
+          },
+          {
+            "path": "lab/process/source-action-kappa1-constraints.json",
+            "sha256": "5d3401666f8072dd225924e0cc9073c16c7d6c59efd0b4b941e1fcce7ce29233"
+          },
+          {
+            "path": "lab/process/source-action-deep-coefficients.json",
+            "sha256": "fb4aacfa69cbc1127b7fddf3b4f66811650c1fd3a889363cc6dfab940439b274"
+          },
+          {
+            "path": "tests/program-focus/source_action_reduced_evolution_probe.py",
+            "sha256": "2279acba19fe23ba3cbc77106ef8137fb72c4e758bdf45b1ee3ffe259a617426"
+          },
+          {
+            "path": "tests/program-focus/source_action_deep_algebra.py",
+            "sha256": "4e3800131049e2b397bbce6106bfc5766d2f5fbf996319c50942f3b805d65598"
+          },
+          {
+            "path": "tests/program-focus/source_action_metric_symbol_probe.py",
+            "sha256": "eccac86c829c48848a4db9ab49d0313601bc3b19aca9a1fc6635520f489254ef"
+          },
+          {
+            "path": "tests/program-focus/source_action_deep_geometry.py",
+            "sha256": "7cdfe5f7609300c1ab4fb482f309cfafa52d0aa66cf353ef8b1f9c8be07e52df"
+          },
+          {
+            "path": "tests/program-focus/source_action_q7_propagation_probe.py",
+            "sha256": "de122fac6296819abd83b7f6d1050b5d460e59100da0005456625eb08a1a18d7"
+          },
+          {
+            "path": "lab/process/source-action-q7-propagation-certificates.json",
+            "sha256": "151835619ab9258a5e2a6baff608bc7c018ab79dbe08a6a57d5be192bffdf139"
+          }
+        ],
+        "verifier": {
+          "command": "python3",
+          "args": [
+            "tests/program-focus/source_action_controls_sensitivity_probe.py",
+            "--verify"
+          ],
+          "environment": {
+            "python_version": "3.14.6 (main, Jun 10 2026, 10:03:53) [Clang 21.0.0 (clang-2100.0.123.102)]",
+            "platform": "macOS-26.7-arm64-arm-64bit-Mach-O",
+            "untracked_environment": "unknown"
+          }
+        },
+        "receipt_ref": "lab/process/source-action-controls-sensitivity.json#verification/root_replay"
+      },
+      "exclusions": [],
+      "untested_alternatives": [
+        {
+          "statement": "Four core choice-family variations, different plus-adjoint action, physical state admission and native analytic proof are not certified by this control wave.",
+          "owner_ref": "explorations/conditional-build/source-action-controls-sensitivity-2026-11-27.md"
+        }
+      ]
     }
   ]
 }

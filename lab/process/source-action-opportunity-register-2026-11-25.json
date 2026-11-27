@@ -2582,7 +2582,7 @@
   },
   "research_efficiency_update_2026_11_27": {
     "authority": "joe_direct_chat_2026_11_27_c",
-    "status": "ready_directed_audit",
+    "status": "directed_audit_consumed",
     "steps": [
       {
         "id": "pipeline_controls",
@@ -2623,5 +2623,36 @@
     "source_necessity": "Canonical positive energy, a connected stationary branch and a chosen coderivative are not automatically source-required. Bind each necessity claim to SC/page/equation and its physical map.",
     "counter_effect": "Process-only: no increment, no bet use, no consumed LC slot.",
     "history": "Completed proofs remain consumed within their stated hypotheses. Preserve exclusions, survivors and strongest unproved bridge."
+  },
+  "controls_sensitivity_2026_11_27": {
+    "status": "internal_T2_audit_reviewed",
+    "evidence": [
+      "explorations/conditional-build/source-action-controls-sensitivity-2026-11-27.md",
+      "lab/process/source-action-controls-sensitivity.json"
+    ],
+    "three_failures": {
+      "E": "Signed canonical-energy analytic germs plus separate principal growth; no physical ghost/runaway inference.",
+      "F": "All fixed finite-loss graph estimates excluded only on the specified unchanged microlocal core.",
+      "C": "Chosen theta=T coderivative implication fails; not every source/Einstein conservation identity."
+    },
+    "structural_matter_only_families": [
+      "fermion-recipe",
+      "lift-prescription",
+      "spectral-window",
+      "observed-dispersion",
+      "bar-dual-contour",
+      "normal-window"
+    ],
+    "unresolved_whole_families": [
+      "geometry-real-form",
+      "shiab-recipe",
+      "coupling-normalization",
+      "variational-domain"
+    ],
+    "adjoints": "Primary minus is authenticated. Genuine plus comparator needs a full changed real-slice/action/background; no reuse of minus roots by relabelling.",
+    "source_rule": "No new authenticated prescription in one bounded search. Source-wide absence is not established.",
+    "next": "Structural native K95 four-witness transfer ranks before a guided successor, after the carried ordinary LC slot. No new candidate selected.",
+    "weakest_unproved_link": "Source necessity and physical admission/readout of this reconstructed candidate; its roots also fail the separately printed endpoint.",
+    "claim_effect": "No matrix-cell, ledger, source, canon, class-C or paper verdict change."
   }
 }

@@ -16,6 +16,10 @@ discovery bet (`lab/process/discovery-bets.json`). The K25xx--K2618 detector, pr
 results below are retained as conditional mathematics; that lane is no longer the default target. Sections
 below are dated results, newest first, and are not steering.
 
+## 2026-11-27 — Candidate diagnostic controls and dependency coverage
+
+[Audit](explorations/conditional-build/source-action-controls-sensitivity-2026-11-27.md) · [Evidence](lab/process/source-action-controls-sensitivity.json). The controls distinguish canonical energy, physical norm and evolution estimates. Six recorded matter-only families preserve the held bosonic failure statements; four core variations and the different plus-adjoint construction remain undetermined. The bounded source search obtained no new authenticated state law in its coverage. Choice10/4/net6/0 and scientific verdicts remain unchanged.
+
 ## 2026-11-27 — Reuse and calibration support applied
 
 [Method](lab/methods/research-reuse-and-calibration.md) · [Implementation evidence](lab/process/process-efficiency-update-2026-11-27.json). Joe Nov27(c) authorized a bounded process update: scope-keyed lookup, explicit cache provenance, diagnostic calibration and autonomous investigation pivots. Prior results remain attributed to their owners. This implementation adds no scientific result, counter credit, choice family or verdict change. Its effect on research speed is not yet measured.

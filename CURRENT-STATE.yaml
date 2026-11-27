@@ -1,7 +1,7 @@
 schema_version: '1.0'
 repository: observerse-research-program
 branch: main
-revision_basis: 2b9273a1b8ca6376c39ddc7a57bd3aa59aa67e53
+revision_basis: 4215ddda8b6ffab99955f658c7a236f1f15dddc8
 program_focus:
   version: 2026-11-27-v1
   authority: joe_direct_chat_2026_11_27_c
@@ -169,6 +169,49 @@ program_focus:
       This flag never pauses research and does not authorize contact or release.
     retrospective: About every ten scientific waves, review forecast versus actual cost/delta, repeated
       work and useful shortcuts in existing weekly metrics. No new schedule.
+source_action_controls_sensitivity_2026_11_27:
+  authority: joe_direct_chat_2026_11_27_a_c
+  status: internal_T2_audit_reviewed
+  actual_delta: Known-answer control calibration separates canonical energy, physical norm and evolution
+    estimates. Six recorded matter-only families leave the three held bosonic failures invariant; four
+    core families and the different plus-adjoint construction remain undetermined. One bounded new-material
+    source search found no authenticated state rule in its coverage.
+  evidence:
+  - explorations/conditional-build/source-action-controls-sensitivity-2026-11-27.md
+  - lab/process/source-action-controls-sensitivity.json
+  followthrough:
+    status: internal_T2_audit_reviewed
+    evidence:
+    - explorations/conditional-build/source-action-controls-sensitivity-2026-11-27.md
+    - lab/process/source-action-controls-sensitivity.json
+    three_failures:
+      E: Signed canonical-energy analytic germs plus separate principal growth; no physical ghost/runaway
+        inference.
+      F: All fixed finite-loss graph estimates excluded only on the specified unchanged microlocal core.
+      C: Chosen theta=T coderivative implication fails; not every source/Einstein conservation identity.
+    structural_matter_only_families:
+    - fermion-recipe
+    - lift-prescription
+    - spectral-window
+    - observed-dispersion
+    - bar-dual-contour
+    - normal-window
+    unresolved_whole_families:
+    - geometry-real-form
+    - shiab-recipe
+    - coupling-normalization
+    - variational-domain
+    adjoints: Primary minus is authenticated. Genuine plus comparator needs a full changed real-slice/action/background;
+      no reuse of minus roots by relabelling.
+    source_rule: No new authenticated prescription in one bounded search. Source-wide absence is not established.
+    next: Structural native K95 four-witness transfer ranks before a guided successor, after the carried
+      ordinary LC slot. No new candidate selected.
+    weakest_unproved_link: Source necessity and physical admission/readout of this reconstructed candidate;
+      its roots also fail the separately printed endpoint.
+    claim_effect: No matrix-cell, ledger, source, canon, class-C or paper verdict change.
+  choice_budget: 10/4/bookkeeping net6/0 source-selected predictions, unchanged
+  accounting: 'One directed scientific LB-CLASS wave: count87to88, LB-CLASS45to46; no cell/intersection/shrinkage/verdict/bet
+    change. Due LC slot carried explicitly.'
 research_efficiency_update_2026_11_27:
   authority: joe_direct_chat_2026_11_27_c
   status: applied_T3_process_only

@@ -505,3 +505,16 @@ including the retained K95 class-transfer alternative and ordinary LC cadence.
 No physical ghost, source necessity or all-variation claim is inferred from
 a comparator, a missing prescription or a finite sweep. Process scaffolding
 receives no scientific counter or bet credit.
+
+## Nov27 controls and choice-dependency audit
+
+[Audit](../../../explorations/conditional-build/source-action-controls-sensitivity-2026-11-27.md)
+records comparator calibration separately from physical inference. The six
+recorded matter-only families preserve the held bosonic E/F/C proofs; four core
+families and a genuine plus-adjoint comparator remain undetermined. The one
+new-material source search closes at its stated coverage, with no authenticated
+new state law. A source state rule is not the only possible changed construction.
+
+The next B alternative is the native K95 four-witness architectural transfer,
+behind the carried ordinary LC slot. No new candidate or decision checkpoint
+is selected. Exact readiness and acceptance are owned by the audit evidence.
