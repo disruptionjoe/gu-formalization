@@ -120,3 +120,4 @@ import GUFormalization.EndpointCubic
 import GUFormalization.ConservationDescent
 
 import GUFormalization.FullShiabConsistency
+import GUFormalization.EndpointHessianSeparation

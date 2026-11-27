@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0",
+  "delta_id": "GU-PRINTED-SHIAB-ENDPOINT-2026-11-27",
+  "status": "pending",
+  "base": {
+    "ledger_ref": "lab/process/conditional-physics-ledger-v0.263.json",
+    "ledger_sha256": "7c75c179c3af512084e50af19043a5d320b38e8c1e53325ee5ec2f97ad9c257b"
+  },
+  "affected_rows": [
+    "LT-GR1"
+  ],
+  "result_refs": [
+    "explorations/conditional-build/printed-shiab-endpoint-audit-2026-11-27.md",
+    "explorations/conditional-build/full-shiab-variational-consistency-2026-11-27.md",
+    "explorations/conditional-build/source-action-riemann-silence-2026-11-27.md",
+    "explorations/conditional-build/source-action-endpoint-onshell-2026-11-27.md",
+    "explorations/conditional-build/source-action-endpoint-cubic-2026-11-27.md"
+  ],
+  "source_disposition": "SC-ACT-01/02 literal first-action correspondence is scoped by the fixed-Phi/full-U/Spin/trace theorem. Source-facing candidate finding, no source-register verdict. W2 actual roots and branch remain candidate-specific, not source GU.",
+  "claim_ceiling": "Evidence-only attachment; LT-GR1 remains NEEDS. No wholeGU/classC kill, no massless-helicity/physical ghost verdict. No laneC discovery import. The arbitrary fixed invertible zero-order multiplier extension is included only at its exact covector scope.",
+  "proposed_effect": {
+    "summary": "Attach whole fixed-linear endpoint obstruction and candidate-fidelity distinction to the gravity construction burden, preserving all current verdicts and unrelated row data.",
+    "requested_row_changes": [
+      "Add evidence links and source/candidate scope only; do not replace existing physical-quotient revival trigger or change NEEDS."
+    ]
+  },
+  "conflict_keys": [
+    "LT-GR1",
+    "SC-ACT-01-FIRST-ACTION-VARIATION",
+    "GU-SOURCE-APPLICABILITY-RECONCILIATION-2026-11-24"
+  ],
+  "integration": null
+}

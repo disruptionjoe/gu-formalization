@@ -595,3 +595,7 @@ bicategory, ambidexterity or Mackey 2-functor is inferred.
 ## 2026-11-27 — Full Shiab consistency finite cores
 
 `Lean/GUFormalization/FullShiabConsistency.lean`: **LEAN-VERIFIED**, five finite lemmas: three cyclic maps collapse, odd scalar parity, central-matrix tests, mixed quadratic factor and central/traceless spanning. Targeted single-thread compilation passed without output or placeholders. Universal matrix-unit classification, compact variational argument, Spin/real-form and source identification remain separately reviewed written inputs; no full-project or source formalization claim. [Result](../../explorations/conditional-build/full-shiab-variational-consistency-2026-11-27.md).
+
+## Printed endpoint separation (2026-11-27)
+
+`Lean/GUFormalization/EndpointHessianSeparation.lean`: **LEAN-VERIFIED**, targeted single-thread check passed with no output. Finite nonzero-coefficient cancellation and rank-gap arithmetic only; irreducibility, inherited universal proof and source bridge remain written/reviewed. Evidence: `lab/process/printed-shiab-endpoint-audit.json`.

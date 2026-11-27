@@ -17,6 +17,10 @@ External review is not a research pathway or waiting condition. The source-level
 
 Sections below are historical snapshots in file order.
 
+## 2026-11-27 — Printed endpoint independent of the action ansatz
+
+[Result](explorations/conditional-build/printed-shiab-endpoint-audit-2026-11-27.md) · [Evidence](lab/process/printed-shiab-endpoint-audit.json). Any C2 action with the exact common fixed-Shiab endpoint in the declared full-U/Spin/trace/full-translation class forces S=0. Every nonzero well-typed displayed invariant-Phi member is therefore excluded from that correspondence, independently of unresolved coefficient/product selection. Source-facing candidate finding only; corrected equations, restricted variations, physical interpretation and GU-wide necessity remain separate. No ledger verdict or choice change.
+
 ## 2026-11-27 — Full fixed-linear Shiab consistency
 
 [Result](explorations/conditional-build/full-shiab-variational-consistency-2026-11-27.md) · [Evidence](lab/process/full-shiab-consistency.json). In the declared full-U, fullSpin, fixed-linear architecture, the cubic/unit-endpoint identity removes all traceless curvature response. The quadratic/unit-linear identity removes the central-input survivor, forcing S=0. This excludes every nonzero matched map in that class without a full operator census. Fixed-fibre Spin/source identification remains explicit; no W2 stationary, GU, ledger or choice verdict changes.

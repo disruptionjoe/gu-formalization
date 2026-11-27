@@ -1295,6 +1295,157 @@
       "dead_end_refs": [
         "lab/process/full-shiab-consistency.json#follow_through.dead_end_memory"
       ]
+    },
+    {
+      "id": "printed-shiab-endpoint-audit-2026-11-27",
+      "kind": "result",
+      "owner_ref": "explorations/conditional-build/printed-shiab-endpoint-audit-2026-11-27.md",
+      "tested_statement": "Any C2 functional with the prescribed full-translation Euler covector forces S=0. Every nonzero well-typed member of the displayed invariant-Phi family is excluded from that exact variational correspondence, without selecting its unresolved coefficients.",
+      "signature": {
+        "object": "Common fixedS exact Euler endpoint",
+        "carrier": "FulluH, fullDirac128, dimension14, all primitive translations",
+        "convention": "Trace/topform, held metric/epsilon, ordinary curvature, arbitrary nonzero scalar linear/quadratic factors",
+        "class": "AnyC2functional with exact commonS endpoint on an open full field neighborhood",
+        "premises": [
+          "Fixed linear fullSpinS",
+          "Full nondegenerate trace pairing",
+          "Both curvature degrees nonzero",
+          "Symmetric mass and all compact local variations"
+        ]
+      },
+      "attributed_status": "internal_T1_printed_endpoint_and_arbitrary_fixed_multiplier_obstruction_reviewed",
+      "status_ref": "lab/process/printed-shiab-endpoint-audit.json#status",
+      "source_bridge_ref": "lab/process/printed-shiab-endpoint-audit.json#source_bridge",
+      "certificate_refs": [
+        "Lean/GUFormalization/EndpointHessianSeparation.lean",
+        "lab/process/full-shiab-consistency-certificates.json"
+      ],
+      "control_refs": [
+        "tests/program-focus/full_shiab_consistency_probe.py"
+      ],
+      "survivors_ref": "lab/process/printed-shiab-endpoint-audit.json#follow_through",
+      "reopen_condition_ref": "explorations/conditional-build/printed-shiab-endpoint-audit-2026-11-27.md#6-source-facing-candidate-finding-and-escapes",
+      "superseded_by": null,
+      "cache": {
+        "artifacts": [
+          {
+            "path": "explorations/conditional-build/full-shiab-variational-consistency-2026-11-27.md",
+            "sha256": "0b0113ec030b5069c3688f6a9ab49032d46b80b590637ab1c39645a4349bbb0a",
+            "state": "unchanged_from_fetched_basis",
+            "fresh_execution": false
+          },
+          {
+            "path": "lab/process/full-shiab-consistency.json",
+            "sha256": "80911ea5fbdc485c5eb613e6993c4cb31f724467a0ad823dab09432f6d5fa8f2",
+            "state": "unchanged_from_fetched_basis",
+            "fresh_execution": false
+          },
+          {
+            "path": "lab/process/full-shiab-consistency-certificates.json",
+            "sha256": "a279b8afec2df41da4b6ea06309435c8f89199239b371def38e54d309237275c",
+            "state": "unchanged_from_fetched_basis",
+            "fresh_execution": false
+          },
+          {
+            "path": "Lean/GUFormalization/FullShiabConsistency.lean",
+            "sha256": "a2c0c0ac7123b6c73c12e58f0f6c046b97f10aa9cb07b28153690b2b054be604",
+            "state": "unchanged_from_fetched_basis",
+            "fresh_execution": false
+          },
+          {
+            "path": "explorations/conditional-build/riemann-realform-transfer-2026-11-27.md",
+            "sha256": "39f6ad6678ac9524f1ab68a24e65ab3a577003c6ef500344b5bf84445366b222",
+            "state": "unchanged_from_fetched_basis",
+            "fresh_execution": false
+          },
+          {
+            "path": "explorations/conditional-build/source-prescription-current-2026-11-13.md",
+            "sha256": "6ec3109bb811e49463228b8a7a780303260997c6622baa48b213aa07558e7194",
+            "state": "unchanged_from_fetched_basis",
+            "fresh_execution": false
+          },
+          {
+            "path": "explorations/resolver-wave-k77b-source-bracket-displayed-shiab-b1-variation-2026-08-04.md",
+            "sha256": "d164d5f1bfcd9cee61474d9da8dcf48fe96fd00e075f7b6e133dd9d28110f081",
+            "state": "unchanged_from_fetched_basis",
+            "fresh_execution": false
+          },
+          {
+            "path": "tests/channel-swings/resolver_wave_k77b_source_bracket_displayed_shiab_b1_variation_probe.py",
+            "sha256": "f8eed5ac8acae62a415ec570336a622c9fcd40a363ed37b7b83d5ad740c0e39c",
+            "state": "unchanged_from_fetched_basis",
+            "fresh_execution": false
+          },
+          {
+            "path": "lab/process/resolver-wave-k77b-source-bracket-displayed-shiab-b1-variation.json",
+            "sha256": "ecfd503c3664b808770f755c1a8ea4a3daa04ba590a22d177875385fa89904d5",
+            "state": "unchanged_from_fetched_basis",
+            "fresh_execution": false
+          },
+          {
+            "path": "lab/sources/source-claim-register.yaml",
+            "sha256": "dc3ae173b4cc0eb2a0e343e3d92d5f110b8e4f6eef3e2852a1e897ab4371ade6",
+            "state": "unchanged_from_fetched_basis",
+            "fresh_execution": false
+          },
+          {
+            "path": "explorations/conditional-build/printed-shiab-endpoint-audit-2026-11-27.md",
+            "sha256": "829ca664f19a84943bbb28394c146ec1298554144aaa7764c589de35153fb792"
+          },
+          {
+            "path": "Lean/GUFormalization/EndpointHessianSeparation.lean",
+            "sha256": "53334ef2490438fc99dc387361f184d38379346a90561ba7640a1c874575dc36"
+          }
+        ],
+        "verifier": {
+          "command": "lake",
+          "args": [
+            "env",
+            "lean",
+            "-j1",
+            "Lean/GUFormalization/EndpointHessianSeparation.lean"
+          ]
+        },
+        "receipt_ref": "lab/process/printed-shiab-endpoint-audit.json#verification",
+        "scope": "Inherited hashes are not fresh executions; only finite separation core newly compiled."
+      },
+      "excluded_classes": [
+        {
+          "class": "Dimension14 full Dirac128 and full real u(H), Spin-compatible nondegenerate Hermitian form, ordinary matrix connection, fixed pointwise real-linear full-Spin S: adjoint2forms to adjoint13forms, fixed nondegenerate trace/topform pairing. Exact endpoint R0+a S d_B T+b S(T wedge T)+J T with both scalar coefficients nonzero and J symmetric, on any open full primitive-translation field neighborhood.",
+          "premises": "All fixed/common-map/trace/full-tangent hypotheses",
+          "scope": "Exact Euler covector, not zero-set equivalence",
+          "certificate": "explorations/conditional-build/printed-shiab-endpoint-audit-2026-11-27.md"
+        },
+        {
+          "class": "All fixed smooth invertible fullSpin-equivariant zero-order maps on the13form covector carrier",
+          "premises": "Same fixed sourceS and full tangent; multiplier on covectors, no masssym required after multiplication",
+          "scope": "Exact variationality of ME",
+          "certificate": "explorations/conditional-build/printed-shiab-endpoint-audit-2026-11-27.md#61-fixed-equivariant-zero-order-multipliers-are-excluded-too"
+        },
+        {
+          "class": "Every fixed smooth pointwise invertible real-linear zero-order multiplier on the same adjoint13form covector carrier; no multiplier equivariance or positivity assumed. OriginalS remains fullSpin.",
+          "premises": "OriginalS fullSpin, full tangent, common fixedS, invertible zeroorderM",
+          "scope": "Exact variationality of ME; no MSpin or multiplied-masssym premise",
+          "certificate": "explorations/conditional-build/printed-shiab-endpoint-audit-2026-11-27.md#62-the-multiplier-need-not-preserve-spin-symmetry"
+        }
+      ],
+      "survivors": [
+        {
+          "class": "ZeroS, with no nonzero curvature response",
+          "scope": "No viability credit; see report"
+        },
+        {
+          "class": "Different equations or genuine premise changes, without viability credit",
+          "scope": "No viability credit; see report"
+        },
+        {
+          "class": "W2 actual stationary branches, distinct from printed endpoint",
+          "scope": "No viability credit; see report"
+        }
+      ],
+      "dead_end_refs": [
+        "lab/process/printed-shiab-endpoint-audit.json#follow_through.dead_end_memory"
+      ]
     }
   ]
 }

@@ -1788,7 +1788,7 @@
     },
     "LB-CLASS": {
       "zero_delta_streak": 0,
-      "runs": 49,
+      "runs": 50,
       "status": "open"
     },
     "LB-LADDER": {
@@ -2707,7 +2707,7 @@
   ],
   "program_run_counter": {
     "since": "2026-11-09",
-    "count": 93,
+    "count": 94,
     "rule": "Every hourly run increments this in its postflight, whatever its lane. Lane C runs when count % 4 == 3 before the increment."
   },
   "working_rule": "Cells are worked at the structure level: a requirement must hold for every action in class C or for a structurally defined subfamily. No cell is worked by writing down a specific action, and no gated cell is worked by building its gate object. See CURRENT-STATE.yaml program_focus.structure_not_specifics.",
@@ -3547,6 +3547,22 @@
       ],
       "claim_effect": "Scoped architecture evidence only; no matrix cell/intersection/shrinkage, source/ledger/canon/C or paper verdict.",
       "cadence_note": "One B scientific wave; LBCLASS48to49, no betcredit."
+    },
+    {
+      "date": "2026-11-27",
+      "authority": "joe_direct_chat_2026_11_27_c",
+      "item": "Printed endpoint any-functional corollary and source audit",
+      "tier": "T1",
+      "counter_before": 93,
+      "counter_after": 94,
+      "lane": "LB-CLASS",
+      "actual_delta": "Any C2 functional with the prescribed full-translation Euler covector forces S=0. Every nonzero well-typed member of the displayed invariant-Phi family is excluded from that exact variational correspondence, without selecting its unresolved coefficients.",
+      "evidence": [
+        "explorations/conditional-build/printed-shiab-endpoint-audit-2026-11-27.md",
+        "lab/process/printed-shiab-endpoint-audit.json"
+      ],
+      "claim_effect": "Source-facing candidate finding; no source/canon/physics-ledger/classC verdict. One evidence-only delta proposed.",
+      "cadence_note": "One scientificB,LBCLASS49to50; no betcredit."
     }
   ],
   "directed_lc_carry_2026_11_24_b": {
@@ -3931,7 +3947,9 @@
           "explorations/conditional-build/source-action-endpoint-cubic-2026-11-27.md",
           "lab/process/source-action-endpoint-cubic.json",
           "explorations/conditional-build/full-shiab-variational-consistency-2026-11-27.md",
-          "lab/process/full-shiab-consistency.json"
+          "lab/process/full-shiab-consistency.json",
+          "explorations/conditional-build/printed-shiab-endpoint-audit-2026-11-27.md",
+          "lab/process/printed-shiab-endpoint-audit.json"
         ],
         "choices": "Historical original choices are retained below; current held fermion repair is SE=-1/2 (SE0 superseded), kappa1 with two unselected roots. Typed candidate_choice_budget separates core/completion/pending/comparator/parked choices.",
         "wave2_update": {
@@ -5243,7 +5261,7 @@
           },
           "choice_effect": "none",
           "next": {
-            "status": "ready_bounded_source_instantiation_audit",
+            "status": "consumed_by_printed_endpoint_audit",
             "target": "LB-CLASS",
             "question": "Which already-owned nonzero witnesses instantiate the exact displayed Phi basis/product choices and common typed operator? Attribute them without a new census, normalization calculation or generic symmetry check.",
             "reuse_first": "Use owned K77-B normalization/product fixtures, B2/B3 witnesses, source invariant-Phi definition and explicit Tr in9.4. Source-selection/basis/product attribution remains distinct from mathematical nonzeroness.",
@@ -5266,7 +5284,56 @@
                 "explorations/resolver-wave-k77b-source-bracket-displayed-shiab-b1-variation-2026-08-04.md",
                 "explorations/conditional-build/full-shiab-variational-consistency-2026-11-27.md#10-source-relevance-and-the-remaining-bridge"
               ]
-            }
+            },
+            "consumed_evidence": "lab/process/printed-shiab-endpoint-audit.json"
+          }
+        },
+        "printed_endpoint_addendum": {
+          "result": "Any C2 functional with the prescribed full-translation Euler covector forces S=0. Every nonzero well-typed member of the displayed invariant-Phi family is excluded from that exact variational correspondence, without selecting its unresolved coefficients.",
+          "evidence": [
+            "explorations/conditional-build/printed-shiab-endpoint-audit-2026-11-27.md",
+            "lab/process/printed-shiab-endpoint-audit.json"
+          ],
+          "scope": {
+            "status": "conditional",
+            "reason": "The literal fixed-Phi first-action/9.7 correspondence supplies the premises for its well-typed nonzero members. Unique Phi/product selection is not needed for this universal implication. Exhaustiveness over broader faithful GU constructions or mere equation-zero-set formulations is not established."
+          },
+          "choice_effect": "none",
+          "next": {
+            "status": "ready_bounded_source_observation_conditionality_audit",
+            "target": "LB-CLASS",
+            "question": "Which conditions behind RA-B1..B5 and AC-D1..D5 are fixed by the actual source observation/branching data, and which still require an admitted physical carrier or domain?",
+            "expected_delta": "Discharge any already-owned structural embedding condition, or name the exact missing physical carrier; no repeat of branching/anomaly arithmetic and no invented projector.",
+            "source_relevance": "Tests the source-to-observed module bridge behind the positive fits, independently of failed first-action endpoint fidelity.",
+            "reuse_first": [
+              "lab/process/conditional-physics-ledger-v0.263.json",
+              "lab/active-research/joe-directed/ledger-advancement/la3-chiral-16-shadow-is-a-comparator-and-the-grant-is-inert-2026-08-15.md",
+              "lab/process/action-constraint-matrix.json#source_relevance_assumption_view.shared_prerequisites",
+              "explorations/conditional-build/source-premise-custody-2026-11-25.md"
+            ],
+            "outcomes": [
+              "Existing observation evidence fixes a structural condition: attach its proof without granting a physical count or action-derived realization.",
+              "Native physical carrier/quotient/domain is still unprovided: close this bounded prerequisite audit and rerank; do not manufacture source authority or stop all research.",
+              "A source-admitted actual induced representation violates a row-specific functional: test that precise source bridge with full review."
+            ],
+            "remaining_cost": "One reuse-led source/observation audit before any computation; judgment, not measurement.",
+            "strongest_alternative": "Retarget diagnostics at a supplied printed-endpoint solution locus only after identifying its operator; W2 finite normalization lower until an actual source-selected reference requires it.",
+            "shared_prerequisite": "Admitted observed carrier, observation map and grading, not merely abstract16 arithmetic.",
+            "consumed_prior_next": "Fixed multiplier extension finished analytically in this wave; no separate run or counter."
+          },
+          "fixed_multiplier_corollary": {
+            "state": "ESTABLISHED_with_declared_scope",
+            "ref": "explorations/conditional-build/printed-shiab-endpoint-audit-2026-11-27.md#61-fixed-equivariant-zero-order-multipliers-are-excluded-too",
+            "class": "All fixed smooth invertible fullSpin-equivariant zero-order maps on the13form covector carrier",
+            "proof": "Sprime=MS inherits cubic classification. Formal symmetry gives skew-transpose leading symbol; since it kills traceless inputs its image is central. Decomposable spanning and Spin parity yield Sprime=0 then S=0. Zero-order mass need not be symmetric after multiplication.",
+            "claim_limit": "Not field-dependent/differential/non-equivariant/noninvertible multipliers or changed physical quotient."
+          },
+          "arbitrary_fixed_multiplier_corollary": {
+            "state": "ESTABLISHED_with_declared_scope",
+            "ref": "explorations/conditional-build/printed-shiab-endpoint-audit-2026-11-27.md#62-the-multiplier-need-not-preserve-spin-symmetry",
+            "class": "Every fixed smooth pointwise invertible real-linear zero-order multiplier on the same adjoint13form covector carrier; no multiplier equivariance or positivity assumed. OriginalS remains fullSpin.",
+            "proof": "Cubic preSpin classification Sprime=C tensorId on sl; invertibility preserves originalSpin-invariant kernel, forcing kerC invariant. IrreducibleLambda2 dim91 versus output14 kills C. Symbol centrality plus rank preservation gives rank originalS on central input<=14; equivariance gives rank0or91, hence0.",
+            "claim_limit": "Does not exclude Tdependent/differential/nonlocal/noninvertible maps, altered physical domain/tangent, different equations or nonSpin originalS."
           }
         }
       }

@@ -1,0 +1,470 @@
+{
+  "basis_revision": "da26367e6fe6410d1956ae50c77364ecaf609208",
+  "authority": "joe_direct_chat_2026_11_27_c",
+  "considerations": "joe_direct_chat_2026_11_27_f",
+  "status": "internal_T1_printed_endpoint_and_arbitrary_fixed_multiplier_obstruction_reviewed",
+  "program_target": "LB-CLASS",
+  "tier": "T1",
+  "actual_delta": "Any C2 functional with the prescribed full-translation Euler covector forces S=0. Every nonzero well-typed member of the displayed invariant-Phi family is excluded from that exact variational correspondence, without selecting its unresolved coefficients.",
+  "class_covered": "Dimension14 full Dirac128 and full real u(H), Spin-compatible nondegenerate Hermitian form, ordinary matrix connection, fixed pointwise real-linear full-Spin S: adjoint2forms to adjoint13forms, fixed nondegenerate trace/topform pairing. Exact endpoint R0+a S d_B T+b S(T wedge T)+J T with both scalar coefficients nonzero and J symmetric, on any open full primitive-translation field neighborhood.",
+  "source_bridge": {
+    "status": "conditional",
+    "reason": "The literal fixed-Phi first-action/9.7 correspondence supplies the premises for its well-typed nonzero members. Unique Phi/product selection is not needed for this universal implication. Exhaustiveness over broader faithful GU constructions or mere equation-zero-set formulations is not established."
+  },
+  "claim_effect": "Source-facing candidate finding; no source/canon/physics-ledger/classC verdict. One evidence-only delta proposed.",
+  "premise_registry_ref": "explorations/conditional-build/printed-shiab-endpoint-audit-2026-11-27.md#4-source-premise-registry-for-this-headline",
+  "source_attribution": {
+    "exact_correspondence": "Draft2021 p45eq9.7, first actionI1B; matrix trace p44eq9.4; p43eq9.3 fixed invariant-Phi tree.",
+    "not_a_premise": "9.12 differentiates I2B and is not a repeated first-action identity.",
+    "reference_connection": "A=nabla0+varpi, T=varpi-c held =>A=Bprime+T; no assumption Bprime equals every printed B.",
+    "products": "All well-typed fixed invariant/product choices quantified; raw associative type failure separate.",
+    "witness": "K77b lowPhi comm/comm/comm fixture1:0 vs-512, inherited not reexecuted, repo-instantiated not source-selected.",
+    "nonzero": "Any nonzero member fails the exact correspondence; zero cannot provide its proposed curvature response. No unique member reconstructed.",
+    "publication_flag": "External expert check before any source-negative paper release; no contact/release or waiting authority."
+  },
+  "proof_delta": [
+    "Compare Hessians at Tstar+tW and Tstar; fixed derivative and mass cancel, with no origin or star-shaped assumption.",
+    "Pointwise symmetry of the quadratic curvature term feeds the accepted complete derived-input theorem.",
+    "Traceless inputs killed implies L_T=0; remaining Hessian gives formal symmetry of common linear operator.",
+    "Central/traceless and Spin parity argument forces common S=0.",
+    "Radial integration explains weights only as an optional corollary; nonzero scalar coefficient changes cannot evade."
+  ],
+  "decision_record": {
+    "mandatory_basis": "OrdinaryB at93; no unfinishedT1; priority packets terminal/blocked. LB-CLASS.",
+    "lookup": "research_context --reuse Shiab, accepted full-Shiab theorem plus K77b/source13 custody.",
+    "premise_delta": "Remove own-action ansatz and separate quadratic/cubic derivative assertions; require only the exact total Euler covector of a C2 functional.",
+    "expected_delta": "Remove action-ansatz and unique-Phi-selection prerequisites from the whole fixed-linear endpoint exclusion.",
+    "actual_delta": "Any C2 functional with the prescribed full-translation Euler covector forces S=0. Every nonzero well-typed member of the displayed invariant-Phi family is excluded from that exact variational correspondence, without selecting its unresolved coefficients.",
+    "forecast_cost": "One written corollary/source synthesis and finite cancellation check; no native matrix/root census.",
+    "actual_cost": "Ten inherited scientific/source files checked identical to fetched basis, no old computation; one new finite Lean kernel compiled with no output, three independent reviews; fixed-multiplier extension proved rather than enumerated. A second kernel/rank argument removed multiplier equivariance in the same wave; no added scientific counter or choice family.",
+    "shared_leverage": "Eliminates coefficient/action and unique-Phi-selection deferrals for all nonzero displayed members, not all GU routes.",
+    "strongest_alternative": "Source-necessary finite normalization composition; conditional representation/anomaly arithmetic is already owned and the physical carrier premise remains.",
+    "outcomes": [
+      "Exact source correspondence plus nonzerofamily: close source-printed matched family.",
+      "Concrete premise mismatch: isolate it.",
+      "Unselected unique Phi: do not defer universal implication."
+    ]
+  },
+  "quick_math20": {
+    "reused_descriptions_ref": "lab/process/full-shiab-consistency.json#quick_math20",
+    "changed_insights": {
+      "category theory": "Equality of Euler covectors is stronger than equality of zero loci; keep the morphism typed.",
+      "number theory": "Nonzero scalar cancellation removes factor/sign convention distraction.",
+      "variational_calculus": "AnyC2 Hessian separation removes dependence on a proposed action formula.",
+      "representation_theory": "Quantification over invariant maps removes need to pick an executable Phi member."
+    },
+    "method": "Quick descriptions, not twenty agents or independent votes."
+  },
+  "choice_budget": {
+    "families": 10,
+    "obligations": 4,
+    "bookkeeping_net": 6,
+    "source_selected_predictions": 0,
+    "added_families": 0,
+    "new_obligation_credit": 0,
+    "ceiling": "Grouped monitoring inventory, not an independent source-required lower bound."
+  },
+  "three_state": {
+    "ESTABLISHED": "Any C2 functional with the prescribed full-translation Euler covector forces S=0. Every nonzero well-typed member of the displayed invariant-Phi family is excluded from that exact variational correspondence, without selecting its unresolved coefficients.",
+    "RULED_OUT": "All nonzero exact common-S endpoints in the declared architecture, including every fixed invertible zero-order covector multiplier, without requiring multiplier equivariance.",
+    "NOT_MODELED_UNDETERMINED": [
+      "All-GU necessity or classC representativeness",
+      "Genuine translation-dependent/differential/nonlocal or noninvertible multipliers, changed tangents/domains/equations, or loss of originalS fullSpin equivariance.",
+      "Different equations with same solutions, second-action dynamics and physical quotients",
+      "Unique numerical Phi/product selected by the source"
+    ]
+  },
+  "follow_through": {
+    "consumed": [
+      "Another source normalization/1/2/1/3 audit",
+      "Selecting a unique nonzeroPhi/product before stating the universal family consequence",
+      "Searching other nonzero fixed-linear fullSpin/fullU maps with the same exact endpoint",
+      "Classifying fixed invertible fullSpin zero-order multipliers; leading-symbol proof closes the entire family even with nonsymmetric mass",
+      "Arbitrary fixed invertible zero-order multiplier classification: invariant-kernel and91versus14 rank proof closes it without a census"
+    ],
+    "survivors": [
+      "ZeroS, with no nonzero curvature response",
+      "Different equations or genuine premise changes, without viability credit",
+      "W2 actual stationary branches, distinct from printed endpoint"
+    ],
+    "next": {
+      "status": "ready_bounded_source_observation_conditionality_audit",
+      "target": "LB-CLASS",
+      "question": "Which conditions behind RA-B1..B5 and AC-D1..D5 are fixed by the actual source observation/branching data, and which still require an admitted physical carrier or domain?",
+      "expected_delta": "Discharge any already-owned structural embedding condition, or name the exact missing physical carrier; no repeat of branching/anomaly arithmetic and no invented projector.",
+      "source_relevance": "Tests the source-to-observed module bridge behind the positive fits, independently of failed first-action endpoint fidelity.",
+      "reuse_first": [
+        "lab/process/conditional-physics-ledger-v0.263.json",
+        "lab/active-research/joe-directed/ledger-advancement/la3-chiral-16-shadow-is-a-comparator-and-the-grant-is-inert-2026-08-15.md",
+        "lab/process/action-constraint-matrix.json#source_relevance_assumption_view.shared_prerequisites",
+        "explorations/conditional-build/source-premise-custody-2026-11-25.md"
+      ],
+      "outcomes": [
+        "Existing observation evidence fixes a structural condition: attach its proof without granting a physical count or action-derived realization.",
+        "Native physical carrier/quotient/domain is still unprovided: close this bounded prerequisite audit and rerank; do not manufacture source authority or stop all research.",
+        "A source-admitted actual induced representation violates a row-specific functional: test that precise source bridge with full review."
+      ],
+      "remaining_cost": "One reuse-led source/observation audit before any computation; judgment, not measurement.",
+      "strongest_alternative": "Retarget diagnostics at a supplied printed-endpoint solution locus only after identifying its operator; W2 finite normalization lower until an actual source-selected reference requires it.",
+      "shared_prerequisite": "Admitted observed carrier, observation map and grading, not merely abstract16 arithmetic.",
+      "consumed_prior_next": "Fixed multiplier extension finished analytically in this wave; no separate run or counter."
+    },
+    "dead_end_memory": "Do not spend a wave selecting an element of an already universally excluded nonzero family. Source covariance belongs to a fixed displayed tree, not arbitrary moving extra tensors."
+  },
+  "consideration_disposition": {
+    "adopt_within_current_work": "Source-printed priority, exact-equation fidelity distinction, inline source-premise registry, shared prerequisite leverage and source-custody retrospective. No new governance.",
+    "reuse_not_duplicate": "Existing assumption view and opportunity register own shared route facts; a future read-only six-pillar projection may render them, not create another truth store.",
+    "positive_counterpart": "AC-D1..D5 already have conditional16 anomaly arithmetic; RA-B1..B5 selected embedding remains a premise. Repeating arithmetic does not prove physical observation. Keep fit and dynamics verdicts separate.",
+    "deferred_for_VOI": "Full SAME dossier, comparative literature and new comparator implementations do not decide the present explicit source correspondence. No backlog or implicit work order created.",
+    "ledger": "One coherent LT-GR1 evidence-only delta now; broader post-v0.263 evidence requires scoped row-by-row custody, not blind bulk import."
+  },
+  "retrospective": {
+    "trigger": "Prior first/second-action citation self-correction",
+    "failure": "Grouped9.7 and9.12 by derivative notation without owning functional.",
+    "repair": "Source table records equation, page and action owner;9.12 explicitly excluded. Existing convention gate, no policy edit.",
+    "effect": "Two redundant investigations consumed. Wall-time/token savings unmeasured."
+  },
+  "verification": {
+    "inherited_dependencies": [
+      {
+        "path": "explorations/conditional-build/full-shiab-variational-consistency-2026-11-27.md",
+        "sha256": "0b0113ec030b5069c3688f6a9ab49032d46b80b590637ab1c39645a4349bbb0a",
+        "state": "unchanged_from_fetched_basis",
+        "fresh_execution": false
+      },
+      {
+        "path": "lab/process/full-shiab-consistency.json",
+        "sha256": "80911ea5fbdc485c5eb613e6993c4cb31f724467a0ad823dab09432f6d5fa8f2",
+        "state": "unchanged_from_fetched_basis",
+        "fresh_execution": false
+      },
+      {
+        "path": "lab/process/full-shiab-consistency-certificates.json",
+        "sha256": "a279b8afec2df41da4b6ea06309435c8f89199239b371def38e54d309237275c",
+        "state": "unchanged_from_fetched_basis",
+        "fresh_execution": false
+      },
+      {
+        "path": "Lean/GUFormalization/FullShiabConsistency.lean",
+        "sha256": "a2c0c0ac7123b6c73c12e58f0f6c046b97f10aa9cb07b28153690b2b054be604",
+        "state": "unchanged_from_fetched_basis",
+        "fresh_execution": false
+      },
+      {
+        "path": "explorations/conditional-build/riemann-realform-transfer-2026-11-27.md",
+        "sha256": "39f6ad6678ac9524f1ab68a24e65ab3a577003c6ef500344b5bf84445366b222",
+        "state": "unchanged_from_fetched_basis",
+        "fresh_execution": false
+      },
+      {
+        "path": "explorations/conditional-build/source-prescription-current-2026-11-13.md",
+        "sha256": "6ec3109bb811e49463228b8a7a780303260997c6622baa48b213aa07558e7194",
+        "state": "unchanged_from_fetched_basis",
+        "fresh_execution": false
+      },
+      {
+        "path": "explorations/resolver-wave-k77b-source-bracket-displayed-shiab-b1-variation-2026-08-04.md",
+        "sha256": "d164d5f1bfcd9cee61474d9da8dcf48fe96fd00e075f7b6e133dd9d28110f081",
+        "state": "unchanged_from_fetched_basis",
+        "fresh_execution": false
+      },
+      {
+        "path": "tests/channel-swings/resolver_wave_k77b_source_bracket_displayed_shiab_b1_variation_probe.py",
+        "sha256": "f8eed5ac8acae62a415ec570336a622c9fcd40a363ed37b7b83d5ad740c0e39c",
+        "state": "unchanged_from_fetched_basis",
+        "fresh_execution": false
+      },
+      {
+        "path": "lab/process/resolver-wave-k77b-source-bracket-displayed-shiab-b1-variation.json",
+        "sha256": "ecfd503c3664b808770f755c1a8ea4a3daa04ba590a22d177875385fa89904d5",
+        "state": "unchanged_from_fetched_basis",
+        "fresh_execution": false
+      },
+      {
+        "path": "lab/sources/source-claim-register.yaml",
+        "sha256": "dc3ae173b4cc0eb2a0e343e3d92d5f110b8e4f6eef3e2852a1e897ab4371ade6",
+        "state": "unchanged_from_fetched_basis",
+        "fresh_execution": false
+      }
+    ],
+    "dependency_check": "Exact equality to fetched basis for ten files; recorded old execution not fresh replay.",
+    "lean": {
+      "command": "lake env lean -j1 /private/tmp/gu-printed-endpoint-audit-wt-20261127/Lean/GUFormalization/EndpointHessianSeparation.lean",
+      "cwd": "Mounted GU cached environment",
+      "exit_code": 0,
+      "output": "",
+      "fresh_execution": true,
+      "scope": "Two finite cores: affine cancellation and rank<=14 with rank0or91. Smooth/localization, irreducibility, invariant-kernel and full source proof remain written/reviewed.",
+      "toolchain_sha256": "72681913b978b3f7c2f48229836771f736f6e97d833917726b2263afbc6108ed",
+      "manifest_sha256": "bec56f5d3bd033a5060fd2ec0e9b7a9457bb559395b8e562370dddf01caf6607"
+    },
+    "reviews": [
+      {
+        "role": "math",
+        "receipt_sha256": "3b5d1828dd13ea2e9fd3e85b5515575ef1de584dc6248e4a9a748b3e7f6ca2c3",
+        "receipt": {
+          "reviewer": "/root/q7_propagation_hostile, independent mathematical specialist for this wave",
+          "accepted": true,
+          "report_sha256": "829ca664f19a84943bbb28394c146ec1298554144aaa7764c589de35153fb792",
+          "lean_sha256": "53334ef2490438fc99dc387361f184d38379346a90561ba7640a1c874575dc36",
+          "inherited_theorem_sha256": "0b0113ec030b5069c3688f6a9ab49032d46b80b590637ab1c39645a4349bbb0a",
+          "inherited_manifest_sha256": "a279b8afec2df41da4b6ea06309435c8f89199239b371def38e54d309237275c",
+          "bindings": {
+            "explorations/conditional-build/printed-shiab-endpoint-audit-2026-11-27.md": "829ca664f19a84943bbb28394c146ec1298554144aaa7764c589de35153fb792",
+            "Lean/GUFormalization/EndpointHessianSeparation.lean": "53334ef2490438fc99dc387361f184d38379346a90561ba7640a1c874575dc36",
+            "explorations/conditional-build/full-shiab-variational-consistency-2026-11-27.md": "0b0113ec030b5069c3688f6a9ab49032d46b80b590637ab1c39645a4349bbb0a",
+            "Lean/GUFormalization/FullShiabConsistency.lean": "a2c0c0ac7123b6c73c12e58f0f6c046b97f10aa9cb07b28153690b2b054be604",
+            "lab/process/full-shiab-consistency-certificates.json": "a279b8afec2df41da4b6ea06309435c8f89199239b371def38e54d309237275c",
+            "tests/program-focus/full_shiab_consistency_probe.py": "db6587eadd2524d3377a85b119c3af5628e1d7e57ac0a3cd94ac633c50beb1f1",
+            "explorations/conditional-build/riemann-realform-transfer-2026-11-27.md": "39f6ad6678ac9524f1ab68a24e65ab3a577003c6ef500344b5bf84445366b222",
+            "lab/process/riemann-realform-transfer-certificates.json": "fd1fb9cbd30d349e6c9e78c25fbe94d4fb56a62df544bc53318375b982d99e28",
+            "explorations/conditional-build/source-prescription-current-2026-11-13.md": "6ec3109bb811e49463228b8a7a780303260997c6622baa48b213aa07558e7194",
+            "explorations/resolver-wave-k77b-source-bracket-displayed-shiab-b1-variation-2026-08-04.md": "d164d5f1bfcd9cee61474d9da8dcf48fe96fd00e075f7b6e133dd9d28110f081",
+            "lab/process/resolver-wave-k77b-source-bracket-displayed-shiab-b1-variation.json": "ecfd503c3664b808770f755c1a8ea4a3daa04ba590a22d177875385fa89904d5",
+            "tests/channel-swings/resolver_wave_k77b_source_bracket_displayed_shiab_b1_variation_probe.py": "f8eed5ac8acae62a415ec570336a622c9fcd40a363ed37b7b83d5ad740c0e39c",
+            "lab/sources/weinstein-gu-primary-source-pack-2026-07-30.md": "7b37925b0342c9495dc1706a39c0f2e9569e64a1352a3221814a2b0c9b9c2999",
+            "lab/sources/gu-moving-shiab-epsilon-green-source-reinspection-2026-08-05.md": "1bd86b22300778f79c82fd17dafe56ef9a6aab2f76dcf7e4510fa5589a984e18",
+            "lab/sources/source-claim-register.yaml": "dc3ae173b4cc0eb2a0e343e3d92d5f110b8e4f6eef3e2852a1e897ab4371ade6"
+          },
+          "acceptance_scope": "The stated fixed common-S endpoint cannot be the exact Euler covector of a C2 functional on any open full primitive-translation neighborhood unless S=0. Sections6.1\u20136.2 extend this to every fixed smooth pointwise invertible real-linear zero-order covector multiplier, without multiplier equivariance or multiplied-mass symmetry. Original S full-Spin equivariance remains essential. Conditional source-facing architecture finding, not a GU/class-C/physical or source-register verdict.",
+          "own_checks": [
+            "Read the final report, its new affine-pairing Lean lemma, the inherited full-Shiab proof, real-form adapter, primitive C1/C2 source dictionary, K77-B report and relevant original witness-producing functions. No scientific code was executed.",
+            "Independently derived the arbitrary-neighborhood argument: choose an admitted T*, subtract its Hessian identity from T*+tW for each compact W and sufficiently small nonzero t, cancel every fixed differential/mass term, and use compact-test freedom to obtain pointwise symmetry of the quadratic derivative. Neither T=0 nor a star-shaped neighborhood is needed.",
+            "Checked that variable held S coefficients, density and smooth nonvanishing scalar curvature coefficients cannot mix the T degrees. Formal-adjoint coefficient derivatives cancel in the two-background difference; b divides pointwise, and the remaining formally symmetric differential map is aS d_B.",
+            "Checked reuse of the inherited full matrix-unit/quasicentroid and Spin proof gives annihilation of all traceless curvature inputs. The resulting L_T vanishes at arbitrary T*, leaving the required linear formal symmetry. Central/traceless trace orthogonality, Spin parity and spanning exterior symbols then give S=0.",
+            "Checked the radial integration formula independently: a specified linear/quadratic Euler covector forces the one-half/one-third potential coefficients where a radial chart is available. This is explanatory only and not a restriction of the arbitrary-neighborhood proof.",
+            "Checked Bprime=A-T=nabla0+c at held epsilon and metric using the owned affine primitive definitions. It is fixed and a connection because c is an adjoint one-form. The ordinary curvature expansion uses the same S on both degrees and does not identify or resolve historical B notation by fiat.",
+            "Independently checked the section6.1 extension: Sprime=M S retains the cubic class; after traceless-input annihilation, formal symmetry of aSprime d_B+MJ forces the leading derivative symbol to be skew-transpose. Its kernel contains every traceless one-form, so its image is central. Decomposable two-form inputs span, Spin parity kills the central-to-central map, and invertible M implies S=0. No symmetry of MJ is assumed; M/density derivatives and MJ are lower order.",
+            "Checked multiplier scopes: section6.1 uses full-Spin M; section6.2 removes that restriction while retaining fixed-in-T, smooth, pointwise-invertible, zero-order action on the same real covector carrier. Escape/frontmatter wording now treats fixed pointwise nondegenerate pairing changes through such M as covered.",
+            "Read K77-B sections2/4/5 and code phi_low/raw_shiab_parts/pair_top/T_FIXTURES/exactness_rows. The second fixture, index1, records comm/comm/comm direct0 versus endpoint minus512 for the total map. This is a nonzero repository-instantiated member, not a uniquely source-selected member; universal quantification removes the need for a selector in the class implication. The old calculation was not rerun.",
+            "Checked the source-custody use distinguishes first-action9.7 from second-action9.12 and keeps the primitive tangent, common Phi map, trace pairing and invariant grammar explicit. Primary PDF authentication is inherited from owned/dedicated source reviews; this review did not newly verify the PDF.",
+            "Read both new finite Lean proofs: affine_pairing_separation checks nonzero scalar cancellation; rank_gap_zero checks rank<=14 and rank in{0,91} imply rank0. Neither formalizes irreducibility, tensor-kernel invariance, functional openness or source attribution. No placeholder is present. Root reports the final two-core compilation PASS with no output; this reviewer did not execute Lean.",
+            "Authenticated the current report/Lean and thirteen inherited/source dependency files. The inherited theorem/probe/certificate/Lean hashes match the previously accepted independent receipt. The accepted scope preserves exact Euler-covector versus zero-set distinctions and makes no world-novelty or physical prediction claim.",
+            "Independently proved the arbitrary-M extension before reading its integration: the cubic classification before its final Spin step gives Sprime|W=C tensor Id_sl. Invertibility yields ker(Sprime|W)=ker(S|W). Original S equivariance and invariance of W make ker C tensor sl invariant. Applying a dual functional on the nonzero sl factor (or using infinitesimal cancellation) proves ker C invariant; no Sprime or M equivariance is assumed.",
+            "Checked Lambda2 V is the irreducible91-dimensional complex so14 adjoint module, while C has14-dimensional target. Its nonzero invariant kernel must be all of Lambda2, so C=0. The principal-symbol argument then gives rank(Sprime on central input)<=14. Invertibility preserves rank; original equivariant S on the irreducible91-dimensional central input has rank0 or91, hence rank0. Together with traceless inputs this proves S=0.",
+            "Checked smooth x-dependent arbitrary real M complexifies invertibly and contributes only lower-order coefficient terms after the T-degree subtraction. Noninvertibility, field dependence, differential/nonlocal multipliers or loss of original S equivariance defeat specific proof premises and remain explicitly outside.",
+            "Final strengthening rebind includes the integrated section6.2 proof, two-core Lean file, routine body routing YAML and supported action_owner token. Reauthenticated all thirteen unchanged inherited/source bindings. The earlier fixed-equivariant receipt is superseded by this broader, explicitly qualified mathematical acceptance."
+          ],
+          "caveats": [
+            "The complete functional, representation, fundamental-lemma, source and principal-symbol/rank arguments are reviewed written proofs. The two new Lean cores only check affine scalar cancellation and the final natural-number rank gap.",
+            "Exact Euler-covector equality remains essential, but every fixed invertible real-linear zero-order multiplier on the same carrier is now excluded, including non-equivariant ones. General identical-zero-set formulations, T-dependent/differential/nonlocal multipliers, noninvertible projections and restricted tangent spaces are outside, not established repairs.",
+            "The common fixed pointwise-linear full-Spin ORIGINAL S, full-u(H)/full-Dirac carrier, ordinary d_B, full local primitive variations and both nonzero curvature degrees are material. The arbitrary-M extension needs no symmetry of M or MJ. Genuine moving/derivative S introduces additional terms and is not covered.",
+            "The source family implication is universal for every well-typed nonzero member; the K77-B witness is not a selected source operator. S=0 remains variationally permitted and supplies no Shiab curvature response. Exhaustiveness over every faithful GU construction is unproved.",
+            "W2 stationary and instability results concern its actual differentiated Euler system and are neither invalidated nor promoted to GU exclusions.",
+            "No independent primary-PDF authentication, old native replay, fresh spectral calculation or external peer review was performed. Root-reported Lean execution is distinguished from reviewer code inspection."
+          ],
+          "not_run": [
+            "Scientific or finite-control execution",
+            "Inherited native/Sage/Clifford witness replay",
+            "Lean compilation",
+            "New source PDF/web authentication",
+            "Owner repository edits",
+            "Physics/source/canon verdict changes"
+          ],
+          "preparation_notes": {
+            "/private/tmp/gu-printed-shiab-helmholtz-corollary-20261127.md": "4660740a7f0049f065b0ce9f6a04b2664725b75438604324346f79d7557c336f",
+            "/private/tmp/gu-printed-shiab-fixed-multiplier-symbol-check-20261127.md": "99c5a5c1b4a2e4b950af531554b8d5832822f3769423b75356e5b1d407161438",
+            "/private/tmp/gu-printed-shiab-arbitrary-multiplier-rank-check-20261127.md": "28550ec9c3141191495e647ade2f73944e58628ba8693c3dbdaf02fb21abc590"
+          },
+          "lean_execution_custody": "Root reports the final two-core target compiled PASS with no output; reviewer read-only audit, no compilation.",
+          "strengthening_rebind": {
+            "previous_report_sha256": "a7a879446e944ef4172d8fc63b85d10959ed67ad306bc73cc34b86992f2abc45",
+            "previous_lean_sha256": "d978244260375e27bdb8ec0eea6ea35409785cea7593789a41c8d46bdf5a350c",
+            "new_scope": "All fixed smooth pointwise-invertible real-linear zero-order covector multipliers, with original S equivariant; section6.2 rank proof",
+            "inherited_dependencies_unchanged": true
+          }
+        }
+      },
+      {
+        "role": "source",
+        "receipt_sha256": "72682a2c4e94de84f1f92cf715bea25b3621da0d04449a98603b00d5ae9bac64",
+        "receipt": {
+          "accepted": true,
+          "review_role": "independent source/global specialist",
+          "tier": "T1",
+          "report_sha256": "829ca664f19a84943bbb28394c146ec1298554144aaa7764c589de35153fb792",
+          "lean_sha256": "53334ef2490438fc99dc387361f184d38379346a90561ba7640a1c874575dc36",
+          "inherited_source_sha256": {
+            "explorations/conditional-build/full-shiab-variational-consistency-2026-11-27.md": "0b0113ec030b5069c3688f6a9ab49032d46b80b590637ab1c39645a4349bbb0a",
+            "explorations/conditional-build/riemann-realform-transfer-2026-11-27.md": "39f6ad6678ac9524f1ab68a24e65ab3a577003c6ef500344b5bf84445366b222",
+            "explorations/conditional-build/source-prescription-current-2026-11-13.md": "6ec3109bb811e49463228b8a7a780303260997c6622baa48b213aa07558e7194",
+            "explorations/resolver-wave-k77b-source-bracket-displayed-shiab-b1-variation-2026-08-04.md": "d164d5f1bfcd9cee61474d9da8dcf48fe96fd00e075f7b6e133dd9d28110f081",
+            "tests/channel-swings/resolver_wave_k77b_source_bracket_displayed_shiab_b1_variation_probe.py": "f8eed5ac8acae62a415ec570336a622c9fcd40a363ed37b7b83d5ad740c0e39c",
+            "lab/process/resolver-wave-k77b-source-bracket-displayed-shiab-b1-variation.json": "ecfd503c3664b808770f755c1a8ea4a3daa04ba590a22d177875385fa89904d5",
+            "lab/sources/weinstein-gu-primary-source-pack-2026-07-30.md": "7b37925b0342c9495dc1706a39c0f2e9569e64a1352a3221814a2b0c9b9c2999",
+            "lab/sources/source-claim-register.yaml": "dc3ae173b4cc0eb2a0e343e3d92d5f110b8e4f6eef3e2852a1e897ab4371ade6"
+          },
+          "own_checks": [
+            "Read complete new report and finite Lean lemma; re-read November13 primitive audit sections1\u20132 and inherited K77-B witness definitions/results.",
+            "Confirmed held epsilon/metric primitive variation is delta varpi=alpha, delta A=alpha and delta T=alpha. Common epsilon representation transport does not replace this with a different restricted tangent.",
+            "Checked affine A=Bprime+T with Bprime=nabla0+c follows without identifying old printed B notation; ordinary curvature then has the same fixed S on both linear and quadratic translation degrees.",
+            "Checked two-background Hessian subtraction isolates the cubic derivative on arbitrary open full-translation neighborhoods; fixed differential coefficients and density cancel. Formal symmetry of the linear part then uses the inherited central/traceless and Spin parity classification.",
+            "Checked displayed invariant-Phi, trace, normalization and translation source custody is reused; eq9.7 belongs to first action and eq9.12 to second.",
+            "Checked low-Phi comm/comm/comm witness endpoint minus512 is attributed to repository construction and not uniquely selected source data. Universal nonzero-family exclusion does not depend on selecting a product triple or ambient Einstein ratio.",
+            "Checked finite Lean statement proves only affine pairing separation, retaining analytical and source premises outside formalization.",
+            "Reviewed new section6.1 multiplier corollary: fixed equivariant Sprime=M S inherits cubic classification; skew-transpose first-order principal symbol forces central image independently of zero-order M J; Spin parity then kills Sprime and pointwise injectivity of M kills S. Verified stale scope statements were qualified to multipliers outside section6.1.",
+            "Reviewed section6.2: arbitrary fixed invertible real-linear M complexifies; equality of restricted kernels transports original S equivariance to ker C; invertibility of the internal conjugation factor gives external kernel invariance. Irreducible Lambda2 dimension91 versus output14 kills C. Leading-symbol centrality bounds the original equivariant central-input restriction rank by14, while irreducibility forces rank0 or91, hence zero. Read the second Lean core as arithmetic only, not proof of irreducibility.",
+            "Final scope-only rebind: kill_condition pairing exception limited to outside sections6.1\u20136.2; inverse edit reproduces prior accepted report hash exactly. Lean unchanged; root compilation PASS attributed, not independently executed."
+          ],
+          "scope": "Accept the conditional exact-Euler-covector exclusion for every nonzero well-typed fixed-Phi full-U member and every fixed smooth invertible real-linear zero-order covector multiplier on the same carrier, without requiring multiplier equivariance or symmetry. No source-register, canon, physics-ledger, class-C or GU-wide verdict promotion.",
+          "caveats": [
+            "Exact covector equality and original S full-Spin equivariance remain essential. T-dependent, differential/nonlocal multipliers, noninvertible projections, changed physical tangents/domains or genuinely nonlinear S remain outside this corollary and are not certified repairs. A PT Hilbert-domain construction is not settled by finite-dimensional pairing changes.",
+            "Nonzero displayed-family exclusion does not reconstruct a unique source-selected Phi basis or product choice. A zero map has no Shiab curvature response.",
+            "Inherited source-prescription report contains an older 9.12 phrasing; this receipt accepts the new report explicit action-owner distinction and uses its C1/C2 primitive formulas, not that older citation gloss.",
+            "Full matrix-unit, real-form and smooth formal-adjoint arguments remain inherited written proofs. The Lean core does not formalize the complete theorem.",
+            "The complete fixed invertible zero-order multiplier classification is consumed by section6.2, including arbitrary non-equivariant M; no multiplier census is required. Both finite Lean kernels leave the representation-theoretic and analytic premises to the written proof."
+          ],
+          "not_run": [
+            "Scientific probe execution or replay",
+            "Lean compilation",
+            "Native calculations, new census, broad source search",
+            "Owner edits, verdict changes or external publication"
+          ]
+        }
+      },
+      {
+        "role": "hostile",
+        "receipt_sha256": "2c2d91541fd5ebf6fb0eaad7bdff828f5c4abb677c6b07ade92503f510bcbf9f",
+        "receipt": {
+          "accepted": true,
+          "review_role": "independent hostile mathematical and source-scope T1 review",
+          "base_revision": "da26367e6fe6410d1956ae50c77364ecaf609208",
+          "bindings": {
+            "explorations/conditional-build/printed-shiab-endpoint-audit-2026-11-27.md": "829ca664f19a84943bbb28394c146ec1298554144aaa7764c589de35153fb792",
+            "Lean/GUFormalization/EndpointHessianSeparation.lean": "53334ef2490438fc99dc387361f184d38379346a90561ba7640a1c874575dc36",
+            "explorations/conditional-build/full-shiab-variational-consistency-2026-11-27.md": "0b0113ec030b5069c3688f6a9ab49032d46b80b590637ab1c39645a4349bbb0a",
+            "explorations/conditional-build/riemann-realform-transfer-2026-11-27.md": "39f6ad6678ac9524f1ab68a24e65ab3a577003c6ef500344b5bf84445366b222",
+            "explorations/conditional-build/source-prescription-current-2026-11-13.md": "6ec3109bb811e49463228b8a7a780303260997c6622baa48b213aa07558e7194",
+            "explorations/resolver-wave-k77b-source-bracket-displayed-shiab-b1-variation-2026-08-04.md": "d164d5f1bfcd9cee61474d9da8dcf48fe96fd00e075f7b6e133dd9d28110f081",
+            "tests/channel-swings/resolver_wave_k77b_source_bracket_displayed_shiab_b1_variation_probe.py": "f8eed5ac8acae62a415ec570336a622c9fcd40a363ed37b7b83d5ad740c0e39c",
+            "lab/process/resolver-wave-k77b-source-bracket-displayed-shiab-b1-variation.json": "ecfd503c3664b808770f755c1a8ea4a3daa04ba590a22d177875385fa89904d5",
+            "lab/sources/weinstein-gu-primary-source-pack-2026-07-30.md": "7b37925b0342c9495dc1706a39c0f2e9569e64a1352a3221814a2b0c9b9c2999",
+            "lab/sources/source-claim-register.yaml": "dc3ae173b4cc0eb2a0e343e3d92d5f110b8e4f6eef3e2852a1e897ab4371ade6"
+          },
+          "scope": "Accept the exact-covector theorem, universal nonzero well-typed displayed-family conclusion, and sections6.1-6.2 excluding every fixed smooth pointwise invertible real-linear zero-order covector multiplier, without multiplier Spin equivariance or multiplied-mass symmetry. The original S must remain full-Spin-equivariant. No source-register, canon, physics-ledger, class-C or GU-wide verdict is approved.",
+          "challenges": [
+            {
+              "issue": "Any C2 action versus the printed paired action",
+              "finding": "PASS. Two-background Hessian subtraction isolates the cubic derivative without requiring the origin or a globally star-shaped domain. The inherited whole-Shiab proof then kills traceless inputs. Formal symmetry of the remaining linear operator plus Spin parity kills the central survivor. Locality of the putative action is unnecessary."
+            },
+            {
+              "issue": "Variable coefficients and density",
+              "finding": "PASS. Fixed differential terms cancel in background subtraction. Full formal symmetry retains all coefficient/density derivatives. For nonvanishing scalar functions a,b the same reasoning applies to aS and pointwise separation; no matrix-transpose replacement occurs."
+            },
+            {
+              "issue": "Affine Bprime identity and primitive tangent",
+              "finding": "PASS. The authenticated primitive definitions A=nabla0+varpi and T=varpi-c(epsilon,g) give A=(nabla0+c)+T. Holding epsilon and metric fixes this Bprime; identifying it with every historical printed B notation is unnecessary. Full delta-varpi equals delta-T."
+            },
+            {
+              "issue": "Universal family versus unresolved source numerical selector",
+              "finding": "PASS. Quantifying every well-typed fixed invariant-Phi member avoids selecting an unprovided numerical member. The claim is conditional on nonzero response and the displayed architecture, not a reconstruction of the selected source operator. Raw associative-product codomain failure remains separate."
+            },
+            {
+              "issue": "Admissible nonzero witness",
+              "finding": "PASS by inherited custody, not replay. The native phi_low and raw_shiab_parts implement the two summed terms and their relative minus-half coefficient; T_FIXTURES[1] uses real adjoint one-forms. The owned report records total endpoint minus512 and direct variation0 for comm/comm/comm. It proves nonvacuity of a repository member, not source selection."
+            },
+            {
+              "issue": "Complete endpoint and other-field cancellation",
+              "finding": "PASS within stated endpoint. Reference term has zero Hessian, symmetric mass cancels, and independent metric/epsilon/matter rows cannot repair the necessary translation diagonal block. A genuinely additional endpoint term, dependent tangent or changed pairing changes the tested claim."
+            },
+            {
+              "issue": "Exact Euler covector versus solution set",
+              "finding": "PASS. Same-zero-set formulations, field-dependent/differential/nonlocal multipliers and restricted physical variation spaces are not excluded by the main corollary as stated."
+            },
+            {
+              "issue": "Lean acceptance scope",
+              "finding": "PASS by source inspection only. affine_pairing_separation proves finite field cancellation from two equalities and a nonzero scalar. It does not formalize differentiability, localization, source identification or the complete representation proof."
+            },
+            {
+              "issue": "Fixed zero-order equivariant multiplier extension, including nonsymmetric multiplied mass",
+              "finding": "PASS. Reviewed final section6.1: Sprime=M S remains pointwise linear and full-Spin-equivariant. Cubic separation kills its traceless inputs. First-order formal symmetry gives the required skew-transpose symbol, independent of zero-order mass and coefficient/density derivatives. The symbol then has central image; decomposable-input spanning and Spin parity force Sprime=0. Injectivity of M implies S=0. The source/escape wording was correspondingly narrowed."
+            },
+            {
+              "issue": "Arbitrary fixed invertible zero-order multiplier without Spin equivariance",
+              "finding": "PASS. Before its final Spin step, the inherited cubic proof gives Sprime restricted to Lambda2 tensor sl128 equal C tensor Id. Invertibility of M gives kerSprime=kerS. The latter is Spin invariant because the original S is equivariant. Invariance of kerC tensor sl128 forces kerC invariant by contraction with a nonzero internal dual functional; no internal irreducibility is assumed. Lambda2 is the91-dimensional adjoint of simple so14(C), hence irreducible, while C has14-dimensional output. Its nonzero invariant kernel therefore equals the entire domain, so both S and Sprime kill traceless curvature. Principal-symbol skew-transpose then puts Sprime central inputs into the14-dimensional central output. M preserves the rank of the original equivariant S restricted to the irreducible91-dimensional central-input module, whose rank is0 or91; the bound14 forces0. This uses original equivariance and rank preservation, not a false claim that Sprime remains equivariant."
+            },
+            {
+              "issue": "New finite Lean rank-gap core",
+              "finding": "PASS by code inspection only. rank_gap_zero proves precisely r<=14 and (r=0 or r=91) imply r=0. Written irreducibility, invariant-kernel and rank-preservation premises remain unformalized and are honestly identified as such. Parent reports both finite cores compile; reviewer did not run Lean."
+            }
+          ],
+          "continuation_review": {
+            "current_section7": "ACCEPTED. Sections6.1-6.2 consume every fixed invertible zero-order multiplier classification, including non-equivariant maps and nonsymmetric multiplied mass. No map census is needed.",
+            "proof": "The equivariant-multiplier special case uses Spin parity on MS. The general case instead inherits ker(MS)=kerS and uses irreducibility of the91-dimensional Lambda2 domain versus14-dimensional external or central output twice. These are distinct valid arguments; the general proof never assumes MS equivariant.",
+            "limits": "M is smooth, pointwise invertible, real-linear, zero-order and fixed during T variation, on the same full real covector carrier. Original S remains fixed pointwise linear and full-Spin-equivariant. Field-dependent, differential/nonlocal multipliers, noninvertible projections, changed tangents/domains or loss of original S symmetry remain outside. Fixed nondegenerate pointwise pairing changes are included when represented by such M; arbitrary state-space norms and domains are not.",
+            "wording_suggestion": "RESOLVED: native fixture index1 is identified as the second fixture, and global pairing/multiplier escape wording now refers to categories outside sections6.1-6.2.",
+            "next_target_caveat": "Existing finite-normalization composition is conditional on a source-required finite invariant probability/reference; positive RA/AC arithmetic is conditional on a supplied observed physical carrier/embedding. Neither missing authority is supplied by another arithmetic calculation."
+          },
+          "no_execution_attribution": [
+            "No probe or inherited replay executed",
+            "No Lean compilation executed by this reviewer",
+            "No native computation or new source search",
+            "No repository edits, verdict changes, external contact or publication"
+          ],
+          "acceptance_limit": "This receipt binds the exact bytes hashed above. Analytical, representation and source hypotheses remain written and independently reviewed. The two finite Lean cores establish affine scalar cancellation and the numerical rank-gap implication only.",
+          "rebind_history": [
+            {
+              "previous_report_sha256": "26ae55c3116ae0dd9d5be93a714fff31194ee9bb08f3b87d13f99c75681bb92e",
+              "changes_reviewed": [
+                "Section6.1 principal-symbol multiplier corollary",
+                "Section7 consumes multiplier classification",
+                "Fixture index1 clarification",
+                "Opening and escape wording narrowed to multipliers outside section6.1"
+              ],
+              "unchanged_lean_sha256": "d978244260375e27bdb8ec0eea6ea35409785cea7593789a41c8d46bdf5a350c",
+              "root_reported_validation": "Parent reports targeted Lean PASS. This reviewer did not execute compilation."
+            }
+          ],
+          "rebind": {
+            "previous_report_sha256": "a7a879446e944ef4172d8fc63b85d10959ed67ad306bc73cc34b86992f2abc45",
+            "previous_lean_sha256": "d978244260375e27bdb8ec0eea6ea35409785cea7593789a41c8d46bdf5a350c",
+            "changes_reviewed": [
+              "Section6.2 arbitrary fixed multiplier invariant-kernel/rank proof",
+              "Finite Lean rank-gap arithmetic core",
+              "Ranking consumes non-equivariant multiplier census",
+              "Pairing escape clause restricted to categories outside sections6.1-6.2"
+            ],
+            "root_reported_validation": "Parent reports both targeted finite Lean cores PASS with no output. Reviewer ran no compilation or probe."
+          }
+        }
+      }
+    ],
+    "gates": {
+      "program_focus_audit": "PASS",
+      "typed_carrier_declaration_audit": "PASS",
+      "kill_target_claim_audit": "PASS",
+      "frontmatter_status_schema_audit": "PASS",
+      "source_native_comparator_routing_audit": "PASS",
+      "lean_certificate_surface_audit": "PASS",
+      "current_state_absolute_currency_audit": "PASS",
+      "conditional_evidence_delta_gate": "PASS"
+    },
+    "new_artifact_bindings": [
+      {
+        "path": "explorations/conditional-build/printed-shiab-endpoint-audit-2026-11-27.md",
+        "sha256": "829ca664f19a84943bbb28394c146ec1298554144aaa7764c589de35153fb792"
+      },
+      {
+        "path": "Lean/GUFormalization/EndpointHessianSeparation.lean",
+        "sha256": "53334ef2490438fc99dc387361f184d38379346a90561ba7640a1c874575dc36"
+      }
+    ],
+    "gates_receipt_sha256": "a250ff416721baa961cdc49d3f729502d705ec3dc04d7ab01b19f81e9b796bbe",
+    "checks": "Exact17path footprint; program_focus, cells/intersections/shrinkage, bets and choice budget preserved. Source/ledger bytes untouched; versionless delta pending."
+  },
+  "effect_line": "Change: exact endpoint tested independently of action ansatz, unresolved Phi/product choices quantified. Why: whole-family theorem makes those choices irrelevant to this contradiction. Authority: Joe27(c), informed by27(f). Applied: scoped science and evidence-only delta; effect: coefficient/selector loops consumed, no policy or verdict change. During review the planned fixed-equivariant-multiplier classification was also consumed by a short symbol proof. The arbitrary fixed-multiplier class was then closed by invariant-kernel/rank analysis; no additional computation.",
+  "fixed_multiplier_corollary": {
+    "state": "ESTABLISHED_with_declared_scope",
+    "ref": "explorations/conditional-build/printed-shiab-endpoint-audit-2026-11-27.md#61-fixed-equivariant-zero-order-multipliers-are-excluded-too",
+    "class": "All fixed smooth invertible fullSpin-equivariant zero-order maps on the13form covector carrier",
+    "proof": "Sprime=MS inherits cubic classification. Formal symmetry gives skew-transpose leading symbol; since it kills traceless inputs its image is central. Decomposable spanning and Spin parity yield Sprime=0 then S=0. Zero-order mass need not be symmetric after multiplication.",
+    "claim_limit": "Not field-dependent/differential/non-equivariant/noninvertible multipliers or changed physical quotient."
+  },
+  "arbitrary_fixed_multiplier_corollary": {
+    "state": "ESTABLISHED_with_declared_scope",
+    "ref": "explorations/conditional-build/printed-shiab-endpoint-audit-2026-11-27.md#62-the-multiplier-need-not-preserve-spin-symmetry",
+    "class": "Every fixed smooth pointwise invertible real-linear zero-order multiplier on the same adjoint13form covector carrier; no multiplier equivariance or positivity assumed. OriginalS remains fullSpin.",
+    "proof": "Cubic preSpin classification Sprime=C tensorId on sl; invertibility preserves originalSpin-invariant kernel, forcing kerC invariant. IrreducibleLambda2 dim91 versus output14 kills C. Symbol centrality plus rank preservation gives rank originalS on central input<=14; equivariance gives rank0or91, hence0.",
+    "claim_limit": "Does not exclude Tdependent/differential/nonlocal/noninvertible maps, altered physical domain/tangent, different equations or nonSpin originalS."
+  }
+}

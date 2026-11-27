@@ -262,3 +262,7 @@ replacement for `lake build` or targeted standalone Lean checks.
 ## 2026-11-27 — Full Shiab consistency finite cores
 
 `GUFormalization/FullShiabConsistency.lean`: **LEAN-VERIFIED**, five finite lemmas: three cyclic maps collapse, odd scalar parity, central-matrix tests, mixed quadratic factor and central/traceless spanning. Targeted single-thread compilation passed without output or placeholders. Universal matrix-unit classification, compact variational argument, Spin/real-form and source identification remain separately reviewed written inputs; no full-project or source formalization claim. [Result](../explorations/conditional-build/full-shiab-variational-consistency-2026-11-27.md).
+
+## Printed endpoint Hessian separation (2026-11-27)
+
+`GUFormalization/EndpointHessianSeparation.lean`: **LEAN-VERIFIED**, targeted single-thread compilation passed. It checks affine pairing cancellation at arbitrary backgrounds and rank-gap arithmetic from explicit premises; it does not formalize the smooth variational theorem or source custody. Targeted receipt is in `lab/process/printed-shiab-endpoint-audit.json`.
