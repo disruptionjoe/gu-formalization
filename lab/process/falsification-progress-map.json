@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "basis_revision": "42ab7d096b635b4b3260277d9d8a8ac1f872f0a4",
+  "basis_revision": "ab81647b41b905536d7c0dacad8818ecc0b7c776",
   "scope": "Curated six-pillar x source/class/candidate linked view. Status belongs to cited owners; no scientific verdict promotion, automatic ranking, whole-history coverage or global percentage. Cheapest-next fields are attributed bounded suggestions, not dispatch instructions. Closed means resolved within the cited scope; it does not always mean falsified. Positive fits and remaining source/physical bridges stay explicit.",
   "assumptions_ref": "lab/process/action-constraint-matrix.json#source_relevance_assumption_view.shared_prerequisites",
   "dependencies": [
@@ -94,7 +94,7 @@
     },
     {
       "ref": "lab/process/action-constraint-matrix.json",
-      "sha256": "7c9b69fdbc08696bfe8837277e251df5e94f0c6f3f9d0398ec31431a05012db6"
+      "sha256": "71767e7f7d061a24842d5789ec6a429e5816b358e64e751a4344a8e0cc27a379"
     },
     {
       "ref": "lab/process/conditional-physics-ledger-v0.263.json",
@@ -163,6 +163,10 @@
     {
       "ref": "explorations/conditional-build/ricci-flat-ambient-source-jets-2026-11-27.md",
       "sha256": "7037bb9d31e05d9966ec05e9d4ca124d0772e5dd3a51295c2904a956b75478bc"
+    },
+    {
+      "ref": "explorations/conditional-build/printed-equation-jets-and-symbol-2026-11-27.md",
+      "sha256": "d0fc17f026f254a93bf8a4a82891abba9b9fe0ec809f73fd7bd4ca06ae61b3c5"
     }
   ],
   "pillars": [
@@ -187,14 +191,15 @@
           "closed": "Every nonzero map in the declared fixed-linear full-Spin/full-U family fails exact Euler correspondence, even after any fixed invertible zero-order covector multiplier. Separately, every full pointwise exterior-degree11 Spin-equivariant associative or gradedLie derivation is Riemann-silent, without Euler/Hessian premises. Selected displayed map has no universal full-curvature exterior companion; inherited eight individual K77 maps cannot combine that property with nonzero Riemann response.",
           "open": "Field-dependent/differential/nonlocal multipliers, changed tangents or equations; class-C representativeness. Exact source meaning of derivation/module/chain and its grading/product remains conditional.",
           "shared_missing_ref": "lab/process/action-constraint-matrix.json#source_relevance_assumption_view.shared_prerequisites",
-          "cheapest_next": "Compare complete printed endpoint jets, including P_gT and Q(T,T), on an explicitly admissible completion or a structurally quantified jet class. The LC forcing alone cannot reject even an unchanged-coefficient transported lift. Preserve source-required observable/current and shared-section alternatives; ordinary cadence unchanged.",
+          "cheapest_next": "After ordinary LC cadence, test mixed tangential and variable-coefficient constraint compatibility for the actual printed P using its polynomial projectors; a genuine curved solution/domain estimate or a source-required restriction can decide the remaining lift. Do not repeat unrestricted finite-jet mismatches, import W2 K inverses, or transfer this symbol to wedge GU*. Compare remaining cost with the source-required observable/current alternative before another deep PDE wave.",
           "evidence_refs": [
             "explorations/conditional-build/printed-shiab-endpoint-audit-2026-11-27.md",
             "explorations/conditional-build/shiab-graded-derivation-class-2026-11-27.md",
             "explorations/conditional-build/shiab-bianchi-companion-class-2026-11-27.md",
-            "explorations/conditional-build/ricci-flat-ambient-source-jets-2026-11-27.md"
+            "explorations/conditional-build/ricci-flat-ambient-source-jets-2026-11-27.md",
+            "explorations/conditional-build/printed-equation-jets-and-symbol-2026-11-27.md"
           ],
-          "positive_fit": "All algebraic companions are coefficient-linear wedge pairs; a real primary-minus anticommutator wedge pair gives2G14 and an LC-parallel differential identity. This survives the companion test only; prior fixed-Euler exclusion still applies. Full ambient LC source is first-normal blind for every Ricci-flat base but responds quadratically for Schwarzschild in the existing reconstructed metric; not a solution."
+          "positive_fit": "All algebraic companions are coefficient-linear wedge pairs; a real primary-minus anticommutator wedge pair gives2G14 and an LC-parallel differential identity. This survives the companion test only; prior fixed-Euler exclusion still applies. Full ambient LC source is first-normal blind for every Ricci-flat base but responds quadratically for Schwarzschild in the existing reconstructed metric; not a solution. Unrestricted printed translations match each finite residual jet at sufficiently large coupling; actual fixed-coupling curved PDE remains open. Selected printed nonnull symbol has a finite frozen descriptor inverse, not a physical evolution result."
         },
         "candidate": {
           "attributed_status": "Held W2 candidate correspondence fails; W2 action results retained",
@@ -234,13 +239,14 @@
           "closed": "Every fixed finite Sobolev-loss graph-Duhamel estimate fails on the named interior core, including specified finite-order norm repairs retaining it. Fully boost-equivariant repeatedE fourterm symbols with firstorder endarrows admit no integer-order homogeneous exact middle in n14.",
           "open": "Supplied analytic/nonlocal/boundary physical selection and full operator/domain. Actual SC-ACT06 source reduced field/gauge/order profile and background stabilizer are distinct; existing O4/Cartan route is retained.",
           "shared_missing_ref": "lab/process/action-constraint-matrix.json#source_relevance_assumption_view.shared_prerequisites",
-          "cheapest_next": "Use source-owned complete reduced modules and actual stabilizer if supplied; old selectedrank/background audits and retired radialgauge completion are consumed. No generic shortchain coefficient repair.",
+          "cheapest_next": "After ordinary LC cadence, test mixed tangential and variable-coefficient constraint compatibility for the actual printed P using its polynomial projectors; a genuine curved solution/domain estimate or a source-required restriction can decide the remaining lift. Do not repeat unrestricted finite-jet mismatches, import W2 K inverses, or transfer this symbol to wedge GU*. Compare remaining cost with the source-required observable/current alternative before another deep PDE wave.",
           "evidence_refs": [
             "explorations/conditional-build/source-action-finite-loss-completions-2026-11-27.md",
             "explorations/conditional-build/null-boost-symbol-trace-2026-11-27.md",
-            "explorations/conditional-build/petrov-d-observer-boundary-2026-11-27.md"
+            "explorations/conditional-build/petrov-d-observer-boundary-2026-11-27.md",
+            "explorations/conditional-build/printed-equation-jets-and-symbol-2026-11-27.md"
           ],
-          "positive_fit": "Full exterior deRham remains exact in indefinite signature; source background-owned auxiliarypositive Cartan structure is retained at its smaller symmetry. Neither is the full GU complex. TypeI covariant observer law can staytight along a balancedDapproach; no positive universalD escape bound. ExactD endpointlaw still excluded in Weyl-onlycategory."
+          "positive_fit": "Full exterior deRham remains exact in indefinite signature; source background-owned auxiliarypositive Cartan structure is retained at its smaller symmetry. Neither is the full GU complex. TypeI covariant observer law can staytight along a balancedDapproach; no positive universalD escape bound. ExactD endpointlaw still excluded in Weyl-onlycategory. Unrestricted printed translations match each finite residual jet at sufficiently large coupling; actual fixed-coupling curved PDE remains open. Selected printed nonnull symbol has a finite frozen descriptor inverse, not a physical evolution result."
         },
         "candidate": {
           "attributed_status": "Actual candidate propagation results; physical admission open",
@@ -486,9 +492,9 @@
           "GU*"
         ],
         "rank": 1,
-        "status": "source_jets_completed_full_residual_open",
-        "cheapest_test_or_revival": "Compare complete printed endpoint jets, including P_gT and Q(T,T), on an explicitly admissible completion or a structurally quantified jet class. The LC forcing alone cannot reject even an unchanged-coefficient transported lift. Preserve source-required observable/current and shared-section alternatives; ordinary cadence unchanged.",
-        "inference_limit": "LC source blindness fails at quadratic normal order in declared geometry; no completion is rejected until all endpoint terms are evaluated."
+        "status": "finite_jets_match_actual_symbol_resolved_curved_PDE_open",
+        "cheapest_test_or_revival": "After ordinary LC cadence, test mixed tangential and variable-coefficient constraint compatibility for the actual printed P using its polynomial projectors; a genuine curved solution/domain estimate or a source-required restriction can decide the remaining lift. Do not repeat unrestricted finite-jet mismatches, import W2 K inverses, or transfer this symbol to wedge GU*. Compare remaining cost with the source-required observable/current alternative before another deep PDE wave.",
+        "inference_limit": "For each fixed finite jet, sufficiently large coupling permits matching. No common radius, actual curved solution or kappa1 result. ActualP nonnull descriptor is not W2K or wedgeGU*."
       },
       {
         "id": "l2",
@@ -921,7 +927,7 @@
         "new_choice_families_adopted": 0
       }
     ],
-    "top_next": "Compare complete printed endpoint jets, including P_gT and Q(T,T), on an explicitly admissible completion or a structurally quantified jet class. The LC forcing alone cannot reject even an unchanged-coefficient transported lift. Preserve source-required observable/current and shared-section alternatives; ordinary cadence unchanged.",
+    "top_next": "After ordinary LC cadence, test mixed tangential and variable-coefficient constraint compatibility for the actual printed P using its polynomial projectors; a genuine curved solution/domain estimate or a source-required restriction can decide the remaining lift. Do not repeat unrestricted finite-jet mismatches, import W2 K inverses, or transfer this symbol to wedge GU*. Compare remaining cost with the source-required observable/current alternative before another deep PDE wave.",
     "track_policy": {
       "status": "applied",
       "authority": [

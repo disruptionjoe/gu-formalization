@@ -2125,6 +2125,59 @@
         "receipt_ref": "lab/process/curvature-jets-and-syntheses-2026-11-27.json#verification",
         "scope": "sympy1.14.0 exact finite controls; mixed/all-base proof written/reviewed; full endpoint excluded from test."
       }
+    },
+    {
+      "id": "printed-equation-jets-symbol-2026-11-27",
+      "kind": "result",
+      "owner_ref": "explorations/conditional-build/printed-equation-jets-and-symbol-2026-11-27.md",
+      "tested_statement": "Every fixed finite holonomic residual jet of the unrestricted normalized printed equation is matchable for sufficiently small inverse coupling, with order-dependent radius; the formal series need not converge. The actual selected nonnull printed P has rank122864/kernel106512 on complex dimension229376 and8204 zero two-chains, yielding a frozen mass-shifted differential inverse. No fixed-coupling curved solution or physical mode verdict.",
+      "signature": {
+        "object": "Printed endpoint finite residual jets and P nonnull symbol",
+        "carrier": "Full finite-rank translation bundle; selected complex End(S128) oneforms for symbol",
+        "convention": "Mass identity, first-orderP, algebraicQ; selected comm/symi/symi, odd-q K95/K77 fixtures; no W2K substitution",
+        "class": "All held smooth backgrounds for jet theorem; selected product dictionary and nonnull14D covectors for symbol",
+        "premises": [
+          "explorations/conditional-build/source-prescription-current-2026-11-13.md",
+          "explorations/conditional-build/printed-endpoint-analytic-branch-2026-11-27.md"
+        ]
+      },
+      "attributed_status": "internal_T2_reviewed",
+      "status_ref": "lab/process/printed-equation-jets-symbol.json#status",
+      "source_bridge_ref": "lab/process/printed-equation-jets-symbol.json#source_bridge",
+      "certificate_refs": [
+        "lab/process/printed-equation-jets-symbol-certificates.json"
+      ],
+      "control_refs": [
+        "tests/program-focus/printed_equation_jets_symbol_probe.py"
+      ],
+      "survivors_ref": "lab/process/printed-equation-jets-symbol.json#follow_through",
+      "reopen_condition_ref": "explorations/conditional-build/printed-equation-jets-and-symbol-2026-11-27.md",
+      "superseded_by": null,
+      "cache": {
+        "artifacts": [
+          {
+            "path": "explorations/conditional-build/printed-equation-jets-and-symbol-2026-11-27.md",
+            "sha256": "d0fc17f026f254a93bf8a4a82891abba9b9fe0ec809f73fd7bd4ca06ae61b3c5"
+          },
+          {
+            "path": "tests/program-focus/printed_equation_jets_symbol_probe.py",
+            "sha256": "e43da867d17cf985bfac8c014657e8cbf18c94e80013350ca69eee804a4ebeb8"
+          },
+          {
+            "path": "lab/process/printed-equation-jets-symbol-certificates.json",
+            "sha256": "2196d41a6879e222f7f9757f8aa2feddedea0f8c724ebae25eaf44f3d258bb0a"
+          }
+        ],
+        "verifier": {
+          "command": "python3",
+          "args": [
+            "tests/program-focus/printed_equation_jets_symbol_probe.py",
+            "--verify"
+          ]
+        },
+        "receipt_ref": "lab/process/printed-equation-jets-symbol.json#verification",
+        "scope": "SymPy1.14.0;363 exact controls and written proofs. No analytic PDE existence, fixedcoupling solution or physical spectrum."
+      }
     }
   ]
 }

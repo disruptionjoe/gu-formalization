@@ -1812,7 +1812,7 @@
     },
     "LB-LADDER": {
       "zero_delta_streak": 0,
-      "runs": 20,
+      "runs": 21,
       "status": "open"
     }
   },
@@ -2726,7 +2726,7 @@
   ],
   "program_run_counter": {
     "since": "2026-11-09",
-    "count": 106,
+    "count": 107,
     "rule": "Every hourly run increments this in its postflight, whatever its lane. Lane C runs when count % 4 == 3 before the increment."
   },
   "working_rule": "Cells are worked at the structure level: a requirement must hold for every action in class C or for a structurally defined subfamily. No cell is worked by writing down a specific action, and no gated cell is worked by building its gate object. See CURRENT-STATE.yaml program_focus.structure_not_specifics.",
@@ -3690,6 +3690,15 @@
       "counter_after": 106,
       "lane": "LB-LADDER",
       "selection": "Whole Ricci-flat class source-jet order and Schwarzschild quadratic witness."
+    },
+    {
+      "date": "2026-11-27",
+      "authority": "joe_direct_chat_2026_11_27_h",
+      "item": "printed-equation-jets-symbol",
+      "counter_before": 106,
+      "counter_after": 107,
+      "lane": "LB-LADDER",
+      "selection": "Whole-template finite-jet matching ceiling and actual selected nonnull printed symbol."
     }
   ],
   "directed_lc_carry_2026_11_24_b": {
@@ -7126,6 +7135,19 @@
     "source_bridge": {
       "status": "conditional",
       "reason": "Existing source-guided coordinate completion; coherent upstairs LC-to-printed-B and actual Clifford/Hodge convention must be bound. Nonzero source term is not full residual."
+    },
+    "status_effect": "No cell/intersection/shrinkage/source/ledger verdict changes."
+  },
+  "printed_jets_symbol_2026_11_27": {
+    "status": "internal_T2_reviewed",
+    "actual_delta": "Every fixed finite holonomic residual jet of the unrestricted normalized printed equation is matchable for sufficiently small inverse coupling, with order-dependent radius; the formal series need not converge. The actual selected nonnull printed P has rank122864/kernel106512 on complex dimension229376 and8204 zero two-chains, yielding a frozen mass-shifted differential inverse. No fixed-coupling curved solution or physical mode verdict.",
+    "evidence": [
+      "explorations/conditional-build/printed-equation-jets-and-symbol-2026-11-27.md",
+      "lab/process/printed-equation-jets-symbol.json"
+    ],
+    "source_bridge": {
+      "status": "conditional",
+      "reason": "Independent g/T and printed endpoint template source-bound; held product dictionary and geometric completion not source-unique. Finite jets and frozen complex symbol are not physical solutions or source I1B stationarity."
     },
     "status_effect": "No cell/intersection/shrinkage/source/ledger verdict changes."
   }

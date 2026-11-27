@@ -16,6 +16,10 @@ Do not add "Current follow-through" sections or "Historical predecessor" stacks 
 matrix or bet file. The retired follow-through chain and banner stack are kept at the end of this file under
 "Archived steering history".
 
+## 2026-11-27 — Printed finite jets and actual nonnull symbol
+
+[Result](explorations/conditional-build/printed-equation-jets-and-symbol-2026-11-27.md) · [Evidence](lab/process/printed-equation-jets-symbol.json). Every fixed finite residual jet is matchable at sufficiently large coupling; neither convergence nor a kappa1 curved solution follows. The actual selected printedP has an exact nonnull exterior decomposition and frozen length-two descriptor inverse.363 exact controls and two internal reviews passed. Mixed/variable constrained evolution and physical domains remain open. SOURCE/GU* distinctions, all24 ranked options, source/ledger verdicts and choicebudget10/4/net6/0 are retained.
+
 ## 2026-11-27 — Ricci-flat full ambient source jets
 
 [Result](explorations/conditional-build/ricci-flat-ambient-source-jets-2026-11-27.md) · [Evidence and synthesis assessment](lab/process/curvature-jets-and-syntheses-2026-11-27.json). Full ambient source differences vanish through first normal order for the declared Ricci-flat class; Schwarzschild has a nonzero second normal response in both explicit signature ports.87 exact grouped controls and two independent reviews passed. The full printed endpoint/completion remains untested. Joe27m's three hypotheses are mapped as interpretations with explicit bridge tests, not new results or choices. Source/ledger verdicts and choicebudget10/4/net6/0 are unchanged.

@@ -1,7 +1,7 @@
 schema_version: '1.0'
 repository: observerse-research-program
 branch: main
-revision_basis: 42ab7d096b635b4b3260277d9d8a8ac1f872f0a4
+revision_basis: ab81647b41b905536d7c0dacad8818ecc0b7c776
 program_focus:
   version: 2026-11-27-v3
   authority: joe_direct_chat_2026_11_27_k
@@ -222,6 +222,28 @@ program_focus:
       instead of silently adopting them.
     current_view: lab/process/source-action-opportunity-register-2026-11-25.json#research_track_view
     effect_receipt: lab/process/two-track-adoption-2026-11-27.json
+printed_jets_symbol_2026_11_27:
+  status: internal_T2_reviewed
+  actual_delta: Every fixed finite holonomic residual jet of the unrestricted normalized printed equation
+    is matchable for sufficiently small inverse coupling, with order-dependent radius; the formal series
+    need not converge. The actual selected nonnull printed P has rank122864/kernel106512 on complex dimension229376
+    and8204 zero two-chains, yielding a frozen mass-shifted differential inverse. No fixed-coupling curved
+    solution or physical mode verdict.
+  source_bridge:
+    status: conditional
+    reason: Independent g/T and printed endpoint template source-bound; held product dictionary and geometric
+      completion not source-unique. Finite jets and frozen complex symbol are not physical solutions or
+      source I1B stationarity.
+  evidence:
+  - explorations/conditional-build/printed-equation-jets-and-symbol-2026-11-27.md
+  - lab/process/printed-equation-jets-symbol.json
+  next: After ordinary LC cadence, test mixed tangential and variable-coefficient constraint compatibility
+    for the actual printed P using its polynomial projectors; a genuine curved solution/domain estimate
+    or a source-required restriction can decide the remaining lift. Do not repeat unrestricted finite-jet
+    mismatches, import W2 K inverses, or transfer this symbol to wedge GU*. Compare remaining cost with
+    the source-required observable/current alternative before another deep PDE wave.
+  choice_budget_effect: none
+  verdict_effect: none
 curvature_jets_2026_11_27:
   status: internal_T2_curvature_source_jets_reviewed
   actual_delta: 'For every Ricci-flat four-base in the existing source-guided tautological connection
