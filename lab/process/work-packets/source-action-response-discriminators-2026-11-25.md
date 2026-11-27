@@ -355,3 +355,15 @@ Selection: continuing Joe-directed falsification; candidate source bridge remain
 - **Carried:** normal-first lower coefficients, normal-normal and higher consistency, propagation and physical/source admission. No repeated horizontal or already-covered mixed calculations.
 
 Selection: continuing Joe-directed falsification, with conditional source bridge. Fixed candidate/roots/physical choices. The whole finite block replaces guessed receiver expansion; normal-first lower terms are the strongest alternative but still need actual transverse/zero-order assembly. Directed74to75/LBCLASS33to34;10/4/net6/zero predictions unchanged. Nov26g ranking remains proposal-only; no policy or schedule changes.
+
+
+## Current continuation: complete spin5 block (2026-11-26)
+
+[Result](../../../explorations/conditional-build/source-action-even-spin5-completion-2026-11-26.md) · [evidence](../source-action-even-spin5.json).
+
+- **Done,T2:** complete240-even plus240-odd highest-spin5 time-kernel invertible at both root boxes. Root bounds0.00074123 and0.00137160 are below1.
+- **Consumed by theorem:** remaining mixed/spin5 sources, all normal-normal spin5 sources, and independent normal-first/scalar lower-order first-consistency assembly. Intrinsic jet equivariance retains moving-frame effects.
+- **Ready,LB-CLASS/T2:** two spin3 and four spin4 pure-normal principal channel types on both Q copies. Use the exact no-G identity and include approximate-response residual bounds. A negative result retains full M plus7normal/L0Z4 repairs for spin4 and9normal/L0Z3 repairs for spin3.
+- **Carried:** higher consistency, admissible propagation and physical/source admission. No physical ghost or GU verdict.
+
+Selection: mandatory basis is continuing Joe-directed falsification. Scope is the full remaining first-consistency symbol of this held candidate/Q block, with source relevance conditional on W2 and physical admission. Shared prerequisite is the actual lower-spin augmented image. Cost is six channel types using owned primary inverses and the reviewed no-G identity. Strongest eligible alternative is full lower-spin M inversion, useful if the six-source test exposes a range gap; no new guessed-receiver chain. Directed75to76/LBCLASS34to35. The existing directed_lc_carry_2026_11_25_physical remains pending for the next ordinary run; no cadence amendment or bet credit. Choices10/4/net6/zero predictions unchanged. Nov26g suites remain proposal-only.

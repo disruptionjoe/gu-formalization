@@ -1,0 +1,214 @@
+{
+  "basis_revision": "8dc0d2475a7bdcd03dc9e3e2edd6cfc8bfcf9e35",
+  "authority": "joe_direct_chat_2026_11_26_continued_falsification_math20",
+  "status": "internal_T2_complete_spin5_reviewed",
+  "program_target": "LB-CLASS",
+  "tier": "T2",
+  "actual_delta": "Complete native N5 is invertible at both held root boxes:240 even highest directions certified and240 odd directions exhausted by the two owned120 receivers. Remaining mixed and all normal-normal spin5 sources are absorbed. Intrinsic jet equivariance removes independent lower-order first-consistency tests, leaving two spin3 and four spin4 pure-normal channel types. No propagation, physical or GU verdict.",
+  "class_covered": "Entire native spin5 time-kernel in autonomous imaginary-U W2/K95 quadratic block at both held real zero-matter kappa1 root boxes; consequent first-consistency source restriction on Q=2V7.",
+  "premises": [
+    "explorations/conditional-build/source-action-even-spin5-completion-2026-11-26.md",
+    "lab/process/source-action-even-spin5-certificates.json",
+    "lab/process/source-action-constraint-source-repair.json",
+    "lab/process/source-action-mixed-consistency.json"
+  ],
+  "source_bridge": {
+    "status": "conditional",
+    "weakest_unproved_link": "Neither W2 nor freely specified Q jets are established source-required physical states; propagation and physical quotient remain open.",
+    "source_necessary_exclusion": "absent",
+    "class_C_representativeness": "unchanged/unproved",
+    "source_claims": {
+      "SC-ACT-01": "ASSERTS action grammar, not unique W2",
+      "SC-ACT-06": "ASSERTS Euclidean Upsilon complex, not Lorentzian propagation",
+      "SC-GEO-51": "ASSERTS full U64_64",
+      "SC-GEO-55": "ASSERTS gauge-rotated LC displacement",
+      "SC-META-53": "UNCERTAIN physical indefinite spectra"
+    },
+    "physics_rows": "LT-GR1, LT-GR6b, LT-SM8 verdicts unchanged."
+  },
+  "claim_effect": "No matrix cell/intersection, scientific shrinkage, source/physics/canon/class-C/paper verdict change.",
+  "certificate_summary": {
+    "even": {
+      "weight5": 664,
+      "raising_rank": 152,
+      "highest5": 512,
+      "time_rank": 272,
+      "kernel_dimension": 240,
+      "native_equation_checks": 960
+    },
+    "odd": {
+      "weight5_dimension": 684,
+      "raising_rank": 148,
+      "ambient_highest5_dimension": 536,
+      "time_symbol_rank": 296,
+      "complete_N5_odd_dimension": 240,
+      "owned_odd_receiver_rank": 240,
+      "owned_odd_sum_exhausts_complete_time_kernel": true
+    },
+    "roots": [
+      {
+        "root": 0,
+        "owned_root_record_sha256": "4069255f599c1b858cdec5471744dc48f0307e710ccb84d9b3875f853a8bd9d6",
+        "radius": "833002305502425831635675927369390931123350752157075022902747720119/3955078124999884528152862797160742322179584117654725628125000000000000000000000000",
+        "balanced_center_defect_column1": "1633418590032011509846465158609113882442324548249602623316097509289233/46671785760620388151285497883644104003906250000000000000000000000000000000000000000",
+        "Ctriangle_upper": "21911737753412031659265716581176398795389/586272072963585937500000000000000000000",
+        "rootbox_perturbation_column1": "1884545801083191193420308152802212645100171071943023128278001050938669909056325038077517135347495389924712728072927/2542491064776990093250742461924413991220748427049418179783754737590026855468750000000000000000000000000000000000000000",
+        "neumann_bound": "7297186974070205008606269730030587756186796347926517037095213142713466081557268295928407723205214026140948184214957797003973008522893/9844829808880575697538532942492230506854625756960290531681201625298663359103062006130218505859375000000000000000000000000000000000000000",
+        "neumann_bound_float": 0.0007412202258171841,
+        "invertible_on_complete_even_N5_rootbox": true,
+        "native_Gram_non_degenerate": true,
+        "complete_native_M_invertible": true
+      },
+      {
+        "root": 1,
+        "owned_root_record_sha256": "73f3106165d8e9d0330e30d1fa7a7c4c1083f7936e33308a61201907e4d2f44c",
+        "radius": "11974179536214065908190212160861717531979021739329889193327923/65917968749997189892442940664361290493889827261993759765625000000000000000000",
+        "balanced_center_defect_column1": "56388360930848907291622717836395678859826096448807157655100115667999/752349186461200656998722225884342956542968750000000000000000000000000000000000000",
+        "Ctriangle_upper": "304587170976044584853606439/3798437500000000000000000",
+        "rootbox_perturbation_column1": "2384917667152627697886831326808672237832628955406678006093672754173932031324737859582827730131057/1738786697387621187375529391873505828891560005142218207359313964843750000000000000000000000000000000",
+        "neumann_bound": "773940904936599146205256957298315001616808244059510283327369776191827347799019428537101920456450111649307532150777249417021346471/564261889845876438054534467272266221758779322513469455650144347218151778603186274150085449218750000000000000000000000000000000000000",
+        "neumann_bound_float": 0.001371598753812693,
+        "invertible_on_complete_even_N5_rootbox": true,
+        "native_Gram_non_degenerate": true,
+        "complete_native_M_invertible": true
+      }
+    ],
+    "global_cubic_bound": 1098,
+    "background_weighted_norm_sum": "128637452/3",
+    "all_spin5_invertible": true
+  },
+  "consumed": [
+    "Remaining mixed spin5 consistency channels",
+    "All normal-normal spin5 sources",
+    "Independent normal-first and scalar lower-order first-consistency assembly: intrinsic jet equivariance removes their separate cokernel content"
+  ],
+  "remaining_channels": {
+    "pure_normal_spin3": 2,
+    "pure_normal_spin4": 4,
+    "interpretation": "Reduced SO3 channel types, not independent native vectors or physical states.",
+    "repairs_spin4": "7 normal types plus L0Z4",
+    "repairs_spin3": "9 normal types plus L0Z3"
+  },
+  "no_G_identity": {
+    "status": "exact_reviewed_principal_identity",
+    "statement": "r_ab=q_ab-M(j_a y_b+j_b y_a)",
+    "approximate_response_correction": "+j_a e_b+j_b e_a",
+    "scope": "All spatial metric generators orthogonal to time; no propagation conclusion."
+  },
+  "correction": "Source reconstruction uses ascending pivot order; column-discovery order can reintroduce eliminated coordinates. Exact before/after control and independent review; no basis/source/physical change.",
+  "next_directed_worksets": [
+    {
+      "id": "normal_normal_six_channels",
+      "status": "ready",
+      "target": "LB-CLASS",
+      "tier": "T2",
+      "task": "Span the two spin3 and four spin4 pure-normal principal channel types across both Q copies; use the exact no-G identity with all residuals bounded. Test full M image and, if needed, every normal/zero-order kernel-multiplier repair. Fixed W2/K95 candidate and both root boxes.",
+      "expected_delta": "Cover the entire remaining pure-normal first-consistency symbol on Q, or produce a scoped augmented obstruction with exact uncertainty bounds.",
+      "class_covered": "Six SO3 channel types exhaust the still-open actual pointwise first-consistency sources on Q at these held backgrounds; not all GU or class C.",
+      "source_bridge": "W2/free Q jets remain candidate constructions; physical admission, propagated solutions and source necessity unproved.",
+      "remaining_cost": "Six channel types with existing primary inverse certificates and a no-G assembly identity; actual lower-spin complete ranges and kernel repairs still needed.",
+      "kill_condition": "An M-cokernel witness alone is insufficient. A negative certificate must annihilate full M, all7 normal repair types plus L0Z4 for target4, and all9 normal repair types plus L0Z3 for target3. Singular/failed sufficient bounds are not exclusions."
+    },
+    {
+      "id": "higher_consistency_and_propagation",
+      "status": "conditional_after_first_consistency",
+      "target": "LB-CLASS",
+      "tier": "T2",
+      "task": "If all first-consistency sources are absorbed, continue the actual constraint chain and prove admissible propagation; do not infer solutions from pointwise rank.",
+      "revival_input": "Disposition of six augmented pure-normal channels and permitted remaining multipliers."
+    },
+    {
+      "id": "physical_weak_readout",
+      "status": "blocked_on_authentic_admission_and_propagation",
+      "target": "LB-CLASS",
+      "tier": "T2",
+      "task": "Transport actually propagated candidate response to source-admitted physical observables.",
+      "revival_input": "Common physical domain/quotient, normalized readout and propagation law."
+    }
+  ],
+  "counterfactual_proposal": {
+    "status": "proposal_only_not_executed",
+    "authority": "joe_direct_chat_2026_11_26_g",
+    "ranked_item_numbers": [
+      1,
+      6,
+      2,
+      3,
+      7,
+      5,
+      4
+    ],
+    "basis": "Qualitative expected time saved at the actual consistency bottleneck; no measured forecasts or success probabilities.",
+    "ranked": [
+      {
+        "item": 1,
+        "expected_savings": "highest immediate",
+        "proposal": "Map queued outcomes to changed action, claim, bound or certificate. Consume tasks already covered by a theorem. Same next action alone is not grounds to skip useful evidence."
+      },
+      {
+        "item": 6,
+        "expected_savings": "high immediate",
+        "proposal": "Separate necessary source consequences from candidate-conditional desiderata and order by test cost. Connectivity to these chosen roots and positive physical energy are not silently made source premises."
+      },
+      {
+        "item": 2,
+        "expected_savings": "medium-high if targeted",
+        "proposal": "Audit dependencies of the six live channels first. Defer full ten-family flips; plus/minus adjoint is a comparator unless source permits it."
+      },
+      {
+        "item": 3,
+        "expected_savings": "high before a physical-ghost claim, lower for current algebraic range",
+        "proposal": "One matched control for the exact inference first. Distinguish constrained energy from BRST physical ghosts; conformal-gravity expectation requires a stated prescription."
+      },
+      {
+        "item": 7,
+        "expected_savings": "medium later",
+        "proposal": "Use a matched four-dimensional comparator only for a specific observation-related obstruction, preserving relevant structures."
+      },
+      {
+        "item": 5,
+        "expected_savings": "low immediate",
+        "proposal": "Euclidean base changes the real form and physical-time question; use only if it distinguishes a named sign mechanism."
+      },
+      {
+        "item": 4,
+        "expected_savings": "lowest immediate",
+        "proposal": "Toy dimensions alter branching and source counts; use if a structural dimension theorem is otherwise unavailable."
+      }
+    ],
+    "recommendation": "Approve lightweight items1/6 and targeted dependencies; reserve comparator execution for a specific diagnostic question. Broad suites remain deferred proposals, not new stop rules.",
+    "current_theorem_effect": "Separate mixed/spin5 and lower-order tests are consumed by a proved complete-block/jet result, not skipped through an unapproved value gate."
+  },
+  "choice_budget": {
+    "families": 10,
+    "obligation_bundles": 4,
+    "net": 6,
+    "source_selected_predictions": 0,
+    "delta": 0
+  },
+  "accounting": "Directed75to76/LBCLASS34to35. The existing directed_lc_carry_2026_11_25_physical remains pending for the next ordinary run; no cadence amendment or bet credit.",
+  "verification": {
+    "native_gates": {
+      "program_focus_audit": "PASS",
+      "typed_carrier_declaration_audit": "PASS",
+      "kill_target_claim_audit": "PASS",
+      "frontmatter_status_schema_audit": "PASS",
+      "source_native_comparator_routing_audit": "PASS",
+      "lean_certificate_surface_audit": "PASS",
+      "current_state_absolute_currency_audit": "PASS"
+    },
+    "native_certificate": "lab/process/source-action-even-spin5-certificates.json",
+    "independent_reviews": "lab/process/hostile-reviews/2026-11-26-source-action-even-spin5-review.md",
+    "lean": "No new Lean theorem claimed; T2 native exact checks and reviewed structural proof.",
+    "replay_scope": "Fresh-cache full even/odd carrier reconstruction, native first-H-column replay at each center and frozen exact certificate replay. Other H columns are authenticated stored arithmetic, not recomputed by this bounded mode.",
+    "replay_sha256": "6e35019d239f03cfbb5c32f5ecc651d73c13d3184cc2b857d16beba52031ce36",
+    "replay_pass": true,
+    "protected_surfaces": "program_focus,cells,intersections,shrinkage and choice budget unchanged"
+  },
+  "current_sha256": {
+    "tests/program-focus/source_action_even_spin5_probe.py": "05e450d25077c162f1345936ceaeb2315b691e9280e9ef1a11d045c13b2a6edd",
+    "lab/process/source-action-even-spin5-certificates.json": "aab4a323b2f00ff59ba17775f33e39c0b413d596a4ba366286c018a0477716fb",
+    "explorations/conditional-build/source-action-even-spin5-completion-2026-11-26.md": "47dfe60f9fa3515fc9a8d578485846b211409cb7e620c09cacb6a301ab26b27c",
+    "lab/process/hostile-reviews/2026-11-26-source-action-even-spin5-review.md": "373d9eac3bc4a32eaa28a93b272d063ed3ff41027a35e24f3968f08cdc39b7f2"
+  }
+}

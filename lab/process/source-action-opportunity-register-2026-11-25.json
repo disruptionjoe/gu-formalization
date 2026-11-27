@@ -1348,7 +1348,7 @@
       "selection_note": "Candidate construction/diagnostic only unless its stated structural family and source bridge satisfy current program_focus. A reserve is not scheduled work."
     }
   ],
-  "priority_effect": "Current directed science uses mixed_consistency_2026_11_26: four mixed channel types pass; remaining full-M image question is exhaustively confined to complete even highest5 time-kernel inside512 ambient directions. Physical propagation remains open. Policy/cadence/schedules unchanged.",
+  "priority_effect": "Current directed science uses even_spin5_completion_2026_11_26: complete N5 invertible at both roots; remaining first-consistency test is six pure-normal spin3/4 channel types with all kernel repairs retained. Independent lower-order assembly consumed by intrinsic jet theorem. Policy/cadence/schedules unchanged.",
   "evidence": [
     "explorations/conditional-build/source-action-engineering-wave-2026-11-25.md",
     "lab/process/source-action-engineering-wave.json",
@@ -2088,6 +2088,49 @@
       "Old-receiver noncoverage for the four even channel types established, without M obstruction"
     ],
     "counterfactual_proposal": "lab/process/source-action-mixed-consistency.json#counterfactual_proposal",
+    "counterfactual_status": "Nov26g proposal-only; no suite or governance execution",
+    "continuation_superseded_by": "lab/process/source-action-even-spin5.json"
+  },
+  "even_spin5_completion_2026_11_26": {
+    "report": "explorations/conditional-build/source-action-even-spin5-completion-2026-11-26.md",
+    "evidence": "lab/process/source-action-even-spin5.json",
+    "actual_delta": "Complete native N5 is invertible at both held root boxes:240 even highest directions certified and240 odd directions exhausted by the two owned120 receivers. Remaining mixed and all normal-normal spin5 sources are absorbed. Intrinsic jet equivariance removes independent lower-order first-consistency tests, leaving two spin3 and four spin4 pure-normal channel types. No propagation, physical or GU verdict.",
+    "next_directed_worksets": [
+      {
+        "id": "normal_normal_six_channels",
+        "status": "ready",
+        "target": "LB-CLASS",
+        "tier": "T2",
+        "task": "Span the two spin3 and four spin4 pure-normal principal channel types across both Q copies; use the exact no-G identity with all residuals bounded. Test full M image and, if needed, every normal/zero-order kernel-multiplier repair. Fixed W2/K95 candidate and both root boxes.",
+        "expected_delta": "Cover the entire remaining pure-normal first-consistency symbol on Q, or produce a scoped augmented obstruction with exact uncertainty bounds.",
+        "class_covered": "Six SO3 channel types exhaust the still-open actual pointwise first-consistency sources on Q at these held backgrounds; not all GU or class C.",
+        "source_bridge": "W2/free Q jets remain candidate constructions; physical admission, propagated solutions and source necessity unproved.",
+        "remaining_cost": "Six channel types with existing primary inverse certificates and a no-G assembly identity; actual lower-spin complete ranges and kernel repairs still needed.",
+        "kill_condition": "An M-cokernel witness alone is insufficient. A negative certificate must annihilate full M, all7 normal repair types plus L0Z4 for target4, and all9 normal repair types plus L0Z3 for target3. Singular/failed sufficient bounds are not exclusions."
+      },
+      {
+        "id": "higher_consistency_and_propagation",
+        "status": "conditional_after_first_consistency",
+        "target": "LB-CLASS",
+        "tier": "T2",
+        "task": "If all first-consistency sources are absorbed, continue the actual constraint chain and prove admissible propagation; do not infer solutions from pointwise rank.",
+        "revival_input": "Disposition of six augmented pure-normal channels and permitted remaining multipliers."
+      },
+      {
+        "id": "physical_weak_readout",
+        "status": "blocked_on_authentic_admission_and_propagation",
+        "target": "LB-CLASS",
+        "tier": "T2",
+        "task": "Transport actually propagated candidate response to source-admitted physical observables.",
+        "revival_input": "Common physical domain/quotient, normalized readout and propagation law."
+      }
+    ],
+    "consumed": [
+      "Remaining mixed spin5 consistency channels",
+      "All normal-normal spin5 sources",
+      "Independent normal-first and scalar lower-order first-consistency assembly: intrinsic jet equivariance removes their separate cokernel content"
+    ],
+    "counterfactual_proposal": "lab/process/source-action-even-spin5.json#counterfactual_proposal",
     "counterfactual_status": "Nov26g proposal-only; no suite or governance execution"
   }
 }
