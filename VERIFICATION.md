@@ -17,6 +17,10 @@ External review is not a research pathway or waiting condition. The source-level
 
 Sections below are historical snapshots in file order.
 
+## 2026-11-27 — Ricci-flat full ambient source jets
+
+[Result](explorations/conditional-build/ricci-flat-ambient-source-jets-2026-11-27.md) · [Evidence and synthesis assessment](lab/process/curvature-jets-and-syntheses-2026-11-27.json). Full ambient source differences vanish through first normal order for the declared Ricci-flat class; Schwarzschild has a nonzero second normal response in both explicit signature ports.87 exact grouped controls and two independent reviews passed. The full printed endpoint/completion remains untested. Joe27m's three hypotheses are mapped as interpretations with explicit bridge tests, not new results or choices. Source/ledger verdicts and choicebudget10/4/net6/0 are unchanged.
+
 ## 2026-11-27 — Full-space reduction and type-D limits
 
 [Full-Y result](explorations/conditional-build/full-y-normal-product-lift-2026-11-27.md) · [Type-D result](explorations/conditional-build/petrov-d-observer-boundary-2026-11-27.md) · [Evidence](lab/process/global-reduction-selection-boundary.json). Full-Y normal productlift is detected on a metric section; the admitted determinant has no extra fibreZ2 obstruction. At typeD a single smooth covariant observer law has both all-retained and all-escaping approaches, so no positive universal escape fraction follows.66 exact grouped controls and two independent reviewers passed; topology and probability limits are written/reviewed. Physical/source/ledger verdicts and choicebudget10/4/net6/0 remain unchanged.

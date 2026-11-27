@@ -1,7 +1,7 @@
 schema_version: '1.0'
 repository: observerse-research-program
 branch: main
-revision_basis: 08b7e3b5c0264298d2cc6a90ad5dae9bded54e19
+revision_basis: 42ab7d096b635b4b3260277d9d8a8ac1f872f0a4
 program_focus:
   version: 2026-11-27-v3
   authority: joe_direct_chat_2026_11_27_k
@@ -222,6 +222,25 @@ program_focus:
       instead of silently adopting them.
     current_view: lab/process/source-action-opportunity-register-2026-11-25.json#research_track_view
     effect_receipt: lab/process/two-track-adoption-2026-11-27.json
+curvature_jets_2026_11_27:
+  status: internal_T2_curvature_source_jets_reviewed
+  actual_delta: 'For every Ricci-flat four-base in the existing source-guided tautological connection
+    metric, full ambient Ricci/Einstein source differences vanish at value and first normal order. Schwarzschild
+    has nonzero second normal response: Ric00 Hessian +12rho^2 in K95 and -12rho^2 in the explicit flipped
+    K77 port; Einstein00 is half. No completion or physical black-hole verdict.'
+  source_bridge:
+    status: conditional
+    reason: Existing source-guided coordinate completion; coherent upstairs LC-to-printed-B and actual
+      Clifford/Hodge convention must be bound. Nonzero source term is not full residual.
+  evidence:
+  - explorations/conditional-build/ricci-flat-ambient-source-jets-2026-11-27.md
+  - lab/process/curvature-jets-and-syntheses-2026-11-27.json
+  next: Compare complete printed endpoint jets, including P_gT and Q(T,T), on an explicitly admissible
+    completion or a structurally quantified jet class. The LC forcing alone cannot reject even an unchanged-coefficient
+    transported lift. Preserve source-required observable/current and shared-section alternatives; ordinary
+    cadence unchanged.
+  choice_budget_effect: none
+  verdict_effect: none
 global_reduction_selection_2026_11_27:
   status: internal_T2_global_lift_and_typeD_bound_reviewed
   actual_delta:

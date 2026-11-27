@@ -1,0 +1,305 @@
+{
+  "artifact": "CURVATURE_JETS_AND_SYNTHESIS_TRIAGE",
+  "date": "2026-11-27",
+  "basis_revision": "42ab7d096b635b4b3260277d9d8a8ac1f872f0a4",
+  "status": "internal_T2_curvature_source_jets_reviewed",
+  "target": "X-P1-P2",
+  "tier": "T2",
+  "lane": "LB-LADDER",
+  "actual_delta": "For every Ricci-flat four-base in the existing source-guided tautological connection metric, full ambient Ricci/Einstein source differences vanish at value and first normal order. Schwarzschild has nonzero second normal response: Ric00 Hessian +12rho^2 in K95 and -12rho^2 in the explicit flipped K77 port; Einstein00 is half. No completion or physical black-hole verdict.",
+  "source_bridge": {
+    "status": "conditional",
+    "reason": "Existing source-guided coordinate completion; coherent upstairs LC-to-printed-B and actual Clifford/Hodge convention must be bound. Nonzero source term is not full residual."
+  },
+  "source_necessary_exclusion": false,
+  "class_C_representativeness": "No source-unique metric, width certification or all-completion physical bridge established.",
+  "track": [
+    "SOURCE",
+    "GU* component comparison"
+  ],
+  "choice_budget": {
+    "families": 10,
+    "obligations": 4,
+    "net": 6,
+    "source_selected_predictions": 0,
+    "change": 0
+  },
+  "selection": {
+    "mandatory_basis": "Count105 ordinaryB, no unfinishedT1 or ready packet.",
+    "reuse_delta": "Existing source geometry/Einstein restriction and flat controls reused; new full mixed/vertical trace determines normal order.",
+    "expected_delta": "Whole Ricci-flat class first-order cancellation or response; smallest explicit nonzero next-order witness.",
+    "actual": "Class first-order cancellation and Schwarzschild second-order response.87 exact grouped checks, no new large matrices/action.",
+    "strongest_alternative": "Source-required GU-specific observable/current or shared-section readout; missing physical bridge remains explicit.",
+    "cost": "One bounded wave; two read-only reviewers and one serialized exact rational probe; token/runtime not measured."
+  },
+  "verification": {
+    "artifact_hashes": {
+      "explorations/conditional-build/ricci-flat-ambient-source-jets-2026-11-27.md": "7037bb9d31e05d9966ec05e9d4ca124d0772e5dd3a51295c2904a956b75478bc",
+      "tests/program-focus/ricci_flat_source_jets_probe.py": "a73aa67c29c17f65afbdd04b5d2a250b1eb06331e76cbbc12fb561cdce5b7fab",
+      "lab/process/ricci-flat-source-jets-certificates.json": "6b89eb21b9226b1fc3f0a3d32a90e37b16be98a1f2e64664a8678a47b08660c3"
+    },
+    "reviews": [
+      {
+        "accepted": true,
+        "tier": "T2",
+        "artifact_hashes": {
+          "explorations/conditional-build/ricci-flat-ambient-source-jets-2026-11-27.md": "7037bb9d31e05d9966ec05e9d4ca124d0772e5dd3a51295c2904a956b75478bc",
+          "tests/program-focus/ricci_flat_source_jets_probe.py": "a73aa67c29c17f65afbdd04b5d2a250b1eb06331e76cbbc12fb561cdce5b7fab",
+          "lab/process/ricci-flat-source-jets-certificates.json": "6b89eb21b9226b1fc3f0a3d32a90e37b16be98a1f2e64664a8678a47b08660c3"
+        },
+        "blocking_findings": [],
+        "own_checks": [
+          "Read final report, complete exact probe and certificate. Independently derived the symmetric-coordinate trace identity tr_F[U -> Omega(X,y^-1 UY)]=-S_XY and checked the missing-factor and horizontal-versus-vertical cancellation seam.",
+          "Checked VV self/skew cross-trace cancellation and mixed divergence sign against the declared curvature convention; Ricci-flat contracted Bianchi supplies mixed first-normal cancellation.",
+          "Checked Schwarzschild off-diagonal normal variation, trace-reversed K contraction, second derivative and invertible 14-dimensional Einstein trace reversal.",
+          "Checked both explicit signature-port scalar/Einstein tables, conformal countercontrol, source/candidate distinction and matched residual ceiling.",
+          "Verified all three frozen SHA256 bindings and certificate probe_sha256 by static hashing.",
+          "Metadata-only rebind: inverse removal of the added body routing recap and reversal of CHIRALITY=N/A reproduces the previously accepted report SHA256 566d11cb3977acf320ccd518f9b379bca8ff5746244c6cbf221316a2a10ea256; probe and certificate hashes unchanged. Recap abbreviates the existing delta without changing scope."
+        ],
+        "scope": [
+          "First-normal blindness holds for all smooth Ricci-flat bases in the specified reconstructed tautological connection metric, with the same frame and fibre metric on comparison sides.",
+          "Nonzero second-normal response is a Schwarzschild algebraic LC-source witness; no actual Kerr second-jet, endpoint completion, horizon condition or physical black-hole observable is established.",
+          "Source page/equation custody is inherited from the chimeric-trace and Shiab-companion owners. The induced LC reference is not silently identified with independently varied printed B.",
+          "K77/K95 tensor ports do not identify real adjoints or unexamined product/Hodge phases. Wedge and selected map response retain their separate injection conventions and action-architecture exclusions."
+        ],
+        "qualifications": [
+          "Finite controls sample eight rational fixtures and four VV basis pairs per fixture; they do not constitute the all-base or full derivative proof. The written geometry and contracted Bianchi proof carry those quantifiers.",
+          "Root reported 87 exact controls PASS. Reviewer did not execute probes or builds; no Lean or all-domain PDE certification is claimed."
+        ],
+        "contributions": "Independent source/geometry review and earlier advisory scratch on the provisional derivation; did not author final owner report/probe/certificate.",
+        "not_run": [
+          "Scientific probe",
+          "Builds or Lean",
+          "External source reinspection",
+          "Repository edits"
+        ]
+      },
+      {
+        "accepted": true,
+        "disposition": "Accepted as a T2 geometric source-jet theorem in the stated source-guided reconstruction. No blocking findings remain.",
+        "reviewer": "joint_review, independent mathematical/hostile reviewer",
+        "hashes": {
+          "explorations/conditional-build/ricci-flat-ambient-source-jets-2026-11-27.md": "7037bb9d31e05d9966ec05e9d4ca124d0772e5dd3a51295c2904a956b75478bc",
+          "tests/program-focus/ricci_flat_source_jets_probe.py": "a73aa67c29c17f65afbdd04b5d2a250b1eb06331e76cbbc12fb561cdce5b7fab",
+          "lab/process/ricci-flat-source-jets-certificates.json": "6b89eb21b9226b1fc3f0a3d32a90e37b16be98a1f2e64664a8678a47b08660c3"
+        },
+        "report_sha256": "7037bb9d31e05d9966ec05e9d4ca124d0772e5dd3a51295c2904a956b75478bc",
+        "probe_sha256": "a73aa67c29c17f65afbdd04b5d2a250b1eb06331e76cbbc12fb561cdce5b7fab",
+        "certificate_sha256": "6b89eb21b9226b1fc3f0a3d32a90e37b16be98a1f2e64664a8678a47b08660c3",
+        "blocking_findings": [],
+        "mathematical_findings": [
+          "An independent adapted-frame Koszul trace derivation reproduces BH1, BH2 and BH3. The horizontal/vertical linear II-A and Omega-L0 terms cancel only after retaining the nonholonomic bracket and both traces.",
+          "The fibre metric and tautological horizontal y are the actual declared connection metric. A frozen-horizontal standard KK replacement is not used.",
+          "Omega is linear in y-g. For Ricci-flat bases the weighted divergence has zero zeroth-order term by contracted Bianchi. Therefore all three Ricci blocks, scalar and Einstein differences have zero value and first normal jet.",
+          "The complete symmetric-coordinate fixture satisfies g-skewness, algebraic first Bianchi and Ricci-flatness. Corrected spatial curvature signs in the final probe are consistent with the electric eigenvalues (-2,1,1).",
+          "The Schwarzschild normal witness gives DeltaRic00=6rho\u00b2s\u00b2/(1-s) in the K95 (-+++) port and -6rho\u00b2s\u00b2/(1+s) in the flipped K77 (+---) port for the same v00=1. The respective scalar and direct Einstein formulas in section 3 are correct.",
+          "Conformal fibre deformations give Omega=0, and native lambda=1/2 is degenerate in base dimension two. The final report and controls retain both limitations."
+        ],
+        "source_scope_findings": [
+          "The concrete metric completion is source-guided, not source-unique. Coherent upstairs LC curvature must be explicitly identified before applying the declared Shiab Riemann restriction to the independently varied printed connection.",
+          "Selected and wedge maps have separately owned nonzero Einstein coefficients under the stated injection; spin-curvature factors and real Clifford/Hodge conventions remain conditional and are not silently transported.",
+          "The nonzero second-normal source jet excludes all-order source blindness only for this geometry. It is neither a full matched endpoint residual nor an obstruction to every Schwarzschild/Kerr completion.",
+          "P_g T and nonlinear terms can compensate source dependence. No bulk solution, horizon/asymptotic domain, physical metric selection, GU falsification or repaired GU* theory is established."
+        ],
+        "verification_scope": {
+          "reviewer_ran_tests_or_builds": false,
+          "owner_edits": false,
+          "read_artifacts": [
+            "final report",
+            "complete probe source",
+            "exact certificate",
+            "owned source-chimeric metric and Shiab restriction pointers"
+          ],
+          "binding": "All three frozen SHA256 hashes match; certificate probe self-hash matches; 87 distinct recorded check names match its count.",
+          "root_recorded_result": "87 grouped exact rational controls PASS, as reported by root and recorded in the certificate.",
+          "control_coverage": "Eight native four-dimensional fixtures across both ports compare separate raw horizontal and vertical traces against BH1; sampled raw VV derivatives, omitted-vertical-trace control, scalar/Einstein contractions and curvature preconditions are included.",
+          "control_limit": "The all-base and mixed-derivative conclusions are written Koszul/contracted-Bianchi proofs, not inferred from fixture sampling. No Lean, PDE existence or physical black-hole certification is claimed."
+        },
+        "review_contributions_disclosure": "During provisional review this reviewer independently derived the raw pre-contraction HH/VV trace formulas, identified the K95-versus-flipped-K77 sign/denominator distinction, supplied direct scalar/Einstein controls, and warned against degenerate native n=2 calibration. Root integrated these clarifications and performed the exact validation. This is disclosed as reviewer contribution, not a second independently authored final report.",
+        "weakest_seam": "Source-level identification of the coherent LC curvature term with the independently varied printed endpoint remains conditional; finite controls do not resolve this bridge or cancellation by completion fields.",
+        "detailed_reconnaissance": "/private/tmp/gu-b104-blackhole-hostile-review.md",
+        "metadata_rebind": {
+          "accepted": true,
+          "previous_report_sha256": "566d11cb3977acf320ccd518f9b379bca8ff5746244c6cbf221316a2a10ea256",
+          "new_report_sha256": "7037bb9d31e05d9966ec05e9d4ca124d0772e5dd3a51295c2904a956b75478bc",
+          "verification": "Removing only the four post-title echoed metadata fields and reversing CHIRALITY=N/A to the former token reproduces the prior accepted SHA256 exactly. Probe and certificate hashes unchanged. No mathematical content changed; no tests or builds rerun."
+        }
+      }
+    ],
+    "exact_controls": 87,
+    "command": "UV_CACHE_DIR=/private/tmp/gu-current-uv-cache uv run --offline --with sympy==1.14.0 python tests/program-focus/ricci_flat_source_jets_probe.py --output lab/process/ricci-flat-source-jets-certificates.json",
+    "proof_scope": "All-base and mixed-derivative identities written/reviewed, finite controls are not a global PDE proof. No new Lean claim.",
+    "corrections": [
+      "Probe precondition caught spatial fixture sign before Ricci-flat controls passed; corrected fixture then87 checks passed.",
+      "Independent review separated K95 from flippedK77 and direct Einstein component."
+    ],
+    "gates": {
+      "program_focus_audit": "PASS",
+      "typed_carrier_declaration_audit": "PASS",
+      "kill_target_claim_audit": "PASS",
+      "frontmatter_status_schema_audit": "PASS",
+      "source_native_comparator_routing_audit": "PASS",
+      "lean_certificate_surface_audit": "PASS",
+      "current_state_absolute_currency_audit": "PASS",
+      "conditional_evidence_delta_gate": "PASS",
+      "research_context_reader_audit": "PASS"
+    }
+  },
+  "hypotheses_27m": [
+    {
+      "id": "m3",
+      "hypothesis": "H3 mirror-balanced dark matter",
+      "pillars": [
+        "chirality_generations",
+        "gravity_shiab",
+        "gauge_mass_gap"
+      ],
+      "layer": "class",
+      "track": [
+        "SOURCE",
+        "GU*"
+      ],
+      "rank": 7.5,
+      "status": "interpretation_until_physical_current_and_state_bridge",
+      "cheapest_test_or_revival": "On one supplied physical hidden/observed carrier and preserved domain, test a nonzero hidden excitation for zero ordinary charged response and nonzero positive gravitating stress; then stability and abundance. Reuse l2/l5; do not redo anomaly arithmetic.",
+      "inference_limit": "W=0 in the declared14D anomaly arena is not observed4D chiral index or mirror particle count; hidden=-observed still needs a common native grading and compatible observation.",
+      "three_state": {
+        "ESTABLISHED": "Owned local I16 cancellation implies W=sum x_p binomial(14,p)=0 in the15-coordinate tangent-twisted arena; rank5/kernel10. W=0 is not sufficient. Source looking-glass/effective chirality assertions are attributed, not proved physics.",
+        "RULED_OUT": "Only previously recorded exact-local-complement classes under their own assumptions; no exclusion of every effective dark sector.",
+        "NOT_MODELED_UNDETERMINED": "Positive gravitational response, ordinary darkness, stable/cold abundance and native index bridge for a physical mirror sector."
+      },
+      "source_refs": [
+        "lab/sources/source-claim-register.yaml#SC-CHI-01",
+        "lab/sources/source-claim-register.yaml#SC-CHI-03",
+        "lab/sources/source-claim-register.yaml#SC-CHI-53",
+        "lab/sources/source-claim-register.yaml#SC-CHI-54",
+        "explorations/conditional-build/cb-c-anomaly-conditions-2026-08-05.md",
+        "lab/process/observation-physical-carrier-custody-2026-11-27.md"
+      ],
+      "outcomes": [
+        "Nonzero ordinary charge or failed required stress property excludes the proposed dark mechanism in its stated physical class.",
+        "Passed coupling test gives a necessary condition only; stability, abundance and cosmological transfer remain.",
+        "No supplied physical state/readout leaves an interpretation, not a fresh anomaly calculation."
+      ],
+      "title": "H3 mirror-balanced dark matter",
+      "source_necessity": "conditional or absent until the specified physical bridge",
+      "new_choice_families_adopted": 0
+    },
+    {
+      "id": "m1",
+      "hypothesis": "H1 observation horizon",
+      "pillars": [
+        "gravity_shiab",
+        "dark_energy",
+        "predictive_dynamics"
+      ],
+      "layer": "class",
+      "track": [
+        "SOURCE",
+        "GU*"
+      ],
+      "rank": 11.5,
+      "status": "interpretation_until_causal_state_measure_bridge",
+      "cheapest_test_or_revival": "Separate l4 normalization, l3 actual metric variation and k8 causal geometry. For a supplied observer/state algebra, test preserved admissibility and a normalized positive trace. Require actual tracefree metric equation plus conservation before any Lambda integration-constant claim.",
+      "inference_limit": "b=H and timelike H in codim10 with four negative normal directions do not supply a codim2 causal horizon; infinite volume needs finite normalization, not by itself a dimensional scale.",
+      "three_state": {
+        "ESTABLISHED": "Owned same-metric H=t/2, norm-1 and fixed-reference b=H repair; geometric normalization obstruction and fixed-volume symmetry rigidity at their stated scope.",
+        "RULED_OUT": "No new physical horizon class is excluded. Owned null-normal expansions admit both signs and zero, preventing an automatic standard future-null-pair identification.",
+        "NOT_MODELED_UNDETERMINED": "Causal horizon, observer algebra and positive trace, section-selected reference normalization or scale, and Lambda fixed by horizon data."
+      },
+      "source_refs": [
+        "explorations/conditional-build/source-chimeric-trace-compatibility-2026-11-13.md",
+        "lab/process/falsification-progress-map.json#ranked_options_2026_11_27"
+      ],
+      "outcomes": [
+        "A supplied positive normalized observer trace would permit a typed CLPW comparison, not an identity with GU.",
+        "Failure of the claimed admissibility/trace property rejects that specified horizon mechanism.",
+        "Absent state/metric-variation data retains separate open questions, not a combined theorem."
+      ],
+      "title": "H1 observation horizon",
+      "source_necessity": "conditional or absent until the specified physical bridge",
+      "new_choice_families_adopted": 0
+    },
+    {
+      "id": "m2",
+      "hypothesis": "H2 relational records or commit selection",
+      "pillars": [
+        "predictive_dynamics"
+      ],
+      "layer": "class",
+      "track": [
+        "GU*"
+      ],
+      "rank": 20.5,
+      "status": "interpretation_until_state_instrument_record_map",
+      "cheapest_test_or_revival": "Specify the same experiment, physical state/domain and gauge-invariant record probability for two proposed mechanisms; determine whether predictions differ. Reuse l1 and exact scoped local-selector exclusions.",
+      "inference_limit": "Finite-jet nonautonomy is not a theorem against every local equation-style law; no relational commit rule, contextual empirical model or Lawvere hypotheses follow automatically.",
+      "three_state": {
+        "ESTABLISHED": "Owned finite-jet/nonautonomy and selected local-complement obstructions within their quantified classes; operational records differ from geometric restriction.",
+        "RULED_OUT": "Only the exact local selector/complement families already covered by their proofs; neither all selection laws nor a relational mechanism is ruled out here.",
+        "NOT_MODELED_UNDETERMINED": "A source-supplied record/instrument, outcome law or empirical distinction beyond ordinary quantum/decoherence predictions."
+      },
+      "source_refs": [
+        "lab/process/observation-physical-carrier-custody-2026-11-27.md",
+        "lab/process/falsification-progress-map.json#ranked_options_2026_11_27"
+      ],
+      "outcomes": [
+        "Distinct defined record predictions produce a falsifiable comparison.",
+        "Equal predictions make the proposed difference interpretive for that experiment.",
+        "Undefined physical readout leaves no executable scientific discriminator."
+      ],
+      "title": "H2 relational records or commit selection",
+      "source_necessity": "conditional or absent until the specified physical bridge",
+      "new_choice_families_adopted": 0
+    }
+  ],
+  "literature": [
+    {
+      "url": "https://arxiv.org/abs/2206.10780",
+      "title": "CLPW: An Algebra of Observables for de Sitter Space",
+      "status": "primary comparison",
+      "relevance": "Observer-dressed static-patch algebra and gravitational constraints yield a typeII1 trace/entropy construction. This does not transfer from GU geometric volume or b=H alone; GU observer algebra, positive states and dynamics are unprovided here."
+    },
+    {
+      "url": "https://arxiv.org/abs/2203.13342",
+      "title": "Adlam-Rovelli: Information is Physical, Cross-Perspective Links in Relational Quantum Mechanics",
+      "status": "primary comparison",
+      "relevance": "Adds a postulate connecting physical observer records and intersubjective access. It is a comparison mechanism, not a consequence of GU nonautonomy or a supplied GU instrument."
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9689795/",
+      "title": "Zurek authored review of quantum Darwinism",
+      "status": "prior-art pointer checked in bounded specialist review",
+      "relevance": "Interaction-dependent pointer states and environment records; no GU state or interaction map supplied."
+    },
+    {
+      "url": "https://www.tac.mta.ca/tac/reprints/articles/15/tr15abs.html",
+      "title": "Lawvere fixed-point theorem reprint",
+      "status": "prior-art pointer; root fetch timed out, specialist consulted",
+      "relevance": "Needs an actual category/evaluation and weak point-surjectivity. No new physical realization asserted."
+    }
+  ],
+  "novelty_claim": "none; bounded prior-art comparison only",
+  "follow_through": {
+    "consumed": [
+      "Ricci-flat full ambient first-normal source-jet test",
+      "Treating horizontal Weyl annihilation as all off-section LC blindness",
+      "Repeating conditional14D/complete16 anomaly arithmetic as a dark-sector selector"
+    ],
+    "survivors": [
+      "Full endpoint T response and all admissible completions not tested",
+      "Physical current/stress/domain and native grading observation bridge",
+      "Explicitly specified horizon/record mechanisms outside tested geometric statements"
+    ],
+    "next": "Compare complete printed endpoint jets, including P_gT and Q(T,T), on an explicitly admissible completion or a structurally quantified jet class. The LC forcing alone cannot reject even an unchanged-coefficient transported lift. Preserve source-required observable/current and shared-section alternatives; ordinary cadence unchanged."
+  },
+  "accounting": {
+    "counter_before": 105,
+    "counter_after": 106,
+    "LB_LADDER_before": 19,
+    "LB_LADDER_after": 20,
+    "bet_credit": 0,
+    "verdict_changes": 0
+  },
+  "effect_line": "Change: full ambient normal-order source response resolved and three synthesis hypotheses ranked; why: avoid false first-order/interpretive inferences; authority: standing27h plus k/l/m; applied as scoped evidence and ordinary ranking. No governance, choice or source/ledger verdict changes."
+}

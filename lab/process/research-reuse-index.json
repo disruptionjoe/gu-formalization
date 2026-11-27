@@ -2073,6 +2073,58 @@
         "receipt_ref": "lab/process/global-reduction-selection-boundary.json#verification",
         "scope": "Exact finite controls; topology/probability writtenreviewed, sourcebridge separatelytyped."
       }
+    },
+    {
+      "id": "ricci-flat-ambient-source-jets-2026-11-27",
+      "kind": "result",
+      "owner_ref": "explorations/conditional-build/ricci-flat-ambient-source-jets-2026-11-27.md",
+      "tested_statement": "For every Ricci-flat four-base in the existing source-guided tautological connection metric, full ambient Ricci/Einstein source differences vanish at value and first normal order. Schwarzschild has nonzero second normal response: Ric00 Hessian +12rho^2 in K95 and -12rho^2 in the explicit flipped K77 port; Einstein00 is half. No completion or physical black-hole verdict.",
+      "signature": {
+        "object": "Full ambient LC source normal jets",
+        "carrier": "Tautological connection metric H4 plus native symmetric normal10",
+        "convention": "Trace reversal1/2; K95 and explicit flippedK77; coherent LC spin map conditional",
+        "class": "All Ricci-flat4 bases for first-jet cancellation; Schwarzschild second-jet witness",
+        "premises": [
+          "explorations/conditional-build/source-chimeric-trace-compatibility-2026-11-13.md",
+          "explorations/conditional-build/shiab-bianchi-companion-class-2026-11-27.md"
+        ]
+      },
+      "attributed_status": "internal_T2_curvature_source_jets_reviewed",
+      "status_ref": "lab/process/curvature-jets-and-syntheses-2026-11-27.json#status",
+      "source_bridge_ref": "lab/process/curvature-jets-and-syntheses-2026-11-27.json#source_bridge",
+      "certificate_refs": [
+        "lab/process/ricci-flat-source-jets-certificates.json"
+      ],
+      "control_refs": [
+        "tests/program-focus/ricci_flat_source_jets_probe.py"
+      ],
+      "survivors_ref": "lab/process/curvature-jets-and-syntheses-2026-11-27.json#follow_through",
+      "reopen_condition_ref": "explorations/conditional-build/ricci-flat-ambient-source-jets-2026-11-27.md",
+      "superseded_by": null,
+      "cache": {
+        "artifacts": [
+          {
+            "path": "explorations/conditional-build/ricci-flat-ambient-source-jets-2026-11-27.md",
+            "sha256": "7037bb9d31e05d9966ec05e9d4ca124d0772e5dd3a51295c2904a956b75478bc"
+          },
+          {
+            "path": "tests/program-focus/ricci_flat_source_jets_probe.py",
+            "sha256": "a73aa67c29c17f65afbdd04b5d2a250b1eb06331e76cbbc12fb561cdce5b7fab"
+          },
+          {
+            "path": "lab/process/ricci-flat-source-jets-certificates.json",
+            "sha256": "6b89eb21b9226b1fc3f0a3d32a90e37b16be98a1f2e64664a8678a47b08660c3"
+          }
+        ],
+        "verifier": {
+          "command": "python3",
+          "args": [
+            "tests/program-focus/ricci_flat_source_jets_probe.py"
+          ]
+        },
+        "receipt_ref": "lab/process/curvature-jets-and-syntheses-2026-11-27.json#verification",
+        "scope": "sympy1.14.0 exact finite controls; mixed/all-base proof written/reviewed; full endpoint excluded from test."
+      }
     }
   ]
 }

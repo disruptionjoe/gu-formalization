@@ -3155,5 +3155,24 @@
         "effect": "unchanged; no new choice adopted"
       }
     }
+  },
+  "curvature_jets_2026_11_27": {
+    "evidence": [
+      "explorations/conditional-build/ricci-flat-ambient-source-jets-2026-11-27.md",
+      "lab/process/curvature-jets-and-syntheses-2026-11-27.json"
+    ],
+    "actual_delta": "For every Ricci-flat four-base in the existing source-guided tautological connection metric, full ambient Ricci/Einstein source differences vanish at value and first normal order. Schwarzschild has nonzero second normal response: Ric00 Hessian +12rho^2 in K95 and -12rho^2 in the explicit flipped K77 port; Einstein00 is half. No completion or physical black-hole verdict.",
+    "consumed": [
+      "Ricci-flat full ambient first-normal source-jet test",
+      "Treating horizontal Weyl annihilation as all off-section LC blindness",
+      "Repeating conditional14D/complete16 anomaly arithmetic as a dark-sector selector"
+    ],
+    "survivors": [
+      "Full endpoint T response and all admissible completions not tested",
+      "Physical current/stress/domain and native grading observation bridge",
+      "Explicitly specified horizon/record mechanisms outside tested geometric statements"
+    ],
+    "next": "Compare complete printed endpoint jets, including P_gT and Q(T,T), on an explicitly admissible completion or a structurally quantified jet class. The LC forcing alone cannot reject even an unchanged-coefficient transported lift. Preserve source-required observable/current and shared-section alternatives; ordinary cadence unchanged.",
+    "hypotheses_27m_ref": "lab/process/curvature-jets-and-syntheses-2026-11-27.json#hypotheses_27m"
   }
 }

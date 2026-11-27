@@ -1812,7 +1812,7 @@
     },
     "LB-LADDER": {
       "zero_delta_streak": 0,
-      "runs": 19,
+      "runs": 20,
       "status": "open"
     }
   },
@@ -2726,7 +2726,7 @@
   ],
   "program_run_counter": {
     "since": "2026-11-09",
-    "count": 105,
+    "count": 106,
     "rule": "Every hourly run increments this in its postflight, whatever its lane. Lane C runs when count % 4 == 3 before the increment."
   },
   "working_rule": "Cells are worked at the structure level: a requirement must hold for every action in class C or for a structurally defined subfamily. No cell is worked by writing down a specific action, and no gated cell is worked by building its gate object. See CURRENT-STATE.yaml program_focus.structure_not_specifics.",
@@ -3681,6 +3681,15 @@
       "counter_after": 105,
       "lane": "LB-LADDER",
       "selection": "FullY normal lift detection and typeD probability-bound counterexamples."
+    },
+    {
+      "date": "2026-11-27",
+      "authority": "joe_direct_chat_2026_11_27_h",
+      "item": "ricci-flat-ambient-source-jets",
+      "counter_before": 105,
+      "counter_after": 106,
+      "lane": "LB-LADDER",
+      "selection": "Whole Ricci-flat class source-jet order and Schwarzschild quadratic witness."
     }
   ],
   "directed_lc_carry_2026_11_24_b": {
@@ -7106,5 +7115,18 @@
       }
     },
     "status_effect": "No cell/intersection/shrinkage/ledger verdict changes."
+  },
+  "curvature_jets_2026_11_27": {
+    "status": "internal_T2_curvature_source_jets_reviewed",
+    "actual_delta": "For every Ricci-flat four-base in the existing source-guided tautological connection metric, full ambient Ricci/Einstein source differences vanish at value and first normal order. Schwarzschild has nonzero second normal response: Ric00 Hessian +12rho^2 in K95 and -12rho^2 in the explicit flipped K77 port; Einstein00 is half. No completion or physical black-hole verdict.",
+    "evidence": [
+      "explorations/conditional-build/ricci-flat-ambient-source-jets-2026-11-27.md",
+      "lab/process/curvature-jets-and-syntheses-2026-11-27.json"
+    ],
+    "source_bridge": {
+      "status": "conditional",
+      "reason": "Existing source-guided coordinate completion; coherent upstairs LC-to-printed-B and actual Clifford/Hodge convention must be bound. Nonzero source term is not full residual."
+    },
+    "status_effect": "No cell/intersection/shrinkage/source/ledger verdict changes."
   }
 }
