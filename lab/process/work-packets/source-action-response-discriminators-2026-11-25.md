@@ -296,3 +296,16 @@ Directed68to69/LBCLASS27to28; choices10/4/net6 and0 source-selected predictions 
 Mandatory basis: Joe continued falsification direction. Scope: held W2/K95 candidate and actual generated source family; source necessity absent. Shared prerequisite affects physical interpretation, not this finite test. Remaining cost is exact source projection/spanning/membership; strongest source-facing alternative is physical weak response with named missing inputs.
 
 Optimization at Joe request: resumable exactclosure, reusable integercubic/factoredP, exactbigint Neumannreplay, authenticated dataunpack, cheapstatus and native benchmark; acceptance conditions unchanged. Directed69to70/LBCLASS28to29; choices10/4/net6 and0 source-selected predictions unchanged. No governance, schedule, scientific verdict or paper effect.
+
+
+## Current continuation: actual first-jet source census (2026-11-26)
+
+[Result](../../../explorations/conditional-build/source-action-firstjet-source-census-2026-11-26.md) · [evidence and quick20](../source-action-firstjet-source-census.json). Consumes the preceding ready source-census step; retains all original candidate/source boundaries.
+
+- **Done:** exhaustive low-spin channel reduction for first-order extension along the two Q7 modules;4 spin4 +18 spin5 channels.6 covered,16 uncovered; exact quotient dimension15. Both old pointwise controls and402 receiver reality tests pass.
+- **Ready — LB-CLASS/T2:** exact source/dual discriminator on the15-dimensional quotient, beginning with sparse56-term spin5 source. Seek a genuine native adjoint-cokernel pairing or a proved intertwiner into an existing certified receiver before a new inverse. Expected delta: actual incompatibility or certified range reuse. Kill only by true native cokernel inconsistency, never by receiver nonmembership or a failed trial map.
+- **Blocked physical bridge:** authentic common domain/quotient, normalized readout and propagation still absent. No completion or new choice invented.
+
+Mandatory basis: Joe continued falsification direction. Scope: fixed W2/K95 at both roots, twoQ7 generated firstjets; source necessity absent. Shared physical prerequisites do not block this finite question. Remaining cost: one native exact dual/source test with full residual; strongest source-facing alternative needs authenticated weak-readout data. The census is consumed and should not be recomputed as new progress.
+
+Nov26(g) counterfactual memo is proposal-only; its tests, governance and schedule changes were not executed. Directed70to71/LBCLASS29to30; choice budget10/4/net6 and0 source-selected predictions unchanged.

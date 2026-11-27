@@ -1,0 +1,946 @@
+{
+  "artifact": "source-action-firstjet-source-census-2026-11-26",
+  "date": "2026-11-26",
+  "authority": "joe_direct_chat_2026_11_26_continued_falsification_math20",
+  "basis_revision": "fc89c976e6c7cafcd4acb277370dfef4518ea9aa",
+  "status": "internal_T2_reviewed",
+  "actual_delta": "Complete actual two-Q7 first-jet census:4 spin4 and18 spin5 channels;6 covered by certified receivers,16 uncovered spanning a15-dimensional quotient. No candidate/GU exclusion; no new inverse or physical choice.",
+  "claim_effect": "No source/physics/canon/classC/scientific-matrix/paper verdict change",
+  "choice_budget_delta": 0,
+  "scope": {
+    "operator": "Held W2/K95 M=P(I+2N(T))P on N=kerKdt",
+    "domain_of_source_map": "Two actual Q7 modules, all LC/adapted-frame connection and principal slots, first-order extension alongQ",
+    "family": "Geometric source spanning independent of both root values; covered-channel range verdict uses alreadycertified E4/E5 root-box inverses",
+    "not_claimed": [
+      "FullR lift",
+      "higherjets or nonlinear completion",
+      "physical state/energy/readout",
+      "source necessity or classC representativeness"
+    ]
+  },
+  "source_census": {
+    "spin4": {
+      "channels": 4,
+      "covered": 2,
+      "uncovered": 2,
+      "uncovered_rank": 2
+    },
+    "spin5": {
+      "channels": 18,
+      "covered": 4,
+      "uncovered": 14,
+      "uncovered_rank": 13
+    },
+    "pointwise_controls": {
+      "channels": 2,
+      "covered": 2
+    },
+    "uncovered_quotient_dimension": 15,
+    "exact_dependency": "case16=3*case7",
+    "all_uncovered_support_disjoint_from_receiver": true,
+    "source_records": [
+      {
+        "index": 0,
+        "Q7_basis_index": 5,
+        "connection_family": "horizontal",
+        "intermediate": "W6",
+        "principal_axis": 5,
+        "target_spin": 4,
+        "channel": "K2_W6_to4",
+        "source_terms": 380,
+        "zero": false,
+        "inside_receiver": false,
+        "source_cosets": [
+          0,
+          3
+        ],
+        "source_outside_receiver_coordinate_support": 380,
+        "remainder_terms": 380,
+        "remainder_cosets": [
+          0,
+          3
+        ],
+        "controls": {
+          "full_axis8_equals_i_axis5": true
+        }
+      },
+      {
+        "index": 1,
+        "Q7_basis_index": 12,
+        "connection_family": "horizontal",
+        "intermediate": "W6",
+        "principal_axis": 5,
+        "target_spin": 4,
+        "channel": "K2_W6_to4",
+        "source_terms": 380,
+        "zero": false,
+        "inside_receiver": false,
+        "source_cosets": [
+          0,
+          3
+        ],
+        "source_outside_receiver_coordinate_support": 380,
+        "remainder_terms": 380,
+        "remainder_cosets": [
+          0,
+          3
+        ],
+        "controls": {
+          "full_axis8_equals_i_axis5": true
+        }
+      },
+      {
+        "index": 2,
+        "Q7_basis_index": 5,
+        "connection_family": "normal",
+        "intermediate": "W6",
+        "principal_axis": 5,
+        "target_spin": 4,
+        "channel": "K2_W6_to4",
+        "source_terms": 344,
+        "zero": false,
+        "inside_receiver": true,
+        "source_cosets": [
+          0,
+          3
+        ],
+        "source_outside_receiver_coordinate_support": 0,
+        "remainder_terms": 0,
+        "remainder_cosets": [],
+        "controls": {
+          "full_axis8_equals_i_axis5": true
+        }
+      },
+      {
+        "index": 3,
+        "Q7_basis_index": 12,
+        "connection_family": "normal",
+        "intermediate": "W6",
+        "principal_axis": 5,
+        "target_spin": 4,
+        "channel": "K2_W6_to4",
+        "source_terms": 472,
+        "zero": false,
+        "inside_receiver": true,
+        "source_cosets": [
+          0,
+          3
+        ],
+        "source_outside_receiver_coordinate_support": 0,
+        "remainder_terms": 0,
+        "remainder_cosets": [],
+        "controls": {
+          "full_axis8_equals_i_axis5": true
+        }
+      },
+      {
+        "index": 4,
+        "Q7_basis_index": 5,
+        "connection_family": "horizontal",
+        "intermediate": "W6",
+        "principal_axis": 0,
+        "target_spin": 5,
+        "channel": "K1_horizontal_W6_to5",
+        "source_terms": 232,
+        "zero": false,
+        "inside_receiver": true,
+        "source_cosets": [
+          1,
+          2
+        ],
+        "source_outside_receiver_coordinate_support": 0,
+        "remainder_terms": 0,
+        "remainder_cosets": [],
+        "controls": {}
+      },
+      {
+        "index": 5,
+        "Q7_basis_index": 5,
+        "connection_family": "horizontal",
+        "intermediate": "W6",
+        "principal_axis": 10,
+        "target_spin": 5,
+        "channel": "K1_normal_W6_to5",
+        "source_terms": 312,
+        "zero": false,
+        "inside_receiver": false,
+        "source_cosets": [
+          1,
+          2
+        ],
+        "source_outside_receiver_coordinate_support": 312,
+        "remainder_terms": 312,
+        "remainder_cosets": [
+          1,
+          2
+        ],
+        "controls": {}
+      },
+      {
+        "index": 6,
+        "Q7_basis_index": 5,
+        "connection_family": "horizontal",
+        "intermediate": "W6",
+        "principal_axis": 9,
+        "target_spin": 5,
+        "channel": "K2_W6_to5",
+        "source_terms": 168,
+        "zero": false,
+        "inside_receiver": false,
+        "source_cosets": [
+          5,
+          6
+        ],
+        "source_outside_receiver_coordinate_support": 168,
+        "remainder_terms": 168,
+        "remainder_cosets": [
+          5,
+          6
+        ],
+        "controls": {
+          "K5_spin5_weight": 4,
+          "raise_K5_to_K9_factor": "-2",
+          "lower_raise_factor": "-10",
+          "K5_from_lower_K9_factor": "1/5"
+        }
+      },
+      {
+        "index": 7,
+        "Q7_basis_index": 5,
+        "connection_family": "horizontal",
+        "intermediate": "W7",
+        "principal_axis": 5,
+        "target_spin": 5,
+        "channel": "K2_W7_to5",
+        "source_terms": 112,
+        "zero": false,
+        "inside_receiver": false,
+        "source_cosets": [
+          5,
+          6
+        ],
+        "source_outside_receiver_coordinate_support": 112,
+        "remainder_terms": 112,
+        "remainder_cosets": [
+          5,
+          6
+        ],
+        "controls": {}
+      },
+      {
+        "index": 8,
+        "Q7_basis_index": 5,
+        "connection_family": "normal",
+        "intermediate": "W6",
+        "principal_axis": 0,
+        "target_spin": 5,
+        "channel": "K1_horizontal_W6_to5",
+        "source_terms": 56,
+        "zero": false,
+        "inside_receiver": false,
+        "source_cosets": [
+          1,
+          2
+        ],
+        "source_outside_receiver_coordinate_support": 56,
+        "remainder_terms": 56,
+        "remainder_cosets": [
+          1,
+          2
+        ],
+        "controls": {}
+      },
+      {
+        "index": 9,
+        "Q7_basis_index": 5,
+        "connection_family": "normal",
+        "intermediate": "W6",
+        "principal_axis": 10,
+        "target_spin": 5,
+        "channel": "K1_normal_W6_to5",
+        "source_terms": 280,
+        "zero": false,
+        "inside_receiver": true,
+        "source_cosets": [
+          1,
+          2
+        ],
+        "source_outside_receiver_coordinate_support": 0,
+        "remainder_terms": 0,
+        "remainder_cosets": [],
+        "controls": {}
+      },
+      {
+        "index": 10,
+        "Q7_basis_index": 5,
+        "connection_family": "normal",
+        "intermediate": "W6",
+        "principal_axis": 9,
+        "target_spin": 5,
+        "channel": "K2_W6_to5",
+        "source_terms": 208,
+        "zero": false,
+        "inside_receiver": false,
+        "source_cosets": [
+          5,
+          6
+        ],
+        "source_outside_receiver_coordinate_support": 208,
+        "remainder_terms": 208,
+        "remainder_cosets": [
+          5,
+          6
+        ],
+        "controls": {
+          "K5_spin5_weight": 4,
+          "raise_K5_to_K9_factor": "-2",
+          "lower_raise_factor": "-10",
+          "K5_from_lower_K9_factor": "1/5"
+        }
+      },
+      {
+        "index": 11,
+        "Q7_basis_index": 5,
+        "connection_family": "normal",
+        "intermediate": "W7",
+        "principal_axis": 5,
+        "target_spin": 5,
+        "channel": "K2_W7_to5",
+        "source_terms": 184,
+        "zero": false,
+        "inside_receiver": false,
+        "source_cosets": [
+          5,
+          6
+        ],
+        "source_outside_receiver_coordinate_support": 184,
+        "remainder_terms": 184,
+        "remainder_cosets": [
+          5,
+          6
+        ],
+        "controls": {}
+      },
+      {
+        "index": 12,
+        "Q7_basis_index": 5,
+        "connection_family": "time",
+        "intermediate": "W7",
+        "principal_axis": 5,
+        "target_spin": 5,
+        "channel": "K2_time_W7_to5",
+        "source_terms": 112,
+        "zero": false,
+        "inside_receiver": false,
+        "source_cosets": [
+          1,
+          2
+        ],
+        "source_outside_receiver_coordinate_support": 112,
+        "remainder_terms": 112,
+        "remainder_cosets": [
+          1,
+          2
+        ],
+        "controls": {}
+      },
+      {
+        "index": 13,
+        "Q7_basis_index": 12,
+        "connection_family": "horizontal",
+        "intermediate": "W6",
+        "principal_axis": 0,
+        "target_spin": 5,
+        "channel": "K1_horizontal_W6_to5",
+        "source_terms": 232,
+        "zero": false,
+        "inside_receiver": true,
+        "source_cosets": [
+          1,
+          2
+        ],
+        "source_outside_receiver_coordinate_support": 0,
+        "remainder_terms": 0,
+        "remainder_cosets": [],
+        "controls": {}
+      },
+      {
+        "index": 14,
+        "Q7_basis_index": 12,
+        "connection_family": "horizontal",
+        "intermediate": "W6",
+        "principal_axis": 10,
+        "target_spin": 5,
+        "channel": "K1_normal_W6_to5",
+        "source_terms": 312,
+        "zero": false,
+        "inside_receiver": false,
+        "source_cosets": [
+          1,
+          2
+        ],
+        "source_outside_receiver_coordinate_support": 312,
+        "remainder_terms": 312,
+        "remainder_cosets": [
+          1,
+          2
+        ],
+        "controls": {}
+      },
+      {
+        "index": 15,
+        "Q7_basis_index": 12,
+        "connection_family": "horizontal",
+        "intermediate": "W6",
+        "principal_axis": 9,
+        "target_spin": 5,
+        "channel": "K2_W6_to5",
+        "source_terms": 168,
+        "zero": false,
+        "inside_receiver": false,
+        "source_cosets": [
+          5,
+          6
+        ],
+        "source_outside_receiver_coordinate_support": 168,
+        "remainder_terms": 168,
+        "remainder_cosets": [
+          5,
+          6
+        ],
+        "controls": {
+          "K5_spin5_weight": 4,
+          "raise_K5_to_K9_factor": "-2",
+          "lower_raise_factor": "-10",
+          "K5_from_lower_K9_factor": "1/5"
+        }
+      },
+      {
+        "index": 16,
+        "Q7_basis_index": 12,
+        "connection_family": "horizontal",
+        "intermediate": "W7",
+        "principal_axis": 5,
+        "target_spin": 5,
+        "channel": "K2_W7_to5",
+        "source_terms": 112,
+        "zero": false,
+        "inside_receiver": false,
+        "source_cosets": [
+          5,
+          6
+        ],
+        "source_outside_receiver_coordinate_support": 112,
+        "remainder_terms": 112,
+        "remainder_cosets": [
+          5,
+          6
+        ],
+        "controls": {}
+      },
+      {
+        "index": 17,
+        "Q7_basis_index": 12,
+        "connection_family": "normal",
+        "intermediate": "W6",
+        "principal_axis": 0,
+        "target_spin": 5,
+        "channel": "K1_horizontal_W6_to5",
+        "source_terms": 80,
+        "zero": false,
+        "inside_receiver": false,
+        "source_cosets": [
+          1,
+          2
+        ],
+        "source_outside_receiver_coordinate_support": 80,
+        "remainder_terms": 80,
+        "remainder_cosets": [
+          1,
+          2
+        ],
+        "controls": {}
+      },
+      {
+        "index": 18,
+        "Q7_basis_index": 12,
+        "connection_family": "normal",
+        "intermediate": "W6",
+        "principal_axis": 10,
+        "target_spin": 5,
+        "channel": "K1_normal_W6_to5",
+        "source_terms": 144,
+        "zero": false,
+        "inside_receiver": true,
+        "source_cosets": [
+          1,
+          2
+        ],
+        "source_outside_receiver_coordinate_support": 0,
+        "remainder_terms": 0,
+        "remainder_cosets": [],
+        "controls": {}
+      },
+      {
+        "index": 19,
+        "Q7_basis_index": 12,
+        "connection_family": "normal",
+        "intermediate": "W6",
+        "principal_axis": 9,
+        "target_spin": 5,
+        "channel": "K2_W6_to5",
+        "source_terms": 312,
+        "zero": false,
+        "inside_receiver": false,
+        "source_cosets": [
+          5,
+          6
+        ],
+        "source_outside_receiver_coordinate_support": 312,
+        "remainder_terms": 312,
+        "remainder_cosets": [
+          5,
+          6
+        ],
+        "controls": {
+          "K5_spin5_weight": 4,
+          "raise_K5_to_K9_factor": "-2",
+          "lower_raise_factor": "-10",
+          "K5_from_lower_K9_factor": "1/5"
+        }
+      },
+      {
+        "index": 20,
+        "Q7_basis_index": 12,
+        "connection_family": "normal",
+        "intermediate": "W7",
+        "principal_axis": 5,
+        "target_spin": 5,
+        "channel": "K2_W7_to5",
+        "source_terms": 296,
+        "zero": false,
+        "inside_receiver": false,
+        "source_cosets": [
+          5,
+          6
+        ],
+        "source_outside_receiver_coordinate_support": 296,
+        "remainder_terms": 296,
+        "remainder_cosets": [
+          5,
+          6
+        ],
+        "controls": {}
+      },
+      {
+        "index": 21,
+        "Q7_basis_index": 12,
+        "connection_family": "time",
+        "intermediate": "W7",
+        "principal_axis": 5,
+        "target_spin": 5,
+        "channel": "K2_time_W7_to5",
+        "source_terms": 112,
+        "zero": false,
+        "inside_receiver": false,
+        "source_cosets": [
+          1,
+          2
+        ],
+        "source_outside_receiver_coordinate_support": 112,
+        "remainder_terms": 112,
+        "remainder_cosets": [
+          1,
+          2
+        ],
+        "controls": {}
+      },
+      {
+        "index": 22,
+        "Q7_basis_index": 5,
+        "connection_family": "pointwise",
+        "intermediate": "V",
+        "principal_axis": 5,
+        "target_spin": 5,
+        "channel": "pointwise_Q_principal",
+        "source_terms": 112,
+        "zero": false,
+        "inside_receiver": true,
+        "source_cosets": [
+          1,
+          2
+        ],
+        "source_outside_receiver_coordinate_support": 0,
+        "remainder_terms": 0,
+        "remainder_cosets": [],
+        "controls": {}
+      },
+      {
+        "index": 23,
+        "Q7_basis_index": 12,
+        "connection_family": "pointwise",
+        "intermediate": "V",
+        "principal_axis": 5,
+        "target_spin": 5,
+        "channel": "pointwise_Q_principal",
+        "source_terms": 112,
+        "zero": false,
+        "inside_receiver": true,
+        "source_cosets": [
+          1,
+          2
+        ],
+        "source_outside_receiver_coordinate_support": 0,
+        "remainder_terms": 0,
+        "remainder_cosets": [],
+        "controls": {}
+      }
+    ]
+  },
+  "geometry_controls": {
+    "normal_Nomizu_zero": true,
+    "horizontal_HN_mixing_formula": true,
+    "canonical_adapted_nonzero_axes": [
+      0,
+      1,
+      2,
+      3,
+      10,
+      12,
+      13
+    ],
+    "SO3_connection_matrix_intertwining_checks": 42,
+    "tangent_decomposition": "3V0+2V1+V2",
+    "no_normal_spin2_connection_component": true,
+    "full_oneform_plus_End_action": true,
+    "halfturn_signs": [
+      1,
+      -1,
+      -1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      -1,
+      -1,
+      1,
+      1,
+      -1,
+      -1
+    ],
+    "all59_backgrounds_halfturn_fixed": true
+  },
+  "reality": {
+    "4": {
+      "vectors_tested": 282,
+      "added_directions": 0
+    },
+    "5": {
+      "vectors_tested": 120,
+      "added_directions": 0
+    }
+  },
+  "source_bridge": {
+    "status": "conditional",
+    "weakest_unproved_link": "Source-required W2 physical operator/admission/readout and unrestricted auxiliary lift",
+    "source_necessary_exclusion": "absent",
+    "class_C_representativeness": "unchanged/unproved"
+  },
+  "three_state": {
+    "ESTABLISHED": "Complete actual two-Q7 first-jet census:4 spin4 and18 spin5 channels;6 covered by certified receivers,16 uncovered spanning a15-dimensional quotient. No candidate/GU exclusion; no new inverse or physical choice.",
+    "RULED_OUT": "No GU/classC/candidate/root exclusion; existing receivers do not cover the entire generated source family",
+    "NOT_MODELED_UNDETERMINED": "Native range membership of remaining15-dimensional source quotient; physical admission/normalization/propagation and source necessity"
+  },
+  "math_reassessment": {
+    "method": "One compact pass over20 mathematical descriptions, including category theory and number theory; no persona agents or new computation. Reuses the exact census and source-scope assessment.",
+    "basis": "fc89c976e6c7cafcd4acb277370dfef4518ea9aa plus exact firstjet-census.json and parent-reported dependence certificate:16 uncovered channels span15 directions, spin4 rank2 and spin5 rank13, case16=3 case7.",
+    "lenses": [
+      {
+        "id": 1,
+        "specialty": "Linear algebra",
+        "delta": "Exact compression is consumed at rank15; test certified relations before enlarging a receiver."
+      },
+      {
+        "id": 2,
+        "specialty": "Representation theory",
+        "delta": "The4-spin4/18-spin5 census is complete at its declared two-Q7 input scope."
+      },
+      {
+        "id": 3,
+        "specialty": "Clifford algebra",
+        "delta": "Preserve native products and the authenticated adjoint; a plus-adjoint flip is comparator-only."
+      },
+      {
+        "id": 4,
+        "specialty": "Differential geometry",
+        "delta": "Horizontal and normal vector connection families remain distinct."
+      },
+      {
+        "id": 5,
+        "specialty": "Constrained PDE",
+        "delta": "First-jet range is a necessary condition, not full dynamics."
+      },
+      {
+        "id": 6,
+        "specialty": "Functional analysis",
+        "delta": "Support outside a finite receiver is not outside the full operator range."
+      },
+      {
+        "id": 7,
+        "specialty": "Symplectic geometry",
+        "delta": "No physical radical or physical quotient is supplied by this census."
+      },
+      {
+        "id": 8,
+        "specialty": "Gauge theory",
+        "delta": "Test actual constraints before interpreting negative modes."
+      },
+      {
+        "id": 9,
+        "specialty": "Category theory",
+        "delta": "A comparator must preserve the relevant maps and structures before any transfer."
+      },
+      {
+        "id": 10,
+        "specialty": "Number theory and exact arithmetic",
+        "delta": "Exact Gaussian-rational dependence and certified root arithmetic replace numerical ranks."
+      },
+      {
+        "id": 11,
+        "specialty": "Algebraic geometry",
+        "delta": "Distinguish the two root loci from the full59-parameter family."
+      },
+      {
+        "id": 12,
+        "specialty": "Topology",
+        "delta": "A local solve does not supply a boundary receiver."
+      },
+      {
+        "id": 13,
+        "specialty": "Index theory",
+        "delta": "No physical family count follows from this source census."
+      },
+      {
+        "id": 14,
+        "specialty": "Anomaly theory",
+        "delta": "The prior applicability audit remains consumed."
+      },
+      {
+        "id": 15,
+        "specialty": "Variational calculus",
+        "delta": "A local first variation is not a physical energy instability."
+      },
+      {
+        "id": 16,
+        "specialty": "Perturbation theory",
+        "delta": "Repeating contracted identities cannot decide the uncovered individual jets."
+      },
+      {
+        "id": 17,
+        "specialty": "Harmonic analysis",
+        "delta": "Base bandwidth does not constrain normal frequencies."
+      },
+      {
+        "id": 18,
+        "specialty": "Probability and measure",
+        "delta": "No new physical norm is selected."
+      },
+      {
+        "id": 19,
+        "specialty": "Observability",
+        "delta": "Physical readout remains separate from coefficient nonzero."
+      },
+      {
+        "id": 20,
+        "specialty": "Decision theory",
+        "delta": "Prefer results that change claim status or scope, a scientific decision, a reusable constraint, or the next action; an informative bound or certificate can remain valuable with the same successor. Completed compression informs bounded intertwiner or dual tests before inverse construction."
+      }
+    ],
+    "ranking": [
+      {
+        "rank": 1,
+        "task": "Bounded exact supplied-intertwiner identities",
+        "status": "proposed_successor_not_executed",
+        "reason": "If a concrete map is supplied, check full-carrier source transport and M-intertwining against a certified receiver before constructing an inverse. Success transfers only the stated certificate; failure rejects only the shortcut. No generic covariance implication is assumed."
+      },
+      {
+        "rank": 2,
+        "task": "One actual-root adjoint-cokernel or range test",
+        "status": "proposed_successor_not_executed",
+        "reason": "Use one small independent reached source if no certified transfer is available. The56-term normal-connection/horizontal-principal spin5 source is the sparsest exposed seed, but support size alone does not predict module size. A genuine full-carrier adjoint-kernel pairing can exclude the specified candidate realization; a solve consumes only that source."
+      },
+      {
+        "rank": null,
+        "task": "Source-admitted low-curvature physical readout",
+        "status": "missing_authentic_physical_input",
+        "reason": "Strongest source-level alternative, but the census supplies neither common admitted domain/quotient nor normalized readout and propagation law."
+      }
+    ],
+    "policy_effect": "none; exact compression and source census are consumed evidence. No new inverse, counterfactual suite, choice family, source verdict or governance change executed. W2/K95 candidate scope only; source necessity and physical admission remain unproved."
+  },
+  "counterfactual_proposal": {
+    "status": "proposal_only_not_executed",
+    "authority": "joe_direct_chat_2026_11_26_g",
+    "ranking_basis": "Qualitative expected time saved; no timing or success probabilities measured. None of these new suites is executed or authorized by this assessment.",
+    "ranked_items": [
+      {
+        "rank": 1,
+        "item": "Outcome-to-action / value-of-information table",
+        "reason": "Very low preparation cost. Defer only if no possible outcome changes claim status or scope, a scientific decision, a reusable constraint, or the next action. An informative bound or certificate can be valuable even when both outcomes have the same successor. Apply this as a lightweight proposed field for the four queues, not a new stop gate."
+      },
+      {
+        "rank": 2,
+        "item": "Success requirements with premise typing",
+        "reason": "Cheap filter against irrelevant constructions. An empirically acceptable weak-field regime and physical stability must be tied to a defined observable/domain. Connection to these roots or the selected zero-matter branch is a repository assumption unless separately required, not automatic GU necessity."
+      },
+      {
+        "rank": 3,
+        "item": "Matched known-theory pipeline controls",
+        "reason": "Potentially high savings before a physical-ghost inference. Start with one diagnostic whose outcome changes that inference. GR conformal directions require physical constraints; specify the actual Stelle action/signs and conformal-gravity boundary/domain; ordinary Dirac requires a correctly typed fermion observable. A detached suite has little immediate decision value."
+      },
+      {
+        "rank": 4,
+        "item": "Targeted choice sensitivity",
+        "reason": "Change only a load-bearing family for one pending verdict, transporting dependent structures consistently. A10-family by4-verdict grid is costly and mixes conditional constructions. Plus/reversion is a comparator, not a source-permitted alternative to authenticated minus/conjugation; its flip diagnoses build dependence only."
+      },
+      {
+        "rank": 5,
+        "item": "Same-content4D comparator",
+        "reason": "Useful for one matched obstruction: persistence flags a generic mechanism or pipeline dependence; disappearance identifies dependence on the removed construction. Define the reduction/deletion map first. Neither outcome is GU evidence."
+      },
+      {
+        "rank": 6,
+        "item": "Euclidean-base counterfactual",
+        "reason": "Can locate signature dependence but changes fibre geometry, real form and the meaning of time/energy. Persistent raw negativity does not answer the Lorentzian physical-ghost question. Do not silently retain K95 data."
+      },
+      {
+        "rank": 7,
+        "item": "Base2/Y5 and base3/Y9 toys",
+        "reason": "Highest setup risk for little immediate decision value. Dimension changes Clifford type, grading, Hodge/vertex typing and multiplicities. Use only after identifying a dimension-stable mechanism and an outcome that changes the14D plan; independent toy results do not transfer automatically."
+      }
+    ],
+    "outcome_action": {
+      "weak_response": {
+        "admitted_normalized_response_nonzero": "Test the stated source or observable bound.",
+        "admitted_normalized_response_zero": "Close only the tested channel.",
+        "common_admitted_domain_or_readout_absent": "Defer this physical inference while continuing finite candidate work; the existing local-Q nonzero functional is already banked."
+      },
+      "path_continuation": {
+        "connection_proved": "Use it only for a named shared-boundary or branch theorem.",
+        "disconnection_proved": "Exclude only that continuation route.",
+        "no_outcome_changes_claim_scope_scientific_decision_reusable_constraint_or_next_action": "Defer only under this stronger condition; the same successor alone is insufficient. GU success does not require classical continuation to our two stationary roots."
+      },
+      "spin4_spin5_compatibility": {
+        "true_nonzero_adjoint_kernel_pairing": "Scoped exclusion of the specified candidate realization.",
+        "certified_solve": "Consume that source and rerank.",
+        "no_certificate": "Remain unresolved; coordinate-support separation is not a cokernel obstruction."
+      },
+      "BRST": {
+        "actual_action_domain_compatible_differential_fails_nilpotency_or_claimed_quotient": "Reject that completion.",
+        "actual_differential_and_quotient_pass": "Use precisely the proved quotient; algebraic BRST success alone is not positivity or GU consistency.",
+        "physical_differential_or_domain_absent": "Constructing one is not a short discriminator."
+      }
+    },
+    "three_state_summary": {
+      "established": "Complete4-spin4/18-spin5 generated-source census;2spin4 and4spin5 covered, plus2old controls;16uncovered channels span15 directions.",
+      "ruled_out": "The assertion that the existing certified receivers cover every generated first-jet source.",
+      "undetermined": "Solvability of the uncovered directions, full-R compatibility and every physical or GU consequence."
+    },
+    "scope": "No new choice family, source-claim verdict or governance change. Comparators are not GU evidence.",
+    "voi_caveat": "Same-next-action outcomes do not by themselves justify deferral. Reusable bounds, certificates and scope decisions count as value. This remains a proposed lightweight assessment field, not a stopping rule."
+  },
+  "next_worksets": [
+    {
+      "id": "actual_firstjet_source_dual_screen",
+      "status": "ready",
+      "target": "LB-CLASS",
+      "tier": "T2",
+      "task": "Use the exact15-dimensional uncovered source quotient to seek a true native adjoint-cokernel pairing or a proved existing-receiver intertwiner, beginning with the sparse56-term spin5 source; only then justify any new inverse.",
+      "expected_delta": "A certified incompatibility or a reusable source-range certificate on an actual uncovered channel",
+      "class_covered": "Held W2/K95 two root boxes and generated firstjets along two Q7 modules, not allR or classC",
+      "source_bridge": "Conditional candidate test; W2/fullR necessity and physical admission absent",
+      "remaining_cost": "One exact source/dual discriminator with complete native residual checks; prior receivers and completed source census reused",
+      "kill_condition": "Only a genuine native cokernel pairing at an actual root can exclude this realization; failure of a chosen dual ansatz or transport is not exclusion"
+    },
+    {
+      "id": "physical_weak_readout",
+      "status": "blocked_on_authentic_admission_and_normalization",
+      "target": "LB-CLASS",
+      "tier": "T2",
+      "task": "Transport the local constrained response to a source-admitted physical observable",
+      "expected_delta": "Actual observable consequence rather than unnormalized local coefficient",
+      "revival_input": "Authenticated common physical domain/quotient, normalized readout and propagation law",
+      "kill_condition": "OldA01 transfer remains inapplicable; inventing a new norm, cutoff or physical completion is not an answer"
+    }
+  ],
+  "reproduction": {
+    "probe": "tests/program-focus/source_action_firstjet_source_census_probe.py",
+    "certificate": "lab/process/source-action-firstjet-source-census-certificates.json",
+    "seconds": 31.548256834037602,
+    "bindings": {
+      "probe_sha256": "e94708dc87073fc0a14c79336a10c85d5819a1ffc59cce52b6360dabccb74d70",
+      "native_spin4_probe_sha256": "e78ec1956858f8d6fd8868e84a622a2f31131452e6a1259a04f6f82a169857a8",
+      "native_inputs": {
+        "tests/program-focus/source_action_deep_algebra.py": "4e3800131049e2b397bbce6106bfc5766d2f5fbf996319c50942f3b805d65598",
+        "tests/program-focus/source_action_deep_geometry.py": "7cdfe5f7609300c1ab4fb482f309cfafa52d0aa66cf353ef8b1f9c8be07e52df",
+        "tests/program-focus/source_action_paired_response_probe.py": "72f131477d041c19293a7e191fd099fbe637597e685ac1d84dfe76db8beb8655",
+        "tests/program-focus/source_action_metric_symbol_probe.py": "eccac86c829c48848a4db9ab49d0313601bc3b19aca9a1fc6635520f489254ef",
+        "tests/program-focus/source_action_physical_probe.py": "b0a4b49f18fd6de13f45fc342d00a9e98fdb88cbf479155fd6d1b296c4662c25",
+        "tests/program-focus/source_action_slice_completion_probe.py": "9992fc60da913e8df8507f0dd393299c3d477ed43505af46757fc13575a1e12d",
+        "tests/program-focus/source_action_reduced_evolution_probe.py": "2279acba19fe23ba3cbc77106ef8137fb72c4e758bdf45b1ee3ffe259a617426",
+        "tests/program-focus/source_action_kappa1_constraints_probe.py": "a2387601309af9aff79618e7d8758caf6a38b4b2e3d73849035898f50fffed85",
+        "tests/program-focus/source_action_coupled_ghost_probe.py": "a1730f0dc970e6fdf8e51d90bd789a5b5acf29f7a22b3626b27825ac1daa7160",
+        "lab/process/source-action-kappa1-constraints.json": "5d3401666f8072dd225924e0cc9073c16c7d6c59efd0b4b941e1fcce7ce29233",
+        "lab/process/source-action-reduced-evolution.json": "d299647a410d660a2b01f9612e1ab271368f7a4b3244c91655793aa5ed7e1945",
+        "tests/program-focus/source_action_weak_response_probe.py": "60cf6ae0f16ee6fc4233d49e4bec31753c22bdc2c1d2497c3d76b6d7c1f4e89f"
+      },
+      "background_sha256": "fb4aacfa69cbc1127b7fddf3b4f66811650c1fd3a889363cc6dfab940439b274",
+      "receivers": {
+        "4": {
+          "basis_sha256": "03b5cc1fa86704891f071f2562ec85929815ca4471db8163c57136d216c10214",
+          "inverse_certificate_sha256": "23ba6d9f50805c02e31256183e0b4991bdd1350bd2aa4ff244b6fdc2d427a8d5"
+        },
+        "5": {
+          "basis_sha256": "8552ae8b06cda2d33829051073e5283a0a5200f205e965fff3483b4d0fe153eb",
+          "inverse_certificate_sha256": "979a9636d0f0d414e005eea37a38c5987941d164539105386dd3aefea42d55f2"
+        }
+      }
+    },
+    "mode": "Reconstruct all native sources and receiver membership exactly; no new inverse",
+    "repeat_result": "Installed exact replay passed in 31.67s, all24 source records, geometry/reality, quotient relations and native bindings identical. No inverse regenerated.",
+    "replay_evidence_sha256": "53ed87609a29dabba93dabd9be678d509c72efd96f50620e177acf835a6a0baf",
+    "controls_mode": "PASS: geometry, receiver provenance and all402 reality checks"
+  },
+  "independent_review": {
+    "path": "lab/process/hostile-reviews/2026-11-26-source-action-firstjet-source-census-review.md",
+    "tier": "T2",
+    "status": "PASS",
+    "rank_control": {
+      "scope": "Independent exact Gaussian-rational source-dependence reduction; no M-range or cokernel assertion. Since all uncovered support is disjoint from receiver support, these also equal the quotient ranks.",
+      "uncovered_channels": 16,
+      "spin4_rank": 2,
+      "spin5_rank": 13,
+      "total_rank": 15,
+      "checked_relation": "source[16]=3*source[7]",
+      "seconds": 0.017613832838833332
+    }
+  },
+  "verification": {
+    "native_gates": {
+      "program_focus_audit": "PASS",
+      "typed_carrier_declaration_audit": "PASS",
+      "kill_target_claim_audit": "PASS",
+      "frontmatter_status_schema_audit": "PASS",
+      "source_native_comparator_routing_audit": "PASS",
+      "lean_certificate_surface_audit": "PASS",
+      "current_state_absolute_currency_audit": "PASS"
+    },
+    "Lean": "No T1kill or new Lean theorem claimed",
+    "protected_surfaces": "program_focus, cells, intersections, shrinkage_log and candidate choice budget unchanged"
+  },
+  "current_sha256": {
+    "tests/program-focus/source_action_firstjet_source_census_probe.py": "e94708dc87073fc0a14c79336a10c85d5819a1ffc59cce52b6360dabccb74d70",
+    "lab/process/source-action-firstjet-source-census-certificates.json": "53ed87609a29dabba93dabd9be678d509c72efd96f50620e177acf835a6a0baf"
+  }
+}

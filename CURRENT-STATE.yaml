@@ -1,7 +1,7 @@
 schema_version: '1.0'
 repository: observerse-research-program
 branch: main
-revision_basis: 3e8fa792e93e8a58e804364c842080a7e6c72810
+revision_basis: fc89c976e6c7cafcd4acb277370dfef4518ea9aa
 program_focus:
   version: 2026-11-25-v1
   authority: joe_direct_chat_2026_11_25_five_process_improvements_approved
@@ -140,6 +140,56 @@ program_focus:
     covered; source relevance separately from mathematical breadth; shared prerequisite if any; remaining
     cost; strongest eligible alternative. A blocked high-value target is not an eligible alternative without
     its missing input. Reuse completed theorems and compare only their uncovered successors.'
+source_action_firstjet_source_census_2026_11_26:
+  authority: joe_direct_chat_2026_11_26_continued_falsification_math20
+  basis_revision: fc89c976e6c7cafcd4acb277370dfef4518ea9aa
+  status: internal_T2_source_coverage_result
+  actual_delta: Complete actual two-Q7 first-jet census:4 spin4 and18 spin5 channels;6 covered by certified
+    receivers,16 uncovered spanning a15-dimensional quotient. No candidate/GU exclusion; no new inverse
+    or physical choice.
+  evidence:
+  - explorations/conditional-build/source-action-firstjet-source-census-2026-11-26.md
+  - lab/process/source-action-firstjet-source-census.json
+  - lab/process/source-action-firstjet-source-census-certificates.json
+  - lab/process/hostile-reviews/2026-11-26-source-action-firstjet-source-census-review.md
+  source_bridge:
+    status: conditional
+    weakest_unproved_link: Source-required W2 physical operator/admission/readout and unrestricted auxiliary
+      lift
+    source_necessary_exclusion: absent
+    class_C_representativeness: unchanged/unproved
+  continuation:
+  - id: actual_firstjet_source_dual_screen
+    status: ready
+    target: LB-CLASS
+    tier: T2
+    task: Use the exact15-dimensional uncovered source quotient to seek a true native adjoint-cokernel
+      pairing or a proved existing-receiver intertwiner, beginning with the sparse56-term spin5 source;
+      only then justify any new inverse.
+    expected_delta: A certified incompatibility or a reusable source-range certificate on an actual uncovered
+      channel
+    class_covered: Held W2/K95 two root boxes and generated firstjets along two Q7 modules, not allR or
+      classC
+    source_bridge: Conditional candidate test; W2/fullR necessity and physical admission absent
+    remaining_cost: One exact source/dual discriminator with complete native residual checks; prior receivers
+      and completed source census reused
+    kill_condition: Only a genuine native cokernel pairing at an actual root can exclude this realization;
+      failure of a chosen dual ansatz or transport is not exclusion
+  - id: physical_weak_readout
+    status: blocked_on_authentic_admission_and_normalization
+    target: LB-CLASS
+    tier: T2
+    task: Transport the local constrained response to a source-admitted physical observable
+    expected_delta: Actual observable consequence rather than unnormalized local coefficient
+    revival_input: Authenticated common physical domain/quotient, normalized readout and propagation law
+    kill_condition: OldA01 transfer remains inapplicable; inventing a new norm, cutoff or physical completion
+      is not an answer
+  consumed:
+  - actual_first_jet_source_quotient census and existingE4/E5 membership;16uncovered source vectors retained
+    as15independent questions
+  accounting: Directed70to71/LBCLASS29to30; choices and scientific shrinkage unchanged
+  priority_control_effect: Factual candidate handoff compressed to exact source quotient; program_focus/schedules
+    unchanged. Nov26g counterfactual tests remain proposal-only.
 source_action_spin4_compatibility_2026_11_26:
   authority: joe_direct_chat_2026_11_26_continued_falsification_math20_and_optimization
   basis_revision: 3e8fa792e93e8a58e804364c842080a7e6c72810

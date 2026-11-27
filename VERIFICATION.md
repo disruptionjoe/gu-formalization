@@ -17,6 +17,14 @@ External review is not a pathway in this program. The honesty label stays: inter
 
 Sections below are historical snapshots in file order.
 
+## Actual first-jet source census and receiver coverage (2026-11-26)
+
+Complete actual two-Q7 first-jet census:4 spin4 and18 spin5 channels;6 covered by certified receivers,16 uncovered spanning a15-dimensional quotient. No candidate/GU exclusion; no new inverse or physical choice.
+
+The exact source map includes horizontal Nomizu and normal-boost contributions, both principal vector families and the time scalar. No source belowspin4 occurs in this generated family. Receiver nonmembership is not a cokernel obstruction.
+
+[Result](explorations/conditional-build/source-action-firstjet-source-census-2026-11-26.md) · [Evidence, scope and verification](lab/process/source-action-firstjet-source-census.json).
+
 ## Reached spin4 compatibility and reusable exact replay (2026-11-26)
 
 Both actual reached spin4 sources have native auxiliary preimages throughout both certified kappa1 root boxes, in an exact282-dimensional envelope invariant under all59 background maps. This candidate necessary condition survives; GU is not falsified.

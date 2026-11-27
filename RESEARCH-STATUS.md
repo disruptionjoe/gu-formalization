@@ -16,6 +16,14 @@ discovery bet (`lab/process/discovery-bets.json`). The K25xx--K2618 detector, pr
 results below are retained as conditional mathematics; that lane is no longer the default target. Sections
 below are dated results, newest first, and are not steering.
 
+## Actual first-jet source census and receiver coverage (2026-11-26)
+
+Complete actual two-Q7 first-jet census:4 spin4 and18 spin5 channels;6 covered by certified receivers,16 uncovered spanning a15-dimensional quotient. No candidate/GU exclusion; no new inverse or physical choice.
+
+The exact source map includes horizontal Nomizu and normal-boost contributions, both principal vector families and the time scalar. No source belowspin4 occurs in this generated family. Receiver nonmembership is not a cokernel obstruction.
+
+[Result](explorations/conditional-build/source-action-firstjet-source-census-2026-11-26.md) · [Evidence, scope and verification](lab/process/source-action-firstjet-source-census.json).
+
 ## Reached spin4 compatibility and reusable exact replay (2026-11-26)
 
 Both actual reached spin4 sources have native auxiliary preimages throughout both certified kappa1 root boxes, in an exact282-dimensional envelope invariant under all59 background maps. This candidate necessary condition survives; GU is not falsified.

@@ -1788,7 +1788,7 @@
     },
     "LB-CLASS": {
       "zero_delta_streak": 0,
-      "runs": 29,
+      "runs": 30,
       "status": "open"
     },
     "LB-LADDER": {
@@ -2707,7 +2707,7 @@
   ],
   "program_run_counter": {
     "since": "2026-11-09",
-    "count": 70,
+    "count": 71,
     "rule": "Every hourly run increments this in its postflight, whatever its lane. Lane C runs when count % 4 == 3 before the increment."
   },
   "working_rule": "Cells are worked at the structure level: a requirement must hold for every action in class C or for a structurally defined subfamily. No cell is worked by writing down a specific action, and no gated cell is worked by building its gate object. See CURRENT-STATE.yaml program_focus.structure_not_specifics.",
@@ -3182,6 +3182,21 @@
         "lab/process/source-action-spin4-compatibility.json"
       ],
       "claim_effect": "No source/physics/canon/classC/scientific-matrix/paper verdict change"
+    },
+    {
+      "date": "2026-11-26",
+      "authority": "joe_direct_chat_2026_11_26_continued_falsification_math20",
+      "item": "Actual first-jet source census and receiver coverage",
+      "tier": "T2_T3",
+      "counter_before": 70,
+      "counter_after": 71,
+      "lane": "LB-CLASS",
+      "actual_delta": "Complete actual two-Q7 first-jet census:4 spin4 and18 spin5 channels;6 covered by certified receivers,16 uncovered spanning a15-dimensional quotient. No candidate/GU exclusion; no new inverse or physical choice.",
+      "evidence": [
+        "explorations/conditional-build/source-action-firstjet-source-census-2026-11-26.md",
+        "lab/process/source-action-firstjet-source-census.json"
+      ],
+      "claim_effect": "No source/physics/canon/classC/scientific-matrix/paper verdict change"
     }
   ],
   "directed_lc_carry_2026_11_24_b": {
@@ -3526,7 +3541,9 @@
           "explorations/conditional-build/source-adjoint-spinless-placement-2026-11-26.md",
           "lab/process/source-adjoint-spinless-placement.json",
           "explorations/conditional-build/source-action-spin4-compatibility-2026-11-26.md",
-          "lab/process/source-action-spin4-compatibility.json"
+          "lab/process/source-action-spin4-compatibility.json",
+          "explorations/conditional-build/source-action-firstjet-source-census-2026-11-26.md",
+          "lab/process/source-action-firstjet-source-census.json"
         ],
         "choices": "Historical original choices are retained below; current held fermion repair is SE=-1/2 (SE0 superseded), kappa1 with two unselected roots. Typed candidate_choice_budget separates core/completion/pending/comparator/parked choices.",
         "wave2_update": {
@@ -4023,6 +4040,35 @@
               "source_bridge": "Candidate-only; source necessity and physical admission unproved.",
               "remaining_cost": "Exact source projection/ladder normalization and membership reuse; no automatic lower-block inversion.",
               "kill_condition": "Only a genuine native adjoint-cokernel pairing excludes the specified realization; a nonzero quotient means uncovered, not impossible."
+            },
+            {
+              "id": "physical_weak_readout",
+              "status": "blocked_on_authentic_admission_and_normalization",
+              "target": "LB-CLASS",
+              "tier": "T2",
+              "task": "Transport the local constrained response to a source-admitted physical observable",
+              "expected_delta": "Actual observable consequence rather than unnormalized local coefficient",
+              "revival_input": "Authenticated common physical domain/quotient, normalized readout and propagation law",
+              "kill_condition": "OldA01 transfer remains inapplicable; inventing a new norm, cutoff or physical completion is not an answer"
+            }
+          ],
+          "choice_budget_delta": 0
+        },
+        "firstjet_source_followthrough": {
+          "state": "Complete actual two-Q7 first-jet census:4 spin4 and18 spin5 channels;6 covered by certified receivers,16 uncovered spanning a15-dimensional quotient. No candidate/GU exclusion; no new inverse or physical choice.",
+          "source_status": "candidate-only/source necessity unproved",
+          "next": [
+            {
+              "id": "actual_firstjet_source_dual_screen",
+              "status": "ready",
+              "target": "LB-CLASS",
+              "tier": "T2",
+              "task": "Use the exact15-dimensional uncovered source quotient to seek a true native adjoint-cokernel pairing or a proved existing-receiver intertwiner, beginning with the sparse56-term spin5 source; only then justify any new inverse.",
+              "expected_delta": "A certified incompatibility or a reusable source-range certificate on an actual uncovered channel",
+              "class_covered": "Held W2/K95 two root boxes and generated firstjets along two Q7 modules, not allR or classC",
+              "source_bridge": "Conditional candidate test; W2/fullR necessity and physical admission absent",
+              "remaining_cost": "One exact source/dual discriminator with complete native residual checks; prior receivers and completed source census reused",
+              "kill_condition": "Only a genuine native cokernel pairing at an actual root can exclude this realization; failure of a chosen dual ansatz or transport is not exclusion"
             },
             {
               "id": "physical_weak_readout",
