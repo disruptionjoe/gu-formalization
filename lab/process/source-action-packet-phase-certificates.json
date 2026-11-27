@@ -1,0 +1,508 @@
+{
+  "analytic_assumptions_not_probe_certified": {
+    "graph_and_packet_estimates": "Classical-symbol remainders, pseudolocal tails, finite-order packet hierarchy, and the fixed-time continuity of the local output require the written analytic proof. They are not established by finite JSON or polynomial tests.",
+    "local_output": "Complexify the selected real-linear candidate current before using a complex packet. At least one real quadrature is detected. With the plateau and initial-zero hierarchy, partial8(Q_lambda packet)(p) has leading h^(-d/2-2) O8(lambda;v); graph-frequency terms hit zero local envelope derivatives.",
+    "uniform_current": "Fix the bounded matter band, bounded measurable dispersion and one admissible sufficiently small positive-volume CK tube independently of h. On a compact patch, all spacetime derivatives of normalized column/dual kernels are uniformly bounded over the compact parameter closure. Independent L2 amplitudes give uniform C^m current bounds for each m; no derivative of the measurable dispersion is taken.",
+    "weak_pairing": "The actual four-arrow connection vertex is algebraic in the connection insertion. Integration by parts against the nonstationary scalar phase, with compact envelope and controlled microlocal remainders, gives h^(m+d/2-2) exp(rho*tau) times a fixed log polynomial. On tau<=c log k this yields arbitrary weak decay. The same result follows by moving the fixed properly supported classical graph reconstruction to the smooth source by its formal transpose."
+  },
+  "arbitrary_power_arithmetic": {
+    "coefficient_identity_checked": true,
+    "exact_identity": "m+d/2-2-2g-A-L=q-X+2>=2.",
+    "fixed_log_powers": "The h^2 slack absorbs every fixed power of log(1/h); this asymptotic fact is a written proof, not sampled numerically.",
+    "quantifiers": "Every finite L>=0, g=c*rho>=0, fixed total polynomial amplitude loss A>=0, and d=13.",
+    "rational_fixtures": [
+      {
+        "L": "0",
+        "amplitude_loss_A": "0",
+        "c_rho": "1/40",
+        "integrations_m": 2,
+        "power_above_L": "129/20",
+        "q": 0
+      },
+      {
+        "L": "0",
+        "amplitude_loss_A": "5/3",
+        "c_rho": "1/40",
+        "integrations_m": 2,
+        "power_above_L": "287/60",
+        "q": 0
+      },
+      {
+        "L": "0",
+        "amplitude_loss_A": "0",
+        "c_rho": "3/2",
+        "integrations_m": 2,
+        "power_above_L": "7/2",
+        "q": 0
+      },
+      {
+        "L": "0",
+        "amplitude_loss_A": "5/3",
+        "c_rho": "3/2",
+        "integrations_m": 3,
+        "power_above_L": "17/6",
+        "q": 1
+      },
+      {
+        "L": "0",
+        "amplitude_loss_A": "0",
+        "c_rho": "17",
+        "integrations_m": 32,
+        "power_above_L": "5/2",
+        "q": 30
+      },
+      {
+        "L": "0",
+        "amplitude_loss_A": "5/3",
+        "c_rho": "17",
+        "integrations_m": 34,
+        "power_above_L": "17/6",
+        "q": 32
+      },
+      {
+        "L": "1/2",
+        "amplitude_loss_A": "0",
+        "c_rho": "1/40",
+        "integrations_m": 2,
+        "power_above_L": "119/20",
+        "q": 0
+      },
+      {
+        "L": "1/2",
+        "amplitude_loss_A": "5/3",
+        "c_rho": "1/40",
+        "integrations_m": 2,
+        "power_above_L": "257/60",
+        "q": 0
+      },
+      {
+        "L": "1/2",
+        "amplitude_loss_A": "0",
+        "c_rho": "3/2",
+        "integrations_m": 2,
+        "power_above_L": "3",
+        "q": 0
+      },
+      {
+        "L": "1/2",
+        "amplitude_loss_A": "5/3",
+        "c_rho": "3/2",
+        "integrations_m": 3,
+        "power_above_L": "7/3",
+        "q": 1
+      },
+      {
+        "L": "1/2",
+        "amplitude_loss_A": "0",
+        "c_rho": "17",
+        "integrations_m": 32,
+        "power_above_L": "2",
+        "q": 30
+      },
+      {
+        "L": "1/2",
+        "amplitude_loss_A": "5/3",
+        "c_rho": "17",
+        "integrations_m": 34,
+        "power_above_L": "7/3",
+        "q": 32
+      },
+      {
+        "L": "3",
+        "amplitude_loss_A": "0",
+        "c_rho": "1/40",
+        "integrations_m": 2,
+        "power_above_L": "69/20",
+        "q": 0
+      },
+      {
+        "L": "3",
+        "amplitude_loss_A": "5/3",
+        "c_rho": "1/40",
+        "integrations_m": 3,
+        "power_above_L": "167/60",
+        "q": 1
+      },
+      {
+        "L": "3",
+        "amplitude_loss_A": "0",
+        "c_rho": "3/2",
+        "integrations_m": 4,
+        "power_above_L": "5/2",
+        "q": 2
+      },
+      {
+        "L": "3",
+        "amplitude_loss_A": "5/3",
+        "c_rho": "3/2",
+        "integrations_m": 6,
+        "power_above_L": "17/6",
+        "q": 4
+      },
+      {
+        "L": "3",
+        "amplitude_loss_A": "0",
+        "c_rho": "17",
+        "integrations_m": 35,
+        "power_above_L": "5/2",
+        "q": 33
+      },
+      {
+        "L": "3",
+        "amplitude_loss_A": "5/3",
+        "c_rho": "17",
+        "integrations_m": 37,
+        "power_above_L": "17/6",
+        "q": 35
+      },
+      {
+        "L": "100",
+        "amplitude_loss_A": "0",
+        "c_rho": "1/40",
+        "integrations_m": 98,
+        "power_above_L": "49/20",
+        "q": 96
+      },
+      {
+        "L": "100",
+        "amplitude_loss_A": "5/3",
+        "c_rho": "1/40",
+        "integrations_m": 100,
+        "power_above_L": "167/60",
+        "q": 98
+      },
+      {
+        "L": "100",
+        "amplitude_loss_A": "0",
+        "c_rho": "3/2",
+        "integrations_m": 101,
+        "power_above_L": "5/2",
+        "q": 99
+      },
+      {
+        "L": "100",
+        "amplitude_loss_A": "5/3",
+        "c_rho": "3/2",
+        "integrations_m": 103,
+        "power_above_L": "17/6",
+        "q": 101
+      },
+      {
+        "L": "100",
+        "amplitude_loss_A": "0",
+        "c_rho": "17",
+        "integrations_m": 132,
+        "power_above_L": "5/2",
+        "q": 130
+      },
+      {
+        "L": "100",
+        "amplitude_loss_A": "5/3",
+        "c_rho": "17",
+        "integrations_m": 134,
+        "power_above_L": "17/6",
+        "q": 132
+      }
+    ],
+    "schedule": "X=L+2g+A+2-d/2; q=max(0,ceil X); m=q+2.",
+    "scope": "Finite fixtures control arithmetic only. The universal conclusion uses ceil X>=X and the displayed exact identity, not an extrapolation from samples."
+  },
+  "data_only": true,
+  "files_sha256": {
+    "Lean/GUFormalization/FiniteLossCompletion.lean": "27ac2ac097724d1fdd9218764ebc18ee17e51d52b562ca928defa3f2d362a5cb",
+    "Lean/GUFormalization/SelectedJet.lean": "35b26afae8d7f9c3ef3f0d6d2dc50280a8cf7155853cc9d3604a27b9718ae3f6",
+    "explorations/conditional-build/source-action-finite-loss-completions-2026-11-27.md": "95e8994a935195b57ddeabfdd1ed9f7a7022eec85a8eeaef0b69b01495af0485",
+    "explorations/conditional-build/source-action-selected-jet-2026-11-27.md": "41813ece663aaf391ad67b8d060c7d7b635ede4cf759116ec4958f5a77acd8c0",
+    "lab/process/hostile-reviews/2026-11-27-source-action-finite-loss-review.md": "efb1ced2b1e28d7a4bb64284e3680e784e14546664915c55c4e0147f523fbeab",
+    "lab/process/hostile-reviews/2026-11-27-source-action-selected-jet-review.md": "a3a80a98d20ba0c98a55f0d3c7da14c3698edd4f34c6903699b7f2b000870d2f",
+    "lab/process/source-action-deep-coefficients.json": "fb4aacfa69cbc1127b7fddf3b4f66811650c1fd3a889363cc6dfab940439b274",
+    "lab/process/source-action-finite-loss-certificates.json": "d46d7216d814a872167eb0471747986622b84eebaa57b3f99c9733486a993507",
+    "lab/process/source-action-finite-loss.json": "6048fdf291a579541425fa28ee55363d0891ffcf88d90a91bbabffb036c9f844",
+    "lab/process/source-action-full-auxiliary-certificates.json": "63fc7f5e4674b94a74059b383c02dbab4c94c1a9c006e6348ac4515d495517b2",
+    "lab/process/source-action-graph-domain.json": "50adb39ac27c64a3c5626d7ed7b7729884a8d28017186269d7ed32a073525c05",
+    "lab/process/source-action-kappa1-constraints.json": "5d3401666f8072dd225924e0cc9073c16c7d6c59efd0b4b941e1fcce7ce29233",
+    "lab/process/source-action-onshell-dynamics-certificates.json": "05e4c5edeb0634d91224af27d1d65d7abebdec6483076e0d75a4b57a440a96d5",
+    "lab/process/source-action-scalar-normal-operator-certificates.json": "33c5ed1e2b9552dbda9a539fbec2e127f7408c9863b0b970f86a4862455e427e",
+    "lab/process/source-action-selected-jet-certificates.json": "3817dec1e12c1d9e2ae2a25f7ebb5920c288c51c5a1f48624ee11be3fb1d03da",
+    "lab/process/source-action-selected-jet.json": "23408baf75729f2038e50544a24349abf7a95bacb3bf0e62fff4cda95641fbd5",
+    "lab/sources/source-claim-register.yaml": "dc3ae173b4cc0eb2a0e343e3d92d5f110b8e4f6eef3e2852a1e897ab4371ade6",
+    "tests/program-focus/source_action_constraint_consistency_probe.py": "bbc5988d0d18e895fcbd58ca60561be78e03b00b8e7d47d6ffb276776b27021c",
+    "tests/program-focus/source_action_current_receiver_probe.py": "a24cd7797ecae71dc0944bc63feaf148610f2e04d660bb22b50341b1fa71b358",
+    "tests/program-focus/source_action_deep_algebra.py": "4e3800131049e2b397bbce6106bfc5766d2f5fbf996319c50942f3b805d65598",
+    "tests/program-focus/source_action_deep_geometry.py": "7cdfe5f7609300c1ab4fb482f309cfafa52d0aa66cf353ef8b1f9c8be07e52df",
+    "tests/program-focus/source_action_finite_loss_probe.py": "eb9ba01f3028463a24cbffde955c69f8b0e390fef4541c382fe3e3a0e2d004d8",
+    "tests/program-focus/source_action_full_auxiliary_probe.py": "f600b66c22ff1699b432febc4480c0606d1ae22ecd7410484568154f7665a2f2",
+    "tests/program-focus/source_action_metric_symbol_probe.py": "eccac86c829c48848a4db9ab49d0313601bc3b19aca9a1fc6635520f489254ef",
+    "tests/program-focus/source_action_onshell_dynamics_probe.py": "4dee75b4d67f1c37560ea0f20383b3e492e6336db2f2c081e9ba9988f46d0403",
+    "tests/program-focus/source_action_paired_response_probe.py": "72f131477d041c19293a7e191fd099fbe637597e685ac1d84dfe76db8beb8655",
+    "tests/program-focus/source_action_physical_probe.py": "b0a4b49f18fd6de13f45fc342d00a9e98fdb88cbf479155fd6d1b296c4662c25",
+    "tests/program-focus/source_action_scalar_normal_operator_probe.py": "98c5721aeb9dfee99db80b8eead05b0be7401c0f1c2b1d019daa333f62e4725c",
+    "tests/program-focus/source_action_selected_jet_probe.py": "92f6acca93328bdc68207e36544dcb4819936cd0901cdbddbafdf2206962ff9f",
+    "tests/program-focus/source_action_slice_completion_probe.py": "9992fc60da913e8df8507f0dd393299c3d477ed43505af46757fc13575a1e12d",
+    "tests/program-focus/source_action_spin4_compatibility_probe.py": "e78ec1956858f8d6fd8868e84a622a2f31131452e6a1259a04f6f82a169857a8",
+    "tests/program-focus/source_action_weak_response_probe.py": "60cf6ae0f16ee6fc4233d49e4bec31753c22bdc2c1d2497c3d76b6d7c1f4e89f"
+  },
+  "final_probe_sha256": "48b42675ff7bc54c8433a2402f096bf79d573ef546dabae4d1291a921358833d",
+  "inherited_packet_inputs": {
+    "finite_loss_certificate_sha256": "d46d7216d814a872167eb0471747986622b84eebaa57b3f99c9733486a993507",
+    "full_M_dimension_inherited": 49154,
+    "full_M_matrices_recomputed_now": 0,
+    "full_auxiliary_manifest_sha256": "63fc7f5e4674b94a74059b383c02dbab4c94c1a9c006e6348ac4515d495517b2",
+    "inherited_norm_transfer_assumptions": {
+      "alternative_norm_sandwich": {
+        "examples": "An elliptic finite-order invertible transformation with a parametrix qualifies when these estimates hold. A non-elliptic projection or infinite-order weight need not qualify.",
+        "statement": "On the SAME graph core and with the same graph forcing, ||w||H^(-a) <= C||w||Y <= Cprime||w||H^b for finite a,b. A bounded Y Duhamel estimate would then imply a fixed finite-loss Sobolev estimate.",
+        "verification": "Hypotheses of the written norm-transfer corollary, not established for a source-selected physical norm by this probe."
+      },
+      "graph_norm_transfer": {
+        "forcing": "The forcing norm is the graph norm of (f,-df), f=(partial_t-L)v; it is not an unweighted original-PDE forcing norm.",
+        "statement": "On the same compact non-null microlocal graph core, Jv=(v,-dv), v=S w with S=E diag(Lambda,1), and N_s(v) is microlocally equivalent to ||w||H^s modulo arbitrarily smoothing remainder, for states AND range residual f.",
+        "verification": "Written analytic proof and independent review; not verified by this probe."
+      }
+    },
+    "intrinsic_scalar_threshold_readback": [
+      {
+        "exact_lower_sha256": "1f429be333ca956a4723c6787ad1cbce295b156f5312f3dac2879449dae7b429",
+        "moment_matrices_recomputed_now": false,
+        "root": 0,
+        "root_record_sha256": "4069255f599c1b858cdec5471744dc48f0307e710ccb84d9b3875f853a8bd9d6",
+        "strict_lower_above_19_over_80": true
+      },
+      {
+        "exact_lower_sha256": "fb8fad6e0cecd57fb825383b507f006189bf980f58473c47895c7f8e4133485d",
+        "moment_matrices_recomputed_now": false,
+        "root": 1,
+        "root_record_sha256": "73f3106165d8e9d0330e30d1fa7a7c4c1083f7936e33308a61201907e4d2f44c",
+        "strict_lower_above_19_over_80": true
+      }
+    ],
+    "packet_normalization": "k=h^-2; tau=kt; y=(x-p)/h; spatial dimension d=13. The graph is the same fixed properly supported classical reconstruction used by the finite-loss proof.",
+    "producer_sha256": "eb9ba01f3028463a24cbffde955c69f8b0e390fef4541c382fe3e3a0e2d004d8",
+    "two_distinct_scopes": {
+      "local_output": "A known growing spin7 eigen-initial packet with chi=1 near y=0 and w_j(0)=0 for j>=1. The normal-jet statement is at initialization and, by continuity, short fixed rescaled time.",
+      "weak_source_barrier": "Any owned finite-order logarithmic-window packet, including the maximal-full-spectral-abscissa packet. Its leading eigenvector is not identified with the spin7 output witness."
+    },
+    "verification_scope": "Immutable prior proof-input/report hashes and scalar moment inequalities authenticated. No full-M defect, graph reconstruction, native spectral calculation or analytic packet remainder is repeated."
+  },
+  "native_phase_controls": {
+    "H8_exact_zero": true,
+    "adapted_generator_traces_axes4_to13": [
+      "4",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    "adapted_generators_compared": 10,
+    "commutator_trace_controls": 100,
+    "geometry_record_sha256": "81185e706d8e022fc5d79e2fbdd5603108b1d4dc138f09413a2f4d8f73b41a8a",
+    "inherited_section_convention": "s(x,z)=(x,exp(sum z^a(A_a+H_a))); left Maurer-Cartan; h_ba=pr_h[X_b,X_a]",
+    "isotropy_correction_traces_axes4_to13": [
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    "native_geometry_sha256": "7cdfe5f7609300c1ab4fb482f309cfafa52d0aa66cf353ef8b1f9c8be07e52df",
+    "native_signature_diagonal": [
+      "1",
+      "1",
+      "1",
+      "-1",
+      "-16",
+      "8",
+      "24",
+      "48",
+      "8",
+      "8",
+      "-8",
+      "8",
+      "-8",
+      "-8"
+    ],
+    "verification_scope": "Rational generators, traces and H8 are recomputed. The determinant/exponential and coordinate arguments are written identities; no numerical matrix exponential or PDE estimate is checked.",
+    "written_phase_identity": "For g=g_p exp(sum z^a(A_a+H_a)), det(exp Z)=exp(tr Z) gives r-r(p)=(1/4)tr Z=z4, with r=-(1/8)log|det y|. Thus the packet linear phase is the same global scalar r; partial8 r=0 and its coordinate Hessian vanishes."
+  },
+  "not_claimed": [
+    "Full coherent-packet output is recomputed",
+    "Every original tube with defect below one half is current-faithful",
+    "The full-rho packet eigenvector is necessarily spin7",
+    "Exact zero force at finite frequency",
+    "A retarded response bound at fixed positive physical time",
+    "Source bounds uniform over expanding bands or singular normalizers",
+    "Nonlinear closure, physical admission, or GU falsification"
+  ],
+  "oscillatory_bookkeeping": {
+    "controls": [
+      {
+        "coefficientwise_antiderivative_identity": true,
+        "degree": 2,
+        "endpoint_vanishing_order": 1,
+        "exact_nonoscillatory_integral": "4/3",
+        "opposite_phase_product_integral": "4/3",
+        "oscillatory_endpoint_first_possible_power_of_h": 2
+      },
+      {
+        "coefficientwise_antiderivative_identity": true,
+        "degree": 4,
+        "endpoint_vanishing_order": 2,
+        "exact_nonoscillatory_integral": "16/15",
+        "opposite_phase_product_integral": "16/15",
+        "oscillatory_endpoint_first_possible_power_of_h": 3
+      },
+      {
+        "coefficientwise_antiderivative_identity": true,
+        "degree": 8,
+        "endpoint_vanishing_order": 4,
+        "exact_nonoscillatory_integral": "256/315",
+        "opposite_phase_product_integral": "256/315",
+        "oscillatory_endpoint_first_possible_power_of_h": 5
+      },
+      {
+        "coefficientwise_antiderivative_identity": true,
+        "degree": 16,
+        "endpoint_vanishing_order": 8,
+        "exact_nonoscillatory_integral": "65536/109395",
+        "opposite_phase_product_integral": "65536/109395",
+        "oscillatory_endpoint_first_possible_power_of_h": 9
+      }
+    ],
+    "identity": "For formal t=(i omega)^-1, (1/t+partial_y) sum_j (-1)^j t^(j+1) f^(j)=f.",
+    "opposite_phase_control": "Multiplying by exp(-i omega y) cancels the packet phase and leaves the nonzero amplitude integral. Such a source has unbounded derivative seminorms as omega grows and is outside the fixed uniformly smooth CK source class.",
+    "scope": "Finite exact integration-by-parts bookkeeping, not a physical countermodel or proof of a C-infinity/PDE estimate. The polynomial controls have only the displayed finite endpoint vanishing."
+  },
+  "schema": "gu-packet-phase-proof-inputs-v1",
+  "scope": "Light native phase/input authentication and exact scalar bookkeeping. Initial spin7 packet-jet visibility and the uniform weak-source barrier for any owned logarithmic packet are distinct written statements. No native large operator, graph reconstruction, current census, inverse or PDE simulation is run.",
+  "selected_jet_readback": {
+    "Hermitian_lower_h": "212992/15",
+    "bundle_sha256": "3817dec1e12c1d9e2ae2a25f7ebb5920c288c51c5a1f48624ee11be3fb1d03da",
+    "dense_status": "PARTIAL2/40",
+    "exact_spectral_Gram_bound_recomputed": true,
+    "graph_columns_reconstructed_now": 0,
+    "inherited_graph_columns_authenticated": 40,
+    "intrinsic_dynamics_origin": {
+      "bundle": "lab/process/source-action-onshell-dynamics-certificates.json",
+      "bundle_sha256": "05e4c5edeb0634d91224af27d1d65d7abebdec6483076e0d75a4b57a440a96d5",
+      "records": {
+        "onshell-intrinsic.json": "0a37f1ed955a69b3c6c0647048a9c9603d692b95efb68714c56508d9e6e95f3b",
+        "onshell-principal.json": "c6501b94be49780136c974bd8ad5351cb300910ab98acc7b0488200690bfea73"
+      }
+    },
+    "matched_graph_formula": "G1=[eK-ZeK,-iYeC]; visible d8G1_K=-4i M5^-1 a5-(5i/12)F M6^-1 b6; d8G1_C=0",
+    "native_spectral_outputs_recomputed_now": 0,
+    "phase_geometry_origin": {
+      "bundle": "lab/process/source-action-scalar-normal-operator-certificates.json",
+      "bundle_sha256": "33c5ed1e2b9552dbda9a539fbec2e127f7408c9863b0b970f86a4862455e427e",
+      "records": {
+        "scalar-affine.json": "c5e5a996be36c756fe2ac959c1e62e3aa3486a14d75a520cdf62b76e7797bf0d",
+        "scalar-geometry.json": "81185e706d8e022fc5d79e2fbdd5603108b1d4dc138f09413a2f4d8f73b41a8a",
+        "scalar-response-maps.json": "c24f33dff14e4a3eb6ecfcdbf2d61fdb92c221b3671a5af7be777189e8f0e113"
+      }
+    },
+    "positive_components": {
+      "1": 64,
+      "2": 112
+    },
+    "producer_sha256": "92f6acca93328bdc68207e36544dcb4819936cd0901cdbddbafdf2206962ff9f",
+    "raw_records": {
+      "selected-dense-producer.txt": {
+        "encoding": "zlib-base64-utf8",
+        "sha256": "2d7c0f624f83037855c9c1fb8c696ba3f84b29d06e7c96b5139b865b30173f4f",
+        "uncompressed_bytes": 15023
+      },
+      "selected-outputs.json": {
+        "encoding": "zlib-base64-json",
+        "sha256": "dfa0cdf201ea9503259b1263ddbd9e05893574b0a6947ff3090722a8a242c7b5",
+        "uncompressed_bytes": 25476479
+      },
+      "selected-prepare.json": {
+        "encoding": "zlib-base64-json",
+        "sha256": "f8c1f8d0237ede09ce74439f9ed2cf9ab46bb1b22fa2b46dd6890497c9b446eb",
+        "uncompressed_bytes": 50655614
+      },
+      "selected-spectral-certificate.json": {
+        "encoding": "zlib-base64-json",
+        "sha256": "dac10ee9ad0d0264dde5c27663b5f38cf68fa87bebbb95d2b792f7bbdd236178",
+        "uncompressed_bytes": 31988
+      },
+      "selected-spectral-producer.txt": {
+        "encoding": "zlib-base64-utf8",
+        "sha256": "3f493a36d17136319fdce04d624da3be65b57d27247660b9cfa3ff53ee338e8f",
+        "uncompressed_bytes": 21849
+      },
+      "selected-spectral.json": {
+        "encoding": "zlib-base64-json",
+        "sha256": "8a38fbbfde557b8b0b0067e0954aeededa91ddac9a7809065ba5c657ca361cec",
+        "uncompressed_bytes": 3627342
+      }
+    },
+    "raw_upper_U": "62813896704",
+    "robust_Gram_lower": "851968/15",
+    "root_record_bindings": [
+      {
+        "owned_root_sha256": "4069255f599c1b858cdec5471744dc48f0307e710ccb84d9b3875f853a8bd9d6",
+        "radius": "833002305502425831635675927369390931123350752157075022902747720119/3955078124999884528152862797160742322179584117654725628125000000000000000000000000",
+        "root": 0
+      },
+      {
+        "owned_root_sha256": "73f3106165d8e9d0330e30d1fa7a7c4c1083f7936e33308a61201907e4d2f44c",
+        "radius": "11974179536214065908190212160861717531979021739329889193327923/65917968749997189892442940664361290493889827261993759765625000000000000000000",
+        "root": 1
+      }
+    ],
+    "spectral_certificate_function_sha256": "081f5c509637342fdad217f88049f73ed00c1e4b57f514888cfe7d7a2a78bea4",
+    "unchanged_production_functions_checked": 18,
+    "visibility_scope": "The normalized whole-band theorem is for sufficiently small members of the existing fixed-seed CK tube family. Its analytic uniformity and current interpretation are inherited written proofs, not recomputed here."
+  },
+  "source_polarity": {
+    "records": [
+      {
+        "id": "SC-ACT-01",
+        "polarity": "ASSERTS",
+        "source_record_sha256": "bf7dbe9a873f8d105607b35d376f62200aa4a5aa080c6f1e84934d14d6a397e0"
+      },
+      {
+        "id": "SC-ACT-02",
+        "polarity": "ASSERTS",
+        "source_record_sha256": "dc9ef2d879a246753c657d86faad9517636ac4ed152b361bef45415d314feba2"
+      },
+      {
+        "id": "SC-OP-04",
+        "polarity": "ASSERTS",
+        "source_record_sha256": "fed2bcb597c8acd33f5d799cfbbe82fc28ef973561fa972110bdecce9c679776"
+      },
+      {
+        "id": "SC-OP-05",
+        "polarity": "UNCERTAIN",
+        "source_record_sha256": "529733198654f57a35372dc19946da5285bf1343c41e9c4f914f67afc8a4715a"
+      },
+      {
+        "id": "SC-GEO-51",
+        "polarity": "ASSERTS",
+        "source_record_sha256": "0fc918951ba84158edc1576acb1ccd9a7d0b1bf5c2cecd56f3ec87e8fa8d7c69"
+      },
+      {
+        "id": "SC-META-52",
+        "polarity": "UNCERTAIN",
+        "source_record_sha256": "f588e033ffbb9ab7918e9337daf479046bedd4613829b8424eef97d8aa8acd84"
+      },
+      {
+        "id": "SC-META-53",
+        "polarity": "UNCERTAIN",
+        "source_record_sha256": "3fddbc19fccb5136bf3ff6aaf3c8e0cfc3b0aedee1c2cf29fa71a9d20ed4866c"
+      }
+    ],
+    "source_necessity": "Absent for this completion. Action/field grammar and full-U source assertions do not select W2/K95, canonical-injection CK seeds, a fixed band/dispersion/tube, graph core, physical quotient or this current-visibility criterion."
+  }
+}

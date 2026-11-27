@@ -444,7 +444,19 @@ Selection: directed falsification; whole principal support class but no proved s
 - **Done:** O8 includes the changing constrained insertion; inherited spin5/6 responses suffice. Original CK seeds retained through the axis8 frame match.
 - **Done:** two non-null-separated matter frequencies distinguish every raw principal polarization; every held positive-measure band has such a pair, for arbitrary bounded measurable dispersion. Raw observability powers are unnecessary.
 - **Done:** exact spectral Gram and uniform shrinking establish normalized band faithfulness for all sufficiently small existing CK tubes; the original arbitrary fixed tube with defect<1/2 is not automatically covered.
-- **Ready, LB-CLASS/T2:** bounded actual packet-output and source-phase audit. Keep graph-frequency, envelope/subprincipal and phase-matching terms; a first jet is not a forced growing mode. Use these owned maps before any new simulation.
+- **Done:** local packet-output and fixed-family source-phase audit completed below; local visibility does not supply algebraic-order weak forcing.
 - **Scope retained:** fixed CK seed already fails natural covariance; no physical rehabilitation, exact growing solution, forced exchange or GU verdict.
 
 Selection: directed falsification; matched normal-current-jet class, source necessity absent. Existing graph/source/inverses reused. Benchmark two dense columns before expansion; mathematical cancellation replaces raw census. Directed82to83/LBCLASS41to42. Pending directed_lc_carry_2026_11_25_physical remains for the next ordinary run; no scheduler opportunity, cadence amendment or bet credit. Choice budget unchanged. Nov26g remains proposal-only.
+
+## Current result: packet visibility versus weak forcing (2026-11-27)
+
+[Result](../../../explorations/conditional-build/source-action-packet-phase-2026-11-27.md) · [Evidence](../source-action-packet-phase.json).
+
+- **Done:** exact phase/chart match and plateau initial normal-jet output, with uniform short-rescaled-time visibility. The full maximal-growth packet need not be the known spin7 vector.
+- **Done:** the full coherent current is uniformly smooth for every fixed bounded-parameter lift with bounded dual. Formal graph transpose and nonstationary phase prove all-orders weak suppression over the logarithmic window.
+- **Excluded in this fixed class:** polynomial-size coupling at polynomial diagonal phase-charge cost. Such coupling requires superpolynomial charge growth; no energy-gap claim.
+- **Missing input:** actual compatible source/domain/Green prescription and quantitative tails for a fixed-positive-time response. Triangular projection is not an owned restriction of the full source. Boundary/trace channels and nonuniform source families remain outside.
+- **Continuation:** this workset is consumed. Existing cross-workstream ranking and retained ordinary LC carry remain in force; no new receiver census, governance rule, pause or approval checkpoint follows. A concrete mathematical successor is not falsely labeled ready before its prerequisites are identified.
+
+Selection: directed falsification, whole fixed-lift class; physical source necessity absent. Existing graph/CK inputs reused; light verifier and written proof replace forced simulation. Directed 83 to 84 / LB-CLASS 42 to 43. Pending directed_lc_carry_2026_11_25_physical remains for the next ordinary run; no scheduler opportunity, cadence amendment or bet credit. Choice budget unchanged. Nov26g remains proposal-only.

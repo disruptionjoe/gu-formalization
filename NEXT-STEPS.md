@@ -16,6 +16,12 @@ Do not add "Current follow-through" sections or "Historical predecessor" stacks 
 matrix or bet file. The retired follow-through chain and banner stack are kept at the end of this file under
 "Archived steering history".
 
+## Packet visibility and weak source barrier (2026-11-27)
+
+Plateau graph packets retain nonzero local normal-jet output. For every fixed bounded-band uniformly smooth CK completion, all bounded-charge coherent bulk currents pair with logarithmic-window high-normal-frequency packets at O(k^-N) for every N, including fixed finite-order graph pullbacks. Polynomial-size coupling requires superpolynomial phase-charge cost. No exact-zero, fixed-time stability, physical or GU verdict.
+
+[Result](explorations/conditional-build/source-action-packet-phase-2026-11-27.md) · [Evidence](lab/process/source-action-packet-phase.json).
+
 ## Matched selected-current jet (2026-11-27)
 
 Matched graph derivative and two-frequency raw separation. An exact positive realified spectral Gram proves normalized Hermitian band faithfulness for all sufficiently small-tube members of the existing CK completion family, at both roots. Every nonzero real principal polarization is visible in this first-current-jet channel. No exact growing solution, forced response, physical admission or GU verdict.

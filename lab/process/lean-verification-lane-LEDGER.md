@@ -559,3 +559,7 @@ bicategory, ambidexterity or Mackey 2-functor is inferred.
 ## 2026-11-27 — Matched selected-current core
 
 `Lean/GUFormalization/SelectedJet.lean`: **LEAN-VERIFIED**, five lemmas: noncommutative Clifford right cancellation, two-frequency affine separation, affine constant cancellation, raw/skew control, and scalar Gram-perturbation threshold. Targeted single-thread compilation passed without placeholders. Native graph/CK identification, Lorentz band proof and physical normalization remain separately reviewed; no whole-project build claim. [Result](../../explorations/conditional-build/source-action-selected-jet-2026-11-27.md).
+
+## 2026-11-27 — Packet phase arithmetic core
+
+`Lean/GUFormalization/PacketPhase.lean`: **LEAN-VERIFIED**, four lemmas: derivative budget, inverse phase-charge cost, incompatibility of a uniform polynomial lower bound with rapid decay, and nonzero real quadrature. Targeted single-thread compilation passed without placeholders. Native CK bounds, graph composition, plateau transfer and nonstationary-phase theorem remain separately reviewed written proofs; no whole-project or full-PDE verification claim. [Result](../../explorations/conditional-build/source-action-packet-phase-2026-11-27.md).
