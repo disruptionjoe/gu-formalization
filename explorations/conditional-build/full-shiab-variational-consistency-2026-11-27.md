@@ -22,10 +22,10 @@ premises:
 - lab/sources/source-claim-register.yaml#SC-ACT-02
 source_bridge:
   status: conditional
-  reason: The source prints the coefficients, unit endpoint and full fixed-epsilon translation slice.
-    Its displayed invariant-Phi grammar supplies Spin equivariance, but final nonzero instantiation and
-    action-pairing/curvature normalization are not adjudicated here; broader formulas and merely on-shell
-    equivalence remain separate.
+  reason: The source supplies the printed coefficients/unit endpoint, full fixed-epsilon translation,
+    displayed invariant-Phi symmetry and matrix trace pairing; owned audits fix bracket normalization.
+    Attribution of existing nonzero witnesses to the exact Phi basis/product choices is still separate,
+    as are broader formulas and merely on-shell equivalence.
 kill_condition: Any nonzero S satisfying every declared architecture premise contradicts the theorem.
   A failure of coefficient signs, full carrier/variation, quasicentroid classification, Spin parity or
   quadratic identity invalidates that application; do not call it a source-wide kill.
@@ -268,7 +268,7 @@ The excluded class requires full primitive translations, full complex Dirac, fix
 
 ## 10. Source relevance and the remaining bridge
 
-Source custody is reused from [the November13 primitive-prescription audit](source-prescription-current-2026-11-13.md), [WGS-01](../../lab/sources/weinstein-gu-primary-source-pack-2026-07-30.md#wgs-01--weinstein-did-write-a-concrete-first-order-bosonic-action) and SC-ACT-01/02. The primary2021 draft p44 equation(9.4) prints the1/2 and1/3 terms; equation(9.7), repeated in(9.12), claims the fixed-epsilon translation variation, with the unit curvature endpoint displayed in(9.8)–(9.10). Sections3.6 and5 supply full U(64,64) and all adjoint-valued1-form translations. The coefficients alone do not establish the claimed derivative: their joint consistency is exactly what is being tested.
+Source custody is reused from [the November13 primitive-prescription audit](source-prescription-current-2026-11-13.md), [WGS-01](../../lab/sources/weinstein-gu-primary-source-pack-2026-07-30.md#wgs-01--weinstein-did-write-a-concrete-first-order-bosonic-action) and SC-ACT-01/02. The primary2021 draft p44 equation(9.4) prints the1/2 and1/3 terms; equation(9.7) claims the fixed-epsilon translation variation, with the unit curvature endpoint displayed in(9.8)–(9.10). Sections3.6 and5 supply full U(64,64) and all adjoint-valued1-form translations. The coefficients alone do not establish the claimed derivative: their joint consistency is exactly what is being tested.
 
 The source-defined Phi tensors depend on metric and epsilon, held in this variation; they are not functions of primitive varpi on the displayed slice. Merely mentioning moving epsilon/metric therefore does not evade the theorem. A genuinely translation-dependent or derivative-valued construction would require its actual source and variation formula. The theorem does not declare all such possibilities impossible.
 
@@ -276,7 +276,9 @@ The source-defined Phi tensors depend on metric and epsilon, held in this variat
 
 **The displayed grammar supplies its symmetry premise.** Definition8.1, equation(8.7), on printed p42 explicitly defines Phi_i as Spin(7,7)-invariant tensors; p43 equation(9.3) uses their wedge/Hodge contractions and coefficient products. Every well-typed product choice therefore gives a fixed-fibre intertwiner at epsilon=1. Fixed common epsilon conjugation transports the Spin action with it. No additional horizontal/normal projector occurs in this displayed tree. The missing product selector does not make its symmetry unknown. [Primary draft](https://geometricunity.nyc3.digitaloceanspaces.com/Geometric_Unity-Draft-April-1st-2021.pdf#page=42).
 
-**What remains unproved here:** the final nonzero instantiation and exact action-pairing/curvature-normalization comparison for a selected source formula, and that every broader faithful realization must retain the same complete architecture. A different endpoint or a different formula is not covered automatically. Extra-tensor covariance is a general scope boundary, not an unresolved tensor hidden inside the displayed Phi1/Phi2 tree. Consequently the accepted ceiling is a conditional architecture exclusion, not GU falsification or an empty class-C intersection. No physics-ledger verdict is changed.
+**Pairing and bracket custody are already available.** The expanded first action in equation(9.4) explicitly uses matrix trace. The owned K77-B normalization audit fixes q(T)=T wedge T and the unhalved coefficient operations. The residual-norm ambiguity for the second action I2B does not make the first action's matrix pairing unknown. Equation(9.12) belongs to I2B and is not a repetition of the first-action variation(9.7). The remaining formula-specific step is attribution of existing nonzero witnesses to the displayed Phi basis/product choices and their common typed operator, not another trace or bracket calculation.
+
+**What remains unproved here:** that final nonzero source-formula attribution, and that every broader faithful realization must retain the same complete architecture. A different endpoint or a different formula is not covered automatically. Extra-tensor covariance is a general scope boundary, not an unresolved tensor hidden inside the displayed Phi1/Phi2 tree. Consequently the accepted ceiling is a conditional architecture exclusion, not GU falsification or an empty class-C intersection. No physics-ledger verdict is changed.
 
 The result consumes further fixed-linear full-U endpoint-map searches under identical premises, including different coefficients and signature-only retests. The actual W2 Euler map remains outside the matched-endpoint premise. Its prior stationary/instability results are neither erased nor upgraded by this theorem.
 

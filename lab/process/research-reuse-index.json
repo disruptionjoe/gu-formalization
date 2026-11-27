@@ -1214,7 +1214,7 @@
         "artifacts": [
           {
             "path": "explorations/conditional-build/full-shiab-variational-consistency-2026-11-27.md",
-            "sha256": "eb526d843ee51d7b381166884cab0c33c7ff2956f468844bb4bd8dcce153f436"
+            "sha256": "0b0113ec030b5069c3688f6a9ab49032d46b80b590637ab1c39645a4349bbb0a"
           },
           {
             "path": "tests/program-focus/full_shiab_consistency_probe.py",

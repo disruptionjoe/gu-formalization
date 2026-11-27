@@ -23,7 +23,7 @@ Two independent specialists (mathematics and source/global scope) and one hostil
 - Cubic consistency alone leaves nonzero central-input maps; their outputs need not be central. The additional quadratic mixed test is essential.
 - The direct compact central/traceless variation requires no integration by parts and handles fixed variable coefficients/density. The equivalent full formal-adjoint argument keeps the1-form before the13-form in both pairings.
 - Source invariant-Phi definition supplies fixed-fibre Spin equivariance for the displayed grammar under common epsilon transport. General covariance with extra transformed tensors is broader and is not silently identified with that condition.
-- Source pairing, curvature normalization and nonzero instantiation remain the next bounded audit. No source ledger, GU, classC or W2 stationary verdict follows automatically.
+- Source matrix trace and bracket normalization were already supplied; the next bounded audit is attribution of existing nonzero witnesses to the displayed Phi basis/product choices. No source ledger, GU, classC or W2 stationary verdict follows automatically.
 
 ## Verification attribution
 
@@ -33,9 +33,9 @@ Five finite Lean cores compile in the mounted cached environment with no output 
 
 ## Frozen artifacts
 
-- `explorations/conditional-build/full-shiab-variational-consistency-2026-11-27.md`: `eb526d843ee51d7b381166884cab0c33c7ff2956f468844bb4bd8dcce153f436`
+- `explorations/conditional-build/full-shiab-variational-consistency-2026-11-27.md`: `0b0113ec030b5069c3688f6a9ab49032d46b80b590637ab1c39645a4349bbb0a`
 - `tests/program-focus/full_shiab_consistency_probe.py`: `db6587eadd2524d3377a85b119c3af5628e1d7e57ac0a3cd94ac633c50beb1f1`
 - `lab/process/full-shiab-consistency-certificates.json`: `a279b8afec2df41da4b6ea06309435c8f89199239b371def38e54d309237275c`
 - `Lean/GUFormalization/FullShiabConsistency.lean`: `a2c0c0ac7123b6c73c12e58f0f6c046b97f10aa9cb07b28153690b2b054be604`
 
-No new action, choice family, physical restriction or publication.
+A narrow source citation correction was made before Runtime close:9.12 belongs to I2B, whereas9.7 supplies the first-action variation. The same frozen envelope claim was reacquired, source-only changes reviewed, and all receipts rebound. The proof and three computational artifacts are unchanged. No new action, choice family, physical restriction or publication.
