@@ -321,3 +321,14 @@ Nov26(g) counterfactual memo is proposal-only; its tests, governance and schedul
 - **Physical bridge remains open:** authentic domain/quotient, normalized readout and propagation are not supplied. Q initial data in larger systems remain possible. Owned quadratic autonomy rules out linear metric/real-connection/matter cancellation of this imaginary-sector leakage; nonlinear/changed-background responses remain outside.
 
 Mandatory basis: Joe continuing falsification; source audit corrects the decision link. Scope: all fixed SO3 submodules of this autonomous imaginary two-copy Q, not source-selected physical states. Shared physical inputs remain absent; the finite result uses owned sources and inverses. Next cost: matched consistency identities, not a guessed four-copy completion. Source-facing weak readout remains a stronger but unready alternative. Directed 71 → 72 / LB-CLASS 30 → 31; choices 10 / obligations 4 / net 6 / 0 selected predictions unchanged. Program policy/schedules unchanged; Nov26g proposals unexecuted.
+
+
+## Current continuation: actual first consistency (2026-11-26)
+
+[Result](../../../explorations/conditional-build/source-action-constraint-consistency-2026-11-26.md) · [evidence](../source-action-constraint-consistency.json).
+
+- **Done, T2:** pure geometry contributes no multiplier derivatives; horizontal kernel derivatives are absorbed into im M. The two tested horizontal spin5 second-jet classes are minus census8/17 (56/80 terms). Their old E5 noncoverage is not an obstruction.
+- **Ready, LB-CLASS/T2:** test these two sources against M plus all ten normal derivative and zero-order kernel-multiplier images. The native normal principal coefficient is PKxiGCP+PCGKxiP. A negative result needs a full augmented dual; a positive finite-stage result does not prove propagation.
+- **Carried:** lower-order F0, higher consistency, physical admission/readout and actual propagation. No sixteen-source inverse backlog or new completion.
+
+Selection: Joe continuing falsification; structural scope is the actual candidate constraint class, source relevance remains conditional. Owned closed-time and full Lorentz covariance remove derivative assembly. Remaining cost is two sparse native classes and their allowed repairs. A physical readout is a stronger alternative only when admission and propagation are supplied. Directed72to73/LBCLASS31to32; choices10/4/net6/zero predictions unchanged; no governance/scheduler or counterfactual-suite change.

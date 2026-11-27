@@ -1,7 +1,7 @@
 schema_version: '1.0'
 repository: observerse-research-program
 branch: main
-revision_basis: 4578af6d992be339395cf3d7e97eca8bd03689d6
+revision_basis: fbc2f6517d61395c8d92db90a254c4db473da7ef
 program_focus:
   version: 2026-11-25-v1
   authority: joe_direct_chat_2026_11_25_five_process_improvements_approved
@@ -140,6 +140,72 @@ program_focus:
     covered; source relevance separately from mathematical breadth; shared prerequisite if any; remaining
     cost; strongest eligible alternative. A blocked high-value target is not an eligible alternative without
     its missing input. Reuse completed theorems and compare only their uncovered successors.'
+source_action_constraint_consistency_2026_11_26:
+  authority: joe_direct_chat_2026_11_26_continued_falsification_math20
+  basis_revision: fbc2f6517d61395c8d92db90a254c4db473da7ef
+  status: internal_T2_actual_constraint_reduction
+  actual_delta: Pure geometric PKGKP is order zero. Horizontal kernel-multiplier derivatives vanish modulo
+    im M. The two tested horizontal spin5 second-jet classes equal minus exact census cases8/17 (56/80
+    terms); normal and zero-order multiplier repairs remain. No GU or candidate inconsistency established.
+  evidence:
+  - explorations/conditional-build/source-action-constraint-consistency-2026-11-26.md
+  - lab/process/source-action-constraint-consistency.json
+  - lab/process/source-action-constraint-consistency-certificates.json
+  - lab/process/hostile-reviews/2026-11-26-source-action-constraint-consistency-review.md
+  source_bridge:
+    status: conditional
+    weakest_unproved_link: W2 and unrestricted Q initial jets are not source-required physical states;
+      physical quotient and propagation remain open.
+    source_necessary_exclusion: absent
+    class_C_representativeness: unchanged/unproved
+    source_claims:
+      SC-ACT-01: ASSERTS action grammar, not this fully selected W2 realization
+      SC-ACT-06: ASSERTS Euclidean Upsilon deformation complex, not this Lorentzian propagation
+      SC-GEO-51: ASSERTS full U64_64
+      SC-GEO-55: ASSERTS gauge-rotated LC displacement, not ordinary torsion
+      SC-META-53: UNCERTAIN physical treatment of indefinite spectra
+    physics_rows: LT-GR1,LT-GR6b,LT-SM8 retain their current verdicts and physical quotient/domain burdens.
+  continuation:
+  - id: native_augmented_consistency_two_sources
+    status: ready
+    target: LB-CLASS
+    tier: T2
+    task: Test minus census cases8 and17 against the full native augmented first-consistency image [M,
+      -L0|kerM, -Lnormal|kerM]. Use L1(xi)=PKxiGCP+PCGKxiP for normal symbols; retain zero-order coefficient
+      and all true kernel jets. Seek an actual dual or explicit repair, not old-E5 membership alone.
+    expected_delta: Decide obstruction or repair for the two tested horizontal second-jet components,
+      with every allowed multiplier correction.
+    class_covered: Autonomous imaginary connection W2/K95 block at the two held real zero-matter roots;
+      tested Q horizontal spin5 second-jet components, not full F0 or a physical state space.
+    source_bridge: Candidate necessity for those initial jets only; source-required admission and physical
+      quotient remain absent.
+    remaining_cost: Two sparse source classes plus reached kernel/dual algebra; no new derivative assembly
+      or16-source inverse backlog.
+    kill_condition: Only a dual annihilating full M and all normal/zero-order kernel images with nonzero
+      source pairing excludes the named initial jets. A missing preimage, E5 noncoverage or incomplete
+      multiplier analysis is not a kill.
+  - id: lower_order_and_higher_consistency
+    status: conditional_after_principal_test
+    target: LB-CLASS
+    tier: T2
+    task: Evaluate uncovered lower-order F0 and higher consistency for surviving data; establish a closed
+      evolution category before physical ghost inference.
+    expected_delta: Actual propagated admissibility instead of finite-jet compatibility.
+    revival_input: Principal obstruction/repair result with survivor jets and retained multiplier equations.
+  - id: physical_weak_readout
+    status: blocked_on_authentic_admission_and_normalization
+    target: LB-CLASS
+    tier: T2
+    task: Transport an actually propagated candidate response to a source-admitted physical observable.
+    expected_delta: Observable consequence rather than a local diagnostic coefficient.
+    revival_input: Authentic common physical domain/quotient, normalized readout and propagation law.
+  consumed:
+  - 'Matched principal source assembly replaced by exact boost class: only cases8/17 revived as actual
+    tested equation components'
+  - Pure geometric order1 assembly eliminated by reviewed closed-time identity
+  accounting: Directed72to73/LBCLASS31to32; choice budget and scientific matrix shrinkage unchanged
+  priority_control_effect: Existing directed research continuation reduced to two actual classes and native
+    normal/zero-order repairs; program_focus/schedules unchanged. Nov26g proposals remain unexecuted.
 source_action_q7_propagation_2026_11_26:
   authority: joe_direct_chat_2026_11_26_continued_falsification_math20
   basis_revision: 4578af6d992be339395cf3d7e97eca8bd03689d6
@@ -162,7 +228,7 @@ source_action_q7_propagation_2026_11_26:
     class_C_representativeness: unchanged/unproved
   continuation:
   - id: matched_connection_constraint_propagation
-    status: ready
+    status: principal_formulation_completed_lower_and_augmented_test_carried_forward
     target: LB-CLASS
     tier: T2
     task: Evaluate the fully matched next Dirac consistency source D G(Bv+En)-D_t v-M_t n for actual constrained
@@ -203,6 +269,8 @@ source_action_q7_propagation_2026_11_26:
       or GU by itself.
     revival_input: An actual necessary R jet/field or admitted physical-domain requirement tying unrestricted
       auxiliary extension to a decision. The valid census alone does not supply it.
+    revival_update: Only exact cases8/17 now have the reviewed matched-equation bridge; full optional
+      lift remains deferred.
   consumed:
   - 'Actual Q principal-isolation test: reviewed result and Lean algebra above'
   - 'Optional full-R inverse is not an unconditional falsification test: scope corrected above'
@@ -212,6 +280,8 @@ source_action_q7_propagation_2026_11_26:
   coupled_quadratic_autonomy: Owned conjugation block diagonality at both real zero-matter roots excludes
     cancellation by linear metric, real-connection or matter perturbations; nonlinear and physical quotient
     questions remain open.
+  continuation_superseded_by: 'source_action_constraint_consistency_2026_11_26: exact source classes and
+    augmented multiplier criterion; no full propagation claim'
 source_action_firstjet_source_census_2026_11_26:
   authority: joe_direct_chat_2026_11_26_continued_falsification_math20
   basis_revision: fc89c976e6c7cafcd4acb277370dfef4518ea9aa

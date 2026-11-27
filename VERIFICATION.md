@@ -17,6 +17,14 @@ External review is not a pathway in this program. The honesty label stays: inter
 
 Sections below are historical snapshots in file order.
 
+## Actual constraint consistency and two source classes (2026-11-26)
+
+Pure geometric PKGKP is order zero. Horizontal kernel-multiplier derivatives vanish modulo im M. The two tested horizontal spin5 second-jet classes equal minus exact census cases8/17 (56/80 terms); normal and zero-order multiplier repairs remain. No GU or candidate inconsistency established.
+
+The exact signed boost bridge replaces fresh derivative assembly for the two tested components. Full lower-order consistency, admitted propagation and physical quotient remain open.
+
+[Result](explorations/conditional-build/source-action-constraint-consistency-2026-11-26.md) · [Evidence and verification](lab/process/source-action-constraint-consistency.json).
+
 ## Actual Q7 principal propagation (2026-11-26)
 
 At both kappa1 roots, every nonzero fixed SO3 submodule of the two-copy Q7 fails freely initialized autonomous connection-range evolution. An SO3-invariant connection subsystem containing Q and closed under this principal flow needs at least four spin7 copies/60 real coefficient dimensions. No physical ghost, W2 or GU exclusion.

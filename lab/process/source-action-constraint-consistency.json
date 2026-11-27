@@ -1,0 +1,166 @@
+{
+  "artifact": "source-action-constraint-consistency-2026-11-26",
+  "date": "2026-11-26",
+  "basis_revision": "fbc2f6517d61395c8d92db90a254c4db473da7ef",
+  "authority": "joe_direct_chat_2026_11_26_continued_falsification_math20",
+  "tier": "T2",
+  "status": "internal_T2_actual_constraint_reduction_reviewed",
+  "actual_delta": "Pure geometric PKGKP is order zero. Horizontal kernel-multiplier derivatives vanish modulo im M. The two tested horizontal spin5 second-jet classes equal minus exact census cases8/17 (56/80 terms); normal and zero-order multiplier repairs remain. No GU or candidate inconsistency established.",
+  "claim_effect": "No source/physics/canon/class-C/scientific-matrix/paper verdict change",
+  "choice_budget_delta": 0,
+  "class_covered": "Closed-time parallel constant-rank symbol class; horizontal/boost results further require the owned Lorentz-invariant W2/K95 family and the exact Q horizontal preimages. Both real zero-matter kappa1 roots included.",
+  "source_bridge": {
+    "status": "conditional",
+    "weakest_unproved_link": "W2 and unrestricted Q initial jets are not source-required physical states; physical quotient and propagation remain open.",
+    "source_necessary_exclusion": "absent",
+    "class_C_representativeness": "unchanged/unproved",
+    "source_claims": {
+      "SC-ACT-01": "ASSERTS action grammar, not this fully selected W2 realization",
+      "SC-ACT-06": "ASSERTS Euclidean Upsilon deformation complex, not this Lorentzian propagation",
+      "SC-GEO-51": "ASSERTS full U64_64",
+      "SC-GEO-55": "ASSERTS gauge-rotated LC displacement, not ordinary torsion",
+      "SC-META-53": "UNCERTAIN physical treatment of indefinite spectra"
+    },
+    "physics_rows": "LT-GR1,LT-GR6b,LT-SM8 retain their current verdicts and physical quotient/domain burdens."
+  },
+  "theorems": {
+    "constant_rank": "Owned G_tau local transitivity and conjugacy imply constant full M rank at each fixed root; no rank computed or kernel positivity assumed.",
+    "pointwise_criterion": "First consistency iff F0 in im(M direct_sum -ell), ell:J1(kerM)->N. Invariant under frame and primary lift.",
+    "geometric_cancellation": "Differentiating P_(dt+epsilon df) K P_(dt+epsilon df)=0 gives [PKGKP,f]=0, hence order zero.",
+    "native_multiplier_symbol": "L1(xi)=PKxiGCP+PCGKxiP=-P delta_xi(PCP)P",
+    "horizontal_symbol": "L1(xi)=M j-j M for horizontal boosts; L1(xi)kerM subset imM. Three ordinary spatial derivative columns removed; ten normal pluszero-order columns remain.",
+    "source_bridge": "C2=PKxi R S V-M(jy) forMy=PKxiV; approximate residual adds+j(My-s). S=-Gamma10 gives minus cases8/17 in highestspin5.",
+    "limits": "No full first-consistency decision, higher chain closure, propagated physical ghost, branch continuation or GU exclusion."
+  },
+  "exact_sources": [
+    {
+      "case": 8,
+      "Q_basis_index": 5,
+      "sign": -1,
+      "terms": 56,
+      "source_sha256": "2e5021ef04804f78c6a3ef88ac86192ceec5ab5896b2b4d712ce186a1f232ec5"
+    },
+    {
+      "case": 17,
+      "Q_basis_index": 12,
+      "sign": -1,
+      "terms": 80,
+      "source_sha256": "7bb2f4d2c12ef17174ff21ea2723e80368e78f4745fb5a9f79d5df2b29599a15"
+    }
+  ],
+  "source_rank": {
+    "value": 2,
+    "scope": "Complex highest-weight source vectors and known E5 receiver quotient; not asserted nonzero in coker M or augmented cokernel",
+    "independent_minor": {
+      "rows": [
+        [
+          32,
+          759
+        ],
+        [
+          32,
+          5735
+        ]
+      ],
+      "diagonal": [
+        "-8i/3",
+        "40/3"
+      ],
+      "off_diagonal": 0,
+      "determinant": "-320i/9"
+    }
+  },
+  "three_state": {
+    "ESTABLISHED": "Pure geometric PKGKP is order zero. Horizontal kernel-multiplier derivatives vanish modulo im M. The two tested horizontal spin5 second-jet classes equal minus exact census cases8/17 (56/80 terms); normal and zero-order multiplier repairs remain. No GU or candidate inconsistency established.",
+    "RULED_OUT_INFERENCE_ONLY": "Old receiver nonmembership alone proves inconsistency; exact multiplier controls refute this inference.",
+    "NOT_MODELED_UNDETERMINED": "Normal/zero-order multiplier image, final obstruction, lower-order and higher consistency, admitted propagation and physical/source verdict."
+  },
+  "independent_reviews": {
+    "path": "lab/process/hostile-reviews/2026-11-26-source-action-constraint-consistency-review.md",
+    "two_mathematical_derivations": "PASS",
+    "hostile_scope": "PASS",
+    "author_separate": true,
+    "final_corrections": [
+      "Opening limited to tested horizontal spin5 second-jet components",
+      "Refreshed final probe self-hash",
+      "Retained all normal/zero-order multiplier repairs"
+    ]
+  },
+  "math_reassessment": {
+    "method": "Quick20 mathematical descriptions, no per-persona agents; category theory and number theory included",
+    "review_section": "lab/process/hostile-reviews/2026-11-26-source-action-constraint-consistency-review.md#independent-descriptorsource-review-and20-descriptions",
+    "final_delta": "Actual quotient uses multiplier images; pure geometry cancels at order1; exact boost maps the only two tested columns; source/physical necessity remains separate."
+  },
+  "next_worksets": [
+    {
+      "id": "native_augmented_consistency_two_sources",
+      "status": "ready",
+      "target": "LB-CLASS",
+      "tier": "T2",
+      "task": "Test minus census cases8 and17 against the full native augmented first-consistency image [M, -L0|kerM, -Lnormal|kerM]. Use L1(xi)=PKxiGCP+PCGKxiP for normal symbols; retain zero-order coefficient and all true kernel jets. Seek an actual dual or explicit repair, not old-E5 membership alone.",
+      "expected_delta": "Decide obstruction or repair for the two tested horizontal second-jet components, with every allowed multiplier correction.",
+      "class_covered": "Autonomous imaginary connection W2/K95 block at the two held real zero-matter roots; tested Q horizontal spin5 second-jet components, not full F0 or a physical state space.",
+      "source_bridge": "Candidate necessity for those initial jets only; source-required admission and physical quotient remain absent.",
+      "remaining_cost": "Two sparse source classes plus reached kernel/dual algebra; no new derivative assembly or16-source inverse backlog.",
+      "kill_condition": "Only a dual annihilating full M and all normal/zero-order kernel images with nonzero source pairing excludes the named initial jets. A missing preimage, E5 noncoverage or incomplete multiplier analysis is not a kill."
+    },
+    {
+      "id": "lower_order_and_higher_consistency",
+      "status": "conditional_after_principal_test",
+      "target": "LB-CLASS",
+      "tier": "T2",
+      "task": "Evaluate uncovered lower-order F0 and higher consistency for surviving data; establish a closed evolution category before physical ghost inference.",
+      "expected_delta": "Actual propagated admissibility instead of finite-jet compatibility.",
+      "revival_input": "Principal obstruction/repair result with survivor jets and retained multiplier equations."
+    },
+    {
+      "id": "physical_weak_readout",
+      "status": "blocked_on_authentic_admission_and_normalization",
+      "target": "LB-CLASS",
+      "tier": "T2",
+      "task": "Transport an actually propagated candidate response to a source-admitted physical observable.",
+      "expected_delta": "Observable consequence rather than a local diagnostic coefficient.",
+      "revival_input": "Authentic common physical domain/quotient, normalized readout and propagation law."
+    }
+  ],
+  "reproduction": {
+    "probe": "tests/program-focus/source_action_constraint_consistency_probe.py",
+    "certificate": "lab/process/source-action-constraint-consistency-certificates.json",
+    "bridge_seconds": 4.071528207976371,
+    "center_diagnostic_seconds": 76.75743112480268,
+    "center_corrected_check_seconds": 47.21025462495163,
+    "command": "python3 tests/program-focus/source_action_constraint_consistency_probe.py --repo . --cache _local/constraint-consistency --e5 _local/constraint-consistency/e5 --mode bridge --output _local/constraint-consistency/bridge.json",
+    "preparation": "python3 tests/program-focus/source_action_weak_response_probe.py --repo . --cache _local/constraint-consistency/e5 --unpack",
+    "no_new_inverse": true,
+    "native_bindings": {
+      "source_action_deep_geometry.py": "7cdfe5f7609300c1ab4fb482f309cfafa52d0aa66cf353ef8b1f9c8be07e52df",
+      "source_action_deep_algebra.py": "4e3800131049e2b397bbce6106bfc5766d2f5fbf996319c50942f3b805d65598",
+      "source_action_metric_symbol_probe.py": "eccac86c829c48848a4db9ab49d0313601bc3b19aca9a1fc6635520f489254ef",
+      "source_action_paired_response_probe.py": "72f131477d041c19293a7e191fd099fbe637597e685ac1d84dfe76db8beb8655",
+      "source_action_weak_response_probe.py": "60cf6ae0f16ee6fc4233d49e4bec31753c22bdc2c1d2497c3d76b6d7c1f4e89f",
+      "source_action_spin4_compatibility_probe.py": "e78ec1956858f8d6fd8868e84a622a2f31131452e6a1259a04f6f82a169857a8",
+      "source_action_reduced_evolution_probe.py": "2279acba19fe23ba3cbc77106ef8137fb72c4e758bdf45b1ee3ffe259a617426",
+      "self": "bbc5988d0d18e895fcbd58ca60561be78e03b00b8e7d47d6ffb276776b27021c"
+    },
+    "comparison_limit": "Four-second bridge checks exact class representatives, not the full direct coefficient; no like-for-like whole-workflow speedup claim."
+  },
+  "lean": "No new Lean module for this T2 structural result; reviewed native operator proof and exact replay, not a formal full PDE proof.",
+  "verification": {
+    "native_gates": {
+      "program_focus_audit": "PASS",
+      "typed_carrier_declaration_audit": "PASS",
+      "kill_target_claim_audit": "PASS",
+      "frontmatter_status_schema_audit": "PASS",
+      "source_native_comparator_routing_audit": "PASS",
+      "lean_certificate_surface_audit": "PASS",
+      "current_state_absolute_currency_audit": "PASS"
+    },
+    "protected_surfaces": "program_focus,cells,intersections,shrinkage and choice budget unchanged"
+  },
+  "current_sha256": {
+    "tests/program-focus/source_action_constraint_consistency_probe.py": "bbc5988d0d18e895fcbd58ca60561be78e03b00b8e7d47d6ffb276776b27021c",
+    "lab/process/source-action-constraint-consistency-certificates.json": "4f8329c10f4763dad8ca3d45314dd0996b829d388515a4b94d6bd70b07669824",
+    "explorations/conditional-build/source-action-constraint-consistency-2026-11-26.md": "c1d3f7ae4ee81d890ffbae4bdd1bcd4ea2622530f787511b8fd16dc95429c79d",
+    "lab/process/hostile-reviews/2026-11-26-source-action-constraint-consistency-review.md": "075654e3db959447fde7e838ab3ed523b1ababc8cd452529f6ba6e81505b33d0"
+  }
+}

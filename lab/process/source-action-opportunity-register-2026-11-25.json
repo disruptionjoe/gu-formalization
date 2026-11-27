@@ -1348,7 +1348,7 @@
       "selection_note": "Candidate construction/diagnostic only unless its stated structural family and source bridge satisfy current program_focus. A reserve is not scheduled work."
     }
   ],
-  "priority_effect": "Currentdirectedcontinuation usesq7_propagation_2026_11_26: actualR-flowrequirescoupling,so testmatchedconstraintconsistency withkernelmultipliers. OptionalfullRinverse deferreduntilnecessarybridge; noautomaticinverseor4copycompletion. Ordinarycadence/governanceunchanged.",
+  "priority_effect": "Current directed science uses constraint_consistency_2026_11_26: two exact matched source classes (8/17), full native normal/zero-order multiplier repairs. Other optional census columns remain deferred. Ordinary policy/cadence/schedules unchanged.",
   "evidence": [
     "explorations/conditional-build/source-action-engineering-wave-2026-11-25.md",
     "lab/process/source-action-engineering-wave.json",
@@ -1960,6 +1960,49 @@
         "explorations/conditional-build/source-action-reduced-evolution-2026-11-26.md": "1f8d9afcb6536a9a869bb32c0b740d68df9572b70a272255def9d108712d4387"
       },
       "independent_reviews": "Both specialists and separate hostile reviewer confirm applicability"
-    }
+    },
+    "continuation_superseded_by": "lab/process/source-action-constraint-consistency.json"
+  },
+  "constraint_consistency_2026_11_26": {
+    "report": "explorations/conditional-build/source-action-constraint-consistency-2026-11-26.md",
+    "evidence": "lab/process/source-action-constraint-consistency.json",
+    "actual_delta": "Pure geometric PKGKP is order zero. Horizontal kernel-multiplier derivatives vanish modulo im M. The two tested horizontal spin5 second-jet classes equal minus exact census cases8/17 (56/80 terms); normal and zero-order multiplier repairs remain. No GU or candidate inconsistency established.",
+    "next_directed_worksets": [
+      {
+        "id": "native_augmented_consistency_two_sources",
+        "status": "ready",
+        "target": "LB-CLASS",
+        "tier": "T2",
+        "task": "Test minus census cases8 and17 against the full native augmented first-consistency image [M, -L0|kerM, -Lnormal|kerM]. Use L1(xi)=PKxiGCP+PCGKxiP for normal symbols; retain zero-order coefficient and all true kernel jets. Seek an actual dual or explicit repair, not old-E5 membership alone.",
+        "expected_delta": "Decide obstruction or repair for the two tested horizontal second-jet components, with every allowed multiplier correction.",
+        "class_covered": "Autonomous imaginary connection W2/K95 block at the two held real zero-matter roots; tested Q horizontal spin5 second-jet components, not full F0 or a physical state space.",
+        "source_bridge": "Candidate necessity for those initial jets only; source-required admission and physical quotient remain absent.",
+        "remaining_cost": "Two sparse source classes plus reached kernel/dual algebra; no new derivative assembly or16-source inverse backlog.",
+        "kill_condition": "Only a dual annihilating full M and all normal/zero-order kernel images with nonzero source pairing excludes the named initial jets. A missing preimage, E5 noncoverage or incomplete multiplier analysis is not a kill."
+      },
+      {
+        "id": "lower_order_and_higher_consistency",
+        "status": "conditional_after_principal_test",
+        "target": "LB-CLASS",
+        "tier": "T2",
+        "task": "Evaluate uncovered lower-order F0 and higher consistency for surviving data; establish a closed evolution category before physical ghost inference.",
+        "expected_delta": "Actual propagated admissibility instead of finite-jet compatibility.",
+        "revival_input": "Principal obstruction/repair result with survivor jets and retained multiplier equations."
+      },
+      {
+        "id": "physical_weak_readout",
+        "status": "blocked_on_authentic_admission_and_normalization",
+        "target": "LB-CLASS",
+        "tier": "T2",
+        "task": "Transport an actually propagated candidate response to a source-admitted physical observable.",
+        "expected_delta": "Observable consequence rather than a local diagnostic coefficient.",
+        "revival_input": "Authentic common physical domain/quotient, normalized readout and propagation law."
+      }
+    ],
+    "consumed": [
+      "Generic matched geometric derivative assembly",
+      "All-census-source default continuation"
+    ],
+    "counterfactual_status": "Nov26g proposal-only; no suites or governance executed"
   }
 }
