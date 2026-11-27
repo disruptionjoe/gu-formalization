@@ -15,6 +15,7 @@ documents.
 
 | Lean file | Scope | Owner surface |
 |---|---|---|
+| `GUFormalization/ScalarNormalSchur.lean` | Six finite lemmas for a vanishing moving-frame auxiliary row, frequency-independent compression, signed quadratic-energy dominance, native time-covector arithmetic and real-component sign. Analytic ODE existence, geometry and physical admission are separate reviewed inputs. | `explorations/conditional-build/source-action-scalar-normal-operator-2026-11-27.md` |
 | `GUFormalization/CompleteAuxiliaryGraph.lean` | Seven finite lemmas for auxiliary elimination, exact block reduction, formal recurrence, invariant eigenspaces, coefficient count and inverse-free kernel-energy independence. Native inverse certificates and analytic domain exclusions are separate reviewed inputs; no propagation theorem. | `explorations/conditional-build/source-action-full-auxiliary-map-2026-11-26.md` |
 | `GUFormalization/Q7Propagation.lean` | Six finite lemmas: Hermitian determinant and two-row injectivity, kernel-independent source pairing, and a null-vector control. Native parity, coupled-sector autonomy and PDE validity remain separate reviewed premises. | `explorations/conditional-build/source-action-q7-propagation-2026-11-26.md` |
 | `GUFormalization/Status.lean` | Claim-status order and dependency monotonicity kernel | `lab/methods/claim-status-consistency.md` |

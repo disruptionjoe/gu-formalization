@@ -17,6 +17,12 @@ External review is not a pathway in this program. The honesty label stays: inter
 
 Sections below are historical snapshots in file order.
 
+## Actual local signed-energy solutions (2026-11-27)
+
+An exact full-carrier triangular-frame reduction of the held W2/K95 candidate supplies genuine local analytic linearized solution germs at every fixed finite normal frequency. At both kappa1 roots, such solutions have either sign of canonical energy integrated on a fixed finite ambient slice patch. Separately, the correctly composed exponential-frame scalar-normal operator includes a nonzero transverse Schur correction and has certified positive-real-part high-frequency frozen growth at both roots. No physical ghost, global evolution, nonlinear runaway or GU falsification follows.
+
+[Result](explorations/conditional-build/source-action-scalar-normal-operator-2026-11-27.md) · [Evidence](lab/process/source-action-scalar-normal-operator.json).
+
 ## Complete auxiliary graph and scoped domain consequences (2026-11-27)
 
 Complete native auxiliary M is regular on all49154 real coefficient directions at both held W2/K95 roots. The actual all-R constraint graph and every formal time jet are fixed; finite temporal consistency in this stationary linearized block cannot remove arbitrary smooth R initial data. Compact primary-constrained Q data already have both canonical-energy signs without full lower-M inversion; some negative-energy data give a nonzero fixed matter-action first variation. The previously conditional equal-Hs, first-graph and ordinary finite local-gauge exclusions apply in their stated candidate categories. Actual physical propagation, quotient and GU remain undetermined.

@@ -94,3 +94,5 @@ import GUFormalization.NormalTensorClass
 import GUFormalization.Q7Propagation
 
 import GUFormalization.CompleteAuxiliaryGraph
+
+import GUFormalization.ScalarNormalSchur

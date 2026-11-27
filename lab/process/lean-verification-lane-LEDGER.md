@@ -538,3 +538,8 @@ bicategory, ambidexterity or Mackey 2-functor is inferred.
 ## Complete auxiliary graph finite core (2026-11-26)
 
 `Lean/GUFormalization/CompleteAuxiliaryGraph.lean`: **LEAN-VERIFIED**, seven finite lemmas for unique auxiliary elimination, exact two-block equivalence, formal recurrence uniqueness, commuting-map eigenspaces, the25082 remaining coefficient count and inverse-free reciprocity/kernel-energy independence. Targeted `lake env lean -j1` passed without warnings or placeholders; default import registered. Statement validation retains arbitrary supplied invertible A/M and linear B/E/D: native identification, complete root-box inverses, differential domains and obstruction estimates are separately reviewed inputs. No convergent formal series, actual PDE solution or physical quotient is formalized. [Result](../../explorations/conditional-build/source-action-full-auxiliary-map-2026-11-26.md).
+
+
+## 2026-11-27 — Scalar-normal reduction finite core
+
+`Lean/GUFormalization/ScalarNormalSchur.lean`: **LEAN-VERIFIED**, six lemmas for the moving-frame auxiliary-row cancellation, frequency-independent compression, positive/negative quadratic dominance, native du norm arithmetic and real-component sign. Targeted single-thread `lake env lean -j1` passed without warnings or placeholders; default import registered. Statement validation: the compression hypotheses, root coefficients and O(k) patch-boundary remainder are supplied and checked outside Lean. Exact triangular geometry, local analytic ODE solutions, global/physical admissibility and the full PDE are not formalized. [Result](../../explorations/conditional-build/source-action-scalar-normal-operator-2026-11-27.md).

@@ -1,7 +1,7 @@
 schema_version: '1.0'
 repository: observerse-research-program
 branch: main
-revision_basis: a2232ea0ef7b001e14b4acc0653740fbf8b9108b
+revision_basis: c1f3642a5b3c7c9f06871c0e02a74644497c5ec9
 program_focus:
   version: 2026-11-25-v1
   authority: joe_direct_chat_2026_11_25_five_process_improvements_approved
@@ -140,6 +140,71 @@ program_focus:
     covered; source relevance separately from mathematical breadth; shared prerequisite if any; remaining
     cost; strongest eligible alternative. A blocked high-value target is not an eligible alternative without
     its missing input. Reuse completed theorems and compare only their uncovered successors.'
+source_action_scalar_normal_operator_2026_11_27:
+  authority: joe_direct_chat_2026_11_26_continued_falsification_math20
+  basis_revision: c1f3642a5b3c7c9f06871c0e02a74644497c5ec9
+  status: internal_T1_local_solution_energy_reviewed
+  actual_delta: An exact full-carrier triangular-frame reduction of the held W2/K95 candidate supplies
+    genuine local analytic linearized solution germs at every fixed finite normal frequency. At both kappa1
+    roots, such solutions have either sign of canonical energy integrated on a fixed finite ambient slice
+    patch. Separately, the correctly composed exponential-frame scalar-normal operator includes a nonzero
+    transverse Schur correction and has certified positive-real-part high-frequency frozen growth at both
+    roots. No physical ghost, global evolution, nonlinear runaway or GU falsification follows.
+  evidence:
+  - explorations/conditional-build/source-action-scalar-normal-operator-2026-11-27.md
+  - lab/process/source-action-scalar-normal-operator.json
+  - lab/process/source-action-scalar-normal-operator-certificates.json
+  - lab/process/hostile-reviews/2026-11-27-source-action-scalar-normal-operator-review.md
+  source_bridge:
+    status: conditional
+    reason: SC-ACT-01 action grammar does not select W2. SC-META-52/53 do not select the tested upstairs
+      solution class, a physical quotient or boundary domain. Local canonical patch energy is not automatically
+      a physical Hamiltonian.
+  continuation:
+  - id: actual_solution_coupling_or_growth
+    status: ready_for_bounded_method_selection
+    target: LB-CLASS
+    tier: T2
+    task: Use the proved full-carrier equation A(u)q_u+K4 q_r+C0S q=0 to test actual local dynamics or
+      a common-domain matter-action response. First identify an exact symmetry/module or adjoint pairing
+      that avoids a new full-carrier census. A signed-energy germ alone does not prove exchange or growth.
+    expected_delta: An actual-coefficient growth/estimate obstruction, or a nonzero matter-action pairing
+      on the same local on-shell germ class, with source/physical admission still stated separately. If
+      the required pairing or invariant module is absent, record that exact burden rather than inventing
+      a domain.
+    class_covered: Held W2/K95 full-carrier triangular analytic solution family, not the exponential-frame
+      frozen20 and not source-required GU.
+    source_bridge: Conditional on actual physical admission; a matter-action variation is not an observed
+      signal or energy-transfer theorem.
+    kill_condition: A certified actual-coefficient violation excludes only its explicitly stated candidate
+      evolution/domain class. Frozen eigenvalues, an ansatz leak or a solver failure do not kill GU.
+    shared_prerequisite: Owned fullM regularity and exact triangular-frame reduction; no new inverse certificates
+      or choice family.
+    strongest_alternative: A source-supplied physical BRST/boundary admissibility test if its generators
+      and common domain are actually specified; do not build them merely to rescue the candidate.
+  - id: physical_admission
+    status: requires_source_grounded_common_domain_or_quotient
+    target: LB-CLASS
+    tier: T2
+    task: Distinguish local analytic solution witnesses from global/L2 admitted physical states and a
+      conserved physical energy. Check any supplied prescription against these concrete witnesses.
+    remaining_burdens:
+    - source-required physical state/domain and boundary conditions
+    - physical cohomology or positive physical pairing
+    - admitted normalized observation and actual coupled exchange
+    scope: The previous absence of actual local solutions is discharged for this test family; uniform
+      arbitrary-data propagation and global physical admission are not.
+  consumed:
+  - actual scalar-normal lower/frame/lapse and transverse Schur assembly at both held roots
+  - whether the inherited normal-energy witnesses can be realized by genuine local linearized solutions
+    in an exact full-carrier test family
+  - 'geometric-spin7 invariance of the triangular reduction: explicitly false; retain full carrier'
+  - repeat fullM regularity, finite temporal consistency, frozen principal-pencil or isolated receiver
+    scans
+  accounting: Directed78to79/LBCLASS37to38. Existing directed_lc_carry_2026_11_25_physical remains pending
+    for the next ordinary run; no cadence amendment or bet credit.
+  priority_control_effect: Completed directed scalar operator and exact local-propagation question. Global/physical
+    admission and actual coupling/growth remain. program_focus/schedules unchanged; Nov26g proposal-only.
 source_action_full_auxiliary_map_2026_11_26:
   authority: joe_direct_chat_2026_11_26_continued_falsification_math20
   basis_revision: a2232ea0ef7b001e14b4acc0653740fbf8b9108b
@@ -163,7 +228,7 @@ source_action_full_auxiliary_map_2026_11_26:
       unresolved.
   continuation:
   - id: actual_scalar_normal_descriptor
-    status: ready_for_bounded_operator_audit
+    status: done_corrected_operator_and_exact_solution_family
     target: LB-CLASS
     tier: T2
     task: Screen the complete actual geometric-spin7 scalar-normal descriptor at the two held roots:36
@@ -184,6 +249,7 @@ source_action_full_auxiliary_map_2026_11_26:
       identification; no new choice family.
     ranking_limit: Provisional first among the compared candidate tests, pending actual operator assembly;
       cost superiority over an actual second-graph test is unproved.
+    completion_evidence: lab/process/source-action-scalar-normal-operator.json
   - id: admitted_physical_propagation
     status: requires_explicit_operator_domain_or_bridge
     target: LB-CLASS
@@ -196,6 +262,9 @@ source_action_full_auxiliary_map_2026_11_26:
     - source-grounded physical quotient/common domain
     - normalized observed readout
     scope: No new completion or domain choice is added merely to survive.
+    remaining_work_ref: source_action_scalar_normal_operator_2026_11_27
+    local_solution_germ_update: Local analytic propagation of signed-energy witnesses now established;
+      physical/global admission still open.
   consumed:
   - all seven remaining auxiliary-sector regularity tests at the two held roots
   - further finite temporal constraint-consistency tests on unrestricted R data in this stationary linearized
@@ -210,6 +279,7 @@ source_action_full_auxiliary_map_2026_11_26:
   priority_control_effect: The directed full auxiliary question and finite temporal consistency searches
     are consumed. Actual propagation/readout remains; program_focus and schedules unchanged. Nov26g remains
     proposal-only.
+  continuation_superseded_by: source_action_scalar_normal_operator_2026_11_27
 source_action_normal_normal_consistency_2026_11_26:
   authority: joe_direct_chat_2026_11_26_continued_falsification_math20
   basis_revision: 795227ea980f683294c207fceb71db0c41ee727a

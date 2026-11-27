@@ -1,0 +1,338 @@
+{
+  "basis_revision": "c1f3642a5b3c7c9f06871c0e02a74644497c5ec9",
+  "authority": "joe_direct_chat_2026_11_26_continued_falsification_math20",
+  "status": "internal_T1_local_solution_energy_reviewed",
+  "program_target": "LB-CLASS",
+  "tier": "T1",
+  "actual_delta": "An exact full-carrier triangular-frame reduction of the held W2/K95 candidate supplies genuine local analytic linearized solution germs at every fixed finite normal frequency. At both kappa1 roots, such solutions have either sign of canonical energy integrated on a fixed finite ambient slice patch. Separately, the correctly composed exponential-frame scalar-normal operator includes a nonzero transverse Schur correction and has certified positive-real-part high-frequency frozen growth at both roots. No physical ghost, global evolution, nonlinear runaway or GU falsification follows.",
+  "class_covered": "Fixed W2/K95 full-U zero-matter candidate at both certified kappa1 backgrounds; exact local full-carrier triangular analytic solution family and separately exponential-frame geometric-spin7 scalar-normal jets.",
+  "premises": [
+    "explorations/conditional-build/source-action-scalar-normal-operator-2026-11-27.md",
+    "lab/process/source-action-scalar-normal-operator-certificates.json",
+    "explorations/conditional-build/source-action-full-auxiliary-map-2026-11-26.md",
+    "lab/process/source-action-receiver-strategy.json"
+  ],
+  "source_bridge": {
+    "status": "conditional",
+    "reason": "SC-ACT-01 action grammar does not select W2. SC-META-52/53 do not select the tested upstairs solution class, a physical quotient or boundary domain. Local canonical patch energy is not automatically a physical Hamiltonian."
+  },
+  "weakest_unproved_link": "Source-required physical admission/common domain; local patch energy is not the physical Hamiltonian.",
+  "claim_effect": "No matrix cell/intersection, scientific shrinkage, source/physics/canon/class-C/paper verdict change.",
+  "three_state": {
+    "established": [
+      "exact full-carrier two-variable reduction",
+      "local analytic linearized solution germs for every fixed finite frequency",
+      "both signs of canonical energy integrated on a fixed relatively compact ambient slice patch at both roots",
+      "transverse differential Schur correction and certified frozen high-frequency growth"
+    ],
+    "ruled_out": [
+      "all signed-energy witnesses being merely off-shell/formal jets",
+      "canonical patch-energy positivity on the unrestricted local analytic candidate solution class",
+      "geometric-spin7 closure in the triangular frame"
+    ],
+    "not_modeled_undetermined": [
+      "uniform-frequency or arbitrary-data evolution",
+      "global/L2 physical admission",
+      "physical BRST and negative-norm particles",
+      "conserved positive physical Hamiltonian",
+      "nonlinear runaway and observed energy exchange",
+      "GU falsification"
+    ]
+  },
+  "frozen_spectral": {
+    "carrier_dimension": 20,
+    "trace": "identically zero by full-family B reflection",
+    "Re_trace_H2_outward_intervals": [
+      [
+        0.9710674772,
+        0.9712811711
+      ],
+      [
+        0.2915800783,
+        0.2929824211
+      ]
+    ],
+    "max_real_part_lower_bound": "1/40 in declared native normalization; not physical rate",
+    "transverse_correction": "Delta0_CK nonzero at both centers; do not freeze before elimination",
+    "ceiling": "Frozen jet operator, not the exact full-carrier triangular PDE"
+  },
+  "actual_solution_family": {
+    "equation": "[K3-u(K4-3K7)] q_u+K4 q_r+C0S q=0",
+    "time_norm": "-1+u^2/8",
+    "mechanism": "Each fixed real Fourier k yields an analytic descriptor ODE. PA=0 removes the moving-frame auxiliary term; PK4P=0 removes k from the auxiliary block, which equals the owned fullM at u=0. Local invertibility gives ordinary analytic ODE existence.",
+    "energy": "Fixed nonempty relatively compact13D ambient t0 patch with smooth/piecewise-smooth boundary; signed k\u00b2 volume term dominates O(k) boundary/lower terms. No cutoff of the propagated field and no pointwise-density identification."
+  },
+  "consumed": [
+    "actual scalar-normal lower/frame/lapse and transverse Schur assembly at both held roots",
+    "whether the inherited normal-energy witnesses can be realized by genuine local linearized solutions in an exact full-carrier test family",
+    "geometric-spin7 invariance of the triangular reduction: explicitly false; retain full carrier",
+    "repeat fullM regularity, finite temporal consistency, frozen principal-pencil or isolated receiver scans"
+  ],
+  "next_directed_worksets": [
+    {
+      "id": "actual_solution_coupling_or_growth",
+      "status": "ready_for_bounded_method_selection",
+      "target": "LB-CLASS",
+      "tier": "T2",
+      "task": "Use the proved full-carrier equation A(u)q_u+K4 q_r+C0S q=0 to test actual local dynamics or a common-domain matter-action response. First identify an exact symmetry/module or adjoint pairing that avoids a new full-carrier census. A signed-energy germ alone does not prove exchange or growth.",
+      "expected_delta": "An actual-coefficient growth/estimate obstruction, or a nonzero matter-action pairing on the same local on-shell germ class, with source/physical admission still stated separately. If the required pairing or invariant module is absent, record that exact burden rather than inventing a domain.",
+      "class_covered": "Held W2/K95 full-carrier triangular analytic solution family, not the exponential-frame frozen20 and not source-required GU.",
+      "source_bridge": "Conditional on actual physical admission; a matter-action variation is not an observed signal or energy-transfer theorem.",
+      "kill_condition": "A certified actual-coefficient violation excludes only its explicitly stated candidate evolution/domain class. Frozen eigenvalues, an ansatz leak or a solver failure do not kill GU.",
+      "shared_prerequisite": "Owned fullM regularity and exact triangular-frame reduction; no new inverse certificates or choice family.",
+      "strongest_alternative": "A source-supplied physical BRST/boundary admissibility test if its generators and common domain are actually specified; do not build them merely to rescue the candidate."
+    },
+    {
+      "id": "physical_admission",
+      "status": "requires_source_grounded_common_domain_or_quotient",
+      "target": "LB-CLASS",
+      "tier": "T2",
+      "task": "Distinguish local analytic solution witnesses from global/L2 admitted physical states and a conserved physical energy. Check any supplied prescription against these concrete witnesses.",
+      "remaining_burdens": [
+        "source-required physical state/domain and boundary conditions",
+        "physical cohomology or positive physical pairing",
+        "admitted normalized observation and actual coupled exchange"
+      ],
+      "scope": "The previous absence of actual local solutions is discharged for this test family; uniform arbitrary-data propagation and global physical admission are not."
+    }
+  ],
+  "counterfactual_proposal": {
+    "status": "proposal_only_not_executed",
+    "authority": "joe_direct_chat_2026_11_26_g",
+    "ranked_item_numbers": [
+      1,
+      6,
+      2,
+      3,
+      7,
+      5,
+      4
+    ],
+    "basis": "Qualitative expected time saved at the actual consistency bottleneck; no measured forecasts or success probabilities.",
+    "ranked": [
+      {
+        "item": 1,
+        "expected_savings": "highest immediate",
+        "proposal": "Map queued outcomes to changed action, claim, bound or certificate. Consume tasks already covered by a theorem. Same next action alone is not grounds to skip useful evidence."
+      },
+      {
+        "item": 6,
+        "expected_savings": "high immediate",
+        "proposal": "Separate necessary source consequences from candidate-conditional desiderata and order by test cost. Connectivity to these chosen roots and positive physical energy are not silently made source premises."
+      },
+      {
+        "item": 2,
+        "expected_savings": "medium-high if targeted",
+        "proposal": "Audit dependencies of the actual live operator/domain question first; the old six first-consistency channels are consumed. Defer all ten-family flips; one-at-a-time survival does not prove joint robustness. Plus/minus adjoint remains a comparator unless sourced."
+      },
+      {
+        "item": 3,
+        "expected_savings": "high before a physical-ghost claim, lower for current algebraic range",
+        "proposal": "One matched control for the exact inference first. Distinguish constrained energy from BRST physical ghosts; conformal-gravity expectation requires a stated prescription."
+      },
+      {
+        "item": 7,
+        "expected_savings": "medium later",
+        "proposal": "Use a matched four-dimensional comparator only for a specific observation-related obstruction, preserving relevant structures."
+      },
+      {
+        "item": 5,
+        "expected_savings": "low immediate",
+        "proposal": "Euclidean base changes the real form and physical-time question; use only if it distinguishes a named sign mechanism."
+      },
+      {
+        "item": 4,
+        "expected_savings": "lowest immediate",
+        "proposal": "Toy dimensions alter branching and source counts; use if a structural dimension theorem is otherwise unavailable."
+      }
+    ],
+    "recommendation": "Approve lightweight items1/6 and targeted dependencies; reserve comparator execution for a specific diagnostic question. Broad suites remain deferred proposals, not new stop rules.",
+    "current_theorem_effect": "The scalar operator and exact two-variable reduction are ordinary directed science, not execution of Nov26g counterfactual suites or adoption of a new value-of-information gate. Local solution existence is discharged for the signed-energy witnesses; physical admission remains.",
+    "sensitivity_scope_correction": {
+      "status": "proposal_grounded_in_owned_quadratic_autonomy_not_executed_sweep",
+      "reason": "The ten families are not ten independent switches in the present local operator. Geometry, shiab recipe and coupling enter the held bosonic map. The zero-matter imaginary quadratic block is autonomous from the fermion recipe and the diagnostic matter lift/band/dispersion/dual/tube choices. Variational and physical domains still affect admissibility and propagation, so local algebraic independence is not physical independence.",
+      "evidence": [
+        "lab/process/source-action-q7-propagation.json#coupled_quadratic_autonomy",
+        "lab/process/action-constraint-matrix.json#source_relevance_assumption_view.candidate_choice_budget"
+      ],
+      "adjoint_caution": "A plus/minus adjoint flip changes the stated construction unless an authenticated source permits it; label it a comparator, not a new GU choice."
+    },
+    "current_queue_outcome_map": {
+      "weak_response": "Pointwise receiver work is consumed. The exact local solution family now makes an on-shell common-domain action pairing more concrete; physical readout and energy exchange remain separate.",
+      "path_continuation": "Connection to the large-kappa branch would add a scoped candidate result; a numerical turn is no exclusion. Neither alone selects a physical state, and source necessity of that path is unproved.",
+      "spin4_cokernel": "Complete owned ranges and whole first consistency consume old Q source/nonmembership tests; fullM now consumes the remaining auxiliary regularity question.",
+      "BRST": "Ordinary finite local arbitrary-function gauge removal is excluded in the autonomous block after full regularity. Physical cohomology still requires an authentic action charge and common invariant domain; a guessed ghost algebra is not that test."
+    }
+  },
+  "quick_math20": {
+    "method": "Single compact description-lens pass, not20 independently sampled scientists or subagents. Concrete author plus independent reviewers are separate.",
+    "lenses": [
+      {
+        "index": 1,
+        "lens": "Differential geometry",
+        "decision_delta": "A simply transitive triangular frame gives an exact two-variable family."
+      },
+      {
+        "index": 2,
+        "lens": "Representation theory",
+        "decision_delta": "Spin7 closes the isotropic jet sum but leaks in the triangular dynamics; use the full carrier."
+      },
+      {
+        "index": 3,
+        "lens": "PDE",
+        "decision_delta": "Fixed-frequency analytic ODE existence does not imply uniform Cauchy wellposedness."
+      },
+      {
+        "index": 4,
+        "lens": "Microlocal analysis",
+        "decision_delta": "Compose the differential Schur operator before freezing."
+      },
+      {
+        "index": 5,
+        "lens": "Category theory",
+        "decision_delta": "Keep jet restriction, differential elimination and solution restriction as distinct maps."
+      },
+      {
+        "index": 6,
+        "lens": "Number theory",
+        "decision_delta": "Reuse exact rational root/inverse enclosures; a trace moment certifies growth without fitted spectra."
+      },
+      {
+        "index": 7,
+        "lens": "Symplectic geometry",
+        "decision_delta": "Signed canonical patch energy is not a conserved physical Hamiltonian."
+      },
+      {
+        "index": 8,
+        "lens": "Krein theory",
+        "decision_delta": "An indefinite energy witness does not establish a negative-norm physical particle."
+      },
+      {
+        "index": 9,
+        "lens": "Harmonic analysis",
+        "decision_delta": "Fourier in a group character produces an exact family, not a physical state prescription."
+      },
+      {
+        "index": 10,
+        "lens": "Control theory",
+        "decision_delta": "On-shell response still needs one common measurement/domain."
+      },
+      {
+        "index": 11,
+        "lens": "Descriptor systems",
+        "decision_delta": "Moving kernel frames have no extra auxiliary-row derivative because PA=0."
+      },
+      {
+        "index": 12,
+        "lens": "Algebraic geometry",
+        "decision_delta": "Trace identities can decide a spectral horn without full characteristic-polynomial factorization."
+      },
+      {
+        "index": 13,
+        "lens": "Operator theory",
+        "decision_delta": "Finite-frequency germs leave uniform/global domain questions open."
+      },
+      {
+        "index": 14,
+        "lens": "Numerical analysis",
+        "decision_delta": "Inherited infinity and balanced one-norm bounds need different output amplification."
+      },
+      {
+        "index": 15,
+        "lens": "Tensor calculus",
+        "decision_delta": "Retain rotations on both form and endomorphism legs."
+      },
+      {
+        "index": 16,
+        "lens": "Noncommutative algebra",
+        "decision_delta": "The transverse correction enters L0_CK and changes the leading scaled matrix."
+      },
+      {
+        "index": 17,
+        "lens": "Topology",
+        "decision_delta": "Local energy signs alone do not remove global or source boundary choices."
+      },
+      {
+        "index": 18,
+        "lens": "Dynamical systems",
+        "decision_delta": "Negative energy and a separate frozen growth test do not prove nonlinear runaway."
+      },
+      {
+        "index": 19,
+        "lens": "Inverse problems",
+        "decision_delta": "Physical admission remains the weakest source bridge."
+      },
+      {
+        "index": 20,
+        "lens": "Computational algebra",
+        "decision_delta": "Cache exact source/ladder maps and inherited inverses; do not rediscover completed carriers."
+      }
+    ]
+  },
+  "choice_budget": {
+    "families": 10,
+    "obligation_bundles": 4,
+    "net": 6,
+    "source_selected_predictions": 0,
+    "delta": 0
+  },
+  "accounting": "Directed78to79/LBCLASS37to38. Existing directed_lc_carry_2026_11_25_physical remains pending for the next ordinary run; no cadence amendment or bet credit.",
+  "verification": {
+    "native_gates": {
+      "program_focus_audit": "PASS",
+      "typed_carrier_declaration_audit": "PASS",
+      "kill_target_claim_audit": "PASS",
+      "frontmatter_status_schema_audit": "PASS",
+      "source_native_comparator_routing_audit": "PASS",
+      "lean_certificate_surface_audit": "PASS",
+      "current_state_absolute_currency_audit": "PASS"
+    },
+    "native_certificate": "lab/process/source-action-scalar-normal-operator-certificates.json",
+    "independent_reviews": "lab/process/hostile-reviews/2026-11-27-source-action-scalar-normal-operator-review.md",
+    "lean": {
+      "command": "lake env lean -j1 /private/tmp/gu-scalar-normal-wt-20261127/Lean/GUFormalization/ScalarNormalSchur.lean",
+      "cwd": "/Users/joe/Brain/CapacityOS/repos/public/gu-formalization",
+      "exit_code": 0,
+      "output": "",
+      "source_sha256": "587f2789d35891a2561a4e3f62e91d478eb878945385253f7adf344e76fb6405",
+      "scope": "Six finite algebra and energy dominance lemmas. Geometry/native roots/analytic ODE existence/boundary flux/source necessity separate reviewed mathematics. No full project build.",
+      "prior_attempts": [
+        "Initial invocation from Lean subdirectory could not resolve Mathlib; corrected repository-root cached environment.",
+        "First successful check had unused-variable/deprecated-tactic warnings; narrow fixes replayed without warnings."
+      ]
+    },
+    "replay": {
+      "passed": true,
+      "probe_sha256": "98c5721aeb9dfee99db80b8eead05b0be7401c0f1c2b1d019daa333f62e4725c",
+      "bundle_sha256": "33c5ed1e2b9552dbda9a539fbec2e127f7408c9863b0b970f86a4862455e427e",
+      "all_five_mathematical_records_recomputed": [
+        "scalar-geometry.json",
+        "scalar-affine.json",
+        "scalar-response-maps.json",
+        "scalar-operator.json",
+        "scalar-solvable-controls.json"
+      ],
+      "native_geometry_vectors": 36,
+      "native_derivative_Casimir_checks": 180,
+      "all59_affine_trilinear_pairs_recomputed": 666,
+      "native_response_output_columns_recomputed": 624,
+      "native_full_C_columns_recomputed_at_both_roots": 6,
+      "exact_corrected20_operator_and_root_error_arithmetic_recomputed": true,
+      "all_S_Koszul_entries_recomputed": 2744,
+      "owned_energy_intervals_recomputed": 4,
+      "inherited_M_inverse_certificates_authenticated_not_regenerated": true,
+      "floating_inverse_regenerated": false,
+      "seconds": 130.99096779245883,
+      "scope": "Full reproduction of this bounded native operator/control calculation; inherited auxiliary inverses are authenticated. No PDE growth transfer or physical verdict."
+    },
+    "replay_sha256": "90aea2738fee61b54926895fbb3be4db0c784572c45aa63ec56f4db5517dedf7",
+    "protected_surfaces": "program_focus,cells,intersections,shrinkage and choice budget unchanged"
+  },
+  "current_sha256": {
+    "explorations/conditional-build/source-action-scalar-normal-operator-2026-11-27.md": "92e6867893099df257eda691901cb8cdf4bd9cc02f27c92d10ddbb99991e3fbb",
+    "tests/program-focus/source_action_scalar_normal_operator_probe.py": "98c5721aeb9dfee99db80b8eead05b0be7401c0f1c2b1d019daa333f62e4725c",
+    "lab/process/source-action-scalar-normal-operator-certificates.json": "33c5ed1e2b9552dbda9a539fbec2e127f7408c9863b0b970f86a4862455e427e",
+    "lab/process/hostile-reviews/2026-11-27-source-action-scalar-normal-operator-review.md": "4d516d1248f6320b68d08a2c947a5a5e5f179ad3b2586c64d3e34ab95081c1a6",
+    "Lean/GUFormalization/ScalarNormalSchur.lean": "587f2789d35891a2561a4e3f62e91d478eb878945385253f7adf344e76fb6405"
+  }
+}

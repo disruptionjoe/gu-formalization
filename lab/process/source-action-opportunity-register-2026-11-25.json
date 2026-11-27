@@ -1348,7 +1348,7 @@
       "selection_note": "Candidate construction/diagnostic only unless its stated structural family and source bridge satisfy current program_focus. A reserve is not scheduled work."
     }
   ],
-  "priority_effect": "Current directed work completed the entire imaginary-connection auxiliary M at both roots. Formal temporal constraint consistency is consumed; compact constrained-energy signs no longer carry a spurious lower-M prerequisite. Next bounded candidate discriminator is the actual scalar-normal descriptor with its required coefficient/domain bridge. Physical propagation/admission unresolved; policy/cadence/schedules unchanged.",
+  "priority_effect": "Actual scalar-normal derivative assembly and local analytic realization of both energy signs completed. Use the exact full-carrier triangular equation for further actual dynamics/coupling; the frozen20 is not that invariant PDE. Physical admission remains open. No policy/cadence/schedule or choice change.",
   "evidence": [
     "explorations/conditional-build/source-action-engineering-wave-2026-11-25.md",
     "lab/process/source-action-engineering-wave.json",
@@ -2211,6 +2211,48 @@
       "repeating the already-owned normal compact-module invariance and exact negative-witness auxiliary-current tests"
     ],
     "counterfactual_proposal": "lab/process/source-action-full-auxiliary.json#counterfactual_proposal",
+    "counterfactual_status": "Nov26g proposal-only; no suite or governance execution",
+    "continuation_superseded_by": "lab/process/source-action-scalar-normal-operator.json"
+  },
+  "scalar_normal_operator_2026_11_27": {
+    "report": "explorations/conditional-build/source-action-scalar-normal-operator-2026-11-27.md",
+    "evidence": "lab/process/source-action-scalar-normal-operator.json",
+    "actual_delta": "An exact full-carrier triangular-frame reduction of the held W2/K95 candidate supplies genuine local analytic linearized solution germs at every fixed finite normal frequency. At both kappa1 roots, such solutions have either sign of canonical energy integrated on a fixed finite ambient slice patch. Separately, the correctly composed exponential-frame scalar-normal operator includes a nonzero transverse Schur correction and has certified positive-real-part high-frequency frozen growth at both roots. No physical ghost, global evolution, nonlinear runaway or GU falsification follows.",
+    "next_directed_worksets": [
+      {
+        "id": "actual_solution_coupling_or_growth",
+        "status": "ready_for_bounded_method_selection",
+        "target": "LB-CLASS",
+        "tier": "T2",
+        "task": "Use the proved full-carrier equation A(u)q_u+K4 q_r+C0S q=0 to test actual local dynamics or a common-domain matter-action response. First identify an exact symmetry/module or adjoint pairing that avoids a new full-carrier census. A signed-energy germ alone does not prove exchange or growth.",
+        "expected_delta": "An actual-coefficient growth/estimate obstruction, or a nonzero matter-action pairing on the same local on-shell germ class, with source/physical admission still stated separately. If the required pairing or invariant module is absent, record that exact burden rather than inventing a domain.",
+        "class_covered": "Held W2/K95 full-carrier triangular analytic solution family, not the exponential-frame frozen20 and not source-required GU.",
+        "source_bridge": "Conditional on actual physical admission; a matter-action variation is not an observed signal or energy-transfer theorem.",
+        "kill_condition": "A certified actual-coefficient violation excludes only its explicitly stated candidate evolution/domain class. Frozen eigenvalues, an ansatz leak or a solver failure do not kill GU.",
+        "shared_prerequisite": "Owned fullM regularity and exact triangular-frame reduction; no new inverse certificates or choice family.",
+        "strongest_alternative": "A source-supplied physical BRST/boundary admissibility test if its generators and common domain are actually specified; do not build them merely to rescue the candidate."
+      },
+      {
+        "id": "physical_admission",
+        "status": "requires_source_grounded_common_domain_or_quotient",
+        "target": "LB-CLASS",
+        "tier": "T2",
+        "task": "Distinguish local analytic solution witnesses from global/L2 admitted physical states and a conserved physical energy. Check any supplied prescription against these concrete witnesses.",
+        "remaining_burdens": [
+          "source-required physical state/domain and boundary conditions",
+          "physical cohomology or positive physical pairing",
+          "admitted normalized observation and actual coupled exchange"
+        ],
+        "scope": "The previous absence of actual local solutions is discharged for this test family; uniform arbitrary-data propagation and global physical admission are not."
+      }
+    ],
+    "consumed": [
+      "actual scalar-normal lower/frame/lapse and transverse Schur assembly at both held roots",
+      "whether the inherited normal-energy witnesses can be realized by genuine local linearized solutions in an exact full-carrier test family",
+      "geometric-spin7 invariance of the triangular reduction: explicitly false; retain full carrier",
+      "repeat fullM regularity, finite temporal consistency, frozen principal-pencil or isolated receiver scans"
+    ],
+    "counterfactual_proposal": "lab/process/source-action-scalar-normal-operator.json#counterfactual_proposal",
     "counterfactual_status": "Nov26g proposal-only; no suite or governance execution"
   }
 }
