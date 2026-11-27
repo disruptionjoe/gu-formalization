@@ -571,3 +571,7 @@ bicategory, ambidexterity or Mackey 2-functor is inferred.
 ## 2026-11-27 — Endpoint on-shell finite cores
 
 `Lean/GUFormalization/EndpointOnshell.lean`: **LEAN-VERIFIED**, five targeted single-thread checked lemmas, no placeholders/warnings. Covers on-shell elimination, zero-preserving transfer obstruction, quadratic shift, injective raising and inverse-square order-gap cost. Native geometry, root intervals, finite-jet applicability and source bridge are separately verified/reviewed; no whole-project build claimed.
+
+## 2026-11-27 — Ratio-free Riemann-response finite cores
+
+`Lean/GUFormalization/RiemannSilence.lean`: four targeted single-thread checked lemmas, no placeholders/warnings. Covers cubic kernel pairing, four-row coefficient elimination, restriction vanishing and zero-preserving postcomposition. Complete native representation classification, Clifford witnesses and source identification are separately proved/reviewed; no whole-project build claimed.

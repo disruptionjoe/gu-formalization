@@ -16,6 +16,10 @@ discovery bet (`lab/process/discovery-bets.json`). The K25xx--K2618 detector, pr
 results below are retained as conditional mathematics; that lane is no longer the default target. Sections
 below are dated results, newest first, and are not steering.
 
+## 2026-11-27 — Complete Riemann response excluded without an Einstein ratio
+
+[Result](explorations/conditional-build/source-action-riemann-silence-2026-11-27.md) · [Evidence](lab/process/source-action-riemann-silence.json). Four exact kernel witnesses force all four equivariant Ricci/scalar response coefficients to zero for the declared fixed-linear same-cubic unit-endpoint architecture. This strengthens the prior two-coefficient obstruction without regrading it. Direct Levi-Civita response and downstream recovery of that erased channel are excluded; other gravity mechanisms and GU remain unadjudicated. No choice-budget or ledger-verdict change.
+
 ## 2026-11-27 — Actual stationary roots fail the printed endpoint
 
 [Result](explorations/conditional-build/source-action-endpoint-onshell-2026-11-27.md) · [Evidence](lab/process/source-action-endpoint-onshell.json). Both roots have certified nonzero ambient and literal observed endpoint residuals, excluding regular zero-preserving local recovery from the actual Euler tuple. Full analytic-branch coefficients through h2 vanish; this is limited compatibility. Combined with the earlier order-h observed conservation defect, bounded-coefficient finite-order recovery is excluded. O20/O26 comparison completed; source/physics/canon verdicts and choice budget unchanged.

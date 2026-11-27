@@ -481,3 +481,11 @@ Ordinary LC carry47 consumed by this BET-COSMOLOGY attempt: counter84to85; cosmo
 - No regular zero-preserving local differential recombination of the actual coupled Euler tuple recovers that endpoint on a class containing either witness. Existing candidate dynamics cannot be cited as dynamics on the printed Upsilon=0 locus.
 - Full endpoint branch coefficients through h2 vanish exactly. Higher-order compatibility remains open; previous observed coderivative is already order h. A fixed-order bounded-coefficient local linear recovery is excluded; a putative identity requires at least inverse-square coefficient growth.
 - No new choice, source verdict or work-stop rule. The bounded current source horizon has no prerequisite-complete decisive successor; exact missing inputs and revival conditions remain in the linked evidence.
+
+## Completed ratio-free Riemann-response test (2026-11-27)
+
+[Result](../../../explorations/conditional-build/source-action-riemann-silence-2026-11-27.md) · [Evidence](../source-action-riemann-silence.json). Four native kernel variations force every low/high Ricci/scalar coefficient to zero for the whole fixed-linear full-translation same-cubic unit-endpoint class. The prior Einstein-ratio assumption is unnecessary. Direct-output trace changes and ratio tuning are covered. Non-Riemann/distortion or translation-dependent mechanisms remain separate, with no new completion chosen. Source/physics/classC verdicts and choice budget are unchanged.
+
+A separately admitted K95 transfer test is ready after the ordinary LC slot; the evidence records exact owned inputs, rational witnesses and failure conditions. Native primary-minus signs and the actual half-normalized spin-curvature injection must be checked. No K95 result is inferred from K77.
+
+Joe Nov27(a) subsequently directs pipeline controls,10-family/both-adjoint sensitivity and one new-material source-state-rule check, max3waves then report for his decision. K95 transfer remains retained behind that audit. No new candidate construction until Joe decides; schedules are unchanged.

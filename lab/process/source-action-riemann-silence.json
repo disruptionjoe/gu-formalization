@@ -1,0 +1,271 @@
+{
+  "basis_revision": "6b73849704b5f49c0ea22411cba32a67661c6cee",
+  "authority": "joe_direct_chat_2026_11_26_continued_falsification_math20",
+  "status": "internal_T1_riemann_silence_reviewed",
+  "program_target": "LB-CLASS",
+  "tier": "T1",
+  "actual_delta": "Four native cyclic-kernel witnesses force all low/high Ricci and scalar coefficients to zero. Every Spin-equivariant fixed linear full-translation same-cubic unit-endpoint operator annihilates the algebraic Riemann submodule.",
+  "class_covered": "Pointwise real K77 B-skew full-adjoint connection translations, fixed metric and epsilon; Spin-equivariant linear Shiab from adjoint two-forms to adjoint thirteen-forms whose unit quadratic endpoint is the derivative of its own one-third cubic. No assumption of an Einstein trace ratio or a factorized Phi expression.",
+  "premises": [
+    "explorations/resolver-wave-k77b2-shiab-family-curvature-selector-transgression-2026-08-04.md",
+    "explorations/resolver-wave-k77b3-full-domain-cyclic-kernel-obstruction-2026-08-04.md",
+    "lab/sources/weinstein-gu-primary-source-pack-2026-07-30.md#WGS-01",
+    "explorations/conditional-build/source-prescription-current-2026-11-13.md",
+    "lab/sources/gu-shiab-derivation-principal-bianchi-source-reinspection-2026-08-05.md"
+  ],
+  "source_bridge": {
+    "status": "conditional",
+    "reason": "The printed architecture fixes the cubic coefficient, full connection translations and fixed-epsilon variation. Nonzero direct Ricci/scalar response is incompatible with that architecture in the stated linear K77 class. Identification of every possible GU gravity mechanism with that direct channel, broader field dependence and K95 transfer are not proved."
+  },
+  "weakest_unproved_link": "Identification of every source gravity mechanism with nonzero direct LC response; K95 and all-classC transfer. No Einstein-ratio premise remains.",
+  "class_C_representativeness": "Unproved; no classC emptiness or width verdict.",
+  "claim_effect": "No source/physics/canon/classC/paper verdict or matrix cell/intersection/shrinkage change.",
+  "three_state": {
+    "established": [
+      "Four native real kernel variations and rank4 response matrix",
+      "All Spin-equivariant Riemann-response coefficients vanish under same-cubic unit-endpoint hypothesis",
+      "Pointwise obstruction tolerates fixed-in-translation spacetime-dependent metric/epsilon coefficients",
+      "Consistently transported direct LC curvature maps to zero in this class"
+    ],
+    "ruled_out": [
+      "Any nonzero direct Ricci/scalar response, with no Einstein-ratio assumption",
+      "Recovery of erased direct S(F_B) through a downstream zero-preserving readout"
+    ],
+    "not_modeled_undetermined": [
+      "S on non-Riemann curvature",
+      "Translation-dependent/nonlinear or extra-tensor maps outside the complete restriction hypotheses",
+      "Distortion-mediated or other-term gravity dynamics",
+      "K95, physical source and wholeGU falsification"
+    ]
+  },
+  "native_matrix": [
+    [
+      "0",
+      "264",
+      "0",
+      "0"
+    ],
+    [
+      "22",
+      "264",
+      "0",
+      "0"
+    ],
+    [
+      "0",
+      "0",
+      "0",
+      "312"
+    ],
+    [
+      "0",
+      "0",
+      "24",
+      "312"
+    ]
+  ],
+  "normalization": "Low rows divided by128, high rows divided by\u2212128; report table uses common128 and negative high entries.",
+  "consumed": [
+    "Einstein-ratio necessity as a premise for the fixed-linear Riemann-response exclusion",
+    "All nonzero low/high Ricci/scalar mixtures in the complete equivariant Riemann restriction",
+    "Nonfactorized or off-Riemann changes that retain nonzero direct Riemann response and the same cubic endpoint",
+    "Downstream trace or zero-preserving readout as recovery of erased direct S(F_B) output",
+    "Moving metric/epsilon coefficients held in an independent translation variation as a repair of that variation"
+  ],
+  "next_directed_worksets": [
+    {
+      "id": "native_k95_four_witness_transfer",
+      "status": "deferred_behind_joe_2026_11_27_a_controls",
+      "target": "LB-CLASS",
+      "task": "Test the four-witness Riemann-silence mechanism on the owned rational primary-minus K95 full-U carrier, with native curvature normalization and real maps; no new action or physical domain.",
+      "expected_delta": "Typed whole-class K95 transfer or exact failed hypothesis; no automatic GU or physical verdict.",
+      "owned_inputs": [
+        "tests/program-focus/source_action_deep_geometry.py",
+        "tests/program-focus/source_action_deep_algebra.py",
+        "explorations/conditional-build/source-action-external-datum-candidate-2026-11-25.md",
+        "explorations/conditional-build/source-action-wave2-construction-2026-11-25.md",
+        "explorations/resolver-wave-k77b2-shiab-family-curvature-selector-transgression-2026-08-04.md"
+      ],
+      "preflight_fields": {
+        "negative_pivot": 3,
+        "inside": 0,
+        "outside": 13,
+        "low_active": "all axes except3,13",
+        "high_active": "all axes except13",
+        "volume_normalization": "I=gamma0...gamma13/Engine.volume, owned divisor196608; verify I\u00b2=1",
+        "spin_normalization": "Actual curvature_spin R[a][b]/(2*d[b]) is half historical B3 injection. Proposed F=2Phi2 means sectional scale4, expected Ricci/scalar magnitudes44/528 and48/624; verify, do not copy old rows.",
+        "pairing": "Engine.pair uses\u2212Re trace/128 with rational metric. Recompute all signs and Hodge conversion.",
+        "real_form": "Verify native sharp-skew grades1,2,13 on actual full-U carrier, four independent real restriction maps plus inherited complex upper bound; no imposed Sp restriction."
+      },
+      "kill_condition": "Any native type, curvature identification, normalization or rank check fails; retain failed transfer rather than assuming signatures interchangeable.",
+      "remaining_cost": "Estimated seconds of sparse exact arithmetic, not yet measured; no dense matrices/Sage census.",
+      "control_effect": "Ready mathematical inputs retained; Joe directed controls/sensitivity/source-state-rule audit first, max3waves then report. No execution or candidate construction."
+    },
+    {
+      "id": "nonriemann_or_translation_dependent_gravity_source_bridge",
+      "status": "conditional_missing_source_physical_response",
+      "target": "LB-CLASS",
+      "task": "A source-relevant gravity test must specify the surviving non-Riemann/distortion or genuinely translation-dependent response mechanism, or independently prove that the source requires the excluded direct channel. Do not rerun Ricci/scalar ratios or postcompose the zero direct output.",
+      "missing_inputs": [
+        "An authenticated source-required observed gravity response or a necessity theorem for the direct channel",
+        "If using another mechanism: its actual operator/variational ownership and observed readout, not a new free completion selected here"
+      ],
+      "remaining_cost": "Cannot estimate before the named mechanism/necessity premise is supplied.",
+      "strongest_alternative": "Existing ordinary selection continues; after this real LB-CLASS delta counter87 reaches the unchanged LC-BETS slot.",
+      "control_effect": "No new gate or work-stop rule. This narrows only the completed fixed-linear direct-curvature route."
+    }
+  ],
+  "choice_budget": {
+    "families": 10,
+    "obligation_bundles": 4,
+    "net": 6,
+    "source_selected_predictions": 0,
+    "delta": 0
+  },
+  "accounting": "Directed LB-CLASS wave: counter86to87, LBCLASS44to45, zero_delta_streak0. Other lane counts and bets unchanged; prior LC carry consumed. Next ordinary count modulo4=3 selects existing LC-BETS rule. No schedule/model credit or cadence change.",
+  "counterfactual_proposal": {
+    "status": "proposal_only_not_executed",
+    "authority": "joe_direct_chat_2026_11_26_g",
+    "ranked_item_numbers": [
+      1,
+      6,
+      2,
+      3,
+      7,
+      5,
+      4
+    ],
+    "basis": "Qualitative expected time saved at the actual consistency bottleneck; no measured forecasts or success probabilities.",
+    "ranked": [
+      {
+        "item": 1,
+        "expected_savings": "highest immediate",
+        "proposal": "Map queued outcomes to changed action, claim, bound or certificate. Consume tasks already covered by a theorem. Same next action alone is not grounds to skip useful evidence."
+      },
+      {
+        "item": 6,
+        "expected_savings": "high immediate",
+        "proposal": "Separate necessary source consequences from candidate-conditional desiderata and order by test cost. Connectivity to these chosen roots and positive physical energy are not silently made source premises."
+      },
+      {
+        "item": 2,
+        "expected_savings": "medium-high if targeted",
+        "proposal": "Audit dependencies of the actual live operator/domain question first; the old six first-consistency channels are consumed. Defer all ten-family flips; one-at-a-time survival does not prove joint robustness. Plus/minus adjoint remains a comparator unless sourced."
+      },
+      {
+        "item": 3,
+        "expected_savings": "high before a physical-ghost claim, lower for current algebraic range",
+        "proposal": "One matched control for the exact inference first. Distinguish constrained energy from BRST physical ghosts; conformal-gravity expectation requires a stated prescription."
+      },
+      {
+        "item": 7,
+        "expected_savings": "medium later",
+        "proposal": "Use a matched four-dimensional comparator only for a specific observation-related obstruction, preserving relevant structures."
+      },
+      {
+        "item": 5,
+        "expected_savings": "low immediate",
+        "proposal": "Euclidean base changes the real form and physical-time question; use only if it distinguishes a named sign mechanism."
+      },
+      {
+        "item": 4,
+        "expected_savings": "lowest immediate",
+        "proposal": "Toy dimensions alter branching and source counts; use if a structural dimension theorem is otherwise unavailable."
+      }
+    ],
+    "recommendation": "Approve lightweight items1/6 and targeted dependencies; reserve comparator execution for a specific diagnostic question. Broad suites remain deferred proposals, not new stop rules.",
+    "current_theorem_effect": "Ratio-free class theorem runs under existing science authority; proposed Nov26g suites and governance remain unapplied.",
+    "sensitivity_scope_correction": {
+      "status": "proposal_grounded_in_owned_quadratic_autonomy_not_executed_sweep",
+      "reason": "The ten families are not ten independent switches in the present local operator. Geometry, shiab recipe and coupling enter the held bosonic map. The zero-matter imaginary quadratic block is autonomous from the fermion recipe and the diagnostic matter lift/band/dispersion/dual/tube choices. Variational and physical domains still affect admissibility and propagation, so local algebraic independence is not physical independence.",
+      "evidence": [
+        "lab/process/source-action-q7-propagation.json#coupled_quadratic_autonomy",
+        "lab/process/action-constraint-matrix.json#source_relevance_assumption_view.candidate_choice_budget"
+      ],
+      "adjoint_caution": "A plus/minus adjoint flip changes the stated construction unless an authenticated source permits it; label it a comparator, not a new GU choice."
+    },
+    "current_queue_outcome_map": {
+      "weak_response": "Same-germ local current is now certified. Do not repeat generic visibility; Ward/boundary, unstable-mode projection and physical admission are distinct next burdens.",
+      "path_continuation": "Connection to the large-kappa branch would add a scoped candidate result; a numerical turn is no exclusion. Neither alone selects a physical state, and source necessity of that path is unproved.",
+      "spin4_cokernel": "Complete owned ranges and whole first consistency consume old Q source/nonmembership tests; fullM now consumes the remaining auxiliary regularity question.",
+      "BRST": "Ordinary finite local arbitrary-function gauge removal is excluded in the autonomous block after full regularity. Physical cohomology still requires an authentic action charge and common invariant domain; a guessed ghost algebra is not that test."
+    }
+  },
+  "quick_math20": {
+    "method": "One compact20-description pass including category theory and number theory; concrete author/two specialist/hostile review, not one subagent per persona.",
+    "decision": "Remove the unowned Einstein-ratio premise using four kernel witnesses rather than repeating formula census or building a new completion."
+  },
+  "verification": {
+    "native_gates": {
+      "program_focus_audit": "PASS",
+      "typed_carrier_declaration_audit": "PASS",
+      "kill_target_claim_audit": "PASS",
+      "frontmatter_status_schema_audit": "PASS",
+      "source_native_comparator_routing_audit": "PASS",
+      "lean_certificate_surface_audit": "PASS",
+      "current_state_absolute_currency_audit": "PASS"
+    },
+    "native_certificate": "lab/process/source-action-riemann-silence-certificates.json",
+    "independent_reviews": "lab/process/hostile-reviews/2026-11-27-source-action-riemann-silence-review.md",
+    "lean": {
+      "exit_code": 0,
+      "command": "lake env lean -j1 Lean/GUFormalization/RiemannSilence.lean (targeted absolute worktree path from cached main root)",
+      "placeholders": false,
+      "warnings": false,
+      "finite_lemmas": 4,
+      "source_sha256": "25671305676d2b48fd9b71e677634ac143ad018ff436c8d8613264bc0cfe3b52",
+      "scope": "Finite algebra only; native Clifford/representation/source assumptions separately verified."
+    },
+    "replay": {
+      "certificate_bytes": 23776,
+      "certificate_sha256": "f23f590c470fa1fb4c878e19519cb88010c14276a157954410a0cc779b2ede1a",
+      "checks": 317,
+      "mode": "verify",
+      "normalized_matrix": [
+        [
+          "0",
+          "264",
+          "0",
+          "0"
+        ],
+        [
+          "22",
+          "264",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "312"
+        ],
+        [
+          "0",
+          "0",
+          "24",
+          "312"
+        ]
+      ],
+      "passed": true,
+      "probe_sha256": "20fd4bfcb3c26aa26714a38b1e7dcb32a7e7b62a478833601d8182550128c313",
+      "rank": 4,
+      "seconds": 0.4555526250042021
+    },
+    "verification_receipt_sha256": "397bbe8a6c82a86e3da400bc43ac3bfb092de19558b0daf5d26215b2d6c90b17",
+    "protected_surfaces": "program_focus,cells,intersections,shrinkage and choice budget unchanged"
+  },
+  "current_sha256": {
+    "explorations/conditional-build/source-action-riemann-silence-2026-11-27.md": "55eb23aa1b272fea90b62eaa3e225b8cad32c5999c086f82a1d36549cfb16a28",
+    "tests/program-focus/source_action_riemann_silence_probe.py": "20fd4bfcb3c26aa26714a38b1e7dcb32a7e7b62a478833601d8182550128c313",
+    "lab/process/source-action-riemann-silence-certificates.json": "f23f590c470fa1fb4c878e19519cb88010c14276a157954410a0cc779b2ede1a",
+    "lab/process/hostile-reviews/2026-11-27-source-action-riemann-silence-review.md": "53e3805b302cf7aebbc59090273cbd728e240c332b3df54b4b9db8c73fc99e77",
+    "Lean/GUFormalization/RiemannSilence.lean": "25671305676d2b48fd9b71e677634ac143ad018ff436c8d8613264bc0cfe3b52"
+  },
+  "subsequent_joe_direction": {
+    "authority": "joe_direct_chat_2026_11_27_a",
+    "scope": "Next directed science work: pipeline controls,10-family/both-adjoint sensitivity,and source-state-rule search; max3waves for steps1to3, then stop and report for Joe decision.",
+    "construction": "No new candidate construction until Joe decides.",
+    "effect": "K95 transfer candidate retained but deferred behind this directed audit. No automation/schedule change."
+  }
+}

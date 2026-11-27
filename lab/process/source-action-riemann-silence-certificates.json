@@ -1,0 +1,767 @@
+{
+  "carrier": {
+    "dimension": 14,
+    "inherited_Riemann_Hom_dimension": 4,
+    "inherited_scope": "B2 complete equivariant Riemann restriction, with low/high Ricci and scalar coordinates; no new character census",
+    "pairing": "native top-form trace; trace(1)=128; orientation0..13; no positive metric substitution",
+    "real_structure": "real B-skew Cl(7,7) coefficients",
+    "signature": [
+      7,
+      7
+    ]
+  },
+  "check_count": 317,
+  "checks": {
+    "complete_four_coordinate_rank4": true,
+    "high_HIGH_symmetric_Ricci": true,
+    "high_LOW_symmetric_Ricci": true,
+    "high_independent_Ricci": true,
+    "high_independent_curvature": true,
+    "high_independent_output_0": true,
+    "high_independent_output_1": true,
+    "high_independent_output_2": true,
+    "high_independent_output_3": true,
+    "high_independent_pair_exchange_and_first_Bianchi": true,
+    "high_independent_scalar": true,
+    "high_inside_B_skew": true,
+    "high_inside_actual_cubic_derivative": true,
+    "high_inside_all_four_independent_pairings": true,
+    "high_inside_curvature_constant_0_-1": true,
+    "high_inside_curvature_constant_0_1": true,
+    "high_inside_curvature_constant_1_-1": true,
+    "high_inside_curvature_constant_1_1": true,
+    "high_inside_curvature_constant_2_-1": true,
+    "high_inside_curvature_constant_2_1": true,
+    "high_inside_curvature_constant_3_-1": true,
+    "high_inside_curvature_constant_3_1": true,
+    "high_inside_independent_Q_zero": true,
+    "high_inside_native_Q_zero": true,
+    "high_inside_variation_square_zero": true,
+    "high_native_c_B_skew": true,
+    "high_native_constant_curvature_scale2": true,
+    "high_outside_B_skew": true,
+    "high_outside_actual_cubic_derivative": true,
+    "high_outside_all_four_independent_pairings": true,
+    "high_outside_curvature_constant_0_-1": true,
+    "high_outside_curvature_constant_0_1": true,
+    "high_outside_curvature_constant_1_-1": true,
+    "high_outside_curvature_constant_1_1": true,
+    "high_outside_curvature_constant_2_-1": true,
+    "high_outside_curvature_constant_2_1": true,
+    "high_outside_curvature_constant_3_-1": true,
+    "high_outside_curvature_constant_3_1": true,
+    "high_outside_independent_Q_zero": true,
+    "high_outside_native_Q_zero": true,
+    "high_outside_variation_square_zero": true,
+    "independent_SymPy_rank4": true,
+    "independent_gamma_volume_0": true,
+    "independent_gamma_volume_1": true,
+    "independent_gamma_volume_10": true,
+    "independent_gamma_volume_11": true,
+    "independent_gamma_volume_12": true,
+    "independent_gamma_volume_13": true,
+    "independent_gamma_volume_2": true,
+    "independent_gamma_volume_3": true,
+    "independent_gamma_volume_4": true,
+    "independent_gamma_volume_5": true,
+    "independent_gamma_volume_6": true,
+    "independent_gamma_volume_7": true,
+    "independent_gamma_volume_8": true,
+    "independent_gamma_volume_9": true,
+    "independent_generator_product_0_0": true,
+    "independent_generator_product_0_1": true,
+    "independent_generator_product_0_10": true,
+    "independent_generator_product_0_11": true,
+    "independent_generator_product_0_12": true,
+    "independent_generator_product_0_13": true,
+    "independent_generator_product_0_2": true,
+    "independent_generator_product_0_3": true,
+    "independent_generator_product_0_4": true,
+    "independent_generator_product_0_5": true,
+    "independent_generator_product_0_6": true,
+    "independent_generator_product_0_7": true,
+    "independent_generator_product_0_8": true,
+    "independent_generator_product_0_9": true,
+    "independent_generator_product_10_0": true,
+    "independent_generator_product_10_1": true,
+    "independent_generator_product_10_10": true,
+    "independent_generator_product_10_11": true,
+    "independent_generator_product_10_12": true,
+    "independent_generator_product_10_13": true,
+    "independent_generator_product_10_2": true,
+    "independent_generator_product_10_3": true,
+    "independent_generator_product_10_4": true,
+    "independent_generator_product_10_5": true,
+    "independent_generator_product_10_6": true,
+    "independent_generator_product_10_7": true,
+    "independent_generator_product_10_8": true,
+    "independent_generator_product_10_9": true,
+    "independent_generator_product_11_0": true,
+    "independent_generator_product_11_1": true,
+    "independent_generator_product_11_10": true,
+    "independent_generator_product_11_11": true,
+    "independent_generator_product_11_12": true,
+    "independent_generator_product_11_13": true,
+    "independent_generator_product_11_2": true,
+    "independent_generator_product_11_3": true,
+    "independent_generator_product_11_4": true,
+    "independent_generator_product_11_5": true,
+    "independent_generator_product_11_6": true,
+    "independent_generator_product_11_7": true,
+    "independent_generator_product_11_8": true,
+    "independent_generator_product_11_9": true,
+    "independent_generator_product_12_0": true,
+    "independent_generator_product_12_1": true,
+    "independent_generator_product_12_10": true,
+    "independent_generator_product_12_11": true,
+    "independent_generator_product_12_12": true,
+    "independent_generator_product_12_13": true,
+    "independent_generator_product_12_2": true,
+    "independent_generator_product_12_3": true,
+    "independent_generator_product_12_4": true,
+    "independent_generator_product_12_5": true,
+    "independent_generator_product_12_6": true,
+    "independent_generator_product_12_7": true,
+    "independent_generator_product_12_8": true,
+    "independent_generator_product_12_9": true,
+    "independent_generator_product_13_0": true,
+    "independent_generator_product_13_1": true,
+    "independent_generator_product_13_10": true,
+    "independent_generator_product_13_11": true,
+    "independent_generator_product_13_12": true,
+    "independent_generator_product_13_13": true,
+    "independent_generator_product_13_2": true,
+    "independent_generator_product_13_3": true,
+    "independent_generator_product_13_4": true,
+    "independent_generator_product_13_5": true,
+    "independent_generator_product_13_6": true,
+    "independent_generator_product_13_7": true,
+    "independent_generator_product_13_8": true,
+    "independent_generator_product_13_9": true,
+    "independent_generator_product_1_0": true,
+    "independent_generator_product_1_1": true,
+    "independent_generator_product_1_10": true,
+    "independent_generator_product_1_11": true,
+    "independent_generator_product_1_12": true,
+    "independent_generator_product_1_13": true,
+    "independent_generator_product_1_2": true,
+    "independent_generator_product_1_3": true,
+    "independent_generator_product_1_4": true,
+    "independent_generator_product_1_5": true,
+    "independent_generator_product_1_6": true,
+    "independent_generator_product_1_7": true,
+    "independent_generator_product_1_8": true,
+    "independent_generator_product_1_9": true,
+    "independent_generator_product_2_0": true,
+    "independent_generator_product_2_1": true,
+    "independent_generator_product_2_10": true,
+    "independent_generator_product_2_11": true,
+    "independent_generator_product_2_12": true,
+    "independent_generator_product_2_13": true,
+    "independent_generator_product_2_2": true,
+    "independent_generator_product_2_3": true,
+    "independent_generator_product_2_4": true,
+    "independent_generator_product_2_5": true,
+    "independent_generator_product_2_6": true,
+    "independent_generator_product_2_7": true,
+    "independent_generator_product_2_8": true,
+    "independent_generator_product_2_9": true,
+    "independent_generator_product_3_0": true,
+    "independent_generator_product_3_1": true,
+    "independent_generator_product_3_10": true,
+    "independent_generator_product_3_11": true,
+    "independent_generator_product_3_12": true,
+    "independent_generator_product_3_13": true,
+    "independent_generator_product_3_2": true,
+    "independent_generator_product_3_3": true,
+    "independent_generator_product_3_4": true,
+    "independent_generator_product_3_5": true,
+    "independent_generator_product_3_6": true,
+    "independent_generator_product_3_7": true,
+    "independent_generator_product_3_8": true,
+    "independent_generator_product_3_9": true,
+    "independent_generator_product_4_0": true,
+    "independent_generator_product_4_1": true,
+    "independent_generator_product_4_10": true,
+    "independent_generator_product_4_11": true,
+    "independent_generator_product_4_12": true,
+    "independent_generator_product_4_13": true,
+    "independent_generator_product_4_2": true,
+    "independent_generator_product_4_3": true,
+    "independent_generator_product_4_4": true,
+    "independent_generator_product_4_5": true,
+    "independent_generator_product_4_6": true,
+    "independent_generator_product_4_7": true,
+    "independent_generator_product_4_8": true,
+    "independent_generator_product_4_9": true,
+    "independent_generator_product_5_0": true,
+    "independent_generator_product_5_1": true,
+    "independent_generator_product_5_10": true,
+    "independent_generator_product_5_11": true,
+    "independent_generator_product_5_12": true,
+    "independent_generator_product_5_13": true,
+    "independent_generator_product_5_2": true,
+    "independent_generator_product_5_3": true,
+    "independent_generator_product_5_4": true,
+    "independent_generator_product_5_5": true,
+    "independent_generator_product_5_6": true,
+    "independent_generator_product_5_7": true,
+    "independent_generator_product_5_8": true,
+    "independent_generator_product_5_9": true,
+    "independent_generator_product_6_0": true,
+    "independent_generator_product_6_1": true,
+    "independent_generator_product_6_10": true,
+    "independent_generator_product_6_11": true,
+    "independent_generator_product_6_12": true,
+    "independent_generator_product_6_13": true,
+    "independent_generator_product_6_2": true,
+    "independent_generator_product_6_3": true,
+    "independent_generator_product_6_4": true,
+    "independent_generator_product_6_5": true,
+    "independent_generator_product_6_6": true,
+    "independent_generator_product_6_7": true,
+    "independent_generator_product_6_8": true,
+    "independent_generator_product_6_9": true,
+    "independent_generator_product_7_0": true,
+    "independent_generator_product_7_1": true,
+    "independent_generator_product_7_10": true,
+    "independent_generator_product_7_11": true,
+    "independent_generator_product_7_12": true,
+    "independent_generator_product_7_13": true,
+    "independent_generator_product_7_2": true,
+    "independent_generator_product_7_3": true,
+    "independent_generator_product_7_4": true,
+    "independent_generator_product_7_5": true,
+    "independent_generator_product_7_6": true,
+    "independent_generator_product_7_7": true,
+    "independent_generator_product_7_8": true,
+    "independent_generator_product_7_9": true,
+    "independent_generator_product_8_0": true,
+    "independent_generator_product_8_1": true,
+    "independent_generator_product_8_10": true,
+    "independent_generator_product_8_11": true,
+    "independent_generator_product_8_12": true,
+    "independent_generator_product_8_13": true,
+    "independent_generator_product_8_2": true,
+    "independent_generator_product_8_3": true,
+    "independent_generator_product_8_4": true,
+    "independent_generator_product_8_5": true,
+    "independent_generator_product_8_6": true,
+    "independent_generator_product_8_7": true,
+    "independent_generator_product_8_8": true,
+    "independent_generator_product_8_9": true,
+    "independent_generator_product_9_0": true,
+    "independent_generator_product_9_1": true,
+    "independent_generator_product_9_10": true,
+    "independent_generator_product_9_11": true,
+    "independent_generator_product_9_12": true,
+    "independent_generator_product_9_13": true,
+    "independent_generator_product_9_2": true,
+    "independent_generator_product_9_3": true,
+    "independent_generator_product_9_4": true,
+    "independent_generator_product_9_5": true,
+    "independent_generator_product_9_6": true,
+    "independent_generator_product_9_7": true,
+    "independent_generator_product_9_8": true,
+    "independent_generator_product_9_9": true,
+    "low_HIGH_symmetric_Ricci": true,
+    "low_LOW_symmetric_Ricci": true,
+    "low_independent_Ricci": true,
+    "low_independent_curvature": true,
+    "low_independent_output_0": true,
+    "low_independent_output_1": true,
+    "low_independent_output_2": true,
+    "low_independent_output_3": true,
+    "low_independent_pair_exchange_and_first_Bianchi": true,
+    "low_independent_scalar": true,
+    "low_inside_B_skew": true,
+    "low_inside_actual_cubic_derivative": true,
+    "low_inside_all_four_independent_pairings": true,
+    "low_inside_curvature_constant_0_-1": true,
+    "low_inside_curvature_constant_0_1": true,
+    "low_inside_curvature_constant_1_-1": true,
+    "low_inside_curvature_constant_1_1": true,
+    "low_inside_curvature_constant_2_-1": true,
+    "low_inside_curvature_constant_2_1": true,
+    "low_inside_curvature_constant_3_-1": true,
+    "low_inside_curvature_constant_3_1": true,
+    "low_inside_independent_Q_zero": true,
+    "low_inside_native_Q_zero": true,
+    "low_inside_variation_square_zero": true,
+    "low_native_c_B_skew": true,
+    "low_native_constant_curvature_scale2": true,
+    "low_outside_B_skew": true,
+    "low_outside_actual_cubic_derivative": true,
+    "low_outside_all_four_independent_pairings": true,
+    "low_outside_curvature_constant_0_-1": true,
+    "low_outside_curvature_constant_0_1": true,
+    "low_outside_curvature_constant_1_-1": true,
+    "low_outside_curvature_constant_1_1": true,
+    "low_outside_curvature_constant_2_-1": true,
+    "low_outside_curvature_constant_2_1": true,
+    "low_outside_curvature_constant_3_-1": true,
+    "low_outside_curvature_constant_3_1": true,
+    "low_outside_independent_Q_zero": true,
+    "low_outside_native_Q_zero": true,
+    "low_outside_variation_square_zero": true,
+    "native_high_square_0": true,
+    "native_high_square_1": true,
+    "native_high_square_10": true,
+    "native_high_square_11": true,
+    "native_high_square_12": true,
+    "native_high_square_13": true,
+    "native_high_square_2": true,
+    "native_high_square_3": true,
+    "native_high_square_4": true,
+    "native_high_square_5": true,
+    "native_high_square_6": true,
+    "native_high_square_7": true,
+    "native_high_square_8": true,
+    "native_high_square_9": true,
+    "native_high_trace_sign_is_negative": true,
+    "native_signature_7_7": true,
+    "native_trace_identity_and_volume": true,
+    "native_volume_square_positive": true,
+    "new_inside_rows_add_two_dimensions": true,
+    "no_Einstein_ratio_used": true,
+    "old_outside_not_full_four_coordinate_theorem": true,
+    "old_outside_witnesses_only_rank2": true,
+    "planted_low_pivot_coefficient_is_not_kernel": true,
+    "planted_nonmatching_form_index_is_not_kernel": true,
+    "planted_positive_high_trace_sign_rejected": true
+  },
+  "coordinate_order": [
+    "low_Ricci",
+    "low_scalar_metric",
+    "high_Ricci",
+    "high_scalar_metric"
+  ],
+  "data_only": true,
+  "dependency": {
+    "native_loader": "AST declaration prefix before first printed main-stage marker; FLINT/subprocess imports excluded; no main/census execution",
+    "sympy": "1.14.0"
+  },
+  "families": [
+    {
+      "active_axes": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "curvature_nonzero_form_slots": 66,
+      "curvature_scale": "2",
+      "curvature_sparse_sha256": "3eba83325e281ed843e56553f3c1faa6e61916c38cd0b6d9ba12177a052e855d",
+      "field": [
+        [
+          1,
+          4097,
+          "1"
+        ],
+        [
+          2,
+          4098,
+          "1"
+        ],
+        [
+          4,
+          4100,
+          "1"
+        ],
+        [
+          8,
+          4104,
+          "1"
+        ],
+        [
+          16,
+          4112,
+          "1"
+        ],
+        [
+          32,
+          4128,
+          "1"
+        ],
+        [
+          64,
+          4160,
+          "1"
+        ],
+        [
+          128,
+          4224,
+          "1"
+        ],
+        [
+          256,
+          4352,
+          "1"
+        ],
+        [
+          512,
+          4608,
+          "1"
+        ],
+        [
+          1024,
+          5120,
+          "1"
+        ],
+        [
+          2048,
+          6144,
+          "1"
+        ]
+      ],
+      "id": "low",
+      "pivot": 12,
+      "raised_Ricci_on_active_plane": "22",
+      "rows": [
+        {
+          "derivative_minus_unit_endpoint": [
+            "0",
+            "-22528",
+            "0",
+            "0"
+          ],
+          "direct_cubic_derivative": [
+            "0",
+            "11264",
+            "0",
+            "0"
+          ],
+          "id": "low_outside",
+          "native_Q_zero": true,
+          "native_pairings": [
+            "0",
+            "33792",
+            "0",
+            "0"
+          ],
+          "normalization_divisor": "128",
+          "normalized_coefficients": [
+            "0",
+            "264",
+            "0",
+            "0"
+          ],
+          "unit_endpoint": [
+            "0",
+            "33792",
+            "0",
+            "0"
+          ],
+          "variation": [
+            [
+              8192,
+              8192,
+              "1"
+            ]
+          ]
+        },
+        {
+          "derivative_minus_unit_endpoint": [
+            "-5632/3",
+            "-22528",
+            "0",
+            "0"
+          ],
+          "direct_cubic_derivative": [
+            "2816/3",
+            "11264",
+            "0",
+            "0"
+          ],
+          "id": "low_inside",
+          "native_Q_zero": true,
+          "native_pairings": [
+            "2816",
+            "33792",
+            "0",
+            "0"
+          ],
+          "normalization_divisor": "128",
+          "normalized_coefficients": [
+            "22",
+            "264",
+            "0",
+            "0"
+          ],
+          "unit_endpoint": [
+            "2816",
+            "33792",
+            "0",
+            "0"
+          ],
+          "variation": [
+            [
+              1,
+              1,
+              "1"
+            ]
+          ]
+        }
+      ],
+      "scalar_curvature": "264"
+    },
+    {
+      "active_axes": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "curvature_nonzero_form_slots": 78,
+      "curvature_scale": "2",
+      "curvature_sparse_sha256": "74fb0a07b7dc1cd66dac9783a24ffec9219a29cd0883c42c18edd79bd84f0e9a",
+      "field": [
+        [
+          1,
+          1,
+          "1"
+        ],
+        [
+          2,
+          2,
+          "1"
+        ],
+        [
+          4,
+          4,
+          "1"
+        ],
+        [
+          8,
+          8,
+          "1"
+        ],
+        [
+          16,
+          16,
+          "1"
+        ],
+        [
+          32,
+          32,
+          "1"
+        ],
+        [
+          64,
+          64,
+          "1"
+        ],
+        [
+          128,
+          128,
+          "1"
+        ],
+        [
+          256,
+          256,
+          "1"
+        ],
+        [
+          512,
+          512,
+          "1"
+        ],
+        [
+          1024,
+          1024,
+          "1"
+        ],
+        [
+          2048,
+          2048,
+          "1"
+        ],
+        [
+          4096,
+          4096,
+          "1"
+        ]
+      ],
+      "id": "high",
+      "pivot": null,
+      "raised_Ricci_on_active_plane": "24",
+      "rows": [
+        {
+          "derivative_minus_unit_endpoint": [
+            "0",
+            "0",
+            "0",
+            "26624"
+          ],
+          "direct_cubic_derivative": [
+            "0",
+            "0",
+            "0",
+            "-13312"
+          ],
+          "id": "high_outside",
+          "native_Q_zero": true,
+          "native_pairings": [
+            "0",
+            "0",
+            "0",
+            "-39936"
+          ],
+          "normalization_divisor": "-128",
+          "normalized_coefficients": [
+            "0",
+            "0",
+            "0",
+            "312"
+          ],
+          "unit_endpoint": [
+            "0",
+            "0",
+            "0",
+            "-39936"
+          ],
+          "variation": [
+            [
+              8192,
+              8191,
+              "1"
+            ]
+          ]
+        },
+        {
+          "derivative_minus_unit_endpoint": [
+            "0",
+            "0",
+            "2048",
+            "26624"
+          ],
+          "direct_cubic_derivative": [
+            "0",
+            "0",
+            "-1024",
+            "-13312"
+          ],
+          "id": "high_inside",
+          "native_Q_zero": true,
+          "native_pairings": [
+            "0",
+            "0",
+            "-3072",
+            "-39936"
+          ],
+          "normalization_divisor": "-128",
+          "normalized_coefficients": [
+            "0",
+            "0",
+            "24",
+            "312"
+          ],
+          "unit_endpoint": [
+            "0",
+            "0",
+            "-3072",
+            "-39936"
+          ],
+          "variation": [
+            [
+              1,
+              16382,
+              "1"
+            ]
+          ]
+        }
+      ],
+      "scalar_curvature": "312"
+    }
+  ],
+  "native_inputs_sha256": {
+    "explorations/resolver-wave-k77b2-shiab-family-curvature-selector-transgression-2026-08-04.md": "1727ee4cec276645f46e3fb7b45fd820d33e547503187045d119be7bf8a2f1bf",
+    "explorations/resolver-wave-k77b3-full-domain-cyclic-kernel-obstruction-2026-08-04.md": "f3143602b47eaa9895c11c6d65b20a6790e6a055e1cf35541749437f71707c77",
+    "lab/process/resolver-wave-k77b2-shiab-family-curvature-selector-transgression.json": "72f1caecd26f313506a2368c1683b6f7fbf7f52d246dadb435f5b3eacff1d8f5",
+    "lab/process/resolver-wave-k77b3-full-domain-cyclic-kernel-obstruction.json": "e3af660182fa2a6981e39e3b9e40830e6006a74d4c8cc62f368cba2ed17f81ea",
+    "tests/channel-swings/resolver_wave_k77b3_full_domain_cyclic_kernel_obstruction_probe.py": "58f0d2b10228c91f712af57adcc7c40e69915e90d613b4b5bb5fc0f1a31126e1"
+  },
+  "normalized_matrix": [
+    [
+      "0",
+      "264",
+      "0",
+      "0"
+    ],
+    [
+      "22",
+      "264",
+      "0",
+      "0"
+    ],
+    [
+      "0",
+      "0",
+      "0",
+      "312"
+    ],
+    [
+      "0",
+      "0",
+      "24",
+      "312"
+    ]
+  ],
+  "not_run": [
+    "Old Sage/FLINT/Hom census",
+    "Full tensor reconstruction",
+    "New action or physical-domain construction",
+    "Source necessity or GU verdict",
+    "Lean compilation"
+  ],
+  "old_outside_rank": 2,
+  "producer_sha256": "20fd4bfcb3c26aa26714a38b1e7dcb32a7e7b62a478833601d8182550128c313",
+  "rank": 4,
+  "rref": [
+    [
+      "1",
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      "0",
+      "1",
+      "0",
+      "0"
+    ],
+    [
+      "0",
+      "0",
+      "1",
+      "0"
+    ],
+    [
+      "0",
+      "0",
+      "0",
+      "1"
+    ]
+  ],
+  "schema": "gu-riemann-silence-certificate-v1",
+  "scope": "All four Riemann coordinates vanish; off-Riemann values of S need not vanish. No Einstein ratio or reconstructed Bianchi criterion is assumed. Fixed metric/epsilon, zero-order linear S and full translation tangent are retained hypotheses.",
+  "theorem": "For fixed real linear equivariant S on the full translation tangent, if S(T wedge T) is the unit-weight Euler derivative of (1/3)<T,S(T wedge T)>, then S restricted to algebraic Riemann curvature is zero.",
+  "timing_policy": "Wall time belongs only in the ephemeral run receipt; this certificate is deterministic."
+}
