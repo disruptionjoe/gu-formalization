@@ -1,7 +1,7 @@
 schema_version: '1.0'
 repository: observerse-research-program
 branch: main
-revision_basis: 523d8554d35825c9cbbba133aae9c42cbd9408cd
+revision_basis: 8cef2ad2893fc7d0f300c2b8ef343459191509fd
 program_focus:
   version: 2026-11-25-v1
   authority: joe_direct_chat_2026_11_25_five_process_improvements_approved
@@ -140,6 +140,60 @@ program_focus:
     covered; source relevance separately from mathematical breadth; shared prerequisite if any; remaining
     cost; strongest eligible alternative. A blocked high-value target is not an eligible alternative without
     its missing input. Reuse completed theorems and compare only their uncovered successors.'
+source_action_coupled_support_2026_11_27:
+  authority: joe_direct_chat_2026_11_26_continued_falsification_math20
+  basis_revision: 8cef2ad2893fc7d0f300c2b8ef343459191509fd
+  status: internal_T1_principal_support_closure_reviewed
+  actual_delta: Native principal matter currents obstruct every common open-band strict-center support-only
+    closure with the stated independent polarizations; an open conic matter band generates all tangential
+    transfer directions. Both held roots also have a certified nonzero leading reduced Euler-source covector
+    on the scalar-normal signed-energy range witness. No actual curved physical-domain or GU falsification
+    follows.
+  evidence:
+  - explorations/conditional-build/source-action-coupled-support-2026-11-27.md
+  - lab/process/source-action-coupled-support.json
+  - lab/process/source-action-coupled-support-certificates.json
+  - lab/process/hostile-reviews/2026-11-27-source-action-coupled-support-review.md
+  source_bridge:
+    status: absent
+    reason: Source grammar supplies independent fields/fullU but not the tested open13D support and full-polarization
+      physical admission; W2/K95 and a physical boundary/linked-row selector remain unselected.
+  continuation:
+  - id: matched_unstable_sector_selected_current
+    status: ready_for_bounded_operator_and_jet_derivation
+    target: LB-CLASS
+    tier: T2
+    task: Derive the correctly transported first nonzero current/observation symbol on the actual intrinsic
+      H_mu sector using the already-held canonical-injection CK columns and dual rows. Check the prescribed
+      CK jets and normalization before forming a finite observability or Gram certificate. The old triangular
+      current is not an H_mu output map. First reuse the new exact principal paired-vertex maps to identify
+      which carrier information is still missing; do not redo generic support or inverse scans.
+    expected_delta: A matched current map on actual unstable-sector dynamics with certified visibility,
+      a precise blind invariant subspace, or an exact physical-admission seam; not a generic nonzero receiver.
+    class_covered: Held W2/K95 both roots and the already-held finite-band positive matter completion,
+      distinguished from the unrestricted independent principal fibers tested here.
+    source_bridge: conditional; the held completion is not source-selected and physical state/quotient
+      necessity remains open
+    kill_condition: Only a proved incompatibility on a source-required admitted physical channel advances
+      a physical exclusion. A failed sufficient rank bound or missing selector is not a GU kill.
+    shared_prerequisite: Owned H_mu, fullM, CK injection/current, exact response geometry and new sparse
+      polarized maps; no fresh matrix census
+    strongest_alternative: Test a specifically supplied nonlocal boundary/Green or polarization selector
+      against the newly proved support demand. No such source selector is supplied, so do not invent one
+      or make its absence a global work stop.
+  consumed:
+  - native K95 support/vertex applicability for the stated full independent null fibers
+  - one-pair and any-open-band support-only center restrictions, including narrower open cones
+  - southeast coefficient change alone as a way to remove the gradient-pair current, with the other arrows
+    fixed
+  - 'central-only/auxiliary-only doubt: separate transverse witness gives a principal reduced Euler-source
+    at both roots'
+  - repeated fullM, finite-loss, generic current or momentum-only scans
+  accounting: Directed81to82/LBCLASS40to41. Pending directed_lc_carry_2026_11_25_physical remains for
+    the next ordinary run; no scheduler opportunity, cadence amendment or bet credit.
+  priority_control_effect: Support-only free-cone repair consumed at stated principal/full-polarization
+    scope. Actual physical selectors and matched selected current remain open. Policy/schedules unchanged;
+    Nov26g proposal-only.
 source_action_finite_loss_2026_11_27:
   authority: joe_direct_chat_2026_11_26_continued_falsification_math20
   basis_revision: 523d8554d35825c9cbbba133aae9c42cbd9408cd
@@ -161,7 +215,7 @@ source_action_finite_loss_2026_11_27:
       completion-class exclusion is not GU or whole-class-C falsification.
   continuation:
   - id: native_coupled_support_closure
-    status: ready_for_bounded_native_applicability_and_vertex_test
+    status: completed_at_native_principal_full_polarization_scope
     target: LB-CLASS
     tier: T2
     task: 'Test the remaining strict-center/nonlocal-support escape at the actual native matter-current
@@ -182,6 +236,8 @@ source_action_finite_loss_2026_11_27:
       exclusions; reuse rather than rebuild.
     strongest_alternative: Matched current/observation symbol on the actual unstable sector, first deriving
       its transported map; the old triangular current cannot be combined directly with H_mu.
+    completed_evidence: lab/process/source-action-coupled-support.json
+    remaining_scope: Actual curved/physical selection is not supplied; no source verdict.
   consumed:
   - all fixed finite spatial-loss graph estimates on the unchanged non-null core
   - finite Sobolev-sandwiched and stated finite-order elliptic norm repairs
@@ -194,6 +250,7 @@ source_action_finite_loss_2026_11_27:
   priority_control_effect: Finite-loss and finite-order norm repairs consumed. Source boundary/physical
     selection remains open; next bounded native coupled-support discriminator. Policy and schedules unchanged;
     Nov26g proposal-only.
+  continuation_superseded_by: source_action_coupled_support_2026_11_27
 source_action_onshell_dynamics_2026_11_27:
   authority: joe_direct_chat_2026_11_26_continued_falsification_math20
   basis_revision: 629e40b3a7c12191b88d02107039afabf2d1c9b8

@@ -419,8 +419,20 @@ Selection: mandatory Joe-directed falsification; scope fixed W2/K95 candidate an
 
 - **Done, T1:** every fixed finite spatial-loss graph Duhamel estimate fails. Same-core norms sandwiched between finite Sobolev orders, including stated elliptic finite-order transforms, cannot supply a C0 realization agreeing on the test paths. Graph residual is not physical matter-source surjectivity.
 - **Done, source custody:** META52/53 do not require unrestricted upstairs Cauchy evolution; no source-supplied selector proved to remove the channel. META56 does not require an odd BV action.
-- **Ready, LB-CLASS/T2:** native coupled support-closure discriminator. Name the actual K95 support/carrier and paired on-shell matter polarizations, then evaluate the vertex at allowed momenta with timelike-normal difference. Do not import the old K77 fermion selector or infer transfer from momentum geometry alone.
+- **Done, T1 at principal scope:** native K95 paired-current and support-only closure test completed below. Actual curved/physical selected-domain admission remains distinct.
 - **Alternative:** derive matched first nonzero current symbol on actual unstable sector; old triangular current and H_mu are not an observability pair.
 - **Consumed:** finite-loss/finite-order norm repairs, repeated generic gauge/fullM/no-loss scans. Boundary/analytic/infinite-order or proper-quotient classes remain scoped survivors, not installed rescues.
 
 Selection: mandatory directed falsification; actual candidate completion class, source necessity absent for unrestricted Cauchy demand. Shared exact symbol/graph inputs discharged; next cost bounded by native principal vertex before any new domain construction. Directed80to81/LBCLASS39to40. Pending directed_lc_carry_2026_11_25_physical remains for the next ordinary run; no scheduler opportunity, cadence amendment or bet credit. Choices10/4/net6/zero predictions unchanged.
+
+## Current continuation: native coupled support (2026-11-27)
+
+[Result](../../../explorations/conditional-build/source-action-coupled-support-2026-11-27.md) · [Evidence](../source-action-coupled-support.json).
+
+- **Done:** actual native null kernels and four-arrow current. Any open independent full-polarization matter band produces forbidden timelike-normal transfers; an open conic band forces all tangential transfers. First theorem survives arbitrary southeast coefficient with other three arrows fixed.
+- **Done:** both held roots have nonzero principal reduced Euler-source pullback on the scalar-normal signed-energy range witness. This does not establish growing-mode overlap or actual curved physical forcing.
+- **Ready, LB-CLASS/T2:** correctly transported selected current on actual H_mu sector, using the existing canonical-injection CK columns/dual rows and prescribed first jets. Derive the output map before any observability/Gram certificate; do not combine the old triangular current directly with H_mu.
+- **Alternative requiring an actual input:** test a supplied physical polarization or boundary/Green selector against the new coupled support demand. Source supplies none; do not invent one or use absence to halt separable research.
+- **Consumed:** generic null-pair/momentum scans, narrower open-cone support-only repairs, repeated fullM/finite-loss floors. Positive observedR3 CK completion is not the openR13 class and remains unadjudicated.
+
+Selection: directed falsification; whole principal support class but no proved source necessity. Shared symbol/current/inverse inputs discharged. Next bounded cost is matched CK output derivation, then a finite actual-sector test only if the map is owned. Directed81to82/LBCLASS40to41. Pending directed_lc_carry_2026_11_25_physical remains for the next ordinary run; no scheduler opportunity, cadence amendment or bet credit. Choice budget unchanged.

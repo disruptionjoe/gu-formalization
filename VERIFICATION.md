@@ -17,6 +17,12 @@ External review is not a pathway in this program. The honesty label stays: inter
 
 Sections below are historical snapshots in file order.
 
+## Native coupled support obstruction (2026-11-27)
+
+Native principal matter currents obstruct every common open-band strict-center support-only closure with the stated independent polarizations; an open conic matter band generates all tangential transfer directions. Both held roots also have a certified nonzero leading reduced Euler-source covector on the scalar-normal signed-energy range witness. No actual curved physical-domain or GU falsification follows.
+
+[Result](explorations/conditional-build/source-action-coupled-support-2026-11-27.md) · [Evidence](lab/process/source-action-coupled-support.json).
+
 ## Finite-loss completion classes (2026-11-27)
 
 At both held W2/K95 kappa1 roots, high-order logarithmic-time packets exclude every fixed finite spatial-derivative-loss graph Duhamel estimate and every same-core norm completion with finite Sobolev sandwich bounds. This includes the stated finite-order elliptic repairs and local boundary conditions retaining the interior test core. Source META52/53 do not require this unrestricted ambient Cauchy class; boundary/nonlocal/analytic physical selection remains open.

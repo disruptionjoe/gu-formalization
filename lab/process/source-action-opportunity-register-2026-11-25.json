@@ -1348,7 +1348,7 @@
       "selection_note": "Candidate construction/diagnostic only unless its stated structural family and source bridge satisfy current program_focus. A reserve is not scheduled work."
     }
   ],
-  "priority_effect": "Finite-loss and finite-order elliptic norm repair class excluded on unchanged graph core. Source does not demand unrestricted Cauchy propagation. Next bounded native coupled support-closure discriminator or correctly transported unstable-sector current; no imported K77 selector or guessed BRST. No policy/cadence/choice change.",
+  "priority_effect": "Native support-only coupling class excluded at frozen principal/full independent polarization scope. Next matched selected-current/actual unstable-sector bridge; source-selected boundary/state mechanisms remain open, not constructed. No policy/cadence/choice change.",
   "evidence": [
     "explorations/conditional-build/source-action-engineering-wave-2026-11-25.md",
     "lab/process/source-action-engineering-wave.json",
@@ -2312,6 +2312,36 @@
       "generic BRST construction, repeated fullM/frozen/no-loss/current scans or unnecessary fullspin0 census"
     ],
     "counterfactual_proposal": "lab/process/source-action-finite-loss.json#counterfactual_proposal",
+    "counterfactual_status": "Nov26g proposal-only; no suite/governance execution",
+    "continuation_superseded_by": "lab/process/source-action-coupled-support.json"
+  },
+  "coupled_support_2026_11_27": {
+    "report": "explorations/conditional-build/source-action-coupled-support-2026-11-27.md",
+    "evidence": "lab/process/source-action-coupled-support.json",
+    "actual_delta": "Native principal matter currents obstruct every common open-band strict-center support-only closure with the stated independent polarizations; an open conic matter band generates all tangential transfer directions. Both held roots also have a certified nonzero leading reduced Euler-source covector on the scalar-normal signed-energy range witness. No actual curved physical-domain or GU falsification follows.",
+    "next_directed_worksets": [
+      {
+        "id": "matched_unstable_sector_selected_current",
+        "status": "ready_for_bounded_operator_and_jet_derivation",
+        "target": "LB-CLASS",
+        "tier": "T2",
+        "task": "Derive the correctly transported first nonzero current/observation symbol on the actual intrinsic H_mu sector using the already-held canonical-injection CK columns and dual rows. Check the prescribed CK jets and normalization before forming a finite observability or Gram certificate. The old triangular current is not an H_mu output map. First reuse the new exact principal paired-vertex maps to identify which carrier information is still missing; do not redo generic support or inverse scans.",
+        "expected_delta": "A matched current map on actual unstable-sector dynamics with certified visibility, a precise blind invariant subspace, or an exact physical-admission seam; not a generic nonzero receiver.",
+        "class_covered": "Held W2/K95 both roots and the already-held finite-band positive matter completion, distinguished from the unrestricted independent principal fibers tested here.",
+        "source_bridge": "conditional; the held completion is not source-selected and physical state/quotient necessity remains open",
+        "kill_condition": "Only a proved incompatibility on a source-required admitted physical channel advances a physical exclusion. A failed sufficient rank bound or missing selector is not a GU kill.",
+        "shared_prerequisite": "Owned H_mu, fullM, CK injection/current, exact response geometry and new sparse polarized maps; no fresh matrix census",
+        "strongest_alternative": "Test a specifically supplied nonlocal boundary/Green or polarization selector against the newly proved support demand. No such source selector is supplied, so do not invent one or make its absence a global work stop."
+      }
+    ],
+    "consumed": [
+      "native K95 support/vertex applicability for the stated full independent null fibers",
+      "one-pair and any-open-band support-only center restrictions, including narrower open cones",
+      "southeast coefficient change alone as a way to remove the gradient-pair current, with the other arrows fixed",
+      "central-only/auxiliary-only doubt: separate transverse witness gives a principal reduced Euler-source at both roots",
+      "repeated fullM, finite-loss, generic current or momentum-only scans"
+    ],
+    "counterfactual_proposal": "lab/process/source-action-coupled-support.json#counterfactual_proposal",
     "counterfactual_status": "Nov26g proposal-only; no suite/governance execution"
   }
 }

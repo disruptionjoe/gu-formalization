@@ -551,3 +551,7 @@ bicategory, ambidexterity or Mackey 2-functor is inferred.
 ## 2026-11-27 — Finite-loss completion core
 
 `Lean/GUFormalization/FiniteLossCompletion.lean`: **LEAN-VERIFIED**, six lemmas: formal transport residual order, universal exponent schedule, logarithmic-power decay, shrinking observation time, vanishing-error contradiction and Sobolev-sandwich transfer. Targeted single-thread compilation passed without warnings/placeholders; default import registered. Classical PDO Taylor/tail estimates, maximal-spectrum transport, native identification and physical/source scope remain independently reviewed written inputs. No full-PDE or whole-project build claim. [Result](../../explorations/conditional-build/source-action-finite-loss-completions-2026-11-27.md).
+
+## 2026-11-27 — Coupled support core
+
+`Lean/GUFormalization/CoupledSupport.lean`: **LEAN-VERIFIED**, seven lemmas: rational K95 pair arithmetic, longitudinal cancellation, transverse nonzero scalar product, closure contains differences, an open ball yields local differences, an open positive cone has full difference set, and full differences force full source support. Targeted single-thread compilation passed without warnings/placeholders. Native null-kernel/vertex identification, convolution and actual physical/curved admission remain separately reviewed; no whole-project build claim. [Result](../../explorations/conditional-build/source-action-coupled-support-2026-11-27.md).
