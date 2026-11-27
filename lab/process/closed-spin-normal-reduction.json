@@ -1,0 +1,318 @@
+{
+  "artifact": "CLOSED_SPIN_NORMAL_REDUCTION",
+  "date": "2026-11-27",
+  "basis_revision": "ffa6fbe79169e098de7a6bf257048ba2cd9e9ba4",
+  "status": "internal_T2_closed_spin_normal_reviewed",
+  "program_target": "P2xglobal_index",
+  "secondary_target": "X-P1-P2",
+  "tier": "T2",
+  "expected_delta": "Decide the closed-base square condition expressly retained in the three existing normal-reduction results.",
+  "actual_delta": "Every closed smooth oriented spin Lorentz four-base satisfies the retained integral square condition: sigma=16k, and either c=0 when k=0 or c=2(e+6k f) on a hyperbolic plane has c squared=3sigma and mod2 reduction zero. Normal U(3,2), and the free-positive-J special-unitary reduction with prescribed total Spin, therefore exist absolutely on every admitted spin Lorentz base.",
+  "class_covered": "All connected smooth oriented spin Lorentz four-manifolds, closed case newly proved; arbitrary fundamental group and integral torsion. Absolute, orientation-compatible reductions only. The native normal form has signature(6,4), lambda1/2.",
+  "premises": [
+    "explorations/conditional-build/global-normal-complex-reduction-2026-11-24.md",
+    "explorations/conditional-build/normal-special-unitary-existence-2026-11-25.md",
+    "explorations/conditional-build/normal-sm-global-quotient-2026-11-27.md",
+    "lab/sources/source-claim-register.yaml",
+    "lab/active-research/joe-directed/source-chain/sca-right-chain-2026-08-15.md",
+    "canon/w2-y14-spin-structure.md"
+  ],
+  "source_bridge": {
+    "status": "conditional",
+    "reason": "SC-GRP-03 p29 eq4.6 proposes the native normal compact/complex intersection and permits U or SU. This settles absolute bundle existence on the admitted spin bases, not source selection, connection preservation, physical gauge/current or fixed relative data."
+  },
+  "source_necessary_claim": "Geometry is native; physical selection is conditional and optional SU is not mandated.",
+  "weakest_unproved_link": "Identification of an existential normal reduction with a source-selected preserved physical gauge/current structure.",
+  "class_C_representativeness": "Every admitted smooth spin Lorentz base at this absolute topological layer; no claim to decide the action class or its physical realization.",
+  "structural_or_build_specific": "Structural over the stated manifold class, independent of candidate dynamics.",
+  "kill_condition": "A closed smooth oriented spin Lorentz base violating the square condition would defeat the proposed theorem; standard topology and explicit witnesses instead settle it positively. No GU kill.",
+  "choice_budget_effect": "none;10 families/4 grouped obligations/net6/0 source-selected predictions unchanged",
+  "results": {
+    "closed_witness": "sigma16k; ifk0 choosec0. Otherwise nonzero even unimodular intersection lattice is indefinite and contains H. Lift e,f to integral H2; c=2(e+6kf), c\u00b2=48k=3sigma.",
+    "definite_case": "Apply Furuta10/8 to X#(S2xS2) to exclude nonzero definite spin Q, without requiring simple connectedness or torsion-freeH1.",
+    "torsion": "H4 of closed connected orientedX isZ; torsion products evaluate0. Doubling an integral lift ensures mod2zero including torsion.",
+    "normal_transfer": "Owned Nminus=L* tensor TX real-bundle identification plus compatible positive orthogonalization; no orthogonal complex structure on LorentzTX claimed.",
+    "composed_fit": "Previously proved S7 fixed-Spin lift gives optionalSU(3,2); existing globalmu6 quotient/geometricq descent follows for that constructed reduction. No new branching/group census.",
+    "survivors": "FixedJ determinant/Spin conditions, parallelism, source-selected connection or vacuum, prescribed boundary/end data, physical quotient/current, and counts remain separate."
+  },
+  "selection": {
+    "mandatory_basis": "Counter100 ordinaryB; no openT1/readypacket. P2global_index via LB-LADDER structural topology.",
+    "reuse_difference": "Nov24/25/27 reports explicitly retain the closed square condition; their K3 connected-sum witness is one example. All-free-J determinant and groupquotient results reused, not rerun.",
+    "source_relevance": "Directly the source-normal bundle and SC-GRP03 intersection, but physical source bridge conditional.",
+    "shared_prerequisite": "Normal complex reduction existence shared by geometric weak/gauge construction and associated observation; remaining dynamical and physical selection not discharged.",
+    "outcomes": [
+      "Universal witness: retire absolute topology as this falsification route.",
+      "Counterexample: obstruction for precisely stated admitted base.",
+      "Theorem applicability gap: retain exact missing hypothesis, not false universal claim."
+    ],
+    "strongest_alternative": "Printed flat/one-sided loci and current-span polarization already owned. Full-U companion conservation is not source-asserted. Other physical-row tests need their actual current/domain or normalization.",
+    "coverage_audits": "Three bounded source/representation, printed-equation and physics-ledger searches; do not infer global exhaustion. Consequential findings retained here, scratch memos not needed for theorem.",
+    "forecast": "Standard theorem lookup plus explicit lattice witness, small exact controls and T2 review.",
+    "actual_cost": {
+      "grouped_controls": 73,
+      "control_seconds": 0.0004825838841497898,
+      "note": "No total-token or total-compute savings measured; no fabricated probabilities."
+    },
+    "lenses": "Quick twenty mathematical descriptions; category theory checks composition of reductions, number theory supplies the integral witness. No separate agent per persona."
+  },
+  "verification": {
+    "controls": {
+      "status": "PASS",
+      "grouped_checks": 73,
+      "checks": {
+        "hyperbolic_unimodular": true,
+        "witness_-17": true,
+        "even_lift_-17": true,
+        "orientation_reversal_-17": true,
+        "planted_half_coefficient_rejected_-17": true,
+        "witness_-3": true,
+        "even_lift_-3": true,
+        "orientation_reversal_-3": true,
+        "planted_half_coefficient_rejected_-3": true,
+        "witness_-1": true,
+        "even_lift_-1": true,
+        "orientation_reversal_-1": true,
+        "planted_half_coefficient_rejected_-1": true,
+        "witness_0": true,
+        "even_lift_0": true,
+        "orientation_reversal_0": true,
+        "witness_1": true,
+        "even_lift_1": true,
+        "orientation_reversal_1": true,
+        "planted_half_coefficient_rejected_1": true,
+        "witness_4": true,
+        "even_lift_4": true,
+        "orientation_reversal_4": true,
+        "planted_half_coefficient_rejected_4": true,
+        "witness_19": true,
+        "even_lift_19": true,
+        "orientation_reversal_19": true,
+        "planted_half_coefficient_rejected_19": true,
+        "null_adjustment_-11": true,
+        "unimodular_adjustment_-11": true,
+        "nonstandard_basis_-11_-2": true,
+        "nonstandard_basis_-11_3": true,
+        "null_adjustment_-1": true,
+        "unimodular_adjustment_-1": true,
+        "nonstandard_basis_-1_-2": true,
+        "nonstandard_basis_-1_3": true,
+        "null_adjustment_0": true,
+        "unimodular_adjustment_0": true,
+        "nonstandard_basis_0_-2": true,
+        "nonstandard_basis_0_3": true,
+        "null_adjustment_2": true,
+        "unimodular_adjustment_2": true,
+        "nonstandard_basis_2_-2": true,
+        "nonstandard_basis_2_3": true,
+        "null_adjustment_13": true,
+        "unimodular_adjustment_13": true,
+        "nonstandard_basis_13_-2": true,
+        "nonstandard_basis_13_3": true,
+        "planted_rescaled_pair_rejected": true,
+        "e8_unimodular": true,
+        "e8_positive": true,
+        "k3_lorentz_euler": true,
+        "k3_closed_square": true,
+        "k3_c1_zero_not_repair": true,
+        "k3_orientation_reverse": true,
+        "definite_stabilization_contradiction_8": true,
+        "definite_stabilization_contradiction_16": true,
+        "definite_stabilization_contradiction_32": true,
+        "definite_stabilization_contradiction_48": true,
+        "zero_rank_exception_survives": true,
+        "torsion_quotient_order_2": true,
+        "torsion_quotient_order_4": true,
+        "torsion_quotient_order_5": true,
+        "torsion_quotient_order_6": true,
+        "torsion_quotient_order_8": true,
+        "torsion_quotient_order_12": true,
+        "nonzero_even_torsion_not_trivial": true,
+        "rank_zero_lorentz_control": true,
+        "torus_zero_signature_control": true,
+        "s4_spin_only_fails_wu": true,
+        "odd_square_residue_calibration": true,
+        "nonspin_chi_zero_no_complex": true,
+        "nonspin_lorentz_euler": true
+      },
+      "hyperbolic_witness_certificates": [
+        {
+          "signature": -272,
+          "a": [
+            1,
+            -102
+          ],
+          "c": [
+            2,
+            -204
+          ],
+          "square": -816
+        },
+        {
+          "signature": -48,
+          "a": [
+            1,
+            -18
+          ],
+          "c": [
+            2,
+            -36
+          ],
+          "square": -144
+        },
+        {
+          "signature": -16,
+          "a": [
+            1,
+            -6
+          ],
+          "c": [
+            2,
+            -12
+          ],
+          "square": -48
+        },
+        {
+          "signature": 0,
+          "a": [
+            1,
+            0
+          ],
+          "c": [
+            2,
+            0
+          ],
+          "square": 0
+        },
+        {
+          "signature": 16,
+          "a": [
+            1,
+            6
+          ],
+          "c": [
+            2,
+            12
+          ],
+          "square": 48
+        },
+        {
+          "signature": 64,
+          "a": [
+            1,
+            24
+          ],
+          "c": [
+            2,
+            48
+          ],
+          "square": 192
+        },
+        {
+          "signature": 304,
+          "a": [
+            1,
+            114
+          ],
+          "c": [
+            2,
+            228
+          ],
+          "square": 912
+        }
+      ],
+      "scope": "Exact bilinear, parity and characteristic-number controls only. Smoothness, spin, Lorentz existence, Furuta/Rokhlin/Wu and lattice classification remain written theorem inputs. No finite sample certifies their universal quantifiers.",
+      "runtime_seconds": 0.0004825838841497898
+    },
+    "review": {
+      "status": "accepted",
+      "ref": "lab/process/hostile-reviews/2026-11-27-closed-spin-normal-review.md",
+      "role": "independent non-author topology/source-transfer specialist",
+      "review_sha256": "41276dd9a847ff9f0728d417b21829e4c2901a1ca9480bab8234dbee28c3edec"
+    },
+    "lean": "Not required for T2; no formalization claim. Universal manifold/obstruction theory is written and independently reviewed.",
+    "gates": {
+      "program_focus_audit": "PASS",
+      "typed_carrier_declaration_audit": "PASS",
+      "kill_target_claim_audit": "PASS",
+      "frontmatter_status_schema_audit": "PASS",
+      "source_native_comparator_routing_audit": "PASS",
+      "lean_certificate_surface_audit": "PASS",
+      "current_state_absolute_currency_audit": "PASS",
+      "conditional_evidence_delta_gate": "PASS",
+      "research_context_reader_audit": "PASS"
+    },
+    "dependencies": [
+      {
+        "ref": "explorations/conditional-build/global-normal-complex-reduction-2026-11-24.md",
+        "sha256": "11f5ad826c71028850bdf3cf87d3f40f8751b600491caaa940f31a0e6cc8f3ff",
+        "fresh_replay": false
+      },
+      {
+        "ref": "explorations/conditional-build/normal-special-unitary-existence-2026-11-25.md",
+        "sha256": "9321d71effe1a41b0c5d1ba58b7167948b23aa43a3921c0b870d151b2e5690b5",
+        "fresh_replay": false
+      },
+      {
+        "ref": "explorations/conditional-build/normal-sm-global-quotient-2026-11-27.md",
+        "sha256": "2a92c7b7307f69f8e80e2a87e364e07731c6ff2c086a320a22880d437b0fb009",
+        "fresh_replay": false
+      },
+      {
+        "ref": "lab/sources/source-claim-register.yaml",
+        "sha256": "dc3ae173b4cc0eb2a0e343e3d92d5f110b8e4f6eef3e2852a1e897ab4371ade6",
+        "fresh_replay": false
+      },
+      {
+        "ref": "lab/active-research/joe-directed/source-chain/sca-right-chain-2026-08-15.md",
+        "sha256": "c6fabae2ce4ba664a88642d8b589a94327dac5d217336e4851ec5096a16f1629",
+        "fresh_replay": false
+      },
+      {
+        "ref": "canon/w2-y14-spin-structure.md",
+        "sha256": "68040ebfdfd08cfeb215b1e9a6eda91e66cf7c0fb8626baa0cd63ab8b9348843",
+        "fresh_replay": false
+      }
+    ],
+    "literature": [
+      {
+        "ref": "https://archive.intlpress.com/site/pub/files/_fulltext/journals/mrl/2001/0008/0003/MRL-2001-0008-0003-a005.pdf",
+        "locator": "Furuta2001 Theorem1 pp279-280",
+        "use": "Closed spin10/8 theorem and signature divisibility; no simple-connectedness assumption."
+      },
+      {
+        "ref": "https://cpeters1.win.tue.nl/Books/QuadraticForms/QuadForms.pdf",
+        "locator": "Peters-Sterk Corollary2.4.3 printedp63",
+        "use": "Even indefinite unimodular intersection lattice has a hyperbolic summand."
+      }
+    ],
+    "novelty": "New repository consequence of standard topology, not world novelty or a new theorem of four-manifold theory.",
+    "artifact_hashes": {
+      "explorations/conditional-build/closed-spin-normal-reduction-2026-11-27.md": "54f103e4b85df3f927743c418ec1d8691bb409bd6b12e0bcacff646a34959975",
+      "tests/program-focus/closed_spin_normal_reduction_probe.py": "79bc2aa04f14848b0c0742076f29e6e40f0a9d691a1d241fafe0318412942f5a"
+    }
+  },
+  "follow_through": {
+    "consumed": [
+      "Closed-spin-Lorentz integral square search",
+      "Absolute normalU/optionalSU existence searches on admitted spin Lorentz bases without prescribed data"
+    ],
+    "survivors": [
+      "Fixed negativeJ with freepositiveJ fixedSpin existence inherited",
+      "Fixed bothJ/volume/Spin compatibility",
+      "Prescribed connection parallelism and boundary/end extension",
+      "Physical gauge, weakcurrent, grading/count and source vacuum selection"
+    ],
+    "next": "Absolute normal-complex existence is discharged on admitted spin Lorentz bases, including closed ones; repeated square or determinant existence searches are covered. Fixed-J, connection-preserved and prescribed relative/end reductions need their actual supplied data. Continue existing source-first selection on a different uncovered necessary consequence; no new physical selector or neighboring optional reconstruction is inferred."
+  },
+  "accounting": {
+    "counter_before": 100,
+    "counter_after": 101,
+    "LB_LADDER_before": 16,
+    "LB_LADDER_after": 17,
+    "bet_credit": 0,
+    "new_choices": 0,
+    "matrix_status_changes": 0,
+    "ledger_verdict_changes": 0
+  },
+  "effect_line": "Change: remove the closed-base absolute normal-reduction existence debt; why: a uniform integral witness covers the entire admitted class; authority: Joe27(c,f,h); applied internal evidence with pending ledger attachment, no policy/verdict change; effect: selection and preservation, rather than absolute existence, remain the live burdens."
+}

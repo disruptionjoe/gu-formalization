@@ -31,6 +31,8 @@ actual_delta: Absolute SU existence equals U existence in the declared bundle cl
 
 # The optional determinant question closes positively
 
+> **Scope update, 2026-11-27:** The closed spin Lorentz square condition left open in this report is now proved universally soluble in [Closed spin normal reduction](closed-spin-normal-reduction-2026-11-27.md). This adds an existence result; the historical proof and fixed-J, prescribed-connection, relative/end and physical-selection limits below remain in force.
+
 ```gu-typed-objects
 result: Absolute normal special-unitary existence with prescribed total Spin lift
 carrier: N=Nplus+Nminus=Sym2(pi*TX)*; native normal rank10 over X or metric bundle Y/cover, positive6 negative4 LAYER=ambient+observed BRIDGE=literal-section-pullback CHIRALITY=N/A

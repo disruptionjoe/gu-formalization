@@ -3005,5 +3005,28 @@
     "next": "Finite-order normal-jet repairs under coclosure alone are covered. A distinct conservation discriminator needs an already supplied extra equation or domain restricting the free normal coefficients, or a genuinely nonlocal readout with its actual admission. Homogeneous cosmological backgrounds and held EXP/COS full-CMB inputs remain outside. Counter100 returns to ordinary B selection via existing source-first VOI map; this LC result has no automatic B absorption or ledger credit.",
     "matrix_or_ledger_effect": "none",
     "paper_track": "No novelty/release claim."
+  },
+  "closed_spin_normal_2026_11_27": {
+    "actual_delta": "Every closed smooth oriented spin Lorentz four-base satisfies the retained integral square condition: sigma=16k, and either c=0 when k=0 or c=2(e+6k f) on a hyperbolic plane has c squared=3sigma and mod2 reduction zero. Normal U(3,2), and the free-positive-J special-unitary reduction with prescribed total Spin, therefore exist absolutely on every admitted spin Lorentz base.",
+    "source_bridge": {
+      "status": "conditional",
+      "reason": "SC-GRP-03 p29 eq4.6 proposes the native normal compact/complex intersection and permits U or SU. This settles absolute bundle existence on the admitted spin bases, not source selection, connection preservation, physical gauge/current or fixed relative data."
+    },
+    "evidence": [
+      "explorations/conditional-build/closed-spin-normal-reduction-2026-11-27.md",
+      "lab/process/closed-spin-normal-reduction.json"
+    ],
+    "consumed_successors": [
+      "Closed-spin-Lorentz integral square search",
+      "Absolute normalU/optionalSU existence searches on admitted spin Lorentz bases without prescribed data"
+    ],
+    "survivors": [
+      "Fixed negativeJ with freepositiveJ fixedSpin existence inherited",
+      "Fixed bothJ/volume/Spin compatibility",
+      "Prescribed connection parallelism and boundary/end extension",
+      "Physical gauge, weakcurrent, grading/count and source vacuum selection"
+    ],
+    "next": "Absolute normal-complex existence is discharged on admitted spin Lorentz bases, including closed ones; repeated square or determinant existence searches are covered. Fixed-J, connection-preserved and prescribed relative/end reductions need their actual supplied data. Continue existing source-first selection on a different uncovered necessary consequence; no new physical selector or neighboring optional reconstruction is inferred.",
+    "paper_track": "Standard-theorem corollary; no world-novelty or release claim."
   }
 }

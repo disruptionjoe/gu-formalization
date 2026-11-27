@@ -1,0 +1,36 @@
+{
+  "schema_version": "1.0",
+  "delta_id": "GU-CLOSED-SPIN-NORMAL-2026-11-27",
+  "status": "pending",
+  "base": {
+    "ledger_ref": "lab/process/conditional-physics-ledger-v0.263.json",
+    "ledger_sha256": "7c75c179c3af512084e50af19043a5d320b38e8c1e53325ee5ec2f97ad9c257b"
+  },
+  "affected_rows": [
+    "RA-A2",
+    "RA-A6"
+  ],
+  "result_refs": [
+    "explorations/conditional-build/closed-spin-normal-reduction-2026-11-27.md",
+    "lab/process/closed-spin-normal-reduction.json",
+    "explorations/conditional-build/global-normal-complex-reduction-2026-11-24.md",
+    "explorations/conditional-build/normal-special-unitary-existence-2026-11-25.md",
+    "explorations/conditional-build/normal-sm-global-quotient-2026-11-27.md"
+  ],
+  "source_disposition": "SC-GRP03 native normal complex/compact intersection; physical selection unproved, U alternative retained.",
+  "claim_ceiling": "Absolute geometry on admitted smooth spin Lorentz bases only. No fixed-J, parallel connection, relative extension, physical-current, family-count or row-verdict upgrade.",
+  "proposed_effect": {
+    "summary": "Every closed smooth oriented spin Lorentz four-base satisfies the retained integral square condition: sigma=16k, and either c=0 when k=0 or c=2(e+6k f) on a hyperbolic plane has c squared=3sigma and mod2 reduction zero. Normal U(3,2), and the free-positive-J special-unitary reduction with prescribed total Spin, therefore exist absolutely on every admitted spin Lorentz base.",
+    "requested_row_changes": [
+      "Attach the universal closed-base existence result, replacing the retained closed-square existence debt at this absolute layer.",
+      "Keep all verdicts, grades and physical-selection/revival triggers unchanged; correlate with the pending global-SM-quotient evidence."
+    ]
+  },
+  "conflict_keys": [
+    "RA-A2",
+    "RA-A6",
+    "GU-GLOBAL-SM-QUOTIENT-2026-11-27",
+    "GU-SOURCE-APPLICABILITY-RECONCILIATION-2026-11-24"
+  ],
+  "integration": null
+}

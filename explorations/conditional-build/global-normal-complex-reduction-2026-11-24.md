@@ -32,6 +32,8 @@ actual_delta: For oriented spin Lorentz four-bases, an orthogonal complex struct
 
 # Global normal complex reduction
 
+> **Scope update, 2026-11-27:** The closed spin Lorentz square condition left open in this report is now proved universally soluble in [Closed spin normal reduction](closed-spin-normal-reduction-2026-11-27.md). This adds an existence result; the historical proof and fixed-J, prescribed-connection, relative/end and physical-selection limits below remain in force.
+
 ```gu-typed-objects
 result: Global existence criterion for the normal pseudo-Hermitian reduction
 carrier: N=Sym²(pi*TX)* over Lorentz metric bundle Y or its observed pullback; oriented spin four-base LAYER=ambient+observed BRIDGE=literal-section-pullback CHIRALITY=N/A

@@ -66,6 +66,11 @@
       "delta_id": "GU-SHIAB-COMPANION-2026-11-27",
       "path": "lab/process/conditional-evidence-deltas/gu-shiab-companion-2026-11-27.json",
       "status": "pending"
+    },
+    {
+      "delta_id": "GU-CLOSED-SPIN-NORMAL-2026-11-27",
+      "path": "lab/process/conditional-evidence-deltas/gu-closed-spin-normal-2026-11-27.json",
+      "status": "pending"
     }
   ]
 }

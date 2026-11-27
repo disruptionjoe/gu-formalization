@@ -1005,7 +1005,11 @@
         "explorations/conditional-build/normal-special-unitary-existence-2026-11-25.md",
         "lab/process/normal-special-unitary-existence-2026-11-25.json",
         "lab/process/hostile-reviews/2026-11-25-normal-special-unitary-review.md",
-        "tests/program-focus/normal_special_unitary_probe.py"
+        "tests/program-focus/normal_special_unitary_probe.py",
+        "explorations/conditional-build/closed-spin-normal-reduction-2026-11-27.md",
+        "lab/process/closed-spin-normal-reduction.json",
+        "tests/program-focus/closed_spin_normal_reduction_probe.py",
+        "lab/process/hostile-reviews/2026-11-27-closed-spin-normal-review.md"
       ],
       "grade": "independently reviewed conditional structural theorem; no full class-C or physical realization decision",
       "actual_delta": "P2xglobal_index open->constrained: A global boundedly invertible codomain automorphism preserves the entire supplied continuous Fredholm family index, including a scalar phase with nonzero winding. A claimed P2-to-index consequence must therefore identify an operator/domain/end/grading or nontrivial gluing change beyond such an automorphism. This does not fix the initial index or supply a GU Fredholm family.",
@@ -1031,6 +1035,21 @@
           "lab/process/hostile-reviews/2026-11-25-normal-special-unitary-review.md",
           "tests/program-focus/normal_special_unitary_probe.py"
         ]
+      },
+      "closed_spin_normal_2026_11_27": {
+        "tier": "T2",
+        "status": "internal_T2_closed_spin_normal_reviewed",
+        "actual_delta": "Every closed smooth oriented spin Lorentz four-base satisfies the retained integral square condition: sigma=16k, and either c=0 when k=0 or c=2(e+6k f) on a hyperbolic plane has c squared=3sigma and mod2 reduction zero. Normal U(3,2), and the free-positive-J special-unitary reduction with prescribed total Spin, therefore exist absolutely on every admitted spin Lorentz base.",
+        "status_effect": "unchanged; absolute existence subcondition closed positively",
+        "source_bridge": {
+          "status": "conditional",
+          "reason": "SC-GRP-03 p29 eq4.6 proposes the native normal compact/complex intersection and permits U or SU. This settles absolute bundle existence on the admitted spin bases, not source selection, connection preservation, physical gauge/current or fixed relative data."
+        },
+        "evidence": [
+          "explorations/conditional-build/closed-spin-normal-reduction-2026-11-27.md",
+          "lab/process/closed-spin-normal-reduction.json"
+        ],
+        "remaining": "Absolute normal-complex existence is discharged on admitted spin Lorentz bases, including closed ones; repeated square or determinant existence searches are covered. Fixed-J, connection-preserved and prescribed relative/end reductions need their actual supplied data. Continue existing source-first selection on a different uncovered necessary consequence; no new physical selector or neighboring optional reconstruction is inferred."
       }
     }
   ],
@@ -1793,7 +1812,7 @@
     },
     "LB-LADDER": {
       "zero_delta_streak": 0,
-      "runs": 16,
+      "runs": 17,
       "status": "open"
     }
   },
@@ -2707,7 +2726,7 @@
   ],
   "program_run_counter": {
     "since": "2026-11-09",
-    "count": 100,
+    "count": 101,
     "rule": "Every hourly run increments this in its postflight, whatever its lane. Lane C runs when count % 4 == 3 before the increment."
   },
   "working_rule": "Cells are worked at the structure level: a requirement must hold for every action in class C or for a structurally defined subfamily. No cell is worked by writing down a specific action, and no gated cell is worked by building its gate object. See CURRENT-STATE.yaml program_focus.structure_not_specifics.",
@@ -3617,6 +3636,15 @@
       "counter_after": 100,
       "lane": "LC-BETS",
       "selection": "All finite ambient jets in coclosure-only conservation bridge; LC internal result, no matrix scientific absorption."
+    },
+    {
+      "date": "2026-11-27",
+      "authority": "joe_direct_chat_2026_11_27_h",
+      "item": "closed-spin-normal-reduction",
+      "counter_before": 100,
+      "counter_after": 101,
+      "lane": "LB-LADDER",
+      "selection": "Universal positive closed-base normal-reduction existence, source-native topology."
     }
   ],
   "directed_lc_carry_2026_11_24_b": {
@@ -3845,9 +3873,12 @@
           "explorations/conditional-build/normal-special-unitary-existence-2026-11-25.md",
           "lab/process/normal-special-unitary-existence-2026-11-25.json",
           "lab/process/hostile-reviews/2026-11-25-normal-special-unitary-review.md",
-          "tests/program-focus/normal_special_unitary_probe.py"
+          "tests/program-focus/normal_special_unitary_probe.py",
+          "explorations/conditional-build/closed-spin-normal-reduction-2026-11-27.md",
+          "lab/process/closed-spin-normal-reduction.json"
         ],
-        "choices": "Positive J and volume quantified existentially; negative J and total Spin fixed; no prescribed relative data or physical connection."
+        "choices": "Positive J and volume quantified existentially; negative J and total Spin fixed; no prescribed relative data or physical connection.",
+        "closed_base_follow_through": "Every closed smooth oriented spin Lorentz four-base satisfies the retained integral square condition: sigma=16k, and either c=0 when k=0 or c=2(e+6k f) on a hyperbolic plane has c squared=3sigma and mod2 reduction zero. Normal U(3,2), and the free-positive-J special-unitary reduction with prescribed total Spin, therefore exist absolutely on every admitted spin Lorentz base. No fixed-J or physical selection inference."
       },
       {
         "question": "Which admitted solution and forcing domains make literal observation a closed compatible complex?",

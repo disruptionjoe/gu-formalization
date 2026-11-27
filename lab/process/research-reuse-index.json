@@ -1737,6 +1737,36 @@
       "survivors_ref": "lab/process/bet-cosmology-normal-jets.json#follow_through",
       "reopen_condition_ref": "explorations/conditional-build/bet-cosmology-normal-jets-2026-11-27.md",
       "superseded_by": null
+    },
+    {
+      "id": "closed-spin-normal-reduction-2026-11-27",
+      "kind": "result",
+      "owner_ref": "explorations/conditional-build/closed-spin-normal-reduction-2026-11-27.md",
+      "tested_statement": "Every closed smooth oriented spin Lorentz four-base satisfies the retained integral square condition: sigma=16k, and either c=0 when k=0 or c=2(e+6k f) on a hyperbolic plane has c squared=3sigma and mod2 reduction zero. Normal U(3,2), and the free-positive-J special-unitary reduction with prescribed total Spin, therefore exist absolutely on every admitted spin Lorentz base.",
+      "signature": {
+        "object": "Absolute normal pseudo-Hermitian reduction",
+        "carrier": "Native Sym2 tangent/normal rank10 with signature6,4 over spin Lorentz4base and metric bundle",
+        "convention": "Smooth closed oriented base, arbitrarypi1/torsion; freeJ, absolute problem",
+        "class": "All admitted smooth spin Lorentz bases; closedcase new, open/boundary inherited",
+        "premises": [
+          "explorations/conditional-build/global-normal-complex-reduction-2026-11-24.md",
+          "explorations/conditional-build/normal-special-unitary-existence-2026-11-25.md",
+          "explorations/conditional-build/normal-sm-global-quotient-2026-11-27.md",
+          "lab/sources/source-claim-register.yaml",
+          "lab/active-research/joe-directed/source-chain/sca-right-chain-2026-08-15.md",
+          "canon/w2-y14-spin-structure.md"
+        ]
+      },
+      "attributed_status": "internal_T2_closed_spin_normal_reviewed",
+      "status_ref": "lab/process/closed-spin-normal-reduction.json#status",
+      "source_bridge_ref": "lab/process/closed-spin-normal-reduction.json#source_bridge",
+      "certificate_refs": [],
+      "control_refs": [
+        "tests/program-focus/closed_spin_normal_reduction_probe.py"
+      ],
+      "survivors_ref": "lab/process/closed-spin-normal-reduction.json#follow_through",
+      "reopen_condition_ref": "explorations/conditional-build/closed-spin-normal-reduction-2026-11-27.md",
+      "superseded_by": null
     }
   ]
 }

@@ -125,12 +125,36 @@
     "baseline_program_counter": 87,
     "baseline_revision": "2b9273a1b8ca6376c39ddc7a57bd3aa59aa67e53",
     "interval_scientific_waves": 10,
-    "last_review_counter": null,
-    "state": "measurement_started_not_retrospectively_calibrated",
+    "last_review_counter": 101,
+    "state": "first_bounded_retrospective_completed",
     "counter_source": "lab/process/action-constraint-matrix.json#program_run_counter/count",
     "records": "Existing wave evidence: forecast cost/delta, actual cost/delta, reuse, unsuccessful shortcuts and pivot rationale. Unknown telemetry stays unknown.",
     "review": "At approximately ten further scientific increments, append a short review here and revise estimates/ranking. Do not make a new schedule or fabricate past forecasts.",
-    "process_credit": "None; this implementation wave does not increment the scientific counter."
+    "process_credit": "None; this implementation wave does not increment the scientific counter.",
+    "latest_review": {
+      "date": "2026-11-27",
+      "counter_range": [
+        88,
+        101
+      ],
+      "wave_count": 14,
+      "evidence": [
+        "explorations/conditional-build/closed-spin-normal-reduction-2026-11-27.md",
+        "lab/process/null-boost-symbol-trace.json",
+        "lab/process/shiab-graded-derivation-class.json",
+        "lab/process/bet-cosmology-normal-jets.json"
+      ],
+      "observations": [
+        "Whole-class proofs replaced repeated coefficient/readout searches; source applicability still limits most negative claims.",
+        "Two bounded next-step suggestions were consumed by later correction/coverage: selected ellipticity audit and full-U conservation identity. Reuse must include corrections and exact source assertion.",
+        "The closed-base question was left as a criterion despite standard topology supplying a universal witness. Cross-pillar source/ledger search found the positive closure."
+      ],
+      "shortcut_effect": "Standard theorem plus small lattice witness removes an entire topology branch; no new computational engine or process rule.",
+      "forecast_vs_actual": "This wave forecast standard-theorem application and small exact controls; that is the executed method. Earlier total token/wall-time forecasts are not consistently recorded, so no aggregate efficiency ratio is claimed.",
+      "continuation": "Prefer distinct supplied-input necessary consequences; absolute existence is no longer a substitute for physical selection. This uses existing selection rules.",
+      "source_verdict_effect": "none",
+      "process_credit": 0
+    }
   },
   "self_correction_retrospectives": [
     {

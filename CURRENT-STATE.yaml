@@ -196,6 +196,27 @@ program_focus:
       denominator and a judgment label; the fraction of all possible GU realizations closed is unknown.
     authority_boundary: Continue autonomously within existing authority. Existing canon/ledger tiers,
       external and irreversible-action limits remain; no research waiting checkpoint.
+closed_spin_normal_2026_11_27:
+  status: internal_T2_closed_spin_normal_reviewed
+  actual_delta: 'Every closed smooth oriented spin Lorentz four-base satisfies the retained integral square
+    condition: sigma=16k, and either c=0 when k=0 or c=2(e+6k f) on a hyperbolic plane has c squared=3sigma
+    and mod2 reduction zero. Normal U(3,2), and the free-positive-J special-unitary reduction with prescribed
+    total Spin, therefore exist absolutely on every admitted spin Lorentz base.'
+  source_bridge:
+    status: conditional
+    reason: SC-GRP-03 p29 eq4.6 proposes the native normal compact/complex intersection and permits U
+      or SU. This settles absolute bundle existence on the admitted spin bases, not source selection,
+      connection preservation, physical gauge/current or fixed relative data.
+  evidence:
+  - explorations/conditional-build/closed-spin-normal-reduction-2026-11-27.md
+  - lab/process/closed-spin-normal-reduction.json
+  next: Absolute normal-complex existence is discharged on admitted spin Lorentz bases, including closed
+    ones; repeated square or determinant existence searches are covered. Fixed-J, connection-preserved
+    and prescribed relative/end reductions need their actual supplied data. Continue existing source-first
+    selection on a different uncovered necessary consequence; no new physical selector or neighboring
+    optional reconstruction is inferred.
+  choice_budget_effect: none
+  matrix_or_ledger_verdict_effect: none
 cosmology_normal_jets_2026_11_27:
   status: internal_T1_cosmology_normal_jets_reviewed
   lane: LC-BETS

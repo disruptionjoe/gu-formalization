@@ -16,6 +16,10 @@ Do not add "Current follow-through" sections or "Historical predecessor" stacks 
 matrix or bet file. The retired follow-through chain and banner stack are kept at the end of this file under
 "Archived steering history".
 
+## 2026-11-27 — Closed spin normal-reduction existence
+
+[Result](explorations/conditional-build/closed-spin-normal-reduction-2026-11-27.md) · [Evidence](lab/process/closed-spin-normal-reduction.json). The retained closed spin Lorentz square condition is universally soluble. With signature16k, c=2(e+6kf) on a hyperbolic plane has c²=3signature; zero signature admits c=0. Existing normal-bundle and fixed-Spin results then give absolute normal U(3,2), optional SU(3,2), and the constructed geometric group quotient. Fixed-J, connection, relative/end and physical-selection conditions remain. Standard topology and explicit arithmetic are used; no source/ledger verdict, action, physical choice or world-novelty claim.
+
 ## 2026-11-27 — Finite normal jets and compact charge (LC)
 
 [Result](explorations/conditional-build/bet-cosmology-normal-jets-2026-11-27.md) · [Evidence](lab/process/bet-cosmology-normal-jets.json). Every finite ambient solution jet reduces to finitely many arbitrary section fields under coclosure alone. Finite normal dependence therefore does not evade the zero compact excitation-charge theorem on its cutoff-admissible local domain. Additional equations, restricted states, nonlocal readouts and homogeneous backgrounds remain outside. This is LC internal evidence; no source, canon, ledger, matrix-cell or choice verdict changed. The new finite recurrence has two Lean lemmas; 102 exact controls passed. The PDE/support theorem remains written and reviewed.

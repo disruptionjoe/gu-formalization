@@ -25,6 +25,8 @@ matrix_or_ledger_effect: none
 
 # A global geometric quotient, with physical selection still separate
 
+> **Scope update, 2026-11-27:** The closed spin Lorentz square condition left open in this report is now proved universally soluble in [Closed spin normal reduction](closed-spin-normal-reduction-2026-11-27.md). This adds an existence result; the historical proof and fixed-J, prescribed-connection, relative/end and physical-selection limits below remain in force.
+
 ```yaml
 program_target: X-P1-P2
 tier: T2
