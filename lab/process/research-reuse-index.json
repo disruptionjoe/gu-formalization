@@ -1841,6 +1841,67 @@
         "receipt_ref": "lab/process/printed-endpoint-analytic-branch.json#verification",
         "scope": "Hash custody not fresh execution; universal analytic/PDE proof is written and reviewed."
       }
+    },
+    {
+      "id": "normal-sm-characteristic-constraints-2026-11-27",
+      "kind": "result",
+      "owner_ref": "explorations/conditional-build/normal-sm-characteristic-constraints-2026-11-27.md",
+      "tested_statement": "Every optional geometric normal SU reduction on the closed spin Lorentz section obeys c2(E2)=0, c1(E2)^2=p1(TX), c2(E3)=-2p1(TX). A specified H reduction lifts to SU3xSU2xU1 iff its determinant has an integral sixth root; some liftable reduction exists iff signature is divisible48. Quotient existence survives.",
+      "signature": {
+        "object": "Geometric normal SM quotient associated bundles and central cover",
+        "carrier": "Closed spin Lorentz section, trace-reversedN=P6+Q4, optionalSU3,2",
+        "convention": "p1(E_R)=c1\u00b2\u22122c2; f(A,B,z)=(z\u00b2A,z^-3B); base orientation fixed",
+        "class": "All compatible reductions; some-lift theorem allows freeJ with fixed totalSpin",
+        "premises": [
+          "explorations/conditional-build/global-normal-complex-reduction-2026-11-24.md",
+          "explorations/conditional-build/normal-special-unitary-existence-2026-11-25.md",
+          "explorations/conditional-build/normal-sm-global-quotient-2026-11-27.md",
+          "explorations/conditional-build/closed-spin-normal-reduction-2026-11-27.md",
+          "explorations/conditional-build/native-rs-moving-section-index-2026-11-11.md"
+        ]
+      },
+      "attributed_status": "internal_T1_normal_characteristic_constraints_reviewed",
+      "status_ref": "lab/process/normal-sm-characteristic-constraints.json#status",
+      "source_bridge_ref": "lab/process/normal-sm-characteristic-constraints.json#source_bridge",
+      "certificate_refs": [
+        "lab/process/normal-sm-characteristic-certificates.json",
+        "Lean/GUFormalization/NormalSMCharacteristic.lean"
+      ],
+      "control_refs": [
+        "tests/program-focus/normal_sm_characteristic_probe.py"
+      ],
+      "survivors_ref": "lab/process/normal-sm-characteristic-constraints.json#follow_through",
+      "reopen_condition_ref": "explorations/conditional-build/normal-sm-characteristic-constraints-2026-11-27.md",
+      "superseded_by": null,
+      "cache": {
+        "artifacts": [
+          {
+            "path": "explorations/conditional-build/normal-sm-characteristic-constraints-2026-11-27.md",
+            "sha256": "231a6b559c3c4b4672ddbb6f3befb0275a094d4f4eaf9bd2a216cd3952fa9eb3"
+          },
+          {
+            "path": "tests/program-focus/normal_sm_characteristic_probe.py",
+            "sha256": "ed61e7c32eceb44d7e37a91132b2b97f7cecab9185342dd39ef205516027683f"
+          },
+          {
+            "path": "lab/process/normal-sm-characteristic-certificates.json",
+            "sha256": "35a7cfc395becaa2f47b884cdc92d9832f92aa86227ce2e2e82c07572f85fb06"
+          },
+          {
+            "path": "Lean/GUFormalization/NormalSMCharacteristic.lean",
+            "sha256": "6789b838edfa70bfe502358244e2dd79e939cd107f37dc0bfa3443e664d6d6f0"
+          }
+        ],
+        "verifier": {
+          "command": "python3",
+          "args": [
+            "tests/program-focus/normal_sm_characteristic_probe.py",
+            "--verify"
+          ]
+        },
+        "receipt_ref": "lab/process/normal-sm-characteristic-constraints.json#verification",
+        "scope": "Algebra replay does not prove topology or physical bridge."
+      }
     }
   ]
 }

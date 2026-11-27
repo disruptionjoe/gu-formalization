@@ -1,0 +1,55 @@
+{
+  "artifact": "NORMAL_SM_CHARACTERISTIC_CERTIFICATE",
+  "basis_revision": "cb77c122924f6615574011bffc99b81193ffe58a",
+  "native_inputs_sha256": {
+    "explorations/conditional-build/global-normal-complex-reduction-2026-11-24.md": "11f5ad826c71028850bdf3cf87d3f40f8751b600491caaa940f31a0e6cc8f3ff",
+    "explorations/conditional-build/normal-special-unitary-existence-2026-11-25.md": "9321d71effe1a41b0c5d1ba58b7167948b23aa43a3921c0b870d151b2e5690b5",
+    "explorations/conditional-build/normal-sm-global-quotient-2026-11-27.md": "2a92c7b7307f69f8e80e2a87e364e07731c6ff2c086a320a22880d437b0fb009",
+    "explorations/conditional-build/closed-spin-normal-reduction-2026-11-27.md": "54f103e4b85df3f927743c418ec1d8691bb409bd6b12e0bcacff646a34959975",
+    "explorations/conditional-build/native-rs-moving-section-index-2026-11-11.md": "f061c893a002a3bdbea68616e8143a771aaa3c7ebe69ca04a8ec754ca570dbbf"
+  },
+  "scope": "Exact polynomial/divisibility controls; topology, source applicability and physical meaning are written-review obligations.",
+  "checks": [
+    "native Sym2 roots have rank10 and zero c1",
+    "root-computed p1Sym2 equals6p1V",
+    "coefficient5 mutation detected",
+    "rank2 weight2 full tensor c1",
+    "rank2 weight2 full tensor c2",
+    "rank2 weight-3 full tensor c1",
+    "rank2 weight-3 full tensor c2",
+    "rank3 weight2 full tensor c1",
+    "rank3 weight2 full tensor c2",
+    "rank3 weight-3 full tensor c1",
+    "rank3 weight-3 full tensor c2",
+    "line twist oriented real rank4 correction6z2 annihilated by2z",
+    "positive and total class coefficients",
+    "wrong sign Euler-realification mutation detected",
+    "determinant exponents cancel",
+    "kernel exponents have exact common modulus6",
+    "weak SU untwist",
+    "color SU untwist",
+    "tracefree agrees with actual SU lift",
+    "zero geometric c2 does not force zero SU charge",
+    "combined signature divisibility is48",
+    "signature16 quotient example cannot product lift",
+    "signature48 lift hyperbolic construction",
+    "connected sum example chi and sigma",
+    "one K3 Lorentz example",
+    "T4 fixed-reduction obstruction despite zero signature",
+    "abstract SU2 c2=1 violates trace-line geometric condition"
+  ],
+  "check_count": 27,
+  "examples": {
+    "signature_minus16": {
+      "d_squared": -48,
+      "c2_E2": 0,
+      "c2_E3": 96,
+      "c2_total": 144
+    },
+    "signature_minus48_product_lift": {
+      "ell_squared": -4,
+      "c2_SU2": 36,
+      "c2_SU3": 336
+    }
+  }
+}

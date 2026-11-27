@@ -1,0 +1,34 @@
+{
+  "schema_version": "1.0",
+  "delta_id": "GU-NORMAL-SM-CHARACTERISTIC-2026-11-27",
+  "status": "pending",
+  "base": {
+    "ledger_ref": "lab/process/conditional-physics-ledger-v0.263.json",
+    "ledger_sha256": "7c75c179c3af512084e50af19043a5d320b38e8c1e53325ee5ec2f97ad9c257b"
+  },
+  "affected_rows": [
+    "RA-A2",
+    "RA-A6"
+  ],
+  "result_refs": [
+    "explorations/conditional-build/normal-sm-characteristic-constraints-2026-11-27.md",
+    "lab/process/normal-sm-characteristic-constraints.json",
+    "lab/process/normal-sm-characteristic-certificates.json"
+  ],
+  "source_disposition": "SC-GRP03 optional normal SU branch only; fullU retained and physical gauge mapping unproved. Closedness/product lift not required by source.",
+  "claim_ceiling": "Geometric characteristic constraints and optional central-cover lift on closed section; no physical instanton, count, globally required topology or source exclusion.",
+  "proposed_effect": {
+    "summary": "Every optional geometric normal SU reduction on the closed spin Lorentz section obeys c2(E2)=0, c1(E2)^2=p1(TX), c2(E3)=-2p1(TX). A specified H reduction lifts to SU3xSU2xU1 iff its determinant has an integral sixth root; some liftable reduction exists iff signature is divisible48. Quotient existence survives.",
+    "requested_row_changes": [
+      "Attach the geometric characteristic and product-lift criteria, correlated with existing normal existence/globalquotient evidence.",
+      "Keep verdicts, grades and revival triggers unchanged."
+    ]
+  },
+  "conflict_keys": [
+    "RA-A2",
+    "RA-A6",
+    "GU-CLOSED-SPIN-NORMAL-2026-11-27",
+    "GU-GLOBAL-SM-QUOTIENT-2026-11-27"
+  ],
+  "integration": null
+}

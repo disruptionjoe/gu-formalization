@@ -135,3 +135,5 @@ import GUFormalization.NullSymbolTrace
 import GUFormalization.NormalJetRecursion
 
 import GUFormalization.PrintedEndpointBranch
+
+import GUFormalization.NormalSMCharacteristic

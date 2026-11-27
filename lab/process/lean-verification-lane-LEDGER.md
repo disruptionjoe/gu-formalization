@@ -627,3 +627,7 @@ bicategory, ambidexterity or Mackey 2-functor is inferred.
 ## Printed endpoint branch finite cores (2026-11-27)
 
 `Lean/GUFormalization/PrintedEndpointBranch.lean` checks six finite recurrence/elimination, zero-preserving recovery, rational coefficient and sign statements. Targeted compilation passed; homogeneous geometry, IFT, actual solution lifting and source custody remain written and independently reviewed. Result: `explorations/conditional-build/printed-endpoint-analytic-branch-2026-11-27.md`.
+
+## 2026-11-27 — Normal geometric SM characteristic arithmetic
+
+`Lean/GUFormalization/NormalSMCharacteristic.lean` checks nine finite characteristic-coefficient, determinant-weight, signature-divisibility, hyperbolic-square, untwist and countercontrol statements. Targeted compilation passed. Bundle identification, prescribed-c1 Wu obstruction, Rokhlin, Furuta and physical applicability remain separate written/reviewed premises. Result: `explorations/conditional-build/normal-sm-characteristic-constraints-2026-11-27.md`.

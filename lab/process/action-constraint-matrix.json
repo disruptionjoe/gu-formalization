@@ -1812,7 +1812,7 @@
     },
     "LB-LADDER": {
       "zero_delta_streak": 0,
-      "runs": 17,
+      "runs": 18,
       "status": "open"
     }
   },
@@ -2726,7 +2726,7 @@
   ],
   "program_run_counter": {
     "since": "2026-11-09",
-    "count": 102,
+    "count": 103,
     "rule": "Every hourly run increments this in its postflight, whatever its lane. Lane C runs when count % 4 == 3 before the increment."
   },
   "working_rule": "Cells are worked at the structure level: a requirement must hold for every action in class C or for a structurally defined subfamily. No cell is worked by writing down a specific action, and no gated cell is worked by building its gate object. See CURRENT-STATE.yaml program_focus.structure_not_specifics.",
@@ -3654,6 +3654,15 @@
       "counter_after": 102,
       "lane": "LB-CLASS",
       "selection": "Actual printed endpoint branch and reverse zero-preserving recovery exclusion."
+    },
+    {
+      "date": "2026-11-27",
+      "authority": "joe_direct_chat_2026_11_27_h",
+      "item": "normal-sm-characteristic-constraints",
+      "counter_before": 102,
+      "counter_after": 103,
+      "lane": "LB-LADDER",
+      "selection": "X-P1-P2 normal geometric bundle characteristic and product-lift constraints."
     }
   ],
   "directed_lc_carry_2026_11_24_b": {
@@ -5494,10 +5503,21 @@
           "reason": "Source proposes optionalSUbranch but notselectedphysicalcurrent/connection."
         },
         "evidence": [
-          "explorations/conditional-build/normal-sm-global-quotient-2026-11-27.md"
+          "explorations/conditional-build/normal-sm-global-quotient-2026-11-27.md",
+          "explorations/conditional-build/normal-sm-characteristic-constraints-2026-11-27.md",
+          "lab/process/normal-sm-characteristic-constraints.json"
         ],
         "latest_constraint": "The owned prescribed-Spin normal H reduction is globally (SU3 x SU2 x U1)/mu6, and the simultaneous geometric form-plus-spin q descends on its associated bundles. This closes the geometric existence/descent condition for the constructed free-J_P reduction, not fixed-J compatibility, connection/vacuum selection or the physical gauge/current quotient.",
-        "structural_choices": "Geometric H reduction is available; choosing it physically remains unresolved."
+        "structural_choices": "Geometric H reduction is available; choosing it physically remains unresolved.",
+        "characteristic_follow_through": {
+          "actual_delta": "Every optional geometric normal SU reduction on the closed spin Lorentz section obeys c2(E2)=0, c1(E2)^2=p1(TX), c2(E3)=-2p1(TX). A specified H reduction lifts to SU3xSU2xU1 iff its determinant has an integral sixth root; some liftable reduction exists iff signature is divisible48. Quotient existence survives.",
+          "source_bridge": {
+            "status": "conditional",
+            "reason": "SC-GRP03 permits optional SU normal intersection. Closedness, direct-product lift and physical gauge identification are not source-required; the full U alternative remains."
+          },
+          "fixed_reduction": "Integral determinant sixth root, including torsion. Signature divisibility is only existential over free reductions.",
+          "remaining": "LC cadence is due at count103: use the unchanged greatest-time-left rule and compare the eligible bet discriminators. For this geometry reuse the integral Chern/lift criterion only on a supplied bundle; physical gauge identification, prescribed connection, relative/end sectors and global-Y lift remain distinct. No more independent charge sampling or absolute-existence replays."
+        }
       },
       {
         "question": "Does full-adjoint Bianchi companion compatibility prohibit Riemann response?",
@@ -7011,5 +7031,19 @@
       "reason": "Source action/endpoint templates are supplied, but low-Phi products and K95 realization are not uniquely source-selected. Printed Upsilon/Xi with zero matter are not the complete source Euler system. The coderivative corollary also retains the theta=T dictionary."
     },
     "status_effect": "No cell/intersection/ledger/classC verdict change."
+  },
+  "normal_characteristic_constraints_2026_11_27": {
+    "status": "internal_T1_normal_characteristic_constraints_reviewed",
+    "tier": "T1",
+    "actual_delta": "Every optional geometric normal SU reduction on the closed spin Lorentz section obeys c2(E2)=0, c1(E2)^2=p1(TX), c2(E3)=-2p1(TX). A specified H reduction lifts to SU3xSU2xU1 iff its determinant has an integral sixth root; some liftable reduction exists iff signature is divisible48. Quotient existence survives.",
+    "evidence": [
+      "explorations/conditional-build/normal-sm-characteristic-constraints-2026-11-27.md",
+      "lab/process/normal-sm-characteristic-constraints.json"
+    ],
+    "source_bridge": {
+      "status": "conditional",
+      "reason": "SC-GRP03 permits optional SU normal intersection. Closedness, direct-product lift and physical gauge identification are not source-required; the full U alternative remains."
+    },
+    "status_effect": "No cell/intersection/source/classC/ledger verdict change."
   }
 }

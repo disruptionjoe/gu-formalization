@@ -76,6 +76,11 @@
       "delta_id": "GU-PRINTED-ENDPOINT-BRANCH-2026-11-27",
       "path": "lab/process/conditional-evidence-deltas/gu-printed-endpoint-branch-2026-11-27.json",
       "status": "pending"
+    },
+    {
+      "delta_id": "GU-NORMAL-SM-CHARACTERISTIC-2026-11-27",
+      "path": "lab/process/conditional-evidence-deltas/gu-normal-sm-characteristic-2026-11-27.json",
+      "status": "pending"
     }
   ]
 }

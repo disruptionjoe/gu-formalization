@@ -1,7 +1,7 @@
 schema_version: '1.0'
 repository: observerse-research-program
 branch: main
-revision_basis: 7b8808209820427ce293bfeb948015cb22064691
+revision_basis: cb77c122924f6615574011bffc99b81193ffe58a
 program_focus:
   version: 2026-11-27-v2
   authority: joe_direct_chat_2026_11_27_h
@@ -196,6 +196,25 @@ program_focus:
       denominator and a judgment label; the fraction of all possible GU realizations closed is unknown.
     authority_boundary: Continue autonomously within existing authority. Existing canon/ledger tiers,
       external and irreversible-action limits remain; no research waiting checkpoint.
+normal_characteristic_constraints_2026_11_27:
+  status: internal_T1_normal_characteristic_constraints_reviewed
+  actual_delta: Every optional geometric normal SU reduction on the closed spin Lorentz section obeys
+    c2(E2)=0, c1(E2)^2=p1(TX), c2(E3)=-2p1(TX). A specified H reduction lifts to SU3xSU2xU1 iff its determinant
+    has an integral sixth root; some liftable reduction exists iff signature is divisible48. Quotient
+    existence survives.
+  source_bridge:
+    status: conditional
+    reason: SC-GRP03 permits optional SU normal intersection. Closedness, direct-product lift and physical
+      gauge identification are not source-required; the full U alternative remains.
+  evidence:
+  - explorations/conditional-build/normal-sm-characteristic-constraints-2026-11-27.md
+  - lab/process/normal-sm-characteristic-constraints.json
+  next: 'LC cadence is due at count103: use the unchanged greatest-time-left rule and compare the eligible
+    bet discriminators. For this geometry reuse the integral Chern/lift criterion only on a supplied bundle;
+    physical gauge identification, prescribed connection, relative/end sectors and global-Y lift remain
+    distinct. No more independent charge sampling or absolute-existence replays.'
+  choice_budget_effect: none
+  matrix_or_ledger_verdict_effect: none
 printed_endpoint_branch_2026_11_27:
   status: internal_T1_printed_endpoint_branch_reviewed
   actual_delta: The printed endpoint has an actual analytic full-invariant local branch whose W2 connection

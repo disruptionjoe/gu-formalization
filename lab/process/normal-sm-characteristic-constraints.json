@@ -1,0 +1,317 @@
+{
+  "artifact": "NORMAL_SM_CHARACTERISTIC_CONSTRAINTS",
+  "date": "2026-11-27",
+  "basis_revision": "cb77c122924f6615574011bffc99b81193ffe58a",
+  "status": "internal_T1_normal_characteristic_constraints_reviewed",
+  "program_target": "X-P1-P2",
+  "tier": "T1",
+  "expected_delta": "Split characteristic constraints and exact product-cover lift criterion.",
+  "actual_delta": "Every optional geometric normal SU reduction on the closed spin Lorentz section obeys c2(E2)=0, c1(E2)^2=p1(TX), c2(E3)=-2p1(TX). A specified H reduction lifts to SU3xSU2xU1 iff its determinant has an integral sixth root; some liftable reduction exists iff signature is divisible48. Quotient existence survives.",
+  "class_covered": "Every optional SU(3,2) normal reduction restricted to smooth closed connected oriented spin Lorentz4 X, native signature6,4. Some-lift existence allows free negative/positive J and volume with specified normal Spin. Fixed reduction retains integral determinant data.",
+  "source_bridge": {
+    "status": "conditional",
+    "reason": "SC-GRP03 permits optional SU normal intersection. Closedness, direct-product lift and physical gauge identification are not source-required; the full U alternative remains."
+  },
+  "weakest_unproved_link": "Identification of the geometric normal associated bundles with the physical gauge bundles/current; source necessity of a product lift is absent.",
+  "source_necessary_exclusion": "Absent for closedness/product lift; conditional for physical application of the geometric characteristic relation.",
+  "class_C_representativeness": "Unproved; no width witness or complete source solution supplied.",
+  "choice_budget": {
+    "families": 10,
+    "grouped_obligations": 4,
+    "net": 6,
+    "source_selected_predictions": 0,
+    "change": "none; no W2 obligation or prediction credit"
+  },
+  "three_state": {
+    "ESTABLISHED": "Every optional geometric normal SU reduction on the closed spin Lorentz section obeys c2(E2)=0, c1(E2)^2=p1(TX), c2(E3)=-2p1(TX). A specified H reduction lifts to SU3xSU2xU1 iff its determinant has an integral sixth root; some liftable reduction exists iff signature is divisible48. Quotient existence survives.",
+    "RULED_OUT": "Incompatible geometric Chern data and direct-product-liftable reductions at signature not divisible48 in the declared closed spin Lorentz class.",
+    "NOT_MODELED": "Physical current/state, instanton solutions, relative/end sectors, global-Y lift, source-required topology, prescribed connection or generation count."
+  },
+  "source_custody": [
+    {
+      "claims": [
+        "SC-GRP-03"
+      ],
+      "primary": "https://geometricunity.nyc3.digitaloceanspaces.com/Geometric_Unity-Draft-April-1st-2021.pdf",
+      "locator": "p29 equation4.6 and adjacent text",
+      "scope": "OptionalSU versus fullU retained."
+    },
+    {
+      "claims": [
+        "SC-META-50"
+      ],
+      "ref": "lab/sources/transcripts/toe-weinstein-gu-40-years.md",
+      "locator": "00:03:06",
+      "scope": "Active/chosenSpin. Draftp4 additionally says uniqueSpin; closed examples not asserted to satisfy that stronger clause.",
+      "strict_unique_spin_limit": "The entire declared closed oriented Lorentz spin class has chi=0, hence b1=1+b2/2>=1 and nonzero H1(X;Z2). Spin structures form an H1(X;Z2) torsor, so none has literally unique Spin structure. The report does not claim this class satisfies that2021 clause; closedness itself is not source-required."
+    }
+  ],
+  "selection": {
+    "mandatory_basis": "Counter102 ordinaryB, no unfinishedT1 or ready packet; X-P1-P2 through LBLADDER bundle topology.",
+    "reuse_difference": "Total symmetric-square p1, normal split, absoluteSU and globalmu6 are owned. New composition resolves split Chern data and additional product-lift criterion.",
+    "source_relevance": "Geometric normal bundle in SC-GRP03; all-reductions mathematical scope is not a physical/source-required class claim.",
+    "shared_prerequisite": "Gauge/observation characteristic tests require actual geometric bundle and global group, not arbitrary independent conventional factors.",
+    "outcomes": [
+      "Relations plus sharp lift condition: reusable necessary realizability test.",
+      "Torsion/Wu/split failure: cancel corresponding theorem and preserve exact premise.",
+      "Source physical bundle identification absent: retain conditional geometry, no ledger verdict."
+    ],
+    "strongest_alternative": "Higher tower raw rank is already settled by sourceeq4.2 and lacks PRE54 identification; unique-spin closed-Lorentz contradiction lacks source closedness. Neither offers a prerequisite-complete source falsifier.",
+    "forecast": "Short characteristic proof, exact polynomial/divisibility controls and T1 review; no action, PDE or matrix census.",
+    "actual_cost": {
+      "verify_seconds": 0.0012529580853879452,
+      "grouped_exact_controls": 27,
+      "lean_finite_lemmas": 9,
+      "new_actions": 0,
+      "total_tokens": "not measured"
+    },
+    "lens_pass": [
+      "category: quotient versus lift",
+      "number theory:48 divisibility",
+      "topology:class and fixed reduction",
+      "differential geometry:trace line",
+      "representation:associated bundle",
+      "Lie theory:central kernel",
+      "algebraic topology:integral roots",
+      "K theory:realification",
+      "index theory:no family inference",
+      "symplectic:almost complex not integrable",
+      "PDE:no dynamics from Chern data",
+      "harmonic analysis:no spectral state",
+      "functional analysis:domain unselected",
+      "probability:no state law",
+      "control:necessary geometric input",
+      "homological:coefficient exact sequence",
+      "algebraic geometry:Chern roots",
+      "numerical:exact before sampling",
+      "mathematical physics:relative charge",
+      "invariant theory:every reduction"
+    ]
+  },
+  "verification": {
+    "native_probe": {
+      "command": "python3 tests/program-focus/normal_sm_characteristic_probe.py --verify",
+      "status": "PASS",
+      "grouped_controls": 27
+    },
+    "lean": {
+      "command": "lake env lean -j1 Lean/GUFormalization/NormalSMCharacteristic.lean",
+      "status": "PASS",
+      "finite_lemmas": 9,
+      "scope": "Finite coefficient and divisibility core only.",
+      "environment_note": "Initial command from Lean subdirectory could not resolve Mathlib; rerun from mounted repo cached project succeeded without source changes."
+    },
+    "reviews": [
+      {
+        "accepted": true,
+        "disposition": "ACCEPTED at the declared T1 mathematical scope; no required corrections",
+        "reviewer": "native_grading_review",
+        "artifact_hashes": {
+          "explorations/conditional-build/normal-sm-characteristic-constraints-2026-11-27.md": "231a6b559c3c4b4672ddbb6f3befb0275a094d4f4eaf9bd2a216cd3952fa9eb3",
+          "tests/program-focus/normal_sm_characteristic_probe.py": "ed61e7c32eceb44d7e37a91132b2b97f7cecab9185342dd39ef205516027683f",
+          "lab/process/normal-sm-characteristic-certificates.json": "35a7cfc395becaa2f47b884cdc92d9832f92aa86227ce2e2e82c07572f85fb06",
+          "Lean/GUFormalization/NormalSMCharacteristic.lean": "6789b838edfa70bfe502358244e2dd79e939cd107f37dc0bfa3443e664d6d6f0"
+        },
+        "blocking_findings": [],
+        "own_checks": [
+          "Read the complete report, exact probe, certificate and nine finite Lean lemmas. Matched all four hashes to the supplied frozen bindings and all five inherited dependency pins to actual bytes.",
+          "Verified e(Q)=0 from the canonical nonzero trace section, independent of Q orientation and without time orientation.",
+          "Verified p1(Q)=p1(TX) using the time-orientation double cover, transfer, and torsion-free H4(X;Z)=Z; separately confirmed the exact complexified rank4 tensor-line calculation gives the same equality.",
+          "Derived split integral Chern identities from p1=c1^2-2c2, p1(N)=6p1(TX), determinant cancellation and torsion-free degree4. The normal Spin lift is inherited as fixed data, not inferred from these identities.",
+          "Verified necessity and sufficiency of a sixth root of det(E3) for a lift of the specified H bundle via the explicit twisted SU3 and SU2 bundles and determinant trivializations.",
+          "Verified the existential signature criterion: necessity uses12 and16 divisibility; sufficiency constructs ell=e+2mf with ell^2=4m, sets d=-6ell, applies the chosen-c1 rank4 obstruction criterion, then the owned fixed-normal-Spin extension preserving the negative complex structure.",
+          "Checked torsion is retained in the fixed determinant condition and chosen c1; all divisions in degree4 occur only on the closed oriented section. No all-Y lift extension follows.",
+          "Checked the product untwisting coefficients -9 and -84, rational trace-free classes, orientation reversal, and both K3 connected-sum Euler-characteristic/signature controls.",
+          "Checked the same-base T4 counterconstruction distinguishes existence of some lift from lifting every specified reduction; a primitive decomposable null class supplies the named e.",
+          "Confirmed the probe checks finite polynomial/divisibility controls and explicitly does not automate topology; the Lean source has nine finite arithmetic lemmas and no placeholder. Compilation was not run by this reviewer.",
+          "Source-custody-only rebind: reversing the new2021 unique-Spin versus2025 active/chosen-Spin clarification reproduces the previously accepted report SHA b49c222092641ca26feb0c2bbef5e45d4df2b791d73ea5819c931fe8cf1730e6. Other three artifacts unchanged. Clarification preserves the mathematics and prevents claiming its closed examples satisfy literal uniqueness."
+        ],
+        "strongest_counterconstruction": {
+          "example": "T4 with d=2e for primitive decomposable null e in H2(T4;Z)",
+          "explanation": "The chosen-c1 criterion realizes this negative complex structure and the fixed-Spin extension gives H. Signature is zero, so some product-liftable reduction exists, but this specified d is not divisible6 and its H bundle does not lift. Thus48|signature is correctly an existential criterion, not a criterion for every reduction.",
+          "additional_control": "K3#12(S1\u00d7S3) has the quotient reduction but no product-liftable reduction because signature=-16. This does not falsify the source, which permits the quotient and the larger unitary alternative."
+        },
+        "scope_limits": [
+          "Smooth closed connected oriented spin Lorentz section, optional SU normal reduction, and freely chosen complex structures/volume for the existence assertion.",
+          "No product-lift extension over fullY, prescribed boundary/end data, or connection-preservation theorem.",
+          "No source requirement for a product lift or arbitrary independent gauge bundles; no physical instanton solution, current normalization, chirality/family count, or source/GU falsification.",
+          "Without total determinant cancellation, the U(3,2) alternative retains different positive-factor Chern freedom.",
+          "Wu, Furuta, Rokhlin, bundle classification and fixed-Spin extension remain written/inherited topology; finite arithmetic certificates do not prove them.",
+          "Strict2021 unique-Spin language is separate from the chosen-Spin theorem. Indeed chi=0 forces b1>=1 on a closed oriented four-base, so its existing Spin structures are not unique. Closedness is not source-required."
+        ],
+        "contributions": "Reviewer supplied the initial reconnaissance and split-Chern scratch derivation as advisory input. Root authored this report and its new existential48-divisibility theorem. This review independently checked the concrete final proof and controls; it is not an independent source-discovery attribution.",
+        "not_run": [
+          "native probe",
+          "certificate verifier",
+          "Lean compiler",
+          "tests",
+          "builds"
+        ],
+        "required_corrections": [],
+        "verification_attribution": {
+          "native": "Parent reports27 exact controls PASS; not executed by reviewer.",
+          "lean": "Parent reports9 finite lemmas compile PASS after correcting an environment-only Mathlib working-directory error; not compiled by reviewer."
+        }
+      },
+      {
+        "accepted": true,
+        "disposition": "ACCEPTED_SCOPED_GEOMETRIC_THEOREM",
+        "review_role": "independent T1 source and geometry specialist",
+        "reviewer": "/root/falsification_rerank",
+        "worktree": "/private/tmp/gu-normal-chern-wt-20261127",
+        "basis_revision": "cb77c122924f6615574011bffc99b81193ffe58a",
+        "artifact_hashes": {
+          "explorations/conditional-build/normal-sm-characteristic-constraints-2026-11-27.md": "231a6b559c3c4b4672ddbb6f3befb0275a094d4f4eaf9bd2a216cd3952fa9eb3",
+          "tests/program-focus/normal_sm_characteristic_probe.py": "ed61e7c32eceb44d7e37a91132b2b97f7cecab9185342dd39ef205516027683f",
+          "lab/process/normal-sm-characteristic-certificates.json": "35a7cfc395becaa2f47b884cdc92d9832f92aa86227ce2e2e82c07572f85fb06",
+          "Lean/GUFormalization/NormalSMCharacteristic.lean": "6789b838edfa70bfe502358244e2dd79e939cd107f37dc0bfa3443e664d6d6f0"
+        },
+        "authentication": {
+          "all_four_final_hashes_match": true,
+          "certificate_inherited_hash_mismatches": [],
+          "source_clarification_inverse_edit_sha256": "b49c222092641ca26feb0c2bbef5e45d4df2b791d73ea5819c931fe8cf1730e6",
+          "source_clarification_only_report_change": true,
+          "other_three_artifacts_unchanged": true
+        },
+        "source_findings": [
+          "SC-GRP-03,2021 draft p29 equation4.6 and adjacent text, supports the simultaneous compact/complex normal-reduction arena and permits the special-unitary branch. It also retains the larger U(3,2) alternative; SU selection is not silently made source-mandatory.",
+          "SC-META-50 records an active spin structure in the2025 discussion. The final report now explicitly distinguishes that from the stricter2021 p4 unique-spin wording; its closed examples are not asserted to satisfy the latter. This prevents the closed comparator class from being passed off as the literal2021 starting class.",
+          "Closedness, a global Lorentz section, a direct-product lift, a preserved connection and identification with the physical gauge bundle are additional declared conditions, not source-required consequences. The report preserves all of these limits.",
+          "The source full-unitary chimeric parent, optional normal SU branch, K77/K95 ambient distinction, independent bars and effective2+1 content are not replaced with conventional Higgs, chirality or family-count assumptions."
+        ],
+        "mathematical_checks": [
+          {
+            "topic": "All compatible reductions and non-time-oriented bases",
+            "finding": "The inherited negative-bundle identification Q=1 plus(L* tensor E*) gives a global trace section, so its Euler class vanishes. Pullback to the time-orientation double cover identifies p1(Q) with p1(TX); transfer leaves only2-torsion, absent in integral H4 of the closed connected oriented base. The proof does not incorrectly trivialize L downstairs. The inherited split theorem covers complex structures mixing an initially chosen positive/negative splitting."
+          },
+          {
+            "topic": "Integral split Chern relations",
+            "finding": "Realification gives c2(E2)=0 and d squared=p1(TX). The mod2 reduction of d is w2(Q)=0, so the coefficient exact sequence makes d twice an integral class including torsion. Additivity with p1(Sym2 T*X)=6p1(TX) gives p1(P)=5p and c2(E3)=-2p. Total determinant zero then gives c2(E3 direct-sum E2)=-3p. Cancellation of2 is justified only in the stated torsion-free H4; the report retains that boundary."
+          },
+          {
+            "topic": "Fixed-reduction lift",
+            "finding": "The inherited group map(A,B,z) maps to(z squared A,z to the minus3 B), with kernel mu6. A sixth root of det(E3) is necessary. It is sufficient by untwisting E3 and E2 with L0 to powers minus2 and plus3, with compatible determinant trivializations. This is an integral H2 criterion including torsion, not a characteristic-number-only criterion."
+          },
+          {
+            "topic": "Existence iff48 divides signature",
+            "finding": "Necessity follows from d=-6ell,3signature=36ell squared, and Rokhlin's16 divisibility. For signature48m not zero, the inherited closed-spin theorem supplies a hyperbolic plane without a simple-connectedness assumption. The class ell=e+2m f has square4m. Taking d=-6ell meets the prescribed first-Chern lift and rank4 obstruction equation. Integral H4 has no4-torsion, so the obstruction vanishes. The inherited S7 fixed-Spin extension preserves this chosen negative complex structure while selecting the positive structure and volume. Signature zero uses ell=0. No prescribed connection, end datum or all-Y product lift follows."
+          },
+          {
+            "topic": "Charges and strongest countercontrols",
+            "finding": "The tensor-line formula gives c2(W0)=-9ell squared and c2(C0)=-84ell squared, so geometric c2(E2)=0 does not eliminate an SU2 factor charge. K3#12(S1 times S3) has the quotient reduction but cannot have any product-liftable reduction. The T4 example with d=2e, e primitive null, has signature0 yet its specified reduction fails sixth-root divisibility; this correctly separates existence of some lift from lifting every fixed reduction. Noncompact and framed/relative instanton sectors remain outside."
+          },
+          {
+            "topic": "Unitary alternative",
+            "finding": "Without total determinant trivialization, b=c1(E3) is independent of the condition b=-d and only2c2(E3)=b squared-5p follows. The report correctly withholds the SU-derived relations and product-lift theorem from that alternative."
+          }
+        ],
+        "inherited_owners_inspected": [
+          "explorations/conditional-build/global-normal-complex-reduction-2026-11-24.md,sections1-3",
+          "explorations/conditional-build/normal-special-unitary-existence-2026-11-25.md,sections2-5",
+          "explorations/conditional-build/normal-sm-global-quotient-2026-11-27.md,sections1-4",
+          "explorations/conditional-build/closed-spin-normal-reduction-2026-11-27.md,proof and scope",
+          "explorations/conditional-build/native-rs-moving-section-index-2026-11-11.md,section6 symmetric-square root identity",
+          "lab/sources/source-claim-register.yaml,SC-GRP-03 and SC-META-50"
+        ],
+        "scope": {
+          "accepted": "Universal split characteristic constraints for the declared optional SU normal reductions; the integral fixed-reduction sixth-root criterion; existence of some product-liftable reduction iff48 divides signature, with free compatible complex structures and volume and prescribed total normal Spin lift.",
+          "not_claimed": [
+            "A source-required SU choice, closed topology or direct-product lift",
+            "A physical gauge-bundle/current identification or instanton solution",
+            "Any chirality, generation count, mass, coupling or physical energy result",
+            "A parallel reduction for a prescribed connection",
+            "A relative/end or full-Y product-lift theorem",
+            "GU falsification, class-C representativeness, a matrix-cell verdict or ledger-row promotion"
+          ],
+          "novelty": "New repository composition and exact scoped criterion; no new general topology theorem or world-novelty claim."
+        },
+        "required_corrections": [],
+        "resolved_review_request": "The report now explicitly retains the stronger2021 unique-spin source clause and states that the closed examples need not meet it.",
+        "verification_attribution": {
+          "reviewer_executed_tests_or_builds": false,
+          "reviewer_actions": "Read concrete report/probe/certificate/Lean and inherited owners; reasoned through the topology and scope; parsed JSON and authenticated hashes only.",
+          "parent_reported_native": "27 exact controls PASS",
+          "parent_reported_lean": "Nine finite lemmas compiled PASS after correcting the working directory; initial wrong-directory Mathlib resolution failure caused no code change.",
+          "ceiling": "Probe and Lean certify finite polynomial/divisibility arithmetic only. They do not formalize Wu, Rokhlin, Furuta, lattice classification, bundle existence or source/physical applicability."
+        }
+      },
+      {
+        "accepted": true,
+        "disposition": "ACCEPT at the stated conditional geometric T1 scope",
+        "blocking_findings": [],
+        "weakest_seam": "Physical gauge-bundle identification and source necessity of closedness/product lifting remain unproved. Moreover every closed oriented Lorentz4 base has chi=0 and b1>=1, so a spin base in this class has multiple Spin structures. Thus the entire class is incompatible with a strictly literal unique-Spin requirement; the report uses a chosen active Spin structure and expressly does not assert that stronger source-clause compatibility.",
+        "qualifications": [
+          "Read complete report/probe/Lean/certificate and relevant inherited constructions. Verified four hashes and all five certificate dependency hashes. No tests/builds or owner edits were run. This is mathematical review, not a second execution or complete enclosing-run acceptance.",
+          "The native negative trace line gives e(Q)=c2(E2)=0 without time orientation. Transfer from the time-orientation double cover kills the line-twist difference p1(Q)-p1(TX) by2; H4(X;Z)=Z removes it. The inherited w2(Q)=0 and integral coefficient exact sequence give d=2a including torsion.",
+          "Native p1(Sym2 T*X)=6p and p1(Q)=p give p1(P)=5p. Realification and determinant cancellation yield d\u00b2=p, c2(E3)=-2p and c2(total)=-3p. Division uses torsion-free degree4 on the closed section only; no integral extension over all Y is inferred.",
+          "Chosen-c1 Wu sufficiency is valid: the chosen integral d lifting w2(Q) supplies first-stage Spin^c data; its rank-four obstruction satisfies4o4=p1(Q)-d\u00b2+2e(Q). Since H4=Z and that expression vanishes, a compatible JQ with exactly this d exists. The inherited S7 extension preserves JQ and the prescribed total normal Spin lift while changing JP and volume.",
+          "The sixth-root condition is sufficient for the SPECIFIED H bundle, not just its characteristic numbers. A root isomorphism L0^6=det(E3), together with the H volume, gives compatible trivializations of det(E3 tensor L0^-2) and det(E2 tensor L0^3). The product frame bundle then covers that H bundle. No residual determinant phase or Spin mismatch remains.",
+          "Necessity combines signature divisible12 from3signature=36ell\u00b2 with Rokhlin16 to get48. Sufficiency uses ell=e+2m f with square4m when signature48m and d=-6ell; m0 uses ell=d0. Integral lifts precede all doubling and sixth-root claims. This tests SOME reduction, whereas fixed reductions retain their exact integral determinant test.",
+          "Line twisting gives c2(W0)=-9ell\u00b2 and c2(C0)=-84ell\u00b2, and trace-free classes -p/4 and -7p/3 agree. Geometric c2(E2)=0 is not the second class of its untwisted SU2 factor. No physical instanton or family normalization follows.",
+          "K3 and triple-K3 connected sums have the stated Euler/signature data. T4 with primitive-null d=2e is realizable by the chosen-c1 argument but has no sixth root despite signature0. The abstract SU2 c2=1 control tests identification with E2 only. Pure torsion remains governed by the integral root condition, not by a sampled numerical residue test.",
+          "The27 polynomial/arithmetic controls and nine Lean statements are finite checks only. They do not establish Wu, bundle classification, fixed-Spin lifting, Furuta/Rokhlin or source applicability. No missed counterexample satisfying the mathematical hypotheses was found.",
+          "The optional U(3,2) branch correctly retains b independent of d and only2c2(E3)=b\u00b2-5p. Source physical realization, actual connection/instanton equations, global-Y product lift and relative/end extensions remain outside. Source2+1, fullU and real-form distinctions are preserved.",
+          "The report changed during review only by adding the unique-spin-source caveat. That updated paragraph was reread and accepted; hashes below bind this reviewed revision."
+        ],
+        "report_sha256": "231a6b559c3c4b4672ddbb6f3befb0275a094d4f4eaf9bd2a216cd3952fa9eb3",
+        "probe_sha256": "ed61e7c32eceb44d7e37a91132b2b97f7cecab9185342dd39ef205516027683f",
+        "certificate_sha256": "35a7cfc395becaa2f47b884cdc92d9832f92aa86227ce2e2e82c07572f85fb06",
+        "lean_sha256": "6789b838edfa70bfe502358244e2dd79e939cd107f37dc0bfa3443e664d6d6f0"
+      }
+    ],
+    "gates": {
+      "program_focus_audit": "PASS",
+      "typed_carrier_declaration_audit": "PASS",
+      "kill_target_claim_audit": "PASS",
+      "frontmatter_status_schema_audit": "PASS",
+      "source_native_comparator_routing_audit": "PASS",
+      "lean_certificate_surface_audit": "PASS",
+      "current_state_absolute_currency_audit": "PASS",
+      "conditional_evidence_delta_gate": "PASS",
+      "research_context_reader_audit": "PASS"
+    },
+    "artifact_hashes": {
+      "explorations/conditional-build/normal-sm-characteristic-constraints-2026-11-27.md": "231a6b559c3c4b4672ddbb6f3befb0275a094d4f4eaf9bd2a216cd3952fa9eb3",
+      "tests/program-focus/normal_sm_characteristic_probe.py": "ed61e7c32eceb44d7e37a91132b2b97f7cecab9185342dd39ef205516027683f",
+      "lab/process/normal-sm-characteristic-certificates.json": "35a7cfc395becaa2f47b884cdc92d9832f92aa86227ce2e2e82c07572f85fb06",
+      "Lean/GUFormalization/NormalSMCharacteristic.lean": "6789b838edfa70bfe502358244e2dd79e939cd107f37dc0bfa3443e664d6d6f0"
+    },
+    "dependencies": {
+      "explorations/conditional-build/global-normal-complex-reduction-2026-11-24.md": "11f5ad826c71028850bdf3cf87d3f40f8751b600491caaa940f31a0e6cc8f3ff",
+      "explorations/conditional-build/normal-special-unitary-existence-2026-11-25.md": "9321d71effe1a41b0c5d1ba58b7167948b23aa43a3921c0b870d151b2e5690b5",
+      "explorations/conditional-build/normal-sm-global-quotient-2026-11-27.md": "2a92c7b7307f69f8e80e2a87e364e07731c6ff2c086a320a22880d437b0fb009",
+      "explorations/conditional-build/closed-spin-normal-reduction-2026-11-27.md": "54f103e4b85df3f927743c418ec1d8691bb409bd6b12e0bcacff646a34959975",
+      "explorations/conditional-build/native-rs-moving-section-index-2026-11-11.md": "f061c893a002a3bdbea68616e8143a771aaa3c7ebe69ca04a8ec754ca570dbbf"
+    },
+    "no_world_novelty_claim": true,
+    "literature": [
+      {
+        "ref": "https://arxiv.org/abs/1705.01853",
+        "use": "Standard quotient-group distinction only; no GU physical transfer."
+      }
+    ]
+  },
+  "follow_through": {
+    "consumed": [
+      "Unrestricted independent rank3/rank2 Chern sampling within this geometric optionalSU branch",
+      "Identifying quotient existence with direct-product-lift existence",
+      "Concluding weakSU instanton class zero merely from c2(E2)=0"
+    ],
+    "survivors": [
+      "Every closed spin Lorentz quotient reduction remains possible under free-data theorem",
+      "Source-admitted U(3,2) alternative",
+      "Fixed-J/connection and relative/end structures",
+      "Physical gauge-bundle mapping and actual instanton solutions"
+    ],
+    "next": "LC cadence is due at count103: use the unchanged greatest-time-left rule and compare the eligible bet discriminators. For this geometry reuse the integral Chern/lift criterion only on a supplied bundle; physical gauge identification, prescribed connection, relative/end sectors and global-Y lift remain distinct. No more independent charge sampling or absolute-existence replays."
+  },
+  "accounting": {
+    "counter_before": 102,
+    "counter_after": 103,
+    "LB_LADDER_before": 17,
+    "LB_LADDER_after": 18,
+    "bet_credit": 0,
+    "cell_or_ledger_verdict_changes": 0
+  },
+  "effect_line": "Change: native geometric gauge-bundle topologies now have a reusable exact filter; why: split realification and determinant lift; authority: Joe27(c,f,h); applied internalT1 evidence, ledger attachment pending; later physical effect not established. No governance change."
+}

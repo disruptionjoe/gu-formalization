@@ -3045,5 +3045,23 @@
     ],
     "remaining": "Zero-preserving local recovery between these two held equation systems is now excluded in both directions. Further coefficients or kappa1 searches are unnecessary for that implication. Source-selected different equations/dictionaries, supplied physical domains and actual observed current/constraint data remain distinct; no new physical selector is introduced.",
     "paper_track": "No novelty/release claim; finite implicit theorem and exact consequence."
+  },
+  "normal_characteristic_constraints_2026_11_27": {
+    "evidence": [
+      "explorations/conditional-build/normal-sm-characteristic-constraints-2026-11-27.md",
+      "lab/process/normal-sm-characteristic-constraints.json"
+    ],
+    "actual_delta": "Every optional geometric normal SU reduction on the closed spin Lorentz section obeys c2(E2)=0, c1(E2)^2=p1(TX), c2(E3)=-2p1(TX). A specified H reduction lifts to SU3xSU2xU1 iff its determinant has an integral sixth root; some liftable reduction exists iff signature is divisible48. Quotient existence survives.",
+    "source_bridge": {
+      "status": "conditional",
+      "reason": "SC-GRP03 permits optional SU normal intersection. Closedness, direct-product lift and physical gauge identification are not source-required; the full U alternative remains."
+    },
+    "consumed": [
+      "Unrestricted independent rank3/rank2 Chern sampling within this geometric optionalSU branch",
+      "Identifying quotient existence with direct-product-lift existence",
+      "Concluding weakSU instanton class zero merely from c2(E2)=0"
+    ],
+    "remaining": "LC cadence is due at count103: use the unchanged greatest-time-left rule and compare the eligible bet discriminators. For this geometry reuse the integral Chern/lift criterion only on a supplied bundle; physical gauge identification, prescribed connection, relative/end sectors and global-Y lift remain distinct. No more independent charge sampling or absolute-existence replays.",
+    "paper_track": "Scoped application of standard topology; no world novelty or publication claim."
   }
 }

@@ -16,6 +16,10 @@ Do not add "Current follow-through" sections or "Historical predecessor" stacks 
 matrix or bet file. The retired follow-through chain and banner stack are kept at the end of this file under
 "Archived steering history".
 
+## 2026-11-27 — Normal geometric gauge-bundle characteristic constraints
+
+[Result](explorations/conditional-build/normal-sm-characteristic-constraints-2026-11-27.md) · [Evidence](lab/process/normal-sm-characteristic-constraints.json). Every optional normalSU reduction on a closed spin Lorentz section has c2(E2)=0, c1(E2)²=p1TX and c2(E3)=-2p1TX. Some reduction lifts from the SM quotient to SU3xSU2xU1 exactly when signature is divisible48; a specified reduction needs its integral determinant sixth root. This is geometry, not a physical instanton or generation prediction. The quotient remains possible.27 exact algebra controls,9 finite Lean lemmas and three independent reviews passed; topology is written/reviewed. Source, classC and ledger verdicts unchanged; choice budget10/4/net6/0.
+
 ## 2026-11-27 — Printed endpoint branch and reverse equation recovery
 
 [Result](explorations/conditional-build/printed-endpoint-analytic-branch-2026-11-27.md) · [Evidence](lab/process/printed-endpoint-analytic-branch.json). The actual printed-endpoint invariant branch has W2 connection Euler receiver -183h³/8+O(h⁴). Together with the earlier forward witnesses, neither local zero locus contains the other in the held dictionary. The separate reconstructed ambient/observed coderivatives remain nonzero on these printed solutions. Full216 closure and analytic transport are written proofs;59 exact controls,6 finite Lean lemmas and three independent reviews passed. This is not a complete source variational or physical solution and gives no source/ledger verdict. Choice budget remains10/4/net6/0.
