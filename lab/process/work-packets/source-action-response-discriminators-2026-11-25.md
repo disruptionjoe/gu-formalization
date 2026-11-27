@@ -283,3 +283,16 @@ Directed count67to68/LBCLASS26to27; ordinary pendingLC and program_focus unchang
 Mandatory basis: Joe directed continuation. Class coverage complete within named finite tensor/operator grammar; source relevance direct for involution and grade1 carrier, conditional for physical conclusions. Shared prerequisite remains source physical operator/readout. Remaining candidate cost is sparse spin4/cokernel evaluation; strongest source-facing alternative needs authentic missing inputs. Old source-attributed optionalC exclusion cannot rank as a source falsifier.
 
 Directed68to69/LBCLASS27to28; choices10/4/net6 and0 source-selected predictions unchanged. No governance, schedule, source/physics/canon/classC verdict or paper effect. No new stop rule.
+
+
+## Current continuation: reached spin4 compatibility (2026-11-26)
+
+[Result](../../../explorations/conditional-build/source-action-spin4-compatibility-2026-11-26.md) · [evidence and quick20](../source-action-spin4-compatibility.json). Supersedes the previous ready spin4 item for the two displayed sources; preserves its candidate/source boundary.
+
+- **Done:** both native sources have preimages at both certified roots, with282-dimensional exact all59-family receiver closure. This necessary condition survived.
+- **Ready — LB-CLASS/T2:** test the two horizontal Nomizu spin4 representatives in E4 and the same sources spin5 remainder in E5, then census the actual first-jet source maps modulo certified E4/E5/N6/N7. Expected delta: exact covered family or first uncoveredsource. Kill only on true native cokernel incompatibility; outside an envelope is not nonexistence. No automatic lower-block inversion.
+- **Blocked physical bridge:** authentic common domain/quotient, normalized readout and propagation remain missing; no completion is invented.
+
+Mandatory basis: Joe continued falsification direction. Scope: held W2/K95 candidate and actual generated source family; source necessity absent. Shared prerequisite affects physical interpretation, not this finite test. Remaining cost is exact source projection/spanning/membership; strongest source-facing alternative is physical weak response with named missing inputs.
+
+Optimization at Joe request: resumable exactclosure, reusable integercubic/factoredP, exactbigint Neumannreplay, authenticated dataunpack, cheapstatus and native benchmark; acceptance conditions unchanged. Directed69to70/LBCLASS28to29; choices10/4/net6 and0 source-selected predictions unchanged. No governance, schedule, scientific verdict or paper effect.

@@ -1348,7 +1348,7 @@
       "selection_note": "Candidate construction/diagnostic only unless its stated structural family and source bridge satisfy current program_focus. A reserve is not scheduled work."
     }
   ],
-  "priority_effect": "Directed continuation uses primary_adjoint_spinless_2026_11_26. Plus comparator no longer misidentified as source; primitive spinless placement consumed. FullRspin4/cokernel remains executable; physical readout requires authentic input. Ordinary cadence/governance unchanged.",
+  "priority_effect": "Current directed continuation uses spin4_compatibility_2026_11_26: two exact spin4sources solved; test horizontalNomizu spin4 and actualspin5 membership/firstjetsourcequotient before any inverse growth. Physical readout requires authentic inputs. Ordinary cadence/governance unchanged.",
   "evidence": [
     "explorations/conditional-build/source-action-engineering-wave-2026-11-25.md",
     "lab/process/source-action-engineering-wave.json",
@@ -1823,5 +1823,40 @@
       }
     ],
     "math_reassessment": "lab/process/source-adjoint-spinless-placement.json#math_reassessment"
+  },
+  "spin4_compatibility_2026_11_26": {
+    "report": "explorations/conditional-build/source-action-spin4-compatibility-2026-11-26.md",
+    "evidence": "lab/process/source-action-spin4-compatibility.json",
+    "actual_delta": "Both actual reached spin4 sources have native auxiliary preimages throughout both certified kappa1 root boxes, in an exact282-dimensional envelope invariant under all59 background maps. This candidate necessary condition survives; GU is not falsified.",
+    "consumed": [
+      "full_range_auxiliary_spin4 for two reachedsources"
+    ],
+    "next_directed_worksets": [
+      {
+        "id": "actual_first_jet_source_quotient",
+        "status": "ready",
+        "target": "LB-CLASS",
+        "tier": "T2",
+        "task": "First test the two horizontal Nomizu spin4 sources in existing E4 alongside the same reached sources spin5 remainder in E5; then census actual first-jet source maps modulo E4/E5/N6/N7, proving representative spanning before completeness.",
+        "expected_delta": "Close the actual generated first-jet necessary-condition family or identify the first uncovered native source before any new inverse.",
+        "class_covered": "Held W2/K95 two roots, two Q7 input modules and actual induced connection/principal slots; not fullR or classC.",
+        "source_bridge": "Candidate-only; source necessity and physical admission unproved.",
+        "remaining_cost": "Exact source projection/ladder normalization and membership reuse; no automatic lower-block inversion.",
+        "kill_condition": "Only a genuine native adjoint-cokernel pairing excludes the specified realization; a nonzero quotient means uncovered, not impossible."
+      },
+      {
+        "id": "physical_weak_readout",
+        "status": "blocked_on_authentic_admission_and_normalization",
+        "target": "LB-CLASS",
+        "tier": "T2",
+        "task": "Transport the local constrained response to a source-admitted physical observable",
+        "expected_delta": "Actual observable consequence rather than unnormalized local coefficient",
+        "revival_input": "Authenticated common physical domain/quotient, normalized readout and propagation law",
+        "kill_condition": "OldA01 transfer remains inapplicable; inventing a new norm, cutoff or physical completion is not an answer"
+      }
+    ],
+    "math_reassessment": "lab/process/source-action-spin4-compatibility.json#math_reassessment",
+    "optimization_effect": "Exact integer2PN and frozeninverse replay, no changed acceptance rule",
+    "source_census_scaffold": "Proposed tensorial connection-rank lemma may reduce spin4 to4 reduced seeds:2 normalboost consumed,2 horizontalNomizu untested. Full induced carrier and adapted-frame checks remain required."
   }
 }

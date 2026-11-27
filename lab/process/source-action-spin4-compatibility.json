@@ -1,0 +1,891 @@
+{
+  "artifact": "source-action-spin4-compatibility-2026-11-26",
+  "date": "2026-11-26",
+  "authority": "joe_direct_chat_2026_11_26_continued_falsification_math20_and_optimization",
+  "basis_revision": "3e8fa792e93e8a58e804364c842080a7e6c72810",
+  "status": "internally_reviewed_T2",
+  "actual_delta": "Both actual reached spin4 sources have native auxiliary preimages throughout both certified kappa1 root boxes, in an exact282-dimensional envelope invariant under all59 background maps. This candidate necessary condition survives; GU is not falsified.",
+  "claim_effect": "No source/physics/canon/classC/scientific-matrix/paper verdict change",
+  "choice_budget_delta": 0,
+  "scope": {
+    "operator": "Held W2/K95 M=P(I+2N(T))P on nativeN=kerKdt",
+    "family": "All59 affine background coefficient maps preserve exact282-dimensional E4; inverse over two owned stationary root boxes",
+    "sources": "Two actual highest4 L4 seeds generated from Q7 indices5,12 via boostH03 and normalaxis5; not all fullR sources"
+  },
+  "closure": {
+    "dimension": 282,
+    "maps": 59,
+    "full_native_image_reductions": 16638,
+    "all_complete": true,
+    "source_membership": "Both exact native sources reduce in E4",
+    "legacy_crosscheck": "Firstcolumn all59 maps identical to original native exact engine"
+  },
+  "root_certificates": [
+    {
+      "root": 0,
+      "neumann_bound": "1476370799969516011515615517705231312287837114749286579283322612289400106888086467974586486928937426405337457/1059595092773406564226113089830341573679326932000583406216898437500000000000000000000000000000000000000000000000000",
+      "neumann_bound_approx": 1.3933348786140863e-06,
+      "invertible_on_block_over_rootball": true,
+      "sources": [
+        {
+          "index": 0,
+          "coefficient_error_inf": "501113343045352035064851019421105526723954773942222825430469601002541665486493213732272263486713411621023551071893825412325911189137/493645967171096719417882615751847355182839763633804221346360453004994745173597261550304331839707266047975462925137680000000000000000000000000",
+          "center_residual_inf": "766149478043408759319292660366489227647783197/438539062500000000000000000000000000000000000000000000000000",
+          "preconditioned_center_residual_inf": "385507320905987633343619271714681708495253620290125913554966507349531/310078125000000000000000000000000000000000000000000000000000000000000000000000000000",
+          "rootball_preconditioned_source_error": "2726053247472852218126247208447290584321697451118873911223477597809282787950295643728310097956883431255889589844302964475614801541/2685437803124921596374661014866017684332886176462278584716107400000000000000000000000000000000000000000000000000000000000000000000000000000",
+          "coordinates_denominator": "15840000000000000000000000000"
+        },
+        {
+          "index": 1,
+          "coefficient_error_inf": "278285334001516626847411949100751819637455958784095389508910004180812423326064603720620145132394676055765057507846627536692866158293/139866357365144070501733407796356750635137933029577862714802128351415177799185890772586227354583725380259714495455676000000000000000000000000",
+          "center_residual_inf": "37595972824945907365389409480622878419616171/93972656250000000000000000000000000000000000000000000000000",
+          "preconditioned_center_residual_inf": "447658613437357044148524502596297815654461354186250847120901889730449/5920277343750000000000000000000000000000000000000000000000000000000000000000000000000",
+          "rootball_preconditioned_source_error": "32720202636752720092905414984278727422952289676445657130175474720625128429933329846854837338161162047739033169823935225223198229/16445214843749519868059603510594366575622710761208349161743750000000000000000000000000000000000000000000000000000000000000000000000000000",
+          "coordinates_denominator": "3960000000000000000000000000"
+        }
+      ]
+    },
+    {
+      "root": 1,
+      "neumann_bound": "286535294153067128620178435110409967741354012046893579876404260513148953492717698296138817255225357859/18083756249999229082736288897062269371383591830725215431075000000000000000000000000000000000000000000000000",
+      "neumann_bound_approx": 1.584489915656098e-05,
+      "invertible_on_block_over_rootball": true,
+      "sources": [
+        {
+          "index": 0,
+          "coefficient_error_inf": "1288057148092713460433756758641267925188612134155513391576035955689164918984511298254818534257567493918510645959098722134005583/111891468859737657846572450196505546073760574824662730325751077248638074890850263809241792641068233293098247437500000000000000000000000",
+          "center_residual_inf": "3567733715965451065442009459979671856847/9397265625000000000000000000000000000000000000000000000",
+          "preconditioned_center_residual_inf": "8618799614565945732966910879626374903910046492023894742881699361603/16576776562500000000000000000000000000000000000000000000000000000000000000000000000",
+          "rootball_preconditioned_source_error": "2576114179831632124232206327834035770989107101010237344324097112375471895775563162714480900333998269801959736344348713834207/223786483593740459898861575101145583470871948905224540959553125000000000000000000000000000000000000000000000000000000000000000000000",
+          "coordinates_denominator": "15840000000000000000000000000"
+        },
+        {
+          "index": 1,
+          "coefficient_error_inf": "108194808293152405270254954676268312445380228158885415242997942178784709053867194900096572017005289690794904901868774698324520809/2797286721493441446164311254912638651844014370616568258143776931215951872271256595231044816026705832327456185937500000000000000000000000",
+          "center_residual_inf": "221478896895093451304422284456687041166511/613954687500000000000000000000000000000000000000000000000",
+          "preconditioned_center_residual_inf": "179834146923602185243957386992229098506463217418136320591231857865769/414419414062500000000000000000000000000000000000000000000000000000000000000000000000",
+          "rootball_preconditioned_source_error": "540974035396359567679959762284966865927878314017358757361694647121131178462032216834660817002226724165109284389127314166731/13986655224608778743678848443821598966929496806576533809972070312500000000000000000000000000000000000000000000000000000000000000000",
+          "coordinates_denominator": "3960000000000000000000000000"
+        }
+      ]
+    }
+  ],
+  "basis_validation": {
+    "scope": "Executed exact native equations on every receiver basis vector; no full-spin4 completeness claim.",
+    "dimension": 282,
+    "native_equation_checks": 1128,
+    "echelon_pivots_independent": true,
+    "Kdt_zero": true,
+    "weight4": true,
+    "raising_zero": true,
+    "Casimir20": true,
+    "complete": true,
+    "seconds": 20.657064042054117,
+    "bindings": {
+      "basis_sha256": "03b5cc1fa86704891f071f2562ec85929815ca4471db8163c57136d216c10214",
+      "native_inputs": {
+        "tests/program-focus/source_action_deep_algebra.py": "4e3800131049e2b397bbce6106bfc5766d2f5fbf996319c50942f3b805d65598",
+        "tests/program-focus/source_action_deep_geometry.py": "7cdfe5f7609300c1ab4fb482f309cfafa52d0aa66cf353ef8b1f9c8be07e52df",
+        "tests/program-focus/source_action_paired_response_probe.py": "72f131477d041c19293a7e191fd099fbe637597e685ac1d84dfe76db8beb8655",
+        "tests/program-focus/source_action_metric_symbol_probe.py": "eccac86c829c48848a4db9ab49d0313601bc3b19aca9a1fc6635520f489254ef",
+        "tests/program-focus/source_action_physical_probe.py": "b0a4b49f18fd6de13f45fc342d00a9e98fdb88cbf479155fd6d1b296c4662c25",
+        "tests/program-focus/source_action_slice_completion_probe.py": "9992fc60da913e8df8507f0dd393299c3d477ed43505af46757fc13575a1e12d",
+        "tests/program-focus/source_action_reduced_evolution_probe.py": "2279acba19fe23ba3cbc77106ef8137fb72c4e758bdf45b1ee3ffe259a617426",
+        "tests/program-focus/source_action_kappa1_constraints_probe.py": "a2387601309af9aff79618e7d8758caf6a38b4b2e3d73849035898f50fffed85",
+        "tests/program-focus/source_action_coupled_ghost_probe.py": "a1730f0dc970e6fdf8e51d90bd789a5b5acf29f7a22b3626b27825ac1daa7160",
+        "lab/process/source-action-kappa1-constraints.json": "5d3401666f8072dd225924e0cc9073c16c7d6c59efd0b4b941e1fcce7ce29233",
+        "lab/process/source-action-reduced-evolution.json": "d299647a410d660a2b01f9612e1ab271368f7a4b3244c91655793aa5ed7e1945"
+      },
+      "native_weak_probe_sha256": "60cf6ae0f16ee6fc4233d49e4bec31753c22bdc2c1d2497c3d76b6d7c1f4e89f",
+      "native_seed_context_sha256": "9d064679ad3d087a7768ea3cfe2ddf0e39feb4d4f327f94ec0ec0d729cbd81db",
+      "validator_procedure_sha256": "e8ac80b2aff4dab72916dfdcba8b98c92aea422cc9dfedaee900f652999c804d"
+    }
+  },
+  "arithmetic_controls": {
+    "scope": "Exact arithmetic/structural controls, no physical or root verdict.",
+    "integer_cubic": {
+      "scope": "Exact finite engine-equivalence controls, not closure/root solvability. Algebraic scaling proof supplies all-input equivalence.",
+      "checks": 161,
+      "all_passed": true,
+      "seconds": 0.11850829189643264,
+      "scales": {
+        "L": 48,
+        "Dphi": 4608,
+        "Dadj": 96,
+        "N_denominator_factor": 27648
+      },
+      "labels": [
+        "Phi_adj axis0 grade0",
+        "Phi_adj axis0 grade1",
+        "Phi_adj axis0 grade2",
+        "Phi_adj axis0 grade3",
+        "Phi_adj axis0 grade4",
+        "Phi_adj axis0 grade5",
+        "Phi_adj axis0 grade6",
+        "Phi_adj axis0 grade7",
+        "Phi_adj axis0 grade8",
+        "Phi_adj axis0 grade9",
+        "Phi_adj axis0 grade10",
+        "Phi_adj axis0 grade11",
+        "Phi_adj axis0 grade12",
+        "Phi_adj axis0 grade13",
+        "Phi_adj axis0 grade14",
+        "Phi_adj axis3 grade0",
+        "Phi_adj axis3 grade1",
+        "Phi_adj axis3 grade2",
+        "Phi_adj axis3 grade3",
+        "Phi_adj axis3 grade4",
+        "Phi_adj axis3 grade5",
+        "Phi_adj axis3 grade6",
+        "Phi_adj axis3 grade7",
+        "Phi_adj axis3 grade8",
+        "Phi_adj axis3 grade9",
+        "Phi_adj axis3 grade10",
+        "Phi_adj axis3 grade11",
+        "Phi_adj axis3 grade12",
+        "Phi_adj axis3 grade13",
+        "Phi_adj axis3 grade14",
+        "Phi_adj axis13 grade0",
+        "Phi_adj axis13 grade1",
+        "Phi_adj axis13 grade2",
+        "Phi_adj axis13 grade3",
+        "Phi_adj axis13 grade4",
+        "Phi_adj axis13 grade5",
+        "Phi_adj axis13 grade6",
+        "Phi_adj axis13 grade7",
+        "Phi_adj axis13 grade8",
+        "Phi_adj axis13 grade9",
+        "Phi_adj axis13 grade10",
+        "Phi_adj axis13 grade11",
+        "Phi_adj axis13 grade12",
+        "Phi_adj axis13 grade13",
+        "Phi_adj axis13 grade14",
+        "Phi_adj allaxis0",
+        "Phi_adj allaxis1",
+        "Phi_adj allaxis2",
+        "Phi_adj allaxis3",
+        "Phi_adj allaxis4",
+        "Phi_adj allaxis5",
+        "Phi_adj allaxis6",
+        "Phi_adj allaxis7",
+        "Phi_adj allaxis8",
+        "Phi_adj allaxis9",
+        "Phi_adj allaxis10",
+        "Phi_adj allaxis11",
+        "Phi_adj allaxis12",
+        "Phi_adj allaxis13",
+        "Phi pair0,1 grade0",
+        "Phi pair0,1 grade1",
+        "Phi pair0,1 grade2",
+        "Phi pair0,1 grade3",
+        "Phi pair0,1 grade4",
+        "Phi pair0,1 grade5",
+        "Phi pair0,1 grade6",
+        "Phi pair0,1 grade7",
+        "Phi pair0,1 grade8",
+        "Phi pair0,1 grade9",
+        "Phi pair0,1 grade10",
+        "Phi pair0,1 grade11",
+        "Phi pair0,1 grade12",
+        "Phi pair0,1 grade13",
+        "Phi pair0,1 grade14",
+        "Phi pair0,3 grade0",
+        "Phi pair0,3 grade1",
+        "Phi pair0,3 grade2",
+        "Phi pair0,3 grade3",
+        "Phi pair0,3 grade4",
+        "Phi pair0,3 grade5",
+        "Phi pair0,3 grade6",
+        "Phi pair0,3 grade7",
+        "Phi pair0,3 grade8",
+        "Phi pair0,3 grade9",
+        "Phi pair0,3 grade10",
+        "Phi pair0,3 grade11",
+        "Phi pair0,3 grade12",
+        "Phi pair0,3 grade13",
+        "Phi pair0,3 grade14",
+        "Phi pair3,4 grade0",
+        "Phi pair3,4 grade1",
+        "Phi pair3,4 grade2",
+        "Phi pair3,4 grade3",
+        "Phi pair3,4 grade4",
+        "Phi pair3,4 grade5",
+        "Phi pair3,4 grade6",
+        "Phi pair3,4 grade7",
+        "Phi pair3,4 grade8",
+        "Phi pair3,4 grade9",
+        "Phi pair3,4 grade10",
+        "Phi pair3,4 grade11",
+        "Phi pair3,4 grade12",
+        "Phi pair3,4 grade13",
+        "Phi pair3,4 grade14",
+        "Phi pair5,8 grade0",
+        "Phi pair5,8 grade1",
+        "Phi pair5,8 grade2",
+        "Phi pair5,8 grade3",
+        "Phi pair5,8 grade4",
+        "Phi pair5,8 grade5",
+        "Phi pair5,8 grade6",
+        "Phi pair5,8 grade7",
+        "Phi pair5,8 grade8",
+        "Phi pair5,8 grade9",
+        "Phi pair5,8 grade10",
+        "Phi pair5,8 grade11",
+        "Phi pair5,8 grade12",
+        "Phi pair5,8 grade13",
+        "Phi pair5,8 grade14",
+        "Phi pair10,13 grade0",
+        "Phi pair10,13 grade1",
+        "Phi pair10,13 grade2",
+        "Phi pair10,13 grade3",
+        "Phi pair10,13 grade4",
+        "Phi pair10,13 grade5",
+        "Phi pair10,13 grade6",
+        "Phi pair10,13 grade7",
+        "Phi pair10,13 grade8",
+        "Phi pair10,13 grade9",
+        "Phi pair10,13 grade10",
+        "Phi pair10,13 grade11",
+        "Phi pair10,13 grade12",
+        "Phi pair10,13 grade13",
+        "Phi pair10,13 grade14",
+        "N Gaussian-rational0",
+        "N symmetry0",
+        "wadj Gaussian-rational0",
+        "N Gaussian-rational1",
+        "N symmetry1",
+        "wadj Gaussian-rational1",
+        "N Gaussian-rational2",
+        "N symmetry2",
+        "wadj Gaussian-rational2",
+        "N Gaussian-rational3",
+        "N symmetry3",
+        "wadj Gaussian-rational3",
+        "N Gaussian-rational4",
+        "N symmetry4",
+        "wadj Gaussian-rational4",
+        "N Gaussian-rational5",
+        "N symmetry5",
+        "wadj Gaussian-rational5",
+        "N Gaussian-rational6",
+        "N symmetry6",
+        "wadj Gaussian-rational6",
+        "N Gaussian-rational7",
+        "N symmetry7",
+        "wadj Gaussian-rational7",
+        "N exact complex scaling",
+        "N exact addition",
+        "N zero input"
+      ],
+      "bindings": {
+        "integer_engine_sha256": "e78ec1956858f8d6fd8868e84a622a2f31131452e6a1259a04f6f82a169857a8",
+        "native_weak_probe_sha256": "60cf6ae0f16ee6fc4233d49e4bec31753c22bdc2c1d2497c3d76b6d7c1f4e89f",
+        "native_algebra_sha256": "4e3800131049e2b397bbce6106bfc5766d2f5fbf996319c50942f3b805d65598"
+      }
+    },
+    "integer_projection": {
+      "scope": "Exact factor arithmetic and finite native projection agreement. Not a receiver/root certificate.",
+      "checks": 190,
+      "all_passed": true,
+      "seconds": 0.18835458299145103,
+      "labels": [
+        "native unit r0 col0",
+        "timekernel r0 col0",
+        "native unit r0 col1",
+        "timekernel r0 col1",
+        "native unit r0 col2",
+        "timekernel r0 col2",
+        "native unit r0 col3",
+        "timekernel r0 col3",
+        "native unit r0 col4",
+        "timekernel r0 col4",
+        "native unit r0 col5",
+        "timekernel r0 col5",
+        "native unit r0 col6",
+        "timekernel r0 col6",
+        "native unit r0 col7",
+        "timekernel r0 col7",
+        "native unit r0 col8",
+        "timekernel r0 col8",
+        "native unit r0 col9",
+        "timekernel r0 col9",
+        "native unit r0 col10",
+        "timekernel r0 col10",
+        "native unit r0 col11",
+        "timekernel r0 col11",
+        "native unit r0 col12",
+        "timekernel r0 col12",
+        "native unit r0 col13",
+        "timekernel r0 col13",
+        "native unit r0 col14",
+        "timekernel r0 col14",
+        "native unit r0 col15",
+        "timekernel r0 col15",
+        "native unit r0 col16",
+        "timekernel r0 col16",
+        "native unit r0 col17",
+        "timekernel r0 col17",
+        "native unit r0 col18",
+        "timekernel r0 col18",
+        "native unit r0 col19",
+        "timekernel r0 col19",
+        "native unit r0 col20",
+        "timekernel r0 col20",
+        "native unit r0 col21",
+        "timekernel r0 col21",
+        "native unit r0 col22",
+        "timekernel r0 col22",
+        "native unit r0 col23",
+        "timekernel r0 col23",
+        "native unit r0 col24",
+        "timekernel r0 col24",
+        "native unit r0 col25",
+        "timekernel r0 col25",
+        "native unit r0 col26",
+        "timekernel r0 col26",
+        "native unit r0 col27",
+        "timekernel r0 col27",
+        "native unit r7 col0",
+        "timekernel r7 col0",
+        "native unit r7 col1",
+        "timekernel r7 col1",
+        "native unit r7 col2",
+        "timekernel r7 col2",
+        "native unit r7 col3",
+        "timekernel r7 col3",
+        "native unit r7 col4",
+        "timekernel r7 col4",
+        "native unit r7 col5",
+        "timekernel r7 col5",
+        "native unit r7 col6",
+        "timekernel r7 col6",
+        "native unit r7 col7",
+        "timekernel r7 col7",
+        "native unit r7 col8",
+        "timekernel r7 col8",
+        "native unit r7 col9",
+        "timekernel r7 col9",
+        "native unit r7 col10",
+        "timekernel r7 col10",
+        "native unit r7 col11",
+        "timekernel r7 col11",
+        "native unit r7 col12",
+        "timekernel r7 col12",
+        "native unit r7 col13",
+        "timekernel r7 col13",
+        "native unit r7 col14",
+        "timekernel r7 col14",
+        "native unit r7 col15",
+        "timekernel r7 col15",
+        "native unit r7 col16",
+        "timekernel r7 col16",
+        "native unit r7 col17",
+        "timekernel r7 col17",
+        "native unit r7 col18",
+        "timekernel r7 col18",
+        "native unit r7 col19",
+        "timekernel r7 col19",
+        "native unit r7 col20",
+        "timekernel r7 col20",
+        "native unit r7 col21",
+        "timekernel r7 col21",
+        "native unit r7 col22",
+        "timekernel r7 col22",
+        "native unit r7 col23",
+        "timekernel r7 col23",
+        "native unit r7 col24",
+        "timekernel r7 col24",
+        "native unit r7 col25",
+        "timekernel r7 col25",
+        "native unit r7 col26",
+        "timekernel r7 col26",
+        "native unit r7 col27",
+        "timekernel r7 col27",
+        "native unit r16 col0",
+        "timekernel r16 col0",
+        "native unit r16 col1",
+        "timekernel r16 col1",
+        "native unit r16 col2",
+        "timekernel r16 col2",
+        "native unit r16 col3",
+        "timekernel r16 col3",
+        "native unit r16 col4",
+        "timekernel r16 col4",
+        "native unit r16 col5",
+        "timekernel r16 col5",
+        "native unit r16 col6",
+        "timekernel r16 col6",
+        "native unit r16 col7",
+        "timekernel r16 col7",
+        "native unit r16 col8",
+        "timekernel r16 col8",
+        "native unit r16 col9",
+        "timekernel r16 col9",
+        "native unit r16 col10",
+        "timekernel r16 col10",
+        "native unit r16 col11",
+        "timekernel r16 col11",
+        "native unit r16 col12",
+        "timekernel r16 col12",
+        "native unit r16 col13",
+        "timekernel r16 col13",
+        "native unit r16 col14",
+        "timekernel r16 col14",
+        "native unit r16 col15",
+        "timekernel r16 col15",
+        "native unit r16 col16",
+        "timekernel r16 col16",
+        "native unit r16 col17",
+        "timekernel r16 col17",
+        "native unit r16 col18",
+        "timekernel r16 col18",
+        "native unit r16 col19",
+        "timekernel r16 col19",
+        "native unit r16 col20",
+        "timekernel r16 col20",
+        "native unit r16 col21",
+        "timekernel r16 col21",
+        "native unit r16 col22",
+        "timekernel r16 col22",
+        "native unit r16 col23",
+        "timekernel r16 col23",
+        "native unit r16 col24",
+        "timekernel r16 col24",
+        "native unit r16 col25",
+        "timekernel r16 col25",
+        "native unit r16 col26",
+        "timekernel r16 col26",
+        "native unit r16 col27",
+        "timekernel r16 col27",
+        "random native0",
+        "random idempotence0",
+        "cleared input seam0",
+        "random native1",
+        "random idempotence1",
+        "cleared input seam1",
+        "random native2",
+        "random idempotence2",
+        "cleared input seam2",
+        "random native3",
+        "random idempotence3",
+        "cleared input seam3",
+        "random native4",
+        "random idempotence4",
+        "cleared input seam4",
+        "random native5",
+        "random idempotence5",
+        "cleared input seam5",
+        "complex linearity",
+        "addition",
+        "zero",
+        "native bilinear adjoint"
+      ],
+      "cache": {
+        "cached_blocks": 3,
+        "calls": 110,
+        "groups_applied": 150,
+        "blocks": [
+          {
+            "r": 0,
+            "kernel_dimension": 2,
+            "factor_denominators": [
+              1,
+              1,
+              1
+            ]
+          },
+          {
+            "r": 7,
+            "kernel_dimension": 22,
+            "factor_denominators": [
+              1,
+              30,
+              1
+            ]
+          },
+          {
+            "r": 16,
+            "kernel_dimension": 22,
+            "factor_denominators": [
+              1,
+              192,
+              1
+            ]
+          }
+        ]
+      },
+      "bindings": {
+        "projection_sha256": "e78ec1956858f8d6fd8868e84a622a2f31131452e6a1259a04f6f82a169857a8",
+        "integer_engine_sha256": "53332b464f72867e66b914451f28d3fb4168d7fd7d27a6e8c3a46b3f6c5f4f24",
+        "paired_probe_sha256": "72f131477d041c19293a7e191fd099fbe637597e685ac1d84dfe76db8beb8655"
+      }
+    },
+    "covariance_countermodel": {
+      "scope": "INTERNAL_STRUCTURAL_ONLY generic Lorentz-covariant countermodel; no W2/K95 or source/candidate verdict.",
+      "exact_premise_checks": 2856,
+      "dimension": 14,
+      "old_sources_all_zero": true,
+      "new_source_equals_e1_tensor_e1": true,
+      "adjoint_kernel_pairing": "1",
+      "M_projection_to_spatial_traceless": true,
+      "full_carrier_J_invertible": true,
+      "identity_verified": true,
+      "nonzero_old_source_direct_sum_available": true
+    }
+  },
+  "fast_neumann_controls": {
+    "all_passed": true,
+    "checks": 14,
+    "incomplete_and_duplicate_records_rejected": true,
+    "literal_fraction_comparison": true,
+    "floating_inversion_used": false
+  },
+  "optimization": {
+    "tools": [
+      "Reusable exact integer cubic and factored nativeP",
+      "Resumable hash-bound sparse closure",
+      "Frozen rational inverse replay with exact bigint matrix products",
+      "Data-only authenticated unpack and cheap status",
+      "Exact-reference benchmark"
+    ],
+    "benchmark": {
+      "scope": "Local timing of identical exact2PN maps; hardware-dependent, not a scientific result.",
+      "bindings": {
+        "format": "spin4-sparse-integer-v2",
+        "engine_sha256": "53332b464f72867e66b914451f28d3fb4168d7fd7d27a6e8c3a46b3f6c5f4f24",
+        "projection_sha256": "76e0af1797364bb48e06426091be38a4fa8d4535a43bb9b67d55b628e1a5c74b",
+        "closure_procedure_sha256": "409f33515109dc2e86445cfe3da38972ac05fb1cc53d869160ebf11b04838108",
+        "basis_sha256": "03b5cc1fa86704891f071f2562ec85929815ca4471db8163c57136d216c10214",
+        "background_sha256": "fb4aacfa69cbc1127b7fddf3b4f66811650c1fd3a889363cc6dfab940439b274",
+        "native_inputs": {
+          "tests/program-focus/source_action_deep_algebra.py": "4e3800131049e2b397bbce6106bfc5766d2f5fbf996319c50942f3b805d65598",
+          "tests/program-focus/source_action_deep_geometry.py": "7cdfe5f7609300c1ab4fb482f309cfafa52d0aa66cf353ef8b1f9c8be07e52df",
+          "tests/program-focus/source_action_paired_response_probe.py": "72f131477d041c19293a7e191fd099fbe637597e685ac1d84dfe76db8beb8655",
+          "tests/program-focus/source_action_metric_symbol_probe.py": "eccac86c829c48848a4db9ab49d0313601bc3b19aca9a1fc6635520f489254ef",
+          "tests/program-focus/source_action_physical_probe.py": "b0a4b49f18fd6de13f45fc342d00a9e98fdb88cbf479155fd6d1b296c4662c25",
+          "tests/program-focus/source_action_slice_completion_probe.py": "9992fc60da913e8df8507f0dd393299c3d477ed43505af46757fc13575a1e12d",
+          "tests/program-focus/source_action_reduced_evolution_probe.py": "2279acba19fe23ba3cbc77106ef8137fb72c4e758bdf45b1ee3ffe259a617426",
+          "tests/program-focus/source_action_kappa1_constraints_probe.py": "a2387601309af9aff79618e7d8758caf6a38b4b2e3d73849035898f50fffed85",
+          "tests/program-focus/source_action_coupled_ghost_probe.py": "a1730f0dc970e6fdf8e51d90bd789a5b5acf29f7a22b3626b27825ac1daa7160",
+          "lab/process/source-action-kappa1-constraints.json": "5d3401666f8072dd225924e0cc9073c16c7d6c59efd0b4b941e1fcce7ce29233",
+          "lab/process/source-action-reduced-evolution.json": "d299647a410d660a2b01f9612e1ab271368f7a4b3244c91655793aa5ed7e1945"
+        }
+      },
+      "cold": [
+        {
+          "background": 0,
+          "exact_match": true,
+          "reference_seconds": 0.060844999738037586,
+          "integer_seconds": 0.001686709001660347,
+          "output_terms": 8
+        },
+        {
+          "background": 1,
+          "exact_match": true,
+          "reference_seconds": 0.007832457777112722,
+          "integer_seconds": 0.0002304580993950367,
+          "output_terms": 8
+        },
+        {
+          "background": 10,
+          "exact_match": true,
+          "reference_seconds": 1.1715819593518972,
+          "integer_seconds": 0.1208674581721425,
+          "output_terms": 264
+        }
+      ],
+      "warm": [
+        {
+          "background": 0,
+          "exact_match": true,
+          "reference_seconds": 0.00796545809134841,
+          "integer_seconds": 0.00019458308815956116
+        },
+        {
+          "background": 1,
+          "exact_match": true,
+          "reference_seconds": 0.007768208160996437,
+          "integer_seconds": 0.00016579218208789825
+        },
+        {
+          "background": 10,
+          "exact_match": true,
+          "reference_seconds": 0.11472941609099507,
+          "integer_seconds": 0.0016668750904500484
+        }
+      ],
+      "warm_reference_seconds": 0.13046308234333992,
+      "warm_integer_seconds": 0.002027250360697508,
+      "warm_speedup": 64.35469682119184
+    },
+    "effect": "Reuses exact data and reduces intermediate rational normalization; all acceptance conditions retained. No new physical choice or governance.",
+    "negative_smoke_controls": {
+      "all_passed": true,
+      "checks": [
+        "float_sparse_rejected",
+        "float_integer_payload_rejected",
+        "direct_weak_dependency_drift_rejected",
+        "basis_drift_rejected"
+      ],
+      "heavy_stage_started": false,
+      "scope": "Negative parser/checkpoint controls; no owner data modified."
+    },
+    "frozen_replay": "Fresh hash-verified unpack and no-generation certificate replay passed in33.3s; all exactroot/source records identical."
+  },
+  "covariance": {
+    "generic_countermodel": "Exact14-dimensional Lorentz-covariant reciprocal control; optional28-dimensional nonzero-old-source extension; no W2/GU identification",
+    "identity": "Cross terms P{J,[rho,P]}Y are anticommutator, not automatic cancellation",
+    "numerical_trial": {
+      "root": 0,
+      "source_index": 0,
+      "old_full_native_relative_residual": 4.1927620341426906e-16,
+      "residual_relative_to_source": 0.021173051575104747,
+      "diagnostic": "numerically_nonzero_trial_residual"
+    },
+    "numerical_scope": "Discovery-only decline of one trial preimage; not an exact exclusion, kernel or physical norm"
+  },
+  "independent_review": {
+    "path": "lab/process/hostile-reviews/2026-11-26-source-action-spin4-review.md",
+    "tier": "T2",
+    "status": "PASS"
+  },
+  "source_bridge": {
+    "status": "conditional",
+    "weakest_unproved_link": "Source-required physical operator/admission/readout and necessity of W2 fullR lift",
+    "source_necessary_exclusion": "absent",
+    "class_C_representativeness": "unchanged/unproved"
+  },
+  "three_state": {
+    "ESTABLISHED": "Both actual reached spin4 sources have native auxiliary preimages throughout both certified kappa1 root boxes, in an exact282-dimensional envelope invariant under all59 background maps. This candidate necessary condition survives; GU is not falsified.",
+    "RULED_OUT": "Automatic covariance-only transport under the displayed generic hypotheses; no new candidate or GU exclusion",
+    "NOT_MODELED_UNDETERMINED": "FullR/higher-jet compatibility, physical domain/quotient/readout/propagation and source necessity"
+  },
+  "math_reassessment": {
+    "method": "One quick pass over20 mathematical descriptions, including category theory and number theory; no subagent per persona or independent-scientist vote. Concrete authors/reviewers handle separate derivation and verification tasks.",
+    "basis": "3e8fa792e93e8a58e804364c842080a7e6c72810",
+    "lenses": [
+      {
+        "id": 1,
+        "specialty": "Representation theory",
+        "delta": "Use the reached spin4 envelope and prove source-map spanning before claiming full jet coverage."
+      },
+      {
+        "id": 2,
+        "specialty": "Clifford algebra",
+        "delta": "Keep native Clifford order/minus pairing; source primary correction remains operative."
+      },
+      {
+        "id": 3,
+        "specialty": "Functional analysis",
+        "delta": "The finite inverse norm is computational, not a physical positive norm."
+      },
+      {
+        "id": 4,
+        "specialty": "Constrained PDE",
+        "delta": "Individual first-jet compatibility is necessary, not fullR/higher-jet solvability."
+      },
+      {
+        "id": 5,
+        "specialty": "Microlocal analysis",
+        "delta": "No admissible high-frequency physical states follow from finite receiver solvability."
+      },
+      {
+        "id": 6,
+        "specialty": "Hyperbolic equations",
+        "delta": "An algebraic lift supplies neither hyperbolicity nor propagated admissibility."
+      },
+      {
+        "id": 7,
+        "specialty": "Observability and control",
+        "delta": "An auxiliary source preimage is not a normalized observable response."
+      },
+      {
+        "id": 8,
+        "specialty": "Symplectic and presymplectic geometry",
+        "delta": "No physical presymplectic quotient is supplied by P or the coefficient norm."
+      },
+      {
+        "id": 9,
+        "specialty": "Homological and BRST methods",
+        "delta": "No gauge/BRST cohomology verdict follows from these range equations."
+      },
+      {
+        "id": 10,
+        "specialty": "Category theory",
+        "delta": "Covariance does not supply the missing commuting lift: the cross terms form an anticommutator; retain the exact countermodel."
+      },
+      {
+        "id": 11,
+        "specialty": "Natural differential operators",
+        "delta": "All59 affine coefficient maps preserve E4; W2 is still a fixed reconstruction, not source-selected dynamics."
+      },
+      {
+        "id": 12,
+        "specialty": "Index theory and K-theory",
+        "delta": "Neither envelope dimensions nor rotation multiplicities are physical integer indices."
+      },
+      {
+        "id": 13,
+        "specialty": "Anomalies and bordism",
+        "delta": "No new compulsory anomalous source symmetry emerged; bounded applicability audit stays consumed."
+      },
+      {
+        "id": 14,
+        "specialty": "Noncompact harmonic analysis",
+        "delta": "No W175 gap, normal-L2 necessity or positive-to-Krein transfer is reintroduced."
+      },
+      {
+        "id": 15,
+        "specialty": "Krein and spectral theory",
+        "delta": "Native indefinite pairing is unchanged; invertibility of E4 is not physical positivity."
+      },
+      {
+        "id": 16,
+        "specialty": "Number theory and arithmetic invariants",
+        "delta": "Gaussian-integer denominator clearing and exact root-box bounds replace floating decisions; no generation-count inference."
+      },
+      {
+        "id": 17,
+        "specialty": "Nonlinear PDE",
+        "delta": "Linearized auxiliary solvability is not nonlinear completion."
+      },
+      {
+        "id": 18,
+        "specialty": "Rigorous numerical analysis",
+        "delta": "Discovery proposes support/inverses; exact full-image closure and Neumann bounds decide acceptance."
+      },
+      {
+        "id": 19,
+        "specialty": "Proof engineering and formal methods",
+        "delta": "Frozen preconditioner replay and binding checks preserve statement/implementation alignment; no new Lean claim."
+      },
+      {
+        "id": 20,
+        "specialty": "Inverse problems and identifiability",
+        "delta": "Reduce actual sources modulo certified receivers before growing a new inverse."
+      }
+    ],
+    "ranking": [
+      {
+        "rank": 1,
+        "task": "full_range_auxiliary_spin4",
+        "status": "done_for_two_reached_sources",
+        "reason": "Executable true native range test; positive exact result now consumes it."
+      },
+      {
+        "rank": 2,
+        "task": "actual_first_jet_source_quotient",
+        "status": "ready",
+        "reason": "Actual uncovered source membership before any larger inverse."
+      },
+      {
+        "rank": 3,
+        "task": "physical_weak_readout",
+        "status": "requires_authentic_input",
+        "reason": "Strongest source-facing alternative lacks common physical domain, normalized readout and propagation law."
+      }
+    ],
+    "policy_effect": "none"
+  },
+  "next_worksets": [
+    {
+      "id": "actual_first_jet_source_quotient",
+      "status": "ready",
+      "target": "LB-CLASS",
+      "tier": "T2",
+      "task": "First test the two horizontal Nomizu spin4 sources in existing E4 alongside the same reached sources spin5 remainder in E5; then census actual first-jet source maps modulo E4/E5/N6/N7, proving representative spanning before completeness.",
+      "expected_delta": "Close the actual generated first-jet necessary-condition family or identify the first uncovered native source before any new inverse.",
+      "class_covered": "Held W2/K95 two roots, two Q7 input modules and actual induced connection/principal slots; not fullR or classC.",
+      "source_bridge": "Candidate-only; source necessity and physical admission unproved.",
+      "remaining_cost": "Exact source projection/ladder normalization and membership reuse; no automatic lower-block inversion.",
+      "kill_condition": "Only a genuine native adjoint-cokernel pairing excludes the specified realization; a nonzero quotient means uncovered, not impossible."
+    },
+    {
+      "id": "physical_weak_readout",
+      "status": "blocked_on_authentic_admission_and_normalization",
+      "target": "LB-CLASS",
+      "tier": "T2",
+      "task": "Transport the local constrained response to a source-admitted physical observable",
+      "expected_delta": "Actual observable consequence rather than unnormalized local coefficient",
+      "revival_input": "Authenticated common physical domain/quotient, normalized readout and propagation law",
+      "kill_condition": "OldA01 transfer remains inapplicable; inventing a new norm, cutoff or physical completion is not an answer"
+    }
+  ],
+  "reproduction": {
+    "probe": "tests/program-focus/source_action_spin4_compatibility_probe.py",
+    "bundle": "lab/process/source-action-spin4-certificates.json",
+    "commands": [
+      "--mode unpack",
+      "--mode controls",
+      "--mode certify",
+      "--mode status",
+      "--mode benchmark"
+    ],
+    "full_replay": "Use a fresh cache with only unpacked seeds/basis, then --mode integer-closure --steps0 to regenerate every native image; defaultcertify reuses complete closure and frozen inverse candidates, recomputing allbasis and inversebounds."
+  },
+  "verification": {
+    "native_gates": [
+      {
+        "gate": "program_focus_audit",
+        "exit_code": 0
+      },
+      {
+        "gate": "typed_carrier_declaration_audit",
+        "exit_code": 0
+      },
+      {
+        "gate": "kill_target_claim_audit",
+        "exit_code": 0
+      },
+      {
+        "gate": "frontmatter_status_schema_audit",
+        "exit_code": 0
+      },
+      {
+        "gate": "source_native_comparator_routing_audit",
+        "exit_code": 0
+      },
+      {
+        "gate": "lean_certificate_surface_audit",
+        "exit_code": 0
+      },
+      {
+        "gate": "current_state_absolute_currency_audit",
+        "exit_code": 0
+      }
+    ],
+    "Lean": "Not rerun; no T1kill or new Lean theorem claimed",
+    "frozen_replay": "Fresh hash-verified unpack + defaultcertify reproduced exact root/source records; 33.3seconds, no floating inverse generation.",
+    "resume": "Complete checkpoint resume returns282/282 without rewriting numerical/closure data; dependencydrift rejected before heavywork."
+  },
+  "current_sha256": {
+    "explorations/conditional-build/source-action-spin4-compatibility-2026-11-26.md": "d338e8418b9a53935cacf22b30fa81a97c038cc3c0325f5ddf6cb20f205b9d9b",
+    "tests/program-focus/source_action_spin4_compatibility_probe.py": "e78ec1956858f8d6fd8868e84a622a2f31131452e6a1259a04f6f82a169857a8",
+    "lab/process/source-action-spin4-certificates.json": "e4e6996573a09f1136e175ef0aa2cfab991ac1ea3284403ed12441710e7784c4",
+    "lab/process/hostile-reviews/2026-11-26-source-action-spin4-review.md": "4076b68c76894d3c60224f8ddc3a59fc1b8cca80b3eb3e686c63cd14916313ed"
+  },
+  "late_steering_assessment": {
+    "authority": "Joe consideration of other-agent memo,2026-11-26",
+    "adopt": [
+      "Avoid re-proving or polishing settled results without new scientific delta",
+      "Prefer actual unclassified candidate response conditions and residual physical consequences over census for completeness"
+    ],
+    "modify": [
+      "Kappa1 existence is already certified at two roots in the complete59 fixed family; certified connection to the original smallh branch remains unproved and is not needed for these local tests.",
+      "Retain source-necessary class-level tests whenever eligible; candidate-only relevance must not displace a faster genuine source falsifier."
+    ],
+    "reject": [
+      "No automatic governance or schedule override from this consideration",
+      "Do not suppress correction of concrete errors merely because a result is already posted",
+      "Do not infer GU falsification from one constructed candidate exclusion"
+    ],
+    "effect": "Factual continuation updated only after the current exact delta; program_focus unchanged."
+  },
+  "input_sha256": {
+    "lab/process/source-action-deep-coefficients.json": "fb4aacfa69cbc1127b7fddf3b4f66811650c1fd3a889363cc6dfab940439b274",
+    "explorations/conditional-build/source-normal-tensor-class-2026-11-26.md": "3165dbce2f03378b5166704fd7a7ad1d54992650825b51e4ac10cfb85389b492",
+    "explorations/conditional-build/source-adjoint-spinless-placement-2026-11-26.md": "23363899cc268910aef10f8edf353352d414075946562611921914d644455908",
+    "lab/sources/source-claim-register.yaml": "dc3ae173b4cc0eb2a0e343e3d92d5f110b8e4f6eef3e2852a1e897ab4371ade6",
+    "GEOMETER-VS-PHYSICS-OBJECTS.md": "eb085d6f89b7f5b49f4f330ea73e4969b6688349ee5046f85c2c754864851bd4"
+  }
+}

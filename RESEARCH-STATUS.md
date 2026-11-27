@@ -16,6 +16,14 @@ discovery bet (`lab/process/discovery-bets.json`). The K25xx--K2618 detector, pr
 results below are retained as conditional mathematics; that lane is no longer the default target. Sections
 below are dated results, newest first, and are not steering.
 
+## Reached spin4 compatibility and reusable exact replay (2026-11-26)
+
+Both actual reached spin4 sources have native auxiliary preimages throughout both certified kappa1 root boxes, in an exact282-dimensional envelope invariant under all59 background maps. This candidate necessary condition survives; GU is not falsified.
+
+All16638 exact closure images and both root-box inverse bounds pass. This says nothing about full-R sufficiency or physical admission. Repeated-test tooling preserves exact checks and frozen inputs.
+
+[Result](explorations/conditional-build/source-action-spin4-compatibility-2026-11-26.md) · [Evidence, scope and verification](lab/process/source-action-spin4-compatibility.json).
+
 ## Source adjoint corrected; spinless placement computed (2026-11-26)
 
 Corrected primary Clifford-adjoint attribution: minus adapter has normal optionalC36R/image24/kernel12 and fixed4R C-compatible survivors; plus-comparator optionalCzero retained only in its own pairing. Ordered source spinless insertion computed with independent fields and unresolved arrows explicit. No GU falsifier.

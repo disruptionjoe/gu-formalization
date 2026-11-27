@@ -1,7 +1,7 @@
 schema_version: '1.0'
 repository: observerse-research-program
 branch: main
-revision_basis: f754e924e6bdf9c9506a09e1bec2c8248dd6e941
+revision_basis: 3e8fa792e93e8a58e804364c842080a7e6c72810
 program_focus:
   version: 2026-11-25-v1
   authority: joe_direct_chat_2026_11_25_five_process_improvements_approved
@@ -140,6 +140,55 @@ program_focus:
     covered; source relevance separately from mathematical breadth; shared prerequisite if any; remaining
     cost; strongest eligible alternative. A blocked high-value target is not an eligible alternative without
     its missing input. Reuse completed theorems and compare only their uncovered successors.'
+source_action_spin4_compatibility_2026_11_26:
+  authority: joe_direct_chat_2026_11_26_continued_falsification_math20_and_optimization
+  basis_revision: 3e8fa792e93e8a58e804364c842080a7e6c72810
+  status: internal_T2_exact_range_result
+  actual_delta: Both actual reached spin4 sources have native auxiliary preimages throughout both certified
+    kappa1 root boxes, in an exact282-dimensional envelope invariant under all59 background maps. This
+    candidate necessary condition survives; GU is not falsified.
+  evidence:
+  - explorations/conditional-build/source-action-spin4-compatibility-2026-11-26.md
+  - lab/process/source-action-spin4-compatibility.json
+  - lab/process/source-action-spin4-certificates.json
+  - lab/process/hostile-reviews/2026-11-26-source-action-spin4-review.md
+  source_bridge:
+    status: conditional
+    weakest_unproved_link: Source-required physical operator/admission/readout and necessity of W2 fullR
+      lift
+    source_necessary_exclusion: absent
+    class_C_representativeness: unchanged/unproved
+  continuation:
+  - id: actual_first_jet_source_quotient
+    status: ready
+    target: LB-CLASS
+    tier: T2
+    task: First test the two horizontal Nomizu spin4 sources in existing E4 alongside the same reached
+      sources spin5 remainder in E5; then census actual first-jet source maps modulo E4/E5/N6/N7, proving
+      representative spanning before completeness.
+    expected_delta: Close the actual generated first-jet necessary-condition family or identify the first
+      uncovered native source before any new inverse.
+    class_covered: Held W2/K95 two roots, two Q7 input modules and actual induced connection/principal
+      slots; not fullR or classC.
+    source_bridge: Candidate-only; source necessity and physical admission unproved.
+    remaining_cost: Exact source projection/ladder normalization and membership reuse; no automatic lower-block
+      inversion.
+    kill_condition: Only a genuine native adjoint-cokernel pairing excludes the specified realization;
+      a nonzero quotient means uncovered, not impossible.
+  - id: physical_weak_readout
+    status: blocked_on_authentic_admission_and_normalization
+    target: LB-CLASS
+    tier: T2
+    task: Transport the local constrained response to a source-admitted physical observable
+    expected_delta: Actual observable consequence rather than unnormalized local coefficient
+    revival_input: Authenticated common physical domain/quotient, normalized readout and propagation law
+    kill_condition: OldA01 transfer remains inapplicable; inventing a new norm, cutoff or physical completion
+      is not an answer
+  consumed:
+  - full_range_auxiliary_spin4 for the two actuallyreached sources
+  accounting: Directed69to70/LBCLASS28to29; choice budget and scientific shrinkage unchanged
+  priority_control_effect: Factual directed continuation advances to actualsource quotient; program_focus/schedules
+    unchanged. Reusable arithmetic/replay tools added at Joe request.
 source_adjoint_spinless_placement_2026_11_26:
   authority: joe_direct_chat_2026_11_26_continued_falsification_math20
   basis_revision: f754e924e6bdf9c9506a09e1bec2c8248dd6e941
