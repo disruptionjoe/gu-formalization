@@ -1059,6 +1059,119 @@
       "dead_end_refs": [
         "lab/process/source-action-endpoint-cubic.json#follow_through.dead_end_memory"
       ]
+    },
+    {
+      "id": "bet-cosmology-conservation-descent-2026-11-27",
+      "kind": "result",
+      "owner_ref": "explorations/conditional-build/bet-cosmology-conservation-descent-2026-11-27.md",
+      "tested_statement": "Weighted covariantly coclosed one-forms restrict surjectively onto arbitrary smooth local observed one-forms. Conservation of any finite-order observed-only stress readout is therefore an off-shell identity or requires additional premises; every zero-order such readout is field-independent on each connected field domain.",
+      "signature": {
+        "object": "Weighted covariant coderivative conservation to local observed stress identity",
+        "carrier": "Smooth E-valued one-forms; literal pullback retaining full coefficient fibre",
+        "convention": "Fixed nondegenerate metric and section, fixed bundle connection, fixed positive weight; local smooth germs; affine B+s theta extension by symmetric bracket cancellation",
+        "class": "All fixed smooth nondegenerate ambient metrics, nondegenerate sections of positive codimension, finite-rank real or complex coefficient bundles with fixed smooth connection, and smooth positive weights independent of the unknown one-form; local smooth germs satisfying the coderivative equation alone. Readouts use only finite jets of the literal observed one-form and fixed backgrounds.",
+        "premises": [
+          "Unrestricted local solution germs of the sole divergence equation",
+          "Nondegenerate observed section of positive codimension",
+          "Finite-order observed-only readout, fixed backgrounds",
+          "No simultaneous Euler, boundary, energy or physical quotient restriction"
+        ]
+      },
+      "attributed_status": "internal_T1_conditional_conservation_descent_reviewed",
+      "status_ref": "lab/process/bet-cosmology-conservation-descent.json#status",
+      "source_bridge_ref": "lab/process/bet-cosmology-conservation-descent.json#source_bridge",
+      "certificate_refs": [
+        "lab/process/bet-cosmology-conservation-descent-certificates.json"
+      ],
+      "control_refs": [
+        "tests/program-focus/conservation_descent_probe.py"
+      ],
+      "survivors_ref": "explorations/conditional-build/bet-cosmology-conservation-descent-2026-11-27.md#4-direct-controls-and-escape-boundaries",
+      "reopen_condition_ref": "lab/process/bet-cosmology-conservation-descent.json#follow_through",
+      "superseded_by": null,
+      "cache": {
+        "artifacts": [
+          {
+            "path": "explorations/conditional-build/bet-cosmology-conservation-descent-2026-11-27.md",
+            "sha256": "1753551df78ce20fd70f95abac7f835d5e9442fc2c09bbb76a9be2c221eab933"
+          },
+          {
+            "path": "tests/program-focus/conservation_descent_probe.py",
+            "sha256": "d2c5f91e35a736298cd89d9a3206e8d37ba806724d5549e52a8c8389e3fb3f5a"
+          },
+          {
+            "path": "lab/process/bet-cosmology-conservation-descent-certificates.json",
+            "sha256": "3d0912b57750fe305dc653992e614786b53b0f6c88cdb31d99d7037c8dbd8db2"
+          },
+          {
+            "path": "Lean/GUFormalization/ConservationDescent.lean",
+            "sha256": "cb128c3869b2ce96b57b61e4e4a979c731e13b042dc7f1b06cc647979132e3b0"
+          },
+          {
+            "path": "Lean/GUFormalization/ThetaDivergence.lean",
+            "sha256": "674e527a145394ae1bac8c02ace38cd1fee21e252812e71ae238b92d01441872"
+          },
+          {
+            "path": "canon/dark-energy-theta-divergence-free.md",
+            "sha256": "0d43aa68cbecdf9f4cd0ebabf2a312f2c335903b775820407fc8dd5f11884119"
+          },
+          {
+            "path": "explorations/conditional-build/natural-density-fibre-volume-2026-11-25.md",
+            "sha256": "df63b8dc72864e6ab919b326e07f328b0acb2e6fcae44954ce695f8d33dd40a2"
+          },
+          {
+            "path": "explorations/conditional-build/source-action-theta-divergence-2026-11-27.md",
+            "sha256": "db8e440623173743596a83bef6f9db53e702246332bf59e299dea2e394f7dcdf"
+          },
+          {
+            "path": "lab/process/source-action-theta-divergence-certificates.json",
+            "sha256": "2aa58c4c4c507b22104c42fba326776b035828294397d2d0591668d5e0a46091"
+          },
+          {
+            "path": "lab/sources/source-claim-register.yaml",
+            "sha256": "dc3ae173b4cc0eb2a0e343e3d92d5f110b8e4f6eef3e2852a1e897ab4371ade6"
+          },
+          {
+            "path": "tests/program-focus/source_action_theta_divergence_probe.py",
+            "sha256": "93fb6c4fbe5ea51ab78ddea9f1e344e0894646e390da76a19567ced7f577c038"
+          }
+        ],
+        "verifier": {
+          "command": "python3",
+          "args": [
+            "tests/program-focus/conservation_descent_probe.py",
+            "--verify"
+          ],
+          "environment": {
+            "python": "Standard-library Fraction and exact exponential-polynomial controls; version not locked",
+            "lean": "Mounted Mathlib cache, targeted single-thread check"
+          }
+        },
+        "receipt_ref": "lab/process/bet-cosmology-conservation-descent.json#verification",
+        "input_coverage": "Dependencies are custody-bound, not replayed. Finite controls calibrate the formula; the smooth theorem and source scope require written proof and review.",
+        "freshness_note": "Fresh root replay separately recorded; hash equality alone is not execution."
+      },
+      "excluded_classes": [
+        {
+          "class": "Genuinely field-dependent zero-order observed-only stress conserving solely from ambient coclosure",
+          "premises": "Fixed geometry/connection/weight; arbitrary local germs; no hidden data or other equations",
+          "scope": "All smooth field-value rules, componentwise in each connected field-value fibre domain",
+          "certificate": "lab/process/bet-cosmology-conservation-descent-certificates.json"
+        }
+      ],
+      "survivors": [
+        {
+          "class": "Identically conserved differential readouts",
+          "scope": "Flat superpotential is a control; curved or physical selection unproved."
+        },
+        {
+          "class": "Additional equations, global/physical restrictions or nonlocal/normal-jet readouts",
+          "scope": "Outside current theorem; no viability or source-selection credit."
+        }
+      ],
+      "dead_end_refs": [
+        "lab/process/bet-cosmology-conservation-descent.json#follow_through.dead_end_memory"
+      ]
     }
   ]
 }

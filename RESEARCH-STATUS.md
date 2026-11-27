@@ -16,6 +16,10 @@ discovery bet (`lab/process/discovery-bets.json`). The K25xx--K2618 detector, pr
 results below are retained as conditional mathematics; that lane is no longer the default target. Sections
 below are dated results, newest first, and are not steering.
 
+## 2026-11-27 — Bulk conservation does not impose an observed identity
+
+[Result](explorations/conditional-build/bet-cosmology-conservation-descent-2026-11-27.md) · [Evidence](lab/process/bet-cosmology-conservation-descent.json). Every smooth local observed one-form extends to a weighted covariantly coclosed bulk field under the fixed-background, nondegenerate-section hypotheses. Any finite-order local observed stress conserved for all these fields must already satisfy an off-shell identity; a zero-order stress is independent of the field on each connected field-value fibre component. Full equations, global/physical domains and source stress selection remain open. No GU or ledger verdict, new action or choice family.
+
 ## 2026-11-27 — Cubic endpoint discrepancy on the analytic branch
 
 [Result](explorations/conditional-build/source-action-endpoint-cubic-2026-11-27.md) · [Evidence](lab/process/source-action-endpoint-cubic.json). The literal horizontal theta0 gamma05 coefficient is (183/8)h³+O(h⁴). In the held W2 dictionary, every sufficiently small nonzero member of the actual stationary branch violates the printed endpoint. No numerical radius, kappa1 connectivity, physical-state or GU verdict. Three inherited quadratic entries settle the new coefficient; no roots or full tensor rebuild.

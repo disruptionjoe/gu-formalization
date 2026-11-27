@@ -1,0 +1,408 @@
+{
+  "basis_revision": "862183e9ed9019dc6bb777ba4666a70d5864da01",
+  "authority": "joe_direct_chat_2026_11_27_c",
+  "status": "internal_T1_conditional_conservation_descent_reviewed",
+  "program_target": "BET-COSMOLOGY",
+  "tier": "T1",
+  "actual_delta": "Weighted covariantly coclosed one-forms restrict surjectively onto arbitrary smooth local observed one-forms. Conservation of any finite-order observed-only stress readout is therefore an off-shell identity or requires additional premises; every zero-order such readout is field-independent on each connected field domain.",
+  "class_covered": "All fixed smooth nondegenerate ambient metrics, nondegenerate sections of positive codimension, finite-rank real or complex coefficient bundles with fixed smooth connection, and smooth positive weights independent of the unknown one-form; local smooth germs satisfying the coderivative equation alone. Readouts use only finite jets of the literal observed one-form and fixed backgrounds.",
+  "source_bridge": {
+    "status": "conditional",
+    "reason": "The source requires an automatic dark-energy identity and names an adjoint one-form, but does not select this coderivative alone, a local stress readout, unrestricted local solution germs or the physical domain. The theorem tests a proposed implication class, not the full source equations."
+  },
+  "claim_effect": "LC evidence only; no scientific matrix/assumption import, canon, ledger, source or paper verdict.",
+  "source_custody": {
+    "SC-COS-50": "TOE2025 02:14:44, transcript578\u2013582: variable dark-energy term with automatic identity.",
+    "SC-COS-51": "TOE2025 02:22:20, transcript608\u2013610: adjoint-valued one-form replacement.",
+    "SC-COS-52": "UCSD2025 00:02:05: one-form expression.",
+    "ceiling": "Source does not select the coderivative alone, the q-local stress readout or unrestricted smooth germs. This is a proposed bridge-class test."
+  },
+  "proof_structure": [
+    "Nondegenerate section admits a nonnull normal and a containing nondegenerate hypersurface.",
+    "Gaussian collar is block diagonal throughout the neighborhood.",
+    "Fix metric, connection and positive weight independently of theta; prescribe all tangential components.",
+    "Solve the smooth parameter-dependent linear ODE for one normal flux component.",
+    "Arbitrary smooth observed beta lifts exactly, hence every finite observed jet is attainable.",
+    "Any local identity inferred from the sole bulk conservation equation is already an off-shell observed identity.",
+    "At order zero, independent first jets and invertibility of the observed metric force field independence on each connected field-value fibre component.",
+    "Flat differential superpotentials prevent an all-derivative no-go.",
+    "Affine A=B+s theta extends by the already-owned symmetric commutator cancellation."
+  ],
+  "decision_record": {
+    "mandatory_basis": "LC-BETS at counter91. COSMOLOGY and 2PLUS1 tied at21 remaining; MASS-GAP20.",
+    "reuse": "Checked reuse index and native density, paired-current, trace and cosmology results. Analytic arbitrary-history lifting and current W2 divergence failures are inherited, not recomputed.",
+    "premise_delta": "New smooth arbitrary fixed coefficient/weight extension and entire observed-only readout class, downstream even of successful bulk conservation.",
+    "expected_delta": "Decide whether ambient one-form conservation alone supplies a conserved observed stress through a local readout.",
+    "actual_delta": "Weighted covariantly coclosed one-forms restrict surjectively onto arbitrary smooth local observed one-forms. Conservation of any finite-order observed-only stress readout is therefore an off-shell identity or requires additional premises; every zero-order such readout is field-independent on each connected field domain.",
+    "expected_cost": "One bounded written theorem plus subsecond-to-seconds finite controls; review and targeted Lean separate.",
+    "actual_cost": "Root exact replay61 grouped controls and148 collar lifts in 0.09982191724702716seconds; targeted Lean and independent review separate.",
+    "outcomes": [
+      "Surjectivity: exclude genuinely field-dependent zero-order conservation imports and consume all neighboring readout tests with identical premises.",
+      "Failure: identify the missing geometric/noncharacteristic condition before any source inference.",
+      "Source readout not selected: preserve conditional theorem and continue another eligible source-relevant class test."
+    ],
+    "strongest_alternative": "Weighted-operator solution trace needs a uniform exact PDE construction; CK and equal principal symbols alone are insufficient.",
+    "shared_prerequisite": "Physical observed stress/readout and source-admitted solution domain remain missing; no new object is built.",
+    "theorem_check": "Classical smooth parameter-dependent linear ODE existence and divergence formula settle extension; compute only finite sign/jet controls."
+  },
+  "quick_math20": {
+    "method": "One quick pass through20 descriptions; concrete author and tier reviewers, not20 independent scientists or agents.",
+    "lenses": {
+      "category theory": "Surjectivity of restriction transports every consequence to an off-shell identity.",
+      "number theory": "Rational exact fixtures distinguish sign cancellation from numerical residual.",
+      "representation theory": "Retain the full coefficient fibre; impose no implicit family quotient.",
+      "Lie theory": "Nonabelian connection terms are linear lower terms for fixed connection.",
+      "Clifford algebra": "No Clifford spectrum or chirality inference is needed.",
+      "differential geometry": "Gaussian collar must be block diagonal off the section as well.",
+      "PDE": "One nonnull normal equation is an ODE after tangential data are fixed.",
+      "functional analysis": "Local solvability gives no bounded trace or nonclosability sequence.",
+      "topology": "Local trivializations do not decide global extension or boundary flux.",
+      "symplectic geometry": "A stress identity is not a physical phase-space quotient.",
+      "variational calculus": "Coclosure alone is not the full Euler system.",
+      "algebraic geometry": "Free jets test a differential identity without a finite-model census.",
+      "homological algebra": "Keep the conservation equation and readout morphism distinct.",
+      "control theory": "Unobserved normal flux can compensate arbitrary measured history.",
+      "spectral theory": "No energy, gap or self-adjoint domain theorem follows.",
+      "complex analysis": "Smooth ODE proof removes the analytic CK restriction for this one equation.",
+      "numerical analysis": "Finite sign and connection controls calibrate the formula, not the universal geometric proof.",
+      "Hamiltonian systems": "No stability or physical stress follows from formal divergence.",
+      "probability": "No measure or selection rule is introduced.",
+      "physics foundations": "Source automatic identity remains a stronger unfulfilled bridge obligation, not disproved source truth."
+    }
+  },
+  "choice_dependencies": {
+    "scope": "Structural across all fixed smooth nondegenerate metrics, fixed connections and positive weights in the stated local class.",
+    "held": "Literal contraction, unrestricted smooth local germs, sole coderivative equation and observed-only local readout.",
+    "affine_extension": "A=B+s theta for fixed B, prescribed scalar s and theta-independent weight.",
+    "outside": "Coupled field equations, general theta-dependent geometry/weights/connections, physical quotient and global restrictions."
+  },
+  "choice_budget": {
+    "families": 10,
+    "obligations": 4,
+    "bookkeeping_net": 6,
+    "source_selected_predictions": 0,
+    "added_families": 0,
+    "new_obligation_credit": 0,
+    "ceiling": "Grouped monitoring inventory, not a lower bound on source-required independent choices."
+  },
+  "follow_through": {
+    "consumed": [
+      "Testing another genuinely field-dependent zero-order q-local stress under the sole ambient coderivative premise.",
+      "Repeating analytic CK lifting to decide the same smooth coderivative-only local question."
+    ],
+    "dead_end_memory": [
+      "All-section density incompatibility is false in owned source-adapted geometry; a fixed-reference weight can match normal gradients without common on-section normalization.",
+      "Unchanged principal symbol or CK alone cannot transfer fixed-tube solution-trace nonclosability to a new weighted operator.",
+      "Do not confuse a smooth local divergence lift with full source stationary solutions or a norm estimate."
+    ],
+    "survivors": [
+      "Full source or W2 stationary solutions and physical/global domains are not represented by the sole coderivative equation.",
+      "Normal-jet, nonlocal and additional-equation readouts remain outside the class.",
+      "Identically conserved differential readouts survive; the flat superpotential is an explicit control, not a physical selection.",
+      "No solution-trace nonclosability or uniform tube/norm theorem follows.",
+      "No source, GU, class C, canon, ledger or bet-wide verdict."
+    ],
+    "next": {
+      "status": "ordinary_B_selection_after_completed_LC_wave",
+      "target": "LB-CLASS",
+      "mandatory_basis": "Counter92 is an ordinary B slot; respect any newly ready priority packet or unfinished T1 item.",
+      "question": "Does the existing fixed-linear full-U unit-cubic identity force S to vanish on all commutator curvature, beyond the already-excluded algebraic Riemann restriction?",
+      "status_of_question": "Unadmitted bounded feasibility discriminator, not a theorem or source-necessity assertion.",
+      "reuse_first": "Check prior cyclic/centroid classification and complete equivariant Hom family before calculation; compute only a new uncovered consequence.",
+      "outcomes": [
+        "A complete argument removes a whole structurally defined operator class.",
+        "A surviving operator specifies the exact limitation without constructing an action.",
+        "If already covered or lacking a bounded proof path, pivot to the strongest eligible source/normalization discriminator."
+      ],
+      "strongest_alternative": "Homogeneous finite-normalization composition has broad scope but conditional source necessity; the actual variable-boson physical-domain graph derivative is not supplied.",
+      "preserved_exclusions": [
+        "No same-branch endpoint coefficient retests.",
+        "No new algebraic observed-only stress tests under the now-covered coderivative-only premises.",
+        "No full compact-PS flat-T3 gap search within the owned all-stationary exclusion."
+      ]
+    }
+  },
+  "weakest_unproved_link": "Source selection of the tested conservation equation, observed stress readout and physical solution domain.",
+  "source_necessary_exclusion": "Conditional bridge class only; source necessity unproved.",
+  "class_C_representativeness": "Unproved; no C width or verdict change.",
+  "three_state": {
+    "ESTABLISHED": "Smooth local trace surjectivity for fixed weighted covariant coderivative; finite-order identity equivalence and zero-order field independence.",
+    "RULED_OUT": "Field-dependent zero-order observed stress obtaining conservation from ambient coclosure alone in the declared local class.",
+    "NOT_MODELED_UNDETERMINED": [
+      "Full source or W2 stationary solutions and physical/global domains are not represented by the sole coderivative equation.",
+      "Normal-jet, nonlocal and additional-equation readouts remain outside the class.",
+      "Identically conserved differential readouts survive; the flat superpotential is an explicit control, not a physical selection.",
+      "No solution-trace nonclosability or uniform tube/norm theorem follows.",
+      "No source, GU, class C, canon, ledger or bet-wide verdict."
+    ]
+  },
+  "verification": {
+    "root_replay": {
+      "certificate_bytes": 47367,
+      "certificate_sha256": "3d0912b57750fe305dc653992e614786b53b0f6c88cdb31d99d7037c8dbd8db2",
+      "checks": 61,
+      "exact_collar_lifts": 148,
+      "mode": "verify",
+      "passed": true,
+      "probe_sha256": "d2c5f91e35a736298cd89d9a3206e8d37ba806724d5549e52a8c8389e3fb3f5a",
+      "seconds": 0.09982191724702716,
+      "stress_chainrule_rank": 108
+    },
+    "lean": {
+      "command": "lake env lean -j1 /private/tmp/gu-conservation-descent-wt-20261127/Lean/GUFormalization/ConservationDescent.lean",
+      "cwd": "/Users/joe/Brain/CapacityOS/repos/public/gu-formalization",
+      "exit_code": 0,
+      "finite_lemmas": 4,
+      "default_import_registered": true,
+      "warning": "One style linter: unnecessary <;> sequencing at line13; no proof errors or placeholders.",
+      "scope": "Finite normal-jet compensation, surjective inference, free-jet coefficient row and flat commuting-derivative control. Smooth ODE/bundle theorem, source applicability and global domains are not formalized."
+    },
+    "reviews": [
+      {
+        "role": "independent mathematical specialist",
+        "receipt_sha256": "fe4a3f92c6e8347e3dee49848fa547fed00fe4f86ec0711ff7a513303f086011",
+        "receipt": {
+          "reviewer": "math_representation",
+          "review_type": "independent mathematical read-only review and byte authentication",
+          "accepted": true,
+          "acceptance_scope": "Written local smooth conservation-descent theorem, finite calibration design, certificate scope and four finite Lean statements; this is not an independent probe replay or Lean compile.",
+          "worktree": "/private/tmp/gu-conservation-descent-wt-20261127",
+          "bindings_source": "/private/tmp/gu-conservation-descent-final-bindings.json",
+          "bindings": {
+            "explorations/conditional-build/bet-cosmology-conservation-descent-2026-11-27.md": "1753551df78ce20fd70f95abac7f835d5e9442fc2c09bbb76a9be2c221eab933",
+            "tests/program-focus/conservation_descent_probe.py": "d2c5f91e35a736298cd89d9a3206e8d37ba806724d5549e52a8c8389e3fb3f5a",
+            "lab/process/bet-cosmology-conservation-descent-certificates.json": "3d0912b57750fe305dc653992e614786b53b0f6c88cdb31d99d7037c8dbd8db2",
+            "Lean/GUFormalization/ConservationDescent.lean": "cb128c3869b2ce96b57b61e4e4a979c731e13b042dc7f1b06cc647979132e3b0"
+          },
+          "all_four_bindings_match": true,
+          "own_checks": [
+            "Reviewed full written geometric argument: a non-null local normal to a nondegenerate section gives a nondegenerate containing hypersurface; its Gaussian collar has the required off-diagonal zeros throughout.",
+            "Verified that prescribing the covariant tangential components fixes every raised tangential component independently of the unknown normal component; w=mu*u^r obeys a finite-rank linear ODE with smooth parameters.",
+            "Verified local actual-solution trace surjectivity, the finite-order observed-only identity equivalence, and zero-order field independence on each connected field-value fibre component.",
+            "Verified fixed positive theta-independent weight and connection hypotheses, plus the separately reused affine self-connection cancellation with no derivative of the scalar multiplier.",
+            "Read the complete probe: rational exponential-polynomial differentiation and multiplication, independent sl2 matrix brackets, nilpotent normal integrating factor, both normal metric signs, two nonconstant positive weights, 36 quadratic basis fields plus one mixed field per case.",
+            "Inspected certificate metadata, all grouped outcomes and case counts, normal-lift sample coefficients, dependency-only hashes and finite scope. The 148 lifts and rank108 control calibrate the written theorem; they do not replace it.",
+            "Checked the zero-order polynomial map design: a derivative row uniquely reconstructs its nonconstant monomial column, giving distinct nonzero diagonal pivots for 108 columns.",
+            "Checked the Lorentzian flat superpotential formula uses contravariant stress and ordinary contracted divergence consistently, and rejects a wrong cross sign.",
+            "Checked that fixed_normal_failures means theta_normal identically zero throughout the collar; it is not failure of zero initial normal data, which all valid lifts satisfy.",
+            "Read all four Lean statements and proofs; they formalize algebraic compensation, surjective inference, free-jet coefficients and commuting flat derivatives only.",
+            "Independently computed SHA256 of all four artifact byte streams and matched the frozen binding file.",
+            "Verified sole report action_owner metadata correction by inverting its exact byte replacement and reproducing prior report SHA256 2a50e743e66a69a0574a34061e7b155a01fafed2e82b4c80b7b268ddca3cb678; all other bound artifacts unchanged."
+          ],
+          "caveats": [
+            "Smooth Gaussian geometry, bundle extension, smooth ODE dependence and free-jet realization remain written proof, not a full Lean PDE formalization.",
+            "Local germs only: no uniform tube, norm estimate, global boundary or flux theorem, physical quotient, or null-section claim.",
+            "Only the ambient coderivative equation is imposed; full source or candidate Euler solution spaces and their additional constraints are not classified.",
+            "The source does not select this coderivative-only premise, readout or physical domain. This is a conditional bridge-class exclusion, not GU falsification or source prediction credit.",
+            "Probe/certificate replay and compilation are root-owned. No fresh execution result is attributed to this reviewer."
+          ],
+          "external_verification_attribution": {
+            "root_reported_exact_replay": {
+              "passed": true,
+              "grouped_controls": 61,
+              "collar_lifts": 148
+            },
+            "lean_compile": "Root reports PASS for four finite cores, with one unnecessarySeqFocus style warning. Not compiled by this reviewer."
+          },
+          "not_run": [
+            "Probe execution or import",
+            "Certificate arithmetic regeneration",
+            "Lean compilation",
+            "Native geometry or tensor reconstruction",
+            "Old result replay",
+            "Owner file edits"
+          ],
+          "unresolved_mathematical_corrections": [],
+          "metadata_rebind": {
+            "report_sha256": "1753551df78ce20fd70f95abac7f835d5e9442fc2c09bbb76a9be2c221eab933",
+            "inverse_edit_restores_prior_hash": true,
+            "proof_changes": false
+          }
+        }
+      },
+      {
+        "role": "independent source/global specialist",
+        "receipt_sha256": "2bfb5f66f41111f8f947e0605c3e1e8dcf6127ceaddbbc5f22476a14b0ea5784",
+        "receipt": {
+          "accepted": true,
+          "review_role": "independent source/global geometry specialist",
+          "tier": "T1 conditional conservation-descent class result",
+          "report_sha256": "1753551df78ce20fd70f95abac7f835d5e9442fc2c09bbb76a9be2c221eab933",
+          "probe_sha256": "d2c5f91e35a736298cd89d9a3206e8d37ba806724d5549e52a8c8389e3fb3f5a",
+          "manifest_sha256": "3d0912b57750fe305dc653992e614786b53b0f6c88cdb31d99d7037c8dbd8db2",
+          "lean_sha256": "cb128c3869b2ce96b57b61e4e4a979c731e13b042dc7f1b06cc647979132e3b0",
+          "own_checks": [
+            "Read final report, full finite probe, certificate scope/metadata and four Lean cores.",
+            "Independently checked existence of local nonnull normal and nondegenerate hypersurface containing the section; Gaussian collar makes mixed inverse-metric entries vanish throughout the collar and leaves a genuine normal ODE.",
+            "Checked arbitrary prescribed observed beta extends through freely chosen remaining tangential components, with smooth parameter-dependent ODE solution for mu*epsilon*theta_r and exact unchanged literal trace. No fixed common tube or global extension follows.",
+            "Checked affine adjoint connection difference A=B+s*theta contracts to zero by symmetry of G inverse and antisymmetry of the bracket; prescribed scalar s has no differentiated contribution. General theta-dependent metrics, weights or connections remain outside.",
+            "Checked readout surjectivity implies finite-jet conservation is an off-shell identity; independent first jets force all zero-order beta derivatives to vanish, with connected field-domain hypothesis and background-only divergence still required.",
+            "Read finite controls: real sl2 preserves the displayed indefinite Hermitian form, nilpotent adE integrating factor and inverse formula cover the nonabelian collar fixtures; both normal signs and density terms are retained.",
+            "Checked flat differential superpotential control uses raised contravariant components consistently with metric diag(1,-1); it is nonzero and identically conserved, not a curved-metric or physical-stress construction.",
+            "Checked source SC-COS50/51/52 provenance and explicit missing coderivative/readout/physical-domain bridge; actual W2 stationary equations are not assumed solved. No source, quantum, cosmology data or GU verdict inferred.",
+            "Authenticated four artifact hashes and all certificate dependency-only hashes by scalar file reads. Certificate reports61 grouped checks,148 lifts and rank108 finite chain-rule calibration; no old certificate execution inferred.",
+            "Metadata-only rebind: reversed the single action_owner token correction in memory and reproduced accepted report SHA2a50e743e66a69a0574a34061e7b155a01fafed2e82b4c80b7b268ddca3cb678 exactly. All four updated bindings match; science and other three artifact bytes unchanged."
+          ],
+          "caveats": [
+            "Fixed smooth nondegenerate G, nondegenerate positive-codimension section, fixed smooth coefficient connection and positive theta-independent weight are essential premises, except for the explicitly cancelling affine adjoint connection case.",
+            "The universal statement is about local smooth conservation-only germs with unrestricted observed data; full Euler equations, physical restrictions, boundary fluxes and global domains may remove surjectivity and are not adjudicated.",
+            "Zero-order field independence is on each connected open field-value domain, not spacetime constancy; higher-order readouts can be nonzero off-shell identities.",
+            "No norm estimate, solution-trace nonclosability, numerical cosmology prediction or automatic matrix/ledger absorption follows.",
+            "Four Lean cores formalize finite compensation, logical surjectivity, coefficient extraction and a commuting-derivative identity; Gaussian geometry, smooth ODE and source applicability remain written dependencies."
+          ],
+          "not_run": [
+            "No finite probe or old candidate/root execution",
+            "No Lean compilation or full build",
+            "No native geometry or operator construction",
+            "No new source search",
+            "No repository owner edits"
+          ],
+          "verification_notice": "Root reports four Lean cores passed with one unnecessarySeqFocus style warning and no errors/placeholders; reviewer performed no compilation."
+        }
+      },
+      {
+        "role": "independent hostile reviewer",
+        "receipt_sha256": "285c5e8d9fe87c4145f118452714656c1f31642c7469470a53f3e0f59a719f7c",
+        "receipt": {
+          "schema": "independent_mathematical_hostile_review_v1",
+          "date": "2026-11-27",
+          "reviewer": "/root/falsification_rerank",
+          "role": "independent hostile T1 mathematical and source-scope review",
+          "worktree": "/private/tmp/gu-conservation-descent-wt-20261127",
+          "basis_revision": "862183e9ed9019dc6bb777ba4666a70d5864da01",
+          "accepted": true,
+          "verdict": "PASS for the declared local conservation-only implication class",
+          "blocking_issues": [],
+          "requested_corrections": [],
+          "bindings": {
+            "explorations/conditional-build/bet-cosmology-conservation-descent-2026-11-27.md": "1753551df78ce20fd70f95abac7f835d5e9442fc2c09bbb76a9be2c221eab933",
+            "tests/program-focus/conservation_descent_probe.py": "d2c5f91e35a736298cd89d9a3206e8d37ba806724d5549e52a8c8389e3fb3f5a",
+            "lab/process/bet-cosmology-conservation-descent-certificates.json": "3d0912b57750fe305dc653992e614786b53b0f6c88cdb31d99d7037c8dbd8db2",
+            "Lean/GUFormalization/ConservationDescent.lean": "cb128c3869b2ce96b57b61e4e4a979c731e13b042dc7f1b06cc647979132e3b0"
+          },
+          "scope": {
+            "ambient": "Fixed smooth nondegenerate pseudo-Riemannian metric, nondegenerate embedded observed section of positive codimension, finite-rank coefficient bundle with fixed smooth connection, and fixed smooth positive scalar weight independent of theta.",
+            "solutions": "Local smooth germs solving only the displayed weighted covariant coderivative equation; in the adjoint case also A=B+s theta by the exact pointwise cancellation.",
+            "readout": "Smooth finite-order rule depending only on literal observed beta and its tangential jets, with fixed backgrounds.",
+            "conclusion": "The trace map is surjective onto arbitrary local smooth beta. Conservation of such a readout on every admitted ambient germ is equivalent to an off-shell identity for every beta. A zero-order conserved readout is beta-independent on each connected component of its open field-value fibre domain."
+          },
+          "challenges": [
+            {
+              "id": "Gaussian_collar",
+              "status": "PASS",
+              "finding": "Nondegeneracy gives a locally nonnull normal n. A tubular parametrization using the other normal directions constructs H containing S with TH|S=n-perp; it stays nondegenerate after shrinking. Its normal exponential gives the required pseudo-Riemannian Gaussian collar. No global collar or integrability of an arbitrary off-section distribution is assumed."
+            },
+            {
+              "id": "genuine_smooth_ODE",
+              "status": "PASS",
+              "finding": "G^{ra}=0 makes u^a=G^{ab}theta_b known independently of theta_r. With w=mu epsilon theta_r, the equation is w_r+A_r w=-F for known smooth F. A fundamental matrix U_r=-A_r U yields w=U(w0-integral U^-1 F), with smooth parameter dependence. This gives a solution neighborhood, not merely a principal-symbol or finite-jet solution."
+            },
+            {
+              "id": "surjectivity",
+              "status": "PASS",
+              "finding": "The prescribed beta extends smoothly to the collar tangential components in a local coefficient-bundle trivialization. The solved normal term pulls back to zero on S. Hence the trace is exactly beta and all tangential jets are unchanged, for either normal sign and any fixed positive smooth weight."
+            },
+            {
+              "id": "finite_jet_consequence",
+              "status": "PASS",
+              "finding": "Apply the assumed observed conservation to a lift of each arbitrary beta. Every finite smooth jet can be locally realized, so the resulting relation is an off-shell jet identity. The converse is immediate. The proof uses unrestricted local germs and does not import a full Euler or physical solution class."
+            },
+            {
+              "id": "zero_order_fibre_components",
+              "status": "PASS",
+              "finding": "At fixed x and beta, all first derivatives partial_lambda beta_A are independent. Their coefficients g^{mu lambda} partial F_mu nu/partial beta_A must vanish; invertibility of g makes each field derivative zero. Connected fibre-domain components are the correct scope. Background dependence may remain and must satisfy its own divergence identity."
+            },
+            {
+              "id": "affine_connection",
+              "status": "PASS",
+              "finding": "For A=B+s theta, the coderivative difference is -s G^{ij}[theta_i,theta_j]=0. Symmetric contraction is the entire cancellation; no derivative of s occurs in this algebraic connection variation. General field-dependent coefficients and full stationary equations are not covered by this identity."
+            },
+            {
+              "id": "probe_controls",
+              "status": "PASS",
+              "finding": "The exact nonabelian collar solves the normal equation with (adE)^3=0, includes both normal signs and nonconstant positive weights, and calibrates density/connection/sign failures. Its148 lifts and108-column polynomial rank are finite controls rather than the universal proof."
+            },
+            {
+              "id": "normal_control_semantics",
+              "status": "PASS",
+              "finding": "The fixed_normal_failures control means forcing the normal component identically zero throughout the collar. It does not reject zero normal INITIAL DATA: all148 constructed lifts explicitly satisfy zero normal data on z=0 while their normal derivatives compensate the forcing."
+            },
+            {
+              "id": "differential_positive_control",
+              "status": "PASS",
+              "finding": "The report lower-index flat superpotential and code upper-index Lorentzian matrix are equivalent. The latter is [[phi_yy,-phi_xy],[-phi_xy,phi_xx]] and has zero ordinary divergence. This prevents promoting zero-order field independence into an exclusion of all derivative-dependent readouts. Curved replacement is not asserted."
+            },
+            {
+              "id": "source_COS50_51_52",
+              "status": "PASS",
+              "finding": "The inspected TOE and UCSD passages require an automatic identity and identify an adjoint one-form replacement. They do not specify the displayed coderivative alone, an observed-only stress rule, or unrestricted local solution germs. The result therefore tests a conditional bridge class without refuting the source cosmology claim."
+            },
+            {
+              "id": "Lean_scope",
+              "status": "PASS",
+              "finding": "The four Lean cores state finite normal compensation, the surjectivity inference, free-jet coefficient elimination and a flat commuting-derivative identity. Gaussian geometry, smooth ODE existence, bundle extension and connected-domain field independence remain written mathematics."
+            }
+          ],
+          "certificate_read_checks": {
+            "all_four_final_hashes_match": true,
+            "probe_hash_matches_certificate": true,
+            "all_seven_dependency_hashes_match": true,
+            "stored_checks": 61,
+            "declared_checks": 61,
+            "all_stored_checks_true": true,
+            "stored_exact_lifts": 148,
+            "stored_zeroorder_polynomial_rank": 108
+          },
+          "dependency_only_sha256": {
+            "Lean/GUFormalization/ThetaDivergence.lean": "674e527a145394ae1bac8c02ace38cd1fee21e252812e71ae238b92d01441872",
+            "canon/dark-energy-theta-divergence-free.md": "0d43aa68cbecdf9f4cd0ebabf2a312f2c335903b775820407fc8dd5f11884119",
+            "explorations/conditional-build/natural-density-fibre-volume-2026-11-25.md": "df63b8dc72864e6ab919b326e07f328b0acb2e6fcae44954ce695f8d33dd40a2",
+            "explorations/conditional-build/source-action-theta-divergence-2026-11-27.md": "db8e440623173743596a83bef6f9db53e702246332bf59e299dea2e394f7dcdf",
+            "lab/process/source-action-theta-divergence-certificates.json": "2aa58c4c4c507b22104c42fba326776b035828294397d2d0591668d5e0a46091",
+            "lab/sources/source-claim-register.yaml": "dc3ae173b4cc0eb2a0e343e3d92d5f110b8e4f6eef3e2852a1e897ab4371ade6",
+            "tests/program-focus/source_action_theta_divergence_probe.py": "93fb6c4fbe5ea51ab78ddea9f1e344e0894646e390da76a19567ced7f577c038"
+          },
+          "source_passages_read_sha256": {
+            "lab/sources/transcripts/toe-weinstein-gu-40-years.md": "e3af5cda82d7ff397e4cf6a283d560a01a930e11de942e51426f019b5dfe47b7",
+            "papers/drafts/Transcript into the impossible.md": "96ed4c10383a4088887f6a2222a2868ea18e7652dd432544988c01b0ea7258c7"
+          },
+          "external_references_checked": [
+            "https://math.stanford.edu/~conrad/diffgeomPage/handouts/linearode.pdf",
+            "https://math.stanford.edu/~conrad/diffgeomPage/handouts/intcurve.pdf",
+            "https://www.math.wustl.edu/~feres/545.pdf"
+          ],
+          "written_math_notes": "/private/tmp/gu-conservation-descent-hostile-math-notes-20261127.md",
+          "caveats": [
+            "No probe execution, Lean compilation, native or heavy job by this reviewer. Owner reports the fresh61-check148-lift replay; compilation remains separately owned.",
+            "Stored records, exact hashes, code and mathematical implications were reviewed; this is not an independently rerun test certificate.",
+            "No common-tube estimate, small-norm sequence, trace nonclosability, global flux/boundary extension or finite-energy theorem follows.",
+            "Additional equations, physical quotients, imposed symmetries, null sections and normal-jet/nonlocal readouts are outside the declared class; no survivor is proved sufficient or selected.",
+            "No new action, stress map, weight choice, state restriction, cosmological calibration, source/GU verdict or governance effect.",
+            "No counterexample found within the stated class; acceptance is conditional on its explicitly fixed geometric and readout hypotheses."
+          ],
+          "rebind_addendum": {
+            "accepted": true,
+            "change": "Report action_owner label changed to repository-construction of a conservation-equation comparison only; no action or stationary system constructed.",
+            "old_report_sha256": "2a50e743e66a69a0574a34061e7b155a01fafed2e82b4c80b7b268ddca3cb678",
+            "new_report_sha256": "1753551df78ce20fd70f95abac7f835d5e9442fc2c09bbb76a9be2c221eab933",
+            "inverse_single_edit_reproduces_old_sha256": true,
+            "proof_changes": false,
+            "other_three_bindings_unchanged": true,
+            "owner_reported_Lean": "Four cores passed with no errors/placeholders; one unnecessarySeqFocus style warning.",
+            "reviewer_execution": "Byte/hash verification and scratch receipt update only; no test or Lean execution."
+          }
+        }
+      }
+    ],
+    "gates": {
+      "program_focus_audit": "PASS",
+      "typed_carrier_declaration_audit": "PASS",
+      "kill_target_claim_audit": "PASS",
+      "frontmatter_status_schema_audit": "PASS",
+      "source_native_comparator_routing_audit": "PASS",
+      "lean_certificate_surface_audit": "PASS",
+      "current_state_absolute_currency_audit": "PASS"
+    }
+  },
+  "effect_line": "Change: replace individual stress-readout tests with a smooth extension theorem covering all local readouts. Why: one normal flux absorbs arbitrary observed data. Authority: Joe27(c). Applied: scoped LC evidence and reuse coverage. Effect: algebraic readout retests consumed; longer-term savings not yet measured."
+}

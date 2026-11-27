@@ -254,3 +254,7 @@ replacement for `lake build` or targeted standalone Lean checks.
 ### 2026-11-27 — Endpoint cubic finite cores
 
 `GUFormalization/EndpointCubic.lean`: exact183/8 arithmetic, zero-linear-row polynomial extraction, symmetric mixed expansion and two leading-term positivity/nonzero cores. Analyticity, native geometry and full coupled stationarity remain written/inherited dependencies; no numerical radius.
+
+## 2026-11-27 — Conservation descent finite cores
+
+`GUFormalization/ConservationDescent.lean`: **LEAN-VERIFIED**, four finite lemmas: normal-jet compensation, surjective consequence equivalence, vanishing free-jet coefficient row and flat superpotential divergence. Targeted single-thread compilation passed with one style linter warning about unnecessary tactic sequencing and no placeholders. Smooth Gaussian/ODE extension, bundle geometry and source/physical applicability remain separately reviewed written mathematics; no full-PDE or whole-project verification claim. [Result](../explorations/conditional-build/bet-cosmology-conservation-descent-2026-11-27.md).

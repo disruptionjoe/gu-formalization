@@ -2707,7 +2707,7 @@
   ],
   "program_run_counter": {
     "since": "2026-11-09",
-    "count": 91,
+    "count": 92,
     "rule": "Every hourly run increments this in its postflight, whatever its lane. Lane C runs when count % 4 == 3 before the increment."
   },
   "working_rule": "Cells are worked at the structure level: a requirement must hold for every action in class C or for a structurally defined subfamily. No cell is worked by writing down a specific action, and no gated cell is worked by building its gate object. See CURRENT-STATE.yaml program_focus.structure_not_specifics.",
@@ -3515,6 +3515,22 @@
       ],
       "claim_effect": "No matrix cell/intersection/shrinkage, ledger, canon, source, C or paper verdict. Extend evidence for the existing failed candidate-to-printed-endpoint bridge.",
       "cadence_note": "One scientific wave; LBCLASS47to48, no betcredit. Nextordinaryslot LC byunchangedrule."
+    },
+    {
+      "date": "2026-11-27",
+      "authority": "joe_direct_chat_2026_11_27_c",
+      "item": "Weighted bulk conservation versus observed stress readouts",
+      "tier": "T1",
+      "counter_before": 91,
+      "counter_after": 92,
+      "lane": "LC-BETS",
+      "actual_delta": "Weighted covariantly coclosed one-forms restrict surjectively onto arbitrary smooth local observed one-forms. Conservation of any finite-order observed-only stress readout is therefore an off-shell identity or requires additional premises; every zero-order such readout is field-independent on each connected field domain.",
+      "evidence": [
+        "explorations/conditional-build/bet-cosmology-conservation-descent-2026-11-27.md",
+        "lab/process/bet-cosmology-conservation-descent.json"
+      ],
+      "claim_effect": "LC evidence only; no scientific matrix/assumption import, canon, ledger, source or paper verdict.",
+      "cadence_note": "One scientific LC wave; COSMOLOGY3to4, remaining21to20. B lane counts and scientific matrix/assumption view unchanged."
     }
   ],
   "directed_lc_carry_2026_11_24_b": {

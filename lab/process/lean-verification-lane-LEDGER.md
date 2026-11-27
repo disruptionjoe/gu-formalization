@@ -587,3 +587,7 @@ bicategory, ambidexterity or Mackey 2-functor is inferred.
 ## 2026-11-27 — Endpoint cubic finite cores
 
 `Lean/GUFormalization/EndpointCubic.lean` registers five finite cores for the analytic-branch endpoint result: exact coefficient, extraction, polarization and conditional positivity/nonzero. Targeted check recorded in `lab/process/source-action-endpoint-cubic.json`; no full PDE/source formalization.
+
+## 2026-11-27 — Conservation descent finite cores
+
+`Lean/GUFormalization/ConservationDescent.lean`: **LEAN-VERIFIED**, four finite lemmas: normal-jet compensation, surjective consequence equivalence, vanishing free-jet coefficient row and flat superpotential divergence. Targeted single-thread compilation passed with one style linter warning about unnecessary tactic sequencing and no placeholders. Smooth Gaussian/ODE extension, bundle geometry and source/physical applicability remain separately reviewed written mathematics; no full-PDE or whole-project verification claim. [Result](../../explorations/conditional-build/bet-cosmology-conservation-descent-2026-11-27.md).

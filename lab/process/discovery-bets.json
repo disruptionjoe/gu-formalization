@@ -138,11 +138,11 @@
       "start_pointer": "CANON.md, theta-field-flrw-dark-energy-eos.md row (corrections DARK-ENERGY-02 to -06)",
       "kill_criterion": "Within the time box, every variant tried is either excluded at theta-star calibration (delta chi^2 >= +10 against DESI DR2 BAO) or has |w0 + 1| < 0.1 everywhere it is allowed.",
       "status": "active",
-      "runs_used": 3,
+      "runs_used": 4,
       "zero_delta_streak": 0,
       "result": {
-        "status": "active_with_candidate_conservation_exclusion",
-        "actual_delta": "Both kappa1 coupled stationary roots have certified nonzero ambient and literal-section coderivatives of the reconstructed theta. The ambient homogeneous map has rank12/kernel47; the observed map rank11/kernel48. The entire sufficiently-small nonzero inverse-kappa analytic branch fails ambient conservation first at order h3, coefficient -27/32, and observed conservation at order h, coefficient21/16. This excludes the automatic C3 implication for this action/dictionary, not GU.",
+        "status": "active_with_conditional_conservation_descent_result",
+        "actual_delta": "Weighted covariantly coclosed one-forms restrict surjectively onto arbitrary smooth local observed one-forms. Conservation of any finite-order observed-only stress readout is therefore an off-shell identity or requires additional premises; every zero-order such readout is field-independent on each connected field domain.",
         "evidence": [
           "explorations/conditional-build/bet-cosmology-regular-perturbations-2026-11-24.md",
           "tests/program-focus/bet_cosmology_regular_perturbations_probe.py",
@@ -151,7 +151,9 @@
           "explorations/conditional-build/source-action-theta-divergence-2026-11-27.md",
           "lab/process/source-action-theta-divergence.json",
           "lab/process/source-action-theta-divergence-certificates.json",
-          "lab/process/hostile-reviews/2026-11-27-source-action-theta-divergence-review.md"
+          "lab/process/hostile-reviews/2026-11-27-source-action-theta-divergence-review.md",
+          "explorations/conditional-build/bet-cosmology-conservation-descent-2026-11-27.md",
+          "lab/process/bet-cosmology-conservation-descent.json"
         ],
         "prior_evidence": [
           "explorations/conditional-build/bet-cosmology-fixed-potentials-2026-11-11.md",
@@ -161,10 +163,10 @@
         "retained_background_diagnostic": "BET-COSMOLOGY active: two fixed speculative scalar potentials tested with initial-state acoustic calibration. Central BAO differences are44.89(EXP) and15.23(COS); an equal approximate matter-prior profile with sound-integral ruler ratios gives21.52 and4.13. COS remains nonmimic(w0=-0.84467) in this diagnostic, not a full-CMB or source-native realization. Canonical acoustic ordering and a uniform fixed-event raw sound-deficit bound below6e-6 Mpc are proved; no source, ledger or matrix verdict.",
         "guessed_action_variants": 2,
         "new_action_variants_this_run": 0,
-        "remaining_runs": 21,
+        "remaining_runs": 20,
         "matrix_or_ledger_effect": "none",
         "full_cmb_consistency": "not_supplied",
-        "next_condition": "The printed-endpoint comparison is consumed by the endpoint-onshell result; fixed-linear direct-Riemann architecture is separately scoped by Riemann-silence. A cosmology continuation needs the actual conserved physical stress/readout and source/state bridge or the already-named complete-CMB inputs for held EXP/COS. No repeated endpoint calculation or native K95 transfer is counted as a cosmology bet.",
+        "next_condition": "Ambient coclosure alone supplies no new local observed identity. Any future source conservation test needs an actual stress/readout and additional equation/domain bridge or an already identically conserved readout, with source selection checked. Do not retest zero-order readouts within this excluded implication class. Held EXP/COS full-CMB inputs remain separate and open.",
         "prior_regular_perturbation_result": {
           "status": "active_with_conditional_structural_result",
           "actual_delta": "Held EXP/COS admit regular radiation backgrounds; finite-time zero momentum is generically not the exact regular branch. The constrained ideal-fluid perturbation system has three regular amplitudes, including independent scalar isocurvature, and exact Einstein constraint propagation. Negative COS mass curvature alone gives no unavoidable finite-interval inconsistency. No bet kill, full-CMB acceptance or GU inference.",
@@ -206,6 +208,56 @@
             "explorations/conditional-build/source-action-riemann-silence-2026-11-27.md"
           ],
           "accounting": "No bet attempt, new theorem or LC import; correction of stale instruction only."
+        },
+        "prior_candidate_conservation_result": {
+          "status": "active_with_candidate_conservation_exclusion",
+          "actual_delta": "Both kappa1 coupled stationary roots have certified nonzero ambient and literal-section coderivatives of the reconstructed theta. The ambient homogeneous map has rank12/kernel47; the observed map rank11/kernel48. The entire sufficiently-small nonzero inverse-kappa analytic branch fails ambient conservation first at order h3, coefficient -27/32, and observed conservation at order h, coefficient21/16. This excludes the automatic C3 implication for this action/dictionary, not GU.",
+          "evidence": [
+            "explorations/conditional-build/bet-cosmology-regular-perturbations-2026-11-24.md",
+            "tests/program-focus/bet_cosmology_regular_perturbations_probe.py",
+            "lab/process/bet-cosmology-regular-perturbations.json",
+            "lab/process/hostile-reviews/2026-11-24-cosmology-regular-perturbations-review.md",
+            "explorations/conditional-build/source-action-theta-divergence-2026-11-27.md",
+            "lab/process/source-action-theta-divergence.json",
+            "lab/process/source-action-theta-divergence-certificates.json",
+            "lab/process/hostile-reviews/2026-11-27-source-action-theta-divergence-review.md"
+          ],
+          "prior_evidence": [
+            "explorations/conditional-build/bet-cosmology-fixed-potentials-2026-11-11.md",
+            "tests/program-focus/bet_cosmology_fixed_potentials_probe.py",
+            "lab/process/bet-cosmology-fixed-potentials.json"
+          ],
+          "retained_background_diagnostic": "BET-COSMOLOGY active: two fixed speculative scalar potentials tested with initial-state acoustic calibration. Central BAO differences are44.89(EXP) and15.23(COS); an equal approximate matter-prior profile with sound-integral ruler ratios gives21.52 and4.13. COS remains nonmimic(w0=-0.84467) in this diagnostic, not a full-CMB or source-native realization. Canonical acoustic ordering and a uniform fixed-event raw sound-deficit bound below6e-6 Mpc are proved; no source, ledger or matrix verdict.",
+          "guessed_action_variants": 2,
+          "new_action_variants_this_run": 0,
+          "remaining_runs": 21,
+          "matrix_or_ledger_effect": "none",
+          "full_cmb_consistency": "not_supplied",
+          "next_condition": "The printed-endpoint comparison is consumed by the endpoint-onshell result; fixed-linear direct-Riemann architecture is separately scoped by Riemann-silence. A cosmology continuation needs the actual conserved physical stress/readout and source/state bridge or the already-named complete-CMB inputs for held EXP/COS. No repeated endpoint calculation or native K95 transfer is counted as a cosmology bet.",
+          "last_run_date": "2026-11-27",
+          "source_oneform_scope": {
+            "action": "Existing W2/K95 candidate, no new guessed action/potential",
+            "source_bridge": {
+              "status": "conditional",
+              "reason": "The source prints a distortion one-form and demands an automatic differential identity, but does not uniquely select this action, K95 realization, theta dictionary or particular coderivative. The displayed dictionary is exact within the reconstructed candidate; a 4D Einstein stress/readout bridge remains absent."
+            },
+            "bet_wide_verdict": "none",
+            "observed_Einstein_stress": "not_supplied",
+            "physical_cosmological_state": "not_supplied"
+          },
+          "consumed_endpoint_direction_2026_11_27": {
+            "status": "consumed",
+            "direction": "Compare the actual stationary Euler equation with the source-shaped endpoint residual using the now-typed literal bosonic one-form contraction, keeping equation owners distinct. First authenticate the endpoint/glyph dictionary and existing coverage. If the exact same held endpoint is owned, evaluate its full residual and section contraction at the two certified roots and first relevant analytic coefficient. Raise the degree13 endpoint with the ambient Hodge/pairing before literal one-form pullback; direct degree13 section pullback vanishes dimensionally. Do not repeat the known off-shell Helmholtz defect or use fermionic F/R as a bosonic decoder. If the source endpoint is not authenticated, record that exact scope and select another eligible target.",
+            "evidence": [
+              "explorations/conditional-build/source-action-endpoint-onshell-2026-11-27.md",
+              "explorations/conditional-build/source-action-riemann-silence-2026-11-27.md"
+            ],
+            "accounting": "No bet attempt, new theorem or LC import; correction of stale instruction only."
+          }
+        },
+        "local_descent_scope": {
+          "status": "conditional",
+          "reason": "The source requires an automatic dark-energy identity and names an adjoint one-form, but does not select this coderivative alone, a local stress readout, unrestricted local solution germs or the physical domain. The theorem tests a proposed implication class, not the full source equations."
         }
       }
     }
