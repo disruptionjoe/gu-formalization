@@ -17,6 +17,14 @@ External review is not a pathway in this program. The honesty label stays: inter
 
 Sections below are historical snapshots in file order.
 
+## Actual horizontal constraint sources repaired (2026-11-26)
+
+Both actual horizontal spin5 consistency sources have native M preimages at both kappa1 roots, certified on a new120-dimensional highest5 receiver invariant under all59 background maps. All horizontal two-jets on Q pass first consistency in the stated equivariant jet splitting. No candidate or GU exclusion; mixed/normal jets and propagation remain open.
+
+Exact receiver closure and both-root bounds support first-consistency survival; they do not establish a physical solution space.
+
+[Result](explorations/conditional-build/source-action-constraint-source-repair-2026-11-26.md) · [Evidence](lab/process/source-action-constraint-source-repair.json).
+
 ## Actual constraint consistency and two source classes (2026-11-26)
 
 Pure geometric PKGKP is order zero. Horizontal kernel-multiplier derivatives vanish modulo im M. The two tested horizontal spin5 second-jet classes equal minus exact census cases8/17 (56/80 terms); normal and zero-order multiplier repairs remain. No GU or candidate inconsistency established.

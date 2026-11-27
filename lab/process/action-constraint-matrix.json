@@ -1788,7 +1788,7 @@
     },
     "LB-CLASS": {
       "zero_delta_streak": 0,
-      "runs": 32,
+      "runs": 33,
       "status": "open"
     },
     "LB-LADDER": {
@@ -2707,7 +2707,7 @@
   ],
   "program_run_counter": {
     "since": "2026-11-09",
-    "count": 73,
+    "count": 74,
     "rule": "Every hourly run increments this in its postflight, whatever its lane. Lane C runs when count % 4 == 3 before the increment."
   },
   "working_rule": "Cells are worked at the structure level: a requirement must hold for every action in class C or for a structurally defined subfamily. No cell is worked by writing down a specific action, and no gated cell is worked by building its gate object. See CURRENT-STATE.yaml program_focus.structure_not_specifics.",
@@ -3227,6 +3227,21 @@
         "lab/process/source-action-constraint-consistency.json"
       ],
       "claim_effect": "No source/physics/canon/class-C/scientific-matrix/paper verdict change"
+    },
+    {
+      "date": "2026-11-26",
+      "authority": "joe_direct_chat_2026_11_26_continued_falsification_math20",
+      "item": "Actual horizontal constraint sources absorbed at both roots",
+      "tier": "T2",
+      "counter_before": 73,
+      "counter_after": 74,
+      "lane": "LB-CLASS",
+      "actual_delta": "Both actual horizontal spin5 consistency sources have native M preimages at both kappa1 roots, certified on a new120-dimensional highest5 receiver invariant under all59 background maps. All horizontal two-jets on Q pass first consistency in the stated equivariant jet splitting. No candidate or GU exclusion; mixed/normal jets and propagation remain open.",
+      "evidence": [
+        "explorations/conditional-build/source-action-constraint-source-repair-2026-11-26.md",
+        "lab/process/source-action-constraint-source-repair.json"
+      ],
+      "claim_effect": "No matrix cell/intersection, source/physics/canon/class-C or paper verdict change. No physical ghost or GU falsification."
     }
   ],
   "directed_lc_carry_2026_11_24_b": {
@@ -3577,7 +3592,9 @@
           "explorations/conditional-build/source-action-q7-propagation-2026-11-26.md",
           "lab/process/source-action-q7-propagation.json",
           "explorations/conditional-build/source-action-constraint-consistency-2026-11-26.md",
-          "lab/process/source-action-constraint-consistency.json"
+          "lab/process/source-action-constraint-consistency.json",
+          "explorations/conditional-build/source-action-constraint-source-repair-2026-11-26.md",
+          "lab/process/source-action-constraint-source-repair.json"
         ],
         "choices": "Historical original choices are retained below; current held fermion repair is SE=-1/2 (SE0 superseded), kappa1 with two unselected roots. Typed candidate_choice_budget separates core/completion/pending/comparator/parked choices.",
         "wave2_update": {
@@ -4232,6 +4249,56 @@
               "SC-META-53": "UNCERTAIN physical treatment of indefinite spectra"
             },
             "physics_rows": "LT-GR1,LT-GR6b,LT-SM8 retain their current verdicts and physical quotient/domain burdens."
+          },
+          "superseded_continuation": "lab/process/source-action-constraint-source-repair.json"
+        },
+        "constraint_source_repair_followthrough": {
+          "state": "Both actual horizontal spin5 consistency sources have native M preimages at both kappa1 roots, certified on a new120-dimensional highest5 receiver invariant under all59 background maps. All horizontal two-jets on Q pass first consistency in the stated equivariant jet splitting. No candidate or GU exclusion; mixed/normal jets and propagation remain open.",
+          "next": [
+            {
+              "id": "mixed_horizontal_normal_consistency",
+              "status": "ready",
+              "target": "LB-CLASS",
+              "tier": "T2",
+              "task": "Assemble the actual mixed horizontal-normal principal consistency map using the owned primary Q lift and L1=PKxiGCP+PCGKxiP. Reduce to two spin4 and six spin5 representation channels over both Q copies; test existing E4, old E5 and the new E5 receiver first. No default inverse expansion.",
+              "expected_delta": "Resolve the remaining mixed principal obstruction or name a genuine reached class requiring a full augmented test.",
+              "class_covered": "Actual mixed second-jet first-consistency map on Q in the same W2/K95 quadratic block, both held roots.",
+              "source_bridge": "Candidate requirement only; source-required physical admission and propagation remain unproved.",
+              "remaining_cost": "Eight possible reduced channels and known primary inverses; exact source assembly/membership before new receiver construction.",
+              "kill_condition": "Only a dual annihilating full M and all permitted normal/zero-order kernel repairs obstructs a named jet. Failed membership is not a kill."
+            },
+            {
+              "id": "normal_lower_and_higher_consistency",
+              "status": "conditional_after_mixed_test",
+              "target": "LB-CLASS",
+              "tier": "T2",
+              "task": "Handle actual normal-first and normal-normal jets and higher time consistency for a specifically stated survivor category. Pure-horizontal lower-order terms are already absorbed by complete spin6/7 inverses; do not recalculate them.",
+              "expected_delta": "A closed constraint/evolution category for actual admissible data.",
+              "revival_input": "Mixed-source disposition and exact surviving jet category; no automatic whole-normal inverse backlog."
+            },
+            {
+              "id": "physical_weak_readout",
+              "status": "blocked_on_authentic_admission_and_propagation",
+              "target": "LB-CLASS",
+              "tier": "T2",
+              "task": "Transport actually propagated candidate response to source-admitted physical observables.",
+              "revival_input": "Common physical domain/quotient, normalized readout and propagation law."
+            }
+          ],
+          "choice_budget_delta": 0,
+          "source_status": {
+            "status": "conditional",
+            "weakest_unproved_link": "W2 and freely specified Q jets are not source-required physical states; full propagation and physical quotient remain unproved.",
+            "source_necessary_exclusion": "absent",
+            "class_C_representativeness": "unchanged/unproved",
+            "source_claims": {
+              "SC-ACT-01": "ASSERTS action grammar, not unique W2",
+              "SC-ACT-06": "ASSERTS Euclidean Upsilon deformation complex, not this Lorentzian propagation",
+              "SC-GEO-51": "ASSERTS full U64_64",
+              "SC-GEO-55": "ASSERTS gauge-rotated LC displacement, not ordinary torsion",
+              "SC-META-53": "UNCERTAIN physical treatment of indefinite spectra"
+            },
+            "physics_rows": "LT-GR1, LT-GR6b, LT-SM8 retain current verdicts and domain/quotient burdens."
           }
         }
       }

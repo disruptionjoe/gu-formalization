@@ -1,0 +1,126 @@
+{
+  "basis_revision": "c27ba0b79576bb6cf5f1c2a7d1517363c411d408",
+  "authority": "joe_direct_chat_2026_11_26_continued_falsification_math20",
+  "status": "internal_T2_native_source_repair_reviewed",
+  "program_target": "LB-CLASS",
+  "tier": "T2",
+  "actual_delta": "Both actual horizontal spin5 consistency sources have native M preimages at both kappa1 roots, certified on a new120-dimensional highest5 receiver invariant under all59 background maps. All horizontal two-jets on Q pass first consistency in the stated equivariant jet splitting. No candidate or GU exclusion; mixed/normal jets and propagation remain open.",
+  "class_covered": "Native autonomous imaginary connection W2/K95 quadratic block at both held real zero-matter kappa1 roots; all horizontal two-jets on Q in an SO3-equivariant adapted jet splitting. No normal/mixed jet or propagated-state theorem.",
+  "premises": [
+    "explorations/conditional-build/source-action-constraint-source-repair-2026-11-26.md",
+    "lab/process/source-action-constraint-source-repair-certificates.json",
+    "lab/process/source-action-constraint-consistency.json"
+  ],
+  "source_bridge": {
+    "status": "conditional",
+    "weakest_unproved_link": "W2 and freely specified Q jets are not source-required physical states; full propagation and physical quotient remain unproved.",
+    "source_necessary_exclusion": "absent",
+    "class_C_representativeness": "unchanged/unproved",
+    "source_claims": {
+      "SC-ACT-01": "ASSERTS action grammar, not unique W2",
+      "SC-ACT-06": "ASSERTS Euclidean Upsilon deformation complex, not this Lorentzian propagation",
+      "SC-GEO-51": "ASSERTS full U64_64",
+      "SC-GEO-55": "ASSERTS gauge-rotated LC displacement, not ordinary torsion",
+      "SC-META-53": "UNCERTAIN physical treatment of indefinite spectra"
+    },
+    "physics_rows": "LT-GR1, LT-GR6b, LT-SM8 retain current verdicts and domain/quotient burdens."
+  },
+  "claim_effect": "No matrix cell/intersection, source/physics/canon/class-C or paper verdict change. No physical ghost or GU falsification.",
+  "certificate_summary": {
+    "receiver_highest5_dimension": 120,
+    "coordinate_support": 2176,
+    "affine_background_maps": 59,
+    "full_image_closure_checks": 7080,
+    "actual_sources": [
+      8,
+      17
+    ],
+    "source_sign": "minus",
+    "root_neumann_bounds": [
+      "22440832750855168390001054741263393189869392932367519647829398335092421458510653603757608846301403070451/119601562499996508131342570986140847822710623717878902994500000000000000000000000000000000000000000000000000000",
+      "1210632385463579977695048062623943646733985213055678434675290948130860141456870383300234446082214993/3588046874999847040225454146242513764163411077524844331562500000000000000000000000000000000000000000000000"
+    ],
+    "root_box_absorption": [
+      true,
+      true
+    ]
+  },
+  "structural_reductions": {
+    "horizontal": "Sym2(V1) times2V7 has one spin5 channel per Q copy; spin6/7 already invertible. Lower horizontal jet terms reach only6/7.",
+    "negative_test": "Seven normal derivative channel types plus one zero-order channel involving kernel spins3/4/5, with complete tensor-product adjoints and native pairings."
+  },
+  "next_directed_worksets": [
+    {
+      "id": "mixed_horizontal_normal_consistency",
+      "status": "ready",
+      "target": "LB-CLASS",
+      "tier": "T2",
+      "task": "Assemble the actual mixed horizontal-normal principal consistency map using the owned primary Q lift and L1=PKxiGCP+PCGKxiP. Reduce to two spin4 and six spin5 representation channels over both Q copies; test existing E4, old E5 and the new E5 receiver first. No default inverse expansion.",
+      "expected_delta": "Resolve the remaining mixed principal obstruction or name a genuine reached class requiring a full augmented test.",
+      "class_covered": "Actual mixed second-jet first-consistency map on Q in the same W2/K95 quadratic block, both held roots.",
+      "source_bridge": "Candidate requirement only; source-required physical admission and propagation remain unproved.",
+      "remaining_cost": "Eight possible reduced channels and known primary inverses; exact source assembly/membership before new receiver construction.",
+      "kill_condition": "Only a dual annihilating full M and all permitted normal/zero-order kernel repairs obstructs a named jet. Failed membership is not a kill."
+    },
+    {
+      "id": "normal_lower_and_higher_consistency",
+      "status": "conditional_after_mixed_test",
+      "target": "LB-CLASS",
+      "tier": "T2",
+      "task": "Handle actual normal-first and normal-normal jets and higher time consistency for a specifically stated survivor category. Pure-horizontal lower-order terms are already absorbed by complete spin6/7 inverses; do not recalculate them.",
+      "expected_delta": "A closed constraint/evolution category for actual admissible data.",
+      "revival_input": "Mixed-source disposition and exact surviving jet category; no automatic whole-normal inverse backlog."
+    },
+    {
+      "id": "physical_weak_readout",
+      "status": "blocked_on_authentic_admission_and_propagation",
+      "target": "LB-CLASS",
+      "tier": "T2",
+      "task": "Transport actually propagated candidate response to source-admitted physical observables.",
+      "revival_input": "Common physical domain/quotient, normalized readout and propagation law."
+    }
+  ],
+  "choice_budget": {
+    "families": 10,
+    "obligation_bundles": 4,
+    "net": 6,
+    "source_selected_predictions": 0,
+    "delta": 0,
+    "reason": "The receiver is a computational certificate, not a physical state restriction or added completion."
+  },
+  "verification": {
+    "native_gates": {
+      "program_focus_audit": "PASS",
+      "typed_carrier_declaration_audit": "PASS",
+      "kill_target_claim_audit": "PASS",
+      "frontmatter_status_schema_audit": "PASS",
+      "source_native_comparator_routing_audit": "PASS",
+      "lean_certificate_surface_audit": "PASS",
+      "current_state_absolute_currency_audit": "PASS"
+    },
+    "native_certificate": "lab/process/source-action-constraint-source-repair-certificates.json",
+    "independent_reviews": "lab/process/hostile-reviews/2026-11-26-source-action-constraint-source-repair-review.md",
+    "lean": "No new Lean claim; T2 native exact certificate plus reviewed representation/jet arguments.",
+    "fresh_installed_bundle_replay": {
+      "status": "PASS",
+      "replay_sha256": "828d1429ef388ae8f4326fe419fb96a72d475c9ddf18fe21d11ad1eeae5bac28",
+      "exact_root_results_and_bindings_match": true,
+      "basis_seconds": 6.673335541039705,
+      "exact_certificate_seconds": 0.32832462480291724
+    },
+    "independent_original_engine_comparisons": 59,
+    "native_basis_equations": 480,
+    "source_membership_coordinates": [
+      4,
+      5
+    ],
+    "highest_weight_reality_closure": true,
+    "protected_surfaces": "program_focus,cells,intersections,shrinkage and choice budget unchanged"
+  },
+  "current_sha256": {
+    "tests/program-focus/source_action_constraint_source_repair_probe.py": "e02c5b73348bea14511cc1fee2d223edb874dc7a8f54a3017441b6ba944be302",
+    "lab/process/source-action-constraint-source-repair-certificates.json": "e040a6ddf631fc65267e33e75e2b630eb3a7a3cf3b51ae0a8888aa6e63f3a03c",
+    "explorations/conditional-build/source-action-constraint-source-repair-2026-11-26.md": "7c5a489dde45341e5c0c013629eec2dcc902c5fe200c42ad5a24c4d9e26df639",
+    "lab/process/hostile-reviews/2026-11-26-source-action-constraint-source-repair-review.md": "5db201387fd0797c2b0b53b5076564c2cc11a155c014e67ab0ed3fa316d62ef4"
+  }
+}

@@ -332,3 +332,14 @@ Mandatory basis: Joe continuing falsification; source audit corrects the decisio
 - **Carried:** lower-order F0, higher consistency, physical admission/readout and actual propagation. No sixteen-source inverse backlog or new completion.
 
 Selection: Joe continuing falsification; structural scope is the actual candidate constraint class, source relevance remains conditional. Owned closed-time and full Lorentz covariance remove derivative assembly. Remaining cost is two sparse native classes and their allowed repairs. A physical readout is a stronger alternative only when admission and propagation are supplied. Directed72to73/LBCLASS31to32; choices10/4/net6/zero predictions unchanged; no governance/scheduler or counterfactual-suite change.
+
+
+## Current continuation: horizontal consistency absorbed (2026-11-26)
+
+[Result](../../../explorations/conditional-build/source-action-constraint-source-repair-2026-11-26.md) · [evidence](../source-action-constraint-source-repair.json).
+
+- **Done,T2:** minus cases8/17 have exact native preimages at both roots. The new120-dimensional highest5 receiver is invariant under all59 maps. With complete spin6/7 blocks this covers all horizontal two-jets onQ in the stated equivariant splitting; normal/mixed coordinates are zero.
+- **Ready,LB-CLASS/T2:** actual mixed horizontal-normal principal map, at most2 spin4+6 spin5 reduced channel types over bothQcopies. Test E4 and both E5 receivers before constructing any new inverse. Negative claims retain the full augmented multiplier test.
+- **Carried:** normal-first, normal-normal, higher consistency and physical propagation/admission. Horizontal lower terms require no further calculation for this first stage.
+
+Selection: continuing Joe-directed falsification; candidate source bridge remains conditional. Existing primary lifts and exact receivers are shared inputs. The mixed principal map has a smaller executable footprint than unrestricted normal closure and a direct actual-equation role. Physical readout remains ineligible without propagation/admission. Directed73to74/LBCLASS32to33;10/4/net6/zero predictions unchanged. No policy, schedule, canon or counterfactual-suite change.

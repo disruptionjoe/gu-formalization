@@ -1348,7 +1348,7 @@
       "selection_note": "Candidate construction/diagnostic only unless its stated structural family and source bridge satisfy current program_focus. A reserve is not scheduled work."
     }
   ],
-  "priority_effect": "Current directed science uses constraint_consistency_2026_11_26: two exact matched source classes (8/17), full native normal/zero-order multiplier repairs. Other optional census columns remain deferred. Ordinary policy/cadence/schedules unchanged.",
+  "priority_effect": "Current directed science uses constraint_source_repair_2026_11_26: all horizontal first-consistency jets pass; next actual mixed horizontal-normal principal map, testing existing receivers before any new inverse. Physical propagation remains open. Policy/cadence/schedules unchanged.",
   "evidence": [
     "explorations/conditional-build/source-action-engineering-wave-2026-11-25.md",
     "lab/process/source-action-engineering-wave.json",
@@ -2003,6 +2003,48 @@
       "Generic matched geometric derivative assembly",
       "All-census-source default continuation"
     ],
-    "counterfactual_status": "Nov26g proposal-only; no suites or governance executed"
+    "counterfactual_status": "Nov26g proposal-only; no suites or governance executed",
+    "continuation_superseded_by": "lab/process/source-action-constraint-source-repair.json"
+  },
+  "constraint_source_repair_2026_11_26": {
+    "report": "explorations/conditional-build/source-action-constraint-source-repair-2026-11-26.md",
+    "evidence": "lab/process/source-action-constraint-source-repair.json",
+    "actual_delta": "Both actual horizontal spin5 consistency sources have native M preimages at both kappa1 roots, certified on a new120-dimensional highest5 receiver invariant under all59 background maps. All horizontal two-jets on Q pass first consistency in the stated equivariant jet splitting. No candidate or GU exclusion; mixed/normal jets and propagation remain open.",
+    "next_directed_worksets": [
+      {
+        "id": "mixed_horizontal_normal_consistency",
+        "status": "ready",
+        "target": "LB-CLASS",
+        "tier": "T2",
+        "task": "Assemble the actual mixed horizontal-normal principal consistency map using the owned primary Q lift and L1=PKxiGCP+PCGKxiP. Reduce to two spin4 and six spin5 representation channels over both Q copies; test existing E4, old E5 and the new E5 receiver first. No default inverse expansion.",
+        "expected_delta": "Resolve the remaining mixed principal obstruction or name a genuine reached class requiring a full augmented test.",
+        "class_covered": "Actual mixed second-jet first-consistency map on Q in the same W2/K95 quadratic block, both held roots.",
+        "source_bridge": "Candidate requirement only; source-required physical admission and propagation remain unproved.",
+        "remaining_cost": "Eight possible reduced channels and known primary inverses; exact source assembly/membership before new receiver construction.",
+        "kill_condition": "Only a dual annihilating full M and all permitted normal/zero-order kernel repairs obstructs a named jet. Failed membership is not a kill."
+      },
+      {
+        "id": "normal_lower_and_higher_consistency",
+        "status": "conditional_after_mixed_test",
+        "target": "LB-CLASS",
+        "tier": "T2",
+        "task": "Handle actual normal-first and normal-normal jets and higher time consistency for a specifically stated survivor category. Pure-horizontal lower-order terms are already absorbed by complete spin6/7 inverses; do not recalculate them.",
+        "expected_delta": "A closed constraint/evolution category for actual admissible data.",
+        "revival_input": "Mixed-source disposition and exact surviving jet category; no automatic whole-normal inverse backlog."
+      },
+      {
+        "id": "physical_weak_readout",
+        "status": "blocked_on_authentic_admission_and_propagation",
+        "target": "LB-CLASS",
+        "tier": "T2",
+        "task": "Transport actually propagated candidate response to source-admitted physical observables.",
+        "revival_input": "Common physical domain/quotient, normalized readout and propagation law."
+      }
+    ],
+    "consumed": [
+      "Cases8/17 native range membership",
+      "Pure-horizontal lower jet source absorption"
+    ],
+    "counterfactual_status": "Nov26g proposal-only; no suite or governance execution"
   }
 }
