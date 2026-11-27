@@ -1,7 +1,7 @@
 schema_version: '1.0'
 repository: observerse-research-program
 branch: main
-revision_basis: cb77c122924f6615574011bffc99b81193ffe58a
+revision_basis: c2d1ea0e4aec45971484df9bfe33795df06322c1
 program_focus:
   version: 2026-11-27-v2
   authority: joe_direct_chat_2026_11_27_h
@@ -196,6 +196,29 @@ program_focus:
       denominator and a judgment label; the fraction of all possible GU realizations closed is unknown.
     authority_boundary: Continue autonomously within existing authority. Existing canon/ledger tiers,
       external and irreversible-action limits remain; no research waiting checkpoint.
+local_complement_2026_11_27:
+  status: internal_T1_local_complement_exclusion_reviewed
+  lane: LC-BETS
+  actual_delta: For the completed wedge/SE weighted b=H unitary native reconstruction, every smooth pointwise
+    same-q invariant complement fails, including nonorthogonal and underlying real-linear maps. Principal
+    Hom vanishes except at p=-23/12 in K77 or +23/12 in actual K95. At those loci every graph has one
+    spinor receiver, so its full moving lower equation forces rankB<=256, contradicting native512. Complex
+    metric-flip rank transfer is explicit.
+  source_bridge:
+    status: conditional
+    reason: SC-OP04 supplies candidate operator grammar; SC-CHI04/52 assert effective low-gravity separation,
+      not exact raw-operator invariant splitting. Physical bar/current/domain and realized count remain
+      unselected.
+  evidence:
+  - explorations/conditional-build/bet-2plus1-local-complement-2026-11-27.md
+  - lab/process/bet-2plus1-local-complement.json
+  next: 'Counter104 returns to ordinary B selection: use the current source-facing shared-prerequisite
+    map and VOI comparison. No repeat of same-q smooth local shears in this weighted completed family.
+    Effective nonlocal elimination, independent input/output maps, normalized-time graphs and physical
+    state/domain selection have different premises; no GU/count inference or lane-B absorption from this
+    lane-C result.'
+  choice_budget_effect: none
+  matrix_or_ledger_verdict_effect: none; LC-only
 normal_characteristic_constraints_2026_11_27:
   status: internal_T1_normal_characteristic_constraints_reviewed
   actual_delta: Every optional geometric normal SU reduction on the closed spin Lorentz section obeys

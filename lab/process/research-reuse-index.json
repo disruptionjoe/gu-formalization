@@ -1902,6 +1902,68 @@
         "receipt_ref": "lab/process/normal-sm-characteristic-constraints.json#verification",
         "scope": "Algebra replay does not prove topology or physical bridge."
       }
+    },
+    {
+      "id": "bet-2plus1-local-complement-2026-11-27",
+      "kind": "result",
+      "owner_ref": "explorations/conditional-build/bet-2plus1-local-complement-2026-11-27.md",
+      "tested_statement": "For the completed wedge/SE weighted b=H unitary native reconstruction, every smooth pointwise same-q invariant complement fails, including nonorthogonal and underlying real-linear maps. Principal Hom vanishes except at p=-23/12 in K77 or +23/12 in actual K95. At those loci every graph has one spinor receiver, so its full moving lower equation forces rankB<=256, contradicting native512. Complex metric-flip rank transfer is explicit.",
+      "signature": {
+        "object": "Smooth invariant complement of fixed observation",
+        "carrier": "S128; H4/N10; full15S, hidden9S, observed6S",
+        "convention": "Raw same domain/codomain r; K77 sigma-1,c11/12; K95 sigma+1,c-11/12; weighted density transported",
+        "class": "Completed wedge/SE, nonzero constant weights, fixed LC jets, complete unitary b=H, native shape; complex and underlying real graphs",
+        "premises": [
+          "lab/process/local-dual-closure-second-fundamental-form.json",
+          "tests/program-focus/local_dual_closure_second_fundamental_form_probe.py",
+          "lab/process/bet-2plus1-unitary-dual-closure.json",
+          "explorations/conditional-build/bet-2plus1-chiral-weight-transport-2026-11-25.md",
+          "tests/channel-swings/eric_curt_wave3d_b2c4_shiab_family_southeast_completion_probe.py",
+          "tests/channel-swings/selected_k77_wedge_shiab_southeast_completion_probe.py"
+        ]
+      },
+      "attributed_status": "internal_T1_local_complement_exclusion_reviewed",
+      "status_ref": "lab/process/bet-2plus1-local-complement.json#status",
+      "source_bridge_ref": "lab/process/bet-2plus1-local-complement.json#source_bridge",
+      "certificate_refs": [
+        "lab/process/bet-2plus1-local-complement-certificates.json",
+        "Lean/GUFormalization/LocalComplement.lean"
+      ],
+      "control_refs": [
+        "tests/program-focus/local_complement_probe.py"
+      ],
+      "survivors_ref": "lab/process/bet-2plus1-local-complement.json#follow_through",
+      "reopen_condition_ref": "explorations/conditional-build/bet-2plus1-local-complement-2026-11-27.md",
+      "superseded_by": null,
+      "cache": {
+        "artifacts": [
+          {
+            "path": "explorations/conditional-build/bet-2plus1-local-complement-2026-11-27.md",
+            "sha256": "31f952231f46e67629eb9b507c59e3cc5172e24497c99d82541623bb417c52fd"
+          },
+          {
+            "path": "tests/program-focus/local_complement_probe.py",
+            "sha256": "e8bc68f9092197a493bab869a1dca91acdc785ea6f1921dc26a1ad9f1360ac37"
+          },
+          {
+            "path": "lab/process/bet-2plus1-local-complement-certificates.json",
+            "sha256": "52ad45118bca3454d5d62fba6bd76b713307ba51ab507bbdef6bd81ca5860766"
+          },
+          {
+            "path": "Lean/GUFormalization/LocalComplement.lean",
+            "sha256": "7d3491a25cffa9e8785ce606607d0f1fe26319f7b1e1df6d09fa836e27c06c29"
+          }
+        ],
+        "verifier": {
+          "command": "python3",
+          "args": [
+            "tests/program-focus/local_complement_probe.py",
+            "--verify"
+          ]
+        },
+        "receipt_ref": "lab/process/bet-2plus1-local-complement.json#verification",
+        "scope": "Finite controls; full geometric theorem reviewed, source relevance conditional; LC only."
+      }
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "basis_revision": "cb77c122924f6615574011bffc99b81193ffe58a",
+  "basis_revision": "c2d1ea0e4aec45971484df9bfe33795df06322c1",
   "scope": "Curated six-pillar x source/class/candidate linked view. Status belongs to cited owners; no scientific verdict promotion, automatic ranking, whole-history coverage or global percentage. Cheapest-next fields are attributed bounded suggestions, not dispatch instructions. Closed means resolved within the cited scope; it does not always mean falsified. Positive fits and remaining source/physical bridges stay explicit.",
   "assumptions_ref": "lab/process/action-constraint-matrix.json#source_relevance_assumption_view.shared_prerequisites",
   "dependencies": [
@@ -94,7 +94,7 @@
     },
     {
       "ref": "lab/process/action-constraint-matrix.json",
-      "sha256": "c2b7caf1869ff0736dc95880fe726904cd0ee8d07b3c26e46b6e755a64546509"
+      "sha256": "e83f1bfcb57a9295887357614077ba6578d322bcb8b6cd42c40adfc5afb7a544"
     },
     {
       "ref": "lab/process/conditional-physics-ledger-v0.263.json",
@@ -147,6 +147,10 @@
     {
       "ref": "explorations/conditional-build/normal-sm-characteristic-constraints-2026-11-27.md",
       "sha256": "231a6b559c3c4b4672ddbb6f3befb0275a094d4f4eaf9bd2a216cd3952fa9eb3"
+    },
+    {
+      "ref": "explorations/conditional-build/bet-2plus1-local-complement-2026-11-27.md",
+      "sha256": "31f952231f46e67629eb9b507c59e3cc5172e24497c99d82541623bb417c52fd"
     }
   ],
   "pillars": [
@@ -321,16 +325,17 @@
         },
         "candidate": {
           "attributed_status": "RA-B1..B5 and AC-D1..D5 retain SAME / DERIVED_CONDITIONAL",
-          "closed": "Normal16 SM charge support is exact; six-irrep anomaly arithmetic is owned and cannot select a unique chiral16.",
+          "closed": "Normal16 SM charge support is exact; six-irrep anomaly arithmetic is owned and cannot select a unique chiral16. LC-only: held completed weighted operator has no smooth same-q invariant local complement, including nonorthogonal/real-linear shears; no lane-B matrix absorption.",
           "open": "Physical charged carrier/current and effective luminous/dark realization; anomaly triggers are row-specific and arena-relative.",
           "shared_missing_ref": "lab/process/action-constraint-matrix.json#source_relevance_assumption_view.shared_prerequisites",
-          "cheapest_next": "Supply the actual observed representation/current tuple before evaluating each row; no new arithmetic census.",
+          "cheapest_next": "Select source-facing physical observation/current/domain discriminator from current map; do not repeat local same-q complement searches. Effective nonlocal, independent-map and normalized-time categories require their own supplied inputs.",
           "evidence_refs": [
             "lab/process/conditional-physics-ledger-v0.263.json",
             "explorations/conditional-build/cb-a-representation-content-2026-08-05.md",
             "lab/active-research/joe-directed/ledger-advancement/la3-chiral-16-shadow-is-a-comparator-and-the-grant-is-inert-2026-08-15.md",
             "explorations/conditional-build/source-weak-action-transport-2026-11-13.md",
-            "lab/process/observation-physical-carrier-custody-2026-11-27.md"
+            "lab/process/observation-physical-carrier-custody-2026-11-27.md",
+            "explorations/conditional-build/bet-2plus1-local-complement-2026-11-27.md"
           ],
           "positive_fit": "Conditional normal16 contains the familiar quark/lepton charge multiset; no generation count or independent evidence tally follows."
         }

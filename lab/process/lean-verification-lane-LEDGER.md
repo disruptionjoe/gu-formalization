@@ -631,3 +631,7 @@ bicategory, ambidexterity or Mackey 2-functor is inferred.
 ## 2026-11-27 — Normal geometric SM characteristic arithmetic
 
 `Lean/GUFormalization/NormalSMCharacteristic.lean` checks nine finite characteristic-coefficient, determinant-weight, signature-divisibility, hyperbolic-square, untwist and countercontrol statements. Targeted compilation passed. Bundle identification, prescribed-c1 Wu obstruction, Rokhlin, Furuta and physical applicability remain separate written/reviewed premises. Result: `explorations/conditional-build/normal-sm-characteristic-constraints-2026-11-27.md`.
+
+## 2026-11-27 — Smooth local complement finite core
+
+`Lean/GUFormalization/LocalComplement.lean` checks seven finite character-sign, exceptional-product, receiver-rank and native-rank contradiction statements. The all-character completeness proof, smooth graph equation, native Clifford geometry and complex metric-flip transfer remain written/reviewed premises; no physical interpretation follows. Result: `explorations/conditional-build/bet-2plus1-local-complement-2026-11-27.md`.

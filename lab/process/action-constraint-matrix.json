@@ -2726,7 +2726,7 @@
   ],
   "program_run_counter": {
     "since": "2026-11-09",
-    "count": 103,
+    "count": 104,
     "rule": "Every hourly run increments this in its postflight, whatever its lane. Lane C runs when count % 4 == 3 before the increment."
   },
   "working_rule": "Cells are worked at the structure level: a requirement must hold for every action in class C or for a structurally defined subfamily. No cell is worked by writing down a specific action, and no gated cell is worked by building its gate object. See CURRENT-STATE.yaml program_focus.structure_not_specifics.",
@@ -3663,6 +3663,15 @@
       "counter_after": 103,
       "lane": "LB-LADDER",
       "selection": "X-P1-P2 normal geometric bundle characteristic and product-lift constraints."
+    },
+    {
+      "date": "2026-11-27",
+      "authority": "joe_direct_chat_2026_11_27_h",
+      "item": "bet-2plus1-local-complement",
+      "counter_before": 103,
+      "counter_after": 104,
+      "lane": "LC-BETS",
+      "selection": "BET-2PLUS1 complete local same-q complement test; lane-C-only evidence."
     }
   ],
   "directed_lc_carry_2026_11_24_b": {

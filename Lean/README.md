@@ -292,3 +292,7 @@ replacement for `lake build` or targeted standalone Lean checks.
 ## Finite normal-jet recurrence (2026-11-27)
 
 `GUFormalization/NormalJetRecursion.lean` checks two finite causal recurrence lemmas. Smooth ODE existence, jet realization, support and Stokes remain written/reviewed; existing CompactCharge cores are reused. Result: `explorations/conditional-build/bet-cosmology-normal-jets-2026-11-27.md`.
+
+## 2026-11-27 — Smooth local complement finite core
+
+`GUFormalization/LocalComplement.lean` checks seven finite character-sign, exceptional-product, receiver-rank and native-rank contradiction statements. The all-character completeness proof, smooth graph equation, native Clifford geometry and complex metric-flip transfer remain written/reviewed premises; no physical interpretation follows. Result: `explorations/conditional-build/bet-2plus1-local-complement-2026-11-27.md`.

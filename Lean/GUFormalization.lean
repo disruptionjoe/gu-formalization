@@ -137,3 +137,5 @@ import GUFormalization.NormalJetRecursion
 import GUFormalization.PrintedEndpointBranch
 
 import GUFormalization.NormalSMCharacteristic
+
+import GUFormalization.LocalComplement

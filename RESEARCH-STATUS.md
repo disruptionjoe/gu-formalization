@@ -16,6 +16,10 @@ discovery bet (`lab/process/discovery-bets.json`). The K25xx--K2618 detector, pr
 results below are retained as conditional mathematics; that lane is no longer the default target. Sections
 below are dated results, newest first, and are not steering.
 
+## 2026-11-27 — Local complements in the weighted reconstruction
+
+[Result](explorations/conditional-build/bet-2plus1-local-complement-2026-11-27.md) · [Evidence](lab/process/bet-2plus1-local-complement.json). The complete smooth same-q local complement category, including nonorthogonal and underlying real-linear maps, is excluded on the declared native weighted operator. The exceptional principal loci (-23/12 K77, +23/12 K95) force moving-graph rank≤256 versus native512. Effective nonlocal reduction and different state/map/domain choices remain distinct.198 grouped exact controls,7200 block comparisons, seven finite Lean lemmas and three reviews passed; geometry is written/reviewed. Lane-C evidence only; no source/classC/matrix-cell/ledger verdict. Choice budget10/4/net6/0 unchanged.
+
 ## 2026-11-27 — Normal geometric gauge-bundle characteristic constraints
 
 [Result](explorations/conditional-build/normal-sm-characteristic-constraints-2026-11-27.md) · [Evidence](lab/process/normal-sm-characteristic-constraints.json). Every optional normalSU reduction on a closed spin Lorentz section has c2(E2)=0, c1(E2)²=p1TX and c2(E3)=-2p1TX. Some reduction lifts from the SM quotient to SU3xSU2xU1 exactly when signature is divisible48; a specified reduction needs its integral determinant sixth root. This is geometry, not a physical instanton or generation prediction. The quotient remains possible.27 exact algebra controls,9 finite Lean lemmas and three independent reviews passed; topology is written/reviewed. Source, classC and ledger verdicts unchanged; choice budget10/4/net6/0.
