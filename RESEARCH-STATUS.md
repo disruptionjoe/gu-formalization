@@ -16,6 +16,10 @@ discovery bet (`lab/process/discovery-bets.json`). The K25xx--K2618 detector, pr
 results below are retained as conditional mathematics; that lane is no longer the default target. Sections
 below are dated results, newest first, and are not steering.
 
+## 2026-11-27 — Actual stationary roots fail the printed endpoint
+
+[Result](explorations/conditional-build/source-action-endpoint-onshell-2026-11-27.md) · [Evidence](lab/process/source-action-endpoint-onshell.json). Both roots have certified nonzero ambient and literal observed endpoint residuals, excluding regular zero-preserving local recovery from the actual Euler tuple. Full analytic-branch coefficients through h2 vanish; this is limited compatibility. Combined with the earlier order-h observed conservation defect, bounded-coefficient finite-order recovery is excluded. O20/O26 comparison completed; source/physics/canon verdicts and choice budget unchanged.
+
 ## Candidate theta-conservation obstruction (2026-11-27)
 
 Both kappa1 coupled stationary roots have certified nonzero ambient and literal-section coderivatives of the reconstructed theta. The ambient homogeneous map has rank12/kernel47; the observed map rank11/kernel48. The entire sufficiently-small nonzero inverse-kappa analytic branch fails ambient conservation first at order h3, coefficient -27/32, and observed conservation at order h, coefficient21/16. This excludes the automatic C3 implication for this action/dictionary, not GU.

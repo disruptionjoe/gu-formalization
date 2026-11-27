@@ -1166,14 +1166,23 @@
       "lenses": [
         "NETWORK-04"
       ],
-      "status": "retained_typed_gap",
+      "status": "completed_bounded_onshell_comparison",
       "scope": "candidate or explicitly declared structural diagnostic; not source-wide without bridge",
       "source_relevance": "conditional; use source-native carrier and registered premises",
-      "evidence": [],
-      "remaining_input": "Owned bosonic observation/response map.",
-      "revisit_when": "The correct bosonic receiver is supplied.",
-      "disposition": "Bosonic witness cannot be transported using fermionic F/R.",
-      "selection_note": "Candidate construction/diagnostic only unless its stated structural family and source bridge satisfy current program_focus. A reserve is not scheduled work."
+      "evidence": [
+        "explorations/conditional-build/source-action-endpoint-onshell-2026-11-27.md",
+        "lab/process/source-action-endpoint-onshell.json"
+      ],
+      "remaining_input": "No further input for the completed two-root comparison. Other physical/source realizations need their exact equation/domain/readout bridge.",
+      "revisit_when": "A distinct source-admitted solution locus or typed equation dictionary changes the tested implication, not another component of the same failed roots.",
+      "disposition": "Both certified kappa1 coupled stationary roots violate the separately printed endpoint, including its raised literal-section restriction. This excludes regular zero-preserving local differential recovery from the actual Euler tuple on a class containing either witness. The full analytic-branch discrepancy vanishes through h2; higher-order equivalence remains undetermined.",
+      "selection_note": "Candidate construction/diagnostic only unless its stated structural family and source bridge satisfy current program_focus. A reserve is not scheduled work.",
+      "prior_disposition": {
+        "status": "retained_typed_gap",
+        "remaining_input": "Owned bosonic observation/response map.",
+        "revisit_when": "The correct bosonic receiver is supplied.",
+        "disposition": "Bosonic witness cannot be transported using fermionic F/R."
+      }
     },
     {
       "id": "O21",
@@ -1274,14 +1283,23 @@
       "lenses": [
         "PHYSICS-01"
       ],
-      "status": "retained_dependency",
+      "status": "completed_bounded_onshell_comparison",
       "scope": "candidate or explicitly declared structural diagnostic; not source-wide without bridge",
       "source_relevance": "conditional; use source-native carrier and registered premises",
-      "evidence": [],
-      "remaining_input": "Shared residual-zero/stationary background and typed bosonic response.",
-      "revisit_when": "A new owned response comparison can be evaluated without identifying distinct equations.",
-      "disposition": "Existing two-layer comparison reused; repaired K95 endpoint mismatch remains.",
-      "selection_note": "Candidate construction/diagnostic only unless its stated structural family and source bridge satisfy current program_focus. A reserve is not scheduled work."
+      "evidence": [
+        "explorations/conditional-build/source-action-endpoint-onshell-2026-11-27.md",
+        "lab/process/source-action-endpoint-onshell.json"
+      ],
+      "remaining_input": "No further input for the completed two-root comparison. Other physical/source realizations need their exact equation/domain/readout bridge.",
+      "revisit_when": "A distinct source-admitted solution locus or typed equation dictionary changes the tested implication, not another component of the same failed roots.",
+      "disposition": "Both certified kappa1 coupled stationary roots violate the separately printed endpoint, including its raised literal-section restriction. This excludes regular zero-preserving local differential recovery from the actual Euler tuple on a class containing either witness. The full analytic-branch discrepancy vanishes through h2; higher-order equivalence remains undetermined.",
+      "selection_note": "Candidate construction/diagnostic only unless its stated structural family and source bridge satisfy current program_focus. A reserve is not scheduled work.",
+      "prior_disposition": {
+        "status": "retained_dependency",
+        "remaining_input": "Shared residual-zero/stationary background and typed bosonic response.",
+        "revisit_when": "A new owned response comparison can be evaluated without identifying distinct equations.",
+        "disposition": "Existing two-layer comparison reused; repaired K95 endpoint mismatch remains."
+      }
     },
     {
       "id": "O27",
@@ -1348,7 +1366,7 @@
       "selection_note": "Candidate construction/diagnostic only unless its stated structural family and source bridge satisfy current program_focus. A reserve is not scheduled work."
     }
   ],
-  "priority_effect": "Actual theta-conservation implication fails at both known roots and punctured analytic branch; no repair installed. Due LC carry consumed. Bounded equation-owner/literal-bosonic-observation comparison is next to assess under unchanged rules.",
+  "priority_effect": "Known roots fail both reconstructed theta conservation and printed endpoint; no automatic source-falsification credit for further candidate-only flow/receiver work. Bounded current source horizon has no prerequisite-complete decisive target; existing selection and schedules unchanged.",
   "evidence": [
     "explorations/conditional-build/source-action-engineering-wave-2026-11-25.md",
     "lab/process/source-action-engineering-wave.json",
@@ -2422,7 +2440,7 @@
     "next_directed_worksets": [
       {
         "id": "source_endpoint_observation_comparison",
-        "status": "ready_for_bounded_owner_and_receiver_check",
+        "status": "done_root_endpoint_obstruction_and_bounded_branch_compatibility",
         "target": "LB-CLASS",
         "tier": "T2",
         "task": "Compare the actual stationary Euler equation with the source-shaped endpoint residual using the now-typed literal bosonic one-form contraction, keeping equation owners distinct. First authenticate the endpoint/glyph dictionary and existing coverage. If the exact same held endpoint is owned, evaluate its full residual and section contraction at the two certified roots and first relevant analytic coefficient. Raise the degree13 endpoint with the ambient Hodge/pairing before literal one-form pullback; direct degree13 section pullback vanishes dimensionally. Do not repeat the known off-shell Helmholtz defect or use fermionic F/R as a bosonic decoder. If the source endpoint is not authenticated, record that exact scope and select another eligible target.",
@@ -2432,7 +2450,8 @@
         "shared_prerequisite": "Existing S,K,N, root balls, source glyph, actual literal adjoint-one-form pullback and analytic branch. No root search, full inverse or new selector.",
         "remaining_cost": "Bounded exact source/equation-owner audit plus sparse endpoint receivers only if they are genuinely uncovered.",
         "strongest_alternative": "Natural non-scalar Helmholtz multipliers remain unselected and unclassified; ordinary full-CMB scalar route still lacks native bridge and actual transfer inputs.",
-        "kill_condition": "Only the named action-to-endpoint/readout implication is at stake; equation mismatch alone is not a source-wide impossibility."
+        "kill_condition": "Only the named action-to-endpoint/readout implication is at stake; equation mismatch alone is not a source-wide impossibility.",
+        "completed_evidence": "lab/process/source-action-endpoint-onshell.json"
       },
       {
         "id": "physical_cosmological_conservation",
@@ -2453,5 +2472,45 @@
       "Another scalar background/BAO fit as a substitute for the source one-form identity"
     ],
     "counterfactual_status": "Nov26g proposal-only; no suite/governance execution"
+  },
+  "endpoint_onshell_2026_11_27": {
+    "report": "explorations/conditional-build/source-action-endpoint-onshell-2026-11-27.md",
+    "evidence": "lab/process/source-action-endpoint-onshell.json",
+    "actual_delta": "Both certified kappa1 coupled stationary roots violate the separately printed endpoint, including its raised literal-section restriction. This excludes regular zero-preserving local differential recovery from the actual Euler tuple on a class containing either witness. The full analytic-branch discrepancy vanishes through h2; higher-order equivalence remains undetermined.",
+    "branch_order_gap": {
+      "result": "If a fixed-order local linear identity Otheta=Lh Rprint holds along the branch, its relevant finite-jet coefficient norm grows at least c|h|^-2. Bounded coefficients cannot do it.",
+      "limits": "No h/kappa derivatives; coefficients in expanded normal form. Singular kappa2 factors are outside the bounded theorem, not a new counted choice. No nonzero h3 residual inferred."
+    },
+    "consumed": [
+      "O20 literal raised bosonic endpoint receiver on the two actual roots",
+      "O26 on-shell identification of W2 stationary roots with the printed Upsilon=0 locus",
+      "Regular zero-preserving local differential recovery of the printed endpoint from the actual Euler tuple on either witness",
+      "Using the old off-shell Helmholtz receiver or two zero series coefficients as a substitute for this actual solution-set test"
+    ],
+    "next_directed_worksets": [
+      {
+        "id": "source_necessary_falsifier_current_horizon",
+        "status": "no_prerequisite_complete_target_identified_in_bounded_review",
+        "target": "LB-CLASS",
+        "task": "Preserve the failed W2-to-printed-equation bridge. Existing selection may choose a genuinely distinct executable source-relevant test; do not label another receiver/flow calculation on the same roots source falsification or repeat completed source-custody audits.",
+        "source_bridge": "Candidate root mathematics does not supply a source-selected whole-field action or physical solution/readout.",
+        "missing_inputs": [
+          "W02: authenticated whole-field transformation law, not only operator grammar",
+          "W03: source-selected equation/solution/scalar/response tuple",
+          "W08: actual coupled constraint/quotient complex and invariant domain",
+          "Observed integer tests: native graded Fredholm observation and physical count bridge"
+        ],
+        "remaining_cost": "Not estimable until a specific missing input or different eligible target is supplied; no fake-ready calculation.",
+        "strongest_alternative": "Conditional candidate mathematics remains executable for its declared purpose, but is not a source-wide falsifier; no new construction or choice selected.",
+        "revival_condition": "A new source/accepted mathematical input closes a named premise, or a distinct test has an already-owned source-necessary bridge.",
+        "control_effect": "This is a bounded research finding, not a governance change, scheduler pause, approval checkpoint or global work-stop.",
+        "evidence": [
+          "lab/process/action-constraint-matrix.json#horizon_execution_2026_11_25",
+          "lab/process/source-horizon-wave-2026-11-25.json",
+          "lab/process/source-action-opportunity-register-2026-11-25.json",
+          "lab/process/conditional-physics-ledger-v0.263.json"
+        ]
+      }
+    ]
   }
 }

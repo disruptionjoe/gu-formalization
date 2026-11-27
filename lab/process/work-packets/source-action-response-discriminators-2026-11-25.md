@@ -472,3 +472,12 @@ Selection: directed falsification, whole fixed-lift class; physical source neces
 - **Still missing:** source-selected physical identity, action-owned Einstein stress and admitted cosmological state. This does not authorize a global stop or a new choice.
 
 Ordinary LC carry47 consumed by this BET-COSMOLOGY attempt: counter84to85; cosmology runs2to3 and remaining22to21. No new guessed action/potential; LB counters unchanged. No scheduled Qwen/model credit or cadence amendment. Policy/source/physics/canon/classC verdicts and choicebudget unchanged.
+
+## Completed on-shell source-equation comparison (2026-11-27)
+
+[Result](../../../explorations/conditional-build/source-action-endpoint-onshell-2026-11-27.md) · [Evidence](../source-action-endpoint-onshell.json).
+
+- Both certified kappa1 stationary roots have nonzero printed endpoint components before and after correctly raised literal observation. O20/O26 bounded comparison is done.
+- No regular zero-preserving local differential recombination of the actual coupled Euler tuple recovers that endpoint on a class containing either witness. Existing candidate dynamics cannot be cited as dynamics on the printed Upsilon=0 locus.
+- Full endpoint branch coefficients through h2 vanish exactly. Higher-order compatibility remains open; previous observed coderivative is already order h. A fixed-order bounded-coefficient local linear recovery is excluded; a putative identity requires at least inverse-square coefficient growth.
+- No new choice, source verdict or work-stop rule. The bounded current source horizon has no prerequisite-complete decisive successor; exact missing inputs and revival conditions remain in the linked evidence.

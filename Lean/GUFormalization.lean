@@ -108,3 +108,5 @@ import GUFormalization.SelectedJet
 import GUFormalization.PacketPhase
 
 import GUFormalization.ThetaDivergence
+
+import GUFormalization.EndpointOnshell

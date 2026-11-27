@@ -234,3 +234,7 @@ replacement for `lake build` or targeted standalone Lean checks.
 ## 2026-11-27 — Theta divergence finite cores
 
 `GUFormalization/ThetaDivergence.lean`: **LEAN-VERIFIED**, five lemmas: symmetric self-commutator contraction, affine-connection cancellation, separated component, conditional stationary kernel, and separated leading power. Targeted single-thread compilation passed without placeholders. Native geometry, exact root certificates, analytic branch and source dictionary are separately checked/reviewed; no full-PDE formalization. [Result](../explorations/conditional-build/source-action-theta-divergence-2026-11-27.md).
+
+## 2026-11-27 — Endpoint on-shell finite cores
+
+`GUFormalization/EndpointOnshell.lean`: five targeted single-thread checked lemmas, no placeholders/warnings. Covers on-shell elimination, zero-preserving transfer obstruction, quadratic shift, injective raising and inverse-square order-gap cost. Native geometry, root intervals, finite-jet applicability and source bridge are separately verified/reviewed; no whole-project build claimed.

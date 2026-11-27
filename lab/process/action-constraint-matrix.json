@@ -1788,7 +1788,7 @@
     },
     "LB-CLASS": {
       "zero_delta_streak": 0,
-      "runs": 43,
+      "runs": 44,
       "status": "open"
     },
     "LB-LADDER": {
@@ -2707,7 +2707,7 @@
   ],
   "program_run_counter": {
     "since": "2026-11-09",
-    "count": 85,
+    "count": 86,
     "rule": "Every hourly run increments this in its postflight, whatever its lane. Lane C runs when count % 4 == 3 before the increment."
   },
   "working_rule": "Cells are worked at the structure level: a requirement must hold for every action in class C or for a structurally defined subfamily. No cell is worked by writing down a specific action, and no gated cell is worked by building its gate object. See CURRENT-STATE.yaml program_focus.structure_not_specifics.",
@@ -3418,6 +3418,22 @@
       ],
       "claim_effect": "No source/physics/canon/classC/paper verdict or matrix cell/intersection/shrinkage change; no bet-wide exclusion.",
       "cadence_note": "Ordinary LC carry47 consumed by this BET-COSMOLOGY attempt: counter84to85; cosmology runs2to3 and remaining22to21. No new guessed action/potential; LB counters unchanged. No scheduled Qwen/model credit or cadence amendment."
+    },
+    {
+      "date": "2026-11-27",
+      "authority": "joe_direct_chat_2026_11_26_continued_falsification_math20",
+      "item": "Actual W2 stationary roots versus printed endpoint and literal observed equation",
+      "tier": "T1",
+      "counter_before": 85,
+      "counter_after": 86,
+      "lane": "LB-CLASS",
+      "actual_delta": "Both certified kappa1 coupled stationary roots violate the separately printed endpoint, including its raised literal-section restriction. This excludes regular zero-preserving local differential recovery from the actual Euler tuple on a class containing either witness. The full analytic-branch discrepancy vanishes through h2; higher-order equivalence remains undetermined.",
+      "evidence": [
+        "explorations/conditional-build/source-action-endpoint-onshell-2026-11-27.md",
+        "lab/process/source-action-endpoint-onshell.json"
+      ],
+      "claim_effect": "No source/physics/canon/classC/paper verdict or matrix cell/intersection/shrinkage change.",
+      "cadence_note": "Directed continuing candidate diagnostic: count85to86; LB-CLASS43to44, zero_delta_streak0. Other lane counts and bets unchanged. Prior LC carry remains consumed. No scheduled/model credit, cadence or program_focus change."
     }
   ],
   "directed_lc_carry_2026_11_24_b": {
@@ -3792,7 +3808,9 @@
           "explorations/conditional-build/source-action-packet-phase-2026-11-27.md",
           "lab/process/source-action-packet-phase.json",
           "explorations/conditional-build/source-action-theta-divergence-2026-11-27.md",
-          "lab/process/source-action-theta-divergence.json"
+          "lab/process/source-action-theta-divergence.json",
+          "explorations/conditional-build/source-action-endpoint-onshell-2026-11-27.md",
+          "lab/process/source-action-endpoint-onshell.json"
         ],
         "choices": "Historical original choices are retained below; current held fermion repair is SE=-1/2 (SE0 superseded), kappa1 with two unselected roots. Typed candidate_choice_budget separates core/completion/pending/comparator/parked choices.",
         "wave2_update": {
@@ -4908,7 +4926,7 @@
           "next": [
             {
               "id": "source_endpoint_observation_comparison",
-              "status": "ready_for_bounded_owner_and_receiver_check",
+              "status": "done_root_endpoint_obstruction_and_bounded_branch_compatibility",
               "target": "LB-CLASS",
               "tier": "T2",
               "task": "Compare the actual stationary Euler equation with the source-shaped endpoint residual using the now-typed literal bosonic one-form contraction, keeping equation owners distinct. First authenticate the endpoint/glyph dictionary and existing coverage. If the exact same held endpoint is owned, evaluate its full residual and section contraction at the two certified roots and first relevant analytic coefficient. Raise the degree13 endpoint with the ambient Hodge/pairing before literal one-form pullback; direct degree13 section pullback vanishes dimensionally. Do not repeat the known off-shell Helmholtz defect or use fermionic F/R as a bosonic decoder. If the source endpoint is not authenticated, record that exact scope and select another eligible target.",
@@ -4918,7 +4936,8 @@
               "shared_prerequisite": "Existing S,K,N, root balls, source glyph, actual literal adjoint-one-form pullback and analytic branch. No root search, full inverse or new selector.",
               "remaining_cost": "Bounded exact source/equation-owner audit plus sparse endpoint receivers only if they are genuinely uncovered.",
               "strongest_alternative": "Natural non-scalar Helmholtz multipliers remain unselected and unclassified; ordinary full-CMB scalar route still lacks native bridge and actual transfer inputs.",
-              "kill_condition": "Only the named action-to-endpoint/readout implication is at stake; equation mismatch alone is not a source-wide impossibility."
+              "kill_condition": "Only the named action-to-endpoint/readout implication is at stake; equation mismatch alone is not a source-wide impossibility.",
+              "completed_evidence": "lab/process/source-action-endpoint-onshell.json"
             },
             {
               "id": "physical_cosmological_conservation",
@@ -4943,6 +4962,49 @@
             "status": "conditional",
             "reason": "The source prints a distortion one-form and demands an automatic differential identity, but does not uniquely select this action, K95 realization, theta dictionary or particular coderivative. The displayed dictionary is exact within the reconstructed candidate; a 4D Einstein stress/readout bridge remains absent."
           }
+        },
+        "endpoint_followthrough": {
+          "state": "Both certified kappa1 coupled stationary roots violate the separately printed endpoint, including its raised literal-section restriction. This excludes regular zero-preserving local differential recovery from the actual Euler tuple on a class containing either witness. The full analytic-branch discrepancy vanishes through h2; higher-order equivalence remains undetermined.",
+          "source_status": {
+            "status": "conditional",
+            "reason": "The source fixes the path-average action template and printed endpoint, but W2 reconstructs the product-node selector, K95/real-pairing and dressing realization. The observed raised one-form is a literal diagnostic, not an owned physical4D equation. Source uniqueness and classC representativeness remain unproved."
+          },
+          "consumed": [
+            "O20 literal raised bosonic endpoint receiver on the two actual roots",
+            "O26 on-shell identification of W2 stationary roots with the printed Upsilon=0 locus",
+            "Regular zero-preserving local differential recovery of the printed endpoint from the actual Euler tuple on either witness",
+            "Using the old off-shell Helmholtz receiver or two zero series coefficients as a substitute for this actual solution-set test"
+          ],
+          "branch_order_gap": {
+            "result": "If a fixed-order local linear identity Otheta=Lh Rprint holds along the branch, its relevant finite-jet coefficient norm grows at least c|h|^-2. Bounded coefficients cannot do it.",
+            "limits": "No h/kappa derivatives; coefficients in expanded normal form. Singular kappa2 factors are outside the bounded theorem, not a new counted choice. No nonzero h3 residual inferred."
+          },
+          "next": [
+            {
+              "id": "source_necessary_falsifier_current_horizon",
+              "status": "no_prerequisite_complete_target_identified_in_bounded_review",
+              "target": "LB-CLASS",
+              "task": "Preserve the failed W2-to-printed-equation bridge. Existing selection may choose a genuinely distinct executable source-relevant test; do not label another receiver/flow calculation on the same roots source falsification or repeat completed source-custody audits.",
+              "source_bridge": "Candidate root mathematics does not supply a source-selected whole-field action or physical solution/readout.",
+              "missing_inputs": [
+                "W02: authenticated whole-field transformation law, not only operator grammar",
+                "W03: source-selected equation/solution/scalar/response tuple",
+                "W08: actual coupled constraint/quotient complex and invariant domain",
+                "Observed integer tests: native graded Fredholm observation and physical count bridge"
+              ],
+              "remaining_cost": "Not estimable until a specific missing input or different eligible target is supplied; no fake-ready calculation.",
+              "strongest_alternative": "Conditional candidate mathematics remains executable for its declared purpose, but is not a source-wide falsifier; no new construction or choice selected.",
+              "revival_condition": "A new source/accepted mathematical input closes a named premise, or a distinct test has an already-owned source-necessary bridge.",
+              "control_effect": "This is a bounded research finding, not a governance change, scheduler pause, approval checkpoint or global work-stop.",
+              "evidence": [
+                "lab/process/action-constraint-matrix.json#horizon_execution_2026_11_25",
+                "lab/process/source-horizon-wave-2026-11-25.json",
+                "lab/process/source-action-opportunity-register-2026-11-25.json",
+                "lab/process/conditional-physics-ledger-v0.263.json"
+              ]
+            }
+          ],
+          "choice_budget_delta": 0
         }
       }
     ],
