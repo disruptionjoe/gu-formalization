@@ -3292,6 +3292,63 @@
         "receipt_ref": "lab/process/bet-cosmology-nonlinear-roll.json#verification",
         "scope": "41 finite exact controls,6 finite Lean cores; full analytic proof separately reviewed. LC only."
       }
+    },
+    {
+      "id": "pt-positive-quotient-observation-2026-11-28",
+      "kind": "result",
+      "owner_ref": "explorations/conditional-build/pt-positive-quotient-observation-2026-11-28.md",
+      "tested_statement": "Stationary conserved PSD multiplier forms, including unbounded weights finite on the admitted actual decay packets, annihilate their nonzero literal observation. The named minimal threshold quotient fails actual quadratic representative independence. A real Theta-fixed packet retains the C2 two-sided tempered/coefficient-L2 obstruction. Stable-side readout continuity has a conditional inverse-square norm cost.",
+      "signature": {
+        "object": "Positive realization with actual literal observation and interaction",
+        "carrier": "Frozen primary-minus K95 printed bosonic fields; open decay packets and named threshold quotient",
+        "convention": "Stationary PSD measurable multiplier, including unbounded finite-domain forms; literal section readout",
+        "class": "Declared norm/readout and completion categories, not arbitrary physical quotients",
+        "premises": [
+          "explorations/conditional-build/pt-positive-quotient-observation-2026-11-28.md"
+        ]
+      },
+      "attributed_status": "internal_T1_reviewed",
+      "status_ref": "lab/process/pt-positive-quotient.json#status",
+      "source_bridge_ref": "lab/process/pt-positive-quotient.json#source_bridge",
+      "certificate_refs": [
+        "lab/process/pt-positive-quotient-certificates.json",
+        "Lean/GUFormalization/PTPositiveQuotient.lean"
+      ],
+      "control_refs": [
+        "tests/program-focus/pt_positive_quotient_probe.py"
+      ],
+      "survivors_ref": "lab/process/pt-positive-quotient.json#follow_through",
+      "reopen_condition_ref": "explorations/conditional-build/pt-positive-quotient-observation-2026-11-28.md",
+      "superseded_by": null,
+      "cache": {
+        "artifacts": [
+          {
+            "path": "explorations/conditional-build/pt-positive-quotient-observation-2026-11-28.md",
+            "sha256": "71f4455a774c2aff75e4c5117b6d6ee3c267eea19719208dd62cd5d7bb6c0d23"
+          },
+          {
+            "path": "tests/program-focus/pt_positive_quotient_probe.py",
+            "sha256": "b1a0172a960bf2c01a490efb226bddcde77b84a3daf608421cd4238bb7a701c9"
+          },
+          {
+            "path": "lab/process/pt-positive-quotient-certificates.json",
+            "sha256": "dcb6fefddf396e5fe8fad6c5cc74d3b010b680e321a369296f9d23cd8b8fb578"
+          },
+          {
+            "path": "Lean/GUFormalization/PTPositiveQuotient.lean",
+            "sha256": "06ff882055c342775524414c8e84b12a12d933ffe590a1b63abc2153c1a03c2c"
+          }
+        ],
+        "verifier": {
+          "command": "python3",
+          "args": [
+            "tests/program-focus/pt_positive_quotient_probe.py",
+            "--verify"
+          ]
+        },
+        "receipt_ref": "lab/process/pt-positive-quotient.json#verification",
+        "scope": "59 exact controls and7 Lean cores; form-domain, packet and coarea proofs independently reviewed."
+      }
     }
   ]
 }

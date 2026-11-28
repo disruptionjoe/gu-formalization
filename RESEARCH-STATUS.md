@@ -16,6 +16,10 @@ discovery bet (`lab/process/discovery-bets.json`). The K25xx--K2618 detector, pr
 results below are retained as conditional mathematics; that lane is no longer the default target. Sections
 below are dated results, newest first, and are not steering.
 
+## 2026-11-28 — Positive realization and literal observation
+
+[Result](explorations/conditional-build/pt-positive-quotient-observation-2026-11-28.md) · [Evidence](lab/process/pt-positive-quotient.json). Conserved PSD multiplier quotients cannot retain both the actual open decay packets and their literal signal. Named threshold-quotient and Theta-fixed-history tests add scoped exclusions; dissipative and changed-domain survivors remain.59 exact controls and7 finite Lean cores; no source or ledger verdict.
+
 ## 2026-11-28 — Nonlinear cosmology endpoint
 
 [Lane-C result](explorations/conditional-build/bet-cosmology-nonlinear-roll-2026-11-28.md) · [Evidence](lab/process/bet-cosmology-nonlinear-roll.json). The declared positive-reference vacuum FLRW growing branches reach F0 or unbounded curvature; w_kin can approach−1 without finite-H de Sitter. Exact equilibrium/stable separatrix and transient rolling remain.41 exact controls and6 finite Lean cores (`Lean/GUFormalization/CosmologyRoll.lean`); no scientific matrix or ledger absorption.

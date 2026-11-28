@@ -687,3 +687,7 @@ bicategory, ambidexterity or Mackey 2-functor is inferred.
 ## 2026-11-28 — Nonlinear cosmology finite cores
 
 `Lean/GUFormalization/CosmologyRoll.lean` checks six finite lemmas: strict moment discriminant, potential identity, damping/crossing bounds and rate/kinematic arithmetic. Targeted single-thread compilation passed; no proof placeholders. Global ODE continuation, cone and asymptotic arguments remain reviewed written mathematics. No full-project build or canon promotion. Result: `explorations/conditional-build/bet-cosmology-nonlinear-roll-2026-11-28.md`.
+
+## 2026-11-28 — Positive quotient finite cores
+
+`Lean/GUFormalization/PTPositiveQuotient.lean` checks seven finite contraction, readout, PSD, weight and exact-arithmetic cores. Targeted single-thread compilation passed. Packet/form-domain/coarea and source-applicability arguments remain written and reviewed, not Lean-formalized. Result: `explorations/conditional-build/pt-positive-quotient-observation-2026-11-28.md`.

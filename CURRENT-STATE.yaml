@@ -1,7 +1,7 @@
 schema_version: '1.0'
 repository: observerse-research-program
 branch: main
-revision_basis: fe84a56dc903824e4f28877c07b0627157228aeb
+revision_basis: c12caa96e5564215e348ebc49abca70917677c89
 program_focus:
   version: 2026-11-27-v3
   authority: joe_direct_chat_2026_11_27_k
@@ -278,6 +278,27 @@ sibling_import_adjudication_2026_11_27:
     resume the retained actual a_out=-2 negative-factor CW vertex at kappa12 before a degenerate estimate.
     Step2b remains2/max5; wedge3/max3. No new sibling-research backlog or physical choice.
   verdict_effect: none; scoped applicability and algebra
+pt_positive_quotient_2026_11_28:
+  status: internal_T1_reviewed
+  actual_delta: Stationary conserved PSD multiplier forms, including unbounded weights finite on the admitted
+    actual decay packets, annihilate their nonzero literal observation. The named minimal threshold quotient
+    fails actual quadratic representative independence. A real Theta-fixed packet retains the C2 two-sided
+    tempered/coefficient-L2 obstruction. Stable-side readout continuity has a conditional inverse-square
+    norm cost.
+  evidence:
+  - explorations/conditional-build/pt-positive-quotient-observation-2026-11-28.md
+  - lab/process/pt-positive-quotient.json
+  source_bridge:
+    status: conditional
+    reason: SC-ACT-02 draft p45 eq9.8 supplies an endpoint template; SC-META-52/53 leave physical domain
+      and shielding uncertain. The low-Phi equation, tested norm and literal-to-physical readout are not
+      source-selected.
+  next: 'Classical PT comparison step3 is complete after one substantive wave: keep the norm/domain/readout
+    exclusions, dissipative and stable-domain survivors, and unselected physical quotient. Next B step4:
+    reuse owned timelike H=t/2 and global density-jet realization; test an uncovered global/causal-horizon
+    or measure bridge, not another pointwise H witness. CW2b5/5 and wedge3/3 remain complete; cadence
+    unchanged.'
+  verdict_effect: No whole-C/source/ledger verdict; actual scoped completion exclusions
 bet_cosmology_nonlinear_roll_2026_11_28:
   status: internal_T1_reviewed
   lane_scope: LC only; no scientific matrix or ledger absorption
