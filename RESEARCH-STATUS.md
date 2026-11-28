@@ -16,6 +16,10 @@ discovery bet (`lab/process/discovery-bets.json`). The K25xx--K2618 detector, pr
 results below are retained as conditional mathematics; that lane is no longer the default target. Sections
 below are dated results, newest first, and are not steering.
 
+## 2026-11-27 — Normalized evolution complement
+
+[Result](explorations/conditional-build/bet-2plus1-evolution-complement-2026-11-27.md) · [Evidence](lab/process/bet-2plus1-evolution-complement.json). The normalized principal equations admit six equivalent observed channels and a complete110592-complex-dimensional graph family. Actual native lower terms fail its first time prolongation on the declared flat-section reference: two nonzero193minors contradict192row factorization.97 exact checks,4 Lean finite cores and3 independent reviews passed. Other connections, nonlocal/effective reduction and physical interpretation remain open. Lane-C retention only; verdicts and choice budget unchanged.
+
 ## 2026-11-27 — Resonant printed state completion
 
 [Result](explorations/conditional-build/printed-state-completion-2026-11-27.md) · [Evidence](lab/process/printed-state-completion.json). The actual quadratic force has massive left-null receiver104448, excluding the specified regular slaving graphs at every nonzero coupling with rescaled modes admitted. An exact nonresonant stationary response and resonant polynomial-time response survive; no nonlinear instability or physical ghost is inferred.108 exact checks,4 Lean finite cores and3 independent reviews passed. Evidence-role corrections for Joe27n/o are recorded in the opportunity register and progress map; all29 options retained. Verdicts and choice budget unchanged.

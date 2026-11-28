@@ -1,0 +1,282 @@
+{
+  "artifact": "BET_2PLUS1_EVOLUTION_COMPLEMENT",
+  "date": "2026-11-27",
+  "basis_revision": "784a27c9f5889dd2a229a0b42564bb0bb2f3978c",
+  "status": "internal_T1_reviewed",
+  "target": "BET-2PLUS1",
+  "tier": "T1",
+  "lane": "LC-BETS",
+  "actual_delta": "Time normalization gives six observed principal Clifford channels equivalent to the hidden channel and a complete110592-complex-dimensional principal graph family for every nonzero constant chiral weight pair. On the native K95 flat-section F=U=0,b=H reference, the actual lower equations and their first time prolongation have nonzero193-minors modulo97 (87,37), excluding arbitrary C1 local evolution complements across all those weights.",
+  "source_bridge": {
+    "status": "conditional",
+    "reason": "The source effective low-gravity claim does not require an exact local invariant complement or select this reference connection, state and current. The full physical-family/count bridge is absent."
+  },
+  "source_necessary_exclusion": false,
+  "weakest_unproved_link": "Exact local closure and the held reference are not source-required; native physical current/quotient and analytic observation/count remain open.",
+  "class_C_representativeness": "Whole local graph/weight family over one declared reconstruction reference, not all F/U connections, classC or GU.",
+  "track": [
+    "GU* existing reconstruction comparison"
+  ],
+  "choice_budget": {
+    "families": 10,
+    "obligations": 4,
+    "net": 6,
+    "source_selected_predictions": 0,
+    "change": 0
+  },
+  "selection": {
+    "mandatory_basis": "Count111 mod4=3 mandates LC-BETS; all three active bets19remaining. BET-2PLUS1 selected from the tie using supplied normalized-time coefficients and a distinct unresolved premise.",
+    "class_scope": "All constant nonzero real chiral weights and arbitrary C1 complex local graph maps on the held flat native K95 reference. Principal classification separately covers both authenticated reciprocal sign ports.",
+    "source_relevance": "Effective2+1 separation is the source question; exact operator splitting is an internal diagnostic, not a physical count or source-required condition.",
+    "shared_prerequisite": "Actual observation/current/domain bridge for effective separation and observed physics.",
+    "reuse_delta": "Raw same-r complement, shape geometry and native opposite block reused; actual time normalization, full lower row and moving graph prolongation are new.",
+    "outcomes": [
+      "Principal obstruction would close the evolution split outright; principal survivor instead requires actual lower compatibility.",
+      "Lower/prolongation obstruction closes the declared reference family; a survivor would name a typed mechanism without count credit."
+    ],
+    "remaining_cost": "Mandatory LC completed; next ordinaryB CW bulk/slice and resonant-response tests.",
+    "strongest_eligible_alternative": "BET-MASS-GAP full-channel linear domain reserved for source-facing ordinaryB perJoe27p; no new source current/domain in mass-gap scout. Cosmology free-jet/conservation classes alreadycovered with no new stress input.",
+    "cost": "One wave;97 exact checks about4.1seconds;4 targeted Lean finite cores;3 independent final reviewers. Token cost not measured."
+  },
+  "verification": {
+    "artifact_hashes": {
+      "explorations/conditional-build/bet-2plus1-evolution-complement-2026-11-27.md": "4ea2f23e14c81947286904cf9baf0a483e050b17b04a675fa998360ce7231df0",
+      "tests/program-focus/evolution_complement_probe.py": "d8b02c122d946013da7d36435425d771e51289805dcba69d526f07fd64f5be49",
+      "lab/process/evolution-complement-certificates.json": "d3f368ca3f6fb1719a5602ceee565fa27ed2e2c44b32849c457cfa6229ca336d",
+      "Lean/GUFormalization/EvolutionComplement.lean": "3a0a5bedc47d9039bebb499c71ee7714cc9a046474fa368248fa7961a8d2fd1c"
+    },
+    "reviews": [
+      {
+        "accepted": true,
+        "blockers": [],
+        "review_role": "Independent final geometry/PDE reviewer; not a contributor to this wave",
+        "artifact_hashes": {
+          "explorations/conditional-build/bet-2plus1-evolution-complement-2026-11-27.md": "4ea2f23e14c81947286904cf9baf0a483e050b17b04a675fa998360ce7231df0",
+          "tests/program-focus/evolution_complement_probe.py": "d8b02c122d946013da7d36435425d771e51289805dcba69d526f07fd64f5be49",
+          "lab/process/evolution-complement-certificates.json": "d3f368ca3f6fb1719a5602ceee565fa27ed2e2c44b32849c457cfa6229ca336d",
+          "Lean/GUFormalization/EvolutionComplement.lean": "3a0a5bedc47d9039bebb499c71ee7714cc9a046474fa368248fa7961a8d2fd1c"
+        },
+        "detailed_reasoning": [
+          "The normalized problem differs from raw same-lift intertwining. Allowing output lift s=A0 r A_O0^-1 is essential; the report retains the principal survivor instead of transferring the prior raw obstruction.",
+          "The scalar matrices M0(r),Mi(r) have affine dependence on r. The producer verifies M0(r)Ni=Mi(r) coefficientwise at r0 and r1 without inverting M0 at r0, and verifies the displayed simultaneous diagonalizer and all character dimensions. With M0 invertible for r nonzero, this proves the all-weight principal family, not just selected weights.",
+          "The three spatial Clifford conjugations have eight equal2048-dimensional character spaces. The observed row multiplicities2,1,1,1,1 and nine hidden copies give110592 complex graph parameters. The twist representatives identify six observed copies with the hidden spatial Clifford module; its central two-dimensional irreducibles have multiplicity32 in each chirality. Thus T_sigma has the stated192-to288 multiplicity dimensions.",
+          "Clock custody checks directly: in covariant coordinates at physical dx0, observed A0 is minusM0 gamma0 and hidden A0 is plusgamma0. Using gamma0\u00b2=-1 and solving the equation for partial_t gives spatial alpha_i=-gamma0 gamma_i, observed V=-M0^-1 gamma0 C_O and hidden forcing B=gamma0 B_raw. These are exactly the producer signs. Raw xi-component normalization alone would not justify them.",
+          "For constant base g and its same-metric section, the metric-bundle coefficients depend on the fibre metric but not base x. The tangent and normal induced connections vanish in the translation-constant adapted frame. The held split correction cancels the mixed shape connection while leaving the nonzero shape torsion insertion. Consequently the shape, Clifford matrices, contractions, time covector and transformed lower maps are constant along the section, without asserting ambient flatness.",
+          "The density premise is geometrically realizable: choose a positive density with log depending only on normal coordinates and prescribed first normal gradient H at the fixed section. Its tangent derivatives vanish and its scalar leakage cancels as owned. Coherent normal jets and the full NW torsion insertion are retained; no derivative of the normal frame is silently discarded.",
+          "The complete lower output uses C_h=B_h-gamma_h G and C_n=A_n-gamma_n G, including observed coefficients. Horizontal input dependence implies the hidden lower diagonal vanishes. The producer cross-checks the full wedge formula and inherited opposite block. The weight cancellation follows from W/Wsharp exchange through the intervening even Clifford product; the zero scalar forcing row makes the remaining M0 inverse depend only on s/r=-11/12. Thus the one normalized lower matrix represents every allowed constant nonzero weight pair.",
+          "For h=T(x)o, equality of spatial principal terms forces T to the two central Clifford commutants. Derivatives of T preserve central chirality, so cross-chirality terms impose T_sigma X=Y. In the same-chirality equation, the spatial alpha_i are traceless2x2 matrices. Half-spin trace therefore removes all spatial derivative terms and gives partial_t T_sigma=B0-T_sigma V0. This derives the time equation without assuming T constant or dropping its spatial derivatives.",
+          "Because X and Y are constant along the section, differentiating T_sigma X=Y once gives T_sigma V0 X=B0 X. C1 regularity suffices. The stacked factorization would have rank at most192; a nonzero193 minor contradicts it. The argument does not require a second derivative or a curvature-independent prolongation formula.",
+          "The modular certificate is used in the valid direction only. The explicit algebraic-number realization reduces in a localized coefficient ring at97 with the given roots and unit denominators. The chosen Clifford/chirality basis lifts by the same algebraic expressions; nonzero reduced determinants ensure invertibility upstairs. The193 minor residues87 and37 imply characteristic-zero nonvanishing. Pointwise modular rank equality is correctly not treated as characteristic-zero solvability.",
+          "The finite Lean lemmas formalize factorization consequences, dimension arithmetic and a ring-level prolongation implication only. They do not claim to certify the native matrices, derivatives, or full PDE theorem."
+        ],
+        "qualifications": [
+          "No tests, builds or Lean runs were executed by this reviewer. The frozen producer and certificate were inspected; the certificate records97 checks plus inherited geometry checks. Hashing and file reading only were performed.",
+          "Arbitrary C1 graph means the stated pointwise complex-linear bundle graph h=T(x)o, without covariance, orthogonality or multiplicity restrictions; it is not a theorem about arbitrary nonlinear fibre manifolds.",
+          "The lower exclusion is the held K95 flat-section reference F=U=0 with b=H, fixed q and prescribed normal jets. It does not prove failure for every independent F/U correction or every individual curved base.",
+          "Only along-section constancy is used. Off-section normal dependence and ambient curvature remain; a genuinely curved section would add coefficient derivatives to the prolongation.",
+          "The all-weight statement assumes constant nonzero real chiral weights and the inherited reciprocal SE relation. Variable weights or a different completion are not tested.",
+          "The complex principal classification covers both authenticated sign ports; the native lower-minor result is K95 only. No K77 lower transfer, real-Hilbert structure or physical chirality identification is inferred.",
+          "The result can obstruct a universal local-complement prescription required to work on this admitted flat reference. It does not select a source physical state domain or rule out nonlocal, approximate, independent-barred or differently defined reductions.",
+          "No family-count, dark-matter, source-GU, matrix or ledger conclusion follows. The result is retained lane-C evidence within its reconstruction."
+        ],
+        "dependency_hashes": {
+          "tests/program-focus/local_dual_closure_second_fundamental_form_probe.py": "404806cd00ea6bc79f20254722d891130241bcad57c429df67af8179b926efb1",
+          "tests/channel-swings/joe_directed_sa1_soldered_ad_selector.py": "95c06e0f06c362e70aa07603d9c2b9df025c9dcc940e3b1e9fde0eecad287b5e",
+          "tests/program-focus/local_complement_probe.py": "e8bc68f9092197a493bab869a1dca91acdc785ea6f1921dc26a1ad9f1360ac37",
+          "explorations/conditional-build/bet-2plus1-local-complement-2026-11-27.md": "31f952231f46e67629eb9b507c59e3cc5172e24497c99d82541623bb417c52fd",
+          "explorations/conditional-build/bet-2plus1-unitary-dual-closure-2026-11-27.md": "49dd8fd7622cf65e6216da42d27ee71d7bf4a423c432454534591bdba59e6771",
+          "explorations/conditional-build/local-dual-closure-second-fundamental-form-2026-11-24.md": "e0a7dc9b22a79430497f3f49c5c49b917411b08b4c7978cac746e52c83f37196"
+        },
+        "hash_verification": "All four artifacts match the frozen manifest; all six recorded dependency hashes and the producer binding match current files.",
+        "minor_receipt": {
+          "sizes": [
+            193,
+            193
+          ],
+          "determinants_mod97": [
+            87,
+            37
+          ],
+          "row_upper_bound": 192,
+          "interpretation": "Nonvanishing lower bound only; no characteristic-zero exact rank inferred from modular ranks."
+        },
+        "rebind_note": "Explicit report clarification added: the held density has zero tangential log-density gradient and normal gradient H along the section. This is precisely the reference already used in this review to justify the zero scalar lower row and constant coefficients. Other three artifacts are unchanged. Acceptance retained; no tests or builds rerun."
+      },
+      {
+        "reviewer": "source_current_prescription",
+        "role": "Independent final algebra, source and coefficient-field review; not a scratch author of this result",
+        "accepted": true,
+        "blockers": [],
+        "artifact_hashes": {
+          "explorations/conditional-build/bet-2plus1-evolution-complement-2026-11-27.md": "4ea2f23e14c81947286904cf9baf0a483e050b17b04a675fa998360ce7231df0",
+          "tests/program-focus/evolution_complement_probe.py": "d8b02c122d946013da7d36435425d771e51289805dcba69d526f07fd64f5be49",
+          "lab/process/evolution-complement-certificates.json": "d3f368ca3f6fb1719a5602ceee565fa27ed2e2c44b32849c457cfa6229ca336d",
+          "Lean/GUFormalization/EvolutionComplement.lean": "3a0a5bedc47d9039bebb499c71ee7714cc9a046474fa368248fa7961a8d2fd1c"
+        },
+        "hash_verification": "All four staged artifacts were independently hashed. The final report's explicit zero tangential density-gradient and normal-gradient-H clarification was re-read and independently rehashed to4ea2f23e14c81947286904cf9baf0a483e050b17b04a675fa998360ce7231df0. Acceptance remains unchanged; the other three artifact hashes are unchanged.",
+        "reasoning": [
+          "The normalized-time category is genuinely broader than the old raw same-lift category. With invertible time rows, D r=s D_O permits s=A0 r AO0^-1 rather than forcing s=r. The supplied moving-graph control exhibits this distinction, so the new result does not inherit the old exceptional locus incorrectly.",
+          "The six displayed character rows give multiplicities2,1,1,1,1 for +++, the three one-minus signs, and ---. The producer verifies both affine coefficients in r of M0(r)Ni=Mi(r), without inverting the singular r=0 value. Alongside invertibility for r!=0, this establishes the all-weight principal result rather than a sample-weight inference.",
+          "The three Clifford conjugation signs impose three independent binary conditions on the16384 Clifford blades, leaving2048 per character. Nine hidden copies times six row multiplicities gives110592. Equivalently complex Cl3 has two2D simple modules, each occurring32 times in S128; six observed copies have multiplicity192 and nine hidden copies288 in each central chirality, giving2*192*288=110592. The gamma1,gamma2,gamma3 and gamma0 twists remove the one-minus and all-minus signs respectively. These counts are algebraic Hom dimensions, not physical generations.",
+          "The native lower matrix uses the full shape/form torsion expression, not only the previously owned hidden projection. The inherited source geometry has horizontal metric(-,+,+,+), normal Gram(2,2,2,2,6,12,-2,-2,-2,-4), nonzero shape even on a flat base, the F=U=0 split reference, and b=H. In this declared translation-constant frame the hidden lower block is zero and all retained section coefficients are constant. The probe checks every horizontal-input/output lower coefficient against the independent wedge expression and compares the normal projection with the owned opposite block.",
+          "All-weight cancellation is structurally sound at that reference: the time inverse and the lower row put opposing W/Wsharp factors around an even Clifford word, so they cancel. For the remaining M0 inverse, the scalar right-hand-side row is zero, and the only r dependence becomes s/r=-11/12. This does not require W to commute with a general F/U correction. Variable weights, nonparallel dressing and nonzero F/U remain outside the transfer.",
+          "For h=T(x)o, differentiating the graph gives T_t=sum_i alpha_i T_i+B-TV once principal intertwining is imposed. A principal T and its derivatives have the identity on the2D spin factor, so the identity-spin trace extracts T_t=B0-TV0. The chirality-changing terms have no derivative contribution and impose T_sigma X=Y. Since X,Y are constant along the reference section, one time derivative yields T_sigma V0X=B0X. Thus the stacked prolongation matrix factors through a192-row matrix if any C1 graph exists. A nonzero193-minor is a valid contradiction; no second derivative of T is used.",
+          "The coefficient-field transfer is valid as reduction of a localized ring in Q(i,sqrt2,sqrt3), not as a field homomorphism from Q to F97. The roots satisfy22 squared=-1,14 squared=2,10 squared=3 modulo97. The native Pauli/gamma scales are algebraic expressions in these generators. Metric denominators,2,10,12 and the invertible channel/chirality bases used by the algorithm have unit reductions. The modularly selected projector columns can be lifted using those same algebraic expressions; invertible reduction ensures their characteristic-zero independence. Matrix inverses then commute with reduction on the localized ring.",
+          "The listed193 row and column indices select actual minors. In the elimination routine, original row labels are retained in pivot order; previous elimination subtracts combinations of already selected rows, so the determinant of that ordered submatrix is the product of pivots. Its nonzero residues87 and37 therefore imply nonzero characteristic-zero minors. This proves rank at least193 only. The argument correctly uses the universal192-row factorization bound and does not infer characteristic-zero ranks from equal modular ranks in the preliminary scouts.",
+          "The report consistently limits the lower exclusion to the declared F=U=0 native K95 flat-section reference and every constant nonzero chiral weight in that reconstruction. It excludes a universal prescription only if that prescription must also work on this reference. It does not exclude all F/U connections, every curved background, nonlocal or approximate complements, independent barred maps, a physical weak-current splitting or source effective2+1. K77 principal portability is not silently promoted to native lower-geometry portability.",
+          "The source claims are used at their stated strength: SC-OP-04 supplies candidate four-independent-field grammar, SC-OP-05 admits southeast rivals, and the effective low-gravity claims do not mandate an exact pointwise invariant graph. No positive physical pairing, family interpretation, selected source action, matrix absorption or physics-ledger verdict is inferred. The Lean file openly proves only conditional finite algebra/counting implications, not the native minors or the PDE theorem."
+        ],
+        "qualifications": [
+          "No tests, producer jobs or Lean builds were run by this reviewer, and no owner files were edited. Executed-check success and numerical minor values remain root-owned evidence; this review independently inspected the construction and characteristic-zero inference.",
+          "The two nonzero minor residues were not recomputed by a second implementation. Their exact source matrices, indices, producer logic and hash-bound certificate were inspected.",
+          "The all-weight result requires the existing constant nonzero real chiral-weight family and its reciprocal southeast relation. It does not cover arbitrary new southeast matrices or weight fields.",
+          "The first-prolongation calculation relies on sectionwise constant coefficients and the inherited coherent normal-jet prescription. A curved or different connection reference would require derivatives of X,Y and its own lower map.",
+          "Principal graph compatibility remains a positive result; the native lower obstruction must not be restated as absence of every principal complement or a physical chirality no-go."
+        ]
+      },
+      {
+        "accepted": true,
+        "reviewer": "/root/falsification_rerank",
+        "role": "independent hostile final review; not a contributor to this theorem or probe",
+        "artifact_hashes": {
+          "explorations/conditional-build/bet-2plus1-evolution-complement-2026-11-27.md": "4ea2f23e14c81947286904cf9baf0a483e050b17b04a675fa998360ce7231df0",
+          "tests/program-focus/evolution_complement_probe.py": "d8b02c122d946013da7d36435425d771e51289805dcba69d526f07fd64f5be49",
+          "lab/process/evolution-complement-certificates.json": "d3f368ca3f6fb1719a5602ceee565fa27ed2e2c44b32849c457cfa6229ca336d",
+          "Lean/GUFormalization/EvolutionComplement.lean": "3a0a5bedc47d9039bebb499c71ee7714cc9a046474fa368248fa7961a8d2fd1c"
+        },
+        "blockers": [],
+        "resolved_review_issue": {
+          "issue": "The scalar lower row needs zero tangential log-density gradient, not only a specified normal gradient.",
+          "resolution": "Final report explicitly fixes zero tangential log-density gradient and normal gradient H along the flat section; b=H denotes the full gradient. Reviewed and accepted at final report hash 4ea2f23e14c81947286904cf9baf0a483e050b17b04a675fa998360ce7231df0."
+        },
+        "reasoning": [
+          {
+            "topic": "Normalized evolution versus the raw operator",
+            "assessment": "The relation D r=s D_O with s=A0 r A_O0 inverse is distinct from same-r raw intertwining. The actual K95 covector transport gives observed time coefficient -M0 gamma0 and hidden +gamma0, producing the stated alpha, V, and B signs. The unequal-time-row control correctly demonstrates why the old raw exclusion cannot be transferred."
+          },
+          {
+            "topic": "Complete principal space",
+            "assessment": "The exact affine identities M0(r) N_i=M_i(r), invertibility for r nonzero, and invertible simultaneous row eigenbasis establish all-weight principal classification. All eight Clifford conjugation characters are included, yielding 110592 complex dimensions. After explicit sign untwisting, Schur decomposition of the three-generator complex Clifford action leaves arbitrary 288-by-192 multiplicity maps in each central sector, not a chosen low-dimensional graph ansatz."
+          },
+          {
+            "topic": "Native full lower operator and weights",
+            "assessment": "The full Phi torsion insertion retains both horizontal and normal output and the observed lower map; its scalar row vanishes under the now explicit full density-gradient reference. It has only horizontal input, hence C_K=0. The independent wedge formula agrees with the C_h, C_n construction. In the specified split frame the matrices are constant along the flat section. Opposing W/Wsharp factors cancel across an even Clifford product, while M0 inverse on zero scalar-source rows depends only on c/sigma=-11/12. Thus using p=1 for the assembled lower matrix does not reduce the written all-weight claim to samples."
+          },
+          {
+            "topic": "Variable graphs and first prolongation",
+            "assessment": "From h=T(x)o, full graph invariance is T_t=sum alpha_i T_i+B-TV. Principal intertwining and its derivatives preserve the central sectors; the cross-sector terms give T X=Y. Taking the same-sector spin trace removes each traceless alpha_i T_i and gives T_t=B0-TV0. Since X,Y are constant along this reference, differentiating once gives T V0 X=B0 X. C1 regularity suffices; no graph derivative is discarded and no second derivative is required."
+          },
+          {
+            "topic": "Finite-field evidence and characteristic-zero contradiction",
+            "assessment": "The pointwise rank equality modulo 97 is used only as a scout and supplies no characteristic-zero existence claim. The decisive stacked system has a universal 192-row factorization bound. A nonzero 193-by-193 minor over the localized coefficient order, reduced via i=22, sqrt2=14, sqrt3=10, proves a nonzero original minor. All inverted geometric and change-of-basis denominators are units under that reduction. The recorded determinants 87 and 37 therefore contradict a factorization over C without transferring an exact modular rank."
+          },
+          {
+            "topic": "Minor extraction and arithmetic binding",
+            "assessment": "The elimination records original rows in pivot order and increasing selected columns. In that recorded row order, elementary elimination gives the product of pivots as the selected minor determinant; no extra swap sign is needed. The two records have 193 distinct rows and columns and bind the assembled matrices by hash. The arrays remain reduced modulo 97 with dimensions small enough to avoid int64 product overflow. Producer and all listed dependency hashes match."
+          },
+          {
+            "topic": "Clocks, formalization, and source ceiling",
+            "assessment": "A consistent reversal of time convention changes the lower graph equation signs together and leaves the prolongation obstruction unchanged. No arbitrary clock or K77 lower transfer is inferred. Lean proves finite factorization and rank implications, not the native minors or geometric PDE theorem. The result stays within the completed wedge/SE reconstruction and the declared flat F=U=0 reference, with source-effective separation distinct from exact local splitting."
+          }
+        ],
+        "qualifications": [
+          "The accepted theorem concerns C1 pointwise complex-linear graph coefficients on an open section patch. It retains arbitrary spinor/multiplicity mixing; it is not a theorem about nonlinear state graphs, differential or nonlocal lifts, or unrestricted real-linear dimension counts.",
+          "Only the normalized principal classification covers both authenticated sign ports. The lower exclusion is the specified K95 flat-section reference with coherent normal jets and the stated full density gradient.",
+          "Other F/U connections, variable chiral weights, other density gradients, and individual curved backgrounds are outside. Derivatives of X,Y and additional connection terms cannot be dropped there.",
+          "A universal prescription is excluded only if it must work for this held reference operator, not merely because it includes a flat base while being free to choose another F/U connection.",
+          "The modular pointwise agreement does not prove a characteristic-zero pointwise graph exists; only minor nonvanishing is transferred. No exact characteristic-zero rank 160, 288, or 448 is asserted.",
+          "The Clifford central sectors and 6/9 copy counts are algebraic, not physical chirality, family counts, or a selected physical domain. No bet-wide, matrix, physics-ledger, or source-GU verdict follows."
+        ],
+        "authentication": {
+          "frozen_manifest": "/private/tmp/gu-evolution-frozen-hashes.json",
+          "all_four_hashes_match": true,
+          "producer_hash_matches": true,
+          "dependency_hashes_match": true,
+          "recorded_checks_passed": 97,
+          "recorded_time_minors": [
+            {
+              "chirality": 0,
+              "size": 193,
+              "determinant_mod97": 87,
+              "matrix_sha256": "9b5af83000b32c87aefd868b3b0293753f51e6f915ec0ab140df80f1140512a4"
+            },
+            {
+              "chirality": 1,
+              "size": 193,
+              "determinant_mod97": 37,
+              "matrix_sha256": "5d9b858109d108caf83c6e9be3d44ee980e0f7f9e336d14d3ddd62ef741c289a"
+            }
+          ]
+        },
+        "verification_attribution": "Reviewer inspected written proofs, full producer, certificate, Lean, and inherited native assembly; performed only file-hash and JSON authentication. No native probe, matrix elimination, test, build, or Lean compilation was executed by this reviewer. The recorded 97 checks and minors are producer/root execution evidence, not an independent rerun.",
+        "owner_edits_performed": false
+      }
+    ],
+    "exact_controls": 97,
+    "command": "python3 tests/program-focus/evolution_complement_probe.py --verify",
+    "lean": {
+      "status": "PASS",
+      "exit_code": 0,
+      "command": "lake env lean -j1 /private/tmp/gu-evolution-complement-20261127/Lean/GUFormalization/EvolutionComplement.lean",
+      "cwd": "/Users/joe/Brain/CapacityOS/repos/public/gu-formalization",
+      "stdout": "",
+      "stderr": "",
+      "artifact_sha256": "3a0a5bedc47d9039bebb499c71ee7714cc9a046474fa368248fa7961a8d2fd1c",
+      "scope": "four finite algebra/arithmetic cores; no full native/PDE formalization"
+    },
+    "proof_scope": "Exact native finite-field minors and reviewed written geometric/prolongation proof; Lean checks four abstract algebra/arithmetic cores only.",
+    "gates": {
+      "program_focus_audit": "PASS",
+      "typed_carrier_declaration_audit": "PASS",
+      "kill_target_claim_audit": "PASS",
+      "frontmatter_status_schema_audit": "PASS",
+      "source_native_comparator_routing_audit": "PASS",
+      "lean_certificate_surface_audit": "PASS",
+      "current_state_absolute_currency_audit": "PASS",
+      "conditional_evidence_delta_gate": "PASS",
+      "research_context_reader_audit": "PASS"
+    }
+  },
+  "three_state": {
+    "ESTABLISHED": "Complete principal family, native lower coefficients and exact first-prolongation contradiction.",
+    "RULED_OUT": "Arbitrary C1 pointwise evolution-invariant graphs on the declared reference, all nonzero constant chiral weights; universal prescriptions required to work on every base including this reference.",
+    "NOT_MODELED_UNDETERMINED": "Other F/U connections, individual curved backgrounds, nonlocal/effective/physical reduction and source GU."
+  },
+  "literature": [
+    {
+      "url": "https://arxiv.org/abs/1307.6439",
+      "relevance": "Invariant graphs/Riccati prior art; no operator-domain theorem imported."
+    }
+  ],
+  "novelty_claim": "none",
+  "retrospective": {
+    "finding": "Raw operator splitting is stricter than normalized evolution splitting; the principal result reverses after proper normalization. Pointwise modular solvability is not a characteristic-zero existence theorem.",
+    "shortcut": "First prolongation and one193minor decide arbitrary moving graphs without solving110592unknowns or redoing the old512rank.",
+    "forecast_vs_actual": "Principal survivor found, actual flat-reference local evolution split excluded.",
+    "failure_memory": "Retain graph derivatives; do not freeze curved coefficients silently. Keep clock signs consistent; use192-row universal upper bound, not modular rank equality.",
+    "calibration": "Unequal-time scalar countercontrol and pointwise-versus-prolongation control passed."
+  },
+  "follow_through": {
+    "consumed": [
+      "Normalized-time principal classification across every nonzero constant chiral weight pair",
+      "C1 moving local complements in the native K95 flat reference F=U=0,b=H; no repeat of weight sweeps or constant-graph tests"
+    ],
+    "survivors": [
+      "Six-channel principal equivalence without full lower compatibility",
+      "Other F/U connections and individual curved backgrounds, with their derivative/connection terms",
+      "Nonlocal and approximate elimination, independent barred maps, physical state/current/domain selection"
+    ],
+    "next": "The required discovery-bet slot is complete; counter112 returns to ordinary B. Joe27p: test a full-channel CW-type constrained bulk evolution, including growing modes and nonlinear closure, separately from codimension10 slice determination. State outcomes before testing. Reuse full printed symbol/scalarizer and actualQ; the prior trace pair is not automatically admitted by an all-channel stable domain. Characterize the actual polynomial-time response degree and rates and compare its resonant sector with equal-frequency Pais-Uhlenbeck/PT, without a physical-lifetime estimate until clock, amplitudes and coupling normalization are supplied."
+  },
+  "accounting": {
+    "counter_before": 111,
+    "counter_after": 112,
+    "bet_runs_before": 5,
+    "bet_runs_after": 6,
+    "remaining_runs": 18,
+    "cell_status_changes": 0,
+    "ledger_verdict_changes": 0,
+    "matrix_science_absorption": false
+  },
+  "effect_line": "Change: normalized principal split survives but full local evolution split is excluded on the declared reference; why: native lower terms fail first prolongation. Authority:standing27h and27p; applied as lane-C evidence. No governance/verdict/choice change; next ordinaryB separates CW bulk well-posedness from slice completeness."
+}

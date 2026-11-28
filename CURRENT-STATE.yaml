@@ -1,7 +1,7 @@
 schema_version: '1.0'
 repository: observerse-research-program
 branch: main
-revision_basis: 539b4fab383d010b7c828225f9222c6b568eddff
+revision_basis: 784a27c9f5889dd2a229a0b42564bb0bb2f3978c
 program_focus:
   version: 2026-11-27-v3
   authority: joe_direct_chat_2026_11_27_k
@@ -222,6 +222,31 @@ program_focus:
       instead of silently adopting them.
     current_view: lab/process/source-action-opportunity-register-2026-11-25.json#research_track_view
     effect_receipt: lab/process/two-track-adoption-2026-11-27.json
+evolution_complement_2026_11_27:
+  status: internal_T1_reviewed
+  actual_delta: Time normalization gives six observed principal Clifford channels equivalent to the hidden
+    channel and a complete110592-complex-dimensional principal graph family for every nonzero constant
+    chiral weight pair. On the native K95 flat-section F=U=0,b=H reference, the actual lower equations
+    and their first time prolongation have nonzero193-minors modulo97 (87,37), excluding arbitrary C1
+    local evolution complements across all those weights.
+  source_bridge:
+    status: conditional
+    reason: The source effective low-gravity claim does not require an exact local invariant complement
+      or select this reference connection, state and current. The full physical-family/count bridge is
+      absent.
+  evidence:
+  - explorations/conditional-build/bet-2plus1-evolution-complement-2026-11-27.md
+  - lab/process/bet-2plus1-evolution-complement.json
+  next: 'The required discovery-bet slot is complete; counter112 returns to ordinary B. Joe27p: test a
+    full-channel CW-type constrained bulk evolution, including growing modes and nonlinear closure, separately
+    from codimension10 slice determination. State outcomes before testing. Reuse full printed symbol/scalarizer
+    and actualQ; the prior trace pair is not automatically admitted by an all-channel stable domain. Characterize
+    the actual polynomial-time response degree and rates and compare its resonant sector with equal-frequency
+    Pais-Uhlenbeck/PT, without a physical-lifetime estimate until clock, amplitudes and coupling normalization
+    are supplied.'
+  lane: LC-BETS; no scientific matrix/ledger absorption
+  choice_budget_effect: none
+  verdict_effect: none
 printed_state_completion_2026_11_27:
   status: internal_T1_reviewed
   actual_delta: "The actual printed quadratic interaction has a full massive left-null receiver104448\

@@ -312,3 +312,7 @@ replacement for `lake build` or targeted standalone Lean checks.
 ## 2026-11-27 — Printed state-completion finite cores
 
 `GUFormalization/PrintedStateCompletion.lean` checks left-cokernel obstruction, its persistence when the reduced base contributes zero to the receiver, and the nonzero scaling arithmetic. Targeted single-thread compilation passed without placeholders. Native Clifford amplitudes, C² graph differentiation, analytic poles and secular PDE responses remain written reviewed proofs. Result: `explorations/conditional-build/printed-state-completion-2026-11-27.md`.
+
+## 2026-11-27 — Evolution-complement finite cores
+
+`GUFormalization/EvolutionComplement.lean` checks a differentiated graph identity, factorization-kernel implication and the finite dimension inequalities. Targeted -j1 compilation passed. The native minor, geometry and graph differentiation remain written/exactly computed results, not fully Lean formalized.

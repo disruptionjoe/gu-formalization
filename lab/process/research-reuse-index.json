@@ -2411,6 +2411,64 @@
         "receipt_ref": "lab/process/printed-state-completion.json#verification",
         "scope": "SymPy1.14.0;108exactchecks,4Leanfinitecores; reviewed written graph/PDE proof."
       }
+    },
+    {
+      "id": "evolution-complement-2026-11-27",
+      "kind": "result",
+      "owner_ref": "explorations/conditional-build/bet-2plus1-evolution-complement-2026-11-27.md",
+      "tested_statement": "Time normalization gives six observed principal Clifford channels equivalent to the hidden channel and a complete110592-complex-dimensional principal graph family for every nonzero constant chiral weight pair. On the native K95 flat-section F=U=0,b=H reference, the actual lower equations and their first time prolongation have nonzero193-minors modulo97 (87,37), excluding arbitrary C1 local evolution complements across all those weights.",
+      "signature": {
+        "object": "Normalized-time local hidden/observed evolution graph",
+        "carrier": "Full complex S128, hidden9S and observed6S, no physical grading",
+        "convention": "Native K95 flat section; completed wedge/SE family;F=U=0,b=H",
+        "class": "All nonzero constant chiral weights and arbitrary C1 pointwise complex graphs",
+        "premises": [
+          "explorations/conditional-build/bet-2plus1-local-complement-2026-11-27.md",
+          "explorations/conditional-build/bet-2plus1-unitary-dual-closure-2026-11-27.md"
+        ]
+      },
+      "attributed_status": "internal_T1_reviewed",
+      "status_ref": "lab/process/bet-2plus1-evolution-complement.json#status",
+      "source_bridge_ref": "lab/process/bet-2plus1-evolution-complement.json#source_bridge",
+      "certificate_refs": [
+        "lab/process/evolution-complement-certificates.json",
+        "Lean/GUFormalization/EvolutionComplement.lean"
+      ],
+      "control_refs": [
+        "tests/program-focus/evolution_complement_probe.py"
+      ],
+      "survivors_ref": "lab/process/bet-2plus1-evolution-complement.json#follow_through",
+      "reopen_condition_ref": "explorations/conditional-build/bet-2plus1-evolution-complement-2026-11-27.md",
+      "superseded_by": null,
+      "cache": {
+        "artifacts": [
+          {
+            "path": "explorations/conditional-build/bet-2plus1-evolution-complement-2026-11-27.md",
+            "sha256": "4ea2f23e14c81947286904cf9baf0a483e050b17b04a675fa998360ce7231df0"
+          },
+          {
+            "path": "tests/program-focus/evolution_complement_probe.py",
+            "sha256": "d8b02c122d946013da7d36435425d771e51289805dcba69d526f07fd64f5be49"
+          },
+          {
+            "path": "lab/process/evolution-complement-certificates.json",
+            "sha256": "d3f368ca3f6fb1719a5602ceee565fa27ed2e2c44b32849c457cfa6229ca336d"
+          },
+          {
+            "path": "Lean/GUFormalization/EvolutionComplement.lean",
+            "sha256": "3a0a5bedc47d9039bebb499c71ee7714cc9a046474fa368248fa7961a8d2fd1c"
+          }
+        ],
+        "verifier": {
+          "command": "python3",
+          "args": [
+            "tests/program-focus/evolution_complement_probe.py",
+            "--verify"
+          ]
+        },
+        "receipt_ref": "lab/process/bet-2plus1-evolution-complement.json#verification",
+        "scope": "97exactchecks,4Leanfinitecores; reviewed native geometric/prolongation proof."
+      }
     }
   ]
 }

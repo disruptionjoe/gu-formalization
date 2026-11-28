@@ -24,11 +24,11 @@
       "routing_note": "Ordinary index and net-chirality calculations are controls only for this mechanism (GEOMETER-VS-PHYSICS-OBJECTS.md, generation/chirality row).",
       "kill_criterion": "Within the time box, no invariant separates the imposter sector from the true families, or the observation/quotient map from sectors to a realized count cannot be typed for any guessed action tried.",
       "status": "active",
-      "runs_used": 5,
+      "runs_used": 6,
       "zero_delta_streak": 0,
       "result": {
-        "status": "active_with_conditional_structural_result",
-        "actual_delta": "For the completed wedge/SE weighted b=H unitary native reconstruction, every smooth pointwise same-q invariant complement fails, including nonorthogonal and underlying real-linear maps. Principal Hom vanishes except at p=-23/12 in K77 or +23/12 in actual K95. At those loci every graph has one spinor receiver, so its full moving lower equation forces rankB<=256, contradicting native512. Complex metric-flip rank transfer is explicit.",
+        "status": "active_with_conditional_evolution_complement_exclusion",
+        "actual_delta": "Time normalization gives six observed principal Clifford channels equivalent to the hidden channel and a complete110592-complex-dimensional principal graph family for every nonzero constant chiral weight pair. On the native K95 flat-section F=U=0,b=H reference, the actual lower equations and their first time prolongation have nonzero193-minors modulo97 (87,37), excluding arbitrary C1 local evolution complements across all those weights.",
         "evidence": [
           "explorations/conditional-build/bet-2plus1-temporal-observation-2026-11-11.md",
           "explorations/conditional-build/bet-2plus1-polarized-observed-evolution-2026-11-11.md",
@@ -49,7 +49,13 @@
           "tests/program-focus/local_complement_probe.py",
           "lab/process/bet-2plus1-local-complement-certificates.json",
           "Lean/GUFormalization/LocalComplement.lean",
-          "lab/process/hostile-reviews/2026-11-27-local-complement-review.md"
+          "lab/process/hostile-reviews/2026-11-27-local-complement-review.md",
+          "explorations/conditional-build/bet-2plus1-evolution-complement-2026-11-27.md",
+          "tests/program-focus/evolution_complement_probe.py",
+          "lab/process/evolution-complement-certificates.json",
+          "Lean/GUFormalization/EvolutionComplement.lean",
+          "lab/process/bet-2plus1-evolution-complement.json",
+          "lab/process/hostile-reviews/2026-11-27-evolution-complement-review.md"
         ],
         "prior_evidence": [
           "explorations/conditional-build/bet-2plus1-provenance-observation-2026-11-11.md",
@@ -58,10 +64,10 @@
           "Lean/GUFormalization/ProvenanceMixing.lean"
         ],
         "guessed_action_variants": 0,
-        "remaining_runs": 19,
+        "remaining_runs": 18,
         "physical_count": "not_supplied",
         "matrix_or_ledger_effect": "none",
-        "next_condition": "Counter104 returns to ordinary B selection: use the current source-facing shared-prerequisite map and VOI comparison. No repeat of same-q smooth local shears in this weighted completed family. Effective nonlocal elimination, independent input/output maps, normalized-time graphs and physical state/domain selection have different premises; no GU/count inference or lane-B absorption from this lane-C result.",
+        "next_condition": "Normalized principal classification and flat-reference C1 graph prolongation are covered. A new local discriminator needs a changed source-admissible F/U connection or curved coefficient/domain premise, not another weight/constant-graph sweep. Nonlocal/effective reduction and actual physical current/count bridge remain open. The required discovery-bet slot is complete; counter112 returns to ordinary B. Joe27p: test a full-channel CW-type constrained bulk evolution, including growing modes and nonlinear closure, separately from codimension10 slice determination. State outcomes before testing. Reuse full printed symbol/scalarizer and actualQ; the prior trace pair is not automatically admitted by an all-channel stable domain. Characterize the actual polynomial-time response degree and rates and compare its resonant sector with equal-frequency Pais-Uhlenbeck/PT, without a physical-lifetime estimate until clock, amplitudes and coupling normalization are supplied.",
         "prior_actual_delta": "BET-2PLUS1 active: actual first-time-jet reconstruction recovers the hidden normal sum at nonzero momentum with exact infrared conditioning. The held polarization has an explicit bounded literal-observation lift and positive massless evolution; its maximal original-mass survivor omits the scalar sector, has positive norm but gapless longitudinal spectrum, and fails generic spatial-mass transfer. Massless autonomous trace/scalar readouts do not equal original pure provenance sectors; mass mixes trace with its partner. No physical family count, guessed action or matrix/ledger verdict.",
         "last_run_date": "2026-11-27",
         "prior_unitary_one_way_result": {
@@ -75,6 +81,12 @@
           "status": "active_with_conditional_structural_result",
           "actual_delta": "Every homogeneous correction in the complete compatible unitary b=H connection family is insertion-valued on the whole observed complement. The opposite block remains Wsharp P_K A_II, with exact rank512 in the authenticated native port. Nonzero II therefore excludes exact two-sided local closure in the declared orthogonal paired realization, while one-way closure survives.",
           "next_condition": "Counter96 returns to ordinary B selection. This full unitary/chiral weighted family is consumed for exact orthogonal two-sided closure; do not enumerate F/U or weights again. Use the source-facing shared-prerequisite map and existing VOI rules to choose a distinct executable source/physical bridge or class discriminator. Source density/bar/current/domain selection and effective coupling remain open; no authorization checkpoint.",
+          "last_run_date": "2026-11-27"
+        },
+        "prior_raw_local_complement_result": {
+          "status": "active_with_conditional_structural_result",
+          "actual_delta": "For the completed wedge/SE weighted b=H unitary native reconstruction, every smooth pointwise same-q invariant complement fails, including nonorthogonal and underlying real-linear maps. Principal Hom vanishes except at p=-23/12 in K77 or +23/12 in actual K95. At those loci every graph has one spinor receiver, so its full moving lower equation forces rankB<=256, contradicting native512. Complex metric-flip rank transfer is explicit.",
+          "next_condition": "Counter104 returns to ordinary B selection: use the current source-facing shared-prerequisite map and VOI comparison. No repeat of same-q smooth local shears in this weighted completed family. Effective nonlocal elimination, independent input/output maps, normalized-time graphs and physical state/domain selection have different premises; no GU/count inference or lane-B absorption from this lane-C result.",
           "last_run_date": "2026-11-27"
         }
       },

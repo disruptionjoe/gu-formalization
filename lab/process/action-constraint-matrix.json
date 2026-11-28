@@ -2726,7 +2726,7 @@
   ],
   "program_run_counter": {
     "since": "2026-11-09",
-    "count": 111,
+    "count": 112,
     "rule": "Every hourly run increments this in its postflight, whatever its lane. Lane C runs when count % 4 == 3 before the increment."
   },
   "working_rule": "Cells are worked at the structure level: a requirement must hold for every action in class C or for a structurally defined subfamily. No cell is worked by writing down a specific action, and no gated cell is worked by building its gate object. See CURRENT-STATE.yaml program_focus.structure_not_specifics.",
@@ -3735,6 +3735,15 @@
       "counter_after": 111,
       "lane": "LB-LADDER",
       "selection": "Actual resonant auxiliary/state-graph compatibility with forced-response controls."
+    },
+    {
+      "date": "2026-11-27",
+      "authority": "joe_direct_chat_2026_11_27_h",
+      "item": "bet-2plus1-evolution-complement",
+      "counter_before": 111,
+      "counter_after": 112,
+      "lane": "LC-BETS",
+      "selection": "Mandatory discovery slot; normalized-time complement distinct from covered raw same-map splitting. No scientific matrix absorption."
     }
   ],
   "directed_lc_carry_2026_11_24_b": {

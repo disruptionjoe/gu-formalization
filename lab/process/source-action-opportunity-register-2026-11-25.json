@@ -3439,5 +3439,23 @@
       ],
       "trigger": "Only investigate recurrence when a typed map relates the same characteristic class, torsion or integer observable; repeated numerals alone have no VOI."
     }
+  },
+  "evolution_complement_2026_11_27": {
+    "evidence": [
+      "explorations/conditional-build/bet-2plus1-evolution-complement-2026-11-27.md",
+      "lab/process/bet-2plus1-evolution-complement.json"
+    ],
+    "actual_delta": "Time normalization gives six observed principal Clifford channels equivalent to the hidden channel and a complete110592-complex-dimensional principal graph family for every nonzero constant chiral weight pair. On the native K95 flat-section F=U=0,b=H reference, the actual lower equations and their first time prolongation have nonzero193-minors modulo97 (87,37), excluding arbitrary C1 local evolution complements across all those weights.",
+    "lane_C_only": true,
+    "consumed": [
+      "Normalized-time principal classification across every nonzero constant chiral weight pair",
+      "C1 moving local complements in the native K95 flat reference F=U=0,b=H; no repeat of weight sweeps or constant-graph tests"
+    ],
+    "survivors": [
+      "Six-channel principal equivalence without full lower compatibility",
+      "Other F/U connections and individual curved backgrounds, with their derivative/connection terms",
+      "Nonlocal and approximate elimination, independent barred maps, physical state/current/domain selection"
+    ],
+    "next": "The required discovery-bet slot is complete; counter112 returns to ordinary B. Joe27p: test a full-channel CW-type constrained bulk evolution, including growing modes and nonlinear closure, separately from codimension10 slice determination. State outcomes before testing. Reuse full printed symbol/scalarizer and actualQ; the prior trace pair is not automatically admitted by an all-channel stable domain. Characterize the actual polynomial-time response degree and rates and compare its resonant sector with equal-frequency Pais-Uhlenbeck/PT, without a physical-lifetime estimate until clock, amplitudes and coupling normalization are supplied."
   }
 }

@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "basis_revision": "539b4fab383d010b7c828225f9222c6b568eddff",
+  "basis_revision": "784a27c9f5889dd2a229a0b42564bb0bb2f3978c",
   "scope": "Curated six-pillar x source/class/candidate linked view. Status belongs to cited owners; no scientific verdict promotion, automatic ranking, whole-history coverage or global percentage. Cheapest-next fields are attributed bounded suggestions, not dispatch instructions. Closed means resolved within the cited scope; it does not always mean falsified. Positive fits and remaining source/physical bridges stay explicit.",
   "assumptions_ref": "lab/process/action-constraint-matrix.json#source_relevance_assumption_view.shared_prerequisites",
   "dependencies": [
@@ -94,7 +94,7 @@
     },
     {
       "ref": "lab/process/action-constraint-matrix.json",
-      "sha256": "75258735c860682ce46227a301ff796ca447f5f0d089ec6730682e211e8b57e9"
+      "sha256": "a88d1ad31701eaaa26e30bf958ff0deff66635826744184041d920478d97c662"
     },
     {
       "ref": "lab/process/conditional-physics-ledger-v0.263.json",
@@ -183,6 +183,10 @@
     {
       "ref": "explorations/conditional-build/printed-state-completion-2026-11-27.md",
       "sha256": "fdd40f8a5faed93eb55346784968078d4a1956bff283f3f28991b79e62209e81"
+    },
+    {
+      "ref": "explorations/conditional-build/bet-2plus1-evolution-complement-2026-11-27.md",
+      "sha256": "4ea2f23e14c81947286904cf9baf0a483e050b17b04a675fa998360ce7231df0"
     }
   ],
   "pillars": [
@@ -544,7 +548,7 @@
         ],
         "rank": 1,
         "status": "leading candidate selection-law test, not an adopted physical law",
-        "cheapest_test_or_revival": "Specify a full-channel constraint and check admission of the tested pair, actual-Q closure, physical-time/domain estimates and what additional data are needed on the codimension10 section.",
+        "cheapest_test_or_revival": "The required discovery-bet slot is complete; counter112 returns to ordinary B. Joe27p: test a full-channel CW-type constrained bulk evolution, including growing modes and nonlinear closure, separately from codimension10 slice determination. State outcomes before testing. Reuse full printed symbol/scalarizer and actualQ; the prior trace pair is not automatically admitted by an all-channel stable domain. Characterize the actual polynomial-time response degree and rates and compare its resonant sector with equal-frequency Pais-Uhlenbeck/PT, without a physical-lifetime estimate until clock, amplitudes and coupling normalization are supplied.",
         "inference_limit": "Unrestricted-domain growth and finite-loss obstructions are conditional on data admission. A Craig-Weinstein-type restriction is a live candidate repair; its applicability to the full printed system and nonlinear invariance are unproved. Finite-jet slice nonuniqueness is not thereby removed.",
         "source_necessity": "conditional; source statement and proposed realization kept separate",
         "evidence_ref": "lab/process/printed-state-completion.json#near_miss_reframings",
@@ -1115,7 +1119,7 @@
         "new_choice_families_adopted": 0
       }
     ],
-    "top_next": "Counter111 requires the unchanged LC-BETS selection first. For the next ordinary B slot, rank Craig-Weinstein-type nonlocal admissibility as a leading GU* candidate test: reuse the full19-channel symbol, actualQ and resonant receiver; first determine which modes its precise constraint admits and whether the actual quadratic evolution preserves it. A scalar trace-channel cutoff is not a full-system constraint. If the tested pair is admitted, strict support and regular slaving are already excluded; test an independent resonant state or a genuinely singular/history-dependent rule only with its stated domain. Compare with source-required current/effective shielding, not another equivalent resonance census.",
+    "top_next": "The required discovery-bet slot is complete; counter112 returns to ordinary B. Joe27p: test a full-channel CW-type constrained bulk evolution, including growing modes and nonlinear closure, separately from codimension10 slice determination. State outcomes before testing. Reuse full printed symbol/scalarizer and actualQ; the prior trace pair is not automatically admitted by an all-channel stable domain. Characterize the actual polynomial-time response degree and rates and compare its resonant sector with equal-frequency Pais-Uhlenbeck/PT, without a physical-lifetime estimate until clock, amplitudes and coupling normalization are supplied.",
     "track_policy": {
       "status": "applied",
       "authority": [
@@ -1128,5 +1132,18 @@
     },
     "synthesis_note": "H3 > H1 > H2 among new conditional hypotheses. No adopted physical mechanism or new choice; links reuse l2/l5, l4/l3/k8 and l1/k16 rather than duplicate tests.",
     "near_miss_note": "n/o adopted with scope corrections: n1 leading GU* test, n3 effective current bounds, n4 physical grading bridge, n5 observer-reference category; n2 mostly covered by universal exact-Euler result. Five entries preserve links rather than duplicate old work. Mandatory cadence unchanged."
+  },
+  "discovery_bet_context_2026_11_27": {
+    "evidence": [
+      "explorations/conditional-build/bet-2plus1-evolution-complement-2026-11-27.md",
+      "lab/process/bet-2plus1-evolution-complement.json"
+    ],
+    "status": "lane_C_only_not_absorbed",
+    "actual_delta": "Time normalization gives six observed principal Clifford channels equivalent to the hidden channel and a complete110592-complex-dimensional principal graph family for every nonzero constant chiral weight pair. On the native K95 flat-section F=U=0,b=H reference, the actual lower equations and their first time prolongation have nonzero193-minors modulo97 (87,37), excluding arbitrary C1 local evolution complements across all those weights.",
+    "survivors": [
+      "Six-channel principal equivalence without full lower compatibility",
+      "Other F/U connections and individual curved backgrounds, with their derivative/connection terms",
+      "Nonlocal and approximate elimination, independent barred maps, physical state/current/domain selection"
+    ]
   }
 }
