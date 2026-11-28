@@ -1,11 +1,12 @@
 schema_version: '1.0'
 repository: observerse-research-program
 branch: main
-revision_basis: 4186f265ceccdd02d11125ec6de2268580eedd65
+revision_basis: 4910d449e277bc3f742911134c3beb4c5f8af143
 program_focus:
   version: 2026-11-27-v3
   authority: joe_direct_chat_2026_11_27_k
   priority_packets:
+  - lab/process/work-packets/quick-win-sequence-2026-11-27.md
   - lab/process/work-packets/source-required-class-tests-2026-11-24.md
   - lab/process/work-packets/six-spinor-grading-compatibility-2026-11-24.md
   - lab/process/work-packets/observed-hidden-index-split-2026-11-20.md
@@ -236,6 +237,36 @@ program_focus:
       instead of silently adopting them.
     current_view: lab/process/source-action-opportunity-register-2026-11-25.json#research_track_view
     effect_receipt: lab/process/two-track-adoption-2026-11-27.json
+shiab_flexibility_2026_11_27_s:
+  authority: joe_direct_chat_2026_11_27_s
+  owner_ref: lab/process/source-action-opportunity-register-2026-11-25.json#shiab_flexibility_2026_11_27_s
+  status: considered; three costed alternatives, none adopted
+  priority_effect: Joe27r order retained; alternatives need a concrete consequence and same calibrated
+    tests.
+wedge_action_2026_11_27:
+  status: internal_T2_reviewed
+  actual_delta: Normalized wedge first action has exact primitive/moving Euler rows. Its correction is
+    (1/6){D_BTheta+2D_ATheta,T}, leaving (1/3){D_ATheta,T} on the compatible reference. Actual epsilon
+    pullback satisfies E_epsilon=D_A E_T including ordinary metric mass. Exact printed-endpoint identification
+    remains excluded by reuse; physical energy/native stationarity and observed conservation remain open.
+  source_bridge:
+    status: conditional
+    reason: Source supplies primitive fields/action packet/conjugation, while wedge operator selection
+      is a declared GU* alternative; own corrected equation is not the printed unit row.
+  evidence:
+  - explorations/conditional-build/wedge-shiab-action-recheck-2026-11-27.md
+  - lab/process/wedge-shiab-action-recheck.json
+  next: Count115 mandatoryLC-BETS next; nextB Joe27r step1b wedge own temporal constraints/canonical current
+    on a native stationary background or explicitly conditional frozen reference retaining mixed metric
+    constraint. Step1 has two waves left before advancing the ordered sequence. Do not reuse W2 or lowPhiCW
+    as wedge dynamics.
+  scoped_outcomes:
+    wedge_own_variation_and_first_bosonic_redundancy: SURVIVES
+    exact_unit_printed_endpoint_identification: FALSIFIED under previously reviewed premises, no new verdict
+    gravity_pillar: INCOMPLETE
+    source_and_overall_GU_star: INCOMPLETE
+  choice_budget_effect: none
+  verdict_effect: none
 quick_win_sequence_2026_11_27_r:
   authority: joe_direct_chat_2026_11_27_r
   evidence: lab/process/cw-nonlinear-completion.json#directed_sequence
@@ -246,7 +277,7 @@ quick_win_sequence_2026_11_27_r:
   - Trapped sections and one-way leakage
   - Unimodular/Lambda integration constant
   - Uniqueness of kinematic fit
-  current: Wedge own varied action/full moving eddy identity; finish openT1 first; reuse completed linearCW.
+  current: Wedge own constraints/current next; packet lab/process/work-packets/quick-win-sequence-2026-11-27.md; reuse completed linearCW.
   governance_effect: Ordinary directed reranking only; program_focus policy and cadence unchanged.
 cw_nonlinear_2026_11_27:
   status: internal_T1_reviewed

@@ -16,6 +16,10 @@ discovery bet (`lab/process/discovery-bets.json`). The K25xx--K2618 detector, pr
 results below are retained as conditional mathematics; that lane is no longer the default target. Sections
 below are dated results, newest first, and are not steering.
 
+## 2026-11-27 — Wedge action ownership and moving identity
+
+[Result](explorations/conditional-build/wedge-shiab-action-recheck-2026-11-27.md) · [Evidence](lab/process/wedge-shiab-action-recheck.json). The normalized wedge action yields a forced quadratic correction to the printed unit endpoint. Its actual epsilon equation is the covariant derivative of its corrected connection row.21exactcontrols pass; native stationarity, coupled constraints, physical energy and observed stress remain open. No W2 or lowPhiCW dynamics transfer, new physical prediction or ledger verdict. Joe27r's ordered packet owns the retained continuation.
+
 ## 2026-11-27 — Nonlinear CW completion classes
 
 [Result](explorations/conditional-build/cw-nonlinear-completion-2026-11-27.md) · [Evidence](lab/process/cw-nonlinear-completion.json). The actual trace self-resonance has a bounded second-order particular. The declared C2 ordinarySobolev elimination graph fails on fixed smooth packets at an off-band threshold; this is not finite-time breakdown or a source-GU verdict.45exact controls and5Leanfinite cores cover the finite claims; the written analytic proof receives independent review. Choice budget and scientific verdicts remain unchanged. Joe27r's ordered six-step sequence is recorded in the opportunity register and progress map, with completed linearCW evidence retained.

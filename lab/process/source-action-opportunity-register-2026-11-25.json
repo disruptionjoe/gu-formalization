@@ -3505,93 +3505,104 @@
   },
   "quick_win_sequence_2026_11_27_r": {
     "authority": "joe_direct_chat_2026_11_27_r",
-    "status": "active_directed_sequence",
-    "reason": "Gating value, not optimism; finish already-open T1 validation, then wedge first. Existing cadence/review and SOURCE/GU* controls preserved.",
-    "rules": [
-      "State outcomes in advance; reuse completed results; pivot within the directed wave caps by existing rules.",
-      "Component failure is not whole-pillar or whole-GU failure without exhaustive source/family coverage.",
-      "After these six, refresh map and resume retained route ranked by the results."
+    "status": "active",
+    "canonical_owner": "lab/process/work-packets/quick-win-sequence-2026-11-27.md",
+    "current_step": "1b",
+    "step1_waves_used": 1,
+    "step1_wave_cap": 3,
+    "reason": "Packet now owns ordered ready/done steps for existingrule3a; preserve all prior options and cadence."
+  },
+  "wedge_action_2026_11_27": {
+    "evidence": [
+      "explorations/conditional-build/wedge-shiab-action-recheck-2026-11-27.md",
+      "lab/process/wedge-shiab-action-recheck.json"
     ],
-    "steps": [
+    "actual_delta": "Normalized wedge first action has exact primitive/moving Euler rows. Its correction is (1/6){D_BTheta+2D_ATheta,T}, leaving (1/3){D_ATheta,T} on the compatible reference. Actual epsilon pullback satisfies E_epsilon=D_A E_T including ordinary metric mass. Exact printed-endpoint identification remains excluded by reuse; physical energy/native stationarity and observed conservation remain open.",
+    "consumed": [
+      "Normalized wedge own first-action variation with full source primitive pullback.",
+      "First-bosonic epsilon residual identity for its corrected row.",
+      "Native noncentral quadratic correction, as application of already owned exactEuler exclusion."
+    ],
+    "survivors": [
+      "Nonzero Einstein/Bianchi wedge response.",
+      "Actual variational action and epsilon redundancy, with corrected endpoint.",
+      "Conditional flat-ambient stationary reference only; not a native flat-X vacuum."
+    ],
+    "next": "Count115 mandatoryLC-BETS next; nextB Joe27r step1b wedge own temporal constraints/canonical current on a native stationary background or explicitly conditional frozen reference retaining mixed metric constraint. Step1 has two waves left before advancing the ordered sequence. Do not reuse W2 or lowPhiCW as wedge dynamics."
+  },
+  "shiab_flexibility_2026_11_27_s": {
+    "authority": "joe_direct_chat_2026_11_27_s",
+    "status": "considered_and_preserved; no variant adoption",
+    "source_flexibility": "Legitimate GU* family search; SOURCE wording and no selected historical realization retained. Sourcehooks SC-OP02/03, draftpp42\u201343.",
+    "priority_effect": "Keep Joe27r mainsequence and current wedge energy/constraint gate; variants are conditional alternatives, not a new unbounded queue.",
+    "variants": [
       {
-        "id": 1,
-        "title": "Wedge-Shiab full recheck",
-        "status": "ready",
-        "wave_cap": 3,
-        "next": "Derive normalized wedge candidate own first-action Euler rows and moving/full-U completed eddy identity. Exact printed-Euler identification already excluded; no repeat credit.",
-        "outcomes": [
-          "Own varied equations and completed identity consistent: retain candidate then test its own solutions/conservation/energy.",
-          "Extra term: identify exact variation/compensation burden; do not transfer W2 failure.",
-          "Only LC companion survives: record scoped incompleteness and pivot at cap."
-        ],
-        "reuse": [
-          "explorations/conditional-build/shiab-bianchi-companion-class-2026-11-27.md",
-          "explorations/conditional-build/full-shiab-variational-consistency-2026-11-27.md",
-          "explorations/conditional-build/printed-shiab-endpoint-audit-2026-11-27.md"
-        ]
+        "id": "GUstar-S-CONSISTENCY",
+        "rank_within_s": 1,
+        "status": "NOT_MODELED_UNDETERMINED; proposed comparison, not an adopted equation",
+        "proposal": "Fully specified consistency-first moving/Bianchi equation, including completed eddy.",
+        "basis": "Current wedge own correctedaction already has firstbosonic epsilon redundancy; compare a different equation only for a named remaining physical requirement.",
+        "test": "Fix incoming/outgoing operators and full-U fields, then check differential compatibility on actual jets; nonvariational route must supply conservation/current and energy separately.",
+        "choice_delta": {
+          "parent": "declared wedge or sourceprinted equation, to be specified before testing",
+          "possible_added_families": [
+            "equation/closure prescription",
+            "current or energy prescription if not determined"
+          ],
+          "functional_freedom": "must be declared, not hidden in a pointwise witness fit",
+          "incurred_now": 0
+        },
+        "failure": "Incompatible actualjet or unchanged physical burden without consequence; reject that specified closure."
       },
       {
-        "id": 2,
-        "title": "Full-system linear Craig-Weinstein",
-        "status": "core_done_remaining_scope_audit",
-        "wave_cap": 5,
-        "next": "Reuse the complete frozen compatible-domain linear theorem; compare remaining specified domain/source transfer only. No rerun of all19 symbol census.",
-        "outcomes": [
-          "Bulk linear survivor retained; physical norm/native curved/nonlinear and slice completeness remain distinct.",
-          "A newly found admission/constraint defect invalidates only its affected domain."
-        ],
-        "reuse": [
-          "explorations/conditional-build/cw-fullsystem-domain-2026-11-27.md",
-          "explorations/conditional-build/cw-nonlinear-completion-2026-11-27.md"
-        ]
+        "id": "GUstar-S-FIELD",
+        "rank_within_s": 2,
+        "status": "NOT_MODELED_UNDETERMINED; proposed family, not instantiated",
+        "proposal": "Smallest covariant T/A-dependent correction addressing an identified requirement; curvature/derivative extensions only if needed.",
+        "basis": "Metric/epsilon/referenceB dependence held underprimitiveT does not alone dropfixed premise. Extra metric-curvature tensors may separately reduceheldSpin symmetry and requiretheir ownpremise audit.",
+        "test": "Finite structural ansatz; include <T,(deltaS)C> andallintegrationbyparts; compare its lowest newfield order with the actual failure and all affected dynamics.",
+        "choice_delta": {
+          "parent": "must be stated",
+          "possible_added_families": [
+            "Shiab functional dependence",
+            "extra tensor or derivative-order specification if used"
+          ],
+          "functional_freedom": "arbitrary scalar/operator-valued function counts as a function family, not one scalarparameter",
+          "incurred_now": 0
+        },
+        "failure": "No consequence or same obstruction under expandedvariation; no creditfor merely leavingfixedcategory."
       },
       {
-        "id": 3,
-        "title": "Classical antilinear/PT resonant-sector test",
-        "status": "partial_ready",
-        "wave_cap": 4,
-        "next": "Reuse actual printed Theta covariance, nonzero invariant forcing and temporal Jordan2; test only a new classical PT-type reduction/domain criterion.",
-        "outcomes": [
-          "Actual symmetry-compatible positive classical realization earns scoped survivor.",
-          "Forcing remains and tested norm category fails: record exact category, not all changed Hilbert spaces."
-        ],
-        "reuse": [
-          "explorations/conditional-build/cw-fullsystem-domain-2026-11-27.md"
-        ]
-      },
-      {
-        "id": 4,
-        "title": "Trapped sections and one-way leakage",
-        "status": "ready",
-        "wave_cap": 3,
-        "next": "Reuse prior mean-curvature/one-way repair results before checking existence and coincidence.",
-        "outcomes": [
-          "Null/timelike H with required density condition exists: geometric fit only; horizon/scale bridge still required.",
-          "No such section in declared class: that H1 realization excluded, not every horizon interpretation."
-        ]
-      },
-      {
-        "id": 5,
-        "title": "Unimodular/Lambda integration constant",
-        "status": "ready",
-        "wave_cap": 5,
-        "next": "Test actual equation/variation constraints behind fixed-volume rigidity; distinguish a free coupling from an integration constant.",
-        "outcomes": [
-          "Derive integration constant with its conservation premise.",
-          "Rigidity alone insufficient or actual equations fix otherwise: name exact missing/contradictory premise."
-        ]
-      },
-      {
-        "id": 6,
-        "title": "Uniqueness of kinematic fit",
-        "status": "ready",
-        "wave_cap": 3,
-        "next": "Reuse comparison dossiers; compare source-derived fit with Spin10, Pati-Salam, Nesti-Percacci including claimed2025 revision, E8 and spectralSM via verified primary papers.",
-        "outcomes": [
-          "Source-specific falsifiable relation found: test it.",
-          "Fits shared: preserve honest positive fit without uniqueness credit."
-        ]
+        "id": "GUstar-S-COEFFICIENT",
+        "rank_within_s": 3,
+        "status": "PARTLY_RULED_OUT_BY_REUSE; changed equations untested",
+        "proposal": "Action-coefficient/endpoint normalization variations",
+        "basis": "All nonzero a,b in exact commonS endpoint and everyfixedinvertible zerothorder multiplier already excluded by endpointaudit; no resweep.",
+        "test": "Only a genuinely changed equation with a declared newconsequence is eligible. Zeroing a or b removes a channel andmustbe explicit; ownactionvariation decidescoefficients.",
+        "choice_delta": {
+          "parent": "must be stated",
+          "possible_added_families": [
+            "modified coefficient relation or endpoint prescription"
+          ],
+          "functional_freedom": "number of independently free constants/relations must be listed",
+          "incurred_now": 0
+        },
+        "failure": "Coveredretuning or noearnedconsequence; deprioritize."
       }
-    ]
+    ],
+    "recheck_contract": [
+      "State the source/GU* departure and explicit target consequence before construction.",
+      "Derive all deltaS terms and recheck affected fidelity, metric/epsilon constraints, conservation, energy, antilinear and CW linear/nonlinear domain claims.",
+      "A distinct equation-owner cannot inherit W2 or lowPhiCW results.",
+      "No predictive/viability credit merely for falling outside an old theorem. Require a testable consequence, ideally untuned Einstein recovery."
+    ],
+    "choice_accounting": "W2 10/4/net6/0 is its historical grouped baseline, not a universalminimum or automatically the wedge budget. Every tested successor gets a delta inventory against its named parent. Alternative branches are not summed as simultaneous choices. Proposed uninstantiated variants incur no adopted choice now, but each has explicit prospectivecost fields.",
+    "prediction_credit": 0,
+    "reuse": [
+      "explorations/conditional-build/printed-shiab-endpoint-audit-2026-11-27.md",
+      "explorations/conditional-build/wedge-shiab-action-recheck-2026-11-27.md",
+      "explorations/conditional-build/source-prescription-current-2026-11-13.md"
+    ],
+    "three_state": "Existing theorem coverage established; genuine new variants unmodeled/undetermined, not certified survivors."
   }
 }

@@ -1,0 +1,247 @@
+{
+  "artifact": "WEDGE_SHIAB_ACTION_RECHECK",
+  "date": "2026-11-27",
+  "basis_revision": "4910d449e277bc3f742911134c3beb4c5f8af143",
+  "status": "internal_T2_reviewed",
+  "target": "LB-CLASS",
+  "tier": "T2",
+  "lane": "LB-CLASS",
+  "actual_delta": "Normalized wedge first action has exact primitive/moving Euler rows. Its correction is (1/6){D_BTheta+2D_ATheta,T}, leaving (1/3){D_ATheta,T} on the compatible reference. Actual epsilon pullback satisfies E_epsilon=D_A E_T including ordinary metric mass. Exact printed-endpoint identification remains excluded by reuse; physical energy/native stationarity and observed conservation remain open.",
+  "source_bridge": {
+    "status": "conditional",
+    "reason": "Source supplies primitive fields/action packet/conjugation, while wedge operator selection is a declared GU* alternative; own corrected equation is not the printed unit row."
+  },
+  "source_necessary_exclusion": false,
+  "weakest_unproved_link": "Native stationary full-system solution, physical quotient/domain and observed energy bridge; no current physical viability claim.",
+  "class_C_representativeness": "One previously defined wedge candidate, with universal formal action identities; not all moduleShiabs or source-selected action.",
+  "track": [
+    "SOURCE fidelity comparison",
+    "GU* normalized wedge action"
+  ],
+  "choice_budget": {
+    "families": 10,
+    "obligations": 4,
+    "net": 6,
+    "source_selected_predictions": 0,
+    "change": 0,
+    "repair_adopted_as_source": false,
+    "reason": "No new tunable choice; the correction is forced by an existing candidate action. Variational coherence is not a new independently counted physical obligation.",
+    "baseline_owner": "Existing W2 grouped bookkeeping baseline; not asserted as the complete new wedge budget."
+  },
+  "selection": {
+    "mandatory_basis": "Joe27r step1; counter114ordinaryB; no openT1.",
+    "class_scope": "Normalized fixed wedge first bosonic action with source primitive transformations, not physical full-theory dynamics.",
+    "source_relevance": "Actual source action packet and epsilon law; wedge selection conditional.",
+    "shared_prerequisite": "Same-owner action/variation before conservation, energy, GR recovery and black-hole tests.",
+    "reuse_delta": "Reused Einstein companion and exactEuler exclusions; derived explicit ownrows, sourcepullback and native correction.",
+    "remaining_cost": "Own constraint/current and native stationarity, max two further step1waves.",
+    "strongest_eligible_alternative": "Completed printed lowPhi linearCW is not repeated; its nonlinear domain work follows the directed sequence.",
+    "cost": "One wave;21exactchecks about0.008s, written source/variation review; no new T1kill or Lean obligation. Token cost unmeasured."
+  },
+  "verification": {
+    "artifact_hashes": {
+      "explorations/conditional-build/wedge-shiab-action-recheck-2026-11-27.md": "3b5f7dae39ec20dc78d457148a63bf23e5290ce9604cae2db52a3832d13f1d91",
+      "tests/program-focus/wedge_shiab_action_recheck_probe.py": "1d6eaf8d75be07f0e51166a09fe3e68097a18ecb5f733803e746b8984eb98b73",
+      "lab/process/wedge-shiab-action-recheck-certificates.json": "a90e95d367c5cc1e84edb373063a2dd543b05c1118815d5176e98f7008b500d9"
+    },
+    "reviews": [
+      {
+        "reviewer": "metric_family_second_review",
+        "role": "Independent T2 mathematical reviewer; not a contributor",
+        "status": "accepted",
+        "accepted": true,
+        "blockers": [],
+        "artifact_hashes": {
+          "explorations/conditional-build/wedge-shiab-action-recheck-2026-11-27.md": "3b5f7dae39ec20dc78d457148a63bf23e5290ce9604cae2db52a3832d13f1d91",
+          "tests/program-focus/wedge_shiab_action_recheck_probe.py": "1d6eaf8d75be07f0e51166a09fe3e68097a18ecb5f733803e746b8984eb98b73",
+          "lab/process/wedge-shiab-action-recheck-certificates.json": "a90e95d367c5cc1e84edb373063a2dd543b05c1118815d5176e98f7008b500d9"
+        },
+        "method": "Read-only derivation review of action, code and certificate, with prior companion/variation/source-primitive references. Recomputed graded signs and chain-rule identities by hand. No tests, builds or owner edits performed.",
+        "findings": [
+          {
+            "topic": "Action normalization and cyclic variation",
+            "verdict": "accepted",
+            "reason": "Starting from -tr T(Theta C+CTheta), graded cyclicity with degrees1,11,2 gives +tr Theta(CT+TC). This yields the displayed FT+TF, half(YT+TY) and two-thirdsT^3 density. Independent variations of T,B,Theta give the reported E_T,E_B,E_Theta. In particular the cubic variation signs are minusT^2Theta, plusTThetaT, minusThetaT^2, so the extra noncentral term is required by the action."
+          },
+          {
+            "topic": "Boundary and integration by parts",
+            "verdict": "accepted",
+            "reason": "Derivative-on-variation terms have coefficient Theta T-TTheta. Since deltaT and deltaB have degree1, integral D(deltaT)X equals boundary plus integral deltaT DX. The factors one-half for the T variation and one for B give exactly d tr[(deltaB+deltaT/2)(Theta T-TTheta)]. The Theta variation is algebraic and adds no independent-coordinate boundary."
+          },
+          {
+            "topic": "Compact corrected Euler row",
+            "verdict": "accepted",
+            "reason": "Expanding S2(F_A)+(1/6){D_BTheta+2D_ATheta,T}, using F_A=F+Y+T^2 and D_ATheta=K+{T,Theta}, reproduces the directly varied row. On D_BTheta=0 the correction is one-third{D_ATheta,T}. This is fixed by variation and cannot be treated as a tunable coefficient or silently discarded."
+          },
+          {
+            "topic": "Mass and metric terms",
+            "verdict": "accepted",
+            "reason": "Variation of kappa/2 tr(T starT) adds kappa starT to the connection row and the explicit kappa/2 tr(T delta_g star T) term. The identity {T,starT}=0 holds as a matrix-valued top form because its coefficient is a symmetric metric contraction of matrix commutators. Thus D_B starT=D_A starT. The metric dependence of both Theta and A0 must still be differentiated; the report retains these burdens."
+          },
+          {
+            "topic": "Covariance and epsilon redundancy",
+            "verdict": "accepted",
+            "reason": "For simultaneous infinitesimal conjugation, deltaB=D_Beta, deltaT=[T,eta] and deltaTheta=[Theta,eta]. Graded trace and integration by parts give D_BE_B+{T,E_T}+{Theta,E_Theta}=0. The actual source epsilon slice instead has deltaT=-D_Beta and deltaB=D_Beta, yielding E_epsilon=D_B(E_T-E_B)-{Theta,E_Theta}=D_AE_T. This includes moving insertion and does not require D_ATheta=0. The same identity carries the mass addition."
+          },
+          {
+            "topic": "Completed eddy packet",
+            "verdict": "accepted",
+            "reason": "Directly using D_BF=0, D_B^2T=[F,T] and the graded Leibniz rule gives D_AC=(1/2)[T,F]+(1/6)[T,D_BT]. Differentiating -{Theta,C} gives S3(D_AC)-{D_ATheta,C}. These nonzero terms are retained, so no false bare-curvature exactness or vacuous degree15 conservation argument enters."
+          },
+          {
+            "topic": "Actual source field-space pullback",
+            "verdict": "accepted",
+            "reason": "Substituting deltaT=alpha+beta-Ad(beta)-D_Beta, deltaB=Ad(beta)+D_Beta and deltaTheta=Ad(delta_g starPhi3)+[Theta,eta] produces the stated alpha/beta/Theta terms. E_B and E_Theta are intermediate chain-rule rows, not independently imposed source equations. Derivatives in beta and delta_gTheta require additional integration by parts to obtain the primitive metric equation and its full boundary current."
+          },
+          {
+            "topic": "Native reference and scope of SURVIVES",
+            "verdict": "accepted",
+            "reason": "T=0,F_B=0 makes the first-action rows vanish, but a flat base X does not provide flat ambientY. The retained native Ricci eigenvalues give nonzero ambient Einstein response, hence nonzero S2(F_B), at zero distortion. The mixed Hessian t S2(deltaF_B[h]) persists even on an explicitly conditional flat ambient reference; held-metric modes must satisfy the adjoint metric constraint. Therefore SURVIVES is valid for the own-action/first-bosonic redundancy checks only, not existence of a native stationary solution, positive energy or GR recovery."
+          },
+          {
+            "topic": "Finite validation and reused exclusion",
+            "verdict": "accepted",
+            "reason": "All three artifacts match their frozen hashes; the certificate probe hash and all dependency hashes match their files. The21 named controls cover the derived rows, boundaries, compact identities and separate K95/K77 sparse witnesses. The previous full-Spin/full-U printed-endpoint exclusion is explicitly reused rather than promoted as a new kill. Finite controls are not claimed to prove dynamics."
+          }
+        ],
+        "qualifications": [
+          "The wedge selection is a declared GU* alternative with a conditional source bridge; its noncentral corrected Euler row differs from the printed unit endpoint.",
+          "SURVIVES means that the specified first bosonic action has consistent variational rows and its source epsilon identity. It does not certify a full physical GU member or an action including all independent fermion/other terms.",
+          "When the mass is retained, the E_T in the primitive pullback must mean the total row including kappa starT; its explicit metric term is additional.",
+          "The displayed independent-coordinate presymplectic potential is not yet the full source-primitive metric current. Further metric-chain-rule integration by parts can add boundary terms before physical conservation or energy is assessed.",
+          "K95/K77 sparse controls are separate declared conventions, not a general real-form transfer. Neither a positive physical pairing nor a stationary native vacuum is supplied.",
+          "No source verdict, scientific ledger verdict, new choice family, canon promotion or prediction follows."
+        ],
+        "nonblocking_editorial_suggestions": [],
+        "final_clarification_revalidation": {
+          "status": "accepted",
+          "method": "Reverse-applied the three clarification changes and exactly reconstructed the originally reviewed report hashdd1f5ade. Probe and certificate unchanged. Read the added source-chimeric-trace-compatibility section1 reference.",
+          "conclusion": "Total E_T includes mass; metric chain-rule boundary terms precede the full primitive current. D_BTheta=0 is confined to the matching torsion-free metric-spin reference, with K retained for more general connections. These clarify rather than enlarge the accepted theorem."
+        }
+      },
+      {
+        "accepted": true,
+        "blockers": [],
+        "reviewer_role": "Independent hostile/source internal T2 review; not author.",
+        "basis": "4910d449e277bc3f742911134c3beb4c5f8af143",
+        "artifact_hashes": {
+          "explorations/conditional-build/wedge-shiab-action-recheck-2026-11-27.md": "3b5f7dae39ec20dc78d457148a63bf23e5290ce9604cae2db52a3832d13f1d91",
+          "tests/program-focus/wedge_shiab_action_recheck_probe.py": "1d6eaf8d75be07f0e51166a09fe3e68097a18ecb5f733803e746b8984eb98b73",
+          "lab/process/wedge-shiab-action-recheck-certificates.json": "a90e95d367c5cc1e84edb373063a2dd543b05c1118815d5176e98f7008b500d9"
+        },
+        "authenticated_dependencies": {
+          "tests/program-focus/shiab_graded_derivation_probe.py": "d16872f9dec86b8069a9a64acd0dae01c6778692350dcba09f8c10bb66fe20e0",
+          "tests/program-focus/shiab_bianchi_companion_probe.py": "ec24e1a970c99b3c9665495e9cadce996563a4a2d3e1b25621bfdc31ac2f9933",
+          "explorations/conditional-build/shiab-bianchi-companion-class-2026-11-27.md": "c0f4a812a26a7b37913d3e366182e65c25dd91965912b64df09fdf0e82679b42",
+          "explorations/conditional-build/full-shiab-variational-consistency-2026-11-27.md": "0b0113ec030b5069c3688f6a9ab49032d46b80b590637ab1c39645a4349bbb0a",
+          "explorations/conditional-build/source-prescription-current-2026-11-13.md": "6ec3109bb811e49463228b8a7a780303260997c6622baa48b213aa07558e7194"
+        },
+        "source_dependencies_read": {
+          "lab/sources/source-claim-register.yaml": "dc3ae173b4cc0eb2a0e343e3d92d5f110b8e4f6eef3e2852a1e897ab4371ade6",
+          "lab/sources/gu-moving-shiab-epsilon-green-source-reinspection-2026-08-05.md": "1bd86b22300778f79c82fd17dafe56ef9a6aab2f76dcf7e4510fa5589a984e18",
+          "lab/sources/selected-k77-moving-epsilon-first-action-source-reinspection-2026-08-09.md": "666a527f1623b6fd908c83334bcbc052614f900cc5c27d2655aca19d2bc9b2eb",
+          "lab/sources/selected-k77-source-euler-two-to-one-source-reinspection-2026-08-09.md": "d514c7b360878653d87eb5f9e3c7c2b453a88845d8a5e090661dec1ca6ff0324",
+          "lab/sources/gu-eddy-augmented-torsion-euler-functor-source-reinspection-2026-08-05.md": "c125a62d7f7ca08ed4491e0df02b3c0864ad88b814f6d690892a6ea36ba14a5a",
+          "lab/sources/gu-two-layer-action-source-reinspection-2026-08-04.md": "14333eeeb9c7474844a25723021156d8ba6670758580b57101b0b3cabd15afcc",
+          "lab/sources/weinstein-gu-primary-source-pack-2026-07-30.md": "7b37925b0342c9495dc1706a39c0f2e9569e64a1352a3221814a2b0c9b9c2999",
+          "lab/sources/transcripts/portal-special-gu-first-look-2020-04-02.md": "f889ba11089620ade11b5ccf7eb9b01b0c2290e66c54f4e43543ced87a81486f",
+          "explorations/conditional-build/source-chimeric-trace-compatibility-2026-11-13.md": "3b883233b2f0b0f5787fd9091fd877893a052c47c11a91f291a5b9af271cbb3f",
+          "explorations/research-cycles/hourly-20260625-0301-cycle3-rendered-dgu01-identity-transcription.md": "985e989f5d76b11b649c123182c392e7180077a7722aa21d6e9e43c747dbf426",
+          "explorations/research-cycles/hourly-20260626-1003-cycle3-tau-source-locator-packet.md": "efd24312c5bc2b18439a12c5afbe37deac0efbe8e2e3c2fe5f21c6148dc76273"
+        },
+        "review_contribution": "Requested explicit matching LC-reference custody and the additional metric-chain integration-by-parts boundary terms before calling the current the full primitive-field current. Both clarifications were incorporated. No mathematical or source artifact was authored by this reviewer.",
+        "own_checks": [
+          "Source custody checked against the retained primitive dictionary and rendered/source receipts for draft6.22,7.3,9.4,9.7,12.4 and source-register SC-ACT-01/02, SC-OP-02/03. These fix the A,B,T primitive chain and the first-action packet; they do not uniquely select this wedge alternative. The Portal02:35:10 passage explicitly retains the quadratic eddy rather than bare-curvature exactness.",
+          "Independently derived the right-logarithmic epsilon chain at fixed g,varpi: deltaB=D_B eta, deltaT=-D_B eta, deltaTheta=[Theta,eta]. Theta=Ad(epsilon^-1)(*Phi3[g]) is a dependent source construction, not an added independent field. Independent B,T,Theta variations in the proof are only chain-rule coordinates.",
+          "Checked graded cyclic signs and boundary orientation directly. Rewriting -tr T(Theta C+C Theta) gives tr Theta(FT+TF+1/2(YT+TY)+2/3 T^3). The derivative-on-variation coefficient is 1/2(Theta T-T Theta), and integrating D(deltaT) against a degree12 form has a plus bulk sign.",
+          "Directly verified the three cubic rotations give -T^2Theta,+TThetaT,-ThetaT^2 and hence the reported E_T. Independently varying B gives deltaF=D(deltaB), deltaY=deltaB T+T deltaB, the displayed E_B and its full boundary term. The Theta row is the undifferentiated cubic packet.",
+          "Verified the compact own-Euler difference: E_T=-{Theta,F_A}+1/6{D_BTheta+2D_ATheta,T}. In the matching torsion-free metric-spin reference, D_BTheta=0 gives the stated one-third correction. The generic K retained in the formulas prevents conflating arbitrary chimeric-compatible connections with that LC reference.",
+          "Derived the covariance identity from simultaneous connection/tensor gauge conjugation: D_B E_B+{T,E_T}+{Theta,E_Theta}=0. The signs follow because E_T,E_B have degree13 and E_Theta degree3. Substituting only the source epsilon variation gives E_epsilon=D_B(E_T-E_B)-{Theta,E_Theta}=D_A E_T. This does not require D_ATheta=0, an unprinted spinor-module law, or independent E_B=E_Theta=0 equations.",
+          "Checked the mass extension: symmetric metric contraction makes the matrix-valued top form T* T+*T T identically zero, so the mass epsilon row kappa D_B(*T) equals kappa D_A(*T). The metric variation of Hodge is separately retained; kappa is not interpreted as a derived physical mass.",
+          "Verified D_A C=1/2[T,F_B]+1/6[T,D_BT] and the moving wedge companion defect. The report does not infer a conservation law from a degree15 exterior derivative on Y14 or discard the completed packet terms.",
+          "Inspected the source primitive pullback with metric beta and moving Theta. The final text includes the mass row in E_T when retained, the explicit mass metric term, and the additional boundary terms from metric-chain integration by parts. It does not use the independent-coordinate potential as an already complete conserved physical current.",
+          "Read the exact probe and native sparse Clifford helper definitions statically. The 21 controls distinguish independently extracted free-graded-word Euler rows from native noncentral K95/K77 witnesses. The correction is nonzero in both named layouts; the central parallel case is expressly a comparator. All three final artifact hashes and five listed dependency hashes authenticated. No control was executed by this reviewer.",
+          "Checked the outcome ceiling: the existing fixed-linear/full-U exact printed-Euler exclusion is reused, not newly counted as T1. The corrected first-action identity is positive scoped evidence, not a selected full solution, BV/BRST completion, physical conservation, positive energy or GR recovery. W2 roots and low-Phi CW dynamics do not transfer. The flat-ambient conditional reference is distinguished from flat downstairs X, whose induced upstairs LC curvature is nonzero."
+        ],
+        "qualifications": [
+          "Acceptance concerns this normalized source-shaped GU* wedge action and its first-bosonic variational/epsilon identity, with compact local variations. It does not establish the missing historical Shiab selector or promote a source/ledger/canon verdict.",
+          "The identity is with the corrected connection Euler row, not the printed unit-curvature endpoint. The old nonzero fixed-S endpoint obstruction is retained at its previously accepted scope.",
+          "D_BTheta=0 is used only for the matching torsion-free metric-spin reference transported with Theta; the general K expression remains required for other references.",
+          "The independent fermion rows, other action layers, full primitive metric equation, global integration/domain conditions, stationary native wedge background and physical quotient remain outside this calculation.",
+          "The presymplectic potential must be pulled back and supplemented by metric-chain boundary terms before a full current is claimed. Its conservation requires the actual appropriate equations and linearized equations; positivity and observed4D stress are not implied.",
+          "Internal review is not external expert review. Source custody was checked through the retained authenticated extraction/receipt chain and transcript, not by a fresh PDF retrieval/render during this review."
+        ],
+        "not_run": [
+          "No test/probe execution, native algebra job, Lean compilation, build, owner edit or fresh external-source retrieval. Parent-reported 21 exact controls were inspected statically and authenticated, not independently rerun."
+        ]
+      }
+    ],
+    "exact_controls": 21,
+    "command": "python3 tests/program-focus/wedge_shiab_action_recheck_probe.py --verify",
+    "proof_scope": "Exact free graded-algebra differentiation and sparse Clifford witnesses; source mapping/physical scope independently reviewed. No full dynamical or formal Lean theorem.",
+    "gates": {
+      "program_focus_audit": "PASS",
+      "typed_carrier_declaration_audit": "PASS",
+      "kill_target_claim_audit": "PASS",
+      "frontmatter_status_schema_audit": "PASS",
+      "source_native_comparator_routing_audit": "PASS",
+      "lean_certificate_surface_audit": "PASS",
+      "current_state_absolute_currency_audit": "PASS",
+      "conditional_evidence_delta_gate": "PASS",
+      "research_context_reader_audit": "PASS"
+    }
+  },
+  "three_state": {
+    "ESTABLISHED": "Normalized wedge first action has exact primitive/moving Euler rows. Its correction is (1/6){D_BTheta+2D_ATheta,T}, leaving (1/3){D_ATheta,T} on the compatible reference. Actual epsilon pullback satisfies E_epsilon=D_A E_T including ordinary metric mass. Exact printed-endpoint identification remains excluded by reuse; physical energy/native stationarity and observed conservation remain open.",
+    "RULED_OUT": "Identical unitprintedendpoint under the previously covered fixedSpin/fullU exactEuler premises, reused rather than newly promoted.",
+    "NOT_MODELED_UNDETERMINED": "Native stationary complete wedge system, positive physical energy, observed conserved stress, GR recovery or wholeGU viability."
+  },
+  "scoped_outcomes": {
+    "wedge_own_variation_and_first_bosonic_redundancy": "SURVIVES",
+    "exact_unit_printed_endpoint_identification": "FALSIFIED under previously reviewed premises, no new verdict",
+    "gravity_pillar": "INCOMPLETE",
+    "source_and_overall_GU_star": "INCOMPLETE"
+  },
+  "novelty_claim": "none",
+  "follow_through": {
+    "consumed": [
+      "Normalized wedge own first-action variation with full source primitive pullback.",
+      "First-bosonic epsilon residual identity for its corrected row.",
+      "Native noncentral quadratic correction, as application of already owned exactEuler exclusion."
+    ],
+    "survivors": [
+      "Nonzero Einstein/Bianchi wedge response.",
+      "Actual variational action and epsilon redundancy, with corrected endpoint.",
+      "Conditional flat-ambient stationary reference only; not a native flat-X vacuum."
+    ],
+    "next": "Count115 mandatoryLC-BETS next; nextB Joe27r step1b wedge own temporal constraints/canonical current on a native stationary background or explicitly conditional frozen reference retaining mixed metric constraint. Step1 has two waves left before advancing the ordered sequence. Do not reuse W2 or lowPhiCW as wedge dynamics."
+  },
+  "directed_sequence": {
+    "authority": "joe_direct_chat_2026_11_27_r",
+    "canonical_owner": "lab/process/work-packets/quick-win-sequence-2026-11-27.md",
+    "current_step": "1b",
+    "step1_waves_used": 1,
+    "step1_wave_cap": 3,
+    "linearCW_core": "Previously completed for selectedlowPhi, no automatic wedge transfer."
+  },
+  "retrospective": {
+    "shortcut": "Three read-only scouts separated variation, movingidentity and source/nativevacuum. Free gradedword algebra avoided full spinormatrices.",
+    "failure_memory": "Do not freeze epsilon-conjugated Theta when testing its residual identity. Flat X is not flat ambientY; heldmetric modes may fail mixedmetric constraints.",
+    "execution_correction": "Initial sync raced in-progress worktree checkouts; never-written failed-start trees were completed,provedclean andremoved; freshv2trees passed sync before admission. Await dependent commands."
+  },
+  "accounting": {
+    "counter_before": 114,
+    "counter_after": 115,
+    "LB_CLASS_before": 55,
+    "LB_CLASS_after": 56,
+    "bet_credit": 0,
+    "cell_status_changes": 0,
+    "ledger_verdict_changes": 0
+  },
+  "effect_line": "Change: wedge own-action/epsilon identity established and Joe27r packet made first under existingrule3a. Why: gravity fidelity and same-owner dynamics gate downstream claims. Authority27q/r; applied. No policy reset, source verdict or choice-budget change; automated effect not yet observed.",
+  "late_direction_2026_11_27_s": {
+    "authority": "joe_direct_chat_2026_11_27_s",
+    "owner_ref": "lab/process/source-action-opportunity-register-2026-11-25.json#shiab_flexibility_2026_11_27_s",
+    "effect": "Preserved legitimate family alternatives and their cost/recheck obligations; no adopted variant, verdict or r-order change."
+  }
+}

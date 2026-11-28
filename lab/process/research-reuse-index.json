@@ -2585,6 +2585,59 @@
         "receipt_ref": "lab/process/cw-nonlinear-completion.json#verification",
         "scope": "Sympy1.14;45exact controls and5finiteLean cores; written graph theorem separately reviewed."
       }
+    },
+    {
+      "id": "wedge-shiab-action-recheck-2026-11-27",
+      "kind": "result",
+      "owner_ref": "explorations/conditional-build/wedge-shiab-action-recheck-2026-11-27.md",
+      "tested_statement": "Normalized wedge first action has exact primitive/moving Euler rows. Its correction is (1/6){D_BTheta+2D_ATheta,T}, leaving (1/3){D_ATheta,T} on the compatible reference. Actual epsilon pullback satisfies E_epsilon=D_A E_T including ordinary metric mass. Exact printed-endpoint identification remains excluded by reuse; physical energy/native stationarity and observed conservation remain open.",
+      "signature": {
+        "object": "Normalized wedge firstbosonic action actualEuler and epsilon identity",
+        "carrier": "Fulladjoint forms, metricCliffordTheta conjugatedbyepsilon",
+        "convention": "Ordinary matrixwedge, graded cyclictrace, degree14 topform; K95/K77 separate",
+        "class": "Specified fixed wedge candidate withmoving sourceprimitive pullback",
+        "premises": [
+          "explorations/conditional-build/shiab-bianchi-companion-class-2026-11-27.md",
+          "explorations/conditional-build/source-prescription-current-2026-11-13.md"
+        ]
+      },
+      "attributed_status": "internal_T2_reviewed",
+      "status_ref": "lab/process/wedge-shiab-action-recheck.json#status",
+      "source_bridge_ref": "lab/process/wedge-shiab-action-recheck.json#source_bridge",
+      "certificate_refs": [
+        "lab/process/wedge-shiab-action-recheck-certificates.json"
+      ],
+      "control_refs": [
+        "tests/program-focus/wedge_shiab_action_recheck_probe.py"
+      ],
+      "survivors_ref": "lab/process/wedge-shiab-action-recheck.json#follow_through",
+      "reopen_condition_ref": "explorations/conditional-build/wedge-shiab-action-recheck-2026-11-27.md",
+      "superseded_by": null,
+      "cache": {
+        "artifacts": [
+          {
+            "path": "explorations/conditional-build/wedge-shiab-action-recheck-2026-11-27.md",
+            "sha256": "3b5f7dae39ec20dc78d457148a63bf23e5290ce9604cae2db52a3832d13f1d91"
+          },
+          {
+            "path": "tests/program-focus/wedge_shiab_action_recheck_probe.py",
+            "sha256": "1d6eaf8d75be07f0e51166a09fe3e68097a18ecb5f733803e746b8984eb98b73"
+          },
+          {
+            "path": "lab/process/wedge-shiab-action-recheck-certificates.json",
+            "sha256": "a90e95d367c5cc1e84edb373063a2dd543b05c1118815d5176e98f7008b500d9"
+          }
+        ],
+        "verifier": {
+          "command": "python3",
+          "args": [
+            "tests/program-focus/wedge_shiab_action_recheck_probe.py",
+            "--verify"
+          ]
+        },
+        "receipt_ref": "lab/process/wedge-shiab-action-recheck.json#verification",
+        "scope": "21 exact gradedword/nativecontrols; sourcefield-space andinterpretation reviewed separately."
+      }
     }
   ]
 }
