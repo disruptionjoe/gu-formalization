@@ -1,0 +1,148 @@
+{
+  "schema": "gu-cw-nonlinear-completion-v1",
+  "status": "PASS",
+  "probe_sha256": "79e6cac8011c4c2f93f880e506e1241d5d46ce72766e2a73aeacb2ee8aff5111",
+  "dependencies": {
+    "tests/program-focus/cw_fullsystem_domain_probe.py": "705acae3569fb46445ecb8c7562baddce793a3eb482e5477848c20ee9900cc1d",
+    "lab/process/cw-fullsystem-domain-certificates.json": "8ede03f10d6bd28570a3028eb5c320d297de67a827d8b51c545ee5da76314be5",
+    "lab/process/printed-state-completion-certificates.json": "ec0aafeace76b0d47f9ec9a7b142be29b6c7349e2c3397283029d14fe3e88977",
+    "tests/program-focus/source_action_deep_algebra.py": "4e3800131049e2b397bbce6106bfc5766d2f5fbf996319c50942f3b805d65598",
+    "tests/program-focus/printed_equation_jets_symbol_probe.py": "e43da867d17cf985bfac8c014657e8cbf18c94e80013350ca69eee804a4ebeb8",
+    "tests/program-focus/printed_differential_solvability_probe.py": "bd55c549c5448182ae35cff40d7fdb581d4b6b90a8f3f14b91029c219139434d",
+    "explorations/conditional-build/printed-equation-jets-and-symbol-2026-11-27.md": "d0fc17f026f254a93bf8a4a82891abba9b9fe0ec809f73fd7bd4ca06ae61b3c5",
+    "explorations/conditional-build/printed-differential-solvability-2026-11-27.md": "5190082b42b37cd970a8d2a5d820a02c7980d7cc16c446b414b1ca8fc7f5fdbb",
+    "explorations/conditional-build/printed-nonlinear-transfer-2026-11-27.md": "28bb64f53d40b4ca7434534f5104d018c273ca9d0e3561f7d3a8233ea91ca87b",
+    "lab/process/printed-nonlinear-transfer-certificates.json": "310ce5c4e6f85984938f95bdfe2e04f3eb162184953aaf06c1721cb49c208296"
+  },
+  "check_count": 45,
+  "check_names": [
+    "reuse hash tests/program-focus/cw_fullsystem_domain_probe.py",
+    "reuse hash lab/process/cw-fullsystem-domain-certificates.json",
+    "reuse hash lab/process/printed-state-completion-certificates.json",
+    "native dependency tests/program-focus/source_action_deep_algebra.py",
+    "native dependency tests/program-focus/printed_equation_jets_symbol_probe.py",
+    "native dependency tests/program-focus/printed_differential_solvability_probe.py",
+    "native dependency explorations/conditional-build/printed-equation-jets-and-symbol-2026-11-27.md",
+    "native dependency explorations/conditional-build/printed-differential-solvability-2026-11-27.md",
+    "native dependency explorations/conditional-build/printed-nonlinear-transfer-2026-11-27.md",
+    "native dependency lab/process/printed-nonlinear-transfer-certificates.json",
+    "owned complete factors",
+    "owned boosted residue receiver",
+    "self input trace shell",
+    "self invariant trace polarization",
+    "self full linear kernel",
+    "native self wedge reduction",
+    "native invariant Phi image",
+    "native self force exact",
+    "output trace block first column",
+    "output trace block second column",
+    "output longitudinal column",
+    "self output is a minus3 resonance",
+    "forcing invariant subspace nonresonant",
+    "actual full-system bounded self particular",
+    "self force is not zero",
+    "threshold factor identity",
+    "one-sided denominator",
+    "all other shell factors invertible at threshold",
+    "inverse residue coefficient",
+    "negative-force numerator receiver",
+    "boosted stable margin",
+    "internal phase normal derivative",
+    "threshold output is smooth hypersurface",
+    "coarea lower-bound scaling",
+    "all nineteen-shell ordered arithmetic triads",
+    "triad proportionality (-1, -4, -4)",
+    "triad proportionality (-2, -8, -8)",
+    "triad proportionality (-3, -12, -12)",
+    "triad proportionality (-4, -1, -4)",
+    "triad proportionality (-4, -4, -1)",
+    "triad proportionality (-8, -2, -8)",
+    "triad proportionality (-8, -8, -2)",
+    "triad proportionality (-12, -3, -12)",
+    "triad proportionality (-12, -12, -3)",
+    "no positive-factor space-time resonance"
+  ],
+  "self_null_control": {
+    "input": [
+      "9",
+      "10",
+      "4"
+    ],
+    "input_a": -12,
+    "output_a": -3,
+    "forcing_coefficients_O_L": [
+      "41184",
+      "48672"
+    ],
+    "negative_force_particular_O_V_L": [
+      "1144",
+      "1144/3",
+      "-4056"
+    ],
+    "full_force_nonzero": true,
+    "resonant_projection_zero": true
+  },
+  "threshold": {
+    "kappa": 12,
+    "output_K": "6 eta",
+    "delta": "-r(K)^2-36",
+    "input_phase_derivative": "-9/13",
+    "threshold_gradient_eta": 12,
+    "actual_negative_force_numerator_receiver": "626688",
+    "forced_graph_receiver_lower_bound": "c/sqrt(delta)",
+    "target": "ordinary global Sobolev, which requires Fourier L2 on a neighborhood of K0 including the threshold"
+  },
+  "ordered_space_time_shell_triads": [
+    [
+      -1,
+      -4,
+      -4
+    ],
+    [
+      -2,
+      -8,
+      -8
+    ],
+    [
+      -3,
+      -12,
+      -12
+    ],
+    [
+      -4,
+      -1,
+      -4
+    ],
+    [
+      -4,
+      -4,
+      -1
+    ],
+    [
+      -8,
+      -2,
+      -8
+    ],
+    [
+      -8,
+      -8,
+      -2
+    ],
+    [
+      -12,
+      -3,
+      -12
+    ],
+    [
+      -12,
+      -12,
+      -3
+    ]
+  ],
+  "limits": [
+    "No source-selected domain or physical norm.",
+    "Kernel/coarea graph exclusion is reviewed written analysis, not finite-code proof.",
+    "No finite-time nonlinear breakdown or complete GU exclusion.",
+    "Triad arithmetic does not establish nullity of untested mixed vertices."
+  ]
+}

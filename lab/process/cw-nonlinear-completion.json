@@ -1,0 +1,312 @@
+{
+  "artifact": "CW_NONLINEAR_COMPLETION",
+  "date": "2026-11-27",
+  "basis_revision": "4186f265ceccdd02d11125ec6de2268580eedd65",
+  "status": "internal_T1_reviewed",
+  "target": "X-P1-P2",
+  "tier": "T1",
+  "lane": "LB-LADDER",
+  "actual_delta": "Actual trace self-resonance has zero resonant projection and an exact bounded second-order particular. A distinct actual off-band threshold excludes every stated C2 translation-equivariant instantaneous graph with ordinary global Sobolev output, including distributional kernels and finite derivative loss: fixed admitted packets force a c/sqrt(delta) Fourier singularity. Exactly three unordered equal-velocity shell triads remain; mixed vertices untested.",
+  "source_bridge": {
+    "status": "conditional",
+    "reason": "Selected frozen low-Phi K95 printed P/Q and a declared elimination-graph category; source does not uniquely select either this operator or this state law/physical norm."
+  },
+  "source_necessary_exclusion": false,
+  "weakest_unproved_link": "Native curved physical state/quotient and a source-selected nonlinear law remain absent; present theorem binds only declared frozen graph category.",
+  "class_C_representativeness": "Whole specified graph class for selected P/Q; no allC or source-required-category claim.",
+  "track": [
+    "SOURCE conditional selected printed completion",
+    "GU* repair class test"
+  ],
+  "choice_budget": {
+    "families": 10,
+    "obligations": 4,
+    "net": 6,
+    "source_selected_predictions": 0,
+    "change": 0,
+    "repair_adopted": false
+  },
+  "selection": {
+    "mandatory_basis": "Counter113 ordinaryB; already admitted nonlinear completion test, Joe27r redirected next main line while T1 active.",
+    "class_scope": "C2 translation-equivariant Sobolev invariant graphs with both actual stable trace patches and external state eliminated.",
+    "source_relevance": "Conditional selected printed P/Q; no W2, fermion or physical-domain transfer.",
+    "shared_prerequisite": "Predictive nonlinear state law and physical norm/readout.",
+    "reuse_delta": "Pinned fullsymbol/scalarizer/boosted native residue; new exact selfnull vertex, distribution-kernel/coarea proof and nine-triad arithmetic.",
+    "remaining_cost": "Published scientific closeout; next main line is Joe27r wedge action/moving-eddy gate.",
+    "strongest_eligible_alternative": "Wedge/module candidate actual full variation and moving eddy identity now takes precedence.",
+    "expected_vs_actual": "New L2 class exclusion plus contrary selfnull survivor; no state prescription adopted.",
+    "cost": "One wave;45 exact controls about0.09s;5 targeted Lean cores; independent review required; token cost not measured."
+  },
+  "verification": {
+    "artifact_hashes": {
+      "explorations/conditional-build/cw-nonlinear-completion-2026-11-27.md": "8b9687b096b3c41b46c536fd2c2b5acfcccbc2da3b49ded2bd60878b1f0b26cf",
+      "tests/program-focus/cw_nonlinear_completion_probe.py": "79e6cac8011c4c2f93f880e506e1241d5d46ce72766e2a73aeacb2ee8aff5111",
+      "lab/process/cw-nonlinear-completion-certificates.json": "8d8bfa45bdf4df274174dbe8732c1c5b61044f84a1fa70e418b92198059f1541",
+      "Lean/GUFormalization/CWNonlinearCompletion.lean": "8e6e00ecbe05d230a9461eb2d7c9294660117fd2a1c5626e7cc4889c606136fc"
+    },
+    "reviews": [
+      {
+        "reviewer": "metric_family_second_review",
+        "role": "independent T1 mathematical analysis reviewer, not a contributor or scout",
+        "status": "accepted",
+        "accepted": true,
+        "blockers": [],
+        "artifact_hashes": {
+          "explorations/conditional-build/cw-nonlinear-completion-2026-11-27.md": "8b9687b096b3c41b46c536fd2c2b5acfcccbc2da3b49ded2bd60878b1f0b26cf",
+          "tests/program-focus/cw_nonlinear_completion_probe.py": "79e6cac8011c4c2f93f880e506e1241d5d46ce72766e2a73aeacb2ee8aff5111",
+          "lab/process/cw-nonlinear-completion-certificates.json": "8d8bfa45bdf4df274174dbe8732c1c5b61044f84a1fa70e418b92198059f1541",
+          "Lean/GUFormalization/CWNonlinearCompletion.lean": "8e6e00ecbe05d230a9461eb2d7c9294660117fd2a1c5626e7cc4889c606136fc"
+        },
+        "method": "Read-only inspection of the four frozen artifacts and relevant prior scalarizer, full-system CW and regular-slaving proofs. Independently rederived the kernel, homological, one-sided inversion, packet and coarea implications. No probe, test, build or owner edit was performed.",
+        "local_context_loaded": [
+          "AGENTS.md",
+          "CURRENT-STATE.yaml program_focus",
+          "GEOMETER-VS-PHYSICS-OBJECTS.md T01/T02/T04/T09/T11/T13/T15/T17",
+          "lab/methods/source-native-comparator-routing.md",
+          "lab/specifications/six-axis/six-axis-template.md Layer0",
+          "RESEARCH-POSTURE.md",
+          "source register SC-ACT-02/06 and SC-META-52/53"
+        ],
+        "findings": [
+          {
+            "topic": "Distributional bilinear kernel",
+            "verdict": "accepted",
+            "reason": "Continuity of H after restricting inputs to compact-frequency smooth tests and testing outputs gives a distributional trilinear kernel. Spatial-translation covariance imposes (K_j-k1_j-k2_j)Kernel=0 for everyj. In coordinates z=K-k1-k2 this forces delta(z)h with no normal delta derivatives, while allowing arbitrary tangential distributionh. Thus no smooth multiplier premise has been introduced."
+          },
+          {
+            "topic": "Descriptor homological identity and reduced nonlinear dynamics",
+            "verdict": "accepted",
+            "reason": "Twice differentiating the stated descriptor invariance equation produces A_t[H(A_c f,g)+H(f,A_c g)+Jg2]+CH+F=0. On the off-band output collar, Jg2 has zero spatial Fourier support by the declared momentum-preserving base embedding. The constant matrix A_t preserves this support. The two signed trace branches therefore give the full homological matrix L(i nu tau+iK) acting on h, with the actual polarized F; singular A_t is never inverted."
+          },
+          {
+            "topic": "Unique inverse on the open one-sided collar",
+            "verdict": "accepted",
+            "reason": "For delta=-r(K)^2-36>0, q=36+delta+nu^2 exceeds every positive massive shell and cannot equal a negative shell. The complete scalarizer therefore supplies a smooth two-sided inverse for every realnu there. Multiplying distributions by it uniquely forces h=-L^-1F. Characteristic-supported additions or principal-value extensions cannot alter this open-side value."
+          },
+          {
+            "topic": "Actual threshold residue",
+            "verdict": "accepted",
+            "reason": "With d=-4 kappa^2(delta+nu^2)R and fixed transported left-null row, ell_b h=N/(delta+nu^2). The central polynomial identity ell_b B=beta ell_b gives N(center)=(kappa/2)ell_b F=626688 at kappa12. This uses the authenticated actual force, not a generic forcing assumption. The full numerator contains complementary channels, and its real part remains uniformly positive on sufficiently small input/output patches."
+          },
+          {
+            "topic": "Fixed packets and Fourier-L2 contradiction",
+            "verdict": "accepted",
+            "reason": "The relative input derivative partial_eta nu=-9/13 permits smooth coarea coordinates(nu,u), uniformly in nearbyK. Fixed nonnegative input bumps can be positive on a common product subbox. Integration over |nu|<sqrt(delta) yields c/sqrt(delta), while all contributing numerator terms retain the same receiver sign. The smooth output hypersurface has nonzero delta gradient12; squaring and integrating produces integral ddelta/delta. No concentration sequence or plane-character membership is needed. A compact finite-frequency collar makes all finite Sobolev weights bounded above/below, so finite derivative loss cannot cure failure of local FourierL2."
+          },
+          {
+            "topic": "Reality and scope",
+            "verdict": "accepted",
+            "reason": "A real continuous bilinear second derivative and its descriptor identity complexify, allowing the selected complex test amplitudes. The authenticated primary-minus trace sector also admits conjugate-pair controls. The theorem excludes the stated instantaneous C2 spatially equivariant graph with the differentiable descriptor identity and no independent off-band state. It does not exclude finite-time forced evolution, independent off-band dynamics, history-dependent maps or arbitrary nonsmooth/distributional state categories."
+          },
+          {
+            "topic": "Positive self-resonance control",
+            "verdict": "accepted",
+            "reason": "Transversality Gamma O=-O Gamma cancels the mixed self-wedge terms and gives (kappa^2-4q)O wedgeO. The Spin13 invariant-target argument limits the actual Phi image to O and L; the explicit tensor/native test gives264O+312L. The forced invariant block at output2zeta has eigenvalueskappa,3kappa,-kappa and is invertible although another full-carrier channel is resonant. The displayed particular solves the negative force exactly; nonzero interaction is correctly distinguished from zero resonant projection."
+          },
+          {
+            "topic": "Finite shell arithmetic",
+            "verdict": "accepted",
+            "reason": "Equal signed group velocities imply complete covectors are proportional because the spatial metric is nondegenerate. The relations t^2=a/b and c=a/(1+t)^2 give the stated squared reciprocal condition. The probe exhausts the nineteen-factor finite list and finds the three unordered triads/nine ordered arrangements. The report properly leaves their uncomputed actual mixed vertices open and keeps the external threshold space-nonresonant."
+          },
+          {
+            "topic": "Reproducibility and formal scope",
+            "verdict": "accepted",
+            "reason": "All four file hashes match the frozen manifest; the certificate binds the probe and each inherited dependency by matching hashes. It lists45 controls. The five Lean cores certify narrow arithmetic, inverse uniqueness and divisor positivity only; they are not represented as a full formalization of kernel/coarea analysis. Root reports their execution/compilation; this reviewer performed no such jobs."
+          }
+        ],
+        "qualifications": [
+          "The full result depends on the selected frozen low-Phi K95 printed P,Q and the actual held graph category. No source-required graph, physical norm, curved transfer, all-classC decision or full GU falsification follows.",
+          "C2 graph regularity, continuity into the stated output class, admission of the two test patches, and a meaningful second-order descriptor invariance identity are essential hypotheses.",
+          "The output requirement is local L2 in Fourier space near a finite-frequency threshold. Physical-space L2_loc does not imply it.",
+          "No nonlinear existence, finite-time breakdown, instability growth rate, physical lifetime, selected prediction or new choice family is proved or adopted.",
+          "SOURCE/GU* and the unchanged10/4/net6/0 budget are preserved as stated.",
+          "Ordinary global Sobolev output requires Fourier L2 on a neighborhood including the threshold. Merely local L2 on the open delta>0 side does not meet the stated target. The final report and certificate now state this explicitly."
+        ],
+        "nonblocking_editorial_suggestion": "Resolved in final artifacts: global Sobolev implies the required local Fourier L2, and the neighborhood explicitly includes the threshold.",
+        "final_wording_revalidation": {
+          "status": "accepted",
+          "method": "Reverse-applied the report threshold-neighborhood clarification, probe/certificate target wording and regenerated probe hash, exactly reconstructing all three prior reviewed hashes. Lean unchanged. No mathematical formula or executable calculation changed.",
+          "final_certificate": "PASS45 reported; root reports five Lean cores passed. Reviewer ran no jobs."
+        }
+      },
+      {
+        "role": "independent T1 algebra and representation specialist; not a contributor to this wave",
+        "accepted": true,
+        "blockers": [],
+        "artifact_hashes": {
+          "explorations/conditional-build/cw-nonlinear-completion-2026-11-27.md": "8b9687b096b3c41b46c536fd2c2b5acfcccbc2da3b49ded2bd60878b1f0b26cf",
+          "tests/program-focus/cw_nonlinear_completion_probe.py": "79e6cac8011c4c2f93f880e506e1241d5d46ce72766e2a73aeacb2ee8aff5111",
+          "lab/process/cw-nonlinear-completion-certificates.json": "8d8bfa45bdf4df274174dbe8732c1c5b61044f84a1fa70e418b92198059f1541",
+          "Lean/GUFormalization/CWNonlinearCompletion.lean": "8e6e00ecbe05d230a9461eb2d7c9294660117fd2a1c5626e7cc4889c606136fc"
+        },
+        "findings": [
+          "All four final artifact SHA-256 values, the certificate producer self-hash and all declared dependency hashes match the current files. This is custody readback, not producer execution.",
+          "Spin(13) invariant argument is valid on the full complex Clifford carrier: V14=1+W13, so one-form tensor Clifford-grade1 has exactly the longitudinal/transverse invariant tensors L,O; one-form tensor grade5 has no invariant. The actual Phi grade2-input image has grades1 and5. Covariance and degree-zero homogeneity extend the exact representative coefficients264,312 to every nonnull zeta.",
+          "Gamma O_a=-O_a Gamma gives the exact self-wedge factor kappa^2-4q. At kappa12,q=-3 this is156, yielding41184 O+48672 L. The resonant a=-3 massive eigenspace has Spin(13) type Lambda^4 W and no invariant vector, so the force misses that resonance while remaining nonzero.",
+          "The displayed full invariant block has P(2zeta)O=-4V, P(2zeta)V=-144O, P(2zeta)L=0. Its massive eigenvalues are kappa,3kappa,-kappa and its determinant at kappa12 is-5184. The coefficients1144,1144/3,-4056 solve the complete negative-force equation, not merely its resonant projection.",
+          "The threshold scalarizer sign and normalization are consistent: d=-4*kappa^2*(delta+nu^2)*R; the actual negative-force kernel is+B F/[4*kappa^2 R*(delta+nu^2)]. The transported left row sees beta=2*kappa^3 R, hence numerator(kappa/2)*104448=626688 at kappa12.",
+          "For delta>0, q=36+delta+nu^2 lies above every positive shell root and away from all negative roots, so the full massive inverse exists for every real nu. Distributional principal-value or characteristic-supported additions cannot alter its uniquely forced value on that open side.",
+          "The nine ordered shell triads have the correct proportionality criterion: equal signed group velocities imply xi2=t xi1, t^2=a/b and c=a/(1+t)^2. The listed solutions are the three unordered negative triads{-4,-4,-1},{-8,-8,-2},{-12,-12,-3}; no positive-factor solution is claimed or needed. The finite exhaustive enumeration remains an authenticated producer result, not rerun here.",
+          "The internal-Omega statement follows for every listed triad with admitted inputs: equal inputs give K=2k; mixed opposite-sign frequencies give K equal to minus the smaller input. Thus output support remains in Omega, while actual nonzero vertex classification remains open.",
+          "The analytic argument retains nonlinear reduced base dynamics and uses only that Jg2 has no off-band output. Translation covariance forces a delta on K-k1-k2 without normal delta derivatives; smooth inverse multiplication is legitimate on the invertible side.",
+          "The fixed-packet coarea argument is coherent: phase derivative-9/13 yields a common relative-coordinate box, positive real numerator prevents cancellation, integration over |nu|<sqrt(delta) yields delta^-1/2, and the threshold gradient12 turns its square into a divergent integral ddelta/delta. No plane-wave membership or smooth multiplier hypothesis is imposed.",
+          "The initially ambiguous generalized output target was corrected: Fourier L2 is required on a neighborhood of K0 including the threshold, not merely locally on the open delta>0 side. The probe/certificate now correctly say ordinary Sobolev requires this condition, rather than equating the global spaces.",
+          "Five Lean cores contain finite arithmetic and a left-inverse uniqueness implication only; report and certificate correctly do not attribute the distribution-kernel, representation, covariance or coarea theorem to those finite formal checks."
+        ],
+        "qualifications": [
+          "The null self-resonance result is a second-order forcing-range statement. It is neither zero interaction nor a complete nonlinear solution or stability theorem.",
+          "The exclusion applies to the declared instantaneous C2 spatial-translation-equivariant graph, meaningful second-order descriptor invariance, arbitrary smooth amplitudes on the two stated patches, and Fourier-L2 output through the threshold. Independent off-band state, history dependence, nonsmooth graphs and different weighted/distributional outputs are outside it.",
+          "Ordinary global Sobolev output of any fixed finite order satisfies the threshold L2 requirement. Physical-space L2_loc alone, or Fourier-local L2 restricted strictly to delta>0, does not.",
+          "The external threshold obstruction is space-nonresonant. The internal nine-triad space-time classification is a separate shell-arithmetic result and does not prove nullity of untested vertices.",
+          "All results concern the selected frozen low-Phi K95 printed dictionary and full complex carrier, with real trace controls. No W2 action/current, K77, physical energy, curved transfer, finite-time nonlinear breakdown or source-selected domain is inferred.",
+          "Source remains incomplete and the declared GU* graph class alone is falsified. No replacement state law or physical norm is adopted; budget10/4/net6/0 and all source/ledger guards remain unchanged."
+        ],
+        "not_run": [
+          "No probe or --verify command, native engine, matrix census, shell enumeration, symbolic arithmetic routine, test suite or Lean build was executed.",
+          "No owner artifact was edited. Only this scratch review receipt was written."
+        ],
+        "custody_readback": {
+          "status": "PASS",
+          "producer_check_count": 45,
+          "artifact_count": 4,
+          "dependency_hashes_verified": 10
+        }
+      },
+      {
+        "accepted": true,
+        "blockers": [],
+        "reviewer_role": "Independent hostile internal mathematical review; not author or theorem contributor.",
+        "basis": "4186f265ceccdd02d11125ec6de2268580eedd65",
+        "artifact_hashes": {
+          "explorations/conditional-build/cw-nonlinear-completion-2026-11-27.md": "8b9687b096b3c41b46c536fd2c2b5acfcccbc2da3b49ded2bd60878b1f0b26cf",
+          "tests/program-focus/cw_nonlinear_completion_probe.py": "79e6cac8011c4c2f93f880e506e1241d5d46ce72766e2a73aeacb2ee8aff5111",
+          "lab/process/cw-nonlinear-completion-certificates.json": "8d8bfa45bdf4df274174dbe8732c1c5b61044f84a1fa70e418b92198059f1541",
+          "Lean/GUFormalization/CWNonlinearCompletion.lean": "8e6e00ecbe05d230a9461eb2d7c9294660117fd2a1c5626e7cc4889c606136fc"
+        },
+        "authenticated_dependencies": {
+          "tests/program-focus/cw_fullsystem_domain_probe.py": "705acae3569fb46445ecb8c7562baddce793a3eb482e5477848c20ee9900cc1d",
+          "lab/process/cw-fullsystem-domain-certificates.json": "8ede03f10d6bd28570a3028eb5c320d297de67a827d8b51c545ee5da76314be5",
+          "lab/process/printed-state-completion-certificates.json": "ec0aafeace76b0d47f9ec9a7b142be29b6c7349e2c3397283029d14fe3e88977",
+          "tests/program-focus/source_action_deep_algebra.py": "4e3800131049e2b397bbce6106bfc5766d2f5fbf996319c50942f3b805d65598",
+          "tests/program-focus/printed_equation_jets_symbol_probe.py": "e43da867d17cf985bfac8c014657e8cbf18c94e80013350ca69eee804a4ebeb8",
+          "tests/program-focus/printed_differential_solvability_probe.py": "bd55c549c5448182ae35cff40d7fdb581d4b6b90a8f3f14b91029c219139434d",
+          "explorations/conditional-build/printed-equation-jets-and-symbol-2026-11-27.md": "d0fc17f026f254a93bf8a4a82891abba9b9fe0ec809f73fd7bd4ca06ae61b3c5",
+          "explorations/conditional-build/printed-differential-solvability-2026-11-27.md": "5190082b42b37cd970a8d2a5d820a02c7980d7cc16c446b414b1ca8fc7f5fdbb",
+          "explorations/conditional-build/printed-nonlinear-transfer-2026-11-27.md": "28bb64f53d40b4ca7434534f5104d018c273ca9d0e3561f7d3a8233ea91ca87b",
+          "lab/process/printed-nonlinear-transfer-certificates.json": "310ce5c4e6f85984938f95bdfe2e04f3eb162184953aaf06c1721cb49c208296"
+        },
+        "own_checks": [
+          "Read the declared graph class and descriptor equation; differentiating at zero retains the singular time coefficient A_t and the reduced nonlinear term Jg2. No time-symbol inverse is imported. On the separated off-band output collar Jg2 and its A_t image have zero spatial Fourier support, under the stated momentum-preserving embedding premise.",
+          "For compact input patches and a compact output test, continuous bilinearity gives a distributional kernel. Translation covariance implies every momentum-mismatch coordinate times this kernel is zero; hence it is delta on momentum conservation times a distribution in the two input frequencies, without normal delta derivatives.",
+          "The homological symbol at i nu tau+iK has q=36+delta+nu^2. For delta>0 this is larger than every positive shell value 144/(4a), while negative factors have negative shell values. The inherited two-sided scalarizer therefore gives a smooth full inverse throughout that open side. Characteristic-supported distributions cannot change its uniquely prescribed kernel there.",
+          "Checked the residue sign by hand: d=-4*kappa^2*(delta+nu^2)*R, h=-B F/d, and the left-null row at the center has ell B=2*kappa^3*R ell. Thus numerator=(kappa/2)*104448=626688 at kappa12. The fixed row is used off-center through the entire smooth numerator, not incorrectly treated as an off-center eigenrow.",
+          "At the boosted pair the derivative of nu with respect to the relative negative-normal input coordinate is -3/(26/3)-3/(26/3)=-9/13. The output threshold derivative is 12. Both are nonzero. The output surface and the relative-frequency coarea coordinate are therefore regular in genuine open neighborhoods.",
+          "The implicit-function/coarea argument permits one fixed pair of nonnegative smooth input bumps and a common positive-volume transverse subbox for all output K in a sufficiently small collar. The numerator has positive real part on the entire contributing support after shrinking. Integration over |nu|<sqrt(delta) yields a lower bound c/sqrt(delta), with no cancellation from the rest of that support.",
+          "The resulting square has logarithmically divergent integral across a positive-measure tangential output patch. An ordinary global H^s output for any finite s would be Fourier-local L2 at this bounded frequency. Allowing finite derivative loss, principal-value choices on the boundary, or a merely distributional kernel does not remove this open-side contradiction.",
+          "Real bilinear graph derivatives can be complexified; equivalently the admitted real trace pairs have separated conjugate output patches. This gives a test of the stated real graph class, without claiming that arbitrary complex plane characters themselves are global Sobolev states.",
+          "Reviewed the contrary self-resonance control: grade-one invariant targets are O,L and there is no grade-five invariant one-form target for the nonnull Spin(13) stabilizer. The explicitly checked invariant block is invertible although a different full-carrier channel is resonant. By hand, W=(1144,1144/3,-4056) gives negative force (-41184,0,-48672) under the displayed block. This establishes resonant projection zero, not zero interaction or nonlinear existence.",
+          "Reviewed shell-triad derivation: equal signed input group velocities imply proportional complete covectors, t^2=a/b and c=a/(1+t)^2. The finite arithmetic condition and nine ordered arrangements are only shell geometry; they do not imply nullity of untested actual vertices. For the admitted equal-input and mixed arrangements the output lies in the original stable region. The external threshold obstruction is explicitly space-nonresonant.",
+          "Read the probe and five Lean cores statically. The native engine and actual boosted force are pinned inherited inputs; the new self vertex is explicitly identified as newly evaluated by the author. The distributional-kernel and coarea proofs are not represented as fully Lean-certified. Authenticated all four frozen artifacts, the certificate probe hash, its PASS/45-check metadata, and all listed inherited dependencies without running the probe.",
+          "Checked source ceiling and Joe27r ordering: selected frozen K95 low-Phi printed P,Q are not a uniquely source-selected dynamics or W2. The source supplies no required instantaneous Sobolev graph. The result removes this completion family, retains the positive linear result and null control, and leaves independent off-band states, history/nonsmooth alternatives, physical energy, curved transfer and whole-GU adjudication unresolved.",
+          "Final scope clarification inspected: generalized Fourier-local L2 is required on a neighborhood of K0 including the threshold, not merely on the open delta>0 side; probe/certificate correctly say ordinary global Sobolev requires this property. Receipt already binds the updated report, probe and certificate hashes; Lean unchanged."
+        ],
+        "qualifications": [
+          "Acceptance is the scoped T1 written-mathematics claim with authenticated finite evidence, not a complete formal proof-assistant verification or external expert review.",
+          "The graph is instantaneous, C2, spatial-translation equivariant, tangent to the declared compatible modal base, and satisfies the differentiable descriptor invariance equation. General local-in-space non-equivariant or non-C2 state laws are outside the theorem.",
+          "The two specified smooth compact-frequency input patches must be admitted, and there is no independent off-band state on the output collar. Restricting away those inputs or adding off-band state changes the tested class.",
+          "Ordinary global Sobolev regularity implies the relevant local Fourier L2 property; physical-space L2_loc by itself does not. No global equivalence between Sobolev spaces and arbitrary Fourier-local L2 distributions is asserted.",
+          "The null calculation is one trace self-interaction and second-order particular, not all polarizations or all enumerated shell triads. No finite-time breakdown, physical runaway or nonlinear global survival follows.",
+          "No source/GU-wide falsification, source-selected positive norm, physical quotient, or K77/native curved transfer is accepted here. Joe27r directed continuation order is preserved."
+        ],
+        "not_run": [
+          "No probe execution, native algebra, Lean compilation, test suite, build, external literature verification or repository mutation was performed by this reviewer. Only static reads and small hash/JSON authentication were performed. Parent-reported 45 exact controls and five compiled Lean cores are not represented as independent executions."
+        ]
+      }
+    ],
+    "exact_controls": 45,
+    "command": "UV_CACHE_DIR=/private/tmp/gu-current-uv-cache uv run --offline --with sympy==1.14.0 python tests/program-focus/cw_nonlinear_completion_probe.py --verify",
+    "lean": {
+      "command": "lake env lean -j1 /private/tmp/gu-cw-nonlinear-completion-20261127/Lean/GUFormalization/CWNonlinearCompletion.lean",
+      "exit_code": 0,
+      "theorems": 5
+    },
+    "proof_scope": "Finite native and scalar arithmetic/uniqueness controls only. Distribution-kernel, invariant representation and coarea theorem are written/reviewed, not fully Lean formalized.",
+    "gates": {
+      "program_focus_audit": "PASS",
+      "typed_carrier_declaration_audit": "PASS",
+      "kill_target_claim_audit": "PASS",
+      "frontmatter_status_schema_audit": "PASS",
+      "source_native_comparator_routing_audit": "PASS",
+      "lean_certificate_surface_audit": "PASS",
+      "current_state_absolute_currency_audit": "PASS",
+      "conditional_evidence_delta_gate": "PASS",
+      "research_context_reader_audit": "PASS"
+    }
+  },
+  "three_state": {
+    "ESTABLISHED": "Actual trace self-resonance has zero resonant projection and an exact bounded second-order particular. A distinct actual off-band threshold excludes every stated C2 translation-equivariant instantaneous graph with ordinary global Sobolev output, including distributional kernels and finite derivative loss: fixed admitted packets force a c/sqrt(delta) Fourier singularity. Exactly three unordered equal-velocity shell triads remain; mixed vertices untested.",
+    "RULED_OUT": "Declared ordinarySobolev C2 instantaneous graph category; no independent output state.",
+    "NOT_MODELED_UNDETERMINED": "Complete nonlinear extension, physical norm, curved transfer or instability; nonsmooth/history or weighted categories."
+  },
+  "scoped_outcomes": {
+    "trace_selfinteraction": "SURVIVES second-order null/particular check",
+    "declared_graph_family": "FALSIFIED if stated premises hold, not a source-necessary category",
+    "GU_star_selection_route": "INCOMPLETE",
+    "source_GU": "INCOMPLETE; no source-GU falsification or proof full extension exists"
+  },
+  "literature": [
+    {
+      "url": "https://arxiv.org/abs/1109.5662",
+      "relevance": "Space-time resonance/null method, no theorem transfer."
+    },
+    {
+      "url": "https://arxiv.org/abs/1005.5238",
+      "relevance": "Other nonlinear systems can scatter despite resonances; not this ultrahyperbolic system."
+    }
+  ],
+  "novelty_claim": "none",
+  "retrospective": {
+    "shortcut": "Reuse stored boosted force and scalarizer; test only new selfvertex. Fixed packet coarea bypasses misleading pointwise-pole and thin-packet concentration arguments.",
+    "failure_memory": "Ordinary global Sobolev implies Fourier-localL2; physical-spaceL2loc does not. Time resonance is not automatically nonlinear instability.",
+    "prediction_vs_actual": "Null control passes while graph family fails: preserve both rather than forcing a negative story."
+  },
+  "follow_through": {
+    "consumed": [
+      "Strict nonlinear cutoff and old smooth-kernel exclusions are reused.",
+      "New distributional-kernel ordinarySobolev graph category excluded.",
+      "Trace self-resonance nullity and nine ordered shell arithmetic cases decided."
+    ],
+    "survivors": [
+      "Complete compatible frozen linear CW domain.",
+      "Bounded actual trace self-interaction and prior nonresonant particular.",
+      "Independent off-band dynamical state, non-C2/history-dependent or changed weighted/distributional domains remain untested.",
+      "Remaining mixed internal resonant vertices; no all-null claim."
+    ],
+    "next": "Joe27r main sequence: wedge-Shiab own varied action and full moving/eddy identity first; then reuse completed full-system linear CW and finish only its uncovered burdens; classical antilinear comparison; trapped sections/leakage; unimodular Lambda; comparative kinematic fit. Further nonlinear-state construction follows this sequence. Count114 ordinaryB; cadence and review rules unchanged."
+  },
+  "directed_sequence": {
+    "authority": "joe_direct_chat_2026_11_27_r",
+    "status": "active_directed_sequence",
+    "owner_ref": "lab/process/source-action-opportunity-register-2026-11-25.json#quick_win_sequence_2026_11_27_r",
+    "current_step": 1,
+    "order": [
+      "Wedge-Shiab full recheck",
+      "Full-system linear Craig-Weinstein",
+      "Classical antilinear/PT resonant-sector test",
+      "Trapped sections and one-way leakage",
+      "Unimodular/Lambda integration constant",
+      "Uniqueness of kinematic fit"
+    ],
+    "reuse": "Step2 core already complete; step3 partial. Check the canonical sequence outcomes and reuse references before computing."
+  },
+  "accounting": {
+    "counter_before": 113,
+    "counter_after": 114,
+    "LB_LADDER_before": 25,
+    "LB_LADDER_after": 26,
+    "bet_credit": 0,
+    "cell_status_changes": 0,
+    "ledger_verdict_changes": 0
+  },
+  "effect_line": "Change: retain actual nonlinear null survivor and exclude a precise Sobolev elimination family; main line reordered to Joe27r wedge-first sequence. Why: test minimal repairs fairly and prioritize gating value. Authority:27q/r; applied. No governance/verdict/choice-budget reset; automated effect not yet observed."
+}

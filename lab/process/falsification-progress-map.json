@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "basis_revision": "bad338f368cf780849c8fb2c24d85849a62f5579",
+  "basis_revision": "4186f265ceccdd02d11125ec6de2268580eedd65",
   "scope": "Curated six-pillar x source/class/candidate linked view. Status belongs to cited owners; no scientific verdict promotion, automatic ranking, whole-history coverage or global percentage. Cheapest-next fields are attributed bounded suggestions, not dispatch instructions. Closed means resolved within the cited scope; it does not always mean falsified. Positive fits and remaining source/physical bridges stay explicit.",
   "assumptions_ref": "lab/process/action-constraint-matrix.json#source_relevance_assumption_view.shared_prerequisites",
   "dependencies": [
@@ -94,7 +94,7 @@
     },
     {
       "ref": "lab/process/action-constraint-matrix.json",
-      "sha256": "99b372348c471a3e678bce3182d03338e1a6e61346dc6031476edc863a0eace8"
+      "sha256": "8a7abab88ddbbf00445efc8e4fa13566d310ffc81ac35780c60d0fb2bc3696c1"
     },
     {
       "ref": "lab/process/conditional-physics-ledger-v0.263.json",
@@ -191,6 +191,10 @@
     {
       "ref": "explorations/conditional-build/cw-fullsystem-domain-2026-11-27.md",
       "sha256": "d8f19854135ed4100e91bc4e07d2cba245a6509c1dc38febff432a8ca7e9d683"
+    },
+    {
+      "ref": "explorations/conditional-build/cw-nonlinear-completion-2026-11-27.md",
+      "sha256": "8b9687b096b3c41b46c536fd2c2b5acfcccbc2da3b49ded2bd60878b1f0b26cf"
     }
   ],
   "pillars": [
@@ -215,7 +219,7 @@
           "closed": "Every nonzero map in the declared fixed-linear full-Spin/full-U family fails exact Euler correspondence, even after any fixed invertible zero-order covector multiplier. Separately, every full pointwise exterior-degree11 Spin-equivariant associative or gradedLie derivation is Riemann-silent, without Euler/Hessian premises. Selected displayed map has no universal full-curvature exterior companion; inherited eight individual K77 maps cannot combine that property with nonzero Riemann response.",
           "open": "Field-dependent/differential/nonlocal multipliers, changed tangents or equations; class-C representativeness. Exact source meaning of derivation/module/chain and its grading/product remains conditional.",
           "shared_missing_ref": "lab/process/action-constraint-matrix.json#source_relevance_assumption_view.shared_prerequisites",
-          "cheapest_next": "OrdinaryB: test the remaining nonlinear-domain repair at the weakest new link, not the already excluded strict cutoff or regular resonant slaving. A proposed enlarged domain must admit the actual off-support/resonant state, prove constraint preservation and controlled evolution, and name an observable consequence or reduced choice freedom before adoption. Compare cost with the actual physical-current/observation bridge. Keep source and GU* attribution separate; linear bulk wellposedness never implies finite-jet slice completeness. Counter113 ordinaryB; cadence unchanged.",
+          "cheapest_next": "Derive normalized wedge candidate own first-action Euler rows and moving/full-U completed eddy identity. Exact printed-Euler identification already excluded; no repeat credit.",
           "evidence_refs": [
             "explorations/conditional-build/printed-shiab-endpoint-audit-2026-11-27.md",
             "explorations/conditional-build/shiab-graded-derivation-class-2026-11-27.md",
@@ -277,10 +281,10 @@
         },
         "class": {
           "attributed_status": "Scoped W2 graph/domain exclusion",
-          "closed": "Every fixed finite Sobolev-loss graph-Duhamel estimate fails on the named interior core, including specified finite-order norm repairs retaining it. Fully boost-equivariant repeatedE fourterm symbols with firstorder endarrows admit no integer-order homogeneous exact middle in n14. Exact frozen selected printed real trace modes exclude every fixed finite-loss estimate on unrestricted states; no actual variable/nonlinear or physical-domain transfer. Frozen actual printedQ strict all-field stable-support cutoff admitting the tested pair fails second-order closure; same-leading scalarizer correction around actualsmallh branch fails at h5. Neither is source-required physicaldata. Declared regular equivariant quadratic slaving of the actual resonant printed pair is excluded; secular forced dynamics survives. A full nonlinear CW-type constraint remains a candidate test, not a selected source law. Strict all-field commonstable Fouriercutoff failsactual nonlinearpacket closure; finiteinitialslicejets remainincomplete inthislineardomain.",
+          "closed": "Every fixed finite Sobolev-loss graph-Duhamel estimate fails on the named interior core, including specified finite-order norm repairs retaining it. Fully boost-equivariant repeatedE fourterm symbols with firstorder endarrows admit no integer-order homogeneous exact middle in n14. Exact frozen selected printed real trace modes exclude every fixed finite-loss estimate on unrestricted states; no actual variable/nonlinear or physical-domain transfer. Frozen actual printedQ strict all-field stable-support cutoff admitting the tested pair fails second-order closure; same-leading scalarizer correction around actualsmallh branch fails at h5. Neither is source-required physicaldata. Declared regular equivariant quadratic slaving of the actual resonant printed pair is excluded; secular forced dynamics survives. A full nonlinear CW-type constraint remains a candidate test, not a selected source law. Strict all-field commonstable Fouriercutoff failsactual nonlinearpacket closure; finiteinitialslicejets remainincomplete inthislineardomain. Stated C2 translation-equivariant ordinarySobolev instantaneous elimination graphs fail on a fixed-packet threshold collar.",
           "open": "Supplied analytic/nonlocal/boundary physical selection and full operator/domain. Actual SC-ACT06 source reduced field/gauge/order profile and background stabilizer are distinct; existing O4/Cartan route is retained.",
           "shared_missing_ref": "lab/process/action-constraint-matrix.json#source_relevance_assumption_view.shared_prerequisites",
-          "cheapest_next": "OrdinaryB: test the remaining nonlinear-domain repair at the weakest new link, not the already excluded strict cutoff or regular resonant slaving. A proposed enlarged domain must admit the actual off-support/resonant state, prove constraint preservation and controlled evolution, and name an observable consequence or reduced choice freedom before adoption. Compare cost with the actual physical-current/observation bridge. Keep source and GU* attribution separate; linear bulk wellposedness never implies finite-jet slice completeness. Counter113 ordinaryB; cadence unchanged.",
+          "cheapest_next": "Joe27r main sequence: wedge-Shiab own varied action and full moving/eddy identity first; then reuse completed full-system linear CW and finish only its uncovered burdens; classical antilinear comparison; trapped sections/leakage; unimodular Lambda; comparative kinematic fit. Further nonlinear-state construction follows this sequence. Count114 ordinaryB; cadence and review rules unchanged.",
           "evidence_refs": [
             "explorations/conditional-build/source-action-finite-loss-completions-2026-11-27.md",
             "explorations/conditional-build/null-boost-symbol-trace-2026-11-27.md",
@@ -289,7 +293,8 @@
             "explorations/conditional-build/printed-differential-solvability-2026-11-27.md",
             "explorations/conditional-build/printed-nonlinear-transfer-2026-11-27.md",
             "explorations/conditional-build/printed-state-completion-2026-11-27.md",
-            "explorations/conditional-build/cw-fullsystem-domain-2026-11-27.md"
+            "explorations/conditional-build/cw-fullsystem-domain-2026-11-27.md",
+            "explorations/conditional-build/cw-nonlinear-completion-2026-11-27.md"
           ],
           "positive_fit": "Full exterior deRham remains exact in indefinite signature; source background-owned auxiliarypositive Cartan structure is retained at its smaller symmetry. Neither is the full GU complex. TypeI covariant observer law can staytight along a balancedDapproach; no positive universalD escape bound. ExactD endpointlaw still excluded in Weyl-onlycategory. Unrestricted printed translations match each finite residual jet at sufficiently large coupling; actual fixed-coupling curved PDE remains open. Selected printed nonnull symbol has a finite frozen descriptor inverse, not a physical evolution result. Actual analytic curved linear printed solutions exist at sufficiently large finite coupling under coherentLC/parallelPhi; the nonlinear endpoint is not solved.",
           "survivors": [
@@ -345,16 +350,17 @@
         },
         "class": {
           "attributed_status": "Scoped energy/domain implications; not a physical ghost theorem",
-          "closed": "Declared local gauge and first-graph/finite-order remedies do not remove the held obstruction. Separately, coclosure-only local observed readouts cannot carry nonzero compact excitation energy in the full cutoff-admissible class. Strict all-field commonstable Fouriercutoff failsactual nonlinearpacket closure; finiteinitialslicejets remainincomplete inthislineardomain.",
+          "closed": "Declared local gauge and first-graph/finite-order remedies do not remove the held obstruction. Separately, coclosure-only local observed readouts cannot carry nonzero compact excitation energy in the full cutoff-admissible class. Strict all-field commonstable Fouriercutoff failsactual nonlinearpacket closure; finiteinitialslicejets remainincomplete inthislineardomain. Stated C2 translation-equivariant ordinarySobolev instantaneous elimination graphs fail on a fixed-packet threshold collar.",
           "open": "Admitted physical states and interaction-compatible quotient/domain.",
           "shared_missing_ref": "lab/process/action-constraint-matrix.json#source_relevance_assumption_view.shared_prerequisites",
-          "cheapest_next": "OrdinaryB: test the remaining nonlinear-domain repair at the weakest new link, not the already excluded strict cutoff or regular resonant slaving. A proposed enlarged domain must admit the actual off-support/resonant state, prove constraint preservation and controlled evolution, and name an observable consequence or reduced choice freedom before adoption. Compare cost with the actual physical-current/observation bridge. Keep source and GU* attribution separate; linear bulk wellposedness never implies finite-jet slice completeness. Counter113 ordinaryB; cadence unchanged.",
+          "cheapest_next": "Joe27r main sequence: wedge-Shiab own varied action and full moving/eddy identity first; then reuse completed full-system linear CW and finish only its uncovered burdens; classical antilinear comparison; trapped sections/leakage; unimodular Lambda; comparative kinematic fit. Further nonlinear-state construction follows this sequence. Count114 ordinaryB; cadence and review rules unchanged.",
           "evidence_refs": [
             "explorations/conditional-build/source-action-finite-loss-completions-2026-11-27.md",
             "explorations/conditional-build/source-action-full-auxiliary-map-2026-11-26.md",
             "explorations/conditional-build/source-action-controls-sensitivity-2026-11-27.md",
             "explorations/conditional-build/compact-excitation-charge-2026-11-27.md",
-            "explorations/conditional-build/cw-fullsystem-domain-2026-11-27.md"
+            "explorations/conditional-build/cw-fullsystem-domain-2026-11-27.md",
+            "explorations/conditional-build/cw-nonlinear-completion-2026-11-27.md"
           ],
           "survivors": [
             "Full compatible frozen linear modal evolution; bounded nonresonant offsupport response; nonlinear enlargement remainsunproved."
@@ -630,11 +636,11 @@
           "GU*"
         ],
         "rank": 1,
-        "status": "linear_fullsystem_survivor_strict_nonlinear_cutoff_excluded_slice_ambiguity_persists",
-        "cheapest_test_or_revival": "OrdinaryB: test the remaining nonlinear-domain repair at the weakest new link, not the already excluded strict cutoff or regular resonant slaving. A proposed enlarged domain must admit the actual off-support/resonant state, prove constraint preservation and controlled evolution, and name an observable consequence or reduced choice freedom before adoption. Compare cost with the actual physical-current/observation bridge. Keep source and GU* attribution separate; linear bulk wellposedness never implies finite-jet slice completeness. Counter113 ordinaryB; cadence unchanged.",
+        "status": "linear_survivor_trace_null_and_sobolev_slaving_exclusion",
+        "cheapest_test_or_revival": "After Joe27r sequence, independent off-band state/history or changed functional space; do not repeat the now-covered C2 ordinarySobolev graph.",
         "inference_limit": "Fullselectedfrozenoperator only. Auxiliarymodalnorm notphysicalenergy; nonlinearclosure andfinitejetslice determination separately fail in the declared classes.",
         "source_necessity": "conditional; source statement and proposed realization kept separate",
-        "evidence_ref": "lab/process/cw-fullsystem-domain.json",
+        "evidence_ref": "lab/process/cw-nonlinear-completion.json",
         "linked_options": [],
         "outcomes": [
           "Pair admitted and regular slaving demanded: reuse exclusion, change mechanism.",
@@ -1202,7 +1208,7 @@
         "new_choice_families_adopted": 0
       }
     ],
-    "top_next": "OrdinaryB: test the remaining nonlinear-domain repair at the weakest new link, not the already excluded strict cutoff or regular resonant slaving. A proposed enlarged domain must admit the actual off-support/resonant state, prove constraint preservation and controlled evolution, and name an observable consequence or reduced choice freedom before adoption. Compare cost with the actual physical-current/observation bridge. Keep source and GU* attribution separate; linear bulk wellposedness never implies finite-jet slice completeness. Counter113 ordinaryB; cadence unchanged.",
+    "top_next": "Joe27r main sequence: wedge-Shiab own varied action and full moving/eddy identity first; then reuse completed full-system linear CW and finish only its uncovered burdens; classical antilinear comparison; trapped sections/leakage; unimodular Lambda; comparative kinematic fit. Further nonlinear-state construction follows this sequence. Count114 ordinaryB; cadence and review rules unchanged.",
     "track_policy": {
       "status": "applied",
       "authority": [
@@ -1256,5 +1262,20 @@
     },
     "authority": "joe_direct_chat_2026_11_27_q",
     "evidence_ref": "lab/process/cw-fullsystem-domain.json"
+  },
+  "quick_win_sequence_2026_11_27_r": {
+    "authority": "joe_direct_chat_2026_11_27_r",
+    "status": "active_directed_sequence",
+    "owner_ref": "lab/process/source-action-opportunity-register-2026-11-25.json#quick_win_sequence_2026_11_27_r",
+    "current_step": 1,
+    "order": [
+      "Wedge-Shiab full recheck",
+      "Full-system linear Craig-Weinstein",
+      "Classical antilinear/PT resonant-sector test",
+      "Trapped sections and one-way leakage",
+      "Unimodular/Lambda integration constant",
+      "Uniqueness of kinematic fit"
+    ],
+    "reuse": "Step2 core already complete; step3 partial. Check the canonical sequence outcomes and reuse references before computing."
   }
 }

@@ -1812,7 +1812,7 @@
     },
     "LB-LADDER": {
       "zero_delta_streak": 0,
-      "runs": 25,
+      "runs": 26,
       "status": "open"
     }
   },
@@ -2726,7 +2726,7 @@
   ],
   "program_run_counter": {
     "since": "2026-11-09",
-    "count": 113,
+    "count": 114,
     "rule": "Every hourly run increments this in its postflight, whatever its lane. Lane C runs when count % 4 == 3 before the increment."
   },
   "working_rule": "Cells are worked at the structure level: a requirement must hold for every action in class C or for a structurally defined subfamily. No cell is worked by writing down a specific action, and no gated cell is worked by building its gate object. See CURRENT-STATE.yaml program_focus.structure_not_specifics.",
@@ -3753,6 +3753,15 @@
       "counter_after": 113,
       "lane": "LB-LADDER",
       "selection": "FullsystemCW bulk/slice and actualnonlinear closure, followed by secular/PT comparison."
+    },
+    {
+      "date": "2026-11-27",
+      "authority": "joe_direct_chat_2026_11_27_q",
+      "item": "cw-nonlinear-completion",
+      "counter_before": 113,
+      "counter_after": 114,
+      "lane": "LB-LADDER",
+      "selection": "Finish admitted T1 graph/null discriminator; Joe27r wedge-first next."
     }
   ],
   "directed_lc_carry_2026_11_24_b": {
@@ -7254,6 +7263,19 @@
     "source_bridge": {
       "status": "conditional",
       "reason": "Source ultrahyperbolic debt does not select this low-Phi frozen completion, Fourier domain, physical norm, nonlinear state rule or literal-observation physical quotient."
+    },
+    "status_effect": "No cell/intersection/shrinkage/source/ledger verdict changes."
+  },
+  "cw_nonlinear_2026_11_27": {
+    "status": "internal_T1_reviewed",
+    "actual_delta": "Actual trace self-resonance has zero resonant projection and an exact bounded second-order particular. A distinct actual off-band threshold excludes every stated C2 translation-equivariant instantaneous graph with ordinary global Sobolev output, including distributional kernels and finite derivative loss: fixed admitted packets force a c/sqrt(delta) Fourier singularity. Exactly three unordered equal-velocity shell triads remain; mixed vertices untested.",
+    "evidence": [
+      "explorations/conditional-build/cw-nonlinear-completion-2026-11-27.md",
+      "lab/process/cw-nonlinear-completion.json"
+    ],
+    "source_bridge": {
+      "status": "conditional",
+      "reason": "Selected frozen low-Phi K95 printed P/Q and a declared elimination-graph category; source does not uniquely select either this operator or this state law/physical norm."
     },
     "status_effect": "No cell/intersection/shrinkage/source/ledger verdict changes."
   }

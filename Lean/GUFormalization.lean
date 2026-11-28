@@ -151,3 +151,4 @@ import GUFormalization.PrintedStateCompletion
 import GUFormalization.EvolutionComplement
 
 import GUFormalization.CWFullSystem
+import GUFormalization.CWNonlinearCompletion

@@ -1,7 +1,7 @@
 schema_version: '1.0'
 repository: observerse-research-program
 branch: main
-revision_basis: bad338f368cf780849c8fb2c24d85849a62f5579
+revision_basis: 4186f265ceccdd02d11125ec6de2268580eedd65
 program_focus:
   version: 2026-11-27-v3
   authority: joe_direct_chat_2026_11_27_k
@@ -236,6 +236,43 @@ program_focus:
       instead of silently adopting them.
     current_view: lab/process/source-action-opportunity-register-2026-11-25.json#research_track_view
     effect_receipt: lab/process/two-track-adoption-2026-11-27.json
+quick_win_sequence_2026_11_27_r:
+  authority: joe_direct_chat_2026_11_27_r
+  evidence: lab/process/cw-nonlinear-completion.json#directed_sequence
+  ordered_steps:
+  - Wedge-Shiab full recheck
+  - Full-system linear Craig-Weinstein
+  - Classical antilinear/PT resonant-sector test
+  - Trapped sections and one-way leakage
+  - Unimodular/Lambda integration constant
+  - Uniqueness of kinematic fit
+  current: Wedge own varied action/full moving eddy identity; finish openT1 first; reuse completed linearCW.
+  governance_effect: Ordinary directed reranking only; program_focus policy and cadence unchanged.
+cw_nonlinear_2026_11_27:
+  status: internal_T1_reviewed
+  actual_delta: 'Actual trace self-resonance has zero resonant projection and an exact bounded second-order
+    particular. A distinct actual off-band threshold excludes every stated C2 translation-equivariant
+    instantaneous graph with ordinary global Sobolev output, including distributional kernels and finite
+    derivative loss: fixed admitted packets force a c/sqrt(delta) Fourier singularity. Exactly three unordered
+    equal-velocity shell triads remain; mixed vertices untested.'
+  source_bridge:
+    status: conditional
+    reason: Selected frozen low-Phi K95 printed P/Q and a declared elimination-graph category; source
+      does not uniquely select either this operator or this state law/physical norm.
+  evidence:
+  - explorations/conditional-build/cw-nonlinear-completion-2026-11-27.md
+  - lab/process/cw-nonlinear-completion.json
+  next: 'Joe27r main sequence: wedge-Shiab own varied action and full moving/eddy identity first; then
+    reuse completed full-system linear CW and finish only its uncovered burdens; classical antilinear
+    comparison; trapped sections/leakage; unimodular Lambda; comparative kinematic fit. Further nonlinear-state
+    construction follows this sequence. Count114 ordinaryB; cadence and review rules unchanged.'
+  scoped_outcomes:
+    trace_selfinteraction: SURVIVES second-order null/particular check
+    declared_graph_family: FALSIFIED if stated premises hold, not a source-necessary category
+    GU_star_selection_route: INCOMPLETE
+    source_GU: INCOMPLETE; no source-GU falsification or proof full extension exists
+  choice_budget_effect: none
+  verdict_effect: none
 cw_fullsystem_2026_11_27:
   status: internal_T1_reviewed
   actual_delta: "The full frozen printed system has complete compatible linear Cauchy evolution on r\xB2\

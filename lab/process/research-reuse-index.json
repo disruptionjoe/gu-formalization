@@ -2527,6 +2527,64 @@
         "receipt_ref": "lab/process/cw-fullsystem-domain.json#verification",
         "scope": "Sympy1.14;104exactchecks,4Leanfinitecores; written/reviewed descriptor/PDE/packet proofs."
       }
+    },
+    {
+      "id": "cw-nonlinear-completion-2026-11-27",
+      "kind": "result",
+      "owner_ref": "explorations/conditional-build/cw-nonlinear-completion-2026-11-27.md",
+      "tested_statement": "Actual trace self-resonance has zero resonant projection and an exact bounded second-order particular. A distinct actual off-band threshold excludes every stated C2 translation-equivariant instantaneous graph with ordinary global Sobolev output, including distributional kernels and finite derivative loss: fixed admitted packets force a c/sqrt(delta) Fourier singularity. Exactly three unordered equal-velocity shell triads remain; mixed vertices untested.",
+      "signature": {
+        "object": "Nonlinear instantaneous CW state graph and trace selfresonance",
+        "carrier": "Full complex adjoint oneforms; actual trace modes",
+        "convention": "Frozen low-Phi K95 printed equation",
+        "class": "Translation-equivariant C2 graph admitting specified stable patches with ordinary global Sobolev output",
+        "premises": [
+          "explorations/conditional-build/cw-fullsystem-domain-2026-11-27.md",
+          "explorations/conditional-build/printed-differential-solvability-2026-11-27.md"
+        ]
+      },
+      "attributed_status": "internal_T1_reviewed",
+      "status_ref": "lab/process/cw-nonlinear-completion.json#status",
+      "source_bridge_ref": "lab/process/cw-nonlinear-completion.json#source_bridge",
+      "certificate_refs": [
+        "lab/process/cw-nonlinear-completion-certificates.json",
+        "Lean/GUFormalization/CWNonlinearCompletion.lean"
+      ],
+      "control_refs": [
+        "tests/program-focus/cw_nonlinear_completion_probe.py"
+      ],
+      "survivors_ref": "lab/process/cw-nonlinear-completion.json#follow_through",
+      "reopen_condition_ref": "explorations/conditional-build/cw-nonlinear-completion-2026-11-27.md",
+      "superseded_by": null,
+      "cache": {
+        "artifacts": [
+          {
+            "path": "explorations/conditional-build/cw-nonlinear-completion-2026-11-27.md",
+            "sha256": "8b9687b096b3c41b46c536fd2c2b5acfcccbc2da3b49ded2bd60878b1f0b26cf"
+          },
+          {
+            "path": "tests/program-focus/cw_nonlinear_completion_probe.py",
+            "sha256": "79e6cac8011c4c2f93f880e506e1241d5d46ce72766e2a73aeacb2ee8aff5111"
+          },
+          {
+            "path": "lab/process/cw-nonlinear-completion-certificates.json",
+            "sha256": "8d8bfa45bdf4df274174dbe8732c1c5b61044f84a1fa70e418b92198059f1541"
+          },
+          {
+            "path": "Lean/GUFormalization/CWNonlinearCompletion.lean",
+            "sha256": "8e6e00ecbe05d230a9461eb2d7c9294660117fd2a1c5626e7cc4889c606136fc"
+          }
+        ],
+        "verifier": {
+          "command": "python3",
+          "args": [
+            "tests/program-focus/cw_nonlinear_completion_probe.py",
+            "--verify"
+          ]
+        },
+        "receipt_ref": "lab/process/cw-nonlinear-completion.json#verification",
+        "scope": "Sympy1.14;45exact controls and5finiteLean cores; written graph theorem separately reviewed."
+      }
     }
   ]
 }

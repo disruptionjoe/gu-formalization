@@ -16,6 +16,10 @@ Do not add "Current follow-through" sections or "Historical predecessor" stacks 
 matrix or bet file. The retired follow-through chain and banner stack are kept at the end of this file under
 "Archived steering history".
 
+## 2026-11-27 — Nonlinear CW completion classes
+
+[Result](explorations/conditional-build/cw-nonlinear-completion-2026-11-27.md) · [Evidence](lab/process/cw-nonlinear-completion.json). The actual trace self-resonance has a bounded second-order particular. The declared C2 ordinarySobolev elimination graph fails on fixed smooth packets at an off-band threshold; this is not finite-time breakdown or a source-GU verdict.45exact controls and5Leanfinite cores cover the finite claims; the written analytic proof receives independent review. Choice budget and scientific verdicts remain unchanged. Joe27r's ordered six-step sequence is recorded in the opportunity register and progress map, with completed linearCW evidence retained.
+
 ## 2026-11-27 — Full-system CW domain and its limits
 
 [Result](explorations/conditional-build/cw-fullsystem-domain-2026-11-27.md) · [Evidence](lab/process/cw-fullsystem-domain.json). The full selected frozen equation has complete compatible linear evolution with an auxiliary conserved norm. Actual admitted packet interactions violate strict nonlinear cutoff closure; a boosted resonant pair also has frequencies inside the stable region. Same-domain finite initial section jets remain insufficient. The old forced response has an invariant quadratic secular coefficient and a temporalJordan2 threshold; antilinearity preserves its forcing.104exactchecks,4Leanfinitecores,3independentreviews passed. Scientific verdicts and choice budget unchanged. Joe27q's mission amendment is recorded in program_focus and the linked evidence.

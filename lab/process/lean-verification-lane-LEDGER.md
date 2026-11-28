@@ -659,3 +659,7 @@ bicategory, ambidexterity or Mackey 2-functor is inferred.
 ## 2026-11-27 — Full-system CW finite cores
 
 `Lean/GUFormalization/CWFullSystem.lean` checks excluded-support receiver logic, scalar linear-growth unboundedness and the exact support/secular arithmetic. Targeted single-thread compilation passed. Native descriptor, packet/moment, temporal Jordan and covariance proofs remain separately written/reviewed; no physical Hilbert norm or quantum theory is formalized.
+
+## 2026-11-27 — Nonlinear CW finite cores
+
+`Lean/GUFormalization/CWNonlinearCompletion.lean` checks the boosted stable margin, nonzero residue, uniqueness with a left inverse, actual self-particular arithmetic and threshold positivity. Five theorems compiled with targeted single-thread Lean. Kernel/coarea and representation proofs remain written/reviewed, not fully formalized.
