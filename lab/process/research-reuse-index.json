@@ -3069,6 +3069,58 @@
         "receipt_ref": "lab/process/bet-mass-gap-cw-symmetry-domain.json#verification",
         "scope": "76 finite controls plus5 Lean cores; full orbit/coarea/history proof reviewed mathematics. No physical/quantum result."
       }
+    },
+    {
+      "id": "cw-all-threshold-boundary-2026-11-28",
+      "kind": "result",
+      "owner_ref": "explorations/conditional-build/cw-all-threshold-boundary-estimate-2026-11-28.md",
+      "tested_statement": "Full transverse integration extends the actual local L2xL2 to L2 future-boundary estimate to all19 output thresholds and all38 signed common-CW massive input branches, including collinear negative-factor rank-loss points. The epsilon^(1/4) threshold tail and stable-input forward upper bounds extend. A calibrated actual A1/H9 (-1,+1)->(-2) fixture has nonzero24-term force but zero threshold projection; no general cancellation rule.",
+      "signature": {
+        "object": "Actual future boundary bilinear operator through all massive thresholds",
+        "carrier": "Full selected K95 complex compatible massive common-CW modes on compact patches",
+        "convention": "Regular companion coordinates; auxiliary ordinaryL2; all13spatial dimensions retained",
+        "class": "All19outputfactors/all38signedinputbranches locally",
+        "premises": [
+          "explorations/conditional-build/cw-all-threshold-boundary-estimate-2026-11-28.md"
+        ]
+      },
+      "attributed_status": "internal_T2_reviewed",
+      "status_ref": "lab/process/cw-all-threshold-boundary.json#status",
+      "source_bridge_ref": "lab/process/cw-all-threshold-boundary.json#source_bridge",
+      "certificate_refs": [
+        "lab/process/cw-all-threshold-boundary-certificates.json"
+      ],
+      "control_refs": [
+        "tests/program-focus/cw_all_threshold_boundary_probe.py"
+      ],
+      "survivors_ref": "lab/process/cw-all-threshold-boundary.json#follow_through",
+      "reopen_condition_ref": "explorations/conditional-build/cw-all-threshold-boundary-estimate-2026-11-28.md",
+      "superseded_by": null,
+      "cache": {
+        "artifacts": [
+          {
+            "path": "explorations/conditional-build/cw-all-threshold-boundary-estimate-2026-11-28.md",
+            "sha256": "856b4f870600ac9bad10f7e46c1863fd78113a64b68ba13cba1c869aef74e487"
+          },
+          {
+            "path": "tests/program-focus/cw_all_threshold_boundary_probe.py",
+            "sha256": "11fc0bc82ba05c4d078228241d5cc386933c87c1ecf2eb4ffe6b7487e525ac6a"
+          },
+          {
+            "path": "lab/process/cw-all-threshold-boundary-certificates.json",
+            "sha256": "b2a29cb5ab9f56abda601bff7d56520b60b8b5cde82ade2f1617fff7e1725d02"
+          }
+        ],
+        "verifier": {
+          "command": "python3",
+          "args": [
+            "tests/program-focus/cw_all_threshold_boundary_probe.py",
+            "--verify"
+          ]
+        },
+        "receipt_ref": "lab/process/cw-all-threshold-boundary.json#verification",
+        "scope": "68finiteexactcontrols and one calibrated actualzero fixture; functional-analysis proof written/reviewed."
+      }
     }
   ]
 }

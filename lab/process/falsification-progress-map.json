@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "basis_revision": "5ccd2ed453e16be535acb18ec927d50080730416",
+  "basis_revision": "523eaeb084769e3c5f8aa6bc43c5a33b9c888096",
   "scope": "Curated six-pillar x source/class/candidate linked view. Status belongs to cited owners; no scientific verdict promotion, automatic ranking, whole-history coverage or global percentage. Cheapest-next fields are attributed bounded suggestions, not dispatch instructions. Closed means resolved within the cited scope; it does not always mean falsified. Positive fits and remaining source/physical bridges stay explicit.",
   "assumptions_ref": "lab/process/action-constraint-matrix.json#source_relevance_assumption_view.shared_prerequisites",
   "dependencies": [
@@ -94,7 +94,7 @@
     },
     {
       "ref": "lab/process/action-constraint-matrix.json",
-      "sha256": "1369885d6c3528810d60092ba3401b6cd35e3e034609de9a93cf3e1c46f224c9"
+      "sha256": "24be49980b43e3dac8ae14bbf83e9cf0b04d667531d7fd1f6d27f926df823adb"
     },
     {
       "ref": "lab/process/conditional-physics-ledger-v0.263.json",
@@ -231,6 +231,10 @@
     {
       "ref": "explorations/conditional-build/bet-mass-gap-cw-symmetry-domain-2026-11-27.md",
       "sha256": "da8614ff1e1ffa223fc35f1b89af687d8c0675f1aad964a96905b17fc3b9025a"
+    },
+    {
+      "ref": "explorations/conditional-build/cw-all-threshold-boundary-estimate-2026-11-28.md",
+      "sha256": "856b4f870600ac9bad10f7e46c1863fd78113a64b68ba13cba1c869aef74e487"
     }
   ],
   "pillars": [
@@ -331,9 +335,9 @@
         "class": {
           "attributed_status": "Scoped W2 graph/domain exclusion",
           "closed": "Every fixed finite Sobolev-loss graph-Duhamel estimate fails on the named interior core, including specified finite-order norm repairs retaining it. Fully boost-equivariant repeatedE fourterm symbols with firstorder endarrows admit no integer-order homogeneous exact middle in n14. Exact frozen selected printed real trace modes exclude every fixed finite-loss estimate on unrestricted states; no actual variable/nonlinear or physical-domain transfer. Frozen actual printedQ strict all-field stable-support cutoff admitting the tested pair fails second-order closure; same-leading scalarizer correction around actualsmallh branch fails at h5. Neither is source-required physicaldata. Declared regular equivariant quadratic slaving of the actual resonant printed pair is excluded; secular forced dynamics survives. A full nonlinear CW-type constraint remains a candidate test, not a selected source law. Strict all-field commonstable Fouriercutoff failsactual nonlinearpacket closure; finiteinitialslicejets remainincomplete inthislineardomain. Stated C2 translation-equivariant ordinarySobolev instantaneous elimination graphs fail on a fixed-packet threshold collar.",
-          "open": "Supplied analytic/nonlocal/boundary physical selection and full operator/domain. Actual SC-ACT06 source reduced field/gauge/order profile and background stabilizer are distinct; existing O4/Cartan route is retained. One-sided future boundary retains decaying state; negative-factor and all-output nonlinear closure unproved; positive-factor uniform local bound established.",
+          "open": "Supplied analytic/nonlocal/boundary physical selection and full operator/domain. Actual SC-ACT06 source reduced field/gauge/order profile and background stabilizer are distinct; existing O4/Cartan route is retained. One-sided future boundary retains decaying state; all stable-input local threshold bounds established; retained-decaying-input, global and nonlinear closure unproved.",
           "shared_missing_ref": "lab/process/action-constraint-matrix.json#source_relevance_assumption_view.shared_prerequisites",
-          "cheapest_next": "Joe27r2b next: test the actual a=-1/b=+1 quadratic vertex into the a_out=-2 collinear threshold at kappa12, K\u00b218, k=5K/2, l=-3K/2 and opposite frequencies squared153/2. Zero projection retains a null escape; nonzero makes the full transverse degenerate estimate relevant. Rank loss alone is not a kill; keep all12 transverse widths. Uniform positive-threshold boundary estimate is consumed. Then all-output/free-decaying-state nonlinear closure or retained PT/trapped/Lambda/uniqueness alternatives; no fourth wedge wave.",
+          "cheapest_next": "Joe27r2b wave4 next: check retained-decay x retained-decay boundary closure in the already-declared local q0 L2 norm, starting with input factors(-4,-4) at k=l=3 positive axis and output(-1) at K=6 axis. Test the full transverse pushforward in (delta_out,delta_2), not a small-denominator toy. If the short bound works, continue in the same wave to global/input-edge norm control and full-state propagation; stable x decay on compact interior CW patches has nonzero oscillatory frequency. No new state norm to secure a pass. All stable-oscillatory local threshold tests are consumed; no further vertex census. CWstep2b3/5, wedge3/3.",
           "evidence_refs": [
             "explorations/conditional-build/source-action-finite-loss-completions-2026-11-27.md",
             "explorations/conditional-build/null-boost-symbol-trace-2026-11-27.md",
@@ -345,13 +349,15 @@
             "explorations/conditional-build/cw-fullsystem-domain-2026-11-27.md",
             "explorations/conditional-build/cw-nonlinear-completion-2026-11-27.md",
             "explorations/conditional-build/cw-one-sided-boundary-2026-11-27.md",
-            "explorations/conditional-build/cw-bilinear-boundary-estimate-2026-11-27.md"
+            "explorations/conditional-build/cw-bilinear-boundary-estimate-2026-11-27.md",
+            "explorations/conditional-build/cw-all-threshold-boundary-estimate-2026-11-28.md"
           ],
           "positive_fit": "Full exterior deRham remains exact in indefinite signature; source background-owned auxiliarypositive Cartan structure is retained at its smaller symmetry. Neither is the full GU complex. TypeI covariant observer law can staytight along a balancedDapproach; no positive universalD escape bound. ExactD endpointlaw still excluded in Weyl-onlycategory. Unrestricted printed translations match each finite residual jet at sufficiently large coupling; actual fixed-coupling curved PDE remains open. Selected printed nonnull symbol has a finite frozen descriptor inverse, not a physical evolution result. Actual analytic curved linear printed solutions exist at sufficiently large finite coupling under coherentLC/parallelPhi; the nonlinear endpoint is not solved.",
           "survivors": [
             "Full compatible frozen linear modal evolution; bounded nonresonant offsupport response; nonlinear enlargement remainsunproved.",
             "The actual selected frozen printed descriptor admits a regular full-threshold reduction. Retaining free decaying off-band data changes the forced boundary divisor to sqrt(delta)-i nu. Fixed smooth compact stable input packets have bounded boundary data and a forward-uniform quadratic response through the threshold, by their nonstationary phase and integrable first-time-moment forcing. Ordinary-Sobolev bilinear boundedness and nonlinear invariance remain open; the prior CW-only elimination-graph exclusion is unchanged.",
-            "The actual one-sided quadratic boundary map is locally bounded L2xL2 to L2, with threshold-tail operator norm O(epsilon^(1/4)), using a uniform nonlinear change of variables and all11 spectator directions. The proof covers all7 positive-factor output thresholds and all38 signed massive common-CW input branches locally. Quadratic displacement has an O(1+sqrt(t)) upper bound and momentum a uniform upper bound. A negative-factor a=-2 collinear locus remains outside the proof; its actual vertex and estimate are untested."
+            "The actual one-sided quadratic boundary map is locally bounded L2xL2 to L2, with threshold-tail operator norm O(epsilon^(1/4)), using a uniform nonlinear change of variables and all11 spectator directions. The proof covers all7 positive-factor output thresholds and all38 signed massive common-CW input branches locally. Quadratic displacement has an O(1+sqrt(t)) upper bound and momentum a uniform upper bound. A negative-factor a=-2 collinear locus remains outside the proof; its actual vertex and estimate are untested.",
+            "Full transverse integration extends the actual local L2xL2 to L2 future-boundary estimate to all19 output thresholds and all38 signed common-CW massive input branches, including collinear negative-factor rank-loss points. The epsilon^(1/4) threshold tail and stable-input forward upper bounds extend. A calibrated actual A1/H9 (-1,+1)->(-2) fixture has nonzero24-term force but zero threshold projection; no general cancellation rule."
           ]
         },
         "candidate": {
@@ -723,11 +729,11 @@
           "GU*"
         ],
         "rank": 1,
-        "status": "positive_threshold_uniform_quadratic_survivor_negative_threshold_and_nonlinear_open",
-        "cheapest_test_or_revival": "Joe27r2b next: test the actual a=-1/b=+1 quadratic vertex into the a_out=-2 collinear threshold at kappa12, K\u00b218, k=5K/2, l=-3K/2 and opposite frequencies squared153/2. Zero projection retains a null escape; nonzero makes the full transverse degenerate estimate relevant. Rank loss alone is not a kill; keep all12 transverse widths. Uniform positive-threshold boundary estimate is consumed. Then all-output/free-decaying-state nonlinear closure or retained PT/trapped/Lambda/uniqueness alternatives; no fourth wedge wave.",
-        "inference_limit": "Local selected frozen complexoperator estimate only; no globalfrequency, alloutput, nonlinear, physical norm or source selection transfer.",
+        "status": "all_local_massive_threshold_boundary_bounds_pass_retained_states_and_global_open",
+        "cheapest_test_or_revival": "Joe27r2b wave4 next: check retained-decay x retained-decay boundary closure in the already-declared local q0 L2 norm, starting with input factors(-4,-4) at k=l=3 positive axis and output(-1) at K=6 axis. Test the full transverse pushforward in (delta_out,delta_2), not a small-denominator toy. If the short bound works, continue in the same wave to global/input-edge norm control and full-state propagation; stable x decay on compact interior CW patches has nonzero oscillatory frequency. No new state norm to secure a pass. All stable-oscillatory local threshold tests are consumed; no further vertex census. CWstep2b3/5, wedge3/3.",
+        "inference_limit": "All19local thresholds for common-CW oscillatory inputs; no globalfrequency, retaineddecayinput, nonlinear or physical state transfer.",
         "source_necessity": "conditional; source statement and proposed realization kept separate",
-        "evidence_ref": "lab/process/cw-bilinear-boundary.json",
+        "evidence_ref": "lab/process/cw-all-threshold-boundary.json",
         "linked_options": [],
         "outcomes": [
           "Pair admitted and regular slaving demanded: reuse exclusion, change mechanism.",
@@ -1311,7 +1317,7 @@
         "sibling_import_effect": "Reusable scoped guards; no physical bridge or new choice. See per-item progress-map effects."
       }
     ],
-    "top_next": "Ordinary B next: evaluate the actual vertex between full-symbol input channels a=-1 and a=+1 into a_out=-2 at kappa12, K\u00b218, k=5K/2, l=-3K/2 and opposite frequencies squared153/2. A zero projection retains a null escape; only a nonzero projection earns the full transverse degenerate estimate. Keep the future-only state law separate from two-sided history, and the source physical domain/current separate from auxiliary norms. Wedge3/3 and CWstep2b2/5 unchanged.",
+    "top_next": "Joe27r2b wave4 next: check retained-decay x retained-decay boundary closure in the already-declared local q0 L2 norm, starting with input factors(-4,-4) at k=l=3 positive axis and output(-1) at K=6 axis. Test the full transverse pushforward in (delta_out,delta_2), not a small-denominator toy. If the short bound works, continue in the same wave to global/input-edge norm control and full-state propagation; stable x decay on compact interior CW patches has nonzero oscillatory frequency. No new state norm to secure a pass. All stable-oscillatory local threshold tests are consumed; no further vertex census. CWstep2b3/5, wedge3/3.",
     "track_policy": {
       "status": "applied",
       "authority": [
@@ -1579,5 +1585,19 @@
     "actual_delta": "The actual selected frozen K95 quadratic interaction excludes C2 two-sided tempered complete-history maps with ordinary Fourier-local L2 traces, even for packets inside the observed-Lorentz core. A future-only prescription survives but is not invariant under the actual time-reflecting Theta when arbitrary decays are retained. The branch-complete core N>kappa\u00b2/4 has zero classical modal mass kernel and zero spectral infimum; strict all-field nonlinear core support fails, with a regular nonresonant forced response retained.",
     "missing_input": "Source-selected physical state/quotient/current and norm. Nonlinear C2 complete-history regularity and admission of the exhibited packets are tested premises, not derived source facts.",
     "next": "Ordinary B next: evaluate the actual vertex between full-symbol input channels a=-1 and a=+1 into a_out=-2 at kappa12, K\u00b218, k=5K/2, l=-3K/2 and opposite frequencies squared153/2. A zero projection retains a null escape; only a nonzero projection earns the full transverse degenerate estimate. Keep the future-only state law separate from two-sided history, and the source physical domain/current separate from auxiliary norms. Wedge3/3 and CWstep2b2/5 unchanged."
+  },
+  "cw_all_threshold_boundary_2026_11_28": {
+    "evidence": [
+      "explorations/conditional-build/cw-all-threshold-boundary-estimate-2026-11-28.md",
+      "lab/process/cw-all-threshold-boundary.json"
+    ],
+    "pillars": [
+      "predictive_dynamics",
+      "positive_energy"
+    ],
+    "scope": "T2 local quadratic bound; no physical energy verdict",
+    "actual_delta": "Full transverse integration extends the actual local L2xL2 to L2 future-boundary estimate to all19 output thresholds and all38 signed common-CW massive input branches, including collinear negative-factor rank-loss points. The epsilon^(1/4) threshold tail and stable-input forward upper bounds extend. A calibrated actual A1/H9 (-1,+1)->(-2) fixture has nonzero24-term force but zero threshold projection; no general cancellation rule.",
+    "missing_input": "Retained-decaying-state interactions, global/input-edge estimates and nonlinear invariant domain; source physical state/current remains unprovided.",
+    "next": "Joe27r2b wave4 next: check retained-decay x retained-decay boundary closure in the already-declared local q0 L2 norm, starting with input factors(-4,-4) at k=l=3 positive axis and output(-1) at K=6 axis. Test the full transverse pushforward in (delta_out,delta_2), not a small-denominator toy. If the short bound works, continue in the same wave to global/input-edge norm control and full-state propagation; stable x decay on compact interior CW patches has nonzero oscillatory frequency. No new state norm to secure a pass. All stable-oscillatory local threshold tests are consumed; no further vertex census. CWstep2b3/5, wedge3/3."
   }
 }

@@ -16,6 +16,10 @@ discovery bet (`lab/process/discovery-bets.json`). The K25xx--K2618 detector, pr
 results below are retained as conditional mathematics; that lane is no longer the default target. Sections
 below are dated results, newest first, and are not steering.
 
+## 2026-11-28 — All local CW threshold bounds
+
+[Result](explorations/conditional-build/cw-all-threshold-boundary-estimate-2026-11-28.md) · [Evidence](lab/process/cw-all-threshold-boundary.json). Full transverse integration gives a local L2xL2 to L2 future-boundary estimate with epsilon^(1/4) tail at all19 output thresholds. A calibrated actual(-1,+1)->(-2) polarization fixture has zero projection. Retained-decaying inputs, global/input-edge bounds and nonlinear closure remain open.68exactcontrols; no new Lean, physical norm, prediction or ledger verdict.
+
 ## 2026-11-28 — CW symmetry and state domains
 
 [Result](explorations/conditional-build/bet-mass-gap-cw-symmetry-domain-2026-11-27.md) · [Evidence](lab/process/bet-mass-gap-cw-symmetry-domain.json). Actual core-admitted packets exclude the declared C2 two-sided tempered ordinary-L2 history class. The future-only boundary survivor remains. The Lorentz core has zero modal mass kernel and zero spectral infimum; strict nonlinear support fails with a regular static response retained.76 exact controls and5 finite Lean cores; no physical quantum-gap, source or ledger verdict. LC context only.

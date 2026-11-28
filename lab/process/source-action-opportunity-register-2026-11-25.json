@@ -3933,5 +3933,43 @@
       "Zero modal mass infimum is not a massless eigenvector or quantum mass-gap result.",
       "Strict support nonclosure alone does not imply forced instability."
     ]
+  },
+  "cw_all_threshold_boundary_2026_11_28": {
+    "evidence": [
+      "explorations/conditional-build/cw-all-threshold-boundary-estimate-2026-11-28.md",
+      "lab/process/cw-all-threshold-boundary.json"
+    ],
+    "actual_delta": "Full transverse integration extends the actual local L2xL2 to L2 future-boundary estimate to all19 output thresholds and all38 signed common-CW massive input branches, including collinear negative-factor rank-loss points. The epsilon^(1/4) threshold tail and stable-input forward upper bounds extend. A calibrated actual A1/H9 (-1,+1)->(-2) fixture has nonzero24-term force but zero threshold projection; no general cancellation rule.",
+    "choice_budget": {
+      "families": 10,
+      "obligations": 4,
+      "net": 6,
+      "source_selected_predictions": 0,
+      "new_adopted_choices": 0,
+      "repair_adopted": false,
+      "scope": "Historical candidate grouping only; no new physical state/norm/choice adopted."
+    },
+    "consumed": [
+      "Negative-factor local rank-loss gap in oscillatory-input future boundary estimate.",
+      "All19threshold local stable-pair estimates and threshold tails.",
+      "One actual A1/H9 zero projection fixture with nonvacuous calibrated receiver."
+    ],
+    "survivors": [
+      "All local stable-input quadratic future boundary combinations.",
+      "Independent free decaying data retained but their interactions need their own estimate.",
+      "Source physical state/current and global nonlinear completion remain open."
+    ],
+    "next": "Joe27r2b wave4 next: check retained-decay x retained-decay boundary closure in the already-declared local q0 L2 norm, starting with input factors(-4,-4) at k=l=3 positive axis and output(-1) at K=6 axis. Test the full transverse pushforward in (delta_out,delta_2), not a small-denominator toy. If the short bound works, continue in the same wave to global/input-edge norm control and full-state propagation; stable x decay on compact interior CW patches has nonzero oscillatory frequency. No new state norm to secure a pass. All stable-oscillatory local threshold tests are consumed; no further vertex census. CWstep2b3/5, wedge3/3.",
+    "pitfalls": [
+      "Do not freeze transverse variables in a concentration counterexample.",
+      "Input(-1,+1) are fullsymbol channels, not trace\u221212.",
+      "Zero fixture does not prove a representation-wide null selection rule.",
+      "Local compact bounds are not a uniform global or nonlinear theorem."
+    ],
+    "next_cost_ranking": [
+      "Retained-decay pair with exact invariant coordinates; combine cheap bound and next global discriminator in one wave if possible.",
+      "Global/input-edge estimate in an explicitly inherited norm; no stronger norm chosen merely to pass.",
+      "Nonlinear invariant-manifold construction only once required closure estimates exist."
+    ]
   }
 }

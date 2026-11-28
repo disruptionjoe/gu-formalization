@@ -1,7 +1,7 @@
 schema_version: '1.0'
 repository: observerse-research-program
 branch: main
-revision_basis: 5ccd2ed453e16be535acb18ec927d50080730416
+revision_basis: 523eaeb084769e3c5f8aa6bc43c5a33b9c888096
 program_focus:
   version: 2026-11-27-v3
   authority: joe_direct_chat_2026_11_27_k
@@ -278,6 +278,28 @@ sibling_import_adjudication_2026_11_27:
     resume the retained actual a_out=-2 negative-factor CW vertex at kappa12 before a degenerate estimate.
     Step2b remains2/max5; wedge3/max3. No new sibling-research backlog or physical choice.
   verdict_effect: none; scoped applicability and algebra
+cw_all_threshold_boundary_2026_11_28:
+  status: internal_T2_reviewed
+  actual_delta: Full transverse integration extends the actual local L2xL2 to L2 future-boundary estimate
+    to all19 output thresholds and all38 signed common-CW massive input branches, including collinear
+    negative-factor rank-loss points. The epsilon^(1/4) threshold tail and stable-input forward upper
+    bounds extend. A calibrated actual A1/H9 (-1,+1)->(-2) fixture has nonzero24-term force but zero threshold
+    projection; no general cancellation rule.
+  evidence:
+  - explorations/conditional-build/cw-all-threshold-boundary-estimate-2026-11-28.md
+  - lab/process/cw-all-threshold-boundary.json
+  source_bridge:
+    status: conditional
+    reason: SC-ACT-02 and SC-META-52 supply endpoint template and ultrahyperbolic debt, not a unique low-Phi
+      realization or future physical state/current.
+  next: 'Joe27r2b wave4 next: check retained-decay x retained-decay boundary closure in the already-declared
+    local q0 L2 norm, starting with input factors(-4,-4) at k=l=3 positive axis and output(-1) at K=6
+    axis. Test the full transverse pushforward in (delta_out,delta_2), not a small-denominator toy. If
+    the short bound works, continue in the same wave to global/input-edge norm control and full-state
+    propagation; stable x decay on compact interior CW patches has nonzero oscillatory frequency. No new
+    state norm to secure a pass. All stable-oscillatory local threshold tests are consumed; no further
+    vertex census. CWstep2b3/5, wedge3/3.'
+  verdict_effect: none; local quadratic survivor
 cw_symmetry_domain_2026_11_27:
   status: internal_T1_reviewed
   actual_delta: "The actual selected frozen K95 quadratic interaction excludes C2 two-sided tempered complete-history\

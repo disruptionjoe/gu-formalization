@@ -1140,7 +1140,9 @@
         "explorations/conditional-build/cw-bilinear-boundary-estimate-2026-11-27.md",
         "lab/process/cw-bilinear-boundary.json",
         "explorations/conditional-build/sibling-import-adjudication-2026-11-27.md",
-        "lab/process/sibling-import-adjudication.json"
+        "lab/process/sibling-import-adjudication.json",
+        "explorations/conditional-build/cw-all-threshold-boundary-estimate-2026-11-28.md",
+        "lab/process/cw-all-threshold-boundary.json"
       ],
       "known": "Exact full14-component spin-only lower image: closure requires S=zH,W=0,R_h=-G_h. With same compatible Clifford adjoint, every unitary normal correction satisfying scalar row forces W_N=-16zH; top forces W_H=-zH, contradicting W0 whenH=t/2. Covers whole scalar-weighted stable natural family with sameq/time assumptions, including scalar-inputSE; general chiral/matrix/operator rivals separate. ComplexEnd paired-arrow escape fails actualadjoint; meanzeroSpin control survives. Actual geometric gradient SW term cancels residual with SAME primitive connection current at fixed density/bars; source/operator ownership open.",
       "next_run": "Use the live counter and current bet records with existing program_focus selection. the bounded source-law audit, universal-family stabilizer and regular exterior-symbol classification are complete; W09 absolute normal determinant/Spin existence is also complete. A physical whole-field covariance test requires a newly authenticated full two-sided field/bar/density/reference/observation law, typed as fixed or parameter-changing. Preserve the explicit R/4 toy and primitive currents; do not repeat the completed corpus audit or substitute a guessed law. Other eligible matrix or LB-CLASS targets remain selectable under program_focus; these conditional branches do not stop repository work.",
@@ -1819,7 +1821,7 @@
     },
     "LB-LADDER": {
       "zero_delta_streak": 0,
-      "runs": 29,
+      "runs": 30,
       "status": "open"
     }
   },
@@ -2733,7 +2735,7 @@
   ],
   "program_run_counter": {
     "since": "2026-11-09",
-    "count": 124,
+    "count": 125,
     "rule": "Every hourly run increments this in its postflight, whatever its lane. Lane C runs when count % 4 == 3 before the increment."
   },
   "working_rule": "Cells are worked at the structure level: a requirement must hold for every action in class C or for a structurally defined subfamily. No cell is worked by writing down a specific action, and no gated cell is worked by building its gate object. See CURRENT-STATE.yaml program_focus.structure_not_specifics.",
@@ -3859,6 +3861,15 @@
       "counter_after": 124,
       "lane": "LC-BETS",
       "selection": "Mandatory counter123; tied remaining budgets; shared physical state-domain burden."
+    },
+    {
+      "date": "2026-11-28",
+      "authority": "joe_direct_chat_2026_11_27_r",
+      "item": "cw-all-threshold-boundary",
+      "counter_before": 124,
+      "counter_after": 125,
+      "lane": "LB-LADDER",
+      "selection": "Quick-win2b wave3; full transverse density closes negative-factor local gap."
     }
   ],
   "directed_lc_carry_2026_11_24_b": {
@@ -7459,5 +7470,18 @@
       "reason": "Source observation and currents exist, but physical record, ray-domain, measure and selection bridges are not supplied by sibling structures."
     },
     "status_effect": "No cell, classC, shrinkage, source or ledger verdict change."
+  },
+  "cw_all_threshold_boundary_2026_11_28": {
+    "status": "internal_T2_reviewed",
+    "actual_delta": "Full transverse integration extends the actual local L2xL2 to L2 future-boundary estimate to all19 output thresholds and all38 signed common-CW massive input branches, including collinear negative-factor rank-loss points. The epsilon^(1/4) threshold tail and stable-input forward upper bounds extend. A calibrated actual A1/H9 (-1,+1)->(-2) fixture has nonzero24-term force but zero threshold projection; no general cancellation rule.",
+    "evidence": [
+      "explorations/conditional-build/cw-all-threshold-boundary-estimate-2026-11-28.md",
+      "lab/process/cw-all-threshold-boundary.json"
+    ],
+    "source_bridge": {
+      "status": "conditional",
+      "reason": "SC-ACT-02 and SC-META-52 supply endpoint template and ultrahyperbolic debt, not a unique low-Phi realization or future physical state/current."
+    },
+    "status_effect": "No cell/intersection/shrinkage/source/ledger verdict changes."
   }
 }

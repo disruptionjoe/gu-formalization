@@ -61,7 +61,7 @@ Consumed by the next reviewed result: the uniform ordinary-Sobolev bilinear boun
 
 Two new step2b waves consumed (maximum5 for step2). [Uniform estimate](../../../explorations/conditional-build/cw-bilinear-boundary-estimate-2026-11-27.md): actual L2xL2 to L2 bound and epsilon^(1/4) threshold tail, extended locally to all seven positive-factor output thresholds and38 signed input branches. Quadratic forward displacement has an O(1+sqrt(t)) upper bound, not a growth claim.
 
-Next ready test: actual input factors(-1,+1) into output(-2), kappa12, K²18, k=5K/2, l=-3K/2, opposite frequencies squared153/2. Both inputs are common-CW stable; both single-input Jacobians lose rank. Check the actual projected vertex first. Zero gives a null escape; nonzero earns the full transverse estimate. Rank loss is not failure. Retained-state interactions/global nonlinear closure and the physical-current bridge remain; no new adopted state law.
+Consumed by the all-threshold result below: actual input factors(-1,+1) into output(-2), kappa12, K²18, k=5K/2, l=-3K/2, opposite frequencies squared153/2. Both inputs are common-CW stable; both single-input Jacobians lose rank. Check the actual projected vertex first. Zero gives a null escape; nonzero earns the full transverse estimate. Rank loss is not failure. Retained-state interactions/global nonlinear closure and the physical-current bridge remain; no new adopted state law.
 
 ## Joe27bb directed interposition
 
@@ -77,4 +77,10 @@ Ordered Joe27bb/cc pass consumed. Counter123 requires LC-BETS next under unchang
 
 [Evidence](../../../explorations/conditional-build/bet-mass-gap-cw-symmetry-domain-2026-11-27.md) records the distinct two-sided tempered ordinary-L2 completion exclusion, even with inputs in the Lorentz core. The future-only repair survives and is not invariant under time-reflecting Theta when arbitrary decays are admitted. This is LC context, not a new B matrix verdict or a consumed step2b wave. Wedge3/3 and step2b2/5 remain unchanged.
 
-The existing actual negative-factor vertex is still the next ready ordinary B test. Restricting to the Lorentz core alone is no longer an untested escape; pointwise Theta-fixed input sets remain separate. No new state law is adopted.
+The negative-factor test was next here and is now consumed by the all-threshold result below. Restricting to the Lorentz core alone is no longer an untested escape; pointwise Theta-fixed input sets remain separate. No new state law is adopted.
+
+## Step2b — all local threshold estimates complete (wave3/5)
+
+[Result](../../../explorations/conditional-build/cw-all-threshold-boundary-estimate-2026-11-28.md) integrates the full transverse quadratic measure, extending the L2 boundary bound and epsilon^(1/4) tail to all19 output factors/all38 signed common-CW massive input branches. Actual A1/H9 (-1,+1)->(-2) fixture has zero projection with calibrated nonzero receiver controls; no general cancellation claim. No repeated local vertex census is needed.
+
+Joe27r2b wave4 next: check retained-decay x retained-decay boundary closure in the already-declared local q0 L2 norm, starting with input factors(-4,-4) at k=l=3 positive axis and output(-1) at K=6 axis. Test the full transverse pushforward in (delta_out,delta_2), not a small-denominator toy. If the short bound works, continue in the same wave to global/input-edge norm control and full-state propagation; stable x decay on compact interior CW patches has nonzero oscillatory frequency. No new state norm to secure a pass. All stable-oscillatory local threshold tests are consumed; no further vertex census. CWstep2b3/5, wedge3/3.
