@@ -16,6 +16,10 @@ Do not add "Current follow-through" sections or "Historical predecessor" stacks 
 matrix or bet file. The retired follow-through chain and banner stack are kept at the end of this file under
 "Archived steering history".
 
+## 2026-11-28 — Volume-restricted metric equations
+
+[Result](explorations/conditional-build/unimodular-lambda-and-scalar-2026-11-28.md) · [Evidence](lab/process/unimodular-lambda.json). Source volume rigidity does not derive unimodular dynamics. In the declared quadratic4D class, integration freedom retains growing determinant-tangent fullrow scalar modes at every deSitter sector, includingF0=0.43exactcontrols and7finiteLeancores; no physical choice or source/ledger verdict change.
+
 ## 2026-11-28 — Observer horizon compatibility
 
 [Result](explorations/conditional-build/observer-horizon-compatibility-2026-11-28.md) · [Evidence](lab/process/observer-horizon.json). Robust natural cones and unrestricted finite invariant value/finite-jet state realizations fail their stated compatibility tests. Convex robust cones require at least nine normal lineality directions. Density first jets leave higher variation free.53exactcontrols and7finiteLeancores; physical horizon and source/ledger verdicts remain unchanged.

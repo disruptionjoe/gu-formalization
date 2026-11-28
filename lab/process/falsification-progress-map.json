@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "basis_revision": "e212bece8145de73a702b2c74a01a3cbbd85b33b",
+  "basis_revision": "fe43936285c50706eaeb54f942ba439dbde07bda",
   "scope": "Curated six-pillar x source/class/candidate linked view. Status belongs to cited owners; no scientific verdict promotion, automatic ranking, whole-history coverage or global percentage. Cheapest-next fields are attributed bounded suggestions, not dispatch instructions. Closed means resolved within the cited scope; it does not always mean falsified. Positive fits and remaining source/physical bridges stay explicit.",
   "assumptions_ref": "lab/process/action-constraint-matrix.json#source_relevance_assumption_view.shared_prerequisites",
   "dependencies": [
@@ -94,7 +94,7 @@
     },
     {
       "ref": "lab/process/action-constraint-matrix.json",
-      "sha256": "c88ab632586b1a6d59004312c51cf1e8a3e034b2da0447133392b7c30381b65a"
+      "sha256": "0e740f6af4c62610635984693f50280fb84cd97138bc9a227596d383fcdde19a"
     },
     {
       "ref": "lab/process/conditional-physics-ledger-v0.263.json",
@@ -255,6 +255,10 @@
     {
       "ref": "explorations/conditional-build/observer-horizon-compatibility-2026-11-28.md",
       "sha256": "673bb7f43786e9065017b4325d25997389b16c6d0423de0512625c37da9cbbc7"
+    },
+    {
+      "ref": "explorations/conditional-build/unimodular-lambda-and-scalar-2026-11-28.md",
+      "sha256": "471a58179b2f6b8551a422256789b856f689b6fe80231a827a51daabfcbd9ea6"
     }
   ],
   "pillars": [
@@ -276,10 +280,10 @@
         },
         "class": {
           "attributed_status": "Internal T1 source-facing candidate finding; no source-register verdict",
-          "closed": "Every nonzero map in the declared fixed-linear full-Spin/full-U family fails exact Euler correspondence, even after any fixed invertible zero-order covector multiplier. Separately, every full pointwise exterior-degree11 Spin-equivariant associative or gradedLie derivation is Riemann-silent, without Euler/Hessian premises. Selected displayed map has no universal full-curvature exterior companion; inherited eight individual K77 maps cannot combine that property with nonzero Riemann response. Leading local4D finitepositive metric-only reference reductions of the ownwedge density admit a growing real scalar mode on deSitter; this excludes stability only in that declared reduction/state class.",
+          "closed": "Every nonzero map in the declared fixed-linear full-Spin/full-U family fails exact Euler correspondence, even after any fixed invertible zero-order covector multiplier. Separately, every full pointwise exterior-degree11 Spin-equivariant associative or gradedLie derivation is Riemann-silent, without Euler/Hessian premises. Selected displayed map has no universal full-curvature exterior companion; inherited eight individual K77 maps cannot combine that property with nonzero Riemann response. Leading local4D finitepositive metric-only reference reductions of the ownwedge density admit a growing real scalar mode on deSitter; this excludes stability only in that declared reduction/state class. Unimodularity plus integration-constant selection alone does not stabilize the declared negative-mass quadratic local metric class; an exact determinant-tangent fullrow mode covers every deSitter sector includingF0=0.",
           "open": "Ownwedge native largecoupling stationary branch is established; physical finite reduction, native fullh energy/quotient, kappa1 and source-selected member remain open. Field-dependent/differential/nonlocal variants and class-C representativeness remain conditional.",
           "shared_missing_ref": "lab/process/action-constraint-matrix.json#source_relevance_assumption_view.shared_prerequisites",
-          "cheapest_next": "Counter120 ordinaryB: resume Joe27r2b/27t nonlinearCraig-Weinstein test outside the consumed C2 instantaneous translation-equivariant full-stable-base Sobolev graph class. State its changed premise and outcomes before construction. Then retained antilinear/PT, trapped-section, Lambda and uniqueness steps. Wedge branch budget remains3of3; no fourthwave or W2continuation. A futurecosmology continuation needs a selected reference/state and actual matter/readout/calibration bridge; do not scan signedweights for desiredcoefficients.",
+          "cheapest_next": "Step5 basic equation and stability test complete after one/max5 waves. Counter131 requires LC-BETS under unchanged rule2, choosing the active bet with most time left. Next ordinaryB step6: comparative kinematic uniqueness using existing source-native fit and residual evidence, computing only uncovered differences. CW2b5/5,wedge3/3,PT3 and basicH1 complete; no further wedge/W2 continuation.",
           "evidence_refs": [
             "explorations/conditional-build/printed-shiab-endpoint-audit-2026-11-27.md",
             "explorations/conditional-build/shiab-graded-derivation-class-2026-11-27.md",
@@ -291,9 +295,13 @@
             "explorations/conditional-build/printed-state-completion-2026-11-27.md",
             "explorations/conditional-build/wedge-shiab-action-recheck-2026-11-27.md",
             "explorations/conditional-build/wedge-shiab-dynamics-2026-11-27.md",
-            "explorations/conditional-build/wedge-shiab-einstein-reduction-2026-11-27.md"
+            "explorations/conditional-build/wedge-shiab-einstein-reduction-2026-11-27.md",
+            "explorations/conditional-build/unimodular-lambda-and-scalar-2026-11-28.md"
           ],
-          "positive_fit": "All algebraic companions are coefficient-linear wedge pairs; a real primary-minus anticommutator wedge pair gives2G14 and an LC-parallel differential identity. This survives the companion test only; prior fixed-Euler exclusion still applies. Full ambient LC source is first-normal blind for every Ricci-flat base but responds quadratically for Schwarzschild in the existing reconstructed metric; not a solution. Unrestricted printed translations match each finite residual jet at sufficiently large coupling; actual fixed-coupling curved PDE remains open. Selected printed nonnull symbol has a finite frozen descriptor inverse, not a physical evolution result. Actual analytic curved linear printed solutions exist at sufficiently large finite coupling under coherentLC/parallelPhi; the nonlinear endpoint is not solved. Ownwedge consistent firstaction and native invariantlargecoupling branch survive. Actualconnectionmetric supplies an Einstein cross-term; finitepositive references give exact momentcone, withoutselectedNewton scale."
+          "positive_fit": "All algebraic companions are coefficient-linear wedge pairs; a real primary-minus anticommutator wedge pair gives2G14 and an LC-parallel differential identity. This survives the companion test only; prior fixed-Euler exclusion still applies. Full ambient LC source is first-normal blind for every Ricci-flat base but responds quadratically for Schwarzschild in the existing reconstructed metric; not a solution. Unrestricted printed translations match each finite residual jet at sufficiently large coupling; actual fixed-coupling curved PDE remains open. Selected printed nonnull symbol has a finite frozen descriptor inverse, not a physical evolution result. Actual analytic curved linear printed solutions exist at sufficiently large finite coupling under coherentLC/parallelPhi; the nonlinear endpoint is not solved. Ownwedge consistent firstaction and native invariantlargecoupling branch survive. Actualconnectionmetric supplies an Einstein cross-term; finitepositive references give exact momentcone, withoutselectedNewton scale.",
+          "survivors": [
+            "Integration datum as conditional curvature freedom, changed coefficient/domain/higher-order models and source variable-one-form mechanism; no physical selection supplied."
+          ]
         },
         "candidate": {
           "attributed_status": "Held W2 candidate correspondence fails; W2 action results retained",
@@ -611,16 +619,20 @@
         },
         "class": {
           "attributed_status": "Conditional local observation-class exclusion",
-          "closed": "Ambient weighted coclosure alone yields no new observed-only local conservation identity; zero-order conserved stress is field-independent. The full cutoff-admissible finite-order observed-only class also has zero vacuum-subtracted compact charge; nonnegative excitation density is identically zero on full jets. LC evidence only: finite normal-jet dependence cannot produce nonzero compact excitation charge from coclosure alone on the declared local cutoff-admissible class; no lane-B absorption.",
+          "closed": "Ambient weighted coclosure alone yields no new observed-only local conservation identity; zero-order conserved stress is field-independent. The full cutoff-admissible finite-order observed-only class also has zero vacuum-subtracted compact charge; nonnegative excitation density is identically zero on full jets. LC evidence only: finite normal-jet dependence cannot produce nonzero compact excitation charge from coclosure alone on the declared local cutoff-admissible class; no lane-B absorption. Unimodularity plus integration-constant selection alone does not stabilize the declared negative-mass quadratic local metric class; an exact determinant-tangent fullrow mode covers every deSitter sector includingF0=0.",
           "open": "Actual source stress, extra equations, physical domain, noncompact/homogeneous background contributions and normal/nonlocal readouts remain unselected; nonzero local improvement stresses survive. Additional equations/domain, nonlocal readout and homogeneous backgrounds remain outside this LC theorem.",
           "shared_missing_ref": "lab/process/action-constraint-matrix.json#source_relevance_assumption_view.shared_prerequisites",
-          "cheapest_next": "A distinct supplied extra-equation/domain restriction on free normal data; repeated finite-order readout repairs under coclosure alone are covered. Full source stress and physical admission remain undetermined.",
+          "cheapest_next": "Step5 basic equation and stability test complete after one/max5 waves. Counter131 requires LC-BETS under unchanged rule2, choosing the active bet with most time left. Next ordinaryB step6: comparative kinematic uniqueness using existing source-native fit and residual evidence, computing only uncovered differences. CW2b5/5,wedge3/3,PT3 and basicH1 complete; no further wedge/W2 continuation.",
           "evidence_refs": [
             "explorations/conditional-build/bet-cosmology-conservation-descent-2026-11-27.md",
             "explorations/conditional-build/compact-excitation-charge-2026-11-27.md",
-            "explorations/conditional-build/bet-cosmology-normal-jets-2026-11-27.md"
+            "explorations/conditional-build/bet-cosmology-normal-jets-2026-11-27.md",
+            "explorations/conditional-build/unimodular-lambda-and-scalar-2026-11-28.md"
           ],
-          "positive_fit": " LC calibration retains nonzero local improvements with zero charge and positive-charge same-oneform transport under an extra all-normal-flux-zero collar restriction."
+          "positive_fit": " LC calibration retains nonzero local improvements with zero charge and positive-charge same-oneform transport under an extra all-normal-flux-zero collar restriction.",
+          "survivors": [
+            "Integration datum as conditional curvature freedom, changed coefficient/domain/higher-order models and source variable-one-form mechanism; no physical selection supplied."
+          ]
         },
         "candidate": {
           "attributed_status": "Held theta=T reconstruction fails; cosmology fits remain conditional",
@@ -1089,9 +1101,10 @@
           "GU*"
         ],
         "rank": 16,
-        "status": "requires_metric_variation_law",
-        "cheapest_test_or_revival": "Check actual tracefree metric equation and conservation identity; only then deduce integration constant.",
-        "inference_limit": "Fixed-volume stabilizer/measure rigidity does not impose unimodular variations or derive Lambda."
+        "status": "basic_variation_and_scalar_test_complete_source_bridge_open",
+        "cheapest_test_or_revival": "Source-selected observed metric variation/conserved stress, or a changed physical state/coefficient premise; no repeated simple unimodular scalar test.",
+        "inference_limit": "Source variable one-form mechanism is not unimodular by label. Volume restriction frees curvature datum but does not remove the real local scalar mode, includingF0=0.",
+        "compatibility_evidence_ref": "explorations/conditional-build/unimodular-lambda-and-scalar-2026-11-28.md"
       },
       {
         "id": "k10",
@@ -1105,9 +1118,10 @@
           "GU*"
         ],
         "rank": 17,
-        "status": "same_question_as_l3",
-        "cheapest_test_or_revival": "Reuse l3 discriminator; no duplicate calculation.",
-        "inference_limit": "Symmetry fixing volume level does not fix a variational class."
+        "status": "basic_variation_and_scalar_test_complete_source_bridge_open",
+        "cheapest_test_or_revival": "Source-selected observed metric variation/conserved stress, or a changed physical state/coefficient premise; no repeated simple unimodular scalar test.",
+        "inference_limit": "Source variable one-form mechanism is not unimodular by label. Volume restriction frees curvature datum but does not remove the real local scalar mode, includingF0=0.",
+        "compatibility_evidence_ref": "explorations/conditional-build/unimodular-lambda-and-scalar-2026-11-28.md"
       },
       {
         "id": "m1",
@@ -1358,7 +1372,7 @@
         "sibling_import_effect": "Reusable scoped guards; no physical bridge or new choice. See per-item progress-map effects."
       }
     ],
-    "top_next": "Step4 basic compatibility completed after one substantive wave. Next ordinaryB step5: test Lambda-as-integration-constant against the actual owned equations and variation/conservation identity; reuse fixed-volume rigidity without treating it as unimodular dynamics. Revive H1 only with specified causal cone/state/readout or observer trace. CW2b5/5,wedge3/3,PT3 complete; cadence unchanged.",
+    "top_next": "Step5 basic equation and stability test complete after one/max5 waves. Counter131 requires LC-BETS under unchanged rule2, choosing the active bet with most time left. Next ordinaryB step6: comparative kinematic uniqueness using existing source-native fit and residual evidence, computing only uncovered differences. CW2b5/5,wedge3/3,PT3 and basicH1 complete; no further wedge/W2 continuation.",
     "track_policy": {
       "status": "applied",
       "authority": [
@@ -1709,5 +1723,18 @@
       "reason": "Source metric-fibre and endpoint template supplied, but no robust causal cone, finite invariant state norm, unrestricted smooth domain or physical readout is source-selected."
     },
     "next": "Step4 basic compatibility completed after one substantive wave. Next ordinaryB step5: test Lambda-as-integration-constant against the actual owned equations and variation/conservation identity; reuse fixed-volume rigidity without treating it as unimodular dynamics. Revive H1 only with specified causal cone/state/readout or observer trace. CW2b5/5,wedge3/3,PT3 complete; cadence unchanged."
+  },
+  "unimodular_lambda_2026_11_28": {
+    "evidence": [
+      "explorations/conditional-build/unimodular-lambda-and-scalar-2026-11-28.md",
+      "lab/process/unimodular-lambda.json"
+    ],
+    "scope": "Declared volume-restricted quadratic metric class",
+    "actual_delta": "The source fixed-volume seed does not supply determinant-constrained metric variations. In the conditional quadratic metric class, tracefree equations free a curvature datum but retain a growing determinant-tangent full-row scalar at every de Sitter sector, including F0=0. Conservation defects require an exact current before a scalar multiplier exists.",
+    "source_bridge": {
+      "status": "conditional",
+      "reason": "Source geometry/action grammar and variable adjoint-one-form claim are distinct from the unselected finite reduction, determinant variation and physical state admission tested here."
+    },
+    "next": "Step5 basic equation and stability test complete after one/max5 waves. Counter131 requires LC-BETS under unchanged rule2, choosing the active bet with most time left. Next ordinaryB step6: comparative kinematic uniqueness using existing source-native fit and residual evidence, computing only uncovered differences. CW2b5/5,wedge3/3,PT3 and basicH1 complete; no further wedge/W2 continuation."
   }
 }

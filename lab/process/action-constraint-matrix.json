@@ -1824,7 +1824,7 @@
     },
     "LB-CLASS": {
       "zero_delta_streak": 0,
-      "runs": 58,
+      "runs": 59,
       "status": "open"
     },
     "LB-LADDER": {
@@ -2743,7 +2743,7 @@
   ],
   "program_run_counter": {
     "since": "2026-11-09",
-    "count": 130,
+    "count": 131,
     "rule": "Every hourly run increments this in its postflight, whatever its lane. Lane C runs when count % 4 == 3 before the increment."
   },
   "working_rule": "Cells are worked at the structure level: a requirement must hold for every action in class C or for a structurally defined subfamily. No cell is worked by writing down a specific action, and no gated cell is worked by building its gate object. See CURRENT-STATE.yaml program_focus.structure_not_specifics.",
@@ -3923,6 +3923,15 @@
       "counter_after": 130,
       "lane": "LB-LADDER",
       "selection": "Quick-win4 robust cone and finite-state compatibility; basic question complete, step5 next."
+    },
+    {
+      "date": "2026-11-28",
+      "authority": "joe_direct_chat_2026_11_27_r",
+      "item": "unimodular-lambda-scalar",
+      "counter_before": 130,
+      "counter_after": 131,
+      "lane": "LB-CLASS",
+      "selection": "Quick-win5 source variation and fullrow determinant-constrained scalar stability; step5 complete, LC thenstep6."
     }
   ],
   "directed_lc_carry_2026_11_24_b": {
@@ -7588,5 +7597,18 @@
       "reason": "Source metric-fibre and endpoint template supplied, but no robust causal cone, finite invariant state norm, unrestricted smooth domain or physical readout is source-selected."
     },
     "status_effect": "Scoped completion exclusions only; no wholeC or ledger verdict."
+  },
+  "unimodular_lambda_2026_11_28": {
+    "status": "internal_T1_reviewed",
+    "actual_delta": "The source fixed-volume seed does not supply determinant-constrained metric variations. In the conditional quadratic metric class, tracefree equations free a curvature datum but retain a growing determinant-tangent full-row scalar at every de Sitter sector, including F0=0. Conservation defects require an exact current before a scalar multiplier exists.",
+    "evidence": [
+      "explorations/conditional-build/unimodular-lambda-and-scalar-2026-11-28.md",
+      "lab/process/unimodular-lambda.json"
+    ],
+    "source_bridge": {
+      "status": "conditional",
+      "reason": "Source geometry/action grammar and variable adjoint-one-form claim are distinct from the unselected finite reduction, determinant variation and physical state admission tested here."
+    },
+    "status_effect": "Scoped conditional class exclusion; no scientific cell/wholeC or ledger verdict."
   }
 }

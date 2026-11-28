@@ -3406,6 +3406,63 @@
         "receipt_ref": "lab/process/observer-horizon.json#verification",
         "scope": "53exactcontrols,7finiteLeancores; full class proofs written and independently reviewed."
       }
+    },
+    {
+      "id": "unimodular-lambda-scalar-2026-11-28",
+      "kind": "result",
+      "owner_ref": "explorations/conditional-build/unimodular-lambda-and-scalar-2026-11-28.md",
+      "tested_statement": "The source fixed-volume seed does not supply determinant-constrained metric variations. In the conditional quadratic metric class, tracefree equations free a curvature datum but retain a growing determinant-tangent full-row scalar at every de Sitter sector, including F0=0. Conservation defects require an exact current before a scalar multiplier exists.",
+      "signature": {
+        "object": "Volume-restricted quadratic metric equations and integration datum",
+        "carrier": "Observed real local4D metric; leading positive-reference wedge subclass",
+        "convention": "E=ell*g; inverse metric variation; Lorentz(-+++), fixedvolume density; A/(6b)<0",
+        "class": "Constant-coefficient quadratic actions and ordinary local fixed-density tangents",
+        "premises": [
+          "explorations/conditional-build/unimodular-lambda-and-scalar-2026-11-28.md"
+        ]
+      },
+      "attributed_status": "internal_T1_reviewed",
+      "status_ref": "lab/process/unimodular-lambda.json#status",
+      "source_bridge_ref": "lab/process/unimodular-lambda.json#source_bridge",
+      "certificate_refs": [
+        "lab/process/unimodular-lambda-certificates.json",
+        "Lean/GUFormalization/UnimodularLambda.lean"
+      ],
+      "control_refs": [
+        "tests/program-focus/unimodular_lambda_probe.py"
+      ],
+      "survivors_ref": "lab/process/unimodular-lambda.json#follow_through",
+      "reopen_condition_ref": "explorations/conditional-build/unimodular-lambda-and-scalar-2026-11-28.md",
+      "superseded_by": null,
+      "cache": {
+        "artifacts": [
+          {
+            "path": "explorations/conditional-build/unimodular-lambda-and-scalar-2026-11-28.md",
+            "sha256": "471a58179b2f6b8551a422256789b856f689b6fe80231a827a51daabfcbd9ea6"
+          },
+          {
+            "path": "tests/program-focus/unimodular_lambda_probe.py",
+            "sha256": "0f1a0a4f4b58bf0899a8084e80bb7e91578db1c7242b3f74e6ac70bc9cf0d4c7"
+          },
+          {
+            "path": "lab/process/unimodular-lambda-certificates.json",
+            "sha256": "1d0b93842b00a49a047d48165f5c6d40caa55c50fda2f56a0cac276eb34e2307"
+          },
+          {
+            "path": "Lean/GUFormalization/UnimodularLambda.lean",
+            "sha256": "828a4930f2bb108dbad18de6c16a984b00e51a914d9ee502f684e5ef6d2db10f"
+          }
+        ],
+        "verifier": {
+          "command": "python3",
+          "args": [
+            "tests/program-focus/unimodular_lambda_probe.py",
+            "--verify"
+          ]
+        },
+        "receipt_ref": "lab/process/unimodular-lambda.json#verification",
+        "scope": "43exactcontrols,7finiteLeancores; geometric/analytic statements reviewed, not fully formalized."
+      }
     }
   ]
 }

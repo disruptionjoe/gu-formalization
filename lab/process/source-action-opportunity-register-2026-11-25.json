@@ -4180,5 +4180,49 @@
       "Initial prospective squared transverse witness was inappropriate for first-order P; corrected to linear before native computation.",
       "PSD product countercone prevented an overbroad covariance no-go; the robust-horizontal-interior premise is essential."
     ]
+  },
+  "unimodular_lambda_2026_11_28": {
+    "evidence": [
+      "explorations/conditional-build/unimodular-lambda-and-scalar-2026-11-28.md",
+      "lab/process/unimodular-lambda.json"
+    ],
+    "actual_delta": "The source fixed-volume seed does not supply determinant-constrained metric variations. In the conditional quadratic metric class, tracefree equations free a curvature datum but retain a growing determinant-tangent full-row scalar at every de Sitter sector, including F0=0. Conservation defects require an exact current before a scalar multiplier exists.",
+    "choice_budget": {
+      "families": 10,
+      "obligations": 4,
+      "net": 6,
+      "source_selected_predictions": 0,
+      "new_adopted_choices": 0,
+      "scope": "Historical candidate grouping unchanged; hypothetical determinant rule and sector datum priced, not adopted or counted as all-GU minimum."
+    },
+    "consumed": [
+      "Fixed-volume fibre seed is not a base metric variation constraint.",
+      "Unrestricted wedge Einstein curvature fixed by coefficients.",
+      "Volume-restricted scalar stability repair including criticalF0.",
+      "Constant integration datum requires conserved complete residual; exactness is necessary otherwise."
+    ],
+    "exclusions": [
+      "Unimodularity and a sector constant alone stabilize every ordinary real local scalar mode in the declared negative-mass quadratic class."
+    ],
+    "survivors": [
+      "Changed coefficient signs or zero scalar coefficient",
+      "Changed physical domains/projections or nonlocal reduction",
+      "Matter, higher-order and full14D effects",
+      "Other source-admissible Shiab or Lambda mechanisms",
+      "Conditional integration datum as curvature freedom, without stability or prediction credit"
+    ],
+    "next": "Step5 basic equation and stability test complete after one/max5 waves. Counter131 requires LC-BETS under unchanged rule2, choosing the active bet with most time left. Next ordinaryB step6: comparative kinematic uniqueness using existing source-native fit and residual evidence, computing only uncovered differences. CW2b5/5,wedge3/3,PT3 and basicH1 complete; no further wedge/W2 continuation.",
+    "pitfalls": [
+      "Fixed-volume normal seed, pointwise metric density and global volume are different constraints.",
+      "Scalar trace equation alone cannot certify allrow mode admission.",
+      "F0=0 is not a valid denominator; direct fixed-density lapse witness covers it.",
+      "Ambient one-form coderivative is not observed stress divergence.",
+      "SC-COS52 belongs to UCSD, not the TOE interview."
+    ],
+    "retrospective": [
+      "Exact probe caught a factor2 error in translating the ell threshold to c_eff; corrected before certification, math statement unchanged.",
+      "Two reviewers independently caught source-table SC-COS52 misattribution, the existing register namedpitfall; split primary locators before acceptance.",
+      "Known unimodular theorem and existing wedge reduction reduced work to critical fullrow mode and scope/conservation bridge."
+    ]
   }
 }

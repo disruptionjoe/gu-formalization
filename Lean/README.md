@@ -353,3 +353,7 @@ replacement for `lake build` or targeted standalone Lean checks.
 ## 2026-11-28 — Observer horizon finite cores
 
 `GUFormalization/ObserverHorizon.lean` checks seven pointedness, quotient, factorial and arithmetic cores. Analytic cone/measure/jet/geometry arguments remain written and independently reviewed. Result: `explorations/conditional-build/observer-horizon-compatibility-2026-11-28.md`.
+
+## 2026-11-28 — Unimodular Lambda finite cores
+
+`GUFormalization/UnimodularLambda.lean` checks seven background uniqueness, sign, factorization, growth and shift cores. Differential geometry/Noether/PDE proofs remain written and independently reviewed. Result: `explorations/conditional-build/unimodular-lambda-and-scalar-2026-11-28.md`.
