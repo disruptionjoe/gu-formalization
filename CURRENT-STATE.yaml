@@ -293,7 +293,7 @@ cw_symmetry_domain_2026_11_27:
     status: conditional
     reason: SC-ACT-02 supplies an endpoint template, SC-META-52/53 name ultrahyperbolic/shielding debt;
       none selects this physical norm, state domain, Theta invariance or all input packets.
-  next: "Ordinary B next: evaluate the actual (-1,+1) trace-channel vertex into a_out=-2 at kappa12, K\xB2\
+  next: "Ordinary B next: evaluate the actual vertex between full-symbol input channels a=-1 and a=+1 into a_out=-2 at kappa12, K\xB2\
     18, k=5K/2, l=-3K/2 and opposite frequencies squared153/2. A zero projection retains a null escape;\
     \ only a nonzero projection earns the full transverse degenerate estimate. Keep the future-only state\
     \ law separate from two-sided history, and the source physical domain/current separate from auxiliary\
