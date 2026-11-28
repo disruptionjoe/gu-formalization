@@ -1,7 +1,7 @@
 schema_version: '1.0'
 repository: observerse-research-program
 branch: main
-revision_basis: 4910d449e277bc3f742911134c3beb4c5f8af143
+revision_basis: ea258fc59e0312c2d44ffefa50f4815cad521f3d
 program_focus:
   version: 2026-11-27-v3
   authority: joe_direct_chat_2026_11_27_k
@@ -237,6 +237,34 @@ program_focus:
       instead of silently adopting them.
     current_view: lab/process/source-action-opportunity-register-2026-11-25.json#research_track_view
     effect_receipt: lab/process/two-track-adoption-2026-11-27.json
+focus_consideration_2026_11_27_t:
+  authority: joe_direct_chat_2026_11_27_t
+  status: considered; focus adopted within existing sequence and cadence
+  owner_ref: lab/process/bet-mass-gap-local-current.json#joe_27t_consideration
+  priority_effect: OrdinaryB work concentrated on existing27rsteps1and2; no policy/cadence change, other
+    options retained. Residual is a bounded linked synthesis, not a new prerequisite.
+  continuation: Existing wedge gate then nonlinearCW changes beyond the already excluded instantaneous
+    graph class; W2 diagnostic only; bounded residual synthesis with honest units of choice.
+local_current_2026_11_27:
+  status: internal_T1_reviewed
+  actual_delta: Every positive-semidefinite zeroth-order local conserved density vanishes for the completed
+    chiral wedge/SE and time-regular scalar natural two-channel ambient classes on unrestricted equation
+    first jets. An actual rank128 horizontal gamma-traceless block is visible to literal observation and
+    cannot retain positive local norm. Nonlocal or restricted physical domains remain open; no physical
+    or quantum-gap verdict.
+  evidence:
+  - explorations/conditional-build/bet-mass-gap-local-current-2026-11-27.md
+  - lab/process/bet-mass-gap-local-current.json
+  source_bridge:
+    status: conditional
+    reason: Source candidate grammar does not select these principal coefficients, unrestricted physical
+      jets or a Hermitian local probability current. Independent bars and physical quotient remain unbuilt
+      bridges.
+  next: 'Counter116 ordinary B: Joe27r step1b, wedge own temporal constraints/canonical current and native
+    stationarity with metric rows retained; two step1 waves remain. No W2/printed-lowPhi dynamics transfer.
+    Later shielding tests require an admitted restricted-domain/current bridge, not another local positive
+    matrix under covered premises.'
+  verdict_effect: none; LC evidence only
 shiab_flexibility_2026_11_27_s:
   authority: joe_direct_chat_2026_11_27_s
   owner_ref: lab/process/source-action-opportunity-register-2026-11-25.json#shiab_flexibility_2026_11_27_s

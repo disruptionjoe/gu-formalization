@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "basis_revision": "4910d449e277bc3f742911134c3beb4c5f8af143",
+  "basis_revision": "ea258fc59e0312c2d44ffefa50f4815cad521f3d",
   "scope": "Curated six-pillar x source/class/candidate linked view. Status belongs to cited owners; no scientific verdict promotion, automatic ranking, whole-history coverage or global percentage. Cheapest-next fields are attributed bounded suggestions, not dispatch instructions. Closed means resolved within the cited scope; it does not always mean falsified. Positive fits and remaining source/physical bridges stay explicit.",
   "assumptions_ref": "lab/process/action-constraint-matrix.json#source_relevance_assumption_view.shared_prerequisites",
   "dependencies": [
@@ -94,7 +94,7 @@
     },
     {
       "ref": "lab/process/action-constraint-matrix.json",
-      "sha256": "46ab37fb37d7018cdfdf05ede2ff08786c0d4393986ba3595e324b5ba9e1888c"
+      "sha256": "5b39e6de431d43bd00484a95edc349bed214cfd35b19832dc2f3eea7a1411f5c"
     },
     {
       "ref": "lab/process/conditional-physics-ledger-v0.263.json",
@@ -199,6 +199,10 @@
     {
       "ref": "explorations/conditional-build/wedge-shiab-action-recheck-2026-11-27.md",
       "sha256": "3b5f7dae39ec20dc78d457148a63bf23e5290ce9604cae2db52a3832d13f1d91"
+    },
+    {
+      "ref": "explorations/conditional-build/bet-mass-gap-local-current-2026-11-27.md",
+      "sha256": "5de2cf2c42e25e78e8df6bce54b7a6615deacf6731b236a3e39cfe03fa6efae8"
     }
   ],
   "pillars": [
@@ -1213,7 +1217,7 @@
         "new_choice_families_adopted": 0
       }
     ],
-    "top_next": "Count115 mandatoryLC-BETS next; nextB Joe27r step1b wedge own temporal constraints/canonical current on a native stationary background or explicitly conditional frozen reference retaining mixed metric constraint. Step1 has two waves left before advancing the ordered sequence. Do not reuse W2 or lowPhiCW as wedge dynamics.",
+    "top_next": "Counter116 ordinary B: Joe27r step1b, wedge own temporal constraints/canonical current and native stationarity with metric rows retained; two step1 waves remain. No W2/printed-lowPhi dynamics transfer. Later shielding tests require an admitted restricted-domain/current bridge, not another local positive matrix under covered premises. Joe27t reinforces gravity and genuinely new nonlinearCW mechanisms; W2 diagnostic only. Residual comparison separates free functions, state/domain choices and numerical parameters.",
     "track_policy": {
       "status": "applied",
       "authority": [
@@ -1278,5 +1282,20 @@
     "owner_ref": "lab/process/source-action-opportunity-register-2026-11-25.json#shiab_flexibility_2026_11_27_s",
     "status": "three proposed alternatives, zero adopted variants",
     "priority": "Current wedge own dynamics first; alternatives ranked for a concrete required consequence."
+  },
+  "local_current_discovery_evidence_2026_11_27": {
+    "evidence": [
+      "explorations/conditional-build/bet-mass-gap-local-current-2026-11-27.md",
+      "lab/process/bet-mass-gap-local-current.json"
+    ],
+    "actual_delta": "Every positive-semidefinite zeroth-order local conserved density vanishes for the completed chiral wedge/SE and time-regular scalar natural two-channel ambient classes on unrestricted equation first jets. An actual rank128 horizontal gamma-traceless block is visible to literal observation and cannot retain positive local norm. Nonlocal or restricted physical domains remain open; no physical or quantum-gap verdict.",
+    "scope": "LC evidence only, no scientific matrix/ledger absorption",
+    "missing_input": "Actual restricted physical state/current/observed-matter bridge",
+    "next": "Counter116 ordinary B: Joe27r step1b, wedge own temporal constraints/canonical current and native stationarity with metric rows retained; two step1 waves remain. No W2/printed-lowPhi dynamics transfer. Later shielding tests require an admitted restricted-domain/current bridge, not another local positive matrix under covered premises."
+  },
+  "focus_consideration_2026_11_27_t": {
+    "authority": "joe_direct_chat_2026_11_27_t",
+    "owner_ref": "lab/process/bet-mass-gap-local-current.json#joe_27t_consideration",
+    "priority_effect": "OrdinaryB work concentrated on existing27rsteps1and2; no policy/cadence change, other options retained. Residual is a bounded linked synthesis, not a new prerequisite."
   }
 }

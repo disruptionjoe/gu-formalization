@@ -2638,6 +2638,64 @@
         "receipt_ref": "lab/process/wedge-shiab-action-recheck.json#verification",
         "scope": "21 exact gradedword/nativecontrols; sourcefield-space andinterpretation reviewed separately."
       }
+    },
+    {
+      "id": "bet-mass-gap-local-current-2026-11-27",
+      "kind": "result",
+      "owner_ref": "explorations/conditional-build/bet-mass-gap-local-current-2026-11-27.md",
+      "tested_statement": "Every positive-semidefinite zeroth-order local conserved density vanishes for the completed chiral wedge/SE and time-regular scalar natural two-channel ambient classes on unrestricted equation first jets. An actual rank128 horizontal gamma-traceless block is visible to literal observation and cannot retain positive local norm. Nonlocal or restricted physical domains remain open; no physical or quantum-gap verdict.",
+      "signature": {
+        "object": "Positive-semidefinite local Cauchy current on fullambient15S",
+        "carrier": "Oneform fullDiracS128 plusindependent scalar, literal horizontal andgamma trace observation",
+        "convention": "K95/K77 separate, nonzerochiralweights/reciprocalSE; separate scalar natural twochannel",
+        "class": "Unrestricted equationfirstjets, Hermitian zeroorderquadraticcurrents; arbitrary lowerterms",
+        "premises": [
+          "explorations/conditional-build/bet-mass-gap-local-current-2026-11-27.md#2-necessary-current-compatibility",
+          "explorations/conditional-build/bet-mass-gap-local-current-2026-11-27.md#3-completed-native-wedgesoutheast-family",
+          "explorations/conditional-build/bet-mass-gap-local-current-2026-11-27.md#4-natural-scalar-family-including-uncompleted-se"
+        ]
+      },
+      "attributed_status": "internal_T1_reviewed",
+      "status_ref": "lab/process/bet-mass-gap-local-current.json#status",
+      "source_bridge_ref": "lab/process/bet-mass-gap-local-current.json#source_bridge",
+      "certificate_refs": [
+        "lab/process/local-current-certificates.json"
+      ],
+      "control_refs": [
+        "tests/program-focus/local_current_probe.py"
+      ],
+      "survivors_ref": "lab/process/bet-mass-gap-local-current.json#follow_through",
+      "reopen_condition_ref": "explorations/conditional-build/bet-mass-gap-local-current-2026-11-27.md#6-controls-and-untested-escapes",
+      "superseded_by": null,
+      "cache": {
+        "artifacts": [
+          {
+            "path": "explorations/conditional-build/bet-mass-gap-local-current-2026-11-27.md",
+            "sha256": "5de2cf2c42e25e78e8df6bce54b7a6615deacf6731b236a3e39cfe03fa6efae8"
+          },
+          {
+            "path": "tests/program-focus/local_current_probe.py",
+            "sha256": "edb16cb870cfa8e1613d1d89c344e89f1f90f64050f287cf9ab0c7a815c2fb09"
+          },
+          {
+            "path": "lab/process/local-current-certificates.json",
+            "sha256": "34b301ab46a338d56c0eabb2884f2825ab6e7d5f15fbb45eade5e3829738d29d"
+          },
+          {
+            "path": "Lean/GUFormalization/LocalCurrent.lean",
+            "sha256": "8794f47c49de1dec1ef17944d006f87ae03a21b3a1bedd8cde58716441ba658b"
+          }
+        ],
+        "verifier": {
+          "command": "python3",
+          "args": [
+            "tests/program-focus/local_current_probe.py",
+            "--verify"
+          ]
+        },
+        "receipt_ref": "lab/process/bet-mass-gap-local-current.json#verification",
+        "scope": "1030exactgroups plus written allparameter/currentjet proofs and finiteLean cores."
+      }
     }
   ]
 }

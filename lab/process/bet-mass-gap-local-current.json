@@ -1,0 +1,312 @@
+{
+  "artifact": "BET_MASS_GAP_LOCAL_CURRENT",
+  "date": "2026-11-27",
+  "basis_revision": "ea258fc59e0312c2d44ffefa50f4815cad521f3d",
+  "status": "internal_T1_reviewed",
+  "target": "BET-MASS-GAP",
+  "tier": "T1",
+  "lane": "LC-BETS",
+  "actual_delta": "Every positive-semidefinite zeroth-order local conserved density vanishes for the completed chiral wedge/SE and time-regular scalar natural two-channel ambient classes on unrestricted equation first jets. An actual rank128 horizontal gamma-traceless block is visible to literal observation and cannot retain positive local norm. Nonlocal or restricted physical domains remain open; no physical or quantum-gap verdict.",
+  "source_bridge": {
+    "status": "conditional",
+    "reason": "Source candidate grammar does not select these principal coefficients, unrestricted physical jets or a Hermitian local probability current. Independent bars and physical quotient remain unbuilt bridges."
+  },
+  "source_necessary_exclusion": false,
+  "weakest_unproved_link": "Actual physical state/jet admission and physical-current/observed-matter bridge; source neither requires this local current nor selects this completion.",
+  "class_C_representativeness": "Completed chiral wedge/SE plus scalar natural two-channel symbol subclasses, not all18 symbols, fullC or sourceGU.",
+  "track": [
+    "SOURCE conditional comparison",
+    "GU* existing-family test"
+  ],
+  "choice_budget": {
+    "change": 0,
+    "new_action_variants": 0,
+    "new_state_or_norm_choices": 0,
+    "source_selected_predictions_added": 0,
+    "historical_W2_baseline": {
+      "families": 10,
+      "obligations": 4,
+      "net": 6,
+      "predictions": 0
+    },
+    "scope": "Historical W2 count is not transferred as a universal minimum or the inventory of the present symbol families."
+  },
+  "selection": {
+    "mandatory_basis": "Counter115 LC; MASS-GAP and COSMOLOGY tied19 remaining,2plus1 18.",
+    "class_scope": "All nonnegative zero-order local Hermitian currents on unrestricted equation jets in two declared native symbol classes, arbitrary lower terms.",
+    "source_relevance": "SC-OP04/05 operator grammar and SC-META53 uncertain compact shielding; current/domain premises not source-fixed.",
+    "shared_prerequisite": "Physical positive state/current reduction required before compact quantum/gauge transfer.",
+    "reuse_delta": "Parallel-fibre positivity and tangent Jordan/current results reused; now full normal symbol, semidefinite density and literal observed retention.",
+    "strongest_eligible_alternative": "Cosmology normal-flux pushforward has no source-selected averaging/kernel/domain; finite jets and natural normalized averaging already covered. Scout retained in Runtime.",
+    "outcomes": [
+      "Nonzero positive current: typed candidate then lower-order preservation.",
+      "Current annihilates all or observed block: specified state/current/domain bridge required.",
+      "Symbol or jet binding fails: cancel transfer, noGU verdict."
+    ],
+    "remaining_cost": "Restricted physical-domain specification/preservation and observed current; no more same-premise local matrix searches.",
+    "expected_delta": "Resolve immediate nonparallel Cauchy-current transfer alternative.",
+    "actual_delta": "Every positive-semidefinite zeroth-order local conserved density vanishes for the completed chiral wedge/SE and time-regular scalar natural two-channel ambient classes on unrestricted equation first jets. An actual rank128 horizontal gamma-traceless block is visible to literal observation and cannot retain positive local norm. Nonlocal or restricted physical domains remain open; no physical or quantum-gap verdict.",
+    "cost": "One wave;1030 exact grouped controls/25200native blocks replay1.23s, five Lean finite cores; three independent reviews and nine gates. Token cost unmeasured."
+  },
+  "verification": {
+    "artifact_hashes": {
+      "explorations/conditional-build/bet-mass-gap-local-current-2026-11-27.md": "5de2cf2c42e25e78e8df6bce54b7a6615deacf6731b236a3e39cfe03fa6efae8",
+      "tests/program-focus/local_current_probe.py": "edb16cb870cfa8e1613d1d89c344e89f1f90f64050f287cf9ab0c7a815c2fb09",
+      "lab/process/local-current-certificates.json": "34b301ab46a338d56c0eabb2884f2825ab6e7d5f15fbb45eade5e3829738d29d",
+      "Lean/GUFormalization/LocalCurrent.lean": "8794f47c49de1dec1ef17944d006f87ae03a21b3a1bedd8cde58716441ba658b"
+    },
+    "exact_controls": 1030,
+    "native_blocks": 25200,
+    "command": "python3 tests/program-focus/local_current_probe.py --verify",
+    "lean_command": "lake env lean -j1 Lean/GUFormalization/LocalCurrent.lean",
+    "lean_exit_code": 0,
+    "lean_scope": "Five finite cores, no full PDE/current/source formalization.",
+    "reviews": [
+      {
+        "reviewer": "metric_family_second_review",
+        "role": "Independent mathematical/PDE reviewer; not an artifact contributor",
+        "status": "accepted",
+        "accepted": true,
+        "blockers": [],
+        "artifact_root": "/private/tmp/gu-local-current-20261127",
+        "artifact_hashes": {
+          "explorations/conditional-build/bet-mass-gap-local-current-2026-11-27.md": "5de2cf2c42e25e78e8df6bce54b7a6615deacf6731b236a3e39cfe03fa6efae8",
+          "tests/program-focus/local_current_probe.py": "edb16cb870cfa8e1613d1d89c344e89f1f90f64050f287cf9ab0c7a815c2fb09",
+          "lab/process/local-current-certificates.json": "34b301ab46a338d56c0eabb2884f2825ab6e7d5f15fbb45eade5e3829738d29d",
+          "Lean/GUFormalization/LocalCurrent.lean": "8794f47c49de1dec1ef17944d006f87ae03a21b3a1bedd8cde58716441ba658b"
+        },
+        "dependency_hashes_authenticated": true,
+        "producer_hash_authenticated": true,
+        "method": "Read-only mathematical review of report, probe, certificate, Lean finite cores, and relevant dependencies. No tests, builds, or owner edits performed by this reviewer.",
+        "findings": [
+          {
+            "topic": "Local-current jet necessity",
+            "assessment": "accepted",
+            "reason": "For the normalized first-order equation, independent complex equation-compatible spatial jets force J_j = H E_j = E_j^dagger H. Smooth coefficient and lower-order terms enter only the zeroth-order identity and cannot repair this principal obstruction. Analytic noncharacteristic Cauchy-Kowalevski germs support the stated finite-jet realization; no unrestricted smooth well-posedness theorem is inferred."
+          },
+          {
+            "topic": "Positive-semidefinite quotient",
+            "assessment": "accepted",
+            "reason": "The intertwining identity makes ker H invariant. Its quotient has a positive definite induced form and a self-adjoint induced E. Any nonzero finite-dimensional quotient therefore has a real eigenvalue, impossible when the full E spectrum lies in {i,-i}. This argument handles degeneracy and Jordan blocks. In the completed family the stronger E squared = -I identity directly gives E^dagger H E = -H."
+          },
+          {
+            "topic": "Completed chiral factorization",
+            "assessment": "accepted",
+            "reason": "The stated R conjugation produces scalar M_k tensor gamma_k W_swap with r=sigma/(w_plus w_minus), s=c/(w_plus w_minus). The completed ratio s/r=-11/12 yields N_k squared=I. The even spin ratio cancels both nonzero chiral weights, giving normalized E_k squared=-eta_k/eta_0. Both K95 and K77 have a normal direction of the same sign as time. The uncompleted rank-one nilpotent defect is correctly treated as a Jordan control."
+          },
+          {
+            "topic": "Universal scalar natural-symbol elimination",
+            "assessment": "accepted",
+            "reason": "For non-null complex xi the decomposition zeta=xi u+Jv+r with Gamma r=i_xi r=0 is unique because its Schur factor is 13q. The displayed outputs are a c_xi r, -12a v+e nu, -(a+13c)c_xi v, and gq u+g c_xi v+s c_xi nu. These prove invertibility exactly when a e g (a+13c) is nonzero, and give kernels when any factor vanishes. For same-sign orthogonal tau,eta, q(eta-lambda tau)=eta_0(1+lambda squared); hence all eigenvalues of M(tau)^-1 M(eta) are among i,-i. This is a universal proof for the stated scalar subclass, not an extrapolation from finite samples."
+          },
+          {
+            "topic": "Visible RS block and retention obstruction",
+            "assessment": "accepted",
+            "reason": "The two-horizontal-slot gamma-traceless block is invariant under the time and selected normal symbols and is visible injectively under the literal observation map. Its normalized symbol squares to -I. A positive-semidefinite H therefore puts this entire block in its radical, contradicting either ker H contained in ker observation or the stated positive lower observation bound."
+          },
+          {
+            "topic": "Controls and implementation scope",
+            "assessment": "accepted",
+            "reason": "The one-time positive-current control, indefinite local symmetrizer, and frequency-dependent restricted-domain positive norm correctly distinguish the excluded local positive current from retained possibilities. The five Lean lemmas check finite algebraic cores only. The probe certificate records 1030 grouped checks and 25200 native normalized blocks; its producer and all eight dependency hashes authenticate against the reviewed files."
+          }
+        ],
+        "qualifications": [
+          "The conserved current must be zeroth-order and local, Hermitian, positive semidefinite, and conserved on every equation-compatible first jet. Constrained physical jet spaces and physical quotients are not exhausted.",
+          "The chiral result assumes nonzero constant real chiral weights and the stated completed southeast coefficients. The natural-symbol result covers the scalar-coefficient two-channel family with a e g (a+13c) nonzero, not all eighteen generators, arbitrary nonscalar coefficients, or singular-time systems.",
+          "Variable coefficient frames and arbitrary smooth lower terms do not repair the principal identity, but additional physical constraints can change the admissible state/jet space and remain a separate burden.",
+          "Independent barred fermion fields are not identified with Hermitian conjugates by this argument.",
+          "Derivative currents, nonlocal norms, restricted frequency domains, observed four-dimensional balances with normal flux, and changed source tensors remain outside the exclusion.",
+          "This is an internal Lane C current obstruction at its named source-candidate scope. It does not establish a quantum probability interpretation, Hamiltonian sign, physical mass gap, source-claim verdict, matrix-cell promotion, novelty claim, or GU falsification."
+        ],
+        "validation_evidence": {
+          "certificate_status": "PASS",
+          "grouped_checks": 1030,
+          "native_normalized_blocks": 25200,
+          "lean": "Root reports five finite lemmas compile with exit 0; source inspected by reviewer, not rerun.",
+          "reviewer_jobs_run": false
+        }
+      },
+      {
+        "role": "independent T1 algebra/representation reviewer; not a contributor to this result",
+        "accepted": true,
+        "blockers": [],
+        "artifact_hashes": {
+          "explorations/conditional-build/bet-mass-gap-local-current-2026-11-27.md": "5de2cf2c42e25e78e8df6bce54b7a6615deacf6731b236a3e39cfe03fa6efae8",
+          "tests/program-focus/local_current_probe.py": "edb16cb870cfa8e1613d1d89c344e89f1f90f64050f287cf9ab0c7a815c2fb09",
+          "lab/process/local-current-certificates.json": "34b301ab46a338d56c0eabb2884f2825ab6e7d5f15fbb45eade5e3829738d29d",
+          "Lean/GUFormalization/LocalCurrent.lean": "8794f47c49de1dec1ef17944d006f87ae03a21b3a1bedd8cde58716441ba658b"
+        },
+        "findings": [
+          "Read the current report, hardened probe, certificate and five Lean finite cores. Producer self-hash and all eight declared dependency hashes match; certificate reports1030 grouped controls and25200 full Cl14 normalization blocks. These controls were authenticated, not rerun.",
+          "The all14-direction simultaneous slot transformation preserves the actual raised-form symbol conventions. The reciprocal weight exchange is not an adjoint. W Wsharp=p makes the normalized spin factor gamma0^-1 gamma_k independent of every nonzero real weight pair.",
+          "The full15-copy time coefficient is invertible for r=sigma/p nonzero. The displayed N_k sends B to-B; applying it twice restores every component at s/r=-11/12. Hence E_k^2=-(eta_k/eta_0)I, independent of chiral weights.",
+          "K95 and K77 are separately specified metrics and sign dictionaries. Each has an actual normal direction with the same sign as its declared physical-time slot; each also retains the ordinary opposite-sign horizontal spatial control. No K95/K77 real-form identification is used.",
+          "For generic scalar SE ratio t, N_k^2-I=(t+11/12)(e_k-e_0) tensor ell_k and ell_k(e_k-e_0)=0. The square-zero nonzero defect at incomplete ratios is a valid Jordan control, not a semisimplicity assumption or a positive-current escape.",
+          "Conservation on unrestricted compatible first jets gives J_j=H E_j=E_j dagger H by independent complex spatial-jet polarization. All derivative-of-density and lower-operator terms enter only the zero-order identity, so they cannot cancel this coefficient condition.",
+          "For E_eta^2=-I, E_eta dagger H E_eta=-H contradicts nonnegativity unless H=0. More generally HE=E dagger H preserves ker H; a nonzero positive quotient would give a real eigenvalue of the induced selfadjoint E, whose spectrum is contained in the original spectrum. Thus the no-real-spectrum argument also covers Jordan blocks and arbitrary copy mixing.",
+          "Independently derived the natural scalar-family nonnull splitting zeta=xi u+Jv+r0. The contraction/trace Schur factor is13. Clifford multiplication by xi preserves the r0 constraints. Substitution gives the stated a c_xi r0, xi(-12a v+e nu), J(-F c_xi v), and scalar gq u+g c_xi v+s c_xi nu. Invertibility follows successively when a e g F is nonzero, and singular-time exceptions remain outside the theorem.",
+          "For same-sign orthogonal tau,eta, det(M(eta)-lambda M(tau)) can vanish only where (eta-lambda tau)^2=eta0(1+lambda^2)=0. Thus the normalized spectrum is contained in plus/minus i throughout the quantified scalar family, independently of scalar SE.",
+          "The actual visible RS block has zero gamma trace and zero time/normal contraction. Its two-gamma defining relation commutes with gamma_tau,gamma_eta and chiral weights, so the block is invariant and its normalized normal coefficient squares to-I. Its first horizontal slot is psi, proving injectivity of literal observation without a physical-family interpretation.",
+          "Nonnegative H vanishing quadratically on the invariant RS block puts that block in its radical; hence neither kernel retention of literal observation nor H>=epsilon q dagger q is possible. The more general SE extension is explicitly conditional on unchanged block invariance and full time regularity.",
+          "The free one-time Dirac, indefinite-current and frequency-dependent restricted-cone controls distinguish exactly which premise fails in each escape. The result is not an argument against ordinary Dirac Cauchy positivity or a restricted nonlocal Fourier norm.",
+          "Lean formalizes only finite anti-isometry, observation-retention and arithmetic implications. It does not claim to formalize the full symbol factorization, compatible-jet necessity, natural module or source interpretation."
+        ],
+        "qualifications": [
+          "The necessary jet condition is assumed on every equation-compatible first jet. Analytic noncharacteristic germs can realize those jets; unrestricted smooth local Cauchy well-posedness and physical-domain admission are not inferred.",
+          "The completed chiral family and the five-scalar natural two-channel family are separately quantified. The proof does not cover the whole18-generator natural module, arbitrary tensor/derivative coefficients or singular-time constrained systems.",
+          "This excludes a nonzero nonnegative zeroth-order Hermitian ambient local conserved density on the stated jets. It does not exclude indefinite currents, derivative-valued currents, nonlocal norms, constrained physical states or observed4D balances with normal flux.",
+          "Independent barred source fields are not identified with Hermitian conjugates. No physical energy, probability interpretation, mass gap, Hamiltonian sign, physical family count, new action or source/GU falsification is concluded.",
+          "The W2 historical10/4/net6/0 inventory remains separately attributed; this result adds no choice family or selected prediction."
+        ],
+        "not_run": [
+          "No probe, --verify, native computation, test suite, Lean build or producer replay.",
+          "No owner artifact edits; only this scratch review receipt was written."
+        ],
+        "custody_readback": {
+          "status": "PASS",
+          "grouped_checks": 1030,
+          "full_Cl14_normalized_blocks": 25200,
+          "dependencies_verified": 8
+        }
+      },
+      {
+        "accepted": true,
+        "blockers": [],
+        "reviewer_role": "Independent hostile/source internal T1 review; not author or proof contributor.",
+        "basis": "ea258fc59e0312c2d44ffefa50f4815cad521f3d",
+        "artifact_hashes": {
+          "explorations/conditional-build/bet-mass-gap-local-current-2026-11-27.md": "5de2cf2c42e25e78e8df6bce54b7a6615deacf6731b236a3e39cfe03fa6efae8",
+          "tests/program-focus/local_current_probe.py": "edb16cb870cfa8e1613d1d89c344e89f1f90f64050f287cf9ab0c7a815c2fb09",
+          "lab/process/local-current-certificates.json": "34b301ab46a338d56c0eabb2884f2825ab6e7d5f15fbb45eade5e3829738d29d",
+          "Lean/GUFormalization/LocalCurrent.lean": "8794f47c49de1dec1ef17944d006f87ae03a21b3a1bedd8cde58716441ba658b"
+        },
+        "report_sha256": "5de2cf2c42e25e78e8df6bce54b7a6615deacf6731b236a3e39cfe03fa6efae8",
+        "probe_sha256": "edb16cb870cfa8e1613d1d89c344e89f1f90f64050f287cf9ab0c7a815c2fb09",
+        "manifest_sha256": "34b301ab46a338d56c0eabb2884f2825ab6e7d5f15fbb45eade5e3829738d29d",
+        "lean_sha256": "8794f47c49de1dec1ef17944d006f87ae03a21b3a1bedd8cde58716441ba658b",
+        "authenticated_dependencies": {
+          "tests/program-focus/local_complement_probe.py": "e8bc68f9092197a493bab869a1dca91acdc785ea6f1921dc26a1ad9f1360ac37",
+          "explorations/conditional-build/source-natural-symbol-class-2026-11-24.md": "68a7dbb50d303955b840759c5deb24b4e095cc366bfb4396b89d191b7f9fc206",
+          "explorations/conditional-build/bet-2plus1-chiral-weight-transport-2026-11-25.md": "234b9d1e912acb0a494d243408b196e1fc4f7d88000c6b3c05b98446d1896eab",
+          "lab/sources/gu-2021-draft-s9-fermionic-operator-extraction-2026-08-04.md": "c250ce367774ff593255cd211e18ea793dd3eddcd843e0520437b6d645a2c31b",
+          "explorations/conditional-build/source-symbol-quotient-membership-2026-11-12.md": "a5cc4279b83beb730bd7848eaa1998c4a8da9c6bcbc89e5d0ff34a09353bd582",
+          "explorations/conditional-build/source-action-wave2-construction-2026-11-25.md": "6cef6f8213a23a7df54ae5af1f7a4efbb5043aff218e911f30403cb1eb72f0a4",
+          "explorations/conditional-build/bet-mass-gap-reference-holonomy-2026-11-27.md": "eed2a88a7f82b2cc062916ad717e0ef6b372944b6e4a471358d112a166c5b8dd",
+          "explorations/conditional-build/k2203-observed-lower-pairing-compatibility-2026-10-28.md": "31297362e01c4fbc739214bda19e700aeba6db21283269e3232e4f001c370231"
+        },
+        "own_checks": [
+          "Checked the unrestricted first-jet premise explicitly. With invertible time coefficient, the equation determines u_t from arbitrary field value and spatial first derivatives. Comparing those independent derivatives in the proposed quadratic divergence gives J_j=H E_j=E_j dagger H. Derivatives of the moving H,J, density and arbitrary lower terms contribute only to the remaining zero-order relation.",
+          "This algebraic jet test does not assume a smooth well-posed Cauchy problem. The report only invokes Cauchy-Kowalevski for analytic coefficients/noncharacteristic analytic germs realizing prescribed finite first jets. A globally admissible or physically restricted solution domain need not realize them; the theorem retains that restriction as an explicit transfer burden.",
+          "Independently checked the semidefinite anti-isometry core: E dagger H=H E and E squared=-I imply E dagger H E=-H. Positivity on both v and Ev makes the quadratic form zero; Hermitian polarization then gives H=0. No invertibility of H or prior parallelism is assumed.",
+          "Checked the wider no-real-spectrum argument: ker H is E-invariant; the induced map on the positive quotient is selfadjoint and has real spectrum if nonzero. The quotient spectrum is contained in the full finite-dimensional spectrum. Thus a wholly nonreal spectrum excludes every nonzero nonnegative H, also for Jordan blocks.",
+          "Checked all15S coefficient factorization and parameter cancellation against the owned chiral symbol and new full-slot raw formula. Gamma0 inverse Gamma_k equals gamma0 inverse gamma_k because the even two-gamma product commutes with the chiral weight matrix. The coefficient N_k is scalar on spinors. Its aggregate B maps to -B and the completed N_k squared is I for all nonzero weight products, not merely the sampled weights.",
+          "Verified the incomplete southeast defect by hand: for t=s/r, N_k squared minus I=(t+11/12)(e_k-e_0) ell_k and ell_k(e_k-e_0)=0. This records Jordan structure, not a false diagonalizability claim or a positive-current escape.",
+          "Independently checked the natural scalar-family decomposition zeta=xi u+Jv+r0 with Gamma r0=i_xi r0=0. Its contraction matrix has determinant13 q_xi. Clifford multiplication preserves the transverse r0 block. The four output coefficients are a c_xi r0, -12a v+e nu, -(a+13c)c_xi v, and g q_xi u+g c_xi v+s c_xi nu. The declared product a e g(a+13c) nonzero proves invertibility for every complex nonnull xi.",
+          "For orthogonal real tau,eta of the same metric sign, q(eta-lambda tau)=eta0(1+lambda squared). Consequently the normalized natural-family coefficient can have eigenvalues only plus/minus i. Singular-time members and nonscalar/tensor/derivative-dependent coefficient classes are expressly outside, so the proof does not expand to all18 natural generators or all source operators.",
+          "Checked the visible W0 block on the original raised-form carrier: zeta1=psi, zeta2=-gamma2 inverse gamma1 psi kills the full gamma trace and tau/eta contractions. Its even two-gamma relation commutes with both remaining Clifford generators and chiral weights. The raw time and normal symbols preserve this block, and the time restriction is invertible. Literal horizontal observation contains psi itself, hence is injective. The proof never substitutes the tangent6S quotient for a normal-direction autonomous system.",
+          "Checked the radical consequence: nonnegative H with zero restricted quadratic form on W0 annihilates W0 against every vector. Since W0 is literally observed, ker H subset ker O0 and a positive lower bound by q dagger q both fail in the stated current construction. This is not a statement that a physical quotient is forbidden or that an RS multiplicity counts families.",
+          "Inspected source SC-OP-04/05 and SC-META-53 against their retained primary extraction/register polarity. The source has independent barred/unbarred classical fields and unselected southeast rivals. The tested H is an arbitrary proposed Hermitian current on the declared column carrier, not the source bar identification or native Krein pairing. The full U parent is not silently replaced with Sp. K95 and K77 ports preserve their separately declared time/normal signs.",
+          "Reviewed calibrations: one-time positive symmetrizer and an indefinite conserved pairing pass; the Fourier cone example has H(k,l)>0 only on |l|<|k| and is frequency-dependent. It demonstrates a legitimate restricted/nonlocal escape, not an interacting GU completion or a common local symmetrizer.",
+          "Read the hardened probe and five finite Lean lemmas without execution. Verified current producer hash, certificate PASS metadata, all1030 stored booleans,25200 all-slot count and eight dependency hashes. Exact verification compares certificate contents and excludes runtime from persisted bytes. Universal parameter, spectral quotient, PDE-jet and source claims remain written/reviewed proofs; sample controls and finite Lean lemmas are not overstated.",
+          "Checked reuse/novelty and scientific ceiling: this closes the nonparallel/semidefinite local-current escape beyond the prior parallel-holonomy result, while reusing known symbols and tangent-quotient distinctions. It neither proves a quantum or physical mass gap nor excludes GU, all class C, arbitrary physical domains or observed4D balance laws with normal flux. The current search is consumed only under its explicit premises; ordinary-B Joe27r continuation is retained."
+        ],
+        "qualifications": [
+          "Acceptance is conditional structural T1 evidence for the stated full15S symbol families and unrestricted equation-compatible first jets, not a source-necessary obstruction or a source/GU verdict.",
+          "The current is zeroth-order, quadratic, Hermitian and exactly locally conserved. Derivative-valued, nonlocal, frequency-dependent, constrained-jet, nonconserved finite-time estimate or singular-time constructions are not excluded.",
+          "A physical quotient/domain might remove the tested jets; it must separately prove preservation and retention of the intended observed matter. No such quotient is either supplied or ruled out by this result.",
+          "Independent bars remain independent. The semidefinite H test is not an assertion that a quantized fermionic probability or source current has this classical form.",
+          "The scalar-coefficient natural-family proof and the completed independently chiral-family proof have distinct scopes. Neither covers arbitrary tensor backgrounds or every natural symbol generator.",
+          "No physical energy, Hamiltonian instability, quantum Yang-Mills existence or mass-gap inference is accepted. This is lane-C evidence with no automatic matrix/ledger promotion.",
+          "Internal agent review is not external expert validation. The analytic/PDE and source interpretation portions are not fully formalized in the five finite Lean cores."
+        ],
+        "not_run": [
+          "No probe/test execution, native Clifford computation, Lean compile, build, external literature retrieval or owner edits. Hash/JSON authentication and static code/proof/source reads only. Parent-reported1030 exact controls and five compiled Lean cores were not independently rerun."
+        ]
+      }
+    ],
+    "gates": {
+      "program_focus_audit": "PASS",
+      "typed_carrier_declaration_audit": "PASS",
+      "kill_target_claim_audit": "PASS",
+      "frontmatter_status_schema_audit": "PASS",
+      "source_native_comparator_routing_audit": "PASS",
+      "lean_certificate_surface_audit": "PASS",
+      "current_state_absolute_currency_audit": "PASS",
+      "conditional_evidence_delta_gate": "PASS",
+      "research_context_reader_audit": "PASS"
+    }
+  },
+  "three_state": {
+    "ESTABLISHED": "Every positive-semidefinite zeroth-order local conserved density vanishes for the completed chiral wedge/SE and time-regular scalar natural two-channel ambient classes on unrestricted equation first jets. An actual rank128 horizontal gamma-traceless block is visible to literal observation and cannot retain positive local norm. Nonlocal or restricted physical domains remain open; no physical or quantum-gap verdict.",
+    "RULED_OUT": "Nonzero positive local-current completion of unrestricted equation jets in the quantified families; no bet-wide kill.",
+    "NOT_MODELED_UNDETERMINED": "Source-selected physical domain/quotient, interacting positive norm, physical energy, mass gap and overallGU viability."
+  },
+  "scoped_outcomes": {
+    "tested_local_current_category": "FALSIFIED under declared premises",
+    "positive_state_gauge_massgap_pillar": "INCOMPLETE",
+    "SOURCE_and_GU_star_overall": "INCOMPLETE"
+  },
+  "follow_through": {
+    "consumed": [
+      "Parallel finite-fibre and tangent Jordan exclusions retained without newcredit.",
+      "Unrestricted normal15S local positive-density searches, even allowing hidden degeneracy and moving nonparallel forms.",
+      "Completed chiral-weight/SE0 retuning within covered subclasses as a local-current repair."
+    ],
+    "survivors": [
+      "Actual nonlocal/restricted physical-domain current with preservation proof.",
+      "Derivative-valued or separately derived observed4D balance laws.",
+      "Changed principal tensors or singular-time constrained systems after their own reduction."
+    ],
+    "next": "Counter116 ordinary B: Joe27r step1b, wedge own temporal constraints/canonical current and native stationarity with metric rows retained; two step1 waves remain. No W2/printed-lowPhi dynamics transfer. Later shielding tests require an admitted restricted-domain/current bridge, not another local positive matrix under covered premises. Joe27t reinforces gravity and genuinely new nonlinearCW mechanisms; W2 diagnostic only. Residual comparison separates free functions, state/domain choices and numerical parameters."
+  },
+  "retrospective": {
+    "shortcut": "Pointwise anti-isometry and two visible form slots replace a1920-dimensional norm optimization; natural nonnull elimination also covers Jordan cases.",
+    "dead_end": "Do not identify finite-fibre transport positivity with Cauchy-current positivity, or project ambient normal symbols to the tangent6S quotient.",
+    "replay_repair": "Contributor --verify flag initially only ran assertions; root made it compare a deterministic persisted certificate, removed absolute root default, and added producer/dependency hashes before acceptance."
+  },
+  "novelty_claim": "none; standard symmetrizer reasoning applied to actual native symbols",
+  "accounting": {
+    "counter_before": 115,
+    "counter_after": 116,
+    "MASS_GAP_runs_before": 5,
+    "MASS_GAP_runs_after": 6,
+    "remaining_runs": 18,
+    "B_counts_unchanged": true,
+    "scientific_matrix_changes": 0,
+    "ledger_verdict_changes": 0
+  },
+  "effect_line": "Change: local positive-current escape resolved for two stated ambient fermion symbol classes. Why: compact shielding needs an actual physical state/current bridge. Authority27h/q and existingLCcadence; applied as internal lane-C evidence, no policy or verdict change. Later automated effect not yet observed.",
+  "joe_27t_consideration": {
+    "authority": "joe_direct_chat_2026_11_27_t",
+    "status": "considered; focus adopted within existing sequence and cadence",
+    "decisions": [
+      {
+        "item": "Decisive gates",
+        "disposition": "adopt with reuse correction",
+        "reason": "Wedge/field-dependent or consistency-first GU* and nonlinear printed-equation CW are the next ordinaryB gates. Strict-cutoff failure is not the full known boundary: cw-nonlinear-completion already excludes C2 spatial-translation-equivariant instantaneous graphs over stable modal base in its threshold-inclusive FourierL2/globalSobolev class.",
+        "next": "Finish wedge own constraints/current within remaining2waves, or pivot within that cap to explicit consistency-first/genuinefield-dependent variant. CW successors must declare changed premise: additional evolving off-band state, history dependence, nonC2 or changed weighted/distributional domain, then test actual interaction closure."
+      },
+      {
+        "item": "W2 branch",
+        "disposition": "adopt; already consistent",
+        "reason": "W2 fails source endpoint fidelity and stays diagnostic only. No W2 continuation selected or performed in this wave."
+      },
+      {
+        "item": "Residual effective object",
+        "disposition": "adopt bounded synthesis alongside gate evidence",
+        "reason": "Separate finite parameters, free functions, external state/domain data and structural choices. W2 grouped10/4 is not a parameter count. Compare common sectors/assumptions with SM and geometric comparators; report not comparable when dimensions or prediction maps are unspecified. No new action construction or fitted-number credit."
+      },
+      {
+        "item": "Published floors and scoring",
+        "disposition": "adopt without policy reset",
+        "reason": "Settled floors are reuse-only unless a live-test delta needs them. Future results must identify changed progress-map cell or decisive-gate consequence; existing class/source relevance and mandatoryLCcadence remain. No new stop rule."
+      }
+    ],
+    "evidence_refs": [
+      "lab/process/cw-nonlinear-completion.json",
+      "lab/process/wedge-shiab-action-recheck.json",
+      "lab/process/source-action-opportunity-register-2026-11-25.json#shiab_flexibility_2026_11_27_s"
+    ],
+    "priority_effect": "OrdinaryB work concentrated on existing27rsteps1and2; no policy/cadence change, other options retained. Residual is a bounded linked synthesis, not a new prerequisite."
+  }
+}

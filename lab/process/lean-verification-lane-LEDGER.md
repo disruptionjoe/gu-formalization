@@ -663,3 +663,7 @@ bicategory, ambidexterity or Mackey 2-functor is inferred.
 ## 2026-11-27 — Nonlinear CW finite cores
 
 `Lean/GUFormalization/CWNonlinearCompletion.lean` checks the boosted stable margin, nonzero residue, uniqueness with a left inverse, actual self-particular arithmetic and threshold positivity. Five theorems compiled with targeted single-thread Lean. Kernel/coarea and representation proofs remain written/reviewed, not fully formalized.
+
+## 2026-11-27 — Local-current finite cores
+
+`Lean/GUFormalization/LocalCurrent.lean` checks nonnegative anti-isometry, observed-retention contradiction, normal aggregate/restore arithmetic and restricted-density positivity. Five targeted single-thread Lean theorems pass. Native symbol, spectral quotient, current-jet identity and source/physical-domain interpretation remain written reviewed arguments.

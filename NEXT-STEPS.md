@@ -16,6 +16,10 @@ Do not add "Current follow-through" sections or "Historical predecessor" stacks 
 matrix or bet file. The retired follow-through chain and banner stack are kept at the end of this file under
 "Archived steering history".
 
+## 2026-11-27 — Ambient local-current transfer
+
+[Result](explorations/conditional-build/bet-mass-gap-local-current-2026-11-27.md) · [Evidence](lab/process/bet-mass-gap-local-current.json). Full extra-time fermion symbols exclude nonzero nonnegative zeroth-order local currents on the declared unrestricted equation jets, including densities degenerate on hidden data. A literal-observed RS witness is retained in the test.1030exactcontrols and five finite Lean cores pass; restricted/nonlocal physical domains remain open. Lane-C only, no source, physical-energy, quantum-gap or ledger verdict.
+
 ## 2026-11-27 — Wedge action ownership and moving identity
 
 [Result](explorations/conditional-build/wedge-shiab-action-recheck-2026-11-27.md) · [Evidence](lab/process/wedge-shiab-action-recheck.json). The normalized wedge action yields a forced quadratic correction to the printed unit endpoint. Its actual epsilon equation is the covariant derivative of its corrected connection row.21exactcontrols pass; native stationarity, coupled constraints, physical energy and observed stress remain open. No W2 or lowPhiCW dynamics transfer, new physical prediction or ledger verdict. Joe27r's ordered packet owns the retained continuation.
