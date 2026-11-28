@@ -639,3 +639,7 @@ bicategory, ambidexterity or Mackey 2-functor is inferred.
 ## 2026-11-27 — Reference holonomy finite cores
 
 `Lean/GUFormalization/ReferenceHolonomy.lean`: targeted single-thread Lean compilation passed without placeholders. Four lemmas check the nonzero real curvature eigenvalue/positive-norm contradiction, its inner-product form, and a real-part margin. Native connection geometry, compact holonomy, Ricci-flat product rigidity and spectral continuity remain written, internally reviewed proofs. No physical positivity, quantum gap or whole-project formalization follows. Result: `explorations/conditional-build/bet-mass-gap-reference-holonomy-2026-11-27.md`.
+
+## 2026-11-27 — Printed differential finite cores
+
+`Lean/GUFormalization/PrintedDifferential.lean` checks the abstract two-channel mode lift, quadratic quotient, determinant arithmetic and scalar perturbation margin. Targeted single-thread compilation passed without placeholders. Native symbol, geometry, scalar fundamental solutions, curved analytic CK and Sobolev growth remain written reviewed proofs. Result: `explorations/conditional-build/printed-differential-solvability-2026-11-27.md`.

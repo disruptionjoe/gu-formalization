@@ -1,7 +1,7 @@
 schema_version: '1.0'
 repository: observerse-research-program
 branch: main
-revision_basis: 410ad2167d2dd706a7c686a16c587804ff93d050
+revision_basis: 95ae6dcbb4e4d630205bcb3f90a9d584940d0ef4
 program_focus:
   version: 2026-11-27-v3
   authority: joe_direct_chat_2026_11_27_k
@@ -222,6 +222,31 @@ program_focus:
       instead of silently adopting them.
     current_view: lab/process/source-action-opportunity-register-2026-11-25.json#research_track_view
     effect_receipt: lab/process/two-track-adoption-2026-11-27.json
+printed_differential_2026_11_27:
+  status: internal_T1_reviewed
+  actual_delta: The selected printed operator has a degree40 polynomial scalarizer giving full frozen
+    smooth/analytic local solvability. Right-ordered covariant scalarization yields actual analytic curved
+    LINEAR solutions at sufficiently large finite coupling under coherent LC/parallel-Phi hypotheses.
+    Exact real grade1/2 frozen modes grow at rates asymptotic to normal frequency, excluding every fixed
+    finite-loss Sobolev estimate on unrestricted declared states. Nonlinear endpoint, generic zero-order
+    perturbations and physical admission remain open.
+  source_bridge:
+    status: conditional
+    reason: Source fixes the endpoint template and independent g/T; selected low-Phi product, coherent
+      completion and unrestricted real state domain are not source-unique. Curved linear existence is
+      complex unless its full real adapter is supplied; frozen real modes do not prove actual variable/nonlinear
+      instability.
+  evidence:
+  - explorations/conditional-build/printed-differential-solvability-2026-11-27.md
+  - lab/process/printed-differential-solvability.json
+  next: Compare the actual nonlinear/Jacobian order39 obstruction with physical-current/state alternatives
+    before another deep PDE wave. First test whether the actual Q or V=2Q(T0,-) cancels or factors the
+    leading scalarizer range on the already-owned printed branch; do not construct a successor action.
+    A nonzero order39 term only invalidates this CK reduction, not solvability or GU. Separately test
+    exact growth robustness to the actual lower terms before any physical transfer. Reuse all resolved
+    linear and finite-jet work; no further unperturbed compatibility census.
+  choice_budget_effect: none
+  verdict_effect: none
 reference_holonomy_2026_11_27:
   status: internal_T1_reviewed
   lane: LC-BETS; not absorbed into matrix science or ledger

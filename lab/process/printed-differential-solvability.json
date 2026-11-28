@@ -1,0 +1,291 @@
+{
+  "artifact": "PRINTED_DIFFERENTIAL_SOLVABILITY",
+  "date": "2026-11-27",
+  "basis_revision": "95ae6dcbb4e4d630205bcb3f90a9d584940d0ef4",
+  "status": "internal_T1_reviewed",
+  "target": "X-P1-P2",
+  "tier": "T1",
+  "lane": "LB-LADDER",
+  "actual_delta": "The selected printed operator has a degree40 polynomial scalarizer giving full frozen smooth/analytic local solvability. Right-ordered covariant scalarization yields actual analytic curved LINEAR solutions at sufficiently large finite coupling under coherent LC/parallel-Phi hypotheses. Exact real grade1/2 frozen modes grow at rates asymptotic to normal frequency, excluding every fixed finite-loss Sobolev estimate on unrestricted declared states. Nonlinear endpoint, generic zero-order perturbations and physical admission remain open.",
+  "source_bridge": {
+    "status": "conditional",
+    "reason": "Source fixes the endpoint template and independent g/T; selected low-Phi product, coherent completion and unrestricted real state domain are not source-unique. Curved linear existence is complex unless its full real adapter is supplied; frozen real modes do not prove actual variable/nonlinear instability."
+  },
+  "source_necessary_exclusion": false,
+  "weakest_unproved_link": "The selected product/completion and unrestricted frozen states are not source-required physical data. Nonlinear compatibility and the actual domain/quotient are unresolved.",
+  "class_C_representativeness": "Named selected printed-P class, not all C; no width witness or source-unique completion established.",
+  "track": [
+    "SOURCE conditional completion",
+    "GU* comparison only"
+  ],
+  "choice_budget": {
+    "families": 10,
+    "obligations": 4,
+    "net": 6,
+    "source_selected_predictions": 0,
+    "change": 0
+  },
+  "selection": {
+    "mandatory_basis": "Count108 ordinaryB; no openT1 or ready packet.",
+    "reuse_delta": "Owned finite jets, nonnull exterior decomposition and single-coordinate inverse reused. Older Spencer1274/I2B196 and W2K do not cover fullP. New full mixed scalarization, actual curved linear CK and exact real growth lift.",
+    "class_scope": "Constant-coefficient selected full printedP with scalar mass; analytic coherent LC/parallel-Phi curved linear class; unrestricted real grade1/2 frozen sector for growth.",
+    "source_relevance": "Tests the separate printed endpoint rather than failed W2 Euler substitution; physical state and product selection remain conditional.",
+    "shared_prerequisite": "Actual endpoint solutions and admissible stable evolution support curved/black-hole and observed physics claims.",
+    "outcomes": [
+      "Linear compatibility failure would obstruct this declared lift class.",
+      "Linear solvability discharges that gate but leaves nonlinear/state questions.",
+      "Exact full-system growth excludes unrestricted frozen finite-loss evolution; absence would retain it."
+    ],
+    "expected_delta": "Fixed-coupling neighborhood conclusion and true system-mode discriminator, beyond finite jets.",
+    "actual": "Curved linear analytic existence and frozen real growth both established within separate scopes.",
+    "strongest_alternative": "l2/l1 physical observable/current tests remain without a newly supplied source-selected effective carrier; no stronger ready discriminator found by source audit.",
+    "remaining_cost": "One cheap order39/Jacobian reconnaissance before deciding whether a further nonlinear PDE wave is justified; compare with source-required observable alternatives. Investigation has substantive deltas, not repeated zero-delta extension.",
+    "cost": "One bounded wave;83 exact checks in0.145s, four targeted Lean cores, three independent final reviews, nine gates; token cost not measured."
+  },
+  "verification": {
+    "artifact_hashes": {
+      "explorations/conditional-build/printed-differential-solvability-2026-11-27.md": "5190082b42b37cd970a8d2a5d820a02c7980d7cc16c446b414b1ca8fc7f5fdbb",
+      "tests/program-focus/printed_differential_solvability_probe.py": "bd55c549c5448182ae35cff40d7fdb581d4b6b90a8f3f14b91029c219139434d",
+      "lab/process/printed-differential-solvability-certificates.json": "2348738c976a37536f74b2a74c0520492ef173d5340d02cd702e59844ec26bc5",
+      "Lean/GUFormalization/PrintedDifferential.lean": "e4e94ba5c28ac489f751bdadb4c8e74e956c6f50ac93c686cd081aa8147c57b3"
+    },
+    "reviews": [
+      {
+        "accepted": true,
+        "review_role": "Independent geometric/PDE specialist; read-only final review",
+        "basis": "95ae6dcbb4e4d630205bcb3f90a9d584940d0ef4",
+        "artifact_hashes": {
+          "explorations/conditional-build/printed-differential-solvability-2026-11-27.md": "5190082b42b37cd970a8d2a5d820a02c7980d7cc16c446b414b1ca8fc7f5fdbb",
+          "tests/program-focus/printed_differential_solvability_probe.py": "bd55c549c5448182ae35cff40d7fdb581d4b6b90a8f3f14b91029c219139434d",
+          "lab/process/printed-differential-solvability-certificates.json": "2348738c976a37536f74b2a74c0520492ef173d5340d02cd702e59844ec26bc5",
+          "Lean/GUFormalization/PrintedDifferential.lean": "e4e94ba5c28ac489f751bdadb4c8e74e956c6f50ac93c686cd081aa8147c57b3"
+        },
+        "hash_verification": "All four current files match the frozen manifest; all four certificate dependency hashes match current files.",
+        "blocking_findings": [],
+        "findings": [
+          "Coherent tangent/spin Levi-Civita preserves canonical Clifford tensors, their exterior products and metric/orientation Hodge operations, hence the held nested-star Phi. Torsion-free alternation gives the covariant exterior derivative. This authenticates the stated completion, not arbitrary independent source connections.",
+          "The universal symbol polynomial follows from the inherited full nonnull identity by polynomial extension; it does not determine exact null Jordan counts.",
+          "Right ordering of every Box power makes L_kappa B_kappa=d_kappa(Box)-M exact without any P-Box commutation.",
+          "At a normal/synchronous frame, the vanishing first derivatives of principal coefficients and next-lower coefficient values eliminate every order39 contribution after the order40 identity. Curvature contributions of order38 are retained.",
+          "The stated finite-dimensional norm bound makes the order38 auxiliary system noncharacteristic at a fixed nonnull conormal for sufficiently large constant coupling. Analytic higher-order CK supplies u and applying B gives an actual local analytic solution of the original curved linear equation.",
+          "The report correctly describes d_kappa(Box) as a scalar polynomial in a bundle rough operator and limits the curved theorem to the complex carrier unless a full real adapter is authenticated.",
+          "Frozen scalarization, fundamental-solution local smooth solvability, lack of polynomial differential inverse and lack of polynomial left compatibility are consistent.",
+          "The native probe invokes actual nested-star Phi on mixed covectors and checks the two-channel lift in both odd-index ports; grade1/2 realification and the written Fourier-packet growth argument support the declared frozen finite-loss exclusion.",
+          "Lean contains four finite algebra lemmas only; the report accurately retains geometry, polynomial extension, fundamental solutions, CK and Sobolev estimates as written proofs.",
+          "Hostile correction accepted: pointwise N\u00b2=0 with NN\u2032 nonzero defeats the naive frozen nilpotent inverse truncation, not every finite differential inverse. For the displayed N=[[-x,1],[-x\u00b2,x]], hand multiplication gives NN\u2032=N and N\u00b2=0, hence D=N partial is idempotent. The alternative inverse kappa^-1 Id-[kappa(kappa+1)]^-1 D exists for kappa not0,-1. Added probe controls test a concrete forcing; this written identity supplies the universal operator justification."
+        ],
+        "scope_limits": [
+          "No tests or builds were rerun by this reviewer. Root reports83 exact checks passed. Reviewed final serialized Lean terminal receipt: exit0 with empty stdout/stderr; four finite algebra lemmas only.",
+          "The theorem assumes the selected low-Phi dictionary, coherent analytic LC completion and constant scalar kappa. It does not impose those choices as source-necessary.",
+          "A generic zeroth-order V or nonlinear Q(Bu,Bu) can introduce order39 dependence; neither the full nonlinear endpoint nor its generic full linearization is covered.",
+          "Analytic local existence does not provide curved smooth well-posedness, common coupling-independent neighborhoods, original T Cauchy data, uniqueness, smallness, kappa1 or global solutions.",
+          "The exact growth exclusion concerns the unrestricted frozen kappa+P(partial) system and its admitted real mode sector, not the actual curved equation with extra nonscalar lower-order terms.",
+          "No physical-state admission, ghost, Hamiltonian, mass-gap, full-source action or GU verdict follows."
+        ],
+        "provisional_review_note": "/private/tmp/gu-printed-differential-geometric-review.md",
+        "rebind_note": "Supersedes the previous accepted receipt after correction of an overbroad ancillary moving-nilpotent claim missed in that review. Main scalarization, geometric order-drop, analytic CK and frozen growth proofs are unchanged. Revised report, probe and certificate inspected; Lean artifact unchanged.",
+        "verification_receipts": {
+          "exact_controls_reported": 83,
+          "lean_receipt": "/private/tmp/gu-printed-differential-lean.json",
+          "lean_exit_code": 0,
+          "lean_stdout": "",
+          "lean_stderr": ""
+        }
+      },
+      {
+        "role": "independent source/representation specialist",
+        "accepted": true,
+        "artifact_hashes": {
+          "explorations/conditional-build/printed-differential-solvability-2026-11-27.md": "5190082b42b37cd970a8d2a5d820a02c7980d7cc16c446b414b1ca8fc7f5fdbb",
+          "tests/program-focus/printed_differential_solvability_probe.py": "bd55c549c5448182ae35cff40d7fdb581d4b6b90a8f3f14b91029c219139434d",
+          "lab/process/printed-differential-solvability-certificates.json": "2348738c976a37536f74b2a74c0520492ef173d5340d02cd702e59844ec26bc5",
+          "Lean/GUFormalization/PrintedDifferential.lean": "e4e94ba5c28ac489f751bdadb4c8e74e956c6f50ac93c686cd081aa8147c57b3"
+        },
+        "dependency_pins_verified": {
+          "tests/program-focus/source_action_deep_algebra.py": true,
+          "tests/program-focus/printed_equation_jets_symbol_probe.py": true,
+          "explorations/conditional-build/printed-equation-jets-and-symbol-2026-11-27.md": true,
+          "explorations/conditional-build/ricci-flat-ambient-source-jets-2026-11-27.md": true
+        },
+        "source_necessary_exclusion": false,
+        "findings": [],
+        "own_checks": [
+          "Read final report, exact probe, certificate and four finite Lean lemmas; verified four artifact hashes, four dependency pins and embedded probe hash.",
+          "Checked primary-minus grade1/2 sharp signs and scalar cancellation in V=Gamma O, so conjugate Fourier quadratures yield actual real full-u(H) fields in both separately bound odd-index ports. No overall Fourier i is silently introduced by the two i-anticommutators.",
+          "Checked source g/T primitive independence, selected dictionary conditionality and separation from W2 Euler K, wedge GU*, I1B and second-action/physical domains.",
+          "Checked parallel Clifford/Hodge tensors for coherent tangent/spin LC and simultaneous gauge dressing; arbitrary displaced connection does not inherit this premise.",
+          "Checked the right-ordered polynomial identity and order40/order39 cancellation premise, analytic CK conormal quantifiers, and the order39 nonlinear/zeroth-order-Jacobian boundary.",
+          "Checked exact full-system trace-mode lift, Schwartz packet realification and exponential-versus-finite-polynomial Sobolev estimate argument; no scalar-only necessary-condition shortcut.",
+          "Correction reviewed and rebound: moving N has N\u00b2=0 and NN'=N, hence (N partial)\u00b2=N partial. Frozen truncation fails but inverse k^-1 I-[k(k+1)]^-1 D survives for k not0,-1. Inverse edits of precisely the report paragraph/count and five added probe lines reproduce prior report/probe hashes. This narrows the earlier overclaim without changing the main theorems. Certificate now records83 controls; pins unchanged."
+        ],
+        "scope_limits": [
+          "The frozen unrestricted full-real-carrier finite-loss exclusion is conditional, not source-necessary and not a physical ghost, Hamiltonian, mass-gap or GU falsification. No source-selected state/current/domain is installed.",
+          "Actual curved analytic LINEAR solvability is established only for the stated analytic coherent-LC parallel-Phi completion at sufficiently large finite coupling, with potentially coupling-dependent neighborhood. The theorem is on the full complex carrier unless the real adapter for all operators/forcing is supplied.",
+          "Real grade1/2 growing modes are authenticated separately and do not convert all complex dimension counts into physical real states. K95/K77 are not identified by their separate fixtures.",
+          "No nonlinear curved endpoint solution, prescribed original Cauchy data, kappa1 solution, generic C0/V perturbation result or variable-coefficient growth theorem follows.",
+          "Source I1B endpoint mismatch remains; an explicit GU* repair must still declare changed equations and constraints.",
+          "Written polynomial continuation, fundamental-solution argument, curved operator-order reduction, CK and all-loss estimate proof are not formalized by the finite controls or Lean cores."
+        ],
+        "execution_evidence": {
+          "probe": "Root-reported83 exact checks PASS; new persisted certificate inspected, no reviewer execution.",
+          "lean": "Final root receipt inspected: exit0, empty stdout/stderr, four finite lemmas, unchanged final source hash. Reviewer did not compile."
+        },
+        "contributions": "Earlier source/VOI reconnaissance and real-form scope review supplied advisory input; not a mathematics coauthor of the report or author of owner artifacts. Independent final review of the new report and concrete controls.",
+        "not_run": [
+          "Scientific probe",
+          "Lean or builds",
+          "External source reinspection",
+          "Owner edits"
+        ]
+      },
+      {
+        "accepted": true,
+        "reviewer": "/root/falsification_rerank",
+        "review_role": "Independent hostile review of the new scalarizer, curved linear CK argument, actual frozen mode lift, and scope; inherited printed-symbol decomposition reused as an owned premise.",
+        "basis_revision": "95ae6dcbb4e4d630205bcb3f90a9d584940d0ef4",
+        "worktree": "/private/tmp/gu-printed-differential-20261127",
+        "artifact_hashes": {
+          "explorations/conditional-build/printed-differential-solvability-2026-11-27.md": "5190082b42b37cd970a8d2a5d820a02c7980d7cc16c446b414b1ca8fc7f5fdbb",
+          "tests/program-focus/printed_differential_solvability_probe.py": "bd55c549c5448182ae35cff40d7fdb581d4b6b90a8f3f14b91029c219139434d",
+          "lab/process/printed-differential-solvability-certificates.json": "2348738c976a37536f74b2a74c0520492ef173d5340d02cd702e59844ec26bc5",
+          "Lean/GUFormalization/PrintedDifferential.lean": "e4e94ba5c28ac489f751bdadb4c8e74e956c6f50ac93c686cd081aa8147c57b3"
+        },
+        "hash_authentication": {
+          "frozen_manifest_match": true,
+          "certificate_probe_hash_match": true,
+          "all_certificate_dependency_hashes_match": true
+        },
+        "findings": [
+          {
+            "topic": "Universal polynomial and frozen scalarizer",
+            "disposition": "accepted",
+            "reason": "The owned nineteen nonzero square factors plus size-two zero chains give the degree40 annihilator. Polynomial extension covers null and complex covectors without asserting sharp null Jordan counts. Constant-coefficient telescoping gives a two-sided scalarizer, and its nonzero scalar polynomial supports the stated fundamental-solution argument. The no-polynomial-inverse and no-left-compatibility claims are correctly restricted to constant-coefficient polynomial differential operators."
+          },
+          {
+            "topic": "Curved degree39 cancellation and right ordering",
+            "disposition": "accepted",
+            "reason": "Keeping every rough-Box power on the right makes L B=d(Box)-M exact without commuting P and Box. Coherent torsion-free LC, Clifford and Hodge compatibility make Phi parallel. Normal coordinates and a synchronous induced frame annihilate the first principal-coefficient derivatives and relevant subprincipal coefficient values. Hence the nominal order40 remainder has order at most38, with connection derivatives retained at that order. The large-|kappa| scalar leading normal coefficient dominates the fixed finite remainder and supplies the noncharacteristic order38 auxiliary system."
+          },
+          {
+            "topic": "Analytic existence ceiling",
+            "disposition": "accepted",
+            "reason": "CK is applied to the actual order38 auxiliary square system, then T=B u solves the actual variable-coefficient LINEAR equation. Quantifiers are local and may depend on coupling. The report explicitly treats the curved theorem on the complexified carrier and does not infer a full real-form adapter, prescribed T data, uniqueness, smallness, a common patch, or nonlinear existence."
+          },
+          {
+            "topic": "Actual two-channel mode lift",
+            "disposition": "accepted",
+            "reason": "The identities P O=-2V and P V=24q O give (kappa+P)(kappa O+2V)=(kappa^2+48q)O. The mass shell and same-sign base-time/normal covectors produce exact full-system solutions. Grade1/2 primary-minus realification is explicit; the growing states are not inferred from a scalar proxy. Schwartz Fourier packets substantiate the exclusion of every fixed finite Sobolev loss, including finitely many initial time derivatives, in the declared frozen solution class."
+          },
+          {
+            "topic": "Opposite-sign calibration",
+            "disposition": "corrected and accepted",
+            "reason": "For one-time q=-lambda^2-n^2 and q=-kappa^2/48 the correct relation is lambda^2=kappa^2/48-n^2. The final report and probe retain possible bounded low-frequency growth and exclude only the unbounded high-frequency rate in this control. Ordinary positive-norm Dirac evolution is a separate exact control."
+          },
+          {
+            "topic": "Moving nilpotent control overclaim",
+            "disposition": "hostile correction incorporated; accepted",
+            "reason": "The original wording incorrectly suggested that the fixture ruled out every finite differential inverse. Its N satisfies N N'=N, so D=N partial obeys D^2=D and has inverse kappa^-1 I-[kappa(kappa+1)]^-1 D for kappa not equal to0,-1. The final report now says only that pointwise nilpotency does not justify the frozen truncation, explicitly preserves the modified finite inverse, and adds matching controls. Core scalarizer, CK and growth theorems are unaffected."
+          },
+          {
+            "topic": "Source and correction closure",
+            "disposition": "accepted",
+            "reason": "Printed P is separated from W2 K, the residual square, wedge GU*, and the complete source Euler system. The selected low-Phi recipe and coherent completion are conditional. The report does not transfer retired gauge/adjoint claims or infer source-selected physical states. The Craig-Weinstein citation correctly describes a scalar nonlocal-domain survivor, not a supplied GU restriction."
+          }
+        ],
+        "scope_limits": [
+          "No nonlinear printed-endpoint or complete black-hole-lift theorem.",
+          "No automatic extension to a generic nonscalar frozen C0, the full Jacobian L+2Q(T0,-), torsion, or nonparallel Phi.",
+          "No variable-coefficient instability theorem, causal Green operator, physical Cauchy domain, positive or negative Hamiltonian, ghost, mass gap, or GU falsification.",
+          "No kappa=1 conclusion or numerical coupling threshold; curved analytic existence is for sufficiently large finite |kappa| with local background-dependent quantifiers.",
+          "The curved analytic theorem is on the stated complexified carrier; a complete real-u(H) existence assertion still needs the real-form preservation adapter. The frozen grade1/2 mode sector has its own explicit real adapter.",
+          "Lean covers four finite algebra lemmas, not the native full symbol, geometric order-drop proof, fundamental solutions, CK theorem, or Sobolev estimates."
+        ],
+        "verification_attribution": {
+          "reviewer_execution": "Read-only file/source inspection and SHA256/JSON dependency-binding checks only; no probe, native computation, Lean compilation, or repository edits performed by this reviewer.",
+          "owner_exact_probe": "Final certificate records PASS with83 checks; root separately reported execution success.",
+          "owner_lean_receipt": "/private/tmp/gu-printed-differential-lean.json records final exit_code0, empty stdout/stderr, four finite lemmas, and no sorry. Initial cwd/warning corrections are retained there."
+        },
+        "remaining_corrections": []
+      }
+    ],
+    "exact_controls": 83,
+    "command": "UV_CACHE_DIR=/private/tmp/gu-current-uv-cache uv run --offline --with sympy==1.14.0 python tests/program-focus/printed_differential_solvability_probe.py --verify",
+    "lean": {
+      "command": "lake env lean -j1 /private/tmp/gu-printed-differential-20261127/Lean/GUFormalization/PrintedDifferential.lean",
+      "cwd": "/Users/joe/Brain/CapacityOS/repos/public/gu-formalization",
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": "",
+      "scope": "Four finite algebra lemmas; geometry, full symbol and PDE proofs are not formalized.",
+      "sorry": false,
+      "default_inventory_registered": true,
+      "initial_attempt": "Wrong cwd Lean/ did not load Mathlib; rerun from repository root succeeded. Initial unused-hypothesis warning removed; final compilation clean."
+    },
+    "proof_scope": "Universal polynomial extension, geometry/order38, fundamental solutions, CK and Sobolev estimates are written proofs;83 finite controls and four Lean algebra cores are not full PDE certification.",
+    "gates": {
+      "program_focus_audit": "PASS",
+      "typed_carrier_declaration_audit": "PASS",
+      "kill_target_claim_audit": "PASS",
+      "frontmatter_status_schema_audit": "PASS",
+      "source_native_comparator_routing_audit": "PASS",
+      "lean_certificate_surface_audit": "PASS",
+      "current_state_absolute_currency_audit": "PASS",
+      "conditional_evidence_delta_gate": "PASS",
+      "research_context_reader_audit": "PASS"
+    }
+  },
+  "three_state": {
+    "ESTABLISHED": "The selected printed operator has a degree40 polynomial scalarizer giving full frozen smooth/analytic local solvability. Right-ordered covariant scalarization yields actual analytic curved LINEAR solutions at sufficiently large finite coupling under coherent LC/parallel-Phi hypotheses. Exact real grade1/2 frozen modes grow at rates asymptotic to normal frequency, excluding every fixed finite-loss Sobolev estimate on unrestricted declared states. Nonlinear endpoint, generic zero-order perturbations and physical admission remain open.",
+    "RULED_OUT": "Constant-coefficient polynomial differential inverse and unrestricted finite-loss estimates for the exact frozen declared system.",
+    "NOT_MODELED_UNDETERMINED": "Nonlinear curved endpoint, generic C0/V perturbations, actual variable-coefficient instability, physical domain/current/quotient, kappa1 and source-GU viability."
+  },
+  "literature": [
+    {
+      "url": "https://www.math.mcgill.ca/gantumur/math580f11/downloads/MalgrangeEhrenpreis.pdf",
+      "relevance": "Nonzero constant-coefficient polynomial has a fundamental solution; smooth convolution supplies local solutions."
+    },
+    {
+      "url": "https://www.math.mcgill.ca/gantumur/math580f11/downloads/notes2.pdf",
+      "relevance": "Analytic CK for noncharacteristic normal-form systems; used on the auxiliary order38 system."
+    },
+    {
+      "url": "https://arxiv.org/abs/0812.0210",
+      "relevance": "Craig and Steven Weinstein nonlocal scalar ultrahyperbolic constraints; possible mechanism, not a GU state rule."
+    }
+  ],
+  "novelty_claim": "none",
+  "retrospective": {
+    "trigger": "Hostile correction of ancillary moving-nilpotent control.",
+    "finding": "Pointwise N squared zero and nonzero N N-prime defeat the naive frozen truncation only; the fixture has an alternative finite inverse because D squared equals D.",
+    "repair": "Narrowed text and added3 controls for idempotence, naive failure and corrected inverse success; all final hashes rereviewed.",
+    "shortcut": "A universal polynomial and2-channel lift replace a229376-dimensional component census.",
+    "forecast_vs_actual": "More than frozen solvability obtained: actual curved analytic linear existence; nonlinear and genericV deliberately not imported."
+  },
+  "follow_through": {
+    "consumed": [
+      "Full frozen mixed-forcing compatibility search for scalar mass and selectedP",
+      "Unperturbed coherent analytic curved linear compatibility at sufficiently large finite coupling",
+      "Singular symbol alone as an impossibility claim",
+      "Scalar eliminant alone as proof of actual system instability",
+      "Naive frozen nilpotent truncation for a moving N"
+    ],
+    "survivors": [
+      "Actual nonlinearQ and generic zero-order V/C0 compatibility",
+      "Source-selected physical state/domain or nonlocal restriction",
+      "Curved-variable stability and kappa1",
+      "Different source Phi and GU* operators",
+      "Real curved solution adapter for full carrier"
+    ],
+    "next": "Compare the actual nonlinear/Jacobian order39 obstruction with physical-current/state alternatives before another deep PDE wave. First test whether the actual Q or V=2Q(T0,-) cancels or factors the leading scalarizer range on the already-owned printed branch; do not construct a successor action. A nonzero order39 term only invalidates this CK reduction, not solvability or GU. Separately test exact growth robustness to the actual lower terms before any physical transfer. Reuse all resolved linear and finite-jet work; no further unperturbed compatibility census."
+  },
+  "accounting": {
+    "counter_before": 108,
+    "counter_after": 109,
+    "LB_LADDER_before": 21,
+    "LB_LADDER_after": 22,
+    "bet_credit": 0,
+    "cell_status_changes": 0,
+    "ledger_verdict_changes": 0
+  },
+  "effect_line": "Change: unperturbed linear compatibility discharged and exact frozen growth isolated. Why: local solvability and stable observed evolution are different requirements. Authority: standing27h; applied as scoped evidence and ordinary reranking. No governance, source/ledger verdict or choice change; nonlinear/physical effect remains unobserved."
+}

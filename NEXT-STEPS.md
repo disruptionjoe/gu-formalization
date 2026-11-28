@@ -16,6 +16,10 @@ Do not add "Current follow-through" sections or "Historical predecessor" stacks 
 matrix or bet file. The retired follow-through chain and banner stack are kept at the end of this file under
 "Archived steering history".
 
+## 2026-11-27 — Printed differential solvability and evolution
+
+[Result](explorations/conditional-build/printed-differential-solvability-2026-11-27.md) · [Evidence](lab/process/printed-differential-solvability.json). Full frozen local solvability and actual curved analytic LINEAR solutions at sufficiently large finite coupling are established in the selected coherentLC completion. Exact real frozen modes grow without a finite Sobolev-loss bound. NonlinearQ, genericV/C0, physical domain and kappa1 remain open.83 exact checks, four Lean algebra cores and three independent internal reviews passed. No source/ledger verdict or choicebudget10/4/net6/0 change; all24 options retained.
+
 ## 2026-11-27 — Reference compact preservation
 
 [Result](explorations/conditional-build/bet-mass-gap-reference-holonomy-2026-11-27.md) · [Evidence](lab/process/bet-mass-gap-reference-holonomy.json). Native Lorentz-metric fibre curvature excludes every positive parallel form for the unchanged reference. On Ricci-flat Lorentz4 sections, the projected normal connection admits one locally exactly when flat. The full-spinor obstruction also covers sufficiently small printed-branch displacements on open Y.109 exact controls, four Lean core lemmas and three internal reviews passed. These finite-fibre transport results do not establish physical ghosts or a quantum gap; SC-META-53 does not require the excluded parallelism. Lane-C evidence only; source/matrix/ledger verdicts, all24 ranked options and choicebudget10/4/net6/0 remain unchanged.

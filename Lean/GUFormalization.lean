@@ -141,3 +141,5 @@ import GUFormalization.NormalSMCharacteristic
 import GUFormalization.LocalComplement
 
 import GUFormalization.ReferenceHolonomy
+
+import GUFormalization.PrintedDifferential

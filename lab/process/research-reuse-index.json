@@ -2237,6 +2237,64 @@
         "receipt_ref": "lab/process/bet-mass-gap-reference-holonomy.json#verification",
         "scope": "SymPy1.14.0 controls and four Lean cores; written geometry/holonomy and openness proofs. No physical norm or quantum gap transfer."
       }
+    },
+    {
+      "id": "printed-differential-solvability-2026-11-27",
+      "kind": "result",
+      "owner_ref": "explorations/conditional-build/printed-differential-solvability-2026-11-27.md",
+      "tested_statement": "The selected printed operator has a degree40 polynomial scalarizer giving full frozen smooth/analytic local solvability. Right-ordered covariant scalarization yields actual analytic curved LINEAR solutions at sufficiently large finite coupling under coherent LC/parallel-Phi hypotheses. Exact real grade1/2 frozen modes grow at rates asymptotic to normal frequency, excluding every fixed finite-loss Sobolev estimate on unrestricted declared states. Nonlinear endpoint, generic zero-order perturbations and physical admission remain open.",
+      "signature": {
+        "object": "Selected printed differential scalarizer and trace-mode lift",
+        "carrier": "Full complex adjoint oneforms; real primary-minus grade1/2 frozen mode sector",
+        "convention": "LowPhi comm/ianti/ianti; K95/K77 odd-index ports; constant nonzero scalar mass",
+        "class": "Full constant coefficients; analytic coherent LC/parallel-Phi curved linear class at sufficiently large coupling",
+        "premises": [
+          "explorations/conditional-build/printed-equation-jets-and-symbol-2026-11-27.md",
+          "explorations/conditional-build/source-prescription-current-2026-11-13.md"
+        ]
+      },
+      "attributed_status": "internal_T1_reviewed",
+      "status_ref": "lab/process/printed-differential-solvability.json#status",
+      "source_bridge_ref": "lab/process/printed-differential-solvability.json#source_bridge",
+      "certificate_refs": [
+        "lab/process/printed-differential-solvability-certificates.json",
+        "Lean/GUFormalization/PrintedDifferential.lean"
+      ],
+      "control_refs": [
+        "tests/program-focus/printed_differential_solvability_probe.py"
+      ],
+      "survivors_ref": "lab/process/printed-differential-solvability.json#follow_through",
+      "reopen_condition_ref": "explorations/conditional-build/printed-differential-solvability-2026-11-27.md",
+      "superseded_by": null,
+      "cache": {
+        "artifacts": [
+          {
+            "path": "explorations/conditional-build/printed-differential-solvability-2026-11-27.md",
+            "sha256": "5190082b42b37cd970a8d2a5d820a02c7980d7cc16c446b414b1ca8fc7f5fdbb"
+          },
+          {
+            "path": "tests/program-focus/printed_differential_solvability_probe.py",
+            "sha256": "bd55c549c5448182ae35cff40d7fdb581d4b6b90a8f3f14b91029c219139434d"
+          },
+          {
+            "path": "lab/process/printed-differential-solvability-certificates.json",
+            "sha256": "2348738c976a37536f74b2a74c0520492ef173d5340d02cd702e59844ec26bc5"
+          },
+          {
+            "path": "Lean/GUFormalization/PrintedDifferential.lean",
+            "sha256": "e4e94ba5c28ac489f751bdadb4c8e74e956c6f50ac93c686cd081aa8147c57b3"
+          }
+        ],
+        "verifier": {
+          "command": "python3",
+          "args": [
+            "tests/program-focus/printed_differential_solvability_probe.py",
+            "--verify"
+          ]
+        },
+        "receipt_ref": "lab/process/printed-differential-solvability.json#verification",
+        "scope": "SymPy1.14.0;83 exact controls and four Lean algebra cores. Written universal symbol/geometry/CK/Fourier proof, not full PDE formalization."
+      }
     }
   ]
 }

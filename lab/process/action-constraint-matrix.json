@@ -1812,7 +1812,7 @@
     },
     "LB-LADDER": {
       "zero_delta_streak": 0,
-      "runs": 21,
+      "runs": 22,
       "status": "open"
     }
   },
@@ -2726,7 +2726,7 @@
   ],
   "program_run_counter": {
     "since": "2026-11-09",
-    "count": 108,
+    "count": 109,
     "rule": "Every hourly run increments this in its postflight, whatever its lane. Lane C runs when count % 4 == 3 before the increment."
   },
   "working_rule": "Cells are worked at the structure level: a requirement must hold for every action in class C or for a structurally defined subfamily. No cell is worked by writing down a specific action, and no gated cell is worked by building its gate object. See CURRENT-STATE.yaml program_focus.structure_not_specifics.",
@@ -3708,6 +3708,15 @@
       "counter_after": 108,
       "lane": "LC-BETS",
       "selection": "Due discovery slot; actual unchanged-reference compact preservation, not a new action or matrix science result."
+    },
+    {
+      "date": "2026-11-27",
+      "authority": "joe_direct_chat_2026_11_27_h",
+      "item": "printed-differential-solvability",
+      "counter_before": 108,
+      "counter_after": 109,
+      "lane": "LB-LADDER",
+      "selection": "Actual printed mixed/curved linear solvability and exact frozen real evolution scope."
     }
   ],
   "directed_lc_carry_2026_11_24_b": {
@@ -7157,6 +7166,19 @@
     "source_bridge": {
       "status": "conditional",
       "reason": "Independent g/T and printed endpoint template source-bound; held product dictionary and geometric completion not source-unique. Finite jets and frozen complex symbol are not physical solutions or source I1B stationarity."
+    },
+    "status_effect": "No cell/intersection/shrinkage/source/ledger verdict changes."
+  },
+  "printed_differential_2026_11_27": {
+    "status": "internal_T1_reviewed",
+    "actual_delta": "The selected printed operator has a degree40 polynomial scalarizer giving full frozen smooth/analytic local solvability. Right-ordered covariant scalarization yields actual analytic curved LINEAR solutions at sufficiently large finite coupling under coherent LC/parallel-Phi hypotheses. Exact real grade1/2 frozen modes grow at rates asymptotic to normal frequency, excluding every fixed finite-loss Sobolev estimate on unrestricted declared states. Nonlinear endpoint, generic zero-order perturbations and physical admission remain open.",
+    "evidence": [
+      "explorations/conditional-build/printed-differential-solvability-2026-11-27.md",
+      "lab/process/printed-differential-solvability.json"
+    ],
+    "source_bridge": {
+      "status": "conditional",
+      "reason": "Source fixes the endpoint template and independent g/T; selected low-Phi product, coherent completion and unrestricted real state domain are not source-unique. Curved linear existence is complex unless its full real adapter is supplied; frozen real modes do not prove actual variable/nonlinear instability."
     },
     "status_effect": "No cell/intersection/shrinkage/source/ledger verdict changes."
   }
