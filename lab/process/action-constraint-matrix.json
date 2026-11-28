@@ -1144,7 +1144,9 @@
         "explorations/conditional-build/cw-all-threshold-boundary-estimate-2026-11-28.md",
         "lab/process/cw-all-threshold-boundary.json",
         "explorations/conditional-build/cw-edge-decay-and-global-norm-2026-11-28.md",
-        "lab/process/cw-edge-decay-global.json"
+        "lab/process/cw-edge-decay-global.json",
+        "explorations/conditional-build/cw-global-quadratic-boundary-2026-11-28.md",
+        "lab/process/cw-global-quadratic-boundary.json"
       ],
       "known": "Exact full14-component spin-only lower image: closure requires S=zH,W=0,R_h=-G_h. With same compatible Clifford adjoint, every unitary normal correction satisfying scalar row forces W_N=-16zH; top forces W_H=-zH, contradicting W0 whenH=t/2. Covers whole scalar-weighted stable natural family with sameq/time assumptions, including scalar-inputSE; general chiral/matrix/operator rivals separate. ComplexEnd paired-arrow escape fails actualadjoint; meanzeroSpin control survives. Actual geometric gradient SW term cancels residual with SAME primitive connection current at fixed density/bars; source/operator ownership open.",
       "next_run": "Use the live counter and current bet records with existing program_focus selection. the bounded source-law audit, universal-family stabilizer and regular exterior-symbol classification are complete; W09 absolute normal determinant/Spin existence is also complete. A physical whole-field covariance test requires a newly authenticated full two-sided field/bar/density/reference/observation law, typed as fixed or parameter-changing. Preserve the explicit R/4 toy and primitive currents; do not repeat the completed corpus audit or substitute a guessed law. Other eligible matrix or LB-CLASS targets remain selectable under program_focus; these conditional branches do not stop repository work.",
@@ -1823,7 +1825,7 @@
     },
     "LB-LADDER": {
       "zero_delta_streak": 0,
-      "runs": 31,
+      "runs": 32,
       "status": "open"
     }
   },
@@ -2737,7 +2739,7 @@
   ],
   "program_run_counter": {
     "since": "2026-11-09",
-    "count": 126,
+    "count": 127,
     "rule": "Every hourly run increments this in its postflight, whatever its lane. Lane C runs when count % 4 == 3 before the increment."
   },
   "working_rule": "Cells are worked at the structure level: a requirement must hold for every action in class C or for a structurally defined subfamily. No cell is worked by writing down a specific action, and no gated cell is worked by building its gate object. See CURRENT-STATE.yaml program_focus.structure_not_specifics.",
@@ -3881,6 +3883,15 @@
       "counter_after": 126,
       "lane": "LB-LADDER",
       "selection": "Quick-win2b wave4; localedge/decay closure plus actualglobal norm cost."
+    },
+    {
+      "date": "2026-11-28",
+      "authority": "joe_direct_chat_2026_11_27_r",
+      "item": "cw-global-quadratic-boundary",
+      "counter_before": 126,
+      "counter_after": 127,
+      "lane": "LB-LADDER",
+      "selection": "Quick-win2b wave5; global boundary norm verdict, tame survivor and budget pivot."
     }
   ],
   "directed_lc_carry_2026_11_24_b": {
@@ -7507,5 +7518,18 @@
       "reason": "SC-ACT-02 draftp45eq9.8 gives endpoint template and SC-META-52 acknowledges ultrahyperbolic debt; no source-selected low-Phi realization, state law or physical norm."
     },
     "status_effect": "Scoped topology exclusion; no cell/intersection/shrinkage/source/ledger verdict change."
+  },
+  "cw_global_quadratic_boundary_2026_11_28": {
+    "status": "internal_T1_reviewed",
+    "actual_delta": "Global common-CW modal inputs have a uniform compact-output quadratic boundary bound. Actual normalized primary-minus packets exclude unweighted all-output coefficient L2 for intrinsic Y=(N+lambda Pi)x. A conservative global tame45 derivative bound survives; no full-state lifting or nonlinear invariant domain follows.",
+    "evidence": [
+      "explorations/conditional-build/cw-global-quadratic-boundary-2026-11-28.md",
+      "lab/process/cw-global-quadratic-boundary.json"
+    ],
+    "source_bridge": {
+      "status": "conditional",
+      "reason": "SC-ACT-02 draft p45 eq9.8 supplies the endpoint template and SC-META-52 names the ultrahyperbolic debt; the low-Phi realization and physical state/norm are not source-selected."
+    },
+    "status_effect": "Auxiliary mapping exclusion; no whole-C cell, intersection or ledger verdict change."
   }
 }

@@ -337,3 +337,7 @@ replacement for `lake build` or targeted standalone Lean checks.
 ## CW global coefficient norm (2026-11-28)
 
 `GUFormalization/CWGlobalNorm.lean` checks six finite cores: boost and amplification arithmetic, the growth lower bound, kernel domination, companion decay and degree/shell counts. Targeted single-thread compilation passed without proof placeholders. The full scalarizer, thirteen-dimensional packet argument, bilinear estimates and physical/source bridges are written mathematics, not formalized by these lemmas. See `../explorations/conditional-build/cw-edge-decay-and-global-norm-2026-11-28.md`.
+
+## 2026-11-28 — CW global quadratic boundary finite cores
+
+`GUFormalization/CWQuadraticBoundary.lean` checks six finite cores: shell/receiver arithmetic, intrinsic forced identity and derivative accounting. Targeted single-thread compilation passed without proof placeholders. Integration, global packets, residue identities and physical/source applicability remain written/reviewed mathematics. No full-project build or canon promotion is claimed. Result: `explorations/conditional-build/cw-global-quadratic-boundary-2026-11-28.md`.

@@ -3178,6 +3178,63 @@
         "receipt_ref": "lab/process/cw-edge-decay-global.json#verification",
         "scope": "100exactcontrols,6Leanfinitecores; fullanalytic/packettheorems independentlyreviewed."
       }
+    },
+    {
+      "id": "cw-global-quadratic-boundary-2026-11-28",
+      "kind": "result",
+      "owner_ref": "explorations/conditional-build/cw-global-quadratic-boundary-2026-11-28.md",
+      "tested_statement": "Global common-CW modal inputs have a uniform compact-output quadratic boundary bound. Actual normalized primary-minus packets exclude unweighted all-output coefficient L2 for intrinsic Y=(N+lambda Pi)x. A conservative global tame45 derivative bound survives; no full-state lifting or nonlinear invariant domain follows.",
+      "signature": {
+        "object": "Actual global future-boundary functional",
+        "carrier": "Frozen K95 massive common-CW bosonic kernels; intrinsic Y coefficient output",
+        "convention": "H_modal L2 inputs, intrinsic output coefficient Sobolev scale",
+        "class": "Global stable-pair mapping; all19 factors for upper, actual factor1 hook countersequence",
+        "premises": [
+          "explorations/conditional-build/cw-global-quadratic-boundary-2026-11-28.md"
+        ]
+      },
+      "attributed_status": "internal_T1_reviewed",
+      "status_ref": "lab/process/cw-global-quadratic-boundary.json#status",
+      "source_bridge_ref": "lab/process/cw-global-quadratic-boundary.json#source_bridge",
+      "certificate_refs": [
+        "lab/process/cw-global-quadratic-boundary-certificates.json",
+        "Lean/GUFormalization/CWQuadraticBoundary.lean"
+      ],
+      "control_refs": [
+        "tests/program-focus/cw_global_quadratic_boundary_probe.py"
+      ],
+      "survivors_ref": "lab/process/cw-global-quadratic-boundary.json#follow_through",
+      "reopen_condition_ref": "explorations/conditional-build/cw-global-quadratic-boundary-2026-11-28.md",
+      "superseded_by": null,
+      "cache": {
+        "artifacts": [
+          {
+            "path": "explorations/conditional-build/cw-global-quadratic-boundary-2026-11-28.md",
+            "sha256": "7d3912f04c78bea9f3fc4e449b71f7506e6d784d2c73278c3800f87d8abeccc3"
+          },
+          {
+            "path": "tests/program-focus/cw_global_quadratic_boundary_probe.py",
+            "sha256": "baac6d7249da4e8b31fe82ad159ae519bf875617c8aa7a341dd94c414cab0a9b"
+          },
+          {
+            "path": "lab/process/cw-global-quadratic-boundary-certificates.json",
+            "sha256": "d6f688e462ab51cb86c34af7a511d63cf26315b8c1ac11edf6b3132eec31d891"
+          },
+          {
+            "path": "Lean/GUFormalization/CWQuadraticBoundary.lean",
+            "sha256": "6fa1c97478b17abdda496e7156c371419dd89b848f3e4ab99edbc2c53141d1e5"
+          }
+        ],
+        "verifier": {
+          "command": "python3",
+          "args": [
+            "tests/program-focus/cw_global_quadratic_boundary_probe.py",
+            "--verify"
+          ]
+        },
+        "receipt_ref": "lab/process/cw-global-quadratic-boundary.json#verification",
+        "scope": "92 exact finite controls and6 Lean cores; analytic integration and packet proofs independently reviewed."
+      }
     }
   ]
 }

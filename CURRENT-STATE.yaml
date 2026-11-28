@@ -1,7 +1,7 @@
 schema_version: '1.0'
 repository: observerse-research-program
 branch: main
-revision_basis: ad6e4384809fd12d2cc2ff0da06d730b0fc67035
+revision_basis: 9838ba1e3723b5f9673a84f1e8cb142dc07093f6
 program_focus:
   version: 2026-11-27-v3
   authority: joe_direct_chat_2026_11_27_k
@@ -278,6 +278,24 @@ sibling_import_adjudication_2026_11_27:
     resume the retained actual a_out=-2 negative-factor CW vertex at kappa12 before a degenerate estimate.
     Step2b remains2/max5; wedge3/max3. No new sibling-research backlog or physical choice.
   verdict_effect: none; scoped applicability and algebra
+cw_global_quadratic_boundary_2026_11_28:
+  status: internal_T1_reviewed
+  actual_delta: Global common-CW modal inputs have a uniform compact-output quadratic boundary bound.
+    Actual normalized primary-minus packets exclude unweighted all-output coefficient L2 for intrinsic
+    Y=(N+lambda Pi)x. A conservative global tame45 derivative bound survives; no full-state lifting or
+    nonlinear invariant domain follows.
+  evidence:
+  - explorations/conditional-build/cw-global-quadratic-boundary-2026-11-28.md
+  - lab/process/cw-global-quadratic-boundary.json
+  source_bridge:
+    status: conditional
+    reason: SC-ACT-02 draft p45 eq9.8 supplies the endpoint template and SC-META-52 names the ultrahyperbolic
+      debt; the low-Phi realization and physical state/norm are not source-selected.
+  next: 'Step2b is complete at5/5; retain global nonlinear closure, free-decay topology, full-state lifting
+    and physical state/current as named burdens. Counter127 mandates LC-BETS next. Then take queued step3:
+    a concrete additional antilinear/PT realization criterion on the actual declared sector, reusing Theta/time-direction,
+    Jordan2 and norm costs. No W2 continuation, local threshold census or new CW iteration by default.'
+  verdict_effect: none; scoped auxiliary topology exclusion and positive regularity bound
 cw_edge_decay_global_2026_11_28:
   status: internal_T1_reviewed
   actual_delta: Actual retained-decay and common-CW input-edge quadratic future-boundary maps are locally

@@ -679,3 +679,7 @@ bicategory, ambidexterity or Mackey 2-functor is inferred.
 ## 2026-11-28 — CW global coefficient norm finite cores
 
 `Lean/GUFormalization/CWGlobalNorm.lean` checks six finite cores: boost and amplification arithmetic, growth lower bound, kernel domination, companion decay and degree/shell counts. Targeted single-thread compilation passed without proof placeholders. Full scalarizer, thirteen-dimensional packets, bilinear bounds and physical/source applicability remain written/reviewed mathematics. No full-project build or scientific canon promotion is claimed. Result: `explorations/conditional-build/cw-edge-decay-and-global-norm-2026-11-28.md`.
+
+## 2026-11-28 — CW global quadratic boundary finite cores
+
+`Lean/GUFormalization/CWQuadraticBoundary.lean` checks six finite cores: shell/receiver arithmetic, intrinsic forced identity and derivative accounting. Targeted single-thread compilation passed without proof placeholders. Integration, global packets, residue identities and physical/source applicability remain written/reviewed mathematics. No full-project build or canon promotion is claimed. Result: `explorations/conditional-build/cw-global-quadratic-boundary-2026-11-28.md`.

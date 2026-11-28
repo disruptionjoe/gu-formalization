@@ -4011,5 +4011,47 @@
       "Sharper pairedprojector degree only if it decides nonlinearclosure cost.",
       "Afterstep2budget, actualantilinear/PTnorm criterion with allsurvivors/exclusions retained."
     ]
+  },
+  "cw_global_quadratic_boundary_2026_11_28": {
+    "evidence": [
+      "explorations/conditional-build/cw-global-quadratic-boundary-2026-11-28.md",
+      "lab/process/cw-global-quadratic-boundary.json"
+    ],
+    "actual_delta": "Global common-CW modal inputs have a uniform compact-output quadratic boundary bound. Actual normalized primary-minus packets exclude unweighted all-output coefficient L2 for intrinsic Y=(N+lambda Pi)x. A conservative global tame45 derivative bound survives; no full-state lifting or nonlinear invariant domain follows.",
+    "choice_budget": {
+      "families": 10,
+      "obligations": 4,
+      "net": 6,
+      "source_selected_predictions": 0,
+      "new_adopted_choices": 0,
+      "repair_adopted": false,
+      "scope": "Historical candidate grouping, not a parameter count for all GU."
+    },
+    "consumed": [
+      "Global-input compact-output stable-pair boundary estimate.",
+      "Unweighted all-output intrinsic boundary mapping hypothesis.",
+      "Finite-loss global stable-pair boundary estimate; conservative tame upper45."
+    ],
+    "exclusions": [
+      "Global H_modal L2 x L2 to intrinsic Y coefficient-L2 bounded map on declared full compatible core."
+    ],
+    "survivors": [
+      "H_modal linear evolution and prior linear coefficient-loss window[1,39].",
+      "All local stable/decay/edge boundary estimates.",
+      "Global stable-input compact-output boundary bound with no input weight.",
+      "Global all-output intrinsic quadratic boundary functional with tame45 regularity cost."
+    ],
+    "next": "Step2b is complete at5/5; retain global nonlinear closure, free-decay topology, full-state lifting and physical state/current as named burdens. Counter127 mandates LC-BETS next. Then take queued step3: a concrete additional antilinear/PT realization criterion on the actual declared sector, reusing Theta/time-direction, Jordan2 and norm costs. No W2 continuation, local threshold census or new CW iteration by default.",
+    "pitfalls": [
+      "Intrinsic Y is not the full state, physical norm or a global free-q0 norm.",
+      "Tame derivative loss cannot be inserted into a derivative-losing contraction iteration.",
+      "A plane seed alone does not prove norm failure; full13D Laurent packets are essential.",
+      "Necessary derivatives add across two inputs: total>=13/2, balanced each>=13/4; upper45 is tame one-high convention."
+    ],
+    "next_cost_ranking": [
+      "Mandatory discovery bet at counter127.",
+      "Actual antilinear/PT realization after the cadence, with declared domain and extra criterion.",
+      "Reopen CW only for a new source-selected domain or actual derivative-compensating mechanism, not another local census."
+    ]
   }
 }
