@@ -1,0 +1,31 @@
+{
+  "schema_version": "1.0",
+  "delta_id": "GU-WEDGE-EINSTEIN-REDUCTION-2026-11-27",
+  "status": "pending",
+  "base": {
+    "ledger_ref": "lab/process/conditional-physics-ledger-v0.264.json",
+    "ledger_sha256": "be6090be51573044976129e49317a5cd6f726a05c4d583c36420095046093384"
+  },
+  "affected_rows": [
+    "LT-GR1",
+    "LT-GR7"
+  ],
+  "result_refs": [
+    "explorations/conditional-build/wedge-shiab-einstein-reduction-2026-11-27.md",
+    "lab/process/wedge-shiab-einstein-reduction.json"
+  ],
+  "source_disposition": "GU* ownwedge and conditionalreference class; no source-selected measure/domain or necessarysourcefailure. NativeK95 retained, K77untransferred.",
+  "claim_ceiling": "Leadinglocal4D realmetricclass only; no actual14D/sourceinstability, physicalNewtonprediction or ledger verdict change.",
+  "proposed_effect": {
+    "summary": "The native K95 connection metric supplies an Einstein cross-term in the own-wedge leading effective scalar. Finite positive Lorentz-covariant reference measures depending only on g have conformal support and a complete three-moment coefficient cone. Their constant-moment leading local4D action has a full-metric-row, gauge-invariant growing scalar-curvature mode on its de Sitter solution. The native negative trace direction is already included; the unregulated native volume is infinite and does not define an alternative finite4D scalaron coefficient. No full14D, K77 or source instability is inferred.",
+    "requested_row_changes": [
+      "Attach scoped Einstein/reference/scalar and nativevolume evidence with verdicts unchanged."
+    ]
+  },
+  "conflict_keys": [
+    "LT-GR1",
+    "LT-GR7",
+    "SOURCE-VS-GUSTAR-REDUCTION"
+  ],
+  "integration": null
+}

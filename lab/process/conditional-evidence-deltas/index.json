@@ -91,6 +91,11 @@
       "delta_id": "GU-LEDGER-SOURCE-SCOPE-RECONCILIATION-2026-11-27",
       "path": "lab/process/conditional-evidence-deltas/gu-ledger-source-scope-reconciliation-2026-11-27.json",
       "status": "integrated"
+    },
+    {
+      "delta_id": "GU-WEDGE-EINSTEIN-REDUCTION-2026-11-27",
+      "path": "lab/process/conditional-evidence-deltas/gu-wedge-einstein-reduction-2026-11-27.json",
+      "status": "pending"
     }
   ]
 }

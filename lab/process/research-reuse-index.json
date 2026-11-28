@@ -2748,6 +2748,63 @@
         "receipt_ref": "lab/process/wedge-shiab-dynamics.json#verification",
         "scope": "5305 exact controls; analytic IFT/metric stationarity independently reviewed, not machine formalized."
       }
+    },
+    {
+      "id": "wedge-shiab-einstein-reduction-2026-11-27",
+      "kind": "result",
+      "owner_ref": "explorations/conditional-build/wedge-shiab-einstein-reduction-2026-11-27.md",
+      "tested_statement": "The native K95 connection metric supplies an Einstein cross-term in the own-wedge leading effective scalar. Finite positive Lorentz-covariant reference measures depending only on g have conformal support and a complete three-moment coefficient cone. Their constant-moment leading local4D action has a full-metric-row, gauge-invariant growing scalar-curvature mode on its de Sitter solution. The native negative trace direction is already included; the unregulated native volume is infinite and does not define an alternative finite4D scalaron coefficient. No full14D, K77 or source instability is inferred.",
+      "signature": {
+        "object": "Ownwedge leading Einstein reduction and scalar stability",
+        "carrier": "NativeK95 connectionmetric; separately constantmoment local4D Lorentz metric",
+        "convention": "Primaryminus; h=1/kappa; verticalpositive reference; ordinaryrealstates; K77untransferred",
+        "class": "Metric-only finitepositive covariantmeasure and leading4Dconstantmoment variation; fixedM separate",
+        "premises": [
+          "explorations/conditional-build/wedge-shiab-einstein-reduction-2026-11-27.md"
+        ]
+      },
+      "attributed_status": "internal_T1_reviewed",
+      "status_ref": "lab/process/wedge-shiab-einstein-reduction.json#status",
+      "source_bridge_ref": "lab/process/wedge-shiab-einstein-reduction.json#source_bridge",
+      "certificate_refs": [
+        "lab/process/wedge-shiab-einstein-reduction-certificates.json",
+        "Lean/GUFormalization/WedgeEinsteinReduction.lean"
+      ],
+      "control_refs": [
+        "tests/program-focus/wedge_shiab_einstein_reduction_probe.py"
+      ],
+      "survivors_ref": "lab/process/wedge-shiab-einstein-reduction.json#follow_through",
+      "reopen_condition_ref": "explorations/conditional-build/wedge-shiab-einstein-reduction-2026-11-27.md",
+      "superseded_by": null,
+      "cache": {
+        "artifacts": [
+          {
+            "path": "explorations/conditional-build/wedge-shiab-einstein-reduction-2026-11-27.md",
+            "sha256": "53b7e9b536c28f6bfd4877e69f3bd97a60b6e8cbcfd8f8dc2a71e64fbf1dad6a"
+          },
+          {
+            "path": "tests/program-focus/wedge_shiab_einstein_reduction_probe.py",
+            "sha256": "184eebb74eb57e5329f1f123303c3700ee4ecdfd008ec2d799b1b3de60715295"
+          },
+          {
+            "path": "lab/process/wedge-shiab-einstein-reduction-certificates.json",
+            "sha256": "03d12c9e8480a05aea5444fb1151118ba7a4918813cadb802c2a30febbda3023"
+          },
+          {
+            "path": "Lean/GUFormalization/WedgeEinsteinReduction.lean",
+            "sha256": "a9a53a2e26ba398d1df2090b02edab3a902e0a605b1ba737e63db000ef20046a"
+          }
+        ],
+        "verifier": {
+          "command": "python3",
+          "args": [
+            "tests/program-focus/wedge_shiab_einstein_reduction_probe.py",
+            "--verify"
+          ]
+        },
+        "receipt_ref": "lab/process/wedge-shiab-einstein-reduction.json#verification",
+        "scope": "66exact controls and7finiteLeanlemmas; no formalizedgeometry/measure/PDEorphysicaltransfer."
+      }
     }
   ]
 }

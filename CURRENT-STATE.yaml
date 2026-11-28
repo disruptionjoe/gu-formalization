@@ -1,7 +1,7 @@
 schema_version: '1.0'
 repository: observerse-research-program
 branch: main
-revision_basis: 74b90248a96a0a46ff3445aa4e20fb90557bba19
+revision_basis: cc38ad2c1260d5a0a20379ca2462afe2bb23a52c
 program_focus:
   version: 2026-11-27-v3
   authority: joe_direct_chat_2026_11_27_k
@@ -255,6 +255,28 @@ physics_ledger_reconciliation_2026_11_27_v:
   next: Directedledgerpasscomplete:resumeJoe27r1c finalwedgewave, evaluating27w Einstein-term/scalegate
     onactualGg andspecifiedreadout before genericquadraticgravityimports. Existing nonlinearCW route follows;
     W2 diagnostic only.
+wedge_einstein_reduction_2026_11_27:
+  status: internal_T1_reviewed
+  actual_delta: The native K95 connection metric supplies an Einstein cross-term in the own-wedge leading
+    effective scalar. Finite positive Lorentz-covariant reference measures depending only on g have conformal
+    support and a complete three-moment coefficient cone. Their constant-moment leading local4D action
+    has a full-metric-row, gauge-invariant growing scalar-curvature mode on its de Sitter solution. The
+    native negative trace direction is already included; the unregulated native volume is infinite and
+    does not define an alternative finite4D scalaron coefficient. No full14D, K77 or source instability
+    is inferred.
+  evidence:
+  - explorations/conditional-build/wedge-shiab-einstein-reduction-2026-11-27.md
+  - lab/process/wedge-shiab-einstein-reduction.json
+  source_bridge:
+    status: conditional
+    reason: Source geometry/action grammar are cited; wedge selection, physical reduction/reference measure
+      and admitted physical states are not source-selected. Curved elimination is formal at leadingh.
+  next: 'Counter119 requires LC-BETS under unchanged cadence; BET-COSMOLOGY has the most remaining budget.
+    Then ordinary B step2b: a genuinely new nonlinear Craig-Weinstein mechanism outside the excluded C2
+    instantaneous translation-equivariant full-stable-base Sobolev graph class, with explicit changed
+    premise and outcomes. Wedge step1 is complete at3waves; retain native physical reduction/energy, higherh
+    and kappa1 burdens, without a checkpoint or W2 continuation.'
+  verdict_effect: none
 wedge_dynamics_2026_11_27:
   status: internal_T2_reviewed
   actual_delta: The existing GU* wedge first action has a native homogeneous analytic large-kappa stationary

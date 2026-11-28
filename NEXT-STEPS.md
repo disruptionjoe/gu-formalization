@@ -16,6 +16,10 @@ Do not add "Current follow-through" sections or "Historical predecessor" stacks 
 matrix or bet file. The retired follow-through chain and banner stack are kept at the end of this file under
 "Archived steering history".
 
+## 2026-11-27 — Wedge Einstein reduction and native measure boundary
+
+[Result](explorations/conditional-build/wedge-shiab-einstein-reduction-2026-11-27.md) · [Evidence](lab/process/wedge-shiab-einstein-reduction.json). The native geometry gives an Einstein cross-term. Finite positive covariant references leave its normalization free and yield a leading local4D scalar instability satisfying all metric rows. Native indefinite volume retains its negative trace contraction but diverges; no K77/native4D instability is inferred.66exact controls and7finiteLeanlemmas; physical/fullh transfer remains open. No source or ledger verdict change.
+
 ## 2026-11-27 — Own-wedge dynamics
 
 [Result](explorations/conditional-build/wedge-shiab-dynamics-2026-11-27.md) · [Evidence](lab/process/wedge-shiab-dynamics.json). A native homogeneous analytic first-action branch satisfies the source primitive variations on the declared fixed local regulator. Its leading effective density is ambient curvature-squared. A separate conditional flat-ambient sector has both canonical-energy signs and oscillatory solutions; this is not a physical ghost or native-branch instability verdict.5305exactcontrols cover normalization, Clifford grades and the conditional full mixed metric row. Source/ledger verdicts unchanged.

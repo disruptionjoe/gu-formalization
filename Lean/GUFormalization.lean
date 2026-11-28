@@ -153,3 +153,5 @@ import GUFormalization.EvolutionComplement
 import GUFormalization.CWFullSystem
 import GUFormalization.CWNonlinearCompletion
 import GUFormalization.LocalCurrent
+
+import GUFormalization.WedgeEinsteinReduction

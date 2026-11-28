@@ -1808,7 +1808,7 @@
     },
     "LB-CLASS": {
       "zero_delta_streak": 0,
-      "runs": 57,
+      "runs": 58,
       "status": "open"
     },
     "LB-LADDER": {
@@ -2727,7 +2727,7 @@
   ],
   "program_run_counter": {
     "since": "2026-11-09",
-    "count": 118,
+    "count": 119,
     "rule": "Every hourly run increments this in its postflight, whatever its lane. Lane C runs when count % 4 == 3 before the increment."
   },
   "working_rule": "Cells are worked at the structure level: a requirement must hold for every action in class C or for a structurally defined subfamily. No cell is worked by writing down a specific action, and no gated cell is worked by building its gate object. See CURRENT-STATE.yaml program_focus.structure_not_specifics.",
@@ -3799,6 +3799,15 @@
       "counter_after": 118,
       "lane": "LB-MATRIX",
       "selection": "Directonepassledgerreconciliation;no scientificcell/verdictchanges; resumedecisivegate."
+    },
+    {
+      "date": "2026-11-27",
+      "authority": "joe_direct_chat_2026_11_27_w",
+      "item": "wedge-shiab-einstein-reduction",
+      "counter_before": 118,
+      "counter_after": 119,
+      "lane": "LB-CLASS",
+      "selection": "Final27r1c wedgewave;27w Einstein/scale and27x nativevolume fork."
     }
   ],
   "directed_lc_carry_2026_11_24_b": {
@@ -7347,5 +7356,18 @@
       "reason": "Source supplies action grammar and primitive fields. Wedge selection, matching LC reconstruction and local product regulator are declared; no physical reduction/norm/state or complete source action is supplied."
     },
     "status_effect": "Evidence and accounting only; no scientific cell or ledger verdict."
+  },
+  "wedge_einstein_reduction_2026_11_27": {
+    "status": "internal_T1_reviewed",
+    "actual_delta": "The native K95 connection metric supplies an Einstein cross-term in the own-wedge leading effective scalar. Finite positive Lorentz-covariant reference measures depending only on g have conformal support and a complete three-moment coefficient cone. Their constant-moment leading local4D action has a full-metric-row, gauge-invariant growing scalar-curvature mode on its de Sitter solution. The native negative trace direction is already included; the unregulated native volume is infinite and does not define an alternative finite4D scalaron coefficient. No full14D, K77 or source instability is inferred.",
+    "evidence": [
+      "explorations/conditional-build/wedge-shiab-einstein-reduction-2026-11-27.md",
+      "lab/process/wedge-shiab-einstein-reduction.json"
+    ],
+    "source_bridge": {
+      "status": "conditional",
+      "reason": "Source geometry/action grammar are cited; wedge selection, physical reduction/reference measure and admitted physical states are not source-selected. Curved elimination is formal at leadingh."
+    },
+    "status_effect": "Scoped evidence only; scientific cell and ledger verdicts unchanged."
   }
 }

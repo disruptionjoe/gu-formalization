@@ -667,3 +667,7 @@ bicategory, ambidexterity or Mackey 2-functor is inferred.
 ## 2026-11-27 — Local-current finite cores
 
 `Lean/GUFormalization/LocalCurrent.lean` checks nonnegative anti-isometry, observed-retention contradiction, normal aggregate/restore arithmetic and restricted-density positivity. Five targeted single-thread Lean theorems pass. Native symbol, spectral quotient, current-jet identity and source/physical-domain interpretation remain written reviewed arguments.
+
+## Wedge reduction finite core — 2026-11-27
+
+`Lean/GUFormalization/WedgeEinsteinReduction.lean`: **LEAN-VERIFIED**, targeted serialized `lake env lean -j1`, seven lemmas, no sorry. Geometry, measure support and full metric-mode admission remain written and independently reviewed in [explorations/conditional-build/wedge-shiab-einstein-reduction-2026-11-27.md](../../explorations/conditional-build/wedge-shiab-einstein-reduction-2026-11-27.md). Default whole-library build not rerun.

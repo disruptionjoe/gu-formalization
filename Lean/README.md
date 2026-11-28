@@ -15,6 +15,7 @@ documents.
 
 | Lean file | Scope | Owner surface |
 |---|---|---|
+| `GUFormalization/WedgeEinsteinReduction.lean` | Seven finite curvature-identity, moment-sign, coefficient-bound and scalar-growth lemmas; no geometry/measure/PDE realization. | `explorations/conditional-build/wedge-shiab-einstein-reduction-2026-11-27.md` |
 | `GUFormalization/NormalSMCharacteristic.lean` | Nine finite Chern-coefficient, twist, divisibility and countercontrol lemmas; topology is written and reviewed. | `explorations/conditional-build/normal-sm-characteristic-constraints-2026-11-27.md` |
 | `GUFormalization/PrintedEndpointBranch.lean` | Six finite recurrence, elimination, nonfactorization and rational/sign lemmas. Analytic geometry remains written and reviewed. | `explorations/conditional-build/printed-endpoint-analytic-branch-2026-11-27.md` |
 | `GUFormalization/ScalarNormalSchur.lean` | Six finite lemmas for a vanishing moving-frame auxiliary row, frequency-independent compression, signed quadratic-energy dominance, native time-covector arithmetic and real-component sign. Analytic ODE existence, geometry and physical admission are separate reviewed inputs. | `explorations/conditional-build/source-action-scalar-normal-operator-2026-11-27.md` |
