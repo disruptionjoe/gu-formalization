@@ -2353,6 +2353,64 @@
         "receipt_ref": "lab/process/printed-nonlinear-transfer.json#verification",
         "scope": "SymPy1.14.0;179exactchecks and4Lean algebra cores; written universal/analytic/domain proof. Not fullPDE formalization."
       }
+    },
+    {
+      "id": "printed-state-completion-2026-11-27",
+      "kind": "result",
+      "owner_ref": "explorations/conditional-build/printed-state-completion-2026-11-27.md",
+      "tested_statement": "The actual printed quadratic interaction has a full massive left-null receiver104448 at the tested resonance, scaling as(2176/3)kappa\u00b2. This excludes the declared regular equivariant slaving graphs. Nonresonant and compatible forcing have exact stationary responses; the resonant forcing has an exact polynomial-time response with an unavoidable secular functional. No nonlinear ill-posedness or physical ghost follows.",
+      "signature": {
+        "object": "Selected printed nonlinear state/auxiliary completion",
+        "carrier": "Full complex adjoint oneforms with primary-minus real trace quadratures; full massive hook receiver",
+        "convention": "Frozen normalizedK95, heldlowPhi and actualprintedQ; negativeforceequation",
+        "class": "Regular equivariant solution/state graphs with finite mixedFouriercoefficient; forcedquadraticresponses",
+        "premises": [
+          "explorations/conditional-build/printed-nonlinear-transfer-2026-11-27.md",
+          "explorations/conditional-build/printed-differential-solvability-2026-11-27.md"
+        ]
+      },
+      "attributed_status": "internal_T1_reviewed",
+      "status_ref": "lab/process/printed-state-completion.json#status",
+      "source_bridge_ref": "lab/process/printed-state-completion.json#source_bridge",
+      "certificate_refs": [
+        "lab/process/printed-state-completion-certificates.json",
+        "Lean/GUFormalization/PrintedStateCompletion.lean"
+      ],
+      "control_refs": [
+        "tests/program-focus/printed_state_completion_probe.py"
+      ],
+      "survivors_ref": "lab/process/printed-state-completion.json#follow_through",
+      "reopen_condition_ref": "explorations/conditional-build/printed-state-completion-2026-11-27.md",
+      "superseded_by": null,
+      "cache": {
+        "artifacts": [
+          {
+            "path": "explorations/conditional-build/printed-state-completion-2026-11-27.md",
+            "sha256": "fdd40f8a5faed93eb55346784968078d4a1956bff283f3f28991b79e62209e81"
+          },
+          {
+            "path": "tests/program-focus/printed_state_completion_probe.py",
+            "sha256": "2be9b235defb0b52f2940f479ffc328d69b8e0477a941b509d18af19d61f8a88"
+          },
+          {
+            "path": "lab/process/printed-state-completion-certificates.json",
+            "sha256": "ec0aafeace76b0d47f9ec9a7b142be29b6c7349e2c3397283029d14fe3e88977"
+          },
+          {
+            "path": "Lean/GUFormalization/PrintedStateCompletion.lean",
+            "sha256": "675f8ca3b1d314d312ea3658398cecec41253e306a46bb3d22eae296f5396dcc"
+          }
+        ],
+        "verifier": {
+          "command": "python3",
+          "args": [
+            "tests/program-focus/printed_state_completion_probe.py",
+            "--verify"
+          ]
+        },
+        "receipt_ref": "lab/process/printed-state-completion.json#verification",
+        "scope": "SymPy1.14.0;108exactchecks,4Leanfinitecores; reviewed written graph/PDE proof."
+      }
     }
   ]
 }

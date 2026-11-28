@@ -1,0 +1,437 @@
+{
+  "artifact": "PRINTED_STATE_COMPLETION",
+  "date": "2026-11-27",
+  "basis_revision": "539b4fab383d010b7c828225f9222c6b568eddff",
+  "status": "internal_T1_reviewed",
+  "target": "X-P1-P2",
+  "tier": "T1",
+  "lane": "LB-LADDER",
+  "actual_delta": "The actual printed quadratic interaction has a full massive left-null receiver104448 at the tested resonance, scaling as(2176/3)kappa\u00b2. This excludes the declared regular equivariant slaving graphs. Nonresonant and compatible forcing have exact stationary responses; the resonant forcing has an exact polynomial-time response with an unavoidable secular functional. No nonlinear ill-posedness or physical ghost follows.",
+  "source_bridge": {
+    "status": "conditional",
+    "reason": "Selected low-Phi frozen zero-source K95 completion, mode-admitting category and physical state/current are not source-selected. Scaled modes must be admitted; no claim about every fixed Fourier lattice or all Sobolev maps."
+  },
+  "source_necessary_exclusion": false,
+  "weakest_unproved_link": "No source-selected physical state/quotient or nonlinear admissibility law; selected frozen comparison need not transfer to native curved dynamics.",
+  "class_C_representativeness": "Named regular state/solution graph class over selected printed P/Q, not allC or source-GU.",
+  "track": [
+    "SOURCE conditional completion",
+    "GU* selection comparison"
+  ],
+  "choice_budget": {
+    "families": 10,
+    "obligations": 4,
+    "net": 6,
+    "source_selected_predictions": 0,
+    "change": 0
+  },
+  "selection": {
+    "mandatory_basis": "Count110 ordinary B; no ready priority packet/openT1. Next111 is LC-BETS.",
+    "class_scope": "C2 equivariant solution graphs with linear character action, or instantaneous state graphs with no base state at the sum; admits actual trace pair and finite mixed coefficient.",
+    "source_relevance": "Actual selected printed P/Q rather than W2; physical admission/source uniqueness remain unproved.",
+    "shared_prerequisite": "Nonlinear admissible state/observable interface for gravity, predictive dynamics and positivity.",
+    "reuse_delta": "Reused full symbol, actual vertex and scalarizer; computed massive left-null projection, nonresonant exact inverse and full-system secular response.",
+    "outcomes": [
+      "Compatible force would retain regular auxiliary slaving; nonzero receiver excludes its declared class.",
+      "Actual secular solution prevents a false local-solvability/ghost claim.",
+      "Nonresonant exact response shows support leakage alone is insufficient."
+    ],
+    "remaining_cost": "One precise full-channel nonlocal domain discriminator after mandatory LC slot; avoid repeated cutoff/regular-graph tests.",
+    "strongest_eligible_alternative": "Actual source-required current/effective shielding and unique observable bridge; lacks newly supplied physical current/domain.",
+    "cost": "One wave;108exactchecks0.271seconds;4Leanfinitecores;3independentreviews. Token cost not measured."
+  },
+  "verification": {
+    "artifact_hashes": {
+      "explorations/conditional-build/printed-state-completion-2026-11-27.md": "fdd40f8a5faed93eb55346784968078d4a1956bff283f3f28991b79e62209e81",
+      "tests/program-focus/printed_state_completion_probe.py": "2be9b235defb0b52f2940f479ffc328d69b8e0477a941b509d18af19d61f8a88",
+      "lab/process/printed-state-completion-certificates.json": "ec0aafeace76b0d47f9ec9a7b142be29b6c7349e2c3397283029d14fe3e88977",
+      "Lean/GUFormalization/PrintedStateCompletion.lean": "675f8ca3b1d314d312ea3658398cecec41253e306a46bb3d22eae296f5396dcc"
+    },
+    "reviews": [
+      {
+        "accepted": true,
+        "blockers": [],
+        "review_role": "Independent final geometry/PDE specialist; not an author of the candidate",
+        "artifact_hashes": {
+          "explorations/conditional-build/printed-state-completion-2026-11-27.md": "fdd40f8a5faed93eb55346784968078d4a1956bff283f3f28991b79e62209e81",
+          "tests/program-focus/printed_state_completion_probe.py": "2be9b235defb0b52f2940f479ffc328d69b8e0477a941b509d18af19d61f8a88",
+          "lab/process/printed-state-completion-certificates.json": "ec0aafeace76b0d47f9ec9a7b142be29b6c7349e2c3397283029d14fe3e88977",
+          "Lean/GUFormalization/PrintedStateCompletion.lean": "675f8ca3b1d314d312ea3658398cecec41253e306a46bb3d22eae296f5396dcc"
+        },
+        "detailed_reasoning": [
+          "The certified receiver concerns the massive matrix L0=12+P(i6eta), not just P. On the displayed hook block the row(2,12) annihilates [[12,-72],[-2,12]]. The native probe also checks all26 XOR-capable input columns including scalar-mass columns, so the obstruction is on the full carrier rather than a two-channel ansatz.",
+          "The actual polarized forcing has ell F=104448. The identical force is bound to the prior nonlinear certificate. The corresponding real Fourier sum has no additional pair that cancels its coefficient. Scaling all covectors and coupling together leaves the dimensionless row fixed and scales the forcing quadratically, giving nonzero2176*kappa\u00b2/3 for every nonzero real coupling.",
+          "For the solution-graph claim, the final report now explicitly requires the linear character action on modal parameters, including time translations. Thus the mixed quadratic coefficient has the sum spatial character and zero sum time frequency, forcing L0 H12=-F. Merely assuming an unspecified nonlinear translation action would not justify this step; that ambiguity was corrected during review.",
+          "The separate descriptor-state invariance equation includes nonlinear reduced dynamics. Expanding it at the mixed pair gives the normal homological equation plus A_t J g2. Spatial equivariance and absence of any base state at the sum frequency force this g2 coefficient to vanish. Consequently nonlinear retained dynamics cannot remove this external resonance in the declared class. The proof does not require an inverse for the singular time-principal matrix.",
+          "For the nonresonant pair, q(iK)=64 and the potential ratio9/16 is absent from the complete nineteen-factor list. The mass also inverts the zero Jordan sector. The sparse particular is verified against the full native operator and is stationary in time. This is a genuine survivor, not an inference of instability from off-band support.",
+          "The rational family is analytic near n=3, remains on the trace mass shell and reaches both fixtures. The hook spectral projection varies regularly there, while its massive eigenvalue12-4n has a simple zero. The nonzero projection at n=3 gives the stated simple response pole and residues. This excludes a pointwise smooth frequency kernel, not every distributional or Sobolev multiplier.",
+          "The secular construction is consistent with the sign of the rough box. On degree-two time polynomials, Box=q+s_tau partial_t\u00b2 and d(Box)=d(q)+s_tau dprime(q)partial_t\u00b2. At the simple root q=36, the reported negative-force auxiliary therefore satisfies d(Box)u=-F. Applying the owned two-sided scalarizer yields the full forced system; the probe separately verifies its coefficients with actual P_tau and P(iK). The certificate stores a positive-force particular, and the report consistently uses its negative.",
+          "Applying the full left-null row to A_t Wprime+L0W=-F gives the exact derivative of ell(A_t W), equal to minus104448. The functional is nonzero and bounded on the finite-dimensional coefficient space, so every all-time differentiable response is unbounded in any fixed coefficient norm. This is a statement about the forced quadratic coefficient, not finite-amplitude nonlinear instability.",
+          "The smooth oscillator-plus-integrator control correctly demonstrates that resonance and secular response coexist with well-posed evolution. The four Lean lemmas certify finite left-kernel and scaling implications only; the report does not represent them as formal PDE proofs."
+        ],
+        "corrections_during_review": [
+          "Requested explicit linear-character parameter action, including time translations, for the equivariant solution-graph claim. Root integrated it into the final report hash fdd40f8a5faed93eb55346784968078d4a1956bff283f3f28991b79e62209e81. The separate nonlinear reduced-state dynamics argument remains intact."
+        ],
+        "scope_limits": [
+          "No tests, builds, Lean execution or owner edits were performed by this reviewer. Root reports replay108 PASS; the certificate and four Lean finite cores were inspected read-only.",
+          "The graph theorem assumes admitted Fourier characters or a pointwise smooth quadratic kernel and a finite evaluable mixed coefficient. C2 regularity on an R13 Sobolev space alone does not provide those hypotheses.",
+          "The state-graph exclusion requires the displayed descriptor invariance equation, spatial equivariance and absence of a retained base state at6eta. Enlarged resonant dynamics, singular kernels, history dependence and other admitted polarizations are outside it.",
+          "The equations remain solvable at the tested quadratic forcing: nonresonant and compatible-resonant stationary responses and a resonant secular response survive. No general nonlinear neighborhood nonexistence or ill-posedness follows.",
+          "Frozen zero-source K95 is the only proved operator/domain category here. Native curved geometry, K77, physical quotient, source state admission, energy, ghosts and full-GU claims are not transferred.",
+          "The all-coupling scaling statement concerns the specified algebraic interaction with frequencies scaled accordingly; it is not a fixed-domain spectrum assertion or a physical renormalization result."
+        ],
+        "dependency_hashes": {
+          "tests/program-focus/source_action_deep_algebra.py": "4e3800131049e2b397bbce6106bfc5766d2f5fbf996319c50942f3b805d65598",
+          "tests/program-focus/printed_equation_jets_symbol_probe.py": "e43da867d17cf985bfac8c014657e8cbf18c94e80013350ca69eee804a4ebeb8",
+          "tests/program-focus/printed_differential_solvability_probe.py": "bd55c549c5448182ae35cff40d7fdb581d4b6b90a8f3f14b91029c219139434d",
+          "explorations/conditional-build/printed-equation-jets-and-symbol-2026-11-27.md": "d0fc17f026f254a93bf8a4a82891abba9b9fe0ec809f73fd7bd4ca06ae61b3c5",
+          "explorations/conditional-build/printed-differential-solvability-2026-11-27.md": "5190082b42b37cd970a8d2a5d820a02c7980d7cc16c446b414b1ca8fc7f5fdbb",
+          "explorations/conditional-build/printed-nonlinear-transfer-2026-11-27.md": "28bb64f53d40b4ca7434534f5104d018c273ca9d0e3561f7d3a8233ea91ca87b",
+          "lab/process/printed-nonlinear-transfer-certificates.json": "310ce5c4e6f85984938f95bdfe2e04f3eb162184953aaf06c1721cb49c208296"
+        },
+        "inherited_nonlinear_dependency_hashes": {
+          "tests/program-focus/source_action_deep_algebra.py": "4e3800131049e2b397bbce6106bfc5766d2f5fbf996319c50942f3b805d65598",
+          "tests/program-focus/source_action_deep_geometry.py": "7cdfe5f7609300c1ab4fb482f309cfafa52d0aa66cf353ef8b1f9c8be07e52df",
+          "lab/process/printed-endpoint-analytic-branch-certificates.json": "06114d56717239ab1aa90ac5b74779f5d63673ee2bcac36ecf3deca8540854a9",
+          "tests/program-focus/printed_endpoint_analytic_branch_probe.py": "6907facf01115719567e4d89e86bee41d9e981f79c7221b43874ca896677f04b",
+          "lab/process/source-action-deep-coefficients.json": "fb4aacfa69cbc1127b7fddf3b4f66811650c1fd3a889363cc6dfab940439b274",
+          "explorations/conditional-build/printed-equation-jets-and-symbol-2026-11-27.md": "d0fc17f026f254a93bf8a4a82891abba9b9fe0ec809f73fd7bd4ca06ae61b3c5",
+          "explorations/conditional-build/printed-differential-solvability-2026-11-27.md": "5190082b42b37cd970a8d2a5d820a02c7980d7cc16c446b414b1ca8fc7f5fdbb",
+          "tests/program-focus/printed_differential_solvability_probe.py": "bd55c549c5448182ae35cff40d7fdb581d4b6b90a8f3f14b91029c219139434d",
+          "tests/program-focus/printed_equation_jets_symbol_probe.py": "e43da867d17cf985bfac8c014657e8cbf18c94e80013350ca69eee804a4ebeb8"
+        },
+        "source_dependency_hashes": {
+          "explorations/conditional-build/source-prescription-current-2026-11-13.md": "6ec3109bb811e49463228b8a7a780303260997c6622baa48b213aa07558e7194",
+          "explorations/conditional-build/source-action-homogeneous-analytic-vacuum-2026-11-25.md": "5ed2c3d264500bfb7e801a31c33dfef8eb179ae1f5a628d08a231c29275f17e9",
+          "explorations/conditional-build/riemann-realform-transfer-2026-11-27.md": "39f6ad6678ac9524f1ab68a24e65ab3a577003c6ef500344b5bf84445366b222"
+        },
+        "hash_verification": "All four artifacts match the updated frozen manifest. All direct certificate and inherited nonlinear certificate dependency hashes match current files.",
+        "source_review_basis": "Uses the retained source-prescription and real-form/geometry custody; no claim of new primary-PDF or physical-domain authentication."
+      },
+      {
+        "reviewer": "source_current_prescription",
+        "role": "Independent source and representation review; no contribution to this wave",
+        "accepted": true,
+        "blockers": [],
+        "artifact_hashes": {
+          "explorations/conditional-build/printed-state-completion-2026-11-27.md": "fdd40f8a5faed93eb55346784968078d4a1956bff283f3f28991b79e62209e81",
+          "tests/program-focus/printed_state_completion_probe.py": "2be9b235defb0b52f2940f479ffc328d69b8e0477a941b509d18af19d61f8a88",
+          "lab/process/printed-state-completion-certificates.json": "ec0aafeace76b0d47f9ec9a7b142be29b6c7349e2c3397283029d14fe3e88977",
+          "Lean/GUFormalization/PrintedStateCompletion.lean": "675f8ca3b1d314d312ea3658398cecec41253e306a46bb3d22eae296f5396dcc"
+        },
+        "hash_verification": "Independently computed SHA256 for all four staged artifacts; each exactly matches the final frozen manifest. Re-read the final section3 clarification requiring the linear character action on modal parameters including time translations, and independently rehashed the changed report.",
+        "reasoning": [
+          "The obstruction uses the mass-shifted operator L0=12+P(i6eta), not the earlier cokernel of P alone. The direct hook matrix is [[12,-72],[-2,12]]; its left row (2,12) annihilates both columns. The displayed coefficient functional equals 2a+12b with the specified imaginary normalization. Thus the stated actual force with a=52224,b=0 gives104448. The producer additionally checks every26 Clifford-XOR-compatible source columns, including the scalar mass columns, establishing a full-carrier left-null identity rather than a right-kernel or restricted-ansatz test.",
+          "The force is the existing printed polarized Phi(vplus wedge vminus+vminus wedge vplus), retained byte-for-byte from the prior certificate. Q includes its factor1/2, so the mixed second-order coefficient is this full polarized force, not half of it. Only the two ordered input pairs reach the selected sum after realification. The complex Fourier amplitudes represent primary-minus real grade1/2 quadratures; no physical chirality or positive Hilbert-space assertion is introduced.",
+          "With s=kappa/12, homogeneity of the symbol gives L_kappa(i sK)=s L_12(iK); O(i sxi)=O(i xi), while each polarization scales by s. Thus the same left row annihilates the scaled operator and its force receiver scales by s squared. The arithmetic104448/144=2176/3 gives a nonzero receiver for every real kappa!=0. This is a frozen K95 statement; it does not transfer a small-h native result or establish curved kappa=1 behavior.",
+          "The quadratic graph obstruction is conditional on admitted Fourier characters, a finite mixed coefficient, translation equivariance and the stated invariance equation. Differentiating twice then gives L0H12=-F. In the state-graph variant, absence of a base state at the summed spatial frequency makes the reduced quadratic base term vanish there. Enlarging that base or changing the admitted pair is explicitly outside the theorem. A bare C2 Sobolev mapping is correctly not treated as a pointwise smooth multiplier kernel.",
+          "The force-specific Krylov identity is P(P squared-4q)(P squared+48q)=0 on this force. The hook and trace projection denominators208q squared and2496q squared are the corresponding exact interpolation values. The report does not promote this restricted polynomial to a universal symbol identity. At q64, full invertibility instead follows from the already owned complete19-factor spectrum and nonzero scalar mass; every denominator is nonzero.",
+          "The rational family satisfies its input shell, is analytic near n=3, and its negative-hook eigenvalue is -4n. Therefore the response to negative force is G(n)/(4(n-3)); the nonzero residues are the resonant projected force divided by4. This obstructs a pointwise smooth slaving kernel across that pair, without establishing a general singular-multiplier estimate or universal nonlocal no-go.",
+          "Applying the full left-null functional to the forced descriptor equation gives d/dt ell(Ptau W)=-104448. This is an exact secular coefficient statement, not a claim that Ptau is invertible or defines a global evolution generator. The simple scalarizer zero at q36 permits the stated quadratic-time auxiliary polynomial; the report's negative-force solution is the negative of the certificate's explicitly labeled positive-force particular. No sign mismatch occurs. The benign-resonance control properly separates slaving failure from ill-posedness.",
+          "The source and representation boundaries are retained: selected printed low-Phi P,Q are distinct from I1B/W2 dynamics; source primitive freedom is not a physical state-domain selection; K95 frozen completion is not silently identified with K77 or the native curved endpoint. Independent matter/bar issues, effective2+1, source action uniqueness and physical admission receive no new conclusion. H2 is explicitly interpretation, not an established observer or selection model.",
+          "The Lean artifacts prove finite left-kernel, extra-base-term and scaling implications under hypotheses. The report accurately leaves source custody, full native Clifford receiver authentication and graph/PDE interpretation as separate mathematical arguments."
+        ],
+        "craig_weinstein_assessment": {
+          "source_checked": "https://arxiv.org/html/0812.0210v3",
+          "finding": "Craig and Weinstein's paper proves constrained well-posedness for the linear scalar ultrahyperbolic Cauchy problem on codimension-one hypersurfaces. It does not establish preservation of a GU state constraint under the present nonlinear Q.",
+          "current_report_overclaim": false,
+          "required_distinction": "A proposed nonlinear Craig-Weinstein-style law must specify its admitted polarizations and constraint, then demonstrate preservation by the full nonlinear equation. The tested pair is stable only in its trace channel; a multichannel law may exclude one member, impose amplitude correlations, retain the resonant state, or use a different completion. The current obstruction applies if the law admits both directions and satisfies the regular slaving hypotheses. It neither validates such a law nor excludes every nonlinear nonlocal selection mechanism."
+        },
+        "limits": [
+          "No probes, tests, Lean builds or verification jobs were run, and no owner files were edited. This review inspected frozen artifacts and computed their hashes; executed-check success remains root-owned evidence.",
+          "Exact stored native coefficients were checked against the producer logic and prior artifact custody, not recomputed by a second independent full Clifford implementation.",
+          "No full nonlinear invariant manifold, all-time bounded physical solution, finite-amplitude instability, general Sobolev no-go, source-required selection law or native curved transfer is established."
+        ]
+      },
+      {
+        "accepted": true,
+        "reviewer": "/root/falsification_rerank",
+        "role": "independent hostile mathematical and scope review",
+        "artifact_hashes": {
+          "explorations/conditional-build/printed-state-completion-2026-11-27.md": "fdd40f8a5faed93eb55346784968078d4a1956bff283f3f28991b79e62209e81",
+          "tests/program-focus/printed_state_completion_probe.py": "2be9b235defb0b52f2940f479ffc328d69b8e0477a941b509d18af19d61f8a88",
+          "lab/process/printed-state-completion-certificates.json": "ec0aafeace76b0d47f9ec9a7b142be29b6c7349e2c3397283029d14fe3e88977",
+          "Lean/GUFormalization/PrintedStateCompletion.lean": "675f8ca3b1d314d312ea3658398cecec41253e306a46bb3d22eae296f5396dcc"
+        },
+        "blockers": [],
+        "reasoning": [
+          {
+            "topic": "Full massive left cokernel",
+            "assessment": "The row ell=2a+12b annihilates the hook block [[12,-72],[-2,12]]. The inherited invariant decomposition and exhaustive Clifford-XOR receiver-column list extend this from the displayed two-channel input to the full carrier. The actual polarized force has ell(F)=104448, so the stationary equation L0 H12=-F is impossible even with arbitrary coefficient components."
+          },
+          {
+            "topic": "Character and smooth-kernel premise",
+            "assessment": "The final report explicitly requires a linear character action on modal parameters including time translations. Thus its mixed second derivative lies at the summed spacetime character. The obstruction also applies to a quadratic Fourier kernel pointwise smooth at this pair. C2 regularity of an R13 Sobolev map alone is explicitly insufficient, and no measure-zero Fourier value is used to claim a general Sobolev obstruction."
+          },
+          {
+            "topic": "Nonlinear base dynamics",
+            "assessment": "Expanding the stated descriptor invariance equation gives L0 H12+A_t J g2(a_plus,a_minus)+F=0 because the input temporal eigenvalues sum to zero. In the precise stated class, the base has no state at the summed spatial character, so spatial translation covariance forces that g2 coefficient to vanish. This is a valid external-resonance obstruction without assuming globally well-posed descriptor evolution. The receipt does not broaden it to every base merely omitting one named polarization."
+          },
+          {
+            "topic": "All nonzero real couplings",
+            "assessment": "For s=kappa/12, O(i s xi)=O(i xi), each trace polarization scales by s, L_kappa(i s K)=s L_12(i K), and the force scales by s squared. The same left-null row therefore gives (2176/3) kappa squared. This is an algebraic all-kappa result conditional on admission of the rescaled characters; it does not assert that every fixed torus frequency lattice contains those characters."
+          },
+          {
+            "topic": "Nonresonant and resonant response survivors",
+            "assessment": "At n=4 the full scalarizer has no vanishing factor and kappa is nonzero, including on the zero-symbol Jordan sectors. The stored full particular and compatible-resonance control are consistent with the formulas. At n=3 the simple scalar root gives the stated quadratic-time auxiliary via d(Box); applying the owned constant-coefficient two-sided scalarizer produces a forced response. The code verifies the positive-force particular and explicitly negates it for the actual quadratic equation, matching the report sign."
+          },
+          {
+            "topic": "Secular drift and ill-posedness boundary",
+            "assessment": "Applying ell to A_t Wprime+L0 W=-F gives ell(A_t W)=constant-104448 t. This excludes an all-time bounded modal coefficient, while preserving local responses and the explicit polynomial response. Neither secular perturbative growth nor failure of a stationary graph establishes nonlinear ill-posedness, finite-amplitude instability, a ghost, or a physical conclusion."
+          },
+          {
+            "topic": "Pole and regular slaving",
+            "assessment": "The rational family is analytic near n=3, its input shell is fixed, and the negative-hook divisor is 12-4n. The nonzero actual projected force at n=3 gives the recorded residues 6528 and 26112. This rules out pointwise smooth frequency slaving across the resonance, not all singular or history-dependent operators."
+          },
+          {
+            "topic": "Source and formalization scope",
+            "assessment": "The report uses the selected frozen zero-source K95 printed P,Q, distinguishes the curved native source/lower terms and W2, and assumes no source-required physical state domain. The four Lean results are finite cokernel/scaling implications, not a formalization of the native algebra, graph differentiability, or PDE theory."
+          }
+        ],
+        "scope_limits": [
+          "Only the selected frozen zero-source K95 printed comparison is covered; K77 and the actual curved printed branch require their own transfer.",
+          "The tested modes are oscillatory in the trace channel, not asserted stable in all 19 symbol channels.",
+          "The solution-graph result requires linear spacetime character equivariance and meaningful finite coefficient evaluation, or the stated pointwise smooth Fourier-kernel premise.",
+          "The state-graph proof uses absence of a base state at the summed spatial character. Enlarged dynamic bases and alternative admissible domains remain outside.",
+          "The all-kappa result is conditional on admission of the scaled modes, not a universal assertion about an independently fixed periodic lattice.",
+          "No general Sobolev-map no-go, nonlinear curved existence/nonexistence, full nonlinear instability, negative-energy result, physical state selection, or source-GU falsification follows."
+        ],
+        "authentication": {
+          "all_four_manifest_hashes_match": true,
+          "producer_binding_matches": true,
+          "current_dependency_hashes_match": true,
+          "inherited_nonlinear_dependency_hashes_match": true,
+          "recorded_check_count": 108
+        },
+        "verification_attribution": {
+          "reviewer": "Read-only artifact and mathematical inspection; only lightweight file hashing and JSON binding checks. No probe, native engine, test suite, Lean compilation, or owner edit performed.",
+          "root": "Root reports exact replay 108 PASS. The four finite Lean cores were read; compilation is owned by root, not rerun by this reviewer."
+        }
+      }
+    ],
+    "exact_controls": 108,
+    "command": "UV_CACHE_DIR=/private/tmp/gu-current-uv-cache uv run --offline --with sympy==1.14.0 python tests/program-focus/printed_state_completion_probe.py --verify",
+    "lean": {
+      "status": "PASS",
+      "exit_code": 0,
+      "command": "lake env lean -j1 /private/tmp/gu-printed-state-completion-20261127/Lean/GUFormalization/PrintedStateCompletion.lean",
+      "cwd": "/Users/joe/Brain/CapacityOS/repos/public/gu-formalization",
+      "stdout": "",
+      "stderr": "",
+      "artifact_sha256": "675f8ca3b1d314d312ea3658398cecec41253e306a46bb3d22eae296f5396dcc",
+      "scope": "Four finite algebra cores, no native or PDE formalization"
+    },
+    "proof_scope": "Finite exact native checks and four abstract Lean algebra cores; universal/graph/PDE arguments are reviewed written proofs, not full formalization.",
+    "gates": {
+      "program_focus_audit": "PASS",
+      "typed_carrier_declaration_audit": "PASS",
+      "kill_target_claim_audit": "PASS",
+      "frontmatter_status_schema_audit": "PASS",
+      "source_native_comparator_routing_audit": "PASS",
+      "lean_certificate_surface_audit": "PASS",
+      "current_state_absolute_currency_audit": "PASS",
+      "conditional_evidence_delta_gate": "PASS",
+      "research_context_reader_audit": "PASS"
+    }
+  },
+  "three_state": {
+    "ESTABLISHED": "The actual printed quadratic interaction has a full massive left-null receiver104448 at the tested resonance, scaling as(2176/3)kappa\u00b2. This excludes the declared regular equivariant slaving graphs. Nonresonant and compatible forcing have exact stationary responses; the resonant forcing has an exact polynomial-time response with an unavoidable secular functional. No nonlinear ill-posedness or physical ghost follows.",
+    "RULED_OUT": "Declared regular graph/slaving and bounded all-time forced quadratic coefficient; all-kappa only with rescaled-mode admission.",
+    "NOT_MODELED_UNDETERMINED": "General nonlinear instability, all-Sobolev nonlocal operators, native curved transfer, physical ghosts and source-GU failure."
+  },
+  "literature": [
+    {
+      "url": "https://web.mat.upc.edu/xavier.cabre/docs/indi1jour.pdf",
+      "relevance": "Parameterization and external resonance method; no imported hypotheses."
+    },
+    {
+      "url": "https://arxiv.org/abs/1602.00560",
+      "relevance": "Spectral submanifold prior art; no dissipative-theorem transfer."
+    },
+    {
+      "url": "https://arxiv.org/abs/0812.0210",
+      "relevance": "Scalar linear nonlocal constraint; codimension-one theorem distinct from higher-codimension finite-jet nonuniqueness."
+    }
+  ],
+  "novelty_claim": "none",
+  "retrospective": {
+    "trigger": "Review clarified time-translation action; preserve nonlinear reduced dynamics in the separate state theorem.",
+    "finding": "A nonzero left-null force excludes bounded stationary slaving but not polynomial-time response.",
+    "shortcut": "Four-row left-null and26possiblecolumns plus polynomial scalarizer replace a full inverse.",
+    "forecast_vs_actual": "Regular repair excluded; exact forced survivor found.",
+    "failure_memory": "No local illposedness from resonance; no all-Sobolev exclusion from one Fourier pair; no universal fixed-lattice kappa scaling."
+  },
+  "follow_through": {
+    "consumed": [
+      "Strict all-field support replay",
+      "Stationary off-band auxiliary repair at the actual resonant pair",
+      "Regular translation-equivariant solution graph with linear character action admitting that pair",
+      "Instantaneous state graph with no base state at the spatial sum, even allowing nonlinear reduced dynamics"
+    ],
+    "survivors": [
+      "Nonresonant exact auxiliary response",
+      "Resonant secular forced response and enlarged independent dynamic state",
+      "Singular nonlocal/history-dependent domains; their boundedness and nonlinear closure are unproved",
+      "Actual native curved branch and source physical quotient/current remain separate"
+    ],
+    "next": "Counter111 requires the unchanged LC-BETS selection first. For the next ordinary B slot, rank Craig-Weinstein-type nonlocal admissibility as a leading GU* candidate test: reuse the full19-channel symbol, actualQ and resonant receiver; first determine which modes its precise constraint admits and whether the actual quadratic evolution preserves it. A scalar trace-channel cutoff is not a full-system constraint. If the tested pair is admitted, strict support and regular slaving are already excluded; test an independent resonant state or a genuinely singular/history-dependent rule only with its stated domain. Compare with source-required current/effective shielding, not another equivalent resonance census."
+  },
+  "near_miss_reframings": {
+    "authority": [
+      "joe_direct_chat_2026_11_27_n",
+      "joe_direct_chat_2026_11_27_o"
+    ],
+    "status": "evidence_roles_and_ordinary_ranking_applied",
+    "items": [
+      {
+        "id": "n1",
+        "decision": "modified_adopted",
+        "priority_among_n": 1,
+        "track": "GU* candidate; SOURCE debt attribution only",
+        "old_role": "applicable caution / nonlocal escape",
+        "new_role": "leading candidate selection-law test, not an adopted physical law",
+        "wording": "Unrestricted-domain growth and finite-loss obstructions are conditional on data admission. A Craig-Weinstein-type restriction is a live candidate repair; its applicability to the full printed system and nonlinear invariance are unproved. Finite-jet slice nonuniqueness is not thereby removed.",
+        "reason": "SC-META-52 acknowledges ultrahyperbolic technical debt. The register adherence note mentions a tested remedy; the primary attributed statement does not select it. Craig and Steven Weinstein prove constrained scalar linear codimension-one well-posedness and also higher-codimension finite-jet nonuniqueness. Current actual-Q resonance shows why linear mode removal alone is insufficient.",
+        "three_state": {
+          "ESTABLISHED": "Published scalar linear constrained Cauchy theorem; owned full printed symbol and scoped strict-cutoff/regular-slaving exclusions.",
+          "RULED_OUT": "Only the specified nonlinear cutoff and regular graph classes admitting the tested pair.",
+          "NOT_MODELED_UNDETERMINED": "A source-supplied CW rule; full-system nonlinear invariant domain; physical quotient; curved transfer and slice completeness."
+        },
+        "refs": [
+          "lab/sources/source-claim-register.yaml#SC-META-52",
+          "https://arxiv.org/abs/0812.0210",
+          "explorations/conditional-build/printed-state-completion-2026-11-27.md",
+          "explorations/conditional-build/printed-equation-jets-and-symbol-2026-11-27.md"
+        ],
+        "test": "Specify a full-channel constraint and check admission of the tested pair, actual-Q closure, physical-time/domain estimates and what additional data are needed on the codimension10 section.",
+        "outcomes": [
+          "Pair admitted and regular slaving demanded: reuse exclusion, change mechanism.",
+          "Pair excluded or resonant state retained: test new domain closure and observable content.",
+          "No defined constraint: keep candidate role; no solved-selection credit."
+        ]
+      },
+      {
+        "id": "n2",
+        "decision": "modified; reject false dichotomy",
+        "priority_among_n": 5,
+        "track": "SOURCE fixed-family evidence and GU* wedge candidate separately",
+        "old_role": "Possible implication that wedge interpretation escapes all fixed-linear results",
+        "new_role": "Two distinct properties: companion/Einstein response versus exact variational ownership",
+        "wording": "A wedge/module Shiab can have nonzero Einstein response and a Bianchi companion. If it is fixed, nonzero, full-Spin-equivariant and used in the same exact full-translation Euler endpoint, the existing universal variational obstruction still applies.",
+        "reason": "Fixed-linear and wedge/module are not disjoint classes. The companion survivor does not prove the printed action varies to that endpoint. Whole-class exact-Euler coverage should replace a duplicate recheck.",
+        "three_state": {
+          "ESTABLISHED": "Owned wedge companion and nonzero Einstein response; universal exact-Euler obstruction under its stated full-tangent, pairing and map hypotheses.",
+          "RULED_OUT": "Same common fixed nonzero S as an exact Euler covector in the classified architecture, including wedge members satisfying those premises.",
+          "NOT_MODELED_UNDETERMINED": "A different field-dependent map, tangent, pairing or zero-set equivalence, and its physical conservation/energy."
+        },
+        "refs": [
+          "explorations/conditional-build/shiab-bianchi-companion-class-2026-11-27.md",
+          "explorations/conditional-build/printed-shiab-endpoint-audit-2026-11-27.md"
+        ],
+        "test": "Before another computation, map the proposed wedge operator to the universal premises. Compute only an actual premise difference; attach conservation/energy claims only to an owned action and domain.",
+        "outcomes": [
+          "Premises hold: reuse exclusion.",
+          "Premise changes with source citation: test that exact delta.",
+          "No explicit changed dynamics: no blanket energy/ghost recheck."
+        ]
+      },
+      {
+        "id": "n3",
+        "decision": "modified_adopted",
+        "priority_among_n": 2,
+        "track": "SOURCE effective claim; conditional tests and GU* repairs",
+        "old_role": "Risk of equating exact LC positive-form obstruction with all shielding",
+        "new_role": "Effective source shielding remains a distinct quantitative question; prior conditional bounds reused",
+        "wording": "Exact parallel positive-form shielding fails in the stated native LC classes. Effective low-curvature shielding is not excluded; conditional response bounds already exist, while the actual physical-current and uniform-domain hypotheses remain open.",
+        "reason": "SC-META-53 is UNCERTAIN; an equivalence-principle reading does not prove these bounds. Nov13 fixed-spin-only descent has an O(1) zero-curvature defect; geometric/moving-tensor alternatives survive. Small curvature alone does not control inverse operators near zero modes.",
+        "three_state": {
+          "ESTABLISHED": "Exact LC/holonomy results and existing conditional weak-response bounds with nonuniformity controls.",
+          "RULED_OUT": "An O(curvature) bound for the already tested fixed-spin-only defect on all hidden fields, since the defect survives at zero curvature.",
+          "NOT_MODELED_UNDETERMINED": "Source-native observed-current shielding with uniform resolvent/domain bounds and a physical readout."
+        },
+        "refs": [
+          "lab/sources/source-claim-register.yaml#SC-META-53",
+          "explorations/conditional-build/source-weak-action-transport-2026-11-13.md",
+          "explorations/conditional-build/source-chimeric-trace-compatibility-2026-11-13.md"
+        ],
+        "test": "Match the source effective current and geometric weak action, then test the first nonzero curvature coefficient with a uniform inverse bound; do not repeat the fixed-spin zero-curvature counterexample.",
+        "outcomes": [
+          "Uniform bound and correct current give a conditional effective fit.",
+          "O(1) physical-current term rejects that effective mechanism.",
+          "Missing current/domain leaves a named prerequisite, not a false all-shielding verdict."
+        ]
+      },
+      {
+        "id": "n4",
+        "decision": "modified_adopted",
+        "priority_among_n": 3,
+        "track": "SOURCE grading comparison; GU* realizations kept separate",
+        "old_role": "Prescribed horizontal grade could be mistaken for the only native possibility",
+        "new_role": "Keep ambient-correlated and coherent-horizontal alternatives visible; determine physical grade through actual observation/current",
+        "wording": "The ambient-correlated grading already survives the held complete metric-spin operator and descends through its admissible observation. Its identification with physical weak chirality and a common graded Fredholm domain remains unproved.",
+        "reason": "Nov24 already supplied the countercontrol. Do not redo it or call a surviving repository reconstruction the source-produced physical grading. The conditional split needs one common physical grading, balance and compatible Fredholm observation.",
+        "three_state": {
+          "ESTABLISHED": "Ambient-correlated oddness and conditional six-spinor descent in the named metric-spin reconstruction.",
+          "RULED_OUT": "Previously excluded prescribed-horizontal families only, not all descending gradings.",
+          "NOT_MODELED_UNDETERMINED": "Physical weak-current identification, native analytic domain and balanced total in that same physical grading."
+        },
+        "refs": [
+          "explorations/conditional-build/ambient-correlated-grading-control-2026-11-24.md",
+          "explorations/conditional-build/zero-total-grading-premise-2026-11-20.md",
+          "lab/process/observation-physical-carrier-custody-2026-11-27.md"
+        ],
+        "test": "Test actual weak-current grading against the correlated quotient and its domain; rerun index balance only after this missing premise changes.",
+        "outcomes": [
+          "Matched current/domain activates the conditional index test.",
+          "Mismatch excludes that identification, not the correlated algebraic survivor.",
+          "No new datum: retain the existing result, no duplicate classification."
+        ]
+      },
+      {
+        "id": "n5",
+        "decision": "modified_adopted",
+        "priority_among_n": 4,
+        "track": "GU* observer reference candidate; source normalization burden conditional",
+        "old_role": "Infinite invariant volume could be overread as impossible normalization or a forced dimensional scale",
+        "new_role": "Reference normalization required for finite reduction; section-supplied and singular candidates explicitly retained",
+        "wording": "A finite four-dimensional reduction needs a specified normalization/reference. A section can supply candidate reference data; this does not by itself select a full-dimensional measure, a horizon, or a new dimensional scale.",
+        "reason": "The section leaves Lorentz stabilizer freedom. The existing invariant-probability theorem permits singular delta_g and arbitrary conformal-ray measures, but excludes a regular full-dimensional invariant probability in the specified class. Finite normalization is not automatically a prediction or a scale.",
+        "three_state": {
+          "ESTABLISHED": "Existing conformal-ray/singular measure controls and smooth-density/stabilizer obstruction.",
+          "RULED_OUT": "A regular full-dimensional finite invariant measure with the tested noncompact effective isotropy.",
+          "NOT_MODELED_UNDETERMINED": "A source-selected observer algebra/trace, horizon identification, actual reduced action and unique physical normalization."
+        },
+        "refs": [
+          "explorations/conditional-build/symmetry-restoration-measure-limit-2026-11-25.md",
+          "explorations/conditional-build/tensor-stabilizer-normalization-2026-11-25.md"
+        ],
+        "test": "Check any proposed section reference against the existing stabilizer theorem; distinguish a singular evaluation measure from a faithful smooth bulk reduction and supply the actual reduced observable.",
+        "outcomes": [
+          "Admissible singular/state-dependent reduction survives with its costs.",
+          "Requested smooth invariant density falls under the existing exclusion.",
+          "No physical reduction/readout supplied: retain H1 as interpretation."
+        ]
+      }
+    ],
+    "watch": {
+      "status": "recorded_without_count_inference",
+      "statement": "On the closed spin Lorentz base and optional prescribed-Spin normal product lift, some liftable reduction exists iff48 divides signature; fixed reductions require an integral sixth root. The factor3 beyond Rokhlin16 is a structural divisibility condition, not a generation count.",
+      "refs": [
+        "explorations/conditional-build/normal-sm-characteristic-constraints-2026-11-27.md",
+        "explorations/conditional-build/full-y-normal-product-lift-2026-11-27.md"
+      ],
+      "trigger": "Only investigate recurrence when a typed map relates the same characteristic class, torsion or integer observable; repeated numerals alone have no VOI."
+    },
+    "limits": "Source-register verbatim/polarity, scientific verdicts and governance unchanged. These are evidence and test-role annotations; no physical law, repair or choice adopted."
+  },
+  "accounting": {
+    "counter_before": 110,
+    "counter_after": 111,
+    "LB_LADDER_before": 23,
+    "LB_LADDER_after": 24,
+    "bet_credit": 0,
+    "cell_status_changes": 0,
+    "ledger_verdict_changes": 0
+  },
+  "effect_line": "Change: regular resonant slaving excluded with exact forced survivors; CW promoted to leading GU* selection-law test and five near-miss roles clarified. Why: actual printed-Q compatibility matters beyond linear stability. Authority:27h/n/o; applied as evidence and ordinary ranking. No governance/source/ledger/choice change; next cadence remains LC-BETS."
+}

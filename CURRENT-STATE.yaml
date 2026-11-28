@@ -1,7 +1,7 @@
 schema_version: '1.0'
 repository: observerse-research-program
 branch: main
-revision_basis: 7e83b7f31665a78c78682ac75c9da2e162729680
+revision_basis: 539b4fab383d010b7c828225f9222c6b568eddff
 program_focus:
   version: 2026-11-27-v3
   authority: joe_direct_chat_2026_11_27_k
@@ -222,6 +222,32 @@ program_focus:
       instead of silently adopting them.
     current_view: lab/process/source-action-opportunity-register-2026-11-25.json#research_track_view
     effect_receipt: lab/process/two-track-adoption-2026-11-27.json
+printed_state_completion_2026_11_27:
+  status: internal_T1_reviewed
+  actual_delta: "The actual printed quadratic interaction has a full massive left-null receiver104448\
+    \ at the tested resonance, scaling as(2176/3)kappa\xB2. This excludes the declared regular equivariant\
+    \ slaving graphs. Nonresonant and compatible forcing have exact stationary responses; the resonant\
+    \ forcing has an exact polynomial-time response with an unavoidable secular functional. No nonlinear\
+    \ ill-posedness or physical ghost follows."
+  source_bridge:
+    status: conditional
+    reason: Selected low-Phi frozen zero-source K95 completion, mode-admitting category and physical state/current
+      are not source-selected. Scaled modes must be admitted; no claim about every fixed Fourier lattice
+      or all Sobolev maps.
+  evidence:
+  - explorations/conditional-build/printed-state-completion-2026-11-27.md
+  - lab/process/printed-state-completion.json
+  next: 'Counter111 requires the unchanged LC-BETS selection first. For the next ordinary B slot, rank
+    Craig-Weinstein-type nonlocal admissibility as a leading GU* candidate test: reuse the full19-channel
+    symbol, actualQ and resonant receiver; first determine which modes its precise constraint admits and
+    whether the actual quadratic evolution preserves it. A scalar trace-channel cutoff is not a full-system
+    constraint. If the tested pair is admitted, strict support and regular slaving are already excluded;
+    test an independent resonant state or a genuinely singular/history-dependent rule only with its stated
+    domain. Compare with source-required current/effective shielding, not another equivalent resonance
+    census.'
+  near_miss_reframings: lab/process/printed-state-completion.json#near_miss_reframings
+  choice_budget_effect: none
+  verdict_effect: none
 printed_nonlinear_2026_11_27:
   status: internal_T1_reviewed
   actual_delta: "The actual printed quadratic term admits an exact real frozen nonlinear growing null-hook\

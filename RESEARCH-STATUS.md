@@ -16,6 +16,10 @@ discovery bet (`lab/process/discovery-bets.json`). The K25xx--K2618 detector, pr
 results below are retained as conditional mathematics; that lane is no longer the default target. Sections
 below are dated results, newest first, and are not steering.
 
+## 2026-11-27 — Resonant printed state completion
+
+[Result](explorations/conditional-build/printed-state-completion-2026-11-27.md) · [Evidence](lab/process/printed-state-completion.json). The actual quadratic force has massive left-null receiver104448, excluding the specified regular slaving graphs at every nonzero coupling with rescaled modes admitted. An exact nonresonant stationary response and resonant polynomial-time response survive; no nonlinear instability or physical ghost is inferred.108 exact checks,4 Lean finite cores and3 independent reviews passed. Evidence-role corrections for Joe27n/o are recorded in the opportunity register and progress map; all29 options retained. Verdicts and choice budget unchanged.
+
 ## 2026-11-27 — Actual printed nonlinear transfer
 
 [Result](explorations/conditional-build/printed-nonlinear-transfer-2026-11-27.md) · [Evidence](lab/process/printed-nonlinear-transfer.json). An exact frozen nonlinear growing sector survives self-interaction, but literal native continuation has receiver1/2+O(h²). The actual analytic branch first obstructs the specified scalarizer correction at h5 (receiver1296). Two stable modes have a nonzero out-of-band quadratic vertex (receiver−22080), excluding the strict cutoff that admits both.179 exact checks,4 Lean finite cores and3 independent reviews passed. Other nonlinear solutions and physical domains remain open; no source/ledger verdict or choicebudget change. All24 options retained.
