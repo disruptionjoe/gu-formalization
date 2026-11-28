@@ -1,0 +1,203 @@
+{
+  "artifact": "CW_BILINEAR_BOUNDARY",
+  "date": "2026-11-27",
+  "basis_revision": "1f05c3a58819833e1fe1d4d783970dfe9a46676c",
+  "status": "internal_T2_reviewed",
+  "target": "X-P1-P2",
+  "tier": "T2",
+  "lane": "LB-LADDER",
+  "actual_delta": "The actual one-sided quadratic boundary map is locally bounded L2xL2 to L2, with threshold-tail operator norm O(epsilon^(1/4)), using a uniform nonlinear change of variables and all11 spectator directions. The proof covers all7 positive-factor output thresholds and all38 signed massive common-CW input branches locally. Quadratic displacement has an O(1+sqrt(t)) upper bound and momentum a uniform upper bound. A negative-factor a=-2 collinear locus remains outside the proof; its actual vertex and estimate are untested.",
+  "source_bridge": {
+    "status": "conditional",
+    "reason": "SC-ACT-02/SC-META-52 supply endpoint template and ultrahyperbolic debt, not a unique low-Phi realization or future state law; no physical domain/norm or source prediction follows."
+  },
+  "source_necessary_exclusion": false,
+  "weakest_unproved_link": "All-output nonlinear invariance with retained decaying states and a source-selected physical domain/current. Negative-factor rank-loss interaction is not yet evaluated.",
+  "class_C_representativeness": "Selected frozen complex K95 printed realization; local ordinaryL2 boundary estimates, not allC/native/physical acceptance.",
+  "track": [
+    "SOURCE conditional selected printed realization",
+    "GU* proposed future-boundary repair"
+  ],
+  "choice_budget": {
+    "families": 10,
+    "obligations": 4,
+    "net": 6,
+    "source_selected_predictions": 0,
+    "new_adopted_choices": 0,
+    "repair_adopted": false,
+    "scope": "Historical candidate grouping retained, not universal GU parameter count. Future prescription, free-state and topology costs remain unadopted."
+  },
+  "three_state": {
+    "ESTABLISHED": "The actual one-sided quadratic boundary map is locally bounded L2xL2 to L2, with threshold-tail operator norm O(epsilon^(1/4)), using a uniform nonlinear change of variables and all11 spectator directions. The proof covers all7 positive-factor output thresholds and all38 signed massive common-CW input branches locally. Quadratic displacement has an O(1+sqrt(t)) upper bound and momentum a uniform upper bound. A negative-factor a=-2 collinear locus remains outside the proof; its actual vertex and estimate are untested.",
+    "RULED_OUT": "Normalized concentration countersequences to the proved positive-threshold local bound; mathematical consequence only. No new physical class kill.",
+    "NOT_MODELED_UNDETERMINED": "Negative-factor endpoint, all-generated-frequency interactions, nonlinear manifold, physical positivity/current/selection, curved/wedge/K77 transfer and slice completeness."
+  },
+  "selection": {
+    "mandatory_basis": "Counter121 ordinaryB packet2b; previous smoothpacket survivor named this uniformestimate as exact nextdiscriminator.",
+    "class_scope": "All seven positive-factor output thresholds, local pairs of all38 signed massive common-CW input channels with smooth polarizations and bounded vertex.",
+    "source_relevance": "Conditional predictive-domain requirement, not source-required state law.",
+    "shared_prerequisite": "Nonlinear selection/domain gates predictability and physical positivity.",
+    "reuse_delta": "Actual scalarizer, force and regular coordinates reused; new actual Jacobian, elementary CS estimate and uniform data/time controls.",
+    "strongest_eligible_alternative": "Physical PT norm criterion; must declare domain. New27z tomography and auxiliary scoping are lower-cost clarifications but do not resolve active nonlinear closure gate.",
+    "remaining_cost": "One exact uncovered negative-factor vertex, then a transverse estimate only if nonzero.",
+    "expected_vs_actual": "Uniform endpoint passes; extends beyond original pair to seven output shells. General nonlinear BL identified but direct proof avoids theorem dependence.",
+    "cost": "One wave;52exactcontrols about0.2s; two independent reviews; no new Lean or dense algebra."
+  },
+  "verification": {
+    "artifact_hashes": {
+      "explorations/conditional-build/cw-bilinear-boundary-estimate-2026-11-27.md": "a54e76bea6a75eb26a8114499e3660d9a4bd5e2b22b1e15ffcfb8d6af274d8b3",
+      "tests/program-focus/cw_bilinear_boundary_probe.py": "40263d60d7235ead8828818f459f18ee4103554dcd8b8523e7da9604b97d4f8f",
+      "lab/process/cw-bilinear-boundary-certificates.json": "7117b31256935c37cbb552ca064f989403e3f85df02d4eb6db3aa38079c4dc65"
+    },
+    "exact_controls": 52,
+    "command": "UV_CACHE_DIR=/private/tmp/gu-current-uv-cache uv run --offline --with sympy==1.14.0 python tests/program-focus/cw_bilinear_boundary_probe.py --verify",
+    "lean_scope": "No new Lean claim for T2 positive estimate. Reuse accepted descriptor/finite cores; new functional analysis independently reviewed in writing.",
+    "reviews": [
+      {
+        "accepted": true,
+        "blockers": [],
+        "reviewer": "metric_family_second_review",
+        "tier": "T2 independent mathematical/PDE review",
+        "basis": "1f05c3a58819833e1fe1d4d783970dfe9a46676c",
+        "artifact_hashes": {
+          "explorations/conditional-build/cw-bilinear-boundary-estimate-2026-11-27.md": "a54e76bea6a75eb26a8114499e3660d9a4bd5e2b22b1e15ffcfb8d6af274d8b3",
+          "tests/program-focus/cw_bilinear_boundary_probe.py": "40263d60d7235ead8828818f459f18ee4103554dcd8b8523e7da9604b97d4f8f",
+          "lab/process/cw-bilinear-boundary-certificates.json": "7117b31256935c37cbb552ca064f989403e3f85df02d4eb6db3aa38079c4dc65"
+        },
+        "findings": [
+          {
+            "topic": "Actual nonlinear map",
+            "finding": "Accepted. Direct differentiation gives J_l=2(k_eta*l_sigma-k_sigma*l_eta)/omega(l), center matrix [[0,12],[14/13,9/26]], determinant -168/13. The proof uses the nonlinear square-root phase and quadratic delta throughout. Uniform closeness of the parameterized derivative to this fixed invertible matrix on sufficiently small convex active patches gives a quantitative segment lower bound and injectivity, as well as a positive uniform Jacobian lower bound."
+          },
+          {
+            "topic": "Two Cauchy-Schwarz steps",
+            "finding": "Accepted. For fixed eleven-dimensional spectators, the first squared factor integrates |f(k2)|^2 |w(delta,nu)|^2 and is controlled by the actual l2-to-(delta,nu) map at fixed k2. The second squared factor integrates |g(l2)|^2 |h(k2+l2)|^2 and uses the unit-Jacobian k2-to-K2 map. Restrictions to the input patches can be enlarged in the second nonnegative integral. No unproved frozen-phase estimate is used."
+          },
+          {
+            "topic": "Spectator directions",
+            "finding": "Accepted. The remaining integral of F(z)G(w)H(z+w) is bounded by |E|^(1/2) times the three full slice L2 norms: Cauchy-Schwarz in w, then on the bounded z projection E. This accounts for every one of the thirteen spatial dimensions; transverse directions are not silently discarded."
+          },
+          {
+            "topic": "Threshold norm and density extension",
+            "finding": "Accepted. The absolute Cauchy kernel has squared L2 norm at most 2*pi*sqrt(D) in (delta,nu), hence the bilinear bound and O(epsilon^(1/4)) threshold-tail operator norm. Bounded kernel truncations and monotone convergence justify absolute integrability for almost every output and extension by density to arbitrary L2 amplitudes. The constants require no Fourier derivatives, and compact-frequency Sobolev weights are comparable to constants."
+          },
+          {
+            "topic": "Native descriptor and vector numerator",
+            "finding": "Accepted using the previously reviewed paired-cluster descriptor theorem and its pinned actual forcing. Regular companion coordinates keep the matrix numerator bounded through delta=0, including the lambda*g0 term. Smooth local frames of compatible massive input modes give bounded finite-dimensional coefficient/amplitude identifications on the held patches. The result does not assert a global modal norm equivalence or a full real-carrier bridge."
+          },
+          {
+            "topic": "All seven positive-factor thresholds",
+            "finding": "Accepted locally. At each such threshold K has negative squared norm, whereas every common-CW input l has positive squared norm. Therefore J K and J l are independent covectors; some two-coordinate minor is nonzero for every signed input-branch pair. The same parameterized injection and two-CS argument applies in those coordinates. The scalarizer factor 4*a*kappa^2*(z^2-delta_a)*R_a and the all-Jordan2 chain argument give the regular cluster at each a; kappa/(2*a) is the correct shell receiver factor. This is not a global uniform estimate across large patches or input band edges."
+          },
+          {
+            "topic": "Time-kernel calculation",
+            "finding": "Accepted. The stated harmonic q and b formulas satisfy both forced companion rows with q(0)=0. Integrating nu first gives pi*[1-(1+2*lambda*t)*exp(-2*lambda*t)]/(2*lambda^3); dd=2*lambda*d_lambda and integration by parts yield the exact full squared kernel norm 2*pi*t. The elementary numerator bound by four gives the two weighted finite-collar bounds 4*pi*sqrt(D). Thus q is bounded by C*(1+sqrt(t)) and p uniformly in t, with no input Fourier derivatives. These are upper bounds, not asserted actual growth."
+          },
+          {
+            "topic": "Free state and complementary sectors",
+            "finding": "Accepted within the stated scope. Locally L2 free decaying data contributes uniformly bounded e^(-lambda*t)*q0 and its slope. Separated full-descriptor forced sectors remain regular when their own poles are avoided. The report explicitly leaves complementary resonances, other generated outputs and interactions involving populated decaying states outside the estimate."
+          },
+          {
+            "topic": "Negative-factor rank loss",
+            "finding": "Accepted as kinematics only. At a=-2, K^2=18, k=(5/2)K and l=-(3/2)K give common-CW input squares 225/2 and 81/2 and equal signed-frequency magnitudes squared 153/2 for factors -1 and +1. Each single-input (delta,nu) map loses rank, while the full pair gradients remain independent. This is neither a counterexample nor evidence that the actual projected vertex is nonzero."
+          },
+          {
+            "topic": "Literature and scientific ceiling",
+            "finding": "The cited Bennett-Bez-Buschenhenke-Cowling-Flock Theorem 1.1 was checked in the primary arXiv HTML: it covers local C2 submersions with the center Brascamp-Lieb datum and does not impose simplicity. The direct proof here makes importing that theorem unnecessary. Acceptance is a conditional GU* local quadratic survivor for the selected K95 printed realization; it supplies no source-selected state law, physical norm, full nonlinear domain, whole-class-C verdict or prediction."
+          }
+        ],
+        "cautions": [
+          "All constants are local and patch dependent. There is no global unbounded-frequency, input-edge, negative-threshold or all-output completion estimate.",
+          "The complete nonlinear domain and interactions involving independently retained decaying states remain open. The old CW-only instantaneous graph exclusion is unchanged.",
+          "The written change-of-variable and functional-analysis proof is reviewed mathematics, not Lean formalization. The certificate reports 52 controls; the reviewer inspected code and authenticated hashes but did not run controls.",
+          "The scalarizer and descriptor source remain a selected conditional printed low-Phi realization, distinct from W2 and the corrected wedge Euler equation."
+        ],
+        "review_method": "Independent analysis of the frozen report, probe and certificate; mathematical rederivation of the actual Jacobian, uniform injectivity, both Cauchy-Schwarz bounds, spectator estimate, kernel integrals, seven-threshold geometry and rank-loss kinematics. Reused previously independently reviewed descriptor/source context, refreshed owner instructions and program_focus, and checked the cited primary theorem at https://arxiv.org/html/1811.11052v2. Authenticated all three artifact hashes, producer hash and 15 dependency hashes. No tests, builds, owner edits or external mutations; only read/hash operations and this scratch review.",
+        "reviewer_scope": "Independent specialist reviewer, not a contributor. Acceptance concerns the intended local mathematical theorem and exact frozen artifacts, with source and physical claim ceilings retained."
+      },
+      {
+        "accepted": true,
+        "blockers": [],
+        "reviewer_scope": "Independent hostile T2 mathematical and source-scope review, not a contributor. Read-only owner review; internal acceptance of the declared local quadratic estimate only.",
+        "basis": "1f05c3a58819833e1fe1d4d783970dfe9a46676c",
+        "artifact_hashes": {
+          "explorations/conditional-build/cw-bilinear-boundary-estimate-2026-11-27.md": "a54e76bea6a75eb26a8114499e3660d9a4bd5e2b22b1e15ffcfb8d6af274d8b3",
+          "tests/program-focus/cw_bilinear_boundary_probe.py": "40263d60d7235ead8828818f459f18ee4103554dcd8b8523e7da9604b97d4f8f",
+          "lab/process/cw-bilinear-boundary-certificates.json": "7117b31256935c37cbb552ca064f989403e3f85df02d4eb6db3aa38079c4dc65"
+        },
+        "findings": [
+          "The two active-variable Cauchy-Schwarz factors are correctly paired. At fixed first input, the actual nonlinear second-input map to (delta,nu) is uniformly injective after sufficiently small convex localization and has a Jacobian bounded away from zero. The second factor uses the exact unit-Jacobian sum map. No frozen-phase approximation is used in the integral.",
+          "The eleven spectator directions are retained. Their convolution trilinear integral is bounded by the square root of a fixed spectator support volume times the three full L2 norms. This is a local patch-dependent estimate and does not imply a global-frequency constant.",
+          "The scalar weight squared integrates to at most 2*pi*sqrt(D). The resulting D^(1/4) bound yields the threshold-tail operator-norm estimate. The absolute positive-kernel estimate and monotone truncation justify an actual almost-everywhere integral; bounded bilinear density extension does not require Fourier derivatives or a principal-value convention.",
+          "At each positive-factor output threshold, the output spatial norm is negative while either common-CW input norm is positive. Therefore JK and Jl are independent, and some two-coordinate Jacobian minor is nonzero for every signed massive input-branch pair. This proves local extension of the threshold-cluster estimate, with constants depending on the patch, not a full all-output interaction theorem.",
+          "The full forcing in both regular-coordinate equations is retained in q=(g1+i*nu*g0) K_t. The integrated displacement kernel has squared norm 2*pi*t; the nu- and lambda-weighted kernels have finite collar bounds. The reported O(1+sqrt(t)) displacement and uniform momentum estimates follow. They are upper bounds, not a lower-growth or instability finding.",
+          "The negative-factor example is a legitimate common-CW resonant collinear configuration, with both single-input phase maps of rank one. Full pair transversality and transverse curvature remain available; neither a nonzero native vertex nor failure of a bilinear estimate is inferred from this rank loss.",
+          "The source template, selected printed realization, K95 carrier, future boundary law, independent decaying state and auxiliary coefficient norm remain separately typed. The prior instantaneous CW-only graph exclusion is preserved, and no SOURCE-GU, physical positivity or nonlinear completion verdict is asserted."
+        ],
+        "own_checks": [
+          "Read the entire final report and exact-control probe; checked the nonlinear Jacobian, paired integral inequalities, density/truncation argument, positive-factor sign argument, forward-kernel algebra and rank-loss scope by mathematical reasoning.",
+          "Reused independently reviewed full-pencil/future-boundary and earlier CW-graph custody; authenticated the prior boundary report and certificate through the current pinned dependency chain.",
+          "Read the current AGENTS and program_focus entry and retained previously read GEOMETER/source-native routing and SC-ACT-02/06, SC-META-52/53 source distinctions.",
+          "Authenticated all three frozen artifact SHA256 values, the certificate producer hash, 52 stored named controls and all 15 dependency hashes using file reads only."
+        ],
+        "cautions": [
+          "The estimate is local on sufficiently small fixed compact input patches. Constants may deteriorate toward input band edges, across unbounded frequencies or larger patches; it is not a global Sobolev theorem.",
+          "Extension to all 38 signed complex massive branches concerns each positive-factor threshold component. Complementary resonances require their own localization; not every output or physical real-carrier interaction has been completed.",
+          "The quadratic L2 extension and finite-time displacement bound do not prove a nonlinear invariant manifold, interaction closure with independently populated decaying states, or uniform-in-time L2 displacement for arbitrary L2 inputs.",
+          "The future law remains a proposed boundary prescription, not a retarded causal solution map or a source-selected physical law. Free off-band data remain unselected. No choice family is adopted merely by testing this repair.",
+          "The negative-factor collinear locus is an open discriminator, not an obstruction already established. Its vertex projection and twelve transverse directions must be tested before an adverse inference.",
+          "No physical positive norm, BRST quotient, observed current, K77 transfer, curved-background completion, source-selected prediction or whole-GU viability follows.",
+          "The functional-analysis proof is written mathematics, not Lean-certified by the finite controls. External literature is unnecessary for the direct proof and was not independently re-browsed by this reviewer."
+        ],
+        "not_run": [
+          "No probe, test suite, build, Lean, native operator computation, dense linear algebra or process gate was executed by this reviewer.",
+          "No owner repository artifact was edited. Only this scratch acceptance receipt was written."
+        ]
+      }
+    ],
+    "gates": {
+      "program_focus_audit": "PASS",
+      "typed_carrier_declaration_audit": "PASS",
+      "kill_target_claim_audit": "PASS",
+      "frontmatter_status_schema_audit": "PASS",
+      "source_native_comparator_routing_audit": "PASS",
+      "lean_certificate_surface_audit": "PASS",
+      "current_state_absolute_currency_audit": "PASS",
+      "conditional_evidence_delta_gate": "PASS",
+      "research_context_reader_audit": "PASS"
+    }
+  },
+  "follow_through": {
+    "consumed": [
+      "OrdinaryL2 bilinear estimate for original actual pair through threshold.",
+      "Allpositive-factor local extension and threshold-tail operator convergence.",
+      "Corresponding uniform-data forward upper bounds; no growth lower bound."
+    ],
+    "survivors": [
+      "Local positive-threshold future boundary repair.",
+      "Negative-factor interactions and retained-state closure remain open tests.",
+      "Physical state/current and source selection remain unprovided."
+    ],
+    "next": "Joe27r2b next: test the actual a=-1/b=+1 quadratic vertex into the a_out=-2 collinear threshold at kappa12, K\u00b218, k=5K/2, l=-3K/2 and opposite frequencies squared153/2. Zero projection retains a null escape; nonzero makes the full transverse degenerate estimate relevant. Rank loss alone is not a kill; keep all12 transverse widths. Uniform positive-threshold boundary estimate is consumed. Then all-output/free-decaying-state nonlinear closure or retained PT/trapped/Lambda/uniqueness alternatives; no fourth wedge wave.",
+    "pitfalls": [
+      "Do not infer a negative-factor no-go from rank loss.",
+      "A one-dimensional frozen-transverse concentration is not a13D counterexample.",
+      "O(sqrt(t)) is an upper estimate, not demonstrated growth.",
+      "Local constants do not extend uniformly to the unbounded common-CW domain."
+    ],
+    "directed_next": "Joe27bb next manual run: independently ingest/reverify ten sibling items in the directed order, starting with DU tachyon versus current wedge scalaron. No sibling grade becomes GU truth. Then resume the retained negative-factor CW vertex/estimate from cw-bilinear-boundary.json#follow_through."
+  },
+  "accounting": {
+    "counter_before": 121,
+    "counter_after": 122,
+    "LB_LADDER_runs_before": 27,
+    "LB_LADDER_runs_after": 28,
+    "bet_changes": 0,
+    "step2b_new_waves_used": 2,
+    "step2_max_waves": 5,
+    "wedge_waves_used": 3,
+    "cell_status_changes": 0,
+    "ledger_verdict_changes": 0
+  },
+  "effect_line": "Applied reviewed T2 uniform-bound evidence under27r/27t/27q; moved the next test to the explicit uncovered negative-factor interaction. No governance, source, ledger or scheduler change; automated effect not yet observed. Joe27bb subsequently interposes the ordered sibling import pass; the CW continuation is retained."
+}

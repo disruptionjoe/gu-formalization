@@ -55,4 +55,14 @@ The counter119 LC direction is consumed by the reviewed wedge-growth result. Ord
 
 One new wave consumed (maximum5 for step2). [Actual boundary result](../../../explorations/conditional-build/cw-one-sided-boundary-2026-11-27.md): regular full-descriptor coordinates and independent decaying offband data yield a bounded boundary combination and forward-uniform quadratic response for fixed smooth compact trace packets. The old CW-only Sobolev graph exclusion remains accepted. This is not a nonlinear state law or physical energy result.
 
-Next ready discriminator: the uniform ordinary-Sobolev bilinear boundary estimate through the threshold, using the actual smooth matrix numerator and phase geometry. Failure changes the permitted topology; success opens nonlinear invariance with free decaying data. Fixed smoothpacket finiteness and fullsymbol arithmetic are consumed. No new physical prescription or choice family adopted. Wedge stays3of3; retained steps3–6 and cadence unchanged.
+Consumed by the next reviewed result: the uniform ordinary-Sobolev bilinear boundary estimate through the threshold, using the actual smooth matrix numerator and phase geometry. Failure changes the permitted topology; success opens nonlinear invariance with free decaying data. Fixed smoothpacket finiteness and fullsymbol arithmetic are consumed. No new physical prescription or choice family adopted. Wedge stays3of3; retained steps3–6 and cadence unchanged.
+
+## Step2b — uniform boundary estimate complete
+
+Two new step2b waves consumed (maximum5 for step2). [Uniform estimate](../../../explorations/conditional-build/cw-bilinear-boundary-estimate-2026-11-27.md): actual L2xL2 to L2 bound and epsilon^(1/4) threshold tail, extended locally to all seven positive-factor output thresholds and38 signed input branches. Quadratic forward displacement has an O(1+sqrt(t)) upper bound, not a growth claim.
+
+Next ready test: actual input factors(-1,+1) into output(-2), kappa12, K²18, k=5K/2, l=-3K/2, opposite frequencies squared153/2. Both inputs are common-CW stable; both single-input Jacobians lose rank. Check the actual projected vertex first. Zero gives a null escape; nonzero earns the full transverse estimate. Rank loss is not failure. Retained-state interactions/global nonlinear closure and the physical-current bridge remain; no new adopted state law.
+
+## Joe27bb directed interposition
+
+After this reviewed uniform-estimate wave, Joe directs the ten sibling imports in the order recorded in opportunity-register#ordered_sibling_import_2026_11_27_bb. Each is reverified in GU before any transfer. This is a bounded restocking/interposition, not a governance reset; the unconsumed negative-factor CW interaction remains ready after that pass.

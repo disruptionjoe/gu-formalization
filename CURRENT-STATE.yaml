@@ -1,7 +1,7 @@
 schema_version: '1.0'
 repository: observerse-research-program
 branch: main
-revision_basis: 23b22b482fcd0aab12ccafdb538b08ca6dc6f156
+revision_basis: 1f05c3a58819833e1fe1d4d783970dfe9a46676c
 program_focus:
   version: 2026-11-27-v3
   authority: joe_direct_chat_2026_11_27_k
@@ -255,6 +255,33 @@ physics_ledger_reconciliation_2026_11_27_v:
   next: Directedledgerpasscomplete:resumeJoe27r1c finalwedgewave, evaluating27w Einstein-term/scalegate
     onactualGg andspecifiedreadout before genericquadraticgravityimports. Existing nonlinearCW route follows;
     W2 diagnostic only.
+ordered_sibling_import_2026_11_27_bb:
+  status: ready_next_directed_run
+  authority: joe_direct_chat_2026_11_27_bb
+  evidence: lab/process/source-action-opportunity-register-2026-11-25.json#ordered_sibling_import_2026_11_27_bb
+  next: 'Joe27bb next manual run: independently ingest/reverify ten sibling items in the directed order, starting with DU tachyon versus current wedge scalaron. No sibling grade becomes GU truth. Then resume the retained negative-factor CW vertex/estimate from cw-bilinear-boundary.json#follow_through.'
+cw_bilinear_boundary_2026_11_27:
+  status: internal_T2_reviewed
+  actual_delta: The actual one-sided quadratic boundary map is locally bounded L2xL2 to L2, with threshold-tail
+    operator norm O(epsilon^(1/4)), using a uniform nonlinear change of variables and all11 spectator
+    directions. The proof covers all7 positive-factor output thresholds and all38 signed massive common-CW
+    input branches locally. Quadratic displacement has an O(1+sqrt(t)) upper bound and momentum a uniform
+    upper bound. A negative-factor a=-2 collinear locus remains outside the proof; its actual vertex and
+    estimate are untested.
+  evidence:
+  - explorations/conditional-build/cw-bilinear-boundary-estimate-2026-11-27.md
+  - lab/process/cw-bilinear-boundary.json
+  source_bridge:
+    status: conditional
+    reason: SC-ACT-02/SC-META-52 supply endpoint template and ultrahyperbolic debt, not a unique low-Phi
+      realization or future state law; no physical domain/norm or source prediction follows.
+  next: "Joe27r2b next: test the actual a=-1/b=+1 quadratic vertex into the a_out=-2 collinear threshold\
+    \ at kappa12, K\xB218, k=5K/2, l=-3K/2 and opposite frequencies squared153/2. Zero projection retains\
+    \ a null escape; nonzero makes the full transverse degenerate estimate relevant. Rank loss alone is\
+    \ not a kill; keep all12 transverse widths. Uniform positive-threshold boundary estimate is consumed.\
+    \ Then all-output/free-decaying-state nonlinear closure or retained PT/trapped/Lambda/uniqueness alternatives;\
+    \ no fourth wedge wave."
+  verdict_effect: none; scoped uniform quadratic survivor
 cw_one_sided_boundary_2026_11_27:
   status: internal_T2_reviewed
   actual_delta: The actual selected frozen printed descriptor admits a regular full-threshold reduction.

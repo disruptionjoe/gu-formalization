@@ -2909,6 +2909,58 @@
         "receipt_ref": "lab/process/cw-one-sided-boundary.json#verification",
         "scope": "46 exact controls including actual sparse temporal scalarizer jet. Whole descriptor/coarea/time bound is reviewed written proof, not nonlinear existence."
       }
+    },
+    {
+      "id": "cw-bilinear-boundary-2026-11-27",
+      "kind": "result",
+      "owner_ref": "explorations/conditional-build/cw-bilinear-boundary-estimate-2026-11-27.md",
+      "tested_statement": "The actual one-sided quadratic boundary map is locally bounded L2xL2 to L2, with threshold-tail operator norm O(epsilon^(1/4)), using a uniform nonlinear change of variables and all11 spectator directions. The proof covers all7 positive-factor output thresholds and all38 signed massive common-CW input branches locally. Quadratic displacement has an O(1+sqrt(t)) upper bound and momentum a uniform upper bound. A negative-factor a=-2 collinear locus remains outside the proof; its actual vertex and estimate are untested.",
+      "signature": {
+        "object": "Actual one-sided boundary bilinear operator",
+        "carrier": "Full complex selected K95 compatible massive modes on small compact stable patches",
+        "convention": "Positive output factor, delta>0; regular companion coordinates; auxiliary ordinaryL2",
+        "class": "All7positivefactoroutput thresholds/all38signedinputbranches locally",
+        "premises": [
+          "explorations/conditional-build/cw-bilinear-boundary-estimate-2026-11-27.md"
+        ]
+      },
+      "attributed_status": "internal_T2_reviewed",
+      "status_ref": "lab/process/cw-bilinear-boundary.json#status",
+      "source_bridge_ref": "lab/process/cw-bilinear-boundary.json#source_bridge",
+      "certificate_refs": [
+        "lab/process/cw-bilinear-boundary-certificates.json"
+      ],
+      "control_refs": [
+        "tests/program-focus/cw_bilinear_boundary_probe.py"
+      ],
+      "survivors_ref": "lab/process/cw-bilinear-boundary.json#follow_through",
+      "reopen_condition_ref": "explorations/conditional-build/cw-bilinear-boundary-estimate-2026-11-27.md",
+      "superseded_by": null,
+      "cache": {
+        "artifacts": [
+          {
+            "path": "explorations/conditional-build/cw-bilinear-boundary-estimate-2026-11-27.md",
+            "sha256": "a54e76bea6a75eb26a8114499e3660d9a4bd5e2b22b1e15ffcfb8d6af274d8b3"
+          },
+          {
+            "path": "tests/program-focus/cw_bilinear_boundary_probe.py",
+            "sha256": "40263d60d7235ead8828818f459f18ee4103554dcd8b8523e7da9604b97d4f8f"
+          },
+          {
+            "path": "lab/process/cw-bilinear-boundary-certificates.json",
+            "sha256": "7117b31256935c37cbb552ca064f989403e3f85df02d4eb6db3aa38079c4dc65"
+          }
+        ],
+        "verifier": {
+          "command": "python3",
+          "args": [
+            "tests/program-focus/cw_bilinear_boundary_probe.py",
+            "--verify"
+          ]
+        },
+        "receipt_ref": "lab/process/cw-bilinear-boundary.json#verification",
+        "scope": "52finitecontrols; fullnormproof is reviewed mathematics, not codeverified nonlinear existence."
+      }
     }
   ]
 }

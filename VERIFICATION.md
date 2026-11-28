@@ -17,6 +17,10 @@ External review is not a research pathway or waiting condition. The source-level
 
 Sections below are historical snapshots in file order.
 
+## 2026-11-27 — Uniform quadratic CW boundary estimate
+
+[Result](explorations/conditional-build/cw-bilinear-boundary-estimate-2026-11-27.md) · [Evidence](lab/process/cw-bilinear-boundary.json). The actual boundary operator is locally bounded L2xL2 toL2 with threshold-tail O(epsilon^(1/4)). Opposite norm signs extend the proof to all7positive-factor output thresholds and38signed stable input branches. Forward O(1+sqrt(t)) is an upper estimate, not instability. A negative-factor collinear locus remains untested.52exactcontrols; no new Lean, nonlinear manifold, physical norm or source/ledger verdict.
+
 ## 2026-11-27 — One-sided quadratic CW boundary survivor
 
 [Result](explorations/conditional-build/cw-one-sided-boundary-2026-11-27.md) · [Evidence](lab/process/cw-one-sided-boundary.json). Keeping independent decaying offband data changes the tested category: actual regular full-descriptor boundary coordinates give finite smoothpacket boundary data and a forward-uniform quadratic response through the threshold. The ordinary-Sobolev bilinear and nonlinear-domain questions remain open.46exactcontrols include a sparse actual scalarizer jet; no new Lean or physical-state claim. No source/ledger/cell verdict changes.

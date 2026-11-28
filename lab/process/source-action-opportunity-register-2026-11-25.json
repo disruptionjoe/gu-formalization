@@ -3730,5 +3730,80 @@
       "Auxiliary unitary CW norm does not automatically extend to decaying states.",
       "A bounded quadratic coefficient is not nonlinear stability or a prediction."
     ]
+  },
+  "cw_bilinear_boundary_2026_11_27": {
+    "evidence": [
+      "explorations/conditional-build/cw-bilinear-boundary-estimate-2026-11-27.md",
+      "lab/process/cw-bilinear-boundary.json"
+    ],
+    "actual_delta": "The actual one-sided quadratic boundary map is locally bounded L2xL2 to L2, with threshold-tail operator norm O(epsilon^(1/4)), using a uniform nonlinear change of variables and all11 spectator directions. The proof covers all7 positive-factor output thresholds and all38 signed massive common-CW input branches locally. Quadratic displacement has an O(1+sqrt(t)) upper bound and momentum a uniform upper bound. A negative-factor a=-2 collinear locus remains outside the proof; its actual vertex and estimate are untested.",
+    "choice_budget": {
+      "families": 10,
+      "obligations": 4,
+      "net": 6,
+      "source_selected_predictions": 0,
+      "new_adopted_choices": 0,
+      "repair_adopted": false,
+      "scope": "Historical candidate grouping retained, not universal GU parameter count. Future prescription, free-state and topology costs remain unadopted."
+    },
+    "consumed": [
+      "OrdinaryL2 bilinear estimate for original actual pair through threshold.",
+      "Allpositive-factor local extension and threshold-tail operator convergence.",
+      "Corresponding uniform-data forward upper bounds; no growth lower bound."
+    ],
+    "survivors": [
+      "Local positive-threshold future boundary repair.",
+      "Negative-factor interactions and retained-state closure remain open tests.",
+      "Physical state/current and source selection remain unprovided."
+    ],
+    "next": "Joe27r2b next: test the actual a=-1/b=+1 quadratic vertex into the a_out=-2 collinear threshold at kappa12, K\u00b218, k=5K/2, l=-3K/2 and opposite frequencies squared153/2. Zero projection retains a null escape; nonzero makes the full transverse degenerate estimate relevant. Rank loss alone is not a kill; keep all12 transverse widths. Uniform positive-threshold boundary estimate is consumed. Then all-output/free-decaying-state nonlinear closure or retained PT/trapped/Lambda/uniqueness alternatives; no fourth wedge wave.",
+    "pitfalls": [
+      "Do not infer a negative-factor no-go from rank loss.",
+      "A one-dimensional frozen-transverse concentration is not a13D counterexample.",
+      "O(sqrt(t)) is an upper estimate, not demonstrated growth.",
+      "Local constants do not extend uniformly to the unbounded common-CW domain."
+    ]
+  },
+  "distributed_systems_2026_11_27_z": {
+    "authority": "joe_direct_chat_2026_11_27_z",
+    "status": "consideration_pool_not_new_governance",
+    "basis_revision": "1f05c3a58819833e1fe1d4d783970dfe9a46676c",
+    "rank_after_current_CW": [
+      "z2 typed whole-family section tomography",
+      "z1 finite-local auxiliary encoding versus boundary selection",
+      "z3 same-equation physical redundancy",
+      "z4 specified record/instrument/outcome fork law"
+    ],
+    "notes": {
+      "z2": "Literal one-form pullback over an open section1-jet family can separate fields; source contracted maps/admissible same-equation family and stable inversion remain separate. Proposed clarification, not accepted physical tomography.",
+      "z1": "Finite same-space polynomial auxiliary equations need a precise domain; encoding cannot silently supply Fourier inequalities/future data. Extension-infinity conditions may relocate selection. No construction adopted.",
+      "z3": "Invisible data are not automatically gauge/null/BRST-exact. Need same-equation physical current/domain tuple; existing initial-jet non-autonomy remains.",
+      "z4": "Records alone do not select outcomes; reuse K96/K110 before new rule. Interpretation until instrument/state/outcome maps exist."
+    },
+    "source_refs": [
+      "lab/sources/source-claim-register.yaml#SC-GEO-02",
+      "lab/sources/source-claim-register.yaml#SC-GEO-03",
+      "lab/sources/source-claim-register.yaml#SC-GEO-04",
+      "lab/process/observation-physical-carrier-custody-2026-11-27.md"
+    ],
+    "claim_effect": "none; proposed methods only"
+  },
+  "ordered_sibling_import_2026_11_27_bb": {
+    "authority": "joe_direct_chat_2026_11_27_bb",
+    "status": "ready_next_directed_run",
+    "order": [
+      "DU tachyon bridge",
+      "DU fixpoint-free structure",
+      "TI absorption harness",
+      "TaF commit guardrails",
+      "DU covariant finality",
+      "GU/DU mirror head start",
+      "DU DeWitt measure",
+      "DU records/measurement",
+      "TI observer issuance",
+      "TI fork-choice template"
+    ],
+    "effect": "Joe directed order supersedes earlier optional VOI ranking. Re-verify within GU; no sibling grade transfer. Finish current reviewed CW result, then bounded ordered import; retain uncovered CW interaction after imports.",
+    "claim_effect": "none before actual ingestion/reverification"
   }
 }
