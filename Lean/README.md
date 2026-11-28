@@ -333,3 +333,7 @@ replacement for `lake build` or targeted standalone Lean checks.
 ## 2026-11-28 — CW symmetry/domain finite cores
 
 `GUFormalization/CWSymmetryDomain.lean` checks reversal-closure logic, mass positivity and margin, residue lower-bound arithmetic and rational core fixtures (five theorems). Targeted single-thread compilation; no sorry. Full orbit/coarea/complete-history, source identification and physical quantum claims are not formalized by these finite cores.
+
+## CW global coefficient norm (2026-11-28)
+
+`GUFormalization/CWGlobalNorm.lean` checks six finite cores: boost and amplification arithmetic, the growth lower bound, kernel domination, companion decay and degree/shell counts. Targeted single-thread compilation passed without proof placeholders. The full scalarizer, thirteen-dimensional packet argument, bilinear estimates and physical/source bridges are written mathematics, not formalized by these lemmas. See `../explorations/conditional-build/cw-edge-decay-and-global-norm-2026-11-28.md`.

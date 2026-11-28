@@ -1,7 +1,7 @@
 schema_version: '1.0'
 repository: observerse-research-program
 branch: main
-revision_basis: 523eaeb084769e3c5f8aa6bc43c5a33b9c888096
+revision_basis: ad6e4384809fd12d2cc2ff0da06d730b0fc67035
 program_focus:
   version: 2026-11-27-v3
   authority: joe_direct_chat_2026_11_27_k
@@ -278,6 +278,27 @@ sibling_import_adjudication_2026_11_27:
     resume the retained actual a_out=-2 negative-factor CW vertex at kappa12 before a degenerate estimate.
     Step2b remains2/max5; wedge3/max3. No new sibling-research backlog or physical choice.
   verdict_effect: none; scoped applicability and algebra
+cw_edge_decay_global_2026_11_28:
+  status: internal_T1_reviewed
+  actual_delta: Actual retained-decay and common-CW input-edge quadratic future-boundary maps are locally
+    L2 bounded in inherited modal/free-q0 norms. An actual fixed-square64 hook yields unbounded same-order
+    global coefficient-Hs evolution at fixed time, requiring at least1 derivative loss. Paired scalarizer
+    gives a conservative global linear H^(s+39) to H^s bound uniform through input edges; H_modal remains
+    unitary.
+  evidence:
+  - explorations/conditional-build/cw-edge-decay-and-global-norm-2026-11-28.md
+  - lab/process/cw-edge-decay-global.json
+  source_bridge:
+    status: conditional
+    reason: SC-ACT-02 draftp45eq9.8 gives endpoint template and SC-META-52 acknowledges ultrahyperbolic
+      debt; no source-selected low-Phi realization, state law or physical norm.
+  next: 'Joe27r2b wave5 (last budgeted): test global quadratic closure for inherited modal/free-decay
+    inputs and actual paired output state, tracking high-frequency vertices/projectors and any derivative
+    cost. No same-order coefficient-Hs assumption; do not infer nonlinear contraction from loss39. A sharper
+    bound is useful only if it decides this gate. If unresolved at cap, preserve exact nonlinear/physical-domain
+    burden and advance queued antilinear/PT step3 autonomously. Local stable/decay/edge estimates are
+    consumed; no threshold census. CWstep2b4/5,wedge3/3.'
+  verdict_effect: none; auxiliarynorm scopedexclusion andfinite-loss survivor
 cw_all_threshold_boundary_2026_11_28:
   status: internal_T2_reviewed
   actual_delta: Full transverse integration extends the actual local L2xL2 to L2 future-boundary estimate

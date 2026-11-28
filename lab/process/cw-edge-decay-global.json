@@ -1,0 +1,309 @@
+{
+  "artifact": "CW_EDGE_DECAY_GLOBAL_NORM",
+  "date": "2026-11-28",
+  "basis_revision": "ad6e4384809fd12d2cc2ff0da06d730b0fc67035",
+  "status": "internal_T1_reviewed",
+  "target": "X-P1-P2",
+  "tier": "T1",
+  "lane": "LB-LADDER",
+  "actual_delta": "Actual retained-decay and common-CW input-edge quadratic future-boundary maps are locally L2 bounded in inherited modal/free-q0 norms. An actual fixed-square64 hook yields unbounded same-order global coefficient-Hs evolution at fixed time, requiring at least1 derivative loss. Paired scalarizer gives a conservative global linear H^(s+39) to H^s bound uniform through input edges; H_modal remains unitary.",
+  "source_bridge": {
+    "status": "conditional",
+    "reason": "SC-ACT-02 draftp45eq9.8 gives endpoint template and SC-META-52 acknowledges ultrahyperbolic debt; no source-selected low-Phi realization, state law or physical norm."
+  },
+  "source_necessary_exclusion": false,
+  "weakest_unproved_link": "Global nonlinear closure in the specified inherited norms and a source-selected physical state/current. Finite-loss linear propagation is not a nonlinear contraction estimate.",
+  "class_C_representativeness": "Selected frozen low-Phi K95 full bosonic descriptor and auxiliary compatible CW topology; no allC/source necessity.",
+  "track": [
+    "SOURCE conditional selected printed realization",
+    "GU* unadopted future-boundary repair"
+  ],
+  "choice_budget": {
+    "families": 10,
+    "obligations": 4,
+    "net": 6,
+    "source_selected_predictions": 0,
+    "new_adopted_choices": 0,
+    "repair_adopted": false,
+    "scope": "Historical candidate grouping; no physical norm/domain/choice adopted."
+  },
+  "three_state": {
+    "ESTABLISHED": "Actual retained-decay and common-CW input-edge quadratic future-boundary maps are locally L2 bounded in inherited modal/free-q0 norms. An actual fixed-square64 hook yields unbounded same-order global coefficient-Hs evolution at fixed time, requiring at least1 derivative loss. Paired scalarizer gives a conservative global linear H^(s+39) to H^s bound uniform through input edges; H_modal remains unitary.",
+    "RULED_OUT": "Bounded fixedtime ordinary coefficient Hs-to-Hs evolution extending all compact compatible CW packets at kappa12. Lower derivative cost1; not all finite-loss topologies.",
+    "NOT_MODELED_UNDETERMINED": "Sharp loss between1and39, global nonlinear invariant domain and all-output quadratic closure, physical positive norm/quotient/current and curved/K77 transfer."
+  },
+  "selection": {
+    "mandatory_basis": "OrdinaryBcounter125 earliestreadyquickwin2b wave4/5; no T1 pending at opening.",
+    "class_scope": "All3 local stable/decay interaction types through stableinputedges; all compatible finite CW modes for linear finite-loss upper; actual hook subfamily for lower.",
+    "source_relevance": "Conditional analytic-domain bridge, not source-required physical coefficientnorm.",
+    "shared_prerequisite": "Predictive admissible state/current gates downstream quantum/positivity interpretation.",
+    "reuse_delta": "All19symbol/scalarizer and fulltransverse density reused. PriorCW explicitly left globalnormequivalence open; old unrestricted finite-loss witness lies outsideCW.",
+    "strongest_eligible_alternative": "PTphysicalnorm route needs a domain; actualglobalnorm test directlyprices that prerequisite without adopting one.",
+    "outcome_logic": [
+      "Local bound consumes retained-decay/edge tests.",
+      "Native normalized packet growth excludes only specified same-order topology.",
+      "Paired upper bound preserves finite-loss completion rather than transferring old unrestricted no-go."
+    ],
+    "remaining_cost": "One step2bwave for actual global quadratic/finite-loss nonlinear gate, then autonomous pivot tostep3 if unresolved.",
+    "expected_vs_actual": "Local retainedstate shortcut extends through stableinputedges; actual few-column hook settles globalsameorder question and scalarizer supplies positivefinite-loss upper.",
+    "cost": "OneT1wave;100exactcontrols/replay~0.09s;6Leancores;2specialists+hostile. No dense census.",
+    "inline_lenses": "20 quick mathematical/computational descriptions including category norm-map typing and number-theory exactshell controls; independentcontributors separate fromreviewers."
+  },
+  "verification": {
+    "artifact_hashes": {
+      "explorations/conditional-build/cw-edge-decay-and-global-norm-2026-11-28.md": "2bce6a254034846b6ef9117d31a3cd8a2082db2e833180da095af2f2ba397777",
+      "tests/program-focus/cw_edge_decay_global_probe.py": "b863fd9c8859fb2b61d6bce2138f2b5d3bb72f5efb4125510ed5d723af58c1db",
+      "lab/process/cw-edge-decay-global-certificates.json": "39368dc509ff1e0be1d5f49449b73bbcc822bb75c8abd77b83ac2ba1a67ced42",
+      "Lean/GUFormalization/CWGlobalNorm.lean": "0aaf11ed06247da970e9954c8f42b58b2352ec060018fcb3a35bb8ec7ff4abf9"
+    },
+    "exact_controls": 100,
+    "command": "UV_CACHE_DIR=/private/tmp/gu-current-uv-cache uv run --offline --with sympy==1.14.0 python tests/program-focus/cw_edge_decay_global_probe.py --verify",
+    "lean": {
+      "ref": "Lean/GUFormalization/CWGlobalNorm.lean",
+      "command": "lake env lean -j1 Lean/GUFormalization/CWGlobalNorm.lean",
+      "status": "PASS",
+      "theorems": 6,
+      "scope": "Boost/ratio arithmetic, lower bound, kernel domination, decay relation and counts. Full PDE/norm/packet proof written/reviewed.",
+      "warnings": "Style/unreachable tactic only; no proof placeholders or errors."
+    },
+    "reviews": [
+      {
+        "reviewer": "metric_family_second_review \u2014 independent mathematical/PDE specialist, not a contributor to this wave",
+        "independent": true,
+        "accepted": true,
+        "blockers": [],
+        "artifact_hashes": {
+          "explorations/conditional-build/cw-edge-decay-and-global-norm-2026-11-28.md": "2bce6a254034846b6ef9117d31a3cd8a2082db2e833180da095af2f2ba397777",
+          "tests/program-focus/cw_edge_decay_global_probe.py": "b863fd9c8859fb2b61d6bce2138f2b5d3bb72f5efb4125510ed5d723af58c1db",
+          "lab/process/cw-edge-decay-global-certificates.json": "39368dc509ff1e0be1d5f49449b73bbcc822bb75c8abd77b83ac2ba1a67ced42",
+          "Lean/GUFormalization/CWGlobalNorm.lean": "0aaf11ed06247da970e9954c8f42b58b2352ec060018fcb3a35bb8ec7ff4abf9"
+        },
+        "scope": {
+          "review_level": "Independent T1 specialist review of the full report, actual native probe, certificate, six Lean finite cores and required owned descriptor/scalarizer dependencies.",
+          "basis_revision": "ad6e4384809fd12d2cc2ff0da06d730b0fc67035",
+          "accepted_statements": [
+            "Local quadratic future-boundary L2 estimates for stable\u00d7stable, stable\u00d7decay and decay\u00d7decay inputs on fixed compact patches in the separately stated modal/free-decay norms, with the stated band-edge extension.",
+            "Unbounded fixed-time same-order ordinary coefficient-Hs evolution on the full compatible CW core, demonstrated by actual full-dimensional primary-minus real packets; any such global coefficient estimate needs at least one derivative of loss.",
+            "A conservative global linear H^(s+39)->H^s estimate from the complete nineteen-factor paired scalarizer, including input band-edge limits; the sufficient loss need not be sharp and its coefficient completion is not automatically H_modal."
+          ],
+          "extension": "Acceptance includes the added Lorentz-core support countersequence. Additional polarization or state restrictions remain outside this exclusion, as explicitly stated."
+        },
+        "findings": [
+          {
+            "topic": "Actual retained state",
+            "finding": "The embedding (N-mu Pi)e q0 is a full finite-cluster compatible eigenstate with eigenvalue -mu. At threshold N e is injective in the regular companion frame, hence the graph embedding and inverse remain bounded on a sufficiently small compact collar. Composing the actual algebraic Q with these embeddings and regular output rows yields bounded numerators without singular projectors."
+          },
+          {
+            "topic": "Decay\u00d7decay corner",
+            "finding": "For nonnull k, the exact invariant Jacobian is 2A and the density factor is 1/(2 sqrt(abs(A))). Both possible transverse signatures have two positive directions, so the prior polar pushforward proof applies with uniform compact cutoffs. Dropping mu1 gives a squared kernel bounded after square-root substitution by 1, and integral at most sqrt(D E). Full-pair Cauchy\u2013Schwarz yields the stated bilinear bound and output-threshold tail."
+          },
+          {
+            "topic": "Null input coverage",
+            "finding": "At A=0 the admitted decay has mu1\u00b2=C1>0; otherwise it is absent locally. Thus a neighborhood has a denominator bounded away from zero and compact convolution applies. Finite covers combine this with the nonnull estimate. The report does not falsely claim one invariant-coordinate constant through A=0."
+          },
+          {
+            "topic": "Stable input edge",
+            "finding": "Stable\u00d7decay is dominated by the same positive denominator. For stable\u00d7stable the final pushforward density is W/sqrt(A), so W approaching zero causes no upper-bound blowup while A remains at least kappa\u00b2/4. Truncation and uniform bilinear bounds extend in actual shell-field L2 amplitudes. No equivalence with ordinary initial-field or regular momentum norms is assumed."
+          },
+          {
+            "topic": "Native high-frequency witness",
+            "finding": "The fixed-square family k_R has square64 and frequency10 on the actual a=1 hook, at a fixed CW margin28. The displayed native kernels and direct cosine/sine descriptor checks support the complete first-order solution. Initial cancellation leaves c(tau)beta, while the quarter-period coefficient exposes the O(R) spatial Clifford term. The exact norm ratio and its unbounded leading term are correct."
+          },
+          {
+            "topic": "Packets and real adapter",
+            "finding": "Smooth compatible kernel sections exist locally at each k_R. Continuity, arbitrarily shrinking full-dimensional balls and normalized smooth bumps turn the character witness into genuine Schwartz packets. The same Fourier support at input/output preserves the Hs comparison and gives the R^(1-d) lower bound for derivative loss d. Adding disjoint conjugate packets retains the primary-minus real-field witness and doubles both squared norms."
+          },
+          {
+            "topic": "What the lower bound excludes",
+            "finding": "One displayed positive time suffices to exclude a bounded Hs solution operator and hence a C0 group extending this core. The report does not claim the sharp loss is one. H_modal remains unitary because its separate initial modal amplitudes already have size O(R); synthesis cancellation is the reason the ordinary field norm is inequivalent globally."
+          },
+          {
+            "topic": "All nineteen paired residues",
+            "finding": "At each paired pole, q=q_a is constant and every remaining factor denominator 4a*kappa\u00b2*R_a(q_a) is a nonzero constant. Polynomial division modulo z\u00b2-delta_a gives U_a degree at most39 and V_a degree at most38. Matrix noncommutativity of P(tau) and P(ik) does not obstruct this scalar-z remainder operation. The finite resolvent identities give the complete compatible paired propagation without inverting A_t."
+          },
+          {
+            "topic": "Global upper bound",
+            "finding": "Pi_a=V_a A_t and N_a=U_a A_t have polynomial coefficient bounds. Pairing roots produces cos(omega t)Pi_a+sin(omega t)/omega N_a; the removable quotient is bounded by |t| uniformly at input edges. Summing nineteen factors and applying Plancherel proves the conservative degree39 bound. Individual residues may blow up; the proof does not require them bounded."
+          },
+          {
+            "topic": "Completion and iteration",
+            "finding": "The coefficient estimate extends the smooth compact compatible core in the stated Sobolev norms. That completion need not belong to H_modal near a collapsing frequency. A Sobolev-scale estimate with loss is not a bounded group on one Hs and cannot be inserted directly into a nonlinear contraction iteration. These distinctions are explicitly preserved."
+          },
+          {
+            "topic": "Source and metadata ceiling",
+            "finding": "K95, selected low-Phi printed endpoint, auxiliary norms and actual source-observation/current debts remain distinct from W2, wedge, K77 and physical energy. Requested bosonic CHIRALITY=N/A, source-print action-owner and executed-probe docstring corrections are integrated. No source-GU or whole-class-C verdict follows."
+          },
+          {
+            "topic": "Reviewed Lorentz-core extension",
+            "finding": "The proper positive-plane signed rotation fixes tau, sends k_R to normal axes4/10, and sends beta to theta3*gamma3-theta1*gamma1. The actual native kernels, equal coefficient amplification and primary-minus quadratures are directly checked. N=64 has margin28, so shrinking full-dimensional neighborhoods retains N>36. The countersequence therefore survives this support restriction when its compatible polarizations are admitted. The rotation is computational ambient covariance, not an observed Lorentz transformation; no mass-gap or physical verdict is imported."
+          }
+        ],
+        "limits": [
+          "Acceptance concerns the specified mathematical topology and local boundary estimates, not a physical state prescription, positive quantum Hamiltonian, source necessity or all-orders nonlinear theory.",
+          "Local input estimates use actual shell-field amplitudes or regular free-decay q0; they do not provide uniform inverse modal synthesis or ordinary same-order nonlinear closure.",
+          "Complementary forced resonances, global nonlinear boundary closure, a sharp derivative-loss exponent, nonlinear iteration and curved/K77 transfer remain open as stated.",
+          "The six Lean lemmas certify finite arithmetic/companion logic only. Integration, packet localization, spectral projections and Fourier multiplier completion remain independently reviewed written proofs.",
+          "This is one independent specialist receipt. Complete T1 acceptance also requires the repository\u2019s other independent and hostile reviews and root validation."
+        ],
+        "ownchecks": {
+          "executed_tests_or_builds": false,
+          "owner_edits": false,
+          "read_and_authenticated": "Final report/probe/certificate/Lean; all four frozen hashes; producer hash; all17 pinned dependency hashes without mismatch. Inspected all added rotation controls and explicit support definition.",
+          "validation_attribution": "Root reports100 exact controls and replay passed after the extension, with six unchanged targeted Lean cores previously passed with warnings only. Reviewer inspected code/statements but did not rerun tests or builds.",
+          "independent_reasoning": "Derived the hook norm ratio and packet scaling; checked invariant Jacobians, positive-plane pushforward and null-patch alternative; independently checked the paired polynomial-degree39 bound and its distinction from individual modal residues."
+        }
+      },
+      {
+        "reviewer": "native_grading_review, independent T1 mathematics and source/native scope specialist",
+        "independent": true,
+        "independence_disclosure": "No contribution to the derivation, fixture, proof, code or artifacts of this wave. Earlier CW work was reviewed/contributed separately and is used only as a checked dependency interface.",
+        "accepted": true,
+        "blockers": [],
+        "artifact_hashes": {
+          "explorations/conditional-build/cw-edge-decay-and-global-norm-2026-11-28.md": "2bce6a254034846b6ef9117d31a3cd8a2082db2e833180da095af2f2ba397777",
+          "tests/program-focus/cw_edge_decay_global_probe.py": "b863fd9c8859fb2b61d6bce2138f2b5d3bb72f5efb4125510ed5d723af58c1db",
+          "lab/process/cw-edge-decay-global-certificates.json": "39368dc509ff1e0be1d5f49449b73bbcc822bb75c8abd77b83ac2ba1a67ced42",
+          "Lean/GUFormalization/CWGlobalNorm.lean": "0aaf11ed06247da970e9954c8f42b58b2352ec060018fcb3a35bb8ec7ff4abf9"
+        },
+        "findings": [
+          "The regular free-decay embedding (N-mu Pi)e is an actual descriptor eigenstate and stays injective and bounded at mu=0 in the held Jordan frame; no spurious division by mu enters the vertex.",
+          "For two decays, det d(delta,v)/d(alpha,q)=2A and the measure factor1/(2sqrt(abs(A))) are consistent with the adapted spatial coordinates. Both nonnull transverse signatures contain a positive two-plane, so compact pushforward density remains bounded at the critical center. The squared kernel integrates to at most sqrt(DE), giving the claimed local L2 bilinear bound and epsilon^(1/4) output tail. Null fixed-input patches either have a strictly positive input decay rate or no nearby admitted decay; finite covers give the stated compact-patch result.",
+          "Stable-decay denominators are bounded below by lambda+mu independent of the stable frequency. For stable-stable inputs the inherited final density W/sqrt(A) stays bounded and vanishes as W approaches zero. The truncation passage needs only the declared shell-field L2 norm and bounded bilinear vertex, not derivatives of a collapsing modal frame. These are boundary-combination estimates on separated compact output collars, not full global quadratic evolution.",
+          "The exact hook beta is transverse and gamma-traceless for the displayed covectors. The producer checks the actual Phi and compact-symbol kernels, both sine/cosine coefficients of the original descriptor, the constant initial norm, and the exact growing coefficient-norm ratio. Temporal frequencies remain10 and the common-support margin remains28. This is genuine stable-mode cancellation, not use of excluded exponential modes.",
+          "The full-dimensional packet extension is valid: each finite-R shell projector is smooth locally; shrinking a radius-at-most1 ball preserves fixed positive initial bounds and order-R endpoint amplification. Fourier Sobolev weights are comparable to R on the same input/output support, regardless of shrinking packet width. This excludes a same-order fixed-time Hs map and requires loss at least1. Conjugate disjoint packets preserve the norm ratio and the checked primary-minus real subset.",
+          "At each distinct factor, reducing the scalarizer numerator modulo z\u00b2-delta_a with q=q_a gives paired residues with constant nonzero denominators4a kappa\u00b2 R_a(q_a). Polynomial reduction preserves degree, so U_a degree<=39 and V_a degree<=38. The compatible finite-state sum of paired propagators and |sin(omega t)/omega|<=|t| give the stated H^(s+39)-to-Hs bound, including input-edge limits. This does not assert sharpness or identify the completion with H_modal.",
+          "The report preserves the selected printed P/Q versus W2 distinction, K95 versus K77, auxiliary norm versus physical energy, literal observation versus Fourier decomposition, and nonlinear/state-domain limits. Neither source-GU nor any physical ghost claim follows.",
+          "All four bytes match the frozen manifest. Certificate producer and inherited dependency hashes match current files. The certificate records91 checks. Read six Lean finite cores; root reports compilation PASS, which this reviewer did not execute.",
+          "Final extension independently checked: the positive spatial1/4 rotation fixes time and preserves metric/Hodge/canonical Phi, primary-minus real structure and coefficient norm. Rotated beta is transverse/gamma-traceless; k has zero horizontal spatial part and normal square64 with margin28. The added native controls check both exact kernels, compact/native bindings, unchanged norm ratio and real quadratures. Smooth full13D packet neighborhoods can stay inside N>36. Therefore the same derivative-loss lower bound also holds on the named Lorentz core, conditional on admission of these polarizations. This is a computational ambient rotation, not a physical observed-Lorentz transformation or imported mass-gap verdict.",
+          "Final metadata repairs verified: CHIRALITY=N/A and source-print action-owner prefix correctly type this bosonic carrier, and the stale UNEXECUTED producer label is removed. Updated four-artifact manifest and certificate dependencies match actual bytes; certificate now records100 checks. Root reports fresh100-check replay PASS. Lean source remains unchanged."
+        ],
+        "limits": [
+          "Only the selected frozen full complex printed descriptor and its independently checked real hook subset are covered. No source-selected physical norm, source-necessary exclusion, curved dynamics, K77 transport, ghost or quantum prediction is established.",
+          "Local estimates use compact input/output patches, modal shell-field norms, regular free-decay norms and separated output threshold frames. They do not establish global nonlinear closure or constants uniform at unbounded momentum.",
+          "The derivative-loss window1 through39 gives a necessary lower bound and conservative sufficient upper bound, not an optimal exponent. Repeated nonlinear iterations cannot silently absorb that loss.",
+          "The high-frequency counterexample does not contradict H_modal unitarity, since its separate temporal amplitudes already grow with R initially.",
+          "The finite producer and six Lean cores do not formalize the integration, packet construction, polynomial matrix degree argument or PDE extension. Those were checked as written mathematics."
+        ],
+        "ownchecks": "Static reads and byte/dependency hashes only. No tests, builds, native execution or owner edits; scratch receipt write only."
+      },
+      {
+        "accepted": true,
+        "blockers": [],
+        "artifact_hashes": {
+          "explorations/conditional-build/cw-edge-decay-and-global-norm-2026-11-28.md": "2bce6a254034846b6ef9117d31a3cd8a2082db2e833180da095af2f2ba397777",
+          "tests/program-focus/cw_edge_decay_global_probe.py": "b863fd9c8859fb2b61d6bce2138f2b5d3bb72f5efb4125510ed5d723af58c1db",
+          "lab/process/cw-edge-decay-global-certificates.json": "39368dc509ff1e0be1d5f49449b73bbcc822bb75c8abd77b83ac2ba1a67ced42",
+          "Lean/GUFormalization/CWGlobalNorm.lean": "0aaf11ed06247da970e9954c8f42b58b2352ec060018fcb3a35bb8ec7ff4abf9"
+        },
+        "reviewer_scope": "Independent hostile T1 review, not a contributor. Acceptance covers the local future-boundary estimates and global coefficient-topology statements for the selected compatible frozen printed K95 system. Internal review only.",
+        "basis": "ad6e4384809fd12d2cc2ff0da06d730b0fc67035",
+        "findings": [
+          "The retained decay embedding (N-mu Pi)e is a genuine compatible homogeneous eigenstate, remains injective at mu=0 in the regular companion frame, and is bounded with a bounded inverse on its graph on sufficiently small fixed compact collars. The estimate therefore tests actual fields rather than an arbitrarily substituted scalar state.",
+          "The decay-decay invariant-coordinate Jacobian is 2A and the Lebesgue factor is 1/(2sqrt(abs(A))). Both nonnull transverse signatures admit a positive two-plane. The squared denominator corner integrates to at most sqrt(D E), so full pair-space Cauchy-Schwarz gives the stated local bilinear boundary estimate and nonnull output-tail rate.",
+          "Null first inputs do not create an omitted simultaneous corner: their decay square equals nonzero C1, so admitted states have mu1 bounded below locally; otherwise no decay state is admitted. Bounded compact convolution and finite covers handle those patches. This does not introduce an unbounded-momentum constant.",
+          "Stable-decay estimates can drop the stable frequency from the denominator. Stable-stable estimates retain density W/sqrt(A), which stays bounded and tends to zero at the common-CW input edge. Truncation then density extension is valid in the inherited sum of actual shell-field L2 norms, without an inverse polarization synthesis map.",
+          "The actual hook fixture has spatial invariant64, frequency10 and fixed CW margin28. Its cancellation at t=0 and exact native descriptor evolution produce the stated positive coefficient amplification R^2/50+9/25+128/(25R^2). This is nonnormal modal synthesis in an auxiliary coefficient norm, not exponential instability, negative energy or a ghost claim.",
+          "The full13-dimensional normalized packet argument is sound. Smooth actual kernel extensions exist on a neighborhood of every large-R point; continuity permits a smaller open ball with fixed positive initial norm bounds and amplification at least cR. The ball may shrink with R: coefficient Sobolev normalization uses frequency weights, not Fourier derivatives, so this shrinking does not remove the lower bound. All supports remain inside radius1 about k_R and inside Omega.",
+          "Adding conjugate packets at -k produces the declared real field subset and doubles both squared norms on disjoint supports. The H^(s+d) input versus H^s output ratio is bounded below by cR^(1-d), proving necessary loss at least1 and failure of a bounded same-order fixed-time evolution at t=pi/20.",
+          "The upper estimate uses the same actual two-sided scalarizer. Reducing modulo z^2-delta_a makes q=q_a and every paired-residue denominator a nonzero constant. Polynomial division has total degree at most39; quadratic reduction preserves this bound, with V degree at most38. Thus Pi_a and N_a have polynomial coefficient bounds without dividing by the vanishing temporal frequency.",
+          "The paired formula cos(omega_a t)Pi_a+sin(omega_a t)N_a/omega_a is uniformly bounded by polynomial frequency weights times 1+abs(t), including the edge limit. On the compatible core the clusters sum to identity, so Plancherel yields H^(s+39) to H^s and extends to the stated coefficient-norm completion. This is not a bounded group on one H^s, and loss39 is not asserted sharp.",
+          "The report retains H_modal unitarity, distinguishes its initial amplitudes from the synthesized coefficient norm, and does not recycle the unrestricted exponentially unstable-domain no-finite-loss result. No source physical norm/current, class-C, K77, curved or whole-GU verdict is inferred.",
+          "The additional proper positive-plane rotation fixes time and sends the witness to k_R=(R+16/R)theta4+(R-16/R)theta10 with beta=theta3*gamma3-theta1*gamma1. Direct new native kernel, adapter, norm and real-quadrature checks bind the same amplification. Its explicit normal invariant is N=64>36, so the open normalized-packet construction may stay in that support restriction. This independently retains the same-order coefficient-norm exclusion inside the named Lorentz core, without identifying the ambient rotation with observed Lorentz or importing a physical MASS-GAP verdict."
+        ],
+        "own_checks": [
+          "Read the full final report, complete exact-control probe and all six finite Lean statements/proofs; inspected final typed-object metadata and owner instructions.",
+          "Independently reasoned through the local singular-corner integrals, null-patch alternative, edge truncation, native hook mode cancellation, normalized open-ball packet construction and realification.",
+          "Checked the scalarizer quotient degree, constant paired denominators, cluster projection use and sin(omega*t)/omega edge cancellation against the inherited full-descriptor framework.",
+          "Authenticated all four final artifact hashes, certificate producer binding, 100 stored checks including29 native fixture controls, and all17 dependency hashes by file reads only.",
+          "Read the final rotated-fixture code and report paragraph, including the explicit N=sum_(j=4)^13 D_j*k_j^2 definition and no-LC-physical-import boundary; authenticated all four refreshed hashes and the100-control certificate. Lean bytes are unchanged. No control was executed by this reviewer."
+        ],
+        "limits": [
+          "Local quadratic claims concern the future boundary combination on fixed finite patches and held separated output threshold frames. Complementary resonances, all-output closure and global nonlinear interactions remain open.",
+          "The stable edge estimates use actual shell-field H_modal amplitudes and the decay estimates use regular q0 norms. They do not prove uniform equivalence with ordinary initial-field norms at edges or at high frequency.",
+          "The global exclusion concerns a fixed auxiliary coefficient Sobolev topology on the declared compatible core. It does not exclude H_modal, other norm choices, finite derivative loss, constrained physical quotients or every nonlinear completion.",
+          "The necessary/sufficient loss interval[1,39] combines different sharpness levels. One derivative is necessary,39 sufficient; neither identifies the optimal loss. A derivative-losing bound cannot automatically be iterated in a contraction argument.",
+          "No physical energy, quantum mass gap, source-selected state law, observed prediction, source-GU falsification or world-novelty claim is accepted.",
+          "The six Lean cores and finite controls do not formalize the Fourier multiplier, full-dimensional packet, integration or complete PDE proof. Root test/build results remain separately owned; this is internal mathematical review."
+        ],
+        "not_run": [
+          "No probe/test execution, Lean/build, native operator calculation, dense computation or process gate was run.",
+          "No owner repository artifact was edited; only this scratch review receipt was written."
+        ]
+      }
+    ],
+    "gates": {
+      "program_focus_audit": "PASS",
+      "typed_carrier_declaration_audit": "PASS",
+      "kill_target_claim_audit": "PASS",
+      "frontmatter_status_schema_audit": "PASS",
+      "source_native_comparator_routing_audit": "PASS",
+      "lean_certificate_surface_audit": "PASS",
+      "current_state_absolute_currency_audit": "PASS",
+      "conditional_evidence_delta_gate": "PASS",
+      "research_context_reader_audit": "PASS"
+    }
+  },
+  "calibrated_diagnostic": {
+    "unitary_control": "Diagonal phases preserve ordinary coefficient norm.",
+    "planted_failure": "Nonnormal conjugated two-mode diagonal system exposes cancelled initial data.",
+    "native_binding": "Actual hook nativePhi andcompact symbol, both temporalroots andsine/cosine residuals, primary-minus realquadratures andconjugate patch.",
+    "scope": "Auxiliary coefficient propagation, not physicalenergy."
+  },
+  "follow_through": {
+    "consumed": [
+      "All finite-band stable/decay quadratic future-boundary input types including inputedge.",
+      "Global ordinary coefficient same-order Sobolev norm-equivalence question on the selected full CW compatiblecore."
+    ],
+    "exclusions": [
+      "Same-order global coefficient-Hs boundedfixedtime evolution on fullcompatibleCWcore. Same witness also lies inside the branch-complete observed-Lorentz core; further polarization restrictions remain untested."
+    ],
+    "survivors": [
+      "H_modal unitary linear evolution.",
+      "Global coefficient Sobolev-scale linear estimate with sufficientloss39 and necessaryloss>=1.",
+      "Local all19threshold stable/decay future-boundary maps; free decaying datum remains."
+    ],
+    "next": "Joe27r2b wave5 (last budgeted): test global quadratic closure for inherited modal/free-decay inputs and actual paired output state, tracking high-frequency vertices/projectors and any derivative cost. No same-order coefficient-Hs assumption; do not infer nonlinear contraction from loss39. A sharper bound is useful only if it decides this gate. If unresolved at cap, preserve exact nonlinear/physical-domain burden and advance queued antilinear/PT step3 autonomously. Local stable/decay/edge estimates are consumed; no threshold census. CWstep2b4/5,wedge3/3.",
+    "pitfalls": [
+      "A physicalnorm is not selected by auxiliary coefficient estimates.",
+      "H_modal membership is not ordinary coefficient regularity; pairedextension may not have individually L2 modalamplitudes nearedge.",
+      "No finite-loss nonlinear fixedpoint from a linear loss39 estimate.",
+      "Planecharacter alone is not an L2counterexample; full13D packets are proved."
+    ],
+    "next_cost_ranking": [
+      "Globalactual quadratic operator in inheritedmodal/free-decay topology; bound or normalizedpacketcounterexample.",
+      "Sharper pairedprojector degree only if it decides nonlinearclosure cost.",
+      "Afterstep2budget, actualantilinear/PTnorm criterion with allsurvivors/exclusions retained."
+    ],
+    "provisional_next_reconnaissance": {
+      "status": "Unreviewed read-only calculation; no new estimate accepted and no state norm adopted.",
+      "source_note": "Retain the compact-output cutoff in the globalinput pushforward. Crude spatialboost frame size gives density growth at most anglebracket-k^11; balanced Sobolev weights11/4 on each actual modalinput may suffice for globalinput-to-fixedcompactoutput boundaryL2 with epsilon^1/4 tail.",
+      "discriminator": "First target remains unweighted/global inheritednorm closure or its exact regularity cost. A sufficient weighted estimate alone does not decide failure of unweightedL2 or alloutput/nonlinear closure. Do not spend finalwave merely proving a convenient stronger-norm result.",
+      "needs_check": [
+        "Actual boost-frame bound and support-weight placement.",
+        "Normalized nativevertex plus full13D input/output packet widths before any unweightedcounterexample.",
+        "Globalfree-q0/state norm is only locally defined so far; cannot silently glue charts into physicalmetric."
+      ],
+      "scope": "Preparatory estimate only; full nonlinear target unchanged."
+    }
+  },
+  "accounting": {
+    "counter_before": 125,
+    "counter_after": 126,
+    "LB_LADDER_runs_before": 30,
+    "LB_LADDER_runs_after": 31,
+    "bet_changes": 0,
+    "step2b_new_waves_used": 4,
+    "step2_max_waves": 5,
+    "wedge_waves_used": 3,
+    "cell_status_changes": 0,
+    "ledger_verdict_changes": 0
+  },
+  "effect_line": "Applied scoped T1 global coefficient-norm exclusion and positive local/finite-loss survivors under27q/r/t; remainingCWwork is nonlinear globalclosure, not localthresholds. No governance, physicalchoice or source/ledgerverdict change; automatedeffect notyetobserved.",
+  "normal_core_extension": {
+    "normal_invariant": 64,
+    "margin_above36": 28,
+    "computational_ambient_rotation": "theta1->theta4,theta4->-theta1; not an observed Lorentz transform",
+    "status": "actual kernels, ratio and primary-minus quadratures checked",
+    "inference_limit": "Core support alone does not repair same-order coefficient bound if these polarizations admitted; no physical/source claim."
+  }
+}

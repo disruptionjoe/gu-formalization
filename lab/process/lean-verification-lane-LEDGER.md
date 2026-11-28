@@ -675,3 +675,7 @@ bicategory, ambidexterity or Mackey 2-functor is inferred.
 ## 2026-11-28 — CW symmetry/domain finite cores
 
 `Lean/GUFormalization/CWSymmetryDomain.lean` checks reversal-closure logic, mass positivity and margin, residue lower-bound arithmetic and rational core fixtures (five theorems). Targeted single-thread compilation; no sorry. Full orbit/coarea/complete-history, source identification and physical quantum claims are not formalized by these finite cores.
+
+## 2026-11-28 — CW global coefficient norm finite cores
+
+`Lean/GUFormalization/CWGlobalNorm.lean` checks six finite cores: boost and amplification arithmetic, growth lower bound, kernel domination, companion decay and degree/shell counts. Targeted single-thread compilation passed without proof placeholders. Full scalarizer, thirteen-dimensional packets, bilinear bounds and physical/source applicability remain written/reviewed mathematics. No full-project build or scientific canon promotion is claimed. Result: `explorations/conditional-build/cw-edge-decay-and-global-norm-2026-11-28.md`.

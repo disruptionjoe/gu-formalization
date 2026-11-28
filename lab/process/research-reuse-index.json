@@ -3121,6 +3121,63 @@
         "receipt_ref": "lab/process/cw-all-threshold-boundary.json#verification",
         "scope": "68finiteexactcontrols and one calibrated actualzero fixture; functional-analysis proof written/reviewed."
       }
+    },
+    {
+      "id": "cw-edge-decay-global-2026-11-28",
+      "kind": "result",
+      "owner_ref": "explorations/conditional-build/cw-edge-decay-and-global-norm-2026-11-28.md",
+      "tested_statement": "Actual retained-decay and common-CW input-edge quadratic future-boundary maps are locally L2 bounded in inherited modal/free-q0 norms. An actual fixed-square64 hook yields unbounded same-order global coefficient-Hs evolution at fixed time, requiring at least1 derivative loss. Paired scalarizer gives a conservative global linear H^(s+39) to H^s bound uniform through input edges; H_modal remains unitary. The same cost persists inside the observed-Lorentz core by an actual rotated hook.",
+      "signature": {
+        "object": "ActualCWcompatible propagation and retained future-boundary map",
+        "carrier": "Full selected frozen K95 massive bosonic kernels, primary-minus realhook witness; independentdecaygraphs",
+        "convention": "H_modal versus ordinarycoefficientHs; fixedkappa12, all13spatialdimensions",
+        "class": "Same-order global coefficienttopology and finite-loss upper; compactlocalstable/decay pairs",
+        "premises": [
+          "explorations/conditional-build/cw-edge-decay-and-global-norm-2026-11-28.md"
+        ]
+      },
+      "attributed_status": "internal_T1_reviewed",
+      "status_ref": "lab/process/cw-edge-decay-global.json#status",
+      "source_bridge_ref": "lab/process/cw-edge-decay-global.json#source_bridge",
+      "certificate_refs": [
+        "lab/process/cw-edge-decay-global-certificates.json",
+        "Lean/GUFormalization/CWGlobalNorm.lean"
+      ],
+      "control_refs": [
+        "tests/program-focus/cw_edge_decay_global_probe.py"
+      ],
+      "survivors_ref": "lab/process/cw-edge-decay-global.json#follow_through",
+      "reopen_condition_ref": "explorations/conditional-build/cw-edge-decay-and-global-norm-2026-11-28.md",
+      "superseded_by": null,
+      "cache": {
+        "artifacts": [
+          {
+            "path": "explorations/conditional-build/cw-edge-decay-and-global-norm-2026-11-28.md",
+            "sha256": "2bce6a254034846b6ef9117d31a3cd8a2082db2e833180da095af2f2ba397777"
+          },
+          {
+            "path": "tests/program-focus/cw_edge_decay_global_probe.py",
+            "sha256": "b863fd9c8859fb2b61d6bce2138f2b5d3bb72f5efb4125510ed5d723af58c1db"
+          },
+          {
+            "path": "lab/process/cw-edge-decay-global-certificates.json",
+            "sha256": "39368dc509ff1e0be1d5f49449b73bbcc822bb75c8abd77b83ac2ba1a67ced42"
+          },
+          {
+            "path": "Lean/GUFormalization/CWGlobalNorm.lean",
+            "sha256": "0aaf11ed06247da970e9954c8f42b58b2352ec060018fcb3a35bb8ec7ff4abf9"
+          }
+        ],
+        "verifier": {
+          "command": "python3",
+          "args": [
+            "tests/program-focus/cw_edge_decay_global_probe.py",
+            "--verify"
+          ]
+        },
+        "receipt_ref": "lab/process/cw-edge-decay-global.json#verification",
+        "scope": "100exactcontrols,6Leanfinitecores; fullanalytic/packettheorems independentlyreviewed."
+      }
     }
   ]
 }

@@ -16,6 +16,10 @@ discovery bet (`lab/process/discovery-bets.json`). The K25xx--K2618 detector, pr
 results below are retained as conditional mathematics; that lane is no longer the default target. Sections
 below are dated results, newest first, and are not steering.
 
+## 2026-11-28 — CW retained states and global norm cost
+
+[Result](explorations/conditional-build/cw-edge-decay-and-global-norm-2026-11-28.md) · [Evidence](lab/process/cw-edge-decay-global.json). Localstable/decay boundary estimates persist through inputedges in inherited norms. Actualfixedsquare64 hookpackets require at leastone derivative loss for globalordinary coefficient evolution; pairedscalarizer gives a conservative39-derivative upper. H_modal survives; nonlinear/physicalclosure remainsopen.100exactcontrols and6Leanfinitecores; no source/ledgerverdict change.
+
 ## 2026-11-28 — All local CW threshold bounds
 
 [Result](explorations/conditional-build/cw-all-threshold-boundary-estimate-2026-11-28.md) · [Evidence](lab/process/cw-all-threshold-boundary.json). Full transverse integration gives a local L2xL2 to L2 future-boundary estimate with epsilon^(1/4) tail at all19 output thresholds. A calibrated actual(-1,+1)->(-2) polarization fixture has zero projection. Retained-decaying inputs, global/input-edge bounds and nonlinear closure remain open.68exactcontrols; no new Lean, physical norm, prediction or ledger verdict.

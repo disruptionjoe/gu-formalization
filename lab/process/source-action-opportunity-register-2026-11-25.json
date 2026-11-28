@@ -3971,5 +3971,45 @@
       "Global/input-edge estimate in an explicitly inherited norm; no stronger norm chosen merely to pass.",
       "Nonlinear invariant-manifold construction only once required closure estimates exist."
     ]
+  },
+  "cw_edge_decay_global_2026_11_28": {
+    "evidence": [
+      "explorations/conditional-build/cw-edge-decay-and-global-norm-2026-11-28.md",
+      "lab/process/cw-edge-decay-global.json"
+    ],
+    "actual_delta": "Actual retained-decay and common-CW input-edge quadratic future-boundary maps are locally L2 bounded in inherited modal/free-q0 norms. An actual fixed-square64 hook yields unbounded same-order global coefficient-Hs evolution at fixed time, requiring at least1 derivative loss. Paired scalarizer gives a conservative global linear H^(s+39) to H^s bound uniform through input edges; H_modal remains unitary.",
+    "choice_budget": {
+      "families": 10,
+      "obligations": 4,
+      "net": 6,
+      "source_selected_predictions": 0,
+      "new_adopted_choices": 0,
+      "repair_adopted": false,
+      "scope": "Historical candidate grouping; no physical norm/domain/choice adopted."
+    },
+    "consumed": [
+      "All finite-band stable/decay quadratic future-boundary input types including inputedge.",
+      "Global ordinary coefficient same-order Sobolev norm-equivalence question on the selected full CW compatiblecore."
+    ],
+    "exclusions": [
+      "Same-order global coefficient-Hs boundedfixedtime evolution on fullcompatibleCWcore."
+    ],
+    "survivors": [
+      "H_modal unitary linear evolution.",
+      "Global coefficient Sobolev-scale linear estimate with sufficientloss39 and necessaryloss>=1.",
+      "Local all19threshold stable/decay future-boundary maps; free decaying datum remains."
+    ],
+    "next": "Joe27r2b wave5 (last budgeted): test global quadratic closure for inherited modal/free-decay inputs and actual paired output state, tracking high-frequency vertices/projectors and any derivative cost. No same-order coefficient-Hs assumption; do not infer nonlinear contraction from loss39. A sharper bound is useful only if it decides this gate. If unresolved at cap, preserve exact nonlinear/physical-domain burden and advance queued antilinear/PT step3 autonomously. Local stable/decay/edge estimates are consumed; no threshold census. CWstep2b4/5,wedge3/3.",
+    "pitfalls": [
+      "A physicalnorm is not selected by auxiliary coefficient estimates.",
+      "H_modal membership is not ordinary coefficient regularity; pairedextension may not have individually L2 modalamplitudes nearedge.",
+      "No finite-loss nonlinear fixedpoint from a linear loss39 estimate.",
+      "Planecharacter alone is not an L2counterexample; full13D packets are proved."
+    ],
+    "next_cost_ranking": [
+      "Globalactual quadratic operator in inheritedmodal/free-decay topology; bound or normalizedpacketcounterexample.",
+      "Sharper pairedprojector degree only if it decides nonlinearclosure cost.",
+      "Afterstep2budget, actualantilinear/PTnorm criterion with allsurvivors/exclusions retained."
+    ]
   }
 }
