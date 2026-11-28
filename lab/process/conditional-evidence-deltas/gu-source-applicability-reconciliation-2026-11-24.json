@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "delta_id": "GU-SOURCE-APPLICABILITY-RECONCILIATION-2026-11-24",
-  "status": "pending",
+  "status": "integrated",
   "base": {
     "ledger_ref": "lab/process/conditional-physics-ledger-v0.263.json",
     "ledger_sha256": "7c75c179c3af512084e50af19043a5d320b38e8c1e53325ee5ec2f97ad9c257b"
@@ -75,5 +75,9 @@
     "GHOST-GRADE-VS-KREIN-PAIRING",
     "LEDGER-TRIGGER-MEANING-PRESERVATION"
   ],
-  "integration": null
+  "integration": {
+    "disposition": "incorporated",
+    "canonical_ledger_ref": "lab/process/conditional-physics-ledger-v0.264.json",
+    "reason": "Incorporate updated row-specific evidence; November24 mu6/closed-square missing statements are expressly superseded by later owned geometric evidence. Exact accepted row edits in lab/process/ledger-v264-row-proposals.json; previous disposition retained in lab/process/ledger-v264-reconciliation.json."
+  }
 }

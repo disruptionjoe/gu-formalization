@@ -1,12 +1,17 @@
 {
   "schema_version": "1.0",
   "delta_id": "GU-MANNHEIM-COMPATIBILITY-DESI-2026-10-27",
-  "status": "pending",
+  "status": "integrated",
   "base": {
     "ledger_ref": "lab/process/conditional-physics-ledger-v0.263.json",
     "ledger_sha256": "7c75c179c3af512084e50af19043a5d320b38e8c1e53325ee5ec2f97ad9c257b"
   },
-  "affected_rows": ["LT-GR1b", "LT-GR2e", "LT-GR5", "LT-GR6b"],
+  "affected_rows": [
+    "LT-GR1b",
+    "LT-GR2e",
+    "LT-GR5",
+    "LT-GR6b"
+  ],
   "result_refs": [
     "lab/active-research/joe-directed/mannheim-compatibility/mannheim-gu-compatibility-and-desi-2026-10-27.md",
     "tests/channel-swings/mannheim_gu_compatibility_probe.py"
@@ -21,6 +26,17 @@
       "Consider linking LT-GR6b to the already-known interaction-dependent physical metric/domain burden; no new positivity claim."
     ]
   },
-  "conflict_keys": ["LT-GR1b", "LT-GR2e", "LT-GR5", "LT-GR6b", "B3-DE-LIKELIHOOD-SCOPE", "MANNHEIM-GU-IDENTIFICATION"],
-  "integration": null
+  "conflict_keys": [
+    "LT-GR1b",
+    "LT-GR2e",
+    "LT-GR5",
+    "LT-GR6b",
+    "B3-DE-LIKELIHOOD-SCOPE",
+    "MANNHEIM-GU-IDENTIFICATION"
+  ],
+  "integration": {
+    "disposition": "incorporated",
+    "canonical_ledger_ref": "lab/process/conditional-physics-ledger-v0.264.json",
+    "reason": "Incorporate scoped evidence only; no verdict/reason/trigger change. Prior deferral history, if any, must be retained. Exact accepted row edits in lab/process/ledger-v264-row-proposals.json; previous disposition retained in lab/process/ledger-v264-reconciliation.json."
+  }
 }

@@ -5,6 +5,10 @@ doc_type: overview
 updated_at: "2026-08-23"
 ---
 
+## Current physics ledger — v0.264
+
+[Ledger](conditional-physics-ledger-v0.264.json) · [Reviewed scope and evidence reconciliation](../../explorations/conditional-build/conditional-physics-ledger-v0.264.md).88 active targets;33 SAME,22 DIFFERS,31 NEEDS,2 OVER_DETERMINED.50 rows reconciled; no verdict changes. Conditional representation labels do not establish observed particle predictions.
+
 ## Source-action engineering opportunities (2026-11-25)
 
 [Results](source-action-engineering-wave.json), [complete opportunity inventory](source-action-opportunity-register-2026-11-25.md), and [response packet](work-packets/source-action-response-discriminators-2026-11-25.md): concrete diagnostics, formal coupled follow-through and evidence-based construction ranking. All source/class/physics verdicts and standing principles retained.
@@ -1614,10 +1618,10 @@ Both remain active research with unchanged source, physics-ledger and canon verd
 These are active-research evidence, not canon acceptance.
 
 Current append-only progress surface:
-[`conditional-physics-ledger-v0.263.json`](conditional-physics-ledger-v0.263.json),
+[`conditional-physics-ledger-v0.264.json`](conditional-physics-ledger-v0.264.json),
 summarized in
-`../../explorations/conditional-build/conditional-physics-ledger-v0.262.md`.
-It preserves all 88 targets and retypes exactly AC-F3, LT-GR1b and RA-D2 from
+`../../explorations/conditional-build/conditional-physics-ledger-v0.264.md`.
+The earlier v0.262 correction preserved all88targets and retyped AC-F3, LT-GR1b and RA-D2 from
 global falsification to bounded route kill, with no movement toward SAME and
 no change to their computations, evidence or reopening conditions. The
 digest-bound CT-2 history-repair registry is

@@ -16,6 +16,10 @@ discovery bet (`lab/process/discovery-bets.json`). The K25xx--K2618 detector, pr
 results below are retained as conditional mathematics; that lane is no longer the default target. Sections
 below are dated results, newest first, and are not steering.
 
+## 2026-11-27 — Ledger v0.264 evidence reconciliation
+
+[Currentledger](lab/process/conditional-physics-ledger-v0.264.json) · [Mintrecord](explorations/conditional-build/conditional-physics-ledger-v0.264.md).50rows reconciled after complete91-row currency audit.88active targets and allverdicts/reasons/triggers unchanged. Scalar, gauge-count, source-Higgs andShiab scopes corrected; reviewed postv263 evidence attached. No physicalprediction promoted.
+
 ## 2026-11-27 — Own-wedge dynamics
 
 [Result](explorations/conditional-build/wedge-shiab-dynamics-2026-11-27.md) · [Evidence](lab/process/wedge-shiab-dynamics.json). A native homogeneous analytic first-action branch satisfies the source primitive variations on the declared fixed local regulator. Its leading effective density is ambient curvature-squared. A separate conditional flat-ambient sector has both canonical-energy signs and oscillatory solutions; this is not a physical ghost or native-branch instability verdict.5305exactcontrols cover normalization, Clifford grades and the conditional full mixed metric row. Source/ledger verdicts unchanged.

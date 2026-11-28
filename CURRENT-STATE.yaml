@@ -1,7 +1,7 @@
 schema_version: '1.0'
 repository: observerse-research-program
 branch: main
-revision_basis: 097daab9df96037f5e5a7ae5aaaec42f85ba8ca6
+revision_basis: 74b90248a96a0a46ff3445aa4e20fb90557bba19
 program_focus:
   version: 2026-11-27-v3
   authority: joe_direct_chat_2026_11_27_k
@@ -245,6 +245,16 @@ focus_consideration_2026_11_27_t:
     options retained. Residual is a bounded linked synthesis, not a new prerequisite.
   continuation: Existing wedge gate then nonlinearCW changes beyond the already excluded instantaneous
     graph class; W2 diagnostic only; bounded residual synthesis with honest units of choice.
+physics_ledger_reconciliation_2026_11_27_v:
+  status: reviewed_released
+  ledger_ref: lab/process/conditional-physics-ledger-v0.264.json
+  evidence:
+  - explorations/conditional-build/conditional-physics-ledger-v0.264.md
+  - lab/process/ledger-v264-reconciliation.json
+  effect: 50rows scope/evidence reconciled;88targets andverdicts/reasons/triggers unchanged.
+  next: Directedledgerpasscomplete:resumeJoe27r1c finalwedgewave, evaluating27w Einstein-term/scalegate
+    onactualGg andspecifiedreadout before genericquadraticgravityimports. Existing nonlinearCW route follows;
+    W2 diagnostic only.
 wedge_dynamics_2026_11_27:
   status: internal_T2_reviewed
   actual_delta: The existing GU* wedge first action has a native homogeneous analytic large-kappa stationary

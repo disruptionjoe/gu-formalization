@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "delta_id": "GU-SHIAB-COMPANION-2026-11-27",
-  "status": "pending",
+  "status": "integrated",
   "base": {
     "ledger_ref": "lab/process/conditional-physics-ledger-v0.263.json",
     "ledger_sha256": "7c75c179c3af512084e50af19043a5d320b38e8c1e53325ee5ec2f97ad9c257b"
@@ -27,5 +27,9 @@
     "GU-PRINTED-SHIAB-ENDPOINT-2026-11-27",
     "SOURCE-DERIVATION-VS-COMPANION"
   ],
-  "integration": null
+  "integration": {
+    "disposition": "incorporated",
+    "canonical_ledger_ref": "lab/process/conditional-physics-ledger-v0.264.json",
+    "reason": "Incorporate scoped evidence only; no verdict/reason/trigger change. Prior deferral history, if any, must be retained. Exact accepted row edits in lab/process/ledger-v264-row-proposals.json; previous disposition retained in lab/process/ledger-v264-reconciliation.json."
+  }
 }

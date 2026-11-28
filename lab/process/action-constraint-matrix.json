@@ -1803,7 +1803,7 @@
   "lane_state": {
     "LB-MATRIX": {
       "zero_delta_streak": 0,
-      "runs": 17,
+      "runs": 18,
       "status": "open"
     },
     "LB-CLASS": {
@@ -2727,7 +2727,7 @@
   ],
   "program_run_counter": {
     "since": "2026-11-09",
-    "count": 117,
+    "count": 118,
     "rule": "Every hourly run increments this in its postflight, whatever its lane. Lane C runs when count % 4 == 3 before the increment."
   },
   "working_rule": "Cells are worked at the structure level: a requirement must hold for every action in class C or for a structurally defined subfamily. No cell is worked by writing down a specific action, and no gated cell is worked by building its gate object. See CURRENT-STATE.yaml program_focus.structure_not_specifics.",
@@ -3790,6 +3790,15 @@
       "counter_after": 117,
       "lane": "LB-CLASS",
       "selection": "Prioritypacket1b, own native action dynamics;27t gravity gate."
+    },
+    {
+      "date": "2026-11-27",
+      "authority": "joe_direct_chat_2026_11_27_v",
+      "item": "ledger-v264-evidence-reconciliation",
+      "counter_before": 117,
+      "counter_after": 118,
+      "lane": "LB-MATRIX",
+      "selection": "Directonepassledgerreconciliation;no scientificcell/verdictchanges; resumedecisivegate."
     }
   ],
   "directed_lc_carry_2026_11_24_b": {

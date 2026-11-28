@@ -1,12 +1,14 @@
 {
   "schema_version": "1.0",
   "delta_id": "GU-LTGR8-OBSERVED-STRESS-COMPOSITION-TYPING-2026-08-23",
-  "status": "deferred",
+  "status": "integrated",
   "base": {
     "ledger_ref": "lab/process/conditional-physics-ledger-v0.260.json",
     "ledger_sha256": "8151fd5c48d661d7c9cf8762c813955d672df9900aa2a91930c349fdbd19bee1"
   },
-  "affected_rows": ["LT-GR8"],
+  "affected_rows": [
+    "LT-GR8"
+  ],
   "result_refs": [
     "explorations/conditional-build/selected-k77-ltgr8-observed-stress-composition-typing-2026-08-23.md",
     "lab/process/selected-k77-ltgr8-observed-stress-composition-typing.json",
@@ -21,10 +23,13 @@
       "LT-GR8.context.note: preserve the existing observed matter-shell Ward theorem while keeping hypothetical ambient reduction and physical causal flux separate"
     ]
   },
-  "conflict_keys": ["LT-GR8-STRESS-FLUX-TYPING", "LT-GR8-OBSERVATION-COMPOSITION"],
+  "conflict_keys": [
+    "LT-GR8-STRESS-FLUX-TYPING",
+    "LT-GR8-OBSERVATION-COMPOSITION"
+  ],
   "integration": {
-    "disposition": "deferred",
-    "canonical_ledger_ref": null,
-    "reason": "The exact D4 type split is propagated to current owner state and the reverse-track packet while LT-GR8's canonical NEEDS / MISSING_CONSTRUCTION verdict remains unchanged. A new sequential ledger version solely for the row-distance refinement would add churn; retain the delta until LT-GR8 next moves for an independent scientific reason."
+    "disposition": "incorporated",
+    "canonical_ledger_ref": "lab/process/conditional-physics-ledger-v0.264.json",
+    "reason": "Incorporate scoped evidence only; no verdict/reason/trigger change. Prior deferral history, if any, must be retained. Exact accepted row edits in lab/process/ledger-v264-row-proposals.json; previous disposition retained in lab/process/ledger-v264-reconciliation.json."
   }
 }

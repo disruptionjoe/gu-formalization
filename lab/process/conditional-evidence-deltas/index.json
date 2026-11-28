@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "integration_cursor": "GU-LEDGER-KILL-TYPING-2026-08-23",
+  "integration_cursor": "GU-LEDGER-SOURCE-SCOPE-RECONCILIATION-2026-11-27",
   "deltas": [
     {
       "delta_id": "GU-TW-COHERENCE-27-LENS-2026-08-14",
@@ -10,12 +10,12 @@
     {
       "delta_id": "GU-LTGR8-BOUNDARY-CARRIER-TYPING-2026-08-22",
       "path": "lab/process/conditional-evidence-deltas/gu-ltgr8-boundary-carrier-typing-2026-08-22.json",
-      "status": "deferred"
+      "status": "integrated"
     },
     {
       "delta_id": "GU-LTGR8-OBSERVED-STRESS-COMPOSITION-TYPING-2026-08-23",
       "path": "lab/process/conditional-evidence-deltas/gu-ltgr8-observed-stress-composition-typing-2026-08-23.json",
-      "status": "deferred"
+      "status": "integrated"
     },
     {
       "delta_id": "GU-EXT-GR-BENCH-WIDENING-2026-08-23",
@@ -35,57 +35,62 @@
     {
       "delta_id": "GU-MANNHEIM-COMPATIBILITY-DESI-2026-10-27",
       "path": "lab/process/conditional-evidence-deltas/gu-mannheim-compatibility-desi-2026-10-27.json",
-      "status": "pending"
+      "status": "integrated"
     },
     {
       "delta_id": "GU-PREDICTION-KICKOFF-2026-10-27",
       "path": "lab/process/conditional-evidence-deltas/gu-prediction-kickoff-2026-10-27.json",
-      "status": "pending"
+      "status": "integrated"
     },
     {
       "delta_id": "GU-SOURCE-APPLICABILITY-RECONCILIATION-2026-11-24",
       "path": "lab/process/conditional-evidence-deltas/gu-source-applicability-reconciliation-2026-11-24.json",
-      "status": "pending"
+      "status": "integrated"
     },
     {
       "delta_id": "GU-PRINTED-SHIAB-ENDPOINT-2026-11-27",
       "path": "lab/process/conditional-evidence-deltas/gu-printed-shiab-endpoint-2026-11-27.json",
-      "status": "pending"
+      "status": "integrated"
     },
     {
       "delta_id": "GU-OBSERVATION-CARRIER-CUSTODY-2026-11-27",
       "path": "lab/process/conditional-evidence-deltas/gu-observation-carrier-custody-2026-11-27.json",
-      "status": "pending"
+      "status": "integrated"
     },
     {
       "delta_id": "GU-GLOBAL-SM-QUOTIENT-2026-11-27",
       "path": "lab/process/conditional-evidence-deltas/gu-global-sm-quotient-2026-11-27.json",
-      "status": "pending"
+      "status": "integrated"
     },
     {
       "delta_id": "GU-SHIAB-COMPANION-2026-11-27",
       "path": "lab/process/conditional-evidence-deltas/gu-shiab-companion-2026-11-27.json",
-      "status": "pending"
+      "status": "integrated"
     },
     {
       "delta_id": "GU-CLOSED-SPIN-NORMAL-2026-11-27",
       "path": "lab/process/conditional-evidence-deltas/gu-closed-spin-normal-2026-11-27.json",
-      "status": "pending"
+      "status": "integrated"
     },
     {
       "delta_id": "GU-PRINTED-ENDPOINT-BRANCH-2026-11-27",
       "path": "lab/process/conditional-evidence-deltas/gu-printed-endpoint-branch-2026-11-27.json",
-      "status": "pending"
+      "status": "integrated"
     },
     {
       "delta_id": "GU-NORMAL-SM-CHARACTERISTIC-2026-11-27",
       "path": "lab/process/conditional-evidence-deltas/gu-normal-sm-characteristic-2026-11-27.json",
-      "status": "pending"
+      "status": "integrated"
     },
     {
       "delta_id": "GU-FULL-Y-PRODUCT-LIFT-2026-11-27",
       "path": "lab/process/conditional-evidence-deltas/gu-full-y-product-lift-2026-11-27.json",
-      "status": "pending"
+      "status": "integrated"
+    },
+    {
+      "delta_id": "GU-LEDGER-SOURCE-SCOPE-RECONCILIATION-2026-11-27",
+      "path": "lab/process/conditional-evidence-deltas/gu-ledger-source-scope-reconciliation-2026-11-27.json",
+      "status": "integrated"
     }
   ]
 }

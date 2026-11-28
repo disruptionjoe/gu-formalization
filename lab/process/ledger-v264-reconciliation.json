@@ -1,0 +1,3017 @@
+{
+  "artifact": "LEDGER_V264_RECONCILIATION",
+  "status": "reviewed_released",
+  "date": "2026-11-27",
+  "basis_revision": "74b90248a96a0a46ff3445aa4e20fb90557bba19",
+  "authority": "joe_direct_chat_2026_11_27_v",
+  "base": {
+    "ref": "lab/process/conditional-physics-ledger-v0.263.json",
+    "sha256": "7c75c179c3af512084e50af19043a5d320b38e8c1e53325ee5ec2f97ad9c257b"
+  },
+  "ledger_ref": "lab/process/conditional-physics-ledger-v0.264.json",
+  "proposal_ref": "lab/process/ledger-v264-row-proposals.json",
+  "proposal_sha256": "7c94420bce06863311431d427320d8464319f98709fbc8178c5f578673159dd0",
+  "proposal_native_sha256": "7c94420bce06863311431d427320d8464319f98709fbc8178c5f578673159dd0",
+  "changes": [
+    {
+      "row_id": "RA-A2",
+      "field": "evidence",
+      "reason": "Reviewed source/evidence scope repair"
+    },
+    {
+      "row_id": "RA-A3",
+      "field": "evidence",
+      "reason": "Reviewed source/evidence scope repair"
+    },
+    {
+      "row_id": "RA-A4",
+      "field": "summary",
+      "reason": "Reviewed source/evidence scope repair"
+    },
+    {
+      "row_id": "RA-A4",
+      "field": "distance",
+      "reason": "Reviewed source/evidence scope repair"
+    },
+    {
+      "row_id": "RA-A4",
+      "field": "evidence",
+      "reason": "Reviewed source/evidence scope repair"
+    },
+    {
+      "row_id": "RA-A4",
+      "field": "revival_scope",
+      "reason": "Reviewed source/evidence scope repair"
+    },
+    {
+      "row_id": "RA-A5",
+      "field": "summary",
+      "reason": "Reviewed source/evidence scope repair"
+    },
+    {
+      "row_id": "RA-A5",
+      "field": "distance",
+      "reason": "Reviewed source/evidence scope repair"
+    },
+    {
+      "row_id": "RA-A5",
+      "field": "evidence",
+      "reason": "Reviewed source/evidence scope repair"
+    },
+    {
+      "row_id": "RA-A5",
+      "field": "revival_scope",
+      "reason": "Reviewed source/evidence scope repair"
+    },
+    {
+      "row_id": "RA-A6",
+      "field": "evidence",
+      "reason": "Reviewed source/evidence scope repair"
+    },
+    {
+      "row_id": "RA-A6",
+      "field": "summary",
+      "reason": "Reviewed source/evidence scope repair"
+    },
+    {
+      "row_id": "RA-A6",
+      "field": "distance",
+      "reason": "Reviewed source/evidence scope repair"
+    },
+    {
+      "row_id": "RA-A6",
+      "field": "revival_scope",
+      "reason": "Reviewed source/evidence scope repair"
+    },
+    {
+      "row_id": "RA-A6",
+      "field": "mapping_grade",
+      "reason": "Reviewed source/evidence scope repair"
+    },
+    {
+      "row_id": "RA-A8",
+      "field": "evidence",
+      "reason": "Reviewed source/evidence scope repair"
+    },
+    {
+      "row_id": "RA-B1",
+      "field": "evidence",
+      "reason": "Reviewed source/evidence scope repair"
+    },
+    {
+      "row_id": "RA-B2",
+      "field": "evidence",
+      "reason": "Reviewed source/evidence scope repair"
+    },
+    {
+      "row_id": "RA-B3",
+      "field": "evidence",
+      "reason": "Reviewed source/evidence scope repair"
+    },
+    {
+      "row_id": "RA-B4",
+      "field": "evidence",
+      "reason": "Reviewed source/evidence scope repair"
+    },
+    {
+      "row_id": "RA-B5",
+      "field": "evidence",
+      "reason": "Reviewed source/evidence scope repair"
+    },
+    {
+      "row_id": "RA-B6",
+      "field": "summary",
+      "reason": "Reviewed source/evidence scope repair"
+    },
+    {
+      "row_id": "RA-B6",
+      "field": "distance",
+      "reason": "Reviewed source/evidence scope repair"
+    },
+    {
+      "row_id": "RA-B6",
+      "field": "evidence",
+      "reason": "Reviewed source/evidence scope repair"
+    },
+    {
+      "row_id": "RA-B6",
+      "field": "revival_scope",
+      "reason": "Reviewed source/evidence scope repair"
+    },
+    {
+      "row_id": "RA-D2",
+      "field": "summary",
+      "reason": "Reviewed source/evidence scope repair"
+    },
+    {
+      "row_id": "RA-D2",
+      "field": "distance",
+      "reason": "Reviewed source/evidence scope repair"
+    },
+    {
+      "row_id": "RA-D2",
+      "field": "evidence",
+      "reason": "Reviewed source/evidence scope repair"
+    },
+    {
+      "row_id": "RA-D2",
+      "field": "revival_scope",
+      "reason": "Reviewed source/evidence scope repair"
+    },
+    {
+      "row_id": "RA-D4",
+      "field": "evidence",
+      "reason": "Reviewed source/evidence scope repair"
+    },
+    {
+      "row_id": "RA-E1",
+      "field": "evidence",
+      "reason": "Reviewed source/evidence scope repair"
+    },
+    {
+      "row_id": "RA-E1",
+      "field": "revival_scope",
+      "reason": "Reviewed source/evidence scope repair"
+    },
+    {
+      "row_id": "RA-E2",
+      "field": "summary",
+      "reason": "Reviewed source/evidence scope repair"
+    },
+    {
+      "row_id": "RA-E2",
+      "field": "distance",
+      "reason": "Reviewed source/evidence scope repair"
+    },
+    {
+      "row_id": "RA-E2",
+      "field": "evidence",
+      "reason": "Reviewed source/evidence scope repair"
+    },
+    {
+      "row_id": "RA-E2",
+      "field": "revival_scope",
+      "reason": "Reviewed source/evidence scope repair"
+    },
+    {
+      "row_id": "RA-E2",
+      "field": "mapping_grade",
+      "reason": "Reviewed source/evidence scope repair"
+    },
+    {
+      "row_id": "RA-E3",
+      "field": "summary",
+      "reason": "Reviewed source/evidence scope repair"
+    },
+    {
+      "row_id": "RA-E3",
+      "field": "distance",
+      "reason": "Reviewed source/evidence scope repair"
+    },
+    {
+      "row_id": "RA-E3",
+      "field": "evidence",
+      "reason": "Reviewed source/evidence scope repair"
+    },
+    {
+      "row_id": "RA-E3",
+      "field": "revival_scope",
+      "reason": "Reviewed source/evidence scope repair"
+    },
+    {
+      "row_id": "RA-E4",
+      "field": "summary",
+      "reason": "Reviewed source/evidence scope repair"
+    },
+    {
+      "row_id": "RA-E4",
+      "field": "distance",
+      "reason": "Reviewed source/evidence scope repair"
+    },
+    {
+      "row_id": "RA-E4",
+      "field": "evidence",
+      "reason": "Reviewed source/evidence scope repair"
+    },
+    {
+      "row_id": "RA-E4",
+      "field": "revival_scope",
+      "reason": "Reviewed source/evidence scope repair"
+    },
+    {
+      "row_id": "RA-E4",
+      "field": "prediction_scope",
+      "reason": "Reviewed source/evidence scope repair"
+    },
+    {
+      "row_id": "RA-E4",
+      "field": "mapping_grade",
+      "reason": "Reviewed source/evidence scope repair"
+    },
+    {
+      "row_id": "RA-E5",
+      "field": "summary",
+      "reason": "Reviewed source/evidence scope repair"
+    },
+    {
+      "row_id": "RA-E5",
+      "field": "distance",
+      "reason": "Reviewed source/evidence scope repair"
+    },
+    {
+      "row_id": "RA-E5",
+      "field": "evidence",
+      "reason": "Reviewed source/evidence scope repair"
+    },
+    {
+      "row_id": "RA-E5",
+      "field": "revival_scope",
+      "reason": "Reviewed source/evidence scope repair"
+    },
+    {
+      "row_id": "RA-F1",
+      "field": "evidence",
+      "reason": "Reviewed source/evidence scope repair"
+    },
+    {
+      "row_id": "RA-F2",
+      "field": "summary",
+      "reason": "Reviewed source/evidence scope repair"
+    },
+    {
+      "row_id": "RA-F2",
+      "field": "distance",
+      "reason": "Reviewed source/evidence scope repair"
+    },
+    {
+      "row_id": "RA-F2",
+      "field": "evidence",
+      "reason": "Reviewed source/evidence scope repair"
+    },
+    {
+      "row_id": "RA-F2",
+      "field": "revival_scope",
+      "reason": "Reviewed source/evidence scope repair"
+    },
+    {
+      "row_id": "RA-F3",
+      "field": "evidence",
+      "reason": "Reviewed source/evidence scope repair"
+    },
+    {
+      "row_id": "RA-G1",
+      "field": "summary",
+      "reason": "Reviewed source/evidence scope repair"
+    },
+    {
+      "row_id": "RA-G1",
+      "field": "distance",
+      "reason": "Reviewed source/evidence scope repair"
+    },
+    {
+      "row_id": "RA-G1",
+      "field": "evidence",
+      "reason": "Reviewed source/evidence scope repair"
+    },
+    {
+      "row_id": "RA-G1",
+      "field": "revival_scope",
+      "reason": "Reviewed source/evidence scope repair"
+    },
+    {
+      "row_id": "RA-G2",
+      "field": "summary",
+      "reason": "Reviewed source/evidence scope repair"
+    },
+    {
+      "row_id": "RA-G2",
+      "field": "distance",
+      "reason": "Reviewed source/evidence scope repair"
+    },
+    {
+      "row_id": "RA-G2",
+      "field": "evidence",
+      "reason": "Reviewed source/evidence scope repair"
+    },
+    {
+      "row_id": "RA-G2",
+      "field": "revival_scope",
+      "reason": "Reviewed source/evidence scope repair"
+    },
+    {
+      "row_id": "RA-G3",
+      "field": "evidence",
+      "reason": "Reviewed source/evidence scope repair"
+    },
+    {
+      "row_id": "RA-G3",
+      "field": "revival_scope",
+      "reason": "Reviewed source/evidence scope repair"
+    },
+    {
+      "row_id": "RA-G4",
+      "field": "evidence",
+      "reason": "Reviewed source/evidence scope repair"
+    },
+    {
+      "row_id": "RA-G4",
+      "field": "revival_scope",
+      "reason": "Reviewed source/evidence scope repair"
+    },
+    {
+      "row_id": "LT-GR1",
+      "field": "evidence",
+      "reason": "Reviewed source/evidence scope repair"
+    },
+    {
+      "row_id": "LT-GR1",
+      "field": "summary",
+      "reason": "Reviewed source/evidence scope repair"
+    },
+    {
+      "row_id": "LT-GR1",
+      "field": "distance",
+      "reason": "Reviewed source/evidence scope repair"
+    },
+    {
+      "row_id": "LT-GR1",
+      "field": "revival_scope",
+      "reason": "Reviewed source/evidence scope repair"
+    },
+    {
+      "row_id": "LT-GR1b",
+      "field": "evidence",
+      "reason": "Reviewed source/evidence scope repair"
+    },
+    {
+      "row_id": "LT-GR1b",
+      "field": "summary",
+      "reason": "Reviewed source/evidence scope repair"
+    },
+    {
+      "row_id": "LT-GR1b",
+      "field": "distance",
+      "reason": "Reviewed source/evidence scope repair"
+    },
+    {
+      "row_id": "LT-GR1b",
+      "field": "revival_scope",
+      "reason": "Reviewed source/evidence scope repair"
+    },
+    {
+      "row_id": "LT-GR2b",
+      "field": "evidence",
+      "reason": "Reviewed source/evidence scope repair"
+    },
+    {
+      "row_id": "LT-GR2c",
+      "field": "evidence",
+      "reason": "Reviewed source/evidence scope repair"
+    },
+    {
+      "row_id": "LT-GR2d",
+      "field": "evidence",
+      "reason": "Reviewed source/evidence scope repair"
+    },
+    {
+      "row_id": "LT-GR2e",
+      "field": "evidence",
+      "reason": "Reviewed source/evidence scope repair"
+    },
+    {
+      "row_id": "LT-GR5",
+      "field": "evidence",
+      "reason": "Reviewed source/evidence scope repair"
+    },
+    {
+      "row_id": "LT-GR6b",
+      "field": "evidence",
+      "reason": "Reviewed source/evidence scope repair"
+    },
+    {
+      "row_id": "LT-GR8",
+      "field": "evidence",
+      "reason": "Reviewed source/evidence scope repair"
+    },
+    {
+      "row_id": "LT-GR10",
+      "field": "evidence",
+      "reason": "Reviewed source/evidence scope repair"
+    },
+    {
+      "row_id": "LT-SM4",
+      "field": "summary",
+      "reason": "Reviewed source/evidence scope repair"
+    },
+    {
+      "row_id": "LT-SM4",
+      "field": "distance",
+      "reason": "Reviewed source/evidence scope repair"
+    },
+    {
+      "row_id": "LT-SM4",
+      "field": "evidence",
+      "reason": "Reviewed source/evidence scope repair"
+    },
+    {
+      "row_id": "LT-SM4",
+      "field": "revival_scope",
+      "reason": "Reviewed source/evidence scope repair"
+    },
+    {
+      "row_id": "LT-SM5",
+      "field": "evidence",
+      "reason": "Reviewed source/evidence scope repair"
+    },
+    {
+      "row_id": "LT-SM6",
+      "field": "evidence",
+      "reason": "Reviewed source/evidence scope repair"
+    },
+    {
+      "row_id": "LT-SM6",
+      "field": "revival_scope",
+      "reason": "Reviewed source/evidence scope repair"
+    },
+    {
+      "row_id": "LT-SM8",
+      "field": "evidence",
+      "reason": "Reviewed source/evidence scope repair"
+    },
+    {
+      "row_id": "AC-A5",
+      "field": "summary",
+      "reason": "Reviewed source/evidence scope repair"
+    },
+    {
+      "row_id": "AC-A5",
+      "field": "distance",
+      "reason": "Reviewed source/evidence scope repair"
+    },
+    {
+      "row_id": "AC-A5",
+      "field": "evidence",
+      "reason": "Reviewed source/evidence scope repair"
+    },
+    {
+      "row_id": "AC-A5",
+      "field": "revival_scope",
+      "reason": "Reviewed source/evidence scope repair"
+    },
+    {
+      "row_id": "AC-D1",
+      "field": "evidence",
+      "reason": "Reviewed source/evidence scope repair"
+    },
+    {
+      "row_id": "AC-D2",
+      "field": "evidence",
+      "reason": "Reviewed source/evidence scope repair"
+    },
+    {
+      "row_id": "AC-D3",
+      "field": "evidence",
+      "reason": "Reviewed source/evidence scope repair"
+    },
+    {
+      "row_id": "AC-D4",
+      "field": "evidence",
+      "reason": "Reviewed source/evidence scope repair"
+    },
+    {
+      "row_id": "AC-D5",
+      "field": "evidence",
+      "reason": "Reviewed source/evidence scope repair"
+    },
+    {
+      "row_id": "AC-E1",
+      "field": "evidence",
+      "reason": "Reviewed source/evidence scope repair"
+    },
+    {
+      "row_id": "AC-F1",
+      "field": "evidence",
+      "reason": "Reviewed source/evidence scope repair"
+    },
+    {
+      "row_id": "AC-F5",
+      "field": "evidence",
+      "reason": "Reviewed source/evidence scope repair"
+    },
+    {
+      "row_id": "AC-G1a",
+      "field": "evidence",
+      "reason": "Reviewed source/evidence scope repair"
+    },
+    {
+      "row_id": "AC-G1a",
+      "field": "revival_scope",
+      "reason": "Reviewed source/evidence scope repair"
+    }
+  ],
+  "protected_fields": [
+    "id",
+    "axis",
+    "source_row",
+    "verdict",
+    "reason_kind",
+    "revival_trigger"
+  ],
+  "accounting": {
+    "serialized_rows": 91,
+    "active_targets": 88,
+    "rows_touched": 50,
+    "row_field_changes_before_context": 107,
+    "verdict_changes": 0,
+    "counts": {
+      "SAME": 33,
+      "DIFFERS": 22,
+      "NEEDS": 31,
+      "OVER_DETERMINED": 2
+    },
+    "counter_before": 117,
+    "counter_after": 118,
+    "LB_MATRIX_before": 17,
+    "LB_MATRIX_after": 18,
+    "new_scientific_results": 0
+  },
+  "prior_delta_dispositions": [
+    {
+      "delta_id": "GU-LTGR8-BOUNDARY-CARRIER-TYPING-2026-08-22",
+      "path": "lab/process/conditional-evidence-deltas/gu-ltgr8-boundary-carrier-typing-2026-08-22.json",
+      "prior_status": "deferred",
+      "prior_integration": {
+        "disposition": "deferred",
+        "priority_effect": "none",
+        "reason": "The exact metric-only typing result is already reflected in CURRENT-STATE.yaml and RESEARCH-AGENDA.json, while the canonical LT-GR8 ledger verdict remains NEEDS / MISSING_CONSTRUCTION. Minting a new sequential ledger version solely to restate that unchanged verdict would add integration churn without changing a scientific decision; retain this delta as the durable proposed row refinement until LT-GR8 next moves for independent scientific reasons.",
+        "cursor_advanced": true,
+        "integrated_at": "2026-08-23T04:05:45Z"
+      },
+      "proposal_sha256": "012c55db2061e3a2837bffcee617b219cdafd03676e39530c41e3838b7d7c66e"
+    },
+    {
+      "delta_id": "GU-LTGR8-OBSERVED-STRESS-COMPOSITION-TYPING-2026-08-23",
+      "path": "lab/process/conditional-evidence-deltas/gu-ltgr8-observed-stress-composition-typing-2026-08-23.json",
+      "prior_status": "deferred",
+      "prior_integration": {
+        "disposition": "deferred",
+        "canonical_ledger_ref": null,
+        "reason": "The exact D4 type split is propagated to current owner state and the reverse-track packet while LT-GR8's canonical NEEDS / MISSING_CONSTRUCTION verdict remains unchanged. A new sequential ledger version solely for the row-distance refinement would add churn; retain the delta until LT-GR8 next moves for an independent scientific reason."
+      },
+      "proposal_sha256": "47c64999526b4b6b2f68c61e4979118b17bd35701ce3e83358cfe2343cdb5a3b"
+    },
+    {
+      "delta_id": "GU-MANNHEIM-COMPATIBILITY-DESI-2026-10-27",
+      "path": "lab/process/conditional-evidence-deltas/gu-mannheim-compatibility-desi-2026-10-27.json",
+      "prior_status": "pending",
+      "prior_integration": null,
+      "proposal_sha256": "5a78e113b579a55bcc4043fe543171486df7113c953a5b5f74a880d6869103f2"
+    },
+    {
+      "delta_id": "GU-PREDICTION-KICKOFF-2026-10-27",
+      "path": "lab/process/conditional-evidence-deltas/gu-prediction-kickoff-2026-10-27.json",
+      "prior_status": "pending",
+      "prior_integration": null,
+      "proposal_sha256": "b062fd5b1dd4c8647f090095a099fc899df92977bf0b9fb8155ff4e5093bfb3b"
+    },
+    {
+      "delta_id": "GU-SOURCE-APPLICABILITY-RECONCILIATION-2026-11-24",
+      "path": "lab/process/conditional-evidence-deltas/gu-source-applicability-reconciliation-2026-11-24.json",
+      "prior_status": "pending",
+      "prior_integration": null,
+      "proposal_sha256": "b0344f2a9a393f3f311fefede720a3269d3b7c7ba557e7a883a460e0bf66b2a6"
+    },
+    {
+      "delta_id": "GU-PRINTED-SHIAB-ENDPOINT-2026-11-27",
+      "path": "lab/process/conditional-evidence-deltas/gu-printed-shiab-endpoint-2026-11-27.json",
+      "prior_status": "pending",
+      "prior_integration": null,
+      "proposal_sha256": "839d9bb4272455503f3fd1f4c583e540fbaa5b5970c178aeeaeeaa655b248bfc"
+    },
+    {
+      "delta_id": "GU-OBSERVATION-CARRIER-CUSTODY-2026-11-27",
+      "path": "lab/process/conditional-evidence-deltas/gu-observation-carrier-custody-2026-11-27.json",
+      "prior_status": "pending",
+      "prior_integration": null,
+      "proposal_sha256": "95973e9bea1e9e28b7a30869a96284d53f58e3034d4611fe20d9286c49644365"
+    },
+    {
+      "delta_id": "GU-GLOBAL-SM-QUOTIENT-2026-11-27",
+      "path": "lab/process/conditional-evidence-deltas/gu-global-sm-quotient-2026-11-27.json",
+      "prior_status": "pending",
+      "prior_integration": null,
+      "proposal_sha256": "a3b9f8ffe8008773ea3dbe27e6fb7a19f7f6bbc2c7377edefc7f6f70f04947f4"
+    },
+    {
+      "delta_id": "GU-SHIAB-COMPANION-2026-11-27",
+      "path": "lab/process/conditional-evidence-deltas/gu-shiab-companion-2026-11-27.json",
+      "prior_status": "pending",
+      "prior_integration": null,
+      "proposal_sha256": "9b3c3b623eb61c63b50b8ef1a44929c808f2b847686bec46105558c990e98a71"
+    },
+    {
+      "delta_id": "GU-CLOSED-SPIN-NORMAL-2026-11-27",
+      "path": "lab/process/conditional-evidence-deltas/gu-closed-spin-normal-2026-11-27.json",
+      "prior_status": "pending",
+      "prior_integration": null,
+      "proposal_sha256": "b872e76b48d3e6a60ea7dd18ec4400a694d06779b78354607bd753dc1c3d35e0"
+    },
+    {
+      "delta_id": "GU-PRINTED-ENDPOINT-BRANCH-2026-11-27",
+      "path": "lab/process/conditional-evidence-deltas/gu-printed-endpoint-branch-2026-11-27.json",
+      "prior_status": "pending",
+      "prior_integration": null,
+      "proposal_sha256": "c51801dd4e491a49b69e3063485162b6e5e3c9d1cec863e1b7ee99b05beaf232"
+    },
+    {
+      "delta_id": "GU-NORMAL-SM-CHARACTERISTIC-2026-11-27",
+      "path": "lab/process/conditional-evidence-deltas/gu-normal-sm-characteristic-2026-11-27.json",
+      "prior_status": "pending",
+      "prior_integration": null,
+      "proposal_sha256": "b7a96a9a3df0d9b41bebc1757ab17da638dd19a49b126d2f2131f6215f5da7b7"
+    },
+    {
+      "delta_id": "GU-FULL-Y-PRODUCT-LIFT-2026-11-27",
+      "path": "lab/process/conditional-evidence-deltas/gu-full-y-product-lift-2026-11-27.json",
+      "prior_status": "pending",
+      "prior_integration": null,
+      "proposal_sha256": "c662007e2b34d70431bd13b9379180e366ad5fdca1006da15f01067c29f08ed9"
+    }
+  ],
+  "deferred_scientific_adjudications": [
+    {
+      "row_id": "RA-E4",
+      "proposal": "Potential NEEDS/MISSING_CONSTRUCTION finding if the physical scalar target remains; requires separate exact T1 adjudication, not applied."
+    },
+    {
+      "row_id": "RA-E2",
+      "proposal": "Stored vertical-scalar trigger is withdrawn in interpretation; exact trigger replacement deferred, revival_scope prominently prevents literal reuse."
+    },
+    {
+      "row_id": "RA-A6",
+      "proposal": "Historical rank-one126 selection trigger is not the whole now-built geometric quotient question; any replacement requires separate adjudication."
+    }
+  ],
+  "scope": "SOURCE/GU* and comparator owner retained; old theorem certificates reused. Lane-C-only findings not imported. This release does not certify a physical prediction from a representation label. Revival trigger stored text remains unchanged; current applicability is intentionally clarified, including the non-executable withdrawn vertical-scalar reading.",
+  "verification": {
+    "reviews": [
+      {
+        "accepted": true,
+        "blockers": [],
+        "reviewer": "metric_family_second_review",
+        "proposal_sha256": "7c94420bce06863311431d427320d8464319f98709fbc8178c5f578673159dd0",
+        "audit_sha256": "8f3c7122205419cbd1c49837f04556892f496b62a07de2362aaa80289a151554",
+        "base_ledger_sha256": "7c75c179c3af512084e50af19043a5d320b38e8c1e53325ee5ec2f97ad9c257b",
+        "current_inspected_revision": "74b90248a96a0a46ff3445aa4e20fb90557bba19",
+        "reviewer_scope": "Independent exact mathematical/evidence-scope review of all50 row proposals and all107 proposed old/new field changes, with protected fields checked against the immutable v0.263 base. Relevant source-register passages, correction blocks and cited owned results were inspected. This is not fresh re-proving of every historical theorem, not owner schema/postflight validation, and not permission to alter protected verdict/trigger fields. No reviewer tests/builds or owner writes.",
+        "proposal_decisions": {
+          "V264-RA-A2": {
+            "row_id": "RA-A2",
+            "decision": "accept",
+            "corrected_changes": [],
+            "reason": "Geometric weak covariance and the correlated normal-reduction, global quotient and product-lift results are reported on their admitted bundles; physical selection and fixed-data obligations remain distinct.",
+            "field_decisions": [
+              {
+                "field": "evidence",
+                "decision": "accept",
+                "old_value_authenticated": true,
+                "new_value_sha256": "ae58193aa61bb5c615c71c88784668ba57029d23da9132d558b29f10befa0d6d"
+              }
+            ]
+          },
+          "V264-RA-A3": {
+            "row_id": "RA-A3",
+            "decision": "accept",
+            "corrected_changes": [],
+            "reason": "The exact conditional charge fit is retained while the physical-carrier bridge and superseded LA3 missing-carrier rhetoric are corrected.",
+            "field_decisions": [
+              {
+                "field": "evidence",
+                "decision": "accept",
+                "old_value_authenticated": true,
+                "new_value_sha256": "9ff74b898b261f4b48018c79144613d654c925b10242027a2d6817e8070509b7"
+              }
+            ]
+          },
+          "V264-RA-A4": {
+            "row_id": "RA-A4",
+            "decision": "accept",
+            "corrected_changes": [],
+            "reason": "An extra conditional adjoint singlet is not yet a physical pole; observed current/constraint alternatives are correctly retained.",
+            "field_decisions": [
+              {
+                "field": "summary",
+                "decision": "accept",
+                "old_value_authenticated": true,
+                "new_value_sha256": "1027ad0a30c9de43970297a7117b87df4a8fac022213c42e6ada53c57ddc2db2"
+              },
+              {
+                "field": "distance",
+                "decision": "accept",
+                "old_value_authenticated": true,
+                "new_value_sha256": "25cdff31ab7d29456d95500cace81a5fdbd925a9ee12bc2880bca51b26d21d23"
+              },
+              {
+                "field": "evidence",
+                "decision": "accept",
+                "old_value_authenticated": true,
+                "new_value_sha256": "4311042f9f1fdf6022a62ee01819e31b54c7a1650a5a2de86d799a21f20656c6"
+              },
+              {
+                "field": "revival_scope",
+                "decision": "accept",
+                "old_value_authenticated": true,
+                "new_value_sha256": "5ce1fab8b7a16f8029f837a33b9d43fa8c3e8033c2a393261af4a24b5053f398"
+              }
+            ]
+          },
+          "V264-RA-A5": {
+            "row_id": "RA-A5",
+            "decision": "accept",
+            "corrected_changes": [],
+            "reason": "The arithmetic 91=6+40+45 and 73=40+33 makes the 33 an included subset. The spin-adjoint scope and unconstructed physical propagation are explicit.",
+            "field_decisions": [
+              {
+                "field": "summary",
+                "decision": "accept",
+                "old_value_authenticated": true,
+                "new_value_sha256": "7d73f6ec1572ed57a3815138201fe83a1b9ec86fd2c7d4bacdcb5659a2f4a8f8"
+              },
+              {
+                "field": "distance",
+                "decision": "accept",
+                "old_value_authenticated": true,
+                "new_value_sha256": "d02b77ba426dd8eb2b8556a444fbcaaee90cf0ede47d29e4938f3cec498a9051"
+              },
+              {
+                "field": "evidence",
+                "decision": "accept",
+                "old_value_authenticated": true,
+                "new_value_sha256": "ec56ba715c4257452e28da61c10de7456485ebc51f48066ab2787413e4a9c635"
+              },
+              {
+                "field": "revival_scope",
+                "decision": "accept",
+                "old_value_authenticated": true,
+                "new_value_sha256": "5ce1fab8b7a16f8029f837a33b9d43fa8c3e8033c2a393261af4a24b5053f398"
+              }
+            ]
+          },
+          "V264-RA-A6": {
+            "row_id": "RA-A6",
+            "decision": "accept",
+            "corrected_changes": [],
+            "reason": "The free-positive-J prescribed-Spin geometric mu6 quotient and simultaneous observation descent are supplied. The historical rank-one126 selection trigger is neither discharged nor confused with a different vector or physical gauge selection.",
+            "field_decisions": [
+              {
+                "field": "evidence",
+                "decision": "accept",
+                "old_value_authenticated": true,
+                "new_value_sha256": "f6ea3cb09f3f8c049f8c0691b056842e3267d514bf682953a5907a276fdb4c10"
+              },
+              {
+                "field": "summary",
+                "decision": "accept",
+                "old_value_authenticated": true,
+                "new_value_sha256": "9f80e993817abb7be6a9f70db3a77bae1cba036638a0ce8aa466b08a887a7c95"
+              },
+              {
+                "field": "distance",
+                "decision": "accept",
+                "old_value_authenticated": true,
+                "new_value_sha256": "b056d7c0a7a2c1858c848ba8463316585988578e873e88f8a4ec78c16cc26e67"
+              },
+              {
+                "field": "revival_scope",
+                "decision": "accept",
+                "old_value_authenticated": true,
+                "new_value_sha256": "a360fa811a07727de585ec1902913e37ecbfc431e599221bc5c33ef9e3782c39"
+              },
+              {
+                "field": "mapping_grade",
+                "decision": "accept",
+                "old_value_authenticated": true,
+                "new_value_sha256": "994572b6d53f690b1bd910dd560dd99008b3e6cf82cca23fe58d8bb6532d77a2"
+              }
+            ]
+          },
+          "V264-RA-A8": {
+            "row_id": "RA-A8",
+            "decision": "accept",
+            "corrected_changes": [],
+            "reason": "Absolute topology and kinematic Lorentz covariance do not establish a stationary selected vacuum or stabilizer.",
+            "field_decisions": [
+              {
+                "field": "evidence",
+                "decision": "accept",
+                "old_value_authenticated": true,
+                "new_value_sha256": "5f97421e0a388bbeb14812055dfd1f4105716d7280c89083c5f42035493e7cde"
+              }
+            ]
+          },
+          "V264-RA-B1": {
+            "row_id": "RA-B1",
+            "decision": "accept",
+            "corrected_changes": [],
+            "reason": "Current custody preserves the exact conditional representation/anomaly result and corrects the blanket missing-complex-carrier claim. It does not select a physical chiral16, action/domain or independent additional constraint.",
+            "field_decisions": [
+              {
+                "field": "evidence",
+                "decision": "accept",
+                "old_value_authenticated": true,
+                "new_value_sha256": "b9c873ff346b7bad3951a1ad25dc228617e9c17e08537b88a83c86e32f037e1c"
+              }
+            ]
+          },
+          "V264-RA-B2": {
+            "row_id": "RA-B2",
+            "decision": "accept",
+            "corrected_changes": [],
+            "reason": "Current custody preserves the exact conditional representation/anomaly result and corrects the blanket missing-complex-carrier claim. It does not select a physical chiral16, action/domain or independent additional constraint.",
+            "field_decisions": [
+              {
+                "field": "evidence",
+                "decision": "accept",
+                "old_value_authenticated": true,
+                "new_value_sha256": "af7efb9d91b640d10d916080add8a3c295d6ee9f9621dde7c3227088949ab491"
+              }
+            ]
+          },
+          "V264-RA-B3": {
+            "row_id": "RA-B3",
+            "decision": "accept",
+            "corrected_changes": [],
+            "reason": "Current custody preserves the exact conditional representation/anomaly result and corrects the blanket missing-complex-carrier claim. It does not select a physical chiral16, action/domain or independent additional constraint.",
+            "field_decisions": [
+              {
+                "field": "evidence",
+                "decision": "accept",
+                "old_value_authenticated": true,
+                "new_value_sha256": "caa32d8526ecadafe0ec5046ae3e568ab082cf374e2237356e7b1d41b37129db"
+              }
+            ]
+          },
+          "V264-RA-B4": {
+            "row_id": "RA-B4",
+            "decision": "accept",
+            "corrected_changes": [],
+            "reason": "Current custody preserves the exact conditional representation/anomaly result and corrects the blanket missing-complex-carrier claim. It does not select a physical chiral16, action/domain or independent additional constraint.",
+            "field_decisions": [
+              {
+                "field": "evidence",
+                "decision": "accept",
+                "old_value_authenticated": true,
+                "new_value_sha256": "c82921e1f27431efe83a24cf93f9a7cb5b8b4db748ec0c1c50204249769bdb13"
+              }
+            ]
+          },
+          "V264-RA-B5": {
+            "row_id": "RA-B5",
+            "decision": "accept",
+            "corrected_changes": [],
+            "reason": "Current custody preserves the exact conditional representation/anomaly result and corrects the blanket missing-complex-carrier claim. It does not select a physical chiral16, action/domain or independent additional constraint.",
+            "field_decisions": [
+              {
+                "field": "evidence",
+                "decision": "accept",
+                "old_value_authenticated": true,
+                "new_value_sha256": "dfa1bae5bd54f34698c46523d3bc5a5b05336ce9530fcaf3caf8451d729753b7"
+              }
+            ]
+          },
+          "V264-RA-B6": {
+            "row_id": "RA-B6",
+            "decision": "accept",
+            "corrected_changes": [],
+            "reason": "The normal16 neutral singlet is distinguished from an admitted neutrino state, seesaw, Majorana structure and calibrated spectrum.",
+            "field_decisions": [
+              {
+                "field": "summary",
+                "decision": "accept",
+                "old_value_authenticated": true,
+                "new_value_sha256": "edfad159b602a97a7e0e305f476da7f3c099301fef77fc980b7be1c999c2bb9c"
+              },
+              {
+                "field": "distance",
+                "decision": "accept",
+                "old_value_authenticated": true,
+                "new_value_sha256": "95a556f9230e3667ab16737f5923ddab5ac384f9298d9bcee5176f07b38851d3"
+              },
+              {
+                "field": "evidence",
+                "decision": "accept",
+                "old_value_authenticated": true,
+                "new_value_sha256": "643e6b03aa232dd5e2b38a0b23273665dc7ce5506b6bcb65a62f491efcf00bdc"
+              },
+              {
+                "field": "revival_scope",
+                "decision": "accept",
+                "old_value_authenticated": true,
+                "new_value_sha256": "5ce1fab8b7a16f8029f837a33b9d43fa8c3e8033c2a393261af4a24b5053f398"
+              }
+            ]
+          },
+          "V264-RA-D2": {
+            "row_id": "RA-D2",
+            "decision": "accept",
+            "corrected_changes": [],
+            "reason": "Fixed-carrier mass/trace-q realization failures are retained without claiming they falsify the source effective low-mass/current mechanism. The exact-autonomy trigger is scoped as one route.",
+            "field_decisions": [
+              {
+                "field": "summary",
+                "decision": "accept",
+                "old_value_authenticated": true,
+                "new_value_sha256": "ac369089ec249129cd7b83512765d6295f5402164ad314b81464c5349f310e32"
+              },
+              {
+                "field": "distance",
+                "decision": "accept",
+                "old_value_authenticated": true,
+                "new_value_sha256": "0723497458594caa70260c3a1e9afa67b85f65305431b3ac7afac605c86c86b2"
+              },
+              {
+                "field": "evidence",
+                "decision": "accept",
+                "old_value_authenticated": true,
+                "new_value_sha256": "2ca247e4c732fa044f2c9bf4f690086c20b8569978d31d7a5b80fba7c7210669"
+              },
+              {
+                "field": "revival_scope",
+                "decision": "accept",
+                "old_value_authenticated": true,
+                "new_value_sha256": "75c22dd938f4fc559fddf31b9636ecdb402214773f8c97ecf94bd2c9788b7ffc"
+              }
+            ]
+          },
+          "V264-RA-D4": {
+            "row_id": "RA-D4",
+            "decision": "accept",
+            "corrected_changes": [],
+            "reason": "Conditional index balance, primitive current response and positive Riemannian localization comparison are kept separate from native physical mirror contents and effective suppression. The corrected primary-minus witness preserves the class-survival statement.",
+            "field_decisions": [
+              {
+                "field": "evidence",
+                "decision": "accept",
+                "old_value_authenticated": true,
+                "new_value_sha256": "8d0e8c40e503e4429696e00dd6a80ba26ccf2c90b32efd82fecd014f1fe89819"
+              }
+            ]
+          },
+          "V264-RA-E1": {
+            "row_id": "RA-E1",
+            "decision": "accept",
+            "corrected_changes": [],
+            "reason": "Source gauge-potential spinless mass origin and denial of a separate fundamental Higgs are correctly distinguished from observed scalar construction.",
+            "field_decisions": [
+              {
+                "field": "evidence",
+                "decision": "accept",
+                "old_value_authenticated": true,
+                "new_value_sha256": "5f5f8f6fddb3af58b86d579b7ae09973ae9858fe4bf696879bdb7dc7175e044d"
+              },
+              {
+                "field": "revival_scope",
+                "decision": "accept",
+                "old_value_authenticated": true,
+                "new_value_sha256": "bb086897334e3960598eadb1739a2c7d963cef62e2a49d85aca482fec7e6e8d3"
+              }
+            ]
+          },
+          "V264-RA-E2": {
+            "row_id": "RA-E2",
+            "decision": "accept",
+            "corrected_changes": [],
+            "reason": "The previously withdrawn vertical-form-leg scalar premise and shape grade are removed from live inference. Ordinary contraction remains a one-form map; an independent emergent scalar construction remains open.",
+            "field_decisions": [
+              {
+                "field": "summary",
+                "decision": "accept",
+                "old_value_authenticated": true,
+                "new_value_sha256": "a4cba2455f400f6c8c70c7ff7374d7490cd71e79d08bca61e604ba0195ef97df"
+              },
+              {
+                "field": "distance",
+                "decision": "accept",
+                "old_value_authenticated": true,
+                "new_value_sha256": "6cb991ee534219b8a65cafb9c59d2abea08db59122c6ea6686ffbcefbc351b1c"
+              },
+              {
+                "field": "evidence",
+                "decision": "accept",
+                "old_value_authenticated": true,
+                "new_value_sha256": "e6eb16eb0cfaea160055b06e2222767dd714190d73b13a816d159df4cbceb6e9"
+              },
+              {
+                "field": "revival_scope",
+                "decision": "accept",
+                "old_value_authenticated": true,
+                "new_value_sha256": "4dc031bd00e4e078ed451acec4dd9af4daaca6f604fe0e5571338bc416279e8a"
+              },
+              {
+                "field": "mapping_grade",
+                "decision": "accept",
+                "old_value_authenticated": true,
+                "new_value_sha256": "95279f5dbe09b6d07815e698b3cc2ff323e6eb2f0b492aaec2e46fce6a2eebf3"
+              }
+            ]
+          },
+          "V264-RA-E3": {
+            "row_id": "RA-E3",
+            "decision": "accept",
+            "corrected_changes": [],
+            "reason": "The zero-doublet theorem is kept within the declared rank-two representation class. One-form source carrier and observed emergent scalar construction are not falsely identified.",
+            "field_decisions": [
+              {
+                "field": "summary",
+                "decision": "accept",
+                "old_value_authenticated": true,
+                "new_value_sha256": "dd2d38a9f4451b50071671357a484c28161ca67e8a3d347aafd10c590020f637"
+              },
+              {
+                "field": "distance",
+                "decision": "accept",
+                "old_value_authenticated": true,
+                "new_value_sha256": "0064d94eec1d4bed4b11140faf21d7698cc8cdd11792226bd4fd70a5634723ac"
+              },
+              {
+                "field": "evidence",
+                "decision": "accept",
+                "old_value_authenticated": true,
+                "new_value_sha256": "5843d5c3211587ee6504a8b13d31a0ec30edf4fd0377b140798b319e19d31700"
+              },
+              {
+                "field": "revival_scope",
+                "decision": "accept",
+                "old_value_authenticated": true,
+                "new_value_sha256": "5ce1fab8b7a16f8029f837a33b9d43fa8c3e8033c2a393261af4a24b5053f398"
+              }
+            ]
+          },
+          "V264-RA-E4": {
+            "row_id": "RA-E4",
+            "decision": "accept",
+            "corrected_changes": [],
+            "reason": "E4-A explicitly retains conditional representation bookkeeping without claiming an observed multi-doublet/2HDM spectrum. Independent scalar degrees after reality/constraints and the action/current map remain prerequisites; no E4-B verdict transition is made.",
+            "field_decisions": [
+              {
+                "field": "summary",
+                "decision": "accept",
+                "old_value_authenticated": true,
+                "new_value_sha256": "18b2f0fe0498a10b2ee51f61dc66fd05c7328802cb81d543474b1a7d8063d25f"
+              },
+              {
+                "field": "distance",
+                "decision": "accept",
+                "old_value_authenticated": true,
+                "new_value_sha256": "422efeb2d476c8398fa8bc0f3f0fd051c097105788b834661ed06021905eb304"
+              },
+              {
+                "field": "evidence",
+                "decision": "accept",
+                "old_value_authenticated": true,
+                "new_value_sha256": "bc6cb6580de6ccb45c85746d3891bf1109a1fc097b4adf00b4e986b1f59ebc52"
+              },
+              {
+                "field": "revival_scope",
+                "decision": "accept",
+                "old_value_authenticated": true,
+                "new_value_sha256": "43633c282e929d92b67fd3fdc08fc9661f0f4fb9546db5c4bfc5d0263df58b0a"
+              },
+              {
+                "field": "prediction_scope",
+                "decision": "accept",
+                "old_value_authenticated": true,
+                "new_value_sha256": "01384739338ae9e40b6e6af1eb536f04484701eeaba3ae6bd7557777f35d5b0f"
+              },
+              {
+                "field": "mapping_grade",
+                "decision": "accept",
+                "old_value_authenticated": true,
+                "new_value_sha256": "c40ccd0601705de3ca034b2a4286fcfd8355d3e8a61501ff3275616f19f83e85"
+              }
+            ]
+          },
+          "V264-RA-E5": {
+            "row_id": "RA-E5",
+            "decision": "accept",
+            "corrected_changes": [],
+            "reason": "Conditional doublet/triplet weights and Schur nonselection remain algebraic. A physical splitting or decay limit needs the stated scalar/current, vertex, external states, propagator and mass/coupling bridge.",
+            "field_decisions": [
+              {
+                "field": "summary",
+                "decision": "accept",
+                "old_value_authenticated": true,
+                "new_value_sha256": "82b28976fd600e305541e3d1e27902149fb00f89f5d2209995618d5396bca50c"
+              },
+              {
+                "field": "distance",
+                "decision": "accept",
+                "old_value_authenticated": true,
+                "new_value_sha256": "e9ff01e1e83a2e39b9898ec994270e20b61cfb3e7f207c62e19a9ace9c4403af"
+              },
+              {
+                "field": "evidence",
+                "decision": "accept",
+                "old_value_authenticated": true,
+                "new_value_sha256": "4b2353be754a2395d2994e34940ab9f75c93367305c62ede73017d89e4a57cf3"
+              },
+              {
+                "field": "revival_scope",
+                "decision": "accept",
+                "old_value_authenticated": true,
+                "new_value_sha256": "b6735e952e6053b96bb336597cf07eb227169e1b3519df7a0d4c7daac3b6eb16"
+              }
+            ]
+          },
+          "V264-RA-F1": {
+            "row_id": "RA-F1",
+            "decision": "accept",
+            "corrected_changes": [],
+            "reason": "Ambient gamma-kernel labels and benchmark torsion cannot supply the missing integer count. Mod3 reduction is not an integer-valued map from Z/3.",
+            "field_decisions": [
+              {
+                "field": "evidence",
+                "decision": "accept",
+                "old_value_authenticated": true,
+                "new_value_sha256": "c3b20da69d728a96260eaca5bbed6467f722c037766eb87ca0319fd00afe5cb5"
+              }
+            ]
+          },
+          "V264-RA-F2": {
+            "row_id": "RA-F2",
+            "decision": "accept",
+            "corrected_changes": [],
+            "reason": "Conditional low-energy replication is retained without contradicting SC-GEN-01 and the source fundamental effective2+1/imposter distinction.",
+            "field_decisions": [
+              {
+                "field": "summary",
+                "decision": "accept",
+                "old_value_authenticated": true,
+                "new_value_sha256": "698256ae319dca8a70b6824b424b31faeeba6cf2f2aaedeec20e80101fe2cc6c"
+              },
+              {
+                "field": "distance",
+                "decision": "accept",
+                "old_value_authenticated": true,
+                "new_value_sha256": "5fd647406bd4ab3bb0426e44938b673871e08ed89c57b4d7e6e4587c94c1e61e"
+              },
+              {
+                "field": "evidence",
+                "decision": "accept",
+                "old_value_authenticated": true,
+                "new_value_sha256": "6b7dd46b0db0a61da5fa0105554134059590377068f041c947be4076876da8f5"
+              },
+              {
+                "field": "revival_scope",
+                "decision": "accept",
+                "old_value_authenticated": true,
+                "new_value_sha256": "5ce1fab8b7a16f8029f837a33b9d43fa8c3e8033c2a393261af4a24b5053f398"
+              }
+            ]
+          },
+          "V264-RA-F3": {
+            "row_id": "RA-F3",
+            "decision": "accept",
+            "corrected_changes": [],
+            "reason": "The actual observation maps the ambient imposter injection to horizontal gamma trace, Gamma_H q I=40 Id. This is correctly separated from the horizontal gamma-traceless cousin and any family count.",
+            "field_decisions": [
+              {
+                "field": "evidence",
+                "decision": "accept",
+                "old_value_authenticated": true,
+                "new_value_sha256": "fddff796af69cc439c430041284a8dbe7b262891c5be7003c664974b77b5d61b"
+              }
+            ]
+          },
+          "V264-RA-G1": {
+            "row_id": "RA-G1",
+            "decision": "accept",
+            "corrected_changes": [],
+            "reason": "Ambient RS-shaped labels and an anomaly comparator do not establish a physical spin3/2 spectrum or its absence; the required observed physical quotient/poles remain open.",
+            "field_decisions": [
+              {
+                "field": "summary",
+                "decision": "accept",
+                "old_value_authenticated": true,
+                "new_value_sha256": "5b11f3dd1e40e0b83ea7d8a0754deac205e925b5886e21349675da355a849436"
+              },
+              {
+                "field": "distance",
+                "decision": "accept",
+                "old_value_authenticated": true,
+                "new_value_sha256": "d9daea3a7e7812da13d5225267bd7ce6664553f33bde360f8ce625c0033ad2b1"
+              },
+              {
+                "field": "evidence",
+                "decision": "accept",
+                "old_value_authenticated": true,
+                "new_value_sha256": "627b1215ef18c679b85be188d63565fb6049cdcddbc7be846a0b1871c5e5bef6"
+              },
+              {
+                "field": "revival_scope",
+                "decision": "accept",
+                "old_value_authenticated": true,
+                "new_value_sha256": "5ce1fab8b7a16f8029f837a33b9d43fa8c3e8033c2a393261af4a24b5053f398"
+              }
+            ]
+          },
+          "V264-RA-G2": {
+            "row_id": "RA-G2",
+            "decision": "accept",
+            "corrected_changes": [],
+            "reason": "Historical preboundary constructions and their limitations are preserved. The bare conjugate-pair mass comparator is not promoted to a source-effective dark-partner exclusion.",
+            "field_decisions": [
+              {
+                "field": "summary",
+                "decision": "accept",
+                "old_value_authenticated": true,
+                "new_value_sha256": "35506c70a8b8a379a797a1aec5fcc19daa1a6de72e947f08cc62cac6e4c966e8"
+              },
+              {
+                "field": "distance",
+                "decision": "accept",
+                "old_value_authenticated": true,
+                "new_value_sha256": "279f2bb3d12c175079d03834e83a0c2acadaaeac97b10d0fd10c681bea16d213"
+              },
+              {
+                "field": "evidence",
+                "decision": "accept",
+                "old_value_authenticated": true,
+                "new_value_sha256": "c39e5c39f885cec2096aacf369ec4940b9bd6f0b3166f20df4b5c4ffe0574dbc"
+              },
+              {
+                "field": "revival_scope",
+                "decision": "accept",
+                "old_value_authenticated": true,
+                "new_value_sha256": "e7ec4a1ab54c9989dc5dae2ed0881b22b9212873aded74f9f74b91e53cbfd6bf"
+              }
+            ]
+          },
+          "V264-RA-G3": {
+            "row_id": "RA-G3",
+            "decision": "accept",
+            "corrected_changes": [],
+            "reason": "The source spinless gauge-potential channel does not select the conventional126 route or prove physical Majorana placement.",
+            "field_decisions": [
+              {
+                "field": "evidence",
+                "decision": "accept",
+                "old_value_authenticated": true,
+                "new_value_sha256": "a73c4309a12ff5d818f74d685fe6605659bcc118b309de9ffeb85d0ea29c214f"
+              },
+              {
+                "field": "revival_scope",
+                "decision": "accept",
+                "old_value_authenticated": true,
+                "new_value_sha256": "bb086897334e3960598eadb1739a2c7d963cef62e2a49d85aca482fec7e6e8d3"
+              }
+            ]
+          },
+          "V264-RA-G4": {
+            "row_id": "RA-G4",
+            "decision": "accept",
+            "corrected_changes": [],
+            "reason": "Source emergence and conditional stabilizer/mass evidence retain their owner; no physical extra-U1 pole or selected vacuum is supplied.",
+            "field_decisions": [
+              {
+                "field": "evidence",
+                "decision": "accept",
+                "old_value_authenticated": true,
+                "new_value_sha256": "0fb22954dbd329f19642d9b6418b61f6830c9200b6ac180cee42a9a8c7409d93"
+              },
+              {
+                "field": "revival_scope",
+                "decision": "accept",
+                "old_value_authenticated": true,
+                "new_value_sha256": "bb086897334e3960598eadb1739a2c7d963cef62e2a49d85aca482fec7e6e8d3"
+              }
+            ]
+          },
+          "V264-LT-GR1": {
+            "row_id": "LT-GR1",
+            "decision": "accept",
+            "corrected_changes": [],
+            "reason": "The fixed-S exact-endpoint obstruction, printed-versus-W2 local solution-locus witnesses and own-wedge survivor are separately typed. Observed Einstein dynamics remains unconstructed, with the P3 route retained as conditional.",
+            "field_decisions": [
+              {
+                "field": "evidence",
+                "decision": "accept",
+                "old_value_authenticated": true,
+                "new_value_sha256": "41bdee281c53276cdbdfa01c215255691f2b985ea6aebe257d0e988042319d43"
+              },
+              {
+                "field": "summary",
+                "decision": "accept",
+                "old_value_authenticated": true,
+                "new_value_sha256": "ac1a460d906633ce6fabb005784ea6a0c79f05de94197a78f6fc2951918f2622"
+              },
+              {
+                "field": "distance",
+                "decision": "accept",
+                "old_value_authenticated": true,
+                "new_value_sha256": "723476f4b96dbca63b4cb06fd1350801ada325f8078312e457ebfa41c3292c88"
+              },
+              {
+                "field": "revival_scope",
+                "decision": "accept",
+                "old_value_authenticated": true,
+                "new_value_sha256": "5ce1fab8b7a16f8029f837a33b9d43fa8c3e8033c2a393261af4a24b5053f398"
+              }
+            ]
+          },
+          "V264-LT-GR1b": {
+            "row_id": "LT-GR1b",
+            "decision": "accept",
+            "corrected_changes": [],
+            "reason": "The rank-ten restriction-first Einstein image on the ambient Ricci-flat kernel excludes the selected post-Shiab factorization. This is distinct from exact variational correspondence. The normalized wedge has the same Riemann-response kernel and does not restore this observed receiver; pre-Shiab Gauss remains a separate action-owner burden.",
+            "field_decisions": [
+              {
+                "field": "evidence",
+                "decision": "accept",
+                "old_value_authenticated": true,
+                "new_value_sha256": "1474481a675f41a6a88bdcd62401233ef6bc013b1a55271bfbe5a9efd4824525"
+              },
+              {
+                "field": "summary",
+                "decision": "accept",
+                "old_value_authenticated": true,
+                "new_value_sha256": "719af22c1a0608e2d51554d567349037c4bee7bf881fcc87e0d5f3bcaa0e5bdf"
+              },
+              {
+                "field": "distance",
+                "decision": "accept",
+                "old_value_authenticated": true,
+                "new_value_sha256": "3f9baa7d239375d5bc75dfae356c9e6cd530bfddaafd382fff19ff42fc100bf6"
+              },
+              {
+                "field": "revival_scope",
+                "decision": "accept",
+                "old_value_authenticated": true,
+                "new_value_sha256": "62217bbf8c62766288839db9fea842adcf4b56b162be672265b552901f406389"
+              }
+            ]
+          },
+          "V264-LT-GR2b": {
+            "row_id": "LT-GR2b",
+            "decision": "accept",
+            "corrected_changes": [],
+            "reason": "Actual W2 and separate printed-branch coderivative failures are correctly confined to theta=T dictionaries and are not physical stress or source dark-energy verdicts.",
+            "field_decisions": [
+              {
+                "field": "evidence",
+                "decision": "accept",
+                "old_value_authenticated": true,
+                "new_value_sha256": "52b9a6e2f631225c8b409215f8a866a0a77340aa095a66d4724b61c7d2d672b9"
+              }
+            ]
+          },
+          "V264-LT-GR2c": {
+            "row_id": "LT-GR2c",
+            "decision": "accept",
+            "corrected_changes": [],
+            "reason": "Actual W2 and separate printed-branch coderivative failures are correctly confined to theta=T dictionaries and are not physical stress or source dark-energy verdicts.",
+            "field_decisions": [
+              {
+                "field": "evidence",
+                "decision": "accept",
+                "old_value_authenticated": true,
+                "new_value_sha256": "52b9a6e2f631225c8b409215f8a866a0a77340aa095a66d4724b61c7d2d672b9"
+              }
+            ]
+          },
+          "V264-LT-GR2d": {
+            "row_id": "LT-GR2d",
+            "decision": "accept",
+            "corrected_changes": [],
+            "reason": "Actual W2 and separate printed-branch coderivative failures are correctly confined to theta=T dictionaries and are not physical stress or source dark-energy verdicts.",
+            "field_decisions": [
+              {
+                "field": "evidence",
+                "decision": "accept",
+                "old_value_authenticated": true,
+                "new_value_sha256": "52b9a6e2f631225c8b409215f8a866a0a77340aa095a66d4724b61c7d2d672b9"
+              }
+            ]
+          },
+          "V264-LT-GR2e": {
+            "row_id": "LT-GR2e",
+            "decision": "accept",
+            "corrected_changes": [],
+            "reason": "Mannheim, conditional prediction interfaces and native candidate coderivative results preserve their distinct scopes. No selected Lambda, w(z), DESI prediction or matter abundance is inferred.",
+            "field_decisions": [
+              {
+                "field": "evidence",
+                "decision": "accept",
+                "old_value_authenticated": true,
+                "new_value_sha256": "a1e381ca9ca76a6ea5312721ae01f6e07a8211088f71c7309c2ebb2feb62e27f"
+              }
+            ]
+          },
+          "V264-LT-GR5": {
+            "row_id": "LT-GR5",
+            "decision": "accept",
+            "corrected_changes": [],
+            "reason": "The selected I2B TT polynomial differs from pure Bach at its own diagnostic scope. Pure Weyl-squared FLRW silence is not a no-go for matter-coupled conformal cosmology.",
+            "field_decisions": [
+              {
+                "field": "evidence",
+                "decision": "accept",
+                "old_value_authenticated": true,
+                "new_value_sha256": "3ea6cd42795b7cabb6611785bfbfd60b1b08a4807dcb4b5f14e87daf2efed5a0"
+              }
+            ]
+          },
+          "V264-LT-GR6b": {
+            "row_id": "LT-GR6b",
+            "decision": "accept",
+            "corrected_changes": [],
+            "reason": "Full selected frozen linear CW compatibility survives. Only strict cutoff closure and the stated instantaneous C2 ordinary-Sobolev graph categories are excluded. Other domains and a changed wedge operator are not silently covered.",
+            "field_decisions": [
+              {
+                "field": "evidence",
+                "decision": "accept",
+                "old_value_authenticated": true,
+                "new_value_sha256": "cfe2979a23a0a1529fead80eab5d52e4e465e1fe926115b97b1f64c35aba539b"
+              }
+            ]
+          },
+          "V264-LT-GR8": {
+            "row_id": "LT-GR8",
+            "decision": "accept",
+            "corrected_changes": [],
+            "reason": "The existing T_H is already an observed density-dual Euler covector and cannot be pulled back a second time. The hypothetical ambient rank10/kernel95 tensor map is not an owned stress bridge. Metric-only causal-boundary and flux/entropy obligations remain separate.",
+            "field_decisions": [
+              {
+                "field": "evidence",
+                "decision": "accept",
+                "old_value_authenticated": true,
+                "new_value_sha256": "74521ce583f45c6535b5c9688e9a3529b0b265c5460f503c08f5925f10c7e362"
+              }
+            ]
+          },
+          "V264-LT-GR10": {
+            "row_id": "LT-GR10",
+            "decision": "accept",
+            "corrected_changes": [],
+            "reason": "Conditional late-time geometry and response interfaces do not create a source-selected PPN/experimental prediction or survey likelihood.",
+            "field_decisions": [
+              {
+                "field": "evidence",
+                "decision": "accept",
+                "old_value_authenticated": true,
+                "new_value_sha256": "f0c3ff4ee9dce76c0d793e6a4d22303bef97eb12b37e6769f19e87f076da71eb"
+              }
+            ]
+          },
+          "V264-LT-SM4": {
+            "row_id": "LT-SM4",
+            "decision": "accept",
+            "corrected_changes": [],
+            "reason": "The interval [5/6,5/4] belongs to m_2,eff in the older constructed operator, with m_R=sqrt(m_2,eff) mu_DW. Physical projection, absolute scale and wedge spectrum are not inferred.",
+            "field_decisions": [
+              {
+                "field": "summary",
+                "decision": "accept",
+                "old_value_authenticated": true,
+                "new_value_sha256": "302902ed083fcc6bb3c466c76ddc844487bc6bc223a0ea6138387c57ca6f6a93"
+              },
+              {
+                "field": "distance",
+                "decision": "accept",
+                "old_value_authenticated": true,
+                "new_value_sha256": "4e9b4c1b9152f355a4bc35260ed1eb09d9c94f09a46dcf5936c0138e23aec494"
+              },
+              {
+                "field": "evidence",
+                "decision": "accept",
+                "old_value_authenticated": true,
+                "new_value_sha256": "1ed4b63430e1c3df6497e53d09cd470f8a9fdb07e587bfd952460e0fe9f26d36"
+              },
+              {
+                "field": "revival_scope",
+                "decision": "accept",
+                "old_value_authenticated": true,
+                "new_value_sha256": "5ce1fab8b7a16f8029f837a33b9d43fa8c3e8033c2a393261af4a24b5053f398"
+              }
+            ]
+          },
+          "V264-LT-SM5": {
+            "row_id": "LT-SM5",
+            "decision": "accept",
+            "corrected_changes": [],
+            "reason": "The conditional interaction/source-readout interfaces retain on-shell and singular controls and do not determine a physical Yukawa texture.",
+            "field_decisions": [
+              {
+                "field": "evidence",
+                "decision": "accept",
+                "old_value_authenticated": true,
+                "new_value_sha256": "bdaf2347a17f5c408743f2016c8508f630848577540ecfdff36a7a28437362ab"
+              }
+            ]
+          },
+          "V264-LT-SM6": {
+            "row_id": "LT-SM6",
+            "decision": "accept",
+            "corrected_changes": [],
+            "reason": "Source Higgs emergence from gauge-potential structure is separated from an observed scalar kinetic/potential realization.",
+            "field_decisions": [
+              {
+                "field": "evidence",
+                "decision": "accept",
+                "old_value_authenticated": true,
+                "new_value_sha256": "5f5f8f6fddb3af58b86d579b7ae09973ae9858fe4bf696879bdb7dc7175e044d"
+              },
+              {
+                "field": "revival_scope",
+                "decision": "accept",
+                "old_value_authenticated": true,
+                "new_value_sha256": "bb086897334e3960598eadb1739a2c7d963cef62e2a49d85aca482fec7e6e8d3"
+              }
+            ]
+          },
+          "V264-LT-SM8": {
+            "row_id": "LT-SM8",
+            "decision": "accept",
+            "corrected_changes": [],
+            "reason": "Thin-observation graph nonclosability is limited to its cutoff-stable domain hypotheses; full linear CW and the stated nonlinear graph exclusions remain separate. No all-domain physical positivity or GU exclusion is asserted.",
+            "field_decisions": [
+              {
+                "field": "evidence",
+                "decision": "accept",
+                "old_value_authenticated": true,
+                "new_value_sha256": "0ee1fcfcc0dc145ee2a58c31ecd4d7ae8e644a9ba4bf72754d20ffa6e1cf54bc"
+              }
+            ]
+          },
+          "V264-AC-A5": {
+            "row_id": "AC-A5",
+            "decision": "accept",
+            "corrected_changes": [],
+            "reason": "In the declared15-content lattice the anomaly matrix has rank5 and kernel rank10. Net chirality is one necessary condition; four further independent conditions remain. The negative answer replaces a misleading question-like head without new anomaly arithmetic.",
+            "field_decisions": [
+              {
+                "field": "summary",
+                "decision": "accept",
+                "old_value_authenticated": true,
+                "new_value_sha256": "3db26a73da540e3c39aa59a81f5f214095419f6bef3debc9c5616d459f362184"
+              },
+              {
+                "field": "distance",
+                "decision": "accept",
+                "old_value_authenticated": true,
+                "new_value_sha256": "d25f6f92bd23d5713980b2dc1d2079b9f58517f9d50f184a87065e751f627e28"
+              },
+              {
+                "field": "evidence",
+                "decision": "accept",
+                "old_value_authenticated": true,
+                "new_value_sha256": "c64bdd0480f07cfe8c31dcf207a3f42202491bba67f0b89e97709c3caa5b5750"
+              },
+              {
+                "field": "revival_scope",
+                "decision": "accept",
+                "old_value_authenticated": true,
+                "new_value_sha256": "5ce1fab8b7a16f8029f837a33b9d43fa8c3e8033c2a393261af4a24b5053f398"
+              }
+            ]
+          },
+          "V264-AC-D1": {
+            "row_id": "AC-D1",
+            "decision": "accept",
+            "corrected_changes": [],
+            "reason": "Current custody preserves the exact conditional representation/anomaly result and corrects the blanket missing-complex-carrier claim. It does not select a physical chiral16, action/domain or independent additional constraint.",
+            "field_decisions": [
+              {
+                "field": "evidence",
+                "decision": "accept",
+                "old_value_authenticated": true,
+                "new_value_sha256": "964111db67185cccaccca92ee1688b097b35aadd7c3f205da3b1b4083a885bda"
+              }
+            ]
+          },
+          "V264-AC-D2": {
+            "row_id": "AC-D2",
+            "decision": "accept",
+            "corrected_changes": [],
+            "reason": "Current custody preserves the exact conditional representation/anomaly result and corrects the blanket missing-complex-carrier claim. It does not select a physical chiral16, action/domain or independent additional constraint.",
+            "field_decisions": [
+              {
+                "field": "evidence",
+                "decision": "accept",
+                "old_value_authenticated": true,
+                "new_value_sha256": "7e997d656e28e3b2120991988e543de3bbfde0f8a27d4b3baf18a3a6b203d344"
+              }
+            ]
+          },
+          "V264-AC-D3": {
+            "row_id": "AC-D3",
+            "decision": "accept",
+            "corrected_changes": [],
+            "reason": "Current custody preserves the exact conditional representation/anomaly result and corrects the blanket missing-complex-carrier claim. It does not select a physical chiral16, action/domain or independent additional constraint.",
+            "field_decisions": [
+              {
+                "field": "evidence",
+                "decision": "accept",
+                "old_value_authenticated": true,
+                "new_value_sha256": "e8fbb9b4c9056841803acca170978490d69825e7a23b1fbaed47246db44e32b8"
+              }
+            ]
+          },
+          "V264-AC-D4": {
+            "row_id": "AC-D4",
+            "decision": "accept",
+            "corrected_changes": [],
+            "reason": "Current custody preserves the exact conditional representation/anomaly result and corrects the blanket missing-complex-carrier claim. It does not select a physical chiral16, action/domain or independent additional constraint.",
+            "field_decisions": [
+              {
+                "field": "evidence",
+                "decision": "accept",
+                "old_value_authenticated": true,
+                "new_value_sha256": "7ac1e4554e81b1c822e95c76063e88d19eb420743ceb437ec5544f7b0f092bd7"
+              }
+            ]
+          },
+          "V264-AC-D5": {
+            "row_id": "AC-D5",
+            "decision": "accept",
+            "corrected_changes": [],
+            "reason": "Current custody preserves the exact conditional representation/anomaly result and corrects the blanket missing-complex-carrier claim. It does not select a physical chiral16, action/domain or independent additional constraint.",
+            "field_decisions": [
+              {
+                "field": "evidence",
+                "decision": "accept",
+                "old_value_authenticated": true,
+                "new_value_sha256": "2171d5f67810397e7183783a8cdaff2bac0c06470d3b656787ac3f8c05605995"
+              }
+            ]
+          },
+          "V264-AC-E1": {
+            "row_id": "AC-E1",
+            "decision": "accept",
+            "corrected_changes": [],
+            "reason": "Parent phase, normal center and axial candidate Z4 actions are distinct. No unselected Spin-Z4 mod16 problem replaces the existing global-SM bordism row.",
+            "field_decisions": [
+              {
+                "field": "evidence",
+                "decision": "accept",
+                "old_value_authenticated": true,
+                "new_value_sha256": "870acc6b84370b5ce4c21d49cb57edd79be017690eecf5bb4c8df7081d05eb10"
+              }
+            ]
+          },
+          "V264-AC-F1": {
+            "row_id": "AC-F1",
+            "decision": "accept",
+            "corrected_changes": [],
+            "reason": "Observed-hidden additivity requires same-grade total balance and compatible continuous Fredholm observation, while effective source chirality need not use an index. Ambient-correlated descent and named held-horizontal exclusions are preserved.",
+            "field_decisions": [
+              {
+                "field": "evidence",
+                "decision": "accept",
+                "old_value_authenticated": true,
+                "new_value_sha256": "a323a0f87de696a72b31fb5ad26dd0778a98e2c440192cdd0e7dae97ec049248"
+              }
+            ]
+          },
+          "V264-AC-F5": {
+            "row_id": "AC-F5",
+            "decision": "accept",
+            "corrected_changes": [],
+            "reason": "The retained-field index/rho formula and t=-1 mod3 cancellation are correctly benchmark/grade dependent. Ghost retention and Krein pairing do not select a source complex or integer3.",
+            "field_decisions": [
+              {
+                "field": "evidence",
+                "decision": "accept",
+                "old_value_authenticated": true,
+                "new_value_sha256": "7baeea57d6b9c01568fb25a4e5f425ffda8fd846c3012b6cc19d1c4e0a4dc315"
+              }
+            ]
+          },
+          "V264-AC-G1a": {
+            "row_id": "AC-G1a",
+            "decision": "accept",
+            "corrected_changes": [],
+            "reason": "Full source U(64,64) is separated from optional Sp restrictions and K77/K95 adapters. Historical anomaly arithmetic is retained only on its actual group/content/domain.",
+            "field_decisions": [
+              {
+                "field": "evidence",
+                "decision": "accept",
+                "old_value_authenticated": true,
+                "new_value_sha256": "8f1403a6ae0c5d17043c6fa7b47827a8fa80cd6b7fa0fdd24c9038aa5de6c823"
+              },
+              {
+                "field": "revival_scope",
+                "decision": "accept",
+                "old_value_authenticated": true,
+                "new_value_sha256": "d7178b80d559cec648fbbff6f2ca61b9fcd338eb6af52df73d1244e57209420c"
+              }
+            ]
+          }
+        },
+        "delta_disposition_assessment": "The14 proposed dispositions are consistent with the scoped additions: thirteen incorporate current evidence and one retains conflict. The source-applicability delta must use the explicit later geometric supersession in these proposals, not its obsolete missing-mu6/closed-square strings. Preserve existing deferral/conflict history and avoid independent-credit duplication.",
+        "caution": [
+          "Acceptance is exact-text/hash bound. E4-A does not authorize E4-B or any verdict/reason/target/trigger change. Other retained DIFFERS/PREDICTION labels remain conditional and are not physical experimental predictions.",
+          "RA-E2 intentionally retains the obsolete trigger string only with its explicit non-executable literal-pullback interpretation warning. A future trigger replacement requires its separate adjudication; the current annotation must not be dropped.",
+          "The old source-small-VEV artifact explicitly corrects its plus/reversion odd witnesses on2026-11-26. The surviving current-class wording is supported by source-adjoint-spinless-placement-2026-11-26.md and its real c(v) primary-minus witness; do not reuse i c(v) as source-compatible.",
+          "Geometric quotient, closed-base existence, Chern constraints and full-Y product lifting are correlated results on their admitted spin Lorentz/optional-SU/free-data category, not physical gauge selection or four independent empirical constraints.",
+          "CW exclusions require the stated selected frozen operator, admitted patches, instantaneous C2 translation-equivariant graph and ordinary global Sobolev/Fourier-L2 threshold conditions. History-dependent, non-C2, independently evolving off-band or changed-domain completions are not excluded.",
+          "LT-GR1b concerns algebraic ambient Ricci-flat kernel witnesses and restriction-first observed curvature. These are not stationary Schwarzschild/Kerr solutions, and LT-GR9 receives no new physical strong-field evidence.",
+          "Coderivative after literal section contraction is not the pullback itself and is not an observed Einstein stress divergence. Wedge, printed endpoint and W2 results must retain separate equation owners.",
+          "Root integration must still complete CT2 context/schema review, migration history, native gates and active91/88 accounting. This review does not reclassify unchanged rows or certify all historical proofs."
+        ],
+        "checks_by_inspection": {
+          "rows_reviewed": 50,
+          "field_changes_reviewed": 107,
+          "all_old_values_match": true,
+          "protected_fields_untouched": true,
+          "evidence_prefixes_preserved": true,
+          "all_reference_paths_exist": true,
+          "reviewer_tests_or_builds_run": false
+        },
+        "amendments": [
+          {
+            "previous_proposal_sha256": "8a1b3ef17c7c62716b37263e3ca23edc02f287aca853d63f47623c4028d8ee00",
+            "new_proposal_sha256": "7c94420bce06863311431d427320d8464319f98709fbc8178c5f578673159dd0",
+            "decision": "accept",
+            "changed_fields": [
+              [
+                "V264-RA-A6",
+                "evidence"
+              ],
+              [
+                "V264-AC-G1a",
+                "evidence"
+              ]
+            ],
+            "reason": "Verified the only changed new-value digests are these two evidence fields. RA-A6 now explicitly attributes the unchanged-grade language to the original delta and states that this mint separately clarifies the mapping grade, removing the apparent contradiction. AC-G1a corrects the source identifier to SC-GRP-02, the inspected full-U source claim. No mathematical scope or acceptance changes."
+          }
+        ]
+      },
+      {
+        "role": "independent second specialist ledger review; representation, chirality, observation and geometric-versus-physical custody",
+        "accepted": true,
+        "blockers": [],
+        "proposal_sha256": "7c94420bce06863311431d427320d8464319f98709fbc8178c5f578673159dd0",
+        "proposal_path": "/private/tmp/gu-v264-row-proposals.json",
+        "reviewed_revision": "74b90248a96a0a46ff3445aa4e20fb90557bba19",
+        "proposal_base_revision": "097daab9df96037f5e5a7ae5aaaec42f85ba8ca6",
+        "base_ledger_sha256": "7c75c179c3af512084e50af19043a5d320b38e8c1e53325ee5ec2f97ad9c257b",
+        "audit_sha256": "8f3c7122205419cbd1c49837f04556892f496b62a07de2362aaa80289a151554",
+        "decisions": {
+          "V264-RA-A2": {
+            "accepted": true,
+            "row_id": "RA-A2",
+            "reviewed_change_count": 1,
+            "fields": [
+              "evidence"
+            ],
+            "basis": "The prescribed-Spin/free-positive-J quotient and simultaneous geometric observation descent are supported by the four linked geometric owners. Closed smooth spin Lorentz existence and the optional sixth-root criterion are correctly separated from physical weak-current selection."
+          },
+          "V264-RA-A3": {
+            "accepted": true,
+            "row_id": "RA-A3",
+            "reviewed_change_count": 1,
+            "fields": [
+              "evidence"
+            ],
+            "basis": "The normal-16 structural fit is retained. The custody appendix correctly removes the superseded blanket missing-complex-carrier rhetoric without selecting a physical observed carrier or treating anomaly dependencies as independent evidence."
+          },
+          "V264-RA-A4": {
+            "accepted": true,
+            "row_id": "RA-A4",
+            "reviewed_change_count": 4,
+            "fields": [
+              "summary",
+              "distance",
+              "evidence",
+              "revival_scope"
+            ],
+            "basis": "An internal adjoint singlet is representation content; a physical extra U(1) pole needs the actual current, constraints and spectrum. The revised head removes an unjustified particle inference."
+          },
+          "V264-RA-A5": {
+            "accepted": true,
+            "row_id": "RA-A5",
+            "reviewed_change_count": 4,
+            "fields": [
+              "summary",
+              "distance",
+              "evidence",
+              "revival_scope"
+            ],
+            "basis": "The arithmetic is 91=6+40+45 and 73=40+(45-12). Thus 33 internal extra directions are included in 73 ambient non-SM directions; they are not 106 directions or automatically propagating particles."
+          },
+          "V264-RA-A6": {
+            "accepted": true,
+            "row_id": "RA-A6",
+            "reviewed_change_count": 5,
+            "fields": [
+              "evidence",
+              "summary",
+              "distance",
+              "revival_scope",
+              "mapping_grade"
+            ],
+            "basis": "The global geometric mu6 and q-descent debts are now supplied under their admitted free-J/prescribed-Spin hypotheses. The proposal preserves physical selection, fixed-J/connection/relative conditions and the distinct historical rank-one126 trigger."
+          },
+          "V264-RA-A8": {
+            "accepted": true,
+            "row_id": "RA-A8",
+            "reviewed_change_count": 1,
+            "fields": [
+              "evidence"
+            ],
+            "basis": "Absolute bundle reduction existence is correctly distinguished from a stationary vacuum, a canonical or parallel J and a VEV stabilizer. No stationary trigger is fired."
+          },
+          "V264-RA-B1": {
+            "accepted": true,
+            "row_id": "RA-B1",
+            "reviewed_change_count": 1,
+            "fields": [
+              "evidence"
+            ],
+            "basis": "The exact conditional normal-16 charge support survives; the appended custody statement requires physical transport/current and does not claim a new particle or independent constraint."
+          },
+          "V264-RA-B2": {
+            "accepted": true,
+            "row_id": "RA-B2",
+            "reviewed_change_count": 1,
+            "fields": [
+              "evidence"
+            ],
+            "basis": "The exact conditional normal-16 charge support survives; the appended custody statement requires physical transport/current and does not claim a new particle or independent constraint."
+          },
+          "V264-RA-B3": {
+            "accepted": true,
+            "row_id": "RA-B3",
+            "reviewed_change_count": 1,
+            "fields": [
+              "evidence"
+            ],
+            "basis": "The exact conditional normal-16 charge support survives; the appended custody statement requires physical transport/current and does not claim a new particle or independent constraint."
+          },
+          "V264-RA-B4": {
+            "accepted": true,
+            "row_id": "RA-B4",
+            "reviewed_change_count": 1,
+            "fields": [
+              "evidence"
+            ],
+            "basis": "The exact conditional normal-16 charge support survives; the appended custody statement requires physical transport/current and does not claim a new particle or independent constraint."
+          },
+          "V264-RA-B5": {
+            "accepted": true,
+            "row_id": "RA-B5",
+            "reviewed_change_count": 1,
+            "fields": [
+              "evidence"
+            ],
+            "basis": "The exact conditional normal-16 charge support survives; the appended custody statement requires physical transport/current and does not claim a new particle or independent constraint."
+          },
+          "V264-RA-B6": {
+            "accepted": true,
+            "row_id": "RA-B6",
+            "reviewed_change_count": 4,
+            "fields": [
+              "summary",
+              "distance",
+              "evidence",
+              "revival_scope"
+            ],
+            "basis": "A neutral singlet in the declared normal16 is supplied; calling it a physical right-handed neutrino or deducing a seesaw/Majorana spectrum would require additional reality, current and mass data. The revised language respects this distinction."
+          },
+          "V264-RA-D2": {
+            "accepted": true,
+            "row_id": "RA-D2",
+            "reviewed_change_count": 4,
+            "fields": [
+              "summary",
+              "distance",
+              "evidence",
+              "revival_scope"
+            ],
+            "basis": "The fixed-carrier mass/trace-q exclusions retain their precise owners. SC-CHI-51/52 requires effective observed chirality from a nonchiral total, not an exact off-shell autonomous projection; the proposal does not convert those exclusions into a source no-go."
+          },
+          "V264-RA-D4": {
+            "accepted": true,
+            "row_id": "RA-D4",
+            "reviewed_change_count": 1,
+            "fields": [
+              "evidence"
+            ],
+            "basis": "Index additivity is confined to a common admitted grading with an independently established zero total. The small-VEV current and homogeneous positive-Riemannian localization results keep their candidate/comparator ceilings and do not select physical mirror content."
+          },
+          "V264-RA-E1": {
+            "accepted": true,
+            "row_id": "RA-E1",
+            "reviewed_change_count": 2,
+            "fields": [
+              "evidence",
+              "revival_scope"
+            ],
+            "basis": "SC-GEO-58 and SC-MAS-02/03 support a spinless connection-origin mechanism, not a separate fundamental Higgs. The one-form contraction and open physical scalar realization are correctly retained."
+          },
+          "V264-RA-E2": {
+            "accepted": true,
+            "row_id": "RA-E2",
+            "reviewed_change_count": 5,
+            "fields": [
+              "summary",
+              "distance",
+              "evidence",
+              "revival_scope",
+              "mapping_grade"
+            ],
+            "basis": "The August17 V2 correction explicitly withdraws vertical-form-leg to observed-scalar typing. The new head/mapping grade fixes this; revival_scope prominently makes the stored withdrawn trigger non-executable as a literal pullback demand while deferring formal trigger replacement."
+          },
+          "V264-RA-E3": {
+            "accepted": true,
+            "row_id": "RA-E3",
+            "reviewed_change_count": 4,
+            "fields": [
+              "summary",
+              "distance",
+              "evidence",
+              "revival_scope"
+            ],
+            "basis": "The rank-two internal tensor exclusion is exact conditional branching. It does not by itself exclude a scalar emergent from the full source action and observed current; the corrected scope keeps these objects separate."
+          },
+          "V264-RA-E4": {
+            "accepted": true,
+            "row_id": "RA-E4",
+            "reviewed_change_count": 6,
+            "fields": [
+              "summary",
+              "distance",
+              "evidence",
+              "revival_scope",
+              "prediction_scope",
+              "mapping_grade"
+            ],
+            "basis": "The proposal retains ambient doublet multiplicities and the separately owned trace-radial direction, but correctly rejects a physical 2HDM conclusion before independent degrees, reality/dual constraints and an observed kinetic/current map. E4-A explicitly limits the unchanged DIFFERS/PREDICTION labels to conditional representation bookkeeping."
+          },
+          "V264-RA-E5": {
+            "accepted": true,
+            "row_id": "RA-E5",
+            "reviewed_change_count": 4,
+            "fields": [
+              "summary",
+              "distance",
+              "evidence",
+              "revival_scope"
+            ],
+            "basis": "The common irreducible10 doublet/triplet weights and conditional Schur degeneracy survive. A physical proton-decay claim additionally requires actual scalar/fermion currents, vertices, propagators and scales, as the revised distance states."
+          },
+          "V264-RA-F1": {
+            "accepted": true,
+            "row_id": "RA-F1",
+            "reviewed_change_count": 1,
+            "fields": [
+              "evidence"
+            ],
+            "basis": "Ambient gamma-kernel labels and Nikulin order3 rho are correctly kept distinct from an integer family-count observable. Hom(Z/3,Z)=0 and reduction of integer3 to zero modulo3 prevent the stated torsion-to-integer shortcut."
+          },
+          "V264-RA-F2": {
+            "accepted": true,
+            "row_id": "RA-F2",
+            "reviewed_change_count": 4,
+            "fields": [
+              "summary",
+              "distance",
+              "evidence",
+              "revival_scope"
+            ],
+            "basis": "SC-GEN-01 disavows simple fundamental triplication while allowing effective low-energy identity. The imposter/cousin and physical-count caveats agree with the native observation and representation corrections."
+          },
+          "V264-RA-F3": {
+            "accepted": true,
+            "row_id": "RA-F3",
+            "reviewed_change_count": 1,
+            "fields": [
+              "evidence"
+            ],
+            "basis": "The owned injection I=(10 i_H,-4 i_N) obeys Gamma_Y I=0 but Gamma_H q I=40 Id. It reaches observed gamma trace, while the horizontal RS cousin is distinct; no family count follows."
+          },
+          "V264-RA-G1": {
+            "accepted": true,
+            "row_id": "RA-G1",
+            "reviewed_change_count": 4,
+            "fields": [
+              "summary",
+              "distance",
+              "evidence",
+              "revival_scope"
+            ],
+            "basis": "An ambient RS summand is not a demonstrated physical spin3/2 particle. The revised head requires a compatible observation, constrained pole/current or quotient, without inventing an automatic Witten exit or heaviness."
+          },
+          "V264-RA-G2": {
+            "accepted": true,
+            "row_id": "RA-G2",
+            "reviewed_change_count": 4,
+            "fields": [
+              "summary",
+              "distance",
+              "evidence",
+              "revival_scope"
+            ],
+            "basis": "The source nonchiral/effective mechanism is kept separate from a bare conjugate-mass comparator. The formal parent and scoped BV result do not discharge the unchanged positive-physical-cohomology AND mirror-free-light requirement."
+          },
+          "V264-RA-G3": {
+            "accepted": true,
+            "row_id": "RA-G3",
+            "reviewed_change_count": 2,
+            "fields": [
+              "evidence",
+              "revival_scope"
+            ],
+            "basis": "The source connection-origin mass/Higgs mechanism is retained, and conventional scalar/VEV comparators are not made source-necessary. Actual observed scalar/current realization remains open."
+          },
+          "V264-RA-G4": {
+            "accepted": true,
+            "row_id": "RA-G4",
+            "reviewed_change_count": 2,
+            "fields": [
+              "evidence",
+              "revival_scope"
+            ],
+            "basis": "The source connection-origin mass/Higgs mechanism is retained, and conventional scalar/VEV comparators are not made source-necessary. Actual observed scalar/current realization remains open."
+          },
+          "V264-LT-GR1": {
+            "accepted": true,
+            "row_id": "LT-GR1",
+            "reviewed_change_count": 4,
+            "fields": [
+              "evidence",
+              "summary",
+              "distance",
+              "revival_scope"
+            ],
+            "basis": "The common-S endpoint and ordinary-companion results are correctly scoped to their full-translation/dictionary owners. The wedge survivor and printed-branch/W2 locus mismatch do not establish observed Einstein dynamics or a source-level exclusion."
+          },
+          "V264-LT-GR1b": {
+            "accepted": true,
+            "row_id": "LT-GR1b",
+            "reviewed_change_count": 4,
+            "fields": [
+              "evidence",
+              "summary",
+              "distance",
+              "revival_scope"
+            ],
+            "basis": "The selected post-Shiab factorization obstruction is preserved, while pre-Shiab or genuinely different mechanisms remain distinct. Mannheim comparisons and ambient wedge Einstein response do not revive the killed factorization or prove observed GR."
+          },
+          "V264-LT-GR2b": {
+            "accepted": true,
+            "row_id": "LT-GR2b",
+            "reviewed_change_count": 1,
+            "fields": [
+              "evidence"
+            ],
+            "basis": "The W2-root and separate printed-branch coderivative failures retain separate equation owners and theta=T dictionaries. They are not a physical stress identification, dynamic-dark-energy kill or Lambda/w(z) prediction."
+          },
+          "V264-LT-GR2c": {
+            "accepted": true,
+            "row_id": "LT-GR2c",
+            "reviewed_change_count": 1,
+            "fields": [
+              "evidence"
+            ],
+            "basis": "The W2-root and separate printed-branch coderivative failures retain separate equation owners and theta=T dictionaries. They are not a physical stress identification, dynamic-dark-energy kill or Lambda/w(z) prediction."
+          },
+          "V264-LT-GR2d": {
+            "accepted": true,
+            "row_id": "LT-GR2d",
+            "reviewed_change_count": 1,
+            "fields": [
+              "evidence"
+            ],
+            "basis": "The W2-root and separate printed-branch coderivative failures retain separate equation owners and theta=T dictionaries. They are not a physical stress identification, dynamic-dark-energy kill or Lambda/w(z) prediction."
+          },
+          "V264-LT-GR2e": {
+            "accepted": true,
+            "row_id": "LT-GR2e",
+            "reviewed_change_count": 1,
+            "fields": [
+              "evidence"
+            ],
+            "basis": "The coderivative evidence, typed Mannheim result and prediction interfaces are retained only at their actual owners. No empirical DE sign, universal cosmological slope or physical torsion ghost is inferred."
+          },
+          "V264-LT-GR5": {
+            "accepted": true,
+            "row_id": "LT-GR5",
+            "reviewed_change_count": 1,
+            "fields": [
+              "evidence"
+            ],
+            "basis": "The Mannheim I2B/Bach multiplicity and Ward/FLRW facts are comparator statements. The proposal correctly withholds a matter-coupled conformal no-go, GU cosmology or DESI likelihood prediction."
+          },
+          "V264-LT-GR6b": {
+            "accepted": true,
+            "row_id": "LT-GR6b",
+            "reviewed_change_count": 1,
+            "fields": [
+              "evidence"
+            ],
+            "basis": "The compatible linear CW domain survives at its owned scope while strict nonlinear cutoff and the stated C2 Sobolev slaving categories fail. Offband/history/non-C2 alternatives and the separate corrected wedge action are not conflated with a physical energy quotient."
+          },
+          "V264-LT-GR8": {
+            "accepted": true,
+            "row_id": "LT-GR8",
+            "reviewed_change_count": 1,
+            "fields": [
+              "evidence"
+            ],
+            "basis": "The boundary carrier and observed density-dual Euler object are correctly typed. Re-pulling back an already observed T_H is invalid, and the hypothetical ambient rank10/kernel95 contraction is not silently owned; the existing Ward requirement remains."
+          },
+          "V264-LT-GR10": {
+            "accepted": true,
+            "row_id": "LT-GR10",
+            "reviewed_change_count": 1,
+            "fields": [
+              "evidence"
+            ],
+            "basis": "The transverse port, Schur reciprocity and finite-node geometry are conditional interfaces, not a selected cosmological likelihood or source prediction."
+          },
+          "V264-LT-SM4": {
+            "accepted": true,
+            "row_id": "LT-SM4",
+            "reviewed_change_count": 4,
+            "fields": [
+              "summary",
+              "distance",
+              "evidence",
+              "revival_scope"
+            ],
+            "basis": "The inherited sqrt(m2eff)*mu_DW relation is a coefficient in an older constructed constrained RS operator, not a physical pole or an absolute mass. The proposal preserves both the relative coefficient and missing physical/scale bridge."
+          },
+          "V264-LT-SM5": {
+            "accepted": true,
+            "row_id": "LT-SM5",
+            "reviewed_change_count": 1,
+            "fields": [
+              "evidence"
+            ],
+            "basis": "The prediction-kickoff interfaces remain conditional and do not supply an observed Yukawa fit, selected likelihood or source prediction."
+          },
+          "V264-LT-SM6": {
+            "accepted": true,
+            "row_id": "LT-SM6",
+            "reviewed_change_count": 2,
+            "fields": [
+              "evidence",
+              "revival_scope"
+            ],
+            "basis": "The actual connection-origin mass/Higgs language is retained without restoring the withdrawn vertical-scalar identification. A physical scalar/current and mass mechanism remains a separate requirement."
+          },
+          "V264-LT-SM8": {
+            "accepted": true,
+            "row_id": "LT-SM8",
+            "reviewed_change_count": 1,
+            "fields": [
+              "evidence"
+            ],
+            "basis": "The codimension10 graph-trace nonclosability result is restricted to the stated cutoff-stable first-order/L2 domain class. No universal physical-quotient or Krein no-go is inferred; CW and wedge outcomes keep their distinct domains/actions."
+          },
+          "V264-AC-A5": {
+            "accepted": true,
+            "row_id": "AC-A5",
+            "reviewed_change_count": 4,
+            "fields": [
+              "summary",
+              "distance",
+              "evidence",
+              "revival_scope"
+            ],
+            "basis": "The 15-component conditional anomaly arena has rank5 constraints and kernel10. Net chirality zero is necessary but insufficient; four further independent constraints in that arena do not become an all-GU anomaly conclusion."
+          },
+          "V264-AC-D1": {
+            "accepted": true,
+            "row_id": "AC-D1",
+            "reviewed_change_count": 1,
+            "fields": [
+              "evidence"
+            ],
+            "basis": "The exact conditional anomaly arithmetic is preserved, with physical group/content/current/domain custody required before interpreting it as a source anomaly. No extra independent-constraint tally is introduced."
+          },
+          "V264-AC-D2": {
+            "accepted": true,
+            "row_id": "AC-D2",
+            "reviewed_change_count": 1,
+            "fields": [
+              "evidence"
+            ],
+            "basis": "The exact conditional anomaly arithmetic is preserved, with physical group/content/current/domain custody required before interpreting it as a source anomaly. No extra independent-constraint tally is introduced."
+          },
+          "V264-AC-D3": {
+            "accepted": true,
+            "row_id": "AC-D3",
+            "reviewed_change_count": 1,
+            "fields": [
+              "evidence"
+            ],
+            "basis": "The exact conditional anomaly arithmetic is preserved, with physical group/content/current/domain custody required before interpreting it as a source anomaly. No extra independent-constraint tally is introduced."
+          },
+          "V264-AC-D4": {
+            "accepted": true,
+            "row_id": "AC-D4",
+            "reviewed_change_count": 1,
+            "fields": [
+              "evidence"
+            ],
+            "basis": "The exact conditional anomaly arithmetic is preserved, with physical group/content/current/domain custody required before interpreting it as a source anomaly. No extra independent-constraint tally is introduced."
+          },
+          "V264-AC-D5": {
+            "accepted": true,
+            "row_id": "AC-D5",
+            "reviewed_change_count": 1,
+            "fields": [
+              "evidence"
+            ],
+            "basis": "The exact conditional anomaly arithmetic is preserved, with physical group/content/current/domain custody required before interpreting it as a source anomaly. No extra independent-constraint tally is introduced."
+          },
+          "V264-AC-E1": {
+            "accepted": true,
+            "row_id": "AC-E1",
+            "reviewed_change_count": 1,
+            "fields": [
+              "evidence"
+            ],
+            "basis": "Parent central phase, normal Spin center and ambient axial grade are genuinely different Z4 actions. Their candidate-specific invariance statements do not establish the physical Spin-Z4 data needed for a mod16 obstruction, nor alter the global-SM bordism calculation."
+          },
+          "V264-AC-F1": {
+            "accepted": true,
+            "row_id": "AC-F1",
+            "reviewed_change_count": 1,
+            "fields": [
+              "evidence"
+            ],
+            "basis": "The index route correctly requires common grading, independently zero total, Fredholm observation and a physical count map. The correlated ambient grading and effective-current routes remain live; index admissibility is not imposed on every possible physical realization."
+          },
+          "V264-AC-F5": {
+            "accepted": true,
+            "row_id": "AC-F5",
+            "reviewed_change_count": 1,
+            "fields": [
+              "evidence"
+            ],
+            "basis": "The retained-field benchmark has I_t=-40+2t and rho_k=k(1+t)/3 mod Z, vanishing for all characters exactly when t=-1 mod3. Pairing retention alone selects neither grading/suspension nor a native integer observable; the nonzero typed detector trigger is not fired."
+          },
+          "V264-AC-G1a": {
+            "accepted": true,
+            "row_id": "AC-G1a",
+            "reviewed_change_count": 2,
+            "fields": [
+              "evidence",
+              "revival_scope"
+            ],
+            "basis": "The source full U(64,64) parent remains distinct from optional Sp restrictions and separately typed K95/K77 adapters. Existing anomaly triggers are not transported merely by real-form names."
+          }
+        },
+        "cautions": [
+          "E4-A is essential: unchanged DIFFERS/PREDICTION is conditional representation bookkeeping, not an observed multi-Higgs or 2HDM prediction. A verdict/reason re-adjudication remains separate.",
+          "E2 retains a historical trigger verbatim, but its vertical-scalar interpretation is withdrawn. The new revival_scope must travel with the row; the stored string must not be executed as an ordinary pullback requirement.",
+          "A6 geometric mu6 existence/descent does not fire or replace the distinct rank-one126 selection trigger. Physical current/gauge selection and fixed-J, connection, boundary/end data remain open.",
+          "33 is contained in 73; ambient representation directions, neutral singlets and RS summands are not physical particle counts or constrained poles without the declared bridge.",
+          "The fundamental 2+1 and imposter/cousin statements are not simple triplication. Ambient gamma-tracelessness is not preserved as the observed imposter label; Gamma_H q I=40 Id is decisive.",
+          "Geometric quotient, closed-spin existence, characteristic constraints and full-Y lift criteria are a composed shared evidence bundle, not independent confirmations or new physical choices. Closedness and free-J hypotheses must remain visible.",
+          "Order3 rho/torsion is not the integer3; native grading, suspension, operator/domain and count-map data remain necessary for that route.",
+          "Inherited historical evidence strings may say that an earlier evidence-only append left distance/grade unchanged. Those historical custody statements do not override this proposal's explicit current field changes.",
+          "Acceptance covers the exact proposed wording/evidence/scope mint only. It does not change any source verdict, row target, reason kind or original revival_trigger, and it is not a new validation of every cited native calculation."
+        ],
+        "own_checks": {
+          "all_50_exact_row_payloads_read": true,
+          "reviewed_changes": 107,
+          "old_value_and_presence_comparisons": 107,
+          "old_value_mismatches": 0,
+          "changed_fields_within_declared_nonverdict_scope": true,
+          "all_same_target_flags_true": true,
+          "base_ledger_hash_matches_proposal": true,
+          "referenced_paths_exist": 69,
+          "missing_referenced_paths": [],
+          "source_ledger_and_object_dictionary_unchanged_from_base": true,
+          "shared_reference_crosschecks": [
+            "source-native comparator routing and GEOMETER/physical-object distinctions",
+            "source register SC-GEN-01, SC-CHI-51/52, SC-GEO-58, SC-MAS-02/03 and full-unitary custody",
+            "CB-A arithmetic and V1/V2/V5 corrections",
+            "actual observed imposter injection and retained-ghost rho formulas",
+            "four geometric normal-reduction/quotient/characteristic/full-Y owners",
+            "observation physical-carrier custody and Z4 action distinctions",
+            "conditional CB-B mass-scale and CB-C anomaly arena",
+            "printed endpoint, companion, wedge-action and graph-domain claim ceilings"
+          ],
+          "delta_dispositions_reviewed_as_custody_only": 14,
+          "conflicting_TW_delta_retained": true,
+          "deferred_scientific_readjudications": [
+            "RA-E4",
+            "RA-E2",
+            "RA-A6"
+          ],
+          "final_proposal_hash_confirmed": true
+        },
+        "not_run": [
+          "No native probes, matrix assembly, tests, Lean builds or proof replays.",
+          "No repository edits, ledger application, trigger evaluation, verdict/reason change or publication.",
+          "No independent reconstruction of the cited topology/native proofs; this is a proposal and source-custody review using owned results."
+        ],
+        "final_proposal_wording_review": {
+          "RA-A6": "The inherited no-grade-change sentence is now explicitly attributed to its original delta; the current mapping-grade clarification is explicit.",
+          "AC-G1a": "The source ID is corrected to SC-GRP-02.",
+          "accepted": true
+        },
+        "context_integration_review": {
+          "accepted": true,
+          "status": "reviewed after D2 source-layer correction",
+          "reviewed_provisional_ledger": "/private/tmp/gu-ledger-v264-20261127/lab/process/conditional-physics-ledger-v0.264.json",
+          "reviewed_provisional_ledger_sha256": "be6090be51573044976129e49317a5cd6f726a05c4d583c36420095046093384",
+          "contexts_sha256": "f82277d3b0ffaf8d4ee3f6bb5b0ea38fa4ed57f44db518a09ea5a5b41bdf481f",
+          "checked_touched_contexts": 50,
+          "existing_contexts_preserved": 17,
+          "new_contexts": 33,
+          "new_source_layers_honestly_untyped": 29,
+          "finding_resolved": "The initial generic ambient/observed-to-L1/L2 inference was the CT-1/CT-2 D2 category error. All 29 such new layer slots now use UNTYPED with an explicit explanatory note. Their C1/C2 carrier comparison labels and independently justified grant nodes are preserved.",
+          "explicit_source_layers": {
+            "RA-G3": [
+              "L1",
+              "L4"
+            ],
+            "LT-GR2d": [
+              "L1",
+              "L4"
+            ],
+            "AC-F1": [
+              "L1",
+              "L4"
+            ],
+            "AC-A5": "L1"
+          },
+          "explicit_source_layer_basis": "CT-1 names RA-G3, LT-GR2d and AC-F1 as demand-side SC-CHI-01/G6 members, relating the declared total to the VEV-observed phase. AC-A5 explicitly concerns the full declared 15-content four-corner anomaly arena, not an observed spectrum.",
+          "named_grants_reviewed": {
+            "RA-A3": "G4",
+            "RA-B1": "G2",
+            "RA-B2": "G2",
+            "RA-B3": "G2",
+            "RA-B4": "G2",
+            "RA-B5": "G2",
+            "RA-D4": "G5",
+            "RA-F2": "G8",
+            "RA-G3": "G6",
+            "LT-GR2d": "G6",
+            "AC-F1": [
+              "G5",
+              "G6"
+            ]
+          },
+          "named_grant_basis": "G2 embedding, G4 stabilizer, G8 in-row conditional, G5 INHERITANCE_BRIDGE and G6 source VEV condition match the exact CT-1 named rows. AC-F1 retains both its physical-pairing and VEV conditions. No grant is discharged; demand-side occupancy is not achievement.",
+          "protected_fields_unchanged_across_all_91_rows": true,
+          "scope": "Bounded semantic review of added/preserved context metadata. This is not a rerun of the mint gate or a claim that all earlier contexts have been freshly re-adjudicated."
+        }
+      },
+      {
+        "accepted": true,
+        "reviewer_role": "Independent internal hostile/source reviewer; not author; no external validation claim",
+        "reviewed_revision": "74b90248a96a0a46ff3445aa4e20fb90557bba19",
+        "proposal_sha256": "7c94420bce06863311431d427320d8464319f98709fbc8178c5f578673159dd0",
+        "base_ledger_ref": "lab/process/conditional-physics-ledger-v0.263.json",
+        "base_ledger_sha256": "7c75c179c3af512084e50af19043a5d320b38e8c1e53325ee5ec2f97ad9c257b",
+        "reviewed_row_count": 50,
+        "reviewed_edit_count": 107,
+        "blockers": [],
+        "decisions": {
+          "V264-RA-A2": {
+            "decision": "accept_scoped_proposal",
+            "row_id": "RA-A2",
+            "fields_reviewed": [
+              "evidence"
+            ],
+            "same_target_accepted": true,
+            "rationale": "The simultaneous geometric action, absolute free-J reduction, quotient and optional product-lift results are correlated geometric evidence. They do not select an operative physical weak current or fixed-J connection; the proposal says so."
+          },
+          "V264-RA-A3": {
+            "decision": "accept_scoped_proposal",
+            "row_id": "RA-A3",
+            "fields_reviewed": [
+              "evidence"
+            ],
+            "same_target_accepted": true,
+            "rationale": "The custody update retains the exact conditional normal16/charge/anomaly fit, corrects stale blanket missing-complex-carrier rhetoric, and leaves the physical carrier/current/domain bridge open. It adds no independent anomaly or prediction credit."
+          },
+          "V264-RA-A4": {
+            "decision": "accept_scoped_proposal",
+            "row_id": "RA-A4",
+            "fields_reviewed": [
+              "summary",
+              "distance",
+              "evidence",
+              "revival_scope"
+            ],
+            "same_target_accepted": true,
+            "rationale": "Extra U(1) is a conditional internal-adjoint direction, not a computed physical pole. The new summary and distance remove the unjustified unique Higgs-VEV requirement."
+          },
+          "V264-RA-A5": {
+            "decision": "accept_scoped_proposal",
+            "row_id": "RA-A5",
+            "fields_reviewed": [
+              "summary",
+              "distance",
+              "evidence",
+              "revival_scope"
+            ],
+            "same_target_accepted": true,
+            "rationale": "The exact 33 internal directions are a subset of 73=40+33 ambient non-SM directions; this is neither 106 directions nor a physical vector-particle count."
+          },
+          "V264-RA-A6": {
+            "decision": "accept_scoped_proposal",
+            "row_id": "RA-A6",
+            "fields_reviewed": [
+              "evidence",
+              "summary",
+              "distance",
+              "revival_scope",
+              "mapping_grade"
+            ],
+            "same_target_accepted": true,
+            "rationale": "Same CB-A:A6 target: the original row already required source-selected realization. The geometric quotient/descent debt is now closed for the constructed free-J reduction while physical selection and the distinct stored rank-one trigger remain. The original delta no-grade-change sentence is now attributed to that delta and expressly distinguishes this mint's mapping-grade repair."
+          },
+          "V264-RA-A8": {
+            "decision": "accept_scoped_proposal",
+            "row_id": "RA-A8",
+            "fields_reviewed": [
+              "evidence"
+            ],
+            "same_target_accepted": true,
+            "rationale": "The topology and fixed-weak lift results do not discharge stationarity or a source-selected vacuum stabilizer. No newly constructed wedge stationary branch is being equated with that selected physical vacuum."
+          },
+          "V264-RA-B1": {
+            "decision": "accept_scoped_proposal",
+            "row_id": "RA-B1",
+            "fields_reviewed": [
+              "evidence"
+            ],
+            "same_target_accepted": true,
+            "rationale": "The custody update retains the exact conditional normal16/charge/anomaly fit, corrects stale blanket missing-complex-carrier rhetoric, and leaves the physical carrier/current/domain bridge open. It adds no independent anomaly or prediction credit."
+          },
+          "V264-RA-B2": {
+            "decision": "accept_scoped_proposal",
+            "row_id": "RA-B2",
+            "fields_reviewed": [
+              "evidence"
+            ],
+            "same_target_accepted": true,
+            "rationale": "The custody update retains the exact conditional normal16/charge/anomaly fit, corrects stale blanket missing-complex-carrier rhetoric, and leaves the physical carrier/current/domain bridge open. It adds no independent anomaly or prediction credit."
+          },
+          "V264-RA-B3": {
+            "decision": "accept_scoped_proposal",
+            "row_id": "RA-B3",
+            "fields_reviewed": [
+              "evidence"
+            ],
+            "same_target_accepted": true,
+            "rationale": "The custody update retains the exact conditional normal16/charge/anomaly fit, corrects stale blanket missing-complex-carrier rhetoric, and leaves the physical carrier/current/domain bridge open. It adds no independent anomaly or prediction credit."
+          },
+          "V264-RA-B4": {
+            "decision": "accept_scoped_proposal",
+            "row_id": "RA-B4",
+            "fields_reviewed": [
+              "evidence"
+            ],
+            "same_target_accepted": true,
+            "rationale": "The custody update retains the exact conditional normal16/charge/anomaly fit, corrects stale blanket missing-complex-carrier rhetoric, and leaves the physical carrier/current/domain bridge open. It adds no independent anomaly or prediction credit."
+          },
+          "V264-RA-B5": {
+            "decision": "accept_scoped_proposal",
+            "row_id": "RA-B5",
+            "fields_reviewed": [
+              "evidence"
+            ],
+            "same_target_accepted": true,
+            "rationale": "The custody update retains the exact conditional normal16/charge/anomaly fit, corrects stale blanket missing-complex-carrier rhetoric, and leaves the physical carrier/current/domain bridge open. It adds no independent anomaly or prediction credit."
+          },
+          "V264-RA-B6": {
+            "decision": "accept_scoped_proposal",
+            "row_id": "RA-B6",
+            "fields_reviewed": [
+              "summary",
+              "distance",
+              "evidence",
+              "revival_scope"
+            ],
+            "same_target_accepted": true,
+            "rationale": "The normal16 neutral weight is retained; its independent physical state, reality, mass and mixing are not supplied by the label or SE0. Conventional126 is kept separate."
+          },
+          "V264-RA-D2": {
+            "decision": "accept_scoped_proposal",
+            "row_id": "RA-D2",
+            "fields_reviewed": [
+              "summary",
+              "distance",
+              "evidence",
+              "revival_scope"
+            ],
+            "same_target_accepted": true,
+            "rationale": "The stored route kill is bounded to the named fixed-W/trace-q realizations; SC-CHI-51 survives. Exact off-shell autonomy is not smuggled into an effective-current source claim."
+          },
+          "V264-RA-D4": {
+            "decision": "accept_scoped_proposal",
+            "row_id": "RA-D4",
+            "fields_reviewed": [
+              "evidence"
+            ],
+            "same_target_accepted": true,
+            "rationale": "Index balance is conditional and does not identify particle partners. Current response is not inferred from a small mean VEV; positive Riemannian localization is not transferred to the native Krein domain or physical mirror masses."
+          },
+          "V264-RA-E1": {
+            "decision": "accept_scoped_proposal",
+            "row_id": "RA-E1",
+            "fields_reviewed": [
+              "evidence",
+              "revival_scope"
+            ],
+            "same_target_accepted": true,
+            "rationale": "Source emergent gauge-potential mass channel is separated from a primitive fundamental scalar and from literal one-form observation. No physical Higgs construction is credited."
+          },
+          "V264-RA-E2": {
+            "decision": "accept_scoped_proposal",
+            "row_id": "RA-E2",
+            "fields_reviewed": [
+              "summary",
+              "distance",
+              "evidence",
+              "revival_scope",
+              "mapping_grade"
+            ],
+            "same_target_accepted": true,
+            "rationale": "The old scalar-adapter interpretation is explicitly withdrawn, while NEEDS and the observed-scalar target remain. Stored trigger bytes are historical; the applicability annotation intentionally prevents their invalid literal execution."
+          },
+          "V264-RA-E3": {
+            "decision": "accept_scoped_proposal",
+            "row_id": "RA-E3",
+            "fields_reviewed": [
+              "summary",
+              "distance",
+              "evidence",
+              "revival_scope"
+            ],
+            "same_target_accepted": true,
+            "rationale": "The zero-doublet result binds the declared rank-two internal tensor comparator. It does not exclude every source emergent scalar or convert an observed one-form into a scalar."
+          },
+          "V264-RA-E4": {
+            "decision": "accept_scoped_proposal",
+            "row_id": "RA-E4",
+            "fields_reviewed": [
+              "summary",
+              "distance",
+              "evidence",
+              "revival_scope",
+              "prediction_scope",
+              "mapping_grade"
+            ],
+            "same_target_accepted": true,
+            "rationale": "Accept E4-A only: the explicit prediction_scope retains DIFFERS/PREDICTION as conditional representation bookkeeping and expressly denies an established physical 2HDM. The target remains the observed light-doublet requirement; independent real degrees and scalar dynamics are open. This does not scientifically validate the old physical multi-doublet prediction; E4-B remains a distinct adjudication."
+          },
+          "V264-RA-E5": {
+            "decision": "accept_scoped_proposal",
+            "row_id": "RA-E5",
+            "fields_reviewed": [
+              "summary",
+              "distance",
+              "evidence",
+              "revival_scope"
+            ],
+            "same_target_accepted": true,
+            "rationale": "Conditional10 weights and invariant H/Q nonselection do not supply a scalar spectrum or proton lifetime. The added amplitude, external-state, propagator and normalization burdens are required before a physical proton-decay claim."
+          },
+          "V264-RA-F1": {
+            "decision": "accept_scoped_proposal",
+            "row_id": "RA-F1",
+            "fields_reviewed": [
+              "evidence"
+            ],
+            "same_target_accepted": true,
+            "rationale": "The ambient label and actual observed gamma-trace image are distinguished; order-three torsion is not an integer3 observable. Named Fredholm machinery is route-specific."
+          },
+          "V264-RA-F2": {
+            "decision": "accept_scoped_proposal",
+            "row_id": "RA-F2",
+            "fields_reviewed": [
+              "summary",
+              "distance",
+              "evidence",
+              "revival_scope"
+            ],
+            "same_target_accepted": true,
+            "rationale": "Conditional low-energy replication is retained without replacing the source fundamental2+1 provenance by three identical fundamental families."
+          },
+          "V264-RA-F3": {
+            "decision": "accept_scoped_proposal",
+            "row_id": "RA-F3",
+            "fields_reviewed": [
+              "evidence"
+            ],
+            "same_target_accepted": true,
+            "rationale": "Gamma_H q I=40 Id is an observation-map statement, not a physical family count. The ambient imposter and observed cousin operators stay distinct."
+          },
+          "V264-RA-G1": {
+            "decision": "accept_scoped_proposal",
+            "row_id": "RA-G1",
+            "fields_reviewed": [
+              "summary",
+              "distance",
+              "evidence",
+              "revival_scope"
+            ],
+            "same_target_accepted": true,
+            "rationale": "Ambient RS-shaped labels and anomaly comparator closure do not supply a constrained physical spin3/2 pole; the updated distance requires that bridge."
+          },
+          "V264-RA-G2": {
+            "decision": "accept_scoped_proposal",
+            "row_id": "RA-G2",
+            "fields_reviewed": [
+              "summary",
+              "distance",
+              "evidence",
+              "revival_scope"
+            ],
+            "same_target_accepted": true,
+            "rationale": "Conjugate-pair bare-mass exclusions, formal preboundary constructions and source-effective dark partner placement remain separate. The positive-cohomology/light-content conjuncts are not discharged and are not used as a work-stop rule."
+          },
+          "V264-RA-G3": {
+            "decision": "accept_scoped_proposal",
+            "row_id": "RA-G3",
+            "fields_reviewed": [
+              "evidence",
+              "revival_scope"
+            ],
+            "same_target_accepted": true,
+            "rationale": "The source mass field is inside the gauge potential. The correction does not select a Majorana reality/scale or promote a conventional126 mechanism."
+          },
+          "V264-RA-G4": {
+            "decision": "accept_scoped_proposal",
+            "row_id": "RA-G4",
+            "fields_reviewed": [
+              "evidence",
+              "revival_scope"
+            ],
+            "same_target_accepted": true,
+            "rationale": "Representation and stabilizer information is not a vector mass spectrum. Conventional Higgs selection is one named comparator rather than a source requirement."
+          },
+          "V264-LT-GR1": {
+            "decision": "accept_scoped_proposal",
+            "row_id": "LT-GR1",
+            "fields_reviewed": [
+              "evidence",
+              "summary",
+              "distance",
+              "revival_scope"
+            ],
+            "same_target_accepted": true,
+            "rationale": "The exact fixed-S endpoint obstruction, distinct printed/W2 stationary loci and corrected wedge own-action survivor retain different owners. None supplies helicity-two physical gravity, and the older P3 count construction is explicitly only one conditional route."
+          },
+          "V264-LT-GR1b": {
+            "decision": "accept_scoped_proposal",
+            "row_id": "LT-GR1b",
+            "fields_reviewed": [
+              "evidence",
+              "summary",
+              "distance",
+              "revival_scope"
+            ],
+            "same_target_accepted": true,
+            "rationale": "The original post-Shiab Riemann-kernel factorization obstruction is retained independently of the fixed-S variational theorem. An ambient Einstein wedge response cannot recover curvature erased by that factorization or establish observed Einstein dynamics."
+          },
+          "V264-LT-GR2b": {
+            "decision": "accept_scoped_proposal",
+            "row_id": "LT-GR2b",
+            "fields_reviewed": [
+              "evidence"
+            ],
+            "same_target_accepted": true,
+            "rationale": "The coderivative failures apply to their named reconstructed theta=T dictionaries and W2 versus printed owners; no selected source stress tensor or dark-energy prediction follows."
+          },
+          "V264-LT-GR2c": {
+            "decision": "accept_scoped_proposal",
+            "row_id": "LT-GR2c",
+            "fields_reviewed": [
+              "evidence"
+            ],
+            "same_target_accepted": true,
+            "rationale": "The coderivative failures apply to their named reconstructed theta=T dictionaries and W2 versus printed owners; no selected source stress tensor or dark-energy prediction follows."
+          },
+          "V264-LT-GR2d": {
+            "decision": "accept_scoped_proposal",
+            "row_id": "LT-GR2d",
+            "fields_reviewed": [
+              "evidence"
+            ],
+            "same_target_accepted": true,
+            "rationale": "The coderivative failures apply to their named reconstructed theta=T dictionaries and W2 versus printed owners; no selected source stress tensor or dark-energy prediction follows."
+          },
+          "V264-LT-GR2e": {
+            "decision": "accept_scoped_proposal",
+            "row_id": "LT-GR2e",
+            "fields_reviewed": [
+              "evidence"
+            ],
+            "same_target_accepted": true,
+            "rationale": "Mannheim and late-time interfaces are conditional comparisons; W2/printed coderivative failures retain their dictionary. No DESI likelihood, selected w(z), dark-energy sign or LC cosmology result is imported."
+          },
+          "V264-LT-GR5": {
+            "decision": "accept_scoped_proposal",
+            "row_id": "LT-GR5",
+            "fields_reviewed": [
+              "evidence"
+            ],
+            "same_target_accepted": true,
+            "rationale": "Only the already-owned selected I2B TT polynomial versus pure Bach comparison is attached, retaining its isolated Ward defect and diagnostic scope; no physical spectrum or wedge transfer."
+          },
+          "V264-LT-GR6b": {
+            "decision": "accept_scoped_proposal",
+            "row_id": "LT-GR6b",
+            "fields_reviewed": [
+              "evidence"
+            ],
+            "same_target_accepted": true,
+            "rationale": "CW survival and nonlinear cutoff/instantaneous graph failures concern the selected frozen printed low-Phi system. They are not every-domain or physical-ghost statements, and the corrected wedge action owns a different operator."
+          },
+          "V264-LT-GR8": {
+            "decision": "accept_scoped_proposal",
+            "row_id": "LT-GR8",
+            "fields_reviewed": [
+              "evidence"
+            ],
+            "same_target_accepted": true,
+            "rationale": "The original T_H is already observed and cannot be pulled back again. The hypothetical ambient tensor contraction and causal-boundary/flux/entropy owners are carefully kept separate; earlier deferral history must be preserved."
+          },
+          "V264-LT-GR10": {
+            "decision": "accept_scoped_proposal",
+            "row_id": "LT-GR10",
+            "fields_reviewed": [
+              "evidence"
+            ],
+            "same_target_accepted": true,
+            "rationale": "The conditional source/readout and finite-node interfaces preserve their counterconstructions and do not select empirical gravity or cosmology predictions."
+          },
+          "V264-LT-SM4": {
+            "decision": "accept_scoped_proposal",
+            "row_id": "LT-SM4",
+            "fields_reviewed": [
+              "summary",
+              "distance",
+              "evidence",
+              "revival_scope"
+            ],
+            "same_target_accepted": true,
+            "rationale": "The interval [5/6,5/4] is the older constructed squared mass coefficient; the physical pole and absolute scale remain open. No wedge spectrum or physical mass ratio1.5 is inferred."
+          },
+          "V264-LT-SM5": {
+            "decision": "accept_scoped_proposal",
+            "row_id": "LT-SM5",
+            "fields_reviewed": [
+              "evidence"
+            ],
+            "same_target_accepted": true,
+            "rationale": "The conditional prediction interfaces do not identify a physical mass spectrum, observable coupling or unique response ratio."
+          },
+          "V264-LT-SM6": {
+            "decision": "accept_scoped_proposal",
+            "row_id": "LT-SM6",
+            "fields_reviewed": [
+              "evidence",
+              "revival_scope"
+            ],
+            "same_target_accepted": true,
+            "rationale": "The gauge-potential mass/Higgs channel remains source-native; no fundamental scalar potential, 126 or physical mass spectrum is imported."
+          },
+          "V264-LT-SM8": {
+            "decision": "accept_scoped_proposal",
+            "row_id": "LT-SM8",
+            "fields_reviewed": [
+              "evidence"
+            ],
+            "same_target_accepted": true,
+            "rationale": "Thin-observation nonclosability retains its graph/core hypotheses. The named CW graph exclusions and wedge redundancy do not exclude every physical quotient or establish a positive interacting physical space."
+          },
+          "V264-AC-A5": {
+            "decision": "accept_scoped_proposal",
+            "row_id": "AC-A5",
+            "fields_reviewed": [
+              "summary",
+              "distance",
+              "evidence",
+              "revival_scope"
+            ],
+            "same_target_accepted": true,
+            "rationale": "The sign of the existing conclusion is repaired: net chirality zero is necessary but insufficient in the declared15-content rank5 system with rank10 kernel. Four further conditions are arena-relative; no new anomaly arithmetic or universal GU no-go."
+          },
+          "V264-AC-D1": {
+            "decision": "accept_scoped_proposal",
+            "row_id": "AC-D1",
+            "fields_reviewed": [
+              "evidence"
+            ],
+            "same_target_accepted": true,
+            "rationale": "The custody update retains the exact conditional normal16/charge/anomaly fit, corrects stale blanket missing-complex-carrier rhetoric, and leaves the physical carrier/current/domain bridge open. It adds no independent anomaly or prediction credit."
+          },
+          "V264-AC-D2": {
+            "decision": "accept_scoped_proposal",
+            "row_id": "AC-D2",
+            "fields_reviewed": [
+              "evidence"
+            ],
+            "same_target_accepted": true,
+            "rationale": "The custody update retains the exact conditional normal16/charge/anomaly fit, corrects stale blanket missing-complex-carrier rhetoric, and leaves the physical carrier/current/domain bridge open. It adds no independent anomaly or prediction credit."
+          },
+          "V264-AC-D3": {
+            "decision": "accept_scoped_proposal",
+            "row_id": "AC-D3",
+            "fields_reviewed": [
+              "evidence"
+            ],
+            "same_target_accepted": true,
+            "rationale": "The custody update retains the exact conditional normal16/charge/anomaly fit, corrects stale blanket missing-complex-carrier rhetoric, and leaves the physical carrier/current/domain bridge open. It adds no independent anomaly or prediction credit."
+          },
+          "V264-AC-D4": {
+            "decision": "accept_scoped_proposal",
+            "row_id": "AC-D4",
+            "fields_reviewed": [
+              "evidence"
+            ],
+            "same_target_accepted": true,
+            "rationale": "The custody update retains the exact conditional normal16/charge/anomaly fit, corrects stale blanket missing-complex-carrier rhetoric, and leaves the physical carrier/current/domain bridge open. It adds no independent anomaly or prediction credit."
+          },
+          "V264-AC-D5": {
+            "decision": "accept_scoped_proposal",
+            "row_id": "AC-D5",
+            "fields_reviewed": [
+              "evidence"
+            ],
+            "same_target_accepted": true,
+            "rationale": "The custody update retains the exact conditional normal16/charge/anomaly fit, corrects stale blanket missing-complex-carrier rhetoric, and leaves the physical carrier/current/domain bridge open. It adds no independent anomaly or prediction credit."
+          },
+          "V264-AC-E1": {
+            "decision": "accept_scoped_proposal",
+            "row_id": "AC-E1",
+            "fields_reviewed": [
+              "evidence"
+            ],
+            "same_target_accepted": true,
+            "rationale": "The three candidate Z4 actions and their symmetry outcomes do not replace this row's actual SM bordism group. No new source-required Spin-Z4 spectrum or mod16 target is asserted."
+          },
+          "V264-AC-F1": {
+            "decision": "accept_scoped_proposal",
+            "row_id": "AC-F1",
+            "fields_reviewed": [
+              "evidence"
+            ],
+            "same_target_accepted": true,
+            "rationale": "The corrected ambient-correlated grading descends, while its positive-comparator zero index is not native. Exact additivity is conditional on same-grade balance, Fredholm domains and observation; source-effective chirality need not use an index."
+          },
+          "V264-AC-F5": {
+            "decision": "accept_scoped_proposal",
+            "row_id": "AC-F5",
+            "fields_reviewed": [
+              "evidence"
+            ],
+            "same_target_accepted": true,
+            "rationale": "The retained-field index/rho formulas depend on symbol, grading, suspension and equivariant lift. A Krein pairing does not select these, and benchmark torsion is not a physical family observable."
+          },
+          "V264-AC-G1a": {
+            "decision": "accept_scoped_proposal",
+            "row_id": "AC-G1a",
+            "fields_reviewed": [
+              "evidence",
+              "revival_scope"
+            ],
+            "same_target_accepted": true,
+            "rationale": "Full source U(64,64), optional quaternionic Sp restrictions and K77/K95 real forms are distinguished. The registered SC-GRP-02 citation is now correct; no anomaly transfers merely by a real-form label."
+          }
+        },
+        "own_checks": [
+          "Read all50 row proposals and all107 edit values; read complete91-row audit disposition and14 delta dispositions.",
+          "Authenticated v0.263 at current74b90248: SHA256 matches the declared proposal base despite the proposal retaining original audit basis097daab9.",
+          "Read-only JSON comparison found no protected-field edits and no old_present/old_value mismatches across107 edits.",
+          "All69 evidence references exist at pinned74b90248, not merely in an uncommitted working tree; all50proposal IDs unique; touched plus unchanged IDs cover91 rows.",
+          "Read GU AGENTS, source-native comparator routing, geometer/physics index, claim-status consistency, evidence-delta contract, current physical-carrier custody, CB-A target rows/corrections, CB-C anomaly scope, LT-GR1b factorization proof, normal global/characteristic/lift scopes, source claim entries, Mannheim and prediction-kickoff scope.",
+          "Reused previously reviewed printed/W2/wedge/CW owner distinctions; no theorem or numerical certificate was rerun.",
+          "No referenced LC bet result is added as a new ledger credit; no physical positivity, observed scalar, family count, Einstein recovery or source-wide no-go is inferred from a comparator.",
+          "Final revision7c94420b: independently reread the two requested corrections, confirmed the source ID and attributed grade statement, and bound this receipt to the corrected proposal bytes."
+        ],
+        "cautions": [
+          "Acceptance concerns these exact proposed row edits, not a blanket release. Root still owes the declared CT2 context typing, migration/disposition history, exact base/current check and native gates. Several touched predecessor rows lack context; the proposal explicitly reserves this integration work.",
+          "E4-A retains a known head-label tension. DIFFERS/PREDICTION must be displayed together with prediction_scope and never tallied as an established physical2HDM forecast. E4-B remains deferred; no retrospective endorsement of the old physical interpretation is granted.",
+          "Stored revival_trigger bytes remain unchanged, but applicability is intentionally clarified. Describe this as text preservation plus scope correction, not unchanged operational behavior; RA-E2's withdrawn literal-scalar trigger is non-executable and RA-D2's exact carrier is only one route.",
+          "RA-A6 physical selection is already part of its original conditional target; the new absolute geometric theorem does not justify silently replacing its target with a different one or declaring its old conventional126 trigger fired.",
+          "Copied delta no-effect text is provenance about those deltas, not permission to contradict this mint's mapping-grade repairs. Preserve prior deferrals/conflicts, predecessor bytes, all91 serialized heads and the88 active-target denominator; no new independent-constraint credit.",
+          "The older P3-primary mapping-grade vocabulary on LT-GR1 remains attributable to that prior route, not a fresh priority instruction overriding the new scoped distance.",
+          "No source-register polarity/adherence, ledger verdict/reason, canon, scientific priority or physical prediction changes are approved by this receipt."
+        ],
+        "not_run": [
+          "No native tests, certificate recomputation, Lean compilation, physics calculation, gate suite, network fetch, owner edits or release.",
+          "No independent re-verification of every historical evidence theorem; this is exact proposal/scope/custody review."
+        ]
+      }
+    ],
+    "gates": {
+      "program_focus_audit": "PASS",
+      "typed_carrier_declaration_audit": "PASS",
+      "kill_target_claim_audit": "PASS",
+      "frontmatter_status_schema_audit": "PASS",
+      "source_native_comparator_routing_audit": "PASS",
+      "lean_certificate_surface_audit": "PASS",
+      "current_state_absolute_currency_audit": "PASS",
+      "conditional_evidence_delta_gate": "PASS",
+      "research_context_reader_audit": "PASS",
+      "mint_context_projection_audit": "PASS",
+      "canonical_currency_audit": "PASS",
+      "probe_authorship_lint": "PRE_EXISTING_210_NO_DELTA",
+      "conditional_physics_ledger_v03_scope_audit": "PASS"
+    },
+    "lean": {
+      "command": "lake env lean -j1 Lean/GUFormalization/ObservedHiddenSplit.lean",
+      "exit_code": 0,
+      "scope": "Existing finite exact-sequence additivity certificate replay; no claim that Lean formalizes ledger semantics or current physics.",
+      "warnings": "Existing two unusedSectionVars warnings only."
+    },
+    "lint_scope": {
+      "base_revision": "74b90248a96a0a46ff3445aa4e20fb90557bba19",
+      "same_output_sha256": "2f3abecbbed73530a4d72de261783a5a875657f6b57b7bb6d841dae4f768e380",
+      "new_probe_violations": 0,
+      "baseline_unchanged": true
+    },
+    "unused_planned_output": "Comparator routing registry unchanged: ledger_mint_record is outside its derived filename scope, and adding it is rejected by the existing gate. Human mint carries the required source/comparator notice and classification; no new comparator result or scope rule introduced.",
+    "exact_probe": {
+      "status": "PASS",
+      "rows": 91,
+      "active": 88,
+      "touched": 50,
+      "field_changes": 107,
+      "verdict_changes": 0,
+      "counts": {
+        "NEEDS": 31,
+        "SAME": 33,
+        "DIFFERS": 22,
+        "OVER_DETERMINED": 2
+      },
+      "sensitivity_controls": 2
+    },
+    "artifact_hashes": {
+      "lab/process/conditional-physics-ledger-v0.264.json": "be6090be51573044976129e49317a5cd6f726a05c4d583c36420095046093384",
+      "lab/process/ledger-v264-row-proposals.json": "7c94420bce06863311431d427320d8464319f98709fbc8178c5f578673159dd0",
+      "explorations/conditional-build/conditional-physics-ledger-v0.264.md": "649e32cf03a1ff096e9b82bbc6f6bdb63bcfadec77c607152b5edf728b97fabf",
+      "tests/program-focus/ledger_v264_reconciliation_probe.py": "b0eb2a6719646a81f50c7c89cd83392bb6d02eb2fc1822df540856682f282dbb"
+    },
+    "context_review": "17 existing contexts preserved;33 added,29 explicitly UNTYPED source-layer assignments and4 source-specific. Corrected ambient/observed versus source-layer conflation after independent review; native gate alone did not catch semantics.",
+    "ledger_schema": "PASS"
+  },
+  "next": "Directedledgerpasscomplete:resumeJoe27r1c finalwedgewave, evaluating27w Einstein-term/scalegate onactualGg andspecifiedreadout before genericquadraticgravityimports. Existing nonlinearCW route follows; W2 diagnostic only.",
+  "joe_27w_consideration": {
+    "authority": "joe_direct_chat_2026_11_27_w",
+    "disposition": "Retained for final wedgewave, no extra scientific edits in ledger pass.",
+    "corrections": [
+      "Leading coefficient is R_G^2/Ric_G^2=5/2 in14D; not a derived4DStelle action.",
+      "Emergent W2 antilinear symmetry must be established afresh on wedge dynamics.",
+      "Ambient coderivative zero belongs to t1; all-order ambient conservation undecided.",
+      "Source/fibre reduction and reference measure required before Newton scale; fixedratio is ambient structural consequence."
+    ],
+    "priority": "Smallest actualbase-induced Einstein-term/coefficient test first; nativeenergy/\u03ba1 continuation onlyifcheap."
+  },
+  "effect_line": "Changed stale scope and evidence on50physicsrows; exactreviewedJoe27v nativev264release, noverdict/policychange. Later automated effect not yet observed."
+}
