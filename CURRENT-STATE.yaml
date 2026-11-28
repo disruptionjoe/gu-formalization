@@ -1,7 +1,7 @@
 schema_version: '1.0'
 repository: observerse-research-program
 branch: main
-revision_basis: 784a27c9f5889dd2a229a0b42564bb0bb2f3978c
+revision_basis: bad338f368cf780849c8fb2c24d85849a62f5579
 program_focus:
   version: 2026-11-27-v3
   authority: joe_direct_chat_2026_11_27_k
@@ -174,15 +174,16 @@ program_focus:
       actual cost/delta, repeated work and useful shortcuts in existing weekly metrics. Update dead-end/coverage
       evidence and rankings; no new schedule.
   standing_mission:
-    objective: Determine as quickly and honestly as possible whether GU as specified by its sources can
-      be falsified. Candidate work is a tool, not the objective. Preserve the existing executable class-C
-      goal as an intermediate test, not an exhaustive definition of GU.
+    objective: 'Adjudicate GU and find its best surviving form. Determine what GU as printed supports, contradicts
+      or leaves open (SOURCE track), and construct and adversarially test the minimal repaired family member
+      (GU* track). Falsification remains the primary method: every repair must survive the same calibrated
+      tests as the source. Preserve the existing executable class-C goal as an intermediate test, not an
+      exhaustive definition of GU.'
     success_order:
     - 'Source-level falsification: every premise source-fixed with page/equation custody, calibrated diagnostics
       and T1 review; external expert check is a publication flag only.'
-    - 'Scoped source-level incompleteness: name the missing ingredient, the particular predictions or
-      obligations it prevents, and excluded completion classes. Do not erase independently established
-      kinematic content.'
+    - 'Scoped source-level incompleteness: name the missing ingredient, the particular predictions or obligations
+      it prevents, and excluded completion classes. Do not erase independently established kinematic content.'
     - Class-level exclusions with premises, scope and source relevance.
     - Decisive survivors with their remaining burdens.
     fidelity: Before interpreting a repo construction as source evidence, check that its solutions reproduce
@@ -191,11 +192,24 @@ program_focus:
     maintenance: Keep evidence attached through versionless ledger deltas; verdict changes retain review.
       Refresh affected progress-map cells and rankings when evidence or scope changes; the map is a linked
       view, not a new verdict owner.
-    reporting: On request show source/class/candidate layers, positive structural fits, obstructions,
-      shared missing inputs and fastest eligible tests. A route-closure estimate needs an explicitly bounded
-      denominator and a judgment label; the fraction of all possible GU realizations closed is unknown.
-    authority_boundary: Continue autonomously within existing authority. Existing canon/ledger tiers,
-      external and irreversible-action limits remain; no research waiting checkpoint.
+    reporting: On request show source/class/candidate layers, positive structural fits, obstructions, shared
+      missing inputs and fastest eligible tests. A route-closure estimate needs an explicitly bounded denominator
+      and a judgment label; the fraction of all possible GU realizations closed is unknown.
+    authority_boundary: Continue autonomously within existing authority. Existing canon/ledger tiers, external
+      and irreversible-action limits remain; no research waiting checkpoint.
+    mission_authority: joe_direct_chat_2026_11_27_q
+    outcome_reporting:
+      per_pillar_and_overall:
+        FALSIFIED: No viable form in the declared family, with coverage and premises explicit; a bounded
+          family exclusion is not all GU.
+        INCOMPLETE: Named missing ingredients prevent a complete viability or prediction claim; this label
+          does not prove that supplying them will work.
+        SURVIVES: A specific form passes the named calibrated tests, with its remaining burdens; a component
+          survivor is not a complete theory.
+      repair_guardrail: 'Choice budget, fidelity gate, kill rules and existing review tiers stand. Repairs
+        must earn predictions: a repair adding choices without new source-relevant falsifiable consequences
+        counts against GU*.'
+      evidence_ref: lab/process/cw-fullsystem-domain.json#mission_amendment
   research_tracks:
     authority:
     - joe_direct_chat_2026_11_27_k
@@ -222,6 +236,38 @@ program_focus:
       instead of silently adopting them.
     current_view: lab/process/source-action-opportunity-register-2026-11-25.json#research_track_view
     effect_receipt: lab/process/two-track-adoption-2026-11-27.json
+cw_fullsystem_2026_11_27:
+  status: internal_T1_reviewed
+  actual_delta: "The full frozen printed system has complete compatible linear Cauchy evolution on r\xB2\
+    >kappa\xB2/4, with conserved auxiliary modal norm and compact-patch L2 equivalence. Actual admitted\
+    \ Schwartz packets defeat strict nonlinear cutoff closure; a boosted actual resonant pair has frequencies\
+    \ inside the stable region and defeats the already specified character/smooth-kernel regular slaving\
+    \ class. Same-domain Schwartz solutions retain finite-initial-section-jet nonautonomy. The resonant\
+    \ temporal threshold has Jordan length2 and an invariant forced quadratic coefficient; actual antilinear\
+    \ symmetry preserves the nonzero forcing."
+  source_bridge:
+    status: conditional
+    reason: Source ultrahyperbolic debt does not select this low-Phi frozen completion, Fourier domain,
+      physical norm, nonlinear state rule or literal-observation physical quotient.
+  evidence:
+  - explorations/conditional-build/cw-fullsystem-domain-2026-11-27.md
+  - lab/process/cw-fullsystem-domain.json
+  next: 'OrdinaryB: test the remaining nonlinear-domain repair at the weakest new link, not the already
+    excluded strict cutoff or regular resonant slaving. A proposed enlarged domain must admit the actual
+    off-support/resonant state, prove constraint preservation and controlled evolution, and name an observable
+    consequence or reduced choice freedom before adoption. Compare cost with the actual physical-current/observation
+    bridge. Keep source and GU* attribution separate; linear bulk wellposedness never implies finite-jet
+    slice completeness. Counter113 ordinaryB; cadence unchanged.'
+  scoped_outcomes:
+    linear_bulk: SURVIVES specified frozen compatible-domain tests
+    strict_nonlinear_cutoff_family: FALSIFIED under the declared packet/regularity premises
+    GU_star_selection_route: 'INCOMPLETE: enlarged nonlinear state/domain, physical norm and observed-data
+      rule required; no existence claim for a complete viable theory'
+    source_GU: INCOMPLETE assessment; not falsified; no uniquely source-selected completion or prediction
+      supplied here
+  mission_amendment: lab/process/cw-fullsystem-domain.json#mission_amendment
+  choice_budget_effect: none
+  verdict_effect: none
 evolution_complement_2026_11_27:
   status: internal_T1_reviewed
   actual_delta: Time normalization gives six observed principal Clifford channels equivalent to the hidden

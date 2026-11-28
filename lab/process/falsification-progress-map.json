@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "basis_revision": "784a27c9f5889dd2a229a0b42564bb0bb2f3978c",
+  "basis_revision": "bad338f368cf780849c8fb2c24d85849a62f5579",
   "scope": "Curated six-pillar x source/class/candidate linked view. Status belongs to cited owners; no scientific verdict promotion, automatic ranking, whole-history coverage or global percentage. Cheapest-next fields are attributed bounded suggestions, not dispatch instructions. Closed means resolved within the cited scope; it does not always mean falsified. Positive fits and remaining source/physical bridges stay explicit.",
   "assumptions_ref": "lab/process/action-constraint-matrix.json#source_relevance_assumption_view.shared_prerequisites",
   "dependencies": [
@@ -94,7 +94,7 @@
     },
     {
       "ref": "lab/process/action-constraint-matrix.json",
-      "sha256": "a88d1ad31701eaaa26e30bf958ff0deff66635826744184041d920478d97c662"
+      "sha256": "99b372348c471a3e678bce3182d03338e1a6e61346dc6031476edc863a0eace8"
     },
     {
       "ref": "lab/process/conditional-physics-ledger-v0.263.json",
@@ -187,6 +187,10 @@
     {
       "ref": "explorations/conditional-build/bet-2plus1-evolution-complement-2026-11-27.md",
       "sha256": "4ea2f23e14c81947286904cf9baf0a483e050b17b04a675fa998360ce7231df0"
+    },
+    {
+      "ref": "explorations/conditional-build/cw-fullsystem-domain-2026-11-27.md",
+      "sha256": "d8f19854135ed4100e91bc4e07d2cba245a6509c1dc38febff432a8ca7e9d683"
     }
   ],
   "pillars": [
@@ -211,7 +215,7 @@
           "closed": "Every nonzero map in the declared fixed-linear full-Spin/full-U family fails exact Euler correspondence, even after any fixed invertible zero-order covector multiplier. Separately, every full pointwise exterior-degree11 Spin-equivariant associative or gradedLie derivation is Riemann-silent, without Euler/Hessian premises. Selected displayed map has no universal full-curvature exterior companion; inherited eight individual K77 maps cannot combine that property with nonzero Riemann response.",
           "open": "Field-dependent/differential/nonlocal multipliers, changed tangents or equations; class-C representativeness. Exact source meaning of derivation/module/chain and its grading/product remains conditional.",
           "shared_missing_ref": "lab/process/action-constraint-matrix.json#source_relevance_assumption_view.shared_prerequisites",
-          "cheapest_next": "Counter111 requires the unchanged LC-BETS selection first. For the next ordinary B slot, rank Craig-Weinstein-type nonlocal admissibility as a leading GU* candidate test: reuse the full19-channel symbol, actualQ and resonant receiver; first determine which modes its precise constraint admits and whether the actual quadratic evolution preserves it. A scalar trace-channel cutoff is not a full-system constraint. If the tested pair is admitted, strict support and regular slaving are already excluded; test an independent resonant state or a genuinely singular/history-dependent rule only with its stated domain. Compare with source-required current/effective shielding, not another equivalent resonance census.",
+          "cheapest_next": "OrdinaryB: test the remaining nonlinear-domain repair at the weakest new link, not the already excluded strict cutoff or regular resonant slaving. A proposed enlarged domain must admit the actual off-support/resonant state, prove constraint preservation and controlled evolution, and name an observable consequence or reduced choice freedom before adoption. Compare cost with the actual physical-current/observation bridge. Keep source and GU* attribution separate; linear bulk wellposedness never implies finite-jet slice completeness. Counter113 ordinaryB; cadence unchanged.",
           "evidence_refs": [
             "explorations/conditional-build/printed-shiab-endpoint-audit-2026-11-27.md",
             "explorations/conditional-build/shiab-graded-derivation-class-2026-11-27.md",
@@ -243,7 +247,18 @@
       ],
       "near_miss_options": [
         "n2"
-      ]
+      ],
+      "mission_outcome_assessment": {
+        "outcome": "INCOMPLETE",
+        "scope": "SOURCE and currently explored GU* routes; no complete pillar realization has passed all physical requirements. This is a scoped progress assessment, not a ledger verdict or proof that an extension exists.",
+        "named_missing_ingredients": "Broader faithful dynamics and unique Phi/product selection are not supplied by that custody. Field-dependent/differential/nonlocal multipliers, changed tangents or equations; class-C representativeness. Exact source meaning of derivation/module/chain and its grading/product remains conditional.",
+        "evidence_refs": [
+          "lab/sources/source-claim-register.yaml#SC-ACT-01",
+          "lab/sources/source-claim-register.yaml#SC-ACT-02",
+          "explorations/conditional-build/printed-shiab-endpoint-audit-2026-11-27.md"
+        ],
+        "specific_survivors": "Retain the existing positive fits and scoped survivors in the linked layer cells; no broad viability inference."
+      }
     },
     {
       "id": "predictive_dynamics",
@@ -262,10 +277,10 @@
         },
         "class": {
           "attributed_status": "Scoped W2 graph/domain exclusion",
-          "closed": "Every fixed finite Sobolev-loss graph-Duhamel estimate fails on the named interior core, including specified finite-order norm repairs retaining it. Fully boost-equivariant repeatedE fourterm symbols with firstorder endarrows admit no integer-order homogeneous exact middle in n14. Exact frozen selected printed real trace modes exclude every fixed finite-loss estimate on unrestricted states; no actual variable/nonlinear or physical-domain transfer. Frozen actual printedQ strict all-field stable-support cutoff admitting the tested pair fails second-order closure; same-leading scalarizer correction around actualsmallh branch fails at h5. Neither is source-required physicaldata. Declared regular equivariant quadratic slaving of the actual resonant printed pair is excluded; secular forced dynamics survives. A full nonlinear CW-type constraint remains a candidate test, not a selected source law.",
+          "closed": "Every fixed finite Sobolev-loss graph-Duhamel estimate fails on the named interior core, including specified finite-order norm repairs retaining it. Fully boost-equivariant repeatedE fourterm symbols with firstorder endarrows admit no integer-order homogeneous exact middle in n14. Exact frozen selected printed real trace modes exclude every fixed finite-loss estimate on unrestricted states; no actual variable/nonlinear or physical-domain transfer. Frozen actual printedQ strict all-field stable-support cutoff admitting the tested pair fails second-order closure; same-leading scalarizer correction around actualsmallh branch fails at h5. Neither is source-required physicaldata. Declared regular equivariant quadratic slaving of the actual resonant printed pair is excluded; secular forced dynamics survives. A full nonlinear CW-type constraint remains a candidate test, not a selected source law. Strict all-field commonstable Fouriercutoff failsactual nonlinearpacket closure; finiteinitialslicejets remainincomplete inthislineardomain.",
           "open": "Supplied analytic/nonlocal/boundary physical selection and full operator/domain. Actual SC-ACT06 source reduced field/gauge/order profile and background stabilizer are distinct; existing O4/Cartan route is retained.",
           "shared_missing_ref": "lab/process/action-constraint-matrix.json#source_relevance_assumption_view.shared_prerequisites",
-          "cheapest_next": "Counter111 requires the unchanged LC-BETS selection first. For the next ordinary B slot, rank Craig-Weinstein-type nonlocal admissibility as a leading GU* candidate test: reuse the full19-channel symbol, actualQ and resonant receiver; first determine which modes its precise constraint admits and whether the actual quadratic evolution preserves it. A scalar trace-channel cutoff is not a full-system constraint. If the tested pair is admitted, strict support and regular slaving are already excluded; test an independent resonant state or a genuinely singular/history-dependent rule only with its stated domain. Compare with source-required current/effective shielding, not another equivalent resonance census.",
+          "cheapest_next": "OrdinaryB: test the remaining nonlinear-domain repair at the weakest new link, not the already excluded strict cutoff or regular resonant slaving. A proposed enlarged domain must admit the actual off-support/resonant state, prove constraint preservation and controlled evolution, and name an observable consequence or reduced choice freedom before adoption. Compare cost with the actual physical-current/observation bridge. Keep source and GU* attribution separate; linear bulk wellposedness never implies finite-jet slice completeness. Counter113 ordinaryB; cadence unchanged.",
           "evidence_refs": [
             "explorations/conditional-build/source-action-finite-loss-completions-2026-11-27.md",
             "explorations/conditional-build/null-boost-symbol-trace-2026-11-27.md",
@@ -273,9 +288,13 @@
             "explorations/conditional-build/printed-equation-jets-and-symbol-2026-11-27.md",
             "explorations/conditional-build/printed-differential-solvability-2026-11-27.md",
             "explorations/conditional-build/printed-nonlinear-transfer-2026-11-27.md",
-            "explorations/conditional-build/printed-state-completion-2026-11-27.md"
+            "explorations/conditional-build/printed-state-completion-2026-11-27.md",
+            "explorations/conditional-build/cw-fullsystem-domain-2026-11-27.md"
           ],
-          "positive_fit": "Full exterior deRham remains exact in indefinite signature; source background-owned auxiliarypositive Cartan structure is retained at its smaller symmetry. Neither is the full GU complex. TypeI covariant observer law can staytight along a balancedDapproach; no positive universalD escape bound. ExactD endpointlaw still excluded in Weyl-onlycategory. Unrestricted printed translations match each finite residual jet at sufficiently large coupling; actual fixed-coupling curved PDE remains open. Selected printed nonnull symbol has a finite frozen descriptor inverse, not a physical evolution result. Actual analytic curved linear printed solutions exist at sufficiently large finite coupling under coherentLC/parallelPhi; the nonlinear endpoint is not solved."
+          "positive_fit": "Full exterior deRham remains exact in indefinite signature; source background-owned auxiliarypositive Cartan structure is retained at its smaller symmetry. Neither is the full GU complex. TypeI covariant observer law can staytight along a balancedDapproach; no positive universalD escape bound. ExactD endpointlaw still excluded in Weyl-onlycategory. Unrestricted printed translations match each finite residual jet at sufficiently large coupling; actual fixed-coupling curved PDE remains open. Selected printed nonnull symbol has a finite frozen descriptor inverse, not a physical evolution result. Actual analytic curved linear printed solutions exist at sufficiently large finite coupling under coherentLC/parallelPhi; the nonlinear endpoint is not solved.",
+          "survivors": [
+            "Full compatible frozen linear modal evolution; bounded nonresonant offsupport response; nonlinear enlargement remainsunproved."
+          ]
         },
         "candidate": {
           "attributed_status": "Actual candidate propagation results; physical admission open",
@@ -297,7 +316,17 @@
       ],
       "near_miss_options": [
         "n1"
-      ]
+      ],
+      "mission_outcome_assessment": {
+        "outcome": "INCOMPLETE",
+        "scope": "SOURCE and currently explored GU* routes; no complete pillar realization has passed all physical requirements. This is a scoped progress assessment, not a ledger verdict or proof that an extension exists.",
+        "named_missing_ingredients": "No unrestricted upstairs Cauchy-data requirement or complete physical propagation domain is supplied. Supplied analytic/nonlocal/boundary physical selection and full operator/domain. Actual SC-ACT06 source reduced field/gauge/order profile and background stabilizer are distinct; existing O4/Cartan route is retained.",
+        "evidence_refs": [
+          "lab/sources/source-claim-register.yaml#SC-META-52",
+          "explorations/conditional-build/source-premise-custody-2026-11-25.md"
+        ],
+        "specific_survivors": "Retain the existing positive fits and scoped survivors in the linked layer cells; no broad viability inference."
+      }
     },
     {
       "id": "positive_energy",
@@ -316,15 +345,19 @@
         },
         "class": {
           "attributed_status": "Scoped energy/domain implications; not a physical ghost theorem",
-          "closed": "Declared local gauge and first-graph/finite-order remedies do not remove the held obstruction. Separately, coclosure-only local observed readouts cannot carry nonzero compact excitation energy in the full cutoff-admissible class.",
+          "closed": "Declared local gauge and first-graph/finite-order remedies do not remove the held obstruction. Separately, coclosure-only local observed readouts cannot carry nonzero compact excitation energy in the full cutoff-admissible class. Strict all-field commonstable Fouriercutoff failsactual nonlinearpacket closure; finiteinitialslicejets remainincomplete inthislineardomain.",
           "open": "Admitted physical states and interaction-compatible quotient/domain.",
           "shared_missing_ref": "lab/process/action-constraint-matrix.json#source_relevance_assumption_view.shared_prerequisites",
-          "cheapest_next": "Require the actual state/current map before interpreting a signed witness as a physical ghost.",
+          "cheapest_next": "OrdinaryB: test the remaining nonlinear-domain repair at the weakest new link, not the already excluded strict cutoff or regular resonant slaving. A proposed enlarged domain must admit the actual off-support/resonant state, prove constraint preservation and controlled evolution, and name an observable consequence or reduced choice freedom before adoption. Compare cost with the actual physical-current/observation bridge. Keep source and GU* attribution separate; linear bulk wellposedness never implies finite-jet slice completeness. Counter113 ordinaryB; cadence unchanged.",
           "evidence_refs": [
             "explorations/conditional-build/source-action-finite-loss-completions-2026-11-27.md",
             "explorations/conditional-build/source-action-full-auxiliary-map-2026-11-26.md",
             "explorations/conditional-build/source-action-controls-sensitivity-2026-11-27.md",
-            "explorations/conditional-build/compact-excitation-charge-2026-11-27.md"
+            "explorations/conditional-build/compact-excitation-charge-2026-11-27.md",
+            "explorations/conditional-build/cw-fullsystem-domain-2026-11-27.md"
+          ],
+          "survivors": [
+            "Full compatible frozen linear modal evolution; bounded nonresonant offsupport response; nonlinear enlargement remainsunproved."
           ]
         },
         "candidate": {
@@ -346,7 +379,17 @@
       "near_miss_options": [
         "n1",
         "n3"
-      ]
+      ],
+      "mission_outcome_assessment": {
+        "outcome": "INCOMPLETE",
+        "scope": "SOURCE and currently explored GU* routes; no complete pillar realization has passed all physical requirements. This is a scoped progress assessment, not a ledger verdict or proof that an extension exists.",
+        "named_missing_ingredients": "Physical quotient, norm, interacting domain and barred-state identification. Admitted physical states and interaction-compatible quotient/domain.",
+        "evidence_refs": [
+          "lab/sources/source-claim-register.yaml#SC-META-53",
+          "explorations/conditional-build/source-premise-custody-2026-11-25.md"
+        ],
+        "specific_survivors": "Retain the existing positive fits and scoped survivors in the linked layer cells; no broad viability inference."
+      }
     },
     {
       "id": "chirality_generations",
@@ -410,7 +453,23 @@
       ],
       "near_miss_options": [
         "n4"
-      ]
+      ],
+      "mission_outcome_assessment": {
+        "outcome": "INCOMPLETE",
+        "scope": "SOURCE and currently explored GU* routes; no complete pillar realization has passed all physical requirements. This is a scoped progress assessment, not a ledger verdict or proof that an extension exists.",
+        "named_missing_ingredients": "Physical realization is not fixed merely by the reduction; a conventional VEV-only stabilizer is not the source prescription. Actual weak/current projector, compatible physical carrier and operator/domain; integer counts additionally need a graded Fredholm realization. Closed-base absolute topology is discharged; fixed-J, prescribed connection/end data and physical selection remain.",
+        "evidence_refs": [
+          "lab/sources/source-claim-register.yaml#SC-GEN-01",
+          "lab/sources/source-claim-register.yaml#SC-CHI-01",
+          "lab/sources/source-claim-register.yaml#SC-CHI-51",
+          "lab/sources/source-claim-register.yaml#SC-GRP-03",
+          "lab/sources/source-claim-register.yaml#SC-FER-07",
+          "explorations/conditional-build/source-weak-action-transport-2026-11-13.md",
+          "explorations/conditional-build/source-premise-custody-2026-11-25.md",
+          "lab/process/observation-physical-carrier-custody-2026-11-27.md"
+        ],
+        "specific_survivors": "Retain the existing positive fits and scoped survivors in the linked layer cells; no broad viability inference."
+      }
     },
     {
       "id": "dark_energy",
@@ -462,7 +521,19 @@
       ],
       "near_miss_options": [
         "n5"
-      ]
+      ],
+      "mission_outcome_assessment": {
+        "outcome": "INCOMPLETE",
+        "scope": "SOURCE and currently explored GU* routes; no complete pillar realization has passed all physical requirements. This is a scoped progress assessment, not a ledger verdict or proof that an extension exists.",
+        "named_missing_ingredients": "No coderivative-only dynamics, scalar quintessence identification or complete observed stress readout is specified. Actual source stress, extra equations, physical domain, noncompact/homogeneous background contributions and normal/nonlocal readouts remain unselected; nonzero local improvement stresses survive. Additional equations/domain, nonlocal readout and homogeneous backgrounds remain outside this LC theorem.",
+        "evidence_refs": [
+          "lab/sources/source-claim-register.yaml#SC-COS-50",
+          "lab/sources/source-claim-register.yaml#SC-COS-51",
+          "lab/sources/source-claim-register.yaml#SC-COS-52",
+          "explorations/conditional-build/bet-cosmology-conservation-descent-2026-11-27.md"
+        ],
+        "specific_survivors": "Retain the existing positive fits and scoped survivors in the linked layer cells; no broad viability inference."
+      }
     },
     {
       "id": "gauge_mass_gap",
@@ -524,7 +595,19 @@
       "near_miss_options": [
         "n3",
         "n5"
-      ]
+      ],
+      "mission_outcome_assessment": {
+        "outcome": "INCOMPLETE",
+        "scope": "SOURCE and currently explored GU* routes; no complete pillar realization has passed all physical requirements. This is a scoped progress assessment, not a ledger verdict or proof that an extension exists.",
+        "named_missing_ingredients": "Physical gauge selection and positive quantum theory; no conventional Higgs-only mechanism is assumed. Positive spectrum above zero, other supplied base/domain/action, selected charged sectors and quantum/native transfer. Closed-base absolute topology is discharged; fixed-J, prescribed connection/end data and physical selection remain. FullY productlift no longer adds an absolute determinant obstruction.",
+        "evidence_refs": [
+          "lab/sources/source-claim-register.yaml#SC-GRP-02",
+          "lab/sources/source-claim-register.yaml#SC-GRP-03",
+          "lab/sources/source-claim-register.yaml#SC-META-53",
+          "explorations/conditional-build/source-weak-action-transport-2026-11-13.md"
+        ],
+        "specific_survivors": "Retain the existing positive fits and scoped survivors in the linked layer cells; no broad viability inference."
+      }
     }
   ],
   "ranked_options_2026_11_27": {
@@ -547,11 +630,11 @@
           "GU*"
         ],
         "rank": 1,
-        "status": "leading candidate selection-law test, not an adopted physical law",
-        "cheapest_test_or_revival": "The required discovery-bet slot is complete; counter112 returns to ordinary B. Joe27p: test a full-channel CW-type constrained bulk evolution, including growing modes and nonlinear closure, separately from codimension10 slice determination. State outcomes before testing. Reuse full printed symbol/scalarizer and actualQ; the prior trace pair is not automatically admitted by an all-channel stable domain. Characterize the actual polynomial-time response degree and rates and compare its resonant sector with equal-frequency Pais-Uhlenbeck/PT, without a physical-lifetime estimate until clock, amplitudes and coupling normalization are supplied.",
-        "inference_limit": "Unrestricted-domain growth and finite-loss obstructions are conditional on data admission. A Craig-Weinstein-type restriction is a live candidate repair; its applicability to the full printed system and nonlinear invariance are unproved. Finite-jet slice nonuniqueness is not thereby removed.",
+        "status": "linear_fullsystem_survivor_strict_nonlinear_cutoff_excluded_slice_ambiguity_persists",
+        "cheapest_test_or_revival": "OrdinaryB: test the remaining nonlinear-domain repair at the weakest new link, not the already excluded strict cutoff or regular resonant slaving. A proposed enlarged domain must admit the actual off-support/resonant state, prove constraint preservation and controlled evolution, and name an observable consequence or reduced choice freedom before adoption. Compare cost with the actual physical-current/observation bridge. Keep source and GU* attribution separate; linear bulk wellposedness never implies finite-jet slice completeness. Counter113 ordinaryB; cadence unchanged.",
+        "inference_limit": "Fullselectedfrozenoperator only. Auxiliarymodalnorm notphysicalenergy; nonlinearclosure andfinitejetslice determination separately fail in the declared classes.",
         "source_necessity": "conditional; source statement and proposed realization kept separate",
-        "evidence_ref": "lab/process/printed-state-completion.json#near_miss_reframings",
+        "evidence_ref": "lab/process/cw-fullsystem-domain.json",
         "linked_options": [],
         "outcomes": [
           "Pair admitted and regular slaving demanded: reuse exclusion, change mechanism.",
@@ -1119,7 +1202,7 @@
         "new_choice_families_adopted": 0
       }
     ],
-    "top_next": "The required discovery-bet slot is complete; counter112 returns to ordinary B. Joe27p: test a full-channel CW-type constrained bulk evolution, including growing modes and nonlinear closure, separately from codimension10 slice determination. State outcomes before testing. Reuse full printed symbol/scalarizer and actualQ; the prior trace pair is not automatically admitted by an all-channel stable domain. Characterize the actual polynomial-time response degree and rates and compare its resonant sector with equal-frequency Pais-Uhlenbeck/PT, without a physical-lifetime estimate until clock, amplitudes and coupling normalization are supplied.",
+    "top_next": "OrdinaryB: test the remaining nonlinear-domain repair at the weakest new link, not the already excluded strict cutoff or regular resonant slaving. A proposed enlarged domain must admit the actual off-support/resonant state, prove constraint preservation and controlled evolution, and name an observable consequence or reduced choice freedom before adoption. Compare cost with the actual physical-current/observation bridge. Keep source and GU* attribution separate; linear bulk wellposedness never implies finite-jet slice completeness. Counter113 ordinaryB; cadence unchanged.",
     "track_policy": {
       "status": "applied",
       "authority": [
@@ -1145,5 +1228,33 @@
       "Other F/U connections and individual curved backgrounds, with their derivative/connection terms",
       "Nonlocal and approximate elimination, independent barred maps, physical state/current/domain selection"
     ]
+  },
+  "mission_context": {
+    "authority": "joe_direct_chat_2026_11_27_q",
+    "objective": "Adjudicate GU and find its best surviving form. Determine what GU as printed supports, contradicts or leaves open (SOURCE track), and construct and adversarially test the minimal repaired family member (GU* track). Falsification remains the primary method: every repair must survive the same calibrated tests as the source.",
+    "outcomes": {
+      "FALSIFIED": "No viable form in the declared family, with coverage and premises explicit; a bounded family exclusion is not all GU.",
+      "INCOMPLETE": "Named missing ingredients prevent a complete viability or prediction claim; this label does not prove that supplying them will work.",
+      "SURVIVES": "A specific form passes the named calibrated tests, with its remaining burdens; a component survivor is not a complete theory."
+    },
+    "guardrails": "Choice budget, fidelity gate, kill rules and existing review tiers stand. Repairs must earn predictions: a repair adding choices without new source-relevant falsifiable consequences counts against GU*.",
+    "evidence_ref": "lab/process/cw-fullsystem-domain.json#mission_amendment",
+    "verdict_effect": "No existing cell or ledger verdict changed; apply scoped outcome reporting without assuming existence or exhaustivefamily coverage."
+  },
+  "overall_mission_outcome": {
+    "outcome": "INCOMPLETE",
+    "basis": "Named source/operator/state/physical-quotient/observation inputs remain open; no exhaustive family exclusion and no full tested GU* theory.",
+    "source_GU_falsified": false,
+    "complete_GU_star_survivor_established": false,
+    "choice_budget": {
+      "families": 10,
+      "obligations": 4,
+      "net": 6,
+      "source_selected_predictions": 0,
+      "change": 0,
+      "repair_adopted": false
+    },
+    "authority": "joe_direct_chat_2026_11_27_q",
+    "evidence_ref": "lab/process/cw-fullsystem-domain.json"
   }
 }

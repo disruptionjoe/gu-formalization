@@ -2469,6 +2469,64 @@
         "receipt_ref": "lab/process/bet-2plus1-evolution-complement.json#verification",
         "scope": "97exactchecks,4Leanfinitecores; reviewed native geometric/prolongation proof."
       }
+    },
+    {
+      "id": "cw-fullsystem-domain-2026-11-27",
+      "kind": "result",
+      "owner_ref": "explorations/conditional-build/cw-fullsystem-domain-2026-11-27.md",
+      "tested_statement": "The full frozen printed system has complete compatible linear Cauchy evolution on r\u00b2>kappa\u00b2/4, with conserved auxiliary modal norm and compact-patch L2 equivalence. Actual admitted Schwartz packets defeat strict nonlinear cutoff closure; a boosted actual resonant pair has frequencies inside the stable region and defeats the already specified character/smooth-kernel regular slaving class. Same-domain Schwartz solutions retain finite-initial-section-jet nonautonomy. The resonant temporal threshold has Jordan length2 and an invariant forced quadratic coefficient; actual antilinear symmetry preserves the nonzero forcing.",
+      "signature": {
+        "object": "Selected printed fullsystemCW domain and actualnonlinear/observation tests",
+        "carrier": "Complex adjoint oneforms; real primaryminus trace witnesses",
+        "convention": "FrozenlowPhi K95, time\u03c4,commonstable spatialcutoff",
+        "class": "Compatiblelinear modes;regular nonlinear cutofffamilies;finiteinitialsectionjets",
+        "premises": [
+          "explorations/conditional-build/printed-differential-solvability-2026-11-27.md",
+          "explorations/conditional-build/printed-state-completion-2026-11-27.md"
+        ]
+      },
+      "attributed_status": "internal_T1_reviewed",
+      "status_ref": "lab/process/cw-fullsystem-domain.json#status",
+      "source_bridge_ref": "lab/process/cw-fullsystem-domain.json#source_bridge",
+      "certificate_refs": [
+        "lab/process/cw-fullsystem-domain-certificates.json",
+        "Lean/GUFormalization/CWFullSystem.lean"
+      ],
+      "control_refs": [
+        "tests/program-focus/cw_fullsystem_domain_probe.py"
+      ],
+      "survivors_ref": "lab/process/cw-fullsystem-domain.json#follow_through",
+      "reopen_condition_ref": "explorations/conditional-build/cw-fullsystem-domain-2026-11-27.md",
+      "superseded_by": null,
+      "cache": {
+        "artifacts": [
+          {
+            "path": "explorations/conditional-build/cw-fullsystem-domain-2026-11-27.md",
+            "sha256": "d8f19854135ed4100e91bc4e07d2cba245a6509c1dc38febff432a8ca7e9d683"
+          },
+          {
+            "path": "tests/program-focus/cw_fullsystem_domain_probe.py",
+            "sha256": "705acae3569fb46445ecb8c7562baddce793a3eb482e5477848c20ee9900cc1d"
+          },
+          {
+            "path": "lab/process/cw-fullsystem-domain-certificates.json",
+            "sha256": "8ede03f10d6bd28570a3028eb5c320d297de67a827d8b51c545ee5da76314be5"
+          },
+          {
+            "path": "Lean/GUFormalization/CWFullSystem.lean",
+            "sha256": "1f179d195a286898a764ba38a576cb22633de42e8f5d497b87be0f9aa85d3b62"
+          }
+        ],
+        "verifier": {
+          "command": "python3",
+          "args": [
+            "tests/program-focus/cw_fullsystem_domain_probe.py",
+            "--verify"
+          ]
+        },
+        "receipt_ref": "lab/process/cw-fullsystem-domain.json#verification",
+        "scope": "Sympy1.14;104exactchecks,4Leanfinitecores; written/reviewed descriptor/PDE/packet proofs."
+      }
     }
   ]
 }

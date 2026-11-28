@@ -17,6 +17,10 @@ External review is not a research pathway or waiting condition. The source-level
 
 Sections below are historical snapshots in file order.
 
+## 2026-11-27 — Full-system CW domain and its limits
+
+[Result](explorations/conditional-build/cw-fullsystem-domain-2026-11-27.md) · [Evidence](lab/process/cw-fullsystem-domain.json). The full selected frozen equation has complete compatible linear evolution with an auxiliary conserved norm. Actual admitted packet interactions violate strict nonlinear cutoff closure; a boosted resonant pair also has frequencies inside the stable region. Same-domain finite initial section jets remain insufficient. The old forced response has an invariant quadratic secular coefficient and a temporalJordan2 threshold; antilinearity preserves its forcing.104exactchecks,4Leanfinitecores,3independentreviews passed. Scientific verdicts and choice budget unchanged. Joe27q's mission amendment is recorded in program_focus and the linked evidence.
+
 ## 2026-11-27 — Normalized evolution complement
 
 [Result](explorations/conditional-build/bet-2plus1-evolution-complement-2026-11-27.md) · [Evidence](lab/process/bet-2plus1-evolution-complement.json). The normalized principal equations admit six equivalent observed channels and a complete110592-complex-dimensional graph family. Actual native lower terms fail its first time prolongation on the declared flat-section reference: two nonzero193minors contradict192row factorization.97 exact checks,4 Lean finite cores and3 independent reviews passed. Other connections, nonlocal/effective reduction and physical interpretation remain open. Lane-C retention only; verdicts and choice budget unchanged.

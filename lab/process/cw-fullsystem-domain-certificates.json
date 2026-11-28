@@ -1,0 +1,378 @@
+{
+  "schema": "gu-cw-fullsystem-v1",
+  "status": "PASS",
+  "probe_sha256": "705acae3569fb46445ecb8c7562baddce793a3eb482e5477848c20ee9900cc1d",
+  "dependencies": {
+    "lab/process/printed-state-completion-certificates.json": "ec0aafeace76b0d47f9ec9a7b142be29b6c7349e2c3397283029d14fe3e88977",
+    "tests/program-focus/printed_state_completion_probe.py": "2be9b235defb0b52f2940f479ffc328d69b8e0477a941b509d18af19d61f8a88",
+    "explorations/conditional-build/printed-equation-jets-and-symbol-2026-11-27.md": "d0fc17f026f254a93bf8a4a82891abba9b9fe0ec809f73fd7bd4ca06ae61b3c5",
+    "explorations/conditional-build/printed-differential-solvability-2026-11-27.md": "5190082b42b37cd970a8d2a5d820a02c7980d7cc16c446b414b1ca8fc7f5fdbb",
+    "lab/active-research/joe-directed/external-results/pt-mannheim-applicability-2026-11-26.md": "6a039b470cf4e33ea1960c3260e75a28cac8474cdb66533d4bd3109153236669"
+  },
+  "check_names": [
+    "native generic support fixture authenticated",
+    "beta nonzero 1",
+    "scalar shell simple 1",
+    "beta nonzero 12",
+    "scalar shell simple 12",
+    "beta nonzero 22",
+    "scalar shell simple 22",
+    "beta nonzero 30",
+    "scalar shell simple 30",
+    "beta nonzero 36",
+    "scalar shell simple 36",
+    "beta nonzero 40",
+    "scalar shell simple 40",
+    "beta nonzero 42",
+    "scalar shell simple 42",
+    "beta nonzero -1",
+    "scalar shell simple -1",
+    "beta nonzero -2",
+    "scalar shell simple -2",
+    "beta nonzero -3",
+    "scalar shell simple -3",
+    "beta nonzero -4",
+    "scalar shell simple -4",
+    "beta nonzero -5",
+    "scalar shell simple -5",
+    "beta nonzero -6",
+    "scalar shell simple -6",
+    "beta nonzero -7",
+    "scalar shell simple -7",
+    "beta nonzero -8",
+    "scalar shell simple -8",
+    "beta nonzero -9",
+    "scalar shell simple -9",
+    "beta nonzero -10",
+    "scalar shell simple -10",
+    "beta nonzero -11",
+    "scalar shell simple -11",
+    "beta nonzero -12",
+    "scalar shell simple -12",
+    "38 simple imaginary temporal roots in stable region",
+    "spatial C invertible on example stable patch",
+    "temporal residue idempotent 3*I",
+    "actual kernel residue 3*I",
+    "temporal residue idempotent -3*I",
+    "actual kernel residue -3*I",
+    "temporal residue direct compatible decomposition",
+    "compatible initial state sufficient",
+    "positive oscillator conserved norm",
+    "algebraic state excluded",
+    "threshold Jordan chain",
+    "forced threshold degree2",
+    "threshold positive conserved metric obstruction",
+    "forbidden exponential branch",
+    "fixed q curve -1",
+    "threshold q matches -1",
+    "threshold temporal double root -1",
+    "fixed q curve 1",
+    "threshold q matches 1",
+    "threshold temporal double root 1",
+    "old resonant slice other36 exponential roots",
+    "PU Jordan-type polynomial factor",
+    "owned degree2 leading receiver",
+    "owned negative forcing slope",
+    "leading coefficient exactly three resonant projection",
+    "linear receiver is not polynomial degree",
+    "theta:source-certificate-hash",
+    "theta:theta-amplitude-involution",
+    "theta:theta-is-antilinear",
+    "theta:receiver-opposite-frequency-transport",
+    "theta:receiver-is-not-naively-fixed",
+    "theta:compact-symbol-theta:mixed",
+    "theta:compact-symbol-theta:normal",
+    "theta:exact-linear-mode:plus",
+    "theta:mode-theta-covariance:plus",
+    "theta:mode-has-only-vector-bivector:plus",
+    "theta:exact-linear-mode:minus",
+    "theta:mode-theta-covariance:minus",
+    "theta:mode-has-only-vector-bivector:minus",
+    "theta:real-pair-support-exchange",
+    "theta:plus-maps-to-conjugate-minus",
+    "theta:minus-maps-to-conjugate-plus",
+    "theta:common-amplitude-real-pair-is-theta-fixed",
+    "theta:force-is-same-owned-mixed-coefficient",
+    "theta:force-has-horizontal-reflection-even-tensor-parity",
+    "theta:force-theta-is-opposite-frequency-amplitude",
+    "theta:nonzero-owned-plus-receiver",
+    "theta:nonzero-transported-minus-receiver",
+    "theta:real-force-pair-is-theta-fixed",
+    "theta:generic-pair-linear-mode:plus",
+    "theta:generic-pair-linear-mode:minus",
+    "theta:generic-pair-theta-exchange",
+    "theta:generic-force-theta-covariance",
+    "boost:boost preserves canonical tensor",
+    "boost:boost inverse on native force",
+    "boost:boost actual polarizations",
+    "boost:boost actual full linear modes",
+    "boost:new native quadratic force equals covariant old force",
+    "boost:boosted massive receiver nonzero",
+    "boost:normal output L0 commutes boost (1, 2)",
+    "boost:normal output L0 commutes boost (2, 1025)",
+    "boost:normal output L0 commutes boost (16, 31)",
+    "boost:boosted pair inside common domain",
+    "boost:boosted trace frequency",
+    "boost:boosted output same resonant normal sum"
+  ],
+  "check_count": 104,
+  "reused_native_support": {
+    "status": "PASS",
+    "kind": "owned-native-reuse-and-new-support-arithmetic",
+    "certificate_sha256": "ec0aafeace76b0d47f9ec9a7b142be29b6c7349e2c3397283029d14fe3e88977",
+    "producer_sha256": "2be9b235defb0b52f2940f479ffc328d69b8e0477a941b509d18af19d61f8a88",
+    "input_spatial_square": "84",
+    "common_domain_margin": "48",
+    "minimum_temporal_square_all19": "48",
+    "sum_spatial_square": "-64",
+    "native_cross_receiver": "-749632",
+    "full_massive_sum_nonresonant": true,
+    "owned_bounded_particular_retained": true,
+    "limits": [
+      "Does not rerun the owned native vertex or response producer.",
+      "The strict nonlinear full-field cutoff fails; enlarged off-support dynamics are separate.",
+      "Schwartz packet transfer is the accompanying written argument, not a finite-code theorem.",
+      "No source-selected state, norm, action, physical instability, or GU verdict follows."
+    ]
+  },
+  "theta_controls": {
+    "checks": [
+      "source-certificate-hash",
+      "theta-amplitude-involution",
+      "theta-is-antilinear",
+      "receiver-opposite-frequency-transport",
+      "receiver-is-not-naively-fixed",
+      "compact-symbol-theta:mixed",
+      "compact-symbol-theta:normal",
+      "exact-linear-mode:plus",
+      "mode-theta-covariance:plus",
+      "mode-has-only-vector-bivector:plus",
+      "exact-linear-mode:minus",
+      "mode-theta-covariance:minus",
+      "mode-has-only-vector-bivector:minus",
+      "real-pair-support-exchange",
+      "plus-maps-to-conjugate-minus",
+      "minus-maps-to-conjugate-plus",
+      "common-amplitude-real-pair-is-theta-fixed",
+      "force-is-same-owned-mixed-coefficient",
+      "force-has-horizontal-reflection-even-tensor-parity",
+      "force-theta-is-opposite-frequency-amplitude",
+      "nonzero-owned-plus-receiver",
+      "nonzero-transported-minus-receiver",
+      "real-force-pair-is-theta-fixed",
+      "generic-pair-linear-mode:plus",
+      "generic-pair-linear-mode:minus",
+      "generic-pair-theta-exchange",
+      "generic-force-theta-covariance"
+    ],
+    "check_count": 27,
+    "input_certificate": "lab/process/printed-state-completion-certificates.json",
+    "input_sha256": "ec0aafeace76b0d47f9ec9a7b142be29b6c7349e2c3397283029d14fe3e88977",
+    "scope": "Frozen primary-minus K95 printed P,Q; Theta amplitude and real-pair controls. Q covariance is the accompanying tensor proof, and the force is inherited exact data. No closed domain, positive metric, Hamiltonian or quantum conclusion."
+  },
+  "boosted_resonance": {
+    "check_names": [
+      "boost preserves canonical tensor",
+      "boost inverse on native force",
+      "boost actual polarizations",
+      "boost actual full linear modes",
+      "new native quadratic force equals covariant old force",
+      "boosted massive receiver nonzero",
+      "normal output L0 commutes boost (1, 2)",
+      "normal output L0 commutes boost (2, 1025)",
+      "normal output L0 commutes boost (16, 31)",
+      "boosted pair inside common domain",
+      "boosted trace frequency",
+      "boosted output same resonant normal sum"
+    ],
+    "check_count": 12,
+    "omega": "26/3",
+    "horizontal_p": "28/3",
+    "normal_n": 3,
+    "spatial_square": "703/9",
+    "common_domain_margin": "379/9",
+    "transported_receiver": "104448",
+    "force": [
+      [
+        1,
+        1,
+        "-1458880/3"
+      ],
+      [
+        1,
+        2,
+        "1584128/3"
+      ],
+      [
+        1,
+        1025,
+        "-4608*I"
+      ],
+      [
+        2,
+        1,
+        "-1584128/3"
+      ],
+      [
+        2,
+        2,
+        "1718080/3"
+      ],
+      [
+        2,
+        1026,
+        "-4608*I"
+      ],
+      [
+        4,
+        4,
+        "4032"
+      ],
+      [
+        4,
+        1028,
+        "-4608*I"
+      ],
+      [
+        8,
+        8,
+        "4032"
+      ],
+      [
+        8,
+        1032,
+        "-4608*I"
+      ],
+      [
+        16,
+        16,
+        "4032"
+      ],
+      [
+        16,
+        1040,
+        "-4608*I"
+      ],
+      [
+        32,
+        32,
+        "4032"
+      ],
+      [
+        32,
+        1056,
+        "-4608*I"
+      ],
+      [
+        64,
+        64,
+        "4032"
+      ],
+      [
+        64,
+        1088,
+        "-4608*I"
+      ],
+      [
+        128,
+        128,
+        "4032"
+      ],
+      [
+        128,
+        1152,
+        "-4608*I"
+      ],
+      [
+        256,
+        256,
+        "4032"
+      ],
+      [
+        256,
+        1280,
+        "-4608*I"
+      ],
+      [
+        512,
+        512,
+        "4032"
+      ],
+      [
+        512,
+        1536,
+        "-4608*I"
+      ],
+      [
+        1024,
+        1024,
+        "-13248"
+      ],
+      [
+        2048,
+        2048,
+        "4032"
+      ],
+      [
+        2048,
+        3072,
+        "4608*I"
+      ],
+      [
+        4096,
+        4096,
+        "4032"
+      ],
+      [
+        4096,
+        5120,
+        "4608*I"
+      ],
+      [
+        8192,
+        8192,
+        "4032"
+      ],
+      [
+        8192,
+        9216,
+        "4608*I"
+      ]
+    ],
+    "scope": "Actual newly checked boosted quadratic pair; general Lorentz covariance remains written tensor proof. Regular slaving exclusion retains its character/regularity premises, not all Sobolev maps."
+  },
+  "linear_domain": {
+    "factors": [
+      1,
+      12,
+      22,
+      30,
+      36,
+      40,
+      42,
+      -1,
+      -2,
+      -3,
+      -4,
+      -5,
+      -6,
+      -7,
+      -8,
+      -9,
+      -10,
+      -11,
+      -12
+    ],
+    "common_stable_region": "r^2 > kappa^2/4",
+    "temporal_roots": 38,
+    "norm": "auxiliary modal L2; ordinary compatible L2 equivalence only on compact separated patches"
+  },
+  "secular": {
+    "actual_negative_force_time_degree": 2,
+    "leading_receiver": "-78336",
+    "forced_functional_slope": "-104448",
+    "old_sum_other_real_roots": 36,
+    "homogeneous_threshold_chain_length": 2
+  },
+  "scope": "Small exact controls and pinned native reuse; full descriptor, wave-packet and slice arguments remain reviewed written mathematics. No physical norm, timescale or GU verdict."
+}

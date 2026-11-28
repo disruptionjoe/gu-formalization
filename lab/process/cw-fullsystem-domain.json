@@ -1,0 +1,347 @@
+{
+  "artifact": "CW_FULLSYSTEM_DOMAIN",
+  "date": "2026-11-27",
+  "basis_revision": "bad338f368cf780849c8fb2c24d85849a62f5579",
+  "status": "internal_T1_reviewed",
+  "target": "X-P1-P2",
+  "tier": "T1",
+  "lane": "LB-LADDER",
+  "actual_delta": "The full frozen printed system has complete compatible linear Cauchy evolution on r\u00b2>kappa\u00b2/4, with conserved auxiliary modal norm and compact-patch L2 equivalence. Actual admitted Schwartz packets defeat strict nonlinear cutoff closure; a boosted actual resonant pair has frequencies inside the stable region and defeats the already specified character/smooth-kernel regular slaving class. Same-domain Schwartz solutions retain finite-initial-section-jet nonautonomy. The resonant temporal threshold has Jordan length2 and an invariant forced quadratic coefficient; actual antilinear symmetry preserves the nonzero forcing.",
+  "source_bridge": {
+    "status": "conditional",
+    "reason": "Source ultrahyperbolic debt does not select this low-Phi frozen completion, Fourier domain, physical norm, nonlinear state rule or literal-observation physical quotient."
+  },
+  "source_necessary_exclusion": false,
+  "weakest_unproved_link": "No source-selected nonlinear state law/physical norm/observed quotient; frozen low-Phi completion not uniquely source-fixed.",
+  "class_C_representativeness": "Whole defined support/regularity class of selected full printed system; no proof allC/sourceGU must choose it.",
+  "track": [
+    "SOURCE conditional printed completion",
+    "GU* candidate domain comparison"
+  ],
+  "choice_budget": {
+    "families": 10,
+    "obligations": 4,
+    "net": 6,
+    "source_selected_predictions": 0,
+    "change": 0,
+    "repair_adopted": false
+  },
+  "selection": {
+    "mandatory_basis": "Counter112 ordinaryB following completed mandatory discoverybet; Joe27p nexttest and27q mission amendment.",
+    "class_scope": "Full frozen complex printed carrier; compatible38temporal mode kernels; strict nonlinear cutoff families and same-domain finite-jet observation.",
+    "source_relevance": "Selected printed equation P/Q with explicit source uncertainty; not W2 or the fermion complement.",
+    "shared_prerequisite": "Predictive state law, physical norm and observation bridge across dynamics/positivity/gravity.",
+    "reuse_delta": "Reused19shell/scalarizer and storedactualgeneric/resonantforce; newdescriptor/packet/moment proofs, boost admission and actualTheta comparison.",
+    "outcomes": [
+      "Complete linear compatible evolution earns scoped survivor.",
+      "Actual offsupport force excludes strict cutoff; actualboostedresonance excludes covered regular elimination with modeadmission.",
+      "Same-domain finitejet witness prevents bulk/slice conflation."
+    ],
+    "remaining_cost": "A defined nonlinear enlargement or independent source-current bridge; no further identical cutoffs.",
+    "strongest_eligible_alternative": "Actual physical-current/effective shielding; missing current/domain remains unprovided.",
+    "cost": "One wave;104exactcontrols0.39seconds;4Leanfinitecores;2independent specialists+hostile. Prior-aware research avoided fullmatrix/vertex reruns. Tokencost unmeasured."
+  },
+  "verification": {
+    "artifact_hashes": {
+      "explorations/conditional-build/cw-fullsystem-domain-2026-11-27.md": "d8f19854135ed4100e91bc4e07d2cba245a6509c1dc38febff432a8ca7e9d683",
+      "tests/program-focus/cw_fullsystem_domain_probe.py": "705acae3569fb46445ecb8c7562baddce793a3eb482e5477848c20ee9900cc1d",
+      "lab/process/cw-fullsystem-domain-certificates.json": "8ede03f10d6bd28570a3028eb5c320d297de67a827d8b51c545ee5da76314be5",
+      "Lean/GUFormalization/CWFullSystem.lean": "1f179d195a286898a764ba38a576cb22633de42e8f5d497b87be0f9aa85d3b62"
+    },
+    "reviews": [
+      {
+        "reviewer": "metric_family_second_review",
+        "role": "independent mathematical analysis specialist; not a contributor",
+        "status": "accepted",
+        "accepted": true,
+        "blockers": [],
+        "artifact_hashes": {
+          "explorations/conditional-build/cw-fullsystem-domain-2026-11-27.md": "d8f19854135ed4100e91bc4e07d2cba245a6509c1dc38febff432a8ca7e9d683",
+          "tests/program-focus/cw_fullsystem_domain_probe.py": "705acae3569fb46445ecb8c7562baddce793a3eb482e5477848c20ee9900cc1d",
+          "lab/process/cw-fullsystem-domain-certificates.json": "8ede03f10d6bd28570a3028eb5c320d297de67a827d8b51c545ee5da76314be5",
+          "Lean/GUFormalization/CWFullSystem.lean": "1f179d195a286898a764ba38a576cb22633de42e8f5d497b87be0f9aa85d3b62"
+        },
+        "review_method": "Read final report, full probe, certificate, Lean finite core and referenced full-symbol/scalarizer/state-completion arguments; independently rederived the analytical implications. No test, build or owner edit was performed.",
+        "findings": [
+          {
+            "topic": "Full 38-root descriptor completeness",
+            "verdict": "accepted",
+            "reason": "The owned two-sided scalarizer gives the 38-root scalar temporal annihilator. All roots are distinct and imaginary on the strict support. C is invertible there, so M=C^-1 A_t has distinct nonzero spectral values on dynamical subspaces; its generalized-zero sector is killed by the finite differential inverse of I+N d/dt. Alternatively the scalar ODE and substitution recover every actual system coefficient. The residue B A_t/(-2 lambda d_prime) projects onto the actual temporal kernel; distinct shell-covector projectors are correctly not summed as a common state resolution."
+          },
+          {
+            "topic": "Modal Hilbert norm and compact patches",
+            "verdict": "accepted",
+            "reason": "The finite direct sum of measurable kernel-valued L2 amplitudes is a complete Hilbert space. Unit-modulus phases give a strongly continuous unitary group in its auxiliary norm. Synthesis is bounded and injective by distinct-eigenvalue directness. On compact subsets separated from thresholds, smooth residues give a bounded inverse and coefficient-L2 equivalence. No global inverse bound or positive physical Hamiltonian is inferred."
+          },
+          {
+            "topic": "Actual nonlinear cutoff obstruction",
+            "verdict": "accepted",
+            "reason": "The authenticated trace pair has spatial square84>36 and an isolated mixed sum of square-64. Its exact nonzero receiver persists by continuity on small disjoint input neighborhoods. Nonnegative smooth Fourier bumps produce a genuine Schwartz off-support convolution; realification adds no cancelling pair at that separated output. For a C2 nonlinear family retaining strict full-field support and admitting these tangents, the second-order linear term has zero output support there while the quadratic term does not. This excludes only that declared regular cutoff family."
+          },
+          {
+            "topic": "Finite initial section jets",
+            "verdict": "accepted",
+            "reason": "The trace polarization is polynomial of total degree at most2 in omega,h,n. Derivatives through orderm reduce using omega^2=A_h to the stated finite moment span. A nondegenerate rank10 quadratic A_h is not a rational square; hence P+omega Q has no nontrivial polynomial relation. The weighted Gram matrix is positive definite and smoothly invertible on a small horizontal patch. A_h^r with2r>m+2 lies outside the span; its residual gives vanishing initial moments but nonzero later2r-th derivative in the normal-independent observed coefficient. Compact Fourier support gives actual Schwartz data. Bulk uniqueness and all-time observation are correctly kept separate."
+          },
+          {
+            "topic": "Temporal threshold and forced degree",
+            "verdict": "accepted",
+            "reason": "The fixed-q shell curve yields Cv1=-A_t v0, with A_t v0 nonzero by generic pencil invertibility. The scalar double root forbids homogeneous polynomial degree>=2, giving a genuine length2 chain. The inherited nonzero quadratic particular coefficient is invariant modulo homogeneous degree<=1 solutions; other simple exponential sectors cannot cancel its polynomial component. The finite-dimensional positive-norm obstruction and perturbative scaling estimate have the stated limits."
+          },
+          {
+            "topic": "Boosted same-domain resonance",
+            "verdict": "accepted",
+            "reason": "The rational horizontal Lorentz boost sends(2,4,3) to(26/3,28/3,3), giving spatial square703/9>36 while leaving the normal sum6eta and output symbol fixed. Simultaneous form/Clifford action preserves the printed tensor operations. The final probe explicitly checks actual new polarizations and quadratic force against the boosted authenticated force; the inverse-transported left-null receiver remains104448. Reuse of the old regular slaving obstruction is valid only with its character-admission or pointwise smooth frequency-kernel hypotheses, as stated."
+          },
+          {
+            "topic": "Antilinearity and PU comparison",
+            "verdict": "accepted",
+            "reason": "The simultaneous form/Clifford parity operation transports actual P and Q and the receiver to the conjugate frequency; it does not erase the real witnesses. The threshold Jordan algebra is a comparison with equal-frequency PU, not an identification of Hamiltonians or quantizations. The three zero/Jordan objects and simple stable temporal roots remain distinct."
+          }
+        ],
+        "qualifications": [
+          "Acceptance is for the frozen selected low-Phi printed K95 complex full-adjoint P,Q and the declared domain; it does not adjudicate the source or a complete GU member.",
+          "The modal norm is auxiliary and generally nonlocal. Full real-carrier closure, curved transfer, global high-frequency equivalence and physical positivity remain unproved.",
+          "The nonlinear exclusion requires a C2 family admitting the exhibited tangents and strict full-field support. It is not a no-go for all nonlinear domains or all CW-inspired mechanisms.",
+          "The boosted resonance does not by itself exclude every Sobolev slaving map; character admission or the stated smooth pointwise quadratic frequency kernel is essential.",
+          "The secular estimate is normalized perturbative breakdown, not physical lifetime or forced exponential instability.",
+          "The certificate contains104 finite/reuse controls. Descriptor completeness, Schwartz transfer and Gram projection are reviewed written mathematics; the Lean file formalizes only limited algebra/arithmetic implications.",
+          "No governance, source verdict, new choice family or physical prediction is accepted by this review."
+        ],
+        "editorial_revalidation": {
+          "status": "accepted",
+          "method": "Reverse-applied the two announced prose/docstring replacements and certificate probe hash; reconstructed all three previously reviewed byte hashes exactly. Lean unchanged. No formula or executable code changed.",
+          "report_change": "Other nonlinear domains accurately described as untested possibilities; only bounded second-order response called a survivor.",
+          "probe_change": "Docstring now accurately discloses pinned engine reuse for the sparse boosted-force check.",
+          "certificate": "104 checks still reported PASS; only probe hash changed. Reviewer did not execute tests."
+        },
+        "plane_character_precision_revalidation": {
+          "status": "accepted",
+          "method": "Reverse-applied only the announced paragraph clarification and exactly reconstructed prior report hash; other three reviewed artifacts unchanged.",
+          "finding": "Resonant frequency membership in the stable region is distinguished from L2 modal-state membership. Plane characters are not H_modal(R13) elements. Regular slaving exclusion remains restricted to character-admitting or pointwise smooth-kernel categories. Genuine Schwartz strict-cutoff obstruction is unchanged."
+        },
+        "schema_only_revalidation": {
+          "status": "accepted",
+          "method": "Reversing the three typed-block vocabulary changes exactly reconstructs the prior report hash. All mathematical prose, probe, certificate and Lean artifact remain unchanged."
+        }
+      },
+      {
+        "role": "independent second specialist: algebra, source custody and scope",
+        "accepted": true,
+        "blockers": [],
+        "artifact_hashes": {
+          "explorations/conditional-build/cw-fullsystem-domain-2026-11-27.md": "d8f19854135ed4100e91bc4e07d2cba245a6509c1dc38febff432a8ca7e9d683",
+          "tests/program-focus/cw_fullsystem_domain_probe.py": "705acae3569fb46445ecb8c7562baddce793a3eb482e5477848c20ee9900cc1d",
+          "lab/process/cw-fullsystem-domain-certificates.json": "8ede03f10d6bd28570a3028eb5c320d297de67a827d8b51c545ee5da76314be5",
+          "Lean/GUFormalization/CWFullSystem.lean": "1f179d195a286898a764ba38a576cb22633de42e8f5d497b87be0f9aa85d3b62"
+        },
+        "own_checks": [
+          "Read all four frozen report/probe/certificate/Lean artifacts; independently verified their exact SHA-256 values.",
+          "Verified current certificate producer self-hash, all five direct dependency hashes and all seven dependency hashes in the inherited printed-state-completion certificate, without executing either producer.",
+          "Derived beta_a=-m_z(-kappa,q_a)=2*kappa^3*product_other(kappa^2-4*b*q_a); verified the temporal residue derivative is -2*lambda*d_prime(q_a).",
+          "Reviewed descriptor completeness: C is invertible on r^2>kappa^2/4; generalized-zero C^-1 A states are excluded by a finite differential inverse; simple scalar temporal roots exclude nonzero temporal Jordan chains in the interior.",
+          "Checked compatible-state synthesis, mutually annihilating temporal residue projections, auxiliary modal unitarity, and ordinary coefficient-L2 equivalence only on compact separated frequency patches.",
+          "Checked actual admitted nonresonant trace pair: kappa12, frequencies (+9,+10,+4),(-9,-10,+4), spatial square84>36, minimum squared temporal frequency48, trace frequency square81, output spatial square-64, and native pinned force receiver-749632.",
+          "Checked the four realification frequency patches have only the intended two ordered contributions at the excluded output; reviewed continuity/nonnegative-bump transfer to Schwartz compatible initial fields and the C2 strict-support contradiction.",
+          "Reviewed the finite-initial-section-jet construction: polynomial degree m+2, independence of polynomial and omega-polynomial normal moments, positive projection residual against A_h^r, and nonzero later literal observed coefficient.",
+          "Derived the fixed-q threshold curve and Cv1=-A_t v0; checked why A_t v0 cannot vanish and why the scalar double root permits exactly length-two temporal chains but no degree>=2 homogeneous polynomial.",
+          "Checked actual negative forcing reverses the owned leading coefficient to -3 F_minus and receiver-78336; any polynomial particular has this same quadratic coefficient, while its lower polynomial terms are not unique.",
+          "Checked the forced functional slope-104448 and its annihilation of A_t W2, so linear receiver drift is consistent with a quadratic field response.",
+          "Reviewed Theta as simultaneous proper-orthogonal form/Clifford transport plus conjugation, its Fourier map -R xi, the cancellation of the two i factors in selected Phi, and the opposite-frequency left receiver. The generic-complex-amplitude control detects the incorrect fixed-row alternative.",
+          "Reviewed equal-frequency PU comparison as Jordan algebra only; neither Hamiltonian equivalence nor a positive physical quantization is inferred.",
+          "Read the four Lean finite cores and confirmed their conclusions match the report scope; no claim that they formalize the full native/PDE arguments is made.",
+          "Final delta: checked the simultaneous covector boost (+sinh) and Clifford-vector boost (-sinh) preserve the canonical tensor and raised Clifford contraction; the normalization cosh5/3,sinh4/3 has cosh^2-sinh^2=1.",
+          "Final delta: independently checked boosted resonant input frequencies26/3,28/3,3 give spatial703/9, stable-domain margin379/9 and trace time square676/9; the sum6eta is unchanged.",
+          "Final delta: reviewed native recomputation of boosted polarized force and its comparison with the boosted old force; the inverse-boosted left-null functional has value104448. Code now accurately declares the bounded new native-engine call.",
+          "Final delta: checked the boosted resonance conclusion retains the existing character/regularity hypotheses and does not claim every Sobolev graph is excluded; final report treats remaining nonlinear domains as untested possibilities.",
+          "Final report-only wording delta reviewed: boosted resonant frequencies lie in the stable region, while plane characters are explicitly excluded from H_modal(R13); regular slaving remains restricted to character-admitting or smooth-kernel categories. The separate genuine Schwartz cutoff proof is unchanged.",
+          "Final schema-only report rebind: CHIRALITY=N/A on the adjoint carrier, canonical source-print action_owner prefix, and MAP-TYPE=restriction verified. Other three artifact hashes remain unchanged; no new mathematical claim reviewed or inferred."
+        ],
+        "qualifications": [
+          "The full modal theorem concerns the selected frozen complex printed P,Q carrier and actual compatible initial states; it is not a theorem for arbitrary full-carrier initial data, a curved operator, W2, K77, or a source-selected physical real Hilbert space.",
+          "The negative result excludes the strict all-field Fourier cutoff for regular nonlinear families admitting the exhibited packets. The sum is nonresonant and has a bounded stationary second-order response, so enlarged off-support state rules remain open.",
+          "The unique object in the secular statement is the nonzero quadratic coefficient; the particular solution itself is not unique. Additional homogeneous exponential sectors can change an actual perturbation trajectory or cause an earlier breakdown.",
+          "The epsilon^(-1/2) comparison is a normalized-time secular coefficient scale in one stated norm, not a physical lifetime or a theorem of full nonlinear instability.",
+          "Finite initial section-jet ambiguity is separate from complete bulk Cauchy uniqueness and from all-time observation or an unselected physical quotient.",
+          "Theta covariance and the positive auxiliary modal norm do not select a positive physical metric, weak current, quantum domain, or GU completion.",
+          "Source alternatives and choice budget remain explicit: 10 families,4 grouped obligations,net6,0 source-selected predictions. Joe27q outcome labels are restricted to the stated candidate classes.",
+          "This reviewer did not author the current four artifacts. Earlier shared research context was available; this receipt independently audits the current frozen derivations and custody.",
+          "The boost fixes the normal sum symbol but not the physical time covector. It transports forcing and the massive spectral projection; one must not identify the entire old time-polynomial particular with its amplitude-only boost. The report makes no such identification.",
+          "The original nonresonant bounded second-order response survives as a specific coefficient construction. The boosted resonant pair blocks a general regular frequency-locked slaving rule under its stated hypotheses, not all independent off-support dynamics.",
+          "The boosted resonant plane characters are not L2 modal states on R13. Their algebraic resonance obstruction applies only under the stated character-admitting or regular multiplier-kernel hypotheses, not automatically to all Sobolev nonlocal graphs."
+        ],
+        "not_run": [
+          "No native probe, --verify command, test suite, Lean build, eigenvalue computation, dense matrix computation, or previous producer replay.",
+          "No new nonlinear PDE construction, physical norm/domain selection, source adjudication, or repository edit."
+        ],
+        "review_method": "Read-only algebraic review and standard-library JSON/SHA-256 custody readback; finite results are authenticated and their implications checked, not regenerated.",
+        "final_certificate_readback": {
+          "status": "PASS",
+          "check_count": 104,
+          "boost_check_count": 12,
+          "boosted_spatial_square": "703/9",
+          "boosted_domain_margin": "379/9",
+          "transported_receiver": "104448",
+          "probe_selfhash_and_dependencies_match": true
+        }
+      },
+      {
+        "accepted": true,
+        "blockers": [],
+        "reviewer_role": "Independent hostile mathematical/source-scope reviewer; not an author or developer of this CW theorem",
+        "basis": "bad338f368cf780849c8fb2c24d85849a62f5579",
+        "artifact_hashes": {
+          "explorations/conditional-build/cw-fullsystem-domain-2026-11-27.md": "d8f19854135ed4100e91bc4e07d2cba245a6509c1dc38febff432a8ca7e9d683",
+          "tests/program-focus/cw_fullsystem_domain_probe.py": "705acae3569fb46445ecb8c7562baddce793a3eb482e5477848c20ee9900cc1d",
+          "lab/process/cw-fullsystem-domain-certificates.json": "8ede03f10d6bd28570a3028eb5c320d297de67a827d8b51c545ee5da76314be5",
+          "Lean/GUFormalization/CWFullSystem.lean": "1f179d195a286898a764ba38a576cb22633de42e8f5d497b87be0f9aa85d3b62"
+        },
+        "review_contribution": "Reviewed frozen draft and requested three scope/custody clarifications: new native boost import accurately described; untested nonlinear domains not called viable; resonant plane frequencies distinguished from H_modal L2 states. Did not author proof, code or Lean.",
+        "own_checks": [
+          "Read the full report, four Lean finite cores, current 104-control probe, certificate schema, inherited full-symbol/scalarizer arguments and actual printed-state-completion scope. Authenticated all four frozen artifacts and direct/transitive certificate dependencies without executing producers.",
+          "Checked the full nineteen-shell polynomial and stable region: r\u00b2>kappa\u00b2/4 gives 38 distinct nonzero imaginary temporal roots and invertible C(\u03be). Verified shell projection normalization beta=-m_z(-kappa,q_a), including annihilation of the size-two zero-symbol sector.",
+          "Challenged the descriptor proof: C^-1 A_t, rather than A_t^-1, is used; generalized-zero M data cannot solve the homogeneous equation; simple scalar temporal roots exclude finite-root Jordan chains. Temporal residues of L^-1 A_t project onto the actual direct sum of compatible kernels. They are not a sum of unrelated shell projectors.",
+          "Checked the modal Hilbert group by unit-modulus phases and finite-sum synthesis. Ordinary coefficient-L2 inverse/norm equivalence is asserted only on compact frequency patches away from thresholds, where the actual residues are bounded; physical positivity is not inferred.",
+          "Checked the nonlinear support contradiction uses the admitted n=4 trace pair: r\u00b284>36 and output r\u00b2=-64. Unique pair sums and a strictly nonzero continuous native receiver support a Schwartz Fourier-bump counterexample at t=0; a C\u00b2 strict-support family has no off-support linear order-two term to cancel it. The nonresonant bounded particular is retained.",
+          "Checked the added horizontal boost: cosh5/3 and sinh4/3 send (2,4,3) to (26/3,28/3,3), preserve shell norm3 and output6eta, and give input spatial square703/9. Simultaneous covariant form and inverse Clifford action preserve canonical Phi. Inverse transport of the full left-null row preserves receiver104448. The final wording restricts this slaving inference to character-admitting or pointwise smooth-kernel categories.",
+          "Checked finite initial-section-jet ambiguity inside the same linear modal domain. Polarization has degree<=2; finite initial moments lie in span(P(n)+omega Q(n)). The nondegenerate ten-variable quadratic omega\u00b2 is not a rational square, proving independence and invertibility of the weighted Gram matrix. A sufficiently high power lies outside that span. Smooth parameterized orthogonal subtraction yields compact Fourier amplitudes, actual Schwartz compatible states and a nonzero later literal observed coefficient. Realification uses separated horizontal patches.",
+          "Checked temporal threshold chain derivation from a constant-q shell-projector curve, including At v0 nonzero by generic pencil invertibility. The double scalar temporal root permits a length-two chain but forbids higher homogeneous polynomial degree; it is distinct from the covector-symbol zero Jordan blocks and the semisimple massive P eigenvalue.",
+          "Checked the inherited particular forcing sign and invariant quadratic coefficient -3 F_minus, receiver-78336, and the independent drifting functional slope-104448. Homogeneous polynomial corrections have degree<=1; exponential solutions cannot cancel the unique polynomial coefficient. The stated t~epsilon^(-1/2) scale is a coefficient-expansion estimate, not a physical lifetime.",
+          "Checked the antilinear reflection on simultaneous exterior and Clifford indices, its involution on adjoint fields, Fourier transport -R\u03be and opposite-frequency left-row transport. Two i-Jordan factors cancel under conjugation. P/Q tensor covariance and the exact real-pair controls do not supply a positive physical C/V operator or quantum completion.",
+          "Confirmed selected printed P/Q and frozen zero-source K95 custody; no W2 Euler operator, native curved stability, physical quotient, full real-carrier theorem or source-unique choice is substituted.",
+          "Read four Lean core statements and proof bodies. They formalize finite receiver/sign and unbounded-linear-orbit implications only; the descriptor, packet, Gram and PDE arguments remain written mathematics.",
+          "Final schema-only rebind: reversed exactly CHIRALITY=N/A to ADJOINT-FULL, canonical source-print owner prefix, and MAP-TYPE=restriction to domain-restriction in memory and reproduced the previously accepted report SHA-256 73d8f54c5b71c8047ce291e053155f56451f568b5f2b15ec6ec8c4bc09329858. All three other artifact hashes unchanged; no scientific text changed."
+        ],
+        "authenticated_dependencies": [
+          "explorations/conditional-build/printed-differential-solvability-2026-11-27.md",
+          "explorations/conditional-build/printed-equation-jets-and-symbol-2026-11-27.md",
+          "explorations/conditional-build/printed-nonlinear-transfer-2026-11-27.md",
+          "lab/active-research/joe-directed/external-results/pt-mannheim-applicability-2026-11-26.md",
+          "lab/process/printed-nonlinear-transfer-certificates.json",
+          "lab/process/printed-state-completion-certificates.json",
+          "tests/program-focus/printed_differential_solvability_probe.py",
+          "tests/program-focus/printed_equation_jets_symbol_probe.py",
+          "tests/program-focus/printed_state_completion_probe.py",
+          "tests/program-focus/source_action_deep_algebra.py"
+        ],
+        "qualifications": [
+          "Accepted scopes are: complete complex frozen compatible linear modal evolution; strict all-field nonlinear cutoff exclusion for regular families admitting the actual packets; same-domain finite initial section-jet insufficiency; and the declared resonance/Jordan/PT comparisons.",
+          "The resonant character frequencies are in the common stable region, but plane characters are not L2(R13) H_modal states. Their regular-slaving obstruction requires the explicitly stated character or pointwise smooth Fourier-kernel hypothesis. It is not an exclusion of all Sobolev nonlocal maps.",
+          "The Schwartz cutoff counterexample is genuinely in H_modal and is separate from the character resonance argument. It does not establish nonlinear ill-posedness after off-support states are admitted.",
+          "The auxiliary modal norm is not source action energy, a physical positive Hamiltonian, or a quantum metric. Its global equivalence to ordinary Sobolev norms is not established; full real-carrier closure is not supplied by the complex theorem.",
+          "Finite initial section jets are incomplete; this does not assert indistinguishable all-time section histories or incomplete bulk Cauchy data.",
+          "The threshold and secular results are frozen coefficient statements. No curved nonlinear transfer, finite-amplitude runaway, physical lifetime or PT quantum equivalence follows.",
+          "Joe27q labels remain scope-bound: the specified linear test survives, the specified strict nonlinear cutoff family is falsified, and the complete GU or minimally repaired GU* route remains incomplete rather than established viable.",
+          "No tests, native jobs, builds or Lean compilation were run by this reviewer. Certificate PASS104 is authenticated parent execution evidence, not a fresh replay by this reviewer. External references were not independently reverified in this review.",
+          "Internal agent review is not external expert verification or a full proof-assistant formalization."
+        ],
+        "not_run": [
+          "Probe execution or native replay",
+          "Lean compilation",
+          "Full symbol census",
+          "External literature verification",
+          "Owner edits"
+        ]
+      }
+    ],
+    "exact_controls": 104,
+    "command": "UV_CACHE_DIR=/private/tmp/gu-current-uv-cache uv run --offline --with sympy==1.14.0 python tests/program-focus/cw_fullsystem_domain_probe.py --verify",
+    "lean": {
+      "status": "PASS",
+      "exit_code": 0,
+      "command": "lake env lean -j1 /private/tmp/gu-cw-fullsystem-20261127/Lean/GUFormalization/CWFullSystem.lean",
+      "cwd": "/Users/joe/Brain/CapacityOS/repos/public/gu-formalization",
+      "stdout": "",
+      "stderr": "",
+      "artifact_sha256": "1f179d195a286898a764ba38a576cb22633de42e8f5d497b87be0f9aa85d3b62",
+      "scope": "Four finite scalar obstruction/growth/arithmetic cores; not full descriptor, packet, PDE or physical proof."
+    },
+    "proof_scope": "Finite exact arithmetic, native sparse boost/control and certified artifact reuse; descriptor, Schwartz packet/Gram moment and general covariance proofs written/reviewed, not fully Lean formalized.",
+    "gates": {
+      "program_focus_audit": "PASS",
+      "typed_carrier_declaration_audit": "PASS",
+      "kill_target_claim_audit": "PASS",
+      "frontmatter_status_schema_audit": "PASS",
+      "source_native_comparator_routing_audit": "PASS",
+      "lean_certificate_surface_audit": "PASS",
+      "current_state_absolute_currency_audit": "PASS",
+      "conditional_evidence_delta_gate": "PASS",
+      "research_context_reader_audit": "PASS"
+    }
+  },
+  "three_state": {
+    "ESTABLISHED": "The full frozen printed system has complete compatible linear Cauchy evolution on r\u00b2>kappa\u00b2/4, with conserved auxiliary modal norm and compact-patch L2 equivalence. Actual admitted Schwartz packets defeat strict nonlinear cutoff closure; a boosted actual resonant pair has frequencies inside the stable region and defeats the already specified character/smooth-kernel regular slaving class. Same-domain Schwartz solutions retain finite-initial-section-jet nonautonomy. The resonant temporal threshold has Jordan length2 and an invariant forced quadratic coefficient; actual antilinear symmetry preserves the nonzero forcing.",
+    "RULED_OUT": "Strict fullfield nonlinear support class; stated regular resonant elimination class; finite initial literal slice completeness in the defined linear domain.",
+    "NOT_MODELED_UNDETERMINED": "A complete nonlinear source/GU* state law, physical norm, actual curved evolution, physical lifetime and quantum/PT completion."
+  },
+  "scoped_outcomes": {
+    "linear_bulk": "SURVIVES specified frozen compatible-domain tests",
+    "strict_nonlinear_cutoff_family": "FALSIFIED under the declared packet/regularity premises",
+    "GU_star_selection_route": "INCOMPLETE: enlarged nonlinear state/domain, physical norm and observed-data rule required; no existence claim for a complete viable theory",
+    "source_GU": "INCOMPLETE assessment; not falsified; no uniquely source-selected completion or prediction supplied here"
+  },
+  "literature": [
+    {
+      "url": "https://arxiv.org/abs/0812.0210",
+      "relevance": "Scalar constrained codimension-one theorem; separate higher-codimension finitejet issue."
+    },
+    {
+      "url": "https://arxiv.org/abs/0804.4190",
+      "relevance": "Equal-frequencyPU Jordan/singular realization; comparison not identification."
+    },
+    {
+      "url": "https://arxiv.org/abs/0706.0207",
+      "relevance": "Unequal-frequency positivePT construction; no automatic physicalnorm transfer."
+    },
+    {
+      "url": "https://arxiv.org/abs/1512.04915",
+      "relevance": "Antilinearity permits more than real diagonal spectrum; no positivity inference."
+    }
+  ],
+  "novelty_claim": "none",
+  "retrospective": {
+    "finding": "The oldresonantpair lies outside the common domain, but a horizontal boost moves it inside without changing the resonant sum. Admission must be checked, not presumed.",
+    "shortcut": "ReusedcertifiedgenericQ and scalarizer; actualboostcomputed sparsely. Gram moments supply a same-domain Schwartz slice counterexample.",
+    "forecast_vs_actual": "Positive linear repair survives, nonlinear strict cutoff fails, slice ambiguity persists, quadratic response and symmetry typed.",
+    "failure_memory": "Shell projectors at different covectors are not common temporal projections; use residues or jets. Positive modalnorm is not physicalpositiveenergy.",
+    "execution_correction": "Lean file initially created on mounted anchor by wrong cwd, immediately moved to admitted tree before successful targeted compile. No other anchor changes; future writes use absolute execution-tree paths."
+  },
+  "follow_through": {
+    "consumed": [
+      "Full frozen linear all19-channel mode removal/completeness test",
+      "Strict fullfield common stable cutoff nonlinear closure",
+      "Attempt to remove the actual resonant pair merely by this common cutoff or by Theta invariance",
+      "Finite initial literal section jets as complete data in the same linear domain",
+      "Unspecified identification of polynomial forced response with a PU physical Hamiltonian"
+    ],
+    "survivors": [
+      "Compatible positive-norm linear modal domain, with physical-energy and curved-transfer burdens",
+      "Bounded nonresonant offsupport response",
+      "Independent resonant state and changed/singular/history-dependent nonlinear domains",
+      "All-time observations, extra bulk data and actual physical quotient/readout are distinct"
+    ],
+    "next": "OrdinaryB: test the remaining nonlinear-domain repair at the weakest new link, not the already excluded strict cutoff or regular resonant slaving. A proposed enlarged domain must admit the actual off-support/resonant state, prove constraint preservation and controlled evolution, and name an observable consequence or reduced choice freedom before adoption. Compare cost with the actual physical-current/observation bridge. Keep source and GU* attribution separate; linear bulk wellposedness never implies finite-jet slice completeness. Counter113 ordinaryB; cadence unchanged."
+  },
+  "mission_amendment": {
+    "authority": "joe_direct_chat_2026_11_27_q",
+    "objective": "Adjudicate GU and find its best surviving form. Determine what GU as printed supports, contradicts or leaves open (SOURCE track), and construct and adversarially test the minimal repaired family member (GU* track). Falsification remains the primary method: every repair must survive the same calibrated tests as the source.",
+    "outcomes": {
+      "FALSIFIED": "No viable form in the declared family, with coverage and premises explicit; a bounded family exclusion is not all GU.",
+      "INCOMPLETE": "Named missing ingredients prevent a complete viability or prediction claim; this label does not prove that supplying them will work.",
+      "SURVIVES": "A specific form passes the named calibrated tests, with its remaining burdens; a component survivor is not a complete theory."
+    },
+    "guardrails": "Choice budget, fidelity gate, kill rules and existing review tiers stand. Repairs must earn predictions: a repair adding choices without new source-relevant falsifiable consequences counts against GU*.",
+    "scope": "Replaces only the mission objective of standing27h; success order, methods, cadence, authority boundaries and all other rules unchanged.",
+    "tool_goal": "Standing goal remains active. Its current API permits status changes only; do not falsely complete or recreate it to change text. This authenticated amendment governs subsequent work."
+  },
+  "accounting": {
+    "counter_before": 112,
+    "counter_after": 113,
+    "LB_LADDER_before": 24,
+    "LB_LADDER_after": 25,
+    "bet_credit": 0,
+    "cell_status_changes": 0,
+    "ledger_verdict_changes": 0
+  },
+  "effect_line": "Change: adopted Joe27q mission exactly at its objective/reporting boundary and tested a fullsystemCW repair; why: preserve positive linear result while exposing actual nonlinear and slice burdens. Authority:27h/p/q; applied. Choice budget and scientific verdicts unchanged; later automated effect not yet observed."
+}
