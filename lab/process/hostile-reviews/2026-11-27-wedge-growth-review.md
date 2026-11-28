@@ -1,0 +1,171 @@
+# Wedge growth internal T2 review
+
+Two independent mathematical and physics reviewers accepted the frozen artifacts. Contributor scouts do not count as acceptance reviewers. Root37exactcontrols pass; the prior full metric-row theorem is reused. No new Lean, full14D, nativeK77, physicalNewton or dark-energy/DESI result is claimed. No reference prescription is adopted.
+
+## Frozen artifacts
+
+- explorations/conditional-build/bet-cosmology-wedge-growth-2026-11-27.md: `8e008c19655afb8b43267bcf214d628efd20c0430ff0b3787e5c8e89fda516f6`
+- tests/program-focus/bet_cosmology_wedge_growth_probe.py: `a260e80e886310fad539417ed2fc493f3fc580e0be9982afb0b770b69a05c470`
+- lab/process/bet-cosmology-wedge-growth-certificates.json: `9766c614e66f9e470a0ded0217713aba3051f60e3f9254ca25c961c8e3baf2f2`
+
+## Independent additional T2 mathematical/hostile review, not a contributor. Loaded owner AGENTS, current program_focus, GEOMETER startup index and source-native routing. Inspected the complete report, probe and persisted certificate, and reused the previously independently reviewed T1 wedge reduction theorem. Reviewed quantified growth/moment bounds, full-mode response formulas, signed and holomorphic countercontrols and trace/shape convergence premises. No reviewer tests/builds or owner edits. This receipt does not independently authenticate external observational datasets or quantum-prescription literature, nor infer physical transfer.
+
+{
+  "accepted": true,
+  "blockers": [],
+  "reviewer": "metric_family_second_review",
+  "artifact_hashes": {
+    "explorations/conditional-build/bet-cosmology-wedge-growth-2026-11-27.md": "8e008c19655afb8b43267bcf214d628efd20c0430ff0b3787e5c8e89fda516f6",
+    "tests/program-focus/bet_cosmology_wedge_growth_probe.py": "a260e80e886310fad539417ed2fc493f3fc580e0be9982afb0b770b69a05c470",
+    "lab/process/bet-cosmology-wedge-growth-certificates.json": "9766c614e66f9e470a0ded0217713aba3051f60e3f9254ca25c961c8e3baf2f2"
+  },
+  "reviewer_scope": "Independent additional T2 mathematical/hostile review, not a contributor. Loaded owner AGENTS, current program_focus, GEOMETER startup index and source-native routing. Inspected the complete report, probe and persisted certificate, and reused the previously independently reviewed T1 wedge reduction theorem. Reviewed quantified growth/moment bounds, full-mode response formulas, signed and holomorphic countercontrols and trace/shape convergence premises. No reviewer tests/builds or owner edits. This receipt does not independently authenticate external observational datasets or quantum-prescription literature, nor infer physical transfer.",
+  "findings": [
+    {
+      "topic": "Complete attainable growth interval",
+      "assessment": "accepted",
+      "reason": "Substitution yields |m_s^2|/H^2=(13068/3995)z, z=m1^2/(m0*m2) in (0,1]. The growing root is strictly increasing in z and has exact attained maximum (sqrt(88227/3995)-3)/2. Completeness of the positive moment cone supplies every z and hence every x in (0,x_max]. The reciprocal-atom family also realizes arbitrary slow growth at fixed m0=m2=1. The final report explicitly distinguishes this exact interval from its rounded0.85 bound, and expresses the e-folding time with correct dimensionless units."
+    },
+    {
+      "topic": "Variance and sharp support bounds",
+      "assessment": "accepted",
+      "reason": "CV^2=1/z-1 converts x<=epsilon into the displayed necessary-and-sufficient variance condition. Its negative lower bounds are correctly vacuous. For support in [l,u], the pointwise quadratic inequality gives q<=(l+u)mu-lu; completing the square proves z>=4lu/(l+u)^2. Endpoint weights u/(l+u),l/(l+u) attain equality. No source support-width restriction is assumed, so these are conditional discriminators rather than an imposed uniform slowdown limit."
+    },
+    {
+      "topic": "Expansion and response correlation",
+      "assessment": "accepted",
+      "reason": "The previously admitted full scalar mode and FLRW constraint imply deltaH/H=2E/(x+4) and w_kin+1=-4xE/[3(x+4)]. Since4-chi=(1-x)(x+4)>0 over the complete range, the F0 and deltaF/F0 expressions are nondegenerate. Differentiating gives w_kin+1=-(1-x)alpha_F/3. The sign of the amplitude remains free. The additional reciprocal-F Newton proxy is explicitly conditional and is not identified with a measured coupling in the action containing Weyl-squared."
+    },
+    {
+      "topic": "Finite signed scalar-stability countercontrol",
+      "assessment": "accepted",
+      "reason": "The finite signed reference3delta1-2delta2 gives moments(1,-1,-5), positive de Sitter Lambda1175/88, positive scalar mass99/34 and F0=11621h/66. For h>0 its f(R)-sector signs are positive, and both homogeneous scalar roots have negative real part. This violates the positive-measure premise instead of refuting that theorem. Negative total-volume normalization and its sign relative to fixed matter are retained; no spin2 or full physical stability is claimed."
+    },
+    {
+      "topic": "Einstein-only and Vandermonde freedom",
+      "assessment": "accepted",
+      "reason": "delta1-delta2 gives moments(0,-1,-3), removing the leading curvature-squared terms and retaining an Einstein-plus-Lambda coefficient. The report correctly declines the scalar-mass formula at m0=0. Three fixed positive support points1,2,3 have determinant2 moment map, so arbitrary signed weights can realize every real leading moment triple. This establishes lost predictivity/extra choice freedom, not a source-selected cure or an all-orders14D Einstein theory."
+    },
+    {
+      "topic": "Trace rotation and invariant shape volume",
+      "assessment": "accepted",
+      "reason": "For y=e^u z with fixed determinant, y^-1dy=du I+z^-1dz and trace(z^-1dz)=0 yield K=-4du^2+tr[(z^-1dz)^2]. Rotating only u leaves the real traceless signature(6,3) shape and its determinant-preserving Lorentz boosts. On any admitted open shape domain, the disjoint-boost-translate argument still excludes finite nonzero positive invariant smooth absolute mass. Radial damping cannot distinguish these translates. This does not exclude different shape cycles, oscillatory prescriptions or GHP action-weighted functional integrals."
+    },
+    {
+      "topic": "Finite variation and holomorphic circle controls",
+      "assessment": "accepted",
+      "reason": "For invariant finite signed or complex measures, total variation is itself positive invariant and finite, so the inherited support theorem still forces conformal support. The explicitly declared holomorphic scale functional gives moments(1,0,0) on a once-winding circle and zero for zero winding; it retains the leading quadratic term while removing Einstein and constant terms. The unweighted infinite imaginary-log path repeats that circle: its zeroth integral diverges and its higher oscillatory integrals have no ordinary improper limit. Period identification or generalized summation would be an additional prescription. None of these one-dimensional controls defines a full complex metric/Hodge path integral."
+    },
+    {
+      "topic": "Artifact and verification scope",
+      "assessment": "accepted",
+      "reason": "All three final artifact hashes match the frozen manifest. The certificate contains37 named finite controls and the probe implements their stated algebraic checks. Root reports PASS; reviewer inspected but did not run them. The prior T1 full-row theorem is reused rather than claimed as freshly proved by these controls; no new Lean coverage or14D PDE certification is asserted."
+    }
+  ],
+  "cautions": [
+    "The range is exact for the homogeneous growing scalar mode of the leading constant-moment4D de Sitter reduction. It is not a complete spectrum, a finite-energy/global stability theorem or a source dark-energy timescale.",
+    "A positive finite metric-only reference remains conditional, not a physics default. Native indefinite contractions do not themselves select signed weights or a contour.",
+    "The signed examples show scalar-sector possibilities only. Their physical interpretation, matter normalization, quantum positivity, spin2 sector and higher-h effects remain unconstructed.",
+    "Finite absolute-mass exclusion and nonconvergence of one unweighted log contour do not rule out general oscillatory distributions, renormalized functionals, shape quotients or other complex cycles.",
+    "Kinematic w, the inverse-F proxy and the freely chosen mode amplitude are not an observed dark-energy split, measured Newton coupling or DESI/CMB likelihood. No source, ledger or matrix verdict is justified by this LC evidence."
+  ],
+  "validation": {
+    "frozen_manifest_authenticated": true,
+    "root_reported_exact_controls": 37,
+    "reviewer_jobs_run": false,
+    "new_Lean_claimed": false
+  },
+  "editorial_resolution": "The two requested precision clarifications were verified in the final report: attainable set(0,x_max] and tau_growth/(H^-1)=H/r. No substantive mathematical correction was needed."
+}
+
+## Independent internal T2 physics/PDE specialist, not a contributor or author. Read-only report/probe/certificate/source-scope review plus small hash/JSON authentication. No tests, native calculations, builds, Lean compilation, owner edits or external validation. Parent-reported37 exact controls are not reviewer executions; the already reviewed T1 full-row mode is reused, not reproved by a new Lean claim.
+
+{
+  "accepted": true,
+  "blockers": [],
+  "artifact_hashes": {
+    "explorations/conditional-build/bet-cosmology-wedge-growth-2026-11-27.md": "8e008c19655afb8b43267bcf214d628efd20c0430ff0b3787e5c8e89fda516f6",
+    "tests/program-focus/bet_cosmology_wedge_growth_probe.py": "a260e80e886310fad539417ed2fc493f3fc580e0be9982afb0b770b69a05c470",
+    "lab/process/bet-cosmology-wedge-growth-certificates.json": "9766c614e66f9e470a0ded0217713aba3051f60e3f9254ca25c961c8e3baf2f2"
+  },
+  "basis_revision": "e10ee88b801ee1fc877936080c68ea84ca872f60",
+  "reviewer_scope": "Independent internal T2 physics/PDE specialist, not a contributor or author. Read-only report/probe/certificate/source-scope review plus small hash/JSON authentication. No tests, native calculations, builds, Lean compilation, owner edits or external validation. Parent-reported37 exact controls are not reviewer executions; the already reviewed T1 full-row mode is reused, not reproved by a new Lean claim.",
+  "inherited_dependency": {
+    "path": "explorations/conditional-build/wedge-shiab-einstein-reduction-2026-11-27.md",
+    "sha256": "53b7e9b536c28f6bfd4877e69f3bd97a60b6e8cbcfd8f8dc2a71e64fbf1dad6a",
+    "custody": "Exact bytes match the prior accepted full-row physics review at /private/tmp/gu-wr-physics-review.json."
+  },
+  "findings": [
+    {
+      "status": "accepted_after_correction",
+      "topic": "Exact growth interval",
+      "detail": "The coefficient substitution gives chi=|m_s^2|/H^2=(13068/3995)z with0<z<=1. x=(sqrt(9+4chi)-3)/2 is strictly increasing, hence the exact attainable range is(0,x_max], x_max=(sqrt(88227/3995)-3)/2<0.85. The final report explicitly fixes the earlier ambiguity that could imply attainability up to0.85. The reciprocal bound is the perturbation e-folding time in Hubble-time units, not an empirical lifetime."
+    },
+    {
+      "status": "accepted",
+      "topic": "Slowing mechanism and limits",
+      "detail": "x<=epsilon is equivalent to z<=3995 epsilon(epsilon+3)/13068 and the stated CV^2 bound, with an automatically satisfied negative bound for sufficiently largeepsilon. Reciprocal positive atoms retain m0=m2=1 while z approaches0, so there is no measure-uniform positive lower rate. Largekappa and common scale rescaling cancel from x at this leading order. Slow relative growth therefore needs reference spread, not an asserted source mechanism."
+    },
+    {
+      "status": "accepted",
+      "topic": "Sharp support constraint",
+      "detail": "For support[a,b], E[a_random^2]<=(a+b)mu-ab and the exact square((a+b)mu-2ab)^2 imply z>=4ab/(a+b)^2=4K/(1+K)^2. Endpoint probabilities b/(a+b),a/(a+b) attain equality. This is a sharp additional-condition test; the report correctly does not invent a source support-width bound."
+    },
+    {
+      "status": "accepted",
+      "topic": "Constraint-compatible mode correlations",
+      "detail": "Using the inherited full metric/FLRW solution, F0=3 f''H^2(4-chi) and4-chi=(1-x)(x+4). Substitution gives deltaH/H=2E/(x+4), w_kin+1=-4xE/[3(x+4)], and deltaF/F0=4E/[(1-x)(x+4)]. Since x<1 there is no singular denominator. The alpha_F and inverse-F proxy signs follow at first perturbative order. The amplitude remains freely signed; the mode does not select a crossing history or physical dark-energy split."
+    },
+    {
+      "status": "accepted",
+      "topic": "Response versus measured Newton constant",
+      "detail": "F=f'(R) is an f(R)-sector response coefficient within an action also containing Weyl-squared. Neither F nor1/F is automatically the measured Newton coupling or full spin2 residue. The report labels the G_F relation as an additional proxy and imports no empirical varying-G bound."
+    },
+    {
+      "status": "accepted",
+      "topic": "Signed scalar-stable countercontrol",
+      "detail": "3delta1-2delta2 gives moments(1,-1,-5), Lambda1175/88 and scalar mass squared99/34. F0=11621h/66 and f''=17h/6 are positive for h>0. On the expanding de Sitter branch the homogeneous scalar roots have negative real parts. This is an escape only after dropping the positive-measure hypothesis, not a counterexample inside the prior theorem or proof of full stability."
+    },
+    {
+      "status": "accepted",
+      "topic": "Normalization and freedom cost",
+      "detail": "The signed total-volume factor N=-5 makes the normalized total weight(-3/5,8/5), not a probability. Dividing gravity byN changes its sign relative to fixed matter even though vacuum equations do not change. The delta1-delta2 control has m0=0 and formally removes the leading quadratic terms while retaining EH+Lambda; the scalar formula dividing bym0 is correctly not used. The three-point Vandermonde determinant2 means arbitrary signed weights free all three leading coefficients, so a chosen healthy sign alone is not predictive progress."
+    },
+    {
+      "status": "accepted",
+      "topic": "Trace and contour distinctions",
+      "detail": "For arbitrary traceless z^-1 dz, the trace identity gives K=-4du^2+tr[(z^-1 dz)^2]; a scale-only rotation leaves the indefinite real shape sector and unchanged noncompact congruence orbits. No finite full-fibre absolute mass follows from radial damping alone. Closed holomorphic da/a moments(1,0,0) remove EH and the constant term; the unweighted infinite imaginary-log contour has divergent zeroth moment and no ordinary convergent higher moments. These are declared formal controls, not a full complex Hodge/spin path integral or a refutation of GHP's action-weighted prescription."
+    },
+    {
+      "status": "accepted",
+      "topic": "Finite signed invariance",
+      "detail": "For a finite signed or complex invariant measure, its total variation is a finite positive invariant measure. The existing conformal-support result therefore applies to its support. Oscillatory distributions without finite total variation are correctly left outside this argument."
+    },
+    {
+      "status": "accepted",
+      "topic": "Source and cosmology ceiling",
+      "detail": "The inspected SC-COS-50/51/52 entries assert source dark-energy behavior and adjoint-one-form grammar, not this scalar reduction, reference law or initial amplitude. w_kin is not w_DE, de Sitter linear growth is not a selected H(z), and no CMB/DESI likelihood, sound-horizon calibration or physical Newton map is constructed. The report retains K95/K77, source/GU*, fixed/moving measure and full14D/leading4D distinctions."
+    },
+    {
+      "status": "verified_read_only",
+      "topic": "Artifact custody and verification scope",
+      "detail": "All three final hashes match the frozen manifest; inherited full-row report bytes match the prior accepted physics receipt. The certificate records37 finite controls. Probe controls check algebraic identities and explicit fixtures, while quantified range, support, PDE admission and source transfer rely on written proofs and the prior T1 result. No new Lean or external verification is claimed."
+    }
+  ],
+  "cautions": [
+    "Scalar-stable means the tested linear scalar sector on the expanding de Sitter background, not spin2 stability, full ghost clearance, nonlinear stability, quantum unitarity or a physical observer measure.",
+    "The common positive-reference class admits arbitrarily slow relative growth only through unselected moment shape. No support law, signed reference or contour is adopted by these mathematical countercontrols.",
+    "Growth formulas and response correlations apply at leading order and first perturbative order. They do not control accumulated nonlinear evolution or higher inverse-kappa corrections.",
+    "The native full-fibre volume is still infinite; no finite physical reduction, K77 action or source-selected scalar state follows from the controls.",
+    "This is lane-C BET-COSMOLOGY evidence only. It must not become a main-matrix/ledger verdict or a source-level falsification without the separately required bridge and re-derivation.",
+    "I did not independently re-query current DESI publications or reopen the GHP primary text. Their role here is comparison/custody; no numerical observational result or external prescription enters the accepted mathematical inference."
+  ],
+  "not_run": [
+    "Probe/test execution",
+    "Lean compilation or new formalization",
+    "Native full14D calculation",
+    "Cosmological simulation or likelihood",
+    "Network literature revalidation",
+    "Repository edits or release gates"
+  ]
+}

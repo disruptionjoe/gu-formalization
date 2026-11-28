@@ -3661,5 +3661,41 @@
       ],
       "scope": "Do not add this alternative to the historical W2 10/4/net6 count or compare that count to finite SM parameters."
     }
+  },
+  "wedge_growth_2026_11_27": {
+    "lane": "LC-BETS",
+    "evidence": [
+      "explorations/conditional-build/bet-cosmology-wedge-growth-2026-11-27.md",
+      "lab/process/bet-cosmology-wedge-growth.json"
+    ],
+    "actual_delta": "In the reviewed leading local4D positive-reference wedge reduction, chi=|m_s\u00b2|/H\u00b2=(13068/3995)m1\u00b2/(m0m2), so0<r/H<=0.849699738493; every rate in this exact interval occurs. Slow growth requires reference spread, not largekappa. The admitted mode correlates expansion with the f(R) response coefficient. Signed finite references can make the scalar stable or cancel the leading quadratic term, but freely select the three moments. Trace-only rotation leaves the native shape-volume burden; no physical prescription or cosmology is selected.",
+    "choice_budget": {
+      "new_adopted_choices": 0,
+      "new_action_variants": 0,
+      "new_state_or_norm_choices": 0,
+      "source_selected_predictions_added": 0,
+      "proposals_not_adopted": [
+        {
+          "name": "finite signed reference",
+          "would_add": "One reference-prescription structural choice with weights/scales, matter normalization and physical interpretation. Arbitrarysignedweights spanallthreeleadingmoments; noselectedprediction."
+        },
+        {
+          "name": "complex trace contour",
+          "would_add": "Integrationcycle,holomorphicgeometry/Hodge continuation and convergence prescription; trace-onlyfullshape mass stillnotfinite."
+        }
+      ],
+      "scope": "Existingwedgevariant retained; W2historical10/4net6 separate. No newcandidateorphysicalcompletioninstalled."
+    },
+    "consumed": [
+      "Growth/H rangeandslowvariance discriminator forpositivemomentclass.",
+      "Twofinite signedcountercontrols andsimpleholomorphictracecircle; noselectedreference.",
+      "Trace-onlyabsoluteintegrationcheck withunchangednativeLorentzshape."
+    ],
+    "survivors": [
+      "Source-cited physicalreference andstablefullspectrum withmatter bridge.",
+      "Differentcomplexshape/oscillatoryprescription withdefinedconvergence andcost.",
+      "ExistingnonlinearCW/antilinear/trapped/Lambda/uniquenessmainline."
+    ],
+    "next": "Counter120 ordinaryB: resume Joe27r2b/27t nonlinearCraig-Weinstein test outside the consumed C2 instantaneous translation-equivariant full-stable-base Sobolev graph class. State its changed premise and outcomes before construction. Then retained antilinear/PT, trapped-section, Lambda and uniqueness steps. Wedge branch budget remains3of3; no fourthwave or W2continuation. A futurecosmology continuation needs a selected reference/state and actual matter/readout/calibration bridge; do not scan signedweights for desiredcoefficients."
   }
 }

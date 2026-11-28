@@ -16,6 +16,10 @@ discovery bet (`lab/process/discovery-bets.json`). The K25xx--K2618 detector, pr
 results below are retained as conditional mathematics; that lane is no longer the default target. Sections
 below are dated results, newest first, and are not steering.
 
+## 2026-11-27 — Wedge scalar growth and reference cost
+
+[Result](explorations/conditional-build/bet-cosmology-wedge-growth-2026-11-27.md) · [Evidence](lab/process/bet-cosmology-wedge-growth.json). In the declared leading 4D model, the scalar grows at most 0.84970 times H and may grow arbitrarily slowly, depending on the reference moments. Signed references can reverse or cancel the leading quadratic coefficient but remain unselected; trace-only rotation does not provide finite native volume. The 37 exact controls do not establish a DESI likelihood or physical dark-energy equation of state. Lane-C discovery only; ledger and matrix verdicts are unchanged.
+
 ## 2026-11-27 — Wedge Einstein reduction and native measure boundary
 
 [Result](explorations/conditional-build/wedge-shiab-einstein-reduction-2026-11-27.md) · [Evidence](lab/process/wedge-shiab-einstein-reduction.json). The native geometry gives an Einstein cross-term. Finite positive covariant references leave its normalization free and yield a leading local4D scalar instability satisfying all metric rows. Native indefinite volume retains its negative trace contraction but diverges; no K77/native4D instability is inferred.66exact controls and7finiteLeanlemmas; physical/fullh transfer remains open. No source or ledger verdict change.

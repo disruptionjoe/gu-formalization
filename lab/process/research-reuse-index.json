@@ -2805,6 +2805,58 @@
         "receipt_ref": "lab/process/wedge-shiab-einstein-reduction.json#verification",
         "scope": "66exact controls and7finiteLeanlemmas; no formalizedgeometry/measure/PDEorphysicaltransfer."
       }
+    },
+    {
+      "id": "bet-cosmology-wedge-growth-2026-11-27",
+      "kind": "result",
+      "owner_ref": "explorations/conditional-build/bet-cosmology-wedge-growth-2026-11-27.md",
+      "tested_statement": "In the reviewed leading local4D positive-reference wedge reduction, chi=|m_s\u00b2|/H\u00b2=(13068/3995)m1\u00b2/(m0m2), so0<r/H<=0.849699738493; every rate in this exact interval occurs. Slow growth requires reference spread, not largekappa. The admitted mode correlates expansion with the f(R) response coefficient. Signed finite references can make the scalar stable or cancel the leading quadratic term, but freely select the three moments. Trace-only rotation leaves the native shape-volume burden; no physical prescription or cosmology is selected.",
+      "signature": {
+        "object": "Dimensionlessleadingwedge scalar growth andreferenceprescriptioncomparison",
+        "carrier": "Declaredlocal4Dconstantmoment metricmodel; separateconformalray momentfunctionals",
+        "convention": "K95(-+++),native trace retained;positive/signed/complexcontours separate;noK77transfer",
+        "class": "Positivefinite m0,m2measuremodel andunadoptedformalcontrols",
+        "premises": [
+          "explorations/conditional-build/bet-cosmology-wedge-growth-2026-11-27.md"
+        ]
+      },
+      "attributed_status": "internal_T2_reviewed",
+      "status_ref": "lab/process/bet-cosmology-wedge-growth.json#status",
+      "source_bridge_ref": "lab/process/bet-cosmology-wedge-growth.json#source_bridge",
+      "certificate_refs": [
+        "lab/process/bet-cosmology-wedge-growth-certificates.json"
+      ],
+      "control_refs": [
+        "tests/program-focus/bet_cosmology_wedge_growth_probe.py"
+      ],
+      "survivors_ref": "lab/process/bet-cosmology-wedge-growth.json#follow_through",
+      "reopen_condition_ref": "explorations/conditional-build/bet-cosmology-wedge-growth-2026-11-27.md",
+      "superseded_by": null,
+      "cache": {
+        "artifacts": [
+          {
+            "path": "explorations/conditional-build/bet-cosmology-wedge-growth-2026-11-27.md",
+            "sha256": "8e008c19655afb8b43267bcf214d628efd20c0430ff0b3787e5c8e89fda516f6"
+          },
+          {
+            "path": "tests/program-focus/bet_cosmology_wedge_growth_probe.py",
+            "sha256": "a260e80e886310fad539417ed2fc493f3fc580e0be9982afb0b770b69a05c470"
+          },
+          {
+            "path": "lab/process/bet-cosmology-wedge-growth-certificates.json",
+            "sha256": "9766c614e66f9e470a0ded0217713aba3051f60e3f9254ca25c961c8e3baf2f2"
+          }
+        ],
+        "verifier": {
+          "command": "python3",
+          "args": [
+            "tests/program-focus/bet_cosmology_wedge_growth_probe.py",
+            "--verify"
+          ]
+        },
+        "receipt_ref": "lab/process/bet-cosmology-wedge-growth.json#verification",
+        "scope": "37finitecontrols appliedtoreviewedfullmode; no nativephysicalreductionorcosmologyfit."
+      }
     }
   ]
 }

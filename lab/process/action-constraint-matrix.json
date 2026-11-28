@@ -2727,7 +2727,7 @@
   ],
   "program_run_counter": {
     "since": "2026-11-09",
-    "count": 119,
+    "count": 120,
     "rule": "Every hourly run increments this in its postflight, whatever its lane. Lane C runs when count % 4 == 3 before the increment."
   },
   "working_rule": "Cells are worked at the structure level: a requirement must hold for every action in class C or for a structurally defined subfamily. No cell is worked by writing down a specific action, and no gated cell is worked by building its gate object. See CURRENT-STATE.yaml program_focus.structure_not_specifics.",
@@ -3808,6 +3808,15 @@
       "counter_after": 119,
       "lane": "LB-CLASS",
       "selection": "Final27r1c wedgewave;27w Einstein/scale and27x nativevolume fork."
+    },
+    {
+      "date": "2026-11-27",
+      "authority": "joe_direct_chat_2026_11_27_y",
+      "item": "bet-cosmology-wedge-growth",
+      "counter_before": 119,
+      "counter_after": 120,
+      "lane": "LC-BETS",
+      "selection": "Mostremainingtimebox;boundedgrowth/H andreferencecosttest onalreadyreviewedleadingmodel."
     }
   ],
   "directed_lc_carry_2026_11_24_b": {

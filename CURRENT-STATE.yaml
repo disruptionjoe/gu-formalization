@@ -1,7 +1,7 @@
 schema_version: '1.0'
 repository: observerse-research-program
 branch: main
-revision_basis: cc38ad2c1260d5a0a20379ca2462afe2bb23a52c
+revision_basis: e10ee88b801ee1fc877936080c68ea84ca872f60
 program_focus:
   version: 2026-11-27-v3
   authority: joe_direct_chat_2026_11_27_k
@@ -255,6 +255,28 @@ physics_ledger_reconciliation_2026_11_27_v:
   next: Directedledgerpasscomplete:resumeJoe27r1c finalwedgewave, evaluating27w Einstein-term/scalegate
     onactualGg andspecifiedreadout before genericquadraticgravityimports. Existing nonlinearCW route follows;
     W2 diagnostic only.
+wedge_growth_2026_11_27:
+  status: internal_T2_reviewed
+  actual_delta: "In the reviewed leading local4D positive-reference wedge reduction, chi=|m_s\xB2|/H\xB2\
+    =(13068/3995)m1\xB2/(m0m2), so0<r/H<=0.849699738493; every rate in this exact interval occurs. Slow\
+    \ growth requires reference spread, not largekappa. The admitted mode correlates expansion with the\
+    \ f(R) response coefficient. Signed finite references can make the scalar stable or cancel the leading\
+    \ quadratic term, but freely select the three moments. Trace-only rotation leaves the native shape-volume\
+    \ burden; no physical prescription or cosmology is selected."
+  evidence:
+  - explorations/conditional-build/bet-cosmology-wedge-growth-2026-11-27.md
+  - lab/process/bet-cosmology-wedge-growth.json
+  source_bridge:
+    status: conditional
+    reason: SC-COS50/51/52 sourceoneform/automaticidentity assertions do notselectthisleadingmetricreduction,reference,physicaldomain
+      orcosmologicalhistory.
+  next: 'Counter120 ordinaryB: resume Joe27r2b/27t nonlinearCraig-Weinstein test outside the consumed
+    C2 instantaneous translation-equivariant full-stable-base Sobolev graph class. State its changed premise
+    and outcomes before construction. Then retained antilinear/PT, trapped-section, Lambda and uniqueness
+    steps. Wedge branch budget remains3of3; no fourthwave or W2continuation. A futurecosmology continuation
+    needs a selected reference/state and actual matter/readout/calibration bridge; do not scan signedweights
+    for desiredcoefficients.'
+  verdict_effect: none; LC evidence only
 wedge_einstein_reduction_2026_11_27:
   status: internal_T1_reviewed
   actual_delta: The native K95 connection metric supplies an Einstein cross-term in the own-wedge leading

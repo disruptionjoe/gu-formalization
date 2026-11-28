@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "basis_revision": "cc38ad2c1260d5a0a20379ca2462afe2bb23a52c",
+  "basis_revision": "e10ee88b801ee1fc877936080c68ea84ca872f60",
   "scope": "Curated six-pillar x source/class/candidate linked view. Status belongs to cited owners; no scientific verdict promotion, automatic ranking, whole-history coverage or global percentage. Cheapest-next fields are attributed bounded suggestions, not dispatch instructions. Closed means resolved within the cited scope; it does not always mean falsified. Positive fits and remaining source/physical bridges stay explicit.",
   "assumptions_ref": "lab/process/action-constraint-matrix.json#source_relevance_assumption_view.shared_prerequisites",
   "dependencies": [
@@ -94,7 +94,7 @@
     },
     {
       "ref": "lab/process/action-constraint-matrix.json",
-      "sha256": "d7c180a49e218d62da1f9346b70fccef3e993d09e950ee2330e4708f04ca2565"
+      "sha256": "512b02a8f4276dc5395edf86237bec1e56c43b7382c16a815586bdc730e9e4bf"
     },
     {
       "ref": "lab/process/conditional-physics-ledger-v0.263.json",
@@ -211,6 +211,10 @@
     {
       "ref": "explorations/conditional-build/wedge-shiab-einstein-reduction-2026-11-27.md",
       "sha256": "53b7e9b536c28f6bfd4877e69f3bd97a60b6e8cbcfd8f8dc2a71e64fbf1dad6a"
+    },
+    {
+      "ref": "explorations/conditional-build/bet-cosmology-wedge-growth-2026-11-27.md",
+      "sha256": "8e008c19655afb8b43267bcf214d628efd20c0430ff0b3787e5c8e89fda516f6"
     }
   ],
   "pillars": [
@@ -235,7 +239,7 @@
           "closed": "Every nonzero map in the declared fixed-linear full-Spin/full-U family fails exact Euler correspondence, even after any fixed invertible zero-order covector multiplier. Separately, every full pointwise exterior-degree11 Spin-equivariant associative or gradedLie derivation is Riemann-silent, without Euler/Hessian premises. Selected displayed map has no universal full-curvature exterior companion; inherited eight individual K77 maps cannot combine that property with nonzero Riemann response. Leading local4D finitepositive metric-only reference reductions of the ownwedge density admit a growing real scalar mode on deSitter; this excludes stability only in that declared reduction/state class.",
           "open": "Ownwedge native largecoupling stationary branch is established; physical finite reduction, native fullh energy/quotient, kappa1 and source-selected member remain open. Field-dependent/differential/nonlocal variants and class-C representativeness remain conditional.",
           "shared_missing_ref": "lab/process/action-constraint-matrix.json#source_relevance_assumption_view.shared_prerequisites",
-          "cheapest_next": "Counter119 requires LC-BETS under unchanged cadence; BET-COSMOLOGY has the most remaining budget. Then ordinary B step2b: a genuinely new nonlinear Craig-Weinstein mechanism outside the excluded C2 instantaneous translation-equivariant full-stable-base Sobolev graph class, with explicit changed premise and outcomes. Wedge step1 is complete at3waves; retain native physical reduction/energy, higherh and kappa1 burdens, without a checkpoint or W2 continuation.",
+          "cheapest_next": "Counter120 ordinaryB: resume Joe27r2b/27t nonlinearCraig-Weinstein test outside the consumed C2 instantaneous translation-equivariant full-stable-base Sobolev graph class. State its changed premise and outcomes before construction. Then retained antilinear/PT, trapped-section, Lambda and uniqueness steps. Wedge branch budget remains3of3; no fourthwave or W2continuation. A futurecosmology continuation needs a selected reference/state and actual matter/readout/calibration bridge; do not scan signedweights for desiredcoefficients.",
           "evidence_refs": [
             "explorations/conditional-build/printed-shiab-endpoint-audit-2026-11-27.md",
             "explorations/conditional-build/shiab-graded-derivation-class-2026-11-27.md",
@@ -269,7 +273,8 @@
             ],
             "survives": "Own-action/localnativebranch and conditionalEinsteinterm",
             "excluded": "StabledeSitter inleadinglocalpositive-reference4Dclass only",
-            "open": "Nativefullvolume\u221e; physicalfiniteaction/domain/energy andhigherh;K77untransferred"
+            "open": "Nativefullvolume\u221e; physicalfiniteaction/domain/energy andhigherh;K77untransferred",
+            "accepted_reduction_status": "PreviousT1result: conditionalEinsteinterm andpositiveLambda deSitter; scalarinstabilityinpositivefinite-referenceclass;nativeK95fullreductionundefinedbecausevolumeinfinite."
           }
         }
       },
@@ -312,7 +317,7 @@
           "closed": "Every fixed finite Sobolev-loss graph-Duhamel estimate fails on the named interior core, including specified finite-order norm repairs retaining it. Fully boost-equivariant repeatedE fourterm symbols with firstorder endarrows admit no integer-order homogeneous exact middle in n14. Exact frozen selected printed real trace modes exclude every fixed finite-loss estimate on unrestricted states; no actual variable/nonlinear or physical-domain transfer. Frozen actual printedQ strict all-field stable-support cutoff admitting the tested pair fails second-order closure; same-leading scalarizer correction around actualsmallh branch fails at h5. Neither is source-required physicaldata. Declared regular equivariant quadratic slaving of the actual resonant printed pair is excluded; secular forced dynamics survives. A full nonlinear CW-type constraint remains a candidate test, not a selected source law. Strict all-field commonstable Fouriercutoff failsactual nonlinearpacket closure; finiteinitialslicejets remainincomplete inthislineardomain. Stated C2 translation-equivariant ordinarySobolev instantaneous elimination graphs fail on a fixed-packet threshold collar.",
           "open": "Supplied analytic/nonlocal/boundary physical selection and full operator/domain. Actual SC-ACT06 source reduced field/gauge/order profile and background stabilizer are distinct; existing O4/Cartan route is retained.",
           "shared_missing_ref": "lab/process/action-constraint-matrix.json#source_relevance_assumption_view.shared_prerequisites",
-          "cheapest_next": "Counter119 requires LC-BETS under unchanged cadence; BET-COSMOLOGY has the most remaining budget. Then ordinary B step2b: a genuinely new nonlinear Craig-Weinstein mechanism outside the excluded C2 instantaneous translation-equivariant full-stable-base Sobolev graph class, with explicit changed premise and outcomes. Wedge step1 is complete at3waves; retain native physical reduction/energy, higherh and kappa1 burdens, without a checkpoint or W2 continuation.",
+          "cheapest_next": "Counter120 ordinaryB: resume Joe27r2b/27t nonlinearCraig-Weinstein test outside the consumed C2 instantaneous translation-equivariant full-stable-base Sobolev graph class. State its changed premise and outcomes before construction. Then retained antilinear/PT, trapped-section, Lambda and uniqueness steps. Wedge branch budget remains3of3; no fourthwave or W2continuation. A futurecosmology continuation needs a selected reference/state and actual matter/readout/calibration bridge; do not scan signedweights for desiredcoefficients.",
           "evidence_refs": [
             "explorations/conditional-build/source-action-finite-loss-completions-2026-11-27.md",
             "explorations/conditional-build/null-boost-symbol-trace-2026-11-27.md",
@@ -1236,7 +1241,7 @@
         "new_choice_families_adopted": 0
       }
     ],
-    "top_next": "Counter119 requires LC-BETS under unchanged cadence; BET-COSMOLOGY has the most remaining budget. Then ordinary B step2b: a genuinely new nonlinear Craig-Weinstein mechanism outside the excluded C2 instantaneous translation-equivariant full-stable-base Sobolev graph class, with explicit changed premise and outcomes. Wedge step1 is complete at3waves; retain native physical reduction/energy, higherh and kappa1 burdens, without a checkpoint or W2 continuation.",
+    "top_next": "Counter120 ordinaryB: resume Joe27r2b/27t nonlinearCraig-Weinstein test outside the consumed C2 instantaneous translation-equivariant full-stable-base Sobolev graph class. State its changed premise and outcomes before construction. Then retained antilinear/PT, trapped-section, Lambda and uniqueness steps. Wedge branch budget remains3of3; no fourthwave or W2continuation. A futurecosmology continuation needs a selected reference/state and actual matter/readout/calibration bridge; do not scan signedweights for desiredcoefficients.",
     "track_policy": {
       "status": "applied",
       "authority": [
@@ -1361,5 +1366,19 @@
     "actual_delta": "The native K95 connection metric supplies an Einstein cross-term in the own-wedge leading effective scalar. Finite positive Lorentz-covariant reference measures depending only on g have conformal support and a complete three-moment coefficient cone. Their constant-moment leading local4D action has a full-metric-row, gauge-invariant growing scalar-curvature mode on its de Sitter solution. The native negative trace direction is already included; the unregulated native volume is infinite and does not define an alternative finite4D scalaron coefficient. No full14D, K77 or source instability is inferred.",
     "missing_input": "Actual source-selected physical reduction and real state admission, plus controlled higherh curved elimination; native full-fibre integral is divergent.",
     "next": "Counter119 requires LC-BETS under unchanged cadence; BET-COSMOLOGY has the most remaining budget. Then ordinary B step2b: a genuinely new nonlinear Craig-Weinstein mechanism outside the excluded C2 instantaneous translation-equivariant full-stable-base Sobolev graph class, with explicit changed premise and outcomes. Wedge step1 is complete at3waves; retain native physical reduction/energy, higherh and kappa1 burdens, without a checkpoint or W2 continuation."
+  },
+  "wedge_growth_2026_11_27": {
+    "evidence": [
+      "explorations/conditional-build/bet-cosmology-wedge-growth-2026-11-27.md",
+      "lab/process/bet-cosmology-wedge-growth.json"
+    ],
+    "pillars": [
+      "gravity_shiab",
+      "dark_energy"
+    ],
+    "scope": "LCdiscoverycontext only; not Babsorption ornewpillarverdict",
+    "actual_delta": "In the reviewed leading local4D positive-reference wedge reduction, chi=|m_s\u00b2|/H\u00b2=(13068/3995)m1\u00b2/(m0m2), so0<r/H<=0.849699738493; every rate in this exact interval occurs. Slow growth requires reference spread, not largekappa. The admitted mode correlates expansion with the f(R) response coefficient. Signed finite references can make the scalar stable or cancel the leading quadratic term, but freely select the three moments. Trace-only rotation leaves the native shape-volume burden; no physical prescription or cosmology is selected.",
+    "missing_input": "Physical reduction, matter/stress/observedmetric and state selection; leading vacuumcurvature mode isnot observedw_DE orfull14D dynamics.",
+    "next": "Counter120 ordinaryB: resume Joe27r2b/27t nonlinearCraig-Weinstein test outside the consumed C2 instantaneous translation-equivariant full-stable-base Sobolev graph class. State its changed premise and outcomes before construction. Then retained antilinear/PT, trapped-section, Lambda and uniqueness steps. Wedge branch budget remains3of3; no fourthwave or W2continuation. A futurecosmology continuation needs a selected reference/state and actual matter/readout/calibration bridge; do not scan signedweights for desiredcoefficients."
   }
 }
