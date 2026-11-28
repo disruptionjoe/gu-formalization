@@ -1134,7 +1134,9 @@
         "explorations/conditional-build/normal-special-unitary-existence-2026-11-25.md",
         "lab/process/normal-special-unitary-existence-2026-11-25.json",
         "lab/process/hostile-reviews/2026-11-25-normal-special-unitary-review.md",
-        "tests/program-focus/normal_special_unitary_probe.py"
+        "tests/program-focus/normal_special_unitary_probe.py",
+        "explorations/conditional-build/cw-one-sided-boundary-2026-11-27.md",
+        "lab/process/cw-one-sided-boundary.json"
       ],
       "known": "Exact full14-component spin-only lower image: closure requires S=zH,W=0,R_h=-G_h. With same compatible Clifford adjoint, every unitary normal correction satisfying scalar row forces W_N=-16zH; top forces W_H=-zH, contradicting W0 whenH=t/2. Covers whole scalar-weighted stable natural family with sameq/time assumptions, including scalar-inputSE; general chiral/matrix/operator rivals separate. ComplexEnd paired-arrow escape fails actualadjoint; meanzeroSpin control survives. Actual geometric gradient SW term cancels residual with SAME primitive connection current at fixed density/bars; source/operator ownership open.",
       "next_run": "Use the live counter and current bet records with existing program_focus selection. the bounded source-law audit, universal-family stabilizer and regular exterior-symbol classification are complete; W09 absolute normal determinant/Spin existence is also complete. A physical whole-field covariance test requires a newly authenticated full two-sided field/bar/density/reference/observation law, typed as fixed or parameter-changing. Preserve the explicit R/4 toy and primitive currents; do not repeat the completed corpus audit or substitute a guessed law. Other eligible matrix or LB-CLASS targets remain selectable under program_focus; these conditional branches do not stop repository work.",
@@ -1813,7 +1815,7 @@
     },
     "LB-LADDER": {
       "zero_delta_streak": 0,
-      "runs": 26,
+      "runs": 27,
       "status": "open"
     }
   },
@@ -2727,7 +2729,7 @@
   ],
   "program_run_counter": {
     "since": "2026-11-09",
-    "count": 120,
+    "count": 121,
     "rule": "Every hourly run increments this in its postflight, whatever its lane. Lane C runs when count % 4 == 3 before the increment."
   },
   "working_rule": "Cells are worked at the structure level: a requirement must hold for every action in class C or for a structurally defined subfamily. No cell is worked by writing down a specific action, and no gated cell is worked by building its gate object. See CURRENT-STATE.yaml program_focus.structure_not_specifics.",
@@ -3817,6 +3819,15 @@
       "counter_after": 120,
       "lane": "LC-BETS",
       "selection": "Mostremainingtimebox;boundedgrowth/H andreferencecosttest onalreadyreviewedleadingmodel."
+    },
+    {
+      "date": "2026-11-27",
+      "authority": "joe_direct_chat_2026_11_27_r",
+      "item": "cw-one-sided-boundary",
+      "counter_before": 120,
+      "counter_after": 121,
+      "lane": "LB-LADDER",
+      "selection": "Packet2b: retained independent decaying state changes the excluded graph premise."
     }
   ],
   "directed_lc_carry_2026_11_24_b": {
@@ -7378,5 +7389,18 @@
       "reason": "Source geometry/action grammar are cited; wedge selection, physical reduction/reference measure and admitted physical states are not source-selected. Curved elimination is formal at leadingh."
     },
     "status_effect": "Scoped evidence only; scientific cell and ledger verdicts unchanged."
+  },
+  "cw_one_sided_boundary_2026_11_27": {
+    "status": "internal_T2_reviewed",
+    "actual_delta": "The actual selected frozen printed descriptor admits a regular full-threshold reduction. Retaining free decaying off-band data changes the forced boundary divisor to sqrt(delta)-i nu. Fixed smooth compact stable input packets have bounded boundary data and a forward-uniform quadratic response through the threshold, by their nonstationary phase and integrable first-time-moment forcing. Ordinary-Sobolev bilinear boundedness and nonlinear invariance remain open; the prior CW-only elimination-graph exclusion is unchanged.",
+    "evidence": [
+      "explorations/conditional-build/cw-one-sided-boundary-2026-11-27.md",
+      "lab/process/cw-one-sided-boundary.json"
+    ],
+    "source_bridge": {
+      "status": "conditional",
+      "reason": "SC-ACT-02 supplies the endpoint template and SC-META-52 acknowledges ultrahyperbolic debt; neither selects this low-Phi realization, future boundary condition, norm or physical state law."
+    },
+    "status_effect": "No cell/intersection/shrinkage/source/ledger verdict changes."
   }
 }

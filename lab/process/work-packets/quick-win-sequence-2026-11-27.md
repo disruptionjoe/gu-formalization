@@ -29,7 +29,7 @@ This packet is the canonical live work sequence for Joe27r. It restocks work und
 - Step2 core was already completed before this packet; use its evidence rather than awarding another wave of scientific credit for a replay.
 - The new [nonlinear graph exclusion and trace-null control](../../../explorations/conditional-build/cw-nonlinear-completion-2026-11-27.md) remain accepted. Further nonlinear construction follows this six-step line unless a later directed update changes it.
 - All older packets keep their recorded done/blocked states. The existing29 ranked options remain available after this sequence.
-- Derive cadence from the matrix counter. Final wedge postflight is119: mandatoryLC-BETS next, then B step2b. Earlier discovery/ledger bookkeeping did not consume wedge science waves.
+- Derive cadence from the matrix counter. The counter119 mandatory LC direction was consumed by the wedge-growth result (counter120); derive current cadence from the matrix. Earlier discovery/ledger bookkeeping did not consume wedge science waves.
 
 ## Step1 outcomes retained
 
@@ -49,4 +49,10 @@ Consumed by the final wedge result: the former counter117 instruction to test th
 
 The native K95 connection metric supplies an Einstein cross-term in the own-wedge leading effective scalar. Finite positive Lorentz-covariant reference measures depending only on g have conformal support and a complete three-moment coefficient cone. Their constant-moment leading local4D action has a full-metric-row, gauge-invariant growing scalar-curvature mode on its de Sitter solution. The native negative trace direction is already included; the unregulated native volume is infinite and does not define an alternative finite4D scalaron coefficient. No full14D, K77 or source instability is inferred.
 
-Counter119 requires LC-BETS under unchanged cadence; BET-COSMOLOGY has the most remaining budget. Then ordinary B step2b: a genuinely new nonlinear Craig-Weinstein mechanism outside the excluded C2 instantaneous translation-equivariant full-stable-base Sobolev graph class, with explicit changed premise and outcomes. Wedge step1 is complete at3waves; retain native physical reduction/energy, higherh and kappa1 burdens, without a checkpoint or W2 continuation.
+The counter119 LC direction is consumed by the reviewed wedge-growth result. Ordinary B step2b began with: a genuinely new nonlinear Craig-Weinstein mechanism outside the excluded C2 instantaneous translation-equivariant full-stable-base Sobolev graph class, with explicit changed premise and outcomes. Wedge step1 is complete at3waves; retain native physical reduction/energy, higherh and kappa1 burdens, without a checkpoint or W2 continuation.
+
+## Step2b — one-sided quadratic survivor
+
+One new wave consumed (maximum5 for step2). [Actual boundary result](../../../explorations/conditional-build/cw-one-sided-boundary-2026-11-27.md): regular full-descriptor coordinates and independent decaying offband data yield a bounded boundary combination and forward-uniform quadratic response for fixed smooth compact trace packets. The old CW-only Sobolev graph exclusion remains accepted. This is not a nonlinear state law or physical energy result.
+
+Next ready discriminator: the uniform ordinary-Sobolev bilinear boundary estimate through the threshold, using the actual smooth matrix numerator and phase geometry. Failure changes the permitted topology; success opens nonlinear invariance with free decaying data. Fixed smoothpacket finiteness and fullsymbol arithmetic are consumed. No new physical prescription or choice family adopted. Wedge stays3of3; retained steps3–6 and cadence unchanged.

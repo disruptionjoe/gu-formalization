@@ -16,6 +16,10 @@ Do not add "Current follow-through" sections or "Historical predecessor" stacks 
 matrix or bet file. The retired follow-through chain and banner stack are kept at the end of this file under
 "Archived steering history".
 
+## 2026-11-27 — One-sided quadratic CW boundary survivor
+
+[Result](explorations/conditional-build/cw-one-sided-boundary-2026-11-27.md) · [Evidence](lab/process/cw-one-sided-boundary.json). Keeping independent decaying offband data changes the tested category: actual regular full-descriptor boundary coordinates give finite smoothpacket boundary data and a forward-uniform quadratic response through the threshold. The ordinary-Sobolev bilinear and nonlinear-domain questions remain open.46exactcontrols include a sparse actual scalarizer jet; no new Lean or physical-state claim. No source/ledger/cell verdict changes.
+
 ## 2026-11-27 — Wedge scalar growth and reference cost
 
 [Result](explorations/conditional-build/bet-cosmology-wedge-growth-2026-11-27.md) · [Evidence](lab/process/bet-cosmology-wedge-growth.json). In the declared leading 4D model, the scalar grows at most 0.84970 times H and may grow arbitrarily slowly, depending on the reference moments. Signed references can reverse or cancel the leading quadratic coefficient but remain unselected; trace-only rotation does not provide finite native volume. The 37 exact controls do not establish a DESI likelihood or physical dark-energy equation of state. Lane-C discovery only; ledger and matrix verdicts are unchanged.

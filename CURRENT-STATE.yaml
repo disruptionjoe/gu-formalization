@@ -1,7 +1,7 @@
 schema_version: '1.0'
 repository: observerse-research-program
 branch: main
-revision_basis: e10ee88b801ee1fc877936080c68ea84ca872f60
+revision_basis: 23b22b482fcd0aab12ccafdb538b08ca6dc6f156
 program_focus:
   version: 2026-11-27-v3
   authority: joe_direct_chat_2026_11_27_k
@@ -255,6 +255,27 @@ physics_ledger_reconciliation_2026_11_27_v:
   next: Directedledgerpasscomplete:resumeJoe27r1c finalwedgewave, evaluating27w Einstein-term/scalegate
     onactualGg andspecifiedreadout before genericquadraticgravityimports. Existing nonlinearCW route follows;
     W2 diagnostic only.
+cw_one_sided_boundary_2026_11_27:
+  status: internal_T2_reviewed
+  actual_delta: The actual selected frozen printed descriptor admits a regular full-threshold reduction.
+    Retaining free decaying off-band data changes the forced boundary divisor to sqrt(delta)-i nu. Fixed
+    smooth compact stable input packets have bounded boundary data and a forward-uniform quadratic response
+    through the threshold, by their nonstationary phase and integrable first-time-moment forcing. Ordinary-Sobolev
+    bilinear boundedness and nonlinear invariance remain open; the prior CW-only elimination-graph exclusion
+    is unchanged.
+  evidence:
+  - explorations/conditional-build/cw-one-sided-boundary-2026-11-27.md
+  - lab/process/cw-one-sided-boundary.json
+  source_bridge:
+    status: conditional
+    reason: SC-ACT-02 supplies the endpoint template and SC-META-52 acknowledges ultrahyperbolic debt;
+      neither selects this low-Phi realization, future boundary condition, norm or physical state law.
+  next: 'Joe27r2b next: test the actual one-sided boundary bilinear L2 x L2 to Fourier-local L2 estimate
+    uniformly through delta=0 on the held compact patches. Fixed-packet C1/C3 bounds are consumed; do
+    not repeat old graph exclusion or scalarizer. Pass permits nonlinear-domain work including free decaying
+    states; fail requires a declared stronger topology or another eligible route. Keep independent PT,
+    trapped-section, Lambda and uniqueness steps; wedge remains3of3 and W2 diagnostic only.'
+  verdict_effect: none; scoped quadratic survivor
 wedge_growth_2026_11_27:
   status: internal_T2_reviewed
   actual_delta: "In the reviewed leading local4D positive-reference wedge reduction, chi=|m_s\xB2|/H\xB2\

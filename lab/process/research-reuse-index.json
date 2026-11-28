@@ -2857,6 +2857,58 @@
         "receipt_ref": "lab/process/bet-cosmology-wedge-growth.json#verification",
         "scope": "37finitecontrols appliedtoreviewedfullmode; no nativephysicalreductionorcosmologyfit."
       }
+    },
+    {
+      "id": "cw-one-sided-boundary-2026-11-27",
+      "kind": "result",
+      "owner_ref": "explorations/conditional-build/cw-one-sided-boundary-2026-11-27.md",
+      "tested_statement": "The actual selected frozen printed descriptor admits a regular full-threshold reduction. Retaining free decaying off-band data changes the forced boundary divisor to sqrt(delta)-i nu. Fixed smooth compact stable input packets have bounded boundary data and a forward-uniform quadratic response through the threshold, by their nonstationary phase and integrable first-time-moment forcing. Ordinary-Sobolev bilinear boundedness and nonlinear invariance remain open; the prior CW-only elimination-graph exclusion is unchanged.",
+      "signature": {
+        "object": "Actual paired-root threshold boundary response",
+        "carrier": "Selected K95 printed full adjoint-valued one-form; local output collar",
+        "convention": "Negative actual quadratic force; regular clustered coordinates; primary-minus real adapter",
+        "class": "Smooth compact stable trace packets with independent decaying offband state; future boundary relation",
+        "premises": [
+          "explorations/conditional-build/cw-one-sided-boundary-2026-11-27.md"
+        ]
+      },
+      "attributed_status": "internal_T2_reviewed",
+      "status_ref": "lab/process/cw-one-sided-boundary.json#status",
+      "source_bridge_ref": "lab/process/cw-one-sided-boundary.json#source_bridge",
+      "certificate_refs": [
+        "lab/process/cw-one-sided-boundary-certificates.json"
+      ],
+      "control_refs": [
+        "tests/program-focus/cw_one_sided_boundary_probe.py"
+      ],
+      "survivors_ref": "lab/process/cw-one-sided-boundary.json#follow_through",
+      "reopen_condition_ref": "explorations/conditional-build/cw-one-sided-boundary-2026-11-27.md",
+      "superseded_by": null,
+      "cache": {
+        "artifacts": [
+          {
+            "path": "explorations/conditional-build/cw-one-sided-boundary-2026-11-27.md",
+            "sha256": "220b44e29aa64ba32906141215dc17c77d3d08005117bc90ac6566dd5d3cdc05"
+          },
+          {
+            "path": "tests/program-focus/cw_one_sided_boundary_probe.py",
+            "sha256": "856bf6d0bd3bd5f387b20f404c0e7aeb5d3010a4bcebcfc04d7c4db5a8fc1266"
+          },
+          {
+            "path": "lab/process/cw-one-sided-boundary-certificates.json",
+            "sha256": "f4e6666601b25a18bb1288d2fa19493df432e6b3f194fe17b301cf70d81e0ea2"
+          }
+        ],
+        "verifier": {
+          "command": "python3",
+          "args": [
+            "tests/program-focus/cw_one_sided_boundary_probe.py",
+            "--verify"
+          ]
+        },
+        "receipt_ref": "lab/process/cw-one-sided-boundary.json#verification",
+        "scope": "46 exact controls including actual sparse temporal scalarizer jet. Whole descriptor/coarea/time bound is reviewed written proof, not nonlinear existence."
+      }
     }
   ]
 }
