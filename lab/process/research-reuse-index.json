@@ -2961,6 +2961,58 @@
         "receipt_ref": "lab/process/cw-bilinear-boundary.json#verification",
         "scope": "52finitecontrols; fullnormproof is reviewed mathematics, not codeverified nonlinear existence."
       }
+    },
+    {
+      "id": "sibling-import-adjudication-2026-11-27",
+      "kind": "result",
+      "owner_ref": "explorations/conditional-build/sibling-import-adjudication-2026-11-27.md",
+      "tested_statement": "Ordered bb1\u201310 applicability pass complete after cc July reconciliation. Retained ray-level quaternionic involution, causal/records and completion controls; reused mirror/measure results; no DU dark-energy or physical issuance identification. Sharpened W159/W130, contour and sibling-debt scope without changing verdicts.",
+      "signature": {
+        "object": "Typed sibling-to-GU imports",
+        "carrier": "Distinct reduction, complex-ray, finite record/causal/task objects",
+        "convention": "No grade transport; three-state SOURCE/GU* discipline",
+        "class": "Eleven completion primitives and ten named sibling proposals",
+        "premises": [
+          "explorations/conditional-build/sibling-import-adjudication-2026-11-27.md"
+        ]
+      },
+      "attributed_status": "internal_T2_reviewed",
+      "status_ref": "lab/process/sibling-import-adjudication.json#status",
+      "source_bridge_ref": "lab/process/sibling-import-adjudication.json#source_bridge",
+      "certificate_refs": [
+        "lab/process/sibling-import-certificates.json"
+      ],
+      "control_refs": [
+        "tests/program-focus/sibling_import_probe.py"
+      ],
+      "survivors_ref": "lab/process/sibling-import-adjudication.json#follow_through",
+      "reopen_condition_ref": "explorations/conditional-build/sibling-import-adjudication-2026-11-27.md",
+      "superseded_by": null,
+      "cache": {
+        "artifacts": [
+          {
+            "path": "explorations/conditional-build/sibling-import-adjudication-2026-11-27.md",
+            "sha256": "fdbed367c43712738284f64d5e61f60c44c4bf565e11fd8c3fe912f009d9fd57"
+          },
+          {
+            "path": "tests/program-focus/sibling_import_probe.py",
+            "sha256": "6c6feb869eb16cf3838c7f490ff0d7727e37319fa47c5b16a8caebbe22b019c2"
+          },
+          {
+            "path": "lab/process/sibling-import-certificates.json",
+            "sha256": "3db53f9cd704e361ce326207ba65a741048d46ae078c9b553bf4151136747413"
+          }
+        ],
+        "verifier": {
+          "command": "python3",
+          "args": [
+            "tests/program-focus/sibling_import_probe.py",
+            "--verify"
+          ]
+        },
+        "receipt_ref": "lab/process/sibling-import-adjudication.json#verification",
+        "scope": "Finite algebra/controls and reviewed applicability; no physical theorem from sibling custody."
+      }
     }
   ]
 }

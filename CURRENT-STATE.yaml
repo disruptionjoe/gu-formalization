@@ -1,7 +1,7 @@
 schema_version: '1.0'
 repository: observerse-research-program
 branch: main
-revision_basis: 1f05c3a58819833e1fe1d4d783970dfe9a46676c
+revision_basis: b1dce0a1d5d9cc4ce5fc6d3d57de9c9507c58648
 program_focus:
   version: 2026-11-27-v3
   authority: joe_direct_chat_2026_11_27_k
@@ -256,10 +256,28 @@ physics_ledger_reconciliation_2026_11_27_v:
     onactualGg andspecifiedreadout before genericquadraticgravityimports. Existing nonlinearCW route follows;
     W2 diagnostic only.
 ordered_sibling_import_2026_11_27_bb:
-  status: ready_next_directed_run
+  status: consumed_with_scoped_results
   authority: joe_direct_chat_2026_11_27_bb
-  evidence: lab/process/source-action-opportunity-register-2026-11-25.json#ordered_sibling_import_2026_11_27_bb
-  next: 'Joe27bb next manual run: independently ingest/reverify ten sibling items in the directed order, starting with DU tachyon versus current wedge scalaron. No sibling grade becomes GU truth. Then resume the retained negative-factor CW vertex/estimate from cw-bilinear-boundary.json#follow_through.'
+  reconciliation_first: joe_direct_chat_2026_11_27_cc
+  evidence: lab/process/sibling-import-adjudication.json
+  next: Existing LC cadence, then retained negative-factor CW interaction; ordered imports are complete.
+sibling_import_adjudication_2026_11_27:
+  status: internal_T2_reviewed
+  actual_delta: "Ordered bb1\u201310 applicability pass complete after cc July reconciliation. Retained\
+    \ ray-level quaternionic involution, causal/records and completion controls; reused mirror/measure\
+    \ results; no DU dark-energy or physical issuance identification. Sharpened W159/W130, contour and\
+    \ sibling-debt scope without changing verdicts."
+  evidence:
+  - explorations/conditional-build/sibling-import-adjudication-2026-11-27.md
+  - lab/process/sibling-import-adjudication.json
+  source_bridge:
+    status: conditional
+    reason: Source observation and currents exist, but physical record, ray-domain, measure and selection
+      bridges are not supplied by sibling structures.
+  next: Ordered Joe27bb/cc pass consumed. Counter123 requires LC-BETS next under unchanged cadence; afterward
+    resume the retained actual a_out=-2 negative-factor CW vertex at kappa12 before a degenerate estimate.
+    Step2b remains2/max5; wedge3/max3. No new sibling-research backlog or physical choice.
+  verdict_effect: none; scoped applicability and algebra
 cw_bilinear_boundary_2026_11_27:
   status: internal_T2_reviewed
   actual_delta: The actual one-sided quadratic boundary map is locally bounded L2xL2 to L2, with threshold-tail

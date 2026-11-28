@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "basis_revision": "1f05c3a58819833e1fe1d4d783970dfe9a46676c",
+  "basis_revision": "b1dce0a1d5d9cc4ce5fc6d3d57de9c9507c58648",
   "scope": "Curated six-pillar x source/class/candidate linked view. Status belongs to cited owners; no scientific verdict promotion, automatic ranking, whole-history coverage or global percentage. Cheapest-next fields are attributed bounded suggestions, not dispatch instructions. Closed means resolved within the cited scope; it does not always mean falsified. Positive fits and remaining source/physical bridges stay explicit.",
   "assumptions_ref": "lab/process/action-constraint-matrix.json#source_relevance_assumption_view.shared_prerequisites",
   "dependencies": [
@@ -94,7 +94,7 @@
     },
     {
       "ref": "lab/process/action-constraint-matrix.json",
-      "sha256": "e0acf77b09f88111d105461acba9d087f3a4af27f707939945d6a9584a009c8d"
+      "sha256": "6935a040f9b8c70cdb3eaae700d6d7b7d967fc4f5982c4a3559f224bb07dc4d2"
     },
     {
       "ref": "lab/process/conditional-physics-ledger-v0.263.json",
@@ -223,6 +223,10 @@
     {
       "ref": "explorations/conditional-build/cw-bilinear-boundary-estimate-2026-11-27.md",
       "sha256": "a54e76bea6a75eb26a8114499e3660d9a4bd5e2b22b1e15ffcfb8d6af274d8b3"
+    },
+    {
+      "ref": "explorations/conditional-build/sibling-import-adjudication-2026-11-27.md",
+      "sha256": "fdbed367c43712738284f64d5e61f60c44c4bf565e11fd8c3fe912f009d9fd57"
     }
   ],
   "pillars": [
@@ -355,9 +359,24 @@
           "evidence_refs": [
             "explorations/conditional-build/source-action-full-auxiliary-map-2026-11-26.md",
             "explorations/conditional-build/source-action-scalar-normal-operator-2026-11-27.md",
-            "explorations/conditional-build/source-action-packet-phase-2026-11-27.md"
+            "explorations/conditional-build/source-action-packet-phase-2026-11-27.md",
+            "explorations/conditional-build/sibling-import-adjudication-2026-11-27.md"
           ],
-          "positive_fit": "Local analytic full-carrier solution germs exist despite the robust finite-loss estimate obstruction."
+          "positive_fit": "Local analytic full-carrier solution germs exist despite the robust finite-loss estimate obstruction.",
+          "sibling_import_scope": {
+            "items": [
+              2,
+              3,
+              4,
+              5,
+              8,
+              9,
+              10
+            ],
+            "evidence": "lab/process/sibling-import-adjudication.json",
+            "verdict_effect": "none",
+            "retained_missing_input": "Physical observation/current/state identification linking any imported template to source GU."
+          }
         }
       },
       "interpretive_options_27m": [
@@ -494,9 +513,18 @@
             "lab/active-research/joe-directed/ledger-advancement/la3-chiral-16-shadow-is-a-comparator-and-the-grant-is-inert-2026-08-15.md",
             "explorations/conditional-build/source-weak-action-transport-2026-11-13.md",
             "lab/process/observation-physical-carrier-custody-2026-11-27.md",
-            "explorations/conditional-build/bet-2plus1-local-complement-2026-11-27.md"
+            "explorations/conditional-build/bet-2plus1-local-complement-2026-11-27.md",
+            "explorations/conditional-build/sibling-import-adjudication-2026-11-27.md"
           ],
-          "positive_fit": "Conditional normal16 contains the familiar quark/lepton charge multiset; no generation count or independent evidence tally follows."
+          "positive_fit": "Conditional normal16 contains the familiar quark/lepton charge multiset; no generation count or independent evidence tally follows.",
+          "sibling_import_scope": {
+            "items": [
+              6
+            ],
+            "evidence": "lab/process/sibling-import-adjudication.json",
+            "verdict_effect": "none",
+            "retained_missing_input": "Physical observation/current/state identification linking any imported template to source GU."
+          }
         }
       },
       "interpretive_options_27m": [
@@ -562,9 +590,19 @@
             "explorations/conditional-build/source-action-theta-divergence-2026-11-27.md",
             "explorations/conditional-build/bet-cosmology-fixed-potentials-2026-11-11.md",
             "explorations/conditional-build/bet-cosmology-regular-perturbations-2026-11-24.md",
-            "explorations/conditional-build/printed-endpoint-analytic-branch-2026-11-27.md"
+            "explorations/conditional-build/printed-endpoint-analytic-branch-2026-11-27.md",
+            "explorations/conditional-build/sibling-import-adjudication-2026-11-27.md"
           ],
-          "positive_fit": "Declared scalar background fits and regular perturbation solutions are retained as conditional comparator evidence."
+          "positive_fit": "Declared scalar background fits and regular perturbation solutions are retained as conditional comparator evidence.",
+          "sibling_import_scope": {
+            "items": [
+              1,
+              7
+            ],
+            "evidence": "lab/process/sibling-import-adjudication.json",
+            "verdict_effect": "none",
+            "retained_missing_input": "Physical observation/current/state identification linking any imported template to source GU."
+          }
         }
       },
       "interpretive_options_27m": [
@@ -692,7 +730,9 @@
           "Pair excluded or resonant state retained: test new domain closure and observable content.",
           "No defined constraint: keep candidate role; no solved-selection credit."
         ],
-        "new_choice_families_adopted": 0
+        "new_choice_families_adopted": 0,
+        "sibling_import_scope_ref": "lab/process/sibling-import-adjudication.json",
+        "sibling_import_effect": "Reusable scoped guards; no physical bridge or new choice. See per-item progress-map effects."
       },
       {
         "id": "k1",
@@ -846,7 +886,9 @@
         "rank": 9,
         "status": "scope_first",
         "cheapest_test_or_revival": "Separate infinite-volume finite-measure requirement from independent dimensional-scale freedom; derive dimensionless observable response to section/datum before applying varying-constant bounds.",
-        "inference_limit": "Infinite volume alone does not prove a new dimensional scale or varying alpha; a reference weight can be dimensionless."
+        "inference_limit": "Infinite volume alone does not prove a new dimensional scale or varying alpha; a reference weight can be dimensionless.",
+        "sibling_import_scope_ref": "lab/process/sibling-import-adjudication.json",
+        "sibling_import_effect": "Reusable scoped guards; no physical bridge or new choice. See per-item progress-map effects."
       },
       {
         "id": "n5",
@@ -875,7 +917,9 @@
           "Requested smooth invariant density falls under the existing exclusion.",
           "No physical reduction/readout supplied: retain H1 as interpretation."
         ],
-        "new_choice_families_adopted": 0
+        "new_choice_families_adopted": 0,
+        "sibling_import_scope_ref": "lab/process/sibling-import-adjudication.json",
+        "sibling_import_effect": "Reusable scoped guards; no physical bridge or new choice. See per-item progress-map effects."
       },
       {
         "id": "l5",
@@ -892,7 +936,9 @@
         "rank": 11,
         "status": "requires_stress_and_coupling_bridge",
         "cheapest_test_or_revival": "Test actual observed stress/current on ker(observation) and ordinary charged interactions on a supplied physical state class.",
-        "inference_limit": "Slice-invisible does not imply gravitating, stable, positive, cold or electromagnetically dark; shared slice is an interpretation until source selection."
+        "inference_limit": "Slice-invisible does not imply gravitating, stable, positive, cold or electromagnetically dark; shared slice is an interpretation until source selection.",
+        "sibling_import_scope_ref": "lab/process/sibling-import-adjudication.json",
+        "sibling_import_effect": "Reusable scoped guards; no physical bridge or new choice. See per-item progress-map effects."
       },
       {
         "id": "m3",
@@ -931,7 +977,9 @@
         ],
         "title": "H3 mirror-balanced dark matter",
         "source_necessity": "conditional or absent until the specified physical bridge",
-        "new_choice_families_adopted": 0
+        "new_choice_families_adopted": 0,
+        "sibling_import_scope_ref": "lab/process/sibling-import-adjudication.json",
+        "sibling_import_effect": "Reusable scoped guards; no physical bridge or new choice. See per-item progress-map effects."
       },
       {
         "id": "k2",
@@ -1045,7 +1093,9 @@
         ],
         "title": "H1 observation horizon",
         "source_necessity": "conditional or absent until the specified physical bridge",
-        "new_choice_families_adopted": 0
+        "new_choice_families_adopted": 0,
+        "sibling_import_scope_ref": "lab/process/sibling-import-adjudication.json",
+        "sibling_import_effect": "Reusable scoped guards; no physical bridge or new choice. See per-item progress-map effects."
       },
       {
         "id": "k6",
@@ -1218,7 +1268,9 @@
         "rank": 28,
         "status": "exploratory_low_voi",
         "cheapest_test_or_revival": "Supply the exact category, evaluator and weak point-surjectivity before invoking a diagonal theorem.",
-        "inference_limit": "Historical abstract theorem does not authenticate its retracted physical realization; metaphor alone adds no obstruction."
+        "inference_limit": "Historical abstract theorem does not authenticate its retracted physical realization; metaphor alone adds no obstruction.",
+        "sibling_import_scope_ref": "lab/process/sibling-import-adjudication.json",
+        "sibling_import_effect": "Reusable scoped guards; no physical bridge or new choice. See per-item progress-map effects."
       },
       {
         "id": "m2",
@@ -1250,10 +1302,12 @@
         ],
         "title": "H2 relational records or commit selection",
         "source_necessity": "conditional or absent until the specified physical bridge",
-        "new_choice_families_adopted": 0
+        "new_choice_families_adopted": 0,
+        "sibling_import_scope_ref": "lab/process/sibling-import-adjudication.json",
+        "sibling_import_effect": "Reusable scoped guards; no physical bridge or new choice. See per-item progress-map effects."
       }
     ],
-    "top_next": "Joe27bb next manual run: independently ingest/reverify ten sibling items in the directed order, starting with DU tachyon versus current wedge scalaron. No sibling grade becomes GU truth. Then resume the retained negative-factor CW vertex/estimate from cw-bilinear-boundary.json#follow_through.",
+    "top_next": "Ordered Joe27bb/cc pass consumed. Counter123 requires LC-BETS next under unchanged cadence; afterward resume the retained actual a_out=-2 negative-factor CW vertex at kappa12 before a degenerate estimate. Step2b remains2/max5; wedge3/max3. No new sibling-research backlog or physical choice.",
     "track_policy": {
       "status": "applied",
       "authority": [
@@ -1424,7 +1478,87 @@
   "new_considerations_2026_11_27_z_bb": {
     "z_pool_ref": "lab/process/source-action-opportunity-register-2026-11-25.json#distributed_systems_2026_11_27_z",
     "ordered_import_ref": "lab/process/source-action-opportunity-register-2026-11-25.json#ordered_sibling_import_2026_11_27_bb",
-    "priority_effect": "Joe27bb next manual run: independently ingest/reverify ten sibling items in the directed order, starting with DU tachyon versus current wedge scalaron. No sibling grade becomes GU truth. Then resume the retained negative-factor CW vertex/estimate from cw-bilinear-boundary.json#follow_through.",
+    "priority_effect": "Ordered Joe27bb/cc pass consumed. Counter123 requires LC-BETS next under unchanged cadence; afterward resume the retained actual a_out=-2 negative-factor CW vertex at kappa12 before a degenerate estimate. Step2b remains2/max5; wedge3/max3. No new sibling-research backlog or physical choice.",
     "scientific_verdict_effect": "none"
+  },
+  "sibling_import_adjudication_2026_11_27": {
+    "evidence": [
+      "explorations/conditional-build/sibling-import-adjudication-2026-11-27.md",
+      "lab/process/sibling-import-adjudication.json"
+    ],
+    "per_item_effects": [
+      {
+        "item": 1,
+        "pillar": "dark_energy",
+        "layer": "candidate",
+        "delta": "Dark-energy identification unbuilt; own July and current wedge retain different actions, normalizations and domains. W159 supplies coefficient-sign freedom, not mixed-operator health.",
+        "verdict_changed": false
+      },
+      {
+        "item": 2,
+        "pillar": "predictive_dynamics",
+        "layer": "candidate",
+        "delta": "J induces a free involution on complex rays; no physical ray-domain, invariant-valuation to underivability, or issuance transfer.",
+        "verdict_changed": false
+      },
+      {
+        "item": 3,
+        "pillar": "predictive_dynamics",
+        "layer": "candidate",
+        "delta": "Eleven primitives applied to explicit CW/records/reference adapters; all physical packets incomplete; mathematical completions do not erase genuine estimates.",
+        "verdict_changed": false
+      },
+      {
+        "item": 4,
+        "pillar": "predictive_dynamics",
+        "layer": "candidate",
+        "delta": "Identical global clock readout fails unequal proper-time calibration; A/C survive. Corrected S6 fixture prices retained; GU does not yet pay record/finality debts.",
+        "verdict_changed": false
+      },
+      {
+        "item": 5,
+        "pillar": "predictive_dynamics",
+        "layer": "candidate",
+        "delta": "J+-typed causal template retained; finite graph/CNOT controls do not derive AQFT instruments or repair the GU domain.",
+        "verdict_changed": false
+      },
+      {
+        "item": 6,
+        "pillar": "chirality_generations",
+        "layer": "candidate",
+        "delta": "Reuse null-pair, conditional BdG and rolling-singlet results; fixed CAR guard retained without Fock/GNS conflation or a source condensate.",
+        "verdict_changed": false
+      },
+      {
+        "item": 7,
+        "pillar": "dark_energy",
+        "layer": "candidate",
+        "delta": "Bare DeWitt norm/reweight arithmetic does not supply a cosmological amplitude or finite native integral; correlated measures remain outside that narrow result.",
+        "verdict_changed": false
+      },
+      {
+        "item": 8,
+        "pillar": "predictive_dynamics",
+        "layer": "candidate",
+        "delta": "Equal amplitude-independent costs cannot yield unequal Born weights; pointer/split/probability/outcome remain distinct missing bridges.",
+        "verdict_changed": false
+      },
+      {
+        "item": 9,
+        "pillar": "predictive_dynamics",
+        "layer": "candidate",
+        "delta": "Section-to-issuance remains a readout analogy; scoped TI measure/capability progress credited, fixed-source changing-access control retained.",
+        "verdict_changed": false
+      },
+      {
+        "item": 10,
+        "pillar": "predictive_dynamics",
+        "layer": "candidate",
+        "delta": "Compatibility and selection separated; fixed source/seed/access/boundary competitors retained; no canonical physical branch selector supplied.",
+        "verdict_changed": false
+      }
+    ],
+    "next": "Ordered Joe27bb/cc pass consumed. Counter123 requires LC-BETS next under unchanged cadence; afterward resume the retained actual a_out=-2 negative-factor CW vertex at kappa12 before a degenerate estimate. Step2b remains2/max5; wedge3/max3. No new sibling-research backlog or physical choice.",
+    "scope": "Applicability evidence only; no physical verdict or class-C coverage increase."
   }
 }

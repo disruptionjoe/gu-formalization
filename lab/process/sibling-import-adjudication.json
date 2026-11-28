@@ -1,0 +1,769 @@
+{
+  "artifact": "SIBLING_IMPORT_ADJUDICATION",
+  "date": "2026-11-27",
+  "basis_revision": "b1dce0a1d5d9cc4ce5fc6d3d57de9c9507c58648",
+  "status": "internal_T2_reviewed",
+  "target": "X-P1-P2",
+  "tier": "T2",
+  "lane": "LB-LADDER",
+  "authority": [
+    "joe_direct_chat_2026_11_27_bb",
+    "joe_direct_chat_2026_11_27_cc"
+  ],
+  "actual_delta": "Ordered bb1\u201310 applicability pass complete after cc July reconciliation. Retained ray-level quaternionic involution, causal/records and completion controls; reused mirror/measure results; no DU dark-energy or physical issuance identification. Sharpened W159/W130, contour and sibling-debt scope without changing verdicts.",
+  "source_bridge": {
+    "status": "conditional",
+    "reason": "Source observation and currents exist, but physical record, ray-domain, measure and selection bridges are not supplied by sibling structures."
+  },
+  "class_C_representativeness": "Declared candidate/control classes only; no exhaustive source-family coverage.",
+  "source_necessary_exclusion": false,
+  "weakest_unproved_link": "Physical observation/current/state identification linking any imported template to source GU.",
+  "choice_budget": {
+    "families": 10,
+    "obligations": 4,
+    "net": 6,
+    "source_selected_predictions": 0,
+    "new_adopted_choices": 0,
+    "scope": "Historical candidate grouping, not a GU-wide parameter count."
+  },
+  "order": [
+    "cc own July reconciliation",
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  ],
+  "reconciliation": {
+    "disposition": "already_owned_reconciled",
+    "report": "explorations/conditional-build/sibling-import-adjudication-2026-11-27.md#0-first-reconcile-w153-w157-and-w159",
+    "structural_sign_verdict": "Not established for GU-type reductions: different action owners; W159 coefficient counterexample is not full mixed-operator health; wedge positive-reference theorem retains its exact scope.",
+    "escapes_reused": [
+      "RG branch/strong-coupling passage requires actual wedge flow",
+      "Velocity bound is not an attractor/domain proof",
+      "Changed shape coefficients are not wedge measure moments"
+    ],
+    "DU_status": "AF-roll interpretation conjectural; later target superseded; actual count/memory operators differ."
+  },
+  "items": [
+    {
+      "item": 1,
+      "name": "Tachyon bridge",
+      "disposition": "not_transferred",
+      "track": "GU* comparison; SOURCE truth unchanged",
+      "three_state": {
+        "ESTABLISHED": "Dark-energy identification unbuilt; own July and current wedge retain different actions, normalizations and domains. W159 supplies coefficient-sign freedom, not mixed-operator health.",
+        "RULED_OUT": "Only the explicitly disproved implication/control in the report; no new GU physical class kill.",
+        "NOT_MODELED_UNDETERMINED": "Source-required carrier/action/domain/observable identification beyond the declared adapter."
+      },
+      "artifact": "explorations/conditional-build/sibling-import-adjudication-2026-11-27.md",
+      "section": 1,
+      "progress_map_effect": {
+        "pillar": "dark_energy",
+        "layer": "candidate",
+        "delta": "Dark-energy identification unbuilt; own July and current wedge retain different actions, normalizations and domains. W159 supplies coefficient-sign freedom, not mixed-operator health.",
+        "verdict_changed": false
+      },
+      "independent_check_scope": "Root exact algebra/finite controls plus written derivation and primary-artifact scope review; no inherited sibling grade."
+    },
+    {
+      "item": 2,
+      "name": "Fixpoint-free structure",
+      "disposition": "transferred",
+      "track": "GU* comparison; SOURCE truth unchanged",
+      "three_state": {
+        "ESTABLISHED": "J induces a free involution on complex rays; no physical ray-domain, invariant-valuation to underivability, or issuance transfer.",
+        "RULED_OUT": "Only the explicitly disproved implication/control in the report; no new GU physical class kill.",
+        "NOT_MODELED_UNDETERMINED": "Source-required carrier/action/domain/observable identification beyond the declared adapter."
+      },
+      "artifact": "explorations/conditional-build/sibling-import-adjudication-2026-11-27.md",
+      "section": 2,
+      "progress_map_effect": {
+        "pillar": "predictive_dynamics",
+        "layer": "candidate",
+        "delta": "J induces a free involution on complex rays; no physical ray-domain, invariant-valuation to underivability, or issuance transfer.",
+        "verdict_changed": false
+      },
+      "independent_check_scope": "Root exact algebra/finite controls plus written derivation and primary-artifact scope review; no inherited sibling grade."
+    },
+    {
+      "item": 3,
+      "name": "Absorption harness",
+      "disposition": "transferred",
+      "track": "GU* comparison; SOURCE truth unchanged",
+      "three_state": {
+        "ESTABLISHED": "Eleven primitives applied to explicit CW/records/reference adapters; all physical packets incomplete; mathematical completions do not erase genuine estimates.",
+        "RULED_OUT": "Only the explicitly disproved implication/control in the report; no new GU physical class kill.",
+        "NOT_MODELED_UNDETERMINED": "Source-required carrier/action/domain/observable identification beyond the declared adapter."
+      },
+      "artifact": "explorations/conditional-build/sibling-import-adjudication-2026-11-27.md",
+      "section": 3,
+      "progress_map_effect": {
+        "pillar": "predictive_dynamics",
+        "layer": "candidate",
+        "delta": "Eleven primitives applied to explicit CW/records/reference adapters; all physical packets incomplete; mathematical completions do not erase genuine estimates.",
+        "verdict_changed": false
+      },
+      "independent_check_scope": "Root exact algebra/finite controls plus written derivation and primary-artifact scope review; no inherited sibling grade."
+    },
+    {
+      "item": 4,
+      "name": "Commit-law guardrails",
+      "disposition": "transferred",
+      "track": "GU* comparison; SOURCE truth unchanged",
+      "three_state": {
+        "ESTABLISHED": "Identical global clock readout fails unequal proper-time calibration; A/C survive. Corrected S6 fixture prices retained; GU does not yet pay record/finality debts.",
+        "RULED_OUT": "Only the explicitly disproved implication/control in the report; no new GU physical class kill.",
+        "NOT_MODELED_UNDETERMINED": "Source-required carrier/action/domain/observable identification beyond the declared adapter."
+      },
+      "artifact": "explorations/conditional-build/sibling-import-adjudication-2026-11-27.md",
+      "section": 4,
+      "progress_map_effect": {
+        "pillar": "predictive_dynamics",
+        "layer": "candidate",
+        "delta": "Identical global clock readout fails unequal proper-time calibration; A/C survive. Corrected S6 fixture prices retained; GU does not yet pay record/finality debts.",
+        "verdict_changed": false
+      },
+      "independent_check_scope": "Root exact algebra/finite controls plus written derivation and primary-artifact scope review; no inherited sibling grade."
+    },
+    {
+      "item": 5,
+      "name": "Covariant finality",
+      "disposition": "transferred",
+      "track": "GU* comparison; SOURCE truth unchanged",
+      "three_state": {
+        "ESTABLISHED": "J+-typed causal template retained; finite graph/CNOT controls do not derive AQFT instruments or repair the GU domain.",
+        "RULED_OUT": "Only the explicitly disproved implication/control in the report; no new GU physical class kill.",
+        "NOT_MODELED_UNDETERMINED": "Source-required carrier/action/domain/observable identification beyond the declared adapter."
+      },
+      "artifact": "explorations/conditional-build/sibling-import-adjudication-2026-11-27.md",
+      "section": 5,
+      "progress_map_effect": {
+        "pillar": "predictive_dynamics",
+        "layer": "candidate",
+        "delta": "J+-typed causal template retained; finite graph/CNOT controls do not derive AQFT instruments or repair the GU domain.",
+        "verdict_changed": false
+      },
+      "independent_check_scope": "Root exact algebra/finite controls plus written derivation and primary-artifact scope review; no inherited sibling grade."
+    },
+    {
+      "item": 6,
+      "name": "Mirror head start",
+      "disposition": "already_owned",
+      "track": "GU* comparison; SOURCE truth unchanged",
+      "three_state": {
+        "ESTABLISHED": "Reuse null-pair, conditional BdG and rolling-singlet results; fixed CAR guard retained without Fock/GNS conflation or a source condensate.",
+        "RULED_OUT": "Only the explicitly disproved implication/control in the report; no new GU physical class kill.",
+        "NOT_MODELED_UNDETERMINED": "Source-required carrier/action/domain/observable identification beyond the declared adapter."
+      },
+      "artifact": "explorations/conditional-build/sibling-import-adjudication-2026-11-27.md",
+      "section": 6,
+      "progress_map_effect": {
+        "pillar": "chirality_generations",
+        "layer": "candidate",
+        "delta": "Reuse null-pair, conditional BdG and rolling-singlet results; fixed CAR guard retained without Fock/GNS conflation or a source condensate.",
+        "verdict_changed": false
+      },
+      "independent_check_scope": "Root exact algebra/finite controls plus written derivation and primary-artifact scope review; no inherited sibling grade."
+    },
+    {
+      "item": 7,
+      "name": "Measure route",
+      "disposition": "already_owned",
+      "track": "GU* comparison; SOURCE truth unchanged",
+      "three_state": {
+        "ESTABLISHED": "Bare DeWitt norm/reweight arithmetic does not supply a cosmological amplitude or finite native integral; correlated measures remain outside that narrow result.",
+        "RULED_OUT": "Only the explicitly disproved implication/control in the report; no new GU physical class kill.",
+        "NOT_MODELED_UNDETERMINED": "Source-required carrier/action/domain/observable identification beyond the declared adapter."
+      },
+      "artifact": "explorations/conditional-build/sibling-import-adjudication-2026-11-27.md",
+      "section": 7,
+      "progress_map_effect": {
+        "pillar": "dark_energy",
+        "layer": "candidate",
+        "delta": "Bare DeWitt norm/reweight arithmetic does not supply a cosmological amplitude or finite native integral; correlated measures remain outside that narrow result.",
+        "verdict_changed": false
+      },
+      "independent_check_scope": "Root exact algebra/finite controls plus written derivation and primary-artifact scope review; no inherited sibling grade."
+    },
+    {
+      "item": 8,
+      "name": "Records and measurement",
+      "disposition": "transferred",
+      "track": "GU* comparison; SOURCE truth unchanged",
+      "three_state": {
+        "ESTABLISHED": "Equal amplitude-independent costs cannot yield unequal Born weights; pointer/split/probability/outcome remain distinct missing bridges.",
+        "RULED_OUT": "Only the explicitly disproved implication/control in the report; no new GU physical class kill.",
+        "NOT_MODELED_UNDETERMINED": "Source-required carrier/action/domain/observable identification beyond the declared adapter."
+      },
+      "artifact": "explorations/conditional-build/sibling-import-adjudication-2026-11-27.md",
+      "section": 8,
+      "progress_map_effect": {
+        "pillar": "predictive_dynamics",
+        "layer": "candidate",
+        "delta": "Equal amplitude-independent costs cannot yield unequal Born weights; pointer/split/probability/outcome remain distinct missing bridges.",
+        "verdict_changed": false
+      },
+      "independent_check_scope": "Root exact algebra/finite controls plus written derivation and primary-artifact scope review; no inherited sibling grade."
+    },
+    {
+      "item": 9,
+      "name": "Observer issuance",
+      "disposition": "not_transferred",
+      "track": "GU* comparison; SOURCE truth unchanged",
+      "three_state": {
+        "ESTABLISHED": "Section-to-issuance remains a readout analogy; scoped TI measure/capability progress credited, fixed-source changing-access control retained.",
+        "RULED_OUT": "Only the explicitly disproved implication/control in the report; no new GU physical class kill.",
+        "NOT_MODELED_UNDETERMINED": "Source-required carrier/action/domain/observable identification beyond the declared adapter."
+      },
+      "artifact": "explorations/conditional-build/sibling-import-adjudication-2026-11-27.md",
+      "section": 9,
+      "progress_map_effect": {
+        "pillar": "predictive_dynamics",
+        "layer": "candidate",
+        "delta": "Section-to-issuance remains a readout analogy; scoped TI measure/capability progress credited, fixed-source changing-access control retained.",
+        "verdict_changed": false
+      },
+      "independent_check_scope": "Root exact algebra/finite controls plus written derivation and primary-artifact scope review; no inherited sibling grade."
+    },
+    {
+      "item": 10,
+      "name": "Fork-choice template",
+      "disposition": "transferred",
+      "track": "GU* comparison; SOURCE truth unchanged",
+      "three_state": {
+        "ESTABLISHED": "Compatibility and selection separated; fixed source/seed/access/boundary competitors retained; no canonical physical branch selector supplied.",
+        "RULED_OUT": "Only the explicitly disproved implication/control in the report; no new GU physical class kill.",
+        "NOT_MODELED_UNDETERMINED": "Source-required carrier/action/domain/observable identification beyond the declared adapter."
+      },
+      "artifact": "explorations/conditional-build/sibling-import-adjudication-2026-11-27.md",
+      "section": 10,
+      "progress_map_effect": {
+        "pillar": "predictive_dynamics",
+        "layer": "candidate",
+        "delta": "Compatibility and selection separated; fixed source/seed/access/boundary competitors retained; no canonical physical branch selector supplied.",
+        "verdict_changed": false
+      },
+      "independent_check_scope": "Root exact algebra/finite controls plus written derivation and primary-artifact scope review; no inherited sibling grade."
+    }
+  ],
+  "custody": [
+    {
+      "repository": "gu-formalization",
+      "revision": "b1dce0a1d5d9cc4ce5fc6d3d57de9c9507c58648",
+      "path": "explorations/W153-marble-corrected-and-tachyon-cheapwood-test-2026-07-14.md",
+      "blob": "050839fc4a322f65b54705b160b0242cdec9b0b7",
+      "url": "https://github.com/disruptionjoe/gu-formalization/blob/b1dce0a1d5d9cc4ce5fc6d3d57de9c9507c58648/explorations/W153-marble-corrected-and-tachyon-cheapwood-test-2026-07-14.md"
+    },
+    {
+      "repository": "gu-formalization",
+      "revision": "b1dce0a1d5d9cc4ce5fc6d3d57de9c9507c58648",
+      "path": "explorations/W157-a2-equals-minus-a1-squared-keystone-2026-07-14.md",
+      "blob": "22f565d60cb1a9b7bc5673e66b6f8932765b60e4",
+      "url": "https://github.com/disruptionjoe/gu-formalization/blob/b1dce0a1d5d9cc4ce5fc6d3d57de9c9507c58648/explorations/W157-a2-equals-minus-a1-squared-keystone-2026-07-14.md"
+    },
+    {
+      "repository": "gu-formalization",
+      "revision": "b1dce0a1d5d9cc4ce5fc6d3d57de9c9507c58648",
+      "path": "explorations/W159-tachyon-escapes-2026-07-14.md",
+      "blob": "d18f0be95d41d8a28964b4be0a62c61c3edc5e3f",
+      "url": "https://github.com/disruptionjoe/gu-formalization/blob/b1dce0a1d5d9cc4ce5fc6d3d57de9c9507c58648/explorations/W159-tachyon-escapes-2026-07-14.md"
+    },
+    {
+      "repository": "gu-formalization",
+      "revision": "b1dce0a1d5d9cc4ce5fc6d3d57de9c9507c58648",
+      "path": "explorations/W130-native-graviton-oneloop-block-2026-07-14.md",
+      "blob": "a34c199a4bc5431e9b5c119daa2c03e9bee9038a",
+      "url": "https://github.com/disruptionjoe/gu-formalization/blob/b1dce0a1d5d9cc4ce5fc6d3d57de9c9507c58648/explorations/W130-native-graviton-oneloop-block-2026-07-14.md"
+    },
+    {
+      "repository": "gu-formalization",
+      "revision": "b1dce0a1d5d9cc4ce5fc6d3d57de9c9507c58648",
+      "path": "explorations/conditional-build/wedge-shiab-einstein-reduction-2026-11-27.md",
+      "blob": "f5127e5c861ebd858d65e2c3ad5bbc5a8263cf87",
+      "url": "https://github.com/disruptionjoe/gu-formalization/blob/b1dce0a1d5d9cc4ce5fc6d3d57de9c9507c58648/explorations/conditional-build/wedge-shiab-einstein-reduction-2026-11-27.md"
+    },
+    {
+      "repository": "gu-formalization",
+      "revision": "b1dce0a1d5d9cc4ce5fc6d3d57de9c9507c58648",
+      "path": "explorations/conditional-build/bet-cosmology-wedge-growth-2026-11-27.md",
+      "blob": "690b33ed3c7cd0fc32ddfdad404fa1a084f8a630",
+      "url": "https://github.com/disruptionjoe/gu-formalization/blob/b1dce0a1d5d9cc4ce5fc6d3d57de9c9507c58648/explorations/conditional-build/bet-cosmology-wedge-growth-2026-11-27.md"
+    },
+    {
+      "repository": "gu-formalization",
+      "revision": "b1dce0a1d5d9cc4ce5fc6d3d57de9c9507c58648",
+      "path": "explorations/conditional-build/source-action-dynamics-and-continuation-2026-11-25.md",
+      "blob": "b68de087df2d41de585a824a5937c1644559ce4a",
+      "url": "https://github.com/disruptionjoe/gu-formalization/blob/b1dce0a1d5d9cc4ce5fc6d3d57de9c9507c58648/explorations/conditional-build/source-action-dynamics-and-continuation-2026-11-25.md"
+    },
+    {
+      "repository": "gu-formalization",
+      "revision": "b1dce0a1d5d9cc4ce5fc6d3d57de9c9507c58648",
+      "path": "explorations/conditional-build/source-action-current-receiver-2026-11-26.md",
+      "blob": "4c05dd910fefe12d367354e7d0b62b5a30670ddb",
+      "url": "https://github.com/disruptionjoe/gu-formalization/blob/b1dce0a1d5d9cc4ce5fc6d3d57de9c9507c58648/explorations/conditional-build/source-action-current-receiver-2026-11-26.md"
+    },
+    {
+      "repository": "gu-formalization",
+      "revision": "b1dce0a1d5d9cc4ce5fc6d3d57de9c9507c58648",
+      "path": "explorations/conditional-build/cw-one-sided-boundary-2026-11-27.md",
+      "blob": "0833ac40473e609e71ee473b8f9374ecfd8ba937",
+      "url": "https://github.com/disruptionjoe/gu-formalization/blob/b1dce0a1d5d9cc4ce5fc6d3d57de9c9507c58648/explorations/conditional-build/cw-one-sided-boundary-2026-11-27.md"
+    },
+    {
+      "repository": "gu-formalization",
+      "revision": "b1dce0a1d5d9cc4ce5fc6d3d57de9c9507c58648",
+      "path": "explorations/conditional-build/cw-bilinear-boundary-estimate-2026-11-27.md",
+      "blob": "e8628f29642f909fb458fe11fde376e7b38528eb",
+      "url": "https://github.com/disruptionjoe/gu-formalization/blob/b1dce0a1d5d9cc4ce5fc6d3d57de9c9507c58648/explorations/conditional-build/cw-bilinear-boundary-estimate-2026-11-27.md"
+    },
+    {
+      "repository": "gu-formalization",
+      "revision": "b1dce0a1d5d9cc4ce5fc6d3d57de9c9507c58648",
+      "path": "explorations/W173-brst-cohomology-mirror-sector-2026-07-14.md",
+      "blob": "06f22817233ea73c3ac07c17442c2495a5d5e171",
+      "url": "https://github.com/disruptionjoe/gu-formalization/blob/b1dce0a1d5d9cc4ce5fc6d3d57de9c9507c58648/explorations/W173-brst-cohomology-mirror-sector-2026-07-14.md"
+    },
+    {
+      "repository": "gu-formalization",
+      "revision": "b1dce0a1d5d9cc4ce5fc6d3d57de9c9507c58648",
+      "path": "explorations/W216-true-vacuum-spectral-condensate-2026-07-14.md",
+      "blob": "f431e98e41159faaf3b4e737080dfac8e8da022f",
+      "url": "https://github.com/disruptionjoe/gu-formalization/blob/b1dce0a1d5d9cc4ce5fc6d3d57de9c9507c58648/explorations/W216-true-vacuum-spectral-condensate-2026-07-14.md"
+    },
+    {
+      "repository": "gu-formalization",
+      "revision": "b1dce0a1d5d9cc4ce5fc6d3d57de9c9507c58648",
+      "path": "explorations/W224-native-good-stable-dynamical-vacuum-2026-07-15.md",
+      "blob": "3a0dab602ef0b7d34724a4f81c681232151c437f",
+      "url": "https://github.com/disruptionjoe/gu-formalization/blob/b1dce0a1d5d9cc4ce5fc6d3d57de9c9507c58648/explorations/W224-native-good-stable-dynamical-vacuum-2026-07-15.md"
+    },
+    {
+      "repository": "gu-formalization",
+      "revision": "b1dce0a1d5d9cc4ce5fc6d3d57de9c9507c58648",
+      "path": "explorations/dq4-rolling-mode-representation-type-2026-08-03.md",
+      "blob": "9989d4d7c0457f250482c4f7260e7f6f501f77ea",
+      "url": "https://github.com/disruptionjoe/gu-formalization/blob/b1dce0a1d5d9cc4ce5fc6d3d57de9c9507c58648/explorations/dq4-rolling-mode-representation-type-2026-08-03.md"
+    },
+    {
+      "repository": "dynamic-unity",
+      "revision": "af4b9d5cdec2fa398b1b8cc26f14d1f1b02b3c2d",
+      "path": "AGENTS.md",
+      "blob": "fa87cc4424ced55b649abe6558e86d6c0ee117a1",
+      "url": "https://github.com/disruptionjoe/dynamic-unity/blob/af4b9d5cdec2fa398b1b8cc26f14d1f1b02b3c2d/AGENTS.md"
+    },
+    {
+      "repository": "dynamic-unity",
+      "revision": "af4b9d5cdec2fa398b1b8cc26f14d1f1b02b3c2d",
+      "path": "CONNECTIONS.md",
+      "blob": "b38e20c905ad8a47ce4735b0a31eaa8b28cd4ce9",
+      "url": "https://github.com/disruptionjoe/dynamic-unity/blob/af4b9d5cdec2fa398b1b8cc26f14d1f1b02b3c2d/CONNECTIONS.md"
+    },
+    {
+      "repository": "dynamic-unity",
+      "revision": "af4b9d5cdec2fa398b1b8cc26f14d1f1b02b3c2d",
+      "path": "README.md",
+      "blob": "fcef76e3db742d3d6cadc9fad723875a45048d9b",
+      "url": "https://github.com/disruptionjoe/dynamic-unity/blob/af4b9d5cdec2fa398b1b8cc26f14d1f1b02b3c2d/README.md"
+    },
+    {
+      "repository": "dynamic-unity",
+      "revision": "af4b9d5cdec2fa398b1b8cc26f14d1f1b02b3c2d",
+      "path": "LANES.yaml",
+      "blob": "e9a9c25cfd074588e91b0d18900ab02ee2f3ccaf",
+      "url": "https://github.com/disruptionjoe/dynamic-unity/blob/af4b9d5cdec2fa398b1b8cc26f14d1f1b02b3c2d/LANES.yaml"
+    },
+    {
+      "repository": "dynamic-unity",
+      "revision": "af4b9d5cdec2fa398b1b8cc26f14d1f1b02b3c2d",
+      "path": "explorations/dynamic-tension-reframe-sweep-2026-07-21.md",
+      "blob": "86330ea4047b031458a31ebe18dd543c3617ba08",
+      "url": "https://github.com/disruptionjoe/dynamic-unity/blob/af4b9d5cdec2fa398b1b8cc26f14d1f1b02b3c2d/explorations/dynamic-tension-reframe-sweep-2026-07-21.md"
+    },
+    {
+      "repository": "dynamic-unity",
+      "revision": "af4b9d5cdec2fa398b1b8cc26f14d1f1b02b3c2d",
+      "path": "explorations/du-loss-and-lambda-criticality-synthesis-2026-07-22.md",
+      "blob": "4025846a3af9b9ad557099a87592b4bfb1966e43",
+      "url": "https://github.com/disruptionjoe/dynamic-unity/blob/af4b9d5cdec2fa398b1b8cc26f14d1f1b02b3c2d/explorations/du-loss-and-lambda-criticality-synthesis-2026-07-22.md"
+    },
+    {
+      "repository": "dynamic-unity",
+      "revision": "af4b9d5cdec2fa398b1b8cc26f14d1f1b02b3c2d",
+      "path": "explorations/lambda-N-covariant-perturbation-kill-2026-07-21.md",
+      "blob": "54b0f991293ae2984a058d5fc61882ede36351b5",
+      "url": "https://github.com/disruptionjoe/dynamic-unity/blob/af4b9d5cdec2fa398b1b8cc26f14d1f1b02b3c2d/explorations/lambda-N-covariant-perturbation-kill-2026-07-21.md"
+    },
+    {
+      "repository": "dynamic-unity",
+      "revision": "af4b9d5cdec2fa398b1b8cc26f14d1f1b02b3c2d",
+      "path": "explorations/causal-memory-order-first-martingale-frontier-2026-07-21.md",
+      "blob": "2e9db97113b31a8d74d95c0a146faaecf7b63462",
+      "url": "https://github.com/disruptionjoe/dynamic-unity/blob/af4b9d5cdec2fa398b1b8cc26f14d1f1b02b3c2d/explorations/causal-memory-order-first-martingale-frontier-2026-07-21.md"
+    },
+    {
+      "repository": "dynamic-unity",
+      "revision": "af4b9d5cdec2fa398b1b8cc26f14d1f1b02b3c2d",
+      "path": "explorations/record-immutability-forces-external-involution-2026-07-21.md",
+      "blob": "91cd1c9f20c4353aff5dd1b4d8f7962c3f06ad3d",
+      "url": "https://github.com/disruptionjoe/dynamic-unity/blob/af4b9d5cdec2fa398b1b8cc26f14d1f1b02b3c2d/explorations/record-immutability-forces-external-involution-2026-07-21.md"
+    },
+    {
+      "repository": "dynamic-unity",
+      "revision": "af4b9d5cdec2fa398b1b8cc26f14d1f1b02b3c2d",
+      "path": "explorations/self-authoring-dirac-synthesis-2026-07-21.md",
+      "blob": "5bbbf5f209c330860dde232cee444ab953dcdb2e",
+      "url": "https://github.com/disruptionjoe/dynamic-unity/blob/af4b9d5cdec2fa398b1b8cc26f14d1f1b02b3c2d/explorations/self-authoring-dirac-synthesis-2026-07-21.md"
+    },
+    {
+      "repository": "dynamic-unity",
+      "revision": "af4b9d5cdec2fa398b1b8cc26f14d1f1b02b3c2d",
+      "path": "explorations/self-authoring-dirac-adversarial-kill-2026-07-21.md",
+      "blob": "ca6a0a3478942aef8626a8ee1adbc859f71b408e",
+      "url": "https://github.com/disruptionjoe/dynamic-unity/blob/af4b9d5cdec2fa398b1b8cc26f14d1f1b02b3c2d/explorations/self-authoring-dirac-adversarial-kill-2026-07-21.md"
+    },
+    {
+      "repository": "dynamic-unity",
+      "revision": "af4b9d5cdec2fa398b1b8cc26f14d1f1b02b3c2d",
+      "path": "explorations/covariant-finality-collapse-synthesis-2026-07-21.md",
+      "blob": "6e6acea126796f3db2a1c5bafafc282953958d93",
+      "url": "https://github.com/disruptionjoe/dynamic-unity/blob/af4b9d5cdec2fa398b1b8cc26f14d1f1b02b3c2d/explorations/covariant-finality-collapse-synthesis-2026-07-21.md"
+    },
+    {
+      "repository": "dynamic-unity",
+      "revision": "af4b9d5cdec2fa398b1b8cc26f14d1f1b02b3c2d",
+      "path": "explorations/covariant-finality-collapse-build-2026-07-21.md",
+      "blob": "d9630baf698ffd586a48470e748fe16a52ab9430",
+      "url": "https://github.com/disruptionjoe/dynamic-unity/blob/af4b9d5cdec2fa398b1b8cc26f14d1f1b02b3c2d/explorations/covariant-finality-collapse-build-2026-07-21.md"
+    },
+    {
+      "repository": "dynamic-unity",
+      "revision": "af4b9d5cdec2fa398b1b8cc26f14d1f1b02b3c2d",
+      "path": "explorations/covariant-finality-collapse-adversarial-kill-2026-07-21.md",
+      "blob": "fc73d364c0ea2f9b0d24dd1acdc31d3dc9b661ef",
+      "url": "https://github.com/disruptionjoe/dynamic-unity/blob/af4b9d5cdec2fa398b1b8cc26f14d1f1b02b3c2d/explorations/covariant-finality-collapse-adversarial-kill-2026-07-21.md"
+    },
+    {
+      "repository": "dynamic-unity",
+      "revision": "af4b9d5cdec2fa398b1b8cc26f14d1f1b02b3c2d",
+      "path": "explorations/mirror-condensate-algebra-growth-build-2026-07-21.md",
+      "blob": "2fbdab014d387509a68314b050350db4e7bd3d00",
+      "url": "https://github.com/disruptionjoe/dynamic-unity/blob/af4b9d5cdec2fa398b1b8cc26f14d1f1b02b3c2d/explorations/mirror-condensate-algebra-growth-build-2026-07-21.md"
+    },
+    {
+      "repository": "dynamic-unity",
+      "revision": "af4b9d5cdec2fa398b1b8cc26f14d1f1b02b3c2d",
+      "path": "explorations/mirror-condensate-adversarial-kill-2026-07-21.md",
+      "blob": "ff10dad43ee82449c9c3ebfa089f63f881c10b22",
+      "url": "https://github.com/disruptionjoe/dynamic-unity/blob/af4b9d5cdec2fa398b1b8cc26f14d1f1b02b3c2d/explorations/mirror-condensate-adversarial-kill-2026-07-21.md"
+    },
+    {
+      "repository": "dynamic-unity",
+      "revision": "af4b9d5cdec2fa398b1b8cc26f14d1f1b02b3c2d",
+      "path": "explorations/de-amplitude-dewitt-route-2026-07-21.md",
+      "blob": "60b99cd02f97c4abf6e0e176fe73749b4968901d",
+      "url": "https://github.com/disruptionjoe/dynamic-unity/blob/af4b9d5cdec2fa398b1b8cc26f14d1f1b02b3c2d/explorations/de-amplitude-dewitt-route-2026-07-21.md"
+    },
+    {
+      "repository": "dynamic-unity",
+      "revision": "af4b9d5cdec2fa398b1b8cc26f14d1f1b02b3c2d",
+      "path": "explorations/bet1-measurement-via-records-finality-2026-07-21.md",
+      "blob": "ff53e9a5e62c7d636f11c50860ca19fc9b7a434f",
+      "url": "https://github.com/disruptionjoe/dynamic-unity/blob/af4b9d5cdec2fa398b1b8cc26f14d1f1b02b3c2d/explorations/bet1-measurement-via-records-finality-2026-07-21.md"
+    },
+    {
+      "repository": "time-as-finality",
+      "revision": "474b0e9d42b298fba300eebc4af1f8a1e485b315",
+      "path": "AGENTS.md",
+      "blob": "afd7a5d8a05116d892cf6ce95240eab6e85ab44e",
+      "url": "https://github.com/disruptionjoe/time-as-finality/blob/474b0e9d42b298fba300eebc4af1f8a1e485b315/AGENTS.md"
+    },
+    {
+      "repository": "time-as-finality",
+      "revision": "474b0e9d42b298fba300eebc4af1f8a1e485b315",
+      "path": "VERDICT.md",
+      "blob": "ecc63e964ec7fd1dc17f8f6e8f3bc9651a839d7f",
+      "url": "https://github.com/disruptionjoe/time-as-finality/blob/474b0e9d42b298fba300eebc4af1f8a1e485b315/VERDICT.md"
+    },
+    {
+      "repository": "time-as-finality",
+      "revision": "474b0e9d42b298fba300eebc4af1f8a1e485b315",
+      "path": "explorations/goal2-charter-verdict-2026-07-28.md",
+      "blob": "8a9f851a1d167a631f203428da1edf3158b54a32",
+      "url": "https://github.com/disruptionjoe/time-as-finality/blob/474b0e9d42b298fba300eebc4af1f8a1e485b315/explorations/goal2-charter-verdict-2026-07-28.md"
+    },
+    {
+      "repository": "time-as-finality",
+      "revision": "474b0e9d42b298fba300eebc4af1f8a1e485b315",
+      "path": "explorations/commit-module-s6-series-conclusion-2026-07-28.md",
+      "blob": "c7e48f618670beff23ed311d2d73da7ba099fdd6",
+      "url": "https://github.com/disruptionjoe/time-as-finality/blob/474b0e9d42b298fba300eebc4af1f8a1e485b315/explorations/commit-module-s6-series-conclusion-2026-07-28.md"
+    },
+    {
+      "repository": "time-as-finality",
+      "revision": "474b0e9d42b298fba300eebc4af1f8a1e485b315",
+      "path": "tests/T588-record-issuance-contract-fork-gate.md",
+      "blob": "8683f76c0d7cb8901dbadcf8a16eacee46c256ad",
+      "url": "https://github.com/disruptionjoe/time-as-finality/blob/474b0e9d42b298fba300eebc4af1f8a1e485b315/tests/T588-record-issuance-contract-fork-gate.md"
+    },
+    {
+      "repository": "time-as-finality",
+      "revision": "474b0e9d42b298fba300eebc4af1f8a1e485b315",
+      "path": "models/t588_record_issuance_contract_fork_gate.py",
+      "blob": "8f2724af1c2fe1e6a70bf6a71d5409a4b29d861d",
+      "url": "https://github.com/disruptionjoe/time-as-finality/blob/474b0e9d42b298fba300eebc4af1f8a1e485b315/models/t588_record_issuance_contract_fork_gate.py"
+    },
+    {
+      "repository": "temporal-issuance",
+      "revision": "17d766382df4d607b161b75a5c81eca18f0a5e3f",
+      "path": "AGENTS.md",
+      "blob": "2aa642a1a096d3d576781db11569327aae667bfa",
+      "url": "https://github.com/disruptionjoe/temporal-issuance/blob/17d766382df4d607b161b75a5c81eca18f0a5e3f/AGENTS.md"
+    },
+    {
+      "repository": "temporal-issuance",
+      "revision": "17d766382df4d607b161b75a5c81eca18f0a5e3f",
+      "path": "COMPLETION-CLASS.md",
+      "blob": "f49c4d5b912102269bf72f85113bd809b34f70ba",
+      "url": "https://github.com/disruptionjoe/temporal-issuance/blob/17d766382df4d607b161b75a5c81eca18f0a5e3f/COMPLETION-CLASS.md"
+    },
+    {
+      "repository": "temporal-issuance",
+      "revision": "17d766382df4d607b161b75a5c81eca18f0a5e3f",
+      "path": "FORMAL-OBJECT.md",
+      "blob": "974e76bb27e60c18d604d57dca68a6e7c06830e2",
+      "url": "https://github.com/disruptionjoe/temporal-issuance/blob/17d766382df4d607b161b75a5c81eca18f0a5e3f/FORMAL-OBJECT.md"
+    },
+    {
+      "repository": "temporal-issuance",
+      "revision": "17d766382df4d607b161b75a5c81eca18f0a5e3f",
+      "path": "formal/lean/OnlineIssuance/BoundaryInvolution.lean",
+      "blob": "9e3db088736f4068582360265ea3d36840e292de",
+      "url": "https://github.com/disruptionjoe/temporal-issuance/blob/17d766382df4d607b161b75a5c81eca18f0a5e3f/formal/lean/OnlineIssuance/BoundaryInvolution.lean"
+    },
+    {
+      "repository": "temporal-issuance",
+      "revision": "17d766382df4d607b161b75a5c81eca18f0a5e3f",
+      "path": "DRIVING-HYPOTHESIS-OBSERVER-ISSUANCE.md",
+      "blob": "05d589bfaa3b30f1cf7c3ed55faa8da781182217",
+      "url": "https://github.com/disruptionjoe/temporal-issuance/blob/17d766382df4d607b161b75a5c81eca18f0a5e3f/DRIVING-HYPOTHESIS-OBSERVER-ISSUANCE.md"
+    },
+    {
+      "repository": "temporal-issuance",
+      "revision": "17d766382df4d607b161b75a5c81eca18f0a5e3f",
+      "path": "explorations/E097-clock-free-cadence-absorber-gauntlet-2026-06-30.md",
+      "blob": "17ddc8ea8a84d0831bdd0b09a5fe161bb9d1b90a",
+      "url": "https://github.com/disruptionjoe/temporal-issuance/blob/17d766382df4d607b161b75a5c81eca18f0a5e3f/explorations/E097-clock-free-cadence-absorber-gauntlet-2026-06-30.md"
+    },
+    {
+      "repository": "temporal-issuance",
+      "revision": "17d766382df4d607b161b75a5c81eca18f0a5e3f",
+      "path": "explorations/E119-tri-repo-capability-burden-retyping-2026-07-02.md",
+      "blob": "c9976e80aaa9e749dc944fd15f80a899006a7bcd",
+      "url": "https://github.com/disruptionjoe/temporal-issuance/blob/17d766382df4d607b161b75a5c81eca18f0a5e3f/explorations/E119-tri-repo-capability-burden-retyping-2026-07-02.md"
+    },
+    {
+      "repository": "temporal-issuance",
+      "revision": "17d766382df4d607b161b75a5c81eca18f0a5e3f",
+      "path": "CLAIM-LEDGER.md",
+      "blob": "102e8232e940a68a2296209e75a029dc56e745b3",
+      "url": "https://github.com/disruptionjoe/temporal-issuance/blob/17d766382df4d607b161b75a5c81eca18f0a5e3f/CLAIM-LEDGER.md"
+    },
+    {
+      "repository": "temporal-issuance",
+      "revision": "17d766382df4d607b161b75a5c81eca18f0a5e3f",
+      "path": "ROADMAP.md",
+      "blob": "60c9f82d0f2fa6cb4f3a191ebb12eb0aed22316e",
+      "url": "https://github.com/disruptionjoe/temporal-issuance/blob/17d766382df4d607b161b75a5c81eca18f0a5e3f/ROADMAP.md"
+    },
+    {
+      "repository": "temporal-issuance",
+      "revision": "17d766382df4d607b161b75a5c81eca18f0a5e3f",
+      "path": "explorations/E061-h3-c1-c3-bridge-from-finite-filtered-functor-2026-06-24.md",
+      "blob": "d303a7765140bff46aabcb9002cb922dba5237dd",
+      "url": "https://github.com/disruptionjoe/temporal-issuance/blob/17d766382df4d607b161b75a5c81eca18f0a5e3f/explorations/E061-h3-c1-c3-bridge-from-finite-filtered-functor-2026-06-24.md"
+    },
+    {
+      "repository": "temporal-issuance",
+      "revision": "17d766382df4d607b161b75a5c81eca18f0a5e3f",
+      "path": "explorations/E062-ti-c022-fork-choice-canonical-chain-ontology-absorber-2026-06-24.md",
+      "blob": "b465c7636e8cb4e1339d83d44a7469c9eb64e341",
+      "url": "https://github.com/disruptionjoe/temporal-issuance/blob/17d766382df4d607b161b75a5c81eca18f0a5e3f/explorations/E062-ti-c022-fork-choice-canonical-chain-ontology-absorber-2026-06-24.md"
+    },
+    {
+      "repository": "temporal-issuance",
+      "revision": "17d766382df4d607b161b75a5c81eca18f0a5e3f",
+      "path": "explorations/E136-ti-c022-record-reality-typing-fixture-2026-07-02.md",
+      "blob": "a4a90f2b7a9e5d86f3306321c3be40bd6a4f29cd",
+      "url": "https://github.com/disruptionjoe/temporal-issuance/blob/17d766382df4d607b161b75a5c81eca18f0a5e3f/explorations/E136-ti-c022-record-reality-typing-fixture-2026-07-02.md"
+    },
+    {
+      "repository": "temporal-issuance",
+      "revision": "17d766382df4d607b161b75a5c81eca18f0a5e3f",
+      "path": "tools/ti_c022_record_reality_typing_fixture.py",
+      "blob": "dc81ef4d01ba14fa1f6e77b68aaea2be85cb4a67",
+      "url": "https://github.com/disruptionjoe/temporal-issuance/blob/17d766382df4d607b161b75a5c81eca18f0a5e3f/tools/ti_c022_record_reality_typing_fixture.py"
+    }
+  ],
+  "selection": {
+    "mandatory_basis": "Joe27cc then ordered bb directive; ordinary B counter122.",
+    "reuse": "Prior scout and own July owners used before fresh finite consequences; no census or settled-floor repeat.",
+    "source_relevance": "Shared state, record/readout and measure debts, separately from algebraic breadth.",
+    "scope": "Fixed reduction/matrix/causal/record and task-space comparisons.",
+    "outcomes": "Explicit map retains scoped consequence; absent map stays undetermined; old coverage reused; finite false implication corrected.",
+    "strongest_eligible_alternative": "Actual uncovered negative-factor CW vertex; retained after directed pass and mandatory LC.",
+    "remaining_cost": "No further import prerequisite; physical bridges need concrete data, not another generic comparison.",
+    "expected_vs_actual": "All requested applicability questions closed at scoped comparison grade; added projective-ray connection and corrected overreadings.",
+    "cost": "One bounded pass, lightweight exact algebra/finite controls, independent specialist review; no new full physics suite or Lean build."
+  },
+  "verification": {
+    "artifact_hashes": {
+      "explorations/conditional-build/sibling-import-adjudication-2026-11-27.md": "fdbed367c43712738284f64d5e61f60c44c4bf565e11fd8c3fe912f009d9fd57",
+      "tests/program-focus/sibling_import_probe.py": "6c6feb869eb16cf3838c7f490ff0d7727e37319fa47c5b16a8caebbe22b019c2",
+      "lab/process/sibling-import-certificates.json": "3db53f9cd704e361ce326207ba65a741048d46ae078c9b553bf4151136747413"
+    },
+    "exact_controls": 37,
+    "command": "UV_CACHE_DIR=/private/tmp/gu-current-uv-cache uv run --offline --with sympy==1.14.0 python tests/program-focus/sibling_import_probe.py --verify",
+    "scope": "New finite controls do not certify the full historical calculations, physicality, normative comparison exhaustiveness or nonlinear dynamics.",
+    "reviews": [
+      {
+        "accepted": true,
+        "blockers": [],
+        "reviewer": "metric_family_second_review \u2014 independent mathematical/PDE specialist; not a contributor to the artifact",
+        "artifact_hashes": {
+          "explorations/conditional-build/sibling-import-adjudication-2026-11-27.md": "fdbed367c43712738284f64d5e61f60c44c4bf565e11fd8c3fe912f009d9fd57",
+          "tests/program-focus/sibling_import_probe.py": "6c6feb869eb16cf3838c7f490ff0d7727e37319fa47c5b16a8caebbe22b019c2",
+          "lab/process/sibling-import-certificates.json": "3db53f9cd704e361ce326207ba65a741048d46ae078c9b553bf4151136747413"
+        },
+        "scope": {
+          "level": "T2 scoped applicability audit, sections 0\u201310, final report/probe/certificate and metadata",
+          "method": "Read-only mathematical review of final statements, actual finite-control source and certificate, plus primary GU and sibling artifacts at pinned revisions. Hash and Git-blob authentication only; no tests, builds or owner edits.",
+          "basis_revision": "b1dce0a1d5d9cc4ce5fc6d3d57de9c9507c58648",
+          "pinned_source_custody": "All 51 evidence entries independently resolve to the recorded Git blob at the specified revision; no mismatches.",
+          "evidence_sha256_at_review": "9c2248f0229c17f3699ff1437c01c1995aea85c236714e5b73a321264f1ee753",
+          "findings": [
+            "W153/W157 scalar coefficients, W130 projected pole and W159 coefficient-sign witness are correctly separated from a full mixed-operator health claim; positive-reference wedge scope remains unchanged.",
+            "The projective-ray involution proof from antilinear J squared minus identity is valid. Vector order four, coefficient fixed points, Krein anti-isometry, computable selections and physical-domain debt are kept distinct.",
+            "CompletionClass carries all eleven primitives and composition/quotient distinctions without claiming complete physical absorption or escape. Signed reference moments are not called a contour/boundary witness; all physical packets stay incomplete.",
+            "TaF contract B alone is contradicted by the proper-time fixture. The later S6 fixture-level D and G progress, conditional I, and LF/FR prices are credited accurately.",
+            "Covariant-finality transfer is limited to the finite causal template. The actual sibling code stipulates its spacelike CNOT bridge; neither a universal instrument restriction nor AQFT, Born or GU PDE closure follows.",
+            "The real/nonzero-Delta BdG matrix comparison is correct. Conditional singlet typing, canonical CAR algebra preservation and separate infinite-volume Fock/GNS implementation are stated precisely.",
+            "DeWitt trace norm ratio 3 and absolute density ratio sqrt(3) are distinct. Count reweighting does not derive the fitted amplitude, and ultralocality alone does not exclude correlations.",
+            "Outcome-symmetric costs only exclude the stated amplitude-blind Born route. The report does not import universal erasure cost or general computational irreducibility.",
+            "TI observer-issuance discussion credits its scoped mu/capability fixtures while retaining the missing physical observer/current adapter. A changing access image inside a fixed task space is a valid rival.",
+            "E061 finite parity/local-system bridge and E136 plus RUN-0057 matched-carrier correction were read directly. Matched canonical-carrier predicates have no independent operational surplus; supplied cofinal flags are not infinite-time liveness or a physical branch selector."
+          ],
+          "review_corrections_verified": [
+            "W130 projected-pole wording",
+            "TaF D fixture-level derivation credit",
+            "K boundary entry marked unresolved",
+            "real xi and nonzero real Delta premise",
+            "DQ4 source-typing caveat"
+          ],
+          "hash_rebind": {
+            "reason": "Typed-object schema vocabulary correction only: explicit complex Dirac S128/ray carrier, spinor-free controls distinguished, CHIRALITY=S-FULL-DIRAC, action_owner=repository-construction.",
+            "verified": "Reversing exactly those two line edits reproduces the previously accepted report hash 30c854077f92babbf3c242ea8a642c8310cb7d3d0cb2590e4b811913af5a2b9d. Probe and certificate hashes unchanged.",
+            "mathematical_effect": "None; acceptance and limitations unchanged. No tests executed."
+          }
+        },
+        "limits": [
+          "Acceptance is for this conditional mathematical comparison, not source-GU falsification, a physical completion, new action selection, or an exhaustive class-C theorem.",
+          "The 37 finite controls were inspected but not executed by this reviewer. Root reports two successful runs; historical sibling suites were not rebuilt.",
+          "Finite fixtures and algebraic templates do not supply physical state/measure/record interpretation, an observation-current identification, Born probabilities, consensus liveness or nonlinear CW evolution.",
+          "No new governance, source/ledger verdict, discovery-bet promotion or publication novelty is endorsed. Existing accepted T1 results retain their original hypotheses.",
+          "The evidence JSON is ancillary mutable integration metadata; acceptance binds exactly the three frozen scientific artifact hashes above, with its reviewed snapshot hash separately recorded."
+        ]
+      },
+      {
+        "accepted": true,
+        "blockers": [],
+        "artifact_hashes": {
+          "explorations/conditional-build/sibling-import-adjudication-2026-11-27.md": "fdbed367c43712738284f64d5e61f60c44c4bf565e11fd8c3fe912f009d9fd57",
+          "tests/program-focus/sibling_import_probe.py": "6c6feb869eb16cf3838c7f490ff0d7727e37319fa47c5b16a8caebbe22b019c2",
+          "lab/process/sibling-import-certificates.json": "3db53f9cd704e361ce326207ba65a741048d46ae078c9b553bf4151136747413"
+        },
+        "evidence_sha256_at_review": "22ef3672ca2bd9ce35a82060edfbae6365897c6a23b0cabfd98a7881f93f2b39",
+        "reviewer_scope": "Optional independent hostile T2 applicability and scope review of the ten ordered transfers and preliminary July reconciliation. Not an author or contributor; no sibling proof suite or physical model rebuilt.",
+        "basis": "b1dce0a1d5d9cc4ce5fc6d3d57de9c9507c58648",
+        "findings": [
+          "The July reconciliation distinguishes MSS and covariant scalar coefficients, the W130 projected gamma_phi normalization, its beta-phi mixing and off-shell flat-background limitations, and the later wedge full metric-row result. W159 proves that its two slice coefficients are independent in a family admitting a negative weight; it does not certify a healthy mixed operator. The report states that ceiling explicitly.",
+          "For the actual candidate antilinear J with J^2=-Id, the complex-ray map is a fixed-point-free involution. This does not hold as a vector involution, nor as a fixed-point-free map on coefficients. Krein reversal prevents silently identifying the ray construction with the held physical positive domain. The report retains all these distinctions.",
+          "The TI invariant-valuation definition is pointwise invariance of values on an inhabited domain. Its elementary impossibility result does not prohibit computable noninvariant selection, prove underivability or require an external issuing bit. The report correctly rejects those stronger implications.",
+          "The eleven-primitive table matches the declared CompletionClass inventory and distinguishes mathematical witnesses, naming-only comparisons, global containment and unresolved physical adapters. Its products/sequences/quotients and INCOMPLETE_NULL_CLASS returns do not claim an exhaustive physical null class or physical absorption. It is explicitly not a new gate for ordinary PDE work.",
+          "The common-clock contradiction binds the identical readout contract only; observer-relative ledgers, contact merges and unobserved global parameters remain open. Causal J+ templates and commuting finite projectors do not supply ultrahyperbolic evolution, causal factorization, Born instruments or the GU physical observation map.",
+          "The two BdG matrices are different operators. Their distinct spectra cannot be attributed merely to relabeling a pairing. A canonical finite Bogoliubov transformation retains the abstract CAR algebra; common-Fock implementability and an interacting physical condensate remain extra burdens.",
+          "The DeWitt trace-norm ratio, absolute density ratio and imported count scaling are kept distinct from a finite native measure or observed amplitude. Symmetric amplitude-independent record costs fail only the stated unequal-probability target, not all record-based probability models.",
+          "Observer-access and fork-choice examples are matched-assumption comparison controls. They do not establish GU issuance, consensus, a selected physical branch, nor a refutation of the independently owned CW boundary construction.",
+          "SOURCE, GU*, old literal-graph action, selected printed CW operator and corrected wedge action remain separately owned throughout. No source, ledger, class-C or physical-prediction verdict is promoted by the sibling imports."
+        ],
+        "own_checks": [
+          "Read all ten report items, the reconciliation, the comparison table, probe source, and the evidence dispositions/follow-through.",
+          "Read relevant W130 and W159 coefficient/operator passages and the owned candidate J construction; checked the finite algebraic consequences by reasoning.",
+          "Inspected the pinned TI CompletionClass contract and BoundaryInvolution Lean definitions, and the relevant TaF S6 earned-scope passages. Sibling claims were treated as pinned evidence, not instructions or automatic GU grades.",
+          "Authenticated the three frozen artifact SHA256 values and evidence hash references, 37 stored passing controls, all ten item records, and all 51 sibling custody blob identifiers at their exact pinned revisions using read-only Git object queries.",
+          "Final gate-only rebind: reversing exactly the two typed-block carrier/action-owner vocabulary changes recovers the previously reviewed report SHA256. Scientific prose, probe and certificate are unchanged."
+        ],
+        "limitations": [
+          "Acceptance covers scoped applicability, countercontrols and non-transfer discipline. It does not independently reproduce the old W130/W159 spectra, sibling simulation suites, quantum/cosmological claims, or every source-admissible completion.",
+          "The ray-level involution is standard algebra on the full complex projective carrier, not a physical outcome space, source-selected involution or new-world mathematical result.",
+          "No positive physical state/quotient, physical record/current adapter, count-stress map, Born selection, cosmological observation, mirror condensate or source issuance is established.",
+          "The bounded inventory is not a proof that every physical completion has been listed. Unresolved primitives and unavailable physical adapters cannot count as defeated alternatives.",
+          "The finite checks supplement written reasoning and custody; they are not a general physicality, nonlinear PDE, historical-suite or comparison-exhaustiveness verifier. This is internal agent review, not external scientific validation.",
+          "The evidence JSON is bound as read; later administrative review/gate insertion may change its bytes without changing the separately frozen scientific artifacts."
+        ],
+        "not_run": [
+          "No tests, probe execution, Lean build, native physics computation or sibling proof suite was run.",
+          "No owner repository or sibling file was edited. Only this scratch review receipt was written."
+        ]
+      }
+    ],
+    "gates": {
+      "program_focus_audit": "PASS",
+      "typed_carrier_declaration_audit": "PASS",
+      "kill_target_claim_audit": "PASS",
+      "frontmatter_status_schema_audit": "PASS",
+      "source_native_comparator_routing_audit": "PASS",
+      "lean_certificate_surface_audit": "PASS",
+      "current_state_absolute_currency_audit": "PASS",
+      "conditional_evidence_delta_gate": "PASS",
+      "research_context_reader_audit": "PASS"
+    }
+  },
+  "follow_through": {
+    "consumed": [
+      "Joe27cc reconciliation",
+      "Joe27bb ten ordered imports"
+    ],
+    "survivors": [
+      "Scoped positive-reference wedge result",
+      "Complex-ray algebraic involution",
+      "CW local quadratic estimate and unresolved negative-factor/nonlinear domain",
+      "Conditional H1/H2/H3 templates without physical adoption"
+    ],
+    "next": "Ordered Joe27bb/cc pass consumed. Counter123 requires LC-BETS next under unchanged cadence; afterward resume the retained actual a_out=-2 negative-factor CW vertex at kappa12 before a degenerate estimate. Step2b remains2/max5; wedge3/max3. No new sibling-research backlog or physical choice.",
+    "pitfalls": [
+      "Do not infer a healthy mixed operator from W159 slice coefficients.",
+      "No invariant valuation is not no computable selection.",
+      "Signed measure is not automatically a contour or probability.",
+      "Causal covariance alone is not causal factorization.",
+      "Fixed algebra does not imply common-Fock unitary implementability.",
+      "Completeness harness is not a new global research gate."
+    ]
+  },
+  "accounting": {
+    "counter_before": 122,
+    "counter_after": 123,
+    "LB_LADDER_runs_before": 28,
+    "LB_LADDER_runs_after": 29,
+    "bet_changes": 0,
+    "cell_status_changes": 0,
+    "ledger_verdict_changes": 0
+  },
+  "effect_line": "Applied Joe27bb/cc scoped import evidence and reuse pointers; ordered pass consumed, existing LC/CW continuation restored. No governance, source, ledger verdict, scheduler or physical choice change; automated effect not yet observed."
+}

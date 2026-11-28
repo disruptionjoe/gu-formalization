@@ -3790,7 +3790,7 @@
   },
   "ordered_sibling_import_2026_11_27_bb": {
     "authority": "joe_direct_chat_2026_11_27_bb",
-    "status": "ready_next_directed_run",
+    "status": "consumed_with_scoped_results",
     "order": [
       "DU tachyon bridge",
       "DU fixpoint-free structure",
@@ -3803,7 +3803,100 @@
       "TI observer issuance",
       "TI fork-choice template"
     ],
-    "effect": "Joe directed order supersedes earlier optional VOI ranking. Re-verify within GU; no sibling grade transfer. Finish current reviewed CW result, then bounded ordered import; retain uncovered CW interaction after imports.",
-    "claim_effect": "none before actual ingestion/reverification"
+    "effect": "Ordered Joe27bb/cc pass consumed. Counter123 requires LC-BETS next under unchanged cadence; afterward resume the retained actual a_out=-2 negative-factor CW vertex at kappa12 before a degenerate estimate. Step2b remains2/max5; wedge3/max3. No new sibling-research backlog or physical choice.",
+    "claim_effect": "No physical or ledger verdict; no sibling grade adoption.",
+    "reconciliation_first": "joe_direct_chat_2026_11_27_cc",
+    "evidence": [
+      "explorations/conditional-build/sibling-import-adjudication-2026-11-27.md",
+      "lab/process/sibling-import-adjudication.json"
+    ]
+  },
+  "sibling_import_adjudication_2026_11_27": {
+    "evidence": [
+      "explorations/conditional-build/sibling-import-adjudication-2026-11-27.md",
+      "lab/process/sibling-import-adjudication.json"
+    ],
+    "actual_delta": "Ordered bb1\u201310 applicability pass complete after cc July reconciliation. Retained ray-level quaternionic involution, causal/records and completion controls; reused mirror/measure results; no DU dark-energy or physical issuance identification. Sharpened W159/W130, contour and sibling-debt scope without changing verdicts.",
+    "items": [
+      {
+        "item": 1,
+        "name": "Tachyon bridge",
+        "disposition": "not_transferred",
+        "artifact": "explorations/conditional-build/sibling-import-adjudication-2026-11-27.md"
+      },
+      {
+        "item": 2,
+        "name": "Fixpoint-free structure",
+        "disposition": "transferred",
+        "artifact": "explorations/conditional-build/sibling-import-adjudication-2026-11-27.md"
+      },
+      {
+        "item": 3,
+        "name": "Absorption harness",
+        "disposition": "transferred",
+        "artifact": "explorations/conditional-build/sibling-import-adjudication-2026-11-27.md"
+      },
+      {
+        "item": 4,
+        "name": "Commit-law guardrails",
+        "disposition": "transferred",
+        "artifact": "explorations/conditional-build/sibling-import-adjudication-2026-11-27.md"
+      },
+      {
+        "item": 5,
+        "name": "Covariant finality",
+        "disposition": "transferred",
+        "artifact": "explorations/conditional-build/sibling-import-adjudication-2026-11-27.md"
+      },
+      {
+        "item": 6,
+        "name": "Mirror head start",
+        "disposition": "already_owned",
+        "artifact": "explorations/conditional-build/sibling-import-adjudication-2026-11-27.md"
+      },
+      {
+        "item": 7,
+        "name": "Measure route",
+        "disposition": "already_owned",
+        "artifact": "explorations/conditional-build/sibling-import-adjudication-2026-11-27.md"
+      },
+      {
+        "item": 8,
+        "name": "Records and measurement",
+        "disposition": "transferred",
+        "artifact": "explorations/conditional-build/sibling-import-adjudication-2026-11-27.md"
+      },
+      {
+        "item": 9,
+        "name": "Observer issuance",
+        "disposition": "not_transferred",
+        "artifact": "explorations/conditional-build/sibling-import-adjudication-2026-11-27.md"
+      },
+      {
+        "item": 10,
+        "name": "Fork-choice template",
+        "disposition": "transferred",
+        "artifact": "explorations/conditional-build/sibling-import-adjudication-2026-11-27.md"
+      }
+    ],
+    "consumed": [
+      "Joe27cc reconciliation",
+      "Joe27bb ten ordered imports"
+    ],
+    "survivors": [
+      "Scoped positive-reference wedge result",
+      "Complex-ray algebraic involution",
+      "CW local quadratic estimate and unresolved negative-factor/nonlinear domain",
+      "Conditional H1/H2/H3 templates without physical adoption"
+    ],
+    "next": "Ordered Joe27bb/cc pass consumed. Counter123 requires LC-BETS next under unchanged cadence; afterward resume the retained actual a_out=-2 negative-factor CW vertex at kappa12 before a degenerate estimate. Step2b remains2/max5; wedge3/max3. No new sibling-research backlog or physical choice.",
+    "pitfalls": [
+      "Do not infer a healthy mixed operator from W159 slice coefficients.",
+      "No invariant valuation is not no computable selection.",
+      "Signed measure is not automatically a contour or probability.",
+      "Causal covariance alone is not causal factorization.",
+      "Fixed algebra does not imply common-Fock unitary implementability.",
+      "Completeness harness is not a new global research gate."
+    ]
   }
 }

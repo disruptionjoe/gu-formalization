@@ -65,4 +65,10 @@ Next ready test: actual input factors(-1,+1) into output(-2), kappa12, K²18, k=
 
 ## Joe27bb directed interposition
 
-After this reviewed uniform-estimate wave, Joe directs the ten sibling imports in the order recorded in opportunity-register#ordered_sibling_import_2026_11_27_bb. Each is reverified in GU before any transfer. This is a bounded restocking/interposition, not a governance reset; the unconsumed negative-factor CW interaction remains ready after that pass.
+Consumed by [the ordered applicability pass](../../../explorations/conditional-build/sibling-import-adjudication-2026-11-27.md), with Joe27cc July reconciliation first. All ten requested comparisons are recorded without sibling grade adoption. The unconsumed negative-factor CW interaction remains ready after the existing mandatory LC cadence.
+
+## Joe27cc/bb ordered import pass — consumed
+
+[Adjudication](../../../explorations/conditional-build/sibling-import-adjudication-2026-11-27.md) and [evidence](../sibling-import-adjudication.json): own July sign/pole reconciliation first, then all ten sibling items. Only declared algebra, controls and templates transfer; no physical choice, source claim or ledger verdict.
+
+Ordered Joe27bb/cc pass consumed. Counter123 requires LC-BETS next under unchanged cadence; afterward resume the retained actual a_out=-2 negative-factor CW vertex at kappa12 before a degenerate estimate. Step2b remains2/max5; wedge3/max3. No new sibling-research backlog or physical choice.

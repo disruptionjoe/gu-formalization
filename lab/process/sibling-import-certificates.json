@@ -1,0 +1,172 @@
+{
+  "scope": "Exact algebra and finite countercontrols only; not a GU physical completion, PDE closure, Born theorem or independent rebuild of sibling proof suites.",
+  "checks": {
+    "July_covariant_vs_MSS": {
+      "passed": true,
+      "value": "(-4/9, -1/9)"
+    },
+    "square_identity_not_scaling_invariant": {
+      "passed": true,
+      "value": null
+    },
+    "W159_coefficient_map_det": {
+      "passed": true,
+      "value": "4/9"
+    },
+    "W159_coefficient_witness_only": {
+      "passed": true,
+      "value": null
+    },
+    "old_pole_uses_gamma_phi": {
+      "passed": true,
+      "value": null
+    },
+    "wedge_mass_ratio": {
+      "passed": true,
+      "value": "-99*m1/(34*m0)"
+    },
+    "wedge_growth_over_H": {
+      "passed": true,
+      "value": "13068*m1**2/(3995*m0*m2)"
+    },
+    "deSitter_root": {
+      "passed": true,
+      "value": "-3/2 + 3*sqrt(39162985)/7990"
+    },
+    "upper_rate_below_one": {
+      "passed": true,
+      "value": null
+    },
+    "wedge_F0_positive_cone": {
+      "passed": true,
+      "value": null
+    },
+    "F0_cone_margin": {
+      "passed": true,
+      "value": "728"
+    },
+    "signed_reference_not_probability": {
+      "passed": true,
+      "value": "[1, -1, -5]"
+    },
+    "quaternionic_square": {
+      "passed": true,
+      "value": null
+    },
+    "Krein_sign_reversed": {
+      "passed": true,
+      "value": null
+    },
+    "vector_fixed_equation": {
+      "passed": true,
+      "value": null
+    },
+    "ray_fixed_point_scalar_contradiction": {
+      "passed": true,
+      "value": null
+    },
+    "coefficient_conjugation_has_fixed_identity": {
+      "passed": true,
+      "value": null
+    },
+    "nonzero_null_vector_retained": {
+      "passed": true,
+      "value": null
+    },
+    "no_fixed_bit": {
+      "passed": true,
+      "value": null
+    },
+    "computable_noninvariant_valuation": {
+      "passed": true,
+      "value": null
+    },
+    "immutable_prefix_flip": {
+      "passed": true,
+      "value": null
+    },
+    "differential_ageing_same_endpoints": {
+      "passed": true,
+      "value": "8"
+    },
+    "spacelike_order_reverses": {
+      "passed": true,
+      "value": null
+    },
+    "common_future_invariant_interval": {
+      "passed": true,
+      "value": null
+    },
+    "disjoint_record_projectors_commute": {
+      "passed": true,
+      "value": null
+    },
+    "BdG_positive_pairing_branch": {
+      "passed": true,
+      "value": null
+    },
+    "BdG_opposite_branch": {
+      "passed": true,
+      "value": null
+    },
+    "fixed_CAR_Bogoliubov": {
+      "passed": true,
+      "value": null
+    },
+    "Born_symmetric_cost_not_general": {
+      "passed": true,
+      "value": "[1/2, 1/2, 1/2]"
+    },
+    "DeWitt_trace_quadratic_ratio": {
+      "passed": true,
+      "value": null
+    },
+    "DeWitt_absolute_volume_ratio": {
+      "passed": true,
+      "value": null
+    },
+    "amplitude_fit_input_dependence": {
+      "passed": true,
+      "value": null
+    },
+    "fixed_future_boundary_response": {
+      "passed": true,
+      "value": null
+    },
+    "future_boundary_integral": {
+      "passed": true,
+      "value": null
+    },
+    "access_does_not_extend_source": {
+      "passed": true,
+      "value": null
+    },
+    "compatibility_does_not_select_fork": {
+      "passed": true,
+      "value": null
+    },
+    "eleven_distinct_primitives": {
+      "passed": true,
+      "value": null
+    }
+  },
+  "count": 37,
+  "completion_primitives": [
+    "hidden_state",
+    "initial_condition",
+    "boundary_condition",
+    "fixed_source",
+    "stochastic_seed",
+    "name_provenance",
+    "resource_capability",
+    "whole_family",
+    "completed_history",
+    "observer_information_access",
+    "relabel_gauge"
+  ],
+  "physical_packets": {
+    "CW": "INCOMPLETE_NULL_CLASS",
+    "records_commit": "INCOMPLETE_NULL_CLASS",
+    "contour": "INCOMPLETE_NULL_CLASS"
+  }
+}

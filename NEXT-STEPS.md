@@ -16,6 +16,10 @@ Do not add "Current follow-through" sections or "Historical predecessor" stacks 
 matrix or bet file. The retired follow-through chain and banner stack are kept at the end of this file under
 "Archived steering history".
 
+## 2026-11-27 — Ordered sibling applicability and July reconciliation
+
+[Result](explorations/conditional-build/sibling-import-adjudication-2026-11-27.md) · [Evidence](lab/process/sibling-import-adjudication.json). W153/W157/W159 and wedge retain different action/pole scopes; repeated tachyon signs do not prove a universal GU result. J induces a free involution on complex rays without supplying physical issuance. Ten sibling imports have explicit transfer/already-owned/non-transfer receipts; all three physical completion packets remain incomplete. Exact finite controls and independent T2 review; no ledger, source, canon or physical choice change.
+
 ## 2026-11-27 — Uniform quadratic CW boundary estimate
 
 [Result](explorations/conditional-build/cw-bilinear-boundary-estimate-2026-11-27.md) · [Evidence](lab/process/cw-bilinear-boundary.json). The actual boundary operator is locally bounded L2xL2 toL2 with threshold-tail O(epsilon^(1/4)). Opposite norm signs extend the proof to all7positive-factor output thresholds and38signed stable input branches. Forward O(1+sqrt(t)) is an upper estimate, not instability. A negative-factor collinear locus remains untested.52exactcontrols; no new Lean, nonlinear manifold, physical norm or source/ledger verdict.
