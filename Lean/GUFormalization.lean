@@ -161,3 +161,5 @@ import GUFormalization.CWSymmetryDomain
 import GUFormalization.CWGlobalNorm
 
 import GUFormalization.CWQuadraticBoundary
+
+import GUFormalization.CosmologyRoll

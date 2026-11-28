@@ -1,7 +1,7 @@
 schema_version: '1.0'
 repository: observerse-research-program
 branch: main
-revision_basis: 9838ba1e3723b5f9673a84f1e8cb142dc07093f6
+revision_basis: fe84a56dc903824e4f28877c07b0627157228aeb
 program_focus:
   version: 2026-11-27-v3
   authority: joe_direct_chat_2026_11_27_k
@@ -278,6 +278,25 @@ sibling_import_adjudication_2026_11_27:
     resume the retained actual a_out=-2 negative-factor CW vertex at kappa12 before a degenerate estimate.
     Step2b remains2/max5; wedge3/max3. No new sibling-research backlog or physical choice.
   verdict_effect: none; scoped applicability and algebra
+bet_cosmology_nonlinear_roll_2026_11_28:
+  status: internal_T1_reviewed
+  lane_scope: LC only; no scientific matrix or ledger absorption
+  actual_delta: "Across the owned positive-reference leading4D wedge class, the lower expanding scalar\
+    \ growing cone reaches F=0 in finite Jordan time with finite geometric data. The upper cone has HJ/t\u2192\
+    a/(36b), RJ/t\xB2\u2192a\xB2/(108b\xB2), and w_kin\u2192\u22121 from below despite unbounded curvature.\
+    \ Exact de Sitter and its stable separatrix survive; no physical dark-energy identification follows."
+  evidence:
+  - explorations/conditional-build/bet-cosmology-nonlinear-roll-2026-11-28.md
+  - lab/process/bet-cosmology-nonlinear-roll.json
+  source_bridge:
+    status: conditional
+    reason: SC-COS-50/51/52 assert a source adjoint-one-form dark-energy mechanism; none selects this
+      reduced action, reference/state, physical stress or matter/ruler bridge.
+  next: 'Counter128 returns to ordinary B: queued quick-win step3, a concrete additional antilinear/PT
+    realization test on the actual declared sector. CW2b5/5 and wedge3/3 remain complete. Reuse Theta/time-direction,
+    Jordan2 and norm costs. The next cosmology comparison needs a selected physical matter/stress/reference/state
+    bridge or higher-order control, not another sign/growth or arbitrary-weight scan.'
+  verdict_effect: none
 cw_global_quadratic_boundary_2026_11_28:
   status: internal_T1_reviewed
   actual_delta: Global common-CW modal inputs have a uniform compact-output quadratic boundary bound.

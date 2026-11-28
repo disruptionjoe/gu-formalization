@@ -4053,5 +4053,43 @@
       "Actual antilinear/PT realization after the cadence, with declared domain and extra criterion.",
       "Reopen CW only for a new source-selected domain or actual derivative-compensating mechanism, not another local census."
     ]
+  },
+  "bet_cosmology_nonlinear_roll_2026_11_28": {
+    "evidence": [
+      "explorations/conditional-build/bet-cosmology-nonlinear-roll-2026-11-28.md",
+      "lab/process/bet-cosmology-nonlinear-roll.json"
+    ],
+    "lane_scope": "LC context, no automatic B absorption",
+    "actual_delta": "Across the owned positive-reference leading4D wedge class, the lower expanding scalar growing cone reaches F=0 in finite Jordan time with finite geometric data. The upper cone has HJ/t\u2192a/(36b), RJ/t\u00b2\u2192a\u00b2/(108b\u00b2), and w_kin\u2192\u22121 from below despite unbounded curvature. Exact de Sitter and its stable separatrix survive; no physical dark-energy identification follows.",
+    "choice_budget": {
+      "families": 10,
+      "obligations": 4,
+      "net": 6,
+      "source_selected_predictions": 0,
+      "new_adopted_choices": 0,
+      "new_action_variants": 0,
+      "scope": "Historical candidate grouping unchanged; wedge alternative and unselected moment freedoms are not summed into it."
+    },
+    "consumed": [
+      "Nonlinear endpoint of both actual growing-mode sides in the positive-reference leading vacuum FLRW family.",
+      "Inference that w_kin near\u22121 implies finite-H de Sitter is refuted by this actual model."
+    ],
+    "exclusions": [
+      "Finite positive-F endpoint for either declared growing cone.",
+      "Nonconstant compact cycles in the positive-F scalar chart."
+    ],
+    "survivors": [
+      "Exact de Sitter and its local stable separatrix.",
+      "Finite-duration slow transients.",
+      "Regular Jordan ODE continuation across F0, without automatic physical viability.",
+      "Different action/reference signs, full14D effects, matter and physical state rules remain separate."
+    ],
+    "next": "Counter128 returns to ordinary B: queued quick-win step3, a concrete additional antilinear/PT realization test on the actual declared sector. CW2b5/5 and wedge3/3 remain complete. Reuse Theta/time-direction, Jordan2 and norm costs. The next cosmology comparison needs a selected physical matter/stress/reference/state bridge or higher-order control, not another sign/growth or arbitrary-weight scan.",
+    "pitfalls": [
+      "Fzero is a conformal-frame boundary, not automatically metric singularity or physical Newton sign.",
+      "w_kin is not observed dark-energy w.",
+      "High-curvature asymptotic theorem for a leading truncation does not extend its physical regime.",
+      "LC result cannot be credited to scientific matrix or ledger withoutB rederivation."
+    ]
   }
 }

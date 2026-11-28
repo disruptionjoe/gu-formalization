@@ -2739,7 +2739,7 @@
   ],
   "program_run_counter": {
     "since": "2026-11-09",
-    "count": 127,
+    "count": 128,
     "rule": "Every hourly run increments this in its postflight, whatever its lane. Lane C runs when count % 4 == 3 before the increment."
   },
   "working_rule": "Cells are worked at the structure level: a requirement must hold for every action in class C or for a structurally defined subfamily. No cell is worked by writing down a specific action, and no gated cell is worked by building its gate object. See CURRENT-STATE.yaml program_focus.structure_not_specifics.",
@@ -3892,6 +3892,15 @@
       "counter_after": 127,
       "lane": "LB-LADDER",
       "selection": "Quick-win2b wave5; global boundary norm verdict, tame survivor and budget pivot."
+    },
+    {
+      "date": "2026-11-28",
+      "authority": "joe_direct_chat_2026_11_27_q/y/cc",
+      "item": "bet-cosmology-nonlinear-roll",
+      "counter_before": 127,
+      "counter_after": 128,
+      "lane": "LC-BETS",
+      "selection": "Mandatory LC; tied most time remaining; whole positive-moment nonlinear endpoint test. No scientific matrix absorption."
     }
   ],
   "directed_lc_carry_2026_11_24_b": {

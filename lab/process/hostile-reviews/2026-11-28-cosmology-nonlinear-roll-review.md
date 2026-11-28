@@ -1,0 +1,157 @@
+# Nonlinear cosmology internal T1 review
+
+Two independent specialists and a separate hostile reviewer accepted the frozen full-row FLRW reduction, nonlinear cone and asymptotic arguments. Contributors do not count as acceptance reviewers. Root41exactcontrols/replay and6Leanfinitecores pass. The nonlinear proof covers the declared leading FLRW model only; no full14D/physical/source claim.
+
+## Frozen artifacts
+
+- explorations/conditional-build/bet-cosmology-nonlinear-roll-2026-11-28.md: `56a78a3b1b4b6717306f0841ca91f6ae8e01ae179601bd452341ca8b395c3b57`
+- tests/program-focus/bet_cosmology_nonlinear_roll_probe.py: `3be98e60c05f18627fa679a3abfa3eda0f5519e954326509c9479a6a70b9f26b`
+- lab/process/bet-cosmology-nonlinear-roll-certificates.json: `bf924844289455552cd77da947fdb2f9c241b7ae655bffc1875722b8cf3f01a6`
+- Lean/GUFormalization/CosmologyRoll.lean: `6efe1b2acd3993cc299034449912898d97400e8fe3df33303e72b78eb2993337`
+
+## metric_family_second_review — independent mathematical / PDE specialist
+
+{
+  "reviewer": "metric_family_second_review \u2014 independent mathematical / PDE specialist",
+  "independent": true,
+  "accepted": true,
+  "blockers": [],
+  "basis": "fe84a56dc903824e4f28877c07b0627157228aeb",
+  "artifact_hashes": {
+    "explorations/conditional-build/bet-cosmology-nonlinear-roll-2026-11-28.md": "56a78a3b1b4b6717306f0841ca91f6ae8e01ae179601bd452341ca8b395c3b57",
+    "tests/program-focus/bet_cosmology_nonlinear_roll_probe.py": "3be98e60c05f18627fa679a3abfa3eda0f5519e954326509c9479a6a70b9f26b",
+    "lab/process/bet-cosmology-nonlinear-roll-certificates.json": "bf924844289455552cd77da947fdb2f9c241b7ae655bffc1875722b8cf3f01a6",
+    "Lean/GUFormalization/CosmologyRoll.lean": "6efe1b2acd3993cc299034449912898d97400e8fe3df33303e72b78eb2993337"
+  },
+  "reviewer_scope": "Mathematical validity of the full-row spatially flat vacuum FLRW reduction, nonlinear cones and their endpoints, auxiliary Einstein-frame proof, compact omega limits and local invariant-manifold exceptions for the declared leading order-h positive constant-moment GU* action.",
+  "reasoning": [
+    {
+      "topic": "Full metric rows and constraint",
+      "finding": "Accepted. The four-dimensional curvature identity gives the stated b=17AQ/6. Identically conformally flat FLRW makes the Bach tensor vanish, while the constant Euler term has zero local bulk variation under the stated variation convention. Consequently the f(R) rows are obtained from the full action, not a minisuperspace substitution. With R=6(Hdot+2H\u00b2) and the declared signature, the trace driving term and Cdot=-4HC have the correct signs. The admitted 00 row plus trace supplies the isotropic spatial row without division by F."
+    },
+    {
+      "topic": "Moment cone and actual unstable states",
+      "finding": "Accepted. The positive moment inequality makes D strictly positive through the 3995(m0m2-m1\u00b2)+728m1\u00b2 decomposition. Both nearby cone signs admit the positive Friedmann root. V_phiphi(F*)=-mu\u00b2/F* gives one positive and one negative eigenvalue in the constrained expanding Einstein system; the nonlinear local unstable branches therefore enter the declared cones. This does not exhaust all initial data."
+    },
+    {
+      "topic": "Lower cone and F=0",
+      "finding": "Accepted. Positivity of H and v=-Fdot is forward invariant before exit. Hmax and the integrating-factor lower bound v>=min(v_i,c0/(3Hmax)) force finite exit. The separate upper bound vdot<=mu\u00b2F* prevents earlier finite-time escape. At exit the preserved constraint gives Hv=D/(24b)>0. H,Hdot,R,Rdot and flat-FLRW curvature invariants remain finite; the polynomial Jordan ODE continues. This proves a conformal-chart boundary, not a metric singularity or full-PDE continuation theorem."
+    },
+    {
+      "topic": "Einstein normalization and upper global existence",
+      "finding": "Accepted. Overall half-normalization leaves vacuum equations unchanged; gE=F gJ and phi=sqrt(3/2)logF give V=(RF-f)/(2F\u00b2). In the upper cone V>V_infinity and HE>=H_infinity>0. Energy dissipation bounds HE,p, while bounded p gives no finite Einstein-time escape. Bounded p-prime and square integrability give p->0. A finite limiting phi above phi* contradicts the strictly positive limiting force; hence F->infinity and HE->H_infinity."
+    },
+    {
+      "topic": "Exact late-time rates",
+      "finding": "Accepted. For z=Fp the written stable inhomogeneous scalar equation has asymptotically positive damping and constant forcing, yielding z->z_infinity and z-prime->0. Thus F_E-prime tends to v_infinity and F_E-double-prime tends to zero. The proper-time integral diverges with the stated square-root asymptotic. Independently checked HJ/tJ->a/(36b), F/tJ\u00b2->a\u00b2/(54b), RJ/tJ\u00b2->a\u00b2/(108b\u00b2). The exact Hdot conversion, rather than differentiation of an asymptotic equivalence, gives HJdot->a/(36b). Therefore w_kin+1~-4/(mu\u00b2tJ\u00b2), with unbounded curvature at infinite Jordan time."
+    },
+    {
+      "topic": "Cycles, compact omega sets and exceptions",
+      "finding": "Accepted. HE-prime=-p\u00b2/2 rules out nonconstant cycles. For a precompact forward trajectory bounded away from F=0, the omega-limit set lies in the maximal invariant subset of p=0, hence F=F*. The limiting HE selects one of the two de Sitter equilibria. The compactness condition, stable separatrix, exact equilibrium and potentially arbitrarily long transients are explicitly retained; no claim is made for every trajectory or every continuation across F=0."
+    },
+    {
+      "topic": "Evidence scope",
+      "finding": "Accepted with the stated ceiling. The probe checks exact coefficients and identities and pins five dependencies; six Lean lemmas establish finite algebra/comparison cores only. Neither is represented as a machine proof of global ODE analysis. The written analytic proof supplies that part, reviewed independently here."
+    },
+    {
+      "topic": "Source and physical ceiling",
+      "finding": "Accepted. SC-COS-50/51/52 remain ASSERTS and concern a qualified variable dark-energy and adjoint-one-form construction; they do not select the scalar reduction, reference/state or observed stress map used here. The report explicitly withholds source-GU, physical Newton, observed w_DE, full14D, higher-h and DESI/CMB conclusions. The Weyl perturbation/state problem is separate even though exact FLRW has zero Bach tensor."
+    }
+  ],
+  "limits": [
+    "Acceptance applies to the declared leading order-h vacuum local4D action with h>0 and constant positive conformal moments, not an all-GU or empirically selected class.",
+    "The large-curvature asymptotic is a theorem of the truncation; no control of neglected higher-order terms is established.",
+    "F=0 is not automatically a spacetime singularity, a measured Newton sign change or a justified full-PDE continuation.",
+    "w_kin is a geometric ratio. Its approach to -1 is not an observed dark-energy equation of state or a fit to data.",
+    "The two cones contain the local growing branches but do not cover every initial condition; exact de Sitter and its stable manifold remain genuine exceptions."
+  ],
+  "own_checks": [
+    "Read the full frozen report, exact probe, certificate and six finite Lean cores; did not run tests, builds or probe jobs.",
+    "Independently recomputed the curvature decomposition, trace sign, constraint root, cone comparison, conformal normalization, rescaled-momentum equation and proper-time/Hdot asymptotics in reasoning.",
+    "Authenticated SHA256 of all four frozen artifacts, producer hash and all five certificate dependencies; all matched.",
+    "Checked SC-COS-50/51/52 source-register entries and inherited source-native/geometer scope; no source or governance edits.",
+    "Root reports 41 exact controls and six finite Lean passes. These are attributed validation reports, not reviewer executions.",
+    "Verified bibliographic identity of the cited primary review at https://arxiv.org/abs/1002.4928; acceptance relies on explicit action-specific derivations, not the citation alone."
+  ]
+}
+
+## native_grading_review: independent T1 source/action/frame specialist
+
+{
+  "reviewer": "native_grading_review: independent T1 source/action/frame specialist",
+  "independent": true,
+  "independence_disclosure": "No contribution to this wave or its cosmological derivations, producer, certificate or Lean cores.",
+  "accepted": true,
+  "blockers": [],
+  "artifact_hashes": {
+    "explorations/conditional-build/bet-cosmology-nonlinear-roll-2026-11-28.md": "56a78a3b1b4b6717306f0841ca91f6ae8e01ae179601bd452341ca8b395c3b57",
+    "tests/program-focus/bet_cosmology_nonlinear_roll_probe.py": "3be98e60c05f18627fa679a3abfa3eda0f5519e954326509c9479a6a70b9f26b",
+    "lab/process/bet-cosmology-nonlinear-roll-certificates.json": "bf924844289455552cd77da947fdb2f9c241b7ae655bffc1875722b8cf3f01a6",
+    "Lean/GUFormalization/CosmologyRoll.lean": "6efe1b2acd3993cc299034449912898d97400e8fe3df33303e72b78eb2993337"
+  },
+  "reasoning": [
+    "The coefficients agree with the owned moving-covariant positive-conformal-reference action: AQ=hm0/2, AR=-99hm1/4, A0=2115hm2/16. Ric\u00b2=(C\u00b2-E4)/2+R\u00b2/3 yields b=17hm0/12, not a reciprocal or missing-half coefficient. The full positive moment cone gives D=(3h\u00b2/16)(3995m0m2-3267m1\u00b2)>0, including the equality/atomic boundary, because m1>0.",
+    "The exact FLRW subsector is obtained from full metric rows: C vanishes, making the first variation of the Weyl-squared term vanish, and the constant Euler prefactor has zero local bulk variation for compact interior variations. This is not substitution into a restricted action followed by incomplete variation; variable moments or different boundary prescriptions are explicitly outside the premises.",
+    "The Legendre relation, trace evolution and Friedmann constraint are consistent with(-+++) and R=6(Hdot+2H\u00b2). The polynomial Jordan system preserves C=0 via Cdot=-4HC. The constraint plus trace supplies the spatial FLRW row without division by F. Constraint-admitted data in both cones exist near the same de Sitter point.",
+    "For the lower cone, positive v=-Fdot and H remain invariant, H has the stated upper bound, and the comparison inequality gives a strictly positive v floor. Polynomial-ODE boundedness excludes earlier blow-up and forces a transverse finite-time F=0 crossing with Hv=D/(24b). The curvature and its first derivative stay finite; the Jordan continuation remains mathematical and does not assert a physical Newton sign change or a full-PDE continuation.",
+    "Multiplying the vacuum action by1/2 preserves its metric equations and gives the standard mathematical Einstein normalization R_E/2. With F_ref=1 explicitly held, phi=sqrt(3/2)logF and V=U/(2F\u00b2) are consistent. The Einstein constraint is exactly the Jordan constraint divided by F\u00b2. A different fixed F_ref rescales auxiliary units, not the Jordan prediction. No measured Planck/Newton normalization is inferred.",
+    "For the upper cone, V>V_infinity>0 and the damping identity provide global Einstein-time continuation, bounded p and square integrability. Bounded pprime gives p\u21920; a finite phi limit would contradict the strictly negative limiting V_phi. The linear damped equation for z=Fp then proves its stated nonzero limit and Fprime_E\u2192v_infinity, Fdoubleprime_E\u21920.",
+    "The proper-time conversion tJ~2sqrt(tE/v_infinity) and the exact identity HdotJ=(Fprime_E HE-Fdoubleprime_E)/2-(Fprime_E)^2/(2F) give all stated coefficients. In particular HdotJ\u2192a/(36b)>0 while HJ grows linearly, so w_kin+1~-4/(mu\u00b2 tJ\u00b2). This is infinite-time curvature growth in the leading model, not a finite-curvature de Sitter endpoint.",
+    "The Lyapunov identity Hprime_E=-p\u00b2/2 excludes nonconstant cycles even with negative HE. The compact omega-limit conclusion includes the explicit F-away-from-zero/boundedness premise and yields one equilibrium. The local expanding constrained system is a saddle with genuine stable and unstable manifolds; the exceptional separatrix and transient states are preserved, and the cones are not claimed to exhaust all data.",
+    "The source IDs and action-owner distinctions are conservative: SC-COS50/51/52 remain source assertions about variable dark energy and a one-form mechanism, not identification with this f(R) scalar. W2, differently normalized W153/W157 owners, full14D dynamics and higher-h terms are not imported.",
+    "All four actual hashes match the frozen manifest. The certificate records41 checks; producer and inherited dependency hashes match actual bytes. Read six finite Lean cores. Root reports six-core compilation and exact replay PASS; this reviewer performed no execution."
+  ],
+  "limits": [
+    "Only the declared constant-positive-moment leading order-h local4D vacuum spatially flat FLRW model and its constraint-admitted positive-F cones are accepted. Other states, signs, actions, variable moments and boundary prescriptions are not excluded.",
+    "F>0 is the conformal/response chart, not an established measured Newton coupling; the full action retains a Weyl-squared perturbation sector even though its row vanishes on exact FLRW.",
+    "Kinematic w is not source one-form stress or observed w_DE. No matter/radiation/CMB ruler, DESI fit, selected physical initial condition or duration, quantum ghost, physical singularity or fullGU verdict is inferred.",
+    "The asymptotic theorem concerns the leading truncation. It does not justify using that truncation at arbitrarily large curvature or supply higher-h/14D control.",
+    "Finite controls and Lean cores check algebra and arithmetic, not global ODE continuation, invariant-manifold theory or asymptotic convergence. Those are independently reviewed written arguments.",
+    "No scientific matrix/ledger absorption follows from this lane-C result."
+  ],
+  "ownchecks": "Read-only report/probe/Lean and inherited action/reduction inspection, source/native routing and geometer limits, static byte/dependency hashing. No tests, builds, native jobs or owner edits. Scratch receipt only."
+}
+
+## /root/q7_propagation_hostile
+
+{
+  "accepted": true,
+  "reviewer": "/root/q7_propagation_hostile",
+  "reviewer_scope": "Independent hostile T1 mathematics and source-scope review; nonauthor and noncontributor to these artifacts. Internal review only.",
+  "basis": "fe84a56dc903824e4f28877c07b0627157228aeb",
+  "artifact_hashes": {
+    "explorations/conditional-build/bet-cosmology-nonlinear-roll-2026-11-28.md": "56a78a3b1b4b6717306f0841ca91f6ae8e01ae179601bd452341ca8b395c3b57",
+    "tests/program-focus/bet_cosmology_nonlinear_roll_probe.py": "3be98e60c05f18627fa679a3abfa3eda0f5519e954326509c9479a6a70b9f26b",
+    "lab/process/bet-cosmology-nonlinear-roll-certificates.json": "bf924844289455552cd77da947fdb2f9c241b7ae655bffc1875722b8cf3f01a6",
+    "Lean/GUFormalization/CosmologyRoll.lean": "6efe1b2acd3993cc299034449912898d97400e8fe3df33303e72b78eb2993337"
+  },
+  "blockers": [],
+  "reasoning": [
+    "The reduction uses the full local FLRW metric rows: the Weyl-squared Bach tensor vanishes on conformally flat FLRW and the constant Euler term contributes no local bulk variation. The report does not infer the equations merely by varying a symmetry-restricted action. This bridge is inherited from the owned reduction.",
+    "The Jordan trace and curvature-definition system has Friedmann constraint Cdot=-4HC. All cone statements require constraint-admitted data; explicit positive-root data and the local unstable manifold make both cones nonempty.",
+    "In the lower cone, H is positively invariant and bounded above, while v=-Fdot has a strictly positive comparison lower bound. This forces finite-time F=0. The independent upper bound on v rules out an earlier blow-up. The endpoint relation Hv=D/(24b)>0 makes the crossing transverse, with finite H, R, Rdot and FLRW curvature invariants. It does not prove a physical or full-PDE singularity.",
+    "In the upper cone, the positive Einstein-frame plateau bounds H_E and p, gives global Einstein-time continuation and square-integrable p, and bounded p-prime implies p tends to zero. A finite phi limit is incompatible with the strictly negative potential derivative, so F tends to infinity.",
+    "The exact stable linear equation for z=Fp has positive limiting damping and constant limiting forcing; variation of constants yields z convergence and z-prime tending to zero. Thus F-prime_E and F-double-prime_E have the stated limits. Jordan time still diverges. The exact Hdot_J identity, rather than differentiated asymptotic equivalence, yields a/(36b)>0 and the stated w_kin asymptotic.",
+    "The monotone H_E identity excludes nonconstant periodic orbits. The compact omega-limit argument explicitly requires F bounded away from zero and bounded transformed variables; invariance leaves only one de Sitter equilibrium with fixed limiting sign. It is not a classification of every initial state or continuations through F=0.",
+    "The local expanding de Sitter equilibrium is a saddle. Its one-dimensional stable manifold and the exact equilibrium are retained exceptions; only the two invariant growing-mode cones receive the endpoint exclusion.",
+    "SC-COS-50/51/52 retain their asserted one-form and conditional-DESI meanings. The report does not identify that source object with f(R), does not identify w_kin with observed w_DE or F with measured Newton coupling, and does not transfer the leading-truncation asymptotics to source GU or full14D evolution."
+  ],
+  "own_checks": [
+    "Read the full report, probe and six Lean statements; independently checked the constraint, discriminant, crossing equation, Einstein-frame potential and normalization, z equation, Jordan derivative identity, limiting constants, and exceptional-state logic.",
+    "Read exact SC-COS-50/51/52 register entries and retained geometer/source routing distinctions, inherited K95 versus K77, action ownership and positive-reference assumptions.",
+    "Authenticated all four frozen artifact hashes and the certificate producer hash. Authenticated all five pinned dependencies.",
+    "Stored certificate status PASS has forty-one distinct check names with consistent counts. Parent reports six finite Lean lemmas compiled; reviewer inspected their limited algebraic statements without running them."
+  ],
+  "limitations": [
+    "The analytic conclusions concern only the existing leading order-h, constant positive-reference, vacuum spatially flat FLRW reduction. Higher-order terms, matter, radiation, physical state selection and source observation/stress maps are not supplied.",
+    "Unbounded curvature is an asymptotic property of the truncated equations, not authorization to extrapolate that truncation beyond its controlled regime.",
+    "F=0 is a conformal-chart boundary with regular local Jordan ODE continuation here. Physical viability and full-PDE continuation through it remain undetermined.",
+    "The asymptotic kinematic ratio approaching minus one is not a DESI fit, a physical dark-energy prediction, a phantom-matter claim, or a quantum ghost diagnosis.",
+    "Finite exact controls and Lean cores do not formalize the ODE continuation, comparison, stable-manifold or omega-limit proofs. This is internal written-proof acceptance, not external scientific verification.",
+    "Lane-C result only; no matrix, ledger, canon, source verdict, new choice family or governance effect is authorized by this receipt."
+  ],
+  "not_run": [
+    "No tests, probe execution, builds, Lean compilation, numerical evolution or native computations performed by this reviewer.",
+    "No owner files edited; only this scratch receipt written."
+  ]
+}

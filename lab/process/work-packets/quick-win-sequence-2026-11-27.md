@@ -96,3 +96,9 @@ Consumed by the wave5 result below: test global quadratic closure for inherited 
 [Result](../../../explorations/conditional-build/cw-global-quadratic-boundary-2026-11-28.md): global modal inputs are bounded into compact output; actual packets exclude unweighted all-output intrinsic-Y L2. A conservative global tame45 derivative estimate survives. No full nonlinear invariant state/domain or physical norm follows. The finite investigation is complete with these precise unresolved burdens; no further CW wave is implied.
 
 Step2b is complete at5/5; retain global nonlinear closure, free-decay topology, full-state lifting and physical state/current as named burdens. Counter127 mandates LC-BETS next. Then take queued step3: a concrete additional antilinear/PT realization criterion on the actual declared sector, reusing Theta/time-direction, Jordan2 and norm costs. No W2 continuation, local threshold census or new CW iteration by default.
+
+## Counter127 LC consumed — nonlinear cosmology
+
+[Lane-C result](../../../explorations/conditional-build/bet-cosmology-nonlinear-roll-2026-11-28.md) records the nonlinear fate of the already-owned leading positive-reference vacuum FLRW model: F0 chart exit or unbounded curvature despite w_kin approaching−1. Stable separatrix and transient histories survive. This is LC context only, not a new wedge construction wave or B science credit.
+
+Counter128 returns to ordinary B: queued quick-win step3, a concrete additional antilinear/PT realization test on the actual declared sector. CW2b5/5 and wedge3/3 remain complete. Reuse Theta/time-direction, Jordan2 and norm costs. The next cosmology comparison needs a selected physical matter/stress/reference/state bridge or higher-order control, not another sign/growth or arbitrary-weight scan.

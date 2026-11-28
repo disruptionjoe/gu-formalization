@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "basis_revision": "9838ba1e3723b5f9673a84f1e8cb142dc07093f6",
+  "basis_revision": "fe84a56dc903824e4f28877c07b0627157228aeb",
   "scope": "Curated six-pillar x source/class/candidate linked view. Status belongs to cited owners; no scientific verdict promotion, automatic ranking, whole-history coverage or global percentage. Cheapest-next fields are attributed bounded suggestions, not dispatch instructions. Closed means resolved within the cited scope; it does not always mean falsified. Positive fits and remaining source/physical bridges stay explicit.",
   "assumptions_ref": "lab/process/action-constraint-matrix.json#source_relevance_assumption_view.shared_prerequisites",
   "dependencies": [
@@ -94,7 +94,7 @@
     },
     {
       "ref": "lab/process/action-constraint-matrix.json",
-      "sha256": "84e0f23728f49d24f735e2835cad86c0bafd5e9d63f998e4ce8401febb9612f0"
+      "sha256": "639b9a6de7ec9f802fe96eb6dfe696e8fa123f98fc13f1eddec88baefa6cdb36"
     },
     {
       "ref": "lab/process/conditional-physics-ledger-v0.263.json",
@@ -243,6 +243,10 @@
     {
       "ref": "explorations/conditional-build/cw-global-quadratic-boundary-2026-11-28.md",
       "sha256": "7d3912f04c78bea9f3fc4e449b71f7506e6d784d2c73278c3800f87d8abeccc3"
+    },
+    {
+      "ref": "explorations/conditional-build/bet-cosmology-nonlinear-roll-2026-11-28.md",
+      "sha256": "56a78a3b1b4b6717306f0841ca91f6ae8e01ae179601bd452341ca8b395c3b57"
     }
   ],
   "pillars": [
@@ -644,6 +648,13 @@
           "explorations/conditional-build/bet-cosmology-conservation-descent-2026-11-27.md"
         ],
         "specific_survivors": "Retain the existing positive fits and scoped survivors in the linked layer cells; no broad viability inference."
+      },
+      "discovery_context": {
+        "bet_cosmology_nonlinear_roll_2026_11_28": {
+          "ref": "lab/process/bet-cosmology-nonlinear-roll.json",
+          "source_or_matrix_credit": "none; requires B rederivation",
+          "next_bridge": "Physical matter/stress/reference/state and controlled higher-order reduction, not a repeated scalar mass test."
+        }
       }
     },
     {
@@ -1329,7 +1340,7 @@
         "sibling_import_effect": "Reusable scoped guards; no physical bridge or new choice. See per-item progress-map effects."
       }
     ],
-    "top_next": "Step2b is complete at5/5; retain global nonlinear closure, free-decay topology, full-state lifting and physical state/current as named burdens. Counter127 mandates LC-BETS next. Then take queued step3: a concrete additional antilinear/PT realization criterion on the actual declared sector, reusing Theta/time-direction, Jordan2 and norm costs. No W2 continuation, local threshold census or new CW iteration by default.",
+    "top_next": "Counter128 returns to ordinary B: queued quick-win step3, a concrete additional antilinear/PT realization test on the actual declared sector. CW2b5/5 and wedge3/3 remain complete. Reuse Theta/time-direction, Jordan2 and norm costs. The next cosmology comparison needs a selected physical matter/stress/reference/state bridge or higher-order control, not another sign/growth or arbitrary-weight scan.",
     "track_policy": {
       "status": "applied",
       "authority": [
@@ -1639,5 +1650,19 @@
     "actual_delta": "Global common-CW modal inputs have a uniform compact-output quadratic boundary bound. Actual normalized primary-minus packets exclude unweighted all-output coefficient L2 for intrinsic Y=(N+lambda Pi)x. A conservative global tame45 derivative bound survives; no full-state lifting or nonlinear invariant domain follows.",
     "missing_input": "Global nonlinear invariant state space with a selected physical state/current; intrinsic Y does not reconstruct the full forced state or measure independent decays.",
     "next": "Step2b is complete at5/5; retain global nonlinear closure, free-decay topology, full-state lifting and physical state/current as named burdens. Counter127 mandates LC-BETS next. Then take queued step3: a concrete additional antilinear/PT realization criterion on the actual declared sector, reusing Theta/time-direction, Jordan2 and norm costs. No W2 continuation, local threshold census or new CW iteration by default."
+  },
+  "bet_cosmology_nonlinear_roll_2026_11_28": {
+    "evidence": [
+      "explorations/conditional-build/bet-cosmology-nonlinear-roll-2026-11-28.md",
+      "lab/process/bet-cosmology-nonlinear-roll.json"
+    ],
+    "pillars": [
+      "dark_energy",
+      "gravity"
+    ],
+    "lane_scope": "LC context only; no source/class/candidate cell verdict changed",
+    "actual_delta": "Across the owned positive-reference leading4D wedge class, the lower expanding scalar growing cone reaches F=0 in finite Jordan time with finite geometric data. The upper cone has HJ/t\u2192a/(36b), RJ/t\u00b2\u2192a\u00b2/(108b\u00b2), and w_kin\u2192\u22121 from below despite unbounded curvature. Exact de Sitter and its stable separatrix survive; no physical dark-energy identification follows.",
+    "missing_input": "Validity and physical observation/matter/stress identification of the leading4D reference reduction; asymptotic high-curvature extrapolation is not a full14D solution theorem.",
+    "next": "Counter128 returns to ordinary B: queued quick-win step3, a concrete additional antilinear/PT realization test on the actual declared sector. CW2b5/5 and wedge3/3 remain complete. Reuse Theta/time-direction, Jordan2 and norm costs. The next cosmology comparison needs a selected physical matter/stress/reference/state bridge or higher-order control, not another sign/growth or arbitrary-weight scan."
   }
 }

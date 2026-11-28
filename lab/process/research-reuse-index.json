@@ -3235,6 +3235,63 @@
         "receipt_ref": "lab/process/cw-global-quadratic-boundary.json#verification",
         "scope": "92 exact finite controls and6 Lean cores; analytic integration and packet proofs independently reviewed."
       }
+    },
+    {
+      "id": "bet-cosmology-nonlinear-roll-2026-11-28",
+      "kind": "result",
+      "owner_ref": "explorations/conditional-build/bet-cosmology-nonlinear-roll-2026-11-28.md",
+      "tested_statement": "Across the owned positive-reference leading4D wedge class, the lower expanding scalar growing cone reaches F=0 in finite Jordan time with finite geometric data. The upper cone has HJ/t\u2192a/(36b), RJ/t\u00b2\u2192a\u00b2/(108b\u00b2), and w_kin\u2192\u22121 from below despite unbounded curvature. Exact de Sitter and its stable separatrix survive; no physical dark-energy identification follows.",
+      "signature": {
+        "object": "Nonlinear scalar growing-mode endpoint",
+        "carrier": "Leading positive-reference4D own-wedge metric, flat vacuum FLRW",
+        "convention": "(-+++),Jordan proper time; F>0 Einstein chart, not physicalNewton identification",
+        "class": "All constant positive moment triples h>0 and constraint-admitted expanding growing cones",
+        "premises": [
+          "explorations/conditional-build/bet-cosmology-nonlinear-roll-2026-11-28.md"
+        ]
+      },
+      "attributed_status": "internal_T1_reviewed",
+      "status_ref": "lab/process/bet-cosmology-nonlinear-roll.json#status",
+      "source_bridge_ref": "lab/process/bet-cosmology-nonlinear-roll.json#source_bridge",
+      "certificate_refs": [
+        "lab/process/bet-cosmology-nonlinear-roll-certificates.json",
+        "Lean/GUFormalization/CosmologyRoll.lean"
+      ],
+      "control_refs": [
+        "tests/program-focus/bet_cosmology_nonlinear_roll_probe.py"
+      ],
+      "survivors_ref": "lab/process/bet-cosmology-nonlinear-roll.json#follow_through",
+      "reopen_condition_ref": "explorations/conditional-build/bet-cosmology-nonlinear-roll-2026-11-28.md",
+      "superseded_by": null,
+      "cache": {
+        "artifacts": [
+          {
+            "path": "explorations/conditional-build/bet-cosmology-nonlinear-roll-2026-11-28.md",
+            "sha256": "56a78a3b1b4b6717306f0841ca91f6ae8e01ae179601bd452341ca8b395c3b57"
+          },
+          {
+            "path": "tests/program-focus/bet_cosmology_nonlinear_roll_probe.py",
+            "sha256": "3be98e60c05f18627fa679a3abfa3eda0f5519e954326509c9479a6a70b9f26b"
+          },
+          {
+            "path": "lab/process/bet-cosmology-nonlinear-roll-certificates.json",
+            "sha256": "bf924844289455552cd77da947fdb2f9c241b7ae655bffc1875722b8cf3f01a6"
+          },
+          {
+            "path": "Lean/GUFormalization/CosmologyRoll.lean",
+            "sha256": "6efe1b2acd3993cc299034449912898d97400e8fe3df33303e72b78eb2993337"
+          }
+        ],
+        "verifier": {
+          "command": "python3",
+          "args": [
+            "tests/program-focus/bet_cosmology_nonlinear_roll_probe.py",
+            "--verify"
+          ]
+        },
+        "receipt_ref": "lab/process/bet-cosmology-nonlinear-roll.json#verification",
+        "scope": "41 finite exact controls,6 finite Lean cores; full analytic proof separately reviewed. LC only."
+      }
     }
   ]
 }

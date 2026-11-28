@@ -16,6 +16,10 @@ Do not add "Current follow-through" sections or "Historical predecessor" stacks 
 matrix or bet file. The retired follow-through chain and banner stack are kept at the end of this file under
 "Archived steering history".
 
+## 2026-11-28 — Nonlinear cosmology endpoint
+
+[Lane-C result](explorations/conditional-build/bet-cosmology-nonlinear-roll-2026-11-28.md) · [Evidence](lab/process/bet-cosmology-nonlinear-roll.json). The declared positive-reference vacuum FLRW growing branches reach F0 or unbounded curvature; w_kin can approach−1 without finite-H de Sitter. Exact equilibrium/stable separatrix and transient rolling remain.41 exact controls and6 finite Lean cores (`Lean/GUFormalization/CosmologyRoll.lean`); no scientific matrix or ledger absorption.
+
 ## 2026-11-28 — Global quadratic boundary result
 
 [Result](explorations/conditional-build/cw-global-quadratic-boundary-2026-11-28.md) · [Evidence](lab/process/cw-global-quadratic-boundary.json). Global inputs have compact-output control; actual normalized packets exclude unweighted all-output intrinsic boundary L2. A conservative tame45 derivative bound survives. Full nonlinear/physical completion remains open.92 exact controls and6 finite Lean cores; no source or ledger verdict change.

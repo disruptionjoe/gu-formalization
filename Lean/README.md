@@ -341,3 +341,7 @@ replacement for `lake build` or targeted standalone Lean checks.
 ## 2026-11-28 — CW global quadratic boundary finite cores
 
 `GUFormalization/CWQuadraticBoundary.lean` checks six finite cores: shell/receiver arithmetic, intrinsic forced identity and derivative accounting. Targeted single-thread compilation passed without proof placeholders. Integration, global packets, residue identities and physical/source applicability remain written/reviewed mathematics. No full-project build or canon promotion is claimed. Result: `explorations/conditional-build/cw-global-quadratic-boundary-2026-11-28.md`.
+
+## 2026-11-28 — Nonlinear cosmology finite cores
+
+`GUFormalization/CosmologyRoll.lean` checks six finite lemmas: strict moment discriminant, potential identity, damping/crossing bounds and rate/kinematic arithmetic. Targeted single-thread compilation passed; no proof placeholders. Global ODE continuation, cone and asymptotic arguments remain reviewed written mathematics. No full-project build or canon promotion. Result: `explorations/conditional-build/bet-cosmology-nonlinear-roll-2026-11-28.md`.
