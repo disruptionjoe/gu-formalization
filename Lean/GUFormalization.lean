@@ -165,3 +165,5 @@ import GUFormalization.CWQuadraticBoundary
 import GUFormalization.CosmologyRoll
 
 import GUFormalization.PTPositiveQuotient
+
+import GUFormalization.ObserverHorizon

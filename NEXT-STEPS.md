@@ -16,6 +16,10 @@ Do not add "Current follow-through" sections or "Historical predecessor" stacks 
 matrix or bet file. The retired follow-through chain and banner stack are kept at the end of this file under
 "Archived steering history".
 
+## 2026-11-28 — Observer horizon compatibility
+
+[Result](explorations/conditional-build/observer-horizon-compatibility-2026-11-28.md) · [Evidence](lab/process/observer-horizon.json). Robust natural cones and unrestricted finite invariant value/finite-jet state realizations fail their stated compatibility tests. Convex robust cones require at least nine normal lineality directions. Density first jets leave higher variation free.53exactcontrols and7finiteLeancores; physical horizon and source/ledger verdicts remain unchanged.
+
 ## 2026-11-28 — Positive realization and literal observation
 
 [Result](explorations/conditional-build/pt-positive-quotient-observation-2026-11-28.md) · [Evidence](lab/process/pt-positive-quotient.json). Conserved PSD multiplier quotients cannot retain both the actual open decay packets and their literal signal. Named threshold-quotient and Theta-fixed-history tests add scoped exclusions; dissipative and changed-domain survivors remain.59 exact controls and7 finite Lean cores; no source or ledger verdict.

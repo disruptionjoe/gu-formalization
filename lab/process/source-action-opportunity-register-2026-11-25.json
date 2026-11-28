@@ -4136,5 +4136,49 @@
       "Deterministic replay initially exposed JSON tuple/list representation in pair hits; canonical list serialization fixes replay without mathematical change.",
       "Known PU overlap is indefinite; do not translate the word unitarity into a PSD metric claim."
     ]
+  },
+  "observer_horizon_compatibility_2026_11_28": {
+    "evidence": [
+      "explorations/conditional-build/observer-horizon-compatibility-2026-11-28.md",
+      "lab/process/observer-horizon.json"
+    ],
+    "actual_delta": "Boost-weight mismatch excludes a closed pointed Lorentz-natural cone with horizontal interior; with convexity, at least nine tracefree normal directions lie in lineality, and the bound is sharp. Finite invariant conformal-ray measures do not support unchanged actual differential output on unrestricted value or finite-jet classes. The fixed density first jet leaves trace-profile variation free.",
+    "choice_budget": {
+      "families": 10,
+      "obligations": 4,
+      "net": 6,
+      "source_selected_predictions": 0,
+      "new_adopted_choices": 0,
+      "scope": "Historical candidate grouping unchanged, not all-GU parameter count."
+    },
+    "consumed": [
+      "Pointwise timelike H and global density-jet existence remain prior consumed work.",
+      "Finite invariant measure classification including singular rays reused.",
+      "Robust metric-only Lorentz cone compatibility.",
+      "Actual unrestricted finite invariant measure/value and all-finite-jet differential descent."
+    ],
+    "exclusions": [
+      "Closed pointed Lorentz-natural cone with horizontal ambient interior.",
+      "Unrestricted smooth value/finite-jet state quotient retaining actual conormal differential output under finite invariant fibre measure."
+    ],
+    "survivors": [
+      "PSD product cone with horizontal boundary; source/PDE compatibility unbuilt.",
+      "Extra-clock or tensor-dependent cones and regular measures.",
+      "Finite ray measures as averaging/reduction references rather than state norms.",
+      "Selected normal-jet/extension laws, other state spaces, physical output quotients and nonlocal accessibility."
+    ],
+    "next": "Step4 basic compatibility completed after one substantive wave. Next ordinaryB step5: test Lambda-as-integration-constant against the actual owned equations and variation/conservation identity; reuse fixed-volume rigidity without treating it as unimodular dynamics. Revive H1 only with specified causal cone/state/readout or observer trace. CW2b5/5,wedge3/3,PT3 complete; cadence unchanged.",
+    "pitfalls": [
+      "Ambient multi-time signature alone does not forbid every observer-natural proper cone.",
+      "A first-order conormal witness uses f beta, not f\u00b2 beta.",
+      "Finite geometric reference measure is not automatically a field-state norm.",
+      "Trapped arbitrary-codimension theorems still need index-one ambient and spacelike submanifold.",
+      "Weighted stationarity is not causal one-way propagation or physical stability."
+    ],
+    "retrospective": [
+      "Scout rejected a duplicate finite-measure reproof, preserving the owned singular classification.",
+      "Initial prospective squared transverse witness was inappropriate for first-order P; corrected to linear before native computation.",
+      "PSD product countercone prevented an overbroad covariance no-go; the robust-horizontal-interior premise is essential."
+    ]
   }
 }

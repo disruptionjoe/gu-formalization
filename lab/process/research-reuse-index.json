@@ -3349,6 +3349,63 @@
         "receipt_ref": "lab/process/pt-positive-quotient.json#verification",
         "scope": "59 exact controls and7 Lean cores; form-domain, packet and coarea proofs independently reviewed."
       }
+    },
+    {
+      "id": "observer-horizon-compatibility-2026-11-28",
+      "kind": "result",
+      "owner_ref": "explorations/conditional-build/observer-horizon-compatibility-2026-11-28.md",
+      "tested_statement": "Boost-weight mismatch excludes a closed pointed Lorentz-natural cone with horizontal interior; with convexity, at least nine tracefree normal directions lie in lineality, and the bound is sharp. Finite invariant conformal-ray measures do not support unchanged actual differential output on unrestricted value or finite-jet classes. The fixed density first jet leaves trace-profile variation free.",
+      "signature": {
+        "object": "Observer natural causal cone and finite-state differential compatibility",
+        "carrier": "H plus Sym2Hstar; actual primary-minus K95 bosonic first-order symbol",
+        "convention": "Closed pointed cone; pure-horizontal ambient interior; value/finite-jet state quotient with allsmoothgerms",
+        "class": "Declared Lorentz-natural completion categories",
+        "premises": [
+          "explorations/conditional-build/observer-horizon-compatibility-2026-11-28.md"
+        ]
+      },
+      "attributed_status": "internal_T1_reviewed",
+      "status_ref": "lab/process/observer-horizon.json#status",
+      "source_bridge_ref": "lab/process/observer-horizon.json#source_bridge",
+      "certificate_refs": [
+        "lab/process/observer-horizon-certificates.json",
+        "Lean/GUFormalization/ObserverHorizon.lean"
+      ],
+      "control_refs": [
+        "tests/program-focus/observer_horizon_probe.py"
+      ],
+      "survivors_ref": "lab/process/observer-horizon.json#follow_through",
+      "reopen_condition_ref": "explorations/conditional-build/observer-horizon-compatibility-2026-11-28.md",
+      "superseded_by": null,
+      "cache": {
+        "artifacts": [
+          {
+            "path": "explorations/conditional-build/observer-horizon-compatibility-2026-11-28.md",
+            "sha256": "673bb7f43786e9065017b4325d25997389b16c6d0423de0512625c37da9cbbc7"
+          },
+          {
+            "path": "tests/program-focus/observer_horizon_probe.py",
+            "sha256": "6166ec3d72ad017e00e7d08f3b68f5ae0d75a4d420f6336b97edabfe16588e30"
+          },
+          {
+            "path": "lab/process/observer-horizon-certificates.json",
+            "sha256": "85170679a969d69eb1ab9e2be483651ed42399dcc080093511bb88f2b0a8b6dc"
+          },
+          {
+            "path": "Lean/GUFormalization/ObserverHorizon.lean",
+            "sha256": "8c41e44fc9c602e65e5a5d45235ac5ee75f2581cd15440817659a175d557533e"
+          }
+        ],
+        "verifier": {
+          "command": "python3",
+          "args": [
+            "tests/program-focus/observer_horizon_probe.py",
+            "--verify"
+          ]
+        },
+        "receipt_ref": "lab/process/observer-horizon.json#verification",
+        "scope": "53exactcontrols,7finiteLeancores; full class proofs written and independently reviewed."
+      }
     }
   ]
 }

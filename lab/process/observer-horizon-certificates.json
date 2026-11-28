@@ -1,0 +1,92 @@
+{
+  "status": "PASS",
+  "checks": 53,
+  "check_names": [
+    "boost preserves actual base metric",
+    "boost determinant one",
+    "covector weight one",
+    "normal Sym2 weight two",
+    "normal weight vector nonzero",
+    "normal weight vector traceless",
+    "normal weight vector DeWitt null",
+    "rescaled horizontal limit zero",
+    "rescaled normal limit -1",
+    "rescaled normal limit 1",
+    "nine actual null covectors",
+    "null squares span nine dimensions",
+    "all spanning squares tracefree",
+    "trace projection complementary",
+    "PSD congruence positive fixture",
+    "negative normal perturbation leaves PSD",
+    "ordinary Lorentz timelike interior control",
+    "actual offdiagonal normal traceless",
+    "actual offdiagonal normal unit positive",
+    "offdiagonal normal orthogonal trace",
+    "trace normal square",
+    "mean curvature square",
+    "native first-order conormal response",
+    "compact/native same response",
+    "nonzero literal horizontal receiver",
+    "exact two-term response",
+    "primary-minus input real",
+    "primary-minus output real",
+    "positive auxiliary output norm",
+    "null input jet 0",
+    "nonzero next output jet 0",
+    "null input jet 1",
+    "nonzero next output jet 1",
+    "null input jet 2",
+    "nonzero next output jet 2",
+    "null input jet 3",
+    "nonzero next output jet 3",
+    "null input jet 4",
+    "nonzero next output jet 4",
+    "null input jet 5",
+    "nonzero next output jet 5",
+    "tangential derivative control",
+    "frozen zeroth order vanishes on support",
+    "ray weighted volume cancellation",
+    "trace-profile first variation fixed",
+    "finite-ray profile same first jet",
+    "finite-ray profile arbitrary second variation",
+    "compact trace graph second variation",
+    "trace-profile second variation free",
+    "trace second variation sign -1",
+    "trace second variation sign 0",
+    "trace second variation sign 1",
+    "conformal ray adds one negative direction"
+  ],
+  "probe_sha256": "6166ec3d72ad017e00e7d08f3b68f5ae0d75a4d420f6336b97edabfe16588e30",
+  "dependencies": {
+    "tests/program-focus/source_action_deep_algebra.py": "4e3800131049e2b397bbce6106bfc5766d2f5fbf996319c50942f3b805d65598",
+    "tests/program-focus/printed_equation_jets_symbol_probe.py": "e43da867d17cf985bfac8c014657e8cbf18c94e80013350ca69eee804a4ebeb8",
+    "tests/program-focus/cw_fullsystem_domain_probe.py": "705acae3569fb46445ecb8c7562baddce793a3eb482e5477848c20ee9900cc1d",
+    "explorations/conditional-build/symmetry-restoration-measure-limit-2026-11-25.md": "c218efdae1416069979ca16912c35b555a76600a2b4819e98b13d57bec34a2d6",
+    "explorations/conditional-build/natural-density-fibre-volume-2026-11-25.md": "df63b8dc72864e6ab919b326e07f328b0acb2e6fcae44954ce695f8d33dd40a2",
+    "explorations/conditional-build/source-chimeric-trace-compatibility-2026-11-13.md": "3b883233b2f0b0f5787fd9091fd877893a052c47c11a91f291a5b9af271cbb3f"
+  },
+  "native_response": [
+    [
+      2,
+      18,
+      "2"
+    ],
+    [
+      4,
+      20,
+      "-2"
+    ]
+  ],
+  "cone_weights": {
+    "horizontal_max": 1,
+    "normal": 2,
+    "limit_vectors": "(0,+V),(0,-V), V!=0"
+  },
+  "trace_flow": {
+    "metric": "exp(r/2) g - dr^2",
+    "quadratic_comparison_volume": "exp(c r^2)",
+    "finite_radial_profile_volume": "exp(c r^2-r^4)",
+    "second_variation": "2c"
+  },
+  "scope": "Finite exact algebra only; invariant-measure theorem reused, cone closure and smooth-domain arguments separately reviewed. No physical cone, measure or source verdict."
+}

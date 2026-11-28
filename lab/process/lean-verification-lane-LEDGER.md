@@ -691,3 +691,7 @@ bicategory, ambidexterity or Mackey 2-functor is inferred.
 ## 2026-11-28 — Positive quotient finite cores
 
 `Lean/GUFormalization/PTPositiveQuotient.lean` checks seven finite contraction, readout, PSD, weight and exact-arithmetic cores. Targeted single-thread compilation passed. Packet/form-domain/coarea and source-applicability arguments remain written and reviewed, not Lean-formalized. Result: `explorations/conditional-build/pt-positive-quotient-observation-2026-11-28.md`.
+
+## 2026-11-28 — Observer horizon finite cores
+
+`Lean/GUFormalization/ObserverHorizon.lean` checks seven pointedness, quotient, factorial and arithmetic cores. Analytic cone/measure/jet/geometry arguments remain written and independently reviewed. Result: `explorations/conditional-build/observer-horizon-compatibility-2026-11-28.md`.

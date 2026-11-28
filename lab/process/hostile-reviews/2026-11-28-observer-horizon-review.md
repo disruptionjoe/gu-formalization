@@ -1,0 +1,283 @@
+# Observer horizon compatibility internal T1 review
+
+Two independent specialists and a separate hostile reviewer accepted the frozen native causal-cone, measure/operator, jet and geometric arguments. Contributors do not count as acceptance reviewers. Root: 53 exact controls/replay and 7 finite Lean cores pass. No full nonlinear, physical or source-level claim.
+
+## Frozen artifacts
+
+- explorations/conditional-build/observer-horizon-compatibility-2026-11-28.md: `673bb7f43786e9065017b4325d25997389b16c6d0423de0512625c37da9cbbc7`
+- tests/program-focus/observer_horizon_probe.py: `6166ec3d72ad017e00e7d08f3b68f5ae0d75a4d420f6336b97edabfe16588e30`
+- lab/process/observer-horizon-certificates.json: `85170679a969d69eb1ab9e2be483651ed42399dcc080093511bb88f2b0a8b6dc`
+- Lean/GUFormalization/ObserverHorizon.lean: `8c41e44fc9c602e65e5a5d45235ac5ee75f2581cd15440817659a175d557533e`
+
+## math_representation
+
+{
+  "reviewer": "math_representation",
+  "date": "2026-11-28",
+  "review_type": "independent noncontributor T1 mathematical review; read-only except this scratch receipt",
+  "accepted": true,
+  "blockers": [],
+  "worktree": "/private/tmp/gu-horizon-compatibility-20261128",
+  "target": "X-P1-P2",
+  "tier": "T1",
+  "frozen_manifest": "/private/tmp/gu-horizon-frozen-hashes.json",
+  "artifact_hashes": {
+    "explorations/conditional-build/observer-horizon-compatibility-2026-11-28.md": "673bb7f43786e9065017b4325d25997389b16c6d0423de0512625c37da9cbbc7",
+    "tests/program-focus/observer_horizon_probe.py": "6166ec3d72ad017e00e7d08f3b68f5ae0d75a4d420f6336b97edabfe16588e30",
+    "lab/process/observer-horizon-certificates.json": "85170679a969d69eb1ab9e2be483651ed42399dcc080093511bb88f2b0a8b6dc",
+    "Lean/GUFormalization/ObserverHorizon.lean": "8c41e44fc9c602e65e5a5d45235ac5ee75f2581cd15440817659a175d557533e"
+  },
+  "all_four_hashes_match": true,
+  "dependency_hashes": {
+    "tests/program-focus/source_action_deep_algebra.py": {
+      "sha256": "4e3800131049e2b397bbce6106bfc5766d2f5fbf996319c50942f3b805d65598",
+      "matches": true
+    },
+    "tests/program-focus/printed_equation_jets_symbol_probe.py": {
+      "sha256": "e43da867d17cf985bfac8c014657e8cbf18c94e80013350ca69eee804a4ebeb8",
+      "matches": true
+    },
+    "tests/program-focus/cw_fullsystem_domain_probe.py": {
+      "sha256": "705acae3569fb46445ecb8c7562baddce793a3eb482e5477848c20ee9900cc1d",
+      "matches": true
+    },
+    "explorations/conditional-build/symmetry-restoration-measure-limit-2026-11-25.md": {
+      "sha256": "c218efdae1416069979ca16912c35b555a76600a2b4819e98b13d57bec34a2d6",
+      "matches": true
+    },
+    "explorations/conditional-build/natural-density-fibre-volume-2026-11-25.md": {
+      "sha256": "df63b8dc72864e6ab919b326e07f328b0acb2e6fcae44954ce695f8d33dd40a2",
+      "matches": true
+    },
+    "explorations/conditional-build/source-chimeric-trace-compatibility-2026-11-13.md": {
+      "sha256": "3b883233b2f0b0f5787fd9091fd877893a052c47c11a91f291a5b9af271cbb3f",
+      "matches": true
+    }
+  },
+  "all_six_declared_dependencies_match": true,
+  "reasoning": [
+    {
+      "claim": "Boost-weight cone obstruction",
+      "assessment": "Accepted. The actual dual Lorentz action has a nonzero null-covector square of boost weight2, while every horizontal weight is at most1. Interior membership gives both normal signs, positive conic rescaling removes the horizontal component in the limit, and closedness contradicts pointedness. Convexity is unnecessary. The proof applies to every horizontal h under the stated representation and cone assumptions, not every causal structure."
+    },
+    {
+      "claim": "Product cone and clock countercontrols",
+      "assessment": "Accepted. The ordinary future cone and the cone of positive-semidefinite covariant quadratic forms are closed, pointed and invariant under their respective actions; their product is full-dimensional. Every pure-horizontal member is on its boundary. A supplied timelike clock reduces isotropy to a compact group and permits a covariant clock-dependent cone family. These preserve the exact distinction between absence of a robust horizontal interior and absence of all natural cones."
+    },
+    {
+      "claim": "Local barrier statement",
+      "assessment": "Accepted with the explicit robust open-cone hypothesis. Continuity gives a common neighborhood of an admitted tangent velocity; a sufficiently small transverse bump leaves and returns to the section while its tangent stays in the cone. This is a local conditional construction, not a global event-horizon or focusing theorem."
+    },
+    {
+      "claim": "All finite invariant scale measures",
+      "assessment": "Accepted using the owned B1 support theorem. A nonzero finite Borel measure on the positive conformal ray has a support point in a compact positive-scale patch. Localizing there yields positive mass even for atomic or singular-continuous scale distributions; no density or absolute continuity along the ray is assumed."
+    },
+    {
+      "claim": "Actual conormal and native operator adapter",
+      "assessment": "Accepted. At y=a*g the off-diagonal matrix S has K_y norm squared1/a^2, and df(S)=1/a for f=sqrt(2)*y12/a(y); hence a*S is unit positive and df is its unit conormal. It annihilates the trace-ray tangent. The orthonormal port theta4 is therefore tied to the actual spatial off-diagonal normal, rather than the negative trace direction. The native response has the two real coefficients +2,-2 and auxiliary squared norm8. A smooth frame along a positive-scale interval preserves this nonzero response."
+    },
+    {
+      "claim": "Value quotient and nonlinear residual",
+      "assessment": "Accepted. For T=chi*f*beta the input is zero mu-almost everywhere, but the unchanged first-order output equals chi*P(df)*beta on support and has positive norm on a positive-mass patch. Compact cutoff makes both classes finite. Lower-order terms vanish; in the affine nonlinear residual comparison R(T)-R(0), the fixed source cancels and the algebraic terms vanish. This proves failure of well-definedness on the declared unrestricted value quotient, before any closability issue."
+    },
+    {
+      "claim": "Every finite jet tower",
+      "assessment": "Accepted as a general proof, not extrapolation from six samples. In a transverse coordinate f, T=chi*f^(r+1)*beta has zero full ambient r-jet restricted to Z, while applying r transverse derivatives to L(T) leaves (r+1)!*P(df)*beta as its unique surviving highest term. Derivatives of coefficients, cutoffs and lower-order terms retain vanishing factors. Selected next-jet relations, domains or changed outputs remain outside this conclusion."
+    },
+    {
+      "claim": "Trace-flow tube and profile freedom",
+      "assessment": "Accepted in the held fixed-reference connection metric. The trace velocity is y/2, with vertical square -1; horizontal scaling gives exp(r/2)*g and four-dimensional volume factor exp(r). Thus f0=-r cancels that factor. The finite family exp(c*r^2-r^4) is radially integrable for every finite c, has common value and first jet, and arbitrary second derivative2c. It does not make the full metric-fibre invariant measure finite."
+    },
+    {
+      "claim": "Compact graph second variation",
+      "assessment": "Accepted. The matrix determinant lemma for exp(r/2)*g-dr tensor dr gives the displayed density. For sufficiently small epsilon on compact support, the determinant factor is positive and signature remains fixed. Differentiating at epsilon0 gives integral(2c*chi^2-g_inverse(dchi,dchi)). The reference metric and density owner are held; this is geometric weighted volume, not a source action or quantum energy."
+    },
+    {
+      "claim": "Finite verification scope",
+      "assessment": "Read the complete probe, all certificate entries and all seven Lean statements/proofs. The probe checks representation weights, actual native conormal response and finite calibrations; Lean supplies logical/arithmetic cores only. Cone-limit topology, singular-measure localization, arbitrary-order jets and geometric variation remain written mathematics. No probe, import or build was executed by this reviewer."
+    },
+    {
+      "claim": "Open-versus-closed cone distinction",
+      "assessment": "Accepted. Under the report's explicit pointedness definition, int(C_H^+) times N is open, invariant and pointed and contains horizontal timelike interior vectors. Its closure is C_H^+ times N and has the entire normal space as lineality. Thus it is a valid countercontrol to dropping closedness, and the local excursion argument remains distinct from the closed-cone theorem."
+    },
+    {
+      "claim": "Convex lineality strengthening",
+      "assessment": "Accepted. Convexity plus conicity makes C intersect -C a vector subspace. Applying the boost-limit argument to each null covector, or transporting one limit by Lorentz invariance, puts both signs of every vertical null square in that subspace. The six (1,+/-e_i) squares supply three independent time-space entries and three tracefree diagonal directions; subtracting these from the three mixed 3/5,4/5 squares leaves three independent spatial off-diagonal entries. Hence their span is exactly the nine-dimensional tracefree symmetric-tensor subspace. This independently explains the finite rank9 control."
+    },
+    {
+      "claim": "Sharp pullback cone",
+      "assessment": "Accepted. The cone on H plus the trace coordinate is the ordinary closed future cone t>=sqrt(abs(x)^2+a^2), including its zero and causal boundary. Pullback by (h,n)->(h,tr(g_inverse*n)/4) is closed, convex and Lorentz invariant, has pure-horizontal timelike interior and has lineality exactly the kernel, namely the nine tracefree normals. It is explicitly an algebraic control, not the native metric cone or a field-state/gauge identification."
+    }
+  ],
+  "review_corrections_integrated": [
+    "Product-cone statement now restricts its boundary assertion to pure-horizontal members, avoiding the false claim for h outside the future cone.",
+    "Certificate now distinguishes quadratic_comparison_volume exp(c*r^2) from finite_radial_profile_volume exp(c*r^2-r^4).",
+    "Graph density now explicitly assumes sufficiently small epsilon preserving the determinant sign and induced signature."
+  ],
+  "limits": [
+    "The cone theorem requires the correlated Lorentz representation on H plus Sym2(Hstar), closedness, pointedness, conicity and a pure-horizontal ambient-interior vector. Restricted or boundary velocities and extra data are genuine premise changes.",
+    "The singular-state theorem retains all smooth transverse germs, the same actual first-order expression and unchanged output. It does not exclude finite measures used only as reduced-action references.",
+    "A selected invariant solution domain, prescribed normal derivatives, different state topology, discarded output or physical BRST quotient is not classified.",
+    "K95 primary-minus printed low-Phi coefficients are held; no K77, W2 or full source-action transfer is asserted.",
+    "The trace tube has signature(3,2). Absence of finite-r degeneration is not a global focal-point, geodesic-completeness or horizon result.",
+    "No physical causal cone, positive observer trace, source-required state norm, source-GU falsification or all-class-C verdict is established.",
+    "Independent byte authentication does not replay the previously accepted measure theorem or native symbol census.",
+    "The lineality lower bound requires convexity in addition to closedness and conicity; the original pointedness obstruction does not. Causal lineality is not automatically a quotient of the bosonic field state space."
+  ],
+  "primary_source_checked": {
+    "url": "https://arxiv.org/html/1005.1249",
+    "locator": "Galloway-Senovilla section2 and Proposition1",
+    "finding": "The ambient metric is explicitly index-one Lorentzian and the trapped submanifold is explicitly spacelike; arbitrary codimension itself is allowed. The report identifies the relevant hypothesis mismatch correctly."
+  },
+  "verification_attribution": {
+    "root_reported_exact_controls": 53,
+    "root_reported_replay": "PASS after four null-square rank controls and the open/closed-cone clarification",
+    "root_reported_lean_cores": 7,
+    "root_reported_lean": "PASS"
+  },
+  "not_run": [
+    "Probe or helper import/execution",
+    "Certificate arithmetic regeneration",
+    "Lean compilation",
+    "Native dense rebuild or symbol census",
+    "Owner-file edits",
+    "Global geometric or PDE computation"
+  ],
+  "strengthening_rebind": {
+    "accepted": true,
+    "new_controls": 4,
+    "lean_unchanged": true,
+    "all_four_hashes_authenticated": true,
+    "six_dependencies_still_match": true,
+    "reviewer_executed_science_jobs": false
+  },
+  "metadata_rebind": {
+    "accepted": true,
+    "change": "Only four-field body preflight recap added after heading",
+    "inverse_removal_restores_prior_report_sha256": "f5db1c1abda18e7ef36bb6e35a5064255a97a65173f918c1061500cb971ce50a",
+    "scientific_text_unchanged": true,
+    "other_three_hashes_unchanged": true
+  }
+}
+
+## native_grading_review
+
+{
+  "reviewer": "native_grading_review",
+  "role": "independent source/native-geometry and mathematical specialist",
+  "independent": true,
+  "contribution_disclosure": "No contribution to this wave before acceptance review. Read-only review of the concrete final artifacts; no owner edits or scientific executions.",
+  "accepted": true,
+  "blockers": [],
+  "artifact_hashes": {
+    "explorations/conditional-build/observer-horizon-compatibility-2026-11-28.md": "673bb7f43786e9065017b4325d25997389b16c6d0423de0512625c37da9cbbc7",
+    "tests/program-focus/observer_horizon_probe.py": "6166ec3d72ad017e00e7d08f3b68f5ae0d75a4d420f6336b97edabfe16588e30",
+    "lab/process/observer-horizon-certificates.json": "85170679a969d69eb1ab9e2be483651ed42399dcc080093511bb88f2b0a8b6dc",
+    "Lean/GUFormalization/ObserverHorizon.lean": "8c41e44fc9c602e65e5a5d45235ac5ee75f2581cd15440817659a175d557533e"
+  },
+  "dependency_hashes_authenticated": {
+    "tests/program-focus/source_action_deep_algebra.py": "4e3800131049e2b397bbce6106bfc5766d2f5fbf996319c50942f3b805d65598",
+    "tests/program-focus/printed_equation_jets_symbol_probe.py": "e43da867d17cf985bfac8c014657e8cbf18c94e80013350ca69eee804a4ebeb8",
+    "tests/program-focus/cw_fullsystem_domain_probe.py": "705acae3569fb46445ecb8c7562baddce793a3eb482e5477848c20ee9900cc1d",
+    "explorations/conditional-build/symmetry-restoration-measure-limit-2026-11-25.md": "c218efdae1416069979ca16912c35b555a76600a2b4819e98b13d57bec34a2d6",
+    "explorations/conditional-build/natural-density-fibre-volume-2026-11-25.md": "df63b8dc72864e6ab919b326e07f328b0acb2e6fcae44954ce695f8d33dd40a2",
+    "explorations/conditional-build/source-chimeric-trace-compatibility-2026-11-13.md": "3b883233b2f0b0f5787fd9091fd877893a052c47c11a91f291a5b9af271cbb3f"
+  },
+  "reasoning": [
+    "The cone proof uses the actual contragredient Sym2(H*) representation: a null covector of boost weight one squares to weight two, while H has maximum weight one. Interior membership supplies both signs, positive rescaling and closure retain both opposite nonzero vertical limits, contradicting pointedness. Convexity is unnecessary.",
+    "The strongest counterexample is correctly preserved: future Lorentz cone times PSD symmetric forms is closed, pointed, invariant and full-dimensional, but every pure-horizontal member lies on its boundary. An extra unit clock also permits a covariant family with horizontal interior; this changes the data, not the proof.",
+    "The inherited finite-measure support theorem applies to the actual metric-fibre representation. At a support point y=a g, the off-diagonal spatial matrix S=(E12+E21)/sqrt(2) is tracefree positive unit; f=sqrt(2)y12/a has df(aS)=1 and vanishes on the full conformal ray. The held native principal map gives the two real grade-two coefficients +2 and -2. Thus a compact smooth zero representative has nonzero output on a positive-measure patch, even for atomic or singular scale measures.",
+    "The nonlinear affine endpoint comparison is valid: R(chi f beta)-R(0) on support retains the principal derivative while the fixed source, mass term and algebraic quadratic term cancel or vanish. This is well-definedness failure on unrestricted value classes, not merely a nonclosability claim.",
+    "For arbitrary finite r, chi f^(r+1) beta has zero input r-jet and output r-th transverse derivative (r+1)! P(df)beta. Coefficient derivatives and lower-order terms vanish at the relevant order. The written argument, rather than the finite r<=5 calibration, establishes all finite orders.",
+    "Trace tube y=exp(r/2)g yields exp(r/2)g-dr^2 and horizontal volume exp(r). The fixed-reference log weight -r cancels that factor. Adding c r^2-r^4 preserves the required first jet, gives finite radial integral and arbitrary second variation. The graph determinant gives 2c chi^2-g^{-1}(dchi,dchi), with small epsilon preserving signature.",
+    "SC-GEO-03 supplies Met(X), SC-ACT-02 the printed endpoint template, and SC-META-52/53 explicitly retain unresolved boundary/positivity structures. The report does not convert these into requirements for the rejected cone, measure or state quotient. K95, source-primary-minus coefficients, selected printed Phi and literal contraction remain separately typed.",
+    "Accepted convex strengthening: repeating the boost argument for every null covector puts both signs of every null square in lineality. The six axis null squares span three independent diagonal tracefree forms and three time-space offdiagonals; the additional three mixed spatial null squares supply the remaining three offdiagonals, hence all nine tracefree normal directions. The closed pointed Lorentz cone on (h,a) defined by h future and -g(h,h)>=a^2 pulls back to a closed convex invariant cone whose lineality is precisely that nine-dimensional kernel, and whose pure-horizontal timelike vectors are interior. This proves the stated bound is sharp without identifying lineality with gauge.",
+    "The open-versus-closed correction is necessary and correct: int(C_H^+) times N is open, invariant and pointed under the defined intersection condition but has horizontal interior; its closure has all normal directions as lineality. It does not violate the closed-cone theorem and does permit the local excursions."
+  ],
+  "limits": [
+    "This is not a source-necessary exclusion, GU falsification, class-C verdict, physical horizon construction, physical ghost or stability verdict, or prediction.",
+    "Finite invariant measures remain usable as references or reduced-action averages; selected extension/domain laws, changed outputs, nonlocal state spaces, infinite germs and physical BRST reductions are outside the excluded category.",
+    "The finite-jet result assumes unrestricted smooth transverse jets and the unchanged first-order expression; it does not exclude an invariant constrained solution domain.",
+    "The trace variation uses a fixed reference density and the geometric weighted-volume functional, not a source action or physical energy. Finite ray mass is not smooth finite full-fibre mass.",
+    "Lean covers seven finite logical/arithmetic cores only. Cone limits, measure localization, arbitrary-order jets and variation remain written proofs. The external trapped-submanifold citation was not independently fetched in this review and supplies no GU inference.",
+    "The nine-dimensional lineality statement requires convexity in addition to closedness, conicity and correlated Lorentz invariance. It is not a native metric cone, physical gauge radical, or accepted state quotient."
+  ],
+  "own_checks": [
+    "Read final report, producer, certificate and all seven Lean declarations.",
+    "Read local AGENTS, applicable program_focus and source-native/geometer routing; inspected the exact source-register entries and inherited measure/density argument.",
+    "Inspected actual compact/native Phi source and primary-minus grade checks; checked the native conormal identification by hand.",
+    "Authenticated the revised four frozen hashes, all six dependency hashes and certificate producer hash using static SHA256 only.",
+    "Verified the final report corrections concerning pure-horizontal members and small-epsilon signature, and the certificate distinction between quadratic comparison and finite quartic radial profile.",
+    "Read the added convex corollary, sharp pullback-cone example and open-cone counterexample; inspected four new exact null/rank/projection controls without executing them.",
+    "Metadata-only rebind: removing exactly the four-field body recap reproduces previously accepted report SHA256 f5db1c1abda18e7ef36bb6e35a5064255a97a65173f918c1061500cb971ce50a. Other three artifacts unchanged; no scientific text changed."
+  ],
+  "execution_evidence": {
+    "root_reported": "53 exact controls and deterministic replay PASS; seven unchanged Lean finite cores PASS. Reviewer did not execute them.",
+    "certificate_checks": 53
+  },
+  "not_run": [
+    "probe",
+    "Lean compilation",
+    "native calculation",
+    "build or test suite",
+    "independent external source fetch"
+  ]
+}
+
+## /root/q7_propagation_hostile
+
+{
+  "accepted": true,
+  "reviewer": "/root/q7_propagation_hostile",
+  "reviewer_scope": "Independent hostile T1 review of submitted proofs and source scope; no owner artifact authorship or execution. Internal agent review, not external validation.",
+  "review_refinements_disclosed": [
+    "Supplied the open-cone countercontrol during review to prevent extending a closed-cone theorem to open cone fields.",
+    "Challenged and checked the author-proposed sharp nine-dimensional lineality corollary; suggested an exact rational null-square spanning control.",
+    "Requested separate certificate labels for the quadratic comparison profile and the finite quartic radial profile. These are disclosed review refinements, not independent discovery credit or artifact authorship."
+  ],
+  "artifact_hashes": {
+    "explorations/conditional-build/observer-horizon-compatibility-2026-11-28.md": "673bb7f43786e9065017b4325d25997389b16c6d0423de0512625c37da9cbbc7",
+    "tests/program-focus/observer_horizon_probe.py": "6166ec3d72ad017e00e7d08f3b68f5ae0d75a4d420f6336b97edabfe16588e30",
+    "lab/process/observer-horizon-certificates.json": "85170679a969d69eb1ab9e2be483651ed42399dcc080093511bb88f2b0a8b6dc",
+    "Lean/GUFormalization/ObserverHorizon.lean": "8c41e44fc9c602e65e5a5d45235ac5ee75f2581cd15440817659a175d557533e"
+  },
+  "blockers": [],
+  "reasoning": [
+    "Theorem C uses the actual correlated Lorentz action on H plus Sym2(Hstar). A boost has maximal horizontal weight one and a nonzero null-square normal weight two. Interior membership, invariance, positive rescaling and closedness force both signs of that normal into C. Pointedness then fails. Convexity is not needed for this theorem.",
+    "Closedness is essential. The submitted open-cone countercontrol int(C_H^+) x N is invariant, pointed and has pure horizontal interior, but its closure is nonpointed. The final report now preserves this distinction. The separate small leave-and-return curve follows from local open-cone continuity and does not require the closed-cone theorem.",
+    "Under the additional convexity hypothesis, lineality is a vector space and contains every null square and its negative. The nine displayed rational null squares span the tracefree symmetric normals N0. Thus lineality has dimension at least nine. The pullback cone on H plus trace has lineality exactly N0 and proves sharpness algebraically; it is explicitly not the native metric cone or a physical gauge quotient.",
+    "The product cone C_H^+ x PSD(Hstar) is a valid full-dimensional closed pointed invariant control, with pure horizontal members on its boundary. Extra-clock cone families change the isotropy premise. These controls prevent a false assertion that every natural cone is impossible.",
+    "The inherited invariant-measure theorem is about finite positive Borel measures on the actual fixed-signature metric fibre. It confines support to the positive conformal ray without requiring a density or moments. The current result uses this theorem as a premise, not a repeated proof or source requirement.",
+    "At y=a g, df for f=sqrt(2)y12/a is the unit positive conormal dual to a times the normalized spatial off-diagonal matrix. The native response P(df)beta has horizontal coefficients 2 and -2. A compactly supported f beta vanishes on the whole measure support, while its output has a nonzero coefficient norm on a positive-mass patch. This disproves value-class well-definedness of the same differential expression before any question of closability. Affine and algebraic nonlinear terms cancel or vanish there.",
+    "For every finite r, f^(r+1) beta has zero retained r-jet and a nonzero r-jet after L, with coefficient (r+1)! P(df)beta. Coefficient derivatives and lower-order terms leave a vanishing power of f. This tests same-order unrestricted jet classes, not a map to a lower-order jet space or a domain with selected next-jet relations.",
+    "The trace tube metric exp(r/2)g-dr^2, quartic radial weighting, and graph determinant give the stated second variation 2c chi^2-g^{-1}(dchi,dchi). Small epsilon retains the graph signature. The arbitrary parameter c changes the second response while preserving the required first jet; radial integrability does not imply a finite smooth full-fibre measure.",
+    "The Galloway-Senovilla comparison explicitly assumes index-one Lorentzian ambient geometry and a spacelike submanifold. Those premises do not hold for the Lorentzian section in the native index-five ambient. Codimension by itself is not the obstruction, and timelike mean curvature alone does not establish a horizon."
+  ],
+  "own_checks": [
+    "Static reading of the final report, native probe, seven finite Lean statements, inherited measure-support proof, relevant exact source-register claims, and geometer/source-routing boundaries.",
+    "Independently checked the boost scaling, convex lineality argument, rational null-square spanning logic, product/open/clock controls, conormal metric normalization, arbitrary-order jet argument, and graph-variation formula.",
+    "Authenticated all four final artifact hashes, the certificate producer hash, and all six recorded dependencies. Stored certificate has PASS and fifty-three distinct check names with consistent counts.",
+    "Checked corrected certificate metadata separately records exp(c r^2) as the quadratic comparison and exp(c r^2-r^4) as the finite radial profile.",
+    "Read primary arXiv:1005.1249 section 2 directly to verify signature and spacelike-submanifold hypotheses. Parent reports seven finite Lean cores compiled; reviewer did not rerun them.",
+    "Final metadata-only rebind: removing the four-field body routing recap reproduces the previously accepted report hash exactly. The recap matches the existing scoped result; the other three frozen artifacts are unchanged. No scientific re-evaluation or tests were needed."
+  ],
+  "primary_sources_checked": [
+    {
+      "url": "https://arxiv.org/pdf/1005.1249",
+      "location": "Section 2 and Proposition 1: Lorentzian index-one ambient, spacelike submanifold, additional focusing premises"
+    }
+  ],
+  "limits": [
+    "No source claim has been shown to require finite invariant L2 state measures, unrestricted transverse germs, a closed pointed ambient cone with horizontal interior, or the tested output quotient.",
+    "A finite invariant measure may remain valid as a geometric or reduced-action reference. The failure concerns promoting it to the stated field-value or finite-jet state quotient with unchanged operator and output.",
+    "The cone result does not exclude horizons enclosing the section, observer-algebra constructions, restricted velocities, open/nonpointed relations, extra data, or nonlocal accessibility. Lineality is not established physical gauge redundancy.",
+    "Selected normal-jet laws, invariant solution domains, different symbols/outputs, infinite germs, and stronger ambient state spaces remain untested escapes. No sufficiency of infinite smooth jets is asserted.",
+    "Trace-profile variation is a geometric weighted-volume calculation, not a physical action, energy, ghost, dynamics, horizon or global focal-point theorem.",
+    "K95/K77, literal contraction/physical observation, geometric normalization/quantum state, and candidate/source truth remain separated. No all-horizon, source-GU, full-class-C, physical or quantum verdict is established.",
+    "The probe and Lean cores check finite algebra and logic only; cone topology, measure localization, arbitrary-order jet and variational analysis remain written reviewed proofs."
+  ],
+  "not_run": [
+    "No probe, tests, native computation, builds or Lean compilation executed by this reviewer.",
+    "No owner repository files edited; only this scratch receipt written."
+  ]
+}

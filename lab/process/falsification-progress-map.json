@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "basis_revision": "c12caa96e5564215e348ebc49abca70917677c89",
+  "basis_revision": "e212bece8145de73a702b2c74a01a3cbbd85b33b",
   "scope": "Curated six-pillar x source/class/candidate linked view. Status belongs to cited owners; no scientific verdict promotion, automatic ranking, whole-history coverage or global percentage. Cheapest-next fields are attributed bounded suggestions, not dispatch instructions. Closed means resolved within the cited scope; it does not always mean falsified. Positive fits and remaining source/physical bridges stay explicit.",
   "assumptions_ref": "lab/process/action-constraint-matrix.json#source_relevance_assumption_view.shared_prerequisites",
   "dependencies": [
@@ -94,7 +94,7 @@
     },
     {
       "ref": "lab/process/action-constraint-matrix.json",
-      "sha256": "9f791e4a2d6f874eb2e6122dec53db325f4592c06145f011135e17c1428a6ee7"
+      "sha256": "c88ab632586b1a6d59004312c51cf1e8a3e034b2da0447133392b7c30381b65a"
     },
     {
       "ref": "lab/process/conditional-physics-ledger-v0.263.json",
@@ -251,6 +251,10 @@
     {
       "ref": "explorations/conditional-build/pt-positive-quotient-observation-2026-11-28.md",
       "sha256": "71f4455a774c2aff75e4c5117b6d6ee3c267eea19719208dd62cd5d7bb6c0d23"
+    },
+    {
+      "ref": "explorations/conditional-build/observer-horizon-compatibility-2026-11-28.md",
+      "sha256": "673bb7f43786e9065017b4325d25997389b16c6d0423de0512625c37da9cbbc7"
     }
   ],
   "pillars": [
@@ -350,10 +354,10 @@
         },
         "class": {
           "attributed_status": "Scoped exclusions with local, linear finite-loss and global tame quadratic survivors",
-          "closed": "Every fixed finite Sobolev-loss graph-Duhamel estimate fails on the named interior core, including specified finite-order norm repairs retaining it. Fully boost-equivariant repeatedE fourterm symbols with firstorder endarrows admit no integer-order homogeneous exact middle in n14. Exact frozen selected printed real trace modes exclude every fixed finite-loss estimate on unrestricted states; no actual variable/nonlinear or physical-domain transfer. Frozen actual printedQ strict all-field stable-support cutoff admitting the tested pair fails second-order closure; same-leading scalarizer correction around actualsmallh branch fails at h5. Neither is source-required physicaldata. Declared regular equivariant quadratic slaving of the actual resonant printed pair is excluded; secular forced dynamics survives. A full nonlinear CW-type constraint remains a candidate test, not a selected source law. Strict all-field commonstable Fouriercutoff failsactual nonlinearpacket closure; finiteinitialslicejets remainincomplete inthislineardomain. Stated C2 translation-equivariant ordinarySobolev instantaneous elimination graphs fail on a fixed-packet threshold collar. Same-order global ordinary coefficient Hs evolution on the selected full CW compatible core is excluded at fixed time by actual stable hook packets; finite derivative loss remains. This same coefficient-norm cost persists on the observed-Lorentz core if the tested compatible hook polarizations are admitted. Global unweighted H_modal L2 x L2 to intrinsic boundary coefficient L2 mapping fails by actual full13D packets. A real Theta-fixed common-CW packet direction still excludes C2 two-sided tempered/coefficient-L2 complete histories under the stated derivative premise.",
+          "closed": "Every fixed finite Sobolev-loss graph-Duhamel estimate fails on the named interior core, including specified finite-order norm repairs retaining it. Fully boost-equivariant repeatedE fourterm symbols with firstorder endarrows admit no integer-order homogeneous exact middle in n14. Exact frozen selected printed real trace modes exclude every fixed finite-loss estimate on unrestricted states; no actual variable/nonlinear or physical-domain transfer. Frozen actual printedQ strict all-field stable-support cutoff admitting the tested pair fails second-order closure; same-leading scalarizer correction around actualsmallh branch fails at h5. Neither is source-required physicaldata. Declared regular equivariant quadratic slaving of the actual resonant printed pair is excluded; secular forced dynamics survives. A full nonlinear CW-type constraint remains a candidate test, not a selected source law. Strict all-field commonstable Fouriercutoff failsactual nonlinearpacket closure; finiteinitialslicejets remainincomplete inthislineardomain. Stated C2 translation-equivariant ordinarySobolev instantaneous elimination graphs fail on a fixed-packet threshold collar. Same-order global ordinary coefficient Hs evolution on the selected full CW compatible core is excluded at fixed time by actual stable hook packets; finite derivative loss remains. This same coefficient-norm cost persists on the observed-Lorentz core if the tested compatible hook polarizations are admitted. Global unweighted H_modal L2 x L2 to intrinsic boundary coefficient L2 mapping fails by actual full13D packets. A real Theta-fixed common-CW packet direction still excludes C2 two-sided tempered/coefficient-L2 complete histories under the stated derivative premise. Robust Lorentz-natural closed pointed cone with pure horizontal interior excluded; finite unrestricted normal-jet state tower does not close actual differential output.",
           "open": "Source-selected physical domain, quotient/norm, interaction and observation map. Tested norm and history exclusions do not exclude all changed completions.",
           "shared_missing_ref": "lab/process/action-constraint-matrix.json#source_relevance_assumption_view.shared_prerequisites",
-          "cheapest_next": "Classical PT comparison step3 is complete after one substantive wave: keep the norm/domain/readout exclusions, dissipative and stable-domain survivors, and unselected physical quotient. Next B step4: reuse owned timelike H=t/2 and global density-jet realization; test an uncovered global/causal-horizon or measure bridge, not another pointwise H witness. CW2b5/5 and wedge3/3 remain complete; cadence unchanged.",
+          "cheapest_next": "Step4 basic compatibility completed after one substantive wave. Next ordinaryB step5: test Lambda-as-integration-constant against the actual owned equations and variation/conservation identity; reuse fixed-volume rigidity without treating it as unimodular dynamics. Revive H1 only with specified causal cone/state/readout or observer trace. CW2b5/5,wedge3/3,PT3 complete; cadence unchanged.",
           "evidence_refs": [
             "explorations/conditional-build/source-action-finite-loss-completions-2026-11-27.md",
             "explorations/conditional-build/null-boost-symbol-trace-2026-11-27.md",
@@ -369,7 +373,8 @@
             "explorations/conditional-build/cw-all-threshold-boundary-estimate-2026-11-28.md",
             "explorations/conditional-build/cw-edge-decay-and-global-norm-2026-11-28.md",
             "explorations/conditional-build/cw-global-quadratic-boundary-2026-11-28.md",
-            "explorations/conditional-build/pt-positive-quotient-observation-2026-11-28.md"
+            "explorations/conditional-build/pt-positive-quotient-observation-2026-11-28.md",
+            "explorations/conditional-build/observer-horizon-compatibility-2026-11-28.md"
           ],
           "positive_fit": "Full exterior deRham remains exact in indefinite signature; source background-owned auxiliarypositive Cartan structure is retained at its smaller symmetry. Neither is the full GU complex. TypeI covariant observer law can staytight along a balancedDapproach; no positive universalD escape bound. ExactD endpointlaw still excluded in Weyl-onlycategory. Unrestricted printed translations match each finite residual jet at sufficiently large coupling; actual fixed-coupling curved PDE remains open. Selected printed nonnull symbol has a finite frozen descriptor inverse, not a physical evolution result. Actual analytic curved linear printed solutions exist at sufficiently large finite coupling under coherentLC/parallelPhi; the nonlinear endpoint is not solved.",
           "survivors": [
@@ -379,7 +384,8 @@
             "Full transverse integration extends the actual local L2xL2 to L2 future-boundary estimate to all19 output thresholds and all38 signed common-CW massive input branches, including collinear negative-factor rank-loss points. The epsilon^(1/4) threshold tail and stable-input forward upper bounds extend. A calibrated actual A1/H9 (-1,+1)->(-2) fixture has nonzero24-term force but zero threshold projection; no general cancellation rule.",
             "H_modal andglobal finite-loss coefficientpropagation; all localstable/decay/edgeboundarymaps.",
             "Global compact-output modal boundary bound and all-output tame45 intrinsic boundary functional.",
-            "Positive contractive decaying subsystem norms, stable-domain modal norms and changed readout/domain constructions remain distinct; no physical quotient selected."
+            "Positive contractive decaying subsystem norms, stable-domain modal norms and changed readout/domain constructions remain distinct; no physical quotient selected.",
+            "Selected normal-jet or physical output rules, extra-tensor causal/measure constructions and nonlocal state spaces; finite measures remain legitimate reduction references."
           ]
         },
         "candidate": {
@@ -446,10 +452,10 @@
         },
         "class": {
           "attributed_status": "Scoped energy/domain implications; not a physical ghost theorem",
-          "closed": "Declared local gauge and first-graph/finite-order remedies do not remove the held obstruction. Separately, coclosure-only local observed readouts cannot carry nonzero compact excitation energy in the full cutoff-admissible class. Strict all-field commonstable Fouriercutoff failsactual nonlinearpacket closure; finiteinitialslicejets remainincomplete inthislineardomain. Stated C2 translation-equivariant ordinarySobolev instantaneous elimination graphs fail on a fixed-packet threshold collar. Conserved PSD multiplier quotients finite on admitted actual decay packets cannot retain their literal observation; unbounded frequency weights do not evade this while admitting the packets. Minimal threshold-only quotient fails actual quadratic representative independence.",
+          "closed": "Declared local gauge and first-graph/finite-order remedies do not remove the held obstruction. Separately, coclosure-only local observed readouts cannot carry nonzero compact excitation energy in the full cutoff-admissible class. Strict all-field commonstable Fouriercutoff failsactual nonlinearpacket closure; finiteinitialslicejets remainincomplete inthislineardomain. Stated C2 translation-equivariant ordinarySobolev instantaneous elimination graphs fail on a fixed-packet threshold collar. Conserved PSD multiplier quotients finite on admitted actual decay packets cannot retain their literal observation; unbounded frequency weights do not evade this while admitting the packets. Minimal threshold-only quotient fails actual quadratic representative independence. Finite invariant fibre measure on conformal ray cannot host unchanged actual operator on all smooth value-equivalence classes; not a physical norm no-go.",
           "open": "Source-selected physical domain, quotient/norm, interaction and observation map. Tested norm and history exclusions do not exclude all changed completions.",
           "shared_missing_ref": "lab/process/action-constraint-matrix.json#source_relevance_assumption_view.shared_prerequisites",
-          "cheapest_next": "Classical PT comparison step3 is complete after one substantive wave: keep the norm/domain/readout exclusions, dissipative and stable-domain survivors, and unselected physical quotient. Next B step4: reuse owned timelike H=t/2 and global density-jet realization; test an uncovered global/causal-horizon or measure bridge, not another pointwise H witness. CW2b5/5 and wedge3/3 remain complete; cadence unchanged.",
+          "cheapest_next": "Step4 basic compatibility completed after one substantive wave. Next ordinaryB step5: test Lambda-as-integration-constant against the actual owned equations and variation/conservation identity; reuse fixed-volume rigidity without treating it as unimodular dynamics. Revive H1 only with specified causal cone/state/readout or observer trace. CW2b5/5,wedge3/3,PT3 complete; cadence unchanged.",
           "evidence_refs": [
             "explorations/conditional-build/source-action-finite-loss-completions-2026-11-27.md",
             "explorations/conditional-build/source-action-full-auxiliary-map-2026-11-26.md",
@@ -457,11 +463,13 @@
             "explorations/conditional-build/compact-excitation-charge-2026-11-27.md",
             "explorations/conditional-build/cw-fullsystem-domain-2026-11-27.md",
             "explorations/conditional-build/cw-nonlinear-completion-2026-11-27.md",
-            "explorations/conditional-build/pt-positive-quotient-observation-2026-11-28.md"
+            "explorations/conditional-build/pt-positive-quotient-observation-2026-11-28.md",
+            "explorations/conditional-build/observer-horizon-compatibility-2026-11-28.md"
           ],
           "survivors": [
             "Full compatible frozen linear modal evolution; bounded nonresonant offsupport response; nonlinear enlargement remainsunproved.",
-            "Positive contractive decaying subsystem norms, stable-domain modal norms and changed readout/domain constructions remain distinct; no physical quotient selected."
+            "Positive contractive decaying subsystem norms, stable-domain modal norms and changed readout/domain constructions remain distinct; no physical quotient selected.",
+            "Selected normal-jet or physical output rules, extra-tensor causal/measure constructions and nonlocal state spaces; finite measures remain legitimate reduction references."
           ]
         },
         "candidate": {
@@ -1115,13 +1123,13 @@
           "GU*"
         ],
         "rank": 18,
-        "status": "interpretation_until_causal_state_measure_bridge",
-        "cheapest_test_or_revival": "Separate l4 normalization, l3 actual metric variation and k8 causal geometry. For a supplied observer/state algebra, test preserved admissibility and a normalized positive trace. Require actual tracefree metric equation plus conservation before any Lambda integration-constant claim.",
+        "status": "basic_compatibility_tested_physical_bridge_open",
+        "cheapest_test_or_revival": "Specify physical cone/domain/observer trace outside tested categories; no repeated H or finite-measure census.",
         "inference_limit": "b=H and timelike H in codim10 with four negative normal directions do not supply a codim2 causal horizon; infinite volume needs finite normalization, not by itself a dimensional scale.",
         "three_state": {
-          "ESTABLISHED": "Owned same-metric H=t/2, norm-1 and fixed-reference b=H repair; geometric normalization obstruction and fixed-volume symmetry rigidity at their stated scope.",
-          "RULED_OUT": "No new physical horizon class is excluded. Owned null-normal expansions admit both signs and zero, preventing an automatic standard future-null-pair identification.",
-          "NOT_MODELED_UNDETERMINED": "Causal horizon, observer algebra and positive trace, section-selected reference normalization or scale, and Lambda fixed by horizon data."
+          "ESTABLISHED": "Boost-weight mismatch excludes a closed pointed Lorentz-natural cone with horizontal interior; with convexity, at least nine tracefree normal directions lie in lineality, and the bound is sharp. Finite invariant conformal-ray measures do not support unchanged actual differential output on unrestricted value or finite-jet classes. The fixed density first jet leaves trace-profile variation free.",
+          "RULED_OUT": "Only declared robust natural cone and unrestricted finite invariant value/finite-jet state categories.",
+          "NOT_MODELED_UNDETERMINED": "Physical horizon, cone, state/normal-jet law, observer algebra/trace, K77 operator transfer, full source realization or scale selection."
         },
         "source_refs": [
           "explorations/conditional-build/source-chimeric-trace-compatibility-2026-11-13.md",
@@ -1136,7 +1144,8 @@
         "source_necessity": "conditional or absent until the specified physical bridge",
         "new_choice_families_adopted": 0,
         "sibling_import_scope_ref": "lab/process/sibling-import-adjudication.json",
-        "sibling_import_effect": "Reusable scoped guards; no physical bridge or new choice. See per-item progress-map effects."
+        "sibling_import_effect": "Reusable scoped guards; no physical bridge or new choice. See per-item progress-map effects.",
+        "compatibility_evidence_ref": "explorations/conditional-build/observer-horizon-compatibility-2026-11-28.md"
       },
       {
         "id": "k6",
@@ -1276,9 +1285,10 @@
           "GU*"
         ],
         "rank": 26,
-        "status": "owned_core_analogy_unbridged",
-        "cheapest_test_or_revival": "Native H=t/2 and norm-1 already; theta_v=-tr(g^-1v)/2 has both signs and zero on null normals. Monotonicity needs a specified flow and functional.",
-        "inference_limit": "Codim10 with four negative directions lacks canonical codim2 future-null pair; fixed-reference weighted first variation is not stability."
+        "status": "basic_compatibility_tested_physical_bridge_open",
+        "cheapest_test_or_revival": "Specify physical cone/domain/observer trace outside tested categories; no repeated H or finite-measure census.",
+        "inference_limit": "Codim10 with four negative directions lacks canonical codim2 future-null pair; fixed-reference weighted first variation is not stability.",
+        "compatibility_evidence_ref": "explorations/conditional-build/observer-horizon-compatibility-2026-11-28.md"
       },
       {
         "id": "k9",
@@ -1348,7 +1358,7 @@
         "sibling_import_effect": "Reusable scoped guards; no physical bridge or new choice. See per-item progress-map effects."
       }
     ],
-    "top_next": "Classical PT comparison step3 is complete after one substantive wave: keep the norm/domain/readout exclusions, dissipative and stable-domain survivors, and unselected physical quotient. Next B step4: reuse owned timelike H=t/2 and global density-jet realization; test an uncovered global/causal-horizon or measure bridge, not another pointwise H witness. CW2b5/5 and wedge3/3 remain complete; cadence unchanged.",
+    "top_next": "Step4 basic compatibility completed after one substantive wave. Next ordinaryB step5: test Lambda-as-integration-constant against the actual owned equations and variation/conservation identity; reuse fixed-volume rigidity without treating it as unimodular dynamics. Revive H1 only with specified causal cone/state/readout or observer trace. CW2b5/5,wedge3/3,PT3 complete; cadence unchanged.",
     "track_policy": {
       "status": "applied",
       "authority": [
@@ -1686,5 +1696,18 @@
     "actual_delta": "Stationary conserved PSD multiplier forms, including unbounded weights finite on the admitted actual decay packets, annihilate their nonzero literal observation. The named minimal threshold quotient fails actual quadratic representative independence. A real Theta-fixed packet retains the C2 two-sided tempered/coefficient-L2 obstruction. Stable-side readout continuity has a conditional inverse-square norm cost.",
     "missing_input": "The source-selected physical domain, conserved norm/quotient and physical observation map. Literal tensor observation is not a gauge-invariant physical observable.",
     "next": "Classical PT comparison step3 is complete after one substantive wave: keep the norm/domain/readout exclusions, dissipative and stable-domain survivors, and unselected physical quotient. Next B step4: reuse owned timelike H=t/2 and global density-jet realization; test an uncovered global/causal-horizon or measure bridge, not another pointwise H witness. CW2b5/5 and wedge3/3 remain complete; cadence unchanged."
+  },
+  "observer_horizon_compatibility_2026_11_28": {
+    "evidence": [
+      "explorations/conditional-build/observer-horizon-compatibility-2026-11-28.md",
+      "lab/process/observer-horizon.json"
+    ],
+    "scope": "T1 declared causal/state completion categories",
+    "actual_delta": "Boost-weight mismatch excludes a closed pointed Lorentz-natural cone with horizontal interior; with convexity, at least nine tracefree normal directions lie in lineality, and the bound is sharp. Finite invariant conformal-ray measures do not support unchanged actual differential output on unrestricted value or finite-jet classes. The fixed density first jet leaves trace-profile variation free.",
+    "source_bridge": {
+      "status": "conditional",
+      "reason": "Source metric-fibre and endpoint template supplied, but no robust causal cone, finite invariant state norm, unrestricted smooth domain or physical readout is source-selected."
+    },
+    "next": "Step4 basic compatibility completed after one substantive wave. Next ordinaryB step5: test Lambda-as-integration-constant against the actual owned equations and variation/conservation identity; reuse fixed-volume rigidity without treating it as unimodular dynamics. Revive H1 only with specified causal cone/state/readout or observer trace. CW2b5/5,wedge3/3,PT3 complete; cadence unchanged."
   }
 }

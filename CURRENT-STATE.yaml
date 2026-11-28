@@ -1,7 +1,7 @@
 schema_version: '1.0'
 repository: observerse-research-program
 branch: main
-revision_basis: c12caa96e5564215e348ebc49abca70917677c89
+revision_basis: e212bece8145de73a702b2c74a01a3cbbd85b33b
 program_focus:
   version: 2026-11-27-v3
   authority: joe_direct_chat_2026_11_27_k
@@ -278,6 +278,24 @@ sibling_import_adjudication_2026_11_27:
     resume the retained actual a_out=-2 negative-factor CW vertex at kappa12 before a degenerate estimate.
     Step2b remains2/max5; wedge3/max3. No new sibling-research backlog or physical choice.
   verdict_effect: none; scoped applicability and algebra
+observer_horizon_compatibility_2026_11_28:
+  status: internal_T1_reviewed
+  actual_delta: Boost-weight mismatch excludes a closed pointed Lorentz-natural cone with horizontal interior;
+    with convexity, at least nine tracefree normal directions lie in lineality, and the bound is sharp.
+    Finite invariant conformal-ray measures do not support unchanged actual differential output on unrestricted
+    value or finite-jet classes. The fixed density first jet leaves trace-profile variation free.
+  evidence:
+  - explorations/conditional-build/observer-horizon-compatibility-2026-11-28.md
+  - lab/process/observer-horizon.json
+  source_bridge:
+    status: conditional
+    reason: Source metric-fibre and endpoint template supplied, but no robust causal cone, finite invariant
+      state norm, unrestricted smooth domain or physical readout is source-selected.
+  next: 'Step4 basic compatibility completed after one substantive wave. Next ordinaryB step5: test Lambda-as-integration-constant
+    against the actual owned equations and variation/conservation identity; reuse fixed-volume rigidity
+    without treating it as unimodular dynamics. Revive H1 only with specified causal cone/state/readout
+    or observer trace. CW2b5/5,wedge3/3,PT3 complete; cadence unchanged.'
+  verdict_effect: No source/ledger/wholeC verdict; physical H1 bridge still open
 pt_positive_quotient_2026_11_28:
   status: internal_T1_reviewed
   actual_delta: Stationary conserved PSD multiplier forms, including unbounded weights finite on the admitted
