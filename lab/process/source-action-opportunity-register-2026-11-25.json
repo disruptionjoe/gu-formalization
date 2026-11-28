@@ -3898,5 +3898,40 @@
       "Fixed algebra does not imply common-Fock unitary implementability.",
       "Completeness harness is not a new global research gate."
     ]
+  },
+  "cw_symmetry_domain_2026_11_27": {
+    "lane": "LC-BETS",
+    "evidence": [
+      "explorations/conditional-build/bet-mass-gap-cw-symmetry-domain-2026-11-27.md",
+      "lab/process/bet-mass-gap-cw-symmetry-domain.json"
+    ],
+    "actual_delta": "The actual selected frozen K95 quadratic interaction excludes C2 two-sided tempered complete-history maps with ordinary Fourier-local L2 traces, even for packets inside the observed-Lorentz core. A future-only prescription survives but is not invariant under the actual time-reflecting Theta when arbitrary decays are retained. The branch-complete core N>kappa\u00b2/4 has zero classical modal mass kernel and zero spectral infimum; strict all-field nonlinear core support fails, with a regular nonresonant forced response retained.",
+    "choice_budget": {
+      "families": 10,
+      "obligations": 4,
+      "net": 6,
+      "source_selected_predictions": 0,
+      "new_adopted_choices": 0,
+      "repair_adopted": false,
+      "scope": "Historical candidate grouping, not a universal GU parameter count. Time orientation, changed topology or narrowed inputs remain named unadopted costs."
+    },
+    "consumed": [
+      "Two-sided tempered ordinary-L2 completion test on actual core-admitted packets.",
+      "Branch-complete observed-Lorentz core classification, modewise null exception and classical zero-kernel/zero-infimum distinction.",
+      "Strict core closure test with regular static response control; equation-vs-domain Theta distinction."
+    ],
+    "survivors": [
+      "Prior future-only boundary relation and uniform local estimate.",
+      "Restricted input sets, changed infrared topology, weaker complete-history differentiability or time-oriented prescriptions; unadopted.",
+      "Pointwise Theta-fixed input restriction requires its own vertex test.",
+      "Source-selected physical state/current and quantum reduction remain open."
+    ],
+    "next": "Ordinary B next: evaluate the actual (-1,+1) trace-channel vertex into a_out=-2 at kappa12, K\u00b218, k=5K/2, l=-3K/2 and opposite frequencies squared153/2. A zero projection retains a null escape; only a nonzero projection earns the full transverse degenerate estimate. Keep the future-only state law separate from two-sided history, and the source physical domain/current separate from auxiliary norms. Wedge3/3 and CWstep2b2/5 unchanged.",
+    "pitfalls": [
+      "C2 on finite time intervals does not imply C2 into a polynomially weighted full-history space.",
+      "Computational horizontal-to-normal rotation is not an observed physical Lorentz transformation and does not commute with Theta.",
+      "Zero modal mass infimum is not a massless eigenvector or quantum mass-gap result.",
+      "Strict support nonclosure alone does not imply forced instability."
+    ]
   }
 }

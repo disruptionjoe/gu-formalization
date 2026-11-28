@@ -329,3 +329,7 @@ replacement for `lake build` or targeted standalone Lean checks.
 ## 2026-11-27 — Local-current finite cores
 
 `GUFormalization/LocalCurrent.lean` checks nonnegative anti-isometry, observed-retention contradiction, normal aggregate/restore arithmetic and restricted-density positivity. Five targeted single-thread Lean theorems pass. Native symbol, spectral quotient, current-jet identity and source/physical-domain interpretation remain written reviewed arguments.
+
+## 2026-11-28 — CW symmetry/domain finite cores
+
+`GUFormalization/CWSymmetryDomain.lean` checks reversal-closure logic, mass positivity and margin, residue lower-bound arithmetic and rational core fixtures (five theorems). Targeted single-thread compilation; no sorry. Full orbit/coarea/complete-history, source identification and physical quantum claims are not formalized by these finite cores.

@@ -3013,6 +3013,62 @@
         "receipt_ref": "lab/process/sibling-import-adjudication.json#verification",
         "scope": "Finite algebra/controls and reviewed applicability; no physical theorem from sibling custody."
       }
+    },
+    {
+      "id": "bet-mass-gap-cw-symmetry-domain-2026-11-27",
+      "kind": "result",
+      "owner_ref": "explorations/conditional-build/bet-mass-gap-cw-symmetry-domain-2026-11-27.md",
+      "tested_statement": "The actual selected frozen K95 quadratic interaction excludes C2 two-sided tempered complete-history maps with ordinary Fourier-local L2 traces, even for packets inside the observed-Lorentz core. A future-only prescription survives but is not invariant under the actual time-reflecting Theta when arbitrary decays are retained. The branch-complete core N>kappa\u00b2/4 has zero classical modal mass kernel and zero spectral infimum; strict all-field nonlinear core support fails, with a regular nonresonant forced response retained.",
+      "signature": {
+        "object": "Actual CW time-symmetry/domain and quadratic threshold history",
+        "carrier": "Full selected frozen K95 complex bosonic descriptor; primary-minus real trace packets",
+        "convention": "Two-sided tempered quadratic history and ordinary coefficient L2; separate future-only survivor and correlated observed Lorentz action",
+        "class": "C2 complete-history maps admitting specified core packets; strict all-field branch-complete normal core",
+        "premises": [
+          "explorations/conditional-build/bet-mass-gap-cw-symmetry-domain-2026-11-27.md"
+        ]
+      },
+      "attributed_status": "internal_T1_reviewed",
+      "status_ref": "lab/process/bet-mass-gap-cw-symmetry-domain.json#status",
+      "source_bridge_ref": "lab/process/bet-mass-gap-cw-symmetry-domain.json#source_bridge",
+      "certificate_refs": [
+        "lab/process/cw-symmetry-domain-certificates.json"
+      ],
+      "control_refs": [
+        "tests/program-focus/cw_symmetry_domain_probe.py"
+      ],
+      "survivors_ref": "lab/process/bet-mass-gap-cw-symmetry-domain.json#follow_through",
+      "reopen_condition_ref": "explorations/conditional-build/bet-mass-gap-cw-symmetry-domain-2026-11-27.md",
+      "superseded_by": null,
+      "cache": {
+        "artifacts": [
+          {
+            "path": "explorations/conditional-build/bet-mass-gap-cw-symmetry-domain-2026-11-27.md",
+            "sha256": "da8614ff1e1ffa223fc35f1b89af687d8c0675f1aad964a96905b17fc3b9025a"
+          },
+          {
+            "path": "tests/program-focus/cw_symmetry_domain_probe.py",
+            "sha256": "58b3a47064af9d9db9ac69ad2fb4e93f012c12183d1e93588f08122c2fa8dbb9"
+          },
+          {
+            "path": "lab/process/cw-symmetry-domain-certificates.json",
+            "sha256": "e819b6aff7071affe2e12ef9305710a937b3691dfcb5513854d138c13b0b1881"
+          },
+          {
+            "path": "Lean/GUFormalization/CWSymmetryDomain.lean",
+            "sha256": "f424c882218ecdf5c86b43f1502f56e2e3c9d1d804f682f34db63ddb40d69b70"
+          }
+        ],
+        "verifier": {
+          "command": "python3",
+          "args": [
+            "tests/program-focus/cw_symmetry_domain_probe.py",
+            "--verify"
+          ]
+        },
+        "receipt_ref": "lab/process/bet-mass-gap-cw-symmetry-domain.json#verification",
+        "scope": "76 finite controls plus5 Lean cores; full orbit/coarea/history proof reviewed mathematics. No physical/quantum result."
+      }
     }
   ]
 }

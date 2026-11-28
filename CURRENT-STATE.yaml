@@ -1,7 +1,7 @@
 schema_version: '1.0'
 repository: observerse-research-program
 branch: main
-revision_basis: b1dce0a1d5d9cc4ce5fc6d3d57de9c9507c58648
+revision_basis: 5ccd2ed453e16be535acb18ec927d50080730416
 program_focus:
   version: 2026-11-27-v3
   authority: joe_direct_chat_2026_11_27_k
@@ -278,6 +278,27 @@ sibling_import_adjudication_2026_11_27:
     resume the retained actual a_out=-2 negative-factor CW vertex at kappa12 before a degenerate estimate.
     Step2b remains2/max5; wedge3/max3. No new sibling-research backlog or physical choice.
   verdict_effect: none; scoped applicability and algebra
+cw_symmetry_domain_2026_11_27:
+  status: internal_T1_reviewed
+  actual_delta: "The actual selected frozen K95 quadratic interaction excludes C2 two-sided tempered complete-history\
+    \ maps with ordinary Fourier-local L2 traces, even for packets inside the observed-Lorentz core. A\
+    \ future-only prescription survives but is not invariant under the actual time-reflecting Theta when\
+    \ arbitrary decays are retained. The branch-complete core N>kappa\xB2/4 has zero classical modal mass\
+    \ kernel and zero spectral infimum; strict all-field nonlinear core support fails, with a regular\
+    \ nonresonant forced response retained."
+  evidence:
+  - explorations/conditional-build/bet-mass-gap-cw-symmetry-domain-2026-11-27.md
+  - lab/process/bet-mass-gap-cw-symmetry-domain.json
+  source_bridge:
+    status: conditional
+    reason: SC-ACT-02 supplies an endpoint template, SC-META-52/53 name ultrahyperbolic/shielding debt;
+      none selects this physical norm, state domain, Theta invariance or all input packets.
+  next: "Ordinary B next: evaluate the actual (-1,+1) trace-channel vertex into a_out=-2 at kappa12, K\xB2\
+    18, k=5K/2, l=-3K/2 and opposite frequencies squared153/2. A zero projection retains a null escape;\
+    \ only a nonzero projection earns the full transverse degenerate estimate. Keep the future-only state\
+    \ law separate from two-sided history, and the source physical domain/current separate from auxiliary\
+    \ norms. Wedge3/3 and CWstep2b2/5 unchanged."
+  verdict_effect: none; LC context only
 cw_bilinear_boundary_2026_11_27:
   status: internal_T2_reviewed
   actual_delta: The actual one-sided quadratic boundary map is locally bounded L2xL2 to L2, with threshold-tail

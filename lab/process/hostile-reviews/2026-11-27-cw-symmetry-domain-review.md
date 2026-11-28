@@ -1,0 +1,168 @@
+# CW symmetry/domain internal T1 review
+
+Two independent specialists and a separate hostile reviewer accepted the frozen artifacts. Contributors do not count as acceptance reviewers. Root76exactcontrols/replay and5Leanfinitecores pass. Full orbit/coarea/complete-history argument remains written/reviewed mathematics.
+
+## Frozen artifacts
+
+- explorations/conditional-build/bet-mass-gap-cw-symmetry-domain-2026-11-27.md: `da8614ff1e1ffa223fc35f1b89af687d8c0675f1aad964a96905b17fc3b9025a`
+- tests/program-focus/cw_symmetry_domain_probe.py: `58b3a47064af9d9db9ac69ad2fb4e93f012c12183d1e93588f08122c2fa8dbb9`
+- lab/process/cw-symmetry-domain-certificates.json: `e819b6aff7071affe2e12ef9305710a937b3691dfcb5513854d138c13b0b1881`
+- Lean/GUFormalization/CWSymmetryDomain.lean: `f424c882218ecdf5c86b43f1502f56e2e3c9d1d804f682f34db63ddb40d69b70`
+
+## metric_family_second_review — independent mathematical/PDE specialist
+
+```json
+{
+  "reviewer": "metric_family_second_review \u2014 independent mathematical/PDE specialist",
+  "independent": true,
+  "accepted": true,
+  "artifact_hashes": {
+    "explorations/conditional-build/bet-mass-gap-cw-symmetry-domain-2026-11-27.md": "da8614ff1e1ffa223fc35f1b89af687d8c0675f1aad964a96905b17fc3b9025a",
+    "tests/program-focus/cw_symmetry_domain_probe.py": "58b3a47064af9d9db9ac69ad2fb4e93f012c12183d1e93588f08122c2fa8dbb9",
+    "lab/process/cw-symmetry-domain-certificates.json": "e819b6aff7071affe2e12ef9305710a937b3691dfcb5513854d138c13b0b1881",
+    "Lean/GUFormalization/CWSymmetryDomain.lean": "f424c882218ecdf5c86b43f1502f56e2e3c9d1d804f682f34db63ddb40d69b70"
+  },
+  "blockers": [],
+  "scope": {
+    "basis_revision": "5ccd2ed453e16be535acb18ec927d50080730416",
+    "review_level": "Independent specialist T1 mathematical review; not sole T1 acceptance or full proof-assistant certification.",
+    "review_method": "Read-only review of final report, exact sparse probe, certificate and five Lean finite cores; inspected owned full-system, scalarizer, one-sided boundary and symmetry dependencies, and relevant source/routing instructions. No tests/builds or owner edits.",
+    "accepted_statement": "For the selected frozen K95 printed descriptor at kappa=12, based at T=0, a solution map admitting the specified real linear packet directions and differentiating to the actual polarized force cannot have its mixed second variation both temporally tempered on the whole time axis and ordinary Fourier-local L2 at the specified time trace. This excludes the stated C2 polynomially weighted complete-history class, not every nonlinear completion.",
+    "authentication": "All four final hashes match the frozen manifest; all 16 certificate dependency hashes and the producer hash match. Root reports 76 exact checks and five Lean cores passed; reviewer did not execute them.",
+    "metadata_rebind": {
+      "change": "Corrected stale nonexecutable probe docstring; certificate producer hash updated only.",
+      "verified": "Restoring the old docstring exactly reproduces prior probe hash 581cbdf8; restoring only probe_sha256 reproduces prior certificate hash ffc094fc. Report and Lean hashes unchanged.",
+      "effect": "No executable or mathematical delta. Acceptance retained; no reviewer tests run."
+    }
+  },
+  "observations": [
+    {
+      "topic": "Nonlinear premise correction",
+      "finding": "Requested and verified explicit base point T=0, displayed first derivative packet solutions, and mixed equation L W=-Q(f,g). This prevents an inference at an arbitrary nonlinear background. No blocker remains."
+    },
+    {
+      "topic": "Lorentz support and auxiliary mass",
+      "finding": "The correlated normal Sym2 representation preserves N although normal components change. Timelike rest points and spacelike zero-frequency points establish the maximal branch-complete support N>kappa^2/4. The sole modewise null boundary exception does not extend branch-complete support. Its zero-measure level supplies no ordinary L2 eigenstate; normalized packets approaching it show zero spectral infimum for the auxiliary multiplication operator."
+    },
+    {
+      "topic": "Actual interactions",
+      "finding": "The opposed trace calculation is bound to native P,Q and real quadratures, with nonzero off-core force and an invertible static response. Strict support nonclosure is correctly separated from instability. The proper ambient rotation of the resonant pair preserves the frozen algebra, fixes output/time symbols, and places both input neighborhoods inside the core; it is not mislabeled an observed Lorentz transformation."
+    },
+    {
+      "topic": "Nonzero packet mean",
+      "finding": "The actual scalarizer receiver is nonzero at the central interaction. Relative phase derivative -9/13 gives a smooth coarea chart. Choosing independently positive compact amplitudes on sufficiently small patches gives a common positive-volume zero-phase subpatch, uniform positive real density, and nonzero integral J1. Conjugate patches lie at separated output sums and do not cancel the tested contribution."
+    },
+    {
+      "topic": "Two-sided tempered inverse",
+      "finding": "On each compact subcollar delta>0, temporal Fourier multiplication by -(nu^2+delta) is invertible in the tempered distribution class. This establishes uniqueness without pointwise spatial assumptions or an instantaneous/translation-equivariant graph. Homogeneous exponentials cannot be added while retaining two-sided temperedness."
+    },
+    {
+      "topic": "Threshold divergence",
+      "finding": "The Green kernel sign and derivative jump are correct. Integration by parts bounds the g0-prime contribution uniformly; the g1 contribution equals J1/(2 sqrt(delta)) plus a uniform first-moment remainder. Since d delta is nonzero at the output center, the square integral diverges logarithmically. Bounded smooth projection/receiver maps make this incompatible with an ordinary coefficient-L2 trace. Complementary modes and threshold-supported distributions cannot cancel the projected open-side divergence."
+    },
+    {
+      "topic": "History versus finite-time regularity",
+      "finding": "The fixed weighted complete-history topology ensures a tempered mixed second derivative and continuous L2 trace. Bounded finite-amplitude solutions or finite-time C2 dependence do not imply this premise, and the report explicitly leaves those possibilities open."
+    },
+    {
+      "topic": "Antilinear symmetry",
+      "finding": "Equation covariance is separate from state-domain invariance. Reversal turns arbitrary free future decay into future growth; a reversal-closed future-tempered class is two-sided only with the stated history regularity. The rotated witness is not claimed pointwise Theta-fixed. The future-only survivor is preserved, and a pointwise-fixed input restriction needs its own vertex check."
+    },
+    {
+      "topic": "Lean and source ceiling",
+      "finding": "Five sorry-free Lean statements correctly encode limited reversal logic and scalar arithmetic; coarea, spectral measure and PDE uniqueness are written proofs. Source SC-ACT-02 does not select this low-Phi state rule; SC-META-52/53 retain ultrahyperbolic and shielding debt. No physical mass gap, quantum positivity, K77/curved transfer, all-class-C exclusion or source-GU falsification follows."
+    }
+  ]
+}
+```
+
+## native_grading_review: independent source/geometry/PDE specialist for this wave
+
+```json
+{
+  "reviewer": "native_grading_review: independent source/geometry/PDE specialist for this wave",
+  "independence_disclosure": "Contributed the earlier CW shell-domain preflight and provided an advisory audit of that predecessor. Did not devise, author, compute or edit the present Lorentz-core, opposed/rotated-vertex, two-sided-history or source-scope result. This review independently checks the new arguments and their inherited interfaces; it does not recycle the predecessor acceptance.",
+  "independent": true,
+  "accepted": true,
+  "artifact_hashes": {
+    "explorations/conditional-build/bet-mass-gap-cw-symmetry-domain-2026-11-27.md": "da8614ff1e1ffa223fc35f1b89af687d8c0675f1aad964a96905b17fc3b9025a",
+    "tests/program-focus/cw_symmetry_domain_probe.py": "58b3a47064af9d9db9ac69ad2fb4e93f012c12183d1e93588f08122c2fa8dbb9",
+    "lab/process/cw-symmetry-domain-certificates.json": "e819b6aff7071affe2e12ef9305710a937b3691dfcb5513854d138c13b0b1881",
+    "Lean/GUFormalization/CWSymmetryDomain.lean": "f424c882218ecdf5c86b43f1502f56e2e3c9d1d804f682f34db63ddb40d69b70"
+  },
+  "blockers": [],
+  "findings": [
+    "The orbit argument correctly distinguishes timelike rest frames, spacelike zero-time frames, and nonzero null orbits that never reach horizontal zero under a finite boost. The sole extra modewise boundary case a=-1,N=kappa\u00b2/4 is not branch-complete. The normal covector transforms by the correlated representation; only its indefinite square is invariant.",
+    "The auxiliary modal multiplication operator has no ordinary-L2 zero eigenvector on the open core, but normalized packets approaching its a=-1 boundary give zero spectral infimum. A positive support margin is a changed-domain assumption, not a dynamically generated or quantum mass gap.",
+    "The producer directly checks actual opposed trace modes, primary-minus real quadratures, the polarized Phi force and static response. The nonzero force at zero output excludes strict support while the invertible massive output retains a bounded particular, as the report states.",
+    "The proper positive-plane rotation preserves the actual frozen tensor grammar while fixing time and output K0; it is explicitly not an observed Lorentz transformation. The producer rechecks both rotated massive kernels and actual Q, and the threshold U-force/V-force identities bind the nonzero scalar receiver to the full descriptor.",
+    "The regular descriptor interface Pi=V A_t, N_c=U A_t and N_c V=U gives the scalar second-order forced equation without inverting A_t. Complementary full-system modes cannot cancel this projected diagnostic.",
+    "The phase derivative -9/13 supplies a submersion. With independently admitted positive compact bumps, positivity of the actual center receiver persists on a common zero-phase coarea patch; therefore its temporal mean stays uniformly nonzero. This step, not merely nonzero pointwise Q, supports the packet conclusion.",
+    "The two-sided tempered inverse has Green kernel -exp(-lambda|t|)/(2lambda). For the negative forcing convention the displayed positive convolution is correct. Integration by parts gives the uniform O(1) remainder after J1/(2lambda); ddelta at K0 is nonzero, so the square-integral diverges logarithmically on an open output collar.",
+    "Tempered uniqueness on compact subcollars away from delta0 legitimately fixes distributional solutions on the open side. A term supported on the threshold cannot cancel an ordinary-L2 divergence there. The nonlinear exclusion explicitly assumes C2 into a fixed polynomially weighted complete-history space or an equivalent tempered quadratic coefficient premise.",
+    "Time reversal of free decays and covariance of the equation do not make a future prescription invariant. The rotated input pair is not claimed pointwise Theta-fixed; independent admission is required. Separate future-oriented domains, weakened history regularity and changed infrared norms remain outside the exclusion.",
+    "Read five Lean finite cores and the exact producer. All four actual hashes match the manifest; the certificate reports76 checks and its producer/dependency hashes match actual files. No reviewer execution was performed.",
+    "Final rebind: reversing only the explicit frozen-equilibrium/first-derivative/mixed-equation clarification reproduces the previously accepted report SHA3e27dca3. The clarification correctly states the base point and actual quadratic equation; other three artifact hashes remain unchanged.",
+    "Metadata-only final rebind: replacing the corrected probe docstring with its exact stale text reproduces the accepted old probe hash; replacing only certificate probe_sha256 reproduces the old certificate hash. No executable or mathematical change. Report and Lean unchanged; root reports fresh76-check replay PASS."
+  ],
+  "scope": [
+    "Acceptance concerns the declared selected frozen K95 printed realization, complete complex carrier, and separately authenticated real trace witnesses. No curved/K77 transfer is inferred.",
+    "The result is not source-necessary: SC-ACT02 supplies the endpoint template, while SC-ACT06 and SC-META52/53 do not prescribe the tested norm, global history topology or packet admission. Source GU, all class C and the whole mass-gap bet are not falsified.",
+    "Ordinary coefficient L2 and the modal mass are auxiliary. No physical energy, physical mass operator, quantum gap, unique physical quotient or new adopted repair is established.",
+    "Finite-time C2 dependence and bounded finite-amplitude solutions do not imply the global second-variation premise. The proof does not exclude arbitrary nonlinear CW completions.",
+    "The five Lean lemmas formalize only their finite algebraic statements, not orbit classification, coarea or PDE results. Root subsequently reports all five cores and the76-check replay passed; this reviewer did not execute either.",
+    "No tests, builds, native execution or owner edits. Static byte hashing and scratch receipt writing only."
+  ]
+}
+```
+
+## Independent review
+
+```json
+{
+  "accepted": true,
+  "blockers": [],
+  "reviewer_scope": "Independent hostile T1 mathematical and source-scope review. Not a contributor to the theorem or native calculations. Acceptance is limited to the written completion class and separate support/spectral statements; internal review, not external validation.",
+  "basis": "5ccd2ed453e16be535acb18ec927d50080730416",
+  "artifact_hashes": {
+    "explorations/conditional-build/bet-mass-gap-cw-symmetry-domain-2026-11-27.md": "da8614ff1e1ffa223fc35f1b89af687d8c0675f1aad964a96905b17fc3b9025a",
+    "tests/program-focus/cw_symmetry_domain_probe.py": "58b3a47064af9d9db9ac69ad2fb4e93f012c12183d1e93588f08122c2fa8dbb9",
+    "lab/process/cw-symmetry-domain-certificates.json": "e819b6aff7071affe2e12ef9305710a937b3691dfcb5513854d138c13b0b1881",
+    "Lean/GUFormalization/CWSymmetryDomain.lean": "f424c882218ecdf5c86b43f1502f56e2e3c9d1d804f682f34db63ddb40d69b70"
+  },
+  "findings": [
+    "The observed-Lorentz support classification uses the correlated normal Sym2 action and its invariant indefinite norm N. Rest-frame and spacelike-orbit arguments yield N>kappa^2/4 for branch-complete support; the nonzero null exception at a=-1, N=kappa^2/4 is correctly separated. This is an invariant support statement, not a physical-norm or global unitary representation theorem.",
+    "The auxiliary multiplication operator M_a^2 is positive almost everywhere on the strict core, has zero kernel, and admits normalized packets with mass approaching zero. The measure-zero null level adds no ordinary Fourier-L2 vector. Thus a zero spectral infimum does not imply a massless eigenstate, and neither statement is a quantum gap verdict.",
+    "The opposed native trace fixture gives nonzero off-core forcing but an invertible zero-output operator and a regular static particular. The report does not equate nonlinear support leakage with instability or physical masslessness.",
+    "The positive-plane ambient rotation is used only as a computational covariance, with direct sparse kernel/vertex/scalarizer controls. It is not an observed Lorentz transformation and does not commute with the owned Theta. The rotated packets are admitted independently; no pointwise Theta-fixed-input result is inferred.",
+    "The nonzero receiver is converted into a packet statement using smooth polarizations, real-part positivity on small supports, phase submersion and a common coarea subpatch. The resulting time-integrated g1 has a uniformly nonzero real part. Real conjugate patches do not cancel the isolated output collar.",
+    "For delta>0 the projected scalar equation has a unique two-sided tempered solution. Temporal Fourier inversion is legitimate on compact subcollars bounded away from delta=0 and excludes all homogeneous repairs there. The positive Green convolution has z(0)=J1/(2*sqrt(delta))+a uniformly bounded remainder; the g0 derivative contributes only the stated bounded integration-by-parts term.",
+    "The nonzero residue produces logarithmically divergent ordinary Fourier-L2 norm across the threshold. Smooth bounded projection of a full L2 state would be L2, so complementary components and distributions supported only at delta=0 cannot repair the open-side divergence.",
+    "The nonlinear theorem now explicitly requires a map based at frozen T=0, the stated first derivative packet solutions, and mixed variation L W=-Q(f,g). C2 in a fixed polynomially weighted complete-history space supplies a tempered quadratic coefficient and L2 time trace. Finite-time C2 or bounded individual trajectories does not supply this premise; that essential limitation is stated.",
+    "Equation Theta covariance differs from domain invariance. A Theta-closed future-tempered domain is also past-tempered, but using the theorem additionally requires the complete-history derivative regularity and packet admission. Theta may exchange separate time-oriented domains. The future-only survivor is preserved.",
+    "SOURCE GU, physical positive energy/current/quotient, K77, curved dynamics, all class C and the whole MASS-GAP bet are not excluded. The result remains lane-C context rather than automatic B-lane or ledger evidence."
+  ],
+  "own_checks": [
+    "Read the complete report, including the final equilibrium/mixed-variation clarification; inspected the exact-control probe and all five Lean statements/proofs without running them.",
+    "Independently checked the orbit/support logic, measure-zero and Weyl-sequence reasoning, actual-packet coarea sign argument, Green kernel sign/jump, uniform remainder estimate, temporal uniqueness, projected L2 contradiction and Theta-domain implication.",
+    "Inspected the inherited printed-system Theta amplitude/frequency rule and covariance derivation; kept this separate from the new ambient rotation and from W2 or wedge owners.",
+    "Authenticated the four final artifact hashes, the probe/certificate producer binding, all 76 stored named controls and all 16 pinned dependencies by file reads only.",
+    "Final documentation-only rebind authenticated: restoring the one old fragment docstring recovers the previously reviewed probe hash; restoring only the certificate producer hash recovers the previous certificate bytes. Report, Lean and all scientific controls are unchanged."
+  ],
+  "qualifications": [
+    "The exclusion is of the specified C2 complete-history class, not every finite-time solution map, every globally bounded nonlinear trajectory, every Sobolev completion or every time-symmetric interpretation.",
+    "Packet narrowing, a genuine zero-mean selection rule, altered infrared topology, non-C2 dependence, separate time-oriented domains and histories growing at one end remain outside the excluded class.",
+    "The invariant core and mass spectrum use auxiliary coefficients and a declared modal measure. A physical mass operator, gauge/BRST quotient and norm embedding remain unbuilt.",
+    "The proof is a written mathematical argument with finite exact native controls. Five Lean lemmas check limited logical/arithmetic cores, not the orbit, full operator, coarea, PDE or spectral-measure theorem.",
+    "The native controls and inherited dependencies were inspected and authenticated, not recomputed by this reviewer. Root compilation and process-gate outcomes remain separately owned."
+  ],
+  "not_run": [
+    "No test/probe execution, Lean build, dense/native algebra, shell census, process gate or browser session was run.",
+    "No owner repository artifact was edited. Only this scratch review receipt was written."
+  ]
+}
+```
+
+## Verification lesson
+
+The first unrecorded probe run accidentally used a Python integer denominator with `/`, introducing a float in the rotated scalarizer normalization; the actual-kernel check rejected it. Switching to a SymPy integer restored exact rational arithmetic. Certificate generation and fresh replay then passed. No float-tainted result was accepted or used for inference. A first Lean tactic did not normalize related divisions; an explicit ring identity resolved the proof without changing the theorem.

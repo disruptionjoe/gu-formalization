@@ -72,3 +72,9 @@ Consumed by [the ordered applicability pass](../../../explorations/conditional-b
 [Adjudication](../../../explorations/conditional-build/sibling-import-adjudication-2026-11-27.md) and [evidence](../sibling-import-adjudication.json): own July sign/pole reconciliation first, then all ten sibling items. Only declared algebra, controls and templates transfer; no physical choice, source claim or ledger verdict.
 
 Ordered Joe27bb/cc pass consumed. Counter123 requires LC-BETS next under unchanged cadence; afterward resume the retained actual a_out=-2 negative-factor CW vertex at kappa12 before a degenerate estimate. Step2b remains2/max5; wedge3/max3. No new sibling-research backlog or physical choice.
+
+## LC123 interleave — symmetry/domain test consumed
+
+[Evidence](../../../explorations/conditional-build/bet-mass-gap-cw-symmetry-domain-2026-11-27.md) records the distinct two-sided tempered ordinary-L2 completion exclusion, even with inputs in the Lorentz core. The future-only repair survives and is not invariant under time-reflecting Theta when arbitrary decays are admitted. This is LC context, not a new B matrix verdict or a consumed step2b wave. Wedge3/3 and step2b2/5 remain unchanged.
+
+The existing actual negative-factor vertex is still the next ready ordinary B test. Restricting to the Lorentz core alone is no longer an untested escape; pointwise Theta-fixed input sets remain separate. No new state law is adopted.

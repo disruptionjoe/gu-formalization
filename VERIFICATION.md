@@ -17,6 +17,10 @@ External review is not a research pathway or waiting condition. The source-level
 
 Sections below are historical snapshots in file order.
 
+## 2026-11-28 — CW symmetry and state domains
+
+[Result](explorations/conditional-build/bet-mass-gap-cw-symmetry-domain-2026-11-27.md) · [Evidence](lab/process/bet-mass-gap-cw-symmetry-domain.json). Actual core-admitted packets exclude the declared C2 two-sided tempered ordinary-L2 history class. The future-only boundary survivor remains. The Lorentz core has zero modal mass kernel and zero spectral infimum; strict nonlinear support fails with a regular static response retained.76 exact controls and5 finite Lean cores; no physical quantum-gap, source or ledger verdict. LC context only.
+
 ## 2026-11-27 — Ordered sibling applicability and July reconciliation
 
 [Result](explorations/conditional-build/sibling-import-adjudication-2026-11-27.md) · [Evidence](lab/process/sibling-import-adjudication.json). W153/W157/W159 and wedge retain different action/pole scopes; repeated tachyon signs do not prove a universal GU result. J induces a free involution on complex rays without supplying physical issuance. Ten sibling imports have explicit transfer/already-owned/non-transfer receipts; all three physical completion packets remain incomplete. Exact finite controls and independent T2 review; no ledger, source, canon or physical choice change.

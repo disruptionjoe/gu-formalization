@@ -155,3 +155,5 @@ import GUFormalization.CWNonlinearCompletion
 import GUFormalization.LocalCurrent
 
 import GUFormalization.WedgeEinsteinReduction
+
+import GUFormalization.CWSymmetryDomain

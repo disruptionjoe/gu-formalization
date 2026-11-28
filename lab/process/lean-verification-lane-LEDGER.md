@@ -671,3 +671,7 @@ bicategory, ambidexterity or Mackey 2-functor is inferred.
 ## Wedge reduction finite core — 2026-11-27
 
 `Lean/GUFormalization/WedgeEinsteinReduction.lean`: **LEAN-VERIFIED**, targeted serialized `lake env lean -j1`, seven lemmas, no sorry. Geometry, measure support and full metric-mode admission remain written and independently reviewed in [explorations/conditional-build/wedge-shiab-einstein-reduction-2026-11-27.md](../../explorations/conditional-build/wedge-shiab-einstein-reduction-2026-11-27.md). Default whole-library build not rerun.
+
+## 2026-11-28 — CW symmetry/domain finite cores
+
+`Lean/GUFormalization/CWSymmetryDomain.lean` checks reversal-closure logic, mass positivity and margin, residue lower-bound arithmetic and rational core fixtures (five theorems). Targeted single-thread compilation; no sorry. Full orbit/coarea/complete-history, source identification and physical quantum claims are not formalized by these finite cores.
