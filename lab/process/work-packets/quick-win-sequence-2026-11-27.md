@@ -13,7 +13,7 @@ This packet is the canonical live work sequence for Joe27r. It restocks work und
 | Step | Status | Target / tier | Expected delta and advance outcomes | Kill condition / boundary |
 |---|---|---|---|---|
 | 1a | done | LB-CLASS / T2 | Wedge own-action variation and moving epsilon identity: [result](../../../explorations/conditional-build/wedge-shiab-action-recheck-2026-11-27.md). Corrected equation and first-bosonic redundancy survive. | Exact printed-Euler identification was already excluded; no repeated credit or W2 transfer. |
-| 1b | ready | LB-CLASS, X-P1-P2 / T2; T1 for a new class exclusion | Wedge own temporal constraints/canonical current, retaining mixed metric row; use an authenticated stationary background or explicitly conditional reference. Success earns scoped dynamics evidence; failure names the owner, domain and constraint. | No native flat-base vacuum inferred from flat X. No physical ghost conclusion from a frozen block alone. |
+| 1b | done | LB-CLASS, X-P1-P2 / T2; T1 for a new class exclusion | Wedge own temporal constraints/canonical current, retaining mixed metric row; use an authenticated stationary background or explicitly conditional reference. Success earns scoped dynamics evidence; failure names the owner, domain and constraint. | No native flat-base vacuum inferred from flat X. No physical ghost conclusion from a frozen block alone. |
 | 1c | ready | LB-CLASS / T2 | Complete remaining conservation/energy recheck and synthesize fidelity cost, survivor and exact missing ingredients. | Step1 total maximum3 waves; after cap, preserve unresolved burdens and advance2. |
 | 2a | done | X-P1-P2 / T1 already reviewed | Reuse [complete full-system linear CW](../../../explorations/conditional-build/cw-fullsystem-domain-2026-11-27.md): compatible modal evolution on the specified frozen domain; separate slice ambiguity and nonlinear failure. | This is the selected printed low-Phi equation, not automatically the changed wedge operator. |
 | 2b | ready | X-P1-P2 / T2; T1 if new class exclusion | Audit only the remaining specified domain/source bridge and any new equation-owner difference. If none is executable, close with the existing exact burdens; do not repeat nineteen-shell arithmetic. | Step2 maximum5 waves. Bulk well-posedness never implies codimension10 slice determination. |
@@ -25,16 +25,22 @@ This packet is the canonical live work sequence for Joe27r. It restocks work und
 
 ## Budget and follow-through
 
-- Step1: **one wave consumed** by the own-action/moving-identity result. At most two further waves before advancing.
+- Step1: **two waves consumed**: own-action/moving identity and [native branch/current/dynamics](../../../explorations/conditional-build/wedge-shiab-dynamics-2026-11-27.md). One final wave remains before advancing.
 - Step2 core was already completed before this packet; use its evidence rather than awarding another wave of scientific credit for a replay.
 - The new [nonlinear graph exclusion and trace-null control](../../../explorations/conditional-build/cw-nonlinear-completion-2026-11-27.md) remain accepted. Further nonlinear construction follows this six-step line unless a later directed update changes it.
 - All older packets keep their recorded done/blocked states. The existing29 ranked options remain available after this sequence.
-- Ordinary counter115 is due for LC-BETS; that slot does not consume a wedge investigation wave or change this B-lane order.
+- Counter117 next is ordinary B; the completed count115 discovery-bet slot did not consume a wedge wave. Cadence continues from the matrix counter.
 
 ## Step1 outcomes retained
 
-The fixed nonzero wedge does not satisfy the exact old unit endpoint, but its own corrected action is coherent. Its epsilon residual identity survives because the insertion moves correctly. Observed stress, native stationary solutions and positive physical energy remain open. The next test uses this action's boundary current and full admissible variation tuple, not another candidate's spectrum.
+The fixed nonzero wedge does not satisfy the exact old unit endpoint, but its own corrected action is coherent. Its epsilon residual identity survives because the insertion moves correctly. A native large-kappa homogeneous first-action branch is now established on its fixed product regulator. Observed stress, kappa1 continuation and native positive physical energy remain open. The next test uses this action's boundary current and full admissible variation tuple, not another candidate's spectrum.
 
 ## Joe27s consideration retained
 
 The [opportunity register](../source-action-opportunity-register-2026-11-25.json) `shiab_flexibility_2026_11_27_s` owns three costed alternatives: consistency-first equations; genuinely field-dependent Shiab; changed coefficients/endpoints. They remain uninstantiated, with zero prediction credit and no change to this ordered sequence. Metric dependence held during primitive translation is not by itself an escape; all covered nonzero scalar retunings remain consumed. Every tested successor must declare its parent, choice delta, target consequence and affected conservation/energy/CW rechecks.
+
+## Step1b follow-through
+
+The existing GU* wedge first action has a native homogeneous analytic large-kappa stationary branch under its actual primitive base-metric and epsilon variations on a fixed local product regulator. Leading elimination yields ambient curvature-squared density h/2[Ric_G^2+(5/2)R_G^2]+O(h^3), not a derived four-dimensional Einstein action. Its literal observed coderivative is nonzero at leading order under the declared theta=T dictionary. Separately, a conditional flat-ambient grade3/4 oscillator sector satisfies the mixed metric row and has both canonical-energy signs; no physical ghost or native-branch instability follows.
+
+Counter117 ordinary B: Joe27r1c, final remaining wedge wave, test the native branch temporal constraints/energy or record its exact unresolved domain and synthesize all action/fidelity/conservation burdens. Then advance the retained genuinely new nonlinear-CW alternatives; no W2 continuation or same-premise floor recomputation. Joe27v ledger reconciliation follows as a separate directed bookkeeping pass.

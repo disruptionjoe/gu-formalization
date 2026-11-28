@@ -1,7 +1,7 @@
 schema_version: '1.0'
 repository: observerse-research-program
 branch: main
-revision_basis: ea258fc59e0312c2d44ffefa50f4815cad521f3d
+revision_basis: 097daab9df96037f5e5a7ae5aaaec42f85ba8ca6
 program_focus:
   version: 2026-11-27-v3
   authority: joe_direct_chat_2026_11_27_k
@@ -245,6 +245,32 @@ focus_consideration_2026_11_27_t:
     options retained. Residual is a bounded linked synthesis, not a new prerequisite.
   continuation: Existing wedge gate then nonlinearCW changes beyond the already excluded instantaneous
     graph class; W2 diagnostic only; bounded residual synthesis with honest units of choice.
+wedge_dynamics_2026_11_27:
+  status: internal_T2_reviewed
+  actual_delta: The existing GU* wedge first action has a native homogeneous analytic large-kappa stationary
+    branch under its actual primitive base-metric and epsilon variations on a fixed local product regulator.
+    Leading elimination yields ambient curvature-squared density h/2[Ric_G^2+(5/2)R_G^2]+O(h^3), not a
+    derived four-dimensional Einstein action. Its literal observed coderivative is nonzero at leading
+    order under the declared theta=T dictionary. Separately, a conditional flat-ambient grade3/4 oscillator
+    sector satisfies the mixed metric row and has both canonical-energy signs; no physical ghost or native-branch
+    instability follows.
+  evidence:
+  - explorations/conditional-build/wedge-shiab-dynamics-2026-11-27.md
+  - lab/process/wedge-shiab-dynamics.json
+  source_bridge:
+    status: conditional
+    reason: Source supplies action grammar and primitive fields. Wedge selection, matching LC reconstruction
+      and local product regulator are declared; no physical reduction/norm/state or complete source action
+      is supplied.
+  next: 'Counter117 ordinary B: Joe27r1c, final remaining wedge wave, test the native branch temporal
+    constraints/energy or record its exact unresolved domain and synthesize all action/fidelity/conservation
+    burdens. Then advance the retained genuinely new nonlinear-CW alternatives; no W2 continuation or
+    same-premise floor recomputation. Joe27v ledger reconciliation follows as a separate directed bookkeeping
+    pass.'
+  verdict_effect: none
+residual_typing_2026_11_27_u:
+  evidence: lab/process/wedge-shiab-dynamics.json#joe_27u_consideration
+  scope: Bounded source typing only; full parameter/comparator table not yet established.
 local_current_2026_11_27:
   status: internal_T1_reviewed
   actual_delta: Every positive-semidefinite zeroth-order local conserved density vanishes for the completed

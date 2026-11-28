@@ -1808,7 +1808,7 @@
     },
     "LB-CLASS": {
       "zero_delta_streak": 0,
-      "runs": 56,
+      "runs": 57,
       "status": "open"
     },
     "LB-LADDER": {
@@ -2727,7 +2727,7 @@
   ],
   "program_run_counter": {
     "since": "2026-11-09",
-    "count": 116,
+    "count": 117,
     "rule": "Every hourly run increments this in its postflight, whatever its lane. Lane C runs when count % 4 == 3 before the increment."
   },
   "working_rule": "Cells are worked at the structure level: a requirement must hold for every action in class C or for a structurally defined subfamily. No cell is worked by writing down a specific action, and no gated cell is worked by building its gate object. See CURRENT-STATE.yaml program_focus.structure_not_specifics.",
@@ -3781,6 +3781,15 @@
       "counter_after": 116,
       "lane": "LC-BETS",
       "selection": "Tied most remaining timebox; existing symbol-current bridge beats unselected cosmology normal-average domain."
+    },
+    {
+      "date": "2026-11-27",
+      "authority": "joe_direct_chat_2026_11_27_r",
+      "item": "wedge-shiab-dynamics",
+      "counter_before": 116,
+      "counter_after": 117,
+      "lane": "LB-CLASS",
+      "selection": "Prioritypacket1b, own native action dynamics;27t gravity gate."
     }
   ],
   "directed_lc_carry_2026_11_24_b": {
@@ -7316,5 +7325,18 @@
       "reason": "Source supplies primitive fields/action packet/conjugation, while wedge operator selection is a declared GU* alternative; own corrected equation is not the printed unit row."
     },
     "status_effect": "Prioritypacket registration only; no cell/shrinkage/source/ledger verdict changes."
+  },
+  "wedge_dynamics_2026_11_27": {
+    "status": "internal_T2_reviewed",
+    "actual_delta": "The existing GU* wedge first action has a native homogeneous analytic large-kappa stationary branch under its actual primitive base-metric and epsilon variations on a fixed local product regulator. Leading elimination yields ambient curvature-squared density h/2[Ric_G^2+(5/2)R_G^2]+O(h^3), not a derived four-dimensional Einstein action. Its literal observed coderivative is nonzero at leading order under the declared theta=T dictionary. Separately, a conditional flat-ambient grade3/4 oscillator sector satisfies the mixed metric row and has both canonical-energy signs; no physical ghost or native-branch instability follows.",
+    "evidence": [
+      "explorations/conditional-build/wedge-shiab-dynamics-2026-11-27.md",
+      "lab/process/wedge-shiab-dynamics.json"
+    ],
+    "source_bridge": {
+      "status": "conditional",
+      "reason": "Source supplies action grammar and primitive fields. Wedge selection, matching LC reconstruction and local product regulator are declared; no physical reduction/norm/state or complete source action is supplied."
+    },
+    "status_effect": "Evidence and accounting only; no scientific cell or ledger verdict."
   }
 }

@@ -2696,6 +2696,58 @@
         "receipt_ref": "lab/process/bet-mass-gap-local-current.json#verification",
         "scope": "1030exactgroups plus written allparameter/currentjet proofs and finiteLean cores."
       }
+    },
+    {
+      "id": "wedge-shiab-dynamics-2026-11-27",
+      "kind": "result",
+      "owner_ref": "explorations/conditional-build/wedge-shiab-dynamics-2026-11-27.md",
+      "tested_statement": "The existing GU* wedge first action has a native homogeneous analytic large-kappa stationary branch under its actual primitive base-metric and epsilon variations on a fixed local product regulator. Leading elimination yields ambient curvature-squared density h/2[Ric_G^2+(5/2)R_G^2]+O(h^3), not a derived four-dimensional Einstein action. Its literal observed coderivative is nonzero at leading order under the declared theta=T dictionary. Separately, a conditional flat-ambient grade3/4 oscillator sector satisfies the mixed metric row and has both canonical-energy signs; no physical ghost or native-branch instability follows.",
+      "signature": {
+        "object": "Own normalized wedge first-action dynamics",
+        "carrier": "Native real invariant216 adjoint1forms; separateflatambient grade3/4 oscillator",
+        "convention": "Primaryminus; b=-ReTr/128; nativeK95; separateK77 symbol control",
+        "class": "Fixed productregulator, sourceprimitiveg/epsilon/varpi, largepositivekappa invariantbranch",
+        "premises": [
+          "explorations/conditional-build/wedge-shiab-dynamics-2026-11-27.md"
+        ]
+      },
+      "attributed_status": "internal_T2_reviewed",
+      "status_ref": "lab/process/wedge-shiab-dynamics.json#status",
+      "source_bridge_ref": "lab/process/wedge-shiab-dynamics.json#source_bridge",
+      "certificate_refs": [
+        "lab/process/wedge-shiab-dynamics-certificates.json"
+      ],
+      "control_refs": [
+        "tests/program-focus/wedge_shiab_dynamics_probe.py"
+      ],
+      "survivors_ref": "lab/process/wedge-shiab-dynamics.json#follow_through",
+      "reopen_condition_ref": "explorations/conditional-build/wedge-shiab-dynamics-2026-11-27.md",
+      "superseded_by": null,
+      "cache": {
+        "artifacts": [
+          {
+            "path": "explorations/conditional-build/wedge-shiab-dynamics-2026-11-27.md",
+            "sha256": "702d50332f0608e500d042c16d101bb4f5ea6d27b6eb6675598a4f022b2b8200"
+          },
+          {
+            "path": "tests/program-focus/wedge_shiab_dynamics_probe.py",
+            "sha256": "17814c8fbfac9677d8aee800c41d46bd5653c6bcf611f3b976b10ec5e39c63ca"
+          },
+          {
+            "path": "lab/process/wedge-shiab-dynamics-certificates.json",
+            "sha256": "125489fdb13e3227a0df95f2927bd13c29e177d6c5a39668dd2e2e0c7dd4185a"
+          }
+        ],
+        "verifier": {
+          "command": "python3",
+          "args": [
+            "tests/program-focus/wedge_shiab_dynamics_probe.py",
+            "--verify"
+          ]
+        },
+        "receipt_ref": "lab/process/wedge-shiab-dynamics.json#verification",
+        "scope": "5305 exact controls; analytic IFT/metric stationarity independently reviewed, not machine formalized."
+      }
     }
   ]
 }

@@ -17,6 +17,10 @@ External review is not a research pathway or waiting condition. The source-level
 
 Sections below are historical snapshots in file order.
 
+## 2026-11-27 — Own-wedge dynamics
+
+[Result](explorations/conditional-build/wedge-shiab-dynamics-2026-11-27.md) · [Evidence](lab/process/wedge-shiab-dynamics.json). A native homogeneous analytic first-action branch satisfies the source primitive variations on the declared fixed local regulator. Its leading effective density is ambient curvature-squared. A separate conditional flat-ambient sector has both canonical-energy signs and oscillatory solutions; this is not a physical ghost or native-branch instability verdict.5305exactcontrols cover normalization, Clifford grades and the conditional full mixed metric row. Source/ledger verdicts unchanged.
+
 ## 2026-11-27 — Ambient local-current transfer
 
 [Result](explorations/conditional-build/bet-mass-gap-local-current-2026-11-27.md) · [Evidence](lab/process/bet-mass-gap-local-current.json). Full extra-time fermion symbols exclude nonzero nonnegative zeroth-order local currents on the declared unrestricted equation jets, including densities degenerate on hidden data. A literal-observed RS witness is retained in the test.1030exactcontrols and five finite Lean cores pass; restricted/nonlocal physical domains remain open. Lane-C only, no source, physical-energy, quantum-gap or ledger verdict.

@@ -1,0 +1,130 @@
+# Wedge dynamics internal T2 review
+
+Independent mathematical and hostile/source reviewers accepted the frozen report, exact probe and certificate. Contributor scouts are excluded from acceptance. Root5305exactcontrols pass. No physical ghost, native instability,4DEinstein or source verdict.
+
+## Frozen artifacts
+
+- explorations/conditional-build/wedge-shiab-dynamics-2026-11-27.md: `702d50332f0608e500d042c16d101bb4f5ea6d27b6eb6675598a4f022b2b8200`
+- tests/program-focus/wedge_shiab_dynamics_probe.py: `17814c8fbfac9677d8aee800c41d46bd5653c6bcf611f3b976b10ec5e39c63ca`
+- lab/process/wedge-shiab-dynamics-certificates.json: `125489fdb13e3227a0df95f2927bd13c29e177d6c5a39668dd2e2e0c7dd4185a`
+
+## Independent T2 mathematical review of the native own-wedge invariant Euler reduction, fixed-varpi source-primitive metric variation, action normalization/effective curvature expansion, current identity, and the separately conditional flat-ambient grade-3/4 linearized sector. Read-only inspection; no reviewer tests, builds, or owner edits. No claim to source selection, physical admissibility, four-dimensional Einstein dynamics, kappa=1, or whole-GU verdict.
+
+{
+  "reviewer": "metric_family_second_review",
+  "accepted": true,
+  "blockers": [],
+  "reviewer_scope": "Independent T2 mathematical review of the native own-wedge invariant Euler reduction, fixed-varpi source-primitive metric variation, action normalization/effective curvature expansion, current identity, and the separately conditional flat-ambient grade-3/4 linearized sector. Read-only inspection; no reviewer tests, builds, or owner edits. No claim to source selection, physical admissibility, four-dimensional Einstein dynamics, kappa=1, or whole-GU verdict.",
+  "artifact_hashes": {
+    "explorations/conditional-build/wedge-shiab-dynamics-2026-11-27.md": "702d50332f0608e500d042c16d101bb4f5ea6d27b6eb6675598a4f022b2b8200",
+    "tests/program-focus/wedge_shiab_dynamics_probe.py": "17814c8fbfac9677d8aee800c41d46bd5653c6bcf611f3b976b10ec5e39c63ca",
+    "lab/process/wedge-shiab-dynamics-certificates.json": "125489fdb13e3227a0df95f2927bd13c29e177d6c5a39668dd2e2e0c7dd4185a"
+  },
+  "findings": [
+    {
+      "topic": "Full native invariant reduction and real closure",
+      "assessment": "accepted",
+      "reason": "The existing affine homogeneity and connected-isotropy character computation supply the full real 216-dimensional invariant displacement space independently of the W2 Euler operator. The present wedge, Clifford, Hodge, spin-LC and trace operations are natural under the same action. The primary-minus adjoint preserves the displayed full wedge Euler receiver: Theta is coefficientwise sharp-self, curvature and covariant T derivatives are sharp-skew, and the combined cubic expression is sharp-skew after exterior reversal signs. Thus evaluating the own-wedge residual on invariant sections gives a real polynomial E-to-E map; no projected action or 59-dimensional closure is substituted. Its mass derivative is the identity at h=t=0, so finite-dimensional real analytic IFT supplies the stated local branch and compact C^m convergence."
+    },
+    {
+      "topic": "Primitive base-metric row",
+      "assessment": "accepted",
+      "reason": "At epsilon=1 and fixed primitive varpi, T=varpi is fixed while B moves. In the explicitly cited source-guided reconstruction, G_g depends on g through its downstairs Levi-Civita connection rather than an additional horizontal g coefficient. At constant g0, every variation of this connection and the derived spin/Clifford/Hodge/volume data contains a base derivative of p. Translation-invariant fields therefore give an original-density variation with x-independent coefficients multiplying derivatives of p. Integrating x first on the fixed product regulator with compactly supported p kills each term, without fibre integration by parts. This establishes precisely the permitted fibre-integrated primitive metric row; it is not arbitrary pointwise ambient metric stationarity."
+    },
+    {
+      "topic": "Other stationary rows",
+      "assessment": "accepted",
+      "reason": "The full connection residual vanishes as a section, the previously verified own-action identity E_epsilon=D_A E_T supplies primitive epsilon stationarity, and zero independent matter and bars solve the bilinear matter rows. No independent E_B or E_Theta equation is improperly imposed, and no unrelated action terms are included."
+    },
+    {
+      "topic": "Normalized effective curvature functional",
+      "assessment": "accepted",
+      "reason": "With the same minus-real-trace normalization throughout, substituting T=-hJ+h^2 PJ+O(h^3) yields -h<J,J>/2+h^2<J,PJ>/2+O(h^3). Actual spin-LC curvature is half the historical algebraic injection, so the wedge Riemann identity gives J=-Einstein. J has Clifford grade 1, while P J has grade 2 because the grade-3/grade-1 anticommutator cancels grade 4; trace orthogonality kills the h^2 term. The contraction equals minus [Ric_ab Ric^ab+(n/4-1)R^2]. The native eigenvalues give R=-10, <J,J>=-2115/8, and normalized leading density 2115h/16. This is analytic on the finite invariant branch and only formal inverse-kappa elimination away from it."
+    },
+    {
+      "topic": "Observed coderivative receiver",
+      "assessment": "accepted",
+      "reason": "The shared actual Riemann restriction authenticates only the leading t1=-J, which is sufficient for the reused literal-observation coderivative formula O(t1)=21 gamma4/16. O means the coderivative after section contraction, with the ambient adjoint bundle retained, rather than the pullback itself; the extra self-commutator for the restricted B+T connection vanishes. Analyticity then gives a nonzero observed coderivative on a punctured small-h interval. The report correctly keeps higher-order ambient conservation and stress interpretation undecided instead of transferring the other action branch."
+    },
+    {
+      "topic": "Owned current and conditional energy sector",
+      "assessment": "accepted",
+      "reason": "Antisymmetrizing the displayed boundary potential gives omega_T(u,v)=tr_b Theta(uv-vu); graded integration by parts yields the stated Green identity. For the separately genuine flat-ambient reference, the sparse symbol closes on the real grade-3/4 U,V pair, with P_tau U=-6V, P_tau V=-6qU and pairings s,-qs. At q=-1 the reduced action gives the stated oscillator equations, rank-two symplectic form and canonical energy -(kappa s/2)(u^2+v^2). Both blade-sign choices exist in each declared signature. The full torsion-free metric curvature variation has grade-1 Einstein output and therefore pairs to zero with U,V; the other mixed terms vanish by field degree at T=F=0. This verifies the linearized mixed metric row and longitudinal constraint, not merely a held-metric subsystem."
+    },
+    {
+      "topic": "Evidence authentication",
+      "assessment": "accepted",
+      "reason": "All three reviewed artifact hashes match the frozen manifest. The certificate producer hash and all five persisted dependency hashes match their current files. The certificate contains 5305 true controls. The probe was inspected, not executed by this reviewer; root execution is the source of the runtime validation evidence."
+    }
+  ],
+  "cautions": [
+    "The weakest extension premise is the source-guided metric reconstruction and its fixed primitive/fixed product-regulator variation class. Dependence on an additional explicit g coefficient, moving fibre regulators, whole-fibre convergence, or separately imposed metric/boundary data requires a new argument.",
+    "The 216-dimensional full residual closure establishes local existence for sufficiently large absolute kappa. It does not give a numerical radius, continuation to kappa=1, unrestricted PDE uniqueness, global stationary states, or native-background stability.",
+    "The flat-ambient energy sector is conditional and distinct from native flat-base geometry, whose upstairs curvature is nonzero. Its existence is not asserted on the native stationary branch.",
+    "The opposite signs are canonical energy densities at one fixed action normalization. Homogeneous modes are not admitted finite-energy or infinite-volume normalizable states, and the result does not establish physical ghosts, nonlinear sector closure, or a physical positivity failure.",
+    "The effective ambient curvature-squared object supplies neither a four-dimensional Einstein action nor a Newton constant or physical stress tensor. Field elimination outside the invariant reduction is formal.",
+    "Acceptance applies to internal candidate mathematics only. Source selection, GU* physical admission, other action pieces, quantum interpretation and whole-GU/source verdicts remain unchanged."
+  ],
+  "validation": {
+    "certificate_status": "PASS",
+    "controls": 5305,
+    "all_persisted_controls_true": true,
+    "producer_authenticated": true,
+    "all_persisted_dependencies_authenticated": true,
+    "reviewer_jobs_run": false
+  }
+}
+
+## Independent hostile/source internal T2 review. No contributor authorship and no test/native/Lean execution. Acceptance binds the final three artifacts and their declared conditional mathematical scopes.
+
+{
+  "accepted": true,
+  "blockers": [],
+  "artifact_hashes": {
+    "explorations/conditional-build/wedge-shiab-dynamics-2026-11-27.md": "702d50332f0608e500d042c16d101bb4f5ea6d27b6eb6675598a4f022b2b8200",
+    "tests/program-focus/wedge_shiab_dynamics_probe.py": "17814c8fbfac9677d8aee800c41d46bd5653c6bcf611f3b976b10ec5e39c63ca",
+    "lab/process/wedge-shiab-dynamics-certificates.json": "125489fdb13e3227a0df95f2927bd13c29e177d6c5a39668dd2e2e0c7dd4185a"
+  },
+  "reviewer_scope": "Independent hostile/source internal T2 review. No contributor authorship and no test/native/Lean execution. Acceptance binds the final three artifacts and their declared conditional mathematical scopes.",
+  "basis": "097daab9df96037f5e5a7ae5aaaec42f85ba8ca6",
+  "review_contribution": "Requested explicit O(T)=delta_(s*B)(s*T) with retained ambient adjoint bundle, distinguishing it from section pullback itself. This clarification was added; no artifact mathematics was authored by this reviewer.",
+  "authenticated_dependencies": {
+    "tests/program-focus/shiab_graded_derivation_probe.py": "d16872f9dec86b8069a9a64acd0dae01c6778692350dcba09f8c10bb66fe20e0",
+    "tests/program-focus/shiab_bianchi_companion_probe.py": "ec24e1a970c99b3c9665495e9cadce996563a4a2d3e1b25621bfdc31ac2f9933",
+    "tests/program-focus/wedge_shiab_action_recheck_probe.py": "1d6eaf8d75be07f0e51166a09fe3e68097a18ecb5f733803e746b8984eb98b73",
+    "explorations/conditional-build/wedge-shiab-action-recheck-2026-11-27.md": "3b5f7dae39ec20dc78d457148a63bf23e5290ce9604cae2db52a3832d13f1d91",
+    "explorations/conditional-build/shiab-bianchi-companion-class-2026-11-27.md": "c0f4a812a26a7b37913d3e366182e65c25dd91965912b64df09fdf0e82679b42"
+  },
+  "additional_inherited_proof_bindings": {
+    "explorations/conditional-build/source-action-homogeneous-analytic-vacuum-2026-11-25.md": "5ed2c3d264500bfb7e801a31c33dfef8eb179ae1f5a628d08a231c29275f17e9",
+    "explorations/conditional-build/source-chimeric-trace-compatibility-2026-11-13.md": "3b883233b2f0b0f5787fd9091fd877893a052c47c11a91f291a5b9af271cbb3f",
+    "explorations/conditional-build/source-prescription-current-2026-11-13.md": "6ec3109bb811e49463228b8a7a780303260997c6622baa48b213aa07558e7194",
+    "explorations/conditional-build/source-action-wave2-construction-2026-11-25.md": "6cef6f8213a23a7df54ae5af1f7a4efbb5043aff218e911f30403cb1eb72f0a4",
+    "explorations/conditional-build/source-action-theta-divergence-2026-11-27.md": "db8e440623173743596a83bef6f9db53e702246332bf59e299dea2e394f7dcdf"
+  },
+  "own_checks": [
+    "Checked equation ownership against the previous wedge report: the own corrected Euler operator, not the printed unit endpoint or W2, is kappa T+J+PT+N(T,T), with the declared one-third/two-third cubic coefficients and matched nondegenerate pairing. The mass term is an invertible linear coefficient on the full real displacement carrier.",
+    "Checked reuse of affine homogeneity and the full216 real invariant space independently of W2 dynamics. Wedge, Hodge, trace, Clifford insertion and spin-LC differentiation are isometry-equivariant; their output remains in real u(H). Evaluating the full residual on invariant sections therefore yields a finite real polynomial map, not a projection of the action or an assumed59-dimensional closure.",
+    "The finite-dimensional analytic IFT applies at (h,t)=(0,0) with derivativeId in t. It gives the own-wedge invariant branch for sufficiently small |h|, with compact C^m convergence under homogeneous transport. It gives no explicit radius reaching h1, arbitrary-PDE uniqueness, global spin/state domain or inherited W2 root.",
+    "Challenged the primitive metric slice directly. At epsilon1 and fixed varpi=T(y), deltaT=0, deltaB=beta. In the declared coherent source-guided connection-metric reconstruction, g enters G_g and every metric/Clifford/reference coefficient only through Gamma(g) and its derivatives. At constant g0, deltaGamma has only base derivatives of p=delta g. All original-density variations therefore contain at least one base derivative of p, with x-independent coefficients.",
+    "For the fixed product regulator and compact base support, integrating x first annihilates those derivatives for every fixed y. This includes mass/Hodge/volume/Clifford/reference terms and requires no fibre integration by parts. It proves the permitted fibre-integrated source-base-metric row, not an arbitrary independent ambient metric equation. Changing regulator or adding explicit g-dependent data would alter the premise.",
+    "The pointwise full connection equation kills compact translation variations. The previously proved actual primitive epsilon identity E_epsilon=D_A E_T kills the epsilon row on that same branch. Zero independent matter/bars null bilinear matter variations. No independent E_B or E_Theta source equation is imposed.",
+    "Checked the inverse-kappa action substitution: T=-hJ+h^2PJ+O(h^3) gives -h<J,J>/2+h^2<J,PJ>/2+O(h^3). The matched Riemann normalization gives J=-Einstein. J is Clifford grade1; Clifford-compatible LC differentiation preserves grade and the grade3/grade1 anticommutator is grade2, so <J,PJ>=0 by trace orthogonality. This is a leading ambient curvature-squared object, not an observed Einstein-Hilbert action.",
+    "Checked the native arithmetic: Ricci eigenvalues1/4 fivefold and -5/4 ninefold give R=-10; Einstein amplitudes21/4 and15/4 have square sum2115/8. The held minus-trace norm has the opposite sign, hence leading normalized density2115h/16. Indefinite contractions and action normalization give no physical positivity.",
+    "Checked the limited coderivative transfer. Only the same Riemann source J and its leading coefficient t1 are reused from the owned map, not the old W2 branch or its higher orders. The report explicitly defines O=delta_(s*B) composed with literal section contraction, preserving the ambient adjoint bundle. The nonzero21/16 leading receiver plus analytic convergence gives a punctured small-h observed-coderivative counterexample under this dictionary. It is distinct from exterior D, epsilon redundancy and stress conservation.",
+    "Independently checked the fixed-metric presymplectic formula by antisymmetrizing the owned boundary potential: omega_T(u,v)=tr_b Theta(uv-vu), with the stated Green identity. The report retains the additional primitive metric boundary terms and requires the mixed metric equation before identifying a connection perturbation as full-system.",
+    "Reviewed the separate flat-ambient oscillator. The full sparse symbol closure P_tau U=-6V, P_tau V=-6qU gives, at negative q, u_dot=kappa v/6 and v_dot=-kappa u/6. With the same phase and minus-trace pairing, s=-4 product eta_I, L2=3s(u v_dot-v u_dot)+kappa s(u^2+v^2)/2, Omega=6s du wedge dv and canonical H=-kappa s(u^2+v^2)/2. Both signs exist at the same negative clock; kappa0 and positive-clock controls are distinguished.",
+    "Checked the comparator mixed metric row rather than assuming it away. At T=F_B=0, the only mixed quadratic term is pairing t with the Riemann curvature variation through S2, whose output is grade1. It is pointwise trace-orthogonal to grades3/4 U,V. Other metric-dependent terms have extra background T or F_B. The longitudinal component is zero and epsilon is redundant. This establishes local linearized comparator modes, not normalizable or nonlinear/native physical states.",
+    "Read the probe and sparse helper implementations statically; authenticated all three final files, producer hash and five listed dependencies. Inspected all5305 stored PASS flags, native arithmetic fields and separate K95/K77 sectors without executing them. The IFT, primitive metric argument and source meaning are explicitly written proofs, not finite-code or Lean certifications.",
+    "Checked the final source/physics boundaries: wedge choice, product regulator, large coupling and physical admission remain unselected; native flat X is not flat ambient Y; K77 negative-clock comparator is not silently relabelled as source physical time. No W2/low-Phi CW dynamics, physical ghost, quantum gap, observed Einstein equation, black-hole completion or global GU verdict is inferred."
+  ],
+  "cautions": [
+    "Native stationary existence is local in the declared first-action, invariant, fixed-product-regulator variation problem for sufficiently large absolute kappa. No kappa1 or global/domain theorem follows.",
+    "The primitive g proof relies on the supplied connection-metric reconstruction, coherent field identification, fixed varpi and regulator, and absence of extra explicit g dependence. It proves the base-metric Euler row after the permitted fibre integration.",
+    "The first-action and zero-matter result does not automatically solve independent action layers or an externally imposed state/boundary/observation constraint.",
+    "The curvature-squared expression is ambient and branch-controlled only in the invariant reduction. Elsewhere its inverse-kappa elimination is formal. A finite4D reduction, Newton scale and physical stress law are absent.",
+    "The observed coderivative statement uses O=delta_(s*B)(s*T), not pullback alone or a source-authenticated physical stress. Agreement on Riemann curvature authenticates t1 only.",
+    "Opposite canonical-energy signs are on a genuinely flat-ambient comparator with its mixed metric row checked. They do not establish instability of the actual native curved branch, normalizable excitations, BRST/physical cohomology or nonlinear runaway.",
+    "Internal review is not external validation. No reviewer tests, builds, native computations or external source fetches were performed; parent-reported5305 controls were statically inspected and authenticated only."
+  ]
+}
