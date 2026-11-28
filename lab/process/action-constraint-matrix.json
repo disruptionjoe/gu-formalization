@@ -1812,7 +1812,7 @@
     },
     "LB-LADDER": {
       "zero_delta_streak": 0,
-      "runs": 22,
+      "runs": 23,
       "status": "open"
     }
   },
@@ -2726,7 +2726,7 @@
   ],
   "program_run_counter": {
     "since": "2026-11-09",
-    "count": 109,
+    "count": 110,
     "rule": "Every hourly run increments this in its postflight, whatever its lane. Lane C runs when count % 4 == 3 before the increment."
   },
   "working_rule": "Cells are worked at the structure level: a requirement must hold for every action in class C or for a structurally defined subfamily. No cell is worked by writing down a specific action, and no gated cell is worked by building its gate object. See CURRENT-STATE.yaml program_focus.structure_not_specifics.",
@@ -3717,6 +3717,15 @@
       "counter_after": 109,
       "lane": "LB-LADDER",
       "selection": "Actual printed mixed/curved linear solvability and exact frozen real evolution scope."
+    },
+    {
+      "date": "2026-11-27",
+      "authority": "joe_direct_chat_2026_11_27_h",
+      "item": "printed-nonlinear-transfer",
+      "counter_before": 109,
+      "counter_after": 110,
+      "lane": "LB-LADDER",
+      "selection": "Actual nonlinear transfer, branch cokernel and strict stable-support closure."
     }
   ],
   "directed_lc_carry_2026_11_24_b": {
@@ -7179,6 +7188,19 @@
     "source_bridge": {
       "status": "conditional",
       "reason": "Source fixes the endpoint template and independent g/T; selected low-Phi product, coherent completion and unrestricted real state domain are not source-unique. Curved linear existence is complex unless its full real adapter is supplied; frozen real modes do not prove actual variable/nonlinear instability."
+    },
+    "status_effect": "No cell/intersection/shrinkage/source/ledger verdict changes."
+  },
+  "printed_nonlinear_2026_11_27": {
+    "status": "internal_T1_reviewed",
+    "actual_delta": "The actual printed quadratic term admits an exact real frozen nonlinear growing null-hook sector, but its literal native continuation has receiver1/2+O(h\u00b2). The actual analytic branch first obstructs the fixed-leading order38 scalarizer correction at h5 with cokernel receiver1296; the protected h1\u2013h4 pattern does not extend. Two stable printed modes have a nonzero mixed vertex outside the stable support band, excluding the strict all-field cutoff that admits both.",
+    "evidence": [
+      "explorations/conditional-build/printed-nonlinear-transfer-2026-11-27.md",
+      "lab/process/printed-nonlinear-transfer.json"
+    ],
+    "source_bridge": {
+      "status": "conditional",
+      "reason": "Selected lowPhi and K95 completion are not source-unique; unrestricted frozen modes or a strict Fourier cutoff are not source-required physical states. Method failure does not imply nonlinear nonexistence or GU falsification."
     },
     "status_effect": "No cell/intersection/shrinkage/source/ledger verdict changes."
   }

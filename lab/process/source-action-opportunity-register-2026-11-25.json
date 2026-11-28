@@ -3243,5 +3243,27 @@
       "Real curved solution adapter for full carrier"
     ],
     "next": "Compare the actual nonlinear/Jacobian order39 obstruction with physical-current/state alternatives before another deep PDE wave. First test whether the actual Q or V=2Q(T0,-) cancels or factors the leading scalarizer range on the already-owned printed branch; do not construct a successor action. A nonzero order39 term only invalidates this CK reduction, not solvability or GU. Separately test exact growth robustness to the actual lower terms before any physical transfer. Reuse all resolved linear and finite-jet work; no further unperturbed compatibility census."
+  },
+  "printed_nonlinear_2026_11_27": {
+    "evidence": [
+      "explorations/conditional-build/printed-nonlinear-transfer-2026-11-27.md",
+      "lab/process/printed-nonlinear-transfer.json"
+    ],
+    "actual_delta": "The actual printed quadratic term admits an exact real frozen nonlinear growing null-hook sector, but its literal native continuation has receiver1/2+O(h\u00b2). The actual analytic branch first obstructs the fixed-leading order38 scalarizer correction at h5 with cokernel receiver1296; the protected h1\u2013h4 pattern does not extend. Two stable printed modes have a nonzero mixed vertex outside the stable support band, excluding the strict all-field cutoff that admits both.",
+    "consumed": [
+      "Naive inference from nonzeroVB39 to compatibility obstruction",
+      "Six-dimensional grade1/2 all-orders closure conjecture",
+      "Same-leadingB scalarizer correction of orderatmost38 around the actualsmallh branch",
+      "Literal frozen null-hook first-jet continuation about the native smallh branch",
+      "Strict all-field stable spatial cutoff admitting the tested two trace polarizations"
+    ],
+    "survivors": [
+      "Actual homogeneous analytic printed branch",
+      "Other nonlinear curved solution methods, corrected amplitudes or leading symbols",
+      "Fixed-real-leg zero-interaction sector",
+      "Nonlinear state manifolds, off-band auxiliary responses and physical quotients",
+      "Source-selected physical domain/current still missing"
+    ],
+    "next": "Pivot from extending the linear scalarizer to nonlinear state-support closure. Reuse the actual printed stable-pair vertex, rather than another dispersion or neighboring scalarizer census. Test which translation-invariant real state classes containing an open observed-momentum family are closed under the actual Q, and whether the out-of-band term can remain an auxiliary/constrained response rather than an excluded physical excitation. Bind any physical inference to an actual source-current/quotient map; missing such a map is an incompleteness statement, not permission to invent one. Rank that class discriminator against l2/l1 observable tests; preserve corrected curved solutions and other leading symbols as alternatives, not defaults."
   }
 }

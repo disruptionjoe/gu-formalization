@@ -143,3 +143,5 @@ import GUFormalization.LocalComplement
 import GUFormalization.ReferenceHolonomy
 
 import GUFormalization.PrintedDifferential
+
+import GUFormalization.PrintedNonlinear

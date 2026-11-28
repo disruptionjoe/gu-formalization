@@ -16,6 +16,10 @@ Do not add "Current follow-through" sections or "Historical predecessor" stacks 
 matrix or bet file. The retired follow-through chain and banner stack are kept at the end of this file under
 "Archived steering history".
 
+## 2026-11-27 — Actual printed nonlinear transfer
+
+[Result](explorations/conditional-build/printed-nonlinear-transfer-2026-11-27.md) · [Evidence](lab/process/printed-nonlinear-transfer.json). An exact frozen nonlinear growing sector survives self-interaction, but literal native continuation has receiver1/2+O(h²). The actual analytic branch first obstructs the specified scalarizer correction at h5 (receiver1296). Two stable modes have a nonzero out-of-band quadratic vertex (receiver−22080), excluding the strict cutoff that admits both.179 exact checks,4 Lean finite cores and3 independent reviews passed. Other nonlinear solutions and physical domains remain open; no source/ledger verdict or choicebudget change. All24 options retained.
+
 ## 2026-11-27 — Printed differential solvability and evolution
 
 [Result](explorations/conditional-build/printed-differential-solvability-2026-11-27.md) · [Evidence](lab/process/printed-differential-solvability.json). Full frozen local solvability and actual curved analytic LINEAR solutions at sufficiently large finite coupling are established in the selected coherentLC completion. Exact real frozen modes grow without a finite Sobolev-loss bound. NonlinearQ, genericV/C0, physical domain and kappa1 remain open.83 exact checks, four Lean algebra cores and three independent internal reviews passed. No source/ledger verdict or choicebudget10/4/net6/0 change; all24 options retained.

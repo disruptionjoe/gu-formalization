@@ -2295,6 +2295,64 @@
         "receipt_ref": "lab/process/printed-differential-solvability.json#verification",
         "scope": "SymPy1.14.0;83 exact controls and four Lean algebra cores. Written universal symbol/geometry/CK/Fourier proof, not full PDE formalization."
       }
+    },
+    {
+      "id": "printed-nonlinear-transfer-2026-11-27",
+      "kind": "result",
+      "owner_ref": "explorations/conditional-build/printed-nonlinear-transfer-2026-11-27.md",
+      "tested_statement": "The actual printed quadratic term admits an exact real frozen nonlinear growing null-hook sector, but its literal native continuation has receiver1/2+O(h\u00b2). The actual analytic branch first obstructs the fixed-leading order38 scalarizer correction at h5 with cokernel receiver1296; the protected h1\u2013h4 pattern does not extend. Two stable printed modes have a nonzero mixed vertex outside the stable support band, excluding the strict all-field cutoff that admits both.",
+      "signature": {
+        "object": "Selected printedQ nonlinear transfer and actualbranch Jacobian",
+        "carrier": "Full complex adjoint oneforms; authenticated primary-minus real grade1/2 frozen sector and nativegrades5/10/14 receivers",
+        "convention": "LowPhi comm/ianti/ianti; nativeK95 and distinct normalizedports; actualprintedrecurrence",
+        "class": "Exactfrozen nonlinear fixedleg, nativefirstjet, fixed-leadingB correction andstrictsupport classes",
+        "premises": [
+          "explorations/conditional-build/printed-differential-solvability-2026-11-27.md",
+          "explorations/conditional-build/printed-endpoint-analytic-branch-2026-11-27.md"
+        ]
+      },
+      "attributed_status": "internal_T1_reviewed",
+      "status_ref": "lab/process/printed-nonlinear-transfer.json#status",
+      "source_bridge_ref": "lab/process/printed-nonlinear-transfer.json#source_bridge",
+      "certificate_refs": [
+        "lab/process/printed-nonlinear-transfer-certificates.json",
+        "Lean/GUFormalization/PrintedNonlinear.lean"
+      ],
+      "control_refs": [
+        "tests/program-focus/printed_nonlinear_transfer_probe.py"
+      ],
+      "survivors_ref": "lab/process/printed-nonlinear-transfer.json#follow_through",
+      "reopen_condition_ref": "explorations/conditional-build/printed-nonlinear-transfer-2026-11-27.md",
+      "superseded_by": null,
+      "cache": {
+        "artifacts": [
+          {
+            "path": "explorations/conditional-build/printed-nonlinear-transfer-2026-11-27.md",
+            "sha256": "28bb64f53d40b4ca7434534f5104d018c273ca9d0e3561f7d3a8233ea91ca87b"
+          },
+          {
+            "path": "tests/program-focus/printed_nonlinear_transfer_probe.py",
+            "sha256": "e26e1f16f6ae58e7564fbc5a3e47e7623159dfff2d69374e996c805e17533dde"
+          },
+          {
+            "path": "lab/process/printed-nonlinear-transfer-certificates.json",
+            "sha256": "310ce5c4e6f85984938f95bdfe2e04f3eb162184953aaf06c1721cb49c208296"
+          },
+          {
+            "path": "Lean/GUFormalization/PrintedNonlinear.lean",
+            "sha256": "3dd51f5f6aab8a87b8c21f95fb70430d6d9f84e54d3755fd0928537333976eb2"
+          }
+        ],
+        "verifier": {
+          "command": "python3",
+          "args": [
+            "tests/program-focus/printed_nonlinear_transfer_probe.py",
+            "--verify"
+          ]
+        },
+        "receipt_ref": "lab/process/printed-nonlinear-transfer.json#verification",
+        "scope": "SymPy1.14.0;179exactchecks and4Lean algebra cores; written universal/analytic/domain proof. Not fullPDE formalization."
+      }
     }
   ]
 }

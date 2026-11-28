@@ -1,0 +1,277 @@
+{
+  "artifact": "PRINTED_NONLINEAR_TRANSFER",
+  "date": "2026-11-27",
+  "basis_revision": "7e83b7f31665a78c78682ac75c9da2e162729680",
+  "status": "internal_T1_reviewed",
+  "target": "X-P1-P2",
+  "tier": "T1",
+  "lane": "LB-LADDER",
+  "actual_delta": "The actual printed quadratic term admits an exact real frozen nonlinear growing null-hook sector, but its literal native continuation has receiver1/2+O(h\u00b2). The actual analytic branch first obstructs the fixed-leading order38 scalarizer correction at h5 with cokernel receiver1296; the protected h1\u2013h4 pattern does not extend. Two stable printed modes have a nonzero mixed vertex outside the stable support band, excluding the strict all-field cutoff that admits both.",
+  "source_bridge": {
+    "status": "conditional",
+    "reason": "Selected lowPhi and K95 completion are not source-unique; unrestricted frozen modes or a strict Fourier cutoff are not source-required physical states. Method failure does not imply nonlinear nonexistence or GU falsification."
+  },
+  "source_necessary_exclusion": false,
+  "weakest_unproved_link": "The source does not select the held completion or proposed strict state support; neither method exclusion nor frozen growth identifies physical states.",
+  "class_C_representativeness": "Named selected printed-P/Q class; no allC width or source-unique dynamics established.",
+  "track": [
+    "SOURCE conditional completion",
+    "GU* comparison only"
+  ],
+  "choice_budget": {
+    "families": 10,
+    "obligations": 4,
+    "net": 6,
+    "source_selected_predictions": 0,
+    "change": 0
+  },
+  "selection": {
+    "mandatory_basis": "Count109 ordinaryB; no openT1 or ready packet.",
+    "class_scope": "Frozen fixedrealleg solutions; actual homogeneous analytic branch and fixed-leading scalarizer correction class; strict nonlinear all-field support class admitting the two modes.",
+    "source_relevance": "Actual selected printed endpoint and its native curvature, not failedW2 surrogate. Physical domain and source uniqueness remain open.",
+    "shared_prerequisite": "Nonlinear solvability and admissible stable state evolution for gravity and predictive dynamics.",
+    "reuse_delta": "Reused h4, fullsymbol and linear scalarizer. Added actualu5 and quotient receiver, native mode remainder, and new printed-Q consumer of the existing support-closure argument.",
+    "outcomes": [
+      "Allorders invariant subspace would preserve the method; exact h5 receiver instead closes that correction class.",
+      "Native zero remainder would retain literal continuation; nonzero1/2 closes it.",
+      "Zero stable-pair vertex would preserve this cutoff test; actual-22080 excludes the named cutoff class."
+    ],
+    "remaining_cost": "One cheap class closure/auxiliary-response discriminator before any new nonlinear construction; no default scalarizer continuation.",
+    "strongest_eligible_alternative": "l2/l1 source-required observable/current tests remain without a newly supplied physical readout/domain. The cheap actual stable-pair test was pulled into this wave rather than deferred.",
+    "cost": "One bounded wave,179 exact checks/maps0.214s,4 targeted Lean cores,3 independent reviews; token cost not measured."
+  },
+  "verification": {
+    "artifact_hashes": {
+      "explorations/conditional-build/printed-nonlinear-transfer-2026-11-27.md": "28bb64f53d40b4ca7434534f5104d018c273ca9d0e3561f7d3a8233ea91ca87b",
+      "tests/program-focus/printed_nonlinear_transfer_probe.py": "e26e1f16f6ae58e7564fbc5a3e47e7623159dfff2d69374e996c805e17533dde",
+      "lab/process/printed-nonlinear-transfer-certificates.json": "310ce5c4e6f85984938f95bdfe2e04f3eb162184953aaf06c1721cb49c208296",
+      "Lean/GUFormalization/PrintedNonlinear.lean": "3dd51f5f6aab8a87b8c21f95fb70430d6d9f84e54d3755fd0928537333976eb2"
+    },
+    "reviews": [
+      {
+        "accepted": true,
+        "review_role": "Independent geometry/PDE specialist, not a contributor to this candidate",
+        "artifact_hashes": {
+          "explorations/conditional-build/printed-nonlinear-transfer-2026-11-27.md": "28bb64f53d40b4ca7434534f5104d018c273ca9d0e3561f7d3a8233ea91ca87b",
+          "tests/program-focus/printed_nonlinear_transfer_probe.py": "e26e1f16f6ae58e7564fbc5a3e47e7623159dfff2d69374e996c805e17533dde",
+          "lab/process/printed-nonlinear-transfer-certificates.json": "310ce5c4e6f85984938f95bdfe2e04f3eb162184953aaf06c1721cb49c208296",
+          "Lean/GUFormalization/PrintedNonlinear.lean": "3dd51f5f6aab8a87b8c21f95fb70430d6d9f84e54d3755fd0928537333976eb2"
+        },
+        "issues": [],
+        "blocking_findings": [],
+        "findings": [
+          "The fixed real null form leg makes every wedge of the real Fourier quadratures vanish, not merely the complex self-wedge. The p1 hook identities and mass shell therefore produce genuine zero-source frozen nonlinear solutions. Raised Clifford indices and primary-minus realification are retained.",
+          "The fixed-a scalar transport restriction explains the stated absence of nonzero global L2(R13) packets; the periodic and explicitly unrestricted bounded-patch comparisons are correctly scoped and do not silently import such a packet.",
+          "The literal native first-jet test is geometrically legitimate at one point in the noncommuting frame. Multiplication by i and division by n make the point value minus2U; the reference connection contribution is one-half. The actual branch cancels the forcing, and u1=-S with rho(V_S U)=0 leaves one-half+O(h\u00b2). For small h choose an admissible n above the mass threshold; no fixed-n large-kappa assertion is needed.",
+          "The leading scalarizer symbol is K q^19 P Pi0 because only the final polynomial term survives on the size-two zero sector and the nonzero sectors vanish. The longitudinal Jacobian identity and the volume identity explain why nonzero V B39 alone is insufficient: the quotient by im P is essential.",
+          "The normalized printed recurrence gives u5=-P u4-2Q(u1,u3)-Q(u2,u2). Native full-field operations are used without a six-space or59-space projection. Failure of the six-space closure is preserved, and no all-order grade protection is claimed.",
+          "The receiver at mask6133 annihilates the entire P_tau image: the only direct commutator source has odd grade11 containing tau, and the only possible nested anticommutator source has odd grade9 lacking the output leg. The13 XOR candidates exhaust the corresponding columns. The nonzero actual1296 coefficient and analyticity yield1296h5+O(h6).",
+          "For any differential C of order at most38, the new order39 term is P C38+V B39. The owned unperturbed curved cancellation already accounts for derivatives of B and connection coefficients. The cokernel receiver therefore obstructs exactly the fixed-leading correction, even if C depends on h, without obstructing other leading symbols or solution methods.",
+          "The strict stable-support example has admitted spatial inputs with band value4, excluded sum with value minus39, and a nonzero mixed coefficient minus22080. Only the two ordered positive-frequency input pairs reach the chosen full frequency. In a closed strict all-field support class the epsilon\u00b2 equation is contradictory, since the constant-coefficient linear operator cannot create the excluded spatial frequency from T2. This does not force a growing response.",
+          "The four Lean statements are finite algebra implications only. Geometry, all-covector identities, analytic continuation and PDE/domain arguments remain written proofs, as stated."
+        ],
+        "scope_limits": [
+          "No tests or builds were run by this reviewer; root reports179 exact checks and four clean Lean cores. Reviewed the producer, certificate and Lean source, not an independent execution.",
+          "The selected low-Phi recipe and coherent native completion are not proved source-unique. Source primitive full translation freedom does not imply physical admission of unrestricted Cauchy data.",
+          "The exact nonlinear growing solutions have zero frozen source and a fixed real leg. Their literal curved continuation fails; this is not a curved nonlinear instability or nonexistence theorem.",
+          "The actual homogeneous full216 analytic branch is reused and continues to exist. The fifth coefficient is forced by that branch, not an arbitrary grade5 perturbation.",
+          "The scalarizer exclusion is limited to cancellation by order-at-most38 corrections with the same leading B39. Higher-order, nonlocal, or differently led reductions remain outside it.",
+          "The strict support exclusion assumes both displayed modes are freely superposable first variations and every field remains inside the cutoff. Nonlinear state manifolds, auxiliary fields outside the band, other polarizations and physical quotients are not excluded.",
+          "No kappa1, full-source action, source-GU falsification, ghost, energy or mass-gap conclusion follows."
+        ],
+        "dependency_hashes": {
+          "tests/program-focus/source_action_deep_algebra.py": "4e3800131049e2b397bbce6106bfc5766d2f5fbf996319c50942f3b805d65598",
+          "tests/program-focus/source_action_deep_geometry.py": "7cdfe5f7609300c1ab4fb482f309cfafa52d0aa66cf353ef8b1f9c8be07e52df",
+          "lab/process/printed-endpoint-analytic-branch-certificates.json": "06114d56717239ab1aa90ac5b74779f5d63673ee2bcac36ecf3deca8540854a9",
+          "tests/program-focus/printed_endpoint_analytic_branch_probe.py": "6907facf01115719567e4d89e86bee41d9e981f79c7221b43874ca896677f04b",
+          "lab/process/source-action-deep-coefficients.json": "fb4aacfa69cbc1127b7fddf3b4f66811650c1fd3a889363cc6dfab940439b274",
+          "explorations/conditional-build/printed-equation-jets-and-symbol-2026-11-27.md": "d0fc17f026f254a93bf8a4a82891abba9b9fe0ec809f73fd7bd4ca06ae61b3c5",
+          "explorations/conditional-build/printed-differential-solvability-2026-11-27.md": "5190082b42b37cd970a8d2a5d820a02c7980d7cc16c446b414b1ca8fc7f5fdbb",
+          "tests/program-focus/printed_differential_solvability_probe.py": "bd55c549c5448182ae35cff40d7fdb581d4b6b90a8f3f14b91029c219139434d",
+          "tests/program-focus/printed_equation_jets_symbol_probe.py": "e43da867d17cf985bfac8c014657e8cbf18c94e80013350ca69eee804a4ebeb8"
+        },
+        "nested_branch_input_hashes": {
+          "explorations/conditional-build/source-action-endpoint-cubic-2026-11-27.md": "33853b618671c40e50feab71802973ce4a577d8c7c8d70e7a109bc037f6e30da",
+          "explorations/conditional-build/source-action-homogeneous-analytic-vacuum-2026-11-25.md": "5ed2c3d264500bfb7e801a31c33dfef8eb179ae1f5a628d08a231c29275f17e9",
+          "explorations/conditional-build/source-action-theta-divergence-2026-11-27.md": "db8e440623173743596a83bef6f9db53e702246332bf59e299dea2e394f7dcdf",
+          "lab/process/source-action-deep-coefficients.json": "fb4aacfa69cbc1127b7fddf3b4f66811650c1fd3a889363cc6dfab940439b274",
+          "lab/process/source-action-endpoint-cubic-certificates.json": "344335a28bdd73ddba506cc54870dfacb7398df5809d5b56a7251dd64d3ea90c",
+          "lab/process/source-action-endpoint-cubic.json": "7d2479ec8b9fc9f1c8e54c85374248b58aa36ec4f37ff3ced2e73dfde5bc1360",
+          "lab/process/source-action-theta-divergence-certificates.json": "2aa58c4c4c507b22104c42fba326776b035828294397d2d0591668d5e0a46091",
+          "lab/process/source-action-theta-divergence.json": "bc207b12d1950b3fba3b982a4b6f62fc10aabcc430c7232b8aa55fba0e0c4045",
+          "tests/program-focus/source_action_deep_algebra.py": "4e3800131049e2b397bbce6106bfc5766d2f5fbf996319c50942f3b805d65598",
+          "tests/program-focus/source_action_deep_geometry.py": "7cdfe5f7609300c1ab4fb482f309cfafa52d0aa66cf353ef8b1f9c8be07e52df",
+          "tests/program-focus/source_action_endpoint_cubic_probe.py": "fcfa3fa1bab7bb979578d61d9534bdcb3dfc93ce1efda0bfb0144db179f00eab",
+          "tests/program-focus/source_action_endpoint_onshell_probe.py": "7bd37220a5691a7f8013d01e182029c181b4715e8ea40a1ebe0bceb467f7e7bc",
+          "tests/program-focus/source_action_theta_divergence_probe.py": "93fb6c4fbe5ea51ab78ddea9f1e344e0894646e390da76a19567ced7f577c038"
+        },
+        "additional_source_geometry_dependency_hashes": {
+          "explorations/conditional-build/source-prescription-current-2026-11-13.md": "6ec3109bb811e49463228b8a7a780303260997c6622baa48b213aa07558e7194",
+          "explorations/conditional-build/source-action-homogeneous-analytic-vacuum-2026-11-25.md": "5ed2c3d264500bfb7e801a31c33dfef8eb179ae1f5a628d08a231c29275f17e9",
+          "explorations/conditional-build/riemann-realform-transfer-2026-11-27.md": "39f6ad6678ac9524f1ab68a24e65ab3a577003c6ef500344b5bf84445366b222",
+          "explorations/conditional-build/printed-endpoint-analytic-branch-2026-11-27.md": "f2d9b188a94474355e046edf3299f84dc749ba11f281752ce9b4d395757505f3",
+          "explorations/conditional-build/ricci-flat-ambient-source-jets-2026-11-27.md": "7037bb9d31e05d9966ec05e9d4ca124d0772e5dd3a51295c2904a956b75478bc"
+        },
+        "hash_verification": "All four artifacts match the frozen manifest; all direct certificate and nested branch input hashes match current files. Additional inspected source/geometry reports are explicitly bound above.",
+        "source_review_basis": "Repository source-prescription transcription and authenticated source-guided geometry/real-form reports; no new claim of independent primary-PDF reinspection in this review."
+      },
+      {
+        "reviewer": "source_current_prescription",
+        "role": "Independent source and representation specialist; no contribution to this wave",
+        "accepted": true,
+        "exact_artifact_hashes": {
+          "explorations/conditional-build/printed-nonlinear-transfer-2026-11-27.md": "28bb64f53d40b4ca7434534f5104d018c273ca9d0e3561f7d3a8233ea91ca87b",
+          "tests/program-focus/printed_nonlinear_transfer_probe.py": "e26e1f16f6ae58e7564fbc5a3e47e7623159dfff2d69374e996c805e17533dde",
+          "lab/process/printed-nonlinear-transfer-certificates.json": "310ce5c4e6f85984938f95bdfe2e04f3eb162184953aaf06c1721cb49c208296",
+          "Lean/GUFormalization/PrintedNonlinear.lean": "3dd51f5f6aab8a87b8c21f95fb70430d6d9f84e54d3755fd0928537333976eb2"
+        },
+        "hash_verification": "All four staged files were independently hashed and exactly match the frozen manifest.",
+        "issues": [],
+        "independent_reasoning": [
+          "The normalized printed equation t+h(S+Pt+Q(t,t))=0 forces u5=-P u4-2Q(u1,u3)-Q(u2,u2). The producer imports the four printed coefficients with dependency custody and applies the actual Phi(D) and polarized raw wedge. It does not substitute the W2 recurrence or W2 fourth coefficient. The certificate retains the complete u5, including the grade-five mask775 coefficient -9/16, and the proof reports grades1/5 rather than claiming u5 is purely grade5.",
+          "The cokernel receiver has grade10, contains index0 and lacks index3. The direct gamma3 commutator could reach it only from odd grade11 containing3, where that commutator vanishes. The nested gamma0 anticommutator could reach it only from odd grade9 lacking0, where that anticommutator vanishes. This establishes annihilation of the entire symbol image rather than merely sampled inputs. The probe exhausts all13 XOR-compatible columns. The explicit volume preimage places the tested input in the leading scalarizer range, so the obstruction does not depend solely on trusting the full8204-dimensional range census.",
+          "The actual branch receiver values zero,zero,zero,zero,1296 and linearity in T imply 1296h^5+O(h^6) by the previously owned convergent analytic branch. A nonzero leading coefficient excludes cancellation by P C38 for every sufficiently small nonzero h. The unperturbed curved scalarizer has no degree39 remainder by its synchronous-frame and parallel-Phi proof, so that remainder is not silently omitted. The exclusion concerns the fixed leading scalarizer and order-at-most38 corrections, not every differential reduction or nonlinear solution.",
+          "For the phase-rotated mode, the point value is -2U. The native lower receiver is therefore -2(-1/4)=1/2. The exact perturbation difference removes the background forcing; its self-wedge vanishes and its cross term is -4Q(Tp,U). Since u1=-S and 2Q(S,U)=21U with zero selected receiver, the linear-in-h receiver vanishes, giving 1/2+O(h^2). This is a literal first-jet continuation obstruction, not a corrected curved-mode theorem.",
+          "The fixed-real-leg frozen modes have zero raw self-wedge before Phi is applied, including mixed real quadratures. Raised Clifford coefficients and the mass-shell relation are retained. Their vector/bivector real coefficients are primary-minus skew. Grades5,10,14 appearing in the later tests are also skew for that declared involution. These are algebraic gradings, not physical chirality or generation labels.",
+          "For the stable-support fixture, both real covectors have square3 and temporal frequencies plus/minus2; their spatial band value is16-9-3=4. Their sum is purely normal6eta with band value -36-3=-39. Only the two ordered mixed inputs contribute that Fourier frequency after realification. The polarized actual Q coefficient -22080 therefore cannot be canceled by the constant-coefficient linear operator acting on a second variation with the same strict all-field support. The proof appropriately excludes only that twice differentiable strict-support family and explicitly does not infer a growing forced response.",
+          "Source custody remains conditional: the endpoint is the existing selected printed low-Phi equation, both historical i-anticommutator factors remain in the engine, and the reconstructed W2 Euler equation is a distinct object. Full primitive translations are retained without optional Sp, standard-family, or positive-physical-norm substitutions. K95 native completion and K77 symbol portability are not equated with a resolved source real-form bridge. No source-GU or physics-ledger falsification follows.",
+          "The four Lean statements prove only their stated finite algebraic implications under hypotheses. The report accurately leaves universal Clifford identities, analytic branch consequences, scalarizer range and PDE/domain interpretation as written mathematics; it does not label the result a full PDE formalization."
+        ],
+        "limits": [
+          "No probes, Lean builds, or other verification jobs were run by this reviewer. The reported179 exact checks and four Lean core successes are root-owned verification; this review independently inspected the proof, producer, stored certificate, and Lean statements.",
+          "The exact numerical receivers1296 and -22080 are supported by the retained native producer and full certificate, not by a second independently implemented numerical calculation in this review.",
+          "The prior full216 analytic invariant branch, native product engine and earlier scalarizer construction are reused with their existing conditional premises. This is not a fresh proof of their complete source ownership.",
+          "Necessary cokernel compatibility through the first four branch orders does not itself construct polynomial corrections at those orders; the text explicitly preserves that distinction.",
+          "No global L2 fixed-leg packet, physical state admission, unrestricted curved nonlinear instability, kappa=1 result, source-selected completion or source/class-C verdict is established."
+        ]
+      },
+      {
+        "accepted": true,
+        "reviewer": "/root/falsification_rerank",
+        "role": "independent hostile mathematical and scope reviewer",
+        "artifact_hashes": {
+          "explorations/conditional-build/printed-nonlinear-transfer-2026-11-27.md": "28bb64f53d40b4ca7434534f5104d018c273ca9d0e3561f7d3a8233ea91ca87b",
+          "tests/program-focus/printed_nonlinear_transfer_probe.py": "e26e1f16f6ae58e7564fbc5a3e47e7623159dfff2d69374e996c805e17533dde",
+          "lab/process/printed-nonlinear-transfer-certificates.json": "310ce5c4e6f85984938f95bdfe2e04f3eb162184953aaf06c1721cb49c208296",
+          "Lean/GUFormalization/PrintedNonlinear.lean": "3dd51f5f6aab8a87b8c21f95fb70430d6d9f84e54d3755fd0928537333976eb2"
+        },
+        "manifest": "/private/tmp/gu-printed-nonlinear-frozen-hashes.json",
+        "hash_authentication": {
+          "all_four_frozen_files_match": true,
+          "certificate_producer_and_dependency_bindings_checked": true
+        },
+        "findings": [
+          {
+            "claim": "Exact frozen nonlinear fixed-real-leg sector",
+            "disposition": "accepted",
+            "reason": "Both real quadratures retain the same real one-form leg, so their wedge interaction vanishes identically. The hook identities give the stated actual frozen system mode. The transport restriction and absence of a nonzero global full-space L2 claim are explicit."
+          },
+          {
+            "claim": "Literal native phase continuation",
+            "disposition": "accepted",
+            "reason": "At the selected phase t_n(p)=-2U. The native lower-term receiver is 1/2, while 2Q(S,U)=21U and rho(U)=0 remove the order-h background receiver. Thus 1/2+O(h^2) rejects the unchanged prescribed frame first jet about the small-h printed branch, not every corrected continuation."
+          },
+          {
+            "claim": "Leading scalarizer range and forced fifth-order obstruction",
+            "disposition": "accepted",
+            "reason": "The sign and range of B39 are consistent with the degree-40 scalarizer. The longitudinal identity and volume formulas explain the first four vanished cokernel coefficients. The forced printed u5 has the receiver 1296, and the selected functional annihilates the entire P_tau image by the Clifford support/parity argument, with exhaustive possible-column controls. It therefore obstructs a correction of order at most 38 with the same leading B39."
+          },
+          {
+            "claim": "Stable-frequency cutoff quadratic nonclosure",
+            "disposition": "accepted with the stated trace-channel qualification",
+            "reason": "The two input modes are stable in the specified trace channel. Their actual quadratic cross term at the excluded sum frequency has receiver -22080; conjugate frequencies do not cancel it. This excludes the stated strict all-field support class when it admits both modes and their free first-order superposition. It does not classify cutoffs requiring simultaneous stability in all symbol channels."
+          },
+          {
+            "claim": "Source, certificate, and formalization scope",
+            "disposition": "accepted",
+            "reason": "The report keeps the selected low-Phi printed endpoint and its analytic branch distinct from W2 and an authenticated physical domain. Exact controls support the concrete algebraic receivers; the four Lean cores formalize finite implications, not the continuum PDE or the entire native calculation."
+          }
+        ],
+        "issues": [],
+        "scope_limits": [
+          "No nonzero global L2(R^13) claim for the fixed-real-leg exact sector; local, analytic, and periodic comparison domains are distinguished.",
+          "The native phase test rejects only the unchanged frozen first jet, not all curvature-dependent amplitudes or nonlinear curved solutions.",
+          "The u5 cokernel result excludes only the same-leading B39 scalarizer plus a differential correction of order at most 38. Different leading symbols, higher order, nonlocal methods, and other solvability arguments remain outside.",
+          "The stable-band calculation concerns the specified trace channel and a cutoff admitting both displayed modes. It is not a theorem about the intersection of the stable bands of all 19 channels.",
+          "Nonzero out-of-band forcing does not by itself imply a growing response after relaxing the support cutoff.",
+          "No nonlinear curved existence, nonlinear instability on an admitted physical domain, kappa_1 conclusion, physical ghost, or GU falsification follows."
+        ],
+        "verification_attribution": {
+          "reviewer_performed": "Read-only inspection of report, probe, certificate, Lean, inherited bindings, and lightweight file-hash/JSON authentication. No probe, native engine, test suite, or Lean compilation executed by this reviewer.",
+          "root_reported": "179 exact checks passed in approximately 0.21 seconds; four finite Lean cores passed. These are root execution results, not independent reviewer reruns."
+        },
+        "owner_edits_performed": false
+      }
+    ],
+    "exact_controls": 179,
+    "command": "UV_CACHE_DIR=/private/tmp/gu-current-uv-cache uv run --offline --with sympy==1.14.0 python tests/program-focus/printed_nonlinear_transfer_probe.py --verify",
+    "lean": {
+      "status": "PASS",
+      "exit_code": 0,
+      "command": "lake env lean -j1 /private/tmp/gu-printed-nonlinear-20261127/Lean/GUFormalization/PrintedNonlinear.lean",
+      "cwd": "/Users/joe/Brain/CapacityOS/repos/public/gu-formalization",
+      "stdout": "",
+      "stderr": "",
+      "scope": "Four finite algebra cores, not native Clifford or PDE formalization",
+      "artifact_sha256": "3dd51f5f6aab8a87b8c21f95fb70430d6d9f84e54d3755fd0928537333976eb2"
+    },
+    "proof_scope": "Native finite exact algebra and four Lean abstract cores. Universal Clifford/cokernel identities, analytic series consequences and PDE/support arguments are reviewed written proofs.",
+    "gates": {
+      "program_focus_audit": "PASS",
+      "typed_carrier_declaration_audit": "PASS",
+      "kill_target_claim_audit": "PASS",
+      "frontmatter_status_schema_audit": "PASS",
+      "source_native_comparator_routing_audit": "PASS",
+      "lean_certificate_surface_audit": "PASS",
+      "current_state_absolute_currency_audit": "PASS",
+      "conditional_evidence_delta_gate": "PASS",
+      "research_context_reader_audit": "PASS"
+    }
+  },
+  "three_state": {
+    "ESTABLISHED": "The actual printed quadratic term admits an exact real frozen nonlinear growing null-hook sector, but its literal native continuation has receiver1/2+O(h\u00b2). The actual analytic branch first obstructs the fixed-leading order38 scalarizer correction at h5 with cokernel receiver1296; the protected h1\u2013h4 pattern does not extend. Two stable printed modes have a nonzero mixed vertex outside the stable support band, excluding the strict all-field cutoff that admits both.",
+    "RULED_OUT": "Named fixed-leading scalarizer repair, literal native frozen-mode continuation and strict cutoff repair admitting both modes.",
+    "NOT_MODELED_UNDETERMINED": "Nonlinear curved existence by other methods, corrected curved instability, physical quotient/domain, actual growing response to off-band forcing, kappa1 and source-GU viability."
+  },
+  "literature": [
+    {
+      "url": "https://arxiv.org/abs/0812.0210",
+      "relevance": "Craig and Steven Weinstein: nonlocal scalar ultrahyperbolic restrictions can restore well-posedness; not a GU physical prescription."
+    }
+  ],
+  "novelty_claim": "none",
+  "retrospective": {
+    "trigger": "Finite-order protection failed an attempted all-orders invariant-subspace check.",
+    "finding": "First four branch coefficients hid a grade5 term forced at fifth order. A nonzero Jacobian term alone is insufficient: its cokernel receiver is decisive for this method.",
+    "shortcut": "6 linear plus21 quadratic sparse maps expose the closure failure; one forced coefficient and13 possible sourcecolumns replace a229376-dimensional inverse.",
+    "forecast_vs_actual": "Actualnative waveform does not transfer; actualbranch defeats the correction; stable-support followup supplied a separate class-level exclusion.",
+    "failure_memory": "No allorders claims from h4, no literal curved-mode transfer, no whole-solution no-go from a failed scalarizer."
+  },
+  "follow_through": {
+    "consumed": [
+      "Naive inference from nonzeroVB39 to compatibility obstruction",
+      "Six-dimensional grade1/2 all-orders closure conjecture",
+      "Same-leadingB scalarizer correction of orderatmost38 around the actualsmallh branch",
+      "Literal frozen null-hook first-jet continuation about the native smallh branch",
+      "Strict all-field stable spatial cutoff admitting the tested two trace polarizations"
+    ],
+    "survivors": [
+      "Actual homogeneous analytic printed branch",
+      "Other nonlinear curved solution methods, corrected amplitudes or leading symbols",
+      "Fixed-real-leg zero-interaction sector",
+      "Nonlinear state manifolds, off-band auxiliary responses and physical quotients",
+      "Source-selected physical domain/current still missing"
+    ],
+    "next": "Pivot from extending the linear scalarizer to nonlinear state-support closure. Reuse the actual printed stable-pair vertex, rather than another dispersion or neighboring scalarizer census. Test which translation-invariant real state classes containing an open observed-momentum family are closed under the actual Q, and whether the out-of-band term can remain an auxiliary/constrained response rather than an excluded physical excitation. Bind any physical inference to an actual source-current/quotient map; missing such a map is an incompleteness statement, not permission to invent one. Rank that class discriminator against l2/l1 observable tests; preserve corrected curved solutions and other leading symbols as alternatives, not defaults."
+  },
+  "accounting": {
+    "counter_before": 109,
+    "counter_after": 110,
+    "LB_LADDER_before": 22,
+    "LB_LADDER_after": 23,
+    "bet_credit": 0,
+    "cell_status_changes": 0,
+    "ledger_verdict_changes": 0
+  },
+  "effect_line": "Change: closed the linear-scalarizer repair and simple stable-support repair classes, while retaining the actual branch and other state mechanisms. Why: native nonlinear checks decide more than another frozen classification. Authority: standing27h; applied as scoped evidence and ordinary reranking. No governance/source/ledger/choice change; physical effect remains unestablished."
+}

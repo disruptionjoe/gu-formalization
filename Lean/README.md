@@ -304,3 +304,7 @@ replacement for `lake build` or targeted standalone Lean checks.
 ## 2026-11-27 — Printed differential finite cores
 
 `GUFormalization/PrintedDifferential.lean` checks the abstract two-channel mode lift, quadratic quotient, determinant arithmetic and scalar perturbation margin. Targeted single-thread compilation passed without placeholders. Native symbol, geometry, scalar fundamental solutions, curved analytic CK and Sobolev growth remain written reviewed proofs. Result: `explorations/conditional-build/printed-differential-solvability-2026-11-27.md`.
+
+## 2026-11-27 — Printed nonlinear finite cores
+
+`GUFormalization/PrintedNonlinear.lean` checks the two-channel hook mode, zero-self-interaction consequence, cokernel correction obstruction and dispersion arithmetic. Targeted single-thread compilation passed without placeholders. Native Clifford identities, analytic branch coefficients, h-series and PDE/domain conclusions remain written reviewed proofs. Result: `explorations/conditional-build/printed-nonlinear-transfer-2026-11-27.md`.
